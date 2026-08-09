@@ -70,6 +70,7 @@ import ua.syt0r.kanji.presentation.common.theme.SidebarPosition
 import ua.syt0r.kanji.presentation.common.theme.UIDensity
 import ua.syt0r.kanji.presentation.common.theme.gradientForAccent
 import ua.syt0r.kanji.presentation.common.theme.surfaceForBaseMode
+import androidx.compose.material3.HorizontalDivider
 
 // ============================================
 // KAITEYO v1.2.0 — Appearance Studio

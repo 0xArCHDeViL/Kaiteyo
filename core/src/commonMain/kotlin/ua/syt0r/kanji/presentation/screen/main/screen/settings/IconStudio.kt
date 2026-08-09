@@ -47,6 +47,7 @@ import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
 import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoThemeState
 import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
 import ua.syt0r.kanji.presentation.common.theme.surfaceForBaseMode
+import androidx.compose.material3.HorizontalDivider
 
 // ============================================
 // KAITEYO ICON STUDIO v1.2
