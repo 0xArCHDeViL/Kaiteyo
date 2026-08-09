@@ -116,6 +116,12 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.background
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.shadow
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.Spring
+import androidx.compose.material3.Surface
+import androidx.compose.ui.text.font.FontWeight
 
 @Composable
 fun GeneralDashboardScreenUI(
@@ -430,15 +436,15 @@ fun StudyTargetItem(
     val studyTarget = studyTargetState.studyTarget
     val studyProgress = studyTargetState.progress
 
-    val interactionSource = remember { androidx.compose.foundation.interaction.MutableInteractionSource() }
-    val isPressed by androidx.compose.foundation.interaction.collectIsPressedAsState(interactionSource)
+    val interactionSource = remember { MutableInteractionSource() }
+    val isPressed by collectIsPressedAsState(interactionSource)
     
-    val scale by androidx.compose.animation.core.animateFloatAsState(
+    val scale by animateFloatAsState(
         targetValue = if (isPressed) 0.95f else 1f,
-        animationSpec = androidx.compose.animation.core.spring(dampingRatio = androidx.compose.animation.core.Spring.DampingRatioMediumBouncy)
+        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
     )
 
-    androidx.compose.material3.Surface(
+    Surface(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp)
@@ -446,7 +452,7 @@ fun StudyTargetItem(
                 scaleX = scale
                 scaleY = scale
             }
-            .androidx.compose.ui.draw.shadow(8.dp, RoundedCornerShape(20.dp), spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f))
+            .shadow(8.dp, RoundedCornerShape(20.dp), spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f))
             .clip(RoundedCornerShape(20.dp)),
         color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
     ) {
@@ -463,7 +469,7 @@ fun StudyTargetItem(
                 Text(
                     text = stringResource(studyTarget.categoryTitle) + "・" + stringResource(studyTarget.typeTitleRes),
                     style = MaterialTheme.typography.titleMedium,
-                    fontWeight = androidx.compose.ui.text.font.FontWeight.Bold
+                    fontWeight = FontWeight.Bold
                 )
             },
             trailingContent = {
@@ -621,7 +627,7 @@ private fun HeaderStatItem(title: String, text: String, modifier: Modifier = Mod
             text = text,
             color = MaterialTheme.colorScheme.primary,
             fontSize = 24.sp,
-            fontWeight = androidx.compose.ui.text.font.FontWeight.ExtraBold,
+            fontWeight = FontWeight.ExtraBold,
             textAlign = TextAlign.Center
         )
         Spacer(Modifier.height(4.dp))
@@ -629,7 +635,7 @@ private fun HeaderStatItem(title: String, text: String, modifier: Modifier = Mod
             text = title,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             fontSize = 12.sp,
-            fontWeight = androidx.compose.ui.text.font.FontWeight.Medium,
+            fontWeight = FontWeight.Medium,
             textAlign = TextAlign.Center
         )
     }

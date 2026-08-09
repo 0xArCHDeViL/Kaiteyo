@@ -55,6 +55,12 @@ import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.shadow
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.animateColorAsState
+import androidx.compose.animation.core.tween
 
 // ============================================
 // LIBRARY — the central hub
@@ -396,7 +402,7 @@ private fun SectionTitle(title: String, accent: KaiteyoAccentScheme, surfaceColo
                 .padding(end = 8.dp)
                 .width(4.dp)
                 .height(14.dp)
-                .clip(androidx.compose.foundation.shape.CircleShape)
+                .clip(CircleShape)
                 .background(accent.primary)
         )
         Text(
@@ -420,16 +426,16 @@ private fun SectionCard(
     surfaceColors: SurfaceColors
 ) {
     val interactionSource = remember { MutableInteractionSource() }
-    val isPressed by androidx.compose.foundation.interaction.collectIsPressedAsState(interactionSource)
+    val isPressed by collectIsPressedAsState(interactionSource)
     
-    val scale by androidx.compose.animation.core.animateFloatAsState(
+    val scale by animateFloatAsState(
         targetValue = if (isPressed) 0.95f else 1f,
-        animationSpec = androidx.compose.animation.core.spring(dampingRatio = androidx.compose.animation.core.Spring.DampingRatioMediumBouncy)
+        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
     )
 
-    val backgroundColor by androidx.compose.animation.animateColorAsState(
+    val backgroundColor by animateColorAsState(
         targetValue = if (isPressed) surfaceColors.surfaceInteractive else surfaceColors.surface,
-        animationSpec = androidx.compose.animation.core.tween(200)
+        animationSpec = tween(200)
     )
 
     val base = Modifier

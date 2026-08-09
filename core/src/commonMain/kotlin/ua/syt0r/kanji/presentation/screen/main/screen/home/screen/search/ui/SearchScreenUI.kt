@@ -64,6 +64,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.data.Ra
 import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.draw.alpha
+import androidx.compose.animation.AnimatedVisibility
 
 @Composable
 fun SearchScreenUI(
@@ -156,7 +157,7 @@ fun SearchScreenUI(
                 modifier = Modifier.fillMaxWidth().height(2.dp)
             ) {
                 val isProgressVisible = remember { derivedStateOf { state.value.isLoading } }
-                androidx.compose.animation.AnimatedVisibility(
+                AnimatedVisibility(
                     visible = isProgressVisible.value,
                     enter = fadeIn(),
                     exit = fadeOut()
