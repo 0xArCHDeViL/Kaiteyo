@@ -3,7 +3,7 @@ name: Build All
 on: [ workflow_call, workflow_dispatch ]
 
 jobs:
-  build-android-and-desktop-linux:
+  build-android:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,7 +26,6 @@ jobs:
           chmod +x gradlew
           echo $KEYSTORE | base64 --decode > keystore.jks
           ./gradlew app:assembleFdroidRelease
-          ./desktopApp/linux/AppImage/make.sh
 
       - name: Upload Android Build
         uses: actions/upload-artifact@v4
@@ -35,100 +34,9 @@ jobs:
           path: app/build/outputs/apk/fdroid/release/*.apk
           retention-days: 1
 
-      - name: Upload Desktop Build
-        uses: actions/upload-artifact@v4
-        with:
-          name: linux
-          path: desktopApp/linux/AppImage/Kanji_Dojo-x86_64.AppImage
-          retention-days: 1
-
-
-  build-desktop-windows:
-    runs-on: windows-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup build environment
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-          cache: gradle
-
-      - name: Build
-        run: ./gradlew desktopApp:packageDistributionForCurrentOS
-
-      - name: Upload Desktop Build
-        uses: actions/upload-artifact@v4
-        with:
-          name: windows
-          path: desktopApp/build/compose/binaries/main/msi/*.msi
-          retention-days: 1
-
-
-  build-desktop-mac-intel:
-    runs-on: macos-15-intel
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup build environment
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-          cache: gradle
-
-      - name: Build
-        run: |
-          ./gradlew desktopApp:packageDistributionForCurrentOS
-          DMG_PATH=$(find ./desktopApp/build/compose/binaries/main/dmg -name "*.dmg")
-          NEW_DMG_PATH=$(echo $DMG_PATH | sed 's/Kaiteyo/Kaiteyo-intel/g')
-          mv "$DMG_PATH" "$NEW_DMG_PATH"
-
-      - name: Upload Desktop Build
-        uses: actions/upload-artifact@v4
-        with:
-          name: mac-intel
-          path: desktopApp/build/compose/binaries/main/dmg/*.dmg
-          retention-days: 1
-
-
-  build-desktop-mac-arm:
-    runs-on: macos-15
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup build environment
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-          cache: gradle
-
-      - name: Build
-        run: |
-          ./gradlew desktopApp:packageDistributionForCurrentOS
-          DMG_PATH=$(find ./desktopApp/build/compose/binaries/main/dmg -name "*.dmg")
-          NEW_DMG_PATH=$(echo $DMG_PATH | sed 's/Kaiteyo/Kaiteyo-arm/g')
-          mv "$DMG_PATH" "$NEW_DMG_PATH"
-
-      - name: Upload Desktop Build
-        uses: actions/upload-artifact@v4
-        with:
-          name: mac-arm
-          path: desktopApp/build/compose/binaries/main/dmg/*.dmg
-          retention-days: 1
-
-
   verify-uploaded-builds:
     needs:
-      - build-android-and-desktop-linux
-      - build-desktop-windows
-      - build-desktop-mac-intel
-      - build-desktop-mac-arm
+      - build-android
     runs-on: ubuntu-latest
     steps:
       - name: Downloading artifacts

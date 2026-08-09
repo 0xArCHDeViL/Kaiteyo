@@ -26,6 +26,9 @@ android {
         targetSdk = 35
         versionCode = AppVersion.versionCode
         versionName = AppVersion.versionName
+        ndk {
+            abiFilters.add("arm64-v8a")
+        }
     }
 
     buildTypes {

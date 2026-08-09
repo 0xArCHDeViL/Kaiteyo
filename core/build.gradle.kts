@@ -14,11 +14,7 @@ plugins {
 
 kotlin {
 
-    jvm()
     androidTarget()
-    iosX64()
-    iosArm64()
-    iosSimulatorArm64()
 
     jvmToolchain(17)
     compilerOptions {
@@ -83,19 +79,6 @@ kotlin {
                 api(libs.core.ktx)
                 api(libs.appcompat)
                 implementation(libs.media3.exoplayer)
-            }
-        }
-        val jvmMain by getting {
-            dependencies {
-                implementation(compose.desktop.currentOs)
-                implementation(libs.sqldelight.jvm.sqlite.driver)
-                implementation(libs.ktor.server.netty)
-            }
-        }
-        iosMain {
-            dependencies {
-                implementation(libs.sqldelight.native.sqlite.driver)
-                implementation(libs.ktor.client.darwin)
             }
         }
     }
@@ -166,18 +149,6 @@ buildConfig {
         )
     }
 
-    sourceSets.getByName("jvmMain") {
-        buildConfigField(
-            name = kanaVoiceFieldName,
-            value = AppAssets.kanaVoiceWav.fileName
-        )
-    }
-
-    sourceSets.getByName("iosMain") {
-        buildConfigField(
-            name = kanaVoiceFieldName,
-            value = AppAssets.kanaVoiceWav.fileName
-        )
     }
 
 }
