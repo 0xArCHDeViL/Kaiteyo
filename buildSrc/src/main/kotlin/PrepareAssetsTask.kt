@@ -3,7 +3,7 @@ import org.gradle.api.Project
 import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.OutputDirectory
 import org.gradle.api.tasks.TaskAction
-import org.gradle.configurationcache.extensions.capitalized
+
 import java.io.File
 
 
@@ -18,7 +18,7 @@ private fun Project.registerAppAssetTask(sourceSet: PrepareAssetsTask.SourceSet)
     val composeResourcesDir = File(project.rootDir, "core/src/${sourceSet.title}/composeResources")
     val assetsDir = File(composeResourcesDir, "files")
 
-    val sourceSetTitle = sourceSet.title.capitalized()
+    val sourceSetTitle = sourceSet.title.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
     val prepareTask = tasks.create(
         "prepareKaiteyoAssetsFor$sourceSetTitle",
         PrepareAssetsTask::class.java
