@@ -13,6 +13,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.info.toInfoScreenData
 @Composable
 fun SearchScreen(
     mainNavigationState: MainNavigationState,
+    startWithRadicals: Boolean = false,
     viewModel: SearchScreenContract.ViewModel = getMultiplatformViewModel()
 ) {
 
@@ -35,7 +36,8 @@ fun SearchScreen(
             val feedbackTopic = FeedbackTopic.Expression(it.id, FeedbackScreen.Search)
             val destination = MainDestination.Feedback(feedbackTopic)
             mainNavigationState.navigate(destination)
-        }
+        },
+        startWithRadicals = startWithRadicals
     )
 
 }

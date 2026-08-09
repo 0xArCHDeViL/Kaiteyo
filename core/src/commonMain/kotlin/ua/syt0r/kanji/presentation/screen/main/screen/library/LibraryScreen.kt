@@ -82,7 +82,10 @@ fun LibraryScreen(navigationState: MainNavigationState) {
             VocabDashboardScreen(mainNavigationState = navigationState)
         }
         LibraryView.WordSearch -> DrillDownScaffold(title = "🔎  Word & Sentence Search", onBack = { view = LibraryView.Hub }) {
-            SearchScreen(mainNavigationState = navigationState)
+            SearchScreen(mainNavigationState = navigationState, startWithRadicals = false)
+        }
+        LibraryView.RadicalSearch -> DrillDownScaffold(title = "部  Radical Search", onBack = { view = LibraryView.Hub }) {
+            SearchScreen(mainNavigationState = navigationState, startWithRadicals = true)
         }
     }
 }
@@ -92,6 +95,7 @@ private sealed interface LibraryView {
     data object KanjiDecks : LibraryView
     data object Vocabulary : LibraryView
     data object WordSearch : LibraryView
+    data object RadicalSearch : LibraryView
 }
 
 @Composable
@@ -129,7 +133,8 @@ private fun LibraryHub(
     dataCenter: KaiteyoDataCenter,
     onOpenKanjiDecks: () -> Unit,
     onOpenVocab: () -> Unit,
-    onOpenWordSearch: () -> Unit
+    onOpenWordSearch: () -> Unit,
+    onOpenRadicalSearch: () -> Unit = {}
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
@@ -225,9 +230,9 @@ private fun LibraryHub(
                 )
                 SectionCard(
                     glyph = "文",
-                    title = "Grammar",
+                    title = "Grammar (Coming Soon)",
                     subtitle = "Particles & grammar terms",
-                    onClick = onOpenVocab,
+                    onClick = null,
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
@@ -244,7 +249,7 @@ private fun LibraryHub(
                     title = "Radicals",
                     subtitle = radicalCount?.let { "$it radicals — search by parts" }
                         ?: "Search by radical parts",
-                    onClick = { navigationState.navigate(MainDestination.KanjiBrowser()) },
+                    onClick = { view = LibraryView.RadicalSearch },
                     accent = accent,
                     surfaceColors = surfaceColors
                 )

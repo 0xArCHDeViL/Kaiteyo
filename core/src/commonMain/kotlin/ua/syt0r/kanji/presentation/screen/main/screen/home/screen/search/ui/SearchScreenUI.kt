@@ -89,7 +89,8 @@ fun SearchScreenUI(
     onCharacterClick: (String) -> Unit,
     onWordClick: (JapaneseWord) -> Unit,
     onScrolledToEnd: () -> Unit,
-    onWordFeedback: (JapaneseWord) -> Unit
+    onWordFeedback: (JapaneseWord) -> Unit,
+    startWithRadicals: Boolean = false
 ) {
 
     val coroutineScope = rememberCoroutineScope()
@@ -109,6 +110,11 @@ fun SearchScreenUI(
         snapshotFlow { selectedRadicalsState.value }
             .onEach { onRadicalsSelected(it) }
             .launchIn(this)
+
+        if (startWithRadicals) {
+            sheetState.show()
+            onRadicalsSectionExpanded()
+        }
     }
 
     ModalBottomSheetLayout(
