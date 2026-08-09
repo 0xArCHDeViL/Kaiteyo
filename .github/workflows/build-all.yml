@@ -24,7 +24,6 @@ jobs:
           SIGN_PASS: ${{ secrets.KEY_PASSWORD }}
         run: |
           chmod +x gradlew
-          echo $KEYSTORE | base64 --decode > keystore.jks
           ./gradlew app:assembleRelease
 
       - name: Upload Android Build
