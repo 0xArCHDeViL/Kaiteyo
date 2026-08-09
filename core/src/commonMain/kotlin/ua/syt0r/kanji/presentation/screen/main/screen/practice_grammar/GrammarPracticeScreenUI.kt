@@ -6,7 +6,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import ua.syt0r.kanji.presentation.common.FancyLoading
+import ua.syt0r.kanji.presentation.common.ui.FancyLoading
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeFlashcardUI

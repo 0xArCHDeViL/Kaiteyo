@@ -61,7 +61,7 @@ fun GrammarPracticeConjugationUI(
                 .fillMaxWidth()
                 .height(64.dp)
                 .clip(RoundedCornerShape(8.dp))
-                .background(MaterialTheme.extraColorScheme.surfaceCards)
+                .background(MaterialTheme.colorScheme.surfaceVariant)
                 .clickable { if (answers == null) builtConjugation = "" }, // clear on click
             contentAlignment = Alignment.Center
         ) {

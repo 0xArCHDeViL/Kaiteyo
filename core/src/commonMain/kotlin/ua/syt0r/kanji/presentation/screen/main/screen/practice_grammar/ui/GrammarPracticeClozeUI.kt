@@ -73,7 +73,7 @@ fun GrammarPracticeClozeUI(
                     Box(
                         modifier = Modifier
                             .clip(RoundedCornerShape(12.dp))
-                            .background(MaterialTheme.extraColorScheme.surfaceCards)
+                            .background(MaterialTheme.colorScheme.surfaceVariant)
                             .clickable { onAnswerSelected(index) }
                             .padding(horizontal = 24.dp, vertical = 16.dp),
                         contentAlignment = Alignment.Center

@@ -59,7 +59,7 @@ fun GrammarPracticeScrambleUI(
                 .fillMaxWidth()
                 .defaultMinSize(minHeight = 64.dp)
                 .clip(RoundedCornerShape(8.dp))
-                .background(MaterialTheme.extraColorScheme.surfaceCards)
+                .background(MaterialTheme.colorScheme.surfaceVariant)
                 .padding(16.dp),
             horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterHorizontally),
             verticalArrangement = Arrangement.spacedBy(8.dp)

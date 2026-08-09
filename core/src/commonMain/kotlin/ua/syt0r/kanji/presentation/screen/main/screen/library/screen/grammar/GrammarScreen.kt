@@ -19,26 +19,24 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import compose.icons.FeatherIcons
-import compose.icons.feathericons.BookOpen
-import compose.icons.feathericons.ChevronDown
-import compose.icons.feathericons.ChevronRight
-import compose.icons.feathericons.ChevronUp
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Book
+import androidx.compose.material.icons.filled.KeyboardArrowRight
+import androidx.compose.material.icons.filled.KeyboardArrowUp
+import androidx.compose.material.icons.filled.KeyboardArrowDown
 import kotlinx.coroutines.Dispatchers
-import org.jetbrains.compose.resources.ExperimentalResourceApi
-import ua.syt0r.kanji.Res
 import kotlinx.coroutines.IO
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.ExperimentalResourceApi
+import ua.syt0r.kanji.Res
 import ua.syt0r.kanji.presentation.common.AutopaddedScrollableColumn
-import ua.syt0r.kanji.presentation.common.FancyLoading
-import ua.syt0r.kanji.presentation.common.ScreenSurface
-import ua.syt0r.kanji.presentation.common.Toolbar
+import ua.syt0r.kanji.presentation.common.ui.FancyLoading
 import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
-
 import ua.syt0r.kanji.presentation.screen.main.MainDestination
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeScreenConfiguration
 
@@ -60,18 +58,28 @@ fun GrammarScreen(
         }
     }
 
-    ScreenSurface {
+    Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
         Column(Modifier.fillMaxSize()) {
-            Toolbar(
-                title = selectedChapter?.title ?: "Grammar / Bunpou",
-                onNavigateBack = {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.fillMaxWidth().height(56.dp)
+            ) {
+                IconButton(onClick = {
                     if (selectedChapter != null) {
                         selectedChapter = null
                     } else {
                         onNavigateBack()
                     }
+                }) {
+                    Icon(imageVector = Icons.Filled.ArrowBack, contentDescription = "Back")
                 }
-            )
+                Spacer(modifier = Modifier.width(8.dp))
+                Text(
+                    text = selectedChapter?.title ?: "Grammar / Bunpou",
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold
+                )
+            }
 
             if (chapters == null) {
                 FancyLoading(Modifier.fillMaxSize())
@@ -143,7 +151,7 @@ fun GrammarChapterList(
                     .clip(RoundedCornerShape(16.dp))
                     .clickable { onChapterClick(chapter) },
                 colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.extraColorScheme.surfaceCards
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant
                 ),
                 elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
             ) {
@@ -161,7 +169,7 @@ fun GrammarChapterList(
                         contentAlignment = Alignment.Center
                     ) {
                         Icon(
-                            imageVector = FeatherIcons.BookOpen,
+                            imageVector = Icons.Filled.Book,
                             contentDescription = null,
                             tint = MaterialTheme.colorScheme.primary
                         )
@@ -184,7 +192,7 @@ fun GrammarChapterList(
                     }
                     
                     Icon(
-                        imageVector = FeatherIcons.ChevronRight,
+                        imageVector = Icons.Filled.KeyboardArrowRight,
                         contentDescription = "Open",
                         tint = MaterialTheme.colorScheme.onSurfaceVariant
                     )
@@ -217,7 +225,7 @@ fun GrammarPointCard(point: GrammarPoint) {
             .clip(RoundedCornerShape(16.dp))
             .clickable { expanded = !expanded },
         colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.extraColorScheme.surfaceCards
+            containerColor = MaterialTheme.colorScheme.surfaceVariant
         ),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
     ) {
@@ -246,7 +254,7 @@ fun GrammarPointCard(point: GrammarPoint) {
                     }
                 }
                 Icon(
-                    imageVector = if (expanded) FeatherIcons.ChevronUp else FeatherIcons.ChevronDown,
+                    imageVector = if (expanded) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown,
                     contentDescription = "Expand",
                     tint = MaterialTheme.colorScheme.onSurfaceVariant
                 )

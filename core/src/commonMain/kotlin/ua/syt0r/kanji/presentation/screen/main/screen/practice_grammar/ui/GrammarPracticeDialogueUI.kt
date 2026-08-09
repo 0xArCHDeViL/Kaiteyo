@@ -74,7 +74,7 @@ fun GrammarPracticeDialogueUI(
                             )
                             .background(
                                 if (isUser) MaterialTheme.colorScheme.primaryContainer
-                                else MaterialTheme.extraColorScheme.surfaceCards
+                                else MaterialTheme.colorScheme.surfaceVariant
                             )
                             .padding(16.dp)
                     ) {
@@ -101,7 +101,7 @@ fun GrammarPracticeDialogueUI(
                         modifier = Modifier
                             .fillMaxWidth()
                             .clip(RoundedCornerShape(12.dp))
-                            .background(MaterialTheme.extraColorScheme.surfaceCards)
+                            .background(MaterialTheme.colorScheme.surfaceVariant)
                             .clickable { onAnswerSelected(index) }
                             .padding(16.dp),
                         contentAlignment = Alignment.Center
