@@ -32,12 +32,12 @@ android {
     }
 
     buildTypes {
-        val debug = getByName("debug") {
+        getByName("debug") {
             versionNameSuffix = "-debug"
             applicationIdSuffix = ".dev"
         }
 
-        val release = getByName("release") {
+        getByName("release") {
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(
@@ -108,8 +108,12 @@ dependencies {
 }
 
 aboutLibraries {
-    configPath = "core/credits"
-    excludeFields = arrayOf("generated")
+    collect {
+        configPath = "core/credits"
+    }
+    export {
+        excludeFields = arrayOf("generated")
+    }
 }
 
 fun adjustFlavorTasks() {

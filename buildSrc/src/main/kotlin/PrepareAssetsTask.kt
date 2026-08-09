@@ -48,9 +48,7 @@ open class PrepareAssetsTask : DefaultTask() {
     enum class SourceSet(val assetLocation: AssetLocation) {
 
         Common(AppAssets.CommonAssetsLocation),
-        Android(AppAssets.AndroidAssetsLocation),
-        Jvm(AppAssets.DesktopAssetsLocation),
-        iOS(AppAssets.IosAssetsLocation);
+        Android(AppAssets.AndroidAssetsLocation);
 
         val title: String = "${name.lowercase()}Main"
 
