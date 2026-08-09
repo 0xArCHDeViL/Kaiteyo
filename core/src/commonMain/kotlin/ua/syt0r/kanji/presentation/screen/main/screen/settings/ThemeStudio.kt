@@ -412,22 +412,33 @@ private fun ColorWheelPicker(
     ) {
         val center = Offset(size.width / 2f, size.height / 2f)
         val outerRadius = size.width / 2f
-        for (y in 0 until size.height.toInt()) {
-            for (x in 0 until size.width.toInt()) {
-                val dx = x - center.x
-                val dy = y - center.y
-                val distance = sqrt(dx * dx + dy * dy)
-                if (distance <= outerRadius) {
-                    val hue = (atan2(dy, dx) * 180f / PI.toFloat() + 90f + 360f) % 360f
-                    val saturation = (distance / outerRadius).coerceIn(0f, 1f)
-                    drawCircle(
-                        color = Color.hsv(hue, saturation, 1f).copy(alpha = 0.5f),
-                        radius = outerRadius,
-                        center = center
-                    )
-                }
-            }
-        }
+        
+        val hueColors = listOf(
+            Color.hsv(0f, 1f, 1f),
+            Color.hsv(60f, 1f, 1f),
+            Color.hsv(120f, 1f, 1f),
+            Color.hsv(180f, 1f, 1f),
+            Color.hsv(240f, 1f, 1f),
+            Color.hsv(300f, 1f, 1f),
+            Color.hsv(360f, 1f, 1f)
+        )
+        
+        drawCircle(
+            brush = Brush.sweepGradient(colors = hueColors, center = center),
+            radius = outerRadius,
+            center = center
+        )
+        
+        drawCircle(
+            brush = Brush.radialGradient(
+                colors = listOf(Color.White, Color.Transparent),
+                center = center,
+                radius = outerRadius
+            ),
+            radius = outerRadius,
+            center = center
+        )
+
         val selHue = selectedColor.hue
         val selSat = selectedColor.saturation
         val selRadius = selSat * outerRadius

@@ -4,7 +4,7 @@ enum class ThemeStudioTab(val displayName: String) {
     Base("Base"),
     Accent("Accent"),
     Custom("Custom"),
+    Gradient("Gradient"),
     Motion("Motion"),
-    Layout("Layout"),
-    Export("Export")
+    Layout("Layout")
 }
