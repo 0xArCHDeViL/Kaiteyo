@@ -22,7 +22,7 @@ This is a living document. Add issues as they are discovered, mark them as fixed
 
 ### Settings
 
-- [ ] **Appearance options are disorganized** — Settings feel randomly placed with no logical grouping.
+- [x] **Appearance options are disorganized** — Settings feel randomly placed with no logical grouping. (Resolved: UI redesigned into logical premium cards)
 - [ ] **No Appearance Studio** — The current settings are basic. Need full Theme Studio with color editor, gradient editor, live preview.
 
 ## 🟡 P1 — High (v1.2)
@@ -96,6 +96,8 @@ This is a living document. Add issues as they are discovered, mark them as fixed
 ## ✅ Recently Fixed
 
 - [x] **Persisted deck archive flag** — `is_archived` columns on `letter_deck`/`vocab_deck` (previously dead, added only by migration 13) are now in the SQLDelight schema, backed by `updateDeckArchived` repository methods and a toggle in the Deck Edit save dialog. **Follow-up:** filter archived decks from the main dashboard lists and add an "Archived" section to restore them (currently archived decks stay visible everywhere).
+- [x] **Settings UI Redesign** — Transformed the old, flat settings list into a premium, card-based UI with clear categories (Preferences, Data & Sync, More) and proper visual constraints.
+- [x] **Removed Sponsor Screen** — Eliminated "Buy Me a Coffee" screen and navigation to fix `UnresolvedAddressException` and unify architecture.
 - [x] **Unified Library hub** — Home now has a single Library tab (replaces Kanji/Vocabulary split). Includes hub with Sections + stat summary rows and drill-down screens (Kanji Decks, Vocabulary, Word & Sentence Search). Old default-tab preference remapped.
 - [x] **Import error: `animateColorAsState`** — Fixed by importing from `androidx.compose.animation`
 - [x] **Import error: `animateFloatAsState`** — Fixed by importing from `androidx.compose.animation.core`
