@@ -119,7 +119,7 @@ fun TagCreateDialog(
                             onValueChange = {},
                             readOnly = true,
                             label = { Text("Parent Tag") },
-                            modifier = Modifier.menuAnchor().fillMaxWidth(),
+                            modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
                             trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expandedParent) },
                             singleLine = true
                         )
@@ -239,7 +239,7 @@ fun TagMergeDialog(
                         onValueChange = {},
                         readOnly = true,
                         label = { Text("Source Tag (to merge FROM)") },
-                        modifier = Modifier.menuAnchor().fillMaxWidth(),
+                        modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expandedSource) },
                         singleLine = true
                     )
@@ -257,7 +257,7 @@ fun TagMergeDialog(
                         onValueChange = {},
                         readOnly = true,
                         label = { Text("Target Tag (to merge INTO)") },
-                        modifier = Modifier.menuAnchor().fillMaxWidth(),
+                        modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expandedTarget) },
                         singleLine = true
                     )

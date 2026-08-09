@@ -817,7 +817,7 @@ private fun DeckCreateDialog(
                             onValueChange = {},
                             readOnly = true,
                             label = { Text("Parent Deck") },
-                            modifier = Modifier.menuAnchor().fillMaxWidth(),
+                            modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
                             trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expandedParent) },
                             singleLine = true
                         )
@@ -881,7 +881,7 @@ private fun DeckMergeDialog(
                         onValueChange = {},
                         readOnly = true,
                         label = { Text("Target Deck") },
-                        modifier = Modifier.menuAnchor().fillMaxWidth(),
+                        modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expandedTarget) },
                         singleLine = true
                     )

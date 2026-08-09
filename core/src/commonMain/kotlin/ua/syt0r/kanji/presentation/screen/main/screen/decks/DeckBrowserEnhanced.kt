@@ -407,7 +407,7 @@ private fun CreateDeckDialog(
                             value = parentId?.let { id -> existingDecks.firstOrNull { d -> d.id == id }?.name ?: "Select parent" } ?: "Select parent",
                             onValueChange = { },
                             readOnly = true,
-                            modifier = Modifier.menuAnchor().fillMaxWidth(),
+                            modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
                             trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expandedParent) },
                             singleLine = true
                         )

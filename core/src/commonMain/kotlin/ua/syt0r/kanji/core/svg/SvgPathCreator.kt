@@ -41,14 +41,14 @@ object SvgPathCreator {
         }
         is SvgCommand.QuadraticBezierCurve -> {
             if (command.isAbsoluteCoordinates) {
-                quadraticBezierTo(
+                quadraticTo(
                     command.point1.x,
                     command.point1.y,
                     command.point2.x,
                     command.point2.y
                 )
             } else {
-                relativeQuadraticBezierTo(
+                relativeQuadraticTo(
                     command.point1.x,
                     command.point1.y,
                     command.point2.x,

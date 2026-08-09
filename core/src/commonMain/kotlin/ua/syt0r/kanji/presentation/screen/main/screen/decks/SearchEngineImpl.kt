@@ -241,7 +241,7 @@ private fun AdvancedSearchFilters(
                     value = criteria.field.displayName,
                     onValueChange = { },
                     readOnly = true,
-                    modifier = Modifier.menuAnchor().weight(1f),
+                    modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).weight(1f),
                     textStyle = TextStyle(fontSize = 12.sp),
                     trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded) },
                     singleLine = true
@@ -313,7 +313,7 @@ private fun AdvancedSearchFilters(
                         value = criteria.jlptLevel?.let { "N$it" } ?: "Any",
                         onValueChange = { },
                         readOnly = true,
-                        modifier = Modifier.menuAnchor().fillMaxWidth(),
+                        modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
                         textStyle = TextStyle(fontSize = 12.sp),
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expandedJlpt) },
                         singleLine = true

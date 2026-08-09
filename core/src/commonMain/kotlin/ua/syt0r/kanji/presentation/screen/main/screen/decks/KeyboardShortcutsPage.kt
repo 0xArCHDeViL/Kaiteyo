@@ -146,7 +146,7 @@ fun KeyboardShortcutsPage(
                         value = selectedProfile,
                         onValueChange = { },
                         readOnly = true,
-                        modifier = Modifier.menuAnchor().width(150.dp),
+                        modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).width(150.dp),
                         textStyle = TextStyle(fontSize = 13.sp),
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded) },
                         singleLine = true

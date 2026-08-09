@@ -8,7 +8,7 @@ pluginManagement {
     // NOTE: literal versions here (the version catalog is not accessible inside pluginManagement).
     // Keep in sync with [versions] in gradle/libs.versions.toml.
     val kotlinVersion = "2.1.20"
-    val agpVersion = "8.5.2"
+    val agpVersion = "8.7.2"
 
     plugins {
         kotlin("multiplatform") version kotlinVersion
