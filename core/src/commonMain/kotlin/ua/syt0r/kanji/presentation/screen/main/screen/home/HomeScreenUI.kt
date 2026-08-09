@@ -1,61 +1,29 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home
 
-import androidx.compose.animation.AnimatedContent
-import androidx.compose.animation.Crossfade
-import androidx.compose.animation.animateColorAsState
-import androidx.compose.animation.core.Animatable
-import androidx.compose.animation.core.AnimationVector1D
-import androidx.compose.animation.core.tween
-import androidx.compose.animation.scaleIn
-import androidx.compose.animation.scaleOut
-import androidx.compose.animation.togetherWith
+import androidx.compose.animation.*
+import androidx.compose.animation.core.*
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.IntrinsicSize
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.RowScope
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.consumeWindowInsets
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.windowInsetsPadding
-import androidx.compose.foundation.layout.wrapContentWidth
+import androidx.compose.foundation.interaction.collectIsPressedAsState
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Sync
 import androidx.compose.material.icons.outlined.Handshake
-import androidx.compose.material3.CenterAlignedTopAppBar
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.NavigationBarDefaults
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.State
-import androidx.compose.runtime.derivedStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.snapshotFlow
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.scale
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
@@ -69,7 +37,6 @@ import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
 import ua.syt0r.kanji.presentation.common.ui.Orientation
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.dashboard_common.IndicatorCircle
 
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreenUI(
@@ -80,62 +47,90 @@ fun HomeScreenUI(
     onSyncButtonClick: () -> Unit,
     screenTabContent: @Composable () -> Unit
 ) {
-
     if (LocalOrientation.current == Orientation.Landscape) {
         Row(
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)
         ) {
-
-            Column(
-                modifier = Modifier.fillMaxHeight()
-                    .verticalScroll(rememberScrollState())
-                    .padding(20.dp)
+            // Detached Floating Sidebar
+            Box(
+                modifier = Modifier
+                    .fillMaxHeight()
+                    .padding(vertical = 24.dp, horizontal = 16.dp)
+                    .shadow(
+                        elevation = 20.dp,
+                        shape = RoundedCornerShape(32.dp),
+                        spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
+                    )
+                    .clip(RoundedCornerShape(32.dp))
+                    .background(MaterialTheme.colorScheme.surface)
                     .width(IntrinsicSize.Max)
             ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxHeight()
+                        .verticalScroll(rememberScrollState())
+                        .padding(vertical = 32.dp, horizontal = 20.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(
+                            text = resolveString { appName },
+                            style = MaterialTheme.typography.headlineSmall,
+                            color = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.padding(end = 8.dp)
+                        )
 
-                Row {
-                    Text(
-                        text = resolveString { appName },
-                        style = MaterialTheme.typography.headlineLarge,
-                        modifier = Modifier.align(Alignment.Bottom)
-                    )
+                        SyncButton(
+                            state = syncIconState,
+                            onClick = onSyncButtonClick
+                        )
+                    }
 
-                    SyncButton(
-                        state = syncIconState,
-                        onClick = onSyncButtonClick
-                    )
+                    Spacer(modifier = Modifier.height(32.dp))
+
+                    availableTabs.forEach { tab ->
+                        HorizontalTabButton(
+                            tab = tab,
+                            selected = tab == selectedTabState.value,
+                            onClick = { onTabSelected(tab) }
+                        )
+                        Spacer(modifier = Modifier.height(12.dp))
+                    }
+
+                    Spacer(modifier = Modifier.weight(1f))
+
+                    if (!PlatformFeature.supported) return@Column
                 }
-
-                Spacer(modifier = Modifier.height(12.dp))
-
-                availableTabs.forEach { tab ->
-                    HorizontalTabButton(
-                        tab = tab,
-                        selected = tab == selectedTabState.value,
-                        onClick = { onTabSelected(tab) }
-                    )
-                }
-
-                Spacer(modifier = Modifier.weight(1f))
-
-                if (!PlatformFeature.supported) return@Column
             }
 
-            Surface(Modifier.weight(1f)) { screenTabContent.invoke() }
-
+            // Main Content Area
+            Surface(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .clip(RoundedCornerShape(topStart = 40.dp, bottomStart = 40.dp)),
+                color = MaterialTheme.colorScheme.background
+            ) {
+                screenTabContent.invoke()
+            }
         }
-
     } else {
         Scaffold(
+            containerColor = MaterialTheme.colorScheme.background,
             topBar = {
                 CenterAlignedTopAppBar(
+                    colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
+                        containerColor = Color.Transparent,
+                        titleContentColor = MaterialTheme.colorScheme.onBackground
+                    ),
                     title = {
                         Crossfade(
                             targetState = selectedTabState.value,
                             modifier = Modifier.width(IntrinsicSize.Max)
-                        ) {
+                        ) { tab ->
                             Text(
-                                text = resolveString(it.titleResolver),
+                                text = resolveString(tab.titleResolver),
+                                style = MaterialTheme.typography.titleLarge,
                                 modifier = Modifier.fillMaxWidth().wrapContentWidth()
                             )
                         }
@@ -150,16 +145,27 @@ fun HomeScreenUI(
                 )
             },
             bottomBar = {
-
-                Column(Modifier.shadow(10.dp)) {
-
+                // Floating Action Bar (Pill style)
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .windowInsetsPadding(NavigationBarDefaults.windowInsets)
+                        .padding(horizontal = 24.dp, vertical = 16.dp)
+                ) {
                     Row(
-                        modifier = Modifier.fillMaxWidth()
-                            .background(MaterialTheme.colorScheme.surface)
-                            .windowInsetsPadding(NavigationBarDefaults.windowInsets)
-                            .wrapContentWidth(align = Alignment.CenterHorizontally)
-                            .padding(horizontal = 20.dp, vertical = 10.dp),
-                        horizontalArrangement = Arrangement.spacedBy(4.dp)
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .shadow(
+                                elevation = 24.dp,
+                                shape = CircleShape,
+                                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.25f),
+                                ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f)
+                            )
+                            .clip(CircleShape)
+                            .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.95f))
+                            .padding(horizontal = 12.dp, vertical = 12.dp),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
                         availableTabs.forEach { tab ->
                             VerticalTabButton(
@@ -170,22 +176,18 @@ fun HomeScreenUI(
                         }
                     }
                 }
-
             }
-        ) {
+        ) { paddingValues ->
             Box(
                 modifier = Modifier
                     .fillMaxSize()
-                    .padding(it)
-                    .consumeWindowInsets(it)
+                    .padding(paddingValues)
+                    .consumeWindowInsets(paddingValues)
             ) {
                 screenTabContent.invoke()
             }
-
         }
-
     }
-
 }
 
 @Composable
@@ -193,93 +195,86 @@ private fun SyncButton(
     state: State<SyncIconState>,
     onClick: () -> Unit
 ) {
+    val interactionSource = remember { MutableInteractionSource() }
+    val isPressed by interactionSource.collectIsPressedAsState()
+    
+    val scale by animateFloatAsState(
+        targetValue = if (isPressed) 0.85f else 1f,
+        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessLow)
+    )
 
     Box(
-        modifier = Modifier
+        modifier = Modifier.scale(scale)
     ) {
-
         IconButton(
-            onClick = onClick
+            onClick = onClick,
+            interactionSource = interactionSource,
+            modifier = Modifier
+                .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f), CircleShape)
         ) {
-
             val loadingState = remember { derivedStateOf { state.value.loading } }
             val rotation = rememberSyncIconRotation(loadingState)
 
             Icon(
                 imageVector = Icons.Default.Sync,
                 contentDescription = null,
-                modifier = Modifier.graphicsLayer { rotationZ = rotation.value }
+                modifier = Modifier.graphicsLayer { rotationZ = rotation.value },
+                tint = MaterialTheme.colorScheme.primary
             )
-
         }
 
         AnimatedContent(
             targetState = state.value.indicator,
             transitionSpec = { scaleIn() togetherWith scaleOut() },
-            modifier = Modifier.align(Alignment.TopEnd).padding(8.dp)
+            modifier = Modifier.align(Alignment.TopEnd).padding(4.dp)
         ) {
             when (it) {
                 SyncIconIndicator.Disabled,
-                SyncIconIndicator.Conflict -> {
-                    Box(Modifier.size(10.dp))
-                }
-
-                SyncIconIndicator.PendingUpload -> {
-                    IndicatorCircle(MaterialTheme.extraColorScheme.due)
-                }
-
+                SyncIconIndicator.Conflict -> Box(Modifier.size(10.dp))
+                SyncIconIndicator.PendingUpload -> IndicatorCircle(MaterialTheme.extraColorScheme.due)
                 SyncIconIndicator.UpToDate -> {
                     Icon(
                         imageVector = Icons.Default.Check,
                         contentDescription = null,
                         modifier = Modifier
-                            .size(10.dp)
+                            .size(12.dp)
+                            .shadow(2.dp, CircleShape)
                             .background(
                                 color = MaterialTheme.extraColorScheme.success,
-                                shape = MaterialTheme.shapes.extraSmall
-                            ),
+                                shape = CircleShape
+                            )
+                            .padding(2.dp),
                         tint = MaterialTheme.colorScheme.surface
                     )
                 }
-
                 SyncIconIndicator.Canceled -> {
                     Box(
                         modifier = Modifier
-                            .size(7.dp)
+                            .size(8.dp)
                             .background(
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                shape = RoundedCornerShape(2.dp)
+                                shape = CircleShape
                             )
                     )
                 }
-
-                SyncIconIndicator.Error -> {
-                    IndicatorCircle(MaterialTheme.colorScheme.primary)
-                }
+                SyncIconIndicator.Error -> IndicatorCircle(MaterialTheme.colorScheme.primary)
             }
-
         }
-
     }
-
 }
 
 @Composable
 private fun rememberSyncIconRotation(animate: State<Boolean>): Animatable<Float, AnimationVector1D> {
     val rotation = remember { Animatable(360f) }
-
     LaunchedEffect(Unit) {
         var shouldLoop = false
-
         val animateLoop = suspend {
             while (shouldLoop) {
                 rotation.snapTo(360f)
-                rotation.animateTo(0f, tween(2000, 200))
+                rotation.animateTo(0f, tween(1500, easing = LinearEasing))
             }
         }
-
         var animateLoopJob: Job? = null
-
         snapshotFlow { animate.value }.collect { shouldAnimate ->
             shouldLoop = shouldAnimate
             if (shouldAnimate) {
@@ -289,7 +284,6 @@ private fun rememberSyncIconRotation(animate: State<Boolean>): Animatable<Float,
             }
         }
     }
-
     return rotation
 }
 
@@ -299,35 +293,43 @@ private fun RowScope.VerticalTabButton(
     selected: Boolean,
     onClick: () -> Unit
 ) {
-
     val interactionSource = remember { MutableInteractionSource() }
-    val backgroundColor = animateColorAsState(
-        if (selected) MaterialTheme.colorScheme.surfaceVariant else MaterialTheme.colorScheme.surface
+    val isPressed by interactionSource.collectIsPressedAsState()
+    
+    val scale by animateFloatAsState(
+        targetValue = if (isPressed) 0.9f else if (selected) 1.1f else 1f,
+        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessLow)
+    )
+
+    val backgroundColor by animateColorAsState(
+        targetValue = if (selected) MaterialTheme.colorScheme.primaryContainer else Color.Transparent,
+        animationSpec = tween(300)
+    )
+    
+    val contentColor by animateColorAsState(
+        targetValue = if (selected) MaterialTheme.colorScheme.onPrimaryContainer else MaterialTheme.colorScheme.onSurfaceVariant,
+        animationSpec = tween(300)
     )
 
     Box(
         contentAlignment = Alignment.Center,
         modifier = Modifier
             .weight(1f)
+            .scale(scale)
+            .height(48.dp)
+            .clip(CircleShape)
+            .background(backgroundColor)
             .clickable(
                 interactionSource = interactionSource,
-                indication = null,
-                onClick = onClick
-            )
-            .wrapContentWidth()
-            .size(48.dp)
-            .clip(MaterialTheme.shapes.medium)
-            .background(backgroundColor.value)
-            .clickable(
-                interactionSource = interactionSource,
-                indication = LocalIndication.current,
+                indication = null, // Custom ripple handled by scale/color
                 onClick = onClick
             )
             .testTag(tab.buttonTestTag)
     ) {
-        tab.iconContent()
+        CompositionLocalProvider(LocalContentColor provides contentColor) {
+            tab.iconContent()
+        }
     }
-
 }
 
 @Composable
@@ -336,28 +338,52 @@ private fun HorizontalTabButton(
     selected: Boolean,
     onClick: () -> Unit
 ) {
+    val interactionSource = remember { MutableInteractionSource() }
+    val isPressed by interactionSource.collectIsPressedAsState()
+    
+    val scale by animateFloatAsState(
+        targetValue = if (isPressed) 0.95f else 1f,
+        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
+    )
+
+    val backgroundColor by animateColorAsState(
+        targetValue = if (selected) MaterialTheme.colorScheme.primaryContainer else Color.Transparent,
+        animationSpec = tween(300)
+    )
+
+    val contentColor by animateColorAsState(
+        targetValue = if (selected) MaterialTheme.colorScheme.onPrimaryContainer else MaterialTheme.colorScheme.onSurfaceVariant,
+        animationSpec = tween(300)
+    )
+
     Row(
-        modifier = Modifier.fillMaxWidth()
-            .clip(MaterialTheme.shapes.large)
-            .let {
-                if (selected) it.background(MaterialTheme.colorScheme.surfaceVariant)
-                else it
-            }
-            .clickable(onClick = onClick)
-            .padding(horizontal = 12.dp, vertical = 12.dp)
+        modifier = Modifier
+            .fillMaxWidth()
+            .scale(scale)
+            .clip(RoundedCornerShape(16.dp))
+            .background(backgroundColor)
+            .clickable(
+                interactionSource = interactionSource,
+                indication = LocalIndication.current,
+                onClick = onClick
+            )
+            .padding(horizontal = 16.dp, vertical = 14.dp)
             .testTag(tab.buttonTestTag),
-        horizontalArrangement = Arrangement.spacedBy(12.dp),
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Box(
-            modifier = Modifier.size(24.dp),
-            contentAlignment = Alignment.Center
-        ) {
-            tab.iconContent()
+        CompositionLocalProvider(LocalContentColor provides contentColor) {
+            Box(
+                modifier = Modifier.size(24.dp),
+                contentAlignment = Alignment.Center
+            ) {
+                tab.iconContent()
+            }
+            Text(
+                text = resolveString(tab.titleResolver),
+                style = MaterialTheme.typography.titleMedium,
+                color = contentColor
+            )
         }
-        Text(
-            text = resolveString(tab.titleResolver),
-            style = MaterialTheme.typography.labelLarge
-        )
     }
 }

@@ -1,63 +1,45 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.ui
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.fadeOut
-import androidx.compose.animation.scaleIn
-import androidx.compose.animation.scaleOut
+import androidx.compose.animation.*
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.animation.core.spring
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.gestures.Orientation
 import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.ModalBottomSheetLayout
 import androidx.compose.material.ModalBottomSheetValue
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.KeyboardArrowUp
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.rounded.GridView
 import androidx.compose.material.rememberModalBottomSheetState
-import androidx.compose.material3.FloatingActionButton
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.LinearProgressIndicator
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.MutableState
-import androidx.compose.runtime.State
-import androidx.compose.runtime.derivedStateOf
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
-import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.text.TextRange
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.flow.filter
@@ -92,9 +74,11 @@ fun SearchScreenUI(
     onWordFeedback: (JapaneseWord) -> Unit,
     startWithRadicals: Boolean = false
 ) {
-
     val coroutineScope = rememberCoroutineScope()
-    val sheetState = rememberModalBottomSheetState(initialValue = ModalBottomSheetValue.Hidden)
+    val sheetState = rememberModalBottomSheetState(
+        initialValue = ModalBottomSheetValue.Hidden,
+        skipHalfExpanded = true
+    )
 
     val inputState = rememberSaveable(stateSaver = TextFieldValue.Saver) {
         mutableStateOf(TextFieldValue())
@@ -119,8 +103,20 @@ fun SearchScreenUI(
 
     ModalBottomSheetLayout(
         sheetState = sheetState,
+        sheetShape = RoundedCornerShape(topStart = 32.dp, topEnd = 32.dp),
+        sheetElevation = 24.dp,
+        sheetBackgroundColor = MaterialTheme.colorScheme.surface,
+        scrimColor = MaterialTheme.colorScheme.scrim.copy(alpha = 0.5f),
         sheetContent = {
-            Surface {
+            Column(Modifier.fillMaxHeight(0.85f)) {
+                Box(
+                    modifier = Modifier
+                        .padding(vertical = 12.dp)
+                        .size(width = 40.dp, height = 4.dp)
+                        .clip(CircleShape)
+                        .background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.4f))
+                        .align(Alignment.CenterHorizontally)
+                )
                 RadicalSearch(
                     state = radicalsState,
                     selectedRadicals = selectedRadicalsState,
@@ -136,11 +132,7 @@ fun SearchScreenUI(
             }
         }
     ) {
-
-        Column(
-            modifier = Modifier.fillMaxSize()
-        ) {
-
+        Column(modifier = Modifier.fillMaxSize()) {
             val searchContainerState = rememberCollapsibleContainerState()
 
             CollapsibleContainer(searchContainerState) {
@@ -152,15 +144,12 @@ fun SearchScreenUI(
                             onRadicalsSectionExpanded()
                         }
                     },
-                    modifier = Modifier.fillMaxWidth()
-                        .align(Alignment.CenterHorizontally)
+                    modifier = Modifier.fillMaxWidth().align(Alignment.CenterHorizontally)
                 )
             }
 
             Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(2.dp)
+                modifier = Modifier.fillMaxWidth().height(2.dp)
             ) {
                 val isProgressVisible = remember { derivedStateOf { state.value.isLoading } }
                 androidx.compose.animation.AnimatedVisibility(
@@ -170,7 +159,8 @@ fun SearchScreenUI(
                 ) {
                     LinearProgressIndicator(
                         modifier = Modifier.fillMaxSize(),
-                        trackColor = MaterialTheme.colorScheme.background
+                        color = MaterialTheme.colorScheme.primary,
+                        trackColor = Color.Transparent
                     )
                 }
             }
@@ -182,11 +172,8 @@ fun SearchScreenUI(
                 onWordClick = onWordClick,
                 onScrolledToEnd = onScrolledToEnd
             )
-
         }
-
     }
-
 }
 
 @Composable
@@ -195,7 +182,6 @@ private fun InputSection(
     onOpenRadicalSearch: () -> Unit,
     modifier: Modifier
 ) {
-
     var enteredText by inputState
     val interactionSource = remember { MutableInteractionSource() }
     val isInputFocused = remember { mutableStateOf(false) }
@@ -203,58 +189,104 @@ private fun InputSection(
     val isHintVisible = remember {
         derivedStateOf { !isInputFocused.value && enteredText.text.isEmpty() }
     }
-    val color = MaterialTheme.colorScheme.onSurfaceVariant
+    
+    val elevation by animateDpAsState(
+        targetValue = if (isInputFocused.value) 16.dp else 4.dp,
+        animationSpec = spring(stiffness = Spring.StiffnessLow)
+    )
 
-    Row(
+    val color = MaterialTheme.colorScheme.onSurface
+
+    Box(
         modifier = modifier
-            .fillMaxWidth()
-            .padding(vertical = 16.dp, horizontal = 20.dp)
-            .clip(MaterialTheme.shapes.large)
-            .background(MaterialTheme.colorScheme.surfaceVariant),
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        IconButton(
-            onClick = onOpenRadicalSearch
-        ) {
-            Text(text = "部")
-        }
-        Box(
-            modifier = Modifier.weight(1f),
-            contentAlignment = Alignment.CenterStart
-        ) {
-            BasicTextField(
-                value = enteredText,
-                onValueChange = { enteredText = it },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .onFocusChanged { isInputFocused.value = it.isFocused },
-                maxLines = 1,
-                singleLine = true,
-                interactionSource = interactionSource,
-                cursorBrush = SolidColor(color),
-                textStyle = MaterialTheme.typography.bodyLarge.copy(color)
+            .padding(horizontal = 24.dp, vertical = 16.dp)
+            .shadow(
+                elevation = elevation,
+                shape = CircleShape,
+                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)
             )
-
-            androidx.compose.animation.AnimatedVisibility(
-                visible = isHintVisible.value,
-                enter = fadeIn(),
-                exit = fadeOut()
+            .clip(CircleShape)
+            .background(MaterialTheme.colorScheme.surface)
+            .border(
+                width = 1.dp,
+                color = if (isInputFocused.value) MaterialTheme.colorScheme.primary.copy(alpha = 0.5f) else Color.Transparent,
+                shape = CircleShape
+            )
+            .padding(horizontal = 16.dp, vertical = 12.dp)
+    ) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            IconButton(
+                onClick = onOpenRadicalSearch,
+                modifier = Modifier.size(36.dp).background(MaterialTheme.colorScheme.primaryContainer, CircleShape)
             ) {
-                Text(
-                    text = resolveString { search.inputHint },
-                    style = MaterialTheme.typography.bodyLarge,
-                    color = color.copy(alpha = 0.7f)
+                Icon(
+                    imageVector = Icons.Rounded.GridView,
+                    contentDescription = "Radicals",
+                    tint = MaterialTheme.colorScheme.onPrimaryContainer,
+                    modifier = Modifier.size(20.dp)
                 )
             }
-        }
-        IconButton(
-            onClick = { enteredText = TextFieldValue() }
-        ) {
-            Icon(Icons.Default.Close, null)
-        }
+            
+            Box(
+                modifier = Modifier.weight(1f),
+                contentAlignment = Alignment.CenterStart
+            ) {
+                BasicTextField(
+                    value = enteredText,
+                    onValueChange = { enteredText = it },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .onFocusChanged { isInputFocused.value = it.isFocused },
+                    maxLines = 1,
+                    singleLine = true,
+                    interactionSource = interactionSource,
+                    cursorBrush = SolidColor(MaterialTheme.colorScheme.primary),
+                    textStyle = MaterialTheme.typography.bodyLarge.copy(color = color)
+                )
 
+                androidx.compose.animation.AnimatedVisibility(
+                    visible = isHintVisible.value,
+                    enter = fadeIn(),
+                    exit = fadeOut()
+                ) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Icon(
+                            imageVector = Icons.Default.Search,
+                            contentDescription = null,
+                            tint = color.copy(alpha = 0.4f),
+                            modifier = Modifier.size(20.dp).padding(end = 6.dp)
+                        )
+                        Text(
+                            text = resolveString { search.inputHint },
+                            style = MaterialTheme.typography.bodyLarge,
+                            color = color.copy(alpha = 0.4f)
+                        )
+                    }
+                }
+            }
+
+            androidx.compose.animation.AnimatedVisibility(
+                visible = enteredText.text.isNotEmpty(),
+                enter = scaleIn() + fadeIn(),
+                exit = scaleOut() + fadeOut()
+            ) {
+                IconButton(
+                    onClick = { enteredText = TextFieldValue() },
+                    modifier = Modifier.size(28.dp).background(MaterialTheme.colorScheme.surfaceVariant, CircleShape)
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Close,
+                        contentDescription = "Clear",
+                        modifier = Modifier.size(16.dp),
+                        tint = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+        }
     }
-
 }
 
 @OptIn(ExperimentalFoundationApi::class)
@@ -266,9 +298,7 @@ private fun ListContent(
     onWordClick: (JapaneseWord) -> Unit,
     onScrolledToEnd: () -> Unit
 ) {
-
     val listState = rememberLazyListState()
-
     val canLoadMoreWords = remember(screenState) {
         derivedStateOf { screenState.words.value.canLoadMore }
     }
@@ -283,7 +313,7 @@ private fun ListContent(
     }
 
     val shouldShowScrollUpButton = remember {
-        derivedStateOf { listState.firstVisibleItemIndex > 10 }
+        derivedStateOf { listState.firstVisibleItemIndex > 5 }
     }
 
     var wordToAddToVocabDeck by remember { mutableStateOf<JapaneseWord?>(null) }
@@ -294,100 +324,131 @@ private fun ListContent(
         )
     }
 
-    Box {
-
+    Box(modifier = Modifier.fillMaxSize()) {
         val contentBottomPadding = remember { mutableStateOf(0.dp) }
 
         LazyColumn(
             state = listState,
             modifier = Modifier
                 .fillMaxSize()
-                .nestedScroll(searchContainerState.nestedScrollConnection)
+                .nestedScroll(searchContainerState.nestedScrollConnection),
+            contentPadding = PaddingValues(bottom = contentBottomPadding.value + 80.dp)
         ) {
-
-            item {
-                SearchHeader(
-                    text = resolveString { search.charactersTitle(screenState.characters.size) }
-                )
-            }
-
-            if (screenState.characters.isNotEmpty()) item {
-
-                LazyRow(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 8.dp),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    item { Spacer(modifier = Modifier.width(20.dp)) }
-                    items(screenState.characters) {
-                        HighlightedLetter(
-                            letter = it,
-                            onClick = onCharacterClick,
-                            aspectRatioConstraintOrientation = Orientation.Vertical
-                        )
-                    }
-                    item { Spacer(modifier = Modifier.width(20.dp)) }
+            if (screenState.characters.isNotEmpty()) {
+                item {
+                    SearchHeader(text = resolveString { search.charactersTitle(screenState.characters.size) })
                 }
-
+                item {
+                    LazyRow(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(vertical = 12.dp),
+                        horizontalArrangement = Arrangement.spacedBy(12.dp),
+                        contentPadding = PaddingValues(horizontal = 24.dp)
+                    ) {
+                        items(screenState.characters) {
+                            HighlightedLetter(
+                                letter = it,
+                                onClick = onCharacterClick,
+                                aspectRatioConstraintOrientation = Orientation.Vertical
+                            )
+                        }
+                    }
+                }
             }
 
             val currentWordsState = screenState.words.value
+            if (currentWordsState.totalCount > 0) {
+                stickyHeader {
+                    SearchHeader(
+                        text = resolveString { search.wordsTitle(currentWordsState.totalCount) },
+                        isSticky = true
+                    )
+                }
+                
+                item { Spacer(Modifier.height(8.dp)) }
 
-            stickyHeader {
-                SearchHeader(
-                    text = resolveString { search.wordsTitle(currentWordsState.totalCount) }
-                )
+                itemsIndexed(currentWordsState.items) { index, word ->
+                    Box(modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)) {
+                        JapaneseWordUI(
+                            index = index,
+                            word = word,
+                            onClick = { onWordClick(word) },
+                            onFuriganaClick = onCharacterClick,
+                            addWordToVocabDeckClick = { wordToAddToVocabDeck = word }
+                        )
+                    }
+                }
             }
-
-            item { Spacer(Modifier.height(8.dp)) }
-
-            itemsIndexed(currentWordsState.items) { index, word ->
-                JapaneseWordUI(
-                    index = index,
-                    word = word,
-                    onClick = { onWordClick(word) },
-                    onFuriganaClick = onCharacterClick,
-                    addWordToVocabDeckClick = { wordToAddToVocabDeck = word }
-                )
-            }
-
-            item { Spacer(modifier = Modifier.height(contentBottomPadding.value + 16.dp)) }
-
         }
+
+        // Fading edge at the top for sticky header effect
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(16.dp)
+                .background(
+                    brush = Brush.verticalGradient(
+                        colors = listOf(
+                            MaterialTheme.colorScheme.background,
+                            Color.Transparent
+                        )
+                    )
+                )
+        )
 
         AnimatedVisibility(
             visible = shouldShowScrollUpButton.value,
-            enter = scaleIn(),
-            exit = scaleOut(),
-            modifier = Modifier.align(Alignment.BottomEnd)
-                .padding(bottom = 16.dp, end = 16.dp)
+            enter = scaleIn(spring(dampingRatio = Spring.DampingRatioMediumBouncy)) + fadeIn(),
+            exit = scaleOut() + fadeOut(),
+            modifier = Modifier
+                .align(Alignment.BottomEnd)
+                .padding(bottom = 24.dp, end = 24.dp)
                 .trackItemPosition { contentBottomPadding.value = it.heightFromScreenBottom }
         ) {
             val coroutineScope = rememberCoroutineScope()
             FloatingActionButton(
                 onClick = {
-                    coroutineScope.launch { listState.scrollToItem(0) }
+                    coroutineScope.launch { listState.animateScrollToItem(0) }
                     coroutineScope.launch { searchContainerState.expand() }
-                }
+                },
+                containerColor = MaterialTheme.colorScheme.primaryContainer,
+                contentColor = MaterialTheme.colorScheme.onPrimaryContainer,
+                elevation = FloatingActionButtonDefaults.elevation(defaultElevation = 8.dp, pressedElevation = 12.dp)
             ) {
-                Icon(Icons.Default.KeyboardArrowUp, null)
+                Icon(Icons.Default.KeyboardArrowUp, contentDescription = "Scroll to top")
             }
         }
-
     }
-
 }
 
 @Composable
-private fun SearchHeader(text: String) {
-    Text(
-        text = text,
-        style = MaterialTheme.typography.titleMedium,
+private fun SearchHeader(text: String, isSticky: Boolean = false) {
+    Box(
         modifier = Modifier
             .fillMaxWidth()
-            .background(MaterialTheme.colorScheme.surfaceVariant)
-            .padding(horizontal = 20.dp, vertical = 10.dp)
-            .wrapContentSize(Alignment.CenterStart)
-    )
+            .background(
+                if (isSticky) MaterialTheme.colorScheme.background.copy(alpha = 0.9f) 
+                else Color.Transparent
+            )
+            .padding(horizontal = 24.dp, vertical = if (isSticky) 12.dp else 16.dp)
+    ) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            Box(
+                modifier = Modifier
+                    .width(4.dp)
+                    .height(18.dp)
+                    .clip(CircleShape)
+                    .background(MaterialTheme.colorScheme.primary)
+            )
+            Text(
+                text = text,
+                style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                color = MaterialTheme.colorScheme.onBackground
+            )
+        }
+    }
 }
