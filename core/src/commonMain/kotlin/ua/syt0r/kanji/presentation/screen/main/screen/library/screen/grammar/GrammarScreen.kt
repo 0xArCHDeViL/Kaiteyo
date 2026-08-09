@@ -39,10 +39,14 @@ import ua.syt0r.kanji.presentation.common.ScreenSurface
 import ua.syt0r.kanji.presentation.common.Toolbar
 import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
 
+import ua.syt0r.kanji.presentation.screen.main.MainDestination
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeScreenConfiguration
+
 @OptIn(ExperimentalResourceApi::class)
 @Composable
 fun GrammarScreen(
-    onNavigateBack: () -> Unit
+    onNavigateBack: () -> Unit,
+    onNavigateToPractice: (MainDestination.GrammarPractice) -> Unit
 ) {
     var chapters by remember { mutableStateOf<List<GrammarChapter>?>(null) }
     var selectedChapter by remember { mutableStateOf<GrammarChapter?>(null) }
@@ -78,7 +82,27 @@ fun GrammarScreen(
                         onChapterClick = { selectedChapter = it }
                     )
                 } else {
-                    GrammarPointList(chapter = selectedChapter!!)
+                    Column(Modifier.fillMaxSize()) {
+                        Button(
+                            onClick = {
+                                val chapter = selectedChapter!!
+                                val config = GrammarPracticeScreenConfiguration(
+                                    deckId = chapter.id.toLong(),
+                                    items = chapter.points.map {
+                                        GrammarPracticeScreenConfiguration.Item.Flashcard(
+                                            pointNumber = it.number,
+                                            showMeaningInFront = false
+                                        )
+                                    }
+                                )
+                                onNavigateToPractice(MainDestination.GrammarPractice(config))
+                            },
+                            modifier = Modifier.fillMaxWidth().padding(16.dp)
+                        ) {
+                            Text("Practice Chapter")
+                        }
+                        GrammarPointList(chapter = selectedChapter!!)
+                    }
                 }
             }
         }

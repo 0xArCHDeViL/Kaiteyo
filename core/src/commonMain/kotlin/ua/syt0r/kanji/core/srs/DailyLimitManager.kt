@@ -38,6 +38,10 @@ data class DailyLimitConfiguration(
     val isVocabLimitCombined: Boolean = true,
     val vocabCombinedLimit: PracticeLimit = DefaultPracticeLimit,
     val vocabSeparatedLimit: Map<VocabPracticeType, PracticeLimit> = VocabPracticeType.values()
+        .associateWith { DefaultPracticeLimit },
+    val isGrammarLimitCombined: Boolean = true,
+    val grammarCombinedLimit: PracticeLimit = DefaultPracticeLimit,
+    val grammarSeparatedLimit: Map<GrammarPracticeType, PracticeLimit> = GrammarPracticeType.values()
         .associateWith { DefaultPracticeLimit }
 )
 

@@ -28,6 +28,8 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.LetterPrac
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.LetterPracticeScreenConfiguration
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.VocabPracticeScreen
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabPracticeScreenConfiguration
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.GrammarPracticeScreen
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeScreenConfiguration
 import ua.syt0r.kanji.presentation.screen.main.screen.sync.SyncScreen
 import ua.syt0r.kanji.presentation.screen.main.screen.text_analysis.TextAnalysisScreen
 import ua.syt0r.kanji.presentation.screen.main.screen.vocab_card.SuggestedVocabCardData
@@ -697,6 +699,8 @@ val defaultMainDestinations: List<MainDestinationConfiguration<*>> = listOf(
     MainDestination.Info::class.configuration(),
     MainDestination.LetterPractice::class.configuration(),
     MainDestination.VocabPractice::class.configuration(),
+    MainDestination.GrammarPractice::class.configuration(),
+    MainDestination.Sync::class.configuration(),
     MainDestination.Account::class.configuration(),
     MainDestination.DeckBrowser.configuration(),
     MainDestination.CardBrowser.configuration(),

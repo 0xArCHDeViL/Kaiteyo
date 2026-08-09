@@ -53,4 +53,15 @@ fun Module.applySrsDefinitions() {
         )
     }
 
+    single<GrammarSrsManager> {
+        DefaultGrammarSrsManager(
+            srsCardRepository = get(),
+            dailyLimitManager = get(),
+            timeUtils = get(),
+            appPreferences = get(),
+            reviewHistoryRepository = get(),
+            coroutineScope = CoroutineScope(Dispatchers.IO)
+        )
+    }
+
 }

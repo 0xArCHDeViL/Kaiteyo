@@ -89,7 +89,10 @@ fun LibraryScreen(navigationState: MainNavigationState) {
         LibraryView.RadicalSearch -> DrillDownScaffold(title = "部  Radical Search", onBack = { view = LibraryView.Hub }) {
             SearchScreen(mainNavigationState = navigationState, startWithRadicals = true)
         }
-        LibraryView.Grammar -> GrammarScreen(onNavigateBack = { view = LibraryView.Hub })
+        LibraryView.Grammar -> GrammarScreen(
+            onNavigateBack = { view = LibraryView.Hub },
+            onNavigateToPractice = { navigationState.navigate(it) }
+        )
     }
 }
 
