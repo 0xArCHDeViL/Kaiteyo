@@ -9,3 +9,12 @@ kotlin {
 repositories {
     mavenCentral()
 }
+
+gradlePlugin {
+    plugins {
+        register("buildLogic") {
+            id = "buildLogic"
+            implementationClass = "DummyPlugin"
+        }
+    }
+}
