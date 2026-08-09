@@ -11,6 +11,9 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAn
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeFlashcardUI
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeClozeUI
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeConjugationUI
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeScrambleUI
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeDialogueUI
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 
 @Composable
@@ -41,6 +44,30 @@ fun GrammarPracticeScreenUI(
                             onAnswerSelected = { index -> 
                                 onEvent(GrammarPracticeScreenContract.Event.AnswerCloze(index == reviewState.correctAnswerIndex)) 
                             },
+                            onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
+                        )
+                    }
+                    is MutableGrammarReviewState.ConjugationBuilder -> {
+                        GrammarPracticeConjugationUI(
+                            state = reviewState,
+                            answers = queueState.answers,
+                            onAnswerSubmit = { isCorrect -> onEvent(GrammarPracticeScreenContract.Event.AnswerConjugation(isCorrect)) },
+                            onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
+                        )
+                    }
+                    is MutableGrammarReviewState.SentenceScramble -> {
+                        GrammarPracticeScrambleUI(
+                            state = reviewState,
+                            answers = queueState.answers,
+                            onAnswerSubmit = { isCorrect -> onEvent(GrammarPracticeScreenContract.Event.AnswerScramble(isCorrect)) },
+                            onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
+                        )
+                    }
+                    is MutableGrammarReviewState.SurvivalDialogue -> {
+                        GrammarPracticeDialogueUI(
+                            state = reviewState,
+                            answers = queueState.answers,
+                            onAnswerSelected = { index -> onEvent(GrammarPracticeScreenContract.Event.AnswerDialogue(index == reviewState.correctAnswerIndex)) },
                             onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
                         )
                     }

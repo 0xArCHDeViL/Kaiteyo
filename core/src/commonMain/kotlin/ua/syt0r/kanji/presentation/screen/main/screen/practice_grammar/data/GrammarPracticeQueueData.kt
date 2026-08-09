@@ -59,6 +59,21 @@ sealed interface GrammarPracticeQueueItemDescriptor {
         override val pointNumber: String,
         override val deckId: Long
     ) : GrammarPracticeQueueItemDescriptor
+
+    data class ConjugationBuilder(
+        override val pointNumber: String,
+        override val deckId: Long
+    ) : GrammarPracticeQueueItemDescriptor
+
+    data class SentenceScramble(
+        override val pointNumber: String,
+        override val deckId: Long
+    ) : GrammarPracticeQueueItemDescriptor
+
+    data class SurvivalDialogue(
+        override val pointNumber: String,
+        override val deckId: Long
+    ) : GrammarPracticeQueueItemDescriptor
 }
 
 sealed interface GrammarPracticeItemData {
@@ -96,6 +111,58 @@ sealed interface GrammarPracticeItemData {
             formula = formula,
             clozeSentence = clozeSentence,
             meaning = meaning,
+            options = options,
+            correctAnswerIndex = correctAnswerIndex
+        )
+    }
+
+    data class ConjugationBuilder(
+        val pointNumber: String,
+        val title: String,
+        val formula: String,
+        val verbDictionary: String,
+        val verbMeaning: String,
+        val targetConjugation: String,
+        val syllables: List<String>
+    ) : GrammarPracticeItemData {
+        override fun toReviewState(coroutineScope: CoroutineScope) = MutableGrammarReviewState.ConjugationBuilder(
+            title = title,
+            formula = formula,
+            verbDictionary = verbDictionary,
+            verbMeaning = verbMeaning,
+            targetConjugation = targetConjugation,
+            syllables = syllables
+        )
+    }
+
+    data class SentenceScramble(
+        val pointNumber: String,
+        val title: String,
+        val formula: String,
+        val meaning: String,
+        val originalSentence: String,
+        val scrambledParts: List<String>
+    ) : GrammarPracticeItemData {
+        override fun toReviewState(coroutineScope: CoroutineScope) = MutableGrammarReviewState.SentenceScramble(
+            title = title,
+            formula = formula,
+            meaning = meaning,
+            originalSentence = originalSentence,
+            scrambledParts = scrambledParts
+        )
+    }
+
+    data class SurvivalDialogue(
+        val title: String,
+        val context: String,
+        val dialogueLines: List<Pair<String, String>>, // Speaker to Text (could be Japanese or translated)
+        val options: List<String>,
+        val correctAnswerIndex: Int
+    ) : GrammarPracticeItemData {
+        override fun toReviewState(coroutineScope: CoroutineScope) = MutableGrammarReviewState.SurvivalDialogue(
+            title = title,
+            context = context,
+            dialogueLines = dialogueLines,
             options = options,
             correctAnswerIndex = correctAnswerIndex
         )

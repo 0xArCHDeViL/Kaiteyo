@@ -44,7 +44,10 @@ enum class GrammarPracticeType(
 ) : PracticeType {
 
     Flashcard(SrsPracticeType.GrammarFlashcard),
-    Cloze(SrsPracticeType.GrammarCloze);
+    Cloze(SrsPracticeType.GrammarCloze),
+    ConjugationBuilder(SrsPracticeType.GrammarConjugationBuilder),
+    SentenceScramble(SrsPracticeType.GrammarSentenceScramble),
+    SurvivalDialogue(SrsPracticeType.GrammarSurvivalDialogue);
 
     fun toSrsKey(pointId: String) = SrsCardKey(pointId, srsPracticeType.value)
 
@@ -69,7 +72,10 @@ enum class SrsPracticeType(val value: Long) {
     VocabWriting(12),
     
     GrammarFlashcard(20),
-    GrammarCloze(21);
+    GrammarCloze(21),
+    GrammarConjugationBuilder(22),
+    GrammarSentenceScramble(23),
+    GrammarSurvivalDialogue(24);
 
 }
 

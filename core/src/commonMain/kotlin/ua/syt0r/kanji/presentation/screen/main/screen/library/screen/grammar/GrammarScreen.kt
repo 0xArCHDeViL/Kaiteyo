@@ -96,9 +96,21 @@ fun GrammarScreen(
                                             ),
                                             GrammarPracticeScreenConfiguration.Item.Cloze(
                                                 pointNumber = it.number
+                                            ),
+                                            GrammarPracticeScreenConfiguration.Item.ConjugationBuilder(
+                                                pointNumber = it.number
+                                            ),
+                                            GrammarPracticeScreenConfiguration.Item.SentenceScramble(
+                                                pointNumber = it.number
                                             )
                                         )
-                                    }
+                                    } + if (chapter.points.isNotEmpty()) {
+                                        listOf(
+                                            GrammarPracticeScreenConfiguration.Item.SurvivalDialogue(
+                                                pointNumber = chapter.points.last().number
+                                            )
+                                        )
+                                    } else emptyList()
                                 )
                                 onNavigateToPractice(MainDestination.GrammarPractice(config))
                             },

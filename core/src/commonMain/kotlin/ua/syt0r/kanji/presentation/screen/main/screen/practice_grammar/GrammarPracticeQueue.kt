@@ -20,6 +20,9 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.Gram
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarSummaryItem
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeFlashcardDataUseCase
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeClozeDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeConjugationDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeScrambleDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeDialogueDataUseCase
 import ua.syt0r.kanji.core.srs.GrammarPracticeType
 
 typealias GrammarPracticeQueue = PracticeQueue<GrammarPracticeQueueState, GrammarPracticeQueueItemDescriptor>
@@ -34,6 +37,9 @@ class DefaultGrammarPracticeQueue(
     srsScheduler: SrsScheduler,
     private val getFlashcardReviewStateUseCase: GetGrammarPracticeFlashcardDataUseCase,
     private val getClozeReviewStateUseCase: GetGrammarPracticeClozeDataUseCase,
+    private val getConjugationReviewStateUseCase: GetGrammarPracticeConjugationDataUseCase,
+    private val getScrambleReviewStateUseCase: GetGrammarPracticeScrambleDataUseCase,
+    private val getDialogueReviewStateUseCase: GetGrammarPracticeDialogueDataUseCase,
     reviewHistoryRepository: ReviewHistoryRepository,
     analyticsManager: AnalyticsManager
 ) : BaseGrammarPracticeQueue(
@@ -49,6 +55,9 @@ class DefaultGrammarPracticeQueue(
         val srsCardKey = when(this) {
             is GrammarPracticeQueueItemDescriptor.Flashcard -> GrammarPracticeType.Flashcard.toSrsKey(pointNumber)
             is GrammarPracticeQueueItemDescriptor.Cloze -> GrammarPracticeType.Cloze.toSrsKey(pointNumber)
+            is GrammarPracticeQueueItemDescriptor.ConjugationBuilder -> GrammarPracticeType.ConjugationBuilder.toSrsKey(pointNumber)
+            is GrammarPracticeQueueItemDescriptor.SentenceScramble -> GrammarPracticeType.SentenceScramble.toSrsKey(pointNumber)
+            is GrammarPracticeQueueItemDescriptor.SurvivalDialogue -> GrammarPracticeType.SurvivalDialogue.toSrsKey(pointNumber)
         }
         return GrammarPracticeQueueItem(
             descriptor = this,
@@ -64,6 +73,15 @@ class DefaultGrammarPracticeQueue(
                     }
                     is GrammarPracticeQueueItemDescriptor.Cloze -> {
                         getClozeReviewStateUseCase(this@toQueueItem)
+                    }
+                    is GrammarPracticeQueueItemDescriptor.ConjugationBuilder -> {
+                        getConjugationReviewStateUseCase(this@toQueueItem)
+                    }
+                    is GrammarPracticeQueueItemDescriptor.SentenceScramble -> {
+                        getScrambleReviewStateUseCase(this@toQueueItem)
+                    }
+                    is GrammarPracticeQueueItemDescriptor.SurvivalDialogue -> {
+                        getDialogueReviewStateUseCase(this@toQueueItem)
                     }
                 }
             }

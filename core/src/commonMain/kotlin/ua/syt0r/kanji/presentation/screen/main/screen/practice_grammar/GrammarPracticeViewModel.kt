@@ -49,6 +49,33 @@ class GrammarPracticeViewModel(
                     )
                 )
             }
+            is GrammarPracticeScreenContract.Event.AnswerConjugation -> {
+                queue.provideAnswers(
+                    PracticeAnswers(
+                        isCorrect = event.isCorrect,
+                        mistakes = if (event.isCorrect) 0 else 1,
+                        duration = 0 // simplified
+                    )
+                )
+            }
+            is GrammarPracticeScreenContract.Event.AnswerScramble -> {
+                queue.provideAnswers(
+                    PracticeAnswers(
+                        isCorrect = event.isCorrect,
+                        mistakes = if (event.isCorrect) 0 else 1,
+                        duration = 0 // simplified
+                    )
+                )
+            }
+            is GrammarPracticeScreenContract.Event.AnswerDialogue -> {
+                queue.provideAnswers(
+                    PracticeAnswers(
+                        isCorrect = event.isCorrect,
+                        mistakes = if (event.isCorrect) 0 else 1,
+                        duration = 0 // simplified
+                    )
+                )
+            }
             is GrammarPracticeScreenContract.Event.ProceedToNext -> {
                 queue.proceedToNext()
             }

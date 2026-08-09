@@ -19,5 +19,20 @@ data class GrammarPracticeScreenConfiguration(
         data class Cloze(
             val pointNumber: String
         ) : Item
+
+        @Serializable
+        data class ConjugationBuilder(
+            val pointNumber: String
+        ) : Item
+
+        @Serializable
+        data class SentenceScramble(
+            val pointNumber: String
+        ) : Item
+
+        @Serializable
+        data class SurvivalDialogue(
+            val pointNumber: String
+        ) : Item
     }
 }

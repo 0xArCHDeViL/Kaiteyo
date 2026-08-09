@@ -24,6 +24,18 @@ fun GrammarPracticeScreen(
                 pointNumber = it.pointNumber,
                 deckId = configuration.deckId
             )
+            is GrammarPracticeScreenConfiguration.Item.ConjugationBuilder -> GrammarPracticeQueueItemDescriptor.ConjugationBuilder(
+                pointNumber = it.pointNumber,
+                deckId = configuration.deckId
+            )
+            is GrammarPracticeScreenConfiguration.Item.SentenceScramble -> GrammarPracticeQueueItemDescriptor.SentenceScramble(
+                pointNumber = it.pointNumber,
+                deckId = configuration.deckId
+            )
+            is GrammarPracticeScreenConfiguration.Item.SurvivalDialogue -> GrammarPracticeQueueItemDescriptor.SurvivalDialogue(
+                pointNumber = it.pointNumber,
+                deckId = configuration.deckId
+            )
         }
     }
 

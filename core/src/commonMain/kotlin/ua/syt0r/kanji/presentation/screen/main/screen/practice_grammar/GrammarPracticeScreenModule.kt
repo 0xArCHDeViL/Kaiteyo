@@ -11,6 +11,12 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeFlashcardDataUseCase
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.DefaultGetGrammarPracticeClozeDataUseCase
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeClozeDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.DefaultGetGrammarPracticeConjugationDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeConjugationDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.DefaultGetGrammarPracticeScrambleDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeScrambleDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.DefaultGetGrammarPracticeDialogueDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeDialogueDataUseCase
 
 val grammarPracticeScreenModule = module {
 
@@ -22,6 +28,18 @@ val grammarPracticeScreenModule = module {
         DefaultGetGrammarPracticeClozeDataUseCase()
     }
 
+    factory<GetGrammarPracticeConjugationDataUseCase> {
+        DefaultGetGrammarPracticeConjugationDataUseCase()
+    }
+
+    factory<GetGrammarPracticeScrambleDataUseCase> {
+        DefaultGetGrammarPracticeScrambleDataUseCase()
+    }
+
+    factory<GetGrammarPracticeDialogueDataUseCase> {
+        DefaultGetGrammarPracticeDialogueDataUseCase()
+    }
+
     factory<GrammarPracticeQueue> {
         DefaultGrammarPracticeQueue(
             coroutineScope = CoroutineScope(Dispatchers.IO),
@@ -30,6 +48,9 @@ val grammarPracticeScreenModule = module {
             srsScheduler = get(),
             getFlashcardReviewStateUseCase = get(),
             getClozeReviewStateUseCase = get(),
+            getConjugationReviewStateUseCase = get(),
+            getScrambleReviewStateUseCase = get(),
+            getDialogueReviewStateUseCase = get(),
             reviewHistoryRepository = get(),
             analyticsManager = get()
         )
