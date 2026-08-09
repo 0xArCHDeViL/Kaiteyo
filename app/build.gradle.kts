@@ -4,12 +4,8 @@ plugins {
     kotlin("kapt")
     kotlin("plugin.parcelize")
     kotlin("plugin.compose")
-    id("com.google.gms.google-services")
-    id("com.google.firebase.crashlytics")
     id("com.mikepenz.aboutlibraries.plugin")
 }
-
-adjustFlavorTasks()
 
 kotlin {
     jvmToolchain(17)
@@ -38,8 +34,8 @@ android {
         }
 
         getByName("release") {
-            isMinifyEnabled = true
-            isShrinkResources = true
+            isMinifyEnabled = false
+            isShrinkResources = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -47,18 +43,7 @@ android {
         }
     }
 
-    flavorDimensions += "version"
 
-    productFlavors {
-        create("googlePlay") {
-            dimension = "version"
-        }
-
-        create("fdroid") {
-            dimension = "version"
-            applicationIdSuffix = ".fdroid"
-        }
-    }
 
     buildFeatures {
         compose = true
@@ -100,11 +85,6 @@ android {
 dependencies {
     implementation(project(":core"))
 
-    "googlePlayImplementation"(platform(libs.firebase.bom))
-    "googlePlayImplementation"(libs.firebase.analytics.ktx)
-    "googlePlayImplementation"(libs.firebase.crashlytics.ktx)
-    "googlePlayImplementation"(libs.billing.ktx)
-    "googlePlayImplementation"(libs.review.ktx)
 }
 
 aboutLibraries {
@@ -116,22 +96,4 @@ aboutLibraries {
     }
 }
 
-fun adjustFlavorTasks() {
-    project.gradle.taskGraph.whenReady {
-        allTasks.forEach { task ->
 
-            val isFdroid = task.name.contains("fdroid", ignoreCase = true)
-
-            val isGoogleTask = task.name.contains("GoogleServices", ignoreCase = true) ||
-                    task.name.contains("Crashlytics", ignoreCase = true)
-
-            val isArtProfileTask = task.name.contains("ArtProfile", ignoreCase = true)
-
-            if (isFdroid && (isGoogleTask || isArtProfileTask)) {
-                println("Disabling f-droid task: ${task.name}")
-                task.enabled = false
-            }
-
-        }
-    }
-}

@@ -25,13 +25,13 @@ jobs:
         run: |
           chmod +x gradlew
           echo $KEYSTORE | base64 --decode > keystore.jks
-          ./gradlew app:assembleFdroidRelease
+          ./gradlew app:assembleRelease
 
       - name: Upload Android Build
         uses: actions/upload-artifact@v4
         with:
           name: android
-          path: app/build/outputs/apk/fdroid/release/*.apk
+          path: app/build/outputs/apk/release/*.apk
           retention-days: 1
 
   verify-uploaded-builds:
