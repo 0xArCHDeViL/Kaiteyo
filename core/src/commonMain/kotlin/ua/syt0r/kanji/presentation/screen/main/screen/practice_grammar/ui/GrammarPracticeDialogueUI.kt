@@ -18,6 +18,7 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 
 @Composable
@@ -28,7 +29,7 @@ fun GrammarPracticeDialogueUI(
     onNext: () -> Unit
 ) {
     Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
+        modifier = Modifier.fillMaxSize().padding(Dimens.WindowPadding),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Column(
@@ -41,11 +42,11 @@ fun GrammarPracticeDialogueUI(
                 fontWeight = FontWeight.ExtraBold,
                 color = MaterialTheme.colorScheme.primary
             )
-            Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(Dimens.Space2))
             Surface(
-                shape = RoundedCornerShape(12.dp),
+                shape = MaterialTheme.shapes.medium,
                 color = MaterialTheme.colorScheme.secondaryContainer.copy(alpha = 0.5f),
-                modifier = Modifier.padding(horizontal = 16.dp)
+                modifier = Modifier.padding(horizontal = Dimens.Space4)
             ) {
                 Text(
                     text = state.context,
@@ -53,19 +54,19 @@ fun GrammarPracticeDialogueUI(
                     fontWeight = FontWeight.Medium,
                     color = MaterialTheme.colorScheme.onSecondaryContainer,
                     textAlign = TextAlign.Center,
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                    modifier = Modifier.padding(horizontal = Dimens.Space4, vertical = 8.dp)
                 )
             }
         }
 
-        Spacer(modifier = Modifier.height(32.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space8))
 
         // Chat bubbles
         Column(
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(1f),
-            verticalArrangement = Arrangement.spacedBy(16.dp)
+            verticalArrangement = Arrangement.spacedBy(Dimens.Space4)
         ) {
             state.dialogueLines.forEach { (speaker, text) ->
                 val isUser = speaker == "You"
@@ -74,14 +75,8 @@ fun GrammarPracticeDialogueUI(
                     horizontalArrangement = if (isUser) Arrangement.End else Arrangement.Start
                 ) {
                     Surface(
-                        shape = RoundedCornerShape(
-                            topStart = 20.dp,
-                            topEnd = 20.dp,
-                            bottomStart = if (isUser) 20.dp else 4.dp,
-                            bottomEnd = if (isUser) 4.dp else 20.dp
-                        ),
+                        shape = MaterialTheme.shapes.large,
                         color = if (isUser) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surfaceVariant,
-                        shadowElevation = 2.dp,
                         modifier = Modifier.fillMaxWidth(0.85f)
                     ) {
                         Text(
@@ -89,14 +84,14 @@ fun GrammarPracticeDialogueUI(
                             style = MaterialTheme.typography.bodyLarge,
                             fontWeight = FontWeight.Medium,
                             color = if (isUser) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface,
-                            modifier = Modifier.padding(horizontal = 20.dp, vertical = 14.dp)
+                            modifier = Modifier.padding(horizontal = Dimens.Space5, vertical = 14.dp)
                         )
                     }
                 }
             }
         }
 
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space6))
 
         AnimatedContent(
             targetState = answeredCorrectly,
@@ -105,7 +100,7 @@ fun GrammarPracticeDialogueUI(
             if (isCorrect == null) {
                 Column(
                     modifier = Modifier.fillMaxWidth(),
-                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                    verticalArrangement = Arrangement.spacedBy(Dimens.Space3)
                 ) {
                     state.options.forEachIndexed { index, option ->
                         DialogueOptionCard(
@@ -124,11 +119,11 @@ fun GrammarPracticeDialogueUI(
                         color = color,
                         textAlign = TextAlign.Center
                     )
-                    Spacer(modifier = Modifier.height(32.dp))
+                    Spacer(modifier = Modifier.height(Dimens.Space8))
                     Button(
                         onClick = onNext,
-                        modifier = Modifier.fillMaxWidth().height(56.dp),
-                        shape = RoundedCornerShape(16.dp)
+                        modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
+                        shape = MaterialTheme.shapes.large
                     ) {
                         Text("Continue", style = MaterialTheme.typography.titleMedium)
                     }
@@ -151,9 +146,8 @@ private fun DialogueOptionCard(text: String, onClick: () -> Unit) {
     Surface(
         onClick = onClick,
         interactionSource = interactionSource,
-        shape = RoundedCornerShape(16.dp),
+        shape = MaterialTheme.shapes.large,
         color = MaterialTheme.colorScheme.surface,
-        shadowElevation = if (isPressed) 1.dp else 6.dp,
         modifier = Modifier
             .fillMaxWidth()
             .graphicsLayer {
@@ -162,7 +156,7 @@ private fun DialogueOptionCard(text: String, onClick: () -> Unit) {
             }
     ) {
         Box(
-            modifier = Modifier.padding(horizontal = 24.dp, vertical = 18.dp),
+            modifier = Modifier.padding(horizontal = Dimens.Space6, vertical = 18.dp),
             contentAlignment = Alignment.Center
         ) {
             Text(

@@ -20,6 +20,7 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.FormulaText
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
@@ -44,16 +45,15 @@ fun GrammarPracticeFlashcardUI(
 
     Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
         Column(
-            modifier = Modifier.fillMaxSize().padding(24.dp),
+            modifier = Modifier.fillMaxSize().padding(Dimens.WindowPadding),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Surface(
                 onClick = { if (!isFlipped.value) isFlipped.value = true },
                 interactionSource = interactionSource,
-                shape = RoundedCornerShape(32.dp),
+                shape = MaterialTheme.shapes.extraLarge,
                 color = MaterialTheme.colorScheme.surface,
-                shadowElevation = if (isFlipped.value) 8.dp else if (isPressed) 2.dp else 12.dp,
                 modifier = Modifier
                     .fillMaxWidth()
                     .weight(1f)
@@ -62,7 +62,7 @@ fun GrammarPracticeFlashcardUI(
                         scaleY = scale
                     }
             ) {
-                Box(contentAlignment = Alignment.Center, modifier = Modifier.padding(24.dp)) {
+                Box(contentAlignment = Alignment.Center, modifier = Modifier.padding(Dimens.WindowPadding)) {
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
@@ -75,7 +75,7 @@ fun GrammarPracticeFlashcardUI(
                             textAlign = TextAlign.Center
                         )
 
-                        Spacer(modifier = Modifier.height(24.dp))
+                        Spacer(modifier = Modifier.height(Dimens.Space6))
                         FormulaText(text = state.formula)
 
                         AnimatedVisibility(
@@ -84,12 +84,12 @@ fun GrammarPracticeFlashcardUI(
                             exit = fadeOut() + shrinkVertically()
                         ) {
                             Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                                Spacer(modifier = Modifier.height(40.dp))
+                                Spacer(modifier = Modifier.height(Dimens.Space10))
                                 HorizontalDivider(
                                     color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.2f),
                                     modifier = Modifier.fillMaxWidth(0.6f)
                                 )
-                                Spacer(modifier = Modifier.height(32.dp))
+                                Spacer(modifier = Modifier.height(Dimens.Space8))
                                 Text(
                                     text = state.meaning,
                                     style = MaterialTheme.typography.headlineSmall,
@@ -98,9 +98,9 @@ fun GrammarPracticeFlashcardUI(
                                     textAlign = TextAlign.Center
                                 )
                                 if (state.examples.isNotEmpty()) {
-                                    Spacer(modifier = Modifier.height(24.dp))
+                                    Spacer(modifier = Modifier.height(Dimens.Space6))
                                     Surface(
-                                        shape = RoundedCornerShape(16.dp),
+                                        shape = MaterialTheme.shapes.large,
                                         color = MaterialTheme.colorScheme.secondaryContainer.copy(alpha = 0.4f),
                                         modifier = Modifier.fillMaxWidth()
                                     ) {
@@ -110,7 +110,7 @@ fun GrammarPracticeFlashcardUI(
                                             fontWeight = FontWeight.Medium,
                                             color = MaterialTheme.colorScheme.onSurface,
                                             textAlign = TextAlign.Center,
-                                            modifier = Modifier.padding(16.dp)
+                                            modifier = Modifier.padding(Dimens.Space4)
                                         )
                                     }
                                 }
@@ -120,7 +120,7 @@ fun GrammarPracticeFlashcardUI(
                 }
             }
 
-            Spacer(modifier = Modifier.height(32.dp))
+            Spacer(modifier = Modifier.height(Dimens.Space8))
 
             FlashcardPracticeAnswerButtonsRow(
                 answers = answers,

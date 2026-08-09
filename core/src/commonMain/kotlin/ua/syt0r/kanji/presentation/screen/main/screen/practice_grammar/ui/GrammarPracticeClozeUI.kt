@@ -19,6 +19,7 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.FormulaText
 
@@ -30,7 +31,7 @@ fun GrammarPracticeClozeUI(
     onNext: () -> Unit
 ) {
     Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
+        modifier = Modifier.fillMaxSize().padding(Dimens.WindowPadding),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -42,20 +43,19 @@ fun GrammarPracticeClozeUI(
             fontWeight = FontWeight.Bold
         )
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space4))
 
         FormulaText(state.formula)
 
-        Spacer(modifier = Modifier.height(40.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space10))
 
         Surface(
-            shape = RoundedCornerShape(24.dp),
+            shape = MaterialTheme.shapes.extraLarge,
             color = MaterialTheme.colorScheme.surface,
-            shadowElevation = 8.dp,
             modifier = Modifier.fillMaxWidth()
         ) {
             Column(
-                modifier = Modifier.padding(24.dp),
+                modifier = Modifier.padding(Dimens.WindowPadding),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
@@ -66,7 +66,7 @@ fun GrammarPracticeClozeUI(
                     textAlign = TextAlign.Center
                 )
 
-                Spacer(modifier = Modifier.height(16.dp))
+                Spacer(modifier = Modifier.height(Dimens.Space4))
 
                 Text(
                     text = state.meaning,
@@ -77,7 +77,7 @@ fun GrammarPracticeClozeUI(
             }
         }
 
-        Spacer(modifier = Modifier.height(48.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space12))
 
         AnimatedContent(
             targetState = answeredCorrectly,
@@ -86,7 +86,7 @@ fun GrammarPracticeClozeUI(
             if (isCorrect == null) {
                 Column(
                     modifier = Modifier.fillMaxWidth(),
-                    verticalArrangement = Arrangement.spacedBy(16.dp)
+                    verticalArrangement = Arrangement.spacedBy(Dimens.Space4)
                 ) {
                     state.options.forEachIndexed { index, option ->
                         ClozeOptionCard(
@@ -108,11 +108,11 @@ fun GrammarPracticeClozeUI(
                         color = color,
                         textAlign = TextAlign.Center
                     )
-                    Spacer(modifier = Modifier.height(32.dp))
+                    Spacer(modifier = Modifier.height(Dimens.Space8))
                     Button(
                         onClick = onNext,
-                        modifier = Modifier.fillMaxWidth().height(56.dp),
-                        shape = RoundedCornerShape(16.dp)
+                        modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
+                        shape = MaterialTheme.shapes.large
                     ) {
                         Text("Continue", style = MaterialTheme.typography.titleMedium)
                     }
@@ -135,9 +135,8 @@ private fun ClozeOptionCard(text: String, onClick: () -> Unit) {
     Surface(
         onClick = onClick,
         interactionSource = interactionSource,
-        shape = RoundedCornerShape(16.dp),
+        shape = MaterialTheme.shapes.large,
         color = MaterialTheme.colorScheme.secondaryContainer,
-        shadowElevation = if (isPressed) 2.dp else 6.dp,
         modifier = Modifier
             .fillMaxWidth()
             .graphicsLayer {

@@ -16,6 +16,7 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -30,7 +31,7 @@ fun GrammarPracticeScrambleUI(
     var availableParts by remember(state.scrambledParts) { mutableStateOf(state.scrambledParts) }
 
     Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
+        modifier = Modifier.fillMaxSize().padding(Dimens.WindowPadding),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -41,15 +42,14 @@ fun GrammarPracticeScrambleUI(
             fontWeight = FontWeight.Bold
         )
 
-        Spacer(modifier = Modifier.height(32.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space8))
 
         Surface(
-            shape = RoundedCornerShape(24.dp),
+            shape = MaterialTheme.shapes.extraLarge,
             color = MaterialTheme.colorScheme.surface,
-            shadowElevation = 8.dp,
             modifier = Modifier.fillMaxWidth()
         ) {
-            Box(modifier = Modifier.padding(24.dp), contentAlignment = Alignment.Center) {
+            Box(modifier = Modifier.padding(Dimens.WindowPadding), contentAlignment = Alignment.Center) {
                 Text(
                     text = state.meaning,
                     style = MaterialTheme.typography.headlineSmall,
@@ -60,26 +60,25 @@ fun GrammarPracticeScrambleUI(
             }
         }
 
-        Spacer(modifier = Modifier.height(40.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space10))
 
         // Slot area
         Surface(
-            shape = RoundedCornerShape(16.dp),
+            shape = MaterialTheme.shapes.large,
             color = MaterialTheme.colorScheme.surfaceVariant,
-            shadowElevation = 2.dp,
             modifier = Modifier.fillMaxWidth().defaultMinSize(minHeight = 100.dp)
         ) {
             FlowRow(
-                modifier = Modifier.padding(16.dp),
-                horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterHorizontally),
-                verticalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterVertically)
+                modifier = Modifier.padding(Dimens.Space4),
+                horizontalArrangement = Arrangement.spacedBy(Dimens.Space2, Alignment.CenterHorizontally),
+                verticalArrangement = Arrangement.spacedBy(Dimens.Space2, Alignment.CenterVertically)
             ) {
                 if (selectedParts.isEmpty()) {
                     Text(
                         text = "Tap parts to construct sentence...",
                         color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f),
                         style = MaterialTheme.typography.titleMedium,
-                        modifier = Modifier.padding(vertical = 16.dp)
+                        modifier = Modifier.padding(vertical = Dimens.Space4)
                     )
                 } else {
                     selectedParts.forEach { part ->
@@ -98,7 +97,7 @@ fun GrammarPracticeScrambleUI(
             }
         }
 
-        Spacer(modifier = Modifier.height(48.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space12))
 
         AnimatedContent(
             targetState = answeredCorrectly,
@@ -108,8 +107,8 @@ fun GrammarPracticeScrambleUI(
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     FlowRow(
                         modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally),
-                        verticalArrangement = Arrangement.spacedBy(12.dp)
+                        horizontalArrangement = Arrangement.spacedBy(Dimens.Space3, Alignment.CenterHorizontally),
+                        verticalArrangement = Arrangement.spacedBy(Dimens.Space3)
                     ) {
                         availableParts.forEach { part ->
                             ScrambleChip(
@@ -123,7 +122,7 @@ fun GrammarPracticeScrambleUI(
                         }
                     }
 
-                    Spacer(modifier = Modifier.height(40.dp))
+                    Spacer(modifier = Modifier.height(Dimens.Space10))
 
                     Button(
                         onClick = {
@@ -131,9 +130,9 @@ fun GrammarPracticeScrambleUI(
                             val isActuallyCorrect = constructedSentence == state.originalSentence.replace(" ", "")
                             onAnswerSubmit(isActuallyCorrect)
                         },
-                        modifier = Modifier.fillMaxWidth().height(56.dp),
+                        modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
                         enabled = availableParts.isEmpty(),
-                        shape = RoundedCornerShape(16.dp)
+                        shape = MaterialTheme.shapes.large
                     ) {
                         Text("Submit Answer", style = MaterialTheme.typography.titleMedium)
                     }
@@ -148,11 +147,11 @@ fun GrammarPracticeScrambleUI(
                         color = color,
                         textAlign = TextAlign.Center
                     )
-                    Spacer(modifier = Modifier.height(32.dp))
+                    Spacer(modifier = Modifier.height(Dimens.Space8))
                     Button(
                         onClick = onNext,
-                        modifier = Modifier.fillMaxWidth().height(56.dp),
-                        shape = RoundedCornerShape(16.dp)
+                        modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
+                        shape = MaterialTheme.shapes.large
                     ) {
                         Text("Continue", style = MaterialTheme.typography.titleMedium)
                     }
@@ -175,15 +174,14 @@ private fun ScrambleChip(text: String, isPrimary: Boolean, onClick: () -> Unit) 
     Surface(
         onClick = onClick,
         interactionSource = interactionSource,
-        shape = RoundedCornerShape(12.dp),
+        shape = MaterialTheme.shapes.medium,
         color = if (isPrimary) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.secondaryContainer,
-        shadowElevation = if (isPressed) 1.dp else 4.dp,
         modifier = Modifier.graphicsLayer {
             scaleX = scale
             scaleY = scale
         }
     ) {
-        Box(modifier = Modifier.padding(horizontal = 20.dp, vertical = 14.dp)) {
+        Box(modifier = Modifier.padding(horizontal = Dimens.Space5, vertical = 14.dp)) {
             Text(
                 text = text,
                 style = MaterialTheme.typography.titleMedium,

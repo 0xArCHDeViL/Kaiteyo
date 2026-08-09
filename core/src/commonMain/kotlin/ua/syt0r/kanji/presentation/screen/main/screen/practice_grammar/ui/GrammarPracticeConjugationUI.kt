@@ -17,6 +17,7 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -30,7 +31,7 @@ fun GrammarPracticeConjugationUI(
     var builtConjugation by remember { mutableStateOf("") }
 
     Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
+        modifier = Modifier.fillMaxSize().padding(Dimens.WindowPadding),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -41,16 +42,15 @@ fun GrammarPracticeConjugationUI(
             fontWeight = FontWeight.Bold
         )
 
-        Spacer(modifier = Modifier.height(32.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space8))
 
         Surface(
-            shape = RoundedCornerShape(24.dp),
+            shape = MaterialTheme.shapes.extraLarge,
             color = MaterialTheme.colorScheme.surface,
-            shadowElevation = 8.dp,
             modifier = Modifier.fillMaxWidth()
         ) {
             Column(
-                modifier = Modifier.padding(24.dp),
+                modifier = Modifier.padding(Dimens.WindowPadding),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
@@ -59,7 +59,7 @@ fun GrammarPracticeConjugationUI(
                     fontWeight = FontWeight.ExtraBold,
                     color = MaterialTheme.colorScheme.primary
                 )
-                Spacer(modifier = Modifier.height(8.dp))
+                Spacer(modifier = Modifier.height(Dimens.Space2))
                 Text(
                     text = state.verbMeaning,
                     style = MaterialTheme.typography.titleMedium,
@@ -68,7 +68,7 @@ fun GrammarPracticeConjugationUI(
             }
         }
 
-        Spacer(modifier = Modifier.height(40.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space10))
 
         // Built text display
         val interactionSource = remember { MutableInteractionSource() }
@@ -82,18 +82,17 @@ fun GrammarPracticeConjugationUI(
         Surface(
             onClick = { if (answeredCorrectly == null) builtConjugation = "" },
             interactionSource = interactionSource,
-            shape = RoundedCornerShape(16.dp),
+            shape = MaterialTheme.shapes.large,
             color = MaterialTheme.colorScheme.surfaceVariant,
-            shadowElevation = if (isPressed) 1.dp else 4.dp,
             modifier = Modifier
                 .fillMaxWidth()
-                .defaultMinSize(minHeight = 80.dp)
+                .defaultMinSize(minHeight = Dimens.Space20)
                 .graphicsLayer {
                     scaleX = scale
                     scaleY = scale
                 }
         ) {
-            Box(contentAlignment = Alignment.Center, modifier = Modifier.padding(16.dp)) {
+            Box(contentAlignment = Alignment.Center, modifier = Modifier.padding(Dimens.Space4)) {
                 Text(
                     text = builtConjugation.ifEmpty { "Tap syllables to build..." },
                     style = MaterialTheme.typography.headlineMedium,
@@ -104,7 +103,7 @@ fun GrammarPracticeConjugationUI(
             }
         }
 
-        Spacer(modifier = Modifier.height(48.dp))
+        Spacer(modifier = Modifier.height(Dimens.Space12))
 
         AnimatedContent(
             targetState = answeredCorrectly,
@@ -114,8 +113,8 @@ fun GrammarPracticeConjugationUI(
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     FlowRow(
                         modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally),
-                        verticalArrangement = Arrangement.spacedBy(12.dp)
+                        horizontalArrangement = Arrangement.spacedBy(Dimens.Space3, Alignment.CenterHorizontally),
+                        verticalArrangement = Arrangement.spacedBy(Dimens.Space3)
                     ) {
                         state.syllables.forEach { syllable ->
                             SyllableChip(
@@ -125,13 +124,13 @@ fun GrammarPracticeConjugationUI(
                         }
                     }
 
-                    Spacer(modifier = Modifier.height(40.dp))
+                    Spacer(modifier = Modifier.height(Dimens.Space10))
 
                     Button(
                         onClick = { onAnswerSubmit(builtConjugation == state.targetConjugation) },
-                        modifier = Modifier.fillMaxWidth().height(56.dp),
+                        modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
                         enabled = builtConjugation.isNotEmpty(),
-                        shape = RoundedCornerShape(16.dp)
+                        shape = MaterialTheme.shapes.large
                     ) {
                         Text("Submit Answer", style = MaterialTheme.typography.titleMedium)
                     }
@@ -146,11 +145,11 @@ fun GrammarPracticeConjugationUI(
                         color = color,
                         textAlign = TextAlign.Center
                     )
-                    Spacer(modifier = Modifier.height(32.dp))
+                    Spacer(modifier = Modifier.height(Dimens.Space8))
                     Button(
                         onClick = onNext,
-                        modifier = Modifier.fillMaxWidth().height(56.dp),
-                        shape = RoundedCornerShape(16.dp)
+                        modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
+                        shape = MaterialTheme.shapes.large
                     ) {
                         Text("Continue", style = MaterialTheme.typography.titleMedium)
                     }
@@ -173,15 +172,14 @@ private fun SyllableChip(text: String, onClick: () -> Unit) {
     Surface(
         onClick = onClick,
         interactionSource = interactionSource,
-        shape = RoundedCornerShape(12.dp),
+        shape = MaterialTheme.shapes.medium,
         color = MaterialTheme.colorScheme.secondaryContainer,
-        shadowElevation = if (isPressed) 1.dp else 4.dp,
         modifier = Modifier.graphicsLayer {
             scaleX = scale
             scaleY = scale
         }
     ) {
-        Box(modifier = Modifier.padding(horizontal = 24.dp, vertical = 16.dp)) {
+        Box(modifier = Modifier.padding(horizontal = Dimens.Space6, vertical = 16.dp)) {
             Text(
                 text = text,
                 style = MaterialTheme.typography.titleLarge,
