@@ -517,17 +517,29 @@ private fun BrowserHeader(
         ) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 Icon(Icons.Default.Search, null, tint = surfaceColors.textMuted, modifier = Modifier.size(18.dp))
-                androidx.compose.foundation.text.BasicTextField(
-                    value = query,
-                    onValueChange = onQueryChange,
-                    textStyle = androidx.compose.ui.text.TextStyle(
-                        color = surfaceColors.textPrimary,
-                        fontSize = 14.sp
-                    ),
-                    cursorBrush = androidx.compose.ui.graphics.SolidColor(accent.primary),
-                    singleLine = true,
-                    modifier = Modifier.weight(1f)
-                )
+                Box(
+                    modifier = Modifier.weight(1f),
+                    contentAlignment = Alignment.CenterStart
+                ) {
+                    androidx.compose.foundation.text.BasicTextField(
+                        value = query,
+                        onValueChange = onQueryChange,
+                        textStyle = androidx.compose.ui.text.TextStyle(
+                            color = surfaceColors.textPrimary,
+                            fontSize = 14.sp
+                        ),
+                        cursorBrush = androidx.compose.ui.graphics.SolidColor(accent.primary),
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    if (query.isEmpty()) {
+                        Text(
+                            text = "Search kanji...",
+                            color = surfaceColors.textMuted,
+                            fontSize = 14.sp
+                        )
+                    }
+                }
                 if (query.isNotBlank()) {
                     IconButton(onClick = { onQueryChange("") }, modifier = Modifier.size(24.dp)) {
                         Icon(Icons.Default.Close, null, tint = surfaceColors.textMuted, modifier = Modifier.size(16.dp))

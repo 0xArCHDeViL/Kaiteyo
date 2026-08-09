@@ -212,7 +212,10 @@ private fun InputSection(
         ) {
             Text(text = "部")
         }
-        Box(modifier = Modifier.weight(1f)) {
+        Box(
+            modifier = Modifier.weight(1f),
+            contentAlignment = Alignment.CenterStart
+        ) {
             BasicTextField(
                 value = enteredText,
                 onValueChange = { enteredText = it },
@@ -233,7 +236,7 @@ private fun InputSection(
             ) {
                 Text(
                     text = resolveString { search.inputHint },
-                    style = MaterialTheme.typography.titleMedium,
+                    style = MaterialTheme.typography.bodyLarge,
                     color = color.copy(alpha = 0.7f)
                 )
             }
