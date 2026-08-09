@@ -11,7 +11,7 @@ import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
 import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarChapter
 import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarPoint
 import kotlinx.serialization.json.Json
-import kaiteyo.core.generated.resources.Res
+import ua.syt0r.kanji.Res
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 
 interface GrammarSrsManager {

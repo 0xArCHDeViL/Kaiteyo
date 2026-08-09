@@ -33,7 +33,7 @@ class DefaultGetGrammarPracticeConjugationDataUseCase : GetGrammarPracticeConjug
         return GrammarPracticeItemData.ConjugationBuilder(
             pointNumber = point.number,
             title = chapter.title,
-            formula = point.formula_title,
+            formula = point.formulaTitle,
             verbDictionary = verbDictionary,
             verbMeaning = verbMeaning,
             targetConjugation = targetConjugation,

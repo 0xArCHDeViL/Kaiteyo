@@ -91,11 +91,13 @@ class DefaultGrammarPracticeQueue(
     override fun createSummaryItem(queueItem: GrammarPracticeQueueItem, totalReviews: Deferred<Int>): GrammarSummaryItem {
         return GrammarSummaryItem(
             pointNumber = queueItem.descriptor.pointNumber,
-            title = "Grammar " + queueItem.descriptor.pointNumber, // We don't have direct access to title here, use pointNumber
+            title = "Grammar " + queueItem.descriptor.pointNumber,
             srsCardKey = queueItem.srsCardKey,
             srsCard = queueItem.srsCard,
-            newSrsCard = queueItem.newSrsCard.getCompleted(),
-            isDoneInFirstAttempt = queueItem.totalMistakes == 0 && queueItem.repeats == 0
+            newSrsCard = queueItem.srsCard, // updated card is stored in srsCard after copyForRepeat
+            isDoneInFirstAttempt = queueItem.totalMistakes == 0 && queueItem.repeats == 0,
+            totalReviews = totalReviews,
+            nextInterval = queueItem.srsCard.interval
         )
     }
 

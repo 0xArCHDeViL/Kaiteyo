@@ -4,7 +4,7 @@ import kotlinx.serialization.json.Json
 import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarChapter
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeItemData
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueItemDescriptor
-import kaiteyo.core.generated.resources.Res
+import ua.syt0r.kanji.Res
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 
 interface GetGrammarPracticeFlashcardDataUseCase {

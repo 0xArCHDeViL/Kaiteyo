@@ -209,6 +209,23 @@ interface MainDestination {
     }
 
     @Serializable
+    data class GrammarPractice(
+        val configuration: GrammarPracticeScreenConfiguration
+    ) : MainDestination {
+
+        override val analyticsName: String = "grammar_practice"
+
+        @Composable
+        override fun Content(state: MainNavigationState) {
+            GrammarPracticeScreen(
+                configuration = configuration,
+                onNavigateBack = { state.navigateBack() }
+            )
+        }
+
+    }
+
+    @Serializable
     data class Info(
         val data: InfoScreenData
     ) : MainDestination {

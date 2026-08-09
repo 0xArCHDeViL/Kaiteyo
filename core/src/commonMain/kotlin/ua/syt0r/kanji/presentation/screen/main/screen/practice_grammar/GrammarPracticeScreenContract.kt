@@ -5,7 +5,8 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.Gram
 
 interface GrammarPracticeScreenContract {
     data class State(
-        val queueState: GrammarPracticeQueueState
+        val queueState: GrammarPracticeQueueState,
+        val answeredCorrectly: Boolean?
     )
 
     sealed interface Event {

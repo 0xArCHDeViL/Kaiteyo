@@ -12,18 +12,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
-import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 
 @Composable
 fun GrammarPracticeConjugationUI(
     state: MutableGrammarReviewState.ConjugationBuilder,
-    answers: PracticeAnswers?,
+    answeredCorrectly: Boolean?,
     onAnswerSubmit: (Boolean) -> Unit,
-    onNext: (PracticeAnswers) -> Unit
+    onNext: () -> Unit
 ) {
     var builtConjugation by remember { mutableStateOf("") }
 
@@ -32,15 +29,15 @@ fun GrammarPracticeConjugationUI(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        
+
         Text(
             text = "Conjugate the Verb",
             style = MaterialTheme.typography.titleMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
-        
+
         Spacer(modifier = Modifier.height(16.dp))
-        
+
         Text(
             text = state.verbDictionary,
             style = MaterialTheme.typography.headlineMedium,
@@ -52,9 +49,9 @@ fun GrammarPracticeConjugationUI(
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
-        
+
         Spacer(modifier = Modifier.height(32.dp))
-        
+
         // Built text display
         Box(
             modifier = Modifier
@@ -62,20 +59,20 @@ fun GrammarPracticeConjugationUI(
                 .height(64.dp)
                 .clip(RoundedCornerShape(8.dp))
                 .background(MaterialTheme.colorScheme.surfaceVariant)
-                .clickable { if (answers == null) builtConjugation = "" }, // clear on click
+                .clickable { if (answeredCorrectly == null) builtConjugation = "" },
             contentAlignment = Alignment.Center
         ) {
             Text(
                 text = builtConjugation.ifEmpty { "Tap syllables to build..." },
                 style = MaterialTheme.typography.headlineSmall,
-                color = if (builtConjugation.isEmpty()) MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f) else MaterialTheme.colorScheme.onSurface
+                color = if (builtConjugation.isEmpty()) MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
+                        else MaterialTheme.colorScheme.onSurface
             )
         }
-        
+
         Spacer(modifier = Modifier.height(32.dp))
-        
-        if (answers == null) {
-            // Syllable keyboard
+
+        if (answeredCorrectly == null) {
             @OptIn(ExperimentalLayoutApi::class)
             FlowRow(
                 modifier = Modifier.fillMaxWidth(),
@@ -99,9 +96,9 @@ fun GrammarPracticeConjugationUI(
                     }
                 }
             }
-            
+
             Spacer(modifier = Modifier.height(32.dp))
-            
+
             Button(
                 onClick = { onAnswerSubmit(builtConjugation == state.targetConjugation) },
                 modifier = Modifier.fillMaxWidth(),
@@ -110,15 +107,15 @@ fun GrammarPracticeConjugationUI(
                 Text("Submit")
             }
         } else {
-            val color = if (answers.isCorrect) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
+            val color = if (answeredCorrectly) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
             Text(
-                text = if (answers.isCorrect) "Correct!" else "Incorrect! The answer was ${state.targetConjugation}",
+                text = if (answeredCorrectly) "Correct!" else "Incorrect! The answer was ${state.targetConjugation}",
                 style = MaterialTheme.typography.titleLarge,
                 color = color
             )
             Spacer(modifier = Modifier.height(16.dp))
             Button(
-                onClick = { onNext(answers) },
+                onClick = onNext,
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text("Next")

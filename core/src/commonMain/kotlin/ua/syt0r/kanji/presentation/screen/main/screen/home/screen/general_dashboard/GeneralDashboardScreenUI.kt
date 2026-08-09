@@ -375,6 +375,7 @@ private fun StudyTargets(
                         when (it.studyTarget.practiceType) {
                             is LetterPracticeType -> navigateToCreateLetterDeck()
                             is VocabPracticeType -> navigateToCreateVocabDeck()
+                            else -> {}
                         }
                     },
                     startPractice = { cards ->
@@ -400,6 +401,7 @@ private fun StudyTargets(
                                 val destination = MainDestination.VocabPractice(configuration)
                                 navigateToVocabPractice(destination)
                             }
+                            else -> {}
                         }
                     }
                 )

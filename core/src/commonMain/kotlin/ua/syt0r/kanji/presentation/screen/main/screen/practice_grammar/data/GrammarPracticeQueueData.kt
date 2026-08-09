@@ -8,6 +8,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAn
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeQueueItem
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeQueueProgress
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeSummaryItem
 import kotlin.time.Duration
 
 sealed interface GrammarPracticeQueueState {
@@ -175,5 +176,7 @@ data class GrammarSummaryItem(
     val srsCardKey: SrsCardKey,
     val srsCard: SrsCard,
     val newSrsCard: SrsCard,
-    val isDoneInFirstAttempt: Boolean
-)
+    val isDoneInFirstAttempt: Boolean,
+    override val totalReviews: Deferred<Int>,
+    override val nextInterval: Duration
+) : PracticeSummaryItem

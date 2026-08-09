@@ -46,7 +46,7 @@ class DefaultGetGrammarPracticeClozeDataUseCase : GetGrammarPracticeClozeDataUse
         return GrammarPracticeItemData.Cloze(
             pointNumber = point.number,
             title = chapter.title,
-            formula = point.formula_title,
+            formula = point.formulaTitle,
             clozeSentence = clozeSentence,
             meaning = indonesian.takeIf { it.isNotBlank() } ?: point.meaning,
             options = options,

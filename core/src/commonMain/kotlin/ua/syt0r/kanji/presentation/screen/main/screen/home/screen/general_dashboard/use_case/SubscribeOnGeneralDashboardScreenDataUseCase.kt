@@ -118,6 +118,8 @@ class DefaultSubscribeOnGeneralDashboardScreenDataUseCase(
                                 decksData = deferredVocabDecks.await(),
                                 practiceType = studyTarget.practiceType
                             )
+
+                            else -> StudyTargetProgress.NoDecks
                         }
                     )
                 }

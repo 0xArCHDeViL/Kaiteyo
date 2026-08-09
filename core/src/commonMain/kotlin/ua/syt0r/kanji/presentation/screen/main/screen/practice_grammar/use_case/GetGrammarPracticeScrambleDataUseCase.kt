@@ -38,7 +38,7 @@ class DefaultGetGrammarPracticeScrambleDataUseCase : GetGrammarPracticeScrambleD
         return GrammarPracticeItemData.SentenceScramble(
             pointNumber = point.number,
             title = chapter.title,
-            formula = point.formula_title,
+            formula = point.formulaTitle,
             meaning = indonesian.takeIf { it.isNotBlank() } ?: point.meaning,
             originalSentence = cleanedJapanese,
             scrambledParts = scrambledParts.shuffled()

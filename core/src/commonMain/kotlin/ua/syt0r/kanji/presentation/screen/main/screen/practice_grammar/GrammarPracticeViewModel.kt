@@ -4,8 +4,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import ua.syt0r.kanji.presentation.common.BaseViewModel
-import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueItemDescriptor
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueState
 
 class GrammarPracticeViewModel(
     val deckId: Long,
@@ -15,78 +16,54 @@ class GrammarPracticeViewModel(
 
     private val _state = MutableStateFlow(
         GrammarPracticeScreenContract.State(
-            queueState = queue.stateFlow.value
+            queueState = queue.state.value,
+            answeredCorrectly = null
         )
     )
     val state = _state.asStateFlow()
 
     init {
         viewModelScope.launch {
-            queue.stateFlow.collect { queueState ->
-                _state.value = _state.value.copy(queueState = queueState)
+            queue.state.collect { queueState ->
+                // When queue advances to a new review item, reset answered state
+                _state.value = _state.value.copy(
+                    queueState = queueState,
+                    answeredCorrectly = null
+                )
             }
         }
-        queue.start(items)
+        viewModelScope.launch {
+            queue.initialize(items)
+        }
     }
 
     fun setEvent(event: GrammarPracticeScreenContract.Event) {
         when (event) {
-            is GrammarPracticeScreenContract.Event.AnswerFlashcard -> {
-                queue.provideAnswers(
-                    PracticeAnswers(
-                        isCorrect = event.isCorrect,
-                        mistakes = if (event.isCorrect) 0 else 1,
-                        duration = 0 // simplified
-                    )
-                )
-            }
-            is GrammarPracticeScreenContract.Event.AnswerCloze -> {
-                queue.provideAnswers(
-                    PracticeAnswers(
-                        isCorrect = event.isCorrect,
-                        mistakes = if (event.isCorrect) 0 else 1,
-                        duration = 0 // simplified
-                    )
-                )
-            }
-            is GrammarPracticeScreenContract.Event.AnswerConjugation -> {
-                queue.provideAnswers(
-                    PracticeAnswers(
-                        isCorrect = event.isCorrect,
-                        mistakes = if (event.isCorrect) 0 else 1,
-                        duration = 0 // simplified
-                    )
-                )
-            }
-            is GrammarPracticeScreenContract.Event.AnswerScramble -> {
-                queue.provideAnswers(
-                    PracticeAnswers(
-                        isCorrect = event.isCorrect,
-                        mistakes = if (event.isCorrect) 0 else 1,
-                        duration = 0 // simplified
-                    )
-                )
-            }
-            is GrammarPracticeScreenContract.Event.AnswerDialogue -> {
-                queue.provideAnswers(
-                    PracticeAnswers(
-                        isCorrect = event.isCorrect,
-                        mistakes = if (event.isCorrect) 0 else 1,
-                        duration = 0 // simplified
-                    )
-                )
-            }
+            is GrammarPracticeScreenContract.Event.AnswerFlashcard -> handleAnswer(event.isCorrect)
+            is GrammarPracticeScreenContract.Event.AnswerCloze -> handleAnswer(event.isCorrect)
+            is GrammarPracticeScreenContract.Event.AnswerConjugation -> handleAnswer(event.isCorrect)
+            is GrammarPracticeScreenContract.Event.AnswerScramble -> handleAnswer(event.isCorrect)
+            is GrammarPracticeScreenContract.Event.AnswerDialogue -> handleAnswer(event.isCorrect)
             is GrammarPracticeScreenContract.Event.ProceedToNext -> {
-                queue.proceedToNext()
+                val currentQueueState = _state.value.queueState as? GrammarPracticeQueueState.Review ?: return
+                val wasCorrect = _state.value.answeredCorrectly ?: return
+                val answer: PracticeAnswer = if (wasCorrect) currentQueueState.answers.good else currentQueueState.answers.again
+                viewModelScope.launch {
+                    queue.submitAnswer(answer)
+                }
             }
             is GrammarPracticeScreenContract.Event.EndPractice -> {
-                queue.endPractice()
+                queue.immediateFinish()
             }
         }
     }
 
+    private fun handleAnswer(isCorrect: Boolean) {
+        // Record answer locally; actual SRS submission happens on ProceedToNext
+        _state.value = _state.value.copy(answeredCorrectly = isCorrect)
+    }
+
     override fun onCleared() {
         super.onCleared()
-        queue.cancel()
     }
 }

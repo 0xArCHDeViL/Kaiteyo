@@ -7,7 +7,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import ua.syt0r.kanji.presentation.common.ui.FancyLoading
-import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeFlashcardUI
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeClozeUI
@@ -28,53 +27,75 @@ fun GrammarPracticeScreenUI(
                 FancyLoading(Modifier.align(Alignment.Center))
             }
             is GrammarPracticeQueueState.Review -> {
+                // answeredCorrectly drives whether to show result UI (null = not answered yet)
+                val answeredCorrectly = state.answeredCorrectly
+
                 when (val reviewState = queueState.state) {
                     is MutableGrammarReviewState.Flashcard -> {
                         GrammarPracticeFlashcardUI(
                             state = reviewState,
-                            answers = queueState.answers,
-                            onAnswer = { onEvent(GrammarPracticeScreenContract.Event.AnswerFlashcard(it)) },
-                            onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
+                            answeredCorrectly = answeredCorrectly,
+                            onAnswer = { isCorrect ->
+                                onEvent(GrammarPracticeScreenContract.Event.AnswerFlashcard(isCorrect))
+                            },
+                            onNext = {
+                                onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(queueState.answers))
+                            }
                         )
                     }
                     is MutableGrammarReviewState.Cloze -> {
                         GrammarPracticeClozeUI(
                             state = reviewState,
-                            answers = queueState.answers,
-                            onAnswerSelected = { index -> 
-                                onEvent(GrammarPracticeScreenContract.Event.AnswerCloze(index == reviewState.correctAnswerIndex)) 
+                            answeredCorrectly = answeredCorrectly,
+                            onAnswerSelected = { index ->
+                                val isCorrect = index == reviewState.correctAnswerIndex
+                                onEvent(GrammarPracticeScreenContract.Event.AnswerCloze(isCorrect))
                             },
-                            onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
+                            onNext = {
+                                onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(queueState.answers))
+                            }
                         )
                     }
                     is MutableGrammarReviewState.ConjugationBuilder -> {
                         GrammarPracticeConjugationUI(
                             state = reviewState,
-                            answers = queueState.answers,
-                            onAnswerSubmit = { isCorrect -> onEvent(GrammarPracticeScreenContract.Event.AnswerConjugation(isCorrect)) },
-                            onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
+                            answeredCorrectly = answeredCorrectly,
+                            onAnswerSubmit = { isCorrect ->
+                                onEvent(GrammarPracticeScreenContract.Event.AnswerConjugation(isCorrect))
+                            },
+                            onNext = {
+                                onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(queueState.answers))
+                            }
                         )
                     }
                     is MutableGrammarReviewState.SentenceScramble -> {
                         GrammarPracticeScrambleUI(
                             state = reviewState,
-                            answers = queueState.answers,
-                            onAnswerSubmit = { isCorrect -> onEvent(GrammarPracticeScreenContract.Event.AnswerScramble(isCorrect)) },
-                            onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
+                            answeredCorrectly = answeredCorrectly,
+                            onAnswerSubmit = { isCorrect ->
+                                onEvent(GrammarPracticeScreenContract.Event.AnswerScramble(isCorrect))
+                            },
+                            onNext = {
+                                onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(queueState.answers))
+                            }
                         )
                     }
                     is MutableGrammarReviewState.SurvivalDialogue -> {
                         GrammarPracticeDialogueUI(
                             state = reviewState,
-                            answers = queueState.answers,
-                            onAnswerSelected = { index -> onEvent(GrammarPracticeScreenContract.Event.AnswerDialogue(index == reviewState.correctAnswerIndex)) },
-                            onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
+                            answeredCorrectly = answeredCorrectly,
+                            onAnswerSelected = { index ->
+                                val isCorrect = index == reviewState.correctAnswerIndex
+                                onEvent(GrammarPracticeScreenContract.Event.AnswerDialogue(isCorrect))
+                            },
+                            onNext = {
+                                onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(queueState.answers))
+                            }
                         )
                     }
                 }
             }
             is GrammarPracticeQueueState.Summary -> {
-                // Simplified summary for now
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     Text("Practice Complete! Duration: ${queueState.duration}")
                 }

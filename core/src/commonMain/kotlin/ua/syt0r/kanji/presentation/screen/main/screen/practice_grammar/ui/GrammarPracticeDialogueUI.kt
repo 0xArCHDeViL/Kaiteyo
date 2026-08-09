@@ -14,16 +14,14 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
-import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 
 @Composable
 fun GrammarPracticeDialogueUI(
     state: MutableGrammarReviewState.SurvivalDialogue,
-    answers: PracticeAnswers?,
+    answeredCorrectly: Boolean?,
     onAnswerSelected: (Int) -> Unit,
-    onNext: (PracticeAnswers) -> Unit
+    onNext: () -> Unit
 ) {
     Column(
         modifier = Modifier.fillMaxSize().padding(24.dp),
@@ -36,18 +34,18 @@ fun GrammarPracticeDialogueUI(
             fontWeight = FontWeight.Bold,
             color = MaterialTheme.colorScheme.primary
         )
-        
+
         Spacer(modifier = Modifier.height(8.dp))
-        
+
         Text(
             text = state.context,
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center
         )
-        
+
         Spacer(modifier = Modifier.height(32.dp))
-        
+
         // Chat bubbles
         Column(
             modifier = Modifier
@@ -82,16 +80,16 @@ fun GrammarPracticeDialogueUI(
                             text = text,
                             style = MaterialTheme.typography.bodyLarge,
                             color = if (isUser) MaterialTheme.colorScheme.onPrimaryContainer
-                            else MaterialTheme.colorScheme.onSurface
+                                    else MaterialTheme.colorScheme.onSurface
                         )
                     }
                 }
             }
         }
-        
+
         Spacer(modifier = Modifier.height(24.dp))
-        
-        if (answers == null) {
+
+        if (answeredCorrectly == null) {
             Column(
                 modifier = Modifier.fillMaxWidth(),
                 verticalArrangement = Arrangement.spacedBy(12.dp)
@@ -116,15 +114,15 @@ fun GrammarPracticeDialogueUI(
                 }
             }
         } else {
-            val color = if (answers.isCorrect) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
+            val color = if (answeredCorrectly) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
             Text(
-                text = if (answers.isCorrect) "Correct!" else "Incorrect!",
+                text = if (answeredCorrectly) "Correct!" else "Incorrect!",
                 style = MaterialTheme.typography.titleLarge,
                 color = color
             )
             Spacer(modifier = Modifier.height(16.dp))
             Button(
-                onClick = { onNext(answers) },
+                onClick = onNext,
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text("Next")

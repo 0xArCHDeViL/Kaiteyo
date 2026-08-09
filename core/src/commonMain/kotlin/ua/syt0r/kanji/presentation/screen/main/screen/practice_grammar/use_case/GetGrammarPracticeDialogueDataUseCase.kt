@@ -46,7 +46,7 @@ class DefaultGetGrammarPracticeDialogueDataUseCase : GetGrammarPracticeDialogueD
         
         return GrammarPracticeItemData.SurvivalDialogue(
             title = "Survival Dialogue: ${chapter.title}",
-            context = "Respond to the teacher using the grammar point you learned: ${point.formula_title}",
+            context = "Respond to the teacher using the grammar point you learned: ${point.formulaTitle}",
             dialogueLines = dialogueLines.map { (speaker, text) -> 
                 if (text == japanese) speaker to "..." // Hide the answer in the dialogue
                 else speaker to text 
