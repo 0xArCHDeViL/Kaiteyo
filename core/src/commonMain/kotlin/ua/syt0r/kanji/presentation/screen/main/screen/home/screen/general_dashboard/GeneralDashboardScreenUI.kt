@@ -436,7 +436,10 @@ fun StudyTargetItem(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp)
-            .androidx.compose.ui.draw.scale(scale)
+            .androidx.compose.ui.graphics.graphicsLayer {
+                scaleX = scale
+                scaleY = scale
+            }
             .androidx.compose.ui.draw.shadow(8.dp, RoundedCornerShape(20.dp), spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f))
             .clip(RoundedCornerShape(20.dp)),
         color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)

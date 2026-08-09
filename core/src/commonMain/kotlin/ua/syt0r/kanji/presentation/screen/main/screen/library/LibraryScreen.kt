@@ -430,7 +430,10 @@ private fun SectionCard(
 
     val base = Modifier
         .fillMaxWidth()
-        .androidx.compose.ui.draw.scale(scale)
+        .androidx.compose.ui.graphics.graphicsLayer {
+            scaleX = scale
+            scaleY = scale
+        }
         .clip(RoundedCornerShape(20.dp))
         .background(backgroundColor)
 

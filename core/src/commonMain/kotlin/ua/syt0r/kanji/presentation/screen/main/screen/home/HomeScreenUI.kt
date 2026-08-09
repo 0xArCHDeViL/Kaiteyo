@@ -204,7 +204,10 @@ private fun SyncButton(
     )
 
     Box(
-        modifier = Modifier.scale(scale)
+        modifier = Modifier.graphicsLayer {
+            scaleX = scale
+            scaleY = scale
+        }
     ) {
         IconButton(
             onClick = onClick,
@@ -315,7 +318,10 @@ private fun RowScope.VerticalTabButton(
         contentAlignment = Alignment.Center,
         modifier = Modifier
             .weight(1f)
-            .scale(scale)
+            .graphicsLayer {
+                scaleX = scale
+                scaleY = scale
+            }
             .height(48.dp)
             .clip(CircleShape)
             .background(backgroundColor)
@@ -359,7 +365,10 @@ private fun HorizontalTabButton(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .scale(scale)
+            .graphicsLayer {
+                scaleX = scale
+                scaleY = scale
+            }
             .clip(RoundedCornerShape(16.dp))
             .background(backgroundColor)
             .clickable(
