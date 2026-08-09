@@ -26,7 +26,6 @@ import ua.syt0r.kanji.presentation.dialog.VersionChangeDialog
 import ua.syt0r.kanji.presentation.getMultiplatformViewModel
 import ua.syt0r.kanji.presentation.screen.main.features.CommandPaletteOverlay
 import ua.syt0r.kanji.presentation.screen.main.features.DeepLinkHandler
-import ua.syt0r.kanji.presentation.screen.main.features.FloatingDictionaryOverlay
 import ua.syt0r.kanji.presentation.screen.main.features.KaiteyoDataCenter
 import ua.syt0r.kanji.presentation.screen.main.features.KaiteyoPalette
 import ua.syt0r.kanji.presentation.screen.main.features.MigrationDialog
@@ -172,7 +171,6 @@ fun MainScreen(
     }
 
     CommandPaletteOverlay()
-    FloatingDictionaryOverlay()
 
     deepLinkHandler.HandleDeepLinksLaunchedEffect(navigationState)
 
