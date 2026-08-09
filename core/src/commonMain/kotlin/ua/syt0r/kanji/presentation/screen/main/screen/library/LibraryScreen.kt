@@ -249,7 +249,7 @@ private fun LibraryHub(
                     title = "Radicals",
                     subtitle = radicalCount?.let { "$it radicals — search by parts" }
                         ?: "Search by radical parts",
-                    onClick = { view = LibraryView.RadicalSearch },
+                    onClick = onOpenRadicalSearch,
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
