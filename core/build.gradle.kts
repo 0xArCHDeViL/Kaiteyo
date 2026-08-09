@@ -149,8 +149,6 @@ buildConfig {
         )
     }
 
-    }
-
 }
 
 tasks.withType<Test> {
