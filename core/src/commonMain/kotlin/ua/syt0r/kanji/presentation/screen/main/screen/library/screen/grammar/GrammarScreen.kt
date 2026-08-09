@@ -88,10 +88,15 @@ fun GrammarScreen(
                                 val chapter = selectedChapter!!
                                 val config = GrammarPracticeScreenConfiguration(
                                     deckId = chapter.id.toLong(),
-                                    items = chapter.points.map {
-                                        GrammarPracticeScreenConfiguration.Item.Flashcard(
-                                            pointNumber = it.number,
-                                            showMeaningInFront = false
+                                    items = chapter.points.flatMap {
+                                        listOf(
+                                            GrammarPracticeScreenConfiguration.Item.Flashcard(
+                                                pointNumber = it.number,
+                                                showMeaningInFront = false
+                                            ),
+                                            GrammarPracticeScreenConfiguration.Item.Cloze(
+                                                pointNumber = it.number
+                                            )
                                         )
                                     }
                                 )

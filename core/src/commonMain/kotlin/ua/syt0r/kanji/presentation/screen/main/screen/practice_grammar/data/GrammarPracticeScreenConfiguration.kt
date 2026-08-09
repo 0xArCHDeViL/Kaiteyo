@@ -14,5 +14,10 @@ data class GrammarPracticeScreenConfiguration(
             val pointNumber: String,
             val showMeaningInFront: Boolean
         ) : Item
+
+        @Serializable
+        data class Cloze(
+            val pointNumber: String
+        ) : Item
     }
 }

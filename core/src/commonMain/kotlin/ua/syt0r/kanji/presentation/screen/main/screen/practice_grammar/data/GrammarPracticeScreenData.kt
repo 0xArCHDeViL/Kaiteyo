@@ -11,4 +11,13 @@ sealed interface MutableGrammarReviewState {
         val showMeaningInFront: Boolean
     ) : MutableGrammarReviewState
 
+    data class Cloze(
+        val title: String,
+        val formula: String,
+        val clozeSentence: String,
+        val meaning: String,
+        val options: List<String>,
+        val correctAnswerIndex: Int
+    ) : MutableGrammarReviewState
+
 }

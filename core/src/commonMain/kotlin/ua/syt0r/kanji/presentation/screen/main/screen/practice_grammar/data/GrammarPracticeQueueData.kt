@@ -54,6 +54,11 @@ sealed interface GrammarPracticeQueueItemDescriptor {
         override val deckId: Long,
         val showMeaningInFront: Boolean
     ) : GrammarPracticeQueueItemDescriptor
+
+    data class Cloze(
+        override val pointNumber: String,
+        override val deckId: Long
+    ) : GrammarPracticeQueueItemDescriptor
 }
 
 sealed interface GrammarPracticeItemData {
@@ -74,6 +79,25 @@ sealed interface GrammarPracticeItemData {
             examples = examples,
             notes = notes,
             showMeaningInFront = showMeaningInFront
+        )
+    }
+
+    data class Cloze(
+        val pointNumber: String,
+        val title: String,
+        val formula: String,
+        val clozeSentence: String,
+        val meaning: String,
+        val options: List<String>,
+        val correctAnswerIndex: Int
+    ) : GrammarPracticeItemData {
+        override fun toReviewState(coroutineScope: CoroutineScope) = MutableGrammarReviewState.Cloze(
+            title = title,
+            formula = formula,
+            clozeSentence = clozeSentence,
+            meaning = meaning,
+            options = options,
+            correctAnswerIndex = correctAnswerIndex
         )
     }
 }

@@ -40,6 +40,15 @@ class GrammarPracticeViewModel(
                     )
                 )
             }
+            is GrammarPracticeScreenContract.Event.AnswerCloze -> {
+                queue.provideAnswers(
+                    PracticeAnswers(
+                        isCorrect = event.isCorrect,
+                        mistakes = if (event.isCorrect) 0 else 1,
+                        duration = 0 // simplified
+                    )
+                )
+            }
             is GrammarPracticeScreenContract.Event.ProceedToNext -> {
                 queue.proceedToNext()
             }

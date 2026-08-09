@@ -9,11 +9,17 @@ import org.koin.dsl.module
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueItemDescriptor
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.DefaultGetGrammarPracticeFlashcardDataUseCase
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeFlashcardDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.DefaultGetGrammarPracticeClozeDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeClozeDataUseCase
 
 val grammarPracticeScreenModule = module {
 
     factory<GetGrammarPracticeFlashcardDataUseCase> {
         DefaultGetGrammarPracticeFlashcardDataUseCase()
+    }
+
+    factory<GetGrammarPracticeClozeDataUseCase> {
+        DefaultGetGrammarPracticeClozeDataUseCase()
     }
 
     factory<GrammarPracticeQueue> {
@@ -23,6 +29,7 @@ val grammarPracticeScreenModule = module {
             srsCardRepository = get(),
             srsScheduler = get(),
             getFlashcardReviewStateUseCase = get(),
+            getClozeReviewStateUseCase = get(),
             reviewHistoryRepository = get(),
             analyticsManager = get()
         )

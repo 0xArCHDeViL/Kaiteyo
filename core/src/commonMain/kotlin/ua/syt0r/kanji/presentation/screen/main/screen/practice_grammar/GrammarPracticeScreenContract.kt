@@ -10,6 +10,7 @@ interface GrammarPracticeScreenContract {
 
     sealed interface Event {
         data class AnswerFlashcard(val isCorrect: Boolean) : Event
+        data class AnswerCloze(val isCorrect: Boolean) : Event
         data class ProceedToNext(val answers: PracticeAnswers) : Event
         data object EndPractice : Event
     }

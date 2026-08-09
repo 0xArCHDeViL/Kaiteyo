@@ -10,6 +10,7 @@ import ua.syt0r.kanji.presentation.common.FancyLoading
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeFlashcardUI
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeClozeUI
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 
 @Composable
@@ -30,6 +31,16 @@ fun GrammarPracticeScreenUI(
                             state = reviewState,
                             answers = queueState.answers,
                             onAnswer = { onEvent(GrammarPracticeScreenContract.Event.AnswerFlashcard(it)) },
+                            onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
+                        )
+                    }
+                    is MutableGrammarReviewState.Cloze -> {
+                        GrammarPracticeClozeUI(
+                            state = reviewState,
+                            answers = queueState.answers,
+                            onAnswerSelected = { index -> 
+                                onEvent(GrammarPracticeScreenContract.Event.AnswerCloze(index == reviewState.correctAnswerIndex)) 
+                            },
                             onNext = { onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(it)) }
                         )
                     }

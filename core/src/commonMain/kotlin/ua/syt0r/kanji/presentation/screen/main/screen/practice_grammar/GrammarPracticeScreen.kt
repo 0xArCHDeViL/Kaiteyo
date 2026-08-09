@@ -20,6 +20,10 @@ fun GrammarPracticeScreen(
                 deckId = configuration.deckId,
                 showMeaningInFront = it.showMeaningInFront
             )
+            is GrammarPracticeScreenConfiguration.Item.Cloze -> GrammarPracticeQueueItemDescriptor.Cloze(
+                pointNumber = it.pointNumber,
+                deckId = configuration.deckId
+            )
         }
     }
 

@@ -43,7 +43,8 @@ enum class GrammarPracticeType(
     override val srsPracticeType: SrsPracticeType
 ) : PracticeType {
 
-    Flashcard(SrsPracticeType.GrammarFlashcard);
+    Flashcard(SrsPracticeType.GrammarFlashcard),
+    Cloze(SrsPracticeType.GrammarCloze);
 
     fun toSrsKey(pointId: String) = SrsCardKey(pointId, srsPracticeType.value)
 
@@ -67,7 +68,8 @@ enum class SrsPracticeType(val value: Long) {
     VocabReadingPicker(11),
     VocabWriting(12),
     
-    GrammarFlashcard(20);
+    GrammarFlashcard(20),
+    GrammarCloze(21);
 
 }
 

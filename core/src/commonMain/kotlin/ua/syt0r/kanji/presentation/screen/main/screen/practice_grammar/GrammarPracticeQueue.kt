@@ -19,6 +19,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.Gram
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarSummaryItem
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeFlashcardDataUseCase
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeClozeDataUseCase
 import ua.syt0r.kanji.core.srs.GrammarPracticeType
 
 typealias GrammarPracticeQueue = PracticeQueue<GrammarPracticeQueueState, GrammarPracticeQueueItemDescriptor>
@@ -32,6 +33,7 @@ class DefaultGrammarPracticeQueue(
     srsCardRepository: SrsCardRepository,
     srsScheduler: SrsScheduler,
     private val getFlashcardReviewStateUseCase: GetGrammarPracticeFlashcardDataUseCase,
+    private val getClozeReviewStateUseCase: GetGrammarPracticeClozeDataUseCase,
     reviewHistoryRepository: ReviewHistoryRepository,
     analyticsManager: AnalyticsManager
 ) : BaseGrammarPracticeQueue(
@@ -44,7 +46,10 @@ class DefaultGrammarPracticeQueue(
 ), GrammarPracticeQueue {
 
     override suspend fun GrammarPracticeQueueItemDescriptor.toQueueItem(): GrammarPracticeQueueItem {
-        val srsCardKey = GrammarPracticeType.Flashcard.toSrsKey(pointNumber)
+        val srsCardKey = when(this) {
+            is GrammarPracticeQueueItemDescriptor.Flashcard -> GrammarPracticeType.Flashcard.toSrsKey(pointNumber)
+            is GrammarPracticeQueueItemDescriptor.Cloze -> GrammarPracticeType.Cloze.toSrsKey(pointNumber)
+        }
         return GrammarPracticeQueueItem(
             descriptor = this,
             srsCardKey = srsCardKey,
@@ -56,6 +61,9 @@ class DefaultGrammarPracticeQueue(
                 when (this@toQueueItem) {
                     is GrammarPracticeQueueItemDescriptor.Flashcard -> {
                         getFlashcardReviewStateUseCase(this@toQueueItem)
+                    }
+                    is GrammarPracticeQueueItemDescriptor.Cloze -> {
+                        getClozeReviewStateUseCase(this@toQueueItem)
                     }
                 }
             }
