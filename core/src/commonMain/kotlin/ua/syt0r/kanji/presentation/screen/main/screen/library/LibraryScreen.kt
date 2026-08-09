@@ -61,6 +61,7 @@ import androidx.compose.animation.core.spring
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.layout.width
 
 // ============================================
 // LIBRARY — the central hub
@@ -426,7 +427,7 @@ private fun SectionCard(
     surfaceColors: SurfaceColors
 ) {
     val interactionSource = remember { MutableInteractionSource() }
-    val isPressed by collectIsPressedAsState(interactionSource)
+    val isPressed by interactionSource.collectIsPressedAsState()
     
     val scale by animateFloatAsState(
         targetValue = if (isPressed) 0.95f else 1f,

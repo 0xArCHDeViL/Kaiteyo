@@ -157,7 +157,7 @@ fun SearchScreenUI(
                 modifier = Modifier.fillMaxWidth().height(2.dp)
             ) {
                 val isProgressVisible = remember { derivedStateOf { state.value.isLoading } }
-                AnimatedVisibility(
+                androidx.compose.animation.AnimatedVisibility(
                     visible = isProgressVisible.value,
                     enter = fadeIn(),
                     exit = fadeOut()

@@ -437,7 +437,7 @@ fun StudyTargetItem(
     val studyProgress = studyTargetState.progress
 
     val interactionSource = remember { MutableInteractionSource() }
-    val isPressed by collectIsPressedAsState(interactionSource)
+    val isPressed by interactionSource.collectIsPressedAsState()
     
     val scale by animateFloatAsState(
         targetValue = if (isPressed) 0.95f else 1f,
