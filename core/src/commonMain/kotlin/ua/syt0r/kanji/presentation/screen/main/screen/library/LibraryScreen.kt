@@ -51,6 +51,10 @@ import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.SearchS
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.vocab_dashboard.VocabDashboardScreen
 import ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria
 import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarScreen
+import androidx.compose.foundation.interaction.collectIsPressedAsState
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.shadow
 
 // ============================================
 // LIBRARY — the central hub
@@ -430,7 +434,7 @@ private fun SectionCard(
 
     val base = Modifier
         .fillMaxWidth()
-        .androidx.compose.ui.graphics.graphicsLayer {
+        .graphicsLayer {
             scaleX = scale
             scaleY = scale
         }

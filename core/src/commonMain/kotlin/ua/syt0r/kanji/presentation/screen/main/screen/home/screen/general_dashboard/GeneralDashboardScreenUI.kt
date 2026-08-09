@@ -110,6 +110,12 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabP
 import ua.syt0r.kanji.srs_status_due
 import ua.syt0r.kanji.srs_status_new
 import kotlin.math.roundToInt
+import androidx.compose.foundation.interaction.collectIsPressedAsState
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.background
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.shadow
 
 @Composable
 fun GeneralDashboardScreenUI(
@@ -436,7 +442,7 @@ fun StudyTargetItem(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp)
-            .androidx.compose.ui.graphics.graphicsLayer {
+            .graphicsLayer {
                 scaleX = scale
                 scaleY = scale
             }
