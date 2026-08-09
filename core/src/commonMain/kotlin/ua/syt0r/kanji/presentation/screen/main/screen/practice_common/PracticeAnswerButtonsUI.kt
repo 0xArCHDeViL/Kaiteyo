@@ -93,7 +93,7 @@ fun PracticeAnswerButtonsRow(
 
     val keyboardControlsModifier = if (enableKeyboardControls) {
         val focusRequester = remember { FocusRequester() }
-        LaunchedEffect(Unit) { focusRequester.requestFocus() }
+        LaunchedEffect(Unit) { runCatching { focusRequester.requestFocus() } }
 
         Modifier.focusable()
             .focusRequester(focusRequester)
@@ -201,7 +201,7 @@ fun FlashcardPracticeAnswerButtonsRow(
         val hiddenButton = @Composable { isVisible: Boolean ->
             val focusRequester = remember { FocusRequester() }
             if (isVisible) {
-                LaunchedEffect(Unit) { focusRequester.requestFocus() }
+                LaunchedEffect(Unit) { runCatching { focusRequester.requestFocus() } }
             }
 
             SrsWholeRowButton(

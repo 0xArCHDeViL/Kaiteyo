@@ -230,7 +230,7 @@ private fun PaletteSearchField(
     LaunchedEffect(controller.isOpen) {
         if (controller.isOpen) {
             text = controller.query
-            focusRequester.requestFocus()
+            runCatching { focusRequester.requestFocus() }
         }
     }
 
