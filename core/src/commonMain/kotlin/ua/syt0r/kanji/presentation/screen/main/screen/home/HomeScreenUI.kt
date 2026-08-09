@@ -69,7 +69,6 @@ import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
 import ua.syt0r.kanji.presentation.common.ui.Orientation
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.dashboard_common.IndicatorCircle
 
-private val SponsorIcon: ImageVector = Icons.Outlined.Handshake
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -79,7 +78,6 @@ fun HomeScreenUI(
     syncIconState: State<SyncIconState>,
     onTabSelected: (HomeScreenTab) -> Unit,
     onSyncButtonClick: () -> Unit,
-    onSponsorButtonClick: () -> Unit,
     screenTabContent: @Composable () -> Unit
 ) {
 
@@ -121,10 +119,6 @@ fun HomeScreenUI(
                 Spacer(modifier = Modifier.weight(1f))
 
                 if (!PlatformFeature.supported) return@Column
-                IconButton(onClick = onSponsorButtonClick) {
-                    Icon(SponsorIcon, null)
-                }
-
             }
 
             Surface(Modifier.weight(1f)) { screenTabContent.invoke() }
@@ -152,9 +146,6 @@ fun HomeScreenUI(
                             onClick = onSyncButtonClick
                         )
                         if (!PlatformFeature.supported) return@CenterAlignedTopAppBar
-                        IconButton(onClick = onSponsorButtonClick) {
-                            Icon(SponsorIcon, null)
-                        }
                     }
                 )
             },

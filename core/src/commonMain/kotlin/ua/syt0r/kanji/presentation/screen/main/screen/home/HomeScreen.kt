@@ -47,8 +47,7 @@ fun HomeScreen(
             onSyncButtonClick = {
                 val isSyncStarted = viewModel.trySync()
                 if (!isSyncStarted) mainNavigationState.navigate(MainDestination.Sync)
-            },
-            onSponsorButtonClick = { mainNavigationState.navigate(MainDestination.Sponsor) }
+            }
         ) {
 
             tabContent()

@@ -15,7 +15,7 @@ import ua.syt0r.kanji.core.AccountState
 import ua.syt0r.kanji.core.ApiRequestIssue
 import ua.syt0r.kanji.core.SubscriptionInfo
 import ua.syt0r.kanji.presentation.getMultiplatformViewModel
-import ua.syt0r.kanji.presentation.screen.main.FdroidAccountScreenContract.ScreenState
+import ua.syt0r.kanji.presentation.screen.main.AppAccountScreenContract.ScreenState
 import ua.syt0r.kanji.presentation.screen.main.screen.account.AccountScreenContainer
 import ua.syt0r.kanji.presentation.screen.main.screen.account.AccountScreenContract
 import ua.syt0r.kanji.presentation.screen.main.screen.account.AccountScreenError
@@ -23,7 +23,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.account.AccountScreenLoadi
 import ua.syt0r.kanji.presentation.screen.main.screen.account.AccountScreenSignedIn
 import ua.syt0r.kanji.presentation.screen.main.screen.account.AccountScreenSignedOut
 
-object FdroidAccountScreenContent : AccountScreenContract.Content {
+object AppAccountScreenContent : AccountScreenContract.Content {
 
     @Composable
     override fun invoke(
@@ -31,14 +31,14 @@ object FdroidAccountScreenContent : AccountScreenContract.Content {
         data: AccountScreenContract.ScreenData?
     ) {
 
-        val viewModel = getMultiplatformViewModel<FdroidAccountScreenContract.ViewModel>()
+        val viewModel = getMultiplatformViewModel<AppAccountScreenContract.ViewModel>()
         val uriHandler = LocalUriHandler.current
 
         LaunchedEffect(Unit) {
             if (data != null) viewModel.signIn(data)
         }
 
-        FdroidAccountScreenUI(
+        AppAccountScreenUI(
             state = viewModel.state.collectAsState(),
             onUpClick = { state.navigateBack() },
             onSignInClick = { uriHandler.openUri(AccountScreenContract.DEEP_LINK_AUTH_URL) },
@@ -50,7 +50,7 @@ object FdroidAccountScreenContent : AccountScreenContract.Content {
 
 }
 
-interface FdroidAccountScreenContract {
+interface AppAccountScreenContract {
 
     interface ViewModel {
         val state: StateFlow<ScreenState>
@@ -76,7 +76,7 @@ interface FdroidAccountScreenContract {
 }
 
 @Composable
-fun FdroidAccountScreenUI(
+fun AppAccountScreenUI(
     state: State<ScreenState>,
     onUpClick: () -> Unit,
     onSignInClick: () -> Unit,
@@ -123,10 +123,10 @@ fun FdroidAccountScreenUI(
 
 }
 
-class FdroidAccountScreenViewModel(
+class AppAccountScreenViewModel(
     coroutineScope: CoroutineScope,
     private val accountManager: AccountManager
-) : FdroidAccountScreenContract.ViewModel {
+) : AppAccountScreenContract.ViewModel {
 
     private val _state = MutableStateFlow<ScreenState>(ScreenState.Loading)
     override val state: StateFlow<ScreenState> = _state

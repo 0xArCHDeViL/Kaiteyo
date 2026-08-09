@@ -255,19 +255,6 @@ interface MainDestination {
     }
 
     @Serializable
-    object Sponsor : MainDestination {
-
-        override val analyticsName: String = "sponsor"
-
-        @Composable
-        override fun Content(state: MainNavigationState) {
-            val content = koinInject<SponsorScreenContract.Content>()
-            content(state)
-        }
-
-    }
-
-    @Serializable
     object DailyLimit : MainDestination {
 
         override val analyticsName: String = "daily_limit"
@@ -699,7 +686,6 @@ val defaultMainDestinations: List<MainDestinationConfiguration<*>> = listOf(
     MainDestination.Backup.configuration(),
     MainDestination.About.configuration(),
     MainDestination.Credits.configuration(),
-    MainDestination.Sponsor.configuration(),
     MainDestination.DailyLimit.configuration(),
     MainDestination.Sync.configuration(),
     MainDestination.TextAnalysis.configuration(),

@@ -5,20 +5,25 @@ import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
-import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.ListItem
@@ -34,8 +39,10 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.presentation.common.MultiplatformDialog
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
@@ -55,59 +62,74 @@ fun SettingsScreenUI(
     onAboutButtonClick: () -> Unit,
     loadedContent: @Composable ColumnScope.(ScreenState.Loaded) -> Unit
 ) {
-
     AnimatedContent(
         state.value,
         transitionSpec = { fadeIn() togetherWith fadeOut() }
     ) { screenState ->
-
         when (screenState) {
             ScreenState.Loading -> {
                 CircularProgressIndicator(Modifier.fillMaxSize().wrapContentSize())
             }
-
             is ScreenState.Loaded -> {
                 SettingsContent {
-
+                    
+                    Text(
+                        text = "Preferences",
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                    )
+                    
                     loadedContent(screenState)
-
-                    SettingsBackupButton(onBackupButtonClick)
+                    
+                    Spacer(Modifier.height(12.dp))
+                    Text(
+                        text = "Data & Sync",
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                    )
                     SettingsAccountButton(onAccountButtonClick)
                     SettingsSyncButton(onSyncButtonClick)
+                    SettingsBackupButton(onBackupButtonClick)
+
+                    Spacer(Modifier.height(12.dp))
+                    Text(
+                        text = "More",
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                    )
                     SettingsFeedbackButton(onFeedbackButtonClick)
                     SettingsAboutButton(onAboutButtonClick)
-
                 }
             }
         }
-
     }
-
 }
 
 @Composable
 fun SettingsContent(
     content: @Composable ColumnScope.() -> Unit
 ) {
-
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .wrapContentWidth()
-            .verticalScroll(rememberScrollState())
-            .widthIn(max = 400.dp)
-            .padding(horizontal = 20.dp)
-    ) {
-
-        val orientation = LocalOrientation.current
-        if (orientation == Orientation.Landscape) {
-            Spacer(Modifier.height(20.dp))
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
+        Column(
+            modifier = Modifier
+                .fillMaxHeight()
+                .widthIn(max = 600.dp)
+                .fillMaxWidth()
+                .verticalScroll(rememberScrollState())
+                .padding(horizontal = 16.dp, vertical = 24.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            val orientation = LocalOrientation.current
+            if (orientation == Orientation.Landscape) {
+                Spacer(Modifier.height(12.dp))
+            }
+            content()
+            Spacer(Modifier.height(40.dp))
         }
-
-        content()
-
     }
-
 }
 
 @Composable
@@ -117,61 +139,54 @@ fun SettingsSwitchRow(
     isEnabled: Boolean,
     onToggled: () -> Unit
 ) {
-
-    ListItem(
-        headlineContent = { Text(text = title) },
-        supportingContent = { Text(message) },
-        trailingContent = {
-            Switch(
-                checked = isEnabled,
-                onCheckedChange = { onToggled() },
-                colors = SwitchDefaults.colors(
-                    uncheckedTrackColor = MaterialTheme.colorScheme.background
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(MaterialTheme.shapes.large)
+            .clickable { onToggled() },
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+        shape = MaterialTheme.shapes.large
+    ) {
+        ListItem(
+            headlineContent = { Text(text = title, style = MaterialTheme.typography.titleMedium) },
+            supportingContent = { Text(message, style = MaterialTheme.typography.bodyMedium) },
+            trailingContent = {
+                Switch(
+                    checked = isEnabled,
+                    onCheckedChange = { onToggled() },
+                    colors = SwitchDefaults.colors(
+                        uncheckedTrackColor = MaterialTheme.colorScheme.surface
+                    )
                 )
-            )
-        }
-    )
-
+            },
+            colors = ListItemDefaults.colors(containerColor = Color.Transparent)
+        )
+    }
 }
 
 @Composable
 fun SettingsBackupButton(onClick: () -> Unit) {
-    SettingsTextButton(
-        title = resolveString { settings.backupTitle },
-        onClick = onClick
-    )
+    SettingsTextButton(title = resolveString { settings.backupTitle }, onClick = onClick)
 }
 
 @Composable
 fun SettingsAccountButton(onClick: () -> Unit) {
-    SettingsTextButton(
-        title = resolveString { settings.account },
-        onClick = onClick
-    )
+    SettingsTextButton(title = resolveString { settings.account }, onClick = onClick)
 }
 
 @Composable
 fun SettingsSyncButton(onClick: () -> Unit) {
-    SettingsTextButton(
-        title = resolveString { settings.sync },
-        onClick = onClick
-    )
+    SettingsTextButton(title = resolveString { settings.sync }, onClick = onClick)
 }
 
 @Composable
 fun SettingsFeedbackButton(onClick: () -> Unit) {
-    SettingsTextButton(
-        title = resolveString { settings.feedbackTitle },
-        onClick = onClick
-    )
+    SettingsTextButton(title = resolveString { settings.feedbackTitle }, onClick = onClick)
 }
 
 @Composable
 fun SettingsAboutButton(onClick: () -> Unit) {
-    SettingsTextButton(
-        title = resolveString { settings.aboutTitle },
-        onClick = onClick
-    )
+    SettingsTextButton(title = resolveString { settings.aboutTitle }, onClick = onClick)
 }
 
 @Composable
@@ -180,19 +195,30 @@ fun SettingsTextButton(
     subtitle: String? = null,
     onClick: () -> Unit
 ) {
-    ListItem(
-        headlineContent = { Text(title) },
-        supportingContent = when {
-            subtitle != null -> {
-                { Text(subtitle) }
-            }
-
-            else -> null
-        },
-        modifier = Modifier.clip(MaterialTheme.shapes.large)
+    Card(
+        modifier = Modifier
             .fillMaxWidth()
-            .clickable(onClick = onClick)
-    )
+            .clip(MaterialTheme.shapes.large)
+            .clickable(onClick = onClick),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+        shape = MaterialTheme.shapes.large
+    ) {
+        ListItem(
+            headlineContent = { Text(title, style = MaterialTheme.typography.titleMedium) },
+            supportingContent = when {
+                subtitle != null -> { { Text(subtitle, style = MaterialTheme.typography.bodyMedium) } }
+                else -> null
+            },
+            trailingContent = {
+                Icon(
+                    Icons.AutoMirrored.Filled.KeyboardArrowRight,
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            },
+            colors = ListItemDefaults.colors(containerColor = Color.Transparent)
+        )
+    }
 }
 
 @Composable
@@ -203,9 +229,7 @@ fun <T> SettingsPreferencePickerDialog(
     defaultSelected: T,
     onSelected: (T) -> Unit
 ) where T : DisplayableEnum, T : Enum<T> {
-
     var selected by remember { mutableStateOf(defaultSelected) }
-
     MultiplatformDialog(
         onDismissRequest = onDismissRequest,
         title = { Text(title) },
@@ -213,17 +237,10 @@ fun <T> SettingsPreferencePickerDialog(
             options.forEach {
                 val isOptionSelected = selected == it
                 ListItem(
-                    headlineContent = {
-                        Text(resolveString(it.titleResolver))
-                    },
-                    trailingContent = {
-                        if (isOptionSelected) Icon(Icons.Default.Check, null)
-                    },
+                    headlineContent = { Text(resolveString(it.titleResolver)) },
+                    trailingContent = { if (isOptionSelected) Icon(Icons.Default.Check, null) },
                     colors = ListItemDefaults.colors(
-                        containerColor = when {
-                            isOptionSelected -> MaterialTheme.colorScheme.surfaceVariant
-                            else -> MaterialTheme.colorScheme.surface
-                        }
+                        containerColor = if (isOptionSelected) MaterialTheme.colorScheme.surfaceVariant else MaterialTheme.colorScheme.surface
                     ),
                     modifier = Modifier
                         .clip(MaterialTheme.shapes.large)
@@ -232,9 +249,7 @@ fun <T> SettingsPreferencePickerDialog(
             }
         },
         buttons = {
-            TextButton(onDismissRequest) {
-                Text(resolveString { settings.pickerDialogCancel })
-            }
+            TextButton(onDismissRequest) { Text(resolveString { settings.pickerDialogCancel }) }
             TextButton(
                 onClick = {
                     onSelected(selected)
@@ -243,5 +258,4 @@ fun <T> SettingsPreferencePickerDialog(
             ) { Text(resolveString { settings.pickerDialogApply }) }
         }
     )
-
 }

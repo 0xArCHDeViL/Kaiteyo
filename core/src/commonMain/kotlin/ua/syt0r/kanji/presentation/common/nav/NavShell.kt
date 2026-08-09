@@ -1082,15 +1082,6 @@ private fun buildNavSections(
             currentDestination,
             navigationState
         ))
-        if (PlatformFeature.supported) {
-            add(destinationEntry(
-                MainDestination.Sponsor,
-                { resolveString { nav.sponsorLabel } },
-                Icons.Outlined.Handshake,
-                currentDestination,
-                navigationState
-            ))
-        }
         add(destinationEntry(
             MainDestination.About,
             { resolveString { nav.aboutLabel } },
