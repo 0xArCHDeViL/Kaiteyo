@@ -685,6 +685,10 @@ fun PracticeSummaryItem(
     nextInterval: Duration,
     onClick: () -> Unit
 ) {
+    val reviewsCount = androidx.compose.runtime.produceState<Int?>(initialValue = null, totalReviews) {
+        value = totalReviews.await()
+    }
+
     AppListItem(
         leadingContent = { Text(index.plus(1).toString()) },
         onClick = onClick,
@@ -703,7 +707,7 @@ fun PracticeSummaryItem(
                 Text(
                     text = stringResource(
                         Res.string.practice_summary_item_insights,
-                        totalReviews.getCompleted().toString(),
+                        reviewsCount.value?.toString() ?: "...",
                         resolveString { commonPractice.formattedSrsInterval(nextInterval) }
                     ),
                     fontSize = 12.sp
