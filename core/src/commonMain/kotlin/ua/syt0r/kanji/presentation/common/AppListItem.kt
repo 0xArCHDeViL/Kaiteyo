@@ -15,6 +15,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.focusable
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.Role
 import ua.syt0r.kanji.presentation.common.AppListItemDefaults.ListItemDefaultPaddings
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
@@ -46,7 +51,9 @@ fun AppListItem(
             .padding(paddingValues)
             .clip(MaterialTheme.shapes.large)
             .background(MaterialTheme.colorScheme.surface)
-            .clickable(onClick),
+            .semantics(mergeDescendants = true) { role = Role.Button }
+            .clickable(enabled = onClick != null, onClick = onClick ?: {})
+            .focusable(enabled = onClick != null),
         overlineContent = overlineContent,
         supportingContent = supportingContent,
         leadingContent = leadingContent,
@@ -70,7 +77,9 @@ fun AppListItem(
             .padding(paddingValues)
             .clip(MaterialTheme.shapes.large)
             .background(MaterialTheme.colorScheme.surface)
-            .clickable(onClick)
+            .semantics(mergeDescendants = true) { role = Role.Button }
+            .clickable(enabled = onClick != null, onClick = onClick ?: {})
+            .focusable(enabled = onClick != null)
             .padding(ListItemDefaultPaddings),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = horizontalArrangement

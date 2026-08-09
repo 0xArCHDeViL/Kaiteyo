@@ -1332,11 +1332,13 @@ fun ReviewSettingsDialog(
         onDismissRequest = onDismiss,
         title = { Text("Review Settings") },
         text = {
-            Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                // Button visibility
-                Text("Answer Buttons", style = MaterialTheme.typography.titleSmall)
-                listOf("Again" to settings.showAgain, "Hard" to settings.showHard,
-                    "Good" to settings.showGood, "Easy" to settings.showEasy).forEach { (label, value) ->
+            LazyColumn(
+                modifier = Modifier.heightIn(max = 400.dp).fillMaxWidth(), 
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                // Answer buttons
+                item { Text("Answer Buttons", style = MaterialTheme.typography.titleSmall) }
+                items(listOf("Again" to settings.showAgain, "Hard" to settings.showHard, "Good" to settings.showGood, "Easy" to settings.showEasy)) { (label, value) ->
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Switch(checked = value, onCheckedChange = {
                             settings = when (label) {
@@ -1352,11 +1354,11 @@ fun ReviewSettingsDialog(
                     }
                 }
 
-                HorizontalDivider()
-
+                item { HorizontalDivider() }
+                
                 // Layout
-                Text("Button Layout", style = MaterialTheme.typography.titleSmall)
-                ButtonLayout.entries.forEach { layout ->
+                item { Text("Button Layout", style = MaterialTheme.typography.titleSmall) }
+                items(ButtonLayout.entries) { layout ->
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         RadioButton(selected = settings.buttonLayout == layout,
                             onClick = { settings = settings.copy(buttonLayout = layout) })
@@ -1365,34 +1367,42 @@ fun ReviewSettingsDialog(
                     }
                 }
 
-                HorizontalDivider()
+                item { HorizontalDivider() }
 
                 // Other options
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Switch(checked = settings.autoNext, onCheckedChange = { settings = settings.copy(autoNext = it) })
-                    Spacer(Modifier.width(8.dp))
-                    Text("Auto-next after answer")
-                }
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Switch(checked = settings.showTimer, onCheckedChange = { settings = settings.copy(showTimer = it) })
-                    Spacer(Modifier.width(8.dp))
-                    Text("Show answer timer")
-                }
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Switch(checked = settings.showProgress, onCheckedChange = { settings = settings.copy(showProgress = it) })
-                    Spacer(Modifier.width(8.dp))
-                    Text("Show progress")
+                item {
+                    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Switch(checked = settings.autoNext, onCheckedChange = { settings = settings.copy(autoNext = it) })
+                            Spacer(Modifier.width(8.dp))
+                            Text("Auto-next after answer")
+                        }
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Switch(checked = settings.showTimer, onCheckedChange = { settings = settings.copy(showTimer = it) })
+                            Spacer(Modifier.width(8.dp))
+                            Text("Show answer timer")
+                        }
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Switch(checked = settings.showProgress, onCheckedChange = { settings = settings.copy(showProgress = it) })
+                            Spacer(Modifier.width(8.dp))
+                            Text("Show progress")
+                        }
+                    }
                 }
 
                 // Button size
-                Text("Button Size", style = MaterialTheme.typography.titleSmall)
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    ButtonSize.entries.forEach { size ->
-                        FilterChip(
-                            selected = settings.buttonSize == size,
-                            onClick = { settings = settings.copy(buttonSize = size) },
-                            label = { Text(size.displayName) }
-                        )
+                item {
+                    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                        Text("Button Size", style = MaterialTheme.typography.titleSmall)
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            ButtonSize.entries.forEach { size ->
+                                FilterChip(
+                                    selected = settings.buttonSize == size,
+                                    onClick = { settings = settings.copy(buttonSize = size) },
+                                    label = { Text(size.displayName) }
+                                )
+                            }
+                        }
                     }
                 }
             }
@@ -1445,12 +1455,17 @@ fun KeyboardShortcutSettingsDialog(
         onDismissRequest = onDismiss,
         title = { Text("Keyboard Shortcuts") },
         text = {
-            Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Text("Click a shortcut to record a new key combination.",
-                    style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                Spacer(Modifier.height(8.dp))
+            LazyColumn(
+                modifier = Modifier.fillMaxWidth().height(400.dp),
+                verticalArrangement = Arrangement.spacedBy(4.dp)
+            ) {
+                item {
+                    Text("Click a shortcut to record a new key combination.",
+                        style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Spacer(Modifier.height(8.dp))
+                }
 
-                defaultShortcuts.forEach { (actionId, defaultKey) ->
+                items(defaultShortcuts) { (actionId, defaultKey) ->
                     val existing = localShortcuts.find { it.actionId == actionId }
                     val displayKey = existing?.getDisplayText() ?: defaultKey
 
@@ -1462,14 +1477,15 @@ fun KeyboardShortcutSettingsDialog(
                             .padding(12.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Text(actionId.replace("-", " ").replaceFirstChar { it.uppercase() },
-                            modifier = Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
+                        Text(
+                            text = actionId.replace("-", " ").replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() },
+                            modifier = Modifier.weight(1f), 
+                            style = MaterialTheme.typography.bodyMedium
+                        )
                         if (recordingAction == actionId) {
-                            Text("Press key...", color = MaterialTheme.colorScheme.primary,
-                                style = MaterialTheme.typography.bodySmall)
+                            Text("Press key...", color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.bodySmall)
                         } else {
-                            Text(displayKey, color = MaterialTheme.colorScheme.primary,
-                                style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold)
+                            Text(displayKey, color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold)
                         }
                     }
                 }

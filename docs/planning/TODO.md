@@ -54,9 +54,9 @@ This document is the actionable master implementation plan, indexed directly fro
 **Goal:** Optimization, accessibility, and exploration of community/cloud features.
 
 ### Performance & Accessibility
-- [ ] Profile and optimize recompositions / Lazy loading.
-- [ ] Image caching & APK/MSI size reduction.
-- [ ] Full keyboard navigation and screen reader support.
+- [x] Profile and optimize recompositions / Lazy loading.
+- [x] Image caching & APK/MSI size reduction.
+- [x] Full keyboard navigation and screen reader support.
 
 ### Evaluated Future Ideas
 - [ ] **AI Review Scheduling:** Optimize SRS intervals.

@@ -81,17 +81,17 @@ This is a living document. Add issues as they are discovered, mark them as fixed
 
 ### Performance
 
-- [ ] Profile and optimize recompositions
-- [ ] Lazy loading for long lists
-- [ ] Image caching
-- [ ] Reduce APK/MSI size
+- [x] Profile and optimize recompositions
+- [x] Lazy loading for long lists
+- [x] Image caching
+- [x] Reduce APK/MSI size
 
 ### Accessibility
 
-- [ ] Keyboard navigation
-- [ ] Screen reader support
-- [ ] High contrast mode
-- [ ] Font size adjustment
+- [x] Keyboard navigation
+- [x] Screen reader support
+- [x] High contrast mode
+- [x] Font size adjustment
 
 ## ✅ Recently Fixed
 
