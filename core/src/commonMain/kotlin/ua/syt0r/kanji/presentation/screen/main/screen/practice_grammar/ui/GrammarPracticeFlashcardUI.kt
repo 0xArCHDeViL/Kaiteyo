@@ -12,14 +12,17 @@ import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.FormulaText
 
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.FlashcardPracticeAnswerButtonsRow
+
 @Composable
 fun GrammarPracticeFlashcardUI(
     state: MutableGrammarReviewState.Flashcard,
-    answeredCorrectly: Boolean?,
-    onAnswer: (Boolean) -> Unit,
-    onNext: () -> Unit
+    answers: PracticeAnswers,
+    onAnswer: (PracticeAnswer) -> Unit
 ) {
-    var isFlipped by remember(state) { mutableStateOf(false) }
+    val isFlipped = remember(state) { mutableStateOf(false) }
 
     Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
         Column(
@@ -31,7 +34,7 @@ fun GrammarPracticeFlashcardUI(
                 modifier = Modifier
                     .fillMaxWidth()
                     .weight(1f)
-                    .clickable { if (answeredCorrectly == null && !isFlipped) isFlipped = true },
+                    .clickable { if (!isFlipped.value) isFlipped.value = true },
                 elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
             ) {
                 Column(
@@ -49,7 +52,7 @@ fun GrammarPracticeFlashcardUI(
                     Spacer(modifier = Modifier.height(16.dp))
                     FormulaText(text = state.formula)
 
-                    AnimatedVisibility(visible = isFlipped || answeredCorrectly != null) {
+                    AnimatedVisibility(visible = isFlipped.value) {
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
                             Spacer(modifier = Modifier.height(32.dp))
                             HorizontalDivider()
@@ -74,44 +77,12 @@ fun GrammarPracticeFlashcardUI(
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            when {
-                answeredCorrectly == null -> {
-                    if (isFlipped) {
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.SpaceEvenly
-                        ) {
-                            Button(
-                                onClick = { onAnswer(false) },
-                                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
-                            ) {
-                                Text("Again")
-                            }
-                            Button(
-                                onClick = { onAnswer(true) },
-                                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)
-                            ) {
-                                Text("Good")
-                            }
-                        }
-                    } else {
-                        Button(
-                            onClick = { isFlipped = true },
-                            modifier = Modifier.fillMaxWidth()
-                        ) {
-                            Text("Show Answer")
-                        }
-                    }
-                }
-                else -> {
-                    Button(
-                        onClick = onNext,
-                        modifier = Modifier.fillMaxWidth()
-                    ) {
-                        Text("Next")
-                    }
-                }
-            }
+            FlashcardPracticeAnswerButtonsRow(
+                answers = answers,
+                showAnswer = isFlipped,
+                onRevealAnswerClick = { isFlipped.value = true },
+                onAnswerClick = onAnswer
+            )
         }
     }
 }

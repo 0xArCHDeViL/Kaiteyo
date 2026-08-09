@@ -200,7 +200,9 @@ fun FlashcardPracticeAnswerButtonsRow(
 
         val hiddenButton = @Composable { isVisible: Boolean ->
             val focusRequester = remember { FocusRequester() }
-            LaunchedEffect(Unit) { focusRequester.requestFocus() }
+            if (isVisible) {
+                LaunchedEffect(Unit) { focusRequester.requestFocus() }
+            }
 
             SrsWholeRowButton(
                 text = resolveString { commonPractice.flashcardRevealButton },

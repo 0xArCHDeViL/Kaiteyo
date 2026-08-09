@@ -1,5 +1,6 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar
 
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueState
 
@@ -15,6 +16,7 @@ interface GrammarPracticeScreenContract {
         data class AnswerConjugation(val isCorrect: Boolean) : Event
         data class AnswerScramble(val isCorrect: Boolean) : Event
         data class AnswerDialogue(val isCorrect: Boolean) : Event
+        data class AnswerSrs(val answer: PracticeAnswer) : Event
         data class ProceedToNext(val answers: PracticeAnswers) : Event
         data object EndPractice : Event
     }

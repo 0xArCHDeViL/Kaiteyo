@@ -3,6 +3,7 @@ package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.ui
 import androidx.compose.animation.*
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
@@ -186,30 +187,32 @@ private fun InputSection(
     val interactionSource = remember { MutableInteractionSource() }
     val isInputFocused = remember { mutableStateOf(false) }
 
-    val isHintVisible = remember {
-        derivedStateOf { !isInputFocused.value && enteredText.text.isEmpty() }
-    }
-    
-    val elevation by animateDpAsState(
-        targetValue = if (isInputFocused.value) 16.dp else 4.dp,
+    val isHintVisible = !isInputFocused.value && enteredText.text.isEmpty()
+    val hasText = enteredText.text.isNotEmpty()
+
+    val elevation by animateFloatAsState(
+        targetValue = if (isInputFocused.value) 16f else 4f,
         animationSpec = spring(stiffness = Spring.StiffnessLow)
     )
+    val hintAlpha by animateFloatAsState(targetValue = if (isHintVisible) 1f else 0f)
+    val clearAlpha by animateFloatAsState(targetValue = if (hasText) 1f else 0f)
+    val clearScale by animateFloatAsState(targetValue = if (hasText) 1f else 0.5f)
+    val borderAlpha by animateFloatAsState(targetValue = if (isInputFocused.value) 0.5f else 0f)
 
     val color = MaterialTheme.colorScheme.onSurface
 
     Box(
         modifier = modifier
             .padding(horizontal = 24.dp, vertical = 16.dp)
-            .shadow(
-                elevation = elevation,
-                shape = CircleShape,
-                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)
-            )
-            .clip(CircleShape)
+            .graphicsLayer {
+                shadowElevation = elevation.dp.toPx()
+                shape = CircleShape
+                clip = true
+            }
             .background(MaterialTheme.colorScheme.surface)
             .border(
                 width = 1.dp,
-                color = if (isInputFocused.value) MaterialTheme.colorScheme.primary.copy(alpha = 0.5f) else Color.Transparent,
+                color = MaterialTheme.colorScheme.primary.copy(alpha = borderAlpha),
                 shape = CircleShape
             )
             .padding(horizontal = 16.dp, vertical = 12.dp)
@@ -247,12 +250,11 @@ private fun InputSection(
                     textStyle = MaterialTheme.typography.bodyLarge.copy(color = color)
                 )
 
-                androidx.compose.animation.AnimatedVisibility(
-                    visible = isHintVisible.value,
-                    enter = fadeIn(),
-                    exit = fadeOut()
-                ) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
+                if (hintAlpha > 0f) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.graphicsLayer { alpha = hintAlpha }
+                    ) {
                         Icon(
                             imageVector = Icons.Default.Search,
                             contentDescription = null,
@@ -268,14 +270,17 @@ private fun InputSection(
                 }
             }
 
-            androidx.compose.animation.AnimatedVisibility(
-                visible = enteredText.text.isNotEmpty(),
-                enter = scaleIn() + fadeIn(),
-                exit = scaleOut() + fadeOut()
-            ) {
+            if (clearAlpha > 0f) {
                 IconButton(
                     onClick = { enteredText = TextFieldValue() },
-                    modifier = Modifier.size(28.dp).background(MaterialTheme.colorScheme.surfaceVariant, CircleShape)
+                    modifier = Modifier
+                        .size(28.dp)
+                        .graphicsLayer {
+                            alpha = clearAlpha
+                            scaleX = clearScale
+                            scaleY = clearScale
+                        }
+                        .background(MaterialTheme.colorScheme.surfaceVariant, CircleShape)
                 ) {
                     Icon(
                         imageVector = Icons.Default.Close,

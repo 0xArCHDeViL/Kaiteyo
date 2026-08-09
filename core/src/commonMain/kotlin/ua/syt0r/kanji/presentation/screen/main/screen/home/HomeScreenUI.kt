@@ -15,17 +15,15 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Sync
-import androidx.compose.material.icons.outlined.Handshake
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.blur
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.scale
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Job
@@ -51,42 +49,50 @@ fun HomeScreenUI(
         Row(
             modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)
         ) {
-            // Detached Floating Sidebar
+            // Premium Detached Sidebar (Glassmorphic)
             Box(
                 modifier = Modifier
                     .fillMaxHeight()
-                    .padding(vertical = 24.dp, horizontal = 16.dp)
-                    .shadow(
-                        elevation = 20.dp,
-                        shape = RoundedCornerShape(32.dp),
-                        spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
-                    )
-                    .clip(RoundedCornerShape(32.dp))
-                    .background(MaterialTheme.colorScheme.surface)
+                    .padding(vertical = 24.dp, horizontal = 24.dp)
                     .width(IntrinsicSize.Max)
             ) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxHeight()
+                        .shadow(
+                            elevation = 32.dp,
+                            shape = RoundedCornerShape(32.dp),
+                            spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f),
+                            ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f)
+                        )
+                        .clip(RoundedCornerShape(32.dp))
+                        .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.85f))
+                        .blur(32.dp) // Glassmorphism
+                )
                 Column(
                     modifier = Modifier
                         .fillMaxHeight()
+                        .clip(RoundedCornerShape(32.dp))
+                        .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.85f))
                         .verticalScroll(rememberScrollState())
-                        .padding(vertical = 32.dp, horizontal = 20.dp),
+                        .padding(vertical = 36.dp, horizontal = 24.dp),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
                         Text(
                             text = resolveString { appName },
-                            style = MaterialTheme.typography.headlineSmall,
+                            style = MaterialTheme.typography.headlineMedium,
                             color = MaterialTheme.colorScheme.primary,
-                            modifier = Modifier.padding(end = 8.dp)
                         )
-
-                        SyncButton(
-                            state = syncIconState,
-                            onClick = onSyncButtonClick
-                        )
+                        Spacer(modifier = Modifier.width(16.dp))
+                        SyncButton(state = syncIconState, onClick = onSyncButtonClick)
                     }
 
-                    Spacer(modifier = Modifier.height(32.dp))
+                    Spacer(modifier = Modifier.height(48.dp))
 
                     availableTabs.forEach { tab ->
                         HorizontalTabButton(
@@ -94,24 +100,31 @@ fun HomeScreenUI(
                             selected = tab == selectedTabState.value,
                             onClick = { onTabSelected(tab) }
                         )
-                        Spacer(modifier = Modifier.height(12.dp))
+                        Spacer(modifier = Modifier.height(16.dp))
                     }
 
                     Spacer(modifier = Modifier.weight(1f))
-
-                    if (!PlatformFeature.supported) return@Column
                 }
             }
 
-            // Main Content Area
+            // Main Content Area with elegant inner shadow feel
             Surface(
                 modifier = Modifier
                     .weight(1f)
                     .fillMaxHeight()
-                    .clip(RoundedCornerShape(topStart = 40.dp, bottomStart = 40.dp)),
+                    .clip(RoundedCornerShape(topStart = 48.dp, bottomStart = 48.dp)),
                 color = MaterialTheme.colorScheme.background
             ) {
-                screenTabContent.invoke()
+                AnimatedContent(
+                    targetState = selectedTabState.value,
+                    transitionSpec = {
+                        fadeIn(tween(300)) togetherWith fadeOut(tween(300))
+                    }
+                ) {
+                    Box(modifier = Modifier.fillMaxSize()) {
+                        screenTabContent.invoke()
+                    }
+                }
             }
         }
     } else {
@@ -124,9 +137,12 @@ fun HomeScreenUI(
                         titleContentColor = MaterialTheme.colorScheme.onBackground
                     ),
                     title = {
-                        Crossfade(
+                        AnimatedContent(
                             targetState = selectedTabState.value,
-                            modifier = Modifier.width(IntrinsicSize.Max)
+                            transitionSpec = {
+                                slideInVertically(spring(stiffness = Spring.StiffnessLow)) { it } + fadeIn() togetherWith
+                                slideOutVertically(spring(stiffness = Spring.StiffnessLow)) { -it } + fadeOut()
+                            }
                         ) { tab ->
                             Text(
                                 text = resolveString(tab.titleResolver),
@@ -136,34 +152,30 @@ fun HomeScreenUI(
                         }
                     },
                     actions = {
-                        SyncButton(
-                            state = syncIconState,
-                            onClick = onSyncButtonClick
-                        )
-                        if (!PlatformFeature.supported) return@CenterAlignedTopAppBar
+                        SyncButton(state = syncIconState, onClick = onSyncButtonClick)
                     }
                 )
             },
             bottomBar = {
-                // Floating Action Bar (Pill style)
+                // Premium Floating Pill Bottom Bar
                 Box(
                     modifier = Modifier
                         .fillMaxWidth()
                         .windowInsetsPadding(NavigationBarDefaults.windowInsets)
-                        .padding(horizontal = 24.dp, vertical = 16.dp)
+                        .padding(horizontal = 24.dp, vertical = 20.dp)
                 ) {
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
                             .shadow(
-                                elevation = 24.dp,
+                                elevation = 32.dp,
                                 shape = CircleShape,
-                                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.25f),
-                                ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f)
+                                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.3f),
+                                ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
                             )
                             .clip(CircleShape)
-                            .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.95f))
-                            .padding(horizontal = 12.dp, vertical = 12.dp),
+                            .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.85f))
+                            .padding(horizontal = 8.dp, vertical = 8.dp),
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
                     ) {
@@ -184,7 +196,14 @@ fun HomeScreenUI(
                     .padding(paddingValues)
                     .consumeWindowInsets(paddingValues)
             ) {
-                screenTabContent.invoke()
+                AnimatedContent(
+                    targetState = selectedTabState.value,
+                    transitionSpec = {
+                        fadeIn(tween(400)) togetherWith fadeOut(tween(400))
+                    }
+                ) {
+                    screenTabContent.invoke()
+                }
             }
         }
     }
@@ -207,13 +226,13 @@ private fun SyncButton(
         modifier = Modifier.graphicsLayer {
             scaleX = scale
             scaleY = scale
-        }
+        }.padding(end = 12.dp)
     ) {
         IconButton(
             onClick = onClick,
             interactionSource = interactionSource,
             modifier = Modifier
-                .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f), CircleShape)
+                .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.4f), CircleShape)
         ) {
             val loadingState = remember { derivedStateOf { state.value.loading } }
             val rotation = rememberSyncIconRotation(loadingState)
@@ -228,7 +247,7 @@ private fun SyncButton(
 
         AnimatedContent(
             targetState = state.value.indicator,
-            transitionSpec = { scaleIn() togetherWith scaleOut() },
+            transitionSpec = { scaleIn(spring()) togetherWith scaleOut(spring()) },
             modifier = Modifier.align(Alignment.TopEnd).padding(4.dp)
         ) {
             when (it) {
@@ -240,8 +259,8 @@ private fun SyncButton(
                         imageVector = Icons.Default.Check,
                         contentDescription = null,
                         modifier = Modifier
-                            .size(12.dp)
-                            .shadow(2.dp, CircleShape)
+                            .size(14.dp)
+                            .shadow(4.dp, CircleShape)
                             .background(
                                 color = MaterialTheme.extraColorScheme.success,
                                 shape = CircleShape
@@ -253,14 +272,14 @@ private fun SyncButton(
                 SyncIconIndicator.Canceled -> {
                     Box(
                         modifier = Modifier
-                            .size(8.dp)
+                            .size(10.dp)
                             .background(
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                                 shape = CircleShape
                             )
                     )
                 }
-                SyncIconIndicator.Error -> IndicatorCircle(MaterialTheme.colorScheme.primary)
+                SyncIconIndicator.Error -> IndicatorCircle(MaterialTheme.colorScheme.error)
             }
         }
     }
@@ -300,18 +319,23 @@ private fun RowScope.VerticalTabButton(
     val isPressed by interactionSource.collectIsPressedAsState()
     
     val scale by animateFloatAsState(
-        targetValue = if (isPressed) 0.9f else if (selected) 1.1f else 1f,
+        targetValue = if (isPressed) 0.85f else if (selected) 1.15f else 1f,
+        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessLow)
+    )
+
+    val translationY by animateFloatAsState(
+        targetValue = if (selected) -8f else 0f,
         animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessLow)
     )
 
     val backgroundColor by animateColorAsState(
         targetValue = if (selected) MaterialTheme.colorScheme.primaryContainer else Color.Transparent,
-        animationSpec = tween(300)
+        animationSpec = tween(400)
     )
     
     val contentColor by animateColorAsState(
         targetValue = if (selected) MaterialTheme.colorScheme.onPrimaryContainer else MaterialTheme.colorScheme.onSurfaceVariant,
-        animationSpec = tween(300)
+        animationSpec = tween(400)
     )
 
     Box(
@@ -321,13 +345,14 @@ private fun RowScope.VerticalTabButton(
             .graphicsLayer {
                 scaleX = scale
                 scaleY = scale
+                this.translationY = translationY
             }
-            .height(48.dp)
+            .height(56.dp)
             .clip(CircleShape)
             .background(backgroundColor)
             .clickable(
                 interactionSource = interactionSource,
-                indication = null, // Custom ripple handled by scale/color
+                indication = null,
                 onClick = onClick
             )
             .testTag(tab.buttonTestTag)
@@ -348,18 +373,18 @@ private fun HorizontalTabButton(
     val isPressed by interactionSource.collectIsPressedAsState()
     
     val scale by animateFloatAsState(
-        targetValue = if (isPressed) 0.95f else 1f,
+        targetValue = if (isPressed) 0.92f else if (selected) 1.05f else 1f,
         animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
     )
 
     val backgroundColor by animateColorAsState(
         targetValue = if (selected) MaterialTheme.colorScheme.primaryContainer else Color.Transparent,
-        animationSpec = tween(300)
+        animationSpec = tween(400)
     )
 
     val contentColor by animateColorAsState(
         targetValue = if (selected) MaterialTheme.colorScheme.onPrimaryContainer else MaterialTheme.colorScheme.onSurfaceVariant,
-        animationSpec = tween(300)
+        animationSpec = tween(400)
     )
 
     Row(
@@ -369,21 +394,21 @@ private fun HorizontalTabButton(
                 scaleX = scale
                 scaleY = scale
             }
-            .clip(RoundedCornerShape(16.dp))
+            .clip(RoundedCornerShape(20.dp))
             .background(backgroundColor)
             .clickable(
                 interactionSource = interactionSource,
                 indication = LocalIndication.current,
                 onClick = onClick
             )
-            .padding(horizontal = 16.dp, vertical = 14.dp)
+            .padding(horizontal = 20.dp, vertical = 18.dp)
             .testTag(tab.buttonTestTag),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        horizontalArrangement = Arrangement.spacedBy(20.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
         CompositionLocalProvider(LocalContentColor provides contentColor) {
             Box(
-                modifier = Modifier.size(24.dp),
+                modifier = Modifier.size(28.dp),
                 contentAlignment = Alignment.Center
             ) {
                 tab.iconContent()

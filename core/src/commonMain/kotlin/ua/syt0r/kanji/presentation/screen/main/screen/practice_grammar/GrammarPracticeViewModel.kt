@@ -44,6 +44,11 @@ class GrammarPracticeViewModel(
             is GrammarPracticeScreenContract.Event.AnswerConjugation -> handleAnswer(event.isCorrect)
             is GrammarPracticeScreenContract.Event.AnswerScramble -> handleAnswer(event.isCorrect)
             is GrammarPracticeScreenContract.Event.AnswerDialogue -> handleAnswer(event.isCorrect)
+            is GrammarPracticeScreenContract.Event.AnswerSrs -> {
+                viewModelScope.launch {
+                    queue.submitAnswer(event.answer)
+                }
+            }
             is GrammarPracticeScreenContract.Event.ProceedToNext -> {
                 val currentQueueState = _state.value.queueState as? GrammarPracticeQueueState.Review ?: return
                 val wasCorrect = _state.value.answeredCorrectly ?: return

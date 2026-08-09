@@ -1,0 +1,166 @@
+﻿2026-08-09T08:50:09.2899299Z ##[group]Run chmod +x gradlew
+2026-08-09T08:50:09.2899932Z [36;1mchmod +x gradlew[0m
+2026-08-09T08:50:09.2900205Z [36;1m./gradlew app:assembleRelease[0m
+2026-08-09T08:50:09.2955186Z shell: /usr/bin/bash -e {0}
+2026-08-09T08:50:09.2955485Z env:
+2026-08-09T08:50:09.2955811Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+2026-08-09T08:50:09.2956349Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+2026-08-09T08:50:09.2956760Z   KEYSTORE: 
+2026-08-09T08:50:09.2956958Z   KEYSTORE_PASS: 
+2026-08-09T08:50:09.2957169Z   SIGN_KEY: 
+2026-08-09T08:50:09.2957353Z   SIGN_PASS: 
+2026-08-09T08:50:09.2957555Z ##[endgroup]
+2026-08-09T08:50:11.4532664Z 
+2026-08-09T08:50:11.4534602Z Welcome to Gradle 8.9!
+2026-08-09T08:50:11.4541441Z 
+2026-08-09T08:50:11.4543172Z Here are the highlights of this release:
+2026-08-09T08:50:11.4543909Z  - Enhanced Error and Warning Messages
+2026-08-09T08:50:11.4544423Z  - IDE Integration Improvements
+2026-08-09T08:50:11.4544941Z  - Daemon JVM Information
+2026-08-09T08:50:11.4545327Z 
+2026-08-09T08:50:11.4545738Z For more details see https://docs.gradle.org/8.9/release-notes.html
+2026-08-09T08:50:11.4546264Z 
+2026-08-09T08:50:11.7476707Z Starting a Gradle Daemon (subsequent builds will be faster)
+2026-08-09T08:50:14.8504193Z Calculating task graph as no cached configuration is available for tasks: app:assembleRelease
+2026-08-09T08:50:26.2526393Z > Task :buildSrc:checkKotlinGradlePluginConfigurationErrors
+2026-08-09T08:50:26.6473653Z > Task :buildSrc:pluginDescriptors
+2026-08-09T08:50:26.7491543Z > Task :buildSrc:processResources
+2026-08-09T08:50:33.5473409Z > Task :buildSrc:compileKotlin
+2026-08-09T08:50:33.5474350Z > Task :buildSrc:compileJava NO-SOURCE
+2026-08-09T08:50:33.5475437Z > Task :buildSrc:compileGroovy NO-SOURCE
+2026-08-09T08:50:33.5476315Z > Task :buildSrc:classes
+2026-08-09T08:50:33.5493203Z > Task :buildSrc:jar
+2026-08-09T08:50:40.2474264Z 
+2026-08-09T08:50:40.2483822Z > Configure project :core
+2026-08-09T08:50:40.2484749Z Setting up dependency for copyNonXmlValueResourcesForCommonMain
+2026-08-09T08:50:40.2486056Z Setting up dependency for prepareComposeResourcesTaskForCommonMain
+2026-08-09T08:50:40.2487481Z Setting up dependency for copyNonXmlValueResourcesForAndroidMain
+2026-08-09T08:50:40.2490194Z Setting up dependency for prepareComposeResourcesTaskForAndroidMain
+2026-08-09T08:50:41.5491914Z Configuration 'releaseCompileClasspath' was resolved during configuration time.
+2026-08-09T08:50:41.5493683Z This is a build performance and scalability issue.
+2026-08-09T08:50:41.5494629Z See https://github.com/gradle/gradle/issues/2298
+2026-08-09T08:50:41.5495415Z Run with --info for a stacktrace.
+2026-08-09T08:50:41.5496364Z Configuration 'releaseRuntimeClasspath' was resolved during configuration time.
+2026-08-09T08:50:41.5497567Z This is a build performance and scalability issue.
+2026-08-09T08:50:41.5498514Z See https://github.com/gradle/gradle/issues/2298
+2026-08-09T08:50:41.5499300Z Run with --info for a stacktrace.
+2026-08-09T08:50:47.5482767Z 
+2026-08-09T08:50:47.5513243Z > Task :core:preBuild UP-TO-DATE
+2026-08-09T08:50:47.5514386Z > Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+2026-08-09T08:50:47.5543020Z > Task :core:preReleaseBuild UP-TO-DATE
+2026-08-09T08:50:47.5572807Z > Task :app:preBuild UP-TO-DATE
+2026-08-09T08:50:47.5575547Z > Task :app:preReleaseBuild UP-TO-DATE
+2026-08-09T08:50:47.5576099Z > Task :core:cleanupLegacyAppAssets
+2026-08-09T08:50:47.5576719Z > Task :core:convertXmlValueResourcesForAndroidMain NO-SOURCE
+2026-08-09T08:50:47.6523221Z > Task :core:mergeReleaseJniLibFolders
+2026-08-09T08:50:47.6552911Z > Task :app:mergeReleaseJniLibFolders
+2026-08-09T08:50:47.6582918Z > Task :core:mergeReleaseNativeLibs NO-SOURCE
+2026-08-09T08:50:47.6612809Z > Task :core:copyReleaseJniLibsProjectOnly
+2026-08-09T08:50:47.6643075Z > Task :core:convertXmlValueResourcesForCommonMain
+2026-08-09T08:50:47.7487956Z > Task :core:generateAndroidMainNonAndroidBuildConfig
+2026-08-09T08:50:47.7495821Z > Task :core:generateAndroidReleaseNonAndroidBuildConfig SKIPPED
+2026-08-09T08:50:47.9480013Z 
+2026-08-09T08:50:47.9504673Z > Task :core:prepareKaiteyoAssetsForAndroidMain
+2026-08-09T08:50:47.9533400Z Preparing Kaiteyo Assets for Android at /home/runner/work/Kaiteyo/Kaiteyo/core/src/androidMain/composeResources/files...
+2026-08-09T08:50:47.9592825Z Asset ja-JP-Neural2-B.opus not found, downloading
+2026-08-09T08:50:47.9623701Z Downloaded https://github.com/syt0r/Kanji-Dojo-Data/releases/download/voice-v1/ja-JP-Neural2-B.opus to /home/runner/work/Kaiteyo/Kaiteyo/core/src/androidMain/composeResources/files/ja-JP-Neural2-B.opus
+2026-08-09T08:50:47.9682485Z 
+2026-08-09T08:50:47.9732877Z > Task :core:copyNonXmlValueResourcesForAndroidMain
+2026-08-09T08:50:47.9762841Z > Task :core:prepareComposeResourcesTaskForAndroidMain
+2026-08-09T08:50:48.0483356Z > Task :core:generateResourceAccessorsForAndroidMain
+2026-08-09T08:50:49.5512720Z 
+2026-08-09T08:50:49.5553055Z > Task :core:prepareKaiteyoAssetsForCommonMain
+2026-08-09T08:50:49.5583255Z Preparing Kaiteyo Assets for Common at /home/runner/work/Kaiteyo/Kaiteyo/core/src/commonMain/composeResources/files...
+2026-08-09T08:50:49.5612816Z Asset kanji-dojo-data-base-v15.sql not found, downloading
+2026-08-09T08:50:49.5643902Z Downloaded https://github.com/syt0r/Kanji-Dojo-Data/releases/download/v15.0/kanji-dojo-data-base-v15.sql to /home/runner/work/Kaiteyo/Kaiteyo/core/src/commonMain/composeResources/files/kanji-dojo-data-base-v15.sql
+2026-08-09T08:50:49.9481822Z 
+2026-08-09T08:50:49.9512934Z > Task :core:copyNonXmlValueResourcesForCommonMain
+2026-08-09T08:50:49.9542941Z > Task :core:prepareComposeResourcesTaskForCommonMain
+2026-08-09T08:50:50.2480739Z > Task :core:generateResourceAccessorsForCommonMain
+2026-08-09T08:50:50.2481807Z > Task :core:generateActualResourceCollectorsForAndroidMain
+2026-08-09T08:50:50.3483407Z > Task :core:generateComposeResClass
+2026-08-09T08:50:50.3565940Z > Task :core:generateExpectResourceCollectorsForCommonMain
+2026-08-09T08:50:50.3656593Z > Task :app:mergeReleaseNativeLibs
+2026-08-09T08:50:50.3687601Z > Task :core:generateNonAndroidBuildConfig
+2026-08-09T08:50:50.3743716Z > Task :core:generateReleaseBuildConfig
+2026-08-09T08:50:50.3749666Z > Task :core:generateReleaseResValues
+2026-08-09T08:50:50.4513358Z > Task :core:generateReleaseResources
+2026-08-09T08:50:50.4572707Z 
+2026-08-09T08:50:50.4603257Z > Task :app:stripReleaseDebugSymbols
+2026-08-09T08:50:50.4693278Z Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so.
+2026-08-09T08:50:50.5523146Z 
+2026-08-09T08:50:50.5583146Z > Task :app:extractReleaseNativeSymbolTables
+2026-08-09T08:50:50.5632819Z > Task :core:packageReleaseResources
+2026-08-09T08:50:50.5642912Z > Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+2026-08-09T08:50:50.5703715Z > Task :core:convertXmlValueResourcesForAndroidRelease NO-SOURCE
+2026-08-09T08:50:50.5752645Z > Task :core:copyNonXmlValueResourcesForAndroidRelease NO-SOURCE
+2026-08-09T08:50:50.5793036Z > Task :core:prepareComposeResourcesTaskForAndroidRelease NO-SOURCE
+2026-08-09T08:50:50.5822127Z > Task :core:generateResourceAccessorsForAndroidRelease NO-SOURCE
+2026-08-09T08:50:50.5842714Z > Task :core:javaPreCompileRelease
+2026-08-09T08:50:50.6483284Z > Task :app:buildKotlinToolingMetadata
+2026-08-09T08:50:55.2523458Z > Task :core:parseReleaseLocalResources
+2026-08-09T08:50:55.9513182Z > Task :core:generateReleaseRFile
+2026-08-09T08:50:55.9563074Z > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+2026-08-09T08:50:56.0523583Z > Task :core:generateCommonMainUserDataDatabaseInterface
+2026-08-09T08:50:56.0577577Z > Task :core:writeReleaseAarMetadata
+2026-08-09T08:50:56.0672552Z > Task :app:generateReleaseResValues FROM-CACHE
+2026-08-09T08:50:56.3483859Z > Task :core:generateCommonMainAppDataDatabaseInterface
+2026-08-09T08:50:56.3485568Z > Task :app:prepareLibraryDefinitionsRelease
+2026-08-09T08:50:56.7503225Z > Task :app:checkReleaseDuplicateClasses
+2026-08-09T08:50:56.7525226Z > Task :app:mapReleaseSourceSetPaths
+2026-08-09T08:50:56.7542729Z > Task :app:generateReleaseResources
+2026-08-09T08:50:56.7548650Z > Task :app:createReleaseCompatibleScreenManifests
+2026-08-09T08:50:56.7642764Z > Task :app:checkReleaseAarMetadata
+2026-08-09T08:50:56.7653289Z > Task :app:extractDeepLinksRelease
+2026-08-09T08:50:56.7687579Z > Task :core:extractDeepLinksRelease FROM-CACHE
+2026-08-09T08:50:56.8509047Z > Task :app:packageReleaseResources
+2026-08-09T08:50:57.8483360Z > Task :core:processReleaseManifest
+2026-08-09T08:50:57.9474305Z > Task :app:parseReleaseLocalResources
+2026-08-09T08:50:57.9487625Z > Task :app:javaPreCompileRelease FROM-CACHE
+2026-08-09T08:50:57.9489382Z > Task :core:prepareReleaseArtProfile
+2026-08-09T08:50:58.4474550Z > Task :app:mergeReleaseArtProfile
+2026-08-09T08:50:58.5489451Z > Task :app:extractProguardFiles
+2026-08-09T08:50:58.5520543Z > Task :app:mergeReleaseStartupProfile
+2026-08-09T08:50:58.5542753Z > Task :app:mergeReleaseShaders
+2026-08-09T08:50:58.5598066Z > Task :app:compileReleaseShaders NO-SOURCE
+2026-08-09T08:50:58.5612847Z > Task :app:generateReleaseAssets UP-TO-DATE
+2026-08-09T08:50:58.5659981Z > Task :core:mergeReleaseShaders
+2026-08-09T08:50:58.5692883Z > Task :core:compileReleaseShaders NO-SOURCE
+2026-08-09T08:50:58.7513186Z > Task :core:copyReleaseComposeResourcesToAndroidAssets
+2026-08-09T08:50:58.7572920Z > Task :core:generateReleaseAssets UP-TO-DATE
+2026-08-09T08:50:58.7573589Z > Task :app:processReleaseMainManifest
+2026-08-09T08:50:58.7574140Z > Task :core:releaseAssetsCopyForAGP NO-SOURCE
+2026-08-09T08:50:58.9486055Z > Task :app:processReleaseManifest
+2026-08-09T08:50:59.7480704Z > Task :app:processReleaseManifestForPackage
+2026-08-09T08:50:59.8484185Z > Task :app:extractReleaseVersionControlInfo
+2026-08-09T08:51:00.0483295Z > Task :core:packageReleaseAssets
+2026-08-09T08:51:00.5533255Z > Task :app:mergeReleaseResources
+2026-08-09T08:51:01.4472938Z > Task :app:validateSigningRelease
+2026-08-09T08:51:01.4513129Z > Task :app:writeReleaseAppMetadata
+2026-08-09T08:51:01.5473988Z > Task :app:writeReleaseSigningConfigVersions
+2026-08-09T08:51:02.8503209Z > Task :app:mergeReleaseAssets
+2026-08-09T08:51:04.3472051Z > Task :app:processReleaseResources
+2026-08-09T08:51:04.6494164Z > Task :app:convertLinkedResourcesToProtoRelease
+2026-08-09T08:51:08.2473388Z > Task :app:compressReleaseAssets
+2026-08-09T08:51:26.3472950Z > Task :core:compileReleaseKotlinAndroid
+2026-08-09T08:51:42.4576914Z e: file:///home/runner/work/Kaiteyo/Kaiteyo/core/src/commonMain/kotlin/ua/syt0r/kanji/presentation/screen/main/screen/practice_vocab/ui/VocabPracticeWritingUI.kt:196:1 Syntax error: Expecting a top level declaration.
+2026-08-09T08:51:42.5472687Z 
+2026-08-09T08:51:42.5508388Z > Task :core:compileReleaseKotlinAndroid FAILED
+2026-08-09T08:51:42.6470944Z 
+2026-08-09T08:51:42.6484509Z FAILURE: Build failed with an exception.
+2026-08-09T08:51:42.6485105Z 71 actionable tasks: 68 executed, 3 from cache
+2026-08-09T08:51:42.6486895Z 
+2026-08-09T08:51:42.6487268Z * What went wrong:
+2026-08-09T08:51:42.6487932Z Execution failed for task ':core:compileReleaseKotlinAndroid'.
+2026-08-09T08:51:42.6489504Z > A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+2026-08-09T08:51:42.6490858Z    > Compilation error. See log for more details
+2026-08-09T08:51:42.6503872Z 
+2026-08-09T08:51:42.6504256Z * Try:
+2026-08-09T08:51:42.6504908Z > Run with --stacktrace option to get the stack trace.
+2026-08-09T08:51:42.6505825Z > Run with --info or --debug option to get more log output.
+2026-08-09T08:51:42.6506617Z > Run with --scan to get full insights.
+2026-08-09T08:51:42.6507322Z > Get more help at https://help.gradle.org.
+2026-08-09T08:51:42.6508006Z 
+2026-08-09T08:51:42.6511627Z BUILD FAILED in 1m 32s
+2026-08-09T08:51:42.7472616Z Configuration cache entry stored.
+2026-08-09T08:51:43.3504361Z ##[error]Process completed with exit code 1.

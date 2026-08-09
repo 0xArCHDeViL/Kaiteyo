@@ -154,10 +154,9 @@ class AppearanceSettingItem(
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Open full Appearance Studio
         Row(modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
-            Button(onClick = { mainNavigationState.navigate(MainDestination.AppearanceStudio) }) {
-                Text(text = "Open Appearance Studio")
+            Button(onClick = { mainNavigationState.navigate(MainDestination.ThemeStudio) }) {
+                Text(text = "Open Theme Studio")
             }
         }
     }

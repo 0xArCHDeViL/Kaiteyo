@@ -34,12 +34,9 @@ fun GrammarPracticeScreenUI(
                     is MutableGrammarReviewState.Flashcard -> {
                         GrammarPracticeFlashcardUI(
                             state = reviewState,
-                            answeredCorrectly = answeredCorrectly,
-                            onAnswer = { isCorrect ->
-                                onEvent(GrammarPracticeScreenContract.Event.AnswerFlashcard(isCorrect))
-                            },
-                            onNext = {
-                                onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(queueState.answers))
+                            answers = queueState.answers,
+                            onAnswer = { answer ->
+                                onEvent(GrammarPracticeScreenContract.Event.AnswerSrs(answer))
                             }
                         )
                     }
