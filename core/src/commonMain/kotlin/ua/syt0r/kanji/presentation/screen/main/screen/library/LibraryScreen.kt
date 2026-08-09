@@ -50,6 +50,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.letters_dashbo
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.SearchScreen
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.vocab_dashboard.VocabDashboardScreen
 import ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria
+import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarScreen
 
 // ============================================
 // LIBRARY — the central hub
@@ -73,6 +74,7 @@ fun LibraryScreen(navigationState: MainNavigationState) {
             dataCenter = dataCenter,
             onOpenKanjiDecks = { view = LibraryView.KanjiDecks },
             onOpenVocab = { view = LibraryView.Vocabulary },
+            onOpenGrammar = { view = LibraryView.Grammar },
             onOpenWordSearch = { view = LibraryView.WordSearch }
         )
         LibraryView.KanjiDecks -> DrillDownScaffold(title = "字  Kanji Decks", onBack = { view = LibraryView.Hub }) {
@@ -87,6 +89,7 @@ fun LibraryScreen(navigationState: MainNavigationState) {
         LibraryView.RadicalSearch -> DrillDownScaffold(title = "部  Radical Search", onBack = { view = LibraryView.Hub }) {
             SearchScreen(mainNavigationState = navigationState, startWithRadicals = true)
         }
+        LibraryView.Grammar -> GrammarScreen(onNavigateBack = { view = LibraryView.Hub })
     }
 }
 
@@ -96,6 +99,7 @@ private sealed interface LibraryView {
     data object Vocabulary : LibraryView
     data object WordSearch : LibraryView
     data object RadicalSearch : LibraryView
+    data object Grammar : LibraryView
 }
 
 @Composable
@@ -133,6 +137,7 @@ private fun LibraryHub(
     dataCenter: KaiteyoDataCenter,
     onOpenKanjiDecks: () -> Unit,
     onOpenVocab: () -> Unit,
+    onOpenGrammar: () -> Unit,
     onOpenWordSearch: () -> Unit,
     onOpenRadicalSearch: () -> Unit = {}
 ) {
@@ -230,9 +235,9 @@ private fun LibraryHub(
                 )
                 SectionCard(
                     glyph = "文",
-                    title = "Grammar (Coming Soon)",
+                    title = "Grammar",
                     subtitle = "Particles & grammar terms",
-                    onClick = null,
+                    onClick = onOpenGrammar,
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
