@@ -64,6 +64,7 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import org.jetbrains.compose.resources.getString
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
@@ -188,7 +189,7 @@ fun GeneralDashboardScreenUI(
 
 @Composable
 private fun ScreenDivider() {
-    HorizontalDivider(Modifier.padding(horizontal = 10.dp, vertical = 8.dp))
+    Spacer(Modifier.height(16.dp))
 }
 
 @Composable
@@ -423,26 +424,45 @@ fun StudyTargetItem(
     val studyTarget = studyTargetState.studyTarget
     val studyProgress = studyTargetState.progress
 
-    AppListItem(
-        onClick = {
-            when (studyProgress) {
-                StudyTargetProgress.NoDecks -> createDeck()
-                is StudyTargetProgress.WithDecks -> {
-                    startPractice(studyProgress.options.combinedCards)
+    val interactionSource = remember { androidx.compose.foundation.interaction.MutableInteractionSource() }
+    val isPressed by androidx.compose.foundation.interaction.collectIsPressedAsState(interactionSource)
+    
+    val scale by androidx.compose.animation.core.animateFloatAsState(
+        targetValue = if (isPressed) 0.95f else 1f,
+        animationSpec = androidx.compose.animation.core.spring(dampingRatio = androidx.compose.animation.core.Spring.DampingRatioMediumBouncy)
+    )
+
+    androidx.compose.material3.Surface(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 8.dp)
+            .androidx.compose.ui.draw.scale(scale)
+            .androidx.compose.ui.draw.shadow(8.dp, RoundedCornerShape(20.dp), spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f))
+            .clip(RoundedCornerShape(20.dp)),
+        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+    ) {
+        AppListItem(
+            onClick = {
+                when (studyProgress) {
+                    StudyTargetProgress.NoDecks -> createDeck()
+                    is StudyTargetProgress.WithDecks -> {
+                        startPractice(studyProgress.options.combinedCards)
+                    }
                 }
-            }
-        },
-        headlineContent = {
-            Text(
-                stringResource(studyTarget.categoryTitle) + "・" + stringResource(studyTarget.typeTitleRes)
-            )
-        },
-        trailingContent = {
-            Icon(
-                imageVector = Icons.AutoMirrored.Default.KeyboardArrowRight,
-                contentDescription = null
-            )
-        },
+            },
+            headlineContent = {
+                Text(
+                    text = stringResource(studyTarget.categoryTitle) + "・" + stringResource(studyTarget.typeTitleRes),
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = androidx.compose.ui.text.font.FontWeight.Bold
+                )
+            },
+            trailingContent = {
+                Icon(
+                    imageVector = Icons.AutoMirrored.Default.KeyboardArrowRight,
+                    contentDescription = null
+                )
+            },
         supportingContent = {
             if (studyProgress is StudyTargetProgress.NoDecks) {
                 Text(stringResource(Res.string.general_dashboard_study_target_no_decks))
@@ -502,6 +522,7 @@ fun StudyTargetItem(
             }
         }
     )
+    }
 }
 
 @Composable
@@ -556,13 +577,8 @@ private fun Header(state: ScreenState.Loaded) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(
-                horizontal = 20.dp,
-                vertical = 4.dp
-            )
-            .padding(AppListItemDefaults.ExtraPaddings)
-            .height(IntrinsicSize.Max),
-        horizontalArrangement = Arrangement.spacedBy(8.dp)
+            .padding(horizontal = 16.dp, vertical = 12.dp),
+        horizontalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         fun Int.numberOrDash(): String = if (this == 0) "-" else toString()
         HeaderStatItem(
@@ -585,29 +601,28 @@ private fun Header(state: ScreenState.Loaded) {
 
 @Composable
 private fun HeaderStatItem(title: String, text: String, modifier: Modifier = Modifier) {
-    Row(
-        modifier = modifier.height(IntrinsicSize.Max),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.dp)
+    Column(
+        modifier = modifier
+            .clip(RoundedCornerShape(20.dp))
+            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f))
+            .padding(vertical = 16.dp, horizontal = 4.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
-
-        Column(
-            modifier = Modifier.fillMaxSize(),
-            verticalArrangement = Arrangement.spacedBy(4.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            Text(
-                text = title,
-                style = MaterialTheme.typography.labelSmall,
-                textAlign = TextAlign.Center
-            )
-            Text(
-                text = text,
-                style = MaterialTheme.typography.titleLarge,
-                textAlign = TextAlign.Center
-            )
-        }
-
+        Text(
+            text = text,
+            color = MaterialTheme.colorScheme.primary,
+            fontSize = 24.sp,
+            fontWeight = androidx.compose.ui.text.font.FontWeight.ExtraBold,
+            textAlign = TextAlign.Center
+        )
+        Spacer(Modifier.height(4.dp))
+        Text(
+            text = title,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            fontSize = 12.sp,
+            fontWeight = androidx.compose.ui.text.font.FontWeight.Medium,
+            textAlign = TextAlign.Center
+        )
     }
 }
 

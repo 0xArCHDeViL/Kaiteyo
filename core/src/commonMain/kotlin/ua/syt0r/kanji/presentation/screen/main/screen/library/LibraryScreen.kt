@@ -352,28 +352,29 @@ private fun StatRow(
 ) {
     Row(
         modifier = Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.spacedBy(10.dp)
+        horizontalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         items.forEach { item ->
             Column(
                 modifier = Modifier
                     .weight(1f)
-                    .clip(RoundedCornerShape(16.dp))
+                    .clip(RoundedCornerShape(20.dp))
                     .background(surfaceColors.surface)
-                    .padding(vertical = 14.dp),
+                    .padding(vertical = 16.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
                     text = item.value.toString(),
                     color = accent.primary,
-                    fontSize = 22.sp,
-                    fontWeight = FontWeight.Bold
+                    fontSize = 24.sp,
+                    fontWeight = FontWeight.ExtraBold
                 )
-                Spacer(Modifier.height(2.dp))
+                Spacer(Modifier.height(4.dp))
                 Text(
                     text = item.label,
                     color = surfaceColors.textMuted,
-                    fontSize = 11.sp
+                    fontSize = 12.sp,
+                    fontWeight = FontWeight.Medium
                 )
             }
         }
@@ -382,13 +383,26 @@ private fun StatRow(
 
 @Composable
 private fun SectionTitle(title: String, accent: KaiteyoAccentScheme, surfaceColors: SurfaceColors) {
-    Text(
-        text = title,
-        color = accent.primary,
-        fontSize = 12.sp,
-        fontWeight = FontWeight.Medium,
-        modifier = Modifier.padding(top = 8.dp)
-    )
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.padding(top = 16.dp, bottom = 4.dp)
+    ) {
+        Box(
+            modifier = Modifier
+                .padding(end = 8.dp)
+                .width(4.dp)
+                .height(14.dp)
+                .clip(androidx.compose.foundation.shape.CircleShape)
+                .background(accent.primary)
+        )
+        Text(
+            text = title,
+            color = accent.primary,
+            fontSize = 13.sp,
+            fontWeight = FontWeight.Bold,
+            letterSpacing = 1.sp
+        )
+    }
 }
 
 @Composable
@@ -402,46 +416,56 @@ private fun SectionCard(
     surfaceColors: SurfaceColors
 ) {
     val interactionSource = remember { MutableInteractionSource() }
-    val hovered by interactionSource.collectIsHoveredAsState()
+    val isPressed by androidx.compose.foundation.interaction.collectIsPressedAsState(interactionSource)
+    
+    val scale by androidx.compose.animation.core.animateFloatAsState(
+        targetValue = if (isPressed) 0.95f else 1f,
+        animationSpec = androidx.compose.animation.core.spring(dampingRatio = androidx.compose.animation.core.Spring.DampingRatioMediumBouncy)
+    )
+
+    val backgroundColor by androidx.compose.animation.animateColorAsState(
+        targetValue = if (isPressed) surfaceColors.surfaceInteractive else surfaceColors.surface,
+        animationSpec = androidx.compose.animation.core.tween(200)
+    )
 
     val base = Modifier
         .fillMaxWidth()
-        .clip(RoundedCornerShape(16.dp))
-        .background(if (hovered) surfaceColors.surfaceInteractive else surfaceColors.surface)
+        .androidx.compose.ui.draw.scale(scale)
+        .clip(RoundedCornerShape(20.dp))
+        .background(backgroundColor)
 
     val clickable = if (onClick != null) {
-        base
-            .clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
-            .hoverable(interactionSource)
+        base.clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
     } else {
         base
     }
 
     Row(
-        modifier = clickable.padding(horizontal = 16.dp, vertical = 14.dp),
+        modifier = clickable.padding(horizontal = 20.dp, vertical = 16.dp),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(12.dp)
+        horizontalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         Box(
             modifier = Modifier
-                .size(44.dp)
-                .clip(RoundedCornerShape(13.dp))
-                .background(accent.primary.copy(alpha = 0.12f)),
+                .size(48.dp)
+                .clip(RoundedCornerShape(14.dp))
+                .background(accent.primary.copy(alpha = 0.15f)),
             contentAlignment = Alignment.Center
         ) {
-            Text(glyph, fontSize = 20.sp)
+            Text(glyph, fontSize = 22.sp)
         }
         Column(Modifier.weight(1f)) {
             Text(
                 text = title,
                 color = surfaceColors.textPrimary,
-                fontSize = 15.sp,
-                fontWeight = FontWeight.Medium
+                fontSize = 16.sp,
+                fontWeight = FontWeight.SemiBold
             )
+            Spacer(modifier = Modifier.height(2.dp))
             Text(
                 text = subtitle,
                 color = surfaceColors.textMuted,
-                fontSize = 12.sp,
+                fontSize = 13.sp,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
             )
