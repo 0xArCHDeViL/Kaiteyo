@@ -31,6 +31,10 @@ object AppAssets {
             Asset(
                 fileName = "text_analysis_preview.json",
                 url = null
+            ),
+            Asset(
+                fileName = "bunpou_data.json",
+                url = null
             )
         )
     )
