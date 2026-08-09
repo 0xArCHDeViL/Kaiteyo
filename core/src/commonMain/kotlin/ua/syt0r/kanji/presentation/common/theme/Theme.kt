@@ -362,6 +362,7 @@ fun AppTheme(
         MaterialTheme(
             colorScheme = colors,
             typography = AppTypography,
+            shapes = AppShapes,
             content = {
                 CompositionLocalProvider(
                     LocalExtraColors provides extraColors,

@@ -43,9 +43,9 @@ fun AppListItem(
     ListItem(
         headlineContent = headlineContent,
         modifier = modifier
-            .background(MaterialTheme.colorScheme.surface)
             .padding(paddingValues)
             .clip(MaterialTheme.shapes.large)
+            .background(MaterialTheme.colorScheme.surface)
             .clickable(onClick),
         overlineContent = overlineContent,
         supportingContent = supportingContent,
@@ -67,9 +67,9 @@ fun AppListItem(
 
     Row(
         modifier = modifier
-            .background(MaterialTheme.colorScheme.surface)
             .padding(paddingValues)
             .clip(MaterialTheme.shapes.large)
+            .background(MaterialTheme.colorScheme.surface)
             .clickable(onClick)
             .padding(ListItemDefaultPaddings),
         verticalAlignment = Alignment.CenterVertically,
