@@ -121,12 +121,12 @@ fun LetterPracticeWritingUI(
         coroutineScope.launch { scaffoldState.bottomSheetState.collapse() }
     }
 
-    val answersSection: @Composable BoxScope.() -> Unit = {
+    val answersSection: @Composable (Modifier) -> Unit = { modifier ->
         AnswerButtons(
             letterWritingButtonsState = reviewState.toAnswerButtonsState(),
             studyCompleted = { reviewState.value.isStudyMode.value = false },
             answerSelected = onNextClick,
-            modifier = Modifier.align(Alignment.BottomCenter)
+            modifier = modifier
         )
     }
 
@@ -158,32 +158,34 @@ fun LetterPracticeWritingUI(
                 modifier = Modifier.fillMaxSize(),
             )
 
-            // Brush selector toolbar above the drawing input
-            BrushSelector(
-                brushSettings = brushSettings,
-                onBrushSettingsChange = { brushSettings = it },
+            Column(
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
-                    .trackItemPosition { infoSectionBottomPadding.value = it.heightFromScreenBottom }
-                    .sizeIn(maxWidth = 400.dp)
-                    .padding(horizontal = 20.dp)
-            )
+                    .fillMaxWidth()
+                    .trackItemPosition { infoSectionBottomPadding.value = it.heightFromScreenBottom },
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                // Brush selector toolbar above the drawing input
+                BrushSelector(
+                    brushSettings = brushSettings,
+                    onBrushSettingsChange = { brushSettings = it },
+                    modifier = Modifier
+                        .sizeIn(maxWidth = 400.dp)
+                        .padding(horizontal = 20.dp)
+                )
 
-            LetterPracticeWritingInputSection(
-                state = reviewState,
-                brushSettings = brushSettings,
-                modifier = Modifier
-                    .align(Alignment.BottomCenter)
-                    .trackItemPosition {
-                        infoSectionBottomPadding.value = it.heightFromScreenBottom
-                    }
-                    .sizeIn(maxWidth = 400.dp)
-                    .padding(horizontal = 20.dp)
-                    .padding(bottom = 20.dp)
-                    .aspectRatio(1f, matchHeightConstraintsFirst = true)
-            )
+                LetterPracticeWritingInputSection(
+                    state = reviewState,
+                    brushSettings = brushSettings,
+                    modifier = Modifier
+                        .sizeIn(maxWidth = 400.dp)
+                        .padding(horizontal = 20.dp)
+                        .padding(bottom = 12.dp)
+                        .aspectRatio(1f, matchHeightConstraintsFirst = false)
+                )
 
-            answersSection()
+                answersSection(Modifier)
+            }
 
         }
 
@@ -256,7 +258,7 @@ fun LetterPracticeWritingUI(
 
             }
 
-            answersSection()
+            answersSection(Modifier.align(Alignment.BottomCenter))
 
         }
 

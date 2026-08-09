@@ -100,6 +100,7 @@ class AppearanceSettingItem(
             BaseMode.entries.forEach { mode ->
                 val isSelected = themeState.baseMode == mode
                 BaseModeCard(
+                    modifier = Modifier.weight(1f).padding(horizontal = 4.dp),
                     mode = mode,
                     isSelected = isSelected,
                     onClick = {
@@ -164,6 +165,7 @@ class AppearanceSettingItem(
 
 @Composable
 private fun BaseModeCard(
+    modifier: Modifier = Modifier,
     mode: BaseMode,
     isSelected: Boolean,
     onClick: () -> Unit
@@ -196,8 +198,7 @@ private fun BaseModeCard(
     )
 
     Box(
-        modifier = Modifier
-            .fillMaxWidth(0.32f)
+        modifier = modifier
             .clip(RoundedCornerShape(12.dp))
             .background(bgColor)
             .border(

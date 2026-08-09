@@ -631,8 +631,7 @@ private fun ScreenLayout(
                 is ScreenState.Loaded -> Column(
                     modifier = Modifier.fillMaxSize()
                         .verticalScroll(rememberScrollState())
-                        .wrapContentWidth()
-                        .width(400.dp)
+                        .widthIn(max = 600.dp)
                 ) {
 
                     if (LocalOrientation.current == Orientation.Landscape) {

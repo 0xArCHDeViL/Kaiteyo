@@ -121,23 +121,34 @@ fun VocabPracticeWritingUI(
 
     val selectedReviewState = rememberUpdatedState(reviewState.selected.value)
 
-    Box(
-        modifier = Modifier.fillMaxSize()
-    ) {
+    val answersSection: @Composable (Modifier) -> Unit = { modifier ->
+        ExpandablePracticeAnswerButtonsRow(
+            state = answersRowState,
+            onClick = handleAnswer,
+            modifier = modifier
+        )
+    }
 
-        when (LocalOrientation.current) {
+    when (LocalOrientation.current) {
             Orientation.Portrait -> {
                 AutopaddedScrollableColumn(
                     modifier = Modifier.fillMaxSize(),
                     bottomOverlayContent = {
-                        Input(
-                            state = selectedReviewState,
-                            modifier = Modifier.fillMaxWidth()
-                                .padding(20.dp)
-                                .wrapContentSize()
-                                .widthIn(max = 400.dp)
-                                .aspectRatio(1f, matchHeightConstraintsFirst = true)
-                        )
+                        Column(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalAlignment = Alignment.CenterHorizontally
+                        ) {
+                            Input(
+                                state = selectedReviewState,
+                                modifier = Modifier
+                                    .padding(horizontal = 20.dp)
+                                    .padding(bottom = 12.dp)
+                                    .wrapContentSize()
+                                    .widthIn(max = 400.dp)
+                                    .aspectRatio(1f, matchHeightConstraintsFirst = false)
+                            )
+                            answersSection(Modifier)
+                        }
                     }
                 ) {
 
@@ -152,7 +163,8 @@ fun VocabPracticeWritingUI(
             }
 
             Orientation.Landscape -> {
-                Row {
+                Box(Modifier.fillMaxSize()) {
+                    Row {
 
                     Progress(
                         reviewState = reviewState,
@@ -174,16 +186,12 @@ fun VocabPracticeWritingUI(
                             .aspectRatio(1f, matchHeightConstraintsFirst = true)
                     )
 
+                    }
+
+                    answersSection(Modifier.align(Alignment.BottomCenter))
                 }
             }
         }
-
-        ExpandablePracticeAnswerButtonsRow(
-            state = answersRowState,
-            onClick = handleAnswer,
-            modifier = Modifier.align(Alignment.BottomCenter)
-        )
-
     }
 
 }
