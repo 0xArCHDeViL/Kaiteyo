@@ -86,7 +86,8 @@ fun LibraryScreen(navigationState: MainNavigationState) {
             onOpenKanjiDecks = { view = LibraryView.KanjiDecks },
             onOpenVocab = { view = LibraryView.Vocabulary },
             onOpenGrammar = { view = LibraryView.Grammar },
-            onOpenWordSearch = { view = LibraryView.WordSearch }
+            onOpenWordSearch = { view = LibraryView.WordSearch },
+            onOpenRadicalSearch = { view = LibraryView.RadicalSearch }
         )
         LibraryView.KanjiDecks -> DrillDownScaffold(title = "字  Kanji Decks", onBack = { view = LibraryView.Hub }) {
             LettersDashboardScreen(mainNavigationState = navigationState)

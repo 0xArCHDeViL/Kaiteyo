@@ -19,14 +19,11 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.material.ModalBottomSheetLayout
-import androidx.compose.material.ModalBottomSheetValue
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.rounded.GridView
-import androidx.compose.material.rememberModalBottomSheetState
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -80,10 +77,7 @@ fun SearchScreenUI(
     startWithRadicals: Boolean = false
 ) {
     val coroutineScope = rememberCoroutineScope()
-    val sheetState = rememberModalBottomSheetState(
-        initialValue = ModalBottomSheetValue.Hidden,
-        skipHalfExpanded = true
-    )
+    var showRadicalSearch by rememberSaveable { mutableStateOf(startWithRadicals) }
 
     val inputState = rememberSaveable(stateSaver = TextFieldValue.Saver) {
         mutableStateOf(TextFieldValue())
@@ -101,42 +95,11 @@ fun SearchScreenUI(
             .launchIn(this)
 
         if (startWithRadicals) {
-            sheetState.show()
             onRadicalsSectionExpanded()
         }
     }
 
-    ModalBottomSheetLayout(
-        sheetState = sheetState,
-        sheetShape = RoundedCornerShape(topStart = 32.dp, topEnd = 32.dp),
-        sheetElevation = 24.dp,
-        sheetBackgroundColor = MaterialTheme.colorScheme.surface,
-        scrimColor = MaterialTheme.colorScheme.scrim.copy(alpha = 0.5f),
-        sheetContent = {
-            Column(Modifier.fillMaxHeight(0.85f)) {
-                Box(
-                    modifier = Modifier
-                        .padding(vertical = 12.dp)
-                        .size(width = 40.dp, height = 4.dp)
-                        .clip(CircleShape)
-                        .background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.4f))
-                        .align(Alignment.CenterHorizontally)
-                )
-                RadicalSearch(
-                    state = radicalsState,
-                    selectedRadicals = selectedRadicalsState,
-                    onCharacterClick = {
-                        inputState.value = inputState.value.run {
-                            TextFieldValue(
-                                text = text + it,
-                                selection = TextRange(text.length + 1)
-                            )
-                        }
-                    }
-                )
-            }
-        }
-    ) {
+    Box(modifier = Modifier.fillMaxSize()) {
         Column(modifier = Modifier.fillMaxSize()) {
             val searchContainerState = rememberCollapsibleContainerState()
 
@@ -144,10 +107,8 @@ fun SearchScreenUI(
                 InputSection(
                     inputState = inputState,
                     onOpenRadicalSearch = {
-                        coroutineScope.launch {
-                            sheetState.show()
-                            onRadicalsSectionExpanded()
-                        }
+                        showRadicalSearch = true
+                        onRadicalsSectionExpanded()
                     },
                     modifier = Modifier.fillMaxWidth().align(Alignment.CenterHorizontally)
                 )
@@ -177,6 +138,77 @@ fun SearchScreenUI(
                 onWordClick = onWordClick,
                 onScrolledToEnd = onScrolledToEnd
             )
+        }
+
+        AnimatedVisibility(
+            visible = showRadicalSearch,
+            enter = fadeIn(spring(stiffness = Spring.StiffnessLow)) + scaleIn(initialScale = 0.95f, animationSpec = spring(dampingRatio = Spring.DampingRatioLowBouncy, stiffness = Spring.StiffnessLow)),
+            exit = fadeOut(spring(stiffness = Spring.StiffnessLow)) + scaleOut(targetScale = 0.95f, animationSpec = spring(stiffness = Spring.StiffnessLow)),
+            modifier = Modifier.fillMaxSize()
+        ) {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(MaterialTheme.colorScheme.scrim.copy(alpha = 0.5f))
+                    .clickable(
+                        interactionSource = remember { MutableInteractionSource() },
+                        indication = null
+                    ) { showRadicalSearch = false },
+                contentAlignment = Alignment.Center
+            ) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth(0.92f)
+                        .fillMaxHeight(0.85f)
+                        .clip(RoundedCornerShape(32.dp))
+                        .background(MaterialTheme.colorScheme.surface)
+                        .clickable(
+                            interactionSource = remember { MutableInteractionSource() },
+                            indication = null
+                        ) {}
+                ) {
+                    Column(Modifier.fillMaxSize()) {
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(vertical = 12.dp)
+                        ) {
+                            Text(
+                                text = "Radicals",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.SemiBold,
+                                modifier = Modifier.align(Alignment.Center)
+                            )
+                            IconButton(
+                                onClick = { showRadicalSearch = false },
+                                modifier = Modifier.align(Alignment.CenterEnd).padding(end = 12.dp)
+                            ) {
+                                Icon(Icons.Default.Close, contentDescription = "Close")
+                            }
+                        }
+                        
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(1.dp)
+                                .background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.1f))
+                        )
+
+                        RadicalSearch(
+                            state = radicalsState,
+                            selectedRadicals = selectedRadicalsState,
+                            onCharacterClick = {
+                                inputState.value = inputState.value.run {
+                                    TextFieldValue(
+                                        text = text + it,
+                                        selection = TextRange(text.length + 1)
+                                    )
+                                }
+                            }
+                        )
+                    }
+                }
+            }
         }
     }
 }
