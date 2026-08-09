@@ -190,7 +190,7 @@ fun IconStudio() {
         }
 
         Spacer(modifier = Modifier.height(24.dp))
-        Divider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
         Spacer(modifier = Modifier.height(16.dp))
 
         // Import section

@@ -102,7 +102,7 @@ fun CardInspector(
         }
 
         Spacer(modifier = Modifier.height(20.dp))
-        Divider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
         Spacer(modifier = Modifier.height(16.dp))
 
         // Stats grid
@@ -145,7 +145,7 @@ fun CardInspector(
         }
 
         Spacer(modifier = Modifier.height(20.dp))
-        Divider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
         Spacer(modifier = Modifier.height(16.dp))
 
         // Review graph (simplified)
@@ -191,7 +191,7 @@ fun CardInspector(
         }
 
         Spacer(modifier = Modifier.height(20.dp))
-        Divider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
         Spacer(modifier = Modifier.height(16.dp))
 
         // Tags
@@ -247,7 +247,7 @@ fun CardInspector(
         }
 
         Spacer(modifier = Modifier.height(16.dp))
-        Divider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
         Spacer(modifier = Modifier.height(12.dp))
 
         // Timeline

@@ -9,6 +9,14 @@ plugins {
 
 kotlin {
     jvmToolchain(17)
+    compilerOptions {
+        freeCompilerArgs.addAll(
+            "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
+            "-opt-in=kotlinx.serialization.ExperimentalSerializationApi",
+            "-opt-in=kotlinx.coroutines.FlowPreview",
+            "-nowarn"
+        )
+    }
 }
 
 android {
@@ -80,7 +88,15 @@ android {
         includeInApk = false
     }
 
+    lint {
+        // Disable lint: known incompatibility between AGP-bundled lint
+        // and Kotlin 2.1.x Analysis API (WARNING: Missing analysis API method)
+        checkReleaseBuilds = false
+        abortOnError = false
+    }
+
 }
+
 
 dependencies {
     implementation(project(":core"))

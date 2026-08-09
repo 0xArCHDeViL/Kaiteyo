@@ -156,7 +156,7 @@ fun AppearanceStudio() {
             }
 
             Spacer(modifier = Modifier.height(8.dp))
-            Divider(color = surfaceColors.border.copy(alpha = 0.3f))
+            HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
             Spacer(modifier = Modifier.height(8.dp))
 
             // Tab content
@@ -177,7 +177,7 @@ fun AppearanceStudio() {
         }
 
         Spacer(modifier = Modifier.width(12.dp))
-        Divider(
+        HorizontalDivider(
             modifier = Modifier.fillMaxHeight().width(1.dp),
             color = surfaceColors.border.copy(alpha = 0.2f)
         )
@@ -1301,7 +1301,7 @@ private fun ThemeExportTab() {
     }
 
     Spacer(modifier = Modifier.height(20.dp))
-    Divider(color = surfaceColors.border.copy(alpha = 0.3f))
+    HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
     Spacer(modifier = Modifier.height(12.dp))
 
     // Import

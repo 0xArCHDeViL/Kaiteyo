@@ -143,7 +143,7 @@ fun DeckManager() {
         }
 
         Spacer(modifier = Modifier.height(12.dp))
-        Divider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
         Spacer(modifier = Modifier.height(8.dp))
 
         // Deck list
