@@ -17,7 +17,10 @@ data class DeckStudyProgress<T>(
 
     fun completionPercentage(): Float = when {
         all.isEmpty() -> 100f
-        else -> (completed.size + due.size).toFloat() / all.size * 100
+        else -> {
+            val raw = (completed.size + due.size).toFloat() / all.size * 100
+            (raw * 100).toInt() / 100f
+        }
     }
 
 }

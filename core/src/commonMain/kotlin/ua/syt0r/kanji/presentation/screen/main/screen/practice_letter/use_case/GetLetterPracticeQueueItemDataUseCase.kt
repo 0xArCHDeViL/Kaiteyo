@@ -31,7 +31,7 @@ class DefaultGetLetterPracticeQueueItemDataUseCase(
         coroutineScope: CoroutineScope
     ): LetterPracticeItemData {
 
-        val isKana = descriptor.character.first().isKana()
+        val isKana = descriptor.character.firstOrNull()?.isKana() == true
 
         val examples: Paginateable<LetterPracticeExampleWord> = when {
             isKana -> getExamples(

@@ -301,7 +301,7 @@ private fun ColumnScope.KanjiDetails(
 
         KanjiVariantsRow(details.variants)
 
-        val unicodeHex = details.character.first().getUnicodeHex()
+        val unicodeHex = details.character.firstOrNull()?.getUnicodeHex() ?: ""
         Text(text = resolveString { letterPractice.unicodeTitle(unicodeHex) })
 
         Text(text = resolveString { letterPractice.strokeCountTitle(details.strokes.size) })

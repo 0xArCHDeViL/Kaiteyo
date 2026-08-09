@@ -237,7 +237,8 @@ sealed interface MutableVocabReviewState {
         override val asImmutable: VocabReviewState.Writing = this
         override val selected: MutableState<VocabCharacterWritingData> = mutableStateOf(
             value = charactersData.firstOrNull { it is VocabCharacterWritingData.WithStrokes }
-                ?: charactersData.first()
+                ?: charactersData.firstOrNull() 
+                ?: VocabCharacterWritingData.NoStrokes("?")
         )
     }
 
