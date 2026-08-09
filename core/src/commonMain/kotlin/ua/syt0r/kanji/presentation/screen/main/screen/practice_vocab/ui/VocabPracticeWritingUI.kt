@@ -193,7 +193,6 @@ fun VocabPracticeWritingUI(
             }
         }
     }
-}
 
 @Composable
 private fun Progress(
