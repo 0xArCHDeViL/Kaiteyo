@@ -109,10 +109,10 @@ dependencies {
 
 aboutLibraries {
     collect {
-        configPath = "core/credits"
+        configPath.set(project.rootProject.layout.projectDirectory.dir("core/credits"))
     }
     export {
-        excludeFields = arrayOf("generated")
+        excludeFields.set(setOf("generated"))
     }
 }
 
