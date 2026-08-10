@@ -40,6 +40,8 @@ import androidx.compose.material.icons.outlined.Schedule
 import androidx.compose.material.icons.outlined.School
 import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material.icons.outlined.Translate
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -483,27 +485,19 @@ fun StudyTargetItem(
         animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
     )
 
-    Surface(
+    ElevatedCard(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp)
             .graphicsLayer {
                 scaleX = scale
                 scaleY = scale
-            }
-            .shadow(
-                elevation = 12.dp, 
-                shape = RoundedCornerShape(24.dp), 
-                ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.08f),
-                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
-            )
-            .border(
-                width = 1.dp,
-                color = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f),
-                shape = RoundedCornerShape(24.dp)
-            )
-            .clip(RoundedCornerShape(24.dp)),
-        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.4f)
+            },
+        shape = RoundedCornerShape(20.dp),
+        colors = CardDefaults.elevatedCardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant
+        ),
+        elevation = CardDefaults.elevatedCardElevation(defaultElevation = 2.dp)
     ) {
         Column(
             modifier = Modifier
@@ -523,8 +517,8 @@ fun StudyTargetItem(
                 Box(
                     modifier = Modifier
                         .size(48.dp)
-                        .clip(RoundedCornerShape(16.dp))
-                        .background(MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.5f)),
+                        .clip(RoundedCornerShape(12.dp))
+                        .background(MaterialTheme.colorScheme.primaryContainer),
                     contentAlignment = Alignment.Center
                 ) {
                     Icon(
@@ -577,7 +571,7 @@ fun StudyTargetItem(
                             title = stringResource(Res.string.srs_status_new),
                             count = studyProgress.options.newCards.size,
                             onClick = { startPractice(studyProgress.options.newCards) },
-                            containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.5f),
+                            containerColor = MaterialTheme.colorScheme.tertiaryContainer,
                             contentColor = MaterialTheme.colorScheme.onTertiaryContainer
                         )
                         ClickableStudyRow(
@@ -585,7 +579,7 @@ fun StudyTargetItem(
                             title = stringResource(Res.string.srs_status_due),
                             count = studyProgress.options.dueCards.size,
                             onClick = { startPractice(studyProgress.options.dueCards) },
-                            containerColor = MaterialTheme.colorScheme.secondaryContainer.copy(alpha = 0.5f),
+                            containerColor = MaterialTheme.colorScheme.secondaryContainer,
                             contentColor = MaterialTheme.colorScheme.onSecondaryContainer
                         )
                     }
@@ -603,7 +597,7 @@ fun StudyTargetItem(
                             .height(8.dp)
                             .clip(RoundedCornerShape(4.dp)),
                         color = MaterialTheme.colorScheme.primary,
-                        backgroundColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.8f),
+                        backgroundColor = MaterialTheme.colorScheme.surfaceVariant,
                         strokeCap = StrokeCap.Round
                     )
                     Text(
@@ -682,25 +676,20 @@ private fun Header(state: ScreenState.Loaded) {
 
 @Composable
 private fun HeaderStatItem(title: String, text: String, modifier: Modifier = Modifier) {
-    Column(
-        modifier = modifier
-            .clip(RoundedCornerShape(20.dp))
-            .background(
-                Brush.verticalGradient(
-                    colors = listOf(
-                        MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.6f),
-                        MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f)
-                    )
-                )
-            )
-            .border(
-                width = 1.dp,
-                color = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f),
-                shape = RoundedCornerShape(20.dp)
-            )
-            .padding(vertical = 20.dp, horizontal = 8.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
+    ElevatedCard(
+        modifier = modifier,
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.elevatedCardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant
+        ),
+        elevation = CardDefaults.elevatedCardElevation(defaultElevation = 2.dp)
     ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(vertical = 16.dp, horizontal = 8.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
         Text(
             text = text,
             color = MaterialTheme.colorScheme.primary,
