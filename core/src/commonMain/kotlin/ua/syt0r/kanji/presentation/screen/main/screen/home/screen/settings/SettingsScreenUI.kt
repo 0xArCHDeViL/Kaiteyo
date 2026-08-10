@@ -4,6 +4,7 @@ import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -139,13 +140,17 @@ fun SettingsSwitchRow(
     isEnabled: Boolean,
     onToggled: () -> Unit
 ) {
+    val surfaceColors = ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors.current
+    val shape = MaterialTheme.shapes.large
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(MaterialTheme.shapes.large)
+            .clip(shape)
+            .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), shape)
             .clickable { onToggled() },
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
-        shape = MaterialTheme.shapes.large
+        shape = shape
     ) {
         ListItem(
             headlineContent = { Text(text = title, style = MaterialTheme.typography.titleMedium) },
@@ -195,13 +200,17 @@ fun SettingsTextButton(
     subtitle: String? = null,
     onClick: () -> Unit
 ) {
+    val surfaceColors = ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors.current
+    val shape = MaterialTheme.shapes.large
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(MaterialTheme.shapes.large)
+            .clip(shape)
+            .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), shape)
             .clickable(onClick = onClick),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
-        shape = MaterialTheme.shapes.large
+        shape = shape
     ) {
         ListItem(
             headlineContent = { Text(title, style = MaterialTheme.typography.titleMedium) },

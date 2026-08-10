@@ -143,8 +143,8 @@ object NavTokens {
     val StripRadius = Dimens.RadiusLg
     val FloatingRadius = Dimens.Radius2xl
     val DockRadius = Dimens.RadiusXl
-    val EdgeMargin = 8.dp
-    val StripPadding = 8.dp
+    val EdgeMargin = 14.dp
+    val StripPadding = 10.dp
     val ItemHeight = 40.dp
     val ItemIconSize = 20.dp
     val CompactStripWidth = Dimens.SidebarCompactWidth
@@ -403,6 +403,7 @@ private fun DockedNavStrip(
         Surface(
             modifier = Modifier
                 .align(stripAlignment(position))
+                .padding(NavTokens.EdgeMargin)
                 .then(
                     if (vertical) Modifier.fillMaxHeight().width(stripWidth)
                     else Modifier.fillMaxWidth().height(stripHeight)

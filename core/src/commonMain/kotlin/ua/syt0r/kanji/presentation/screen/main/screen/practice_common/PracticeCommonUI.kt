@@ -22,8 +22,13 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.foundation.border
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.shadow
+import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
+import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -225,43 +230,71 @@ fun PracticeConfigurationContainer(
     practiceTypeMessage: String,
     content: @Composable ColumnScope.() -> Unit
 ) {
+    val accent = LocalKaiteyoAccent.current
+    val surfaceColors = LocalSurfaceColors.current
+    val shape = RoundedCornerShape(Dimens.Radius2xl)
 
-    Column(
-        modifier = Modifier.fillMaxSize()
-            .wrapContentSize()
-            .widthIn(max = 400.dp)
-            .padding(horizontal = 20.dp)
-            .padding(bottom = 20.dp)
+    Box(
+        modifier = Modifier.fillMaxSize().padding(16.dp),
+        contentAlignment = Alignment.Center
     ) {
-
-        Column(
-            modifier = Modifier.weight(1f).verticalScroll(rememberScrollState())
+        Surface(
+            modifier = Modifier
+                .widthIn(max = 420.dp)
+                .fillMaxWidth()
+                .shadow(
+                    elevation = 16.dp,
+                    shape = shape,
+                    ambientColor = accent.primary.copy(alpha = 0.08f),
+                    spotColor = accent.primary.copy(alpha = 0.16f)
+                )
+                .clip(shape)
+                .border(
+                    width = 1.dp,
+                    color = surfaceColors.border.copy(alpha = 0.3f),
+                    shape = shape
+                ),
+            color = surfaceColors.surfaceElevated,
+            shape = shape
         ) {
+            Column(
+                modifier = Modifier.padding(20.dp)
+            ) {
+                Column(
+                    modifier = Modifier.weight(1f, fill = false).verticalScroll(rememberScrollState())
+                ) {
+                    Text(
+                        text = practiceTypeMessage,
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.SemiBold,
+                        color = accent.primary,
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier.fillMaxWidth().padding(bottom = 12.dp)
+                    )
 
-            Text(
-                text = practiceTypeMessage,
-                style = MaterialTheme.typography.titleMedium,
-                textAlign = TextAlign.Center,
-                modifier = Modifier.align(Alignment.CenterHorizontally)
-                    .padding(bottom = 8.dp)
-            )
+                    content()
+                }
 
-            content()
+                Spacer(Modifier.height(16.dp))
 
+                Button(
+                    onClick = onClick,
+                    modifier = Modifier.fillMaxWidth().height(48.dp),
+                    shape = RoundedCornerShape(Dimens.RadiusLg),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = accent.primary,
+                        contentColor = accent.onPrimary
+                    )
+                ) {
+                    Text(
+                        text = resolveString { commonPractice.configurationCompleteButton },
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
+            }
         }
-
-        Button(
-            onClick = onClick,
-            modifier = Modifier.fillMaxWidth(),
-            shape = MaterialTheme.shapes.medium
-        ) {
-            Text(
-                text = resolveString { commonPractice.configurationCompleteButton }
-            )
-        }
-
     }
-
 }
 
 class PracticeConfigurationCardsSelectorState(
