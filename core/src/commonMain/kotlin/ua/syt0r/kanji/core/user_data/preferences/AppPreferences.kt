@@ -76,6 +76,13 @@ class AppPreferences(
         enableBackup = false
     )
 
+    override val crashAnalyticsEnabled: SuspendedProperty<Boolean> = createProperty(
+        type = BooleanSuspendedPropertyType,
+        key = "crash_analytics_enabled",
+        initialValue = { true },
+        enableBackup = false
+    )
+
     override val practiceType: SuspendedProperty<PreferencesLetterPracticeType> = createProperty(
         type = enumSuspendedPropertyType<PreferencesLetterPracticeType>(),
         key = "practice_type",

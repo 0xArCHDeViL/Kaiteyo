@@ -5,10 +5,8 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.FlowRowScope
 import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -72,13 +70,12 @@ fun MultiplatformDialog(
     paddedContent
 )
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun ExperimentalMultiplatformDialog(
     onDismissRequest: () -> Unit,
     title: @Composable () -> Unit,
     content: @Composable ColumnScope.() -> Unit,
-    buttons: @Composable FlowRowScope.() -> Unit,
+    buttons: @Composable RowScope.() -> Unit,
     contentVerticalArrangement: Arrangement.Vertical = Arrangement.spacedBy(0.dp),
     paddedContent: Boolean = true
 ) {
@@ -139,8 +136,7 @@ fun ExperimentalMultiplatformDialog(
 
             HorizontalDivider(color = bottomDividerColor.value)
 
-            FlowRow(
-                verticalArrangement = Arrangement.spacedBy(8.dp),
+            Row(
                 horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End),
                 modifier = Modifier
                     .height(IntrinsicSize.Max)

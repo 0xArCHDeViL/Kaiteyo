@@ -20,6 +20,7 @@ interface PreferencesContract {
         val lastSyncedDataInfo: SuspendedProperty<PreferencesSyncDataInfo?>
 
         val analyticsEnabled: SuspendedProperty<Boolean>
+        val crashAnalyticsEnabled: SuspendedProperty<Boolean>
 
         val practiceType: SuspendedProperty<PreferencesLetterPracticeType>
         val filterNew: SuspendedProperty<Boolean>

@@ -24,7 +24,8 @@ val settingsScreenModule = module {
         listOf(
             AppearanceSettingItem(themeManager = get()),
             DefaultHomeTabSettingItem(appPreferences = get()),
-            DailyResetTimeSettingItem(appPreferences = get())
+            DailyResetTimeSettingItem(appPreferences = get()),
+            ua.syt0r.kanji.presentation.screen.main.screen.home.screen.settings.items.CrashAnalyticsSettingItem(appPreferences = get())
         )
     }
 
