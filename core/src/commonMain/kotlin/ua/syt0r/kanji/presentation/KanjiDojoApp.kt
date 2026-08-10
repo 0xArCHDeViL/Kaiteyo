@@ -1,8 +1,8 @@
 package ua.syt0r.kanji.presentation
 
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.safeDrawingPadding
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
@@ -72,12 +72,11 @@ fun KaiteyoApp(
             baseMode = baseMode,
             accentScheme = accentScheme
         ) {
-            Surface {
-                Box(
-                    modifier = Modifier.safeDrawingPadding()
-                ) {
-                    MainScreen(deepLinkHandler)
-                }
+            Surface(
+                modifier = Modifier.fillMaxSize(),
+                color = MaterialTheme.colorScheme.background
+            ) {
+                MainScreen(deepLinkHandler)
             }
         }
     }

@@ -24,7 +24,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.NavigateNext
-import androidx.compose.material.rememberBottomSheetScaffoldState
+import androidx.compose.material3.rememberBottomSheetScaffoldState
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -336,9 +336,9 @@ private fun AnswerButtons(
                                 .clip(MaterialTheme.shapes.medium)
                                 .clickable(studyCompleted)
                                 .width(400.dp)
-                                .padding(Dimens.SpacingBig),
+                                .padding(Dimens.Space3),
                             verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingMid)
+                            horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)
                         ) {
                             Spacer(Modifier.weight(1f))
                             Text(

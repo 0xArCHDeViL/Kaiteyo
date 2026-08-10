@@ -2,23 +2,27 @@ package ua.syt0r.kanji.presentation.common.ui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.BottomSheetScaffold
-import androidx.compose.material.BottomSheetScaffoldState
-import androidx.compose.material.ExperimentalMaterialApi
+import androidx.compose.material3.BottomSheetScaffold
+import androidx.compose.material3.BottomSheetScaffoldState
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
-@OptIn(ExperimentalMaterialApi::class)
+/**
+ * Common bottom sheet scaffold.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Material3BottomSheetScaffold(
     scaffoldState: BottomSheetScaffoldState,
     modifier: Modifier = Modifier,
     sheetContent: @Composable () -> Unit,
-    content: @Composable BoxScope.() -> Unit,
+    content: @Composable BoxScope.() -> Unit
 ) {
 
     BottomSheetScaffold(

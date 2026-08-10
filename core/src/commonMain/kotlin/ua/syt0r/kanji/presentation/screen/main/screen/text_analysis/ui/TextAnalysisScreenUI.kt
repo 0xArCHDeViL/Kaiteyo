@@ -207,14 +207,14 @@ private fun AnalysisResultSection(
                 modifier = modifier
                     .fillMaxWidth()
                     .verticalScroll(rememberScrollState())
-                    .padding(vertical = Dimens.SpacingSmall)
+                    .padding(vertical = Dimens.Space1)
             ) {
                 Spacer(Modifier.weight(1f))
                 HorizontalDivider()
                 Text(
                     text = stringResource(Res.string.text_analysis_translation_placeholder),
                     style = translationTextStyle,
-                    modifier = Modifier.padding(vertical = Dimens.SpacingSmall)
+                    modifier = Modifier.padding(vertical = Dimens.Space1)
                 )
                 Spacer(Modifier.weight(1f))
             }
@@ -229,7 +229,7 @@ private fun AnalysisResultSection(
                         modifier = modifier
                             .fillMaxWidth()
                             .verticalScroll(rememberScrollState())
-                            .padding(vertical = Dimens.SpacingSmall)
+                            .padding(vertical = Dimens.Space1)
                     ) {
 
                         TextAnalysisHeader(currentContentState)
@@ -248,7 +248,7 @@ private fun AnalysisResultSection(
                 is TextAnalysisResult.Error -> {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingMid),
+                        horizontalArrangement = Arrangement.spacedBy(Dimens.Space2),
                         modifier = modifier
                             .fillMaxWidth()
                             .wrapContentSize()
@@ -295,7 +295,7 @@ private fun TextAnalysisHeader(contentState: TextAnalysisContentState.Loaded) {
                     modifier = Modifier
                         .fillMaxWidth()
                         .wrapContentWidth(Alignment.End)
-                        .offset(Dimens.SpacingBig + Dimens.SpacingTiny + 1.dp)
+                        .offset(Dimens.Space3 + Dimens.Space1 + 1.dp)
                 ) {
 
                     var furigana by currentMode.furigana
@@ -362,7 +362,7 @@ private fun TextAnalysisHeader(contentState: TextAnalysisContentState.Loaded) {
                         ),
                         modifier = Modifier
                             .align(Alignment.CenterVertically)
-                            .padding(end = Dimens.SpacingMid),
+                            .padding(end = Dimens.Space2),
                         style = MaterialTheme.typography.labelMedium.copyCentered()
                     )
 
@@ -429,7 +429,7 @@ private fun ColumnScope.AnalysisContent(
             FlowRow(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(bottom = Dimens.SpacingMid)
+                    .padding(bottom = Dimens.Space2)
             ) {
                 nodeList.forEach {
                     AnalysisNode(
@@ -443,7 +443,7 @@ private fun ColumnScope.AnalysisContent(
                 FlowRow(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(bottom = Dimens.SpacingMid)
+                        .padding(bottom = Dimens.Space2)
                 ) {
                     Text(
                         text = stringResource(Res.string.text_analysis_alternative_words),
@@ -464,7 +464,7 @@ private fun ColumnScope.AnalysisContent(
             HorizontalDivider()
 
             SelectionContainer(
-                modifier = Modifier.padding(vertical = Dimens.SpacingMid)
+                modifier = Modifier.padding(vertical = Dimens.Space2)
             ) {
                 Text(
                     text = translation,
@@ -479,9 +479,9 @@ private fun ColumnScope.AnalysisContent(
             FlowRow(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(bottom = Dimens.SpacingMid),
-                verticalArrangement = Arrangement.spacedBy(Dimens.SpacingSmall),
-                horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingSmall)
+                    .padding(bottom = Dimens.Space2),
+                verticalArrangement = Arrangement.spacedBy(Dimens.Space1),
+                horizontalArrangement = Arrangement.spacedBy(Dimens.Space1)
             ) {
 
                 displayMode.letters.forEach {
@@ -489,7 +489,7 @@ private fun ColumnScope.AnalysisContent(
                         modifier = Modifier
                             .width(IntrinsicSize.Max)
                             .alignByBaseline(),
-                        verticalArrangement = Arrangement.spacedBy(Dimens.SpacingSmall)
+                        verticalArrangement = Arrangement.spacedBy(Dimens.Space1)
                     ) {
 
                         HighlightedLetter(
@@ -506,7 +506,7 @@ private fun ColumnScope.AnalysisContent(
                         Box(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(Dimens.SpacingTiny)
+                                .height(Dimens.Space1)
                                 .background(highlightColor, CircleShape)
                         )
 
@@ -555,7 +555,7 @@ private fun RowScope.AnalysisNode(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(Dimens.SpacingTiny)
+                    .height(Dimens.Space1)
                     .background(MaterialTheme.colorScheme.error, CircleShape)
             )
 
@@ -593,7 +593,7 @@ private fun RowScope.WordNode(
         modifier = Modifier
             .clip(MaterialTheme.shapes.small)
             .clickable { showPopup.value = true }
-            .padding(Dimens.SpacingMid, Dimens.SpacingSmall)
+            .padding(Dimens.Space2, Dimens.Space1)
             .width(IntrinsicSize.Max)
             .alignByBaseline()
     ) {
@@ -607,7 +607,7 @@ private fun RowScope.WordNode(
         }
 
         Column(
-            verticalArrangement = Arrangement.spacedBy(Dimens.SpacingSmall)
+            verticalArrangement = Arrangement.spacedBy(Dimens.Space1)
         ) {
 
             when {
@@ -627,7 +627,7 @@ private fun RowScope.WordNode(
                 Box(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(Dimens.SpacingTiny)
+                        .height(Dimens.Space1)
                         .background(highlightColor, CircleShape)
                 )
             }
@@ -723,7 +723,7 @@ private fun ScreenLayout(
                                     Column(
                                         modifier = Modifier.weight(1f),
                                         horizontalAlignment = Alignment.CenterHorizontally,
-                                        verticalArrangement = Arrangement.spacedBy(Dimens.SpacingMid)
+                                        verticalArrangement = Arrangement.spacedBy(Dimens.Space2)
                                     ) {
                                         Text(
                                             text = stringResource(Res.string.text_analysis_history_title),

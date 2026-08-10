@@ -177,11 +177,11 @@ private fun LazyListScope.addWordItems(
 
     if (examples.canLoadMore) item {
         TinyCircularProgressBar(
-            strokeWidth = Dimens.SpacingTiny,
+            strokeWidth = Dimens.Space1,
             modifier = Modifier
                 .fillMaxWidth()
                 .wrapContentWidth()
-                .padding(vertical = Dimens.SpacingMid)
+                .padding(vertical = Dimens.Space2)
                 .size(Dimens.IconSmall)
         )
     }

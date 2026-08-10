@@ -86,7 +86,7 @@ fun VocabPracticeFlashcardUI(
 
         val sentenceUI = @Composable { showTranslation: Boolean ->
             reviewState.exampleSentence?.let {
-                Spacer(Modifier.height(Dimens.SpacingBig))
+                Spacer(Modifier.height(Dimens.Space3))
                 SelectionContainer {
                     if (showTranslation) {
                         FuriganaText(
@@ -136,7 +136,7 @@ fun VocabPracticeFlashcardUI(
                 wordUI(text)
 
                 if (reviewState.showAnswer.value) {
-                    Spacer(Modifier.height(Dimens.SpacingMid))
+                    Spacer(Modifier.height(Dimens.Space2))
                     meaningUI()
                 }
 

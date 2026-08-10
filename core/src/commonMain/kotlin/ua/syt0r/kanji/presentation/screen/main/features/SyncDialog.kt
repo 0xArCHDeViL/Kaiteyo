@@ -248,9 +248,9 @@ private fun DialogButton(
             .fillMaxWidth()
             .clip(MaterialTheme.shapes.medium)
             .clickable(onClick)
-            .padding(horizontal = Dimens.SpacingBig, vertical = Dimens.SpacingBig),
+            .padding(horizontal = Dimens.Space3, vertical = Dimens.Space3),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingMid)
+        horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)
     ) {
         Icon(
             imageVector = imageVector,
@@ -270,11 +270,11 @@ private fun LoadingLayout(
     message: String
 ) {
     Column(
-        verticalArrangement = Arrangement.spacedBy(Dimens.SpacingMid),
+        verticalArrangement = Arrangement.spacedBy(Dimens.Space2),
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = Dimens.SpacingBig)
+            .padding(horizontal = Dimens.Space3)
     ) {
         Icon(
             imageVector = imageVector,
@@ -301,7 +301,7 @@ private fun MessageLayout(
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = Dimens.SpacingBig)
+            .padding(horizontal = Dimens.Space3)
     ) {
 
         Icon(
@@ -315,7 +315,7 @@ private fun MessageLayout(
         Text(
             text = title,
             style = MaterialTheme.typography.titleMedium,
-            modifier = Modifier.padding(bottom = Dimens.SpacingSmall)
+            modifier = Modifier.padding(bottom = Dimens.Space1)
         )
 
         Text(

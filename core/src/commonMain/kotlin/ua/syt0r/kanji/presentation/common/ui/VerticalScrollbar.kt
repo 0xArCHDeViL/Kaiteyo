@@ -19,14 +19,14 @@ import ua.syt0r.kanji.presentation.common.theme.Dimens
 fun VerticalScrollbar(
     scrollState: ScrollState,
     modifier: Modifier,
-    scrollBarWidth: Dp = Dimens.SpacingSmall,
+    scrollBarWidth: Dp = Dimens.Space1,
 ) {
 
     val scrollBarColor: Color = MaterialTheme.colorScheme.surfaceVariant
 
     Canvas(
         modifier = modifier
-            .padding(horizontal = Dimens.SpacingSmall)
+            .padding(horizontal = Dimens.Space1)
             .width(scrollBarWidth)
     ) {
         drawScrollbar(scrollState, scrollBarColor, scrollBarWidth)
@@ -62,7 +62,7 @@ fun DrawScope.drawScrollbar(
                 height = (endHeightFraction - startHeightFraction) * size.height
             ),
             alpha = alpha,
-            cornerRadius = CornerRadius(Dimens.SpacingTiny.toPx())
+            cornerRadius = CornerRadius(Dimens.Space1.toPx())
         )
     }
 

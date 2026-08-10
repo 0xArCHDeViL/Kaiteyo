@@ -38,7 +38,7 @@ fun VersionChangeDialog(
                     bottom = Dimens.ContentPadding / 2
                 )
                 .heightIn(max = 500.dp),
-            verticalArrangement = Arrangement.spacedBy(Dimens.SpacingMid)
+            verticalArrangement = Arrangement.spacedBy(Dimens.Space2)
         ) {
 
             Text(
@@ -428,7 +428,7 @@ private fun LazyListScope.version(
                 .fillMaxWidth()
                 .background(MaterialTheme.colorScheme.surface)
                 .padding(
-                    vertical = Dimens.SpacingMid
+                    vertical = Dimens.Space2
                 ),
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -447,7 +447,7 @@ private fun LazyListScope.version(
     item {
         Text(
             text = AnnotatedString.Builder().apply(changes).toAnnotatedString(),
-            modifier = Modifier.padding(vertical = Dimens.SpacingSmall),
+            modifier = Modifier.padding(vertical = Dimens.Space1),
             style = MaterialTheme.typography.bodySmall
         )
     }

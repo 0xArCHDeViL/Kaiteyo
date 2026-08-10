@@ -17,6 +17,7 @@ object Dimens {
     val RadiusLg = 16.dp     // Large cards, modals, context panels
     val RadiusXl = 24.dp     // Sidebar panel, main content panel
     val Radius2xl = 32.dp    // Large containers, dialogs
+    val RadiusFull = 999.dp  // Pill/circular - replaces CircleShape usage in cards
 
     // --- Spacing Scale (base values) ---
     val Space1 = 4.dp
@@ -31,18 +32,33 @@ object Dimens {
     val Space16 = 64.dp
     val Space20 = 80.dp
 
-    // --- Legacy (backward compatible) ---
-    val SpacingTiny = 2.dp
-    val SpacingSmall = 4.dp
-    val SpacingMid = 8.dp
-    val SpacingBig = 12.dp
+    // --- Elevation Scale ---
+    val ElevationNone = 0.dp
+    val ElevationXs = 1.dp
+    val ElevationSm = 2.dp
+    val ElevationMd = 4.dp
+    val ElevationLg = 8.dp
+    val ElevationXl = 12.dp
+    val Elevation2xl = 16.dp
 
     val ContentPadding = 20.dp
     val ContentPaddingSmall = 16.dp
 
+    val IconXs = 16.dp
     val Icon = 24.dp
     val IconSmall = 20.dp
+    val IconLg = 28.dp
+    val IconXl = 32.dp
     val IconButton = 40.dp
+
+    // --- Alpha Scale ---
+    object Alpha {
+        const val Subtle = 0.08f
+        const val Light = 0.12f
+        const val Medium = 0.25f
+        const val SemiOpaque = 0.50f
+        const val HighEmphasis = 0.87f
+    }
 
     val ScreenWidth = 400.dp
 

@@ -28,14 +28,14 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 
 object AppListItemDefaults {
     val ExtraPaddings = PaddingValues(
-        horizontal = Dimens.SpacingBig,
+        horizontal = Dimens.Space3,
         vertical = 4.dp
     )
     val ListItemDefaultPaddings = PaddingValues(
         horizontal = Dimens.ContentPaddingSmall,
-        vertical = Dimens.SpacingMid
+        vertical = Dimens.Space2
     )
-    val ClickableTrailingOffset = Dimens.SpacingBig
+    val ClickableTrailingOffset = Dimens.Space3
 }
 
 @Composable

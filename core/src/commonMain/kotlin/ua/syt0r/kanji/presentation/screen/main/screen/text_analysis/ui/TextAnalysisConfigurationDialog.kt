@@ -33,21 +33,21 @@ fun TextAnalysisConfigurationDialog(onDismissRequest: () -> Unit) {
         Text(
             text = title,
             style = MaterialTheme.typography.labelLarge,
-            modifier = Modifier.padding(vertical = Dimens.SpacingBig)
+            modifier = Modifier.padding(vertical = Dimens.Space3)
         )
     }
 
     val clickableRow: @Composable (String, String?) -> Unit = { title, subtitle ->
 
         Row(
-            horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingMid),
+            horizontalArrangement = Arrangement.spacedBy(Dimens.Space2),
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier
                 .fillMaxWidth()
                 .clip(MaterialTheme.shapes.small)
                 .background(MaterialTheme.colorScheme.surfaceDim)
                 .clickable { }
-                .padding(horizontal = Dimens.SpacingBig, vertical = Dimens.SpacingMid)
+                .padding(horizontal = Dimens.Space3, vertical = Dimens.Space2)
         ) {
 
             Icon(Icons.Outlined.Check, null)

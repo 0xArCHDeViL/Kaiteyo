@@ -49,11 +49,11 @@ fun TextAnalysisInputUI(
 
     Column(
         modifier = Modifier
-            .padding(top = Dimens.SpacingBig, bottom = Dimens.ContentPadding)
+            .padding(top = Dimens.Space3, bottom = Dimens.ContentPadding)
             .clip(MaterialTheme.shapes.medium)
             .background(MaterialTheme.colorScheme.surfaceDim)
             .height(IntrinsicSize.Max),
-        verticalArrangement = Arrangement.spacedBy(Dimens.SpacingTiny)
+        verticalArrangement = Arrangement.spacedBy(Dimens.Space1)
     ) {
 
         val inputState = state.value
@@ -84,7 +84,7 @@ fun TextAnalysisInputUI(
             is TextAnalysisInputState.NotEligible -> {
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingMid),
+                    horizontalArrangement = Arrangement.spacedBy(Dimens.Space2),
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(Dimens.ContentPaddingSmall)
@@ -137,9 +137,9 @@ fun TextAnalysisInputUI(
         )
 
         Row(
-            modifier = Modifier.fillMaxWidth().padding(Dimens.SpacingMid),
+            modifier = Modifier.fillMaxWidth().padding(Dimens.Space2),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingMid)
+            horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)
         ) {
 
             Text(
@@ -156,7 +156,7 @@ fun TextAnalysisInputUI(
                 },
                 style = MaterialTheme.typography.labelSmall.copyCentered(),
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(start = Dimens.SpacingBig)
+                modifier = Modifier.padding(start = Dimens.Space3)
             )
 
             Spacer(Modifier.weight(1f))

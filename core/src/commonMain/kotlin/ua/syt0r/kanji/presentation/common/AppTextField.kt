@@ -17,7 +17,7 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.text.TextStyle
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
-private val PlaceholderOffset = Dimens.SpacingTiny
+private val PlaceholderOffset = Dimens.Space1
 
 @Composable
 fun AppTextField(
@@ -32,7 +32,7 @@ fun AppTextField(
     trailingContent: @Composable (() -> Unit)? = null,
     decorationPaddings: PaddingValues = PaddingValues(
         horizontal = Dimens.ContentPadding,
-        vertical = Dimens.SpacingMid
+        vertical = Dimens.Space2
     ),
     modifier: Modifier = Modifier
 ) {

@@ -56,7 +56,7 @@ fun TextAnalysisVocabCardPopup(
         Row(
             modifier = Modifier
                 .height(IntrinsicSize.Max)
-                .shadow(Dimens.SpacingMid, MaterialTheme.shapes.medium)
+                .shadow(Dimens.Space2, MaterialTheme.shapes.medium)
                 .clip(MaterialTheme.shapes.medium)
                 .background(MaterialTheme.colorScheme.surfaceDim)
         ) {
@@ -71,7 +71,7 @@ fun TextAnalysisVocabCardPopup(
                     .verticalScroll(scrollState)
                     .padding(vertical = Dimens.ContentPaddingSmall)
                     .padding(start = Dimens.ContentPaddingSmall),
-                verticalArrangement = Arrangement.spacedBy(Dimens.SpacingSmall)
+                verticalArrangement = Arrangement.spacedBy(Dimens.Space1)
             ) {
 
                 node.cards.forEachIndexed { i, it ->
@@ -82,7 +82,7 @@ fun TextAnalysisVocabCardPopup(
                     )
 
                     if (i != node.cards.size - 1) {
-                        Spacer(modifier = Modifier.height(Dimens.SpacingBig))
+                        Spacer(modifier = Modifier.height(Dimens.Space3))
                     }
 
                 }
@@ -93,8 +93,8 @@ fun TextAnalysisVocabCardPopup(
                 scrollState = scrollState,
                 modifier = Modifier
                     .fillMaxHeight()
-                    .padding(vertical = Dimens.SpacingMid)
-                    .padding(end = Dimens.SpacingTiny)
+                    .padding(vertical = Dimens.Space2)
+                    .padding(end = Dimens.Space1)
             )
 
         }
@@ -109,7 +109,7 @@ fun CardDataUI(
 ) {
 
     FlowRow(
-        horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingMid)
+        horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)
     ) {
         val reading = cardData.reading
         Text(
@@ -129,7 +129,7 @@ fun CardDataUI(
                 .align(Alignment.CenterVertically)
                 .clip(MaterialTheme.shapes.small)
                 .clickable(onClick = onAddClick)
-                .padding(Dimens.SpacingTiny)
+                .padding(Dimens.Space1)
         )
     }
 
@@ -141,7 +141,7 @@ fun CardDataUI(
     }
 
     if (cardData.partOfSpeech.isNotEmpty()) {
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingMid)) {
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
             cardData.partOfSpeech.forEach {
                 val highlightColor = it.toHighlightColor(MaterialTheme.colorScheme.surfaceVariant)
 
@@ -149,21 +149,21 @@ fun CardDataUI(
                     text = it.name,
                     style = MaterialTheme.typography.labelSmall,
                     modifier = Modifier
-                        .clip(RoundedCornerShape(Dimens.SpacingTiny))
+                        .clip(RoundedCornerShape(Dimens.Space1))
                         .background(MaterialTheme.colorScheme.surfaceVariant)
                         .drawWithContent {
                             drawContent()
-                            val highlightHeightPx = Dimens.SpacingTiny.toPx()
+                            val highlightHeightPx = Dimens.Space1.toPx()
                             drawRect(
                                 color = highlightColor,
                                 topLeft = Offset(0f, size.height - highlightHeightPx),
                                 size = size.copy(height = highlightHeightPx)
                             )
                         }
-                        .padding(vertical = Dimens.SpacingTiny)
+                        .padding(vertical = Dimens.Space1)
                         .padding(
-                            horizontal = Dimens.SpacingMid,
-                            vertical = Dimens.SpacingSmall
+                            horizontal = Dimens.Space2,
+                            vertical = Dimens.Space1
                         )
                         .alignByBaseline()
                 )
@@ -171,11 +171,11 @@ fun CardDataUI(
         }
     }
 
-    Spacer(modifier = Modifier.height(Dimens.SpacingMid))
+    Spacer(modifier = Modifier.height(Dimens.Space2))
 
     cardData.glossary.forEachIndexed { index, definition ->
         Row(
-            horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingMid)
+            horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)
         ) {
             val style = MaterialTheme.typography.bodySmall
             Text(index.plus(1).toString(), style = style)

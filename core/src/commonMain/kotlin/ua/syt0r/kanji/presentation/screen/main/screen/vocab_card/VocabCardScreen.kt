@@ -224,7 +224,7 @@ private fun ScreenUI(
                     modifier = Modifier
                         .padding(
                             horizontal = Dimens.ContentPadding,
-                            vertical = Dimens.SpacingTiny
+                            vertical = Dimens.Space1
                         )
                         .fillMaxWidth()
                         .wrapContentWidth()
@@ -261,7 +261,7 @@ private fun ScreenUI(
                 enabled = cardState is VocabCardEditState.Valid,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = Dimens.ContentPaddingSmall + Dimens.SpacingBig),
+                    .padding(horizontal = Dimens.ContentPaddingSmall + Dimens.Space3),
                 colors = ButtonDefaults.neutralButtonColors(),
                 shape = MaterialTheme.shapes.medium
             ) {
@@ -301,7 +301,7 @@ private fun CompactCheckBoxRow(
             .padding(horizontal = Dimens.ContentPaddingSmall)
             .clip(MaterialTheme.shapes.medium)
             .clickable { checked.value = checked.value.not() }
-            .padding(horizontal = Dimens.SpacingBig, vertical = Dimens.SpacingMid)
+            .padding(horizontal = Dimens.Space3, vertical = Dimens.Space2)
     ) {
 
         Text(
