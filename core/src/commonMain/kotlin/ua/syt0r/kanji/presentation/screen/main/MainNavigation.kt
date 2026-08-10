@@ -718,6 +718,7 @@ val defaultMainDestinations: List<MainDestinationConfiguration<*>> = listOf(
     MainDestination.Sync.configuration(),
     MainDestination.TextAnalysis.configuration(),
     MainDestination.AppearanceStudio.configuration(),
+    MainDestination.ThemeStudio.configuration(),
     MainDestination.VocabCard::class.configuration(),
     MainDestination.DeckPicker::class.configuration(),
     MainDestination.DeckDetails::class.configuration(),
