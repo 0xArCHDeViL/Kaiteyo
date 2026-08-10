@@ -5,6 +5,7 @@ import androidx.compose.animation.ContentTransform
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -38,6 +39,7 @@ import androidx.compose.material.icons.outlined.Edit
 import androidx.compose.material.icons.outlined.Schedule
 import androidx.compose.material.icons.outlined.School
 import androidx.compose.material.icons.outlined.Settings
+import androidx.compose.material.icons.outlined.Translate
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -61,6 +63,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextAlign
@@ -487,91 +491,130 @@ fun StudyTargetItem(
                 scaleX = scale
                 scaleY = scale
             }
-            .shadow(8.dp, RoundedCornerShape(20.dp), spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f))
-            .clip(RoundedCornerShape(20.dp)),
-        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+            .shadow(
+                elevation = 12.dp, 
+                shape = RoundedCornerShape(24.dp), 
+                ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.08f),
+                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
+            )
+            .border(
+                width = 1.dp,
+                color = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f),
+                shape = RoundedCornerShape(24.dp)
+            )
+            .clip(RoundedCornerShape(24.dp)),
+        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.4f)
     ) {
-        AppListItem(
-            onClick = {
-                when (studyProgress) {
-                    StudyTargetProgress.NoDecks -> createDeck()
-                    is StudyTargetProgress.WithDecks -> {
-                        startPractice(studyProgress.options.combinedCards)
+        Column(
+            modifier = Modifier
+                .clickable(
+                    interactionSource = interactionSource,
+                    indication = LocalIndication.current,
+                    onClick = {
+                        when (studyProgress) {
+                            StudyTargetProgress.NoDecks -> createDeck()
+                            is StudyTargetProgress.WithDecks -> startPractice(studyProgress.options.combinedCards)
+                        }
                     }
-                }
-            },
-            headlineContent = {
-                Text(
-                    text = stringResource(studyTarget.categoryTitle) + "・" + stringResource(studyTarget.typeTitleRes),
-                    style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.Bold
                 )
-            },
-            trailingContent = {
+                .padding(20.dp)
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(
+                    modifier = Modifier
+                        .size(48.dp)
+                        .clip(RoundedCornerShape(16.dp))
+                        .background(MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.5f)),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = if (studyTarget.practiceType is LetterPracticeType) Icons.Outlined.Edit else Icons.Outlined.Translate,
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.size(24.dp)
+                    )
+                }
+                Spacer(Modifier.width(16.dp))
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = stringResource(studyTarget.categoryTitle),
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.primary,
+                        fontWeight = FontWeight.Bold,
+                        letterSpacing = 1.sp
+                    )
+                    Text(
+                        text = stringResource(studyTarget.typeTitleRes),
+                        style = MaterialTheme.typography.titleLarge,
+                        fontWeight = FontWeight.ExtraBold,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                }
                 Icon(
                     imageVector = Icons.AutoMirrored.Default.KeyboardArrowRight,
-                    contentDescription = null
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.onSurfaceVariant
                 )
-            },
-        supportingContent = {
-            if (studyProgress is StudyTargetProgress.NoDecks) {
-                Text(stringResource(Res.string.general_dashboard_study_target_no_decks))
-                return@AppListItem
             }
-
-            studyProgress as StudyTargetProgress.WithDecks
-
-            Column(
-                verticalArrangement = Arrangement.spacedBy(Dimens.SpacingTiny)
-            ) {
-
-                FlowRow(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .offset(-Dimens.SpacingMid)
-                ) {
-
-                    ClickableStudyRow(
-                        imageVector = Icons.Outlined.School,
-                        title = stringResource(Res.string.srs_status_new),
-                        count = studyProgress.options.newCards.size,
-                        onClick = { startPractice(studyProgress.options.newCards) }
-                    )
-
-                    ClickableStudyRow(
-                        imageVector = Icons.Outlined.Schedule,
-                        title = stringResource(Res.string.srs_status_due),
-                        count = studyProgress.options.dueCards.size,
-                        onClick = { startPractice(studyProgress.options.dueCards) }
-                    )
-
-                }
-
+            
+            if (studyProgress is StudyTargetProgress.NoDecks) {
+                Spacer(Modifier.height(16.dp))
+                Text(
+                    text = stringResource(Res.string.general_dashboard_study_target_no_decks),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            } else if (studyProgress is StudyTargetProgress.WithDecks) {
+                Spacer(Modifier.height(20.dp))
                 Row(
                     modifier = Modifier.fillMaxWidth(),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingMid)
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-
+                    Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                        ClickableStudyRow(
+                            imageVector = Icons.Outlined.School,
+                            title = stringResource(Res.string.srs_status_new),
+                            count = studyProgress.options.newCards.size,
+                            onClick = { startPractice(studyProgress.options.newCards) },
+                            containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.5f),
+                            contentColor = MaterialTheme.colorScheme.onTertiaryContainer
+                        )
+                        ClickableStudyRow(
+                            imageVector = Icons.Outlined.Schedule,
+                            title = stringResource(Res.string.srs_status_due),
+                            count = studyProgress.options.dueCards.size,
+                            onClick = { startPractice(studyProgress.options.dueCards) },
+                            containerColor = MaterialTheme.colorScheme.secondaryContainer.copy(alpha = 0.5f),
+                            contentColor = MaterialTheme.colorScheme.onSecondaryContainer
+                        )
+                    }
+                }
+                Spacer(Modifier.height(16.dp))
+                
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
                     LinearProgressIndicator(
                         progress = studyProgress.totalProgress,
                         modifier = Modifier
                             .weight(1f)
-                            .height(6.dp),
+                            .height(8.dp)
+                            .clip(RoundedCornerShape(4.dp)),
                         color = MaterialTheme.colorScheme.primary,
-                        backgroundColor = MaterialTheme.colorScheme.surfaceVariant,
+                        backgroundColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.8f),
                         strokeCap = StrokeCap.Round
                     )
-
                     Text(
-                        text = studyProgress.totalProgress.times(100).roundToInt().toString() + "%",
-                        style = LocalTextStyle.current.copyCentered()
+                        text = "${(studyProgress.totalProgress * 100).roundToInt()}%",
+                        style = MaterialTheme.typography.labelLarge,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.primary
                     )
-
                 }
             }
         }
-    )
     }
 }
 
@@ -580,43 +623,31 @@ private fun ClickableStudyRow(
     imageVector: ImageVector,
     title: String,
     count: Int,
-    onClick: () -> Unit
+    onClick: () -> Unit,
+    containerColor: Color = MaterialTheme.colorScheme.surfaceVariant,
+    contentColor: Color = MaterialTheme.colorScheme.onSurfaceVariant
 ) {
     Row(
         modifier = Modifier
-            .clip(MaterialTheme.shapes.extraSmall)
+            .clip(RoundedCornerShape(12.dp))
+            .background(containerColor)
             .clickable(onClick = onClick)
-            .padding(horizontal = Dimens.SpacingMid, vertical = Dimens.SpacingSmall),
+            .padding(horizontal = 12.dp, vertical = 6.dp),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(Dimens.SpacingSmall)
+        horizontalArrangement = Arrangement.spacedBy(6.dp)
     ) {
-        val iconSize = 18.dp
         Icon(
-            imageVector = imageVector,
+            imageVector = if (count == 0) Icons.Outlined.Check else imageVector,
             contentDescription = null,
-            modifier = Modifier.size(iconSize)
+            modifier = Modifier.size(16.dp),
+            tint = contentColor
         )
-
-        val textStyle = LocalTextStyle.current.copyCentered()
-
         Text(
-            text = title,
-            style = textStyle
+            text = if (count == 0) title else "$title: $count",
+            style = MaterialTheme.typography.labelMedium,
+            fontWeight = FontWeight.SemiBold,
+            color = contentColor
         )
-
-        if (count == 0) {
-            Icon(
-                imageVector = Icons.Outlined.Check,
-                contentDescription = null,
-                tint = MaterialTheme.colorScheme.primary,
-                modifier = Modifier.size(iconSize)
-            )
-        } else {
-            Text(
-                text = count.toString(),
-                style = textStyle
-            )
-        }
     }
 }
 
@@ -654,24 +685,38 @@ private fun HeaderStatItem(title: String, text: String, modifier: Modifier = Mod
     Column(
         modifier = modifier
             .clip(RoundedCornerShape(20.dp))
-            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f))
-            .padding(vertical = 16.dp, horizontal = 4.dp),
+            .background(
+                Brush.verticalGradient(
+                    colors = listOf(
+                        MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.6f),
+                        MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f)
+                    )
+                )
+            )
+            .border(
+                width = 1.dp,
+                color = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f),
+                shape = RoundedCornerShape(20.dp)
+            )
+            .padding(vertical = 20.dp, horizontal = 8.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
             text = text,
             color = MaterialTheme.colorScheme.primary,
-            fontSize = 24.sp,
-            fontWeight = FontWeight.ExtraBold,
-            textAlign = TextAlign.Center
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Black,
+            textAlign = TextAlign.Center,
+            style = MaterialTheme.typography.headlineMedium
         )
-        Spacer(Modifier.height(4.dp))
+        Spacer(Modifier.height(8.dp))
         Text(
             text = title,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            color = MaterialTheme.colorScheme.onSurface,
             fontSize = 12.sp,
-            fontWeight = FontWeight.Medium,
-            textAlign = TextAlign.Center
+            fontWeight = FontWeight.SemiBold,
+            textAlign = TextAlign.Center,
+            letterSpacing = 0.5.sp
         )
     }
 }
