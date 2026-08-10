@@ -1,8 +1,13 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.settings.items
 
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.snapshotFlow
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.flow.drop
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.onEach
 import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
 import ua.syt0r.kanji.presentation.screen.main.MainNavigationState
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.settings.SettingsScreenContract
@@ -12,8 +17,15 @@ class CrashAnalyticsSettingItem(
     private val appPreferences: PreferencesContract.AppPreferences
 ) : SettingsScreenContract.ConfigurableListItem {
 
-    override fun prepare(coroutineScope: CoroutineScope) {
-        // Nothing to prepare
+    private lateinit var isEnabledState: MutableState<Boolean>
+
+    override suspend fun prepare(coroutineScope: CoroutineScope) {
+        isEnabledState = mutableStateOf(appPreferences.crashAnalyticsEnabled.get())
+
+        snapshotFlow { isEnabledState.value }
+            .drop(1)
+            .onEach { appPreferences.crashAnalyticsEnabled.set(it) }
+            .launchIn(coroutineScope)
     }
 
     @Composable
@@ -21,9 +33,9 @@ class CrashAnalyticsSettingItem(
         SettingsSwitchRow(
             title = "Crash Analytics",
             message = "Automated crash reports exported to /sdcard",
-            isEnabled = appPreferences.crashAnalyticsEnabled.getAsStateFlow().collectAsState().value,
+            isEnabled = isEnabledState.value,
             onToggled = {
-                appPreferences.crashAnalyticsEnabled.toggle()
+                isEnabledState.value = !isEnabledState.value
             }
         )
     }

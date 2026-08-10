@@ -52,7 +52,6 @@ fun MultiplatformDialog(
 }
 
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun MultiplatformDialog(
     onDismissRequest: () -> Unit,
