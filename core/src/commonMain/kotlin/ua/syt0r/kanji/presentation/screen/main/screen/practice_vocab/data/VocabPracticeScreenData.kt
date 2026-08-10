@@ -13,6 +13,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAn
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationCard
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeQueueProgress
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeSummaryItem
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.WritingPracticeInputMode
 import kotlin.time.Duration
 
 @Serializable
@@ -47,7 +48,8 @@ sealed interface VocabPracticeConfiguration {
     ) : VocabPracticeConfiguration
 
     data class Writing(
-        val showKanaReading: MutableState<Boolean>
+        val showKanaReading: MutableState<Boolean>,
+        val inputMode: MutableState<WritingPracticeInputMode>
     ) : VocabPracticeConfiguration
 
 }

@@ -20,6 +20,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabP
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabPracticeQueueState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabPracticeReviewState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabPracticeScreenConfiguration
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.toScreenType
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.use_case.GetVocabPracticeQueueDataUseCase
 
 class VocabPracticeViewModel(
@@ -66,6 +67,9 @@ class VocabPracticeViewModel(
                 writing = VocabPracticeConfiguration.Writing(
                     showKanaReading = mutableStateOf(
                         practicePreferences.vocabWritingShowKanaReading.get()
+                    ),
+                    inputMode = mutableStateOf(
+                        practicePreferences.writingInputMethod.get().toScreenType()
                     )
                 )
             )
@@ -83,6 +87,7 @@ class VocabPracticeViewModel(
                 vocabReadingPickerShowMeaning.set(configurationState.readingPicker.showMeaning.value)
                 vocabFlashcardMeaningInFront.set(configurationState.flashcard.translationInFront.value)
                 vocabWritingShowKanaReading.set(configurationState.writing.showKanaReading.value)
+                writingInputMethod.set(configurationState.writing.inputMode.value.repoType)
             }
 
             practiceQueue.initialize(

@@ -24,6 +24,7 @@ import ua.syt0r.kanji.presentation.common.ui.FancyLoading
 import ua.syt0r.kanji.presentation.common.ui.FuriganaText
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationContainer
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationEnumSelector
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationItemsSelector
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationOption
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeEarlyFinishDialog
@@ -35,6 +36,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeTo
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.VocabPracticeScreenContract.ScreenState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabReviewState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabSummaryItem
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.WritingPracticeInputMode
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.ui.VocabPracticeFlashcardUI
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.ui.VocabPracticeReadingPickerUI
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.ui.VocabPracticeWritingUI
@@ -192,6 +194,14 @@ private fun ScreenConfiguration(
                     subtitle = resolveString { vocabPractice.writingKanaReadingConfigurationMessage },
                     checked = showKanaReading,
                     onChange = { showKanaReading = it }
+                )
+                var selectedInputMode by screenState.writing.inputMode
+                PracticeConfigurationEnumSelector(
+                    title = resolveString { letterPractice.inputModeTitle },
+                    subtitle = resolveString { letterPractice.inputModeMessage },
+                    values = WritingPracticeInputMode.entries,
+                    selected = selectedInputMode,
+                    onSelected = { selectedInputMode = it }
                 )
             }
         }

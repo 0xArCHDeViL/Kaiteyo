@@ -10,6 +10,7 @@ import ua.syt0r.kanji.core.stroke_evaluator.DefaultKanjiStrokeEvaluator
 import ua.syt0r.kanji.core.toInfoScreenData
 import ua.syt0r.kanji.presentation.common.ui.kanji.parseKanjiStrokes
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWriterConfiguration
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.WritingPracticeInputMode
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.CharacterWriterData
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabPracticeItemData
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabPracticeQueueItemDescriptor
@@ -65,7 +66,10 @@ class DefaultGetVocabPracticeWritingDataUseCase(
                         character = character,
                         strokeEvaluator = strokeEvaluator,
                         strokes = parseKanjiStrokes(strokes),
-                        configuration = CharacterWriterConfiguration.CharacterInput
+                        configuration = when (descriptor.inputMode) {
+                            WritingPracticeInputMode.Stroke -> CharacterWriterConfiguration.StrokeInput(isStudyMode = false)
+                            WritingPracticeInputMode.Character -> CharacterWriterConfiguration.CharacterInput
+                        }
                     )
                 }
                 character to characterWriterData

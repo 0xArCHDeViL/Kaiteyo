@@ -12,6 +12,7 @@ import ua.syt0r.kanji.core.stroke_evaluator.KanjiStrokeEvaluator
 import ua.syt0r.kanji.presentation.common.ScreenVocabPracticeType
 import ua.syt0r.kanji.presentation.screen.main.screen.info.InfoScreenData
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWriterConfiguration
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.WritingPracticeInputMode
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.DefaultCharacterWriterState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
@@ -81,7 +82,8 @@ sealed interface VocabPracticeQueueItemDescriptor {
     data class Writing(
         override val cardId: Long,
         override val deckId: Long,
-        val showKanaReading: Boolean
+        val showKanaReading: Boolean,
+        val inputMode: WritingPracticeInputMode
     ) : VocabPracticeQueueItemDescriptor {
         override val practiceType: ScreenVocabPracticeType = ScreenVocabPracticeType.Writing
     }

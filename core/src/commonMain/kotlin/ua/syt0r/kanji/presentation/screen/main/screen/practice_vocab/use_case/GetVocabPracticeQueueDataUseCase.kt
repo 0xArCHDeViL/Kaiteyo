@@ -80,7 +80,8 @@ class DefaultGetVocabPracticeQueueDataUseCase(
                         VocabPracticeQueueItemDescriptor.Writing(
                             cardId = wordId,
                             deckId = deckId,
-                            showKanaReading = configuratedState.writing.showKanaReading.value
+                            showKanaReading = configuratedState.writing.showKanaReading.value,
+                            inputMode = configuratedState.writing.inputMode.value
                         )
                     }
                 }
