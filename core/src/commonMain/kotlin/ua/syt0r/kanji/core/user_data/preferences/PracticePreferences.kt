@@ -90,4 +90,10 @@ class PracticePreferences(
         initialValue = { false }
     )
 
+    override val vocabWritingKanjiOnly: SuspendedProperty<Boolean> = createProperty(
+        type = BooleanSuspendedPropertyType,
+        key = "vocab_writing_kanji_only",
+        initialValue = { false }
+    )
+
 }

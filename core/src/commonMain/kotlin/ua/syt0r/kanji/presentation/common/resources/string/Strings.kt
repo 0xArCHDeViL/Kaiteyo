@@ -614,6 +614,8 @@ interface VocabPracticeStrings {
 
     val writingKanaReadingConfigurationTitle: String
     val writingKanaReadingConfigurationMessage: String
+    val writingKanjiOnlyConfigurationTitle: String
+    val writingKanjiOnlyConfigurationMessage: String
 
     val detailsButton: String
 

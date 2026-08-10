@@ -83,7 +83,8 @@ sealed interface VocabPracticeQueueItemDescriptor {
         override val cardId: Long,
         override val deckId: Long,
         val showKanaReading: Boolean,
-        val inputMode: WritingPracticeInputMode
+        val inputMode: WritingPracticeInputMode,
+        val kanjiOnly: Boolean
     ) : VocabPracticeQueueItemDescriptor {
         override val practiceType: ScreenVocabPracticeType = ScreenVocabPracticeType.Writing
     }

@@ -49,7 +49,8 @@ sealed interface VocabPracticeConfiguration {
 
     data class Writing(
         val showKanaReading: MutableState<Boolean>,
-        val inputMode: MutableState<WritingPracticeInputMode>
+        val inputMode: MutableState<WritingPracticeInputMode>,
+        val kanjiOnly: MutableState<Boolean>
     ) : VocabPracticeConfiguration
 
 }

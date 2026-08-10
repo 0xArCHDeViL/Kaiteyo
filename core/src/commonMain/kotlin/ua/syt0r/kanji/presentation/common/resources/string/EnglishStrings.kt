@@ -641,8 +641,9 @@ object EnglishVocabPracticeStrings : VocabPracticeStrings {
     override val translationInFrontConfigurationMessage: String =
         "Show translation instead of word when flashcard is hidden"
     override val writingKanaReadingConfigurationTitle: String = "Show Kana Readings"
-    override val writingKanaReadingConfigurationMessage: String =
-        "Show kana readings even before answer is entered"
+    override val writingKanaReadingConfigurationMessage: String = "Show kana readings above the characters."
+    override val writingKanjiOnlyConfigurationTitle: String = "Write Kanji Only"
+    override val writingKanjiOnlyConfigurationMessage: String = "Automatically skip drawing kana characters when practicing."
     override val detailsButton: String = "Details"
 }
 

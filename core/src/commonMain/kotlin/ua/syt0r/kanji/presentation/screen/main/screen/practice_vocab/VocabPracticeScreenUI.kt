@@ -203,6 +203,13 @@ private fun ScreenConfiguration(
                     selected = selectedInputMode,
                     onSelected = { selectedInputMode = it }
                 )
+                var kanjiOnly by screenState.writing.kanjiOnly
+                PracticeConfigurationOption(
+                    title = resolveString { vocabPractice.writingKanjiOnlyConfigurationTitle },
+                    subtitle = resolveString { vocabPractice.writingKanjiOnlyConfigurationMessage },
+                    checked = kanjiOnly,
+                    onChange = { kanjiOnly = it }
+                )
             }
         }
 

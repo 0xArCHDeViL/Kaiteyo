@@ -70,6 +70,9 @@ class VocabPracticeViewModel(
                     ),
                     inputMode = mutableStateOf(
                         practicePreferences.writingInputMethod.get().toScreenType()
+                    ),
+                    kanjiOnly = mutableStateOf(
+                        practicePreferences.vocabWritingKanjiOnly.get()
                     )
                 )
             )
@@ -88,6 +91,7 @@ class VocabPracticeViewModel(
                 vocabFlashcardMeaningInFront.set(configurationState.flashcard.translationInFront.value)
                 vocabWritingShowKanaReading.set(configurationState.writing.showKanaReading.value)
                 writingInputMethod.set(configurationState.writing.inputMode.value.repoType)
+                vocabWritingKanjiOnly.set(configurationState.writing.kanjiOnly.value)
             }
 
             practiceQueue.initialize(

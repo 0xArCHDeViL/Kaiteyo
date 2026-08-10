@@ -618,8 +618,9 @@ object JapaneseVocabPracticeStrings : VocabPracticeStrings {
     override val translationInFrontConfigurationMessage: String =
         "フラッシュカードが隠れているときに単語の代わりに翻訳を表示する"
     override val writingKanaReadingConfigurationTitle: String = "かなの読み方の表示"
-    override val writingKanaReadingConfigurationMessage: String =
-        "答えを入力する前でもかなの読み方を表示します"
+    override val writingKanaReadingConfigurationMessage: String = "漢字の上にかなの読み方を表示します。"
+    override val writingKanjiOnlyConfigurationTitle: String = "漢字のみを書く"
+    override val writingKanjiOnlyConfigurationMessage: String = "練習中にかな文字を書くのを自動的にスキップします。"
     override val detailsButton: String = "詳細"
 }
 

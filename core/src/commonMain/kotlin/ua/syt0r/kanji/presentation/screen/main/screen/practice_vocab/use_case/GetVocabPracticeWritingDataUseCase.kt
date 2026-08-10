@@ -8,6 +8,7 @@ import ua.syt0r.kanji.core.app_data.data.toFurigana
 import ua.syt0r.kanji.core.app_data.data.withoutAnnotations
 import ua.syt0r.kanji.core.stroke_evaluator.DefaultKanjiStrokeEvaluator
 import ua.syt0r.kanji.core.toInfoScreenData
+import ua.syt0r.kanji.core.japanese.isKana
 import ua.syt0r.kanji.presentation.common.ui.kanji.parseKanjiStrokes
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWriterConfiguration
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.WritingPracticeInputMode
@@ -58,6 +59,11 @@ class DefaultGetVocabPracticeWritingDataUseCase(
         val writerData = letters
             .map { it.toString() }
             .map { character ->
+                val isKana = character.firstOrNull()?.isKana() == true
+                if (descriptor.kanjiOnly && isKana) {
+                    return@map character to null
+                }
+
                 val strokes = appDataRepository.getStrokes(character)
 
                 val characterWriterData = when {

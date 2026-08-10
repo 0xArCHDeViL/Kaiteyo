@@ -81,7 +81,8 @@ class DefaultGetVocabPracticeQueueDataUseCase(
                             cardId = wordId,
                             deckId = deckId,
                             showKanaReading = configuratedState.writing.showKanaReading.value,
-                            inputMode = configuratedState.writing.inputMode.value
+                            inputMode = configuratedState.writing.inputMode.value,
+                            kanjiOnly = configuratedState.writing.kanjiOnly.value
                         )
                     }
                 }
