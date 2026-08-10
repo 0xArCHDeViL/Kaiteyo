@@ -130,7 +130,7 @@ fun DeckManager() {
             color = surfaceColors.textPrimary, fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.height(4.dp))
         Text("${rootDecks.sumOf { it.cardCount }} cards across ${rootDecks.size + rootDecks.sumOf { it.children.size }} decks",
-            color = surfaceColors.textMuted, fontSize = 13.sp)
+            color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         Spacer(modifier = Modifier.height(16.dp))
 
         // View mode tabs
@@ -140,7 +140,7 @@ fun DeckManager() {
                 Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface)
                     .clickable { viewMode = mode }.padding(horizontal = 14.dp, vertical = 6.dp)) {
-                    Text(mode, color = if (isSelected) accent.primary else surfaceColors.textSecondary, fontSize = 12.sp)
+                    Text(mode, color = if (isSelected) accent.primary else surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
             }
         }
@@ -173,26 +173,26 @@ private fun DeckTreeItem(deck: KaiteyoDeck, accent: ua.syt0r.kanji.presentation.
             Box(modifier = Modifier.size(32.dp).clip(RoundedCornerShape(Dimens.RadiusSm))
                 .background(if (deck.isVirtual) deck.color.copy(alpha = Dimens.Alpha.Light) else deck.color.copy(alpha = Dimens.Alpha.Subtle)),
                 contentAlignment = Alignment.Center) {
-                Text(deck.icon, color = if (deck.isVirtual) deck.color else deck.color, fontSize = 14.sp)
+                Text(deck.icon, color = if (deck.isVirtual) deck.color else deck.color, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
             }
             Spacer(modifier = Modifier.width(10.dp))
             // Name + stats
             Column(modifier = Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(deck.name, color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
-                    if (deck.isPinned) { Spacer(modifier = Modifier.width(4.dp)); Text("📌", fontSize = 10.sp) }
-                    if (deck.isFavorite) { Spacer(modifier = Modifier.width(4.dp)); Text("★", color = Color(0xFFFFB347), fontSize = 12.sp) }
-                    if (deck.isVirtual) { Spacer(modifier = Modifier.width(4.dp)); Text("⚡", fontSize = 10.sp) }
-                    if (deck.isArchived) { Spacer(modifier = Modifier.width(4.dp)); Text("📦", fontSize = 10.sp) }
+                    Text(deck.name, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
+                    if (deck.isPinned) { Spacer(modifier = Modifier.width(4.dp)); Text("📌", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }
+                    if (deck.isFavorite) { Spacer(modifier = Modifier.width(4.dp)); Text("★", color = Color(0xFFFFB347), style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
+                    if (deck.isVirtual) { Spacer(modifier = Modifier.width(4.dp)); Text("⚡", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }
+                    if (deck.isArchived) { Spacer(modifier = Modifier.width(4.dp)); Text("📦", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }
                 }
                 if (deck.description.isNotEmpty()) {
-                    Text(deck.description, color = surfaceColors.textMuted, fontSize = 11.sp, maxLines = 1)
+                    Text(deck.description, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, maxLines = 1)
                 }
             }
             // Stats
             Column(horizontalAlignment = Alignment.End) {
-                Text("${deck.cardCount}", color = surfaceColors.textPrimary, fontSize = 13.sp, fontWeight = FontWeight.Medium)
-                Text("${deck.dueCount} due", color = if (deck.dueCount > 0) accent.primary else surfaceColors.textMuted, fontSize = 10.sp)
+                Text("${deck.cardCount}", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
+                Text("${deck.dueCount} due", color = if (deck.dueCount > 0) accent.primary else surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
         }
         // Children

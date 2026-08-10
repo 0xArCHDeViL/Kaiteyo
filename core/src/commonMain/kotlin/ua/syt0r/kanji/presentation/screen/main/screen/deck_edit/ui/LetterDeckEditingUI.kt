@@ -259,7 +259,7 @@ private fun LazyGridItemScope.ListItem(
         Text(
             text = item.character,
             modifier = Modifier.align(Alignment.Center),
-            fontSize = 32.sp
+            style = androidx.compose.material3.MaterialTheme.typography.headlineLarge
         )
 
         DeckEditItemActionIndicator(

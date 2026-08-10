@@ -331,14 +331,14 @@ fun UndoHistoryScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
         Column(Modifier.fillMaxSize().padding(padding)) {
             Text(
                 "Undo Stack (${controller.undoableActions.size}/100)",
-                fontSize = 12.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 color = surfaceColors.textMuted,
                 modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
             )
             if (controller.undoableActions.isEmpty()) {
                 Text(
                     "Nothing to undo yet.",
-                    fontSize = 13.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     color = surfaceColors.textMuted,
                     modifier = Modifier.padding(horizontal = 16.dp)
                 )
@@ -359,7 +359,7 @@ fun UndoHistoryScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
                         Spacer(Modifier.width(8.dp))
                         Text(
                             record.label,
-                            fontSize = 13.sp,
+                            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                             color = surfaceColors.textPrimary,
                             maxLines = 1,
                             overflow = TextOverflow.Ellipsis,
@@ -367,7 +367,7 @@ fun UndoHistoryScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
                         )
                         Text(
                             formatTime(record.timestamp),
-                            fontSize = 11.sp,
+                            style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                             color = surfaceColors.textMuted
                         )
                     }
@@ -378,7 +378,7 @@ fun UndoHistoryScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
 
             Text(
                 "Activity History (${controller.history.size})",
-                fontSize = 12.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 color = surfaceColors.textMuted,
                 modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
             )
@@ -398,18 +398,18 @@ fun UndoHistoryScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
                         Column(Modifier.weight(1f)) {
                             Text(
                                 entry.description.ifBlank { entry.type.displayName },
-                                fontSize = 13.sp,
+                                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                                 color = surfaceColors.textPrimary,
                                 maxLines = 1,
                                 overflow = TextOverflow.Ellipsis
                             )
                             Text(
                                 entry.type.displayName,
-                                fontSize = 10.sp,
+                                style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                                 color = surfaceColors.textMuted
                             )
                         }
-                        Text(formatTime(entry.timestamp), fontSize = 11.sp, color = surfaceColors.textMuted)
+                        Text(formatTime(entry.timestamp), style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                     }
                 }
             }
@@ -474,7 +474,7 @@ fun CollectionsScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
 
             Text(
                 if (selectedCollection == null) "Favorites (${shownCards.size})" else "${selectedCollection!!.name} (${shownCards.size})",
-                fontSize = 13.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 fontWeight = FontWeight.SemiBold,
                 color = surfaceColors.textPrimary,
                 modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
@@ -482,7 +482,7 @@ fun CollectionsScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
             if (shownCards.isEmpty()) {
                 Text(
                     "No cards in this collection yet.",
-                    fontSize = 13.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     color = surfaceColors.textMuted,
                     modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
                 )
@@ -496,21 +496,21 @@ fun CollectionsScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
                         ) {
                             Text(
                                 card.character,
-                                fontSize = 18.sp,
+                                style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
                                 color = surfaceColors.textPrimary,
                                 modifier = Modifier.width(44.dp)
                             )
                             Column(Modifier.weight(1f)) {
                                 Text(
                                     card.meaning,
-                                    fontSize = 13.sp,
+                                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                                     color = surfaceColors.textPrimary,
                                     maxLines = 1,
                                     overflow = TextOverflow.Ellipsis
                                 )
                                 Text(
                                     card.reading,
-                                    fontSize = 11.sp,
+                                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                                     color = surfaceColors.textMuted
                                 )
                             }
@@ -520,7 +520,7 @@ fun CollectionsScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
                                     .background(statusColor(card.status).copy(alpha = Dimens.Alpha.Medium))
                                     .padding(horizontal = 6.dp, vertical = 2.dp)
                             ) {
-                                Text(card.status.displayName, fontSize = 10.sp, color = surfaceColors.textSecondary)
+                                Text(card.status.displayName, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textSecondary)
                             }
                         }
                     }
@@ -559,21 +559,21 @@ fun CardStatusScreen(controller: DeckFeaturesController, onClose: () -> Unit = {
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Text(
                                 card.character,
-                                fontSize = 16.sp,
+                                style = androidx.compose.material3.MaterialTheme.typography.bodyLarge,
                                 color = surfaceColors.textPrimary,
                                 modifier = Modifier.width(40.dp)
                             )
                             Column(Modifier.weight(1f)) {
                                 Text(
                                     card.meaning,
-                                    fontSize = 12.sp,
+                                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                                     color = surfaceColors.textPrimary,
                                     maxLines = 1,
                                     overflow = TextOverflow.Ellipsis
                                 )
                                 Text(
                                     card.reading,
-                                    fontSize = 10.sp,
+                                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                                     color = surfaceColors.textMuted
                                 )
                             }
@@ -583,29 +583,29 @@ fun CardStatusScreen(controller: DeckFeaturesController, onClose: () -> Unit = {
                                     .background(statusColor(card.status).copy(alpha = Dimens.Alpha.Medium))
                                     .padding(horizontal = 6.dp, vertical = 2.dp)
                             ) {
-                                Text(card.status.displayName, fontSize = 10.sp, color = surfaceColors.textSecondary)
+                                Text(card.status.displayName, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textSecondary)
                             }
                             Spacer(Modifier.width(8.dp))
                             if (suspended) {
                                 TextButton(onClick = { scope.launch { controller.unsuspendCards(listOf(card.id)) } }) {
-                                    Text("Unsuspend", fontSize = 11.sp)
+                                    Text("Unsuspend", style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                                 }
                             } else {
                                 TextButton(onClick = { scope.launch { controller.suspendCards(listOf(card.id)) } }) {
-                                    Text("Suspend", fontSize = 11.sp)
+                                    Text("Suspend", style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                                 }
                             }
                             if (buried) {
                                 TextButton(onClick = { scope.launch { controller.unburyCards(listOf(card.id)) } }) {
-                                    Text("Unbury", fontSize = 11.sp)
+                                    Text("Unbury", style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                                 }
                             } else {
                                 TextButton(onClick = { scope.launch { controller.buryCards(listOf(card.id)) } }) {
-                                    Text("Bury", fontSize = 11.sp)
+                                    Text("Bury", style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                                 }
                             }
                             TextButton(onClick = { scope.launch { controller.resetProgress(listOf(card.id)) } }) {
-                                Text("Reset", fontSize = 11.sp)
+                                Text("Reset", style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                             }
                         }
                     }
@@ -633,12 +633,12 @@ private fun StatCard(
         modifier = modifier.fillMaxWidth()
     ) {
         Column(Modifier.fillMaxWidth().padding(14.dp)) {
-            Text(title, fontSize = 11.sp, color = surfaceColors.textMuted, fontWeight = FontWeight.Medium)
+            Text(title, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted, fontWeight = FontWeight.Medium)
             Spacer(Modifier.height(6.dp))
-            Text(value, fontSize = 22.sp, fontWeight = FontWeight.Bold, color = accent.primary)
+            Text(value, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = accent.primary)
             if (subtitle.isNotBlank()) {
                 Spacer(Modifier.height(2.dp))
-                Text(subtitle, fontSize = 11.sp, color = surfaceColors.textMuted)
+                Text(subtitle, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
             }
         }
     }
@@ -652,7 +652,7 @@ private fun StatBarRow(label: String, value: Int, color: Color) {
         modifier = Modifier.fillMaxWidth().padding(vertical = 3.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text(label, fontSize = 12.sp, color = surfaceColors.textSecondary, modifier = Modifier.width(90.dp))
+        Text(label, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textSecondary, modifier = Modifier.width(90.dp))
         Box(
             modifier = Modifier.weight(1f).height(8.dp)
                 .clip(RoundedCornerShape(Dimens.RadiusXs))
@@ -667,7 +667,7 @@ private fun StatBarRow(label: String, value: Int, color: Color) {
             )
         }
         Spacer(Modifier.width(8.dp))
-        Text("$value", fontSize = 12.sp, color = surfaceColors.textPrimary, modifier = Modifier.width(36.dp))
+        Text("$value", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary, modifier = Modifier.width(36.dp))
     }
 }
 
@@ -695,18 +695,18 @@ private fun CollectionRow(
                     .background(accentColor.copy(alpha = Dimens.Alpha.Light)),
                 contentAlignment = Alignment.Center
             ) {
-                Text(icon, fontSize = 16.sp, color = accentColor)
+                Text(icon, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, color = accentColor)
             }
             Spacer(Modifier.width(12.dp))
             Column(Modifier.weight(1f)) {
-                Text(name, fontSize = 14.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary)
+                Text(name, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary)
                 Text(
                     if (isSmart) "Smart collection" else "$count cards",
-                    fontSize = 11.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     color = surfaceColors.textMuted
                 )
             }
-            Text("$count", fontSize = 13.sp, color = surfaceColors.textMuted)
+            Text("$count", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
         }
     }
 }

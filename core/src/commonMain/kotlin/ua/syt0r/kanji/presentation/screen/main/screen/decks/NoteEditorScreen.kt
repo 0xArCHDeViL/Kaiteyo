@@ -106,9 +106,9 @@ fun NoteEditorFullScreen(
             Column(Modifier.fillMaxSize().padding(padding)) {
                 // Stats
                 Row(modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    Text("${cardsWithNotes.size} with notes", fontSize = 12.sp, color = surfaceColors.textMuted)
-                    Text("${cardsWithoutNotes.size} without", fontSize = 12.sp, color = surfaceColors.textMuted)
-                    Text("${cards.size} total", fontSize = 12.sp, color = surfaceColors.textMuted)
+                    Text("${cardsWithNotes.size} with notes", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+                    Text("${cardsWithoutNotes.size} without", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+                    Text("${cards.size} total", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                 }
 
                 OutlinedTextField(
@@ -138,11 +138,11 @@ fun NoteEditorFullScreen(
                                 modifier = Modifier.fillMaxWidth().padding(12.dp),
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
-                                Text(card.character, fontSize = 18.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+                                Text(card.character, style = androidx.compose.material3.MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
                                 Spacer(Modifier.width(8.dp))
                                 Column(Modifier.weight(1f)) {
-                                    Text(card.meaning, fontSize = 13.sp, color = surfaceColors.textPrimary, maxLines = 1)
-                                    Text(card.deck, fontSize = 11.sp, color = surfaceColors.textMuted)
+                                    Text(card.meaning, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary, maxLines = 1)
+                                    Text(card.deck, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                                 }
                                 if (card.notes.isNotBlank()) {
                                     Icon(Icons.Default.Description, null, Modifier.size(16.dp), tint = accent.primary)
@@ -168,11 +168,11 @@ fun NoteEditorFullScreen(
                             .padding(horizontal = 16.dp, vertical = 8.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Text(selectedCard.character, fontSize = 20.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+                        Text(selectedCard.character, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
                         Spacer(Modifier.width(8.dp))
                         Column {
-                            Text(selectedCard.meaning, fontSize = 13.sp, color = surfaceColors.textPrimary)
-                            Text(selectedCard.deck, fontSize = 11.sp, color = surfaceColors.textMuted)
+                            Text(selectedCard.meaning, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
+                            Text(selectedCard.deck, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                         }
                         Spacer(Modifier.weight(1f))
                         // Flag indicator
@@ -218,7 +218,7 @@ fun NoteEditorFullScreen(
                         onValueChange = { editContent = it },
                         modifier = Modifier.weight(1f).fillMaxWidth().padding(12.dp),
                         placeholder = { Text("Write your notes here...\n\nMarkdown supported:\n- **Bold**\n- *Italic*\n- [Links](url)\n- ![Images](file.png)\n- Tables, code blocks, checklists, etc.") },
-                        textStyle = TextStyle(fontSize = 14.sp, color = surfaceColors.textPrimary, lineHeight = 20.sp),
+                        textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary, lineHeight = 20.sp),
                         colors = OutlinedTextFieldDefaults.colors(
                             focusedBorderColor = accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque),
                             unfocusedBorderColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
@@ -335,49 +335,49 @@ private fun NotePreview(
                                 .background(surfaceColors.surfaceInteractive)
                                 .padding(8.dp)
                         ) {
-                            Text(line.removePrefix("```"), fontSize = 12.sp,
+                            Text(line.removePrefix("```"), style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                                 fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
                                 color = surfaceColors.textPrimary)
                         }
                     }
                 }
                 inCodeBlock -> {
-                    Text(line, fontSize = 12.sp,
+                    Text(line, style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
                         color = surfaceColors.textPrimary,
                         modifier = Modifier.padding(start = 8.dp))
                 }
-                line.startsWith("# ") -> Text(line.removePrefix("# "), fontSize = 22.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
-                line.startsWith("## ") -> Text(line.removePrefix("## "), fontSize = 18.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
-                line.startsWith("### ") -> Text(line.removePrefix("### "), fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = surfaceColors.textPrimary)
-                line.startsWith("> ") -> Text(line.removePrefix("> "), fontSize = 13.sp, color = surfaceColors.textMuted,
+                line.startsWith("# ") -> Text(line.removePrefix("# "), style = androidx.compose.material3.MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+                line.startsWith("## ") -> Text(line.removePrefix("## "), style = androidx.compose.material3.MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+                line.startsWith("### ") -> Text(line.removePrefix("### "), style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold, color = surfaceColors.textPrimary)
+                line.startsWith("> ") -> Text(line.removePrefix("> "), style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted,
                     modifier = Modifier.padding(start = 8.dp).then(Modifier.fillMaxWidth().background(surfaceColors.surfaceInteractive.copy(alpha = Dimens.Alpha.Medium)).padding(8.dp)))
-                line.startsWith("- [ ] ") -> Text("☐ ${line.removePrefix("- [ ] ")}", fontSize = 13.sp, color = surfaceColors.textPrimary)
-                line.startsWith("- [x] ") -> Text("☑ ${line.removePrefix("- [x] ")}", fontSize = 13.sp, color = surfaceColors.textPrimary)
-                line.startsWith("- ") -> Text("• ${line.removePrefix("- ")}", fontSize = 13.sp, color = surfaceColors.textPrimary)
+                line.startsWith("- [ ] ") -> Text("☐ ${line.removePrefix("- [ ] ")}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
+                line.startsWith("- [x] ") -> Text("☑ ${line.removePrefix("- [x] ")}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
+                line.startsWith("- ") -> Text("• ${line.removePrefix("- ")}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
                 line.startsWith("---") -> HorizontalDivider(color = surfaceColors.border, modifier = Modifier.padding(vertical = 4.dp))
                 line.startsWith("|") -> {
                     if (!inTable) { inTable = true }
                     val cells = line.split("|").filter { it.isNotBlank() }
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         cells.forEach { cell ->
-                            Text(cell.trim(), fontSize = 12.sp, color = surfaceColors.textPrimary,
+                            Text(cell.trim(), style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary,
                                 modifier = Modifier.weight(1f))
                         }
                     }
                 }
                 line.startsWith("![") -> {
                     val alt = line.substringAfter("![").substringBefore("]")
-                    Text("[Image: $alt]", fontSize = 13.sp, color = surfaceColors.textMuted)
+                    Text("[Image: $alt]", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                 }
                 line.startsWith("[") -> {
                     val text = line.substringAfter("[").substringBefore("]")
                     val url = line.substringAfter("(").substringBefore(")")
-                    Text(text, fontSize = 13.sp, color = androidx.compose.ui.graphics.ua.syt0r.kanji.presentation.common.theme.semanticInfo,
+                    Text(text, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = androidx.compose.ui.graphics.ua.syt0r.kanji.presentation.common.theme.semanticInfo,
                         textDecoration = TextDecoration.Underline)
                 }
                 line.isBlank() -> Spacer(Modifier.height(4.dp))
-                else -> Text(line, fontSize = 13.sp, color = surfaceColors.textPrimary)
+                else -> Text(line, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
             }
             if (line.isBlank() && inTable) inTable = false
         }
@@ -394,40 +394,40 @@ private fun NoteFormattingHelpDialog(onDismiss: () -> Unit) {
         text = {
             LazyColumn(modifier = Modifier.heightIn(max = 400.dp)) {
                 item {
-                    Text("**Bold**", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("*Italic*", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("~~Strikethrough~~", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("[Link](url)", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("![Image](file.png)", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
+                    Text("**Bold**", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("*Italic*", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("~~Strikethrough~~", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("[Link](url)", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("![Image](file.png)", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
                 item { Spacer(Modifier.height(8.dp)) }
                 item {
-                    Text("Headers:", fontWeight = FontWeight.Bold, fontSize = 13.sp)
-                    Text("# H1", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("## H2", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("### H3", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
+                    Text("Headers:", fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("# H1", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("## H2", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("### H3", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
                 item { Spacer(Modifier.height(8.dp)) }
                 item {
-                    Text("Lists:", fontWeight = FontWeight.Bold, fontSize = 13.sp)
-                    Text("- Unordered", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("1. Ordered", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("- [ ] Checklist", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("- [x] Done", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
+                    Text("Lists:", fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("- Unordered", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("1. Ordered", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("- [ ] Checklist", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("- [x] Done", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
                 item { Spacer(Modifier.height(8.dp)) }
                 item {
-                    Text("Code & Tables:", fontWeight = FontWeight.Bold, fontSize = 13.sp)
-                    Text("`inline code`", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("```\\ncode block\\n```", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("| Col1 | Col2 |", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("|------|------|", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
+                    Text("Code & Tables:", fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("`inline code`", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("```\\ncode block\\n```", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("| Col1 | Col2 |", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("|------|------|", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
                 item { Spacer(Modifier.height(8.dp)) }
                 item {
-                    Text("Other:", fontWeight = FontWeight.Bold, fontSize = 13.sp)
-                    Text("> Quote", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
-                    Text("--- Divider", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, fontSize = 12.sp)
+                    Text("Other:", fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("> Quote", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("--- Divider", fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
             }
         },

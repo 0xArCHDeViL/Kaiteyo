@@ -151,7 +151,7 @@ fun AppearanceStudio() {
                         Text(
                             text = tab.displayName,
                             color = tabText,
-                            fontSize = 12.sp,
+                            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                             fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
                         )
                     }
@@ -267,7 +267,7 @@ private fun ThemePresetsTab() {
                 Text(
                     text = mode.displayName,
                     color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
-                    fontSize = 11.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
                 )
             }
@@ -329,7 +329,7 @@ private fun ThemePresetsTab() {
                     Text(
                         text = scheme.name,
                         color = if (isSelected) currentAccent.primary else surfaceColors.textPrimary,
-                        fontSize = 12.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Medium,
                         maxLines = 1
                     )
@@ -390,7 +390,7 @@ private fun ColorEditorTab() {
                 Text(
                     text = target,
                     color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
-                    fontSize = 10.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
                 )
             }
@@ -424,12 +424,12 @@ private fun ColorEditorTab() {
                 text = selectedColorTarget,
                 color = surfaceColors.textPrimary,
                 fontWeight = FontWeight.SemiBold,
-                fontSize = 14.sp
+                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
             )
             Text(
                 text = colorToHex(currentColor),
                 color = surfaceColors.textMuted,
-                fontSize = 12.sp
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
         }
     }
@@ -469,7 +469,7 @@ private fun ColorEditorTab() {
         Text(
             text = "#",
             color = surfaceColors.textPrimary,
-            fontSize = 16.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodyLarge,
             fontWeight = FontWeight.Bold
         )
         Spacer(modifier = Modifier.width(4.dp))
@@ -485,7 +485,7 @@ private fun ColorEditorTab() {
                 onValueChange = { hexValue = it.text.take(6).uppercase() },
                 textStyle = TextStyle(
                     color = surfaceColors.textPrimary,
-                    fontSize = 14.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                     fontWeight = FontWeight.Medium
                 ),
                 singleLine = true,
@@ -514,7 +514,7 @@ private fun ColorEditorTab() {
     Text(
         text = "${(opacity * 100).toInt()}%",
         color = surfaceColors.textMuted,
-        fontSize = 12.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
 }
 
@@ -582,7 +582,7 @@ private fun GradientEditorTab() {
         Text(
             text = "Start: ${colorToHex(gradient.start)}",
             color = surfaceColors.textPrimary,
-            fontSize = 13.sp
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall
         )
     }
     Spacer(modifier = Modifier.height(6.dp))
@@ -598,7 +598,7 @@ private fun GradientEditorTab() {
         Text(
             text = "End: ${colorToHex(gradient.end)}",
             color = surfaceColors.textPrimary,
-            fontSize = 13.sp
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall
         )
     }
 
@@ -640,7 +640,7 @@ private fun GradientEditorTab() {
     Text(
         text = "${(intensity * 100).toInt()}%",
         color = surfaceColors.textMuted,
-        fontSize = 12.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
 
     Spacer(modifier = Modifier.height(16.dp))
@@ -743,7 +743,7 @@ private fun MotionStudioTab() {
                 Text(
                     text = name,
                     color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
-                    fontSize = 10.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal,
                     textAlign = TextAlign.Center
                 )
@@ -765,7 +765,7 @@ private fun MotionStudioTab() {
     Text(
         text = "Damping: ${String.format("%.1f", themeState.animationConfig.springDamping)}",
         color = surfaceColors.textPrimary,
-        fontSize = 13.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
     var damping by remember { mutableStateOf(themeState.animationConfig.springDamping) }
     Slider(
@@ -783,7 +783,7 @@ private fun MotionStudioTab() {
     Text(
         text = "Stiffness: ${themeState.animationConfig.springStiffness.toInt()}",
         color = surfaceColors.textPrimary,
-        fontSize = 13.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
     var stiffness by remember { mutableStateOf(themeState.animationConfig.springStiffness) }
     Slider(
@@ -836,7 +836,7 @@ private fun MotionStudioTab() {
             Text(
                 text = transition.displayName,
                 color = if (isSelected) currentAccent.primary else surfaceColors.textPrimary,
-                fontSize = 13.sp
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
         }
     }
@@ -847,7 +847,7 @@ private fun MotionStudioTab() {
     Text(
         text = "Duration: ${themeState.animationConfig.defaultDuration}ms",
         color = surfaceColors.textPrimary,
-        fontSize = 13.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
     var duration by remember { mutableStateOf(themeState.animationConfig.defaultDuration.toFloat()) }
     Slider(
@@ -890,14 +890,14 @@ private fun MotionStudioTab() {
             contentAlignment = Alignment.Center
         ) {
             if (themeState.animationConfig.reducedMotion) {
-                Text("✓", color = currentAccent.onPrimary, fontSize = 10.sp)
+                Text("✓", color = currentAccent.onPrimary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
         }
         Spacer(modifier = Modifier.width(10.dp))
         Text(
             text = "Reduced Motion",
             color = surfaceColors.textPrimary,
-            fontSize = 13.sp
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall
         )
     }
 }
@@ -961,7 +961,7 @@ private fun LayoutStudioTab() {
                 Text(
                     text = density.displayName,
                     color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
-                    fontSize = 11.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
                 )
             }
@@ -1004,7 +1004,7 @@ private fun LayoutStudioTab() {
                 Text(
                     text = style.displayName,
                     color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
-                    fontSize = 10.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
                 )
             }
@@ -1017,7 +1017,7 @@ private fun LayoutStudioTab() {
     Text(
         text = "Custom Radius: ${(themeState.radiusConfig.customRadius ?: 12f).toInt()}dp",
         color = surfaceColors.textPrimary,
-        fontSize = 13.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
     var customRadius by remember { mutableStateOf(themeState.radiusConfig.customRadius ?: 12f) }
     Slider(
@@ -1045,7 +1045,7 @@ private fun LayoutStudioTab() {
     Text(
         text = "Mode",
         color = surfaceColors.textMuted,
-        fontSize = 12.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
     Spacer(modifier = Modifier.height(4.dp))
     Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -1068,7 +1068,7 @@ private fun LayoutStudioTab() {
                 Text(
                     text = mode.displayName,
                     color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
-                    fontSize = 10.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
                 )
             }
@@ -1081,7 +1081,7 @@ private fun LayoutStudioTab() {
     Text(
         text = "Position",
         color = surfaceColors.textMuted,
-        fontSize = 12.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
     Spacer(modifier = Modifier.height(4.dp))
     Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
@@ -1104,7 +1104,7 @@ private fun LayoutStudioTab() {
                 Text(
                     text = pos.displayName,
                     color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
-                    fontSize = 12.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
                 )
             }
@@ -1125,7 +1125,7 @@ private fun LayoutStudioTab() {
     Text(
         text = "Intensity: ${String.format("%.1f", themeState.glowConfig.intensity)}",
         color = surfaceColors.textPrimary,
-        fontSize = 13.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
     var glowIntensity by remember { mutableStateOf(themeState.glowConfig.intensity) }
     Slider(
@@ -1143,7 +1143,7 @@ private fun LayoutStudioTab() {
     Text(
         text = "Radius: ${String.format("%.1f", themeState.glowConfig.radius)}",
         color = surfaceColors.textPrimary,
-        fontSize = 13.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
     var glowRadius by remember { mutableStateOf(themeState.glowConfig.radius) }
     Slider(
@@ -1161,7 +1161,7 @@ private fun LayoutStudioTab() {
     Text(
         text = "Opacity: ${String.format("%.1f", themeState.glowConfig.opacity)}",
         color = surfaceColors.textPrimary,
-        fontSize = 13.sp
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
     )
     var glowOpacity by remember { mutableStateOf(themeState.glowConfig.opacity) }
     Slider(
@@ -1200,14 +1200,14 @@ private fun LayoutStudioTab() {
             contentAlignment = Alignment.Center
         ) {
             if (themeState.layoutConfig.transparencyEnabled) {
-                Text("✓", color = currentAccent.onPrimary, fontSize = 10.sp)
+                Text("✓", color = currentAccent.onPrimary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
         }
         Spacer(modifier = Modifier.width(10.dp))
         Text(
             text = "Enable Transparency",
             color = surfaceColors.textPrimary,
-            fontSize = 13.sp
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall
         )
     }
 
@@ -1216,7 +1216,7 @@ private fun LayoutStudioTab() {
         Text(
             text = "Glass Opacity: ${(themeState.layoutConfig.glassOpacity * 100).toInt()}%",
             color = surfaceColors.textPrimary,
-            fontSize = 13.sp
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall
         )
         var glassOpacity by remember { mutableStateOf(themeState.layoutConfig.glassOpacity) }
         Slider(
@@ -1285,7 +1285,7 @@ private fun ThemeExportTab() {
         Text(
             text = themeJson,
             color = surfaceColors.textSecondary,
-            fontSize = 10.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
             lineHeight = 14.sp
         )
     }
@@ -1334,12 +1334,12 @@ private fun ThemeExportTab() {
             Text(
                 text = "Drop JSON file here",
                 color = surfaceColors.textMuted,
-                fontSize = 13.sp
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
             Text(
                 text = "or click to browse",
                 color = currentAccent.primary,
-                fontSize = 12.sp
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
         }
     }
@@ -1366,7 +1366,7 @@ private fun ThemeExportTab() {
         Text(
             text = "No saved presets yet. Export a theme to save it.",
             color = surfaceColors.textMuted,
-            fontSize = 12.sp
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall
         )
     }
 }
@@ -1436,7 +1436,7 @@ private fun LivePreviewPanel() {
                     Text(
                         text = "K",
                         color = currentAccent.primary,
-                        fontSize = 10.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                         fontWeight = FontWeight.Bold
                     )
                 }
@@ -1460,7 +1460,7 @@ private fun LivePreviewPanel() {
                         Text(
                             text = icon,
                             color = if (isActive) currentAccent.primary else previewSurface.textMuted,
-                            fontSize = 8.sp
+                            style = androidx.compose.material3.MaterialTheme.typography.labelSmall
                         )
                         Spacer(modifier = Modifier.width(4.dp))
                         Text(
@@ -1509,13 +1509,13 @@ private fun LivePreviewPanel() {
                         Text(
                             text = "Dashboard",
                             color = previewSurface.textPrimary,
-                            fontSize = 11.sp,
+                            style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                             fontWeight = FontWeight.Bold
                         )
                         Text(
                             text = "Study overview",
                             color = previewSurface.textMuted,
-                            fontSize = 8.sp
+                            style = androidx.compose.material3.MaterialTheme.typography.labelSmall
                         )
                     }
                     // Mini controls
@@ -1552,7 +1552,7 @@ private fun LivePreviewPanel() {
                             Text(
                                 text = value,
                                 color = currentAccent.primary,
-                                fontSize = 14.sp,
+                                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                                 fontWeight = FontWeight.Bold
                             )
                             Text(
@@ -1631,7 +1631,7 @@ private fun LivePreviewPanel() {
                             Text(
                                 text = "Start Review",
                                 color = currentAccent.onPrimary,
-                                fontSize = 8.sp,
+                                style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                                 fontWeight = FontWeight.SemiBold
                             )
                         }
@@ -1662,7 +1662,7 @@ private fun ColorSlider(
         Text(
             text = label,
             color = surfaceColors.textPrimary,
-            fontSize = 12.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             fontWeight = FontWeight.Medium,
             modifier = Modifier.width(20.dp)
         )
@@ -1675,7 +1675,7 @@ private fun ColorSlider(
         Text(
             text = value.toString(),
             color = surfaceColors.textMuted,
-            fontSize = 11.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
             modifier = Modifier.width(30.dp),
             textAlign = TextAlign.End
         )

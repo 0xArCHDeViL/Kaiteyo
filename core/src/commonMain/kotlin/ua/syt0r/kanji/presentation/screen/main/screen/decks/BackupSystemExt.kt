@@ -221,17 +221,17 @@ private fun BackupListItem(
                 null, Modifier.size(24.dp), tint = if (backup.isAutomatic) ua.syt0r.kanji.presentation.common.theme.semanticWarning else MaterialTheme.colorScheme.primary)
             Spacer(Modifier.width(12.dp))
             Column(Modifier.weight(1f)) {
-                Text(backup.filename, fontWeight = FontWeight.Medium, fontSize = 13.sp, maxLines = 1)
+                Text(backup.filename, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, maxLines = 1)
                 Row {
-                    Text(sizeText, fontSize = 11.sp, color = surfaceColors.textMuted)
-                    Text(" • ", fontSize = 11.sp, color = surfaceColors.textMuted)
-                    Text(backup.createdAt.toString().take(19).replace("T", " "), fontSize = 11.sp, color = surfaceColors.textMuted)
+                    Text(sizeText, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    Text(" • ", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    Text(backup.createdAt.toString().take(19).replace("T", " "), style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                 }
                 if (backup.isAutomatic) {
-                    Text("Automatic backup", fontSize = 10.sp, color = ua.syt0r.kanji.presentation.common.theme.semanticWarning)
+                    Text("Automatic backup", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = ua.syt0r.kanji.presentation.common.theme.semanticWarning)
                 }
                 if (backup.notes.isNotBlank()) {
-                    Text(backup.notes, fontSize = 10.sp, color = surfaceColors.textMuted, maxLines = 1)
+                    Text(backup.notes, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted, maxLines = 1)
                 }
             }
             Box {
@@ -306,31 +306,31 @@ private fun BackupSettingsTab(
         Row(verticalAlignment = Alignment.CenterVertically) {
             Switch(checked = config.automaticBackups, onCheckedChange = { onUpdateConfig(config.copy(automaticBackups = it)) })
             Spacer(Modifier.width(8.dp))
-            Column { Text("Automatic Backups"); Text("Schedule regular backups", fontSize = 12.sp) }
+            Column { Text("Automatic Backups"); Text("Schedule regular backups", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
         }
 
         Row(verticalAlignment = Alignment.CenterVertically) {
             Switch(checked = config.compressBackups, onCheckedChange = { onUpdateConfig(config.copy(compressBackups = it)) })
             Spacer(Modifier.width(8.dp))
-            Column { Text("Compress Backups"); Text("Reduce backup file size", fontSize = 12.sp) }
+            Column { Text("Compress Backups"); Text("Reduce backup file size", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
         }
 
         Row(verticalAlignment = Alignment.CenterVertically) {
             Switch(checked = config.includeMedia, onCheckedChange = { onUpdateConfig(config.copy(includeMedia = it)) })
             Spacer(Modifier.width(8.dp))
-            Column { Text("Include Media"); Text("Back up audio/images", fontSize = 12.sp) }
+            Column { Text("Include Media"); Text("Back up audio/images", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
         }
 
         Row(verticalAlignment = Alignment.CenterVertically) {
             Switch(checked = config.includePreferences, onCheckedChange = { onUpdateConfig(config.copy(includePreferences = it)) })
             Spacer(Modifier.width(8.dp))
-            Column { Text("Include Preferences"); Text("Save settings with backup", fontSize = 12.sp) }
+            Column { Text("Include Preferences"); Text("Save settings with backup", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
         }
 
         Row(verticalAlignment = Alignment.CenterVertically) {
             Switch(checked = config.cloudSync, onCheckedChange = { onUpdateConfig(config.copy(cloudSync = it)) })
             Spacer(Modifier.width(8.dp))
-            Column { Text("Cloud Sync"); Text("Sync backups to cloud", fontSize = 12.sp) }
+            Column { Text("Cloud Sync"); Text("Sync backups to cloud", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
         }
 
         HorizontalDivider()
@@ -338,7 +338,7 @@ private fun BackupSettingsTab(
         Text("Max Backups: ${config.maxBackups}", style = MaterialTheme.typography.bodyMedium)
         Slider(value = config.maxBackups.toFloat(), onValueChange = { onUpdateConfig(config.copy(maxBackups = it.toInt())) },
             valueRange = 5f..100f, steps = 18)
-        Row(Modifier.fillMaxWidth()) { Text("5", fontSize = 10.sp); Spacer(Modifier.weight(1f)); Text("100", fontSize = 10.sp) }
+        Row(Modifier.fillMaxWidth()) { Text("5", style = androidx.compose.material3.MaterialTheme.typography.labelSmall); Spacer(Modifier.weight(1f)); Text("100", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }
     }
 }
 
@@ -356,7 +356,7 @@ private fun BackupScheduleTab(
         Slider(value = config.backupIntervalHours.toFloat(), onValueChange = { onUpdateConfig(config.copy(backupIntervalHours = it.toInt())) },
             valueRange = 1f..168f)
         Row(Modifier.fillMaxWidth()) {
-            Text("1h", fontSize = 10.sp); Spacer(Modifier.weight(1f)); Text("7d (168h)", fontSize = 10.sp)
+            Text("1h", style = androidx.compose.material3.MaterialTheme.typography.labelSmall); Spacer(Modifier.weight(1f)); Text("7d (168h)", style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
         }
 
         HorizontalDivider()
@@ -367,7 +367,7 @@ private fun BackupScheduleTab(
             Column {
                 Text("Automatic Backups ${if (config.automaticBackups) "Enabled" else "Disabled"}")
                 Text(config.lastBackupTime?.let { "Last backup: ${it.toString().take(19)}" } ?: "No backup yet",
-                    fontSize = 11.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
     }

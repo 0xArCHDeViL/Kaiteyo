@@ -94,13 +94,13 @@ fun CardInspector(
                     .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle)),
                 contentAlignment = Alignment.Center
             ) {
-                Text(cardData.character, color = accent.primary, fontSize = 36.sp, fontWeight = FontWeight.Bold)
+                Text(cardData.character, color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.displaySmall, fontWeight = FontWeight.Bold)
             }
             Spacer(modifier = Modifier.width(16.dp))
             Column {
-                Text(cardData.meaning, color = surfaceColors.textPrimary, fontSize = 22.sp, fontWeight = FontWeight.Bold)
-                Text("${cardData.kunReading} · ${cardData.onReading}", color = surfaceColors.textSecondary, fontSize = 14.sp)
-                Text(cardData.deck, color = surfaceColors.textMuted, fontSize = 12.sp)
+                Text(cardData.meaning, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                Text("${cardData.kunReading} · ${cardData.onReading}", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+                Text(cardData.deck, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
 
@@ -139,8 +139,8 @@ fun CardInspector(
                             .padding(12.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        Text(value, color = accent.primary, fontSize = 18.sp, fontWeight = FontWeight.Bold)
-                        Text(label, color = surfaceColors.textMuted, fontSize = 10.sp)
+                        Text(value, color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                        Text(label, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                     }
                 }
             }
@@ -187,7 +187,7 @@ fun CardInspector(
                                 )
                         )
                         Spacer(modifier = Modifier.height(4.dp))
-                        Text("${i + 1}", color = surfaceColors.textMuted, fontSize = 8.sp)
+                        Text("${i + 1}", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                     }
                 }
             }
@@ -209,7 +209,7 @@ fun CardInspector(
                         .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                         .padding(horizontal = 10.dp, vertical = 4.dp)
                 ) {
-                    Text(tag, color = accent.primary, fontSize = 11.sp)
+                    Text(tag, color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                 }
             }
         }
@@ -228,7 +228,7 @@ fun CardInspector(
                         .background(accent.secondary.copy(alpha = Dimens.Alpha.Subtle))
                         .padding(horizontal = 10.dp, vertical = 4.dp)
                 ) {
-                    Text(flag, color = accent.secondary, fontSize = 11.sp)
+                    Text(flag, color = accent.secondary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                 }
             }
         }
@@ -246,7 +246,7 @@ fun CardInspector(
                 .background(surfaceColors.surface)
                 .padding(14.dp)
         ) {
-            Text(cardData.notes, color = surfaceColors.textSecondary, fontSize = 13.sp, lineHeight = 20.sp)
+            Text(cardData.notes, color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, lineHeight = 20.sp)
         }
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -275,8 +275,8 @@ fun CardInspector(
                         .background(accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque))
                 )
                 Spacer(modifier = Modifier.width(12.dp))
-                Text(label, color = surfaceColors.textSecondary, fontSize = 13.sp, modifier = Modifier.weight(1f))
-                Text(date, color = surfaceColors.textMuted, fontSize = 12.sp)
+                Text(label, color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, modifier = Modifier.weight(1f))
+                Text(date, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
     }

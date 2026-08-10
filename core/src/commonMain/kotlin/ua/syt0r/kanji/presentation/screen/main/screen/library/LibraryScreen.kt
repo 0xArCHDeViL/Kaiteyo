@@ -142,7 +142,7 @@ private fun DrillDownScaffold(
             Text(
                 text = title,
                 color = surfaceColors.textPrimary,
-                fontSize = 20.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
                 fontWeight = FontWeight.Bold
             )
         }
@@ -205,7 +205,7 @@ private fun LibraryHub(
                 Text(
                     text = "Your study hub — everything in one place",
                     color = surfaceColors.textMuted,
-                    fontSize = 13.sp
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                 )
             }
         }
@@ -382,14 +382,14 @@ private fun StatRow(
                 Text(
                     text = item.value.toString(),
                     color = accent.primary,
-                    fontSize = 24.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.ExtraBold
                 )
                 Spacer(Modifier.height(4.dp))
                 Text(
                     text = item.label,
                     color = surfaceColors.textMuted,
-                    fontSize = 12.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     fontWeight = FontWeight.Medium
                 )
             }
@@ -414,7 +414,7 @@ private fun SectionTitle(title: String, accent: KaiteyoAccentScheme, surfaceColo
         Text(
             text = title,
             color = accent.primary,
-            fontSize = 13.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             fontWeight = FontWeight.Bold,
             letterSpacing = 1.sp
         )
@@ -471,20 +471,20 @@ private fun SectionCard(
                 .background(accent.primary.copy(alpha = Dimens.Alpha.Light)),
             contentAlignment = Alignment.Center
         ) {
-            Text(glyph, fontSize = 22.sp)
+            Text(glyph, style = androidx.compose.material3.MaterialTheme.typography.titleLarge)
         }
         Column(Modifier.weight(1f)) {
             Text(
                 text = title,
                 color = surfaceColors.textPrimary,
-                fontSize = 16.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodyLarge,
                 fontWeight = FontWeight.SemiBold
             )
             Spacer(modifier = Modifier.height(2.dp))
             Text(
                 text = subtitle,
                 color = surfaceColors.textMuted,
-                fontSize = 13.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
             )
@@ -493,7 +493,7 @@ private fun SectionCard(
             Text(
                 text = count.toString(),
                 color = accent.primary,
-                fontSize = 18.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
                 fontWeight = FontWeight.Bold
             )
         }

@@ -787,7 +787,7 @@ fun PracticeSummaryItem(
                             reviewsCount.value?.toString() ?: "...",
                             resolveString { commonPractice.formattedSrsInterval(nextInterval) }
                         ),
-                        fontSize = 12.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 }

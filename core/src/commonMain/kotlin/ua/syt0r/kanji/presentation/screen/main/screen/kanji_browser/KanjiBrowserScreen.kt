@@ -416,7 +416,7 @@ fun KanjiBrowserScreen(
             Text(
                 text = "${filteredCards.size} kanji",
                 color = surfaceColors.textMuted,
-                fontSize = 12.sp
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
         }
     }
@@ -489,7 +489,7 @@ private fun BrowserHeader(
             Text(
                 text = "Kanji Browser",
                 color = surfaceColors.textPrimary,
-                fontSize = 22.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
                 fontWeight = FontWeight.Bold
             )
         }
@@ -528,7 +528,7 @@ private fun BrowserHeader(
                         onValueChange = onQueryChange,
                         textStyle = androidx.compose.ui.text.TextStyle(
                             color = surfaceColors.textPrimary,
-                            fontSize = 14.sp
+                            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
                         ),
                         cursorBrush = androidx.compose.ui.graphics.SolidColor(accent.primary),
                         singleLine = true,
@@ -538,7 +538,7 @@ private fun BrowserHeader(
                         Text(
                             text = "Search kanji...",
                             color = surfaceColors.textMuted,
-                            fontSize = 14.sp
+                            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
                         )
                     }
                 }
@@ -612,7 +612,7 @@ private fun SelectionToolbar(
         Text(
             text = "$selectedCount selected",
             color = accent.primary,
-            fontSize = 13.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             fontWeight = FontWeight.Medium
         )
         Spacer(Modifier.weight(1f))
@@ -621,7 +621,7 @@ private fun SelectionToolbar(
         BulkActionButton("Favorite", onClick = onFavorite, accent = accent, surfaceColors = surfaceColors)
         BulkActionButton("Reset", onClick = onResetProgress, accent = accent, surfaceColors = surfaceColors)
         TextButton(onClick = onClear) {
-            Text("Clear", color = surfaceColors.textSecondary, fontSize = 12.sp)
+            Text("Clear", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
     }
 }
@@ -640,7 +640,7 @@ private fun BulkActionButton(
             .clickable(onClick = onClick)
             .padding(horizontal = 10.dp, vertical = 6.dp)
     ) {
-        Text(label, color = accent.primary, fontSize = 12.sp, fontWeight = FontWeight.Medium)
+        Text(label, color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
     }
 }
 
@@ -693,10 +693,10 @@ private fun BrowserFilters(
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("Filters", color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
+            Text("Filters", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
             Spacer(Modifier.weight(1f))
             TextButton(onClick = onReset) {
-                Text("Reset all", color = accent.primary, fontSize = 12.sp)
+                Text("Reset all", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
 
@@ -804,7 +804,7 @@ private fun BrowserFilters(
 private fun FilterSection(title: String, content: @Composable () -> Unit) {
     val surfaceColors = LocalSurfaceColors.current
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-        Text(title, color = surfaceColors.textMuted, fontSize = 11.sp, fontWeight = FontWeight.Medium)
+        Text(title, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Medium)
         content()
     }
 }
@@ -838,7 +838,7 @@ private fun FilterChip(
         Text(
             label,
             color = if (selected) accent.primary else surfaceColors.textSecondary,
-            fontSize = 12.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             fontWeight = if (selected) FontWeight.Medium else FontWeight.Normal
         )
     }
@@ -860,7 +860,7 @@ private fun NumberStepper(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(6.dp)
     ) {
-        Text(label, color = surfaceColors.textMuted, fontSize = 11.sp)
+        Text(label, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
         Box(
             modifier = Modifier
                 .size(22.dp)
@@ -872,12 +872,12 @@ private fun NumberStepper(
                 },
             contentAlignment = Alignment.Center
         ) {
-            Text("−", color = accent.primary, fontSize = 13.sp)
+            Text("−", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
         Text(
             text = value?.toString() ?: "Any",
             color = surfaceColors.textPrimary,
-            fontSize = 12.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             modifier = Modifier.width(36.dp),
             textAlign = androidx.compose.ui.text.style.TextAlign.Center
         )
@@ -889,7 +889,7 @@ private fun NumberStepper(
                 .clickable { onChange((value ?: 0) + 1) },
             contentAlignment = Alignment.Center
         ) {
-            Text("+", color = accent.primary, fontSize = 13.sp)
+            Text("+", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
     }
 }
@@ -931,10 +931,10 @@ private fun RadicalPicker(
         verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("Radical search", color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
+            Text("Radical search", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
             Spacer(Modifier.weight(1f))
             if (selectedRadicals.isNotEmpty()) {
-                Text("${selectedRadicals.size} selected", color = accent.primary, fontSize = 12.sp)
+                Text("${selectedRadicals.size} selected", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
         val grouped = radicals.groupBy { it.strokesCount }
@@ -944,7 +944,7 @@ private fun RadicalPicker(
                     Text(
                         text = "$count strokes",
                         color = surfaceColors.textMuted,
-                        fontSize = 11.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                         modifier = Modifier.padding(vertical = 4.dp)
                     )
                 }
@@ -973,7 +973,7 @@ private fun RadicalPicker(
                 onClick = { onRadicalsChange(emptySet()) },
                 modifier = Modifier.align(Alignment.End)
             ) {
-                Text("Clear radicals", color = accent.primary, fontSize = 12.sp)
+                Text("Clear radicals", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
     }
@@ -1127,7 +1127,7 @@ private fun KanjiListRow(
         }
         Text(
             text = card.character,
-            fontSize = 22.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
             color = surfaceColors.textPrimary,
             modifier = Modifier.width(44.dp)
         )
@@ -1135,21 +1135,21 @@ private fun KanjiListRow(
             Text(
                 text = card.reading.ifBlank { "—" },
                 color = surfaceColors.textSecondary,
-                fontSize = 13.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
             )
             Text(
                 text = card.meaning.take(60).ifBlank { "No meaning" },
                 color = surfaceColors.textMuted,
-                fontSize = 12.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
             )
         }
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
             dataCenter.strokeCounts[card.id]?.let { strokes ->
-                Text("${strokes}画", color = surfaceColors.textMuted, fontSize = 11.sp)
+                Text("${strokes}画", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
             dataCenter.classifications[card.id].orEmpty().firstOrNull { it.startsWith("n") }?.let {
                 JlptBadge(it, accent, surfaceColors)
@@ -1161,7 +1161,7 @@ private fun KanjiListRow(
                 Icon(Icons.Default.Favorite, null, tint = Color(0xFFFF6B9D), modifier = Modifier.size(14.dp))
             }
             if (dataCenter.isDifficult(card.id)) {
-                Text("⚠", fontSize = 12.sp)
+                Text("⚠", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
     }
@@ -1179,7 +1179,7 @@ private fun JlptBadge(
             .background(accent.primary.copy(alpha = Dimens.Alpha.Light))
             .padding(horizontal = 6.dp, vertical = 2.dp)
     ) {
-        Text(level.uppercase(), color = accent.primary, fontSize = 10.sp, fontWeight = FontWeight.SemiBold)
+        Text(level.uppercase(), color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontWeight = FontWeight.SemiBold)
     }
 }
 
@@ -1201,17 +1201,17 @@ private fun BrowserEmptyState(hasFilters: Boolean, onClear: () -> Unit) {
                     .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle)),
                 contentAlignment = Alignment.Center
             ) {
-                Text("字", fontSize = 32.sp, color = accent.primary)
+                Text("字", style = androidx.compose.material3.MaterialTheme.typography.headlineLarge, color = accent.primary)
             }
-            Text("No kanji found", color = surfaceColors.textPrimary, fontSize = 16.sp, fontWeight = FontWeight.Medium)
+            Text("No kanji found", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
             Text(
                 if (hasFilters) "Try adjusting or clearing the filters" else "Search for a kanji, reading or meaning",
                 color = surfaceColors.textMuted,
-                fontSize = 13.sp
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
             if (hasFilters) {
                 OutlinedButton(onClick = onClear) {
-                    Text("Clear filters", color = accent.primary, fontSize = 13.sp)
+                    Text("Clear filters", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
             }
         }
@@ -1278,12 +1278,12 @@ fun KanjiDetailDialog(
                         Text(
                             text = card.meaning,
                             color = surfaceColors.textSecondary,
-                            fontSize = 15.sp
+                            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
                         )
                         Text(
                             text = card.reading,
                             color = surfaceColors.textSecondary,
-                            fontSize = 13.sp
+                            style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                         )
                     }
 
@@ -1321,7 +1321,7 @@ fun KanjiDetailDialog(
                     Spacer(Modifier.height(16.dp))
 
                     // Flag selector
-                    Text("Flag", color = surfaceColors.textMuted, fontSize = 12.sp, fontWeight = FontWeight.Medium)
+                    Text("Flag", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
                     Row(
                         modifier = Modifier.fillMaxWidth().padding(top = 6.dp),
                         horizontalArrangement = Arrangement.spacedBy(8.dp)
@@ -1339,7 +1339,7 @@ fun KanjiDetailDialog(
                     Spacer(Modifier.height(16.dp))
 
                     // Tags
-                    Text("Tags", color = surfaceColors.textMuted, fontSize = 12.sp, fontWeight = FontWeight.Medium)
+                    Text("Tags", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
                     val cardTagIds = dataCenter.cardTags[cardId].orEmpty()
                     FlowRow(
                         modifier = Modifier.fillMaxWidth().padding(top = 6.dp),
@@ -1347,7 +1347,7 @@ fun KanjiDetailDialog(
                         verticalArrangement = Arrangement.spacedBy(6.dp)
                     ) {
                         if (cardTagIds.isEmpty()) {
-                            Text("No tags", color = surfaceColors.textMuted, fontSize = 12.sp)
+                            Text("No tags", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         }
                         dataCenter.tags.forEach { tag ->
                             if (tag.id in cardTagIds) {
@@ -1355,7 +1355,7 @@ fun KanjiDetailDialog(
                             }
                         }
                         TextButton(onClick = { tagPickerOpen = true }, contentPadding = PaddingValues(horizontal = 8.dp)) {
-                            Text("+ Add", color = accent.primary, fontSize = 12.sp)
+                            Text("+ Add", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         }
                     }
 
@@ -1408,7 +1408,7 @@ private fun InfoChip(
             .background(accent.primary.copy(alpha = 0.10f))
             .padding(horizontal = 10.dp, vertical = 4.dp)
     ) {
-        Text(label, color = accent.primary, fontSize = 11.sp, fontWeight = FontWeight.Medium)
+        Text(label, color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Medium)
     }
 }
 
@@ -1420,7 +1420,7 @@ private fun InfoChip(label: String, color: Color, surfaceColors: ua.syt0r.kanji.
             .background(color.copy(alpha = Dimens.Alpha.Light))
             .padding(horizontal = 10.dp, vertical = 4.dp)
     ) {
-        Text(label, color = color, fontSize = 11.sp, fontWeight = FontWeight.Medium)
+        Text(label, color = color, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Medium)
     }
 }
 
@@ -1458,7 +1458,7 @@ private fun TagBadge(
         horizontalArrangement = Arrangement.spacedBy(5.dp)
     ) {
         Box(Modifier.size(6.dp).clip(CircleShape).background(color))
-        Text(tag.name, color = color, fontSize = 11.sp)
+        Text(tag.name, color = color, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
     }
 }
 
@@ -1484,7 +1484,7 @@ fun FlagPickerDialog(
                 modifier = Modifier.padding(20.dp),
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
-                Text("Set flag", color = surfaceColors.textPrimary, fontSize = 16.sp, fontWeight = FontWeight.SemiBold)
+                Text("Set flag", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
                 CardFlagType.entries.forEach { flag ->
                     val color = if (flag == CardFlagType.None) surfaceColors.textMuted else flag.colorFromHex()
                     Row(
@@ -1501,7 +1501,7 @@ fun FlagPickerDialog(
                         Text(
                             if (flag == CardFlagType.None) "No flag" else flag.displayName,
                             color = surfaceColors.textPrimary,
-                            fontSize = 14.sp
+                            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
                         )
                         Spacer(Modifier.weight(1f))
                         if (currentFlag == flag) {
@@ -1543,7 +1543,7 @@ fun TagPickerDialog(
                 modifier = Modifier.padding(20.dp),
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
-                Text("Tags", color = surfaceColors.textPrimary, fontSize = 16.sp, fontWeight = FontWeight.SemiBold)
+                Text("Tags", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
 
                 dataCenter.tags.forEach { tag ->
                     val color = tag.getDisplayColor()
@@ -1558,9 +1558,9 @@ fun TagPickerDialog(
                         horizontalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
                         Box(Modifier.size(12.dp).clip(CircleShape).background(color))
-                        Text(tag.name, color = surfaceColors.textPrimary, fontSize = 13.sp)
+                        Text(tag.name, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         Spacer(Modifier.weight(1f))
-                        Text("+", color = color, fontSize = 16.sp, fontWeight = FontWeight.Bold)
+                        Text("+", color = color, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold)
                     }
                 }
 
@@ -1577,12 +1577,12 @@ fun TagPickerDialog(
                         androidx.compose.foundation.text.BasicTextField(
                             value = newTagName,
                             onValueChange = { newTagName = it },
-                            textStyle = androidx.compose.ui.text.TextStyle(color = surfaceColors.textPrimary, fontSize = 13.sp),
+                            textStyle = androidx.compose.ui.text.TextStyle(color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
                             cursorBrush = androidx.compose.ui.graphics.SolidColor(accent.primary),
                             singleLine = true,
                             decorationBox = { inner ->
                                 if (newTagName.isEmpty()) {
-                                    Text("New tag name", color = surfaceColors.textMuted, fontSize = 13.sp)
+                                    Text("New tag name", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                                 }
                                 inner()
                             }
@@ -1597,7 +1597,7 @@ fun TagPickerDialog(
                             }
                         }
                     ) {
-                        Text("Create", color = accent.primary, fontSize = 13.sp)
+                        Text("Create", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                     }
                 }
 

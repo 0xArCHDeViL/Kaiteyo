@@ -230,9 +230,9 @@ private fun StreakBadge(
     surfaceColors: SurfaceColors
 ) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(emoji, fontSize = 24.sp)
-        Text(value, fontWeight = FontWeight.Bold, fontSize = 18.sp, color = surfaceColors.textPrimary)
-        Text(label, fontSize = 11.sp, color = surfaceColors.textMuted)
+        Text(emoji, style = androidx.compose.material3.MaterialTheme.typography.headlineSmall)
+        Text(value, fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.titleMedium, color = surfaceColors.textPrimary)
+        Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
     }
 }
 
@@ -265,8 +265,8 @@ private fun StatChip(
     surfaceColors: SurfaceColors
 ) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(value, fontWeight = FontWeight.Bold, fontSize = 16.sp, color = color)
-        Text(label, fontSize = 10.sp, color = surfaceColors.textMuted)
+        Text(value, fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, color = color)
+        Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
     }
 }
 
@@ -394,7 +394,7 @@ private fun HeatmapLegend(surfaceColors: SurfaceColors) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.End
     ) {
-        Text("Less", fontSize = 10.sp, color = surfaceColors.textMuted)
+        Text("Less", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
         Spacer(Modifier.width(4.dp))
         listOf(0.04f, 0.15f, 0.35f, 0.55f, 0.75f, 0.95f).forEach { alpha ->
             Box(
@@ -405,7 +405,7 @@ private fun HeatmapLegend(surfaceColors: SurfaceColors) {
             )
             Spacer(Modifier.width(2.dp))
         }
-        Text("More", fontSize = 10.sp, color = surfaceColors.textMuted)
+        Text("More", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
     }
 }
 
@@ -499,8 +499,8 @@ private fun DayDetailPanel(
                     .padding(vertical = 4.dp),
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
-                Text(name, fontSize = 13.sp, color = surfaceColors.textPrimary)
-                Text("$reviews reviews", fontSize = 13.sp, color = surfaceColors.textMuted)
+                Text(name, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
+                Text("$reviews reviews", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
             }
         }
     }
@@ -523,8 +523,8 @@ private fun DayStatCard(
             modifier = Modifier.fillMaxWidth().padding(12.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text(value, fontWeight = FontWeight.Bold, fontSize = 20.sp, color = color)
-            Text(label, fontSize = 11.sp, color = surfaceColors.textMuted)
+            Text(value, fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, color = color)
+            Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
         }
     }
 }
@@ -543,8 +543,8 @@ private fun BreakdownBar(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Text(label, fontSize = 12.sp, color = surfaceColors.textPrimary)
-            Text("${(value * 100 / maxOf(maxValue, 1f)).toInt()}%", fontSize = 12.sp, color = surfaceColors.textMuted)
+            Text(label, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
+            Text("${(value * 100 / maxOf(maxValue, 1f)).toInt()}%", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
         }
         Spacer(Modifier.height(4.dp))
         LinearProgressIndicator(
@@ -597,15 +597,15 @@ private fun MonthlyBreakdown(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Column(modifier = Modifier.weight(1f)) {
-                        Text(name, fontWeight = FontWeight.Medium, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                        Text(name, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                         Text(
                             "$activeDays active days",
-                            fontSize = 11.sp, color = surfaceColors.textMuted
+                            style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted
                         )
                     }
                     Column(horizontalAlignment = Alignment.End) {
-                        Text("$totalReviews reviews", fontSize = 13.sp, color = accent.primary)
-                        Text("${(avgAccuracy * 100).toInt()}% accuracy", fontSize = 11.sp, color = surfaceColors.textMuted)
+                        Text("$totalReviews reviews", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = accent.primary)
+                        Text("${(avgAccuracy * 100).toInt()}% accuracy", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                     }
                 }
             }

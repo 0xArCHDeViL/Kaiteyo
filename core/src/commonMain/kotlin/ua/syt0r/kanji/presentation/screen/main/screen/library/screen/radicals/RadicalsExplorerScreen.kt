@@ -135,7 +135,7 @@ fun RadicalsExplorerScreen(
                     horizontalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
                     IconButton(onClick = onBack) {
-                        Text("←", fontSize = 22.sp, color = surfaceColors.textPrimary)
+                        Text("←", style = androidx.compose.material3.MaterialTheme.typography.titleLarge, color = surfaceColors.textPrimary)
                     }
 
                     Column(modifier = Modifier.weight(1f)) {
@@ -203,7 +203,7 @@ fun RadicalsExplorerScreen(
                                 ) {
                                     Text(
                                         text = radical,
-                                        fontSize = 18.sp,
+                                        style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
                                         fontWeight = FontWeight.Bold
                                     )
                                     Icon(
@@ -382,7 +382,7 @@ private fun RadicalsMatrixGrid(
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         Text(
                             text = radicalData.radical,
-                            fontSize = 20.sp,
+                            style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
                             fontWeight = FontWeight.Bold,
                             color = textColor
                         )
@@ -476,7 +476,7 @@ private fun MatchingKanjiResultsPanel(
                         Box(contentAlignment = Alignment.Center) {
                             Text(
                                 text = character,
-                                fontSize = 24.sp,
+                                style = androidx.compose.material3.MaterialTheme.typography.headlineSmall,
                                 fontWeight = FontWeight.Bold,
                                 color = accent.primary
                             )

@@ -230,7 +230,7 @@ private fun IndicatorTextRow(
                 withStyle(
                     SpanStyle(
                         fontWeight = FontWeight.Light,
-                        fontSize = 14.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                     )
                 ) { append(text) }
             },

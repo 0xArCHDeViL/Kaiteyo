@@ -160,7 +160,7 @@ fun TagManagerScreenFull(
                     }
                 },
                 singleLine = true,
-                textStyle = TextStyle(fontSize = 14.sp),
+                textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodyMedium),
                 shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
@@ -383,10 +383,10 @@ private fun TagStatsBar(
             .padding(horizontal = 12.dp, vertical = 4.dp),
         horizontalArrangement = Arrangement.spacedBy(12.dp)
     ) {
-        Text("$totalTags tags", fontSize = 12.sp, color = surfaceColors.textMuted)
-        Text("$totalTaggedCards cards", fontSize = 12.sp, color = surfaceColors.textMuted)
+        Text("$totalTags tags", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+        Text("$totalTaggedCards cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
         if (unusedCount > 0) {
-            Text("$unusedCount unused", fontSize = 12.sp, color = surfaceColors.textMuted)
+            Text("$unusedCount unused", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
         }
     }
 }
@@ -416,7 +416,7 @@ private fun TagQuickFilters(
             FilterChip(
                 selected = false,
                 onClick = { expandedSort = true },
-                label = { Text("Sort: ${when(sortOrder) { "name" -> "Name"; "count" -> "Count"; else -> "Color" }}", fontSize = 11.sp) },
+                label = { Text("Sort: ${when(sortOrder) { "name" -> "Name"; "count" -> "Count"; else -> "Color" }}", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                 leadingIcon = { Icon(Icons.Default.Sort, null, Modifier.size(14.dp)) },
                 modifier = Modifier.height(28.dp)
             )
@@ -431,7 +431,7 @@ private fun TagQuickFilters(
         FilterChip(
             selected = isSelectionMode,
             onClick = onToggleSelectionMode,
-            label = { Text(if (isSelectionMode) "$selectedCount selected" else "Select", fontSize = 11.sp) },
+            label = { Text(if (isSelectionMode) "$selectedCount selected" else "Select", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
             leadingIcon = { Icon(if (isSelectionMode) Icons.Default.CheckBox else Icons.Default.CheckBoxOutlineBlank, null, Modifier.size(14.dp)) },
             modifier = Modifier.height(28.dp)
         )
@@ -440,10 +440,10 @@ private fun TagQuickFilters(
 
         if (isSelectionMode) {
             TextButton(onClick = { }, modifier = Modifier.height(28.dp)) {
-                Text("Merge", fontSize = 11.sp)
+                Text("Merge", style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
             TextButton(onClick = { }, modifier = Modifier.height(28.dp)) {
-                Text("Delete", fontSize = 11.sp, color = MaterialTheme.colorScheme.error)
+                Text("Delete", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.error)
             }
         }
     }
@@ -542,12 +542,12 @@ private fun TagTreeItem(
                     overflow = TextOverflow.Ellipsis
                 )
                 if (isUnused) {
-                    Text("Unused", fontSize = 10.sp, color = surfaceColors.textMuted)
+                    Text("Unused", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                 }
             }
 
             // Usage count
-            Text("$usageCount", fontSize = 12.sp, color = surfaceColors.textMuted, modifier = Modifier.padding(horizontal = 4.dp))
+            Text("$usageCount", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted, modifier = Modifier.padding(horizontal = 4.dp))
 
             // Context menu
             Box {
@@ -642,10 +642,10 @@ private fun TagFlatItem(
         )
         Spacer(Modifier.width(8.dp))
         Column(Modifier.weight(1f)) {
-            Text(tag.name, fontSize = 14.sp, color = surfaceColors.textPrimary, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            if (isUnused) Text("Unused", fontSize = 10.sp, color = surfaceColors.textMuted)
+            Text(tag.name, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            if (isUnused) Text("Unused", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
         }
-        Text("$usageCount", fontSize = 12.sp, color = surfaceColors.textMuted)
+        Text("$usageCount", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
         if (tag.parentId != null) {
             Spacer(Modifier.width(4.dp))
             Icon(Icons.Default.SubdirectoryArrowRight, null, Modifier.size(14.dp), tint = surfaceColors.textMuted)
@@ -698,13 +698,13 @@ private fun TagCardItem(
                 modifier = Modifier.size(32.dp).clip(CircleShape).background(tagColor),
                 contentAlignment = Alignment.Center
             ) {
-                Text(tag.name.take(1), fontSize = 14.sp, fontWeight = FontWeight.Bold,
+                Text(tag.name.take(1), style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold,
                     color = Color.White)
             }
             Spacer(Modifier.height(6.dp))
-            Text(tag.name, fontSize = 12.sp, fontWeight = FontWeight.Medium,
+            Text(tag.name, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium,
                 color = surfaceColors.textPrimary, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Text("$usageCount cards", fontSize = 10.sp, color = surfaceColors.textMuted)
+            Text("$usageCount cards", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
         }
     }
 }

@@ -693,7 +693,7 @@ private fun HeaderStatItem(title: String, text: String, modifier: Modifier = Mod
         Text(
             text = text,
             color = MaterialTheme.colorScheme.primary,
-            fontSize = 28.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.headlineMedium,
             fontWeight = FontWeight.Black,
             textAlign = TextAlign.Center,
             style = MaterialTheme.typography.headlineMedium
@@ -702,7 +702,7 @@ private fun HeaderStatItem(title: String, text: String, modifier: Modifier = Mod
         Text(
             text = title,
             color = MaterialTheme.colorScheme.onSurface,
-            fontSize = 12.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             fontWeight = FontWeight.SemiBold,
             textAlign = TextAlign.Center,
             letterSpacing = 0.5.sp

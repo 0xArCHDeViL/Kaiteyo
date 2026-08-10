@@ -132,12 +132,12 @@ fun SearchEngineScreen(
                 modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Text("${results.size} results", fontSize = 12.sp, color = surfaceColors.textMuted,
+                Text("${results.size} results", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted,
                     modifier = Modifier.weight(1f))
                 // Sort dropdown
                 var sortExpanded by remember { mutableStateOf(false) }
-                Text("Sort: ", fontSize = 12.sp, color = surfaceColors.textMuted)
-                Text(criteria.sortBy.displayName, fontSize = 12.sp, fontWeight = FontWeight.Medium,
+                Text("Sort: ", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+                Text(criteria.sortBy.displayName, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium,
                     modifier = Modifier.clickable { sortExpanded = true })
                 DropdownMenu(expanded = sortExpanded, onDismissRequest = { sortExpanded = false }) {
                     SearchSortField.entries.forEach { field ->
@@ -165,7 +165,7 @@ fun SearchEngineScreen(
                     defaultPresets.forEach { preset ->
                         SuggestionChip(
                             onClick = { criteria = preset.criteria },
-                            label = { Text(preset.name, fontSize = 11.sp) },
+                            label = { Text(preset.name, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                             icon = preset.icon
                         )
                     }
@@ -191,8 +191,8 @@ fun SearchEngineScreen(
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         Icon(Icons.Default.SearchOff, null, Modifier.size(48.dp), tint = surfaceColors.textMuted)
                         Spacer(Modifier.height(8.dp))
-                        Text("No results found", fontSize = 16.sp, color = surfaceColors.textMuted)
-                        Text("Try adjusting your search criteria", fontSize = 13.sp, color = surfaceColors.textMuted)
+                        Text("No results found", style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, color = surfaceColors.textMuted)
+                        Text("Try adjusting your search criteria", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                     }
                 }
             } else {
@@ -231,12 +231,12 @@ private fun AdvancedSearchFilters(
             .padding(12.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        Text("Advanced Filters", fontSize = 13.sp, fontWeight = FontWeight.Medium,
+        Text("Advanced Filters", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium,
             color = surfaceColors.textMuted)
 
         // Field selector
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("Field:", Modifier.width(80.dp), fontSize = 12.sp)
+            Text("Field:", Modifier.width(80.dp), style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             var expanded by remember { mutableStateOf(false) }
             ExposedDropdownMenuBox(expanded = expanded, onExpandedChange = { expanded = it }) {
                 OutlinedTextField(
@@ -244,7 +244,7 @@ private fun AdvancedSearchFilters(
                     onValueChange = { },
                     readOnly = true,
                     modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).weight(1f),
-                    textStyle = TextStyle(fontSize = 12.sp),
+                    textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
                     trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded) },
                     singleLine = true
                 )
@@ -261,7 +261,7 @@ private fun AdvancedSearchFilters(
 
         // Status multi-select
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("Status:", Modifier.width(80.dp), fontSize = 12.sp)
+            Text("Status:", Modifier.width(80.dp), style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             Row(modifier = Modifier.weight(1f), horizontalArrangement = Arrangement.spacedBy(2.dp)) {
                 CardStatus.entries.forEach { status ->
                     val isSelected = status in criteria.statuses
@@ -281,7 +281,7 @@ private fun AdvancedSearchFilters(
 
         // Flag filter
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("Flag:", Modifier.width(80.dp), fontSize = 12.sp)
+            Text("Flag:", Modifier.width(80.dp), style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                 CardFlagType.entries.forEach { flag ->
                     val isSelected = criteria.flagType == flag
@@ -298,7 +298,7 @@ private fun AdvancedSearchFilters(
                         contentAlignment = Alignment.Center
                     ) {
                         if (isSelected && flag == CardFlagType.None) {
-                            Text("✕", fontSize = 12.sp)
+                            Text("✕", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         }
                     }
                 }
@@ -308,7 +308,7 @@ private fun AdvancedSearchFilters(
         // JLPT + Stroke count row
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Column(Modifier.weight(1f)) {
-                Text("JLPT", fontSize = 11.sp, color = surfaceColors.textMuted)
+                Text("JLPT", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                 var expandedJlpt by remember { mutableStateOf(false) }
                 ExposedDropdownMenuBox(expanded = expandedJlpt, onExpandedChange = { expandedJlpt = it }) {
                     OutlinedTextField(
@@ -316,7 +316,7 @@ private fun AdvancedSearchFilters(
                         onValueChange = { },
                         readOnly = true,
                         modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
-                        textStyle = TextStyle(fontSize = 12.sp),
+                        textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expandedJlpt) },
                         singleLine = true
                     )
@@ -331,21 +331,21 @@ private fun AdvancedSearchFilters(
                 }
             }
             Column(Modifier.weight(1f)) {
-                Text("Min Strokes", fontSize = 11.sp, color = surfaceColors.textMuted)
+                Text("Min Strokes", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                 OutlinedTextField(
                     value = criteria.minStrokeCount?.toString() ?: "",
                     onValueChange = { onUpdate(criteria.copy(minStrokeCount = it.toIntOrNull())) },
-                    textStyle = TextStyle(fontSize = 12.sp),
+                    textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth()
                 )
             }
             Column(Modifier.weight(1f)) {
-                Text("Max Strokes", fontSize = 11.sp, color = surfaceColors.textMuted)
+                Text("Max Strokes", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                 OutlinedTextField(
                     value = criteria.maxStrokeCount?.toString() ?: "",
                     onValueChange = { onUpdate(criteria.copy(maxStrokeCount = it.toIntOrNull())) },
-                    textStyle = TextStyle(fontSize = 12.sp),
+                    textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth()
                 )
@@ -358,13 +358,13 @@ private fun AdvancedSearchFilters(
                 Checkbox(checked = criteria.isRegex, onCheckedChange = { onUpdate(criteria.copy(isRegex = it)) },
                     modifier = Modifier.size(20.dp))
                 Spacer(Modifier.width(4.dp))
-                Text("Regex", fontSize = 11.sp)
+                Text("Regex", style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Checkbox(checked = criteria.matchCase, onCheckedChange = { onUpdate(criteria.copy(matchCase = it)) },
                     modifier = Modifier.size(20.dp))
                 Spacer(Modifier.width(4.dp))
-                Text("Match case", fontSize = 11.sp)
+                Text("Match case", style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
         }
     }
@@ -401,7 +401,7 @@ private fun SearchResultCard(
             // Card content
             Column(Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(card.character, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                    Text(card.character, fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
                     Spacer(Modifier.width(8.dp))
                     StatusBadge(status = card.status)
                     if (card.isSuspended) {
@@ -409,22 +409,22 @@ private fun SearchResultCard(
                         Icon(Icons.Default.Block, null, Modifier.size(14.dp), tint = MaterialTheme.colorScheme.error)
                     }
                 }
-                Text(card.reading, fontSize = 13.sp, color = surfaceColors.textMuted)
-                Text(card.meaning, fontSize = 13.sp,
+                Text(card.reading, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+                Text(card.meaning, style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     maxLines = 2, overflow = TextOverflow.Ellipsis)
                 // Tags
                 if (card.tags.isNotEmpty()) {
                     Spacer(Modifier.height(4.dp))
                     Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                         card.tags.take(3).forEach { tag ->
-                            Text(tag.name, fontSize = 10.sp, color = accent.primary,
+                            Text(tag.name, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = accent.primary,
                                 modifier = Modifier
                                     .clip(RoundedCornerShape(Dimens.RadiusXs))
                                     .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                                     .padding(horizontal = 4.dp, vertical = 1.dp))
                         }
                         if (card.tags.size > 3) {
-                            Text("+${card.tags.size - 3}", fontSize = 10.sp, color = surfaceColors.textMuted)
+                            Text("+${card.tags.size - 3}", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                         }
                     }
                 }
@@ -434,9 +434,9 @@ private fun SearchResultCard(
 
             // Stats column
             Column(horizontalAlignment = Alignment.End) {
-                Text("${card.interval}d", fontSize = 12.sp, fontWeight = FontWeight.Medium)
-                Text("${(card.ease * 100).toInt()}%", fontSize = 11.sp, color = surfaceColors.textMuted)
-                Text("${card.reviewCount} rev", fontSize = 11.sp, color = surfaceColors.textMuted)
+                Text("${card.interval}d", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
+                Text("${(card.ease * 100).toInt()}%", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                Text("${card.reviewCount} rev", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
             }
         }
     }

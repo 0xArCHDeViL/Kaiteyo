@@ -331,13 +331,13 @@ private fun BrowserStatsBar(
         horizontalArrangement = Arrangement.spacedBy(12.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text("$filteredCount / $totalCards cards", fontSize = 12.sp, color = surfaceColors.textMuted)
+        Text("$filteredCount / $totalCards cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
         if (filteredCount < totalCards) {
-            Text("filtered", fontSize = 11.sp, color = accent.primary)
+            Text("filtered", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = accent.primary)
         }
         Spacer(Modifier.weight(1f))
         if (isSelectionMode) {
-            Text("$selectedCount selected", fontSize = 12.sp, color = accent.primary, fontWeight = FontWeight.Medium)
+            Text("$selectedCount selected", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = accent.primary, fontWeight = FontWeight.Medium)
         }
     }
 }
@@ -371,7 +371,7 @@ private fun BrowserSearchBar(
                 value = query,
                 onValueChange = onQueryChange,
                 modifier = Modifier.weight(1f).height(44.dp),
-                placeholder = { Text("Search cards... (e.g. tag:jlpt flag:red deck:N5)", fontSize = 13.sp) },
+                placeholder = { Text("Search cards... (e.g. tag:jlpt flag:red deck:N5)", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) },
                 leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(18.dp)) },
                 trailingIcon = {
                     Row {
@@ -386,7 +386,7 @@ private fun BrowserSearchBar(
                     }
                 },
                 singleLine = true,
-                textStyle = androidx.compose.ui.text.TextStyle(fontSize = 13.sp, color = surfaceColors.textPrimary),
+                textStyle = androidx.compose.ui.text.TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary),
                 colors = OutlinedTextFieldDefaults.colors(
                     focusedBorderColor = accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque),
                     unfocusedBorderColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
@@ -403,28 +403,28 @@ private fun BrowserSearchBar(
             Spacer(Modifier.height(4.dp))
             Row(horizontalArrangement = Arrangement.spacedBy(4.dp), modifier = Modifier.horizontalScroll(rememberScrollState())) {
                 if (query.isNotBlank()) {
-                    AssistChip(onClick = { onQueryChange("") }, label = { Text("\"$query\"", fontSize = 10.sp, maxLines = 1) },
+                    AssistChip(onClick = { onQueryChange("") }, label = { Text("\"$query\"", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, maxLines = 1) },
                         trailingIcon = { Icon(Icons.Default.Close, null, Modifier.size(12.dp)) },
                         modifier = Modifier.height(24.dp), shape = RoundedCornerShape(Dimens.RadiusMd))
                 }
                 flagFilter?.let { f ->
-                    AssistChip(onClick = { onFlagFilterChange(null) }, label = { Text("Flag: ${f.displayName}", fontSize = 10.sp) },
+                    AssistChip(onClick = { onFlagFilterChange(null) }, label = { Text("Flag: ${f.displayName}", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                         leadingIcon = { Box(Modifier.size(8.dp).clip(CircleShape).background(f.colorFromHex())) },
                         trailingIcon = { Icon(Icons.Default.Close, null, Modifier.size(12.dp)) },
                         modifier = Modifier.height(24.dp), shape = RoundedCornerShape(Dimens.RadiusMd))
                 }
                 statusFilter?.let { s ->
-                    AssistChip(onClick = { onStatusFilterChange(null) }, label = { Text("Status: ${s.displayName}", fontSize = 10.sp) },
+                    AssistChip(onClick = { onStatusFilterChange(null) }, label = { Text("Status: ${s.displayName}", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                         trailingIcon = { Icon(Icons.Default.Close, null, Modifier.size(12.dp)) },
                         modifier = Modifier.height(24.dp), shape = RoundedCornerShape(Dimens.RadiusMd))
                 }
                 deckFilter?.let { d ->
-                    AssistChip(onClick = { onDeckFilterChange(null) }, label = { Text("Deck: $d", fontSize = 10.sp, maxLines = 1) },
+                    AssistChip(onClick = { onDeckFilterChange(null) }, label = { Text("Deck: $d", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, maxLines = 1) },
                         trailingIcon = { Icon(Icons.Default.Close, null, Modifier.size(12.dp)) },
                         modifier = Modifier.height(24.dp), shape = RoundedCornerShape(Dimens.RadiusMd))
                 }
                 tagFilter?.let { t ->
-                    AssistChip(onClick = { onTagFilterChange(null) }, label = { Text("Tag: $t", fontSize = 10.sp, maxLines = 1) },
+                    AssistChip(onClick = { onTagFilterChange(null) }, label = { Text("Tag: $t", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, maxLines = 1) },
                         trailingIcon = { Icon(Icons.Default.Close, null, Modifier.size(12.dp)) },
                         modifier = Modifier.height(24.dp), shape = RoundedCornerShape(Dimens.RadiusMd))
                 }
@@ -439,13 +439,13 @@ private fun BrowserSearchBar(
                 shape = RoundedCornerShape(Dimens.RadiusSm)
             ) {
                 Column(Modifier.padding(8.dp)) {
-                    Text("Search Tips", fontWeight = FontWeight.Medium, fontSize = 12.sp, color = surfaceColors.textPrimary)
+                    Text("Search Tips", fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
                     Spacer(Modifier.height(4.dp))
-                    Text("tag:jlpt-n5 — filter by tag", fontSize = 11.sp, color = surfaceColors.textMuted)
-                    Text("flag:red — filter by flag", fontSize = 11.sp, color = surfaceColors.textMuted)
-                    Text("deck:N5 — filter by deck", fontSize = 11.sp, color = surfaceColors.textMuted)
-                    Text("status:learning — filter by status", fontSize = 11.sp, color = surfaceColors.textMuted)
-                    Text("Combine: tag:jlpt flag:red", fontSize = 11.sp, color = surfaceColors.textMuted)
+                    Text("tag:jlpt-n5 — filter by tag", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    Text("flag:red — filter by flag", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    Text("deck:N5 — filter by deck", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    Text("status:learning — filter by status", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    Text("Combine: tag:jlpt flag:red", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                 }
             }
         }
@@ -484,7 +484,7 @@ private fun FilterPanel(
                     FilterChip(
                         selected = flagFilter == flag,
                         onClick = { onFlagFilterChange(if (flagFilter == flag) null else flag) },
-                        label = { Text(flag.displayName, fontSize = 11.sp) },
+                        label = { Text(flag.displayName, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                         leadingIcon = {
                             if (flag != CardFlagType.None) {
                                 Box(Modifier.size(10.dp).clip(CircleShape).background(flag.colorFromHex()))
@@ -502,7 +502,7 @@ private fun FilterPanel(
                     FilterChip(
                         selected = statusFilter == status,
                         onClick = { onStatusFilterChange(if (statusFilter == status) null else status) },
-                        label = { Text(status.displayName, fontSize = 11.sp) },
+                        label = { Text(status.displayName, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                         modifier = Modifier.height(28.dp)
                     )
                 }
@@ -515,7 +515,7 @@ private fun FilterPanel(
                     FilterChip(
                         selected = deckFilter == deck,
                         onClick = { onDeckFilterChange(if (deckFilter == deck) null else deck) },
-                        label = { Text(deck, fontSize = 11.sp, maxLines = 1) },
+                        label = { Text(deck, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, maxLines = 1) },
                         modifier = Modifier.height(28.dp)
                     )
                 }
@@ -528,7 +528,7 @@ private fun FilterPanel(
                     FilterChip(
                         selected = tagFilter == tag,
                         onClick = { onTagFilterChange(if (tagFilter == tag) null else tag) },
-                        label = { Text(tag, fontSize = 11.sp, maxLines = 1) },
+                        label = { Text(tag, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, maxLines = 1) },
                         modifier = Modifier.height(28.dp)
                     )
                 }
@@ -591,7 +591,7 @@ private fun BrowserColumnHeaders(
                         }
                         Text(
                             col.name,
-                            fontSize = 11.sp,
+                            style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                             fontWeight = if (isSorted) FontWeight.Bold else FontWeight.Medium,
                             color = if (isSorted) accent.primary else surfaceColors.textMuted,
                             maxLines = 1,
@@ -658,14 +658,14 @@ private fun BrowserCardRow(
                         onCheckedChange = { onToggleSelect(card.id) },
                         modifier = Modifier.size(20.dp)
                     )
-                    "kanji" -> Text(card.character, fontSize = 16.sp, fontWeight = FontWeight.Bold,
+                    "kanji" -> Text(card.character, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold,
                         color = surfaceColors.textPrimary,
                         fontFamily = FontFamily.Default)
-                    "reading" -> Text(card.reading, fontSize = 11.sp, color = surfaceColors.textMuted,
+                    "reading" -> Text(card.reading, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted,
                         maxLines = 1, overflow = TextOverflow.Ellipsis)
-                    "meaning" -> Text(card.meaning, fontSize = 12.sp, color = surfaceColors.textPrimary,
+                    "meaning" -> Text(card.meaning, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary,
                         maxLines = 1, overflow = TextOverflow.Ellipsis)
-                    "deck" -> Text(card.deck, fontSize = 11.sp, color = surfaceColors.textMuted,
+                    "deck" -> Text(card.deck, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted,
                         maxLines = 1, overflow = TextOverflow.Ellipsis)
                     "tags" -> {
                         LazyRow(horizontalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -694,7 +694,7 @@ private fun BrowserCardRow(
                             )
                         }
                     }
-                    "status" -> Text(card.status.displayName, fontSize = 10.sp,
+                    "status" -> Text(card.status.displayName, style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                         color = when (card.status) {
                             CardStatus.New -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
                             CardStatus.Learning -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
@@ -705,21 +705,21 @@ private fun BrowserCardRow(
                             CardStatus.Buried -> surfaceColors.textMuted
                             CardStatus.Archived -> surfaceColors.textMuted
                         })
-                    "interval" -> Text(formatInterval(card.interval), fontSize = 11.sp, color = surfaceColors.textPrimary)
-                    "ease" -> Text(formatFloat(card.ease, 1), fontSize = 11.sp, color = surfaceColors.textPrimary)
-                    "reviews" -> Text("${card.reviewCount}", fontSize = 11.sp, color = surfaceColors.textPrimary)
-                    "lapses" -> Text("${card.lapses}", fontSize = 11.sp, color = if (card.lapses > 0) ua.syt0r.kanji.presentation.common.theme.semanticError else surfaceColors.textMuted)
-                    "created" -> Text(card.createdAt, fontSize = 10.sp, color = surfaceColors.textMuted)
-                    "modified" -> Text(card.modifiedAt, fontSize = 10.sp, color = surfaceColors.textMuted)
-                    "lastReview" -> Text(card.lastReviewed, fontSize = 10.sp, color = surfaceColors.textMuted)
-                    "nextReview" -> Text("", fontSize = 10.sp, color = surfaceColors.textMuted)
-                    "accuracy" -> Text("${(card.accuracy * 100).roundToInt()}%", fontSize = 11.sp, color = surfaceColors.textPrimary)
-                    "timeStudied" -> Text(formatTimeMs(card.totalTimeStudied), fontSize = 11.sp, color = surfaceColors.textMuted)
-                    "jlpt" -> Text("", fontSize = 11.sp, color = surfaceColors.textMuted)
-                    "strokeCount" -> Text("", fontSize = 11.sp, color = surfaceColors.textMuted)
-                    "frequency" -> Text("", fontSize = 11.sp, color = surfaceColors.textMuted)
-                    "srsStage" -> Text("", fontSize = 11.sp, color = surfaceColors.textMuted)
-                    "note" -> Text(card.notes, fontSize = 10.sp, color = surfaceColors.textMuted,
+                    "interval" -> Text(formatInterval(card.interval), style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textPrimary)
+                    "ease" -> Text(formatFloat(card.ease, 1), style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textPrimary)
+                    "reviews" -> Text("${card.reviewCount}", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textPrimary)
+                    "lapses" -> Text("${card.lapses}", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = if (card.lapses > 0) ua.syt0r.kanji.presentation.common.theme.semanticError else surfaceColors.textMuted)
+                    "created" -> Text(card.createdAt, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    "modified" -> Text(card.modifiedAt, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    "lastReview" -> Text(card.lastReviewed, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    "nextReview" -> Text("", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    "accuracy" -> Text("${(card.accuracy * 100).roundToInt()}%", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textPrimary)
+                    "timeStudied" -> Text(formatTimeMs(card.totalTimeStudied), style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    "jlpt" -> Text("", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    "strokeCount" -> Text("", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    "frequency" -> Text("", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    "srsStage" -> Text("", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
+                    "note" -> Text(card.notes, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted,
                         maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
             }
@@ -759,27 +759,27 @@ private fun BrowserSelectionBar(
             horizontalArrangement = Arrangement.spacedBy(8.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text("$selectedCount selected", fontSize = 13.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary)
+            Text("$selectedCount selected", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary)
             Spacer(Modifier.weight(1f))
             FilledTonalButton(onClick = onBulkTag, modifier = Modifier.height(32.dp)) {
                 Icon(Icons.Default.Label, null, Modifier.size(16.dp))
                 Spacer(Modifier.width(4.dp))
-                Text("Tag", fontSize = 12.sp)
+                Text("Tag", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
             FilledTonalButton(onClick = onBulkFlag, modifier = Modifier.height(32.dp)) {
                 Icon(Icons.Default.Flag, null, Modifier.size(16.dp))
                 Spacer(Modifier.width(4.dp))
-                Text("Flag", fontSize = 12.sp)
+                Text("Flag", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
             FilledTonalButton(onClick = onBulkStatus, modifier = Modifier.height(32.dp)) {
                 Icon(Icons.Default.SwapVert, null, Modifier.size(16.dp))
                 Spacer(Modifier.width(4.dp))
-                Text("Status", fontSize = 12.sp)
+                Text("Status", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
             FilledTonalButton(onClick = onExport, modifier = Modifier.height(32.dp)) {
                 Icon(Icons.Default.FileUpload, null, Modifier.size(16.dp))
                 Spacer(Modifier.width(4.dp))
-                Text("Export", fontSize = 12.sp)
+                Text("Export", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
             IconButton(onClick = onDeselectAll, modifier = Modifier.size(32.dp)) {
                 Icon(Icons.Default.Close, "Deselect", Modifier.size(18.dp))
@@ -811,7 +811,7 @@ private fun ColumnPickerDialog(
                     ) {
                         Checkbox(checked = col.id in visibleColumns, onCheckedChange = { onToggleColumn(col.id) })
                         Spacer(Modifier.width(4.dp))
-                        Text(col.name, fontSize = 13.sp)
+                        Text(col.name, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                     }
                 }
             }
@@ -842,9 +842,9 @@ private fun CardDetailDialog(
         onDismissRequest = onDismiss,
         title = {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(card.character, fontSize = 24.sp, fontWeight = FontWeight.Bold)
+                Text(card.character, style = androidx.compose.material3.MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
                 Spacer(Modifier.width(8.dp))
-                Text(card.meaning, fontSize = 14.sp, color = surfaceColors.textMuted)
+                Text(card.meaning, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textMuted)
             }
         },
         text = {
@@ -860,11 +860,11 @@ private fun CardDetailDialog(
 
                 // Status with change option
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text("Status: ", fontSize = 12.sp, color = surfaceColors.textMuted)
+                    Text("Status: ", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                     var expandedStatus by remember { mutableStateOf(false) }
                     Box {
                         TextButton(onClick = { expandedStatus = true }) {
-                            Text(card.status.displayName, fontSize = 13.sp)
+                            Text(card.status.displayName, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         }
                         DropdownMenu(expanded = expandedStatus, onDismissRequest = { expandedStatus = false }) {
                             CardStatus.entries.forEach { status ->
@@ -877,7 +877,7 @@ private fun CardDetailDialog(
 
                 // Flag with change option
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text("Flag: ", fontSize = 12.sp, color = surfaceColors.textMuted)
+                    Text("Flag: ", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                     if (card.flag != CardFlagType.None) {
                         Box(Modifier.size(12.dp).clip(CircleShape).background(card.flag.colorFromHex()))
                         Spacer(Modifier.width(4.dp))
@@ -885,7 +885,7 @@ private fun CardDetailDialog(
                     var expandedFlag by remember { mutableStateOf(false) }
                     Box {
                         TextButton(onClick = { expandedFlag = true }) {
-                            Text(if (card.flag == CardFlagType.None) "None" else card.flag.displayName, fontSize = 13.sp)
+                            Text(if (card.flag == CardFlagType.None) "None" else card.flag.displayName, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         }
                         DropdownMenu(expanded = expandedFlag, onDismissRequest = { expandedFlag = false }) {
                             CardFlagType.entries.forEach { flag ->
@@ -905,14 +905,14 @@ private fun CardDetailDialog(
 
                 // Tags
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text("Tags: ", fontSize = 12.sp, color = surfaceColors.textMuted)
+                    Text("Tags: ", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                     LazyRow(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                         items(card.tagNames) { tag ->
                             Box(
                                 modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusXs))
                                     .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                                     .padding(horizontal = 6.dp, vertical = 2.dp)
-                            ) { Text(tag, fontSize = 10.sp, color = accent.primary) }
+                            ) { Text(tag, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = accent.primary) }
                         }
                     }
                 }
@@ -921,26 +921,26 @@ private fun CardDetailDialog(
 
                 // Stats
                 Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                    Column { Text("Interval", fontSize = 10.sp, color = surfaceColors.textMuted); Text(formatInterval(card.interval), fontSize = 13.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary) }
-                    Column { Text("Ease", fontSize = 10.sp, color = surfaceColors.textMuted); Text(formatFloat(card.ease, 1), fontSize = 13.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary) }
-                    Column { Text("Reviews", fontSize = 10.sp, color = surfaceColors.textMuted); Text("${card.reviewCount}", fontSize = 13.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary) }
-                    Column { Text("Lapses", fontSize = 10.sp, color = surfaceColors.textMuted); Text("${card.lapses}", fontSize = 13.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary) }
-                    Column { Text("Accuracy", fontSize = 10.sp, color = surfaceColors.textMuted); Text("${(card.accuracy * 100).toInt()}%", fontSize = 13.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary) }
+                    Column { Text("Interval", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text(formatInterval(card.interval), style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary) }
+                    Column { Text("Ease", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text(formatFloat(card.ease, 1), style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary) }
+                    Column { Text("Reviews", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text("${card.reviewCount}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary) }
+                    Column { Text("Lapses", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text("${card.lapses}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary) }
+                    Column { Text("Accuracy", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text("${(card.accuracy * 100).toInt()}%", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary) }
                 }
 
                 HorizontalDivider()
 
                 // Notes
                 if (card.notes.isNotBlank()) {
-                    Text("Notes", fontSize = 12.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary)
-                    Text(card.notes, fontSize = 12.sp, color = surfaceColors.textMuted)
+                    Text("Notes", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary)
+                    Text(card.notes, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                 }
 
                 // Dates
                 Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                    Column { Text("Created", fontSize = 10.sp, color = surfaceColors.textMuted); Text(card.createdAt, fontSize = 11.sp, color = surfaceColors.textPrimary) }
-                    Column { Text("Modified", fontSize = 10.sp, color = surfaceColors.textMuted); Text(card.modifiedAt, fontSize = 11.sp, color = surfaceColors.textPrimary) }
-                    Column { Text("Last Review", fontSize = 10.sp, color = surfaceColors.textMuted); Text(card.lastReviewed, fontSize = 11.sp, color = surfaceColors.textPrimary) }
+                    Column { Text("Created", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text(card.createdAt, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textPrimary) }
+                    Column { Text("Modified", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text(card.modifiedAt, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textPrimary) }
+                    Column { Text("Last Review", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text(card.lastReviewed, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textPrimary) }
                 }
             }
         },
@@ -952,7 +952,7 @@ private fun CardDetailDialog(
 private fun DetailField(label: String, value: String) {
     val surfaceColors = LocalSurfaceColors.current
     Row {
-        Text("$label: ", fontSize = 12.sp, color = surfaceColors.textMuted)
-        Text(value, fontSize = 13.sp, color = surfaceColors.textPrimary)
+        Text("$label: ", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+        Text(value, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
     }
 }

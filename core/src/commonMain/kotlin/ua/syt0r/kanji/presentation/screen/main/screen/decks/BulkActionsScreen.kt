@@ -121,7 +121,7 @@ fun BulkActionsFullScreen(
                         if (selectedCardIds.isNotEmpty()) {
                             Text(
                                 "${selectedCardIds.size} selected",
-                                fontSize = 12.sp,
+                                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                                 color = surfaceColors.textMuted
                             )
                         }
@@ -180,14 +180,14 @@ fun BulkActionsFullScreen(
                 FilterChip(
                     selected = statusFilter == null,
                     onClick = { statusFilter = null },
-                    label = { Text("All", fontSize = 11.sp) },
+                    label = { Text("All", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                     modifier = Modifier.height(28.dp)
                 )
                 CardStatus.entries.take(4).forEach { status ->
                     FilterChip(
                         selected = statusFilter == status,
                         onClick = { statusFilter = if (statusFilter == status) null else status },
-                        label = { Text(status.displayName, fontSize = 11.sp) },
+                        label = { Text(status.displayName, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                         modifier = Modifier.height(28.dp)
                     )
                 }
@@ -225,7 +225,7 @@ fun BulkActionsFullScreen(
                 Spacer(Modifier.width(8.dp))
                 Text(
                     "Select All (${filteredCards.size} cards)",
-                    fontSize = 13.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     color = surfaceColors.textPrimary
                 )
             }
@@ -410,7 +410,7 @@ private fun ActionButton(
             Spacer(Modifier.height(4.dp))
             Text(
                 action.name,
-                fontSize = 12.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 fontWeight = FontWeight.Medium,
                 color = if (action.destructive) ua.syt0r.kanji.presentation.common.theme.semanticError else surfaceColors.textPrimary,
                 maxLines = 1,
@@ -447,12 +447,12 @@ private fun CardListItem(
             Text(
                 card.character,
                 fontWeight = FontWeight.SemiBold,
-                fontSize = 16.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodyLarge,
                 color = surfaceColors.textPrimary
             )
             Text(
                 "${card.reading} · ${card.meaning}",
-                fontSize = 12.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 color = surfaceColors.textMuted,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
@@ -461,7 +461,7 @@ private fun CardListItem(
         Column(horizontalAlignment = Alignment.End) {
             Text(
                 card.status.displayName,
-                fontSize = 11.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                 color = when (card.status) {
                     CardStatus.New -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
                     CardStatus.Learning -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
@@ -476,7 +476,7 @@ private fun CardListItem(
             if (card.flag != CardFlagType.None) {
                 Text(
                     "● ${card.flag.displayName}",
-                    fontSize = 10.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     color = card.flag.toColor()
                 )
             }

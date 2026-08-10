@@ -434,7 +434,7 @@ private fun AnkiSearchBar(
                     Text(
                         "Search cards... (e.g. tag:jlpt, flag:red, deck:N5)",
                         color = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.SemiOpaque),
-                        fontSize = 13.sp
+                        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                     )
                 },
                 singleLine = true,
@@ -485,7 +485,7 @@ private fun AnkiSearchBar(
                 if (query.isNotBlank()) {
                     AssistChip(
                         onClick = { onQueryChange("") },
-                        label = { Text("Search: \"$query\"", fontSize = 11.sp, maxLines = 1) },
+                        label = { Text("Search: \"$query\"", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, maxLines = 1) },
                         trailingIcon = {
                             Icon(Icons.Default.Close, "Remove", Modifier.size(14.dp))
                         },
@@ -496,7 +496,7 @@ private fun AnkiSearchBar(
                 flagFilter?.let { flag ->
                     AssistChip(
                         onClick = { onFlagFilterChange(null) },
-                        label = { Text("Flag: ${flag.displayName}", fontSize = 11.sp) },
+                        label = { Text("Flag: ${flag.displayName}", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                         trailingIcon = {
                             Box(
                                 Modifier.size(10.dp)
@@ -511,7 +511,7 @@ private fun AnkiSearchBar(
                 statusFilter?.let { status ->
                     AssistChip(
                         onClick = { onStatusFilterChange(null) },
-                        label = { Text("Status: ${status.displayName}", fontSize = 11.sp) },
+                        label = { Text("Status: ${status.displayName}", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                         trailingIcon = {
                             Icon(Icons.Default.Close, "Remove", Modifier.size(14.dp))
                         },
@@ -542,7 +542,7 @@ private fun AnkiSearchBar(
                                     .background(flag.colorFromHex())
                             )
                             Spacer(Modifier.width(8.dp))
-                            Text(flag.displayName, fontSize = 13.sp)
+                            Text(flag.displayName, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         }
                     },
                     onClick = {
@@ -565,7 +565,7 @@ private fun AnkiSearchBar(
             )
             CardStatus.entries.forEach { status ->
                 DropdownMenuItem(
-                    text = { Text(status.displayName, fontSize = 13.sp) },
+                    text = { Text(status.displayName, style = androidx.compose.material3.MaterialTheme.typography.bodySmall) },
                     onClick = {
                         onStatusFilterChange(if (statusFilter == status) null else status)
                         showFilterPopover = false
@@ -682,7 +682,7 @@ private fun SmallActionButton(
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
             Icon(icon, label, Modifier.size(16.dp), tint = surfaceColors.textSecondary)
-            Text(label, color = surfaceColors.textSecondary, fontSize = 11.sp)
+            Text(label, color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
         }
     }
 }
@@ -720,7 +720,7 @@ private fun StudyActionsBar(onAction: (StudyAction) -> Unit) {
                 modifier = Modifier.height(34.dp),
                 shape = RoundedCornerShape(Dimens.RadiusSm)
             ) {
-                Text(action.displayName, fontWeight = FontWeight.SemiBold, fontSize = 12.sp)
+                Text(action.displayName, fontWeight = FontWeight.SemiBold, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
         // More actions dropdown
@@ -782,7 +782,7 @@ private fun CardManagerTabs(selectedTab: String, onTabSelected: (String) -> Unit
             FilterChip(
                 selected = selectedTab == tab,
                 onClick = { onTabSelected(tab) },
-                label = { Text(tab, fontSize = 12.sp) },
+                label = { Text(tab, style = androidx.compose.material3.MaterialTheme.typography.bodySmall) },
                 leadingIcon = { Icon(icon, null, Modifier.size(16.dp)) },
                 shape = RoundedCornerShape(Dimens.RadiusSm)
             )
@@ -819,8 +819,8 @@ private fun CardBrowserContent(
                     tint = surfaceColors.textMuted.copy(alpha = 0.4f)
                 )
                 Spacer(Modifier.height(8.dp))
-                Text("No cards found", color = surfaceColors.textMuted, fontSize = 14.sp)
-                Text("Try adjusting your search or filters", color = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.SemiOpaque), fontSize = 12.sp)
+                Text("No cards found", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+                Text("Try adjusting your search or filters", color = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.SemiOpaque), style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
         return
@@ -918,7 +918,7 @@ private fun AnkiColumnHeaders(
                 Text(
                     label,
                     color = if (isSorted) accent.primary else surfaceColors.textMuted,
-                    fontSize = 10.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     fontWeight = if (isSorted) FontWeight.Bold else FontWeight.Medium,
                     maxLines = 1
                 )
@@ -994,7 +994,7 @@ private fun AnkiCardRow(
             card.deck,
             modifier = Modifier.weight(0.18f),
             color = surfaceColors.textSecondary,
-            fontSize = 12.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             maxLines = 1,
             overflow = TextOverflow.Ellipsis
         )
@@ -1005,7 +1005,7 @@ private fun AnkiCardRow(
                 Text(
                     card.character,
                     color = surfaceColors.textPrimary,
-                    fontSize = 15.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                     fontWeight = FontWeight.Bold,
                     maxLines = 1
                 )
@@ -1022,7 +1022,7 @@ private fun AnkiCardRow(
             Text(
                 card.meaning,
                 color = surfaceColors.textSecondary,
-                fontSize = 11.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
             )
@@ -1033,7 +1033,7 @@ private fun AnkiCardRow(
             if (card.interval > 0) "${card.interval}d" else "New",
             modifier = Modifier.weight(0.08f),
             color = if (card.interval == 0) ua.syt0r.kanji.presentation.common.theme.semanticInfo else surfaceColors.textSecondary,
-            fontSize = 12.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             fontWeight = if (card.interval == 0) FontWeight.Medium else FontWeight.Normal,
             maxLines = 1
         )
@@ -1047,7 +1047,7 @@ private fun AnkiCardRow(
                 card.ease >= 1.5f -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
                 else -> ua.syt0r.kanji.presentation.common.theme.semanticError
             },
-            fontSize = 12.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             fontWeight = FontWeight.Medium,
             maxLines = 1
         )
@@ -1057,7 +1057,7 @@ private fun AnkiCardRow(
             "${card.interval}d",
             modifier = Modifier.weight(0.06f),
             color = surfaceColors.textMuted,
-            fontSize = 11.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
             maxLines = 1
         )
 
@@ -1076,7 +1076,7 @@ private fun AnkiCardRow(
                     Text(
                         tag,
                         color = accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque),
-                        fontSize = 8.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis
                     )
@@ -1086,7 +1086,7 @@ private fun AnkiCardRow(
                 Text(
                     "+${card.tagNames.size - 2}",
                     color = surfaceColors.textMuted,
-                    fontSize = 8.sp
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall
                 )
             }
         }
@@ -1688,7 +1688,7 @@ fun HeatmapView(
         Box(modifier = Modifier.fillMaxWidth().height(cellSize * 7 + gap * 6)) {
             // Day labels
             Column(Modifier.align(Alignment.TopStart), verticalArrangement = Arrangement.spacedBy(gap)) {
-                days.forEach { Text(it, fontSize = 8.sp, color = MaterialTheme.colorScheme.onSurfaceVariant,
+                days.forEach { Text(it, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.height(cellSize)) }
             }
 
@@ -1724,12 +1724,12 @@ fun HeatmapView(
         Spacer(Modifier.height(8.dp))
         Row(verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text("Less", fontSize = 10.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text("Less", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             listOf(0.05f, 0.3f, 0.6f, 0.9f).forEach { alpha ->
                 Box(Modifier.size(10.dp).clip(RoundedCornerShape(2.dp))
                     .background(MaterialTheme.colorScheme.primary.copy(alpha = alpha)))
             }
-            Text("More", fontSize = 10.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text("More", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
     }
 }
@@ -1802,7 +1802,7 @@ fun SearchDialog(
                         FilterChip(
                             selected = searchMode == mode,
                             onClick = { searchMode = mode },
-                            label = { Text(mode, fontSize = 11.sp) }
+                            label = { Text(mode, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }
                         )
                     }
                 }

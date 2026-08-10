@@ -173,7 +173,7 @@ fun HistoryFullScreen(
                         FilterChip(
                             selected = selectedTypeFilter == null,
                             onClick = { selectedTypeFilter = null },
-                            label = { Text("All", fontSize = 10.sp) },
+                            label = { Text("All", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                             modifier = Modifier.height(26.dp)
                         )
                         HistoryEntryType.entries.take(6).forEach { type ->
@@ -182,7 +182,7 @@ fun HistoryFullScreen(
                                 onClick = {
                                     selectedTypeFilter = if (selectedTypeFilter == type) null else type
                                 },
-                                label = { Text(type.displayName, fontSize = 10.sp) },
+                                label = { Text(type.displayName, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                                 modifier = Modifier.height(26.dp)
                             )
                         }
@@ -200,7 +200,7 @@ fun HistoryFullScreen(
                                 onClick = {
                                     selectedTypeFilter = if (selectedTypeFilter == type) null else type
                                 },
-                                label = { Text(type.displayName, fontSize = 10.sp) },
+                                label = { Text(type.displayName, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                                 modifier = Modifier.height(26.dp)
                             )
                         }
@@ -232,12 +232,12 @@ fun HistoryFullScreen(
                         Text(
                             "No history entries found",
                             color = surfaceColors.textMuted,
-                            fontSize = 16.sp
+                            style = androidx.compose.material3.MaterialTheme.typography.bodyLarge
                         )
                         Text(
                             "Your actions will appear here",
                             color = surfaceColors.textMuted.copy(alpha = 0.7f),
-                            fontSize = 13.sp
+                            style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                         )
                     }
                 }
@@ -357,8 +357,8 @@ private fun HistoryStat(
 ) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Icon(icon, null, Modifier.size(16.dp), tint = color)
-        Text(value, fontWeight = FontWeight.Bold, fontSize = 14.sp, color = surfaceColors.textPrimary)
-        Text(label, fontSize = 10.sp, color = surfaceColors.textMuted)
+        Text(value, fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
+        Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
     }
 }
 
@@ -386,13 +386,13 @@ private fun DateHeader(
         Text(
             label,
             fontWeight = FontWeight.Bold,
-            fontSize = 14.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
             color = surfaceColors.textPrimary
         )
         Spacer(Modifier.width(8.dp))
         Text(
             "$entryCount entries",
-            fontSize = 12.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             color = surfaceColors.textMuted
         )
         Spacer(Modifier.width(8.dp))
@@ -445,7 +445,7 @@ private fun HistoryEntryItem(
                 Text(
                     entry.description,
                     fontWeight = FontWeight.Medium,
-                    fontSize = 13.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     color = surfaceColors.textPrimary,
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis
@@ -453,20 +453,20 @@ private fun HistoryEntryItem(
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(
                         entry.type.displayName,
-                        fontSize = 11.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                         color = typeColor
                     )
-                    Text(" · ", fontSize = 11.sp, color = surfaceColors.textMuted)
+                    Text(" · ", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                     Text(
                         formatTimestamp(entry.timestamp),
-                        fontSize = 11.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                         color = surfaceColors.textMuted
                     )
                     if (entry.cardIds.isNotEmpty()) {
-                        Text(" · ", fontSize = 11.sp, color = surfaceColors.textMuted)
+                        Text(" · ", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                         Text(
                             "${entry.cardIds.size} cards",
-                            fontSize = 11.sp,
+                            style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                             color = surfaceColors.textMuted
                         )
                     }
@@ -558,13 +558,13 @@ private fun DetailRow(label: String, value: String, surfaceColors: SurfaceColors
         Text(
             "$label: ",
             fontWeight = FontWeight.Medium,
-            fontSize = 13.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             color = surfaceColors.textPrimary,
             modifier = Modifier.width(90.dp)
         )
         Text(
             value,
-            fontSize = 13.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             color = surfaceColors.textMuted
         )
     }

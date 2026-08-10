@@ -70,8 +70,8 @@ fun StatCard2(
             Icon(icon, null, Modifier.size(20.dp), tint = color ?: accent.primary)
             Spacer(Modifier.width(8.dp))
             Column {
-                Text(value, fontSize = 18.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
-                Text(label, fontSize = 10.sp, color = surfaceColors.textMuted)
+                Text(value, style = androidx.compose.material3.MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+                Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
             }
         }
     }
@@ -147,7 +147,7 @@ fun TagCardStatusSelectorDialog(
                             onClick = { onSelect(status) }
                         )
                         Spacer(Modifier.width(8.dp))
-                        Text(status.displayName, fontSize = 14.sp)
+                        Text(status.displayName, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
                     }
                 }
             }
@@ -196,7 +196,7 @@ fun TagNoteEditorDialog(
                     onValueChange = { content = it },
                     modifier = Modifier.fillMaxWidth().heightIn(min = 200.dp),
                     placeholder = { Text("Write your note...") },
-                    textStyle = TextStyle(fontSize = 14.sp)
+                    textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
                 )
             }
         },

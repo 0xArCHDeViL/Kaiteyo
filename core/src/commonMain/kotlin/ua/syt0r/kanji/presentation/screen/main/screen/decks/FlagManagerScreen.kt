@@ -123,8 +123,8 @@ fun FlagManagerScreenFull(
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 4.dp),
                 horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                Text("$totalFlagged flagged", fontSize = 12.sp, color = surfaceColors.textMuted)
-                Text("${CardFlagType.entries.size - 1} colors", fontSize = 12.sp, color = surfaceColors.textMuted)
+                Text("$totalFlagged flagged", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+                Text("${CardFlagType.entries.size - 1} colors", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
             }
 
             if (selectedFlag == null) {
@@ -225,16 +225,16 @@ private fun FlagGrid(
                             modifier = Modifier.size(16.dp).clip(CircleShape).background(color)
                         )
                         Spacer(Modifier.width(8.dp))
-                        Text(stat.flagType.displayName, fontWeight = FontWeight.SemiBold, fontSize = 15.sp,
+                        Text(stat.flagType.displayName, fontWeight = FontWeight.SemiBold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                             color = surfaceColors.textPrimary)
                     }
                     Spacer(Modifier.height(8.dp))
-                    Text("${stat.totalCards} cards", fontSize = 24.sp, fontWeight = FontWeight.Bold,
+                    Text("${stat.totalCards} cards", style = androidx.compose.material3.MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold,
                         color = surfaceColors.textPrimary)
                     Spacer(Modifier.height(4.dp))
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text("${stat.dueCards} due", fontSize = 12.sp, color = accent.primary)
-                        Text("${stat.newCards} new", fontSize = 12.sp, color = surfaceColors.textMuted)
+                        Text("${stat.dueCards} due", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = accent.primary)
+                        Text("${stat.newCards} new", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                     }
                     if (stat.totalCards > 0) {
                         Spacer(Modifier.height(4.dp))
@@ -244,7 +244,7 @@ private fun FlagGrid(
                             color = color,
                             trackColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium)
                         )
-                        Text("${(stat.averageAccuracy * 100).toInt()}% accuracy", fontSize = 10.sp, color = surfaceColors.textMuted)
+                        Text("${(stat.averageAccuracy * 100).toInt()}% accuracy", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                     }
                 }
             }
@@ -277,16 +277,16 @@ private fun FlagList(
                 Box(modifier = Modifier.size(20.dp).clip(CircleShape).background(color))
                 Spacer(Modifier.width(12.dp))
                 Column(Modifier.weight(1f)) {
-                    Text(stat.flagType.displayName, fontWeight = FontWeight.Medium, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                    Text(stat.flagType.displayName, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text("${stat.totalCards} cards", fontSize = 12.sp, color = surfaceColors.textMuted)
-                        Text("${stat.dueCards} due", fontSize = 12.sp, color = accent.primary)
+                        Text("${stat.totalCards} cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+                        Text("${stat.dueCards} due", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = accent.primary)
                     }
                 }
                 Column(horizontalAlignment = Alignment.End) {
-                    Text("${(stat.averageAccuracy * 100).toInt()}%", fontSize = 14.sp, fontWeight = FontWeight.Bold,
+                    Text("${(stat.averageAccuracy * 100).toInt()}%", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold,
                         color = surfaceColors.textPrimary)
-                    Text("accuracy", fontSize = 10.sp, color = surfaceColors.textMuted)
+                    Text("accuracy", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                 }
                 Spacer(Modifier.width(8.dp))
                 Icon(Icons.Default.ChevronRight, null, Modifier.size(20.dp), tint = surfaceColors.textMuted)
@@ -326,23 +326,23 @@ private fun FlagStatsView(
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Box(modifier = Modifier.size(12.dp).clip(CircleShape).background(color))
                         Spacer(Modifier.width(8.dp))
-                        Text(stat.flagType.displayName, fontWeight = FontWeight.Medium, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                        Text(stat.flagType.displayName, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                         Spacer(Modifier.weight(1f))
-                        Text("${stat.totalCards} cards", fontSize = 12.sp, color = surfaceColors.textMuted)
+                        Text("${stat.totalCards} cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                     }
                     Spacer(Modifier.height(8.dp))
                     Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                        Column { Text("Due", fontSize = 10.sp, color = surfaceColors.textMuted); Text("${stat.dueCards}", fontSize = 14.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary) }
-                        Column { Text("New", fontSize = 10.sp, color = surfaceColors.textMuted); Text("${stat.newCards}", fontSize = 14.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary) }
-                        Column { Text("Ease", fontSize = 10.sp, color = surfaceColors.textMuted); Text(formatFloat(stat.averageEase, 1), fontSize = 14.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary) }
-                        Column { Text("Reviews", fontSize = 10.sp, color = surfaceColors.textMuted); Text("${stat.totalReviews}", fontSize = 14.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary) }
-                        Column { Text("Lapses", fontSize = 10.sp, color = surfaceColors.textMuted); Text("${stat.totalLapses}", fontSize = 14.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary) }
+                        Column { Text("Due", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text("${stat.dueCards}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary) }
+                        Column { Text("New", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text("${stat.newCards}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary) }
+                        Column { Text("Ease", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text(formatFloat(stat.averageEase, 1), style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary) }
+                        Column { Text("Reviews", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text("${stat.totalReviews}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary) }
+                        Column { Text("Lapses", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted); Text("${stat.totalLapses}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary) }
                     }
                     if (stat.totalCards > 0) {
                         Spacer(Modifier.height(8.dp))
                         LinearProgressIndicator(progress = { stat.averageAccuracy }, modifier = Modifier.fillMaxWidth().height(6.dp).clip(RoundedCornerShape(3.dp)),
                             color = color, trackColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
-                        Text("${(stat.averageAccuracy * 100).toInt()}% retention", fontSize = 10.sp, color = surfaceColors.textMuted)
+                        Text("${(stat.averageAccuracy * 100).toInt()}% retention", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                     }
                 }
             }
@@ -371,13 +371,13 @@ private fun FlaggedCardRow(
             modifier = Modifier.fillMaxWidth().padding(12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(card.character, fontSize = 18.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+            Text(card.character, style = androidx.compose.material3.MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
             Spacer(Modifier.width(8.dp))
             Column(Modifier.weight(1f)) {
-                Text(card.meaning, fontSize = 13.sp, color = surfaceColors.textPrimary, maxLines = 1)
-                Text(card.deck, fontSize = 11.sp, color = surfaceColors.textMuted)
+                Text(card.meaning, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary, maxLines = 1)
+                Text(card.deck, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
             }
-            Text(card.status.displayName, fontSize = 11.sp, color = surfaceColors.textMuted,
+            Text(card.status.displayName, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted,
                 modifier = Modifier.padding(horizontal = 4.dp))
             Box {
                 IconButton(onClick = { showFlagMenu = true }, modifier = Modifier.size(28.dp)) {
@@ -450,7 +450,7 @@ private fun FlagBulkDialog(
                     modifier = Modifier.fillMaxWidth()
                 )
 
-                Text("${selectedIds.size} of ${filteredCards.size} selected", fontSize = 12.sp,
+                Text("${selectedIds.size} of ${filteredCards.size} selected", style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     modifier = Modifier.padding(vertical = 4.dp))
 
                 LazyColumn(modifier = Modifier.weight(1f)) {
@@ -464,11 +464,11 @@ private fun FlagBulkDialog(
                             Checkbox(checked = card.id in selectedIds, onCheckedChange = {
                                 selectedIds = if (card.id in selectedIds) selectedIds - card.id else selectedIds + card.id
                             })
-                            Text(card.character, fontSize = 16.sp)
+                            Text(card.character, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge)
                             Spacer(Modifier.width(8.dp))
                             Column {
-                                Text(card.meaning, fontSize = 12.sp, maxLines = 1)
-                                Text(card.deck, fontSize = 10.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                Text(card.meaning, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, maxLines = 1)
+                                Text(card.deck, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                             }
                         }
                     }

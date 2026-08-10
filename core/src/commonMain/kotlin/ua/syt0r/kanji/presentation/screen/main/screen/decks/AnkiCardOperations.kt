@@ -110,8 +110,8 @@ fun CardOperationsScreen(
                         ) { op.icon() }
                         Spacer(Modifier.width(12.dp))
                         Column(Modifier.weight(1f)) {
-                            Text(op.displayName, fontWeight = FontWeight.Medium, fontSize = 14.sp)
-                            Text(op.description, fontSize = 12.sp, color = surfaceColors.textMuted)
+                            Text(op.displayName, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+                            Text(op.description, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                         }
                         Icon(Icons.Default.KeyboardArrowRight, null, Modifier.size(20.dp),
                             tint = surfaceColors.textMuted)
@@ -179,14 +179,14 @@ fun FilteredDeckDialog(
                     modifier = Modifier.fillMaxWidth()
                 )
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text("Max Cards:", Modifier.weight(1f), fontSize = 14.sp)
+                    Text("Max Cards:", Modifier.weight(1f), style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
                     Slider(
                         value = config.maxCards.toFloat(),
                         onValueChange = { config = config.copy(maxCards = it.toInt()) },
                         valueRange = 10f..9999f,
                         modifier = Modifier.weight(2f)
                     )
-                    Text("${config.maxCards}", fontSize = 12.sp, modifier = Modifier.width(40.dp))
+                    Text("${config.maxCards}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, modifier = Modifier.width(40.dp))
                 }
 
                 // Order
@@ -214,12 +214,12 @@ fun FilteredDeckDialog(
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Checkbox(checked = config.reschedule, onCheckedChange = { config = config.copy(reschedule = it) })
                     Spacer(Modifier.width(8.dp))
-                    Text("Reschedule cards based on review", fontSize = 13.sp)
+                    Text("Reschedule cards based on review", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Checkbox(checked = config.previewBeforeFilter, onCheckedChange = { config = config.copy(previewBeforeFilter = it) })
                     Spacer(Modifier.width(8.dp))
-                    Text("Preview before filtering", fontSize = 13.sp)
+                    Text("Preview before filtering", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
             }
         },
@@ -269,8 +269,8 @@ fun StudyModeSelector(
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Column(Modifier.weight(1f)) {
-                            Text(mode.displayName, fontWeight = FontWeight.Medium, fontSize = 14.sp)
-                            Text(mode.description, fontSize = 11.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            Text(mode.displayName, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+                            Text(mode.description, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                         if (isSelected) {
                             Icon(Icons.Default.Check, null, modifier = Modifier.size(18.dp), tint = MaterialTheme.colorScheme.primary)
@@ -310,46 +310,46 @@ fun CramModeDialog(
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text("Cards:", Modifier.weight(1f), fontSize = 14.sp)
+                    Text("Cards:", Modifier.weight(1f), style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
                     Slider(
                         value = config.cardCount.toFloat(),
                         onValueChange = { config = config.copy(cardCount = it.toInt()) },
                         valueRange = 10f..500f,
                         modifier = Modifier.weight(2f)
                     )
-                    Text("${config.cardCount}", fontSize = 12.sp, modifier = Modifier.width(40.dp))
+                    Text("${config.cardCount}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, modifier = Modifier.width(40.dp))
                 }
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Checkbox(checked = config.showBothSides, onCheckedChange = { config = config.copy(showBothSides = it) })
                     Spacer(Modifier.width(8.dp))
-                    Text("Show both sides", fontSize = 13.sp)
+                    Text("Show both sides", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Checkbox(checked = config.autoAdvance, onCheckedChange = { config = config.copy(autoAdvance = it) })
                     Spacer(Modifier.width(8.dp))
-                    Text("Auto-advance", fontSize = 13.sp)
+                    Text("Auto-advance", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
                 if (config.autoAdvance) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text("Delay:", Modifier.weight(1f), fontSize = 13.sp)
+                        Text("Delay:", Modifier.weight(1f), style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         Slider(
                             value = config.autoAdvanceDelay.toFloat(),
                             onValueChange = { config = config.copy(autoAdvanceDelay = it.toInt()) },
                             valueRange = 1f..10f,
                             modifier = Modifier.weight(2f)
                         )
-                        Text("${config.autoAdvanceDelay}s", fontSize = 12.sp, modifier = Modifier.width(40.dp))
+                        Text("${config.autoAdvanceDelay}s", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, modifier = Modifier.width(40.dp))
                     }
                 }
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Checkbox(checked = config.randomOrder, onCheckedChange = { config = config.copy(randomOrder = it) })
                     Spacer(Modifier.width(8.dp))
-                    Text("Random order", fontSize = 13.sp)
+                    Text("Random order", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Checkbox(checked = config.repeatMistakes, onCheckedChange = { config = config.copy(repeatMistakes = it) })
                     Spacer(Modifier.width(8.dp))
-                    Text("Repeat mistakes", fontSize = 13.sp)
+                    Text("Repeat mistakes", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
             }
         },
@@ -378,7 +378,7 @@ fun PreviewModeScreen(
                 title = { Text("Preview") },
                 navigationIcon = { IconButton(onClick = onClose) { Icon(Icons.Default.Close, "Close") } },
                 actions = {
-                    Text("${currentIndex + 1}/${cards.size}", fontSize = 13.sp,
+                    Text("${currentIndex + 1}/${cards.size}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         color = surfaceColors.textMuted)
                 }
             )
@@ -406,34 +406,34 @@ fun PreviewModeScreen(
                             verticalArrangement = Arrangement.Center
                         ) {
                             // Front
-                            Text(card.character, fontSize = 48.sp, fontWeight = FontWeight.Bold)
+                            Text(card.character, style = androidx.compose.material3.MaterialTheme.typography.displayMedium, fontWeight = FontWeight.Bold)
                             Spacer(Modifier.height(16.dp))
-                            Text(card.reading, fontSize = 20.sp, color = surfaceColors.textMuted)
+                            Text(card.reading, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, color = surfaceColors.textMuted)
 
                             if (showAnswer) {
                                 Spacer(Modifier.height(24.dp))
                                 HorizontalDivider()
                                 Spacer(Modifier.height(24.dp))
-                                Text(card.meaning, fontSize = 24.sp, fontWeight = FontWeight.Medium)
+                                Text(card.meaning, style = androidx.compose.material3.MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Medium)
                                 Spacer(Modifier.height(8.dp))
                                 // Additional card info
                                 Column {
                                     Row {
-                                        Text("Deck: ", fontSize = 13.sp, color = surfaceColors.textMuted)
-                                        Text(card.deck, fontSize = 13.sp)
+                                        Text("Deck: ", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+                                        Text(card.deck, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                                     }
                                     Row {
-                                        Text("Status: ", fontSize = 13.sp, color = surfaceColors.textMuted)
+                                        Text("Status: ", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                                         StatusBadge(status = card.status)
                                     }
                                     Row {
-                                        Text("Flag: ", fontSize = 13.sp, color = surfaceColors.textMuted)
-                                        Text(card.flag.displayName, fontSize = 13.sp)
+                                        Text("Flag: ", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+                                        Text(card.flag.displayName, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                                     }
                                     card.tags.forEach { tag ->
                                         Row {
-                                            Text("Tag: ", fontSize = 13.sp, color = surfaceColors.textMuted)
-                                            Text(tag.name, fontSize = 13.sp)
+                                            Text("Tag: ", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+                                            Text(tag.name, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                                         }
                                     }
                                 }
@@ -465,7 +465,7 @@ fun PreviewModeScreen(
 
                     // Keyboard hints
                     Text("Use ← → arrow keys to navigate, Space to flip",
-                        fontSize = 11.sp, color = surfaceColors.textMuted,
+                        style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted,
                         modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 8.dp))
                 }
             }

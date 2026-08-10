@@ -80,7 +80,7 @@ fun SyncSettingsScreen() {
             color = surfaceColors.textPrimary, fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.height(4.dp))
         Text("Keep your data in sync across devices",
-            color = surfaceColors.textMuted, fontSize = 13.sp)
+            color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         Spacer(modifier = Modifier.height(16.dp))
 
         // Tab bar
@@ -96,7 +96,7 @@ fun SyncSettingsScreen() {
                 Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm)).background(tabBg)
                     .clickable { selectedTab = tab }.padding(vertical = 8.dp),
                     contentAlignment = Alignment.Center) {
-                    Text(tab, color = tabText, fontSize = 11.sp,
+                    Text(tab, color = tabText, style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                         fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal)
                 }
             }
@@ -131,7 +131,7 @@ private fun SyncTab(
     Button(onClick = { },
         colors = ButtonDefaults.buttonColors(containerColor = accent.primary, contentColor = accent.onPrimary),
         modifier = Modifier.fillMaxWidth().height(52.dp)) {
-        Text("Sync Now", fontWeight = FontWeight.SemiBold, fontSize = 15.sp)
+        Text("Sync Now", fontWeight = FontWeight.SemiBold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
     }
     Spacer(modifier = Modifier.height(20.dp))
 
@@ -139,7 +139,7 @@ private fun SyncTab(
     Spacer(modifier = Modifier.height(4.dp))
 
     if (autoSync) {
-        Text("Sync Frequency", color = surfaceColors.textSecondary, fontSize = 12.sp, fontWeight = FontWeight.Medium)
+        Text("Sync Frequency", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
         Spacer(modifier = Modifier.height(6.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
             SyncFrequency.entries.forEach { freq ->
@@ -159,13 +159,13 @@ private fun SyncTab(
         Spacer(modifier = Modifier.height(12.dp))
     }
 
-    Text("Network", color = surfaceColors.textSecondary, fontSize = 12.sp, fontWeight = FontWeight.Medium)
+    Text("Network", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
     Spacer(modifier = Modifier.height(6.dp))
     ToggleRow("Wi-Fi Only", "Only sync on Wi-Fi connections", wifiOnly, accent, surfaceColors, onWifiOnlyChange)
     ToggleRow("Metered Network", "Allow sync on metered connections", meteredNetwork, accent, surfaceColors, onMeteredNetworkChange)
     Spacer(modifier = Modifier.height(16.dp))
 
-    Text("Conflict Resolution", color = surfaceColors.textSecondary, fontSize = 12.sp, fontWeight = FontWeight.Medium)
+    Text("Conflict Resolution", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
     Spacer(modifier = Modifier.height(6.dp))
     ConflictResolutionStrategy.entries.forEach { strategy ->
         val isSelected = conflictStrategy == strategy
@@ -180,7 +180,7 @@ private fun SyncTab(
                 if (isSelected) Box(modifier = Modifier.size(6.dp).clip(CircleShape).background(Color.White))
             }
             Spacer(modifier = Modifier.width(10.dp))
-            Text(strategy.displayName, color = surfaceColors.textPrimary, fontSize = 13.sp)
+            Text(strategy.displayName, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
     }
 }
@@ -197,16 +197,16 @@ private fun AccountTab(
             color = surfaceColors.textPrimary, fontWeight = FontWeight.SemiBold)
         Spacer(modifier = Modifier.height(4.dp))
         Text("Sign in with GitHub to enable synchronization",
-            color = surfaceColors.textMuted, fontSize = 13.sp)
+            color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         Spacer(modifier = Modifier.height(16.dp))
 
         Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(Color(0xFF24292E)).clickable { onShowDeviceCode(true) }.padding(16.dp),
             contentAlignment = Alignment.Center) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text("⬛", fontSize = 20.sp)
+                Text("⬛", style = androidx.compose.material3.MaterialTheme.typography.titleLarge)
                 Spacer(modifier = Modifier.width(10.dp))
-                Text("Sign in with GitHub", color = Color.White, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+                Text("Sign in with GitHub", color = Color.White, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
             }
         }
 
@@ -215,31 +215,31 @@ private fun AccountTab(
             Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
                 .background(surfaceColors.surfaceElevated).padding(20.dp)) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
-                    Text("Device Activation", color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
+                    Text("Device Activation", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
                     Spacer(modifier = Modifier.height(8.dp))
-                    Text("Enter this code on GitHub:", color = surfaceColors.textMuted, fontSize = 12.sp)
+                    Text("Enter this code on GitHub:", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                     Spacer(modifier = Modifier.height(8.dp))
                     Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm)).background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                         .padding(horizontal = 24.dp, vertical = 12.dp)) {
-                        Text(deviceCode, color = accent.primary, fontSize = 24.sp, fontWeight = FontWeight.Bold,
+                        Text(deviceCode, color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold,
                             letterSpacing = 4.sp)
                     }
                     Spacer(modifier = Modifier.height(8.dp))
-                    Text("github.com/login/device", color = surfaceColors.textSecondary, fontSize = 12.sp)
+                    Text("github.com/login/device", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                     Spacer(modifier = Modifier.height(12.dp))
-                    Text("Waiting for authentication...", color = surfaceColors.textMuted, fontSize = 11.sp)
+                    Text("Waiting for authentication...", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                 }
             }
         }
 
         Spacer(modifier = Modifier.height(16.dp))
-        Text("Other providers coming soon:", color = surfaceColors.textMuted, fontSize = 12.sp)
+        Text("Other providers coming soon:", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         Spacer(modifier = Modifier.height(8.dp))
         listOf("WebDAV", "Self-Hosted", "Dropbox", "Google Drive", "OneDrive").forEach { provider ->
             Row(modifier = Modifier.fillMaxWidth().padding(vertical = 3.dp), verticalAlignment = Alignment.CenterVertically) {
                 Box(modifier = Modifier.size(6.dp).clip(CircleShape).background(surfaceColors.border))
                 Spacer(modifier = Modifier.width(8.dp))
-                Text(provider, color = surfaceColors.textMuted, fontSize = 12.sp)
+                Text(provider, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
     } else {
@@ -248,13 +248,13 @@ private fun AccountTab(
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Box(modifier = Modifier.size(48.dp).clip(CircleShape).background(accent.primary.copy(alpha = Dimens.Alpha.Light)),
                     contentAlignment = Alignment.Center) {
-                    Text("U", color = accent.primary, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                    Text("U", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                 }
                 Spacer(modifier = Modifier.width(12.dp))
                 Column(modifier = Modifier.weight(1f)) {
-                    Text("User Name", color = surfaceColors.textPrimary, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
-                    Text("username", color = surfaceColors.textMuted, fontSize = 12.sp)
-                    Text("Connected via GitHub", color = accent.primary.copy(alpha = 0.7f), fontSize = 11.sp)
+                    Text("User Name", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
+                    Text("username", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text("Connected via GitHub", color = accent.primary.copy(alpha = 0.7f), style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                 }
             }
         }
@@ -276,7 +276,7 @@ private fun DevicesTab(
         color = surfaceColors.textPrimary, fontWeight = FontWeight.SemiBold)
     Spacer(modifier = Modifier.height(4.dp))
     Text("Manage devices connected to your account",
-        color = surfaceColors.textMuted, fontSize = 13.sp)
+        color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
     Spacer(modifier = Modifier.height(16.dp))
 
     Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
@@ -285,19 +285,19 @@ private fun DevicesTab(
         Row(verticalAlignment = Alignment.CenterVertically) {
             Box(modifier = Modifier.size(40.dp).clip(RoundedCornerShape(Dimens.RadiusMd))
                 .background(accent.primary.copy(alpha = Dimens.Alpha.Light)), contentAlignment = Alignment.Center) {
-                Text("💻", fontSize = 18.sp)
+                Text("💻", style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
             }
             Spacer(modifier = Modifier.width(12.dp))
             Column(modifier = Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text("This Device", color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
+                    Text("This Device", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
                     Spacer(modifier = Modifier.width(6.dp))
                     Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusXs)).background(accent.primary.copy(alpha = Dimens.Alpha.Light))
                         .padding(horizontal = 6.dp, vertical = 2.dp)) {
                         Text("Current", color = accent.primary, fontSize = 9.sp, fontWeight = FontWeight.SemiBold)
                     }
                 }
-                Text("Desktop · v1.2.0 · Online now", color = surfaceColors.textMuted, fontSize = 11.sp)
+                Text("Desktop · v1.2.0 · Online now", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
         }
     }
@@ -313,16 +313,16 @@ private fun DevicesTab(
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Box(modifier = Modifier.size(40.dp).clip(RoundedCornerShape(Dimens.RadiusMd))
                     .background(surfaceColors.surfaceElevated), contentAlignment = Alignment.Center) {
-                    Text(icon, fontSize = 18.sp)
+                    Text(icon, style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
                 }
                 Spacer(modifier = Modifier.width(12.dp))
                 Column(modifier = Modifier.weight(1f)) {
-                    Text(name, color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.Medium)
-                    Text(lastSync, color = surfaceColors.textMuted, fontSize = 11.sp)
+                    Text(name, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+                    Text(lastSync, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                 }
                 Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm)).background(surfaceColors.surfaceElevated)
                     .clickable { }.padding(horizontal = 8.dp, vertical = 4.dp)) {
-                    Text("···", color = surfaceColors.textMuted, fontSize = 12.sp)
+                    Text("···", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
             }
         }
@@ -342,7 +342,7 @@ private fun BackupTab(
         color = surfaceColors.textPrimary, fontWeight = FontWeight.SemiBold)
     Spacer(modifier = Modifier.height(4.dp))
     Text("Protect your data with automatic and manual backups",
-        color = surfaceColors.textMuted, fontSize = 13.sp)
+        color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
     Spacer(modifier = Modifier.height(16.dp))
 
     Button(onClick = { },
@@ -356,7 +356,7 @@ private fun BackupTab(
     Spacer(modifier = Modifier.height(4.dp))
 
     if (autoBackup) {
-        Text("Backup Frequency", color = surfaceColors.textSecondary, fontSize = 12.sp, fontWeight = FontWeight.Medium)
+        Text("Backup Frequency", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
         Spacer(modifier = Modifier.height(6.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
             BackupFrequency.entries.forEach { freq ->
@@ -379,11 +379,11 @@ private fun BackupTab(
     ToggleRow("Encrypt Local Data", "Encrypt sensitive data on this device", encryptLocal, accent, surfaceColors, onEncryptLocalChange)
     Spacer(modifier = Modifier.height(16.dp))
 
-    Text("Backup History", color = surfaceColors.textSecondary, fontSize = 12.sp, fontWeight = FontWeight.Medium)
+    Text("Backup History", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
     Spacer(modifier = Modifier.height(8.dp))
     Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusSm)).background(surfaceColors.surface).padding(16.dp),
         contentAlignment = Alignment.Center) {
-        Text("No backups yet", color = surfaceColors.textMuted, fontSize = 12.sp)
+        Text("No backups yet", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
     }
 }
 
@@ -396,7 +396,7 @@ private fun AdvancedTab(
         color = surfaceColors.textPrimary, fontWeight = FontWeight.SemiBold)
     Spacer(modifier = Modifier.height(4.dp))
     Text("Advanced synchronization options",
-        color = surfaceColors.textMuted, fontSize = 13.sp)
+        color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
     Spacer(modifier = Modifier.height(16.dp))
 
     listOf(
@@ -411,10 +411,10 @@ private fun AdvancedTab(
             .background(surfaceColors.surface).clickable { }.padding(14.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Column(modifier = Modifier.weight(1f)) {
-                    Text(title, color = textColor, fontSize = 14.sp, fontWeight = FontWeight.Medium)
-                    Text(desc, color = surfaceColors.textMuted, fontSize = 11.sp)
+                    Text(title, color = textColor, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+                    Text(desc, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                 }
-                Text("→", color = surfaceColors.textMuted, fontSize = 16.sp)
+                Text("→", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge)
             }
         }
         Spacer(modifier = Modifier.height(6.dp))
@@ -432,8 +432,8 @@ private fun ToggleRow(
         .clickable { onToggle(!isEnabled) }.padding(vertical = 10.dp, horizontal = 4.dp),
         verticalAlignment = Alignment.CenterVertically) {
         Column(modifier = Modifier.weight(1f)) {
-            Text(title, color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.Medium)
-            Text(description, color = surfaceColors.textMuted, fontSize = 11.sp)
+            Text(title, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+            Text(description, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
         }
         Box(modifier = Modifier.size(40.dp, 24.dp).clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(if (isEnabled) accent.primary else surfaceColors.border)) {

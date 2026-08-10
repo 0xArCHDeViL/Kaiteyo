@@ -234,7 +234,7 @@ private fun BaseModeCard(
             Text(
                 text = mode.displayName,
                 color = surface.textPrimary,
-                fontSize = 12.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
             )
         }
@@ -317,14 +317,14 @@ private fun AccentSchemeCard(
             Text(
                 text = scheme.name,
                 color = surfaceColors.textPrimary,
-                fontSize = 14.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                 fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Medium
             )
             if (isDefault) {
                 Text(
                     text = "Default",
                     color = accent.primary,
-                    fontSize = 11.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     fontWeight = FontWeight.Medium
                 )
             }

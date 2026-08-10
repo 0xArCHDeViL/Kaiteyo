@@ -135,8 +135,8 @@ fun StatisticsDashboard(
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             Column(Modifier.weight(1f)) {
-                                Text(deck, fontWeight = FontWeight.Medium, fontSize = 13.sp)
-                                Text(stats, fontSize = 11.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                Text(deck, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                                Text(stats, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                             }
                             Icon(Icons.Default.TrendingUp, null, Modifier.size(20.dp),
                                 tint = MaterialTheme.colorScheme.primary)
@@ -288,7 +288,7 @@ private fun CardDistributionChart(cards: List<KaiteyoCard>) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Box(Modifier.size(10.dp).clip(RoundedCornerShape(2.dp)).background(segment.color))
                     Spacer(Modifier.width(6.dp))
-                    Text("${segment.name}: ${(segment.fraction * 100).toInt()}%", fontSize = 12.sp)
+                    Text("${segment.name}: ${(segment.fraction * 100).toInt()}%", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
             }
         }

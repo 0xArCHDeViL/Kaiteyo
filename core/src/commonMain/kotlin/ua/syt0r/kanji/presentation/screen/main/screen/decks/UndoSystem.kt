@@ -207,7 +207,7 @@ fun UndoSnackbar(
         ) {
             Icon(Icons.Default.Undo, null, Modifier.size(18.dp), tint = accent.primary)
             Text(undoManager.getUndoDescription(),
-                color = surfaceColors.textPrimary, fontSize = 13.sp, modifier = Modifier.weight(1f))
+                color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, modifier = Modifier.weight(1f))
 
             if (undoManager.canUndo) {
                 TextButton(

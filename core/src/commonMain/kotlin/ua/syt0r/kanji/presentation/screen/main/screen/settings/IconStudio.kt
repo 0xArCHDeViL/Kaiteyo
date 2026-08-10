@@ -119,12 +119,12 @@ fun IconStudio() {
                     .background(selectedIcon.secondaryColor.copy(alpha = Dimens.Alpha.Light)),
                 contentAlignment = Alignment.Center
             ) {
-                Text("K", color = selectedIcon.secondaryColor, fontSize = 32.sp, fontWeight = FontWeight.Bold)
+                Text("K", color = selectedIcon.secondaryColor, style = androidx.compose.material3.MaterialTheme.typography.headlineLarge, fontWeight = FontWeight.Bold)
             }
         }
         Spacer(modifier = Modifier.height(4.dp))
-        Text(selectedIcon.name, color = surfaceColors.textPrimary, fontSize = 13.sp, fontWeight = FontWeight.Medium)
-        Text("120×120 preview", color = surfaceColors.textMuted, fontSize = 11.sp)
+        Text(selectedIcon.name, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
+        Text("120×120 preview", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
         Spacer(modifier = Modifier.height(24.dp))
 
         // Built-in icons grid
@@ -179,12 +179,12 @@ fun IconStudio() {
                                     .background(icon.secondaryColor.copy(alpha = Dimens.Alpha.Light)),
                                 contentAlignment = Alignment.Center
                             ) {
-                                Text("K", color = icon.secondaryColor, fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                                Text("K", color = icon.secondaryColor, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold)
                             }
                         }
                         Spacer(modifier = Modifier.height(6.dp))
                         Text(icon.name, color = if (isSelected) currentAccent.primary else surfaceColors.textPrimary,
-                            fontSize = 11.sp, fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal,
+                            style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal,
                             textAlign = TextAlign.Center)
                     }
                 }
@@ -222,11 +222,11 @@ fun IconStudio() {
                         .background(currentAccent.primary.copy(alpha = Dimens.Alpha.Light)),
                     contentAlignment = Alignment.Center
                 ) {
-                    Text("+", color = currentAccent.primary, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                    Text("+", color = currentAccent.primary, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                 }
                 Spacer(modifier = Modifier.height(8.dp))
-                Text("Drop icon file or click to browse", color = surfaceColors.textMuted, fontSize = 13.sp)
-                Text("PNG · SVG · ICO · ICNS", color = currentAccent.primary, fontSize = 11.sp)
+                Text("Drop icon file or click to browse", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                Text("PNG · SVG · ICO · ICNS", color = currentAccent.primary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
         }
 
@@ -247,8 +247,8 @@ fun IconStudio() {
                 modifier = Modifier.fillMaxWidth().padding(vertical = 3.dp),
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
-                Text(platform, color = surfaceColors.textSecondary, fontSize = 12.sp)
-                Text(sizes, color = surfaceColors.textMuted, fontSize = 11.sp)
+                Text(platform, color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                Text(sizes, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
         }
 

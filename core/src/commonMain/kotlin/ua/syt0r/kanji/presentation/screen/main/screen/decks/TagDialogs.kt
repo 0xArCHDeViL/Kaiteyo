@@ -230,7 +230,7 @@ fun TagMergeDialog(
         title = { Text("Merge Tags") },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                Text("Merge one tag into another. Cards with the source tag will be retagged.", fontSize = 13.sp)
+                Text("Merge one tag into another. Cards with the source tag will be retagged.", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
 
                 var expandedSource by remember { mutableStateOf(false) }
                 ExposedDropdownMenuBox(expanded = expandedSource, onExpandedChange = { expandedSource = it }) {
@@ -310,7 +310,7 @@ fun TagApplyDialog(
                     modifier = Modifier.fillMaxWidth()
                 )
                 Spacer(Modifier.height(8.dp))
-                Text("${selectedIds.size} of ${filteredCards.size} selected", fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text("${selectedIds.size} of ${filteredCards.size} selected", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 Spacer(Modifier.height(4.dp))
                 LazyColumn(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
                     items(filteredCards, key = { it.id }) { card ->
@@ -324,11 +324,11 @@ fun TagApplyDialog(
                                 selectedIds = if (card.id in selectedIds) selectedIds - card.id else selectedIds + card.id
                             })
                             Spacer(Modifier.width(4.dp))
-                            Text(card.character, fontSize = 16.sp)
+                            Text(card.character, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge)
                             Spacer(Modifier.width(8.dp))
                             Column {
-                                Text(card.meaning, fontSize = 12.sp, maxLines = 1)
-                                Text(card.deck, fontSize = 10.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                Text(card.meaning, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, maxLines = 1)
+                                Text(card.deck, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                             }
                         }
                     }

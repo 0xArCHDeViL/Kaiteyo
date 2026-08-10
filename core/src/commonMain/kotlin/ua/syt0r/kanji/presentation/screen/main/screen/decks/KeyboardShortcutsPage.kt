@@ -141,7 +141,7 @@ fun KeyboardShortcutsPage(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                Text("Profile:", fontSize = 13.sp, color = surfaceColors.textMuted)
+                Text("Profile:", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                 var expanded by remember { mutableStateOf(false) }
                 ExposedDropdownMenuBox(expanded = expanded, onExpandedChange = { expanded = it }) {
                     OutlinedTextField(
@@ -149,7 +149,7 @@ fun KeyboardShortcutsPage(
                         onValueChange = { },
                         readOnly = true,
                         modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).width(150.dp),
-                        textStyle = TextStyle(fontSize = 13.sp),
+                        textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded) },
                         singleLine = true
                     )
@@ -163,7 +163,7 @@ fun KeyboardShortcutsPage(
                     }
                 }
                 Spacer(Modifier.weight(1f))
-                Text("${filteredShortcuts.size} shortcuts", fontSize = 12.sp, color = surfaceColors.textMuted)
+                Text("${filteredShortcuts.size} shortcuts", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
             }
 
             // Category filter chips
@@ -174,13 +174,13 @@ fun KeyboardShortcutsPage(
                 FilterChip(
                     selected = selectedCategory == null,
                     onClick = { selectedCategory = null },
-                    label = { Text("All", fontSize = 12.sp) }
+                    label = { Text("All", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
                 )
                 shortcutCategories.forEach { cat ->
                     FilterChip(
                         selected = selectedCategory == cat,
                         onClick = { selectedCategory = cat },
-                        label = { Text(cat, fontSize = 12.sp) }
+                        label = { Text(cat, style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
                     )
                 }
             }
@@ -195,7 +195,7 @@ fun KeyboardShortcutsPage(
                 placeholder = { Text("Search shortcuts...") },
                 leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(18.dp)) },
                 singleLine = true,
-                textStyle = TextStyle(fontSize = 13.sp),
+                textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
                 shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
@@ -213,7 +213,7 @@ fun KeyboardShortcutsPage(
                     ) {
                         Icon(Icons.Default.Warning, null, Modifier.size(20.dp), tint = MaterialTheme.colorScheme.error)
                         Spacer(Modifier.width(8.dp))
-                        Text(warning, fontSize = 12.sp, color = MaterialTheme.colorScheme.error,
+                        Text(warning, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error,
                             modifier = Modifier.weight(1f))
                         IconButton(onClick = { conflictWarning = null }, modifier = Modifier.size(24.dp)) {
                             Icon(Icons.Default.Close, "Dismiss", Modifier.size(16.dp))
@@ -319,8 +319,8 @@ private fun ShortcutRow(
         ) {
             // Action info
             Column(Modifier.weight(1f)) {
-                Text(shortcut.action, fontSize = 14.sp, fontWeight = FontWeight.Medium)
-                Text(shortcut.description, fontSize = 11.sp, color = surfaceColors.textMuted,
+                Text(shortcut.action, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+                Text(shortcut.description, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted,
                     maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
 
@@ -367,12 +367,12 @@ private fun ShortcutRow(
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Icon(Icons.Default.Keyboard, null, Modifier.size(16.dp), tint = accent.primary)
                         Spacer(Modifier.width(4.dp))
-                        Text("Press key...", fontSize = 12.sp, color = accent.primary)
+                        Text("Press key...", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = accent.primary)
                     }
                 } else {
                     Text(
                         formatKeyForDisplay(shortcut.currentKey),
-                        fontSize = 12.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         fontFamily = FontFamily.Monospace,
                         fontWeight = FontWeight.Medium
                     )
@@ -446,7 +446,7 @@ private fun ImportExportShortcutsDialog(
                         if (mode == "export") Text("Copy this JSON to share your shortcuts")
                         else Text("Paste shortcuts JSON here...")
                     },
-                    textStyle = TextStyle(fontSize = 11.sp, fontFamily = FontFamily.Monospace),
+                    textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontFamily = FontFamily.Monospace),
                     maxLines = 10
                 )
                 if (mode == "export") {

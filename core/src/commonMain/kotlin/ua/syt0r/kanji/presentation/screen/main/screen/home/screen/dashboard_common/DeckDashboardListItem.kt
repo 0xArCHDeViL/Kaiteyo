@@ -413,14 +413,14 @@ private fun <T> ColumnScope.IndicatorTextRow(
                 withStyle(
                     SpanStyle(
                         fontWeight = FontWeight.Light,
-                        fontSize = 14.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                     )
                 ) { append(label) }
                 withStyle(
                     SpanStyle(
                         fontWeight = FontWeight.SemiBold,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        fontSize = 22.sp
+                        style = androidx.compose.material3.MaterialTheme.typography.titleLarge
                     )
                 ) { append(" ${items.size}") }
             },

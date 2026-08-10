@@ -88,7 +88,7 @@ fun ReviewSettingsFullScreen(
                     FilterChip(
                         selected = selectedCategory == key,
                         onClick = { selectedCategory = key },
-                        label = { Text(label, fontSize = 12.sp) }
+                        label = { Text(label, style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
                     )
                 }
             }
@@ -231,7 +231,7 @@ fun ReviewSettingsFullScreen(
 private fun SettingsHeader(title: String, description: String, surfaceColors: SurfaceColors) {
     Column {
         Text(title, style = MaterialTheme.typography.titleSmall, color = surfaceColors.textPrimary)
-        Text(description, fontSize = 12.sp, color = surfaceColors.textMuted)
+        Text(description, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
         Spacer(Modifier.height(4.dp))
     }
 }
@@ -247,7 +247,7 @@ private fun SettingsSwitch(
         modifier = Modifier.fillMaxWidth().clickable { onCheckedChange(!checked) }.padding(vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text(label, fontSize = 14.sp, color = surfaceColors.textPrimary, modifier = Modifier.weight(1f))
+        Text(label, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary, modifier = Modifier.weight(1f))
         Switch(checked = checked, onCheckedChange = onCheckedChange)
     }
 }
@@ -262,7 +262,7 @@ private fun SettingsDropdown(
 ) {
     var expanded by remember { mutableStateOf(false) }
     Column {
-        Text(label, fontSize = 13.sp, color = surfaceColors.textMuted)
+        Text(label, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
         Spacer(Modifier.height(4.dp))
         ExposedDropdownMenuBox(expanded = expanded, onExpandedChange = { expanded = it }) {
             OutlinedTextField(
@@ -272,7 +272,7 @@ private fun SettingsDropdown(
                 modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
                 trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded) },
                 singleLine = true,
-                textStyle = androidx.compose.ui.text.TextStyle(fontSize = 13.sp)
+                textStyle = androidx.compose.ui.text.TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             )
             ExposedDropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
                 options.forEachIndexed { index, option ->
@@ -297,8 +297,8 @@ private fun SettingsSlider(
 ) {
     Column {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            Text(label, fontSize = 13.sp, color = surfaceColors.textPrimary)
-            Text("${value.toInt()}$suffix", fontSize = 13.sp, color = surfaceColors.textMuted)
+            Text(label, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
+            Text("${value.toInt()}$suffix", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
         }
         Slider(value = value, onValueChange = onValueChange, valueRange = valueRange)
     }
@@ -332,8 +332,8 @@ private fun ReviewPreviewCard(
                 contentAlignment = Alignment.Center
             ) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text("水", fontSize = 36.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
-                    Text("Water", fontSize = 14.sp, color = surfaceColors.textMuted)
+                    Text("水", style = androidx.compose.material3.MaterialTheme.typography.displaySmall, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+                    Text("Water", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textMuted)
                 }
             }
 
@@ -365,7 +365,7 @@ private fun ReviewPreviewCard(
                         shape = RoundedCornerShape(Dimens.RadiusSm),
                         contentPadding = PaddingValues(0.dp)
                     ) {
-                        Text(label, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                        Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Bold)
                     }
                 }
             }
@@ -377,13 +377,13 @@ private fun ReviewPreviewCard(
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
                     if (settings.showCardCount) {
-                        Text("12 / 45", fontSize = 11.sp, color = surfaceColors.textMuted)
+                        Text("12 / 45", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                     }
                     if (settings.showTimer) {
-                        Text("00:32", fontSize = 11.sp, color = surfaceColors.textMuted)
+                        Text("00:32", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                     }
                     if (settings.showRemaining) {
-                        Text("33 remaining", fontSize = 11.sp, color = surfaceColors.textMuted)
+                        Text("33 remaining", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                     }
                 }
             }
@@ -455,11 +455,11 @@ fun KeyboardShortcutsFullScreen(
                 modifier = Modifier.fillMaxWidth().background(surfaceColors.surfaceElevated).padding(horizontal = 12.dp, vertical = 6.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Text("Profile:", fontSize = 12.sp, color = surfaceColors.textMuted)
+                Text("Profile:", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                 Spacer(Modifier.width(8.dp))
-                Text(currentProfile?.name ?: "Default", fontSize = 13.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary)
+                Text(currentProfile?.name ?: "Default", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary)
                 Spacer(Modifier.weight(1f))
-                Text("${shortcuts.size} shortcuts", fontSize = 12.sp, color = surfaceColors.textMuted)
+                Text("${shortcuts.size} shortcuts", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
             }
 
             // Search
@@ -467,7 +467,7 @@ fun KeyboardShortcutsFullScreen(
                 value = searchQuery,
                 onValueChange = { searchQuery = it },
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 4.dp),
-                placeholder = { Text("Search shortcuts...", fontSize = 13.sp) },
+                placeholder = { Text("Search shortcuts...", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) },
                 leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(18.dp)) },
                 trailingIcon = {
                     if (searchQuery.isNotBlank()) {
@@ -488,7 +488,7 @@ fun KeyboardShortcutsFullScreen(
                     FilterChip(
                         selected = selectedCategory == null,
                         onClick = { selectedCategory = null },
-                        label = { Text("All", fontSize = 11.sp) },
+                        label = { Text("All", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                         modifier = Modifier.height(28.dp)
                     )
                 }
@@ -496,7 +496,7 @@ fun KeyboardShortcutsFullScreen(
                     FilterChip(
                         selected = selectedCategory == cat,
                         onClick = { selectedCategory = if (selectedCategory == cat) null else cat },
-                        label = { Text(cat.displayName, fontSize = 11.sp) },
+                        label = { Text(cat.displayName, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                         modifier = Modifier.height(28.dp)
                     )
                 }
@@ -567,9 +567,9 @@ fun KeyboardShortcutsFullScreen(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     verticalArrangement = Arrangement.Center
                 ) {
-                    Text("Press a key combination for:", fontSize = 14.sp, color = surfaceColors.textMuted)
+                    Text("Press a key combination for:", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textMuted)
                     Spacer(Modifier.height(8.dp))
-                    Text(shortcut.actionName, fontWeight = FontWeight.Bold, fontSize = 16.sp, color = surfaceColors.textPrimary)
+                    Text(shortcut.actionName, fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, color = surfaceColors.textPrimary)
                     Spacer(Modifier.height(16.dp))
 
                     if (isRecording) {
@@ -578,7 +578,7 @@ fun KeyboardShortcutsFullScreen(
                             colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated)
                         ) {
                             Box(Modifier.fillMaxWidth().padding(16.dp), contentAlignment = Alignment.Center) {
-                                Text(recordingKey.ifBlank { "Listening..." }, fontSize = 20.sp, fontWeight = FontWeight.Bold,
+                                Text(recordingKey.ifBlank { "Listening..." }, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold,
                                     color = if (recordingKey.isNotBlank()) accent.primary else surfaceColors.textMuted)
                             }
                         }
@@ -597,28 +597,28 @@ fun KeyboardShortcutsFullScreen(
 
                     // Common combinations
                     if (!isRecording) {
-                        Text("Or choose a preset:", fontSize = 12.sp, color = surfaceColors.textMuted)
+                        Text("Or choose a preset:", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                         Spacer(Modifier.height(8.dp))
                         LazyRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                             item {
                                 AssistChip(onClick = {
                                     recordingKey = "Ctrl+1"
-                                }, label = { Text("Ctrl+1", fontSize = 11.sp) }, modifier = Modifier.height(28.dp))
+                                }, label = { Text("Ctrl+1", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }, modifier = Modifier.height(28.dp))
                             }
                             item {
                                 AssistChip(onClick = {
                                     recordingKey = "Ctrl+Shift+A"
-                                }, label = { Text("Ctrl+Shift+A", fontSize = 11.sp) }, modifier = Modifier.height(28.dp))
+                                }, label = { Text("Ctrl+Shift+A", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }, modifier = Modifier.height(28.dp))
                             }
                             item {
                                 AssistChip(onClick = {
                                     recordingKey = "Alt+Shift+1"
-                                }, label = { Text("Alt+Shift+1", fontSize = 11.sp) }, modifier = Modifier.height(28.dp))
+                                }, label = { Text("Alt+Shift+1", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }, modifier = Modifier.height(28.dp))
                             }
                             item {
                                 AssistChip(onClick = {
                                     recordingKey = "Space"
-                                }, label = { Text("Space", fontSize = 11.sp) }, modifier = Modifier.height(28.dp))
+                                }, label = { Text("Space", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }, modifier = Modifier.height(28.dp))
                             }
                         }
                     }
@@ -744,10 +744,10 @@ private fun ShortcutRow(
         verticalAlignment = Alignment.CenterVertically
     ) {
         Column(Modifier.weight(1f)) {
-            Text(shortcut.actionName, fontSize = 13.sp, fontWeight = FontWeight.Medium,
+            Text(shortcut.actionName, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium,
                 color = if (shortcut.isEnabled) surfaceColors.textPrimary else surfaceColors.textMuted)
             if (shortcut.description.isNotBlank()) {
-                Text(shortcut.description, fontSize = 10.sp, color = surfaceColors.textMuted, maxLines = 1)
+                Text(shortcut.description, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted, maxLines = 1)
             }
         }
 
@@ -764,12 +764,12 @@ private fun ShortcutRow(
                     .background(if (hasConflict) ua.syt0r.kanji.presentation.common.theme.semanticWarning.copy(alpha = Dimens.Alpha.Light) else accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                     .padding(horizontal = 8.dp, vertical = 4.dp)
             ) {
-                Text(shortcut.primaryKey!!.displayText, fontSize = 11.sp,
+                Text(shortcut.primaryKey!!.displayText, style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
                     color = if (hasConflict) ua.syt0r.kanji.presentation.common.theme.semanticWarning else accent.primary)
             }
         } else {
-            Text("—", fontSize = 12.sp, color = surfaceColors.textMuted, modifier = Modifier.padding(horizontal = 8.dp))
+            Text("—", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted, modifier = Modifier.padding(horizontal = 8.dp))
         }
 
         Spacer(Modifier.width(4.dp))
@@ -817,10 +817,10 @@ private fun ProfileDialog(
                         OutlinedTextField(
                             value = newName,
                             onValueChange = { newName = it },
-                            placeholder = { Text("Profile name", fontSize = 13.sp) },
+                            placeholder = { Text("Profile name", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) },
                             singleLine = true,
                             modifier = Modifier.weight(1f),
-                            textStyle = androidx.compose.ui.text.TextStyle(fontSize = 13.sp)
+                            textStyle = androidx.compose.ui.text.TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         )
                         IconButton(onClick = {
                             if (newName.isNotBlank()) {
@@ -845,9 +845,9 @@ private fun ProfileDialog(
                             )
                             Spacer(Modifier.width(4.dp))
                             Column(Modifier.weight(1f)) {
-                                Text(profile.name, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                                Text(profile.name, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                                 if (profile.isBuiltIn) {
-                                    Text("Built-in", fontSize = 11.sp, color = surfaceColors.textMuted)
+                                    Text("Built-in", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                                 }
                             }
                             if (!profile.isBuiltIn) {
@@ -893,17 +893,17 @@ private fun ImportShortcutsDialog(
         title = { Text("Import Shortcuts") },
         text = {
             Column {
-                Text("Paste JSON shortcut configuration:", fontSize = 13.sp, color = surfaceColors.textMuted)
+                Text("Paste JSON shortcut configuration:", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                 Spacer(Modifier.height(8.dp))
                 OutlinedTextField(
                     value = jsonText,
                     onValueChange = { jsonText = it; error = null },
                     modifier = Modifier.fillMaxWidth().heightIn(min = 150.dp),
                     placeholder = { Text("[{\\n  \\\"id\\\": \\\"showAnswer\\\",\\n  \\\"actionName\\\": \\\"Show Answer\\\",\\n  ...\\n}]") },
-                    textStyle = androidx.compose.ui.text.TextStyle(fontSize = 11.sp, fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace)
+                    textStyle = androidx.compose.ui.text.TextStyle(style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace)
                 )
                 if (error != null) {
-                    Text(error!!, fontSize = 12.sp, color = MaterialTheme.colorScheme.error)
+                    Text(error!!, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error)
                 }
             }
         },
@@ -938,7 +938,7 @@ private fun ExportShortcutsDialog(
         title = { Text("Export Shortcuts") },
         text = {
             Column {
-                Text("JSON configuration (${shortcuts.size} shortcuts):", fontSize = 13.sp, color = surfaceColors.textMuted)
+                Text("JSON configuration (${shortcuts.size} shortcuts):", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                 Spacer(Modifier.height(8.dp))
                 Box(
                     modifier = Modifier.fillMaxWidth().heightIn(max = 250.dp)
@@ -946,7 +946,7 @@ private fun ExportShortcutsDialog(
                         .background(surfaceColors.surfaceInteractive)
                         .padding(8.dp).verticalScroll(rememberScrollState())
                 ) {
-                    Text(jsonPreview, fontSize = 10.sp,
+                    Text(jsonPreview, style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                         fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
                         color = surfaceColors.textPrimary)
                 }

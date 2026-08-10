@@ -133,7 +133,7 @@ fun ImportExportScreen() {
             color = surfaceColors.textPrimary, fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.height(4.dp))
         Text("Transfer cards between Kaiteyo and other applications",
-            color = surfaceColors.textMuted, fontSize = 13.sp)
+            color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         Spacer(modifier = Modifier.height(16.dp))
 
         // Tab bar
@@ -145,7 +145,7 @@ fun ImportExportScreen() {
                     .clickable { selectedTab = tab }.padding(vertical = 8.dp),
                     contentAlignment = Alignment.Center) {
                     Text(tab, color = if (isSelected) accent.primary else surfaceColors.textSecondary,
-                        fontSize = 12.sp, fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal)
+                        style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal)
                 }
             }
         }
@@ -169,7 +169,7 @@ private fun ImportTab(accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAc
     Spacer(modifier = Modifier.height(12.dp))
 
     // Format selector
-    Text("Format", color = surfaceColors.textSecondary, fontSize = 13.sp, fontWeight = FontWeight.Medium)
+    Text("Format", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
     Spacer(modifier = Modifier.height(6.dp))
     Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
         ImportFormat.entries.forEach { format ->
@@ -178,7 +178,7 @@ private fun ImportTab(accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAc
                 .border(1.dp, if (format == selectedFormat) accent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusSm))
                 .clickable { }.padding(horizontal = 12.dp, vertical = 6.dp)) {
                 Text(format.extension, color = if (format == selectedFormat) accent.primary else surfaceColors.textSecondary,
-                    fontSize = 12.sp, fontWeight = if (format == selectedFormat) FontWeight.SemiBold else FontWeight.Normal)
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = if (format == selectedFormat) FontWeight.SemiBold else FontWeight.Normal)
             }
         }
     }
@@ -191,16 +191,16 @@ private fun ImportTab(accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAc
         .clickable { }, contentAlignment = Alignment.Center) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Box(modifier = Modifier.size(48.dp).clip(CircleShape).background(accent.primary.copy(alpha = Dimens.Alpha.Light)),
-                contentAlignment = Alignment.Center) { Text("↑", color = accent.primary, fontSize = 22.sp, fontWeight = FontWeight.Bold) }
+                contentAlignment = Alignment.Center) { Text("↑", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold) }
             Spacer(modifier = Modifier.height(8.dp))
-            Text("Drag & drop files here", color = surfaceColors.textPrimary, fontSize = 14.sp)
-            Text("or click to browse", color = accent.primary, fontSize = 12.sp)
+            Text("Drag & drop files here", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+            Text("or click to browse", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
     }
     Spacer(modifier = Modifier.height(16.dp))
 
     // Conflict strategy
-    Text("Conflict Strategy", color = surfaceColors.textSecondary, fontSize = 13.sp, fontWeight = FontWeight.Medium)
+    Text("Conflict Strategy", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
     Spacer(modifier = Modifier.height(6.dp))
     ImportConflictStrategy.entries.forEach { strategy ->
         Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusSm))
@@ -212,12 +212,12 @@ private fun ImportTab(accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAc
                 if (strategy == conflictStrategy) Box(modifier = Modifier.size(6.dp).clip(CircleShape).background(Color.White))
             }
             Spacer(modifier = Modifier.width(10.dp))
-            Text(strategy.displayName, color = surfaceColors.textPrimary, fontSize = 13.sp)
+            Text(strategy.displayName, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
     }
     Spacer(modifier = Modifier.height(20.dp))
     Button(onClick = { }, colors = ButtonDefaults.buttonColors(containerColor = accent.primary, contentColor = accent.onPrimary),
-        modifier = Modifier.fillMaxWidth().height(48.dp)) { Text("Start Import", fontWeight = FontWeight.SemiBold, fontSize = 14.sp) }
+        modifier = Modifier.fillMaxWidth().height(48.dp)) { Text("Start Import", fontWeight = FontWeight.SemiBold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium) }
 }
 
 @Composable
@@ -227,32 +227,32 @@ private fun ExportTab(accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAc
         color = surfaceColors.textPrimary, fontWeight = FontWeight.SemiBold)
     Spacer(modifier = Modifier.height(12.dp))
 
-    Text("Format", color = surfaceColors.textSecondary, fontSize = 13.sp, fontWeight = FontWeight.Medium)
+    Text("Format", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
     Spacer(modifier = Modifier.height(6.dp))
     Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
         ExportFormat.entries.forEach { format ->
             Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm))
                 .background(surfaceColors.surface).border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusSm))
                 .clickable { }.padding(horizontal = 12.dp, vertical = 6.dp)) {
-                Text(format.displayName, color = surfaceColors.textSecondary, fontSize = 12.sp)
+                Text(format.displayName, color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
     }
     Spacer(modifier = Modifier.height(16.dp))
-    Text("Include:", color = surfaceColors.textSecondary, fontSize = 13.sp, fontWeight = FontWeight.Medium)
+    Text("Include:", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
     Spacer(modifier = Modifier.height(8.dp))
     listOf("Tags", "Flags", "Notes", "Review History", "Statistics").forEach { item ->
         Row(modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
             Box(modifier = Modifier.size(16.dp).clip(RoundedCornerShape(3.dp)).background(accent.primary), contentAlignment = Alignment.Center) {
-                Text("✓", color = accent.onPrimary, fontSize = 10.sp)
+                Text("✓", color = accent.onPrimary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
             }
             Spacer(modifier = Modifier.width(8.dp))
-            Text(item, color = surfaceColors.textPrimary, fontSize = 13.sp)
+            Text(item, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
     }
     Spacer(modifier = Modifier.height(20.dp))
     Button(onClick = { }, colors = ButtonDefaults.buttonColors(containerColor = accent.primary, contentColor = accent.onPrimary),
-        modifier = Modifier.fillMaxWidth().height(48.dp)) { Text("Export", fontWeight = FontWeight.SemiBold, fontSize = 14.sp) }
+        modifier = Modifier.fillMaxWidth().height(48.dp)) { Text("Export", fontWeight = FontWeight.SemiBold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium) }
 }
 
 @Composable
@@ -261,7 +261,7 @@ private fun ImportHistoryTab(accent: ua.syt0r.kanji.presentation.common.theme.Ka
     Text("Import History", style = MaterialTheme.typography.titleMedium,
         color = surfaceColors.textPrimary, fontWeight = FontWeight.SemiBold)
     Spacer(modifier = Modifier.height(12.dp))
-    Text("No recent imports", color = surfaceColors.textMuted, fontSize = 13.sp)
+    Text("No recent imports", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
 }
 
 @Composable
@@ -271,7 +271,7 @@ private fun ImportSettingsTab(accent: ua.syt0r.kanji.presentation.common.theme.K
         color = surfaceColors.textPrimary, fontWeight = FontWeight.SemiBold)
     Spacer(modifier = Modifier.height(12.dp))
     Text("Import/export configuration coming soon",
-        color = surfaceColors.textMuted, fontSize = 13.sp)
+        color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
 }
 
 // ============================================
@@ -362,14 +362,14 @@ fun SearchBar(
             .padding(horizontal = 14.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text("🔍", fontSize = 14.sp)
+        Text("🔍", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
         Spacer(modifier = Modifier.width(8.dp))
         Text(if (query.isEmpty()) placeholder else query,
             color = if (query.isEmpty()) surfaceColors.textMuted else surfaceColors.textPrimary,
-            fontSize = 14.sp, modifier = Modifier.weight(1f))
+            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
         if (query.isNotEmpty()) {
             Box(modifier = Modifier.size(18.dp).clip(CircleShape).background(surfaceColors.border).clickable { onQueryChange("") },
-                contentAlignment = Alignment.Center) { Text("×", color = surfaceColors.textMuted, fontSize = 11.sp) }
+                contentAlignment = Alignment.Center) { Text("×", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }
         }
     }
 }

@@ -113,8 +113,8 @@ fun DeckFeaturesHub(
                     }
                     Spacer(Modifier.width(12.dp))
                     Column(Modifier.weight(1f)) {
-                        Text(feature.displayName, fontWeight = FontWeight.Medium, fontSize = 14.sp)
-                        Text(feature.description, fontSize = 12.sp, color = surfaceColors.textMuted)
+                        Text(feature.displayName, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+                        Text(feature.description, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                     }
                     Icon(Icons.Default.KeyboardArrowRight, null, Modifier.size(20.dp),
                         tint = surfaceColors.textMuted)

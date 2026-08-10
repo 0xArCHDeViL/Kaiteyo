@@ -382,22 +382,22 @@ private fun DeckStatsBar(
         horizontalArrangement = Arrangement.spacedBy(8.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text("$deckCount decks", fontSize = 12.sp, color = surfaceColors.textMuted)
-        Text("$totalCards cards", fontSize = 12.sp, color = surfaceColors.textMuted)
-        Text("$totalDue due", fontSize = 12.sp, color = accent.primary, fontWeight = FontWeight.Medium)
-        Text("$totalNew new", fontSize = 12.sp, color = MaterialTheme.colorScheme.primary)
+        Text("$deckCount decks", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+        Text("$totalCards cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+        Text("$totalDue due", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = accent.primary, fontWeight = FontWeight.Medium)
+        Text("$totalNew new", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.primary)
         Spacer(Modifier.weight(1f))
         if (favoriteCount > 0) {
             Icon(Icons.Default.Star, null, Modifier.size(12.dp), tint = ua.syt0r.kanji.presentation.common.theme.semanticWarning)
-            Text("$favoriteCount", fontSize = 11.sp, color = surfaceColors.textMuted)
+            Text("$favoriteCount", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
         }
         if (pinnedCount > 0) {
             Icon(Icons.Default.PushPin, null, Modifier.size(12.dp), tint = surfaceColors.textMuted)
-            Text("$pinnedCount", fontSize = 11.sp, color = surfaceColors.textMuted)
+            Text("$pinnedCount", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
         }
         if (virtualCount > 0) {
             Icon(Icons.Default.AutoAwesome, null, Modifier.size(12.dp), tint = surfaceColors.textMuted)
-            Text("$virtualCount", fontSize = 11.sp, color = surfaceColors.textMuted)
+            Text("$virtualCount", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
         }
     }
 }
@@ -423,7 +423,7 @@ private fun DeckFilterChips(
             FilterChip(
                 selected = filterType == key,
                 onClick = { onFilterChange(key) },
-                label = { Text(label, fontSize = 11.sp) },
+                label = { Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                 modifier = Modifier.height(28.dp)
             )
         }
@@ -431,7 +431,7 @@ private fun DeckFilterChips(
         FilterChip(
             selected = showArchived,
             onClick = onToggleArchived,
-            label = { Text("Archived", fontSize = 11.sp) },
+            label = { Text("Archived", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
             modifier = Modifier.height(28.dp)
         )
     }
@@ -538,7 +538,7 @@ private fun DeckTreeRow(
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(
                         deck.name,
-                        fontSize = 13.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         fontWeight = if (deck.isPinned) FontWeight.SemiBold else FontWeight.Medium,
                         color = if (deck.isArchived) surfaceColors.textMuted else surfaceColors.textPrimary,
                         maxLines = 1,
@@ -551,7 +551,7 @@ private fun DeckTreeRow(
                 }
                 Text(
                     "${deck.cardCount} cards | ${deck.dueCount} due",
-                    fontSize = 10.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     color = surfaceColors.textMuted
                 )
             }
@@ -559,7 +559,7 @@ private fun DeckTreeRow(
             // Stats
             Column(horizontalAlignment = Alignment.End, modifier = Modifier.padding(end = 4.dp)) {
                 if (deck.dueCount > 0) {
-                    Text("${deck.dueCount}", fontSize = 13.sp, fontWeight = FontWeight.Bold, color = accent.primary)
+                    Text("${deck.dueCount}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Bold, color = accent.primary)
                     Text("due", fontSize = 9.sp, color = surfaceColors.textMuted)
                 }
             }
@@ -661,11 +661,11 @@ private fun DeckListItem(
         }
         Spacer(Modifier.width(8.dp))
         Column(Modifier.weight(1f)) {
-            Text(deck.name, fontSize = 13.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary, maxLines = 1)
-            Text("${deck.cardCount} cards", fontSize = 10.sp, color = surfaceColors.textMuted)
+            Text(deck.name, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium, color = surfaceColors.textPrimary, maxLines = 1)
+            Text("${deck.cardCount} cards", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
         }
         if (deck.dueCount > 0) {
-            Text("${deck.dueCount}", fontSize = 13.sp, fontWeight = FontWeight.Bold, color = accent.primary)
+            Text("${deck.dueCount}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Bold, color = accent.primary)
         }
         Box {
             IconButton(onClick = { showMenu = true }, modifier = Modifier.size(28.dp)) {
@@ -717,8 +717,8 @@ private fun DeckCompactItem(
             }
             Spacer(Modifier.width(8.dp))
             Column(Modifier.weight(1f)) {
-                Text(deck.name, fontWeight = FontWeight.Medium, fontSize = 13.sp, color = surfaceColors.textPrimary)
-                Text("${deck.cardCount} cards, ${deck.dueCount} due", fontSize = 10.sp, color = surfaceColors.textMuted)
+                Text(deck.name, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
+                Text("${deck.cardCount} cards, ${deck.dueCount} due", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
             }
             Icon(Icons.Default.ChevronRight, null, Modifier.size(20.dp), tint = surfaceColors.textMuted)
         }
@@ -752,26 +752,26 @@ private fun DeckDetailBar(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Column(Modifier.weight(1f)) {
-                Text(deck.name, fontWeight = FontWeight.SemiBold, fontSize = 14.sp, color = surfaceColors.textPrimary)
-                Text(deck.description, fontSize = 11.sp, color = surfaceColors.textMuted, maxLines = 1)
+                Text(deck.name, fontWeight = FontWeight.SemiBold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
+                Text(deck.description, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted, maxLines = 1)
             }
             Spacer(Modifier.width(8.dp))
             // Stats
             Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(horizontal = 8.dp)) {
-                Text("${deck.cardCount}", fontWeight = FontWeight.Bold, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                Text("${deck.cardCount}", fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                 Text("Cards", fontSize = 9.sp, color = surfaceColors.textMuted)
             }
             Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(horizontal = 8.dp)) {
-                Text("${deck.dueCount}", fontWeight = FontWeight.Bold, fontSize = 14.sp, color = accent.primary)
+                Text("${deck.dueCount}", fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = accent.primary)
                 Text("Due", fontSize = 9.sp, color = surfaceColors.textMuted)
             }
             Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(horizontal = 8.dp)) {
-                Text("${deck.newCount}", fontWeight = FontWeight.Bold, fontSize = 14.sp, color = MaterialTheme.colorScheme.primary)
+                Text("${deck.newCount}", fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.primary)
                 Text("New", fontSize = 9.sp, color = surfaceColors.textMuted)
             }
             if (deck.accuracy > 0) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(horizontal = 8.dp)) {
-                    Text("${(deck.accuracy * 100).toInt()}%", fontWeight = FontWeight.Bold, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                    Text("${(deck.accuracy * 100).toInt()}%", fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                     Text("Acc", fontSize = 9.sp, color = surfaceColors.textMuted)
                 }
             }
@@ -881,7 +881,7 @@ private fun DeckMergeDialog(
         title = { Text("Merge Deck") },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                Text("Merge \"${source?.name ?: ""}\" into:", fontSize = 13.sp)
+                Text("Merge \"${source?.name ?: ""}\" into:", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 var expandedTarget by remember { mutableStateOf(false) }
                 ExposedDropdownMenuBox(expanded = expandedTarget, onExpandedChange = { expandedTarget = it }) {
                     OutlinedTextField(

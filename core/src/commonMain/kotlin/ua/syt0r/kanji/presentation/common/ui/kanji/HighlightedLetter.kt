@@ -35,7 +35,7 @@ fun HighlightedLetter(
 
     Text(
         text = letter,
-        fontSize = 28.sp,
+        style = androidx.compose.material3.MaterialTheme.typography.headlineMedium,
         modifier = constraintModifier
             .then(modifier)
             .clip(MaterialTheme.shapes.small)

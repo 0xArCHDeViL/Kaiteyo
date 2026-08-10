@@ -118,7 +118,7 @@ fun EnhancedNoteEditorScreen(
                         onValueChange = { noteText = it },
                         modifier = Modifier.fillMaxSize(),
                         textStyle = TextStyle(
-                            fontSize = 14.sp,
+                            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                             fontFamily = FontFamily.Monospace,
                             color = MaterialTheme.colorScheme.onSurface
                         ),
@@ -135,7 +135,7 @@ fun EnhancedNoteEditorScreen(
                                     "- | Tables |\n" +
                                     "- > Blockquotes",
                                     color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = Dimens.Alpha.SemiOpaque),
-                                    fontSize = 14.sp,
+                                    style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                                     fontFamily = FontFamily.Monospace
                                 )
                             }
@@ -302,7 +302,7 @@ fun MarkdownPreview(
     Column(modifier = modifier) {
         if (content.isBlank()) {
             Text("No content to preview", color = surfaceColors.textMuted,
-                fontSize = 14.sp, modifier = Modifier.padding(16.dp))
+                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(16.dp))
             return
         }
 
@@ -385,7 +385,7 @@ fun MarkdownPreview(
                         val url = line.substringAfter("](").substringBefore(")")
                         ImagePlaceholder(altText, url, surfaceColors)
                     } else {
-                        Text("[Image: $line]", color = surfaceColors.textMuted, fontSize = 12.sp)
+                        Text("[Image: $line]", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                     }
                 }
                 line.contains("[") && line.contains("](") -> {
@@ -393,7 +393,7 @@ fun MarkdownPreview(
                     if (config.enableLinks) {
                         LinkText(line, accent)
                     } else {
-                        Text(line, fontSize = 14.sp)
+                        Text(line, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
                     }
                 }
                 line.startsWith("|") -> {
@@ -440,7 +440,7 @@ private fun ChecklistItem(checked: Boolean, text: String, accent: KaiteyoAccentS
         Spacer(Modifier.width(8.dp))
         Text(
             text,
-            fontSize = 14.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
             textDecoration = if (checked) androidx.compose.ui.text.style.TextDecoration.LineThrough else androidx.compose.ui.text.style.TextDecoration.None,
             color = if (checked) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.onSurface
         )
@@ -453,8 +453,8 @@ private fun BulletItem(text: String, surfaceColors: SurfaceColors) {
         modifier = Modifier.fillMaxWidth().padding(vertical = 1.dp, horizontal = 16.dp),
         verticalAlignment = Alignment.Top
     ) {
-        Text("•", fontSize = 14.sp, color = surfaceColors.textMuted, modifier = Modifier.width(16.dp))
-        Text(text, fontSize = 14.sp, modifier = Modifier.weight(1f))
+        Text("•", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textMuted, modifier = Modifier.width(16.dp))
+        Text(text, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
     }
 }
 
@@ -466,8 +466,8 @@ private fun NumberedItem(line: String, surfaceColors: SurfaceColors) {
         modifier = Modifier.fillMaxWidth().padding(vertical = 1.dp, horizontal = 16.dp),
         verticalAlignment = Alignment.Top
     ) {
-        Text("$number.", fontSize = 14.sp, color = surfaceColors.textMuted, modifier = Modifier.width(24.dp))
-        Text(text, fontSize = 14.sp, modifier = Modifier.weight(1f))
+        Text("$number.", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textMuted, modifier = Modifier.width(24.dp))
+        Text(text, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
     }
 }
 
@@ -485,7 +485,7 @@ private fun BlockquoteDisplay(text: String, surfaceColors: SurfaceColors, accent
                 .background(accent.primary.copy(alpha = Dimens.Alpha.Medium))
         )
         Spacer(Modifier.width(8.dp))
-        Text(text, fontSize = 14.sp, color = surfaceColors.textMuted)
+        Text(text, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textMuted)
     }
 }
 
@@ -498,7 +498,7 @@ private fun CodeBlockDisplay(code: String) {
         Text(
             code,
             fontFamily = FontFamily.Monospace,
-            fontSize = 12.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             modifier = Modifier.padding(12.dp).fillMaxWidth(),
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
@@ -517,8 +517,8 @@ private fun ImagePlaceholder(altText: String, url: String, surfaceColors: Surfac
         ) {
             Icon(Icons.Default.Image, null, Modifier.size(32.dp), tint = surfaceColors.textMuted)
             Spacer(Modifier.height(8.dp))
-            Text(altText, fontSize = 12.sp, color = surfaceColors.textMuted)
-            Text(url, fontSize = 10.sp, color = surfaceColors.textMuted.copy(alpha = 0.7f))
+            Text(altText, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
+            Text(url, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted.copy(alpha = 0.7f))
         }
     }
 }
@@ -543,11 +543,11 @@ private fun LinkText(line: String, accent: KaiteyoAccentScheme) {
     Row(modifier = Modifier.padding(horizontal = 16.dp, vertical = 2.dp)) {
         parts.forEach { (text, url) ->
             if (url.isNotBlank()) {
-                Text(text, fontSize = 14.sp, color = accent.primary,
+                Text(text, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = accent.primary,
                     textDecoration = androidx.compose.ui.text.style.TextDecoration.Underline,
                     modifier = Modifier.clickable { /* Open URL */ })
             } else {
-                Text(text, fontSize = 14.sp)
+                Text(text, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
             }
         }
     }
@@ -584,7 +584,7 @@ private fun ParagraphText(text: String, surfaceColors: SurfaceColors) {
         parts.forEach { (text, format) ->
             Text(
                 text,
-                fontSize = 14.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                 fontWeight = if (format == "bold") FontWeight.Bold else FontWeight.Normal,
                 fontStyle = if (format == "italic") androidx.compose.ui.text.font.FontStyle.Italic else androidx.compose.ui.text.font.FontStyle.Normal,
                 textDecoration = if (format == "strikethrough") androidx.compose.ui.text.style.TextDecoration.LineThrough else androidx.compose.ui.text.style.TextDecoration.None,
@@ -625,7 +625,7 @@ private fun RenderTable(
                     Text(
                         header,
                         fontWeight = FontWeight.Bold,
-                        fontSize = 13.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         modifier = Modifier
                             .weight(1f)
                             .padding(8.dp),
@@ -646,7 +646,7 @@ private fun RenderTable(
                     cells.forEachIndexed { i, cell ->
                         Text(
                             cell,
-                            fontSize = 12.sp,
+                            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                             modifier = Modifier
                                 .weight(1f)
                                 .padding(6.dp),

@@ -448,8 +448,8 @@ private fun QuickStatItem(
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Icon(icon, null, Modifier.size(18.dp), tint = color)
         Spacer(Modifier.height(2.dp))
-        Text(value, fontSize = 16.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
-        Text(label, fontSize = 10.sp, color = surfaceColors.textMuted)
+        Text(value, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+        Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
     }
 }
 
@@ -488,7 +488,7 @@ private fun FeatureCard(
                 Text(
                     feature.title,
                     fontWeight = FontWeight.SemiBold,
-                    fontSize = 14.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                     color = surfaceColors.textPrimary,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
@@ -496,7 +496,7 @@ private fun FeatureCard(
                 Spacer(Modifier.height(2.dp))
                 Text(
                     feature.description,
-                    fontSize = 11.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                     color = surfaceColors.textMuted,
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis,
@@ -534,8 +534,8 @@ private fun FeatureListItem(
         }
         Spacer(Modifier.width(12.dp))
         Column(Modifier.weight(1f)) {
-            Text(feature.title, fontWeight = FontWeight.Medium, fontSize = 14.sp, color = surfaceColors.textPrimary)
-            Text(feature.description, fontSize = 12.sp, color = surfaceColors.textMuted, maxLines = 1)
+            Text(feature.title, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
+            Text(feature.description, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted, maxLines = 1)
         }
         Icon(Icons.Default.ChevronRight, null, Modifier.size(20.dp), tint = surfaceColors.textMuted)
     }
@@ -553,7 +553,7 @@ private fun QuickActionChip(
     val surfaceColors = LocalSurfaceColors.current
     AssistChip(
         onClick = onClick,
-        label = { Text(label, fontSize = 12.sp, maxLines = 1) },
+        label = { Text(label, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, maxLines = 1) },
         leadingIcon = { Icon(icon, null, Modifier.size(16.dp)) },
         modifier = Modifier.height(32.dp),
         shape = RoundedCornerShape(Dimens.RadiusLg),

@@ -96,7 +96,7 @@ fun AnkiOperationsFullScreen(
                 title = { Text("Anki Operations") },
                 navigationIcon = { IconButton(onClick = onClose) { Icon(Icons.Default.Close, "Close") } },
                 actions = {
-                    TextButton(onClick = { showStudyByDialog = true }) { Text("Study By", fontSize = 12.sp) }
+                    TextButton(onClick = { showStudyByDialog = true }) { Text("Study By", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = surfaceColors.surface,
@@ -112,10 +112,10 @@ fun AnkiOperationsFullScreen(
                 containerColor = surfaceColors.surface,
                 contentColor = accent.primary
             ) {
-                Tab(selected = selectedTab == "operations", onClick = { selectedTab = "operations" }) { Text("Operations", fontSize = 12.sp, modifier = Modifier.padding(horizontal = 8.dp)) }
-                Tab(selected = selectedTab == "filtered", onClick = { selectedTab = "filtered" }) { Text("Filtered", fontSize = 12.sp, modifier = Modifier.padding(horizontal = 8.dp)) }
-                Tab(selected = selectedTab == "cram", onClick = { selectedTab = "cram" }) { Text("Cram", fontSize = 12.sp, modifier = Modifier.padding(horizontal = 8.dp)) }
-                Tab(selected = selectedTab == "preview", onClick = { selectedTab = "preview" }) { Text("Preview", fontSize = 12.sp, modifier = Modifier.padding(horizontal = 8.dp)) }
+                Tab(selected = selectedTab == "operations", onClick = { selectedTab = "operations" }) { Text("Operations", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, modifier = Modifier.padding(horizontal = 8.dp)) }
+                Tab(selected = selectedTab == "filtered", onClick = { selectedTab = "filtered" }) { Text("Filtered", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, modifier = Modifier.padding(horizontal = 8.dp)) }
+                Tab(selected = selectedTab == "cram", onClick = { selectedTab = "cram" }) { Text("Cram", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, modifier = Modifier.padding(horizontal = 8.dp)) }
+                Tab(selected = selectedTab == "preview", onClick = { selectedTab = "preview" }) { Text("Preview", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, modifier = Modifier.padding(horizontal = 8.dp)) }
             }
 
             when (selectedTab) {
@@ -211,18 +211,18 @@ private fun OperationsTab(
             shape = RoundedCornerShape(Dimens.RadiusMd)
         ) {
             Column(Modifier.padding(12.dp)) {
-                Text("Selected Cards", fontWeight = FontWeight.Medium, fontSize = 13.sp, color = surfaceColors.textPrimary)
+                Text("Selected Cards", fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
                 Spacer(Modifier.height(4.dp))
-                Text("${selectedCards.size} of ${filteredCards.size} cards selected", fontSize = 12.sp, color = surfaceColors.textMuted)
+                Text("${selectedCards.size} of ${filteredCards.size} cards selected", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                 Spacer(Modifier.height(8.dp))
                 OutlinedTextField(
                     value = searchQuery,
                     onValueChange = onSearchQueryChange,
                     modifier = Modifier.fillMaxWidth().height(40.dp),
-                    placeholder = { Text("Filter cards...", fontSize = 12.sp) },
+                    placeholder = { Text("Filter cards...", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) },
                     leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(16.dp)) },
                     singleLine = true,
-                    textStyle = androidx.compose.ui.text.TextStyle(fontSize = 12.sp),
+                    textStyle = androidx.compose.ui.text.TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
                     shape = RoundedCornerShape(Dimens.RadiusSm)
                 )
                 Spacer(Modifier.height(8.dp))
@@ -234,11 +234,11 @@ private fun OperationsTab(
                         ) {
                             Checkbox(checked = card in selectedCards, onCheckedChange = { onToggleCardSelection(card) }, modifier = Modifier.size(20.dp))
                             Spacer(Modifier.width(4.dp))
-                            Text(card.character, fontSize = 14.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+                            Text(card.character, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
                             Spacer(Modifier.width(8.dp))
-                            Text(card.meaning, fontSize = 11.sp, color = surfaceColors.textMuted, maxLines = 1)
+                            Text(card.meaning, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted, maxLines = 1)
                             Spacer(Modifier.weight(1f))
-                            Text(card.deck, fontSize = 10.sp, color = surfaceColors.textMuted)
+                            Text(card.deck, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
                         }
                     }
                 }
@@ -311,12 +311,12 @@ private fun OperationItem(
             }
             Spacer(Modifier.width(8.dp))
             Column(Modifier.weight(1f)) {
-                Text(operation.displayName, fontSize = 13.sp, fontWeight = FontWeight.Medium,
+                Text(operation.displayName, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium,
                     color = if (enabled) surfaceColors.textPrimary else surfaceColors.textMuted)
-                Text(operation.description, fontSize = 11.sp, color = surfaceColors.textMuted, maxLines = 1)
+                Text(operation.description, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted, maxLines = 1)
             }
             if (!enabled) {
-                Text("Select cards", fontSize = 10.sp, color = surfaceColors.textMuted)
+                Text("Select cards", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
             } else {
                 Icon(Icons.Default.ChevronRight, null, Modifier.size(20.dp), tint = surfaceColors.textMuted)
             }
@@ -345,7 +345,7 @@ private fun CategoryHeader(
             null, Modifier.size(18.dp), tint = surfaceColors.textMuted
         )
         Spacer(Modifier.width(4.dp))
-        Text(label, fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = surfaceColors.textMuted)
+        Text(label, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.SemiBold, color = surfaceColors.textMuted)
     }
 }
 
@@ -365,7 +365,7 @@ private fun FilteredDecksTab(
         modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
-        Text("Create a filtered deck to study specific cards", fontSize = 13.sp, color = surfaceColors.textMuted)
+        Text("Create a filtered deck to study specific cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
 
         OutlinedTextField(
             value = config.name,
@@ -386,7 +386,7 @@ private fun FilteredDecksTab(
         )
 
         // Max cards slider
-        Text("Max Cards: ${config.maxCards}", fontSize = 13.sp, color = surfaceColors.textPrimary)
+        Text("Max Cards: ${config.maxCards}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
         Slider(
             value = config.maxCards.toFloat(),
             onValueChange = { config = config.copy(maxCards = it.toInt()) },
@@ -419,15 +419,15 @@ private fun FilteredDecksTab(
         // Options
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(checked = config.reschedule, onCheckedChange = { config = config.copy(reschedule = it) })
-            Text("Reschedule cards after study", fontSize = 13.sp)
+            Text("Reschedule cards after study", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(checked = config.previewBeforeFilter, onCheckedChange = { config = config.copy(previewBeforeFilter = it) })
-            Text("Preview before filtering", fontSize = 13.sp)
+            Text("Preview before filtering", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(checked = config.startNow, onCheckedChange = { config = config.copy(startNow = it) })
-            Text("Start immediately", fontSize = 13.sp)
+            Text("Start immediately", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
 
         Spacer(Modifier.height(8.dp))
@@ -459,7 +459,7 @@ private fun CramTab(
         modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
-        Text("Cram mode for rapid review of specific cards", fontSize = 13.sp, color = surfaceColors.textMuted)
+        Text("Cram mode for rapid review of specific cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
 
         OutlinedTextField(
             value = config.name,
@@ -479,7 +479,7 @@ private fun CramTab(
         )
 
         // Card limit
-        Text("Card Limit: ${config.cardLimit}", fontSize = 13.sp)
+        Text("Card Limit: ${config.cardLimit}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         Slider(
             value = config.cardLimit.toFloat(),
             onValueChange = { config = config.copy(cardLimit = it.toInt()) },
@@ -512,14 +512,14 @@ private fun CramTab(
         // Options
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(checked = config.showBothSides, onCheckedChange = { config = config.copy(showBothSides = it) })
-            Text("Show both sides", fontSize = 13.sp)
+            Text("Show both sides", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(checked = config.autoAdvance, onCheckedChange = { config = config.copy(autoAdvance = it) })
-            Text("Auto-advance", fontSize = 13.sp)
+            Text("Auto-advance", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
         if (config.autoAdvance) {
-            Text("Delay: ${config.autoAdvanceDelayMs / 1000}s", fontSize = 12.sp, color = surfaceColors.textMuted)
+            Text("Delay: ${config.autoAdvanceDelayMs / 1000}s", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
             Slider(
                 value = (config.autoAdvanceDelayMs / 1000).toFloat(),
                 onValueChange = { config = config.copy(autoAdvanceDelayMs = (it * 1000).toLong()) },
@@ -528,15 +528,15 @@ private fun CramTab(
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(checked = config.repeatIncorrect, onCheckedChange = { config = config.copy(repeatIncorrect = it) })
-            Text("Repeat incorrect cards", fontSize = 13.sp)
+            Text("Repeat incorrect cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(checked = config.shuffleCards, onCheckedChange = { config = config.copy(shuffleCards = it) })
-            Text("Shuffle cards", fontSize = 13.sp)
+            Text("Shuffle cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(checked = config.includeSuspended, onCheckedChange = { config = config.copy(includeSuspended = it) })
-            Text("Include suspended cards", fontSize = 13.sp)
+            Text("Include suspended cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         }
 
         Spacer(Modifier.height(8.dp))
@@ -589,10 +589,10 @@ private fun PreviewTab(
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text("Card ${currentIndex + 1} of ${filteredCards.size}", fontSize = 13.sp, color = surfaceColors.textMuted)
+            Text("Card ${currentIndex + 1} of ${filteredCards.size}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
             Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-                FilterChip(selected = isReversed, onClick = { isReversed = !isReversed }, label = { Text("Reversed", fontSize = 11.sp) }, modifier = Modifier.height(28.dp))
-                FilterChip(selected = autoAdvance, onClick = { autoAdvance = !autoAdvance }, label = { Text("Auto", fontSize = 11.sp) }, modifier = Modifier.height(28.dp))
+                FilterChip(selected = isReversed, onClick = { isReversed = !isReversed }, label = { Text("Reversed", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }, modifier = Modifier.height(28.dp))
+                FilterChip(selected = autoAdvance, onClick = { autoAdvance = !autoAdvance }, label = { Text("Auto", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }, modifier = Modifier.height(28.dp))
             }
         }
 
@@ -608,15 +608,15 @@ private fun PreviewTab(
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         if (!showAnswer || isReversed) {
-                            Text(currentCard.character, fontSize = 48.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+                            Text(currentCard.character, style = androidx.compose.material3.MaterialTheme.typography.displayMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
                             Spacer(Modifier.height(8.dp))
-                            Text(currentCard.reading, fontSize = 16.sp, color = surfaceColors.textMuted)
+                            Text(currentCard.reading, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, color = surfaceColors.textMuted)
                         }
                         if (showAnswer || isReversed) {
                             if (!showAnswer) Spacer(Modifier.height(16.dp))
-                            Text(currentCard.meaning, fontSize = 20.sp, color = surfaceColors.textPrimary)
+                            Text(currentCard.meaning, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, color = surfaceColors.textPrimary)
                             Spacer(Modifier.height(4.dp))
-                            Text(currentCard.deck, fontSize = 12.sp, color = surfaceColors.textMuted)
+                            Text(currentCard.deck, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                             if (currentCard.tagNames.isNotEmpty()) {
                                 Spacer(Modifier.height(8.dp))
                                 Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -625,7 +625,7 @@ private fun PreviewTab(
                                             modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusXs))
                                                 .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                                                 .padding(horizontal = 6.dp, vertical = 2.dp)
-                                        ) { Text(tag, fontSize = 10.sp, color = accent.primary) }
+                                        ) { Text(tag, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = accent.primary) }
                                     }
                                 }
                             }
@@ -647,7 +647,7 @@ private fun PreviewTab(
                 ) {
                     Icon(if (showAnswer) Icons.Default.VisibilityOff else Icons.Default.Visibility, null, Modifier.size(16.dp))
                     Spacer(Modifier.width(4.dp))
-                    Text(if (showAnswer) "Hide Answer" else "Show Answer", fontSize = 12.sp)
+                    Text(if (showAnswer) "Hide Answer" else "Show Answer", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
             }
 
@@ -663,13 +663,13 @@ private fun PreviewTab(
                     enabled = currentIndex > 0
                 ) {
                     Icon(Icons.Default.ChevronLeft, null, Modifier.size(18.dp))
-                    Text("Previous", fontSize = 12.sp)
+                    Text("Previous", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                 }
                 OutlinedButton(
                     onClick = { currentIndex = (currentIndex + 1).coerceAtMost(filteredCards.size - 1); showAnswer = false },
                     enabled = currentIndex < filteredCards.size - 1
                 ) {
-                    Text("Next", fontSize = 12.sp)
+                    Text("Next", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                     Icon(Icons.Default.ChevronRight, null, Modifier.size(18.dp))
                 }
             }
@@ -709,7 +709,7 @@ private fun StudyByDialog(
                         FilterChip(
                             selected = studyType == key,
                             onClick = { studyType = key },
-                            label = { Text(label, fontSize = 11.sp) },
+                            label = { Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall) },
                             modifier = Modifier.height(28.dp)
                         )
                     }
@@ -719,7 +719,7 @@ private fun StudyByDialog(
 
                 when (studyType) {
                     "tag" -> {
-                        Text("Select a tag to study", fontSize = 13.sp, color = surfaceColors.textMuted)
+                        Text("Select a tag to study", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                         LazyColumn {
                             items(uniqueTags) { tag ->
                                 Row(
@@ -728,9 +728,9 @@ private fun StudyByDialog(
                                 ) {
                                     Icon(Icons.Default.Label, null, Modifier.size(16.dp), tint = accent.primary)
                                     Spacer(Modifier.width(8.dp))
-                                    Text(tag, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                                    Text(tag, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                                     Spacer(Modifier.weight(1f))
-                                    Text("${cards.count { it.tagNames.contains(tag) }} cards", fontSize = 12.sp, color = surfaceColors.textMuted)
+                                    Text("${cards.count { it.tagNames.contains(tag) }} cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                                     Icon(Icons.Default.ChevronRight, null, Modifier.size(18.dp), tint = surfaceColors.textMuted)
                                 }
                             }
@@ -745,9 +745,9 @@ private fun StudyByDialog(
                                 ) {
                                     Box(Modifier.size(14.dp).clip(CircleShape).background(flag.colorFromHex()))
                                     Spacer(Modifier.width(8.dp))
-                                    Text(flag.displayName, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                                    Text(flag.displayName, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                                     Spacer(Modifier.weight(1f))
-                                    Text("${cards.count { it.flag == flag }} cards", fontSize = 12.sp, color = surfaceColors.textMuted)
+                                    Text("${cards.count { it.flag == flag }} cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                                     Icon(Icons.Default.ChevronRight, null, Modifier.size(18.dp), tint = surfaceColors.textMuted)
                                 }
                             }
@@ -762,9 +762,9 @@ private fun StudyByDialog(
                                 ) {
                                     Icon(Icons.Default.Folder, null, Modifier.size(16.dp), tint = surfaceColors.textMuted)
                                     Spacer(Modifier.width(8.dp))
-                                    Text(deck, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                                    Text(deck, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                                     Spacer(Modifier.weight(1f))
-                                    Text("${cards.count { it.deck == deck }} cards", fontSize = 12.sp, color = surfaceColors.textMuted)
+                                    Text("${cards.count { it.deck == deck }} cards", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
                                     Icon(Icons.Default.ChevronRight, null, Modifier.size(18.dp), tint = surfaceColors.textMuted)
                                 }
                             }
@@ -777,10 +777,10 @@ private fun StudyByDialog(
                                     modifier = Modifier.fillMaxWidth().clickable { onStudyByJLPT(level) }.padding(vertical = 8.dp),
                                     verticalAlignment = Alignment.CenterVertically
                                 ) {
-                                    Text("N$level", fontSize = 18.sp, fontWeight = FontWeight.Bold,
+                                    Text("N$level", style = androidx.compose.material3.MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold,
                                         color = when (level) { 1 -> ua.syt0r.kanji.presentation.common.theme.semanticError; 2 -> ua.syt0r.kanji.presentation.common.theme.semanticWarning; 3 -> ua.syt0r.kanji.presentation.common.theme.semanticWarning; 4 -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess; else -> ua.syt0r.kanji.presentation.common.theme.semanticInfo })
                                     Spacer(Modifier.width(8.dp))
-                                    Text("JLPT N$level", fontSize = 14.sp, color = surfaceColors.textPrimary)
+                                    Text("JLPT N$level", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                                     Spacer(Modifier.weight(1f))
                                     Icon(Icons.Default.ChevronRight, null, Modifier.size(18.dp), tint = surfaceColors.textMuted)
                                 }
@@ -796,7 +796,7 @@ private fun StudyByDialog(
                                 ) {
                                     Icon(Icons.Default.TrendingUp, null, Modifier.size(16.dp), tint = surfaceColors.textMuted)
                                     Spacer(Modifier.width(8.dp))
-                                    Text(label, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                                    Text(label, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
                                     Spacer(Modifier.weight(1f))
                                     Icon(Icons.Default.ChevronRight, null, Modifier.size(18.dp), tint = surfaceColors.textMuted)
                                 }

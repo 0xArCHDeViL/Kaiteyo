@@ -162,14 +162,14 @@ private fun OverviewStatCard(
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(icon, null, Modifier.size(18.dp), tint = color)
                 Spacer(Modifier.width(6.dp))
-                Text(title, fontSize = 11.sp, color = surfaceColors.textMuted)
+                Text(title, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
             }
             Spacer(Modifier.height(8.dp))
-            Text(value, fontSize = 22.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary,
+            Text(value, style = androidx.compose.material3.MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary,
                 maxLines = 1, overflow = TextOverflow.Ellipsis)
             if (subtitle.isNotBlank()) {
                 Spacer(Modifier.height(2.dp))
-                Text(subtitle, fontSize = 11.sp, color = surfaceColors.textMuted)
+                Text(subtitle, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
             }
         }
     }
@@ -193,9 +193,9 @@ private fun StreakStrip(current: Int, longest: Int, totalReviews: Int, totalTime
 @Composable
 private fun StripLabel(label: String, value: String, modifier: Modifier = Modifier) {
     Column(modifier = modifier, horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(value, fontWeight = FontWeight.Bold, fontSize = 15.sp, color = LocalKaiteyoAccent.current.primary,
+        Text(value, fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = LocalKaiteyoAccent.current.primary,
             maxLines = 1, overflow = TextOverflow.Ellipsis)
-        Text(label, fontSize = 10.sp, color = LocalSurfaceColors.current.textMuted)
+        Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = LocalSurfaceColors.current.textMuted)
     }
 }
 
@@ -207,7 +207,7 @@ private fun SectionCard(title: String, icon: ImageVector, content: @Composable C
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(icon, null, Modifier.size(16.dp), tint = surfaceColors.textMuted)
                 Spacer(Modifier.width(6.dp))
-                Text(title, fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = surfaceColors.textPrimary)
+                Text(title, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.SemiBold, color = surfaceColors.textPrimary)
             }
             Spacer(Modifier.height(12.dp))
             content()
@@ -224,7 +224,7 @@ private fun AnalyticsBars(history: List<HeatmapDayV2>, title: String) {
     val surfaceColors = LocalSurfaceColors.current
     if (history.isEmpty()) { EmptyStats(); return }
     val maxValue = (history.maxOfOrNull { it.count } ?: 1).coerceAtLeast(1)
-    Text(title, fontSize = 11.sp, color = surfaceColors.textMuted)
+    Text(title, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
     Spacer(Modifier.height(10.dp))
     Canvas(modifier = Modifier.fillMaxWidth().height(150.dp)) {
         val chartWidth = size.width - 40f
@@ -262,7 +262,7 @@ private fun AnalyticsLine(history: List<HeatmapDayV2>) {
         fill.close()
         drawPath(fill, accent.primary.copy(alpha = Dimens.Alpha.Subtle))
     }
-    Text("Daily accuracy (last ${history.size} active days)", fontSize = 10.sp, color = surfaceColors.textMuted)
+    Text("Daily accuracy (last ${history.size} active days)", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
 }
 
 @Composable
@@ -276,10 +276,10 @@ private fun RetentionDonut(percentage: Float, label: String, color: Color, modif
                     drawArc(color.copy(alpha = Dimens.Alpha.Light), 0f, 360f, false, style = stroke)
                     drawArc(color, -90f, percentage.coerceIn(0f, 1f) * 360f, false, style = stroke)
                 }
-                Text("${(percentage * 100).roundToInt()}%", fontWeight = FontWeight.Bold, fontSize = 14.sp, color = surfaceColors.textPrimary)
+                Text("${(percentage * 100).roundToInt()}%", fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary)
             }
             Spacer(Modifier.height(6.dp))
-            Text(label, fontSize = 11.sp, color = surfaceColors.textMuted)
+            Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
         }
     }
 }
@@ -302,13 +302,13 @@ private fun DistributionList(stats: StatsOverviewV2) {
     val max = rows.maxOf { it.value }.coerceAtLeast(1)
     rows.forEach { r ->
         Row(Modifier.fillMaxWidth().padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-            Text(r.label, fontSize = 12.sp, color = surfaceColors.textSecondary, modifier = Modifier.width(90.dp))
+            Text(r.label, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textSecondary, modifier = Modifier.width(90.dp))
             Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(Dimens.RadiusXs)).background(r.color.copy(alpha = Dimens.Alpha.Medium))) {
                 Box(Modifier.fillMaxWidth((r.value / max.toFloat()).coerceIn(0.02f, 1f)).height(8.dp)
                     .clip(RoundedCornerShape(Dimens.RadiusXs)).background(r.color))
             }
             Spacer(Modifier.width(8.dp))
-            Text("${r.value}", fontSize = 12.sp, color = surfaceColors.textPrimary, modifier = Modifier.width(28.dp))
+            Text("${r.value}", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary, modifier = Modifier.width(28.dp))
         }
     }
 }
@@ -329,7 +329,7 @@ private fun ForecastBars(forecast: List<Int>) {
             }
         }
     }
-    Text("days ahead →", fontSize = 10.sp, color = surfaceColors.textMuted)
+    Text("days ahead →", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
 }
 
 // ============================================================
@@ -344,8 +344,8 @@ private fun AnalyticsHeatmap(heatmap: HeatmapDataV2, onDayClick: (HeatmapDayV2) 
     val weeks = remember(heatmap) { buildWeeks(today) }
 
     Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)) {
-        Text("${heatmap.year} activity", fontSize = 12.sp, fontWeight = FontWeight.Medium, color = surfaceColors.textSecondary)
-        Text("${heatmap.totalReviews} reviews", fontSize = 11.sp, color = surfaceColors.textMuted)
+        Text("${heatmap.year} activity", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium, color = surfaceColors.textSecondary)
+        Text("${heatmap.totalReviews} reviews", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
     }
 
     Row(modifier = Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()), verticalAlignment = Alignment.Top) {
@@ -379,7 +379,7 @@ private fun AnalyticsHeatmap(heatmap: HeatmapDataV2, onDayClick: (HeatmapDayV2) 
     Spacer(Modifier.height(10.dp))
     HeatmapLegend(surfaceColors)
     Spacer(Modifier.height(4.dp))
-    Text("Tap a highlighted day for details.", fontSize = 10.sp, color = surfaceColors.textMuted)
+    Text("Tap a highlighted day for details.", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
 }
 
 private fun countToAlpha(count: Int) = when {
@@ -419,8 +419,8 @@ private fun DayDrillDown(day: HeatmapDayV2, onBack: () -> Unit) {
             IconButton(onClick = onBack) { Icon(Icons.Default.ArrowBack, "Back", tint = surfaceColors.textPrimary) }
             Spacer(Modifier.width(8.dp))
             Column {
-                Text(day.date.toString(), fontSize = 18.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
-                Text(day.date.todayLabel(), fontSize = 11.sp, color = surfaceColors.textMuted)
+                Text(day.date.toString(), style = androidx.compose.material3.MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
+                Text(day.date.todayLabel(), style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
             }
         }
         Spacer(Modifier.height(16.dp))
@@ -437,7 +437,7 @@ private fun DayDrillDown(day: HeatmapDayV2, onBack: () -> Unit) {
         }
 
         Spacer(Modifier.height(20.dp))
-        Text("Breakdown", fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = surfaceColors.textPrimary)
+        Text("Breakdown", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold, color = surfaceColors.textPrimary)
         Spacer(Modifier.height(8.dp))
         BreakdownBar("Review Cards", day.reviewCards.toFloat(), day.count.toFloat(), accent.primary)
         BreakdownBar("New Cards", day.newCards.toFloat(), day.count.toFloat(), ua.syt0r.kanji.presentation.common.theme.semanticInfo)
@@ -455,8 +455,8 @@ private fun DayStat(value: String, label: String, color: Color, modifier: Modifi
     val surfaceColors = LocalSurfaceColors.current
     Card(modifier = modifier, colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated)) {
         Column(Modifier.fillMaxWidth().padding(10.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-            Text(value, fontWeight = FontWeight.Bold, fontSize = 16.sp, color = color, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Text(label, fontSize = 10.sp, color = surfaceColors.textMuted)
+            Text(value, fontWeight = FontWeight.Bold, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, color = color, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(label, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted)
         }
     }
 }
@@ -467,8 +467,8 @@ private fun BreakdownBar(label: String, value: Float, maxValue: Float, color: Co
     val fraction = if (maxValue > 0) (value / maxValue).coerceIn(0f, 1f) else 0f
     Column(Modifier.padding(vertical = 4.dp)) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            Text(label, fontSize = 12.sp, color = surfaceColors.textPrimary)
-            Text("${(fraction * 100).roundToInt()}%", fontSize = 12.sp, color = surfaceColors.textMuted)
+            Text(label, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary)
+            Text("${(fraction * 100).roundToInt()}%", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted)
         }
         Spacer(Modifier.height(4.dp))
         LinearProgressIndicator(
@@ -483,7 +483,7 @@ private fun BreakdownBar(label: String, value: Float, maxValue: Float, color: Co
 @Composable
 private fun EmptyStats() {
     Box(Modifier.fillMaxWidth().height(80.dp), contentAlignment = Alignment.Center) {
-        Text("Not enough data yet.", fontSize = 12.sp, color = LocalSurfaceColors.current.textMuted)
+        Text("Not enough data yet.", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = LocalSurfaceColors.current.textMuted)
     }
 }
 

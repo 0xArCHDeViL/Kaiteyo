@@ -163,7 +163,7 @@ fun PluginManagerScreen(
                     FilterChip(
                         selected = selectedTab == tab,
                         onClick = { selectedTab = tab },
-                        label = { Text(tab, fontSize = 12.sp) }
+                        label = { Text(tab, style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
                     )
                 }
             }
@@ -243,20 +243,20 @@ private fun PluginListItem(
                     .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle)),
                 contentAlignment = Alignment.Center
             ) {
-                Text(plugin.manifest.icon, fontSize = 20.sp)
+                Text(plugin.manifest.icon, style = androidx.compose.material3.MaterialTheme.typography.titleLarge)
             }
             Spacer(Modifier.width(12.dp))
 
             // Info
             Column(Modifier.weight(1f)) {
-                Text(plugin.manifest.name, fontWeight = FontWeight.Medium, fontSize = 14.sp,
+                Text(plugin.manifest.name, fontWeight = FontWeight.Medium, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                     maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(plugin.manifest.version + " by " + plugin.manifest.author,
-                    fontSize = 11.sp, color = surfaceColors.textMuted, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = surfaceColors.textMuted, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(plugin.manifest.extensionPoint.displayName,
-                    fontSize = 10.sp, color = accent.primary.copy(alpha = 0.7f))
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = accent.primary.copy(alpha = 0.7f))
                 if (plugin.lastError != null) {
-                    Text("⚠ Error: ${plugin.lastError}", fontSize = 10.sp, color = MaterialTheme.colorScheme.error,
+                    Text("⚠ Error: ${plugin.lastError}", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.error,
                         maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
             }
@@ -294,7 +294,7 @@ private fun PluginDetailDialog(
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(plugin.manifest.icon, fontSize = 32.sp)
+                    Text(plugin.manifest.icon, style = androidx.compose.material3.MaterialTheme.typography.headlineLarge)
                     Spacer(Modifier.width(12.dp))
                     Column {
                         Text("v${plugin.manifest.version}", style = MaterialTheme.typography.labelMedium)
@@ -318,7 +318,7 @@ private fun PluginDetailDialog(
                             Icon(Icons.Default.Check, null, Modifier.size(14.dp),
                                 tint = MaterialTheme.colorScheme.primary)
                             Spacer(Modifier.width(4.dp))
-                            Text(perm, fontSize = 12.sp)
+                            Text(perm, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         }
                     }
                 }
@@ -377,17 +377,17 @@ private fun PluginSettingsTab() {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Switch(checked = sandboxMode, onCheckedChange = { sandboxMode = it })
             Spacer(Modifier.width(8.dp))
-            Column { Text("Sandbox Mode"); Text("Run plugins in isolated environment", fontSize = 12.sp, color = surfaceColors.textMuted) }
+            Column { Text("Sandbox Mode"); Text("Run plugins in isolated environment", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted) }
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Switch(checked = autoUpdate, onCheckedChange = { autoUpdate = it })
             Spacer(Modifier.width(8.dp))
-            Column { Text("Auto-Update"); Text("Automatically update plugins", fontSize = 12.sp, color = surfaceColors.textMuted) }
+            Column { Text("Auto-Update"); Text("Automatically update plugins", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted) }
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Switch(checked = devMode, onCheckedChange = { devMode = it })
             Spacer(Modifier.width(8.dp))
-            Column { Text("Developer Mode"); Text("Load plugins from local folders", fontSize = 12.sp, color = surfaceColors.textMuted) }
+            Column { Text("Developer Mode"); Text("Load plugins from local folders", style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textMuted) }
         }
     }
 }

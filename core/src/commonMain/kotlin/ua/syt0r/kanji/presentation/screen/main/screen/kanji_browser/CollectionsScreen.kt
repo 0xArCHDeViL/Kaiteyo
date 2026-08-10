@@ -117,13 +117,13 @@ private fun CollectionsOverview(
                 Text(
                     text = "Collections",
                     color = surfaceColors.textPrimary,
-                    fontSize = 22.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold
                 )
                 Text(
                     text = "${dataCenter.cards.size} kanji available",
                     color = surfaceColors.textMuted,
-                    fontSize = 12.sp
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                 )
             }
         }
@@ -154,7 +154,7 @@ private fun CollectionsOverview(
                     Text(
                         text = "No tags yet — tag kanji from the browser to build collections.",
                         color = surfaceColors.textMuted,
-                        fontSize = 13.sp,
+                        style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         modifier = Modifier.padding(vertical = 6.dp)
                     )
                 }
@@ -224,7 +224,7 @@ private fun SectionTitle(title: String, accent: KaiteyoAccentScheme, surfaceColo
     Text(
         text = title,
         color = accent.primary,
-        fontSize = 12.sp,
+        style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
         fontWeight = FontWeight.Medium,
         modifier = Modifier.padding(top = 8.dp)
     )
@@ -259,25 +259,25 @@ private fun CollectionCard(
                 .background(accent.primary.copy(alpha = Dimens.Alpha.Light)),
             contentAlignment = Alignment.Center
         ) {
-            Text(collection.icon, fontSize = 20.sp)
+            Text(collection.icon, style = androidx.compose.material3.MaterialTheme.typography.titleLarge)
         }
         Column(Modifier.weight(1f)) {
             Text(
                 text = collection.name,
                 color = surfaceColors.textPrimary,
-                fontSize = 15.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                 fontWeight = FontWeight.Medium
             )
             Text(
                 text = if (collection.isSmart) "Auto-generated" else "Custom",
                 color = surfaceColors.textMuted,
-                fontSize = 12.sp
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
         }
         Text(
             text = "$count",
             color = accent.primary,
-            fontSize = 18.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
             fontWeight = FontWeight.Bold
         )
     }
@@ -319,7 +319,7 @@ private fun TagCollectionCard(
             Text(
                 text = tag.name,
                 color = surfaceColors.textPrimary,
-                fontSize = 15.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                 fontWeight = FontWeight.Medium,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
@@ -327,13 +327,13 @@ private fun TagCollectionCard(
             Text(
                 text = "Tag",
                 color = surfaceColors.textMuted,
-                fontSize = 12.sp
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
         }
         Text(
             text = "$count",
             color = accent.primary,
-            fontSize = 18.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
             fontWeight = FontWeight.Bold
         )
     }
@@ -375,19 +375,19 @@ private fun FlagCollectionCard(
             Text(
                 text = flag.displayName,
                 color = surfaceColors.textPrimary,
-                fontSize = 15.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                 fontWeight = FontWeight.Medium
             )
             Text(
                 text = "Flag",
                 color = surfaceColors.textMuted,
-                fontSize = 12.sp
+                style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
         }
         Text(
             text = "$count",
             color = accent.primary,
-            fontSize = 18.sp,
+            style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
             fontWeight = FontWeight.Bold
         )
     }
@@ -443,13 +443,13 @@ private fun CollectionDetail(
                 Text(
                     text = "${collection.icon} ${collection.name}",
                     color = surfaceColors.textPrimary,
-                    fontSize = 20.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold
                 )
                 Text(
                     text = "${cards.size} kanji",
                     color = surfaceColors.textMuted,
-                    fontSize = 12.sp
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                 )
             }
             TextButton(
@@ -466,7 +466,7 @@ private fun CollectionDetail(
                     )
                 }
             ) {
-                Text("Open in browser", color = accent.primary, fontSize = 13.sp)
+                Text("Open in browser", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
 
@@ -503,7 +503,7 @@ private fun CollectionDetail(
                                     Box(Modifier.size(6.dp).clip(CircleShape).background(flag.colorFromHex()))
                                 }
                                 if (card.isFavorite) {
-                                    Text("★", color = accent.secondary, fontSize = 10.sp)
+                                    Text("★", color = accent.secondary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                                 }
                                 dataCenter.classifications[card.id].orEmpty()
                                     .firstOrNull { it.startsWith("n") }

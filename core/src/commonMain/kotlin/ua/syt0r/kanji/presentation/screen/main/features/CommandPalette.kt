@@ -255,7 +255,7 @@ private fun PaletteSearchField(
             Text(
                 text = "⌘",
                 color = accent.primary,
-                fontSize = 20.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
                 fontWeight = FontWeight.Bold
             )
             androidx.compose.foundation.text.BasicTextField(
@@ -266,7 +266,7 @@ private fun PaletteSearchField(
                 },
                 textStyle = androidx.compose.ui.text.TextStyle(
                     color = surfaceColors.textPrimary,
-                    fontSize = 16.sp
+                    style = androidx.compose.material3.MaterialTheme.typography.bodyLarge
                 ),
                 cursorBrush = androidx.compose.ui.graphics.SolidColor(accent.primary),
                 singleLine = true,
@@ -276,7 +276,7 @@ private fun PaletteSearchField(
                 Text(
                     text = "esc",
                     color = surfaceColors.textMuted,
-                    fontSize = 11.sp
+                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall
                 )
             }
         }
@@ -308,13 +308,13 @@ private fun PaletteResultsList(
                     Text(
                         text = "No matches",
                         color = surfaceColors.textSecondary,
-                        fontSize = 15.sp
+                        style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
                     )
                     Spacer(Modifier.height(4.dp))
                     Text(
                         text = "Try a different search term",
                         color = surfaceColors.textMuted,
-                        fontSize = 12.sp
+                        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                     )
                 }
             }
@@ -382,7 +382,7 @@ private fun PaletteResultItem(
                 Text(
                     text = action.category.take(1),
                     color = if (isSelected) accent.primary else surfaceColors.textMuted,
-                    fontSize = 12.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     fontWeight = FontWeight.Bold
                 )
             }
@@ -391,7 +391,7 @@ private fun PaletteResultItem(
             Text(
                 text = action.title,
                 color = if (isSelected) accent.primary else surfaceColors.textPrimary,
-                fontSize = 14.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                 fontWeight = if (isSelected) FontWeight.Medium else FontWeight.Normal,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
@@ -400,7 +400,7 @@ private fun PaletteResultItem(
                 Text(
                     text = action.subtitle,
                     color = surfaceColors.textMuted,
-                    fontSize = 12.sp,
+                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
                 )
@@ -410,7 +410,7 @@ private fun PaletteResultItem(
             Text(
                 text = action.shortcut,
                 color = surfaceColors.textMuted,
-                fontSize = 11.sp,
+                style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                 fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
             )
         }
@@ -438,7 +438,7 @@ private fun PaletteFooter(
         Text(
             text = "Ctrl+K to open",
             color = surfaceColors.textMuted,
-            fontSize = 11.sp
+            style = androidx.compose.material3.MaterialTheme.typography.labelSmall
         )
     }
 }
@@ -457,6 +457,6 @@ private fun FooterHint(
             tint = surfaceColors.textMuted,
             modifier = Modifier.size(14.dp)
         )
-        Text(text = label, color = surfaceColors.textMuted, fontSize = 11.sp)
+        Text(text = label, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
     }
 }
