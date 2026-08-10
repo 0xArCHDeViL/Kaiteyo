@@ -23,9 +23,12 @@ class KanjiApplication : Application(), KoinComponent {
             loadKoinModules(modules)
         }
         
-        // Initialize CrashAnalyticEngine
+        // Initialize CrashAnalyticEngine and register as CrashLogCleaner
         val appPreferences: ua.syt0r.kanji.core.user_data.preferences.PreferencesContract.AppPreferences by inject()
-        CrashAnalyticEngine(this, appPreferences)
+        val crashEngine = CrashAnalyticEngine(this, appPreferences)
+        loadKoinModules(org.koin.dsl.module {
+            single<ua.syt0r.kanji.core.app_data.CrashLogCleaner> { crashEngine }
+        })
     }
 
 }

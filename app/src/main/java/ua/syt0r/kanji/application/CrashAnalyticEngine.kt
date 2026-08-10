@@ -11,13 +11,36 @@ import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
 import java.io.File
+import ua.syt0r.kanji.core.app_data.CrashLogCleaner
 import java.io.PrintWriter
 import java.io.StringWriter
 
 class CrashAnalyticEngine(
     private val context: Context,
     private val appPreferences: PreferencesContract.AppPreferences
-) : Thread.UncaughtExceptionHandler {
+) : Thread.UncaughtExceptionHandler, CrashLogCleaner {
+
+    override fun clearAllLogs(): Int {
+        var deletedCount = 0
+        val targetDirs = listOfNotNull(
+            File(context.filesDir, "CrashLogs"),
+            context.getExternalFilesDir("CrashLogs"),
+            runCatching { File(android.os.Environment.getExternalStorageDirectory(), "Kaiteyo/CrashLogs") }.getOrNull()
+        )
+
+        targetDirs.forEach { dir ->
+            runCatching {
+                if (dir.exists() && dir.isDirectory) {
+                    dir.listFiles()?.forEach { file ->
+                        if (file.isFile && file.delete()) {
+                            deletedCount++
+                        }
+                    }
+                }
+            }
+        }
+        return deletedCount
+    }
 
     private val defaultHandler = Thread.getDefaultUncaughtExceptionHandler()
 
