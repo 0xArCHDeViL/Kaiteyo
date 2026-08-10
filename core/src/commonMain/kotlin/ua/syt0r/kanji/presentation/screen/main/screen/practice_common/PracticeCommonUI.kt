@@ -610,64 +610,70 @@ fun PracticeSummaryContainer(
     content: @Composable ColumnScope.() -> Unit
 ) {
 
+    val accent = LocalKaiteyoAccent.current
+    val surfaceColors = LocalSurfaceColors.current
+
     Column(
         modifier = Modifier.fillMaxSize()
             .wrapContentSize()
             .widthIn(max = 400.dp)
-            .padding(bottom = 20.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
+            .padding(horizontal = 16.dp, vertical = 20.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
 
-        Column(
-            modifier = Modifier.weight(1f)
-                .verticalScroll(rememberScrollState())
-                .padding(vertical = 8.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp)
+        // Header Card (Glassmorphism/Premium)
+        Surface(
+            modifier = Modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(Dimens.RadiusXl),
+            color = surfaceColors.surfaceElevated,
+            shadowElevation = 8.dp
         ) {
-
-
-            AppListItem(
-                headlineContent = {
-                    FlowRow(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceAround
-                    ) {
-
-                        PracticeSummaryInfoLabel(
-                            title = stringResource(Res.string.practice_summary_header_time),
-                            data = resolveString {
-                                commonPractice.summaryTimeSpentValue(practiceDuration)
-                            }
-                        )
-
-                        PracticeSummaryInfoLabel(
-                            title = stringResource(Res.string.practice_summary_header_reviews),
-                            data = summaryItemsCount.toString()
-                        )
-
-                        extraHeaderContent()
-
+            FlowRow(
+                modifier = Modifier.fillMaxWidth().padding(20.dp),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ) {
+                PracticeSummaryInfoLabel(
+                    title = stringResource(Res.string.practice_summary_header_time),
+                    data = resolveString {
+                        commonPractice.summaryTimeSpentValue(practiceDuration)
                     }
-                }
-            )
+                )
 
-            HorizontalDivider()
+                PracticeSummaryInfoLabel(
+                    title = stringResource(Res.string.practice_summary_header_reviews),
+                    data = summaryItemsCount.toString()
+                )
 
-            content()
-
-            HorizontalDivider()
-
+                extraHeaderContent()
+            }
         }
 
+        // List of items
+        Column(
+            modifier = Modifier.weight(1f)
+                .verticalScroll(rememberScrollState()),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            content()
+        }
+
+        // Finish Button
         Button(
             onClick = onFinishClick,
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(AppListItemDefaults.ExtraPaddings),
-            shape = MaterialTheme.shapes.medium,
-            colors = ButtonDefaults.neutralButtonColors()
+                .height(56.dp),
+            shape = RoundedCornerShape(Dimens.RadiusLg),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = accent.primary,
+                contentColor = accent.onPrimary
+            )
         ) {
-            Text(stringResource(Res.string.practice_summary_button))
+            Text(
+                text = stringResource(Res.string.practice_summary_button),
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold
+            )
         }
 
     }
@@ -695,16 +701,20 @@ fun RowScope.PracticeSummaryInfoLabel(
 ) {
     Column(
         modifier = Modifier.weight(1f),
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(4.dp)
     ) {
         Text(
-            text = title,
-            style = MaterialTheme.typography.labelSmall,
+            text = data,
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold,
+            color = LocalKaiteyoAccent.current.primary,
             textAlign = TextAlign.Center
         )
         Text(
-            text = data,
-            style = MaterialTheme.typography.headlineSmall,
+            text = title,
+            style = MaterialTheme.typography.labelMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center
         )
     }
@@ -724,33 +734,73 @@ fun PracticeSummaryItem(
         value = totalReviews.await()
     }
 
-    AppListItem(
-        leadingContent = { Text(index.plus(1).toString()) },
+    Surface(
         onClick = onClick,
-        headlineContent = header,
-        supportingContent = {
-            Row(
-                horizontalArrangement = Arrangement.spacedBy(4.dp),
-                verticalAlignment = Alignment.CenterVertically
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(Dimens.RadiusLg),
+        color = LocalSurfaceColors.current.surfaceElevated,
+        border = androidx.compose.foundation.BorderStroke(1.dp, LocalSurfaceColors.current.border.copy(alpha = 0.5f))
+    ) {
+        Row(
+            modifier = Modifier.padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            // Leading index
+            Box(
+                modifier = Modifier
+                    .size(32.dp)
+                    .clip(CircleShape)
+                    .background(LocalKaiteyoAccent.current.primary.copy(alpha = 0.1f)),
+                contentAlignment = Alignment.Center
             ) {
-                Icon(
-                    imageVector = Icons.Default.Insights,
-                    contentDescription = null,
-                    modifier = Modifier.size(20.dp)
-                )
-
                 Text(
-                    text = stringResource(
-                        Res.string.practice_summary_item_insights,
-                        reviewsCount.value?.toString() ?: "...",
-                        resolveString { commonPractice.formattedSrsInterval(nextInterval) }
-                    ),
-                    fontSize = 12.sp
+                    text = index.plus(1).toString(),
+                    color = LocalKaiteyoAccent.current.primary,
+                    fontWeight = FontWeight.Bold
                 )
             }
-        },
-        trailingContent = { Icon(Icons.AutoMirrored.Default.NavigateNext, null) }
-    )
+
+            // Content
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                // Headline
+                CompositionLocalProvider(
+                    androidx.compose.material3.LocalTextStyle provides MaterialTheme.typography.titleMedium
+                ) {
+                    header()
+                }
+                
+                // Supporting text
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(4.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Insights,
+                        contentDescription = null,
+                        modifier = Modifier.size(16.dp),
+                        tint = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    Text(
+                        text = stringResource(
+                            Res.string.practice_summary_item_insights,
+                            reviewsCount.value?.toString() ?: "...",
+                            resolveString { commonPractice.formattedSrsInterval(nextInterval) }
+                        ),
+                        fontSize = 12.sp,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+
+            // Trailing icon
+            Icon(
+                imageVector = Icons.AutoMirrored.Default.NavigateNext,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
+    }
 }
 
 @Composable

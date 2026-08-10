@@ -49,6 +49,8 @@ import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.unit.dp
+import kotlin.math.roundToInt
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.stringResource
 import ua.syt0r.kanji.Res
@@ -358,9 +360,11 @@ private fun SummaryState(
         onFinishClick = onFinishClick,
         extraHeaderContent = {
             if (screenState.accuracy != null) {
+                val accuracy = (screenState.accuracy * 100).roundToInt() / 100f
+                val accuracyStr = if (accuracy % 1.0f == 0.0f) accuracy.toInt().toString() else accuracy.toString()
                 PracticeSummaryInfoLabel(
                     title = stringResource(Res.string.practice_summary_header_accuracy),
-                    data = "${screenState.accuracy}%"
+                    data = "$accuracyStr%"
                 )
             }
         }
