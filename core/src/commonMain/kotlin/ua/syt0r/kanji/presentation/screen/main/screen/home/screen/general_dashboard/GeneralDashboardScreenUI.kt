@@ -173,30 +173,64 @@ fun GeneralDashboardScreenUI(
 
         ScreenDivider()
 
-        AppListItem(
-            onClick = textAnalysisClick,
-            headlineContent = { Text(stringResource(Res.string.general_dashboard_text_analysis)) },
-            trailingContent = { Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null) }
-        )
+        Column(
+            modifier = Modifier.padding(horizontal = 16.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
+            DashboardActionCard(
+                onClick = textAnalysisClick,
+                headlineText = stringResource(Res.string.general_dashboard_text_analysis)
+            )
 
-        SocialButton(
-            selected = socialClick
-        )
+            SocialButton(
+                selected = socialClick
+            )
 
-        AppListItem(
-            onClick = downloadsClick,
-            headlineContent = { Text(stringResource(Res.string.general_dashboard_downloads)) },
-            trailingContent = { Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null) }
-        )
+            DashboardActionCard(
+                onClick = downloadsClick,
+                headlineText = stringResource(Res.string.general_dashboard_downloads)
+            )
 
-        AppListItem(
-            onClick = { showTutorialDialog = true },
-            headlineContent = { Text(stringResource(Res.string.general_dashboard_tutorial)) },
-            trailingContent = { Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null) }
-        )
+            DashboardActionCard(
+                onClick = { showTutorialDialog = true },
+                headlineText = stringResource(Res.string.general_dashboard_tutorial)
+            )
+        }
 
     }
 
+}
+
+@Composable
+private fun DashboardActionCard(
+    onClick: () -> Unit,
+    headlineText: String,
+    modifier: Modifier = Modifier,
+    trailingContent: @Composable () -> Unit = { Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null) }
+) {
+    val surfaceColors = ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors.current
+    val shape = RoundedCornerShape(20.dp)
+
+    Surface(
+        modifier = modifier
+            .fillMaxWidth()
+            .shadow(4.dp, shape, spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.08f))
+            .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), shape)
+            .clip(shape),
+        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+    ) {
+        AppListItem(
+            onClick = onClick,
+            headlineContent = {
+                Text(
+                    text = headlineText,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold
+                )
+            },
+            trailingContent = trailingContent
+        )
+    }
 }
 
 @Composable
@@ -273,9 +307,9 @@ private fun StudyTargetsEditDialog(
 private fun SocialButton(selected: (SocialButton) -> Unit) {
     var showDropdown by rememberSaveable { mutableStateOf(false) }
 
-    AppListItem(
+    DashboardActionCard(
         onClick = { showDropdown = true },
-        headlineContent = { Text(stringResource(Res.string.general_dashboard_social)) },
+        headlineText = stringResource(Res.string.general_dashboard_social),
         trailingContent = {
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null)
             AppDropdownMenu(
