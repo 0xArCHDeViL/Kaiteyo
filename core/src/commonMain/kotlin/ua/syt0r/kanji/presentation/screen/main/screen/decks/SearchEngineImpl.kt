@@ -469,7 +469,7 @@ private fun performSearch(cards: List<KaiteyoCard>, criteria: SearchCriteria): L
             }
             val fullText = searchIn.joinToString(" ").let { if (criteria.matchCase) it else it.lowercase() }
             if (criteria.isRegex) {
-                try { fullText.contains(Regex(query)) } catch (_: Exception) { false }
+                try { fullText.contains(Regex(query)) } catch (_: Exception) { fullText.contains(query) }
             } else {
                 fullText.contains(query)
             }
