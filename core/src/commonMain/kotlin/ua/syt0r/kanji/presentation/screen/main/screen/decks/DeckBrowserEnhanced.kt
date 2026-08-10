@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.AnimatedVisibility
@@ -85,7 +87,7 @@ fun DeckBrowserEnhancedScreen(
     val archivedDecks = decks.count { it.isArchived }
     val favoriteDecks = decks.count { it.isFavorite }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Deck Browser") },

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.foundation.background
@@ -71,7 +73,7 @@ fun CardOperationsScreen(
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Card Operations") },
@@ -372,7 +374,7 @@ fun PreviewModeScreen(
     var currentIndex by remember { mutableStateOf(0) }
     var showAnswer by remember { mutableStateOf(false) }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Preview") },

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.credits
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -35,7 +37,7 @@ import ua.syt0r.kanji.presentation.screen.main.MainNavigationState
 fun CreditsScreen(
     state: MainNavigationState
 ) {
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 navigationIcon = {

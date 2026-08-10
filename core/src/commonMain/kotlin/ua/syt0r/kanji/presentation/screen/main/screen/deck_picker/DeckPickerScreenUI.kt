@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.deck_picker
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -72,7 +74,7 @@ fun DeckPickerScreenUI(
     onLinkClick: (String) -> Unit
 ) {
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text(text = resolveString { deckPicker.title }) },

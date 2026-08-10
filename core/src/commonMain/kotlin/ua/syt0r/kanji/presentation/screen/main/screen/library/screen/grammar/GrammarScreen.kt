@@ -248,8 +248,8 @@ fun GrammarPointCard(point: GrammarPoint) {
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.primary
                         )
-                        FormulaText(
-                            text = point.formulaTitle,
+                        FormulaFormulaText(
+                                text = point.formulaTitle,
                             style = MaterialTheme.typography.titleMedium.copy(
                                 fontWeight = FontWeight.Bold,
                                 color = MaterialTheme.colorScheme.primary

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.foundation.Canvas
@@ -67,7 +69,7 @@ fun StatisticsDashboardV2(
     val accent = LocalKaiteyoAccent.current
     var selectedDay by remember { mutableStateOf<HeatmapDayV2?>(null) }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Analytics Dashboard") },

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.text_analysis.ui
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -651,7 +653,7 @@ private fun ScreenLayout(
 
         val splitView = maxWidth > 800.dp
 
-        Scaffold(
+        KaiteyoScaffold(
             topBar = {
                 CenterAlignedTopAppBar(
                     navigationIcon = {

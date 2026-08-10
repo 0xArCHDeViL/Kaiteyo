@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.backup
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
@@ -56,7 +58,7 @@ fun BackupScreenUI(
 
     val strings = resolveString { backup }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text(strings.title) },

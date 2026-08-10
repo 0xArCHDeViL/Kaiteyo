@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.*
@@ -129,7 +131,7 @@ fun CardBrowserFullScreen(
     val filteredCount = processedCards.size
     val selectedCount = selectedCardIds.size
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Card Browser") },

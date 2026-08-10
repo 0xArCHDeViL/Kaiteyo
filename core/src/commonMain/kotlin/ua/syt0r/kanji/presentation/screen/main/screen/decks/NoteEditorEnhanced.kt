@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.foundation.background
@@ -70,7 +72,7 @@ fun EnhancedNoteEditorScreen(
     var showToolbar by remember { mutableStateOf(true) }
     val scrollState = rememberScrollState()
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Edit Note") },

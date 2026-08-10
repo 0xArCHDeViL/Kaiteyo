@@ -1,3 +1,4 @@
+import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.FormulaText
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui
 
 import androidx.compose.animation.AnimatedContent
@@ -36,10 +37,17 @@ fun GrammarPracticeConjugationUI(
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            text = "Conjugate the Verb",
+            text = "Conjugate: " + state.title,
             style = MaterialTheme.typography.titleMedium,
             color = MaterialTheme.colorScheme.primary,
-            fontWeight = FontWeight.Bold
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+        
+        Spacer(modifier = Modifier.height(Dimens.Space2))
+        
+        FormulaText(
+            text = state.formula,
         )
 
         Spacer(modifier = Modifier.height(Dimens.Space8))

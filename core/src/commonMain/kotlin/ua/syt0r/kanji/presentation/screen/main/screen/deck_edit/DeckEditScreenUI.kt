@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.deck_edit
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.updateTransition
@@ -124,7 +126,7 @@ fun DeckEditScreenUI(
         MultiplatformBackHandler { showLeaveConfirmationDialog = true }
     }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             Toolbar(
                 state = state,

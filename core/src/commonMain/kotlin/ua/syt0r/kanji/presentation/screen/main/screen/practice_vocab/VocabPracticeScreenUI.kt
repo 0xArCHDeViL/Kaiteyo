@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -77,7 +79,7 @@ fun VocabPracticeScreenUI(
 
     MultiplatformBackHandler(onBack = tryNavigateBack)
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             PracticeToolbar(
                 state = state.toPracticeToolbarState(),

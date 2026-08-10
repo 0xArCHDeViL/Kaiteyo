@@ -1,3 +1,4 @@
+import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.FormulaText
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui
 
 import androidx.compose.animation.AnimatedContent
@@ -36,8 +37,8 @@ fun GrammarPracticeDialogueUI(
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier.fillMaxWidth()
         ) {
-            Text(
-                text = state.title,
+            FormulaText(
+                                text = state.title,
                 style = MaterialTheme.typography.titleLarge,
                 fontWeight = FontWeight.ExtraBold,
                 color = MaterialTheme.colorScheme.primary

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Snackbar
@@ -157,7 +159,7 @@ fun MainScreen(
         )
     }
 
-    Scaffold(
+    KaiteyoScaffold(
         snackbarHost = {
             SnackbarHost(
                 hostState = snackbarHostState,

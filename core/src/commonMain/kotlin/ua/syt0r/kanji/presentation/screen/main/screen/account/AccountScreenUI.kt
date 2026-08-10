@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.account
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -74,7 +76,7 @@ fun <T> AccountScreenContainer(
     content: @Composable (T) -> Unit
 ) {
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text(resolveString { account.title }) },

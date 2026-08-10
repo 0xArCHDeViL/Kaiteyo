@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.*
@@ -132,7 +134,7 @@ fun HomeScreenUI(
             }
         }
     } else {
-        Scaffold(
+        KaiteyoScaffold(
             containerColor = MaterialTheme.colorScheme.background,
             topBar = {
                 CenterAlignedTopAppBar(

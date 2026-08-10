@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.*
@@ -130,7 +132,7 @@ fun HeatmapV2FullScreen(
     var viewYear by remember { mutableStateOf(data.year) }
     var showStats by remember { mutableStateOf(true) }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Study Heatmap") },

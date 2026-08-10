@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.info
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
@@ -194,7 +196,7 @@ private fun ScreenLayout(
         derivedStateOf { listState.firstVisibleItemIndex != 0 }
     }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = { toolbar() },
         floatingActionButton = {
             AnimatedVisibility(

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.ui
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.animateFloatAsState
@@ -168,7 +170,7 @@ private fun ScreenLayout(
     summary: @Composable (ScreenState.Summary) -> Unit
 ) {
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = { toolbar() }
     ) { paddingValues ->
 
@@ -360,8 +362,14 @@ private fun SummaryState(
         onFinishClick = onFinishClick,
         extraHeaderContent = {
             if (screenState.accuracy != null) {
-                val accuracy = (screenState.accuracy * 100).roundToInt() / 100f
-                val accuracyStr = if (accuracy % 1.0f == 0.0f) accuracy.toInt().toString() else accuracy.toString()
+                val rounded = (screenState.accuracy * 100).roundToInt()
+                val integerPart = rounded / 100
+                val fractionalPart = rounded % 100
+                val accuracyStr = if (fractionalPart == 0) {
+                    integerPart.toString()
+                } else {
+                    "$integerPart.${fractionalPart.toString().padStart(2, '0')}"
+                }
                 PracticeSummaryInfoLabel(
                     title = stringResource(Res.string.practice_summary_header_accuracy),
                     data = "$accuracyStr%"

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.vocab_card
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -100,7 +102,7 @@ private fun ScreenUI(
     setResultAndLeave: (VocabCardEditResult) -> Unit
 ) {
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = {

@@ -78,6 +78,7 @@ sealed interface VocabReviewState {
     }
 
     interface Writing : VocabReviewState {
+        val summaryReading: FuriganaString
         val charactersData: List<VocabCharacterWritingData>
         val selected: MutableState<VocabCharacterWritingData>
         val kanaReading: String

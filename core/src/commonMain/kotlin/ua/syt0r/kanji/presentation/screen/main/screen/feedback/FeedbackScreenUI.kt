@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.feedback
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -75,7 +77,7 @@ fun FeedbackScreenUI(
         }
     }
 
-    Scaffold(
+    KaiteyoScaffold(
         modifier = Modifier.fillMaxSize(),
         topBar = {
             TopAppBar(

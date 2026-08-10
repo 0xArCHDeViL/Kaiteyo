@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.*
@@ -61,7 +63,7 @@ fun ReviewSettingsFullScreen(
         "advanced" to "Advanced"
     )
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Review Settings") },
@@ -431,7 +433,7 @@ fun KeyboardShortcutsFullScreen(
 
     val currentProfile = profiles.find { it.id == activeProfile }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Keyboard Shortcuts") },

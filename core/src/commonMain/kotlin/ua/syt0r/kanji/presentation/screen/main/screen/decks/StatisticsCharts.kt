@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.foundation.Canvas
@@ -44,7 +46,7 @@ fun StatisticsDashboard(
     val accent = LocalKaiteyoAccent.current
     var selectedTimeRange by remember { mutableStateOf("30d") }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Statistics") },

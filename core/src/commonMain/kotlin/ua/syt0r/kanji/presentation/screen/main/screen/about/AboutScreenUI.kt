@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.about
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -40,7 +42,7 @@ fun AboutScreenUI(
     navigateToCredits: () -> Unit
 ) {
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = {

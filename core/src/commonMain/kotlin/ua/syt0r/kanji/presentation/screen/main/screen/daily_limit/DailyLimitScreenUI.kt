@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.daily_limit
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.ContentTransform
 import androidx.compose.animation.fadeIn
@@ -221,7 +223,7 @@ private fun ScreenLayout(
 
     val extraListSpacerState = rememberExtraListSpacerState()
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = { topBarContent() },
         floatingActionButton = {
             FabContainer(

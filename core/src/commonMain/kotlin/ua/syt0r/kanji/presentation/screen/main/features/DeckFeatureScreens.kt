@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.features
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.foundation.background
@@ -312,7 +314,7 @@ fun UndoHistoryScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
     val scope = rememberCoroutineScope()
     val surfaceColors = LocalSurfaceColors.current
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("History & Undo") },
@@ -427,7 +429,7 @@ fun CollectionsScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
 
     val favoriteCards = controller.cards.filter { controller.isFavorite(it.id) }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Collections") },
@@ -536,7 +538,7 @@ fun CardStatusScreen(controller: DeckFeaturesController, onClose: () -> Unit = {
     val scope = rememberCoroutineScope()
     val surfaceColors = LocalSurfaceColors.current
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Card Status Manager") },

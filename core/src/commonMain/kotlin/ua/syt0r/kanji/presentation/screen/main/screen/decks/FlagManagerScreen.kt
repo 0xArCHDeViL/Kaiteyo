@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.*
@@ -95,7 +97,7 @@ fun FlagManagerScreenFull(
 
     val totalFlagged = cards.count { it.flag != CardFlagType.None }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text(if (selectedFlag != null) "Flag: ${selectedFlag!!.displayName}" else "Flag Manager") },

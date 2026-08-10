@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.*
@@ -106,7 +108,7 @@ fun LearningPowerHub(
     val flaggedCards = cards.count { it.flag != CardFlagType.None }
     val suspendedCards = cards.count { it.isSuspended || it.status == CardStatus.Suspended }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Learning Power Hub") },

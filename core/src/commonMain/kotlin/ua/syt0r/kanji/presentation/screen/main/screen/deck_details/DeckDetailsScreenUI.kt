@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.deck_details
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.core.updateTransition
@@ -133,7 +135,7 @@ fun DeckDetailsScreenUI(
         }
     ) {
 
-        Scaffold(
+        KaiteyoScaffold(
             topBar = {
                 DeckDetailsToolbar(
                     state = state,

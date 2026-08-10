@@ -36,8 +36,8 @@ fun GrammarPracticeClozeUI(
         verticalArrangement = Arrangement.Center
     ) {
 
-        Text(
-            text = state.title,
+        FormulaText(
+                                text = state.title,
             style = MaterialTheme.typography.titleMedium,
             color = MaterialTheme.colorScheme.primary,
             fontWeight = FontWeight.Bold

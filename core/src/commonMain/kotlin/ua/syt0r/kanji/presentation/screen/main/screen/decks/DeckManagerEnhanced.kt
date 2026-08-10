@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.foundation.background
@@ -76,7 +78,7 @@ fun DeckFeaturesHub(
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Kaiteyo Features") },

@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.*
@@ -90,7 +92,7 @@ fun AnkiOperationsFullScreen(
         else cards.filter { it.character.contains(searchQuery) || it.meaning.contains(searchQuery) || it.deck.contains(searchQuery) }
     }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Anki Operations") },

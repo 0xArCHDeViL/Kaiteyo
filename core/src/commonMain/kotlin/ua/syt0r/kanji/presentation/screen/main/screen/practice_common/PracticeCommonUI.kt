@@ -260,7 +260,7 @@ fun PracticeConfigurationContainer(
             shape = shape
         ) {
             Column(
-                modifier = Modifier.padding(20.dp)
+                modifier = Modifier.padding(Dimens.Space5)
             ) {
                 Column(
                     modifier = Modifier.weight(1f, fill = false).verticalScroll(rememberScrollState())
@@ -626,10 +626,10 @@ fun PracticeSummaryContainer(
             modifier = Modifier.fillMaxWidth(),
             shape = RoundedCornerShape(Dimens.RadiusXl),
             color = surfaceColors.surfaceElevated,
-            shadowElevation = 8.dp
+            shadowElevation = Dimens.ElevationLg
         ) {
             FlowRow(
-                modifier = Modifier.fillMaxWidth().padding(20.dp),
+                modifier = Modifier.fillMaxWidth().padding(Dimens.Space5),
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
                 PracticeSummaryInfoLabel(
@@ -662,7 +662,7 @@ fun PracticeSummaryContainer(
             onClick = onFinishClick,
             modifier = Modifier
                 .fillMaxWidth()
-                .height(56.dp),
+                .height(Dimens.ButtonHeight),
             shape = RoundedCornerShape(Dimens.RadiusLg),
             colors = ButtonDefaults.buttonColors(
                 containerColor = accent.primary,
@@ -688,7 +688,7 @@ fun PracticeSummaryEmptyList() {
         style = MaterialTheme.typography.titleSmall,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 50.dp)
+            .padding(vertical = Dimens.Space10)
             .wrapContentSize()
     )
 

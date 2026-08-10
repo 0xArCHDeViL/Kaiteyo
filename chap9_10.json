@@ -1,0 +1,758 @@
+[
+  {
+    "id": 9,
+    "title": "BAB-9",
+    "points": [
+      {
+        "number": "【１２４】",
+        "formula_title": "KK ~~ます~~ に いく／くる／かえる",
+        "meaning": "pergi untuk me~ KK ~~ます~~ に いく／くる／かえる",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "こんどの土曜日、どこに 行く？",
+            "indonesian": "Sabtu besok pergi kemana?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "ともだちと えいがを みに 行く。",
+            "indonesian": "Pergi menonton film bersama teman. A：何を しに きた の？Kamu datang mau ngapain?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "ちょっと、おねがいが あるんです。",
+            "indonesian": "Mau minta tolong sedikit."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１２５】",
+        "formula_title": "KK ~~ます~~ ません か／KK ~~ます~~ ない？",
+        "meaning": "maukah me ~ (bersama)",
+        "formulas": [
+          "Maukah pergi untuk belanja bareng hari minggu nanti?"
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "KK ~~ます~~ ません か／KK ~~ます~~ ない？",
+            "indonesian": ""
+          },
+          {
+            "speaker": "A：",
+            "japanese": "こんどの日曜日、いっしょに かいものに 行きませんか。",
+            "indonesian": ""
+          },
+          {
+            "speaker": "B：",
+            "japanese": "いいですね。",
+            "indonesian": "行きましょう。Baiklah. Mari pergi."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１２６】",
+        "formula_title": "KK ~~ます~~ ましょう",
+        "meaning": "ayo/mari me ~ (ajakan)",
+        "formulas": [
+          "KK ~~ます~~ ましょう"
+        ],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "そろそろ 帰りましょう。",
+            "indonesian": "Sudah saatnya, mari kita pulang. B：そう、しましょう。Mari . ＊そろそろ：sudah saatnya"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１２７】",
+        "formula_title": "KK ~~ます~~ ましょう か",
+        "meaning": "maukah saya ~ (menawarkan aksi kepada orang lain)",
+        "formulas": [
+          "KK ~~ます~~ ましょう か"
+        ],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "そのかばんを もちましょうか。",
+            "indonesian": "Bagaimana kalau (saya) bawakan tas itu?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "すみません、おねがいします。",
+            "indonesian": "(terima kasih) Maaf merepotkan."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１２８】",
+        "formula_title": "KK ~~ます~~ ながら、〜",
+        "meaning": "sambil me~, ~ KK ~~ます~~ ながら、〜",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "テレビを 見ながら、何を しますか。",
+            "indonesian": "Sambil nonton tv, melakukan apa?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "テレビを 見ながら、ラーメンを 食べる。",
+            "indonesian": "Sambil nonton tv, makan ramen."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１２９】",
+        "formula_title": "KK ~~ます~~ かた",
+        "meaning": "Cara me~ KK ~~ます~~ かた",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "すみません、このかんじの おぼえかたを おしえてください。",
+            "indonesian": ""
+          },
+          {
+            "speaker": "",
+            "japanese": "Maaf, tolong ajari (saya) cara menghafal kanji ini. B：ええ、いい ですよ。",
+            "indonesian": "Boleh dong."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１３０】",
+        "formula_title": "KK ~~ます~~ なさい",
+        "meaning": "tolong me~ (bentuk perintah)",
+        "formulas": [
+          "KK ~~ます~~ かた"
+        ],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "あした しけんですから、ちゃんと べんきょうしなさい！",
+            "indonesian": ""
+          },
+          {
+            "speaker": "",
+            "japanese": "Karena besok tes, belajarlah dengan baik. B：はい、先生！",
+            "indonesian": "Baik sensei."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１３１】",
+        "formula_title": "KK ~~ます~~ やすい、〜",
+        "meaning": "mudah di~, ~ KK ~~ます~~ やすい です",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "このそうじきは 使いやすくて、べんり です。",
+            "indonesian": "Vakum cleaner ini mudah dipakai. このくすりは 飲みやすい です。Obat ini mudah diminum."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１３２】",
+        "formula_title": "KK ~~ます~~ にくい、〜",
+        "meaning": "susah di~, ~ KK ~~ます~~ にくい です",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "この漢字は 読みにくい ですね。",
+            "indonesian": "Kanji ini sulit dibaca. このそうじきは ふべんで、使いにくい です。Vakum cleaner ini ribet, dan sudah dipakai."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１３３】",
+        "formula_title": "KB が ほしい です",
+        "meaning": "ingin ~ KB",
+        "formulas": [
+          "KB が ほしい です"
+        ],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "おみやげ、何が ほしい？",
+            "indonesian": "Oleh-olehnya, ingin apa?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "おもちゃが ほしいよ。",
+            "indonesian": "Mau mainan."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１３４】",
+        "formula_title": "KB〜は ほしくない です",
+        "meaning": "tidak ingin ~ KB",
+        "formulas": [
+          "KB は ほしくない です"
+        ],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "車が ほしいですか。",
+            "indonesian": "Apakah mau ingin mobil?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "いいえ、車は ほしくない です。",
+            "indonesian": "Maaf saya tidak ingin wasabinya."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１３５】",
+        "formula_title": "KK ~~ます~~ たい です",
+        "meaning": "ingin me~ KB が／を KK ~~ます~~ たい です",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "何が 食べたい ですか。",
+            "indonesian": "Ingin makan apa?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "え〜と、ラーメンが 食べたい です。",
+            "indonesian": "(Saya) Ingin makan ramen."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１３６】",
+        "formula_title": "KK ~~ます~~ たくない です",
+        "meaning": "tidak ingin me~ KB が／を KK ~~ます~~ たくない です",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "このなっとうは 食べたくない ですか。",
+            "indonesian": "Apakah tidak ingin makan natto ini?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "ええ、すみません。",
+            "indonesian": "にがて ですから。Iya, maaf. Karena (saya) tidak suka.."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１３７】",
+        "formula_title": "KB tempat〜で KB acara〜が あります",
+        "meaning": "",
+        "formulas": [
+          "KB で KB Acara が あります"
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "ひろばで まつりが あります。",
+            "indonesian": "Di lapangan ada perayaan. としょかんで べんきょうかいが あります。Di perpustakaan ada belajar kelompok."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１３８】",
+        "formula_title": "Kalimat 〜の？",
+        "meaning": "(digunakan untuk kalimat tanya dalam bentuk biasa)",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "Kalimat Biasa 〜の？",
+            "indonesian": ""
+          },
+          {
+            "speaker": "A：",
+            "japanese": "今日、休むの？",
+            "indonesian": "Hari ini libur?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "…うん。",
+            "indonesian": "...Ya. A：これ、あらった の？Ini sudah dicuci?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "まだ です よ。",
+            "indonesian": "Belum."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１３９】",
+        "formula_title": "〜けど・けれど・けれども",
+        "meaning": "Tetapi,~ Kalimat Biasa 〜けど・けれど・けれども、〜",
+        "formulas": [
+          "Hari ini sibuk, tapi daripada kemarin, tidak begitu sibuk."
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "おなかが すいたけど、何も ない。",
+            "indonesian": "Lapar tapi tidak ada apapun. 本日は 忙しいです けれど、昨日より あまり 忙しくない です。"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１４０】",
+        "formula_title": "じゃ・それじゃ・それでは・では",
+        "meaning": "Kalau begitu,~ Kalimat １ 。じゃ・それじゃ・それでは・では、〜",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "今日は ここまで です。",
+            "indonesian": "それでは、また 来週。"
+          },
+          {
+            "speaker": "",
+            "japanese": "Hari ini sampai disini ya. Sampai ketemu lagi minggu depan. A：時間が ないよ！",
+            "indonesian": "Sudah tidak ada waktu. B：じゃ、タクシーで 行きましょう！Kalau begitu, mari pergi dengan taksi."
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "BAB-10",
+    "points": [
+      {
+        "number": "【１４１】",
+        "formula_title": "KK ~~ます~~ ない",
+        "meaning": "tidak me~, ~ KK ~~ます~~ ない",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "豚肉、食べる？",
+            "indonesian": "Daging babi, apakah makan?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "ううん、食べない。",
+            "indonesian": "Tidak, tidak makan."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１４２】",
+        "formula_title": "KK ~~ます~~ ないで、〜",
+        "meaning": "tanpa me~, ~ KK ~~ます~~ ない で、〜",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "本を 見ないで、もんだいを やってください。",
+            "indonesian": "Tolong kerjakan soal tanpa melihat buku. はらわないで、ジュースを 飲んでは だめよ。Tanpa membayar, tidak boleh minum jus."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１４３】",
+        "formula_title": "KK ~~ます~~ ないで ください",
+        "meaning": "tolong jangan me~ KK ~~ます~~ ない で ください",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "ここで きんえん ですから、タバコを すわないで ください。",
+            "indonesian": ""
+          },
+          {
+            "speaker": "",
+            "japanese": "Disini tidak boleh merokok, jadi jangan merokok disini. B：はい、わかりました。",
+            "indonesian": "Baik saya mengerti. *きんえん：”larangan tidak boleh merokok”"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１４４】",
+        "formula_title": "KK ~~ます~~ な~~い~~ くて も いいです",
+        "meaning": "tidak perlu me~ / tidak harus me~ KK ~~ます~~ な~~い~~ くて も いい です",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "あした 休み ですから、がっこうに 来なくても いいです。",
+            "indonesian": ""
+          },
+          {
+            "speaker": "",
+            "japanese": "Besok, karena libur, tidak perlu datang ke sekolah. B：はい。",
+            "indonesian": "Ya."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１４５】",
+        "formula_title": "KK ~~ます~~ な~~い~~ くて は いけません／だめ です",
+        "meaning": "harus me~ KK ~~ます~~ な~~い~~ くて は いけません／だめ です",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "ごはんを 食べるまえに、何を しますか。",
+            "indonesian": "Sebelum makan melakukan apa?"
+          },
+          {
+            "speaker": "B：",
+            "japanese": "て を あらわなくては いけません。",
+            "indonesian": "Harus cuci tangan."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１４６】",
+        "formula_title": "KK ~~ます~~ な~~い~~ ければ なりません",
+        "meaning": "harus me~ KK ~~ます~~ な~~い~~ ければ なりません",
+        "formulas": [
+          "Kalau sudah bekerja di Jepang harus berhemat."
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "あした、しけんが あるから、勉強 しなければ ならないよ。",
+            "indonesian": ""
+          },
+          {
+            "speaker": "",
+            "japanese": "Besok karena ada tes, harus belajar loh. もう 日本で 働いたら、せつやく しなければ なりません。",
+            "indonesian": ""
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１４７】",
+        "formula_title": "KK ~~ます~~ ない と （いけません）",
+        "meaning": "harus me~ KK ~~ます~~ ない と いけません",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "もう 時間が ないから、いそがない と（いけない）。",
+            "indonesian": ""
+          },
+          {
+            "speaker": "",
+            "japanese": "Karena sudah tidak ada waktu lagi, harus bergegas. B：じゃ、行きましょう。",
+            "indonesian": "Kalau begitu mari pergi."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１４８】",
+        "formula_title": "KK ~~ます~~ ない ほうが いいです",
+        "meaning": "sebaiknya tidak me~ KK ~~ます~~ ない ほうが いいっです",
+        "formulas": [
+          "Karena besok tes, sebaiknya tidak tidur sampai larut."
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "コーヒーを あまり飲まないほうが いいです。",
+            "indonesian": "Sebaiknya tidak terlalu sering minum kopi, 明日 しけん だから、おそく ねないほうが いいです。"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１４９】",
+        "formula_title": "KB kendaraan〜に のる／〜を おりる",
+        "meaning": "naik~ / turun dari~ KB Kendaraan に のる",
+        "formulas": [
+          "を おりる"
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "ここから、１２ばんのバスに のってください。",
+            "indonesian": "Dari sini, naiklah bus nomer 12. バスセンターで バスを おりてください。Turunlah dari bus di terminal."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１５０】",
+        "formula_title": "〜かかります",
+        "meaning": "membutuhkan ~ (waktu/uang)",
+        "formulas": [
+          "KB Durasi Waktu 〜かかる",
+          "Dari Klaten sampai Jakarta butuh berapa lama?"
+        ],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "クラテンから ジャカルタまで どのぐらい かかりますか。",
+            "indonesian": ""
+          },
+          {
+            "speaker": "B：",
+            "japanese": "６時間 ぐらい かかります。",
+            "indonesian": "Butuh waktu 6 jam."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１５１】",
+        "formula_title": "Bentuk Biasa （普通形）",
+        "meaning": "",
+        "formulas": [
+          "Bentuk biasa dan sopan digunakan tergantung pada siapa kita berbicara. Bahasa bentuk sopan",
+          "digunakan pada saat berbicara kepada lawan bicara yang belum dikenal dengan akrab atau",
+          "kepada lawan bicara dengan posisi lebih dihormati misalnya guru, atasan di tempat kerja dan",
+          "lain-lain. Berikut ini tabel seluruh bentuk biasa (futsuukei: akan kita singkat dalam rumus menjadi “f”)",
+          "pada jenis kosakata bahasa jepang. sopan (non lampau) biasa (non lampau) sopan ( lampau) bentuk biasa( lampau)",
+          "KB〜です KB〜だ KB〜でした KB〜だった",
+          "KB〜じゃないです KB〜じゃない KB〜じゃなかったです KB〜じゃなかった",
+          "KS い です KS い KS ~~い~~ かったです KS ~~い~~ かった",
+          "KS ~~い~~ くないです KS ~~い~~ くない KS ~~い~~ くなかったです KS ~~い~~ くなかった",
+          "KS な です KS な だ KS ~~な~~ でした KS ~~な~~ だった",
+          "KS ~~な~~ じゃないです KS ~~な~~ じゃない KS ~~な~~ じゃなかったです KS ~~な~~ じゃなかった",
+          "KK ~~ます~~ KK ~~ます~~ る KK〜ました KK ~~ます~~ た",
+          "KK〜ません KK ~~ます~~ ない KK〜ませんでした KK〜なかった",
+          "KK ~~ます~~ たいです KK ~~ます~~ たい KK ~~ます~~ たかったです KK ~~ます~~ たかった",
+          "KK ~~ます~~ たくないです KK ~~ます~~ たくない KK ~~ます~~ たくなかったです KK ~~ます~~ たくなかった"
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "学生：すみません、明日 は 休み ですか。",
+            "indonesian": "Sensei, apakah besok libur?"
+          },
+          {
+            "speaker": "",
+            "japanese": "先生：うん、休み だ よ。",
+            "indonesian": "Ya libur. 学生：帰っても いい ですか。Apakah boleh pulang?"
+          },
+          {
+            "speaker": "",
+            "japanese": "先生：ううん、だめ だ よ。",
+            "indonesian": "Enggak boleh."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１５２】",
+        "formula_title": "Bentuk Biasa （f）＋KB",
+        "meaning": "KB yang~ (anak alimat yang menjelaskan KB)",
+        "formulas": [
+          "（f）+KB"
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "母が 作った ケーキです。",
+            "indonesian": "Kue yang ibu buat. Anak kalimat KB"
+          },
+          {
+            "speaker": "",
+            "japanese": "姉が くれた お金 です。",
+            "indonesian": "Uang yang kakak berikan. Anak kalimat KB"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１５３】",
+        "formula_title": "Bentuk Biasa （普通形）と 思う",
+        "meaning": "Saya pikir ~／Saya rasa~／Saya kira~ （f）〜と 思う",
+        "formulas": [],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "田中さんは けっこん している と 思います。",
+            "indonesian": "Saya rasa Tanaka san sudah menikah. これは かんたん だ と 思う。Saya kira ini mudah."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１５４】",
+        "formula_title": "Bentuk Biasa （普通形）と 言う",
+        "meaning": "Berkata bahwa~ （f）〜と 言う",
+        "formulas": [
+          "Iyan bilang bahwa ingin bekerja di jepang."
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "さっき、先生は 明日、休み だ と 言いました。",
+            "indonesian": ""
+          },
+          {
+            "speaker": "",
+            "japanese": "Tadi sensei bilang bahwa besok libur. イヤンさんは 日本で 働きたいと 言った。",
+            "indonesian": ""
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１５５】",
+        "formula_title": "Bentuk Biasa （普通形）と 聞く",
+        "meaning": "Saya dengar~ （f）〜と 聞く",
+        "formulas": [
+          "Saya dengar Tanaka san minggu depan akan kembali ke Jepang. Apa itu benar?"
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "田中さんは 明日 日本に 戻ると 聞いた。",
+            "indonesian": "それ は 本当ですか。"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１５６】",
+        "formula_title": "それで・だから",
+        "meaning": "karena itu~, jadi~, oleh sebab itu~ それで・だから",
+        "formulas": [
+          "Besok ada tes. Jadi saya harus belajar."
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "今日は かぜです。",
+            "indonesian": "それで、がっこうを やすむ。"
+          },
+          {
+            "speaker": "",
+            "japanese": "Hari ini saya masuk angin. Karena itu saya libur sekolah. 明日、テストが あります。",
+            "indonesian": "だから、勉強しないと。"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１５７】",
+        "formula_title": "Kata Tanya でも",
+        "meaning": "kata tanya pun",
+        "formulas": [
+          "Kata Tanya でも"
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "そのどうぶつは 何でも 食べる。",
+            "indonesian": "Binatang itu makan apapun. いつでも、また きてね。Silakan datang kapanpun."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１５８】",
+        "formula_title": "Kata Tanya か",
+        "meaning": "suatu~ Kata Tanya か、",
+        "formulas": [
+          "なんでも apapun なにか sesuatu",
+          "いつでも kapanpun いつか suatu saat",
+          "どこでも dimanapun どこか suatu tempat",
+          "だれでも siapapun だれか seseorang"
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "いつか、日本に 行きたい なあ。",
+            "indonesian": "Suatu saat saya ingin ke jepang. 何か、食べたい。Ingin makan sesuatu. KT＋でも arti KT＋か arti"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１５９】",
+        "formula_title": "Kalimat Tanya（F) か、〜 わかります／しっています か？",
+        "meaning": "",
+        "formulas": [
+          "Kalimat Tanya か、〜",
+          "Konsernya mulai jam berapa, kamu tahu?"
+        ],
+        "examples": [
+          {
+            "speaker": "A：",
+            "japanese": "コンサートは 何時に 始まるか、しっていますか？",
+            "indonesian": ""
+          },
+          {
+            "speaker": "B：",
+            "japanese": "知らない。",
+            "indonesian": "Tidak tahu."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１６０】",
+        "formula_title": "Kalimat か どうか、〜",
+        "meaning": "",
+        "formulas": [
+          "Kalimat か どうか、〜"
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "明日、お金が あるかどうか、わからない。",
+            "indonesian": "Besok ada uang atau tidak, saya tidak tahu. 行く かどうか、まだ 決めません。Mau pergi atau tidak , saya belum memutuskan."
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "number": "【１６１】",
+        "formula_title": "には、では、へは、までは、からは",
+        "meaning": "(Penambahan partikel sebagai subyek)",
+        "formulas": [
+          "には、では、へは、までは、からは",
+          "NOTE: Ini bukan bunpou yang sempurna, tolong sempurnakan! contohnya membunuh suffix KS-i menjadi ku itu kan kurang jelas, tolong improvise dan validasikan! ada yang salah rumus juga tolong perbaiki",
+          "contoh lainnya di bab 9 yaitu KK-ます(dicoret)",
+          "biar mudah basic Katakerja itu bentuk masu, karena bisa diidentifikasi dengan mudah konjugasinya nanti kemana!",
+          "untuk fungsi bunpou harus simple aja sih kaya yang udah ada tuh... misalnya KB が ほしい です itu ya.. ingin ~ KB"
+        ],
+        "examples": [
+          {
+            "speaker": "",
+            "japanese": "日本では 仕事を さがすのは かんたんです。",
+            "indonesian": "Di Jepang, mencari pekerjaan itu, mudah. チラチャップまでは 何で 来たの？Sampai Cilacap, datang dengan apa?"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  }
+]

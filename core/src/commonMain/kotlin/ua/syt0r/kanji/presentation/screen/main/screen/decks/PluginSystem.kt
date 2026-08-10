@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.foundation.background
@@ -143,7 +145,7 @@ fun PluginManagerScreen(
     var selectedTab by remember { mutableStateOf("Installed") }
     var showDetail by remember { mutableStateOf<PluginRuntime?>(null) }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Plugin Manager") },

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.sync
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -172,7 +174,7 @@ private fun ScreenContainer(
     accountError: @Composable () -> Unit
 ) {
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text(resolveString { sync.title }) },

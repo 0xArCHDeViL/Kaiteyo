@@ -82,8 +82,10 @@ class DefaultGetGrammarPracticeConjugationDataUseCase : GetGrammarPracticeConjug
         val taForm = teForm.dropLast(1) + (if (teForm.last() == 'で') "だ" else "た")
 
         val target = when {
-            formula.contains("~~ます~~") -> stem + formula.substringAfter("~~ます~~").replace(" ", "")
-            formula.contains("~~ない~~") -> naiStem + formula.substringAfter("~~ない~~").replace(" ", "")
+            formula.contains("~~ます~~") -> stem + formula.substringAfter("~~ます~~").replace(" ", "").replace("／だめです", "")
+            formula.contains("~~ない~~") -> naiStem + formula.substringAfter("~~ない~~").replace(" ", "").replace("／だめです", "")
+            formula.contains("ないで") -> naiStem + "ないで" + formula.substringAfter("ないで").replace(" ", "").replace("ください", "ください")
+            formula.contains("ない") -> naiStem + "ない" + formula.substringAfter("ない").replace(" ", "").replace("／", "")
             formula.contains("て") || formula.contains("で") -> teForm + formula.substringAfter("て").substringAfter("で").replace(" ", "")
             else -> dict
         }

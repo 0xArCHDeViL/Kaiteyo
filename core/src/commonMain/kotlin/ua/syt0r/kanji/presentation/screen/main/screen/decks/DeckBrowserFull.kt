@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
+
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.*
@@ -97,7 +99,7 @@ fun DeckBrowserFullScreen(
     val totalPinned = decks.count { it.isPinned }
     val totalVirtual = decks.count { it.isVirtual || it.isSmart || it.isDynamic }
 
-    Scaffold(
+    KaiteyoScaffold(
         topBar = {
             TopAppBar(
                 title = { Text("Deck Browser") },

@@ -67,8 +67,8 @@ fun GrammarPracticeFlashcardUI(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
                     ) {
-                        Text(
-                            text = state.title,
+                        FormulaText(
+                                text = state.title,
                             style = MaterialTheme.typography.headlineLarge,
                             fontWeight = FontWeight.ExtraBold,
                             color = MaterialTheme.colorScheme.primary,
@@ -99,20 +99,23 @@ fun GrammarPracticeFlashcardUI(
                                 )
                                 if (state.examples.isNotEmpty()) {
                                     Spacer(modifier = Modifier.height(Dimens.Space6))
-                                    Surface(
-                                        shape = MaterialTheme.shapes.large,
-                                        color = MaterialTheme.colorScheme.secondaryContainer.copy(alpha = 0.4f),
-                                        modifier = Modifier.fillMaxWidth()
-                                    ) {
-                                        Text(
-                                            text = state.examples.first(),
-                                            style = MaterialTheme.typography.bodyLarge,
-                                            fontWeight = FontWeight.Medium,
-                                            color = MaterialTheme.colorScheme.onSurface,
-                                            textAlign = TextAlign.Center,
-                                            modifier = Modifier.padding(Dimens.Space4)
-                                        )
+                                    state.examples.forEach { example ->
+                                        Surface(
+                                            shape = MaterialTheme.shapes.large,
+                                            color = MaterialTheme.colorScheme.secondaryContainer.copy(alpha = 0.4f),
+                                            modifier = Modifier.fillMaxWidth().padding(bottom = Dimens.Space2)
+                                        ) {
+                                            Text(
+                                                text = example,
+                                                style = MaterialTheme.typography.bodyLarge,
+                                                fontWeight = FontWeight.Medium,
+                                                color = MaterialTheme.colorScheme.onSurface,
+                                                textAlign = TextAlign.Center,
+                                                modifier = Modifier.padding(Dimens.Space4)
+                                            )
+                                        }
                                     }
+                                }
                                 }
                             }
                         }
