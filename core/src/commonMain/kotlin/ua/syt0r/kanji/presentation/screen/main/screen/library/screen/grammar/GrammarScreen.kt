@@ -122,7 +122,8 @@ fun GrammarScreen(
                                 )
                                 onNavigateToPractice(MainDestination.GrammarPractice(config))
                             },
-                            modifier = Modifier.fillMaxWidth().padding(16.dp)
+                            shape = RoundedCornerShape(20.dp),
+                            modifier = Modifier.fillMaxWidth().height(54.dp).padding(horizontal = 16.dp)
                         ) {
                             Text("Practice Chapter")
                         }

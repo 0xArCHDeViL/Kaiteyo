@@ -169,6 +169,7 @@ private fun AnimatableCharacter(strokes: List<Path>) {
 
         Card(
             modifier = Modifier.size(120.dp),
+            shape = RoundedCornerShape(20.dp),
             elevation = CardDefaults.elevatedCardElevation()
         ) {
 

@@ -741,10 +741,16 @@ private fun BrowserSelectionBar(
     surfaceColors: SurfaceColors,
     accent: KaiteyoAccentScheme
 ) {
+    val shape = RoundedCornerShape(24.dp)
     Surface(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 12.dp)
+            .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), shape)
+            .clip(shape),
         color = surfaceColors.surfaceElevated,
-        shadowElevation = 2.dp
+        shape = shape,
+        shadowElevation = 4.dp
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 8.dp),
