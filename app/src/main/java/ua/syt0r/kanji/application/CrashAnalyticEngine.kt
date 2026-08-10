@@ -51,33 +51,49 @@ class CrashAnalyticEngine(
     }
 
     private fun writeLogToSdCard(thread: Thread, throwable: Throwable) {
-        try {
+        val currentMoment = Clock.System.now()
+        val time = currentMoment.toLocalDateTime(TimeZone.currentSystemDefault())
+        val filename = "crash_${time.year}_${time.monthNumber}_${time.dayOfMonth}_${time.hour}_${time.minute}_${time.second}.txt"
+        
+        val sw = StringWriter()
+        val pw = PrintWriter(sw)
+        throwable.printStackTrace(pw)
+        
+        val logContent = buildString {
+            appendLine("=== Kaiteyo Crash Analytic Engine ===")
+            appendLine("Time: $time")
+            appendLine("Thread: ${thread.name}")
+            appendLine("Exception Details:")
+            appendLine(sw.toString())
+        }
+        
+        android.util.Log.e("CrashAnalyticEngine", logContent, throwable)
+        
+        // Destination 1: Internal App Files Dir (100% guaranteed access without any permissions)
+        runCatching {
+            val internalLogDir = File(context.filesDir, "CrashLogs")
+            if (!internalLogDir.exists()) internalLogDir.mkdirs()
+            File(internalLogDir, filename).writeText(logContent)
+            File(internalLogDir, "latest_crash.txt").writeText(logContent)
+        }
+        
+        // Destination 2: App External Files Dir (/sdcard/Android/data/ua.syt0r.kanji/files/CrashLogs)
+        runCatching {
+            val externalAppDir = context.getExternalFilesDir("CrashLogs")
+            if (externalAppDir != null) {
+                if (!externalAppDir.exists()) externalAppDir.mkdirs()
+                File(externalAppDir, filename).writeText(logContent)
+                File(externalAppDir, "latest_crash.txt").writeText(logContent)
+            }
+        }
+        
+        // Destination 3: Public SDCard Path (/sdcard/Kaiteyo/CrashLogs)
+        runCatching {
             val sdcard = android.os.Environment.getExternalStorageDirectory()
             val logDir = File(sdcard, "Kaiteyo/CrashLogs")
-            if (!logDir.exists()) {
-                logDir.mkdirs()
-            }
-            
-            val currentMoment = Clock.System.now()
-            val time = currentMoment.toLocalDateTime(TimeZone.currentSystemDefault())
-            val filename = "crash_${time.year}_${time.monthNumber}_${time.dayOfMonth}_${time.hour}_${time.minute}_${time.second}.txt"
-            val file = File(logDir, filename)
-            
-            val sw = StringWriter()
-            val pw = PrintWriter(sw)
-            throwable.printStackTrace(pw)
-            
-            val logContent = buildString {
-                appendLine("=== Kaiteyo Crash Analytic Engine ===")
-                appendLine("Time: $time")
-                appendLine("Thread: ${thread.name}")
-                appendLine("Exception:")
-                appendLine(sw.toString())
-            }
-            
-            file.writeText(logContent)
-        } catch (e: Exception) {
-            e.printStackTrace()
+            if (!logDir.exists()) logDir.mkdirs()
+            File(logDir, filename).writeText(logContent)
+            File(logDir, "latest_crash.txt").writeText(logContent)
         }
     }
 }

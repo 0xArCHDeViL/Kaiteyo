@@ -58,7 +58,7 @@ class LetterPracticeViewModel(
     }
 
     override fun configure() {
-        val configurationState = _state.value as ScreenState.Configuring
+        val configurationState = _state.value as? ScreenState.Configuring ?: return
         _state.value = ScreenState.Loading
 
         viewModelScope.launch {

@@ -69,10 +69,11 @@ class DeckDetailsViewModel(
 
     override fun getPracticeConfiguration(group: DeckDetailsListItem.Group): MainDestination.LetterPractice {
         val deckId = configuration.deckId
-        val loadedState = state.value as ScreenState.Loaded
+        val loadedState = state.value as? ScreenState.Loaded
+            ?: return MainDestination.LetterPractice(LetterPracticeScreenConfiguration(emptyList(), ScreenLetterPracticeType.Writing))
 
-        val configuration = loadedState.configuration.value
-        configuration as DeckDetailsConfiguration.LetterDeckConfiguration
+        val configuration = loadedState.configuration.value as? DeckDetailsConfiguration.LetterDeckConfiguration
+            ?: return MainDestination.LetterPractice(LetterPracticeScreenConfiguration(emptyList(), ScreenLetterPracticeType.Writing))
 
         val characters = group.items.map { it.character }
         return MainDestination.LetterPractice(
@@ -87,7 +88,8 @@ class DeckDetailsViewModel(
     }
 
     override fun getMultiselectPracticeConfiguration(): MainDestination {
-        val loadedState = state.value as ScreenState.Loaded
+        val loadedState = state.value as? ScreenState.Loaded
+            ?: return MainDestination.LetterPractice(LetterPracticeScreenConfiguration(emptyList(), ScreenLetterPracticeType.Writing))
         val currentVisibleData = loadedState.visibleDataState.value
 
         val deckId = this.configuration.deckId
