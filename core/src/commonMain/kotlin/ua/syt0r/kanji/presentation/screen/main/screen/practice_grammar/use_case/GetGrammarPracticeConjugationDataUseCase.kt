@@ -21,14 +21,13 @@ class DefaultGetGrammarPracticeConjugationDataUseCase : GetGrammarPracticeConjug
         val chapter = chapters.first { it.id.toLong() == descriptor.deckId }
         val point = chapter.points.first { it.number == descriptor.pointNumber }
 
-        // Mock conjugation logic for Milestone 3
-        // In a real app, this would use a robust dictionary and conjugation engine.
-        val verbDictionary = "たべる" // taberu (to eat)
-        val verbMeaning = "Makan (Bentuk Kamus)"
+        // Dynamic verb selection based on the chapter or random
+        val (verbDictionary, verbMeaning, targetConjugation) = getVerbConjugation(chapter.id, point.formulaTitle)
         
-        // Since we want to conjugate according to the grammar point (e.g. 〜たい)
-        val targetConjugation = "たべたい"
-        val syllables = listOf("た", "べ", "た", "い", "ま", "す", "て") // include some distractors
+        // Generate syllables and distractors
+        val syllables = targetConjugation.map { it.toString() }.toMutableList()
+        val distractors = listOf("ま", "す", "て", "た", "な", "い", "ん", "で", "る")
+        syllables.addAll(distractors.shuffled().take(3))
 
         return GrammarPracticeItemData.ConjugationBuilder(
             pointNumber = point.number,
@@ -39,5 +38,63 @@ class DefaultGetGrammarPracticeConjugationDataUseCase : GetGrammarPracticeConjug
             targetConjugation = targetConjugation,
             syllables = syllables.shuffled()
         )
+    }
+    
+    private fun getVerbConjugation(chapterId: Int, formula: String): Triple<String, String, String> {
+        val verbs = listOf(
+            Triple("たべる", "Makan (Bentuk Kamus)"),
+            Triple("いく", "Pergi (Bentuk Kamus)"),
+            Triple("のむ", "Minum (Bentuk Kamus)"),
+            Triple("する", "Melakukan (Bentuk Kamus)"),
+            Triple("くる", "Datang (Bentuk Kamus)")
+        )
+        val verb = verbs.random()
+        val dict = verb.first
+        
+        // Basic conjugation logic
+        val stem = when (dict) {
+            "たべる" -> "たべ"
+            "いく" -> "いき"
+            "のむ" -> "のみ"
+            "する" -> "し"
+            "くる" -> "き"
+            else -> dict.dropLast(1)
+        }
+        
+        val naiStem = when (dict) {
+            "たべる" -> "たべ"
+            "いく" -> "いか"
+            "のむ" -> "のま"
+            "する" -> "し"
+            "くる" -> "こ"
+            else -> dict.dropLast(1)
+        }
+        
+        val teForm = when (dict) {
+            "たべる" -> "たべて"
+            "いく" -> "いって"
+            "のむ" -> "のんで"
+            "する" -> "して"
+            "くる" -> "きて"
+            else -> dict.dropLast(1) + "て"
+        }
+        
+        val taForm = teForm.dropLast(1) + (if (teForm.last() == 'で') "だ" else "た")
+
+        val target = when {
+            formula.contains("~~ます~~") -> stem + formula.substringAfter("~~ます~~").replace(" ", "")
+            formula.contains("~~ない~~") -> naiStem + formula.substringAfter("~~ない~~").replace(" ", "")
+            formula.contains("て") || formula.contains("で") -> teForm + formula.substringAfter("て").substringAfter("で").replace(" ", "")
+            else -> dict
+        }
+        
+        // Cleanup markdown and strange artifacts
+        var cleanTarget = target.replace("~~", "").replace("／", "").replace("〜", "")
+        if (cleanTarget.isBlank()) cleanTarget = dict
+        
+        // Basic fallback to stem + masu if we can't figure it out
+        if (cleanTarget.length > 20) cleanTarget = stem + "ます"
+
+        return Triple(dict, verb.second, cleanTarget)
     }
 }

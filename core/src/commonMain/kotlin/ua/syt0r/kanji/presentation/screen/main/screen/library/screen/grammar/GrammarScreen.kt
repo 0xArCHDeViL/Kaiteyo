@@ -239,12 +239,21 @@ fun GrammarPointCard(point: GrammarPoint) {
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Column(modifier = Modifier.weight(1f)) {
-                    Text(
-                        text = "${point.number} ${point.formulaTitle}",
-                        style = MaterialTheme.typography.titleMedium,
-                        fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.primary
-                    )
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(
+                            text = "${point.number} ",
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                        FormulaText(
+                            text = point.formulaTitle,
+                            style = MaterialTheme.typography.titleMedium.copy(
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.primary
+                            )
+                        )
+                    }
                     if (point.meaning.isNotBlank()) {
                         Spacer(modifier = Modifier.height(4.dp))
                         Text(
@@ -293,12 +302,18 @@ fun GrammarPointCard(point: GrammarPoint) {
                         )
                         Spacer(modifier = Modifier.height(8.dp))
                         point.examples.forEach { example ->
-                            Text(
-                                text = "• $example",
-                                style = MaterialTheme.typography.bodyMedium,
-                                color = MaterialTheme.colorScheme.onSurface,
-                                modifier = Modifier.padding(bottom = 8.dp)
-                            )
+                            Surface(
+                                color = MaterialTheme.colorScheme.surface,
+                                shape = RoundedCornerShape(8.dp),
+                                modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)
+                            ) {
+                                Text(
+                                    text = example.trim(),
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    color = MaterialTheme.colorScheme.onSurface,
+                                    modifier = Modifier.padding(12.dp)
+                                )
+                            }
                         }
                     }
                     
@@ -325,7 +340,11 @@ fun GrammarPointCard(point: GrammarPoint) {
 }
 
 @Composable
-fun FormulaText(text: String) {
+fun FormulaText(
+    text: String,
+    modifier: Modifier = Modifier,
+    style: androidx.compose.ui.text.TextStyle = MaterialTheme.typography.bodyLarge
+) {
     // Simple parser for ~~strikethrough~~
     val parts = text.split("~~")
     var isStrikethrough = false
@@ -356,7 +375,7 @@ fun FormulaText(text: String) {
                 }
             }
         },
-        style = MaterialTheme.typography.bodyLarge,
-        modifier = Modifier.padding(bottom = 4.dp)
+        style = style,
+        modifier = modifier.padding(bottom = 4.dp)
     )
 }
