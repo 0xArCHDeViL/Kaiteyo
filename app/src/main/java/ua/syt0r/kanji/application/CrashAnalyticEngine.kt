@@ -1,9 +1,11 @@
 package ua.syt0r.kanji.application
 
 import android.content.Context
-import kotlinx.coroutines.DelicateCoroutinesApi
-import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import kotlinx.datetime.Clock
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
@@ -19,14 +21,30 @@ class CrashAnalyticEngine(
 
     private val defaultHandler = Thread.getDefaultUncaughtExceptionHandler()
 
+    @Volatile
+    private var isEnabled: Boolean = true
+
     init {
         Thread.setDefaultUncaughtExceptionHandler(this)
+        try {
+            runBlocking {
+                isEnabled = appPreferences.crashAnalyticsEnabled.get()
+            }
+        } catch (_: Exception) {
+            isEnabled = true
+        }
+
+        CoroutineScope(Dispatchers.Default).launch {
+            appPreferences.crashAnalyticsEnabled.onModified.collect {
+                try {
+                    isEnabled = appPreferences.crashAnalyticsEnabled.get()
+                } catch (_: Exception) {}
+            }
+        }
     }
 
-    @OptIn(DelicateCoroutinesApi::class)
     override fun uncaughtException(thread: Thread, throwable: Throwable) {
-        // Run synchronously to ensure it writes before crash
-        if (appPreferences.crashAnalyticsEnabled.get()) {
+        if (isEnabled) {
             writeLogToSdCard(thread, throwable)
         }
         defaultHandler?.uncaughtException(thread, throwable)
