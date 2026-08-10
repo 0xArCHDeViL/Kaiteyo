@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -207,7 +209,7 @@ private fun StreakHeader(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp)
-            .clip(RoundedCornerShape(16.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusLg))
             .background(surfaceColors.surfaceElevated)
             .padding(16.dp),
         horizontalArrangement = Arrangement.SpaceEvenly,
@@ -244,14 +246,14 @@ private fun StatsSummaryRow(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp)
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(surfaceColors.surfaceElevated)
             .padding(12.dp),
         horizontalArrangement = Arrangement.SpaceEvenly
     ) {
-        StatChip("Accuracy", "${(data.averageAccuracy * 100).toInt()}%", Color(0xFFC2FC8B), surfaceColors)
+        StatChip("Accuracy", "${(data.averageAccuracy * 100).toInt()}%", ua.syt0r.kanji.presentation.common.theme.semanticSuccess, surfaceColors)
         StatChip("Cards Studied", "${data.totalCardsStudied}", accent.primary, surfaceColors)
-        StatChip("Avg/Day", "${if (data.days.isNotEmpty()) data.totalReviews / maxOf(data.days.size, 1) else 0}", Color(0xFFA78BFA), surfaceColors)
+        StatChip("Avg/Day", "${if (data.days.isNotEmpty()) data.totalReviews / maxOf(data.days.size, 1) else 0}", ua.syt0r.kanji.presentation.common.theme.semanticNew, surfaceColors)
     }
 }
 
@@ -442,8 +444,8 @@ private fun DayDetailPanel(
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             DayStatCard("Reviews", "${day.count}", accent.primary, surfaceColors, Modifier.weight(1f))
-            DayStatCard("Cards", "${day.cardsStudied}", Color(0xFFC2FC8B), surfaceColors, Modifier.weight(1f))
-            DayStatCard("New", "${day.newCards}", Color(0xFF7BC8FF), surfaceColors, Modifier.weight(1f))
+            DayStatCard("Cards", "${day.cardsStudied}", ua.syt0r.kanji.presentation.common.theme.semanticSuccess, surfaceColors, Modifier.weight(1f))
+            DayStatCard("New", "${day.newCards}", ua.syt0r.kanji.presentation.common.theme.semanticInfo, surfaceColors, Modifier.weight(1f))
         }
 
         Spacer(Modifier.height(8.dp))
@@ -452,9 +454,9 @@ private fun DayDetailPanel(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            DayStatCard("Accuracy", "${(day.accuracy * 100).toInt()}%", Color(0xFFA78BFA), surfaceColors, Modifier.weight(1f))
-            DayStatCard("Mistakes", "${day.mistakes}", Color(0xFFFF6B6B), surfaceColors, Modifier.weight(1f))
-            DayStatCard("Time", formatStudyTime(day.timeStudied), Color(0xFFFFD93D), surfaceColors, Modifier.weight(1f))
+            DayStatCard("Accuracy", "${(day.accuracy * 100).toInt()}%", ua.syt0r.kanji.presentation.common.theme.semanticNew, surfaceColors, Modifier.weight(1f))
+            DayStatCard("Mistakes", "${day.mistakes}", ua.syt0r.kanji.presentation.common.theme.semanticError, surfaceColors, Modifier.weight(1f))
+            DayStatCard("Time", formatStudyTime(day.timeStudied), ua.syt0r.kanji.presentation.common.theme.semanticWarning, surfaceColors, Modifier.weight(1f))
         }
 
         Spacer(Modifier.height(20.dp))
@@ -469,9 +471,9 @@ private fun DayDetailPanel(
         Spacer(Modifier.height(8.dp))
 
         BreakdownBar("Review Cards", day.reviewCards.toFloat(), day.count.toFloat(), accent.primary, surfaceColors)
-        BreakdownBar("New Cards", day.newCards.toFloat(), day.count.toFloat(), Color(0xFF7BC8FF), surfaceColors)
-        BreakdownBar("Accuracy Rate", day.accuracy, 1f, Color(0xFFC2FC8B), surfaceColors)
-        BreakdownBar("Mistake Rate", 1f - day.accuracy, 1f, Color(0xFFFF6B6B), surfaceColors)
+        BreakdownBar("New Cards", day.newCards.toFloat(), day.count.toFloat(), ua.syt0r.kanji.presentation.common.theme.semanticInfo, surfaceColors)
+        BreakdownBar("Accuracy Rate", day.accuracy, 1f, ua.syt0r.kanji.presentation.common.theme.semanticSuccess, surfaceColors)
+        BreakdownBar("Mistake Rate", 1f - day.accuracy, 1f, ua.syt0r.kanji.presentation.common.theme.semanticError, surfaceColors)
 
         Spacer(Modifier.height(20.dp))
 
@@ -515,7 +517,7 @@ private fun DayStatCard(
     Card(
         modifier = modifier,
         colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-        shape = RoundedCornerShape(12.dp)
+        shape = RoundedCornerShape(Dimens.RadiusMd)
     ) {
         Column(
             modifier = Modifier.fillMaxWidth().padding(12.dp),
@@ -589,8 +591,8 @@ private fun MonthlyBreakdown(
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(vertical = 6.dp)
-                        .clip(RoundedCornerShape(8.dp))
-                        .background(surfaceColors.surfaceElevated.copy(alpha = 0.5f))
+                        .clip(RoundedCornerShape(Dimens.RadiusSm))
+                        .background(surfaceColors.surfaceElevated.copy(alpha = Dimens.Alpha.SemiOpaque))
                         .padding(12.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {

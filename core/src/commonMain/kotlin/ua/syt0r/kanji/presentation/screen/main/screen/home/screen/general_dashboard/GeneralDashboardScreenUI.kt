@@ -216,15 +216,15 @@ private fun DashboardActionCard(
     trailingContent: @Composable () -> Unit = { Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null) }
 ) {
     val surfaceColors = ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors.current
-    val shape = RoundedCornerShape(20.dp)
+    val shape = RoundedCornerShape(Dimens.RadiusXl)
 
     Surface(
         modifier = modifier
             .fillMaxWidth()
-            .shadow(4.dp, shape, spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.08f))
-            .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), shape)
+            .shadow(4.dp, shape, spotColor = MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Subtle))
+            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), shape)
             .clip(shape),
-        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = Dimens.Alpha.SemiOpaque)
     ) {
         AppListItem(
             onClick = onClick,
@@ -493,7 +493,7 @@ fun StudyTargetItem(
                 scaleX = scale
                 scaleY = scale
             },
-        shape = RoundedCornerShape(20.dp),
+        shape = RoundedCornerShape(Dimens.RadiusXl),
         colors = CardDefaults.elevatedCardColors(
             containerColor = MaterialTheme.colorScheme.surfaceVariant
         ),
@@ -517,7 +517,7 @@ fun StudyTargetItem(
                 Box(
                     modifier = Modifier
                         .size(48.dp)
-                        .clip(RoundedCornerShape(12.dp))
+                        .clip(RoundedCornerShape(Dimens.RadiusMd))
                         .background(MaterialTheme.colorScheme.primaryContainer),
                     contentAlignment = Alignment.Center
                 ) {
@@ -595,7 +595,7 @@ fun StudyTargetItem(
                         modifier = Modifier
                             .weight(1f)
                             .height(8.dp)
-                            .clip(RoundedCornerShape(4.dp)),
+                            .clip(RoundedCornerShape(Dimens.RadiusXs)),
                         color = MaterialTheme.colorScheme.primary,
                         backgroundColor = MaterialTheme.colorScheme.surfaceVariant,
                         strokeCap = StrokeCap.Round
@@ -623,7 +623,7 @@ private fun ClickableStudyRow(
 ) {
     Row(
         modifier = Modifier
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(containerColor)
             .clickable(onClick = onClick)
             .padding(horizontal = 12.dp, vertical = 6.dp),
@@ -678,7 +678,7 @@ private fun Header(state: ScreenState.Loaded) {
 private fun HeaderStatItem(title: String, text: String, modifier: Modifier = Modifier) {
     ElevatedCard(
         modifier = modifier,
-        shape = RoundedCornerShape(16.dp),
+        shape = RoundedCornerShape(Dimens.RadiusLg),
         colors = CardDefaults.elevatedCardColors(
             containerColor = MaterialTheme.colorScheme.surfaceVariant
         ),

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.LocalIndication
@@ -63,19 +65,19 @@ fun HomeScreenUI(
                         .fillMaxHeight()
                         .shadow(
                             elevation = 12.dp,
-                            shape = RoundedCornerShape(32.dp),
-                            spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.12f),
-                            ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.08f)
+                            shape = RoundedCornerShape(Dimens.Radius2xl),
+                            spotColor = MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Light),
+                            ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Subtle)
                         )
-                        .clip(RoundedCornerShape(32.dp))
-                        .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.85f))
+                        .clip(RoundedCornerShape(Dimens.Radius2xl))
+                        .background(MaterialTheme.colorScheme.surface.copy(alpha = Dimens.Alpha.HighEmphasis))
                         .blur(32.dp) // Glassmorphism
                 )
                 Column(
                     modifier = Modifier
                         .fillMaxHeight()
-                        .clip(RoundedCornerShape(32.dp))
-                        .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.85f))
+                        .clip(RoundedCornerShape(Dimens.Radius2xl))
+                        .background(MaterialTheme.colorScheme.surface.copy(alpha = Dimens.Alpha.HighEmphasis))
                         .verticalScroll(rememberScrollState())
                         .padding(vertical = 36.dp, horizontal = 24.dp),
                     horizontalAlignment = Alignment.CenterHorizontally
@@ -172,10 +174,10 @@ fun HomeScreenUI(
                             .shadow(
                                 elevation = 16.dp,
                                 shape = CircleShape,
-                                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.25f),
-                                ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
+                                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Medium),
+                                ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Light)
                             )
-                            .border(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.25f), CircleShape)
+                            .border(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Medium), CircleShape)
                             .clip(CircleShape)
                             .background(MaterialTheme.colorScheme.surfaceVariant)
                             .padding(horizontal = 8.dp, vertical = 8.dp),
@@ -396,7 +398,7 @@ private fun HorizontalTabButton(
                 scaleX = scale
                 scaleY = scale
             }
-            .clip(RoundedCornerShape(20.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusXl))
             .background(backgroundColor)
             .clickable(
                 interactionSource = interactionSource,

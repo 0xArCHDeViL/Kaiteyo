@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -431,7 +433,7 @@ private fun AnkiSearchBar(
                 placeholder = {
                     Text(
                         "Search cards... (e.g. tag:jlpt, flag:red, deck:N5)",
-                        color = surfaceColors.textMuted.copy(alpha = 0.6f),
+                        color = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.SemiOpaque),
                         fontSize = 13.sp
                     )
                 },
@@ -440,11 +442,11 @@ private fun AnkiSearchBar(
                     color = surfaceColors.textPrimary
                 ),
                 colors = OutlinedTextFieldDefaults.colors(
-                    focusedBorderColor = accent.primary.copy(alpha = 0.5f),
-                    unfocusedBorderColor = surfaceColors.border.copy(alpha = 0.3f),
+                    focusedBorderColor = accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque),
+                    unfocusedBorderColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
                     cursorColor = accent.primary
                 ),
-                shape = RoundedCornerShape(10.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
             // Filter button
@@ -488,7 +490,7 @@ private fun AnkiSearchBar(
                             Icon(Icons.Default.Close, "Remove", Modifier.size(14.dp))
                         },
                         modifier = Modifier.height(28.dp),
-                        shape = RoundedCornerShape(14.dp)
+                        shape = RoundedCornerShape(Dimens.RadiusLg)
                     )
                 }
                 flagFilter?.let { flag ->
@@ -503,7 +505,7 @@ private fun AnkiSearchBar(
                             )
                         },
                         modifier = Modifier.height(28.dp),
-                        shape = RoundedCornerShape(14.dp)
+                        shape = RoundedCornerShape(Dimens.RadiusLg)
                     )
                 }
                 statusFilter?.let { status ->
@@ -514,7 +516,7 @@ private fun AnkiSearchBar(
                             Icon(Icons.Default.Close, "Remove", Modifier.size(14.dp))
                         },
                         modifier = Modifier.height(28.dp),
-                        shape = RoundedCornerShape(14.dp)
+                        shape = RoundedCornerShape(Dimens.RadiusLg)
                     )
                 }
             }
@@ -673,7 +675,7 @@ private fun SmallActionButton(
 ) {
     Box(
         modifier = Modifier
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .clickable(onClick = onClick)
             .padding(horizontal = 8.dp, vertical = 6.dp),
         contentAlignment = Alignment.Center
@@ -696,27 +698,27 @@ private fun StudyActionsBar(onAction: (StudyAction) -> Unit) {
 
     Row(
         modifier = Modifier.fillMaxWidth()
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(surfaceColors.surfaceElevated)
             .padding(6.dp),
         horizontalArrangement = Arrangement.SpaceEvenly
     ) {
         val primaryActions = listOf(
-            StudyAction.Again to Color(0xFFFF6B6B),
-            StudyAction.Hard to Color(0xFFFEAB57),
+            StudyAction.Again to ua.syt0r.kanji.presentation.common.theme.semanticError,
+            StudyAction.Hard to ua.syt0r.kanji.presentation.common.theme.semanticWarning,
             StudyAction.Good to accent.primary,
-            StudyAction.Easy to Color(0xFFC2FC8B)
+            StudyAction.Easy to ua.syt0r.kanji.presentation.common.theme.semanticSuccess
         )
         primaryActions.forEach { (action, color) ->
             Button(
                 onClick = { onAction(action) },
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = color.copy(alpha = 0.15f),
+                    containerColor = color.copy(alpha = Dimens.Alpha.Light),
                     contentColor = color
                 ),
                 contentPadding = PaddingValues(horizontal = 16.dp, vertical = 4.dp),
                 modifier = Modifier.height(34.dp),
-                shape = RoundedCornerShape(8.dp)
+                shape = RoundedCornerShape(Dimens.RadiusSm)
             ) {
                 Text(action.displayName, fontWeight = FontWeight.SemiBold, fontSize = 12.sp)
             }
@@ -782,7 +784,7 @@ private fun CardManagerTabs(selectedTab: String, onTabSelected: (String) -> Unit
                 onClick = { onTabSelected(tab) },
                 label = { Text(tab, fontSize = 12.sp) },
                 leadingIcon = { Icon(icon, null, Modifier.size(16.dp)) },
-                shape = RoundedCornerShape(8.dp)
+                shape = RoundedCornerShape(Dimens.RadiusSm)
             )
         }
     }
@@ -818,7 +820,7 @@ private fun CardBrowserContent(
                 )
                 Spacer(Modifier.height(8.dp))
                 Text("No cards found", color = surfaceColors.textMuted, fontSize = 14.sp)
-                Text("Try adjusting your search or filters", color = surfaceColors.textMuted.copy(alpha = 0.6f), fontSize = 12.sp)
+                Text("Try adjusting your search or filters", color = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.SemiOpaque), fontSize = 12.sp)
             }
         }
         return
@@ -886,7 +888,7 @@ private fun AnkiColumnHeaders(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .background(surfaceColors.surfaceElevated.copy(alpha = 0.5f))
+            .background(surfaceColors.surfaceElevated.copy(alpha = Dimens.Alpha.SemiOpaque))
             .padding(horizontal = if (isSelectionMode) 4.dp else 12.dp, vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
@@ -908,7 +910,7 @@ private fun AnkiColumnHeaders(
             Row(
                 modifier = Modifier
                     .weight(width)
-                    .clip(RoundedCornerShape(4.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusXs))
                     .clickable { onSortChange(column) }
                     .padding(horizontal = 4.dp, vertical = 2.dp),
                 verticalAlignment = Alignment.CenterVertically
@@ -933,7 +935,7 @@ private fun AnkiColumnHeaders(
         }
     }
     HorizontalDivider(
-        color = surfaceColors.border.copy(alpha = 0.2f),
+        color = surfaceColors.border.copy(alpha = Dimens.Alpha.Light),
         thickness = 0.5.dp
     )
 }
@@ -957,12 +959,12 @@ private fun AnkiCardRow(
 ) {
     val bgColor = when {
         isSelected -> accent.primary.copy(alpha = 0.06f)
-        card.isSuspended -> Color(0xFFFF6B6B).copy(alpha = 0.04f)
-        card.isBuried -> Color(0xFFB0B0B0).copy(alpha = 0.04f)
+        card.isSuspended -> ua.syt0r.kanji.presentation.common.theme.semanticError.copy(alpha = 0.04f)
+        card.isBuried -> androidx.compose.ui.graphics.Color.Gray.copy(alpha = 0.04f)
         else -> Color.Transparent
     }
     val flagColor = if (card.flag != CardFlagType.None) {
-        card.flag.colorFromHex().copy(alpha = 0.6f)
+        card.flag.colorFromHex().copy(alpha = Dimens.Alpha.SemiOpaque)
     } else {
         Color.Transparent
     }
@@ -1013,7 +1015,7 @@ private fun AnkiCardRow(
                         Icons.Default.Note,
                         "Has note",
                         Modifier.size(12.dp),
-                        tint = surfaceColors.textMuted.copy(alpha = 0.5f)
+                        tint = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.SemiOpaque)
                     )
                 }
             }
@@ -1030,7 +1032,7 @@ private fun AnkiCardRow(
         Text(
             if (card.interval > 0) "${card.interval}d" else "New",
             modifier = Modifier.weight(0.08f),
-            color = if (card.interval == 0) Color(0xFF7BC8FF) else surfaceColors.textSecondary,
+            color = if (card.interval == 0) ua.syt0r.kanji.presentation.common.theme.semanticInfo else surfaceColors.textSecondary,
             fontSize = 12.sp,
             fontWeight = if (card.interval == 0) FontWeight.Medium else FontWeight.Normal,
             maxLines = 1
@@ -1041,9 +1043,9 @@ private fun AnkiCardRow(
             "${(card.ease * 100).toInt()}%",
             modifier = Modifier.weight(0.08f),
             color = when {
-                card.ease >= 2.5f -> Color(0xFFC2FC8B)
-                card.ease >= 1.5f -> Color(0xFFFEAB57)
-                else -> Color(0xFFFF6B6B)
+                card.ease >= 2.5f -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
+                card.ease >= 1.5f -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+                else -> ua.syt0r.kanji.presentation.common.theme.semanticError
             },
             fontSize = 12.sp,
             fontWeight = FontWeight.Medium,
@@ -1068,12 +1070,12 @@ private fun AnkiCardRow(
                 Box(
                     modifier = Modifier
                         .clip(RoundedCornerShape(3.dp))
-                        .background(accent.primary.copy(alpha = 0.08f))
+                        .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                         .padding(horizontal = 4.dp, vertical = 1.dp)
                 ) {
                     Text(
                         tag,
-                        color = accent.primary.copy(alpha = 0.6f),
+                        color = accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque),
                         fontSize = 8.sp,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis
@@ -1111,7 +1113,7 @@ private fun AnkiCardRow(
         }
     }
     HorizontalDivider(
-        color = surfaceColors.border.copy(alpha = 0.08f),
+        color = surfaceColors.border.copy(alpha = Dimens.Alpha.Subtle),
         thickness = 0.5.dp
     )
 }
@@ -1123,18 +1125,18 @@ private fun AnkiCardRow(
 @Composable
 fun StatusBadge(status: CardStatus) {
     val (bgColor, textColor) = when (status) {
-        CardStatus.New -> Color(0xFF7BC8FF) to Color(0xFF1A3A5C)
-        CardStatus.Learning -> Color(0xFFFF6B6B) to Color(0xFF5C1A1A)
-        CardStatus.Young -> Color(0xFFFEAB57) to Color(0xFF5C3A1A)
-        CardStatus.Mature -> Color(0xFFC2FC8B) to Color(0xFF2A5C1A)
-        CardStatus.Relearning -> Color(0xFFFF6B6B) to Color(0xFF5C1A1A)
-        CardStatus.Suspended -> Color(0xFFB0B0B0) to Color(0xFF3A3A3A)
+        CardStatus.New -> ua.syt0r.kanji.presentation.common.theme.semanticInfo to Color(0xFF1A3A5C)
+        CardStatus.Learning -> ua.syt0r.kanji.presentation.common.theme.semanticError to Color(0xFF5C1A1A)
+        CardStatus.Young -> ua.syt0r.kanji.presentation.common.theme.semanticWarning to Color(0xFF5C3A1A)
+        CardStatus.Mature -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess to Color(0xFF2A5C1A)
+        CardStatus.Relearning -> ua.syt0r.kanji.presentation.common.theme.semanticError to Color(0xFF5C1A1A)
+        CardStatus.Suspended -> androidx.compose.ui.graphics.Color.Gray to Color(0xFF3A3A3A)
         CardStatus.Buried -> Color(0xFF8B8B8B) to Color(0xFF3A3A3A)
         CardStatus.Archived -> Color(0xFF6B6B6B) to Color(0xFF2A2A2A)
     }
     Box(
-        modifier = Modifier.clip(RoundedCornerShape(4.dp))
-            .background(bgColor.copy(alpha = 0.2f))
+        modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusXs))
+            .background(bgColor.copy(alpha = Dimens.Alpha.Light))
             .padding(horizontal = 6.dp, vertical = 2.dp)
     ) {
         Text(status.displayName, color = textColor, fontSize = 9.sp, fontWeight = FontWeight.Medium)
@@ -1160,8 +1162,8 @@ fun FlagSelectorDialog(
                     val isSelected = flag == currentFlag
                     Row(
                         modifier = Modifier.fillMaxWidth()
-                            .clip(RoundedCornerShape(8.dp))
-                            .background(if (isSelected) MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f) else Color.Transparent)
+                            .clip(RoundedCornerShape(Dimens.RadiusSm))
+                            .background(if (isSelected) MaterialTheme.colorScheme.primaryContainer.copy(alpha = Dimens.Alpha.Medium) else Color.Transparent)
                             .clickable { onSelect(flag) }
                             .padding(12.dp),
                         verticalAlignment = Alignment.CenterVertically
@@ -1245,8 +1247,8 @@ fun NoteEditorDialog(
 fun MarkdownPreview(content: String) {
     Column(
         modifier = Modifier.fillMaxWidth()
-            .clip(RoundedCornerShape(8.dp))
-            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
+            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = Dimens.Alpha.Medium))
             .padding(12.dp)
             .verticalScroll(rememberScrollState())
     ) {
@@ -1296,8 +1298,8 @@ fun CardStatusSelectorDialog(
                     val isSelected = status == currentStatus
                     Row(
                         modifier = Modifier.fillMaxWidth()
-                            .clip(RoundedCornerShape(8.dp))
-                            .background(if (isSelected) MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f) else Color.Transparent)
+                            .clip(RoundedCornerShape(Dimens.RadiusSm))
+                            .background(if (isSelected) MaterialTheme.colorScheme.primaryContainer.copy(alpha = Dimens.Alpha.Medium) else Color.Transparent)
                             .clickable { onSelect(status) }
                             .padding(12.dp),
                         verticalAlignment = Alignment.CenterVertically
@@ -1472,8 +1474,8 @@ fun KeyboardShortcutSettingsDialog(
 
                     Row(
                         modifier = Modifier.fillMaxWidth()
-                            .clip(RoundedCornerShape(8.dp))
-                            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f))
+                            .clip(RoundedCornerShape(Dimens.RadiusSm))
+                            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = Dimens.Alpha.Medium))
                             .clickable { recordingAction = actionId }
                             .padding(12.dp),
                         verticalAlignment = Alignment.CenterVertically
@@ -1514,7 +1516,7 @@ fun StudyHistoryDialog(
                 Box(Modifier.fillMaxWidth().height(200.dp), contentAlignment = Alignment.Center) {
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         Icon(Icons.Default.History, null, Modifier.size(48.dp),
-                            tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f))
+                            tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = Dimens.Alpha.SemiOpaque))
                         Spacer(Modifier.height(8.dp))
                         Text("No history yet", color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
@@ -1629,10 +1631,10 @@ fun StatisticsOverview(cards: List<KaiteyoCard>) {
                     progress = { fraction },
                     modifier = Modifier.fillMaxWidth().height(6.dp).clip(RoundedCornerShape(3.dp)),
                     color = when (label) {
-                        "New" -> Color(0xFF7BC8FF)
-                        "Learning" -> Color(0xFFFF6B6B)
-                        "Mature" -> Color(0xFFC2FC8B)
-                        "Suspended" -> Color(0xFFB0B0B0)
+                        "New" -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
+                        "Learning" -> ua.syt0r.kanji.presentation.common.theme.semanticError
+                        "Mature" -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
+                        "Suspended" -> androidx.compose.ui.graphics.Color.Gray
                         else -> MaterialTheme.colorScheme.primary
                     }
                 )
@@ -1839,7 +1841,7 @@ fun BulkActionsDialog(
                 BulkActionType.entries.forEach { action ->
                     Row(
                         modifier = Modifier.fillMaxWidth()
-                            .clip(RoundedCornerShape(8.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusSm))
                             .clickable { onAction(action) }
                             .padding(12.dp),
                         verticalAlignment = Alignment.CenterVertically

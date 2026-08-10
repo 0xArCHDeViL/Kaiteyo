@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -157,7 +159,7 @@ fun FlagManagerScreenFull(
                         placeholder = { Text("Search flagged cards...") },
                         leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(18.dp)) },
                         singleLine = true,
-                        shape = RoundedCornerShape(10.dp)
+                        shape = RoundedCornerShape(Dimens.RadiusMd)
                     )
                     LazyColumn(
                         contentPadding = PaddingValues(12.dp),
@@ -215,7 +217,7 @@ private fun FlagGrid(
             Card(
                 modifier = Modifier.fillMaxWidth().clickable { onFlagClick(stat) },
                 colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-                shape = RoundedCornerShape(16.dp)
+                shape = RoundedCornerShape(Dimens.RadiusLg)
             ) {
                 Column(Modifier.padding(16.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
@@ -240,7 +242,7 @@ private fun FlagGrid(
                             progress = { stat.averageAccuracy },
                             modifier = Modifier.fillMaxWidth().height(4.dp).clip(RoundedCornerShape(2.dp)),
                             color = color,
-                            trackColor = surfaceColors.border.copy(alpha = 0.3f)
+                            trackColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium)
                         )
                         Text("${(stat.averageAccuracy * 100).toInt()}% accuracy", fontSize = 10.sp, color = surfaceColors.textMuted)
                     }
@@ -266,7 +268,7 @@ private fun FlagList(
         items(flagStats) { stat ->
             val color = stat.flagType.colorFromHex()
             Row(
-                modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
+                modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
                     .clickable { onFlagClick(stat) }
                     .background(surfaceColors.surfaceElevated)
                     .padding(16.dp),
@@ -339,7 +341,7 @@ private fun FlagStatsView(
                     if (stat.totalCards > 0) {
                         Spacer(Modifier.height(8.dp))
                         LinearProgressIndicator(progress = { stat.averageAccuracy }, modifier = Modifier.fillMaxWidth().height(6.dp).clip(RoundedCornerShape(3.dp)),
-                            color = color, trackColor = surfaceColors.border.copy(alpha = 0.3f))
+                            color = color, trackColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
                         Text("${(stat.averageAccuracy * 100).toInt()}% retention", fontSize = 10.sp, color = surfaceColors.textMuted)
                     }
                 }
@@ -363,7 +365,7 @@ private fun FlaggedCardRow(
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-        shape = RoundedCornerShape(10.dp)
+        shape = RoundedCornerShape(Dimens.RadiusMd)
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(12.dp),

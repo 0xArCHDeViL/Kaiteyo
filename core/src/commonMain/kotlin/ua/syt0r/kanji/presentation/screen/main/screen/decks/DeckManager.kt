@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -51,7 +53,7 @@ data class KaiteyoDeck(
     val name: String = "N5 Kanji",
     val description: String = "JLPT N5 level kanji characters",
     val parentId: String? = null,
-    val color: Color = Color(0xFFC2FC8B),
+    val color: Color = ua.syt0r.kanji.presentation.common.theme.semanticSuccess,
     val icon: String = "漢",
     val isPinned: Boolean = false,
     val isFavorite: Boolean = false,
@@ -102,14 +104,14 @@ fun DeckManager() {
         listOf(
             KaiteyoDeck(name = "JLPT", icon = "N", isPinned = true, cardCount = 650,
                 children = mutableListOf(
-                    KaiteyoDeck(name = "N5 Kanji", parentId = "jlpt", color = Color(0xFFC2FC8B), cardCount = 120,
+                    KaiteyoDeck(name = "N5 Kanji", parentId = "jlpt", color = ua.syt0r.kanji.presentation.common.theme.semanticSuccess, cardCount = 120,
                         children = mutableListOf(
                             KaiteyoDeck(name = "N5 Week 1", parentId = "n5_kanji", cardCount = 15),
                             KaiteyoDeck(name = "N5 Week 2", parentId = "n5_kanji", cardCount = 15),
                             KaiteyoDeck(name = "N5 Week 3", parentId = "n5_kanji", cardCount = 15)
                         )),
-                    KaiteyoDeck(name = "N4 Kanji", parentId = "jlpt", color = Color(0xFFFEAB57), cardCount = 180),
-                    KaiteyoDeck(name = "N3 Kanji", parentId = "jlpt", color = Color(0xFF7BC8FF), cardCount = 350)
+                    KaiteyoDeck(name = "N4 Kanji", parentId = "jlpt", color = ua.syt0r.kanji.presentation.common.theme.semanticWarning, cardCount = 180),
+                    KaiteyoDeck(name = "N3 Kanji", parentId = "jlpt", color = ua.syt0r.kanji.presentation.common.theme.semanticInfo, cardCount = 350)
                 )),
             KaiteyoDeck(name = "Vocabulary", icon = "語", isFavorite = true, cardCount = 1200,
                 children = mutableListOf(
@@ -135,8 +137,8 @@ fun DeckManager() {
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
             listOf("Tree", "List", "Grid", "Smart", "Archived").forEach { mode ->
                 val isSelected = viewMode == mode
-                Box(modifier = Modifier.clip(RoundedCornerShape(8.dp))
-                    .background(if (isSelected) accent.primary.copy(alpha = 0.15f) else surfaceColors.surface)
+                Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm))
+                    .background(if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface)
                     .clickable { viewMode = mode }.padding(horizontal = 14.dp, vertical = 6.dp)) {
                     Text(mode, color = if (isSelected) accent.primary else surfaceColors.textSecondary, fontSize = 12.sp)
                 }
@@ -144,7 +146,7 @@ fun DeckManager() {
         }
 
         Spacer(modifier = Modifier.height(12.dp))
-        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
         Spacer(modifier = Modifier.height(8.dp))
 
         // Deck list
@@ -159,8 +161,8 @@ private fun DeckTreeItem(deck: KaiteyoDeck, accent: ua.syt0r.kanji.presentation.
                           surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors, depth: Int = 0) {
     Column {
         Row(
-            modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp))
-                .background(if (deck.isSmart) surfaceColors.surfaceElevated.copy(alpha = 0.5f) else surfaceColors.surface)
+            modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
+                .background(if (deck.isSmart) surfaceColors.surfaceElevated.copy(alpha = Dimens.Alpha.SemiOpaque) else surfaceColors.surface)
                 .clickable { }.padding(horizontal = 12.dp + (depth * 20).dp, vertical = 10.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -168,8 +170,8 @@ private fun DeckTreeItem(deck: KaiteyoDeck, accent: ua.syt0r.kanji.presentation.
             Box(modifier = Modifier.size(8.dp).clip(CircleShape).background(deck.color))
             Spacer(modifier = Modifier.width(10.dp))
             // Icon
-            Box(modifier = Modifier.size(32.dp).clip(RoundedCornerShape(8.dp))
-                .background(if (deck.isVirtual) deck.color.copy(alpha = 0.12f) else deck.color.copy(alpha = 0.1f)),
+            Box(modifier = Modifier.size(32.dp).clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(if (deck.isVirtual) deck.color.copy(alpha = Dimens.Alpha.Light) else deck.color.copy(alpha = Dimens.Alpha.Subtle)),
                 contentAlignment = Alignment.Center) {
                 Text(deck.icon, color = if (deck.isVirtual) deck.color else deck.color, fontSize = 14.sp)
             }

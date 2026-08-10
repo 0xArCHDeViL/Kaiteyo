@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -132,7 +134,7 @@ fun EnhancedNoteEditorScreen(
                                     "- [Links](url), ![Images](url)\n" +
                                     "- | Tables |\n" +
                                     "- > Blockquotes",
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f),
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = Dimens.Alpha.SemiOpaque),
                                     fontSize = 14.sp,
                                     fontFamily = FontFamily.Monospace
                                 )
@@ -480,7 +482,7 @@ private fun BlockquoteDisplay(text: String, surfaceColors: SurfaceColors, accent
         Box(
             modifier = Modifier.width(3.dp)
                 .height(24.dp)
-                .background(accent.primary.copy(alpha = 0.3f))
+                .background(accent.primary.copy(alpha = Dimens.Alpha.Medium))
         )
         Spacer(Modifier.width(8.dp))
         Text(text, fontSize = 14.sp, color = surfaceColors.textMuted)
@@ -491,7 +493,7 @@ private fun BlockquoteDisplay(text: String, surfaceColors: SurfaceColors, accent
 private fun CodeBlockDisplay(code: String) {
     Card(
         modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 4.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f))
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = Dimens.Alpha.SemiOpaque))
     ) {
         Text(
             code,
@@ -507,7 +509,7 @@ private fun CodeBlockDisplay(code: String) {
 private fun ImagePlaceholder(altText: String, url: String, surfaceColors: SurfaceColors) {
     Card(
         modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 4.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f))
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = Dimens.Alpha.Medium))
     ) {
         Column(
             modifier = Modifier.fillMaxWidth().padding(24.dp),
@@ -617,7 +619,7 @@ private fun RenderTable(
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .background(accent.primary.copy(alpha = 0.1f))
+                    .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
             ) {
                 headers.forEachIndexed { i, header ->
                     Text(
@@ -630,11 +632,11 @@ private fun RenderTable(
                         maxLines = 1
                     )
                     if (i < columns - 1) {
-                        Box(modifier = Modifier.width(1.dp).height(20.dp).background(surfaceColors.textMuted.copy(alpha = 0.2f)))
+                        Box(modifier = Modifier.width(1.dp).height(20.dp).background(surfaceColors.textMuted.copy(alpha = Dimens.Alpha.Light)))
                     }
                 }
             }
-            HorizontalDivider(color = surfaceColors.textMuted.copy(alpha = 0.1f))
+            HorizontalDivider(color = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.Subtle))
             // Data rows
             dataLines.forEach { line ->
                 val cells = line.trim('|').split("|").map { it.trim() }
@@ -652,7 +654,7 @@ private fun RenderTable(
                             overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                         )
                         if (i < columns - 1) {
-                            Box(modifier = Modifier.width(1.dp).height(16.dp).background(surfaceColors.textMuted.copy(alpha = 0.1f)))
+                            Box(modifier = Modifier.width(1.dp).height(16.dp).background(surfaceColors.textMuted.copy(alpha = Dimens.Alpha.Subtle)))
                         }
                     }
                 }

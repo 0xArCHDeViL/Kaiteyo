@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.settings
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -147,7 +149,7 @@ fun SettingsSwitchRow(
         modifier = Modifier
             .fillMaxWidth()
             .clip(shape)
-            .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), shape)
+            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), shape)
             .clickable { onToggled() },
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
         shape = shape
@@ -207,7 +209,7 @@ fun SettingsTextButton(
         modifier = Modifier
             .fillMaxWidth()
             .clip(shape)
-            .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), shape)
+            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), shape)
             .clickable(onClick = onClick),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
         shape = shape

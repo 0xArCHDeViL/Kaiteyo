@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.settings
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
@@ -126,7 +128,7 @@ fun AppearanceStudio() {
                 StudioTab.entries.forEach { tab ->
                     val isSelected = selectedTab == tab
                     val tabBg by animateColorAsState(
-                        targetValue = if (isSelected) currentAccent.primary.copy(alpha = 0.15f)
+                        targetValue = if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light)
                             else Color.Transparent,
                         animationSpec = tween(200),
                         label = "tabBg"
@@ -140,7 +142,7 @@ fun AppearanceStudio() {
                     Box(
                         modifier = Modifier
                             .weight(1f)
-                            .clip(RoundedCornerShape(8.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusSm))
                             .background(tabBg)
                             .clickable { selectedTab = tab }
                             .padding(vertical = 8.dp),
@@ -157,7 +159,7 @@ fun AppearanceStudio() {
             }
 
             Spacer(modifier = Modifier.height(8.dp))
-            HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+            HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
             Spacer(modifier = Modifier.height(8.dp))
 
             // Tab content
@@ -180,7 +182,7 @@ fun AppearanceStudio() {
         Spacer(modifier = Modifier.width(12.dp))
         HorizontalDivider(
             modifier = Modifier.fillMaxHeight().width(1.dp),
-            color = surfaceColors.border.copy(alpha = 0.2f)
+            color = surfaceColors.border.copy(alpha = Dimens.Alpha.Light)
         )
         Spacer(modifier = Modifier.width(12.dp))
 
@@ -233,23 +235,23 @@ private fun ThemePresetsTab() {
         BaseMode.entries.forEach { mode ->
             val isSelected = themeState.baseMode == mode
             val cardBg by animateColorAsState(
-                targetValue = if (isSelected) currentAccent.primary.copy(alpha = 0.15f)
+                targetValue = if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light)
                     else surfaceColors.surface,
                 animationSpec = tween(200),
                 label = "baseModeBg"
             )
             val cardBorder by animateColorAsState(
                 targetValue = if (isSelected) currentAccent.primary
-                    else surfaceColors.border.copy(alpha = 0.3f),
+                    else surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
                 animationSpec = tween(200),
                 label = "baseModeBorder"
             )
             Column(
                 modifier = Modifier
                     .weight(1f)
-                    .clip(RoundedCornerShape(10.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusMd))
                     .background(cardBg)
-                    .border(1.dp, cardBorder, RoundedCornerShape(10.dp))
+                    .border(1.dp, cardBorder, RoundedCornerShape(Dimens.RadiusMd))
                     .clickable { themeState.baseMode = mode }
                     .padding(10.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
@@ -257,9 +259,9 @@ private fun ThemePresetsTab() {
                 Box(
                     modifier = Modifier
                         .size(28.dp)
-                        .clip(RoundedCornerShape(6.dp))
+                        .clip(RoundedCornerShape(Dimens.RadiusSm))
                         .background(surfaceForBaseMode(mode).background)
-                        .border(0.5.dp, surfaceColors.border.copy(alpha = 0.2f), RoundedCornerShape(6.dp))
+                        .border(0.5.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusSm))
                 )
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
@@ -291,23 +293,23 @@ private fun ThemePresetsTab() {
             row.forEach { scheme ->
                 val isSelected = currentAccent.name == scheme.name
                 val cardBg by animateColorAsState(
-                    targetValue = if (isSelected) currentAccent.primary.copy(alpha = 0.12f)
+                    targetValue = if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light)
                         else surfaceColors.surface,
                     animationSpec = tween(200),
                     label = "schemeCardBg"
                 )
                 val cardBorder by animateColorAsState(
                     targetValue = if (isSelected) currentAccent.primary
-                        else surfaceColors.border.copy(alpha = 0.2f),
+                        else surfaceColors.border.copy(alpha = Dimens.Alpha.Light),
                     animationSpec = tween(200),
                     label = "schemeCardBorder"
                 )
                 Row(
                     modifier = Modifier
                         .weight(1f)
-                        .clip(RoundedCornerShape(10.dp))
+                        .clip(RoundedCornerShape(Dimens.RadiusMd))
                         .background(cardBg)
-                        .border(1.dp, cardBorder, RoundedCornerShape(10.dp))
+                        .border(1.dp, cardBorder, RoundedCornerShape(Dimens.RadiusMd))
                         .clickable { themeState.accentScheme = scheme }
                         .padding(10.dp),
                     verticalAlignment = Alignment.CenterVertically
@@ -376,9 +378,9 @@ private fun ColorEditorTab() {
             Box(
                 modifier = Modifier
                     .weight(1f)
-                    .clip(RoundedCornerShape(6.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(
-                        if (isSelected) currentAccent.primary.copy(alpha = 0.15f)
+                        if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light)
                         else Color.Transparent
                     )
                     .clickable { selectedColorTarget = target }
@@ -412,9 +414,9 @@ private fun ColorEditorTab() {
         Box(
             modifier = Modifier
                 .size(48.dp)
-                .clip(RoundedCornerShape(10.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
                 .background(currentColor)
-                .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), RoundedCornerShape(10.dp))
+                .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusMd))
         )
         Spacer(modifier = Modifier.width(12.dp))
         Column {
@@ -447,9 +449,9 @@ private fun ColorEditorTab() {
     var green by remember { mutableStateOf((currentColor.green * 255).toInt()) }
     var blue by remember { mutableStateOf((currentColor.blue * 255).toInt()) }
 
-    ColorSlider("R", red, 0..255, Color.Red.copy(alpha = 0.3f)) { red = it }
-    ColorSlider("G", green, 0..255, Color.Green.copy(alpha = 0.3f)) { green = it }
-    ColorSlider("B", blue, 0..255, Color.Blue.copy(alpha = 0.3f)) { blue = it }
+    ColorSlider("R", red, 0..255, Color.Red.copy(alpha = Dimens.Alpha.Medium)) { red = it }
+    ColorSlider("G", green, 0..255, Color.Green.copy(alpha = Dimens.Alpha.Medium)) { green = it }
+    ColorSlider("B", blue, 0..255, Color.Blue.copy(alpha = Dimens.Alpha.Medium)) { blue = it }
 
     Spacer(modifier = Modifier.height(12.dp))
 
@@ -473,9 +475,9 @@ private fun ColorEditorTab() {
         Spacer(modifier = Modifier.width(4.dp))
         Box(
             modifier = Modifier
-                .clip(RoundedCornerShape(8.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusSm))
                 .background(surfaceColors.surfaceInteractive)
-                .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), RoundedCornerShape(8.dp))
+                .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusSm))
                 .padding(horizontal = 12.dp, vertical = 8.dp)
         ) {
             BasicTextField(
@@ -546,14 +548,14 @@ private fun GradientEditorTab() {
         modifier = Modifier
             .fillMaxWidth()
             .height(60.dp)
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(
                 Brush.linearGradient(
                     colors = listOf(gradient.start, gradient.end),
                     tileMode = TileMode.Clamp
                 )
             )
-            .border(1.dp, surfaceColors.border.copy(alpha = 0.2f), RoundedCornerShape(12.dp))
+            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusMd))
     )
 
     Spacer(modifier = Modifier.height(16.dp))
@@ -574,7 +576,7 @@ private fun GradientEditorTab() {
                 .size(24.dp)
                 .clip(CircleShape)
                 .background(gradient.start)
-                .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), CircleShape)
+                .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), CircleShape)
         )
         Spacer(modifier = Modifier.width(8.dp))
         Text(
@@ -590,7 +592,7 @@ private fun GradientEditorTab() {
                 .size(24.dp)
                 .clip(CircleShape)
                 .background(gradient.end)
-                .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), CircleShape)
+                .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), CircleShape)
         )
         Spacer(modifier = Modifier.width(8.dp))
         Text(
@@ -662,10 +664,10 @@ private fun GradientEditorTab() {
             Box(
                 modifier = Modifier
                     .size(48.dp, 32.dp)
-                    .clip(RoundedCornerShape(6.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(Brush.linearGradient(listOf(start, end)))
                     .clickable { /* apply preset */ }
-                    .border(0.5.dp, surfaceColors.border.copy(alpha = 0.2f), RoundedCornerShape(6.dp))
+                    .border(0.5.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusSm))
             )
         }
     }
@@ -722,15 +724,15 @@ private fun MotionStudioTab() {
             Box(
                 modifier = Modifier
                     .weight(1f)
-                    .clip(RoundedCornerShape(8.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(
-                        if (isSelected) currentAccent.primary.copy(alpha = 0.15f)
+                        if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light)
                         else surfaceColors.surface
                     )
                     .border(
                         1.dp,
-                        if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = 0.2f),
-                        RoundedCornerShape(8.dp)
+                        if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light),
+                        RoundedCornerShape(Dimens.RadiusSm)
                     )
                     .clickable {
                         themeState.animationConfig = themeState.animationConfig.copy(speed = speed)
@@ -810,9 +812,9 @@ private fun MotionStudioTab() {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .clip(RoundedCornerShape(8.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusSm))
                 .background(
-                    if (isSelected) currentAccent.primary.copy(alpha = 0.1f)
+                    if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Subtle)
                     else Color.Transparent
                 )
                 .clickable {
@@ -864,7 +866,7 @@ private fun MotionStudioTab() {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .clickable {
                 themeState.animationConfig = themeState.animationConfig.copy(
                     reducedMotion = !themeState.animationConfig.reducedMotion
@@ -876,7 +878,7 @@ private fun MotionStudioTab() {
         Box(
             modifier = Modifier
                 .size(20.dp)
-                .clip(RoundedCornerShape(4.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusXs))
                 .background(
                     if (themeState.animationConfig.reducedMotion) currentAccent.primary
                     else surfaceColors.border
@@ -940,15 +942,15 @@ private fun LayoutStudioTab() {
             Box(
                 modifier = Modifier
                     .weight(1f)
-                    .clip(RoundedCornerShape(8.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(
-                        if (isSelected) currentAccent.primary.copy(alpha = 0.15f)
+                        if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light)
                         else surfaceColors.surface
                     )
                     .border(
                         1.dp,
-                        if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = 0.2f),
-                        RoundedCornerShape(8.dp)
+                        if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light),
+                        RoundedCornerShape(Dimens.RadiusSm)
                     )
                     .clickable {
                         themeState.layoutConfig = themeState.layoutConfig.copy(density = density)
@@ -983,15 +985,15 @@ private fun LayoutStudioTab() {
             Box(
                 modifier = Modifier
                     .weight(1f)
-                    .clip(RoundedCornerShape(8.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(
-                        if (isSelected) currentAccent.primary.copy(alpha = 0.15f)
+                        if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light)
                         else surfaceColors.surface
                     )
                     .border(
                         1.dp,
-                        if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = 0.2f),
-                        RoundedCornerShape(8.dp)
+                        if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light),
+                        RoundedCornerShape(Dimens.RadiusSm)
                     )
                     .clickable {
                         themeState.radiusConfig = themeState.radiusConfig.copy(style = style)
@@ -1052,9 +1054,9 @@ private fun LayoutStudioTab() {
             Box(
                 modifier = Modifier
                     .weight(1f)
-                    .clip(RoundedCornerShape(6.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(
-                        if (isSelected) currentAccent.primary.copy(alpha = 0.12f)
+                        if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light)
                         else Color.Transparent
                     )
                     .clickable {
@@ -1088,9 +1090,9 @@ private fun LayoutStudioTab() {
             Box(
                 modifier = Modifier
                     .weight(1f)
-                    .clip(RoundedCornerShape(6.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(
-                        if (isSelected) currentAccent.primary.copy(alpha = 0.12f)
+                        if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light)
                         else Color.Transparent
                     )
                     .clickable {
@@ -1178,7 +1180,7 @@ private fun LayoutStudioTab() {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .clickable {
                 themeState.layoutConfig = themeState.layoutConfig.copy(
                     transparencyEnabled = !themeState.layoutConfig.transparencyEnabled
@@ -1190,7 +1192,7 @@ private fun LayoutStudioTab() {
         Box(
             modifier = Modifier
                 .size(20.dp)
-                .clip(RoundedCornerShape(4.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusXs))
                 .background(
                     if (themeState.layoutConfig.transparencyEnabled) currentAccent.primary
                     else surfaceColors.border
@@ -1275,9 +1277,9 @@ private fun ThemeExportTab() {
         modifier = Modifier
             .fillMaxWidth()
             .height(200.dp)
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .background(surfaceColors.surfaceInteractive)
-            .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), RoundedCornerShape(8.dp))
+            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusSm))
             .padding(12.dp)
     ) {
         Text(
@@ -1302,7 +1304,7 @@ private fun ThemeExportTab() {
     }
 
     Spacer(modifier = Modifier.height(20.dp))
-    HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+    HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
     Spacer(modifier = Modifier.height(12.dp))
 
     // Import
@@ -1318,12 +1320,12 @@ private fun ThemeExportTab() {
         modifier = Modifier
             .fillMaxWidth()
             .height(100.dp)
-            .clip(RoundedCornerShape(8.dp))
-            .background(surfaceColors.surfaceInteractive.copy(alpha = 0.5f))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
+            .background(surfaceColors.surfaceInteractive.copy(alpha = Dimens.Alpha.SemiOpaque))
             .border(
                 1.dp,
-                surfaceColors.border.copy(alpha = 0.3f),
-                RoundedCornerShape(8.dp)
+                surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
+                RoundedCornerShape(Dimens.RadiusSm)
             )
             .clickable { /* Open file picker */ },
         contentAlignment = Alignment.Center
@@ -1356,7 +1358,7 @@ private fun ThemeExportTab() {
     Box(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .background(surfaceColors.surface)
             .padding(16.dp),
         contentAlignment = Alignment.Center
@@ -1385,7 +1387,7 @@ private fun LivePreviewPanel() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .clip(RoundedCornerShape(16.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusLg))
             .background(previewSurface.background)
             .padding(16.dp)
     ) {
@@ -1408,7 +1410,7 @@ private fun LivePreviewPanel() {
         Row(
             modifier = Modifier
                 .fillMaxSize()
-                .clip(RoundedCornerShape(12.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
                 .background(previewSurface.surface)
                 .padding(8.dp)
         ) {
@@ -1417,7 +1419,7 @@ private fun LivePreviewPanel() {
                 modifier = Modifier
                     .width(80.dp)
                     .fillMaxHeight()
-                    .clip(RoundedCornerShape(8.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(previewSurface.surfaceElevated)
                     .padding(6.dp),
                 verticalArrangement = Arrangement.spacedBy(4.dp)
@@ -1427,8 +1429,8 @@ private fun LivePreviewPanel() {
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(20.dp)
-                        .clip(RoundedCornerShape(4.dp))
-                        .background(currentAccent.primary.copy(alpha = 0.2f)),
+                        .clip(RoundedCornerShape(Dimens.RadiusXs))
+                        .background(currentAccent.primary.copy(alpha = Dimens.Alpha.Light)),
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
@@ -1447,9 +1449,9 @@ private fun LivePreviewPanel() {
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .clip(RoundedCornerShape(4.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusXs))
                             .background(
-                                if (isActive) currentAccent.primary.copy(alpha = 0.1f)
+                                if (isActive) currentAccent.primary.copy(alpha = Dimens.Alpha.Subtle)
                                 else Color.Transparent
                             )
                             .padding(horizontal = 4.dp, vertical = 3.dp),
@@ -1543,7 +1545,7 @@ private fun LivePreviewPanel() {
                         Column(
                             modifier = Modifier
                                 .weight(1f)
-                                .clip(RoundedCornerShape(6.dp))
+                                .clip(RoundedCornerShape(Dimens.RadiusSm))
                                 .background(previewSurface.surfaceElevated)
                                 .padding(6.dp)
                         ) {
@@ -1569,7 +1571,7 @@ private fun LivePreviewPanel() {
                     modifier = Modifier
                         .fillMaxWidth()
                         .weight(1f)
-                        .clip(RoundedCornerShape(6.dp))
+                        .clip(RoundedCornerShape(Dimens.RadiusSm))
                         .background(previewSurface.surfaceElevated)
                         .padding(8.dp)
                 ) {

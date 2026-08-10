@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -170,7 +172,7 @@ private fun BackupsList(
         if (backups.isEmpty()) {
             Box(Modifier.fillMaxWidth().weight(1f), contentAlignment = Alignment.Center) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Icon(Icons.Default.Backup, null, Modifier.size(48.dp), tint = surfaceColors.textMuted.copy(alpha = 0.3f))
+                    Icon(Icons.Default.Backup, null, Modifier.size(48.dp), tint = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.Medium))
                     Spacer(Modifier.height(8.dp))
                     Text("No backups yet", style = MaterialTheme.typography.bodyMedium, color = surfaceColors.textMuted)
                     Text("Create your first backup to protect your data",
@@ -216,7 +218,7 @@ private fun BackupListItem(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(if (backup.isAutomatic) Icons.Default.Schedule else Icons.Default.Backup,
-                null, Modifier.size(24.dp), tint = if (backup.isAutomatic) Color(0xFFFEAB57) else MaterialTheme.colorScheme.primary)
+                null, Modifier.size(24.dp), tint = if (backup.isAutomatic) ua.syt0r.kanji.presentation.common.theme.semanticWarning else MaterialTheme.colorScheme.primary)
             Spacer(Modifier.width(12.dp))
             Column(Modifier.weight(1f)) {
                 Text(backup.filename, fontWeight = FontWeight.Medium, fontSize = 13.sp, maxLines = 1)
@@ -226,7 +228,7 @@ private fun BackupListItem(
                     Text(backup.createdAt.toString().take(19).replace("T", " "), fontSize = 11.sp, color = surfaceColors.textMuted)
                 }
                 if (backup.isAutomatic) {
-                    Text("Automatic backup", fontSize = 10.sp, color = Color(0xFFFEAB57))
+                    Text("Automatic backup", fontSize = 10.sp, color = ua.syt0r.kanji.presentation.common.theme.semanticWarning)
                 }
                 if (backup.notes.isNotBlank()) {
                     Text(backup.notes, fontSize = 10.sp, color = surfaceColors.textMuted, maxLines = 1)

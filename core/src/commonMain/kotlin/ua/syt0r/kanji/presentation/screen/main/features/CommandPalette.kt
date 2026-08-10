@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.features
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -170,7 +172,7 @@ fun CommandPaletteOverlay(controller: CommandPaletteController = KaiteyoPalette.
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color.Black.copy(alpha = 0.6f))
+                .background(Color.Black.copy(alpha = Dimens.Alpha.SemiOpaque))
                 .clickable(
                     interactionSource = remember { MutableInteractionSource() },
                     indication = null
@@ -193,7 +195,7 @@ fun CommandPaletteOverlay(controller: CommandPaletteController = KaiteyoPalette.
                 ) {
                     Column(
                         modifier = Modifier
-                            .clip(RoundedCornerShape(18.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusXl))
                             .background(surfaceColors.surfaceElevated)
                     ) {
                         PaletteSearchField(
@@ -349,7 +351,7 @@ private fun PaletteResultItem(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(10.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(
                 if (isSelected) accent.primary.copy(alpha = 0.10f)
                 else Color.Transparent
@@ -362,7 +364,7 @@ private fun PaletteResultItem(
         Box(
             modifier = Modifier
                 .size(30.dp)
-                .clip(RoundedCornerShape(8.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusSm))
                 .background(
                     if (isSelected) accent.primary.copy(alpha = 0.18f)
                     else surfaceColors.surfaceInteractive

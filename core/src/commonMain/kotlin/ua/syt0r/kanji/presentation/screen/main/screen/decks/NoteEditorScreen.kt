@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -116,7 +118,7 @@ fun NoteEditorFullScreen(
                     leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(18.dp)) },
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 4.dp),
-                    shape = RoundedCornerShape(10.dp)
+                    shape = RoundedCornerShape(Dimens.RadiusMd)
                 )
 
                 LazyColumn(
@@ -130,7 +132,7 @@ fun NoteEditorFullScreen(
                                 editContent = card.notes
                             },
                             colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-                            shape = RoundedCornerShape(10.dp)
+                            shape = RoundedCornerShape(Dimens.RadiusMd)
                         ) {
                             Row(
                                 modifier = Modifier.fillMaxWidth().padding(12.dp),
@@ -218,11 +220,11 @@ fun NoteEditorFullScreen(
                         placeholder = { Text("Write your notes here...\n\nMarkdown supported:\n- **Bold**\n- *Italic*\n- [Links](url)\n- ![Images](file.png)\n- Tables, code blocks, checklists, etc.") },
                         textStyle = TextStyle(fontSize = 14.sp, color = surfaceColors.textPrimary, lineHeight = 20.sp),
                         colors = OutlinedTextFieldDefaults.colors(
-                            focusedBorderColor = accent.primary.copy(alpha = 0.5f),
-                            unfocusedBorderColor = surfaceColors.border.copy(alpha = 0.3f),
+                            focusedBorderColor = accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque),
+                            unfocusedBorderColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
                             cursorColor = accent.primary
                         ),
-                        shape = RoundedCornerShape(10.dp)
+                        shape = RoundedCornerShape(Dimens.RadiusMd)
                     )
                 }
             }
@@ -329,7 +331,7 @@ private fun NotePreview(
                     if (inCodeBlock) {
                         Box(
                             modifier = Modifier.fillMaxWidth()
-                                .clip(RoundedCornerShape(6.dp))
+                                .clip(RoundedCornerShape(Dimens.RadiusSm))
                                 .background(surfaceColors.surfaceInteractive)
                                 .padding(8.dp)
                         ) {
@@ -349,7 +351,7 @@ private fun NotePreview(
                 line.startsWith("## ") -> Text(line.removePrefix("## "), fontSize = 18.sp, fontWeight = FontWeight.Bold, color = surfaceColors.textPrimary)
                 line.startsWith("### ") -> Text(line.removePrefix("### "), fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = surfaceColors.textPrimary)
                 line.startsWith("> ") -> Text(line.removePrefix("> "), fontSize = 13.sp, color = surfaceColors.textMuted,
-                    modifier = Modifier.padding(start = 8.dp).then(Modifier.fillMaxWidth().background(surfaceColors.surfaceInteractive.copy(alpha = 0.3f)).padding(8.dp)))
+                    modifier = Modifier.padding(start = 8.dp).then(Modifier.fillMaxWidth().background(surfaceColors.surfaceInteractive.copy(alpha = Dimens.Alpha.Medium)).padding(8.dp)))
                 line.startsWith("- [ ] ") -> Text("☐ ${line.removePrefix("- [ ] ")}", fontSize = 13.sp, color = surfaceColors.textPrimary)
                 line.startsWith("- [x] ") -> Text("☑ ${line.removePrefix("- [x] ")}", fontSize = 13.sp, color = surfaceColors.textPrimary)
                 line.startsWith("- ") -> Text("• ${line.removePrefix("- ")}", fontSize = 13.sp, color = surfaceColors.textPrimary)
@@ -371,7 +373,7 @@ private fun NotePreview(
                 line.startsWith("[") -> {
                     val text = line.substringAfter("[").substringBefore("]")
                     val url = line.substringAfter("(").substringBefore(")")
-                    Text(text, fontSize = 13.sp, color = androidx.compose.ui.graphics.Color(0xFF7BC8FF),
+                    Text(text, fontSize = 13.sp, color = androidx.compose.ui.graphics.ua.syt0r.kanji.presentation.common.theme.semanticInfo,
                         textDecoration = TextDecoration.Underline)
                 }
                 line.isBlank() -> Spacer(Modifier.height(4.dp))

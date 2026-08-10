@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.ui
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateDpAsState
@@ -150,7 +152,7 @@ fun SearchScreenUI(
             Box(
                 modifier = Modifier
                     .fillMaxSize()
-                    .background(MaterialTheme.colorScheme.scrim.copy(alpha = 0.5f))
+                    .background(MaterialTheme.colorScheme.scrim.copy(alpha = Dimens.Alpha.SemiOpaque))
                     .clickable(
                         interactionSource = remember { MutableInteractionSource() },
                         indication = null
@@ -161,7 +163,7 @@ fun SearchScreenUI(
                     modifier = Modifier
                         .fillMaxWidth(0.92f)
                         .fillMaxHeight(0.85f)
-                        .clip(RoundedCornerShape(32.dp))
+                        .clip(RoundedCornerShape(Dimens.Radius2xl))
                         .background(MaterialTheme.colorScheme.surface)
                         .clickable(
                             interactionSource = remember { MutableInteractionSource() },
@@ -192,7 +194,7 @@ fun SearchScreenUI(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .height(1.dp)
-                                .background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.1f))
+                                .background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = Dimens.Alpha.Subtle))
                         )
 
                         RadicalSearch(

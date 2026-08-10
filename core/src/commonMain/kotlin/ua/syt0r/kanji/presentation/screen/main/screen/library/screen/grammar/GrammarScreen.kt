@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.expandVertically
@@ -122,7 +124,7 @@ fun GrammarScreen(
                                 )
                                 onNavigateToPractice(MainDestination.GrammarPractice(config))
                             },
-                            shape = RoundedCornerShape(20.dp),
+                            shape = RoundedCornerShape(Dimens.RadiusXl),
                             modifier = Modifier.fillMaxWidth().height(54.dp).padding(horizontal = 16.dp)
                         ) {
                             Text("Practice Chapter")
@@ -149,7 +151,7 @@ fun GrammarChapterList(
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .clip(RoundedCornerShape(16.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusLg))
                     .clickable { onChapterClick(chapter) },
                 colors = CardDefaults.cardColors(
                     containerColor = MaterialTheme.colorScheme.surfaceVariant
@@ -165,8 +167,8 @@ fun GrammarChapterList(
                     Box(
                         modifier = Modifier
                             .size(48.dp)
-                            .clip(RoundedCornerShape(12.dp))
-                            .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.1f)),
+                            .clip(RoundedCornerShape(Dimens.RadiusMd))
+                            .background(MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Subtle)),
                         contentAlignment = Alignment.Center
                     ) {
                         Icon(
@@ -223,7 +225,7 @@ fun GrammarPointCard(point: GrammarPoint) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(16.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusLg))
             .clickable { expanded = !expanded },
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.surfaceVariant
@@ -276,7 +278,7 @@ fun GrammarPointCard(point: GrammarPoint) {
                 exit = shrinkVertically(tween(300)) + fadeOut(tween(300))
             ) {
                 Column(modifier = Modifier.fillMaxWidth().padding(top = 16.dp)) {
-                    Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.1f))
+                    Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = Dimens.Alpha.Subtle))
                     Spacer(modifier = Modifier.height(16.dp))
                     
                     if (point.formulas.isNotEmpty()) {
@@ -304,7 +306,7 @@ fun GrammarPointCard(point: GrammarPoint) {
                         point.examples.forEach { example ->
                             Surface(
                                 color = MaterialTheme.colorScheme.surface,
-                                shape = RoundedCornerShape(8.dp),
+                                shape = RoundedCornerShape(Dimens.RadiusSm),
                                 modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)
                             ) {
                                 Text(
@@ -321,9 +323,9 @@ fun GrammarPointCard(point: GrammarPoint) {
                         Spacer(modifier = Modifier.height(8.dp))
                         Card(
                             colors = CardDefaults.cardColors(
-                                containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.5f)
+                                containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = Dimens.Alpha.SemiOpaque)
                             ),
-                            shape = RoundedCornerShape(8.dp)
+                            shape = RoundedCornerShape(Dimens.RadiusSm)
                         ) {
                             Text(
                                 text = point.notes,

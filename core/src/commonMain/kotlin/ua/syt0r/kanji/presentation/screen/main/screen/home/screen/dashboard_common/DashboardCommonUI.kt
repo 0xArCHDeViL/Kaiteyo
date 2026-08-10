@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.dashboard_common
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -133,7 +135,7 @@ fun DeckDashboardListState.addMergeItems(
                 hintContent = {
                     Text(
                         text = strings.mergeTitleHint,
-                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = Dimens.Alpha.SemiOpaque)
                     )
                 },
             )

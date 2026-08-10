@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.dialog
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -183,7 +185,7 @@ private fun DialogContent(
                         hintContent = {
                             Text(
                                 text = stringResource(Res.string.save_word_dialog_create_deck_title_hint),
-                                color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
+                                color = MaterialTheme.colorScheme.onSurface.copy(alpha = Dimens.Alpha.SemiOpaque)
                             )
                         }
                     )

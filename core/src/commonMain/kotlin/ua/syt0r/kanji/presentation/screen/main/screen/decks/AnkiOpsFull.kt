@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -206,7 +208,7 @@ private fun OperationsTab(
         Card(
             modifier = Modifier.fillMaxWidth().padding(12.dp),
             colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-            shape = RoundedCornerShape(12.dp)
+            shape = RoundedCornerShape(Dimens.RadiusMd)
         ) {
             Column(Modifier.padding(12.dp)) {
                 Text("Selected Cards", fontWeight = FontWeight.Medium, fontSize = 13.sp, color = surfaceColors.textPrimary)
@@ -221,7 +223,7 @@ private fun OperationsTab(
                     leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(16.dp)) },
                     singleLine = true,
                     textStyle = androidx.compose.ui.text.TextStyle(fontSize = 12.sp),
-                    shape = RoundedCornerShape(8.dp)
+                    shape = RoundedCornerShape(Dimens.RadiusSm)
                 )
                 Spacer(Modifier.height(8.dp))
                 LazyColumn(modifier = Modifier.heightIn(max = 150.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -292,17 +294,17 @@ private fun OperationItem(
             .fillMaxWidth()
             .then(if (enabled) Modifier.clickable(onClick = onClick) else Modifier),
         colors = CardDefaults.cardColors(
-            containerColor = if (enabled) surfaceColors.surfaceElevated else surfaceColors.surfaceElevated.copy(alpha = 0.5f)
+            containerColor = if (enabled) surfaceColors.surfaceElevated else surfaceColors.surfaceElevated.copy(alpha = Dimens.Alpha.SemiOpaque)
         ),
-        shape = RoundedCornerShape(10.dp)
+        shape = RoundedCornerShape(Dimens.RadiusMd)
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Box(
-                modifier = Modifier.size(36.dp).clip(RoundedCornerShape(8.dp))
-                    .background(if (enabled) accent.primary.copy(alpha = 0.1f) else surfaceColors.border.copy(alpha = 0.2f)),
+                modifier = Modifier.size(36.dp).clip(RoundedCornerShape(Dimens.RadiusSm))
+                    .background(if (enabled) accent.primary.copy(alpha = Dimens.Alpha.Subtle) else surfaceColors.border.copy(alpha = Dimens.Alpha.Light)),
                 contentAlignment = Alignment.Center
             ) {
                 operation.icon()
@@ -601,7 +603,7 @@ private fun PreviewTab(
             Card(
                 modifier = Modifier.weight(1f).fillMaxWidth(),
                 colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-                shape = RoundedCornerShape(16.dp)
+                shape = RoundedCornerShape(Dimens.RadiusLg)
             ) {
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
@@ -620,8 +622,8 @@ private fun PreviewTab(
                                 Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                                     currentCard.tagNames.forEach { tag ->
                                         Box(
-                                            modifier = Modifier.clip(RoundedCornerShape(4.dp))
-                                                .background(accent.primary.copy(alpha = 0.1f))
+                                            modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusXs))
+                                                .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                                                 .padding(horizontal = 6.dp, vertical = 2.dp)
                                         ) { Text(tag, fontSize = 10.sp, color = accent.primary) }
                                     }
@@ -776,7 +778,7 @@ private fun StudyByDialog(
                                     verticalAlignment = Alignment.CenterVertically
                                 ) {
                                     Text("N$level", fontSize = 18.sp, fontWeight = FontWeight.Bold,
-                                        color = when (level) { 1 -> Color(0xFFFF6B6B); 2 -> Color(0xFFFEAB57); 3 -> Color(0xFFFFD93D); 4 -> Color(0xFFC2FC8B); else -> Color(0xFF7BC8FF) })
+                                        color = when (level) { 1 -> ua.syt0r.kanji.presentation.common.theme.semanticError; 2 -> ua.syt0r.kanji.presentation.common.theme.semanticWarning; 3 -> ua.syt0r.kanji.presentation.common.theme.semanticWarning; 4 -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess; else -> ua.syt0r.kanji.presentation.common.theme.semanticInfo })
                                     Spacer(Modifier.width(8.dp))
                                     Text("JLPT N$level", fontSize = 14.sp, color = surfaceColors.textPrimary)
                                     Spacer(Modifier.weight(1f))

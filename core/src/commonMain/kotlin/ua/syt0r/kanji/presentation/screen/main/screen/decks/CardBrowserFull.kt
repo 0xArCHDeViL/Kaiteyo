@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.*
@@ -225,7 +227,7 @@ fun CardBrowserFullScreen(
                 accent = accent
             )
 
-            HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+            HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
 
             // ── Card Rows ──
             if (processedCards.isEmpty()) {
@@ -259,7 +261,7 @@ fun CardBrowserFullScreen(
                             surfaceColors = surfaceColors,
                             accent = accent
                         )
-                        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.15f))
+                        HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Light))
                     }
                 }
             }
@@ -386,11 +388,11 @@ private fun BrowserSearchBar(
                 singleLine = true,
                 textStyle = androidx.compose.ui.text.TextStyle(fontSize = 13.sp, color = surfaceColors.textPrimary),
                 colors = OutlinedTextFieldDefaults.colors(
-                    focusedBorderColor = accent.primary.copy(alpha = 0.5f),
-                    unfocusedBorderColor = surfaceColors.border.copy(alpha = 0.3f),
+                    focusedBorderColor = accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque),
+                    unfocusedBorderColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
                     cursorColor = accent.primary
                 ),
-                shape = RoundedCornerShape(10.dp),
+                shape = RoundedCornerShape(Dimens.RadiusMd),
                 keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
                 keyboardActions = KeyboardActions(onSearch = { /* trigger search */ })
             )
@@ -403,28 +405,28 @@ private fun BrowserSearchBar(
                 if (query.isNotBlank()) {
                     AssistChip(onClick = { onQueryChange("") }, label = { Text("\"$query\"", fontSize = 10.sp, maxLines = 1) },
                         trailingIcon = { Icon(Icons.Default.Close, null, Modifier.size(12.dp)) },
-                        modifier = Modifier.height(24.dp), shape = RoundedCornerShape(12.dp))
+                        modifier = Modifier.height(24.dp), shape = RoundedCornerShape(Dimens.RadiusMd))
                 }
                 flagFilter?.let { f ->
                     AssistChip(onClick = { onFlagFilterChange(null) }, label = { Text("Flag: ${f.displayName}", fontSize = 10.sp) },
                         leadingIcon = { Box(Modifier.size(8.dp).clip(CircleShape).background(f.colorFromHex())) },
                         trailingIcon = { Icon(Icons.Default.Close, null, Modifier.size(12.dp)) },
-                        modifier = Modifier.height(24.dp), shape = RoundedCornerShape(12.dp))
+                        modifier = Modifier.height(24.dp), shape = RoundedCornerShape(Dimens.RadiusMd))
                 }
                 statusFilter?.let { s ->
                     AssistChip(onClick = { onStatusFilterChange(null) }, label = { Text("Status: ${s.displayName}", fontSize = 10.sp) },
                         trailingIcon = { Icon(Icons.Default.Close, null, Modifier.size(12.dp)) },
-                        modifier = Modifier.height(24.dp), shape = RoundedCornerShape(12.dp))
+                        modifier = Modifier.height(24.dp), shape = RoundedCornerShape(Dimens.RadiusMd))
                 }
                 deckFilter?.let { d ->
                     AssistChip(onClick = { onDeckFilterChange(null) }, label = { Text("Deck: $d", fontSize = 10.sp, maxLines = 1) },
                         trailingIcon = { Icon(Icons.Default.Close, null, Modifier.size(12.dp)) },
-                        modifier = Modifier.height(24.dp), shape = RoundedCornerShape(12.dp))
+                        modifier = Modifier.height(24.dp), shape = RoundedCornerShape(Dimens.RadiusMd))
                 }
                 tagFilter?.let { t ->
                     AssistChip(onClick = { onTagFilterChange(null) }, label = { Text("Tag: $t", fontSize = 10.sp, maxLines = 1) },
                         trailingIcon = { Icon(Icons.Default.Close, null, Modifier.size(12.dp)) },
-                        modifier = Modifier.height(24.dp), shape = RoundedCornerShape(12.dp))
+                        modifier = Modifier.height(24.dp), shape = RoundedCornerShape(Dimens.RadiusMd))
                 }
             }
         }
@@ -434,7 +436,7 @@ private fun BrowserSearchBar(
             Card(
                 modifier = Modifier.fillMaxWidth().padding(top = 4.dp),
                 colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceInteractive),
-                shape = RoundedCornerShape(8.dp)
+                shape = RoundedCornerShape(Dimens.RadiusSm)
             ) {
                 Column(Modifier.padding(8.dp)) {
                     Text("Search Tips", fontWeight = FontWeight.Medium, fontSize = 12.sp, color = surfaceColors.textPrimary)
@@ -472,7 +474,7 @@ private fun FilterPanel(
     Card(
         modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 4.dp),
         colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-        shape = RoundedCornerShape(12.dp)
+        shape = RoundedCornerShape(Dimens.RadiusMd)
     ) {
         Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             // Flag filter
@@ -622,7 +624,7 @@ private fun BrowserCardRow(
     accent: KaiteyoAccentScheme
 ) {
     val bgColor by animateColorAsState(
-        targetValue = if (isSelected) accent.primary.copy(alpha = 0.08f)
+        targetValue = if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.Subtle)
         else androidx.compose.ui.graphics.Color.Transparent,
         animationSpec = tween(150)
     )
@@ -670,8 +672,8 @@ private fun BrowserCardRow(
                             items(card.tagNames.take(3)) { tag ->
                                 Box(
                                     modifier = Modifier
-                                        .clip(RoundedCornerShape(4.dp))
-                                        .background(accent.primary.copy(alpha = 0.1f))
+                                        .clip(RoundedCornerShape(Dimens.RadiusXs))
+                                        .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                                         .padding(horizontal = 4.dp, vertical = 1.dp)
                                 ) {
                                     Text(tag, fontSize = 9.sp, color = accent.primary, maxLines = 1)
@@ -694,11 +696,11 @@ private fun BrowserCardRow(
                     }
                     "status" -> Text(card.status.displayName, fontSize = 10.sp,
                         color = when (card.status) {
-                            CardStatus.New -> Color(0xFF7BC8FF)
-                            CardStatus.Learning -> Color(0xFFFEAB57)
-                            CardStatus.Young -> Color(0xFFC2FC8B)
+                            CardStatus.New -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
+                            CardStatus.Learning -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+                            CardStatus.Young -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
                             CardStatus.Mature -> Color(0xFF4CAF50)
-                            CardStatus.Relearning -> Color(0xFFFF6B6B)
+                            CardStatus.Relearning -> ua.syt0r.kanji.presentation.common.theme.semanticError
                             CardStatus.Suspended -> surfaceColors.textMuted
                             CardStatus.Buried -> surfaceColors.textMuted
                             CardStatus.Archived -> surfaceColors.textMuted
@@ -706,7 +708,7 @@ private fun BrowserCardRow(
                     "interval" -> Text(formatInterval(card.interval), fontSize = 11.sp, color = surfaceColors.textPrimary)
                     "ease" -> Text(formatFloat(card.ease, 1), fontSize = 11.sp, color = surfaceColors.textPrimary)
                     "reviews" -> Text("${card.reviewCount}", fontSize = 11.sp, color = surfaceColors.textPrimary)
-                    "lapses" -> Text("${card.lapses}", fontSize = 11.sp, color = if (card.lapses > 0) Color(0xFFFF6B6B) else surfaceColors.textMuted)
+                    "lapses" -> Text("${card.lapses}", fontSize = 11.sp, color = if (card.lapses > 0) ua.syt0r.kanji.presentation.common.theme.semanticError else surfaceColors.textMuted)
                     "created" -> Text(card.createdAt, fontSize = 10.sp, color = surfaceColors.textMuted)
                     "modified" -> Text(card.modifiedAt, fontSize = 10.sp, color = surfaceColors.textMuted)
                     "lastReview" -> Text(card.lastReviewed, fontSize = 10.sp, color = surfaceColors.textMuted)
@@ -741,12 +743,12 @@ private fun BrowserSelectionBar(
     surfaceColors: SurfaceColors,
     accent: KaiteyoAccentScheme
 ) {
-    val shape = RoundedCornerShape(24.dp)
+    val shape = RoundedCornerShape(Dimens.RadiusXl)
     Surface(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 12.dp)
-            .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), shape)
+            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), shape)
             .clip(shape),
         color = surfaceColors.surfaceElevated,
         shape = shape,
@@ -907,8 +909,8 @@ private fun CardDetailDialog(
                     LazyRow(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                         items(card.tagNames) { tag ->
                             Box(
-                                modifier = Modifier.clip(RoundedCornerShape(4.dp))
-                                    .background(accent.primary.copy(alpha = 0.1f))
+                                modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusXs))
+                                    .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                                     .padding(horizontal = 6.dp, vertical = 2.dp)
                             ) { Text(tag, fontSize = 10.sp, color = accent.primary) }
                         }

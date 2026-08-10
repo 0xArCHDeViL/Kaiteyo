@@ -247,13 +247,13 @@ fun PracticeConfigurationContainer(
                 .shadow(
                     elevation = 16.dp,
                     shape = shape,
-                    ambientColor = accent.primary.copy(alpha = 0.08f),
+                    ambientColor = accent.primary.copy(alpha = Dimens.Alpha.Subtle),
                     spotColor = accent.primary.copy(alpha = 0.16f)
                 )
                 .clip(shape)
                 .border(
                     width = 1.dp,
-                    color = surfaceColors.border.copy(alpha = 0.3f),
+                    color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
                     shape = shape
                 ),
             color = surfaceColors.surfaceElevated,
@@ -739,7 +739,7 @@ fun PracticeSummaryItem(
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(Dimens.RadiusLg),
         color = LocalSurfaceColors.current.surfaceElevated,
-        border = androidx.compose.foundation.BorderStroke(1.dp, LocalSurfaceColors.current.border.copy(alpha = 0.5f))
+        border = androidx.compose.foundation.BorderStroke(1.dp, LocalSurfaceColors.current.border.copy(alpha = Dimens.Alpha.SemiOpaque))
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
@@ -751,7 +751,7 @@ fun PracticeSummaryItem(
                 modifier = Modifier
                     .size(32.dp)
                     .clip(CircleShape)
-                    .background(LocalKaiteyoAccent.current.primary.copy(alpha = 0.1f)),
+                    .background(LocalKaiteyoAccent.current.primary.copy(alpha = Dimens.Alpha.Subtle)),
                 contentAlignment = Alignment.Center
             ) {
                 Text(

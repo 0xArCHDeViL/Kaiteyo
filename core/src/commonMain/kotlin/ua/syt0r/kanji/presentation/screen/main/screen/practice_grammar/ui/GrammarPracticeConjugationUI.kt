@@ -97,7 +97,7 @@ fun GrammarPracticeConjugationUI(
                     text = builtConjugation.ifEmpty { "Tap syllables to build..." },
                     style = MaterialTheme.typography.headlineMedium,
                     fontWeight = FontWeight.Bold,
-                    color = if (builtConjugation.isEmpty()) MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
+                    color = if (builtConjugation.isEmpty()) MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = Dimens.Alpha.SemiOpaque)
                             else MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }

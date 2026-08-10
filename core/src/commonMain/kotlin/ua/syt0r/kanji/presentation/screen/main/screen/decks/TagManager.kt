@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
@@ -94,7 +96,7 @@ fun TagManagerScreen(
                 leadingIcon = { Icon(Icons.Default.Search, null) },
                 modifier = Modifier.fillMaxWidth(),
                 singleLine = true,
-                shape = RoundedCornerShape(10.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
             Spacer(Modifier.height(12.dp))
 
@@ -174,7 +176,7 @@ private fun TagListItem(
     var showMenu by remember { mutableStateOf(false) }
     val tagColor = tag.getDisplayColor()
     val bgColor by animateColorAsState(
-        targetValue = tagColor.copy(alpha = 0.12f),
+        targetValue = tagColor.copy(alpha = Dimens.Alpha.Light),
         animationSpec = tween(200), label = "tagBg"
     )
     val surfaceColors = LocalSurfaceColors.current
@@ -183,7 +185,7 @@ private fun TagListItem(
         modifier = Modifier
             .fillMaxWidth()
             .padding(start = (nestedLevel * 20).dp)
-            .clip(RoundedCornerShape(10.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(surfaceColors.surface)
             .combinedClickable(
                 onClick = { onEdit(tag) },
@@ -390,7 +392,7 @@ private fun MergeTagsDialog(
                 tags.forEach { tag ->
                     Row(
                         modifier = Modifier.fillMaxWidth()
-                            .clip(RoundedCornerShape(8.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusSm))
                             .background(if (sourceTagId == tag.id) MaterialTheme.colorScheme.primaryContainer else Color.Transparent)
                             .clickable { sourceTagId = tag.id }
                             .padding(8.dp),
@@ -408,7 +410,7 @@ private fun MergeTagsDialog(
                 tags.forEach { tag ->
                     Row(
                         modifier = Modifier.fillMaxWidth()
-                            .clip(RoundedCornerShape(8.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusSm))
                             .background(if (targetTagId == tag.id) MaterialTheme.colorScheme.primaryContainer else Color.Transparent)
                             .clickable { targetTagId = tag.id }
                             .padding(8.dp),

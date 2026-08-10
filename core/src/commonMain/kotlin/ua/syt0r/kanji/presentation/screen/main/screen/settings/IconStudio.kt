@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.settings
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
@@ -65,15 +67,15 @@ data class AppIconOption(
 )
 
 private val builtInIcons = listOf(
-    AppIconOption("Default", Color(0xFFC2FC8B), Color(0xFFFEAB57)),
-    AppIconOption("Signature", Color(0xFFC2FC8B), Color(0xFF050505)),
+    AppIconOption("Default", ua.syt0r.kanji.presentation.common.theme.semanticSuccess, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
+    AppIconOption("Signature", ua.syt0r.kanji.presentation.common.theme.semanticSuccess, Color(0xFF050505)),
     AppIconOption("Cotton Candy", Color(0xFFD4A5F0), Color(0xFFFFB5C5)),
     AppIconOption("Ocean", Color(0xFF00D4AA), Color(0xFF00A8FF)),
     AppIconOption("Forest", Color(0xFF81C784), Color(0xFFA5D6A7)),
     AppIconOption("Lavender", Color(0xFFB39DDB), Color(0xFFCE93D8)),
     AppIconOption("Monochrome", Color(0xFFE0E0E0), Color(0xFF9E9E9E)),
-    AppIconOption("Minimal", Color(0xFFC2FC8B), Color(0xFF000000)),
-    AppIconOption("Outlined", Color(0x00000000), Color(0xFFC2FC8B)),
+    AppIconOption("Minimal", ua.syt0r.kanji.presentation.common.theme.semanticSuccess, androidx.compose.ui.graphics.Color.Black),
+    AppIconOption("Outlined", Color(0x00000000), ua.syt0r.kanji.presentation.common.theme.semanticSuccess),
 )
 
 @Composable
@@ -113,8 +115,8 @@ fun IconStudio() {
             Box(
                 modifier = Modifier
                     .size(72.dp)
-                    .clip(RoundedCornerShape(12.dp))
-                    .background(selectedIcon.secondaryColor.copy(alpha = 0.2f)),
+                    .clip(RoundedCornerShape(Dimens.RadiusMd))
+                    .background(selectedIcon.secondaryColor.copy(alpha = Dimens.Alpha.Light)),
                 contentAlignment = Alignment.Center
             ) {
                 Text("K", color = selectedIcon.secondaryColor, fontSize = 32.sp, fontWeight = FontWeight.Bold)
@@ -138,22 +140,22 @@ fun IconStudio() {
                 row.forEach { icon ->
                     val isSelected = selectedIcon.name == icon.name
                     val cardBg by animateColorAsState(
-                        targetValue = if (isSelected) currentAccent.primary.copy(alpha = 0.12f)
+                        targetValue = if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light)
                             else surfaceColors.surface,
                         animationSpec = tween(200), label = "iconCardBg"
                     )
                     val cardBorder by animateColorAsState(
                         targetValue = if (isSelected) currentAccent.primary
-                            else surfaceColors.border.copy(alpha = 0.2f),
+                            else surfaceColors.border.copy(alpha = Dimens.Alpha.Light),
                         animationSpec = tween(200), label = "iconCardBorder"
                     )
 
                     Column(
                         modifier = Modifier
                             .weight(1f)
-                            .clip(RoundedCornerShape(12.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusMd))
                             .background(cardBg)
-                            .border(1.5.dp, cardBorder, RoundedCornerShape(12.dp))
+                            .border(1.5.dp, cardBorder, RoundedCornerShape(Dimens.RadiusMd))
                             .clickable { selectedIcon = icon }
                             .padding(12.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
@@ -161,20 +163,20 @@ fun IconStudio() {
                         Box(
                             modifier = Modifier
                                 .size(48.dp)
-                                .clip(RoundedCornerShape(10.dp))
+                                .clip(RoundedCornerShape(Dimens.RadiusMd))
                                 .background(if (icon.name == "Outlined") Color.Transparent else icon.primaryColor)
                                 .border(
                                     if (icon.name == "Outlined") 1.5.dp else 0.dp,
                                     icon.secondaryColor,
-                                    RoundedCornerShape(10.dp)
+                                    RoundedCornerShape(Dimens.RadiusMd)
                                 ),
                             contentAlignment = Alignment.Center
                         ) {
                             Box(
                                 modifier = Modifier
                                     .size(28.dp)
-                                    .clip(RoundedCornerShape(6.dp))
-                                    .background(icon.secondaryColor.copy(alpha = 0.2f)),
+                                    .clip(RoundedCornerShape(Dimens.RadiusSm))
+                                    .background(icon.secondaryColor.copy(alpha = Dimens.Alpha.Light)),
                                 contentAlignment = Alignment.Center
                             ) {
                                 Text("K", color = icon.secondaryColor, fontSize = 14.sp, fontWeight = FontWeight.Bold)
@@ -191,7 +193,7 @@ fun IconStudio() {
         }
 
         Spacer(modifier = Modifier.height(24.dp))
-        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
         Spacer(modifier = Modifier.height(16.dp))
 
         // Import section
@@ -206,9 +208,9 @@ fun IconStudio() {
             modifier = Modifier
                 .fillMaxWidth()
                 .height(120.dp)
-                .clip(RoundedCornerShape(12.dp))
-                .background(surfaceColors.surfaceInteractive.copy(alpha = 0.5f))
-                .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), RoundedCornerShape(12.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
+                .background(surfaceColors.surfaceInteractive.copy(alpha = Dimens.Alpha.SemiOpaque))
+                .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusMd))
                 .clickable { showImportDialog = true },
             contentAlignment = Alignment.Center
         ) {
@@ -217,7 +219,7 @@ fun IconStudio() {
                     modifier = Modifier
                         .size(40.dp)
                         .clip(CircleShape)
-                        .background(currentAccent.primary.copy(alpha = 0.15f)),
+                        .background(currentAccent.primary.copy(alpha = Dimens.Alpha.Light)),
                     contentAlignment = Alignment.Center
                 ) {
                     Text("+", color = currentAccent.primary, fontSize = 20.sp, fontWeight = FontWeight.Bold)

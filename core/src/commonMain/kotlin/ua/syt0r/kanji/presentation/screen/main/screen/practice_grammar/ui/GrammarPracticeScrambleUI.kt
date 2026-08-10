@@ -76,7 +76,7 @@ fun GrammarPracticeScrambleUI(
                 if (selectedParts.isEmpty()) {
                     Text(
                         text = "Tap parts to construct sentence...",
-                        color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f),
+                        color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = Dimens.Alpha.SemiOpaque),
                         style = MaterialTheme.typography.titleMedium,
                         modifier = Modifier.padding(vertical = Dimens.Space4)
                     )

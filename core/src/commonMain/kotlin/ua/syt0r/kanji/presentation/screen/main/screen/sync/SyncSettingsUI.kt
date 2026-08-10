@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.sync
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -86,12 +88,12 @@ fun SyncSettingsScreen() {
             listOf("Sync", "Account", "Devices", "Backup", "Advanced").forEach { tab ->
                 val isSelected = selectedTab == tab
                 val tabBg by animateColorAsState(
-                    targetValue = if (isSelected) accent.primary.copy(alpha = 0.15f) else Color.Transparent,
+                    targetValue = if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.Light) else Color.Transparent,
                     animationSpec = tween(200), label = "tabBg")
                 val tabText by animateColorAsState(
                     targetValue = if (isSelected) accent.primary else surfaceColors.textSecondary,
                     animationSpec = tween(200), label = "tabText")
-                Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(8.dp)).background(tabBg)
+                Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm)).background(tabBg)
                     .clickable { selectedTab = tab }.padding(vertical = 8.dp),
                     contentAlignment = Alignment.Center) {
                     Text(tab, color = tabText, fontSize = 11.sp,
@@ -143,9 +145,9 @@ private fun SyncTab(
             SyncFrequency.entries.forEach { freq ->
                 val isSelected = syncFrequency == freq
                 val freqBg by animateColorAsState(
-                    targetValue = if (isSelected) accent.primary.copy(alpha = 0.12f) else surfaceColors.surface,
+                    targetValue = if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface,
                     animationSpec = tween(200), label = "freqBg")
-                Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(6.dp)).background(freqBg)
+                Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm)).background(freqBg)
                     .clickable { onSyncFrequencyChange(freq) }.padding(vertical = 6.dp),
                     contentAlignment = Alignment.Center) {
                     Text(freq.displayName, color = if (isSelected) accent.primary else surfaceColors.textSecondary,
@@ -168,9 +170,9 @@ private fun SyncTab(
     ConflictResolutionStrategy.entries.forEach { strategy ->
         val isSelected = conflictStrategy == strategy
         val rowBg by animateColorAsState(
-            targetValue = if (isSelected) accent.primary.copy(alpha = 0.08f) else Color.Transparent,
+            targetValue = if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.Subtle) else Color.Transparent,
             animationSpec = tween(200), label = "strategyBg")
-        Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp)).background(rowBg)
+        Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusSm)).background(rowBg)
             .clickable { onConflictStrategyChange(strategy) }.padding(horizontal = 12.dp, vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically) {
             Box(modifier = Modifier.size(16.dp).clip(CircleShape)
@@ -198,7 +200,7 @@ private fun AccountTab(
             color = surfaceColors.textMuted, fontSize = 13.sp)
         Spacer(modifier = Modifier.height(16.dp))
 
-        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
+        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(Color(0xFF24292E)).clickable { onShowDeviceCode(true) }.padding(16.dp),
             contentAlignment = Alignment.Center) {
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -210,14 +212,14 @@ private fun AccountTab(
 
         if (showDeviceCode) {
             Spacer(modifier = Modifier.height(20.dp))
-            Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
+            Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
                 .background(surfaceColors.surfaceElevated).padding(20.dp)) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
                     Text("Device Activation", color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
                     Spacer(modifier = Modifier.height(8.dp))
                     Text("Enter this code on GitHub:", color = surfaceColors.textMuted, fontSize = 12.sp)
                     Spacer(modifier = Modifier.height(8.dp))
-                    Box(modifier = Modifier.clip(RoundedCornerShape(8.dp)).background(accent.primary.copy(alpha = 0.1f))
+                    Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm)).background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                         .padding(horizontal = 24.dp, vertical = 12.dp)) {
                         Text(deviceCode, color = accent.primary, fontSize = 24.sp, fontWeight = FontWeight.Bold,
                             letterSpacing = 4.sp)
@@ -241,10 +243,10 @@ private fun AccountTab(
             }
         }
     } else {
-        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
+        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(surfaceColors.surfaceElevated).padding(16.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(modifier = Modifier.size(48.dp).clip(CircleShape).background(accent.primary.copy(alpha = 0.15f)),
+                Box(modifier = Modifier.size(48.dp).clip(CircleShape).background(accent.primary.copy(alpha = Dimens.Alpha.Light)),
                     contentAlignment = Alignment.Center) {
                     Text("U", color = accent.primary, fontSize = 20.sp, fontWeight = FontWeight.Bold)
                 }
@@ -258,8 +260,8 @@ private fun AccountTab(
         }
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = { onSignInChange(false) },
-            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFFF6B6B).copy(alpha = 0.15f),
-                contentColor = Color(0xFFFF6B6B)), modifier = Modifier.fillMaxWidth()) {
+            colors = ButtonDefaults.buttonColors(containerColor = ua.syt0r.kanji.presentation.common.theme.semanticError.copy(alpha = Dimens.Alpha.Light),
+                contentColor = ua.syt0r.kanji.presentation.common.theme.semanticError), modifier = Modifier.fillMaxWidth()) {
             Text("Sign Out", fontWeight = FontWeight.SemiBold)
         }
     }
@@ -277,12 +279,12 @@ private fun DevicesTab(
         color = surfaceColors.textMuted, fontSize = 13.sp)
     Spacer(modifier = Modifier.height(16.dp))
 
-    Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
-        .background(surfaceColors.surface).border(1.dp, accent.primary.copy(alpha = 0.3f), RoundedCornerShape(12.dp))
+    Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
+        .background(surfaceColors.surface).border(1.dp, accent.primary.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusMd))
         .padding(14.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Box(modifier = Modifier.size(40.dp).clip(RoundedCornerShape(10.dp))
-                .background(accent.primary.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
+            Box(modifier = Modifier.size(40.dp).clip(RoundedCornerShape(Dimens.RadiusMd))
+                .background(accent.primary.copy(alpha = Dimens.Alpha.Light)), contentAlignment = Alignment.Center) {
                 Text("💻", fontSize = 18.sp)
             }
             Spacer(modifier = Modifier.width(12.dp))
@@ -290,7 +292,7 @@ private fun DevicesTab(
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text("This Device", color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
                     Spacer(modifier = Modifier.width(6.dp))
-                    Box(modifier = Modifier.clip(RoundedCornerShape(4.dp)).background(accent.primary.copy(alpha = 0.15f))
+                    Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusXs)).background(accent.primary.copy(alpha = Dimens.Alpha.Light))
                         .padding(horizontal = 6.dp, vertical = 2.dp)) {
                         Text("Current", color = accent.primary, fontSize = 9.sp, fontWeight = FontWeight.SemiBold)
                     }
@@ -306,10 +308,10 @@ private fun DevicesTab(
         "Phone" to "📱" to "Last sync: Yesterday"
     ).forEach { (device, lastSync) ->
         val (name, icon) = device
-        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
+        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(surfaceColors.surface).padding(14.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(modifier = Modifier.size(40.dp).clip(RoundedCornerShape(10.dp))
+                Box(modifier = Modifier.size(40.dp).clip(RoundedCornerShape(Dimens.RadiusMd))
                     .background(surfaceColors.surfaceElevated), contentAlignment = Alignment.Center) {
                     Text(icon, fontSize = 18.sp)
                 }
@@ -318,7 +320,7 @@ private fun DevicesTab(
                     Text(name, color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.Medium)
                     Text(lastSync, color = surfaceColors.textMuted, fontSize = 11.sp)
                 }
-                Box(modifier = Modifier.clip(RoundedCornerShape(6.dp)).background(surfaceColors.surfaceElevated)
+                Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm)).background(surfaceColors.surfaceElevated)
                     .clickable { }.padding(horizontal = 8.dp, vertical = 4.dp)) {
                     Text("···", color = surfaceColors.textMuted, fontSize = 12.sp)
                 }
@@ -360,9 +362,9 @@ private fun BackupTab(
             BackupFrequency.entries.forEach { freq ->
                 val isSelected = backupFrequency == freq
                 val freqBg by animateColorAsState(
-                    targetValue = if (isSelected) accent.primary.copy(alpha = 0.12f) else surfaceColors.surface,
+                    targetValue = if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface,
                     animationSpec = tween(200), label = "backupFreqBg")
-                Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(6.dp)).background(freqBg)
+                Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm)).background(freqBg)
                     .clickable { onBackupFrequencyChange(freq) }.padding(vertical = 6.dp),
                     contentAlignment = Alignment.Center) {
                     Text(freq.displayName, color = if (isSelected) accent.primary else surfaceColors.textSecondary,
@@ -379,7 +381,7 @@ private fun BackupTab(
 
     Text("Backup History", color = surfaceColors.textSecondary, fontSize = 12.sp, fontWeight = FontWeight.Medium)
     Spacer(modifier = Modifier.height(8.dp))
-    Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp)).background(surfaceColors.surface).padding(16.dp),
+    Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusSm)).background(surfaceColors.surface).padding(16.dp),
         contentAlignment = Alignment.Center) {
         Text("No backups yet", color = surfaceColors.textMuted, fontSize = 12.sp)
     }
@@ -404,8 +406,8 @@ private fun AdvancedTab(
         "Reset Synchronization" to "Reset all sync data and start fresh"
     ).forEach { (title, desc) ->
         val isDestructive = title.contains("Delete") || title.contains("Reset")
-        val textColor = if (isDestructive) Color(0xFFFF6B6B) else surfaceColors.textPrimary
-        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp))
+        val textColor = if (isDestructive) ua.syt0r.kanji.presentation.common.theme.semanticError else surfaceColors.textPrimary
+        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(surfaceColors.surface).clickable { }.padding(14.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Column(modifier = Modifier.weight(1f)) {
@@ -426,14 +428,14 @@ private fun ToggleRow(
     surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors,
     onToggle: (Boolean) -> Unit
 ) {
-    Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp))
+    Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
         .clickable { onToggle(!isEnabled) }.padding(vertical = 10.dp, horizontal = 4.dp),
         verticalAlignment = Alignment.CenterVertically) {
         Column(modifier = Modifier.weight(1f)) {
             Text(title, color = surfaceColors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.Medium)
             Text(description, color = surfaceColors.textMuted, fontSize = 11.sp)
         }
-        Box(modifier = Modifier.size(40.dp, 24.dp).clip(RoundedCornerShape(12.dp))
+        Box(modifier = Modifier.size(40.dp, 24.dp).clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(if (isEnabled) accent.primary else surfaceColors.border)) {
             val alignment = if (isEnabled) Alignment.CenterEnd else Alignment.CenterStart
             Box(modifier = Modifier.size(20.dp).clip(CircleShape).background(Color.White)

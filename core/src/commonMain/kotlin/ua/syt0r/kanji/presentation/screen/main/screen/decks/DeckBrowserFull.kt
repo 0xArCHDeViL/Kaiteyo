@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -141,7 +143,7 @@ fun DeckBrowserFullScreen(
                     }
                 },
                 singleLine = true,
-                shape = RoundedCornerShape(10.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
             // Filter chips
@@ -386,7 +388,7 @@ private fun DeckStatsBar(
         Text("$totalNew new", fontSize = 12.sp, color = MaterialTheme.colorScheme.primary)
         Spacer(Modifier.weight(1f))
         if (favoriteCount > 0) {
-            Icon(Icons.Default.Star, null, Modifier.size(12.dp), tint = Color(0xFFFFD93D))
+            Icon(Icons.Default.Star, null, Modifier.size(12.dp), tint = ua.syt0r.kanji.presentation.common.theme.semanticWarning)
             Text("$favoriteCount", fontSize = 11.sp, color = surfaceColors.textMuted)
         }
         if (pinnedCount > 0) {
@@ -473,10 +475,10 @@ private fun DeckTreeRow(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(start = (depth * 20).dp)
-                .clip(RoundedCornerShape(10.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
                 .then(
                     when {
-                        isDragOver -> Modifier.background(accent.primary.copy(alpha = 0.1f))
+                        isDragOver -> Modifier.background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                         isSelected -> Modifier.background(surfaceColors.surfaceInteractive)
                         else -> Modifier
                     }
@@ -489,7 +491,7 @@ private fun DeckTreeRow(
             Icon(
                 Icons.Default.DragHandle, "Drag",
                 modifier = Modifier.size(20.dp).padding(start = 4.dp),
-                tint = surfaceColors.textMuted.copy(alpha = 0.5f)
+                tint = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.SemiOpaque)
             )
 
             // Expand/collapse
@@ -508,23 +510,23 @@ private fun DeckTreeRow(
             Box(
                 modifier = Modifier
                     .size(32.dp)
-                    .clip(RoundedCornerShape(8.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(
                         when {
-                            deck.isFavorite -> Color(0xFFFFD93D).copy(alpha = 0.2f)
-                            deck.isVirtual -> accent.primary.copy(alpha = 0.1f)
-                            deck.isArchived -> surfaceColors.border.copy(alpha = 0.2f)
-                            deck.isPinned -> Color(0xFFA78BFA).copy(alpha = 0.15f)
+                            deck.isFavorite -> ua.syt0r.kanji.presentation.common.theme.semanticWarning.copy(alpha = Dimens.Alpha.Light)
+                            deck.isVirtual -> accent.primary.copy(alpha = Dimens.Alpha.Subtle)
+                            deck.isArchived -> surfaceColors.border.copy(alpha = Dimens.Alpha.Light)
+                            deck.isPinned -> ua.syt0r.kanji.presentation.common.theme.semanticNew.copy(alpha = Dimens.Alpha.Light)
                             else -> surfaceColors.surfaceInteractive
                         }
                     ),
                 contentAlignment = Alignment.Center
             ) {
                 when {
-                    deck.isFavorite -> Icon(Icons.Default.Star, null, Modifier.size(16.dp), tint = Color(0xFFFFD93D))
+                    deck.isFavorite -> Icon(Icons.Default.Star, null, Modifier.size(16.dp), tint = ua.syt0r.kanji.presentation.common.theme.semanticWarning)
                     deck.isVirtual -> Icon(Icons.Default.AutoAwesome, null, Modifier.size(16.dp), tint = accent.primary)
                     deck.isArchived -> Icon(Icons.Default.Archive, null, Modifier.size(16.dp), tint = surfaceColors.textMuted)
-                    deck.isPinned -> Icon(Icons.Default.PushPin, null, Modifier.size(16.dp), tint = Color(0xFFA78BFA))
+                    deck.isPinned -> Icon(Icons.Default.PushPin, null, Modifier.size(16.dp), tint = ua.syt0r.kanji.presentation.common.theme.semanticNew)
                     else -> Icon(Icons.Default.Folder, null, Modifier.size(16.dp), tint = surfaceColors.textMuted)
                 }
             }
@@ -643,19 +645,19 @@ private fun DeckListItem(
         modifier = Modifier
             .fillMaxWidth()
             .padding(start = (depth * 16).dp)
-            .clip(RoundedCornerShape(8.dp))
-            .then(if (isSelected) Modifier.background(accent.primary.copy(alpha = 0.08f)) else Modifier)
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
+            .then(if (isSelected) Modifier.background(accent.primary.copy(alpha = Dimens.Alpha.Subtle)) else Modifier)
             .clickable(onClick = onClick)
             .padding(vertical = 8.dp, horizontal = 8.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Box(
-            modifier = Modifier.size(28.dp).clip(RoundedCornerShape(6.dp))
-                .background(if (deck.isFavorite) Color(0xFFFFD93D).copy(alpha = 0.2f) else surfaceColors.surfaceInteractive),
+            modifier = Modifier.size(28.dp).clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(if (deck.isFavorite) ua.syt0r.kanji.presentation.common.theme.semanticWarning.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surfaceInteractive),
             contentAlignment = Alignment.Center
         ) {
             Icon(if (deck.isFavorite) Icons.Default.Star else Icons.Default.Folder, null,
-                Modifier.size(14.dp), tint = if (deck.isFavorite) Color(0xFFFFD93D) else surfaceColors.textMuted)
+                Modifier.size(14.dp), tint = if (deck.isFavorite) ua.syt0r.kanji.presentation.common.theme.semanticWarning else surfaceColors.textMuted)
         }
         Spacer(Modifier.width(8.dp))
         Column(Modifier.weight(1f)) {
@@ -699,19 +701,19 @@ private fun DeckCompactItem(
     Card(
         modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
         colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-        shape = RoundedCornerShape(10.dp)
+        shape = RoundedCornerShape(Dimens.RadiusMd)
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Box(
-                modifier = Modifier.size(36.dp).clip(RoundedCornerShape(8.dp))
-                    .background(if (deck.isFavorite) Color(0xFFFFD93D).copy(alpha = 0.2f) else surfaceColors.surfaceInteractive),
+                modifier = Modifier.size(36.dp).clip(RoundedCornerShape(Dimens.RadiusSm))
+                    .background(if (deck.isFavorite) ua.syt0r.kanji.presentation.common.theme.semanticWarning.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surfaceInteractive),
                 contentAlignment = Alignment.Center
             ) {
                 Icon(if (deck.isFavorite) Icons.Default.Star else Icons.Default.Folder, null,
-                    Modifier.size(18.dp), tint = if (deck.isFavorite) Color(0xFFFFD93D) else surfaceColors.textMuted)
+                    Modifier.size(18.dp), tint = if (deck.isFavorite) ua.syt0r.kanji.presentation.common.theme.semanticWarning else surfaceColors.textMuted)
             }
             Spacer(Modifier.width(8.dp))
             Column(Modifier.weight(1f)) {
@@ -734,12 +736,12 @@ private fun DeckDetailBar(
     surfaceColors: SurfaceColors,
     accent: KaiteyoAccentScheme
 ) {
-    val shape = RoundedCornerShape(24.dp)
+    val shape = RoundedCornerShape(Dimens.RadiusXl)
     Surface(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 12.dp)
-            .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), shape)
+            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), shape)
             .clip(shape),
         color = surfaceColors.surfaceElevated,
         shape = shape,

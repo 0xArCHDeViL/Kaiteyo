@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -59,7 +61,7 @@ fun StatCard2(
     Card(
         modifier = modifier,
         colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-        shape = RoundedCornerShape(12.dp)
+        shape = RoundedCornerShape(Dimens.RadiusMd)
     ) {
         Row(
             modifier = Modifier.padding(12.dp),

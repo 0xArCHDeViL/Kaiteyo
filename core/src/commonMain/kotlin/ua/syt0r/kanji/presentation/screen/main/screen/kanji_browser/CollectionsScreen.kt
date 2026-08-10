@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -242,7 +244,7 @@ private fun CollectionCard(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(14.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusLg))
             .background(if (hovered) surfaceColors.surfaceInteractive else surfaceColors.surface)
             .clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
             .hoverable(interactionSource)
@@ -253,8 +255,8 @@ private fun CollectionCard(
         Box(
             modifier = Modifier
                 .size(42.dp)
-                .clip(RoundedCornerShape(12.dp))
-                .background(accent.primary.copy(alpha = 0.12f)),
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
+                .background(accent.primary.copy(alpha = Dimens.Alpha.Light)),
             contentAlignment = Alignment.Center
         ) {
             Text(collection.icon, fontSize = 20.sp)
@@ -296,7 +298,7 @@ private fun TagCollectionCard(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(14.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusLg))
             .background(if (hovered) surfaceColors.surfaceInteractive else surfaceColors.surface)
             .clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
             .hoverable(interactionSource)
@@ -307,8 +309,8 @@ private fun TagCollectionCard(
         Box(
             modifier = Modifier
                 .size(42.dp)
-                .clip(RoundedCornerShape(12.dp))
-                .background(color.copy(alpha = 0.15f)),
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
+                .background(color.copy(alpha = Dimens.Alpha.Light)),
             contentAlignment = Alignment.Center
         ) {
             Box(Modifier.size(14.dp).clip(CircleShape).background(color))
@@ -352,7 +354,7 @@ private fun FlagCollectionCard(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(14.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusLg))
             .background(if (hovered) surfaceColors.surfaceInteractive else surfaceColors.surface)
             .clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
             .hoverable(interactionSource)
@@ -363,8 +365,8 @@ private fun FlagCollectionCard(
         Box(
             modifier = Modifier
                 .size(42.dp)
-                .clip(RoundedCornerShape(12.dp))
-                .background(color.copy(alpha = 0.15f)),
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
+                .background(color.copy(alpha = Dimens.Alpha.Light)),
             contentAlignment = Alignment.Center
         ) {
             Box(Modifier.size(14.dp).clip(CircleShape).background(color))
@@ -483,9 +485,9 @@ private fun CollectionDetail(
                 items(cards, key = { it.id }) { card ->
                     Box(
                         modifier = Modifier
-                            .clip(RoundedCornerShape(12.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusMd))
                             .background(surfaceColors.surface)
-                            .border(1.dp, Color.Transparent, RoundedCornerShape(12.dp))
+                            .border(1.dp, Color.Transparent, RoundedCornerShape(Dimens.RadiusMd))
                             .padding(8.dp),
                         contentAlignment = Alignment.Center
                     ) {

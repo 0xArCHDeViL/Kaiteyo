@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
@@ -511,7 +513,7 @@ private fun BrowserHeader(
         Box(
             modifier = Modifier
                 .weight(1f)
-                .clip(RoundedCornerShape(12.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
                 .background(surfaceColors.surfaceInteractive)
                 .padding(horizontal = 14.dp, vertical = 10.dp)
         ) {
@@ -561,14 +563,14 @@ private fun HeaderIconButton(
     val interactionSource = remember { MutableInteractionSource() }
     val hovered by interactionSource.collectIsHoveredAsState()
     val bg by animateColorAsState(
-        targetValue = if (selected) accent.primary.copy(alpha = 0.15f)
+        targetValue = if (selected) accent.primary.copy(alpha = Dimens.Alpha.Light)
         else if (hovered) surfaceColors.surfaceInteractive else Color.Transparent,
         label = "hdrBg"
     )
     Box(
         modifier = Modifier
             .size(36.dp)
-            .clip(RoundedCornerShape(10.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(bg)
             .clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
             .hoverable(interactionSource),
@@ -633,7 +635,7 @@ private fun BulkActionButton(
 ) {
     Box(
         modifier = Modifier
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .background(accent.primary.copy(alpha = 0.10f))
             .clickable(onClick = onClick)
             .padding(horizontal = 10.dp, vertical = 6.dp)
@@ -822,9 +824,9 @@ private fun FilterChip(
     )
     Row(
         modifier = Modifier
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .background(bg)
-            .border(1.dp, if (selected) accent.primary.copy(alpha = 0.4f) else Color.Transparent, RoundedCornerShape(8.dp))
+            .border(1.dp, if (selected) accent.primary.copy(alpha = 0.4f) else Color.Transparent, RoundedCornerShape(Dimens.RadiusSm))
             .clickable(onClick = onClick)
             .padding(horizontal = 10.dp, vertical = 5.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -852,7 +854,7 @@ private fun NumberStepper(
 ) {
     Row(
         modifier = Modifier
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .background(surfaceColors.surfaceInteractive)
             .padding(horizontal = 10.dp, vertical = 4.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -863,7 +865,7 @@ private fun NumberStepper(
             modifier = Modifier
                 .size(22.dp)
                 .clip(CircleShape)
-                .background(accent.primary.copy(alpha = 0.12f))
+                .background(accent.primary.copy(alpha = Dimens.Alpha.Light))
                 .clickable {
                     val newValue = ((value ?: 0) - 1).coerceAtLeast(0)
                     onChange(newValue)
@@ -883,7 +885,7 @@ private fun NumberStepper(
             modifier = Modifier
                 .size(22.dp)
                 .clip(CircleShape)
-                .background(accent.primary.copy(alpha = 0.12f))
+                .background(accent.primary.copy(alpha = Dimens.Alpha.Light))
                 .clickable { onChange((value ?: 0) + 1) },
             contentAlignment = Alignment.Center
         ) {
@@ -988,9 +990,9 @@ private fun RadicalChip(
     Box(
         modifier = Modifier
             .size(34.dp)
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .background(if (selected) accent.primary.copy(alpha = 0.18f) else surfaceColors.surfaceInteractive)
-            .border(1.dp, if (selected) accent.primary.copy(alpha = 0.5f) else Color.Transparent, RoundedCornerShape(8.dp))
+            .border(1.dp, if (selected) accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque) else Color.Transparent, RoundedCornerShape(Dimens.RadiusSm))
             .clickable(onClick = onClick),
         contentAlignment = Alignment.Center
     ) {
@@ -1032,9 +1034,9 @@ private fun KanjiGridTile(
 
     Box(
         modifier = Modifier
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(bg)
-            .border(1.dp, if (isSelected) accent.primary.copy(alpha = 0.5f) else Color.Transparent, RoundedCornerShape(12.dp))
+            .border(1.dp, if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque) else Color.Transparent, RoundedCornerShape(Dimens.RadiusMd))
             .clickable(interactionSource = interactionSource, indication = null) {
                 if (selectionMode) onSelect(card.id) else onClick(card.id)
             }
@@ -1105,7 +1107,7 @@ private fun KanjiListRow(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(10.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(bg)
             .clickable(interactionSource = interactionSource, indication = null) {
                 if (selectionMode) onSelect(card.id) else onClick(card.id)
@@ -1173,8 +1175,8 @@ private fun JlptBadge(
 ) {
     Box(
         modifier = Modifier
-            .clip(RoundedCornerShape(6.dp))
-            .background(accent.primary.copy(alpha = 0.12f))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
+            .background(accent.primary.copy(alpha = Dimens.Alpha.Light))
             .padding(horizontal = 6.dp, vertical = 2.dp)
     ) {
         Text(level.uppercase(), color = accent.primary, fontSize = 10.sp, fontWeight = FontWeight.SemiBold)
@@ -1195,8 +1197,8 @@ private fun BrowserEmptyState(hasFilters: Boolean, onClear: () -> Unit) {
             Box(
                 modifier = Modifier
                     .size(72.dp)
-                    .clip(RoundedCornerShape(20.dp))
-                    .background(accent.primary.copy(alpha = 0.08f)),
+                    .clip(RoundedCornerShape(Dimens.RadiusXl))
+                    .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle)),
                 contentAlignment = Alignment.Center
             ) {
                 Text("字", fontSize = 32.sp, color = accent.primary)
@@ -1249,7 +1251,7 @@ fun KanjiDetailDialog(
             modifier = Modifier
                 .width(460.dp)
                 .height(560.dp),
-            shape = RoundedCornerShape(24.dp),
+            shape = RoundedCornerShape(Dimens.RadiusXl),
             color = surfaceColors.surfaceElevated
         ) {
                 Column(modifier = Modifier.padding(24.dp)) {
@@ -1309,7 +1311,7 @@ fun KanjiDetailDialog(
                             InfoChip("Learned", accent, surfaceColors)
                         }
                         if (dataCenter.isDifficult(cardId)) {
-                            InfoChip("Difficult", Color(0xFFFF6B6B), surfaceColors)
+                            InfoChip("Difficult", ua.syt0r.kanji.presentation.common.theme.semanticError, surfaceColors)
                         }
                         card.flag.takeIf { it != CardFlagType.None }?.let { flag ->
                             InfoChip("Flagged ${flag.displayName}", flag.colorFromHex(), surfaceColors)
@@ -1368,8 +1370,8 @@ fun KanjiDetailDialog(
                             onClick = { scope.launch { dataCenter.resetProgress(listOf(cardId)) } },
                             modifier = Modifier.weight(1f),
                             colors = androidx.compose.material3.ButtonDefaults.buttonColors(
-                                containerColor = Color(0xFFFF6B6B).copy(alpha = 0.15f),
-                                contentColor = Color(0xFFFF6B6B)
+                                containerColor = ua.syt0r.kanji.presentation.common.theme.semanticError.copy(alpha = Dimens.Alpha.Light),
+                                contentColor = ua.syt0r.kanji.presentation.common.theme.semanticError
                             )
                         ) {
                             Text("Reset progress")
@@ -1402,7 +1404,7 @@ private fun InfoChip(
 ) {
     Box(
         modifier = Modifier
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .background(accent.primary.copy(alpha = 0.10f))
             .padding(horizontal = 10.dp, vertical = 4.dp)
     ) {
@@ -1414,8 +1416,8 @@ private fun InfoChip(
 private fun InfoChip(label: String, color: Color, surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors) {
     Box(
         modifier = Modifier
-            .clip(RoundedCornerShape(8.dp))
-            .background(color.copy(alpha = 0.12f))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
+            .background(color.copy(alpha = Dimens.Alpha.Light))
             .padding(horizontal = 10.dp, vertical = 4.dp)
     ) {
         Text(label, color = color, fontSize = 11.sp, fontWeight = FontWeight.Medium)
@@ -1449,7 +1451,7 @@ private fun TagBadge(
     val color = tag.getDisplayColor()
     Row(
         modifier = Modifier
-            .clip(RoundedCornerShape(8.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusSm))
             .background(color.copy(alpha = 0.14f))
             .padding(horizontal = 8.dp, vertical = 3.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -1475,7 +1477,7 @@ fun FlagPickerDialog(
     Box(Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.55f)), contentAlignment = Alignment.Center) {
         Surface(
             modifier = Modifier.width(360.dp),
-            shape = RoundedCornerShape(20.dp),
+            shape = RoundedCornerShape(Dimens.RadiusXl),
             color = surfaceColors.surfaceElevated
         ) {
             Column(
@@ -1488,8 +1490,8 @@ fun FlagPickerDialog(
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .clip(RoundedCornerShape(10.dp))
-                            .background(if (currentFlag == flag) color.copy(alpha = 0.15f) else Color.Transparent)
+                            .clip(RoundedCornerShape(Dimens.RadiusMd))
+                            .background(if (currentFlag == flag) color.copy(alpha = Dimens.Alpha.Light) else Color.Transparent)
                             .clickable { onPick(flag) }
                             .padding(horizontal = 12.dp, vertical = 10.dp),
                         verticalAlignment = Alignment.CenterVertically,
@@ -1534,7 +1536,7 @@ fun TagPickerDialog(
     Box(Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.55f)), contentAlignment = Alignment.Center) {
         Surface(
             modifier = Modifier.width(380.dp),
-            shape = RoundedCornerShape(20.dp),
+            shape = RoundedCornerShape(Dimens.RadiusXl),
             color = surfaceColors.surfaceElevated
         ) {
             Column(
@@ -1548,7 +1550,7 @@ fun TagPickerDialog(
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .clip(RoundedCornerShape(10.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusMd))
                             .background(color.copy(alpha = 0.10f))
                             .clickable { onApply(tag.id, true) }
                             .padding(horizontal = 12.dp, vertical = 8.dp),
@@ -1568,7 +1570,7 @@ fun TagPickerDialog(
                     Box(
                         modifier = Modifier
                             .weight(1f)
-                            .clip(RoundedCornerShape(10.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusMd))
                             .background(surfaceColors.surfaceInteractive)
                             .padding(horizontal = 12.dp, vertical = 8.dp)
                     ) {

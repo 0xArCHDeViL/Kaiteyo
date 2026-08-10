@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.info.ui
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -170,7 +172,7 @@ private fun AnimatableCharacter(strokes: List<Path>) {
 
         Card(
             modifier = Modifier.size(120.dp),
-            shape = RoundedCornerShape(20.dp),
+            shape = RoundedCornerShape(Dimens.RadiusXl),
             elevation = CardDefaults.elevatedCardElevation()
         ) {
 

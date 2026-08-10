@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.settings.items
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -185,7 +187,7 @@ private fun BaseModeCard(
 
     val borderColor by animateColorAsState(
         targetValue = if (isSelected) LocalKaiteyoAccent.current.primary
-            else surface.border.copy(alpha = 0.3f),
+            else surface.border.copy(alpha = Dimens.Alpha.Medium),
         animationSpec = tween(200),
         label = "cardBorder"
     )
@@ -198,12 +200,12 @@ private fun BaseModeCard(
 
     Box(
         modifier = modifier
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(bgColor)
             .border(
                 width = if (isSelected) 1.5.dp else 1.dp,
                 color = borderColor,
-                shape = RoundedCornerShape(12.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
             .clickable(
                 interactionSource = interactionSource,
@@ -220,12 +222,12 @@ private fun BaseModeCard(
             Box(
                 modifier = Modifier
                     .size(32.dp)
-                    .clip(RoundedCornerShape(8.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
                     .background(surface.background)
                     .border(
                         width = 1.dp,
-                        color = surface.border.copy(alpha = 0.3f),
-                        shape = RoundedCornerShape(8.dp)
+                        color = surface.border.copy(alpha = Dimens.Alpha.Medium),
+                        shape = RoundedCornerShape(Dimens.RadiusSm)
                     )
             )
             Spacer(modifier = Modifier.height(6.dp))
@@ -263,7 +265,7 @@ private fun AccentSchemeCard(
 
     val borderColor by animateColorAsState(
         targetValue = if (isSelected) accent.primary
-            else surfaceColors.border.copy(alpha = 0.3f),
+            else surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
         animationSpec = tween(200),
         label = "schemeBorder"
     )
@@ -277,12 +279,12 @@ private fun AccentSchemeCard(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(bgColor)
             .border(
                 width = if (isSelected) 1.5.dp else 1.dp,
                 color = borderColor,
-                shape = RoundedCornerShape(12.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
             .clickable(
                 interactionSource = interactionSource,

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -95,14 +97,14 @@ fun StatisticsDashboardV2(
                         Icons.Default.Today, accent.primary, Modifier.weight(1f))
                     OverviewStatCard("Studied Today", stats.todayTimeStudied.formatDuration(),
                         "${stats.todayNewCards} new · ${stats.todayLapses} lapses",
-                        Icons.Default.Timer, Color(0xFF7BC8FF), Modifier.weight(1f))
+                        Icons.Default.Timer, ua.syt0r.kanji.presentation.common.theme.semanticInfo, Modifier.weight(1f))
                 }
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
                     OverviewStatCard("Accuracy Today", "${(stats.todayAccuracy * 100).roundToInt()}%",
                         "week ${(stats.weekAccuracy * 100).roundToInt()}%",
-                        Icons.Default.CheckCircle, Color(0xFFC2FC8B), Modifier.weight(1f))
+                        Icons.Default.CheckCircle, ua.syt0r.kanji.presentation.common.theme.semanticSuccess, Modifier.weight(1f))
                     OverviewStatCard("Due Cards", stats.cardsDue.toString(), "${stats.cardsNew} new",
-                        Icons.Default.Schedule, Color(0xFFFFD93D), Modifier.weight(1f))
+                        Icons.Default.Schedule, ua.syt0r.kanji.presentation.common.theme.semanticWarning, Modifier.weight(1f))
                 }
 
                 StreakStrip(current = stats.currentStreak, longest = stats.longestStreak,
@@ -117,7 +119,7 @@ fun StatisticsDashboardV2(
 
                 SectionCard("Retention & Learning Curve", Icons.Default.TrendingUp) {
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        RetentionDonut(stats.retentionRate, "Retention", Color(0xFFC2FC8B), Modifier.weight(1f))
+                        RetentionDonut(stats.retentionRate, "Retention", ua.syt0r.kanji.presentation.common.theme.semanticSuccess, Modifier.weight(1f))
                         RetentionDonut(stats.predictedRetention, "Predicted", accent.primary, Modifier.weight(1f))
                     }
                     Spacer(Modifier.height(12.dp))
@@ -177,7 +179,7 @@ private fun OverviewStatCard(
 private fun StreakStrip(current: Int, longest: Int, totalReviews: Int, totalTime: Long) {
     val surfaceColors = LocalSurfaceColors.current
     Row(
-        modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp))
+        modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusLg))
             .background(surfaceColors.surfaceElevated).padding(vertical = 12.dp),
         horizontalArrangement = Arrangement.SpaceEvenly
     ) {
@@ -230,7 +232,7 @@ private fun AnalyticsBars(history: List<HeatmapDayV2>, title: String) {
         val barW = chartWidth / history.size
         history.forEachIndexed { index, day ->
             val h = (day.count.toFloat() / maxValue) * (bottom - 20f)
-            drawRect(Color(0xFF7BC8FF).copy(alpha = 0.75f),
+            drawRect(ua.syt0r.kanji.presentation.common.theme.semanticInfo.copy(alpha = 0.75f),
                 Offset(20f + index * barW, bottom - h), Size(barW * 0.8f, h))
         }
     }
@@ -258,7 +260,7 @@ private fun AnalyticsLine(history: List<HeatmapDayV2>) {
         fill.lineTo(x(history.size - 1), bottom)
         fill.lineTo(x(0), bottom)
         fill.close()
-        drawPath(fill, accent.primary.copy(alpha = 0.1f))
+        drawPath(fill, accent.primary.copy(alpha = Dimens.Alpha.Subtle))
     }
     Text("Daily accuracy (last ${history.size} active days)", fontSize = 10.sp, color = surfaceColors.textMuted)
 }
@@ -271,7 +273,7 @@ private fun RetentionDonut(percentage: Float, label: String, color: Color, modif
             Box(contentAlignment = Alignment.Center) {
                 Canvas(Modifier.size(60.dp)) {
                     val stroke = Stroke(width = 8f)
-                    drawArc(color.copy(alpha = 0.15f), 0f, 360f, false, style = stroke)
+                    drawArc(color.copy(alpha = Dimens.Alpha.Light), 0f, 360f, false, style = stroke)
                     drawArc(color, -90f, percentage.coerceIn(0f, 1f) * 360f, false, style = stroke)
                 }
                 Text("${(percentage * 100).roundToInt()}%", fontWeight = FontWeight.Bold, fontSize = 14.sp, color = surfaceColors.textPrimary)
@@ -287,23 +289,23 @@ private fun DistributionList(stats: StatsOverviewV2) {
     val surfaceColors = LocalSurfaceColors.current
     data class Row(val label: String, val value: Int, val color: Color)
     val rows = listOf(
-        Row("Due", stats.cardsDue, Color(0xFFFFD93D)),
-        Row("New", stats.cardsNew, Color(0xFFC2FC8B)),
-        Row("Learning", stats.cardsLearning, Color(0xFF7BC8FF)),
-        Row("Young", stats.cardsYoung, Color(0xFFA78BFA)),
-        Row("Mature", stats.cardsMature, Color(0xFFFEAB57)),
-        Row("Relearning", stats.cardsRelearning, Color(0xFFFF6B6B)),
-        Row("Suspended", stats.cardsSuspended, Color(0xFFB0B0B0)),
-        Row("Buried", stats.cardsBuried, Color(0xFFB0B0B0)),
-        Row("Archived", stats.cardsArchived, Color(0xFF808080))
+        Row("Due", stats.cardsDue, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
+        Row("New", stats.cardsNew, ua.syt0r.kanji.presentation.common.theme.semanticSuccess),
+        Row("Learning", stats.cardsLearning, ua.syt0r.kanji.presentation.common.theme.semanticInfo),
+        Row("Young", stats.cardsYoung, ua.syt0r.kanji.presentation.common.theme.semanticNew),
+        Row("Mature", stats.cardsMature, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
+        Row("Relearning", stats.cardsRelearning, ua.syt0r.kanji.presentation.common.theme.semanticError),
+        Row("Suspended", stats.cardsSuspended, androidx.compose.ui.graphics.Color.Gray),
+        Row("Buried", stats.cardsBuried, androidx.compose.ui.graphics.Color.Gray),
+        Row("Archived", stats.cardsArchived, androidx.compose.ui.graphics.Color.DarkGray)
     )
     val max = rows.maxOf { it.value }.coerceAtLeast(1)
     rows.forEach { r ->
         Row(Modifier.fillMaxWidth().padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
             Text(r.label, fontSize = 12.sp, color = surfaceColors.textSecondary, modifier = Modifier.width(90.dp))
-            Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(4.dp)).background(r.color.copy(alpha = 0.35f))) {
+            Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(Dimens.RadiusXs)).background(r.color.copy(alpha = Dimens.Alpha.Medium))) {
                 Box(Modifier.fillMaxWidth((r.value / max.toFloat()).coerceIn(0.02f, 1f)).height(8.dp)
-                    .clip(RoundedCornerShape(4.dp)).background(r.color))
+                    .clip(RoundedCornerShape(Dimens.RadiusXs)).background(r.color))
             }
             Spacer(Modifier.width(8.dp))
             Text("${r.value}", fontSize = 12.sp, color = surfaceColors.textPrimary, modifier = Modifier.width(28.dp))
@@ -423,24 +425,24 @@ private fun DayDrillDown(day: HeatmapDayV2, onBack: () -> Unit) {
         }
         Spacer(Modifier.height(16.dp))
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            DayStat(day.count.toString(), "Reviews", Color(0xFF7BC8FF), Modifier.weight(1f))
+            DayStat(day.count.toString(), "Reviews", ua.syt0r.kanji.presentation.common.theme.semanticInfo, Modifier.weight(1f))
             DayStat(day.cardsStudied.toString(), "Cards", LocalKaiteyoAccent.current.primary, Modifier.weight(1f))
-            DayStat(day.newCards.toString(), "New", Color(0xFFC2FC8B), Modifier.weight(1f))
+            DayStat(day.newCards.toString(), "New", ua.syt0r.kanji.presentation.common.theme.semanticSuccess, Modifier.weight(1f))
         }
         Spacer(Modifier.height(8.dp))
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            DayStat("${(day.accuracy * 100).roundToInt()}%", "Accuracy", Color(0xFFA78BFA), Modifier.weight(1f))
-            DayStat("${day.mistakes}", "Mistakes", Color(0xFFFF6B6B), Modifier.weight(1f))
-            DayStat(day.timeStudied.formatDuration(), "Time", Color(0xFFFFD93D), Modifier.weight(1f))
+            DayStat("${(day.accuracy * 100).roundToInt()}%", "Accuracy", ua.syt0r.kanji.presentation.common.theme.semanticNew, Modifier.weight(1f))
+            DayStat("${day.mistakes}", "Mistakes", ua.syt0r.kanji.presentation.common.theme.semanticError, Modifier.weight(1f))
+            DayStat(day.timeStudied.formatDuration(), "Time", ua.syt0r.kanji.presentation.common.theme.semanticWarning, Modifier.weight(1f))
         }
 
         Spacer(Modifier.height(20.dp))
         Text("Breakdown", fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = surfaceColors.textPrimary)
         Spacer(Modifier.height(8.dp))
         BreakdownBar("Review Cards", day.reviewCards.toFloat(), day.count.toFloat(), accent.primary)
-        BreakdownBar("New Cards", day.newCards.toFloat(), day.count.toFloat(), Color(0xFF7BC8FF))
-        BreakdownBar("Accuracy", day.accuracy, 1f, Color(0xFFC2FC8B))
-        BreakdownBar("Mistake Rate", 1f - day.accuracy, 1f, Color(0xFFFF6B6B))
+        BreakdownBar("New Cards", day.newCards.toFloat(), day.count.toFloat(), ua.syt0r.kanji.presentation.common.theme.semanticInfo)
+        BreakdownBar("Accuracy", day.accuracy, 1f, ua.syt0r.kanji.presentation.common.theme.semanticSuccess)
+        BreakdownBar("Mistake Rate", 1f - day.accuracy, 1f, ua.syt0r.kanji.presentation.common.theme.semanticError)
     }
 }
 

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_common
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
@@ -77,7 +79,7 @@ fun BrushSelector(
 
                 Box(
                     modifier = Modifier
-                        .clip(RoundedCornerShape(8.dp))
+                        .clip(RoundedCornerShape(Dimens.RadiusSm))
                         .background(bgColor)
                         .clickable {
                             onBrushSettingsChange(brushSettings.copy(brushType = type))

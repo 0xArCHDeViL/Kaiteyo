@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
@@ -124,7 +126,7 @@ fun DeckBrowserEnhancedScreen(
                 leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(18.dp)) },
                 singleLine = true,
                 textStyle = TextStyle(fontSize = 13.sp),
-                shape = RoundedCornerShape(10.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
             // Deck list
@@ -211,7 +213,7 @@ private fun DeckTreeNodeRow(
 ) {
     val deck = node.deck
     val bgColor by animateColorAsState(
-        targetValue = if (isSelected) accent.primary.copy(alpha = 0.08f) else Color.Transparent,
+        targetValue = if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.Subtle) else Color.Transparent,
         animationSpec = tween(200), label = "deckBg"
     )
     var showMenu by remember { mutableStateOf(false) }
@@ -245,12 +247,12 @@ private fun DeckTreeNodeRow(
                 // Deck icon
                 Box(
                     modifier = Modifier.size(36.dp)
-                        .clip(RoundedCornerShape(8.dp))
+                        .clip(RoundedCornerShape(Dimens.RadiusSm))
                         .background(
                             when {
-                                deck.isArchived -> Color.Gray.copy(alpha = 0.2f)
-                                deck.isFavorite -> Color(0xFFFFD700).copy(alpha = 0.2f)
-                                else -> accent.primary.copy(alpha = 0.1f)
+                                deck.isArchived -> Color.Gray.copy(alpha = Dimens.Alpha.Light)
+                                deck.isFavorite -> Color(0xFFFFD700).copy(alpha = Dimens.Alpha.Light)
+                                else -> accent.primary.copy(alpha = Dimens.Alpha.Subtle)
                             }
                         ),
                     contentAlignment = Alignment.Center
@@ -287,7 +289,7 @@ private fun DeckTreeNodeRow(
                             Text("FILTERED", fontSize = 8.sp, fontWeight = FontWeight.Bold,
                                 color = accent.primary,
                                 modifier = Modifier.clip(RoundedCornerShape(2.dp))
-                                    .background(accent.primary.copy(alpha = 0.1f))
+                                    .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                                     .padding(horizontal = 3.dp, vertical = 1.dp))
                         }
                     }
@@ -451,7 +453,7 @@ private fun MergeDecksDialog(
                     items(targetDecks) { deck ->
                         Row(
                             modifier = Modifier.fillMaxWidth()
-                                .clip(RoundedCornerShape(8.dp))
+                                .clip(RoundedCornerShape(Dimens.RadiusSm))
                                 .clickable { selectedTarget = deck }
                                 .padding(vertical = 8.dp, horizontal = 4.dp),
                             verticalAlignment = Alignment.CenterVertically

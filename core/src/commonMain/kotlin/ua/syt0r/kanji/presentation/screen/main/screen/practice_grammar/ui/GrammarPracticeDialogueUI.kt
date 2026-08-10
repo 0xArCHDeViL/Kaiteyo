@@ -45,7 +45,7 @@ fun GrammarPracticeDialogueUI(
             Spacer(modifier = Modifier.height(Dimens.Space2))
             Surface(
                 shape = MaterialTheme.shapes.medium,
-                color = MaterialTheme.colorScheme.secondaryContainer.copy(alpha = 0.5f),
+                color = MaterialTheme.colorScheme.secondaryContainer.copy(alpha = Dimens.Alpha.SemiOpaque),
                 modifier = Modifier.padding(horizontal = Dimens.Space4)
             ) {
                 Text(

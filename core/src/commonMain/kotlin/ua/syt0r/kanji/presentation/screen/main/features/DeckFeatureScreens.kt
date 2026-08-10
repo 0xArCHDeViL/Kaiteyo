@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.features
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -448,7 +450,7 @@ fun CollectionsScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
                         icon = "★",
                         count = favoriteCards.size,
                         isSmart = false,
-                        accentColor = Color(0xFFFFD93D),
+                        accentColor = ua.syt0r.kanji.presentation.common.theme.semanticWarning,
                         onClick = { selectedCollection = null }
                     )
                 }
@@ -514,8 +516,8 @@ fun CollectionsScreen(controller: DeckFeaturesController, onClose: () -> Unit = 
                             }
                             Box(
                                 modifier = Modifier
-                                    .clip(RoundedCornerShape(6.dp))
-                                    .background(statusColor(card.status).copy(alpha = 0.25f))
+                                    .clip(RoundedCornerShape(Dimens.RadiusSm))
+                                    .background(statusColor(card.status).copy(alpha = Dimens.Alpha.Medium))
                                     .padding(horizontal = 6.dp, vertical = 2.dp)
                             ) {
                                 Text(card.status.displayName, fontSize = 10.sp, color = surfaceColors.textSecondary)
@@ -577,8 +579,8 @@ fun CardStatusScreen(controller: DeckFeaturesController, onClose: () -> Unit = {
                             }
                             Box(
                                 modifier = Modifier
-                                    .clip(RoundedCornerShape(6.dp))
-                                    .background(statusColor(card.status).copy(alpha = 0.25f))
+                                    .clip(RoundedCornerShape(Dimens.RadiusSm))
+                                    .background(statusColor(card.status).copy(alpha = Dimens.Alpha.Medium))
                                     .padding(horizontal = 6.dp, vertical = 2.dp)
                             ) {
                                 Text(card.status.displayName, fontSize = 10.sp, color = surfaceColors.textSecondary)
@@ -653,14 +655,14 @@ private fun StatBarRow(label: String, value: Int, color: Color) {
         Text(label, fontSize = 12.sp, color = surfaceColors.textSecondary, modifier = Modifier.width(90.dp))
         Box(
             modifier = Modifier.weight(1f).height(8.dp)
-                .clip(RoundedCornerShape(4.dp))
-                .background(color.copy(alpha = 0.35f))
+                .clip(RoundedCornerShape(Dimens.RadiusXs))
+                .background(color.copy(alpha = Dimens.Alpha.Medium))
         ) {
             Box(
                 modifier = Modifier
                     .fillMaxWidth(if (max > 0) (value.toFloat() / max).coerceIn(0.02f, 1f) else 0.02f)
                     .height(8.dp)
-                    .clip(RoundedCornerShape(4.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusXs))
                     .background(color)
             )
         }
@@ -689,8 +691,8 @@ private fun CollectionRow(
         ) {
             Box(
                 modifier = Modifier.size(36.dp)
-                    .clip(RoundedCornerShape(10.dp))
-                    .background(accentColor.copy(alpha = 0.15f)),
+                    .clip(RoundedCornerShape(Dimens.RadiusMd))
+                    .background(accentColor.copy(alpha = Dimens.Alpha.Light)),
                 contentAlignment = Alignment.Center
             ) {
                 Text(icon, fontSize = 16.sp, color = accentColor)
@@ -751,29 +753,29 @@ private fun formatTime(instant: kotlinx.datetime.Instant): String {
 }
 
 private fun statusColor(status: CardStatus): Color = when (status) {
-    CardStatus.New -> Color(0xFFC2FC8B)
-    CardStatus.Learning -> Color(0xFF7BC8FF)
-    CardStatus.Young -> Color(0xFFA78BFA)
-    CardStatus.Mature -> Color(0xFFFEAB57)
-    CardStatus.Relearning -> Color(0xFFFF6B6B)
-    CardStatus.Suspended -> Color(0xFFB0B0B0)
-    CardStatus.Buried -> Color(0xFFB0B0B0)
-    CardStatus.Archived -> Color(0xFF808080)
+    CardStatus.New -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
+    CardStatus.Learning -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
+    CardStatus.Young -> ua.syt0r.kanji.presentation.common.theme.semanticNew
+    CardStatus.Mature -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+    CardStatus.Relearning -> ua.syt0r.kanji.presentation.common.theme.semanticError
+    CardStatus.Suspended -> androidx.compose.ui.graphics.Color.Gray
+    CardStatus.Buried -> androidx.compose.ui.graphics.Color.Gray
+    CardStatus.Archived -> androidx.compose.ui.graphics.Color.DarkGray
 }
 
 private fun historyTypeColor(type: ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType): Color =
     when (type) {
-        ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.Review -> Color(0xFFC2FC8B)
+        ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.Review -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
         ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.Import,
-        ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.Export -> Color(0xFF7BC8FF)
+        ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.Export -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
         ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.Edit,
         ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.Delete,
         ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.StatusChange,
-        ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.ScheduleChange -> Color(0xFFFEAB57)
+        ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.ScheduleChange -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
         ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.TagChange,
         ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.FlagChange,
-        ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.NoteChange -> Color(0xFFA78BFA)
+        ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.NoteChange -> ua.syt0r.kanji.presentation.common.theme.semanticNew
         ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.BackupCreated,
-        ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.BackupRestored -> Color(0xFFFF6B6B)
-        else -> Color(0xFFB0B0B0)
+        ua.syt0r.kanji.presentation.screen.main.screen.decks.HistoryEntryType.BackupRestored -> ua.syt0r.kanji.presentation.common.theme.semanticError
+        else -> androidx.compose.ui.graphics.Color.Gray
     }

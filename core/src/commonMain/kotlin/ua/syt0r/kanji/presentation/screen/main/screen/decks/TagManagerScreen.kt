@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -159,7 +161,7 @@ fun TagManagerScreenFull(
                 },
                 singleLine = true,
                 textStyle = TextStyle(fontSize = 14.sp),
-                shape = RoundedCornerShape(10.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
             // Quick filters
@@ -490,8 +492,8 @@ private fun TagTreeItem(
                 .padding(start = (16 + depth * 20).dp, end = 8.dp)
                 .then(
                     if (isSelected) Modifier
-                        .clip(RoundedCornerShape(8.dp))
-                        .background(accent.primary.copy(alpha = 0.08f))
+                        .clip(RoundedCornerShape(Dimens.RadiusSm))
+                        .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                     else Modifier
                 )
                 .padding(vertical = 8.dp, horizontal = 8.dp),
@@ -623,8 +625,8 @@ private fun TagFlatItem(
             )
             .then(
                 if (isSelected) Modifier
-                    .clip(RoundedCornerShape(8.dp))
-                    .background(accent.primary.copy(alpha = 0.08f))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
+                    .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                 else Modifier
             )
             .padding(horizontal = 12.dp, vertical = 8.dp),
@@ -686,7 +688,7 @@ private fun TagCardItem(
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-        shape = RoundedCornerShape(12.dp)
+        shape = RoundedCornerShape(Dimens.RadiusMd)
     ) {
         Column(
             modifier = Modifier.fillMaxWidth().padding(12.dp),

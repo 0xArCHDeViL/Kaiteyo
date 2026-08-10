@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -91,7 +93,7 @@ fun ReviewSettingsFullScreen(
                 }
             }
 
-            HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.2f))
+            HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Light))
 
             // Settings content
             LazyColumn(
@@ -315,7 +317,7 @@ private fun ReviewPreviewCard(
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-        shape = RoundedCornerShape(16.dp)
+        shape = RoundedCornerShape(Dimens.RadiusLg)
     ) {
         Column(Modifier.padding(16.dp)) {
             Text("Preview", style = MaterialTheme.typography.titleSmall, color = surfaceColors.textPrimary)
@@ -324,7 +326,7 @@ private fun ReviewPreviewCard(
             // Simulated card
             Box(
                 modifier = Modifier.fillMaxWidth().height(120.dp)
-                    .clip(RoundedCornerShape(12.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusMd))
                     .background(surfaceColors.surface)
                     .padding(16.dp),
                 contentAlignment = Alignment.Center
@@ -350,17 +352,17 @@ private fun ReviewPreviewCard(
 
                 buttons.forEach { label ->
                     val btnColor = when (label) {
-                        "Again" -> Color(0xFFFF6B6B)
-                        "Hard" -> Color(0xFFFEAB57)
-                        "Good" -> Color(0xFFC2FC8B)
-                        "Easy" -> Color(0xFF7BC8FF)
+                        "Again" -> ua.syt0r.kanji.presentation.common.theme.semanticError
+                        "Hard" -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+                        "Good" -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
+                        "Easy" -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
                         else -> accent.primary
                     }
                     Button(
                         onClick = {},
                         modifier = Modifier.weight(1f).height(36.dp),
                         colors = ButtonDefaults.buttonColors(containerColor = btnColor),
-                        shape = RoundedCornerShape(8.dp),
+                        shape = RoundedCornerShape(Dimens.RadiusSm),
                         contentPadding = PaddingValues(0.dp)
                     ) {
                         Text(label, fontSize = 11.sp, fontWeight = FontWeight.Bold)
@@ -473,8 +475,8 @@ fun KeyboardShortcutsFullScreen(
                     }
                 },
                 singleLine = true,
-                shape = RoundedCornerShape(10.dp),
-                colors = OutlinedTextFieldDefaults.colors(focusedBorderColor = accent.primary.copy(alpha = 0.5f))
+                shape = RoundedCornerShape(Dimens.RadiusMd),
+                colors = OutlinedTextFieldDefaults.colors(focusedBorderColor = accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque))
             )
 
             // Category filter chips
@@ -751,20 +753,20 @@ private fun ShortcutRow(
 
         // Conflict warning
         if (hasConflict) {
-            Icon(Icons.Default.Warning, "Conflict", Modifier.size(16.dp), tint = Color(0xFFFFD93D))
+            Icon(Icons.Default.Warning, "Conflict", Modifier.size(16.dp), tint = ua.syt0r.kanji.presentation.common.theme.semanticWarning)
             Spacer(Modifier.width(4.dp))
         }
 
         // Key display
         if (shortcut.primaryKey?.isDefined == true && shortcut.isEnabled) {
             Box(
-                modifier = Modifier.clip(RoundedCornerShape(6.dp))
-                    .background(if (hasConflict) Color(0xFFFFD93D).copy(alpha = 0.15f) else accent.primary.copy(alpha = 0.1f))
+                modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm))
+                    .background(if (hasConflict) ua.syt0r.kanji.presentation.common.theme.semanticWarning.copy(alpha = Dimens.Alpha.Light) else accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                     .padding(horizontal = 8.dp, vertical = 4.dp)
             ) {
                 Text(shortcut.primaryKey!!.displayText, fontSize = 11.sp,
                     fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
-                    color = if (hasConflict) Color(0xFFFFD93D) else accent.primary)
+                    color = if (hasConflict) ua.syt0r.kanji.presentation.common.theme.semanticWarning else accent.primary)
             }
         } else {
             Text("—", fontSize = 12.sp, color = surfaceColors.textMuted, modifier = Modifier.padding(horizontal = 8.dp))
@@ -940,7 +942,7 @@ private fun ExportShortcutsDialog(
                 Spacer(Modifier.height(8.dp))
                 Box(
                     modifier = Modifier.fillMaxWidth().heightIn(max = 250.dp)
-                        .clip(RoundedCornerShape(8.dp))
+                        .clip(RoundedCornerShape(Dimens.RadiusSm))
                         .background(surfaceColors.surfaceInteractive)
                         .padding(8.dp).verticalScroll(rememberScrollState())
                 ) {

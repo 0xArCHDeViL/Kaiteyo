@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.settings
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Spring
@@ -110,12 +112,12 @@ fun ThemeStudio() {
                 ThemeStudioTab.entries.forEach { tab ->
                     val isSelected = selectedTabIndex == ThemeStudioTab.entries.indexOf(tab)
                     val tabBg by animateColorAsState(
-                        targetValue = if (isSelected) currentAccent.primary.copy(alpha = 0.15f) else Color.Transparent,
+                        targetValue = if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else Color.Transparent,
                         animationSpec = tween(200), label = "tabBg")
                     val tabText by animateColorAsState(
                         targetValue = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
                         animationSpec = tween(200), label = "tabText")
-                    Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(8.dp)).background(tabBg)
+                    Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm)).background(tabBg)
                         .clickable { selectedTabIndex = ThemeStudioTab.entries.indexOf(tab) }.padding(vertical = 8.dp),
                         contentAlignment = Alignment.Center) {
                         Text(tab.displayName, color = tabText, fontSize = 11.sp,
@@ -125,7 +127,7 @@ fun ThemeStudio() {
                 }
             }
             Spacer(Modifier.height(8.dp))
-            HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+            HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
             Spacer(Modifier.height(8.dp))
             Column(modifier = Modifier.weight(1f).verticalScroll(rememberScrollState())) {
                 when (selectedTabIndex) {
@@ -140,7 +142,7 @@ fun ThemeStudio() {
         }
         Spacer(Modifier.width(12.dp))
         HorizontalDivider(modifier = Modifier.fillMaxHeight().width(1.dp),
-            color = surfaceColors.border.copy(alpha = 0.2f))
+            color = surfaceColors.border.copy(alpha = Dimens.Alpha.Light))
         Spacer(Modifier.width(12.dp))
         Box(modifier = Modifier.weight(1f).fillMaxHeight()) {
             LivePreviewPanel()
@@ -170,20 +172,20 @@ private fun BaseThemeTab() {
         val isSelected = themeState.baseMode == mode
         val isSepia = mode == BaseMode.Sepia
         val cardBg by animateColorAsState(
-            targetValue = if (isSelected) currentAccent.primary.copy(alpha = 0.12f) else surfaceColors.surface,
+            targetValue = if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface,
             animationSpec = tween(200), label = "baseCardBg")
         val cardBorder by animateColorAsState(
-            targetValue = if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = 0.2f),
+            targetValue = if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light),
             animationSpec = tween(200), label = "baseCardBorder")
         val surf = surfaceForBaseMode(mode)
 
         Row(modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)
-            .clip(RoundedCornerShape(12.dp)).background(cardBg)
-            .border(1.5.dp, cardBorder, RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd)).background(cardBg)
+            .border(1.5.dp, cardBorder, RoundedCornerShape(Dimens.RadiusMd))
             .clickable { themeState.baseMode = mode }.padding(14.dp),
             verticalAlignment = Alignment.CenterVertically) {
-            Box(modifier = Modifier.size(36.dp).clip(RoundedCornerShape(8.dp)).background(surf.background)
-                .border(0.5.dp, surf.border.copy(alpha = 0.3f), RoundedCornerShape(8.dp)))
+            Box(modifier = Modifier.size(36.dp).clip(RoundedCornerShape(Dimens.RadiusSm)).background(surf.background)
+                .border(0.5.dp, surf.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusSm)))
             Spacer(Modifier.width(12.dp))
             Column(Modifier.weight(1f)) {
                 Text(mode.displayName, color = if (isSelected) currentAccent.primary else surfaceColors.textPrimary,
@@ -218,7 +220,7 @@ private fun AccentThemeTab() {
         Text("Accent themes are disabled in Sepia reading mode for distraction-free focus.",
             color = surfaceColors.textMuted, fontSize = 13.sp)
         Spacer(Modifier.height(8.dp))
-        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp))
+        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusSm))
             .background(surfaceColors.surface).padding(16.dp), contentAlignment = Alignment.Center) {
             Text("Switch to OLED, Dark, or Light to use accent themes.",
                 color = surfaceColors.textMuted, fontSize = 12.sp)
@@ -234,13 +236,13 @@ private fun AccentThemeTab() {
             row.forEach { scheme ->
                 val isSelected = currentAccent.name == scheme.name
                 val cardBg by animateColorAsState(
-                    targetValue = if (isSelected) currentAccent.primary.copy(alpha = 0.12f) else surfaceColors.surface,
+                    targetValue = if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface,
                     animationSpec = tween(200), label = "accentCardBg")
                 val cardBorder by animateColorAsState(
-                    targetValue = if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = 0.2f),
+                    targetValue = if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light),
                     animationSpec = tween(200), label = "accentCardBorder")
-                Column(modifier = Modifier.weight(1f).clip(RoundedCornerShape(10.dp)).background(cardBg)
-                    .border(1.dp, cardBorder, RoundedCornerShape(10.dp))
+                Column(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusMd)).background(cardBg)
+                    .border(1.dp, cardBorder, RoundedCornerShape(Dimens.RadiusMd))
                     .clickable { themeState.accentScheme = scheme }.padding(10.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Row(horizontalArrangement = Arrangement.spacedBy(3.dp)) {
@@ -288,8 +290,8 @@ private fun CustomColorTab() {
         LazyColumn(modifier = Modifier.weight(1f).height(120.dp)) {
             items(targets) { target ->
                 val isSelected = selectedTarget == target
-                Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(6.dp))
-                    .background(if (isSelected) currentAccent.primary.copy(alpha = 0.15f) else Color.Transparent)
+                Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusSm))
+                    .background(if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else Color.Transparent)
                     .clickable { selectedTarget = target }.padding(vertical = 4.dp, horizontal = 6.dp)) {
                     Text(target, color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
                         fontSize = 10.sp, fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal)
@@ -303,8 +305,8 @@ private fun CustomColorTab() {
     Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
         listOf("RGB", "HSL", "HSV", "HEX").forEach { m ->
             val isSelected = mode == m
-            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(6.dp))
-                .background(if (isSelected) currentAccent.primary.copy(alpha = 0.12f) else Color.Transparent)
+            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else Color.Transparent)
                 .clickable { mode = m }.padding(vertical = 4.dp), contentAlignment = Alignment.Center) {
                 Text(m, color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
                     fontSize = 10.sp, fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal)
@@ -342,7 +344,7 @@ private fun CustomColorTab() {
         Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
             savedColors.take(8).forEach { color ->
                 Box(modifier = Modifier.size(20.dp).clip(CircleShape).background(color)
-                    .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), CircleShape)
+                    .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), CircleShape)
                     .clickable { currentColor = color })
             }
         }
@@ -388,7 +390,7 @@ private fun ColorWheelPicker(
 
     Canvas(modifier = modifier
         .clip(CircleShape)
-        .border(2.dp, surfaceColors.border.copy(alpha = 0.2f), CircleShape)
+        .border(2.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Light), CircleShape)
         .pointerInput(Unit) {
             detectDragGestures(
                 onDragStart = { isDragging = true },
@@ -446,7 +448,7 @@ private fun ColorWheelPicker(
         val indicatorX = center.x + selRadius * cos(selAngle)
         val indicatorY = center.y + selRadius * sin(selAngle)
         drawCircle(color = Color.White, radius = 6f, center = Offset(indicatorX, indicatorY))
-        drawCircle(color = Color.Black.copy(alpha = 0.3f), radius = 6f,
+        drawCircle(color = Color.Black.copy(alpha = Dimens.Alpha.Medium), radius = 6f,
             center = Offset(indicatorX, indicatorY), style = Stroke(width = 1.5f))
     }
 }
@@ -464,9 +466,9 @@ private fun RgbEditor(color: Color, onChange: (Color) -> Unit) {
 
     LaunchedEffect(r, g, b) { onChange(Color(r / 255f, g / 255f, b / 255f, color.alpha)) }
 
-    ColorSlider("R", (r / 255f).coerceIn(0f, 1f), Color.Red.copy(alpha = 0.3f)) { r = (it * 255f).coerceIn(0f, 255f) }
-    ColorSlider("G", (g / 255f).coerceIn(0f, 1f), Color.Green.copy(alpha = 0.3f)) { g = (it * 255f).coerceIn(0f, 255f) }
-    ColorSlider("B", (b / 255f).coerceIn(0f, 1f), Color.Blue.copy(alpha = 0.3f)) { b = (it * 255f).coerceIn(0f, 255f) }
+    ColorSlider("R", (r / 255f).coerceIn(0f, 1f), Color.Red.copy(alpha = Dimens.Alpha.Medium)) { r = (it * 255f).coerceIn(0f, 255f) }
+    ColorSlider("G", (g / 255f).coerceIn(0f, 1f), Color.Green.copy(alpha = Dimens.Alpha.Medium)) { g = (it * 255f).coerceIn(0f, 255f) }
+    ColorSlider("B", (b / 255f).coerceIn(0f, 1f), Color.Blue.copy(alpha = Dimens.Alpha.Medium)) { b = (it * 255f).coerceIn(0f, 255f) }
     Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
         Text("RGB(${(r).roundToInt()}, ${(g).roundToInt()}, ${(b).roundToInt()})",
             color = surfaceColors.textMuted, fontSize = 11.sp)
@@ -526,8 +528,8 @@ private fun HexEditor(color: Color, onChange: (Color) -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically) {
         Text("#", color = surfaceColors.textPrimary, fontSize = 16.sp, fontWeight = FontWeight.Bold)
         Spacer(Modifier.width(4.dp))
-        Box(modifier = Modifier.clip(RoundedCornerShape(8.dp)).background(surfaceColors.surfaceInteractive)
-            .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), RoundedCornerShape(8.dp))
+        Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm)).background(surfaceColors.surfaceInteractive)
+            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusSm))
             .padding(horizontal = 12.dp, vertical = 8.dp)) {
             BasicTextField(value = TextFieldValue(hexValue),
                 onValueChange = {
@@ -565,9 +567,9 @@ private fun GradientEditorTab() {
     Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
         listOf("Linear", "Radial", "Angular").forEach { type ->
             val isSelected = gradientType == type
-            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(8.dp))
-                .background(if (isSelected) currentAccent.primary.copy(alpha = 0.15f) else surfaceColors.surface)
-                .border(1.dp, if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = 0.2f), RoundedCornerShape(8.dp))
+            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface)
+                .border(1.dp, if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusSm))
                 .clickable { gradientType = type }.padding(vertical = 6.dp), contentAlignment = Alignment.Center) {
                 Text(type, color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
                     fontSize = 11.sp, fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal)
@@ -585,7 +587,7 @@ private fun GradientEditorTab() {
     Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
         repeat(stopCount) { index ->
             Box(modifier = Modifier.size(24.dp).clip(CircleShape).background(currentAccent.primary)
-                .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), CircleShape)
+                .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), CircleShape)
                 .clickable { /* Open color picker for this stop */ },
                 contentAlignment = Alignment.Center) {
                 Text("${index + 1}", color = Color.White, fontSize = 9.sp)
@@ -610,7 +612,7 @@ private fun GradientEditorTab() {
 
     // Gradient Preview
     val gradColors = List(stopCount) { currentAccent.primary.copy(alpha = opacity) }
-    Box(modifier = Modifier.fillMaxWidth().height(60.dp).clip(RoundedCornerShape(12.dp))
+    Box(modifier = Modifier.fillMaxWidth().height(60.dp).clip(RoundedCornerShape(Dimens.RadiusMd))
         .background(
             when (gradientType) {
                 "Linear" -> Brush.linearGradient(gradColors, start = Offset.Zero, end = Offset(1f, 1f))
@@ -618,7 +620,7 @@ private fun GradientEditorTab() {
                 "Angular" -> Brush.sweepGradient(gradColors)
                 else -> Brush.horizontalGradient(gradColors)
             }
-        ).border(1.dp, surfaceColors.border.copy(alpha = 0.2f), RoundedCornerShape(12.dp)))
+        ).border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusMd)))
     Spacer(Modifier.height(12.dp))
 
     Button(onClick = {
@@ -653,9 +655,9 @@ private fun MotionTab() {
     Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(4.dp)) {
         presets.forEach { (name, speed) ->
             val isSelected = themeState.animationConfig.speed == speed
-            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(8.dp))
-                .background(if (isSelected) currentAccent.primary.copy(alpha = 0.15f) else surfaceColors.surface)
-                .border(1.dp, if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = 0.2f), RoundedCornerShape(8.dp))
+            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface)
+                .border(1.dp, if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusSm))
                 .clickable { themeState.animationConfig = themeState.animationConfig.copy(speed = speed) }
                 .padding(vertical = 8.dp), contentAlignment = Alignment.Center) {
                 Text(name, color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
@@ -680,8 +682,8 @@ private fun MotionTab() {
     Spacer(Modifier.height(6.dp))
     PageTransitionType.entries.forEach { transition ->
         val isSelected = themeState.animationConfig.pageTransition == transition
-        Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp))
-            .background(if (isSelected) currentAccent.primary.copy(alpha = 0.1f) else Color.Transparent)
+        Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusSm))
+            .background(if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Subtle) else Color.Transparent)
             .clickable { themeState.animationConfig = themeState.animationConfig.copy(pageTransition = transition) }
             .padding(horizontal = 12.dp, vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
             Box(modifier = Modifier.size(16.dp).clip(CircleShape)
@@ -697,10 +699,10 @@ private fun MotionTab() {
     }
     Spacer(Modifier.height(12.dp))
 
-    Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp))
+    Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusSm))
         .clickable { themeState.animationConfig = themeState.animationConfig.copy(reducedMotion = !themeState.animationConfig.reducedMotion) }
         .padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-        Box(modifier = Modifier.size(20.dp).clip(RoundedCornerShape(4.dp))
+        Box(modifier = Modifier.size(20.dp).clip(RoundedCornerShape(Dimens.RadiusXs))
             .background(if (themeState.animationConfig.reducedMotion) currentAccent.primary else surfaceColors.border),
             contentAlignment = Alignment.Center) {
             if (themeState.animationConfig.reducedMotion) Text("\u2713", color = currentAccent.onPrimary, fontSize = 10.sp)
@@ -735,9 +737,9 @@ private fun LayoutTab() {
     Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
         UIDensity.entries.forEach { density ->
             val isSelected = themeState.layoutConfig.density == density
-            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(8.dp))
-                .background(if (isSelected) currentAccent.primary.copy(alpha = 0.15f) else surfaceColors.surface)
-                .border(1.dp, if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = 0.2f), RoundedCornerShape(8.dp))
+            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface)
+                .border(1.dp, if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusSm))
                 .clickable { themeState.layoutConfig = themeState.layoutConfig.copy(density = density) }
                 .padding(vertical = 8.dp), contentAlignment = Alignment.Center) {
                 Text(density.displayName, color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
@@ -780,10 +782,10 @@ private fun LayoutTab() {
     }
     Spacer(Modifier.height(12.dp))
 
-    Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp))
+    Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusSm))
         .clickable { themeState.layoutConfig = themeState.layoutConfig.copy(transparencyEnabled = !themeState.layoutConfig.transparencyEnabled) }
         .padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-        Box(modifier = Modifier.size(20.dp).clip(RoundedCornerShape(4.dp))
+        Box(modifier = Modifier.size(20.dp).clip(RoundedCornerShape(Dimens.RadiusXs))
             .background(if (themeState.layoutConfig.transparencyEnabled) currentAccent.primary else surfaceColors.border),
             contentAlignment = Alignment.Center) {
             if (themeState.layoutConfig.transparencyEnabled) Text("\u2713", color = currentAccent.onPrimary, fontSize = 10.sp)
@@ -799,7 +801,7 @@ private fun LayoutTab() {
     }
     Spacer(Modifier.height(12.dp))
 
-    HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+    HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
     Spacer(Modifier.height(12.dp))
     Text("Theme Management", style = MaterialTheme.typography.bodyMedium, color = surfaceColors.textSecondary, fontWeight = FontWeight.Medium)
     Spacer(Modifier.height(8.dp))
@@ -824,8 +826,8 @@ private fun SidebarModeSelector(current: SidebarMode, onSelect: (SidebarMode) ->
     Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
         SidebarMode.entries.forEach { mode ->
             val isSelected = current == mode
-            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(6.dp))
-                .background(if (isSelected) currentAccent.primary.copy(alpha = 0.12f) else Color.Transparent)
+            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else Color.Transparent)
                 .clickable { onSelect(mode) }.padding(vertical = 6.dp), contentAlignment = Alignment.Center) {
                 Text(mode.displayName, color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
                     fontSize = 10.sp, fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal)
@@ -841,8 +843,8 @@ private fun SidebarPositionSelector(current: SidebarPosition, onSelect: (Sidebar
     Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
         SidebarPosition.entries.forEach { pos ->
             val isSelected = current == pos
-            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(6.dp))
-                .background(if (isSelected) currentAccent.primary.copy(alpha = 0.12f) else Color.Transparent)
+            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else Color.Transparent)
                 .clickable { onSelect(pos) }.padding(vertical = 6.dp), contentAlignment = Alignment.Center) {
                 Text(pos.displayName, color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
                     fontSize = 12.sp, fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal)
@@ -862,9 +864,9 @@ private fun CornerRadiusSelector(current: RadiusConfig, onSelect: (RadiusConfig)
     Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
         CornerRadiusStyle.entries.forEach { style ->
             val isSelected = current.style == style
-            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(8.dp))
-                .background(if (isSelected) currentAccent.primary.copy(alpha = 0.15f) else surfaceColors.surface)
-                .border(1.dp, if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = 0.2f), RoundedCornerShape(8.dp))
+            Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(if (isSelected) currentAccent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface)
+                .border(1.dp, if (isSelected) currentAccent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusSm))
                 .clickable { onSelect(current.copy(style = style)) }.padding(vertical = 8.dp),
                 contentAlignment = Alignment.Center) {
                 Text(style.displayName, color = if (isSelected) currentAccent.primary else surfaceColors.textSecondary,
@@ -886,24 +888,24 @@ private fun LivePreviewPanel() {
     val currentAccent = LocalKaiteyoAccent.current
     val previewSurface = surfaceForBaseMode(themeState.baseMode)
 
-    Column(modifier = Modifier.fillMaxSize().clip(RoundedCornerShape(16.dp)).background(previewSurface.background).padding(16.dp)) {
+    Column(modifier = Modifier.fillMaxSize().clip(RoundedCornerShape(Dimens.RadiusLg)).background(previewSurface.background).padding(16.dp)) {
         Text("Live Preview", style = MaterialTheme.typography.titleMedium, color = previewSurface.textPrimary, fontWeight = FontWeight.Bold)
         Spacer(Modifier.height(2.dp))
         Text("Changes apply in real-time", style = MaterialTheme.typography.bodySmall, color = previewSurface.textMuted)
         Spacer(Modifier.height(12.dp))
-        Row(modifier = Modifier.fillMaxSize().clip(RoundedCornerShape(12.dp)).background(previewSurface.surface).padding(8.dp)) {
+        Row(modifier = Modifier.fillMaxSize().clip(RoundedCornerShape(Dimens.RadiusMd)).background(previewSurface.surface).padding(8.dp)) {
             // Mini sidebar
-            Column(modifier = Modifier.width(80.dp).fillMaxHeight().clip(RoundedCornerShape(8.dp))
+            Column(modifier = Modifier.width(80.dp).fillMaxHeight().clip(RoundedCornerShape(Dimens.RadiusSm))
                 .background(previewSurface.surfaceElevated).padding(6.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Box(modifier = Modifier.fillMaxWidth().height(20.dp).clip(RoundedCornerShape(4.dp))
-                    .background(currentAccent.primary.copy(alpha = 0.2f)), contentAlignment = Alignment.Center) {
+                Box(modifier = Modifier.fillMaxWidth().height(20.dp).clip(RoundedCornerShape(Dimens.RadiusXs))
+                    .background(currentAccent.primary.copy(alpha = Dimens.Alpha.Light)), contentAlignment = Alignment.Center) {
                     Text("K", color = currentAccent.primary, fontSize = 10.sp, fontWeight = FontWeight.Bold)
                 }
                 Spacer(Modifier.height(4.dp))
                 listOf("\u25C6", "\u25C7", "\u25C7", "\u25C7").forEachIndexed { i, icon ->
                     val isActive = i == 0
-                    Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(4.dp))
-                        .background(if (isActive) currentAccent.primary.copy(alpha = 0.1f) else Color.Transparent)
+                    Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusXs))
+                        .background(if (isActive) currentAccent.primary.copy(alpha = Dimens.Alpha.Subtle) else Color.Transparent)
                         .padding(horizontal = 4.dp, vertical = 3.dp), verticalAlignment = Alignment.CenterVertically) {
                         Text(icon, color = if (isActive) currentAccent.primary else previewSurface.textMuted, fontSize = 8.sp)
                         Spacer(Modifier.width(4.dp))
@@ -933,14 +935,14 @@ private fun LivePreviewPanel() {
                 Spacer(Modifier.height(8.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                     listOf("23", "156", "89").forEachIndexed { i, value ->
-                        Column(modifier = Modifier.weight(1f).clip(RoundedCornerShape(6.dp)).background(previewSurface.surfaceElevated).padding(6.dp)) {
+                        Column(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm)).background(previewSurface.surfaceElevated).padding(6.dp)) {
                             Text(value, color = currentAccent.primary, fontSize = 14.sp, fontWeight = FontWeight.Bold)
                             Text(listOf("Learning", "Review", "Mastered")[i], color = previewSurface.textMuted, fontSize = 7.sp)
                         }
                     }
                 }
                 Spacer(Modifier.height(6.dp))
-                Box(modifier = Modifier.fillMaxWidth().weight(1f).clip(RoundedCornerShape(6.dp)).background(previewSurface.surfaceElevated).padding(8.dp)) {
+                Box(modifier = Modifier.fillMaxWidth().weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm)).background(previewSurface.surfaceElevated).padding(8.dp)) {
                     Column {
                         Text("Continue Learning", color = previewSurface.textPrimary, fontSize = 9.sp, fontWeight = FontWeight.SemiBold)
                         Spacer(Modifier.height(4.dp))

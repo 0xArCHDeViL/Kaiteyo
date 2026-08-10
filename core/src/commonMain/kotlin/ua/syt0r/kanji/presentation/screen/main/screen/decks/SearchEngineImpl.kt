@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -122,7 +124,7 @@ fun SearchEngineScreen(
                 keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
                 keyboardActions = KeyboardActions(onSearch = { /* search triggered */ }),
                 singleLine = true,
-                shape = RoundedCornerShape(12.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
             // Results count
@@ -224,7 +226,7 @@ private fun AdvancedSearchFilters(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp)
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(surfaceColors.surface)
             .padding(12.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
@@ -285,12 +287,12 @@ private fun AdvancedSearchFilters(
                     val isSelected = criteria.flagType == flag
                     Box(
                         modifier = Modifier.size(24.dp)
-                            .clip(RoundedCornerShape(4.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusXs))
                             .background(if (isSelected) flag.colorFromHex() else Color.Transparent)
                             .border(
                                 if (isSelected) 1.dp else 1.dp,
-                                if (isSelected) flag.colorFromHex() else surfaceColors.textMuted.copy(alpha = 0.2f),
-                                RoundedCornerShape(4.dp)
+                                if (isSelected) flag.colorFromHex() else surfaceColors.textMuted.copy(alpha = Dimens.Alpha.Light),
+                                RoundedCornerShape(Dimens.RadiusXs)
                             )
                             .clickable { onUpdate(criteria.copy(flagType = if (isSelected) null else flag)) },
                         contentAlignment = Alignment.Center
@@ -417,8 +419,8 @@ private fun SearchResultCard(
                         card.tags.take(3).forEach { tag ->
                             Text(tag.name, fontSize = 10.sp, color = accent.primary,
                                 modifier = Modifier
-                                    .clip(RoundedCornerShape(4.dp))
-                                    .background(accent.primary.copy(alpha = 0.1f))
+                                    .clip(RoundedCornerShape(Dimens.RadiusXs))
+                                    .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                                     .padding(horizontal = 4.dp, vertical = 1.dp))
                         }
                         if (card.tags.size > 3) {

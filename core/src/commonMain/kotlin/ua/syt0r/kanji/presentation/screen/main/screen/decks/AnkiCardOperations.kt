@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -102,8 +104,8 @@ fun CardOperationsScreen(
                     ) {
                         Box(
                             modifier = Modifier.size(40.dp)
-                                .clip(RoundedCornerShape(10.dp))
-                                .background(accent.primary.copy(alpha = 0.1f)),
+                                .clip(RoundedCornerShape(Dimens.RadiusMd))
+                                .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle)),
                             contentAlignment = Alignment.Center
                         ) { op.icon() }
                         Spacer(Modifier.width(12.dp))
@@ -260,8 +262,8 @@ fun StudyModeSelector(
                     val isSelected = mode == currentMode
                     Row(
                         modifier = Modifier.fillMaxWidth()
-                            .clip(RoundedCornerShape(8.dp))
-                            .background(if (isSelected) MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f) else Color.Transparent)
+                            .clip(RoundedCornerShape(Dimens.RadiusSm))
+                            .background(if (isSelected) MaterialTheme.colorScheme.primaryContainer.copy(alpha = Dimens.Alpha.Medium) else Color.Transparent)
                             .clickable { onSelectMode(mode) }
                             .padding(12.dp),
                         verticalAlignment = Alignment.CenterVertically

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -155,7 +157,7 @@ fun HistoryFullScreen(
                     focusedBorderColor = accent.primary,
                     unfocusedBorderColor = surfaceColors.border
                 ),
-                shape = RoundedCornerShape(12.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
             // Filter chips
@@ -224,7 +226,7 @@ fun HistoryFullScreen(
                             Icons.Default.History,
                             null,
                             Modifier.size(64.dp),
-                            tint = surfaceColors.textMuted.copy(alpha = 0.5f)
+                            tint = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.SemiOpaque)
                         )
                         Spacer(Modifier.height(16.dp))
                         Text(
@@ -295,7 +297,7 @@ fun HistoryFullScreen(
                         showClearConfirm = false
                         showUndoResult = "History cleared"
                     },
-                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFFF6B6B))
+                    colors = ButtonDefaults.buttonColors(containerColor = ua.syt0r.kanji.presentation.common.theme.semanticError)
                 ) { Text("Clear All") }
             },
             dismissButton = {
@@ -333,15 +335,15 @@ private fun HistoryStatsBar(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 4.dp)
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(surfaceColors.surfaceElevated)
             .padding(12.dp),
         horizontalArrangement = Arrangement.SpaceEvenly
     ) {
         HistoryStat("Total", "$totalEntries", Icons.Default.History, surfaceColors.textPrimary, surfaceColors)
         HistoryStat("Today", "$todayEntries", Icons.Default.Today, accent.primary, surfaceColors)
-        HistoryStat("Undoable", "$undoableCount", Icons.Default.Undo, Color(0xFFC2FC8B), surfaceColors)
-        HistoryStat("Types", "$uniqueTypes", Icons.Default.Category, Color(0xFFA78BFA), surfaceColors)
+        HistoryStat("Undoable", "$undoableCount", Icons.Default.Undo, ua.syt0r.kanji.presentation.common.theme.semanticSuccess, surfaceColors)
+        HistoryStat("Types", "$uniqueTypes", Icons.Default.Category, ua.syt0r.kanji.presentation.common.theme.semanticNew, surfaceColors)
     }
 }
 
@@ -396,7 +398,7 @@ private fun DateHeader(
         Spacer(Modifier.width(8.dp))
         HorizontalDivider(
             modifier = Modifier.weight(1f),
-            color = surfaceColors.border.copy(alpha = 0.3f)
+            color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium)
         )
     }
 }
@@ -418,7 +420,7 @@ private fun HistoryEntryItem(
             .padding(vertical = 3.dp)
             .clickable(onClick = onClick),
         colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-        shape = RoundedCornerShape(10.dp),
+        shape = RoundedCornerShape(Dimens.RadiusMd),
         elevation = CardDefaults.cardElevation(defaultElevation = 1.dp)
     ) {
         Row(
@@ -430,7 +432,7 @@ private fun HistoryEntryItem(
                 modifier = Modifier
                     .size(36.dp)
                     .clip(CircleShape)
-                    .background(typeColor.copy(alpha = 0.15f)),
+                    .background(typeColor.copy(alpha = Dimens.Alpha.Light)),
                 contentAlignment = Alignment.Center
             ) {
                 Icon(typeIcon, null, Modifier.size(18.dp), tint = typeColor)
@@ -488,7 +490,7 @@ private fun HistoryEntryItem(
                 Icons.Default.ChevronRight,
                 null,
                 Modifier.size(18.dp),
-                tint = surfaceColors.textMuted.copy(alpha = 0.5f)
+                tint = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.SemiOpaque)
             )
         }
     }
@@ -510,7 +512,7 @@ private fun EntryDetailDialog(
                     modifier = Modifier
                         .size(28.dp)
                         .clip(CircleShape)
-                        .background(entryTypeColor(entry.type).copy(alpha = 0.15f)),
+                        .background(entryTypeColor(entry.type).copy(alpha = Dimens.Alpha.Light)),
                     contentAlignment = Alignment.Center
                 ) {
                     Icon(entryTypeIcon(entry.type), null, Modifier.size(16.dp), tint = entryTypeColor(entry.type))
@@ -569,22 +571,22 @@ private fun DetailRow(label: String, value: String, surfaceColors: SurfaceColors
 }
 
 private fun entryTypeColor(type: HistoryEntryType): Color = when (type) {
-    HistoryEntryType.Review -> Color(0xFF7BC8FF)
-    HistoryEntryType.Import -> Color(0xFFC2FC8B)
-    HistoryEntryType.Export -> Color(0xFFFEAB57)
-    HistoryEntryType.Edit -> Color(0xFFA78BFA)
-    HistoryEntryType.Delete -> Color(0xFFFF6B6B)
-    HistoryEntryType.Restore -> Color(0xFFFFD93D)
-    HistoryEntryType.BulkOperation -> Color(0xFFA78BFA)
-    HistoryEntryType.TagChange -> Color(0xFFA78BFA)
-    HistoryEntryType.FlagChange -> Color(0xFFFF6B6B)
-    HistoryEntryType.DeckChange -> Color(0xFFFEAB57)
-    HistoryEntryType.NoteChange -> Color(0xFF7BC8FF)
-    HistoryEntryType.StatusChange -> Color(0xFFFFD93D)
-    HistoryEntryType.ScheduleChange -> Color(0xFFC2FC8B)
-    HistoryEntryType.BackupCreated -> Color(0xFFB0B0B0)
-    HistoryEntryType.BackupRestored -> Color(0xFFB0B0B0)
-    HistoryEntryType.PluginAction -> Color(0xFF7BC8FF)
+    HistoryEntryType.Review -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
+    HistoryEntryType.Import -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
+    HistoryEntryType.Export -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+    HistoryEntryType.Edit -> ua.syt0r.kanji.presentation.common.theme.semanticNew
+    HistoryEntryType.Delete -> ua.syt0r.kanji.presentation.common.theme.semanticError
+    HistoryEntryType.Restore -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+    HistoryEntryType.BulkOperation -> ua.syt0r.kanji.presentation.common.theme.semanticNew
+    HistoryEntryType.TagChange -> ua.syt0r.kanji.presentation.common.theme.semanticNew
+    HistoryEntryType.FlagChange -> ua.syt0r.kanji.presentation.common.theme.semanticError
+    HistoryEntryType.DeckChange -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+    HistoryEntryType.NoteChange -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
+    HistoryEntryType.StatusChange -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+    HistoryEntryType.ScheduleChange -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
+    HistoryEntryType.BackupCreated -> androidx.compose.ui.graphics.Color.Gray
+    HistoryEntryType.BackupRestored -> androidx.compose.ui.graphics.Color.Gray
+    HistoryEntryType.PluginAction -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
 }
 
 private fun entryTypeIcon(type: HistoryEntryType): ImageVector = when (type) {

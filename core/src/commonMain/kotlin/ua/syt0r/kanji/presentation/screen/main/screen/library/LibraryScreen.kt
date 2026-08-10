@@ -2,6 +2,8 @@
 
 package ua.syt0r.kanji.presentation.screen.main.screen.library
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.hoverable
@@ -372,7 +374,7 @@ private fun StatRow(
             Column(
                 modifier = Modifier
                     .weight(1f)
-                    .clip(RoundedCornerShape(20.dp))
+                    .clip(RoundedCornerShape(Dimens.RadiusXl))
                     .background(surfaceColors.surface)
                     .padding(vertical = 16.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
@@ -448,7 +450,7 @@ private fun SectionCard(
             scaleX = scale
             scaleY = scale
         }
-        .clip(RoundedCornerShape(20.dp))
+        .clip(RoundedCornerShape(Dimens.RadiusXl))
         .background(backgroundColor)
 
     val clickable = if (onClick != null) {
@@ -465,8 +467,8 @@ private fun SectionCard(
         Box(
             modifier = Modifier
                 .size(48.dp)
-                .clip(RoundedCornerShape(14.dp))
-                .background(accent.primary.copy(alpha = 0.15f)),
+                .clip(RoundedCornerShape(Dimens.RadiusLg))
+                .background(accent.primary.copy(alpha = Dimens.Alpha.Light)),
             contentAlignment = Alignment.Center
         ) {
             Text(glyph, fontSize = 22.sp)

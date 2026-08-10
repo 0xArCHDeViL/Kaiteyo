@@ -505,7 +505,7 @@ private fun ExpandedNavItem(
     val radius = scaledRadius(Dimens.RadiusMd)
 
     val backgroundColor = when {
-        entry.selected -> accent.primary.copy(alpha = 0.12f)
+        entry.selected -> accent.primary.copy(alpha = Dimens.Alpha.Light)
         isHovered -> surfaceColors.surfaceInteractive
         else -> Color.Transparent
     }
@@ -573,7 +573,7 @@ private fun CompactNavItem(
     var bounds by remember { mutableStateOf<Rect?>(null) }
 
     val backgroundColor = when {
-        entry.selected -> accent.primary.copy(alpha = 0.12f)
+        entry.selected -> accent.primary.copy(alpha = Dimens.Alpha.Light)
         isHovered -> surfaceColors.surfaceInteractive
         else -> Color.Transparent
     }
@@ -746,7 +746,7 @@ private fun ResizeStrip(
                 .fillMaxHeight()
                 .background(
                     when {
-                        resizing -> LocalKaiteyoAccent.current.primary.copy(alpha = 0.25f)
+                        resizing -> LocalKaiteyoAccent.current.primary.copy(alpha = Dimens.Alpha.Medium)
                         isHovered -> surfaceColors.border
                         else -> Color.Transparent
                     }
@@ -809,7 +809,7 @@ private fun FloatingNavPanel(
             .shadow(
                 elevation = NavTokens.FloatingElevation,
                 shape = shape,
-                ambientColor = accent.primary.copy(alpha = 0.08f),
+                ambientColor = accent.primary.copy(alpha = Dimens.Alpha.Subtle),
                 spotColor = accent.primary.copy(alpha = 0.16f)
             )
             .clip(shape)
@@ -881,7 +881,7 @@ private fun FloatingResizeHandle(
             .padding(Dimens.Space2)
             .size(18.dp)
             .clip(RoundedCornerShape(Dimens.RadiusXs))
-            .background(if (resizing) LocalKaiteyoAccent.current.primary.copy(alpha = 0.3f) else surfaceColors.border.copy(alpha = 0.5f))
+            .background(if (resizing) LocalKaiteyoAccent.current.primary.copy(alpha = Dimens.Alpha.Medium) else surfaceColors.border.copy(alpha = Dimens.Alpha.SemiOpaque))
             .pointerInput(Unit) {
                 detectDragGestures(
                     onDragStart = { resizing = true },
@@ -981,7 +981,7 @@ private fun DockNavItem(
     )
 
     val backgroundColor = when {
-        entry.selected -> accent.primary.copy(alpha = 0.15f)
+        entry.selected -> accent.primary.copy(alpha = Dimens.Alpha.Light)
         isHovered -> surfaceColors.surfaceInteractive
         else -> Color.Transparent
     }
@@ -1168,8 +1168,8 @@ private fun scaledRadius(base: Dp): Dp {
 private fun Modifier.shadow(
     elevation: Dp,
     shape: androidx.compose.ui.graphics.Shape,
-    ambientColor: Color = Color.Black.copy(alpha = 0.3f),
-    spotColor: Color = Color.Black.copy(alpha = 0.3f)
+    ambientColor: Color = Color.Black.copy(alpha = Dimens.Alpha.Medium),
+    spotColor: Color = Color.Black.copy(alpha = Dimens.Alpha.Medium)
 ): Modifier = Modifier.materialShadow(
     elevation = elevation,
     shape = shape,

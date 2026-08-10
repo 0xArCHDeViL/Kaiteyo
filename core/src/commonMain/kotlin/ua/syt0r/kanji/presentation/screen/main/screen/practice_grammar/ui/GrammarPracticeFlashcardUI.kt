@@ -86,7 +86,7 @@ fun GrammarPracticeFlashcardUI(
                             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                                 Spacer(modifier = Modifier.height(Dimens.Space10))
                                 HorizontalDivider(
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.2f),
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = Dimens.Alpha.Light),
                                     modifier = Modifier.fillMaxWidth(0.6f)
                                 )
                                 Spacer(modifier = Modifier.height(Dimens.Space8))

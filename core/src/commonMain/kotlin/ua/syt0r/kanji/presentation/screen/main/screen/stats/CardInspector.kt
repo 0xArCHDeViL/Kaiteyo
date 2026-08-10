@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.stats
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -88,8 +90,8 @@ fun CardInspector(
             Box(
                 modifier = Modifier
                     .size(72.dp)
-                    .clip(RoundedCornerShape(16.dp))
-                    .background(accent.primary.copy(alpha = 0.1f)),
+                    .clip(RoundedCornerShape(Dimens.RadiusLg))
+                    .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle)),
                 contentAlignment = Alignment.Center
             ) {
                 Text(cardData.character, color = accent.primary, fontSize = 36.sp, fontWeight = FontWeight.Bold)
@@ -103,7 +105,7 @@ fun CardInspector(
         }
 
         Spacer(modifier = Modifier.height(20.dp))
-        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
         Spacer(modifier = Modifier.height(16.dp))
 
         // Stats grid
@@ -132,7 +134,7 @@ fun CardInspector(
                     Column(
                         modifier = Modifier
                             .weight(1f)
-                            .clip(RoundedCornerShape(10.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusMd))
                             .background(surfaceColors.surface)
                             .padding(12.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
@@ -146,7 +148,7 @@ fun CardInspector(
         }
 
         Spacer(modifier = Modifier.height(20.dp))
-        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
         Spacer(modifier = Modifier.height(16.dp))
 
         // Review graph (simplified)
@@ -158,7 +160,7 @@ fun CardInspector(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(120.dp)
-                .clip(RoundedCornerShape(12.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
                 .background(surfaceColors.surface)
                 .padding(16.dp)
         ) {
@@ -177,7 +179,7 @@ fun CardInspector(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .height((height * 80).dp)
-                                .clip(RoundedCornerShape(4.dp))
+                                .clip(RoundedCornerShape(Dimens.RadiusXs))
                                 .background(
                                     Brush.verticalGradient(
                                         colors = listOf(accent.primary, accent.secondary)
@@ -192,7 +194,7 @@ fun CardInspector(
         }
 
         Spacer(modifier = Modifier.height(20.dp))
-        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
         Spacer(modifier = Modifier.height(16.dp))
 
         // Tags
@@ -203,8 +205,8 @@ fun CardInspector(
             cardData.tags.forEach { tag ->
                 Box(
                     modifier = Modifier
-                        .clip(RoundedCornerShape(6.dp))
-                        .background(accent.primary.copy(alpha = 0.1f))
+                        .clip(RoundedCornerShape(Dimens.RadiusSm))
+                        .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                         .padding(horizontal = 10.dp, vertical = 4.dp)
                 ) {
                     Text(tag, color = accent.primary, fontSize = 11.sp)
@@ -222,8 +224,8 @@ fun CardInspector(
             cardData.flags.forEach { flag ->
                 Box(
                     modifier = Modifier
-                        .clip(RoundedCornerShape(6.dp))
-                        .background(accent.secondary.copy(alpha = 0.1f))
+                        .clip(RoundedCornerShape(Dimens.RadiusSm))
+                        .background(accent.secondary.copy(alpha = Dimens.Alpha.Subtle))
                         .padding(horizontal = 10.dp, vertical = 4.dp)
                 ) {
                     Text(flag, color = accent.secondary, fontSize = 11.sp)
@@ -240,7 +242,7 @@ fun CardInspector(
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .clip(RoundedCornerShape(10.dp))
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
                 .background(surfaceColors.surface)
                 .padding(14.dp)
         ) {
@@ -248,7 +250,7 @@ fun CardInspector(
         }
 
         Spacer(modifier = Modifier.height(16.dp))
-        HorizontalDivider(color = surfaceColors.border.copy(alpha = 0.3f))
+        HorizontalDivider(color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium))
         Spacer(modifier = Modifier.height(12.dp))
 
         // Timeline
@@ -270,7 +272,7 @@ fun CardInspector(
                     modifier = Modifier
                         .size(8.dp)
                         .clip(CircleShape)
-                        .background(accent.primary.copy(alpha = 0.5f))
+                        .background(accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque))
                 )
                 Spacer(modifier = Modifier.width(12.dp))
                 Text(label, color = surfaceColors.textSecondary, fontSize = 13.sp, modifier = Modifier.weight(1f))

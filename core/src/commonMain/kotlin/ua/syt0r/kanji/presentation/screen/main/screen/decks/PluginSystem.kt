@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -237,8 +239,8 @@ private fun PluginListItem(
             // Icon
             Box(
                 modifier = Modifier.size(40.dp)
-                    .clip(RoundedCornerShape(10.dp))
-                    .background(accent.primary.copy(alpha = 0.1f)),
+                    .clip(RoundedCornerShape(Dimens.RadiusMd))
+                    .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle)),
                 contentAlignment = Alignment.Center
             ) {
                 Text(plugin.manifest.icon, fontSize = 20.sp)
@@ -351,7 +353,7 @@ private fun BrowsePluginsTab() {
         verticalArrangement = Arrangement.Center
     ) {
         Icon(Icons.Default.Extension, null, Modifier.size(64.dp),
-            tint = surfaceColors.textMuted.copy(alpha = 0.3f))
+            tint = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.Medium))
         Spacer(Modifier.height(12.dp))
         Text("Plugin Marketplace", style = MaterialTheme.typography.titleMedium)
         Text("Coming in a future update", style = MaterialTheme.typography.bodyMedium,

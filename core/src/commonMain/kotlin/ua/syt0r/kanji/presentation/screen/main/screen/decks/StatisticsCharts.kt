@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -127,8 +129,8 @@ fun StatisticsDashboard(
                         "Core 2000" to "500 cards • 45% mature • 82% retention").forEach { (deck, stats) ->
                         Row(
                             modifier = Modifier.fillMaxWidth()
-                                .clip(RoundedCornerShape(8.dp))
-                                .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f))
+                                .clip(RoundedCornerShape(Dimens.RadiusSm))
+                                .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = Dimens.Alpha.Medium))
                                 .padding(10.dp),
                             verticalAlignment = Alignment.CenterVertically
                         ) {
@@ -198,7 +200,7 @@ private fun RetentionChart(cards: List<KaiteyoCard>) {
         // Grid lines
         listOf(0.2f, 0.4f, 0.6f, 0.8f).forEach { fraction ->
             val y = 20f + chartHeight * (1f - fraction)
-            drawLine(Color.LightGray.copy(alpha = 0.3f), Offset(30f, y), Offset(30f + chartWidth, y))
+            drawLine(Color.LightGray.copy(alpha = Dimens.Alpha.Medium), Offset(30f, y), Offset(30f + chartWidth, y))
         }
 
         // Data line
@@ -216,7 +218,7 @@ private fun RetentionChart(cards: List<KaiteyoCard>) {
         fillPath.lineTo(30f + (dataPoints.size - 1) * stepX, 20f + chartHeight)
         fillPath.lineTo(30f, 20f + chartHeight)
         fillPath.close()
-        drawPath(fillPath, accent.primary.copy(alpha = 0.1f))
+        drawPath(fillPath, accent.primary.copy(alpha = Dimens.Alpha.Subtle))
 
         // Data points
         dataPoints.forEachIndexed { i, value ->
@@ -245,11 +247,11 @@ private fun CardDistributionChart(cards: List<KaiteyoCard>) {
     data class Segment(val name: String, val fraction: Float, val color: Color)
 
     val segments = listOf(
-        Segment("New", newCount.toFloat() / total, Color(0xFF7BC8FF)),
-        Segment("Learning", learningCount.toFloat() / total, Color(0xFFFF6B6B)),
-        Segment("Young", youngCount.toFloat() / total, Color(0xFFFEAB57)),
-        Segment("Mature", matureCount.toFloat() / total, Color(0xFFC2FC8B)),
-        Segment("Suspended", suspendedCount.toFloat() / total, Color(0xFFB0B0B0))
+        Segment("New", newCount.toFloat() / total, ua.syt0r.kanji.presentation.common.theme.semanticInfo),
+        Segment("Learning", learningCount.toFloat() / total, ua.syt0r.kanji.presentation.common.theme.semanticError),
+        Segment("Young", youngCount.toFloat() / total, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
+        Segment("Mature", matureCount.toFloat() / total, ua.syt0r.kanji.presentation.common.theme.semanticSuccess),
+        Segment("Suspended", suspendedCount.toFloat() / total, androidx.compose.ui.graphics.Color.Gray)
     )
 
     Row(
@@ -316,7 +318,7 @@ private fun ReviewHistoryChart() {
         }
 
         // Y-axis
-        drawLine(Color.LightGray.copy(alpha = 0.3f), Offset(20f, 20f), Offset(20f, size.height - 20f))
+        drawLine(Color.LightGray.copy(alpha = Dimens.Alpha.Medium), Offset(20f, 20f), Offset(20f, size.height - 20f))
     }
 }
 
@@ -330,7 +332,7 @@ private fun ForecastChart() {
     val forecast = remember { listOf(23, 18, 15, 30, 12, 8, 20, 25, 10, 5, 15, 18, 22, 28) }
 
     Card(
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f))
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer.copy(alpha = Dimens.Alpha.Medium))
     ) {
         Column(Modifier.padding(12.dp)) {
             Text("Next 14 days forecast: ${forecast.sum()} reviews due",
@@ -372,10 +374,10 @@ private fun TimeDistributionChart() {
         hourlyData.forEachIndexed { hour, count ->
             val h = (count.toFloat() / maxVal) * (size.height - 10f)
             val color = when (hour) {
-                in 6..11 -> Color(0xFFFFD93D).copy(alpha = 0.7f) // Morning
-                in 12..17 -> Color(0xFF7BC8FF).copy(alpha = 0.7f) // Afternoon
-                in 18..23 -> Color(0xFFA78BFA).copy(alpha = 0.7f) // Evening
-                else -> Color(0xFFB0B0B0).copy(alpha = 0.7f) // Night
+                in 6..11 -> ua.syt0r.kanji.presentation.common.theme.semanticWarning.copy(alpha = 0.7f) // Morning
+                in 12..17 -> ua.syt0r.kanji.presentation.common.theme.semanticInfo.copy(alpha = 0.7f) // Afternoon
+                in 18..23 -> ua.syt0r.kanji.presentation.common.theme.semanticNew.copy(alpha = 0.7f) // Evening
+                else -> androidx.compose.ui.graphics.Color.Gray.copy(alpha = 0.7f) // Night
             }
             drawRect(color, Offset(20f + hour * (barW + gap), size.height - h), Size(barW, h))
         }
@@ -404,7 +406,7 @@ private fun CumulativeChart() {
             val y = size.height - 10f - (v.toFloat() / maxVal) * (size.height - 20f)
             if (i == 0) path.moveTo(x, y) else path.lineTo(x, y)
         }
-        drawPath(path, Color(0xFFC2FC8B), style = Stroke(width = 2.5f))
+        drawPath(path, ua.syt0r.kanji.presentation.common.theme.semanticSuccess, style = Stroke(width = 2.5f))
 
         // Fill
         val fillPath = Path()
@@ -412,6 +414,6 @@ private fun CumulativeChart() {
         fillPath.lineTo(20f + (cumulativeData.size - 1) * stepX, size.height - 10f)
         fillPath.lineTo(20f, size.height - 10f)
         fillPath.close()
-        drawPath(fillPath, Color(0xFFC2FC8B).copy(alpha = 0.15f))
+        drawPath(fillPath, ua.syt0r.kanji.presentation.common.theme.semanticSuccess.copy(alpha = Dimens.Alpha.Light))
     }
 }

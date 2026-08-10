@@ -16,7 +16,7 @@ public val ExtraIcons.Restore: ImageVector by lazy {
         defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f
     ).apply {
         path(
-            fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+            fill = SolidColor(androidx.compose.ui.graphics.Color.Black), stroke = null, strokeLineWidth = 0.0f,
             strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
             pathFillType = NonZero
         ) {

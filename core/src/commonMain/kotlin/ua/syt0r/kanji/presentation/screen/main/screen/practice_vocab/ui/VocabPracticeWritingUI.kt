@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.ui
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -358,7 +360,7 @@ private fun CharacterStateIndicator(
 
     val textColor = when (state) {
         CharacterWritingDisplayState.NoWritingData -> MaterialTheme.colorScheme
-            .onSurface.copy(alpha = 0.6f)
+            .onSurface.copy(alpha = Dimens.Alpha.SemiOpaque)
 
         CharacterWritingDisplayState.Writing -> MaterialTheme.colorScheme.surfaceVariant
         CharacterWritingDisplayState.Correct,

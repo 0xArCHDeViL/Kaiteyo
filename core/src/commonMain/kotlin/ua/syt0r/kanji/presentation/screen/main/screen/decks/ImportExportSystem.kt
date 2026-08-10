@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -138,8 +140,8 @@ fun ImportExportScreen() {
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
             listOf("Import", "Export", "History", "Settings").forEach { tab ->
                 val isSelected = selectedTab == tab
-                Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(8.dp))
-                    .background(if (isSelected) accent.primary.copy(alpha = 0.15f) else surfaceColors.surface)
+                Box(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm))
+                    .background(if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface)
                     .clickable { selectedTab = tab }.padding(vertical = 8.dp),
                     contentAlignment = Alignment.Center) {
                     Text(tab, color = if (isSelected) accent.primary else surfaceColors.textSecondary,
@@ -171,9 +173,9 @@ private fun ImportTab(accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAc
     Spacer(modifier = Modifier.height(6.dp))
     Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
         ImportFormat.entries.forEach { format ->
-            Box(modifier = Modifier.clip(RoundedCornerShape(8.dp))
-                .background(if (format == selectedFormat) accent.primary.copy(alpha = 0.15f) else surfaceColors.surface)
-                .border(1.dp, if (format == selectedFormat) accent.primary else surfaceColors.border.copy(alpha = 0.2f), RoundedCornerShape(8.dp))
+            Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(if (format == selectedFormat) accent.primary.copy(alpha = Dimens.Alpha.Light) else surfaceColors.surface)
+                .border(1.dp, if (format == selectedFormat) accent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusSm))
                 .clickable { }.padding(horizontal = 12.dp, vertical = 6.dp)) {
                 Text(format.extension, color = if (format == selectedFormat) accent.primary else surfaceColors.textSecondary,
                     fontSize = 12.sp, fontWeight = if (format == selectedFormat) FontWeight.SemiBold else FontWeight.Normal)
@@ -183,12 +185,12 @@ private fun ImportTab(accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAc
     Spacer(modifier = Modifier.height(16.dp))
 
     // Drop zone
-    Box(modifier = Modifier.fillMaxWidth().height(160.dp).clip(RoundedCornerShape(16.dp))
-        .background(surfaceColors.surfaceElevated.copy(alpha = 0.5f))
-        .border(2.dp, surfaceColors.border.copy(alpha = 0.3f), RoundedCornerShape(16.dp))
+    Box(modifier = Modifier.fillMaxWidth().height(160.dp).clip(RoundedCornerShape(Dimens.RadiusLg))
+        .background(surfaceColors.surfaceElevated.copy(alpha = Dimens.Alpha.SemiOpaque))
+        .border(2.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusLg))
         .clickable { }, contentAlignment = Alignment.Center) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-            Box(modifier = Modifier.size(48.dp).clip(CircleShape).background(accent.primary.copy(alpha = 0.12f)),
+            Box(modifier = Modifier.size(48.dp).clip(CircleShape).background(accent.primary.copy(alpha = Dimens.Alpha.Light)),
                 contentAlignment = Alignment.Center) { Text("↑", color = accent.primary, fontSize = 22.sp, fontWeight = FontWeight.Bold) }
             Spacer(modifier = Modifier.height(8.dp))
             Text("Drag & drop files here", color = surfaceColors.textPrimary, fontSize = 14.sp)
@@ -201,8 +203,8 @@ private fun ImportTab(accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAc
     Text("Conflict Strategy", color = surfaceColors.textSecondary, fontSize = 13.sp, fontWeight = FontWeight.Medium)
     Spacer(modifier = Modifier.height(6.dp))
     ImportConflictStrategy.entries.forEach { strategy ->
-        Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp))
-            .background(if (strategy == conflictStrategy) accent.primary.copy(alpha = 0.08f) else Color.Transparent)
+        Row(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusSm))
+            .background(if (strategy == conflictStrategy) accent.primary.copy(alpha = Dimens.Alpha.Subtle) else Color.Transparent)
             .clickable { }.padding(horizontal = 12.dp, vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically) {
             Box(modifier = Modifier.size(16.dp).clip(CircleShape)
@@ -229,8 +231,8 @@ private fun ExportTab(accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAc
     Spacer(modifier = Modifier.height(6.dp))
     Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
         ExportFormat.entries.forEach { format ->
-            Box(modifier = Modifier.clip(RoundedCornerShape(8.dp))
-                .background(surfaceColors.surface).border(1.dp, surfaceColors.border.copy(alpha = 0.2f), RoundedCornerShape(8.dp))
+            Box(modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusSm))
+                .background(surfaceColors.surface).border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Light), RoundedCornerShape(Dimens.RadiusSm))
                 .clickable { }.padding(horizontal = 12.dp, vertical = 6.dp)) {
                 Text(format.displayName, color = surfaceColors.textSecondary, fontSize = 12.sp)
             }
@@ -354,9 +356,9 @@ fun SearchBar(
     val accent = LocalKaiteyoAccent.current
 
     Row(
-        modifier = modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
+        modifier = modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(surfaceColors.surfaceInteractive)
-            .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), RoundedCornerShape(12.dp))
+            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusMd))
             .padding(horizontal = 14.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {

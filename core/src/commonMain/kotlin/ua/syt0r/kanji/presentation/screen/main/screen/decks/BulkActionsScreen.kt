@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -53,20 +55,20 @@ data class BulkActionItem(
 )
 
 private val bulkActionsList = listOf(
-    BulkActionItem("tag", "Add Tags", "Apply tags to selected cards", Icons.Default.Label, Color(0xFFA78BFA)),
-    BulkActionItem("flag", "Set Flag", "Assign a flag color to cards", Icons.Default.Flag, Color(0xFFFF6B6B)),
-    BulkActionItem("move", "Move Deck", "Move cards to another deck", Icons.Default.DriveFileMove, Color(0xFFFEAB57)),
-    BulkActionItem("suspend", "Suspend", "Suspend selected cards", Icons.Default.Block, Color(0xFFFFD93D)),
-    BulkActionItem("bury", "Bury", "Bury cards until next day", Icons.Default.VisibilityOff, Color(0xFF7BC8FF)),
-    BulkActionItem("archive", "Archive", "Archive cards for later", Icons.Default.Archive, Color(0xFFB0B0B0)),
-    BulkActionItem("reschedule", "Reschedule", "Change due dates & intervals", Icons.Default.Schedule, Color(0xFFC2FC8B)),
-    BulkActionItem("changeDeck", "Change Deck", "Move to a different deck", Icons.Default.Folder, Color(0xFFA78BFA)),
-    BulkActionItem("export", "Export Selected", "Export cards to a file", Icons.Default.FileDownload, Color(0xFF7BC8FF)),
-    BulkActionItem("delete", "Delete", "Permanently delete cards", Icons.Default.Delete, Color(0xFFFF6B6B), destructive = true),
-    BulkActionItem("reset", "Reset Progress", "Reset card to new state", Icons.Default.Refresh, Color(0xFFFFD93D), requiresConfirm = true),
-    BulkActionItem("duplicate", "Duplicate", "Create copies of cards", Icons.Default.ContentCopy, Color(0xFFFEAB57)),
-    BulkActionItem("merge", "Merge Duplicates", "Merge duplicate cards", Icons.Default.MergeType, Color(0xFFC2FC8B), requiresConfirm = true),
-    BulkActionItem("reposition", "Reposition", "Change card position/order", Icons.Default.SwapVert, Color(0xFFA78BFA))
+    BulkActionItem("tag", "Add Tags", "Apply tags to selected cards", Icons.Default.Label, ua.syt0r.kanji.presentation.common.theme.semanticNew),
+    BulkActionItem("flag", "Set Flag", "Assign a flag color to cards", Icons.Default.Flag, ua.syt0r.kanji.presentation.common.theme.semanticError),
+    BulkActionItem("move", "Move Deck", "Move cards to another deck", Icons.Default.DriveFileMove, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
+    BulkActionItem("suspend", "Suspend", "Suspend selected cards", Icons.Default.Block, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
+    BulkActionItem("bury", "Bury", "Bury cards until next day", Icons.Default.VisibilityOff, ua.syt0r.kanji.presentation.common.theme.semanticInfo),
+    BulkActionItem("archive", "Archive", "Archive cards for later", Icons.Default.Archive, androidx.compose.ui.graphics.Color.Gray),
+    BulkActionItem("reschedule", "Reschedule", "Change due dates & intervals", Icons.Default.Schedule, ua.syt0r.kanji.presentation.common.theme.semanticSuccess),
+    BulkActionItem("changeDeck", "Change Deck", "Move to a different deck", Icons.Default.Folder, ua.syt0r.kanji.presentation.common.theme.semanticNew),
+    BulkActionItem("export", "Export Selected", "Export cards to a file", Icons.Default.FileDownload, ua.syt0r.kanji.presentation.common.theme.semanticInfo),
+    BulkActionItem("delete", "Delete", "Permanently delete cards", Icons.Default.Delete, ua.syt0r.kanji.presentation.common.theme.semanticError, destructive = true),
+    BulkActionItem("reset", "Reset Progress", "Reset card to new state", Icons.Default.Refresh, ua.syt0r.kanji.presentation.common.theme.semanticWarning, requiresConfirm = true),
+    BulkActionItem("duplicate", "Duplicate", "Create copies of cards", Icons.Default.ContentCopy, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
+    BulkActionItem("merge", "Merge Duplicates", "Merge duplicate cards", Icons.Default.MergeType, ua.syt0r.kanji.presentation.common.theme.semanticSuccess, requiresConfirm = true),
+    BulkActionItem("reposition", "Reposition", "Change card position/order", Icons.Default.SwapVert, ua.syt0r.kanji.presentation.common.theme.semanticNew)
 )
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -165,7 +167,7 @@ fun BulkActionsFullScreen(
                     focusedBorderColor = accent.primary,
                     unfocusedBorderColor = surfaceColors.border
                 ),
-                shape = RoundedCornerShape(12.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
             // Filter chips row
@@ -196,8 +198,8 @@ fun BulkActionsFullScreen(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(horizontal = 16.dp, vertical = 4.dp)
-                    .clip(RoundedCornerShape(8.dp))
-                    .background(surfaceColors.surfaceElevated.copy(alpha = 0.5f))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
+                    .background(surfaceColors.surfaceElevated.copy(alpha = Dimens.Alpha.SemiOpaque))
                     .clickable {
                         if (selectedCardIds.size == filteredCards.size) {
                             selectedCardIds = emptySet()
@@ -348,7 +350,7 @@ fun BulkActionsFullScreen(
                         selectedCardIds = emptySet()
                         showConfirmDelete = false
                     },
-                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFFF6B6B))
+                    colors = ButtonDefaults.buttonColors(containerColor = ua.syt0r.kanji.presentation.common.theme.semanticError)
                 ) {
                     Text("Delete")
                 }
@@ -389,10 +391,10 @@ private fun ActionButton(
             .height(90.dp)
             .clickable(onClick = onClick),
         colors = CardDefaults.cardColors(
-            containerColor = if (action.destructive) Color(0xFFFF6B6B).copy(alpha = 0.1f)
+            containerColor = if (action.destructive) ua.syt0r.kanji.presentation.common.theme.semanticError.copy(alpha = Dimens.Alpha.Subtle)
             else surfaceColors.surfaceElevated
         ),
-        shape = RoundedCornerShape(12.dp)
+        shape = RoundedCornerShape(Dimens.RadiusMd)
     ) {
         Column(
             modifier = Modifier.fillMaxSize().padding(10.dp),
@@ -403,14 +405,14 @@ private fun ActionButton(
                 action.icon,
                 null,
                 Modifier.size(28.dp),
-                tint = if (action.destructive) Color(0xFFFF6B6B) else action.color
+                tint = if (action.destructive) ua.syt0r.kanji.presentation.common.theme.semanticError else action.color
             )
             Spacer(Modifier.height(4.dp))
             Text(
                 action.name,
                 fontSize = 12.sp,
                 fontWeight = FontWeight.Medium,
-                color = if (action.destructive) Color(0xFFFF6B6B) else surfaceColors.textPrimary,
+                color = if (action.destructive) ua.syt0r.kanji.presentation.common.theme.semanticError else surfaceColors.textPrimary,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
             )
@@ -429,10 +431,10 @@ private fun CardListItem(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(10.dp))
-            .background(if (isSelected) accent.primary.copy(alpha = 0.1f) else surfaceColors.surfaceElevated)
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
+            .background(if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.Subtle) else surfaceColors.surfaceElevated)
             .clickable(onClick = onClick)
-            .then(if (isSelected) Modifier.border(1.dp, accent.primary.copy(alpha = 0.3f), RoundedCornerShape(10.dp)) else Modifier)
+            .then(if (isSelected) Modifier.border(1.dp, accent.primary.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusMd)) else Modifier)
             .padding(12.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
@@ -461,14 +463,14 @@ private fun CardListItem(
                 card.status.displayName,
                 fontSize = 11.sp,
                 color = when (card.status) {
-                    CardStatus.New -> Color(0xFF7BC8FF)
-                    CardStatus.Learning -> Color(0xFFFFD93D)
-                    CardStatus.Young -> Color(0xFFC2FC8B)
-                    CardStatus.Mature -> Color(0xFFA78BFA)
-                    CardStatus.Relearning -> Color(0xFFFEAB57)
+                    CardStatus.New -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
+                    CardStatus.Learning -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+                    CardStatus.Young -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
+                    CardStatus.Mature -> ua.syt0r.kanji.presentation.common.theme.semanticNew
+                    CardStatus.Relearning -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
                     CardStatus.Suspended -> surfaceColors.textMuted
                     CardStatus.Buried -> surfaceColors.textMuted
-                    CardStatus.Archived -> Color(0xFFB0B0B0)
+                    CardStatus.Archived -> androidx.compose.ui.graphics.Color.Gray
                 }
             )
             if (card.flag != CardFlagType.None) {
@@ -512,7 +514,7 @@ private fun TagPickerDialog(
                         focusedBorderColor = accent.primary,
                         unfocusedBorderColor = surfaceColors.border
                     ),
-                    shape = RoundedCornerShape(8.dp)
+                    shape = RoundedCornerShape(Dimens.RadiusSm)
                 )
                 Spacer(Modifier.height(8.dp))
                 LazyColumn {
@@ -584,7 +586,7 @@ private fun FlagPickerDialog(
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .clip(RoundedCornerShape(8.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusSm))
                             .clickable { onConfirm(flag) }
                             .padding(12.dp),
                         verticalAlignment = Alignment.CenterVertically
@@ -629,7 +631,7 @@ private fun DeckPickerDialog(
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .clip(RoundedCornerShape(8.dp))
+                            .clip(RoundedCornerShape(Dimens.RadiusSm))
                             .clickable { onConfirm(deckName) }
                             .padding(12.dp),
                         verticalAlignment = Alignment.CenterVertically
@@ -655,13 +657,13 @@ private fun DeckPickerDialog(
 // Helper to convert flag color
 private fun CardFlagType.toColor(): Color = when (this) {
     CardFlagType.None -> Color.Transparent
-    CardFlagType.Red -> Color(0xFFFF6B6B)
-    CardFlagType.Orange -> Color(0xFFFEAB57)
-    CardFlagType.Yellow -> Color(0xFFFFD93D)
-    CardFlagType.Green -> Color(0xFFC2FC8B)
-    CardFlagType.Blue -> Color(0xFF7BC8FF)
-    CardFlagType.Purple -> Color(0xFFA78BFA)
-    CardFlagType.Gray -> Color(0xFFB0B0B0)
+    CardFlagType.Red -> ua.syt0r.kanji.presentation.common.theme.semanticError
+    CardFlagType.Orange -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+    CardFlagType.Yellow -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
+    CardFlagType.Green -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
+    CardFlagType.Blue -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
+    CardFlagType.Purple -> ua.syt0r.kanji.presentation.common.theme.semanticNew
+    CardFlagType.Gray -> androidx.compose.ui.graphics.Color.Gray
 }
 
 // Helper to convert tag color string to Compose Color

@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -95,7 +97,7 @@ fun DeckFeaturesHub(
             items(KaiteyoFeature.entries) { feature ->
                 Row(
                     modifier = Modifier.fillMaxWidth()
-                        .clip(RoundedCornerShape(12.dp))
+                        .clip(RoundedCornerShape(Dimens.RadiusMd))
                         .background(surfaceColors.surface)
                         .clickable { navigationState.navigate(feature.toDestination()) }
                         .padding(12.dp),
@@ -103,8 +105,8 @@ fun DeckFeaturesHub(
                 ) {
                     Box(
                         modifier = Modifier.size(40.dp)
-                            .clip(RoundedCornerShape(10.dp))
-                            .background(accent.primary.copy(alpha = 0.1f)),
+                            .clip(RoundedCornerShape(Dimens.RadiusMd))
+                            .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle)),
                         contentAlignment = Alignment.Center
                     ) {
                         feature.icon()

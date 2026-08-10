@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -194,7 +196,7 @@ fun KeyboardShortcutsPage(
                 leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(18.dp)) },
                 singleLine = true,
                 textStyle = TextStyle(fontSize = 13.sp),
-                shape = RoundedCornerShape(10.dp)
+                shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
             Spacer(Modifier.height(8.dp))
@@ -203,7 +205,7 @@ fun KeyboardShortcutsPage(
             conflictWarning?.let { warning ->
                 Card(
                     modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 4.dp),
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.5f))
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer.copy(alpha = Dimens.Alpha.SemiOpaque))
                 ) {
                     Row(
                         modifier = Modifier.padding(12.dp),
@@ -303,7 +305,7 @@ private fun ShortcutRow(
     modifier: Modifier = Modifier
 ) {
     val bgColor by animateColorAsState(
-        targetValue = if (isRecording) accent.primary.copy(alpha = 0.08f) else Color.Transparent,
+        targetValue = if (isRecording) accent.primary.copy(alpha = Dimens.Alpha.Subtle) else Color.Transparent,
         animationSpec = tween(200), label = "recordingBg"
     )
 
@@ -327,12 +329,12 @@ private fun ShortcutRow(
             // Key display / recorder
             Box(
                 modifier = Modifier
-                    .clip(RoundedCornerShape(6.dp))
-                    .background(if (isRecording) accent.primary.copy(alpha = 0.12f) else MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f))
+                    .clip(RoundedCornerShape(Dimens.RadiusSm))
+                    .background(if (isRecording) accent.primary.copy(alpha = Dimens.Alpha.Light) else MaterialTheme.colorScheme.surfaceVariant.copy(alpha = Dimens.Alpha.SemiOpaque))
                     .border(
                         1.dp,
-                        if (isRecording) accent.primary else surfaceColors.textMuted.copy(alpha = 0.2f),
-                        RoundedCornerShape(6.dp)
+                        if (isRecording) accent.primary else surfaceColors.textMuted.copy(alpha = Dimens.Alpha.Light),
+                        RoundedCornerShape(Dimens.RadiusSm)
                     )
                     .clickable { if (!isRecording) onStartRecording() }
                     .padding(horizontal = 10.dp, vertical = 6.dp)

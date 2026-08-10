@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.decks
 
+import ua.syt0r.kanji.presentation.common.theme.Dimens
+
 import androidx.compose.animation.*
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -47,37 +49,37 @@ enum class LearningFeature(
     val color: Color
 ) {
     Tags("tags", "Tags", "Nested, colored tags with full management",
-        Icons.Default.Label, Color(0xFFA78BFA)),
+        Icons.Default.Label, ua.syt0r.kanji.presentation.common.theme.semanticNew),
     Flags("flags", "Flags", "7-color flag system with search & bulk",
-        Icons.Default.Flag, Color(0xFFFF6B6B)),
+        Icons.Default.Flag, ua.syt0r.kanji.presentation.common.theme.semanticError),
     Notes("notes", "Notes", "Rich markdown notes with formatting",
-        Icons.Default.Description, Color(0xFF7BC8FF)),
+        Icons.Default.Description, ua.syt0r.kanji.presentation.common.theme.semanticInfo),
     CardBrowser("browser", "Card Browser", "15+ columns, sortable, searchable",
-        Icons.Default.TableChart, Color(0xFFFEAB57)),
+        Icons.Default.TableChart, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
     DeckBrowser("decks", "Deck Browser", "Nested folders, drag-drop, merge/split",
-        Icons.Default.Folder, Color(0xFFC2FC8B)),
+        Icons.Default.Folder, ua.syt0r.kanji.presentation.common.theme.semanticSuccess),
     AnkiOps("anki", "Anki Operations", "All SRS operations: suspend/bury/forget/etc",
-        Icons.Default.Bolt, Color(0xFFFFD93D)),
+        Icons.Default.Bolt, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
     ReviewSettings("review", "Review Settings", "Layouts, buttons, sizes, modes",
-        Icons.Default.Settings, Color(0xFFB0B0B0)),
+        Icons.Default.Settings, androidx.compose.ui.graphics.Color.Gray),
     Shortcuts("shortcuts", "Shortcuts", "Keyboard shortcuts with profiles",
-        Icons.Default.Keyboard, Color(0xFFA78BFA)),
+        Icons.Default.Keyboard, ua.syt0r.kanji.presentation.common.theme.semanticNew),
     ImportExport("import", "Import/Export", "APKG, CSV, JSON, TXT, Markdown",
-        Icons.Default.ImportExport, Color(0xFF7BC8FF)),
+        Icons.Default.ImportExport, ua.syt0r.kanji.presentation.common.theme.semanticInfo),
     Statistics("stats", "Statistics", "Dashboard, graphs, per-deck, per-card",
-        Icons.Default.BarChart, Color(0xFFFEAB57)),
+        Icons.Default.BarChart, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
     Heatmap("heatmap", "Heatmap", "Interactive daily activity heatmap",
-        Icons.Default.CalendarMonth, Color(0xFFFF6B6B)),
+        Icons.Default.CalendarMonth, ua.syt0r.kanji.presentation.common.theme.semanticError),
     Search("search", "Search", "Universal search across all fields",
-        Icons.Default.Search, Color(0xFFC2FC8B)),
+        Icons.Default.Search, ua.syt0r.kanji.presentation.common.theme.semanticSuccess),
     BulkActions("bulk", "Bulk Actions", "Multi-select operations on cards",
-        Icons.Default.SelectAll, Color(0xFFFFD93D)),
+        Icons.Default.SelectAll, ua.syt0r.kanji.presentation.common.theme.semanticWarning),
     History("history", "History", "Review, edit, import, export history",
-        Icons.Default.History, Color(0xFFB0B0B0)),
+        Icons.Default.History, androidx.compose.ui.graphics.Color.Gray),
     Backup("backup", "Backup", "Auto/manual backup with verification",
-        Icons.Default.Backup, Color(0xFFA78BFA)),
+        Icons.Default.Backup, ua.syt0r.kanji.presentation.common.theme.semanticNew),
     Plugins("plugins", "Plugins", "Extension points and plugin management",
-        Icons.Default.Extension, Color(0xFF7BC8FF))
+        Icons.Default.Extension, ua.syt0r.kanji.presentation.common.theme.semanticInfo)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -173,7 +175,7 @@ fun LearningPowerHub(
                             )
                             if (feature != LearningFeature.entries.last()) {
                                 HorizontalDivider(
-                                    color = surfaceColors.border.copy(alpha = 0.3f),
+                                    color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
                                     modifier = Modifier.padding(vertical = 2.dp)
                                 )
                             }
@@ -422,15 +424,15 @@ private fun QuickStatsBar(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp)
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(surfaceColors.surfaceElevated)
             .padding(12.dp),
         horizontalArrangement = Arrangement.SpaceEvenly
     ) {
         QuickStatItem("Total", "$totalCards", Icons.Default.ViewModule, surfaceColors.textPrimary, surfaceColors)
         QuickStatItem("Due", "$dueCards", Icons.Default.Notifications, accent.primary, surfaceColors)
-        QuickStatItem("Mature", "$matureCards", Icons.Default.CheckCircle, Color(0xFFC2FC8B), surfaceColors)
-        QuickStatItem("Flagged", "$flaggedCards", Icons.Default.Flag, Color(0xFFFF6B6B), surfaceColors)
+        QuickStatItem("Mature", "$matureCards", Icons.Default.CheckCircle, ua.syt0r.kanji.presentation.common.theme.semanticSuccess, surfaceColors)
+        QuickStatItem("Flagged", "$flaggedCards", Icons.Default.Flag, ua.syt0r.kanji.presentation.common.theme.semanticError, surfaceColors)
         QuickStatItem("Suspended", "$suspendedCards", Icons.Default.Block, surfaceColors.textMuted, surfaceColors)
     }
 }
@@ -466,7 +468,7 @@ private fun FeatureCard(
             .height(150.dp)
             .clickable(onClick = onClick),
         colors = CardDefaults.cardColors(containerColor = surfaceColors.surfaceElevated),
-        shape = RoundedCornerShape(16.dp),
+        shape = RoundedCornerShape(Dimens.RadiusLg),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
     ) {
         Column(
@@ -476,8 +478,8 @@ private fun FeatureCard(
             Box(
                 modifier = Modifier
                     .size(44.dp)
-                    .clip(RoundedCornerShape(12.dp))
-                    .background(feature.color.copy(alpha = 0.15f)),
+                    .clip(RoundedCornerShape(Dimens.RadiusMd))
+                    .background(feature.color.copy(alpha = Dimens.Alpha.Light)),
                 contentAlignment = Alignment.Center
             ) {
                 Icon(feature.icon, null, Modifier.size(24.dp), tint = feature.color)
@@ -524,8 +526,8 @@ private fun FeatureListItem(
         Box(
             modifier = Modifier
                 .size(40.dp)
-                .clip(RoundedCornerShape(10.dp))
-                .background(feature.color.copy(alpha = 0.15f)),
+                .clip(RoundedCornerShape(Dimens.RadiusMd))
+                .background(feature.color.copy(alpha = Dimens.Alpha.Light)),
             contentAlignment = Alignment.Center
         ) {
             Icon(feature.icon, null, Modifier.size(22.dp), tint = feature.color)
@@ -554,7 +556,7 @@ private fun QuickActionChip(
         label = { Text(label, fontSize = 12.sp, maxLines = 1) },
         leadingIcon = { Icon(icon, null, Modifier.size(16.dp)) },
         modifier = Modifier.height(32.dp),
-        shape = RoundedCornerShape(16.dp),
+        shape = RoundedCornerShape(Dimens.RadiusLg),
         colors = AssistChipDefaults.assistChipColors(
             containerColor = surfaceColors.surfaceInteractive,
             labelColor = surfaceColors.textPrimary

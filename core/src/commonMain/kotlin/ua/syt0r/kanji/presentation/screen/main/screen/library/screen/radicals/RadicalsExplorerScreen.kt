@@ -158,7 +158,7 @@ fun RadicalsExplorerScreen(
                             modifier = Modifier
                                 .clip(CircleShape)
                                 .clickable { selectedRadicals = emptySet() },
-                            color = accent.primary.copy(alpha = 0.15f)
+                            color = accent.primary.copy(alpha = Dimens.Alpha.Light)
                         ) {
                             Row(
                                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
@@ -259,7 +259,7 @@ fun RadicalsExplorerScreen(
                         .weight(1.2f)
                         .fillMaxHeight()
                         .clip(RoundedCornerShape(Dimens.RadiusXl))
-                        .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), RoundedCornerShape(Dimens.RadiusXl)),
+                        .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusXl)),
                     color = surfaceColors.surface
                 ) {
                     RadicalsMatrixGrid(
@@ -281,7 +281,7 @@ fun RadicalsExplorerScreen(
                         .weight(1f)
                         .fillMaxHeight()
                         .clip(RoundedCornerShape(Dimens.RadiusXl))
-                        .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), RoundedCornerShape(Dimens.RadiusXl)),
+                        .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusXl)),
                     color = surfaceColors.surface
                 ) {
                     MatchingKanjiResultsPanel(
@@ -299,7 +299,7 @@ fun RadicalsExplorerScreen(
                         .fillMaxWidth()
                         .weight(1.2f)
                         .clip(RoundedCornerShape(Dimens.RadiusXl))
-                        .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), RoundedCornerShape(Dimens.RadiusXl)),
+                        .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusXl)),
                     color = surfaceColors.surface
                 ) {
                     RadicalsMatrixGrid(
@@ -321,7 +321,7 @@ fun RadicalsExplorerScreen(
                         .fillMaxWidth()
                         .weight(1f)
                         .clip(RoundedCornerShape(Dimens.RadiusXl))
-                        .border(1.dp, surfaceColors.border.copy(alpha = 0.25f), RoundedCornerShape(Dimens.RadiusXl)),
+                        .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusXl)),
                     color = surfaceColors.surface
                 ) {
                     MatchingKanjiResultsPanel(
@@ -368,7 +368,7 @@ private fun RadicalsMatrixGrid(
                 val isSelected = selectedRadicals.contains(radicalData.radical)
                 val bgColor = if (isSelected) accent.primary else surfaceColors.surfaceElevated
                 val textColor = if (isSelected) accent.onPrimary else surfaceColors.textPrimary
-                val borderColor = if (isSelected) accent.primary else surfaceColors.border.copy(alpha = 0.3f)
+                val borderColor = if (isSelected) accent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Medium)
 
                 Box(
                     modifier = Modifier
@@ -465,7 +465,7 @@ private fun MatchingKanjiResultsPanel(
                         modifier = Modifier
                             .aspectRatio(1f)
                             .clip(RoundedCornerShape(Dimens.RadiusLg))
-                            .border(1.dp, surfaceColors.border.copy(alpha = 0.3f), RoundedCornerShape(Dimens.RadiusLg))
+                            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusLg))
                             .clickable {
                                 navigationState.navigate(
                                     MainDestination.KanjiBrowser(KanjiBrowserCriteria(query = character))
