@@ -161,6 +161,7 @@ fun TextAnalysisScreenUI(
             LazyColumn(
                 modifier = Modifier.fillMaxSize(),
                 state = listState,
+                verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
 
                 items(historyState.list) {

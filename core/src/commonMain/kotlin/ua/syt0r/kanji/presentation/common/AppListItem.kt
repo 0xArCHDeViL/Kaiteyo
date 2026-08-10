@@ -23,8 +23,14 @@ import androidx.compose.ui.semantics.Role
 import ua.syt0r.kanji.presentation.common.AppListItemDefaults.ListItemDefaultPaddings
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
+import androidx.compose.foundation.border
+import androidx.compose.foundation.shape.RoundedCornerShape
+
 object AppListItemDefaults {
-    val ExtraPaddings = PaddingValues(horizontal = Dimens.SpacingBig)
+    val ExtraPaddings = PaddingValues(
+        horizontal = Dimens.SpacingBig,
+        vertical = 4.dp
+    )
     val ListItemDefaultPaddings = PaddingValues(
         horizontal = Dimens.ContentPaddingSmall,
         vertical = Dimens.SpacingMid
@@ -44,13 +50,16 @@ fun AppListItem(
     paddingValues: PaddingValues = AppListItemDefaults.ExtraPaddings,
     colors: ListItemColors = ListItemDefaults.colors()
 ) {
+    val surfaceColors = ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors.current
+    val shape = MaterialTheme.shapes.large
 
     ListItem(
         headlineContent = headlineContent,
         modifier = modifier
             .padding(paddingValues)
-            .clip(MaterialTheme.shapes.large)
-            .background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, surfaceColors.border.copy(alpha = 0.20f), shape)
+            .clip(shape)
+            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.35f))
             .semantics(mergeDescendants = true) { role = Role.Button }
             .clickable(enabled = onClick != null, onClick = onClick ?: {})
             .focusable(enabled = onClick != null),

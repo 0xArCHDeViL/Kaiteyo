@@ -143,7 +143,9 @@ private fun DialogContent(
         }
 
         is AddingState.SelectingDeck -> {
-            Column {
+            Column(
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
                 AppListItem(
                     headlineContent = {
                         Text(stringResource(Res.string.save_word_dialog_create_deck_button))

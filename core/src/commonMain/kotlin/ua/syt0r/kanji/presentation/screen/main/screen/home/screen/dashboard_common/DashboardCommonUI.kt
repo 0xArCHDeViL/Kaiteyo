@@ -84,7 +84,7 @@ fun DeckDashboardLoadedStateContainer(
     val orientation = LocalOrientation.current
 
     LazyColumn(
-        verticalArrangement = Arrangement.spacedBy(4.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
         modifier = Modifier
             .fillMaxSize()
             .wrapContentWidth()
