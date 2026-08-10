@@ -1,4 +1,4 @@
-package  ua.syt0r.kanji.presentation.screen.main.screen.home
+package ua.syt0r.kanji.presentation.screen.main.screen.home
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
@@ -9,13 +9,11 @@ import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
-import kotlinx.coroutines.runBlocking
 import ua.syt0r.kanji.core.logger.Logger
 import ua.syt0r.kanji.core.sync.SyncFeatureState
 import ua.syt0r.kanji.core.sync.SyncManager
 import ua.syt0r.kanji.core.sync.SyncState
 import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
-import ua.syt0r.kanji.core.user_data.preferences.PreferencesDefaultHomeTab
 
 class HomeViewModel(
     viewModelScope: CoroutineScope,
@@ -23,13 +21,7 @@ class HomeViewModel(
     private val syncManager: SyncManager
 ) : HomeScreenContract.ViewModel {
 
-    override val defaultTab: HomeScreenTab = runBlocking {
-        when (appPreferences.defaultHomeTab.get()) {
-            PreferencesDefaultHomeTab.GeneralDashboard -> HomeScreenTab.GeneralDashboard
-            PreferencesDefaultHomeTab.Letters -> HomeScreenTab.Library
-            PreferencesDefaultHomeTab.Vocab -> HomeScreenTab.Library
-        }
-    }
+    override val defaultTab: HomeScreenTab = HomeScreenTab.GeneralDashboard
 
     private val _syncIconState = MutableStateFlow(SyncIconState())
     override val syncIconState: StateFlow<SyncIconState> = _syncIconState

@@ -12,7 +12,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
 import kotlin.math.roundToInt
 import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
 import ua.syt0r.kanji.presentation.common.theme.LayoutConfig
@@ -80,26 +79,26 @@ class NavLayoutManager(
     }
 
     private fun reload() {
-        sidebarMode.value = enumByName(
-            runBlocking { appPreferences.navSidebarMode.get() },
-            SidebarMode.Expanded
-        )
-        sidebarPosition.value = enumByName(
-            runBlocking { appPreferences.navSidebarPosition.get() },
-            SidebarPosition.Left
-        )
-        autoHide.value = enumByName(
-            runBlocking { appPreferences.navAutoHide.get() },
-            NavAutoHide.Never
-        )
-        collapsed.value = runBlocking { appPreferences.navCollapsed.get() }
-        panelWidth.value = runBlocking { appPreferences.navWidth.get() }.dp
-        panelHeight.value = runBlocking { appPreferences.navHeight.get() }.dp
-        floatingOffset.value = DpOffset(
-            x = runBlocking { appPreferences.navFloatingOffsetX.get() }.dp,
-            y = runBlocking { appPreferences.navFloatingOffsetY.get() }.dp
-        )
-        accentIndex.value = runBlocking { appPreferences.navAccentIndex.get() }
+        coroutineScope.launch {
+            val modeStr = appPreferences.navSidebarMode.get()
+            val posStr = appPreferences.navSidebarPosition.get()
+            val autoHideStr = appPreferences.navAutoHide.get()
+            val isCollapsed = appPreferences.navCollapsed.get()
+            val width = appPreferences.navWidth.get()
+            val height = appPreferences.navHeight.get()
+            val offsetX = appPreferences.navFloatingOffsetX.get()
+            val offsetY = appPreferences.navFloatingOffsetY.get()
+            val accent = appPreferences.navAccentIndex.get()
+
+            sidebarMode.value = enumByName(modeStr, SidebarMode.Expanded)
+            sidebarPosition.value = enumByName(posStr, SidebarPosition.Left)
+            autoHide.value = enumByName(autoHideStr, NavAutoHide.Never)
+            collapsed.value = isCollapsed
+            panelWidth.value = width.dp
+            panelHeight.value = height.dp
+            floatingOffset.value = DpOffset(x = offsetX.dp, y = offsetY.dp)
+            accentIndex.value = accent
+        }
     }
 
     private inline fun <reified T : Enum<T>> enumByName(name: String?, default: T): T {

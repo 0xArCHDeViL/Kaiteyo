@@ -90,7 +90,6 @@ import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupProperties
-import kotlinx.coroutines.runBlocking
 import org.koin.compose.koinInject
 import ua.syt0r.kanji.PlatformFeature
 import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
@@ -184,7 +183,7 @@ fun NavShell(
     val appPreferences = koinInject<PreferencesContract.AppPreferences>()
     val navManager = rememberNavLayoutManager(appPreferences)
     val themeState = LocalKaiteyoThemeState.current
-    val defaultTab = remember { defaultHomeTab(appPreferences) }
+    val defaultTab = rememberDefaultHomeTab(appPreferences)
     val homeNavState = rememberHomeNavigationState(defaultTab)
 
     var revealed by remember { mutableStateOf(true) }
@@ -1118,12 +1117,18 @@ private fun destinationEntry(
 // HELPERS
 // ============================================
 
-private fun defaultHomeTab(appPreferences: PreferencesContract.AppPreferences): HomeScreenTab {
-    return when (runBlocking { appPreferences.defaultHomeTab.get() }) {
-        PreferencesDefaultHomeTab.GeneralDashboard -> HomeScreenTab.GeneralDashboard
-        PreferencesDefaultHomeTab.Letters -> HomeScreenTab.Library
-        PreferencesDefaultHomeTab.Vocab -> HomeScreenTab.Library
+@Composable
+private fun rememberDefaultHomeTab(appPreferences: PreferencesContract.AppPreferences): HomeScreenTab {
+    var tab by remember { mutableStateOf(HomeScreenTab.GeneralDashboard) }
+    LaunchedEffect(Unit) {
+        val pref = appPreferences.defaultHomeTab.get()
+        tab = when (pref) {
+            PreferencesDefaultHomeTab.GeneralDashboard -> HomeScreenTab.GeneralDashboard
+            PreferencesDefaultHomeTab.Letters -> HomeScreenTab.Library
+            PreferencesDefaultHomeTab.Vocab -> HomeScreenTab.Library
+        }
     }
+    return tab
 }
 
 private fun stripAlignment(position: SidebarPosition): Alignment {
