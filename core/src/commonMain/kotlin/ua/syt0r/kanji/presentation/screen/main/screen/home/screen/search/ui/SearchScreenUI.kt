@@ -456,7 +456,7 @@ private fun ListContent(
                 },
                 containerColor = MaterialTheme.colorScheme.primaryContainer,
                 contentColor = MaterialTheme.colorScheme.onPrimaryContainer,
-                elevation = FloatingActionButtonDefaults.elevation(defaultElevation = 8.dp, pressedElevation = 12.dp)
+                elevation = FloatingActionButtonDefaults.elevation(defaultElevation = 4.dp, pressedElevation = 8.dp)
             ) {
                 Icon(Icons.Default.KeyboardArrowUp, contentDescription = "Scroll to top")
             }

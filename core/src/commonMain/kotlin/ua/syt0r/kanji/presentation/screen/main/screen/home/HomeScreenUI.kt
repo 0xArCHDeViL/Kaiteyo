@@ -60,10 +60,10 @@ fun HomeScreenUI(
                     modifier = Modifier
                         .fillMaxHeight()
                         .shadow(
-                            elevation = 32.dp,
+                            elevation = 12.dp,
                             shape = RoundedCornerShape(32.dp),
-                            spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f),
-                            ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f)
+                            spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.12f),
+                            ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.08f)
                         )
                         .clip(RoundedCornerShape(32.dp))
                         .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.85f))
@@ -168,10 +168,10 @@ fun HomeScreenUI(
                         modifier = Modifier
                             .fillMaxWidth()
                             .shadow(
-                                elevation = 32.dp,
+                                elevation = 12.dp,
                                 shape = CircleShape,
-                                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.3f),
-                                ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
+                                spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f),
+                                ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.08f)
                             )
                             .clip(CircleShape)
                             .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.85f))

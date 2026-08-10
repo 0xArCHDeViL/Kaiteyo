@@ -59,10 +59,10 @@ fun MultiplatformDialog(
                     .fillMaxWidth()
                     .padding(horizontal = 16.dp)
                     .shadow(
-                        elevation = 24.dp,
+                        elevation = 12.dp,
                         shape = shape,
-                        ambientColor = accent.primary.copy(alpha = 0.12f),
-                        spotColor = accent.primary.copy(alpha = 0.20f)
+                        ambientColor = accent.primary.copy(alpha = 0.08f),
+                        spotColor = accent.primary.copy(alpha = 0.15f)
                     )
                     .clip(shape)
                     .border(

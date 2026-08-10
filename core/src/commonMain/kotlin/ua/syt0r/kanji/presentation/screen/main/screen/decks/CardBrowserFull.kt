@@ -744,7 +744,7 @@ private fun BrowserSelectionBar(
     Surface(
         modifier = Modifier.fillMaxWidth(),
         color = surfaceColors.surfaceElevated,
-        shadowElevation = 8.dp
+        shadowElevation = 2.dp
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 8.dp),
