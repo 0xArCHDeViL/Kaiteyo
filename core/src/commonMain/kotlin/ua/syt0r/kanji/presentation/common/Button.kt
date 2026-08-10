@@ -19,7 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.unit.dp
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 
 @Composable
@@ -53,8 +53,8 @@ fun ExpandButton(
             .clip(CircleShape)
             .background(color)
             .clickable(onClick = onClick)
-            .padding(2.dp)
-            .requiredSize(20.dp)
+            .padding(Dimens.Space1 / 2)
+            .requiredSize(Dimens.IconSmall)
     ) {
         val rotation = animateFloatAsState(if (expanded) -180f else 0f)
 

@@ -11,7 +11,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 @Composable
 fun AppDropdownMenu(
@@ -26,9 +26,9 @@ fun AppDropdownMenu(
         onDismissRequest = onDismissRequest,
         shape = MaterialTheme.shapes.medium,
         containerColor = MaterialTheme.colorScheme.surfaceDim,
-        modifier = modifier.widthIn(160.dp),
-        tonalElevation = 0.dp,
-        shadowElevation = 4.dp
+        modifier = modifier.widthIn(Dimens.PopupMinWidth),
+        tonalElevation = Dimens.ElevationNone,
+        shadowElevation = Dimens.ElevationMd
     ) {
         content()
     }
@@ -45,7 +45,7 @@ fun AppDropdownMenuItem(
         text = {
             Row(
                 verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
+                horizontalArrangement = Arrangement.spacedBy(Dimens.Space3)
             ) {
                 content()
             }

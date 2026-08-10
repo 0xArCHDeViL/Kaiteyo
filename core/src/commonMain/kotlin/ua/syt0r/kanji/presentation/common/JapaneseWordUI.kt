@@ -24,7 +24,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.core.app_data.data.VocabReading
 import ua.syt0r.kanji.core.app_data.data.formattedVocabDefinition
@@ -119,8 +119,8 @@ fun NewStyleJapaneseWordUI(
                     modifier = Modifier
                         .clip(MaterialTheme.shapes.small)
                         .clickable(it)
-                        .height(30.dp)
-                        .padding(6.dp)
+                        .height(Dimens.IconButton)
+                        .padding(Dimens.Space1)
                 ) {
                     Icon(Icons.Default.Add, null)
                 }
@@ -148,8 +148,8 @@ private fun NewStyleLayout(
 ) {
     Column(
         modifier = modifier
-            .padding(horizontal = 20.dp)
-            .padding(top = 8.dp, bottom = 16.dp)
+            .padding(horizontal = Dimens.ContentPadding)
+            .padding(top = Dimens.Space2, bottom = Dimens.Space4)
     ) {
 
         Row(
@@ -171,7 +171,7 @@ private fun NewStyleLayout(
         }
         Row(
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(8.dp)
+            horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)
         ) {
 
             CompositionLocalProvider(

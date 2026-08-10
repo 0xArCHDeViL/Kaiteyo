@@ -29,7 +29,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 object AppListItemDefaults {
     val ExtraPaddings = PaddingValues(
         horizontal = Dimens.Space3,
-        vertical = 4.dp
+        vertical = Dimens.Space1
     )
     val ListItemDefaultPaddings = PaddingValues(
         horizontal = Dimens.ContentPaddingSmall,
@@ -57,9 +57,9 @@ fun AppListItem(
         headlineContent = headlineContent,
         modifier = modifier
             .padding(paddingValues)
-            .border(1.dp, surfaceColors.border.copy(alpha = 0.20f), shape)
+            .border(Dimens.ElevationXs, surfaceColors.border.copy(alpha = Dimens.Alpha.Light), shape)
             .clip(shape)
-            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.35f))
+            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = Dimens.Alpha.Medium))
             .semantics(mergeDescendants = true) { role = Role.Button }
             .clickable(enabled = onClick != null, onClick = onClick ?: {})
             .focusable(enabled = onClick != null),
@@ -76,7 +76,7 @@ fun AppListItem(
 fun AppListItem(
     modifier: Modifier = Modifier,
     onClick: (() -> Unit)? = null,
-    horizontalArrangement: Arrangement.Horizontal = Arrangement.spacedBy(8.dp),
+    horizontalArrangement: Arrangement.Horizontal = Arrangement.spacedBy(Dimens.Space2),
     paddingValues: PaddingValues = AppListItemDefaults.ExtraPaddings,
     rowContent: @Composable RowScope.() -> Unit
 ) {

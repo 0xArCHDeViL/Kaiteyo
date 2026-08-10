@@ -55,19 +55,19 @@ fun MultiplatformDialog(
         content = {
             Surface(
                 modifier = Modifier
-                    .widthIn(min = 320.dp, max = 460.dp)
+                    .widthIn(min = Dimens.CardMinWidth, max = Dimens.CardMaxWidth + 60.dp)
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp)
+                    .padding(horizontal = Dimens.Space4)
                     .shadow(
-                        elevation = 12.dp,
+                        elevation = Dimens.ElevationXl,
                         shape = shape,
-                        ambientColor = accent.primary.copy(alpha = 0.08f),
-                        spotColor = accent.primary.copy(alpha = 0.15f)
+                        ambientColor = accent.primary.copy(alpha = Dimens.Alpha.Subtle),
+                        spotColor = accent.primary.copy(alpha = Dimens.Alpha.Light)
                     )
                     .clip(shape)
                     .border(
-                        width = 1.dp,
-                        color = surfaceColors.border.copy(alpha = 0.3f),
+                        width = Dimens.ElevationXs,
+                        color = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),
                         shape = shape
                     ),
                 color = containerColor,
@@ -113,13 +113,13 @@ fun ExperimentalMultiplatformDialog(
         Column(
             modifier = Modifier
                 .height(IntrinsicSize.Max)
-                .padding(top = 22.dp, bottom = 14.dp)
+                .padding(top = Dimens.Space5, bottom = Dimens.Space3)
         ) {
 
             Box(
                 modifier = Modifier
-                    .padding(horizontal = 24.dp)
-                    .padding(bottom = 14.dp)
+                    .padding(horizontal = Dimens.Space6)
+                    .padding(bottom = Dimens.Space3)
             ) {
                 CompositionLocalProvider(
                     LocalTextStyle provides MaterialTheme.typography.titleLarge
@@ -130,7 +130,7 @@ fun ExperimentalMultiplatformDialog(
 
             val contentScrollState = rememberScrollState()
 
-            val visibleDividerColor = LocalSurfaceColors.current.border.copy(alpha = 0.3f)
+            val visibleDividerColor = LocalSurfaceColors.current.border.copy(alpha = Dimens.Alpha.Medium)
             val hiddenDividerColor = Color.Transparent
 
             val topDividerColor = animateColorAsState(
@@ -144,7 +144,7 @@ fun ExperimentalMultiplatformDialog(
 
             Column(
                 modifier = Modifier
-                    .padding(horizontal = if (paddedContent) 24.dp else 0.dp)
+                    .padding(horizontal = if (paddedContent) Dimens.Space6 else 0.dp)
                     .fillMaxWidth()
                     .weight(1f)
                     .verticalScroll(contentScrollState),
@@ -163,12 +163,12 @@ fun ExperimentalMultiplatformDialog(
             HorizontalDivider(color = bottomDividerColor.value)
 
             Row(
-                horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.End),
+                horizontalArrangement = Arrangement.spacedBy(Dimens.Space3, Alignment.End),
                 modifier = Modifier
                     .height(IntrinsicSize.Max)
                     .fillMaxWidth()
-                    .padding(horizontal = 24.dp)
-                    .padding(top = 12.dp)
+                    .padding(horizontal = Dimens.Space6)
+                    .padding(top = Dimens.Space3)
             ) {
                 CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onSurface) {
                     buttons()
