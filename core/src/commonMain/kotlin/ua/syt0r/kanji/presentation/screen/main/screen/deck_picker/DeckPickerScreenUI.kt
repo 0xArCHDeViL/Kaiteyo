@@ -141,7 +141,8 @@ private fun LoadedState(
         modifier = Modifier.fillMaxSize()
             .wrapContentWidth()
             .widthIn(max = 400.dp)
-            .padding(horizontal = 10.dp)
+            .padding(horizontal = 10.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
 
         item {

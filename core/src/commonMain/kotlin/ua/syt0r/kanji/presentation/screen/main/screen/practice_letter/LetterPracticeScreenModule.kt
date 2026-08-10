@@ -49,7 +49,7 @@ val letterPracticeScreenModule = module {
         )
     }
 
-    factory<LetterPracticeQueue>(named<LetterPracticeScreenContract>()) {
+    factory<DefaultLetterPracticeQueue> {
         DefaultLetterPracticeQueue(
             coroutineScope = it.component1(),
             timeUtils = get(),
@@ -67,7 +67,7 @@ val letterPracticeScreenModule = module {
             getConfigurationUseCase = get(),
             updateConfigurationUseCase = get(),
             getQueueDataUseCase = get { it },
-            practiceQueue = get(named<LetterPracticeScreenContract>()) { it },
+            practiceQueue = get { it },
             getReviewStateUseCase = get { it },
             analyticsManager = get(),
             kanaTtsManager = get()

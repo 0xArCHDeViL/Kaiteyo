@@ -158,25 +158,10 @@ fun HomeScreenUI(
                     }
                 )
             },
-        ) { paddingValues ->
-            Box(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(top = paddingValues.calculateTopPadding())
-            ) {
-                AnimatedContent(
-                    targetState = selectedTabState.value,
-                    transitionSpec = {
-                        fadeIn(tween(400)) togetherWith fadeOut(tween(400))
-                    }
-                ) {
-                    screenTabContent.invoke()
-                }
-
-                // Premium Fully Floating Glassmorphic Pill Bottom Bar
+            bottomBar = {
+                // Premium Fully Floating Pill Bottom Bar
                 Box(
                     modifier = Modifier
-                        .align(Alignment.BottomCenter)
                         .fillMaxWidth()
                         .windowInsetsPadding(NavigationBarDefaults.windowInsets)
                         .padding(horizontal = 24.dp, vertical = 24.dp)
@@ -192,14 +177,7 @@ fun HomeScreenUI(
                             )
                             .border(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.25f), CircleShape)
                             .clip(CircleShape)
-                            .background(
-                                Brush.verticalGradient(
-                                    colors = listOf(
-                                        MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.9f),
-                                        MaterialTheme.colorScheme.surface.copy(alpha = 0.7f)
-                                    )
-                                )
-                            )
+                            .background(MaterialTheme.colorScheme.surfaceVariant)
                             .padding(horizontal = 8.dp, vertical = 8.dp),
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
@@ -212,6 +190,21 @@ fun HomeScreenUI(
                             )
                         }
                     }
+                }
+            }
+        ) { paddingValues ->
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(paddingValues)
+            ) {
+                AnimatedContent(
+                    targetState = selectedTabState.value,
+                    transitionSpec = {
+                        fadeIn(tween(400)) togetherWith fadeOut(tween(400))
+                    }
+                ) {
+                    screenTabContent.invoke()
                 }
             }
         }

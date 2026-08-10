@@ -35,7 +35,7 @@ class LetterPracticeViewModel(
     private val getConfigurationUseCase: GetLetterPracticeConfigurationUseCase,
     private val updateConfigurationUseCase: UpdateLetterPracticeConfigurationUseCase,
     private val getQueueDataUseCase: GetLetterPracticeQueueDataUseCase,
-    private val practiceQueue: LetterPracticeQueue,
+    private val practiceQueue: DefaultLetterPracticeQueue,
     private val getReviewStateUseCase: GetLetterPracticeReviewStateUseCase,
     private val analyticsManager: AnalyticsManager,
     private val kanaTtsManager: KanaTtsManager

@@ -11,7 +11,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.Gram
 class GrammarPracticeViewModel(
     val deckId: Long,
     val items: List<GrammarPracticeQueueItemDescriptor>,
-    private val queue: GrammarPracticeQueue
+    private val queue: DefaultGrammarPracticeQueue
 ) : BaseViewModel() {
 
     private val _state = MutableStateFlow(

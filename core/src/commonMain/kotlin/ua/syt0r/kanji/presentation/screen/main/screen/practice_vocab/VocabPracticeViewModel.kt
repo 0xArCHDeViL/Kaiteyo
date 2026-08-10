@@ -26,7 +26,7 @@ class VocabPracticeViewModel(
     private val viewModelScope: CoroutineScope,
     private val practicePreferences: PreferencesContract.PracticePreferences,
     private val getQueueDataUseCase: GetVocabPracticeQueueDataUseCase,
-    private val practiceQueue: VocabPracticeQueue,
+    private val practiceQueue: DefaultVocabPracticeQueue,
     private val analyticsManager: AnalyticsManager
 ) : VocabPracticeScreenContract.ViewModel {
 

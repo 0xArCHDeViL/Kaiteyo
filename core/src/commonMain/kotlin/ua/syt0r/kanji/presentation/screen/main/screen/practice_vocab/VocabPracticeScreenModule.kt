@@ -45,7 +45,7 @@ val vocabPracticeScreenModule = module {
     }
 
 
-    factory<VocabPracticeQueue> {
+    factory<DefaultVocabPracticeQueue> {
         DefaultVocabPracticeQueue(
             coroutineScope = it.component1(),
             timeUtils = get(),

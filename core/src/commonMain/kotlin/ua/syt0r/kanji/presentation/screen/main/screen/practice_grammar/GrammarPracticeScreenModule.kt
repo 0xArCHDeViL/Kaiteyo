@@ -40,7 +40,7 @@ val grammarPracticeScreenModule = module {
         DefaultGetGrammarPracticeDialogueDataUseCase()
     }
 
-    factory<GrammarPracticeQueue> {
+    factory<DefaultGrammarPracticeQueue> {
         DefaultGrammarPracticeQueue(
             coroutineScope = CoroutineScope(Dispatchers.IO),
             timeUtils = get(),
