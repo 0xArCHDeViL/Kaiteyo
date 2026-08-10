@@ -707,6 +707,7 @@ private fun HeaderStatItem(title: String, text: String, modifier: Modifier = Mod
             textAlign = TextAlign.Center,
             letterSpacing = 0.5.sp
         )
+        }
     }
 }
 
