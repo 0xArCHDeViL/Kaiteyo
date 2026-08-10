@@ -98,9 +98,11 @@ fun LibraryScreen(navigationState: MainNavigationState) {
         LibraryView.WordSearch -> DrillDownScaffold(title = "🔎  Word & Sentence Search", onBack = { view = LibraryView.Hub }) {
             SearchScreen(mainNavigationState = navigationState, startWithRadicals = false)
         }
-        LibraryView.RadicalSearch -> DrillDownScaffold(title = "部  Radical Search", onBack = { view = LibraryView.Hub }) {
-            SearchScreen(mainNavigationState = navigationState, startWithRadicals = true)
-        }
+        LibraryView.RadicalSearch -> ua.syt0r.kanji.presentation.screen.main.screen.library.screen.radicals.RadicalsExplorerScreen(
+            dataCenter = dataCenter,
+            navigationState = navigationState,
+            onBack = { view = LibraryView.Hub }
+        )
         LibraryView.Grammar -> GrammarScreen(
             onNavigateBack = { view = LibraryView.Hub },
             onNavigateToPractice = { navigationState.navigate(it) }
