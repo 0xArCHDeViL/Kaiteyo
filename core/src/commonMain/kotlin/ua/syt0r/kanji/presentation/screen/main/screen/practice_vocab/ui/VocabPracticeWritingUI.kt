@@ -61,6 +61,8 @@ import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
 import ua.syt0r.kanji.presentation.common.ui.CenteredBoxWithSide
 import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
 import ua.syt0r.kanji.presentation.common.ui.Orientation
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BrushSelector
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BrushSettings
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWriter
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWriterDecorations
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWritingProgress
@@ -81,6 +83,8 @@ fun VocabPracticeWritingUI(
 ) {
 
     AutoSwitchSelectedItemLaunchedEffect(reviewState)
+
+    var brushSettings by remember { androidx.compose.runtime.mutableStateOf(BrushSettings.default) }
 
     val handleAnswer = { answer: PracticeAnswer ->
         val updatedAnswer = answer.copy(
@@ -138,8 +142,17 @@ fun VocabPracticeWritingUI(
                             modifier = Modifier.fillMaxWidth(),
                             horizontalAlignment = Alignment.CenterHorizontally
                         ) {
+                            BrushSelector(
+                                brushSettings = brushSettings,
+                                onBrushSettingsChange = { brushSettings = it },
+                                modifier = Modifier
+                                    .sizeIn(maxWidth = 400.dp)
+                                    .padding(horizontal = 20.dp)
+                            )
+
                             Input(
                                 state = selectedReviewState,
+                                brushSettings = brushSettings,
                                 modifier = Modifier
                                     .padding(horizontal = 20.dp)
                                     .padding(bottom = 12.dp)
@@ -176,15 +189,27 @@ fun VocabPracticeWritingUI(
                             .padding(20.dp)
                     )
 
-                    Input(
-                        state = selectedReviewState,
+                    Column(
                         modifier = Modifier.weight(1f)
                             .fillMaxHeight()
-                            .padding(20.dp)
-                            .wrapContentSize()
-                            .widthIn(max = 400.dp)
-                            .aspectRatio(1f, matchHeightConstraintsFirst = true)
-                    )
+                            .wrapContentSize(),
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        BrushSelector(
+                            brushSettings = brushSettings,
+                            onBrushSettingsChange = { brushSettings = it },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        Input(
+                            state = selectedReviewState,
+                            brushSettings = brushSettings,
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .padding(20.dp)
+                                .sizeIn(maxWidth = 400.dp)
+                                .aspectRatio(1f, matchHeightConstraintsFirst = true)
+                        )
+                    }
 
                     }
 
@@ -260,6 +285,7 @@ private fun Progress(
 @Composable
 private fun Input(
     state: State<VocabCharacterWritingData>,
+    brushSettings: BrushSettings,
     modifier: Modifier
 ) {
 
@@ -280,6 +306,7 @@ private fun Input(
                 is VocabCharacterWritingData.NoStrokes -> {}
                 is VocabCharacterWritingData.WithStrokes -> CharacterWriter(
                     state = it.writerState,
+                    brushSettings = brushSettings,
                     modifier = Modifier.fillMaxSize()
                 )
             }
