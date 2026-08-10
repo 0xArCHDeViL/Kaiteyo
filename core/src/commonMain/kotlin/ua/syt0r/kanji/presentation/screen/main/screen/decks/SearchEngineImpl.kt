@@ -246,7 +246,7 @@ private fun AdvancedSearchFilters(
                     onValueChange = { },
                     readOnly = true,
                     modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).weight(1f),
-                    textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
+                    textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded) },
                     singleLine = true
                 )
@@ -318,7 +318,7 @@ private fun AdvancedSearchFilters(
                         onValueChange = { },
                         readOnly = true,
                         modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
-                        textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
+                        textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expandedJlpt) },
                         singleLine = true
                     )
@@ -337,7 +337,7 @@ private fun AdvancedSearchFilters(
                 OutlinedTextField(
                     value = criteria.minStrokeCount?.toString() ?: "",
                     onValueChange = { onUpdate(criteria.copy(minStrokeCount = it.toIntOrNull())) },
-                    textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
+                    textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth()
                 )
@@ -347,7 +347,7 @@ private fun AdvancedSearchFilters(
                 OutlinedTextField(
                     value = criteria.maxStrokeCount?.toString() ?: "",
                     onValueChange = { onUpdate(criteria.copy(maxStrokeCount = it.toIntOrNull())) },
-                    textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
+                    textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth()
                 )

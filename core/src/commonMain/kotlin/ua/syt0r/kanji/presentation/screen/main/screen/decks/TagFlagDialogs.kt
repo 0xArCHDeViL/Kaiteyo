@@ -196,8 +196,7 @@ fun TagNoteEditorDialog(
                     onValueChange = { content = it },
                     modifier = Modifier.fillMaxWidth().heightIn(min = 200.dp),
                     placeholder = { Text("Write your note...") },
-                    textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
-                )
+                    textStyle = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
             }
         },
         confirmButton = { TextButton(onClick = { onSave(content) }) { Text("Save") } },

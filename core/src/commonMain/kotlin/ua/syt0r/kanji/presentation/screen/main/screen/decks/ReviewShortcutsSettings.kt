@@ -274,8 +274,7 @@ private fun SettingsDropdown(
                 modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).fillMaxWidth(),
                 trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded) },
                 singleLine = true,
-                textStyle = androidx.compose.ui.text.TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
-            )
+                textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             ExposedDropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
                 options.forEachIndexed { index, option ->
                     DropdownMenuItem(
@@ -822,8 +821,7 @@ private fun ProfileDialog(
                             placeholder = { Text("Profile name", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) },
                             singleLine = true,
                             modifier = Modifier.weight(1f),
-                            textStyle = androidx.compose.ui.text.TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
-                        )
+                            textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall)
                         IconButton(onClick = {
                             if (newName.isNotBlank()) {
                                 onCreateProfile(newName)
@@ -902,7 +900,7 @@ private fun ImportShortcutsDialog(
                     onValueChange = { jsonText = it; error = null },
                     modifier = Modifier.fillMaxWidth().heightIn(min = 150.dp),
                     placeholder = { Text("[{\\n  \\\"id\\\": \\\"showAnswer\\\",\\n  \\\"actionName\\\": \\\"Show Answer\\\",\\n  ...\\n}]") },
-                    textStyle = androidx.compose.ui.text.TextStyle(style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace)
+                    textStyle = androidx.compose.material3.MaterialTheme.typography.labelSmall.copy(fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace)
                 )
                 if (error != null) {
                     Text(error!!, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error)

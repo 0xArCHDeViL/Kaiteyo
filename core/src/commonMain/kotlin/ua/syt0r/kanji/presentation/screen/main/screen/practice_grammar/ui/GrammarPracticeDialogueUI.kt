@@ -1,5 +1,6 @@
-import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.FormulaText
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui
+
+import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.FormulaText
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.Spring

@@ -119,9 +119,7 @@ fun EnhancedNoteEditorScreen(
                         value = noteText,
                         onValueChange = { noteText = it },
                         modifier = Modifier.fillMaxSize(),
-                        textStyle = TextStyle(
-                            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
-                            fontFamily = FontFamily.Monospace,
+                        textStyle = androidx.compose.material3.MaterialTheme.typography.bodyMedium.copy(fontFamily = FontFamily.Monospace,
                             color = MaterialTheme.colorScheme.onSurface
                         ),
                         decorationBox = { innerTextField ->

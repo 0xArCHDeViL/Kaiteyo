@@ -151,7 +151,7 @@ fun KeyboardShortcutsPage(
                         onValueChange = { },
                         readOnly = true,
                         modifier = Modifier.menuAnchor(androidx.compose.material3.MenuAnchorType.PrimaryNotEditable, true).width(150.dp),
-                        textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
+                        textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded) },
                         singleLine = true
                     )
@@ -197,7 +197,7 @@ fun KeyboardShortcutsPage(
                 placeholder = { Text("Search shortcuts...") },
                 leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(18.dp)) },
                 singleLine = true,
-                textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
+                textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 
@@ -448,7 +448,7 @@ private fun ImportExportShortcutsDialog(
                         if (mode == "export") Text("Copy this JSON to share your shortcuts")
                         else Text("Paste shortcuts JSON here...")
                     },
-                    textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontFamily = FontFamily.Monospace),
+                    textStyle = androidx.compose.material3.MaterialTheme.typography.labelSmall.copy(fontFamily = FontFamily.Monospace),
                     maxLines = 10
                 )
                 if (mode == "export") {

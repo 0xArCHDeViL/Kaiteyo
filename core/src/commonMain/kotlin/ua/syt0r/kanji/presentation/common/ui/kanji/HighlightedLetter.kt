@@ -35,7 +35,7 @@ fun HighlightedLetter(
 
     Text(
         text = letter,
-        style = androidx.compose.material3.MaterialTheme.typography.headlineMedium,
+        
         modifier = constraintModifier
             .then(modifier)
             .clip(MaterialTheme.shapes.small)
@@ -43,8 +43,7 @@ fun HighlightedLetter(
             .background(containerColor)
             .clickable(enabled = onClick != null) { onClick!!(letter) }
             .padding(8.dp)
-            .wrapContentSize(unbounded = true),
-        style = MaterialTheme.typography.bodyLarge.copyCentered()
+            .wrapContentSize(unbounded = true), style = MaterialTheme.typography.headlineMedium.copyCentered()
     )
 
 }

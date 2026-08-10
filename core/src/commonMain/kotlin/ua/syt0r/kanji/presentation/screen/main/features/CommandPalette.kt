@@ -264,10 +264,8 @@ private fun PaletteSearchField(
                     text = it
                     controller.updateQuery(it)
                 },
-                textStyle = androidx.compose.ui.text.TextStyle(
-                    color = surfaceColors.textPrimary,
-                    style = androidx.compose.material3.MaterialTheme.typography.bodyLarge
-                ),
+                textStyle = androidx.compose.material3.MaterialTheme.typography.bodyLarge
+                .copy(color = surfaceColors.textPrimary),
                 cursorBrush = androidx.compose.ui.graphics.SolidColor(accent.primary),
                 singleLine = true,
                 modifier = Modifier.weight(1f)

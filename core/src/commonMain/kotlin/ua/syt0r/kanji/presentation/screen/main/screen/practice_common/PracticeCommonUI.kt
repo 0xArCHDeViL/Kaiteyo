@@ -662,7 +662,7 @@ fun PracticeSummaryContainer(
             onClick = onFinishClick,
             modifier = Modifier
                 .fillMaxWidth()
-                .height(Dimens.ButtonHeight),
+                .height(Dimens.Space12),
             shape = RoundedCornerShape(Dimens.RadiusLg),
             colors = ButtonDefaults.buttonColors(
                 containerColor = accent.primary,

@@ -224,7 +224,7 @@ private fun OperationsTab(
                     placeholder = { Text("Filter cards...", style = androidx.compose.material3.MaterialTheme.typography.bodySmall) },
                     leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(16.dp)) },
                     singleLine = true,
-                    textStyle = androidx.compose.ui.text.TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
+                    textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                     shape = RoundedCornerShape(Dimens.RadiusSm)
                 )
                 Spacer(Modifier.height(8.dp))

@@ -411,17 +411,12 @@ private fun <T> ColumnScope.IndicatorTextRow(
         Text(
             text = buildAnnotatedString {
                 withStyle(
-                    SpanStyle(
-                        fontWeight = FontWeight.Light,
-                        style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
-                    )
+                    androidx.compose.material3.MaterialTheme.typography.bodyMedium,
+                    .toSpanStyle().copy(fontWeight = FontWeight.Light)
                 ) { append(label) }
                 withStyle(
-                    SpanStyle(
-                        fontWeight = FontWeight.SemiBold,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        style = androidx.compose.material3.MaterialTheme.typography.titleLarge
-                    )
+                    androidx.compose.material3.MaterialTheme.typography.titleLarge
+                    .toSpanStyle().copy(fontWeight = FontWeight.SemiBold, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 ) { append(" ${items.size}") }
             },
             textAlign = TextAlign.Center

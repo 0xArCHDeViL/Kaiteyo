@@ -162,7 +162,7 @@ fun TagManagerScreenFull(
                     }
                 },
                 singleLine = true,
-                textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodyMedium),
+                textStyle = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                 shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 

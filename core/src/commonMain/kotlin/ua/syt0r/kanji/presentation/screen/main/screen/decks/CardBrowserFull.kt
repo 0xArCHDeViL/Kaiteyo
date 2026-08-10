@@ -388,7 +388,7 @@ private fun BrowserSearchBar(
                     }
                 },
                 singleLine = true,
-                textStyle = androidx.compose.ui.text.TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = surfaceColors.textPrimary),
+                textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall.copy(color = surfaceColors.textPrimary),
                 colors = OutlinedTextFieldDefaults.colors(
                     focusedBorderColor = accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque),
                     unfocusedBorderColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),

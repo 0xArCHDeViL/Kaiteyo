@@ -220,7 +220,7 @@ fun NoteEditorFullScreen(
                         onValueChange = { editContent = it },
                         modifier = Modifier.weight(1f).fillMaxWidth().padding(12.dp),
                         placeholder = { Text("Write your notes here...\n\nMarkdown supported:\n- **Bold**\n- *Italic*\n- [Links](url)\n- ![Images](file.png)\n- Tables, code blocks, checklists, etc.") },
-                        textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, color = surfaceColors.textPrimary, lineHeight = 20.sp),
+                        textStyle = androidx.compose.material3.MaterialTheme.typography.bodyMedium.copy(color = surfaceColors.textPrimary, lineHeight = 20.sp),
                         colors = OutlinedTextFieldDefaults.colors(
                             focusedBorderColor = accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque),
                             unfocusedBorderColor = surfaceColors.border.copy(alpha = Dimens.Alpha.Medium),

@@ -248,7 +248,7 @@ fun GrammarPointCard(point: GrammarPoint) {
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.primary
                         )
-                        FormulaFormulaText(
+                        FormulaText(
                                 text = point.formulaTitle,
                             style = MaterialTheme.typography.titleMedium.copy(
                                 fontWeight = FontWeight.Bold,
@@ -368,16 +368,14 @@ fun FormulaText(
                     }
                 } else {
                     withStyle(
-                        style = androidx.compose.ui.text.SpanStyle(
-                            fontWeight = FontWeight.SemiBold
+                        style = androidx.compose.ui.text.style,
+        modifier = modifier.padding(bottom = 4.dp.toSpanStyle().copy(fontWeight = FontWeight.SemiBold
                         )
                     ) {
                         append(part)
                     }
                 }
             }
-        },
-        style = style,
-        modifier = modifier.padding(bottom = 4.dp)
+        })
     )
 }

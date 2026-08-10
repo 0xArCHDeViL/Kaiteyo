@@ -127,7 +127,7 @@ fun DeckBrowserEnhancedScreen(
                 placeholder = { Text("Search decks...") },
                 leadingIcon = { Icon(Icons.Default.Search, null, Modifier.size(18.dp)) },
                 singleLine = true,
-                textStyle = TextStyle(style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
+                textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 shape = RoundedCornerShape(Dimens.RadiusMd)
             )
 

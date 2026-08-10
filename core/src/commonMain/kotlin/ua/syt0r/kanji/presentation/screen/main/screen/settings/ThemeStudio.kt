@@ -541,7 +541,7 @@ private fun HexEditor(color: Color, onChange: (Color) -> Unit) {
                         onChange(Color(r / 255f, g / 255f, b / 255f, color.alpha))
                     }
                 },
-                textStyle = TextStyle(color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium),
+                textStyle = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium.copy(color = surfaceColors.textPrimary),
                 singleLine = true, modifier = Modifier.width(100.dp))
         }
     }

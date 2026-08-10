@@ -526,10 +526,8 @@ private fun BrowserHeader(
                     androidx.compose.foundation.text.BasicTextField(
                         value = query,
                         onValueChange = onQueryChange,
-                        textStyle = androidx.compose.ui.text.TextStyle(
-                            color = surfaceColors.textPrimary,
-                            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
-                        ),
+                        textStyle = androidx.compose.material3.MaterialTheme.typography.bodyMedium
+                        .copy(color = surfaceColors.textPrimary),
                         cursorBrush = androidx.compose.ui.graphics.SolidColor(accent.primary),
                         singleLine = true,
                         modifier = Modifier.fillMaxWidth()
@@ -1577,7 +1575,7 @@ fun TagPickerDialog(
                         androidx.compose.foundation.text.BasicTextField(
                             value = newTagName,
                             onValueChange = { newTagName = it },
-                            textStyle = androidx.compose.ui.text.TextStyle(color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall),
+                            textStyle = androidx.compose.material3.MaterialTheme.typography.bodySmall.copy(color = surfaceColors.textPrimary),
                             cursorBrush = androidx.compose.ui.graphics.SolidColor(accent.primary),
                             singleLine = true,
                             decorationBox = { inner ->

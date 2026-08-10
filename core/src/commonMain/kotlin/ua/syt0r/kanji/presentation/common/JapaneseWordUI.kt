@@ -1,3 +1,4 @@
+import androidx.compose.ui.unit.dp
 package ua.syt0r.kanji.presentation.common
 
 import androidx.compose.foundation.layout.Arrangement
