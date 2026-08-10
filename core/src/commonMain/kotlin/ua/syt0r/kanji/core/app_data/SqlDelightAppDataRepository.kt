@@ -379,6 +379,18 @@ class SqlDelightAppDataRepository(
             )
         }
 
+        val kanjiList = kanjiElements.map { it.reading }.distinct()
+        val kanaList = kanaElements.map { it.reading }.distinct()
+
+        val furiganaMap = if (kanjiList.isNotEmpty() && kanaList.isNotEmpty()) {
+            getFuriganaForWord(kanjiList, kanaList).executeAsList().associateBy(
+                { Pair(it.text, it.reading) },
+                { it.furigana }
+            )
+        } else {
+            emptyMap()
+        }
+
         val kanjiReadings = kanjiElements.flatMap { kanjiElement ->
             val kanjiReadingInfo = kanjiElement.informations.parseAsVocabReadingInfoSet()
 
@@ -397,7 +409,7 @@ class SqlDelightAppDataRepository(
                     elementId = kanjiElement.element_id,
                     kanji = kanji,
                     kana = kana,
-                    furigana = searchFurigana(kanji, kana).executeAsOneOrNull()?.parseAsFurigana(),
+                    furigana = furiganaMap[Pair(kanji, kana)]?.parseAsFurigana(),
                     info = kanjiReadingInfo.plus(kanaReading.info),
                     noKanji = kanaReading.noKanji
                 )

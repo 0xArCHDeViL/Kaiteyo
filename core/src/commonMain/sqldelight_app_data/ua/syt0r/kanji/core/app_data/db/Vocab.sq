@@ -330,3 +330,8 @@ FROM sentence
 WHERE sentence LIKE '%' || :text || '%'
 ORDER BY score
 LIMIT :offset, :limit;
+
+getFuriganaForWord:
+SELECT text, reading, furigana
+FROM vocab_furigana
+WHERE text IN :kanjiList AND reading IN :kanaList;
