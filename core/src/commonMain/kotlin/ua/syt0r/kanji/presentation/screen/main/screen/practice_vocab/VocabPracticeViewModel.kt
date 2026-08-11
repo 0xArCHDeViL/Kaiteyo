@@ -28,7 +28,8 @@ class VocabPracticeViewModel(
     private val practicePreferences: PreferencesContract.PracticePreferences,
     private val getQueueDataUseCase: GetVocabPracticeQueueDataUseCase,
     private val practiceQueue: DefaultVocabPracticeQueue,
-    private val analyticsManager: AnalyticsManager
+    private val analyticsManager: AnalyticsManager,
+    private val appTtsManager: ua.syt0r.kanji.core.tts.AppTtsManager
 ) : VocabPracticeScreenContract.ViewModel {
 
     private lateinit var configuration: VocabPracticeScreenConfiguration
@@ -127,6 +128,12 @@ class VocabPracticeViewModel(
 
     override fun finishPractice() {
         practiceQueue.immediateFinish()
+    }
+
+    override fun playVoice(text: String) {
+        viewModelScope.launch {
+            appTtsManager.speak(text)
+        }
     }
 
     private fun applyToScreenState(queueState: VocabPracticeQueueState) {

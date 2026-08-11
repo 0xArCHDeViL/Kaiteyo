@@ -37,6 +37,9 @@ fun GrammarPracticeScreenUI(
                             answers = queueState.answers,
                             onAnswer = { answer ->
                                 onEvent(GrammarPracticeScreenContract.Event.AnswerSrs(answer))
+                            },
+                            onVoiceClick = { text ->
+                                onEvent(GrammarPracticeScreenContract.Event.PlayVoice(text))
                             }
                         )
                     }
@@ -50,6 +53,9 @@ fun GrammarPracticeScreenUI(
                             },
                             onNext = {
                                 onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(queueState.answers))
+                            },
+                            onVoiceClick = { text ->
+                                onEvent(GrammarPracticeScreenContract.Event.PlayVoice(text))
                             }
                         )
                     }
@@ -62,6 +68,9 @@ fun GrammarPracticeScreenUI(
                             },
                             onNext = {
                                 onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(queueState.answers))
+                            },
+                            onVoiceClick = { text ->
+                                onEvent(GrammarPracticeScreenContract.Event.PlayVoice(text))
                             }
                         )
                     }
@@ -74,6 +83,9 @@ fun GrammarPracticeScreenUI(
                             },
                             onNext = {
                                 onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(queueState.answers))
+                            },
+                            onVoiceClick = { text ->
+                                onEvent(GrammarPracticeScreenContract.Event.PlayVoice(text))
                             }
                         )
                     }
@@ -87,6 +99,9 @@ fun GrammarPracticeScreenUI(
                             },
                             onNext = {
                                 onEvent(GrammarPracticeScreenContract.Event.ProceedToNext(queueState.answers))
+                            },
+                            onVoiceClick = { text ->
+                                onEvent(GrammarPracticeScreenContract.Event.PlayVoice(text))
                             }
                         )
                     }

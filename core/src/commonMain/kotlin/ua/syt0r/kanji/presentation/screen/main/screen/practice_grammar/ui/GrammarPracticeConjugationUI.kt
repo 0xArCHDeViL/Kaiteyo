@@ -27,7 +27,8 @@ fun GrammarPracticeConjugationUI(
     state: MutableGrammarReviewState.ConjugationBuilder,
     answeredCorrectly: Boolean?,
     onAnswerSubmit: (Boolean) -> Unit,
-    onNext: () -> Unit
+    onNext: () -> Unit,
+    onVoiceClick: (String) -> Unit
 ) {
     var builtConjugation by remember { mutableStateOf("") }
 

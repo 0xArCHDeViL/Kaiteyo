@@ -60,7 +60,8 @@ val grammarPracticeScreenModule = module {
         GrammarPracticeViewModel(
             deckId = deckId,
             items = items,
-            queue = get()
+            queue = get(),
+            appTtsManager = get()
         )
     }
 

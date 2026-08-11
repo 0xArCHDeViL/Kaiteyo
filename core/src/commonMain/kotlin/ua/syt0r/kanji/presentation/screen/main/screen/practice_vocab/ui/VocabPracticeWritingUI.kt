@@ -67,6 +67,7 @@ import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
 import ua.syt0r.kanji.presentation.common.ui.CenteredBoxWithSide
 import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
 import ua.syt0r.kanji.presentation.common.ui.Orientation
+import ua.syt0r.kanji.core.app_data.data.withoutAnnotations
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BrushSelector
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BrushSettings
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWriter
@@ -85,7 +86,8 @@ fun VocabPracticeWritingUI(
     answers: PracticeAnswers,
     answerSelected: (PracticeAnswer) -> Unit,
     onInfoClick: () -> Unit,
-    onFeedbackClick: (JapaneseWord) -> Unit
+    onFeedbackClick: (JapaneseWord) -> Unit,
+    onVoiceClick: (String) -> Unit
 ) {
 
     AutoSwitchSelectedItemLaunchedEffect(reviewState)
@@ -175,6 +177,7 @@ fun VocabPracticeWritingUI(
                         reviewState = reviewState,
                         onInfoClick = onInfoClick,
                         revealAnswer = revealAnswer,
+                        onVoiceClick = onVoiceClick,
                         modifier = Modifier.fillMaxSize().padding(20.dp)
                     )
 
@@ -189,6 +192,7 @@ fun VocabPracticeWritingUI(
                         reviewState = reviewState,
                         onInfoClick = onInfoClick,
                         revealAnswer = revealAnswer,
+                        onVoiceClick = onVoiceClick,
                         modifier = Modifier.weight(1f)
                             .fillMaxHeight()
                             .verticalScroll(rememberScrollState())
@@ -230,6 +234,7 @@ private fun Progress(
     reviewState: VocabReviewState.Writing,
     revealAnswer: State<Boolean>,
     onInfoClick: () -> Unit,
+    onVoiceClick: (String) -> Unit,
     modifier: Modifier,
 ) {
 
@@ -265,7 +270,7 @@ private fun Progress(
             autoPlayEnabled = autoPlayEnabled,
             clickable = revealAnswer.value,
             onAutoPlayToggleClick = { autoPlayEnabled.value = !autoPlayEnabled.value },
-            onSpeakClick = { /* MOCK */ },
+            onSpeakClick = { onVoiceClick(reviewState.summaryReading.withoutAnnotations()) },
             modifier = Modifier
         )
 

@@ -37,7 +37,8 @@ fun VocabPracticeScreen(
             )
         },
         navigateBack = { mainNavigationState.navigateBack() },
-        finishPractice = { viewModel.finishPractice() }
+        finishPractice = { viewModel.finishPractice() },
+        onVoiceClick = { viewModel.playVoice(it) }
     )
 
 }

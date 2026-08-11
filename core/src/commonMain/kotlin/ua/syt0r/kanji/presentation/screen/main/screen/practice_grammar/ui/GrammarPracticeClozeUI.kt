@@ -28,7 +28,8 @@ fun GrammarPracticeClozeUI(
     state: MutableGrammarReviewState.Cloze,
     answeredCorrectly: Boolean?,
     onAnswerSelected: (Int) -> Unit,
-    onNext: () -> Unit
+    onNext: () -> Unit,
+    onVoiceClick: (String) -> Unit
 ) {
     Column(
         modifier = Modifier.fillMaxSize().padding(Dimens.WindowPadding),

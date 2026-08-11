@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.di
 
+import ua.syt0r.kanji.core.tts.AppTtsManager
+import ua.syt0r.kanji.core.tts.AndroidAppTtsManager
 import android.app.ActivityManager
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.getSystemService
@@ -56,6 +58,12 @@ actual val platformComponentsModule: Module = module {
             voiceData = Neural2BKanaVoiceData(
                 assetPath = "files/${AndroidMainBuildConfig.kanaVoiceAssetName}"
             )
+        )
+    }
+
+    factory<AppTtsManager> {
+        AndroidAppTtsManager(
+            context = get()
         )
     }
 

@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowOutward
+import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -22,6 +23,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.core.app_data.data.FuriganaString
+import ua.syt0r.kanji.core.app_data.data.withoutAnnotations
 import ua.syt0r.kanji.presentation.common.AutopaddedScrollableColumn
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.common.ui.CenteredBoxWithSide
@@ -37,7 +39,8 @@ fun VocabPracticeFlashcardUI(
     answers: PracticeAnswers,
     onRevealAnswerClick: () -> Unit,
     onNextClick: (PracticeAnswer) -> Unit,
-    onInfoClick: () -> Unit
+    onInfoClick: () -> Unit,
+    onVoiceClick: (String) -> Unit
 ) {
 
     AutopaddedScrollableColumn(
@@ -77,10 +80,25 @@ fun VocabPracticeFlashcardUI(
         }
 
         val wordUI = @Composable { furigana: FuriganaString ->
-            FuriganaText(
-                furiganaString = furigana,
-                textStyle = MaterialTheme.typography.displayLarge,
-                annotationTextStyle = MaterialTheme.typography.bodyLarge
+            CenteredBoxWithSide(
+                modifier = Modifier.widthIn(max = 400.dp),
+                placeSideContentAtStart = false,
+                centerContent = {
+                    FuriganaText(
+                        furiganaString = furigana,
+                        textStyle = MaterialTheme.typography.displayLarge,
+                        annotationTextStyle = MaterialTheme.typography.bodyLarge
+                    )
+                },
+                sideContent = {
+                    if (reviewState.showAnswer.value || !reviewState.showMeaningInFront) {
+                        IconButton(
+                            onClick = { onVoiceClick(furigana.withoutAnnotations()) }
+                        ) {
+                            Icon(Icons.Default.VolumeUp, contentDescription = "Play voice")
+                        }
+                    }
+                }
             )
         }
 

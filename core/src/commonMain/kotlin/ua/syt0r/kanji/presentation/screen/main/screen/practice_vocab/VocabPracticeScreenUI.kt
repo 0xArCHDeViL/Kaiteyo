@@ -54,7 +54,8 @@ fun VocabPracticeScreenUI(
     onSummaryItemClick: (VocabSummaryItem) -> Unit,
     onFeedback: (JapaneseWord) -> Unit,
     navigateBack: () -> Unit,
-    finishPractice: () -> Unit
+    finishPractice: () -> Unit,
+    onVoiceClick: (String) -> Unit
 ) {
 
     var showPracticeFinishDialog by rememberSaveable { mutableStateOf(false) }
@@ -114,7 +115,8 @@ fun VocabPracticeScreenUI(
                         onAnswerSelected = onReadingPickerAnswerSelected,
                         onNextClick = onNext,
                         onInfoClick = onInfoClick,
-                        onFeedbackClick = onFeedback
+                        onFeedbackClick = onFeedback,
+                        onVoiceClick = onVoiceClick
                     )
                 }
 
@@ -226,7 +228,8 @@ private fun ScreenReview(
     onAnswerSelected: (String) -> Unit,
     onNextClick: (PracticeAnswer) -> Unit,
     onInfoClick: (VocabReviewState) -> Unit,
-    onFeedbackClick: (JapaneseWord) -> Unit
+    onFeedbackClick: (JapaneseWord) -> Unit,
+    onVoiceClick: (String) -> Unit
 ) {
 
     Box(
@@ -241,6 +244,7 @@ private fun ScreenReview(
                     onRevealAnswerClick = onFlashcardAnswerRevealClick,
                     onNextClick = onNextClick,
                     onInfoClick = { onInfoClick(currentState) },
+                    onVoiceClick = onVoiceClick
                 )
             }
 
@@ -251,7 +255,8 @@ private fun ScreenReview(
                     onAnswerSelected = onAnswerSelected,
                     onNextClick = onNextClick,
                     onInfoClick = { onInfoClick(currentState) },
-                    onFeedbackClick = onFeedbackClick
+                    onFeedbackClick = onFeedbackClick,
+                    onVoiceClick = onVoiceClick
                 )
             }
 
@@ -261,7 +266,8 @@ private fun ScreenReview(
                     answers = reviewState.answers,
                     answerSelected = onNextClick,
                     onInfoClick = { onInfoClick(currentState) },
-                    onFeedbackClick = onFeedbackClick
+                    onFeedbackClick = onFeedbackClick,
+                    onVoiceClick = onVoiceClick
                 )
             }
         }

@@ -11,7 +11,8 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.Gram
 class GrammarPracticeViewModel(
     val deckId: Long,
     val items: List<GrammarPracticeQueueItemDescriptor>,
-    private val queue: DefaultGrammarPracticeQueue
+    private val queue: DefaultGrammarPracticeQueue,
+    private val appTtsManager: ua.syt0r.kanji.core.tts.AppTtsManager
 ) : BaseViewModel() {
 
     private val _state = MutableStateFlow(
@@ -59,6 +60,11 @@ class GrammarPracticeViewModel(
             }
             is GrammarPracticeScreenContract.Event.EndPractice -> {
                 queue.immediateFinish()
+            }
+            is GrammarPracticeScreenContract.Event.PlayVoice -> {
+                viewModelScope.launch {
+                    appTtsManager.speak(event.text)
+                }
             }
         }
     }

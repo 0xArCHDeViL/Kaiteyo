@@ -56,11 +56,15 @@ class DefaultGetVocabPracticeWritingDataUseCase(
             }
         }
 
-        val writerData = letters
-            .map { it.toString() }
+        val charactersList = letters.map { it.toString() }
+        val containsKanji = charactersList.any { char -> 
+            char.firstOrNull()?.let { !it.isKana() && !it.isWhitespace() } == true 
+        }
+
+        val writerData = charactersList
             .map { character ->
                 val isKana = character.firstOrNull()?.isKana() == true
-                if (descriptor.kanjiOnly && isKana) {
+                if (descriptor.kanjiOnly && containsKanji && isKana) {
                     return@map character to null
                 }
 

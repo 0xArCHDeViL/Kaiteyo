@@ -16,6 +16,8 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.VolumeUp
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 
@@ -25,7 +27,8 @@ fun GrammarPracticeScrambleUI(
     state: MutableGrammarReviewState.SentenceScramble,
     answeredCorrectly: Boolean?,
     onAnswerSubmit: (Boolean) -> Unit,
-    onNext: () -> Unit
+    onNext: () -> Unit,
+    onVoiceClick: (String) -> Unit
 ) {
     var selectedParts by remember { mutableStateOf(listOf<String>()) }
     var availableParts by remember(state.scrambledParts) { mutableStateOf(state.scrambledParts) }
@@ -140,13 +143,19 @@ fun GrammarPracticeScrambleUI(
             } else {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     val color = if (isCorrect) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
-                    Text(
-                        text = if (isCorrect) "Excellent!" else "Incorrect. Answer: ${state.originalSentence}",
-                        style = MaterialTheme.typography.headlineSmall,
-                        fontWeight = FontWeight.Bold,
-                        color = color,
-                        textAlign = TextAlign.Center
-                    )
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(
+                            text = if (isCorrect) "Excellent!" else "Incorrect. Answer: ${state.originalSentence}",
+                            style = MaterialTheme.typography.headlineSmall,
+                            fontWeight = FontWeight.Bold,
+                            color = color,
+                            textAlign = TextAlign.Center
+                        )
+                        Spacer(modifier = Modifier.width(Dimens.Space2))
+                        IconButton(onClick = { onVoiceClick(state.originalSentence) }) {
+                            Icon(Icons.Default.VolumeUp, contentDescription = "Play answer voice")
+                        }
+                    }
                     Spacer(modifier = Modifier.height(Dimens.Space8))
                     Button(
                         onClick = onNext,

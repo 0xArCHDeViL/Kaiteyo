@@ -19,6 +19,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
@@ -31,7 +33,8 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.FlashcardP
 fun GrammarPracticeFlashcardUI(
     state: MutableGrammarReviewState.Flashcard,
     answers: PracticeAnswers,
-    onAnswer: (PracticeAnswer) -> Unit
+    onAnswer: (PracticeAnswer) -> Unit,
+    onVoiceClick: (String) -> Unit
 ) {
     val isFlipped = remember(state) { mutableStateOf(false) }
 
@@ -67,15 +70,25 @@ fun GrammarPracticeFlashcardUI(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
                     ) {
-                        FormulaText(
-                            text = state.title,
-                            style = MaterialTheme.typography.headlineLarge.copy(
-                                fontWeight = FontWeight.ExtraBold,
-                                color = MaterialTheme.colorScheme.primary,
-                                textAlign = TextAlign.Center
-                            ),
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.Center,
                             modifier = Modifier.fillMaxWidth()
-                        )
+                        ) {
+                            FormulaText(
+                                text = state.title,
+                                style = MaterialTheme.typography.headlineLarge.copy(
+                                    fontWeight = FontWeight.ExtraBold,
+                                    color = MaterialTheme.colorScheme.primary,
+                                    textAlign = TextAlign.Center
+                                ),
+                                modifier = Modifier
+                            )
+                            Spacer(modifier = Modifier.width(Dimens.Space2))
+                            IconButton(onClick = { onVoiceClick(state.title.replace("~", "")) }) {
+                                Icon(Icons.Default.VolumeUp, contentDescription = "Play title voice")
+                            }
+                        }
 
                         Spacer(modifier = Modifier.height(Dimens.Space6))
                         FormulaText(text = state.formula)
@@ -92,12 +105,13 @@ fun GrammarPracticeFlashcardUI(
                                     modifier = Modifier.fillMaxWidth(0.6f)
                                 )
                                 Spacer(modifier = Modifier.height(Dimens.Space8))
-                                Text(
+                                FormulaText(
                                     text = state.meaning,
-                                    style = MaterialTheme.typography.headlineSmall,
-                                    fontWeight = FontWeight.Bold,
-                                    color = MaterialTheme.colorScheme.secondary,
-                                    textAlign = TextAlign.Center
+                                    style = MaterialTheme.typography.headlineSmall.copy(
+                                        fontWeight = FontWeight.Bold,
+                                        color = MaterialTheme.colorScheme.secondary,
+                                        textAlign = TextAlign.Center
+                                    )
                                 )
                                 if (state.examples.isNotEmpty()) {
                                     Spacer(modifier = Modifier.height(Dimens.Space6))
@@ -107,14 +121,28 @@ fun GrammarPracticeFlashcardUI(
                                             color = MaterialTheme.colorScheme.secondaryContainer.copy(alpha = 0.4f),
                                             modifier = Modifier.fillMaxWidth().padding(bottom = Dimens.Space2)
                                         ) {
-                                            Text(
-                                                text = example,
-                                                style = MaterialTheme.typography.bodyLarge,
-                                                fontWeight = FontWeight.Medium,
-                                                color = MaterialTheme.colorScheme.onSurface,
-                                                textAlign = TextAlign.Center,
-                                                modifier = Modifier.padding(Dimens.Space4)
-                                            )
+                                            Row(
+                                                verticalAlignment = Alignment.CenterVertically,
+                                                modifier = Modifier.fillMaxWidth()
+                                            ) {
+                                                Text(
+                                                    text = example,
+                                                    style = MaterialTheme.typography.bodyLarge,
+                                                    fontWeight = FontWeight.Medium,
+                                                    color = MaterialTheme.colorScheme.onSurface,
+                                                    textAlign = TextAlign.Center,
+                                                    modifier = Modifier.padding(Dimens.Space4).weight(1f)
+                                                )
+                                                IconButton(
+                                                    onClick = {
+                                                        val jpText = example.split("\n").firstOrNull() ?: example
+                                                        onVoiceClick(jpText)
+                                                    },
+                                                    modifier = Modifier.padding(end = Dimens.Space2)
+                                                ) {
+                                                    Icon(Icons.Default.VolumeUp, contentDescription = "Play example voice")
+                                                }
+                                            }
                                         }
                                     }
                                 }

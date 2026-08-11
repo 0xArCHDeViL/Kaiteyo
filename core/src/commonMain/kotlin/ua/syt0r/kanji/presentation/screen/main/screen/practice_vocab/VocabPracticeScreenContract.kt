@@ -23,7 +23,7 @@ interface VocabPracticeScreenContract {
         fun submitReadingPickerAnswer(answer: String)
         fun next(answer: PracticeAnswer)
         fun finishPractice()
-
+        fun playVoice(text: String)
     }
 
     sealed interface ScreenState {

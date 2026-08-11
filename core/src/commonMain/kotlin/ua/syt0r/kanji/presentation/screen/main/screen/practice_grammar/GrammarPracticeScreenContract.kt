@@ -18,6 +18,7 @@ interface GrammarPracticeScreenContract {
         data class AnswerDialogue(val isCorrect: Boolean) : Event
         data class AnswerSrs(val answer: PracticeAnswer) : Event
         data class ProceedToNext(val answers: PracticeAnswers) : Event
+        data class PlayVoice(val text: String) : Event
         data object EndPractice : Event
     }
 }

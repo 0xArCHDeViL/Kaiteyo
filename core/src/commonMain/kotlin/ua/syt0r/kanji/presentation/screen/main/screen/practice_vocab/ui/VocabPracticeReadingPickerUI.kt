@@ -13,6 +13,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowOutward
+import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
@@ -30,6 +31,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
+import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
+import ua.syt0r.kanji.core.app_data.data.withoutAnnotations
 import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
 import ua.syt0r.kanji.presentation.common.ui.CenteredBoxWithSide
 import ua.syt0r.kanji.presentation.common.ui.FuriganaText
@@ -49,7 +52,8 @@ fun VocabPracticeReadingPickerUI(
     onInfoClick: () -> Unit,
     onAnswerSelected: (String) -> Unit,
     onNextClick: (PracticeAnswer) -> Unit,
-    onFeedbackClick: (JapaneseWord) -> Unit
+    onFeedbackClick: (JapaneseWord) -> Unit,
+    onVoiceClick: (String) -> Unit
 ) {
 
     Column(
@@ -59,10 +63,25 @@ fun VocabPracticeReadingPickerUI(
 
         val selectedAnswer by reviewState.selectedAnswer
 
-        FuriganaText(
-            furiganaString = reviewState.displayReading.value,
-            textStyle = MaterialTheme.typography.displayLarge,
-            annotationTextStyle = MaterialTheme.typography.bodyLarge,
+        CenteredBoxWithSide(
+            modifier = Modifier.widthIn(max = 400.dp),
+            placeSideContentAtStart = false,
+            centerContent = {
+                FuriganaText(
+                    furiganaString = reviewState.displayReading.value,
+                    textStyle = MaterialTheme.typography.displayLarge,
+                    annotationTextStyle = MaterialTheme.typography.bodyLarge,
+                )
+            },
+            sideContent = {
+                if (selectedAnswer != null) {
+                    IconButton(
+                        onClick = { onVoiceClick(reviewState.displayReading.value.withoutAnnotations()) }
+                    ) {
+                        Icon(Icons.Default.VolumeUp, contentDescription = "Play voice")
+                    }
+                }
+            }
         )
 
         if (selectedAnswer != null || reviewState.showMeaning) {

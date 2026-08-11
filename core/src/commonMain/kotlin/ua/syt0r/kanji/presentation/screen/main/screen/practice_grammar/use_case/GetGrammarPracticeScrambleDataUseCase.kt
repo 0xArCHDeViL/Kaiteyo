@@ -23,9 +23,9 @@ class DefaultGetGrammarPracticeScrambleDataUseCase : GetGrammarPracticeScrambleD
 
         val rawExample = point.examples.firstOrNull() ?: "Example missing. Contoh hilang."
         
-        val splitIndex = rawExample.indexOf("。")
+        val splitIndex = rawExample.indexOf("\n")
         val (japanese, indonesian) = if (splitIndex != -1 && splitIndex < rawExample.length - 1) {
-            rawExample.substring(0, splitIndex + 1) to rawExample.substring(splitIndex + 1).trim()
+            rawExample.substring(0, splitIndex).trim() to rawExample.substring(splitIndex + 1).trim()
         } else {
             rawExample to ""
         }
