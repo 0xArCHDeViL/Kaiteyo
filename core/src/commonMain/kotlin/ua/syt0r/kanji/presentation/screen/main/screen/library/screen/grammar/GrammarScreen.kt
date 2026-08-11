@@ -364,7 +364,7 @@ fun FormulaText(
                             fontWeight = FontWeight.Bold
                         )
                     ) {
-                        append(actualText)
+                        append(part)
                     }
                 } else {
                     withStyle(

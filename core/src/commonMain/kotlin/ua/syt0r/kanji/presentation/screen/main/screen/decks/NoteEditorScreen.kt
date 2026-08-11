@@ -375,7 +375,7 @@ private fun NotePreview(
                 line.startsWith("[") -> {
                     val text = line.substringAfter("[").substringBefore("]")
                     val url = line.substringAfter("(").substringBefore(")")
-                    Text(text, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = androidx.compose.ui.graphics.ua.syt0r.kanji.presentation.common.theme.semanticInfo,
+                    Text(text, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, color = ua.syt0r.kanji.presentation.common.theme.semanticInfo,
                         textDecoration = TextDecoration.Underline)
                 }
                 line.isBlank() -> Spacer(Modifier.height(4.dp))

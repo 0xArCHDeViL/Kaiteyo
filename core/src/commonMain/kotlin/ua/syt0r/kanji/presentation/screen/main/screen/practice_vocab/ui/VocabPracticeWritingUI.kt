@@ -250,9 +250,14 @@ private fun Progress(
             }
         }
 
-        ua.syt0r.kanji.presentation.common.FuriganaWordHeadline(
-            reading = reviewState.summaryReading,
-            glossary = listOf(reviewState.meaning)
+        ua.syt0r.kanji.presentation.common.ui.FuriganaText(
+            text = reviewState.summaryReading,
+            style = MaterialTheme.typography.headlineMedium
+        )
+        Text(
+            text = reviewState.meaning,
+            style = MaterialTheme.typography.bodyLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
         )
 
         val autoPlayEnabled = remember { androidx.compose.runtime.mutableStateOf(true) } // MOCK

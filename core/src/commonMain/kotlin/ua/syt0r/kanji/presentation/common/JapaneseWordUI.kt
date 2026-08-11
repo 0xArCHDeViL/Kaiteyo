@@ -2,8 +2,6 @@ package ua.syt0r.kanji.presentation.common
 import androidx.compose.ui.unit.dp
 
 import androidx.compose.foundation.clickable
-import ua.syt0r.kanji.presentation.common.ui.AppListItem
-import ua.syt0r.kanji.presentation.common.ui.AppListItemDefaults
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box

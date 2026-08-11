@@ -228,8 +228,7 @@ private fun IndicatorTextRow(
         Text(
             text = buildAnnotatedString {
                 withStyle(
-                    androidx.compose.material3.MaterialTheme.typography.bodyMedium,
-                    .toSpanStyle().copy(fontWeight = FontWeight.Light)
+                    androidx.compose.material3.MaterialTheme.typography.bodyMedium.toSpanStyle().copy(fontWeight = FontWeight.Light)
                 ) { append(text) }
             },
             modifier = Modifier.alignByBaseline()
