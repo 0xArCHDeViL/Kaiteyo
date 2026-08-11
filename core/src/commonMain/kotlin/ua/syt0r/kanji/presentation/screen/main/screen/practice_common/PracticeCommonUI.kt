@@ -351,7 +351,7 @@ fun PracticeConfigurationItemsSelector(
         Text(text = 1.toString())
 
         val colors = SliderDefaults.colors(
-            activeTrackColor = MaterialTheme.colorScheme.surfaceVariant,
+            activeTrackColor = MaterialTheme.colorScheme.primary,
             inactiveTrackColor = MaterialTheme.colorScheme.surfaceVariant,
             activeTickColor = MaterialTheme.colorScheme.primary,
             inactiveTickColor = MaterialTheme.colorScheme.primary
@@ -378,7 +378,7 @@ fun PracticeConfigurationItemsSelector(
                 SliderDefaults.Thumb(
                     interactionSource = remember { MutableInteractionSource() },
                     colors = colors,
-                    thumbSize = DpSize(6.dp, 30.dp)
+                    thumbSize = DpSize(20.dp, 20.dp)
                 )
             }
         )

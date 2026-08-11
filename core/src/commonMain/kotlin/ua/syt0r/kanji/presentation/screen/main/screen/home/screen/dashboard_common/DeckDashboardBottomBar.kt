@@ -19,6 +19,7 @@ import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
@@ -133,14 +134,14 @@ private fun DeckDashboardBottomBarLayout(
 
             fabContent()
 
-            Box(
+            Surface(
                 modifier = Modifier
                     .fillMaxSize()
-                    .background(MaterialTheme.colorScheme.surface)
-                    .clickable(false) { } // Prevents clicks from passing through
-            ) {
-                HorizontalDivider(Modifier.width(380.dp).align(Alignment.TopCenter))
-            }
+                    .padding(horizontal = 24.dp, vertical = 12.dp),
+                shape = MaterialTheme.shapes.extraLarge,
+                color = MaterialTheme.colorScheme.surfaceVariant,
+                shadowElevation = 8.dp
+            ) {}
         }
     ) { measurables, constraints ->
 

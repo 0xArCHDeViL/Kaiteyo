@@ -73,6 +73,8 @@ fun VocabDeckEditingUI(
 
         LazyVerticalGrid(
             columns = GridCells.Adaptive(400.dp),
+            verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(8.dp),
+            horizontalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(8.dp),
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(1f)
