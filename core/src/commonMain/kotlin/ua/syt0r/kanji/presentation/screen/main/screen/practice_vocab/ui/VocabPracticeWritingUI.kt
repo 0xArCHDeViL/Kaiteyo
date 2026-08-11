@@ -251,8 +251,8 @@ private fun Progress(
         }
 
         ua.syt0r.kanji.presentation.common.ui.FuriganaText(
-            text = reviewState.summaryReading,
-            style = MaterialTheme.typography.headlineMedium
+            furiganaString = reviewState.summaryReading,
+            textStyle = MaterialTheme.typography.headlineMedium
         )
         Text(
             text = reviewState.meaning,
