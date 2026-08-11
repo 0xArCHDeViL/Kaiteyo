@@ -183,8 +183,7 @@ private fun VocabReadingSection(word: JapaneseWord) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 20.dp)
-            .padding(bottom = 8.dp),
+            .padding(top = 24.dp, bottom = 8.dp, start = 20.dp, end = 20.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 

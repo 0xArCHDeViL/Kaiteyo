@@ -88,7 +88,6 @@ fun RadicalSearch(
         modifier = Modifier.fillMaxWidth()
     ) {
 
-        BottomSheetDefaults.DragHandle(Modifier.align(Alignment.CenterHorizontally))
         Header(selectedRadicals)
         LoadingIndicator(loadingState = remember { derivedStateOf { state.value.isLoading } })
 
@@ -247,12 +246,6 @@ private fun Header(selectedRadicalsState: MutableState<Set<String>>) {
                         )
                     }
                 }
-                IconButton(
-                    onClick = { selectedRadicalsState.value = emptySet() }
-                ) {
-                    Icon(Icons.Default.Close, null)
-                }
-
             }
 
         }

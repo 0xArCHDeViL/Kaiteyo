@@ -25,6 +25,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -246,7 +247,7 @@ fun KanjiBrowserScreen(
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
 
-    Column(modifier = Modifier.fillMaxSize()) {
+    Column(modifier = Modifier.fillMaxSize().systemBarsPadding()) {
         // Header
         BrowserHeader(
             query = query,
@@ -602,6 +603,8 @@ private fun SelectionToolbar(
     Row(
         modifier = Modifier
             .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 8.dp)
+            .clip(RoundedCornerShape(Dimens.RadiusLg))
             .background(surfaceColors.surfaceElevated)
             .padding(horizontal = 16.dp, vertical = 10.dp),
         verticalAlignment = Alignment.CenterVertically,

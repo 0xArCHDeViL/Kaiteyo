@@ -26,6 +26,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
@@ -103,7 +104,7 @@ fun ThemeStudio() {
     val surfaceColors = LocalSurfaceColors.current
     var selectedTabIndex by remember { mutableIntStateOf(0) }
 
-    Row(modifier = Modifier.fillMaxSize().padding(12.dp)) {
+    Row(modifier = Modifier.fillMaxSize().systemBarsPadding().padding(12.dp)) {
         Column(modifier = Modifier.width(480.dp).fillMaxHeight()) {
             Text("Theme Studio", style = MaterialTheme.typography.titleLarge,
                 color = surfaceColors.textPrimary, fontWeight = FontWeight.Bold,
@@ -936,8 +937,8 @@ private fun LivePreviewPanel() {
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                     listOf("23", "156", "89").forEachIndexed { i, value ->
                         Column(modifier = Modifier.weight(1f).clip(RoundedCornerShape(Dimens.RadiusSm)).background(previewSurface.surfaceElevated).padding(6.dp)) {
-                            Text(value, color = currentAccent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold)
-                            Text(listOf("Learning", "Review", "Mastered")[i], color = previewSurface.textMuted, fontSize = 7.sp)
+                            Text(value, color = currentAccent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Visible)
+                            Text(listOf("Learning", "Review", "Mastered")[i], color = previewSurface.textMuted, fontSize = 7.sp, maxLines = 1, overflow = TextOverflow.Visible)
                         }
                     }
                 }

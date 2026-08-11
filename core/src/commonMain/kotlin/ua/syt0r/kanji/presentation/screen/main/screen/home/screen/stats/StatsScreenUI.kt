@@ -78,12 +78,10 @@ private fun LoadedState(screenState: ScreenState.Loaded) {
     val orientation = LocalOrientation.current
 
     LazyVerticalStaggeredGrid(
-        columns = StaggeredGridCells.Fixed(2),
+        columns = StaggeredGridCells.Adaptive(150.dp),
         horizontalArrangement = Arrangement.spacedBy(12.dp),
         verticalItemSpacing = 12.dp,
         modifier = Modifier.fillMaxSize()
-            .wrapContentWidth()
-            .widthIn(max = 400.dp)
             .padding(horizontal = 20.dp)
     ) {
 
