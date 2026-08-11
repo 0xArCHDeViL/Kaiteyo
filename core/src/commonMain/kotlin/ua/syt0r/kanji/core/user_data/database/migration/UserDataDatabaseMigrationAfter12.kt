@@ -11,9 +11,9 @@ import ua.syt0r.kanji.core.user_data.database.UserDataDatabaseContract
  * New tables are created via UserData_enhancements.sq (SQLDelight handles CREATE TABLE IF NOT EXISTS).
  * This migration handles the ALTER TABLE statements that SQLDelight cannot parse.
  */
-class UserDataDatabaseMigrationAfter13 : UserDataDatabaseContract.Migration {
+class UserDataDatabaseMigrationAfter12 : UserDataDatabaseContract.Migration {
 
-    override val version: Long = 13
+    override val version: Long = 12
 
     override suspend fun execute(driver: SqlDriver) {
         // --- Add new columns to fsrs_card ---
