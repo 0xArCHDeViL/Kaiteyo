@@ -92,9 +92,9 @@ fun LetterPracticeWritingUI(
     val scaffoldState = rememberBottomSheetScaffoldState()
     val coroutineScope = rememberCoroutineScope()
 
-    if (scaffoldState.bottomSheetState.isExpanded) {
+    if (scaffoldState.bottomSheetState.currentValue == androidx.compose.material3.SheetValue.Expanded) {
         MultiplatformBackHandler {
-            coroutineScope.launch { scaffoldState.bottomSheetState.collapse() }
+            coroutineScope.launch { scaffoldState.bottomSheetState.partialExpand() }
         }
     }
 
@@ -118,7 +118,7 @@ fun LetterPracticeWritingUI(
     }
 
     val hideBottomSheet: () -> Unit = {
-        coroutineScope.launch { scaffoldState.bottomSheetState.collapse() }
+        coroutineScope.launch { scaffoldState.bottomSheetState.partialExpand() }
     }
 
     val answersSection: @Composable (Modifier) -> Unit = { modifier ->

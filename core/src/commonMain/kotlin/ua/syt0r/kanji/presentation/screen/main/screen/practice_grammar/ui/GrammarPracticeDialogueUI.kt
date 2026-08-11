@@ -39,10 +39,11 @@ fun GrammarPracticeDialogueUI(
             modifier = Modifier.fillMaxWidth()
         ) {
             FormulaText(
-                                text = state.title,
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.ExtraBold,
-                color = MaterialTheme.colorScheme.primary
+                text = state.title,
+                style = MaterialTheme.typography.titleLarge.copy(
+                    fontWeight = FontWeight.ExtraBold,
+                    color = MaterialTheme.colorScheme.primary
+                )
             )
             Spacer(modifier = Modifier.height(Dimens.Space2))
             Surface(

@@ -37,10 +37,11 @@ fun GrammarPracticeClozeUI(
     ) {
 
         FormulaText(
-                                text = state.title,
-            style = MaterialTheme.typography.titleMedium,
-            color = MaterialTheme.colorScheme.primary,
-            fontWeight = FontWeight.Bold
+            text = state.title,
+            style = MaterialTheme.typography.titleMedium.copy(
+                color = MaterialTheme.colorScheme.primary,
+                fontWeight = FontWeight.Bold
+            )
         )
 
         Spacer(modifier = Modifier.height(Dimens.Space4))

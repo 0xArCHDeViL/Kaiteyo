@@ -68,11 +68,13 @@ fun GrammarPracticeFlashcardUI(
                         verticalArrangement = Arrangement.Center
                     ) {
                         FormulaText(
-                                text = state.title,
-                            style = MaterialTheme.typography.headlineLarge,
-                            fontWeight = FontWeight.ExtraBold,
-                            color = MaterialTheme.colorScheme.primary,
-                            textAlign = TextAlign.Center
+                            text = state.title,
+                            style = MaterialTheme.typography.headlineLarge.copy(
+                                fontWeight = FontWeight.ExtraBold,
+                                color = MaterialTheme.colorScheme.primary,
+                                textAlign = TextAlign.Center
+                            ),
+                            modifier = Modifier.fillMaxWidth()
                         )
 
                         Spacer(modifier = Modifier.height(Dimens.Space6))
@@ -115,7 +117,6 @@ fun GrammarPracticeFlashcardUI(
                                             )
                                         }
                                     }
-                                }
                                 }
                             }
                         }

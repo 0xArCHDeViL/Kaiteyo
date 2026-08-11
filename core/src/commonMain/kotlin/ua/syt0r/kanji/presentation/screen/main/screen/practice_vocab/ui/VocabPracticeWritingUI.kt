@@ -1,5 +1,6 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.ui
 
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.ui.KanaVoiceMenu
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.Crossfade
@@ -255,7 +256,7 @@ private fun Progress(
         )
 
         val autoPlayEnabled = remember { androidx.compose.runtime.mutableStateOf(true) } // MOCK
-        ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.ui.KanaVoiceMenu(
+        KanaVoiceMenu(
             autoPlayEnabled = autoPlayEnabled,
             clickable = revealAnswer.value,
             onAutoPlayToggleClick = { autoPlayEnabled.value = !autoPlayEnabled.value },

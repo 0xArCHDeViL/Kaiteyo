@@ -42,11 +42,11 @@ class DefaultGetGrammarPracticeConjugationDataUseCase : GetGrammarPracticeConjug
     
     private fun getVerbConjugation(chapterId: Int, formula: String): Triple<String, String, String> {
         val verbs = listOf(
-            Triple("たべる", "Makan (Bentuk Kamus)"),
-            Triple("いく", "Pergi (Bentuk Kamus)"),
-            Triple("のむ", "Minum (Bentuk Kamus)"),
-            Triple("する", "Melakukan (Bentuk Kamus)"),
-            Triple("くる", "Datang (Bentuk Kamus)")
+            Pair("たべる", "Makan (Bentuk Kamus)"),
+            Pair("いく", "Pergi (Bentuk Kamus)"),
+            Pair("のむ", "Minum (Bentuk Kamus)"),
+            Pair("する", "Melakukan (Bentuk Kamus)"),
+            Pair("くる", "Datang (Bentuk Kamus)")
         )
         val verb = verbs.random()
         val dict = verb.first

@@ -693,10 +693,10 @@ private fun HeaderStatItem(title: String, text: String, modifier: Modifier = Mod
         Text(
             text = text,
             color = MaterialTheme.colorScheme.primary,
-            style = androidx.compose.material3.MaterialTheme.typography.headlineMedium,
-            fontWeight = FontWeight.Black,
-            textAlign = TextAlign.Center,
-            style = MaterialTheme.typography.headlineMedium
+            style = MaterialTheme.typography.headlineMedium.copy(
+                fontWeight = FontWeight.Black,
+                textAlign = TextAlign.Center
+            )
         )
         Spacer(Modifier.height(8.dp))
         Text(

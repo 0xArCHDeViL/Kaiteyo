@@ -483,9 +483,10 @@ private fun ColorEditorTab() {
             BasicTextField(
                 value = TextFieldValue(hexValue),
                 onValueChange = { hexValue = it.text.take(6).uppercase() },
-                textStyle = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
-                    fontWeight = FontWeight.Medium
-                .copy(color = surfaceColors.textPrimary),
+                textStyle = androidx.compose.material3.MaterialTheme.typography.bodyMedium.copy(
+                    fontWeight = FontWeight.Medium,
+                    color = surfaceColors.textPrimary
+                ),
                 singleLine = true,
                 modifier = Modifier.width(100.dp)
             )
