@@ -120,6 +120,8 @@ fun LetterDeckEditingUI(
 
         LazyVerticalGrid(
             columns = GridCells.Adaptive(50.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
             modifier = Modifier.fillMaxWidth()
                 .onGloballyPositioned { extraListSpacerState.updateList(it) }
                 .nestedScroll(collapsibleContainerState.nestedScrollConnection)

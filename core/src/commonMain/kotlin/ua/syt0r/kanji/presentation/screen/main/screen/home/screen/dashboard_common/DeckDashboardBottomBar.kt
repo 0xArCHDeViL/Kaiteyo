@@ -5,12 +5,14 @@ import androidx.compose.animation.scaleIn
 import androidx.compose.animation.scaleOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ArrowDropDown
@@ -19,7 +21,6 @@ import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
@@ -30,6 +31,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -38,6 +40,7 @@ import ua.syt0r.kanji.presentation.common.ScreenLetterPracticeType
 import ua.syt0r.kanji.presentation.common.ScreenPracticeType
 import ua.syt0r.kanji.presentation.common.ScreenVocabPracticeType
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 import kotlin.math.max
 
 data class DeckDashboardPracticeTypeItem<T : ScreenPracticeType>(
@@ -122,70 +125,38 @@ private fun DeckDashboardBottomBarLayout(
     fabContent: @Composable () -> Unit,
     modifier: Modifier
 ) {
-
-    Layout(
-        modifier = modifier,
-        content = {
-            Box(
-                modifier = Modifier.padding(vertical = ExtraBackgroundVerticalPadding)
-            ) {
-                centralContent()
-            }
-
-            fabContent()
-
-            Surface(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(horizontal = 24.dp, vertical = 12.dp),
-                shape = MaterialTheme.shapes.extraLarge,
-                color = MaterialTheme.colorScheme.surfaceVariant,
-                shadowElevation = 8.dp
-            ) {}
-        }
-    ) { measurables, constraints ->
-
-        val fabPadding = 20.dp.roundToPx()
-
-        val indicatorPlaceable = measurables[0].measure(constraints.copy(minWidth = 0))
-        val fabPlaceable = measurables[1].measure(constraints.copy(minWidth = 0))
-        val backgroundPlaceable = measurables[2].measure(
-            constraints.copy(maxHeight = indicatorPlaceable.height)
-        )
-
-        val availableWidth = constraints.maxWidth
-        val minWidthIfSingleLine = availableWidth / 2 + indicatorPlaceable.width / 2 +
-                fabPlaceable.width + fabPadding * 2
-
-        val fitsSingleLine = availableWidth > minWidthIfSingleLine
-
-        val height: Int = when {
-            fitsSingleLine -> max(indicatorPlaceable.height, fabPlaceable.height + fabPadding)
-            else -> indicatorPlaceable.height + fabPadding + fabPlaceable.height
-        }
-
-        val indicatorY = height - indicatorPlaceable.height
-
-        layout(
-            width = availableWidth,
-            height = height
+    Box(
+        modifier = modifier.padding(horizontal = 24.dp, vertical = 16.dp)
+    ) {
+        // The background floating bar
+        Row(
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .fillMaxWidth()
+                .shadow(
+                    elevation = 12.dp,
+                    shape = CircleShape,
+                    spotColor = MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Medium)
+                )
+                .border(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Medium), CircleShape)
+                .clip(CircleShape)
+                .background(MaterialTheme.colorScheme.surfaceVariant)
+                .clickable(false) {}
+                .padding(vertical = ExtraBackgroundVerticalPadding),
+            verticalAlignment = Alignment.CenterVertically
         ) {
-
-            backgroundPlaceable.place(
-                x = 0,
-                y = indicatorY
-            )
-
-            fabPlaceable.place(
-                x = constraints.maxWidth - fabPlaceable.width - fabPadding,
-                y = 0
-            )
-
-            indicatorPlaceable.place(
-                x = availableWidth / 2 - indicatorPlaceable.width / 2,
-                y = indicatorY
-            )
-
+            Box(Modifier.weight(1f)) {
+                Box(Modifier.align(Alignment.Center)) {
+                    centralContent()
+                }
+            }
+        }
+        
+        // The FAB overlapping slightly or sitting on the right
+        Box(
+            modifier = Modifier.align(Alignment.CenterEnd).padding(end = 8.dp)
+        ) {
+            fabContent()
         }
     }
 }

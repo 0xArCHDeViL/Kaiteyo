@@ -197,12 +197,6 @@ private fun LibraryHub(
         item(key = "header") {
             Column(Modifier.padding(top = 8.dp, bottom = 2.dp)) {
                 Text(
-                    text = "Library",
-                    color = surfaceColors.textPrimary,
-                    fontSize = 26.sp,
-                    fontWeight = FontWeight.Bold
-                )
-                Text(
                     text = "Your study hub — everything in one place",
                     color = surfaceColors.textMuted,
                     style = androidx.compose.material3.MaterialTheme.typography.bodySmall

@@ -348,11 +348,6 @@ private fun RowScope.VerticalTabButton(
         contentAlignment = Alignment.Center,
         modifier = Modifier
             .weight(1f)
-            .graphicsLayer {
-                scaleX = scale
-                scaleY = scale
-                this.translationY = translationY
-            }
             .height(56.dp)
             .clip(CircleShape)
             .background(backgroundColor)
@@ -363,8 +358,16 @@ private fun RowScope.VerticalTabButton(
             )
             .testTag(tab.buttonTestTag)
     ) {
-        CompositionLocalProvider(LocalContentColor provides contentColor) {
-            tab.iconContent()
+        Box(
+            modifier = Modifier.graphicsLayer {
+                scaleX = scale
+                scaleY = scale
+                this.translationY = translationY
+            }
+        ) {
+            CompositionLocalProvider(LocalContentColor provides contentColor) {
+                tab.iconContent()
+            }
         }
     }
 }

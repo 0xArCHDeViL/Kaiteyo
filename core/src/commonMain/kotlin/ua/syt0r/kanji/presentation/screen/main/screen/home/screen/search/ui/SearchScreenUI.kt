@@ -143,26 +143,21 @@ fun SearchScreenUI(
             )
         }
 
-        AnimatedVisibility(
-            visible = showRadicalSearch,
-            enter = fadeIn(spring(stiffness = Spring.StiffnessLow)) + scaleIn(initialScale = 0.95f, animationSpec = spring(dampingRatio = Spring.DampingRatioLowBouncy, stiffness = Spring.StiffnessLow)),
-            exit = fadeOut(spring(stiffness = Spring.StiffnessLow)) + scaleOut(targetScale = 0.95f, animationSpec = spring(stiffness = Spring.StiffnessLow)),
-            modifier = Modifier.fillMaxSize()
-        ) {
-            Box(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .background(MaterialTheme.colorScheme.scrim.copy(alpha = 0.32f))
-                    .clickable(
-                        interactionSource = remember { MutableInteractionSource() },
-                        indication = null
-                    ) { showRadicalSearch = false },
-                contentAlignment = Alignment.Center
+        if (showRadicalSearch) {
+            androidx.compose.ui.window.Dialog(
+                onDismissRequest = { showRadicalSearch = false },
+                properties = androidx.compose.ui.window.DialogProperties(usePlatformDefaultWidth = false)
             ) {
                 Box(
                     modifier = Modifier
                         .fillMaxWidth(0.92f)
                         .fillMaxHeight(0.85f)
+                        .shadow(
+                            elevation = 16.dp,
+                            shape = RoundedCornerShape(Dimens.Radius2xl),
+                            ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Subtle),
+                            spotColor = MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Light)
+                        )
                         .clip(RoundedCornerShape(Dimens.Radius2xl))
                         .background(MaterialTheme.colorScheme.surface)
                         .clickable(

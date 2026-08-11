@@ -350,11 +350,15 @@ fun PracticeConfigurationItemsSelector(
 
         Text(text = 1.toString())
 
+        val accent = LocalKaiteyoAccent.current
+        val surfaceColors = LocalSurfaceColors.current
+        
         val colors = SliderDefaults.colors(
-            activeTrackColor = MaterialTheme.colorScheme.primary,
-            inactiveTrackColor = MaterialTheme.colorScheme.surfaceVariant,
-            activeTickColor = MaterialTheme.colorScheme.primary,
-            inactiveTickColor = MaterialTheme.colorScheme.primary
+            activeTrackColor = accent.primary,
+            inactiveTrackColor = surfaceColors.border,
+            activeTickColor = accent.primary,
+            inactiveTickColor = surfaceColors.textMuted.copy(alpha = Dimens.Alpha.Medium),
+            thumbColor = accent.primary
         )
 
         Slider(
@@ -378,7 +382,7 @@ fun PracticeConfigurationItemsSelector(
                 SliderDefaults.Thumb(
                     interactionSource = remember { MutableInteractionSource() },
                     colors = colors,
-                    thumbSize = DpSize(20.dp, 20.dp)
+                    thumbSize = DpSize(6.dp, 30.dp)
                 )
             }
         )
