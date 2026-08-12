@@ -22,6 +22,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.ui.unit.dp
+import ua.syt0r.kanji.core.grammar.GrammarMarkup
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.FormulaText
@@ -85,8 +86,8 @@ fun GrammarPracticeFlashcardUI(
                                 modifier = Modifier
                             )
                             Spacer(modifier = Modifier.width(Dimens.Space2))
-                            IconButton(onClick = { onVoiceClick(state.title.replace("~", "")) }) {
-                                Icon(Icons.Default.VolumeUp, contentDescription = "Play title voice")
+                            IconButton(onClick = { onVoiceClick(GrammarMarkup.japaneseSpeechText(state.title)) }) {
+                                Icon(Icons.Default.VolumeUp, contentDescription = "Dengarkan judul")
                             }
                         }
 
@@ -135,12 +136,11 @@ fun GrammarPracticeFlashcardUI(
                                                 )
                                                 IconButton(
                                                     onClick = {
-                                                        val jpText = example.split("\n").firstOrNull() ?: example
-                                                        onVoiceClick(jpText)
+                                                        onVoiceClick(GrammarMarkup.japaneseSpeechText(example))
                                                     },
                                                     modifier = Modifier.padding(end = Dimens.Space2)
                                                 ) {
-                                                    Icon(Icons.Default.VolumeUp, contentDescription = "Play example voice")
+                                                    Icon(Icons.Default.VolumeUp, contentDescription = "Dengarkan contoh")
                                                 }
                                             }
                                         }

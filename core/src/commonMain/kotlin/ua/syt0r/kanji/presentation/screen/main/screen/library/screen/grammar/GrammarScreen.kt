@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar
 
+import ua.syt0r.kanji.core.grammar.GrammarMarkup
+import ua.syt0r.kanji.core.grammar.GrammarQuestionEngine
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.AnimatedVisibility
@@ -37,32 +39,23 @@ import androidx.compose.material.icons.filled.Book
 import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.KeyboardArrowDown
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.IO
-import kotlinx.coroutines.withContext
-import kotlinx.serialization.json.Json
-import org.jetbrains.compose.resources.ExperimentalResourceApi
-import ua.syt0r.kanji.Res
+import org.koin.compose.koinInject
 import ua.syt0r.kanji.presentation.common.ui.FancyLoading
 import ua.syt0r.kanji.presentation.screen.main.MainDestination
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeScreenConfiguration
 
-@OptIn(ExperimentalResourceApi::class)
 @Composable
 fun GrammarScreen(
     onNavigateBack: () -> Unit,
     onNavigateToPractice: (MainDestination.GrammarPractice) -> Unit
 ) {
+    val contentRepository = koinInject<ua.syt0r.kanji.core.grammar.GrammarContentRepository>()
+    val questionEngine = koinInject<GrammarQuestionEngine>()
     var chapters by remember { mutableStateOf<List<GrammarChapter>?>(null) }
     var selectedChapter by remember { mutableStateOf<GrammarChapter?>(null) }
 
-    LaunchedEffect(Unit) {
-        withContext(Dispatchers.IO) {
-            val bytes = Res.readBytes("files/bunpou_data.json")
-            val jsonString = bytes.decodeToString()
-            val parsedChapters = Json.decodeFromString<List<GrammarChapter>>(jsonString)
-            chapters = parsedChapters
-        }
+    LaunchedEffect(contentRepository) {
+        chapters = contentRepository.chapters()
     }
 
     Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
@@ -103,29 +96,28 @@ fun GrammarScreen(
                                 val chapter = selectedChapter!!
                                 val config = GrammarPracticeScreenConfiguration(
                                     deckId = chapter.id.toLong(),
-                                    items = chapter.points.flatMap {
-                                        listOf(
-                                            GrammarPracticeScreenConfiguration.Item.Flashcard(
-                                                pointNumber = it.number,
-                                                showMeaningInFront = false
-                                            ),
-                                            GrammarPracticeScreenConfiguration.Item.Cloze(
-                                                pointNumber = it.number
-                                            ),
-                                            GrammarPracticeScreenConfiguration.Item.ConjugationBuilder(
-                                                pointNumber = it.number
-                                            ),
-                                            GrammarPracticeScreenConfiguration.Item.SentenceScramble(
-                                                pointNumber = it.number
+                                    items = chapter.points.flatMap { point ->
+                                        buildList {
+                                            add(
+                                                GrammarPracticeScreenConfiguration.Item.Flashcard(
+                                                    pointNumber = point.number,
+                                                    showMeaningInFront = false,
+                                                )
                                             )
-                                        )
-                                    } + if (chapter.points.isNotEmpty()) {
-                                        listOf(
-                                            GrammarPracticeScreenConfiguration.Item.SurvivalDialogue(
-                                                pointNumber = chapter.points.last().number
-                                            )
-                                        )
-                                    } else emptyList()
+                                            if (questionEngine.supportsCloze(point)) {
+                                                add(GrammarPracticeScreenConfiguration.Item.Cloze(point.number))
+                                            }
+                                            if (questionEngine.supportsConjugation(point)) {
+                                                add(GrammarPracticeScreenConfiguration.Item.ConjugationBuilder(point.number))
+                                            }
+                                            if (questionEngine.supportsScramble(point)) {
+                                                add(GrammarPracticeScreenConfiguration.Item.SentenceScramble(point.number))
+                                            }
+                                            if (questionEngine.supportsDialogue(point)) {
+                                                add(GrammarPracticeScreenConfiguration.Item.SurvivalDialogue(point.number))
+                                            }
+                                        }
+                                    }
                                 )
                                 onNavigateToPractice(MainDestination.GrammarPractice(config))
                             },
@@ -382,37 +374,21 @@ fun FormulaText(
     modifier: Modifier = Modifier,
     style: androidx.compose.ui.text.TextStyle = MaterialTheme.typography.bodyLarge
 ) {
-    // Simple parser for ~~strikethrough~~
-    val parts = text.split("~~")
-    var isStrikethrough = false
-    
-    // We use a Row with FlowRow-like wrap or simply an AnnotatedString.
-    // Actually, AnnotatedString is much better!
     androidx.compose.material3.Text(
         text = androidx.compose.ui.text.buildAnnotatedString {
-            parts.forEachIndexed { index, part ->
-                if (index % 2 != 0) { // It's inside ~~ ~~
-                    withStyle(
-                        style = androidx.compose.ui.text.SpanStyle(
-                            textDecoration = TextDecoration.LineThrough,
-                            color = MaterialTheme.colorScheme.error,
-                            fontWeight = FontWeight.Bold
-                        )
-                    ) {
-                        append(part)
-                    }
-                } else {
-                    withStyle(
-                        style = androidx.compose.ui.text.SpanStyle(
-                            fontWeight = FontWeight.SemiBold
-                        )
-                    ) {
-                        append(part)
-                    }
+            GrammarMarkup.parse(text).forEach { segment ->
+                withStyle(
+                    style = androidx.compose.ui.text.SpanStyle(
+                        textDecoration = if (segment.struck) TextDecoration.LineThrough else null,
+                        color = if (segment.struck) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurface,
+                        fontWeight = if (segment.struck) FontWeight.Bold else FontWeight.SemiBold,
+                    )
+                ) {
+                    append(segment.text)
                 }
             }
         },
         style = style,
-        modifier = modifier.padding(bottom = 4.dp)
+        modifier = modifier.padding(bottom = 4.dp),
     )
 }

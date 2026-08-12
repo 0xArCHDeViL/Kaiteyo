@@ -114,24 +114,12 @@ fun GrammarPracticeDialogueUI(
                     }
                 }
             } else {
-                Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    val color = if (isCorrect) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
-                    Text(
-                        text = if (isCorrect) "Spot on!" else "Oops! That doesn't fit the context.",
-                        style = MaterialTheme.typography.headlineSmall,
-                        fontWeight = FontWeight.Bold,
-                        color = color,
-                        textAlign = TextAlign.Center
-                    )
-                    Spacer(modifier = Modifier.height(Dimens.Space8))
-                    Button(
-                        onClick = onNext,
-                        modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
-                        shape = MaterialTheme.shapes.large
-                    ) {
-                        Text("Continue", style = MaterialTheme.typography.titleMedium)
-                    }
-                }
+                GrammarPracticeFeedback(
+                    isCorrect = isCorrect,
+                    expectedAnswer = state.options[state.correctAnswerIndex],
+                    onNext = onNext,
+                    onVoiceClick = onVoiceClick,
+                )
             }
         }
     }

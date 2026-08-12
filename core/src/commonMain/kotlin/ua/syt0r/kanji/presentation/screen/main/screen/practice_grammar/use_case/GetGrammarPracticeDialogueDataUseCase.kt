@@ -1,9 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case
 
-import kotlinx.serialization.json.Json
-import org.jetbrains.compose.resources.ExperimentalResourceApi
-import ua.syt0r.kanji.Res
-import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarChapter
+import ua.syt0r.kanji.core.grammar.GrammarContentRepository
+import ua.syt0r.kanji.core.grammar.GrammarQuestionEngine
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeItemData
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueItemDescriptor
 
@@ -11,58 +9,27 @@ interface GetGrammarPracticeDialogueDataUseCase {
     suspend operator fun invoke(descriptor: GrammarPracticeQueueItemDescriptor.SurvivalDialogue): GrammarPracticeItemData.SurvivalDialogue
 }
 
-class DefaultGetGrammarPracticeDialogueDataUseCase : GetGrammarPracticeDialogueDataUseCase {
-    @OptIn(ExperimentalResourceApi::class)
+class DefaultGetGrammarPracticeDialogueDataUseCase(
+    private val contentRepository: GrammarContentRepository,
+    private val questionEngine: GrammarQuestionEngine,
+) : GetGrammarPracticeDialogueDataUseCase {
+
     override suspend fun invoke(descriptor: GrammarPracticeQueueItemDescriptor.SurvivalDialogue): GrammarPracticeItemData.SurvivalDialogue {
-        val bytes = Res.readBytes("files/bunpou_data.json")
-        val jsonString = bytes.decodeToString()
-        val chapters = Json.decodeFromString<List<GrammarChapter>>(jsonString)
-
-        val chapter = chapters.first { it.id.toLong() == descriptor.deckId }
-        val point = chapter.points.first { it.number == descriptor.pointNumber }
-
-        // Mock Dialogue logic for Milestone 3
-        val rawExample = point.examples.firstOrNull() ?: "Example missing. Contoh hilang."
-        val splitIndex = rawExample.indexOf("。")
-        val (japanese, _) = if (splitIndex != -1 && splitIndex < rawExample.length - 1) {
-            rawExample.substring(0, splitIndex + 1) to rawExample.substring(splitIndex + 1).trim()
-        } else {
-            rawExample to ""
-        }
-
-        val dialogueLines = listOf(
-            "Sensei" to "こんにちは！",
-            "You" to japanese, // The target grammar point usage
-            "Sensei" to "なるほどね！"
-        )
-        
-        val distractors = listOf(
-            "それは ちょっと...",
-            "わかりません。",
-            "いいえ、ちがいます。",
-            "そうですね。",
-            "とても いい です。",
-            "だめ です。",
-            "もちろん です。"
-        ).shuffled()
-        
-        val options = listOf(
-            japanese, // Correct
-            distractors[0],
-            distractors[1]
-        ).shuffled()
-        
-        val correctIndex = options.indexOf(japanese)
-        
+        val chapter = contentRepository.findChapter(descriptor.deckId)
+            ?: error("Grammar chapter ${descriptor.deckId} not found")
+        val point = chapter.points.firstOrNull { it.number == descriptor.pointNumber }
+            ?: error("Grammar point ${descriptor.pointNumber} not found")
+        val question = questionEngine.dialogue(point, seedFor(descriptor))
+            ?: error("No validated dialogue question for ${point.number}")
         return GrammarPracticeItemData.SurvivalDialogue(
-            title = "Survival Dialogue: ${chapter.title}",
-            context = "Respond to the teacher using the grammar point you learned: ${point.formulaTitle}",
-            dialogueLines = dialogueLines.map { (speaker, text) -> 
-                if (text == japanese) speaker to "..." // Hide the answer in the dialogue
-                else speaker to text 
-            },
-            options = options,
-            correctAnswerIndex = correctIndex
+            title = "Dialog — ${chapter.title}",
+            context = question.context,
+            dialogueLines = question.lines,
+            options = question.options,
+            correctAnswerIndex = question.options.indexOf(question.answer),
         )
     }
+
+    private fun seedFor(descriptor: GrammarPracticeQueueItemDescriptor.SurvivalDialogue): Int =
+        (descriptor.deckId * 43 + descriptor.pointNumber.hashCode()).toInt()
 }

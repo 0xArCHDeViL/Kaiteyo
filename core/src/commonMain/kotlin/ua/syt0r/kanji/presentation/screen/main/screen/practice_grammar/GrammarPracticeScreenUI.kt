@@ -1,7 +1,9 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -13,6 +15,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.Gramma
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeConjugationUI
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeScrambleUI
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeDialogueUI
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeProgressHeader
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 
 @Composable
@@ -21,8 +24,13 @@ fun GrammarPracticeScreenUI(
     onEvent: (GrammarPracticeScreenContract.Event) -> Unit,
     onNavigateBack: () -> Unit
 ) {
-    Box(modifier = Modifier.fillMaxSize()) {
-        when (val queueState = state.queueState) {
+    Column(modifier = Modifier.fillMaxSize()) {
+        val activeQueueState = state.queueState
+        if (activeQueueState is GrammarPracticeQueueState.Review) {
+            GrammarPracticeProgressHeader(progress = activeQueueState.progress)
+        }
+        Box(modifier = Modifier.fillMaxWidth().weight(1f)) {
+            when (val queueState = activeQueueState) {
             is GrammarPracticeQueueState.Loading -> {
                 FancyLoading(Modifier.align(Alignment.Center))
             }
@@ -109,9 +117,10 @@ fun GrammarPracticeScreenUI(
             }
             is GrammarPracticeQueueState.Summary -> {
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    Text("Practice Complete! Duration: ${queueState.duration}")
+                    Text("Latihan selesai\nDurasi: ${queueState.duration}")
                 }
             }
+        }
         }
     }
 }

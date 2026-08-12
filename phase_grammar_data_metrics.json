@@ -1,0 +1,88 @@
+{
+  "chapters": 10,
+  "points": 161,
+  "examples": 348,
+  "points_without_examples": 1,
+  "formula_titles_with_strike_markers": 56,
+  "formula_titles_with_unbalanced_markers": 0,
+  "examples_with_newline": 270,
+  "examples_with_full_stop": 292,
+  "examples_with_space_in_japanese_segment": 309,
+  "examples_without_clear_japanese_indonesian_split": 21
+}
+CHAPTERS
+[
+  {
+    "id": 1,
+    "title": "BAB-1",
+    "points": 10,
+    "examples": 26
+  },
+  {
+    "id": 2,
+    "title": "BAB-2",
+    "points": 8,
+    "examples": 20
+  },
+  {
+    "id": 3,
+    "title": "BAB-3",
+    "points": 15,
+    "examples": 33
+  },
+  {
+    "id": 4,
+    "title": "BAB-4",
+    "points": 15,
+    "examples": 33
+  },
+  {
+    "id": 5,
+    "title": "BAB-5",
+    "points": 15,
+    "examples": 34
+  },
+  {
+    "id": 6,
+    "title": "BAB-6",
+    "points": 17,
+    "examples": 39
+  },
+  {
+    "id": 7,
+    "title": "BAB-7",
+    "points": 23,
+    "examples": 48
+  },
+  {
+    "id": 8,
+    "title": "BAB-8",
+    "points": 20,
+    "examples": 38
+  },
+  {
+    "id": 9,
+    "title": "BAB-9",
+    "points": 17,
+    "examples": 40
+  },
+  {
+    "id": 10,
+    "title": "BAB-10",
+    "points": 21,
+    "examples": 37
+  }
+]
+MARKER_SAMPLES
+[
+  "〜は KS ~~い~~ くないです",
+  "〜は KS ~~な~~ じゃないです",
+  "KS ~~い~~ く／KS ~~な~~ に ＋なります",
+  "KS ~~い~~ く／KS ~~な~~ に ＋します",
+  "KS ~~い~~ かった です／KS ~~い~~ くなかった です",
+  "KS ~~な~~ でした／KS ~~な~~ じゃなかった です",
+  "KK ~~ます~~ て ください",
+  "KB〜で KK ~~ます~~ てください",
+  "KK ~~ます~~ て くれませんか",
+  "〜に 〜を KK ~~ます~~ て あげます"
+]

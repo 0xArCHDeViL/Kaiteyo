@@ -6,6 +6,9 @@ import kotlinx.coroutines.IO
 import org.koin.core.module.Module
 import org.koin.core.module.dsl.factoryOf
 import org.koin.dsl.module
+import ua.syt0r.kanji.core.grammar.DefaultGrammarContentRepository
+import ua.syt0r.kanji.core.grammar.GrammarContentRepository
+import ua.syt0r.kanji.core.grammar.GrammarQuestionEngine
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueItemDescriptor
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.DefaultGetGrammarPracticeFlashcardDataUseCase
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeFlashcardDataUseCase
@@ -20,24 +23,41 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.
 
 val grammarPracticeScreenModule = module {
 
+    single<GrammarContentRepository> { DefaultGrammarContentRepository() }
+    single { GrammarQuestionEngine() }
+
     factory<GetGrammarPracticeFlashcardDataUseCase> {
-        DefaultGetGrammarPracticeFlashcardDataUseCase()
+        DefaultGetGrammarPracticeFlashcardDataUseCase(
+            contentRepository = get(),
+        )
     }
 
     factory<GetGrammarPracticeClozeDataUseCase> {
-        DefaultGetGrammarPracticeClozeDataUseCase()
+        DefaultGetGrammarPracticeClozeDataUseCase(
+            contentRepository = get(),
+            questionEngine = get(),
+        )
     }
 
     factory<GetGrammarPracticeConjugationDataUseCase> {
-        DefaultGetGrammarPracticeConjugationDataUseCase()
+        DefaultGetGrammarPracticeConjugationDataUseCase(
+            contentRepository = get(),
+            questionEngine = get(),
+        )
     }
 
     factory<GetGrammarPracticeScrambleDataUseCase> {
-        DefaultGetGrammarPracticeScrambleDataUseCase()
+        DefaultGetGrammarPracticeScrambleDataUseCase(
+            contentRepository = get(),
+            questionEngine = get(),
+        )
     }
 
     factory<GetGrammarPracticeDialogueDataUseCase> {
-        DefaultGetGrammarPracticeDialogueDataUseCase()
+        DefaultGetGrammarPracticeDialogueDataUseCase(
+            contentRepository = get(),
+            questionEngine = get(),
+        )
     }
 
     factory<DefaultGrammarPracticeQueue> {

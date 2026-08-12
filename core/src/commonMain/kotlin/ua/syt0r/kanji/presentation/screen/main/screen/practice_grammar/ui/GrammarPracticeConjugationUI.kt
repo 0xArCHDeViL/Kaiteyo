@@ -2,7 +2,6 @@ package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui
 import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.FormulaText
 
 import androidx.compose.animation.AnimatedContent
-import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
@@ -30,7 +29,8 @@ fun GrammarPracticeConjugationUI(
     onNext: () -> Unit,
     onVoiceClick: (String) -> Unit
 ) {
-    var builtConjugation by remember { mutableStateOf("") }
+    var selectedIndices by remember(state.syllables) { mutableStateOf(emptyList<Int>()) }
+    val builtConjugation = selectedIndices.joinToString(separator = "") { state.syllables[it] }
 
     Column(
         modifier = Modifier.fillMaxSize().padding(Dimens.WindowPadding),
@@ -38,7 +38,7 @@ fun GrammarPracticeConjugationUI(
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            text = "Conjugate: " + state.title,
+            text = "Susun bentuk: " + state.title,
             style = MaterialTheme.typography.titleMedium,
             color = MaterialTheme.colorScheme.primary,
             fontWeight = FontWeight.Bold,
@@ -89,8 +89,6 @@ fun GrammarPracticeConjugationUI(
         )
         
         Surface(
-            onClick = { if (answeredCorrectly == null) builtConjugation = "" },
-            interactionSource = interactionSource,
             shape = MaterialTheme.shapes.large,
             color = MaterialTheme.colorScheme.surfaceVariant,
             modifier = Modifier
@@ -101,14 +99,25 @@ fun GrammarPracticeConjugationUI(
                     scaleY = scale
                 }
         ) {
-            Box(contentAlignment = Alignment.Center, modifier = Modifier.padding(Dimens.Space4)) {
-                Text(
-                    text = builtConjugation.ifEmpty { "Tap syllables to build..." },
-                    style = MaterialTheme.typography.headlineMedium,
-                    fontWeight = FontWeight.Bold,
-                    color = if (builtConjugation.isEmpty()) MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = Dimens.Alpha.SemiOpaque)
-                            else MaterialTheme.colorScheme.onSurfaceVariant
-                )
+            FlowRow(
+                modifier = Modifier.fillMaxWidth().padding(Dimens.Space4),
+                horizontalArrangement = Arrangement.spacedBy(Dimens.Space2, Alignment.CenterHorizontally),
+                verticalArrangement = Arrangement.spacedBy(Dimens.Space2),
+            ) {
+                if (selectedIndices.isEmpty()) {
+                    Text(
+                        text = "Pilih token untuk membentuk jawaban",
+                        style = MaterialTheme.typography.titleMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                } else {
+                    selectedIndices.forEach { index ->
+                        SyllableChip(
+                            text = state.syllables[index],
+                            onClick = { if (answeredCorrectly == null) selectedIndices = selectedIndices - index },
+                        )
+                    }
+                }
             }
         }
 
@@ -125,11 +134,13 @@ fun GrammarPracticeConjugationUI(
                         horizontalArrangement = Arrangement.spacedBy(Dimens.Space3, Alignment.CenterHorizontally),
                         verticalArrangement = Arrangement.spacedBy(Dimens.Space3)
                     ) {
-                        state.syllables.forEach { syllable ->
-                            SyllableChip(
-                                text = syllable,
-                                onClick = { builtConjugation += syllable }
-                            )
+                        state.syllables.forEachIndexed { index, syllable ->
+                            if (index !in selectedIndices) {
+                                SyllableChip(
+                                    text = syllable,
+                                    onClick = { selectedIndices = selectedIndices + index },
+                                )
+                            }
                         }
                     }
 
@@ -138,31 +149,19 @@ fun GrammarPracticeConjugationUI(
                     Button(
                         onClick = { onAnswerSubmit(builtConjugation == state.targetConjugation) },
                         modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
-                        enabled = builtConjugation.isNotEmpty(),
+                        enabled = selectedIndices.isNotEmpty(),
                         shape = MaterialTheme.shapes.large
                     ) {
-                        Text("Submit Answer", style = MaterialTheme.typography.titleMedium)
+                        Text("Periksa jawaban", style = MaterialTheme.typography.titleMedium)
                     }
                 }
             } else {
-                Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    val color = if (isCorrect) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
-                    Text(
-                        text = if (isCorrect) "Excellent!" else "Incorrect. Answer: ${state.targetConjugation}",
-                        style = MaterialTheme.typography.headlineSmall,
-                        fontWeight = FontWeight.Bold,
-                        color = color,
-                        textAlign = TextAlign.Center
-                    )
-                    Spacer(modifier = Modifier.height(Dimens.Space8))
-                    Button(
-                        onClick = onNext,
-                        modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
-                        shape = MaterialTheme.shapes.large
-                    ) {
-                        Text("Continue", style = MaterialTheme.typography.titleMedium)
-                    }
-                }
+                GrammarPracticeFeedback(
+                    isCorrect = isCorrect,
+                    expectedAnswer = state.targetConjugation,
+                    onNext = onNext,
+                    onVoiceClick = onVoiceClick,
+                )
             }
         }
     }

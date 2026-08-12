@@ -30,8 +30,8 @@ fun GrammarPracticeScrambleUI(
     onNext: () -> Unit,
     onVoiceClick: (String) -> Unit
 ) {
-    var selectedParts by remember { mutableStateOf(listOf<String>()) }
-    var availableParts by remember(state.scrambledParts) { mutableStateOf(state.scrambledParts) }
+    var selectedIndices by remember(state.scrambledParts) { mutableStateOf(emptyList<Int>()) }
+    val selectedParts = selectedIndices.map { state.scrambledParts[it] }
 
     Column(
         modifier = Modifier.fillMaxSize().padding(Dimens.WindowPadding),
@@ -39,7 +39,7 @@ fun GrammarPracticeScrambleUI(
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            text = "Translate the sentence",
+            text = "Susun kalimat",
             style = MaterialTheme.typography.titleMedium,
             color = MaterialTheme.colorScheme.primary,
             fontWeight = FontWeight.Bold
@@ -76,26 +76,27 @@ fun GrammarPracticeScrambleUI(
                 horizontalArrangement = Arrangement.spacedBy(Dimens.Space2, Alignment.CenterHorizontally),
                 verticalArrangement = Arrangement.spacedBy(Dimens.Space2, Alignment.CenterVertically)
             ) {
-                if (selectedParts.isEmpty()) {
+                                        if (selectedIndices.isEmpty()) {
+
                     Text(
-                        text = "Tap parts to construct sentence...",
+                        text = "Pilih token untuk menyusun kalimat",
                         color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = Dimens.Alpha.SemiOpaque),
                         style = MaterialTheme.typography.titleMedium,
                         modifier = Modifier.padding(vertical = Dimens.Space4)
                     )
                 } else {
-                    selectedParts.forEach { part ->
-                        ScrambleChip(
-                            text = part,
-                            isPrimary = true,
-                            onClick = {
-                                if (answeredCorrectly == null) {
-                                    selectedParts = selectedParts - part
-                                    availableParts = availableParts + part
-                                }
+                                                selectedIndices.forEach { index ->
+                                ScrambleChip(
+                                    text = state.scrambledParts[index],
+                                    isPrimary = true,
+                                    onClick = {
+                                        if (answeredCorrectly == null) {
+                                            selectedIndices = selectedIndices - index
+                                        }
+                                    },
+                                )
                             }
-                        )
-                    }
+
                 }
             }
         }
@@ -113,15 +114,14 @@ fun GrammarPracticeScrambleUI(
                         horizontalArrangement = Arrangement.spacedBy(Dimens.Space3, Alignment.CenterHorizontally),
                         verticalArrangement = Arrangement.spacedBy(Dimens.Space3)
                     ) {
-                        availableParts.forEach { part ->
-                            ScrambleChip(
-                                text = part,
-                                isPrimary = false,
-                                onClick = {
-                                    selectedParts = selectedParts + part
-                                    availableParts = availableParts - part
-                                }
-                            )
+                        state.scrambledParts.forEachIndexed { index, part ->
+                            if (index !in selectedIndices) {
+                                ScrambleChip(
+                                    text = part,
+                                    isPrimary = false,
+                                    onClick = { selectedIndices = selectedIndices + index },
+                                )
+                            }
                         }
                     }
 
@@ -129,42 +129,24 @@ fun GrammarPracticeScrambleUI(
 
                     Button(
                         onClick = {
-                            val constructedSentence = selectedParts.joinToString("")
-                            val isActuallyCorrect = constructedSentence == state.originalSentence.replace(" ", "")
+                            val constructedSentence = selectedParts.joinToString(if (state.originalSentence.contains(" ")) " " else "")
+                            val isActuallyCorrect = constructedSentence == state.originalSentence
                             onAnswerSubmit(isActuallyCorrect)
                         },
                         modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
-                        enabled = availableParts.isEmpty(),
+                        enabled = selectedIndices.size == state.scrambledParts.size,
                         shape = MaterialTheme.shapes.large
                     ) {
-                        Text("Submit Answer", style = MaterialTheme.typography.titleMedium)
+                        Text("Periksa jawaban", style = MaterialTheme.typography.titleMedium)
                     }
                 }
             } else {
-                Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    val color = if (isCorrect) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(
-                            text = if (isCorrect) "Excellent!" else "Incorrect. Answer: ${state.originalSentence}",
-                            style = MaterialTheme.typography.headlineSmall,
-                            fontWeight = FontWeight.Bold,
-                            color = color,
-                            textAlign = TextAlign.Center
-                        )
-                        Spacer(modifier = Modifier.width(Dimens.Space2))
-                        IconButton(onClick = { onVoiceClick(state.originalSentence) }) {
-                            Icon(Icons.Default.VolumeUp, contentDescription = "Play answer voice")
-                        }
-                    }
-                    Spacer(modifier = Modifier.height(Dimens.Space8))
-                    Button(
-                        onClick = onNext,
-                        modifier = Modifier.fillMaxWidth().height(Dimens.Space12),
-                        shape = MaterialTheme.shapes.large
-                    ) {
-                        Text("Continue", style = MaterialTheme.typography.titleMedium)
-                    }
-                }
+                GrammarPracticeFeedback(
+                    isCorrect = isCorrect,
+                    expectedAnswer = state.originalSentence,
+                    onNext = onNext,
+                    onVoiceClick = onVoiceClick,
+                )
             }
         }
     }
