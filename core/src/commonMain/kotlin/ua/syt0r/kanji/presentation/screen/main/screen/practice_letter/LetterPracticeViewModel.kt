@@ -9,14 +9,20 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.dropWhile
 import kotlinx.coroutines.flow.filter
+import kotlinx.coroutines.flow.filterIsInstance
 import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.take
 import kotlinx.coroutines.launch
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
 import ua.syt0r.kanji.core.japanese.KanaReading
+import ua.syt0r.kanji.core.tts.AppTtsManager
+import ua.syt0r.kanji.core.tts.JapaneseSpeechText
 import ua.syt0r.kanji.core.tts.KanaTtsManager
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWritingProgress
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.LetterPracticeScreenContract.ScreenState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.LetterPracticeItemData
@@ -38,7 +44,8 @@ class LetterPracticeViewModel(
     private val practiceQueue: DefaultLetterPracticeQueue,
     private val getReviewStateUseCase: GetLetterPracticeReviewStateUseCase,
     private val analyticsManager: AnalyticsManager,
-    private val kanaTtsManager: KanaTtsManager
+    private val kanaTtsManager: KanaTtsManager,
+    private val appTtsManager: AppTtsManager
 ) : LetterPracticeScreenContract.ViewModel {
 
     private lateinit var configuration: LetterPracticeScreenConfiguration
@@ -80,8 +87,11 @@ class LetterPracticeViewModel(
                             val reviewState = it.toScreenState()
                             _state.value = reviewState
 
-                            reviewState.kanaAutoReadFlow()
-                                .onEach { speakKana(it) }
+                            reviewState.autoReadFlow()
+                                .onEach { text ->
+                                    if (text is AutoReadText.Kana) speakKana(text.reading)
+                                    else if (text is AutoReadText.KanjiReading) speakYomikata(text.value)
+                                }
                                 .launchIn(viewModelScope)
                         }
 
@@ -102,6 +112,10 @@ class LetterPracticeViewModel(
 
     override fun speakKana(reading: KanaReading) {
         viewModelScope.launch { kanaTtsManager.speak(reading) }
+    }
+
+    private fun speakYomikata(reading: String) {
+        viewModelScope.launch { appTtsManager.speak(reading, language = "ja-JP") }
     }
 
     override fun finishPractice() {
@@ -139,7 +153,12 @@ class LetterPracticeViewModel(
         )
     }
 
-    private fun ScreenState.Review.kanaAutoReadFlow(): Flow<KanaReading> = callbackFlow {
+    private sealed interface AutoReadText {
+        data class Kana(val reading: KanaReading) : AutoReadText
+        data class KanjiReading(val value: String) : AutoReadText
+    }
+
+    private fun ScreenState.Review.autoReadFlow(): Flow<AutoReadText> = callbackFlow {
         when {
             reviewState is LetterPracticeReviewState.Reading &&
                     reviewState.itemData is LetterPracticeItemData.KanaReadingData -> {
@@ -147,7 +166,7 @@ class LetterPracticeViewModel(
                 snapshotFlow { reviewState.revealed.value }
                     .filter { it && reviewState.layout.kanaAutoPlay.value }
                     .take(1)
-                    .onEach { send(reviewState.itemData.reading) }
+                    .onEach { send(AutoReadText.Kana(reviewState.itemData.reading)) }
                     .collect()
 
             }
@@ -155,18 +174,42 @@ class LetterPracticeViewModel(
             reviewState is LetterPracticeReviewState.Writing &&
                     reviewState.itemData is LetterPracticeItemData.KanaWritingData -> {
 
-                // Plays when writer state is switched (study/review)
                 snapshotFlow { reviewState.writerState.value }
                     .filter { reviewState.layout.kanaAutoPlay.value }
                     .onEach {
                         delay(200)
-                        send(reviewState.itemData.reading)
+                        send(AutoReadText.Kana(reviewState.itemData.reading))
                     }
                     .collect()
 
             }
+
+            reviewState is LetterPracticeReviewState.Writing &&
+                    reviewState.itemData is LetterPracticeItemData.KanjiWritingData -> {
+
+                val kanjiReview = reviewState
+                val yomikata = kanjiReview.itemData.firstYomikata() ?: return@callbackFlow
+
+                snapshotFlow {
+                    kanjiReview.isStudyMode.value to kanjiReview.writerState.value.progress
+                }
+                    .filter { (isStudyMode, _) -> !isStudyMode && kanjiReview.layout.kanaAutoPlay.value }
+                    .map { (_, progress) -> progress }
+                    .dropWhile { it !is CharacterWritingProgress.Writing }
+                    .filterIsInstance<CharacterWritingProgress.Completed.Idle>()
+                    .take(1)
+                    .onEach { send(AutoReadText.KanjiReading(yomikata)) }
+                    .collect()
+            }
         }
         awaitClose()
+    }
+
+    private fun LetterPracticeItemData.KanjiWritingData.firstYomikata(): String? {
+        return (kun + on)
+            .asSequence()
+            .map(JapaneseSpeechText::normalizeKanjiReading)
+            .firstOrNull { it.isNotEmpty() }
     }
 
 }
