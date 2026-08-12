@@ -31,12 +31,21 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.FilterList
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.spring
+import androidx.compose.foundation.LocalIndication
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsHoveredAsState
+import androidx.compose.foundation.interaction.collectIsPressedAsState
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -132,10 +141,10 @@ fun RadicalsExplorerScreen(
             ) {
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)
                 ) {
                     IconButton(onClick = onBack) {
-                        Text("←", style = androidx.compose.material3.MaterialTheme.typography.titleLarge, color = surfaceColors.textPrimary)
+                        Icon(imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = surfaceColors.textPrimary)
                     }
 
                     Column(modifier = Modifier.weight(1f)) {
@@ -161,21 +170,21 @@ fun RadicalsExplorerScreen(
                             color = accent.primary.copy(alpha = Dimens.Alpha.Light)
                         ) {
                             Row(
-                                modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
+                                modifier = Modifier.padding(horizontal = Dimens.Space2, vertical = Dimens.Space1),
                                 verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(4.dp)
+                                horizontalArrangement = Arrangement.spacedBy(Dimens.Space1)
                             ) {
                                 Text(
                                     text = "Clear All",
-                                    style = MaterialTheme.typography.labelSmall,
-                                    color = accent.primary,
-                                    fontWeight = FontWeight.Bold
+                                    style = MaterialTheme.typography.labelMedium,
+                                    color = surfaceColors.textPrimary,
+                                    modifier = Modifier.padding(horizontal = Dimens.Space2, vertical = Dimens.Space1)
                                 )
                                 Icon(
-                                    Icons.Default.Close,
-                                    contentDescription = null,
-                                    tint = accent.primary,
-                                    modifier = Modifier.size(14.dp)
+                                    imageVector = Icons.Filled.Close,
+                                    contentDescription = "Remove",
+                                    tint = accent.onPrimary,
+                                    modifier = Modifier.size(Dimens.IconXs)
                                 )
                             }
                         }
@@ -185,8 +194,8 @@ fun RadicalsExplorerScreen(
                 // --- Selected Radicals Chips Bar ---
                 AnimatedVisibility(visible = selectedRadicals.isNotEmpty()) {
                     LazyRow(
-                        horizontalArrangement = Arrangement.spacedBy(8.dp),
-                        contentPadding = PaddingValues(vertical = 4.dp)
+                        horizontalArrangement = Arrangement.spacedBy(Dimens.Space1),
+                        contentPadding = PaddingValues(vertical = Dimens.Space1)
                     ) {
                         items(selectedRadicals.toList()) { radical ->
                             Surface(
@@ -197,19 +206,19 @@ fun RadicalsExplorerScreen(
                                 Row(
                                     modifier = Modifier
                                         .clickable { selectedRadicals = selectedRadicals - radical }
-                                        .padding(horizontal = 10.dp, vertical = 6.dp),
+                                        .padding(horizontal = Dimens.Space2, vertical = Dimens.Space1),
                                     verticalAlignment = Alignment.CenterVertically,
-                                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                    horizontalArrangement = Arrangement.spacedBy(Dimens.Space1)
                                 ) {
                                     Text(
                                         text = radical,
-                                        style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
+                                        style = MaterialTheme.typography.titleMedium,
                                         fontWeight = FontWeight.Bold
                                     )
                                     Icon(
                                         Icons.Default.Close,
                                         contentDescription = null,
-                                        modifier = Modifier.size(14.dp)
+                                        modifier = Modifier.size(Dimens.IconXs)
                                     )
                                 }
                             }
@@ -219,8 +228,8 @@ fun RadicalsExplorerScreen(
 
                 // --- Stroke Count Filter Chips ---
                 LazyRow(
-                    horizontalArrangement = Arrangement.spacedBy(6.dp),
-                    contentPadding = PaddingValues(vertical = 2.dp)
+                    horizontalArrangement = Arrangement.spacedBy(Dimens.Space1),
+                    contentPadding = PaddingValues(vertical = Dimens.Space1)
                 ) {
                     item {
                         FilterChip(
@@ -252,8 +261,7 @@ fun RadicalsExplorerScreen(
 
         // --- Main Content Area ---
         if (isLandscape) {
-            Row(modifier = Modifier.fillMaxSize().padding(12.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                // Radicals Grid Panel
+            Row(modifier = Modifier.fillMaxSize().padding(Dimens.Space2), horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
                 Surface(
                     modifier = Modifier
                         .weight(1.2f)
@@ -275,7 +283,6 @@ fun RadicalsExplorerScreen(
                     )
                 }
 
-                // Matching Kanji Results Panel
                 Surface(
                     modifier = Modifier
                         .weight(1f)
@@ -292,8 +299,7 @@ fun RadicalsExplorerScreen(
                 }
             }
         } else {
-            Column(modifier = Modifier.fillMaxSize().padding(12.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                // Radicals Matrix Panel
+            Column(modifier = Modifier.fillMaxSize().padding(Dimens.Space2), verticalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
                 Surface(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -315,7 +321,6 @@ fun RadicalsExplorerScreen(
                     )
                 }
 
-                // Matching Kanji Results Panel
                 Surface(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -344,9 +349,9 @@ private fun RadicalsMatrixGrid(
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
 
-    Column(modifier = Modifier.fillMaxSize().padding(12.dp)) {
+    Column(modifier = Modifier.fillMaxSize().padding(Dimens.Space2)) {
         Row(
-            modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp),
+            modifier = Modifier.fillMaxWidth().padding(bottom = Dimens.Space1),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
@@ -360,8 +365,8 @@ private fun RadicalsMatrixGrid(
 
         LazyVerticalGrid(
             columns = GridCells.Adaptive(minSize = 48.dp),
-            horizontalArrangement = Arrangement.spacedBy(6.dp),
-            verticalArrangement = Arrangement.spacedBy(6.dp),
+            horizontalArrangement = Arrangement.spacedBy(Dimens.Space1),
+            verticalArrangement = Arrangement.spacedBy(Dimens.Space1),
             modifier = Modifier.fillMaxSize()
         ) {
             items(radicals, key = { it.radical }) { radicalData ->
@@ -370,26 +375,42 @@ private fun RadicalsMatrixGrid(
                 val textColor = if (isSelected) accent.onPrimary else surfaceColors.textPrimary
                 val borderColor = if (isSelected) accent.primary else surfaceColors.border.copy(alpha = Dimens.Alpha.Medium)
 
+                val interactionSource = remember { MutableInteractionSource() }
+                val isPressed by interactionSource.collectIsPressedAsState()
+                val isHovered by interactionSource.collectIsHoveredAsState()
+                
+                val scale by animateFloatAsState(
+                    targetValue = if (isPressed) 0.90f else if (isHovered) 1.05f else 1f,
+                    animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
+                )
+
                 Box(
                     modifier = Modifier
                         .aspectRatio(1f)
+                        .graphicsLayer {
+                            scaleX = scale
+                            scaleY = scale
+                        }
                         .clip(RoundedCornerShape(Dimens.RadiusMd))
-                        .background(bgColor)
+                        .background(if (isHovered && !isSelected) surfaceColors.surfaceInteractive else bgColor)
                         .border(1.dp, borderColor, RoundedCornerShape(Dimens.RadiusMd))
-                        .clickable { onToggleRadical(radicalData.radical) },
+                        .clickable(
+                            interactionSource = interactionSource,
+                            indication = LocalIndication.current
+                        ) { onToggleRadical(radicalData.radical) },
                     contentAlignment = Alignment.Center
                 ) {
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         Text(
                             text = radicalData.radical,
-                            style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
+                            style = MaterialTheme.typography.titleLarge,
                             fontWeight = FontWeight.Bold,
                             color = textColor
                         )
                         Text(
                             text = "${radicalData.strokesCount}画",
-                            fontSize = 9.sp,
-                            color = textColor.copy(alpha = 0.7f)
+                            style = MaterialTheme.typography.labelSmall,
+                            color = textColor.copy(alpha = Dimens.Alpha.Medium)
                         )
                     }
                 }
@@ -407,9 +428,9 @@ private fun MatchingKanjiResultsPanel(
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
 
-    Column(modifier = Modifier.fillMaxSize().padding(12.dp)) {
+    Column(modifier = Modifier.fillMaxSize().padding(Dimens.Space2)) {
         Row(
-            modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp),
+            modifier = Modifier.fillMaxWidth().padding(bottom = Dimens.Space1),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
@@ -434,7 +455,7 @@ private fun MatchingKanjiResultsPanel(
                         tint = surfaceColors.textMuted,
                         modifier = Modifier.size(48.dp)
                     )
-                    Spacer(Modifier.height(8.dp))
+                    Spacer(Modifier.height(Dimens.Space1))
                     Text(
                         text = "Tap any radical to discover matching Kanji",
                         style = MaterialTheme.typography.bodyMedium,
@@ -456,26 +477,42 @@ private fun MatchingKanjiResultsPanel(
         } else {
             LazyVerticalGrid(
                 columns = GridCells.Adaptive(minSize = 56.dp),
-                horizontalArrangement = Arrangement.spacedBy(8.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp),
+                horizontalArrangement = Arrangement.spacedBy(Dimens.Space1),
+                verticalArrangement = Arrangement.spacedBy(Dimens.Space1),
                 modifier = Modifier.fillMaxSize()
             ) {
-                items(matchingKanji.toList()) { character ->
+                items(matchingKanji.toList()) { kanji ->
+                    val interactionSource = remember { MutableInteractionSource() }
+                    val isPressed by interactionSource.collectIsPressedAsState()
+                    val isHovered by interactionSource.collectIsHoveredAsState()
+                    
+                    val scale by animateFloatAsState(
+                        targetValue = if (isPressed) 0.90f else if (isHovered) 1.05f else 1f,
+                        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
+                    )
+
                     Surface(
                         modifier = Modifier
                             .aspectRatio(1f)
-                            .clip(RoundedCornerShape(Dimens.RadiusLg))
-                            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), RoundedCornerShape(Dimens.RadiusLg))
-                            .clickable {
+                            .graphicsLayer {
+                                scaleX = scale
+                                scaleY = scale
+                            }
+                            .clip(RoundedCornerShape(Dimens.RadiusMd))
+                            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Subtle), RoundedCornerShape(Dimens.RadiusMd))
+                            .clickable(
+                                interactionSource = interactionSource,
+                                indication = LocalIndication.current
+                            ) {
                                 navigationState.navigate(
-                                    MainDestination.KanjiBrowser(KanjiBrowserCriteria(query = character))
+                                    MainDestination.KanjiBrowser(KanjiBrowserCriteria(query = kanji))
                                 )
                             },
-                        color = surfaceColors.surfaceElevated
+                        color = if (isHovered || isPressed) surfaceColors.surfaceInteractive else surfaceColors.surfaceElevated
                     ) {
                         Box(contentAlignment = Alignment.Center) {
                             Text(
-                                text = character,
+                                text = kanji,
                                 style = androidx.compose.material3.MaterialTheme.typography.headlineSmall,
                                 fontWeight = FontWeight.Bold,
                                 color = accent.primary

@@ -27,6 +27,16 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Bookmark
+import androidx.compose.material.icons.filled.CollectionsBookmark
+import androidx.compose.material.icons.filled.Extension
+import androidx.compose.material.icons.filled.Folder
+import androidx.compose.material.icons.filled.LibraryBooks
+import androidx.compose.material.icons.filled.Schedule
+import androidx.compose.material.icons.filled.Spellcheck
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material.icons.filled.Translate
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -41,6 +51,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
+import androidx.compose.ui.graphics.vector.ImageVector
+import ua.syt0r.kanji.presentation.common.ui.FancyLoading
 import ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme
 import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
 import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
@@ -170,7 +182,7 @@ private fun LibraryHub(
 
     if (dataCenter.isLoading) {
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            Text("Loading library…", color = surfaceColors.textMuted)
+            FancyLoading()
         }
         return
     }
@@ -191,11 +203,11 @@ private fun LibraryHub(
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
-        contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
-        verticalArrangement = Arrangement.spacedBy(10.dp)
+        contentPadding = PaddingValues(horizontal = Dimens.ContentPadding, vertical = Dimens.Space2),
+        verticalArrangement = Arrangement.spacedBy(Dimens.Space2)
     ) {
         item(key = "header") {
-            Column(Modifier.padding(top = 8.dp, bottom = 2.dp)) {
+            Column(Modifier.padding(top = Dimens.Space2, bottom = Dimens.Space1)) {
                 Text(
                     text = "Your study hub — everything in one place",
                     color = surfaceColors.textMuted,
@@ -220,7 +232,7 @@ private fun LibraryHub(
         item(key = "study-title") { SectionTitle("STUDY", accent, surfaceColors) }
 
         item(key = "study-items") {
-            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            Column(verticalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
                 SectionCard(
                     glyph = "字",
                     title = "Kanji",
@@ -231,7 +243,7 @@ private fun LibraryHub(
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
-                    glyph = "📚",
+                    icon = Icons.Default.CollectionsBookmark,
                     title = "Kanji Decks",
                     subtitle = "Letter decks & spaced repetition",
                     onClick = onOpenKanjiDecks,
@@ -239,7 +251,7 @@ private fun LibraryHub(
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
-                    glyph = "語",
+                    icon = Icons.Default.Translate,
                     title = "Vocabulary",
                     subtitle = "Words, terms & vocab decks",
                     onClick = onOpenVocab,
@@ -247,50 +259,42 @@ private fun LibraryHub(
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
-                    glyph = "文",
+                    icon = Icons.Default.Spellcheck,
                     title = "Grammar",
-                    subtitle = "Particles & grammar terms",
+                    subtitle = "Rules, conjugations & dialogue",
                     onClick = onOpenGrammar,
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
-                    glyph = "例",
-                    title = "Sentences",
-                    subtitle = "Example sentences (Tatoeba)",
-                    onClick = onOpenWordSearch,
+                    icon = Icons.Default.Extension,
+                    title = "Radicals",
+                    subtitle = "Browse characters by radical components",
+                    count = radicalCount,
+                    onClick = onOpenRadicalSearch,
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
-                    glyph = "部",
-                    title = "Radicals",
-                    subtitle = radicalCount?.let { "$it radicals — search by parts" }
-                        ?: "Search by radical parts",
-                    onClick = onOpenRadicalSearch,
+                    icon = Icons.Default.Folder,
+                    title = "Custom Collections",
+                    subtitle = "Your manual study lists",
+                    count = customCount,
+                    onClick = { navigationState.navigate(MainDestination.Collections) },
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
             }
         }
 
-        item(key = "find-title") { SectionTitle("FIND & ORGANIZE", accent, surfaceColors) }
+        item(key = "smart-title") { SectionTitle("SMART LISTS", accent, surfaceColors) }
 
-        item(key = "find-grid") {
-            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        item(key = "smart-items") {
+            Column(verticalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
                 SectionCard(
-                    glyph = "🗂",
-                    title = "Collections",
-                    subtitle = "All smart & saved collections",
-                    count = collections,
-                    onClick = { navigationState.navigate(MainDestination.Collections) },
-                    accent = accent,
-                    surfaceColors = surfaceColors
-                )
-                SectionCard(
-                    glyph = "★",
+                    icon = Icons.Default.Star,
                     title = "Favorites",
-                    subtitle = "Your starred kanji",
+                    subtitle = "Starred kanji",
                     count = favorites,
                     onClick = {
                         navigationState.navigate(MainDestination.KanjiBrowser(KanjiBrowserCriteria(favoritesOnly = true)))
@@ -299,49 +303,28 @@ private fun LibraryHub(
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
-                    glyph = "📌",
+                    icon = Icons.Default.Bookmark,
                     title = "Pinned",
                     subtitle = "Quick access pinned items",
-                    count = 0,
                     onClick = { navigationState.navigate(MainDestination.Collections) },
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
-                    glyph = "🕐",
-                    title = "Recently Studied",
-                    subtitle = "Studied in the last 24 hours",
+                    icon = Icons.Default.Schedule,
+                    title = "Recently Learned",
+                    subtitle = "Kanji studied in the last 7 days",
                     count = recently,
                     onClick = { navigationState.navigate(MainDestination.Collections) },
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
-                    glyph = "📁",
-                    title = "Custom",
-                    subtitle = "Saved filters & decks",
-                    count = customCount,
-                    onClick = { navigationState.navigate(MainDestination.Collections) },
-                    accent = accent,
-                    surfaceColors = surfaceColors
-                )
-                SectionCard(
-                    glyph = "✨",
-                    title = "Smart Collections",
-                    subtitle = "Auto-generated sets",
+                    icon = Icons.Default.LibraryBooks,
+                    title = "All Smart Lists",
+                    subtitle = "Auto-generated dynamic collections",
                     count = smartCount,
                     onClick = { navigationState.navigate(MainDestination.Collections) },
-                    accent = accent,
-                    surfaceColors = surfaceColors
-                )
-                SectionCard(
-                    glyph = "🚩",
-                    title = "Flagged",
-                    subtitle = "Kanji with any flag set",
-                    count = dataCenter.flags.size,
-                    onClick = {
-                        navigationState.navigate(MainDestination.KanjiBrowser(KanjiBrowserCriteria(showFlagged = true)))
-                    },
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
@@ -416,25 +399,32 @@ private fun SectionTitle(title: String, accent: KaiteyoAccentScheme, surfaceColo
 }
 
 @Composable
-private fun SectionCard(
-    glyph: String,
+fun SectionCard(
+    glyph: String? = null,
+    icon: ImageVector? = null,
     title: String,
     subtitle: String,
     count: Int? = null,
-    onClick: (() -> Unit)?,
+    onClick: (() -> Unit)? = null,
     accent: KaiteyoAccentScheme,
     surfaceColors: SurfaceColors
 ) {
     val interactionSource = remember { MutableInteractionSource() }
     val isPressed by interactionSource.collectIsPressedAsState()
+    val isHovered by interactionSource.collectIsHoveredAsState()
     
+    val targetScale = when {
+        isPressed -> 0.95f
+        isHovered && onClick != null -> 1.02f
+        else -> 1f
+    }
     val scale by animateFloatAsState(
-        targetValue = if (isPressed) 0.95f else 1f,
+        targetValue = targetScale,
         animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
     )
 
     val backgroundColor by animateColorAsState(
-        targetValue = if (isPressed) surfaceColors.surfaceInteractive else surfaceColors.surface,
+        targetValue = if (isHovered || isPressed) surfaceColors.surfaceInteractive else surfaceColors.surface,
         animationSpec = tween(200)
     )
 
@@ -448,15 +438,15 @@ private fun SectionCard(
         .background(backgroundColor)
 
     val clickable = if (onClick != null) {
-        base.clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
+        base.clickable(interactionSource = interactionSource, indication = LocalIndication.current, onClick = onClick)
     } else {
         base
     }
 
     Row(
-        modifier = clickable.padding(horizontal = 20.dp, vertical = 16.dp),
+        modifier = clickable.padding(horizontal = Dimens.ContentPadding, vertical = Dimens.Space4),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp)
+        horizontalArrangement = Arrangement.spacedBy(Dimens.Space4)
     ) {
         Box(
             modifier = Modifier
@@ -465,7 +455,11 @@ private fun SectionCard(
                 .background(accent.primary.copy(alpha = Dimens.Alpha.Light)),
             contentAlignment = Alignment.Center
         ) {
-            Text(glyph, style = androidx.compose.material3.MaterialTheme.typography.titleLarge)
+            if (glyph != null) {
+                Text(glyph, style = androidx.compose.material3.MaterialTheme.typography.titleLarge)
+            } else if (icon != null) {
+                Icon(icon, contentDescription = null, tint = accent.primary)
+            }
         }
         Column(Modifier.weight(1f)) {
             Text(
@@ -474,20 +468,20 @@ private fun SectionCard(
                 style = androidx.compose.material3.MaterialTheme.typography.bodyLarge,
                 fontWeight = FontWeight.SemiBold
             )
-            Spacer(modifier = Modifier.height(2.dp))
+            Spacer(modifier = Modifier.height(Dimens.Space1))
             Text(
                 text = subtitle,
                 color = surfaceColors.textMuted,
-                style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
-                maxLines = 1,
+                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
+                maxLines = 2,
                 overflow = TextOverflow.Ellipsis
             )
         }
         if (count != null) {
             Text(
                 text = count.toString(),
-                color = accent.primary,
-                style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
+                color = surfaceColors.textMuted,
+                style = androidx.compose.material3.MaterialTheme.typography.bodyLarge,
                 fontWeight = FontWeight.Bold
             )
         }

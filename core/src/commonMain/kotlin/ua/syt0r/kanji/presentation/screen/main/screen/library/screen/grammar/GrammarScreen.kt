@@ -3,13 +3,20 @@ package ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.spring
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsHoveredAsState
+import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -19,11 +26,11 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Book
@@ -36,9 +43,7 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import ua.syt0r.kanji.Res
-import ua.syt0r.kanji.presentation.common.AutopaddedScrollableColumn
 import ua.syt0r.kanji.presentation.common.ui.FancyLoading
-import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
 import ua.syt0r.kanji.presentation.screen.main.MainDestination
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeScreenConfiguration
 
@@ -75,7 +80,7 @@ fun GrammarScreen(
                 }) {
                     Icon(imageVector = Icons.Filled.ArrowBack, contentDescription = "Back")
                 }
-                Spacer(modifier = Modifier.width(8.dp))
+                Spacer(modifier = Modifier.width(Dimens.Space2))
                 Text(
                     text = selectedChapter?.title ?: "Grammar / Bunpou",
                     style = MaterialTheme.typography.titleLarge,
@@ -125,7 +130,7 @@ fun GrammarScreen(
                                 onNavigateToPractice(MainDestination.GrammarPractice(config))
                             },
                             shape = RoundedCornerShape(Dimens.RadiusXl),
-                            modifier = Modifier.fillMaxWidth().height(54.dp).padding(horizontal = 16.dp)
+                            modifier = Modifier.fillMaxWidth().height(54.dp).padding(horizontal = Dimens.ContentPadding)
                         ) {
                             Text("Practice Chapter")
                         }
@@ -144,24 +149,38 @@ fun GrammarChapterList(
 ) {
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
-        contentPadding = PaddingValues(16.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp)
+        contentPadding = PaddingValues(Dimens.ContentPadding),
+        verticalArrangement = Arrangement.spacedBy(Dimens.Space3)
     ) {
         items(chapters) { chapter ->
+            val interactionSource = remember { MutableInteractionSource() }
+            val isPressed by interactionSource.collectIsPressedAsState()
+            val isHovered by interactionSource.collectIsHoveredAsState()
+            
+            val scale by animateFloatAsState(
+                targetValue = if (isPressed) 0.95f else if (isHovered) 1.02f else 1f,
+                animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
+            )
+
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
+                    .graphicsLayer {
+                        scaleX = scale
+                        scaleY = scale
+                    }
                     .clip(RoundedCornerShape(Dimens.RadiusLg))
-                    .clickable { onChapterClick(chapter) },
+                    .clickable(
+                        interactionSource = interactionSource,
+                        indication = LocalIndication.current
+                    ) { onChapterClick(chapter) },
                 colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.surfaceVariant
+                    containerColor = if (isHovered || isPressed) MaterialTheme.colorScheme.surface else MaterialTheme.colorScheme.surfaceVariant
                 ),
-                elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+                elevation = CardDefaults.cardElevation(defaultElevation = if (isHovered) Dimens.ElevationMd else Dimens.ElevationSm)
             ) {
                 Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(20.dp),
+                    modifier = Modifier.fillMaxWidth().padding(Dimens.ContentPadding),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Box(
@@ -178,7 +197,7 @@ fun GrammarChapterList(
                         )
                     }
                     
-                    Spacer(modifier = Modifier.width(16.dp))
+                    Spacer(modifier = Modifier.width(Dimens.Space2))
                     
                     Column(modifier = Modifier.weight(1f)) {
                         Text(
@@ -209,8 +228,8 @@ fun GrammarChapterList(
 fun GrammarPointList(chapter: GrammarChapter) {
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
-        contentPadding = PaddingValues(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp)
+        contentPadding = PaddingValues(Dimens.ContentPadding),
+        verticalArrangement = Arrangement.spacedBy(Dimens.Space2)
     ) {
         items(chapter.points) { point ->
             GrammarPointCard(point = point)
@@ -222,18 +241,34 @@ fun GrammarPointList(chapter: GrammarChapter) {
 fun GrammarPointCard(point: GrammarPoint) {
     var expanded by remember { mutableStateOf(false) }
     
+    val interactionSource = remember { MutableInteractionSource() }
+    val isPressed by interactionSource.collectIsPressedAsState()
+    val isHovered by interactionSource.collectIsHoveredAsState()
+    
+    val scale by animateFloatAsState(
+        targetValue = if (isPressed) 0.95f else if (isHovered) 1.01f else 1f,
+        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
+    )
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
+            .graphicsLayer {
+                scaleX = scale
+                scaleY = scale
+            }
             .clip(RoundedCornerShape(Dimens.RadiusLg))
-            .clickable { expanded = !expanded },
+            .clickable(
+                interactionSource = interactionSource,
+                indication = LocalIndication.current
+            ) { expanded = !expanded },
         colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surfaceVariant
+            containerColor = if (isHovered || isPressed) MaterialTheme.colorScheme.surface else MaterialTheme.colorScheme.surfaceVariant
         ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+        elevation = CardDefaults.cardElevation(defaultElevation = if (isHovered) Dimens.ElevationMd else Dimens.ElevationSm)
     ) {
         Column(
-            modifier = Modifier.fillMaxWidth().padding(16.dp)
+            modifier = Modifier.fillMaxWidth().padding(Dimens.ContentPadding)
         ) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
@@ -257,7 +292,7 @@ fun GrammarPointCard(point: GrammarPoint) {
                         )
                     }
                     if (point.meaning.isNotBlank()) {
-                        Spacer(modifier = Modifier.height(4.dp))
+                        Spacer(modifier = Modifier.height(Dimens.Space1))
                         Text(
                             text = point.meaning,
                             style = MaterialTheme.typography.bodyMedium,
@@ -277,9 +312,9 @@ fun GrammarPointCard(point: GrammarPoint) {
                 enter = expandVertically(tween(300)) + fadeIn(tween(300)),
                 exit = shrinkVertically(tween(300)) + fadeOut(tween(300))
             ) {
-                Column(modifier = Modifier.fillMaxWidth().padding(top = 16.dp)) {
-                    Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = Dimens.Alpha.Subtle))
-                    Spacer(modifier = Modifier.height(16.dp))
+                Column(modifier = Modifier.fillMaxWidth().padding(top = Dimens.ContentPadding)) {
+                    HorizontalDivider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = Dimens.Alpha.Subtle))
+                    Spacer(modifier = Modifier.height(Dimens.ContentPadding))
                     
                     if (point.formulas.isNotEmpty()) {
                         Text(
@@ -288,11 +323,11 @@ fun GrammarPointCard(point: GrammarPoint) {
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.secondary
                         )
-                        Spacer(modifier = Modifier.height(4.dp))
+                        Spacer(modifier = Modifier.height(Dimens.Space1))
                         point.formulas.forEach { formula ->
                             FormulaText(text = formula)
                         }
-                        Spacer(modifier = Modifier.height(16.dp))
+                        Spacer(modifier = Modifier.height(Dimens.ContentPadding))
                     }
                     
                     if (point.examples.isNotEmpty()) {
@@ -302,18 +337,18 @@ fun GrammarPointCard(point: GrammarPoint) {
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.secondary
                         )
-                        Spacer(modifier = Modifier.height(8.dp))
+                        Spacer(modifier = Modifier.height(Dimens.Space2))
                         point.examples.forEach { example ->
                             Surface(
                                 color = MaterialTheme.colorScheme.surface,
                                 shape = RoundedCornerShape(Dimens.RadiusSm),
-                                modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)
+                                modifier = Modifier.fillMaxWidth().padding(bottom = Dimens.Space2)
                             ) {
                                 Text(
                                     text = example.trim(),
                                     style = MaterialTheme.typography.bodyMedium,
                                     color = MaterialTheme.colorScheme.onSurface,
-                                    modifier = Modifier.padding(12.dp)
+                                    modifier = Modifier.padding(Dimens.Space3)
                                 )
                             }
                         }
