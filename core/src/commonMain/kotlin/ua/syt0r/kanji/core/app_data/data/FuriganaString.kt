@@ -64,4 +64,8 @@ fun FuriganaString.withoutAnnotations(): String {
     return compounds.joinToString("") { it.text }
 }
 
+fun FuriganaString.toKanaReading(): String {
+    return compounds.joinToString("") { it.annotation ?: it.text }
+}
+
 fun String.toFurigana() = buildFuriganaString { append(this@toFurigana) }

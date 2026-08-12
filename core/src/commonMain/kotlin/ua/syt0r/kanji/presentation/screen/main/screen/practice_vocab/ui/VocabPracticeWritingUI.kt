@@ -270,7 +270,7 @@ private fun Progress(
             autoPlayEnabled = autoPlayEnabled,
             clickable = revealAnswer.value,
             onAutoPlayToggleClick = { autoPlayEnabled.value = !autoPlayEnabled.value },
-            onSpeakClick = { onVoiceClick(reviewState.summaryReading.withoutAnnotations()) },
+            onSpeakClick = { onVoiceClick(reviewState.summaryReading.toKanaReading()) },
             modifier = Modifier
         )
 

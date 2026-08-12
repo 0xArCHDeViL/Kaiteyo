@@ -93,7 +93,7 @@ fun VocabPracticeFlashcardUI(
                 sideContent = {
                     if (reviewState.showAnswer.value || !reviewState.showMeaningInFront) {
                         IconButton(
-                            onClick = { onVoiceClick(furigana.withoutAnnotations()) }
+                            onClick = { onVoiceClick(furigana.toKanaReading()) }
                         ) {
                             Icon(Icons.Default.VolumeUp, contentDescription = "Play voice")
                         }

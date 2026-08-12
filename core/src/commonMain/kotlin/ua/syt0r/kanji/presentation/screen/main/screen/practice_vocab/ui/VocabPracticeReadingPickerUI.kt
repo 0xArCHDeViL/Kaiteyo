@@ -76,7 +76,7 @@ fun VocabPracticeReadingPickerUI(
             sideContent = {
                 if (selectedAnswer != null) {
                     IconButton(
-                        onClick = { onVoiceClick(reviewState.displayReading.value.withoutAnnotations()) }
+                        onClick = { onVoiceClick(reviewState.displayReading.value.toKanaReading()) }
                     ) {
                         Icon(Icons.Default.VolumeUp, contentDescription = "Play voice")
                     }
