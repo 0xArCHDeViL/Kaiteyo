@@ -735,7 +735,10 @@ private fun BrowserFilters(
         }
 
         FilterSection("Status") {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            FlowRow(
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
                 FilterChip("Learned", showLearned, { onShowLearned(!showLearned) }, accent, surfaceColors)
                 FilterChip("Unlearned", showUnlearned, { onShowUnlearned(!showUnlearned) }, accent, surfaceColors)
                 FilterChip("Difficult", showDifficult, { onShowDifficult(!showDifficult) }, accent, surfaceColors)
@@ -950,7 +953,11 @@ private fun RadicalPicker(
                     )
                 }
                 item(key = "radicals-$count") {
-                    FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    FlowRow(
+                        horizontalArrangement = Arrangement.spacedBy(6.dp),
+                        verticalArrangement = Arrangement.spacedBy(6.dp),
+                        modifier = Modifier.padding(bottom = 4.dp)
+                    ) {
                         group.forEach { radical ->
                             RadicalChip(
                                 radical = radical.radical,

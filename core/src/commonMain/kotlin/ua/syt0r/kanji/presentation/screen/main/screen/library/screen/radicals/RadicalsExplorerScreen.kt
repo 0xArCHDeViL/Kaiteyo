@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
@@ -127,7 +128,10 @@ fun RadicalsExplorerScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(surfaceColors.background)
+            .systemBarsPadding()
+            .padding(horizontal = Dimens.Space2, vertical = Dimens.Space2)
+            .background(surfaceColors.background),
+        verticalArrangement = Arrangement.spacedBy(Dimens.Space2)
     ) {
         // --- Top Bar ---
         Surface(
@@ -260,8 +264,9 @@ fun RadicalsExplorerScreen(
         }
 
         // --- Main Content Area ---
-        if (isLandscape) {
-            Row(modifier = Modifier.fillMaxSize().padding(Dimens.Space2), horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
+                    if (isLandscape) {
+            Row(modifier = Modifier.fillMaxSize(), horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
+
                 Surface(
                     modifier = Modifier
                         .weight(1.2f)
@@ -298,8 +303,9 @@ fun RadicalsExplorerScreen(
                     )
                 }
             }
-        } else {
-            Column(modifier = Modifier.fillMaxSize().padding(Dimens.Space2), verticalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
+                    } else {
+            Column(modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
+
                 Surface(
                     modifier = Modifier
                         .fillMaxWidth()

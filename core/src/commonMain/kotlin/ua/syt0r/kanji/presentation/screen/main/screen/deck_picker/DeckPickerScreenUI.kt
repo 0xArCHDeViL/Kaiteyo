@@ -6,6 +6,7 @@ import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Spacer
@@ -142,10 +143,12 @@ private fun LoadedState(
     }
 
     LazyColumn(
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier
+            .fillMaxSize()
             .wrapContentWidth()
             .widthIn(max = 400.dp)
-            .padding(horizontal = 10.dp),
+            .padding(horizontal = 12.dp),
+        contentPadding = androidx.compose.foundation.layout.PaddingValues(top = 8.dp, bottom = 24.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
 
@@ -160,7 +163,10 @@ private fun LoadedState(
                 trailingContent = {
                     Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null)
                 },
-                modifier = Modifier.clip(MaterialTheme.shapes.large).clickable(createEmpty)
+                modifier = Modifier
+                        .clip(MaterialTheme.shapes.large)
+                        .background(MaterialTheme.colorScheme.surface)
+                        .clickable(createEmpty)
             )
         }
 
@@ -257,7 +263,10 @@ private fun CategoryHeader(
             }
             Icon(icon, null)
         },
-        modifier = modifier.clip(MaterialTheme.shapes.large).clickable(toggleCategoryExpanded)
+        modifier = modifier
+            .clip(MaterialTheme.shapes.large)
+            .background(MaterialTheme.colorScheme.surface)
+            .clickable(toggleCategoryExpanded)
     )
 }
 
@@ -303,7 +312,10 @@ private fun CategoryItem(
                 )
             }
         },
-        modifier = modifier.clip(MaterialTheme.shapes.large).clickable {
+        modifier = modifier
+            .clip(MaterialTheme.shapes.large)
+            .background(MaterialTheme.colorScheme.surface)
+            .clickable {
             when (deck) {
                 is LetterDeckPickerDeck -> onLetterDeckClick(deck.classification, title)
                 is VocabDeckPickerDeck -> onVocabDeckClick(deck.classification, title)

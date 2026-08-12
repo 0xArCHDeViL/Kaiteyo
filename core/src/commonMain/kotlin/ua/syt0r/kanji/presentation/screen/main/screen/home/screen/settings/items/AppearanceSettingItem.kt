@@ -93,32 +93,39 @@ class AppearanceSettingItem(
             modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
         )
 
-        Row(
+        Column(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 12.dp),
-            horizontalArrangement = Arrangement.SpaceEvenly
+            verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            BaseMode.entries.forEach { mode ->
-                val isSelected = themeState.baseMode == mode
-                BaseModeCard(
-                    modifier = Modifier.weight(1f).padding(horizontal = 4.dp),
-                    mode = mode,
-                    isSelected = isSelected,
-                    onClick = {
-                        coroutineScope.launch {
-                            themeState.baseMode = mode
-                            // Map BaseMode to PreferencesTheme for persistence
-                            val prefTheme = when (mode) {
-                                BaseMode.Oled -> PreferencesTheme.Amoled
-                                BaseMode.Dark -> PreferencesTheme.Dark
-                                BaseMode.Light -> PreferencesTheme.Light
-                                BaseMode.Sepia -> PreferencesTheme.Light
+            BaseMode.entries.chunked(2).forEach { rowModes ->
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    rowModes.forEach { mode ->
+                        val isSelected = themeState.baseMode == mode
+                        BaseModeCard(
+                            modifier = Modifier.weight(1f),
+                            mode = mode,
+                            isSelected = isSelected,
+                            onClick = {
+                                coroutineScope.launch {
+                                    themeState.baseMode = mode
+                                    val prefTheme = when (mode) {
+                                        BaseMode.Oled -> PreferencesTheme.Amoled
+                                        BaseMode.Dark -> PreferencesTheme.Dark
+                                        BaseMode.Light -> PreferencesTheme.Light
+                                        BaseMode.Sepia -> PreferencesTheme.Light
+                                    }
+                                    themeManager.changeTheme(prefTheme)
+                                }
                             }
-                            themeManager.changeTheme(prefTheme)
-                        }
+                        )
                     }
-                )
+                    if (rowModes.size == 1) Spacer(Modifier.weight(1f))
+                }
             }
         }
 

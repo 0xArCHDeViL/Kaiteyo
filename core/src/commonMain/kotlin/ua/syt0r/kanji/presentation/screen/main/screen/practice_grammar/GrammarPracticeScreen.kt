@@ -3,6 +3,7 @@ package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import org.koin.compose.koinInject
 import org.koin.core.parameter.parametersOf
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueItemDescriptor
@@ -39,8 +40,11 @@ fun GrammarPracticeScreen(
         }
     }
 
+    val viewModelParameters = remember(configuration.deckId, items) {
+        { parametersOf(configuration.deckId, items) }
+    }
     val viewModel = koinInject<GrammarPracticeViewModel>(
-        parameters = { parametersOf(configuration.deckId, items) }
+        parameters = viewModelParameters
     )
     val state by viewModel.state.collectAsState()
 
