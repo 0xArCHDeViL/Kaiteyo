@@ -22,7 +22,8 @@ class AndroidKanaTtsManager(
         if (!::romajiToMediaItem.isInitialized) {
             initializeVoice()
         }
-        player.setMediaItem(romajiToMediaItem.getValue(reading.nihonShiki))
+        val mediaItem = romajiToMediaItem[reading.nihonShiki] ?: return@withContext
+        player.setMediaItem(mediaItem)
         player.prepare()
         player.play()
     }

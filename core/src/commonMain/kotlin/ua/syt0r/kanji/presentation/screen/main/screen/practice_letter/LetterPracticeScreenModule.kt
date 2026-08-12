@@ -71,7 +71,8 @@ val letterPracticeScreenModule = module {
             practiceQueue = get { it },
             getReviewStateUseCase = get { it },
             analyticsManager = get(),
-            kanaTtsManager = get()
+            kanaTtsManager = get(),
+            appTtsManager = get()
         )
     }
 

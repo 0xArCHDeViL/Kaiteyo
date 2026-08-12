@@ -44,7 +44,7 @@ actual val platformComponentsModule: Module = module {
 
     factory { LoggerConfiguration(isEnabled = BuildConfig.DEBUG) }
 
-    factory { ExoPlayer.Builder(androidContext()).build() }
+    single { ExoPlayer.Builder(androidContext()).build() }
 
     factory<SyncBackupFileProvider> {
         AndroidSyncBackupFileProvider(
@@ -52,7 +52,7 @@ actual val platformComponentsModule: Module = module {
         )
     }
 
-    factory<KanaTtsManager> {
+    single<KanaTtsManager> {
         AndroidKanaTtsManager(
             player = get(),
             voiceData = Neural2BKanaVoiceData(
@@ -61,7 +61,7 @@ actual val platformComponentsModule: Module = module {
         )
     }
 
-    factory<AppTtsManager> {
+    single<AppTtsManager> {
         AndroidAppTtsManager(
             context = get()
         )
