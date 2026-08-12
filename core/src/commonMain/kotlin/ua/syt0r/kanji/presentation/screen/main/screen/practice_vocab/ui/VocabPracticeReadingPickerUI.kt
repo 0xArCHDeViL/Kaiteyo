@@ -33,6 +33,7 @@ import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
 import ua.syt0r.kanji.core.app_data.data.withoutAnnotations
+import ua.syt0r.kanji.core.app_data.data.toKanaReading
 import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
 import ua.syt0r.kanji.presentation.common.ui.CenteredBoxWithSide
 import ua.syt0r.kanji.presentation.common.ui.FuriganaText

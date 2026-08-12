@@ -68,6 +68,7 @@ import ua.syt0r.kanji.presentation.common.ui.CenteredBoxWithSide
 import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
 import ua.syt0r.kanji.presentation.common.ui.Orientation
 import ua.syt0r.kanji.core.app_data.data.withoutAnnotations
+import ua.syt0r.kanji.core.app_data.data.toKanaReading
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BrushSelector
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BrushSettings
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWriter
