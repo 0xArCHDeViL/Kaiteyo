@@ -263,7 +263,9 @@ fun NavShell(
                     }
                     .let { base ->
                         if (!isOverlay && !shouldHide && LocalOrientation.current == Orientation.Landscape) {
-                            base.padding(top = 12.dp, bottom = 12.dp, end = 12.dp)
+                            val padStart = if (layout.sidebarPosition == SidebarPosition.Right) 12.dp else 0.dp
+                            val padEnd = if (layout.sidebarPosition == SidebarPosition.Left) 12.dp else 0.dp
+                            base.padding(top = 12.dp, bottom = 12.dp, start = padStart, end = padEnd)
                                 .clip(RoundedCornerShape(Dimens.Radius2xl))
                                 .background(MaterialTheme.colorScheme.surface)
                         } else {

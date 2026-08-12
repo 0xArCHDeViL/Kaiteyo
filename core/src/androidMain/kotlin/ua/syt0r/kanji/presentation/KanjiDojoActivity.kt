@@ -22,6 +22,11 @@ open class KaiteyoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         themeManager.invalidate()
+        
+        // Lock phones to portrait to prevent desktop/landscape views from rendering on small screens
+        if (resources.configuration.smallestScreenWidthDp < 600) {
+            requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+        }
 
         Logger.d("intentData[${intent.dataString}]")
         intent.dataString?.let { deepLinkHandler.notifyDeepLink(it) }
