@@ -4,7 +4,10 @@ import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.Gra
 import kotlin.random.Random
 
 private val japaneseTokenRegex = Regex("[一-龯々ぁ-んァ-ヶー]+|[０-９0-9]+|[。、！？!?]|[^\\s]")
-private val speakerPrefixRegex = Regex("^[A-Za-zＡ-Ｚａ-ｚ][.．:：]\\s*")
+private val speakerPrefixRegex = Regex("^\\s*([A-Za-zＡ-Ｚａ-ｚ])[.．:：]\\s*")
+private val inlineBracketTranslationRegex = Regex("[（(]\\s*([A-Za-z][^）)]*)[）)]")
+private val postSentenceTranslationRegex = Regex("[。！？!?]\\s*([A-Za-z].*)$")
+private val japaneseSegmentRegex = Regex("[ぁ-んァ-ヶ一-龯々ー０-９0-9\\s、。！？!?「」『』]+")
 
 /** A normalized example line used by every grammar question mode. */
 data class GrammarExample(
@@ -48,7 +51,9 @@ class GrammarQuestionEngine {
 
     fun supportsConjugation(point: GrammarPoint): Boolean = targetConjugation(point.formulaTitle) != null
 
-    fun supportsScramble(point: GrammarPoint): Boolean = examples(point).any { tokenize(it.japanese).size >= 3 }
+    fun supportsScramble(point: GrammarPoint): Boolean = examples(point).any { example ->
+        tokenize(example.japanese).count { token -> token.any(::isJapanese) } >= 3
+    }
 
     fun supportsDialogue(point: GrammarPoint): Boolean = examples(point).size >= 2
 
@@ -104,7 +109,7 @@ class GrammarQuestionEngine {
     fun scramble(point: GrammarPoint, seed: Int): ScrambleQuestion? {
         val candidates = examples(point).mapNotNull { example ->
             val tokens = tokenize(example.japanese)
-            if (tokens.size < 3) null else example to tokens
+            if (tokens.count { token -> token.any(::isJapanese) } < 3) null else example to tokens
         }
         val (example, tokens) = candidates.takeIf { it.isNotEmpty() }?.let { it[positive(seed, it.size)] }
             ?: return null
@@ -145,7 +150,52 @@ class GrammarQuestionEngine {
             normalized.split(Regex("[\\s\\u3000]+"))
                 .filter { it.isNotBlank() }
         } else {
-            japaneseTokenRegex.findAll(normalized).map { it.value }.toList()
+            splitUnspacedJapanese(normalized)
+        }
+    }
+
+    private fun splitUnspacedJapanese(text: String): List<String> = buildList {
+        japaneseTokenRegex.findAll(text).forEach { match ->
+            val rawToken = match.value
+            if (!rawToken.any(::isJapanese)) {
+                add(rawToken)
+                return@forEach
+            }
+            val current = StringBuilder()
+            var index = 0
+            while (index < rawToken.length) {
+                val particle = PARTICLES
+                    .asSequence()
+                    .sortedByDescending(String::length)
+                    .firstOrNull { candidate ->
+                        current.isNotEmpty() &&
+                            rawToken.startsWith(candidate, index) &&
+                            !(candidate == "で" && rawToken.startsWith("です", index))
+                    }
+                if (particle == null) {
+                    current.append(rawToken[index])
+                    index += 1
+                } else {
+                    addJapaneseLexeme(current.toString())
+                    add(particle)
+                    current.clear()
+                    index += particle.length
+                }
+            }
+            addJapaneseLexeme(current.toString())
+        }
+    }
+
+    private fun MutableList<String>.addJapaneseLexeme(lexeme: String) {
+        if (lexeme.isBlank()) return
+        val ending = FORM_ENDINGS.firstOrNull { candidate ->
+            lexeme.length > candidate.length && lexeme.endsWith(candidate)
+        }
+        if (ending == null) {
+            add(lexeme)
+        } else {
+            add(lexeme.dropLast(ending.length))
+            add(ending)
         }
     }
 
@@ -154,7 +204,9 @@ class GrammarQuestionEngine {
 
     fun cleanSpeaker(text: String): String = text
         .lineSequence()
-        .joinToString(" ") { line -> speakerPrefixRegex.replace(line.trim(), "") }
+        .map(::japaneseOnlyLine)
+        .filter { it.isNotBlank() }
+        .joinToString(" ")
         .replace(Regex("\\s+"), " ")
         .trim()
 
@@ -164,17 +216,41 @@ class GrammarQuestionEngine {
     private fun parseExample(raw: String): List<GrammarExample> {
         val lines = raw.lines().map { it.trim() }.filter { it.isNotBlank() }
         if (lines.isEmpty()) return emptyList()
-        val japaneseLines = lines.filter { line -> line.any(::isJapanese) }
-        if (japaneseLines.isEmpty()) return emptyList()
-        val meaning = lines.filterNot { line -> line.any(::isJapanese) }.joinToString(" ")
-        return japaneseLines.map { line ->
-            val speaker = line.firstOrNull()?.takeIf { it.isLetter() }?.toString()
+        val fallbackMeaning = lines.filterNot { line -> line.any(::isJapanese) }.joinToString(" ")
+        return lines.mapNotNull { line ->
+            val japanese = japaneseOnlyLine(line)
+            if (japanese.isBlank()) return@mapNotNull null
+            val speaker = speakerPrefixRegex.find(line)?.groupValues?.getOrNull(1)
             GrammarExample(
-                japanese = cleanSpeaker(line),
-                meaning = meaning,
+                japanese = japanese,
+                meaning = inlineMeaning(line).ifBlank { fallbackMeaning },
                 speaker = speaker,
             )
         }
+    }
+
+    private fun japaneseOnlyLine(line: String): String {
+        val withoutSpeaker = speakerPrefixRegex.replace(line.trim(), "")
+        val withoutBracketTranslation = inlineBracketTranslationRegex.replace(withoutSpeaker, "")
+        val postSentenceTranslation = postSentenceTranslationRegex.find(withoutBracketTranslation)
+        val candidate = if (postSentenceTranslation == null) {
+            withoutBracketTranslation
+        } else {
+            withoutBracketTranslation.substring(0, postSentenceTranslation.range.first + 1)
+        }
+        return japaneseSegmentRegex.findAll(candidate)
+            .map { it.value.trim() }
+            .filter { it.any(::isJapanese) }
+            .maxByOrNull { segment -> segment.count(::isJapanese) }
+            ?.trim()
+            .orEmpty()
+    }
+
+    private fun inlineMeaning(line: String): String {
+        val withoutSpeaker = speakerPrefixRegex.replace(line.trim(), "")
+        inlineBracketTranslationRegex.find(withoutSpeaker)?.let { return it.groupValues[1].trim() }
+        postSentenceTranslationRegex.find(withoutSpeaker)?.let { return it.groupValues[1].trim() }
+        return ""
     }
 
     private data class ClozeAnswer(val index: Int, val value: String)
@@ -258,6 +334,7 @@ class GrammarQuestionEngine {
 
     private companion object {
         val PARTICLES = listOf("は", "が", "を", "に", "へ", "で", "と", "も", "の", "から", "まで", "より", "や")
+        val FORM_ENDINGS = listOf("しました", "します", "でした", "ます", "ません", "です", "ない", "た", "て")
 
         val VERB_LEXICON = listOf(
             godan("いく", "Pergi"), godan("かく", "Menulis"), godan("きく", "Mendengar/bertanya"),

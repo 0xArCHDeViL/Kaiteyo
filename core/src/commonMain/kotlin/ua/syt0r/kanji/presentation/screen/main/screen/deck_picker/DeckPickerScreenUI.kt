@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -190,21 +191,27 @@ private fun LoadedState(
                     key = "$categoryIndex description"
                 ) {
                     val description = resolveString(category.description)
-                    ListItem(
-                        headlineContent = {
-                            ClickableText(
-                                text = description,
-                                onClick = { position ->
-                                    description.detectUrlClick(position, onLinkClick)
-                                },
-                                style = MaterialTheme.typography.bodySmall.copy(
-                                    color = MaterialTheme.colorScheme.onSurface,
-                                    textAlign = TextAlign.Justify
-                                ),
-                            )
-                        },
-                        modifier = Modifier.animateItem()
-                    )
+                    Card(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .animateItem(),
+                        shape = MaterialTheme.shapes.large,
+                    ) {
+                        ListItem(
+                            headlineContent = {
+                                ClickableText(
+                                    text = description,
+                                    onClick = { position ->
+                                        description.detectUrlClick(position, onLinkClick)
+                                    },
+                                    style = MaterialTheme.typography.bodySmall.copy(
+                                        color = MaterialTheme.colorScheme.onSurface,
+                                        textAlign = TextAlign.Justify,
+                                    ),
+                                )
+                            },
+                        )
+                    }
                 }
 
                 itemsIndexed(

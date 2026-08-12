@@ -71,6 +71,22 @@ class GrammarQuestionEngineTest {
     }
 
     @Test
+    fun scrambleExcludesInlineIndonesianTranslationFromJapaneseTokens() {
+        val point = GrammarPoint(
+            number = "【04】",
+            formulaTitle = "KB は KB です",
+            meaning = "identitas",
+            formulas = emptyList(),
+            examples = listOf("A：私は学生です。(Saya adalah seorang siswa.)"),
+            notes = "",
+        )
+        val question = engine.scramble(point, seed = 5)
+        assertNotNull(question)
+        assertEquals("私は学生です。", question.sentence)
+        assertTrue(question.tokens.none { token -> token.any { it in 'A'..'Z' || it in 'a'..'z' } })
+    }
+
+    @Test
     fun unsupportedModesAreNotAdvertised() {
         val point = GrammarPoint(
             number = "【04】",

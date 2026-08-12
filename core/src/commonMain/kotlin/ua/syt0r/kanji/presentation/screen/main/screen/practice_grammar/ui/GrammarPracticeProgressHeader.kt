@@ -3,8 +3,11 @@ package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBars
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -19,7 +22,10 @@ fun GrammarPracticeProgressHeader(progress: PracticeQueueProgress) {
     val total = progress.pending + progress.repeats + progress.completed
     val fraction = if (total == 0) 0f else (progress.completed.toFloat() / total).coerceIn(0f, 1f)
     Column(
-        modifier = Modifier.fillMaxWidth().padding(horizontal = Dimens.WindowPadding, vertical = 8.dp),
+        modifier = Modifier
+            .fillMaxWidth()
+            .windowInsetsPadding(WindowInsets.statusBars)
+            .padding(horizontal = Dimens.WindowPadding, vertical = 8.dp),
         verticalArrangement = Arrangement.spacedBy(6.dp),
     ) {
         Row(modifier = Modifier.fillMaxWidth()) {
