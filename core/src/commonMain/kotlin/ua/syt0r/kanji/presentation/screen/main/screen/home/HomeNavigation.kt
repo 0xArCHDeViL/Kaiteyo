@@ -1,6 +1,6 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home
 
-import androidx.compose.animation.Crossfade
+import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
@@ -51,9 +51,13 @@ fun MultiplatformHomeNavigationContent(
 
     val stateHolder = rememberSaveableStateHolder()
 
-    Crossfade(
+    androidx.compose.animation.AnimatedContent(
         targetState = homeNavigationState.selectedTab.value,
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier.fillMaxSize(),
+        transitionSpec = {
+            androidx.compose.animation.fadeIn(androidx.compose.animation.core.tween(300)) togetherWith 
+                androidx.compose.animation.fadeOut(androidx.compose.animation.core.tween(300))
+        }
     ) { tab ->
         stateHolder.SaveableStateProvider(tab.name) {
             tab.content(mainNavigationState)

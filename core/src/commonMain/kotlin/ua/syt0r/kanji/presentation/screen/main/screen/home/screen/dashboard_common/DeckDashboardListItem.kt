@@ -58,6 +58,7 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
@@ -148,7 +149,7 @@ fun RowScope.DeckDashboardListItemHeader(
 
     Box(
         modifier = Modifier
-            .padding(start = 16.dp)
+            .padding(start = Dimens.Space4)
             .background(MaterialTheme.colorScheme.surfaceVariant, CircleShape)
             .padding(2.dp)
             .size(20.dp)
@@ -163,11 +164,11 @@ fun RowScope.DeckDashboardListItemHeader(
 
     Column(
         modifier = Modifier.weight(1f)
-            .padding(vertical = 10.dp),
+            .padding(vertical = Dimens.Space2),
     ) {
 
         Text(
-            text = title,
+            text = title.replace(Regex("[🥚🐣🐥🐓🐉]"), "").trim(),
             style = MaterialTheme.typography.titleMedium
         )
 

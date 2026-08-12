@@ -8,6 +8,9 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsHoveredAsState
+import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -45,6 +48,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.presentation.common.MultiplatformDialog
@@ -145,13 +149,30 @@ fun SettingsSwitchRow(
     val surfaceColors = ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors.current
     val shape = MaterialTheme.shapes.large
 
+    val interactionSource = remember { androidx.compose.foundation.interaction.MutableInteractionSource() }
+    val isPressed by interactionSource.collectIsPressedAsState()
+    val isHovered by interactionSource.collectIsHoveredAsState()
+    val scale by androidx.compose.animation.core.animateFloatAsState(
+        targetValue = if (isPressed) 0.98f else if (isHovered) 1.02f else 1f,
+        animationSpec = androidx.compose.animation.core.spring(dampingRatio = androidx.compose.animation.core.Spring.DampingRatioMediumBouncy)
+    )
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
+            .graphicsLayer {
+                scaleX = scale
+                scaleY = scale
+            }
             .clip(shape)
             .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), shape)
-            .clickable { onToggled() },
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+            .clickable(
+                interactionSource = interactionSource,
+                indication = androidx.compose.foundation.LocalIndication.current
+            ) { onToggled() },
+        colors = CardDefaults.cardColors(
+            containerColor = if (isHovered || isPressed) MaterialTheme.colorScheme.surface else MaterialTheme.colorScheme.surfaceVariant
+        ),
         shape = shape
     ) {
         ListItem(
@@ -205,13 +226,30 @@ fun SettingsTextButton(
     val surfaceColors = ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors.current
     val shape = MaterialTheme.shapes.large
 
+    val interactionSource = remember { androidx.compose.foundation.interaction.MutableInteractionSource() }
+    val isPressed by interactionSource.collectIsPressedAsState()
+    val isHovered by interactionSource.collectIsHoveredAsState()
+    val scale by androidx.compose.animation.core.animateFloatAsState(
+        targetValue = if (isPressed) 0.98f else if (isHovered) 1.02f else 1f,
+        animationSpec = androidx.compose.animation.core.spring(dampingRatio = androidx.compose.animation.core.Spring.DampingRatioMediumBouncy)
+    )
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
+            .graphicsLayer {
+                scaleX = scale
+                scaleY = scale
+            }
             .clip(shape)
             .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Medium), shape)
-            .clickable(onClick = onClick),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+            .clickable(
+                interactionSource = interactionSource,
+                indication = androidx.compose.foundation.LocalIndication.current
+            ) { onClick() },
+        colors = CardDefaults.cardColors(
+            containerColor = if (isHovered || isPressed) MaterialTheme.colorScheme.surface else MaterialTheme.colorScheme.surfaceVariant
+        ),
         shape = shape
     ) {
         ListItem(

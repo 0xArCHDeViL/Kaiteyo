@@ -1,6 +1,6 @@
 package ua.syt0r.kanji.presentation.screen.main
 
-import androidx.compose.animation.Crossfade
+import androidx.compose.animation.togetherWith
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.derivedStateOf
@@ -25,8 +25,12 @@ fun MultiplatformMainNavigation(
 
     MultiplatformBackHandler { state.navigateBack() }
 
-    Crossfade(
-        targetState = state.currentDestination.value
+    androidx.compose.animation.AnimatedContent(
+        targetState = state.currentDestination.value,
+        transitionSpec = {
+            androidx.compose.animation.fadeIn(androidx.compose.animation.core.tween(300)) togetherWith 
+                androidx.compose.animation.fadeOut(androidx.compose.animation.core.tween(300))
+        }
     ) { destination ->
         state.stateHolder.SaveableStateProvider(destination.toString()) {
             key(destination) { destination.Content(state) }
