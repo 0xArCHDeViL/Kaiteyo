@@ -9,6 +9,10 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
@@ -27,10 +31,11 @@ import ua.syt0r.kanji.presentation.common.theme.SidebarPosition
 
 class NavLayoutManager(
     private val appPreferences: PreferencesContract.AppPreferences,
-    dispatcher: CoroutineDispatcher = Dispatchers.Unconfined
+    dispatcher: CoroutineDispatcher = Dispatchers.IO
 ) {
 
-    private val coroutineScope = CoroutineScope(dispatcher)
+    private val coroutineScope = CoroutineScope(SupervisorJob() + dispatcher)
+    private val pendingLayoutConfig = MutableStateFlow<LayoutConfig?>(null)
 
     val sidebarMode: MutableState<SidebarMode> = mutableStateOf(SidebarMode.Expanded)
     val sidebarPosition: MutableState<SidebarPosition> = mutableStateOf(SidebarPosition.Left)
@@ -53,29 +58,36 @@ class NavLayoutManager(
         appPreferences.navFloatingOffsetX.onModified.onEach { reload() }.launchIn(coroutineScope)
         appPreferences.navFloatingOffsetY.onModified.onEach { reload() }.launchIn(coroutineScope)
         appPreferences.navAccentIndex.onModified.onEach { reload() }.launchIn(coroutineScope)
+        coroutineScope.launch {
+            pendingLayoutConfig
+                .filterNotNull()
+                .collect(::persist)
+        }
     }
 
     fun syncFrom(config: LayoutConfig) {
-        coroutineScope.launch {
-            if (sidebarMode.value != config.sidebarMode)
-                appPreferences.navSidebarMode.set(config.sidebarMode.name)
-            if (sidebarPosition.value != config.sidebarPosition)
-                appPreferences.navSidebarPosition.set(config.sidebarPosition.name)
-            if (autoHide.value != config.autoHide)
-                appPreferences.navAutoHide.set(config.autoHide.name)
-            if (collapsed.value != config.collapsed)
-                appPreferences.navCollapsed.set(config.collapsed)
-            if (panelWidth.value != config.panelWidth)
-                appPreferences.navWidth.set(config.panelWidth.value.roundToInt())
-            if (panelHeight.value != config.panelHeight)
-                appPreferences.navHeight.set(config.panelHeight.value.roundToInt())
-            if (floatingOffset.value != config.floatingOffset) {
-                appPreferences.navFloatingOffsetX.set(config.floatingOffset.x.value.roundToInt())
-                appPreferences.navFloatingOffsetY.set(config.floatingOffset.y.value.roundToInt())
-            }
-            if (accentIndex.value != config.accentIndex)
-                appPreferences.navAccentIndex.set(config.accentIndex)
+        pendingLayoutConfig.value = config
+    }
+
+    private suspend fun persist(config: LayoutConfig) {
+        if (sidebarMode.value != config.sidebarMode)
+            appPreferences.navSidebarMode.set(config.sidebarMode.name)
+        if (sidebarPosition.value != config.sidebarPosition)
+            appPreferences.navSidebarPosition.set(config.sidebarPosition.name)
+        if (autoHide.value != config.autoHide)
+            appPreferences.navAutoHide.set(config.autoHide.name)
+        if (collapsed.value != config.collapsed)
+            appPreferences.navCollapsed.set(config.collapsed)
+        if (panelWidth.value != config.panelWidth)
+            appPreferences.navWidth.set(config.panelWidth.value.roundToInt())
+        if (panelHeight.value != config.panelHeight)
+            appPreferences.navHeight.set(config.panelHeight.value.roundToInt())
+        if (floatingOffset.value != config.floatingOffset) {
+            appPreferences.navFloatingOffsetX.set(config.floatingOffset.x.value.roundToInt())
+            appPreferences.navFloatingOffsetY.set(config.floatingOffset.y.value.roundToInt())
         }
+        if (accentIndex.value != config.accentIndex)
+            appPreferences.navAccentIndex.set(config.accentIndex)
     }
 
     private fun reload() {

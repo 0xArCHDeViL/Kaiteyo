@@ -8,6 +8,7 @@ import androidx.compose.runtime.mutableStateOf
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
@@ -17,10 +18,10 @@ import ua.syt0r.kanji.core.user_data.preferences.PreferencesTheme
 
 open class ThemeManager(
     private val appPreferences: PreferencesContract.AppPreferences,
-    dispatcher: CoroutineDispatcher = Dispatchers.Unconfined
+    dispatcher: CoroutineDispatcher = Dispatchers.Default
 ) {
 
-    protected val coroutineScope = CoroutineScope(dispatcher)
+    protected val coroutineScope = CoroutineScope(SupervisorJob() + dispatcher)
 
     private val _currentTheme = mutableStateOf(PreferencesTheme.System)
     val currentTheme: State<PreferencesTheme> = _currentTheme

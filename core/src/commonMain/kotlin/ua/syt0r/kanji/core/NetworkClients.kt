@@ -14,6 +14,7 @@ import io.ktor.client.request.setBody
 import io.ktor.client.statement.bodyAsText
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.serialization.json.Json
@@ -52,7 +53,7 @@ class DefaultNetworkClients(
     engineFactory: HttpClientEngineFactory<*>
 ) : NetworkClients {
 
-    private val coroutineScope = CoroutineScope(Dispatchers.Unconfined)
+    private val coroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
 
     init {
         appPreferences.refreshToken.onModified
@@ -107,7 +108,8 @@ class DefaultNetworkClients(
 
             Logger.d("response status[${response.status}]")
             val body = Json.decodeFromString<JsonObject>(response.bodyAsText())
-            val idToken = body["id_token"]!!.jsonPrimitive.content
+            val idToken = body["id_token"]?.jsonPrimitive?.content
+                ?: error("Token refresh response did not contain id_token")
             Logger.d("Received new id token")
 
             appPreferences.idToken.set(idToken)

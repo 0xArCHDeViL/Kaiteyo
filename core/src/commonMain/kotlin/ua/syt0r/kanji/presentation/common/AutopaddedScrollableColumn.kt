@@ -25,6 +25,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.layout.positionInRoot
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -71,15 +72,24 @@ fun Modifier.trackOverlay(state: ExtraListSpacerState): Modifier =
 
 class ExtraListSpacerState {
 
-    private val listCoordinatesState = mutableStateOf<LayoutCoordinates?>(null)
-    private val overlayCoordinatesState = mutableStateOf<LayoutCoordinates?>(null)
+    private data class LayoutSnapshot(
+        val position: Offset,
+        val size: androidx.compose.ui.unit.IntSize,
+    )
+
+    private val listSnapshotState = mutableStateOf<LayoutSnapshot?>(null)
+    private val overlaySnapshotState = mutableStateOf<LayoutSnapshot?>(null)
 
     fun updateList(layoutCoordinates: LayoutCoordinates) {
-        listCoordinatesState.value = layoutCoordinates
+        if (!layoutCoordinates.isAttached) return
+        val next = LayoutSnapshot(layoutCoordinates.positionInRoot(), layoutCoordinates.size)
+        if (listSnapshotState.value != next) listSnapshotState.value = next
     }
 
     fun updateOverlay(layoutCoordinates: LayoutCoordinates) {
-        overlayCoordinatesState.value = layoutCoordinates
+        if (!layoutCoordinates.isAttached) return
+        val next = LayoutSnapshot(layoutCoordinates.positionInRoot(), layoutCoordinates.size)
+        if (overlaySnapshotState.value != next) overlaySnapshotState.value = next
     }
 
     @Composable
@@ -88,20 +98,21 @@ class ExtraListSpacerState {
 
         val density = LocalDensity.current
         LaunchedEffect(Unit) {
-            snapshotFlow { listCoordinatesState.value }
+            snapshotFlow { listSnapshotState.value }
                 .combineTransform(
-                    flow = snapshotFlow { overlayCoordinatesState.value },
-                    transform = { a, b ->
-                        if (a != null && b != null && a.isAttached && b.isAttached) {
-                            emit(a to b)
+                    flow = snapshotFlow { overlaySnapshotState.value },
+                    transform = { listSnapshot, overlaySnapshot ->
+                        if (listSnapshot != null && overlaySnapshot != null) {
+                            emit(listSnapshot to overlaySnapshot)
                         }
                     }
                 )
-                .collect { (listCoords, overlayCoords) ->
-                    val listBottomY = listCoords.positionInRoot().y + listCoords.size.height
-                    val overlayTopY = overlayCoords.positionInRoot().y
+                .collect { (listSnapshot, overlaySnapshot) ->
+                    val listBottomY = listSnapshot.position.y + listSnapshot.size.height
+                    val overlayTopY = overlaySnapshot.position.y
                     val extraSpacing = with(density) { max(0f, listBottomY - overlayTopY).toDp() }
-                    resultSpacing.value = minimalSpacing.value + extraSpacing.value
+                    val nextSpacing = minimalSpacing.value + extraSpacing.value
+                    if (resultSpacing.value != nextSpacing) resultSpacing.value = nextSpacing
                 }
 
         }

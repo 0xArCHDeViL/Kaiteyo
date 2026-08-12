@@ -4,6 +4,7 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.edit
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
@@ -32,7 +33,7 @@ class DataStorePreferencesManager(
     private val dataStore: DataStore<androidx.datastore.preferences.core.Preferences>,
     private val timeUtils: TimeUtils,
     private val migrationManager: UserPreferencesMigrationManager,
-    private val coroutineScope: CoroutineScope = CoroutineScope(Dispatchers.Unconfined)
+    private val coroutineScope: CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
 ) : PreferencesManager,
     BackupPropertiesHolder,
     SuspendedPropertyCreatorScope {

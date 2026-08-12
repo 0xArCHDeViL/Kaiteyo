@@ -3,6 +3,7 @@ package ua.syt0r.kanji.core.srs
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.IO
+import kotlinx.coroutines.SupervisorJob
 import org.koin.core.module.Module
 import ua.syt0r.kanji.core.srs.fsrs.DefaultFsrsScheduler
 import ua.syt0r.kanji.core.srs.fsrs.Fsrs5
@@ -26,7 +27,7 @@ fun Module.applySrsDefinitions() {
             reviewHistoryRepository = get(),
             timeUtils = get(),
             appPreferences = get(),
-            coroutineScope = CoroutineScope(Dispatchers.IO)
+            coroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
         )
     }
 
@@ -44,7 +45,7 @@ fun Module.applySrsDefinitions() {
     single<SrsMicroMlEngine> {
         SrsMicroMlEngine(
             profileStorage = get<ua.syt0r.kanji.core.user_data.preferences.PreferencesContract.AppPreferences>().reviewPersonalizationJson,
-            scope = CoroutineScope(Dispatchers.IO)
+            scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
         )
     }
 
@@ -56,7 +57,7 @@ fun Module.applySrsDefinitions() {
             timeUtils = get(),
             appPreferences = get(),
             reviewHistoryRepository = get(),
-            coroutineScope = CoroutineScope(Dispatchers.IO)
+            coroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
         )
     }
 
@@ -67,7 +68,7 @@ fun Module.applySrsDefinitions() {
             timeUtils = get(),
             appPreferences = get(),
             reviewHistoryRepository = get(),
-            coroutineScope = CoroutineScope(Dispatchers.IO)
+            coroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
         )
     }
 
