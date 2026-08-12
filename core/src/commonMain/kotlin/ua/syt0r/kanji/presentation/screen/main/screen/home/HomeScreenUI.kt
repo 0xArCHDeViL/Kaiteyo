@@ -51,90 +51,9 @@ fun HomeScreenUI(
     onSyncButtonClick: () -> Unit,
     screenTabContent: @Composable () -> Unit
 ) {
-    if (LocalOrientation.current == Orientation.Landscape) {
-        Row(
-            modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)
-        ) {
-            // Premium Detached Sidebar (Glassmorphic)
-            Box(
-                modifier = Modifier
-                    .fillMaxHeight()
-                    .padding(vertical = 24.dp, horizontal = 24.dp)
-                    .width(IntrinsicSize.Max)
-            ) {
-                Box(
-                    modifier = Modifier
-                        .fillMaxHeight()
-                        .shadow(
-                            elevation = 12.dp,
-                            shape = RoundedCornerShape(Dimens.Radius2xl),
-                            spotColor = MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Light),
-                            ambientColor = MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Subtle)
-                        )
-                        .clip(RoundedCornerShape(Dimens.Radius2xl))
-                        .background(MaterialTheme.colorScheme.surface.copy(alpha = Dimens.Alpha.HighEmphasis))
-                        .blur(32.dp) // Glassmorphism
-                )
-                Column(
-                    modifier = Modifier
-                        .fillMaxHeight()
-                        .clip(RoundedCornerShape(Dimens.Radius2xl))
-                        .background(MaterialTheme.colorScheme.surface.copy(alpha = Dimens.Alpha.HighEmphasis))
-                        .verticalScroll(rememberScrollState())
-                        .padding(vertical = 36.dp, horizontal = 24.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally
-                ) {
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                        modifier = Modifier.fillMaxWidth()
-                    ) {
-                        Text(
-                            text = resolveString { appName },
-                            style = MaterialTheme.typography.headlineMedium,
-                            color = MaterialTheme.colorScheme.primary,
-                        )
-                        Spacer(modifier = Modifier.width(16.dp))
-                        SyncButton(state = syncIconState, onClick = onSyncButtonClick)
-                    }
-
-                    Spacer(modifier = Modifier.height(48.dp))
-
-                    availableTabs.forEach { tab ->
-                        HorizontalTabButton(
-                            tab = tab,
-                            selected = tab == selectedTabState.value,
-                            onClick = { onTabSelected(tab) }
-                        )
-                        Spacer(modifier = Modifier.height(16.dp))
-                    }
-
-                    Spacer(modifier = Modifier.weight(1f))
-                }
-            }
-
-            // Main Content Area with elegant inner shadow feel
-            Surface(
-                modifier = Modifier
-                    .weight(1f)
-                    .fillMaxHeight()
-                    .clip(RoundedCornerShape(topStart = 48.dp, bottomStart = 48.dp)),
-                color = MaterialTheme.colorScheme.background
-            ) {
-                AnimatedContent(
-                    targetState = selectedTabState.value,
-                    transitionSpec = {
-                        fadeIn(tween(300)) togetherWith fadeOut(tween(300))
-                    }
-                ) {
-                    Box(modifier = Modifier.fillMaxSize()) {
-                        screenTabContent.invoke()
-                    }
-                }
-            }
-        }
-    } else {
-        KaiteyoScaffold(
+    val isLandscape = LocalOrientation.current == Orientation.Landscape
+    
+    KaiteyoScaffold(
             containerColor = MaterialTheme.colorScheme.background,
             topBar = {
                 CenterAlignedTopAppBar(
@@ -168,11 +87,12 @@ fun HomeScreenUI(
                     modifier = Modifier
                         .fillMaxWidth()
                         .windowInsetsPadding(NavigationBarDefaults.windowInsets)
-                        .padding(horizontal = 24.dp, vertical = 24.dp)
+                        .padding(horizontal = 24.dp, vertical = 24.dp),
+                    contentAlignment = Alignment.Center
                 ) {
                     Row(
                         modifier = Modifier
-                            .fillMaxWidth()
+                            .fillMaxWidth(if (isLandscape) 0.5f else 1f)
                             .shadow(
                                 elevation = 16.dp,
                                 shape = CircleShape,
@@ -212,7 +132,6 @@ fun HomeScreenUI(
                 }
             }
         }
-    }
 }
 
 @Composable

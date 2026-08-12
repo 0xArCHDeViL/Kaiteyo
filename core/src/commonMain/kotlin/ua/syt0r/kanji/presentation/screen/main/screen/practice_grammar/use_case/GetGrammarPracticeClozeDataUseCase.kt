@@ -32,17 +32,18 @@ class DefaultGetGrammarPracticeClozeDataUseCase : GetGrammarPracticeClozeDataUse
         }
 
         // 1. Identify Target Particle / Keyword from Grammar Formula
-        val commonParticles = listOf("は", "が", "を", "に", "へ", "で", "と", "も", "の", "より", "から", "まで", "か")
+        val commonParticles = listOf("は", "が", "を", "に", "へ", "で", "と", "も", "の", "より", "から", "まで", "か", "や", "ね", "よ")
         
-        // Find which particle is in the grammar point formulaTitle and is also present in the Japanese sentence
+        // Find which particle is in the grammar point formulaTitle and is also present in the Japanese sentence as an isolated token
         val targetParticle = commonParticles.firstOrNull { particle -> 
-            point.formulaTitle.contains(particle) && japanese.contains(particle)
+            point.formulaTitle.contains(particle) && Regex("(?<=^|\\s)$particle(?=\\s|$)").containsMatchIn(japanese)
         } ?: commonParticles.firstOrNull { particle -> 
-            japanese.contains(particle)
+            Regex("(?<=^|\\s)$particle(?=\\s|$)").containsMatchIn(japanese)
         } ?: "は" // Fallback
 
-        // 2. Blank out the target particle in the sentence
-        val clozeSentence = japanese.replaceFirst(targetParticle, "____")
+        // 2. Blank out the target particle in the sentence correctly using regex
+        val regex = Regex("(?<=^|\\s)$targetParticle(?=\\s|$)")
+        val clozeSentence = japanese.replaceFirst(regex, "____")
         
         // 3. Generate options ensuring target is present
         val baseOptions = mutableListOf("は", "が", "を", "に", "で", "と", "も", "か").filter { it != targetParticle }
