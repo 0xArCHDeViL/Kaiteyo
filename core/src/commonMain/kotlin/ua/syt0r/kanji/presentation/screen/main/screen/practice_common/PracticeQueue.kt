@@ -18,6 +18,7 @@ import ua.syt0r.kanji.core.srs.SrsCard
 import ua.syt0r.kanji.core.srs.SrsCardKey
 import ua.syt0r.kanji.core.srs.SrsCardRepository
 import ua.syt0r.kanji.core.srs.SrsScheduler
+import ua.syt0r.kanji.core.srs.SrsMicroMlEngine
 import ua.syt0r.kanji.core.time.TimeUtils
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryItem
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryRepository
@@ -65,6 +66,7 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
     protected val timeUtils: TimeUtils,
     protected val srsScheduler: SrsScheduler,
     protected val srsCardRepository: SrsCardRepository,
+    protected val srsMicroMlEngine: SrsMicroMlEngine,
     private val reviewHistoryRepository: ReviewHistoryRepository,
     analyticsManager: AnalyticsManager
 ) : PracticeQueue<State, Descriptor>
@@ -155,7 +157,8 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
         updateState()
 
         srsCardRepository.update(item.srsCardKey, answer.srsAnswer.card)
-        saveReviewHistory(item, answer, instant, reviewDuration)
+        val review = saveReviewHistory(item, answer, instant, reviewDuration)
+        srsMicroMlEngine.observe(item.srsCardKey, review)
         reviewReporter.reportReview(updatedItem, answer, reviewDuration)
     }
 
@@ -168,7 +171,12 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
                 _state.value = getLoadingState()
             }
             val time = timeUtils.now()
-            val srsAnswers = srsScheduler.answers(item.srsCard, time)
+            val srsAnswers = srsMicroMlEngine.schedule(
+                key = item.srsCardKey,
+                card = item.srsCard,
+                scheduler = srsScheduler,
+                reviewTime = time
+            )
 
             item.data.await()
             currentReviewStartInstant = timeUtils.now()
@@ -221,7 +229,7 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
         answer: PracticeAnswer,
         reviewStart: Instant,
         reviewDuration: Duration
-    ) {
+    ): ReviewHistoryItem {
         val item = ReviewHistoryItem(
             key = queueItem.srsCardKey.itemKey,
             practiceType = queueItem.srsCardKey.practiceType,
@@ -232,6 +240,7 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
             deckId = queueItem.deckId
         )
         reviewHistoryRepository.addReview(item)
+        return item
     }
 
 

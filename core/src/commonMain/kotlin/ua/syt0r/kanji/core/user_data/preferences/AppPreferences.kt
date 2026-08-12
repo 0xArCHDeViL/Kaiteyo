@@ -295,6 +295,12 @@ class AppPreferences(
         initialValue = { "" }
     )
 
+    override val reviewPersonalizationJson: SuspendedProperty<String> = createProperty(
+        type = StringSuspendedPropertyType,
+        key = "kaiteyo_review_personalization_json",
+        initialValue = { "" }
+    )
+
     override val backupConfigJson: SuspendedProperty<String> = createProperty(
         type = StringSuspendedPropertyType,
         key = "kaiteyo_backup_config_json",

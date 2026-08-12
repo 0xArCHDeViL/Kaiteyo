@@ -51,6 +51,7 @@ val vocabPracticeScreenModule = module {
             timeUtils = get(),
             srsCardRepository = get(),
             srsScheduler = get(),
+            srsMicroMlEngine = get(),
             getFlashcardReviewStateUseCase = get(),
             getReadingReviewStateUseCase = get(),
             getWritingReviewStateUseCase = get(),

@@ -69,6 +69,7 @@ interface PreferencesContract {
 
         // Kaiteyo features (serialized JSON held in string properties)
         val reviewSettingsJson: SuspendedProperty<String>
+        val reviewPersonalizationJson: SuspendedProperty<String>
         val backupConfigJson: SuspendedProperty<String>
         val savedSearchesJson: SuspendedProperty<String>
         val browserColumnsJson: SuspendedProperty<String>

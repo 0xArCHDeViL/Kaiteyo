@@ -8,6 +8,7 @@ import kotlinx.coroutines.IO
 import kotlinx.coroutines.async
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
 import ua.syt0r.kanji.core.srs.SrsCardRepository
+import ua.syt0r.kanji.core.srs.SrsMicroMlEngine
 import ua.syt0r.kanji.core.srs.SrsScheduler
 import ua.syt0r.kanji.core.time.TimeUtils
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryRepository
@@ -35,6 +36,7 @@ class DefaultGrammarPracticeQueue(
     timeUtils: TimeUtils,
     srsCardRepository: SrsCardRepository,
     srsScheduler: SrsScheduler,
+    srsMicroMlEngine: SrsMicroMlEngine,
     private val getFlashcardReviewStateUseCase: GetGrammarPracticeFlashcardDataUseCase,
     private val getClozeReviewStateUseCase: GetGrammarPracticeClozeDataUseCase,
     private val getConjugationReviewStateUseCase: GetGrammarPracticeConjugationDataUseCase,
@@ -48,6 +50,7 @@ class DefaultGrammarPracticeQueue(
     srsCardRepository = srsCardRepository,
     reviewHistoryRepository = reviewHistoryRepository,
     srsScheduler = srsScheduler,
+    srsMicroMlEngine = srsMicroMlEngine,
     analyticsManager = analyticsManager
 ), GrammarPracticeQueue {
 

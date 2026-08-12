@@ -41,6 +41,13 @@ fun Module.applySrsDefinitions() {
     factory<SrsScheduler> { DefaultSrsScheduler(fsrsScheduler = get()) }
     factory<FsrsScheduler> { DefaultFsrsScheduler(Fsrs5()) }
 
+    single<SrsMicroMlEngine> {
+        SrsMicroMlEngine(
+            profileStorage = get<ua.syt0r.kanji.core.user_data.preferences.PreferencesContract.AppPreferences>().reviewPersonalizationJson,
+            scope = CoroutineScope(Dispatchers.IO)
+        )
+    }
+
     single<VocabSrsManager> {
         DefaultVocabSrsManager(
             practiceRepository = get(),

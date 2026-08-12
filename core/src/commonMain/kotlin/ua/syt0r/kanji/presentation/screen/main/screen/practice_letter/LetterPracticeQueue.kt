@@ -9,6 +9,7 @@ import kotlinx.coroutines.IO
 import kotlinx.coroutines.async
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
 import ua.syt0r.kanji.core.srs.SrsCardRepository
+import ua.syt0r.kanji.core.srs.SrsMicroMlEngine
 import ua.syt0r.kanji.core.srs.SrsScheduler
 import ua.syt0r.kanji.core.time.TimeUtils
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryRepository
@@ -31,6 +32,7 @@ class DefaultLetterPracticeQueue(
     srsCardRepository: SrsCardRepository,
     reviewHistoryRepository: ReviewHistoryRepository,
     srsScheduler: SrsScheduler,
+    srsMicroMlEngine: SrsMicroMlEngine,
     private val getQueueItemDataUseCase: GetLetterPracticeQueueItemDataUseCase,
     analyticsManager: AnalyticsManager
 ) : BaseLetterPracticeQueue(
@@ -38,6 +40,7 @@ class DefaultLetterPracticeQueue(
     timeUtils = timeUtils,
     srsScheduler = srsScheduler,
     srsCardRepository = srsCardRepository,
+    srsMicroMlEngine = srsMicroMlEngine,
     reviewHistoryRepository = reviewHistoryRepository,
     analyticsManager = analyticsManager
 ), LetterPracticeQueue {

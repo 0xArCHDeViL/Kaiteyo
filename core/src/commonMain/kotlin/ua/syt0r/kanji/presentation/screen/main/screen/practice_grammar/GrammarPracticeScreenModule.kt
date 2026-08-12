@@ -46,6 +46,7 @@ val grammarPracticeScreenModule = module {
             timeUtils = get(),
             srsCardRepository = get(),
             srsScheduler = get(),
+            srsMicroMlEngine = get(),
             getFlashcardReviewStateUseCase = get(),
             getClozeReviewStateUseCase = get(),
             getConjugationReviewStateUseCase = get(),
