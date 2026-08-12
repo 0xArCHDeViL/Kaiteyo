@@ -120,16 +120,6 @@ interface MainDestination {
     }
 
     @Serializable
-    object ThemeStudio : MainDestination {
-        override val analyticsName: String = "theme_studio"
-
-        @Composable
-        override fun Content(state: MainNavigationState) {
-            ua.syt0r.kanji.presentation.screen.main.screen.settings.ThemeStudio()
-        }
-    }
-
-    @Serializable
     data class DeckPicker(
         val configuration: DeckPickerScreenConfiguration
     ) : MainDestination {
@@ -718,7 +708,7 @@ val defaultMainDestinations: List<MainDestinationConfiguration<*>> = listOf(
     MainDestination.Sync.configuration(),
     MainDestination.TextAnalysis.configuration(),
     MainDestination.AppearanceStudio.configuration(),
-    MainDestination.ThemeStudio.configuration(),
+
     MainDestination.VocabCard::class.configuration(),
     MainDestination.DeckPicker::class.configuration(),
     MainDestination.DeckDetails::class.configuration(),

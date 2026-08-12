@@ -153,14 +153,6 @@ class AppearanceSettingItem(
                 )
             }
         }
-
-        Spacer(modifier = Modifier.height(8.dp))
-
-        Row(modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
-            Button(onClick = { mainNavigationState.navigate(MainDestination.ThemeStudio) }) {
-                Text(text = "Open Theme Studio")
-            }
-        }
     }
 }
 
