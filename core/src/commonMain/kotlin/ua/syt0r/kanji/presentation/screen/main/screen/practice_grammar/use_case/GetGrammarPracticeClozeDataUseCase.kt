@@ -24,8 +24,6 @@ class DefaultGetGrammarPracticeClozeDataUseCase : GetGrammarPracticeClozeDataUse
         // Find the first example sentence
         val rawExample = point.examples.firstOrNull() ?: "Example missing. Contoh hilang."
         
-        // Very basic parsing: sentences often have a Japanese part and an Indonesian part
-        // Example: "私 は タマ です。Saya adalah Tama."
         val splitIndex = rawExample.indexOf("。")
         val (japanese, indonesian) = if (splitIndex != -1 && splitIndex < rawExample.length - 1) {
             rawExample.substring(0, splitIndex + 1) to rawExample.substring(splitIndex + 1).trim()
@@ -33,15 +31,24 @@ class DefaultGetGrammarPracticeClozeDataUseCase : GetGrammarPracticeClozeDataUse
             rawExample to ""
         }
 
-        // Extremely simple Cloze logic for grammar:
-        // We look for common grammar words or particles to hide, or just randomly hide a part of the formula.
-        // For demonstration of UI logic, we'll hide a random sequence of 1-3 kana.
-        val options = listOf("は", "が", "を", "に") // Mocked options for now
-        val answerIndex = 0
+        // 1. Identify Target Particle / Keyword from Grammar Formula
+        val commonParticles = listOf("は", "が", "を", "に", "へ", "で", "と", "も", "の", "より", "から", "まで", "か")
         
-        // This is a naive mock replacement. In a real scenario, this would use a proper grammar parser
-        // or a pre-defined clozes array in bunpou_data.json.
-        val clozeSentence = japanese.replaceFirst("は", "___")
+        // Find which particle is in the grammar point formulaTitle and is also present in the Japanese sentence
+        val targetParticle = commonParticles.firstOrNull { particle -> 
+            point.formulaTitle.contains(particle) && japanese.contains(particle)
+        } ?: commonParticles.firstOrNull { particle -> 
+            japanese.contains(particle)
+        } ?: "は" // Fallback
+
+        // 2. Blank out the target particle in the sentence
+        val clozeSentence = japanese.replaceFirst(targetParticle, "____")
+        
+        // 3. Generate options ensuring target is present
+        val baseOptions = mutableListOf("は", "が", "を", "に", "で", "と", "も", "か").filter { it != targetParticle }
+        val options = (baseOptions.shuffled().take(3) + targetParticle).shuffled()
+        
+        val answerIndex = options.indexOf(targetParticle)
 
         return GrammarPracticeItemData.Cloze(
             pointNumber = point.number,

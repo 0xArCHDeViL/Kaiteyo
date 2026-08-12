@@ -261,6 +261,15 @@ fun NavShell(
                             else -> base.padding(bottom = animatedStripSize)
                         }
                     }
+                    .let { base ->
+                        if (!isOverlay && !shouldHide && LocalOrientation.current == Orientation.Landscape) {
+                            base.padding(top = 12.dp, bottom = 12.dp, end = 12.dp)
+                                .clip(RoundedCornerShape(Dimens.Radius2xl))
+                                .background(MaterialTheme.colorScheme.surface)
+                        } else {
+                            base
+                        }
+                    }
             ) {
                 content()
             }

@@ -6,6 +6,7 @@ import androidx.compose.animation.scaleOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -125,14 +126,17 @@ private fun DeckDashboardBottomBarLayout(
     fabContent: @Composable () -> Unit,
     modifier: Modifier
 ) {
-    Box(
-        modifier = modifier.padding(horizontal = 24.dp, vertical = 16.dp)
+    Row(
+        modifier = modifier
+            .padding(horizontal = 24.dp, vertical = 16.dp)
+            .fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        verticalAlignment = Alignment.CenterVertically
     ) {
         // The background floating bar
         Row(
             modifier = Modifier
-                .align(Alignment.BottomCenter)
-                .fillMaxWidth()
+                .weight(1f)
                 .shadow(
                     elevation = 12.dp,
                     shape = CircleShape,
@@ -145,18 +149,14 @@ private fun DeckDashboardBottomBarLayout(
                 .padding(vertical = ExtraBackgroundVerticalPadding),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Box(Modifier.weight(1f)) {
+            Box(Modifier.fillMaxWidth()) {
                 Box(Modifier.align(Alignment.Center)) {
                     centralContent()
                 }
             }
         }
         
-        // The FAB overlapping slightly or sitting on the right
-        Box(
-            modifier = Modifier.align(Alignment.CenterEnd).padding(end = 8.dp)
-        ) {
-            fabContent()
-        }
+        // The FAB sitting cleanly on the right
+        fabContent()
     }
 }

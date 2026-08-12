@@ -364,14 +364,15 @@ private fun StudyTargets(
 
             Spacer(Modifier.weight(1f))
 
-            IconButton(
-                onClick = { showPopup = true }
-            ) {
-
-                Icon(
-                    imageVector = Icons.Default.MoreVert,
-                    contentDescription = null
-                )
+            Box {
+                IconButton(
+                    onClick = { showPopup = true }
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.MoreVert,
+                        contentDescription = null
+                    )
+                }
 
                 AppDropdownMenu(
                     expanded = showPopup,
@@ -396,7 +397,6 @@ private fun StudyTargets(
                         Text(stringResource(Res.string.general_dashboard_study_target_daily_limit))
                     }
                 }
-
             }
 
         }

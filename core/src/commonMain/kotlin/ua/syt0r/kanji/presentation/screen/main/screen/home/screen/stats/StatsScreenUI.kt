@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -260,13 +261,16 @@ private fun Header(text: String) {
 
 @Composable
 private fun InfoCard(title: String, subtitle: String) {
-    Card {
-        Column(Modifier.padding(20.dp)) {
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Column(Modifier.padding(12.dp)) {
             AutoSizeText(
                 text = title,
                 style = MaterialTheme.typography.displayMedium
             )
-            Text(subtitle)
+            Text(
+                text = subtitle,
+                minLines = 2
+            )
         }
     }
 }

@@ -74,12 +74,12 @@ fun BackupScreenUI(
         Column(
             modifier = Modifier.padding(paddingValues)
                 .fillMaxSize()
-                .wrapContentWidth()
-                .widthIn(max = 400.dp)
                 .padding(horizontal = 20.dp)
                 .verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
+            
+            Spacer(modifier = Modifier.height(16.dp))
 
             val currentState = state.value
             val buttonsEnabled = when (currentState) {

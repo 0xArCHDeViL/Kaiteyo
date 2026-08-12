@@ -36,10 +36,20 @@ class DefaultGetGrammarPracticeDialogueDataUseCase : GetGrammarPracticeDialogueD
             "Sensei" to "なるほどね！"
         )
         
+        val distractors = listOf(
+            "それは ちょっと...",
+            "わかりません。",
+            "いいえ、ちがいます。",
+            "そうですね。",
+            "とても いい です。",
+            "だめ です。",
+            "もちろん です。"
+        ).shuffled()
+        
         val options = listOf(
             japanese, // Correct
-            "Random wrong answer",
-            "Another distractor"
+            distractors[0],
+            distractors[1]
         ).shuffled()
         
         val correctIndex = options.indexOf(japanese)

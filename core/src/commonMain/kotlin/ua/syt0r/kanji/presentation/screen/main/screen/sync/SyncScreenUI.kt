@@ -5,6 +5,7 @@ import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Spacer
@@ -81,7 +82,9 @@ fun SyncScreenUI(
         loading = { FancyLoading(Modifier.fillMaxSize().wrapContentSize()) },
         guide = { screenState ->
 
-            ScrollableScreenContainer {
+            ScrollableScreenContainer(
+                verticalArrangement = Arrangement.spacedBy(16.dp)
+            ) {
 
                 Text(
                     text = strings.guideTitle,

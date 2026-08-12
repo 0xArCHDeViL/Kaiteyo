@@ -40,18 +40,17 @@ class UserDataDatabaseMigrationAfter12 : UserDataDatabaseContract.Migration {
         addColumnIfNotExists(driver, "vocab_deck", "color", "TEXT NOT NULL DEFAULT '#808080'")
 
         // --- Add index for deck_id on fsrs_card for faster lookups ---
-        driver.executeQuery(
+
+        driver.execute(
             identifier = null,
             sql = "CREATE INDEX IF NOT EXISTS fsrs_card_deck_idx ON fsrs_card(deck_id);",
-            mapper = { QueryResult.Unit },
             parameters = 0
         )
 
         // --- Add index for card_status on fsrs_card ---
-        driver.executeQuery(
+        driver.execute(
             identifier = null,
             sql = "CREATE INDEX IF NOT EXISTS fsrs_card_status_idx ON fsrs_card(card_status);",
-            mapper = { QueryResult.Unit },
             parameters = 0
         )
     }
@@ -76,10 +75,9 @@ class UserDataDatabaseMigrationAfter12 : UserDataDatabaseContract.Migration {
         ).value
 
         if (columnName !in columns) {
-            driver.executeQuery(
+            driver.execute(
                 identifier = null,
                 sql = "ALTER TABLE $tableName ADD COLUMN $columnName $columnDef;",
-                mapper = { QueryResult.Unit },
                 parameters = 0
             )
         }
