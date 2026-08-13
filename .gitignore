@@ -112,5 +112,15 @@ lint/tmp/
 *.opus
 
 google-services.json
-app/linux/**
 .DS_Store
+
+# JavaScript tooling artifacts are not source assets for this Android-only repository
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Temporary local analysis artifacts
+phase_*.log
+phase_*.json
+phase_*.md

@@ -1,32 +1,24 @@
-# 📁 docs — Kaiteyo Documentation
+# Kaiteyo Documentation
 
-This directory contains all project documentation. Every developer (human or AI) should start here.
+This directory contains the maintained engineering documentation for **Kaiteyo Android**. The product supports ARM64-v8a devices on Android 12 or newer. Phones are portrait-only; tablets and pads use the dedicated landscape navigation shell.
 
-## Quick Navigation
+## Core Documents
 
-| File | What it covers |
-|------|----------------|
-| `00_START_HERE.md` | Entry point — read this first |
-| `AI_CONTEXT.md` | AI assistant context — read before coding |
-| `01_PROJECT_VISION.md` | Mission, philosophy, long-term goals |
-| `02_DESIGN_LANGUAGE.md` | UI philosophy, spacing, typography, shadows |
-| `03_BRANDING.md` | Logo, colors, voice, rebranding |
-| `04_ROADMAP.md` | Milestones v1.1 through v3.0 |
-| `05_FEATURES.md` | Every feature with status |
-| `06_ARCHITECTURE.md` | Project structure, modules, data flow |
-| `07_THEME_SYSTEM.md` | Theme tokens, built-in themes, custom themes |
-| `08_UI_GUIDELINES.md` | Component specs, interaction rules |
-| `09_ANIMATION_GUIDELINES.md` | Animation philosophy, presets, patterns |
+| Document | Purpose |
+|---|---|
+| [`AI_CONTEXT.md`](AI_CONTEXT.md) | Current implementation contract and guardrails |
+| [`06_ARCHITECTURE.md`](06_ARCHITECTURE.md) | Android modules, source sets, data flow, and ownership |
+| [`07_DEVELOPMENT_GUIDE.md`](07_DEVELOPMENT_GUIDE.md) | Local Android development and validation commands |
+| [`08_CONTRIBUTING.md`](08_CONTRIBUTING.md) | Contribution and change-validation expectations |
+| [`12_CODING_STANDARDS.md`](12_CODING_STANDARDS.md) | Kotlin, Compose, data, and test standards |
+| [`14_RELEASE_PROCESS.md`](14_RELEASE_PROCESS.md) | Android build, release, and integrity checklist |
+| [`internal-database-workflow.md`](internal-database-workflow.md) | Vendored dictionary source-data and export workflow |
 
-## Subdirectories
+## Operational References
 
-| Directory | Purpose |
-|-----------|---------|
-| `development/` | Setup guides, contributing, workflow |
-| `planning/` | TODO, issues, changelog, roadmap |
-| `features/` | Feature specifications |
-| `design/` | Design system documentation |
-| `branding/` | Brand assets and guidelines |
-| `decisions/` | Architecture Decision Records |
-| `guides/` | Complete guides (beginner, git, vibe coding) |
-| `api/` | API documentation (database, settings, sync) |
+| Location | Purpose |
+|---|---|
+| [`planning/`](planning/) | Active issues/TODO plus explicit historical records |
+| [`troubleshooting/`](troubleshooting/) | Android build and runtime diagnostics |
+
+The application is Android-only. Historical planning files may record previous work, but they are not active product scope. Do not add desktop, iOS, web, Appearance Studio, or Theme Studio targets to current documentation or implementation.

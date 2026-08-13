@@ -1,153 +1,53 @@
-# Kaiteyo (書いてよ) — Architecture
+# Architecture
 
-## Project Structure
+Kaiteyo is an **Android-only** offline-first Japanese learning application. The distributable target is `arm64-v8a` on Android 12/API 31 or newer. The codebase uses a Kotlin Multiplatform source-set layout only to organize shared and pure Kotlin code inside the Android build; it does not support desktop, iOS, or web product targets.
 
-```
-Kaiteyo/
-├── app/                    # Android application module
-│   ├── src/
-│   │   ├── fdroid/         # F-Droid build variant
-│   │   ├── googlePlay/     # Google Play build variant
-│   │   └── main/           # Shared Android resources
-│   └── build.gradle.kts
-│
-├── core/                   # Shared Kotlin Multiplatform module
-│   ├── src/
-│   │   ├── commonMain/     # Cross-platform code
-│   │   ├── androidMain/    # Android-specific implementations
-│   │   ├── iosMain/        # iOS-specific implementations
-│   │   └── jvmMain/        # Desktop (JVM) specific implementations
-│   └── build.gradle.kts
-│
-├── desktopApp/             # Desktop application module
-│   ├── src/
-│   │   └── jvmMain/        # Desktop-only code
-│   └── build.gradle.kts
-│
-├── iosApp/                 # iOS application wrapper
-│   ├── KanjiDojoApp/       # Swift/SwiftUI entry point
-│   └── build.gradle.kts
-│
-├── mediaGenerator/         # Asset generation utility
-│   └── build.gradle.kts
-│
-├── buildSrc/               # Gradle build logic
-│   └── src/main/kotlin/
-│
-├── gradle/
-│   ├── libs.versions.toml  # Version catalog
-│   └── wrapper/
-│
-├── docs/                   # Project documentation
-│
-└── settings.gradle.kts
+## Modules
+
+| Module | Responsibility |
+|---|---|
+| `app` | Android launcher, manifest, app-level packaging, Android resources, and release variants |
+| `core` | UI, navigation, use cases, persistence, dictionary access, SRS/FSRS, grammar, TTS, and Android implementations |
+| `database` | Vendored source-data pipeline, streaming parser, integrity checks, and application SQLite export |
+| `mediaGenerator` | JVM-only internal tooling for visual asset capture; it is not a product runtime target |
+| `buildSrc` | Versioning and shared Gradle build logic |
+
+## Source-Set Ownership
+
+| Location | Rule |
+|---|---|
+| `core/src/commonMain` | Pure domain logic and Compose UI that does not require Android framework APIs |
+| `core/src/androidMain` | Android lifecycle, SQL drivers, filesystem/platform APIs, TTS, activity behavior, and Android-only implementations |
+| `core/src/commonTest` | Deterministic domain and regression tests |
+| `core/src/androidUnitTest` or `app/src/test` | Android/JVM test coverage when platform behavior is involved |
+| `app/src/main` | Android manifest, launcher activity, app resources, and release configuration |
+
+`commonMain` is an implementation detail of the Android library. New code must not add a non-Android target or platform abstraction unless an active Android use case requires it.
+
+## Runtime Flow
+
+```text
+MainActivity
+  → KaiteyoActivity lifecycle and orientation policy
+    → KaiteyoApp Compose root
+      → Koin-provided repositories and use cases
+        → SQLDelight app/user databases and DataStore preferences
+          → Compose screens and practice queues
 ```
 
-## Module Responsibilities
+The application-data database is read-only and shipped from a validated data release. User progress, review history, settings, and queues live in the user-data store. Repository boundaries normalize optional or malformed source data into explicit domain states; UI flows must present recoverable unavailable/error states rather than fabricate learning content.
 
-### `core` (Shared Library)
-The heart of the application. Contains all business logic, data models, UI components, and theme system shared across platforms.
+## Device Contract
 
-**Key packages:**
-- `ua.syt0r.kanji.core` — Data layer (database, preferences, network)
-- `ua.syt0r.kanji.di` — Dependency injection modules
-- `ua.syt0r.kanji.presentation` — UI layer (Compose Multiplatform)
-  - `common.theme` — Theme system, colors, typography, dimens
-  - `common.resources` — String resources, drawable resources
-  - `screen.*` — Feature screens organized by domain
+| Device class | Runtime rule |
+|---|---|
+| Phone, `smallestScreenWidthDp < 600` | Portrait locked; touch-first single-column content |
+| Tablet/pad, `smallestScreenWidthDp >= 600` | Landscape locked; fixed navigation rail plus separate content surface |
+| Native ABI | `arm64-v8a` only |
+| Android version | API 31+ |
 
-### `desktopApp` (Desktop Entry Point)
-Thin wrapper that sets up the desktop window, configures the JVM environment, and launches the shared UI from `core`.
+The navigation shell and orientation policy are part of the product contract. Any change to them requires compile validation and device-focused testing.
 
-**Key files:**
-- `Main.kt` — Application entry point, window setup, Koin initialization
-- `Main.kt` contains: `KaiteyoWindow`, floating controls, drag region
+## Dependency Direction
 
-### `app` (Android Entry Point)
-Android-specific entry point with Activity, manifest, and platform configurations.
-
-### `iosApp` (iOS Entry Point)
-Swift/SwiftUI project that hosts the Compose Multiplatform UI via UIKit integration.
-
-## UI Architecture
-
-### State Management
-- **Koin** for dependency injection
-- **StateFlow** in ViewModels for reactive state
-- **Compose State** (`mutableStateOf`, `derivedStateOf`) for local UI state
-- **CompositionLocal** for theme and configuration propagation
-
-### Theme Architecture
-```
-ThemeManager (interface)
-  └── JvmGetCreditLibrariesUseCase (desktop)
-  └── Android/Koin implementations
-
-KaiteyoThemeState (mutable state holder)
-  ├── baseMode (Light/Dark/Oled)
-  ├── accentScheme (KaiteyoAccentScheme)
-  ├── glowConfig (GlowConfig)
-  ├── radiusConfig (RadiusConfig)
-  ├── animationConfig (AnimationConfig)
-  └── densityConfig (DensityConfig)
-
-CompositionLocals
-  ├── LocalKaiteyoThemeState
-  ├── LocalKaiteyoAccent
-  ├── LocalSurfaceColors
-  └── LocalKaiteyoAccentList
-```
-
-### Screen Structure
-Each screen follows a consistent pattern:
-```
-screen/{feature}/
-  ├── {Feature}Screen.kt        # Screen composable
-  ├── {Feature}Contract.kt      # State + Events contracts
-  └── {Feature}ViewModel.kt     # ViewModel (if applicable)
-```
-
-## Navigation
-
-Navigation uses a simple stack-based approach:
-- `MainNavigationState` manages the navigation stack
-- Each screen registers with the navigator
-- Deep linking handled via `DeepLinkHandler`
-- Desktop uses a single-window approach with screen switching
-
-## Dependency Injection
-
-Dependencies are provided via Koin modules:
-- `appModules` in `core` — All shared dependencies
-- `desktopAppModule` in `desktopApp` — Desktop-specific overrides
-- Platform modules in `androidMain` and `iosMain`
-
-Module loading in `main()`:
-```kotlin
-val koinModuleList = appModules.plus(desktopAppModule)
-startKoin { loadKoinModules(koinModuleList) }
-```
-
-## Data Flow
-
-```
-UI Component
-  └── ViewModel / StateHolder
-       └── Repository
-            └── Data Source (Database, Preferences, Network)
-```
-
-- UI observes state from ViewModels
-- ViewModels call repositories for data operations
-- Repositories coordinate between local (SQLDelight) and remote (Ktor) sources
-- Preferences stored via DataStore
-
-## Key Design Decisions
-
-1. **Compose Multiplatform** — Single UI codebase for Android, Desktop, iOS
-2. **Koin** — Lightweight DI without code generation (unlike Dagger/Hilt)
-3. **SQLDelight** — Type-safe SQL for local database
-4. **DataStore** — Preferences storage (replacement for SharedPreferences)
-5. **Ktor** — HTTP client for network requests
-6. **AboutLibraries** — Open source license display
-7. **Compose Resources** — Cross-platform resource management
+`app` depends on `core`. `core` owns application behavior and may consume generated SQLDelight interfaces. `database` generates validated source-data artifacts but is not loaded by the Android runtime. `mediaGenerator` is tooling-only and must not be depended on by `app` or `core` runtime code.

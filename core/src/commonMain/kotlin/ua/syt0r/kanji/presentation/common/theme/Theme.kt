@@ -30,9 +30,6 @@ import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.DpOffset
-import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.presentation.common.resources.string.LocalStrings
 import ua.syt0r.kanji.presentation.common.resources.string.getStrings
 import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
@@ -79,103 +76,15 @@ data class AnimationConfig(
 val LocalAnimationConfig = compositionLocalOf { AnimationConfig() }
 
 // ============================================
-// CORNER RADIUS CONFIGURATION
-// ============================================
-
-enum class CornerRadiusStyle(val displayName: String, val globalMultiplier: Float) {
-    Square("Square", 0.5f),
-    Rounded("Rounded", 1.0f),
-    VeryRounded("Very Rounded", 1.5f),
-    Soft("Soft", 2.0f)
-}
-
-data class RadiusConfig(
-    val style: CornerRadiusStyle = CornerRadiusStyle.Rounded,
-    val customRadius: Float? = null
-)
-
-val LocalRadiusConfig = compositionLocalOf { RadiusConfig() }
-
-// ============================================
-// GLOW CONFIGURATION
-// ============================================
-
-data class GlowConfig(
-    val intensity: Float = 1.0f,
-    val radius: Float = 1.0f,
-    val opacity: Float = 1.0f
-)
-
-val LocalGlowConfig = compositionLocalOf { GlowConfig() }
-
-// ============================================
-// DENSITY & LAYOUT CONFIGURATION
-// ============================================
-
-enum class UIDensity(val displayName: String, val spacingMultiplier: Float) {
-    Compact("Compact", 0.7f),
-    Comfortable("Comfortable", 1.0f),
-    Spacious("Spacious", 1.3f)
-}
-
-enum class SidebarMode(val displayName: String) {
-    Expanded("Expanded"),
-    Compact("Compact"),
-    IconsOnly("Icons Only"),
-    FloatingIsland("Floating Island"),
-    Docked("Docked"),
-    AutoHide("Auto Hide")
-}
-
-enum class SidebarPosition(val displayName: String) {
-    Left("Left"),
-    Right("Right"),
-    Top("Top"),
-    Bottom("Bottom")
-}
-
-enum class NavAutoHide(val displayName: String) {
-    Never("Never"),
-    Always("Always"),
-    FullscreenOnly("Fullscreen Only"),
-    Smart("Smart")
-}
-
-data class LayoutConfig(
-    val density: UIDensity = UIDensity.Comfortable,
-    val sidebarMode: SidebarMode = SidebarMode.Expanded,
-    val sidebarPosition: SidebarPosition = SidebarPosition.Left,
-    val autoHide: NavAutoHide = NavAutoHide.Never,
-    val collapsed: Boolean = false,
-    val panelWidth: Dp = 260.dp,
-    val panelHeight: Dp = 56.dp,
-    val floatingOffset: DpOffset = DpOffset.Zero,
-    val accentIndex: Int = -1,
-    val transparencyEnabled: Boolean = false,
-    val blurEnabled: Boolean = false,
-    val glassOpacity: Float = 0.8f
-)
-
-val LocalLayoutConfig = compositionLocalOf { LayoutConfig() }
-
-// ============================================
 // THEME STATE
 // ============================================
 
 class KaiteyoThemeState(
     initialBaseMode: BaseMode = BaseMode.Oled,
-    initialAccentScheme: KaiteyoAccentScheme = AllAccentSchemes.first(),
-    initialAnimationConfig: AnimationConfig = AnimationConfig(),
-    initialRadiusConfig: RadiusConfig = RadiusConfig(),
-    initialGlowConfig: GlowConfig = GlowConfig(),
-    initialLayoutConfig: LayoutConfig = LayoutConfig()
+    initialAccentScheme: KaiteyoAccentScheme = AllAccentSchemes.first()
 ) {
     var baseMode by mutableStateOf(initialBaseMode)
     var accentScheme by mutableStateOf(initialAccentScheme)
-    var animationConfig by mutableStateOf(initialAnimationConfig)
-    var radiusConfig by mutableStateOf(initialRadiusConfig)
-    var glowConfig by mutableStateOf(initialGlowConfig)
-    var layoutConfig by mutableStateOf(initialLayoutConfig)
 }
 
 val LocalKaiteyoThemeState = compositionLocalOf { KaiteyoThemeState() }
@@ -300,25 +209,9 @@ val MaterialTheme.surfaceColors: SurfaceColors
     @Composable
     get() = LocalSurfaceColors.current
 
-val MaterialTheme.kaiteyoThemeState: KaiteyoThemeState
-    @Composable
-    get() = LocalKaiteyoThemeState.current
-
 val MaterialTheme.animationConfig: AnimationConfig
     @Composable
     get() = LocalAnimationConfig.current
-
-val MaterialTheme.glowConfig: GlowConfig
-    @Composable
-    get() = LocalGlowConfig.current
-
-val MaterialTheme.radiusConfig: RadiusConfig
-    @Composable
-    get() = LocalRadiusConfig.current
-
-val MaterialTheme.layoutConfig: LayoutConfig
-    @Composable
-    get() = LocalLayoutConfig.current
 
 // ============================================
 // Main Kaiteyo AppTheme Composable
@@ -334,9 +227,6 @@ fun AppTheme(
         else BaseMode.Dark,
     accentScheme: KaiteyoAccentScheme = AllAccentSchemes.first(),
     animationConfig: AnimationConfig = AnimationConfig(),
-    radiusConfig: RadiusConfig = RadiusConfig(),
-    glowConfig: GlowConfig = GlowConfig(),
-    layoutConfig: LayoutConfig = LayoutConfig(),
     content: @Composable () -> Unit
 ) {
     val surface = surfaceForBaseMode(baseMode)
@@ -354,10 +244,7 @@ fun AppTheme(
         LocalKaiteyoAccent provides accentScheme,
         LocalBaseMode provides baseMode,
         LocalSurfaceColors provides surface,
-        LocalAnimationConfig provides animationConfig,
-        LocalRadiusConfig provides radiusConfig,
-        LocalGlowConfig provides glowConfig,
-        LocalLayoutConfig provides layoutConfig
+        LocalAnimationConfig provides animationConfig
     ) {
         MaterialTheme(
             colorScheme = colors,

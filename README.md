@@ -48,14 +48,14 @@ Kaiteyo (書いてよ) — "write it!" in Japanese — is an Android-only applic
 
 [![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=ua.syt0r.kanji)
 [![F-Droid](https://img.shields.io/badge/F--Droid-1976D2?style=for-the-badge&logo=f-droid&logoColor=white)](https://f-droid.org/en/packages/ua.syt0r.kanji.fdroid/)
-[![GitHub Releases](https://img.shields.io/badge/GitHub_Releases-1A1A1A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-org/kaiteyo/releases/latest)
+[![GitHub Releases](https://img.shields.io/badge/GitHub_Releases-1A1A1A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xArCHDeViL/Kaiteyo/releases/latest)
 
 
 ## Quick Start
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/kaiteyo.git
+git clone https://github.com/0xArCHDeViL/Kaiteyo.git
 cd kaiteyo
 
 # Build the Android debug APK
@@ -71,14 +71,13 @@ The project includes comprehensive documentation in the `/docs` directory:
 
 | Category | Location |
 |----------|----------|
-| 📖 Start Here | `docs/00_START_HERE.md` |
-| 🤖 AI Context | `docs/AI_CONTEXT.md` |
-| 🎨 Design Language | `docs/02_DESIGN_LANGUAGE.md` |
-| 🧠 Features | `docs/features/` |
-| 🚀 Roadmap | `docs/planning/` |
-| 🐞 Issues | `docs/planning/CURRENT_ISSUES.md` |
-| 📚 Guides | `docs/guides/` |
-| 🔧 Development | `docs/development/` |
+| Architecture | `docs/06_ARCHITECTURE.md` |
+| Development | `docs/07_DEVELOPMENT_GUIDE.md` |
+| Contribution | `docs/08_CONTRIBUTING.md` |
+| Coding standards | `docs/12_CODING_STANDARDS.md` |
+| Release process | `docs/14_RELEASE_PROCESS.md` |
+| Active backlog | `docs/planning/` |
+| Android troubleshooting | `docs/troubleshooting/` |
 
 ## Technical Stack
 
@@ -94,10 +93,9 @@ The project includes comprehensive documentation in the `/docs` directory:
 
 Contributions are welcome! Please read:
 
-1. `docs/08_CONTRIBUTING.md` — Contribution guidelines
-2. `docs/development/CONTRIBUTING.md` — Detailed contributing guide
-3. `docs/development/DEVELOPMENT_SETUP.md` — Development environment setup
-4. `docs/12_CODING_STANDARDS.md` — Coding standards
+1. `docs/08_CONTRIBUTING.md` — Contribution guidelines and validation requirements
+2. `docs/07_DEVELOPMENT_GUIDE.md` — Android setup and build commands
+3. `docs/12_CODING_STANDARDS.md` — Kotlin, Compose, data, and repository hygiene standards
 
 ## License
 

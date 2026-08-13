@@ -25,7 +25,7 @@ import androidx.compose.ui.unit.IntOffset
 // KAITEYO PAGE TRANSITIONS
 // Smooth, purposeful navigation transitions
 // Supports: Crossfade, Slide, FadeThrough, Scale
-// Configured via AnimationConfig from Appearance Studio
+// Configured through the application animation configuration
 // ============================================
 
 /**

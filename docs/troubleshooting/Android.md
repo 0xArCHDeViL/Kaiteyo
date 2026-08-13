@@ -1,94 +1,43 @@
-# Android
+# Android Build and Runtime Diagnostics
 
-Android development uses the `app` module and requires Android Studio, an Android SDK, and a configured emulator or device.
+## Environment
 
-## Android SDK Not Found
+Use JDK 17 and configure the Android SDK before Gradle execution:
 
-**Status:** Open
-
-**Symptoms:** Gradle reports that the Android SDK location is missing or that an SDK platform/build tool cannot be found.
-
-**Cause:** The Android Gradle Plugin cannot locate the SDK through `local.properties`, `ANDROID_HOME`, or `ANDROID_SDK_ROOT`, or the requested SDK package is not installed.
-
-**Diagnosis:**
-
-```powershell
-$env:ANDROID_HOME
-$env:ANDROID_SDK_ROOT
-Test-Path local.properties
-.\gradlew.bat :app:assembleDebug --stacktrace
+```bash
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+export ANDROID_HOME=/path/to/android-sdk
+export ANDROID_SDK_ROOT="$ANDROID_HOME"
 ```
 
-**Fix:** Install the SDK and required platform/build tools through Android Studio SDK Manager, then set the SDK environment variable for the shell. Android Studio can generate `local.properties`; do not commit that machine-specific file.
+The application requires Android API 31 or newer and packages `arm64-v8a`. Keep `local.properties`, signing files, SDK installations, Gradle caches, and build outputs outside version control.
 
-**Verification:** ` .\gradlew.bat :app:assembleDebug` produces a debug APK under `app/build/outputs/apk/`.
+## Standard Validation
 
-**Prevention:** Keep Android Studio and SDK packages aligned with the Android Gradle Plugin and document SDK changes in [Required Software](../setup/RequiredSoftware.md).
+```bash
+./gradlew :core:compileDebugKotlinAndroid \
+  -PappDataSource=release -PappDataVersion=15 -PappDataReleaseTag=data-v15
 
-**Related Issues:** [Gradle](Gradle.md), [Windows](Windows.md), [Fresh Setup](../setup/FreshSetup.md), [Git Guide](../guides/GIT_GUIDE.md).
+./gradlew :core:testDebugUnitTest \
+  -PappDataSource=release -PappDataVersion=15 -PappDataReleaseTag=data-v15
 
-Common links: [Troubleshooting index](README.md) | [Dependency problems](Gradle.md) | [Setup guide](../setup/FreshSetup.md) | [Git guide](../guides/GIT_GUIDE.md)
-
-## SDK Location Not Found During Aggregate Build
-
-**Status:** Solved after Android SDK configuration
-**First seen:** 2026-08-01
-**Last verified:** 2026-08-01
-
-### Symptoms
-
-```text
-Could not determine the dependencies of task ':app:compileFdroidDebugJavaWithJavac'.
-SDK location not found. Define a valid SDK location with an ANDROID_HOME environment variable
-or by setting the sdk.dir path in your project's local properties file.
+./gradlew :app:assembleDebug \
+  -PappDataSource=release -PappDataVersion=15 -PappDataReleaseTag=data-v15
 ```
 
-### Cause
+On limited-memory machines, add `--no-daemon --max-workers=1`, `-Dorg.gradle.workers.max=1`, and `-Pkotlin.compiler.execution.strategy=in-process`.
 
-The Android Gradle Plugin configures the `app` module even when the requested build includes shared or desktop work. It must locate the Android SDK before it can calculate task dependencies. The SDK was not discoverable through `ANDROID_HOME`, `ANDROID_SDK_ROOT`, or `local.properties`, so dependency calculation stopped before Java compilation.
+## Device Validation
 
-### Diagnosis
+Verify the appropriate device contract after UI, navigation, orientation, resource, or lifecycle changes:
 
-```powershell
-$env:ANDROID_HOME
-$env:ANDROID_SDK_ROOT
-$sdk = "$env:LOCALAPPDATA\Android\Sdk"
-Test-Path $sdk
-Test-Path local.properties
-.\gradlew.bat :app:assembleFdroidDebug --stacktrace
-```
+| Device | Required checks |
+|---|---|
+| Phone (`smallestScreenWidthDp < 600`) | Portrait lock, navigation, keyboard/insets, vocabulary and grammar practice, process recreation |
+| Tablet/pad (`smallestScreenWidthDp >= 600`) | Landscape lock, navigation rail, content surface, dialogs, practice flows, process recreation |
 
-### Fix
+Collect `adb logcat` around a reproducible crash or rendering failure. Include the exact screen, source data/deck item, Android version, device class, and full exception chain in the issue record.
 
-Install the Android SDK and required packages with Android Studio's SDK Manager. Then, if the standard Windows SDK directory exists, configure the current shell and write the machine-local Gradle path:
+## Cleanup Validation
 
-```powershell
-$sdk = "$env:LOCALAPPDATA\Android\Sdk"
-if (-not (Test-Path $sdk)) { throw "Android SDK not found at $sdk. Install it with Android Studio SDK Manager first." }
-$env:ANDROID_HOME = $sdk
-$env:ANDROID_SDK_ROOT = $sdk
-"sdk.dir=$($sdk -replace '\\','/')" | Set-Content -Encoding ASCII local.properties
-.\gradlew.bat :app:assembleFdroidDebug
-```
-
-`local.properties` is machine-specific and must not be committed.
-
-### Verification
-
-```powershell
-.\gradlew.bat build
-```
-
-Expected: the build passes the SDK-location phase. A later failure is a separate issue and must be recorded separately.
-
-### Prevention
-
-Install Android SDK packages before running aggregate `build`, keep `local.properties` local, and run `:core:compileKotlinJvm` or `:desktopApp:compileKotlinJvm` when validating only non-Android code.
-
-### Related Issues
-
-- [Java](Java.md)
-- [Gradle](Gradle.md)
-- [Windows](Windows.md)
-- [Fresh Setup](../setup/FreshSetup.md)
-- [Git Guide](../guides/GIT_GUIDE.md)
+For repository cleanup, confirm that removed paths have no source/build/workflow references, run `git diff --check`, compile Android, run unit tests, assemble the debug APK, and keep generated outputs untracked.

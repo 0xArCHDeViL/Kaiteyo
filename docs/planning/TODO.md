@@ -1,63 +1,35 @@
-# 📋 Master Implementation Plan (TODO)
+# Active Engineering TODO
 
-This document is the actionable master implementation plan, indexed directly from `CURRENT_ISSUES.md` and `FUTURE_IDEAS.md`. It tracks active development tasks categorized by priority.
+This document contains planned work for the Android-only Kaiteyo product. It intentionally excludes desktop, iOS, web, Appearance Studio, Theme Studio, floating-window controls, and hover-based navigation.
 
-## 🔴 Phase 1: Critical Fixes (P0)
-**Goal:** Resolve all blocking usability and baseline design issues.
+## Reliability
 
-### Desktop Window Dynamics
-- [ ] Restrict `WindowDraggableArea` to the top 44dp only.
-- [ ] Fix interactive components capturing drag events unnecessarily.
-- [ ] Optimize hover, theme, and window animations to 60 FPS.
-- [ ] Fix panel jumps, spacing changes, and animation glitches on window resize.
-- [ ] Unify hover animations across all interactive components.
+- [ ] Complete device validation for vocabulary details with absent optional metadata.
+- [ ] Complete device validation for grammar unavailable-state skip behavior.
+- [ ] Add malformed review-history fixtures for statistics and streak resilience.
+- [ ] Extend future-unknown JMdict metadata fixtures without relaxing known metadata parsing.
 
-### UI/UX Design System Base
-- [ ] Audit and enforce consistent padding/margin (4dp grid).
-- [ ] Fix alignment across cards, lists, and settings panels.
-- [ ] Establish clear visual hierarchy (primary, secondary, tertiary).
-- [ ] Refactor rounded corners to use a consistent `MaterialTheme.shapes` strategy.
-- [ ] Ensure consistent typography styles.
+## Android Device Contract
 
-## 🟡 Phase 2: High Priority Android Validation (P1)
-**Goal:** Prove the Android-only phone/tablet contract on real device classes.
+- [ ] Verify phone portrait lock, insets, navigation, keyboard, process recreation, and deep links on Android 12+ ARM64 hardware.
+- [ ] Verify tablet/pad landscape lock, fixed rail/content composition, dialogs, writing canvas, and practice flows on Android 12+ ARM64 hardware.
+- [ ] Add instrumentation coverage for the most failure-prone vocabulary and grammar paths when a device/emulator is available.
 
-### Device Matrix
-- [ ] Phone: Android 12+, ARM64-v8a, portrait-only startup and recreation.
-- [ ] Tablet/pad: Android 12+, ARM64-v8a, landscape-only startup and tablet rail/content shell.
-- [ ] Deep links, process recreation, database migration, keyboard, insets, and back handling.
-- [ ] Letter Practice, Vocabulary Detail, and Grammar Practice instrumentation flows.
+## Data and Learning
 
-### Reliability Gate
-- [ ] Reproduce and validate the no-optional-metadata vocabulary path.
-- [ ] Validate unknown JMdict metadata aliases and future unknown-safe behavior.
-- [ ] Validate unavailable grammar item skip without SRS/review-history side effects.
-- [ ] Validate malformed review-history rows do not crash dashboards.
+- [ ] Run source-data export integrity checks before each data release.
+- [ ] Keep parser normalization streaming and bounded in memory.
+- [ ] Expand deterministic grammar generation and Japanese pronunciation fixtures.
+- [ ] Preserve FSRS/SRS review semantics and migration compatibility through regression tests.
 
-## 🟢 Phase 3: Medium Priority Android Engineering (P2)
-**Goal:** Improve measurable Android performance and learning correctness.
+## Performance and Accessibility
 
-### Data and Learning Engine
-- [ ] Database export integrity, foreign-key checks, domain coverage, and release checksum.
-- [ ] FSRS/SRS review persistence and boundary tests.
-- [ ] Grammar generator validity, deterministic seeds, and answer quality fixtures.
-- [ ] Contextual Japanese pronunciation and TTS fallback fixtures.
+- [ ] Establish reproducible measurements for startup time, heap use, dictionary query latency, and recomposition hotspots.
+- [ ] Verify long-list scrolling and memory behavior on both device classes.
+- [ ] Validate touch target sizing, semantic labels, focus, and system font scaling.
 
-### Performance and Accessibility
-- [ ] Measure cold start, heap footprint, query latency, and recomposition hotspots.
-- [ ] Verify long-list rendering and scrolling on phone and tablet.
-- [ ] Verify touch targets, semantics, keyboard, and reduced-motion behavior where applicable.
+## Repository Hygiene
 
-## 🔵 Phase 4: Low Priority & Future Pipeline (P3)
-**Goal:** Optimization, accessibility, and exploration of community/cloud features.
-
-### Performance & Accessibility
-- [x] Profile and optimize recompositions / Lazy loading.
-- [x] Image caching & APK/MSI size reduction.
-- [x] Full keyboard navigation and screen reader support.
-
-### Evaluated Future Ideas
-- [ ] **AI Review Scheduling:** Optimize SRS intervals.
-- [ ] **Cross-device Sync & Cloud Backup.**
-- [ ] **Community:** Shared decks and Theme marketplace.
-- [ ] **Platform Expansion:** Linux Snap/Flatpak, Web version.
+- [ ] Keep root-level source limited to Gradle entry points, modules, documentation, product assets, and version-control configuration.
+- [ ] Do not commit generated directories, Node dependencies, temporary scripts, logs, local editor metadata, or intermediate data dumps.
+- [ ] Require `git diff --check`, Android compile, unit tests, and debug APK assembly for cleanup changes.

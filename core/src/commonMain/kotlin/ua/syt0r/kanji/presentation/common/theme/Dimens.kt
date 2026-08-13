@@ -10,7 +10,7 @@ import androidx.compose.ui.unit.dp
 object Dimens {
 
     // --- Corner Radius System ---
-    // Base values (multiplied by RadiusConfig.globalMultiplier at runtime)
+    // Standard Android Material surface radii.
     val RadiusXs = 4.dp      // Checkboxes, small indicators
     val RadiusSm = 8.dp      // Buttons, inputs, small cards
     val RadiusMd = 12.dp     // Standard cards, list items
@@ -75,20 +75,4 @@ object Dimens {
     val WindowPadding = 24.dp
     val CardMinWidth = 240.dp
     val CardMaxWidth = 400.dp
-    val CardRadius = 16.dp
-    val ButtonRadius = 12.dp
-    val InputRadius = 12.dp
-
-    // --- v1.2.0 New ---
-    val FloatingControlsSize = 32.dp
-    val FloatingControlsGap = 6.dp
-    val GlowRingSize = 48.dp
-    val DragRegionHeight = 48.dp
-
-    // --- Appearance Studio specific ---
-    val StudioPreviewMinWidth = 320.dp
-    val StudioSectionSpacing = 32.dp
-    val StudioControlHeight = 48.dp
-    val ColorSwatchSize = 28.dp
-    val ColorPickerWidth = 280.dp
 }
