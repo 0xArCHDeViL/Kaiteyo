@@ -20,6 +20,7 @@ import kotlinx.coroutines.launch
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
 import ua.syt0r.kanji.core.japanese.KanaReading
 import ua.syt0r.kanji.core.tts.AppTtsManager
+import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.core.tts.JapaneseSpeechText
 import ua.syt0r.kanji.core.tts.KanaTtsManager
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWritingProgress
@@ -90,7 +91,9 @@ class LetterPracticeViewModel(
                             reviewState.autoReadFlow()
                                 .onEach { text ->
                                     if (text is AutoReadText.Kana) speakKana(text.reading)
-                                    else if (text is AutoReadText.KanjiReading) speakYomikata(text.value)
+                                    else if (text is AutoReadText.KanjiReading) {
+                                        speakYomikata(text.character, text.pronunciation)
+                                    }
                                 }
                                 .launchIn(viewModelScope)
                         }
@@ -114,8 +117,15 @@ class LetterPracticeViewModel(
         viewModelScope.launch { kanaTtsManager.speak(reading) }
     }
 
-    private fun speakYomikata(reading: String) {
-        viewModelScope.launch { appTtsManager.speak(reading, language = "ja-JP") }
+    private fun speakYomikata(character: String, reading: String) {
+        viewModelScope.launch {
+            appTtsManager.speak(
+                JapaneseSpeechRequest(
+                    displayText = character,
+                    pronunciation = reading
+                )
+            )
+        }
     }
 
     override fun finishPractice() {
@@ -155,7 +165,10 @@ class LetterPracticeViewModel(
 
     private sealed interface AutoReadText {
         data class Kana(val reading: KanaReading) : AutoReadText
-        data class KanjiReading(val value: String) : AutoReadText
+        data class KanjiReading(
+            val character: String,
+            val pronunciation: String
+        ) : AutoReadText
     }
 
     private fun ScreenState.Review.autoReadFlow(): Flow<AutoReadText> = callbackFlow {
@@ -188,24 +201,28 @@ class LetterPracticeViewModel(
                     reviewState.itemData is LetterPracticeItemData.KanjiWritingData -> {
 
                 val kanjiReview = reviewState
-                val yomikata = kanjiReview.itemData.firstYomikata() ?: return@callbackFlow
+                val yomikata = JapaneseSpeechText.selectStandaloneKanjiReading(
+                    kunReadings = kanjiReview.itemData.kun,
+                    onReadings = kanjiReview.itemData.on
+                ) ?: return@callbackFlow
 
                 snapshotFlow { kanjiReview.writerState.value.progress.value }
                     .dropWhile { it !is CharacterWritingProgress.Writing }
                     .filterIsInstance<CharacterWritingProgress.Completed.Idle>()
                     .take(1)
-                    .onEach { send(AutoReadText.KanjiReading(yomikata)) }
+                    .onEach {
+                        send(
+                            AutoReadText.KanjiReading(
+                                character = kanjiReview.itemData.character,
+                                pronunciation = yomikata
+                            )
+                        )
+                    }
                     .collect()
             }
         }
         awaitClose()
     }
 
-    private fun LetterPracticeItemData.KanjiWritingData.firstYomikata(): String? {
-        return (kun + on)
-            .asSequence()
-            .map(JapaneseSpeechText::normalizeKanjiReading)
-            .firstOrNull { it.isNotEmpty() }
-    }
 
 }

@@ -10,7 +10,7 @@ TTS harus menangani teks Jepang bebas—hiragana, katakana, Kanji, punctuation, 
 |---|---|---|
 | `AppTtsManager` | Teks bebas grammar, vocab, Kanji, Kana | Singleton platform TTS, latest request wins, locale fallback, bounded chunking |
 | `KanaTtsManager` | Auto-play clip Kana yang sudah tersedia | Singleton ExoPlayer, immutable clip index, no-crash missing clip guard |
-| Kanji Writing auto-read | Membaca yomikata setelah gambar selesai | Hanya `KanjiWritingData` + transisi `Completed.Idle`, prioritas kun lalu on |
+| `Kanji Writing auto-read` | Membaca yomikata setelah gambar selesai | Hanya `KanjiWritingData` + transisi `Completed.Idle`, resolver standalone Kun lalu On |
 | Normalizer | Membersihkan input suara | Unicode normalization, marker/speaker cleanup, whitespace/control cleanup |
 
 ## Android TTS policy
@@ -23,11 +23,13 @@ The TTS instance is registered as a Koin singleton because every ViewModel shoul
 
 ## Text normalization
 
-The common normalizer preserves Japanese semantics while removing UI-only artifacts: speaker prefixes, `~~` formula markers, zero-width/control characters, repeated whitespace, and inline translation after Japanese sentence termination. It uses NFKC normalization for compatibility characters and never transliterates Kanji to romaji; the platform Japanese voice must receive the actual Japanese text. Punctuation is retained where it conveys prosody.
+The common normalizer preserves Japanese semantics while removing UI-only artifacts: speaker prefixes, `~~` formula markers, zero-width/control characters, repeated whitespace, and inline translation after Japanese sentence termination. It never transliterates context-rich Kanji text to romaji; the platform Japanese voice receives the actual Japanese text. Punctuation is retained where it conveys prosody. KANJIDIC Kun markers are handled semantically: `-と` and `-り` are prefix/suffix fragments, not standalone pronunciations, so the resolver rejects them rather than stripping the hyphen and producing a false reading.
 
 ## Kanji Writing behavior
 
-Kanji writing data already contains `on` and `kun` reading lists. Auto-read observes the writer's `CharacterWritingProgress`, not every mutable writer object. It only emits once when the review writer reaches `CharacterWritingProgress.Completed.Idle`; `Completed.Animating` is intentionally ignored because it is a reveal/replay state rather than user completion. The selected reading is the first non-empty `kun` reading, then the first non-empty `on` reading. Vocab examples are not consulted, so the feature remains Kanji Writing and not vocab learning.
+Kanji writing data already contains `on` and `kun` reading lists. Auto-read observes the writer's `CharacterWritingProgress`, not every mutable writer object. It only emits once when the review writer reaches `CharacterWritingProgress.Completed.Idle`; `Completed.Animating` is intentionally ignored because it is a reveal/replay state rather than user completion. The resolver first selects the first complete kana Kun reading that has no KANJIDIC prefix/suffix marker; for 人, `-と` and `-り` are skipped and `ひと` is selected. If no standalone Kun reading exists, the first valid On reading is used. Vocab examples are not consulted, so the feature remains Kanji Writing and not vocab learning.
+
+The speech request keeps the visible Kanji and its spoken pronunciation as separate semantic fields. Context-rich grammar/vocabulary text continues through the ordinary Kanji text path, while an isolated Kanji uses the resolved kana pronunciation because a single Kanji has no lexical context and Android TTS is free to choose an unintended reading.
 
 The feature reuses the existing `LetterPracticeViewModel` reactive flow pattern. It is guarded against duplicate emissions when Compose recomposes or the writer state is revisited.
 
