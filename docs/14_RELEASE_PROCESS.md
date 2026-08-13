@@ -88,16 +88,36 @@ Untuk database yang dibangun dari source, artifact harus diverifikasi sebagai SQ
 
 ## GitHub Actions
 
-Workflow release hanya mengunggah artifact Android. Workflow harus menjalankan langkah berikut secara berurutan:
+Workflow release hanya mengunggah artifact Android. Setelah application data tervalidasi, unit test core dan build release berjalan pada job terpisah secara paralel. Build release tetap memakai R8/ProGuard dan resource shrinking; pipeline tidak menurunkan optimasi untuk mengejar waktu build.
 
-1. Checkout source pada commit/tag release.
+1. Checkout source pada commit/tag release dan pulihkan Gradle cache.
 2. Setup JDK 17 dan Android SDK.
-3. Prepare atau download internal application database.
-4. Jalankan integrity validation.
-5. Jalankan unit test core.
-6. Build APK/AAB dengan ABI `arm64-v8a` dan `minSdk 31`.
-7. Upload artifact Android.
-8. Publish GitHub release jika tag release valid.
+3. Prepare atau download internal application database, lalu jalankan integrity validation.
+4. Jalankan unit test core dan build signed release secara paralel.
+5. Verifikasi signature APK dan simpan SHA-256 certificate digest bersama artifact.
+6. Upload artifact Android hanya setelah test dan signing verification berhasil.
+7. Publish GitHub release jika tag release valid.
+
+## Release Signing Contract
+
+Android hanya menerima update in-place apabila `applicationId` sama, `versionCode` meningkat, dan APK baru ditandatangani oleh **certificate yang sama** dengan instalasi lama. Karena itu workflow dengan sengaja gagal sebelum membuat `assembleRelease` apabila material signing tidak lengkap; workflow tidak pernah fallback ke debug signer atau membuat keystore baru.
+
+Simpan **keystore release original**—bukan keystore debug dan bukan keystore yang baru dibuat—sebagai repository secrets berikut:
+
+| Secret | Nilai |
+|---|---|
+| `KEYSTORE_BASE64` | Base64 satu-baris dari file keystore original (`.jks`/`.keystore`) |
+| `KEYSTORE_PASSWORD` | Password keystore original |
+| `KEY_ALIAS` | Alias key release original |
+| `KEY_PASSWORD` | Password key release original |
+
+Generate nilai file secret secara lokal tanpa memasukkannya ke Git:
+
+```bash
+base64 -w 0 /path/ke/original-release.jks
+```
+
+Setelah secret tersedia, workflow men-decode keystore hanya ke temporary directory runner, membangun APK release dengan R8/ProGuard aktif, lalu menjalankan `apksigner --print-certs`. Bandingkan `Signer #1 certificate SHA-256 digest` dengan APK release yang sudah terpasang sebelumnya sebelum distribusi pertama setelah migrasi CI.
 
 ## Artifact Naming
 
@@ -115,6 +135,7 @@ Kaiteyo-{version}-arm64-v8a-android.aab
 - [ ] Dedicated tablet shell merender rail dan content tanpa desktop drag/resize overlay.
 - [ ] Full core unit test lulus.
 - [ ] Android debug dan release build lulus.
+- [ ] Release memakai keystore original; SHA-256 certificate digest APK baru sama dengan APK release sebelumnya.
 - [ ] Instrumentation phone dan tablet lulus jika device tersedia.
 - [ ] Application database lolos integrity check dan checksum validation.
 - [ ] Changelog dan migration notes diperbarui.

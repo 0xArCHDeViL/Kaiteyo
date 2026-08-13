@@ -7,6 +7,22 @@ plugins {
     id("com.mikepenz.aboutlibraries.plugin")
 }
 
+private val releaseKeystoreFile = run {
+    val fromEnvironment = System.getenv("KEYSTORE_PATH")
+        ?.takeIf { it.isNotBlank() }
+        ?.let(::File)
+        ?.takeIf { it.isFile }
+    val fromUserHome = File(System.getProperty("user.home"), ".kaiteyo/keystore.jks")
+        .takeIf { it.isFile }
+    fromEnvironment ?: fromUserHome ?: rootProject.file("keystore.jks")
+}
+
+private val releaseSigningReady = releaseKeystoreFile.isFile && listOf(
+    "KEYSTORE_PASS",
+    "SIGN_KEY",
+    "SIGN_PASS"
+).all { !System.getenv(it).isNullOrBlank() }
+
 kotlin {
     jvmToolchain(17)
     compilerOptions {
@@ -52,35 +68,24 @@ android {
     }
 
 
-
     buildFeatures {
         compose = true
     }
 
-    // The keystore is kept outside the repository for security.
-    // Resolved from (in order): KEYSTORE_PATH env var, the user's ~/.kaiteyo directory,
-    // or the repository root (where CI decodes it from the KEYSTORE_BASE64 secret).
-    val keystoreFile = run {
-        val fromEnv = System.getenv("KEYSTORE_PATH")?.let(::File)?.takeIf { it.exists() }
-        val fromUserHome = File(System.getProperty("user.home"), ".kaiteyo/keystore.jks").takeIf { it.exists() }
-        fromEnv ?: fromUserHome ?: rootProject.file("keystore.jks")
-    }
-
-    val signedBuildSigningConfig = signingConfigs.create("signedBuild") {
-        storeFile = keystoreFile
+    // Release signing is intentionally separate from debug signing. The same release
+    // keystore must be supplied in every release build so Android accepts in-place updates.
+    val releaseSigningConfig = signingConfigs.create("release") {
+        storeFile = releaseKeystoreFile
         System.getenv("KEYSTORE_PASS")?.let { storePassword = it }
         System.getenv("SIGN_KEY")?.let { keyAlias = it }
         System.getenv("SIGN_PASS")?.let { keyPassword = it }
     }
 
-    val debugSigningConfig = signingConfigs.getByName("debug")
-
-    buildTypes.forEach {
-        it.signingConfig = if (keystoreFile.exists()) {
-            signedBuildSigningConfig
-        } else {
-            debugSigningConfig
-        }
+    buildTypes.named("debug") {
+        signingConfig = signingConfigs.getByName("debug")
+    }
+    buildTypes.named("release") {
+        signingConfig = releaseSigningConfig
     }
 
     dependenciesInfo {
@@ -97,10 +102,19 @@ android {
 
 }
 
+tasks.configureEach {
+    if (name == "preReleaseBuild") {
+        doFirst {
+            check(releaseSigningReady) {
+                "Release signing requires the original keystore plus KEYSTORE_PASS, SIGN_KEY, and SIGN_PASS. " +
+                    "Refusing to produce an APK signed with a different identity."
+            }
+        }
+    }
+}
 
 dependencies {
     implementation(project(":core"))
-
 }
 
 aboutLibraries {
@@ -111,5 +125,4 @@ aboutLibraries {
         excludeFields.set(setOf("generated"))
     }
 }
-
 

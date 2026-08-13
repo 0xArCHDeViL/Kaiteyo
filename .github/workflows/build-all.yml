@@ -49,12 +49,18 @@ on:
         type: boolean
         default: false
 
+concurrency:
+  group: build-all-${{ github.workflow }}-${{ github.ref }}-${{ inputs.data_source || 'release' }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
 jobs:
-  build-android:
+  prepare-app-data:
+    name: Prepare application data
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     env:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
       APP_DATA_VERSION: ${{ inputs.app_data_version || '15' }}
@@ -63,12 +69,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup build environment
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
-          cache: gradle
+
+      - name: Restore and save Gradle state
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-home-cache-cleanup: true
 
       - name: Prepare and validate application data
         shell: bash
@@ -81,9 +91,13 @@ jobs:
             source)
               ./gradlew :database:exportAppDatabase \
                 -PappDataVersion="$APP_DATA_VERSION" \
-                --no-daemon --max-workers=1 \
-                -Dorg.gradle.workers.max=1 \
-                -Dorg.gradle.jvmargs='-Xmx3072m -XX:MaxMetaspaceSize=512m -XX:+UseParallelGC -Dfile.encoding=UTF-8'
+                --no-daemon --parallel --build-cache --max-workers=4 \
+                -Dorg.gradle.workers.max=4 \
+                -Dorg.gradle.jvmargs='-Xmx4g -XX:MaxMetaspaceSize=1g -XX:+UseParallelGC -Dfile.encoding=UTF-8'
+              test -s "$database_file"
+              file "$database_file" | grep -F 'SQLite 3.x database'
+              test "$(head -c 16 "$database_file")" = 'SQLite format 3'
+              sha256sum "$database_file" | tee "${database_file}.sha256"
               ;;
             release)
               echo "Using internal data release $APP_DATA_RELEASE_TAG"
@@ -94,85 +108,201 @@ jobs:
               ;;
           esac
 
-          if [[ "$APP_DATA_SOURCE" == source ]]; then
-            test -s "$database_file"
-            file "$database_file" | grep -F 'SQLite 3.x database'
-            sqlite_header=$(head -c 16 "$database_file")
-            test "$sqlite_header" = 'SQLite format 3'
-            sha256sum "$database_file" | tee "${database_file}.sha256"
-          fi
-
-      - name: Build Android release
-        env:
-          KEYSTORE: ${{ secrets.KEYSTORE_BASE64 }}
-          KEYSTORE_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
-          SIGN_KEY: ${{ secrets.KEY_ALIAS }}
-          SIGN_PASS: ${{ secrets.KEY_PASSWORD }}
-        run: |
-          ./gradlew app:assembleRelease \
-            -PappDataSource="$APP_DATA_SOURCE" \
-            -PappDataVersion="$APP_DATA_VERSION" \
-            -PappDataReleaseTag="$APP_DATA_RELEASE_TAG" \
-            --no-daemon --max-workers=1 \
-            -Dorg.gradle.workers.max=1 \
-            -Dorg.gradle.jvmargs='-Xmx3072m -XX:MaxMetaspaceSize=512m -XX:+UseParallelGC -Dfile.encoding=UTF-8'
-
-      - name: Upload Android Build
+      - name: Upload source-built application data
+        if: ${{ env.APP_DATA_SOURCE == 'source' }}
         uses: actions/upload-artifact@v4
         with:
-          name: android
-          path: app/build/outputs/apk/release/*.apk
-          retention-days: 1
-
-      - name: Upload Source Data Release Asset
-        if: ${{ env.APP_DATA_SOURCE == 'source' && (inputs.publish_data_release || false) }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: kanji-data-release
+          name: source-app-data-v${{ env.APP_DATA_VERSION }}
           path: |
             database/kanji-dojo-data-base-v${{ env.APP_DATA_VERSION }}.sql
             database/kanji-dojo-data-base-v${{ env.APP_DATA_VERSION }}.sql.sha256
+          if-no-files-found: error
           retention-days: 7
 
-  verify-uploaded-builds:
-    needs:
-      - build-android
+  unit-tests:
+    name: Android unit tests
+    needs: prepare-app-data
     runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '15' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v15' }}
     steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Validate artifact layout
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Restore and save Gradle state
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-home-cache-cleanup: true
+
+      - name: Download source-built application data
+        if: ${{ env.APP_DATA_SOURCE == 'source' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: source-app-data-v${{ env.APP_DATA_VERSION }}
+          path: database
+
+      - name: Run Android unit tests
         shell: bash
         run: |
           set -euo pipefail
-          test -n "$(find android -type f -name '*.apk' -print -quit)"
-          find . -maxdepth 3 -type f -print | sort
+          chmod +x gradlew
+          ./gradlew :core:testDebugUnitTest \
+            -PappDataSource="$APP_DATA_SOURCE" \
+            -PappDataVersion="$APP_DATA_VERSION" \
+            -PappDataReleaseTag="$APP_DATA_RELEASE_TAG" \
+            --no-daemon --parallel --build-cache --max-workers=4 \
+            -Dorg.gradle.workers.max=4 \
+            -Dorg.gradle.jvmargs='-Xmx4g -XX:MaxMetaspaceSize=1g -XX:+UseParallelGC -Dfile.encoding=UTF-8'
+
+      - name: Upload unit test reports
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-unit-test-reports
+          path: core/build/reports/tests/testDebugUnitTest
+          if-no-files-found: warn
+          retention-days: 7
+
+  build-android-release:
+    name: Signed Android release APK
+    needs: prepare-app-data
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '15' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v15' }}
+      KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+      KEYSTORE_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
+      SIGN_KEY: ${{ secrets.KEY_ALIAS }}
+      SIGN_PASS: ${{ secrets.KEY_PASSWORD }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Restore and save Gradle state
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-home-cache-cleanup: true
+
+      - name: Download source-built application data
+        if: ${{ env.APP_DATA_SOURCE == 'source' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: source-app-data-v${{ env.APP_DATA_VERSION }}
+          path: database
+
+      - name: Decode original release keystore
+        shell: bash
+        run: |
+          set -euo pipefail
+          : "${KEYSTORE_BASE64:?Set KEYSTORE_BASE64 from the original release keystore}"
+          : "${KEYSTORE_PASS:?Set KEYSTORE_PASSWORD}"
+          : "${SIGN_KEY:?Set KEY_ALIAS}"
+          : "${SIGN_PASS:?Set KEY_PASSWORD}"
+          keystore_path="$RUNNER_TEMP/kaiteyo-release.jks"
+          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$keystore_path"
+          test -s "$keystore_path"
+          echo "KEYSTORE_PATH=$keystore_path" >> "$GITHUB_ENV"
+
+      - name: Build optimized signed Android release
+        shell: bash
+        run: |
+          set -euo pipefail
+          chmod +x gradlew
+          ./gradlew :app:assembleRelease \
+            -PappDataSource="$APP_DATA_SOURCE" \
+            -PappDataVersion="$APP_DATA_VERSION" \
+            -PappDataReleaseTag="$APP_DATA_RELEASE_TAG" \
+            --no-daemon --parallel --build-cache --max-workers=4 \
+            -Dorg.gradle.workers.max=4 \
+            -Dorg.gradle.jvmargs='-Xmx4g -XX:MaxMetaspaceSize=1g -XX:+UseParallelGC -Dfile.encoding=UTF-8'
+
+      - name: Verify APK signature and record certificate digest
+        shell: bash
+        run: |
+          set -euo pipefail
+          apk="$(find app/build/outputs/apk/release -maxdepth 1 -type f -name '*.apk' -print -quit)"
+          test -n "$apk"
+          apksigner="$(find "$ANDROID_HOME/build-tools" -maxdepth 2 -type f -name apksigner -print | sort -V | tail -n 1)"
+          test -n "$apksigner"
+          test -x "$apksigner"
+          "$apksigner" verify --verbose --print-certs "$apk" | tee app/build/outputs/apk/release/signing-certificate.txt
+          grep -F 'Signer #1 certificate SHA-256 digest:' app/build/outputs/apk/release/signing-certificate.txt
+
+      - name: Upload signed Android release
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-release
+          path: |
+            app/build/outputs/apk/release/*.apk
+            app/build/outputs/apk/release/signing-certificate.txt
+          if-no-files-found: error
+          retention-days: 7
+
+  verify-release-artifact:
+    name: Verify release artifact
+    needs:
+      - unit-tests
+      - build-android-release
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Download signed Android release
+        uses: actions/download-artifact@v4
+        with:
+          name: android-release
+          path: android-release
+
+      - name: Verify artifact layout and signing record
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$(find android-release -type f -name '*.apk' -print -quit)"
+          test -s android-release/signing-certificate.txt
+          grep -F 'Signer #1 certificate SHA-256 digest:' android-release/signing-certificate.txt
+          find android-release -maxdepth 1 -type f -printf '%f %s bytes\n' | sort
 
   publish-data-release:
     if: ${{ inputs.data_source == 'source' && (inputs.publish_data_release || false) }}
     needs:
-      - build-android
+      - prepare-app-data
+      - verify-release-artifact
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Download source data artifact
+      - name: Download source-built application data
         uses: actions/download-artifact@v4
         with:
-          name: kanji-data-release
-          path: kanji-data-release
+          name: source-app-data-v${{ inputs.app_data_version || '15' }}
+          path: database
 
       - name: Publish internal data release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: data-v${{ inputs.app_data_version || '15' }}
-          name: Internal Kanji Data v${{ inputs.app_data_version || '15' }}
+          name: Internal Kaiteyo Data v${{ inputs.app_data_version || '15' }}
           target_commitish: ${{ github.sha }}
           generate_release_notes: false
           body: |
             Source-built Kaiteyo application database generated from the vendored `database/` source tree.
             The `.sql` extension is retained for application asset compatibility; the artifact is a SQLite database.
           files: |
-            kanji-data-release/kanji-dojo-data-base-v${{ inputs.app_data_version || '15' }}.sql
-            kanji-data-release/kanji-dojo-data-base-v${{ inputs.app_data_version || '15' }}.sql.sha256
+            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '15' }}.sql
+            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '15' }}.sql.sha256
