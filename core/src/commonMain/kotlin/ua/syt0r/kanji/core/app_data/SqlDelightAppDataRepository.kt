@@ -436,7 +436,9 @@ class SqlDelightAppDataRepository(
             val kanjiReadingInfo = kanjiElement.informations.parseAsVocabReadingInfoSet()
 
             val matchingKanaReadings = kanaElementsWithReadings.filter { (kanaElement, _) ->
-                val restrictedKanji = kanaElement.restricted_kanji?.split(DELIMITER)
+                val restrictedKanji = kanaElement.restricted_kanji
+                    ?.split(DELIMITER)
+                    ?.filter(String::isNotEmpty)
                     ?: emptyList()
                 kanjiReadingInfo.contains(VocabReadingInfo.SearchOnlyKanjiForm) ||
                         restrictedKanji.isEmpty() ||
@@ -536,7 +538,10 @@ class SqlDelightAppDataRepository(
         .let { FuriganaString(it) }
 
     private fun String?.parseAsVocabReadingInfoSet(): Set<VocabReadingInfo> {
-        return this?.split(DELIMITER)
+        return this
+            ?.split(DELIMITER)
+            ?.asSequence()
+            ?.filter(String::isNotEmpty)
             ?.map { jmDictInfoValue ->
                 VocabReadingInfo.entries.firstOrNull { it.jmDictValue == jmDictInfoValue }
                     ?: error("No info with value[$jmDictInfoValue]")

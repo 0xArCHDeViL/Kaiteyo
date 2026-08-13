@@ -214,12 +214,12 @@ LIMIT :limit;
 getVocabKanjiElementsWithDetails:
 SELECT elements.element_id,
        elements.reading,
-       (SELECT group_concat(information, :delimiter)
+       COALESCE((SELECT group_concat(information, :delimiter)
         FROM vocab_kanji_information
-        WHERE element_id = elements.element_id) AS informations,
-       (SELECT group_concat(priority, :delimiter)
+        WHERE element_id = elements.element_id), '') AS informations,
+       COALESCE((SELECT group_concat(priority, :delimiter)
         FROM vocab_kanji_priority
-        WHERE element_id = elements.element_id) AS priorities
+        WHERE element_id = elements.element_id), '') AS priorities
 FROM vocab_kanji_element AS elements
 WHERE elements.entry_id = :wordId
 ORDER BY elements.element_id;
@@ -227,16 +227,16 @@ ORDER BY elements.element_id;
 getVocabKanaElementsWithDetails:
 SELECT elements.element_id,
        elements.reading,
-       (SELECT group_concat(information, :delimiter)
+       COALESCE((SELECT group_concat(information, :delimiter)
         FROM vocab_kana_information
-        WHERE element_id = elements.element_id) AS informations,
-       (SELECT group_concat(priority, :delimiter)
+        WHERE element_id = elements.element_id), '') AS informations,
+       COALESCE((SELECT group_concat(priority, :delimiter)
         FROM vocab_kana_priority
-        WHERE element_id = elements.element_id) AS priorities,
+        WHERE element_id = elements.element_id), '') AS priorities,
        elements.no_kanji,
-       (SELECT group_concat(restricted_kanji, :delimiter)
+       COALESCE((SELECT group_concat(restricted_kanji, :delimiter)
         FROM vocab_kana_restriction
-        WHERE element_id = elements.element_id) AS restricted_kanji
+        WHERE element_id = elements.element_id), '') AS restricted_kanji
 FROM vocab_kana_element AS elements
 WHERE elements.entry_id = :wordId
 ORDER BY elements.element_id;
