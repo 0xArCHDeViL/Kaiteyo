@@ -102,8 +102,9 @@ fun main() {
     assertVocabData(exportVocabData, supportedVocabIdSet)
     assertVocabDeckCards(exportVocabDeckCards, supportedVocabIdSet)
 
+    val outputFile = File(ExportFileNameTemplate.format(ExportDatabaseVersion))
     DatabaseExporter(
-        file = File(ExportFileNameTemplate.format(ExportDatabaseVersion)),
+        file = outputFile,
         version = ExportDatabaseVersion
     ).apply {
         writeStrokes(exportStrokesData)
@@ -117,6 +118,14 @@ fun main() {
         writeSentences(exportSentences)
     }
 
+    DatabaseIntegrityValidator.validate(
+        file = outputFile,
+        expectedKanjiCount = exportKanjiData.size,
+        expectedVocabCount = supportedVocabIdSet.size,
+        expectedSentenceCount = exportSentences.size,
+        expectedDeckCardCount = exportVocabDeckCards.size
+    )
+    println("Validated database artifact ${outputFile.name}")
 }
 
 fun getExportSentences(): List<Sentence> {

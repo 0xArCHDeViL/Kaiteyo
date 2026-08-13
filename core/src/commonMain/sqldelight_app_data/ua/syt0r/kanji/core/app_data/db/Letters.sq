@@ -78,6 +78,12 @@ FROM kanji_radical
 WHERE kanji = ?
 ORDER BY start_stroke;
 
+getCharacterRadicalsForCharacters:
+SELECT kanji_radical.*
+FROM kanji_radical
+WHERE kanji IN :characters
+ORDER BY kanji, start_stroke;
+
 getKanjiMeanings:
 SELECT meaning FROM kanji_meaning WHERE kanji = ? ORDER BY priority;
 
@@ -91,25 +97,25 @@ getRadicals:
 SELECT * FROM radical;
 
 getCharsWithRadicals:
-SELECT DISTINCT kanji
-FROM kanji_radical AS c
-WHERE (
-    SELECT COUNT(DISTINCT radical)
-    FROM kanji_radical
-    WHERE kanji_radical.kanji = c.kanji
-    AND radical IN ?
-) = ?
-ORDER BY c.kanji;
+SELECT kanji
+FROM kanji_radical
+WHERE radical IN :radicals
+GROUP BY kanji
+HAVING COUNT(DISTINCT radical) = :radicalsCount
+ORDER BY kanji;
 
 getAllRadicalsInCharactersWithSelectedRadicals:
-WITH characters_with_selected_radicals AS (SELECT kanji
-                                           FROM kanji_radical
-                                           WHERE radical IN :radicals
-                                           GROUP BY kanji
-                                           HAVING COUNT(DISTINCT radical) = :radicalsCount)
-SELECT radical
+WITH characters_with_selected_radicals AS (
+    SELECT kanji
+    FROM kanji_radical
+    WHERE radical IN :radicals
+    GROUP BY kanji
+    HAVING COUNT(DISTINCT radical) = :radicalsCount
+)
+SELECT DISTINCT radical
 FROM kanji_radical
-WHERE kanji IN characters_with_selected_radicals;
+WHERE kanji IN characters_with_selected_radicals
+ORDER BY radical;
 
 -- ============================================
 -- Kanji Browser queries
@@ -138,3 +144,54 @@ getKanjiStrokeCounts:
 SELECT character, COUNT(*) AS stroke_count
 FROM character_stroke
 GROUP BY character;
+
+getKanjiCatalog:
+WITH meanings AS (
+    SELECT kanji, group_concat(meaning, :delimiter) AS meanings
+    FROM (
+        SELECT kanji, meaning
+        FROM kanji_meaning
+        ORDER BY kanji, priority
+    )
+    GROUP BY kanji
+), on_readings AS (
+    SELECT kanji, group_concat(reading, :delimiter) AS on_readings
+    FROM (
+        SELECT kanji, reading
+        FROM kanji_reading
+        WHERE reading_type = 'on'
+        ORDER BY kanji, reading
+    )
+    GROUP BY kanji
+), classifications AS (
+    SELECT kanji, group_concat(class, :delimiter) AS classifications
+    FROM (
+        SELECT kanji, class
+        FROM kanji_classification
+        ORDER BY kanji, class
+    )
+    GROUP BY kanji
+), stroke_counts AS (
+    SELECT character, COUNT(*) AS stroke_count
+    FROM character_stroke
+    GROUP BY character
+)
+SELECT kanji_data.kanji,
+       kanji_data.frequency,
+       COALESCE(meanings.meanings, '') AS meanings,
+       COALESCE(on_readings.on_readings, '') AS on_readings,
+       COALESCE(classifications.classifications, '') AS classifications,
+       COALESCE(stroke_counts.stroke_count, 0) AS stroke_count
+FROM kanji_data
+LEFT JOIN meanings ON meanings.kanji = kanji_data.kanji
+LEFT JOIN on_readings ON on_readings.kanji = kanji_data.kanji
+LEFT JOIN classifications ON classifications.kanji = kanji_data.kanji
+LEFT JOIN stroke_counts ON stroke_counts.character = kanji_data.kanji
+ORDER BY COALESCE(kanji_data.frequency, 2147483647), kanji_data.kanji;
+
+-- Reverse lookup indexes used by classification and radical filters.
+CREATE INDEX idx_kanji_classification_class_kanji
+ON kanji_classification(class, kanji);
+
+CREATE INDEX idx_kanji_radical_radical_kanji
+ON kanji_radical(radical, kanji, start_stroke);

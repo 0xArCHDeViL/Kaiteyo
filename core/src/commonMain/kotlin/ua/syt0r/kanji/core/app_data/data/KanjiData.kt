@@ -6,6 +6,15 @@ class KanjiData(
     val variantFamily: String?
 )
 
+data class KanjiCatalogEntry(
+    val kanji: String,
+    val frequency: Int?,
+    val meanings: List<String>,
+    val onReadings: List<String>,
+    val classifications: List<String>,
+    val strokeCount: Int
+)
+
 data class KanjiListEntry(
     val kanji: String,
     val frequency: Int?

@@ -90,6 +90,8 @@ class AndroidAppDataDatabaseProvider(
 
                 override fun onOpen(db: SupportSQLiteDatabase) {
                     super.onOpen(db)
+                    db.setForeignKeyConstraintsEnabled(true)
+                    db.execSQL("PRAGMA query_only = ON")
                     Logger.logMethod()
                     onDatabaseOpen.complete(Unit)
                 }

@@ -42,52 +42,163 @@ object CompositeJMdictParser {
         val idGenerator = IdGenerator()
         val furiganaProvider = FuriganaProvider()
         val gson = Gson()
+        val entities = StreamingJMdictParser.readEntities(file)
+        val entries = mutableListOf<DatabaseVocabSingleEntry>()
 
-        val entityRegex = "<!ENTITY (.*) \"(.*)\">".toRegex()
-        val entities = file.readLines()
-            .mapNotNull { entityRegex.find(it) }
-            .map { Vocab_entity(it.groupValues[1], it.groupValues[2]) }
-            .distinct()
+        StreamingJMdictParser.forEachSupportedEntry(file, wordsPool) { entry ->
+            entries += parseStreamingEntry(entry, idGenerator, furiganaProvider, gson)
+        }
 
-        return Jsoup.parse(file, Charsets.UTF_8.name())
-            .select("entry")
-            .mapNotNull {
-                val entryId = it.selectFirst("ent_seq")!!.text().toLong()
-                if (!wordsPool.contains(entryId)) return@mapNotNull null
-
-                parseEntry(it, idGenerator, furiganaProvider, gson)
-            }
-            .run {
-                DatabaseVocabData(
-                    entries = map { it.entry },
-                    kanjiElements = flatMap { it.kanjiElements },
-                    kanjiInformation = flatMap { it.kanjiInformation },
-                    kanjiPriorities = flatMap { it.kanjiPriorities },
-                    kanaElements = flatMap { it.kanaElements },
-                    kanaRestrictions = flatMap { it.kanaRestrictions },
-                    kanaInformation = flatMap { it.kanaInformation },
-                    kanaPriorities = flatMap { it.kanaPriorities },
-                    senses = flatMap { it.senses },
-                    senseKanjiRestrictions = flatMap { it.senseKanjiRestrictions },
-                    senseReadingRestrictions = flatMap { it.senseReadingRestrictions },
-                    sensePartsOfSpeech = flatMap { it.sensePartsOfSpeech },
-                    senseCrossReferences = flatMap { it.senseCrossReferences },
-                    senseAntonyms = flatMap { it.senseAntonyms },
-                    senseFields = flatMap { it.senseFields },
-                    senseMiscellaneous = flatMap { it.senseMiscellaneous },
-                    senseDialects = flatMap { it.senseDialects },
-                    senseGlosses = flatMap { it.senseGlosses }
-                        .filter { it.language == null } // filter only English
-                        .distinct(), // distinct cause some entries contain badly formatted glosses
-                    senseInformation = flatMap { it.senseInformation },
-                    senseExample = flatMap { it.senseExample },
-                    entities = entities,
-                    furigana = flatMap { it.furigana }.distinct()
-                )
-            }
+        return entries.run {
+            DatabaseVocabData(
+                entries = map { it.entry },
+                kanjiElements = flatMap { it.kanjiElements },
+                kanjiInformation = flatMap { it.kanjiInformation },
+                kanjiPriorities = flatMap { it.kanjiPriorities },
+                kanaElements = flatMap { it.kanaElements },
+                kanaRestrictions = flatMap { it.kanaRestrictions },
+                kanaInformation = flatMap { it.kanaInformation },
+                kanaPriorities = flatMap { it.kanaPriorities },
+                senses = flatMap { it.senses },
+                senseKanjiRestrictions = flatMap { it.senseKanjiRestrictions },
+                senseReadingRestrictions = flatMap { it.senseReadingRestrictions },
+                sensePartsOfSpeech = flatMap { it.sensePartsOfSpeech },
+                senseCrossReferences = flatMap { it.senseCrossReferences },
+                senseAntonyms = flatMap { it.senseAntonyms },
+                senseFields = flatMap { it.senseFields },
+                senseMiscellaneous = flatMap { it.senseMiscellaneous },
+                senseDialects = flatMap { it.senseDialects },
+                senseGlosses = flatMap { it.senseGlosses }
+                    .filter { it.language == null }
+                    .distinct(),
+                senseInformation = flatMap { it.senseInformation },
+                senseExample = flatMap { it.senseExample },
+                entities = entities,
+                furigana = flatMap { it.furigana }.distinct()
+            )
+        }
     }
 
     const val ElementIdGeneratorKey = "ele"
+
+    private fun parseStreamingEntry(
+        entry: StreamingJMdictEntry,
+        idGenerator: IdGenerator,
+        furiganaProvider: FuriganaProvider,
+        gson: Gson
+    ): DatabaseVocabSingleEntry {
+        val dbEntry = DatabaseVocabSingleEntry(entry = Vocab_entry(entry.entrySequence))
+
+        entry.kanji.forEach { kanji ->
+            val elementId = idGenerator.nextId(ElementIdGeneratorKey)
+            kanji.information.forEach { information ->
+                dbEntry.kanjiInformation += Vocab_kanji_information(
+                    elementId,
+                    information.removeDataSurroundings()
+                )
+            }
+            kanji.priorities.forEach { priority ->
+                dbEntry.kanjiPriorities += Vocab_kanji_priority(elementId, priority)
+            }
+            val numericPriority = kanji.priorities
+                .map { JMDictPriority.fromJMDictValue(it).asNumber() }
+                .minOrNull()
+                ?.toLong()
+            dbEntry.kanjiElements += Vocab_kanji_element(
+                elementId,
+                entry.entrySequence,
+                kanji.expression,
+                numericPriority
+            )
+        }
+
+        entry.readings.forEach { reading ->
+            val elementId = idGenerator.nextId(ElementIdGeneratorKey)
+            reading.restrictions.forEach { restriction ->
+                dbEntry.kanaRestrictions += Vocab_kana_restriction(elementId, restriction)
+            }
+            reading.information.forEach { information ->
+                dbEntry.kanaInformation += Vocab_kana_information(
+                    elementId,
+                    information.removeDataSurroundings()
+                )
+            }
+            reading.priorities.forEach { priority ->
+                dbEntry.kanaPriorities += Vocab_kana_priority(elementId, priority)
+            }
+            val numericPriority = reading.priorities
+                .map { JMDictPriority.fromJMDictValue(it).asNumber() }
+                .minOrNull()
+                ?.toLong()
+            dbEntry.kanaElements += Vocab_kana_element(
+                elementId,
+                entry.entrySequence,
+                reading.expression,
+                if (reading.noKanji) 1L else 0L,
+                numericPriority
+            )
+        }
+
+        entry.senses.forEach { sense ->
+            val senseId = idGenerator.nextId("sense")
+            dbEntry.senses += Vocab_sense(senseId, entry.entrySequence)
+            sense.kanjiRestrictions.forEach {
+                dbEntry.senseKanjiRestrictions += Vocab_sense_kanji_restriction(senseId, it)
+            }
+            sense.readingRestrictions.forEach {
+                dbEntry.senseReadingRestrictions += Vocab_sense_kana_restriction(senseId, it)
+            }
+            sense.crossReferences.forEach {
+                dbEntry.senseCrossReferences += Vocab_sense_cross_reference(senseId, it)
+            }
+            sense.antonyms.forEach {
+                dbEntry.senseAntonyms += Vocab_sense_antonym(senseId, it)
+            }
+            sense.partsOfSpeech.forEach {
+                dbEntry.sensePartsOfSpeech += Vocab_sense_part_of_speech(
+                    senseId,
+                    it.removeDataSurroundings()
+                )
+            }
+            sense.fields.forEach {
+                dbEntry.senseFields += Vocab_sense_field(senseId, it.removeDataSurroundings())
+            }
+            sense.miscellaneous.forEach {
+                dbEntry.senseMiscellaneous += Vocab_sense_miscellaneous(
+                    senseId,
+                    it.removeDataSurroundings()
+                )
+            }
+            sense.dialects.forEach {
+                dbEntry.senseDialects += Vocab_sense_dialect(senseId, it.removeDataSurroundings())
+            }
+            sense.glosses.forEach { gloss ->
+                dbEntry.senseGlosses += Vocab_sense_gloss(
+                    sense_id = senseId,
+                    gloss_text = gloss.text,
+                    language = gloss.language,
+                    type = gloss.type
+                )
+            }
+            sense.information.forEach {
+                dbEntry.senseInformation += Vocab_sense_information(senseId, it)
+            }
+            sense.examples
+                .filter { it.sourceType == "tat" && it.japanese.isNotEmpty() && it.english.isNotEmpty() }
+                .forEach { example ->
+                    dbEntry.senseExample += Vocab_sense_example(
+                        senseId,
+                        example.text,
+                        example.sourceId
+                    )
+                }
+        }
+
+        dbEntry.addFurigana(furiganaProvider, gson)
+        return dbEntry
+    }
+
+    private fun String.removeDataSurroundings() = removePrefix("&").removeSuffix(";")
 
     private fun parseEntry(
         entryElement: Element,

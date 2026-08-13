@@ -1,6 +1,7 @@
 package ua.syt0r.kanji.core.app_data
 
 import kotlinx.coroutines.Deferred
+import kotlin.random.Random
 import ua.syt0r.kanji.core.app_data.data.CharacterRadical
 import ua.syt0r.kanji.core.app_data.data.DetailedJapaneseWord
 import ua.syt0r.kanji.core.app_data.data.DetailedVocabReading
@@ -9,6 +10,7 @@ import ua.syt0r.kanji.core.app_data.data.FuriganaDBEntityCreator
 import ua.syt0r.kanji.core.app_data.data.FuriganaString
 import ua.syt0r.kanji.core.app_data.data.FuriganaStringCompound
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
+import ua.syt0r.kanji.core.app_data.data.KanjiCatalogEntry
 import ua.syt0r.kanji.core.app_data.data.KanjiData
 import ua.syt0r.kanji.core.app_data.data.RadicalData
 import ua.syt0r.kanji.core.app_data.data.ReadingType
@@ -24,17 +26,15 @@ class SqlDelightAppDataRepository(
 ) : AppDataRepository {
 
     private suspend fun <T> lettersQuery(
-        transactionScope: LettersQueries.() -> T
+        queryScope: LettersQueries.() -> T
     ): T {
-        val queries = deferredDatabase.await().lettersQueries
-        return queries.transactionWithResult { queries.transactionScope() }
+        return queryScope(deferredDatabase.await().lettersQueries)
     }
 
     private suspend fun <T> vocabQuery(
-        transactionScope: VocabQueries.() -> T
+        queryScope: VocabQueries.() -> T
     ): T {
-        val queries = deferredDatabase.await().vocabQueries
-        return queries.transactionWithResult { queries.transactionScope() }
+        return queryScope(deferredDatabase.await().vocabQueries)
     }
 
     override suspend fun getStrokes(character: String): List<String> = lettersQuery {
@@ -54,6 +54,24 @@ class SqlDelightAppDataRepository(
                 )
             }
         }
+    }
+
+    override suspend fun getRadicalsInCharacters(
+        characters: List<String>
+    ): Map<String, List<CharacterRadical>> = lettersQuery {
+        getCharacterRadicalsForCharacters(characters)
+            .executeAsList()
+            .groupBy { it.kanji }
+            .mapValues { (character, rows) ->
+                rows.map {
+                    CharacterRadical(
+                        character = character,
+                        radical = it.radical,
+                        startPosition = it.start_stroke.toInt(),
+                        strokesCount = it.strokes_count.toInt()
+                    )
+                }
+            }
     }
 
     override suspend fun getMeanings(kanji: String): List<String> = lettersQuery {
@@ -82,7 +100,11 @@ class SqlDelightAppDataRepository(
     override suspend fun getCharacterReadingsOfLength(
         length: Int, limit: Int
     ): List<String> = vocabQuery {
-        getVocabKanaReadingsOfLength(length.toLong(), limit.toLong()).executeAsList()
+        getVocabKanaReadingsOfLength(
+            length = length.toLong(),
+            seed = Random.nextLong(Int.MAX_VALUE.toLong()),
+            limit = limit.toLong()
+        ).executeAsList()
     }
 
     override suspend fun getData(kanji: String): KanjiData? = lettersQuery {
@@ -95,6 +117,19 @@ class SqlDelightAppDataRepository(
 
     override suspend fun getRadicals(): List<RadicalData> = lettersQuery {
         getRadicals().executeAsList().map { RadicalData(it.radical, it.strokesCount.toInt()) }
+    }
+
+    override suspend fun getKanjiCatalog(): List<KanjiCatalogEntry> = lettersQuery {
+        getKanjiCatalog(DELIMITER).executeAsList().map { row ->
+            KanjiCatalogEntry(
+                kanji = row.kanji,
+                frequency = row.frequency?.toInt(),
+                meanings = row.meanings.splitValues(),
+                onReadings = row.on_readings.splitValues(),
+                classifications = row.classifications.splitValues(),
+                strokeCount = row.stroke_count.toInt()
+            )
+        }
     }
 
     override suspend fun getAllKanji(): List<ua.syt0r.kanji.core.app_data.data.KanjiListEntry> = lettersQuery {
@@ -360,8 +395,14 @@ class SqlDelightAppDataRepository(
     private fun VocabQueries.getDetailedWordInternal(id: Long): DetailedJapaneseWord? {
         val senseElements = getVocabSensesWithDetails(listOf(id), DELIMITER).executeAsList()
 
-        val kanjiElements = getVocabKanjiElementsWithDetails(id, DELIMITER).executeAsList()
-        val kanaElements = getVocabKanaElementsWithDetails(id, DELIMITER).executeAsList()
+        val kanjiElements = getVocabKanjiElementsWithDetails(
+            delimiter = DELIMITER,
+            wordId = id
+        ).executeAsList()
+        val kanaElements = getVocabKanaElementsWithDetails(
+            delimiter = DELIMITER,
+            wordId = id
+        ).executeAsList()
 
         if (senseElements.isEmpty() || (kanjiElements.isEmpty() && kanaElements.isEmpty())) {
             Logger.d("Not enough info about jmDictWord[$id]")
@@ -485,6 +526,9 @@ class SqlDelightAppDataRepository(
         Logger.d("Word not found, id[$id], kanaReading[$kanaReading], kanjiReading[$kanjiReading]")
         return null
     }
+
+    private fun String.splitValues(): List<String> =
+        if (isEmpty()) emptyList() else split(DELIMITER)
 
     private fun String.parseAsFurigana(): FuriganaString = FuriganaDBEntityCreator
         .fromJsonString(this)

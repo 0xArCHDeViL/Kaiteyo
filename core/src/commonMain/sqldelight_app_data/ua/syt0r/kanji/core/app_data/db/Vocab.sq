@@ -171,6 +171,28 @@ CREATE TABLE vocab_deck_card(
     PRIMARY KEY (jmdict_seq, kanji, kana, deck)
 );
 
+-- Foreign-key and search access paths for bounded reads and batched detail loading.
+CREATE INDEX idx_vocab_kanji_entry_priority
+ON vocab_kanji_element(entry_id, priority, element_id);
+
+CREATE INDEX idx_vocab_kanji_reading_entry
+ON vocab_kanji_element(reading, entry_id, element_id);
+
+CREATE INDEX idx_vocab_kana_entry_priority
+ON vocab_kana_element(entry_id, priority, element_id);
+
+CREATE INDEX idx_vocab_kana_reading_entry
+ON vocab_kana_element(reading, entry_id, element_id);
+
+CREATE INDEX idx_vocab_sense_entry_id
+ON vocab_sense(entry_id, id);
+
+CREATE INDEX idx_vocab_sentence_score_id
+ON sentence(score, tatoeba_id);
+
+CREATE INDEX idx_vocab_deck_deck_priority
+ON vocab_deck_card(deck, priority, jmdict_seq);
+
 getVocabDeckCardsCount:
 SELECT COUNT(*)
 FROM vocab_deck_card
@@ -182,46 +204,42 @@ FROM vocab_deck_card
 WHERE deck = ?;
 
 getVocabKanaReadingsOfLength:
-SELECT DISTINCT reading
+SELECT reading
 FROM vocab_kana_element
 WHERE LENGTH(reading) = :length
-ORDER BY RANDOM()
+GROUP BY reading
+ORDER BY ((MIN(element_id) * 1103515245 + :seed) & 2147483647)
 LIMIT :limit;
 
 getVocabKanjiElementsWithDetails:
-WITH
-    KanjiReadings AS (SELECT * FROM vocab_kanji_element WHERE entry_id = :wordId),
-    KanjiElements AS (SELECT element_id FROM KanjiReadings),
-    KanjiInformations AS (SELECT * FROM vocab_kanji_information WHERE element_id IN KanjiElements),
-    KanjiPriorities AS (SELECT * FROM vocab_kanji_priority WHERE element_id IN KanjiElements)
-SELECT KanjiReadings.element_id,
-       KanjiReadings.reading,
-       group_concat(KanjiInformations.information, :delimiter) AS informations,
-       group_concat(KanjiPriorities.priority, :delimiter)      AS priorities
-FROM KanjiReadings
-         LEFT JOIN KanjiInformations ON KanjiReadings.element_id = KanjiInformations.element_id
-         LEFT JOIN KanjiPriorities ON KanjiReadings.element_id = KanjiPriorities.priority
-GROUP BY KanjiReadings.element_id;
+SELECT elements.element_id,
+       elements.reading,
+       (SELECT group_concat(information, :delimiter)
+        FROM vocab_kanji_information
+        WHERE element_id = elements.element_id) AS informations,
+       (SELECT group_concat(priority, :delimiter)
+        FROM vocab_kanji_priority
+        WHERE element_id = elements.element_id) AS priorities
+FROM vocab_kanji_element AS elements
+WHERE elements.entry_id = :wordId
+ORDER BY elements.element_id;
 
 getVocabKanaElementsWithDetails:
-WITH
-    KanaReadings AS (SELECT * FROM vocab_kana_element WHERE entry_id = :wordId),
-    KanaElements AS (SELECT element_id FROM KanaReadings),
-    KanaRestrictions AS (SELECT * FROM vocab_kana_restriction WHERE element_id IN KanaElements),
-    KanaInformations AS (SELECT * FROM vocab_kana_information WHERE element_id IN KanaElements),
-    KanaPriorities AS (SELECT * FROM vocab_kana_priority WHERE element_id IN KanaElements)
-SELECT KanaReadings.element_id,
-       KanaReadings.reading,
-       group_concat(KanaInformations.information, :delimiter)      AS informations,
-       group_concat(KanaPriorities.priority, :delimiter)           AS priorities,
-       KanaReadings.no_kanji,
-       group_concat(KanaRestrictions.restricted_kanji, :delimiter) AS restricted_kanji
-FROM KanaReadings
-         LEFT JOIN KanaInformations ON KanaReadings.element_id = KanaInformations.element_id
-         LEFT JOIN KanaPriorities ON KanaReadings.element_id = KanaPriorities.element_id
-         LEFT JOIN KanaRestrictions ON KanaReadings.element_id = KanaRestrictions.element_id
-WHERE KanaReadings.element_id IN KanaElements
-GROUP BY KanaReadings.element_id;
+SELECT elements.element_id,
+       elements.reading,
+       (SELECT group_concat(information, :delimiter)
+        FROM vocab_kana_information
+        WHERE element_id = elements.element_id) AS informations,
+       (SELECT group_concat(priority, :delimiter)
+        FROM vocab_kana_priority
+        WHERE element_id = elements.element_id) AS priorities,
+       elements.no_kanji,
+       (SELECT group_concat(restricted_kanji, :delimiter)
+        FROM vocab_kana_restriction
+        WHERE element_id = elements.element_id) AS restricted_kanji
+FROM vocab_kana_element AS elements
+WHERE elements.entry_id = :wordId
+ORDER BY elements.element_id;
 
 searchFurigana:
 SELECT furigana
@@ -229,49 +247,52 @@ FROM vocab_furigana
 WHERE text = ? AND reading = ?;
 
 getCountOfVocabReadingsWithText:
-WITH
-    kanji AS (SELECT entry_id, element_id, reading, priority, 0 AS isKana
-              FROM vocab_kanji_element
-              WHERE reading LIKE '%' || :text || '%'
-                AND :includeKanjiReadings),
-    kana AS (SELECT entry_id, element_id, reading, priority, 1 AS isKana
-             FROM vocab_kana_element
-             WHERE reading LIKE '%' || :text || '%'),
-    combined AS (SELECT * FROM kanji UNION SELECT * FROM kana),
-    grouped AS (SELECT * FROM combined GROUP BY entry_id ORDER BY element_id)
-SELECT COUNT(*)
-FROM grouped
-ORDER BY priority IS NULL, priority;
+SELECT COUNT(DISTINCT entry_id)
+FROM (
+    SELECT entry_id
+    FROM vocab_kanji_element
+    WHERE reading LIKE '%' || :text || '%'
+      AND :includeKanjiReadings
+    UNION ALL
+    SELECT entry_id
+    FROM vocab_kana_element
+    WHERE reading LIKE '%' || :text || '%'
+);
 
 getVocabReadingsWithText:
-WITH
-    kanji AS (SELECT entry_id, element_id, reading, priority, 0 AS isKana
-              FROM vocab_kanji_element
-              WHERE reading LIKE '%' || :text || '%'
-                AND :includeKanjiReadings),
-    kana AS (SELECT entry_id, element_id, reading, priority, 1 AS isKana
-             FROM vocab_kana_element
-             WHERE reading LIKE '%' || :text || '%'),
-    combined AS (SELECT * FROM kanji UNION SELECT * FROM kana),
-    grouped AS (SELECT * FROM combined GROUP BY entry_id ORDER BY element_id)
-SELECT *
+WITH matched AS (
+    SELECT entry_id, element_id, reading, priority, 0 AS isKana
+    FROM vocab_kanji_element
+    WHERE reading LIKE '%' || :text || '%'
+      AND :includeKanjiReadings
+    UNION ALL
+    SELECT entry_id, element_id, reading, priority, 1 AS isKana
+    FROM vocab_kana_element
+    WHERE reading LIKE '%' || :text || '%'
+), grouped AS (
+    SELECT entry_id, element_id, reading, priority, isKana
+    FROM matched
+    GROUP BY entry_id
+)
+SELECT entry_id, element_id, reading, priority, isKana
 FROM grouped
-ORDER BY priority IS NULL, priority
-LIMIT :offset, :limit;
+ORDER BY priority IS NULL, priority, element_id, entry_id
+LIMIT :limit OFFSET :offset;
 
 findVocabElementsByIdOrReading:
-WITH
-    kanji AS (SELECT entry_id, element_id, reading, 0 AS isKana
-              FROM vocab_kanji_element
-              WHERE entry_id = :entryId
-                 OR reading = :kanjiReading),
-    kana AS (SELECT entry_id, element_id, reading, 1 AS isKana
-             FROM vocab_kana_element
-             WHERE entry_id = :entryId
-                OR reading = :kanaReading),
-    combined AS (SELECT * FROM kanji UNION SELECT * FROM kana)
-SELECT *
-FROM combined
+WITH matched AS (
+    SELECT entry_id, element_id, reading, 0 AS isKana
+    FROM vocab_kanji_element
+    WHERE entry_id = :entryId
+       OR reading = :kanjiReading
+    UNION ALL
+    SELECT entry_id, element_id, reading, 1 AS isKana
+    FROM vocab_kana_element
+    WHERE entry_id = :entryId
+       OR reading = :kanaReading
+)
+SELECT entry_id, element_id, reading, isKana
+FROM matched
 GROUP BY entry_id;
 
 getVocabSensesWithDetails:
@@ -328,8 +349,8 @@ getSentencesWithText:
 SELECT sentence, translation, furigana
 FROM sentence
 WHERE sentence LIKE '%' || :text || '%'
-ORDER BY score
-LIMIT :offset, :limit;
+ORDER BY score, tatoeba_id
+LIMIT :limit OFFSET :offset;
 
 getFuriganaForWord:
 SELECT text, reading, furigana

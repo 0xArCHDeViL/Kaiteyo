@@ -171,6 +171,27 @@ CREATE TABLE vocab_deck_card(
     PRIMARY KEY (jmdict_seq, kanji, kana, deck)
 );
 
+CREATE INDEX idx_vocab_kanji_entry_priority
+ON vocab_kanji_element(entry_id, priority, element_id);
+
+CREATE INDEX idx_vocab_kanji_reading_entry
+ON vocab_kanji_element(reading, entry_id, element_id);
+
+CREATE INDEX idx_vocab_kana_entry_priority
+ON vocab_kana_element(entry_id, priority, element_id);
+
+CREATE INDEX idx_vocab_kana_reading_entry
+ON vocab_kana_element(reading, entry_id, element_id);
+
+CREATE INDEX idx_vocab_sense_entry_id
+ON vocab_sense(entry_id, id);
+
+CREATE INDEX idx_vocab_sentence_score_id
+ON sentence(score, tatoeba_id);
+
+CREATE INDEX idx_vocab_deck_deck_priority
+ON vocab_deck_card(deck, priority, jmdict_seq);
+
 insert_vocab_entry:
 INSERT INTO vocab_entry VALUES ?;
 
@@ -196,7 +217,7 @@ insert_vocab_kana_priority:
 INSERT INTO vocab_kana_priority VALUES ?;
 
 insert_vocab_sense:
-INSERT INTO vocab_sense (entry_id) VALUES ?;
+INSERT INTO vocab_sense (id, entry_id) VALUES ?;
 
 insert_vocab_sense_kanji_restriction:
 INSERT INTO vocab_sense_kanji_restriction VALUES ?;

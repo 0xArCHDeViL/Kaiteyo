@@ -11,10 +11,7 @@ import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
 import ua.syt0r.kanji.core.app_data.AppDataRepository
-import ua.syt0r.kanji.core.app_data.data.KanjiClassificationEntry
-import ua.syt0r.kanji.core.app_data.data.KanjiListEntry
-import ua.syt0r.kanji.core.app_data.data.KanjiMeaningEntry
-import ua.syt0r.kanji.core.app_data.data.KanjiReadingEntry
+import ua.syt0r.kanji.core.app_data.data.KanjiCatalogEntry
 import ua.syt0r.kanji.core.app_data.data.RadicalData
 import ua.syt0r.kanji.core.srs.SrsPracticeType
 import ua.syt0r.kanji.core.srs.SrsCardKey
@@ -95,24 +92,16 @@ class KaiteyoDataCenter(
         isLoading = true
         loadError = false
         try {
-            val kanjiList: List<KanjiListEntry> = appDataRepository.getAllKanji()
-            val meanings: List<KanjiMeaningEntry> = appDataRepository.getAllKanjiMeanings()
-            val readings: List<KanjiReadingEntry> = appDataRepository.getAllKanjiReadings()
-            val classes: List<KanjiClassificationEntry> = appDataRepository.getAllClassifications()
+            val catalog = appDataRepository.getKanjiCatalog()
             frequencies.clear()
-            kanjiList.forEach { frequencies[it.kanji] = it.frequency ?: Int.MAX_VALUE }
             strokeCounts.clear()
-            strokeCounts.putAll(appDataRepository.getKanjiStrokeCounts())
-
-            val meaningByKanji = meanings.groupBy { it.kanji }.mapValues { (_, v) -> v.map { it.meaning } }
-            val onReadingsByKanji = readings
-                .filter { it.readingType == "on" }
-                .groupBy { it.kanji }
-                .mapValues { (_, v) -> v.map { it.reading } }
-
             classifications.clear()
-            classes.forEach { entry ->
-                classifications.getOrPut(entry.kanji) { mutableListOf() }.add(entry.classification)
+            catalog.forEach { entry ->
+                frequencies[entry.kanji] = entry.frequency ?: Int.MAX_VALUE
+                strokeCounts[entry.kanji] = entry.strokeCount
+                if (entry.classifications.isNotEmpty()) {
+                    classifications[entry.kanji] = entry.classifications.toMutableList()
+                }
             }
 
             val allSrs = fsrsCardRepository.getAll()
@@ -175,7 +164,7 @@ class KaiteyoDataCenter(
             totalReviews.value = reviewHistoryRepository.getTotalReviewsCount()
             totalPracticeTime.value = reviewHistoryRepository.getTotalPracticeTime(60_000L)
 
-            buildCatalog(kanjiList, meaningByKanji, onReadingsByKanji)
+            buildCatalog(catalog)
             rebuildCollections()
         } catch (t: Throwable) {
             loadError = true
@@ -195,21 +184,17 @@ class KaiteyoDataCenter(
         }.getOrDefault(emptyList())
     }
 
-    private fun buildCatalog(
-        kanjiList: List<KanjiListEntry>,
-        meaningByKanji: Map<String, List<String>>,
-        onReadingsByKanji: Map<String, List<String>>
-    ) {
+    private fun buildCatalog(catalog: List<KanjiCatalogEntry>) {
         cards.clear()
-        kanjiList.forEach { entry ->
+        catalog.forEach { entry ->
             val character = entry.kanji
             val srsCard = srsCards[character]
             cards.add(
                 KaiteyoCard(
                     id = character,
                     character = character,
-                    meaning = meaningByKanji[character]?.firstOrNull() ?: "",
-                    reading = onReadingsByKanji[character]?.take(3)?.joinToString("・") ?: "",
+                    meaning = entry.meanings.firstOrNull() ?: "",
+                    reading = entry.onReadings.take(3).joinToString("・"),
                     deck = "Kanji Browser",
                     deckId = 0L,
                     tags = mutableListOf(),
@@ -318,11 +303,15 @@ class KaiteyoDataCenter(
 
     suspend fun loadCharactersWithRadicals(radicals: Set<String>): Set<String> {
         val result = appDataRepository.getCharactersWithRadicals(radicals.toList())
+        val radicalsByCharacter = appDataRepository.getRadicalsInCharacters(result)
         radicalsInCharacter.clear()
         result.forEach { character ->
-            appDataRepository.getRadicalsInCharacter(character)
+            radicalsByCharacter[character]
+                .orEmpty()
+                .asSequence()
                 .map { it.radical }
                 .distinct()
+                .toList()
                 .let { radicalsInCharacter[character] = it }
         }
         return result.toSet()

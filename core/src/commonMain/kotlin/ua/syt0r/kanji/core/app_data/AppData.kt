@@ -7,6 +7,7 @@ import ua.syt0r.kanji.core.app_data.data.CharacterRadical
 import ua.syt0r.kanji.core.app_data.data.DetailedJapaneseWord
 import ua.syt0r.kanji.core.app_data.data.FuriganaString
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
+import ua.syt0r.kanji.core.app_data.data.KanjiCatalogEntry
 import ua.syt0r.kanji.core.app_data.data.KanjiData
 import ua.syt0r.kanji.core.app_data.data.RadicalData
 import ua.syt0r.kanji.core.app_data.data.ReadingType
@@ -23,6 +24,7 @@ interface AppDataRepository {
 
     suspend fun getStrokes(character: String): List<String>
     suspend fun getRadicalsInCharacter(character: String): List<CharacterRadical>
+    suspend fun getRadicalsInCharacters(characters: List<String>): Map<String, List<CharacterRadical>>
 
     suspend fun getMeanings(kanji: String): List<String>
     suspend fun getReadings(kanji: String): Map<String, ReadingType>
@@ -31,7 +33,10 @@ interface AppDataRepository {
     suspend fun getCharacterReadingsOfLength(length: Int, limit: Int): List<String>
     suspend fun getData(kanji: String): KanjiData?
 
-    // Kanji Browser bulk queries
+    // Kanji Browser catalog query: one row per kanji, all display metadata aggregated.
+    suspend fun getKanjiCatalog(): List<KanjiCatalogEntry>
+
+    // Legacy bulk queries retained for non-catalog callers during migration.
     suspend fun getAllKanji(): List<ua.syt0r.kanji.core.app_data.data.KanjiListEntry>
     suspend fun getAllKanjiMeanings(): List<ua.syt0r.kanji.core.app_data.data.KanjiMeaningEntry>
     suspend fun getAllKanjiReadings(): List<ua.syt0r.kanji.core.app_data.data.KanjiReadingEntry>

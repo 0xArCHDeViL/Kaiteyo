@@ -158,9 +158,13 @@ object LegacyExpressionFallback {
         )
     }
 
-    private fun elementId(entryId: Long, index: Int): Long = -(entryId * 1_000L + index + 1L)
+    private fun elementId(entryId: Long, index: Int): Long =
+        FALLBACK_ELEMENT_ID_BASE + entryId * 1_000L + index + 1L
 
-    private fun senseId(entryId: Long): Long = -(entryId * 1_000L + 900L)
+    private fun senseId(entryId: Long): Long = FALLBACK_SENSE_ID_BASE + entryId
+
+    private const val FALLBACK_ELEMENT_ID_BASE = 1_000_000_000L
+    private const val FALLBACK_SENSE_ID_BASE = 2_000_000_000L
 
     private fun emptyData() = DatabaseVocabData(
         entries = emptyList(),

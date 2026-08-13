@@ -53,6 +53,11 @@ CREATE TABLE letter_vocab_example(
     PRIMARY KEY (letter, vocab_id, kanji, kana)
 );
 
+CREATE INDEX idx_kanji_classification_class_kanji
+ON kanji_classification(class, kanji);
+
+CREATE INDEX idx_kanji_radical_radical_kanji
+ON kanji_radical(radical, kanji, start_stroke);
 
 insertCharacterStroke:
 INSERT INTO character_stroke VALUES ?;
