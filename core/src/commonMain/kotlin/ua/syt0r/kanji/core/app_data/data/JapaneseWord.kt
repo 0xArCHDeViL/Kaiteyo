@@ -45,18 +45,34 @@ data class DetailedVocabReading(
     val noKanji: Boolean
 )
 
-enum class VocabReadingInfo(val jmDictValue: String) {
-    AtejiReading("ateji"),
-    GikunReading("gikun"),
-    IrregularOkuriganaUsage("io"),
-    IrregularKanaUsage("ik"),
-    IrregularKanjiUsage("iK"),
-    OutdatedKana("ok"),
-    OutdatedKanji("oK"),
-    RarelyUsedKanaForm("rk"),
-    RarelyUsedKanjiForm("rK"),
-    SearchOnlyKanaForm("sk"),
-    SearchOnlyKanjiForm("sK"),
+enum class VocabReadingInfo(
+    val jmDictValue: String,
+    private val verboseJmDictValue: String? = null
+) {
+    AtejiReading("ateji", "ateji (phonetic) reading"),
+    GikunReading("gikun", "gikun (meaning as reading) or jukujikun (special kanji reading)"),
+    IrregularOkuriganaUsage("io", "irregular okurigana usage"),
+    IrregularKanaUsage("ik", "word containing irregular kana usage"),
+    IrregularKanjiUsage("iK", "word containing irregular kanji usage"),
+    OutdatedKana("ok", "out-dated or obsolete kana usage"),
+    OutdatedKanji("oK", "word containing out-dated kanji or kanji usage"),
+    RarelyUsedKanaForm("rk", "rarely used kana form"),
+    RarelyUsedKanjiForm("rK", "rarely used kanji form"),
+    SearchOnlyKanaForm("sk", "search-only kana form"),
+    SearchOnlyKanjiForm("sK", "search-only kanji form");
+
+    companion object {
+        private val valuesByJmDictValue = entries
+            .flatMap { info ->
+                sequenceOf(info.jmDictValue, info.verboseJmDictValue)
+                    .filterNotNull()
+                    .map { value -> value to info }
+            }
+            .toMap()
+
+        fun fromJmDictValue(value: String): VocabReadingInfo? =
+            valuesByJmDictValue[value.trim()]
+    }
 }
 
 data class DetailedJapaneseWord(

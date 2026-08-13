@@ -542,9 +542,8 @@ class SqlDelightAppDataRepository(
             ?.split(DELIMITER)
             ?.asSequence()
             ?.filter(String::isNotEmpty)
-            ?.map { jmDictInfoValue ->
-                VocabReadingInfo.entries.firstOrNull { it.jmDictValue == jmDictInfoValue }
-                    ?: error("No info with value[$jmDictInfoValue]")
+            ?.mapNotNull { jmDictInfoValue ->
+                VocabReadingInfo.fromJmDictValue(jmDictInfoValue)
             }
             ?.toSet()
             ?: emptySet()
