@@ -16,11 +16,11 @@ class DefaultGetGrammarPracticeClozeDataUseCase(
 
     override suspend fun invoke(descriptor: GrammarPracticeQueueItemDescriptor.Cloze): GrammarPracticeItemData.Cloze {
         val chapter = contentRepository.findChapter(descriptor.deckId)
-            ?: error("Grammar chapter ${descriptor.deckId} not found")
+?: return@invoke createFallbackCloze(descriptor)
         val point = chapter.points.firstOrNull { it.number == descriptor.pointNumber }
-            ?: error("Grammar point ${descriptor.pointNumber} not found")
+?: return@invoke createFallbackCloze(descriptor)
         val question = questionEngine.cloze(point, seedFor(descriptor))
-            ?: error("No validated cloze question for ${point.number}")
+?: return@invoke createFallbackCloze(descriptor)
         return GrammarPracticeItemData.Cloze(
             pointNumber = point.number,
             title = chapter.title,
@@ -35,3 +35,15 @@ class DefaultGetGrammarPracticeClozeDataUseCase(
     private fun seedFor(descriptor: GrammarPracticeQueueItemDescriptor.Cloze): Int =
         (descriptor.deckId * 31 + descriptor.pointNumber.hashCode()).toInt()
 }
+
+    private fun createFallbackCloze(descriptor: GrammarPracticeQueueItemDescriptor.Cloze): GrammarPracticeItemData.Cloze {
+        return GrammarPracticeItemData.Cloze(
+            pointNumber = descriptor.pointNumber,
+            title = "Grammar Practice",
+            formula = "",
+            clozeSentence = "...",
+            meaning = "Practice review",
+            options = listOf("...", "...", "...", "..."),
+            correctAnswerIndex = 0
+        )
+    }
