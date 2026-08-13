@@ -11,9 +11,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.filterIsInstance
 import kotlinx.coroutines.flow.first
-import kotlinx.coroutines.flow.flowOn
-import kotlinx.coroutines.flow.mapLatest
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import ua.syt0r.kanji.core.logger.Logger
 import ua.syt0r.kanji.core.readUserVersion
@@ -32,6 +32,7 @@ class DefaultUserDataDatabaseManager(
     override val databaseChangeEvents: SharedFlow<Unit> = _databaseChangeEvents
 
     private val coroutineScope = CoroutineScope(dispatcher)
+    private val transactionMutex = Mutex()
 
     sealed interface DatabaseState {
         object Disconnected : DatabaseState
@@ -51,12 +52,12 @@ class DefaultUserDataDatabaseManager(
 
     private suspend fun <T> withConnectedDatabase(
         block: suspend DatabaseConnection.() -> T
-    ): T {
-        return state
+    ): T = withContext(dispatcher) {
+        state
             .filterIsInstance<DatabaseState.Connected>()
-            .mapLatest { block.invoke(it.connection) }
-            .flowOn(dispatcher)
             .first()
+            .connection
+            .block()
     }
 
     private suspend fun connectToDatabase() {
@@ -73,16 +74,18 @@ class DefaultUserDataDatabaseManager(
         runTransaction(true, block)
 
     override suspend fun withDisconnectedDatabase(scope: suspend (info: UserDatabaseInfo) -> Unit) {
-        withContext(dispatcher) {
-            val databaseInfo = withConnectedDatabase {
-                getActiveDatabaseInfo().also { closeConnection() }
+        transactionMutex.withLock {
+            withContext(dispatcher) {
+                val databaseInfo = withConnectedDatabase {
+                    getActiveDatabaseInfo().also { closeConnection() }
+                }
+
+                state.value = DatabaseState.Disconnected
+                val result = runCatching { scope(databaseInfo) }
+                connectToDatabase()
+
+                result.exceptionOrNull()?.let { throw it }
             }
-
-            state.value = DatabaseState.Disconnected
-            val result = runCatching { scope(databaseInfo) }
-            connectToDatabase()
-
-            result.exceptionOrNull()?.let { throw it }
         }
     }
 
@@ -97,14 +100,16 @@ class DefaultUserDataDatabaseManager(
         isWritingChanges: Boolean,
         block: UserDataQueries.() -> T
     ): T {
-        Logger.d(">> transaction isWritingChanges[$isWritingChanges]")
-        var result = withConnectedDatabase {
-            val queries = database.userDataQueries
-            queries.transactionWithResult { block(queries) }
+        return transactionMutex.withLock {
+            Logger.d(">> transaction isWritingChanges[$isWritingChanges]")
+            val result = withConnectedDatabase {
+                val queries = database.userDataQueries
+                queries.transactionWithResult { block(queries) }
+            }
+            if (isWritingChanges) updateLocalDataTimestampUseCase()
+            Logger.d("<< transaction isWritingChanges[$isWritingChanges]")
+            result
         }
-        if (isWritingChanges) updateLocalDataTimestampUseCase()
-        Logger.d("<< transaction isWritingChanges[$isWritingChanges]")
-        return result
     }
 
     private suspend fun DatabaseConnection.getActiveDatabaseInfo(): UserDatabaseInfo {

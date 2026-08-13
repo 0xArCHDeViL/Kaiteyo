@@ -42,11 +42,11 @@ The application-data database is read-only and shipped from a validated data rel
 | Device class | Runtime rule |
 |---|---|
 | Phone, `smallestScreenWidthDp < 600` | Portrait locked; touch-first single-column content |
-| Tablet/pad, `smallestScreenWidthDp >= 600` | Portrait or landscape; width-adaptive compact strip or rail |
+| Tablet/pad, `smallestScreenWidthDp >= 600` | Portrait or landscape; the same mobile navigation hierarchy and screen flow |
 | Native ABI | `arm64-v8a` only |
 | Android version | API 31+ |
 
-The navigation shell and orientation policy are part of the product contract. Phones are portrait-only; tablets/pads remain free to rotate and the shell adapts to actual window width. Any change to them requires compile validation and device-focused testing.
+The navigation shell and orientation policy are part of the product contract. Phones are portrait-only; tablets/pads remain free to rotate while preserving the same mobile navigation hierarchy. Any change to them requires compile validation and device-focused testing.
 
 ## Dependency Direction
 

@@ -31,6 +31,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -39,6 +40,7 @@ import org.koin.compose.koinInject
 import ua.syt0r.kanji.Res
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.core.app_data.data.formattedVocabStringReading
+import ua.syt0r.kanji.core.logger.Logger
 import ua.syt0r.kanji.core.user_data.database.VocabCardData
 import ua.syt0r.kanji.core.user_data.database.VocabPracticeRepository
 import ua.syt0r.kanji.presentation.common.AppListItem
@@ -200,6 +202,14 @@ private fun DialogContent(
             )
         }
 
+        AddingState.Failed -> {
+            Text(
+                text = "Unable to access saved words. Please close this dialog and try again.",
+                color = MaterialTheme.colorScheme.error,
+                modifier = Modifier.fillMaxWidth()
+            )
+        }
+
         AddingState.Completed -> {
             Row(
                 modifier = Modifier.fillMaxWidth().wrapContentWidth(),
@@ -240,6 +250,7 @@ private sealed interface AddingState {
     ) : AddingState
 
     data object Saving : AddingState
+    data object Failed : AddingState
     data object Completed : AddingState
 }
 
@@ -253,7 +264,7 @@ private data class AddingDeckInfo(
 private fun rememberDialogState(vocabCardData: VocabCardData): SaveWordDialogState {
     val repository = koinInject<VocabPracticeRepository>()
     val coroutineScope = rememberCoroutineScope()
-    return remember {
+    return remember(vocabCardData) {
         SaveWordDialogState(
             vocabCardData = vocabCardData,
             repository = repository,
@@ -273,19 +284,26 @@ private class SaveWordDialogState(
 
     init {
         coroutineScope.launch {
-            val decksWithWord = repository
-                .getDecksContainingWord(vocabCardData.kanjiReading, vocabCardData.kanaReading)
-                .toSet()
-            _state.value = AddingState.SelectingDeck(
-                decks = repository.getDecks().map {
-                    AddingDeckInfo(
-                        id = it.id,
-                        title = it.title,
-                        alreadyContains = decksWithWord.contains(it.id)
-                    )
-                },
-                selectedDeck = mutableStateOf(null)
-            )
+            try {
+                val decksWithWord = repository
+                    .getDecksContainingWord(vocabCardData.kanjiReading, vocabCardData.kanaReading)
+                    .toSet()
+                _state.value = AddingState.SelectingDeck(
+                    decks = repository.getDecks().map {
+                        AddingDeckInfo(
+                            id = it.id,
+                            title = it.title,
+                            alreadyContains = decksWithWord.contains(it.id)
+                        )
+                    },
+                    selectedDeck = mutableStateOf(null)
+                )
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                Logger.e("Unable to load saved vocabulary decks: ${e.stackTraceToString()}")
+                _state.value = AddingState.Failed
+            }
         }
     }
 
@@ -298,24 +316,31 @@ private class SaveWordDialogState(
     fun save() {
         val currentState = _state.value
         coroutineScope.launch {
-            when (currentState) {
-                is AddingState.CreateNewDeck -> {
-                    _state.value = AddingState.Saving
-                    repository.createDeck(
-                        title = currentState.title.value,
-                        words = listOf(vocabCardData)
-                    )
-                }
+            try {
+                when (currentState) {
+                    is AddingState.CreateNewDeck -> {
+                        _state.value = AddingState.Saving
+                        repository.createDeck(
+                            title = currentState.title.value,
+                            words = listOf(vocabCardData)
+                        )
+                    }
 
-                is AddingState.SelectingDeck -> {
-                    val deckId = currentState.selectedDeck.value ?: return@launch
-                    _state.value = AddingState.Saving
-                    repository.addCard(deckId, vocabCardData)
-                }
+                    is AddingState.SelectingDeck -> {
+                        val deckId = currentState.selectedDeck.value ?: return@launch
+                        _state.value = AddingState.Saving
+                        repository.addCard(deckId, vocabCardData)
+                    }
 
-                else -> return@launch
+                    else -> return@launch
+                }
+                _state.value = AddingState.Completed
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                Logger.e("Unable to save vocabulary card: ${e.stackTraceToString()}")
+                _state.value = AddingState.Failed
             }
-            _state.value = AddingState.Completed
         }
     }
 

@@ -16,7 +16,7 @@ This is the active reliability backlog for the Android-only product. Historical 
 | Device class | Required validation |
 |---|---|
 | Phone, Android 12+, ARM64 | Portrait lock, navigation, keyboard/insets, practice flows, process recreation |
-| Tablet/pad, Android 12+, ARM64 | Portrait dan landscape, adaptive strip/rail, navigation, dialogs, writing canvas, practice flows, process recreation |
+| Tablet/pad, Android 12+, ARM64 | Portrait dan landscape dengan hierarchy mobile yang sama, navigation, dialogs, writing canvas, practice flows, process recreation |
 
 ## P2 — Engineering Quality
 

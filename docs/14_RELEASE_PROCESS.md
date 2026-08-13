@@ -74,9 +74,9 @@ Instrumentation harus mencakup minimal phone portrait, tablet/pad portrait dan l
 | Device class | Minimum width | Orientation | Layout contract |
 |---|---:|---|---|
 | Android phone | `< 600dp` | Portrait locked | Single-column touch UI |
-| Android tablet/pad | `≥ 600dp` | Portrait dan landscape | Compact navigation strip pada lebar sempit; compact rail pada lebar `≥ 840dp` |
+| Android tablet/pad | `≥ 600dp` | Portrait dan landscape | Hierarchy navigasi dan flow layar mobile yang sama |
 
-Orientation ditetapkan pada Android activity berdasarkan kelas perangkat: phone dikunci portrait, sementara tablet/pad dibiarkan mengikuti orientasi perangkat. Shell navigasi memilih strip atau rail dari lebar jendela aktual; manifest dan runtime tidak boleh menyediakan jalur desktop, iOS, atau arbitrary freeform window.
+Orientation ditetapkan pada Android activity berdasarkan kelas perangkat: phone dikunci portrait, sementara tablet/pad dibiarkan mengikuti orientasi perangkat. Tablet/pad tidak memiliki rail, strip, atau shell navigasi khusus; manifest dan runtime tidak boleh menyediakan jalur desktop, iOS, atau arbitrary freeform window.
 
 ## Data Pipeline
 
@@ -135,8 +135,7 @@ Kaiteyo-{version}-arm64-v8a-android.aab
 - [ ] `minSdk` app dan core tetap `31`.
 - [ ] APK hanya berisi ABI `arm64-v8a`.
 - [ ] Phone terkunci portrait.
-- [ ] Tablet/pad tervalidasi pada portrait dan landscape, termasuk strip/rail adaptif tanpa overlap.
-- [ ] Dedicated tablet shell merender rail dan content tanpa desktop drag/resize overlay.
+- [ ] Tablet/pad tervalidasi pada portrait dan landscape dengan hierarchy mobile yang sama tanpa overlap atau navigasi khusus.
 - [ ] Full core unit test lulus.
 - [ ] Preview release-equivalent lulus dengan R8 mapping dan resource shrinking.
 - [ ] Release memakai keystore original; SHA-256 certificate digest APK baru sama dengan APK release sebelumnya.

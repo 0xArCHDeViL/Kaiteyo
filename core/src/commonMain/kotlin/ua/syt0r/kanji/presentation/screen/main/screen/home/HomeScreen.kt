@@ -1,20 +1,14 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home
 
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.movableContentOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.snapshotFlow
-import androidx.compose.ui.Modifier
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import org.koin.compose.koinInject
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
-import ua.syt0r.kanji.presentation.common.nav.LocalHomeNavigationState
 import ua.syt0r.kanji.presentation.getMultiplatformViewModel
 import ua.syt0r.kanji.presentation.screen.main.MainDestination
 import ua.syt0r.kanji.presentation.screen.main.MainNavigationState
@@ -24,43 +18,25 @@ fun HomeScreen(
     mainNavigationState: MainNavigationState,
     viewModel: HomeScreenContract.ViewModel = getMultiplatformViewModel(),
 ) {
+    val homeNavigationState = rememberHomeNavigationState(viewModel.defaultTab)
 
-    val shellHomeNavigationState = LocalHomeNavigationState.current
-    val homeNavigationState = shellHomeNavigationState
-        ?: rememberHomeNavigationState(viewModel.defaultTab)
-
-    val tabContent = remember {
-        movableContentOf { HomeNavigationContent(homeNavigationState, mainNavigationState) }
-    }
-
-    if (shellHomeNavigationState != null) {
-        // Desktop shell renders the navigation chrome in NavShell
-        Surface(Modifier.fillMaxSize()) {
-            tabContent()
+    HomeScreenUI(
+        availableTabs = HomeScreenTab.VisibleTabs,
+        selectedTabState = homeNavigationState.selectedTab,
+        syncIconState = viewModel.syncIconState.collectAsState(),
+        onTabSelected = homeNavigationState::navigate,
+        onSyncButtonClick = {
+            if (!viewModel.trySync()) mainNavigationState.navigate(MainDestination.Sync)
         }
-    } else {
-        HomeScreenUI(
-            availableTabs = HomeScreenTab.VisibleTabs,
-            selectedTabState = homeNavigationState.selectedTab,
-            syncIconState = viewModel.syncIconState.collectAsState(),
-            onTabSelected = { homeNavigationState.navigate(it) },
-            onSyncButtonClick = {
-                val isSyncStarted = viewModel.trySync()
-                if (!isSyncStarted) mainNavigationState.navigate(MainDestination.Sync)
-            }
-        ) {
-
-            tabContent()
-
-        }
+    ) {
+        HomeNavigationContent(homeNavigationState, mainNavigationState)
     }
 
     val analyticsManager = koinInject<AnalyticsManager>()
-    LaunchedEffect(Unit) {
+    LaunchedEffect(homeNavigationState) {
         snapshotFlow { homeNavigationState.selectedTab.value }
             .distinctUntilChanged()
             .onEach { analyticsManager.setScreen(it.analyticsName) }
             .launchIn(this)
     }
-
 }

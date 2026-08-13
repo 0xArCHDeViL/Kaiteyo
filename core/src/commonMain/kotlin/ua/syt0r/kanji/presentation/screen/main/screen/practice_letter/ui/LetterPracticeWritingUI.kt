@@ -144,91 +144,34 @@ fun LetterPracticeWritingUI(
             .fillMaxSize()
             .onGloballyPositioned(onBottomSheetScaffoldCoordinatesUpdate)
     ) {
-        BoxWithConstraints(modifier = Modifier.fillMaxSize()) {
-            val useWidePaneLayout = maxWidth >= 840.dp && maxHeight >= 520.dp
-
-            if (useWidePaneLayout) {
-                val infoPane: @Composable (Modifier) -> Unit = { modifier ->
-                    LetterPracticeWritingInfoSection(
-                        state = infoSectionState,
-                        onExpressionsClick = openBottomSheet,
-                        onExpressionSectionCoordinatesUpdate = onExpressionSectionCoordinatesUpdate,
-                        speakKana = speakKana,
-                        modifier = modifier
-                    )
-                }
-                val writingPane: @Composable (Modifier) -> Unit = { modifier ->
-                    Column(modifier = modifier) {
-                        BrushSelector(
-                            brushSettings = brushSettings,
-                            onBrushSettingsChange = { brushSettings = it },
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(horizontal = 20.dp, vertical = 8.dp)
-                        )
-                        BoxWithConstraints(
-                            modifier = Modifier
-                                .weight(1f)
-                                .fillMaxWidth(),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            val canvasSize = minOf(maxWidth, maxHeight, 440.dp)
-                            LetterPracticeWritingInputSection(
-                                state = reviewState,
-                                brushSettings = brushSettings,
-                                modifier = Modifier.size(canvasSize)
-                            )
-                        }
-                    }
-                }
-
-                Column(modifier = Modifier.fillMaxSize()) {
-                    Row(
-                        modifier = Modifier
-                            .weight(1f)
-                            .fillMaxWidth()
-                    ) {
-                        if (layoutConfiguration.leftHandedMode) {
-                            writingPane(Modifier.weight(1f).fillMaxHeight())
-                            infoPane(Modifier.weight(1f).fillMaxHeight())
-                        } else {
-                            infoPane(Modifier.weight(1f).fillMaxHeight())
-                            writingPane(Modifier.weight(1f).fillMaxHeight())
-                        }
-                    }
-                    answersSection(Modifier.fillMaxWidth())
-                }
-            } else {
-                Column(modifier = Modifier.fillMaxSize()) {
-                    LetterPracticeWritingInfoSection(
-                        state = infoSectionState,
-                        onExpressionsClick = openBottomSheet,
-                        onExpressionSectionCoordinatesUpdate = onExpressionSectionCoordinatesUpdate,
-                        speakKana = speakKana,
-                        modifier = Modifier
-                            .weight(1f)
-                            .fillMaxWidth()
-                    )
-                    BrushSelector(
-                        brushSettings = brushSettings,
-                        onBrushSettingsChange = { brushSettings = it },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .sizeIn(maxWidth = 440.dp)
-                            .padding(horizontal = 20.dp, vertical = 8.dp)
-                    )
-                    LetterPracticeWritingInputSection(
-                        state = reviewState,
-                        brushSettings = brushSettings,
-                        modifier = Modifier
-                            .sizeIn(maxWidth = 440.dp)
-                            .fillMaxWidth()
-                            .padding(horizontal = 20.dp)
-                            .aspectRatio(1f, matchHeightConstraintsFirst = false)
-                    )
-                    answersSection(Modifier.fillMaxWidth())
-                }
-            }
+        Column(modifier = Modifier.fillMaxSize()) {
+            LetterPracticeWritingInfoSection(
+                state = infoSectionState,
+                onExpressionsClick = openBottomSheet,
+                onExpressionSectionCoordinatesUpdate = onExpressionSectionCoordinatesUpdate,
+                speakKana = speakKana,
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth()
+            )
+            BrushSelector(
+                brushSettings = brushSettings,
+                onBrushSettingsChange = { brushSettings = it },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .sizeIn(maxWidth = 440.dp)
+                    .padding(horizontal = 20.dp, vertical = 8.dp)
+            )
+            LetterPracticeWritingInputSection(
+                state = reviewState,
+                brushSettings = brushSettings,
+                modifier = Modifier
+                    .sizeIn(maxWidth = 440.dp)
+                    .fillMaxWidth()
+                    .padding(horizontal = 20.dp)
+                    .aspectRatio(1f, matchHeightConstraintsFirst = false)
+            )
+            answersSection(Modifier.fillMaxWidth())
         }
     }
 

@@ -10,7 +10,7 @@ Suspend code must preserve cancellation: never swallow `CancellationException` a
 
 Composable functions use PascalCase. Keep `modifier: Modifier = Modifier` as the final optional parameter. Keep state hoisted at the nearest sensible screen/state-holder boundary, use stable keys in dynamic lists, and avoid blocking work during composition.
 
-The product layout contract is mandatory: phone UIs target portrait interaction, while tablet/pad UIs must support portrait and landscape. Choose navigation and pane composition from measured window constraints; do not hardcode a large sidebar or overlay controls onto content. Do not introduce desktop window controls, hover-dependent navigation, mouse-only affordances, or platform-neutral UI abstractions that lack an Android requirement.
+The product layout contract is mandatory: phone UIs target portrait interaction, while tablet/pad UIs support portrait and landscape through the same mobile hierarchy. Do not introduce tablet-specific navigation, panes, rails, strips, sidebars, or overlays that alter the mobile screen flow. Do not introduce desktop window controls, hover-dependent navigation, mouse-only affordances, or platform-neutral UI abstractions that lack an Android requirement.
 
 ## Data and Persistence
 
