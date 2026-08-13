@@ -23,6 +23,11 @@ on:
         required: false
         type: boolean
         default: false
+      build_variant:
+        description: "Android artifact variant: preview is release-equivalent without a secret signer"
+        required: false
+        type: string
+        default: preview
   workflow_dispatch:
     inputs:
       data_source:
@@ -48,9 +53,17 @@ on:
         required: true
         type: boolean
         default: false
+      build_variant:
+        description: "Android artifact variant"
+        required: true
+        type: choice
+        options:
+          - preview
+          - release
+        default: preview
 
 concurrency:
-  group: build-all-${{ github.workflow }}-${{ github.ref }}-${{ inputs.data_source || 'release' }}
+  group: build-all-${{ github.workflow }}-${{ github.ref }}-${{ inputs.data_source || 'release' }}-${{ inputs.build_variant || 'preview' }}
   cancel-in-progress: true
 
 permissions:
@@ -172,8 +185,8 @@ jobs:
           if-no-files-found: warn
           retention-days: 7
 
-  build-android-release:
-    name: Signed Android release APK
+  build-android-apk:
+    name: Optimized Android ${{ inputs.build_variant || 'preview' }} APK
     needs: prepare-app-data
     runs-on: ubuntu-latest
     timeout-minutes: 35
@@ -181,6 +194,7 @@ jobs:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
       APP_DATA_VERSION: ${{ inputs.app_data_version || '15' }}
       APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v15' }}
+      BUILD_VARIANT: ${{ inputs.build_variant || 'preview' }}
       KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
       KEYSTORE_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
       SIGN_KEY: ${{ secrets.KEY_ALIAS }}
@@ -207,25 +221,32 @@ jobs:
           name: source-app-data-v${{ env.APP_DATA_VERSION }}
           path: database
 
-      - name: Decode original release keystore
-        shell: bash
-        run: |
-          set -euo pipefail
-          : "${KEYSTORE_BASE64:?Set KEYSTORE_BASE64 from the original release keystore}"
-          : "${KEYSTORE_PASS:?Set KEYSTORE_PASSWORD}"
-          : "${SIGN_KEY:?Set KEY_ALIAS}"
-          : "${SIGN_PASS:?Set KEY_PASSWORD}"
-          keystore_path="$RUNNER_TEMP/kaiteyo-release.jks"
-          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$keystore_path"
-          test -s "$keystore_path"
-          echo "KEYSTORE_PATH=$keystore_path" >> "$GITHUB_ENV"
-
-      - name: Build optimized signed Android release
+      - name: Build optimized Android artifact
         shell: bash
         run: |
           set -euo pipefail
           chmod +x gradlew
-          ./gradlew :app:assembleRelease \
+          case "$BUILD_VARIANT" in
+            preview)
+              gradle_task=:app:assemblePreview
+              ;;
+            release)
+              : "${KEYSTORE_BASE64:?Set KEYSTORE_BASE64 from the original release keystore}"
+              : "${KEYSTORE_PASS:?Set KEYSTORE_PASSWORD}"
+              : "${SIGN_KEY:?Set KEY_ALIAS}"
+              : "${SIGN_PASS:?Set KEY_PASSWORD}"
+              keystore_path="$RUNNER_TEMP/kaiteyo-release.jks"
+              printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$keystore_path"
+              test -s "$keystore_path"
+              export KEYSTORE_PATH="$keystore_path"
+              gradle_task=:app:assembleRelease
+              ;;
+            *)
+              echo "Unsupported build variant: $BUILD_VARIANT" >&2
+              exit 1
+              ;;
+          esac
+          ./gradlew "$gradle_task" \
             -PappDataSource="$APP_DATA_SOURCE" \
             -PappDataVersion="$APP_DATA_VERSION" \
             -PappDataReleaseTag="$APP_DATA_RELEASE_TAG" \
@@ -233,56 +254,60 @@ jobs:
             -Dorg.gradle.workers.max=4 \
             -Dorg.gradle.jvmargs='-Xmx4g -XX:MaxMetaspaceSize=1g -XX:+UseParallelGC -Dfile.encoding=UTF-8'
 
-      - name: Verify APK signature and record certificate digest
+      - name: Verify APK signature and release-equivalent optimization
         shell: bash
         run: |
           set -euo pipefail
-          apk="$(find app/build/outputs/apk/release -maxdepth 1 -type f -name '*.apk' -print -quit)"
+          apk_dir="app/build/outputs/apk/$BUILD_VARIANT"
+          apk="$(find "$apk_dir" -maxdepth 1 -type f -name '*.apk' -print -quit)"
           test -n "$apk"
+          test -s "app/build/outputs/mapping/$BUILD_VARIANT/mapping.txt"
           apksigner="$(find "$ANDROID_HOME/build-tools" -maxdepth 2 -type f -name apksigner -print | sort -V | tail -n 1)"
           test -n "$apksigner"
           test -x "$apksigner"
-          "$apksigner" verify --verbose --print-certs "$apk" | tee app/build/outputs/apk/release/signing-certificate.txt
-          grep -F 'Signer #1 certificate SHA-256 digest:' app/build/outputs/apk/release/signing-certificate.txt
+          "$apksigner" verify --verbose --print-certs "$apk" | tee "$apk_dir/signing-certificate.txt"
+          grep -F 'Signer #1 certificate SHA-256 digest:' "$apk_dir/signing-certificate.txt"
 
-      - name: Upload signed Android release
+      - name: Upload optimized Android artifact
         uses: actions/upload-artifact@v4
         with:
-          name: android-release
+          name: android-${{ inputs.build_variant || 'preview' }}
           path: |
-            app/build/outputs/apk/release/*.apk
-            app/build/outputs/apk/release/signing-certificate.txt
+            app/build/outputs/apk/${{ inputs.build_variant || 'preview' }}/*.apk
+            app/build/outputs/apk/${{ inputs.build_variant || 'preview' }}/signing-certificate.txt
+            app/build/outputs/mapping/${{ inputs.build_variant || 'preview' }}/mapping.txt
           if-no-files-found: error
           retention-days: 7
 
-  verify-release-artifact:
-    name: Verify release artifact
+  verify-android-artifact:
+    name: Verify Android artifact
     needs:
       - unit-tests
-      - build-android-release
+      - build-android-apk
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Download signed Android release
+      - name: Download optimized Android artifact
         uses: actions/download-artifact@v4
         with:
-          name: android-release
-          path: android-release
+          name: android-${{ inputs.build_variant || 'preview' }}
+          path: android-artifact
 
-      - name: Verify artifact layout and signing record
+      - name: Verify artifact layout, signing record, and mapping
         shell: bash
         run: |
           set -euo pipefail
-          test -n "$(find android-release -type f -name '*.apk' -print -quit)"
-          test -s android-release/signing-certificate.txt
-          grep -F 'Signer #1 certificate SHA-256 digest:' android-release/signing-certificate.txt
-          find android-release -maxdepth 1 -type f -printf '%f %s bytes\n' | sort
+          test -n "$(find android-artifact -type f -name '*.apk' -print -quit)"
+          test -s android-artifact/signing-certificate.txt
+          test -s android-artifact/mapping.txt
+          grep -F 'Signer #1 certificate SHA-256 digest:' android-artifact/signing-certificate.txt
+          find android-artifact -maxdepth 1 -type f -printf '%f %s bytes\n' | sort
 
   publish-data-release:
     if: ${{ inputs.data_source == 'source' && (inputs.publish_data_release || false) }}
     needs:
       - prepare-app-data
-      - verify-release-artifact
+      - verify-android-artifact
     runs-on: ubuntu-latest
     permissions:
       contents: write

@@ -21,6 +21,10 @@ object AppVersion {
 
 Development builds berasal dari branch `develop`, digunakan untuk validasi internal, dan tidak dianggap release publik.
 
+### Preview Build
+
+Preview menggunakan build type `preview`, yang mewarisi seluruh optimasi `release`: R8/ProGuard, resource shrinking, ABI `arm64-v8a`, `minSdk 31`, dan database release yang sama. Preview memakai debug signer ephemeral dari runner sehingga tidak memerlukan GitHub secret. Ia dapat diinstal sebagai APK optimized, tetapi Android tidak menjamin update in-place ke preview lain atau release lama karena certificate signer dapat berbeda antar runner.
+
 ### Release Candidate
 
 Release candidate dibuat setelah unit test, build release, database validation, dan device smoke test lulus. Candidate digunakan untuk QA pada phone portrait dan tablet landscape.
@@ -40,7 +44,7 @@ Sebelum release, jalankan validasi berikut:
   -PappDataReleaseTag=data-v15 \
   --no-daemon --max-workers=1
 
-./gradlew :app:assembleDebug \
+./gradlew :app:assemblePreview \
   -PappDataSource=release \
   -PappDataVersion=15 \
   -PappDataReleaseTag=data-v15 \
@@ -88,14 +92,14 @@ Untuk database yang dibangun dari source, artifact harus diverifikasi sebagai SQ
 
 ## GitHub Actions
 
-Workflow release hanya mengunggah artifact Android. Setelah application data tervalidasi, unit test core dan build release berjalan pada job terpisah secara paralel. Build release tetap memakai R8/ProGuard dan resource shrinking; pipeline tidak menurunkan optimasi untuk mengejar waktu build.
+Workflow dispatch manual membuat artifact `preview` secara default. Setelah application data tervalidasi, unit test core dan build APK berjalan pada job terpisah secara paralel. Preview tetap memakai R8/ProGuard dan resource shrinking; pipeline tidak menurunkan optimasi untuk mengejar waktu build. Workflow tag `v*.*` memilih varian `release` dan tetap memerlukan release signer original.
 
 1. Checkout source pada commit/tag release dan pulihkan Gradle cache.
 2. Setup JDK 17 dan Android SDK.
 3. Prepare atau download internal application database, lalu jalankan integrity validation.
-4. Jalankan unit test core dan build signed release secara paralel.
-5. Verifikasi signature APK dan simpan SHA-256 certificate digest bersama artifact.
-6. Upload artifact Android hanya setelah test dan signing verification berhasil.
+4. Jalankan unit test core dan build `preview` atau signed `release` secara paralel.
+5. Verifikasi signature APK, mapping R8, dan simpan SHA-256 certificate digest bersama artifact.
+6. Upload artifact Android hanya setelah test dan verification berhasil.
 7. Publish GitHub release jika tag release valid.
 
 ## Release Signing Contract
@@ -134,7 +138,7 @@ Kaiteyo-{version}-arm64-v8a-android.aab
 - [ ] Tablet/pad terkunci landscape.
 - [ ] Dedicated tablet shell merender rail dan content tanpa desktop drag/resize overlay.
 - [ ] Full core unit test lulus.
-- [ ] Android debug dan release build lulus.
+- [ ] Preview release-equivalent lulus dengan R8 mapping dan resource shrinking.
 - [ ] Release memakai keystore original; SHA-256 certificate digest APK baru sama dengan APK release sebelumnya.
 - [ ] Instrumentation phone dan tablet lulus jika device tersedia.
 - [ ] Application database lolos integrity check dan checksum validation.

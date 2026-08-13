@@ -16,6 +16,7 @@ jobs:
       app_data_version: "15"
       app_data_release_tag: data-v15
       publish_data_release: false
+      build_variant: release
     secrets: inherit
 
   create-release:

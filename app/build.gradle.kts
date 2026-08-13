@@ -65,6 +65,13 @@ android {
                 "proguard-rules.pro"
             )
         }
+
+        create("preview") {
+            initWith(getByName("release"))
+            matchingFallbacks += listOf("release", "debug")
+            versionNameSuffix = "-preview"
+            signingConfig = signingConfigs.getByName("debug")
+        }
     }
 
 
@@ -86,6 +93,9 @@ android {
     }
     buildTypes.named("release") {
         signingConfig = releaseSigningConfig
+    }
+    buildTypes.named("preview") {
+        signingConfig = signingConfigs.getByName("debug")
     }
 
     dependenciesInfo {
