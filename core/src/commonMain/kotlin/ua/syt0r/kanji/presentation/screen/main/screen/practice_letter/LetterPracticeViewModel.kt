@@ -190,11 +190,7 @@ class LetterPracticeViewModel(
                 val kanjiReview = reviewState
                 val yomikata = kanjiReview.itemData.firstYomikata() ?: return@callbackFlow
 
-                snapshotFlow {
-                    kanjiReview.isStudyMode.value to kanjiReview.writerState.value.progress
-                }
-                    .filter { (isStudyMode, _) -> !isStudyMode && kanjiReview.layout.kanaAutoPlay.value }
-                    .map { (_, progress) -> progress }
+                snapshotFlow { kanjiReview.writerState.value.progress.value }
                     .dropWhile { it !is CharacterWritingProgress.Writing }
                     .filterIsInstance<CharacterWritingProgress.Completed.Idle>()
                     .take(1)
