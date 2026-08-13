@@ -35,17 +35,33 @@ class AndroidAppTtsManager(
     override suspend fun speak(text: String, language: String) {
         val normalizedText = JapaneseSpeechText.normalize(text)
         if (normalizedText.isEmpty()) return
+        enqueueSpeech(normalizedText, language)
+    }
 
+    override suspend fun speak(request: JapaneseSpeechRequest) {
+        val normalizedRequest = request.normalized()
+        if (normalizedRequest.pronunciation.isEmpty()) return
+
+        // An isolated Kanji is ambiguous by design. Speaking the resolved kana
+        // is the portable, deterministic path across Android TTS engines.
+        enqueueSpeech(normalizedRequest.pronunciation, normalizedRequest.language)
+    }
+
+    private suspend fun enqueueSpeech(
+        text: String,
+        language: String,
+        renderChunk: (String) -> CharSequence = { it }
+    ) {
         withContext(mainDispatcher) {
             val engine = ensureInitialized() ?: return@withContext
-            val locale = selectSupportedLocale(engine, language) ?: return@withContext
-            val chunks = splitForSpeech(normalizedText, TextToSpeech.getMaxSpeechInputLength())
+            selectSupportedLocale(engine, language) ?: return@withContext
+            val chunks = splitForSpeech(text, TextToSpeech.getMaxSpeechInputLength())
             if (chunks.isEmpty()) return@withContext
 
             val requestId = requestSequence.incrementAndGet()
             chunks.forEachIndexed { index, chunk ->
                 val result = engine.speak(
-                    chunk,
+                    renderChunk(chunk),
                     if (index == 0) TextToSpeech.QUEUE_FLUSH else TextToSpeech.QUEUE_ADD,
                     Bundle(),
                     "kaiteyo-$requestId-$index"
@@ -54,6 +70,7 @@ class AndroidAppTtsManager(
             }
         }
     }
+
 
     override fun stop() {
         scope.launchOnMain { tts?.stop() }
