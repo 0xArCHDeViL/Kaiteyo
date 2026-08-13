@@ -8,10 +8,17 @@ TTS harus menangani teks Jepang bebas—hiragana, katakana, Kanji, punctuation, 
 
 | Jalur | Peran | Kebijakan |
 |---|---|---|
-| `AppTtsManager` | Teks bebas grammar, vocab, Kanji, Kana | Singleton platform TTS, latest request wins, locale fallback, bounded chunking |
+| `JapanesePronunciationEngine` | Menentukan teks pronunciation sebelum synthesis | Context policy, furigana precedence, standalone Kun/On resolver, deterministic fallback |
+| `AppTtsManager` | Teks bebas grammar, vocab, Kanji, Kana | Semantic request facade, latest request wins, locale fallback, bounded chunking |
 | `KanaTtsManager` | Auto-play clip Kana yang sudah tersedia | Singleton ExoPlayer, immutable clip index, no-crash missing clip guard |
 | `Kanji Writing auto-read` | Membaca yomikata setelah gambar selesai | Hanya `KanjiWritingData` + transisi `Completed.Idle`, resolver standalone Kun lalu On |
 | Normalizer | Membersihkan input suara | Unicode normalization, marker/speaker cleanup, whitespace/control cleanup |
+
+## Japanese pronunciation policy
+
+The app does not treat pronunciation as a raw `String` concern. `JapaneseSpeechRequest` carries visible text, optional explicit pronunciation, optional `FuriganaString`, candidate Kun/On readings, and semantic context. `JapanesePronunciationEngine` converts that request into a `JapaneseSpeechPlan` before any platform call.
+
+The precedence policy is deterministic. An isolated Kanji first accepts a valid explicit standalone kana reading, then a complete Kun reading without a KANJIDIC prefix/suffix marker, then a valid On reading, and finally the original Kanji as a graceful fallback. Context-rich grammar, vocabulary, and sentence requests prefer explicit kana or furigana, then preserve the original Japanese text so the installed Japanese TTS engine can use lexical context. The engine does not synthesize audio or introduce a runtime network dependency; it is a lightweight lexical/orchestration layer above Android TTS.
 
 ## Android TTS policy
 
@@ -29,7 +36,7 @@ The common normalizer preserves Japanese semantics while removing UI-only artifa
 
 Kanji writing data already contains `on` and `kun` reading lists. Auto-read observes the writer's `CharacterWritingProgress`, not every mutable writer object. It only emits once when the review writer reaches `CharacterWritingProgress.Completed.Idle`; `Completed.Animating` is intentionally ignored because it is a reveal/replay state rather than user completion. The resolver first selects the first complete kana Kun reading that has no KANJIDIC prefix/suffix marker; for 人, `-と` and `-り` are skipped and `ひと` is selected. If no standalone Kun reading exists, the first valid On reading is used. Vocab examples are not consulted, so the feature remains Kanji Writing and not vocab learning.
 
-The speech request keeps the visible Kanji and its spoken pronunciation as separate semantic fields. Context-rich grammar/vocabulary text continues through the ordinary Kanji text path, while an isolated Kanji uses the resolved kana pronunciation because a single Kanji has no lexical context and Android TTS is free to choose an unintended reading.
+The speech request keeps the visible Kanji and its spoken pronunciation as separate semantic fields. Context-rich grammar/vocabulary text continues through the ordinary Kanji text path, while an isolated Kanji uses the resolved kana pronunciation because a single Kanji has no lexical context and Android TTS is free to choose an unintended reading. The current implementation centralizes this policy in `JapanesePronunciationEngine`, so new callers do not need to reimplement Kun/On selection.
 
 The feature reuses the existing `LetterPracticeViewModel` reactive flow pattern. It is guarded against duplicate emissions when Compose recomposes or the writer state is revisited.
 

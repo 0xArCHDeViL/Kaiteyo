@@ -3,6 +3,8 @@ package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
+import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.presentation.common.BaseViewModel
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueItemDescriptor
@@ -63,7 +65,12 @@ class GrammarPracticeViewModel(
             }
             is GrammarPracticeScreenContract.Event.PlayVoice -> {
                 viewModelScope.launch {
-                    appTtsManager.speak(event.text)
+                    appTtsManager.speak(
+                        JapaneseSpeechRequest(
+                            displayText = event.text,
+                            context = JapaneseSpeechContext.Grammar
+                        )
+                    )
                 }
             }
         }
