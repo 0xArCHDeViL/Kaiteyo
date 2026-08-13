@@ -100,14 +100,18 @@ class VocabSenseGroup(
     )
 
     private fun getMatchingSense(kanjiReading: String?, kanaReading: String): Sense {
-        return senseList.first {
+        return senseList.firstOrNull {
             val kanjiCheck = kanjiReading == null ||
                     it.kanjiRestrictions.isEmpty() ||
                     it.kanjiRestrictions.contains(kanjiReading)
             val kanaCheck = it.kanaRestrictions.isEmpty() ||
                     it.kanaRestrictions.contains(kanaReading)
             kanjiCheck && kanaCheck
-        }
+        } ?: senseList.firstOrNull() ?: Sense(
+            glossary = emptyList(),
+            kanjiRestrictions = emptyList(),
+            kanaRestrictions = emptyList()
+        )
     }
 
     fun getMatchingMeaning(kanjiReading: String?, kanaReading: String): String {

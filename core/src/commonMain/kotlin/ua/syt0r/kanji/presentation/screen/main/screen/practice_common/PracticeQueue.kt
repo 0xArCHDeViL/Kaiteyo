@@ -33,6 +33,7 @@ interface PracticeQueue<State, Descriptor> {
 
     suspend fun initialize(items: List<Descriptor>)
     suspend fun submitAnswer(answer: PracticeAnswer)
+    suspend fun skipCurrent()
     fun immediateFinish()
 
 }
@@ -111,6 +112,12 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
 
     override suspend fun submitAnswer(answer: PracticeAnswer) {
         submittedAnswersChannel.send(answer)
+    }
+
+    override suspend fun skipCurrent() {
+        if (queue.isEmpty()) return
+        queue.removeFirst()
+        updateState()
     }
 
     override fun immediateFinish() {

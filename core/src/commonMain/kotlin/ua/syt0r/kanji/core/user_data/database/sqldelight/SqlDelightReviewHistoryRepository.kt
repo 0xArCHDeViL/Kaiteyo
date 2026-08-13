@@ -91,18 +91,18 @@ class SqlDelightReviewHistoryRepository(
     ) = userDataDatabaseManager.readTransaction {
         val offsetMillis = timeOffset.toMillisecondOfDay().toLong()
         getReviewStreaks(offsetMillis).executeAsList()
-            .mapNotNull {
+            .mapNotNull { row ->
+                val startDate = row.start_date ?: return@mapNotNull null
+                val endDate = row.end_date ?: return@mapNotNull null
                 runCatching {
                     StreakData(
-                        start = LocalDate.parse(it.start_date!!),
-                        end = LocalDate.parse(it.end_date!!),
-                        length = it.sequence_length.toInt()
+                        start = LocalDate.parse(startDate),
+                        end = LocalDate.parse(endDate),
+                        length = row.sequence_length.toInt()
                     )
-                }.getOrElse { error ->
-                    Logger.d("error")
-                    null
-                }
-
+                }.onFailure { error ->
+                    Logger.w("Skipping malformed review streak: ${error.message}")
+                }.getOrNull()
             }
     }
 
@@ -118,14 +118,20 @@ class SqlDelightReviewHistoryRepository(
                     key = it.key,
                     practiceTypeToDataMap = it.ReviewData
                         ?.split(practiceTypeDelimiter)
-                        ?.associate {
-                            val values = it.split(timeDelimiter)
-                            val practiceType = values[0].toLong()
-                            practiceType to ReviewHistoryStatItem.PracticeTypeData(
-                                firstReview = Instant.fromEpochMilliseconds(values[1].toLong()),
-                                lastReview = Instant.fromEpochMilliseconds(values[2].toLong())
-                            )
+                        ?.mapNotNull { encoded ->
+                            runCatching {
+                                val values = encoded.split(timeDelimiter)
+                                require(values.size >= 3)
+                                val practiceType = values[0].toLong()
+                                practiceType to ReviewHistoryStatItem.PracticeTypeData(
+                                    firstReview = Instant.fromEpochMilliseconds(values[1].toLong()),
+                                    lastReview = Instant.fromEpochMilliseconds(values[2].toLong())
+                                )
+                            }.onFailure { error ->
+                                Logger.w("Skipping malformed review stats value: ${error.message}")
+                            }.getOrNull()
                         }
+                        ?.toMap()
                         ?: emptyMap()
                 )
             }

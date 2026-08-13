@@ -23,6 +23,7 @@ import ua.syt0r.kanji.core.srs.fsrs.FsrsCard
 import ua.syt0r.kanji.core.srs.fsrs.FsrsCardParams
 import ua.syt0r.kanji.core.srs.fsrs.FsrsCardStatus
 import ua.syt0r.kanji.core.time.TimeUtils
+import ua.syt0r.kanji.core.logger.Logger
 import ua.syt0r.kanji.core.user_data.database.BackupRow
 import ua.syt0r.kanji.core.user_data.database.CardDatabaseManager
 import ua.syt0r.kanji.core.user_data.database.FilteredDeckRow
@@ -265,7 +266,9 @@ class DeckFeaturesController(
             loadBackupConfig()
             loadSavedSearches()
             isLoaded = true
-        } catch (t: Throwable) {
+        } catch (t: Exception) {
+            if (t is kotlinx.coroutines.CancellationException) throw t
+            Logger.e("DeckFeaturesController.loadAll failed: ${t.stackTraceToString()}")
             loadError = true
         } finally {
             isLoading = false

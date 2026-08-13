@@ -217,9 +217,11 @@ class SqlDelightAppDataRepository(
         val vocabSenses = getWordSenses(wordIdList).associateBy { it.wordId }
 
         return vocabQuery {
-            entries.map { entry ->
-                val sense = vocabSenses.getValue(entry.vocab_id)
-                    .senseList.first()
+            entries.mapNotNull { entry ->
+                val sense = vocabSenses[entry.vocab_id]
+                    ?.senseList
+                    ?.firstOrNull()
+                    ?: return@mapNotNull null
 
                 JapaneseWord(
                     id = entry.vocab_id,

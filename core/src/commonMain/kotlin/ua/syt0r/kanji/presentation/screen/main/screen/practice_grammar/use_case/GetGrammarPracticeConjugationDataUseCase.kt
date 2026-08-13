@@ -16,11 +16,11 @@ class DefaultGetGrammarPracticeConjugationDataUseCase(
 
     override suspend fun invoke(descriptor: GrammarPracticeQueueItemDescriptor.ConjugationBuilder): GrammarPracticeItemData.ConjugationBuilder {
         val chapter = contentRepository.findChapter(descriptor.deckId)
-?: return@invoke createFallbackConjugation(descriptor)
+            ?: error("Grammar chapter ${descriptor.deckId} not found")
         val point = chapter.points.firstOrNull { it.number == descriptor.pointNumber }
-?: return@invoke createFallbackConjugation(descriptor)
+            ?: error("Grammar point ${descriptor.pointNumber} not found")
         val question = questionEngine.conjugation(point, seedFor(descriptor))
-?: return@invoke createFallbackConjugation(descriptor)
+            ?: error("No validated conjugation question for ${point.number}")
         return GrammarPracticeItemData.ConjugationBuilder(
             pointNumber = point.number,
             title = chapter.title,
@@ -35,15 +35,3 @@ class DefaultGetGrammarPracticeConjugationDataUseCase(
     private fun seedFor(descriptor: GrammarPracticeQueueItemDescriptor.ConjugationBuilder): Int =
         (descriptor.deckId * 37 + descriptor.pointNumber.hashCode()).toInt()
 }
-
-    private fun createFallbackConjugation(descriptor: GrammarPracticeQueueItemDescriptor.ConjugationBuilder): GrammarPracticeItemData.ConjugationBuilder {
-        return GrammarPracticeItemData.ConjugationBuilder(
-            pointNumber = descriptor.pointNumber,
-            title = "Conjugation Practice",
-            formula = "",
-            verbDictionary = "suru",
-            verbMeaning = "to do",
-            targetConjugation = "shimasu",
-            syllables = listOf("し", "ま", "す")
-        )
-    }

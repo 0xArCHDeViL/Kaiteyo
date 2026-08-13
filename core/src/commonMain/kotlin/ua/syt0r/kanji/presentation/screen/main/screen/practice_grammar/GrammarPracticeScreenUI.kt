@@ -1,13 +1,18 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.presentation.common.ui.FancyLoading
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeFlashcardUI
@@ -39,6 +44,23 @@ fun GrammarPracticeScreenUI(
                 val answeredCorrectly = state.answeredCorrectly
 
                 when (val reviewState = queueState.state) {
+                    is MutableGrammarReviewState.Unavailable -> {
+                        Column(
+                            modifier = Modifier.fillMaxSize(),
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            verticalArrangement = Arrangement.Center
+                        ) {
+                            Text(reviewState.title)
+                            Spacer(Modifier.height(8.dp))
+                            Text(reviewState.reason)
+                            Spacer(Modifier.height(16.dp))
+                            Button(onClick = {
+                                onEvent(GrammarPracticeScreenContract.Event.SkipUnavailable)
+                            }) {
+                                Text("Skip item")
+                            }
+                        }
+                    }
                     is MutableGrammarReviewState.Flashcard -> {
                         GrammarPracticeFlashcardUI(
                             state = reviewState,

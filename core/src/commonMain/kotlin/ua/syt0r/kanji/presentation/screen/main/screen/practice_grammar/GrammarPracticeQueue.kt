@@ -25,6 +25,8 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeScrambleDataUseCase
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.use_case.GetGrammarPracticeDialogueDataUseCase
 import ua.syt0r.kanji.core.srs.GrammarPracticeType
+import ua.syt0r.kanji.core.logger.Logger
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.MutableGrammarReviewState
 
 typealias GrammarPracticeQueue = PracticeQueue<GrammarPracticeQueueState, GrammarPracticeQueueItemDescriptor>
 
@@ -110,9 +112,19 @@ class DefaultGrammarPracticeQueue(
         item: GrammarPracticeQueueItem,
         answers: PracticeAnswers
     ): GrammarPracticeQueueState {
+        val reviewState = runCatching {
+            item.data.await().toReviewState(coroutineScope)
+        }.getOrElse { error ->
+            if (error is kotlinx.coroutines.CancellationException) throw error
+            Logger.e("Grammar practice item unavailable: ${error.stackTraceToString()}")
+            MutableGrammarReviewState.Unavailable(
+                title = "Grammar ${item.descriptor.pointNumber}",
+                reason = "This item could not be loaded and was skipped safely."
+            )
+        }
         return GrammarPracticeQueueState.Review(
             progress = getProgress(),
-            state = item.data.await().toReviewState(coroutineScope),
+            state = reviewState,
             answers = answers
         )
     }

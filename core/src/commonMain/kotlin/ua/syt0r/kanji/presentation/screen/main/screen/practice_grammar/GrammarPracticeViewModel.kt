@@ -60,6 +60,11 @@ class GrammarPracticeViewModel(
                     queue.submitAnswer(answer)
                 }
             }
+            GrammarPracticeScreenContract.Event.SkipUnavailable -> {
+                viewModelScope.launch {
+                    queue.skipCurrent()
+                }
+            }
             is GrammarPracticeScreenContract.Event.EndPractice -> {
                 queue.immediateFinish()
             }

@@ -5,6 +5,8 @@ import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant
 import kotlin.time.Duration
@@ -16,6 +18,7 @@ import ua.syt0r.kanji.core.app_data.data.RadicalData
 import ua.syt0r.kanji.core.srs.SrsPracticeType
 import ua.syt0r.kanji.core.srs.SrsCardKey
 import ua.syt0r.kanji.core.time.TimeUtils
+import ua.syt0r.kanji.core.logger.Logger
 import ua.syt0r.kanji.core.user_data.database.CardDatabaseManager
 import ua.syt0r.kanji.core.user_data.database.FsrsCardRepository
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryItem
@@ -81,11 +84,14 @@ class KaiteyoDataCenter(
     val collections = mutableStateListOf<KaiteyoCollection>()
 
     private var loaded = false
+    private val loadMutex = Mutex()
 
     suspend fun ensureLoaded() {
-        if (loaded) return
-        loaded = true
-        load()
+        loadMutex.withLock {
+            if (loaded) return
+            load()
+            loaded = !loadError
+        }
     }
 
     private suspend fun load() {
@@ -166,7 +172,9 @@ class KaiteyoDataCenter(
 
             buildCatalog(catalog)
             rebuildCollections()
-        } catch (t: Throwable) {
+        } catch (t: Exception) {
+            if (t is kotlinx.coroutines.CancellationException) throw t
+            Logger.e("KaiteyoDataCenter.load failed: ${t.stackTraceToString()}")
             loadError = true
         } finally {
             isLoading = false
