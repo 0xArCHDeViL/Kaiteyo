@@ -23,7 +23,7 @@ private const val MaxExamplesPerLetter = 5
 fun main() {
 
     val charactersDir = ProjectData.exportCharactersDir
-    val characterFiles = charactersDir.listFiles()
+    val characterFiles = charactersDir.listFiles()?.sortedBy { it.name }
     if (characterFiles.isNullOrEmpty())
         throw IllegalStateException("No characters data found")
 
@@ -73,6 +73,7 @@ fun main() {
         .map { DatabaseRadical(it.radical, it.strokes) }
 
     val exportKanjiClassifications = ProjectData.exportLetterDecksDir.listFiles()!!
+        .sortedBy { it.name }
         .flatMap { file ->
             file.readText().split("\n").map {
                 DatabaseKanjiClassification(
@@ -136,6 +137,7 @@ fun getExportSentences(): List<Sentence> {
 fun getVocabImports(): List<Vocab_deck_card> {
     val csvFormat = CSVFormat.Builder.create().get()
     return ProjectData.exportVocabDecksDir.listFiles()!!
+        .sortedBy { it.name }
         .flatMap { file -> csvFormat.parse(file.reader()).toList().map { file.nameWithoutExtension to it.values() } }
         .map { (fileName, values) ->
             Vocab_deck_card(

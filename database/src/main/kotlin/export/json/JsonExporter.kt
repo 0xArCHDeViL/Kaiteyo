@@ -20,7 +20,7 @@ object JsonExporter {
     }
 
     fun updateCharacters(block: JsonCharacterData.() -> JsonCharacterData) {
-        ProjectData.exportCharactersDir.listFiles()!!.forEach {
+        ProjectData.exportCharactersDir.listFiles()!!.sortedBy { it.name }.forEach {
             val characterData = JsonCharacterData.readFromFile(it, gson)
             val updatedCharacterData = characterData.block()
             if (updatedCharacterData != characterData)
@@ -43,7 +43,7 @@ object JsonExporter {
     }
 
     fun updateExpressions(block: JsonExpressionData.() -> JsonExpressionData) {
-        ProjectData.exportExpressionsDir.listFiles()!!.forEach {
+        ProjectData.exportExpressionsDir.listFiles()!!.sortedBy { it.name }.forEach {
             val data = gson.fromJson(it.bufferedReader(), JsonExpressionData::class.java)
             val updatedData = data.block()
             if (updatedData != data)
@@ -52,7 +52,8 @@ object JsonExporter {
     }
 
     fun getSentences(): List<SentenceData> {
-        return ProjectData.sentencesDir.listFiles().map { Json.decodeFromString<SentenceData>(it.readText()) }
+        return ProjectData.sentencesDir.listFiles().sortedBy { it.name }
+            .map { Json.decodeFromString<SentenceData>(it.readText()) }
     }
 
     private fun writeCharacterData(file: File, characterData: JsonCharacterData) {
