@@ -26,7 +26,7 @@ android {
     compileSdk = 35
     defaultConfig {
         applicationId = "ua.syt0r.kanji"
-        minSdk = 26
+        minSdk = 31
         targetSdk = 35
         versionCode = AppVersion.versionCode
         versionName = AppVersion.versionName

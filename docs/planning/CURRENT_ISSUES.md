@@ -21,53 +21,28 @@ This is a living document. Add issues as they are discovered, mark them as fixed
 - [ ] **Rounded panels don't feel intentional** — Some elements are rounded, some are square. No consistent corner radius strategy.
 
 ### Settings
+- [x] **Appearance options are disorganized** — Settings were redesigned into logical cards.
 
-- [x] **Appearance options are disorganized** — Settings feel randomly placed with no logical grouping. (Resolved: UI redesigned into logical premium cards)
-- [ ] **No Appearance Studio** — The current settings are basic. Need full Theme Studio with color editor, gradient editor, live preview.
+## 🟡 P1 — High (Android validation)
 
-## 🟡 P1 — High (v1.2)
+### Android Device UX
+- [ ] **Phone portrait contract** — Verify the phone shell remains portrait-only on Android 12+ devices.
+- [ ] **Tablet landscape contract** — Verify the dedicated rail/content shell on tablets and pads.
+- [ ] **Touch and insets** — Verify navigation, practice controls, writing canvas, dialogs, and keyboard behavior on both device classes.
+- [ ] **Configuration changes** — Verify orientation policy, process recreation, deep links, and database migration on Android devices.
 
-### Floating Sidebar
+### Functional UI Reliability
+- [ ] **Letter Practice rendering** — Validate vocabulary detail with optional metadata absent.
+- [ ] **Grammar Practice recovery** — Validate unavailable items can be skipped without an SRS review side effect.
+- [ ] **Long content surfaces** — Verify scrolling and memory behavior on vocabulary, history, statistics, and deck screens.
 
-- [ ] **Implement floating island design** — Sidebar should not attach to window edge. It should float with rounded corners, elevation, shadow, and glow.
-- [ ] **Dock positions** — Support Left, Right, Top, Bottom, and Floating modes.
-- [ ] **Auto-hide** — Sidebar hides when not in use, reveals on hover or click.
-- [ ] **Collapse/expand animation** — Use spring animations for smooth expand/collapse.
-- [ ] **Snap to valid positions** — Similar to Windows 11 Snap Layouts.
+## 🟢 P2 — Medium (Android polish)
 
-### Theme System
+### Android Interaction Polish
+- [ ] Consistent touch target sizing and focus behavior.
+- [ ] Stable tablet rail selection and content transitions.
+- [ ] Accessibility semantics for practice, navigation, dialogs, and writing controls.
 
-- [ ] **Missing 7 built-in themes** — Only Signature is partially implemented. Need: OLED, Dark Gray, Light, Reading, Cotton Candy, Ocean, Forest.
-- [ ] **Signature theme needs color distribution** — Currently too lime-heavy. Need to distribute lime (#C2FC8B) and orange (#FEAB57) intelligently across buttons, navigation, cards, progress, highlights, glows, gradients.
-- [ ] **Reading theme** — Warm paper colors, cream backgrounds, low eye strain, ink-like text.
-- [ ] **Gradient distribution** — Lime→Orange gradients should appear on selected nav, progress bars, accent cards, hero sections, theme previews.
-- [ ] **Glow effects need enhancement** — Increase default glow intensity. Add animated glow for buttons, cards, navigation, window controls.
-
-### Appearance Studio
-
-- [ ] **Color editor** — RGB, HSV, HSL, HEX color pickers.
-- [ ] **Gradient editor** — Multiple stops, angle control, intensity slider.
-- [ ] **Live preview** — Real-time preview of sidebar, cards, buttons, dialogs, lists, navigation.
-- [ ] **Theme import/export** — Export theme as JSON, import from JSON file.
-- [ ] **Animation controls** — Presets: None, Minimal, Standard, Smooth, Bouncy. Speed control. Spring stiffness tuning.
-- [ ] **Layout controls** — Sidebar position, density modes (Compact/Comfortable/Spacious), corner radius, transparency, blur, elevation.
-
-## 🟢 P2 — Medium (v1.3)
-
-### Motion Studio
-
-- [ ] Animation presets with preview
-- [ ] Per-component animation control
-- [ ] Reduced motion support
-
-### Layout Studio
-
-- [ ] Sidebar position (Left, Right, Top, Bottom)
-- [ ] Density modes
-- [ ] Corner radius slider
-- [ ] Transparency/blur controls
-- [ ] Surface elevation controls
-- [ ] Compact/comfortable/spacious modes
 
 ### Branding
 

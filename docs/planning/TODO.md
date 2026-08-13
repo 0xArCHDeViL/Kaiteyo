@@ -19,36 +19,34 @@ This document is the actionable master implementation plan, indexed directly fro
 - [ ] Refactor rounded corners to use a consistent `MaterialTheme.shapes` strategy.
 - [ ] Ensure consistent typography styles.
 
-## 🟡 Phase 2: High Priority Features (P1 - v1.2)
-**Goal:** Deliver the signature floating UI, full theme system, and complete Appearance Studio.
+## 🟡 Phase 2: High Priority Android Validation (P1)
+**Goal:** Prove the Android-only phone/tablet contract on real device classes.
 
-### The Floating UI
-- [ ] Detach sidebar from window edges (create the "floating island" look with elevation/shadow/glow).
-- [ ] Implement Dock positions (Left, Right, Top, Bottom, Floating).
-- [ ] Add auto-hide behavior with hover/click reveal.
-- [ ] Create spring-based expand/collapse animations.
-- [ ] Implement Snap Layouts for valid positions.
+### Device Matrix
+- [ ] Phone: Android 12+, ARM64-v8a, portrait-only startup and recreation.
+- [ ] Tablet/pad: Android 12+, ARM64-v8a, landscape-only startup and tablet rail/content shell.
+- [ ] Deep links, process recreation, database migration, keyboard, insets, and back handling.
+- [ ] Letter Practice, Vocabulary Detail, and Grammar Practice instrumentation flows.
 
-### Theme & Aesthetics Engine
-- [ ] Implement the 7 missing built-in themes (OLED, Dark Gray, Light, Reading, Cotton Candy, Ocean, Forest).
-- [ ] Intelligent color distribution for Signature theme (balance Lime & Orange).
-- [ ] Enhance glow effects (animated glows for buttons, cards, window controls).
-- [ ] Apply proper gradient distribution to active states.
+### Reliability Gate
+- [ ] Reproduce and validate the no-optional-metadata vocabulary path.
+- [ ] Validate unknown JMdict metadata aliases and future unknown-safe behavior.
+- [ ] Validate unavailable grammar item skip without SRS/review-history side effects.
+- [ ] Validate malformed review-history rows do not crash dashboards.
 
-### Appearance Studio (Advanced Settings)
-- [ ] Build a Color Editor (RGB, HSV, HSL, HEX).
-- [ ] Build a Gradient Editor (stops, angle, intensity).
-- [ ] Build Live Preview panels.
-- [ ] Add Theme JSON Import/Export.
-- [ ] Add Animation Controls (None, Minimal, Standard, Smooth, Bouncy).
-- [ ] Add Layout Controls (Density, Corner Radius, Blur, Elevation).
+## 🟢 Phase 3: Medium Priority Android Engineering (P2)
+**Goal:** Improve measurable Android performance and learning correctness.
 
-## 🟢 Phase 3: Medium Priority Enhancements (P2 - v1.3)
-**Goal:** Introduce advanced studios (Motion & Layout) and polish the brand experience.
+### Data and Learning Engine
+- [ ] Database export integrity, foreign-key checks, domain coverage, and release checksum.
+- [ ] FSRS/SRS review persistence and boundary tests.
+- [ ] Grammar generator validity, deterministic seeds, and answer quality fixtures.
+- [ ] Contextual Japanese pronunciation and TTS fallback fixtures.
 
-### Motion & Layout Studios
-- [ ] Motion Studio: Per-component animation control & reduced motion support.
-- [ ] Layout Studio: Fine-grained controls for transparency, blur, and surface elevation.
+### Performance and Accessibility
+- [ ] Measure cold start, heap footprint, query latency, and recomposition hotspots.
+- [ ] Verify long-list rendering and scrolling on phone and tablet.
+- [ ] Verify touch targets, semantics, keyboard, and reduced-motion behavior where applicable.
 
 ## 🔵 Phase 4: Low Priority & Future Pipeline (P3)
 **Goal:** Optimization, accessibility, and exploration of community/cloud features.

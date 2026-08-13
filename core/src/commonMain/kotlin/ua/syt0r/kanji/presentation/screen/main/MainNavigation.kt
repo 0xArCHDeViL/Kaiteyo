@@ -314,18 +314,6 @@ interface MainDestination {
     }
 
     @Serializable
-    object AppearanceStudio : MainDestination {
-
-        override val analyticsName: String = "appearance_studio"
-
-        @Composable
-        override fun Content(state: MainNavigationState) {
-            ua.syt0r.kanji.presentation.screen.main.screen.settings.AppearanceStudio()
-        }
-
-    }
-
-    @Serializable
     object TextAnalysis : MainDestination {
 
         override val analyticsName: String = "text_analysis"
@@ -707,7 +695,6 @@ val defaultMainDestinations: List<MainDestinationConfiguration<*>> = listOf(
     MainDestination.DailyLimit.configuration(),
     MainDestination.Sync.configuration(),
     MainDestination.TextAnalysis.configuration(),
-    MainDestination.AppearanceStudio.configuration(),
 
     MainDestination.VocabCard::class.configuration(),
     MainDestination.DeckPicker::class.configuration(),

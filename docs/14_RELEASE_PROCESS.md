@@ -1,197 +1,141 @@
-# Kaiteyo (書いてよ) — Release Process
+# Kaiteyo — Android Release Process
+
+Kaiteyo hanya didistribusikan sebagai aplikasi **Android ARM64-v8a** untuk perangkat **Android 12 atau lebih baru**. Phone menggunakan orientation portrait-only; tablet/pad menggunakan landscape-only shell.
 
 ## Versioning
 
-Kaiteyo follows [Semantic Versioning](https://semver.org/):
+Kaiteyo follows [Semantic Versioning](https://semver.org/). Version metadata is managed in `buildSrc/src/main/kotlin/AppVersion.kt`:
 
-- **MAJOR** (1.0.0 → 2.0.0): Incompatible API changes, major redesigns
-- **MINOR** (1.1.0 → 1.2.0): New features, significant improvements
-- **PATCH** (1.1.0 → 1.1.1): Bug fixes, performance improvements, minor changes
-
-Version is managed in `buildSrc/src/main/kotlin/AppVersion.kt`:
 ```kotlin
 object AppVersion {
-    const val versionCode = 110  // Increment for each release
-    const val versionName = "1.1.0"  // Semantic version
-    const val desktopAppVersion = "1.1.0"  // Desktop-specific version
+    const val versionCode = 2210
+    const val versionName = "2.2.1"
 }
 ```
+
+`versionCode` harus meningkat untuk setiap artifact yang didistribusikan. `versionName` mengikuti format SemVer.
 
 ## Release Types
 
 ### Development Build
-- Built from `develop` branch
-- Version: `{version}-dev.{build-number}`
-- For internal testing
-- Not distributed publicly
+
+Development builds berasal dari branch `develop`, digunakan untuk validasi internal, dan tidak dianggap release publik.
 
 ### Release Candidate
-- Built from `release/v{version}` branch
-- Version: `{version}-rc.{rc-number}`
-- For QA testing
-- Limited distribution
+
+Release candidate dibuat setelah unit test, build release, database validation, dan device smoke test lulus. Candidate digunakan untuk QA pada phone portrait dan tablet landscape.
 
 ### Stable Release
-- Built from `main` branch
-- Version: `{version}`
-- Tagged with `v{version}`
-- Public distribution
 
-## Release Workflow
+Stable release dibuat dari tag `v{version}` dan menghasilkan APK/AAB ARM64-v8a Android.
 
-### 1. Prepare Release Branch
+## Required Validation
+
+Sebelum release, jalankan validasi berikut:
+
 ```bash
-git checkout develop
-git pull
-git checkout -b release/v1.1.0
+./gradlew :core:testDebugUnitTest \
+  -PappDataSource=release \
+  -PappDataVersion=15 \
+  -PappDataReleaseTag=data-v15 \
+  --no-daemon --max-workers=1
+
+./gradlew :app:assembleDebug \
+  -PappDataSource=release \
+  -PappDataVersion=15 \
+  -PappDataReleaseTag=data-v15 \
+  --no-daemon --max-workers=1
+
+./gradlew :app:assembleRelease \
+  -PappDataSource=release \
+  -PappDataVersion=15 \
+  -PappDataReleaseTag=data-v15 \
+  --no-daemon --max-workers=1
 ```
 
-### 2. Update Version
-- Update `AppVersion.kt` with new version
-- Update `gradle.properties` if needed
-- Update `README.md` with new version
+Jika device atau emulator tersedia, lanjutkan dengan:
 
-### 3. Run Full Test Suite
 ```bash
-./gradlew :core:test
-./gradlew :desktopApp:compileKotlinJvm
-./gradlew :app:assembleDebug
+./gradlew :app:connectedDebugAndroidTest \
+  -PappDataSource=release \
+  -PappDataVersion=15 \
+  -PappDataReleaseTag=data-v15 \
+  --no-daemon --max-workers=1
 ```
 
-### 4. Build Release Artifacts
+Instrumentation harus mencakup minimal phone portrait, tablet landscape, Letter Practice, Vocabulary Detail, Grammar Practice, database migration, dan deep link.
 
-#### Desktop
+## Orientation Contract
+
+| Device class | Minimum width | Orientation | Layout contract |
+|---|---:|---|---|
+| Android phone | `< 600dp` | Portrait locked | Single-column touch UI |
+| Android tablet/pad | `≥ 600dp` | Landscape locked | Dedicated rail + content shell |
+
+Orientation ditetapkan pada Android activity berdasarkan `smallestScreenWidthDp`. Manifest dan runtime tidak boleh menyediakan jalur desktop, iOS, atau arbitrary freeform window.
+
+## Data Pipeline
+
+Aplikasi dapat memakai database release internal atau membangun database dari source vendored:
+
 ```bash
-# Windows
-./gradlew :desktopApp:packageMsi
-
-# macOS
-./gradlew :desktopApp:packageDmg
-
-# Linux
-./gradlew :desktopApp:packageDeb
+./gradlew :database:exportAppDatabase \
+  -PappDataVersion=15 \
+  --no-daemon --max-workers=1
 ```
 
-#### Android
-```bash
-# Google Play
-./gradlew :app:assembleGooglePlayRelease
+Untuk database yang dibangun dari source, artifact harus diverifikasi sebagai SQLite, checksum harus direkam, lalu integrity gate harus lulus sebelum APK dibuat. Release build menggunakan `data-v15` atau release tag yang ditentukan oleh workflow.
 
-# F-Droid
-./gradlew :app:assembleFdroidRelease
+## GitHub Actions
+
+Workflow release hanya mengunggah artifact Android. Workflow harus menjalankan langkah berikut secara berurutan:
+
+1. Checkout source pada commit/tag release.
+2. Setup JDK 17 dan Android SDK.
+3. Prepare atau download internal application database.
+4. Jalankan integrity validation.
+5. Jalankan unit test core.
+6. Build APK/AAB dengan ABI `arm64-v8a` dan `minSdk 31`.
+7. Upload artifact Android.
+8. Publish GitHub release jika tag release valid.
+
+## Artifact Naming
+
+```text
+Kaiteyo-{version}-arm64-v8a-android.apk
+Kaiteyo-{version}-arm64-v8a-android.aab
 ```
-
-### 5. Create GitHub Release
-1. Tag the release: `git tag v1.1.0`
-2. Push tag: `git push origin v1.1.0`
-3. Create release on GitHub with:
-   - Release title: `Kaiteyo v1.1.0`
-   - Release notes (see template below)
-   - Attach build artifacts
-
-### 6. Merge to Main
-```bash
-git checkout main
-git merge release/v1.1.0
-git push origin main
-```
-
-### 7. Deploy
-
-#### Desktop
-- **Windows**: Upload MSI to GitHub Releases
-- **macOS**: Upload DMG to GitHub Releases
-- **Linux**: Upload Deb to GitHub Releases, submit to Flathub
-
-#### Android
-- **Google Play**: Upload AAB to Google Play Console
-- **F-Droid**: Push tag, F-Droid bot will build automatically
-
-### 8. Post-Release
-- Merge release branch back to develop
-- Update version for next development cycle
-- Announce release on social media / mailing list
-
-## Release Notes Template
-
-```markdown
-# Kaiteyo v{version}
-
-## What's New
-- {Feature 1}
-- {Feature 2}
-- {Feature 3}
-
-## Improvements
-- {Improvement 1}
-- {Improvement 2}
-
-## Bug Fixes
-- {Fix 1}
-- {Fix 2}
-
-## Breaking Changes
-- {Breaking change 1} (if any)
-
-## Downloads
-- [Windows](link-to-msi)
-- [macOS](link-to-dmg)
-- [Linux](link-to-deb)
-- [Android](link-to-apk)
-
-## Full Changelog
-{link-to-changelog}
-```
-
-## Artifact Naming Convention
-
-```
-Kaiteyo-{version}-{platform}.{ext}
-```
-
-Examples:
-- `Kaiteyo-1.1.0-windows.msi`
-- `Kaiteyo-1.1.0-macos.dmg`
-- `Kaiteyo-1.1.0-linux.deb`
-- `Kaiteyo-1.1.0-android.apk`
-
-## Distribution Channels
-
-### Desktop
-| Platform | Format | Distribution |
-|----------|--------|--------------|
-| Windows | MSI | GitHub Releases, future Microsoft Store |
-| macOS | DMG | GitHub Releases, future Mac App Store |
-| Linux | Deb | GitHub Releases, future Flathub/Snap |
-
-### Mobile
-| Platform | Format | Distribution |
-|----------|--------|--------------|
-| Android | AAB | Google Play Store |
-| Android | APK | GitHub Releases, F-Droid |
-| iOS | IPA | Future App Store |
-
-## Hotfix Process
-
-For critical bugs in production:
-
-1. Branch from `main`: `git checkout -b hotfix/v1.1.1`
-2. Fix the bug
-3. Update patch version
-4. Run tests
-5. Build and release
-6. Merge to both `main` and `develop`
 
 ## Pre-Release Checklist
 
-- [ ] All tests pass
-- [ ] Desktop app compiles successfully
-- [ ] Android app compiles successfully
-- [ ] No new warnings introduced
-- [ ] Version numbers updated
-- [ ] Changelog updated
-- [ ] Release notes drafted
-- [ ] Artifacts built and tested
-- [ ] Documentation updated
-- [ ] Breaking changes documented
-- [ ] Migration guide written (if needed)
+- [ ] `minSdk` app dan core tetap `31`.
+- [ ] APK hanya berisi ABI `arm64-v8a`.
+- [ ] Phone terkunci portrait.
+- [ ] Tablet/pad terkunci landscape.
+- [ ] Dedicated tablet shell merender rail dan content tanpa desktop drag/resize overlay.
+- [ ] Full core unit test lulus.
+- [ ] Android debug dan release build lulus.
+- [ ] Instrumentation phone dan tablet lulus jika device tersedia.
+- [ ] Application database lolos integrity check dan checksum validation.
+- [ ] Changelog dan migration notes diperbarui.
+- [ ] Tidak ada artifact desktop, iOS, atau web pada release output.
+
+## Distribution
+
+| Channel | Artifact | Target |
+|---|---|---|
+| Google Play | AAB | Android 12+, ARM64-v8a |
+| GitHub Releases | APK | Android 12+, ARM64-v8a |
+| F-Droid | APK/build metadata | Android 12+, ARM64-v8a |
+
+## Hotfix Process
+
+Untuk crash produksi atau kerusakan data:
+
+1. Reproduksi dengan stack trace atau fixture yang dapat diverifikasi.
+2. Perbaiki akar masalah di branch `develop` sesuai repository workflow.
+3. Tambahkan regression test.
+4. Jalankan unit test dan Android build.
+5. Jalankan device smoke test jika device tersedia.
+6. Push commit hotfix dan catat hash pada changelog.
+7. Tag patch release bila perubahan didistribusikan.

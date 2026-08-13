@@ -23,9 +23,11 @@ open class KaiteyoActivity : AppCompatActivity() {
         enableEdgeToEdge()
         themeManager.invalidate()
         
-        // Lock phones to portrait to prevent desktop/landscape views from rendering on small screens
-        if (resources.configuration.smallestScreenWidthDp < 600) {
-            requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+        // Android-only orientation contract: phones stay portrait; tablets/pads stay landscape.
+        requestedOrientation = if (resources.configuration.smallestScreenWidthDp >= 600) {
+            android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
+        } else {
+            android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         }
 
         Logger.d("intentData[${intent.dataString}]")

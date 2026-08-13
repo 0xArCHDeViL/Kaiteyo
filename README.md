@@ -6,10 +6,9 @@
   ![Version Badge](https://img.shields.io/badge/version-v1.1.0-blue?style=for-the-badge&labelColor=1A1A1A&color=C2FC8B)
   ![License](https://img.shields.io/badge/license-GPLv3-green?style=for-the-badge&labelColor=1A1A1A&color=FEAB57)
 
-  **A premium, cross-platform Japanese language learning application**
+  **An offline-first Japanese learning application for Android phones and tablets**
 
-  [![Desktop](https://img.shields.io/badge/Desktop-Windows%20%7C%20macOS%20%7C%20Linux-1A1A1A?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/your-org/kaiteyo/releases)
-  [![Android](https://img.shields.io/badge/Android-1A1A1A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/your-org/kaiteyo/releases)
+  [![Android](https://img.shields.io/badge/Android%2012%2B-1A1A1A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/0xArCHDeViL/Kaiteyo/releases)
 
 </div>
 
@@ -17,7 +16,7 @@
 
 ## About Kaiteyo
 
-Kaiteyo (書いてよ) — "write it!" in Japanese — is a premium, cross-platform application for learning Japanese. Originally based on Kanji Dojo by syt0r, Kaiteyo is now independently developed with its own design language, roadmap, branding, and feature set.
+Kaiteyo (書いてよ) — "write it!" in Japanese — is an Android-only application for learning Japanese. Phones use a portrait-only experience; tablets and pads use a dedicated landscape shell. Originally based on Kanji Dojo by syt0r, Kaiteyo is now independently developed with its own learning architecture, data pipeline, and feature set.
 
 ### Features
 
@@ -28,9 +27,9 @@ Kaiteyo (書いてよ) — "write it!" in Japanese — is a premium, cross-platf
 - **Flashcards** — Study words with interactive flashcards
 - **Writing practice** — Stroke order diagrams and drawing canvas
 - **Offline-first** — Works completely offline
-- **Cross-platform** — Desktop (Windows, macOS, Linux), Android, iOS
-- **Premium desktop experience** — Undecorated window, floating controls, custom theming
-- **Appearance Studio** — Full theme customization with live preview
+- **Android tablet experience** — Dedicated landscape navigation shell for tablets and pads
+- **Android phone experience** — Portrait-only interaction model optimized for touch
+- **Native delivery target** — ARM64-v8a devices running Android 12 or newer
 
 ## Screenshots
 
@@ -45,23 +44,12 @@ Kaiteyo (書いてよ) — "write it!" in Japanese — is a premium, cross-platf
 
 ## Downloads
 
-### Desktop
-
-| Platform | Download |
-|----------|----------|
-| Windows | [Download MSI](https://github.com/your-org/kaiteyo/releases/latest) |
-| macOS | [Download DMG](https://github.com/your-org/kaiteyo/releases/latest) |
-| Linux | [Download Deb/AppImage](https://github.com/your-org/kaiteyo/releases/latest) |
-
 ### Android
 
 [![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=ua.syt0r.kanji)
 [![F-Droid](https://img.shields.io/badge/F--Droid-1976D2?style=for-the-badge&logo=f-droid&logoColor=white)](https://f-droid.org/en/packages/ua.syt0r.kanji.fdroid/)
 [![GitHub Releases](https://img.shields.io/badge/GitHub_Releases-1A1A1A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-org/kaiteyo/releases/latest)
 
-### iOS
-
-[![App Store](https://img.shields.io/badge/App_Store-blue?style=for-the-badge&logo=appstore&logoColor=blue&color=white)](https://apps.apple.com/ua/app/kanji-dojo/id6745169386)
 
 ## Quick Start
 
@@ -70,13 +58,11 @@ Kaiteyo (書いてよ) — "write it!" in Japanese — is a premium, cross-platf
 git clone https://github.com/your-org/kaiteyo.git
 cd kaiteyo
 
-# Run the desktop application
-./gradlew :desktopApp:run
+# Build the Android debug APK
+./gradlew :app:assembleDebug
 
-# Build for distribution
-./gradlew :desktopApp:packageMsi    # Windows
-./gradlew :desktopApp:packageDmg    # macOS
-./gradlew :desktopApp:packageDeb    # Linux
+# Build the ARM64 Android release APK
+./gradlew :app:assembleRelease
 ```
 
 ## Documentation
@@ -96,8 +82,8 @@ The project includes comprehensive documentation in the `/docs` directory:
 
 ## Technical Stack
 
-- **Language**: Kotlin Multiplatform
-- **UI**: Compose Multiplatform
+- **Language**: Kotlin
+- **UI**: Jetpack Compose for Android
 - **DI**: Koin
 - **Database**: SQLDelight
 - **Networking**: Ktor
