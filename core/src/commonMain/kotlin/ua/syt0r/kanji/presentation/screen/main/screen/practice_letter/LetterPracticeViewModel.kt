@@ -20,8 +20,8 @@ import kotlinx.coroutines.launch
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
 import ua.syt0r.kanji.core.japanese.KanaReading
 import ua.syt0r.kanji.core.tts.AppTtsManager
+import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
 import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
-import ua.syt0r.kanji.core.tts.JapaneseSpeechText
 import ua.syt0r.kanji.core.tts.KanaTtsManager
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWritingProgress
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
@@ -92,7 +92,7 @@ class LetterPracticeViewModel(
                                 .onEach { text ->
                                     if (text is AutoReadText.Kana) speakKana(text.reading)
                                     else if (text is AutoReadText.KanjiReading) {
-                                        speakYomikata(text.character, text.pronunciation)
+                                        speakYomikata(text.request)
                                     }
                                 }
                                 .launchIn(viewModelScope)
@@ -117,15 +117,8 @@ class LetterPracticeViewModel(
         viewModelScope.launch { kanaTtsManager.speak(reading) }
     }
 
-    private fun speakYomikata(character: String, reading: String) {
-        viewModelScope.launch {
-            appTtsManager.speak(
-                JapaneseSpeechRequest(
-                    displayText = character,
-                    pronunciation = reading
-                )
-            )
-        }
+    private fun speakYomikata(request: JapaneseSpeechRequest) {
+        viewModelScope.launch { appTtsManager.speak(request) }
     }
 
     override fun finishPractice() {
@@ -166,8 +159,7 @@ class LetterPracticeViewModel(
     private sealed interface AutoReadText {
         data class Kana(val reading: KanaReading) : AutoReadText
         data class KanjiReading(
-            val character: String,
-            val pronunciation: String
+            val request: JapaneseSpeechRequest
         ) : AutoReadText
     }
 
@@ -201,10 +193,12 @@ class LetterPracticeViewModel(
                     reviewState.itemData is LetterPracticeItemData.KanjiWritingData -> {
 
                 val kanjiReview = reviewState
-                val yomikata = JapaneseSpeechText.selectStandaloneKanjiReading(
+                val speechRequest = JapaneseSpeechRequest(
+                    displayText = kanjiReview.itemData.character,
                     kunReadings = kanjiReview.itemData.kun,
-                    onReadings = kanjiReview.itemData.on
-                ) ?: return@callbackFlow
+                    onReadings = kanjiReview.itemData.on,
+                    context = JapaneseSpeechContext.IsolatedKanji
+                )
 
                 snapshotFlow { kanjiReview.writerState.value.progress.value }
                     .dropWhile { it !is CharacterWritingProgress.Writing }
@@ -212,10 +206,7 @@ class LetterPracticeViewModel(
                     .take(1)
                     .onEach {
                         send(
-                            AutoReadText.KanjiReading(
-                                character = kanjiReview.itemData.character,
-                                pronunciation = yomikata
-                            )
+                            AutoReadText.KanjiReading(speechRequest)
                         )
                     }
                     .collect()

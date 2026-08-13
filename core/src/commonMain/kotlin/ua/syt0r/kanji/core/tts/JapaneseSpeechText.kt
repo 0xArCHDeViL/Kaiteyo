@@ -1,5 +1,7 @@
 package ua.syt0r.kanji.core.tts
 
+import ua.syt0r.kanji.core.app_data.data.FuriganaString
+
 /**
  * Normalizes text before it reaches a Japanese speech engine.
  *
@@ -49,7 +51,10 @@ object JapaneseSpeechText {
      * misleading standalone readings.
      */
     fun isStandaloneKanjiReading(raw: String): Boolean {
-        if (raw.contains('-')) return false
+        // KANJIDIC hyphens mark prefix/suffix fragments and dots mark
+        // okurigana boundaries. Both forms describe word-level readings, not
+        // a complete pronunciation for an isolated Kanji.
+        if (raw.contains('-') || raw.contains('.')) return false
 
         val normalized = normalizeKanjiReading(raw)
         return normalized.isNotEmpty() && normalized.all(::isKana)
@@ -89,13 +94,19 @@ object JapaneseSpeechText {
  */
 data class JapaneseSpeechRequest(
     val displayText: String,
-    val pronunciation: String,
+    val pronunciation: String? = null,
+    val furigana: FuriganaString? = null,
+    val kunReadings: List<String> = emptyList(),
+    val onReadings: List<String> = emptyList(),
+    val context: JapaneseSpeechContext = JapaneseSpeechContext.Auto,
     val language: String = "ja-JP"
 )
 
 fun JapaneseSpeechRequest.normalized(): JapaneseSpeechRequest {
     return copy(
         displayText = JapaneseSpeechText.normalize(displayText),
-        pronunciation = JapaneseSpeechText.normalize(pronunciation)
+        pronunciation = pronunciation?.let(JapaneseSpeechText::normalize),
+        kunReadings = kunReadings.map(JapaneseSpeechText::normalizeKanjiReading),
+        onReadings = onReadings.map(JapaneseSpeechText::normalizeKanjiReading)
     )
 }

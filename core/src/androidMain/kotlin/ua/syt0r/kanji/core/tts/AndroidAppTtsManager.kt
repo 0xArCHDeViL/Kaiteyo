@@ -38,15 +38,6 @@ class AndroidAppTtsManager(
         enqueueSpeech(normalizedText, language)
     }
 
-    override suspend fun speak(request: JapaneseSpeechRequest) {
-        val normalizedRequest = request.normalized()
-        if (normalizedRequest.pronunciation.isEmpty()) return
-
-        // An isolated Kanji is ambiguous by design. Speaking the resolved kana
-        // is the portable, deterministic path across Android TTS engines.
-        enqueueSpeech(normalizedRequest.pronunciation, normalizedRequest.language)
-    }
-
     private suspend fun enqueueSpeech(
         text: String,
         language: String,
