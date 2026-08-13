@@ -1,0 +1,52 @@
+{
+  "id": "1211790",
+  "readings": [
+    {
+      "kanaExpression": "かんぽう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "官報",
+      "furiganaExpression": [
+        {
+          "text": "官",
+          "annotation": "かん"
+        },
+        {
+          "text": "報",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "official daily gazette",
+        "official telegram"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Amtsblatt",
+        "Staatsanzeiger"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "правительственный (официозный) вестник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "boletín oficial",
+        "diario oficial"
+      ]
+    }
+  ]
+}

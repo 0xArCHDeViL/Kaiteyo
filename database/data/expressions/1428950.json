@@ -1,0 +1,54 @@
+{
+  "id": "1428950",
+  "readings": [
+    {
+      "kanaExpression": "ちょうりょく",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "聴力",
+      "furiganaExpression": [
+        {
+          "text": "聴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "力",
+          "annotation": "りょく"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hearing ability"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gehoor",
+        "gehoorzin",
+        "gehoorvermogen",
+        "vermogen om te horen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gehör",
+        "Gehörsinn",
+        "Hörvermögen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "острота слуха, слух"
+      ]
+    }
+  ]
+}

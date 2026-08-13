@@ -1,0 +1,79 @@
+{
+  "id": "1516690",
+  "readings": [
+    {
+      "kanaExpression": "ほうしゃのう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "放射能",
+      "furiganaExpression": [
+        {
+          "text": "放",
+          "annotation": "ほう"
+        },
+        {
+          "text": "射",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "能",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 11431
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "radioactivity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "radioactiviteit",
+        "{verk.} activiteit"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "radioactivité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Radioaktivität",
+        "Strahlung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "radioaktivitás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "радиоактивность"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "radioaktivnost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "radiactividad"
+      ]
+    }
+  ]
+}

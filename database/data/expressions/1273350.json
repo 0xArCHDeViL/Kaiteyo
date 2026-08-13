@@ -1,0 +1,59 @@
+{
+  "id": "1273350",
+  "readings": [
+    {
+      "kanaExpression": "こうかい",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "公海",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "海",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high seas",
+        "international waters"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "eaux internationales"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "internationale Gewässer",
+        "hohe See"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "angol admiralitás joghatósága alá eső tengerrész",
+        "három mérföldes parti sávon túl eső tengerrész",
+        "nyílt tenger"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "открытое море (за пределами территориальных вод)"
+      ]
+    }
+  ]
+}

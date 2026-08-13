@@ -1,0 +1,105 @@
+{
+  "id": "1576910",
+  "readings": [
+    {
+      "kanaExpression": "ねいろ",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "おんしょく"
+    },
+    {
+      "kanjiExpression": "音色",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "ね"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ],
+      "rank": 8103
+    },
+    {
+      "kanjiExpression": "音いろ",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "ね"
+        },
+        {
+          "text": "いろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tone color",
+        "tone colour",
+        "tone quality",
+        "timbre"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} timbre",
+        "klankkleur",
+        "klanktint",
+        "toonkleur",
+        "klankeigenschap"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "son de synthétiseur",
+        "timbre de voix",
+        "ton (couleur ou son)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Klangfarbe",
+        "Klang",
+        "Timbre",
+        "Tonfarbe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gerenda",
+        "hajógerendázat",
+        "törzsborda"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тон; тембр",
+        "тембр"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "barva zvoka",
+        "barva tona",
+        "barva glasu"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tono"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1392150",
+  "readings": [
+    {
+      "kanaExpression": "えらびだす",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "選び出す",
+      "furiganaExpression": [
+        {
+          "text": "選",
+          "annotation": "えら"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to select",
+        "to pick out"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auswählen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hallás után eljátszik",
+        "kiolvas",
+        "kiszemel",
+        "kiválogat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выбирать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "escoger"
+      ]
+    }
+  ]
+}

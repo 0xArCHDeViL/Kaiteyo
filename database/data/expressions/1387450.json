@@ -1,0 +1,92 @@
+{
+  "id": "1387450",
+  "readings": [
+    {
+      "kanaExpression": "さきがける",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "先駆ける",
+      "furiganaExpression": [
+        {
+          "text": "先",
+          "annotation": "さき"
+        },
+        {
+          "text": "駆",
+          "annotation": "が"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "先駈ける",
+      "furiganaExpression": [
+        {
+          "text": "先",
+          "annotation": "さき"
+        },
+        {
+          "text": "駈",
+          "annotation": "が"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "魁ける",
+      "furiganaExpression": [
+        {
+          "text": "魁",
+          "annotation": "さきが"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to do (something) before (something or someone else)",
+        "to be ahead of (others, the times, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de eerste zijn om",
+        "vóór zijn",
+        "vooruitlopen op",
+        "anticiperen",
+        "de voorbode zijn van"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vorangehen",
+        "seiner Zeit voraus sein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "быть предвестником"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ser el primero"
+      ]
+    }
+  ]
+}

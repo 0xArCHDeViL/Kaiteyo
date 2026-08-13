@@ -1,0 +1,54 @@
+{
+  "id": "1232380",
+  "readings": [
+    {
+      "kanaExpression": "きょしょくしょう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "拒食症",
+      "furiganaExpression": [
+        {
+          "text": "拒",
+          "annotation": "きょ"
+        },
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "症",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "anorexia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} anorexia"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anorexie",
+        "Magersucht"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "anorexi"
+      ]
+    }
+  ]
+}

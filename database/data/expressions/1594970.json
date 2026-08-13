@@ -1,0 +1,75 @@
+{
+  "id": "1594970",
+  "readings": [
+    {
+      "kanaExpression": "しょうせい",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "しょうじょう",
+      "rank": 20000
+    },
+    {
+      "kanaExpression": "ちょうしょう"
+    },
+    {
+      "kanjiExpression": "招請",
+      "furiganaExpression": [
+        {
+          "text": "招",
+          "annotation": "しょう"
+        },
+        {
+          "text": "請",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "召請",
+      "furiganaExpression": [
+        {
+          "text": "召",
+          "annotation": "しょう"
+        },
+        {
+          "text": "請",
+          "annotation": "せい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "invitation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einladen",
+        "Einladung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приглашение, созыв",
+        "{～する} приглашать, созывать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "llamada",
+        "citación",
+        "llamamiento",
+        "convocatoria",
+        "invitación"
+      ]
+    }
+  ]
+}

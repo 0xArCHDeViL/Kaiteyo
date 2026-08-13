@@ -1,0 +1,87 @@
+{
+  "id": "1386690",
+  "readings": [
+    {
+      "kanaExpression": "なだれ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "雪崩",
+      "furiganaExpression": [
+        {
+          "text": "雪崩",
+          "annotation": "なだれ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "雪崩れ",
+      "furiganaExpression": [
+        {
+          "text": "雪",
+          "annotation": "な"
+        },
+        {
+          "text": "崩",
+          "annotation": "だ"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "avalanche",
+        "snowslide"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "avalanche"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schneelawine",
+        "Lawine",
+        "Schneesturz",
+        "Erdrutsch",
+        "Bergrutsch",
+        "Bergsturz",
+        "Schräge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lavina"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "plaz",
+        "lavina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "avalancha"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lavin"
+      ]
+    }
+  ]
+}

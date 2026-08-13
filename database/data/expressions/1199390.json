@@ -1,0 +1,62 @@
+{
+  "id": "1199390",
+  "readings": [
+    {
+      "kanaExpression": "かいき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "回忌",
+      "furiganaExpression": [
+        {
+          "text": "回",
+          "annotation": "かい"
+        },
+        {
+          "text": "忌",
+          "annotation": "き"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "death anniversary",
+        "anniversary of a person\u0027s death"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sterfdag",
+        "{r.-k.} jaardienst",
+        "jaarmis",
+        "jaargetijde",
+        "getijde",
+        "anniversarium"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Todestag",
+        "Jahrestag des Todes einer Person"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "годовщина смерти"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aniversario de la muerte"
+      ]
+    }
+  ]
+}

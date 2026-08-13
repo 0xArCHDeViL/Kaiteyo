@@ -1,0 +1,74 @@
+{
+  "id": "1171290",
+  "readings": [
+    {
+      "kanaExpression": "みぎうで",
+      "rank": 20500
+    },
+    {
+      "kanaExpression": "うわん"
+    },
+    {
+      "kanjiExpression": "右腕",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "みぎ"
+        },
+        {
+          "text": "腕",
+          "annotation": "うで"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "right arm",
+        "right-hand man",
+        "right hand",
+        "right-hand person",
+        "right-handed pitcher"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} rechterarm",
+        "{fig.} rechterhand",
+        "assistent",
+        "helper",
+        "vertrouwensman",
+        "steun"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rechter Arm",
+        "jmds. rechte Hand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) みぎて 1"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "brazo derecho"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "högerarm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1283470",
+  "readings": [
+    {
+      "kanaExpression": "こうけん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "高見",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "見",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "your views",
+        "your opinion",
+        "great idea",
+        "excellent idea"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uw mening",
+        "uw opinie",
+        "uw ideeën",
+        "schitterende gedachte",
+        "uitstekend inzicht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hervorragende Ansicht",
+        "Ihre werte Meinung (höfl.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. вежл.) ваше мнение, ваша точка зрения"
+      ]
+    }
+  ]
+}

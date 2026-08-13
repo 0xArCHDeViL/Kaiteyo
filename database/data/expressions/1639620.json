@@ -1,0 +1,64 @@
+{
+  "id": "1639620",
+  "readings": [
+    {
+      "kanaExpression": "きりふき",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "霧吹き",
+      "furiganaExpression": [
+        {
+          "text": "霧",
+          "annotation": "きり"
+        },
+        {
+          "text": "吹",
+          "annotation": "ふ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spraying",
+        "sprayer",
+        "atomizer",
+        "atomiser",
+        "vaporizer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zerstäuber"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "permet",
+        "permetező eső",
+        "permetező folyadék",
+        "permetezőpalack",
+        "permetlé",
+        "spray",
+        "szétpermetezett mennyiség",
+        "szpré",
+        "virágzó ágacska"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "распылитель, пульверизатор"
+      ]
+    }
+  ]
+}

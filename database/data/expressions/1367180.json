@@ -1,0 +1,75 @@
+{
+  "id": "1367180",
+  "readings": [
+    {
+      "kanaExpression": "じんけんひ",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "人件費",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "じん"
+        },
+        {
+          "text": "件",
+          "annotation": "けん"
+        },
+        {
+          "text": "費",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "personnel expenses",
+        "labor cost",
+        "labour cost",
+        "indirect labour costs",
+        "indirect labor costs"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "personeelskosten",
+        "loonkosten",
+        "loonlasten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Personalkosten",
+        "Personalaufwendung",
+        "Gehälter und Löhne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "személyzeti költségek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "расходы по содержанию личного состава"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "costos del personal",
+        "costo de labor",
+        "costos laborales indirectos"
+      ]
+    }
+  ]
+}

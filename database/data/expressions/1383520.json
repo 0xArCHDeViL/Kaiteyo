@@ -1,0 +1,49 @@
+{
+  "id": "1383520",
+  "readings": [
+    {
+      "kanaExpression": "あかしお",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "赤潮",
+      "furiganaExpression": [
+        {
+          "text": "赤",
+          "annotation": "あか"
+        },
+        {
+          "text": "潮",
+          "annotation": "しお"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "red tide"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rood getij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rote Meeresströmung (Meersströmung mit durch Blutalgen verursachter roter Färbung)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "морская вода красновато-бурого цвета (в период размножения планктона)"
+      ]
+    }
+  ]
+}

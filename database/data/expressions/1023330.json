@@ -1,0 +1,68 @@
+{
+  "id": "1023330",
+  "readings": [
+    {
+      "kanaExpression": "インチ",
+      "rank": 5739
+    },
+    {
+      "kanjiExpression": "吋",
+      "furiganaExpression": [
+        {
+          "text": "吋",
+          "annotation": "インチ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inch"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inch",
+        "Engelse duim {\u003d 2,54 cm}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Inch",
+        "Zoll",
+        "1",
+        "12 Fuß",
+        "2,54 cm"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "2,54 cm",
+        "hüvelyk"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дюйм"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pulgada"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tum"
+      ]
+    }
+  ]
+}

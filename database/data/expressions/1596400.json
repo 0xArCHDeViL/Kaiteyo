@@ -1,0 +1,57 @@
+{
+  "id": "1596400",
+  "readings": [
+    {
+      "kanaExpression": "そうじゃ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "惣社",
+      "furiganaExpression": [
+        {
+          "text": "惣",
+          "annotation": "そう"
+        },
+        {
+          "text": "社",
+          "annotation": "じゃ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "総社",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "社",
+          "annotation": "じゃ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shrine enshrining several gods"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Sōja"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sōja (Stadt im Süden der Präf. Okayama)",
+        "Schrein, in dem die Gottheiten verschiedener Schreine verehrt werden"
+      ]
+    }
+  ]
+}

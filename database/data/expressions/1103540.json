@@ -1,0 +1,60 @@
+{
+  "id": "1103540",
+  "readings": [
+    {
+      "kanaExpression": "ヒーター",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ヒータ",
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heater"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verwarmer",
+        "verhitter",
+        "verwarmingstoestel",
+        "verwarming",
+        "kachel",
+        "kookkachel",
+        "keukenkachel",
+        "fornuis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Heizung",
+        "Heizstrahler",
+        "Heizapparat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fűtés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((англ.) heater) радиатор"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "grelec"
+      ]
+    }
+  ]
+}

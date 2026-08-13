@@ -1,0 +1,45 @@
+{
+  "id": "1783200",
+  "readings": [
+    {
+      "kanaExpression": "ばいうぜんせん",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "梅雨前線",
+      "furiganaExpression": [
+        {
+          "text": "梅",
+          "annotation": "ばい"
+        },
+        {
+          "text": "雨",
+          "annotation": "う"
+        },
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seasonal rain front"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wetterfront der Regenzeit"
+      ]
+    }
+  ]
+}

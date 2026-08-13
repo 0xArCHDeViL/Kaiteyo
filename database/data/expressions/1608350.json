@@ -1,0 +1,82 @@
+{
+  "id": "1608350",
+  "readings": [
+    {
+      "kanaExpression": "げっこう",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "げきこう",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "激昂",
+      "furiganaExpression": [
+        {
+          "text": "激",
+          "annotation": "げっ"
+        },
+        {
+          "text": "昂",
+          "annotation": "こう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "激高",
+      "furiganaExpression": [
+        {
+          "text": "激",
+          "annotation": "げっ"
+        },
+        {
+          "text": "高",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "excitement",
+        "exasperation",
+        "indignation",
+        "rage",
+        "fury"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich aufregen",
+        "sich erregen",
+        "sich ärgern",
+        "Aufregung",
+        "Erregung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felháborodott",
+        "méltatlankodó",
+        "divat",
+        "dühöngés",
+        "szenvedély"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) げっこう【激昂】",
+        "сильное возбуждение; острое раздражение; возмущение, негодование",
+        "{～する} быть возбуждённым (раздражённым); возмущаться, негодовать",
+        "{～して} возбуждённо, в возбуждении; возмущённо, негодуя",
+        "{～した} возбуждённый; возмущённый, негодующий"
+      ]
+    }
+  ]
+}

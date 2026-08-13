@@ -1,0 +1,53 @@
+{
+  "id": "1349230",
+  "readings": [
+    {
+      "kanaExpression": "しょうねんだん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "少年団",
+      "furiganaExpression": [
+        {
+          "text": "少",
+          "annotation": "しょう"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "団",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Boy Scouts"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pfadfindergruppe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бойскауты"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "jóvenes exploradores (boy scouts)"
+      ]
+    }
+  ]
+}

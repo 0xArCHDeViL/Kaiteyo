@@ -1,0 +1,80 @@
+{
+  "id": "1250640",
+  "readings": [
+    {
+      "kanaExpression": "けいよう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "掲揚",
+      "furiganaExpression": [
+        {
+          "text": "掲",
+          "annotation": "けい"
+        },
+        {
+          "text": "揚",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hoisting (e.g. a flag)",
+        "raising",
+        "flying",
+        "putting up"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hijsen",
+        "het hijsen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "flotter (drapeau)",
+        "hisser (drapeau)",
+        "parade"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hissen",
+        "aufziehen",
+        "aushängen (eine Flagge)",
+        "flaggen",
+        "Hissen (einer Flagge)",
+        "Aushängen",
+        "Hochhängen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emelő",
+        "felhúzás",
+        "agyafúrt",
+        "billegő",
+        "gombolás",
+        "himba",
+        "slicc"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поднятие, подъём",
+        "{～する} поднимать (флаг)"
+      ]
+    }
+  ]
+}

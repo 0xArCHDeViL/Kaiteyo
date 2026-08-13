@@ -1,0 +1,74 @@
+{
+  "id": "1419700",
+  "readings": [
+    {
+      "kanaExpression": "だんそう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "断層",
+      "furiganaExpression": [
+        {
+          "text": "断",
+          "annotation": "だん"
+        },
+        {
+          "text": "層",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 14026
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fault",
+        "dislocation",
+        "gap",
+        "discrepancy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geol.} breuk",
+        "verschuiving",
+        "dislocatie",
+        "rift",
+        "{fig.} kloof",
+        "gap",
+        "verschil",
+        "{geneesk.} tomo-"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verwerfung",
+        "Falte",
+        "Kluft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kificamodás",
+        "kizökkenés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(геол.) сброс, сдвиг"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vrickning"
+      ]
+    }
+  ]
+}

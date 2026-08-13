@@ -1,0 +1,60 @@
+{
+  "id": "1397420",
+  "readings": [
+    {
+      "kanaExpression": "そよう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "素養",
+      "furiganaExpression": [
+        {
+          "text": "素",
+          "annotation": "そ"
+        },
+        {
+          "text": "養",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grounding (in a skill or subject)",
+        "knowledge",
+        "training",
+        "achievements",
+        "attainments",
+        "accomplishments"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "enige kennis",
+        "voorkennis",
+        "basisvorming",
+        "{Belg.N.} noties"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anlage",
+        "Bildung",
+        "Vorkenntnis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "элементарное образование",
+        "{…の～がある} обладать общими знаниями (чего-л.); иметь элементарную подготовку"
+      ]
+    }
+  ]
+}

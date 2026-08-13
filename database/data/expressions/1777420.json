@@ -1,0 +1,81 @@
+{
+  "id": "1777420",
+  "readings": [
+    {
+      "kanaExpression": "さくどう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "策動",
+      "furiganaExpression": [
+        {
+          "text": "策",
+          "annotation": "さく"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "maneuvers",
+        "manoeuvers",
+        "machinations",
+        "scheming"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "manoeuvreren",
+        "slinks te werk gaan",
+        "intrigeren",
+        "kuipen",
+        "konkelen",
+        "beramen",
+        "slinks plannen",
+        "manoeuvres",
+        "intrige",
+        "kuiperij",
+        "gekonkel",
+        "konkelarij",
+        "gekuip",
+        "slinkse handelingen",
+        "gemors"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ränke schmieden",
+        "intrigieren",
+        "Ränke",
+        "Tricks",
+        "Manipulation",
+        "Intrige"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "манёвры; уловки; интриги; махинации",
+        "{～する} маневрировать; пускаться на всякие уловки; прибегать к интригам"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tramar",
+        "urdir",
+        "maquinar",
+        "maniobrar en la sombra"
+      ]
+    }
+  ]
+}

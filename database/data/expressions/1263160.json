@@ -1,0 +1,69 @@
+{
+  "id": "1263160",
+  "readings": [
+    {
+      "kanaExpression": "げんがく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "減額",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "額",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 12334
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reduction",
+        "diminution",
+        "abatement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "herabsetzen",
+        "kürzen",
+        "vermindern",
+        "nachlassen",
+        "ermäßigen",
+        "Herabsetzung",
+        "Kürzung",
+        "Verminderung",
+        "Abschlag",
+        "Nachlass",
+        "Ermäßigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bűnpártolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) уменьшение (сокращение, урезывание) суммы (цены, платы)",
+        "{～する} уменьшать, убавлять, урезать",
+        "2) уменьшённая сумма"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "domning"
+      ]
+    }
+  ]
+}

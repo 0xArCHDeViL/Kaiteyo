@@ -1,0 +1,70 @@
+{
+  "id": "1798230",
+  "readings": [
+    {
+      "kanaExpression": "じょうおん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "常温",
+      "furiganaExpression": [
+        {
+          "text": "常",
+          "annotation": "じょう"
+        },
+        {
+          "text": "温",
+          "annotation": "おん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "normal temperature",
+        "room temperature",
+        "constant temperature",
+        "fixed temperature"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "normale temperatuur",
+        "gewone temperatuur",
+        "kamertemperatuur",
+        "constante temperatuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "normale Temperatur",
+        "gleichmäßige Temperatur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szobahőmérséklet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обычная (постоянная, нормальная) температура"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "temperatura ambiente",
+        "temperatura normal",
+        "del tiempo"
+      ]
+    }
+  ]
+}

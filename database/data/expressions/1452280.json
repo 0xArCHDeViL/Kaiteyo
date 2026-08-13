@@ -1,0 +1,61 @@
+{
+  "id": "1452280",
+  "readings": [
+    {
+      "kanaExpression": "どうこう",
+      "rank": 11977
+    },
+    {
+      "kanjiExpression": "同好",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "好",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "similar tastes"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dezelfde voorkeur",
+        "dezelfde voorliefde",
+        "dezelfde belangstelling",
+        "dezelfde interesse",
+        "dezelfde hobby"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gleicher Geschmack",
+        "gleiches Hobby",
+        "gleiche Interessen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "единство вкусов (интересов)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gustos similares"
+      ]
+    }
+  ]
+}

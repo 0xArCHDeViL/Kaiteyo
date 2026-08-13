@@ -1,0 +1,69 @@
+{
+  "id": "1664920",
+  "readings": [
+    {
+      "kanaExpression": "こうげん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "高言",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "言",
+          "annotation": "げん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "広言",
+      "furiganaExpression": [
+        {
+          "text": "広",
+          "annotation": "こう"
+        },
+        {
+          "text": "言",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "boasting",
+        "bragging",
+        "talking big"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "angeben",
+        "große Töne spucken",
+        "große Töne",
+        "Angabe",
+        "große Worte machen",
+        "große Worte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kérkedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) громкие слова, громкое заявление; хвастовство, бахвальство"
+      ]
+    }
+  ]
+}

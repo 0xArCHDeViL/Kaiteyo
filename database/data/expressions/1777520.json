@@ -1,0 +1,67 @@
+{
+  "id": "1777520",
+  "readings": [
+    {
+      "kanaExpression": "つみこみ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "積み込み",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "loading (of cargo, freight, etc.)",
+        "stacking the wall of tiles to one\u0027s advantage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einladen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "berakodás",
+        "felrakodás",
+        "megrakodás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "погрузка"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ilastning",
+        "laddning",
+        "lastning",
+        "pålastning"
+      ]
+    }
+  ]
+}

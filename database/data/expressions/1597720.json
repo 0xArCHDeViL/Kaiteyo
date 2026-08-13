@@ -1,0 +1,95 @@
+{
+  "id": "1597720",
+  "readings": [
+    {
+      "kanaExpression": "ちょっけい",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "直径",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "ちょっ"
+        },
+        {
+          "text": "径",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 8356
+    },
+    {
+      "kanjiExpression": "直経",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "ちょっ"
+        },
+        {
+          "text": "経",
+          "annotation": "けい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "diameter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "diameter",
+        "middellijn",
+        "doorsnede"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "diamètre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Durchmesser",
+        "Diameter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átmérő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "диаметр"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "premer"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "diámetro"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "diameter"
+      ]
+    }
+  ]
+}

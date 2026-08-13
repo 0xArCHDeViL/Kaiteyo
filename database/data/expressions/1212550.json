@@ -1,0 +1,79 @@
+{
+  "id": "1212550",
+  "readings": [
+    {
+      "kanaExpression": "かんど",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "感度",
+      "furiganaExpression": [
+        {
+          "text": "感",
+          "annotation": "かん"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 11349
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sensitivity (e.g. of a measuring instrument)",
+        "reception (radio, TV, etc.)",
+        "sensitivity (of film)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{foto.} gevoeligheid",
+        "{m.b.t. radio} (kwaliteit van) ontvangst",
+        "{m.b.t. aardbevingen} intensiteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Empfindlichkeit",
+        "Sensibilität",
+        "Empfindlichkeit (eines Films)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "komolyság",
+        "szigorúság",
+        "vadság",
+        "érzékenység"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чувствительность (напр. приёмника); сила (землетрясения с точки зрения переживших его)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "receptivnost {frekvence}",
+        "senzibilnost",
+        "dovzetnost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sensibilidad",
+        "intensidad (terremoto)"
+      ]
+    }
+  ]
+}

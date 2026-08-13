@@ -1,0 +1,74 @@
+{
+  "id": "1546440",
+  "readings": [
+    {
+      "kanaExpression": "ようれい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "用例",
+      "furiganaExpression": [
+        {
+          "text": "用",
+          "annotation": "よう"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "example",
+        "illustration"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gebruiksvoorbeeld",
+        "voorbeeld",
+        "illustratie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "exemple d\u0027usage",
+        "illustration"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beispiel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "példa",
+        "ábra",
+        "illusztráció"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пример"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ejemplo",
+        "muestra"
+      ]
+    }
+  ]
+}

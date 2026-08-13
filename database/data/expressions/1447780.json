@@ -1,0 +1,50 @@
+{
+  "id": "1447780",
+  "readings": [
+    {
+      "kanaExpression": "とうけい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "東経",
+      "furiganaExpression": [
+        {
+          "text": "東",
+          "annotation": "とう"
+        },
+        {
+          "text": "経",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "east longitude"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oosterlengte",
+        "O.L."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "östliche Länge"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "восточная долгота"
+      ]
+    }
+  ]
+}

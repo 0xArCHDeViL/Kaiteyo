@@ -1,0 +1,55 @@
+{
+  "id": "1625610",
+  "readings": [
+    {
+      "kanaExpression": "はいかん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "配管",
+      "furiganaExpression": [
+        {
+          "text": "配",
+          "annotation": "はい"
+        },
+        {
+          "text": "管",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 14110
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "plumbing",
+        "piping"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Installation",
+        "Verlegen von Rohren",
+        "installieren",
+        "Rohre verlegen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csővezeték",
+        "magas",
+        "sípolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "система труб; трубопровод"
+      ]
+    }
+  ]
+}

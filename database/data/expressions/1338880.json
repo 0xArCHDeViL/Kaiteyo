@@ -1,0 +1,66 @@
+{
+  "id": "1338880",
+  "readings": [
+    {
+      "kanaExpression": "でむく",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "出向く",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "向",
+          "annotation": "む"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 8669
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to go to",
+        "to proceed to",
+        "to leave for"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich begeven naar",
+        "heengaan naar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gehen zu …",
+        "gehen nach …"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elkezd vmit",
+        "folytat vmit",
+        "hozzáfog vmihez",
+        "vmit követően tesz vmit",
+        "elutazik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[выйдя из дому,] направляться (куда-л.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "1559360",
+  "readings": [
+    {
+      "kanaExpression": "つれだつ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "連れ立つ",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "つ"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "立",
+          "annotation": "だ"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "連れだつ",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "つ"
+        },
+        {
+          "text": "れだつ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "連立つ",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "つれ"
+        },
+        {
+          "text": "立",
+          "annotation": "だ"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to go together",
+        "to go in company (with)",
+        "to go along (with)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zusammen gehen",
+        "gemeinsam gehen",
+        "begleiten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kísér",
+        "kísérő jelensége vminek",
+        "velejárója vminek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отправляться вместе, сопровождать"
+      ]
+    }
+  ]
+}

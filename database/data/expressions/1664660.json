@@ -1,0 +1,149 @@
+{
+  "id": "1664660",
+  "readings": [
+    {
+      "kanaExpression": "さしかえる",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "差し換える",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差し替える",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "挿し替える",
+      "furiganaExpression": [
+        {
+          "text": "挿",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差替える",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差換える",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to change",
+        "to replace"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vervangen",
+        "veranderen",
+        "in de plaats stellen",
+        "wisselen",
+        "verwisselen",
+        "omwisselen",
+        "{drukw.} herzetten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ersetzen",
+        "austauschen",
+        "wechseln",
+        "umtauschen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átszáll",
+        "átváltoztat",
+        "cserél",
+        "kicserél",
+        "megváltoztat",
+        "módosul",
+        "vált",
+        "változtat",
+        "helyettesít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заменять (чем-л.)"
+      ]
+    }
+  ]
+}

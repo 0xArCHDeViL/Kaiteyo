@@ -1,0 +1,57 @@
+{
+  "id": "1654440",
+  "readings": [
+    {
+      "kanaExpression": "たんご",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "端午",
+      "furiganaExpression": [
+        {
+          "text": "端",
+          "annotation": "たん"
+        },
+        {
+          "text": "午",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "端五",
+      "furiganaExpression": [
+        {
+          "text": "端",
+          "annotation": "たん"
+        },
+        {
+          "text": "五",
+          "annotation": "ご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Boys\u0027 Day celebration (May 5)",
+        "Dragon Boat Festival (China)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Knabenfest (am 5. Mai; wörtlich der erste Tag des Pferdes im Monat)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "праздник мальчиков (один из пяти традиционных праздников) ごせっく【五節句】, (в пятый день пятого месяца по лунному календарю)"
+      ]
+    }
+  ]
+}

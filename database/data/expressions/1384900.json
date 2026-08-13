@@ -1,0 +1,58 @@
+{
+  "id": "1384900",
+  "readings": [
+    {
+      "kanaExpression": "きれこみ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "切れ込み",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cut",
+        "notch",
+        "incision"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einschnitt",
+        "Kerbe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "herélt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "надрез, зарубка, насечка"
+      ]
+    }
+  ]
+}

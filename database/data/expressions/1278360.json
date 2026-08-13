@@ -1,0 +1,52 @@
+{
+  "id": "1278360",
+  "readings": [
+    {
+      "kanaExpression": "こうだん",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "巷談",
+      "furiganaExpression": [
+        {
+          "text": "巷",
+          "annotation": "こう"
+        },
+        {
+          "text": "談",
+          "annotation": "だん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rumour",
+        "rumor",
+        "gossip"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gerücht",
+        "Gerede",
+        "Klatsch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pletykafészek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слухи, сплетни, толки"
+      ]
+    }
+  ]
+}

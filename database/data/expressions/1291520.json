@@ -1,0 +1,80 @@
+{
+  "id": "1291520",
+  "readings": [
+    {
+      "kanaExpression": "さきゅう",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "しゃきゅう"
+    },
+    {
+      "kanjiExpression": "砂丘",
+      "furiganaExpression": [
+        {
+          "text": "砂",
+          "annotation": "さ"
+        },
+        {
+          "text": "丘",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "沙丘",
+      "furiganaExpression": [
+        {
+          "text": "沙",
+          "annotation": "さ"
+        },
+        {
+          "text": "丘",
+          "annotation": "きゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sand dune",
+        "sand hill"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zandduin",
+        "duin",
+        "zandheuvel",
+        "zandberg",
+        "nol"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dune",
+        "dune de sable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Düne",
+        "Sanddüne",
+        "Sandhügel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дюна",
+        "(см.) さきゅう"
+      ]
+    }
+  ]
+}

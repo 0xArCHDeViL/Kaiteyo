@@ -1,0 +1,37 @@
+{
+  "id": "1913850",
+  "readings": [
+    {
+      "kanaExpression": "ゆうちょ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "郵貯",
+      "furiganaExpression": [
+        {
+          "text": "郵",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "貯",
+          "annotation": "ちょ"
+        }
+      ],
+      "rank": 13532
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "postal (post-office) savings (deposit)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Postsparkasse (Abk.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "1588590",
+  "readings": [
+    {
+      "kanaExpression": "うれゆき",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "売れ行き",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 14771
+    },
+    {
+      "kanjiExpression": "売行き",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うれ"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "売行",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うれ"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sales",
+        "demand"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkoop",
+        "vraag",
+        "verkoopbaarheid",
+        "vlotte verkoop",
+        "goede verkoop"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ventes",
+        "demande"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Absatz",
+        "Umsatz",
+        "Nachfrage",
+        "Verkauf",
+        "Bedarf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vevők"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сбыт, спрос"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prodaja",
+        "stopnja prodaje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "venta",
+        "demanda"
+      ]
+    }
+  ]
+}

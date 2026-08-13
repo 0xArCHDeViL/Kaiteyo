@@ -1,0 +1,68 @@
+{
+  "id": "1559340",
+  "readings": [
+    {
+      "kanaExpression": "つれそう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "連れ添う",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "つ"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "添",
+          "annotation": "そ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "つれ添う",
+      "furiganaExpression": [
+        {
+          "text": "つれ"
+        },
+        {
+          "text": "添",
+          "annotation": "そ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to become a couple",
+        "to be man and wife",
+        "to be married to"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich verheiraten",
+        "Mann und Frau werden",
+        "verheiratet sein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сочетаться браком, пожениться"
+      ]
+    }
+  ]
+}

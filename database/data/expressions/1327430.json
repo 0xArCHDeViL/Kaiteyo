@@ -1,0 +1,70 @@
+{
+  "id": "1327430",
+  "readings": [
+    {
+      "kanaExpression": "しゅき",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "手記",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "記",
+          "annotation": "き"
+        }
+      ],
+      "rank": 14218
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "note",
+        "memorandum",
+        "memo",
+        "memoirs",
+        "personal account"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "optekening",
+        "aantekening",
+        "notitie",
+        "memorandum",
+        "memo",
+        "{i.h.b.} memoires"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufzeichnung",
+        "Notiz",
+        "Memorandum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hangjegy",
+        "jegyzék",
+        "néhány sor",
+        "rövid levél"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заметка; запись",
+        "{～する} делать заметки; записывать"
+      ]
+    }
+  ]
+}

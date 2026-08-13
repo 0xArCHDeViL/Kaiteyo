@@ -1,0 +1,49 @@
+{
+  "id": "1643820",
+  "readings": [
+    {
+      "kanaExpression": "らいうん",
+      "rank": 33000
+    },
+    {
+      "kanaExpression": "かみなりぐも"
+    },
+    {
+      "kanaExpression": "いかずちぐも"
+    },
+    {
+      "kanjiExpression": "雷雲",
+      "furiganaExpression": [
+        {
+          "text": "雷",
+          "annotation": "らい"
+        },
+        {
+          "text": "雲",
+          "annotation": "うん"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thundercloud"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewitterwolke"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "грозовые тучи"
+      ]
+    }
+  ]
+}

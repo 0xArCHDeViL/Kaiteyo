@@ -1,0 +1,113 @@
+{
+  "id": "1418990",
+  "readings": [
+    {
+      "kanaExpression": "たんす",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "タンス"
+    },
+    {
+      "kanjiExpression": "箪笥",
+      "furiganaExpression": [
+        {
+          "text": "箪",
+          "annotation": "たん"
+        },
+        {
+          "text": "笥",
+          "annotation": "す"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "簞笥",
+      "furiganaExpression": [
+        {
+          "text": "簞",
+          "annotation": "たん"
+        },
+        {
+          "text": "笥",
+          "annotation": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chest of drawers",
+        "bureau",
+        "cabinet",
+        "tansu",
+        "dresser"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kast",
+        "kabinet",
+        "commode",
+        "ladekast",
+        "latafel",
+        "{i.h.b.} kleerkast",
+        "{i.h.b.} garderobe",
+        "{i.h.b.} bergkast",
+        "{i.h.b.} legkast",
+        "{i.h.b.} chiffonnière",
+        "{i.h.b.} buffet",
+        "{i.h.b.} dressoir"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "commode",
+        "cabinet",
+        "tansu",
+        "buffet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kommode",
+        "Schrank",
+        "Kleiderschrank"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hivatali helyiség",
+        "irodai helyiség",
+        "kormányhivatal",
+        "tükrös fiókos szekrény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "комод; шкаф; шифоньерка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "guardarropa"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "byrå",
+        "möbel"
+      ]
+    }
+  ]
+}

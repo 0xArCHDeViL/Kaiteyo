@@ -1,0 +1,46 @@
+{
+  "id": "1404250",
+  "readings": [
+    {
+      "kanaExpression": "そくだん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "即断",
+      "furiganaExpression": [
+        {
+          "text": "即",
+          "annotation": "そく"
+        },
+        {
+          "text": "断",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prompt decision",
+        "snap judgement",
+        "snap judgment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich sofort entscheiden",
+        "sofortige Entscheidung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) немедленное решение"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1628260",
+  "readings": [
+    {
+      "kanaExpression": "いただける",
+      "rank": 1175
+    },
+    {
+      "kanjiExpression": "頂ける",
+      "furiganaExpression": [
+        {
+          "text": "頂",
+          "annotation": "いただ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 3808
+    },
+    {
+      "kanjiExpression": "戴ける",
+      "furiganaExpression": [
+        {
+          "text": "戴",
+          "annotation": "いただ"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be able to receive",
+        "to be able to take",
+        "to be able to accept",
+        "to be able to eat",
+        "to be able to drink",
+        "to be acceptable",
+        "to be satisfactory"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een gunst ontvangen",
+        "de geschikte persoon zijn",
+        "als goed erkend worden",
+        "voortreffelijk zijn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erhalten können",
+        "essen können",
+        "trinken können",
+        "recht gut sein",
+        "gutzuheißen sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fogadtatásban részesít",
+        "kézhez vesz",
+        "vendégül lát"
+      ]
+    }
+  ]
+}

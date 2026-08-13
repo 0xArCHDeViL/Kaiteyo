@@ -1,0 +1,58 @@
+{
+  "id": "1445560",
+  "readings": [
+    {
+      "kanaExpression": "どべい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "土塀",
+      "furiganaExpression": [
+        {
+          "text": "土",
+          "annotation": "ど"
+        },
+        {
+          "text": "塀",
+          "annotation": "べい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mud wall",
+        "earthen wall",
+        "plaster wall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lemen muur",
+        "aarden wal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mur de terre, de boue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lehmmauer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глинобитный забор"
+      ]
+    }
+  ]
+}

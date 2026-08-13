@@ -1,0 +1,122 @@
+{
+  "id": "1187450",
+  "readings": [
+    {
+      "kanaExpression": "かりさしおさえ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "仮差押え",
+      "furiganaExpression": [
+        {
+          "text": "仮",
+          "annotation": "かり"
+        },
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "押",
+          "annotation": "おさ"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "仮差し押さえ",
+      "furiganaExpression": [
+        {
+          "text": "仮",
+          "annotation": "かり"
+        },
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "さえ"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "仮差し押え",
+      "furiganaExpression": [
+        {
+          "text": "仮",
+          "annotation": "かり"
+        },
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "押",
+          "annotation": "おさ"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "仮差押",
+      "furiganaExpression": [
+        {
+          "text": "仮",
+          "annotation": "かり"
+        },
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "押",
+          "annotation": "おさえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "provisional seizure",
+        "provisional attachment",
+        "provisional garnishment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} conservatoir beslag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "provisorische Beschlagnahme",
+        "Arrest"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "временное (условное) наложение ареста"
+      ]
+    }
+  ]
+}

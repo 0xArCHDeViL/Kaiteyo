@@ -1,0 +1,90 @@
+{
+  "id": "1402670",
+  "readings": [
+    {
+      "kanaExpression": "おくりこむ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "送り込む",
+      "furiganaExpression": [
+        {
+          "text": "送",
+          "annotation": "おく"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 11007
+    },
+    {
+      "kanjiExpression": "送りこむ",
+      "furiganaExpression": [
+        {
+          "text": "送",
+          "annotation": "おく"
+        },
+        {
+          "text": "りこむ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to send in"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sturen",
+        "zenden",
+        "afvaardigen",
+        "binnenlaten",
+        "inlaten",
+        "binnenloodsen",
+        "invoeren",
+        "stoppen in"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hinbringen",
+        "schicken",
+        "einschleusen",
+        "in etw. hineinbringen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beküld"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "провожать до самого дома"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enviar",
+        "mandar"
+      ]
+    }
+  ]
+}

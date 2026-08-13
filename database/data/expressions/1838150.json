@@ -1,0 +1,58 @@
+{
+  "id": "1838150",
+  "readings": [
+    {
+      "kanaExpression": "たてかんばん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "立て看板",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "看",
+          "annotation": "かん"
+        },
+        {
+          "text": "板",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "standing signboard",
+        "billboard",
+        "hoarding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stellplakat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hirdetőtábla"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стоячая вывеска"
+      ]
+    }
+  ]
+}

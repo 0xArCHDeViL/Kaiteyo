@@ -1,0 +1,61 @@
+{
+  "id": "1400220",
+  "readings": [
+    {
+      "kanaExpression": "そうけい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "早計",
+      "furiganaExpression": [
+        {
+          "text": "早",
+          "annotation": "そう"
+        },
+        {
+          "text": "計",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "overhasty",
+        "rash",
+        "premature"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "frühzeitig",
+        "vorzeitig",
+        "voreilig",
+        "übereilt",
+        "vorschnell",
+        "verfrüht",
+        "Frühzeitigkeit",
+        "Übereilung",
+        "Voreiligkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhamarkodott",
+        "kiütés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поспешность; непродуманное (преждевременное) решение",
+        "{～な} поспешный; непродуманный, необдуманный; преждевременный"
+      ]
+    }
+  ]
+}

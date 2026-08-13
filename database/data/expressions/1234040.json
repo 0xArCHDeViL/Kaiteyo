@@ -1,0 +1,88 @@
+{
+  "id": "1234040",
+  "readings": [
+    {
+      "kanaExpression": "きそう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "競う",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "きそ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 8560
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to compete",
+        "to contend",
+        "to vie",
+        "to contest"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wedijveren",
+        "in competitie treden",
+        "dingen",
+        "rivaliseren",
+        "strijden",
+        "concurreren",
+        "mededingen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "concourir",
+        "rivaliser"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wetteifern",
+        "rivalisieren",
+        "konkurrieren",
+        "jmdm. Konkurrenz machen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felülmúlni igyekszik",
+        "vetélkedik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "состязаться, соревноваться; соперничать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "tekmovati",
+        "kosati se"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "emular",
+        "competir con"
+      ]
+    }
+  ]
+}

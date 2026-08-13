@@ -1,0 +1,57 @@
+{
+  "id": "1452520",
+  "readings": [
+    {
+      "kanaExpression": "どうじだい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "同時代",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "時",
+          "annotation": "じ"
+        },
+        {
+          "text": "代",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the same age",
+        "same period"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dezelfde tijd",
+        "dezelfde periode",
+        "hetzelfde tijdvak"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gleiches Zeitalter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "та же эпоха, тот же период [времени]",
+        "{～的} синхронический"
+      ]
+    }
+  ]
+}

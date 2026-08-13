@@ -1,0 +1,50 @@
+{
+  "id": "1431530",
+  "readings": [
+    {
+      "kanaExpression": "ちょくほうたい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "直方体",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "ちょく"
+        },
+        {
+          "text": "方",
+          "annotation": "ほう"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "right-angled parallelepiped",
+        "cuboid",
+        "rectangular solid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rechthoekig parallellepipedum",
+        "{wisk.} blok"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Quader"
+      ]
+    }
+  ]
+}

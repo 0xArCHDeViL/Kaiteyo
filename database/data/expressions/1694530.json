@@ -1,0 +1,72 @@
+{
+  "id": "1694530",
+  "readings": [
+    {
+      "kanaExpression": "ごはさん",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "ごわさん"
+    },
+    {
+      "kanjiExpression": "ご破算",
+      "furiganaExpression": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "破",
+          "annotation": "は"
+        },
+        {
+          "text": "算",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "御破算",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "ご"
+        },
+        {
+          "text": "破",
+          "annotation": "は"
+        },
+        {
+          "text": "算",
+          "annotation": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "starting afresh",
+        "going back to square one",
+        "abandoning (e.g. a plan)",
+        "calling off",
+        "clearing an abacus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auf-Null-Stellen der Perlen eines Soroban (bzw. Abakus)",
+        "erneute Rechnung",
+        "neuer Anfang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～にする} считать заново, пересчитывать (на счётах); (обр.) начинать сначала (после неудачи)"
+      ]
+    }
+  ]
+}

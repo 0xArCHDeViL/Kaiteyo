@@ -1,0 +1,59 @@
+{
+  "id": "1403540",
+  "readings": [
+    {
+      "kanaExpression": "おくりぬし",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "贈り主",
+      "furiganaExpression": [
+        {
+          "text": "贈",
+          "annotation": "おく"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "贈主",
+      "furiganaExpression": [
+        {
+          "text": "贈",
+          "annotation": "おくり"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sender (of a present)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "auteur (d\u0027un cadeau)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feladó"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "1201320",
+  "readings": [
+    {
+      "kanaExpression": "かいきょう",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "海峡",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "峡",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 12684
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "channel (e.g. between two land masses)",
+        "strait"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "straat",
+        "zeestraat",
+        "zee-engte",
+        "kanaal",
+        "nauw",
+        "nauwte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "canal",
+        "détroit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meerenge",
+        "Meeresstraße",
+        "Straße",
+        "Kanal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tv csatorna"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пролив"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kanal"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estrecho",
+        "canal"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ränna"
+      ]
+    }
+  ]
+}

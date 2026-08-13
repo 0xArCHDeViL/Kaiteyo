@@ -1,0 +1,78 @@
+{
+  "id": "1255170",
+  "readings": [
+    {
+      "kanaExpression": "けつえん",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "けちえん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "血縁",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "けつ"
+        },
+        {
+          "text": "縁",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blood relationship",
+        "consanguinity",
+        "blood relative"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bloedverwantschap",
+        "bloedsbetrekking",
+        "bloedband",
+        "band van het bloed",
+        "familiebetrekking",
+        "consanguïniteit",
+        "parentage",
+        "maagschap",
+        "bloedverwant",
+        "familielid",
+        "{veroud.} maag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lien de sang"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blutsverwandtschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кровная связь, родство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "parentesco",
+        "consanguinidad"
+      ]
+    }
+  ]
+}

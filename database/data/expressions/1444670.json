@@ -1,0 +1,70 @@
+{
+  "id": "1444670",
+  "readings": [
+    {
+      "kanaExpression": "わたりろうか",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "渡り廊下",
+      "furiganaExpression": [
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "廊",
+          "annotation": "ろう"
+        },
+        {
+          "text": "下",
+          "annotation": "か"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "roofed corridor connecting two buildings",
+        "connecting passageway",
+        "skyway",
+        "skybridge",
+        "skywalk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verbindungsgang",
+        "Verbindungskorridor",
+        "Verbindungsbrücke"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áthaladás",
+        "átjáró",
+        "menetjegy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крытая галерея, соединяющая два здания"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "passus"
+      ]
+    }
+  ]
+}

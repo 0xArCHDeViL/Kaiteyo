@@ -1,0 +1,63 @@
+{
+  "id": "1485850",
+  "readings": [
+    {
+      "kanaExpression": "びよく",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "尾翼",
+      "furiganaExpression": [
+        {
+          "text": "尾",
+          "annotation": "び"
+        },
+        {
+          "text": "翼",
+          "annotation": "よく"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tail (of an aircraft)",
+        "empennage",
+        "tail assembly"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{飛行機の} staartstuk",
+        "staartvlakken",
+        "staart"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwanzflosse",
+        "Heckleitwerk",
+        "Höhen- und Seitenruder"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fenék",
+        "hátsórész",
+        "utóörökösödési korlátozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ав.) хвостовое оперение"
+      ]
+    }
+  ]
+}

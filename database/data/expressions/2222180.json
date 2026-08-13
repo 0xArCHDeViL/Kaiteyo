@@ -1,0 +1,107 @@
+{
+  "id": "2222180",
+  "readings": [
+    {
+      "kanaExpression": "おひさしぶり",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お久しぶり",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "久",
+          "annotation": "ひさ"
+        },
+        {
+          "text": "しぶり"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お久し振り",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "久",
+          "annotation": "ひさ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "振",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御久しぶり",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "久",
+          "annotation": "ひさ"
+        },
+        {
+          "text": "しぶり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御久し振り",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "久",
+          "annotation": "ひさ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "振",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "it\u0027s been a long time",
+        "long time no see"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lange Zeit nicht gesehen!"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ひさしぶり"
+      ]
+    }
+  ]
+}

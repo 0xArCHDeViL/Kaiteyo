@@ -1,0 +1,80 @@
+{
+  "id": "1707710",
+  "readings": [
+    {
+      "kanaExpression": "とりはからい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "取り計らい",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "計",
+          "annotation": "はか"
+        },
+        {
+          "text": "らい"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "取計らい",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "計",
+          "annotation": "はか"
+        },
+        {
+          "text": "らい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "arrangement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vermittlung",
+        "Arrangieren",
+        "Arrangement",
+        "Management",
+        "Behandlung",
+        "Verfahren",
+        "Führung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyezség",
+        "elsimítás",
+        "rendberakás",
+        "tagoltság"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "anordning"
+      ]
+    }
+  ]
+}

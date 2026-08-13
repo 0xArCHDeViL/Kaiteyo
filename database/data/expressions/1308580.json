@@ -1,0 +1,56 @@
+{
+  "id": "1308580",
+  "readings": [
+    {
+      "kanaExpression": "しちょう",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "市庁",
+      "furiganaExpression": [
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "庁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "municipal office"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stadskantoor",
+        "stadhuis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rathaus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "муниципалитет, городское управление, мэрия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ayuntamiento"
+      ]
+    }
+  ]
+}

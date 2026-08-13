@@ -1,0 +1,56 @@
+{
+  "id": "1319910",
+  "readings": [
+    {
+      "kanaExpression": "しっきん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "失禁",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しっ"
+        },
+        {
+          "text": "禁",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "incontinence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Inkontinenz (Unvermögen, Harn od. Stuhl zurückzuhalten)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) недержание"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enuresis",
+        "incontinencia urinaria"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "inkontinens"
+      ]
+    }
+  ]
+}

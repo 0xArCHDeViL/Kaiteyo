@@ -1,0 +1,70 @@
+{
+  "id": "1638080",
+  "readings": [
+    {
+      "kanaExpression": "にないて",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "担い手",
+      "furiganaExpression": [
+        {
+          "text": "担",
+          "annotation": "にな"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ],
+      "rank": 10783
+    },
+    {
+      "kanjiExpression": "にない手",
+      "furiganaExpression": [
+        {
+          "text": "にない"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bearer",
+        "carrier",
+        "person bearing responsibility",
+        "person in charge",
+        "supporter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Träger",
+        "tragende Kraft",
+        "Stütze"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hordozó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "носитель, исполнитель (напр. функций)"
+      ]
+    }
+  ]
+}

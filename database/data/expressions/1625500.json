@@ -1,0 +1,58 @@
+{
+  "id": "1625500",
+  "readings": [
+    {
+      "kanaExpression": "はへい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "派兵",
+      "furiganaExpression": [
+        {
+          "text": "派",
+          "annotation": "は"
+        },
+        {
+          "text": "兵",
+          "annotation": "へい"
+        }
+      ],
+      "rank": 12882
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dispatch of troops"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} troepenzending",
+        "het zenden",
+        "sturen van troepen",
+        "{mil.} troepen zenden",
+        "sturen",
+        "uitzenden",
+        "uitsturen",
+        "afzenden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Truppenentsendung",
+        "Truppen entsenden",
+        "Truppen verschicken"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) посылка (отправка) войск"
+      ]
+    }
+  ]
+}

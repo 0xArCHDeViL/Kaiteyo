@@ -1,0 +1,74 @@
+{
+  "id": "1237110",
+  "readings": [
+    {
+      "kanaExpression": "きょうざい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "教材",
+      "furiganaExpression": [
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "材",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 3725
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "teaching materials"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lesmateriaal",
+        "didactisch materiaal",
+        "oefenmateriaal bij lessen",
+        "lesstof"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "matériel pédagogique",
+        "matériel scolaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterrichtsmaterial",
+        "Lehrmittel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "учебный материал"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "učno gradivo",
+        "učni pripomočki",
+        "učne potrebščine"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "material didáctico"
+      ]
+    }
+  ]
+}

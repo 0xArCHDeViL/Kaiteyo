@@ -1,0 +1,114 @@
+{
+  "id": "1602340",
+  "readings": [
+    {
+      "kanaExpression": "ひるごはん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "昼ご飯",
+      "furiganaExpression": [
+        {
+          "text": "昼",
+          "annotation": "ひる"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "飯",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "昼ごはん",
+      "furiganaExpression": [
+        {
+          "text": "昼",
+          "annotation": "ひる"
+        },
+        {
+          "text": "ごはん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "昼御飯",
+      "furiganaExpression": [
+        {
+          "text": "昼",
+          "annotation": "ひる"
+        },
+        {
+          "text": "御",
+          "annotation": "ご"
+        },
+        {
+          "text": "飯",
+          "annotation": "はん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lunch",
+        "midday meal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "middagmaal",
+        "lunch",
+        "middageten",
+        "middagmaaltijd",
+        "middagkost",
+        "middagpot",
+        "middagspijs",
+        "twaalfuurtje",
+        "middagboterham",
+        "{niet alg.",
+        "form.",
+        "arch.} noenmaal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déjeuner",
+        "repas de midi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mittagessen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ebéd",
+        "löncs"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kosilo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "almuerzo"
+      ]
+    }
+  ]
+}

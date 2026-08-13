@@ -1,0 +1,64 @@
+{
+  "id": "1353080",
+  "readings": [
+    {
+      "kanaExpression": "じょうげん",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "上限",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "じょう"
+        },
+        {
+          "text": "限",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 6476
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "upper limit",
+        "supremum"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bovengrens",
+        "plafond"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Maximum",
+        "obere Grenze",
+        "Beginn eines Zeitalters",
+        "Supremum",
+        "kleinste obere Schranke einer Menge reeller Zahlen",
+        "obere Integrationsgrenze"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csúcsérték",
+        "maximum",
+        "felső határérték"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мат.) максимум"
+      ]
+    }
+  ]
+}

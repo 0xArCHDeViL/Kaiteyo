@@ -1,0 +1,73 @@
+{
+  "id": "1163260",
+  "readings": [
+    {
+      "kanaExpression": "いっしゅう",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "一週",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "１週",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いっ"
+        },
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one week"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "week",
+        "per week"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Woche",
+        "Zeit von Sonntag bis Samstag bzw. von Montag bis Sonntag",
+        "eine Woche (lang)",
+        "Zeit von sieben Tagen ab einem bestimmten Tag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[одна] неделя",
+        "{～の} недельный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "una semana"
+      ]
+    }
+  ]
+}

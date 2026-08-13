@@ -1,0 +1,76 @@
+{
+  "id": "1441210",
+  "readings": [
+    {
+      "kanaExpression": "てんしょく",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "転職",
+      "furiganaExpression": [
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "職",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 3477
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "change of job",
+        "change of occupation",
+        "career change"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het van baan",
+        "betrekking veranderen",
+        "het elders tewerkgesteld worden",
+        "van baan",
+        "ander werk gaan doen",
+        "elders tewerkgesteld worden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Berufswechsel",
+        "Arbeitsplatzwechsel",
+        "seinen Beruf wechseln"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) изменение рода занятий",
+        "{～する} изменить свой род занятий (свою профессию)",
+        "2) перемещение по службе",
+        "{～する} быть переведённым на другую должность"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zamenjava službe",
+        "dela",
+        "zamenjati službo",
+        "delo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cambio de trabajo"
+      ]
+    }
+  ]
+}

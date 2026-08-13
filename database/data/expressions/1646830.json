@@ -1,0 +1,72 @@
+{
+  "id": "1646830",
+  "readings": [
+    {
+      "kanaExpression": "しんけいつう",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "神経痛",
+      "furiganaExpression": [
+        {
+          "text": "神",
+          "annotation": "しん"
+        },
+        {
+          "text": "経",
+          "annotation": "けい"
+        },
+        {
+          "text": "痛",
+          "annotation": "つう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nerve pain",
+        "neuralgia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} neuralgie",
+        "zenuwpijn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nervenschmerzen",
+        "Neuralgie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "idegfájás",
+        "idegfájdalom",
+        "idegzsába",
+        "neuralgia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "невралгия",
+        "{～の} невралгический"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "neuralgia"
+      ]
+    }
+  ]
+}

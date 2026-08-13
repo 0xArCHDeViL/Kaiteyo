@@ -1,0 +1,60 @@
+{
+  "id": "1390100",
+  "readings": [
+    {
+      "kanaExpression": "かわばた",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "川端",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "端",
+          "annotation": "ばた"
+        }
+      ],
+      "rank": 13902
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "riverside",
+        "riverbank"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rivieroever",
+        "waterkant",
+        "rivierkant",
+        "Kawabata"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flussufer",
+        "Kawabata"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "folyópart"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "берег реки"
+      ]
+    }
+  ]
+}

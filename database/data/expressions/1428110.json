@@ -1,0 +1,98 @@
+{
+  "id": "1428110",
+  "readings": [
+    {
+      "kanaExpression": "ちょうしゅう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "徴収",
+      "furiganaExpression": [
+        {
+          "text": "徴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 5987
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "collection (of fees, taxes, etc.)",
+        "levy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "innen",
+        "incasseren",
+        "invorderen",
+        "{税を} heffen",
+        "ophalen",
+        "inning",
+        "invordering",
+        "incasso",
+        "{税の} heffing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "perception",
+        "recouvrement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kassieren",
+        "einkassieren",
+        "(Steuern) erheben",
+        "eintreiben",
+        "einziehen",
+        "Einnehmen",
+        "Einsammeln",
+        "Erhebung",
+        "Requisition"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adószedés",
+        "befizetett adó",
+        "behajtott adó",
+        "besorozott katonák",
+        "sorozás",
+        "zálogolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сбор; взимание",
+        "{～する} собирать; взимать (налоги)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zbiranje {denarja}",
+        "izterjava {davkov}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "impuesto"
+      ]
+    }
+  ]
+}

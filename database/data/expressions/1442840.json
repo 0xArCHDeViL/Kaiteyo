@@ -1,0 +1,128 @@
+{
+  "id": "1442840",
+  "readings": [
+    {
+      "kanaExpression": "たんぼ",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "でんぽ"
+    },
+    {
+      "kanaExpression": "でんぼ"
+    },
+    {
+      "kanjiExpression": "田んぼ",
+      "furiganaExpression": [
+        {
+          "text": "田",
+          "annotation": "た"
+        },
+        {
+          "text": "んぼ"
+        }
+      ],
+      "rank": 9744
+    },
+    {
+      "kanjiExpression": "田圃",
+      "furiganaExpression": [
+        {
+          "text": "田",
+          "annotation": "たん"
+        },
+        {
+          "text": "圃",
+          "annotation": "ぼ"
+        }
+      ],
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "田ぼ",
+      "furiganaExpression": [
+        {
+          "text": "田",
+          "annotation": "たん"
+        },
+        {
+          "text": "ぼ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "田畝",
+      "furiganaExpression": [
+        {
+          "text": "田",
+          "annotation": "でん"
+        },
+        {
+          "text": "畝",
+          "annotation": "ぽ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paddy field",
+        "farm"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijstveld",
+        "rijstakker",
+        "rijstland",
+        "{Mal.} padie(veld)",
+        "{Mal.} sawa"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rizière",
+        "ferme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reisfeld"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "farm",
+        "gazdaság",
+        "major",
+        "tanya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рисовое поле"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "riževo polje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arrozal",
+        "campo de arroz",
+        "granja"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "1589950",
+  "readings": [
+    {
+      "kanaExpression": "かきぞめ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "書き初め",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "初",
+          "annotation": "ぞ"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "書初め",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "かき"
+        },
+        {
+          "text": "初",
+          "annotation": "ぞ"
+        },
+        {
+          "text": "め"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "書初",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "かき"
+        },
+        {
+          "text": "初",
+          "annotation": "ぞめ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first calligraphy of the year"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerst kalligrafie van het nieuwe jaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "premier écrit de l\u0027année",
+        "résolution de nouvelle année"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erste Kalligraphie zu Neujahr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ист.) написание первого в году стихотворения (на второй день нового года)",
+        "{～する} написать первое в году стихотворение; (перен.) писать впервые в новом году"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "novoletno pisanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "kakizome",
+        "trazo de la primera caligrafía del año"
+      ]
+    }
+  ]
+}

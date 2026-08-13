@@ -1,0 +1,98 @@
+{
+  "id": "1217840",
+  "readings": [
+    {
+      "kanaExpression": "かおぶれ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "顔ぶれ",
+      "furiganaExpression": [
+        {
+          "text": "顔",
+          "annotation": "かお"
+        },
+        {
+          "text": "ぶれ"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "顔触れ",
+      "furiganaExpression": [
+        {
+          "text": "顔",
+          "annotation": "かお"
+        },
+        {
+          "text": "触",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "personnel",
+        "members",
+        "lineup (of a team)",
+        "roster",
+        "cast (of a play)",
+        "announcement of next day\u0027s match-ups"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "équipe",
+        "membre",
+        "personnel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "personelle Besetzung",
+        "Aufstellung",
+        "Rollenbesetzung",
+        "Rollenverteilung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alkalmazottak",
+        "személyzet",
+        "végtag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[личный] состав; участники (спектакля и т. п.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "člani",
+        "sestav {skupine, organizacije}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "caras",
+        "elenco",
+        "nómina"
+      ]
+    }
+  ]
+}

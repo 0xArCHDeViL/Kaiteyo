@@ -1,0 +1,65 @@
+{
+  "id": "1658740",
+  "readings": [
+    {
+      "kanaExpression": "じっせん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "実戦",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じっ"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 12083
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "combat",
+        "battle",
+        "action",
+        "active service",
+        "actual fighting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gevechtsactie",
+        "werkelijke oorlog",
+        "echte strijd",
+        "conflict waarin geschoten wordt",
+        "{sportt.} echte wedstrijd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kampfhandlung",
+        "Schlacht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "harc",
+        "küzdelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "настоящее сражение (в отличие от манёвров); боевые военные действия (в отличие от учебных)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1579560",
+  "readings": [
+    {
+      "kanaExpression": "しつう",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "はいた",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "歯痛",
+      "furiganaExpression": [
+        {
+          "text": "歯",
+          "annotation": "し"
+        },
+        {
+          "text": "痛",
+          "annotation": "つう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "toothache"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zahnschmerzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fogfájás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зубная боль",
+        "{～がする} страдать от зубной боли"
+      ]
+    }
+  ]
+}

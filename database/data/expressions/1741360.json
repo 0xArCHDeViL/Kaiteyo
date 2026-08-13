@@ -1,0 +1,60 @@
+{
+  "id": "1741360",
+  "readings": [
+    {
+      "kanaExpression": "さいこう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "採鉱",
+      "furiganaExpression": [
+        {
+          "text": "採",
+          "annotation": "さい"
+        },
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mining"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bergbau",
+        "Abbau",
+        "Gewinnung",
+        "abbauen",
+        "gewinnen (z.B. Kohle)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горное дело, разработка недр"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grabado",
+        "trascripción"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "minering"
+      ]
+    }
+  ]
+}

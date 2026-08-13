@@ -1,0 +1,51 @@
+{
+  "id": "1250550",
+  "readings": [
+    {
+      "kanaExpression": "けいちょう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "慶弔",
+      "furiganaExpression": [
+        {
+          "text": "慶",
+          "annotation": "けい"
+        },
+        {
+          "text": "弔",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "congratulations and condolences"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "félicitations et condoléances"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "freudige und traurige Ereignisse",
+        "Glückwunsch und Kondolenz",
+        "Glückwunsch und Beileidsbezeugung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) поздравления и выражения соболезнования"
+      ]
+    }
+  ]
+}

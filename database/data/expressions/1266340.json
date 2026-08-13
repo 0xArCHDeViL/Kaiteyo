@@ -1,0 +1,77 @@
+{
+  "id": "1266340",
+  "readings": [
+    {
+      "kanaExpression": "よびすて",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "呼び捨て",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "捨",
+          "annotation": "す"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "呼捨て",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よび"
+        },
+        {
+          "text": "捨",
+          "annotation": "す"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "addressing (someone) without using a suffix such as \"-san\" or \"-chan\" (considered impolite)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "weglating van aanspreektitels"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "s\u0027adresser à quelqu\u0027un par son nom de famille sans ajouter de titres comme \"san, sama...\""
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unhöfliche Anrede ohne san, kun bzw. Herr, Frau etc."
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "{～にする} называть попросту (без вежл. суффиксов)"
+      ]
+    }
+  ]
+}

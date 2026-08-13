@@ -1,0 +1,70 @@
+{
+  "id": "1253890",
+  "readings": [
+    {
+      "kanaExpression": "かかす",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "欠かす",
+      "furiganaExpression": [
+        {
+          "text": "欠",
+          "annotation": "か"
+        },
+        {
+          "text": "かす"
+        }
+      ],
+      "rank": 11936
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to miss (doing)",
+        "to fail (to do)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fehlen",
+        "nicht anwesend sein",
+        "verpassen",
+        "versäumen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "balul üt ki",
+        "elmulaszt",
+        "elszalaszt",
+        "nélkülöz",
+        "rosszul sikerül",
+        "cserbenhagy",
+        "elmarad",
+        "hiányzik",
+        "kudarcba fullad",
+        "mulasztást követ el",
+        "nem sikerül"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пропускать (занятия, собрания и т. п.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "prescindir",
+        "dejar",
+        "abandonar"
+      ]
+    }
+  ]
+}

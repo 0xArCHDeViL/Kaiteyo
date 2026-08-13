@@ -1,0 +1,57 @@
+{
+  "id": "1543560",
+  "readings": [
+    {
+      "kanaExpression": "よびひ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "予備費",
+      "furiganaExpression": [
+        {
+          "text": "予",
+          "annotation": "よ"
+        },
+        {
+          "text": "備",
+          "annotation": "び"
+        },
+        {
+          "text": "費",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reserve funds",
+        "emergency funds"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fonds d\u0027urgence",
+        "fonds de réserve"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geldreserve",
+        "Reservefonds",
+        "Rücklagen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "резервные (запасные) фонды"
+      ]
+    }
+  ]
+}

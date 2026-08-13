@@ -1,0 +1,81 @@
+{
+  "id": "1371980",
+  "readings": [
+    {
+      "kanaExpression": "みずがめ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "水瓶",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "瓶",
+          "annotation": "がめ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "水がめ",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "がめ"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "水甕",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "甕",
+          "annotation": "がめ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water jug"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "broc",
+        "cruche d\u0027eau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserkrug"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vizeskancsó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кувшин [для воды]"
+      ]
+    }
+  ]
+}

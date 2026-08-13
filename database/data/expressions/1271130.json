@@ -1,0 +1,49 @@
+{
+  "id": "1271130",
+  "readings": [
+    {
+      "kanaExpression": "ごすう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "語数",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "number of words"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zahl der Worte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "число (количество) слов"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "número de palabras"
+      ]
+    }
+  ]
+}

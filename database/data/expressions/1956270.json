@@ -1,0 +1,73 @@
+{
+  "id": "1956270",
+  "readings": [
+    {
+      "kanaExpression": "ごう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "壕",
+      "furiganaExpression": [
+        {
+          "text": "壕",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "濠",
+      "furiganaExpression": [
+        {
+          "text": "濠",
+          "annotation": "ごう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "moat",
+        "fosse",
+        "trench",
+        "ditch",
+        "underground air-raid shelter",
+        "dugout"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "droge gracht",
+        "{mil.} loopgraaf",
+        "schuilhol",
+        "(a) gracht",
+        "sloot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Graben",
+        "Unterstand",
+        "Luftschutzraum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "futóárok",
+        "lecsapoló árok",
+        "nyiladék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ров, окоп, траншея"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1154080",
+  "readings": [
+    {
+      "kanaExpression": "やすね",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "安値",
+      "furiganaExpression": [
+        {
+          "text": "安",
+          "annotation": "やす"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ],
+      "rank": 9879
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "low price"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lage prijs",
+        "lage koers",
+        "laagte van de prijs",
+        "koers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "niedriger Preis",
+        "billiger Preis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дешёвая цена"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precio bajo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lågpris"
+      ]
+    }
+  ]
+}

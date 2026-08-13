@@ -1,0 +1,56 @@
+{
+  "id": "1347380",
+  "readings": [
+    {
+      "kanaExpression": "しょうむ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "商務",
+      "furiganaExpression": [
+        {
+          "text": "商",
+          "annotation": "しょう"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commercial affairs"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "handelszaken",
+        "commerciële zaken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geschäftliche Angelegenheiten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "коммерческие (торговые) дела"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "asuntos comerciales"
+      ]
+    }
+  ]
+}

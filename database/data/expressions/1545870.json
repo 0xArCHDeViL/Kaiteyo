@@ -1,0 +1,49 @@
+{
+  "id": "1545870",
+  "readings": [
+    {
+      "kanaExpression": "ようがし",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "洋菓子",
+      "furiganaExpression": [
+        {
+          "text": "洋",
+          "annotation": "よう"
+        },
+        {
+          "text": "菓",
+          "annotation": "が"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Western confectionery"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kuchen",
+        "Gebäck",
+        "westliche Süßigkeiten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "европейские сласти"
+      ]
+    }
+  ]
+}

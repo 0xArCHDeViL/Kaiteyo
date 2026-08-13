@@ -1,0 +1,55 @@
+{
+  "id": "1204060",
+  "readings": [
+    {
+      "kanaExpression": "そとづけ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "外付け",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "そと"
+        },
+        {
+          "text": "付",
+          "annotation": "づ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "外付",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "そと"
+        },
+        {
+          "text": "付",
+          "annotation": "づけ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "external (hard drive, disk drive, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "extern",
+        "externe Peripherie"
+      ]
+    }
+  ]
+}

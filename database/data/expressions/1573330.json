@@ -1,0 +1,97 @@
+{
+  "id": "1573330",
+  "readings": [
+    {
+      "kanaExpression": "うずくまる",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "つくばる"
+    },
+    {
+      "kanjiExpression": "蹲る",
+      "furiganaExpression": [
+        {
+          "text": "蹲",
+          "annotation": "うずくま"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "踞る",
+      "furiganaExpression": [
+        {
+          "text": "踞",
+          "annotation": "うずくま"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to crouch",
+        "to squat",
+        "to cower"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hurken",
+        "neerhurken",
+        "op zijn hurken gaan zitten",
+        "zich in hurkzit zetten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "se recroqueviller",
+        "se tapir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hocken",
+        "kauern",
+        "sich ducken",
+        "sich krümmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "guggol",
+        "leguggol",
+        "lekuporodik",
+        "meglapul"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "садиться на корточки",
+        "сесть на корточки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "agacharse",
+        "ponerse en cuclillas",
+        "acurrucarse",
+        "acuclillarse"
+      ]
+    }
+  ]
+}

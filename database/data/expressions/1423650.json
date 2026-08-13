@@ -1,0 +1,81 @@
+{
+  "id": "1423650",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうがっこう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "中学校",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "学",
+          "annotation": "がっ"
+        },
+        {
+          "text": "校",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 3901
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "junior high school",
+        "middle school",
+        "lower secondary school"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "school voor lager middelbaar onderwijs",
+        "middenschool"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "école secondaire",
+        "collège"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mittelschule"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "középiskola"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "средняя школа"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nižja srednja šola"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "escuela secundaria"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "1612760",
+  "readings": [
+    {
+      "kanaExpression": "おいしゃさん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お医者さん",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "御医者さん",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "doctor"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "docteur",
+        "médecin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herr Doktor"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "doktor"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zdravnik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "doctor",
+        "médico"
+      ]
+    }
+  ]
+}

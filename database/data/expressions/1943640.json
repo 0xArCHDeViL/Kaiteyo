@@ -1,0 +1,44 @@
+{
+  "id": "1943640",
+  "readings": [
+    {
+      "kanaExpression": "とうろくしゃ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "登録者",
+      "furiganaExpression": [
+        {
+          "text": "登",
+          "annotation": "とう"
+        },
+        {
+          "text": "録",
+          "annotation": "ろく"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "registrant",
+        "subscriber",
+        "enrollee"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Registrant",
+        "registrierte Person"
+      ]
+    }
+  ]
+}

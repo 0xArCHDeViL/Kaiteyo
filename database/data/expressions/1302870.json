@@ -1,0 +1,48 @@
+{
+  "id": "1302870",
+  "readings": [
+    {
+      "kanaExpression": "やまざくら",
+      "rank": 36000
+    },
+    {
+      "kanaExpression": "ヤマザクラ"
+    },
+    {
+      "kanjiExpression": "山桜",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "桜",
+          "annotation": "ざくら"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mountain cherry (Cerasus jamasakura)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wildkirsche",
+        "Prunus jamasakura"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) японская цветущая вишня, Prunus donarium (Sieb.) var. spontanea (Makino)",
+        "2) сахалинская цветущая вишня, Prunus donarium (Sieb.) var. sachalinensis (Makino.)"
+      ]
+    }
+  ]
+}

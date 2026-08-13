@@ -1,0 +1,75 @@
+{
+  "id": "1269990",
+  "readings": [
+    {
+      "kanaExpression": "こうにん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "後任",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "こう"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 14079
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "successor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opvolging",
+        "opvolger"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "remplaçant",
+        "successeur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachfolger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "örökös"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "преемник, заместитель (по должности)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sucesor"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "efterträdare"
+      ]
+    }
+  ]
+}

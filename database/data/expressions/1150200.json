@@ -1,0 +1,59 @@
+{
+  "id": "1150200",
+  "readings": [
+    {
+      "kanaExpression": "あいかん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "哀歓",
+      "furiganaExpression": [
+        {
+          "text": "哀",
+          "annotation": "あい"
+        },
+        {
+          "text": "歓",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "joys and sorrows",
+        "happiness and sadness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lief en leed",
+        "vreugde en verdriet",
+        "{fig.} zoet en zuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freud und Leid",
+        "Trauer und Freude"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горе и радость"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tristeza y alregría"
+      ]
+    }
+  ]
+}

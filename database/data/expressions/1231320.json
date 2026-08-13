@@ -1,0 +1,59 @@
+{
+  "id": "1231320",
+  "readings": [
+    {
+      "kanaExpression": "きゅうめい",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "旧名",
+      "furiganaExpression": [
+        {
+          "text": "旧",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "名",
+          "annotation": "めい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "former name",
+        "maiden name"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oude naam",
+        "vroegere naam",
+        "voormalige naam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "früherer Name",
+        "Mädchenname"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "leánykori név"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "старое имя (обозначение, наименование, название); девичья фамилия"
+      ]
+    }
+  ]
+}

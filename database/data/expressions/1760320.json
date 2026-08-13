@@ -1,0 +1,48 @@
+{
+  "id": "1760320",
+  "readings": [
+    {
+      "kanaExpression": "こうさん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "恒産",
+      "furiganaExpression": [
+        {
+          "text": "恒",
+          "annotation": "こう"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fixed property",
+        "real property",
+        "fixed occupation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "festes Vermögen",
+        "reichliche Mittel",
+        "festes Einkommen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) солидное состояние; материальная обеспеченность",
+        "2) постоянное занятие"
+      ]
+    }
+  ]
+}

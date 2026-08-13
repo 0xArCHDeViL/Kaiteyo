@@ -1,0 +1,105 @@
+{
+  "id": "1329600",
+  "readings": [
+    {
+      "kanaExpression": "うけつぐ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "受け継ぐ",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "継",
+          "annotation": "つ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ],
+      "rank": 6960
+    },
+    {
+      "kanjiExpression": "受けつぐ",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "う"
+        },
+        {
+          "text": "けつぐ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to inherit",
+        "to succeed",
+        "to take over"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overnemen",
+        "erven",
+        "overerven",
+        "vererven",
+        "{form.} beërven",
+        "meekrijgen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "hériter",
+        "prendre la relève",
+        "succéder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nachfolgen",
+        "übernehmen",
+        "erben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "örökébe lép",
+        "sikert ér el",
+        "átvesz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "принимать [в качестве преемника]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prevzeti (delo od drugih), nadaljevati, naslediti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "heredar",
+        "suceder"
+      ]
+    }
+  ]
+}

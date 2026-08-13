@@ -1,0 +1,109 @@
+{
+  "id": "1399920",
+  "readings": [
+    {
+      "kanaExpression": "かきごおり",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "カキごおり"
+    },
+    {
+      "kanjiExpression": "かき氷",
+      "furiganaExpression": [
+        {
+          "text": "かき"
+        },
+        {
+          "text": "氷",
+          "annotation": "ごおり"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "カキ氷",
+      "furiganaExpression": [
+        {
+          "text": "カキ"
+        },
+        {
+          "text": "氷",
+          "annotation": "ごおり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "掻き氷",
+      "furiganaExpression": [
+        {
+          "text": "掻",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "氷",
+          "annotation": "ごおり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "欠き氷",
+      "furiganaExpression": [
+        {
+          "text": "欠",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "氷",
+          "annotation": "ごおり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "欠氷",
+      "furiganaExpression": [
+        {
+          "text": "欠",
+          "annotation": "かき"
+        },
+        {
+          "text": "氷",
+          "annotation": "ごおり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shaved ice (usually served with flavored simple syrup)",
+        "Italian ice",
+        "snow cone",
+        "sno-cone"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geschaafd ijs",
+        "{cul.} portie geschaafd ijs met vruchtenstroop",
+        "stroop",
+        "coulis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Splittereis",
+        "mit Sirup übergossenes, geraspeltes Eis"
+      ]
+    }
+  ]
+}

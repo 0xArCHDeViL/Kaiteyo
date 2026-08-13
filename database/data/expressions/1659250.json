@@ -1,0 +1,45 @@
+{
+  "id": "1659250",
+  "readings": [
+    {
+      "kanaExpression": "しゅうさん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "集散",
+      "furiganaExpression": [
+        {
+          "text": "集",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "散",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "collection (gathering) and distribution"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sammeln und Verteilen",
+        "sammeln und verteilen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "концентрация и распределение; сосредоточение и рассредоточение",
+        "{～する} концентрировать и распределять; сосредоточивать и рассредоточивать"
+      ]
+    }
+  ]
+}

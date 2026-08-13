@@ -1,0 +1,66 @@
+{
+  "id": "1596360",
+  "readings": [
+    {
+      "kanaExpression": "そうこく",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "相克",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "そう"
+        },
+        {
+          "text": "克",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "相剋",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "そう"
+        },
+        {
+          "text": "剋",
+          "annotation": "こく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rivalry"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in Konflikt geraten",
+        "im Widerspruch stehen",
+        "Konflikt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "versengés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) круговорот основных элементов природы путём преодоления одного другим ((по воззрениям древней кит. философии: металл преодолевает дерево, дерево землю, земля воду, вода огонь, огонь металл; ант.) そうしょう【相生】)",
+        "2) (кн.) обоюдная борьба, соперничество",
+        "{～する} бороться друг с другом (за что-л.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1205700",
+  "readings": [
+    {
+      "kanaExpression": "かくへいき",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "核兵器",
+      "furiganaExpression": [
+        {
+          "text": "核",
+          "annotation": "かく"
+        },
+        {
+          "text": "兵",
+          "annotation": "へい"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 6710
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nuclear weapon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kernwapen",
+        "atoomwapen",
+        "atomische wapens"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arme atomique",
+        "armes nucléaires"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kernwaffe",
+        "Atomwaffe",
+        "Nuklearwaffe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ядерное оружие"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jedrsko orožje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "armas nucleares"
+      ]
+    }
+  ]
+}

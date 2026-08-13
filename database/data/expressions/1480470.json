@@ -1,0 +1,67 @@
+{
+  "id": "1480470",
+  "readings": [
+    {
+      "kanaExpression": "はんしゃてき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "反射的",
+      "furiganaExpression": [
+        {
+          "text": "反",
+          "annotation": "はん"
+        },
+        {
+          "text": "射",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reflexive",
+        "reflecting"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "réfléchissant",
+        "reflétant",
+        "pensif",
+        "réfléchi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "reflexartig",
+        "unwillkürlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmélkedő",
+        "gondolkodó",
+        "meggondolt",
+        "visszaverő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отражённый"
+      ]
+    }
+  ]
+}

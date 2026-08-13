@@ -1,0 +1,44 @@
+{
+  "id": "1775830",
+  "readings": [
+    {
+      "kanaExpression": "ろてんしょう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "露天商",
+      "furiganaExpression": [
+        {
+          "text": "露",
+          "annotation": "ろ"
+        },
+        {
+          "text": "天",
+          "annotation": "てん"
+        },
+        {
+          "text": "商",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "street vendor",
+        "stallholder",
+        "stallkeeper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fliegender Händler",
+        "Straßenhändler"
+      ]
+    }
+  ]
+}

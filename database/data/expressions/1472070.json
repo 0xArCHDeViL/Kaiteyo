@@ -1,0 +1,69 @@
+{
+  "id": "1472070",
+  "readings": [
+    {
+      "kanaExpression": "はいこう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "廃坑",
+      "furiganaExpression": [
+        {
+          "text": "廃",
+          "annotation": "はい"
+        },
+        {
+          "text": "坑",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "廃鉱",
+      "furiganaExpression": [
+        {
+          "text": "廃",
+          "annotation": "はい"
+        },
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "closure of a mine",
+        "abandoned mine",
+        "disused mine"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mine abandonnée",
+        "mine désaffectée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stilllegung eines Bergwerkes",
+        "stillgelegtes Bergwerk",
+        "abgebaute Kohlengrube",
+        "stillgelegtes Kohlenbergwerk"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заброшенная шахта",
+        "{～になる} быть заброшенной (о шахте)"
+      ]
+    }
+  ]
+}

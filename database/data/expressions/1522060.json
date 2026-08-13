@@ -1,0 +1,113 @@
+{
+  "id": "1522060",
+  "readings": [
+    {
+      "kanaExpression": "ほり",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "堀",
+      "furiganaExpression": [
+        {
+          "text": "堀",
+          "annotation": "ほり"
+        }
+      ],
+      "rank": 7397
+    },
+    {
+      "kanjiExpression": "濠",
+      "furiganaExpression": [
+        {
+          "text": "濠",
+          "annotation": "ほり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "壕",
+      "furiganaExpression": [
+        {
+          "text": "壕",
+          "annotation": "ほり"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "moat",
+        "fosse",
+        "canal",
+        "ditch"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gracht",
+        "ringgracht",
+        "verdedigingsgracht",
+        "{i.h.b.} slotgracht",
+        "vestinggracht",
+        "vest",
+        "kasteelgracht",
+        "stadsgracht",
+        "singel",
+        "wal",
+        "burgwal",
+        "sloot",
+        "greppel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "canal",
+        "fossé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hori",
+        "Graben",
+        "Kanal",
+        "Wassergraben",
+        "Burggraben",
+        "Schlossgraben",
+        "Wallgraben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csatorna"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "канава; ров; канал"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jarek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "zanja",
+        "fosa",
+        "foso",
+        "pozo"
+      ]
+    }
+  ]
+}

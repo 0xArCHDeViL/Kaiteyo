@@ -1,0 +1,70 @@
+{
+  "id": "1186890",
+  "readings": [
+    {
+      "kanaExpression": "かがくせんい",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "化学繊維",
+      "furiganaExpression": [
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "繊",
+          "annotation": "せん"
+        },
+        {
+          "text": "維",
+          "annotation": "い"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "synthetic fiber",
+        "synthetic fibre",
+        "chemical fiber",
+        "chemical fibre"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kunstvezel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Chemiefaser",
+        "Kunstfaser",
+        "synthetische Faser",
+        "Synthetikfaser"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "синтетическое волокно"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fibra sintética",
+        "fibra química"
+      ]
+    }
+  ]
+}

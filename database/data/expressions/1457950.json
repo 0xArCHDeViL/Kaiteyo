@@ -1,0 +1,66 @@
+{
+  "id": "1457950",
+  "readings": [
+    {
+      "kanaExpression": "うちがけ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "内掛け",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "うち"
+        },
+        {
+          "text": "掛",
+          "annotation": "が"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "内掛",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "うち"
+        },
+        {
+          "text": "掛",
+          "annotation": "がけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inside leg trip"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sumojargon} uchigake",
+        "inside leg trip {\u003d de tegenstander door een hakende beenbeweging doen vallen}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Uchigake (Technik, bei der der Angreifer ein Bein zwischen die Beine des Gegners stellt und sich gegen Ihn lehnt)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "zancadilla interior (sumo)"
+      ]
+    }
+  ]
+}

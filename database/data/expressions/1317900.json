@@ -1,0 +1,100 @@
+{
+  "id": "1317900",
+  "readings": [
+    {
+      "kanaExpression": "じしゅう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "自習",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "習",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "自修",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "修",
+          "annotation": "しゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "self-study",
+        "teaching oneself",
+        "studying by oneself (at school) while the teacher is absent"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "op zichzelf leren",
+        "op zijn eentje studeren",
+        "zichzelf onderrichten",
+        "zelfonderricht",
+        "zelfstudie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "étudier seul",
+        "apprendre seul",
+        "autoformation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "autodidaktisches Lernen",
+        "Selbstunterricht",
+        "Selbststudium",
+        "für sich selbst lernen",
+        "selbständiges Lernen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) самостоятельное изучение; самостоятельные занятия",
+        "{～する} заниматься (изучать) самостоятельно",
+        "2) домашнее задание",
+        "{～する} выполнять домашнее задание"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "samostojno učenje",
+        "sam se učiti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "autoaprendizaje",
+        "estudio autodidacta",
+        "estudiar por cuenta propia",
+        "estudiar por libre",
+        "estudiar de modo personal"
+      ]
+    }
+  ]
+}

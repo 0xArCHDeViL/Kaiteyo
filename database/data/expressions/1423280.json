@@ -1,0 +1,89 @@
+{
+  "id": "1423280",
+  "readings": [
+    {
+      "kanaExpression": "ちゃくりく",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "着陸",
+      "furiganaExpression": [
+        {
+          "text": "着",
+          "annotation": "ちゃく"
+        },
+        {
+          "text": "陸",
+          "annotation": "りく"
+        }
+      ],
+      "rank": 9269
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "landing",
+        "alighting",
+        "touch down"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "landing",
+        "het landen",
+        "{m.b.t. vliegtuig} het neerkomen",
+        "landen",
+        "een landing maken",
+        "neerkomen",
+        "zich neerzetten",
+        "zich aan de grond zetten",
+        "aan de grond komen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "atterissage",
+        "atterir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Landung",
+        "landen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "leszállás",
+        "leszálló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приземление, посадка (самолёта)",
+        "{～する} приземляться"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pristanek",
+        "sestop",
+        "spust"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aterrizaje"
+      ]
+    }
+  ]
+}

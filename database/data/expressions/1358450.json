@@ -1,0 +1,49 @@
+{
+  "id": "1358450",
+  "readings": [
+    {
+      "kanaExpression": "しょくご",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "食後",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 12002
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "after a meal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nach dem Essen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "после еды; после обеда"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "después de comida"
+      ]
+    }
+  ]
+}

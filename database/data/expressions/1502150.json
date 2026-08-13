@@ -1,0 +1,49 @@
+{
+  "id": "1502150",
+  "readings": [
+    {
+      "kanaExpression": "ぶつぜん",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "仏前",
+      "furiganaExpression": [
+        {
+          "text": "仏",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(before a) Buddhist altar",
+        "before the Buddha",
+        "offering placed on a Buddhist altar",
+        "incense money",
+        "condolatory offering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vor Buddha",
+        "vor dem buddhistischen Hausaltar",
+        "vor dem Ahnentäfelchen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(буд.) приношение перед табличкой с именем покойного"
+      ]
+    }
+  ]
+}

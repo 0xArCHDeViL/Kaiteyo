@@ -1,0 +1,123 @@
+{
+  "id": "1542640",
+  "readings": [
+    {
+      "kanaExpression": "ゆうべ",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "さくや",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ゆんべ"
+    },
+    {
+      "kanjiExpression": "夕べ",
+      "furiganaExpression": [
+        {
+          "text": "夕",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "べ"
+        }
+      ],
+      "rank": 14996
+    },
+    {
+      "kanjiExpression": "昨夜",
+      "furiganaExpression": [
+        {
+          "text": "昨夜",
+          "annotation": "ゆうべ"
+        }
+      ],
+      "rank": 4577
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "evening",
+        "last night",
+        "yesterday evening"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gisteravond",
+        "gisterenavond",
+        "gisternacht",
+        "gisterennacht",
+        "vannacht",
+        "afgelopen nacht",
+        "avond",
+        "avondje",
+        "soiree"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "soir",
+        "la nuit dernière"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gestern Abend",
+        "letzte Nacht",
+        "gestern Nacht",
+        "diese Nacht",
+        "heute Nacht",
+        "Abend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmúlt éjjel",
+        "elmúlt éjszaka",
+        "múlt éjjel",
+        "múlt éjszaka",
+        "tegnap este",
+        "este"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1. прошлая ночь",
+        "2. прошлой ночью; (см. тж.) さくゆう",
+        "вчера вечером; вчера ночью"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sinoči",
+        "prejšnja noč",
+        "prejšnji večer"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "anoche",
+        "tarde",
+        "noche"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "afton",
+        "kväll"
+      ]
+    }
+  ]
+}

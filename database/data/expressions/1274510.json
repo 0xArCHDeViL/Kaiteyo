@@ -1,0 +1,77 @@
+{
+  "id": "1274510",
+  "readings": [
+    {
+      "kanaExpression": "こうはん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "公判",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "判",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 7973
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public hearing",
+        "trial"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} openbare behandeling",
+        "berechting",
+        "proces",
+        "terechtzitting"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "audience publique d\u0027un procès"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(öffentliche)Gerichtsverhandlung",
+        "Gerichtsverfahren",
+        "öffentlicher Prozess",
+        "öffentliche Untersuchung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kihallgatás",
+        "próba-"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "суд, судебное разбирательство; судебное заседание, заседание суда; судебный процесс; [открытое] слушание дела"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "juicio público",
+        "vista pública",
+        "audiencia pública"
+      ]
+    }
+  ]
+}

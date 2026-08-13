@@ -1,0 +1,56 @@
+{
+  "id": "1640320",
+  "readings": [
+    {
+      "kanaExpression": "こわけ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "小分け",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subdivision"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unterteilen",
+        "Unterabteilung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alosztály",
+        "fülke",
+        "parcellázás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подразделение",
+        "{～する} подразделять"
+      ]
+    }
+  ]
+}

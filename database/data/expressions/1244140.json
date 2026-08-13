@@ -1,0 +1,43 @@
+{
+  "id": "1244140",
+  "readings": [
+    {
+      "kanaExpression": "くぎ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "区議",
+      "furiganaExpression": [
+        {
+          "text": "区",
+          "annotation": "く"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ward assemblyman"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mitglied der Bezirksversammlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сокр.) депутат районного муниципального совета"
+      ]
+    }
+  ]
+}

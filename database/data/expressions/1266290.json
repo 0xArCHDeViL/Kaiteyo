@@ -1,0 +1,122 @@
+{
+  "id": "1266290",
+  "readings": [
+    {
+      "kanaExpression": "よびよせる",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "呼び寄せる",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "せる"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "呼びよせる",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "びよせる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "呼寄せる",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よび"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "せる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to call",
+        "to summon",
+        "to send for",
+        "to call together"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bij zich roepen",
+        "laten komen",
+        "laten halen",
+        "erbij halen",
+        "ontbieden",
+        "{jur.} dagvaarden",
+        "citeren",
+        "oproepen",
+        "voor het gerecht dagen",
+        "indagen",
+        "bijeenroepen",
+        "samenroepen",
+        "convoceren",
+        "verzamelen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "herbeirufen",
+        "zu sich bitten",
+        "kommen lassen",
+        "zu sich rufen",
+        "zusammenrufen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "benéz vkihez",
+        "felhív",
+        "kikiált",
+        "látogatást tesz",
+        "odahív",
+        "szól",
+        "beidéz",
+        "megidéz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "звать, подзывать; созывать, вызывать, призывать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "llamar"
+      ]
+    }
+  ]
+}

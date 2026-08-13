@@ -1,0 +1,51 @@
+{
+  "id": "1744130",
+  "readings": [
+    {
+      "kanaExpression": "こがわせ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "小為替",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "為替",
+          "annotation": "がわせ"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(former) postal note (abolished in 1951)",
+        "postal order",
+        "postal money order"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Postanweisung für kleinere Beträge (bis 1951)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pénzesutalvány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "почтовый денежный перевод"
+      ]
+    }
+  ]
+}

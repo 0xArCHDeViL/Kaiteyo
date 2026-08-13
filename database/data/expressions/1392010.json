@@ -1,0 +1,61 @@
+{
+  "id": "1392010",
+  "readings": [
+    {
+      "kanaExpression": "せんしゅ",
+      "rank": 15500
+    },
+    {
+      "kanaExpression": "ふなぬし"
+    },
+    {
+      "kanjiExpression": "船主",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "せん"
+        },
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shipowner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schiffseigner",
+        "Reeder"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "судовладелец"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "armador (de una embarcación)",
+        "naviero"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "redare",
+        "skeppsredare"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "1282670",
+  "readings": [
+    {
+      "kanaExpression": "こうみゃく",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "鉱脈",
+      "furiganaExpression": [
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        },
+        {
+          "text": "脈",
+          "annotation": "みゃく"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vein (of ore)",
+        "reef",
+        "streak",
+        "lode"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ertsader",
+        "ader",
+        "mijnader",
+        "ertsgang",
+        "ertslaag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erzader",
+        "Ader"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sugár",
+        "vonal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рудная жила; залежи руды"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "filón",
+        "veta"
+      ]
+    }
+  ]
+}

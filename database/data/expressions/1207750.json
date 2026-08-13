@@ -1,0 +1,93 @@
+{
+  "id": "1207750",
+  "readings": [
+    {
+      "kanaExpression": "わりびく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "割り引く",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "引",
+          "annotation": "び"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "割引く",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わり"
+        },
+        {
+          "text": "引",
+          "annotation": "び"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to discount",
+        "to reduce (the price)",
+        "to take off (a percentage)",
+        "to take with a grain of salt",
+        "to not take at face value"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faire un rabais"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ermäßigen",
+        "rabattieren",
+        "diskontieren",
+        "nicht für voll nehmen",
+        "nicht ganz wörtlich nehmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "diszkontál",
+        "leszámít",
+        "leszámítol"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) わりびき(～する)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "descontar"
+      ]
+    }
+  ]
+}

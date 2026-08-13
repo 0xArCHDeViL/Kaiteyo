@@ -1,0 +1,107 @@
+{
+  "id": "1433000",
+  "readings": [
+    {
+      "kanaExpression": "とおりみち",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "通り道",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "とお"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "とおり道",
+      "furiganaExpression": [
+        {
+          "text": "とおり"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "通り路",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "とお"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "路",
+          "annotation": "みち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "通りみち",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "とお"
+        },
+        {
+          "text": "りみち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "passage",
+        "path",
+        "route",
+        "one\u0027s way"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Passage",
+        "Weg",
+        "Durchgang"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áthaladás",
+        "átutazás",
+        "folyosó",
+        "kitétel",
+        "gyalogjáró",
+        "ösvény",
+        "pálya",
+        "útvonal",
+        "járat",
+        "menetparancs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) путь; [свободный] проход (проезд), дорога",
+        "2) путь, дорога до (какого-л.) места"
+      ]
+    }
+  ]
+}

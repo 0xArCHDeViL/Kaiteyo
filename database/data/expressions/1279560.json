@@ -1,0 +1,107 @@
+{
+  "id": "1279560",
+  "readings": [
+    {
+      "kanaExpression": "こうせい",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "校正",
+      "furiganaExpression": [
+        {
+          "text": "校",
+          "annotation": "こう"
+        },
+        {
+          "text": "正",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 9589
+    },
+    {
+      "kanjiExpression": "較正",
+      "furiganaExpression": [
+        {
+          "text": "較",
+          "annotation": "こう"
+        },
+        {
+          "text": "正",
+          "annotation": "せい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "proofreading",
+        "calibration"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{drukw.} correctie",
+        "verbetering",
+        "nalezing",
+        "het proeflezen",
+        "{drukw.} proeflezen",
+        "corrigeren",
+        "verbeteren",
+        "nalezen",
+        "persklaar maken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "corriger des épreuves",
+        "relire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "korrigieren",
+        "Korrektur lesen",
+        "Korrektur",
+        "Korrekturlesen",
+        "Kalibration",
+        "Kalibrierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beosztás",
+        "hitelesítés",
+        "kalibrálás",
+        "kalibráció"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "корректура",
+        "{～する} держать корректуру"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calibración",
+        "calibrado",
+        "calibrar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kalibrering"
+      ]
+    }
+  ]
+}

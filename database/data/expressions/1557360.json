@@ -1,0 +1,55 @@
+{
+  "id": "1557360",
+  "readings": [
+    {
+      "kanaExpression": "はげみ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "励み",
+      "furiganaExpression": [
+        {
+          "text": "励",
+          "annotation": "はげ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "encouragement",
+        "incentive",
+        "stimulus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ermutigung",
+        "Ansporn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "élénkítőszer",
+        "inger",
+        "bátorítás",
+        "buzdítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поощрение, воодушевление; стимул",
+        "{～になる} служить стимулом (поощрением)"
+      ]
+    }
+  ]
+}

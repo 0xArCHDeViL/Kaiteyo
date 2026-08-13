@@ -1,0 +1,40 @@
+{
+  "id": "1371720",
+  "readings": [
+    {
+      "kanaExpression": "すいせい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "水性",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water-based",
+        "aqueous",
+        "water-soluble"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasser…",
+        "wässrig"
+      ]
+    }
+  ]
+}

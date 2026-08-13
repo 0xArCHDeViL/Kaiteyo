@@ -1,0 +1,94 @@
+{
+  "id": "1387060",
+  "readings": [
+    {
+      "kanaExpression": "したたらず",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "したったらず"
+    },
+    {
+      "kanjiExpression": "舌足らず",
+      "furiganaExpression": [
+        {
+          "text": "舌",
+          "annotation": "した"
+        },
+        {
+          "text": "足",
+          "annotation": "た"
+        },
+        {
+          "text": "らず"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "舌っ足らず",
+      "furiganaExpression": [
+        {
+          "text": "舌",
+          "annotation": "した"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "足",
+          "annotation": "た"
+        },
+        {
+          "text": "らず"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "舌たらず",
+      "furiganaExpression": [
+        {
+          "text": "舌",
+          "annotation": "した"
+        },
+        {
+          "text": "たらず"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unclear speech",
+        "garbled speech",
+        "poor enunciation",
+        "poorly expressed",
+        "unclear (wording)",
+        "imprecise (expression)",
+        "inadequate (explanation)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unartikuliert",
+        "holprig",
+        "lallend",
+        "unklar",
+        "unzureichend",
+        "Lallen",
+        "unartikuliertes Sprechen",
+        "unklare Formulierung",
+        "unzureichende Erklärung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шепелявящий (картавящий, невнятно выговаривающий) человек"
+      ]
+    }
+  ]
+}

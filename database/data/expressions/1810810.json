@@ -1,0 +1,58 @@
+{
+  "id": "1810810",
+  "readings": [
+    {
+      "kanaExpression": "うおがし",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "魚河岸",
+      "furiganaExpression": [
+        {
+          "text": "魚河岸",
+          "annotation": "うおがし"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "魚がし",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "うお"
+        },
+        {
+          "text": "がし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "riverside fish market"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rivieroever waar de vismarkt gehouden wordt",
+        "vismarkt aan de waterkant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischmarkt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рыбный рынок"
+      ]
+    }
+  ]
+}

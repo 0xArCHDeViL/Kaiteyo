@@ -1,0 +1,56 @@
+{
+  "id": "1474940",
+  "readings": [
+    {
+      "kanaExpression": "しらむ",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "しろむ"
+    },
+    {
+      "kanjiExpression": "白む",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "しら"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to grow light",
+        "to become white",
+        "to turn grey (gray)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hell werden",
+        "grauen",
+        "dämmern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elsápad",
+        "megőszül"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "светлеть, рассветать"
+      ]
+    }
+  ]
+}

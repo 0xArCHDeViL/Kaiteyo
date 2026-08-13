@@ -1,0 +1,64 @@
+{
+  "id": "1247970",
+  "readings": [
+    {
+      "kanaExpression": "ぐんこう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "軍港",
+      "furiganaExpression": [
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "港",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "naval port",
+        "naval station"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} marinehaven",
+        "oorlogshaven",
+        "maritiem station",
+        "marinestation",
+        "marinebasis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "base navale",
+        "port de guerre",
+        "port militaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Militärhafen",
+        "Marinehafen",
+        "Kriegshafen (bei der alten japan. Marine Yokosuka, Kure, Sasebo und Maizuru)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "военный порт"
+      ]
+    }
+  ]
+}

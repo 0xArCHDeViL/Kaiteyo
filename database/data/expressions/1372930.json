@@ -1,0 +1,90 @@
+{
+  "id": "1372930",
+  "readings": [
+    {
+      "kanaExpression": "かぞえきれない",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "数え切れない",
+      "furiganaExpression": [
+        {
+          "text": "数",
+          "annotation": "かぞ"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "れない"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "数えきれない",
+      "furiganaExpression": [
+        {
+          "text": "数",
+          "annotation": "かぞ"
+        },
+        {
+          "text": "えきれない"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "countless",
+        "incalculable"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontelbaar",
+        "talloos",
+        "oneindig veel",
+        "onnoemelijk",
+        "ongeteld",
+        "niet te tellen",
+        "zonder tal",
+        "te veel om op te noemen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unzählig",
+        "unzählbar"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiszámíthatatlan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неисчислимый, бесчисленный, несчётный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "incalculable",
+        "innumerable",
+        "incontable"
+      ]
+    }
+  ]
+}

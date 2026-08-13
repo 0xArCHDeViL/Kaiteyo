@@ -1,0 +1,66 @@
+{
+  "id": "1614390",
+  "readings": [
+    {
+      "kanaExpression": "あぶなげない",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "危なげない",
+      "furiganaExpression": [
+        {
+          "text": "危",
+          "annotation": "あぶ"
+        },
+        {
+          "text": "なげない"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "safe",
+        "certain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeker",
+        "vast",
+        "veilig",
+        "gewis",
+        "zonder gevaar",
+        "onbedreigd",
+        "gerust"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sicher",
+        "ungefährlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "biztonságos",
+        "széf",
+        "veszélytelen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "seguro",
+        "firme",
+        "sin peligro"
+      ]
+    }
+  ]
+}

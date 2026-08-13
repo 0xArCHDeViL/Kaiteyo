@@ -1,0 +1,61 @@
+{
+  "id": "1654010",
+  "readings": [
+    {
+      "kanaExpression": "しょじょう",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "書状",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "状",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "letter",
+        "note"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "brief",
+        "{form.} schrijven",
+        "kennisgeving"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Brief"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jegyzék",
+        "magyarázat",
+        "megjegyzés",
+        "széljegyzet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "письмо; бумаги, [деловая] переписка"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "1414570",
+  "readings": [
+    {
+      "kanaExpression": "おおどおり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "大通り",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "おお"
+        },
+        {
+          "text": "通",
+          "annotation": "どお"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 13779
+    },
+    {
+      "kanjiExpression": "大通",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "おお"
+        },
+        {
+          "text": "通",
+          "annotation": "どおり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main street",
+        "avenue",
+        "boulevard"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grote weg",
+        "hoofdstraat",
+        "hoofdweg",
+        "hoofdlaan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rue principale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "breite Straße",
+        "Hauptstraße",
+        "Boulevard",
+        "Avenue"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проспект; главная дорога, магистраль"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "glavna cesta"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calle principal"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "storgata"
+      ]
+    }
+  ]
+}

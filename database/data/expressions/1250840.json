@@ -1,0 +1,57 @@
+{
+  "id": "1250840",
+  "readings": [
+    {
+      "kanaExpression": "けいきょう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "景況",
+      "furiganaExpression": [
+        {
+          "text": "景",
+          "annotation": "けい"
+        },
+        {
+          "text": "況",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "situation",
+        "business climate",
+        "outlook"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stand der Dinge",
+        "Zustand",
+        "Sachlage",
+        "Konjunkturlage",
+        "Geschäftslage"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyzet",
+        "kilátás",
+        "remény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "положение [дел], состояние, обстановка, ситуация"
+      ]
+    }
+  ]
+}

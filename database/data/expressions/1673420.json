@@ -1,0 +1,60 @@
+{
+  "id": "1673420",
+  "readings": [
+    {
+      "kanaExpression": "むしかく",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "無資格",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "資",
+          "annotation": "し"
+        },
+        {
+          "text": "格",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unqualified",
+        "unlicensed",
+        "uncertified"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mangel an Qualifikation",
+        "Inkompetenz",
+        "Unfähigkeit",
+        "unqualifiziert",
+        "inkompetent"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szakképzetlen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отсутствие квалификации; отсутствие диплома; непригодность (напр. к должности); (юр.) неправоспособность",
+        "{～の} неквалифицированный; не имеющий свидетельства (диплома); (юр.) неправоспособный"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1912410",
+  "readings": [
+    {
+      "kanaExpression": "もし",
+      "rank": 696
+    },
+    {
+      "kanjiExpression": "模試",
+      "furiganaExpression": [
+        {
+          "text": "模",
+          "annotation": "も"
+        },
+        {
+          "text": "試",
+          "annotation": "し"
+        }
+      ],
+      "rank": 14908
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mock exam",
+        "practice exam",
+        "practice test"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "proefexamen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "examen blanc",
+        "galop d\u0027essai"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Probeexamen",
+        "Probeprüfung",
+        "Scheinprüfung",
+        "Probeaufnahmeprüfung (Abk.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предварительные испытания"
+      ]
+    }
+  ]
+}

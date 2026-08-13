@@ -1,0 +1,45 @@
+{
+  "id": "1291630",
+  "readings": [
+    {
+      "kanaExpression": "さぼう",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "砂防",
+      "furiganaExpression": [
+        {
+          "text": "砂",
+          "annotation": "さ"
+        },
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "erosion control"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sandschutz",
+        "Schutz vor Bodenerosion",
+        "Schutz vor Treibsand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "борьба с песками; задержание сыпучих песков"
+      ]
+    }
+  ]
+}

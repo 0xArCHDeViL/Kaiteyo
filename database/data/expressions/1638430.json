@@ -1,0 +1,58 @@
+{
+  "id": "1638430",
+  "readings": [
+    {
+      "kanaExpression": "むし",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "無私",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "私",
+          "annotation": "し"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unselfish",
+        "selfless",
+        "disinterested"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "selbstlos",
+        "selbstverleugnend",
+        "uneigennützig",
+        "unparteiisch",
+        "Selbstlosigkeit",
+        "Uneigennützigkeit",
+        "Unparteilichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "önzetlenség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) беспристрастность; бескорыстие",
+        "{～の} беспристрастный; бескорыстный"
+      ]
+    }
+  ]
+}

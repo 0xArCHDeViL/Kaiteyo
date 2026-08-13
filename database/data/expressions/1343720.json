@@ -1,0 +1,89 @@
+{
+  "id": "1343720",
+  "readings": [
+    {
+      "kanaExpression": "かきことば",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "書き言葉",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "言",
+          "annotation": "こと"
+        },
+        {
+          "text": "葉",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "書きことば",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "きことば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "written word",
+        "written language"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "language écrit",
+        "mot écrit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schriftsprache"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "книжное (литературное) слово ((ант.) はなしことば【話し言葉】)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "knjižna beseda",
+        "knjižni jezik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lenguaje escrito"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skriftspråk"
+      ]
+    }
+  ]
+}

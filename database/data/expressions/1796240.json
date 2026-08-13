@@ -1,0 +1,62 @@
+{
+  "id": "1796240",
+  "readings": [
+    {
+      "kanaExpression": "ちょうじゅう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "鳥獣",
+      "furiganaExpression": [
+        {
+          "text": "鳥",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "獣",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "birds and wild animals",
+        "wildlife"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} dieren (in het wild)",
+        "beesten",
+        "gedierte",
+        "vogels en landdieren",
+        "wild en gevogelte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tiere",
+        "wildlebende Tiere",
+        "Vieh und Vögel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vadvilág"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "птицы и звери; дичь"
+      ]
+    }
+  ]
+}

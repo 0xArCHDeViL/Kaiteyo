@@ -1,0 +1,47 @@
+{
+  "id": "1700610",
+  "readings": [
+    {
+      "kanaExpression": "まごこ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "孫子",
+      "furiganaExpression": [
+        {
+          "text": "孫",
+          "annotation": "まご"
+        },
+        {
+          "text": "子",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "children and grandchildren",
+        "posterity",
+        "descendants"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kinder und Enkel",
+        "Nachkommen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "leszármazottak",
+        "utókor"
+      ]
+    }
+  ]
+}

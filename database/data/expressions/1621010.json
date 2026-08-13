@@ -1,0 +1,63 @@
+{
+  "id": "1621010",
+  "readings": [
+    {
+      "kanaExpression": "なかまうち",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "仲間内",
+      "furiganaExpression": [
+        {
+          "text": "仲",
+          "annotation": "なか"
+        },
+        {
+          "text": "間",
+          "annotation": "ま"
+        },
+        {
+          "text": "内",
+          "annotation": "うち"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(among) one\u0027s friends",
+        "(within) one\u0027s circle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freunde",
+        "Kameraden",
+        "in der Gruppe",
+        "gruppenintern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyedüllét",
+        "magán-",
+        "magányosság",
+        "zártkörű",
+        "nem hivatalos"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "personal",
+        "familiar",
+        "entre las personas cercanas (amigos,etc.)"
+      ]
+    }
+  ]
+}

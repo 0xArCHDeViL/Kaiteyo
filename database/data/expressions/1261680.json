@@ -1,0 +1,73 @@
+{
+  "id": "1261680",
+  "readings": [
+    {
+      "kanaExpression": "げんしばくだん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "原子爆弾",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        },
+        {
+          "text": "爆",
+          "annotation": "ばく"
+        },
+        {
+          "text": "弾",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "atomic bomb",
+        "A-bomb"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "atoombom",
+        "A-bom",
+        "kernbom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Atombombe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "atombomba"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "атомная бомба"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bomba atómica",
+        "bomba A"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1406760",
+  "readings": [
+    {
+      "kanaExpression": "そんしょう",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "損傷",
+      "furiganaExpression": [
+        {
+          "text": "損",
+          "annotation": "そん"
+        },
+        {
+          "text": "傷",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 9355
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "damage",
+        "injury"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schade",
+        "beschadiging",
+        "aantasting",
+        "afbreuk",
+        "letsel",
+        "verwonding",
+        "kwetsuur",
+        "blessure",
+        "blessuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schaden",
+        "Beschädigung",
+        "Verletzung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sebesülés",
+        "sérülés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "повреждение; рана; ущерб; потери; травмирование",
+        "{～する} быть повреждённым; быть раненным; потерпеть ущерб"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "daño",
+        "herida"
+      ]
+    }
+  ]
+}

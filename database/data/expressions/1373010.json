@@ -1,0 +1,60 @@
+{
+  "id": "1373010",
+  "readings": [
+    {
+      "kanaExpression": "すき",
+      "rank": 8841
+    },
+    {
+      "kanjiExpression": "数寄",
+      "furiganaExpression": [
+        {
+          "text": "数",
+          "annotation": "す"
+        },
+        {
+          "text": "寄",
+          "annotation": "き"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "数奇",
+      "furiganaExpression": [
+        {
+          "text": "数",
+          "annotation": "す"
+        },
+        {
+          "text": "奇",
+          "annotation": "き"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "refined taste",
+        "elegant pursuits"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ästhetisierung",
+        "hochentwickelter Geschmack"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вкус; изящество",
+        "(ср.) すうき【数奇】"
+      ]
+    }
+  ]
+}

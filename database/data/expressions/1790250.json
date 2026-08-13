@@ -1,0 +1,84 @@
+{
+  "id": "1790250",
+  "readings": [
+    {
+      "kanaExpression": "おしいり",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "押し入り",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "押入り",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "おし"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "breaking into",
+        "burglar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inbraak",
+        "huisbraak",
+        "inbreker",
+        "huisbreker"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einbrecher",
+        "Einbruch",
+        "Einbruchdiebstahl",
+        "Einbruchsdiebstahl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "éjszakai betörő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "грабёж [со взломом]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1526650",
+  "readings": [
+    {
+      "kanaExpression": "まんせいてき",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "慢性的",
+      "furiganaExpression": [
+        {
+          "text": "慢",
+          "annotation": "まん"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chronic"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "chronisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "idült",
+        "krónikus",
+        "tartós"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "crónico"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kronisk"
+      ]
+    }
+  ]
+}

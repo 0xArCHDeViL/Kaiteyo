@@ -1,0 +1,56 @@
+{
+  "id": "1646260",
+  "readings": [
+    {
+      "kanaExpression": "せっぽう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "説法",
+      "furiganaExpression": [
+        {
+          "text": "説",
+          "annotation": "せっ"
+        },
+        {
+          "text": "法",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lecture",
+        "sermon",
+        "preaching",
+        "scolding",
+        "moralizing",
+        "moralising"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "predigen",
+        "Predigt",
+        "Strafpredigt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szentbeszéd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проповедь"
+      ]
+    }
+  ]
+}

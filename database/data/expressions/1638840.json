@@ -1,0 +1,59 @@
+{
+  "id": "1638840",
+  "readings": [
+    {
+      "kanaExpression": "ないしきょう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "内視鏡",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "視",
+          "annotation": "し"
+        },
+        {
+          "text": "鏡",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "endoscope"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Endoskop"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ないしんきょう"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "endoscopio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "endoskop"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "1172840",
+  "readings": [
+    {
+      "kanaExpression": "うんてんし",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "運転士",
+      "furiganaExpression": [
+        {
+          "text": "運",
+          "annotation": "うん"
+        },
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(professional) driver (of a taxi, train, etc.)",
+        "motorman",
+        "mate (on a ship)",
+        "officer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stuurman",
+        "chauffeur",
+        "bestuurder",
+        "machinist"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "maître (marine)",
+        "officier (marine)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Offizier",
+        "Lokführer",
+        "Maschinist",
+        "Anlagenfahrer",
+        "Fahrer",
+        "Chauffeur",
+        "Kraftfahrer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "matt",
+        "katonatiszt",
+        "közhivatalnok",
+        "köztisztviselő",
+        "tiszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "помощник капитана (в торговом флоте)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "conductor",
+        "chófer"
+      ]
+    }
+  ]
+}

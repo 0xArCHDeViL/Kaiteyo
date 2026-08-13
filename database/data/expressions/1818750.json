@@ -1,0 +1,66 @@
+{
+  "id": "1818750",
+  "readings": [
+    {
+      "kanaExpression": "ぞうえん",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "造園",
+      "furiganaExpression": [
+        {
+          "text": "造",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "園",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "造苑",
+      "furiganaExpression": [
+        {
+          "text": "造",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "苑",
+          "annotation": "えん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "landscape gardening",
+        "landscape architecture"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tuinarchitectuur",
+        "tuinaanleg",
+        "tuininrichting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Landschaftsarchitektur",
+        "Landschaftsgartenbau"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "искусство планировки садов и парков"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1554260",
+  "readings": [
+    {
+      "kanaExpression": "りょうぼ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "寮母",
+      "furiganaExpression": [
+        {
+          "text": "寮",
+          "annotation": "りょう"
+        },
+        {
+          "text": "母",
+          "annotation": "ぼ"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "housemother",
+        "dorm mother"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Heimmutter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) надзирательница в общежитии"
+      ]
+    }
+  ]
+}

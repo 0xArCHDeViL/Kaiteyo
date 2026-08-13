@@ -1,0 +1,50 @@
+{
+  "id": "1479650",
+  "readings": [
+    {
+      "kanaExpression": "はんね",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "半値",
+      "furiganaExpression": [
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "half price"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "halber Preis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полцены",
+        "{～で} за полцены; за половину (за 50%) стоимости"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mitad de precio"
+      ]
+    }
+  ]
+}

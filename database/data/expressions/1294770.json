@@ -1,0 +1,57 @@
+{
+  "id": "1294770",
+  "readings": [
+    {
+      "kanaExpression": "さいけつ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "採血",
+      "furiganaExpression": [
+        {
+          "text": "採",
+          "annotation": "さい"
+        },
+        {
+          "text": "血",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drawing blood",
+        "collecting blood"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blut abnehmen",
+        "Blutabnahme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vérvétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) взятие крови"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "extracción de sangre"
+      ]
+    }
+  ]
+}

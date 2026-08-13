@@ -1,0 +1,77 @@
+{
+  "id": "1713950",
+  "readings": [
+    {
+      "kanaExpression": "たいしょうりょうほう",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "対症療法",
+      "furiganaExpression": [
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "症",
+          "annotation": "しょう"
+        },
+        {
+          "text": "療",
+          "annotation": "りょう"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "対象療法",
+      "furiganaExpression": [
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "象",
+          "annotation": "しょう"
+        },
+        {
+          "text": "療",
+          "annotation": "りょう"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "symptomatic therapy",
+        "makeshift solution"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "symptomatische Therapie",
+        "Symptom-Behandlung",
+        "Palliativbehandlung",
+        "Notbehelf",
+        "Notlösung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) аллопатия"
+      ]
+    }
+  ]
+}

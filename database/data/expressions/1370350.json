@@ -1,0 +1,66 @@
+{
+  "id": "1370350",
+  "readings": [
+    {
+      "kanaExpression": "ずが",
+      "rank": 28000
+    },
+    {
+      "kanaExpression": "とが"
+    },
+    {
+      "kanjiExpression": "図画",
+      "furiganaExpression": [
+        {
+          "text": "図",
+          "annotation": "ず"
+        },
+        {
+          "text": "画",
+          "annotation": "が"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drawing",
+        "painting",
+        "picture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeichnung",
+        "Bild",
+        "Zeichnen",
+        "(früher)Zeichenunterricht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kép",
+        "rajz",
+        "rajzolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) рисование; черчение",
+        "2) рисунок; чертёж"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "teckning"
+      ]
+    }
+  ]
+}

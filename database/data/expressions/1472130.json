@@ -1,0 +1,45 @@
+{
+  "id": "1472130",
+  "readings": [
+    {
+      "kanaExpression": "はいしゃ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "廃車",
+      "furiganaExpression": [
+        {
+          "text": "廃",
+          "annotation": "はい"
+        },
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "decommissioned vehicle",
+        "out of service vehicle",
+        "end of life vehicle",
+        "deregistered vehicle",
+        "unregistered vehicle",
+        "deregistering (vehicle)",
+        "unregistering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausrangiertes Auto",
+        "Ausrangieren eines Autos",
+        "abgemeldetes Auto"
+      ]
+    }
+  ]
+}

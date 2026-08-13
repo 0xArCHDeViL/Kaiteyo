@@ -1,0 +1,63 @@
+{
+  "id": "1595720",
+  "readings": [
+    {
+      "kanaExpression": "すてみ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "捨て身",
+      "furiganaExpression": [
+        {
+          "text": "捨",
+          "annotation": "す"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "身",
+          "annotation": "み"
+        }
+      ],
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "捨身",
+      "furiganaExpression": [
+        {
+          "text": "捨",
+          "annotation": "すて"
+        },
+        {
+          "text": "身",
+          "annotation": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "putting one\u0027s life on the line",
+        "giving everything one has got",
+        "acting out of desperation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Riskieren des eigenen Lebens"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～に} самоотрешённо, самоотверженно",
+        "{～になる} решиться на отчаянный шаг",
+        "{～になって} в порыве отчаяния; очертя голову; рискуя жизнью"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1472840",
+  "readings": [
+    {
+      "kanaExpression": "はいにん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "背任",
+      "furiganaExpression": [
+        {
+          "text": "背",
+          "annotation": "はい"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "breach of trust",
+        "malfeasance",
+        "malpractice",
+        "misappropriation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ambtsovertreding",
+        "misbruik van vertrouwen",
+        "trouwbreuk",
+        "trouweloosheid",
+        "{i.h.b.} fraude",
+        "malversaties"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Untreue",
+        "Treuebruch (Abk.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizalommal való visszaélés",
+        "hivatalos hatalommal való visszaélés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нарушение доверия"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1498430",
+  "readings": [
+    {
+      "kanaExpression": "ぶかん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "武官",
+      "furiganaExpression": [
+        {
+          "text": "武",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "military officer",
+        "naval officer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} officieren en onderofficieren",
+        "{ritsuryō} militair ambtenaar",
+        "beambte",
+        "functionaris"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Militäroffizier",
+        "Offizier"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) военный (офицер, генерал; (ант.) ぶんかん【文官】)"
+      ]
+    }
+  ]
+}

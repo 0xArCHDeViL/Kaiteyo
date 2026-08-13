@@ -1,0 +1,63 @@
+{
+  "id": "1325230",
+  "readings": [
+    {
+      "kanaExpression": "しゅがん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "主眼",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "眼",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main purpose",
+        "chief aim",
+        "focus",
+        "main point",
+        "gist",
+        "essence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdzaak",
+        "hoofdpunt",
+        "allerbelangrijkste",
+        "kerndoel",
+        "kern",
+        "{fig.} zwaartepunt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptaugenmerk",
+        "Hauptpunkt",
+        "Hauptsache",
+        "Hauptzweck"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "главная (основная) цель, главное, самое важное",
+        "{…を～として} делая главный упор на (что-л.); стремясь прежде всего к (чему-л.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1285730",
+  "readings": [
+    {
+      "kanaExpression": "こうじ",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "かむだち"
+    },
+    {
+      "kanjiExpression": "麹",
+      "furiganaExpression": [
+        {
+          "text": "麹",
+          "annotation": "こうじ"
+        }
+      ],
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "糀",
+      "furiganaExpression": [
+        {
+          "text": "糀",
+          "annotation": "こうじ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "kōji",
+        "malted rice",
+        "malt",
+        "malt-like material from growing mold on rice, barley, beans, etc. (used as a starter to make sake, miso, soy sauce, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kōji {uit de verschimmeling (m.g.v. Aspergillus oryzae) van gekookte rijst",
+        "gerst",
+        "sojabonen e.d. verkregen substantie die dient als gistmiddel bij de bereiding van sake en soja}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kōji-Pilz",
+        "Hefe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "élesztő",
+        "élesztőgomba",
+        "erjedés",
+        "erjesztő",
+        "hullámtaréj",
+        "kovász"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "солод; закваска, дрожжи",
+        "{～にする} солодить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "levadura",
+        "fermento"
+      ]
+    }
+  ]
+}

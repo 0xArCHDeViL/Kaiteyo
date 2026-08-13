@@ -1,0 +1,108 @@
+{
+  "id": "1008110",
+  "readings": [
+    {
+      "kanaExpression": "つくづく",
+      "rank": 7820
+    },
+    {
+      "kanaExpression": "つくつく"
+    },
+    {
+      "kanaExpression": "つくずく"
+    },
+    {
+      "kanjiExpression": "熟",
+      "furiganaExpression": [
+        {
+          "text": "熟",
+          "annotation": "つくづく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "熟熟",
+      "furiganaExpression": [
+        {
+          "text": "熟",
+          "annotation": "つく"
+        },
+        {
+          "text": "熟",
+          "annotation": "つく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "熟々",
+      "furiganaExpression": [
+        {
+          "text": "熟",
+          "annotation": "つく"
+        },
+        {
+          "text": "々",
+          "annotation": "づく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deeply",
+        "keenly",
+        "severely",
+        "completely",
+        "utterly",
+        "intently",
+        "carefully",
+        "closely",
+        "attentively"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "complètement",
+        "de manière approfondie",
+        "vraiment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wirklich",
+        "genau",
+        "wie immer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "teljesen",
+        "igazán",
+        "valóban",
+        "mélységesen",
+        "egyszerűen",
+        "hevesen",
+        "keményen",
+        "komolyan",
+        "nagyon",
+        "ridegen",
+        "szigorúan",
+        "vadul",
+        "megfeszítetten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": ～[と]",
+        "1) ревностно; старательно; внимательно",
+        "2) глубоко; остро; болезненно"
+      ]
+    }
+  ]
+}

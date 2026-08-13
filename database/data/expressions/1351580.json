@@ -1,0 +1,90 @@
+{
+  "id": "1351580",
+  "readings": [
+    {
+      "kanaExpression": "あかし",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "証",
+      "furiganaExpression": [
+        {
+          "text": "証",
+          "annotation": "あかし"
+        }
+      ],
+      "rank": 3546
+    },
+    {
+      "kanjiExpression": "証し",
+      "furiganaExpression": [
+        {
+          "text": "証",
+          "annotation": "あか"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "proof",
+        "evidence",
+        "sign",
+        "testimony",
+        "testament (to something)",
+        "vindication",
+        "witnessing",
+        "testifying"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bewijs",
+        "blijk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeugnis",
+        "Beweis",
+        "Beweisführung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizonyíték",
+        "kísérlet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доказательство, свидетельские показания"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pruebas",
+        "testimonio",
+        "testificar (norm. en un contexto religioso cristiano)",
+        "declarar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "belägg",
+        "bevis"
+      ]
+    }
+  ]
+}

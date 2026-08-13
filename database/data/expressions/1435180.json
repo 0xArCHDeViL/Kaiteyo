@@ -1,0 +1,89 @@
+{
+  "id": "1435180",
+  "readings": [
+    {
+      "kanaExpression": "かみそり",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "かみすり"
+    },
+    {
+      "kanaExpression": "そり",
+      "rank": 34000
+    },
+    {
+      "kanaExpression": "カミソリ"
+    },
+    {
+      "kanjiExpression": "剃刀",
+      "furiganaExpression": [
+        {
+          "text": "剃刀",
+          "annotation": "かみそり"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "razor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "scheermesje",
+        "scheerapparaat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rasoir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rasiermesser",
+        "Rasierklinge",
+        "Rasierapparat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "borotva"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бритва"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "britvica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "navaja de afeitar",
+        "navaja de rasurar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "rakkniv"
+      ]
+    }
+  ]
+}

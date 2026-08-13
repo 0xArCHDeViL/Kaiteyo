@@ -1,0 +1,64 @@
+{
+  "id": "1659240",
+  "readings": [
+    {
+      "kanaExpression": "しゅうけつ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "集結",
+      "furiganaExpression": [
+        {
+          "text": "集",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "結",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 13583
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "massing (of troops)",
+        "gathering"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verzameling",
+        "samenkomst",
+        "concentratie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "konzentrieren",
+        "sammeln",
+        "zusammenziehen (z.B. Truppen)",
+        "Konzentration",
+        "Sammlung",
+        "Zusammenziehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gennyesedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сбор, соединение, сосредоточение, концентрация",
+        "{～する} собирать, соединять воедино, концентрировать; сосредоточивать (войска)"
+      ]
+    }
+  ]
+}

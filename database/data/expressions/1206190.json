@@ -1,0 +1,85 @@
+{
+  "id": "1206190",
+  "readings": [
+    {
+      "kanaExpression": "かくど",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "角度",
+      "furiganaExpression": [
+        {
+          "text": "角",
+          "annotation": "かく"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 4521
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "angle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoek",
+        "gezichtspunt"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "angle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Größe eines Winkels",
+        "Winkel",
+        "Blickwinkel",
+        "Gesichtspunkt",
+        "Standpunkt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szemszög",
+        "szög"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(геом.) величина угла (в градусах), угол"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kot"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ángulo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vinkel"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "1428920",
+  "readings": [
+    {
+      "kanaExpression": "ちょうしんき",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "聴診器",
+      "furiganaExpression": [
+        {
+          "text": "聴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "診",
+          "annotation": "しん"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stethoscope"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} stethoscoop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stethoskop",
+        "Höhrrohr"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fonendoszkóp",
+        "sztetoszkóp"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стетоскоп"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "stetoskop"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fonendoscopio",
+        "estetoscopio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "stetoskop"
+      ]
+    }
+  ]
+}

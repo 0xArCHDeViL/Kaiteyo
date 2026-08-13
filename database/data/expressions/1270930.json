@@ -1,0 +1,70 @@
+{
+  "id": "1270930",
+  "readings": [
+    {
+      "kanaExpression": "かたり",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "語り",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "かた"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "語",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "かたり"
+        }
+      ],
+      "rank": 673
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "talk",
+        "recital",
+        "narration",
+        "topic"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erzählen",
+        "Erzählung",
+        "Kommentar",
+        "Narration"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszédes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разговорная часть пьесы (в театре Но)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hablar"
+      ]
+    }
+  ]
+}

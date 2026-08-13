@@ -1,0 +1,45 @@
+{
+  "id": "1402040",
+  "readings": [
+    {
+      "kanaExpression": "くさぶえ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "草笛",
+      "furiganaExpression": [
+        {
+          "text": "草",
+          "annotation": "くさ"
+        },
+        {
+          "text": "笛",
+          "annotation": "ぶえ"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reed pipe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Halmflöte",
+        "Rohrpfeife",
+        "Rohrflöte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "свирель, дудка"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "1173220",
+  "readings": [
+    {
+      "kanaExpression": "うんすい",
+      "rank": 31500
+    },
+    {
+      "kanaExpression": "くもみず"
+    },
+    {
+      "kanjiExpression": "雲水",
+      "furiganaExpression": [
+        {
+          "text": "雲",
+          "annotation": "うん"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "itinerant priest",
+        "wandering monk",
+        "mendicant",
+        "clouds and water"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wolken und Wasser",
+        "Umherziehen (wie Wolken und Wasser)",
+        "Wandermönch",
+        "ziehende Wolken und fließendes Wasser",
+        "freies Umherziehen",
+        "frei Umherziehender",
+        "Wander-Priester",
+        "Zen-Mönch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) плывущие облака и текущая вода; (обр.) скиталец; бродячий монах"
+      ]
+    }
+  ]
+}

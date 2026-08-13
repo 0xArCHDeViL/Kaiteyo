@@ -1,0 +1,83 @@
+{
+  "id": "1303670",
+  "readings": [
+    {
+      "kanaExpression": "さじき",
+      "rank": 29000
+    },
+    {
+      "kanaExpression": "さんじき"
+    },
+    {
+      "kanjiExpression": "桟敷",
+      "furiganaExpression": [
+        {
+          "text": "桟",
+          "annotation": "さん"
+        },
+        {
+          "text": "敷",
+          "annotation": "じき"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "棧敷",
+      "furiganaExpression": [
+        {
+          "text": "棧",
+          "annotation": "さん"
+        },
+        {
+          "text": "敷",
+          "annotation": "じき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dress circle (of a theatre)",
+        "(first) balcony",
+        "box",
+        "stands (seating for spectators)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{theat.} loge"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Loge",
+        "Rang",
+        "Balkon",
+        "Zuschauertribüne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "házikó",
+        "galéria",
+        "karzat",
+        "képtár",
+        "műcsarnok",
+        "tornác"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) ложа яруса (в яп. театре)",
+        "2) помост"
+      ]
+    }
+  ]
+}

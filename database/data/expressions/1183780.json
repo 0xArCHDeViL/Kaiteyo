@@ -1,0 +1,98 @@
+{
+  "id": "1183780",
+  "readings": [
+    {
+      "kanaExpression": "おんきょう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "音響",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "響",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 7247
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sound",
+        "noise",
+        "acoustics",
+        "reverberation",
+        "echo",
+        "audio"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geluid",
+        "klank",
+        "galm",
+        "lawaai"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "écho",
+        "acoustique",
+        "bruit",
+        "son"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geräusch",
+        "Schall",
+        "Klang",
+        "Ton",
+        "Geräuscheffekt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "becsületes",
+        "mélyen",
+        "zaj",
+        "feltűnés",
+        "lárma",
+        "hallható",
+        "hallócső"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "звук; шум"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zvok",
+        "odmev",
+        "akustika",
+        "zvočni efekti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sonido",
+        "ondas sonoras"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "1412110",
+  "readings": [
+    {
+      "kanaExpression": "だいどく",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "代読",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "読",
+          "annotation": "どく"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reading for another"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "an jmds. Stelle vorlesen",
+        "in Vertretung verlesen",
+        "Vorlesen an jmds. Stelle",
+        "Verlesen in Vertretung eines anderen"
+      ]
+    }
+  ]
+}

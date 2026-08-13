@@ -1,0 +1,60 @@
+{
+  "id": "1650060",
+  "readings": [
+    {
+      "kanaExpression": "ざんし",
+      "rank": 32000
+    },
+    {
+      "kanaExpression": "ざんさい"
+    },
+    {
+      "kanjiExpression": "残滓",
+      "furiganaExpression": [
+        {
+          "text": "残",
+          "annotation": "ざん"
+        },
+        {
+          "text": "滓",
+          "annotation": "し"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "remains",
+        "dregs",
+        "vestiges",
+        "remnant",
+        "residue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bodensatz",
+        "Rückstand",
+        "Überbleibsel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "maradék",
+        "maradvány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отстой, осадок; (обр.) пережиток",
+        "(см.) ざんさい"
+      ]
+    }
+  ]
+}

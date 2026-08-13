@@ -1,0 +1,87 @@
+{
+  "id": "1515380",
+  "readings": [
+    {
+      "kanaExpression": "つつみこむ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "包み込む",
+      "furiganaExpression": [
+        {
+          "text": "包",
+          "annotation": "つつ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "包みこむ",
+      "furiganaExpression": [
+        {
+          "text": "包",
+          "annotation": "つつ"
+        },
+        {
+          "text": "みこむ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "包込む",
+      "furiganaExpression": [
+        {
+          "text": "包",
+          "annotation": "つつみ"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to wrap up"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einwickeln",
+        "einschlagen",
+        "einhüllen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bebugyolálja magát",
+        "beburkolja magát",
+        "beburkolózik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "завёртывать, упаковывать"
+      ]
+    }
+  ]
+}

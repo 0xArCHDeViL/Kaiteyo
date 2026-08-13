@@ -1,0 +1,43 @@
+{
+  "id": "1655480",
+  "readings": [
+    {
+      "kanaExpression": "けんすう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "間数",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "けん"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "number of ken (in length or breadth)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Länge in Ken (1 Ken \u003d 182 cm)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "длина в кэнах ((см.) けん【間】)"
+      ]
+    }
+  ]
+}

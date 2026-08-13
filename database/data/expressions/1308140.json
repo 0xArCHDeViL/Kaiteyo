@@ -1,0 +1,52 @@
+{
+  "id": "1308140",
+  "readings": [
+    {
+      "kanaExpression": "しか",
+      "rank": 285
+    },
+    {
+      "kanjiExpression": "市価",
+      "furiganaExpression": [
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "価",
+          "annotation": "か"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "market price",
+        "current price"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Marktpreis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рыночная цена; курс (акций и т. п.)",
+        "{～で} по рыночной цене; по сегодняшнему курсу"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precio de mercado",
+        "precio actual"
+      ]
+    }
+  ]
+}

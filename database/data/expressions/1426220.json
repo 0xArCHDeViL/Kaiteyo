@@ -1,0 +1,127 @@
+{
+  "id": "1426220",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうせん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "抽選",
+      "furiganaExpression": [
+        {
+          "text": "抽",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "選",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 6642
+    },
+    {
+      "kanjiExpression": "抽籤",
+      "furiganaExpression": [
+        {
+          "text": "抽",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "籤",
+          "annotation": "せん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "抽せん",
+      "furiganaExpression": [
+        {
+          "text": "抽",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "せん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lottery",
+        "raffle",
+        "drawing (of lots)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lot",
+        "loterij",
+        "verloting",
+        "loting",
+        "trekking",
+        "uitloting",
+        "loten",
+        "strootje",
+        "lootjes trekken",
+        "{Belg.N.} lotje trekken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "loterie",
+        "tirage",
+        "tombola"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verlosung",
+        "Losziehung",
+        "Ziehung",
+        "Lotterie",
+        "Los",
+        "losen",
+        "durchs Los entscheiden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tombola",
+        "kép",
+        "rajz",
+        "rajzolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жеребьёвка",
+        "лотерея",
+        "вытягивание жребия; розыгрыш, жеребьёвка; лотерея",
+        "{～で} по жребию; в лотерее",
+        "{～する} тянуть жребий"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "loterija",
+        "žrebanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sorteo",
+        "insaculación",
+        "rifa"
+      ]
+    }
+  ]
+}

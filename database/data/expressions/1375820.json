@@ -1,0 +1,149 @@
+{
+  "id": "1375820",
+  "readings": [
+    {
+      "kanaExpression": "なるほど",
+      "rank": 3304
+    },
+    {
+      "kanjiExpression": "なる程",
+      "furiganaExpression": [
+        {
+          "text": "なる"
+        },
+        {
+          "text": "程",
+          "annotation": "ほど"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "成る程",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "な"
+        },
+        {
+          "text": "る"
+        },
+        {
+          "text": "程",
+          "annotation": "ほど"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "成程",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "なる"
+        },
+        {
+          "text": "程",
+          "annotation": "ほど"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "成るほど",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "な"
+        },
+        {
+          "text": "るほど"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "I see",
+        "that\u0027s right",
+        "indeed"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inderdaad",
+        "echt",
+        "(daad)werkelijk",
+        "wel degelijk",
+        "waarachtig",
+        "{inform.} warempel",
+        "waarlijk",
+        "zowaar",
+        "precies",
+        "volledig akkoord",
+        "wat je zegt",
+        "juist!",
+        "dat klopt",
+        "zo denk ik er ook over",
+        "zeg dat wel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "c\u0027est cela",
+        "en effet",
+        "effectivement",
+        "de fait"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in der Tat!",
+        "genau!",
+        "aha!",
+        "wirklich wahr!",
+        "so ist das also!",
+        "ich verstehe!",
+        "ach nein!"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ez az!",
+        "helyes!",
+        "így van!",
+        "rendben van!",
+        "úgy van!",
+        "tényleg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "в самом деле",
+        "действительно",
+        "\"всё ясно\"",
+        "\"я понял\"",
+        "в самом деле, действительно"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "tako je",
+        "seveda",
+        "aha, razumem"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Ya veo",
+        "en efecto"
+      ]
+    }
+  ]
+}

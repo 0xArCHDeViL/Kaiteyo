@@ -1,0 +1,75 @@
+{
+  "id": "1303150",
+  "readings": [
+    {
+      "kanaExpression": "さんぷく",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "山腹",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "さん"
+        },
+        {
+          "text": "腹",
+          "annotation": "ぷく"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hillside",
+        "mountainside"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "berghelling",
+        "bergwand",
+        "bergflank",
+        "heuvelhelling",
+        "heuvelwand",
+        "heuvelflank"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Berghang",
+        "Hügelabhang"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hegyoldal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "склон горы; косогор"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pobočje",
+        "strmina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ladera de montaña (falda de la montaña)"
+      ]
+    }
+  ]
+}

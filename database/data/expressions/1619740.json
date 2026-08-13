@@ -1,0 +1,50 @@
+{
+  "id": "1619740",
+  "readings": [
+    {
+      "kanaExpression": "とうちょう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "登頂",
+      "furiganaExpression": [
+        {
+          "text": "登",
+          "annotation": "とう"
+        },
+        {
+          "text": "頂",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "climbing to the summit",
+        "summiting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de top beklimmen",
+        "naar de top klimmen",
+        "topbeklimming",
+        "klim naar de top"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "besteigen",
+        "erklimmen",
+        "Bergbesteigung",
+        "Gipfelbezwingung"
+      ]
+    }
+  ]
+}

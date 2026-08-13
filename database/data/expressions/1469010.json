@@ -1,0 +1,69 @@
+{
+  "id": "1469010",
+  "readings": [
+    {
+      "kanaExpression": "ねんちゅうぎょうじ",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "ねんじゅうぎょうじ"
+    },
+    {
+      "kanaExpression": "ねんぢゅうぎょうじ"
+    },
+    {
+      "kanjiExpression": "年中行事",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "行",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "annual function",
+        "annual event"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jaarlijks evenement",
+        "event",
+        "jaarlijkse plechtigheid",
+        "activiteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alljährliche Veranstaltung",
+        "jährliches Fest"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "годовой календарь (празднеств и т. п.); совершаемые ежегодно празднества и обряды",
+        "(см.) ねんじゅうぎょうじ"
+      ]
+    }
+  ]
+}

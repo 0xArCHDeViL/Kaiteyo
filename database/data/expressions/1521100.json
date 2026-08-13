@@ -1,0 +1,70 @@
+{
+  "id": "1521100",
+  "readings": [
+    {
+      "kanaExpression": "ほくせい",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "北西",
+      "furiganaExpression": [
+        {
+          "text": "北",
+          "annotation": "ほく"
+        },
+        {
+          "text": "西",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "northwest"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "noordwesten",
+        "{afk.} N.W."
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nord-ouest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nordwesten",
+        "nordwestlich"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "северо-запад",
+        "{～[の]} северо-западный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "severozahod"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "noroeste"
+      ]
+    }
+  ]
+}

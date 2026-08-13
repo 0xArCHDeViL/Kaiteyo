@@ -1,0 +1,60 @@
+{
+  "id": "1425590",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうりゃく",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "中略",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "略",
+          "annotation": "りゃく"
+        }
+      ],
+      "rank": 5798
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "omission (of middle part of a text)",
+        "ellipsis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afbreking",
+        "weglating midden in een woord of passage",
+        "{taalk.} syncope"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Weglassung des mittleren Teils"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhagyás",
+        "kihagyás",
+        "mulasztás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пропуск (части текста, цитаты и т. п.)"
+      ]
+    }
+  ]
+}

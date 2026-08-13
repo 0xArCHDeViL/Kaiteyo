@@ -1,0 +1,50 @@
+{
+  "id": "1584400",
+  "readings": [
+    {
+      "kanaExpression": "ばってい",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "まってい"
+    },
+    {
+      "kanjiExpression": "末弟",
+      "furiganaExpression": [
+        {
+          "text": "末",
+          "annotation": "ばっ"
+        },
+        {
+          "text": "弟",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "youngest brother",
+        "last disciple"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jongste broer",
+        "laatste leerling",
+        "discipel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jüngster Bruder",
+        "der jüngste Schüler"
+      ]
+    }
+  ]
+}

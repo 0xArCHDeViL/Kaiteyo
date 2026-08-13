@@ -1,0 +1,62 @@
+{
+  "id": "1220990",
+  "readings": [
+    {
+      "kanaExpression": "きしゅ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "機首",
+      "furiganaExpression": [
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "首",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nose (of plane)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "neus van een vliegtuig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bug",
+        "Nase",
+        "Schnauze (eines Flugzeugs)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ékorr",
+        "kiöntő",
+        "kiöntőcső",
+        "kiugró",
+        "szerkezeti kiugrás",
+        "sziklafok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "носовая часть (нос) самолёта"
+      ]
+    }
+  ]
+}

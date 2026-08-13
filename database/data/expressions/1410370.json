@@ -1,0 +1,53 @@
+{
+  "id": "1410370",
+  "readings": [
+    {
+      "kanaExpression": "たいしん",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "耐震",
+      "furiganaExpression": [
+        {
+          "text": "耐",
+          "annotation": "たい"
+        },
+        {
+          "text": "震",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 5030
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "resistant to earthquakes"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aardbevingsbestendig",
+        "aardbevingsresistent",
+        "bevingsbestendig",
+        "aardschokvast"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erdbebenfestigkeit",
+        "Erdbebensicherheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} сейсмостойкий, антисейсмический"
+      ]
+    }
+  ]
+}

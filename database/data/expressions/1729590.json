@@ -1,0 +1,73 @@
+{
+  "id": "1729590",
+  "readings": [
+    {
+      "kanaExpression": "どろじあい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "泥仕合",
+      "furiganaExpression": [
+        {
+          "text": "泥",
+          "annotation": "どろ"
+        },
+        {
+          "text": "仕",
+          "annotation": "じ"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "泥試合",
+      "furiganaExpression": [
+        {
+          "text": "泥",
+          "annotation": "どろ"
+        },
+        {
+          "text": "試",
+          "annotation": "じ"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mudslinging contest",
+        "mudslinging match"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moddergevecht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gegenseitiges Mit-Schmutz-Bewerfen",
+        "Schlammschlacht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прост.) взаимное обливание грязью, взаимные оскорбления",
+        "{～をする} обливать друг друга грязью"
+      ]
+    }
+  ]
+}

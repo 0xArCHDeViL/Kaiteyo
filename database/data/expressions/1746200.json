@@ -1,0 +1,64 @@
+{
+  "id": "1746200",
+  "readings": [
+    {
+      "kanaExpression": "こくみんてき",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "国民的",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "national (e.g. hero, pastime, consensus)",
+        "relevant to all citizens",
+        "popular on a national level"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "National-",
+        "national",
+        "Volks-",
+        "völkisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nemzeti"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "народный, национальный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nacional"
+      ]
+    }
+  ]
+}

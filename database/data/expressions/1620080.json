@@ -1,0 +1,47 @@
+{
+  "id": "1620080",
+  "readings": [
+    {
+      "kanaExpression": "よたく",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "預託",
+      "furiganaExpression": [
+        {
+          "text": "預",
+          "annotation": "よ"
+        },
+        {
+          "text": "託",
+          "annotation": "たく"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depositing (of money, valuables, etc.)",
+        "deposition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "deponieren",
+        "Deposit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmozdítás",
+        "letétel",
+        "tanúskodás"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2836842",
+  "readings": [
+    {
+      "kanaExpression": "こうかんど",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "好感度",
+      "furiganaExpression": [
+        {
+          "text": "好",
+          "annotation": "こう"
+        },
+        {
+          "text": "感",
+          "annotation": "かん"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "likability",
+        "favorability",
+        "popularity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beliebtheitsgrad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1517500",
+  "readings": [
+    {
+      "kanaExpression": "ほうれい",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "法令",
+      "furiganaExpression": [
+        {
+          "text": "法",
+          "annotation": "ほう"
+        },
+        {
+          "text": "令",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 5305
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "statute",
+        "law",
+        "act",
+        "ordinance",
+        "regulation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "regel",
+        "wet",
+        "voorschrift",
+        "bepaling",
+        "verordening",
+        "huisregel",
+        "huiswet van een adellijk of vorstelijk huis",
+        "wetten en bevelen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lois et ordonances"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesetze und Verordnungen",
+        "gesetzliche Bestimmungen",
+        "Statuten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "закон; законы и постановления"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zakoni in ukazi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "decreto",
+        "ordenanza",
+        "mandato"
+      ]
+    }
+  ]
+}

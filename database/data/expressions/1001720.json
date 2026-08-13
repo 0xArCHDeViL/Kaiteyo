@@ -1,0 +1,80 @@
+{
+  "id": "1001720",
+  "readings": [
+    {
+      "kanaExpression": "おねがいします",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お願いします",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "いします"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御願いします",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "いします"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "please"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "alstublieft",
+        "ik verzoek u ~",
+        "ik bid u ~",
+        "wilt u a.u.b. ~",
+        "ik had graag ~ gesproken",
+        "gezien",
+        "{telef.} wilt u mij even verbinden met ~",
+        "ik reken erop"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "s\u0027il vous plaît"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prosim"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "por favor"
+      ]
+    }
+  ]
+}

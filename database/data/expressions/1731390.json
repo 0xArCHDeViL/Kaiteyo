@@ -1,0 +1,41 @@
+{
+  "id": "1731390",
+  "readings": [
+    {
+      "kanaExpression": "ひさく",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "秘策",
+      "furiganaExpression": [
+        {
+          "text": "秘",
+          "annotation": "ひ"
+        },
+        {
+          "text": "策",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "secret plan",
+        "secret scheme",
+        "secret stratagem",
+        "secret method"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geheimer Plan",
+        "Geheimmaßnahmen"
+      ]
+    }
+  ]
+}

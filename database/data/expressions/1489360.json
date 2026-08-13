@@ -1,0 +1,65 @@
+{
+  "id": "1489360",
+  "readings": [
+    {
+      "kanaExpression": "ひょうする",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "表する",
+      "furiganaExpression": [
+        {
+          "text": "表",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to express",
+        "to show"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uiten",
+        "tonen",
+        "betonen",
+        "betuigen",
+        "blijk geven van",
+        "bewijzen",
+        "aanbieden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausdrücken",
+        "zum Ausdruck bringen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kimutat",
+        "látható",
+        "mutat",
+        "vezet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выражать (напр. благодарность, уважение и т. п.)"
+      ]
+    }
+  ]
+}

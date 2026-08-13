@@ -1,0 +1,89 @@
+{
+  "id": "1003730",
+  "readings": [
+    {
+      "kanaExpression": "くすぐったい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "擽ったい",
+      "furiganaExpression": [
+        {
+          "text": "擽",
+          "annotation": "くすぐ"
+        },
+        {
+          "text": "ったい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "擽ぐったい",
+      "furiganaExpression": [
+        {
+          "text": "擽",
+          "annotation": "くす"
+        },
+        {
+          "text": "ぐったい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ticklish",
+        "embarrassing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kriebelen",
+        "jeuken",
+        "zich generen",
+        "zich ongemakkelijk voelen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chatouilleux",
+        "délicat",
+        "embarrassant",
+        "gênant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kitzlig",
+        "beschämt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizonytalan kimenetelű",
+        "csiklandós",
+        "kényes",
+        "nehéz",
+        "sértődékeny"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прям. и перен.) щекотливый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cosquilloso"
+      ]
+    }
+  ]
+}

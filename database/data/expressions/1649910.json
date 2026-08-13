@@ -1,0 +1,74 @@
+{
+  "id": "1649910",
+  "readings": [
+    {
+      "kanaExpression": "みずべ",
+      "rank": 25000
+    },
+    {
+      "kanaExpression": "すいへん"
+    },
+    {
+      "kanjiExpression": "水辺",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "辺",
+          "annotation": "べ"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "水べ",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "べ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "waterside",
+        "waterfront"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waterkant",
+        "waterzijde",
+        "walkant",
+        "{renga",
+        "haikai} watergerelateerde thematiek",
+        "woordenschat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewässerrand",
+        "Flussufer",
+        "Seeufer",
+        "Teichufer",
+        "Ufer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. см.) みずぎわ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "1663320",
+  "readings": [
+    {
+      "kanaExpression": "せおいなげ"
+    },
+    {
+      "kanaExpression": "しょいなげ",
+      "rank": 31000
+    },
+    {
+      "kanaExpression": "ぜおいなげ"
+    },
+    {
+      "kanjiExpression": "背負い投げ",
+      "furiganaExpression": [
+        {
+          "text": "背",
+          "annotation": "せ"
+        },
+        {
+          "text": "負",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "投",
+          "annotation": "な"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seoi nage (judo)",
+        "shoulder throw",
+        "back-carry throw"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schulterwurf",
+        "Verrat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhagyás"
+      ]
+    }
+  ]
+}

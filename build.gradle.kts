@@ -4,6 +4,7 @@
 // (kapt, parcelize, ...) resolvable in module build scripts without versions.
 plugins {
     kotlin("multiplatform") apply false
+    kotlin("jvm") apply false
     kotlin("plugin.compose") apply false
     kotlin("plugin.serialization") apply false
     kotlin("android") apply false

@@ -1,0 +1,61 @@
+{
+  "id": "1529020",
+  "readings": [
+    {
+      "kanaExpression": "みんせい",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "民生",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 12096
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public welfare",
+        "the people\u0027s livelihood"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volkswelvaart",
+        "maatschappelijk welzijn",
+        "nationaal levensonderhoud"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lebensunterhalt der Bevölkerung",
+        "Wohlfahrt der Bevölkerung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fogyasztó",
+        "civil",
+        "polgári"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общественное благополучие (благосостояние)"
+      ]
+    }
+  ]
+}

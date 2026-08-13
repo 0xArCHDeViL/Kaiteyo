@@ -1,0 +1,53 @@
+{
+  "id": "1383080",
+  "readings": [
+    {
+      "kanaExpression": "せきらんうん",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "積乱雲",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "せき"
+        },
+        {
+          "text": "乱",
+          "annotation": "らん"
+        },
+        {
+          "text": "雲",
+          "annotation": "うん"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cumulonimbus cloud"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kumulonimbus (Gewitterwolke, mächtig aufgetürmte Haufenwolke; Abk.: Cb)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ливневые грозовые облака"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cumulonimbo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1771640",
+  "readings": [
+    {
+      "kanaExpression": "ひぎしゃ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "被疑者",
+      "furiganaExpression": [
+        {
+          "text": "被",
+          "annotation": "ひ"
+        },
+        {
+          "text": "疑",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "suspect"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verdachte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tatverdächtiger",
+        "Verdächtiger"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сущ.) подозреваемый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(un) sospechoso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "misstänkt"
+      ]
+    }
+  ]
+}

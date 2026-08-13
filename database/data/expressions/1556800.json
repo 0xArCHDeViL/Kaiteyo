@@ -1,0 +1,77 @@
+{
+  "id": "1556800",
+  "readings": [
+    {
+      "kanaExpression": "ひやめし",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "れいはん"
+    },
+    {
+      "kanaExpression": "ひえめし"
+    },
+    {
+      "kanaExpression": "つめためし"
+    },
+    {
+      "kanjiExpression": "冷や飯",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "ひ"
+        },
+        {
+          "text": "や"
+        },
+        {
+          "text": "飯",
+          "annotation": "めし"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "冷飯",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "ひや"
+        },
+        {
+          "text": "飯",
+          "annotation": "めし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cold rice",
+        "hanger-on",
+        "dependent",
+        "disgraced former actor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} koude gekookte rijst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kalter Reis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "холодный (остывший) рис"
+      ]
+    }
+  ]
+}

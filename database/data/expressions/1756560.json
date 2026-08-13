@@ -1,0 +1,52 @@
+{
+  "id": "1756560",
+  "readings": [
+    {
+      "kanaExpression": "げんごしょうがい",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "言語障害",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "げん"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "障",
+          "annotation": "しょう"
+        },
+        {
+          "text": "害",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "speech impediment",
+        "speech disorder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sprachstörung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) афазия, расстройство речи"
+      ]
+    }
+  ]
+}

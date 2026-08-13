@@ -1,0 +1,97 @@
+{
+  "id": "1415520",
+  "readings": [
+    {
+      "kanaExpression": "たき",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "滝",
+      "furiganaExpression": [
+        {
+          "text": "滝",
+          "annotation": "たき"
+        }
+      ],
+      "rank": 6732
+    },
+    {
+      "kanjiExpression": "瀧",
+      "furiganaExpression": [
+        {
+          "text": "瀧",
+          "annotation": "たき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "waterfall",
+        "rapids"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waterval",
+        "cascade",
+        "{Sur.} soela",
+        "stroomversnelling",
+        "cataract",
+        "Taki"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cascade",
+        "rapides"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserfall",
+        "Katarakt",
+        "Stromschnelle",
+        "Taki"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vízesés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "водопад",
+        "1) водопад",
+        "2) (см.) たきがわ"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "slap"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cascada",
+        "salto de agua"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vattenfall"
+      ]
+    }
+  ]
+}

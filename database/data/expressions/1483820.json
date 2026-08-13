@@ -1,0 +1,59 @@
+{
+  "id": "1483820",
+  "readings": [
+    {
+      "kanaExpression": "ひか",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "皮下",
+      "furiganaExpression": [
+        {
+          "text": "皮",
+          "annotation": "ひ"
+        },
+        {
+          "text": "下",
+          "annotation": "か"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subcutaneous",
+        "hypodermic"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(unter der)Haut",
+        "Unterhautgewebe",
+        "Unterhautzellgewebe",
+        "Subkutis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bőr alá adott"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} подкожный"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "subkutan"
+      ]
+    }
+  ]
+}

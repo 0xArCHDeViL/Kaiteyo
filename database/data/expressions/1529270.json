@@ -1,0 +1,71 @@
+{
+  "id": "1529270",
+  "readings": [
+    {
+      "kanaExpression": "みんよう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "民謡",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "謡",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 14662
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "folk song",
+        "popular song"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volksballade",
+        "volkslied",
+        "volkswijsje",
+        "volksdeuntje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chanson populaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Volkslied"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "народная песня"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "narodna pesem"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "música folclórica"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1546370",
+  "readings": [
+    {
+      "kanaExpression": "ようち",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "用地",
+      "furiganaExpression": [
+        {
+          "text": "用",
+          "annotation": "よう"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 10066
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "site"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grond",
+        "land",
+        "terrein voor …"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grundstück"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "házhely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "участок (для определённых надобностей); полоса отчуждения (отвода)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tomt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1682970",
+  "readings": [
+    {
+      "kanaExpression": "げんえん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "減塩",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "塩",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reduction of salt",
+        "sodium restriction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Salzreduzierung",
+        "Verringern des Salzgehalts"
+      ]
+    }
+  ]
+}

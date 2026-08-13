@@ -1,0 +1,59 @@
+{
+  "id": "1234200",
+  "readings": [
+    {
+      "kanaExpression": "きょうてい",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "競艇",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "きょう"
+        },
+        {
+          "text": "艇",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "kyōtei",
+        "boat race",
+        "hydroplane racing event and gambling sport in Japan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sportt.} motorbootrace",
+        "speedbootrace"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Motorbootrennen",
+        "Regatta"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лодочные гонки, регата"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carrera de lanchas motoras"
+      ]
+    }
+  ]
+}

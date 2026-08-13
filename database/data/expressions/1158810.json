@@ -1,0 +1,78 @@
+{
+  "id": "1158810",
+  "readings": [
+    {
+      "kanaExpression": "いふく",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "衣服",
+      "furiganaExpression": [
+        {
+          "text": "衣",
+          "annotation": "い"
+        },
+        {
+          "text": "服",
+          "annotation": "ふく"
+        }
+      ],
+      "rank": 10939
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "clothes"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleding",
+        "kledij",
+        "kleren",
+        "klederen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vêtements"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kleidung",
+        "Kleider",
+        "Kleiden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ruházati cikkek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одежда; обмундирование"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ropa"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kläder"
+      ]
+    }
+  ]
+}

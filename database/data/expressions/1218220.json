@@ -1,0 +1,71 @@
+{
+  "id": "1218220",
+  "readings": [
+    {
+      "kanaExpression": "きぎょうか",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "企業家",
+      "furiganaExpression": [
+        {
+          "text": "企",
+          "annotation": "き"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "industrialist",
+        "entrepreneur"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ondernemer",
+        "ondernemend man",
+        "industrieel",
+        "fabrikant",
+        "entrepreneur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unternehmer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vállalkozó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предприниматель, промышленник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "industrial",
+        "empresario"
+      ]
+    }
+  ]
+}

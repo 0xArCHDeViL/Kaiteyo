@@ -1,0 +1,50 @@
+{
+  "id": "1227840",
+  "readings": [
+    {
+      "kanaExpression": "きゅうしょく",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "休職",
+      "furiganaExpression": [
+        {
+          "text": "休",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "職",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "temporary retirement",
+        "leave of absence",
+        "suspension from office"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beurlaubung",
+        "Freistellung",
+        "einstweiliger Ruhestand",
+        "beurlauben",
+        "vorübergehend von den Amtspflichten entbinden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "временное оставление (отстранение от) должности",
+        "{～になる} быть отстранённым от работы; быть переведённым на неполный рабочий день"
+      ]
+    }
+  ]
+}

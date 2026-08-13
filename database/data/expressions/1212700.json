@@ -1,0 +1,84 @@
+{
+  "id": "1212700",
+  "readings": [
+    {
+      "kanaExpression": "かんしゅう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "慣習",
+      "furiganaExpression": [
+        {
+          "text": "慣",
+          "annotation": "かん"
+        },
+        {
+          "text": "習",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 8904
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "custom",
+        "convention",
+        "common practice",
+        "becoming accustomed (to)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gewoonte",
+        "gebruik",
+        "praktijk",
+        "usance",
+        "usantie",
+        "conventie",
+        "{jur.} consuetudo {gebruik waaraan rechtskracht wordt toegekend}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "coutume",
+        "us et coutumes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Brauch",
+        "Sitte",
+        "Konvention",
+        "Gewohnheit",
+        "Observanz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обычай, обыкновение",
+        "{～的} обычный, привычный, традиционный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "navada",
+        "običaj"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "costumbre",
+        "tradición"
+      ]
+    }
+  ]
+}

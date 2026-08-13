@@ -1,0 +1,78 @@
+{
+  "id": "1561850",
+  "readings": [
+    {
+      "kanaExpression": "ろんり",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "論理",
+      "furiganaExpression": [
+        {
+          "text": "論",
+          "annotation": "ろん"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        }
+      ],
+      "rank": 2100
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "logic"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "logica"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "logique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Logik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "logika",
+        "logikai hálózat",
+        "logikai"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "логика",
+        "{～的} логический"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lógica",
+        "lógico"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "följdriktighet",
+        "logik"
+      ]
+    }
+  ]
+}

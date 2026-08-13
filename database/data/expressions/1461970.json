@@ -1,0 +1,57 @@
+{
+  "id": "1461970",
+  "readings": [
+    {
+      "kanaExpression": "ふたて",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "二手",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "ふた"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "ふた手",
+      "furiganaExpression": [
+        {
+          "text": "ふた"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "two groups",
+        "two bands"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beide Hände",
+        "zwei Gruppen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:) 二手に別れる делиться на две группы"
+      ]
+    }
+  ]
+}

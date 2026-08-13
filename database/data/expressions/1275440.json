@@ -1,0 +1,65 @@
+{
+  "id": "1275440",
+  "readings": [
+    {
+      "kanaExpression": "こうぐう",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "厚遇",
+      "furiganaExpression": [
+        {
+          "text": "厚",
+          "annotation": "こう"
+        },
+        {
+          "text": "遇",
+          "annotation": "ぐう"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "好遇",
+      "furiganaExpression": [
+        {
+          "text": "好",
+          "annotation": "こう"
+        },
+        {
+          "text": "遇",
+          "annotation": "ぐう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cordial welcome",
+        "hearty welcome",
+        "kind treatment",
+        "hospitality"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "warm aufnehmen",
+        "gastfreundlich empfangen",
+        "herzlich behandeln",
+        "herzliche Aufnahme",
+        "warme Behandlung",
+        "Gastfreundlichkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тёплый (сердечный, радушный) приём",
+        "{～する} оказывать тёплый (сердечный, радушный) приём, оказывать гостеприимство, тепло принимать"
+      ]
+    }
+  ]
+}

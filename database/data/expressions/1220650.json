@@ -1,0 +1,49 @@
+{
+  "id": "1220650",
+  "readings": [
+    {
+      "kanaExpression": "きふ",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "棋譜",
+      "furiganaExpression": [
+        {
+          "text": "棋",
+          "annotation": "き"
+        },
+        {
+          "text": "譜",
+          "annotation": "ふ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "record of a game of go, shogi, chess, etc."
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "résultat d\u0027un jeu de go, shogi, échecs, etc"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufzeichnung der Spielzüge (einer Go- od. Shōgi-Partie)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запись партии (в шахматы, в го)"
+      ]
+    }
+  ]
+}

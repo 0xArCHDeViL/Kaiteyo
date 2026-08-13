@@ -1,0 +1,45 @@
+{
+  "id": "1202510",
+  "readings": [
+    {
+      "kanaExpression": "かいうん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "開運",
+      "furiganaExpression": [
+        {
+          "text": "開",
+          "annotation": "かい"
+        },
+        {
+          "text": "運",
+          "annotation": "うん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "better fortune"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Glückbringen",
+        "Wendung zum Guten",
+        "Besserung des Schicksals"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поворот [судьбы] к лучшему"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1392230",
+  "readings": [
+    {
+      "kanaExpression": "せんきょく",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "選曲",
+      "furiganaExpression": [
+        {
+          "text": "選",
+          "annotation": "せん"
+        },
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "selection of music",
+        "song selection"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} muziekkeuze",
+        "nummerkeuze",
+        "{muz.} muziek kiezen",
+        "een muzikaal nummer kiezen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Musikauswahl"
+      ]
+    }
+  ]
+}

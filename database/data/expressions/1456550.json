@@ -1,0 +1,60 @@
+{
+  "id": "1456550",
+  "readings": [
+    {
+      "kanaExpression": "とっぱんいんさつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "凸版印刷",
+      "furiganaExpression": [
+        {
+          "text": "凸",
+          "annotation": "とっ"
+        },
+        {
+          "text": "版",
+          "annotation": "ぱん"
+        },
+        {
+          "text": "印",
+          "annotation": "いん"
+        },
+        {
+          "text": "刷",
+          "annotation": "さつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "letterpress",
+        "relief printing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "impression en relief"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reliefdruck",
+        "Hochdruck"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dombornyomás",
+        "magasnyomás"
+      ]
+    }
+  ]
+}

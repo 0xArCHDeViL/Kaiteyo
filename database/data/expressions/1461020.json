@@ -1,0 +1,61 @@
+{
+  "id": "1461020",
+  "readings": [
+    {
+      "kanaExpression": "なんだい",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "難題",
+      "furiganaExpression": [
+        {
+          "text": "難",
+          "annotation": "なん"
+        },
+        {
+          "text": "題",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "difficult problem",
+        "challenge"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sujet difficile"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwierige Frage",
+        "schwierige Aufgabe",
+        "etw., das zuviel verlangt ist"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) трудная задача (проблема), трудный вопрос",
+        "2) непомерное требование"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reto",
+        "desafío",
+        "problema difícil"
+      ]
+    }
+  ]
+}

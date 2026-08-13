@@ -1,0 +1,76 @@
+{
+  "id": "1362650",
+  "readings": [
+    {
+      "kanaExpression": "ふかさ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "深さ",
+      "furiganaExpression": [
+        {
+          "text": "深",
+          "annotation": "ふか"
+        },
+        {
+          "text": "さ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depth",
+        "profundity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "diepte",
+        "diepgang"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "profondeur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tiefe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alj",
+        "bölcsesség",
+        "vastagság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прям. и перен.) глубина"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "globina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "profundidad"
+      ]
+    }
+  ]
+}

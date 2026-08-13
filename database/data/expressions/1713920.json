@@ -1,0 +1,65 @@
+{
+  "id": "1713920",
+  "readings": [
+    {
+      "kanaExpression": "たいりゅう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "対流",
+      "furiganaExpression": [
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "convection"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "convectie",
+        "{i.h.b.} convectiestroom",
+        "convectiestroming"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Konvektion (Mitführung von Energie od. elektrischer Ladung durch die kleinsten Teilchen einer Strömung bzw. vertikale Luftbewegung)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áramvezetés",
+        "hőszállítás",
+        "konvekció"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "встречные течения"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "konvektion"
+      ]
+    }
+  ]
+}

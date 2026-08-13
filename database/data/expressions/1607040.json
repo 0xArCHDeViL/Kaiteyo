@@ -1,0 +1,94 @@
+{
+  "id": "1607040",
+  "readings": [
+    {
+      "kanaExpression": "われら",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "我ら",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "われ"
+        },
+        {
+          "text": "ら"
+        }
+      ],
+      "rank": 11357
+    },
+    {
+      "kanjiExpression": "我等",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "われ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吾等",
+      "furiganaExpression": [
+        {
+          "text": "吾",
+          "annotation": "われ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吾ら",
+      "furiganaExpression": [
+        {
+          "text": "吾",
+          "annotation": "われ"
+        },
+        {
+          "text": "ら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "we",
+        "us",
+        "I",
+        "me",
+        "you"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wij",
+        "ik",
+        "jullie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wir",
+        "unsereins"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мы",
+        "{～の} наш"
+      ]
+    }
+  ]
+}

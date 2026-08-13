@@ -1,0 +1,57 @@
+{
+  "id": "1658350",
+  "readings": [
+    {
+      "kanaExpression": "しはい",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "賜杯",
+      "furiganaExpression": [
+        {
+          "text": "賜",
+          "annotation": "し"
+        },
+        {
+          "text": "杯",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "賜盃",
+      "furiganaExpression": [
+        {
+          "text": "賜",
+          "annotation": "し"
+        },
+        {
+          "text": "盃",
+          "annotation": "はい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Emperor\u0027s cup",
+        "trophy given by the Emperor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vom Kaiser verliehene Trophäe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "императорский кубок (как приз на соревнованиях или как подарок к чьему-л. юбилею)"
+      ]
+    }
+  ]
+}

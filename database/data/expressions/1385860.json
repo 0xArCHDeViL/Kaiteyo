@@ -1,0 +1,113 @@
+{
+  "id": "1385860",
+  "readings": [
+    {
+      "kanaExpression": "おりたたみ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "折りたたみ",
+      "furiganaExpression": [
+        {
+          "text": "折",
+          "annotation": "お"
+        },
+        {
+          "text": "りたたみ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "折り畳み",
+      "furiganaExpression": [
+        {
+          "text": "折",
+          "annotation": "お"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "畳",
+          "annotation": "たた"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "折畳み",
+      "furiganaExpression": [
+        {
+          "text": "折",
+          "annotation": "おり"
+        },
+        {
+          "text": "畳",
+          "annotation": "たた"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "folding",
+        "collapsible",
+        "telescopic"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vouw-",
+        "klap-",
+        "opvouwbaar",
+        "opklapbaar",
+        "samenvouwbaar",
+        "inschuifbaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pliant (table, chaise)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Falten",
+        "Zusammenklappen",
+        "Falt…",
+        "Klapp…"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} складной"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zložljiv {miza, stol, dežnik ipd.}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "plegable",
+        "plegado"
+      ]
+    }
+  ]
+}

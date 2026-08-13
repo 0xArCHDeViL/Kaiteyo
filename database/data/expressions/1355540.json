@@ -1,0 +1,132 @@
+{
+  "id": "1355540",
+  "readings": [
+    {
+      "kanaExpression": "じょうだん",
+      "rank": 19000
+    },
+    {
+      "kanaExpression": "ぎだん"
+    },
+    {
+      "kanaExpression": "げだん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "冗談",
+      "furiganaExpression": [
+        {
+          "text": "冗",
+          "annotation": "じょう"
+        },
+        {
+          "text": "談",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 4586
+    },
+    {
+      "kanjiExpression": "戯談",
+      "furiganaExpression": [
+        {
+          "text": "戯",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "談",
+          "annotation": "だん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "joke",
+        "jest",
+        "funny story"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grap",
+        "mop",
+        "gekheid",
+        "grol",
+        "scherts",
+        "kwinkslag",
+        "bon-mot",
+        "geestigheid",
+        "lolletje",
+        "lachertje",
+        "paskwil",
+        "witz",
+        "wisecrack",
+        "leuk(ig)heid",
+        "aardigheid(je)",
+        "badinage",
+        "gag",
+        "{inform.} bak",
+        "{inform.} gein(tje)",
+        "{volkst.} gebbetje",
+        "{Barg.} oetse",
+        "{arch.} kortswijl",
+        "snakerij"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "plaisanterie",
+        "blague",
+        "histoire drôle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Scherz",
+        "Spaß",
+        "Witz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "móka",
+        "tréfa",
+        "viccelődés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шутка",
+        "{～に} в шутку, шутя",
+        "{～にする} обращать в шутку; шутить (с чем-л.); принимать за шутку"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "šala"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "broma"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skämt",
+        "vits"
+      ]
+    }
+  ]
+}

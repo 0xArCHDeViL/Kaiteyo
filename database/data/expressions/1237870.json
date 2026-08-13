@@ -1,0 +1,85 @@
+{
+  "id": "1237870",
+  "readings": [
+    {
+      "kanaExpression": "むなもと",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "胸元",
+      "furiganaExpression": [
+        {
+          "text": "胸",
+          "annotation": "むな"
+        },
+        {
+          "text": "元",
+          "annotation": "もと"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "胸もと",
+      "furiganaExpression": [
+        {
+          "text": "胸",
+          "annotation": "むな"
+        },
+        {
+          "text": "もと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "胸許",
+      "furiganaExpression": [
+        {
+          "text": "胸",
+          "annotation": "むな"
+        },
+        {
+          "text": "許",
+          "annotation": "もと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "breast",
+        "chest",
+        "pit of the stomach",
+        "solar plexus",
+        "epigastrium"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Brust"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emlő",
+        "kebel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) むなさき"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "maggrop"
+      ]
+    }
+  ]
+}

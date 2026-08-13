@@ -1,0 +1,71 @@
+{
+  "id": "1584910",
+  "readings": [
+    {
+      "kanaExpression": "ゆうはん",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ゆうめし",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "夕飯",
+      "furiganaExpression": [
+        {
+          "text": "夕",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "飯",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 9716
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "evening meal",
+        "dinner",
+        "supper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "avondeten",
+        "avondmaal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "souper",
+        "dîner en France",
+        "repas du soir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abendessen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ゆうしょく【夕食】",
+        "(см.) ゆうはん"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cena"
+      ]
+    }
+  ]
+}

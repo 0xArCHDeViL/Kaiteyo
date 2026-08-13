@@ -1,0 +1,57 @@
+{
+  "id": "1958000",
+  "readings": [
+    {
+      "kanaExpression": "ファイアウォール",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "ファイヤーウォール"
+    },
+    {
+      "kanaExpression": "ファイアーウォール"
+    },
+    {
+      "kanaExpression": "ファイヤウォール"
+    },
+    {
+      "kanaExpression": "ファイアウオール"
+    },
+    {
+      "kanaExpression": "ファイアーウオール"
+    },
+    {
+      "kanaExpression": "ファイヤーウオール"
+    },
+    {
+      "kanaExpression": "ファイヤウオール"
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "firewall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{comp.} firewall"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Firewall",
+        "Firewall (durch Hardware und Software erfolgende Abschirmung lokaler Netze gegenüber Zugriffen überregionaler Netze)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cortafuegos (eng: firewall)"
+      ]
+    }
+  ]
+}

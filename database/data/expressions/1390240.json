@@ -1,0 +1,75 @@
+{
+  "id": "1390240",
+  "readings": [
+    {
+      "kanaExpression": "せんし",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "戦士",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 7040
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "soldier",
+        "combatant",
+        "warrior"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "soldaat",
+        "strijder",
+        "vechter",
+        "krijgsman",
+        "krijger",
+        "combattant",
+        "{fig.} frontlijnwerker"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krieger",
+        "Soldat",
+        "Kämpfer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közlegény",
+        "harcos",
+        "védelmező"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прям. и перен.) воин, боец"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "soldado",
+        "combatiente",
+        "guerrero"
+      ]
+    }
+  ]
+}

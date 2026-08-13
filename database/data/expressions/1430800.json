@@ -1,0 +1,89 @@
+{
+  "id": "1430800",
+  "readings": [
+    {
+      "kanaExpression": "ちょっかく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "直角",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "ちょっ"
+        },
+        {
+          "text": "角",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "right angle",
+        "perpendicular"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rechte hoek",
+        "rechthoekig",
+        "orthogonaal",
+        "orthogonisch",
+        "haaks",
+        "met rechte hoek(en)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "angle droit",
+        "perpendiculaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rechtwinklig",
+        "rechter Winkel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "derékszög (\u003d90°)",
+        "derékszög"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(геом.) прямой угол",
+        "{～に} под прямым углом, перпендикулярно (чему-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pravi kot"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ángulo recto"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "rät vinkel"
+      ]
+    }
+  ]
+}

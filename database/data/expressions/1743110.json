@@ -1,0 +1,47 @@
+{
+  "id": "1743110",
+  "readings": [
+    {
+      "kanaExpression": "しょうぼうちょう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "消防庁",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "庁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Fire and Disaster Management Agency"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Amt für Feuerbekämpfung (ein Büro des Innenministeriums)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "управление пожарной охраны (главное, столичное)"
+      ]
+    }
+  ]
+}

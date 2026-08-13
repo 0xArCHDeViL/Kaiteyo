@@ -1,0 +1,54 @@
+{
+  "id": "1619760",
+  "readings": [
+    {
+      "kanaExpression": "とうは",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "踏破",
+      "furiganaExpression": [
+        {
+          "text": "踏",
+          "annotation": "とう"
+        },
+        {
+          "text": "破",
+          "annotation": "は"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "travelling (a long and difficult journey) on foot",
+        "walking (all the way) across",
+        "travelling through",
+        "hiking across",
+        "traversing",
+        "travelling all over (e.g. a country)",
+        "visiting all the major locations (of a region, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Durchwanderung",
+        "Durchquerung (zu Fuß)",
+        "durchwandern",
+        "durchqueren (das ganze Land)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} (кн.)",
+        "1) идти (путешествовать) пешком",
+        "2) исходить, изъездить (целую область, всю страну и т. п.)"
+      ]
+    }
+  ]
+}

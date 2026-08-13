@@ -1,0 +1,70 @@
+{
+  "id": "1538190",
+  "readings": [
+    {
+      "kanaExpression": "やくがく",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "薬学",
+      "furiganaExpression": [
+        {
+          "text": "薬",
+          "annotation": "やく"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(study of) pharmacy",
+        "pharmaceutics"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "farmacie",
+        "geneesmiddelenleer",
+        "artsenijmengkunde",
+        "artsenijbereidkunde",
+        "farmacologie",
+        "farmaceutica",
+        "farmaceutische wetenschappen",
+        "receptenleer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "études de pharmacie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pharmazie",
+        "Arzneikunde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyógyszertár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фармацевтика; фармакология"
+      ]
+    }
+  ]
+}

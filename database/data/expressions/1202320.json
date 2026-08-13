@@ -1,0 +1,69 @@
+{
+  "id": "1202320",
+  "readings": [
+    {
+      "kanaExpression": "えまきもの",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "絵巻物",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "巻",
+          "annotation": "まき"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "picture scroll"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beeldrol",
+        "horizontale rolschildering",
+        "beeldverhaal in rolvorm"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rouleau peint"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bildrolle",
+        "E・makimono"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "повесть в картинах (альбом иллюстраций с кратким пояснительным текстом тип изданий в средневековой Японии)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tira de pinturas enrollada",
+        "rollo de pinturas"
+      ]
+    }
+  ]
+}

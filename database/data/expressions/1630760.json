@@ -1,0 +1,47 @@
+{
+  "id": "1630760",
+  "readings": [
+    {
+      "kanaExpression": "けんじせい",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "検事正",
+      "furiganaExpression": [
+        {
+          "text": "検",
+          "annotation": "けん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "正",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chief public prosecutor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Oberstaatsanwalt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "старший прокурор района"
+      ]
+    }
+  ]
+}

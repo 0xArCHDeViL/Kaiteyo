@@ -1,0 +1,74 @@
+{
+  "id": "1490280",
+  "readings": [
+    {
+      "kanaExpression": "びょうげんきん",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "病原菌",
+      "furiganaExpression": [
+        {
+          "text": "病",
+          "annotation": "びょう"
+        },
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "菌",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "病源菌",
+      "furiganaExpression": [
+        {
+          "text": "病",
+          "annotation": "びょう"
+        },
+        {
+          "text": "源",
+          "annotation": "げん"
+        },
+        {
+          "text": "菌",
+          "annotation": "きん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pathogenic bacteria",
+        "germ",
+        "pathogen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krankheitskeim",
+        "pathogener Keim",
+        "pathogene Mikroorganismen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csíra"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) болезнетворный микроб (вирус), возбудитель болезни"
+      ]
+    }
+  ]
+}

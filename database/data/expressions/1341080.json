@@ -1,0 +1,54 @@
+{
+  "id": "1341080",
+  "readings": [
+    {
+      "kanaExpression": "はるやすみ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "春休み",
+      "furiganaExpression": [
+        {
+          "text": "春",
+          "annotation": "はる"
+        },
+        {
+          "text": "休",
+          "annotation": "やす"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "春休",
+      "furiganaExpression": [
+        {
+          "text": "春",
+          "annotation": "はる"
+        },
+        {
+          "text": "休",
+          "annotation": "やすみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spring break",
+        "spring vacation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frühlingsferien"
+      ]
+    }
+  ]
+}

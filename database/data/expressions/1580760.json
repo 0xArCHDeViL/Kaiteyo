@@ -1,0 +1,93 @@
+{
+  "id": "1580760",
+  "readings": [
+    {
+      "kanaExpression": "ひとめ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "じんもく"
+    },
+    {
+      "kanjiExpression": "人目",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "人眼",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "眼",
+          "annotation": "め"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(public) notice",
+        "attention",
+        "public eye",
+        "public gaze"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aandacht",
+        "belangstelling",
+        "publiciteit",
+        "openbaarheid",
+        "het oog van de wereld"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "le regard des autres",
+        "regard furtif"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die Augen der Welt",
+        "Öffentlichkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внимание других"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pogled ljudi, mnenje ljudi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "miradas ajenas",
+        "(el que dirá) la gente"
+      ]
+    }
+  ]
+}

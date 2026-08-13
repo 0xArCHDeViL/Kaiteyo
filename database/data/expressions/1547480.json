@@ -1,0 +1,74 @@
+{
+  "id": "1547480",
+  "readings": [
+    {
+      "kanaExpression": "よくそう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "浴槽",
+      "furiganaExpression": [
+        {
+          "text": "浴",
+          "annotation": "よく"
+        },
+        {
+          "text": "槽",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bathtub"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "badkuip",
+        "bad",
+        "kuip",
+        "kuipbad",
+        "{veroud.",
+        "w.g.} tub"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "baignoire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Badewanne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fürdőkád"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) ванна (для купанья)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bañera",
+        "bañadera",
+        "tina"
+      ]
+    }
+  ]
+}

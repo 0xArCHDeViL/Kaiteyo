@@ -1,0 +1,65 @@
+{
+  "id": "1333960",
+  "readings": [
+    {
+      "kanaExpression": "すみこむ",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "住み込む",
+      "furiganaExpression": [
+        {
+          "text": "住",
+          "annotation": "す"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be a live-in employee",
+        "to live in",
+        "to live with"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inwonen bij",
+        "samenwonen met",
+        "in de kost en inwoning zijn bij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bei jmdm. wohnen (als Angestellter bei seinem Chef, als Famulus bei seinem Lehrer)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bent lakik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жить в семье нанимателя (об учителе, прислуге и т. п.)"
+      ]
+    }
+  ]
+}

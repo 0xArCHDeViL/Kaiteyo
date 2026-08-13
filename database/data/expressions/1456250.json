@@ -1,0 +1,67 @@
+{
+  "id": "1456250",
+  "readings": [
+    {
+      "kanaExpression": "よみかき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "読み書き",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 12368
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reading and writing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lezen en schrijven"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lire et écrire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lesen und Schreiben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чтение и письмо; грамота"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lectura y escritura"
+      ]
+    }
+  ]
+}

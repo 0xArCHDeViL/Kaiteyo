@@ -1,0 +1,105 @@
+{
+  "id": "1242010",
+  "readings": [
+    {
+      "kanaExpression": "えりもと",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "襟元",
+      "furiganaExpression": [
+        {
+          "text": "襟",
+          "annotation": "えり"
+        },
+        {
+          "text": "元",
+          "annotation": "もと"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "衿元",
+      "furiganaExpression": [
+        {
+          "text": "衿",
+          "annotation": "えり"
+        },
+        {
+          "text": "元",
+          "annotation": "もと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "襟もと",
+      "furiganaExpression": [
+        {
+          "text": "襟",
+          "annotation": "えり"
+        },
+        {
+          "text": "もと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "えり元",
+      "furiganaExpression": [
+        {
+          "text": "えり"
+        },
+        {
+          "text": "元",
+          "annotation": "もと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(around the) neck",
+        "nape",
+        "collar (at the front)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(plek ter hoogte van de) nek",
+        "kraag van een kimono"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cou"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nackengegend",
+        "Ausschnitt",
+        "Kragen",
+        "Hals"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шея [сзади]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cogote",
+        "nuca"
+      ]
+    }
+  ]
+}

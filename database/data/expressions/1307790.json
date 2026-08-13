@@ -1,0 +1,51 @@
+{
+  "id": "1307790",
+  "readings": [
+    {
+      "kanaExpression": "こそだて",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "子育て",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "育",
+          "annotation": "そだ"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 3312
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "child rearing",
+        "child raising",
+        "raising children",
+        "parenting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kinderopvoeding",
+        "het grootbrengen van kinderen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kinderaufziehen",
+        "Kinderpflege"
+      ]
+    }
+  ]
+}

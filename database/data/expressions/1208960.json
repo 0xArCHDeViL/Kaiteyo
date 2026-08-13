@@ -1,0 +1,60 @@
+{
+  "id": "1208960",
+  "readings": [
+    {
+      "kanaExpression": "かぶけん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "株券",
+      "furiganaExpression": [
+        {
+          "text": "株",
+          "annotation": "かぶ"
+        },
+        {
+          "text": "券",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stock certificate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aandeelbewijs",
+        "aandeel",
+        "{veroud.} actie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "action (bourse)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aktie",
+        "Aktienzertifikat",
+        "Aktienurkunde",
+        "Aktienpapier"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "акция, ценная бумага"
+      ]
+    }
+  ]
+}

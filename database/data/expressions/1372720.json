@@ -1,0 +1,89 @@
+{
+  "id": "1372720",
+  "readings": [
+    {
+      "kanaExpression": "ずいい",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "ずい"
+    },
+    {
+      "kanjiExpression": "随意",
+      "furiganaExpression": [
+        {
+          "text": "随",
+          "annotation": "ずい"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "voluntary",
+        "optional",
+        "free",
+        "elective"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "optioneel",
+        "facultatief",
+        "vrij",
+        "vrijwillig",
+        "naar (eigen) keuze",
+        "naar eigen wil"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "facultatif",
+        "optionnel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "freiwillig",
+        "aus freiem Willen",
+        "beliebig",
+        "nach Belieben",
+        "fakultativ",
+        "freier Wille",
+        "Freiwilligkeit",
+        "Belieben",
+        "Willkür"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "akarati",
+        "ingyenes",
+        "önként jelentkező",
+        "önkéntes",
+        "szándékos",
+        "fakultatív",
+        "szabadon választható",
+        "tetszőleges"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} добровольный, свободный",
+        "{～[に]} по собственной воле, по своему желанию (усмотрению, выбору)"
+      ]
+    }
+  ]
+}

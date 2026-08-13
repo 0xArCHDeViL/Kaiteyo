@@ -1,0 +1,136 @@
+{
+  "id": "1410630",
+  "readings": [
+    {
+      "kanaExpression": "まちあいしつ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "待合室",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "まち"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "待ち合い室",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "ま"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "待合い室",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "まち"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "waiting room"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wachtkamer",
+        "wachtzaal",
+        "wachtruimte",
+        "antichambre",
+        "{i.h.b.} lobby",
+        "lounge"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "salle d\u0027attente"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Warteraum",
+        "Wartezimmer",
+        "Wartesaal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "váróterem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "комната (зал) ожидания"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "čakalnica",
+        "čakalna soba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sala de espera"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "väntrum",
+        "vänthall",
+        "väntsal"
+      ]
+    }
+  ]
+}

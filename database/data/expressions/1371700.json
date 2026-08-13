@@ -1,0 +1,63 @@
+{
+  "id": "1371700",
+  "readings": [
+    {
+      "kanaExpression": "みずかさ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "水かさ",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "かさ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "水嵩",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "嵩",
+          "annotation": "かさ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "volume of water (in a river, pond, flood, etc.)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "volume d\u0027eau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserstand",
+        "Wasserpegel",
+        "Wassermenge"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "объём (уровень) воды"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "1511010",
+  "readings": [
+    {
+      "kanaExpression": "へんげん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "変幻",
+      "furiganaExpression": [
+        {
+          "text": "変",
+          "annotation": "へん"
+        },
+        {
+          "text": "幻",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transformation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "plotse verschijning en verdwijning",
+        "snelle verandering",
+        "gedaanteverandering",
+        "gedaanteverwisseling",
+        "constante transformatie",
+        "plotseling verschijnen en weer verdwijnen",
+        "snel veranderen",
+        "zich constant transformeren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ständige Verwandlung",
+        "bunter Wechsel",
+        "sich ständig verwandeln",
+        "ständig auftauchen und verschwinden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átváltozás",
+        "transzformáció",
+        "transzformálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) трансформация, изменение"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ändring"
+      ]
+    }
+  ]
+}

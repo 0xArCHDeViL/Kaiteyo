@@ -1,0 +1,47 @@
+{
+  "id": "1898600",
+  "readings": [
+    {
+      "kanaExpression": "どにち",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "土日",
+      "furiganaExpression": [
+        {
+          "text": "土",
+          "annotation": "ど"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        }
+      ],
+      "rank": 6232
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weekend",
+        "Saturday and Sunday"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zaterdag en zondag",
+        "weekend",
+        "weekeinde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Samstag und Sonntag",
+        "Wochenende"
+      ]
+    }
+  ]
+}

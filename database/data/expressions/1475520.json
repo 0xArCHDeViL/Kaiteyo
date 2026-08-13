@@ -1,0 +1,75 @@
+{
+  "id": "1475520",
+  "readings": [
+    {
+      "kanaExpression": "うすれる",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "薄れる",
+      "furiganaExpression": [
+        {
+          "text": "薄",
+          "annotation": "うす"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 9940
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to fade",
+        "to become dim"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verflauwen",
+        "vervagen",
+        "afzwakken",
+        "afnemen",
+        "verzwakken",
+        "{色が} verschieten",
+        "verbleken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faner",
+        "s\u0027estomper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dünner werden",
+        "verblassen",
+        "schwach werden",
+        "trüb werden",
+        "nachlassen",
+        "sich abkühlen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhalkul",
+        "elhalványul",
+        "elhervaszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) うすらぐ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "1540150",
+  "readings": [
+    {
+      "kanaExpression": "ゆうじん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "友人",
+      "furiganaExpression": [
+        {
+          "text": "友",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 865
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "friend"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vriend",
+        "maat",
+        "makker",
+        "kameraad",
+        "{in Ind.} sobat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ami"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freund",
+        "Bekannter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "barátja vkinek",
+        "pártolója vkinek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "друг, приятель",
+        "{…と～になる} подружиться с (кем-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "amigo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vän"
+      ]
+    }
+  ]
+}

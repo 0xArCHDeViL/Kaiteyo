@@ -1,0 +1,44 @@
+{
+  "id": "1734580",
+  "readings": [
+    {
+      "kanaExpression": "しゅせき",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "酒席",
+      "furiganaExpression": [
+        {
+          "text": "酒",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "席",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drinking party"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bankett",
+        "Trinkgelage"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "банкет, пир"
+      ]
+    }
+  ]
+}

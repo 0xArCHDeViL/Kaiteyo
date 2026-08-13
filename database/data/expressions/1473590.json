@@ -1,0 +1,73 @@
+{
+  "id": "1473590",
+  "readings": [
+    {
+      "kanaExpression": "かいもとめる",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "買い求める",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "求",
+          "annotation": "もと"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 13498
+    },
+    {
+      "kanjiExpression": "買求める",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "かい"
+        },
+        {
+          "text": "求",
+          "annotation": "もと"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to buy"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kaufen",
+        "suchen und sich kaufen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megvásárol",
+        "megvesz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "покупать, приобретать"
+      ]
+    }
+  ]
+}

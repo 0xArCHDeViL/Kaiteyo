@@ -1,0 +1,51 @@
+{
+  "id": "1560350",
+  "readings": [
+    {
+      "kanaExpression": "ろうそ",
+      "rank": 16500
+    },
+    {
+      "kanaExpression": "ろうくみ"
+    },
+    {
+      "kanjiExpression": "労組",
+      "furiganaExpression": [
+        {
+          "text": "労",
+          "annotation": "ろう"
+        },
+        {
+          "text": "組",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 10366
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "labor union",
+        "labour union",
+        "trade union"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vakbond",
+        "vakvereniging",
+        "vakbeweging",
+        "{Belg.N.} syndicaat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewerkschaft"
+      ]
+    }
+  ]
+}

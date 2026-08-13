@@ -1,0 +1,97 @@
+{
+  "id": "1515530",
+  "readings": [
+    {
+      "kanaExpression": "ほうちょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "包丁",
+      "furiganaExpression": [
+        {
+          "text": "包",
+          "annotation": "ほう"
+        },
+        {
+          "text": "丁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 10775
+    },
+    {
+      "kanjiExpression": "庖丁",
+      "furiganaExpression": [
+        {
+          "text": "庖",
+          "annotation": "ほう"
+        },
+        {
+          "text": "丁",
+          "annotation": "ちょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "kitchen knife",
+        "carving knife",
+        "cooking",
+        "food"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keukenmes"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "couteau de cuisine",
+        "couteau à découper",
+        "cuisine",
+        "aliments",
+        "nourriture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "großes Küchenmesser",
+        "Kochen",
+        "Koch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nagykés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) кухонный нож",
+        "2) приготовление блюд, кухня"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kuhinjski nož"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuchillo",
+        "filo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "1649990",
+  "readings": [
+    {
+      "kanaExpression": "こうじ",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "しょうじ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "小路",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "路",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lane",
+        "alley"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "laantje",
+        "straatje",
+        "steegje",
+        "wegje",
+        "weggetje",
+        "paadje"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gasse",
+        "Gässchen",
+        "schmale Straße",
+        "Weg"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fasor",
+        "tekepálya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дорожка; улочка; переулок",
+        "(см.) こうじ【小路】"
+      ]
+    }
+  ]
+}

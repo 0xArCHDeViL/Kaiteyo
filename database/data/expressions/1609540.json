@@ -1,0 +1,86 @@
+{
+  "id": "1609540",
+  "readings": [
+    {
+      "kanaExpression": "かぜぐすり",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "かざぐすり"
+    },
+    {
+      "kanjiExpression": "風邪薬",
+      "furiganaExpression": [
+        {
+          "text": "風邪",
+          "annotation": "かぜ"
+        },
+        {
+          "text": "薬",
+          "annotation": "ぐすり"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "かぜ薬",
+      "furiganaExpression": [
+        {
+          "text": "かぜ"
+        },
+        {
+          "text": "薬",
+          "annotation": "ぐすり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "風薬",
+      "furiganaExpression": [
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        },
+        {
+          "text": "薬",
+          "annotation": "ぐすり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "remedy for a cold",
+        "cold medicine"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "médicament (remède) pour le rhume ou la grippe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arzneimittel gegen Erkältung",
+        "Erkältungsmittel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лекарство (средство) от простуды",
+        "(см.) かざぐすり"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "medicina para el catarro"
+      ]
+    }
+  ]
+}

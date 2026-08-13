@@ -1,0 +1,45 @@
+{
+  "id": "1630920",
+  "readings": [
+    {
+      "kanaExpression": "げんいん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "減員",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reduction of staff"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Personalabbau",
+        "Personal abbauen",
+        "das Personal reduzieren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сокращение штатов"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2262240",
+  "readings": [
+    {
+      "kanaExpression": "けい",
+      "rank": 10111
+    },
+    {
+      "kanaExpression": "け",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "罫",
+      "furiganaExpression": [
+        {
+          "text": "罫",
+          "annotation": "けい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rule",
+        "(ruled) line",
+        "line (on a go board, shogi board, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Linie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[проведённая по линейке] черта; графа",
+        "{～のある}, 罫の引いた линованный; разграфлённый",
+        "{～のない} нелинованный"
+      ]
+    }
+  ]
+}

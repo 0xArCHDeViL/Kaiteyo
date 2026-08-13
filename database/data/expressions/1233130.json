@@ -1,0 +1,66 @@
+{
+  "id": "1233130",
+  "readings": [
+    {
+      "kanaExpression": "ぎょぐん",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "なむら"
+    },
+    {
+      "kanjiExpression": "魚群",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "群",
+          "annotation": "ぐん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "school of fish",
+        "shoal of fish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "school vissen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "banc de poissons"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischschwarm"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "косяк (стадо) рыб"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "banco pesquero",
+        "bandada de peces"
+      ]
+    }
+  ]
+}

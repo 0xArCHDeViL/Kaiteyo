@@ -7,11 +7,22 @@ import org.gradle.api.tasks.TaskAction
 import java.io.File
 
 
-fun Project.registerPrepareAppAssetTasks() {
-    PrepareAssetsTask.SourceSet.values().forEach { registerAppAssetTask(it) }
+fun Project.registerPrepareAppAssetTasks(
+    appDataSource: AppDataSource = AppDataSource.RELEASE,
+    appDataVersion: Int = AppAssets.DefaultAppDataDatabaseVersion,
+    appDataReleaseTag: String = AppAssets.DefaultAppDataReleaseTag
+) {
+    PrepareAssetsTask.SourceSet.values().forEach {
+        registerAppAssetTask(it, appDataSource, appDataVersion, appDataReleaseTag)
+    }
 }
 
-private fun Project.registerAppAssetTask(sourceSet: PrepareAssetsTask.SourceSet) {
+private fun Project.registerAppAssetTask(
+    sourceSet: PrepareAssetsTask.SourceSet,
+    appDataSource: AppDataSource,
+    appDataVersion: Int,
+    appDataReleaseTag: String
+) {
     val cleanupTask = tasks.findByName(CleanupLegacyAppAssetsTask.name)
         ?: tasks.create(CleanupLegacyAppAssetsTask.name, CleanupLegacyAppAssetsTask::class.java)
 
@@ -25,6 +36,23 @@ private fun Project.registerAppAssetTask(sourceSet: PrepareAssetsTask.SourceSet)
     )
     prepareTask.sourceSet = sourceSet
     prepareTask.assetsPath = assetsDir.path
+    prepareTask.appDataSource = appDataSource
+    prepareTask.appDataVersion = appDataVersion
+    prepareTask.appDataReleaseTag = appDataReleaseTag
+
+    if (sourceSet == PrepareAssetsTask.SourceSet.Common && appDataSource == AppDataSource.SOURCE) {
+        val generatedDatabase = File(project.rootDir, "database/${AppAssets.appDataAssetFileName(appDataVersion)}")
+        prepareTask.dependsOn(":database:exportAppDatabase")
+        prepareTask.doFirst {
+            check(generatedDatabase.isFile) {
+                "Internal app database was not generated at ${generatedDatabase.absolutePath}"
+            }
+            val target = File(assetsDir, AppAssets.appDataAssetFileName(appDataVersion))
+            target.parentFile.mkdirs()
+            generatedDatabase.copyTo(target, overwrite = true)
+            println("Copied internal app database ${generatedDatabase.name} to ${target.absolutePath}")
+        }
+    }
 
     prepareTask.dependsOn(cleanupTask)
 
@@ -47,7 +75,7 @@ open class PrepareAssetsTask : DefaultTask() {
 
     enum class SourceSet(val assetLocation: AssetLocation) {
 
-        Common(AppAssets.CommonAssetsLocation),
+        Common(AppAssets.commonAssetsLocation()),
         Android(AppAssets.AndroidAssetsLocation);
 
         val title: String = "${name.lowercase()}Main"
@@ -60,14 +88,28 @@ open class PrepareAssetsTask : DefaultTask() {
     @Input
     lateinit var assetsPath: String
 
+    @Input
+    lateinit var appDataSource: AppDataSource
+
+    @Input
+    var appDataVersion: Int = AppAssets.DefaultAppDataDatabaseVersion
+
+    @Input
+    lateinit var appDataReleaseTag: String
+
     @get:OutputDirectory
     val output
         get() = assetsPath
 
     @TaskAction
     fun run() {
-        println("Preparing Kaiteyo Assets for $sourceSet at $assetsPath...")
-        handleAssets(sourceSet.assetLocation)
+        println("Preparing Kaiteyo Assets for $sourceSet at $assetsPath using app data source $appDataSource...")
+        handleAssets(
+            when (sourceSet) {
+                SourceSet.Common -> AppAssets.commonAssetsLocation(appDataVersion, appDataReleaseTag)
+                SourceSet.Android -> sourceSet.assetLocation
+            }
+        )
     }
 
     private fun handleAssets(assetLocation: AssetLocation) {

@@ -1,0 +1,121 @@
+{
+  "id": "1001890",
+  "readings": [
+    {
+      "kanaExpression": "おこのみやき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お好み焼き",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "好",
+          "annotation": "この"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 12982
+    },
+    {
+      "kanjiExpression": "お好み焼",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "好",
+          "annotation": "この"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "焼",
+          "annotation": "やき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御好み焼き",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "好",
+          "annotation": "この"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御好み焼",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "好",
+          "annotation": "この"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "焼",
+          "annotation": "やき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "okonomiyaki",
+        "savoury pancake fried on an iron griddle with vegetables, meat and/or seafood and topped with various sauces and condiments"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Okonomiyaki (Art Pfannkuchen dessen Teig mit beliebigen Zutaten wie Fisch, Fleisch, Gemüse etc. ergänzt werden kann)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) окономияки (несладкое печенье с овощами)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "\"okonomiyaki\" (tortitas japonesas a la plancha)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1485730",
+  "readings": [
+    {
+      "kanaExpression": "びひん",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "備品",
+      "furiganaExpression": [
+        {
+          "text": "備",
+          "annotation": "び"
+        },
+        {
+          "text": "品",
+          "annotation": "ひん"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "equipment",
+        "fixtures",
+        "furnishings",
+        "fittings",
+        "furniture",
+        "supplies"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitrusting",
+        "inrichting",
+        "installatie",
+        "aankleding",
+        "ameublement",
+        "meubilair",
+        "meubilering",
+        "toebehoren",
+        "apparatuur",
+        "armatuur",
+        "outillage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausstattung",
+        "Einrichtung",
+        "Einrichtungsgegenstände"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "berendezés",
+        "berendezési tárgyak",
+        "szerelvények"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предметы оборудования (обстановки); арматура; инвентарь"
+      ]
+    }
+  ]
+}

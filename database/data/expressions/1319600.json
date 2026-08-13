@@ -1,0 +1,73 @@
+{
+  "id": "1319600",
+  "readings": [
+    {
+      "kanaExpression": "しった",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "叱咤",
+      "furiganaExpression": [
+        {
+          "text": "叱",
+          "annotation": "しっ"
+        },
+        {
+          "text": "咤",
+          "annotation": "た"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "叱咜",
+      "furiganaExpression": [
+        {
+          "text": "叱",
+          "annotation": "しっ"
+        },
+        {
+          "text": "咜",
+          "annotation": "た"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scolding",
+        "rebuke",
+        "reprimand",
+        "fierce encouragement",
+        "exhorting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heftig schelten",
+        "kommandieren",
+        "lautstark anfeuern",
+        "heftiges Schelten",
+        "Kommandieren",
+        "lautstarke Anfeuerung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dorgálás",
+        "feddés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) окрик; (перен.) команда",
+        "{～する} кричать (на кого-л.); ругать (кого-л.); (перен.) командовать (кем-л.); громогласно подавать команду"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "1171300",
+  "readings": [
+    {
+      "kanaExpression": "うちゅう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "宇宙",
+      "furiganaExpression": [
+        {
+          "text": "宇",
+          "annotation": "う"
+        },
+        {
+          "text": "宙",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 1370
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "universe",
+        "cosmos",
+        "space"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "heelal",
+        "ruimte",
+        "kosmos",
+        "universum",
+        "het al"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cosmos",
+        "espace",
+        "univers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Universum",
+        "Kosmos",
+        "Weltall",
+        "Weltraum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "világegyetem",
+        "térköz",
+        "térző"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вселенная, космос, космическое пространство",
+        "{～の} космический"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vesolje",
+        "univerzum",
+        "kozmos"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "universo",
+        "cosmos",
+        "espacio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "världsrymden"
+      ]
+    }
+  ]
+}

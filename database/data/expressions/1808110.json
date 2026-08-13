@@ -1,0 +1,52 @@
+{
+  "id": "1808110",
+  "readings": [
+    {
+      "kanaExpression": "めくばり",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "目配り",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "め"
+        },
+        {
+          "text": "配",
+          "annotation": "くば"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "being watchful",
+        "keeping watch",
+        "keeping an eye open"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wachsam sein",
+        "die Augen offen halten",
+        "Wachsamkeit",
+        "Aufmerksamkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наблюдение, слежка",
+        "{～をする} вести наблюдение (слежку)"
+      ]
+    }
+  ]
+}

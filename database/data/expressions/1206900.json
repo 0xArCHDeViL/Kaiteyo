@@ -1,0 +1,99 @@
+{
+  "id": "1206900",
+  "readings": [
+    {
+      "kanaExpression": "がくせい",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "学生",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 622
+    },
+    {
+      "kanjiExpression": "學生",
+      "furiganaExpression": [
+        {
+          "text": "學",
+          "annotation": "がく"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "student (esp. a university student)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "student",
+        "studerende",
+        "{Lat.} studiosus",
+        "academieburger",
+        "muzenzoon",
+        "{afk.} stud"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "étudiant (en particulier d\u0027université)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Student",
+        "Schüler"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyetemi hallgató"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "учащийся, студент; слушатель (курсов и т. п.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "študent"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estudiante",
+        "alumno"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "student"
+      ]
+    }
+  ]
+}

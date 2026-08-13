@@ -1,0 +1,61 @@
+{
+  "id": "1621460",
+  "readings": [
+    {
+      "kanaExpression": "とけいまわり",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "時計回り",
+      "furiganaExpression": [
+        {
+          "text": "時計",
+          "annotation": "とけい"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "clockwise rotation",
+        "CW"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{～に} met de klok mee",
+        "rechtsdraaiend",
+        "{Belg.N.} in wijzerzin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rotation im Uhrzeigersinn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "óramutató járásával megegyező"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} [движущийся] по часовой стрелке"
+      ]
+    }
+  ]
+}

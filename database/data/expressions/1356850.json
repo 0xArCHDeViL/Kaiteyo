@@ -1,0 +1,78 @@
+{
+  "id": "1356850",
+  "readings": [
+    {
+      "kanaExpression": "ふかす",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "蒸かす",
+      "furiganaExpression": [
+        {
+          "text": "蒸",
+          "annotation": "ふ"
+        },
+        {
+          "text": "かす"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "蒸す",
+      "furiganaExpression": [
+        {
+          "text": "蒸",
+          "annotation": "ふか"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 14371
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to steam (food)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cuire à la vapeur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dämpfen",
+        "dünsten",
+        "in Dampf kochen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gőzerővel dolgozik",
+        "gőzerővel halad",
+        "gőzöl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "варить на пару"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cocinar al vapor",
+        "cocer al vapor"
+      ]
+    }
+  ]
+}

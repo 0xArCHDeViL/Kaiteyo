@@ -1,0 +1,76 @@
+{
+  "id": "1601230",
+  "readings": [
+    {
+      "kanaExpression": "はんぼう",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "繁忙",
+      "furiganaExpression": [
+        {
+          "text": "繁",
+          "annotation": "はん"
+        },
+        {
+          "text": "忙",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "煩忙",
+      "furiganaExpression": [
+        {
+          "text": "煩",
+          "annotation": "はん"
+        },
+        {
+          "text": "忙",
+          "annotation": "ぼう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "busy",
+        "high-stress",
+        "hectic",
+        "pressed (with business)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "occupé",
+        "pression du travail"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "starke Beanspruchung",
+        "starke Beschäftigung",
+        "extreme Geschäftigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elfoglalt",
+        "forgalmas"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) занятость, загруженность (делами)",
+        "{～な} занятый, загруженный"
+      ]
+    }
+  ]
+}

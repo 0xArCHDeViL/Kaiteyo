@@ -1,0 +1,124 @@
+{
+  "id": "1010500",
+  "readings": [
+    {
+      "kanaExpression": "ひしひし",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ヒシヒシ"
+    },
+    {
+      "kanjiExpression": "犇々",
+      "furiganaExpression": [
+        {
+          "text": "犇",
+          "annotation": "ひし"
+        },
+        {
+          "text": "々",
+          "annotation": "ひし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "犇犇",
+      "furiganaExpression": [
+        {
+          "text": "犇",
+          "annotation": "ひし"
+        },
+        {
+          "text": "犇",
+          "annotation": "ひし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "緊緊",
+      "furiganaExpression": [
+        {
+          "text": "緊",
+          "annotation": "ひし"
+        },
+        {
+          "text": "緊",
+          "annotation": "ひし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "緊々",
+      "furiganaExpression": [
+        {
+          "text": "緊",
+          "annotation": "ひし"
+        },
+        {
+          "text": "々",
+          "annotation": "ひし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "acutely (feel)",
+        "keenly",
+        "severely",
+        "tightly",
+        "hard"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fortement",
+        "sévèrement",
+        "vivement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bedrängend",
+        "fest"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "agyafúrtan",
+        "aktuálisan",
+        "égetően",
+        "éleselméjűen",
+        "eszesen",
+        "fokozottan",
+        "időszerűen",
+        "körmönfontan",
+        "ravaszul",
+        "egyszerűen",
+        "komolyan",
+        "ridegen",
+        "sallangmentesen",
+        "szigorúan",
+        "lelkesen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крепко, сильно"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ruido de leves pisadas",
+        "sentir vivamente"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "1610740",
+  "readings": [
+    {
+      "kanaExpression": "ちがいない",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "違いない",
+      "furiganaExpression": [
+        {
+          "text": "違",
+          "annotation": "ちが"
+        },
+        {
+          "text": "いない"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "違い無い",
+      "furiganaExpression": [
+        {
+          "text": "違",
+          "annotation": "ちが"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sure",
+        "no mistaking it",
+        "for certain",
+        "without doubt"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "er is geen twijfel aan dat ~",
+        "beslist",
+        "stellig",
+        "zeker",
+        "ongetwijfeld",
+        "niet te miskennen",
+        "onmiskenbaar",
+        "buiten kijf",
+        "zonder (enige) twijfel",
+        "zonder meer",
+        "niet aan twijfel onderhevig",
+        "ervan overtuigd dat",
+        "er absoluut zeker van dat",
+        "het staat vast",
+        "dat",
+        "het lijdt geen twijfel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "il est sûr (que)",
+        "il est certain (que)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bestimmt",
+        "sicher",
+        "sicherlich",
+        "ohne Zweifel",
+        "zweifellos"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizonyos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "несомненно (в конце предл.)",
+        "не что иное как (после сущ.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nezmotljiv",
+        "siguren",
+        "ni dvoma",
+        "sigurno"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(frase) seguro",
+        "sin equivocación",
+        "por cierto"
+      ]
+    }
+  ]
+}

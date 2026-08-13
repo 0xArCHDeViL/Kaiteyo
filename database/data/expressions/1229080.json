@@ -1,0 +1,63 @@
+{
+  "id": "1229080",
+  "readings": [
+    {
+      "kanaExpression": "きゅうきゅう",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "救急",
+      "furiganaExpression": [
+        {
+          "text": "救",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "急",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 7357
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first-aid",
+        "emergency (aid)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} eerstehulp-",
+        "spoed-",
+        "EHBO-",
+        "nood-"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "premiers secours",
+        "premiers soins"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hilfe in der Not",
+        "Rettung",
+        "(insbes.) Erste Hilfe",
+        "Erste-Hilfe-…"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скорая (неотложная, первая) помощь (тж. медицинская)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1790310",
+  "readings": [
+    {
+      "kanaExpression": "おしばな",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "押し花",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "花",
+          "annotation": "ばな"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "おし花",
+      "furiganaExpression": [
+        {
+          "text": "おし"
+        },
+        {
+          "text": "花",
+          "annotation": "ばな"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pressed flower"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geperste bloem",
+        "{i.h.b.} herbariumbloem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gepresste Blume"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "засушенные цветы; гербарий"
+      ]
+    }
+  ]
+}

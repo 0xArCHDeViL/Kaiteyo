@@ -1,0 +1,64 @@
+{
+  "id": "1261430",
+  "readings": [
+    {
+      "kanaExpression": "げんざいりょう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "原材料",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "材",
+          "annotation": "ざい"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 11590
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "raw materials",
+        "ingredients"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grondstof",
+        "onbewerkt materiaal",
+        "ruwe materie",
+        "{cul.} ingrediënt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rohmaterial",
+        "Zutat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alapanyag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сырьё и фабрикаты; сырьевые ресурсы и материалы"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "1585150",
+  "readings": [
+    {
+      "kanaExpression": "りょうそく",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "りょうあし"
+    },
+    {
+      "kanaExpression": "もろあし"
+    },
+    {
+      "kanjiExpression": "両足",
+      "furiganaExpression": [
+        {
+          "text": "両",
+          "annotation": "りょう"
+        },
+        {
+          "text": "足",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "both feet",
+        "both legs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beide Füße",
+        "beide Beine"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обе ноги, ноги"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ambos pies",
+        "pies (ambos)"
+      ]
+    }
+  ]
+}

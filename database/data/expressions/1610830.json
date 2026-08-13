@@ -1,0 +1,51 @@
+{
+  "id": "1610830",
+  "readings": [
+    {
+      "kanaExpression": "セし",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "セ氏",
+      "furiganaExpression": [
+        {
+          "text": "セ"
+        },
+        {
+          "text": "氏",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Celsius",
+        "centigrade"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(degré) Celsius",
+        "(degré) centigrade"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "celsius (unidad para medir la temperatura",
+        "katakana \"se\" viene de la traducción china del nombre celsius)"
+      ]
+    }
+  ]
+}

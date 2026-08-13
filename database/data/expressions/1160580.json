@@ -1,0 +1,104 @@
+{
+  "id": "1160580",
+  "readings": [
+    {
+      "kanaExpression": "そだてあげる",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "育て上げる",
+      "furiganaExpression": [
+        {
+          "text": "育",
+          "annotation": "そだ"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "育てあげる",
+      "furiganaExpression": [
+        {
+          "text": "育",
+          "annotation": "そだ"
+        },
+        {
+          "text": "てあげる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to raise (to maturity)",
+        "to bring up",
+        "to rear",
+        "to train",
+        "to educate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heranziehen",
+        "großziehen",
+        "aufziehen",
+        "erziehen",
+        "züchten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előidéz",
+        "előteremt",
+        "emel",
+        "épít",
+        "felébreszt",
+        "felemel",
+        "felhoz",
+        "felkelt",
+        "felnevel",
+        "felver",
+        "felvet",
+        "fokoz",
+        "nevel",
+        "tenyészt",
+        "termeszt",
+        "felállít",
+        "előkészít",
+        "képez",
+        "kikészít",
+        "szegez",
+        "oktat",
+        "tanít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воспитывать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "criar (a la madurez)",
+        "entrenar",
+        "educar"
+      ]
+    }
+  ]
+}

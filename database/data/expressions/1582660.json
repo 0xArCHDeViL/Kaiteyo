@@ -1,0 +1,48 @@
+{
+  "id": "1582660",
+  "readings": [
+    {
+      "kanaExpression": "にしょく",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "にじき"
+    },
+    {
+      "kanjiExpression": "二食",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "食",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "two meals",
+        "(eating) two meals a day"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zwei Mahlzeiten am Tag",
+        "zwei Mahlzeiten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приём пищи два раза в день, двухразовое питание"
+      ]
+    }
+  ]
+}

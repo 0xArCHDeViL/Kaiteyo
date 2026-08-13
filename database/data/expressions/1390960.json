@@ -1,0 +1,50 @@
+{
+  "id": "1390960",
+  "readings": [
+    {
+      "kanaExpression": "せんしゃ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "洗車",
+      "furiganaExpression": [
+        {
+          "text": "洗",
+          "annotation": "せん"
+        },
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "car washing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das Auto waschen",
+        "Autowäsche"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "autómosó"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "biltvätt"
+      ]
+    }
+  ]
+}

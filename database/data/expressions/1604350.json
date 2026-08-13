@@ -1,0 +1,105 @@
+{
+  "id": "1604350",
+  "readings": [
+    {
+      "kanaExpression": "まんなか",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "真ん中",
+      "furiganaExpression": [
+        {
+          "text": "真",
+          "annotation": "ま"
+        },
+        {
+          "text": "ん"
+        },
+        {
+          "text": "中",
+          "annotation": "なか"
+        }
+      ],
+      "rank": 4366
+    },
+    {
+      "kanjiExpression": "まん中",
+      "furiganaExpression": [
+        {
+          "text": "まん"
+        },
+        {
+          "text": "中",
+          "annotation": "なか"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "middle",
+        "centre",
+        "center",
+        "midpoint",
+        "heart"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "midden",
+        "centrum",
+        "middelpunt",
+        "hart",
+        "middel-",
+        "precies in het midden",
+        "halverwege ~"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cœur (ville, forêt, etc.)",
+        "centre",
+        "milieu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mitte",
+        "Zentrum",
+        "halbe Strecke",
+        "halber Weg"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közbülső",
+        "közép-",
+        "centrum",
+        "középcsatár",
+        "központ"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sredina",
+        "center"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "medio",
+        "centro",
+        "en el medio",
+        "medio camino"
+      ]
+    }
+  ]
+}

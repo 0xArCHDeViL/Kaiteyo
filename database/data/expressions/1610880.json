@@ -1,0 +1,82 @@
+{
+  "id": "1610880",
+  "readings": [
+    {
+      "kanaExpression": "どのへん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "どの辺",
+      "furiganaExpression": [
+        {
+          "text": "どの"
+        },
+        {
+          "text": "辺",
+          "annotation": "へん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "何の辺",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "ど"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "辺",
+          "annotation": "へん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "whereabouts",
+        "what part",
+        "how much",
+        "what point"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ou (interrogatif)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "welche Gegend?"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ahol",
+        "hol",
+        "hollét",
+        "merre"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "paradero"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "uppehållsort"
+      ]
+    }
+  ]
+}

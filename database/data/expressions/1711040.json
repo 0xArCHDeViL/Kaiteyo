@@ -1,0 +1,49 @@
+{
+  "id": "1711040",
+  "readings": [
+    {
+      "kanaExpression": "ひゃくはちじゅうど",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "百八十度",
+      "furiganaExpression": [
+        {
+          "text": "百",
+          "annotation": "ひゃく"
+        },
+        {
+          "text": "八",
+          "annotation": "はち"
+        },
+        {
+          "text": "十",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "180 degrees",
+        "complete (about-face; in policy, opinion, etc.)",
+        "radical (change)",
+        "hundred-and-eighty degree (turn)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einhundertachtzig Grad",
+        "180°",
+        "totale Umkehr"
+      ]
+    }
+  ]
+}

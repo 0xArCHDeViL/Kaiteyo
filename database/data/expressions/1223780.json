@@ -1,0 +1,49 @@
+{
+  "id": "1223780",
+  "readings": [
+    {
+      "kanaExpression": "きさい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "起債",
+      "furiganaExpression": [
+        {
+          "text": "起",
+          "annotation": "き"
+        },
+        {
+          "text": "債",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "issuing of bonds"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufnahme einer Anleihe",
+        "Herausgabe von Hypothekenbriefen",
+        "Anleihepapiere ausgeben",
+        "Anleihen aufnehmen",
+        "Obligationen ausgeben",
+        "Hypothekenbriefe herausgeben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выпуск займа",
+        "{～する} выпускать заём"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1681460",
+  "readings": [
+    {
+      "kanaExpression": "はいかん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "拝観",
+      "furiganaExpression": [
+        {
+          "text": "拝",
+          "annotation": "はい"
+        },
+        {
+          "text": "観",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "see",
+        "inspect",
+        "visit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besichtigung",
+        "Besuch (insbes. einen Tempel od. Schrein; )",
+        "besichtigen",
+        "besuchen (insbes. einen Tempel od. Schrein; )"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyházmegye",
+        "érsekség",
+        "püspökség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "осмотр",
+        "{～する} осматривать, видеть"
+      ]
+    }
+  ]
+}

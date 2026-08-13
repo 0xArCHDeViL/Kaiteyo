@@ -1,0 +1,75 @@
+{
+  "id": "1303710",
+  "readings": [
+    {
+      "kanaExpression": "さんご",
+      "rank": 27500
+    },
+    {
+      "kanaExpression": "サンゴ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "珊瑚",
+      "furiganaExpression": [
+        {
+          "text": "珊",
+          "annotation": "さん"
+        },
+        {
+          "text": "瑚",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "coral"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} koraaldier",
+        "koraalpoliep",
+        "koraal",
+        "kraal",
+        "kraaltje"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Koralle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "korall"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "коралл"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "coral"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "korall"
+      ]
+    }
+  ]
+}

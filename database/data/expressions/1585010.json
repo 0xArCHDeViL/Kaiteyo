@@ -1,0 +1,122 @@
+{
+  "id": "1585010",
+  "readings": [
+    {
+      "kanaExpression": "ねじ",
+      "rank": 32039
+    },
+    {
+      "kanaExpression": "らし"
+    },
+    {
+      "kanaExpression": "ネジ",
+      "rank": 10876
+    },
+    {
+      "kanjiExpression": "螺子",
+      "furiganaExpression": [
+        {
+          "text": "螺子",
+          "annotation": "ねじ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "捻子",
+      "furiganaExpression": [
+        {
+          "text": "捻子",
+          "annotation": "ねじ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "捩子",
+      "furiganaExpression": [
+        {
+          "text": "捩子",
+          "annotation": "ねじ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "螺旋",
+      "furiganaExpression": [
+        {
+          "text": "螺旋",
+          "annotation": "ねじ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "screw",
+        "key (of a clock, watch, etc.)",
+        "spring"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schroef",
+        "opwindknop {van horloge}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "clé (d\u0027une horloge, montre, etc.)",
+        "ressort (d\u0027une horloge, montre, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schraube",
+        "Gewinde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csavarás",
+        "uzsorás",
+        "csigavonal",
+        "csavarmenet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "винт",
+        "1) винт; шуруп; болт; гайка",
+        "2) кран (напр. водопроводный)",
+        "3) ключ для завода (часов)",
+        "4) свитое жгутом; жгут"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vijak",
+        "spirala"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tornillo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skruv"
+      ]
+    }
+  ]
+}

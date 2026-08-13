@@ -1,0 +1,60 @@
+{
+  "id": "1213490",
+  "readings": [
+    {
+      "kanaExpression": "かんげん",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "甘言",
+      "furiganaExpression": [
+        {
+          "text": "甘",
+          "annotation": "かん"
+        },
+        {
+          "text": "言",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sweet words",
+        "smooth talk",
+        "cajolery",
+        "flattery",
+        "sycophancy"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "enjôler"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schmeichelei",
+        "süße Worte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hízelgés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сладкие (медовые) речи"
+      ]
+    }
+  ]
+}

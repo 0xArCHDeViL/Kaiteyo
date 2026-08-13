@@ -1,0 +1,49 @@
+{
+  "id": "1739450",
+  "readings": [
+    {
+      "kanaExpression": "やくし",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "訳詩",
+      "furiganaExpression": [
+        {
+          "text": "訳",
+          "annotation": "やく"
+        },
+        {
+          "text": "詩",
+          "annotation": "し"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "translated poem"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vertaald gedicht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gedichtübersetzung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переводное стихотворение"
+      ]
+    }
+  ]
+}

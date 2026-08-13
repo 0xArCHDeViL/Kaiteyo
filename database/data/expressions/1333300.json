@@ -1,0 +1,52 @@
+{
+  "id": "1333300",
+  "readings": [
+    {
+      "kanaExpression": "しゅうもく",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "衆目",
+      "furiganaExpression": [
+        {
+          "text": "衆",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "目",
+          "annotation": "もく"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "all eyes",
+        "public attention"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aller ogen",
+        "algemene aandacht",
+        "publieke belangstelling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Aufmerksamkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "взгляды всех, общее внимание"
+      ]
+    }
+  ]
+}

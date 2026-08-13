@@ -1,0 +1,64 @@
+{
+  "id": "1492590",
+  "readings": [
+    {
+      "kanaExpression": "ふし",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "不死",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "死",
+          "annotation": "し"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "immortality",
+        "eternal life",
+        "undeath",
+        "undead"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unsterblichkeit",
+        "Unvergänglichkeit",
+        "ewiges Leben",
+        "unsterblich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halhatatlanság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бессмертие",
+        "{～の} бессмертный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inmortalidad",
+        "vida eterna",
+        "no-muerto"
+      ]
+    }
+  ]
+}

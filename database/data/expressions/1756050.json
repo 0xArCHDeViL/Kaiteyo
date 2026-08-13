@@ -1,0 +1,63 @@
+{
+  "id": "1756050",
+  "readings": [
+    {
+      "kanaExpression": "ぎむてき",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "義務的",
+      "furiganaExpression": [
+        {
+          "text": "義",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "compulsory",
+        "obligatory",
+        "mandatory"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pflicht…",
+        "obligatorisch",
+        "verbindlich",
+        "verpflichtend",
+        "bindend",
+        "vorgeschrieben",
+        "obligat",
+        "pflichtgemäß",
+        "pflichtschuldig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kötelező"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обязательный; по долгу"
+      ]
+    }
+  ]
+}

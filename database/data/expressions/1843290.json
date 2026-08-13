@@ -1,0 +1,60 @@
+{
+  "id": "1843290",
+  "readings": [
+    {
+      "kanaExpression": "こぐんふんとう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "孤軍奮闘",
+      "furiganaExpression": [
+        {
+          "text": "孤",
+          "annotation": "こ"
+        },
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "奮",
+          "annotation": "ふん"
+        },
+        {
+          "text": "闘",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fighting alone"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einsam und allein kämpfen",
+        "eine einsame Schlacht führen",
+        "einsamer Kampf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} вести ожесточённые бои [с противником] без всякой поддержки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estar sólo ante el peligro pero luchar hasta el fin valiéndose sólo de las propias fuerzas",
+        "luchar con todo empeño a pesar de no contar con ningún tipo de apoyo o ayuda externos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "1299010",
+  "readings": [
+    {
+      "kanaExpression": "ころしや",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "殺し屋",
+      "furiganaExpression": [
+        {
+          "text": "殺",
+          "annotation": "ころ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "professional killer",
+        "hit man"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beroepsmoordenaar",
+        "huurmoordenaar",
+        "killer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auftragskiller",
+        "Killer",
+        "gedungener Mörder"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "asesino profesional",
+        "sicario"
+      ]
+    }
+  ]
+}

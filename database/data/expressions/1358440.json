@@ -1,0 +1,64 @@
+{
+  "id": "1358440",
+  "readings": [
+    {
+      "kanaExpression": "しょっけん",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "食券",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょっ"
+        },
+        {
+          "text": "券",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "meal ticket"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maaltijdbon",
+        "maaltijdcoupon",
+        "voedselbon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Essensmarke",
+        "Essensbon"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ebédjegy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "карточка (талон) на питание"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "födkrok"
+      ]
+    }
+  ]
+}

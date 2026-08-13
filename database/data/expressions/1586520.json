@@ -1,0 +1,112 @@
+{
+  "id": "1586520",
+  "readings": [
+    {
+      "kanaExpression": "あてな",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "宛名",
+      "furiganaExpression": [
+        {
+          "text": "宛",
+          "annotation": "あて"
+        },
+        {
+          "text": "名",
+          "annotation": "な"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "宛て名",
+      "furiganaExpression": [
+        {
+          "text": "宛",
+          "annotation": "あ"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "名",
+          "annotation": "な"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "あて名",
+      "furiganaExpression": [
+        {
+          "text": "あて"
+        },
+        {
+          "text": "名",
+          "annotation": "な"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "name and address (on an envelope, etc.)",
+        "(addressee\u0027s) name",
+        "addressee"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "adres"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "adresse du destinataire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Adresse",
+        "Anschrift"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszéd",
+        "címzés",
+        "modor",
+        "igazgatóság",
+        "rendezés",
+        "útbaigazítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "адрес (на письме и т. п.)",
+        "адрес"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "naslovnik",
+        "naslov"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dirección",
+        "domicilio"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "1543200",
+  "readings": [
+    {
+      "kanaExpression": "よそく",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "予測",
+      "furiganaExpression": [
+        {
+          "text": "予",
+          "annotation": "よ"
+        },
+        {
+          "text": "測",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 2295
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prediction",
+        "estimation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorspellen",
+        "voorzien",
+        "vooruitzien",
+        "schatten",
+        "prognosticeren",
+        "voorspelling",
+        "vooruitzicht",
+        "schatting",
+        "prognose",
+        "prognosticatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prédiction",
+        "estimation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "voraussehen",
+        "vorausberechnen",
+        "rechnen mit",
+        "Prognose",
+        "Voraussage",
+        "Vorhersage",
+        "Schätzung",
+        "Veranschlagung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jóslás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предположения; предсказание",
+        "{～する} предполагать, делать предположения; предсказывать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "predicción",
+        "estimación"
+      ]
+    }
+  ]
+}

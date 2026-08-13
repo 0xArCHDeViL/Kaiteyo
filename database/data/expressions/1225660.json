@@ -1,0 +1,59 @@
+{
+  "id": "1225660",
+  "readings": [
+    {
+      "kanaExpression": "ぎもんふ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "疑問符",
+      "furiganaExpression": [
+        {
+          "text": "疑",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        },
+        {
+          "text": "符",
+          "annotation": "ふ"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "question mark"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fragezeichen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kérdőjel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вопросительный знак"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "signo de interrogación (?)"
+      ]
+    }
+  ]
+}

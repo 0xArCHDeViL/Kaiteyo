@@ -1,0 +1,61 @@
+{
+  "id": "1228710",
+  "readings": [
+    {
+      "kanaExpression": "きゅうこうか",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "急降下",
+      "furiganaExpression": [
+        {
+          "text": "急",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "降",
+          "annotation": "こう"
+        },
+        {
+          "text": "下",
+          "annotation": "か"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sudden drop",
+        "sharp fall",
+        "nosedive",
+        "swoop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einen Sturzflug machen",
+        "Sturzflug",
+        "Sturz",
+        "plötzlicher starker Abfall (von Temperatur, Luftdruck)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hirtelen megrohanás",
+        "lecsapás",
+        "váratlan megrohanás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) きゅうこう【急降】"
+      ]
+    }
+  ]
+}

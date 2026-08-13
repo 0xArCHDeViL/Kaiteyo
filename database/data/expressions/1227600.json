@@ -1,0 +1,49 @@
+{
+  "id": "1227600",
+  "readings": [
+    {
+      "kanaExpression": "きゅうえん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "休演",
+      "furiganaExpression": [
+        {
+          "text": "休",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "演",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "suspending performance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausfallen (eine Vorstellung)",
+        "geschlossen sein (Theater etc.)",
+        "nicht spielen (ein Schauspieler)",
+        "Ausfall einer Vorstellung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) отмена представления",
+        "{～する} отменять представление (спектакль)",
+        "2) неучастие в спектакле",
+        "{～する} не участвовать в спектакле"
+      ]
+    }
+  ]
+}

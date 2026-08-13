@@ -1,0 +1,64 @@
+{
+  "id": "1286270",
+  "readings": [
+    {
+      "kanaExpression": "こくがい",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "国外",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 8531
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outside the country",
+        "abroad"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "en dehors du pays"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausland"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～に} вне пределов (за пределами) страны; за границей, за рубежом; за границу"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izven države",
+        "izven meja dežele",
+        "tujina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fuera del país"
+      ]
+    }
+  ]
+}

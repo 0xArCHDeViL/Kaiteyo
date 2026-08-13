@@ -1,0 +1,63 @@
+{
+  "id": "1389720",
+  "readings": [
+    {
+      "kanaExpression": "せんせん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "宣戦",
+      "furiganaExpression": [
+        {
+          "text": "宣",
+          "annotation": "せん"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "declaration of war"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de oorlog verklaren",
+        "oorlogsverklaring"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déclaration de guerre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegserklärung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "объявление войны",
+        "{～する} объявлять войну"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "declaración de guerra"
+      ]
+    }
+  ]
+}

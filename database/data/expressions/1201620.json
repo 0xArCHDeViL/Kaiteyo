@@ -1,0 +1,88 @@
+{
+  "id": "1201620",
+  "readings": [
+    {
+      "kanaExpression": "のり",
+      "rank": 7276
+    },
+    {
+      "kanaExpression": "ノリ",
+      "rank": 6485
+    },
+    {
+      "kanjiExpression": "海苔",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "の"
+        },
+        {
+          "text": "苔",
+          "annotation": "り"
+        }
+      ],
+      "rank": 13342
+    },
+    {
+      "kanjiExpression": "紫菜",
+      "furiganaExpression": [
+        {
+          "text": "紫",
+          "annotation": "の"
+        },
+        {
+          "text": "菜",
+          "annotation": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nori",
+        "laver",
+        "edible seaweed, usu. Porphyra yezoensis or P. tenera, usu. dried and pressed into sheets"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} nori",
+        "Porphyra"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "algue séchée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meerlattich",
+        "Seegras",
+        "Porphyra tenera",
+        "Boshi-nori",
+        "Nori (papierartiges Algenprodukt)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) морской мох (общее обозначение некоторых морских водорослей, бурых и зелёных, растущих на подводных скалах)",
+        "2) (см.) あさくさのり",
+        "3) нори (тонкие листочки сушёной водоросли tenera, употребляются как приправа)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nori",
+        "alga comestible"
+      ]
+    }
+  ]
+}

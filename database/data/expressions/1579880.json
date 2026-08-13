@@ -1,0 +1,61 @@
+{
+  "id": "1579880",
+  "readings": [
+    {
+      "kanaExpression": "じゅうなな",
+      "rank": 15500
+    },
+    {
+      "kanaExpression": "じゅうしち"
+    },
+    {
+      "kanjiExpression": "十七",
+      "furiganaExpression": [
+        {
+          "text": "十",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "七",
+          "annotation": "なな"
+        }
+      ],
+      "rank": 15500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seventeen",
+        "17"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "siebzehn",
+        "17"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tizenhét"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "семнадцать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "17",
+        "diecisiete"
+      ]
+    }
+  ]
+}

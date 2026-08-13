@@ -1,0 +1,69 @@
+{
+  "id": "1493900",
+  "readings": [
+    {
+      "kanaExpression": "ふていき",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "不定期",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "定",
+          "annotation": "てい"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        }
+      ],
+      "rank": 7050
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "irregular",
+        "indeterminate",
+        "tramp (steamer)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onbepaalde tijd",
+        "duur",
+        "{～の} onregelmatig",
+        "onregelmatigheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unregelmäßig",
+        "unbestimmt",
+        "Unbestimmtheit",
+        "Unregelmäßigkeit",
+        "Unbegrenztheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szabálytalan",
+        "csavargó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} нерегулярный"
+      ]
+    }
+  ]
+}

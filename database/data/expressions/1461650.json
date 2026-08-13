@@ -1,0 +1,51 @@
+{
+  "id": "1461650",
+  "readings": [
+    {
+      "kanaExpression": "にごん",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "にげん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "二言",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "言",
+          "annotation": "ごん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "double-dealing",
+        "double tongue",
+        "going back on what one has said",
+        "repeating oneself"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wiederholung von etwas Gesagtem",
+        "Sagen von etwas, das dem vorher Gesagten widerspricht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "двуличие"
+      ]
+    }
+  ]
+}

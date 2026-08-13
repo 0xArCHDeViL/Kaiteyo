@@ -1,0 +1,62 @@
+{
+  "id": "1699550",
+  "readings": [
+    {
+      "kanaExpression": "ており",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "手織り",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "織",
+          "annotation": "お"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "手織",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "織",
+          "annotation": "おり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "handwoven",
+        "handspun",
+        "weaving by hand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Handweben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ручное (кустарное) ткачество",
+        "{～の} домотканный"
+      ]
+    }
+  ]
+}

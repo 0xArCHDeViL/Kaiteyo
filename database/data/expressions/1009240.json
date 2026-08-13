@@ -1,0 +1,71 @@
+{
+  "id": "1009240",
+  "readings": [
+    {
+      "kanaExpression": "どのよう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "どの様",
+      "furiganaExpression": [
+        {
+          "text": "どの"
+        },
+        {
+          "text": "様",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "何の様",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "ど"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "様",
+          "annotation": "よう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "what sort",
+        "what kind"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wat soort",
+        "wat voor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "was für ein",
+        "was für eine Art von",
+        "welches",
+        "welche Weise",
+        "welcher Zustand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "{～な} какой?",
+        "{～に} как, каким образом?"
+      ]
+    }
+  ]
+}

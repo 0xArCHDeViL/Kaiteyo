@@ -1,0 +1,54 @@
+{
+  "id": "1643010",
+  "readings": [
+    {
+      "kanaExpression": "にがりきる",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "苦り切る",
+      "furiganaExpression": [
+        {
+          "text": "苦",
+          "annotation": "にが"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to look sour",
+        "to look disgusted",
+        "to scowl",
+        "to frown"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verbittert sein",
+        "ein saures Gesicht machen",
+        "sauer reagieren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выглядеть расстроенным (опечаленным)"
+      ]
+    }
+  ]
+}

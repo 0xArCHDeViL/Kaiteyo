@@ -1,0 +1,59 @@
+{
+  "id": "1243010",
+  "readings": [
+    {
+      "kanaExpression": "きんせい",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "金星",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "きん"
+        },
+        {
+          "text": "星",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 14132
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Venus (planet)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{astron.} Venus",
+        "Dagster",
+        "Morgenster",
+        "Avondster",
+        "Vesper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Venus (der zweite Planet von der Sonne aus gesehen)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(астр.) Венера"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Venus (planeta)"
+      ]
+    }
+  ]
+}

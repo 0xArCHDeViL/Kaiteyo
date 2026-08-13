@@ -1,0 +1,50 @@
+{
+  "id": "1472520",
+  "readings": [
+    {
+      "kanaExpression": "はいいん",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "敗因",
+      "furiganaExpression": [
+        {
+          "text": "敗",
+          "annotation": "はい"
+        },
+        {
+          "text": "因",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cause of defeat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oorzaak van de nederlaag",
+        "mislukking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ursache einer Niederlage"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) причина поражения"
+      ]
+    }
+  ]
+}

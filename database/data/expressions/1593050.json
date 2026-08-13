@@ -1,0 +1,97 @@
+{
+  "id": "1593050",
+  "readings": [
+    {
+      "kanaExpression": "こうり",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "小売",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "売",
+          "annotation": "うり"
+        }
+      ],
+      "rank": 4637
+    },
+    {
+      "kanjiExpression": "小売り",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 13108
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "retail"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkoop in het klein",
+        "verkoop en détail",
+        "detailhandel",
+        "kleinhandel",
+        "detailverkoop",
+        "winkelverkoop"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vente au détail"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einzelhandel",
+        "Kleinhandel",
+        "Kleinverkauf",
+        "(schweiz.)Detailhandel",
+        "Detailgeschäft",
+        "(obsol.)Retail"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiskereskedelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "розничная продажа",
+        "{～する} продавать в розницу",
+        "{～で} в розницу"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "menudeo",
+        "venta al por menor"
+      ]
+    }
+  ]
+}

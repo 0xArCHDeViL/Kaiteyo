@@ -1,0 +1,76 @@
+{
+  "id": "1394680",
+  "readings": [
+    {
+      "kanaExpression": "そういう",
+      "rank": 196
+    },
+    {
+      "kanaExpression": "そうゆう"
+    },
+    {
+      "kanaExpression": "そーゆー"
+    },
+    {
+      "kanjiExpression": "そう言う",
+      "furiganaExpression": [
+        {
+          "text": "そう"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "然う言う",
+      "furiganaExpression": [
+        {
+          "text": "然",
+          "annotation": "そ"
+        },
+        {
+          "text": "う"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "such",
+        "like that",
+        "that sort of"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "derartig",
+        "dermaßen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tal",
+        "como eso",
+        "ese tipo de",
+        "muy"
+      ]
+    }
+  ]
+}

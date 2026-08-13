@@ -1,0 +1,49 @@
+{
+  "id": "1536040",
+  "readings": [
+    {
+      "kanaExpression": "もんだいじ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "問題児",
+      "furiganaExpression": [
+        {
+          "text": "問",
+          "annotation": "もん"
+        },
+        {
+          "text": "題",
+          "annotation": "だい"
+        },
+        {
+          "text": "児",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "problem child"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Problemkind",
+        "Sorgenkind"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "problembarn",
+        "sorgebarn"
+      ]
+    }
+  ]
+}

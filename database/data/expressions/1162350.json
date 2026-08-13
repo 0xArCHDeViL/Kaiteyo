@@ -1,0 +1,75 @@
+{
+  "id": "1162350",
+  "readings": [
+    {
+      "kanaExpression": "いちご",
+      "rank": 12046
+    },
+    {
+      "kanjiExpression": "一語",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "１語",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いち"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one word"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "één woord"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Wort",
+        "wenige Worte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одно слово"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "una palabra"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "med ett ord"
+      ]
+    }
+  ]
+}

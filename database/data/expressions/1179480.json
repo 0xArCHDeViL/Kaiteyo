@@ -1,0 +1,93 @@
+{
+  "id": "1179480",
+  "readings": [
+    {
+      "kanaExpression": "おくゆき",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "奥行き",
+      "furiganaExpression": [
+        {
+          "text": "奥",
+          "annotation": "おく"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 13575
+    },
+    {
+      "kanjiExpression": "奥行",
+      "furiganaExpression": [
+        {
+          "text": "奥",
+          "annotation": "おく"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆき"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depth",
+        "length"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "diepte van een huis",
+        "perceel",
+        "geestelijke diepte",
+        "grondigheid",
+        "diepgang"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "profondeur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tiefe (eines Gebäudes oder einer Fläche; im Gegensatz zur Breite)",
+        "Tiefe (eines Charakters od. Denkens)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közepe vminek",
+        "mélység"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глубина",
+        "{～のある} (прям. и перен.) глубокий"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "profundidad",
+        "hondura"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1808430",
+  "readings": [
+    {
+      "kanaExpression": "にげば",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "逃げ場",
+      "furiganaExpression": [
+        {
+          "text": "逃",
+          "annotation": "に"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "逃場",
+      "furiganaExpression": [
+        {
+          "text": "逃",
+          "annotation": "にげ"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(place of) refuge",
+        "escape",
+        "exit",
+        "way out",
+        "shelter",
+        "hiding place"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zufluchtsort",
+        "Unterschlupf",
+        "Versteck",
+        "Fluchtweg",
+        "Ausweg"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "járdasziget",
+        "mentsvár",
+        "óvóhely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "убежище, укрытие"
+      ]
+    }
+  ]
+}

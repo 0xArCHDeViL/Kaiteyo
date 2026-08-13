@@ -1,0 +1,54 @@
+{
+  "id": "1228910",
+  "readings": [
+    {
+      "kanaExpression": "きゅうてんちょっか",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "急転直下",
+      "furiganaExpression": [
+        {
+          "text": "急",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "直",
+          "annotation": "ちょっ"
+        },
+        {
+          "text": "下",
+          "annotation": "か"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "suddenly and precipitately",
+        "take a sudden turn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schlagartige, eine Lösung bringende Veränderung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "резкая (внезапная) перемена [к худшему], коренное изменение, крутой поворот [к худшему]",
+        "{～する} резко (коренным образом) изменяться",
+        "{～[して]} внезапно, разом"
+      ]
+    }
+  ]
+}

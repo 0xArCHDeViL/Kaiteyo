@@ -1,0 +1,154 @@
+{
+  "id": "1209220",
+  "readings": [
+    {
+      "kanaExpression": "かみつく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "噛み付く",
+      "furiganaExpression": [
+        {
+          "text": "噛",
+          "annotation": "か"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "噛みつく",
+      "furiganaExpression": [
+        {
+          "text": "噛",
+          "annotation": "か"
+        },
+        {
+          "text": "みつく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "噛付く",
+      "furiganaExpression": [
+        {
+          "text": "噛",
+          "annotation": "かみ"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "かみ付く",
+      "furiganaExpression": [
+        {
+          "text": "かみ"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to bite (at)",
+        "to snap at",
+        "to snap at (someone)",
+        "to flare up at",
+        "to jump down (someone\u0027s) throat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aanbijten",
+        "bijten",
+        "toebijten",
+        "happen",
+        "snappen",
+        "een beet nemen",
+        "zijn tanden zetten in",
+        "uitvallen tegen",
+        "afsnauwen",
+        "afbekken",
+        "afbijten",
+        "te lijf gaan",
+        "aanvliegen",
+        "{veroud.",
+        "inform.} afjakkeren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chercher à mordre",
+        "grogner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beißen",
+        "zubeißen",
+        "schnappen",
+        "bissig anfauchen",
+        "anfahren",
+        "grob fragen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bekapja a horgot",
+        "benyúlik",
+        "csíp",
+        "éget",
+        "kimarat",
+        "mar",
+        "megharap",
+        "megmar",
+        "belekap",
+        "ráförmed vkire",
+        "ráharap",
+        "rárivall vkire",
+        "utána kap"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ugrizniti",
+        "hlastati po"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "morder",
+        "gruñir"
+      ]
+    }
+  ]
+}

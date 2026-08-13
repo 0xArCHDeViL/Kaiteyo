@@ -1,0 +1,56 @@
+{
+  "id": "1243730",
+  "readings": [
+    {
+      "kanaExpression": "ここのえ",
+      "rank": 26000
+    },
+    {
+      "kanaExpression": "きゅうちょう"
+    },
+    {
+      "kanaExpression": "くじゅう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "九重",
+      "furiganaExpression": [
+        {
+          "text": "九",
+          "annotation": "ここの"
+        },
+        {
+          "text": "重",
+          "annotation": "え"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ninefold",
+        "imperial palace",
+        "the Court"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kaiserlicher Palast",
+        "kaiserliche Residenz",
+        "Hauptstadt",
+        "neunfaches Übereinanderliegen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1): {～の} сложенный вдевятеро; девятислойный",
+        "2) (ист. поэт.) императорский дворец"
+      ]
+    }
+  ]
+}

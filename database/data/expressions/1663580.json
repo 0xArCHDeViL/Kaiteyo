@@ -1,0 +1,49 @@
+{
+  "id": "1663580",
+  "readings": [
+    {
+      "kanaExpression": "せいゆう",
+      "rank": 30000
+    },
+    {
+      "kanaExpression": "さいゆう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "西遊",
+      "furiganaExpression": [
+        {
+          "text": "西",
+          "annotation": "せい"
+        },
+        {
+          "text": "遊",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "westward trip",
+        "trip to the West"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reise nach Westen (insbes. nach Europa)",
+        "Reise nach Westen (insbes. ins Abendland)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) поездка на запад (в Европу)"
+      ]
+    }
+  ]
+}

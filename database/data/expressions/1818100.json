@@ -1,0 +1,44 @@
+{
+  "id": "1818100",
+  "readings": [
+    {
+      "kanaExpression": "しきかく",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "色覚",
+      "furiganaExpression": [
+        {
+          "text": "色",
+          "annotation": "しき"
+        },
+        {
+          "text": "覚",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sense of color",
+        "sense of colour"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Farbensinn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цветочувствительность зрения, способность различать цвета"
+      ]
+    }
+  ]
+}

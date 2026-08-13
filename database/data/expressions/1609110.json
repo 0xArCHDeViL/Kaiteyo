@@ -1,0 +1,79 @@
+{
+  "id": "1609110",
+  "readings": [
+    {
+      "kanaExpression": "いかり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "錨",
+      "furiganaExpression": [
+        {
+          "text": "錨",
+          "annotation": "いかり"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "碇",
+      "furiganaExpression": [
+        {
+          "text": "碇",
+          "annotation": "いかり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "anchor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "anker"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ancre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anker",
+        "Ikari"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vasmacska"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "якорь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ancla"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ankare"
+      ]
+    }
+  ]
+}

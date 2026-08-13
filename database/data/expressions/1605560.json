@@ -1,0 +1,94 @@
+{
+  "id": "1605560",
+  "readings": [
+    {
+      "kanaExpression": "やといぬし",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "こしゅ"
+    },
+    {
+      "kanjiExpression": "雇い主",
+      "furiganaExpression": [
+        {
+          "text": "雇",
+          "annotation": "やと"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "雇主",
+      "furiganaExpression": [
+        {
+          "text": "雇",
+          "annotation": "やとい"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "employer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "werkgever",
+        "baas",
+        "patroon"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "employeur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitgeber",
+        "Dienstherr",
+        "Brötchengeber",
+        "Meister",
+        "Manager",
+        "Management"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наниматель; хозяин"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "empresario"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "principal"
+      ]
+    }
+  ]
+}

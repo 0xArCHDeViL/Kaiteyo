@@ -1,0 +1,51 @@
+{
+  "id": "1659130",
+  "readings": [
+    {
+      "kanaExpression": "じゅきゅう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "受給",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 9559
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "receiving payments (pension, ration)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontvangen",
+        "krijgen",
+        "trekken",
+        "genieten",
+        "ontvangst",
+        "het in-ontvangst-nemen",
+        "inontvangstneming",
+        "genot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "empfangen (eine Pension, ein Gehalt, eine Ration)",
+        "Empfang (einer Pension, eines Gehaltes, einer Ration)"
+      ]
+    }
+  ]
+}

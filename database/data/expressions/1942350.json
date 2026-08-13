@@ -1,0 +1,56 @@
+{
+  "id": "1942350",
+  "readings": [
+    {
+      "kanaExpression": "ちほうこうきょうだんたい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "地方公共団体",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "方",
+          "annotation": "ほう"
+        },
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "共",
+          "annotation": "きょう"
+        },
+        {
+          "text": "団",
+          "annotation": "だん"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "local public body",
+        "local government"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gebietskörperschaft",
+        "lokale öffentliche Körperschaft",
+        "Gemeinde"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1220440",
+  "readings": [
+    {
+      "kanaExpression": "きせつ",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "既設",
+      "furiganaExpression": [
+        {
+          "text": "既",
+          "annotation": "き"
+        },
+        {
+          "text": "設",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "established",
+        "existing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eingerichtet",
+        "fertig gestellt",
+        "Vollendung",
+        "vollendete Errichtung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "létező"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} возведённый, построенный, сооружённый; проложенный, действующий (о ж.-д. линии и т. п.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "establecido",
+        "existencia"
+      ]
+    }
+  ]
+}

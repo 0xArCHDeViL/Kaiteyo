@@ -1,0 +1,63 @@
+{
+  "id": "1694870",
+  "readings": [
+    {
+      "kanaExpression": "みたま",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "御霊",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "み"
+        },
+        {
+          "text": "霊",
+          "annotation": "たま"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "御魂",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "み"
+        },
+        {
+          "text": "魂",
+          "annotation": "たま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spirit of a deceased person",
+        "the Holy Ghost",
+        "the Holy Spirit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "göttlicher Geist",
+        "Totengeist",
+        "Seele",
+        "heilige Seele",
+        "Gnade",
+        "wohlwollende Unterstützung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дух (душа) покойного"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "1606490",
+  "readings": [
+    {
+      "kanaExpression": "ろけん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "露見",
+      "furiganaExpression": [
+        {
+          "text": "露",
+          "annotation": "ろ"
+        },
+        {
+          "text": "見",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "露顕",
+      "furiganaExpression": [
+        {
+          "text": "露",
+          "annotation": "ろ"
+        },
+        {
+          "text": "顕",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "discovery (of a plot, misdeed, etc.)",
+        "detection",
+        "exposure",
+        "disclosure"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "découverte",
+        "détection",
+        "dévoilement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ans Licht kommen",
+        "aufgedeckt werden",
+        "enthüllt werden",
+        "Entdeckung",
+        "Aufdeckung",
+        "Enthüllung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felfedezés",
+        "fekvés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обнаружение; разоблачение",
+        "{～する} обнаруживаться; открываться; выявляться; быть разоблачённым; получить огласку"
+      ]
+    }
+  ]
+}

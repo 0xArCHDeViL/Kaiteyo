@@ -1,0 +1,90 @@
+{
+  "id": "1207290",
+  "readings": [
+    {
+      "kanaExpression": "らくえん",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "楽園",
+      "furiganaExpression": [
+        {
+          "text": "楽",
+          "annotation": "らく"
+        },
+        {
+          "text": "園",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 10461
+    },
+    {
+      "kanjiExpression": "樂園",
+      "furiganaExpression": [
+        {
+          "text": "樂",
+          "annotation": "らく"
+        },
+        {
+          "text": "園",
+          "annotation": "えん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paradise",
+        "Eden"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "paradijs",
+        "lustoord",
+        "hof van Eden",
+        "eldorado",
+        "dorado",
+        "Elysium"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "le Paradis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Paradies",
+        "Eden",
+        "Elysium"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mennyország"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рай"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "jardín del Edén",
+        "jardín de delicias",
+        "paraíso"
+      ]
+    }
+  ]
+}

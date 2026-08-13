@@ -1,0 +1,115 @@
+{
+  "id": "1378460",
+  "readings": [
+    {
+      "kanaExpression": "おいしげる",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "生い茂る",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "茂",
+          "annotation": "しげ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "生茂る",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "おい"
+        },
+        {
+          "text": "茂",
+          "annotation": "しげ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "おい茂る",
+      "furiganaExpression": [
+        {
+          "text": "おい"
+        },
+        {
+          "text": "茂",
+          "annotation": "しげ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "生いしげる",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "お"
+        },
+        {
+          "text": "いしげる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to grow thickly",
+        "to be overgrown",
+        "to thrive",
+        "to grow in abundance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "weelderig",
+        "welig groeien",
+        "welig tieren",
+        "aarden",
+        "overvloedig gedijen",
+        "{i.h.b.} woekeren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "üppig wachsen",
+        "wild wachsen",
+        "geil wachsen",
+        "wuchern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "густо (пышно, буйно) расти"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prerasti, hitro rasti (rastlinje)"
+      ]
+    }
+  ]
+}

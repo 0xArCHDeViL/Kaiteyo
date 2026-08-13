@@ -1,0 +1,47 @@
+{
+  "id": "1326220",
+  "readings": [
+    {
+      "kanaExpression": "しゅほう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "主砲",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "砲",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main battery",
+        "main armament"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdgeschut",
+        "{honkb.} tophitter",
+        "goede slagman"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptgeschütz (eines Kriegsschiffes)",
+        "stärkster Werfer eines Teams"
+      ]
+    }
+  ]
+}

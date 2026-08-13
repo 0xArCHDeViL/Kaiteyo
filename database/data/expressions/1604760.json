@@ -1,0 +1,83 @@
+{
+  "id": "1604760",
+  "readings": [
+    {
+      "kanaExpression": "むかいあう",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "向かい合う",
+      "furiganaExpression": [
+        {
+          "text": "向",
+          "annotation": "む"
+        },
+        {
+          "text": "かい"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "向かいあう",
+      "furiganaExpression": [
+        {
+          "text": "向",
+          "annotation": "む"
+        },
+        {
+          "text": "かいあう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "向い合う",
+      "furiganaExpression": [
+        {
+          "text": "向",
+          "annotation": "むか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be opposite",
+        "to face each other"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einander gegenüberliegen",
+        "sich gegenüberstehen",
+        "sich gegenübersitzen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "находиться напротив"
+      ]
+    }
+  ]
+}

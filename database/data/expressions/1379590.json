@@ -1,0 +1,60 @@
+{
+  "id": "1379590",
+  "readings": [
+    {
+      "kanaExpression": "せいりてき",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "生理的",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "せい"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "physiological",
+        "physical",
+        "visceral",
+        "instinctive",
+        "in one\u0027s guts"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "physiologisch",
+        "körperlich",
+        "intuitiv",
+        "instinktiv"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fiziológiai"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "физиологический"
+      ]
+    }
+  ]
+}

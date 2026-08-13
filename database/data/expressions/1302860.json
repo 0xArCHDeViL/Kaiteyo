@@ -1,0 +1,56 @@
+{
+  "id": "1302860",
+  "readings": [
+    {
+      "kanaExpression": "さんさい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "山菜",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "さん"
+        },
+        {
+          "text": "菜",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "edible wild plants"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "plantes sauvages comestibles"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "essbare wildwachsende Pflanzen",
+        "Wildgemüse"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горные травы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "verduras de montaña"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2582370",
+  "readings": [
+    {
+      "kanaExpression": "くうほう",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "空砲",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "砲",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "empty gun",
+        "gun loaded with blanks",
+        "firing a blank"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ungeladene Feuerwaffe",
+        "blinder Schuss"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "холостой выстрел (заряд)"
+      ]
+    }
+  ]
+}

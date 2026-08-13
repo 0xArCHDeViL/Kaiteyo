@@ -1,0 +1,61 @@
+{
+  "id": "1231530",
+  "readings": [
+    {
+      "kanaExpression": "ぎゅうしゃ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "牛舎",
+      "furiganaExpression": [
+        {
+          "text": "牛",
+          "annotation": "ぎゅう"
+        },
+        {
+          "text": "舎",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cow shed",
+        "cattle barn"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "koestal",
+        "koeienstal",
+        "stal voor koeien",
+        "veestal",
+        "beestenstal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "étable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kuhstall",
+        "Rinderstall"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "коровник"
+      ]
+    }
+  ]
+}

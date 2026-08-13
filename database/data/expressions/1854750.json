@@ -1,0 +1,86 @@
+{
+  "id": "1854750",
+  "readings": [
+    {
+      "kanaExpression": "ついて",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "就いて",
+      "furiganaExpression": [
+        {
+          "text": "就",
+          "annotation": "つ"
+        },
+        {
+          "text": "いて"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "about",
+        "concerning",
+        "as to",
+        "regarding"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "à propos de",
+        "au sujet de",
+        "concernant",
+        "quant à",
+        "en ce qui concerne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "über",
+        "von",
+        "in bezug auf",
+        "bezüglich",
+        "in betreff",
+        "in Hinsicht auf",
+        "hinsichtlich",
+        "mit …",
+        "in Begleitung von …",
+        "entlang",
+        "bei",
+        "unter",
+        "pro",
+        "je",
+        "per"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megközelítőleg",
+        "mindenfelé"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "о",
+        "об",
+        "относительно"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "acerca de",
+        "referente a",
+        "con respecto a"
+      ]
+    }
+  ]
+}

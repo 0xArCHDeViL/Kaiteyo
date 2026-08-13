@@ -1,0 +1,58 @@
+{
+  "id": "1621250",
+  "readings": [
+    {
+      "kanaExpression": "しょき",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "所期",
+      "furiganaExpression": [
+        {
+          "text": "所",
+          "annotation": "しょ"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "expected",
+        "anticipated",
+        "hoped for",
+        "expectation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erwartet",
+        "Erwartung",
+        "Aussicht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "remélt",
+        "várt",
+        "előrelátott",
+        "elvárás",
+        "várakozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ожидания; расчёты"
+      ]
+    }
+  ]
+}

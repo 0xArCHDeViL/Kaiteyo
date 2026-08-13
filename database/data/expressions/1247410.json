@@ -1,0 +1,61 @@
+{
+  "id": "1247410",
+  "readings": [
+    {
+      "kanaExpression": "くんじ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "訓示",
+      "furiganaExpression": [
+        {
+          "text": "訓",
+          "annotation": "くん"
+        },
+        {
+          "text": "示",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "instruction",
+        "direction",
+        "briefing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Instruktion",
+        "Anweisung",
+        "Ansprache",
+        "instruieren",
+        "anweisen",
+        "eine Anweisung erteilen",
+        "eine Ansprache halten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tanítás",
+        "utasítás",
+        "címzés",
+        "útbaigazítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "указания, инструкции, директивы",
+        "{～的} директивный"
+      ]
+    }
+  ]
+}

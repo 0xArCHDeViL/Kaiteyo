@@ -1,0 +1,95 @@
+{
+  "id": "1595100",
+  "readings": [
+    {
+      "kanaExpression": "しわけ",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "仕分け",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "仕訳",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "訳",
+          "annotation": "わけ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "仕分",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "分",
+          "annotation": "わけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "classification",
+        "sorting (out)",
+        "grouping",
+        "assortment",
+        "assortment journalizing (in bookkeeping)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einteilung",
+        "Klassifikation",
+        "Sortieren",
+        "Sortierung",
+        "Zuteilung",
+        "Eintragung in das Journal",
+        "einteilen",
+        "klassifizieren",
+        "eintragen",
+        "sortieren",
+        "zuteilen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "besorolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сортировка; классификация",
+        "{～をする} сортировать, классифицировать",
+        "2) (бухг.) внесение (в журнал, книгу)",
+        "{～する} заносить"
+      ]
+    }
+  ]
+}

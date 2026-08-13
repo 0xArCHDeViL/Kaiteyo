@@ -1,0 +1,76 @@
+{
+  "id": "1176090",
+  "readings": [
+    {
+      "kanaExpression": "えんとう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "円筒",
+      "furiganaExpression": [
+        {
+          "text": "円",
+          "annotation": "えん"
+        },
+        {
+          "text": "筒",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cylinder"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "cilinder"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cylindre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rundes Rohr",
+        "runde Röhre",
+        "Kreiszylinder"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "henger"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) えんとうけい",
+        "(геом.) цилиндр"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cilindro"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "cylinder"
+      ]
+    }
+  ]
+}

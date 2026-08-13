@@ -1,0 +1,109 @@
+{
+  "id": "1167840",
+  "readings": [
+    {
+      "kanaExpression": "いねかり",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "稲刈り",
+      "furiganaExpression": [
+        {
+          "text": "稲",
+          "annotation": "いね"
+        },
+        {
+          "text": "刈",
+          "annotation": "か"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "稲刈",
+      "furiganaExpression": [
+        {
+          "text": "稲",
+          "annotation": "いね"
+        },
+        {
+          "text": "刈",
+          "annotation": "かり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "稲苅り",
+      "furiganaExpression": [
+        {
+          "text": "稲",
+          "annotation": "いね"
+        },
+        {
+          "text": "苅",
+          "annotation": "か"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "稲苅",
+      "furiganaExpression": [
+        {
+          "text": "稲",
+          "annotation": "いね"
+        },
+        {
+          "text": "苅",
+          "annotation": "かり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rice reaping",
+        "rice harvesting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijstoogst",
+        "het maaien van de rijstplanten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "récolte du riz"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reisernte",
+        "Reismahd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жатва [риса]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cosecha de arroz"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1530440",
+  "readings": [
+    {
+      "kanaExpression": "むせんでんわ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "無線電話",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        },
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "話",
+          "annotation": "わ"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cordless telephone",
+        "wireless telephone"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Funktelefon",
+        "Funktelefonie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rádiótávbeszélő",
+        "rádiótelefon",
+        "vezeték nélküli távbeszélő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "радиотелефон"
+      ]
+    }
+  ]
+}

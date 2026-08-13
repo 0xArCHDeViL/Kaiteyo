@@ -1,0 +1,43 @@
+{
+  "id": "1897290",
+  "readings": [
+    {
+      "kanaExpression": "とぎ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "都議",
+      "furiganaExpression": [
+        {
+          "text": "都",
+          "annotation": "と"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 17500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Metropolitan assemblyman"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stadtrat (Person, nicht Institution)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сокр.) городское управление (выборное), городской совет (в Японии)"
+      ]
+    }
+  ]
+}

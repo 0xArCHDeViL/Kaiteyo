@@ -1,0 +1,76 @@
+{
+  "id": "1304350",
+  "readings": [
+    {
+      "kanaExpression": "さんそ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "酸素",
+      "furiganaExpression": [
+        {
+          "text": "酸",
+          "annotation": "さん"
+        },
+        {
+          "text": "素",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 6624
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "oxygen (O)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zuurstof",
+        "{Lat.} oxygenium"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "oxygène (O)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sauerstoff",
+        "Oxygen",
+        "Oxygenium (chem. Element; Zeichen: O)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "oxigén"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кислород"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oxígeno"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "syre"
+      ]
+    }
+  ]
+}

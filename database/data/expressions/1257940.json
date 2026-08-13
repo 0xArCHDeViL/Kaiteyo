@@ -1,0 +1,76 @@
+{
+  "id": "1257940",
+  "readings": [
+    {
+      "kanaExpression": "けんしゅつ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "検出",
+      "furiganaExpression": [
+        {
+          "text": "検",
+          "annotation": "けん"
+        },
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        }
+      ],
+      "rank": 5821
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "detection",
+        "sense (e.g. sensor)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "detectie",
+        "waarneming",
+        "ontdekking",
+        "detecteren",
+        "waarnemen",
+        "ontdekken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feststellung",
+        "Nachweis",
+        "feststellen",
+        "nachweisen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érzés",
+        "érzet",
+        "észlel",
+        "érzékel",
+        "kimutat",
+        "detektál"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отыскание; обнаружение, открытие (в результате анализа и т. п.)",
+        "{～する} обнаруживать, выявлять (в результате исследования)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "detección"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "1658830",
+  "readings": [
+    {
+      "kanaExpression": "しゃかいふっき",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "社会復帰",
+      "furiganaExpression": [
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "復",
+          "annotation": "ふっ"
+        },
+        {
+          "text": "帰",
+          "annotation": "き"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rehabilitation (in society)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Resozialisierung",
+        "Rehabilitation",
+        "Rückkehr in die Gesellschaft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rehabilitáció"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1007500",
+  "readings": [
+    {
+      "kanaExpression": "だらしない",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "だらし無い",
+      "furiganaExpression": [
+        {
+          "text": "だらし"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "slovenly (appearance, work, etc.)",
+        "sloppy",
+        "untidy",
+        "undisciplined",
+        "careless",
+        "loose",
+        "slack",
+        "weak",
+        "feeble",
+        "weak-willed",
+        "cowardly",
+        "gutless"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "indolent",
+        "négligent",
+        "relaché"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schlampig",
+        "unordentlich",
+        "undiszipliniert",
+        "nachlässig",
+        "unachtsam",
+        "lose",
+        "schmutzig"
+      ]
+    }
+  ]
+}

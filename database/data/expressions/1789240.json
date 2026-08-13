@@ -1,0 +1,41 @@
+{
+  "id": "1789240",
+  "readings": [
+    {
+      "kanaExpression": "とくそう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "特装",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とく"
+        },
+        {
+          "text": "装",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "specially equipped",
+        "customized",
+        "customised"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sonderbindung",
+        "Sonderanfertigung",
+        "Sonderausstattung"
+      ]
+    }
+  ]
+}

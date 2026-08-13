@@ -1,0 +1,83 @@
+{
+  "id": "1180520",
+  "readings": [
+    {
+      "kanaExpression": "おしきり",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "押し切り",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "押切り",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "おし"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "押切",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "おし"
+        },
+        {
+          "text": "切",
+          "annotation": "きり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "straw cutter",
+        "short mane",
+        "pressing and cutting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Durchsetzen des eigenen Willens",
+        "(eine Art)Heuhäcksler",
+        "Stempelabdruck"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) соломорезка",
+        "2) (см.) おしだし 2"
+      ]
+    }
+  ]
+}

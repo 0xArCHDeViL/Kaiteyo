@@ -1,0 +1,53 @@
+{
+  "id": "1330970",
+  "readings": [
+    {
+      "kanaExpression": "しゅうりょう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "収量",
+      "furiganaExpression": [
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yield",
+        "size of harvest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ernte",
+        "Ertrag",
+        "Ertragsmenge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "süppedés",
+        "termés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[собранный] урожай, количество полученного урожая"
+      ]
+    }
+  ]
+}

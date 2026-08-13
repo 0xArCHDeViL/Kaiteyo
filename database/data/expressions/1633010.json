@@ -1,0 +1,50 @@
+{
+  "id": "1633010",
+  "readings": [
+    {
+      "kanaExpression": "がんとして",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "頑として",
+      "furiganaExpression": [
+        {
+          "text": "頑",
+          "annotation": "がん"
+        },
+        {
+          "text": "として"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stubbornly",
+        "firmly",
+        "determinedly",
+        "obstinately",
+        "resolutely",
+        "adamantly"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eigensinnig",
+        "stur",
+        "hartnäckig",
+        "entschlossen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "упорно, непоколебимо, стойко"
+      ]
+    }
+  ]
+}

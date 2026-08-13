@@ -1,0 +1,121 @@
+{
+  "id": "1771610",
+  "readings": [
+    {
+      "kanaExpression": "かぶりもの",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "被り物",
+      "furiganaExpression": [
+        {
+          "text": "被",
+          "annotation": "かぶ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "かぶり物",
+      "furiganaExpression": [
+        {
+          "text": "かぶり"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "被りもの",
+      "furiganaExpression": [
+        {
+          "text": "被",
+          "annotation": "かぶ"
+        },
+        {
+          "text": "りもの"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "被物",
+      "furiganaExpression": [
+        {
+          "text": "被",
+          "annotation": "かぶり"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "冠り物",
+      "furiganaExpression": [
+        {
+          "text": "冠",
+          "annotation": "かぶ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "headgear",
+        "headdress",
+        "(novelty) mask",
+        "head mask"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofddeksel",
+        "hoofdtooi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kopfbedeckung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fejdísz",
+        "fejfedő",
+        "frizura",
+        "hajviselet",
+        "aknatorony",
+        "fejrevaló",
+        "fejszerszám"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "головной убор; то, чем покрывают голову"
+      ]
+    }
+  ]
+}

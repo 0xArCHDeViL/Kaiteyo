@@ -1,0 +1,69 @@
+{
+  "id": "1108180",
+  "readings": [
+    {
+      "kanaExpression": "ファックス",
+      "rank": 10473
+    },
+    {
+      "kanaExpression": "ファクス",
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fax",
+        "facsimile",
+        "fax machine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fax",
+        "faxapparaat",
+        "faxmachine",
+        "faxtoestel",
+        "facsimile",
+        "faxbericht",
+        "faxkopie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "facsimile",
+        "fax"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fax",
+        "Telefax",
+        "Fernkopie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fakszimile"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "faksimile",
+        "faks"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fax"
+      ]
+    }
+  ]
+}

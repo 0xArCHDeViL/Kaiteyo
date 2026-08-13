@@ -1,0 +1,74 @@
+{
+  "id": "1603730",
+  "readings": [
+    {
+      "kanaExpression": "ぼつご",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "没後",
+      "furiganaExpression": [
+        {
+          "text": "没",
+          "annotation": "ぼつ"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "歿後",
+      "furiganaExpression": [
+        {
+          "text": "歿",
+          "annotation": "ぼつ"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "after death",
+        "posthumously"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "na de dood",
+        "postuum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nach dem Tode",
+        "postum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "árván született",
+        "holta után vkinek",
+        "poszthumuszan",
+        "utólag született"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) посмертно; после (чьей-л.) смерти (кончины)"
+      ]
+    }
+  ]
+}

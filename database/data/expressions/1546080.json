@@ -1,0 +1,84 @@
+{
+  "id": "1546080",
+  "readings": [
+    {
+      "kanaExpression": "とけあう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "溶け合う",
+      "furiganaExpression": [
+        {
+          "text": "溶",
+          "annotation": "と"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "溶合う",
+      "furiganaExpression": [
+        {
+          "text": "溶",
+          "annotation": "とけ"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "融け合う",
+      "furiganaExpression": [
+        {
+          "text": "融",
+          "annotation": "と"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to melt together"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "miteinander verschmelzen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "растворившись смешиваться"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1521800",
+  "readings": [
+    {
+      "kanaExpression": "ぼくそう",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "牧草",
+      "furiganaExpression": [
+        {
+          "text": "牧",
+          "annotation": "ぼく"
+        },
+        {
+          "text": "草",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pasture",
+        "grass"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gras",
+        "Weidegras",
+        "Grasfutter",
+        "Heu",
+        "Wiesengras"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "legelő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подножный корм, луговая трава, кормовые травы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pasto",
+        "hierba"
+      ]
+    }
+  ]
+}

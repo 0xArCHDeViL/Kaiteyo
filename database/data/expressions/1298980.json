@@ -1,0 +1,58 @@
+{
+  "id": "1298980",
+  "readings": [
+    {
+      "kanaExpression": "さつたば",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "札束",
+      "furiganaExpression": [
+        {
+          "text": "札",
+          "annotation": "さつ"
+        },
+        {
+          "text": "束",
+          "annotation": "たば"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bundle of banknotes",
+        "stack of bills",
+        "large sum of money"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rol bankbiljetten",
+        "bundel bankbiljetten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "liasse de billets"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Bündel Banknoten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пачка денег"
+      ]
+    }
+  ]
+}

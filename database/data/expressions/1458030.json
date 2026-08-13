@@ -1,0 +1,47 @@
+{
+  "id": "1458030",
+  "readings": [
+    {
+      "kanaExpression": "ないき",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "内規",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "規",
+          "annotation": "き"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "private regulations",
+        "bylaws",
+        "internal rules",
+        "tradition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "interne Bestimmungen",
+        "interne Vorschrift"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутренний распорядок, внутренние правила; традиция (напр. учреждения)"
+      ]
+    }
+  ]
+}

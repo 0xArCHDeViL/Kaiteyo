@@ -1,0 +1,71 @@
+{
+  "id": "1582260",
+  "readings": [
+    {
+      "kanaExpression": "しまぐに",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "とうごく",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "島国",
+      "furiganaExpression": [
+        {
+          "text": "島",
+          "annotation": "しま"
+        },
+        {
+          "text": "国",
+          "annotation": "ぐに"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "island country"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eilandstaat",
+        "insulaire staat",
+        "eilandrijk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pays insulaire (par ex. le Japon)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Inselstaat",
+        "Inselland",
+        "Inselreich",
+        "Inselnation"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "островное государство",
+        "{～的} (перен.) с ограниченными взглядами; мелочный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "país insular (a veces se usa como sinónimo de Japón)"
+      ]
+    }
+  ]
+}

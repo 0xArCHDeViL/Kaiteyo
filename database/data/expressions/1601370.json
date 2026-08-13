@@ -1,0 +1,66 @@
+{
+  "id": "1601370",
+  "readings": [
+    {
+      "kanaExpression": "ばんじゃく",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "盤石",
+      "furiganaExpression": [
+        {
+          "text": "盤",
+          "annotation": "ばん"
+        },
+        {
+          "text": "石",
+          "annotation": "じゃく"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "磐石",
+      "furiganaExpression": [
+        {
+          "text": "磐",
+          "annotation": "ばん"
+        },
+        {
+          "text": "石",
+          "annotation": "じゃく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "huge rock",
+        "firmness",
+        "solidity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "großer Felsen",
+        "Härte eines Felsens",
+        "felsenfest"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "határozottság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скала, утёс"
+      ]
+    }
+  ]
+}

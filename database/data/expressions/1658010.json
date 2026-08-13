@@ -1,0 +1,59 @@
+{
+  "id": "1658010",
+  "readings": [
+    {
+      "kanaExpression": "さんけい",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "山系",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "さん"
+        },
+        {
+          "text": "系",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mountain range",
+        "mountain system"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bergketen",
+        "bergformatie",
+        "gebergte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bergmassiv",
+        "Gebirgskette"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hegylánc"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горная цепь"
+      ]
+    }
+  ]
+}

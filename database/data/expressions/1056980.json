@@ -1,0 +1,74 @@
+{
+  "id": "1056980",
+  "readings": [
+    {
+      "kanaExpression": "サハラさばく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "サハラ砂漠",
+      "furiganaExpression": [
+        {
+          "text": "サハラ"
+        },
+        {
+          "text": "砂",
+          "annotation": "さ"
+        },
+        {
+          "text": "漠",
+          "annotation": "ばく"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "サハラ沙漠",
+      "furiganaExpression": [
+        {
+          "text": "サハラ"
+        },
+        {
+          "text": "沙",
+          "annotation": "さ"
+        },
+        {
+          "text": "漠",
+          "annotation": "ばく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Sahara Desert"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de Sahara"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sahara (Wüste in Nordafrika)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пустыня Сахара"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desierto de Sahara"
+      ]
+    }
+  ]
+}

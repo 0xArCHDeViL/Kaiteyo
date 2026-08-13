@@ -1,0 +1,57 @@
+{
+  "id": "1614690",
+  "readings": [
+    {
+      "kanaExpression": "きゃくあし",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "客足",
+      "furiganaExpression": [
+        {
+          "text": "客",
+          "annotation": "きゃく"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "customer traffic",
+        "customers",
+        "custom"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "klantenaantal",
+        "klandizie",
+        "beklanting",
+        "clientèle",
+        "toeloop",
+        "loop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kundschaft",
+        "Zuschauer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "покупатели, посетители; зрители; клиентура; (перен.) посещаемость (напр. магазина)"
+      ]
+    }
+  ]
+}

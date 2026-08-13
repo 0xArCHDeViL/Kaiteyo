@@ -1,0 +1,101 @@
+{
+  "id": "1477670",
+  "readings": [
+    {
+      "kanaExpression": "はっそう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "発送",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はっ"
+        },
+        {
+          "text": "送",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 4441
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sending",
+        "forwarding",
+        "shipping"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "versturen",
+        "verzenden",
+        "wegsturen",
+        "wegzenden",
+        "zenden",
+        "opsturen",
+        "zending",
+        "verzending",
+        "expeditie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "envoyer",
+        "expédier",
+        "envoi",
+        "expédition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abschicken",
+        "versenden",
+        "Abfertigung",
+        "Versendung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "enyvezés és gömbölyítés",
+        "hajtatás",
+        "küldés",
+        "szállítmányozás",
+        "hajózás",
+        "kiszállít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отправление, отправка, посылка, рассылка",
+        "{～する} отправлять, посылать (груз, товары)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pošiljanje",
+        "odpošiljanje",
+        "špedicija",
+        "pošiljati",
+        "poslati",
+        "odposlati",
+        "odpraviti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "envío"
+      ]
+    }
+  ]
+}

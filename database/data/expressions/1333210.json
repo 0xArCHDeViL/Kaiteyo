@@ -1,0 +1,51 @@
+{
+  "id": "1333210",
+  "readings": [
+    {
+      "kanaExpression": "ふなばし",
+      "rank": 20500
+    },
+    {
+      "kanaExpression": "しゅうきょう",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "舟橋",
+      "furiganaExpression": [
+        {
+          "text": "舟",
+          "annotation": "ふな"
+        },
+        {
+          "text": "橋",
+          "annotation": "ばし"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pontoon bridge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schipbrug",
+        "scheepjesbrug",
+        "pontonbrug",
+        "ponton",
+        "{veroud.} vlotbrug"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "понтонный мост"
+      ]
+    }
+  ]
+}

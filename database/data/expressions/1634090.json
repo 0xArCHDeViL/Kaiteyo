@@ -1,0 +1,62 @@
+{
+  "id": "1634090",
+  "readings": [
+    {
+      "kanaExpression": "ようむいん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "用務員",
+      "furiganaExpression": [
+        {
+          "text": "用",
+          "annotation": "よう"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "janitor",
+        "caretaker",
+        "custodian"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Personal",
+        "Hausmeister",
+        "Portier"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "precíz",
+        "gondnok"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "conserje",
+        "bedel",
+        "ordenanza",
+        "portero",
+        "ujier"
+      ]
+    }
+  ]
+}

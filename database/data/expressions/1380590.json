@@ -1,0 +1,61 @@
+{
+  "id": "1380590",
+  "readings": [
+    {
+      "kanaExpression": "せいか",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "製菓",
+      "furiganaExpression": [
+        {
+          "text": "製",
+          "annotation": "せい"
+        },
+        {
+          "text": "菓",
+          "annotation": "か"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "confectionery production"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "snoepproductie",
+        "snoepfabricatie",
+        "snoepvervaardiging"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Süßwarenherstellung",
+        "Konditorei",
+        "Zuckerbäckerei"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cukrászat",
+        "cukrászda",
+        "cukrászsütemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "производство кондитерских изделий, кондитерское производство"
+      ]
+    }
+  ]
+}

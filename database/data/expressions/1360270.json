@@ -1,0 +1,64 @@
+{
+  "id": "1360270",
+  "readings": [
+    {
+      "kanaExpression": "ねぶそく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "寝不足",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "不",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "足",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 12547
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lack of sleep",
+        "insufficient sleep"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slaapgebrek",
+        "slaaptekort",
+        "onvoldoende slaap"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlafmangel",
+        "Schlaflosigkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "недостаток сна, недосыпание",
+        "{～する} недосыпать"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sömnbrist"
+      ]
+    }
+  ]
+}

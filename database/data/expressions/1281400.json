@@ -1,0 +1,55 @@
+{
+  "id": "1281400",
+  "readings": [
+    {
+      "kanaExpression": "こうせき",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "航跡",
+      "furiganaExpression": [
+        {
+          "text": "航",
+          "annotation": "こう"
+        },
+        {
+          "text": "跡",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wake (of boat)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fahrwasser (eines Schiffes)",
+        "Flugschneise"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halottvirrasztás",
+        "nyomdokvíz",
+        "nyomdokvonal",
+        "sodorvíz",
+        "templombúcsú",
+        "templomszentelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пенистый след (струя) за кормой судна"
+      ]
+    }
+  ]
+}

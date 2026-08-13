@@ -1,0 +1,76 @@
+{
+  "id": "1848800",
+  "readings": [
+    {
+      "kanaExpression": "どなりこむ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "怒鳴り込む",
+      "furiganaExpression": [
+        {
+          "text": "怒",
+          "annotation": "ど"
+        },
+        {
+          "text": "鳴",
+          "annotation": "な"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "呶鳴り込む",
+      "furiganaExpression": [
+        {
+          "text": "呶",
+          "annotation": "ど"
+        },
+        {
+          "text": "鳴",
+          "annotation": "な"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to storm in with a yell"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "brüllend hereinstürmen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ворваться с криком (куда-л.)"
+      ]
+    }
+  ]
+}

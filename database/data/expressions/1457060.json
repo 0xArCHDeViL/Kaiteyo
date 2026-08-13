@@ -1,0 +1,70 @@
+{
+  "id": "1457060",
+  "readings": [
+    {
+      "kanaExpression": "とつぜんへんい",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "突然変異",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "とつ"
+        },
+        {
+          "text": "然",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "変",
+          "annotation": "へん"
+        },
+        {
+          "text": "異",
+          "annotation": "い"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mutation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{biol.} mutatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mutation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elváltozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(биол.) мутация",
+        "{～する} [внезапно] видоизменять[ся]"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mutation"
+      ]
+    }
+  ]
+}

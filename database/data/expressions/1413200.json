@@ -1,0 +1,63 @@
+{
+  "id": "1413200",
+  "readings": [
+    {
+      "kanaExpression": "たいかい",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "おおうみ"
+    },
+    {
+      "kanjiExpression": "大海",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "海",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ocean",
+        "large sea",
+        "fabric pattern"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "océan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meer",
+        "Ozean",
+        "Ozean-Teegefäß (flaches rundes Teegefäß mit breiter Öffnung)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "óceán"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "большое море; океан; открытое море",
+        "открытое море, океан"
+      ]
+    }
+  ]
+}

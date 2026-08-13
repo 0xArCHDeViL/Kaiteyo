@@ -1,0 +1,84 @@
+{
+  "id": "1630110",
+  "readings": [
+    {
+      "kanaExpression": "きょしゅつ",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "拠出",
+      "furiganaExpression": [
+        {
+          "text": "拠",
+          "annotation": "きょ"
+        },
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        }
+      ],
+      "rank": 9195
+    },
+    {
+      "kanjiExpression": "醵出",
+      "furiganaExpression": [
+        {
+          "text": "醵",
+          "annotation": "きょ"
+        },
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "donation",
+        "contribution"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bijdrage",
+        "donatie",
+        "contributie",
+        "bijdragen",
+        "doneren",
+        "contribueren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beitrag",
+        "Spende",
+        "beitragen",
+        "stiften",
+        "spenden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adomány",
+        "ajándék",
+        "adakozás",
+        "hozzájárulás",
+        "közreműködés",
+        "sarc"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "денежное пожертвование; вклад, взнос",
+        "{～する} делать пожертвование; подписываться (на подписном листе)"
+      ]
+    }
+  ]
+}

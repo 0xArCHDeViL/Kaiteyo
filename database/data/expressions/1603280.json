@@ -1,0 +1,75 @@
+{
+  "id": "1603280",
+  "readings": [
+    {
+      "kanaExpression": "べつどうたい",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "別働隊",
+      "furiganaExpression": [
+        {
+          "text": "別",
+          "annotation": "べつ"
+        },
+        {
+          "text": "働",
+          "annotation": "どう"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "別動隊",
+      "furiganaExpression": [
+        {
+          "text": "別",
+          "annotation": "べつ"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "flying column",
+        "detached force"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sondertruppe",
+        "fliegende Kolonne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyors csapatokból álló menetoszlop",
+        "kikülönített harccsoport",
+        "rendőrségi motoros brigád"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) группа специального назначения",
+        "2) летучий отряд; партизанский отряд"
+      ]
+    }
+  ]
+}

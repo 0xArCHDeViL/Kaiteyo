@@ -1,0 +1,37 @@
+{
+  "id": "1230300",
+  "readings": [
+    {
+      "kanaExpression": "きゅうとう",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "給湯",
+      "furiganaExpression": [
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "湯",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hot-water supply"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Versorgung mit heißem Wasser"
+      ]
+    }
+  ]
+}

@@ -12,6 +12,7 @@ pluginManagement {
 
     plugins {
         kotlin("multiplatform") version kotlinVersion
+        kotlin("jvm") version kotlinVersion
         kotlin("android") version kotlinVersion
         kotlin("plugin.serialization") version kotlinVersion
         kotlin("plugin.compose") version kotlinVersion
@@ -25,4 +26,4 @@ pluginManagement {
 }
 
 rootProject.name = "kaiteyo"
-include(":app", ":core", ":mediaGenerator")
+include(":app", ":core", ":mediaGenerator", ":database")

@@ -1,0 +1,109 @@
+{
+  "id": "1340490",
+  "readings": [
+    {
+      "kanaExpression": "できばえ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "出来栄え",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "来",
+          "annotation": "き"
+        },
+        {
+          "text": "栄",
+          "annotation": "ば"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "出来映え",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "来",
+          "annotation": "き"
+        },
+        {
+          "text": "映",
+          "annotation": "ば"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "出来ばえ",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "来",
+          "annotation": "き"
+        },
+        {
+          "text": "ばえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "result",
+        "effect",
+        "performance",
+        "success",
+        "workmanship",
+        "execution",
+        "shape and quality (of an article)",
+        "finishing touches"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ergebnis",
+        "Erfolg",
+        "Resultat",
+        "Leistung",
+        "Ausführung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eredmény",
+        "jelenség",
+        "következmény",
+        "teljesítmény",
+        "előadás",
+        "teljesítés",
+        "utolsó simítások"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "качество (результат) работы, успех"
+      ]
+    }
+  ]
+}

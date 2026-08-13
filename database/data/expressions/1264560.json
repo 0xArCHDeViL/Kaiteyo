@@ -1,0 +1,138 @@
+{
+  "id": "1264560",
+  "readings": [
+    {
+      "kanaExpression": "ことばづかい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "言葉遣い",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "こと"
+        },
+        {
+          "text": "葉",
+          "annotation": "ば"
+        },
+        {
+          "text": "遣",
+          "annotation": "づか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "言葉使い",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "こと"
+        },
+        {
+          "text": "葉",
+          "annotation": "ば"
+        },
+        {
+          "text": "使",
+          "annotation": "づか"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "言葉づかい",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "こと"
+        },
+        {
+          "text": "葉",
+          "annotation": "ば"
+        },
+        {
+          "text": "づかい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "speech",
+        "expression",
+        "wording",
+        "language"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de manier van uitdrukken",
+        "uitdrukking",
+        "fraseologie",
+        "zinsbouw en woordgebruik van een spreker of schrijver",
+        "de specifieke manier van spreken van een persoon",
+        "spreekwijze",
+        "woordkeuze"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "discours",
+        "expression",
+        "formulation",
+        "langue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sprache",
+        "Ausdrucksweise",
+        "Diktion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszéd",
+        "beszédmód",
+        "felszólalás",
+        "nyelvjárás",
+        "szónoklat",
+        "kifejezés",
+        "kinyilvánítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "форма (манера) выражения, слог, язык; речь; выговор; подбор слов"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "govor",
+        "način govora"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lenguaje",
+        "forma de expresarse"
+      ]
+    }
+  ]
+}

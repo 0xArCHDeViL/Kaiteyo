@@ -1,0 +1,48 @@
+{
+  "id": "1687230",
+  "readings": [
+    {
+      "kanaExpression": "つうしんきょういく",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "通信教育",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "育",
+          "annotation": "いく"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "correspondence education",
+        "correspondence course",
+        "distance education"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fernunterricht",
+        "Fernstudium"
+      ]
+    }
+  ]
+}

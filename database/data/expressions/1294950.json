@@ -1,0 +1,80 @@
+{
+  "id": "1294950",
+  "readings": [
+    {
+      "kanaExpression": "さいげつ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "歳月",
+      "furiganaExpression": [
+        {
+          "text": "歳",
+          "annotation": "さい"
+        },
+        {
+          "text": "月",
+          "annotation": "げつ"
+        }
+      ],
+      "rank": 12410
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "time",
+        "years"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tijd",
+        "jaren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "temps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeit",
+        "Jahre"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "időmérés",
+        "időszámítás",
+        "szabadidő",
+        "ütem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "время"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "čas"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tiempo",
+        "primaveras"
+      ]
+    }
+  ]
+}

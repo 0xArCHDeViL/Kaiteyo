@@ -1,0 +1,56 @@
+{
+  "id": "1349420",
+  "readings": [
+    {
+      "kanaExpression": "ゆかした",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "床下",
+      "furiganaExpression": [
+        {
+          "text": "床",
+          "annotation": "ゆか"
+        },
+        {
+          "text": "下",
+          "annotation": "した"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "under the floor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{～に} onder de vloer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unter dem Fußboden",
+        "unter den Fußboden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[に]} под полом"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bajo el suelo"
+      ]
+    }
+  ]
+}

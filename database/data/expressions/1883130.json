@@ -1,0 +1,55 @@
+{
+  "id": "1883130",
+  "readings": [
+    {
+      "kanaExpression": "しょうエネルギー",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "省エネルギー",
+      "furiganaExpression": [
+        {
+          "text": "省",
+          "annotation": "しょう"
+        },
+        {
+          "text": "エネルギー"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "energy conservation",
+        "economical use of energy",
+        "energy-saving"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "energiebesparing",
+        "energiebehoud",
+        "energiebesparend",
+        "energiearm",
+        "energiezuinig",
+        "spaar-"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Energiesparen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "energiatakarékos"
+      ]
+    }
+  ]
+}

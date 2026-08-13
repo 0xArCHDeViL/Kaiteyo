@@ -1,0 +1,56 @@
+{
+  "id": "1208260",
+  "readings": [
+    {
+      "kanaExpression": "かっかざん",
+      "rank": 36000
+    },
+    {
+      "kanaExpression": "かつかざん"
+    },
+    {
+      "kanjiExpression": "活火山",
+      "furiganaExpression": [
+        {
+          "text": "活",
+          "annotation": "かっ"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "山",
+          "annotation": "ざん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "active volcano"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aktiver Vulkan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "действующий вулкан"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "volcán activo"
+      ]
+    }
+  ]
+}

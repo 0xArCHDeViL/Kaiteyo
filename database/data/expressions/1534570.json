@@ -1,0 +1,123 @@
+{
+  "id": "1534570",
+  "readings": [
+    {
+      "kanaExpression": "こかげ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "じゅいん"
+    },
+    {
+      "kanjiExpression": "木陰",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "こ"
+        },
+        {
+          "text": "陰",
+          "annotation": "かげ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "木かげ",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "こ"
+        },
+        {
+          "text": "かげ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "木蔭",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "こ"
+        },
+        {
+          "text": "蔭",
+          "annotation": "かげ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "樹陰",
+      "furiganaExpression": [
+        {
+          "text": "樹",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "陰",
+          "annotation": "いん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "樹蔭",
+      "furiganaExpression": [
+        {
+          "text": "樹",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "蔭",
+          "annotation": "いん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shade of tree",
+        "bower"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "couvert (d\u0027un arbre)",
+        "ombre d\u0027un arbre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schatten",
+        "Schatten eines Baumes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "budoár",
+        "falusi házikó",
+        "kerti ház",
+        "női szoba"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тень дерева (деревьев)",
+        "{～に} в тени дерева",
+        "(кн.) тень деревьев"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sombra de árbol"
+      ]
+    }
+  ]
+}

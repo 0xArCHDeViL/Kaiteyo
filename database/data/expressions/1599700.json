@@ -1,0 +1,173 @@
+{
+  "id": "1599700",
+  "readings": [
+    {
+      "kanaExpression": "なりゆき",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "成り行き",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "な"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 14217
+    },
+    {
+      "kanjiExpression": "成行き",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "なり"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "成行",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "なり"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "成りゆき",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "な"
+        },
+        {
+          "text": "りゆき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "なり行き",
+      "furiganaExpression": [
+        {
+          "text": "なり"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "course (of events)",
+        "development",
+        "progress",
+        "outcome",
+        "result",
+        "market order",
+        "order without limit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "loop",
+        "gang",
+        "verloop",
+        "beloop",
+        "ontwikkelingen",
+        "{beurst.} markt"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "avancement",
+        "cours des évênements",
+        "déroulement",
+        "dévelopement",
+        "issue",
+        "résultat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausgang",
+        "Folgen",
+        "Verlauf",
+        "Fortgang",
+        "Hergang",
+        "Gang der Entwicklung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eredmény",
+        "folyomány",
+        "kidolgozás",
+        "események folyamata",
+        "előmenetel",
+        "haladás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "течение, ход, развитие (дела и т. п.)",
+        "течение",
+        "ход",
+        "развитие"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "tek",
+        "tok",
+        "razvoj dogodkov",
+        "posledica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "curso (de las cosas)",
+        "circunstancias",
+        "curso",
+        "desarrollo",
+        "devenir",
+        "progreso",
+        "proceso"
+      ]
+    }
+  ]
+}

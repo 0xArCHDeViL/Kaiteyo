@@ -1,0 +1,83 @@
+{
+  "id": "1647880",
+  "readings": [
+    {
+      "kanaExpression": "みつ",
+      "rank": 7800
+    },
+    {
+      "kanaExpression": "みち",
+      "rank": 12564
+    },
+    {
+      "kanjiExpression": "蜜",
+      "furiganaExpression": [
+        {
+          "text": "蜜",
+          "annotation": "みつ"
+        }
+      ],
+      "rank": 14204
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nectar",
+        "honey",
+        "honeydew",
+        "treacle",
+        "molasses",
+        "sorbitol (when visible as dark patches inside an apple)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "honing",
+        "nectar",
+        "honingdauw",
+        "bijenhoning",
+        "siroop",
+        "suikerstroop",
+        "stroop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Honig",
+        "Nektar",
+        "Melasse",
+        "Sirup"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "méz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мёд"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "med",
+        "cvetni nektar"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "néctar",
+        "miel"
+      ]
+    }
+  ]
+}

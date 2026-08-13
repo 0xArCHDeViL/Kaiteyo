@@ -1,0 +1,138 @@
+{
+  "id": "1591240",
+  "readings": [
+    {
+      "kanaExpression": "きずつく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "傷つく",
+      "furiganaExpression": [
+        {
+          "text": "傷",
+          "annotation": "きず"
+        },
+        {
+          "text": "つく"
+        }
+      ],
+      "rank": 6835
+    },
+    {
+      "kanjiExpression": "傷付く",
+      "furiganaExpression": [
+        {
+          "text": "傷",
+          "annotation": "きず"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "疵つく",
+      "furiganaExpression": [
+        {
+          "text": "疵",
+          "annotation": "きず"
+        },
+        {
+          "text": "つく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "疵付く",
+      "furiganaExpression": [
+        {
+          "text": "疵",
+          "annotation": "きず"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be wounded",
+        "to get injured",
+        "to get hurt feelings",
+        "to get damaged",
+        "to get chipped",
+        "to get scratched"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verwond worden",
+        "geblesseerd raken",
+        "gewond raken",
+        "bezeerd raken",
+        "beschadigd worden",
+        "geschonden worden",
+        "{fig.} gekrenkt worden",
+        "gekwetst worden",
+        "geschaad worden",
+        "gedeerd worden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "être blessé",
+        "être offensé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verwundet werden",
+        "verletzt werden",
+        "beschädigt werden",
+        "Schaden erleiden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megsebesül",
+        "megsérül"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "быть раненным, получить рану (ранение); ушибить[ся]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "biti ranjen",
+        "poškodovan"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "herirse (lastimarse)",
+        "ser herido"
+      ]
+    }
+  ]
+}

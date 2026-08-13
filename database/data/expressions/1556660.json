@@ -1,0 +1,82 @@
+{
+  "id": "1556660",
+  "readings": [
+    {
+      "kanaExpression": "ひえしょう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "冷え性",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "ひ"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "性",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "冷性",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "ひえ"
+        },
+        {
+          "text": "性",
+          "annotation": "しょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "冷え症",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "ひ"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "症",
+          "annotation": "しょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sensitivity to cold"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verfrorenheit",
+        "Kälteempfindlichkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～である} быть чувствительным к холоду, легко зябнуть"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sensibilidad al frío"
+      ]
+    }
+  ]
+}

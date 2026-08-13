@@ -1,0 +1,80 @@
+{
+  "id": "1848860",
+  "readings": [
+    {
+      "kanaExpression": "もりつける",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "盛り付ける",
+      "furiganaExpression": [
+        {
+          "text": "盛",
+          "annotation": "も"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "盛りつける",
+      "furiganaExpression": [
+        {
+          "text": "盛",
+          "annotation": "も"
+        },
+        {
+          "text": "りつける"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "盛付ける",
+      "furiganaExpression": [
+        {
+          "text": "盛",
+          "annotation": "もり"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to dish up",
+        "to arrange (food) on a plate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auftragen",
+        "servieren",
+        "auf den Teller legen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feltálal"
+      ]
+    }
+  ]
+}

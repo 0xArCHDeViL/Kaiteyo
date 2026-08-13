@@ -1,0 +1,112 @@
+{
+  "id": "1600430",
+  "readings": [
+    {
+      "kanaExpression": "のみもの",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "飲み物",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "の"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 6813
+    },
+    {
+      "kanjiExpression": "飲みもの",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "の"
+        },
+        {
+          "text": "みもの"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "飲物",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "のみ"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drink",
+        "beverage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "drank",
+        "drinken",
+        "iets te drinken",
+        "drankje",
+        "nat",
+        "zoopje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "boisson",
+        "breuvage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Getränk",
+        "etw. zu trinken",
+        "Trank",
+        "Trunk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ital"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "напиток; питьё; пойло"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pijača"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bebida"
+      ]
+    }
+  ]
+}

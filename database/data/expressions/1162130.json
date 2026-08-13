@@ -1,0 +1,79 @@
+{
+  "id": "1162130",
+  "readings": [
+    {
+      "kanaExpression": "ひとつき",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "いちげつ"
+    },
+    {
+      "kanjiExpression": "一月",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "月",
+          "annotation": "つき"
+        }
+      ],
+      "rank": 5286
+    },
+    {
+      "kanjiExpression": "ひと月",
+      "furiganaExpression": [
+        {
+          "text": "ひと"
+        },
+        {
+          "text": "月",
+          "annotation": "つき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one month"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "één maand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "un mois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Monat",
+        "erster Monat",
+        "Januar",
+        "den ganzen Monat"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "en mesec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un mes"
+      ]
+    }
+  ]
+}

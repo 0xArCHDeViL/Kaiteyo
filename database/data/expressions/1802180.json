@@ -1,0 +1,69 @@
+{
+  "id": "1802180",
+  "readings": [
+    {
+      "kanaExpression": "せんとういん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "戦闘員",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "闘",
+          "annotation": "とう"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "combatant",
+        "fighter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kämpfer",
+        "Kombattant"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "harcos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) боевой состав",
+        "2) участник боя",
+        "3) комбатант"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "combatiente"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kombattant"
+      ]
+    }
+  ]
+}

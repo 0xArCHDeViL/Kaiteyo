@@ -1,0 +1,192 @@
+{
+  "id": "1600460",
+  "readings": [
+    {
+      "kanaExpression": "のりかえ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "乗り換え",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "の"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 13964
+    },
+    {
+      "kanjiExpression": "乗換",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "のり"
+        },
+        {
+          "text": "換",
+          "annotation": "かえ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "乗換え",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "のり"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "乗り替え",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "の"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "乗替え",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "のり"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "乗りかえ",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "の"
+        },
+        {
+          "text": "りかえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transfer (trains, buses, etc.)",
+        "change",
+        "connection",
+        "switch (to another ideology, party, system, method, etc.)",
+        "conversion",
+        "switching (stock)",
+        "chromosomal crossover",
+        "crossing over"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overstap",
+        "verruiling",
+        "ruil",
+        "wisseling",
+        "aflossing {van rijpaarden b.v.}",
+        "{i.h.b.} overscheping",
+        "reservevervoermiddel",
+        "{i.h.b.} vers paard",
+        "overgang {naar een nieuw stelsel enz.}",
+        "overschakeling",
+        "{w.g.} omdraai",
+        "conversie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "changement (de train, de bus, etc.)",
+        "correspondance",
+        "transfert (d\u0027actions)",
+        "enjambement (génétique)",
+        "entrecroisement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Umsteigen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áthelyezés",
+        "átigazolás",
+        "átszállás",
+        "átszállítás",
+        "átutalás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пересадка (с одного транспорта на другой)",
+        "1) пересадка",
+        "{～をする} делать (иметь) пересадку",
+        "2) запасной транспорт",
+        "3) (бирж.) а) отсрочка платежа; б) обмен (старых акций, ценных бумаг на новые)",
+        "4) (перен.) перемена намерений"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prestop {z enega prevoznega sredstva na drugega}",
+        "prestopiti {z enega prevoznega sredstva na drugega}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "transbordar",
+        "cambiar de transporte",
+        "transbordo",
+        "cambiar de vehículo"
+      ]
+    }
+  ]
+}

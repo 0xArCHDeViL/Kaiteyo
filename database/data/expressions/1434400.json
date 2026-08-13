@@ -1,0 +1,54 @@
+{
+  "id": "1434400",
+  "readings": [
+    {
+      "kanaExpression": "ていくうひこう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "低空飛行",
+      "furiganaExpression": [
+        {
+          "text": "低",
+          "annotation": "てい"
+        },
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "飛",
+          "annotation": "ひ"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "low-altitude flying",
+        "having consistently poor results (grades, sales, etc.)",
+        "barely scraping by",
+        "being on the verge of failing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tiefflug"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бреющий полёт"
+      ]
+    }
+  ]
+}

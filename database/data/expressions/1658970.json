@@ -1,0 +1,123 @@
+{
+  "id": "1658970",
+  "readings": [
+    {
+      "kanaExpression": "とりこわす",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "取り壊す",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "壊",
+          "annotation": "こわ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "取壊す",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "壊",
+          "annotation": "こわ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取り毀す",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "毀",
+          "annotation": "こわ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取毀す",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "毀",
+          "annotation": "こわ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to demolish",
+        "to tear down",
+        "to pull down"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slopen",
+        "afbreken",
+        "slechten",
+        "met de grond gelijk maken",
+        "neerhalen",
+        "vernietigen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abreißen",
+        "niederreißen",
+        "abbrechen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ledönt",
+        "lerombol",
+        "megdönt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) とりくずす"
+      ]
+    }
+  ]
+}

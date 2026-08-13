@@ -1,0 +1,64 @@
+{
+  "id": "1583420",
+  "readings": [
+    {
+      "kanaExpression": "こおりみず",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "こおりすい"
+    },
+    {
+      "kanaExpression": "ひみず"
+    },
+    {
+      "kanjiExpression": "氷水",
+      "furiganaExpression": [
+        {
+          "text": "氷",
+          "annotation": "こおり"
+        },
+        {
+          "text": "水",
+          "annotation": "みず"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ice water",
+        "shaved ice (usually served with flavored simple syrup)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eiswasser"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) こおりみず",
+        "1) охлаждённая вода; ледяная вода; вода со льдом",
+        "2) струганый лёд [со сладким сиропом]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "agua helada"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "isvatten"
+      ]
+    }
+  ]
+}

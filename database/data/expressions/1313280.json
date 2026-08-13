@@ -1,0 +1,62 @@
+{
+  "id": "1313280",
+  "readings": [
+    {
+      "kanaExpression": "はがた",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "歯形",
+      "furiganaExpression": [
+        {
+          "text": "歯",
+          "annotation": "は"
+        },
+        {
+          "text": "形",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "歯型",
+      "furiganaExpression": [
+        {
+          "text": "歯",
+          "annotation": "は"
+        },
+        {
+          "text": "型",
+          "annotation": "がた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "impression of the teeth",
+        "tooth mold (mould)",
+        "tooth mark",
+        "teeth marks"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zahnabdruck",
+        "Bissabdruck",
+        "Zahnform",
+        "Zahnprofil"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оттиск (след) зубов"
+      ]
+    }
+  ]
+}

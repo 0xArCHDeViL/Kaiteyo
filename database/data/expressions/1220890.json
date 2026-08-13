@@ -1,0 +1,75 @@
+{
+  "id": "1220890",
+  "readings": [
+    {
+      "kanaExpression": "きかんじゅう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "機関銃",
+      "furiganaExpression": [
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "関",
+          "annotation": "かん"
+        },
+        {
+          "text": "銃",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "machine gun"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "machinegeweer",
+        "mitrailleur",
+        "snelvuurgeweer",
+        "maxim",
+        "{w.g.} pompom"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mitrailleuse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Maschinengewehr"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "géppuska"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пулемёт"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ametralladora"
+      ]
+    }
+  ]
+}

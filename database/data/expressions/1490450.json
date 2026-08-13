@@ -1,0 +1,47 @@
+{
+  "id": "1490450",
+  "readings": [
+    {
+      "kanaExpression": "びょうそく",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "秒速",
+      "furiganaExpression": [
+        {
+          "text": "秒",
+          "annotation": "びょう"
+        },
+        {
+          "text": "速",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "speed per second",
+        "velocity per second",
+        "instant",
+        "moment",
+        "a few seconds"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschwindigkeit pro Sekunde"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скорость в секунду"
+      ]
+    }
+  ]
+}

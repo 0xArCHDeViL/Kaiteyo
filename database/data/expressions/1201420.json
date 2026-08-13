@@ -1,0 +1,54 @@
+{
+  "id": "1201420",
+  "readings": [
+    {
+      "kanaExpression": "あま",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "あまめ"
+    },
+    {
+      "kanjiExpression": "海女",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "あ"
+        },
+        {
+          "text": "女",
+          "annotation": "ま"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ama",
+        "female diver who collects shells, seaweed, etc."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "duikster",
+        "ama"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ныряльщица (искательница жемчуга, губок и т. п.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "buceadora"
+      ]
+    }
+  ]
+}

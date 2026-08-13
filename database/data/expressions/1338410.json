@@ -1,0 +1,61 @@
+{
+  "id": "1338410",
+  "readings": [
+    {
+      "kanaExpression": "でまわり",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "出回り",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "supply (of a commodity)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auf-den-Markt-Kommen",
+        "Warenfluss",
+        "Versorgung",
+        "Geschäft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszerzés",
+        "ellátás",
+        "ellátmány",
+        "hajlékonyan",
+        "ruganyosan",
+        "simulékonyan",
+        "szállítmány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ком.) движение, оживление (на рынке); появление (товара)"
+      ]
+    }
+  ]
+}

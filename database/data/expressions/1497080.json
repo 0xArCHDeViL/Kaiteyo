@@ -1,0 +1,68 @@
+{
+  "id": "1497080",
+  "readings": [
+    {
+      "kanaExpression": "おの",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "斧",
+      "furiganaExpression": [
+        {
+          "text": "斧",
+          "annotation": "おの"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "axe",
+        "ax",
+        "hatchet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bijl",
+        "aks",
+        "aaks",
+        "{lit.t.} akst",
+        "tomahawk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Axt",
+        "Beil"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "balta",
+        "fejsze",
+        "leépítés",
+        "létszámcsökkentés",
+        "szekerce"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "топор; секач"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hacha"
+      ]
+    }
+  ]
+}

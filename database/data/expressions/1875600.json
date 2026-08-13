@@ -1,0 +1,37 @@
+{
+  "id": "1875600",
+  "readings": [
+    {
+      "kanaExpression": "こうばん",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "皓礬",
+      "furiganaExpression": [
+        {
+          "text": "皓",
+          "annotation": "こう"
+        },
+        {
+          "text": "礬",
+          "annotation": "ばん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "zinc sulfate heptahydrate",
+        "white vitriol"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цинковый купорос, сернокислый цинк"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "1571970",
+  "readings": [
+    {
+      "kanaExpression": "しんきろう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "蜃気楼",
+      "furiganaExpression": [
+        {
+          "text": "蜃",
+          "annotation": "しん"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "楼",
+          "annotation": "ろう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mirage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "luchtspiegeling",
+        "fata morgana",
+        "gezichtsbedrog",
+        "luchtbeeld",
+        "luchtgezicht",
+        "mirage",
+        "{w.g.} luchtverheveling",
+        "verheveling",
+        "{w.g.} opdoeming"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Luftspiegelung",
+        "Fata Morgana"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "délibáb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мираж"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "espejismo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hägring"
+      ]
+    }
+  ]
+}

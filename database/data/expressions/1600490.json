@@ -1,0 +1,61 @@
+{
+  "id": "1600490",
+  "readings": [
+    {
+      "kanaExpression": "のりごこち",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "乗り心地",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "の"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "心地",
+          "annotation": "ごこち"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "乗心地",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "のり"
+        },
+        {
+          "text": "心地",
+          "annotation": "ごこち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s feeling while riding",
+        "comfort (of a vehicle)",
+        "ride quality"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fahrgefühl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "самочувствие при поездке (в (на) чем-л.)"
+      ]
+    }
+  ]
+}

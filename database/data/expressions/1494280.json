@@ -1,0 +1,69 @@
+{
+  "id": "1494280",
+  "readings": [
+    {
+      "kanaExpression": "ふどうい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "不同意",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "disagreement",
+        "disapproval",
+        "objection",
+        "dissent",
+        "non-consent"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onenigheid",
+        "meningsverschil",
+        "verschil van mening",
+        "gebrek aan overeenstemming",
+        "afkeuring",
+        "bezwaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ablehnung",
+        "Missbilligung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ellenvetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "несогласие; разногласия, расхождение мнений; возражение"
+      ]
+    }
+  ]
+}

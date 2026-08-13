@@ -1,0 +1,54 @@
+{
+  "id": "1640080",
+  "readings": [
+    {
+      "kanaExpression": "こうきょう",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "交響",
+      "furiganaExpression": [
+        {
+          "text": "交",
+          "annotation": "こう"
+        },
+        {
+          "text": "響",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reverberation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "symfonie",
+        "in symfonie zijn",
+        "symfoniëren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zusammenklang",
+        "zusammenklingen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "reverberáció",
+        "többszörös reflexió",
+        "utózengés"
+      ]
+    }
+  ]
+}

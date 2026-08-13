@@ -1,0 +1,104 @@
+{
+  "id": "1382670",
+  "readings": [
+    {
+      "kanaExpression": "いしだたみ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "石畳",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "畳",
+          "annotation": "だたみ"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "甃",
+      "furiganaExpression": [
+        {
+          "text": "甃",
+          "annotation": "いしだたみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "石だたみ",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "だたみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "石畳み",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "畳",
+          "annotation": "だた"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stone paving",
+        "cobble paving",
+        "sett",
+        "flagstone",
+        "stone steps",
+        "check (pattern)",
+        "pavé (rectangular dessert, usu. made from chocolate or several layers of sponge cake)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stenen plaveisel",
+        "geplaveide weg",
+        "straat",
+        "stenen bevloering",
+        "{i.h.b.} kasseiweg"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steinpflaster",
+        "steinerner Fußboden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мостовая; двор, замощённый камнем; каменный пол"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "empedrado",
+        "adoquinado"
+      ]
+    }
+  ]
+}

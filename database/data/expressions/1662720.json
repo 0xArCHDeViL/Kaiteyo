@@ -1,0 +1,44 @@
+{
+  "id": "1662720",
+  "readings": [
+    {
+      "kanaExpression": "ぞうえき",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "増益",
+      "furiganaExpression": [
+        {
+          "text": "増",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "益",
+          "annotation": "えき"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "increased (profit)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zunahme des Profits",
+        "gestiegener Profit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "увеличившиеся прибыли, возросшие доходы"
+      ]
+    }
+  ]
+}

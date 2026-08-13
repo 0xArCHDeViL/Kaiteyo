@@ -1,0 +1,75 @@
+{
+  "id": "1797210",
+  "readings": [
+    {
+      "kanaExpression": "ぼうかん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "暴漢",
+      "furiganaExpression": [
+        {
+          "text": "暴",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "漢",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hoodlum",
+        "ruffian"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gewelddadige kerel",
+        "ruwe klant",
+        "zware jongen",
+        "agressieveling",
+        "vandaal",
+        "woesteling",
+        "schurk",
+        "bruut",
+        "bandiet",
+        "schavuit",
+        "rabauw",
+        "schoffie",
+        "vagebond",
+        "schoelje",
+        "rouwdouw",
+        "rouwdouwer",
+        "rouwdanus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Raufbold",
+        "Rohling",
+        "Radaubruder"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gengszter",
+        "haramia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) хулиган, буян"
+      ]
+    }
+  ]
+}

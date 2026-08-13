@@ -1,0 +1,61 @@
+{
+  "id": "1019220",
+  "readings": [
+    {
+      "kanaExpression": "アルカリせい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "アルカリ性",
+      "furiganaExpression": [
+        {
+          "text": "アルカリ"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "alkalinity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} alkaliteit",
+        "alkaliciteit",
+        "basiditeit",
+        "basiciteit",
+        "{chem.} {～の} alkalisch",
+        "basisch"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Alkalinität",
+        "alkalin",
+        "alkalisch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "щелочной"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alcalino (eng: alkaline)"
+      ]
+    }
+  ]
+}

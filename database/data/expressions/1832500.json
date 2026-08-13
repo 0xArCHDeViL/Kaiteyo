@@ -1,0 +1,50 @@
+{
+  "id": "1832500",
+  "readings": [
+    {
+      "kanaExpression": "ねつげん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "熱源",
+      "furiganaExpression": [
+        {
+          "text": "熱",
+          "annotation": "ねつ"
+        },
+        {
+          "text": "源",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heat source"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wärmequelle",
+        "Hitzequelle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "источник тепла"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "värmekälla"
+      ]
+    }
+  ]
+}

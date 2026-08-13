@@ -1,0 +1,68 @@
+{
+  "id": "1392790",
+  "readings": [
+    {
+      "kanaExpression": "ぜんく",
+      "rank": 33500
+    },
+    {
+      "kanaExpression": "せんぐ"
+    },
+    {
+      "kanaExpression": "ぜんぐ"
+    },
+    {
+      "kanjiExpression": "前駆",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "駆",
+          "annotation": "く"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outrider (person riding horseback in the lead position of a cavalcade)",
+        "outriding",
+        "harbinger",
+        "herald",
+        "precursor",
+        "forerunner",
+        "foretoken",
+        "anticipation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorausreiten (bei einer Prozession)",
+        "Vorreiter",
+        "Vorläufer",
+        "Vorbote"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előfutár",
+        "előjel",
+        "hírnök"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1): {～する} идти впереди, указывать путь",
+        "2) идущий впереди (в авангарде); предтеча, предшественник"
+      ]
+    }
+  ]
+}

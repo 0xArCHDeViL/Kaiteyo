@@ -1,0 +1,101 @@
+{
+  "id": "1433190",
+  "readings": [
+    {
+      "kanaExpression": "つうこうどめ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "通行止め",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        },
+        {
+          "text": "止",
+          "annotation": "ど"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "通行止",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        },
+        {
+          "text": "止",
+          "annotation": "どめ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "closure (of a road)",
+        "suspension of traffic",
+        "road closed",
+        "closed to traffic",
+        "no through road"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{verkeersbord} afgesloten rijweg",
+        "geen doorgang",
+        "geen doorgaand verkeer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "passage interdit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kein Durchgang!",
+        "Keine Durchfahrt!"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проход (проезд) закрыт",
+        "{～の} закрытый для проезда (движения)",
+        "{…を～にする} закрывать для движения (дорогу и т. п.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "cestna zapora"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carretera bloqueada",
+        "camino cerrado"
+      ]
+    }
+  ]
+}

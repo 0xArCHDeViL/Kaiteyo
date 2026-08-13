@@ -1,0 +1,65 @@
+{
+  "id": "1473520",
+  "readings": [
+    {
+      "kanaExpression": "うめしゅ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "梅酒",
+      "furiganaExpression": [
+        {
+          "text": "梅",
+          "annotation": "うめ"
+        },
+        {
+          "text": "酒",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ume liqueur",
+        "Japanese plum brandy",
+        "unripe ume infused in liquor (esp. shōchū) with added sugar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "winterpruimenlikeur",
+        "Japanse abrikozenlikeur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "boisson composée de saké et de prune"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pflaumenlikör",
+        "Pflaumenwein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сливовая настойка [на спирту], сливянка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "licor de ciruela"
+      ]
+    }
+  ]
+}

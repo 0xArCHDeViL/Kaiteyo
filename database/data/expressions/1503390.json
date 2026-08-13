@@ -1,0 +1,85 @@
+{
+  "id": "1503390",
+  "readings": [
+    {
+      "kanaExpression": "ぶんぎょう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "分業",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 10762
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "division of labor",
+        "division of labour",
+        "specialization",
+        "specialisation",
+        "assembly-line production"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "arbeidsverdeling",
+        "verdeling van de arbeid",
+        "taakverdeling",
+        "werkverdeling",
+        "differentiatie",
+        "specialisatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "division du travail"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitsteilung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "specializálódás",
+        "szakosodás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разделение труда; специализация"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "delitev dela",
+        "delo na tekočem traku",
+        "specializacija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "división del trabajo"
+      ]
+    }
+  ]
+}

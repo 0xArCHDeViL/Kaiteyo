@@ -1,0 +1,58 @@
+{
+  "id": "1381430",
+  "readings": [
+    {
+      "kanaExpression": "せいか",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "青果",
+      "furiganaExpression": [
+        {
+          "text": "青",
+          "annotation": "せい"
+        },
+        {
+          "text": "果",
+          "annotation": "か"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fruits and vegetables",
+        "produce"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "groente en fruit",
+        "groenten en vruchten",
+        "versproducten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Obst und Gemüse (Abk.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "овощи и фрукты"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "frutas y verduras"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "1609860",
+  "readings": [
+    {
+      "kanaExpression": "しおからい",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "からい",
+      "rank": 14048
+    },
+    {
+      "kanjiExpression": "塩辛い",
+      "furiganaExpression": [
+        {
+          "text": "塩",
+          "annotation": "しお"
+        },
+        {
+          "text": "辛",
+          "annotation": "から"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "鹹い",
+      "furiganaExpression": [
+        {
+          "text": "鹹",
+          "annotation": "しおから"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "salty (taste)",
+        "briny"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(te) zout",
+        "gezouten",
+        "hartig",
+        "ziltig",
+        "zilt",
+        "brak",
+        "salinisch"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "salé",
+        "saumâtre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "salzig",
+        "gesalzen",
+        "salzig schmeckend",
+        "zu salzig"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пересоленный; крепко засоленный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(sabor) salado",
+        "salado"
+      ]
+    }
+  ]
+}

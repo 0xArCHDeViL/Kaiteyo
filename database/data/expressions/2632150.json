@@ -1,0 +1,65 @@
+{
+  "id": "2632150",
+  "readings": [
+    {
+      "kanaExpression": "じゅうてんてき",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "重点的",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 12691
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prioritized",
+        "focused",
+        "concentrated",
+        "predominant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwerpunkthaft",
+        "wichtigkeitsgemäß",
+        "dringlichkeitsgemäß",
+        "schwerpunktmäßig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "főleg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "важнейший; преобладающий"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "principalmente"
+      ]
+    }
+  ]
+}

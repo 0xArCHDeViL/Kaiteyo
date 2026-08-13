@@ -1,0 +1,139 @@
+{
+  "id": "1597125",
+  "readings": [
+    {
+      "kanaExpression": "たとえ",
+      "rank": 2718
+    },
+    {
+      "kanaExpression": "たとい"
+    },
+    {
+      "kanjiExpression": "仮令",
+      "furiganaExpression": [
+        {
+          "text": "仮令",
+          "annotation": "たとえ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "縦え",
+      "furiganaExpression": [
+        {
+          "text": "縦",
+          "annotation": "たと"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "縦令",
+      "furiganaExpression": [
+        {
+          "text": "縦令",
+          "annotation": "たとえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "even if",
+        "no matter (what)",
+        "if",
+        "though",
+        "although",
+        "supposing",
+        "supposing that",
+        "-ever"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "al",
+        "zelfs al",
+        "ook al",
+        "zelfs",
+        "ook als ~",
+        "wat",
+        "wie",
+        "hoe",
+        "waar",
+        "wanneer ~ ook",
+        "n\u0027importe ~",
+        "ongeacht (of) ~",
+        "onverschillig (of) ~",
+        "aangenomen dat",
+        "welk",
+        "het doet er niet toe hoe",
+        "wanneer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "même si",
+        "peu importe (que)",
+        "si",
+        "bien que",
+        "quoi que",
+        "supposant",
+        "à supposer que"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auch wenn",
+        "selbst wenn",
+        "obgleich",
+        "obwohl",
+        "obschon"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "még akkor is ha",
+        "bár",
+        "habár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пусть, хотя, если даже"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "če",
+        "celo če",
+        "čeprav"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "por ejemplo",
+        "aun si",
+        "si",
+        "aunque",
+        "si bien",
+        "aunque...",
+        "aun cuando...",
+        "incluso si...",
+        "aun en el caso de...",
+        "aun suponiendo que..."
+      ]
+    }
+  ]
+}

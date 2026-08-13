@@ -1,0 +1,79 @@
+{
+  "id": "1206560",
+  "readings": [
+    {
+      "kanaExpression": "がくいん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "学院",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "院",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 8257
+    },
+    {
+      "kanjiExpression": "學院",
+      "furiganaExpression": [
+        {
+          "text": "學",
+          "annotation": "がく"
+        },
+        {
+          "text": "院",
+          "annotation": "いん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "institute",
+        "academy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "instituut",
+        "academie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hochschule",
+        "Schule",
+        "Akademie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "intézmény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "институт; академия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "instituto",
+        "academia"
+      ]
+    }
+  ]
+}

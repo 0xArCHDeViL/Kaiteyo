@@ -1,0 +1,118 @@
+{
+  "id": "1252990",
+  "readings": [
+    {
+      "kanaExpression": "にわとり",
+      "rank": 22000
+    },
+    {
+      "kanaExpression": "とり",
+      "rank": 10399
+    },
+    {
+      "kanaExpression": "かけ",
+      "rank": 6559
+    },
+    {
+      "kanaExpression": "くたかけ"
+    },
+    {
+      "kanaExpression": "ニワトリ"
+    },
+    {
+      "kanjiExpression": "鶏",
+      "furiganaExpression": [
+        {
+          "text": "鶏",
+          "annotation": "にわとり"
+        }
+      ],
+      "rank": 5536
+    },
+    {
+      "kanjiExpression": "鷄",
+      "furiganaExpression": [
+        {
+          "text": "鷄",
+          "annotation": "にわとり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "雞",
+      "furiganaExpression": [
+        {
+          "text": "雞",
+          "annotation": "にわとり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chicken (Gallus gallus domesticus)",
+        "domestic chicken",
+        "chicken meat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} kip",
+        "hoen",
+        "{i.h.b.} haan",
+        "(tamme) hoen",
+        "Gallus domesticus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "coq",
+        "poule",
+        "poulet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Huhn",
+        "Henne",
+        "Hahn",
+        "Gockel",
+        "Küken",
+        "Kücken",
+        "Gallus gallus var. domesticus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csirke"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "курица, петух"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kokoš",
+        "petelin",
+        "piščanec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gallina",
+        "pollo"
+      ]
+    }
+  ]
+}

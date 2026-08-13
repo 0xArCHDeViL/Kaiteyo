@@ -1,0 +1,103 @@
+{
+  "id": "1009780",
+  "readings": [
+    {
+      "kanaExpression": "について",
+      "rank": 109
+    },
+    {
+      "kanjiExpression": "に就いて",
+      "furiganaExpression": [
+        {
+          "text": "に"
+        },
+        {
+          "text": "就",
+          "annotation": "つ"
+        },
+        {
+          "text": "いて"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "に就て",
+      "furiganaExpression": [
+        {
+          "text": "に"
+        },
+        {
+          "text": "就",
+          "annotation": "つい"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "に付いて",
+      "furiganaExpression": [
+        {
+          "text": "に"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "いて"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "concerning",
+        "regarding",
+        "per (e.g. 100 yen per person)",
+        "for every"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "omtrent ~",
+        "over ~",
+        "betreffende ~",
+        "met betrekking tot ~",
+        "in verband met ~",
+        "aangaande ~",
+        "wat betreft ~",
+        "ten aanzien van ~",
+        "op het punt van ~",
+        "langs ~",
+        "aan de zijde van ~",
+        "naast ~",
+        "met ~",
+        "in gezelschap van ~",
+        "onder {begeleiding van ~}",
+        "voor ~",
+        "à ~",
+        "per ~"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vonatkozólag",
+        "hosszában"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "om",
+        "gällande"
+      ]
+    }
+  ]
+}

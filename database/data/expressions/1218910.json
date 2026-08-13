@@ -1,0 +1,78 @@
+{
+  "id": "1218910",
+  "readings": [
+    {
+      "kanaExpression": "きかん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "器官",
+      "furiganaExpression": [
+        {
+          "text": "器",
+          "annotation": "き"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 13735
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "organ"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "orgaan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "instrument",
+        "organe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Organ",
+        "Körperorgan"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szerszám"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "орган[ы] (тела)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "telesni organ",
+        "orodje",
+        "priprava"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "órgano (del cuerpo)",
+        "instrumento"
+      ]
+    }
+  ]
+}

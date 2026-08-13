@@ -1,0 +1,75 @@
+{
+  "id": "1364060",
+  "readings": [
+    {
+      "kanaExpression": "ましょうめん",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "まっしょうめん"
+    },
+    {
+      "kanjiExpression": "真正面",
+      "furiganaExpression": [
+        {
+          "text": "真",
+          "annotation": "ま"
+        },
+        {
+          "text": "正",
+          "annotation": "しょう"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "真っ正面",
+      "furiganaExpression": [
+        {
+          "text": "真",
+          "annotation": "ま"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "正",
+          "annotation": "しょう"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "directly opposite",
+        "right in front"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Front",
+        "Stirnseite",
+        "Vorderseite",
+        "Direktheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ましょうめん",
+        ": {～[に]} прямо напротив"
+      ]
+    }
+  ]
+}

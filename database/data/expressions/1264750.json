@@ -1,0 +1,61 @@
+{
+  "id": "1264750",
+  "readings": [
+    {
+      "kanaExpression": "こしつ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "個室",
+      "furiganaExpression": [
+        {
+          "text": "個",
+          "annotation": "こ"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 10917
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "single (room)",
+        "room for one",
+        "one\u0027s own room",
+        "private room",
+        "private compartment",
+        "private room (in a restaurant, etc.)",
+        "private dining room",
+        "(toilet) stall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aparte kamer",
+        "afzonderlijke kamer",
+        "{ホテル",
+        "寮の} eenpersoonskamer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einzelzimmer",
+        "allein genutztes Zimmer"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuarto privado",
+        "habitación privada"
+      ]
+    }
+  ]
+}

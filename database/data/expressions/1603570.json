@@ -1,0 +1,110 @@
+{
+  "id": "1603570",
+  "readings": [
+    {
+      "kanaExpression": "ほりかえす",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "掘り返す",
+      "furiganaExpression": [
+        {
+          "text": "掘",
+          "annotation": "ほ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "掘返す",
+      "furiganaExpression": [
+        {
+          "text": "掘",
+          "annotation": "ほり"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "堀り返す",
+      "furiganaExpression": [
+        {
+          "text": "堀",
+          "annotation": "ほ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to dig up",
+        "to turn up",
+        "to tear up",
+        "to rake up (e.g. old scandal)",
+        "to dig over"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arracher",
+        "déterrer",
+        "retourner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "umgraben",
+        "aufpflügen",
+        "wühlen",
+        "noch einmal ausgraben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előkerül",
+        "felfelé fordít",
+        "felhajlik",
+        "felhajt",
+        "kettészakít",
+        "összetép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перекапывать, перерывать; перепахивать"
+      ]
+    }
+  ]
+}

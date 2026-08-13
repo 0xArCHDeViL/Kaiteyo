@@ -1,0 +1,55 @@
+{
+  "id": "1333770",
+  "readings": [
+    {
+      "kanaExpression": "しゅうはい",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "集配",
+      "furiganaExpression": [
+        {
+          "text": "集",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "配",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "collection and delivery"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verzamelen en bezorgen",
+        "ophalen en uitdelen",
+        "inzamelen en leveren",
+        "verzameling en bezorging",
+        "ophaling en uitdeling",
+        "inzameling en levering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einsammeln und zustellen (Post, Fracht oder Waren)",
+        "Sammeln und Zustellen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сбор и раздача; получение и разноска (напр. почты)"
+      ]
+    }
+  ]
+}

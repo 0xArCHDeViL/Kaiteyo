@@ -1,0 +1,74 @@
+{
+  "id": "1634560",
+  "readings": [
+    {
+      "kanaExpression": "やけあと",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "焼け跡",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "跡",
+          "annotation": "あと"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "焼跡",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "やけ"
+        },
+        {
+          "text": "跡",
+          "annotation": "あと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ruins of a fire",
+        "fire-devastated area"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "resten van een brand",
+        "brandsporen",
+        "brandpuin",
+        "afgebrand gebied",
+        "brandplek",
+        "litteken van een brandwond"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Brandstätte",
+        "Brandstelle",
+        "Brandruine"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) пожарище, пепелище; остатки после пожара; гарь (в лесу)",
+        "2) следы ожога"
+      ]
+    }
+  ]
+}

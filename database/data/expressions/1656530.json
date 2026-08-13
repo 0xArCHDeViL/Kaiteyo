@@ -1,0 +1,67 @@
+{
+  "id": "1656530",
+  "readings": [
+    {
+      "kanaExpression": "ひっち",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "筆致",
+      "furiganaExpression": [
+        {
+          "text": "筆",
+          "annotation": "ひっ"
+        },
+        {
+          "text": "致",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stroke of the brush",
+        "touch",
+        "literary style"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pinselführung bei Malerei und Kalligraphie",
+        "literarischer Stil"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ecsetkezelés",
+        "egy csöppnyi",
+        "egy kevés",
+        "jellemző eljárásmód",
+        "megtapintás",
+        "partvonal",
+        "tapintóérzék",
+        "zongorabillentés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) взмах (мазок) кисти; росчерк пера",
+        "2) (лит.) эскиз"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pincelada",
+        "manejo del pincel"
+      ]
+    }
+  ]
+}

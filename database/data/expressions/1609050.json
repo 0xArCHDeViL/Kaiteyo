@@ -1,0 +1,112 @@
+{
+  "id": "1609050",
+  "readings": [
+    {
+      "kanaExpression": "あつまり",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "集まり",
+      "furiganaExpression": [
+        {
+          "text": "集",
+          "annotation": "あつ"
+        },
+        {
+          "text": "まり"
+        }
+      ],
+      "rank": 7345
+    },
+    {
+      "kanjiExpression": "集り",
+      "furiganaExpression": [
+        {
+          "text": "集",
+          "annotation": "あつま"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gathering",
+        "meeting",
+        "assembly",
+        "collection",
+        "attendance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verzameling",
+        "bijeenkomst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rassemblement",
+        "réunion",
+        "assemblée",
+        "collection",
+        "fréquentation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zusammenkunft",
+        "Treffen",
+        "Versammlung",
+        "Ansammlung",
+        "Sammlung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gennyesedés",
+        "összejövetel",
+        "gyülekezet",
+        "összeszerelés",
+        "sorakozó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) собрание, сходка, сбор",
+        "2) собирание (чего-л.); сбор (напр. налога)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "gruča",
+        "skupina (ljudi)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "colección",
+        "encuentro",
+        "confluencia",
+        "reunión"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sammankomst"
+      ]
+    }
+  ]
+}

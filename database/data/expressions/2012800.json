@@ -1,0 +1,74 @@
+{
+  "id": "2012800",
+  "readings": [
+    {
+      "kanaExpression": "せもたれ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "背もたれ",
+      "furiganaExpression": [
+        {
+          "text": "背",
+          "annotation": "せ"
+        },
+        {
+          "text": "もたれ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "背凭れ",
+      "furiganaExpression": [
+        {
+          "text": "背",
+          "annotation": "せ"
+        },
+        {
+          "text": "凭",
+          "annotation": "もた"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "back (of a chair)",
+        "backrest"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rugleuning",
+        "ruggensteun",
+        "steun in de rug"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rückenstütze",
+        "Rückenlehne (eines Stuhles)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmaradt",
+        "ezelőtt",
+        "hát",
+        "hátul",
+        "régen",
+        "támla",
+        "vissza"
+      ]
+    }
+  ]
+}

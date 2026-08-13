@@ -1,0 +1,52 @@
+{
+  "id": "1622800",
+  "readings": [
+    {
+      "kanaExpression": "ちのうはん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "知能犯",
+      "furiganaExpression": [
+        {
+          "text": "知",
+          "annotation": "ち"
+        },
+        {
+          "text": "能",
+          "annotation": "のう"
+        },
+        {
+          "text": "犯",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "intellectual crime",
+        "white-collar crime",
+        "intellectual criminal",
+        "smart criminal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "raffiniert ausgeklügeltes Verbrechen",
+        "intelligentes Verbrechen",
+        "intelligenter Krimineller"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(юр.) преступление без применения силы ((букв.) умственное; (напр. мошенничество, растрата; ант.) ごうりきはん)"
+      ]
+    }
+  ]
+}

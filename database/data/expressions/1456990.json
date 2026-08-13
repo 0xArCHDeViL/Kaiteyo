@@ -1,0 +1,90 @@
+{
+  "id": "1456990",
+  "readings": [
+    {
+      "kanaExpression": "とっき",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "突起",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "とっ"
+        },
+        {
+          "text": "起",
+          "annotation": "き"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "凸起",
+      "furiganaExpression": [
+        {
+          "text": "凸",
+          "annotation": "とっ"
+        },
+        {
+          "text": "起",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "protuberance",
+        "projection",
+        "prominence",
+        "protrusion",
+        "bump",
+        "boss",
+        "process",
+        "apophysis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitsteeksel",
+        "uitstekend deel",
+        "uitspringend gedeelte",
+        "uitsprong",
+        "saillie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorsprung",
+        "Fortsatz",
+        "Zipfung",
+        "hervorspringen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выступ; нарост; отросток; (анат.) аппендикс",
+        "{～する} выдаваться, выступать",
+        "{～した} выступающий, выдающийся вперёд"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "protuberancia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "utväxt"
+      ]
+    }
+  ]
+}

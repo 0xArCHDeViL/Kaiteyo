@@ -1,0 +1,67 @@
+{
+  "id": "1723400",
+  "readings": [
+    {
+      "kanaExpression": "ぶんり",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "文理",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "humanities and sciences",
+        "social sciences and hard sciences",
+        "context",
+        "(line of) reasoning"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "alfa- en bètawetenschappen",
+        "letteren en exacte wetenschappen",
+        "literatuur en wetenschap",
+        "tekstlogica",
+        "tekstcoherentie",
+        "tekstuele structuur",
+        "context",
+        "rode draad",
+        "gedachtegang"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geistes- und Naturwissenschaften"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "összefüggés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) контекст; общая нить (повествования, сюжета, разговора)",
+        "2) гуманитарные и естественные науки"
+      ]
+    }
+  ]
+}

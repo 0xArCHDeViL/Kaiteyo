@@ -1,0 +1,98 @@
+{
+  "id": "1430640",
+  "readings": [
+    {
+      "kanaExpression": "すぐさま",
+      "rank": 12302
+    },
+    {
+      "kanjiExpression": "直ぐさま",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "す"
+        },
+        {
+          "text": "ぐさま"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "直ぐ様",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "す"
+        },
+        {
+          "text": "ぐ"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "すぐ様",
+      "furiganaExpression": [
+        {
+          "text": "すぐ"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "immediately",
+        "promptly"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onmiddellijk",
+        "ogenblikkelijk",
+        "terstond",
+        "meteen",
+        "dadelijk",
+        "direct",
+        "prompt",
+        "à la minute",
+        "onverwijld",
+        "in een mum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sogleich",
+        "sofort",
+        "unverzüglich",
+        "ohne Verzug",
+        "unmittelbar",
+        "direkt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "amint",
+        "közvetlenül"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сразу же, немедленно"
+      ]
+    }
+  ]
+}

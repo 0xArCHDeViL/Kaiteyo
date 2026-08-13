@@ -1,0 +1,58 @@
+{
+  "id": "1405920",
+  "readings": [
+    {
+      "kanaExpression": "そつぎょうしき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "卒業式",
+      "furiganaExpression": [
+        {
+          "text": "卒",
+          "annotation": "そつ"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "graduation ceremony",
+        "commencement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abschlussfeier",
+        "Schulabschlussfeier",
+        "Universitätsabschlussfeier",
+        "Graduierungsfeier"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizonyítványosztó ünnepség",
+        "diplomaosztó ünnepség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выпускной акт"
+      ]
+    }
+  ]
+}

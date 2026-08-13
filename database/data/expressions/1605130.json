@@ -1,0 +1,106 @@
+{
+  "id": "1605130",
+  "readings": [
+    {
+      "kanaExpression": "もうしいれ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "申し入れ",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "もう"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 14679
+    },
+    {
+      "kanjiExpression": "申入",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "もうし"
+        },
+        {
+          "text": "入",
+          "annotation": "いれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "proposal",
+        "offer",
+        "report",
+        "proposition",
+        "notice",
+        "request"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "offre",
+        "proposition",
+        "avis",
+        "communiqué",
+        "rapport"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einspruch",
+        "Mitteilung",
+        "Angebot",
+        "Vorschlag",
+        "Bericht",
+        "Vorstellung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "indítvány",
+        "javaslat",
+        "beszámoló",
+        "értesítő",
+        "dördülés",
+        "kiadmány",
+        "kósza hír",
+        "riport",
+        "szóbeszéd",
+        "tanulmányi értesítő",
+        "figyelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предложение; представление",
+        "{～をする} предлагать, вносить предложение; делать представление"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ofrecimiento",
+        "propuesta"
+      ]
+    }
+  ]
+}

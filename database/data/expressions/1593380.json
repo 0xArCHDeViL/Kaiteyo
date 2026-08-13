@@ -1,0 +1,139 @@
+{
+  "id": "1593380",
+  "readings": [
+    {
+      "kanaExpression": "こねこ",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "コネコ"
+    },
+    {
+      "kanjiExpression": "子猫",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "猫",
+          "annotation": "ねこ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "仔猫",
+      "furiganaExpression": [
+        {
+          "text": "仔",
+          "annotation": "こ"
+        },
+        {
+          "text": "猫",
+          "annotation": "ねこ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "小猫",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "猫",
+          "annotation": "ねこ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "子ネコ",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "ネコ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "子ねこ",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "ねこ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "仔ネコ",
+      "furiganaExpression": [
+        {
+          "text": "仔",
+          "annotation": "こ"
+        },
+        {
+          "text": "ネコ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "kitten",
+        "small cat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleine kat",
+        "jonge poes",
+        "katje",
+        "poesje",
+        "kattenjong"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleine Katze",
+        "Kätzchen",
+        "Katzenjunges"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiscica"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "котёнок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gatito"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kattunge"
+      ]
+    }
+  ]
+}

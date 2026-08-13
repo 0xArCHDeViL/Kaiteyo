@@ -1,0 +1,84 @@
+{
+  "id": "1348830",
+  "readings": [
+    {
+      "kanaExpression": "こばなし",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "しょうわ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "小話",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "話",
+          "annotation": "ばなし"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "小咄",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "咄",
+          "annotation": "ばなし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "小噺",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "噺",
+          "annotation": "ばなし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "anecdote",
+        "brief (comic) story"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anekdote",
+        "Kurzgeschichte",
+        "Geschichtchen",
+        "Humoreske",
+        "lustige Geschichte im Rakugo"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adoma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "маленький (короткий) рассказ"
+      ]
+    }
+  ]
+}

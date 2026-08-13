@@ -1,0 +1,127 @@
+{
+  "id": "1606280",
+  "readings": [
+    {
+      "kanaExpression": "りょうしょう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "了承",
+      "furiganaExpression": [
+        {
+          "text": "了",
+          "annotation": "りょう"
+        },
+        {
+          "text": "承",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 4005
+    },
+    {
+      "kanjiExpression": "諒承",
+      "furiganaExpression": [
+        {
+          "text": "諒",
+          "annotation": "りょう"
+        },
+        {
+          "text": "承",
+          "annotation": "しょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "領承",
+      "furiganaExpression": [
+        {
+          "text": "領",
+          "annotation": "りょう"
+        },
+        {
+          "text": "承",
+          "annotation": "しょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "acknowledgement",
+        "acknowledgment",
+        "understanding",
+        "approval",
+        "consent"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "begrip",
+        "erkenning",
+        "acceptatie",
+        "aanvaarding",
+        "instemming",
+        "toestemming",
+        "goedkeuring",
+        "permissie",
+        "verlof",
+        "begrip hebben voor",
+        "erkennen",
+        "accepteren",
+        "aanvaarden",
+        "instemmen",
+        "toestemmen",
+        "goedkeuren",
+        "permitteren",
+        "nota nemen van"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prendre en compte, considération",
+        "compréhension",
+        "considération (\"veuillez prendre en considération \")",
+        "pour information"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kenntnisnahme",
+        "Anerkennung",
+        "Zustimmung",
+        "anerkennen",
+        "einverstanden sein",
+        "gelten lassen",
+        "zustimmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elismerés",
+        "köszönetnyilvánítás",
+        "egyetértés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "согласие, принятие; признание",
+        "{～する} соглашаться, принимать; признавать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aprobación",
+        "entendimiento"
+      ]
+    }
+  ]
+}

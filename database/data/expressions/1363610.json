@@ -1,0 +1,62 @@
+{
+  "id": "1363610",
+  "readings": [
+    {
+      "kanaExpression": "しんくうかん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "真空管",
+      "furiganaExpression": [
+        {
+          "text": "真",
+          "annotation": "しん"
+        },
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "管",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vacuum tube"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vacuümbuis",
+        "luchtledige buis",
+        "elektronenbuis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vakuumröhre"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "katódsugárcső",
+        "vákuumcső"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вакуумная трубка; радиолампа"
+      ]
+    }
+  ]
+}

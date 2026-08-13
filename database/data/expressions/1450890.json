@@ -1,0 +1,85 @@
+{
+  "id": "1450890",
+  "readings": [
+    {
+      "kanaExpression": "ずつう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "頭痛",
+      "furiganaExpression": [
+        {
+          "text": "頭",
+          "annotation": "ず"
+        },
+        {
+          "text": "痛",
+          "annotation": "つう"
+        }
+      ],
+      "rank": 7439
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "headache"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdpijn",
+        "{inform.} koppijn",
+        "{geneesk.} cefalalgie",
+        "hoofdbreken",
+        "kopzorg",
+        "beslommering",
+        "kommernis",
+        "muizenis",
+        "sores",
+        "probleem"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mal de tête"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kopfschmerzen",
+        "Sorgen",
+        "Ärger"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "головная боль; (обр.) забота, беспокойство",
+        "{～がする} болит голова"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "glavobol"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dolor de cabeza"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "huvudvärk"
+      ]
+    }
+  ]
+}

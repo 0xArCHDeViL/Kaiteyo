@@ -1,0 +1,60 @@
+{
+  "id": "1641390",
+  "readings": [
+    {
+      "kanaExpression": "めいゆう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "名優",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "めい"
+        },
+        {
+          "text": "優",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "great actor",
+        "famous actor",
+        "star"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "berühmter Schauspieler",
+        "hervorragender Schauspieler",
+        "Star"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csillagzat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "знаменитый актёр"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "actor famoso",
+        "estrella"
+      ]
+    }
+  ]
+}

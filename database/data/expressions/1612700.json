@@ -1,0 +1,84 @@
+{
+  "id": "1612700",
+  "readings": [
+    {
+      "kanaExpression": "そのもの",
+      "rank": 1137
+    },
+    {
+      "kanjiExpression": "その物",
+      "furiganaExpression": [
+        {
+          "text": "その"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "其の物",
+      "furiganaExpression": [
+        {
+          "text": "其",
+          "annotation": "そ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the very thing",
+        "itself"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(la chose)-mêe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "genau diese Sache",
+        "dasselbe",
+        "dieses",
+        "das nämliche",
+        "… an sich",
+        "… selbst"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(после сущ.) как таковой, сам по себе"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "poosebljen",
+        "sam po sebi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "se",
+        "sí mismo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1467970",
+  "readings": [
+    {
+      "kanaExpression": "ねつびょう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "熱病",
+      "furiganaExpression": [
+        {
+          "text": "熱",
+          "annotation": "ねつ"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fever",
+        "febrile disease"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fièvre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fieber"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felajzottság",
+        "láz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лихорадка; болезнь с температурой (жаром)"
+      ]
+    }
+  ]
+}

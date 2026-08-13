@@ -1,0 +1,77 @@
+{
+  "id": "1632080",
+  "readings": [
+    {
+      "kanaExpression": "たいまつ",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "しょうめい",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "松明",
+      "furiganaExpression": [
+        {
+          "text": "松明",
+          "annotation": "たいまつ"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "炬",
+      "furiganaExpression": [
+        {
+          "text": "炬",
+          "annotation": "たいまつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "torch (made of pine, bamboo, reed, etc.)",
+        "flambeau",
+        "torchlight"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fakkel",
+        "toorts",
+        "flambouw",
+        "{gew.} flambeeuw"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fackel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fáklya",
+        "hegesztőpisztoly"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "факел"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "antorcha",
+        "tea"
+      ]
+    }
+  ]
+}

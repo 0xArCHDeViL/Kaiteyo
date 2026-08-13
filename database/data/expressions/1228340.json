@@ -1,0 +1,111 @@
+{
+  "id": "1228340",
+  "readings": [
+    {
+      "kanaExpression": "すいあげる",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "吸い上げる",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "す"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "吸いあげる",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "す"
+        },
+        {
+          "text": "いあげる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吸上げる",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "すい"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to suck up",
+        "to pump up",
+        "to draw up",
+        "to absorb",
+        "to extract",
+        "to siphon off (profits, etc.)",
+        "to exploit",
+        "to take up others\u0027 opinions, hopes, etc."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opzuigen",
+        "opslorpen",
+        "{声で} meenemen",
+        "{ポンプで} oppompen",
+        "{fig.} overhevelen",
+        "overtappen",
+        "aftappen",
+        "ontfutselen",
+        "onttrekken aan",
+        "afpakken",
+        "{利益を} afromen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufsaugen",
+        "hochpumpen",
+        "anderen deren Gewinn wegnehmen",
+        "sich den Gewinn anderer einverleiben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elszipkáz",
+        "szívócsővel elvezet",
+        "szívócsővel kiszív"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "всасывать, откачивать (воду)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "1706390",
+  "readings": [
+    {
+      "kanaExpression": "じつどう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "実働",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じつ"
+        },
+        {
+          "text": "働",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "actual work"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tatsächliche Arbeit (im Gegensatz zu Vorbereitung etc.)"
+      ]
+    }
+  ]
+}

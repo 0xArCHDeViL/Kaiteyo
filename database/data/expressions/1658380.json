@@ -1,0 +1,45 @@
+{
+  "id": "1658380",
+  "readings": [
+    {
+      "kanaExpression": "じすう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "字数",
+      "furiganaExpression": [
+        {
+          "text": "字",
+          "annotation": "じ"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "number of characters",
+        "number of letters"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anzahl der Schriftzeichen",
+        "Textumfang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) число букв (иероглифов, знаков)"
+      ]
+    }
+  ]
+}

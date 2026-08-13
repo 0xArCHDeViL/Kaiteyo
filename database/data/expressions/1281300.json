@@ -1,0 +1,63 @@
+{
+  "id": "1281300",
+  "readings": [
+    {
+      "kanaExpression": "こうくうがいしゃ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "航空会社",
+      "furiganaExpression": [
+        {
+          "text": "航",
+          "annotation": "こう"
+        },
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "会",
+          "annotation": "がい"
+        },
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "airline company"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "luchtvaartmaatschappij",
+        "vliegtuigmaatschappij",
+        "luchtvaartbedrijf",
+        "luchtvaartonderneming",
+        "vliegbedrijf",
+        "carrier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Luftfahrtgesellschaft",
+        "Fluggesellschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "авиакомпания"
+      ]
+    }
+  ]
+}

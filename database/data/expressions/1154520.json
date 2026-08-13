@@ -1,0 +1,83 @@
+{
+  "id": "1154520",
+  "readings": [
+    {
+      "kanaExpression": "あんさつ",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "暗殺",
+      "furiganaExpression": [
+        {
+          "text": "暗",
+          "annotation": "あん"
+        },
+        {
+          "text": "殺",
+          "annotation": "さつ"
+        }
+      ],
+      "rank": 7736
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "assassination"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moord",
+        "sluipmoord",
+        "vermoorden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "assassinat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Attentat",
+        "Anschlag",
+        "Meuchelmord",
+        "heimtückischer Mord",
+        "ein Attentat verüben",
+        "ermorden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "merénylet",
+        "politikai gyilkosság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[тайное] убийство, убийство из-за угла",
+        "{～する} убивать из-за угла"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "umor",
+        "uboj"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "asesinato"
+      ]
+    }
+  ]
+}

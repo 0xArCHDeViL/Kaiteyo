@@ -1,0 +1,93 @@
+{
+  "id": "1570710",
+  "readings": [
+    {
+      "kanaExpression": "かける",
+      "rank": 431
+    },
+    {
+      "kanjiExpression": "翔る",
+      "furiganaExpression": [
+        {
+          "text": "翔",
+          "annotation": "かけ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "駆ける",
+      "furiganaExpression": [
+        {
+          "text": "駆",
+          "annotation": "か"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 7790
+    },
+    {
+      "kanjiExpression": "翔ける",
+      "furiganaExpression": [
+        {
+          "text": "翔",
+          "annotation": "か"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to soar",
+        "to fly",
+        "to run",
+        "to dash"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoog vliegen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fliegen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elröpít",
+        "repül",
+        "repülőgépen szállít",
+        "repülőgépen visz",
+        "repülőgépet vezet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) летать, парить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "elevar",
+        "volar"
+      ]
+    }
+  ]
+}

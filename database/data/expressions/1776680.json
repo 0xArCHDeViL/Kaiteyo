@@ -1,0 +1,51 @@
+{
+  "id": "1776680",
+  "readings": [
+    {
+      "kanaExpression": "だきゅう",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "打球",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "だ"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hitting (a ball with a bat, racket, golf club, etc.)",
+        "batting",
+        "batted ball",
+        "struck ball"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} het slaan",
+        "het batten",
+        "slag",
+        "{honkb.} geslagen bal",
+        "gebatte bal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlagen des Balles",
+        "geschlagener Ball"
+      ]
+    }
+  ]
+}

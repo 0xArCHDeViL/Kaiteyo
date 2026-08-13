@@ -1,0 +1,67 @@
+{
+  "id": "1206350",
+  "readings": [
+    {
+      "kanaExpression": "へだて",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "隔て",
+      "furiganaExpression": [
+        {
+          "text": "隔",
+          "annotation": "へだ"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "partition",
+        "distinction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Teilung",
+        "Trennung",
+        "Unterschied",
+        "Unterscheidung",
+        "unterschiedliche Behandlung",
+        "Entfremdung",
+        "Entzweiung",
+        "Abkühlung",
+        "Kälte",
+        "Zurückhaltung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felosztás",
+        "fülke",
+        "rekesz",
+        "válaszfal",
+        "különbség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) расстояние (между чем-л.); промежуток",
+        "2) перегородка; барьер",
+        "3) различие, разница; дискриминация",
+        "4) сдержанность (в обращении), холодок",
+        "{～のある}, 隔てのあるよそよそしい сдержанный, замкнутый",
+        "{～のない} открытый, простой, откровенный"
+      ]
+    }
+  ]
+}

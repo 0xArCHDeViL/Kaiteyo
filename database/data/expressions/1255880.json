@@ -1,0 +1,68 @@
+{
+  "id": "1255880",
+  "readings": [
+    {
+      "kanaExpression": "げつよう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "月曜",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "げつ"
+        },
+        {
+          "text": "曜",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 7212
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Monday"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maandag",
+        "{afk.} ma"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "Lundi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Montag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "понедельник"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ponedeljek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lunes"
+      ]
+    }
+  ]
+}

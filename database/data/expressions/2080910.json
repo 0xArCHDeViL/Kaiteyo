@@ -1,0 +1,40 @@
+{
+  "id": "2080910",
+  "readings": [
+    {
+      "kanaExpression": "なばかり",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "名ばかり",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "な"
+        },
+        {
+          "text": "ばかり"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in name only",
+        "titular",
+        "nominal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nur dem Namen nach",
+        "nominell",
+        "titular"
+      ]
+    }
+  ]
+}

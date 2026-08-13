@@ -1,0 +1,44 @@
+{
+  "id": "1789230",
+  "readings": [
+    {
+      "kanaExpression": "とくしん",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "特進",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とく"
+        },
+        {
+          "text": "進",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "special promotion (in rank or grade)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sonderbeförderung",
+        "besonders befördert werden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внеочередное повышение в звании (производство в чин)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "1270830",
+  "readings": [
+    {
+      "kanaExpression": "おむつ",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "オムツ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お襁褓",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "襁",
+          "annotation": "む"
+        },
+        {
+          "text": "褓",
+          "annotation": "つ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御襁褓",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "襁",
+          "annotation": "む"
+        },
+        {
+          "text": "褓",
+          "annotation": "つ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "diaper",
+        "nappy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "luier",
+        "luur",
+        "doek",
+        "windel",
+        "windsel",
+        "{i.h.b.} pamper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Windel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pelenka"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) むつき【襁褓】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pañal"
+      ]
+    }
+  ]
+}

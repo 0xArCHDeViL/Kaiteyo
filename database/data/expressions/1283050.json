@@ -1,0 +1,75 @@
+{
+  "id": "1283050",
+  "readings": [
+    {
+      "kanaExpression": "こうしんりょう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "香辛料",
+      "furiganaExpression": [
+        {
+          "text": "香",
+          "annotation": "こう"
+        },
+        {
+          "text": "辛",
+          "annotation": "しん"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spice",
+        "spices",
+        "condiment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} kruid",
+        "kruiden",
+        "specerij",
+        "specerijen",
+        "kruiderij",
+        "kruiderijen",
+        "smaakstof"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewürz",
+        "Würze"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "специи, пряности"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dišava",
+        "začimba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "especias"
+      ]
+    }
+  ]
+}

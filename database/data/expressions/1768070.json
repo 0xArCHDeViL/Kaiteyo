@@ -1,0 +1,67 @@
+{
+  "id": "1768070",
+  "readings": [
+    {
+      "kanaExpression": "しよく",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "私欲",
+      "furiganaExpression": [
+        {
+          "text": "私",
+          "annotation": "し"
+        },
+        {
+          "text": "欲",
+          "annotation": "よく"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "私慾",
+      "furiganaExpression": [
+        {
+          "text": "私",
+          "annotation": "し"
+        },
+        {
+          "text": "慾",
+          "annotation": "よく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "self-interest",
+        "selfish desire"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eigenbelang",
+        "eigenbaat",
+        "baatzucht",
+        "zelfzucht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eigennutz",
+        "Eigensucht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "личная выгода; личный интерес; эгоистичное желание"
+      ]
+    }
+  ]
+}

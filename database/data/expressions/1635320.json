@@ -1,0 +1,54 @@
+{
+  "id": "1635320",
+  "readings": [
+    {
+      "kanaExpression": "じつえき",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "実益",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じつ"
+        },
+        {
+          "text": "益",
+          "annotation": "えき"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "actual profit",
+        "practical use",
+        "benefit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nettogewinn. reiner Gewinn",
+        "materieller Gewinn",
+        "Nutzen",
+        "Vorteil"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jótétemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "действительная полезность, реальная польза; реальная выгода (прибыль)"
+      ]
+    }
+  ]
+}

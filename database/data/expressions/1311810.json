@@ -1,0 +1,136 @@
+{
+  "id": "1311810",
+  "readings": [
+    {
+      "kanaExpression": "あぶらっこい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "脂っこい",
+      "furiganaExpression": [
+        {
+          "text": "脂",
+          "annotation": "あぶら"
+        },
+        {
+          "text": "っこい"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "油っこい",
+      "furiganaExpression": [
+        {
+          "text": "油",
+          "annotation": "あぶら"
+        },
+        {
+          "text": "っこい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "油っ濃い",
+      "furiganaExpression": [
+        {
+          "text": "油",
+          "annotation": "あぶら"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "濃",
+          "annotation": "こ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "脂っ濃い",
+      "furiganaExpression": [
+        {
+          "text": "脂",
+          "annotation": "あぶら"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "濃",
+          "annotation": "こ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "greasy",
+        "fatty",
+        "oily"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vettig",
+        "vet",
+        "vetrijk",
+        "vetjes",
+        "vetachtig",
+        "vethoudend",
+        "olieachtig",
+        "spekkig",
+        "ongelig"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gras",
+        "gros"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fett (z.B. Essen)",
+        "fettig",
+        "schwer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pecsétes",
+        "zsíros",
+        "dagadt",
+        "dagi",
+        "pufi",
+        "gömböc",
+        "olajfoltos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жирный; тяжёлый (о пище); (обр.) кричащий, аляповатый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grasiento, aceitoso",
+        "pesado, molesto"
+      ]
+    }
+  ]
+}

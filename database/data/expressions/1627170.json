@@ -1,0 +1,71 @@
+{
+  "id": "1627170",
+  "readings": [
+    {
+      "kanaExpression": "ほういがく",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "法医学",
+      "furiganaExpression": [
+        {
+          "text": "法",
+          "annotation": "ほう"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "forensic medicine",
+        "forensic pathology",
+        "medical jurisprudence",
+        "legal medicine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gerechtelijke",
+        "forensische geneeskunde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rechtsmedizin",
+        "Gerichtsmedizin",
+        "forensische Medizin"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "törvényszéki orvostan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "судебная медицина"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "medicina legal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "1661070",
+  "readings": [
+    {
+      "kanaExpression": "たいりゅう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "滞留",
+      "furiganaExpression": [
+        {
+          "text": "滞",
+          "annotation": "たい"
+        },
+        {
+          "text": "留",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stagnation",
+        "standstill",
+        "accumulation",
+        "pile-up",
+        "stay",
+        "sojourn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verweilen",
+        "sich länger aufhalten",
+        "längerer Aufenthalt",
+        "Stagnation",
+        "Verzögerung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átmeneti tartózkodás",
+        "időzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) とうりゅう"
+      ]
+    }
+  ]
+}

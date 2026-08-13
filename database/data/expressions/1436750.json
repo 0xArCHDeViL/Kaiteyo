@@ -1,0 +1,60 @@
+{
+  "id": "1436750",
+  "readings": [
+    {
+      "kanaExpression": "ひづめ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "蹄",
+      "furiganaExpression": [
+        {
+          "text": "蹄",
+          "annotation": "ひづめ"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hoof"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} hoef",
+        "hoornschoen",
+        "klauw"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Huf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "láb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "копыто"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pezuña",
+        "cascos del caballo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "1851640",
+  "readings": [
+    {
+      "kanaExpression": "おりなす",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "織り成す",
+      "furiganaExpression": [
+        {
+          "text": "織",
+          "annotation": "お"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "成",
+          "annotation": "な"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "織りなす",
+      "furiganaExpression": [
+        {
+          "text": "織",
+          "annotation": "お"
+        },
+        {
+          "text": "りなす"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "織成す",
+      "furiganaExpression": [
+        {
+          "text": "織",
+          "annotation": "おり"
+        },
+        {
+          "text": "成",
+          "annotation": "な"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to interweave"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einweben",
+        "zusammenfügen",
+        "verbinden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egybefűz",
+        "egybefűződik",
+        "összefonódik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entretejer"
+      ]
+    }
+  ]
+}

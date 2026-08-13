@@ -1,0 +1,52 @@
+{
+  "id": "1772170",
+  "readings": [
+    {
+      "kanaExpression": "じづめ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "字詰め",
+      "furiganaExpression": [
+        {
+          "text": "字",
+          "annotation": "じ"
+        },
+        {
+          "text": "詰",
+          "annotation": "づ"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "number of characters per line, page, etc."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anzahl der Zeichen, die bei einem Manuskriptformblatt od. einer Drucksache in eine Zeile bzw. auf eine Seite gedruckt werden sollen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyomtatvány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "количество иероглифов, которые должны быть вписаны в строчку (написаны на странице)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1703460",
+  "readings": [
+    {
+      "kanaExpression": "ずせつ",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "図説",
+      "furiganaExpression": [
+        {
+          "text": "図",
+          "annotation": "ず"
+        },
+        {
+          "text": "説",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "illustration",
+        "diagram"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mit Hilfe eines Schaubildes erklären",
+        "Schaubild",
+        "erläuternde Illustration",
+        "Diagramm"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "diagram",
+        "grafikon",
+        "sematikus ábra"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ずかい"
+      ]
+    }
+  ]
+}

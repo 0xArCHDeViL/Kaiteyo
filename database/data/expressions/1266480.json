@@ -1,0 +1,67 @@
+{
+  "id": "1266480",
+  "readings": [
+    {
+      "kanaExpression": "こきゅうき",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "呼吸器",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "こ"
+        },
+        {
+          "text": "吸",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "respiratory organs"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ademhalingsorgaan",
+        "ademhalingsorganen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Atmungsorgan",
+        "Respirationsorgan"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "légzőszervek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дыхательные органы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aparato respiratorio"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "1238840",
+  "readings": [
+    {
+      "kanaExpression": "おっしゃる",
+      "rank": 1260
+    },
+    {
+      "kanjiExpression": "仰る",
+      "furiganaExpression": [
+        {
+          "text": "仰",
+          "annotation": "おっしゃ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 9417
+    },
+    {
+      "kanjiExpression": "仰有る",
+      "furiganaExpression": [
+        {
+          "text": "仰有",
+          "annotation": "おっしゃ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "仰しゃる",
+      "furiganaExpression": [
+        {
+          "text": "仰",
+          "annotation": "おっ"
+        },
+        {
+          "text": "しゃる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "仰っしゃる",
+      "furiganaExpression": [
+        {
+          "text": "仰",
+          "annotation": "お"
+        },
+        {
+          "text": "っしゃる"
+        }
+      ],
+      "rank": 32039
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to say",
+        "to speak",
+        "to tell",
+        "to talk"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeggen",
+        "vertellen",
+        "mededelen",
+        "spreken",
+        "praten",
+        "heten",
+        "noemen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dire",
+        "parler",
+        "raconter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sagen (höflicher Ausdruck für iu言う)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszél",
+        "elbeszél",
+        "elmesél",
+        "elmond",
+        "kijelent",
+        "megfejt",
+        "megkülönböztet",
+        "megmond",
+        "mond",
+        "tud",
+        "utasít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(вежл.) говорить, сказать (о 2-м и 3-м лице)",
+        "(ср.) いう【言う】",
+        "говорить"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "reči",
+        "povedati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "decir",
+        "hablar",
+        "platicar"
+      ]
+    }
+  ]
+}

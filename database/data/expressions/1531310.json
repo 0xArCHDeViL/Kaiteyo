@@ -1,0 +1,69 @@
+{
+  "id": "1531310",
+  "readings": [
+    {
+      "kanaExpression": "めいふく",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "みょうふく"
+    },
+    {
+      "kanjiExpression": "冥福",
+      "furiganaExpression": [
+        {
+          "text": "冥",
+          "annotation": "めい"
+        },
+        {
+          "text": "福",
+          "annotation": "ふく"
+        }
+      ],
+      "rank": 11959
+    },
+    {
+      "kanjiExpression": "めい福",
+      "furiganaExpression": [
+        {
+          "text": "めい"
+        },
+        {
+          "text": "福",
+          "annotation": "ふく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "happiness in the next world",
+        "heavenly bliss"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zielenrust",
+        "zielsrust",
+        "zaligheid in het hiernamaals"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Glückseligkeit im Jenseits",
+        "Seelenfrieden",
+        "Seelenheil"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "блаженство на том свете"
+      ]
+    }
+  ]
+}

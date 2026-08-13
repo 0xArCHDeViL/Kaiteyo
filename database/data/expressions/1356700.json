@@ -1,0 +1,112 @@
+{
+  "id": "1356700",
+  "readings": [
+    {
+      "kanaExpression": "じょうきょう",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "状況",
+      "furiganaExpression": [
+        {
+          "text": "状",
+          "annotation": "じょう"
+        },
+        {
+          "text": "況",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 350
+    },
+    {
+      "kanjiExpression": "情況",
+      "furiganaExpression": [
+        {
+          "text": "情",
+          "annotation": "じょう"
+        },
+        {
+          "text": "況",
+          "annotation": "きょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "state of affairs",
+        "situation",
+        "conditions",
+        "circumstances"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "omstandigheden",
+        "situatie",
+        "toestand",
+        "staat",
+        "stand van zaken",
+        "gebeuren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "situation (autour de vous)",
+        "circonstances",
+        "conditions"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stand der Dinge",
+        "Sachlage",
+        "Situation",
+        "Umstände",
+        "Verhältnisse"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyzet",
+        "körülmények"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "положение [дел], ситуация, обстановка; обстоятельства"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "okoliščine",
+        "pogoji",
+        "položaj"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estado de las cosas (a tu alrededor)",
+        "situación",
+        "circunstancias"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "omständighet",
+        "förhållande"
+      ]
+    }
+  ]
+}

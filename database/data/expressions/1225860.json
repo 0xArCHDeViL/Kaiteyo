@@ -1,0 +1,68 @@
+{
+  "id": "1225860",
+  "readings": [
+    {
+      "kanaExpression": "ぎふ",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "義父",
+      "furiganaExpression": [
+        {
+          "text": "義",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "父",
+          "annotation": "ふ"
+        }
+      ],
+      "rank": 14627
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "father-in-law",
+        "foster father",
+        "stepfather"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "beau-père",
+        "père adoptif"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwiegervater",
+        "Stiefvater",
+        "Pflegevater"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mostohaapa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отчим; приёмный отец; тесть; свёкор"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "suegro",
+        "padre adoptivo",
+        "padrastro"
+      ]
+    }
+  ]
+}

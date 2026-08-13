@@ -1,0 +1,49 @@
+{
+  "id": "1456390",
+  "readings": [
+    {
+      "kanaExpression": "どきょう",
+      "rank": 30500
+    },
+    {
+      "kanaExpression": "どっきょう"
+    },
+    {
+      "kanjiExpression": "読経",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "どっ"
+        },
+        {
+          "text": "経",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sutra chanting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sūtras rezitieren",
+        "Sūtren-Rezitation"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(буд.) чтение сутр [нараспев]",
+        "{～する} читать сутры",
+        "(см.) どきょう【読経】"
+      ]
+    }
+  ]
+}

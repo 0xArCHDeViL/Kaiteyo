@@ -1,0 +1,56 @@
+{
+  "id": "1483340",
+  "readings": [
+    {
+      "kanaExpression": "ひほう",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "悲報",
+      "furiganaExpression": [
+        {
+          "text": "悲",
+          "annotation": "ひ"
+        },
+        {
+          "text": "報",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sad news",
+        "news of a death",
+        "death notice"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "droevig nieuws",
+        "droef",
+        "smartelijk bericht",
+        "bedroevende tijding",
+        "{arch.} treurmare"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "traurige Nachricht",
+        "schmerzliche Mitteilung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) печальное (тяжёлое) известие"
+      ]
+    }
+  ]
+}

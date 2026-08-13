@@ -1,0 +1,68 @@
+{
+  "id": "1788590",
+  "readings": [
+    {
+      "kanaExpression": "おきみやげ",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "置き土産",
+      "furiganaExpression": [
+        {
+          "text": "置",
+          "annotation": "お"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "土産",
+          "annotation": "みやげ"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "置きみやげ",
+      "furiganaExpression": [
+        {
+          "text": "置",
+          "annotation": "お"
+        },
+        {
+          "text": "きみやげ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "parting gift",
+        "remembrance",
+        "aftereffect"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afscheidscadeau",
+        "souvenir",
+        "{fig.} nalatenschap"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abschiedsgeschenk (zurückgelassenes)Andenken (zurückgelassenes)Souvenir"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подарок на память"
+      ]
+    }
+  ]
+}

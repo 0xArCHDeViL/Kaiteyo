@@ -1,0 +1,96 @@
+{
+  "id": "1239280",
+  "readings": [
+    {
+      "kanaExpression": "あかつき",
+      "rank": 21000
+    },
+    {
+      "kanaExpression": "あかとき"
+    },
+    {
+      "kanjiExpression": "暁",
+      "furiganaExpression": [
+        {
+          "text": "暁",
+          "annotation": "あかつき"
+        }
+      ],
+      "rank": 10865
+    },
+    {
+      "kanjiExpression": "曉",
+      "furiganaExpression": [
+        {
+          "text": "曉",
+          "annotation": "あかつき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dawn",
+        "daybreak",
+        "event (e.g. \"in the event of ...\")",
+        "occasion",
+        "occurrence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dageraad",
+        "ochtendgloren",
+        "morgenrood",
+        "aanbreken",
+        "krieken van de dag",
+        "morgenkrieken",
+        "ochtendstond",
+        "morgenstond",
+        "zonsopgang",
+        "morgenschemering",
+        "ochtendlicht",
+        "wanneer",
+        "toen",
+        "bij"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aube",
+        "point du jour"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tagesanbruch",
+        "Morgendämmerung",
+        "im Falle von …",
+        "wenn … passiert"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hajnal",
+        "keletkezés",
+        "kezdet",
+        "pirkadat",
+        "reggeli szürkület",
+        "hajnalhasadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) [утренняя] заря",
+        "2): {～[に]は} в случае, когда, если"
+      ]
+    }
+  ]
+}

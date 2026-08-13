@@ -1,0 +1,103 @@
+{
+  "id": "1328060",
+  "readings": [
+    {
+      "kanaExpression": "てばやい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "手早い",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "早",
+          "annotation": "ばや"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "手ばやい",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "ばやい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nimble",
+        "quick",
+        "agile"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "agile",
+        "preste",
+        "rapide"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "flink",
+        "behänd",
+        "flott",
+        "geschwind",
+        "rasch",
+        "geschickt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fürge",
+        "gyors felfogású",
+        "gyors",
+        "mozgékony",
+        "okos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "быстрый, проворный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ágil",
+        "rápido",
+        "veloz",
+        "vivo",
+        "ligero",
+        "activo",
+        "hábil",
+        "diestro",
+        "mañoso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "flink"
+      ]
+    }
+  ]
+}

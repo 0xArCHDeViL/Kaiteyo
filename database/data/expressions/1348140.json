@@ -1,0 +1,71 @@
+{
+  "id": "1348140",
+  "readings": [
+    {
+      "kanaExpression": "こさじ",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "小さじ",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "さじ"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "小匙",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "匙",
+          "annotation": "さじ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "teaspoon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "theelepel",
+        "theelepeltje",
+        "koffielepel",
+        "koffielepeltje",
+        "{afk. in recepten} tl"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Teelöffel"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cucharilla"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tesked"
+      ]
+    }
+  ]
+}

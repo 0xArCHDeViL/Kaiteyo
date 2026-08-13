@@ -1,0 +1,51 @@
+{
+  "id": "1478240",
+  "readings": [
+    {
+      "kanaExpression": "ぬけおちる",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "抜け落ちる",
+      "furiganaExpression": [
+        {
+          "text": "抜",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "落",
+          "annotation": "お"
+        },
+        {
+          "text": "ちる"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to come out (e.g. hair)",
+        "to fall out",
+        "to collapse (e.g. building, floor)",
+        "to be left out",
+        "to be omitted"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausfallen",
+        "herausfallen",
+        "fehlen",
+        "abgefallen sein",
+        "unvollständig sein"
+      ]
+    }
+  ]
+}

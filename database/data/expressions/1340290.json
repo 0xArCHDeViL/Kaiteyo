@@ -1,0 +1,65 @@
+{
+  "id": "1340290",
+  "readings": [
+    {
+      "kanaExpression": "しゅっぺい",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "出兵",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "しゅっ"
+        },
+        {
+          "text": "兵",
+          "annotation": "ぺい"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dispatch of troops",
+        "despatch of troops",
+        "expedition"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} expeditie",
+        "zending van troepen",
+        "{mil.} een expeditie sturen",
+        "troepen zenden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Truppenentsendung",
+        "Verschicken von Truppen",
+        "Truppen entsenden",
+        "Truppen verschicken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "expedíció",
+        "felfedező út"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отправка (посылка) войск (за границу)",
+        "{～する} отправлять (посылать) войска (за границу)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1954230",
+  "readings": [
+    {
+      "kanaExpression": "ねんきゅう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "年休",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "休",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "annual leave",
+        "annual paid vacation",
+        "annual paid holiday"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jahresurlaub"
+      ]
+    }
+  ]
+}

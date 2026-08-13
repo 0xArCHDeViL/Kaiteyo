@@ -1,0 +1,91 @@
+{
+  "id": "1835300",
+  "readings": [
+    {
+      "kanaExpression": "さがしもの",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "探し物",
+      "furiganaExpression": [
+        {
+          "text": "探",
+          "annotation": "さが"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "捜し物",
+      "furiganaExpression": [
+        {
+          "text": "捜",
+          "annotation": "さが"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "探しもの",
+      "furiganaExpression": [
+        {
+          "text": "探",
+          "annotation": "さが"
+        },
+        {
+          "text": "しもの"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "探しモノ",
+      "furiganaExpression": [
+        {
+          "text": "探",
+          "annotation": "さが"
+        },
+        {
+          "text": "しモノ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "looking for something",
+        "searching for something",
+        "object being sought"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Suche",
+        "Gesuchtes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пропажа",
+        "{～をする} отыскивать (что-либо)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "1440520",
+  "readings": [
+    {
+      "kanaExpression": "てんどん",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "天丼",
+      "furiganaExpression": [
+        {
+          "text": "天",
+          "annotation": "てん"
+        },
+        {
+          "text": "丼",
+          "annotation": "どん"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tempura donburi",
+        "tempura served over a bowl of rice",
+        "(in comedy) repeating the same gag or silly line"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Donburi mit Tenpura",
+        "Schale Reis mit Tenpura (Abk.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чашка риса с жареной рыбой"
+      ]
+    }
+  ]
+}

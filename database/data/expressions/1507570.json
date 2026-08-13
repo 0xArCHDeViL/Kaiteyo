@@ -1,0 +1,67 @@
+{
+  "id": "1507570",
+  "readings": [
+    {
+      "kanaExpression": "へいそ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "平素",
+      "furiganaExpression": [
+        {
+          "text": "平",
+          "annotation": "へい"
+        },
+        {
+          "text": "素",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ordinary",
+        "in the past",
+        "usual",
+        "regular"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gewoon",
+        "gebruikelijk",
+        "normaal",
+        "altijd",
+        "steeds",
+        "dagelijks"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alltäglich",
+        "gewöhnlich",
+        "normal",
+        "langzeitig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hétköznapi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1): {～に} обычно, в обычное время",
+        "2) в прошлом; с давнего времени"
+      ]
+    }
+  ]
+}

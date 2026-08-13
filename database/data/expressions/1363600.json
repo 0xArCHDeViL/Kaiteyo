@@ -1,0 +1,90 @@
+{
+  "id": "1363600",
+  "readings": [
+    {
+      "kanaExpression": "しんくう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "真空",
+      "furiganaExpression": [
+        {
+          "text": "真",
+          "annotation": "しん"
+        },
+        {
+          "text": "空",
+          "annotation": "くう"
+        }
+      ],
+      "rank": 11427
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vacuum",
+        "hollow",
+        "empty"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "luchtledige ruimte",
+        "vacuüm",
+        "het luchtledige"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "creux",
+        "pièce vide",
+        "vide"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vakuum",
+        "luftleerer Raum",
+        "Vakuum…",
+        "luftleer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beesett",
+        "hamis",
+        "medence",
+        "tompa",
+        "üreg",
+        "üreges",
+        "üres",
+        "vákuum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вакуум; безвоздушное пространство; абсолютная пустота",
+        "{～[の]} вакуумный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "praznina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vacío"
+      ]
+    }
+  ]
+}

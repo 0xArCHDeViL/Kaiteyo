@@ -1,0 +1,89 @@
+{
+  "id": "1403440",
+  "readings": [
+    {
+      "kanaExpression": "にくむ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "憎む",
+      "furiganaExpression": [
+        {
+          "text": "憎",
+          "annotation": "にく"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 10803
+    },
+    {
+      "kanjiExpression": "悪む",
+      "furiganaExpression": [
+        {
+          "text": "悪",
+          "annotation": "にく"
+        },
+        {
+          "text": "む"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to hate",
+        "to detest"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "haten",
+        "haat voelen",
+        "verfoeien",
+        "verafschuwen",
+        "walgen van",
+        "gruwelen van"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "détester",
+        "haïr"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hassen",
+        "grollen",
+        "feindlich gesinnt sein",
+        "verabscheuen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megvet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ненавидеть"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "odiar",
+        "detestar"
+      ]
+    }
+  ]
+}

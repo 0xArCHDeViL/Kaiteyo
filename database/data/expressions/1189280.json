@@ -1,0 +1,75 @@
+{
+  "id": "1189280",
+  "readings": [
+    {
+      "kanaExpression": "なにかと",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "何かと",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なに"
+        },
+        {
+          "text": "かと"
+        }
+      ],
+      "rank": 7568
+    },
+    {
+      "kanjiExpression": "何彼と",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なに"
+        },
+        {
+          "text": "彼",
+          "annotation": "か"
+        },
+        {
+          "text": "と"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one way or another",
+        "in many ways",
+        "in various ways"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "d\u0027une façon ou d\u0027une autre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auf verschiedene Weise",
+        "bei allem",
+        "bei allen Sachen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "то или другое; всячески"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "de una manera u otra",
+        "de una forma u otra"
+      ]
+    }
+  ]
+}

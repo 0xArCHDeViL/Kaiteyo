@@ -1,0 +1,76 @@
+{
+  "id": "1397210",
+  "readings": [
+    {
+      "kanaExpression": "そこう",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "素行",
+      "furiganaExpression": [
+        {
+          "text": "素",
+          "annotation": "そ"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "behaviour",
+        "behavior",
+        "conduct"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gedrag",
+        "optreden",
+        "handelwijze",
+        "gedraging",
+        "gangen",
+        "houding",
+        "{veroud.} conduite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Benehmen",
+        "Betragen",
+        "Führung",
+        "Lebenswandel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "magatartás",
+        "magaviselet",
+        "viselkedés",
+        "viselkedésmód"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поведение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comportamiento",
+        "conducta"
+      ]
+    }
+  ]
+}

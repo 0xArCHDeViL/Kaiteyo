@@ -1,0 +1,80 @@
+{
+  "id": "1746690",
+  "readings": [
+    {
+      "kanaExpression": "くにもと",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "国元",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "くに"
+        },
+        {
+          "text": "元",
+          "annotation": "もと"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "国許",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "くに"
+        },
+        {
+          "text": "許",
+          "annotation": "もと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "国もと",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "くに"
+        },
+        {
+          "text": "もと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s home",
+        "hometown",
+        "native place",
+        "birthplace"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geburtsort",
+        "Heimat",
+        "Heimatland",
+        "Vaterland"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szülőváros"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "родной дом, родные места"
+      ]
+    }
+  ]
+}

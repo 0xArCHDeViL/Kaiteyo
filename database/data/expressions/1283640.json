@@ -1,0 +1,58 @@
+{
+  "id": "1283640",
+  "readings": [
+    {
+      "kanaExpression": "こうすいじゅん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "高水準",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "準",
+          "annotation": "じゅん"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high level"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoog niveau",
+        "hoog peil",
+        "hoogwaterpeil",
+        "hoogwaterlijn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auf hoher Ebene",
+        "Spitzen…",
+        "hohes Niveau"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nivel alto"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "1591870",
+  "readings": [
+    {
+      "kanaExpression": "きりふだ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "切り札",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "札",
+          "annotation": "ふだ"
+        }
+      ],
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "切札",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "札",
+          "annotation": "ふだ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trump",
+        "trump card",
+        "ace up one\u0027s sleeve",
+        "secret weapon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{kaartsp.} troefkaart",
+        "keerblad",
+        "{fig.} troef",
+        "redmiddel",
+        "joker"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trumpfkarte",
+        "Trumpf",
+        "Atout"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "козырь, козырная карта"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "trumfkort"
+      ]
+    }
+  ]
+}

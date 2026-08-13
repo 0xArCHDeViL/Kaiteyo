@@ -1,0 +1,45 @@
+{
+  "id": "1688120",
+  "readings": [
+    {
+      "kanaExpression": "ぞっかん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "続刊",
+      "furiganaExpression": [
+        {
+          "text": "続",
+          "annotation": "ぞっ"
+        },
+        {
+          "text": "刊",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "continuing publication"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die Publikation fortsetzen",
+        "fortgesetzte Publikation"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "следующее издание; следующая часть; продолжение",
+        "{～する} продолжать издание"
+      ]
+    }
+  ]
+}

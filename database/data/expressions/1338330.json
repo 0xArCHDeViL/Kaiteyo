@@ -1,0 +1,74 @@
+{
+  "id": "1338330",
+  "readings": [
+    {
+      "kanaExpression": "しゅっか",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "出火",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "しゅっ"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outbreak of fire"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het uitbreken van vuur",
+        "brand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "départ de feux",
+        "incendie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feuer bricht aus",
+        "Ausbruch eines Feuers",
+        "Brand",
+        "Feuer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возникновение пожара; пожар",
+        "{～する} возник (начался) пожар"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izbruh ognja",
+        "izbruh požara"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "conato de incendio"
+      ]
+    }
+  ]
+}

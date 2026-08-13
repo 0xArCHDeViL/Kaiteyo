@@ -1,0 +1,62 @@
+{
+  "id": "1272960",
+  "readings": [
+    {
+      "kanaExpression": "こうげん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "光源",
+      "furiganaExpression": [
+        {
+          "text": "光",
+          "annotation": "こう"
+        },
+        {
+          "text": "源",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "light source"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lichtbron"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lichtquelle",
+        "Illuminant"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "источник света"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fuente luminosa"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ljuskälla"
+      ]
+    }
+  ]
+}

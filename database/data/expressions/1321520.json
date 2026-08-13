@@ -1,0 +1,69 @@
+{
+  "id": "1321520",
+  "readings": [
+    {
+      "kanaExpression": "じつり",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "実利",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じつ"
+        },
+        {
+          "text": "利",
+          "annotation": "り"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "utility",
+        "(actual) profit",
+        "actual benefit",
+        "material gain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "praktischer Nutzen",
+        "Gewinn",
+        "Vorteil",
+        "Utilität",
+        "Nützlichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felhasználás",
+        "használat",
+        "hasznosság",
+        "haszon",
+        "használhatóság",
+        "előny",
+        "nyereség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "реальная польза (выгода, прибыль)",
+        "{～的} утилитарный; меркантильный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "utilidad"
+      ]
+    }
+  ]
+}

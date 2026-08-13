@@ -1,0 +1,101 @@
+{
+  "id": "1192890",
+  "readings": [
+    {
+      "kanaExpression": "はてしない",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "果てしない",
+      "furiganaExpression": [
+        {
+          "text": "果",
+          "annotation": "は"
+        },
+        {
+          "text": "てしない"
+        }
+      ],
+      "rank": 14801
+    },
+    {
+      "kanjiExpression": "果てし無い",
+      "furiganaExpression": [
+        {
+          "text": "果",
+          "annotation": "は"
+        },
+        {
+          "text": "てし"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "endless",
+        "boundless",
+        "everlasting"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "éternel",
+        "illimité",
+        "sans fin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kein Ende haben",
+        "kein Ende finden",
+        "endlos sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "se vége se hossza",
+        "végtelen",
+        "maradandó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бесконечный, беспредельный, нескончаемый"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "neskončen",
+        "brezmejen",
+        "neomejen",
+        "večen",
+        "trajen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "eterno",
+        "infinito",
+        "ilimitado",
+        "interminable",
+        "inagotable"
+      ]
+    }
+  ]
+}

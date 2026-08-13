@@ -1,0 +1,108 @@
+{
+  "id": "1573820",
+  "readings": [
+    {
+      "kanaExpression": "はさみ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ハサミ"
+    },
+    {
+      "kanjiExpression": "鋏",
+      "furiganaExpression": [
+        {
+          "text": "鋏",
+          "annotation": "はさみ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "剪刀",
+      "furiganaExpression": [
+        {
+          "text": "剪刀",
+          "annotation": "はさみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scissors",
+        "shears",
+        "clippers",
+        "hole punch"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schaar",
+        "knipper",
+        "{dierk.} schaar",
+        "knijper",
+        "tang {van krab",
+        "kreeft",
+        "schorpioen e.d.}",
+        "pons",
+        "ponstang",
+        "kniptang",
+        "gaatjestang"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ciseaux",
+        "cisailles",
+        "tondeuse",
+        "perforatrice"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schere",
+        "Knipszange",
+        "Knipser",
+        "Lochzange",
+        "Schere (beim Stein-Schere-Papier-Spiel)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "olló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) ножницы",
+        "2) компостер (для билетов)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "škarje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tijeras"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sax"
+      ]
+    }
+  ]
+}

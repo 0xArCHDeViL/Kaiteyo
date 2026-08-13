@@ -1,0 +1,56 @@
+{
+  "id": "1723330",
+  "readings": [
+    {
+      "kanaExpression": "ぶんぶつ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "文物",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(the products of) culture or civilization (civilisation)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beschavingsproduct",
+        "beschavingsvorm",
+        "cultuurproduct",
+        "vrucht der beschaving",
+        "materiële cultuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zivilisation",
+        "Kultur",
+        "kulturelle Errungenschaften",
+        "Kunst und Wissenschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) предметы (институты) цивилизации (законы, наука, искусство и т. д.); цивилизация"
+      ]
+    }
+  ]
+}

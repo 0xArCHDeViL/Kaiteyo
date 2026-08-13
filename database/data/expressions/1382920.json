@@ -1,0 +1,58 @@
+{
+  "id": "1382920",
+  "readings": [
+    {
+      "kanaExpression": "つみだす",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "積み出す",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to send off"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verladen",
+        "verschiffen",
+        "versenden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elbúcsúztat",
+        "elkerget"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отправлять (грузы)"
+      ]
+    }
+  ]
+}

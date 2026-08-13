@@ -1,0 +1,47 @@
+{
+  "id": "1831030",
+  "readings": [
+    {
+      "kanaExpression": "けいさつけん",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "警察権",
+      "furiganaExpression": [
+        {
+          "text": "警",
+          "annotation": "けい"
+        },
+        {
+          "text": "察",
+          "annotation": "さつ"
+        },
+        {
+          "text": "権",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "police powers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Polizeirecht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полномочия полиции, полицейская власть"
+      ]
+    }
+  ]
+}

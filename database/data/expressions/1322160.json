@@ -1,0 +1,71 @@
+{
+  "id": "1322160",
+  "readings": [
+    {
+      "kanaExpression": "しゃほん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "写本",
+      "furiganaExpression": [
+        {
+          "text": "写",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "manuscript (book)",
+        "written copy of a book",
+        "codex",
+        "transcription",
+        "copying"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het afschrijven",
+        "overschrijven",
+        "het schriftelijk kopiëren",
+        "transcriptie",
+        "afschrift",
+        "handgeschreven",
+        "schriftelijke kopie",
+        "{Belg.N.} kopij",
+        "handschrift",
+        "manuscript",
+        "apograaf"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Manuskript",
+        "Abschrift",
+        "handschriftliche Kopie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kézirat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рукопись, манускрипт; рукописная книга"
+      ]
+    }
+  ]
+}

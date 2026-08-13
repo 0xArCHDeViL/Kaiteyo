@@ -1,0 +1,59 @@
+{
+  "id": "1397320",
+  "readings": [
+    {
+      "kanaExpression": "すあし",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "素足",
+      "furiganaExpression": [
+        {
+          "text": "素",
+          "annotation": "す"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bare feet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blote voeten",
+        "voeten zonder schoenen",
+        "schoeisel",
+        "sokken",
+        "kousen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Barfuß",
+        "bloße Füße",
+        "nackte Füße",
+        "Füße ohne Socken",
+        "barfuß",
+        "barfüßig"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "босые ноги",
+        "{～で} босиком"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1415480",
+  "readings": [
+    {
+      "kanaExpression": "だいざい",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "題材",
+      "furiganaExpression": [
+        {
+          "text": "題",
+          "annotation": "だい"
+        },
+        {
+          "text": "材",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 6955
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subject",
+        "theme"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "materie",
+        "materiaal",
+        "onderwerp",
+        "stof",
+        "thema",
+        "thematiek"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sujet",
+        "thème"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gegenstand",
+        "Stoff",
+        "Thema"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alárendelt",
+        "tárgy",
+        "téma",
+        "anyag",
+        "irodalmi dolgozat",
+        "motívum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тема, предмет; материал (для критики и т. п.)"
+      ]
+    }
+  ]
+}

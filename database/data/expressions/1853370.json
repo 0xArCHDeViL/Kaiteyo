@@ -1,0 +1,54 @@
+{
+  "id": "1853370",
+  "readings": [
+    {
+      "kanaExpression": "しばいぬ",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "しばけん"
+    },
+    {
+      "kanjiExpression": "柴犬",
+      "furiganaExpression": [
+        {
+          "text": "柴",
+          "annotation": "しば"
+        },
+        {
+          "text": "犬",
+          "annotation": "いぬ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "しば犬",
+      "furiganaExpression": [
+        {
+          "text": "しば"
+        },
+        {
+          "text": "犬",
+          "annotation": "いぬ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shiba inu (dog breed)",
+        "shiba",
+        "brushwood dog"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Shiba-Hund (kleine japan. Hunderasse mit stehenden Ohren und geringeltem Schwanz)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1581150",
+  "readings": [
+    {
+      "kanaExpression": "ぜんりん",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "まえわ"
+    },
+    {
+      "kanjiExpression": "前輪",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "輪",
+          "annotation": "りん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "front wheel",
+        "saddle fork"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorwiel",
+        "{飛行機の} neuswiel",
+        "{鞍の} voorboom",
+        "voorboog"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorderrad",
+        "vorderer Sattelbogen (eines japan. Sattels)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переднее колесо",
+        "1) переднее колесо",
+        "2) (уст.) передняя лука седла"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "framhjul"
+      ]
+    }
+  ]
+}

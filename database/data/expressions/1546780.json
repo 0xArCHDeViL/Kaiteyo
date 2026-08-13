@@ -1,0 +1,93 @@
+{
+  "id": "1546780",
+  "readings": [
+    {
+      "kanaExpression": "ようせい",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "要請",
+      "furiganaExpression": [
+        {
+          "text": "要",
+          "annotation": "よう"
+        },
+        {
+          "text": "請",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 2744
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "appeal",
+        "call for something",
+        "request",
+        "claim",
+        "demand",
+        "axiom"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verzoeken om",
+        "aanvragen",
+        "vragen",
+        "verzoek",
+        "aanvraag",
+        "vraag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "application",
+        "demande",
+        "revendication"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fordern",
+        "bitten",
+        "Forderung",
+        "Erfordernis",
+        "Bitte",
+        "Anfrage",
+        "Postulat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "igény",
+        "követelés",
+        "kérés",
+        "kereslet",
+        "kívánság",
+        "kérelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "требование",
+        "{～する} требовать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "exigencia",
+        "reclamación",
+        "petición"
+      ]
+    }
+  ]
+}

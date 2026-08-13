@@ -1,0 +1,133 @@
+{
+  "id": "1251700",
+  "readings": [
+    {
+      "kanaExpression": "けいろ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "経路",
+      "furiganaExpression": [
+        {
+          "text": "経",
+          "annotation": "けい"
+        },
+        {
+          "text": "路",
+          "annotation": "ろ"
+        }
+      ],
+      "rank": 7863
+    },
+    {
+      "kanjiExpression": "径路",
+      "furiganaExpression": [
+        {
+          "text": "径",
+          "annotation": "けい"
+        },
+        {
+          "text": "路",
+          "annotation": "ろ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "逕路",
+      "furiganaExpression": [
+        {
+          "text": "逕",
+          "annotation": "けい"
+        },
+        {
+          "text": "路",
+          "annotation": "ろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "course",
+        "route",
+        "path",
+        "channel",
+        "process",
+        "stages"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "route",
+        "weg",
+        "pad",
+        "traject",
+        "parcours",
+        "koers",
+        "kanaal",
+        "fase",
+        "proces"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chemin",
+        "parcours",
+        "route",
+        "voie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kurs",
+        "Weg",
+        "Route",
+        "Hergang",
+        "Verlauf",
+        "Ablauf",
+        "Entwicklung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyalogjáró",
+        "járda",
+        "ösvény",
+        "pálya",
+        "útvonal",
+        "járat",
+        "útirány",
+        "eljárás",
+        "irány",
+        "versenypálya",
+        "csatorna",
+        "meder",
+        "tengerszoros",
+        "út"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "путь",
+        "маршрут",
+        "путь; курс, направление, маршрут; (перен.) путь; процесс"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "senda",
+        "sendero",
+        "caminito",
+        "ruta"
+      ]
+    }
+  ]
+}

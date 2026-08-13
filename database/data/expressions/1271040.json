@@ -1,0 +1,56 @@
+{
+  "id": "1271040",
+  "readings": [
+    {
+      "kanaExpression": "ごき",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "語気",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tone",
+        "manner of speaking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ton",
+        "Tonfall",
+        "Sprechweise",
+        "Akzent",
+        "Betonung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hangszín",
+        "hangszínezet",
+        "zenei egész hang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тон [речи (разговора)]; манера говорить"
+      ]
+    }
+  ]
+}

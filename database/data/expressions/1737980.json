@@ -1,0 +1,39 @@
+{
+  "id": "1737980",
+  "readings": [
+    {
+      "kanaExpression": "おいわけ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "追分",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "おい"
+        },
+        {
+          "text": "分",
+          "annotation": "わけ"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "forked road"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Scheideweg",
+        "Weggabelung",
+        "Oiwake-Lied (Abk.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "1204780",
+  "readings": [
+    {
+      "kanaExpression": "かき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "垣",
+      "furiganaExpression": [
+        {
+          "text": "垣",
+          "annotation": "かき"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "牆",
+      "furiganaExpression": [
+        {
+          "text": "牆",
+          "annotation": "かき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fence",
+        "hedge",
+        "barrier",
+        "wall",
+        "railing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hek",
+        "heining",
+        "omheining",
+        "afscheiding",
+        "afsluiting",
+        "afrastering",
+        "{fig.} scheidsmuur",
+        "muur",
+        "barrière"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "clôture",
+        "haie",
+        "mur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zaun",
+        "Umzäunung",
+        "Gehege",
+        "Gatter",
+        "Hecke",
+        "Geländer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kerítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ограда, забор, изгородь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cerca",
+        "valla",
+        "empalizada"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "stängsel",
+        "staket"
+      ]
+    }
+  ]
+}

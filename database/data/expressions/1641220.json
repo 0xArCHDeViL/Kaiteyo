@@ -1,0 +1,59 @@
+{
+  "id": "1641220",
+  "readings": [
+    {
+      "kanaExpression": "めがしら",
+      "rank": 26000
+    },
+    {
+      "kanaExpression": "まがしら"
+    },
+    {
+      "kanjiExpression": "目頭",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "め"
+        },
+        {
+          "text": "頭",
+          "annotation": "がしら"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "目がしら",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "め"
+        },
+        {
+          "text": "がしら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inner canthus",
+        "inner corner of the eye"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "innerer Augenwinkel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутренние уголки глаз"
+      ]
+    }
+  ]
+}

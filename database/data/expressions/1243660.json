@@ -1,0 +1,88 @@
+{
+  "id": "1243660",
+  "readings": [
+    {
+      "kanaExpression": "くがつ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "９月",
+      "furiganaExpression": [
+        {
+          "text": "９",
+          "annotation": "く"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 2117
+    },
+    {
+      "kanjiExpression": "九月",
+      "furiganaExpression": [
+        {
+          "text": "九",
+          "annotation": "く"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 6186
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "September",
+        "ninth month of the lunar calendar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "september",
+        "septembermaand",
+        "{afk.} sept",
+        "herfstmaand",
+        "{veroud.} gerstmaand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "September",
+        "neunter Monat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сентябрь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "september"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "septiembre",
+        "Septiembre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "september"
+      ]
+    }
+  ]
+}

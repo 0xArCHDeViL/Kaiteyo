@@ -1,0 +1,109 @@
+{
+  "id": "1580300",
+  "readings": [
+    {
+      "kanaExpression": "てのひら",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "たなごころ"
+    },
+    {
+      "kanaExpression": "しょう",
+      "rank": 2769
+    },
+    {
+      "kanjiExpression": "手のひら",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "のひら"
+        }
+      ],
+      "rank": 10291
+    },
+    {
+      "kanjiExpression": "掌",
+      "furiganaExpression": [
+        {
+          "text": "掌",
+          "annotation": "てのひら"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "手の平",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "平",
+          "annotation": "ひら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "palm (of the hand)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} handpalm",
+        "vlakke hand",
+        "binnenvlakte van de hand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "la paume (de la main)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Handfläche",
+        "Handteller"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) ладонь",
+        "ладонь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dlan"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "palma de la mano"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "handflata"
+      ]
+    }
+  ]
+}

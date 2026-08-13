@@ -1,0 +1,84 @@
+{
+  "id": "1581120",
+  "readings": [
+    {
+      "kanaExpression": "まえあし",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ぜんし",
+      "rank": 34000
+    },
+    {
+      "kanaExpression": "ぜんきゃく"
+    },
+    {
+      "kanjiExpression": "前足",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "まえ"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "前脚",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "まえ"
+        },
+        {
+          "text": "脚",
+          "annotation": "あし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "前肢",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "肢",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "forefoot",
+        "forefeet",
+        "foreleg",
+        "forelimb"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorderbein",
+        "Vorderbeine",
+        "Vorderpfoten",
+        "Vorderhufen",
+        "Bugrad"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "передние ноги (лапы)",
+        "передние ноги (лапы, лапки)"
+      ]
+    }
+  ]
+}

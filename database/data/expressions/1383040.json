@@ -1,0 +1,72 @@
+{
+  "id": "1383040",
+  "readings": [
+    {
+      "kanaExpression": "せきさい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "積載",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "せき"
+        },
+        {
+          "text": "載",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "loading",
+        "carrying"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bevrachten",
+        "laden",
+        "bevrachting",
+        "het laden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "charge",
+        "chargement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beladen",
+        "verladen",
+        "Beladen",
+        "Verladung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "berakodás",
+        "terhelés",
+        "szállítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "погрузка",
+        "{～する} грузить (что-л.), нагружать (чем-л.)"
+      ]
+    }
+  ]
+}

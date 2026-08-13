@@ -1,0 +1,88 @@
+{
+  "id": "1528330",
+  "readings": [
+    {
+      "kanaExpression": "みつばい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "密売",
+      "furiganaExpression": [
+        {
+          "text": "密",
+          "annotation": "みつ"
+        },
+        {
+          "text": "売",
+          "annotation": "ばい"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "illicit sale",
+        "smuggling",
+        "bootlegging",
+        "trafficking"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "clandestiene verkoop",
+        "sluikhandel",
+        "smokkel",
+        "smokkelarij",
+        "in het geheim verkopen",
+        "smokkelhandel drijven",
+        "smokkelen",
+        "{veroud.} lorrendraaien"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "contrebande"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwarzhandel",
+        "Schleichhandel",
+        "mit etw. Schwarzhandel treiben",
+        "etw. schwarz verkaufen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csempészés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тайная торговля; контрабанда",
+        "{～する} тайно торговать; заниматься контрабандой"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "tihotapstvo",
+        "prepovdana trgovina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mercado clandestino"
+      ]
+    }
+  ]
+}

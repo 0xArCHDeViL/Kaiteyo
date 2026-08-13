@@ -1,0 +1,55 @@
+{
+  "id": "1452440",
+  "readings": [
+    {
+      "kanaExpression": "どうし",
+      "rank": 11862
+    },
+    {
+      "kanjiExpression": "同氏",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "氏",
+          "annotation": "し"
+        }
+      ],
+      "rank": 8388
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the said person",
+        "he",
+        "she",
+        "same surname"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "celui-ci",
+        "la dite personne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "der Betreffende",
+        "er derselbe",
+        "der Erwähnte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) то же лицо; он (вышеупомянутый)"
+      ]
+    }
+  ]
+}

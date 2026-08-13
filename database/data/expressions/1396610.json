@@ -1,0 +1,58 @@
+{
+  "id": "1396610",
+  "readings": [
+    {
+      "kanaExpression": "そげきへい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "狙撃兵",
+      "furiganaExpression": [
+        {
+          "text": "狙",
+          "annotation": "そ"
+        },
+        {
+          "text": "撃",
+          "annotation": "げき"
+        },
+        {
+          "text": "兵",
+          "annotation": "へい"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sniper",
+        "sharpshooter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Scharfschütze",
+        "Heckenschütze",
+        "Sniper"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "orvlövész",
+        "jó lövész",
+        "mesterlövész"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "снайпер"
+      ]
+    }
+  ]
+}

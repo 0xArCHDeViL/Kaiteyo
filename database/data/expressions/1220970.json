@@ -1,0 +1,62 @@
+{
+  "id": "1220970",
+  "readings": [
+    {
+      "kanaExpression": "きじく",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "機軸",
+      "furiganaExpression": [
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "軸",
+          "annotation": "じく"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "axis",
+        "axle",
+        "plan",
+        "contrivance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Plan",
+        "Entwurf",
+        "Methode",
+        "Projekt",
+        "Vorhaben",
+        "Achse",
+        "Zentrale"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alaprajz",
+        "felülnézet",
+        "találékonyság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) (уст.) ось; земная ось",
+        "2) план; затея, выдумка"
+      ]
+    }
+  ]
+}

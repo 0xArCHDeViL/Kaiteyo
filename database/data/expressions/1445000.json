@@ -1,0 +1,88 @@
+{
+  "id": "1445000",
+  "readings": [
+    {
+      "kanaExpression": "としん",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "都心",
+      "furiganaExpression": [
+        {
+          "text": "都",
+          "annotation": "と"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 7307
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "city centre (center) (esp. capital city)",
+        "urban centre",
+        "heart of city a metropolis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stadscentrum",
+        "stadskern",
+        "binnenstad",
+        "midden van de stad",
+        "{pregn.} centrum",
+        "city",
+        "{i.h.b.} hartje Tokio"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "centre (de la ville)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stadtzentrum",
+        "Zentrum",
+        "Stadtkern",
+        "Innenstadt (z. B. von Tōkyō)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bátorság",
+        "belső rész",
+        "kőr",
+        "szív"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) центр города"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "mestno jedro",
+        "center mesta"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "corazón (de la ciudad)"
+      ]
+    }
+  ]
+}

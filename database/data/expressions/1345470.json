@@ -1,0 +1,96 @@
+{
+  "id": "1345470",
+  "readings": [
+    {
+      "kanaExpression": "ついで",
+      "rank": 5199
+    },
+    {
+      "kanjiExpression": "序で",
+      "furiganaExpression": [
+        {
+          "text": "序",
+          "annotation": "つい"
+        },
+        {
+          "text": "で"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "序",
+      "furiganaExpression": [
+        {
+          "text": "序",
+          "annotation": "ついで"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "opportunity",
+        "occasion",
+        "chance",
+        "order",
+        "sequence",
+        "successor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kans",
+        "gelegenheid",
+        "opportuniteit"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "opportunité",
+        "occasion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gelegenheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kedvező körülmény",
+        "okot kiváltó alkalom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) порядок",
+        "2) случай, возможность; шанс",
+        "{～ながら}, {～に} при случае, кстати",
+        "3): {～に} во время (чего-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "priložnost",
+        "prilika"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "a continuación",
+        "después de"
+      ]
+    }
+  ]
+}

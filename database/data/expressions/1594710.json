@@ -1,0 +1,66 @@
+{
+  "id": "1594710",
+  "readings": [
+    {
+      "kanaExpression": "しゅうこう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "修好",
+      "furiganaExpression": [
+        {
+          "text": "修",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "好",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "修交",
+      "furiganaExpression": [
+        {
+          "text": "修",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "交",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "amity",
+        "friendship"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freundschaft",
+        "freundschaftliche Beziehungen (zwischen zwei Ländern)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "baráti viszony",
+        "barátság",
+        "jó viszony"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дружеские (дружественные) отношения; установление сношений"
+      ]
+    }
+  ]
+}

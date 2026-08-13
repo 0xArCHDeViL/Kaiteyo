@@ -1,0 +1,78 @@
+{
+  "id": "1639820",
+  "readings": [
+    {
+      "kanaExpression": "こごえ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "小声",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "low voice",
+        "whisper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zachte",
+        "gedempte",
+        "ingehouden stem",
+        "gedempte toon",
+        "gefluister"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leise Stimme",
+        "gedämpfte Stimme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csendes mormolás",
+        "ellenőrizhetetlen hír",
+        "halk beszéd",
+        "súgás-búgás",
+        "sugdosás",
+        "suttogás",
+        "suttogó szóbeszéd",
+        "titkon ejtett célozgatás",
+        "titkon ejtett célzás",
+        "zizegés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тихий (негромкий) голос",
+        "{～で} тихо, негромко, вполголоса, пониженным голосом",
+        "{～になる} понижать голос"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voz baja"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "1241450",
+  "readings": [
+    {
+      "kanaExpression": "こと",
+      "rank": 21
+    },
+    {
+      "kanaExpression": "そう",
+      "rank": 97
+    },
+    {
+      "kanjiExpression": "琴",
+      "furiganaExpression": [
+        {
+          "text": "琴",
+          "annotation": "こと"
+        }
+      ],
+      "rank": 9914
+    },
+    {
+      "kanjiExpression": "箏",
+      "furiganaExpression": [
+        {
+          "text": "箏",
+          "annotation": "こと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "筝",
+      "furiganaExpression": [
+        {
+          "text": "筝",
+          "annotation": "こと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "koto (13-stringed Japanese zither)",
+        "stringed instrument",
+        "zheng (Chinese zither)",
+        "guzheng"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} koto-instrumenten",
+        "{muz.} dertiensnarige koto",
+        "Japanse harp",
+        "citer",
+        "dertien"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "koto (harpe japonaise à 13 cordes)",
+        "instrument à cordes",
+        "zheng (cithare chinoise)",
+        "guzheng"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Koto",
+        "Sō-no-koto",
+        "Sō-no-koto (versch. Typen der japan. Wölbbrettzither; 6- oder 13-saitig; am häufigsten wird das Sō-no-Koto - kurz Koto genannt - verwendet; moderne Kotos sind 180-190 cm lang und haben 13 oder mehr Saiten; die Saiten werden durch bewegliche Stege gestimmt und mit Plektren gespielt)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кото (яп. тринадцатиструнный муз. инструмент)",
+        "(связ.:) 箏の琴",
+        "コト",
+        "тринадцатиструнное кото"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "japonska harfa"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "koto",
+        "arpa japonesa",
+        "\"so\": un tipo de arpa parecido al koto"
+      ]
+    }
+  ]
+}

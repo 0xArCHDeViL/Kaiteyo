@@ -1,0 +1,134 @@
+{
+  "id": "1604590",
+  "readings": [
+    {
+      "kanaExpression": "みつもり",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "見積もり",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "積",
+          "annotation": "つ"
+        },
+        {
+          "text": "もり"
+        }
+      ],
+      "rank": 9966
+    },
+    {
+      "kanjiExpression": "見積り",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "積",
+          "annotation": "つも"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "見積",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "積",
+          "annotation": "つもり"
+        }
+      ],
+      "rank": 11505
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "estimate",
+        "estimation",
+        "valuation",
+        "quotation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "raming",
+        "begroting",
+        "bestek",
+        "becijfering",
+        "calculatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "évaluation de prix",
+        "estimation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schätzung",
+        "Bewertung",
+        "Überschlag",
+        "Berechnung",
+        "Kalkulation",
+        "Angebot",
+        "Voranschlag",
+        "Anschlag",
+        "Kostenvoranschlag",
+        "Kostenanschlag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "árajánlat",
+        "értékelés",
+        "becslés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[предварительная] оценка; предварительный расчёт; смета; предположение"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "spoštovanje",
+        "čislanje",
+        "cenitev",
+        "ocena",
+        "mnenje",
+        "navedek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cotización",
+        "estimación",
+        "evaluación",
+        "avalúo"
+      ]
+    }
+  ]
+}

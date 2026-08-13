@@ -1,0 +1,61 @@
+{
+  "id": "1308960",
+  "readings": [
+    {
+      "kanaExpression": "してい",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "師弟",
+      "furiganaExpression": [
+        {
+          "text": "師",
+          "annotation": "し"
+        },
+        {
+          "text": "弟",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "teacher and student"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "professeur et élèves"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lehrer und Schüler"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "учитель и ученик"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "profesor y estudiante"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "praktiklärare"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1686850",
+  "readings": [
+    {
+      "kanaExpression": "ようざい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "用材",
+      "furiganaExpression": [
+        {
+          "text": "用",
+          "annotation": "よう"
+        },
+        {
+          "text": "材",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "materials",
+        "lumber",
+        "timber"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "materiaal",
+        "timmerhout",
+        "bouwhout"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bauholz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felszerelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) лесоматериалы",
+        "2) материалы"
+      ]
+    }
+  ]
+}

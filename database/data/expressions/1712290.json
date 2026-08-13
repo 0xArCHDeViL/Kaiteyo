@@ -1,0 +1,48 @@
+{
+  "id": "1712290",
+  "readings": [
+    {
+      "kanaExpression": "しゃおんかい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "謝恩会",
+      "furiganaExpression": [
+        {
+          "text": "謝",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "恩",
+          "annotation": "おん"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thank-you party"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dankesparty",
+        "Abschiedsessen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "собрание выпускников школы в честь своих учителей"
+      ]
+    }
+  ]
+}

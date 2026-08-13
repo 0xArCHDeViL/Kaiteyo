@@ -1,0 +1,138 @@
+{
+  "id": "1502480",
+  "readings": [
+    {
+      "kanaExpression": "ものがたり",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "物語",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "もの"
+        },
+        {
+          "text": "語",
+          "annotation": "がたり"
+        }
+      ],
+      "rank": 1213
+    },
+    {
+      "kanjiExpression": "物語り",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "もの"
+        },
+        {
+          "text": "語",
+          "annotation": "がた"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "story",
+        "tale",
+        "narrative",
+        "account",
+        "fable",
+        "legend"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verhaal",
+        "relaas",
+        "vertelling",
+        "verhaaltje",
+        "sprookje",
+        "legende",
+        "volksverhaal",
+        "sage",
+        "volkssprookje",
+        "fabel",
+        "roman"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "conte",
+        "dit",
+        "histoire",
+        "légende"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschichte",
+        "Erzählung",
+        "Schilderung",
+        "Monogatari",
+        "Legende",
+        "Märchen",
+        "Sage",
+        "Fabel",
+        "Roman",
+        "Fiction",
+        "erzählende Literatur",
+        "Episode"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elbeszélés",
+        "mese",
+        "anekdota",
+        "emelet",
+        "novella",
+        "történet",
+        "tudósítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рассказ, повесть",
+        "{～をする} рассказывать, повествовать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zgodba",
+        "povest",
+        "pravljica",
+        "legenda"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuento",
+        "historia",
+        "leyenda"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "berättelse",
+        "saga",
+        "historia"
+      ]
+    }
+  ]
+}

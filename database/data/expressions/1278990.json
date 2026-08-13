@@ -1,0 +1,89 @@
+{
+  "id": "1278990",
+  "readings": [
+    {
+      "kanaExpression": "こうきん",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "拘禁",
+      "furiganaExpression": [
+        {
+          "text": "拘",
+          "annotation": "こう"
+        },
+        {
+          "text": "禁",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "detention",
+        "custody",
+        "confinement",
+        "internment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "arresteren",
+        "in arrest nemen",
+        "in arrest stellen",
+        "in hechtenis nemen",
+        "houden",
+        "in verzekerde bewaring nemen",
+        "stellen",
+        "aanhouden",
+        "vasthouden",
+        "opsluiten",
+        "arrest",
+        "detentie",
+        "hechtenis",
+        "verzekerde bewaring",
+        "aanhouding",
+        "vasthouding",
+        "opsluiting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verhaften",
+        "in Haft nehmen",
+        "einkerkern",
+        "einsperren",
+        "fest setzen",
+        "Haft",
+        "Arrest",
+        "Einsperrung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bentlakó orvos",
+        "internált"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "задержание, арест",
+        "{～する} задерживать, арестовывать; содержать под стражей"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "internera"
+      ]
+    }
+  ]
+}

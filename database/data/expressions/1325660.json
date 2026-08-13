@@ -1,0 +1,54 @@
+{
+  "id": "1325660",
+  "readings": [
+    {
+      "kanaExpression": "しゅしん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "主審",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "審",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 14515
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chief umpire",
+        "referee (soccer, boxing, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} hoofdumpire",
+        "hoofdscheidsrechter",
+        "{bokssp.} referee",
+        "arbiter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptschiedsrichter",
+        "Vorsitzender"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) главный судья"
+      ]
+    }
+  ]
+}

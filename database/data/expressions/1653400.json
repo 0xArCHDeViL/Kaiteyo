@@ -1,0 +1,53 @@
+{
+  "id": "1653400",
+  "readings": [
+    {
+      "kanaExpression": "まもりがみ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "守り神",
+      "furiganaExpression": [
+        {
+          "text": "守",
+          "annotation": "まも"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "神",
+          "annotation": "がみ"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "guardian deity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schutzgottheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бог-хранитель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "deidad protectora",
+        "dios protector"
+      ]
+    }
+  ]
+}

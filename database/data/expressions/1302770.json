@@ -1,0 +1,67 @@
+{
+  "id": "1302770",
+  "readings": [
+    {
+      "kanaExpression": "やまかじ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "山火事",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "forest fire",
+        "wildfire",
+        "bushfire"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bosbrand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Waldbrand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лесной пожар"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "incendio forestal"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skogsbrand"
+      ]
+    }
+  ]
+}

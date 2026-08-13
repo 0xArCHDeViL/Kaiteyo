@@ -1,0 +1,79 @@
+{
+  "id": "1241620",
+  "readings": [
+    {
+      "kanaExpression": "きんそく",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "禁足",
+      "furiganaExpression": [
+        {
+          "text": "禁",
+          "annotation": "きん"
+        },
+        {
+          "text": "足",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "confinement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hechtenis",
+        "vrijheidsbeneming",
+        "uitgaansverbod",
+        "{mil.} kamerarrest",
+        "kwartierarrest",
+        "consigne",
+        "binnenshuis houden",
+        "in hechtenis nemen",
+        "detineren",
+        "de bewegingsvrijheid ontnemen",
+        "het uitgaan verbieden",
+        "{mil.} consigneren",
+        "kamerarrest",
+        "kwartierarrest geven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hausarrest",
+        "Stubenarrest"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "börtönbüntetés",
+        "kényszerű elszigeteltség",
+        "lebetegedés",
+        "összeszorítás",
+        "szobafogság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "домашний арест"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arresto"
+      ]
+    }
+  ]
+}

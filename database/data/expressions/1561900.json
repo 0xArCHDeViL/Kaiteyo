@@ -1,0 +1,56 @@
+{
+  "id": "1561900",
+  "readings": [
+    {
+      "kanaExpression": "わじん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "倭人",
+      "furiganaExpression": [
+        {
+          "text": "倭",
+          "annotation": "わ"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "和人",
+      "furiganaExpression": [
+        {
+          "text": "和",
+          "annotation": "わ"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese person"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Japaner (alte Bez. der Chinesen und Ainu)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) японец, японцы"
+      ]
+    }
+  ]
+}

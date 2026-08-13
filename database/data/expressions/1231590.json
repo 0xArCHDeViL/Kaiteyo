@@ -1,0 +1,81 @@
+{
+  "id": "1231590",
+  "readings": [
+    {
+      "kanaExpression": "ぎゅうにゅう",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "牛乳",
+      "furiganaExpression": [
+        {
+          "text": "牛",
+          "annotation": "ぎゅう"
+        },
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 5301
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(cow\u0027s) milk"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "koemelk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lait (de vache)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Milch",
+        "Kuhmilch",
+        "Milch und verarbeitete Milch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tej"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[коровье] молоко"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "mleko (kravje)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "leche (de vaca)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "komjölk"
+      ]
+    }
+  ]
+}

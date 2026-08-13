@@ -1,0 +1,68 @@
+{
+  "id": "1515130",
+  "readings": [
+    {
+      "kanaExpression": "ぼせい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "母性",
+      "furiganaExpression": [
+        {
+          "text": "母",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "motherhood",
+        "maternity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moederschap",
+        "moederlijke staat",
+        "materniteit",
+        "moederlijkheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mütterlichkeit",
+        "Mutterschaft",
+        "mütterlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anya-",
+        "anyai"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "материнство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "maternidad"
+      ]
+    }
+  ]
+}

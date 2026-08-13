@@ -1,0 +1,51 @@
+{
+  "id": "1449650",
+  "readings": [
+    {
+      "kanaExpression": "とうぶん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "糖分",
+      "furiganaExpression": [
+        {
+          "text": "糖",
+          "annotation": "とう"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "amount of sugar",
+        "sugar content"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "quantité de sucre",
+        "teneur en sucre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zuckergehalt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "содержание сахара; сахар"
+      ]
+    }
+  ]
+}

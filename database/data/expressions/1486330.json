@@ -1,0 +1,81 @@
+{
+  "id": "1486330",
+  "readings": [
+    {
+      "kanaExpression": "まゆげ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "眉毛",
+      "furiganaExpression": [
+        {
+          "text": "眉",
+          "annotation": "まゆ"
+        },
+        {
+          "text": "毛",
+          "annotation": "げ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "まゆ毛",
+      "furiganaExpression": [
+        {
+          "text": "まゆ"
+        },
+        {
+          "text": "毛",
+          "annotation": "げ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eyebrow"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} wenkbrauw",
+        "{lit.t.} brauw",
+        "brauwe"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sourcil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Augenbraue"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "брови"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "obrvi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ceja"
+      ]
+    }
+  ]
+}

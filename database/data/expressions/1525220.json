@@ -1,0 +1,84 @@
+{
+  "id": "1525220",
+  "readings": [
+    {
+      "kanaExpression": "まっちゃ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "抹茶",
+      "furiganaExpression": [
+        {
+          "text": "抹",
+          "annotation": "まっ"
+        },
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        }
+      ],
+      "rank": 14151
+    },
+    {
+      "kanjiExpression": "まっ茶",
+      "furiganaExpression": [
+        {
+          "text": "まっ"
+        },
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "末茶",
+      "furiganaExpression": [
+        {
+          "text": "末",
+          "annotation": "まっ"
+        },
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "matcha",
+        "powdered green tea"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Japanse stofthee",
+        "poederthee",
+        "Japanse verpulverde thee"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "thé (en poudre)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Matcha",
+        "grüner Pulvertee"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чай в порошке"
+      ]
+    }
+  ]
+}

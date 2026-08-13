@@ -1,0 +1,69 @@
+{
+  "id": "1316480",
+  "readings": [
+    {
+      "kanaExpression": "じかん",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "次官",
+      "furiganaExpression": [
+        {
+          "text": "次",
+          "annotation": "じ"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 10882
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vice-minister",
+        "undersecretary"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vice-directeur-generaal",
+        "vice-secretaris-generaal",
+        "adjunct-chef",
+        "souschef",
+        "{Belg.N.} onderchef",
+        "{ritsuryō} suke",
+        "vice-minister",
+        "onderminister",
+        "hulpminister",
+        "staatssecretaris",
+        "{inform.} staats",
+        "{inform.} stas"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "Sous-Secrétaire",
+        "Vice-Ministre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vizeminister",
+        "Staatssekretär"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "товарищ (заместитель) министра"
+      ]
+    }
+  ]
+}

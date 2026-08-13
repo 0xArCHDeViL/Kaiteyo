@@ -1,0 +1,76 @@
+{
+  "id": "1325210",
+  "readings": [
+    {
+      "kanaExpression": "しゅかんてき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "主観的",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "観",
+          "annotation": "かん"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subjective"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "subjectif"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "subjektiv",
+        "in subjektiver Weise"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ego",
+        "én"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "субъективный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "subjektiven",
+        "oseben",
+        "individualen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "subjetivamente",
+        "subjetivo"
+      ]
+    }
+  ]
+}

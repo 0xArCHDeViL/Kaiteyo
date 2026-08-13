@@ -1,0 +1,135 @@
+{
+  "id": "1238380",
+  "readings": [
+    {
+      "kanaExpression": "こうふん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "興奮",
+      "furiganaExpression": [
+        {
+          "text": "興",
+          "annotation": "こう"
+        },
+        {
+          "text": "奮",
+          "annotation": "ふん"
+        }
+      ],
+      "rank": 3937
+    },
+    {
+      "kanjiExpression": "昂奮",
+      "furiganaExpression": [
+        {
+          "text": "昂",
+          "annotation": "こう"
+        },
+        {
+          "text": "奮",
+          "annotation": "ふん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "亢奮",
+      "furiganaExpression": [
+        {
+          "text": "亢",
+          "annotation": "こう"
+        },
+        {
+          "text": "奮",
+          "annotation": "ふん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "excitement",
+        "stimulation",
+        "agitation",
+        "arousal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opgewonden",
+        "geagiteerd",
+        "geëxciteerd raken",
+        "zich opwinden",
+        "{inform.} opgefokt raken",
+        "{fig.} zich verhitten",
+        "opwinding",
+        "opgewondenheid",
+        "agitatie",
+        "excitatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "agitation",
+        "excitation",
+        "stimulation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich aufregen",
+        "erregt werden",
+        "Aufregung",
+        "Aufgeregtheit",
+        "Erregung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "izgalmi állapot",
+        "izgalom",
+        "izgatottság",
+        "izgatás",
+        "ösztökélés",
+        "serkentés",
+        "nyugtalanság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возбуждение",
+        "{～する} быть возбуждённым, быть в возбуждении; быть взволнованным",
+        "{～して} в возбуждении, возбуждённо; взволнованно",
+        "{～的} возбуждающий"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vznemirjenje",
+        "stimulacija",
+        "navdušenje",
+        "spodbuda"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "excitarse",
+        "exaltarse",
+        "agitarse",
+        "entusiasmarse",
+        "excitación",
+        "estimulación",
+        "agitación"
+      ]
+    }
+  ]
+}

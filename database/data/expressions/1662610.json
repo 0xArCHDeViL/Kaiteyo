@@ -1,0 +1,59 @@
+{
+  "id": "1662610",
+  "readings": [
+    {
+      "kanaExpression": "ざんとう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "残党",
+      "furiganaExpression": [
+        {
+          "text": "残",
+          "annotation": "ざん"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "remnants",
+        "survivors",
+        "refugees",
+        "pocket (of resistance)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} rest van een verslagen leger",
+        "overlevende soldaten",
+        "ontkomen verslagenen",
+        "laatst overgeblevenen van een bepaalde groep of partij",
+        "laatsten der Mohikanen",
+        "overblijvers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reste einer geschlagenen Partei",
+        "versprengte Reste des geschlagenen Heeres",
+        "Überlebenden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "остатки партии (группы, группировки) (распущенной, распавшейся и т. п.)"
+      ]
+    }
+  ]
+}

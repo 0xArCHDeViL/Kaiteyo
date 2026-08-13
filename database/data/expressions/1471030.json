@@ -1,0 +1,97 @@
+{
+  "id": "1471030",
+  "readings": [
+    {
+      "kanaExpression": "なみうちぎわ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "波打ち際",
+      "furiganaExpression": [
+        {
+          "text": "波",
+          "annotation": "なみ"
+        },
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "際",
+          "annotation": "ぎわ"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "波打際",
+      "furiganaExpression": [
+        {
+          "text": "波",
+          "annotation": "なみ"
+        },
+        {
+          "text": "打",
+          "annotation": "うち"
+        },
+        {
+          "text": "際",
+          "annotation": "ぎわ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "波うちぎわ",
+      "furiganaExpression": [
+        {
+          "text": "波",
+          "annotation": "なみ"
+        },
+        {
+          "text": "うちぎわ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water\u0027s edge",
+        "beach",
+        "foreshore"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Küste",
+        "Küstenlinie",
+        "Wasserkante",
+        "Strand",
+        "Wellenstrand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "strand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "линия, которой достигает прибой"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "plage"
+      ]
+    }
+  ]
+}

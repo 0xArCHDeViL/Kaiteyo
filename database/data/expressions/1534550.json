@@ -1,0 +1,90 @@
+{
+  "id": "1534550",
+  "readings": [
+    {
+      "kanaExpression": "きのみ",
+      "rank": 26500
+    },
+    {
+      "kanaExpression": "このみ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "木の実",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "き"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "実",
+          "annotation": "み"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "木のみ",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "き"
+        },
+        {
+          "text": "のみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fruit of a tree",
+        "nut",
+        "berry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boomvrucht",
+        "vrucht",
+        "boomfruit",
+        "fruit",
+        "noot",
+        "bes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nuss",
+        "Frucht",
+        "Beere"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rajongója vminek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плод, фрукт, орех"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fruto",
+        "baya"
+      ]
+    }
+  ]
+}

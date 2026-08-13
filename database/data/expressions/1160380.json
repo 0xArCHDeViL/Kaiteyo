@@ -1,0 +1,54 @@
+{
+  "id": "1160380",
+  "readings": [
+    {
+      "kanaExpression": "いどみず",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "井戸水",
+      "furiganaExpression": [
+        {
+          "text": "井",
+          "annotation": "い"
+        },
+        {
+          "text": "戸",
+          "annotation": "ど"
+        },
+        {
+          "text": "水",
+          "annotation": "みず"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "well water"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "putwater"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Brunnenwasser"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fuente",
+        "pozo de agua"
+      ]
+    }
+  ]
+}

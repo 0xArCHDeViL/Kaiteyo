@@ -1,0 +1,72 @@
+{
+  "id": "1602300",
+  "readings": [
+    {
+      "kanaExpression": "ひょうろう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "兵糧",
+      "furiganaExpression": [
+        {
+          "text": "兵",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "糧",
+          "annotation": "ろう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "兵粮",
+      "furiganaExpression": [
+        {
+          "text": "兵",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "粮",
+          "annotation": "ろう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(army) provisions",
+        "food"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nouriture",
+        "ration (armée)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Proviant",
+        "Verpflegung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "élelem",
+        "ennivaló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продовольствие, провиант, (прост.) еда"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "1385170",
+  "readings": [
+    {
+      "kanaExpression": "きっぷ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "切符",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きっ"
+        },
+        {
+          "text": "符",
+          "annotation": "ぷ"
+        }
+      ],
+      "rank": 7599
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ticket"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kaartje",
+        "biljet",
+        "{Belg.N.} ticket"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "billet",
+        "ticket"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Karte",
+        "Fahrkarte",
+        "Eintrittskarte",
+        "Flugschein",
+        "Konzertkarte",
+        "Ticket"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bírságcédula",
+        "jelöltnévsor",
+        "pártprogram"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) билет",
+        "2) купон, талон (в продовольственной и т. п. карточке)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vozovnica",
+        "vstopnica",
+        "karta"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "boleto",
+        "billete",
+        "ticket"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "biljett"
+      ]
+    }
+  ]
+}

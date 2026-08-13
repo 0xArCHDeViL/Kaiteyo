@@ -1,0 +1,42 @@
+{
+  "id": "1319140",
+  "readings": [
+    {
+      "kanaExpression": "しきじりつ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "識字率",
+      "furiganaExpression": [
+        {
+          "text": "識",
+          "annotation": "しき"
+        },
+        {
+          "text": "字",
+          "annotation": "じ"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "literacy rate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Alphabetisierungsquote",
+        "Alphabetisierungsrate"
+      ]
+    }
+  ]
+}

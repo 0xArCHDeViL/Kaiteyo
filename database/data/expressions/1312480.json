@@ -1,0 +1,59 @@
+{
+  "id": "1312480",
+  "readings": [
+    {
+      "kanaExpression": "ししゃ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "試写",
+      "furiganaExpression": [
+        {
+          "text": "試",
+          "annotation": "し"
+        },
+        {
+          "text": "写",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 8202
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "preview",
+        "private showing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorvertoning",
+        "preview",
+        "voorpremière"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Probevorführung",
+        "Voraufführung (eines Filmes)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предварительный (закрытый) просмотр (кинокартины)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "förhandsvisning"
+      ]
+    }
+  ]
+}

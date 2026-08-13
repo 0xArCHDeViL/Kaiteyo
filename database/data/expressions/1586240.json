@@ -1,0 +1,124 @@
+{
+  "id": "1586240",
+  "readings": [
+    {
+      "kanaExpression": "あきびん",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "あきビン"
+    },
+    {
+      "kanaExpression": "からびん"
+    },
+    {
+      "kanjiExpression": "空き瓶",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "あ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "瓶",
+          "annotation": "びん"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "空きビン",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "あ"
+        },
+        {
+          "text": "きビン"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "空きびん",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "あ"
+        },
+        {
+          "text": "きびん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "空瓶",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "から"
+        },
+        {
+          "text": "瓶",
+          "annotation": "びん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "空き壜",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "あ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "壜",
+          "annotation": "びん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "empty bottle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lege fles",
+        "{Belg.N.} leeggoed"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bouteille vide"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leere Flasche"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пустая бутылка"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tomflaska"
+      ]
+    }
+  ]
+}

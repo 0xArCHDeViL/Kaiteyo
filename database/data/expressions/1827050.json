@@ -1,0 +1,62 @@
+{
+  "id": "1827050",
+  "readings": [
+    {
+      "kanaExpression": "のうさくぶつ",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "のうさくもつ"
+    },
+    {
+      "kanjiExpression": "農作物",
+      "furiganaExpression": [
+        {
+          "text": "農",
+          "annotation": "のう"
+        },
+        {
+          "text": "作",
+          "annotation": "さく"
+        },
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        }
+      ],
+      "rank": 14873
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "crops",
+        "agricultural produce"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "landbouwproducten",
+        "agrarische producten",
+        "gewassen",
+        "opbrengst van de landbouw"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feldprodukte",
+        "Feldfrüchte",
+        "Ernte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сельскохозяйственные культуры; посевы; урожай"
+      ]
+    }
+  ]
+}

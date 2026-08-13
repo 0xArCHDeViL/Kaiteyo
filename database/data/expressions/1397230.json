@@ -1,0 +1,56 @@
+{
+  "id": "1397230",
+  "readings": [
+    {
+      "kanaExpression": "そし",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "素子",
+      "furiganaExpression": [
+        {
+          "text": "素",
+          "annotation": "そ"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 12806
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "element (esp. component in electronics)",
+        "elemental device",
+        "device",
+        "data",
+        "datum"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{elektr.} element",
+        "component"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "elektronisches Bauteil",
+        "Komponente",
+        "Elementargerät"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "berendezés"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "1609170",
+  "readings": [
+    {
+      "kanaExpression": "いくど",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "いくたび"
+    },
+    {
+      "kanjiExpression": "幾度",
+      "furiganaExpression": [
+        {
+          "text": "幾",
+          "annotation": "いく"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 12220
+    },
+    {
+      "kanjiExpression": "幾たび",
+      "furiganaExpression": [
+        {
+          "text": "幾",
+          "annotation": "いく"
+        },
+        {
+          "text": "たび"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(how) many times",
+        "(how) often"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vele keren",
+        "vele malen",
+        "dikwijls",
+        "vaak",
+        "hoeveel keer",
+        "hoeveel maal",
+        "hoe vaak",
+        "hoe dikwijls"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "combien de fois",
+        "tous les combien ?"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wie oft",
+        "wie viele Male",
+        "einige Male",
+        "mehrmals"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyakorta",
+        "nem egyszer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сколько раз?",
+        "{～となく} много раз"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "a menudo",
+        "con frecuencia",
+        "frecuentemente",
+        "cuántas veces"
+      ]
+    }
+  ]
+}

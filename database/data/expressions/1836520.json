@@ -1,0 +1,47 @@
+{
+  "id": "1836520",
+  "readings": [
+    {
+      "kanaExpression": "ようつい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "腰椎",
+      "furiganaExpression": [
+        {
+          "text": "腰",
+          "annotation": "よう"
+        },
+        {
+          "text": "椎",
+          "annotation": "つい"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lumbar vertebra",
+        "lumbar vertebrae"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} lendenwervel",
+        "lumbale wervel",
+        "vertebrae lumbales"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lendenwirbel",
+        "Vertebra lumbalis"
+      ]
+    }
+  ]
+}

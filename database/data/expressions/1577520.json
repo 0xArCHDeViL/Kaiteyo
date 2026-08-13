@@ -1,0 +1,69 @@
+{
+  "id": "1577520",
+  "readings": [
+    {
+      "kanaExpression": "かっぷ",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "わっぷ"
+    },
+    {
+      "kanjiExpression": "割賦",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "かっ"
+        },
+        {
+          "text": "賦",
+          "annotation": "ぷ"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "allotment",
+        "quota",
+        "payment in installments",
+        "payment in instalments",
+        "hire-purchase"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ratenkauf",
+        "Teilzahlungskauf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "juttatás",
+        "kiosztás",
+        "kontingens",
+        "kvóta"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) распределение, развёрстка",
+        "2) (см.) かっぷ【割賦】",
+        "рассрочка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pago a plazos",
+        "pago fraccionado"
+      ]
+    }
+  ]
+}

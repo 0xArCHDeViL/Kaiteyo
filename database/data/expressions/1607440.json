@@ -1,0 +1,63 @@
+{
+  "id": "1607440",
+  "readings": [
+    {
+      "kanaExpression": "うたごえ",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "かせい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "歌声",
+      "furiganaExpression": [
+        {
+          "text": "歌",
+          "annotation": "うた"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ],
+      "rank": 9387
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "singing voice",
+        "(sound of) singing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "voix chantante"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesang",
+        "Singen",
+        "Singstimme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) пение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "canto",
+        "voz"
+      ]
+    }
+  ]
+}

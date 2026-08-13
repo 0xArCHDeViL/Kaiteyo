@@ -1,0 +1,56 @@
+{
+  "id": "1737550",
+  "readings": [
+    {
+      "kanaExpression": "すいしょうたい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "水晶体",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "晶",
+          "annotation": "しょう"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "crystalline lens (of the eye)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Augenlinse",
+        "Kristalllinse",
+        "Linse",
+        "Lens crystallina"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(анат.) хрусталик (глаза)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cristalino (anatomía)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "1305320",
+  "readings": [
+    {
+      "kanaExpression": "しいれさき",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "仕入れ先",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "仕入先",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "入",
+          "annotation": "いれ"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "supplier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lieferant"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ellátó",
+        "felszerelő",
+        "főnyomócső",
+        "szállítmányozó",
+        "szállító",
+        "eladó",
+        "kereskedő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[оптовый] торговец, заготовитель"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "leverantör"
+      ]
+    }
+  ]
+}

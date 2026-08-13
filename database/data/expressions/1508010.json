@@ -1,0 +1,55 @@
+{
+  "id": "1508010",
+  "readings": [
+    {
+      "kanaExpression": "へいめんず",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "平面図",
+      "furiganaExpression": [
+        {
+          "text": "平",
+          "annotation": "へい"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        },
+        {
+          "text": "図",
+          "annotation": "ず"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ground plan",
+        "plane figure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grundriss"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felülnézet",
+        "síkidom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "планиметрическая карта; план"
+      ]
+    }
+  ]
+}

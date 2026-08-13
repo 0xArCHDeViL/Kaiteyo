@@ -1,0 +1,68 @@
+{
+  "id": "1659300",
+  "readings": [
+    {
+      "kanaExpression": "おもき",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "重き",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "おも"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "importance",
+        "emphasis",
+        "stress"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gewicht",
+        "zwaarte",
+        "{i.h.b.} nadruk",
+        "klemtoon",
+        "gewichtigheid",
+        "belang"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einfluss",
+        "Gewicht",
+        "Schwere",
+        "Wichtigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hangsúly",
+        "nyomaték",
+        "erőfeszítés",
+        "megpróbáltatás",
+        "nyomás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вес; важное (большое) значение"
+      ]
+    }
+  ]
+}

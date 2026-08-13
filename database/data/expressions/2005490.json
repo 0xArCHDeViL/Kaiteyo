@@ -1,0 +1,66 @@
+{
+  "id": "2005490",
+  "readings": [
+    {
+      "kanaExpression": "よんほん",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "しほん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "四本",
+      "furiganaExpression": [
+        {
+          "text": "四",
+          "annotation": "よん"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "４本",
+      "furiganaExpression": [
+        {
+          "text": "４",
+          "annotation": "よん"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "four (long cylindrical things)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vier Flaschen (bzw. andere lange, schmale Dinge)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "négy"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuatro (objetos cilíndricos alargados)"
+      ]
+    }
+  ]
+}

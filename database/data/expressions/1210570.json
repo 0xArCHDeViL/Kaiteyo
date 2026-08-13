@@ -1,0 +1,100 @@
+{
+  "id": "1210570",
+  "readings": [
+    {
+      "kanaExpression": "かんこう",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "刊行",
+      "furiganaExpression": [
+        {
+          "text": "刊",
+          "annotation": "かん"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 5475
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "publication",
+        "issue"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "publiceren",
+        "uitgeven",
+        "uitbrengen",
+        "publicatie",
+        "het publiceren",
+        "uitgave",
+        "uitgaaf"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "numéro (publication)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "herausbringen",
+        "herausgeben",
+        "publizieren",
+        "editieren",
+        "veröffentlichen",
+        "erscheinen lassen",
+        "Herausgabe",
+        "Drucklegung",
+        "Edition",
+        "Publikation",
+        "Publizierung",
+        "Veröffentlichung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiadvány",
+        "ügy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "издание, выпуск, публикация",
+        "{～する} издавать, выпускать, публиковать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "objava",
+        "publikacija",
+        "izdaja",
+        "naklada"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "publicación",
+        "edición",
+        "impresión",
+        "revista",
+        "periódico"
+      ]
+    }
+  ]
+}

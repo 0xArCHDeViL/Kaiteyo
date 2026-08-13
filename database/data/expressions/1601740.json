@@ -1,0 +1,91 @@
+{
+  "id": "1601740",
+  "readings": [
+    {
+      "kanaExpression": "ひきでもの",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "引き出物",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "引出物",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gift",
+        "souvenir"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aan banketgasten gegeven geschenk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mitbringsel",
+        "Geschenk (für Gäste)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adomány",
+        "ajándék",
+        "emléktárgy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) подарок; сувенир"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "regalo",
+        "recuerdo",
+        "souvenir"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "1216470",
+  "readings": [
+    {
+      "kanaExpression": "まるだし",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "丸出し",
+      "furiganaExpression": [
+        {
+          "text": "丸",
+          "annotation": "まる"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "丸だし",
+      "furiganaExpression": [
+        {
+          "text": "丸",
+          "annotation": "まる"
+        },
+        {
+          "text": "だし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "まる出し",
+      "furiganaExpression": [
+        {
+          "text": "まる"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(fully) exposed",
+        "bare",
+        "uncovered",
+        "in full view",
+        "undisguised",
+        "broad (accent)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unbedeckt",
+        "entblößt",
+        "exponiert",
+        "hüllenlos",
+        "unverhüllt",
+        "Unbedecktheit",
+        "Entblößung",
+        "Hüllenlosigkeit",
+        "Exponiertheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "éppen csak hogy elegendő",
+        "kendőzetlen",
+        "kietlen",
+        "kivont",
+        "kopár",
+        "kopasz",
+        "lombtalan",
+        "megfosztott",
+        "puszta",
+        "rosszul felszerelt",
+        "szegényes",
+        "tetőcserép fedetlen része",
+        "üres",
+        "világos és feltétel nélküli",
+        "vmitől megfosztott",
+        "nem álruhás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} (прост.) голый, неприкрытый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desnudo",
+        "expuesto",
+        "manifiesto",
+        "cerrado (acento provinciano)"
+      ]
+    }
+  ]
+}

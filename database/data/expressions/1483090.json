@@ -1,0 +1,85 @@
+{
+  "id": "1483090",
+  "readings": [
+    {
+      "kanaExpression": "かれら",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "彼ら",
+      "furiganaExpression": [
+        {
+          "text": "彼",
+          "annotation": "かれ"
+        },
+        {
+          "text": "ら"
+        }
+      ],
+      "rank": 494
+    },
+    {
+      "kanjiExpression": "彼等",
+      "furiganaExpression": [
+        {
+          "text": "彼",
+          "annotation": "かれ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ],
+      "rank": 5156
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "they",
+        "them"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zij",
+        "ze"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ils",
+        "eux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sie (Personalpron. 3. Ps. Pl.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "они (преимущественно о мужчинах)",
+        "они",
+        "{～の} их"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "oni"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ellos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1536050",
+  "readings": [
+    {
+      "kanaExpression": "もんだいてん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "問題点",
+      "furiganaExpression": [
+        {
+          "text": "問",
+          "annotation": "もん"
+        },
+        {
+          "text": "題",
+          "annotation": "だい"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 17000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the problem (at issue)",
+        "the point at issue",
+        "problematic issue",
+        "problem"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vraagpunt",
+        "twistpunt",
+        "geschilpunt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Problempunkt",
+        "fraglicher Punkt",
+        "springender Punkt",
+        "Problematik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спорный момент (пункт)"
+      ]
+    }
+  ]
+}

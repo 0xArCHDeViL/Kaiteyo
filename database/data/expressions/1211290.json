@@ -1,0 +1,80 @@
+{
+  "id": "1211290",
+  "readings": [
+    {
+      "kanaExpression": "かんもん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "喚問",
+      "furiganaExpression": [
+        {
+          "text": "喚",
+          "annotation": "かん"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 16000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "summons"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dagvaarden",
+        "dagen",
+        "oproepen",
+        "indagen",
+        "dagvaarding",
+        "oproep",
+        "oproeping",
+        "indaging"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "assignation",
+        "citation",
+        "convocation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vorladen",
+        "bestellen",
+        "Vorladung",
+        "Einbestellung zum Verhör"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megidézés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вызов на допрос",
+        "{～する} вызывать на допрос"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kallelse"
+      ]
+    }
+  ]
+}

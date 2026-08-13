@@ -1,0 +1,52 @@
+{
+  "id": "1267020",
+  "readings": [
+    {
+      "kanaExpression": "こすう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "戸数",
+      "furiganaExpression": [
+        {
+          "text": "戸",
+          "annotation": "こ"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "number of houses",
+        "number of households"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aantal huizen",
+        "aantal gezinnen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anzahl von Häusern",
+        "Anzahl von Haushalten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "число домов (дворов)"
+      ]
+    }
+  ]
+}

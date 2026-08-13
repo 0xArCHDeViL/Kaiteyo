@@ -1,0 +1,83 @@
+{
+  "id": "1477360",
+  "readings": [
+    {
+      "kanaExpression": "はっこう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "発光",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はっ"
+        },
+        {
+          "text": "光",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 13036
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "emission (of light)",
+        "radiation (of light)",
+        "luminescence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "licht geven",
+        "uitstralen",
+        "lichten",
+        "luminesceren",
+        "lichtuitstraling",
+        "lichtgeving",
+        "luminescentie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "luminescence",
+        "radiation",
+        "rayonnement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leuchten",
+        "Leuchten",
+        "Lumineszenz",
+        "Lichtemission"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sugárzás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "световое излучение, лучеиспускание; свечение; люминесценция",
+        "{～する} излучать свет; светиться",
+        "(как опред.) излучающий свет; лучистый, светящийся; фосфоресцирующий; люминесцентный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "luminiscencia",
+        "radiación"
+      ]
+    }
+  ]
+}

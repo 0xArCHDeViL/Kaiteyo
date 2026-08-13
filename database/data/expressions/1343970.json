@@ -1,0 +1,71 @@
+{
+  "id": "1343970",
+  "readings": [
+    {
+      "kanaExpression": "しょか",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "書架",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "架",
+          "annotation": "か"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bookshelf",
+        "bookcase"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boekenplank",
+        "boekenrek"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bibliothèque (étagère de livres)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bücherbrett",
+        "Bücherregal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "könyvespolc",
+        "könyvszekrény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) книжная полка; стеллаж"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estantería"
+      ]
+    }
+  ]
+}

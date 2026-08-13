@@ -1,0 +1,83 @@
+{
+  "id": "1552180",
+  "readings": [
+    {
+      "kanaExpression": "ながれでる",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "流れ出る",
+      "furiganaExpression": [
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to flow out",
+        "to stream out",
+        "to pour out",
+        "to gush forth",
+        "to leak",
+        "to ooze out",
+        "to drift away"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitstromen",
+        "naar buiten stromen",
+        "uitvloeien",
+        "uitstorten",
+        "uitlopen",
+        "afvloeien",
+        "zich uitstorten",
+        "ontsnappen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausfließen",
+        "ausströmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiözönlik",
+        "kitódul",
+        "asztalfőn ül",
+        "beönt",
+        "ömleng",
+        "átereszt",
+        "kiszivárogtat",
+        "léket kap",
+        "kiszivárog"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вытекать, течь (откуда-л.)"
+      ]
+    }
+  ]
+}

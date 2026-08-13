@@ -1,0 +1,79 @@
+{
+  "id": "1589570",
+  "readings": [
+    {
+      "kanaExpression": "おろしね",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "卸値",
+      "furiganaExpression": [
+        {
+          "text": "卸",
+          "annotation": "おろし"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "卸し値",
+      "furiganaExpression": [
+        {
+          "text": "卸",
+          "annotation": "おろ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wholesale price"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "groothandelsprijs",
+        "handelsprijs",
+        "grossiersprijs"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prix de gros"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Großhandelspreis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оптовая цена"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precio al por mayor"
+      ]
+    }
+  ]
+}

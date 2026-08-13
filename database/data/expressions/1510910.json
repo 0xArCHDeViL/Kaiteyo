@@ -1,0 +1,52 @@
+{
+  "id": "1510910",
+  "readings": [
+    {
+      "kanaExpression": "へんかきゅう",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "変化球",
+      "furiganaExpression": [
+        {
+          "text": "変",
+          "annotation": "へん"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "breaking ball (pitch)",
+        "curve ball",
+        "screwball"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} screwball",
+        "effectbal",
+        "kromme bal",
+        "wegdraaiende bal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ball, der seine Bahn oder Geschwindigkeit ändert (im Gegensatz zu einem straight ball)"
+      ]
+    }
+  ]
+}

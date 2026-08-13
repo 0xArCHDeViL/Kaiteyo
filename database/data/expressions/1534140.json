@@ -1,0 +1,59 @@
+{
+  "id": "1534140",
+  "readings": [
+    {
+      "kanaExpression": "もうがっこう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "盲学校",
+      "furiganaExpression": [
+        {
+          "text": "盲",
+          "annotation": "もう"
+        },
+        {
+          "text": "学",
+          "annotation": "がっ"
+        },
+        {
+          "text": "校",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "school for the blind"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blindenschool"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blindenschule"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "школа для слепых"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "escuela para ciegos"
+      ]
+    }
+  ]
+}

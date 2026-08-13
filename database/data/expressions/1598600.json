@@ -1,0 +1,71 @@
+{
+  "id": "1598600",
+  "readings": [
+    {
+      "kanaExpression": "とうあ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "東亜",
+      "furiganaExpression": [
+        {
+          "text": "東",
+          "annotation": "とう"
+        },
+        {
+          "text": "亜",
+          "annotation": "あ"
+        }
+      ],
+      "rank": 12395
+    },
+    {
+      "kanjiExpression": "東亞",
+      "furiganaExpression": [
+        {
+          "text": "東",
+          "annotation": "とう"
+        },
+        {
+          "text": "亞",
+          "annotation": "あ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "East Asia",
+        "the Orient"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Oost-Azië"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "l\u0027extrême-orient"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ostasien",
+        "Ferner Osten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сокр.) Восточная Азия",
+        ": {～の} [дальне]восточный"
+      ]
+    }
+  ]
+}

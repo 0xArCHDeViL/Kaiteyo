@@ -1,0 +1,77 @@
+{
+  "id": "1512100",
+  "readings": [
+    {
+      "kanaExpression": "へんきょう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "辺境",
+      "furiganaExpression": [
+        {
+          "text": "辺",
+          "annotation": "へん"
+        },
+        {
+          "text": "境",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "辺疆",
+      "furiganaExpression": [
+        {
+          "text": "辺",
+          "annotation": "へん"
+        },
+        {
+          "text": "疆",
+          "annotation": "きょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "remote region",
+        "outlying district",
+        "border district",
+        "frontier"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grensland",
+        "grensgebied",
+        "grens",
+        "{veroud.} mark"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abgelegene Gegend",
+        "Grenzland"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "határ",
+        "széle vminek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пограничный район; удалённый район, окраина",
+        "{～で} на границе"
+      ]
+    }
+  ]
+}

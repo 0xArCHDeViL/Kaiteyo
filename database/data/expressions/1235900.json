@@ -1,0 +1,81 @@
+{
+  "id": "1235900",
+  "readings": [
+    {
+      "kanaExpression": "さけびごえ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "叫び声",
+      "furiganaExpression": [
+        {
+          "text": "叫",
+          "annotation": "さけ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shout",
+        "yell",
+        "scream",
+        "cry"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "clameur",
+        "cri",
+        "cri aigu",
+        "hurlement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ruf",
+        "Schrei",
+        "Aufschrei",
+        "Geschrei",
+        "Gebrüll",
+        "Geheul",
+        "Aufschrei der Empörung",
+        "Sturm der Entrüstung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiabálás",
+        "kiáltás",
+        "sikoltás",
+        "visítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) крик, выкрик; возглас",
+        "2) призыв (обращение)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grito"
+      ]
+    }
+  ]
+}

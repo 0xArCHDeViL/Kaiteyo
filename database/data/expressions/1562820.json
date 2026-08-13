@@ -1,0 +1,141 @@
+{
+  "id": "1562820",
+  "readings": [
+    {
+      "kanaExpression": "わんきょく",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "湾曲",
+      "furiganaExpression": [
+        {
+          "text": "湾",
+          "annotation": "わん"
+        },
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "彎曲",
+      "furiganaExpression": [
+        {
+          "text": "彎",
+          "annotation": "わん"
+        },
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "弯曲",
+      "furiganaExpression": [
+        {
+          "text": "弯",
+          "annotation": "わん"
+        },
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "わん曲",
+      "furiganaExpression": [
+        {
+          "text": "わん"
+        },
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "curve",
+        "bend",
+        "crook"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kromme",
+        "curve",
+        "boog",
+        "bocht",
+        "kronkel",
+        "buiging",
+        "kromming",
+        "kromte",
+        "knik",
+        "knie",
+        "welving",
+        "buigen",
+        "een bocht maken",
+        "zich krommen",
+        "gebogen zijn",
+        "krom zijn",
+        "knikken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "courbe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krümmung",
+        "Biegung",
+        "Bogen",
+        "Kurve",
+        "Windung",
+        "sich biegen",
+        "sich krümmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "görbület",
+        "grafikon",
+        "hajlat",
+        "kanyar",
+        "kanyarulat",
+        "csaló",
+        "pásztorbot",
+        "püspökbot",
+        "hajlás",
+        "tekintet",
+        "függvényábra"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "изгиб, кривизна, искривление",
+        "{～する} изогнуть[ся], искривить[ся]",
+        "{～した} изогнутый, кривой"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "båge"
+      ]
+    }
+  ]
+}

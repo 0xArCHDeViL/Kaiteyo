@@ -1,0 +1,58 @@
+{
+  "id": "1188650",
+  "readings": [
+    {
+      "kanaExpression": "なんかい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "何回",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なん"
+        },
+        {
+          "text": "回",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "how many times"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoeveel keer",
+        "hoeveel maal",
+        "hoe dikwijls",
+        "hoe vaak"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wie viele Male"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сколько раз?"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "¿cuántas veces?"
+      ]
+    }
+  ]
+}

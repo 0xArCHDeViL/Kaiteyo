@@ -1,0 +1,97 @@
+{
+  "id": "1809000",
+  "readings": [
+    {
+      "kanaExpression": "たかとびこみ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "高飛び込み",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "たか"
+        },
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "高飛込み",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "たか"
+        },
+        {
+          "text": "飛",
+          "annotation": "とび"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "高飛びこみ",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "たか"
+        },
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "びこみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high dive",
+        "high diving"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Turmspringen",
+        "Kunstspringen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прыжок в воду с вышки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "saltos de palanca (deporte)"
+      ]
+    }
+  ]
+}

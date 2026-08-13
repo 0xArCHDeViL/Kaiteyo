@@ -1,0 +1,89 @@
+{
+  "id": "1555850",
+  "readings": [
+    {
+      "kanaExpression": "りんじん",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "隣人",
+      "furiganaExpression": [
+        {
+          "text": "隣",
+          "annotation": "りん"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 10349
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "neighbour",
+        "neighbor",
+        "neighbourhood",
+        "neighborhood"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "buur",
+        "buurman",
+        "nabuur",
+        "nevenman",
+        "{Belg.N.",
+        "spreekt.} gebuur",
+        "{verzameln.} buurt",
+        "medemens",
+        "naaste",
+        "evenmens",
+        "evennaaste",
+        "medebroeder",
+        "{veroud.} natuurgenoot"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "voisin",
+        "voisinage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachbar",
+        "Nachbarschaft",
+        "Nächster"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felebarát",
+        "szomszéd",
+        "környék",
+        "szomszédok",
+        "szomszédság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сосед"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vecino"
+      ]
+    }
+  ]
+}

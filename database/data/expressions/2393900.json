@@ -1,0 +1,55 @@
+{
+  "id": "2393900",
+  "readings": [
+    {
+      "kanaExpression": "いいかげんにしろ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "いい加減にしろ",
+      "furiganaExpression": [
+        {
+          "text": "いい"
+        },
+        {
+          "text": "加",
+          "annotation": "か"
+        },
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "にしろ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "that\u0027s enough!",
+        "cut it out!",
+        "get a life!"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het is nu genoeg!",
+        "genoeg is genoeg!",
+        "schei uit!",
+        "afgelopen!"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "¡ya es suficiente!",
+        "¡basta ya!"
+      ]
+    }
+  ]
+}

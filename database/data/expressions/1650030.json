@@ -1,0 +1,67 @@
+{
+  "id": "1650030",
+  "readings": [
+    {
+      "kanaExpression": "ふっこう",
+      "rank": 30000
+    },
+    {
+      "kanaExpression": "ふくこう"
+    },
+    {
+      "kanaExpression": "ふくくう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "腹腔",
+      "furiganaExpression": [
+        {
+          "text": "腹",
+          "annotation": "ふっ"
+        },
+        {
+          "text": "腔",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "abdominal cavity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} buikholte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bauchhöhle",
+        "Abdominalhöhle",
+        "Bauchraum",
+        "Cavum abdominis",
+        "Bauch…",
+        "Abdominal…"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(анат.) брюшная полость"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bukhåla"
+      ]
+    }
+  ]
+}

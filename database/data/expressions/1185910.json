@@ -1,0 +1,49 @@
+{
+  "id": "1185910",
+  "readings": [
+    {
+      "kanaExpression": "したね",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "下値",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lowest price"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "niedriger Preis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "более низкая цена"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precio más bajo"
+      ]
+    }
+  ]
+}

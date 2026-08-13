@@ -1,0 +1,88 @@
+{
+  "id": "2006620",
+  "readings": [
+    {
+      "kanaExpression": "すべりおりる",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "滑り降りる",
+      "furiganaExpression": [
+        {
+          "text": "滑",
+          "annotation": "すべ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "降",
+          "annotation": "お"
+        },
+        {
+          "text": "りる"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "滑り下りる",
+      "furiganaExpression": [
+        {
+          "text": "滑",
+          "annotation": "すべ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "下",
+          "annotation": "お"
+        },
+        {
+          "text": "りる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to slide down",
+        "to slip down"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afglijden",
+        "neerglijden",
+        "naar beneden glijden",
+        "afschuiven",
+        "neerschuiven",
+        "afzakken",
+        "afslippen",
+        "afglippen",
+        "{gew.} afrijzen",
+        "{gew.} afridderen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hinabgleiten",
+        "hinabrutschen",
+        "heruntergleiten",
+        "herunterrutschen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lecsúszik",
+        "lesiklik"
+      ]
+    }
+  ]
+}

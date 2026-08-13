@@ -1,0 +1,83 @@
+{
+  "id": "1375190",
+  "readings": [
+    {
+      "kanaExpression": "せい",
+      "rank": 1264
+    },
+    {
+      "kanaExpression": "しょう",
+      "rank": 2769
+    },
+    {
+      "kanaExpression": "そう",
+      "rank": 97
+    },
+    {
+      "kanjiExpression": "姓",
+      "furiganaExpression": [
+        {
+          "text": "姓",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 12424
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "surname",
+        "family name",
+        "hereditary title (used in ancient Japan to denote rank and political standing)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geslachtsnaam",
+        "familienaam",
+        "achternaam"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nom de famille",
+        "titre héréditaire (utilisé dans le Japon ancien pour marquer le rang ou le statut politique)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Familienname"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фамилия"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "priimek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "apellido"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "familjenamn",
+        "tillnamn"
+      ]
+    }
+  ]
+}

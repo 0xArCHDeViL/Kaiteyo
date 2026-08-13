@@ -1,0 +1,59 @@
+{
+  "id": "1171110",
+  "readings": [
+    {
+      "kanaExpression": "うげん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "右舷",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "う"
+        },
+        {
+          "text": "舷",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "starboard"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{scheepv.} stuurboord"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steuerbord",
+        "rechte Schiffsseite",
+        "steuerbord",
+        "steuerbords",
+        "rechts"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hajó jobb oldala"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "правый борт"
+      ]
+    }
+  ]
+}

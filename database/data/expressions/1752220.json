@@ -1,0 +1,48 @@
+{
+  "id": "1752220",
+  "readings": [
+    {
+      "kanaExpression": "めいく",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "名句",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "めい"
+        },
+        {
+          "text": "句",
+          "annotation": "く"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "famous saying",
+        "noted haiku"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "berühmte Worte",
+        "berühmter Ausspruch",
+        "berühmtes Haiku",
+        "berühmter Vers"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) удачное (замечательное) выражение, известное изречение",
+        "2) прославленное (лучшее) хокку"
+      ]
+    }
+  ]
+}

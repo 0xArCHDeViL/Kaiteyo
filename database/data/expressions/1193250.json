@@ -1,0 +1,61 @@
+{
+  "id": "1193250",
+  "readings": [
+    {
+      "kanaExpression": "かきょく",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "歌曲",
+      "furiganaExpression": [
+        {
+          "text": "歌",
+          "annotation": "か"
+        },
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "melody",
+        "tune",
+        "song"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} lied"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lied",
+        "Kunstlied"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dallam",
+        "hang",
+        "hangnem",
+        "költemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "песня; ария; мелодия"
+      ]
+    }
+  ]
+}

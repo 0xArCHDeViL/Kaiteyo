@@ -1,0 +1,82 @@
+{
+  "id": "1579150",
+  "readings": [
+    {
+      "kanaExpression": "こんぶ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "こぶ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "コンブ"
+    },
+    {
+      "kanjiExpression": "昆布",
+      "furiganaExpression": [
+        {
+          "text": "昆",
+          "annotation": "こん"
+        },
+        {
+          "text": "布",
+          "annotation": "ぶ"
+        }
+      ],
+      "rank": 13100
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "kombu (usu. Saccharina japonica)",
+        "konbu",
+        "kelp",
+        "any edible species from the family Laminariaceae"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} kombu",
+        "bruinwier",
+        "kelp",
+        "varec",
+        "Laminaria"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "varech"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tang",
+        "Seetang",
+        "Riementang",
+        "Laminariacae",
+        "Laminaria japonica",
+        "Konbu"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tengeri hínár",
+        "tengeri moszat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) こんぶ",
+        "бурая водоросль ламинария, Laminaria japonica (Aresch.), (разг.) морская капуста"
+      ]
+    }
+  ]
+}

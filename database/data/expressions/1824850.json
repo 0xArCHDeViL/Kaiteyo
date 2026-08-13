@@ -1,0 +1,44 @@
+{
+  "id": "1824850",
+  "readings": [
+    {
+      "kanaExpression": "ふくろもの",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "袋物",
+      "furiganaExpression": [
+        {
+          "text": "袋",
+          "annotation": "ふくろ"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bags and purses (handbags)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Taschen und Beutel",
+        "Eingetütetes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мешки и сумки"
+      ]
+    }
+  ]
+}

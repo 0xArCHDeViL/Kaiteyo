@@ -1,0 +1,63 @@
+{
+  "id": "1765850",
+  "readings": [
+    {
+      "kanaExpression": "でんききぐ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "電気器具",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        },
+        {
+          "text": "具",
+          "annotation": "ぐ"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "electrical appliance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elektrisch apparaat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Elektrogerät"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "электроприборы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "electrodoméstico"
+      ]
+    }
+  ]
+}

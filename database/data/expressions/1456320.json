@@ -1,0 +1,93 @@
+{
+  "id": "1456320",
+  "readings": [
+    {
+      "kanaExpression": "よみかえす",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "読み返す",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 7822
+    },
+    {
+      "kanjiExpression": "読みかえす",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "みかえす"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "読返す",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よみ"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to reread",
+        "to read again"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "relire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wieder einmal lesen",
+        "noch einmal lesen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "még egyszer átolvas",
+        "újra átolvas",
+        "újra elolvas"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перечитывать"
+      ]
+    }
+  ]
+}

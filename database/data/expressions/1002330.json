@@ -1,0 +1,139 @@
+{
+  "id": "1002330",
+  "readings": [
+    {
+      "kanaExpression": "おばあさん",
+      "rank": 9358
+    },
+    {
+      "kanaExpression": "おばーさん"
+    },
+    {
+      "kanjiExpression": "お祖母さん",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "祖母",
+          "annotation": "ばあ"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お婆さん",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "婆",
+          "annotation": "ばあ"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御祖母さん",
+      "furiganaExpression": [
+        {
+          "text": "御祖母",
+          "annotation": "おばあ"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御婆さん",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "婆",
+          "annotation": "ばあ"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grandmother",
+        "old woman",
+        "female senior citizen"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oude vrouw",
+        "oudje",
+        "besje",
+        "grootmoeder",
+        "grootmoe",
+        "grootmama",
+        "grootma",
+        "oma",
+        "{inform.} grootje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grand-mère",
+        "femme âgée",
+        "femme du troisième âge"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Großmutter",
+        "Oma",
+        "alte Frau",
+        "Greisin"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nagyanya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) бабушка",
+        "2) старушка",
+        "бабушка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "babica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abuela",
+        "anciana"
+      ]
+    }
+  ]
+}

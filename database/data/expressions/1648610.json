@@ -1,0 +1,59 @@
+{
+  "id": "1648610",
+  "readings": [
+    {
+      "kanaExpression": "しょうちょう",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "消長",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "長",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prosperity and decay",
+        "prosperity and decline",
+        "rise and fall",
+        "ups and downs",
+        "ebb and flow",
+        "waxing and waning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auf und Ab",
+        "Aufstieg und Niedergang",
+        "Wechselfälle des Lebens",
+        "Ebbe und Flut"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hepehupák",
+        "szerencse forgandósága",
+        "viszontagságok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) упадок и подъём (процветание); благосостояние"
+      ]
+    }
+  ]
+}

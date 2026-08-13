@@ -1,0 +1,58 @@
+{
+  "id": "1296900",
+  "readings": [
+    {
+      "kanaExpression": "ざいせいなん",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "財政難",
+      "furiganaExpression": [
+        {
+          "text": "財",
+          "annotation": "ざい"
+        },
+        {
+          "text": "政",
+          "annotation": "せい"
+        },
+        {
+          "text": "難",
+          "annotation": "なん"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "economic difficulties",
+        "financial difficulties",
+        "fiscal difficulties"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "financiële moeilijkheden",
+        "geldnood",
+        "geldzorgen",
+        "geldgebrek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "finanzielle Schwierigkeiten"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dificultades económicas"
+      ]
+    }
+  ]
+}

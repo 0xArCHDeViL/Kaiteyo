@@ -1,0 +1,52 @@
+{
+  "id": "1228880",
+  "readings": [
+    {
+      "kanaExpression": "きゅうぞう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "急造",
+      "furiganaExpression": [
+        {
+          "text": "急",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "造",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hurried construction",
+        "hurried production",
+        "hasty manufacture",
+        "hasty formation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in Eile erbaut",
+        "eilig errichtet",
+        "schnell bauen",
+        "schnell errichten",
+        "schnelles Bauen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спешное сооружение, срочное строительство",
+        "{～[の]} на скорую руку; временный; спешно построенный",
+        "{～する} спешно строить (сооружать); строить наспех"
+      ]
+    }
+  ]
+}

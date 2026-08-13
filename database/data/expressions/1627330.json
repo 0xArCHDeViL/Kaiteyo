@@ -1,0 +1,61 @@
+{
+  "id": "1627330",
+  "readings": [
+    {
+      "kanaExpression": "ほんぶん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "本分",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s duty",
+        "one\u0027s part"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "plicht",
+        "taak",
+        "wezenskenmerk",
+        "wezenstrek",
+        "wezenlijke eigenschap",
+        "wezenlijk kenmerk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufgabe",
+        "Pflicht",
+        "Verpflichtung",
+        "Beruf",
+        "Bestimmung",
+        "Amt",
+        "Dienst"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "долг, назначение"
+      ]
+    }
+  ]
+}

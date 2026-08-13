@@ -1,0 +1,103 @@
+{
+  "id": "1441250",
+  "readings": [
+    {
+      "kanaExpression": "てんそう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "転送",
+      "furiganaExpression": [
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "送",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 5110
+    },
+    {
+      "kanjiExpression": "轉送",
+      "furiganaExpression": [
+        {
+          "text": "轉",
+          "annotation": "てん"
+        },
+        {
+          "text": "送",
+          "annotation": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transfer (of a call, patient, etc.)",
+        "forwarding (a letter, email, etc.)",
+        "redirection",
+        "transfer (of data)",
+        "transmission"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "doorsturen",
+        "forwarden",
+        "doorzenden",
+        "overzenden",
+        "uitzenden",
+        "nazenden",
+        "nasturen",
+        "achternasturen",
+        "overseinen",
+        "doorseinen",
+        "doorverwijzen",
+        "doorsturing",
+        "forward",
+        "doorzending",
+        "overzending",
+        "nazending",
+        "nasturing",
+        "overseining",
+        "doorseining",
+        "transmissie",
+        "doorverwijzing",
+        "redirect"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nachsenden",
+        "nachschicken",
+        "Nachsendung",
+        "Übertragung",
+        "Forwarding",
+        "Weiterleitung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átruházás",
+        "átvitel",
+        "erőátvitel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) переадресовка",
+        "[御]転送を乞う прошу переадресовать",
+        "2) передача",
+        "{～する} передавать (телеграмму и т. п.)"
+      ]
+    }
+  ]
+}

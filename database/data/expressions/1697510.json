@@ -1,0 +1,70 @@
+{
+  "id": "1697510",
+  "readings": [
+    {
+      "kanaExpression": "しゅごじん"
+    },
+    {
+      "kanaExpression": "しゅごしん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "守護神",
+      "furiganaExpression": [
+        {
+          "text": "守",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "護",
+          "annotation": "ご"
+        },
+        {
+          "text": "神",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "guardian deity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schutsgod",
+        "beschermgod",
+        "patroon",
+        "genius",
+        "schutsgodin",
+        "beschermgodin",
+        "patrones"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schutzgottheit",
+        "Maskottchen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дух(бог)-хранитель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "deidad protectora",
+        "dios protector"
+      ]
+    }
+  ]
+}

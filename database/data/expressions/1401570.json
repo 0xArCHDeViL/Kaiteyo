@@ -1,0 +1,72 @@
+{
+  "id": "1401570",
+  "readings": [
+    {
+      "kanaExpression": "そうごうてき",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "総合的",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "合",
+          "annotation": "ごう"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "comprehensive",
+        "composite",
+        "all-round",
+        "all-embracing",
+        "general",
+        "overall",
+        "combined",
+        "synthetic (e.g. language)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "allesomvattend",
+        "integraal",
+        "geïntegreerd",
+        "totaal",
+        "globaal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zusammenfassend",
+        "synthetisch",
+        "einheitlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "széleskörű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сведённый воедино, обобщённый; сводный, объединённый; комплексный"
+      ]
+    }
+  ]
+}

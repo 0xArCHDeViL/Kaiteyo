@@ -1,0 +1,58 @@
+{
+  "id": "1481560",
+  "readings": [
+    {
+      "kanaExpression": "はんい",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "犯意",
+      "furiganaExpression": [
+        {
+          "text": "犯",
+          "annotation": "はん"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "criminal intent",
+        "malice"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verbrecherische Absicht",
+        "böse Absicht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rosszhiszeműség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "преступное намерение; злой умысел"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dolo (intencionalidad penal)",
+        "intención o propósito criminal"
+      ]
+    }
+  ]
+}

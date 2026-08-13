@@ -1,0 +1,85 @@
+{
+  "id": "1565260",
+  "readings": [
+    {
+      "kanaExpression": "ほにゅうるい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "哺乳類",
+      "furiganaExpression": [
+        {
+          "text": "哺",
+          "annotation": "ほ"
+        },
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "ほ乳類",
+      "furiganaExpression": [
+        {
+          "text": "ほ"
+        },
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mammal",
+        "mammalian"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} zoogdieren",
+        "Mammalia"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Säugetiere",
+        "Säuger",
+        "Mammalia"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emlős"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(зоол.) млекопитающие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mamífero"
+      ]
+    }
+  ]
+}

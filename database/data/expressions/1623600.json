@@ -1,0 +1,44 @@
+{
+  "id": "1623600",
+  "readings": [
+    {
+      "kanaExpression": "だんち",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "暖地",
+      "furiganaExpression": [
+        {
+          "text": "暖",
+          "annotation": "だん"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "warm district",
+        "region of mild climate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "warme Gegend"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тёплые места (края)"
+      ]
+    }
+  ]
+}

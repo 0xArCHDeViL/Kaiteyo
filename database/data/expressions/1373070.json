@@ -1,0 +1,50 @@
+{
+  "id": "1373070",
+  "readings": [
+    {
+      "kanaExpression": "すうしき",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "数式",
+      "furiganaExpression": [
+        {
+          "text": "数",
+          "annotation": "すう"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 12945
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "numerical formula"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{wisk.} uitdrukking",
+        "expressie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Formel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "математическая формула"
+      ]
+    }
+  ]
+}

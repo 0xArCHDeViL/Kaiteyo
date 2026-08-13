@@ -1,0 +1,87 @@
+{
+  "id": "1514900",
+  "readings": [
+    {
+      "kanaExpression": "ぼひょう",
+      "rank": 31000
+    },
+    {
+      "kanaExpression": "はかじるし"
+    },
+    {
+      "kanjiExpression": "墓標",
+      "furiganaExpression": [
+        {
+          "text": "墓",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "標",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "墓表",
+      "furiganaExpression": [
+        {
+          "text": "墓",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "表",
+          "annotation": "ひょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grave marker",
+        "gravestone",
+        "headstone",
+        "writing on a headstone (name, date of death, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grafteken",
+        "{i.h.b.} grafsteen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épitaphe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Markierung für ein Grab",
+        "Grabstein",
+        "Grabpfeiler",
+        "Grabkreuz",
+        "Grabinschrift",
+        "Grabschrift"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sírkő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "указатель (опознавательный знак) (чьей-л.) могилы",
+        "(см.) ぼひめい"
+      ]
+    }
+  ]
+}

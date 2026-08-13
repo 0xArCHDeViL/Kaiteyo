@@ -1,0 +1,84 @@
+{
+  "id": "1344120",
+  "readings": [
+    {
+      "kanaExpression": "しょてん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "書店",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "店",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 2961
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bookshop",
+        "bookstore"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boekwinkel",
+        "boekhandel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "librairie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Buchhandlung",
+        "Buchladen",
+        "Verlag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "könyvesbolt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "книжный магазин, книжная лавка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "knjigarna"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "librería"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bokhandel",
+        "boklåda"
+      ]
+    }
+  ]
+}

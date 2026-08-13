@@ -1,0 +1,79 @@
+{
+  "id": "1602200",
+  "readings": [
+    {
+      "kanaExpression": "ひや",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "冷や",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "ひ"
+        },
+        {
+          "text": "や"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "冷",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "ひや"
+        }
+      ],
+      "rank": 11789
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cold water",
+        "cold sake",
+        "cold",
+        "cool",
+        "chilled",
+        "unheated"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "koud water",
+        "koude sake"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "eau froide",
+        "sake froid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kaltes Wasser",
+        "kalter Sake (Abk.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hideg víz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (см.) おひや",
+        "2) холодное (о сакэ)"
+      ]
+    }
+  ]
+}

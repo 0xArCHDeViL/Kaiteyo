@@ -1,0 +1,75 @@
+{
+  "id": "1243160",
+  "readings": [
+    {
+      "kanaExpression": "かなもの",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "金物",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "かな"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "metal utensil",
+        "ironware",
+        "metal fittings",
+        "hardware"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ijzerwaren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eisenwaren",
+        "Metallbeschläge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fémárú",
+        "vasárú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) металлические изделия (товары), метизы",
+        "2) (см.) かなぐ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ferretería"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hardware",
+        "hårdvara",
+        "maskinvara"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "1847720",
+  "readings": [
+    {
+      "kanaExpression": "さきほこる",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "咲き誇る",
+      "furiganaExpression": [
+        {
+          "text": "咲",
+          "annotation": "さ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "誇",
+          "annotation": "ほこ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "咲きほこる",
+      "furiganaExpression": [
+        {
+          "text": "咲",
+          "annotation": "さ"
+        },
+        {
+          "text": "きほこる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "咲誇る",
+      "furiganaExpression": [
+        {
+          "text": "咲",
+          "annotation": "さき"
+        },
+        {
+          "text": "誇",
+          "annotation": "ほこ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be in full bloom",
+        "to blossom in full glory",
+        "to be in fullness of bloom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in voller Blüte stehen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цвести во всей красе, красоваться"
+      ]
+    }
+  ]
+}

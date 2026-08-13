@@ -1,0 +1,123 @@
+{
+  "id": "1594930",
+  "readings": [
+    {
+      "kanaExpression": "しょうしょう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "少々",
+      "furiganaExpression": [
+        {
+          "text": "少",
+          "annotation": "しょう"
+        },
+        {
+          "text": "々",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 2979
+    },
+    {
+      "kanjiExpression": "少少",
+      "furiganaExpression": [
+        {
+          "text": "少",
+          "annotation": "しょう"
+        },
+        {
+          "text": "少",
+          "annotation": "しょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "小々",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "々",
+          "annotation": "しょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "小小",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "小",
+          "annotation": "しょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "just a minute",
+        "small quantity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een beetje",
+        "een tikje",
+        "een kleinigheid",
+        "een weinig",
+        "even",
+        "wat",
+        "ietsjes",
+        "eventjes"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "juste une minute",
+        "un petit peu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein wenig",
+        "etwas",
+        "ein bisschen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чуть-чуть; немножко"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "trenutek",
+        "majhna količina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un poco",
+        "una pizca",
+        "escasa cantidad",
+        "normal y corriente",
+        "(exp,n-adv,n) sólo un minuto",
+        "pequeña cantidad"
+      ]
+    }
+  ]
+}

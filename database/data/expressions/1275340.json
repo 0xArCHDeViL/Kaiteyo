@@ -1,0 +1,81 @@
+{
+  "id": "1275340",
+  "readings": [
+    {
+      "kanaExpression": "あつさ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "厚さ",
+      "furiganaExpression": [
+        {
+          "text": "厚",
+          "annotation": "あつ"
+        },
+        {
+          "text": "さ"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thickness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dikte",
+        "dikheid",
+        "grofte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épaisseur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dicke"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vastagság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "толщина"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "debelina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "espesor",
+        "grosor"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tjocklek"
+      ]
+    }
+  ]
+}

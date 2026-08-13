@@ -1,0 +1,93 @@
+{
+  "id": "1268170",
+  "readings": [
+    {
+      "kanaExpression": "ごがつ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "５月",
+      "furiganaExpression": [
+        {
+          "text": "５",
+          "annotation": "ご"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 1816
+    },
+    {
+      "kanjiExpression": "五月",
+      "furiganaExpression": [
+        {
+          "text": "五",
+          "annotation": "ご"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 5160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "May",
+        "fifth month of the lunar calendar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mei",
+        "meimaand",
+        "maand mei",
+        "bloeimaand",
+        "Mariamaand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mai",
+        "fünfter Monat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szabad"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "май"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "maj"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Mayo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "maj"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "1659490",
+  "readings": [
+    {
+      "kanaExpression": "てびきしょ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "手引書",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "引",
+          "annotation": "びき"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "手引き書",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "引",
+          "annotation": "び"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "handbook",
+        "manual",
+        "guide",
+        "primer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einführung",
+        "Handbuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "idegenvezető",
+        "ismertető",
+        "példamutatás",
+        "útikönyv"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "manual",
+        "guía"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "handbok"
+      ]
+    }
+  ]
+}

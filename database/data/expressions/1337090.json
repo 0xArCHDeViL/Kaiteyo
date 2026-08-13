@@ -1,0 +1,51 @@
+{
+  "id": "1337090",
+  "readings": [
+    {
+      "kanaExpression": "じゅうほう",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "銃砲",
+      "furiganaExpression": [
+        {
+          "text": "銃",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "砲",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "guns",
+        "firearms"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feuerwaffe",
+        "Schusswaffe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "огнестрельное оружие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pistola"
+      ]
+    }
+  ]
+}

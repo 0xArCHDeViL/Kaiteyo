@@ -1,0 +1,97 @@
+{
+  "id": "1591250",
+  "readings": [
+    {
+      "kanaExpression": "きせき",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "奇跡",
+      "furiganaExpression": [
+        {
+          "text": "奇",
+          "annotation": "き"
+        },
+        {
+          "text": "跡",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 4022
+    },
+    {
+      "kanjiExpression": "奇蹟",
+      "furiganaExpression": [
+        {
+          "text": "奇",
+          "annotation": "き"
+        },
+        {
+          "text": "蹟",
+          "annotation": "せき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "miracle",
+        "wonder",
+        "marvel"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mirakel",
+        "wonder",
+        "wonderdaad",
+        "wonderwerk",
+        "wonderteken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "miracle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wunder"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csoda",
+        "csodálat",
+        "csodálkozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чудо",
+        "{～的} чудесный, чудодейственный",
+        "{～的に} чудесным образом, чуждом"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "čudež"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "milagro",
+        "maravilla"
+      ]
+    }
+  ]
+}

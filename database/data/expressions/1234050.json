@@ -1,0 +1,112 @@
+{
+  "id": "1234050",
+  "readings": [
+    {
+      "kanaExpression": "せる",
+      "rank": 119
+    },
+    {
+      "kanjiExpression": "競る",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "せ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "糶る",
+      "furiganaExpression": [
+        {
+          "text": "糶",
+          "annotation": "せ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to compete",
+        "to bid",
+        "to sell at auction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wedijveren",
+        "rivaliseren",
+        "strijden",
+        "concurreren",
+        "meedingen",
+        "mededingen",
+        "dingen naar",
+        "een bod doen",
+        "opbieden",
+        "veilen",
+        "verkopen",
+        "kopen bij opbod",
+        "venten",
+        "leuren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "enchérir",
+        "vendre aux enchères"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wetteifern",
+        "konkurrieren",
+        "rivalisieren",
+        "sich mitbewerben",
+        "mitsteigern",
+        "steigern",
+        "versteigern",
+        "ersteigern",
+        "hausieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "konkurál",
+        "árajánlatot tesz",
+        "ígér",
+        "meghív",
+        "elárverez"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(を)",
+        "1) состязаться; соперничать из-за (чего-л.)",
+        "2) предлагать цену (на аукционе, торгах)",
+        "3) продавать с торгов",
+        "4) ((тк.) 糶る) торговать вразнос"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "competir",
+        "rematar",
+        "subastar"
+      ]
+    }
+  ]
+}

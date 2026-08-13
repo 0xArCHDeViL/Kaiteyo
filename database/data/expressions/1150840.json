@@ -1,0 +1,82 @@
+{
+  "id": "1150840",
+  "readings": [
+    {
+      "kanaExpression": "あいしょう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "愛称",
+      "furiganaExpression": [
+        {
+          "text": "愛",
+          "annotation": "あい"
+        },
+        {
+          "text": "称",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 13662
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pet name",
+        "nickname",
+        "affectionate name",
+        "term of endearment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "koosnaam",
+        "vleinaam",
+        "troetelnaam",
+        "liefkozende naam",
+        "hypocoristicon",
+        "roepnaam",
+        "volksnaam"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "surnom affectif"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kosename"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "becenév"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ласкательное (уменьшительное) имя"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nombre cariñoso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "smeknamn"
+      ]
+    }
+  ]
+}

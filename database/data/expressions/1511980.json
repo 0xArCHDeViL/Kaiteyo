@@ -1,0 +1,81 @@
+{
+  "id": "1511980",
+  "readings": [
+    {
+      "kanaExpression": "へんさん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "編纂",
+      "furiganaExpression": [
+        {
+          "text": "編",
+          "annotation": "へん"
+        },
+        {
+          "text": "纂",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "編さん",
+      "furiganaExpression": [
+        {
+          "text": "編",
+          "annotation": "へん"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "compilation (esp. dictionary, history, law code)",
+        "editing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "compileren",
+        "redigeren",
+        "compilatie",
+        "redactie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "herausgeben",
+        "kompilieren",
+        "redigieren",
+        "zusammentragen",
+        "Herausgabe",
+        "Kompilation",
+        "Redaktion",
+        "Schriftleitung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kompiláció",
+        "összeállított gyűjtemény",
+        "összeállított könyv"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(лит.) составление; издание",
+        "{～する} составлять; издавать"
+      ]
+    }
+  ]
+}

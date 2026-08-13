@@ -1,0 +1,97 @@
+{
+  "id": "1448390",
+  "readings": [
+    {
+      "kanaExpression": "ぬすびと",
+      "rank": 34000
+    },
+    {
+      "kanaExpression": "ぬすっと"
+    },
+    {
+      "kanaExpression": "ぬすと"
+    },
+    {
+      "kanaExpression": "とうじん",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "盗人",
+      "furiganaExpression": [
+        {
+          "text": "盗",
+          "annotation": "ぬす"
+        },
+        {
+          "text": "人",
+          "annotation": "びと"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "盗っ人",
+      "furiganaExpression": [
+        {
+          "text": "盗",
+          "annotation": "ぬす"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "人",
+          "annotation": "と"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thief",
+        "robber"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dief",
+        "steler",
+        "rover",
+        "ontvreemder",
+        "{min.} vent",
+        "gozer",
+        "gabber"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dieb",
+        "Räuber",
+        "Einbrecher"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tolvaj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вор",
+        "(прост.) вор"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ladrón"
+      ]
+    }
+  ]
+}

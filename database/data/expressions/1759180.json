@@ -1,0 +1,57 @@
+{
+  "id": "1759180",
+  "readings": [
+    {
+      "kanaExpression": "だいいちじさんぎょう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "第一次産業",
+      "furiganaExpression": [
+        {
+          "text": "第",
+          "annotation": "だい"
+        },
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "primary industry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{econ.} primaire industrie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Primärindustrie",
+        "Grundstoffindustrie",
+        "Grundindustrie"
+      ]
+    }
+  ]
+}

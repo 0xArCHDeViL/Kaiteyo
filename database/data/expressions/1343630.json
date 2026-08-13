@@ -1,0 +1,67 @@
+{
+  "id": "1343630",
+  "readings": [
+    {
+      "kanaExpression": "しょせん",
+      "rank": 18000
+    },
+    {
+      "kanaExpression": "ちょせん"
+    },
+    {
+      "kanjiExpression": "緒戦",
+      "furiganaExpression": [
+        {
+          "text": "緒",
+          "annotation": "しょ"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beginning of hostilities",
+        "beginning of competition",
+        "first match (in a series)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "begin",
+        "beginstadium van een oorlog",
+        "{sportt.} beginstadium van een wedstrijd",
+        "match",
+        "toernooi",
+        "{i.h.b.} voorronde"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "début des hostilités"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegsbeginn",
+        "Anfang eines Wettbewerbs",
+        "Anfang einer Begegnung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) начало (первый период) войны"
+      ]
+    }
+  ]
+}

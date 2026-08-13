@@ -1,0 +1,67 @@
+{
+  "id": "1371460",
+  "readings": [
+    {
+      "kanaExpression": "すいげん",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "水源",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "源",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "source of river",
+        "fountainhead"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waterbron",
+        "bron",
+        "bronnen",
+        "{i.h.b.} rivierbron"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flussquelle",
+        "Quelle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "исток"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vodni vir",
+        "izvir reke"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "manantial"
+      ]
+    }
+  ]
+}

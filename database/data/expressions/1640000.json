@@ -1,0 +1,80 @@
+{
+  "id": "1640000",
+  "readings": [
+    {
+      "kanaExpression": "こころくばり",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "心配り",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "こころ"
+        },
+        {
+          "text": "配",
+          "annotation": "くば"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "心くばり",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "こころ"
+        },
+        {
+          "text": "くばり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exerting care",
+        "attention",
+        "consideration",
+        "thoughtfulness"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufmerksamkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "figyelem",
+        "gond",
+        "gondozás",
+        "karbantartás",
+        "kezelés",
+        "udvariasság",
+        "vigyázat",
+        "ellenszolgáltatás",
+        "előzékenység",
+        "szempont",
+        "komolyság"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "atenciones",
+        "deferencias",
+        "cumplidos",
+        "solicitud para con los demás"
+      ]
+    }
+  ]
+}

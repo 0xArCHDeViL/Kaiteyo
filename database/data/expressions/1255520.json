@@ -1,0 +1,57 @@
+{
+  "id": "1255520",
+  "readings": [
+    {
+      "kanaExpression": "げつがく",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "月額",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "げつ"
+        },
+        {
+          "text": "額",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 9104
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "monthly amount (sum)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maandelijks bedrag",
+        "maandelijkse som"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "monatlicher Betrag",
+        "Monatsbetrag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ежемесячная сумма; ежемесячный взнос"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cantidad mensual"
+      ]
+    }
+  ]
+}

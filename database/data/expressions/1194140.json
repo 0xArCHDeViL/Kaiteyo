@@ -1,0 +1,56 @@
+{
+  "id": "1194140",
+  "readings": [
+    {
+      "kanaExpression": "かちゅう",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ほなか"
+    },
+    {
+      "kanjiExpression": "火中",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in the fire",
+        "in the flames",
+        "burning (something)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feuer",
+        "im Feuer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "огонь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "en el fuego",
+        "en las llamas"
+      ]
+    }
+  ]
+}

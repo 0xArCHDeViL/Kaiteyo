@@ -1,0 +1,51 @@
+{
+  "id": "1772440",
+  "readings": [
+    {
+      "kanaExpression": "ふせん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "婦選",
+      "furiganaExpression": [
+        {
+          "text": "婦",
+          "annotation": "ふ"
+        },
+        {
+          "text": "選",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "women\u0027s suffrage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frauenwahlrecht",
+        "Frauenstimmrecht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 婦人選挙権) избирательное право для женщин"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voto de las mujeres",
+        "sufragio de las mujeres"
+      ]
+    }
+  ]
+}

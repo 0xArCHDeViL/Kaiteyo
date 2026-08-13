@@ -1,0 +1,67 @@
+{
+  "id": "1691130",
+  "readings": [
+    {
+      "kanaExpression": "あゆみより",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "歩み寄り",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "あゆ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "compromise",
+        "concession"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "compromis",
+        "vergelijk",
+        "schikking",
+        "tussenoplossing",
+        "wederzijdse toegevingen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kompromiss",
+        "Annäherung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiegyezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "взаимные уступки, компромисс"
+      ]
+    }
+  ]
+}

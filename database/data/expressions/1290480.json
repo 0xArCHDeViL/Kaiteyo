@@ -1,0 +1,92 @@
+{
+  "id": "1290480",
+  "readings": [
+    {
+      "kanaExpression": "こんどう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "混同",
+      "furiganaExpression": [
+        {
+          "text": "混",
+          "annotation": "こん"
+        },
+        {
+          "text": "同",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 9791
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "confusion",
+        "mixing",
+        "merger"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verwarren",
+        "door elkaar halen",
+        "verkeerdelijk aanzien voor",
+        "verwarring",
+        "{ook jur.} confusie",
+        "vermenging",
+        "schuldvermenging"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "confusion",
+        "mélange"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vermengen",
+        "verwechseln",
+        "eins ins andere mengen",
+        "Vermengung",
+        "Verwechslung",
+        "Verwirrung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bomlás",
+        "megdöbbenés",
+        "fúzió"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "смешивание; смешение",
+        "{～する} смешивать[ся]; путать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zmeda",
+        "zmedenost",
+        "zmešnjava"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "confusión"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1547200",
+  "readings": [
+    {
+      "kanaExpression": "ようじょう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "養生",
+      "furiganaExpression": [
+        {
+          "text": "養",
+          "annotation": "よう"
+        },
+        {
+          "text": "生",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "taking care of one\u0027s health",
+        "recuperation",
+        "covering (with a protective material)",
+        "coating",
+        "curing (concrete)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "herstel",
+        "recuperatie",
+        "zorg voor de eigen gezondheid",
+        "{bouwk.} uitharding (van beton)",
+        "{bouwk.} afdekking",
+        "bedekking",
+        "{plantk.} boomverzorging",
+        "boomonderhoud"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auf seine Gesundheit achten",
+        "sich schonen",
+        "Rekonvaleszenz",
+        "Achten auf die Gesundheit",
+        "Heilmittel",
+        "Nachbehandlung (von Beton)",
+        "Abdecken (der Umgebung des Arbeitsbereichs auf einer Baustelle)",
+        "Schutz (am Arbeitsplatz)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felépülés",
+        "visszaszerzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "забота о своём здоровье",
+        "{～する} беречь своё здоровье; поправляться, крепнуть (после болезни)"
+      ]
+    }
+  ]
+}

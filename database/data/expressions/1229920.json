@@ -1,0 +1,52 @@
+{
+  "id": "1229920",
+  "readings": [
+    {
+      "kanaExpression": "きゅうきん",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "球菌",
+      "furiganaExpression": [
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "菌",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "coccus"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{biol.} kogelbacterie",
+        "coccus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kokke",
+        "Kokkus",
+        "Kugelbakterie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[микро]кокки, шаровидные бактерии"
+      ]
+    }
+  ]
+}

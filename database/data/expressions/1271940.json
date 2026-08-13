@@ -1,0 +1,103 @@
+{
+  "id": "1271940",
+  "readings": [
+    {
+      "kanaExpression": "こうご",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "交互",
+      "furiganaExpression": [
+        {
+          "text": "交",
+          "annotation": "こう"
+        },
+        {
+          "text": "互",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 11331
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "alternate",
+        "alternating"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "alternerend",
+        "afwisselend",
+        "wisselend",
+        "beurtelings",
+        "onderling",
+        "wederkerig",
+        "wederzijds",
+        "mutueel",
+        "{veroud.} reciproque",
+        "alternatie",
+        "alternantie",
+        "beurtwisseling",
+        "wisseling",
+        "afwisseling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mutuel",
+        "réciproque",
+        "tour à tour"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abwechselnd",
+        "alternierend",
+        "gegenseitig",
+        "wechselseitig",
+        "reziprok",
+        "gegenseitige Abwechslung",
+        "Arbeit in Schichten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kölcsönös",
+        "minden második",
+        "váltakozó",
+        "váltótárs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1): {～の} обоюдный, взаимный",
+        "{～に} обоюдно, взаимно",
+        "2): {～の} [по]переменный, чередующийся",
+        "{～に} попеременно, чередуясь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izmeničnost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mutuo",
+        "recíproco",
+        "alterno"
+      ]
+    }
+  ]
+}

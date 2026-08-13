@@ -1,0 +1,101 @@
+{
+  "id": "1002110",
+  "readings": [
+    {
+      "kanaExpression": "おてつだいさん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お手伝いさん",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "手伝",
+          "annotation": "てつだ"
+        },
+        {
+          "text": "いさん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "御手伝いさん",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "手伝",
+          "annotation": "てつだ"
+        },
+        {
+          "text": "いさん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "maid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dienstmeisje",
+        "meid",
+        "werkster",
+        "hulpje",
+        "helpster",
+        "bediende"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bonne",
+        "femme de ménage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hausmädchen",
+        "Haushaltshilfe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cselédlány",
+        "hajadon",
+        "szolgáló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "домашняя работница, прислуга"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sirvienta",
+        "criada"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "piga"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "1588780",
+  "readings": [
+    {
+      "kanaExpression": "えんぐみ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "縁組",
+      "furiganaExpression": [
+        {
+          "text": "縁",
+          "annotation": "えん"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐみ"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "縁組み",
+      "furiganaExpression": [
+        {
+          "text": "縁",
+          "annotation": "えん"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "forming a familial relationship (through adoption, marriage, etc.)",
+        "adoption"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "introuwen in",
+        "geadopteerd worden",
+        "een verbintenis tot stand brengen",
+        "adopteren",
+        "verbintenis",
+        "{i.h.b.} verloving",
+        "{i.h.b.} huwelijk",
+        "echtverbintenis",
+        "alliantie",
+        "{veroud.} vermaagschapping",
+        "adoptie",
+        "aanneming",
+        "{veroud.} affiliatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eheschließung",
+        "Heirat",
+        "Verheiratung",
+        "Adoption",
+        "heiraten",
+        "die Ehe schließen",
+        "adoptieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jegyesség",
+        "kézfogó",
+        "mátkaság",
+        "egyesülés",
+        "házasság",
+        "szövetség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "брак, бракосочетание; обручение; установление родственных отношений [между семьями] путём брака; усыновление",
+        "{～する} заключать брак; родниться; усыновлять; быть усыновлённым"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "casamiento",
+        "adopción",
+        "alianza",
+        "casarse",
+        "adoptar",
+        "aliarse"
+      ]
+    }
+  ]
+}

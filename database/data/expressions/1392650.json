@@ -1,0 +1,65 @@
+{
+  "id": "1392650",
+  "readings": [
+    {
+      "kanaExpression": "ぜんか",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "前科",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "previous conviction",
+        "criminal record",
+        "previous offense",
+        "previous offence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "strafblad",
+        "strafregister",
+        "eerdere veroordeling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorstrafe",
+        "vorheriges Delikt",
+        "vorherige Straftat",
+        "vorherige Verurteilung",
+        "(übertr.)früheres Vorkommnis",
+        "früherer Vorfall"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[прежняя] судимость"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "antecedentes penales"
+      ]
+    }
+  ]
+}

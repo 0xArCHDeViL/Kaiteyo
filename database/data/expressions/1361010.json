@@ -1,0 +1,78 @@
+{
+  "id": "1361010",
+  "readings": [
+    {
+      "kanaExpression": "しんりがく",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "心理学",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "psychology"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{psych.} wetenschap der psychologie",
+        "{veroud.} zielkunde"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "psychologie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Psychologie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pszichológia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "психология (наука)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "psicología"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "psykologi"
+      ]
+    }
+  ]
+}

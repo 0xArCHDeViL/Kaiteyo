@@ -1,0 +1,46 @@
+{
+  "id": "1711240",
+  "readings": [
+    {
+      "kanaExpression": "じょしつ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "除湿",
+      "furiganaExpression": [
+        {
+          "text": "除",
+          "annotation": "じょ"
+        },
+        {
+          "text": "湿",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dehumidification"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feuchtigkeit entziehen",
+        "trocknen",
+        "Entfeuchtung",
+        "Trocknen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dehumidificación"
+      ]
+    }
+  ]
+}

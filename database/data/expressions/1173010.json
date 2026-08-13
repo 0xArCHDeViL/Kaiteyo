@@ -1,0 +1,96 @@
+{
+  "id": "1173010",
+  "readings": [
+    {
+      "kanaExpression": "うんぱん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "運搬",
+      "furiganaExpression": [
+        {
+          "text": "運",
+          "annotation": "うん"
+        },
+        {
+          "text": "搬",
+          "annotation": "ぱん"
+        }
+      ],
+      "rank": 10821
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transport",
+        "transportation",
+        "conveyance",
+        "carriage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vervoeren",
+        "transporteren",
+        "overbrengen",
+        "aanvoeren",
+        "transport",
+        "vervoer",
+        "overbrenging"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "transporter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "transportieren",
+        "Transport",
+        "Beförderung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elragadtatás",
+        "fuvarozás",
+        "futómű",
+        "gondola",
+        "kocsi",
+        "szán",
+        "tarifa",
+        "vagon",
+        "szállítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перевозка, провоз, транспортировка",
+        "{～する} перевозить, транспортировать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nošenje",
+        "prevoz",
+        "transport",
+        "prevažanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "transporte de carga"
+      ]
+    }
+  ]
+}

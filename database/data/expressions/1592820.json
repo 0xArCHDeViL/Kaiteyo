@@ -1,0 +1,88 @@
+{
+  "id": "1592820",
+  "readings": [
+    {
+      "kanaExpression": "げんか",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "原価",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "価",
+          "annotation": "か"
+        }
+      ],
+      "rank": 6815
+    },
+    {
+      "kanjiExpression": "元価",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "げん"
+        },
+        {
+          "text": "価",
+          "annotation": "か"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cost price"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kostprijs",
+        "fabrieksprijs",
+        "kostende prijs",
+        "kosten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kosten",
+        "Selbstkostenpreis",
+        "Einkaufspreis",
+        "Herstellungspreis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "себестоимость",
+        "{～で} по себестоимости"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precio de coste"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "pris",
+        "självkostnadspris"
+      ]
+    }
+  ]
+}

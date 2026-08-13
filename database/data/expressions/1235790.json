@@ -1,0 +1,67 @@
+{
+  "id": "1235790",
+  "readings": [
+    {
+      "kanaExpression": "きょうやく",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "協約",
+      "furiganaExpression": [
+        {
+          "text": "協",
+          "annotation": "きょう"
+        },
+        {
+          "text": "約",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pact",
+        "convention",
+        "agreement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overeenkomst",
+        "akkoord",
+        "afspraak",
+        "conventie",
+        "verdrag",
+        "verbond"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Abkommen schließen",
+        "Abkommen",
+        "Abmachung",
+        "Vertrag",
+        "Entente",
+        "Pakt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megegyezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соглашение, договор; пакт"
+      ]
+    }
+  ]
+}

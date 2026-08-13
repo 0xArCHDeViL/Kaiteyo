@@ -1,0 +1,81 @@
+{
+  "id": "1370700",
+  "readings": [
+    {
+      "kanaExpression": "ふきとぶ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "吹き飛ぶ",
+      "furiganaExpression": [
+        {
+          "text": "吹",
+          "annotation": "ふ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "ぶ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "吹飛ぶ",
+      "furiganaExpression": [
+        {
+          "text": "吹",
+          "annotation": "ふき"
+        },
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "ぶ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be blown off",
+        "to blow off",
+        "to blow away",
+        "to vanish",
+        "to disappear"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "être éjecté",
+        "être projeté"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weggeweht werden",
+        "getrieben werden",
+        "verschwinden",
+        "wie weggeblasen sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elfúj",
+        "elrepül",
+        "kifúvat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "1559300",
+  "readings": [
+    {
+      "kanaExpression": "つれさる",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "連れ去る",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "つ"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "去",
+          "annotation": "さ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "連去る",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "つれ"
+        },
+        {
+          "text": "去",
+          "annotation": "さ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to take (someone) away",
+        "to carry off",
+        "to abduct",
+        "to kidnap"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jmdn. fortführen",
+        "jmdn. wegführen",
+        "sich mit jmdm. davonmachen",
+        "jmdn. entführen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmozdít",
+        "eltesz",
+        "magával visz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уводить с собой"
+      ]
+    }
+  ]
+}

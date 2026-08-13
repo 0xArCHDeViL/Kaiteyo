@@ -1,0 +1,53 @@
+{
+  "id": "1465040",
+  "readings": [
+    {
+      "kanaExpression": "にゅうぎょう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "乳業",
+      "furiganaExpression": [
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dairy industry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zuivelbedrijf",
+        "melkveebedrijf",
+        "melkveehouderij",
+        "zuivelindustrie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Molkerei",
+        "milchverarbeitende Industrie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "молочное хозяйство"
+      ]
+    }
+  ]
+}

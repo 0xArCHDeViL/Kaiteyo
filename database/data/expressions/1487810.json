@@ -1,0 +1,71 @@
+{
+  "id": "1487810",
+  "readings": [
+    {
+      "kanaExpression": "ひっきしけん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "筆記試験",
+      "furiganaExpression": [
+        {
+          "text": "筆",
+          "annotation": "ひっ"
+        },
+        {
+          "text": "記",
+          "annotation": "き"
+        },
+        {
+          "text": "試",
+          "annotation": "し"
+        },
+        {
+          "text": "験",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "written examination"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "écrit (examen)",
+        "épreuve écrite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schriftliche Prüfung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "írásbeli vizsga",
+        "zárthelyi dolgozat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "письменный экзамен"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "examen escrito"
+      ]
+    }
+  ]
+}

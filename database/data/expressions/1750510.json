@@ -1,0 +1,63 @@
+{
+  "id": "1750510",
+  "readings": [
+    {
+      "kanaExpression": "じょうほうぶ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "情報部",
+      "furiganaExpression": [
+        {
+          "text": "情",
+          "annotation": "じょう"
+        },
+        {
+          "text": "報",
+          "annotation": "ほう"
+        },
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "information bureau",
+        "intelligence department"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Informationsbüro",
+        "Informationsabteilung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tájékoztató iroda",
+        "tudakozó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "информационное бюро, служба информации"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oficina de información",
+        "departamento de inteligencia"
+      ]
+    }
+  ]
+}

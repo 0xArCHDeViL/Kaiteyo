@@ -1,0 +1,81 @@
+{
+  "id": "1485610",
+  "readings": [
+    {
+      "kanaExpression": "ひしょう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "飛翔",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "ひ"
+        },
+        {
+          "text": "翔",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "飛しょう",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "ひ"
+        },
+        {
+          "text": "しょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "flight",
+        "flying",
+        "soaring"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoog vliegen",
+        "hoge vlucht",
+        "{i.h.b.} het thermiekvliegen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flug",
+        "Fliegen",
+        "fliegen",
+        "sich in die Luft schwingen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megfutamodás",
+        "menekülés",
+        "repülés",
+        "menekülő",
+        "repülő",
+        "röpke",
+        "szökés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) полёт",
+        "{～する} летать, парить"
+      ]
+    }
+  ]
+}

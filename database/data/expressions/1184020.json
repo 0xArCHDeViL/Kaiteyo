@@ -1,0 +1,58 @@
+{
+  "id": "1184020",
+  "readings": [
+    {
+      "kanaExpression": "おんばん",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "音盤",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "盤",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "phonograph record",
+        "gramophone record"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schallplattenaufnahme",
+        "Schallplatte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "korong",
+        "hanglemez"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) граммофонная пластинка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "disco (música)"
+      ]
+    }
+  ]
+}

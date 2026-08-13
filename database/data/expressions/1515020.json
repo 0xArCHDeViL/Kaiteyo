@@ -1,0 +1,79 @@
+{
+  "id": "1515020",
+  "readings": [
+    {
+      "kanaExpression": "ぼいん",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "ぼおん"
+    },
+    {
+      "kanjiExpression": "母音",
+      "furiganaExpression": [
+        {
+          "text": "母",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "音",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vowel"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "klinker",
+        "vocaal",
+        "{maatwoord voor klinkers}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "voyelle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vokal",
+        "Selbstlaut"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "magánhangzó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гласный [звук]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vocal"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "självljud"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1719780",
+  "readings": [
+    {
+      "kanaExpression": "こうどく",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "鉱毒",
+      "furiganaExpression": [
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        },
+        {
+          "text": "毒",
+          "annotation": "どく"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mine pollution"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mijnverontreiniging",
+        "minerale verontreiniging",
+        "mijngerelateerde verontreinigende stof",
+        "{Belg.N.} mijnpolluent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abwasserverschmutzung (durch Bergwerke)",
+        "Vergiftung durch Bergbau",
+        "Bergbaugifte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рудное отравление"
+      ]
+    }
+  ]
+}

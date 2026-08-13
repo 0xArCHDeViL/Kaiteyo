@@ -1,0 +1,64 @@
+{
+  "id": "1366650",
+  "readings": [
+    {
+      "kanaExpression": "じんか",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "人家",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "じん"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "house",
+        "dwelling",
+        "human habitation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bewoond huis",
+        "woonhuis",
+        "woongebouw",
+        "bewoning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wohnhaus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dinasztia",
+        "előadás",
+        "épület",
+        "tőzsde",
+        "uralkodóház"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жилище, дом, жильё"
+      ]
+    }
+  ]
+}

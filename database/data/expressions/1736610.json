@@ -1,0 +1,54 @@
+{
+  "id": "1736610",
+  "readings": [
+    {
+      "kanaExpression": "じゅんおくり",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "順送り",
+      "furiganaExpression": [
+        {
+          "text": "順",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "送",
+          "annotation": "おく"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "順送",
+      "furiganaExpression": [
+        {
+          "text": "順",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "送",
+          "annotation": "おくり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "passing along (in order)",
+        "sending on"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Weiterreichen"
+      ]
+    }
+  ]
+}

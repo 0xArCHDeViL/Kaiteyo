@@ -1,0 +1,50 @@
+{
+  "id": "1320210",
+  "readings": [
+    {
+      "kanaExpression": "しつめい",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "失明",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しつ"
+        },
+        {
+          "text": "明",
+          "annotation": "めい"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "loss of eyesight",
+        "loss of sight",
+        "going blind",
+        "blindness"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erblinden",
+        "das Augenlicht verlieren",
+        "Erblindung",
+        "Verlust des Augenlichts"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "потеря зрения",
+        "{～する} потерять зрение, ослепнуть"
+      ]
+    }
+  ]
+}

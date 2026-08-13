@@ -1,0 +1,70 @@
+{
+  "id": "1470630",
+  "readings": [
+    {
+      "kanaExpression": "のうがく",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "農学",
+      "furiganaExpression": [
+        {
+          "text": "農",
+          "annotation": "のう"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(science of) agriculture"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "landbouwkunde",
+        "landbouwwetenschap",
+        "agronomie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Agrarwissenschaft",
+        "Agronomie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mezőgazdaság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "агрономия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "agricultura"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "agronomie"
+      ]
+    }
+  ]
+}

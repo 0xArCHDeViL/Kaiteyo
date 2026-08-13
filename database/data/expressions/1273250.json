@@ -1,0 +1,62 @@
+{
+  "id": "1273250",
+  "readings": [
+    {
+      "kanaExpression": "こうえきほうじん",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "公益法人",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "益",
+          "annotation": "えき"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public-service corporation",
+        "charitable corporation",
+        "juridical (legal) person working for the public good"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Idealverein",
+        "nichtwirtschaftlicher Verein",
+        "gemeinnützige juristische Person"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közkereseti társaság (KKT)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entidad sin ánimo de lucro",
+        "asociación sin ánimo de lucro"
+      ]
+    }
+  ]
+}

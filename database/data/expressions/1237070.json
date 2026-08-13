@@ -1,0 +1,71 @@
+{
+  "id": "1237070",
+  "readings": [
+    {
+      "kanaExpression": "きょうく",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "教区",
+      "furiganaExpression": [
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "区",
+          "annotation": "く"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "parish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{rel.} bidom",
+        "diocees",
+        "bisschoppelijk gebied",
+        "kerkelijk gebied",
+        "{rel.} parochie",
+        "kerkdorp",
+        "kerkgemeente",
+        "kerkelijke gemeente",
+        "{w.g.} kerspel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kirchengemeinde",
+        "Kirchensprengel",
+        "Diözese"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "község"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[церковный] приход"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kyrksocken"
+      ]
+    }
+  ]
+}

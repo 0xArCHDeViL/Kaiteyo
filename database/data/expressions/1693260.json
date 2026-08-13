@@ -1,0 +1,48 @@
+{
+  "id": "1693260",
+  "readings": [
+    {
+      "kanaExpression": "ごはん",
+      "rank": 5360
+    },
+    {
+      "kanjiExpression": "誤判",
+      "furiganaExpression": [
+        {
+          "text": "誤",
+          "annotation": "ご"
+        },
+        {
+          "text": "判",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "misjudgement",
+        "misjudgment",
+        "erroneous judgement",
+        "miscarriage of justice"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fehlurteil",
+        "falsche Entscheidung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) неправильный приговор, неправильное решение суда",
+        "2) неправильное (неверное) суждение"
+      ]
+    }
+  ]
+}

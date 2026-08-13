@@ -1,0 +1,57 @@
+{
+  "id": "1629510",
+  "readings": [
+    {
+      "kanaExpression": "ぶつりゅう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "物流",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 8915
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "physical distribution",
+        "distribution of goods",
+        "logistics"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "logistiek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Distribution",
+        "Warenverteilung",
+        "Spedition"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "disztribúció",
+        "eloszlás",
+        "eloszlatás",
+        "megoszlás",
+        "szétosztás"
+      ]
+    }
+  ]
+}

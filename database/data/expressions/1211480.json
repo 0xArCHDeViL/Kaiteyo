@@ -1,0 +1,88 @@
+{
+  "id": "1211480",
+  "readings": [
+    {
+      "kanaExpression": "かんすい",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "かんつい"
+    },
+    {
+      "kanjiExpression": "完遂",
+      "furiganaExpression": [
+        {
+          "text": "完",
+          "annotation": "かん"
+        },
+        {
+          "text": "遂",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "successful execution",
+        "accomplishment",
+        "completion",
+        "fulfillment",
+        "carrying through"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "accomplissement",
+        "achèvement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vollenden",
+        "vollbringen",
+        "durchführen",
+        "ausführen",
+        "erfüllen",
+        "Vollendung",
+        "Vollbringung",
+        "vollständige Erfüllung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jó tulajdonság",
+        "megoldás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) завершение, доведение до конца; достижение (цели)",
+        "{～する} завершать, доводить до конца, успешно заканчивать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compleción",
+        "realización completa",
+        "cumplimiento pleno",
+        "perfeccionamiento",
+        "perfección"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fullbordande"
+      ]
+    }
+  ]
+}

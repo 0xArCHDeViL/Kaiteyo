@@ -1,0 +1,47 @@
+{
+  "id": "1766420",
+  "readings": [
+    {
+      "kanaExpression": "さきおくり",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "先送り",
+      "furiganaExpression": [
+        {
+          "text": "先",
+          "annotation": "さき"
+        },
+        {
+          "text": "送",
+          "annotation": "おく"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 11874
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "putting off (doing)",
+        "postponement",
+        "delaying"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verlegen",
+        "verschieben",
+        "aufschieben",
+        "Verzögerung",
+        "Vertagung",
+        "Verlegung"
+      ]
+    }
+  ]
+}

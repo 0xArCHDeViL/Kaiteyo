@@ -1,0 +1,72 @@
+{
+  "id": "1278980",
+  "readings": [
+    {
+      "kanaExpression": "こうべん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "抗弁",
+      "furiganaExpression": [
+        {
+          "text": "抗",
+          "annotation": "こう"
+        },
+        {
+          "text": "弁",
+          "annotation": "べん"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "抗辯",
+      "furiganaExpression": [
+        {
+          "text": "抗",
+          "annotation": "こう"
+        },
+        {
+          "text": "辯",
+          "annotation": "べん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "protest",
+        "refutation",
+        "pleading"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einspruch erheben",
+        "protestieren",
+        "widersprechen",
+        "Protestieren",
+        "Widerspruch",
+        "Einrede",
+        "Einwendung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tiltakozás",
+        "cáfolat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "протест, возражение",
+        "{～する} заявлять протест, протестовать, возражать; опротестовывать"
+      ]
+    }
+  ]
+}

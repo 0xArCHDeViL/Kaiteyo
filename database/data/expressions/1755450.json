@@ -1,0 +1,87 @@
+{
+  "id": "1755450",
+  "readings": [
+    {
+      "kanaExpression": "やまもり",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "山盛り",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "盛",
+          "annotation": "も"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "山盛",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "盛",
+          "annotation": "もり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heap",
+        "pile",
+        "stack",
+        "full measure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stapel",
+        "berg",
+        "hoop",
+        "massa",
+        "boel",
+        "volle maat",
+        "{～の} volle (theelepel",
+        "kom enz.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gehäuft",
+        "übervoll",
+        "aufgetürmt",
+        "aufgehäufte Portion",
+        "große Portion"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "груда, куча; полная мера",
+        "{～の} полный до краёв",
+        "{～にする}, 山盛りをよそう наполнить доверху"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hög"
+      ]
+    }
+  ]
+}

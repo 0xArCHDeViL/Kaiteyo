@@ -1,0 +1,39 @@
+{
+  "id": "1710950",
+  "readings": [
+    {
+      "kanaExpression": "びょうたい",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "病態",
+      "furiganaExpression": [
+        {
+          "text": "病",
+          "annotation": "びょう"
+        },
+        {
+          "text": "態",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "patient\u0027s condition",
+        "pathology"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krankheitszustand",
+        "krankhafter Zustand"
+      ]
+    }
+  ]
+}

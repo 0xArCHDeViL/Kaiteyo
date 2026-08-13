@@ -1,0 +1,43 @@
+{
+  "id": "1832310",
+  "readings": [
+    {
+      "kanaExpression": "ねっぱ",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "熱波",
+      "furiganaExpression": [
+        {
+          "text": "熱",
+          "annotation": "ねっ"
+        },
+        {
+          "text": "波",
+          "annotation": "ぱ"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heat wave"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hitzewelle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горячая волна"
+      ]
+    }
+  ]
+}

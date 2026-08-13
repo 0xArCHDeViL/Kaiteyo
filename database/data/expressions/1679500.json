@@ -1,0 +1,55 @@
+{
+  "id": "1679500",
+  "readings": [
+    {
+      "kanaExpression": "はっきゅう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "発給",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はっ"
+        },
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "issuance (e.g. of a passport)",
+        "issuing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afgeven",
+        "uitgeven",
+        "uitreiken",
+        "afgifte",
+        "uitgifte",
+        "uitreiking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausstellen (eines Dokumentes)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} пускать в обращение; выдавать (напр. паспорт)"
+      ]
+    }
+  ]
+}

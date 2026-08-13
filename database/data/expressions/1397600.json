@@ -1,0 +1,69 @@
+{
+  "id": "1397600",
+  "readings": [
+    {
+      "kanaExpression": "そかく",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "組閣",
+      "furiganaExpression": [
+        {
+          "text": "組",
+          "annotation": "そ"
+        },
+        {
+          "text": "閣",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "formation of a cabinet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kabinetsformatie",
+        "kabinetsvorming",
+        "een kabinet vormen",
+        "samenstellen",
+        "formeren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "formation d\u0027un cabinet gouvernemental"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kabinettsbildung",
+        "Regierungsbildung",
+        "ein Kabinett bilden",
+        "eine Regierung bilden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "формирование кабинета [министров]",
+        "{～する} [с]формировать кабинет"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "formar un cabinete"
+      ]
+    }
+  ]
+}

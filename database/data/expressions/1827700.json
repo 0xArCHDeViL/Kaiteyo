@@ -1,0 +1,45 @@
+{
+  "id": "1827700",
+  "readings": [
+    {
+      "kanaExpression": "ふくはい",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "復配",
+      "furiganaExpression": [
+        {
+          "text": "復",
+          "annotation": "ふく"
+        },
+        {
+          "text": "配",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "resumption of dividends"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die Dividendenzahlungen wieder aufnehmen",
+        "Wiederaufnahme von Dividendenzahlungen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возобновление выдачи дивидендов",
+        "{～する} возобновлять выдачу дивидендов"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "1391500",
+  "readings": [
+    {
+      "kanaExpression": "いる",
+      "rank": 14
+    },
+    {
+      "kanjiExpression": "炒る",
+      "furiganaExpression": [
+        {
+          "text": "炒",
+          "annotation": "い"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "煎る",
+      "furiganaExpression": [
+        {
+          "text": "煎",
+          "annotation": "い"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "熬る",
+      "furiganaExpression": [
+        {
+          "text": "熬",
+          "annotation": "い"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to roast",
+        "to parch",
+        "to toast",
+        "to boil down"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bakken",
+        "inkoken {in olie}",
+        "roosteren",
+        "grillen",
+        "grilleren",
+        "poffen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "griller",
+        "frire",
+        "poêler",
+        "bruler",
+        "flamber",
+        "rôtir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rösten",
+        "dörren",
+        "brennen",
+        "braten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fonnyaszt",
+        "perzsel",
+        "szomjazik",
+        "sül",
+        "süt",
+        "elbocsát",
+        "elsül",
+        "elsüt",
+        "felgyújt",
+        "fűt",
+        "gyújt",
+        "hevít",
+        "hevül",
+        "kilő",
+        "lelkesít",
+        "lő",
+        "meggyújt",
+        "meggyullad",
+        "robban",
+        "nagyon melege van",
+        "roston süt",
+        "sül a napon",
+        "pörköl",
+        "bepárol",
+        "tömören összefoglal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жарить; сушить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tostar",
+        "freír",
+        "asar a la parrilla",
+        "soasar",
+        "desecar al fuego",
+        "dorar",
+        "pasar por la llama"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "1446340",
+  "readings": [
+    {
+      "kanaExpression": "とうし",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "凍死",
+      "furiganaExpression": [
+        {
+          "text": "凍",
+          "annotation": "とう"
+        },
+        {
+          "text": "死",
+          "annotation": "し"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "death from cold",
+        "freezing to death"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dood door kou",
+        "doodvriezen",
+        "vervriezen",
+        "sterven door kou",
+        "omkomen van de kou"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mort par le froid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erfrierungstod",
+        "Kältetod",
+        "Tod durch Erfrieren",
+        "erfrieren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "смерть от холода",
+        "{～する} замёрзнуть, погибнуть от холода"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "muerte de frío"
+      ]
+    }
+  ]
+}

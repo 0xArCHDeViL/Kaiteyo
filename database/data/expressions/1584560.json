@@ -1,0 +1,49 @@
+{
+  "id": "1584560",
+  "readings": [
+    {
+      "kanaExpression": "ばんぶつ",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "ばんもつ"
+    },
+    {
+      "kanjiExpression": "万物",
+      "furiganaExpression": [
+        {
+          "text": "万",
+          "annotation": "ばん"
+        },
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "all things",
+        "all creation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alle Dinge",
+        "alle Wesen",
+        "alles"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "всё [на свете], всё сущее; вселенная"
+      ]
+    }
+  ]
+}

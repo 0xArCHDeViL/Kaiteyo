@@ -1,0 +1,67 @@
+{
+  "id": "1456470",
+  "readings": [
+    {
+      "kanaExpression": "よみうり",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "読売",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よみ"
+        },
+        {
+          "text": "売",
+          "annotation": "うり"
+        }
+      ],
+      "rank": 6513
+    },
+    {
+      "kanjiExpression": "讀賣",
+      "furiganaExpression": [
+        {
+          "text": "讀",
+          "annotation": "よみ"
+        },
+        {
+          "text": "賣",
+          "annotation": "うり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Yomiuri (newspaper, etc. group)",
+        "kawaraban (type of Edo-period single-page newspaper)",
+        "yomiuri"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Yomiuri"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorlesen und gleichzeitiges Verkaufen einer Zeitung",
+        "seine Zeitung vorlesender Zeitungsverkäufer (in der Edo-Zeit)",
+        "Yomiuri Shinbun",
+        "Yomiuri Shimbun (eine der wichtigsten und auflagenstärksten Zeitungen Japans; 1874 gegründet)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Yomiuri (periódico japonés)"
+      ]
+    }
+  ]
+}

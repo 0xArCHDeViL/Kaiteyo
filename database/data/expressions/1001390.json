@@ -1,0 +1,74 @@
+{
+  "id": "1001390",
+  "readings": [
+    {
+      "kanaExpression": "おでん",
+      "rank": 13128
+    },
+    {
+      "kanjiExpression": "御田",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "田",
+          "annotation": "でん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "お田",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "田",
+          "annotation": "でん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "oden",
+        "dish of various ingredients, e.g. egg, daikon, potato, chikuwa, konnyaku stewed in soy-flavored dashi"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} oden {traditioneel in de winter gegeten stoofpot",
+        "hutsepot van tofoe",
+        "aardappelen",
+        "hardgekookte eieren",
+        "visworst",
+        "konjak en daikon",
+        "bereid in een bouillon van sojasaus",
+        "suiker en zoete sake}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "O・den (Konnyaku, Tōfu, Rettich, Ei u.Ä. in Brühe gekocht)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одэн (смесь из варёных конняку, тофу, бататов и др.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "\"oden\": un tipo de cocido"
+      ]
+    }
+  ]
+}

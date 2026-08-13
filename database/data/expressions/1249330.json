@@ -1,0 +1,87 @@
+{
+  "id": "1249330",
+  "readings": [
+    {
+      "kanaExpression": "けいそう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "係争",
+      "furiganaExpression": [
+        {
+          "text": "係",
+          "annotation": "けい"
+        },
+        {
+          "text": "争",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "繋争",
+      "furiganaExpression": [
+        {
+          "text": "繋",
+          "annotation": "けい"
+        },
+        {
+          "text": "争",
+          "annotation": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dispute",
+        "contention",
+        "conflict",
+        "controversy"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dispute"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Streit",
+        "Streitigkeit",
+        "Streit vor Gericht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "küzdelem",
+        "versengés",
+        "verseny",
+        "vita",
+        "veszekedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спор; судебный спор"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "litigar",
+        "pleitear",
+        "litigio",
+        "pleito",
+        "juicio"
+      ]
+    }
+  ]
+}

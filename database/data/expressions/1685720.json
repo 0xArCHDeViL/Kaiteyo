@@ -1,0 +1,63 @@
+{
+  "id": "1685720",
+  "readings": [
+    {
+      "kanaExpression": "こうぞくきょり",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "航続距離",
+      "furiganaExpression": [
+        {
+          "text": "航",
+          "annotation": "こう"
+        },
+        {
+          "text": "続",
+          "annotation": "ぞく"
+        },
+        {
+          "text": "距",
+          "annotation": "きょ"
+        },
+        {
+          "text": "離",
+          "annotation": "り"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cruising range",
+        "flying range"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "actieradius",
+        "{航空機の} vliegbereik",
+        "vlieglengte",
+        "{船の} vaarbereik"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reichweite",
+        "Aktionsradius (eines Flugzeugs od. Schiffes)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) дальность плавания (полёта)",
+        "2) (см.) こうぞくりょく"
+      ]
+    }
+  ]
+}

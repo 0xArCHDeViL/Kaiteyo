@@ -1,0 +1,132 @@
+{
+  "id": "1546110",
+  "readings": [
+    {
+      "kanaExpression": "ようかい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "溶解",
+      "furiganaExpression": [
+        {
+          "text": "溶",
+          "annotation": "よう"
+        },
+        {
+          "text": "解",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "熔解",
+      "furiganaExpression": [
+        {
+          "text": "熔",
+          "annotation": "よう"
+        },
+        {
+          "text": "解",
+          "annotation": "かい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "鎔解",
+      "furiganaExpression": [
+        {
+          "text": "鎔",
+          "annotation": "よう"
+        },
+        {
+          "text": "解",
+          "annotation": "かい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dissolution",
+        "dissolving",
+        "solution (e.g. chemical)",
+        "melting",
+        "liquefying",
+        "fusion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "smelten",
+        "versmelten",
+        "ineensmelten",
+        "samensmelten",
+        "oplossen",
+        "oplosbaar zijn",
+        "vloeibaar worden",
+        "smelting",
+        "versmelting",
+        "ineensmelting",
+        "samensmelting",
+        "het oplossen",
+        "vloeibaarwording",
+        "liquefactie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "solution"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich lösen",
+        "sich auflösen",
+        "schmelzen",
+        "Auflösung",
+        "Schmelzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érzelmes",
+        "olvadó",
+        "feloldás",
+        "megfejtés",
+        "megoldás",
+        "oldás",
+        "olvadás",
+        "oldódás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плавление",
+        "{～する} плавить[ся]",
+        "растворение",
+        "{～する} растворять[ся], распускать[ся]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "derretimiento",
+        "solución"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lösning"
+      ]
+    }
+  ]
+}

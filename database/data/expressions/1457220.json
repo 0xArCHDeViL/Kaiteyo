@@ -1,0 +1,68 @@
+{
+  "id": "1457220",
+  "readings": [
+    {
+      "kanaExpression": "とどけでる",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "届け出る",
+      "furiganaExpression": [
+        {
+          "text": "届",
+          "annotation": "とど"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to report",
+        "to notify"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aangeven",
+        "aangifte doen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "anmelden",
+        "melden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hírt ad",
+        "hírül ad",
+        "jelentést tesz",
+        "riportot ír",
+        "tudósítást ír"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заявлять, докладывать; представлять"
+      ]
+    }
+  ]
+}

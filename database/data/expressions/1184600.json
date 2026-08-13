@@ -1,0 +1,82 @@
+{
+  "id": "1184600",
+  "readings": [
+    {
+      "kanaExpression": "したまわり",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "下回り",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "下廻り",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "廻",
+          "annotation": "まわ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subordinate work",
+        "menial service",
+        "subordinate",
+        "underling",
+        "servant",
+        "maid",
+        "actor with a minor part (in kabuki, etc.)",
+        "underside (of a car)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "untergeordnete Dienste",
+        "Untergebener"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mindenes",
+        "mindenre használható ember",
+        "tótumfaktum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подчинённый",
+        "1) (сущ.) подчинённый, младший",
+        "{～の} низший; мелкий",
+        "2) (театр.) актёр на выходных ролях",
+        "3) (см.) したばたらき"
+      ]
+    }
+  ]
+}

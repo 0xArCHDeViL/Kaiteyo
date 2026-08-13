@@ -1,0 +1,71 @@
+{
+  "id": "1167370",
+  "readings": [
+    {
+      "kanaExpression": "いちるい",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "一塁",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "塁",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "１塁",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いち"
+        },
+        {
+          "text": "塁",
+          "annotation": "るい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first base",
+        "first baseman",
+        "one fort"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "één fort",
+        "één vesting",
+        "één bastion",
+        "{honkb.} eerste honk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erste Base",
+        "erste Basis",
+        "First Base",
+        "eine Festung"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "primera base",
+        "un fuerte"
+      ]
+    }
+  ]
+}

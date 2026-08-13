@@ -1,0 +1,78 @@
+{
+  "id": "1612470",
+  "readings": [
+    {
+      "kanaExpression": "なんなく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "難なく",
+      "furiganaExpression": [
+        {
+          "text": "難",
+          "annotation": "なん"
+        },
+        {
+          "text": "なく"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "難無く",
+      "furiganaExpression": [
+        {
+          "text": "難",
+          "annotation": "なん"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "easily"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "facilement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ohne Schwierigkeit",
+        "leicht",
+        "einfach"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "könnyedén"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "без затруднений, легко"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fácilmente"
+      ]
+    }
+  ]
+}

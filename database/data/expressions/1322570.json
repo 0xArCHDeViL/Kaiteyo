@@ -1,0 +1,60 @@
+{
+  "id": "1322570",
+  "readings": [
+    {
+      "kanaExpression": "にこみ",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "煮込み",
+      "furiganaExpression": [
+        {
+          "text": "煮",
+          "annotation": "に"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stew",
+        "hodgepodge"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eintopfgericht",
+        "Eintopf",
+        "Stew",
+        "Gulasch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "haltartó medence",
+        "párolt hús",
+        "pörkölt",
+        "ragu",
+        "összevisszaság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "никоми (мясо, тушённое с овощами)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1194540",
+  "readings": [
+    {
+      "kanaExpression": "かおう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "花押",
+      "furiganaExpression": [
+        {
+          "text": "花",
+          "annotation": "か"
+        },
+        {
+          "text": "押",
+          "annotation": "おう"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "華押",
+      "furiganaExpression": [
+        {
+          "text": "華",
+          "annotation": "か"
+        },
+        {
+          "text": "押",
+          "annotation": "おう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "written seal",
+        "stylized signature"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterschrift",
+        "Signatur",
+        "geschriebenes Siegel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) цветистая печать (факсимиле скорописью с росчерком особого стиля)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rúbrica",
+        "firma"
+      ]
+    }
+  ]
+}

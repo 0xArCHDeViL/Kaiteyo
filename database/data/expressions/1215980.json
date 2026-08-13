@@ -1,0 +1,61 @@
+{
+  "id": "1215980",
+  "readings": [
+    {
+      "kanaExpression": "かんせつえん",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "関節炎",
+      "furiganaExpression": [
+        {
+          "text": "関",
+          "annotation": "かん"
+        },
+        {
+          "text": "節",
+          "annotation": "せつ"
+        },
+        {
+          "text": "炎",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "arthritis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gelenkentzündung",
+        "Arthritis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ízületi gyulladás",
+        "köszvény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "артрит, воспаление суставов"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "artritis"
+      ]
+    }
+  ]
+}

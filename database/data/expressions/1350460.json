@@ -1,0 +1,106 @@
+{
+  "id": "1350460",
+  "readings": [
+    {
+      "kanaExpression": "やきいも",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "焼き芋",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "芋",
+          "annotation": "いも"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "焼芋",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "やき"
+        },
+        {
+          "text": "芋",
+          "annotation": "いも"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "焼きいも",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "きいも"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "焼藷",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "やき"
+        },
+        {
+          "text": "藷",
+          "annotation": "いも"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "roasted sweet potato",
+        "baked sweet potato"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} gebakken",
+        "gepofte zoete aardappelen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "patate douce grillée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gebackene Süßkartoffeln",
+        "geröstete Süßkartoffeln"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жареный (печёный) сладкий картофель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "camote asado"
+      ]
+    }
+  ]
+}

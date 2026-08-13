@@ -1,0 +1,66 @@
+{
+  "id": "1657410",
+  "readings": [
+    {
+      "kanaExpression": "こくじん",
+      "rank": 19500
+    },
+    {
+      "kanaExpression": "くにびと"
+    },
+    {
+      "kanaExpression": "こくにん"
+    },
+    {
+      "kanaExpression": "くにうど"
+    },
+    {
+      "kanaExpression": "くにゅうど"
+    },
+    {
+      "kanjiExpression": "国人",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "indigenous person",
+        "inhabitant of a country",
+        "local",
+        "native",
+        "local lords and samurai",
+        "daimyo who did not leave his domains to meet the shogun in Kyoto (during the Muromachi period)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einheimischer",
+        "Bürger",
+        "Staatsbürger",
+        "Bürger (eines Landes oder eines Gebietes)",
+        "Samurai einer Provinz",
+        "einheimischer Samurai"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "житель [данной] страны (провинции)",
+        "народ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1584860",
+  "readings": [
+    {
+      "kanaExpression": "やわ"
+    },
+    {
+      "kanaExpression": "よばなし",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "夜話",
+      "furiganaExpression": [
+        {
+          "text": "夜",
+          "annotation": "や"
+        },
+        {
+          "text": "話",
+          "annotation": "わ"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "夜咄",
+      "furiganaExpression": [
+        {
+          "text": "夜",
+          "annotation": "よ"
+        },
+        {
+          "text": "咄",
+          "annotation": "ばなし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "night chat",
+        "tale told at night",
+        "evening tea party (starting around 6pm)",
+        "book of informal essays"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Plauderei bei Nacht",
+        "Buch über nächtliche Gespräche"
+      ]
+    }
+  ]
+}

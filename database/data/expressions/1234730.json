@@ -1,0 +1,57 @@
+{
+  "id": "1234730",
+  "readings": [
+    {
+      "kanaExpression": "きょうつうてん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "共通点",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "きょう"
+        },
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "point in common",
+        "common feature"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "punt van overeenkomst",
+        "overeenstemming",
+        "gemeenschappelijk punt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gemeinsamkeit",
+        "ein gemeinsamer Punkt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общие моменты, общие черты, общность"
+      ]
+    }
+  ]
+}

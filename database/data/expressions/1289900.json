@@ -1,0 +1,73 @@
+{
+  "id": "1289900",
+  "readings": [
+    {
+      "kanaExpression": "こんだん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "懇談",
+      "furiganaExpression": [
+        {
+          "text": "懇",
+          "annotation": "こん"
+        },
+        {
+          "text": "談",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 5529
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "friendly chat",
+        "relaxed conversation",
+        "informal meeting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vriendelijk babbelen",
+        "gemoedelijk praten",
+        "keuvelen",
+        "vriendelijk babbeltje",
+        "gemoedelijk praatje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "conversation libre, informelle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich vertraulich unterhalten",
+        "vertrauliche Unterhaltung",
+        "offenes Gespräch",
+        "Plauderei"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дружеская беседа",
+        "{～する} [дружески] побеседовать (поговорить)",
+        "{～的} дружеский, неофициальный (о разговоре)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "conversación informal",
+        "charla informal"
+      ]
+    }
+  ]
+}

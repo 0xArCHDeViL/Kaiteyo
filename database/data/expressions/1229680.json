@@ -1,0 +1,96 @@
+{
+  "id": "1229680",
+  "readings": [
+    {
+      "kanaExpression": "なきさけぶ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "泣き叫ぶ",
+      "furiganaExpression": [
+        {
+          "text": "泣",
+          "annotation": "な"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "叫",
+          "annotation": "さけ"
+        },
+        {
+          "text": "ぶ"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "泣叫ぶ",
+      "furiganaExpression": [
+        {
+          "text": "泣",
+          "annotation": "なき"
+        },
+        {
+          "text": "叫",
+          "annotation": "さけ"
+        },
+        {
+          "text": "ぶ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to cry and shout",
+        "to scream"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeer hard huilen",
+        "luid roepen van verdriet",
+        "huilend schreeuwen",
+        "huilebalken",
+        "krijten",
+        "krijsen",
+        "gillen",
+        "tieren",
+        "blèren",
+        "brullen",
+        "bulken",
+        "misbaar maken",
+        "tekeergaan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weinend rufen",
+        "schreien",
+        "heulen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fütyül",
+        "harsányan nevet",
+        "ordítva énekel",
+        "rikácsol",
+        "sípol"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[громко] плакать и кричать"
+      ]
+    }
+  ]
+}

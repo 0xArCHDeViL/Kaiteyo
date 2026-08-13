@@ -1,0 +1,55 @@
+{
+  "id": "1793840",
+  "readings": [
+    {
+      "kanaExpression": "しんとう",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "心頭",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "頭",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heart",
+        "mind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herz",
+        "Gefühle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bátorság",
+        "mag",
+        "emlékezet",
+        "ész",
+        "gondolkodásmód"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) сердце, душа; мысли"
+      ]
+    }
+  ]
+}

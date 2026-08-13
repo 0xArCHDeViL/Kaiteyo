@@ -1,0 +1,68 @@
+{
+  "id": "1581570",
+  "readings": [
+    {
+      "kanaExpression": "だついじょ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "だついしょ"
+    },
+    {
+      "kanjiExpression": "脱衣所",
+      "furiganaExpression": [
+        {
+          "text": "脱",
+          "annotation": "だつ"
+        },
+        {
+          "text": "衣",
+          "annotation": "い"
+        },
+        {
+          "text": "所",
+          "annotation": "じょ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bathroom antechamber",
+        "dressing room",
+        "sink area",
+        "changing room (at a bathhouse, swimming pool, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleedkamer",
+        "{i.h.b.} kleedhokje",
+        "badhokje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cabine (plage)",
+        "vestiaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Umkleideraum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "раздевалка; туалетная комната (для смены платья)"
+      ]
+    }
+  ]
+}

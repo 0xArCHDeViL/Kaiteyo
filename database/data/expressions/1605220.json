@@ -1,0 +1,87 @@
+{
+  "id": "1605220",
+  "readings": [
+    {
+      "kanaExpression": "もちこみ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "持ち込み",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "持込み",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "持込",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "込",
+          "annotation": "こみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bring-your-own (e.g. food and drink)",
+        "carry-on (e.g. luggage)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mitbringen",
+        "Mitnehmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sportszatyor",
+        "sporttáska"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доставка; переноска, перевозка"
+      ]
+    }
+  ]
+}

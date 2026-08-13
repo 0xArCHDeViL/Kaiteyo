@@ -1,0 +1,71 @@
+{
+  "id": "1199450",
+  "readings": [
+    {
+      "kanaExpression": "かいころく",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "回顧録",
+      "furiganaExpression": [
+        {
+          "text": "回",
+          "annotation": "かい"
+        },
+        {
+          "text": "顧",
+          "annotation": "こ"
+        },
+        {
+          "text": "録",
+          "annotation": "ろく"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "memoirs",
+        "reminiscences"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "memoires",
+        "gedenkschriften",
+        "{w.g.} levensherinneringen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mémoire",
+        "souvenir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lebenserinnerungen",
+        "Memoiren",
+        "Autobiografie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emlékiratok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(лит.) мемуары, воспоминания"
+      ]
+    }
+  ]
+}

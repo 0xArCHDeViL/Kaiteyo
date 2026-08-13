@@ -1,0 +1,48 @@
+{
+  "id": "1453380",
+  "readings": [
+    {
+      "kanaExpression": "どうぶん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "同文",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "same text",
+        "same wording",
+        "same script",
+        "same language"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "derselbe Text",
+        "identischer Text"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) идентичный (такой же) текст",
+        "2) одинаковая письменность"
+      ]
+    }
+  ]
+}

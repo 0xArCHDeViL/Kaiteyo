@@ -1,0 +1,81 @@
+{
+  "id": "1042650",
+  "readings": [
+    {
+      "kanaExpression": "キロメートル",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "キロメーター"
+    },
+    {
+      "kanjiExpression": "粁",
+      "furiganaExpression": [
+        {
+          "text": "粁",
+          "annotation": "キロメートル"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "キロ米",
+      "furiganaExpression": [
+        {
+          "text": "キロ"
+        },
+        {
+          "text": "米",
+          "annotation": "メートル"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "kilometer",
+        "kilometre"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kilometer",
+        "km",
+        "~ kilometer",
+        "~ km"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "kilomètre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kilometer"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kilometer"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "kilómetro"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kilometer"
+      ]
+    }
+  ]
+}

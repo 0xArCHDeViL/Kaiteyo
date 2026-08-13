@@ -1,0 +1,108 @@
+{
+  "id": "1598690",
+  "readings": [
+    {
+      "kanaExpression": "とぎれる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "途切れる",
+      "furiganaExpression": [
+        {
+          "text": "途",
+          "annotation": "と"
+        },
+        {
+          "text": "切",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 11786
+    },
+    {
+      "kanjiExpression": "跡切れる",
+      "furiganaExpression": [
+        {
+          "text": "跡",
+          "annotation": "と"
+        },
+        {
+          "text": "切",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "れる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to break off",
+        "to come to an end",
+        "to be interrupted",
+        "to be cut short",
+        "to pause"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onderbroken worden",
+        "afgebroken worden",
+        "eindigen",
+        "aflopen",
+        "ophouden",
+        "uitscheiden",
+        "het laten afweten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cesser",
+        "s\u0027interrompre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stocken",
+        "ins Stocken geraten",
+        "unterbrochen werden",
+        "aufhören",
+        "stoppen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megáll"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прерываться, обрываться"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prekiniti se",
+        "pretrgati se"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ser interrumpido"
+      ]
+    }
+  ]
+}

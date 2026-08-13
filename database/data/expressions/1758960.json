@@ -1,0 +1,130 @@
+{
+  "id": "1758960",
+  "readings": [
+    {
+      "kanaExpression": "そこびきあみ",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "底引き網",
+      "furiganaExpression": [
+        {
+          "text": "底",
+          "annotation": "そこ"
+        },
+        {
+          "text": "引",
+          "annotation": "び"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "網",
+          "annotation": "あみ"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "底曳き網",
+      "furiganaExpression": [
+        {
+          "text": "底",
+          "annotation": "そこ"
+        },
+        {
+          "text": "曳",
+          "annotation": "び"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "網",
+          "annotation": "あみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "底引網",
+      "furiganaExpression": [
+        {
+          "text": "底",
+          "annotation": "そこ"
+        },
+        {
+          "text": "引",
+          "annotation": "びき"
+        },
+        {
+          "text": "網",
+          "annotation": "あみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "底曳網",
+      "furiganaExpression": [
+        {
+          "text": "底",
+          "annotation": "そこ"
+        },
+        {
+          "text": "曳",
+          "annotation": "びき"
+        },
+        {
+          "text": "網",
+          "annotation": "あみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trawl (net)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sleepnet",
+        "treknet",
+        "dregnet",
+        "treilnet",
+        "trawlnet",
+        "treil",
+        "trawl",
+        "kor",
+        "korre",
+        "kornet",
+        "schrobnet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schleppnetz",
+        "Grundschleppnetz",
+        "Trawl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "aknakereső berendezés",
+        "fenékkötél horgokkal",
+        "zsákháló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "донный невод"
+      ]
+    }
+  ]
+}

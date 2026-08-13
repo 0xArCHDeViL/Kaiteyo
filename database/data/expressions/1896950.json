@@ -1,0 +1,46 @@
+{
+  "id": "1896950",
+  "readings": [
+    {
+      "kanaExpression": "とうしん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "投信",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "とう"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 14682
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "investment trust"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "investmenttrust",
+        "beleggingstrust"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Investmentgesellschaft",
+        "Investmenttrust",
+        "Investmentfonds"
+      ]
+    }
+  ]
+}

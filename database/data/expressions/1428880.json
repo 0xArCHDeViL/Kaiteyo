@@ -1,0 +1,74 @@
+{
+  "id": "1428880",
+  "readings": [
+    {
+      "kanaExpression": "ちょうかく",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "聴覚",
+      "furiganaExpression": [
+        {
+          "text": "聴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "覚",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 11112
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the sense of hearing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gehoor",
+        "hoorzin",
+        "gehoorzin",
+        "het horen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "audition",
+        "ouïe (sens)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gehör",
+        "Gehörsinn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слух, чувство слуха"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zaznava zvoka",
+        "sluh"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "escucha",
+        "sentido del oido"
+      ]
+    }
+  ]
+}

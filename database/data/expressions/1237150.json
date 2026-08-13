@@ -1,0 +1,102 @@
+{
+  "id": "1237150",
+  "readings": [
+    {
+      "kanaExpression": "きょうしつ",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "教室",
+      "furiganaExpression": [
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 1739
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "classroom",
+        "lecture room",
+        "department (in a university)",
+        "class",
+        "lessons",
+        "course",
+        "school (for a particular discipline)",
+        "teaching establishment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "klas",
+        "klaszaal",
+        "onderwijsruimte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "salle de classe",
+        "département",
+        "laboratoire",
+        "école avec une seule salle de classe",
+        "petite école"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Klassenzimmer",
+        "Unterrichtsraum",
+        "Hörsaal",
+        "Auditorium",
+        "Aula",
+        "Abteilung",
+        "Seminar",
+        "Kurs"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "osztályterem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "класс, аудитория"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "učilnica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aula",
+        "clase"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "klassrum",
+        "lektionssal",
+        "skolsal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "1452500",
+  "readings": [
+    {
+      "kanaExpression": "どうじ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "同時",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "時",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 3890
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "simultaneous",
+        "concurrent",
+        "same time",
+        "synchronous",
+        "together"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dezelfde tijd",
+        "hetzelfde uur",
+        "gelijktijdig",
+        "simultaan",
+        "synchroon"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "simultané",
+        "concurrent",
+        "concomitant",
+        "en même temps",
+        "au même moment",
+        "synchrone",
+        "ensemble"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gleichzeitig",
+        "zur selben Zeit",
+        "simultan",
+        "zeitgleich",
+        "synchron",
+        "synchronistisch",
+        "während",
+        "gleiche Zeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyidejű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "то же время, тот же час; одновременность, синхронность",
+        "{[…と]～に} в то же самое время [, как и], одновременно [(с чем-л.)], в одно и то же время [с (чем-л.)]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hkratnost",
+        "sočasnost",
+        "istočasnost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "simultáneamente",
+        "a la vez",
+        "al mismo tiempo"
+      ]
+    }
+  ]
+}

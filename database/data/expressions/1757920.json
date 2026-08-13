@@ -1,0 +1,72 @@
+{
+  "id": "1757920",
+  "readings": [
+    {
+      "kanaExpression": "りんこう",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "リンこう"
+    },
+    {
+      "kanjiExpression": "燐光",
+      "furiganaExpression": [
+        {
+          "text": "燐",
+          "annotation": "りん"
+        },
+        {
+          "text": "光",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "リン光",
+      "furiganaExpression": [
+        {
+          "text": "リン"
+        },
+        {
+          "text": "光",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "phosphorescence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Phosphoreszenz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "foszforeszkálás",
+        "villódzás",
+        "villogás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фосфоресцирование"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fosforescens"
+      ]
+    }
+  ]
+}

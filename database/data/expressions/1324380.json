@@ -1,0 +1,99 @@
+{
+  "id": "1324380",
+  "readings": [
+    {
+      "kanaExpression": "わかぞう",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "若造",
+      "furiganaExpression": [
+        {
+          "text": "若",
+          "annotation": "わか"
+        },
+        {
+          "text": "造",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "若蔵",
+      "furiganaExpression": [
+        {
+          "text": "若",
+          "annotation": "わか"
+        },
+        {
+          "text": "蔵",
+          "annotation": "ぞう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "若僧",
+      "furiganaExpression": [
+        {
+          "text": "若",
+          "annotation": "わか"
+        },
+        {
+          "text": "僧",
+          "annotation": "ぞう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "youngster",
+        "neophyte",
+        "greenhorn"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jongere",
+        "jongmens",
+        "jongeling",
+        "joch",
+        "jochie",
+        "baasje",
+        "broekje",
+        "broekie",
+        "{min.} groentje",
+        "snotneus",
+        "snotjongen",
+        "melkmuil",
+        "{Belg.N.} broekvent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bengel",
+        "junger Bursche",
+        "Bürschchen",
+        "Milchbart"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyerkőc",
+        "ifjú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "молодой парень; (презр.) юнец"
+      ]
+    }
+  ]
+}

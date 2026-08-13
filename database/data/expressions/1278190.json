@@ -1,0 +1,68 @@
+{
+  "id": "1278190",
+  "readings": [
+    {
+      "kanaExpression": "こうちん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "工賃",
+      "furiganaExpression": [
+        {
+          "text": "工",
+          "annotation": "こう"
+        },
+        {
+          "text": "賃",
+          "annotation": "ちん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "labor cost",
+        "charge",
+        "wages",
+        "pay"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "arbeidsloon",
+        "loon",
+        "salaris",
+        "wedde",
+        "{Belg.N.} pree"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitslohn",
+        "Vergütung",
+        "Tageslohn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "munkabér",
+        "bér",
+        "fizetés",
+        "fizetség",
+        "illetmény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оплата труда, заработок, заработная плата"
+      ]
+    }
+  ]
+}

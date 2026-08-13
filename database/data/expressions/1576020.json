@@ -1,0 +1,93 @@
+{
+  "id": "1576020",
+  "readings": [
+    {
+      "kanaExpression": "いちぎょう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "一行",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "行",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 6973
+    },
+    {
+      "kanjiExpression": "１行",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いち"
+        },
+        {
+          "text": "行",
+          "annotation": "ぎょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(one) line",
+        "(one) row"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "regel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "groupe",
+        "troupe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Zeile"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csatasor",
+        "foglalkozás",
+        "határvonal",
+        "pálya",
+        "sor",
+        "szakma",
+        "útvonal",
+        "lárma",
+        "lehordás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[одна] линия (строка); [один] ряд"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "línea",
+        "fila",
+        "compañía (teatro)",
+        "grupo"
+      ]
+    }
+  ]
+}

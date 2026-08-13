@@ -1,0 +1,48 @@
+{
+  "id": "1423890",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうきょり",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "中距離",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "距",
+          "annotation": "きょ"
+        },
+        {
+          "text": "離",
+          "annotation": "り"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "middle-distance (races)",
+        "intermediate-range (missile)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mittlere Entfernung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "средняя дистанция, среднее расстояние"
+      ]
+    }
+  ]
+}

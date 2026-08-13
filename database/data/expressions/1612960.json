@@ -1,0 +1,92 @@
+{
+  "id": "1612960",
+  "readings": [
+    {
+      "kanaExpression": "やりきれない",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "やり切れない",
+      "furiganaExpression": [
+        {
+          "text": "やり"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "れない"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "遣り切れない",
+      "furiganaExpression": [
+        {
+          "text": "遣",
+          "annotation": "や"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "れない"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unable to finish (on time, etc.)",
+        "unbearable",
+        "intolerable",
+        "beyond endurance",
+        "too much"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "insupportable",
+        "intenable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unerträglich sein",
+        "zu viel sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tűrhetetlen",
+        "kibírhatatlan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) нестерпимый, невыносимый; невозможный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "intolerable",
+        "insoportable",
+        "inaguantable",
+        "demasiado"
+      ]
+    }
+  ]
+}

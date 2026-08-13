@@ -1,0 +1,86 @@
+{
+  "id": "1707510",
+  "readings": [
+    {
+      "kanaExpression": "とりあわせる",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "取り合わせる",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせる"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "取合わせる",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取りあわせる",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "りあわせる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to put together",
+        "to assemble"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zusammenstellen",
+        "arrangieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "összerak",
+        "összeállít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подбирать; сочетать; смешивать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "1631170",
+  "readings": [
+    {
+      "kanaExpression": "こうしゃ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "公舎",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "舎",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "公舍",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "舍",
+          "annotation": "しゃ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "official residence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beamtenunterkunft"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "residencia oficial"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "boställe"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "1690570",
+  "readings": [
+    {
+      "kanaExpression": "うすやき",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "薄焼き",
+      "furiganaExpression": [
+        {
+          "text": "薄",
+          "annotation": "うす"
+        },
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "薄焼",
+      "furiganaExpression": [
+        {
+          "text": "薄",
+          "annotation": "うす"
+        },
+        {
+          "text": "焼",
+          "annotation": "やき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "frying or baking something thin (e.g. thin omelette)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leichtes Anbraten",
+        "leichtes Anbacken"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "suavemente tostado",
+        "suavemente asado",
+        "poco hecho"
+      ]
+    }
+  ]
+}

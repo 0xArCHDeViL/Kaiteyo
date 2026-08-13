@@ -1,0 +1,69 @@
+{
+  "id": "1460970",
+  "readings": [
+    {
+      "kanaExpression": "なんざん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "難産",
+      "furiganaExpression": [
+        {
+          "text": "難",
+          "annotation": "なん"
+        },
+        {
+          "text": "産",
+          "annotation": "ざん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "difficult delivery",
+        "difficult childbirth",
+        "dystocia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moeilijke bevalling",
+        "zware verlossing",
+        "{fig.} grote moeite",
+        "{fig.} olifantsdracht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwere Geburt",
+        "erschwerte Geburt",
+        "gestörter Geburtsverlauf",
+        "Geburtsstörung",
+        "Dystokie",
+        "Partus difficilis",
+        "schwieriges Unterfangen",
+        "eine schwere Geburt haben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тяжёлые роды",
+        "{～する} тяжело рожать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "distocia",
+        "mal parto"
+      ]
+    }
+  ]
+}

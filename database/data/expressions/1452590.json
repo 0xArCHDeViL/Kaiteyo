@@ -1,0 +1,59 @@
+{
+  "id": "1452590",
+  "readings": [
+    {
+      "kanaExpression": "どうしゅ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "同種",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "種",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 14137
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "same kind",
+        "same sort",
+        "same species",
+        "same race",
+        "homogeneity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dezelfde soort",
+        "hetzelfde ras",
+        "homogeniteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "derselben Art",
+        "derselben Sorte",
+        "dieselbe Art"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) тот же сорт; однородность",
+        "2) та же раса; принадлежность к одной расе"
+      ]
+    }
+  ]
+}

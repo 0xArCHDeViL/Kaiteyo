@@ -1,0 +1,57 @@
+{
+  "id": "1373350",
+  "readings": [
+    {
+      "kanaExpression": "すうききょう",
+      "rank": 29000
+    },
+    {
+      "kanaExpression": "すうきけい"
+    },
+    {
+      "kanjiExpression": "枢機卿",
+      "furiganaExpression": [
+        {
+          "text": "枢",
+          "annotation": "すう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "卿",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cardinal (Catholic church)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{r.-k.} kardinaal",
+        "eminentie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "katholischer Kardinal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "legfőbb"
+      ]
+    }
+  ]
+}

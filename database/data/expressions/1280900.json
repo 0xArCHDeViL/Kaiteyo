@@ -1,0 +1,64 @@
+{
+  "id": "1280900",
+  "readings": [
+    {
+      "kanaExpression": "こうき",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "綱紀",
+      "furiganaExpression": [
+        {
+          "text": "綱",
+          "annotation": "こう"
+        },
+        {
+          "text": "紀",
+          "annotation": "き"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "law and order",
+        "(official) discipline"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "discipline",
+        "loi et ordre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Ordnung",
+        "Ruhe und Ordnung",
+        "Disziplin",
+        "Zucht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fegyelem",
+        "fegyelmezés",
+        "tudományág"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) служебная дисциплина",
+        "2) общественный порядок; законность"
+      ]
+    }
+  ]
+}

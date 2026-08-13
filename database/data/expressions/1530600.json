@@ -1,0 +1,81 @@
+{
+  "id": "1530600",
+  "readings": [
+    {
+      "kanaExpression": "むだん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "無断",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "断",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 6332
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "absence of permission",
+        "lack of permission",
+        "absence of (advance) notice",
+        "lack of notice"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onaangekondigd",
+        "onaangemeld",
+        "onaangediend",
+        "ongeoorloofd",
+        "zonder toestemming",
+        "verlof"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sans permission",
+        "sans prévenir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ohne Erlaubnis",
+        "ohne Entschuldigung",
+        "ohne Genehmigung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": ～で",
+        "1) без предупреждения, без оповещения",
+        "2) без разрешения, без спросу"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "brez dovoljenja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sin permiso",
+        "sin avisar"
+      ]
+    }
+  ]
+}

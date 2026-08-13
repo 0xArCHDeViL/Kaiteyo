@@ -1,0 +1,78 @@
+{
+  "id": "1421750",
+  "readings": [
+    {
+      "kanaExpression": "ちほう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "痴呆",
+      "furiganaExpression": [
+        {
+          "text": "痴",
+          "annotation": "ち"
+        },
+        {
+          "text": "呆",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 12593
+    },
+    {
+      "kanjiExpression": "痴ほう",
+      "furiganaExpression": [
+        {
+          "text": "痴",
+          "annotation": "ち"
+        },
+        {
+          "text": "ほう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dementia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dementie",
+        "dementia",
+        "geesteszwakte",
+        "kindsheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwachsinn",
+        "Demenz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "demencia",
+        "elmebaj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слабоумие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "demencia"
+      ]
+    }
+  ]
+}

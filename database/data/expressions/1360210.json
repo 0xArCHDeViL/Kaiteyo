@@ -1,0 +1,49 @@
+{
+  "id": "1360210",
+  "readings": [
+    {
+      "kanaExpression": "ねぶくろ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "寝袋",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "袋",
+          "annotation": "ぶくろ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sleeping bag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlafsack"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hálózsák"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "saco de dormir"
+      ]
+    }
+  ]
+}

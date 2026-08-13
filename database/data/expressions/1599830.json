@@ -1,0 +1,81 @@
+{
+  "id": "1599830",
+  "readings": [
+    {
+      "kanaExpression": "にぎりめし",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "握り飯",
+      "furiganaExpression": [
+        {
+          "text": "握",
+          "annotation": "にぎ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "飯",
+          "annotation": "めし"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "握飯",
+      "furiganaExpression": [
+        {
+          "text": "握",
+          "annotation": "にぎり"
+        },
+        {
+          "text": "飯",
+          "annotation": "めし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "onigiri",
+        "rice ball"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} rijstballetje",
+        "rijst uit het vuistje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "boulette de riz"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reisball",
+        "Reiskloß"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "колобок [, скатанный] из варёного риса",
+        "рисовый колобок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bola de arroz"
+      ]
+    }
+  ]
+}

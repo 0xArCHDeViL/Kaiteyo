@@ -1,0 +1,89 @@
+{
+  "id": "1599960",
+  "readings": [
+    {
+      "kanaExpression": "ぬいめ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "縫い目",
+      "furiganaExpression": [
+        {
+          "text": "縫",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "縫目",
+      "furiganaExpression": [
+        {
+          "text": "縫",
+          "annotation": "ぬい"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seam",
+        "stitch",
+        "suture"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "naad",
+        "{geneesk.} hechting",
+        "sutuur",
+        "sutura",
+        "steek"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "couture",
+        "soudure",
+        "suture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Naht",
+        "Wundnaht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szegés",
+        "varrat",
+        "öltés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шов"
+      ]
+    }
+  ]
+}

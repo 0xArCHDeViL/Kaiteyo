@@ -1,0 +1,78 @@
+{
+  "id": "2138360",
+  "readings": [
+    {
+      "kanaExpression": "うけつけちゅう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "受付中",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "うけ"
+        },
+        {
+          "text": "付",
+          "annotation": "つけ"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "受け付け中",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "受付け中",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "うけ"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "currently accepting (applications, etc.)"
+      ]
+    }
+  ]
+}

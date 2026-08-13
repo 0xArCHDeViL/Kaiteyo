@@ -1,0 +1,108 @@
+{
+  "id": "1246740",
+  "readings": [
+    {
+      "kanaExpression": "くつした",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "靴下",
+      "furiganaExpression": [
+        {
+          "text": "靴",
+          "annotation": "くつ"
+        },
+        {
+          "text": "下",
+          "annotation": "した"
+        }
+      ],
+      "rank": 11040
+    },
+    {
+      "kanjiExpression": "沓下",
+      "furiganaExpression": [
+        {
+          "text": "沓",
+          "annotation": "くつ"
+        },
+        {
+          "text": "下",
+          "annotation": "した"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "くつ下",
+      "furiganaExpression": [
+        {
+          "text": "くつ"
+        },
+        {
+          "text": "下",
+          "annotation": "した"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "socks",
+        "sock",
+        "stockings",
+        "stocking"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sok",
+        "anklet",
+        "kous"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chaussette",
+        "chaussettes",
+        "bas (lingerie)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Socken",
+        "Strümpfe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rövid harisnya",
+        "zokni"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "носки; чулки"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nogavica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calcetines",
+        "medias"
+      ]
+    }
+  ]
+}

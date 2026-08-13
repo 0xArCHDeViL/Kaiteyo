@@ -1,0 +1,51 @@
+{
+  "id": "2104620",
+  "readings": [
+    {
+      "kanaExpression": "いつになく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "何時に無く",
+      "furiganaExpression": [
+        {
+          "text": "何時",
+          "annotation": "いつ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "何時になく",
+      "furiganaExpression": [
+        {
+          "text": "何時",
+          "annotation": "いつ"
+        },
+        {
+          "text": "になく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unusually",
+        "unwontedly",
+        "uncharacteristically"
+      ]
+    }
+  ]
+}

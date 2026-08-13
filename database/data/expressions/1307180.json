@@ -1,0 +1,86 @@
+{
+  "id": "1307180",
+  "readings": [
+    {
+      "kanaExpression": "しがつ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "４月",
+      "furiganaExpression": [
+        {
+          "text": "４",
+          "annotation": "し"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 1614
+    },
+    {
+      "kanjiExpression": "四月",
+      "furiganaExpression": [
+        {
+          "text": "四",
+          "annotation": "し"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 4408
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "April",
+        "fourth month in the lunar calendar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "april",
+        "grasmaand",
+        "{afk.} apr"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "April",
+        "vierter Monat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "апрель"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "april"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abril",
+        "Abril"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "april"
+      ]
+    }
+  ]
+}

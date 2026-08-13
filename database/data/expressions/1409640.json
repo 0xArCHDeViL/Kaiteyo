@@ -1,0 +1,67 @@
+{
+  "id": "1409640",
+  "readings": [
+    {
+      "kanaExpression": "たいない",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "体内",
+      "furiganaExpression": [
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "内",
+          "annotation": "ない"
+        }
+      ],
+      "rank": 6944
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interior of the body"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "innerlijk van het lichaam",
+        "{～に} binnen het lichaam",
+        "intern",
+        "inwendig"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "intérieur du corps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "innerlich",
+        "im Körper",
+        "Inneres des Körpers"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～に} в теле",
+        "{～の} (физиол.) внутренний"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dentro del cuerpo"
+      ]
+    }
+  ]
+}

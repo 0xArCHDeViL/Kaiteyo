@@ -1,0 +1,50 @@
+{
+  "id": "1283900",
+  "readings": [
+    {
+      "kanaExpression": "こうはい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "高配",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "配",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(your) consideration",
+        "attention",
+        "trouble",
+        "kindness",
+        "good offices",
+        "high dividends",
+        "high rate of return"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ihre freundliche Aufmerksamkeit",
+        "Ihre Mühe (ehrerbietig-höfl. für die Hilfe eines anderen)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(эпист.) Ваше беспокойство; Ваша любезность"
+      ]
+    }
+  ]
+}

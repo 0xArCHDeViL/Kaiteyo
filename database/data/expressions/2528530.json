@@ -1,0 +1,70 @@
+{
+  "id": "2528530",
+  "readings": [
+    {
+      "kanaExpression": "よるごはん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "夜ご飯",
+      "furiganaExpression": [
+        {
+          "text": "夜",
+          "annotation": "よる"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "飯",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "夜ごはん",
+      "furiganaExpression": [
+        {
+          "text": "夜",
+          "annotation": "よる"
+        },
+        {
+          "text": "ごはん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "夜御飯",
+      "furiganaExpression": [
+        {
+          "text": "夜",
+          "annotation": "よる"
+        },
+        {
+          "text": "御",
+          "annotation": "ご"
+        },
+        {
+          "text": "飯",
+          "annotation": "はん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dinner",
+        "evening meal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abendessen"
+      ]
+    }
+  ]
+}

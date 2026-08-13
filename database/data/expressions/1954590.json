@@ -1,0 +1,65 @@
+{
+  "id": "1954590",
+  "readings": [
+    {
+      "kanaExpression": "はらいさげ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "払い下げ",
+      "furiganaExpression": [
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "下",
+          "annotation": "さ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "disposal (usu. of unwanted government assets)",
+        "sale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Privatisierung",
+        "Verkauf von Staatseigentum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megszabadulás",
+        "vásár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продажа (правительственными учреждениями)",
+        "{～にする} продавать (частным предприятиям и лицам)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "avyttring"
+      ]
+    }
+  ]
+}

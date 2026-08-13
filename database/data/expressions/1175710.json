@@ -1,0 +1,47 @@
+{
+  "id": "1175710",
+  "readings": [
+    {
+      "kanaExpression": "えんかん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "円環",
+      "furiganaExpression": [
+        {
+          "text": "円",
+          "annotation": "えん"
+        },
+        {
+          "text": "環",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "circle",
+        "ring",
+        "torus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kreisring",
+        "Ring",
+        "Kreis"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "anillo"
+      ]
+    }
+  ]
+}

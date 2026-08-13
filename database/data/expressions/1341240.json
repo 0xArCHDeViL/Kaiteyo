@@ -1,0 +1,85 @@
+{
+  "id": "1341240",
+  "readings": [
+    {
+      "kanaExpression": "しゅんじ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "瞬時",
+      "furiganaExpression": [
+        {
+          "text": "瞬",
+          "annotation": "しゅん"
+        },
+        {
+          "text": "時",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 10091
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "instant",
+        "moment",
+        "(split) second",
+        "(in a) flash",
+        "(in the) blink of an eye"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "in een oogwenk",
+        "in een flits",
+        "ineens",
+        "in een wip",
+        "in een fractie van een seconde",
+        "ogenblikkelijk",
+        "onmiddellijk",
+        "onverwijld",
+        "moment",
+        "ogenblik",
+        "korte tijd",
+        "seconde"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "instant",
+        "moment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "im Nu",
+        "in einem Augenblick",
+        "momentan",
+        "augenblicklich",
+        "Moment",
+        "Augenblick"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "időpont",
+        "pillanat",
+        "fenyegető",
+        "sürgős"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "миг, мгновение, момент"
+      ]
+    }
+  ]
+}

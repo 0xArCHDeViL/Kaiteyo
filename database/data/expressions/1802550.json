@@ -1,0 +1,45 @@
+{
+  "id": "1802550",
+  "readings": [
+    {
+      "kanaExpression": "だっとう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "脱党",
+      "furiganaExpression": [
+        {
+          "text": "脱",
+          "annotation": "だっ"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "defection from or leaving a (political) party"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "austreten (aus einer Partei)",
+        "abfallen (von einer Partei)",
+        "Parteiaustritt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выход из партии, откол от партии"
+      ]
+    }
+  ]
+}

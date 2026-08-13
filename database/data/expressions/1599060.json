@@ -1,0 +1,108 @@
+{
+  "id": "1599060",
+  "readings": [
+    {
+      "kanaExpression": "とりこみ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "取り込み",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "取込み",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取込",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "込",
+          "annotation": "こみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "taking in",
+        "bringing in",
+        "capturing (e.g. customers)",
+        "attracting",
+        "winning over",
+        "pleasing",
+        "confusion",
+        "bustle",
+        "misfortune",
+        "disorder",
+        "importing (e.g. data)",
+        "capturing (e.g. image)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hereinholen",
+        "Aufregung",
+        "Verwirrung",
+        "Unglück",
+        "Trauerfall",
+        "Datei-Import"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bomlás",
+        "megdöbbenés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) захват; присвоение",
+        "2) беспорядок, суматоха, что-то неладное; неприятности"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "virrvarr"
+      ]
+    }
+  ]
+}

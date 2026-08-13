@@ -1,0 +1,46 @@
+{
+  "id": "1584700",
+  "readings": [
+    {
+      "kanaExpression": "ぼうげん",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "暴言",
+      "furiganaExpression": [
+        {
+          "text": "暴",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "言",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "abusive language",
+        "violent language",
+        "wild words"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beleidigende Worte",
+        "verletzende Äußerung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) грубая речь; резкие выражения"
+      ]
+    }
+  ]
+}

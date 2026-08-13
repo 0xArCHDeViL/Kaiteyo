@@ -1,0 +1,41 @@
+{
+  "id": "1726560",
+  "readings": [
+    {
+      "kanaExpression": "じせきてん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "自責点",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "責",
+          "annotation": "せき"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "earned run"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "selbstverschuldeter Punktverlust"
+      ]
+    }
+  ]
+}

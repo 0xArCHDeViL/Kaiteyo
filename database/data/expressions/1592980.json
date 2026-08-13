@@ -1,0 +1,107 @@
+{
+  "id": "1592980",
+  "readings": [
+    {
+      "kanaExpression": "こうし",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "こうじ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "子牛",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "牛",
+          "annotation": "うし"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "仔牛",
+      "furiganaExpression": [
+        {
+          "text": "仔",
+          "annotation": "こ"
+        },
+        {
+          "text": "牛",
+          "annotation": "うし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "小牛",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "牛",
+          "annotation": "うし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "犢",
+      "furiganaExpression": [
+        {
+          "text": "犢",
+          "annotation": "こうし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "calf",
+        "small cow"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "veau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kalb"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "boci",
+        "borjú",
+        "borjúbőr",
+        "lábikra",
+        "vádli"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "телёнок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ternera",
+        "ternero",
+        "becerro"
+      ]
+    }
+  ]
+}

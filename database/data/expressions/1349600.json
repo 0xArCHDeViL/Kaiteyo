@@ -1,0 +1,64 @@
+{
+  "id": "1349600",
+  "readings": [
+    {
+      "kanaExpression": "しょうしゅう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "招集",
+      "furiganaExpression": [
+        {
+          "text": "招",
+          "annotation": "しょう"
+        },
+        {
+          "text": "集",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 13965
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "call",
+        "summons",
+        "convening",
+        "convocation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bijeenroepen",
+        "samenroepen",
+        "oproepen",
+        "convoceren",
+        "bijeenroeping",
+        "samenroeping",
+        "oproeping",
+        "convocatie",
+        "{rel.} indictie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einberufen",
+        "zusammenrufen",
+        "Einberufen",
+        "Zusammenrufen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "citación a junta",
+        "convocatoria a junta"
+      ]
+    }
+  ]
+}

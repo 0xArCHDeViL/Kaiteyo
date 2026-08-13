@@ -1,0 +1,58 @@
+{
+  "id": "1381070",
+  "readings": [
+    {
+      "kanaExpression": "せいほく",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "にしきた"
+    },
+    {
+      "kanjiExpression": "西北",
+      "furiganaExpression": [
+        {
+          "text": "西",
+          "annotation": "せい"
+        },
+        {
+          "text": "北",
+          "annotation": "ほく"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "north-west"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "noordwesten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nordwesten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "северо-запад"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "nordväst"
+      ]
+    }
+  ]
+}

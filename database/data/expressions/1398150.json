@@ -1,0 +1,43 @@
+{
+  "id": "1398150",
+  "readings": [
+    {
+      "kanaExpression": "そうせき",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "僧籍",
+      "furiganaExpression": [
+        {
+          "text": "僧",
+          "annotation": "そう"
+        },
+        {
+          "text": "籍",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "priesthood"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mönchsstand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(буд.) священство; сан священника"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "1201780",
+  "readings": [
+    {
+      "kanaExpression": "かいめん",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "海面",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 14425
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sea level",
+        "(surface of) sea"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "spiegel",
+        "oppervlakte van de zee",
+        "zeeoppervlak",
+        "zeespiegel",
+        "zeeniveau"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "niveau de la mer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meeresoberfläche",
+        "Meeresspiegel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tengerszint",
+        "tenger"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поверхность моря; морская гладь; морское пространство"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "morska gladina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nivel del mar",
+        "(superficie del) mar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "havsyta"
+      ]
+    }
+  ]
+}

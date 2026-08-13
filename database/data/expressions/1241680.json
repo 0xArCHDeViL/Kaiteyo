@@ -1,0 +1,83 @@
+{
+  "id": "1241680",
+  "readings": [
+    {
+      "kanaExpression": "きんよく",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "禁欲",
+      "furiganaExpression": [
+        {
+          "text": "禁",
+          "annotation": "きん"
+        },
+        {
+          "text": "欲",
+          "annotation": "よく"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "禁慾",
+      "furiganaExpression": [
+        {
+          "text": "禁",
+          "annotation": "きん"
+        },
+        {
+          "text": "慾",
+          "annotation": "よく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "abstinence",
+        "self-control",
+        "celibacy",
+        "abnegation",
+        "asceticism"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onthouding",
+        "abstinentie",
+        "continentie",
+        "ascese",
+        "renunciatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Askese",
+        "Abstinenz",
+        "Enthaltsamkeit",
+        "Kasteiung",
+        "Selbstpeinigung",
+        "ein asketisches Leben führen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "absztinencia",
+        "önmegtagadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подавление страстей; аскетизм; стоицизм",
+        "{～する} подавлять свои страсти; жить в воздержании"
+      ]
+    }
+  ]
+}

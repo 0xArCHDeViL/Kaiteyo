@@ -1,0 +1,70 @@
+{
+  "id": "1286920",
+  "readings": [
+    {
+      "kanaExpression": "こくどう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "国道",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "道",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 6682
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "national road",
+        "national highway"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijksweg",
+        "{afk.} RW"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "autoroute"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Staatsstraße",
+        "Bundesstraße"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дорога (шоссе, тракт) общегосударственного значения, государственная дорога"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "(državna) avtocesta"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carretera nacional"
+      ]
+    }
+  ]
+}

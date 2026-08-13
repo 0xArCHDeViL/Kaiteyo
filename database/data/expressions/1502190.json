@@ -1,0 +1,89 @@
+{
+  "id": "1502190",
+  "readings": [
+    {
+      "kanaExpression": "ぶつぞう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "仏像",
+      "furiganaExpression": [
+        {
+          "text": "仏",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "像",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 14770
+    },
+    {
+      "kanjiExpression": "佛像",
+      "furiganaExpression": [
+        {
+          "text": "佛",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "像",
+          "annotation": "ぞう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "statue of Buddha",
+        "image of Buddha",
+        "Buddhist statue",
+        "Buddhist image"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{boeddh.} beeld",
+        "afbeelding van Boeddha",
+        "Boeddhabeeld",
+        "boeddha"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "statue de bouddha"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Buddhastatue",
+        "Buddhafigur",
+        "Buddhabildnis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) буддийская статуя",
+        "2) статуя Будды"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kip bude"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estatua de Buda"
+      ]
+    }
+  ]
+}

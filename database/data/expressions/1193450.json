@@ -1,0 +1,78 @@
+{
+  "id": "1193450",
+  "readings": [
+    {
+      "kanaExpression": "かよう",
+      "rank": 4993
+    },
+    {
+      "kanjiExpression": "歌謡",
+      "furiganaExpression": [
+        {
+          "text": "歌",
+          "annotation": "か"
+        },
+        {
+          "text": "謡",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "song",
+        "ballad"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lied",
+        "ballade",
+        "melodie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chanson",
+        "ballade"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reimprosa",
+        "Lied in Versform",
+        "musikalisch begleiteter Text",
+        "Gesang",
+        "Ballade"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ének",
+        "ballada"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) стих, песня"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pesem",
+        "skladba",
+        "balada"
+      ]
+    }
+  ]
+}

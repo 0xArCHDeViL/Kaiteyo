@@ -1,0 +1,53 @@
+{
+  "id": "1657530",
+  "readings": [
+    {
+      "kanaExpression": "こくみんねんきん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "国民年金",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "national pension",
+        "government pension system"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "staatspensioen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Volksrente",
+        "Staatsrente"
+      ]
+    }
+  ]
+}

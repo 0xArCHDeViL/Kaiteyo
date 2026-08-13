@@ -1,0 +1,48 @@
+{
+  "id": "1370800",
+  "readings": [
+    {
+      "kanaExpression": "すいそうがく",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "吹奏楽",
+      "furiganaExpression": [
+        {
+          "text": "吹",
+          "annotation": "すい"
+        },
+        {
+          "text": "奏",
+          "annotation": "そう"
+        },
+        {
+          "text": "楽",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 11286
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wind music",
+        "wind instrument music"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blasmusik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "духовая музыка"
+      ]
+    }
+  ]
+}

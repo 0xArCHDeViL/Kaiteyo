@@ -1,0 +1,63 @@
+{
+  "id": "1736050",
+  "readings": [
+    {
+      "kanaExpression": "ふなで",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "船出",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "ふな"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "setting sail",
+        "putting out to sea",
+        "starting anew",
+        "embarking on something new"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{scheepv.} het uitvaren",
+        "het wegvaren",
+        "uitvaart",
+        "vertrek",
+        "{scheepv.} uitvaren",
+        "wegvaren",
+        "vertrekken",
+        "afgaan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ablegen eines Schiffes",
+        "Abfahrt eines Schiffes",
+        "Segel setzen",
+        "ablegen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отправление судна, выход в море",
+        "{～する} выйти в море [на судне]"
+      ]
+    }
+  ]
+}

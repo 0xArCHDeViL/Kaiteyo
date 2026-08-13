@@ -1,0 +1,52 @@
+{
+  "id": "1842240",
+  "readings": [
+    {
+      "kanaExpression": "ゆきやま",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "雪山",
+      "furiganaExpression": [
+        {
+          "text": "雪",
+          "annotation": "ゆき"
+        },
+        {
+          "text": "山",
+          "annotation": "やま"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "snowy mountain",
+        "permanently snow-covered mountain",
+        "pile of snow"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "besneeuwde berg",
+        "met sneeuw bedekte berg",
+        "ondergesneeuwde berg",
+        "sneeuwgebergte",
+        "sneeuwberg",
+        "sneeuwhoop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schneebedeckter Berg",
+        "großer Schneehaufen",
+        "Schneeberg"
+      ]
+    }
+  ]
+}

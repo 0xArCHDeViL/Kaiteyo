@@ -1,0 +1,38 @@
+{
+  "id": "1658690",
+  "readings": [
+    {
+      "kanaExpression": "しっとう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "失投",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しっ"
+        },
+        {
+          "text": "投",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "careless pitch"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nachlässig werfen",
+        "nachlässig geworfener Ball"
+      ]
+    }
+  ]
+}

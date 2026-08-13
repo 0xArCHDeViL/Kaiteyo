@@ -1,0 +1,115 @@
+{
+  "id": "1430200",
+  "readings": [
+    {
+      "kanaExpression": "いただき",
+      "rank": 10277
+    },
+    {
+      "kanjiExpression": "頂",
+      "furiganaExpression": [
+        {
+          "text": "頂",
+          "annotation": "いただき"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "頂き",
+      "furiganaExpression": [
+        {
+          "text": "頂",
+          "annotation": "いただ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "戴き",
+      "furiganaExpression": [
+        {
+          "text": "戴",
+          "annotation": "いただ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "crown (of head)",
+        "summit (of mountain)",
+        "spire",
+        "easy win for one",
+        "something received"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "top",
+        "piek",
+        "kruin",
+        "hoogste punt",
+        "spits",
+        "gemakkelijke overwinning",
+        "weggevertje",
+        "giveaway"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cime",
+        "pointe",
+        "sommet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gipfel",
+        "Spitze",
+        "Wipfel",
+        "Krone",
+        "Scheitel",
+        "etw. ganz Sicheres ()"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csúcs",
+        "fejtető",
+        "lombkorona",
+        "tető",
+        "orom",
+        "templomtorony"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) вершина; верхушка, макушка; пик",
+        "2) тулья"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "me lo quedo",
+        "cumbre",
+        "cima",
+        "culmen",
+        "cúspide"
+      ]
+    }
+  ]
+}

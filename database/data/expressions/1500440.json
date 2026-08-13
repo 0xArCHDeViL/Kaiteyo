@@ -1,0 +1,75 @@
+{
+  "id": "1500440",
+  "readings": [
+    {
+      "kanaExpression": "ふくし",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "副詞",
+      "furiganaExpression": [
+        {
+          "text": "副",
+          "annotation": "ふく"
+        },
+        {
+          "text": "詞",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "adverb"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bijwoord",
+        "adverbium"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "adverbe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Adverb",
+        "Umstandswort"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(грам.) наречие"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prislov"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "adverbio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "adverb"
+      ]
+    }
+  ]
+}

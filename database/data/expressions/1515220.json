@@ -1,0 +1,54 @@
+{
+  "id": "1515220",
+  "readings": [
+    {
+      "kanaExpression": "ぼがい",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "簿外",
+      "furiganaExpression": [
+        {
+          "text": "簿",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unaccounted",
+        "off the books"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{econ.} buiten de balanstelling",
+        "buiten de boeken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außerhalb der Bilanz",
+        "ohne Bilanzwirkung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hiányzó",
+        "meg nem magyarázott",
+        "megmagyarázatlan"
+      ]
+    }
+  ]
+}

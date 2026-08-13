@@ -1,0 +1,55 @@
+{
+  "id": "1513210",
+  "readings": [
+    {
+      "kanaExpression": "ほする",
+      "rank": 16500
+    },
+    {
+      "kanaExpression": "ほうする"
+    },
+    {
+      "kanjiExpression": "保する",
+      "furiganaExpression": [
+        {
+          "text": "保",
+          "annotation": "ほ"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "rank": 16500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to guarantee"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stützen",
+        "halten",
+        "behalten",
+        "bewahren",
+        "aufrechterhalten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. см.) ほしょう【保障】(～する)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "garantizar"
+      ]
+    }
+  ]
+}

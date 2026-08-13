@@ -1,0 +1,47 @@
+{
+  "id": "1578390",
+  "readings": [
+    {
+      "kanaExpression": "がんり",
+      "rank": 28000
+    },
+    {
+      "kanaExpression": "げんり",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "元利",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "がん"
+        },
+        {
+          "text": "利",
+          "annotation": "り"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "principal and interest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kapital und Zinsen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "капитал и проценты"
+      ]
+    }
+  ]
+}

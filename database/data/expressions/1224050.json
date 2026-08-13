@@ -1,0 +1,64 @@
+{
+  "id": "1224050",
+  "readings": [
+    {
+      "kanaExpression": "きど",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "輝度",
+      "furiganaExpression": [
+        {
+          "text": "輝",
+          "annotation": "き"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brightness",
+        "luminance"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "clarté",
+        "luminosité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leuchtstärke",
+        "Leuchtdichte",
+        "Luminanz (gemessen in Candela pro m²)",
+        "Helligkeit",
+        "Luminanz (z.B. einer braunschen Röhre)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "derű",
+        "fényesség",
+        "okosság",
+        "ragyogás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физ.) яркость"
+      ]
+    }
+  ]
+}

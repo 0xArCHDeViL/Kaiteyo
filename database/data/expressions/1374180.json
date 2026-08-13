@@ -1,0 +1,45 @@
+{
+  "id": "1374180",
+  "readings": [
+    {
+      "kanaExpression": "せたいぬし",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "世帯主",
+      "furiganaExpression": [
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "帯",
+          "annotation": "たい"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "head of the family (esp. as recorded in the resident register)",
+        "head of the household",
+        "householder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Haushaltsvorstand",
+        "Familienvorstand",
+        "Familienoberhaupt"
+      ]
+    }
+  ]
+}

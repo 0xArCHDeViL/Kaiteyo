@@ -1,0 +1,52 @@
+{
+  "id": "1409830",
+  "readings": [
+    {
+      "kanaExpression": "たいあん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "対案",
+      "furiganaExpression": [
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "案",
+          "annotation": "あん"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "counter-proposal",
+        "counter-suggestion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gegenvorschlag",
+        "Gegenantrag",
+        "Gegenmaßnahme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ellenjavaslat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "контрпредложение; контрпроект"
+      ]
+    }
+  ]
+}

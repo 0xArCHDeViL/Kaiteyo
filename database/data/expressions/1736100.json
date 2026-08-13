@@ -1,0 +1,70 @@
+{
+  "id": "1736100",
+  "readings": [
+    {
+      "kanaExpression": "せんたい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "船体",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "せん"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hull"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "scheepsromp",
+        "romp",
+        "{veroud.} casco"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schiffsrumpf",
+        "Schiffskörper"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hajóderék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "корпус корабля"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vaina"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fartygsskrov"
+      ]
+    }
+  ]
+}

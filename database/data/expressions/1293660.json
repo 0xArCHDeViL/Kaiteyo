@@ -1,0 +1,91 @@
+{
+  "id": "1293660",
+  "readings": [
+    {
+      "kanaExpression": "さらいねん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "再来年",
+      "furiganaExpression": [
+        {
+          "text": "再",
+          "annotation": "さ"
+        },
+        {
+          "text": "来",
+          "annotation": "らい"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "さ来年",
+      "furiganaExpression": [
+        {
+          "text": "さ"
+        },
+        {
+          "text": "来",
+          "annotation": "らい"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "year after next"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jaar na volgend jaar",
+        "twee jaar na vandaag",
+        "over twee jaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dans deux ans"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "übernächstes Jahr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "через два года"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "čez 2 leti",
+        "leto po naslednjem"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dentro de dos años",
+        "el año que sigue al que viene"
+      ]
+    }
+  ]
+}

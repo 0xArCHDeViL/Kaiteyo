@@ -1,0 +1,60 @@
+{
+  "id": "1348020",
+  "readings": [
+    {
+      "kanaExpression": "こむすび",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "小結",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "結",
+          "annotation": "むすび"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "小結び",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "結",
+          "annotation": "むす"
+        },
+        {
+          "text": "び"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wrestler of the fourth highest rank"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sumō-jargon} komusubi {op drie na hoogste titel in het sumō-worstelen",
+        "komt na de sekiwake en gaat de maegashirahittō vooraf}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Komusubi (vierthöchster Sumō-Rang)"
+      ]
+    }
+  ]
+}

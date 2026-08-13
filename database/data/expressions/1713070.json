@@ -1,0 +1,48 @@
+{
+  "id": "1713070",
+  "readings": [
+    {
+      "kanaExpression": "ついかんばん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "椎間板",
+      "furiganaExpression": [
+        {
+          "text": "椎",
+          "annotation": "つい"
+        },
+        {
+          "text": "間",
+          "annotation": "かん"
+        },
+        {
+          "text": "板",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "intervertebral disk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bandscheibe",
+        "Discus intervertebralis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "porckorong"
+      ]
+    }
+  ]
+}

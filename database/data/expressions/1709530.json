@@ -1,0 +1,53 @@
+{
+  "id": "1709530",
+  "readings": [
+    {
+      "kanaExpression": "たてじく",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "じゅうじく"
+    },
+    {
+      "kanjiExpression": "縦軸",
+      "furiganaExpression": [
+        {
+          "text": "縦",
+          "annotation": "たて"
+        },
+        {
+          "text": "軸",
+          "annotation": "じく"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vertical axis",
+        "vertical line",
+        "vertical shaft",
+        "spindle",
+        "connection between past and present"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "y-Achse",
+        "Ordinatenachse",
+        "Längsachse",
+        "Zeitverlauf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(тех.) вертикальная ось"
+      ]
+    }
+  ]
+}

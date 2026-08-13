@@ -1,0 +1,65 @@
+{
+  "id": "1224150",
+  "readings": [
+    {
+      "kanaExpression": "きじょう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "騎乗",
+      "furiganaExpression": [
+        {
+          "text": "騎",
+          "annotation": "き"
+        },
+        {
+          "text": "乗",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "riding (on horseback)",
+        "mounting (a horse)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "op een paard rijden",
+        "te paard rijden",
+        "een paard bestijgen",
+        "te paard stijgen",
+        "opstijgen",
+        "het paardrijden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "reiten",
+        "Reiten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állvány",
+        "foglalat",
+        "hátasló",
+        "lóháton"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "езда верхом"
+      ]
+    }
+  ]
+}

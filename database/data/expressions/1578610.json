@@ -1,0 +1,101 @@
+{
+  "id": "1578610",
+  "readings": [
+    {
+      "kanaExpression": "あとあと",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "後々",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "あと"
+        },
+        {
+          "text": "々",
+          "annotation": "あと"
+        }
+      ],
+      "rank": 13677
+    },
+    {
+      "kanjiExpression": "後後",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "あと"
+        },
+        {
+          "text": "後",
+          "annotation": "あと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "跡々",
+      "furiganaExpression": [
+        {
+          "text": "跡",
+          "annotation": "あと"
+        },
+        {
+          "text": "々",
+          "annotation": "あと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "跡跡",
+      "furiganaExpression": [
+        {
+          "text": "跡",
+          "annotation": "あと"
+        },
+        {
+          "text": "跡",
+          "annotation": "あと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "future",
+        "distant future"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "toekomst",
+        "op een dag",
+        "ooit",
+        "op één of andere dag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zukunft",
+        "ferne Zukunft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[отдалённое] будущее"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "en un futuro lejano",
+        "mucho después",
+        "tras mucho tiempo"
+      ]
+    }
+  ]
+}

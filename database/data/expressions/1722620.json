@@ -1,0 +1,51 @@
+{
+  "id": "1722620",
+  "readings": [
+    {
+      "kanaExpression": "ぶっかしすう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "物価指数",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶっ"
+        },
+        {
+          "text": "価",
+          "annotation": "か"
+        },
+        {
+          "text": "指",
+          "annotation": "し"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "price index"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Preisindex"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "prisindex"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1616900",
+  "readings": [
+    {
+      "kanaExpression": "げんさい",
+      "rank": 32000
+    },
+    {
+      "kanaExpression": "げんさつ"
+    },
+    {
+      "kanjiExpression": "減殺",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "殺",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lessening",
+        "diminishing",
+        "reducing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verringerung",
+        "Verkleinerung (häufige inzwischen akzeptierte Lesung von gensai)",
+        "Verkleinerung",
+        "verkleinern",
+        "verringern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) げんさい",
+        "уменьшение; ослабление; снижение",
+        "{～する} (кн.) уменьшать; ослаблять; снижать"
+      ]
+    }
+  ]
+}

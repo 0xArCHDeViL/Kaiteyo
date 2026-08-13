@@ -1,0 +1,45 @@
+{
+  "id": "1861170",
+  "readings": [
+    {
+      "kanaExpression": "えいりん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "映倫",
+      "furiganaExpression": [
+        {
+          "text": "映",
+          "annotation": "えい"
+        },
+        {
+          "text": "倫",
+          "annotation": "りん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Eirin",
+        "Film Classification and Rating Organization"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Eirin {\u003d Japanse Commissie voor de Filmkeuring en -classificatie}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausschuss für filmische Selbstkontrolle",
+        "FSK (Abk.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1240430",
+  "readings": [
+    {
+      "kanaExpression": "きょくてん",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "極点",
+      "furiganaExpression": [
+        {
+          "text": "極",
+          "annotation": "きょく"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pole (north, south)",
+        "climax",
+        "extreme (point)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Höhepunkt",
+        "Scheitelpunkt",
+        "Zenit",
+        "Klimax",
+        "Gipfel",
+        "Maximum",
+        "äußerster Grad",
+        "Pol"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sarkpont",
+        "sarok",
+        "suháng",
+        "igen nagy",
+        "szélső",
+        "utolsó",
+        "végső"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крайняя (самая высшая, самая низшая) точка"
+      ]
+    }
+  ]
+}

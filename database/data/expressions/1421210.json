@@ -1,0 +1,99 @@
+{
+  "id": "1421210",
+  "readings": [
+    {
+      "kanaExpression": "じしん",
+      "rank": 16000
+    },
+    {
+      "kanaExpression": "ない",
+      "rank": 13
+    },
+    {
+      "kanaExpression": "なえ",
+      "rank": 19500
+    },
+    {
+      "kanaExpression": "じぶるい"
+    },
+    {
+      "kanjiExpression": "地震",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "震",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 1823
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "earthquake"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grond",
+        "ondergrond",
+        "bodem",
+        "aardbeving",
+        "{i.h.b.} aardschok",
+        "aardstoot"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "séisme",
+        "secousse tellurique",
+        "tremblement de terre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erdbeben",
+        "Erdstoß"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "földrengés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "землетрясение ((как явление; ср.) しんさい【震災】); подземные толчки"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "potres"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "terremoto"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "jordbävning",
+        "jordskalv"
+      ]
+    }
+  ]
+}

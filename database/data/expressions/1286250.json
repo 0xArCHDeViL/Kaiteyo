@@ -1,0 +1,65 @@
+{
+  "id": "1286250",
+  "readings": [
+    {
+      "kanaExpression": "こっかいぎいん",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "国会議員",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こっ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 16000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "member of the Diet",
+        "Diet member",
+        "member of parliament",
+        "MP"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "parlementslid",
+        "parlementariër",
+        "{Belg.N.",
+        "niet alg.} parlementair",
+        "wetgever",
+        "Kamerlid",
+        "{afk.",
+        "Eng.} MP",
+        "{Am.pol.} Congreslid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Parlamentsmitglied",
+        "Parlamentarier",
+        "Abgeordneter",
+        "Kongressmitglied"
+      ]
+    }
+  ]
+}

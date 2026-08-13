@@ -1,0 +1,72 @@
+{
+  "id": "1597570",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうづり",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "宙吊り",
+      "furiganaExpression": [
+        {
+          "text": "宙",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "吊",
+          "annotation": "づ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "宙づり",
+      "furiganaExpression": [
+        {
+          "text": "宙",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "づり"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "宙釣り",
+      "furiganaExpression": [
+        {
+          "text": "宙",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "釣",
+          "annotation": "づ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hanging in midair",
+        "suspended in midair",
+        "midair stunt",
+        "aerial stunt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hängen in der Luft",
+        "Hängen zwischen Himmel und Erde"
+      ]
+    }
+  ]
+}

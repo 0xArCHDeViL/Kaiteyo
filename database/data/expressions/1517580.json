@@ -1,0 +1,70 @@
+{
+  "id": "1517580",
+  "readings": [
+    {
+      "kanaExpression": "ほうか",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "砲火",
+      "furiganaExpression": [
+        {
+          "text": "砲",
+          "annotation": "ほう"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gunfire",
+        "fire"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kanonvuur",
+        "geschutvuur",
+        "granaatvuur",
+        "artillerievuur",
+        "bombardering",
+        "bombardement",
+        "beschieting"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "coups de feu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschützfeuer",
+        "Artilleriefeuer",
+        "Beschuss"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tüzelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "орудийный огонь"
+      ]
+    }
+  ]
+}

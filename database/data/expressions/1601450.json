@@ -1,0 +1,89 @@
+{
+  "id": "1601450",
+  "readings": [
+    {
+      "kanaExpression": "ひがみ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "僻み",
+      "furiganaExpression": [
+        {
+          "text": "僻",
+          "annotation": "ひが"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "僻",
+      "furiganaExpression": [
+        {
+          "text": "僻",
+          "annotation": "ひがみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prejudice",
+        "bias",
+        "warped view",
+        "jealousy",
+        "inferiority complex"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "complexe d\u0027infériorité",
+        "parti-pris",
+        "préjugé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Neid",
+        "Vorurteil",
+        "Minderwertigkeitskomplex",
+        "Voreingenommenheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elfogultság",
+        "előítélet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предубеждение, предвзятость; недоверие; обидчивость"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "predsodek",
+        "poševno",
+        "prečno",
+        "manjvrednostni kompleks"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "distorsión",
+        "prejuicio"
+      ]
+    }
+  ]
+}

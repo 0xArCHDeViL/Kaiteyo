@@ -1,0 +1,51 @@
+{
+  "id": "1646330",
+  "readings": [
+    {
+      "kanaExpression": "しゃだい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "車台",
+      "furiganaExpression": [
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "台",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chassis",
+        "car body"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Chassis",
+        "Fahrgestell"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alváz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шасси (автомобиля); вагонная рама"
+      ]
+    }
+  ]
+}

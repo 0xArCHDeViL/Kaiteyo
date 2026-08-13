@@ -1,0 +1,67 @@
+{
+  "id": "1470100",
+  "readings": [
+    {
+      "kanaExpression": "のうひん",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "納品",
+      "furiganaExpression": [
+        {
+          "text": "納",
+          "annotation": "のう"
+        },
+        {
+          "text": "品",
+          "annotation": "ひん"
+        }
+      ],
+      "rank": 11080
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "delivery of goods"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leveren",
+        "afleveren",
+        "bezorgen",
+        "levering van goederen",
+        "aflevering",
+        "leverantie",
+        "bezorging",
+        "geleverde koopwaar",
+        "levering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "liefern",
+        "Lieferung",
+        "gelieferte Ware"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áru kiszállítása"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) снабжение; поставки",
+        "{～する} делать поставки",
+        "2) поставленные товары"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "1429780",
+  "readings": [
+    {
+      "kanaExpression": "ながいす",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "長椅子",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "なが"
+        },
+        {
+          "text": "椅",
+          "annotation": "い"
+        },
+        {
+          "text": "子",
+          "annotation": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "長いす",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "なが"
+        },
+        {
+          "text": "いす"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "couch",
+        "bench",
+        "ottoman",
+        "settee"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bank",
+        "sofa",
+        "canapé",
+        "chaise longue",
+        "divan",
+        "ligstoel",
+        "zitbank",
+        "rustbank",
+        "{背のない} ottomane"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sofa",
+        "Couch",
+        "Bank",
+        "Divan",
+        "Canapé",
+        "Kanapee"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "háromüléses kanapé",
+        "kanapé"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "диван, софа, кушетка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sofá",
+        "canapé"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ottoman",
+        "soffa"
+      ]
+    }
+  ]
+}

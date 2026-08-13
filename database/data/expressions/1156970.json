@@ -1,0 +1,73 @@
+{
+  "id": "1156970",
+  "readings": [
+    {
+      "kanaExpression": "いれいさい",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "慰霊祭",
+      "furiganaExpression": [
+        {
+          "text": "慰",
+          "annotation": "い"
+        },
+        {
+          "text": "霊",
+          "annotation": "れい"
+        },
+        {
+          "text": "祭",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "memorial service"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "herdenkingsdienst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "service funèbre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gedenkfeier für einen Verstorbenen",
+        "Seelenmesse",
+        "religiöse Feier zur Beruhigung der Seelen Verstorbener"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "búcsúztatás temetőben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заупокойная служба"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "servicio conmemorativo"
+      ]
+    }
+  ]
+}

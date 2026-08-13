@@ -1,0 +1,48 @@
+{
+  "id": "1636700",
+  "readings": [
+    {
+      "kanaExpression": "かわうお"
+    },
+    {
+      "kanaExpression": "かわざかな",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "川魚",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "魚",
+          "annotation": "うお"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "river fish",
+        "freshwater fish"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flussfisch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "речная рыба",
+        "(см.) かわうお"
+      ]
+    }
+  ]
+}

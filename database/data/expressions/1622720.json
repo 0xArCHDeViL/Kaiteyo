@@ -1,0 +1,80 @@
+{
+  "id": "1622720",
+  "readings": [
+    {
+      "kanaExpression": "ちくぞう",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "築造",
+      "furiganaExpression": [
+        {
+          "text": "築",
+          "annotation": "ちく"
+        },
+        {
+          "text": "造",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "construction",
+        "building"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bouwen",
+        "optrekken",
+        "oprichten",
+        "bouw",
+        "constructie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bauen",
+        "errichten",
+        "Bau",
+        "Errichten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kivitelezés",
+        "szerkezet",
+        "épület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "строительство, сооружение",
+        "{～する} строить, сооружать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "construcción",
+        "edificio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "byggenskap",
+        "husbyggnad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "1657020",
+  "readings": [
+    {
+      "kanaExpression": "ふなつきば",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "船着き場",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "ふな"
+        },
+        {
+          "text": "着",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "船着場",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "ふな"
+        },
+        {
+          "text": "着",
+          "annotation": "つき"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "舟着場",
+      "furiganaExpression": [
+        {
+          "text": "舟",
+          "annotation": "ふな"
+        },
+        {
+          "text": "着",
+          "annotation": "つき"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "船つき場",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "ふな"
+        },
+        {
+          "text": "つき"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "舟着き場",
+      "furiganaExpression": [
+        {
+          "text": "舟",
+          "annotation": "ふな"
+        },
+        {
+          "text": "着",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "舟つき場",
+      "furiganaExpression": [
+        {
+          "text": "舟",
+          "annotation": "ふな"
+        },
+        {
+          "text": "つき"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "harbour",
+        "harbor",
+        "landing place",
+        "wharf",
+        "anchorage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Landungsplatz",
+        "Anlegestelle",
+        "Hafen",
+        "Kai",
+        "Ankerplatz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rakpart",
+        "kikötő",
+        "menedék",
+        "szállás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пристань, причал"
+      ]
+    }
+  ]
+}

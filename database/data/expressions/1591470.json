@@ -1,0 +1,64 @@
+{
+  "id": "1591470",
+  "readings": [
+    {
+      "kanaExpression": "きゅうこう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "旧交",
+      "furiganaExpression": [
+        {
+          "text": "旧",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "交",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "旧好",
+      "furiganaExpression": [
+        {
+          "text": "旧",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "好",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "old friendship"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oude",
+        "vroegere omgang"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alte Freundschaft",
+        "lange bestehende Freundschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "давняя дружба; старое знакомство"
+      ]
+    }
+  ]
+}

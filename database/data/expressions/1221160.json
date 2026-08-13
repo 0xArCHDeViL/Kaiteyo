@@ -1,0 +1,58 @@
+{
+  "id": "1221160",
+  "readings": [
+    {
+      "kanaExpression": "きび",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "機微",
+      "furiganaExpression": [
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "微",
+          "annotation": "び"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subtleties",
+        "niceties",
+        "fine points",
+        "inner workings",
+        "secrets",
+        "subtle",
+        "sensitive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feinheiten",
+        "Details",
+        "Geheimnis",
+        "heikle Natur der Dinge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "finom megkülönböztetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) секрет (чего-л.); тонкости"
+      ]
+    }
+  ]
+}

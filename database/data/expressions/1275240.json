@@ -1,0 +1,57 @@
+{
+  "id": "1275240",
+  "readings": [
+    {
+      "kanaExpression": "こうりつてき",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "効率的",
+      "furiganaExpression": [
+        {
+          "text": "効",
+          "annotation": "こう"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "efficient"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "effizient",
+        "effektiv",
+        "leistungsfähig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eredményes",
+        "hatékony"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "eficaz",
+        "eficiente"
+      ]
+    }
+  ]
+}

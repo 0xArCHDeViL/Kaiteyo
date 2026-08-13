@@ -1,0 +1,51 @@
+{
+  "id": "1203960",
+  "readings": [
+    {
+      "kanaExpression": "がいてき",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "外敵",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "敵",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "foreign enemy",
+        "outside invader"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "äußerer Feind",
+        "feindliches Ausland"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внешний враг"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enemigo extranjero"
+      ]
+    }
+  ]
+}

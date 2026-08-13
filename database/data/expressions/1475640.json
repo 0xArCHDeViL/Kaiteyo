@@ -1,0 +1,70 @@
+{
+  "id": "1475640",
+  "readings": [
+    {
+      "kanaExpression": "うすいた",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "薄板",
+      "furiganaExpression": [
+        {
+          "text": "薄",
+          "annotation": "うす"
+        },
+        {
+          "text": "板",
+          "annotation": "いた"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thin board",
+        "veneer",
+        "thin sheet of steel (3 mm or less)",
+        "thin cloth",
+        "square wooden vase stand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dünnes Holzbrett",
+        "Planke",
+        "Holzspan",
+        "Platte",
+        "Blech (dünner als 3 mm)",
+        "dünner Stoff",
+        "Dünnschicht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "borítás",
+        "máz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) тонкая доска (пластинка)",
+        "2) тонкая ткань",
+        "3) квадратная деревянная подставка (для вазы)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "panel",
+        "tablero",
+        "plancha"
+      ]
+    }
+  ]
+}

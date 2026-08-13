@@ -1,0 +1,129 @@
+{
+  "id": "1604000",
+  "readings": [
+    {
+      "kanaExpression": "まちなみ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "町並み",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "まち"
+        },
+        {
+          "text": "並",
+          "annotation": "な"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 12953
+    },
+    {
+      "kanjiExpression": "町並",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "まち"
+        },
+        {
+          "text": "並",
+          "annotation": "なみ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "街並み",
+      "furiganaExpression": [
+        {
+          "text": "街",
+          "annotation": "まち"
+        },
+        {
+          "text": "並",
+          "annotation": "な"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 12515
+    },
+    {
+      "kanjiExpression": "街並",
+      "furiganaExpression": [
+        {
+          "text": "街",
+          "annotation": "まち"
+        },
+        {
+          "text": "並",
+          "annotation": "なみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "townscape",
+        "street (of stores and houses)",
+        "(look of) stores and houses on street"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "straatbeeld",
+        "huizenrij",
+        "rij huizen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rangée de maisons et magasins",
+        "rue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Häuser",
+        "Häuserflucht",
+        "Stadtbild"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "utca"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ряды домов"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pogled na trgovine in hiše",
+        "ulica trgovin in hiš"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calles",
+        "ciudad"
+      ]
+    }
+  ]
+}

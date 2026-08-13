@@ -1,0 +1,103 @@
+{
+  "id": "1589250",
+  "readings": [
+    {
+      "kanaExpression": "おとしもの",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "落とし物",
+      "furiganaExpression": [
+        {
+          "text": "落",
+          "annotation": "お"
+        },
+        {
+          "text": "とし"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "落し物",
+      "furiganaExpression": [
+        {
+          "text": "落",
+          "annotation": "おと"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lost property",
+        "something dropped and left behind",
+        "dropping something (without realising)",
+        "losing something"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verloren voorwerp",
+        "iets dat men onderweg heeft laten vallen",
+        "iets dat men onderweg verloren is",
+        "gevonden voorwerp"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "objet perdu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verlorene Sache",
+        "verlorener Gegenstand",
+        "Verlorenes",
+        "Fundsache"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "потерянная (оброненная) вещь",
+        "{～をする} потерять (что-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izgubljene stvari"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "objetos extraviados",
+        "artículos perdidos"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hittegods"
+      ]
+    }
+  ]
+}

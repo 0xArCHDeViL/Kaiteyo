@@ -1,0 +1,60 @@
+{
+  "id": "1985020",
+  "readings": [
+    {
+      "kanaExpression": "きづき",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "気づき",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "づき"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "気付き",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "付",
+          "annotation": "づ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "awareness",
+        "realization",
+        "noticing"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tudatosság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обращение внимания (на что-л.)"
+      ]
+    }
+  ]
+}

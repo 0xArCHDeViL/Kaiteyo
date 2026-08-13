@@ -1,0 +1,78 @@
+{
+  "id": "1478160",
+  "readings": [
+    {
+      "kanaExpression": "ぬきだす",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "抜き出す",
+      "furiganaExpression": [
+        {
+          "text": "抜",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "ぬき出す",
+      "furiganaExpression": [
+        {
+          "text": "ぬき"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to pick out",
+        "to single out",
+        "to select",
+        "to extract",
+        "to draw out",
+        "to pull out",
+        "to distill"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "herausziehen",
+        "ausziehen",
+        "auswählen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kivesz a sorról"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выбирать, отбирать"
+      ]
+    }
+  ]
+}

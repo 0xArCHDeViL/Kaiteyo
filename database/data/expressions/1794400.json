@@ -1,0 +1,47 @@
+{
+  "id": "1794400",
+  "readings": [
+    {
+      "kanaExpression": "ようきゅう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "洋弓",
+      "furiganaExpression": [
+        {
+          "text": "洋",
+          "annotation": "よう"
+        },
+        {
+          "text": "弓",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(Western) archery",
+        "Western-style bow"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Westerse boog",
+        "Westers boogschieten",
+        "Westerse boogschieterij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(westlicher)Bogen",
+        "westliches Bogenschießen"
+      ]
+    }
+  ]
+}

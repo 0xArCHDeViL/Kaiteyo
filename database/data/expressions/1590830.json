@@ -1,0 +1,103 @@
+{
+  "id": "1590830",
+  "readings": [
+    {
+      "kanaExpression": "かわるがわる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "代わる代わる",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "か"
+        },
+        {
+          "text": "わる"
+        },
+        {
+          "text": "代",
+          "annotation": "が"
+        },
+        {
+          "text": "わる"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "代る代る",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "かわ"
+        },
+        {
+          "text": "る"
+        },
+        {
+          "text": "代",
+          "annotation": "がわ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "alternately",
+        "by turns"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bij",
+        "om beurten",
+        "om de beurt",
+        "bij toerbeurt",
+        "afwisselend",
+        "beurtelings",
+        "om en om",
+        "een voor een",
+        "de een na de andere"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "en alternance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abwechselnd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "попеременно, по очереди; один за другим"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izmenično",
+        "vzajemno"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "por turnos",
+        "alternadamente"
+      ]
+    }
+  ]
+}

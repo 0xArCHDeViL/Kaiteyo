@@ -1,0 +1,89 @@
+{
+  "id": "1837720",
+  "readings": [
+    {
+      "kanaExpression": "たちあいにん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "立会人",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "たち"
+        },
+        {
+          "text": "会",
+          "annotation": "あい"
+        },
+        {
+          "text": "人",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "立ち会い人",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "会",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "人",
+          "annotation": "にん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "witness",
+        "observer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waarnemer",
+        "getuige",
+        "observeerder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeuge",
+        "Beobachter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szemtanú",
+        "tanúságtétel",
+        "betartó",
+        "megtartó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "присутствующий; свидетель; очевидец; наблюдатель; понятой"
+      ]
+    }
+  ]
+}

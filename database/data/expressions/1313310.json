@@ -1,0 +1,55 @@
+{
+  "id": "1313310",
+  "readings": [
+    {
+      "kanaExpression": "しこう",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "歯垢",
+      "furiganaExpression": [
+        {
+          "text": "歯",
+          "annotation": "し"
+        },
+        {
+          "text": "垢",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(dental) plaque"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tandsteen",
+        "tandaanslag",
+        "tandplak",
+        "plak",
+        "plaque"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Plaque",
+        "Zahnbelag",
+        "Dentalbelag"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sarro dental"
+      ]
+    }
+  ]
+}

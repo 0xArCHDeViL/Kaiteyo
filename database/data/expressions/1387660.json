@@ -1,0 +1,43 @@
+{
+  "id": "1387660",
+  "readings": [
+    {
+      "kanaExpression": "さきだか",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "先高",
+      "furiganaExpression": [
+        {
+          "text": "先",
+          "annotation": "さき"
+        },
+        {
+          "text": "高",
+          "annotation": "だか"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "higher future quotations"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aussicht auf einen Kursanstieg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прогноз повышения цен в недалёком будущем"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "1547220",
+  "readings": [
+    {
+      "kanaExpression": "ようふ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "養父",
+      "furiganaExpression": [
+        {
+          "text": "養",
+          "annotation": "よう"
+        },
+        {
+          "text": "父",
+          "annotation": "ふ"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "foster father",
+        "adoptive father"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "adoptievader",
+        "adoptiefvader",
+        "pleegvader"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Adoptivvater",
+        "Pflegevater"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приёмный отец; тесть; свёкор"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "1599800",
+  "readings": [
+    {
+      "kanaExpression": "にかいだて",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "二階建て",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "階",
+          "annotation": "かい"
+        },
+        {
+          "text": "建",
+          "annotation": "だ"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "二階建",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "階",
+          "annotation": "かい"
+        },
+        {
+          "text": "建",
+          "annotation": "だて"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "２階建て",
+      "furiganaExpression": [
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "階",
+          "annotation": "かい"
+        },
+        {
+          "text": "建",
+          "annotation": "だ"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "２階建",
+      "furiganaExpression": [
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "階",
+          "annotation": "かい"
+        },
+        {
+          "text": "建",
+          "annotation": "だて"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "two-storied building"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gebouw met twee verdiepingen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bâtiment à deux étages"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zweigeschossiges Gebäude",
+        "Zweigeschosser"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "двухэтажный дом"
+      ]
+    }
+  ]
+}

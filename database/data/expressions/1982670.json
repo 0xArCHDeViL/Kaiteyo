@@ -1,0 +1,86 @@
+{
+  "id": "1982670",
+  "readings": [
+    {
+      "kanaExpression": "きもちわるい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "気持ち悪い",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "悪",
+          "annotation": "わる"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "気持ちわるい",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ちわるい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unpleasant",
+        "revolting",
+        "repulsive",
+        "gross",
+        "disgusting",
+        "disturbing",
+        "creepy",
+        "feeling sick",
+        "feeling unwell",
+        "uncomfortable",
+        "annoying",
+        "frustrating"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich unangenehm fühlen",
+        "sich unbehaglich fühlen",
+        "sich ungemütlich fühlen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "¡qué asco!",
+        "desagradable",
+        "asqueroso",
+        "nauseabundo",
+        "repugnante"
+      ]
+    }
+  ]
+}

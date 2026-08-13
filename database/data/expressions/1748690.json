@@ -1,0 +1,47 @@
+{
+  "id": "1748690",
+  "readings": [
+    {
+      "kanaExpression": "ふどうかぶ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "浮動株",
+      "furiganaExpression": [
+        {
+          "text": "浮",
+          "annotation": "ふ"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        },
+        {
+          "text": "株",
+          "annotation": "かぶ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "floating stock"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fluktuierende Aktien"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(бирж.) текучие акции (постоянно выбрасываемые на биржу)"
+      ]
+    }
+  ]
+}

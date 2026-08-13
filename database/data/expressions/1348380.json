@@ -1,0 +1,97 @@
+{
+  "id": "1348380",
+  "readings": [
+    {
+      "kanaExpression": "しょうすうてん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "小数点",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "少数点",
+      "furiganaExpression": [
+        {
+          "text": "少",
+          "annotation": "しょう"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "decimal point",
+        "radix point"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{wisk.} decimaalpunt",
+        "decimaalteken",
+        "komma"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "virgule décimale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dezimalpunkt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tizedespont"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запятая, точка (в десятичной дроби)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "punto decimal"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "decimalkomma"
+      ]
+    }
+  ]
+}

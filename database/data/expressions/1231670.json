@@ -1,0 +1,51 @@
+{
+  "id": "1231670",
+  "readings": [
+    {
+      "kanaExpression": "きょしゅう",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "去就",
+      "furiganaExpression": [
+        {
+          "text": "去",
+          "annotation": "きょ"
+        },
+        {
+          "text": "就",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "leaving or staying",
+        "(one\u0027s) course of action",
+        "(one\u0027s) position",
+        "(one\u0027s) attitude"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einstellung",
+        "Für und Wider",
+        "Verhalten",
+        "Haltung",
+        "Stellungnahme",
+        "Handlungsweise"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) образ действий; позиция"
+      ]
+    }
+  ]
+}

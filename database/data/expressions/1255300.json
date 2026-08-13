@@ -1,0 +1,52 @@
+{
+  "id": "1255300",
+  "readings": [
+    {
+      "kanaExpression": "けっせい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "血清",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "けっ"
+        },
+        {
+          "text": "清",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "serum",
+        "blood serum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blutserum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szérum",
+        "védő-oltóanyag",
+        "vérsavó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сыворотка крови, серум"
+      ]
+    }
+  ]
+}

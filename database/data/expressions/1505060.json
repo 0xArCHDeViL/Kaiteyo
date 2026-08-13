@@ -1,0 +1,110 @@
+{
+  "id": "1505060",
+  "readings": [
+    {
+      "kanaExpression": "ふんそう",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "紛争",
+      "furiganaExpression": [
+        {
+          "text": "紛",
+          "annotation": "ふん"
+        },
+        {
+          "text": "争",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 3495
+    },
+    {
+      "kanjiExpression": "紛諍",
+      "furiganaExpression": [
+        {
+          "text": "紛",
+          "annotation": "ふん"
+        },
+        {
+          "text": "諍",
+          "annotation": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dispute",
+        "conflict",
+        "trouble",
+        "strife"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geschil",
+        "conflict",
+        "twist",
+        "strijd",
+        "onenigheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "conflit",
+        "différend",
+        "litige"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "streiten",
+        "Streit",
+        "Streitigkeit",
+        "Zwist",
+        "Konflikt",
+        "Verwicklung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "veszekedés",
+        "baj",
+        "betegség",
+        "fáradozás",
+        "fáradság",
+        "üzemzavar",
+        "zavar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "раздоры, склока; спор"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prepir",
+        "spor",
+        "razprtija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "conflicto",
+        "disputa",
+        "guerra"
+      ]
+    }
+  ]
+}

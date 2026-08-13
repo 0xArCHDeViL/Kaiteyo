@@ -1,0 +1,67 @@
+{
+  "id": "1939160",
+  "readings": [
+    {
+      "kanaExpression": "しんこくしょ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "申告書",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "しん"
+        },
+        {
+          "text": "告",
+          "annotation": "こく"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "report",
+        "declaration"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aangiftebiljet",
+        "aangifteformulier",
+        "declaratieformulier",
+        "aangifte",
+        "declaratie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bericht",
+        "Deklaration",
+        "Erklärung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszámoló",
+        "hírnév"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доклад, докладная записка; заявление; (воен.) рапорт (письменный)"
+      ]
+    }
+  ]
+}

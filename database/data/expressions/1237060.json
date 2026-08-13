@@ -1,0 +1,58 @@
+{
+  "id": "1237060",
+  "readings": [
+    {
+      "kanaExpression": "きょうぎ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "教義",
+      "furiganaExpression": [
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "義",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 10695
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "creed",
+        "doctrine",
+        "dogma"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dogma",
+        "Doktrin",
+        "Lehre",
+        "Glaubenssatz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hiszekegy",
+        "hitvallás",
+        "krédó",
+        "dogma",
+        "tantétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "учение, доктрина; догма"
+      ]
+    }
+  ]
+}

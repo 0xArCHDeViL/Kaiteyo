@@ -1,0 +1,71 @@
+{
+  "id": "1172140",
+  "readings": [
+    {
+      "kanaExpression": "うりょう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "雨量",
+      "furiganaExpression": [
+        {
+          "text": "雨",
+          "annotation": "う"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(amount of) rainfall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoeveelheid neerslag",
+        "regenvolume"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "degré de précipitations",
+        "précipitations"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Niederschlagsmenge",
+        "Regenmenge (umfasst auch Schnee, Hagel, Reif etc.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "количество дождевых осадков"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precipitaciones"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "nederbörd",
+        "regnmängd"
+      ]
+    }
+  ]
+}

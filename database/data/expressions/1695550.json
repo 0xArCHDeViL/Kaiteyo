@@ -1,0 +1,39 @@
+{
+  "id": "1695550",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうび",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "中火",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "火",
+          "annotation": "び"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "medium flame (cooking)",
+        "medium heat",
+        "medium fire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mittelstarke Hitze"
+      ]
+    }
+  ]
+}

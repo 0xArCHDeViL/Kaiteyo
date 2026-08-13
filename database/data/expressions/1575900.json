@@ -1,0 +1,117 @@
+{
+  "id": "1575900",
+  "readings": [
+    {
+      "kanaExpression": "よこいと",
+      "rank": 37000
+    },
+    {
+      "kanaExpression": "ぬきいと"
+    },
+    {
+      "kanaExpression": "ぬき",
+      "rank": 17500
+    },
+    {
+      "kanaExpression": "い",
+      "rank": 1181
+    },
+    {
+      "kanjiExpression": "横糸",
+      "furiganaExpression": [
+        {
+          "text": "横",
+          "annotation": "よこ"
+        },
+        {
+          "text": "糸",
+          "annotation": "いと"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "緯糸",
+      "furiganaExpression": [
+        {
+          "text": "緯糸",
+          "annotation": "よこいと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "緯",
+      "furiganaExpression": [
+        {
+          "text": "緯",
+          "annotation": "よこいと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "よこ糸",
+      "furiganaExpression": [
+        {
+          "text": "よこ"
+        },
+        {
+          "text": "糸",
+          "annotation": "いと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weft",
+        "woof (crosswise threads on a loom)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "breedtedraad",
+        "schietdraad",
+        "inslagdraad",
+        "inslaggaren",
+        "inslag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einschuss",
+        "Einschlag",
+        "Schussfaden",
+        "Schuss",
+        "Schussgarn",
+        "Querfaden",
+        "Breitengrad"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "artikulátlan ugatásszerű hang",
+        "vetülék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уток",
+        "(см.) ぬきいと【緯糸】",
+        "уточная нить; уточная пряжа"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tejido",
+        "trama"
+      ]
+    }
+  ]
+}

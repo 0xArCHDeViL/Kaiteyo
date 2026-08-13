@@ -1,0 +1,59 @@
+{
+  "id": "1575760",
+  "readings": [
+    {
+      "kanaExpression": "つわり",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "悪阻",
+      "furiganaExpression": [
+        {
+          "text": "悪阻",
+          "annotation": "つわり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "morning sickness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} zwangerschapsmisselijkheid",
+        "zwangerschapsbraken",
+        "hyperemesis gravidarum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "morgendliche Übelkeit",
+        "Schwangerschaftsbeschwerden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "terhességi hányinger"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тошнота (на втором, третьем месяце беременности)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nauseas matutinas"
+      ]
+    }
+  ]
+}

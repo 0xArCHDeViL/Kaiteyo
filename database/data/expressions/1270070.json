@@ -1,0 +1,95 @@
+{
+  "id": "1270070",
+  "readings": [
+    {
+      "kanaExpression": "あとばらい",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "ごばらい"
+    },
+    {
+      "kanjiExpression": "後払い",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "あと"
+        },
+        {
+          "text": "払",
+          "annotation": "ばら"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "後払",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "あと"
+        },
+        {
+          "text": "払",
+          "annotation": "ばらい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "あと払い",
+      "furiganaExpression": [
+        {
+          "text": "あと"
+        },
+        {
+          "text": "払",
+          "annotation": "ばら"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deferred payment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nabetaling",
+        "uitgestelde betaling",
+        "krediet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachzahlung",
+        "nachträgliche Zahlung",
+        "Zahlungsaufschub",
+        "Ratenzahlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) отсроченный платёж",
+        "2) уплата по выполнении заказа"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pago aplazado"
+      ]
+    }
+  ]
+}

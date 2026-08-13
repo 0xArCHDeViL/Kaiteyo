@@ -1,0 +1,105 @@
+{
+  "id": "1160980",
+  "readings": [
+    {
+      "kanaExpression": "ひとにぎり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "一握り",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "握",
+          "annotation": "にぎ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "ひと握り",
+      "furiganaExpression": [
+        {
+          "text": "ひと"
+        },
+        {
+          "text": "握",
+          "annotation": "にぎ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "handful",
+        "small amount",
+        "small number"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "handvol",
+        "handjevol",
+        "handgreep",
+        "greep",
+        "handbreed"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "une poignée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Handgriff",
+        "eine Handvoll",
+        "eine geringe Anzahl",
+        "eine geringe Menge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "maréknyi",
+        "maroknyi",
+        "megátalkodott",
+        "nehezen fegyelmezhető",
+        "nehezen kezelhető"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пригоршня, горсть (чего-л.; перен.) горстка; кучка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ena pest",
+        "majhna količina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "puñado"
+      ]
+    }
+  ]
+}

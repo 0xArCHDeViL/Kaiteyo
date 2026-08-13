@@ -1,0 +1,63 @@
+{
+  "id": "1259720",
+  "readings": [
+    {
+      "kanaExpression": "みだしご",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "見出し語",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "headword (in a dictionary)",
+        "entry word"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "trefwoord",
+        "lemma",
+        "artikel",
+        "ingang"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stichwort",
+        "Lemma",
+        "Wörterbucheintrag",
+        "Eintrag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заглавное слово"
+      ]
+    }
+  ]
+}

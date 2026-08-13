@@ -1,0 +1,83 @@
+{
+  "id": "1589850",
+  "readings": [
+    {
+      "kanaExpression": "かかりいん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "係員",
+      "furiganaExpression": [
+        {
+          "text": "係",
+          "annotation": "かかり"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 13564
+    },
+    {
+      "kanjiExpression": "係り員",
+      "furiganaExpression": [
+        {
+          "text": "係",
+          "annotation": "かか"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "person in charge",
+        "official",
+        "attendant"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "officiel (à la douane)",
+        "responsable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zuständiger Angestellter",
+        "zuständiger Mitarbeiter",
+        "verantwortliche Person",
+        "Zuständiger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hatósági közeg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "исполнитель; служащий (данного учреждения); персонал, служащие; лицо, ведающее (чем-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odgovorna oseba"
+      ]
+    }
+  ]
+}

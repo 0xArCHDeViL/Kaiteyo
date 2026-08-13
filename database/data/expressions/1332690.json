@@ -1,0 +1,54 @@
+{
+  "id": "1332690",
+  "readings": [
+    {
+      "kanaExpression": "あきぐち",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "秋口",
+      "furiganaExpression": [
+        {
+          "text": "秋",
+          "annotation": "あき"
+        },
+        {
+          "text": "口",
+          "annotation": "ぐち"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beginning of autumn",
+        "beginning of fall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "begin van de herfst",
+        "voorherfst",
+        "eerste deel van het najaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herbstanfang",
+        "Frühherbst",
+        "früher Herbst"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "начало осени, ранняя осень"
+      ]
+    }
+  ]
+}

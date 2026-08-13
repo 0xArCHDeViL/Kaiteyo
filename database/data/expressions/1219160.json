@@ -1,0 +1,77 @@
+{
+  "id": "1219160",
+  "readings": [
+    {
+      "kanaExpression": "きばん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "基板",
+      "furiganaExpression": [
+        {
+          "text": "基",
+          "annotation": "き"
+        },
+        {
+          "text": "板",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "基盤",
+      "furiganaExpression": [
+        {
+          "text": "基",
+          "annotation": "き"
+        },
+        {
+          "text": "盤",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 2903
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(circuit) board",
+        "substrate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{comp.} moederbord",
+        "{anat.} lamina basalis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Platine (für gedruckte Schaltungen)",
+        "Wafer",
+        "Substrat (für integrierte Schaltungen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alap",
+        "anyag",
+        "integrált áramkör alaplemeze",
+        "áramkör hordozólapja"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "основа, база, фундамент",
+        "{…を～とする} базироваться, основываться (на чём-л.)"
+      ]
+    }
+  ]
+}

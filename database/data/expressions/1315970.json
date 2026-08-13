@@ -1,0 +1,48 @@
+{
+  "id": "1315970",
+  "readings": [
+    {
+      "kanaExpression": "じかんきゅう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "時間給",
+      "furiganaExpression": [
+        {
+          "text": "時",
+          "annotation": "じ"
+        },
+        {
+          "text": "間",
+          "annotation": "かん"
+        },
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hourly pay",
+        "hourly wage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stundenlohn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "почасовая оплата"
+      ]
+    }
+  ]
+}

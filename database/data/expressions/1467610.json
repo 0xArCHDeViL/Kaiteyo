@@ -1,0 +1,111 @@
+{
+  "id": "1467610",
+  "readings": [
+    {
+      "kanaExpression": "ぬらす",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "濡らす",
+      "furiganaExpression": [
+        {
+          "text": "濡",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "らす"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "濡す",
+      "furiganaExpression": [
+        {
+          "text": "濡",
+          "annotation": "ぬら"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to wet",
+        "to moisten",
+        "to dampen",
+        "to soak",
+        "to dip"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "natmaken",
+        "benatten",
+        "natten",
+        "bevochtigen",
+        "vochtig maken",
+        "natgooien",
+        "{w.g.} hozen",
+        "humecteren",
+        "invochten",
+        "drenken",
+        "{fig.} bedauwen",
+        "{m.b.t. aarde} slempen",
+        "{veroud.",
+        "lit.t.} netten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mouiller",
+        "tremper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nass machen",
+        "anfeuchten",
+        "befeuchten",
+        "einweichen",
+        "durchnässen",
+        "eintauchen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beáztat",
+        "megnedvesít",
+        "belelapoz",
+        "bemárt",
+        "bemerít",
+        "csáváz",
+        "hirtelen leereszt",
+        "márt",
+        "megmártja magát",
+        "megmerít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мочить, смачивать, увлажнять"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mojar",
+        "empapar"
+      ]
+    }
+  ]
+}

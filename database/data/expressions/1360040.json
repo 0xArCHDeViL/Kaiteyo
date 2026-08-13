@@ -1,0 +1,141 @@
+{
+  "id": "1360040",
+  "readings": [
+    {
+      "kanaExpression": "ねまき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "寝巻き",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "巻",
+          "annotation": "ま"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "寝間着",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "間",
+          "annotation": "ま"
+        },
+        {
+          "text": "着",
+          "annotation": "き"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "寝巻",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "巻",
+          "annotation": "まき"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "寝まき",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "まき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nightclothes",
+        "nightwear",
+        "sleepwear",
+        "pyjamas",
+        "pajamas",
+        "nightgown",
+        "nightdress"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nachtgoed",
+        "nachtkleding",
+        "nachtkledij",
+        "slaapgoed",
+        "slaaptenue",
+        "nachtgewaad",
+        "nachttoilet",
+        "nachtkostuum",
+        "negligé"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chemise de nuit",
+        "pyjama"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachthemd",
+        "Schlafanzug",
+        "Pyjama",
+        "Nachtgewand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pizsama"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ночная рубашка, ночной халат, пижама"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pižama",
+        "spalna obleka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ropa de dormir",
+        "pijama",
+        "pijamas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "1828070",
+  "readings": [
+    {
+      "kanaExpression": "よわふくみ",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "よわぶくみ"
+    },
+    {
+      "kanjiExpression": "弱含み",
+      "furiganaExpression": [
+        {
+          "text": "弱",
+          "annotation": "よわ"
+        },
+        {
+          "text": "含",
+          "annotation": "ふく"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bearish tendency",
+        "weak tone (of a market)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Baissetendenz",
+        "Bärentendenz"
+      ]
+    }
+  ]
+}

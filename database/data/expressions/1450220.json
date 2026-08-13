@@ -1,0 +1,63 @@
+{
+  "id": "1450220",
+  "readings": [
+    {
+      "kanaExpression": "ふみいれる",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "踏み入れる",
+      "furiganaExpression": [
+        {
+          "text": "踏",
+          "annotation": "ふ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 12499
+    },
+    {
+      "kanjiExpression": "踏みいれる",
+      "furiganaExpression": [
+        {
+          "text": "踏",
+          "annotation": "ふ"
+        },
+        {
+          "text": "みいれる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to walk in on",
+        "to tread upon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eintreten",
+        "betreten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:) 足を踏み入れる [в]ступить (на землю и т. п.), войти; сделать первый шаг"
+      ]
+    }
+  ]
+}

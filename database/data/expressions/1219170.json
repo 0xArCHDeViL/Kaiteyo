@@ -1,0 +1,84 @@
+{
+  "id": "1219170",
+  "readings": [
+    {
+      "kanaExpression": "きばん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "基盤",
+      "furiganaExpression": [
+        {
+          "text": "基",
+          "annotation": "き"
+        },
+        {
+          "text": "盤",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 2903
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "base",
+        "basis",
+        "foundation",
+        "footing",
+        "infrastructure",
+        "bedrock"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "basis",
+        "fundering",
+        "grondlaag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fondation",
+        "fondement",
+        "base",
+        "assise",
+        "infrastructure",
+        "roche-mère",
+        "substrat (d\u0027un circuit imprimé)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fundament",
+        "Grundlage",
+        "Basis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alap"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "osnova"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bases",
+        "cimientos",
+        "fundamentos"
+      ]
+    }
+  ]
+}

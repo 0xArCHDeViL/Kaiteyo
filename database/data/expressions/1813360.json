@@ -1,0 +1,59 @@
+{
+  "id": "1813360",
+  "readings": [
+    {
+      "kanaExpression": "しんしゅ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "進取",
+      "furiganaExpression": [
+        {
+          "text": "進",
+          "annotation": "しん"
+        },
+        {
+          "text": "取",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "enterprising",
+        "go-ahead",
+        "progressive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aktivität",
+        "Unternehmungslust"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vállalat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предприимчивость",
+        "{～の}, {～的} предприимчивый, инициативный"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "driftighet"
+      ]
+    }
+  ]
+}

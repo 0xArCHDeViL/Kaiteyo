@@ -1,0 +1,77 @@
+{
+  "id": "1319800",
+  "readings": [
+    {
+      "kanaExpression": "しつい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "失意",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しつ"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "disappointment",
+        "despair",
+        "despondency",
+        "broken heart",
+        "adversity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "teleurstelling",
+        "deceptie",
+        "tegenvaller",
+        "wanhoop"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "adversité",
+        "désappointement",
+        "désespoir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Enttäuschung",
+        "Entmutigung",
+        "Niedergeschlagenheit",
+        "Bedrücktheit",
+        "Mutlosigkeit",
+        "Verzagtheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csalódás",
+        "kiábrándulás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) разочарование; подавленное состояние",
+        "2) невезение; напасти"
+      ]
+    }
+  ]
+}

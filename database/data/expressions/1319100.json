@@ -1,0 +1,59 @@
+{
+  "id": "1319100",
+  "readings": [
+    {
+      "kanaExpression": "しきてん",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "式典",
+      "furiganaExpression": [
+        {
+          "text": "式",
+          "annotation": "しき"
+        },
+        {
+          "text": "典",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 8594
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ceremony",
+        "rites"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ceremonie",
+        "rite",
+        "viering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fest",
+        "Feier"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ünnepély"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "церемония, ритуал; торжество"
+      ]
+    }
+  ]
+}

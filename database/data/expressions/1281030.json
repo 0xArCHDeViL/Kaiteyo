@@ -1,0 +1,72 @@
+{
+  "id": "1281030",
+  "readings": [
+    {
+      "kanaExpression": "かんがえこむ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "考え込む",
+      "furiganaExpression": [
+        {
+          "text": "考",
+          "annotation": "かんが"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "考えこむ",
+      "furiganaExpression": [
+        {
+          "text": "考",
+          "annotation": "かんが"
+        },
+        {
+          "text": "えこむ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to ponder",
+        "to brood"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in Gedanken versunken sein",
+        "tief nachdenken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "latolgat",
+        "kotlik",
+        "mereng",
+        "tűnődik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "задумываться, погружаться в мысли"
+      ]
+    }
+  ]
+}

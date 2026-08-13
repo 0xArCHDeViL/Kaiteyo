@@ -1,0 +1,66 @@
+{
+  "id": "1430810",
+  "readings": [
+    {
+      "kanaExpression": "ちょっかつ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "直轄",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "ちょっ"
+        },
+        {
+          "text": "轄",
+          "annotation": "かつ"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "direct control",
+        "direct supervision"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "directe controle",
+        "rechtstreeks toezicht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "contrôle direct",
+        "sous contrôle",
+        "surveillance directe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "direkte Oberaufsicht",
+        "direkte Kontrolle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "непосредственное ведение (подчинение)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "control directo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1403700",
+  "readings": [
+    {
+      "kanaExpression": "ぞうさく",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "造作",
+      "furiganaExpression": [
+        {
+          "text": "造",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "作",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "雑作",
+      "furiganaExpression": [
+        {
+          "text": "雑",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "作",
+          "annotation": "さく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "building (esp. a house)",
+        "house fixture",
+        "fitting",
+        "facial features"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einrichtung",
+        "Ausstattung",
+        "Mobiliar",
+        "Möbel",
+        "Gesichtszüge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elkészítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) построение, изготовление (чего-л.)",
+        "2) постройка (здания)",
+        "3) меблировка, обстановка",
+        "{…を～する} обставлять, меблировать (что-л.)",
+        "{～なしで}, 作の付いてない без мебели, немеблированный",
+        "4) черты лица"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1287560",
+  "readings": [
+    {
+      "kanaExpression": "こくえん",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "黒鉛",
+      "furiganaExpression": [
+        {
+          "text": "黒",
+          "annotation": "こく"
+        },
+        {
+          "text": "鉛",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "graphite"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grafiet",
+        "kachelpotlood",
+        "potlood"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "graphite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Graphit",
+        "Reißblei"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "grafit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "графит"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grafito"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "grafit"
+      ]
+    }
+  ]
+}

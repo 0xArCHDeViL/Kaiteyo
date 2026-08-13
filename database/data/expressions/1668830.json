@@ -1,0 +1,53 @@
+{
+  "id": "1668830",
+  "readings": [
+    {
+      "kanaExpression": "ききゅう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "帰休",
+      "furiganaExpression": [
+        {
+          "text": "帰",
+          "annotation": "き"
+        },
+        {
+          "text": "休",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "leave",
+        "furlough",
+        "temporary layoff"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Urlaub zuhause"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eltávozás",
+        "engedély"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(воен.) досрочное увольнение; досрочная демобилизация",
+        "{～になる} быть досрочно уволенным (демобилизованным)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "1422700",
+  "readings": [
+    {
+      "kanaExpression": "ちゃしつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "茶室",
+      "furiganaExpression": [
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tearoom",
+        "tea house",
+        "tea-ceremony room",
+        "tea arbour",
+        "tea arbor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "theesalet",
+        "theekamer",
+        "theeceremoniekamer",
+        "theepaviljoen",
+        "theehuisje",
+        "theekoepel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chashitsu (dans la maison japonaise traditionnelle, pièce de petites dimensions pour la cérémonie du thé)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Teezimmer",
+        "Stube für Teezeremonie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "комната (павильон) для чайной церемонии"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "salón de té"
+      ]
+    }
+  ]
+}

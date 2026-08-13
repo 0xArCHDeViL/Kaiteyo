@@ -1,0 +1,55 @@
+{
+  "id": "1266980",
+  "readings": [
+    {
+      "kanaExpression": "こがい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "戸外",
+      "furiganaExpression": [
+        {
+          "text": "戸",
+          "annotation": "こ"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "open air",
+        "outdoors",
+        "outside"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das Freie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "a szabad ég alatt",
+        "a szabadban",
+        "házon kívül",
+        "szabad ég alatt",
+        "szabadban"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～で} вне дома, на открытом (на свежем) воздухе"
+      ]
+    }
+  ]
+}

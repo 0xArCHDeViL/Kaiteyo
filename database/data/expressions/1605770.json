@@ -1,0 +1,53 @@
+{
+  "id": "1605770",
+  "readings": [
+    {
+      "kanaExpression": "ゆり",
+      "rank": 12624
+    },
+    {
+      "kanjiExpression": "揺",
+      "furiganaExpression": [
+        {
+          "text": "揺",
+          "annotation": "ゆり"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "揺り",
+      "furiganaExpression": [
+        {
+          "text": "揺",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vibration",
+        "flickering",
+        "jolting",
+        "tremor"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lengés",
+        "rázkódás",
+        "remegés",
+        "rengés",
+        "vibrálás",
+        "pislákoló"
+      ]
+    }
+  ]
+}

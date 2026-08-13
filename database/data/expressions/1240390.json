@@ -1,0 +1,54 @@
+{
+  "id": "1240390",
+  "readings": [
+    {
+      "kanaExpression": "きょくち",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "極地",
+      "furiganaExpression": [
+        {
+          "text": "極",
+          "annotation": "きょく"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "polar regions",
+        "the pole",
+        "farthest land",
+        "ends of the earth"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pol",
+        "Polarregion"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полярный район, полюс"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "región polar",
+        "zona polar"
+      ]
+    }
+  ]
+}

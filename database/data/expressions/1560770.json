@@ -1,0 +1,64 @@
+{
+  "id": "1560770",
+  "readings": [
+    {
+      "kanaExpression": "なにわぶし",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "浪花節",
+      "furiganaExpression": [
+        {
+          "text": "浪花",
+          "annotation": "なにわ"
+        },
+        {
+          "text": "節",
+          "annotation": "ぶし"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "難波節",
+      "furiganaExpression": [
+        {
+          "text": "難波",
+          "annotation": "なにわ"
+        },
+        {
+          "text": "節",
+          "annotation": "ぶし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "naniwabushi",
+        "variety of sung narrative popular during the Edo period"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onder shamisen-begeleiding gebrachte declamatie en zanguitvoering van verhalen over trouw",
+        "plicht of menselijke gevoelens"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Naniwa・bushi (zu Shamisen-Begleitung gesungene volkstümliche Balladen über kriegerische Heldentaten vergangener Zeiten o.Ä.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нанивабуси (название жанра сказа речитативом)"
+      ]
+    }
+  ]
+}

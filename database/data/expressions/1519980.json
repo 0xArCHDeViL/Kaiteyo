@@ -1,0 +1,72 @@
+{
+  "id": "1519980",
+  "readings": [
+    {
+      "kanaExpression": "ふくらみ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "膨らみ",
+      "furiganaExpression": [
+        {
+          "text": "膨",
+          "annotation": "ふく"
+        },
+        {
+          "text": "らみ"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "脹らみ",
+      "furiganaExpression": [
+        {
+          "text": "脹",
+          "annotation": "ふく"
+        },
+        {
+          "text": "らみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "swelling",
+        "bulge",
+        "puff"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwellung",
+        "Anschwellen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dagadás",
+        "dagadó",
+        "daganat",
+        "dombocska",
+        "duzzadás",
+        "duzzadó",
+        "kiöblösödő",
+        "megduzzadás",
+        "kihasasodás",
+        "fuvalom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вздутие; припухлость; опухоль"
+      ]
+    }
+  ]
+}

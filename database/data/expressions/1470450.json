@@ -1,0 +1,63 @@
+{
+  "id": "1470450",
+  "readings": [
+    {
+      "kanaExpression": "のうし",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "脳死",
+      "furiganaExpression": [
+        {
+          "text": "脳",
+          "annotation": "のう"
+        },
+        {
+          "text": "死",
+          "annotation": "し"
+        }
+      ],
+      "rank": 13608
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brain death"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mort cérébrale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hirntod",
+        "Gehirntod"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "možganska smrt",
+        "smrt možganov"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "muerte cerebral"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hjärndöd"
+      ]
+    }
+  ]
+}

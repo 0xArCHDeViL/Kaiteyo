@@ -1,0 +1,60 @@
+{
+  "id": "1882570",
+  "readings": [
+    {
+      "kanaExpression": "しょうしゅうざい",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "消臭剤",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "臭",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deodorant",
+        "deodorizer",
+        "air freshener"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Desodorans",
+        "Deodorant",
+        "Geruchsverbesserer",
+        "Luftverbesserer",
+        "Luftverbesserungsmittel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dezodor",
+        "szagtalanító"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "deodorant"
+      ]
+    }
+  ]
+}

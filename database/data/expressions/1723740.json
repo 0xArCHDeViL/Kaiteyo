@@ -1,0 +1,44 @@
+{
+  "id": "1723740",
+  "readings": [
+    {
+      "kanaExpression": "べいしょく",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "米食",
+      "furiganaExpression": [
+        {
+          "text": "米",
+          "annotation": "べい"
+        },
+        {
+          "text": "食",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rice-based or centered diet (centred)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ernährung von Reis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "питание рисом (как основным продуктом)",
+        "{～する} питаться рисом"
+      ]
+    }
+  ]
+}

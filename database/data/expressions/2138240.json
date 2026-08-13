@@ -1,0 +1,69 @@
+{
+  "id": "2138240",
+  "readings": [
+    {
+      "kanaExpression": "よくあるしつもん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "よくある質問",
+      "furiganaExpression": [
+        {
+          "text": "よくある"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "良くある質問",
+      "furiganaExpression": [
+        {
+          "text": "良",
+          "annotation": "よ"
+        },
+        {
+          "text": "くある"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "frequently asked questions",
+        "FAQ"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "FAQ",
+        "häufige Fragen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "preguntas más frecuentes",
+        "FAQ (acrónimo del inglés Frequently Asked Questions)"
+      ]
+    }
+  ]
+}

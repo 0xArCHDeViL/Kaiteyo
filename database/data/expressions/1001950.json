@@ -1,0 +1,109 @@
+{
+  "id": "1001950",
+  "readings": [
+    {
+      "kanaExpression": "おまいり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お参り",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "参",
+          "annotation": "まい"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 12793
+    },
+    {
+      "kanjiExpression": "御参り",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "参",
+          "annotation": "まい"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "visit (to a shrine, grave, etc.)",
+        "worship"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een bezoek brengen aan een tempel",
+        "schrijn",
+        "een bedevaart doen",
+        "op bedevaart gaan",
+        "een pelgrimstocht doen",
+        "{een goddelijk wezen} vereren",
+        "aanbidden",
+        "bidden tot",
+        "bezoek aan een tempel",
+        "bedevaart",
+        "{veroud.} beevaart",
+        "pelgrimstocht",
+        "heiligdomsvaart",
+        "verering",
+        "aanbidding {van een goddelijk wezen}",
+        "gebed",
+        "het bidden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "culte",
+        "visite au temple"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schreinbesuch",
+        "Tempelbesuch",
+        "Wallfahrt",
+        "Grabbesuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "imádás"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "čaščenje",
+        "romanje",
+        "obisk svetišča"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "visita a la tumbe de alguien",
+        "peregrinación"
+      ]
+    }
+  ]
+}

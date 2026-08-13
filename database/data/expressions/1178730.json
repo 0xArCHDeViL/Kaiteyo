@@ -1,0 +1,69 @@
+{
+  "id": "1178730",
+  "readings": [
+    {
+      "kanaExpression": "しおやき",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "塩焼き",
+      "furiganaExpression": [
+        {
+          "text": "塩",
+          "annotation": "しお"
+        },
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "塩焼",
+      "furiganaExpression": [
+        {
+          "text": "塩",
+          "annotation": "しお"
+        },
+        {
+          "text": "焼",
+          "annotation": "やき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grilling (fish) with salt",
+        "broiling with salt",
+        "boiling seawater to get salt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grillen mit Salz",
+        "Braten mit Salz",
+        "mit Salz Gegrilltes",
+        "Salzgewinnung durch Verdunsten von Meerwasser",
+        "Salzsieden",
+        "jmd., der durch Verdunsten von Meerwasser Salz gewinnt",
+        "Salzsieder"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) печённая с солью рыба",
+        "{～にする} печь с солью (рыбу)",
+        "2) а) выпаривание соли; б) человек, занимающийся выпариванием соли"
+      ]
+    }
+  ]
+}

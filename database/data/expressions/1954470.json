@@ -1,0 +1,44 @@
+{
+  "id": "1954470",
+  "readings": [
+    {
+      "kanaExpression": "ひし",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "皮脂",
+      "furiganaExpression": [
+        {
+          "text": "皮",
+          "annotation": "ひ"
+        },
+        {
+          "text": "脂",
+          "annotation": "し"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sebum",
+        "sebaceous matter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Talg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "смегма, кожное сало"
+      ]
+    }
+  ]
+}

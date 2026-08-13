@@ -1,0 +1,67 @@
+{
+  "id": "1215880",
+  "readings": [
+    {
+      "kanaExpression": "かんしんじ",
+      "rank": 21500
+    },
+    {
+      "kanaExpression": "かんしんごと"
+    },
+    {
+      "kanjiExpression": "関心事",
+      "furiganaExpression": [
+        {
+          "text": "関",
+          "annotation": "かん"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 14757
+    },
+    {
+      "kanjiExpression": "関心ごと",
+      "furiganaExpression": [
+        {
+          "text": "関",
+          "annotation": "かん"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "ごと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "matter of concern",
+        "matter of interest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in jmds. Interesse liegende Angelegenheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) предмет (вопрос), вызывающий усиленное внимание (вызывающий беспокойство)"
+      ]
+    }
+  ]
+}

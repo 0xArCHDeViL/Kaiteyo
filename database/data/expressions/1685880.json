@@ -1,0 +1,75 @@
+{
+  "id": "1685880",
+  "readings": [
+    {
+      "kanaExpression": "ゆくさき",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "いくさき"
+    },
+    {
+      "kanjiExpression": "行く先",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "く"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "destination",
+        "whereabouts",
+        "future",
+        "prospects"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bestemming",
+        "eindpunt",
+        "doel",
+        "plaats waar iem.",
+        "iets zich bevindt",
+        "toekomst",
+        "wat te gebeuren staat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ziel",
+        "Aufenthaltsort",
+        "Zukunft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) место назначения; место, куда идёт (направляется) (кто-л.)",
+        "2) (см.) ゆくすえ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(el) destino (de uno)",
+        "(el) paradero (de uno)",
+        "(el) futuro"
+      ]
+    }
+  ]
+}

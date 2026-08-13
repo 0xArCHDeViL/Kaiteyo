@@ -1,0 +1,51 @@
+{
+  "id": "1401050",
+  "readings": [
+    {
+      "kanaExpression": "そうじょう",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "相乗",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "そう"
+        },
+        {
+          "text": "乗",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "multiplication",
+        "synergism"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Multiplikation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyógyszerek szinergizmusa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мат.) умножение",
+        "{～する} умножать"
+      ]
+    }
+  ]
+}

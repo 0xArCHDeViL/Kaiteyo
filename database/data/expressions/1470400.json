@@ -1,0 +1,52 @@
+{
+  "id": "1470400",
+  "readings": [
+    {
+      "kanaExpression": "のうえん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "脳炎",
+      "furiganaExpression": [
+        {
+          "text": "脳",
+          "annotation": "のう"
+        },
+        {
+          "text": "炎",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brain inflammation",
+        "encephalitis",
+        "cerebritis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "encéphalite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gehirnentzündung",
+        "Enzephalitis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "энцефалит, воспаление мозга"
+      ]
+    }
+  ]
+}

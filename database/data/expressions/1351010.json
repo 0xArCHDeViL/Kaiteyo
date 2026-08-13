@@ -1,0 +1,73 @@
+{
+  "id": "1351010",
+  "readings": [
+    {
+      "kanaExpression": "しょうこう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "症候",
+      "furiganaExpression": [
+        {
+          "text": "症",
+          "annotation": "しょう"
+        },
+        {
+          "text": "候",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "symptoms"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} symptoom",
+        "ziekteverschijnsel",
+        "verschijnsel",
+        "kenmerk",
+        "indicatie",
+        "teken",
+        "klachten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "symptôme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Symptom"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tünetek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "симптомы болезни"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "síntomas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1414230",
+  "readings": [
+    {
+      "kanaExpression": "たいせい",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "大勢",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "勢",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 3902
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "general situation",
+        "general trend",
+        "general tendency",
+        "way things are moving",
+        "current (of the times)",
+        "tide (e.g. of public opinion)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "algemene toestand",
+        "tendens",
+        "trend",
+        "algemeen klimaat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "opinion courante",
+        "tendance générale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "allgemeine Lage",
+        "allgemeine Tendenz",
+        "große Macht",
+        "starker Einfluss"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общая ситуация; общие тенденции"
+      ]
+    }
+  ]
+}

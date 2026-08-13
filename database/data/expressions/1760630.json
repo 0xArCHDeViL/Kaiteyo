@@ -1,0 +1,42 @@
+{
+  "id": "1760630",
+  "readings": [
+    {
+      "kanaExpression": "ごくぼそ",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "極細",
+      "furiganaExpression": [
+        {
+          "text": "極",
+          "annotation": "ごく"
+        },
+        {
+          "text": "細",
+          "annotation": "ぼそ"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "superfine",
+        "extra-fine",
+        "extremely thin",
+        "extra-fine woollen yarn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sehr fein",
+        "feinst",
+        "Feinheit"
+      ]
+    }
+  ]
+}

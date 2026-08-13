@@ -1,0 +1,126 @@
+{
+  "id": "1597060",
+  "readings": [
+    {
+      "kanaExpression": "たつまき",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "竜巻",
+      "furiganaExpression": [
+        {
+          "text": "竜",
+          "annotation": "たつ"
+        },
+        {
+          "text": "巻",
+          "annotation": "まき"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "龍巻",
+      "furiganaExpression": [
+        {
+          "text": "龍",
+          "annotation": "たつ"
+        },
+        {
+          "text": "巻",
+          "annotation": "まき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "竜巻き",
+      "furiganaExpression": [
+        {
+          "text": "竜",
+          "annotation": "たつ"
+        },
+        {
+          "text": "巻",
+          "annotation": "ま"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "龍巻き",
+      "furiganaExpression": [
+        {
+          "text": "龍",
+          "annotation": "たつ"
+        },
+        {
+          "text": "巻",
+          "annotation": "ま"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tornado",
+        "whirlwind",
+        "waterspout",
+        "twister"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tornado",
+        "windhoos",
+        "hoos",
+        "wervelwind",
+        "dwarrelwind",
+        "wervelstorm"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cyclone",
+        "tornade",
+        "typhon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trombe",
+        "Tornado",
+        "Windhose",
+        "Wasserhose"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tornádó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "смерч"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tornado",
+        "tromba"
+      ]
+    }
+  ]
+}

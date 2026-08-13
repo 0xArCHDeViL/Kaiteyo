@@ -1,0 +1,72 @@
+{
+  "id": "1512050",
+  "readings": [
+    {
+      "kanaExpression": "へんたい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "編隊",
+      "furiganaExpression": [
+        {
+          "text": "編",
+          "annotation": "へん"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "formation (e.g. of aircraft)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} formatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Formationsbildung",
+        "Formation",
+        "Verband"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "harcrend",
+        "képződés",
+        "kialakulás",
+        "létrehozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(воен.) сводный отряд; (ав.) звено, группа"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "formación"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "formation"
+      ]
+    }
+  ]
+}

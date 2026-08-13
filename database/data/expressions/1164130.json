@@ -1,0 +1,87 @@
+{
+  "id": "1164130",
+  "readings": [
+    {
+      "kanaExpression": "ひとむかし",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "一昔",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "昔",
+          "annotation": "むかし"
+        }
+      ],
+      "rank": 14510
+    },
+    {
+      "kanjiExpression": "ひと昔",
+      "furiganaExpression": [
+        {
+          "text": "ひと"
+        },
+        {
+          "text": "昔",
+          "annotation": "むかし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "an age (ago)",
+        "a long time (ago)",
+        "a decade (ago)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ces dernières années",
+        "les dix dernières années"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Zeitalter",
+        "lange Zeit (meist) etwa zehn Jahren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "évtized"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "десять лет назад; (перен.) целый век"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dolgo časa",
+        "desetletje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "eras",
+        "hace mucho tiempo",
+        "década",
+        "los ultimos diez años"
+      ]
+    }
+  ]
+}

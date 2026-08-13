@@ -1,0 +1,96 @@
+{
+  "id": "1213040",
+  "readings": [
+    {
+      "kanaExpression": "かんたい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "歓待",
+      "furiganaExpression": [
+        {
+          "text": "歓",
+          "annotation": "かん"
+        },
+        {
+          "text": "待",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "款待",
+      "furiganaExpression": [
+        {
+          "text": "款",
+          "annotation": "かん"
+        },
+        {
+          "text": "待",
+          "annotation": "たい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "warm welcome",
+        "friendly reception",
+        "hospitality",
+        "entertainment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "warm onthalen",
+        "hartelijk ontvangen",
+        "een warm onthaal",
+        "hartelijke ontvangst geven",
+        "warm onthaal",
+        "hartelijke ontvangst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "accueil cordial",
+        "réception cordiale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gastfreundschaft üben",
+        "freundlich aufnehmen",
+        "warm empfangen",
+        "herzliche Aufnahme",
+        "Gastlichkeit",
+        "Gastfreundschaft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vendéglátás",
+        "vendégszeretet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "радушие, радушный (тёплый) приём, гостеприимство",
+        "{～する} тепло (радушно) принимать, оказывать тёплый (радушный) приём, оказывать гостеприимство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "buena acogida"
+      ]
+    }
+  ]
+}

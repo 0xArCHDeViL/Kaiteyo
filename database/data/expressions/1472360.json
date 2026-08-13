@@ -1,0 +1,67 @@
+{
+  "id": "1472360",
+  "readings": [
+    {
+      "kanaExpression": "はいしゅつ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "排出",
+      "furiganaExpression": [
+        {
+          "text": "排",
+          "annotation": "はい"
+        },
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        }
+      ],
+      "rank": 5743
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "discharge",
+        "evacuation",
+        "emission (e.g. of CO2)",
+        "ejection",
+        "excretion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verbreiten",
+        "Ausstoßen",
+        "Ablassen",
+        "Abwerfen",
+        "Ausscheidung",
+        "Sekretion",
+        "Absonderung",
+        "verbreiten",
+        "ausstoßen",
+        "ablassen",
+        "abwerfen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kibocsátás",
+        "kiürítés",
+        "kisugárzás",
+        "rádióadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выпускание; выхлоп",
+        "{～する} выпускать, выделять"
+      ]
+    }
+  ]
+}

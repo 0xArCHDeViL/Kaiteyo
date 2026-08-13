@@ -1,0 +1,64 @@
+{
+  "id": "2020680",
+  "readings": [
+    {
+      "kanaExpression": "じ",
+      "rank": 1688
+    },
+    {
+      "kanjiExpression": "時",
+      "furiganaExpression": [
+        {
+          "text": "時",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 113
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hour",
+        "o\u0027clock",
+        "(specified) time",
+        "when ...",
+        "during ..."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "~ uur",
+        "{veroud.} (te) klokke ~"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "temps (spécifié)",
+        "quand...",
+        "durant..."
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "óra"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ura (v dnevu)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hora"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "1352340",
+  "readings": [
+    {
+      "kanaExpression": "あげおろし",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "上げ下ろし",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "下",
+          "annotation": "お"
+        },
+        {
+          "text": "ろし"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "揚げ卸し",
+      "furiganaExpression": [
+        {
+          "text": "揚",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "卸",
+          "annotation": "おろ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "raising and lowering",
+        "loading and unloading (cargo)",
+        "praising and criticizing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het op- en neerlaten",
+        "het laden en lossen",
+        "het weven",
+        "weverij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auf- und Abladen",
+        "Heben und Senken"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поднятие и спуск",
+        "погрузка и выгрузка",
+        "1) поднятие и опускание (спуск)",
+        "2) погрузка и выгрузка"
+      ]
+    }
+  ]
+}

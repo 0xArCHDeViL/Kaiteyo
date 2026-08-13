@@ -1,0 +1,65 @@
+{
+  "id": "1202940",
+  "readings": [
+    {
+      "kanaExpression": "かいへい",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "開閉",
+      "furiganaExpression": [
+        {
+          "text": "開",
+          "annotation": "かい"
+        },
+        {
+          "text": "閉",
+          "annotation": "へい"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "opening and shutting",
+        "opening and closing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opening en sluiting",
+        "het openen en sluiten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ouvrir et fermer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffnen und schließen",
+        "auf- und zumachen",
+        "auf- und zugehen",
+        "an- und ausschalten",
+        "an- und abschalten",
+        "Öffnen und Schließen",
+        "Auf- und Zumachen",
+        "Ein- und Ausschalten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) открывание и закрывание",
+        "2) (эл.) включение и выключение"
+      ]
+    }
+  ]
+}

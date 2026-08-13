@@ -1,0 +1,103 @@
+{
+  "id": "1249380",
+  "readings": [
+    {
+      "kanaExpression": "けいりゅう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "係留",
+      "furiganaExpression": [
+        {
+          "text": "係",
+          "annotation": "けい"
+        },
+        {
+          "text": "留",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "繋留",
+      "furiganaExpression": [
+        {
+          "text": "繋",
+          "annotation": "けい"
+        },
+        {
+          "text": "留",
+          "annotation": "りゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mooring",
+        "anchorage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aanmeren",
+        "afmeren",
+        "meren",
+        "vastmeren",
+        "vastleggen",
+        "aanleggen",
+        "tuien",
+        "vertuien",
+        "het aanmeren",
+        "het afmeren",
+        "het meren",
+        "het vastmeren",
+        "het vastleggen",
+        "het aanleggen",
+        "het tuien",
+        "het vertuien"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verankerung",
+        "Vertäuung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "horgonyzás",
+        "kikötőhely",
+        "lehorgonyzás",
+        "lerögzítés",
+        "horgonyzási díj",
+        "horgonyzóbér",
+        "kifeszítés",
+        "pillérképzés",
+        "remete tanyája",
+        "remetebarlang",
+        "remetelak",
+        "kikötés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "постановка на мёртвый якорь (бочку, бридель, швартов), швартовка",
+        "{～する} ставить (становиться) на мёртвый якорь (бочку, бридель), швартоваться"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "förtöjning"
+      ]
+    }
+  ]
+}

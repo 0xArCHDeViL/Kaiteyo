@@ -1,0 +1,76 @@
+{
+  "id": "1372120",
+  "readings": [
+    {
+      "kanaExpression": "すいめん",
+      "rank": 18000
+    },
+    {
+      "kanaExpression": "みなも"
+    },
+    {
+      "kanjiExpression": "水面",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 7980
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water\u0027s surface"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "watervlak",
+        "wateroppervlak",
+        "wateroppervlakte",
+        "waterspiegel",
+        "{pregn.} oppervlakte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "surface de l\u0027eau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasseroberfläche",
+        "Wasserspiegel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поверхность воды"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vodna površina",
+        "gladina vode"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "superficie del agua"
+      ]
+    }
+  ]
+}

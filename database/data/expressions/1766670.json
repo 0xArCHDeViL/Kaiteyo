@@ -1,0 +1,41 @@
+{
+  "id": "1766670",
+  "readings": [
+    {
+      "kanaExpression": "にしにほん",
+      "rank": 18000
+    },
+    {
+      "kanaExpression": "にしにっぽん"
+    },
+    {
+      "kanjiExpression": "西日本",
+      "furiganaExpression": [
+        {
+          "text": "西",
+          "annotation": "にし"
+        },
+        {
+          "text": "日本",
+          "annotation": "にほん"
+        }
+      ],
+      "rank": 8406
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "western Japan (usu. Chūbu region and westward)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Westjapan (Westteil Japans mit den Regionen Kinki, Chūgoku, Shikoku und Kyūshū)",
+        "Kyūshū"
+      ]
+    }
+  ]
+}

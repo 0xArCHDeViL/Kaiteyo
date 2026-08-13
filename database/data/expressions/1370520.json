@@ -1,0 +1,67 @@
+{
+  "id": "1370520",
+  "readings": [
+    {
+      "kanaExpression": "ずめん",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "図面",
+      "furiganaExpression": [
+        {
+          "text": "図",
+          "annotation": "ず"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 5816
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drawing",
+        "diagram",
+        "plans",
+        "blueprint"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tekening",
+        "ontwerp",
+        "plan",
+        "plattegrond"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeichnung",
+        "Karte",
+        "Plan",
+        "Konstruktionszeichnung",
+        "Blaupause"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kép",
+        "tervrajz",
+        "műszaki rajz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ず【図】 1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "1202360",
+  "readings": [
+    {
+      "kanaExpression": "えもじ",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "エモジ"
+    },
+    {
+      "kanjiExpression": "絵文字",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "文",
+          "annotation": "も"
+        },
+        {
+          "text": "字",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "絵もじ",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "もじ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "emoji",
+        "pictorial symbol",
+        "pictograph",
+        "pictogram",
+        "ASCII art"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beeldschrift",
+        "pictografie",
+        "{i.h.b.} hiëroglifisch schrift",
+        "pictogram",
+        "beeldschriftteken",
+        "{i.h.b.} hiëroglief",
+        "emoticon",
+        "{oneig.} smiley"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bilderschrift",
+        "Ideogramm",
+        "Piktogramm",
+        "Hieroglyphe",
+        "Emoticon",
+        "Bildsymbol",
+        "Emoji (der Illustration dienendes Piktogramm)",
+        "ASCII-Art"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пиктограмма, пиктографический иероглиф"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pictograma",
+        "ideograma"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1413070",
+  "readings": [
+    {
+      "kanaExpression": "おおあめ",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "大雨",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "おお"
+        },
+        {
+          "text": "雨",
+          "annotation": "あめ"
+        }
+      ],
+      "rank": 9629
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heavy rain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{meteo.} fikse regenbui",
+        "zware regenval",
+        "stortregen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pluie torrentielle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "starker Regen",
+        "schwere Regenfälle",
+        "Wolkenbruch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ливень"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "naliv",
+        "močen dež",
+        "močno deževje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "chaparrón",
+        "chubasco",
+        "aguacero",
+        "lluvia fuerte"
+      ]
+    }
+  ]
+}

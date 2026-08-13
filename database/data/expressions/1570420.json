@@ -1,0 +1,87 @@
+{
+  "id": "1570420",
+  "readings": [
+    {
+      "kanaExpression": "きずな",
+      "rank": 26000
+    },
+    {
+      "kanaExpression": "きづな"
+    },
+    {
+      "kanjiExpression": "絆",
+      "furiganaExpression": [
+        {
+          "text": "絆",
+          "annotation": "きずな"
+        }
+      ],
+      "rank": 8986
+    },
+    {
+      "kanjiExpression": "紲",
+      "furiganaExpression": [
+        {
+          "text": "紲",
+          "annotation": "きずな"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bonds (between people)",
+        "(emotional) ties",
+        "relationship",
+        "connection",
+        "link",
+        "tether",
+        "fetters"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "band",
+        "betrekking",
+        "{fig.} keten",
+        "{fig.} kluister",
+        "{fig.} boei",
+        "tui",
+        "tuier",
+        "tuiertouw",
+        "tuierketting",
+        "lijn",
+        "ketting",
+        "{鷹狩りで} langveter",
+        "veter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fessel",
+        "Band",
+        "Verbindung",
+        "Leine"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hátráltatás",
+        "jelzálog",
+        "kényelmetlenség",
+        "terhes kötelezettség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "связь, узы, путы"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "1707220",
+  "readings": [
+    {
+      "kanaExpression": "じょうききかん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "蒸気機関",
+      "furiganaExpression": [
+        {
+          "text": "蒸",
+          "annotation": "じょう"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "関",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "steam engine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stoommachine",
+        "{form.} stoomwerktuig",
+        "{veroud.} stoomtuig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dampfmaschine"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gőzmozdony"
+      ]
+    }
+  ]
+}

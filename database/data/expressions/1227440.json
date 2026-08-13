@@ -1,0 +1,89 @@
+{
+  "id": "1227440",
+  "readings": [
+    {
+      "kanaExpression": "あだうち",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "仇討ち",
+      "furiganaExpression": [
+        {
+          "text": "仇",
+          "annotation": "あだ"
+        },
+        {
+          "text": "討",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "あだ討ち",
+      "furiganaExpression": [
+        {
+          "text": "あだ"
+        },
+        {
+          "text": "討",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vengeance",
+        "revenge",
+        "retaliation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wraak",
+        "vergelding",
+        "revanche",
+        "weerwraak",
+        "wraakneming",
+        "het wreken",
+        "wedervergelding",
+        "represaille",
+        "retaliatie",
+        "{Jap.gesch.} bloedwraak",
+        "vendetta"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Racheaktion",
+        "Rache",
+        "Revanche"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bosszú",
+        "bosszúállás",
+        "megtorlás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[кровавая] месть"
+      ]
+    }
+  ]
+}

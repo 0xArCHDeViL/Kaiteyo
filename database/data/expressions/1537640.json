@@ -1,0 +1,82 @@
+{
+  "id": "1537640",
+  "readings": [
+    {
+      "kanaExpression": "のほうず",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "野放図",
+      "furiganaExpression": [
+        {
+          "text": "野",
+          "annotation": "の"
+        },
+        {
+          "text": "放",
+          "annotation": "ほう"
+        },
+        {
+          "text": "図",
+          "annotation": "ず"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "野方図",
+      "furiganaExpression": [
+        {
+          "text": "野",
+          "annotation": "の"
+        },
+        {
+          "text": "方",
+          "annotation": "ほう"
+        },
+        {
+          "text": "図",
+          "annotation": "ず"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wild",
+        "unruly",
+        "arrogant",
+        "endless (e.g. spending)",
+        "uncontrolled",
+        "rampant (e.g. weeds)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ungezügelt",
+        "bodenlos",
+        "ausgelassen",
+        "außer Rand und Band",
+        "toll",
+        "wild"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "be nem szabályozott",
+        "nem szabályozott",
+        "szabályozatlan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.) предел, конец"
+      ]
+    }
+  ]
+}

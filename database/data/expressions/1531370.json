@@ -1,0 +1,56 @@
+{
+  "id": "1531370",
+  "readings": [
+    {
+      "kanaExpression": "めいい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "名医",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "めい"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "noted doctor",
+        "excellent physician"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beroemd dokter",
+        "bekend arts",
+        "befaamd medicus",
+        "gerenommeerd geneesheer",
+        "vermaard heelmeester"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "berühmter Arzt",
+        "großartiger Arzt",
+        "begabter Arzt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) знаменитый врач, известный специалист"
+      ]
+    }
+  ]
+}

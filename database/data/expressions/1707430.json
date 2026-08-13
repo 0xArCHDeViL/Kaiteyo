@@ -1,0 +1,89 @@
+{
+  "id": "1707430",
+  "readings": [
+    {
+      "kanaExpression": "とりはらい",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "取り払い",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "取払い",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "removing",
+        "clearing (away)",
+        "demolishing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verwijdering",
+        "wegruiming",
+        "weghaling",
+        "opruiming",
+        "ontmanteling",
+        "sloop",
+        "afbraak"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abreißen",
+        "Abriss",
+        "Wegräumen",
+        "Entfernen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tisztás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "удаление, устранение; снос (напр. здания)",
+        "{～になる} быть убранным (снесённым); быть устранённым"
+      ]
+    }
+  ]
+}

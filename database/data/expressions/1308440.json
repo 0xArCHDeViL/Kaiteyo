@@ -1,0 +1,65 @@
+{
+  "id": "1308440",
+  "readings": [
+    {
+      "kanaExpression": "しじょうちょうさ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "市場調査",
+      "furiganaExpression": [
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "場",
+          "annotation": "じょう"
+        },
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "査",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "market research"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "marktonderzoek",
+        "marktverkenning",
+        "marktanalyse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Marktforschung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "piackutatás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "investigación de mercados"
+      ]
+    }
+  ]
+}

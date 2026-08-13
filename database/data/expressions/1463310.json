@@ -1,0 +1,56 @@
+{
+  "id": "1463310",
+  "readings": [
+    {
+      "kanaExpression": "にるい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "二塁",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "塁",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "２塁",
+      "furiganaExpression": [
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "塁",
+          "annotation": "るい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "second base"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} tweede honk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Second Base"
+      ]
+    }
+  ]
+}

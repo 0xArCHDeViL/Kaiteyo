@@ -1,0 +1,68 @@
+{
+  "id": "1956310",
+  "readings": [
+    {
+      "kanaExpression": "さん",
+      "rank": 75
+    },
+    {
+      "kanjiExpression": "賛",
+      "furiganaExpression": [
+        {
+          "text": "賛",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "讃",
+      "furiganaExpression": [
+        {
+          "text": "讃",
+          "annotation": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "praise",
+        "tribute",
+        "inscription (on a painting)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Legende",
+        "Bildinschrift",
+        "Bildunterschrift"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felirat",
+        "monda",
+        "képaláírás",
+        "képszöveg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хвала, панегирик"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "leyenda (titulo, inscripción)",
+        "subtitulo"
+      ]
+    }
+  ]
+}

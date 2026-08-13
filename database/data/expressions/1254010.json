@@ -1,0 +1,86 @@
+{
+  "id": "1254010",
+  "readings": [
+    {
+      "kanaExpression": "あくび",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "アクビ"
+    },
+    {
+      "kanjiExpression": "欠伸",
+      "furiganaExpression": [
+        {
+          "text": "欠伸",
+          "annotation": "あくび"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "欠",
+      "furiganaExpression": [
+        {
+          "text": "欠",
+          "annotation": "あくび"
+        }
+      ],
+      "rank": 13892
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yawn",
+        "yawning",
+        "kanji \"yawning\" radical (radical 76)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geeuw",
+        "gaap",
+        "geeuwen",
+        "gapen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bâillement",
+        "radical de kanji « bâillement » (radical 76)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gähnen",
+        "gähnen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ásítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зевота, зевок",
+        "{～をする} зевать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bostezo",
+        "bostezar (y estirarse)",
+        "bostezar"
+      ]
+    }
+  ]
+}

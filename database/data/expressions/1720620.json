@@ -1,0 +1,58 @@
+{
+  "id": "1720620",
+  "readings": [
+    {
+      "kanaExpression": "しんやく",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "新薬",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "薬",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 13633
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "new medicine",
+        "new drug"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nieuw geneesmiddel",
+        "nieuw medicijn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "neues Medikament"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "новое лекарство; новые медикаменты"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "medicamento nuevo",
+        "(un) nuevo medicamento"
+      ]
+    }
+  ]
+}

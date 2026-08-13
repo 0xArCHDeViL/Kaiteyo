@@ -1,0 +1,152 @@
+{
+  "id": "1610550",
+  "readings": [
+    {
+      "kanaExpression": "あらわれ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "現れ",
+      "furiganaExpression": [
+        {
+          "text": "現",
+          "annotation": "あらわ"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "表れ",
+      "furiganaExpression": [
+        {
+          "text": "表",
+          "annotation": "あらわ"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "現われ",
+      "furiganaExpression": [
+        {
+          "text": "現",
+          "annotation": "あら"
+        },
+        {
+          "text": "われ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "表われ",
+      "furiganaExpression": [
+        {
+          "text": "表",
+          "annotation": "あら"
+        },
+        {
+          "text": "われ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "顕れ",
+      "furiganaExpression": [
+        {
+          "text": "顕",
+          "annotation": "あらわ"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "embodiment",
+        "manifestation",
+        "materialization",
+        "materialisation",
+        "expression",
+        "indication"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "openbaring",
+        "blijk",
+        "uiting",
+        "teken",
+        "aanwijzing",
+        "aanduiding",
+        "indicatie",
+        "symptoom"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "incarnation",
+        "manifestation",
+        "matérialisation",
+        "expression",
+        "indication",
+        "marque",
+        "signe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeichen",
+        "Äußerung",
+        "Symptom",
+        "Ausdruck",
+        "Offenbarung",
+        "Erscheinung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kinyilvánítás",
+        "kifejezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проявление, выражение"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prikaz"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "expresión",
+        "resultado",
+        "reflejo",
+        "muestra",
+        "divulgación",
+        "publificación",
+        "difusión"
+      ]
+    }
+  ]
+}

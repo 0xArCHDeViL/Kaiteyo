@@ -1,0 +1,90 @@
+{
+  "id": "1223615",
+  "readings": [
+    {
+      "kanaExpression": "あなた",
+      "rank": 275
+    },
+    {
+      "kanjiExpression": "貴方",
+      "furiganaExpression": [
+        {
+          "text": "貴方",
+          "annotation": "あなた"
+        }
+      ],
+      "rank": 4631
+    },
+    {
+      "kanjiExpression": "貴女",
+      "furiganaExpression": [
+        {
+          "text": "貴女",
+          "annotation": "あなた"
+        }
+      ],
+      "rank": 11838
+    },
+    {
+      "kanjiExpression": "貴男",
+      "furiganaExpression": [
+        {
+          "text": "貴男",
+          "annotation": "あなた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "you",
+        "dear",
+        "honey"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vous, toi (pour un interlocuteur de même statut ou inférieur)",
+        "chéri (appellation d\u0027un mari par sa femme)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "du",
+        "Sie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hölgy",
+        "drágán"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вы (обращение между посторонними, женщинами-подругами и жены к мужу)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tú",
+        "señorita",
+        "usted",
+        "querido (como la esposa llama al marido)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "du"
+      ]
+    }
+  ]
+}

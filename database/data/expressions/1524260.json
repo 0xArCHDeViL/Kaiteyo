@@ -1,0 +1,97 @@
+{
+  "id": "1524260",
+  "readings": [
+    {
+      "kanaExpression": "まほうびん",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "マホービン"
+    },
+    {
+      "kanjiExpression": "魔法瓶",
+      "furiganaExpression": [
+        {
+          "text": "魔",
+          "annotation": "ま"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        },
+        {
+          "text": "瓶",
+          "annotation": "びん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "魔法びん",
+      "furiganaExpression": [
+        {
+          "text": "魔",
+          "annotation": "ま"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        },
+        {
+          "text": "びん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thermos bottle",
+        "vacuum flask"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "thermosfles",
+        "thermoskan",
+        "{niet alg.} thermos",
+        "isoleerkan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bouteille thermos"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Thermosflasche",
+        "Thermoskanne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "termosz",
+        "hőpalack"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "термос"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "termo",
+        "botella aislante"
+      ]
+    }
+  ]
+}

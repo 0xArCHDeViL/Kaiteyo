@@ -1,0 +1,98 @@
+{
+  "id": "1593360",
+  "readings": [
+    {
+      "kanaExpression": "こなごな",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "粉々",
+      "furiganaExpression": [
+        {
+          "text": "粉",
+          "annotation": "こな"
+        },
+        {
+          "text": "々",
+          "annotation": "ごな"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "粉粉",
+      "furiganaExpression": [
+        {
+          "text": "粉",
+          "annotation": "こな"
+        },
+        {
+          "text": "粉",
+          "annotation": "ごな"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in very small pieces"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aan",
+        "in stukken",
+        "in fragmenten",
+        "in brokken",
+        "in",
+        "tot gruis",
+        "tot stof",
+        "aan gruzelementen",
+        "gruizelementen",
+        "gruzementen",
+        "gruizementen",
+        "uit elkaar",
+        "tot poeder",
+        "{volkst.} in de poeier",
+        "tot pulver",
+        "tot kruim",
+        "in duigen",
+        "{gew.} in brijzels",
+        "{～に} aan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stückweise",
+        "in kleinen Stücken",
+        "kleine Stücke"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～に[なって]} вдребезги; в порошок",
+        "{～になる} разбиться вдребезги, разбиться на мелкие куски",
+        "{～にする} а) размолоть; размельчить; б) разбить вдребезги (на мелкие куски)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "v drobcih",
+        "v majhnih koščkih"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "polvo",
+        "añicos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1035470",
+  "readings": [
+    {
+      "kanaExpression": "オメガ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "Ω",
+      "furiganaExpression": [
+        {
+          "text": "Ω",
+          "annotation": "オメガ"
+        }
+      ],
+      "rank": 11866
+    },
+    {
+      "kanjiExpression": "ω",
+      "furiganaExpression": [
+        {
+          "text": "ω",
+          "annotation": "オメガ"
+        }
+      ],
+      "rank": 5470
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "omega"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Omega (letzter Buchstabe des griechischen Alphabets)",
+        "Omega (Name und Wz. eines schweizer Uhrenherstellers)"
+      ]
+    }
+  ]
+}

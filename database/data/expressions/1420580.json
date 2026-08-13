@@ -1,0 +1,63 @@
+{
+  "id": "1420580",
+  "readings": [
+    {
+      "kanaExpression": "ちじ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "知事",
+      "furiganaExpression": [
+        {
+          "text": "知",
+          "annotation": "ち"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 2856
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prefectural governor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gouverneur",
+        "prefect"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "préfet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gouverneur (einer Präfektur)",
+        "Präfekt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "губернатор [префектуры]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gobernador de la prefectura"
+      ]
+    }
+  ]
+}

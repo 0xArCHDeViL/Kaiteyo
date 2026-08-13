@@ -1,0 +1,72 @@
+{
+  "id": "1500080",
+  "readings": [
+    {
+      "kanaExpression": "ふうりょく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "風力",
+      "furiganaExpression": [
+        {
+          "text": "風",
+          "annotation": "ふう"
+        },
+        {
+          "text": "力",
+          "annotation": "りょく"
+        }
+      ],
+      "rank": 12565
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wind power",
+        "force (level on the Beaufort wind speed scale)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "windkracht",
+        "windsterkte",
+        "windenergie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "énergie éolienne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Windstärke",
+        "Windgeschwindigkeit",
+        "Windkraft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сила ветра"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "energía eólica"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vindkraft"
+      ]
+    }
+  ]
+}

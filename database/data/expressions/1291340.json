@@ -1,0 +1,88 @@
+{
+  "id": "1291340",
+  "readings": [
+    {
+      "kanaExpression": "さい",
+      "rank": 5524
+    },
+    {
+      "kanjiExpression": "差異",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "異",
+          "annotation": "い"
+        }
+      ],
+      "rank": 7615
+    },
+    {
+      "kanjiExpression": "差違",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "違",
+          "annotation": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "difference",
+        "disparity",
+        "gap"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verschil",
+        "onderscheid",
+        "ongelijkheid",
+        "differentie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Differenz",
+        "Unterschied"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "különbség",
+        "egyenlőtlenség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разница, расхождение, различие, отличие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "diferencia",
+        "disparidad"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skillnad"
+      ]
+    }
+  ]
+}

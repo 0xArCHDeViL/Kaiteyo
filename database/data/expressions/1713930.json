@@ -1,0 +1,39 @@
+{
+  "id": "1713930",
+  "readings": [
+    {
+      "kanaExpression": "たいこう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "対校",
+      "furiganaExpression": [
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "校",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pertaining to school"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zwischen Schulen",
+        "Vergleich von verschiedenen Handschriften eines Textes",
+        "Vergleich mit dem Manuskript eines Textes"
+      ]
+    }
+  ]
+}

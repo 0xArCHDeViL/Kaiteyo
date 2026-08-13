@@ -1,0 +1,68 @@
+{
+  "id": "1328270",
+  "readings": [
+    {
+      "kanaExpression": "てびょうし",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "手拍子",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "拍",
+          "annotation": "びょう"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beating time with one\u0027s hands",
+        "clapping to the beat",
+        "making a careless move (in go, shogi, etc.)",
+        "responding to an opponent\u0027s move without proper thought"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het met de handen de maat slaan",
+        "het ritmisch klappen in de handen",
+        "handclap",
+        "{go",
+        "shogi} het op mechanische wijze zetten doen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlagen des Taktes mit der Hand",
+        "schlechter Zug",
+        "unüberlegter Zug"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gondatlanul"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отстукивание такта рукой"
+      ]
+    }
+  ]
+}

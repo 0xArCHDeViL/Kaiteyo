@@ -1,0 +1,45 @@
+{
+  "id": "1300340",
+  "readings": [
+    {
+      "kanaExpression": "さんこう",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "三校",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "校",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "third proof"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Drittkorrektur",
+        "drittes Korrekturlesen",
+        "dritte Korrekturfahne"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "третья корректура"
+      ]
+    }
+  ]
+}

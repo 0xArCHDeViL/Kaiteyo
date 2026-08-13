@@ -1,0 +1,70 @@
+{
+  "id": "1539790",
+  "readings": [
+    {
+      "kanaExpression": "ゆうし",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "勇士",
+      "furiganaExpression": [
+        {
+          "text": "勇",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brave warrior",
+        "hero",
+        "brave man"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dapper man",
+        "moedig man",
+        "held",
+        "dapper soldaat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "brave guerrier",
+        "héros",
+        "preux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tapferer Krieger",
+        "Held",
+        "Recke"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hős"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "храбрец; отважный воин"
+      ]
+    }
+  ]
+}

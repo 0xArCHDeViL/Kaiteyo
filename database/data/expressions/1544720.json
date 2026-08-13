@@ -1,0 +1,51 @@
+{
+  "id": "1544720",
+  "readings": [
+    {
+      "kanaExpression": "あたえ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "与え",
+      "furiganaExpression": [
+        {
+          "text": "与",
+          "annotation": "あた"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gift",
+        "godsend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geben",
+        "Gabe",
+        "Geschenk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adomány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дар"
+      ]
+    }
+  ]
+}

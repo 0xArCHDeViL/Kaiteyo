@@ -1,0 +1,72 @@
+{
+  "id": "1346140",
+  "readings": [
+    {
+      "kanaExpression": "かちめ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "勝ち目",
+      "furiganaExpression": [
+        {
+          "text": "勝",
+          "annotation": "か"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chance (of success)",
+        "odds"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "winstverwachting",
+        "winstkans",
+        "kansen op overwinning",
+        "winnende ogen bij het dobbelen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewinnaussicht",
+        "Siegeschance"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "esély",
+        "végzet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шансы на выигрыш (на победу)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oportunidad",
+        "chance",
+        "ventaja"
+      ]
+    }
+  ]
+}

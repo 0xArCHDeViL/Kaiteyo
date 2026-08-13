@@ -1,0 +1,82 @@
+{
+  "id": "1829810",
+  "readings": [
+    {
+      "kanaExpression": "いきじごく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "生き地獄",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "い"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "獄",
+          "annotation": "ごく"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "生地獄",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "いき"
+        },
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "獄",
+          "annotation": "ごく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hell on earth",
+        "living hell"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hel op aarde",
+        "levende hel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hölle auf Erden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сущий ад"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "infierno en la tierra",
+        "infierno en vida"
+      ]
+    }
+  ]
+}

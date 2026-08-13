@@ -1,0 +1,99 @@
+{
+  "id": "1505290",
+  "readings": [
+    {
+      "kanaExpression": "ぶんげい",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "文芸",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "芸",
+          "annotation": "げい"
+        }
+      ],
+      "rank": 8322
+    },
+    {
+      "kanjiExpression": "文藝",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "藝",
+          "annotation": "げい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "literature",
+        "the arts",
+        "art and literature",
+        "liberal arts"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kunst en letteren",
+        "taalkunst",
+        "literaire kunst",
+        "{oneig.} letterkunde",
+        "literatuur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arts et lettres",
+        "belles-lettres"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Literatur",
+        "schöne Literatur",
+        "Dichtung",
+        "Kunst und Literatur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "irodalom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[художественная] литература"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "literatura",
+        "literarna umetnost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "literatura",
+        "arte literario"
+      ]
+    }
+  ]
+}

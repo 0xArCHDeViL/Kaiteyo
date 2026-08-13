@@ -1,0 +1,79 @@
+{
+  "id": "1002090",
+  "readings": [
+    {
+      "kanaExpression": "おてもり",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "お手盛り",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "盛",
+          "annotation": "も"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "御手盛り",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "盛",
+          "annotation": "も"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "making arbitrary decisions which benefit oneself",
+        "self-approved plan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zelfbediening",
+        "zelfbevoordeling",
+        "schikkingen zodat men er zelf de meeste vruchten van plukt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Selbstbedienung",
+        "Arrangement, dass man selbst den größten Nutzen hat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "личная заинтересованность, личный (корыстный) интерес; в свой карман"
+      ]
+    }
+  ]
+}

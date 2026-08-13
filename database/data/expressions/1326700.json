@@ -1,0 +1,79 @@
+{
+  "id": "1326700",
+  "readings": [
+    {
+      "kanaExpression": "とりあい",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "取り合い",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "取合い",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scramble",
+        "struggle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gerangel",
+        "Streit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kúszás",
+        "mászás",
+        "tolongás",
+        "tülekedés",
+        "igyekezet",
+        "küzdelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "драка, борьба (за захват чего-л.)",
+        "{～をする} драться, бороться (за захват чего-л.)"
+      ]
+    }
+  ]
+}

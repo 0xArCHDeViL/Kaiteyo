@@ -1,0 +1,107 @@
+{
+  "id": "1545120",
+  "readings": [
+    {
+      "kanaExpression": "おさななじみ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "おさなじみ"
+    },
+    {
+      "kanjiExpression": "幼なじみ",
+      "furiganaExpression": [
+        {
+          "text": "幼",
+          "annotation": "おさな"
+        },
+        {
+          "text": "なじみ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "幼馴染み",
+      "furiganaExpression": [
+        {
+          "text": "幼",
+          "annotation": "おさな"
+        },
+        {
+          "text": "馴",
+          "annotation": "な"
+        },
+        {
+          "text": "染",
+          "annotation": "じ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "幼馴染",
+      "furiganaExpression": [
+        {
+          "text": "幼",
+          "annotation": "おさな"
+        },
+        {
+          "text": "馴",
+          "annotation": "な"
+        },
+        {
+          "text": "染",
+          "annotation": "じみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "childhood friend",
+        "friend from infancy",
+        "old playmate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jeugdvriend",
+        "vriend uit de kindertijd",
+        "kinderjaren",
+        "oude vriend"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ami d\u0027enfance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freund aus Kinderzeiten",
+        "Jugendfreund",
+        "Bekannter von Kindesbeinen an"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "друг детства"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "amigo de la infancia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "1598160",
+  "readings": [
+    {
+      "kanaExpression": "つりせん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "釣り銭",
+      "furiganaExpression": [
+        {
+          "text": "釣",
+          "annotation": "つ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "銭",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "釣銭",
+      "furiganaExpression": [
+        {
+          "text": "釣",
+          "annotation": "つり"
+        },
+        {
+          "text": "銭",
+          "annotation": "せん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "つり銭",
+      "furiganaExpression": [
+        {
+          "text": "つり"
+        },
+        {
+          "text": "銭",
+          "annotation": "せん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "change (for a purchase)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "monnaie (rendre la)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wechselgeld",
+        "(ugs.)Rückgeld",
+        "(schweiz.)Retourgeld",
+        "Herausgeld"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átszállás",
+        "pénzváltás",
+        "változat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мелочь; сдача"
+      ]
+    }
+  ]
+}

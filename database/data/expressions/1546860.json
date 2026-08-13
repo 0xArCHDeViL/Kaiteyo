@@ -1,0 +1,72 @@
+{
+  "id": "1546860",
+  "readings": [
+    {
+      "kanaExpression": "うたい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "謡",
+      "furiganaExpression": [
+        {
+          "text": "謡",
+          "annotation": "うたい"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "謡い",
+      "furiganaExpression": [
+        {
+          "text": "謡",
+          "annotation": "うた"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "noh chanting",
+        "recitation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{nō-jargon} declamatie van nō-poëzie",
+        "scansie",
+        "het nō-zingen",
+        "{nō-jargon} nō-lied",
+        "nō-tekst",
+        "libretto"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nō-Lied",
+        "Nō-Gesang"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előadás",
+        "szavalat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) чтение нараспев (текста ёкёку)",
+        "2) (см.) ようきょく【謡曲】"
+      ]
+    }
+  ]
+}

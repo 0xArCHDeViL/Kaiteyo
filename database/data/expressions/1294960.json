@@ -1,0 +1,50 @@
+{
+  "id": "1294960",
+  "readings": [
+    {
+      "kanaExpression": "さいしゅつ",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "歳出",
+      "furiganaExpression": [
+        {
+          "text": "歳",
+          "annotation": "さい"
+        },
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        }
+      ],
+      "rank": 6966
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "annual expenditure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jaarlijkse staatsuitgaven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jährliche Ausgaben",
+        "Jahresausgaben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "годовые расходы; статьи расходов (в бюджете государства)"
+      ]
+    }
+  ]
+}

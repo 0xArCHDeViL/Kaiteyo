@@ -1,0 +1,43 @@
+{
+  "id": "2001130",
+  "readings": [
+    {
+      "kanaExpression": "むじるし",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "無印",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "印",
+          "annotation": "じるし"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unlabeled",
+        "unbranded"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unmarkiertheit",
+        "Ungesetztheit für die vorderen Ränge",
+        "Markenfreiheit",
+        "Markenlosigkeit",
+        "No-Name-…",
+        "unmarkiert"
+      ]
+    }
+  ]
+}

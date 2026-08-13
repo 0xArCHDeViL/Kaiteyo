@@ -1,0 +1,76 @@
+{
+  "id": "1252410",
+  "readings": [
+    {
+      "kanaExpression": "けいさつしょ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "警察署",
+      "furiganaExpression": [
+        {
+          "text": "警",
+          "annotation": "けい"
+        },
+        {
+          "text": "察",
+          "annotation": "さつ"
+        },
+        {
+          "text": "署",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "police station"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "politiebureau",
+        "bureau van politie",
+        "politiepost"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "commissariat de police"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Polizeirevier",
+        "Polizeidienststelle",
+        "(österr.)Kommissariat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rendőrőrs",
+        "rendőrőrszoba"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полицейское управление (города); полицейский участок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estación de policía"
+      ]
+    }
+  ]
+}

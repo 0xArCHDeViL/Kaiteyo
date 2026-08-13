@@ -1,0 +1,44 @@
+{
+  "id": "1985220",
+  "readings": [
+    {
+      "kanaExpression": "けんじょうしゃ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "健常者",
+      "furiganaExpression": [
+        {
+          "text": "健",
+          "annotation": "けん"
+        },
+        {
+          "text": "常",
+          "annotation": "じょう"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "person with no physical or mental disability",
+        "able-bodied person",
+        "non-disabled person"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unbehinderter",
+        "Gesunder (im Gegensatz zu einem Behinderten)"
+      ]
+    }
+  ]
+}

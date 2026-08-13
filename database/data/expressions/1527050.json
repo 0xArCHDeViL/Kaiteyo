@@ -1,0 +1,84 @@
+{
+  "id": "1527050",
+  "readings": [
+    {
+      "kanaExpression": "みそしる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "味噌汁",
+      "furiganaExpression": [
+        {
+          "text": "味",
+          "annotation": "み"
+        },
+        {
+          "text": "噌",
+          "annotation": "そ"
+        },
+        {
+          "text": "汁",
+          "annotation": "しる"
+        }
+      ],
+      "rank": 10632
+    },
+    {
+      "kanjiExpression": "みそ汁",
+      "furiganaExpression": [
+        {
+          "text": "みそ"
+        },
+        {
+          "text": "汁",
+          "annotation": "しる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "miso soup"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "misosoep"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "soupe miso"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Misoshiru",
+        "Misosuppe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "суп из мисо"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "juha mišo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sopa de miso"
+      ]
+    }
+  ]
+}

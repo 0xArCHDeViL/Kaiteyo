@@ -1,0 +1,109 @@
+{
+  "id": "1523400",
+  "readings": [
+    {
+      "kanaExpression": "ほんやく",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "翻訳",
+      "furiganaExpression": [
+        {
+          "text": "翻",
+          "annotation": "ほん"
+        },
+        {
+          "text": "訳",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 1811
+    },
+    {
+      "kanjiExpression": "飜訳",
+      "furiganaExpression": [
+        {
+          "text": "飜",
+          "annotation": "ほん"
+        },
+        {
+          "text": "訳",
+          "annotation": "やく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "translation",
+        "deciphering",
+        "decoding"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vertalen",
+        "overzetten",
+        "overbrengen",
+        "{w.g.} translateren",
+        "vertaling",
+        "overzetting",
+        "{veroud.} translatie",
+        "vertaald stuk",
+        "translaat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "traduction",
+        "déchiffrage",
+        "décryptage",
+        "rendu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "übersetzen",
+        "Übersetzung",
+        "Translation",
+        "Kompilierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fordítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перевод (письменный)",
+        "расшифровка",
+        "1) перевод (письменный)",
+        "{～する} переводить",
+        "{～をやる} заниматься переводами"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prevajati",
+        "prevod",
+        "prevesti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "traducción",
+        "descifrado"
+      ]
+    }
+  ]
+}

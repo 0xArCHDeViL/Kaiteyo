@@ -1,0 +1,71 @@
+{
+  "id": "1221320",
+  "readings": [
+    {
+      "kanaExpression": "きけつ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "帰結",
+      "furiganaExpression": [
+        {
+          "text": "帰",
+          "annotation": "き"
+        },
+        {
+          "text": "結",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 14943
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "consequence",
+        "result",
+        "conclusion",
+        "apodosis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ergebnis",
+        "Resultat",
+        "Schluss",
+        "Folge",
+        "Konsequenz",
+        "Apodosis",
+        "Nachsatz",
+        "bedingter Hauptsatz eines Konditionalsatzes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "befejezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) заключение, конец; результат, следствие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "conclusión"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "slutsats"
+      ]
+    }
+  ]
+}

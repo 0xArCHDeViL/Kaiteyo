@@ -1,0 +1,67 @@
+{
+  "id": "1603840",
+  "readings": [
+    {
+      "kanaExpression": "まがりくねる",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "曲がりくねる",
+      "furiganaExpression": [
+        {
+          "text": "曲",
+          "annotation": "ま"
+        },
+        {
+          "text": "がりくねる"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "曲りくねる",
+      "furiganaExpression": [
+        {
+          "text": "曲",
+          "annotation": "まが"
+        },
+        {
+          "text": "りくねる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to bend many times",
+        "to turn and twist",
+        "to zigzag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich schlängeln",
+        "mäandern",
+        "sich winden",
+        "kurvenreich sein",
+        "sich hin- und herwinden",
+        "im Zickzack verlaufen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zegzugosan halad"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "виться, извиваться; изгибаться"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "1477000",
+  "readings": [
+    {
+      "kanaExpression": "はちぶおんぷ",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "八分音符",
+      "furiganaExpression": [
+        {
+          "text": "八",
+          "annotation": "はち"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "符",
+          "annotation": "ぷ"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "8th note",
+        "eighth note",
+        "quaver"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Achtelnote",
+        "Achtel"
+      ]
+    }
+  ]
+}

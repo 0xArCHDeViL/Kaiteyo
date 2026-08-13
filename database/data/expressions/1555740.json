@@ -1,0 +1,107 @@
+{
+  "id": "1555740",
+  "readings": [
+    {
+      "kanaExpression": "りんかく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "輪郭",
+      "furiganaExpression": [
+        {
+          "text": "輪",
+          "annotation": "りん"
+        },
+        {
+          "text": "郭",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 13241
+    },
+    {
+      "kanjiExpression": "輪廓",
+      "furiganaExpression": [
+        {
+          "text": "輪",
+          "annotation": "りん"
+        },
+        {
+          "text": "廓",
+          "annotation": "かく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "輪かく",
+      "furiganaExpression": [
+        {
+          "text": "輪",
+          "annotation": "りん"
+        },
+        {
+          "text": "かく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "contour",
+        "outline",
+        "silhouette",
+        "summary",
+        "sketch",
+        "looks",
+        "features"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "omtrek",
+        "omtreklijn",
+        "contour",
+        "silhouet",
+        "hoofdtrekken",
+        "hoofdpunten",
+        "grote trekken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "contour(s)",
+        "grandes lignes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Umriss",
+        "Kontur",
+        "Außenlinie",
+        "Umrisslinie",
+        "Grenzlinie",
+        "Abriss",
+        "Skizze"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) контуры, очертания; линии (тела), черты (лица)",
+        "2) очерк, набросок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "contorno",
+        "silueta"
+      ]
+    }
+  ]
+}

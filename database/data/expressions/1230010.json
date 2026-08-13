@@ -1,0 +1,56 @@
+{
+  "id": "1230010",
+  "readings": [
+    {
+      "kanaExpression": "きゅうだん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "球団",
+      "furiganaExpression": [
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "団",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 6284
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "baseball team"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "professionele honkbalclub"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Profi-Baseball-Team",
+        "Baseball-Mannschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бейсбольная команда"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "equipo de béisbol"
+      ]
+    }
+  ]
+}

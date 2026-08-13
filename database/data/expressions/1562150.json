@@ -1,0 +1,51 @@
+{
+  "id": "1562150",
+  "readings": [
+    {
+      "kanaExpression": "わそう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "和装",
+      "furiganaExpression": [
+        {
+          "text": "和",
+          "annotation": "わ"
+        },
+        {
+          "text": "装",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese clothing",
+        "being dressed in a kimono",
+        "Japanese-style bookbinding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "japanisch gekleidet",
+        "mit einem Kimono bekleidet",
+        "japanisch gebunden",
+        "japanische Kleidung",
+        "japanische Buchbindung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": ～の",
+        "1) в японской одежде, одетый по-японски",
+        "2) переплетённый по-японски (о книге)"
+      ]
+    }
+  ]
+}

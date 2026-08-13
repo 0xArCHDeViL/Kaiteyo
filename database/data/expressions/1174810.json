@@ -1,0 +1,73 @@
+{
+  "id": "1174810",
+  "readings": [
+    {
+      "kanaExpression": "えいへい",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "衛兵",
+      "furiganaExpression": [
+        {
+          "text": "衛",
+          "annotation": "えい"
+        },
+        {
+          "text": "兵",
+          "annotation": "へい"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "guard",
+        "sentinel",
+        "garrison"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wacht",
+        "garde",
+        "schildwacht",
+        "wachtpost",
+        "wachter",
+        "gardesoldaat",
+        "{veroud.} gardist"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wache",
+        "Wachmannschaft",
+        "Wachsoldat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "őrszem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стража, охрана, караул"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "guardia",
+        "centinela",
+        "vigía"
+      ]
+    }
+  ]
+}

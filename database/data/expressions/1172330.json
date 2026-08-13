@@ -1,0 +1,97 @@
+{
+  "id": "1172330",
+  "readings": [
+    {
+      "kanaExpression": "うずまく",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "渦巻く",
+      "furiganaExpression": [
+        {
+          "text": "渦",
+          "annotation": "うず"
+        },
+        {
+          "text": "巻",
+          "annotation": "ま"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "うず巻く",
+      "furiganaExpression": [
+        {
+          "text": "うず"
+        },
+        {
+          "text": "巻",
+          "annotation": "ま"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to whirl",
+        "to eddy",
+        "to swirl",
+        "to curl (smoke)",
+        "to be all jumbled together (feelings, thoughts, etc.)",
+        "to surge",
+        "to sweep"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kolken",
+        "wielen",
+        "draaien",
+        "ronddraaien",
+        "dwarrelen",
+        "wervelen",
+        "{煙が} kringelen",
+        "spiralen",
+        "warrelen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wirbeln",
+        "strudeln",
+        "(Gefühle) durcheinander geraten",
+        "aufwirbeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "forog",
+        "magával sodor",
+        "megpörget",
+        "örvénylik",
+        "pörget",
+        "pörög",
+        "kavarog",
+        "görbít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кружиться в водовороте; образовывать водоворот; закручиваться; виться (о дыме)"
+      ]
+    }
+  ]
+}

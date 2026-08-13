@@ -1,0 +1,57 @@
+{
+  "id": "1393460",
+  "readings": [
+    {
+      "kanaExpression": "ぜんせいき",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "前世紀",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "世",
+          "annotation": "せい"
+        },
+        {
+          "text": "紀",
+          "annotation": "き"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "last century",
+        "previous century",
+        "ancient times",
+        "old times"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das vergangene Jahrhundert",
+        "das letzte Jahrhundert"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ókor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прошлый век"
+      ]
+    }
+  ]
+}

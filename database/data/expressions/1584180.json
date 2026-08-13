@@ -1,0 +1,54 @@
+{
+  "id": "1584180",
+  "readings": [
+    {
+      "kanaExpression": "きたがわ",
+      "rank": 19000
+    },
+    {
+      "kanaExpression": "ほくそく"
+    },
+    {
+      "kanjiExpression": "北側",
+      "furiganaExpression": [
+        {
+          "text": "北",
+          "annotation": "きた"
+        },
+        {
+          "text": "側",
+          "annotation": "がわ"
+        }
+      ],
+      "rank": 9658
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "north side",
+        "north bank"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nordseite"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "северная сторона",
+        "{～に} на северной стороне; с северной стороны; на севере, к северу"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "severna stran"
+      ]
+    }
+  ]
+}

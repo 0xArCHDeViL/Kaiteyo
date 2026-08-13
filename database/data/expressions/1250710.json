@@ -1,0 +1,64 @@
+{
+  "id": "1250710",
+  "readings": [
+    {
+      "kanaExpression": "けいあい",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "敬愛",
+      "furiganaExpression": [
+        {
+          "text": "敬",
+          "annotation": "けい"
+        },
+        {
+          "text": "愛",
+          "annotation": "あい"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "respect and affection",
+        "love and respect"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoogachten",
+        "innig respecteren",
+        "vereren",
+        "liefde en respect",
+        "hoogachting",
+        "eerbied",
+        "reverentie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lieben und verehren",
+        "bewundern",
+        "verehren",
+        "lieb sein teuer sein",
+        "verehrt sein",
+        "wert sein",
+        "Ehren und Lieben",
+        "Verehrung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) уважение и любовь; почитание, поклонение",
+        "{～する} а) любить и уважать; б) уважаемый [и дорогой] (при обращении)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "1350450",
+  "readings": [
+    {
+      "kanaExpression": "やきそば",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ヤキソバ"
+    },
+    {
+      "kanjiExpression": "焼きそば",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "きそば"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "焼そば",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "やき"
+        },
+        {
+          "text": "そば"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "焼き蕎麦",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "蕎麦",
+          "annotation": "そば"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "焼蕎麦",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "やき"
+        },
+        {
+          "text": "蕎麦",
+          "annotation": "そば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yakisoba",
+        "fried noodles, usu. with vegetables and meat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} gebakken vermicelli",
+        "± Japanse bami goreng"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nouilles de sarrasin (blé noir) à la poële."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Yaki・soba (gebratene Nudeln)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жареная гречневая лапша"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "yakisoba",
+        "fideos asados"
+      ]
+    }
+  ]
+}

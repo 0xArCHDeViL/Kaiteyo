@@ -1,0 +1,43 @@
+{
+  "id": "1310790",
+  "readings": [
+    {
+      "kanaExpression": "しきゅう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "死球",
+      "furiganaExpression": [
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pitch that hits the batter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} hit by pitch"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "toter Ball (geworfener Ball, der den Schlagmann trifft)"
+      ]
+    }
+  ]
+}

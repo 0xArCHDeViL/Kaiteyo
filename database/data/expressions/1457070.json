@@ -1,0 +1,70 @@
+{
+  "id": "1457070",
+  "readings": [
+    {
+      "kanaExpression": "とってい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "突堤",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "とっ"
+        },
+        {
+          "text": "堤",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "breakwater"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pier",
+        "havenhoofd",
+        "havendam",
+        "strekdam",
+        "golfbreker",
+        "breekwater"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kai",
+        "Mole",
+        "Wellenbrecher"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cölöpgát",
+        "hullámtörő gát",
+        "vágósarkantyú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "волнолом, мол, дамба"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vågbrytare"
+      ]
+    }
+  ]
+}

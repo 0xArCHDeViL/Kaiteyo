@@ -1,0 +1,79 @@
+{
+  "id": "1271060",
+  "readings": [
+    {
+      "kanaExpression": "ごく",
+      "rank": 2702
+    },
+    {
+      "kanjiExpression": "語句",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "句",
+          "annotation": "く"
+        }
+      ],
+      "rank": 14848
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "words and phrases",
+        "words"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "woorden en frasen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "expression",
+        "mot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wörter und Wendungen",
+        "Wörter und Ausdrücke",
+        "Wörter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szerep szövege"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слова и предложения (словосочетания)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "beseda",
+        "fraza"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "palabras",
+        "frases"
+      ]
+    }
+  ]
+}

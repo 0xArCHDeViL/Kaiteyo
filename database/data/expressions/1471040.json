@@ -1,0 +1,99 @@
+{
+  "id": "1471040",
+  "readings": [
+    {
+      "kanaExpression": "なみうつ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "波打つ",
+      "furiganaExpression": [
+        {
+          "text": "波",
+          "annotation": "なみ"
+        },
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "波うつ",
+      "furiganaExpression": [
+        {
+          "text": "波",
+          "annotation": "なみ"
+        },
+        {
+          "text": "うつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to dash against (of waves)",
+        "to billow",
+        "to roll",
+        "to wave (e.g. in the wind)",
+        "to heave",
+        "to pound (of a heart)",
+        "to undulate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beuken (tegen)",
+        "slaan (tegen)",
+        "klotsen (tegen)",
+        "{fig.} golven",
+        "deinen",
+        "op en neer gaan",
+        "zwoegen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wogen",
+        "wellen",
+        "ans Ufer schlagen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nekiront vminek",
+        "nekivág vmit vminek",
+        "hullámzik",
+        "dagad",
+        "emelkedik",
+        "felemelkedik a hullámon",
+        "felfordul",
+        "felpuffad",
+        "hányingere van",
+        "liheg",
+        "megdagad",
+        "megduzzad",
+        "oldalvást tol",
+        "öklendezik",
+        "zihál"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) набегать (на берег), плескаться, биться (о берег)",
+        "2) (перен.) сильно биться (стучать) (о сердце)"
+      ]
+    }
+  ]
+}

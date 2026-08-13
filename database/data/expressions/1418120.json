@@ -1,0 +1,80 @@
+{
+  "id": "1418120",
+  "readings": [
+    {
+      "kanaExpression": "たんそく",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "嘆息",
+      "furiganaExpression": [
+        {
+          "text": "嘆",
+          "annotation": "たん"
+        },
+        {
+          "text": "息",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "歎息",
+      "furiganaExpression": [
+        {
+          "text": "歎",
+          "annotation": "たん"
+        },
+        {
+          "text": "息",
+          "annotation": "そく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sigh (of grief, disappointment, etc.)",
+        "grieving",
+        "lamenting",
+        "deploring"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chagrin",
+        "peine",
+        "soupir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "seufzen",
+        "Seufzer",
+        "Klage",
+        "klagen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bánat",
+        "fájdalom",
+        "szomorúság",
+        "sóhaj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вздох [сожаления]",
+        "{～する} вздыхать; (перен.) сожалеть"
+      ]
+    }
+  ]
+}

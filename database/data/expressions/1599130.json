@@ -1,0 +1,98 @@
+{
+  "id": "1599130",
+  "readings": [
+    {
+      "kanaExpression": "とりひきさき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "取引先",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "取り引き先",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "customer",
+        "client",
+        "client company",
+        "business connection",
+        "trade partner"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "klant",
+        "afnemer",
+        "relatie",
+        "handelsrelatie",
+        "zakenrelatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kunde",
+        "Klient",
+        "Handelspartner",
+        "Geschäftsfreund",
+        "Geschäftspartner",
+        "Korrespondent"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ügyfél",
+        "vendég",
+        "kliens",
+        "törzsvevő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ком.) клиент; контрагент"
+      ]
+    }
+  ]
+}

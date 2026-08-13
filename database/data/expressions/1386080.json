@@ -1,0 +1,65 @@
+{
+  "id": "1386080",
+  "readings": [
+    {
+      "kanaExpression": "せつもん",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "設問",
+      "furiganaExpression": [
+        {
+          "text": "設",
+          "annotation": "せつ"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 12801
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "posing a question",
+        "question"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vraagstelling",
+        "vraag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fragestellung",
+        "Frage",
+        "Anfrage"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vita tárgya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) вопрос"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "spörsmål"
+      ]
+    }
+  ]
+}

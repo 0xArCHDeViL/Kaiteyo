@@ -1,0 +1,66 @@
+{
+  "id": "1392050",
+  "readings": [
+    {
+      "kanaExpression": "せんだん",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "船団",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "せん"
+        },
+        {
+          "text": "団",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fleet (fishing, naval, etc.)",
+        "convoy",
+        "group of ships"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{scheepv.} vloot",
+        "{i.h.b.} konvooi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flotte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "flotta",
+        "hajóhad",
+        "hajóraj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "караван судов"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "flota (naval)"
+      ]
+    }
+  ]
+}

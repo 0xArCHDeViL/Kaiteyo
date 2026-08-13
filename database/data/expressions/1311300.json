@@ -1,0 +1,109 @@
+{
+  "id": "1311300",
+  "readings": [
+    {
+      "kanaExpression": "わたしたち",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "わたくしたち"
+    },
+    {
+      "kanjiExpression": "私たち",
+      "furiganaExpression": [
+        {
+          "text": "私",
+          "annotation": "わたし"
+        },
+        {
+          "text": "たち"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "私達",
+      "furiganaExpression": [
+        {
+          "text": "私",
+          "annotation": "わたし"
+        },
+        {
+          "text": "達",
+          "annotation": "たち"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "わたし達",
+      "furiganaExpression": [
+        {
+          "text": "わたし"
+        },
+        {
+          "text": "達",
+          "annotation": "たち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "わたくし達",
+      "furiganaExpression": [
+        {
+          "text": "わたくし"
+        },
+        {
+          "text": "達",
+          "annotation": "たち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "we",
+        "us"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "we",
+        "wij",
+        "ons",
+        "onze"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nous"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wir",
+        "unsereins"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "mi",
+        "me"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nosotros",
+        "(pn) nosotros",
+        "nos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1525960",
+  "readings": [
+    {
+      "kanaExpression": "ばんこく",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "万国",
+      "furiganaExpression": [
+        {
+          "text": "万",
+          "annotation": "ばん"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "all countries",
+        "the whole world",
+        "universal",
+        "all nations"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "alle landen",
+        "de hele wereld",
+        "internationaal",
+        "wereld-"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "international",
+        "le monde entier",
+        "tous les pays",
+        "universel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alle Länder",
+        "alle Länder der Welt",
+        "international"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "általános",
+        "egyetemes",
+        "mindenre használható",
+        "univerzális"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "все страны; (в сложн. сл.) всемирный, мировой; международный"
+      ]
+    }
+  ]
+}

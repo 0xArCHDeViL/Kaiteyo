@@ -1,0 +1,55 @@
+{
+  "id": "1225480",
+  "readings": [
+    {
+      "kanaExpression": "ぎ",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "疑",
+      "furiganaExpression": [
+        {
+          "text": "疑",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "doubt",
+        "distrust",
+        "suspicion (of)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zweifel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kétség",
+        "bizalmatlanság",
+        "gyanakvás",
+        "gyanú",
+        "sejtelem",
+        "sejtés"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "duda",
+        "desconfianza",
+        "recelo",
+        "sospecha (de)"
+      ]
+    }
+  ]
+}

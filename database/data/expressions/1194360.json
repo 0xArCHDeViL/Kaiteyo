@@ -1,0 +1,70 @@
+{
+  "id": "1194360",
+  "readings": [
+    {
+      "kanaExpression": "こたつ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "コタツ"
+    },
+    {
+      "kanjiExpression": "炬燵",
+      "furiganaExpression": [
+        {
+          "text": "炬",
+          "annotation": "こ"
+        },
+        {
+          "text": "燵",
+          "annotation": "たつ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "kotatsu",
+        "table over an electric heater, with a hanging quilt to retain heat (orig. over a charcoal brazier in a floor well)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kotatsu {\u003d lage tafel met een door een deken",
+        "futon geïsoleerde warmtebron}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(à l\u0027origine) braséro posé dans un trou dans le plancher",
+        "table basse à radiateur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kotatsu (eine Art Fußwärmer unter einem Tisch mit einer Steppdecke darüber)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "котацу (комнатная жаровня, вделанная в пол и накрываемая сверху одеялом)",
+        "{～をする} разводить огонь в котацу"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mesa con calentador",
+        "(orig) brasero de carbón en un piso",
+        "calentador con cobija de piernas japonés"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "1464050",
+  "readings": [
+    {
+      "kanaExpression": "ひなた",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "日向",
+      "furiganaExpression": [
+        {
+          "text": "日向",
+          "annotation": "ひなた"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "日なた",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "なた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sunny place",
+        "in the sun"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zonnig plekje",
+        "plaats waar het zonnig is",
+        "{meton.} zon"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "au soleil",
+        "endroit ensoleillé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sonnige Stelle",
+        "sonniger Platz",
+        "Hinata"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "солнечное место",
+        "{～に} на солнце"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "na soncu",
+        "prisojno"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lugar soleado"
+      ]
+    }
+  ]
+}

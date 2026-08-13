@@ -1,0 +1,123 @@
+{
+  "id": "1590240",
+  "readings": [
+    {
+      "kanaExpression": "かしだし",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "貸出",
+      "furiganaExpression": [
+        {
+          "text": "貸",
+          "annotation": "かし"
+        },
+        {
+          "text": "出",
+          "annotation": "だし"
+        }
+      ],
+      "rank": 10426
+    },
+    {
+      "kanjiExpression": "貸し出し",
+      "furiganaExpression": [
+        {
+          "text": "貸",
+          "annotation": "か"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 12119
+    },
+    {
+      "kanjiExpression": "貸出し",
+      "furiganaExpression": [
+        {
+          "text": "貸",
+          "annotation": "かし"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lending",
+        "loaning"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitlenen",
+        "lenen",
+        "een lening verschaffen",
+        "lening",
+        "uitleen",
+        "het uitlenen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "emprunt",
+        "prêt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Darlehen",
+        "Verleihen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kölcsönzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) ссуда; аванс; кредит, сумма дисконтов и ссуд",
+        "{～する} давать в долг, ссужать",
+        "2) выдача на дом (гл. обр. книг)",
+        "{～する} выдавать на дом (книги); отдавать во временное пользование"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "posoja",
+        "posojanje",
+        "izposoja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "préstamo",
+        "adelanto"
+      ]
+    }
+  ]
+}

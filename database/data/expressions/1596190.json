@@ -1,0 +1,131 @@
+{
+  "id": "1596190",
+  "readings": [
+    {
+      "kanaExpression": "せんせんきょうきょう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "戦々恐々",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "々",
+          "annotation": "せん"
+        },
+        {
+          "text": "恐",
+          "annotation": "きょう"
+        },
+        {
+          "text": "々",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "戦戦恐恐",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "恐",
+          "annotation": "きょう"
+        },
+        {
+          "text": "恐",
+          "annotation": "きょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "戦々兢々",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "々",
+          "annotation": "せん"
+        },
+        {
+          "text": "兢",
+          "annotation": "きょう"
+        },
+        {
+          "text": "々",
+          "annotation": "きょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "戦戦兢兢",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "兢",
+          "annotation": "きょう"
+        },
+        {
+          "text": "兢",
+          "annotation": "きょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trembling with fear",
+        "in great fear",
+        "filled with trepidation",
+        "nervously",
+        "timidly"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ängstlich",
+        "panisch",
+        "in Angst und Schrecken",
+        "zitternd vor Furcht",
+        "in tödlicher Angst"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～として} (кн.) дрожа (трепеща) от страха",
+        "{～としている} дрожать от страха"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "temblando de miedo",
+        "horrorizado",
+        "aterrorizado"
+      ]
+    }
+  ]
+}

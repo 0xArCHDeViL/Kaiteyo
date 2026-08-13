@@ -1,0 +1,82 @@
+{
+  "id": "1485370",
+  "readings": [
+    {
+      "kanaExpression": "とびのる",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "飛び乗る",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "乗",
+          "annotation": "の"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "跳び乗る",
+      "furiganaExpression": [
+        {
+          "text": "跳",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "乗",
+          "annotation": "の"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to jump upon (a moving object)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "met een sprong bestijgen",
+        "aan boord springen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufspringen (auf einen Zug o.Ä.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lehord",
+        "megrohan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вскакивать на ходу (в поезд и т. п., на лошадь)"
+      ]
+    }
+  ]
+}

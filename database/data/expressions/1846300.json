@@ -1,0 +1,75 @@
+{
+  "id": "1846300",
+  "readings": [
+    {
+      "kanaExpression": "おくりつける",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "送りつける",
+      "furiganaExpression": [
+        {
+          "text": "送",
+          "annotation": "おく"
+        },
+        {
+          "text": "りつける"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "送り付ける",
+      "furiganaExpression": [
+        {
+          "text": "送",
+          "annotation": "おく"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to send (something) unsolicited",
+        "to send without the receiver\u0027s request"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(ongevraagd) toesturen",
+        "opsturen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zuschicken",
+        "zusenden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erősen bukdácsol",
+        "felemelődik",
+        "felfelé nyomódik",
+        "kegyesen megad",
+        "megajándékoz",
+        "repít"
+      ]
+    }
+  ]
+}

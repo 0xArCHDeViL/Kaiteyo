@@ -1,0 +1,86 @@
+{
+  "id": "1408960",
+  "readings": [
+    {
+      "kanaExpression": "だぼく",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "打撲",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "だ"
+        },
+        {
+          "text": "撲",
+          "annotation": "ぼく"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blow",
+        "hit (on the body)",
+        "beating"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faire un bleu",
+        "meurtrri",
+        "taler"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlag",
+        "Hieb",
+        "Prügel",
+        "schlagen",
+        "prügeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zúzódás",
+        "ütés nyoma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "удар",
+        "{～する} ударять, наносить удар"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "modrica",
+        "poškodba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "contusión",
+        "golpe",
+        "moretón"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "blånad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "1297890",
+  "readings": [
+    {
+      "kanaExpression": "さどう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "作動",
+      "furiganaExpression": [
+        {
+          "text": "作",
+          "annotation": "さ"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 9312
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "operation",
+        "functioning",
+        "running"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "functioneren",
+        "draaien",
+        "lopen",
+        "werken",
+        "het functioneren",
+        "werking",
+        "functionering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mouvement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "operieren",
+        "laufen",
+        "Operation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "műtét",
+        "operáció",
+        "folyamat",
+        "folyás",
+        "futás",
+        "futó",
+        "gennyedés",
+        "irány",
+        "járat",
+        "rohanás",
+        "szaladás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(тех.) движение (рабочей части машины)",
+        "{～する} работать (о машине)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "premik",
+        "gibanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "funcionamiento",
+        "movimiento"
+      ]
+    }
+  ]
+}

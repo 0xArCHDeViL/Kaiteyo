@@ -1,0 +1,78 @@
+{
+  "id": "1312990",
+  "readings": [
+    {
+      "kanaExpression": "しりょう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "飼料",
+      "furiganaExpression": [
+        {
+          "text": "飼",
+          "annotation": "し"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 12086
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fodder",
+        "feed"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voer",
+        "voeder",
+        "beestenvoer",
+        "beestenvoeder",
+        "foerage"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aliments pour animaux",
+        "nourriture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Futter",
+        "Futtermittel",
+        "Furage"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előtolás",
+        "etetés",
+        "táplálás",
+        "táplálék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "корм, фураж"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pienso"
+      ]
+    }
+  ]
+}

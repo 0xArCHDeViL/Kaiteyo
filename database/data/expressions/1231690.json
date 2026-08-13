@@ -1,0 +1,91 @@
+{
+  "id": "1231690",
+  "readings": [
+    {
+      "kanaExpression": "きょねん",
+      "rank": 20000
+    },
+    {
+      "kanaExpression": "こぞ"
+    },
+    {
+      "kanjiExpression": "去年",
+      "furiganaExpression": [
+        {
+          "text": "去",
+          "annotation": "きょ"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 2113
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "last year"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vorig jaar",
+        "afgelopen jaar",
+        "verleden jaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "l\u0027année dernière"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letztes Jahr",
+        "vergangenes Jahr",
+        "voriges Jahr",
+        "Vorjahr"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "a múlt év",
+        "a múlt évben",
+        "az elmúlt évben",
+        "elmúlt évben",
+        "múlt év",
+        "múlt évben",
+        "tavaly"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1. прошлый год",
+        "{～の} прошлогодний; прошлого года",
+        "2. в прошлом году"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "lansko leto",
+        "lani",
+        "prejšnje leto"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(el) año pasado"
+      ]
+    }
+  ]
+}

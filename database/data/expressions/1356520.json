@@ -1,0 +1,88 @@
+{
+  "id": "1356520",
+  "readings": [
+    {
+      "kanaExpression": "じょうけんつき",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "条件付き",
+      "furiganaExpression": [
+        {
+          "text": "条",
+          "annotation": "じょう"
+        },
+        {
+          "text": "件",
+          "annotation": "けん"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "条件付",
+      "furiganaExpression": [
+        {
+          "text": "条",
+          "annotation": "じょう"
+        },
+        {
+          "text": "件",
+          "annotation": "けん"
+        },
+        {
+          "text": "付",
+          "annotation": "つき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "条件つき",
+      "furiganaExpression": [
+        {
+          "text": "条",
+          "annotation": "じょう"
+        },
+        {
+          "text": "件",
+          "annotation": "けん"
+        },
+        {
+          "text": "つき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "conditional",
+        "qualified",
+        "with conditions attached"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bedingt",
+        "vorausgesetzt",
+        "mit Bedingung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(в сложн. сл.) оговоренный условием, сопряжённый с условием, условный",
+        "{～で} с оговоркой, условно"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1555840",
+  "readings": [
+    {
+      "kanaExpression": "りんか",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "隣家",
+      "furiganaExpression": [
+        {
+          "text": "隣",
+          "annotation": "りん"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "neighbouring house",
+        "neighboring house"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "maison voisine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachbarhaus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соседний дом"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "casa del vecino",
+        "vecinos"
+      ]
+    }
+  ]
+}

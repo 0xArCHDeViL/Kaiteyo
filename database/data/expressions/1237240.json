@@ -1,0 +1,53 @@
+{
+  "id": "1237240",
+  "readings": [
+    {
+      "kanaExpression": "きょうそ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "教祖",
+      "furiganaExpression": [
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "祖",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "founder of a religious sect"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Religionsstifter",
+        "Sektengründer",
+        "Urheber",
+        "Schöpfer",
+        "Begründer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "основатель секты (вероучения)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fundador de una secta religiosa"
+      ]
+    }
+  ]
+}

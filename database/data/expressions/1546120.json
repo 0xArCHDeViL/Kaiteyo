@@ -1,0 +1,86 @@
+{
+  "id": "1546120",
+  "readings": [
+    {
+      "kanaExpression": "ようがん",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "溶岩",
+      "furiganaExpression": [
+        {
+          "text": "溶",
+          "annotation": "よう"
+        },
+        {
+          "text": "岩",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "熔岩",
+      "furiganaExpression": [
+        {
+          "text": "熔",
+          "annotation": "よう"
+        },
+        {
+          "text": "岩",
+          "annotation": "がん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lava"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lava"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lave"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lava"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "láva"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лава (вулканическая)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lava"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lava"
+      ]
+    }
+  ]
+}

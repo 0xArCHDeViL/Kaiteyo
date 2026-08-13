@@ -1,0 +1,71 @@
+{
+  "id": "1212370",
+  "readings": [
+    {
+      "kanaExpression": "かんこう",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "感光",
+      "furiganaExpression": [
+        {
+          "text": "感",
+          "annotation": "かん"
+        },
+        {
+          "text": "光",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exposure",
+        "sensitization",
+        "sensitisation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aan licht blootgesteld worden",
+        "belicht worden",
+        "blootstelling aan licht",
+        "belichting",
+        "solarisatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dem Licht ausgesetzt sein",
+        "belichtet werden",
+        "Belichtung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "leleplezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "светочувствительность",
+        "{～させる} а) подвергать действию света; б) делать светочувствительным, сенсибилизировать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izpostavljanje",
+        "senzibilizacija"
+      ]
+    }
+  ]
+}

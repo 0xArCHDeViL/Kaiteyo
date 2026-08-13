@@ -1,0 +1,52 @@
+{
+  "id": "1712470",
+  "readings": [
+    {
+      "kanaExpression": "こうそくじかん",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "拘束時間",
+      "furiganaExpression": [
+        {
+          "text": "拘",
+          "annotation": "こう"
+        },
+        {
+          "text": "束",
+          "annotation": "そく"
+        },
+        {
+          "text": "時",
+          "annotation": "じ"
+        },
+        {
+          "text": "間",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "total hours spent working"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitszeit",
+        "Dienstzeit (einschließlich Pausen)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обязательное рабочее время, обязательные часы службы"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "1836020",
+  "readings": [
+    {
+      "kanaExpression": "きゅうこう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "休耕",
+      "furiganaExpression": [
+        {
+          "text": "休",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "耕",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lying fallow",
+        "leaving a field uncultivated"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "brach liegen lassen",
+        "Brachliegenlassen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "barbecho"
+      ]
+    }
+  ]
+}

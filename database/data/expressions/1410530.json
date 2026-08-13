@@ -1,0 +1,82 @@
+{
+  "id": "1410530",
+  "readings": [
+    {
+      "kanaExpression": "まちぼうけ",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "まちぼけ"
+    },
+    {
+      "kanjiExpression": "待ちぼうけ",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "ま"
+        },
+        {
+          "text": "ちぼうけ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "待ち惚け",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "ま"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "惚",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "け"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "待ちぼけ",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "ま"
+        },
+        {
+          "text": "ちぼけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "waiting in vain"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "attendre en vain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vergebliches Warten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "1630150",
+  "readings": [
+    {
+      "kanaExpression": "せりあい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "競り合い",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "せ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "競合い",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "せり"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "competition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gegenseitiges Überbieten",
+        "erbitterter Wettkampf",
+        "Wetteifer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "verseny"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "состязание, соперничество"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "competición"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "konkurrens"
+      ]
+    }
+  ]
+}

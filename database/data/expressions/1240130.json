@@ -1,0 +1,68 @@
+{
+  "id": "1240130",
+  "readings": [
+    {
+      "kanaExpression": "きょくもく",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "曲目",
+      "furiganaExpression": [
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        },
+        {
+          "text": "目",
+          "annotation": "もく"
+        }
+      ],
+      "rank": 5774
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "name of a piece of music",
+        "(musical) number",
+        "(musical) program",
+        "programme",
+        "selection (of music)",
+        "list of songs"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} nummer op een programma",
+        "repertoire",
+        "muziekstuk",
+        "{muz.} muzikaal programma",
+        "affiche"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Programm",
+        "Repertoire",
+        "Musikstück"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "értesítő",
+        "célkitűzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) программа, репертуар",
+        "2) название музыкальной пьесы"
+      ]
+    }
+  ]
+}

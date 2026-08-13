@@ -1,0 +1,50 @@
+{
+  "id": "1307280",
+  "readings": [
+    {
+      "kanaExpression": "よじょうはん",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "四畳半",
+      "furiganaExpression": [
+        {
+          "text": "四",
+          "annotation": "よ"
+        },
+        {
+          "text": "畳",
+          "annotation": "じょう"
+        },
+        {
+          "text": "半",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "four and a half tatami mats",
+        "four-and-a-half-mat room",
+        "small room esp. for assignations"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "4,5 tatami (taille standard pour une pièce)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "viereinhalb Tatami (Zimmergröße)",
+        "kleines Zimmer"
+      ]
+    }
+  ]
+}

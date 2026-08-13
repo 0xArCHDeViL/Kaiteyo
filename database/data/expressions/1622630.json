@@ -1,0 +1,66 @@
+{
+  "id": "1622630",
+  "readings": [
+    {
+      "kanaExpression": "ちかすい",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "地下水",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "下",
+          "annotation": "か"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "underground water"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grondwater",
+        "bodemwater"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "eau souterraine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grundwasser"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[под]почвенные воды; подземная вода, грунтовые воды"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "agua subterránea"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "1589370",
+  "readings": [
+    {
+      "kanaExpression": "おもしろみ",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "面白み",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "おも"
+        },
+        {
+          "text": "白",
+          "annotation": "しろ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "面白味",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "おも"
+        },
+        {
+          "text": "白",
+          "annotation": "しろ"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interest",
+        "appeal",
+        "attraction",
+        "fun"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reiz",
+        "Witz",
+        "etw. Interessantes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "figyelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "интерес, занятность",
+        "{～のある} (см.) おもしろい"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gracia",
+        "chispa",
+        "encanto"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "1506240",
+  "readings": [
+    {
+      "kanaExpression": "へいえい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "兵営",
+      "furiganaExpression": [
+        {
+          "text": "兵",
+          "annotation": "へい"
+        },
+        {
+          "text": "営",
+          "annotation": "えい"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "barracks"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kaserne"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "казарма"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuartel",
+        "barracones"
+      ]
+    }
+  ]
+}

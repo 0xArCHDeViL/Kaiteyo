@@ -1,0 +1,76 @@
+{
+  "id": "1325420",
+  "readings": [
+    {
+      "kanaExpression": "しゅご",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "主語",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 11835
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subject"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{taalk.} onderwerp",
+        "subject",
+        "{log.} subject"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sujet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Subjekt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állampolgár",
+        "tantárgy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(грам.) подлежащее"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "{slovnični} osebek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sujeto (en gramática)"
+      ]
+    }
+  ]
+}

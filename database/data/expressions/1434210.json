@@ -1,0 +1,52 @@
+{
+  "id": "1434210",
+  "readings": [
+    {
+      "kanaExpression": "ていあつ",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "低圧",
+      "furiganaExpression": [
+        {
+          "text": "低",
+          "annotation": "てい"
+        },
+        {
+          "text": "圧",
+          "annotation": "あつ"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "low pressure",
+        "low voltage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tiefdruck",
+        "Niederspannung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alacsony nyomás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) низкое [атмосферное] давление",
+        "2) (эл.) низкое напряжение"
+      ]
+    }
+  ]
+}

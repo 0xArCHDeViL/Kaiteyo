@@ -1,0 +1,96 @@
+{
+  "id": "1570360",
+  "readings": [
+    {
+      "kanaExpression": "くじ",
+      "rank": 7449
+    },
+    {
+      "kanaExpression": "クジ"
+    },
+    {
+      "kanjiExpression": "籤",
+      "furiganaExpression": [
+        {
+          "text": "籤",
+          "annotation": "くじ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "鬮",
+      "furiganaExpression": [
+        {
+          "text": "鬮",
+          "annotation": "くじ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "籖",
+      "furiganaExpression": [
+        {
+          "text": "籖",
+          "annotation": "くじ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lottery",
+        "lot",
+        "raffle",
+        "draw"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "loterij",
+        "verloting",
+        "kansspel",
+        "lot",
+        "lootje",
+        "loterijbriefje",
+        "lottobiljet",
+        "lottobulletin"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lot",
+        "lotterie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Los",
+        "Lotterie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "árutétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) выигрышный (лотерейный) билет",
+        "2) жребий"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lotería"
+      ]
+    }
+  ]
+}

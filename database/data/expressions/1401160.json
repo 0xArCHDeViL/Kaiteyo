@@ -1,0 +1,61 @@
+{
+  "id": "1401160",
+  "readings": [
+    {
+      "kanaExpression": "そうたいせいりろん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "相対性理論",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "そう"
+        },
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "論",
+          "annotation": "ろん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "theory of relativity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Relativitätstheorie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "теория относительности"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "relativitetsteori"
+      ]
+    }
+  ]
+}

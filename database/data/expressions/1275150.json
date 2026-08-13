@@ -1,0 +1,85 @@
+{
+  "id": "1275150",
+  "readings": [
+    {
+      "kanaExpression": "こうかてき",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "効果的",
+      "furiganaExpression": [
+        {
+          "text": "効",
+          "annotation": "こう"
+        },
+        {
+          "text": "果",
+          "annotation": "か"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "effective",
+        "successful"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "doeltreffend",
+        "effectief",
+        "werkzaam",
+        "afdoend",
+        "succesvol",
+        "probaat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "effektiv",
+        "praktisch",
+        "wirksam",
+        "effektvoll",
+        "erfolgreich",
+        "fruchtbar",
+        "nachdrücklich",
+        "eindringlich",
+        "packend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érvényes",
+        "hathatós",
+        "találó",
+        "tényleges",
+        "valóságos",
+        "sikeres"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "действенный, эффективный, результативный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "efectivo",
+        "eficiente"
+      ]
+    }
+  ]
+}

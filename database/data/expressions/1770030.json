@@ -1,0 +1,77 @@
+{
+  "id": "1770030",
+  "readings": [
+    {
+      "kanaExpression": "もちかえり",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "持ち帰り",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "帰",
+          "annotation": "かえ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "持帰り",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "帰",
+          "annotation": "かえ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "takeout (food)",
+        "take-out",
+        "takeaway",
+        "carry-out",
+        "to-go"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het afhalen",
+        "meenemen van het gekochte",
+        "{meton.} meeneemvoedsel",
+        "afhaalmaaltijd",
+        "gebruiksklaar eten",
+        "gerecht om mee te nemen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mitnehmen",
+        "Mitnachhausenehmen",
+        "etw. zum Mitnehmen",
+        "Essen zum Mitnehmen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1348600",
+  "readings": [
+    {
+      "kanaExpression": "しょうのう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "小脳",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "脳",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cerebellum"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} kleine hersenen",
+        "cerebellum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kleinhirn",
+        "Cerebellum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kisagy",
+        "nyúltagy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(анат.) мозжечок"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lillhjärnan"
+      ]
+    }
+  ]
+}

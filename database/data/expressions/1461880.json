@@ -1,0 +1,69 @@
+{
+  "id": "1461880",
+  "readings": [
+    {
+      "kanaExpression": "にじかい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "二次会",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "２次会",
+      "furiganaExpression": [
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "after-party",
+        "second party (of the night)",
+        "second meeting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachfeier",
+        "zweite Feier",
+        "Feier im Anschluss an eine Feier"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) второе [неофициальное] собрание",
+        "2) банкет в тесном кругу [и в другом месте] после окончания официального банкета"
+      ]
+    }
+  ]
+}

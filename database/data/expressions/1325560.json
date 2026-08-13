@@ -1,0 +1,75 @@
+{
+  "id": "1325560",
+  "readings": [
+    {
+      "kanaExpression": "しゅじい",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "主治医",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "治",
+          "annotation": "じ"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        }
+      ],
+      "rank": 10300
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "attending physician",
+        "physician in charge",
+        "(one\u0027s) family doctor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} behandelend geneesheer",
+        "arts",
+        "{geneesk.} huisarts",
+        "huisdokter",
+        "{Belg.N.} omnipracticus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "behandelnder Arzt",
+        "Hausarzt",
+        "Allgemeinarzt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "háziorvos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[главный] лечащий врач"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "médico de cabecera",
+        "médico encargado",
+        "médico de la familia (propio)"
+      ]
+    }
+  ]
+}

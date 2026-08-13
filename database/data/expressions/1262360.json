@@ -1,0 +1,77 @@
+{
+  "id": "1262360",
+  "readings": [
+    {
+      "kanaExpression": "げんぽん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "原本",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "本",
+          "annotation": "ぽん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the original",
+        "original copy",
+        "script"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oorspronkelijk document",
+        "stuk",
+        "oorspronkelijke",
+        "originele tekst",
+        "oertekst",
+        "grondtekst",
+        "basistekst",
+        "brontekst",
+        "origineel",
+        "archetype",
+        "bron",
+        "oorsprong",
+        "basis",
+        "grond",
+        "fundament",
+        "grondslag",
+        "principe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Urtext",
+        "Original",
+        "Urschrift",
+        "Originalwerk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "írásbeli dolgozat",
+        "kézírás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оригинал (документа, работы), подлинник"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "1201580",
+  "readings": [
+    {
+      "kanaExpression": "かいそう",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "うみくさ"
+    },
+    {
+      "kanaExpression": "うみぐさ"
+    },
+    {
+      "kanjiExpression": "海草",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "草",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "marine plant",
+        "seagrass",
+        "seaweed"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} zeewier",
+        "wier",
+        "alg",
+        "alge",
+        "{plantk.} zeegras"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Algen",
+        "Seegras",
+        "Seepflanze",
+        "Meerespflanze"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hínár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "водоросли"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "1050910",
+  "readings": [
+    {
+      "kanaExpression": "コミット",
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "committing (oneself to)",
+        "commitment",
+        "involvement",
+        "participation",
+        "commit (data management, version control)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich verpflichten",
+        "sich beteiligen",
+        "Verpflichtung",
+        "Beteiligung"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "begå"
+      ]
+    }
+  ]
+}

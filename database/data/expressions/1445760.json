@@ -1,0 +1,59 @@
+{
+  "id": "1445760",
+  "readings": [
+    {
+      "kanaExpression": "さかしま",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "逆しま",
+      "furiganaExpression": [
+        {
+          "text": "逆",
+          "annotation": "さか"
+        },
+        {
+          "text": "しま"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "倒",
+      "furiganaExpression": [
+        {
+          "text": "倒",
+          "annotation": "さかしま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reverse",
+        "inversion",
+        "upside down",
+        "unreasonable",
+        "absurd",
+        "wrong"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Inversion",
+        "Umkehrung",
+        "Unvernünftigkeit",
+        "Schlechtigkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) さかさま"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1430330",
+  "readings": [
+    {
+      "kanaExpression": "ちょうるい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "鳥類",
+      "furiganaExpression": [
+        {
+          "text": "鳥",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "birds"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} vogels",
+        "gevogelte",
+        "gevederd",
+        "gepluimd gedierte",
+        "het gevederd koor",
+        "{gew.} gepluimte",
+        "Aves",
+        "ornitho-"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vögel",
+        "Federvieh",
+        "Vogelarten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(зоол.) птицы, пернатые"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pájaros"
+      ]
+    }
+  ]
+}

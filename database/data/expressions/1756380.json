@@ -1,0 +1,68 @@
+{
+  "id": "1756380",
+  "readings": [
+    {
+      "kanaExpression": "いいね",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "言い値",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "言値",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "いい"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "asking price"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vraagprijs",
+        "gevraagde prijs",
+        "{afk.} vrpr."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verlangter Preis",
+        "Verkaufspreis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запрашиваемая цена"
+      ]
+    }
+  ]
+}

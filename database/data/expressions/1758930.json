@@ -1,0 +1,49 @@
+{
+  "id": "1758930",
+  "readings": [
+    {
+      "kanaExpression": "そこいれ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "底入れ",
+      "furiganaExpression": [
+        {
+          "text": "底",
+          "annotation": "そこ"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bottoming out (of prices)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "den Preistiefstand erreichen",
+        "den tiefsten Preis erreichen",
+        "Erreichen der Talsohle",
+        "Preistiefstand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(бирж.) достижение самого низкого уровня (о ценах, курсах)"
+      ]
+    }
+  ]
+}

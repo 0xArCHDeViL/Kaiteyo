@@ -1,0 +1,58 @@
+{
+  "id": "1313880",
+  "readings": [
+    {
+      "kanaExpression": "じご",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "事後",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 9459
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "after",
+        "post",
+        "ex-",
+        "after the fact",
+        "ex post"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nachträglich",
+        "nachher",
+        "im Nachhinein",
+        "(Zeit) nach einem Ereignis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mögött",
+        "őrszem",
+        "postakocsi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "после совершившегося факта, постфактум; задним числом; (в сложн. сл. тж.) последующий"
+      ]
+    }
+  ]
+}

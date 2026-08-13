@@ -1,0 +1,70 @@
+{
+  "id": "1233090",
+  "readings": [
+    {
+      "kanaExpression": "ぎょろう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "漁労",
+      "furiganaExpression": [
+        {
+          "text": "漁",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "労",
+          "annotation": "ろう"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "漁撈",
+      "furiganaExpression": [
+        {
+          "text": "漁",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "撈",
+          "annotation": "ろう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fishing",
+        "fishery"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischen",
+        "Fischerei"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halászat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) рыболовство, лов рыбы"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fiske"
+      ]
+    }
+  ]
+}

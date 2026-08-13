@@ -1,0 +1,73 @@
+{
+  "id": "1734670",
+  "readings": [
+    {
+      "kanaExpression": "さかぐら",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "酒蔵",
+      "furiganaExpression": [
+        {
+          "text": "酒",
+          "annotation": "さか"
+        },
+        {
+          "text": "蔵",
+          "annotation": "ぐら"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "酒倉",
+      "furiganaExpression": [
+        {
+          "text": "酒",
+          "annotation": "さか"
+        },
+        {
+          "text": "倉",
+          "annotation": "ぐら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sake brewery",
+        "wine cellar",
+        "bar",
+        "bar-room"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sake-opslagplaats",
+        "sake-depot",
+        "wijndepot",
+        "bottelarij",
+        "{i.h.b.} wijnkelder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sakekeller",
+        "Weinkeller",
+        "Sakebrauerei",
+        "Kneipe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) винный погреб",
+        "2) бродильное помещение для сакэ"
+      ]
+    }
+  ]
+}

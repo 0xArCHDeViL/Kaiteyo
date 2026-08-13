@@ -1,0 +1,71 @@
+{
+  "id": "1441330",
+  "readings": [
+    {
+      "kanaExpression": "てんばい",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "転売",
+      "furiganaExpression": [
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "売",
+          "annotation": "ばい"
+        }
+      ],
+      "rank": 14834
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "resale"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "weer",
+        "opnieuw verkopen",
+        "doorverkopen",
+        "verder verkopen",
+        "wederverkoop",
+        "doorverkoop",
+        "detailverkoop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wiederverkaufen",
+        "weiterverkaufen",
+        "Weiterverkauf",
+        "Wiederverkauf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "újraeladás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перепродажа",
+        "{～する} перепродавать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reventa"
+      ]
+    }
+  ]
+}

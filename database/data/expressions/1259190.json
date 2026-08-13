@@ -1,0 +1,57 @@
+{
+  "id": "1259190",
+  "readings": [
+    {
+      "kanaExpression": "みせしめ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "見せしめ",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "せしめ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(making a) lesson (of)",
+        "(setting an) example",
+        "warning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Warnung",
+        "warnendes Beispiel",
+        "Exempel",
+        "Lektion",
+        "Abschreckungsmittel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feladat",
+        "tanítási óra"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пример (урок) для других; предупреждение",
+        "{～になる} послужить уроком",
+        "{～に}, 見せしめのため в пример другим"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "1771780",
+  "readings": [
+    {
+      "kanaExpression": "ぞうりょう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "増量",
+      "furiganaExpression": [
+        {
+          "text": "増",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "increase in amount",
+        "increase in quantity",
+        "increase in volume"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "im Gewicht zunehmen",
+        "in der Menge zunehmen",
+        "Zunahme des Gewichts",
+        "Zunahme des der Menge"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "увеличение количества (чего-л.)",
+        "{～する} увеличивать количество (чего-л.)"
+      ]
+    }
+  ]
+}

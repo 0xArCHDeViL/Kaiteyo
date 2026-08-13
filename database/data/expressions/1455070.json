@@ -1,0 +1,44 @@
+{
+  "id": "1455070",
+  "readings": [
+    {
+      "kanaExpression": "とくしょう",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "特賞",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とく"
+        },
+        {
+          "text": "賞",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "special prize"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sonderpreis",
+        "besondere Auszeichnung"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hederspris"
+      ]
+    }
+  ]
+}

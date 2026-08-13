@@ -1,0 +1,45 @@
+{
+  "id": "1389760",
+  "readings": [
+    {
+      "kanaExpression": "せんか",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "専科",
+      "furiganaExpression": [
+        {
+          "text": "専",
+          "annotation": "せん"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "specialized course",
+        "specialised course",
+        "something that is specialized for a certain field or application (e.g. a sauce specially made for zaru soba)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fachkurs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "специальный курс"
+      ]
+    }
+  ]
+}

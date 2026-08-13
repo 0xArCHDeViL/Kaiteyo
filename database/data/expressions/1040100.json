@@ -1,0 +1,38 @@
+{
+  "id": "1040100",
+  "readings": [
+    {
+      "kanaExpression": "ガスタービン",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ガス・タービン"
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gas turbine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gasturbine"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((англ.) gas turbine) газовая турбина"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "gasturbin"
+      ]
+    }
+  ]
+}

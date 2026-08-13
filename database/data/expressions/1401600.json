@@ -1,0 +1,57 @@
+{
+  "id": "1401600",
+  "readings": [
+    {
+      "kanaExpression": "そうじしょく",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "総辞職",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "辞",
+          "annotation": "じ"
+        },
+        {
+          "text": "職",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mass resignation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "collectief ontslag",
+        "collectief ontslag nemen",
+        "collectief opstappen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gemeinsamer Rücktritt",
+        "gemeinsam zurücktreten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общая отставка",
+        "{～する} подать в отставку в полном составе"
+      ]
+    }
+  ]
+}

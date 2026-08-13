@@ -1,0 +1,77 @@
+{
+  "id": "1590330",
+  "readings": [
+    {
+      "kanaExpression": "かぜあたり",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "かざあたり"
+    },
+    {
+      "kanjiExpression": "風当たり",
+      "furiganaExpression": [
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        },
+        {
+          "text": "当",
+          "annotation": "あ"
+        },
+        {
+          "text": "たり"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "風当り",
+      "furiganaExpression": [
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        },
+        {
+          "text": "当",
+          "annotation": "あた"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exposure to wind",
+        "severe criticism"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vom-Wind-Angeblasen-Werden",
+        "Dem-Wind-Ausgesetzt-Sein",
+        "Angriff",
+        "Kritik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elnyomás",
+        "lehangoltság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ветреное место, место, открытое для ветра",
+        "(см.) かざあたり"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "1468220",
+  "readings": [
+    {
+      "kanaExpression": "としこし",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "年越し",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "とし"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "年越",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "とし"
+        },
+        {
+          "text": "越",
+          "annotation": "こし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "greeting the New Year (on New Year\u0027s Eve)",
+        "welcoming the New Year"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das alte Jahr verabschieden",
+        "Silvester",
+        "Neujahrsabend",
+        "Verabschiedung des alten Jahres"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szilveszter",
+        "szilveszterest"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (см.) えつねん",
+        "2) последний день [старого] года; новогодний вечер",
+        "3): {～をする} встречать Новый год"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pasar el fin de año"
+      ]
+    }
+  ]
+}

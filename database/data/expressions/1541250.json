@@ -1,0 +1,99 @@
+{
+  "id": "1541250",
+  "readings": [
+    {
+      "kanaExpression": "ゆうげん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "有限",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "限",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 5297
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "finite",
+        "limited"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het eindige",
+        "het begrensde",
+        "het beperkte",
+        "eindig",
+        "begrensd",
+        "beperkt",
+        "afgeperkt"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "borne",
+        "limite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "begrenzt",
+        "beschränkt",
+        "endlich",
+        "Begrenzung",
+        "Beschränkung",
+        "Endlichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhatárolt",
+        "véges",
+        "korlátolt",
+        "korlátozott"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} ограниченный, имеющий предел"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dokončnost",
+        "omejenost",
+        "končen",
+        "omejen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "finito",
+        "limitado"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ändlig"
+      ]
+    }
+  ]
+}

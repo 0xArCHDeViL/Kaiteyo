@@ -1,0 +1,81 @@
+{
+  "id": "1335760",
+  "readings": [
+    {
+      "kanaExpression": "おもさ",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "重さ",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "おも"
+        },
+        {
+          "text": "さ"
+        }
+      ],
+      "rank": 18000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weight"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gewicht",
+        "zwaarte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "le poids (que pèse un objet)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewicht",
+        "Schwere",
+        "Bedeutung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "súly"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вес, тяжесть"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "teža"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "peso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vikta"
+      ]
+    }
+  ]
+}

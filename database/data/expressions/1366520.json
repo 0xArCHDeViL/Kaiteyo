@@ -1,0 +1,73 @@
+{
+  "id": "1366520",
+  "readings": [
+    {
+      "kanaExpression": "じんいてき",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "人為的",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "じん"
+        },
+        {
+          "text": "為",
+          "annotation": "い"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "artificial",
+        "unnatural",
+        "human-caused (e.g. mistake, error, disaster)",
+        "man-made"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "artificiel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "künstlich",
+        "vom Menschen geschaffen",
+        "gekünstelt",
+        "menschengemacht",
+        "unnatürlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erőltetett",
+        "gonosz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "искусственный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "artificial"
+      ]
+    }
+  ]
+}

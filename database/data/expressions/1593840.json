@@ -1,0 +1,66 @@
+{
+  "id": "1593840",
+  "readings": [
+    {
+      "kanaExpression": "さむざむ",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "寒々",
+      "furiganaExpression": [
+        {
+          "text": "寒",
+          "annotation": "さむ"
+        },
+        {
+          "text": "々",
+          "annotation": "ざむ"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "寒寒",
+      "furiganaExpression": [
+        {
+          "text": "寒",
+          "annotation": "さむ"
+        },
+        {
+          "text": "寒",
+          "annotation": "ざむ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wintry",
+        "very cold-looking (e.g. landscape)",
+        "bleak (e.g. room, street)",
+        "desolate",
+        "empty (of furnishings)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kalt",
+        "winterlich",
+        "trostlos",
+        "desolat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sivár",
+        "barátságtalanul hideg",
+        "télies",
+        "zimankós"
+      ]
+    }
+  ]
+}

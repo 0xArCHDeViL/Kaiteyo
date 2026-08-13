@@ -1,0 +1,82 @@
+{
+  "id": "1443630",
+  "readings": [
+    {
+      "kanaExpression": "でんちゅう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "電柱",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "柱",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "utility pole",
+        "power pole",
+        "telephone pole",
+        "telegraph pole"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elektriciteitspaal",
+        "telefoonpaal",
+        "telegraafpaal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "poteau électrique",
+        "poteau télégraphique",
+        "poteau téléphonique",
+        "lampadaire",
+        "réverbère"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Strommast",
+        "Leitungsmast",
+        "Telegrafenmast",
+        "Telefonmast"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "телеграфный столб"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "telefonski drog",
+        "drog javne svetilke"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "poste de teléfono",
+        "poste telegráfico",
+        "poste de luz"
+      ]
+    }
+  ]
+}

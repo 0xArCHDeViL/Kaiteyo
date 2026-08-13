@@ -1,0 +1,73 @@
+{
+  "id": "1161000",
+  "readings": [
+    {
+      "kanaExpression": "ひとあんしん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "一安心",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "安",
+          "annotation": "あん"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 13621
+    },
+    {
+      "kanjiExpression": "ひと安心",
+      "furiganaExpression": [
+        {
+          "text": "ひと"
+        },
+        {
+          "text": "安",
+          "annotation": "あん"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "feeling of relief (for the time being)",
+        "peace of mind (for now)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einstweilig keine Sorgen haben",
+        "vorläufige Erleichterung",
+        "zeitweilige Ruhe",
+        "zeitweises Durchatmen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} на время успокоиться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sentimiento de alivio"
+      ]
+    }
+  ]
+}

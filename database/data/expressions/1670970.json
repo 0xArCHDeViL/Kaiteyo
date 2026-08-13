@@ -1,0 +1,79 @@
+{
+  "id": "1670970",
+  "readings": [
+    {
+      "kanaExpression": "もようがえ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "模様替え",
+      "furiganaExpression": [
+        {
+          "text": "模",
+          "annotation": "も"
+        },
+        {
+          "text": "様",
+          "annotation": "よう"
+        },
+        {
+          "text": "替",
+          "annotation": "が"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "模様がえ",
+      "furiganaExpression": [
+        {
+          "text": "模",
+          "annotation": "も"
+        },
+        {
+          "text": "様",
+          "annotation": "よう"
+        },
+        {
+          "text": "がえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rearranging",
+        "remodeling",
+        "remodelling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Änderung",
+        "Umgestaltung",
+        "Umstellung",
+        "Neuanordnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átalakítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перестройка, переделка; переработка (плана и т. п.)",
+        "{～になる} быть переделанным (перестроенным, переработанным)",
+        "{～をする} переделывать, перестраивать; перерабатывать"
+      ]
+    }
+  ]
+}

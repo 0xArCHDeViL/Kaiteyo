@@ -1,0 +1,49 @@
+{
+  "id": "1313490",
+  "readings": [
+    {
+      "kanaExpression": "はならび",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "歯並び",
+      "furiganaExpression": [
+        {
+          "text": "歯",
+          "annotation": "は"
+        },
+        {
+          "text": "並",
+          "annotation": "なら"
+        },
+        {
+          "text": "び"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "row of teeth",
+        "set of teeth",
+        "dentition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zahnreihe",
+        "Anordnung der Zähne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "műfogsor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "1240490",
+  "readings": [
+    {
+      "kanaExpression": "ごくひん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "極貧",
+      "furiganaExpression": [
+        {
+          "text": "極",
+          "annotation": "ごく"
+        },
+        {
+          "text": "貧",
+          "annotation": "ひん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "destitution"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "extreme armoede"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "extrem arm",
+        "arm wie eine Kirchenmaus",
+        "bitterste Armut",
+        "äußerste Armut",
+        "extreme Armut"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyomor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крайняя нужда (бедность)",
+        "{～の} крайне бедный, беднейший; очень нуждающийся"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "extrema pobreza",
+        "absoluta miseria"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fattigdom"
+      ]
+    }
+  ]
+}

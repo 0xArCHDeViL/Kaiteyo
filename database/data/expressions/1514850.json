@@ -1,0 +1,53 @@
+{
+  "id": "1514850",
+  "readings": [
+    {
+      "kanaExpression": "ぼけつ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "はかあな"
+    },
+    {
+      "kanjiExpression": "墓穴",
+      "furiganaExpression": [
+        {
+          "text": "墓",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "穴",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grave (pit)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tombe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grab",
+        "Gruft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) могильная яма, могила"
+      ]
+    }
+  ]
+}

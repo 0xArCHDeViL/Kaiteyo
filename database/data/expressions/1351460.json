@@ -1,0 +1,75 @@
+{
+  "id": "1351460",
+  "readings": [
+    {
+      "kanaExpression": "しょうぞう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "肖像",
+      "furiganaExpression": [
+        {
+          "text": "肖",
+          "annotation": "しょう"
+        },
+        {
+          "text": "像",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 9020
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "portrait",
+        "likeness",
+        "picture"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "portret",
+        "beeltenis",
+        "{貨幣面の} beeldenaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Porträt",
+        "Bildnis",
+        "Bild",
+        "Konterfei"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "arckép",
+        "személyleírás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "портрет, изображение; образ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "retrato"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "porträtt"
+      ]
+    }
+  ]
+}

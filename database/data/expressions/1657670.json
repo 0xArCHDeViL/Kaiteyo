@@ -1,0 +1,50 @@
+{
+  "id": "1657670",
+  "readings": [
+    {
+      "kanaExpression": "さいにんしき",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "再認識",
+      "furiganaExpression": [
+        {
+          "text": "再",
+          "annotation": "さい"
+        },
+        {
+          "text": "認",
+          "annotation": "にん"
+        },
+        {
+          "text": "識",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "recognizing anew",
+        "seeing something in a new light"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "etw. in neuem Licht betrachten",
+        "Neuverständnis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "новое восприятие, новое понимание, переосмысление",
+        "{～する} переосмысливать, воспринимать по новому, получать новое представление"
+      ]
+    }
+  ]
+}

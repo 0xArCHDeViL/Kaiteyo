@@ -1,0 +1,82 @@
+{
+  "id": "1281330",
+  "readings": [
+    {
+      "kanaExpression": "こうくうけん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "航空券",
+      "furiganaExpression": [
+        {
+          "text": "航",
+          "annotation": "こう"
+        },
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "券",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "airline ticket",
+        "plane ticket",
+        "air ticket"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vliegticket",
+        "vliegbiljet"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "billet d\u0027avion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flugschein",
+        "Flugticket"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "repülőjegy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "авиабилет"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "letalska vozovnica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "billete aéreo",
+        "boleto de avión"
+      ]
+    }
+  ]
+}

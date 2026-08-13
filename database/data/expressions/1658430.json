@@ -1,0 +1,81 @@
+{
+  "id": "1658430",
+  "readings": [
+    {
+      "kanaExpression": "もちかえる",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "持ち帰る",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "帰",
+          "annotation": "かえ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 7850
+    },
+    {
+      "kanjiExpression": "持帰る",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "帰",
+          "annotation": "かえ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to take home",
+        "to carry home",
+        "to bring back home",
+        "to take out (e.g. food)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mee naar huis nemen",
+        "meenemen",
+        "afhalen",
+        "{gew.} uithalen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "etw. mit heim nehmen",
+        "etw. mit nach Hause nehmen",
+        "mitnehmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eltávolít",
+        "kieszközöl",
+        "kivisz"
+      ]
+    }
+  ]
+}

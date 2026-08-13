@@ -1,0 +1,89 @@
+{
+  "id": "1605420",
+  "readings": [
+    {
+      "kanaExpression": "やきにく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "焼肉",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "やき"
+        },
+        {
+          "text": "肉",
+          "annotation": "にく"
+        }
+      ],
+      "rank": 9241
+    },
+    {
+      "kanjiExpression": "焼き肉",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "肉",
+          "annotation": "にく"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yakiniku",
+        "Japanese dish of grilled meat similar to Korean barbecue",
+        "roasted meat",
+        "grill"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} gebraden vlees",
+        "gegrild vlees",
+        "gegrilleerd vlees",
+        "gebraad",
+        "{i.h.b.} op barbecue geroosterd vlees"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "barbecue coréen",
+        "viande grillée (yakiniku)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Yakiniku",
+        "gebratenes Fleisch",
+        "gegrilltes Fleisch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "якинику (японское блюдо из жареного мяса)",
+        "жаркое; жареное мясо; жареная птица"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carne asada"
+      ]
+    }
+  ]
+}

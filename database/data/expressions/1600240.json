@@ -1,0 +1,84 @@
+{
+  "id": "1600240",
+  "readings": [
+    {
+      "kanaExpression": "ねんれい",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "年齢",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "齢",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 1553
+    },
+    {
+      "kanjiExpression": "年令",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "令",
+          "annotation": "れい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "age",
+        "years"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "âge",
+        "nombre d\u0027année"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jahr",
+        "Alter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "életkor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возраст"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "starost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "edad",
+        "años de edad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1237000",
+  "readings": [
+    {
+      "kanaExpression": "きょうか",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "教化",
+      "furiganaExpression": [
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "education",
+        "enlightenment",
+        "civilization",
+        "civilisation",
+        "indoctrination"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufklären",
+        "belehren",
+        "erziehen",
+        "bekehren",
+        "zivilisieren",
+        "Aufklärung",
+        "Belehrung",
+        "Erziehung",
+        "Zivilisierung",
+        "Kultivierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kultúra",
+        "társadalom",
+        "oktatás",
+        "tanítás",
+        "civilizáció",
+        "műveltség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "культура, цивилизация; просвещение, образование",
+        "{～する} просвещать, цивилизовать"
+      ]
+    }
+  ]
+}

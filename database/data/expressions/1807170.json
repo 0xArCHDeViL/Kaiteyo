@@ -1,0 +1,63 @@
+{
+  "id": "1807170",
+  "readings": [
+    {
+      "kanaExpression": "もくほん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "木本",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "もく"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tree",
+        "woody plant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verholzende Pflanze",
+        "Baum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bitó",
+        "bitófa",
+        "fa",
+        "kaptafa",
+        "munkapad",
+        "támfa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "древовидное растение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "planta leñosa",
+        "árbol"
+      ]
+    }
+  ]
+}

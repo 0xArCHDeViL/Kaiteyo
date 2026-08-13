@@ -1,0 +1,69 @@
+{
+  "id": "1175350",
+  "readings": [
+    {
+      "kanaExpression": "えつねん",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "おつねん"
+    },
+    {
+      "kanjiExpression": "越年",
+      "furiganaExpression": [
+        {
+          "text": "越",
+          "annotation": "えつ"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seeing the old year out",
+        "greeting the New Year",
+        "passing the winter",
+        "hibernation",
+        "playing more than the usual 12 rounds in one game"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het uitluiden van het oude jaar",
+        "het doorbrengen van de winter",
+        "{biol.} het hiberneren",
+        "hibernatie",
+        "het oude jaar uitluiden",
+        "de winter doorbrengen",
+        "overwinteren",
+        "{biol.} hiberneren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verabschiedung des alten Jahres",
+        "sich vom alten Jahr verabschieden",
+        "glücklich den Jahreswechsel überstehen",
+        "überwintern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": ～する",
+        "1) перезимовать",
+        "2) встречать Новый год",
+        "3) быть в зимней спячке"
+      ]
+    }
+  ]
+}

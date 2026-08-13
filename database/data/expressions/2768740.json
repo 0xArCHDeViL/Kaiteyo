@@ -1,0 +1,69 @@
+{
+  "id": "2768740",
+  "readings": [
+    {
+      "kanaExpression": "ひまつ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "飛沫",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "ひ"
+        },
+        {
+          "text": "沫",
+          "annotation": "まつ"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "飛まつ",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "ひ"
+        },
+        {
+          "text": "まつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "splash",
+        "spray",
+        "droplet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gischt",
+        "Spritzwasser",
+        "Wasserspritzer",
+        "Sprühregen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "folt",
+        "loccsanás",
+        "gally",
+        "szóró"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) брызги"
+      ]
+    }
+  ]
+}

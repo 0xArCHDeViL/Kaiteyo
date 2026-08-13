@@ -1,0 +1,55 @@
+{
+  "id": "1214710",
+  "readings": [
+    {
+      "kanaExpression": "かんさいき",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "艦載機",
+      "furiganaExpression": [
+        {
+          "text": "艦",
+          "annotation": "かん"
+        },
+        {
+          "text": "載",
+          "annotation": "さい"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "carrier-based aircraft",
+        "ship-borne aircraft (e.g. helicopters)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} boordvliegtuig",
+        "carriervliegtuig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bordflugzeug"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бортовой (палубный, корабельный) самолёт, самолёт, базирующийся на корабль"
+      ]
+    }
+  ]
+}

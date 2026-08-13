@@ -1,0 +1,54 @@
+{
+  "id": "1655370",
+  "readings": [
+    {
+      "kanaExpression": "たいきょく",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "対局",
+      "furiganaExpression": [
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "局",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(playing a) game (of go, shogi, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "partijtje go",
+        "shogi",
+        "confrontatie met de situatie",
+        "toestand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mit jmdm. eine Partie Go (o.Ä.) spielen",
+        "Partie (Schach, Go oder Shōgi)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "партия в го",
+        "{～する} сыграть партию в го"
+      ]
+    }
+  ]
+}

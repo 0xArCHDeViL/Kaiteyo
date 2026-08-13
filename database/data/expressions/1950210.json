@@ -1,0 +1,99 @@
+{
+  "id": "1950210",
+  "readings": [
+    {
+      "kanaExpression": "ひきおとし",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "引き落とし",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "落",
+          "annotation": "お"
+        },
+        {
+          "text": "とし"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "引き落し",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "落",
+          "annotation": "おと"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "引落とし",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "落",
+          "annotation": "お"
+        },
+        {
+          "text": "とし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "debit",
+        "withdrawal",
+        "pulling (one\u0027s opponent) down",
+        "frontal pull-down",
+        "hiki-otoshi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hiki・otoshi (Technik, bei der Gegner so nach vorne gezogen wird, dass er auf die Knie geht)",
+        "Bankeinzug"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "készletből levon"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "derribe (oponente)",
+        "empuje frontal (en Sumo)",
+        "hiki-otoshi",
+        "empuje (de un oponente)",
+        "empuje frontal (in Sumo)"
+      ]
+    }
+  ]
+}

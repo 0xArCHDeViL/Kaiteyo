@@ -1,0 +1,85 @@
+{
+  "id": "1560560",
+  "readings": [
+    {
+      "kanaExpression": "ろうどうりょく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "労働力",
+      "furiganaExpression": [
+        {
+          "text": "労",
+          "annotation": "ろう"
+        },
+        {
+          "text": "働",
+          "annotation": "どう"
+        },
+        {
+          "text": "力",
+          "annotation": "りょく"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "labor",
+        "labour",
+        "manpower",
+        "working force"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "arbeidskrachten",
+        "werkkrachten",
+        "handkracht",
+        "mankracht",
+        "arbeidsvolume",
+        "arbeidspotentieel",
+        "beroepsbevolking",
+        "actieve bevolking",
+        "werkende bevolking",
+        "personeelsbestand",
+        "personeelsbezetting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitskraft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dolog",
+        "munka",
+        "munkaerő",
+        "munkások",
+        "munkásosztály",
+        "szülés",
+        "vajúdás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) рабочая сила",
+        "2) работоспособность"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "delovna sila"
+      ]
+    }
+  ]
+}

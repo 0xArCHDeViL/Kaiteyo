@@ -1,0 +1,39 @@
+{
+  "id": "2234880",
+  "readings": [
+    {
+      "kanaExpression": "じょきん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "除菌",
+      "furiganaExpression": [
+        {
+          "text": "除",
+          "annotation": "じょ"
+        },
+        {
+          "text": "菌",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "disinfection",
+        "sterile filtration"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "desinfizieren",
+        "Desinfektion"
+      ]
+    }
+  ]
+}

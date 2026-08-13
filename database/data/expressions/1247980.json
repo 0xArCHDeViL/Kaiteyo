@@ -1,0 +1,47 @@
+{
+  "id": "1247980",
+  "readings": [
+    {
+      "kanaExpression": "ぐんこく",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "軍国",
+      "furiganaExpression": [
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 13300
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nation at war",
+        "militant nation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Militärstaat",
+        "Militär und Regierung",
+        "Land im Kriegszustand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) воюющее государство",
+        "2) милитаристское государство"
+      ]
+    }
+  ]
+}

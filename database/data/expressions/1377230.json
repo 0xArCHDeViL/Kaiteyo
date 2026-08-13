@@ -1,0 +1,53 @@
+{
+  "id": "1377230",
+  "readings": [
+    {
+      "kanaExpression": "せいし",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "正史",
+      "furiganaExpression": [
+        {
+          "text": "正",
+          "annotation": "せい"
+        },
+        {
+          "text": "史",
+          "annotation": "し"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "official history",
+        "authorized history"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "officiële geschiedenis",
+        "{Chin.letterk.} zhèngshǐ"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "offizielles Geschichtswerk",
+        "autorisiertes Geschichtswerk",
+        "Geschichtswerk, das den Mainstream wiedergibt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) официальная история"
+      ]
+    }
+  ]
+}

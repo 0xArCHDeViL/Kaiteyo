@@ -1,0 +1,65 @@
+{
+  "id": "1217260",
+  "readings": [
+    {
+      "kanaExpression": "がんりき"
+    },
+    {
+      "kanaExpression": "がんりょく",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "眼力",
+      "furiganaExpression": [
+        {
+          "text": "眼",
+          "annotation": "がん"
+        },
+        {
+          "text": "力",
+          "annotation": "りき"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "insight",
+        "power of observation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einsicht",
+        "Scharfsinn",
+        "Beobachtungsgabe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "éleslátás",
+        "intuíció",
+        "ösztönös megérzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наблюдательность, проницательность",
+        "{～のある} наблюдательный, проницательный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vista",
+        "capacidad visual"
+      ]
+    }
+  ]
+}

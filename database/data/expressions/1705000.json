@@ -1,0 +1,50 @@
+{
+  "id": "1705000",
+  "readings": [
+    {
+      "kanaExpression": "だんぱつ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "断髪",
+      "furiganaExpression": [
+        {
+          "text": "断",
+          "annotation": "だん"
+        },
+        {
+          "text": "髪",
+          "annotation": "ぱつ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cutting of hair (to a short length)",
+        "haircutting",
+        "bobbed hair",
+        "bob"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich die Haare kurz schneiden lassen",
+        "Pagenkopf",
+        "Bubikopf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "коротко постриженные волосы (у женщины)",
+        "{～の} коротко стриженная",
+        "{～する} коротко остричься (о женщине)"
+      ]
+    }
+  ]
+}

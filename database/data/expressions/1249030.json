@@ -1,0 +1,60 @@
+{
+  "id": "1249030",
+  "readings": [
+    {
+      "kanaExpression": "ぐんむ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "軍務",
+      "furiganaExpression": [
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "military affairs",
+        "military service"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "militaire zaken",
+        "militaire dienst",
+        "krijgsdienst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Militärdienst",
+        "militärische Verwaltung",
+        "militärische Angelegenheiten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "военное дело"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "servicio militar"
+      ]
+    }
+  ]
+}

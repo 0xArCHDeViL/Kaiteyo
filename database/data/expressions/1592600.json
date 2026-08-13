@@ -1,0 +1,88 @@
+{
+  "id": "1592600",
+  "readings": [
+    {
+      "kanaExpression": "けしいん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "消印",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "けし"
+        },
+        {
+          "text": "印",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "消し印",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "け"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "印",
+          "annotation": "いん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "postmark",
+        "(postal) cancellation mark"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "poststempel",
+        "postmerk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cachet (de la poste)",
+        "oblitération"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Poststempel",
+        "Entwertungsstempel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pecsét"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "почтовый штемпель, штемпель погашения (на марке)",
+        "{～する} штемпелевать, ставить штемпель, гасить [штемпелем]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "matasellos"
+      ]
+    }
+  ]
+}

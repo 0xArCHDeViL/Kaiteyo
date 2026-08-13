@@ -1,0 +1,63 @@
+{
+  "id": "1646860",
+  "readings": [
+    {
+      "kanaExpression": "しんきん",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "心筋",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "筋",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heart muscle",
+        "cardiac muscle",
+        "myocardium"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} myocardium",
+        "myocard",
+        "hartspier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herzmuskel",
+        "Myokard",
+        "Myokardium",
+        "Myocardium"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "миокард"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "músculo cardíaco",
+        "miocardio"
+      ]
+    }
+  ]
+}

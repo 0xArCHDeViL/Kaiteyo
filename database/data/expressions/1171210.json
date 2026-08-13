@@ -1,0 +1,77 @@
+{
+  "id": "1171210",
+  "readings": [
+    {
+      "kanaExpression": "うは",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "右派",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "う"
+        },
+        {
+          "text": "派",
+          "annotation": "は"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "right wing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rechtervleugel",
+        "rechterzijde",
+        "de rechtsen",
+        "rechts"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "la droite (politique)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rechts",
+        "rechtsgerichtet",
+        "die Rechten",
+        "die Rechte",
+        "rechter Flügel",
+        "rechte Partei"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jobboldal",
+        "jobbszárny"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(полит.) правая группировка, правые"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "borgerlighet",
+        "högerflygel"
+      ]
+    }
+  ]
+}

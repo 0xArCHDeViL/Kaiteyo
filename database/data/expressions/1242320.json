@@ -1,0 +1,80 @@
+{
+  "id": "1242320",
+  "readings": [
+    {
+      "kanaExpression": "きんし",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "近視",
+      "furiganaExpression": [
+        {
+          "text": "近",
+          "annotation": "きん"
+        },
+        {
+          "text": "視",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "myopia",
+        "shortsightedness",
+        "nearsightedness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} bijziend",
+        "kortzichtig",
+        "myoop",
+        "kippig",
+        "{geneesk.} bijziendheid",
+        "kortzichtigheid",
+        "myopie",
+        "kippigheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "myopie",
+        "vue basse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kurzsichtig",
+        "Kurzsichtigkeit",
+        "Myopie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) きんがん"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kratkovidnost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "miopía",
+        "visión períferica restringida"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1675940",
+  "readings": [
+    {
+      "kanaExpression": "くういき",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "空域",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "域",
+          "annotation": "いき"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "airspace"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Luftraum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kubatúra",
+        "légköbméter-tér",
+        "légrés"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "espacio aéreo"
+      ]
+    }
+  ]
+}

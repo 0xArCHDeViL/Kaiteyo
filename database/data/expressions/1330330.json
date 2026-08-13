@@ -1,0 +1,81 @@
+{
+  "id": "1330330",
+  "readings": [
+    {
+      "kanaExpression": "じゅじゅ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "授受",
+      "furiganaExpression": [
+        {
+          "text": "授",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "受",
+          "annotation": "じゅ"
+        }
+      ],
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "受授",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "授",
+          "annotation": "じゅ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "giving and receiving",
+        "transferring",
+        "transfer",
+        "changing hands"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het geven en nemen",
+        "levering en ontvangst",
+        "transfer",
+        "overdracht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "échanger",
+        "donner et recevoir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geben und nehmen",
+        "übergeben und übernehmen",
+        "austauschen",
+        "Geben und Nehmen",
+        "Übergabe und Übernahme",
+        "Austausch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сдача и приём; передача",
+        "{～する} сдавать и принимать; передавать"
+      ]
+    }
+  ]
+}

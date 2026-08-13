@@ -1,0 +1,57 @@
+{
+  "id": "1619370",
+  "readings": [
+    {
+      "kanaExpression": "そじょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "遡上",
+      "furiganaExpression": [
+        {
+          "text": "遡",
+          "annotation": "そ"
+        },
+        {
+          "text": "上",
+          "annotation": "じょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "溯上",
+      "furiganaExpression": [
+        {
+          "text": "溯",
+          "annotation": "そ"
+        },
+        {
+          "text": "上",
+          "annotation": "じょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "going upstream",
+        "swimming upstream"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stromaufwärtsschwimmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "visszapillantás",
+        "visszatekintés"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "1787470",
+  "readings": [
+    {
+      "kanaExpression": "たいようでんち",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "太陽電池",
+      "furiganaExpression": [
+        {
+          "text": "太",
+          "annotation": "たい"
+        },
+        {
+          "text": "陽",
+          "annotation": "よう"
+        },
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "池",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "solar cell"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zonnecel",
+        "fotovoltaïsche cel",
+        "pv-cel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Solarzelle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "napelem"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "célula fotoeléctrica",
+        "celda fotovoltaica",
+        "fotocélula"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "solbatteri"
+      ]
+    }
+  ]
+}

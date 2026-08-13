@@ -1,0 +1,85 @@
+{
+  "id": "1777500",
+  "readings": [
+    {
+      "kanaExpression": "つみき",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "積み木",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "木",
+          "annotation": "き"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "積木",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つみ"
+        },
+        {
+          "text": "木",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wooden building blocks",
+        "wooden bricks",
+        "playing with building blocks",
+        "piled timber",
+        "piling up wood"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "speelgoedblokken",
+        "blokken",
+        "gestapeld timmerhout"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bauklotz",
+        "Holzstoß"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "építőkockák"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) деревянные кубики, деревянный набор архитектор",
+        "2) лес, сложенный штабелем"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "byggkloss"
+      ]
+    }
+  ]
+}

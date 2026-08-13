@@ -1,0 +1,75 @@
+{
+  "id": "1235110",
+  "readings": [
+    {
+      "kanaExpression": "きょうはん",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "共犯",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "きょう"
+        },
+        {
+          "text": "犯",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "complicity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "medeplichtigheid",
+        "compliciteit",
+        "medeplichtige aan een misdaad",
+        "complice"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "complicité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mittäterschaft",
+        "Teilnahme an einer Straftat",
+        "Komplizenschaft",
+        "Mitschuld",
+        "Mittäter",
+        "Komplize"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bűnrészesség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сообщничество (в преступлении)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "complicidad"
+      ]
+    }
+  ]
+}

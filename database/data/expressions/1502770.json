@@ -1,0 +1,68 @@
+{
+  "id": "1502770",
+  "readings": [
+    {
+      "kanaExpression": "ぶつよく",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "物欲",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "欲",
+          "annotation": "よく"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "物慾",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "慾",
+          "annotation": "よく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "worldly desires",
+        "materialistic desires"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weltliche Begierde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kapzsiság",
+        "mohóság",
+        "pénzvágy",
+        "pénzsóvárság",
+        "sóvárgás",
+        "sóvárság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) мирские страсти"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "1420960",
+  "readings": [
+    {
+      "kanaExpression": "じすべり",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "地すべり",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "すべり"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "地滑り",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "滑",
+          "annotation": "すべ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "地辷り",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "辷",
+          "annotation": "すべ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "landslide",
+        "landslip"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aardverschuiving",
+        "grondverschuiving",
+        "landverschuiving",
+        "grondverzakking",
+        "verzakking",
+        "{m.b.t. verkiezingen} aardverschuiving"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erdrutsch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "földcsuszamlás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оползень"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desprendimiento (de tierra, rocas, etc.)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bergras",
+        "bergskred",
+        "jordskred",
+        "skred"
+      ]
+    }
+  ]
+}

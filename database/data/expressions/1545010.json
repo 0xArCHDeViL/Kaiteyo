@@ -1,0 +1,49 @@
+{
+  "id": "1545010",
+  "readings": [
+    {
+      "kanaExpression": "あずけいれる",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "預け入れる",
+      "furiganaExpression": [
+        {
+          "text": "預",
+          "annotation": "あず"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to make a deposit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einzahlen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "класть (деньги в банк, сберегательную кассу); депонировать"
+      ]
+    }
+  ]
+}

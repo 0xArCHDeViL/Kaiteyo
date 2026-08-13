@@ -1,0 +1,59 @@
+{
+  "id": "1692100",
+  "readings": [
+    {
+      "kanaExpression": "かぶしきしじょう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "株式市場",
+      "furiganaExpression": [
+        {
+          "text": "株",
+          "annotation": "かぶ"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        },
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "場",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stock market"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aandelenmarkt",
+        "effectenmarkt",
+        "fondsenmarkt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aktienmarkt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рынок ценных бумаг"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1542950",
+  "readings": [
+    {
+      "kanaExpression": "よご",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "予後",
+      "furiganaExpression": [
+        {
+          "text": "予",
+          "annotation": "よ"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prognosis",
+        "recuperation",
+        "convalescence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} herstel",
+        "herstelperiode",
+        "genezing",
+        "genezingsperiode",
+        "reconvalescentie",
+        "convalescentie",
+        "{geneesk.} prognose"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Prognose",
+        "zu erwartender Krankheitsverlauf",
+        "Rekonvaleszenz",
+        "Erholung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felépülés",
+        "visszaszerzés",
+        "felgyógyulás",
+        "gyógyulás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) прогноз"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "convalecencia"
+      ]
+    }
+  ]
+}

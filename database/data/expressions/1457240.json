@@ -1,0 +1,70 @@
+{
+  "id": "1457240",
+  "readings": [
+    {
+      "kanaExpression": "とどけで",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "届け出",
+      "furiganaExpression": [
+        {
+          "text": "届",
+          "annotation": "とど"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        }
+      ],
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "届出",
+      "furiganaExpression": [
+        {
+          "text": "届",
+          "annotation": "とどけ"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        }
+      ],
+      "rank": 10760
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "report",
+        "notification"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aangifte",
+        "melding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anmeldung",
+        "Anzeige"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszámoló",
+        "tudtul adás"
+      ]
+    }
+  ]
+}

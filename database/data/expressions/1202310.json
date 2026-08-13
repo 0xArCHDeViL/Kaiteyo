@@ -1,0 +1,57 @@
+{
+  "id": "1202310",
+  "readings": [
+    {
+      "kanaExpression": "えまき",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "絵巻",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "巻",
+          "annotation": "まき"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "picture scroll"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rouleau peint"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bildrolle",
+        "E・makimono"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "повесть в картинах (альбом иллюстраций с кратким пояснительным текстом тип изданий в средневековой Японии)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tira de pinturas enrollada",
+        "rollo de pinturas"
+      ]
+    }
+  ]
+}

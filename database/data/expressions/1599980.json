@@ -1,0 +1,74 @@
+{
+  "id": "1599980",
+  "readings": [
+    {
+      "kanaExpression": "ぬけあな",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "抜け穴",
+      "furiganaExpression": [
+        {
+          "text": "抜",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "穴",
+          "annotation": "あな"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "抜穴",
+      "furiganaExpression": [
+        {
+          "text": "抜",
+          "annotation": "ぬけ"
+        },
+        {
+          "text": "穴",
+          "annotation": "あな"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "secret passage",
+        "underground passage",
+        "loophole",
+        "hole one can go through",
+        "opening"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlupfloch",
+        "geheimer Durchgang",
+        "Hintertürchen",
+        "Ausweg"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kémlelőnyílás",
+        "menekülési lehetőség"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kryphål",
+        "smyghål"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2830040",
+  "readings": [
+    {
+      "kanaExpression": "あんや",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "暗夜",
+      "furiganaExpression": [
+        {
+          "text": "暗",
+          "annotation": "あん"
+        },
+        {
+          "text": "夜",
+          "annotation": "や"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "闇夜",
+      "furiganaExpression": [
+        {
+          "text": "闇",
+          "annotation": "あん"
+        },
+        {
+          "text": "夜",
+          "annotation": "や"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dark night"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "finstere Nacht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тёмная ночь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "noche oscura (obscura)",
+        "noche oscura (obscura) (sin luna)"
+      ]
+    }
+  ]
+}

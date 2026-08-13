@@ -1,0 +1,70 @@
+{
+  "id": "1485530",
+  "readings": [
+    {
+      "kanaExpression": "ひこうせん",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "飛行船",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "ひ"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        },
+        {
+          "text": "船",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "airship",
+        "blimp"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "luchtschip",
+        "bestuurbare luchtballon",
+        "{ツェッペリン～} zeppelin",
+        "{小型～} blimp"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Luftschiff",
+        "Zeppelin"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "léghajó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дирижабль"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dirigible (aeronave)"
+      ]
+    }
+  ]
+}

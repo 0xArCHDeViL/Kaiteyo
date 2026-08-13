@@ -1,0 +1,77 @@
+{
+  "id": "1550450",
+  "readings": [
+    {
+      "kanaExpression": "うらじ",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "うらち"
+    },
+    {
+      "kanjiExpression": "裏地",
+      "furiganaExpression": [
+        {
+          "text": "裏",
+          "annotation": "うら"
+        },
+        {
+          "text": "地",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lining",
+        "land that does not adjoin to public or private roads"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voering",
+        "voeringstof",
+        "binnenbekleding",
+        "bekleding",
+        "binnenwerk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Futter",
+        "Futterstoff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bélés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подкладка, подкладочная ткань"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entretela",
+        "forro (de una prenda de vestir)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "foder"
+      ]
+    }
+  ]
+}

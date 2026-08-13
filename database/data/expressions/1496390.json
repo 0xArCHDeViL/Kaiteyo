@@ -1,0 +1,63 @@
+{
+  "id": "1496390",
+  "readings": [
+    {
+      "kanaExpression": "ふたく",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "付託",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "ふ"
+        },
+        {
+          "text": "託",
+          "annotation": "たく"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "附託",
+      "furiganaExpression": [
+        {
+          "text": "附",
+          "annotation": "ふ"
+        },
+        {
+          "text": "託",
+          "annotation": "たく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "committal",
+        "reference",
+        "submission (e.g. to committee)",
+        "commitment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "übergeben",
+        "überweisen",
+        "Übergeben",
+        "Überweisen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "передача (напр. законопроекта комитету, комиссии); поручение",
+        "{～する} передавать; поручать; вверять"
+      ]
+    }
+  ]
+}

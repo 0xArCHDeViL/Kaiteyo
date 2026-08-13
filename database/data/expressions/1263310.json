@@ -1,0 +1,64 @@
+{
+  "id": "1263310",
+  "readings": [
+    {
+      "kanaExpression": "げんたん",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "減反",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "反",
+          "annotation": "たん"
+        }
+      ],
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "減段",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "段",
+          "annotation": "たん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reduction (of crop size)",
+        "reduction of acreage (under cultivation)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die Anbaufläche reduzieren",
+        "Reduzierung der Anbaufläche"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csökkentés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сокращение посевной площади"
+      ]
+    }
+  ]
+}

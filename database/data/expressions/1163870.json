@@ -1,0 +1,72 @@
+{
+  "id": "1163870",
+  "readings": [
+    {
+      "kanaExpression": "ひとりむすめ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "一人娘",
+      "furiganaExpression": [
+        {
+          "text": "一人",
+          "annotation": "ひとり"
+        },
+        {
+          "text": "娘",
+          "annotation": "むすめ"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "１人娘",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "ひと"
+        },
+        {
+          "text": "人",
+          "annotation": "り"
+        },
+        {
+          "text": "娘",
+          "annotation": "むすめ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "ひとり娘",
+      "furiganaExpression": [
+        {
+          "text": "ひとり"
+        },
+        {
+          "text": "娘",
+          "annotation": "むすめ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "only daughter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die einzige Tochter"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "una sóla hija"
+      ]
+    }
+  ]
+}

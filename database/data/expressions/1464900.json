@@ -1,0 +1,79 @@
+{
+  "id": "1464900",
+  "readings": [
+    {
+      "kanaExpression": "にちようび",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "日曜日",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "曜",
+          "annotation": "よう"
+        },
+        {
+          "text": "日",
+          "annotation": "び"
+        }
+      ],
+      "rank": 2677
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Sunday"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zondag",
+        "{afk.} zo."
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dimanche"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sonntag",
+        "am Sonntag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воскресенье"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nedelja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "domingo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "söndag"
+      ]
+    }
+  ]
+}

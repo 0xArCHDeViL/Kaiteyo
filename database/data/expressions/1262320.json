@@ -1,0 +1,69 @@
+{
+  "id": "1262320",
+  "readings": [
+    {
+      "kanaExpression": "げんつき",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "原付",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "付",
+          "annotation": "つき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "原付き",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "motorized two-wheeled vehicle (with a displacement of less than 50cc)",
+        "scooter",
+        "moped"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gemotoriseerd",
+        "met motoraandrijving"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fahrrad mit Hilfsmotor",
+        "Mofa (unter 50 cm³)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "robogó"
+      ]
+    }
+  ]
+}

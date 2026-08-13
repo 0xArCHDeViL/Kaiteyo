@@ -1,0 +1,58 @@
+{
+  "id": "1616650",
+  "readings": [
+    {
+      "kanaExpression": "だでん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "打電",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "だ"
+        },
+        {
+          "text": "電",
+          "annotation": "でん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sending a telegram",
+        "telegraphing",
+        "wiring"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Telegrafieren",
+        "Drahten",
+        "Funken",
+        "Telegramm absenden",
+        "telegrafieren",
+        "funken",
+        "drahten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "távíró"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "телеграфирование",
+        "{～する} телеграфировать, посылать телеграмму"
+      ]
+    }
+  ]
+}

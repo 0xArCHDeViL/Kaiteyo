@@ -1,0 +1,55 @@
+{
+  "id": "1215550",
+  "readings": [
+    {
+      "kanaExpression": "かんせつてき",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "間接的",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "かん"
+        },
+        {
+          "text": "接",
+          "annotation": "せつ"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "indirect"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "indirekt",
+        "in indirekter Weise",
+        "mittelbar"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közvetve"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "indirecto"
+      ]
+    }
+  ]
+}

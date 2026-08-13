@@ -1,0 +1,107 @@
+{
+  "id": "1289400",
+  "readings": [
+    {
+      "kanaExpression": "こんにちは",
+      "rank": 2648
+    },
+    {
+      "kanaExpression": "こんにちわ",
+      "rank": 13261
+    },
+    {
+      "kanaExpression": "こにちわ"
+    },
+    {
+      "kanaExpression": "こにちは"
+    },
+    {
+      "kanjiExpression": "今日は",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "こん"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "は"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "今日わ",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "こん"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "わ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hello",
+        "good day",
+        "good afternoon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "goedendag",
+        "goeiendag",
+        "hallo",
+        "hoi",
+        "dag",
+        "goedemiddag",
+        "goeiemiddag",
+        "bonjour",
+        "{volkst.} gedag",
+        "{volkst.} goei",
+        "{bij joden} sjolem",
+        "goedemorgen",
+        "goedenavond"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bonjour (dans la journée)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "добрый день",
+        "здравствуйте (дневное приветствие)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hola",
+        "buenos dias (saludo durante el día)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "goddag",
+        "hej"
+      ]
+    }
+  ]
+}

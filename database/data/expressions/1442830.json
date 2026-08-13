@@ -1,0 +1,89 @@
+{
+  "id": "1442830",
+  "readings": [
+    {
+      "kanaExpression": "たはた",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "でんぱた"
+    },
+    {
+      "kanaExpression": "でんばた"
+    },
+    {
+      "kanaExpression": "たはたけ"
+    },
+    {
+      "kanjiExpression": "田畑",
+      "furiganaExpression": [
+        {
+          "text": "田",
+          "annotation": "た"
+        },
+        {
+          "text": "畑",
+          "annotation": "はた"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "田畠",
+      "furiganaExpression": [
+        {
+          "text": "田",
+          "annotation": "た"
+        },
+        {
+          "text": "畠",
+          "annotation": "はた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fields (of rice and other crops)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijstvelden en akkers",
+        "rijst- en akkerland"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(littéralement)rizières et champs",
+        "champs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feld",
+        "Acker",
+        "Nass- und Trockenfelder",
+        "Tahata"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[обводнённые и сухие] поля; [возделанные] поля",
+        "рисовые поля"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "campos de cultivo"
+      ]
+    }
+  ]
+}

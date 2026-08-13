@@ -1,0 +1,60 @@
+{
+  "id": "1382120",
+  "readings": [
+    {
+      "kanaExpression": "ぜいしゅう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "税収",
+      "furiganaExpression": [
+        {
+          "text": "税",
+          "annotation": "ぜい"
+        },
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 8930
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tax yields",
+        "revenue"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geldw.} belastinginkomsten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steuereinnahmen",
+        "Steueraufkommen",
+        "Steuereinkünfte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állami bevétel",
+        "állami jövedelem",
+        "árbevétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "налоговые поступления"
+      ]
+    }
+  ]
+}

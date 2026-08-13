@@ -1,0 +1,83 @@
+{
+  "id": "2006640",
+  "readings": [
+    {
+      "kanaExpression": "まちがいない",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "間違いない",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "ま"
+        },
+        {
+          "text": "違",
+          "annotation": "ちが"
+        },
+        {
+          "text": "いない"
+        }
+      ],
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "間違い無い",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "ま"
+        },
+        {
+          "text": "違",
+          "annotation": "ちが"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "certain",
+        "sure",
+        "no doubt",
+        "reliable",
+        "dependable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zweifellos",
+        "bestimmt",
+        "sicherlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizonyos"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inconfundible",
+        "incuestionable",
+        "indiscutible"
+      ]
+    }
+  ]
+}

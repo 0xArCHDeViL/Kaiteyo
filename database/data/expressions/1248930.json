@@ -1,0 +1,45 @@
+{
+  "id": "1248930",
+  "readings": [
+    {
+      "kanaExpression": "ぐんぴょう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "軍票",
+      "furiganaExpression": [
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "票",
+          "annotation": "ぴょう"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "military scrip"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Militärgeld",
+        "Kriegswährung",
+        "Kriegsgeld"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "военные боны; реквизиционные расписки [оккупационной армии]"
+      ]
+    }
+  ]
+}

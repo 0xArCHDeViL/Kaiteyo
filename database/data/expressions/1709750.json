@@ -1,0 +1,55 @@
+{
+  "id": "1709750",
+  "readings": [
+    {
+      "kanaExpression": "そうきゅう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "送球",
+      "furiganaExpression": [
+        {
+          "text": "送",
+          "annotation": "そう"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "throwing a ball",
+        "handball"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "balworp",
+        "pass",
+        "{Belg.N.} pas",
+        "{sportt.} handbal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ballwurf",
+        "Zuspiel",
+        "Handball"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ручной мяч, гандбол"
+      ]
+    }
+  ]
+}

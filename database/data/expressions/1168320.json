@@ -1,0 +1,69 @@
+{
+  "id": "1168320",
+  "readings": [
+    {
+      "kanaExpression": "いんし",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "印紙",
+      "furiganaExpression": [
+        {
+          "text": "印",
+          "annotation": "いん"
+        },
+        {
+          "text": "紙",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(revenue) stamp"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zegel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tampon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steuermarke",
+        "Gebührenmarke",
+        "Briefmarke"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bélyegző"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гербовая марка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(ingresos) sello"
+      ]
+    }
+  ]
+}

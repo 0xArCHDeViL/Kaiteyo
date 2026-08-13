@@ -1,0 +1,52 @@
+{
+  "id": "1657340",
+  "readings": [
+    {
+      "kanaExpression": "こくごじてん",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "国語辞典",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "辞",
+          "annotation": "じ"
+        },
+        {
+          "text": "典",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese-language dictionary",
+        "dictionary of a national language"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wörterbuch der japanischen Sprache (einsprachig)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "diccionario de japonés"
+      ]
+    }
+  ]
+}

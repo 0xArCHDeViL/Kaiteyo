@@ -1,0 +1,85 @@
+{
+  "id": "1370420",
+  "readings": [
+    {
+      "kanaExpression": "としょかん",
+      "rank": 17500
+    },
+    {
+      "kanaExpression": "ずしょかん"
+    },
+    {
+      "kanjiExpression": "図書館",
+      "furiganaExpression": [
+        {
+          "text": "図",
+          "annotation": "と"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "館",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 2048
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "library"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bibliotheekgebouw",
+        "bibliotheek",
+        "{veroud.} boekerij",
+        "{inform.} bieb"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bibliothèque"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bibliothek",
+        "Bücherei"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "библиотека ((общественная, в отдельном здании); (ср.) としょしつ)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "knjižnica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "biblioteca"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bibliotek",
+        "bibbla"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "1284450",
+  "readings": [
+    {
+      "kanaExpression": "あいのて",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "合いの手",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "いの"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "合の手",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "あい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "間の手",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "あい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "相の手",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "あい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "あいの手",
+      "furiganaExpression": [
+        {
+          "text": "あいの"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interlude (in traditional Japanese music)",
+        "chanting or clapping along (during a song or dance)",
+        "interjection"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "instrumentaal intermezzo",
+        "interludium",
+        "tussenspel",
+        "ritmisch geklap",
+        "geroep tijdens een opvoering",
+        "het in de rede vallen",
+        "onderbreking",
+        "interruptie",
+        "terloopse opmerking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zwischenspiel (bei Shamisen-Musik zwischen Vokalpartien)",
+        "eingeworfener Ruf zur Belebung traditioneller japanischer Musik",
+        "Zwischenruf",
+        "Zwischenbemerkung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közjáték"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "интерлюдия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "interludio",
+        "interjección",
+        "interrupción"
+      ]
+    }
+  ]
+}

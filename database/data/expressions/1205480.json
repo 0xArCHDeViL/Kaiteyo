@@ -1,0 +1,108 @@
+{
+  "id": "1205480",
+  "readings": [
+    {
+      "kanaExpression": "かくづけ",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "かくずけ"
+    },
+    {
+      "kanjiExpression": "格付け",
+      "furiganaExpression": [
+        {
+          "text": "格",
+          "annotation": "かく"
+        },
+        {
+          "text": "付",
+          "annotation": "づ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 14939
+    },
+    {
+      "kanjiExpression": "格付",
+      "furiganaExpression": [
+        {
+          "text": "格",
+          "annotation": "かく"
+        },
+        {
+          "text": "付",
+          "annotation": "づけ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "格づけ",
+      "furiganaExpression": [
+        {
+          "text": "格",
+          "annotation": "かく"
+        },
+        {
+          "text": "づけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rating",
+        "ranking",
+        "grading",
+        "classification"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "classificeren",
+        "rangschikken",
+        "in klassen verdelen",
+        "indelen",
+        "ranken",
+        "{beurst.} raten",
+        "classificatie",
+        "klassenverdeling",
+        "indeling",
+        "ranking",
+        "{beurst.} rating"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sortieren",
+        "in Rängen abstufen",
+        "Klassifizierung",
+        "Abstufung",
+        "Sortierung",
+        "rangmäßige Einordnung",
+        "Rating"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hitelképesség",
+        "osztályozás",
+        "kiosztás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сортировка, бракераж; квалификация (по степени и т. п.)",
+        "{～する} сортировать, браковать; квалифицировать (давать степень, определять должность и т. п.)"
+      ]
+    }
+  ]
+}

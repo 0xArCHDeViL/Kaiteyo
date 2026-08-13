@@ -1,0 +1,89 @@
+{
+  "id": "1597380",
+  "readings": [
+    {
+      "kanaExpression": "ちかみち",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "近道",
+      "furiganaExpression": [
+        {
+          "text": "近",
+          "annotation": "ちか"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ],
+      "rank": 14828
+    },
+    {
+      "kanjiExpression": "近路",
+      "furiganaExpression": [
+        {
+          "text": "近",
+          "annotation": "ちか"
+        },
+        {
+          "text": "路",
+          "annotation": "みち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shorter way",
+        "shortcut"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een kortere weg nemen",
+        "kortere weg",
+        "{w.g.} binnenweg"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "court chemin",
+        "raccourci"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kurzer Weg",
+        "Abkürzung",
+        "kürzerer Weg",
+        "schnellere Methode"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rövidebb út"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "короткая дорога, близкий путь",
+        "{～をする} идти короткой дорогой (напрямик, срезая углы)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "camino corto",
+        "atajo"
+      ]
+    }
+  ]
+}

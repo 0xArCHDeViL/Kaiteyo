@@ -1,0 +1,76 @@
+{
+  "id": "1201940",
+  "readings": [
+    {
+      "kanaExpression": "はいざら",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "灰皿",
+      "furiganaExpression": [
+        {
+          "text": "灰",
+          "annotation": "はい"
+        },
+        {
+          "text": "皿",
+          "annotation": "ざら"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ashtray"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "asbak",
+        "asschotel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cendrier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aschenbecher",
+        "Aschbecher",
+        "(ugs.)Ascher"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hamutartó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пепельница"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pepelnik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cenicero"
+      ]
+    }
+  ]
+}

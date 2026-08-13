@@ -1,0 +1,57 @@
+{
+  "id": "1955380",
+  "readings": [
+    {
+      "kanaExpression": "つぶやき",
+      "rank": 2570
+    },
+    {
+      "kanjiExpression": "呟き",
+      "furiganaExpression": [
+        {
+          "text": "呟",
+          "annotation": "つぶや"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "murmur",
+        "mutter",
+        "murmuring",
+        "tweet",
+        "Twitter post"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gemompel",
+        "geprevel",
+        "gemurmel",
+        "tweet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Murmeln",
+        "Gemurmel",
+        "Tweet",
+        "Kurzmeldung (insbes. über den Mikroblogging-Dienst Twitter)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бормотание"
+      ]
+    }
+  ]
+}

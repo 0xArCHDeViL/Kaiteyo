@@ -1,0 +1,114 @@
+{
+  "id": "1280140",
+  "readings": [
+    {
+      "kanaExpression": "かんだかい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "甲高い",
+      "furiganaExpression": [
+        {
+          "text": "甲",
+          "annotation": "かん"
+        },
+        {
+          "text": "高",
+          "annotation": "だか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "かん高い",
+      "furiganaExpression": [
+        {
+          "text": "かん"
+        },
+        {
+          "text": "高",
+          "annotation": "だか"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "疳高い",
+      "furiganaExpression": [
+        {
+          "text": "疳",
+          "annotation": "かん"
+        },
+        {
+          "text": "高",
+          "annotation": "だか"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "癇高い",
+      "furiganaExpression": [
+        {
+          "text": "癇",
+          "annotation": "かん"
+        },
+        {
+          "text": "高",
+          "annotation": "だか"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high-pitched",
+        "shrill"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aigu",
+        "perçant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gellend",
+        "grell",
+        "schrill"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átható",
+        "éles",
+        "erőszakos",
+        "követelődző",
+        "metsző",
+        "tolakodó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пронзительный (о голосе)"
+      ]
+    }
+  ]
+}

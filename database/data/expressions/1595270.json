@@ -1,0 +1,93 @@
+{
+  "id": "1595270",
+  "readings": [
+    {
+      "kanaExpression": "じてん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "辞典",
+      "furiganaExpression": [
+        {
+          "text": "辞",
+          "annotation": "じ"
+        },
+        {
+          "text": "典",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 3713
+    },
+    {
+      "kanjiExpression": "辭典",
+      "furiganaExpression": [
+        {
+          "text": "辭",
+          "annotation": "じ"
+        },
+        {
+          "text": "典",
+          "annotation": "てん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dictionary",
+        "lexicon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "woordenboek",
+        "lexicon",
+        "dictionaire",
+        "{i.h.b.} woordentolk",
+        "thesaurus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dictionnaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wörterbuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szótár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фонетический словарь; (ср.) じしょ【辞書】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "diccionario"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ordlista",
+        "lexikon",
+        "ordbok"
+      ]
+    }
+  ]
+}

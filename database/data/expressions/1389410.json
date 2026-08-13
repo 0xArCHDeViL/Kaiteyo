@@ -1,0 +1,87 @@
+{
+  "id": "1389410",
+  "readings": [
+    {
+      "kanaExpression": "うらない",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "占い",
+      "furiganaExpression": [
+        {
+          "text": "占",
+          "annotation": "うらな"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 4148
+    },
+    {
+      "kanjiExpression": "卜",
+      "furiganaExpression": [
+        {
+          "text": "卜",
+          "annotation": "うらない"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fortune-telling",
+        "divination",
+        "fortune-teller",
+        "diviner"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waarzeggerij",
+        "wichelarij",
+        "het voorspellen van de toekomst",
+        "{i.h.b.} voorspelling",
+        "waarzegger",
+        "wichelaar",
+        "toekomstvoorspeller"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "divination",
+        "la bonne aventure",
+        "la bonne fortune"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wahrsagen",
+        "Weissagung",
+        "Prophezeiung",
+        "Orakel",
+        "Horoskop",
+        "Wahrsager"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гадание",
+        "{～をする} гадать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "adivino",
+        "adivinación"
+      ]
+    }
+  ]
+}

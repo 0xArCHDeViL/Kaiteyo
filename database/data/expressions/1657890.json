@@ -1,0 +1,41 @@
+{
+  "id": "1657890",
+  "readings": [
+    {
+      "kanaExpression": "さくねんど",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "昨年度",
+      "furiganaExpression": [
+        {
+          "text": "昨",
+          "annotation": "さく"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 10189
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "previous year (fiscal, academic, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letztes Jahr"
+      ]
+    }
+  ]
+}

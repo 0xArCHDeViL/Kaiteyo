@@ -1,0 +1,87 @@
+{
+  "id": "1200880",
+  "readings": [
+    {
+      "kanaExpression": "かいしゅう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "改修",
+      "furiganaExpression": [
+        {
+          "text": "改",
+          "annotation": "かい"
+        },
+        {
+          "text": "修",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 9193
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "repair",
+        "improvement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "herstelling",
+        "reparatie",
+        "herstel",
+        "verbetering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "reparieren",
+        "ausbessern",
+        "flicken",
+        "regulieren",
+        "kanalisieren (Flüsse)",
+        "Ausbesserung",
+        "Reparatur",
+        "Regulierung (eines Flusses)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "javítás",
+        "fejlesztés",
+        "kijavítás",
+        "megjavítás",
+        "tökéletesítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "починка, ремонт; укрепление (берегов реки)",
+        "{～する} чинить, ремонтировать, исправлять"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "popravilo",
+        "izboljšanje",
+        "obnavljanje",
+        "renovacija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "restauración",
+        "reforma"
+      ]
+    }
+  ]
+}

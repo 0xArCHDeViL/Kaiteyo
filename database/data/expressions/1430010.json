@@ -1,0 +1,53 @@
+{
+  "id": "1430010",
+  "readings": [
+    {
+      "kanaExpression": "ちょうだのれつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "長蛇の列",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "蛇",
+          "annotation": "だ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "列",
+          "annotation": "れつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "long line",
+        "long queue"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "file d\u0027attente",
+        "longue file"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lange Menschenschlange",
+        "lange Schlange"
+      ]
+    }
+  ]
+}

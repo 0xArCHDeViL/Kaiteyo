@@ -1,0 +1,78 @@
+{
+  "id": "2131660",
+  "readings": [
+    {
+      "kanaExpression": "やくそくどおり",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "約束通り",
+      "furiganaExpression": [
+        {
+          "text": "約",
+          "annotation": "やく"
+        },
+        {
+          "text": "束",
+          "annotation": "そく"
+        },
+        {
+          "text": "通",
+          "annotation": "どお"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "約束どおり",
+      "furiganaExpression": [
+        {
+          "text": "約",
+          "annotation": "やく"
+        },
+        {
+          "text": "束",
+          "annotation": "そく"
+        },
+        {
+          "text": "どおり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "as promised"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zoals beloofd",
+        "zoals afgesproken",
+        "zoals overeengekomen",
+        "volgens overeenkomst",
+        "z\u0027n woord gestand",
+        "conform"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wie versprochen",
+        "entsprechend einer Abmachung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "согласно обещанию (уговору (и т. п.))"
+      ]
+    }
+  ]
+}

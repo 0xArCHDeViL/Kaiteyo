@@ -1,0 +1,74 @@
+{
+  "id": "1472050",
+  "readings": [
+    {
+      "kanaExpression": "はいきょ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "廃墟",
+      "furiganaExpression": [
+        {
+          "text": "廃",
+          "annotation": "はい"
+        },
+        {
+          "text": "墟",
+          "annotation": "きょ"
+        }
+      ],
+      "rank": 14393
+    },
+    {
+      "kanjiExpression": "廃虚",
+      "furiganaExpression": [
+        {
+          "text": "廃",
+          "annotation": "はい"
+        },
+        {
+          "text": "虚",
+          "annotation": "きょ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ruins (of a building, town, etc.)",
+        "remains"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ruïne",
+        "bouwval",
+        "resten",
+        "overblijfsel",
+        "puin",
+        "puinhopen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ruine"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "руины, развалины (гл. обр. замка); разрушенный замок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ruinas"
+      ]
+    }
+  ]
+}

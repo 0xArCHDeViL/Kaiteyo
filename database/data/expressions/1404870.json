@@ -1,0 +1,80 @@
+{
+  "id": "1404870",
+  "readings": [
+    {
+      "kanaExpression": "あしずり",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "足ずり",
+      "furiganaExpression": [
+        {
+          "text": "足",
+          "annotation": "あし"
+        },
+        {
+          "text": "ずり"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "足摺り",
+      "furiganaExpression": [
+        {
+          "text": "足",
+          "annotation": "あし"
+        },
+        {
+          "text": "摺",
+          "annotation": "ず"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "足摺",
+      "furiganaExpression": [
+        {
+          "text": "足",
+          "annotation": "あし"
+        },
+        {
+          "text": "摺",
+          "annotation": "ずり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stamping one\u0027s feet (in anger, frustration, etc.)",
+        "scuffing the ground"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stampvoeten van frustratie",
+        "gestampvoet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mit dem Fuß vor aufstampfen (aus Frustration)",
+        "Stampfen mit dem Fuß (aus Frustration)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} топать [ногами]"
+      ]
+    }
+  ]
+}

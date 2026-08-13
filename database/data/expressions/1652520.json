@@ -1,0 +1,66 @@
+{
+  "id": "1652520",
+  "readings": [
+    {
+      "kanaExpression": "ゆうしゅつ",
+      "rank": 36000
+    },
+    {
+      "kanaExpression": "ようしゅつ"
+    },
+    {
+      "kanjiExpression": "湧出",
+      "furiganaExpression": [
+        {
+          "text": "湧",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "涌出",
+      "furiganaExpression": [
+        {
+          "text": "涌",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gushing out",
+        "welling up",
+        "springing up"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hervorquellen",
+        "Herausströmen",
+        "hervorquellen",
+        "herausströmen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} (кн.) хлынуть, политься; [за]бить ключом",
+        "(кн.) бьющая струя, фонтан",
+        "{～する} бить фонтаном"
+      ]
+    }
+  ]
+}

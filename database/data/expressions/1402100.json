@@ -1,0 +1,70 @@
+{
+  "id": "1402100",
+  "readings": [
+    {
+      "kanaExpression": "しょうえん",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "そうえん"
+    },
+    {
+      "kanjiExpression": "荘園",
+      "furiganaExpression": [
+        {
+          "text": "荘",
+          "annotation": "しょう"
+        },
+        {
+          "text": "園",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "庄園",
+      "furiganaExpression": [
+        {
+          "text": "庄",
+          "annotation": "しょう"
+        },
+        {
+          "text": "園",
+          "annotation": "えん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "manor",
+        "demesne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Shōen",
+        "Lehen",
+        "feudale Landbesitzung",
+        "Grundherrschaft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nemesi földbirtok",
+        "uradalom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ист.) поместье"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "1402300",
+  "readings": [
+    {
+      "kanaExpression": "そうこう",
+      "rank": 12344
+    },
+    {
+      "kanjiExpression": "装甲",
+      "furiganaExpression": [
+        {
+          "text": "装",
+          "annotation": "そう"
+        },
+        {
+          "text": "甲",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "armoring",
+        "armouring",
+        "armor",
+        "armour"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beharnassing",
+        "bepantsering",
+        "pantsering",
+        "blindering",
+        "beharnassen",
+        "bepantseren",
+        "pantseren",
+        "blinderen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Panzerung",
+        "Panzer",
+        "panzern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "броня",
+        "{～する} покрывать бронёй",
+        "{～した} бронированный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "blindado",
+        "acorazado"
+      ]
+    }
+  ]
+}

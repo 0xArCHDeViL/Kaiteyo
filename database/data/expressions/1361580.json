@@ -1,0 +1,69 @@
+{
+  "id": "1361580",
+  "readings": [
+    {
+      "kanaExpression": "しんかん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "新刊",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "刊",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 5785
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "new book",
+        "new publication"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nieuw boek",
+        "nieuwe publicatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nouveau livre",
+        "nouvelle édition",
+        "nouvelle publication",
+        "réimpression"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "neue Veröffentlichung",
+        "Neuerscheinung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) しんかんしょ",
+        "{～の} недавно изданный, нового издания"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "libro nuevo",
+        "publicación nueva"
+      ]
+    }
+  ]
+}

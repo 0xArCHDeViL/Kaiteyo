@@ -1,0 +1,79 @@
+{
+  "id": "1409790",
+  "readings": [
+    {
+      "kanaExpression": "たいひ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "堆肥",
+      "furiganaExpression": [
+        {
+          "text": "堆",
+          "annotation": "たい"
+        },
+        {
+          "text": "肥",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "たい肥",
+      "furiganaExpression": [
+        {
+          "text": "たい"
+        },
+        {
+          "text": "肥",
+          "annotation": "ひ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "compost",
+        "manure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "compost",
+        "plantenmest",
+        "mest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kompost",
+        "Komposthaufen",
+        "Misthaufen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "komposzt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "навозная куча; компост"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kompost",
+        "kompostera"
+      ]
+    }
+  ]
+}

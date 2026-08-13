@@ -1,0 +1,71 @@
+{
+  "id": "1624950",
+  "readings": [
+    {
+      "kanaExpression": "ふらん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "腐乱",
+      "furiganaExpression": [
+        {
+          "text": "腐",
+          "annotation": "ふ"
+        },
+        {
+          "text": "乱",
+          "annotation": "らん"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "腐爛",
+      "furiganaExpression": [
+        {
+          "text": "腐",
+          "annotation": "ふ"
+        },
+        {
+          "text": "爛",
+          "annotation": "らん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "decomposition",
+        "ulceration"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fäulnis",
+        "Verwesung",
+        "Zersetzung",
+        "faulen",
+        "vermodern",
+        "verwesen",
+        "in Fäulnis übergehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bomlás",
+        "fekélyesedés",
+        "meggyűlés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. см.) ただれ"
+      ]
+    }
+  ]
+}

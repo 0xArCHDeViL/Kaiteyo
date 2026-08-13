@@ -1,0 +1,58 @@
+{
+  "id": "2005920",
+  "readings": [
+    {
+      "kanaExpression": "いっかつばらい",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "一括払い",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "括",
+          "annotation": "かつ"
+        },
+        {
+          "text": "払",
+          "annotation": "ばら"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lump-sum payment",
+        "paying the entire sum in one transaction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "betaling ineens",
+        "eenmalige betaling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bezahlung in einer Pauschalsumme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уплата сразу (крупной суммой)"
+      ]
+    }
+  ]
+}

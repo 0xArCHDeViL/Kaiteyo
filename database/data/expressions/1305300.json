@@ -1,0 +1,83 @@
+{
+  "id": "1305300",
+  "readings": [
+    {
+      "kanaExpression": "しいれ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "仕入れ",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 11156
+    },
+    {
+      "kanjiExpression": "仕入",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "入",
+          "annotation": "いれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stocking",
+        "buying up"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "achat en masse",
+        "mise en stock"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wareneinkauf",
+        "Einkauf",
+        "Beigebrachtbekommen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hosszú harisnya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "закупка; хранение на складе",
+        "{～する} закупать, заготовлять, покупать про запас"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abastecimiento",
+        "abasto"
+      ]
+    }
+  ]
+}

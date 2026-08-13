@@ -1,0 +1,86 @@
+{
+  "id": "1569920",
+  "readings": [
+    {
+      "kanaExpression": "まぶた",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "まなぶた"
+    },
+    {
+      "kanjiExpression": "瞼",
+      "furiganaExpression": [
+        {
+          "text": "瞼",
+          "annotation": "まぶた"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "目蓋",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "ま"
+        },
+        {
+          "text": "蓋",
+          "annotation": "ぶた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eyelid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ooglid",
+        "{verk.} lid",
+        "{gew.} oogscheel",
+        "{veroud.",
+        "lit.t.} scheel",
+        "herinnering (uit z\u0027n kinderjaren)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "paupière",
+        "paupières"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Augenlid"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szemhéj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[верхние] веки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "párpado",
+        "párpados"
+      ]
+    }
+  ]
+}

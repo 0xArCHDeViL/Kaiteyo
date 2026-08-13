@@ -1,0 +1,67 @@
+{
+  "id": "2009290",
+  "readings": [
+    {
+      "kanaExpression": "なかでも",
+      "rank": 10741
+    },
+    {
+      "kanjiExpression": "中でも",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "なか"
+        },
+        {
+          "text": "でも"
+        }
+      ],
+      "rank": 7433
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "among (other things)",
+        "especially",
+        "particularly",
+        "inter alia",
+        "above all (else)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vooral",
+        "bovenal",
+        "in het bijzonder",
+        "voornamelijk",
+        "bepaaldelijk",
+        "inzonderheid",
+        "bij uitstek",
+        "uitgerekend",
+        "voor alles",
+        "voor alle anderen",
+        "voor al de rest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vor allem"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közé",
+        "között",
+        "legfőképp",
+        "mindenek felett",
+        "mindenekelőtt",
+        "mindezeken túl"
+      ]
+    }
+  ]
+}

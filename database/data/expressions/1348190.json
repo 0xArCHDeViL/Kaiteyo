@@ -1,0 +1,62 @@
+{
+  "id": "1348190",
+  "readings": [
+    {
+      "kanaExpression": "しょうに",
+      "rank": 20000
+    },
+    {
+      "kanaExpression": "しょうじ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "小児",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "児",
+          "annotation": "に"
+        }
+      ],
+      "rank": 10186
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "young child",
+        "infant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jong kind",
+        "kindje"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kind",
+        "Kleinkind"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csecsemő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) ребёнок"
+      ]
+    }
+  ]
+}

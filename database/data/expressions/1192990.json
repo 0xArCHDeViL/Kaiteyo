@@ -1,0 +1,71 @@
+{
+  "id": "1192990",
+  "readings": [
+    {
+      "kanaExpression": "かじゅう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "果汁",
+      "furiganaExpression": [
+        {
+          "text": "果",
+          "annotation": "か"
+        },
+        {
+          "text": "汁",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fruit juice"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vruchtensap",
+        "{Belg.N.} fruitsap"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jus de fruit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fruchtsaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фруктовый сок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "jugo de fruta",
+        "zumo (de frutas)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fruktsaft",
+        "jos",
+        "juice"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "1312710",
+  "readings": [
+    {
+      "kanaExpression": "しきんぐり",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "資金繰り",
+      "furiganaExpression": [
+        {
+          "text": "資",
+          "annotation": "し"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        },
+        {
+          "text": "繰",
+          "annotation": "ぐ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "資金繰",
+      "furiganaExpression": [
+        {
+          "text": "資",
+          "annotation": "し"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        },
+        {
+          "text": "繰",
+          "annotation": "ぐり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "資金ぐり",
+      "furiganaExpression": [
+        {
+          "text": "資",
+          "annotation": "し"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        },
+        {
+          "text": "ぐり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fundraising",
+        "financing",
+        "cash flow"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geldbeschaffung",
+        "Kapitalbeschaffung",
+        "Finanzierung"
+      ]
+    }
+  ]
+}

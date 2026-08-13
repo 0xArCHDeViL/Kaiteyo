@@ -1,0 +1,59 @@
+{
+  "id": "1255700",
+  "readings": [
+    {
+      "kanaExpression": "げっしゅう",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "月収",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "げっ"
+        },
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 14143
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "monthly income"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maandinkomen",
+        "maandinkomsten",
+        "{Jap.gesch.} maandhuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Monatseinkommen",
+        "Monatseinkünfte",
+        "Monatseinnahmen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "месячный доход"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ingresos mensuales"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "1601570",
+  "readings": [
+    {
+      "kanaExpression": "ひきがね",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "引き金",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "金",
+          "annotation": "がね"
+        }
+      ],
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "引金",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "金",
+          "annotation": "がね"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "引き鉄",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "鉄",
+          "annotation": "がね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trigger (of a gun, etc.)",
+        "trigger (for something)",
+        "immediate cause"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "trekker",
+        "pal",
+        "wat de aanzet tot iets vormt",
+        "trigger",
+        "aanleiding",
+        "directe oorzaak"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "détente",
+        "gâchette"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abzug",
+        "Drücker",
+        "Auslöser",
+        "unmittelbarer Anlass"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ravasz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спусковой крючок"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "petelin na puški",
+        "sprožilec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gatillo"
+      ]
+    }
+  ]
+}

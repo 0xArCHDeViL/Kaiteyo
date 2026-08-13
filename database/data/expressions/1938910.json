@@ -1,0 +1,53 @@
+{
+  "id": "1938910",
+  "readings": [
+    {
+      "kanaExpression": "しんぱくすう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "心拍数",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "拍",
+          "annotation": "ぱく"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heart rate",
+        "pulse rate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herzfrequenz",
+        "Herzrate",
+        "Pulsfrequenz",
+        "Pulsrate",
+        "Pulszahl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érverés gyakorisága",
+        "érverés szaporasága"
+      ]
+    }
+  ]
+}

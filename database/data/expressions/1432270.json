@@ -1,0 +1,103 @@
+{
+  "id": "1432270",
+  "readings": [
+    {
+      "kanaExpression": "おいこし",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "追い越し",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "追越",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "おい"
+        },
+        {
+          "text": "越",
+          "annotation": "こし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "追越し",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "おい"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "passing",
+        "overtaking"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het inhalen",
+        "het passeren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überholen (durch Verlassen der eigenen Spur)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "arra menő",
+        "elhaladás",
+        "elmenő",
+        "elmúlás",
+        "elvonulás",
+        "futólagos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переход (напр. через границу)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "övergående"
+      ]
+    }
+  ]
+}

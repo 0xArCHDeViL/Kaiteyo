@@ -1,0 +1,51 @@
+{
+  "id": "1657260",
+  "readings": [
+    {
+      "kanaExpression": "ごうせいせんざい",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "合成洗剤",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "ごう"
+        },
+        {
+          "text": "成",
+          "annotation": "せい"
+        },
+        {
+          "text": "洗",
+          "annotation": "せん"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "synthetic detergent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "synthetisches Waschmittel"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "detergente sintético"
+      ]
+    }
+  ]
+}

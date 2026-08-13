@@ -1,0 +1,149 @@
+{
+  "id": "1270700",
+  "readings": [
+    {
+      "kanaExpression": "おめでとう",
+      "rank": 3702
+    },
+    {
+      "kanjiExpression": "御目出度う",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "度",
+          "annotation": "と"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御芽出度う",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "芽",
+          "annotation": "め"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "度",
+          "annotation": "と"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "お目出度う",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "度",
+          "annotation": "と"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "お芽出度う",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "芽",
+          "annotation": "め"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "度",
+          "annotation": "と"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "congratulations!",
+        "well done!",
+        "best wishes!",
+        "all the best!"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gefeliciteerd!",
+        "ik wens u geluk!",
+        "proficiat!",
+        "gelukwensen!",
+        "{誕生日に} nog vele jaren!"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "félicitations !"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herzlichen Glückwunsch!"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "\"поздравляю!\"",
+        "поздравляю!"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "grattis"
+      ]
+    }
+  ]
+}

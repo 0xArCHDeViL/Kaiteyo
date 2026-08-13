@@ -1,0 +1,63 @@
+{
+  "id": "1169900",
+  "readings": [
+    {
+      "kanaExpression": "いんしゅ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "飲酒",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "いん"
+        },
+        {
+          "text": "酒",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 9509
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drinking alcohol"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "alcohol drinken",
+        "een borrel nemen",
+        "alcoholconsumptie",
+        "alcoholverbruik"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "trinken (Alkohol)",
+        "Trinken von Alkohol",
+        "Alkoholgenuss",
+        "Alkoholkonsum",
+        "Trunk",
+        "(ugs.)Suff"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пьянство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alcohol potable (sake)"
+      ]
+    }
+  ]
+}

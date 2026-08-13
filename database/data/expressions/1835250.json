@@ -1,0 +1,43 @@
+{
+  "id": "1835250",
+  "readings": [
+    {
+      "kanaExpression": "りゅうあん",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "硫安",
+      "furiganaExpression": [
+        {
+          "text": "硫",
+          "annotation": "りゅう"
+        },
+        {
+          "text": "安",
+          "annotation": "あん"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ammonium sulfate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ammoniumsulfat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сульфат аммония, сернокислый аммоний (удобрение)"
+      ]
+    }
+  ]
+}

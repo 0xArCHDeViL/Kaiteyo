@@ -1,0 +1,55 @@
+{
+  "id": "1523090",
+  "readings": [
+    {
+      "kanaExpression": "ほんよみ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "本読み",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "script reading",
+        "scenario reading",
+        "avid reader",
+        "bookworm",
+        "reading a book",
+        "reading books"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lesen",
+        "Leser",
+        "Leseprobe (beim Einstudieren eines Theaterstückes)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) чтение книг",
+        "2) любитель чтения",
+        "3) (театр.) чтение пьесы в лицах"
+      ]
+    }
+  ]
+}

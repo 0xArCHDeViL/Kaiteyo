@@ -1,0 +1,78 @@
+{
+  "id": "1854890",
+  "readings": [
+    {
+      "kanaExpression": "うさ",
+      "rank": 14386
+    },
+    {
+      "kanjiExpression": "憂さ",
+      "furiganaExpression": [
+        {
+          "text": "憂",
+          "annotation": "う"
+        },
+        {
+          "text": "さ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gloom",
+        "sadness",
+        "melancholy",
+        "despondency",
+        "cares",
+        "worries"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zorgen",
+        "nood",
+        "leed",
+        "verdriet",
+        "smart",
+        "kommer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwermut",
+        "Trübsinn",
+        "Traurigkeit",
+        "Melancholie",
+        "Schmerz",
+        "Kummer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "homály",
+        "lehangoltság",
+        "sötétség",
+        "szomorú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "грусть, тоска, печаль"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tungsinne"
+      ]
+    }
+  ]
+}

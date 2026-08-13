@@ -1,0 +1,91 @@
+{
+  "id": "1378640",
+  "readings": [
+    {
+      "kanaExpression": "なまごみ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "生ゴミ",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "ゴミ"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "生ごみ",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "ごみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "生塵",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "塵",
+          "annotation": "ごみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "生芥",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "芥",
+          "annotation": "ごみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "kitchen waste",
+        "food scraps",
+        "raw garbage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keukenafval",
+        "tafelafval",
+        "± spoeling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Küchenabfälle",
+        "verderbliche Abfälle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "konyhai hulladék"
+      ]
+    }
+  ]
+}

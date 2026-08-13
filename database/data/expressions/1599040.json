@@ -1,0 +1,146 @@
+{
+  "id": "1599040",
+  "readings": [
+    {
+      "kanaExpression": "とりくみ",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "取り組み",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "組",
+          "annotation": "く"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 3054
+    },
+    {
+      "kanjiExpression": "取組",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "組",
+          "annotation": "くみ"
+        }
+      ],
+      "rank": 9088
+    },
+    {
+      "kanjiExpression": "取組み",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "組",
+          "annotation": "く"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取り組",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "組",
+          "annotation": "くみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "とり組み",
+      "furiganaExpression": [
+        {
+          "text": "とり"
+        },
+        {
+          "text": "組",
+          "annotation": "く"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "effort",
+        "initiative",
+        "dealing with",
+        "grappling with",
+        "wrestling with",
+        "bout (in sports, etc.)",
+        "match"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sportt.} wedstrijd",
+        "match",
+        "kamp",
+        "partij",
+        "strijd",
+        "gevecht",
+        "inspanning",
+        "aanpak",
+        "benadering",
+        "insteek",
+        "{hand.} koop en verkoop op markt",
+        "beurs",
+        "omzet",
+        "{hand.} wisseltrekking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufstellung",
+        "Reihenfolge",
+        "Kampf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyufaszál",
+        "erőfeszítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (спорт.) матч, состязание",
+        "2) (фин.) выставление тратты; выставленная тратта",
+        "3) (бирж.) сделка"
+      ]
+    }
+  ]
+}

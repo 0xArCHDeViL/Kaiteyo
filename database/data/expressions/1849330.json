@@ -1,0 +1,95 @@
+{
+  "id": "1849330",
+  "readings": [
+    {
+      "kanaExpression": "うちたてる",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "打ち立てる",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "打ちたてる",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ちたてる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "うち立てる",
+      "furiganaExpression": [
+        {
+          "text": "うち"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "てる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to establish",
+        "to formulate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{学説を} opstellen",
+        "formuleren",
+        "{記録を} vestigen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufstellen",
+        "errichten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kimutat",
+        "kifejezésre juttat",
+        "megszövegez",
+        "szabályba foglal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "устанавливать"
+      ]
+    }
+  ]
+}

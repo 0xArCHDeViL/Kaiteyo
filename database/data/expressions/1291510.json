@@ -1,0 +1,53 @@
+{
+  "id": "1291510",
+  "readings": [
+    {
+      "kanaExpression": "さがん",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "しゃがん"
+    },
+    {
+      "kanjiExpression": "砂岩",
+      "furiganaExpression": [
+        {
+          "text": "砂",
+          "annotation": "さ"
+        },
+        {
+          "text": "岩",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sandstone"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sandstein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(геол.) песчаник",
+        "(см.) さがん【砂岩】"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sandsten"
+      ]
+    }
+  ]
+}

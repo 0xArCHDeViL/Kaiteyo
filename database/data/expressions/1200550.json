@@ -1,0 +1,67 @@
+{
+  "id": "1200550",
+  "readings": [
+    {
+      "kanaExpression": "かいこ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "懐古",
+      "furiganaExpression": [
+        {
+          "text": "懐",
+          "annotation": "かい"
+        },
+        {
+          "text": "古",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reminiscence",
+        "nostalgia",
+        "thinking fondly of the past",
+        "recalling the old days"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "heimwee naar vroeger",
+        "nostalgie",
+        "terugverlangen naar wat geweest is",
+        "heimwee hebben naar vroeger tijden",
+        "nostalgisch verlangen naar wat geweest is"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erinnerung an alte Zeiten",
+        "Rückblick auf die Vergangenheit",
+        "Reminiszenz",
+        "Nostalgie",
+        "sich an vergangene Zeiten erinnern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nosztalgia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "думы о прошлом, воспоминания",
+        "{～する} вспоминать старое (прошлое)"
+      ]
+    }
+  ]
+}

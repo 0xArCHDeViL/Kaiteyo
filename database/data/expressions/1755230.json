@@ -1,0 +1,56 @@
+{
+  "id": "1755230",
+  "readings": [
+    {
+      "kanaExpression": "さんそん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "山村",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "さん"
+        },
+        {
+          "text": "村",
+          "annotation": "そん"
+        }
+      ],
+      "rank": 12597
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mountain village"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bergdorp"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bergdorf",
+        "Gebirgsdorf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горная деревня, горное селение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pueblo de montaña"
+      ]
+    }
+  ]
+}

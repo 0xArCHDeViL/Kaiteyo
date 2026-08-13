@@ -1,0 +1,44 @@
+{
+  "id": "1614320",
+  "readings": [
+    {
+      "kanaExpression": "かんない",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "館内",
+      "furiganaExpression": [
+        {
+          "text": "館",
+          "annotation": "かん"
+        },
+        {
+          "text": "内",
+          "annotation": "ない"
+        }
+      ],
+      "rank": 14289
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inside a library, museum, cinema, etc.",
+        "on the premises"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Inneres eines Gebäudes"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "en el edificio"
+      ]
+    }
+  ]
+}

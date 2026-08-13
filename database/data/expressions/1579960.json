@@ -1,0 +1,83 @@
+{
+  "id": "1579960",
+  "readings": [
+    {
+      "kanaExpression": "じゅうしょう",
+      "rank": 18500
+    },
+    {
+      "kanaExpression": "おもで"
+    },
+    {
+      "kanjiExpression": "重傷",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "傷",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 14883
+    },
+    {
+      "kanjiExpression": "重手",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "おも"
+        },
+        {
+          "text": "手",
+          "annotation": "で"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "serious wound",
+        "serious injury"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zware verwonding",
+        "ernstige wonde",
+        "lelijke wond",
+        "zwaar letsel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "blessure grave"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwere Verletzung",
+        "schwere Wunde"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тяжёлое ранение",
+        "(уст.) тяжёлая рана"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "herida o lesión grave"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "1244210",
+  "readings": [
+    {
+      "kanaExpression": "くない",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "区内",
+      "furiganaExpression": [
+        {
+          "text": "区",
+          "annotation": "く"
+        },
+        {
+          "text": "内",
+          "annotation": "ない"
+        }
+      ],
+      "rank": 17000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in a ward",
+        "within the ward",
+        "within the zone",
+        "within the district"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Innenraum eines Stadtbezirks"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "в районе; в границах района (городского)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "znotraj mestnega predela",
+        "znotraj četrti"
+      ]
+    }
+  ]
+}

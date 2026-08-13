@@ -1,0 +1,89 @@
+{
+  "id": "1295590",
+  "readings": [
+    {
+      "kanaExpression": "さいきん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "細菌",
+      "furiganaExpression": [
+        {
+          "text": "細",
+          "annotation": "さい"
+        },
+        {
+          "text": "菌",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 10729
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bacterium",
+        "bacteria",
+        "germ"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bacterie",
+        "bacil",
+        "ziektekiem",
+        "microbe"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bacille",
+        "bactérie",
+        "germe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bazillus",
+        "Bakterie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "baktérium",
+        "csíra"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бактерия, бацилла, микроб",
+        "{～[の]} бактериальный; бактериологический"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "bacil",
+        "bakterija",
+        "klica",
+        "kal",
+        "zarodek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bacteria",
+        "bacilo",
+        "germen"
+      ]
+    }
+  ]
+}

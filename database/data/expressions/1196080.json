@@ -1,0 +1,71 @@
+{
+  "id": "1196080",
+  "readings": [
+    {
+      "kanaExpression": "かごん",
+      "rank": 24500
+    },
+    {
+      "kanaExpression": "かげん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "過言",
+      "furiganaExpression": [
+        {
+          "text": "過",
+          "annotation": "か"
+        },
+        {
+          "text": "言",
+          "annotation": "ごん"
+        }
+      ],
+      "rank": 8479
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exaggeration",
+        "overstatement",
+        "saying too much",
+        "misstatement",
+        "slip of the tongue",
+        "gaffe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Versprecher",
+        "Lapsus",
+        "Lapsus Linguae",
+        "Übertreibung",
+        "Zu-Weit-Gehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nagyítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) ошибка [в словах]",
+        "2) (см.) かごん",
+        "(кн.) преувеличение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "exageración",
+        "exceso verbal"
+      ]
+    }
+  ]
+}

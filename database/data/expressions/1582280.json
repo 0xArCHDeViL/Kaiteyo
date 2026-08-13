@@ -1,0 +1,55 @@
+{
+  "id": "1582280",
+  "readings": [
+    {
+      "kanaExpression": "こち"
+    },
+    {
+      "kanaExpression": "とうふう"
+    },
+    {
+      "kanaExpression": "ひがしかぜ",
+      "rank": 33500
+    },
+    {
+      "kanaExpression": "こちかぜ"
+    },
+    {
+      "kanjiExpression": "東風",
+      "furiganaExpression": [
+        {
+          "text": "東風",
+          "annotation": "こち"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "east wind",
+        "spring wind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ostwind",
+        "Frühlingswind",
+        "aus Osten wehender Wind"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) восточный ветер",
+        "2) весенний ветер",
+        "(уст.) восточный ветер; (перен.) весенний ветер",
+        "восточный ветер"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "1568920",
+  "readings": [
+    {
+      "kanaExpression": "いためる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "炒める",
+      "furiganaExpression": [
+        {
+          "text": "炒",
+          "annotation": "いた"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 7570
+    },
+    {
+      "kanjiExpression": "煠める",
+      "furiganaExpression": [
+        {
+          "text": "煠",
+          "annotation": "いた"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to fry",
+        "to saute",
+        "to stir-fry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} bakken",
+        "roerbakken",
+        "fruiten",
+        "sauteren",
+        "laten bruinen",
+        "bruin braden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faire revenir (cuisine)",
+        "faire sauter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "braten",
+        "rösten"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "freír",
+        "sofreír",
+        "dorar",
+        "saltear"
+      ]
+    }
+  ]
+}

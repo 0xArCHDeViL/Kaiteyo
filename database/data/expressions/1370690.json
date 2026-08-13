@@ -1,0 +1,83 @@
+{
+  "id": "1370690",
+  "readings": [
+    {
+      "kanaExpression": "ふきとばす",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "吹き飛ばす",
+      "furiganaExpression": [
+        {
+          "text": "吹",
+          "annotation": "ふ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "ばす"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "吹飛ばす",
+      "furiganaExpression": [
+        {
+          "text": "吹",
+          "annotation": "ふき"
+        },
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "ばす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to blow away",
+        "to blow off",
+        "to blow up",
+        "to dispel",
+        "to drive away",
+        "to talk big"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "umblasen",
+        "wegblasen",
+        "vertreiben",
+        "angeben",
+        "Wind machen",
+        "sich aufblasen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elfúj",
+        "elrepül",
+        "kifúvat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сдувать (о ветре)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1315560",
+  "readings": [
+    {
+      "kanaExpression": "もちさる",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "持ち去る",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "去",
+          "annotation": "さ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to take away",
+        "to carry away"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "meenemen",
+        "wegnemen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wegnehmen",
+        "mitnehmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmozdít",
+        "eltesz",
+        "magával visz",
+        "elragad",
+        "elragadtat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уносить (увозить) с собой"
+      ]
+    }
+  ]
+}

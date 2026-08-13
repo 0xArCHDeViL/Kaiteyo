@@ -1,0 +1,48 @@
+{
+  "id": "1552830",
+  "readings": [
+    {
+      "kanaExpression": "りゅうほ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "留保",
+      "furiganaExpression": [
+        {
+          "text": "留",
+          "annotation": "りゅう"
+        },
+        {
+          "text": "保",
+          "annotation": "ほ"
+        }
+      ],
+      "rank": 11215
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reserving",
+        "withholding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich etw. vorbehalten",
+        "reservieren",
+        "Reservierung",
+        "Vorbehalt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "придерживание, резервирование",
+        "{～する} придерживать, приберегать, резервировать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1278780",
+  "readings": [
+    {
+      "kanaExpression": "こうせい",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "恒星",
+      "furiganaExpression": [
+        {
+          "text": "恒",
+          "annotation": "こう"
+        },
+        {
+          "text": "星",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "star"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vaste ster"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "étoile fixe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fixstern",
+        "Stern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állócsillag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(астр.) неподвижные звёзды"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fixstjärna"
+      ]
+    }
+  ]
+}

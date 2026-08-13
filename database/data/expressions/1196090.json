@@ -1,0 +1,63 @@
+{
+  "id": "1196090",
+  "readings": [
+    {
+      "kanaExpression": "かご",
+      "rank": 9553
+    },
+    {
+      "kanjiExpression": "過誤",
+      "furiganaExpression": [
+        {
+          "text": "過",
+          "annotation": "か"
+        },
+        {
+          "text": "誤",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mistake",
+        "fault"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fehler",
+        "Irrtum",
+        "Verfehlung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "botlás",
+        "hiba",
+        "tévedés",
+        "hiányosság",
+        "vetődés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) ошибка, промах"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "error",
+        "fallo"
+      ]
+    }
+  ]
+}

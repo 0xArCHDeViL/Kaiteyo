@@ -1,0 +1,67 @@
+{
+  "id": "1436460",
+  "readings": [
+    {
+      "kanaExpression": "ていとく",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "提督",
+      "furiganaExpression": [
+        {
+          "text": "提",
+          "annotation": "てい"
+        },
+        {
+          "text": "督",
+          "annotation": "とく"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "admiral",
+        "commodore"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "controle",
+        "beheer",
+        "bewind",
+        "{mil.} admiraal",
+        "vlootcommandant",
+        "vlagofficier",
+        "{Jap.gesch.} havencommandant",
+        "admiraliteitsheer",
+        "{Chin.gesch.} tídū",
+        "militair gouverneur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Admiral"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "admirális",
+        "kereskedelmi flotta parancsnoka",
+        "tengernagy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "адмирал"
+      ]
+    }
+  ]
+}

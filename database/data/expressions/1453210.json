@@ -1,0 +1,62 @@
+{
+  "id": "1453210",
+  "readings": [
+    {
+      "kanaExpression": "どうじつ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "同日",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "日",
+          "annotation": "じつ"
+        }
+      ],
+      "rank": 6295
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the same day"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dezelfde dag",
+        "die dag",
+        "de gezegde dag",
+        "evenwaardig",
+        "gelijkwaardig",
+        "equivalent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "derselbe Tag",
+        "dasselbe Datum",
+        "am selben Tag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тот же самый день"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(el) mismo día"
+      ]
+    }
+  ]
+}

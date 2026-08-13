@@ -1,0 +1,89 @@
+{
+  "id": "1476480",
+  "readings": [
+    {
+      "kanaExpression": "はだいろ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "肌色",
+      "furiganaExpression": [
+        {
+          "text": "肌",
+          "annotation": "はだ"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "膚色",
+      "furiganaExpression": [
+        {
+          "text": "膚",
+          "annotation": "はだ"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "はだ色",
+      "furiganaExpression": [
+        {
+          "text": "はだ"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "flesh colour (of a Japanese person)",
+        "flesh color",
+        "pale orange",
+        "(one\u0027s) skin color",
+        "skin colour",
+        "skin tone"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "couleur chair",
+        "couleur peau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fleischfarbe",
+        "Hautfarbe",
+        "fleischfarben",
+        "hautfarben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "телесный цвет"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "color de la piel"
+      ]
+    }
+  ]
+}

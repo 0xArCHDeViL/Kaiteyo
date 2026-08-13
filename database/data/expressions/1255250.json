@@ -1,0 +1,56 @@
+{
+  "id": "1255250",
+  "readings": [
+    {
+      "kanaExpression": "けっこん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "血痕",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "けっ"
+        },
+        {
+          "text": "痕",
+          "annotation": "こん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bloodstain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blutspur",
+        "Blutfleck"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "следы крови; кровяное пятно"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mancha de sangre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "blodfläck"
+      ]
+    }
+  ]
+}

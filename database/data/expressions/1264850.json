@@ -1,0 +1,68 @@
+{
+  "id": "1264850",
+  "readings": [
+    {
+      "kanaExpression": "こじんしゅぎ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "個人主義",
+      "furiganaExpression": [
+        {
+          "text": "個",
+          "annotation": "こ"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        },
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "義",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "individualism",
+        "egoism",
+        "selfishness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "individualisme",
+        "zelfzuchtigheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Individualismus",
+        "Egoismus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "индивидуализм",
+        "{～的} индивидуалистический"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "individualism"
+      ]
+    }
+  ]
+}

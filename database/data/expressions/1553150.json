@@ -1,0 +1,70 @@
+{
+  "id": "1553150",
+  "readings": [
+    {
+      "kanaExpression": "りょかくき",
+      "rank": 21500
+    },
+    {
+      "kanaExpression": "りょかっき"
+    },
+    {
+      "kanjiExpression": "旅客機",
+      "furiganaExpression": [
+        {
+          "text": "旅",
+          "annotation": "りょ"
+        },
+        {
+          "text": "客",
+          "annotation": "かく"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "passenger plane"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "passagiersvliegtuig",
+        "verkeersvliegtuig",
+        "verkeersvlieger"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "avion commercial"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Passagierflugzeug"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пассажирский самолёт"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "avión de pasajeros"
+      ]
+    }
+  ]
+}

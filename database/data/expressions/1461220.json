@@ -1,0 +1,69 @@
+{
+  "id": "1461220",
+  "readings": [
+    {
+      "kanaExpression": "ふたつへんじ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "二つ返事",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "ふた"
+        },
+        {
+          "text": "つ"
+        },
+        {
+          "text": "返",
+          "annotation": "へん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "二返事",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "ふたつ"
+        },
+        {
+          "text": "返",
+          "annotation": "へん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "immediate reply",
+        "quick answer",
+        "ready agreement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zustimmung ohne zu zögern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～で} (прост.) с готовностью, очень охотно"
+      ]
+    }
+  ]
+}

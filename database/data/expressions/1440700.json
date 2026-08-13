@@ -1,0 +1,65 @@
+{
+  "id": "1440700",
+  "readings": [
+    {
+      "kanaExpression": "たなこ",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "たなご"
+    },
+    {
+      "kanjiExpression": "店子",
+      "furiganaExpression": [
+        {
+          "text": "店",
+          "annotation": "たな"
+        },
+        {
+          "text": "子",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tenant (esp. in contrast to a landlord)",
+        "renter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mieter (in der Edo-Zeit sehr gebräuchlicher Ausdruck)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lakó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прост.) жилец"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inquilino"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hyresgäst"
+      ]
+    }
+  ]
+}

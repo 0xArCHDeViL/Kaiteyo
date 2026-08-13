@@ -1,0 +1,45 @@
+{
+  "id": "1229990",
+  "readings": [
+    {
+      "kanaExpression": "きゅうしん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "球審",
+      "furiganaExpression": [
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "審",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "umpire-in-chief",
+        "plate umpire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptschiedsrichter",
+        "Oberschiedsrichter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[главный] судья (в бейсболе)"
+      ]
+    }
+  ]
+}

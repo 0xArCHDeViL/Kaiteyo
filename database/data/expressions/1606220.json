@@ -1,0 +1,68 @@
+{
+  "id": "1606220",
+  "readings": [
+    {
+      "kanaExpression": "らんばつ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "乱伐",
+      "furiganaExpression": [
+        {
+          "text": "乱",
+          "annotation": "らん"
+        },
+        {
+          "text": "伐",
+          "annotation": "ばつ"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "濫伐",
+      "furiganaExpression": [
+        {
+          "text": "濫",
+          "annotation": "らん"
+        },
+        {
+          "text": "伐",
+          "annotation": "ばつ"
+        }
+      ],
+      "rank": 32039
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reckless deforestation",
+        "overcutting of forests"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déforestation massive, abusive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rücksichtslos abforsten",
+        "rücksichtsloses Abforsten",
+        "Abholzung",
+        "Raubbau (am Wald)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хищническая (беспорядочная) вырубка",
+        "{～する} хищнически (беспорядочно) вырубать (лес)"
+      ]
+    }
+  ]
+}

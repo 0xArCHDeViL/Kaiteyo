@@ -1,0 +1,96 @@
+{
+  "id": "1323860",
+  "readings": [
+    {
+      "kanaExpression": "かりいれ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "借り入れ",
+      "furiganaExpression": [
+        {
+          "text": "借",
+          "annotation": "か"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "借入れ",
+      "furiganaExpression": [
+        {
+          "text": "借",
+          "annotation": "かり"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "借入",
+      "furiganaExpression": [
+        {
+          "text": "借",
+          "annotation": "かり"
+        },
+        {
+          "text": "入",
+          "annotation": "いれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "borrowing (money)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leihen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adósság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "взятие в долг; взятие ссуды; прокат (вещей); снятие внаём (помещения); аренда (участка); фрахтовка (судна)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "deuda"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skuld"
+      ]
+    }
+  ]
+}

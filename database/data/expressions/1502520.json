@@ -1,0 +1,71 @@
+{
+  "id": "1502520",
+  "readings": [
+    {
+      "kanaExpression": "ぶっさん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "物産",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶっ"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "product"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voortbrengsel",
+        "product",
+        "fabricaat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Produkt",
+        "Erzeugnis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szorzat",
+        "termék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продукт, продукция"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "producto (de venta)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "alster"
+      ]
+    }
+  ]
+}

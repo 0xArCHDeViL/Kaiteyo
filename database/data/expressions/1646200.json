@@ -1,0 +1,65 @@
+{
+  "id": "1646200",
+  "readings": [
+    {
+      "kanaExpression": "せんそう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "船倉",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "せん"
+        },
+        {
+          "text": "倉",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "船艙",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "せん"
+        },
+        {
+          "text": "艙",
+          "annotation": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ship\u0027s hold",
+        "hatch"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schiffsraum",
+        "Laderaum eines Schiffes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felnyitható hátsó ajtó",
+        "odú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "трюм"
+      ]
+    }
+  ]
+}

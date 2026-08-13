@@ -1,0 +1,106 @@
+{
+  "id": "1404770",
+  "readings": [
+    {
+      "kanaExpression": "あしおと",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "きょうおん"
+    },
+    {
+      "kanjiExpression": "足音",
+      "furiganaExpression": [
+        {
+          "text": "足",
+          "annotation": "あし"
+        },
+        {
+          "text": "音",
+          "annotation": "おと"
+        }
+      ],
+      "rank": 14984
+    },
+    {
+      "kanjiExpression": "跫音",
+      "furiganaExpression": [
+        {
+          "text": "跫",
+          "annotation": "きょう"
+        },
+        {
+          "text": "音",
+          "annotation": "おん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "跫",
+      "furiganaExpression": [
+        {
+          "text": "跫",
+          "annotation": "あしおと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sound of footsteps",
+        "sense or sign that something is approaching"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het geluid van stappen",
+        "{meton.} voetstappen",
+        "{meton.} stappen",
+        "{meton.} tred",
+        "{馬の} paardengetrappel",
+        "hoefslag",
+        "geklepper",
+        "{fig.} aantocht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bruit de pas"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schrittgeräusche",
+        "Schritte",
+        "Schrittgeräusch",
+        "Vorgefühl",
+        "Ahnung, dass etw. naht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шаги (звук шагов), топот",
+        "(кн.) звук шагов, шаги"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "koraki",
+        "zvok korakov"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sonido de pasos"
+      ]
+    }
+  ]
+}

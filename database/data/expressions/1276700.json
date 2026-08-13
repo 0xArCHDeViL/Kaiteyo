@@ -1,0 +1,107 @@
+{
+  "id": "1276700",
+  "readings": [
+    {
+      "kanaExpression": "くちごたえ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "口答え",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "答",
+          "annotation": "ごた"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "口ごたえ",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "ごたえ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "口応え",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "応",
+          "annotation": "ごた"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "retort",
+        "back talk",
+        "backchat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "riposte verbale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "widersprechen",
+        "scharf entgegnen",
+        "scharfe Entgegnung",
+        "bestimmte Antwort",
+        "ungehörige Antwort",
+        "Widerrede"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "visszavágás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возражение; находчивый (меткий) ответ; опровержение",
+        "{～する} опровергать; парировать (доводы собеседника); возражать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "oster odgovor"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "refunfuño",
+        "reproche"
+      ]
+    }
+  ]
+}

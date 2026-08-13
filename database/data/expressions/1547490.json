@@ -1,0 +1,56 @@
+{
+  "id": "1547490",
+  "readings": [
+    {
+      "kanaExpression": "よくげつ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "翌月",
+      "furiganaExpression": [
+        {
+          "text": "翌",
+          "annotation": "よく"
+        },
+        {
+          "text": "月",
+          "annotation": "げつ"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "following month"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de volgende maand",
+        "de maand daarna",
+        "erna",
+        "daarop",
+        "nadien"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nächster Monat",
+        "folgender Monat",
+        "Folgemonat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1. будущий (следующий) месяц",
+        "2. в будущем месяце"
+      ]
+    }
+  ]
+}

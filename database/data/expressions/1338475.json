@@ -1,0 +1,116 @@
+{
+  "id": "1338475",
+  "readings": [
+    {
+      "kanaExpression": "おでかけ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お出かけ",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "かけ"
+        }
+      ],
+      "rank": 9752
+    },
+    {
+      "kanjiExpression": "お出掛け",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "掛",
+          "annotation": "か"
+        },
+        {
+          "text": "け"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御出掛け",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "掛",
+          "annotation": "か"
+        },
+        {
+          "text": "け"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "about to start out",
+        "just about to leave or go out",
+        "outing",
+        "trip"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uw vertrek",
+        "uw afreis",
+        "uw uitgaan",
+        "uw naar buiten gaan {honorifieke term (sonkeigo 尊敬語)}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sur le point de commencer",
+        "sur le point de partir ou de sortir",
+        "sortie",
+        "excursion",
+        "voyage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufbruch",
+        "Fortgehen"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odhod",
+        "sprehod",
+        "odpraviti se",
+        "kreniti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "salida de Usted"
+      ]
+    }
+  ]
+}

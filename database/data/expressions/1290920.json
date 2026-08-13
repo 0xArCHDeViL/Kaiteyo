@@ -1,0 +1,43 @@
+{
+  "id": "1290920",
+  "readings": [
+    {
+      "kanaExpression": "ひだりうえ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "左上",
+      "furiganaExpression": [
+        {
+          "text": "左",
+          "annotation": "ひだり"
+        },
+        {
+          "text": "上",
+          "annotation": "うえ"
+        }
+      ],
+      "rank": 14960
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "upper left"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "supérieur-gauche (coin ~)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "links oben (z. B. Briefumschlag)"
+      ]
+    }
+  ]
+}

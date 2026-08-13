@@ -1,0 +1,49 @@
+{
+  "id": "1273630",
+  "readings": [
+    {
+      "kanaExpression": "こうきん",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "公金",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public funds"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Gelder"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общественные (казённые) деньги"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fondos públicos"
+      ]
+    }
+  ]
+}

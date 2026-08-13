@@ -1,0 +1,50 @@
+{
+  "id": "1203840",
+  "readings": [
+    {
+      "kanaExpression": "がいしん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "外信",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "external communication"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachrichten aus dem Ausland",
+        "Informationen aus dem Ausland"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) がいほう【外報】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comunicación externa"
+      ]
+    }
+  ]
+}

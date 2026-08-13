@@ -1,0 +1,41 @@
+{
+  "id": "1659280",
+  "readings": [
+    {
+      "kanaExpression": "しゅうひょう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "集票",
+      "furiganaExpression": [
+        {
+          "text": "集",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gathering votes",
+        "garnering votes",
+        "pulling in votes",
+        "ballot collection",
+        "vote-counting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sammeln von Stimmen"
+      ]
+    }
+  ]
+}

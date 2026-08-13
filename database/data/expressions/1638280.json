@@ -1,0 +1,54 @@
+{
+  "id": "1638280",
+  "readings": [
+    {
+      "kanaExpression": "どちゅう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "土中",
+      "furiganaExpression": [
+        {
+          "text": "土",
+          "annotation": "ど"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in the earth",
+        "in the ground",
+        "underground"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "in de grond",
+        "in de aarde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in der Erde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "föld",
+        "lyuk",
+        "odú"
+      ]
+    }
+  ]
+}

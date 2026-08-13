@@ -1,0 +1,57 @@
+{
+  "id": "1633800",
+  "readings": [
+    {
+      "kanaExpression": "にげ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "逃げ",
+      "furiganaExpression": [
+        {
+          "text": "逃",
+          "annotation": "に"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 13691
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "escape",
+        "getaway",
+        "evasion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flucht",
+        "Fliehen",
+        "Ausflucht",
+        "Ausrede"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmenekülés",
+        "kijátszás",
+        "kikerülés",
+        "megkerülés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) побег",
+        "2) увёртка, уклонение"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1257180",
+  "readings": [
+    {
+      "kanaExpression": "けんちょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "堅調",
+      "furiganaExpression": [
+        {
+          "text": "堅",
+          "annotation": "けん"
+        },
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "firm (market)",
+        "bullish",
+        "strong (sales, economy, etc.)",
+        "steady",
+        "sound"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{相場の} willige stemming",
+        "positief",
+        "bullish beurssentiment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bullenmarkt",
+        "starker Markt",
+        "steigend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "határozottan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "1421100",
+  "readings": [
+    {
+      "kanaExpression": "ちさい",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "地裁",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "裁",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 5292
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "district court"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} arrondissementsrechtbank"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Landgericht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 地方裁判所) окружной суд"
+      ]
+    }
+  ]
+}

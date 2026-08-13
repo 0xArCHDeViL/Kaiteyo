@@ -1,0 +1,110 @@
+{
+  "id": "1358340",
+  "readings": [
+    {
+      "kanaExpression": "たべもの",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "食べ物",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "た"
+        },
+        {
+          "text": "べ"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 3006
+    },
+    {
+      "kanjiExpression": "食べもの",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "た"
+        },
+        {
+          "text": "べもの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "food"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eetwaar",
+        "voedsel",
+        "eten",
+        "kost",
+        "spijs",
+        "voeding",
+        "voedingsmiddel",
+        "voedingsartikel",
+        "hapje",
+        "{i.h.b.} dieet",
+        "{inform.} voer",
+        "{inform.} vreten",
+        "{inform.} bikken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nourriture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Essen",
+        "Speise",
+        "Lebensmittel",
+        "Nahrung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ennivaló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "еда, пища, кушанье, съестное; снедь; продукты; продовольствие",
+        "{～をやる} кормить, давать поесть"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hrana"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comida"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1598280",
+  "readings": [
+    {
+      "kanaExpression": "ていせい",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "帝政",
+      "furiganaExpression": [
+        {
+          "text": "帝",
+          "annotation": "てい"
+        },
+        {
+          "text": "政",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "帝制",
+      "furiganaExpression": [
+        {
+          "text": "帝",
+          "annotation": "てい"
+        },
+        {
+          "text": "制",
+          "annotation": "せい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "imperial government",
+        "imperialism",
+        "monarchical rule"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keizerregering",
+        "keizerheerschappij",
+        "{ロシアの} tsarisme"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gouvernement impérial",
+        "impérialisme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kaiserliche Herrschaft",
+        "kaiserliche Regierung",
+        "Kaiserherrschaft",
+        "Kaisertum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "монархия; царизм"
+      ]
+    }
+  ]
+}

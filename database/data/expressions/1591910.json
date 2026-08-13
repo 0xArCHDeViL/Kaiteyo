@@ -1,0 +1,66 @@
+{
+  "id": "1591910",
+  "readings": [
+    {
+      "kanaExpression": "ぬのじ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "布地",
+      "furiganaExpression": [
+        {
+          "text": "布",
+          "annotation": "ぬの"
+        },
+        {
+          "text": "地",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fabric",
+        "cloth",
+        "material"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geweven stof",
+        "weefsel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stoff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ruhaanyag",
+        "szerkezet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ткань, материя"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tela",
+        "paño"
+      ]
+    }
+  ]
+}

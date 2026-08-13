@@ -1,0 +1,59 @@
+{
+  "id": "1236480",
+  "readings": [
+    {
+      "kanaExpression": "きょうてき",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "強敵",
+      "furiganaExpression": [
+        {
+          "text": "強",
+          "annotation": "きょう"
+        },
+        {
+          "text": "敵",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "formidable enemy",
+        "strong enemy",
+        "tough enemy"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ennemi puissant",
+        "ennemi redoutable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "starker Feind",
+        "starker Gegner"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "грозный (могущественный) враг (соперник); сильный противник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enemigo formidable"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "1228370",
+  "readings": [
+    {
+      "kanaExpression": "きゅうにゅう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "吸入",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inhalation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inademing",
+        "inhalatie",
+        "inzuiging",
+        "imbibitie",
+        "inhaleren",
+        "inademen",
+        "inzuigen",
+        "imbiberen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "inhalation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einatmung",
+        "Einsaugen",
+        "Aspiration",
+        "Inhalation",
+        "einatmen",
+        "einsaugen",
+        "inhalieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "belélegzés",
+        "inhalálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "всасывание; (мед.) вдыхание, ингаляция",
+        "{～する} всасывать, впитывать; производить ингаляцию, вдыхать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inhalación"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "inhalation",
+        "inhalering"
+      ]
+    }
+  ]
+}

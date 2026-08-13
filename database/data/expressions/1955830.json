@@ -1,0 +1,97 @@
+{
+  "id": "1955830",
+  "readings": [
+    {
+      "kanaExpression": "せき",
+      "rank": 20500
+    },
+    {
+      "kanaExpression": "いせき",
+      "rank": 17000
+    },
+    {
+      "kanaExpression": "い",
+      "rank": 1181
+    },
+    {
+      "kanjiExpression": "堰",
+      "furiganaExpression": [
+        {
+          "text": "堰",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "井堰",
+      "furiganaExpression": [
+        {
+          "text": "井",
+          "annotation": "い"
+        },
+        {
+          "text": "堰",
+          "annotation": "せき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dam",
+        "weir",
+        "barrier",
+        "sluice"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dam",
+        "stuwdam",
+        "stuw",
+        "waterkering",
+        "kering",
+        "waterwering",
+        "waterwerk",
+        "beer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Damm",
+        "Wehr",
+        "Schleuse",
+        "Schütz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anyaállat",
+        "duzzasztógát",
+        "zsilip"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плотина; шлюз; запруда",
+        "плотина; перемычка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "presa",
+        "dique",
+        "esclusa",
+        "presa (de agua)"
+      ]
+    }
+  ]
+}

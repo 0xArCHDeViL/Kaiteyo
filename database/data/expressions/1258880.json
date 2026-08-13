@@ -1,0 +1,73 @@
+{
+  "id": "1258880",
+  "readings": [
+    {
+      "kanaExpression": "けんちょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "県庁",
+      "furiganaExpression": [
+        {
+          "text": "県",
+          "annotation": "けん"
+        },
+        {
+          "text": "庁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 10726
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prefectural office"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "autoriteiten van de prefectuur",
+        "bestuur van de prefectuur",
+        "prefecturele overheid",
+        "bureau van de prefectuur",
+        "prefectuurhuis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "préfecture",
+        "bureau préfectoral"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Präfekturbehörde",
+        "Verwaltungsgebäude der Präfektur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "префектуральное управление; префектуральные власти"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "predstavniški ured"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gobierno estatal"
+      ]
+    }
+  ]
+}

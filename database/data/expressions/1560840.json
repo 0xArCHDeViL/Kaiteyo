@@ -1,0 +1,99 @@
+{
+  "id": "1560840",
+  "readings": [
+    {
+      "kanaExpression": "もる",
+      "rank": 7122
+    },
+    {
+      "kanjiExpression": "漏る",
+      "furiganaExpression": [
+        {
+          "text": "漏",
+          "annotation": "も"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "洩る",
+      "furiganaExpression": [
+        {
+          "text": "洩",
+          "annotation": "も"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to leak",
+        "to run out"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lekken",
+        "doorlekken",
+        "ontsnappen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fuire (ex: fuite d\u0027eau)",
+        "s\u0027évader"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "durchsickern lassen",
+        "durchkommen",
+        "lecken",
+        "auslaufen",
+        "ausrinnen",
+        "austreten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kifolyik",
+        "szivárog",
+        "elfogy",
+        "kifut",
+        "lejár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "протекать, течь; просачиваться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gotear",
+        "escaparse",
+        "salirse",
+        "haber una fuga",
+        "haber un escape",
+        "perder líquido",
+        "filtrarse",
+        "regarse",
+        "infiltrarse"
+      ]
+    }
+  ]
+}

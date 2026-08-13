@@ -1,0 +1,57 @@
+{
+  "id": "1152600",
+  "readings": [
+    {
+      "kanaExpression": "あくろ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "悪路",
+      "furiganaExpression": [
+        {
+          "text": "悪",
+          "annotation": "あく"
+        },
+        {
+          "text": "路",
+          "annotation": "ろ"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bad road"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slechte weg"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schlechter Weg",
+        "Abwege",
+        "schiefe Bahn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плохая дорога; бездорожье"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mal camino"
+      ]
+    }
+  ]
+}

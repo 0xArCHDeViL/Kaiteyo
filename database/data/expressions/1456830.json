@@ -1,0 +1,63 @@
+{
+  "id": "1456830",
+  "readings": [
+    {
+      "kanaExpression": "つきとばす",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "突き飛ばす",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "ばす"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "突きとばす",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "きとばす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to thrust away",
+        "to send flying"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wegstoßen",
+        "wegschubsen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отбрасывать [ударом]; сваливать с ног; заставлять отлететь ударом"
+      ]
+    }
+  ]
+}

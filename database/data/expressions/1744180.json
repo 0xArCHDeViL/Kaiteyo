@@ -1,0 +1,45 @@
+{
+  "id": "1744180",
+  "readings": [
+    {
+      "kanaExpression": "しょうとう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "小党",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small political party"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleine Partei",
+        "Splitterpartei"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) небольшая партия",
+        "2) партия меньшинства (в парламенте)"
+      ]
+    }
+  ]
+}

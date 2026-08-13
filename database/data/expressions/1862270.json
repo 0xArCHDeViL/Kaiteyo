@@ -1,0 +1,97 @@
+{
+  "id": "1862270",
+  "readings": [
+    {
+      "kanaExpression": "おこり",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "起こり",
+      "furiganaExpression": [
+        {
+          "text": "起",
+          "annotation": "お"
+        },
+        {
+          "text": "こり"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "起り",
+      "furiganaExpression": [
+        {
+          "text": "起",
+          "annotation": "おこ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "起",
+      "furiganaExpression": [
+        {
+          "text": "起",
+          "annotation": "おこり"
+        }
+      ],
+      "rank": 13593
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "source",
+        "origin",
+        "cause",
+        "beginning",
+        "genesis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oorsprong",
+        "herkomst",
+        "origine",
+        "bron",
+        "begin",
+        "aanvang",
+        "start",
+        "oorzaak"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ursprung",
+        "Anfang",
+        "Ausgangspunkt",
+        "Beginn",
+        "Entstehung",
+        "Quelle",
+        "Ursache"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "forrás",
+        "eredet",
+        "származás",
+        "ok",
+        "ügy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "начало, источник, происхождение; причина"
+      ]
+    }
+  ]
+}

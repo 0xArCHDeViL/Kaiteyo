@@ -1,0 +1,54 @@
+{
+  "id": "1718470",
+  "readings": [
+    {
+      "kanaExpression": "かせいがく",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "家政学",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "政",
+          "annotation": "せい"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "home economics",
+        "domestic science"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauswirtschaftslehre"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "háztartástan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "домоводство, ведение домашнего хозяйства (как предмет преподавания)"
+      ]
+    }
+  ]
+}

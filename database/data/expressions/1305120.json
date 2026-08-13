@@ -1,0 +1,104 @@
+{
+  "id": "1305120",
+  "readings": [
+    {
+      "kanaExpression": "しあがり",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "仕上がり",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "がり"
+        }
+      ],
+      "rank": 11909
+    },
+    {
+      "kanjiExpression": "仕上り",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "上",
+          "annotation": "あが"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "finish",
+        "end",
+        "completion",
+        "result"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afwerking",
+        "voltooiing",
+        "laatste hand",
+        "nabewerking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fertigstellung",
+        "Endarbeiten",
+        "letzter Schliff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "befejezés",
+        "kikészítés",
+        "megmunkálás",
+        "vég",
+        "végződés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окончание, завершение; результат"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "konec",
+        "končati",
+        "dokončati",
+        "dopolniti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "toque final",
+        "acabado",
+        "terminación",
+        "resultado"
+      ]
+    }
+  ]
+}

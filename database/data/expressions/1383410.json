@@ -1,0 +1,71 @@
+{
+  "id": "1383410",
+  "readings": [
+    {
+      "kanaExpression": "せっけっきゅう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "赤血球",
+      "furiganaExpression": [
+        {
+          "text": "赤",
+          "annotation": "せっ"
+        },
+        {
+          "text": "血",
+          "annotation": "けっ"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "red blood cell",
+        "erythrocyte"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{biol.} rode bloedcel",
+        "{afk.} RBC",
+        "rood bloedlichaampje",
+        "erytrocyt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rotes Blutkörperchen",
+        "Erythrozyt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vörös vérsejt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физиол.) эритроциты"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "glóbulo rojo",
+        "eritrocito"
+      ]
+    }
+  ]
+}

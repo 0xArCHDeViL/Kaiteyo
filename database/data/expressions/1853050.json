@@ -1,0 +1,64 @@
+{
+  "id": "1853050",
+  "readings": [
+    {
+      "kanaExpression": "さぐり",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "探り",
+      "furiganaExpression": [
+        {
+          "text": "探",
+          "annotation": "さぐ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sounding",
+        "probing",
+        "probe",
+        "stylet",
+        "spy"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sondieren",
+        "Sondierung",
+        "Ausspionieren",
+        "Steigenlassen eines Versuchsballons"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hangzás",
+        "hangzatos",
+        "hangzó",
+        "bányászati kutatás",
+        "furatmérés",
+        "hézagmérés",
+        "kémlelés",
+        "próbavétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) выспрашивание; зондирование",
+        "2) выслеживание, шпионство",
+        "3) (мед.) зонд; (тех.) зонд, щуп"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1319250",
+  "readings": [
+    {
+      "kanaExpression": "しちかいき",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "七回忌",
+      "furiganaExpression": [
+        {
+          "text": "七",
+          "annotation": "しち"
+        },
+        {
+          "text": "回",
+          "annotation": "かい"
+        },
+        {
+          "text": "忌",
+          "annotation": "き"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sixth anniversary of a death"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sechste Wiederkehr des Todestages einer Person (der Tag des Todes selbst wird als die Eins gezählt)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "седьмая годовщина со дня смерти"
+      ]
+    }
+  ]
+}

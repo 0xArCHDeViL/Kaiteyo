@@ -1,0 +1,60 @@
+{
+  "id": "1557740",
+  "readings": [
+    {
+      "kanaExpression": "れいあんしつ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "霊安室",
+      "furiganaExpression": [
+        {
+          "text": "霊",
+          "annotation": "れい"
+        },
+        {
+          "text": "安",
+          "annotation": "あん"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "morgue",
+        "mortuary"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mortuarium",
+        "lijkkamer",
+        "rouwkapel",
+        "chapelle ardente"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leichenhalle",
+        "Leichenkammer",
+        "Leichenschauhaus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hullaház",
+        "tetemnéző"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "1183480",
+  "readings": [
+    {
+      "kanaExpression": "おんだん",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "温暖",
+      "furiganaExpression": [
+        {
+          "text": "温",
+          "annotation": "おん"
+        },
+        {
+          "text": "暖",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 5239
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "warm",
+        "mild",
+        "temperate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lekker warm",
+        "zacht",
+        "gematigd"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chaud",
+        "doux",
+        "tempéré",
+        "chaleureux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "warm",
+        "mild",
+        "Wärme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hév",
+        "meleg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тепло, теплота",
+        "{～な} тёплый"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "toplota",
+        "toplina",
+        "topel"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calor",
+        "calidez"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "värme"
+      ]
+    }
+  ]
+}

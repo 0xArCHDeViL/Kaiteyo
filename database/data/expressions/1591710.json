@@ -1,0 +1,89 @@
+{
+  "id": "1591710",
+  "readings": [
+    {
+      "kanaExpression": "きょうりゅう",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "恐竜",
+      "furiganaExpression": [
+        {
+          "text": "恐",
+          "annotation": "きょう"
+        },
+        {
+          "text": "竜",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 10474
+    },
+    {
+      "kanjiExpression": "恐龍",
+      "furiganaExpression": [
+        {
+          "text": "恐",
+          "annotation": "きょう"
+        },
+        {
+          "text": "龍",
+          "annotation": "りゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dinosaur"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} dinosaurus",
+        "dinosauriër",
+        "{verk.} dino"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dinosaure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dinosaurier"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dinoszaurusz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "динозавр"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dinosaurio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "dinosaurie",
+        "skräcködla"
+      ]
+    }
+  ]
+}

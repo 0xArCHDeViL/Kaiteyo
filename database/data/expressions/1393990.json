@@ -1,0 +1,56 @@
+{
+  "id": "1393990",
+  "readings": [
+    {
+      "kanaExpression": "ぜんぶん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "前文",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the above sentence",
+        "the foregoing remark",
+        "preamble (to a statute, constitution, etc.)",
+        "opening part of a letter (used for season\u0027s greetings, asking after someone\u0027s health, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einleitung",
+        "Präambel",
+        "vorhergehender Textteil"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előszó",
+        "indokolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) вступление, преамбула",
+        "2) предыдущий текст; вышесказанное"
+      ]
+    }
+  ]
+}

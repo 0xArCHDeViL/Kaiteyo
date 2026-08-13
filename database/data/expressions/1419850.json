@@ -1,0 +1,57 @@
+{
+  "id": "1419850",
+  "readings": [
+    {
+      "kanaExpression": "だんとう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "暖冬",
+      "furiganaExpression": [
+        {
+          "text": "暖",
+          "annotation": "だん"
+        },
+        {
+          "text": "冬",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mild winter",
+        "warm winter"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "hiver doux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "milder Winter",
+        "relativ warmer Winter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) мягкая (тёплая) зима"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "mila zima"
+      ]
+    }
+  ]
+}

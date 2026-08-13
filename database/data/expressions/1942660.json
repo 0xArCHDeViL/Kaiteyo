@@ -1,0 +1,57 @@
+{
+  "id": "1942660",
+  "readings": [
+    {
+      "kanaExpression": "ちょぞうこ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "貯蔵庫",
+      "furiganaExpression": [
+        {
+          "text": "貯",
+          "annotation": "ちょ"
+        },
+        {
+          "text": "蔵",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "庫",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "storehouse",
+        "bunker",
+        "silo"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Speicher",
+        "Lagerhaus",
+        "Magazin"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кладовая, хранилище, склад"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "magasin"
+      ]
+    }
+  ]
+}

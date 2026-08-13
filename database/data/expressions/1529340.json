@@ -1,0 +1,101 @@
+{
+  "id": "1529340",
+  "readings": [
+    {
+      "kanaExpression": "ねむけ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "眠気",
+      "furiganaExpression": [
+        {
+          "text": "眠",
+          "annotation": "ねむ"
+        },
+        {
+          "text": "気",
+          "annotation": "け"
+        }
+      ],
+      "rank": 12583
+    },
+    {
+      "kanjiExpression": "眠け",
+      "furiganaExpression": [
+        {
+          "text": "眠",
+          "annotation": "ねむ"
+        },
+        {
+          "text": "け"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "睡気",
+      "furiganaExpression": [
+        {
+          "text": "睡",
+          "annotation": "ねむ"
+        },
+        {
+          "text": "気",
+          "annotation": "け"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sleepiness",
+        "drowsiness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slaperigheid",
+        "sufheid",
+        "slaap",
+        "vaak",
+        "somnolentie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "somnolence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schläfrigkeit",
+        "Müdigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "álmosság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сонливость"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sopor",
+        "adormecimiento",
+        "sueño",
+        "somnolencia"
+      ]
+    }
+  ]
+}

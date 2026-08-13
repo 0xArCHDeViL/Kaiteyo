@@ -1,0 +1,69 @@
+{
+  "id": "1567990",
+  "readings": [
+    {
+      "kanaExpression": "きゆう",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "杞憂",
+      "furiganaExpression": [
+        {
+          "text": "杞",
+          "annotation": "き"
+        },
+        {
+          "text": "憂",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "needless fear",
+        "groundless apprehension",
+        "unfounded worry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ijdele",
+        "ongemotiveerde",
+        "onredelijke",
+        "absurde",
+        "ongegronde vrees",
+        "nodeloze angst",
+        "ongerustheid",
+        "bezorgdheid",
+        "onnodige zorgen",
+        "angsten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unbegründete Sorge",
+        "unnötige Angst",
+        "grundlose Furcht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "напрасные опасения, необоснованные страхи; напрасное (излишнее) беспокойство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "preocupación excesiva por el futuro",
+        "temor infundado"
+      ]
+    }
+  ]
+}

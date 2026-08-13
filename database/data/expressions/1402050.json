@@ -1,0 +1,47 @@
+{
+  "id": "1402050",
+  "readings": [
+    {
+      "kanaExpression": "くさやきゅう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "草野球",
+      "furiganaExpression": [
+        {
+          "text": "草",
+          "annotation": "くさ"
+        },
+        {
+          "text": "野",
+          "annotation": "や"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grass-lot baseball"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Amateurbaseball"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бейсбол (не профессиональный)"
+      ]
+    }
+  ]
+}

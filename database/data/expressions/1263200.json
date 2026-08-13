@@ -1,0 +1,55 @@
+{
+  "id": "1263200",
+  "readings": [
+    {
+      "kanaExpression": "げんしゅう",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "減収",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fall",
+        "decrease (in income)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abnehmen (Einkünfte oder der Ertrag)",
+        "Abnahme der Einkünfte",
+        "Abnahme des Ernteertrags"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bevételcsökkenés",
+        "esés",
+        "leesés",
+        "lehullás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уменьшение (понижение) доходов (урожая, сбора)"
+      ]
+    }
+  ]
+}

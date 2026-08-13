@@ -1,0 +1,88 @@
+{
+  "id": "1409820",
+  "readings": [
+    {
+      "kanaExpression": "たいして",
+      "rank": 14155
+    },
+    {
+      "kanjiExpression": "対して",
+      "furiganaExpression": [
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "して"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "對して",
+      "furiganaExpression": [
+        {
+          "text": "對",
+          "annotation": "たい"
+        },
+        {
+          "text": "して"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "for",
+        "in regard to",
+        "per"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gegen",
+        "zu",
+        "vor",
+        "für",
+        "gegenüber",
+        "wider",
+        "angesichts",
+        "im Vergleich mit",
+        "im Gegensatz zu"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vminek révén"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "по отношению к…; против; (тж. переводится разными падежами с предлогом и без)",
+        "(ср.) たいする【対する】2"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "za",
+        "v zameno za"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ante",
+        "en relación a",
+        "en relación con",
+        "con",
+        "para con"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1344020",
+  "readings": [
+    {
+      "kanaExpression": "しょこ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "書庫",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "庫",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "library",
+        "book storage",
+        "stack room",
+        "archive (file)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bibliotheek",
+        "boekendepot",
+        "boekenmagazijn",
+        "{comp.} archief"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bibliothek",
+        "Bücherraum",
+        "Büchermagazin",
+        "Archiv"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "библиотека; книгохранилище"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "archivo (fichero)"
+      ]
+    }
+  ]
+}

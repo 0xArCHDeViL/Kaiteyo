@@ -1,0 +1,71 @@
+{
+  "id": "1252720",
+  "readings": [
+    {
+      "kanaExpression": "けいしょう",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "軽傷",
+      "furiganaExpression": [
+        {
+          "text": "軽",
+          "annotation": "けい"
+        },
+        {
+          "text": "傷",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "minor injury"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lichte wond",
+        "wonde",
+        "verwonding",
+        "blessure"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "blessure légère"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leichte Verletzung",
+        "leichte Verwundung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "könnyű sérülés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лёгкая рана, лёгкое ранение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lesiones leves"
+      ]
+    }
+  ]
+}

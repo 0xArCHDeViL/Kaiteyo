@@ -1,0 +1,68 @@
+{
+  "id": "1198810",
+  "readings": [
+    {
+      "kanaExpression": "かいどう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "会堂",
+      "furiganaExpression": [
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "堂",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "church",
+        "chapel",
+        "synagogue",
+        "tabernacle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hal",
+        "ontmoetingsplaats",
+        "kerk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Versammlungshalle",
+        "Gemeindehalle",
+        "Stadthalle",
+        "Kirche",
+        "Gotteshaus",
+        "Kapelle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyház",
+        "falmélyedés",
+        "imaház"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) зал для собраний (концертов (и т. п.))",
+        "2) церковь, молитвенный дом"
+      ]
+    }
+  ]
+}

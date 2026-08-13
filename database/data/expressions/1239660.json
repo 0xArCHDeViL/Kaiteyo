@@ -1,0 +1,62 @@
+{
+  "id": "1239660",
+  "readings": [
+    {
+      "kanaExpression": "きょくばん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "局番",
+      "furiganaExpression": [
+        {
+          "text": "局",
+          "annotation": "きょく"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "telephone exchange number"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{telef.} netnummer",
+        "kiesnummer",
+        "kengetal",
+        "{Belg.N.} zonenummer",
+        "{Belg.N.",
+        "niet alg.} prefix"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "indicatif téléphonique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorwahlnummer",
+        "Vorwahl",
+        "Ortsnetzkennzahl"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "prefijo telefónico"
+      ]
+    }
+  ]
+}

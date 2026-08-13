@@ -1,0 +1,44 @@
+{
+  "id": "1722860",
+  "readings": [
+    {
+      "kanaExpression": "ぶつりょう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "物量",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "amount of material resources"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Menge an Gütern",
+        "Menge an Ressourcen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "количество материалов, материальные ресурсы"
+      ]
+    }
+  ]
+}

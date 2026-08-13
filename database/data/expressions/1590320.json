@@ -1,0 +1,91 @@
+{
+  "id": "1590320",
+  "readings": [
+    {
+      "kanaExpression": "かせつ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "仮説",
+      "furiganaExpression": [
+        {
+          "text": "仮",
+          "annotation": "か"
+        },
+        {
+          "text": "説",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 5181
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hypothesis",
+        "supposition",
+        "assumption",
+        "tentative theory"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hypothese",
+        "veronderstelling",
+        "aanneming",
+        "aanname"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "hypothèse",
+        "supposition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hypothese",
+        "Annahme",
+        "Behauptung",
+        "Vermutung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feltételezés",
+        "feltevés",
+        "vélekedés",
+        "koholt",
+        "költött",
+        "regény-",
+        "regény jellegű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гипотеза; предположение",
+        "{～的} гипотетический"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hipoteza",
+        "domneva"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hipótesis"
+      ]
+    }
+  ]
+}

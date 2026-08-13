@@ -1,0 +1,43 @@
+{
+  "id": "1302230",
+  "readings": [
+    {
+      "kanaExpression": "さんぐう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "参宮",
+      "furiganaExpression": [
+        {
+          "text": "参",
+          "annotation": "さん"
+        },
+        {
+          "text": "宮",
+          "annotation": "ぐう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pilgrimage (esp. to the Ise Grand Shrine)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besuch eines Schreines (insbes. des innereren Schreins des Heiligtums von Ise)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "паломничество в храмы [Исэ]"
+      ]
+    }
+  ]
+}

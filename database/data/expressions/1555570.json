@@ -1,0 +1,67 @@
+{
+  "id": "1555570",
+  "readings": [
+    {
+      "kanaExpression": "りんかい",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "臨界",
+      "furiganaExpression": [
+        {
+          "text": "臨",
+          "annotation": "りん"
+        },
+        {
+          "text": "界",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "boundary",
+        "(nuclear) criticality",
+        "critical (mass, pressure, temperature, state, point, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{nat.} kritikaliteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kritikalität (Zustand eines Kernreaktors, bei dem die zur fortgesetzten Kernspaltung notwendige Kettenreaktion nicht mehr von selbst erlischt)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "boncolgató",
+        "kritikai",
+        "kritikus",
+        "válságos",
+        "vizsgálódó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} критический (о температуре, давлении, высоте и т. п.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "crítico (presión, temperatura, estado, punto)"
+      ]
+    }
+  ]
+}

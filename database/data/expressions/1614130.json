@@ -1,0 +1,48 @@
+{
+  "id": "1614130",
+  "readings": [
+    {
+      "kanaExpression": "かんぜんじあい",
+      "rank": 25500
+    },
+    {
+      "kanaExpression": "かんぜんしあい"
+    },
+    {
+      "kanjiExpression": "完全試合",
+      "furiganaExpression": [
+        {
+          "text": "完",
+          "annotation": "かん"
+        },
+        {
+          "text": "全",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "試",
+          "annotation": "じ"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "perfect game"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Perfektes Spiel (Spiel, in dem der Werfer keinen Punkt abgibt)"
+      ]
+    }
+  ]
+}

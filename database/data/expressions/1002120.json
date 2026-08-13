@@ -1,0 +1,95 @@
+{
+  "id": "1002120",
+  "readings": [
+    {
+      "kanaExpression": "おまわりさん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お巡りさん",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "巡",
+          "annotation": "まわ"
+        },
+        {
+          "text": "りさん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "御巡りさん",
+      "furiganaExpression": [
+        {
+          "text": "御巡",
+          "annotation": "おまわ"
+        },
+        {
+          "text": "りさん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "police officer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "politieagent",
+        "politieman",
+        "diender",
+        "agent",
+        "{Barg.} schrandere",
+        "{als aanspreekvorm (yobikake 呼び掛け)} mijnheer de agent"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "policier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Polizist",
+        "Streifenpolizist (informeller, freundlicher Ausdruck)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közrendőr",
+        "rendőr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прост.) полицейский"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "policaj (vljudno)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "agente policíaco",
+        "esbirro"
+      ]
+    }
+  ]
+}

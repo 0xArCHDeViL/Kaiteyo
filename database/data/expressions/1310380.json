@@ -1,0 +1,66 @@
+{
+  "id": "1310380",
+  "readings": [
+    {
+      "kanaExpression": "しさく",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "施策",
+      "furiganaExpression": [
+        {
+          "text": "施",
+          "annotation": "し"
+        },
+        {
+          "text": "策",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 3509
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "policy",
+        "measure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maatregel",
+        "beleid",
+        "stap",
+        "beleidsuitvoering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Maßnahmen",
+        "Maßregel",
+        "Politik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "államvezetés",
+        "politika",
+        "vezérelv",
+        "fok",
+        "lépés",
+        "ütem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мероприятия; политика"
+      ]
+    }
+  ]
+}

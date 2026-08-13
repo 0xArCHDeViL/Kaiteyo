@@ -1,0 +1,73 @@
+{
+  "id": "1612340",
+  "readings": [
+    {
+      "kanaExpression": "ろじょう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "路上",
+      "furiganaExpression": [
+        {
+          "text": "路",
+          "annotation": "ろ"
+        },
+        {
+          "text": "上",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 6822
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "on the road",
+        "on the street",
+        "in the street",
+        "on the way"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sur la route",
+        "sur le chemin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auf dem Weg",
+        "auf der Straße",
+        "unterwegs"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "országút",
+        "út",
+        "úttest",
+        "irány",
+        "messze",
+        "távol"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～に} на дороге"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sobre el camino",
+        "sobre la autopista"
+      ]
+    }
+  ]
+}

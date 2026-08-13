@@ -1,0 +1,49 @@
+{
+  "id": "1771380",
+  "readings": [
+    {
+      "kanaExpression": "かわざんよう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "皮算用",
+      "furiganaExpression": [
+        {
+          "text": "皮",
+          "annotation": "かわ"
+        },
+        {
+          "text": "算",
+          "annotation": "ざん"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "over-optimistic calculation",
+        "counting one\u0027s chickens before they\u0027re hatched"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "voreilige Rechnung",
+        "voreiliger Plan (bei dem man das Fell des Dachses verkaufen möchte, bevor dieser gefangen ist)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(обр.) нереальные расчёты, прожекты"
+      ]
+    }
+  ]
+}

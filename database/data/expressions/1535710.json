@@ -1,0 +1,106 @@
+{
+  "id": "1535710",
+  "readings": [
+    {
+      "kanaExpression": "もくろく",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "目録",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "もく"
+        },
+        {
+          "text": "録",
+          "annotation": "ろく"
+        }
+      ],
+      "rank": 9748
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "catalogue",
+        "catalog",
+        "inventory",
+        "index",
+        "list",
+        "certificate indicating an impending gift"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "catalogus",
+        "{Belg.N.} cataloog",
+        "lijst",
+        "inhoud",
+        "inhoudsopgave",
+        "index",
+        "register",
+        "bladwijzer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "catalogue",
+        "répertoire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verzeichnis",
+        "Aufstellung",
+        "Register",
+        "Katalog",
+        "Inventarliste",
+        "Inhaltsverzeichnis",
+        "Geschenkliste",
+        "Geldgeschenk in einem Umschlag",
+        "Schriftstück zur Bescheinigung einer erhaltenen Ausbildung (in den Kampfkünsten, Künsten)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jegyzék",
+        "katalógus",
+        "lajstrom",
+        "névsor",
+        "oldalra dőlés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оглавление; каталог; опись, [инвентарный] список"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "katalog"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "catálogo",
+        "listado"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "katalog",
+        "lista"
+      ]
+    }
+  ]
+}

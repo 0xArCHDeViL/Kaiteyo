@@ -1,0 +1,100 @@
+{
+  "id": "1589610",
+  "readings": [
+    {
+      "kanaExpression": "おんぎ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "恩義",
+      "furiganaExpression": [
+        {
+          "text": "恩",
+          "annotation": "おん"
+        },
+        {
+          "text": "義",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "恩誼",
+      "furiganaExpression": [
+        {
+          "text": "恩",
+          "annotation": "おん"
+        },
+        {
+          "text": "誼",
+          "annotation": "ぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "obligation",
+        "favour",
+        "favor",
+        "debt of gratitude"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "morele plicht",
+        "verplichting",
+        "ereschuld",
+        "het verplicht-zijn",
+        "verschuldigd-zijn",
+        "verschuldigde dank",
+        "dankbaarheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dankesschuld",
+        "Dankespflicht",
+        "Dankbarkeit",
+        "Erkenntlichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kötelezettség",
+        "kötvény",
+        "tartozás",
+        "csokor",
+        "jelvény",
+        "jóindulat",
+        "kedvezés",
+        "kegy",
+        "pártfogás",
+        "részrehajlás",
+        "szívesség",
+        "támogatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одолжение, любезность",
+        "{…に～がある} быть обязанным кому-либо"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "favor",
+        "merced",
+        "ayuda"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "1324460",
+  "readings": [
+    {
+      "kanaExpression": "わかば",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "どんよう"
+    },
+    {
+      "kanjiExpression": "若葉",
+      "furiganaExpression": [
+        {
+          "text": "若",
+          "annotation": "わか"
+        },
+        {
+          "text": "葉",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "嫩葉",
+      "furiganaExpression": [
+        {
+          "text": "嫩",
+          "annotation": "わか"
+        },
+        {
+          "text": "葉",
+          "annotation": "ば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "new leaves",
+        "young leaves",
+        "fresh verdure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jong blad",
+        "blaadje",
+        "jonge blaren",
+        "jong gebladerte",
+        "frisgroene loof",
+        "{fig.} spruit",
+        "kind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "junges Blatt",
+        "junge Blätter",
+        "frisches Grün",
+        "frisches Laub",
+        "junger Mensch",
+        "Kind"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "молодая листва, первая зелень",
+        "(поэт.) молодая листва"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hojas jóvenes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "1569570",
+  "readings": [
+    {
+      "kanaExpression": "かゆい",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "かいい"
+    },
+    {
+      "kanjiExpression": "痒い",
+      "furiganaExpression": [
+        {
+          "text": "痒",
+          "annotation": "かゆ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 14229
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "itchy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jeukend",
+        "jeukerig"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "qui démange",
+        "qui gratte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jucken",
+        "kitzeln",
+        "kribbeln",
+        "juckend",
+        "kitzelnd",
+        "kribbelnd"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyughatatlan",
+        "rühös",
+        "viszketést okozó",
+        "viszketős"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зудящий; (как сказ.) зудит, чешется"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "srbeč"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "picor",
+        "escozor"
+      ]
+    }
+  ]
+}

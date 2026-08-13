@@ -1,0 +1,103 @@
+{
+  "id": "1599610",
+  "readings": [
+    {
+      "kanaExpression": "なまなましい",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "生々しい",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "々",
+          "annotation": "なま"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "rank": 13003
+    },
+    {
+      "kanjiExpression": "生生しい",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "しい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vivid (memory, description, etc.)",
+        "fresh",
+        "graphic",
+        "raw",
+        "true-to-life",
+        "first-hand (experience)",
+        "fresh (blood, scar, etc.)",
+        "still new",
+        "recent",
+        "just occurred"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "frisch",
+        "lebendig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erőteljes",
+        "golfpálya lyuk körüli része",
+        "golfpálya",
+        "hiszékeny",
+        "hómentes",
+        "jó erőben levő",
+        "naiv",
+        "rét",
+        "sápadt",
+        "sárgás",
+        "üde",
+        "zöld-",
+        "zöldellő",
+        "zöldes",
+        "zöldhasú",
+        "zsozsó",
+        "zsuga"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сырой; свежий; неспелый, зелёный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vivo",
+        "fresco",
+        "verde",
+        "crudo"
+      ]
+    }
+  ]
+}

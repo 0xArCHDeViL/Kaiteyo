@@ -1,0 +1,67 @@
+{
+  "id": "1471410",
+  "readings": [
+    {
+      "kanaExpression": "はてんこう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "破天荒",
+      "furiganaExpression": [
+        {
+          "text": "破",
+          "annotation": "は"
+        },
+        {
+          "text": "天",
+          "annotation": "てん"
+        },
+        {
+          "text": "荒",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unheard-of",
+        "unprecedented",
+        "daring",
+        "wild",
+        "uninhibited",
+        "unconventional",
+        "reckless"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "epochemachend",
+        "bahnbrechend",
+        "unvergleichlich",
+        "beispiellos",
+        "einmalig",
+        "ohnegleichen",
+        "Unvergleichlichkeit",
+        "Beispiellosigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "még elő nem fordult",
+        "példa nélkül álló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} беспримерный, беспрецедентный"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1188730",
+  "readings": [
+    {
+      "kanaExpression": "なんさい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "何歳",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なん"
+        },
+        {
+          "text": "歳",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "何才",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なん"
+        },
+        {
+          "text": "才",
+          "annotation": "さい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "how old",
+        "what age"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wie alt?"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сколько лет? (кому-л.); какого возраста? (кто-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "koliko let"
+      ]
+    }
+  ]
+}

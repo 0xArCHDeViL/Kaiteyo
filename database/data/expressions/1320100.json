@@ -1,0 +1,56 @@
+{
+  "id": "1320100",
+  "readings": [
+    {
+      "kanaExpression": "しってん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "失点",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しっ"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 9489
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lost point (in a game)",
+        "point given away",
+        "conceded goal",
+        "run charged to the pitcher",
+        "blunder",
+        "mistake",
+        "error"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verloren punten",
+        "fout",
+        "vergissing",
+        "abuis",
+        "blunder",
+        "misser",
+        "lapsus",
+        "schuld"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Punktverlust (an den Gegner)"
+      ]
+    }
+  ]
+}

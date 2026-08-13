@@ -1,0 +1,70 @@
+{
+  "id": "1730400",
+  "readings": [
+    {
+      "kanaExpression": "にちじょうさはんじ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "日常茶飯事",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "常",
+          "annotation": "じょう"
+        },
+        {
+          "text": "茶",
+          "annotation": "さ"
+        },
+        {
+          "text": "飯",
+          "annotation": "はん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "everyday occurrence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "± dagelijkse kost",
+        "dagelijkse prik"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alltägliches Ereignis",
+        "banale Alltäglichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mindennapos esemény",
+        "mindennapos eset"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сущ.) самое обычное, трафаретное, сугубо повседневное"
+      ]
+    }
+  ]
+}

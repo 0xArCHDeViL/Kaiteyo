@@ -1,0 +1,54 @@
+{
+  "id": "1516570",
+  "readings": [
+    {
+      "kanaExpression": "ほうかご",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "放課後",
+      "furiganaExpression": [
+        {
+          "text": "放",
+          "annotation": "ほう"
+        },
+        {
+          "text": "課",
+          "annotation": "か"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 13112
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "after school (at the end of the day)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nach dem Schulunterricht",
+        "nach Schulschluss"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "po pouku"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "después de la escuela"
+      ]
+    }
+  ]
+}

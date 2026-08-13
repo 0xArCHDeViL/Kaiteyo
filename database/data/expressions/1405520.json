@@ -1,0 +1,47 @@
+{
+  "id": "1405520",
+  "readings": [
+    {
+      "kanaExpression": "ぞくせつ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "俗説",
+      "furiganaExpression": [
+        {
+          "text": "俗",
+          "annotation": "ぞく"
+        },
+        {
+          "text": "説",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "common saying",
+        "popular version",
+        "folklore",
+        "tradition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "volkstümliche Ansicht",
+        "Volksglauben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общераспространённое мнение, общепринятый взгляд"
+      ]
+    }
+  ]
+}

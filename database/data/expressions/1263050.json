@@ -1,0 +1,70 @@
+{
+  "id": "1263050",
+  "readings": [
+    {
+      "kanaExpression": "げんがく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "弦楽",
+      "furiganaExpression": [
+        {
+          "text": "弦",
+          "annotation": "げん"
+        },
+        {
+          "text": "楽",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "絃楽",
+      "furiganaExpression": [
+        {
+          "text": "絃",
+          "annotation": "げん"
+        },
+        {
+          "text": "楽",
+          "annotation": "がく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "music for strings",
+        "string music"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} strijkmuziek",
+        "snaarmuziek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Streichmusik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "струнная музыка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "música para cuerdas"
+      ]
+    }
+  ]
+}

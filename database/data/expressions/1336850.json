@@ -1,0 +1,67 @@
+{
+  "id": "1336850",
+  "readings": [
+    {
+      "kanaExpression": "じゅうようせい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "重要性",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "要",
+          "annotation": "よう"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "importance",
+        "gravity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "belang",
+        "belangrijkheid",
+        "gewicht",
+        "gewichtigheid",
+        "betekenis",
+        "importantie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wichtigkeit",
+        "Bedeutsamkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gravitáció",
+        "megfontoltság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "важность, значительность, существенность"
+      ]
+    }
+  ]
+}

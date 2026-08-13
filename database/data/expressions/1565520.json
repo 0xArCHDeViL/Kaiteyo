@@ -1,0 +1,71 @@
+{
+  "id": "1565520",
+  "readings": [
+    {
+      "kanaExpression": "おうと",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "嘔吐",
+      "furiganaExpression": [
+        {
+          "text": "嘔",
+          "annotation": "おう"
+        },
+        {
+          "text": "吐",
+          "annotation": "と"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "おう吐",
+      "furiganaExpression": [
+        {
+          "text": "おう"
+        },
+        {
+          "text": "吐",
+          "annotation": "と"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vomiting",
+        "emesis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "braken",
+        "vomeren",
+        "overgeven",
+        "spuwen",
+        "kotsen",
+        "over z\u0027n nek gaan",
+        "{volkst.} rendez-vous houden",
+        "spelen",
+        "{uitdr.} aan Neptunus offeren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erbrechen",
+        "Emesis",
+        "Vomitus",
+        "Vomieren",
+        "brechen",
+        "sich erbrechen",
+        "sich übergeben",
+        "vomieren"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "1641200",
+  "readings": [
+    {
+      "kanaExpression": "めぶく",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "芽吹く",
+      "furiganaExpression": [
+        {
+          "text": "芽",
+          "annotation": "め"
+        },
+        {
+          "text": "吹",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "芽ぶく",
+      "furiganaExpression": [
+        {
+          "text": "芽",
+          "annotation": "め"
+        },
+        {
+          "text": "ぶく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to bud"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "knospen",
+        "Knospen treiben",
+        "ausschlagen (ein Baum)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszemez",
+        "ojt",
+        "szemez"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "1270440",
+  "readings": [
+    {
+      "kanaExpression": "おみくじ",
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "御神籤",
+      "furiganaExpression": [
+        {
+          "text": "御神籤",
+          "annotation": "おみくじ"
+        }
+      ],
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "お御籤",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "御",
+          "annotation": "み"
+        },
+        {
+          "text": "籤",
+          "annotation": "くじ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御御籤",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "御",
+          "annotation": "み"
+        },
+        {
+          "text": "籤",
+          "annotation": "くじ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "おみ籤",
+      "furiganaExpression": [
+        {
+          "text": "おみ"
+        },
+        {
+          "text": "籤",
+          "annotation": "くじ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fortune slip (usu. bought at a shrine)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorspellingspapiertje",
+        "voorspellingsbriefje",
+        "orakelbriefje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "oracle écrite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Orakelzettelchen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) みくじ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "papelito de la suerte",
+        "papelitos con augurios escritos",
+        "predicción de futuro escrita"
+      ]
+    }
+  ]
+}

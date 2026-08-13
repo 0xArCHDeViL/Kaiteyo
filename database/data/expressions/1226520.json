@@ -1,0 +1,86 @@
+{
+  "id": "1226520",
+  "readings": [
+    {
+      "kanaExpression": "つめかける",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "詰め掛ける",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "掛",
+          "annotation": "か"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "詰掛ける",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つめ"
+        },
+        {
+          "text": "掛",
+          "annotation": "か"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "詰めかける",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "めかける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to crowd (a house)",
+        "to throng to (a door)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich drängen",
+        "zusammenströmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csődül",
+        "előrenyomakodik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подступать вплотную; обступать, окружать, тесниться"
+      ]
+    }
+  ]
+}

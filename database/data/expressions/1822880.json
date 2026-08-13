@@ -1,0 +1,43 @@
+{
+  "id": "1822880",
+  "readings": [
+    {
+      "kanaExpression": "ほんきゅう",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "本給",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "basic or regular salary"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grundgehalt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "основной оклад"
+      ]
+    }
+  ]
+}

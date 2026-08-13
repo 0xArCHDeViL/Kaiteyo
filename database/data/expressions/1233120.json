@@ -1,0 +1,72 @@
+{
+  "id": "1233120",
+  "readings": [
+    {
+      "kanaExpression": "ぎょかいるい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "魚介類",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "介",
+          "annotation": "かい"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "魚貝類",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "貝",
+          "annotation": "かい"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "marine products",
+        "seafood",
+        "fish and shellfish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeevis en schaal- en schelpdieren",
+        "visserijproducten",
+        "zeebanket",
+        "fruits de mer",
+        "{Belg.N.} vis en zeevruchten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meeresprodukte",
+        "Meeresfrüchte",
+        "Fische und Muscheln"
+      ]
+    }
+  ]
+}

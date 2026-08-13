@@ -1,0 +1,44 @@
+{
+  "id": "1534090",
+  "readings": [
+    {
+      "kanaExpression": "もうどく",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "猛毒",
+      "furiganaExpression": [
+        {
+          "text": "猛",
+          "annotation": "もう"
+        },
+        {
+          "text": "毒",
+          "annotation": "どく"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deadly poison"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sehr starkes Gift",
+        "tödliches Gift"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сильнодействующий (смертельный) яд"
+      ]
+    }
+  ]
+}

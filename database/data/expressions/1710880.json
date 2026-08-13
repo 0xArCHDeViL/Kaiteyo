@@ -1,0 +1,46 @@
+{
+  "id": "1710880",
+  "readings": [
+    {
+      "kanaExpression": "びょうへん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "病変",
+      "furiganaExpression": [
+        {
+          "text": "病",
+          "annotation": "びょう"
+        },
+        {
+          "text": "変",
+          "annotation": "へん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lesion",
+        "pathological change"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} ziekelijke verandering",
+        "laesie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "krankhafte Veränderung",
+        "pathologische Veränderung"
+      ]
+    }
+  ]
+}

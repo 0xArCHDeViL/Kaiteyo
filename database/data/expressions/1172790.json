@@ -1,0 +1,78 @@
+{
+  "id": "1172790",
+  "readings": [
+    {
+      "kanaExpression": "うんせい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "運勢",
+      "furiganaExpression": [
+        {
+          "text": "運",
+          "annotation": "うん"
+        },
+        {
+          "text": "勢",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 13531
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fortune",
+        "luck"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fortuin",
+        "lot",
+        "geluk",
+        "lotsbeschikking",
+        "toekomst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schicksal",
+        "Zukunft",
+        "Geschick",
+        "Glück",
+        "jmds. Stern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szerencse"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "судьба"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "suerte",
+        "ventura",
+        "destino"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "öde"
+      ]
+    }
+  ]
+}

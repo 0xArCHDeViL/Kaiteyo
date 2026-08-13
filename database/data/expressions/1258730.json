@@ -1,0 +1,60 @@
+{
+  "id": "1258730",
+  "readings": [
+    {
+      "kanaExpression": "きぬおりもの",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "絹織物",
+      "furiganaExpression": [
+        {
+          "text": "絹",
+          "annotation": "きぬ"
+        },
+        {
+          "text": "織",
+          "annotation": "おり"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "silk goods"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "articles en soie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seidenstoff",
+        "Seidengewebe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шёлковая ткань, шёлк"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "productos de seda"
+      ]
+    }
+  ]
+}

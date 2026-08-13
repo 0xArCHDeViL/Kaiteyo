@@ -1,0 +1,71 @@
+{
+  "id": "1264980",
+  "readings": [
+    {
+      "kanaExpression": "こたい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "個体",
+      "furiganaExpression": [
+        {
+          "text": "個",
+          "annotation": "こ"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 7452
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "individual",
+        "specimen"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{fil.} individu",
+        "{biol.} individu"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "individu",
+        "spécimen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Individuum",
+        "Einzelexemplar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "индивидуум; особь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuerpo sólido"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "individ"
+      ]
+    }
+  ]
+}

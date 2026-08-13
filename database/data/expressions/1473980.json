@@ -1,0 +1,75 @@
+{
+  "id": "1473980",
+  "readings": [
+    {
+      "kanaExpression": "ばいきゃく",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "売却",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "ばい"
+        },
+        {
+          "text": "却",
+          "annotation": "きゃく"
+        }
+      ],
+      "rank": 4431
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "selling off",
+        "disposal by sale",
+        "sale"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkoop",
+        "afdoening",
+        "verhandeling",
+        "verkopen",
+        "verhandelen",
+        "van de hand doen",
+        "zetten",
+        "afzetten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vente"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkauf",
+        "Absatz",
+        "verkaufen",
+        "absetzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiárusítás",
+        "vásár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[рас]продажа",
+        "{～する} [рас]продавать"
+      ]
+    }
+  ]
+}

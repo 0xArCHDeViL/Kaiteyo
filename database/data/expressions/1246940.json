@@ -1,0 +1,80 @@
+{
+  "id": "1246940",
+  "readings": [
+    {
+      "kanaExpression": "くりさげる",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "繰り下げる",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "下",
+          "annotation": "さ"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "繰下げる",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "下",
+          "annotation": "さ"
+        },
+        {
+          "text": "げる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to defer",
+        "to postpone",
+        "to move down"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verlegen",
+        "aufschieben",
+        "verschieben",
+        "herunter legen",
+        "herunter bewegen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhalaszt",
+        "halogat",
+        "késlekedik",
+        "késleltet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) くりのべる"
+      ]
+    }
+  ]
+}

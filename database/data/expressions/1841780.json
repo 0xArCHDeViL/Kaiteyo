@@ -1,0 +1,47 @@
+{
+  "id": "1841780",
+  "readings": [
+    {
+      "kanaExpression": "しらさぎ",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "はくろ"
+    },
+    {
+      "kanjiExpression": "白鷺",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "しら"
+        },
+        {
+          "text": "鷺",
+          "annotation": "さぎ"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heron with all-white plumage (incl. egrets)",
+        "white heron"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Silberreiher"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "белая цапля"
+      ]
+    }
+  ]
+}

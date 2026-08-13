@@ -1,0 +1,90 @@
+{
+  "id": "2839304",
+  "readings": [
+    {
+      "kanaExpression": "こがね",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "きがね",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "くがね"
+    },
+    {
+      "kanjiExpression": "黄金",
+      "furiganaExpression": [
+        {
+          "text": "黄",
+          "annotation": "こ"
+        },
+        {
+          "text": "金",
+          "annotation": "がね"
+        }
+      ],
+      "rank": 6289
+    },
+    {
+      "kanjiExpression": "金",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "こがね"
+        }
+      ],
+      "rank": 292
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gold",
+        "gold coin",
+        "gold colour (color)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "goud",
+        "goudstuk",
+        "gouden munt(stuk)",
+        "goudgeld",
+        "goudkleur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gold",
+        "Goldfarbe",
+        "goldener Glanz",
+        "Münzen",
+        "Geld",
+        "etw. Wertvolles"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "arany"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "золото",
+        "(ср.) おうごん"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oro"
+      ]
+    }
+  ]
+}

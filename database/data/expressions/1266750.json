@@ -1,0 +1,70 @@
+{
+  "id": "1266750",
+  "readings": [
+    {
+      "kanaExpression": "こゆうめいし",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "固有名詞",
+      "furiganaExpression": [
+        {
+          "text": "固",
+          "annotation": "こ"
+        },
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "名",
+          "annotation": "めい"
+        },
+        {
+          "text": "詞",
+          "annotation": "し"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "proper noun"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{taalk.} eigennaam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eigenname",
+        "Nomen proprium"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tulajdonnév"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nombre propio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "egennamn"
+      ]
+    }
+  ]
+}

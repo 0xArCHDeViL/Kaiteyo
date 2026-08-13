@@ -1,0 +1,43 @@
+{
+  "id": "1654120",
+  "readings": [
+    {
+      "kanaExpression": "しゃじ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "社寺",
+      "furiganaExpression": [
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "寺",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shrines and temples"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schreine und Tempel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "синтоистские и буддийские храмы"
+      ]
+    }
+  ]
+}

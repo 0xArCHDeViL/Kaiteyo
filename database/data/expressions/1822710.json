@@ -1,0 +1,58 @@
+{
+  "id": "1822710",
+  "readings": [
+    {
+      "kanaExpression": "ほんけん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "本件",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "件",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 3598
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "this matter",
+        "this case"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zaak in kwestie",
+        "waar het om gaat",
+        "deze zaak",
+        "dit",
+        "voorliggend",
+        "onderhavig geval"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dieses Ereignis",
+        "diese Angelegenheit",
+        "dieser Vorfall",
+        "diese Affäre"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "этот (данный) случай (вопрос), это дело (обстоятельство)"
+      ]
+    }
+  ]
+}

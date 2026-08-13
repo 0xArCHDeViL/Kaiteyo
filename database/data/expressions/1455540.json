@@ -1,0 +1,72 @@
+{
+  "id": "1455540",
+  "readings": [
+    {
+      "kanaExpression": "どくさつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "毒殺",
+      "furiganaExpression": [
+        {
+          "text": "毒",
+          "annotation": "どく"
+        },
+        {
+          "text": "殺",
+          "annotation": "さつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "poisoning",
+        "kill by poison"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gifmoord",
+        "vergiftigingsmoord",
+        "vergiftiging",
+        "vergeving",
+        "vergiftigen",
+        "vergeven",
+        "door gif doen sterven",
+        "vermoorden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "empoisonnement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Giftmord",
+        "Vergiftung",
+        "vergiften"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mérgezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отравление, умерщвление ядом",
+        "{～する} отравлять (кого-л.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1400460",
+  "readings": [
+    {
+      "kanaExpression": "すばこ",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "巣箱",
+      "furiganaExpression": [
+        {
+          "text": "巣",
+          "annotation": "す"
+        },
+        {
+          "text": "箱",
+          "annotation": "ばこ"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "birdhouse",
+        "nest box",
+        "bird box",
+        "beehive"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nestkastje",
+        "bijenkorf",
+        "bijenkast"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nistkasten",
+        "Vogelhäuschen",
+        "Bienenkorb"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kaptár",
+        "méhkas",
+        "méhraj",
+        "rajzó tömeg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ящик с гнёздами для кур (сооружение в птичнике); скворешня"
+      ]
+    }
+  ]
+}

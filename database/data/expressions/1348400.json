@@ -1,0 +1,81 @@
+{
+  "id": "1348400",
+  "readings": [
+    {
+      "kanaExpression": "こいし",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "小石",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "石",
+          "annotation": "いし"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "礫",
+      "furiganaExpression": [
+        {
+          "text": "礫",
+          "annotation": "こいし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pebble",
+        "small stone"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "galet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Koishi",
+        "kleiner Stein",
+        "Steinchen",
+        "Kieselstein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kavics"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "камешек",
+        "камешек; щебень; гравий"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "guijarro"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "liten sten"
+      ]
+    }
+  ]
+}

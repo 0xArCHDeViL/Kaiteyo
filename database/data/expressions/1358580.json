@@ -1,0 +1,57 @@
+{
+  "id": "1358580",
+  "readings": [
+    {
+      "kanaExpression": "しょくにく",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "食肉",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "肉",
+          "annotation": "にく"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "meat (for consumption)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vlees",
+        "vleesetend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fressen von Fleisch",
+        "Fleisch zum Verzehr"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hús"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carne (para el consumo)"
+      ]
+    }
+  ]
+}

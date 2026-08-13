@@ -1,0 +1,75 @@
+{
+  "id": "1258430",
+  "readings": [
+    {
+      "kanaExpression": "けんけつ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "献血",
+      "furiganaExpression": [
+        {
+          "text": "献",
+          "annotation": "けん"
+        },
+        {
+          "text": "血",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blood donation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bloeddonatie",
+        "bloedgift"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "don du sang"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blut spenden",
+        "Blutspende"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "véradás"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "darovanje krvi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "donación de sangre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "blodgivning"
+      ]
+    }
+  ]
+}

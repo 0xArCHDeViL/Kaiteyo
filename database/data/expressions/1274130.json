@@ -1,0 +1,53 @@
+{
+  "id": "1274130",
+  "readings": [
+    {
+      "kanaExpression": "こうせいしょうしょ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "公正証書",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "正",
+          "annotation": "せい"
+        },
+        {
+          "text": "証",
+          "annotation": "しょう"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "notarized document",
+        "notarised document"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "notarielle Urkunde"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нотариально заверенный документ",
+        "{…を～にする} заверять (что-л.) нотариально"
+      ]
+    }
+  ]
+}

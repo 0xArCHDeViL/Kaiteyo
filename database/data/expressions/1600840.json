@@ -1,0 +1,81 @@
+{
+  "id": "1600840",
+  "readings": [
+    {
+      "kanaExpression": "はっぷん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "発奮",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はっ"
+        },
+        {
+          "text": "奮",
+          "annotation": "ぷん"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "発憤",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はっ"
+        },
+        {
+          "text": "憤",
+          "annotation": "ぷん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "being roused",
+        "being stimulated",
+        "being inspired",
+        "being spurred on"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "inspiration",
+        "revivifié",
+        "stimulation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich aufraffen",
+        "sich aufschwingen",
+        "sich ermutigen",
+        "angeregt werden zu",
+        "Aufraffen",
+        "Aufschwingen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "költői",
+        "művészi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": ～する",
+        "1) быть побуждаемым (подгоняемым)",
+        "2) возмущаться, негодовать"
+      ]
+    }
+  ]
+}

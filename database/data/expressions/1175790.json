@@ -1,0 +1,53 @@
+{
+  "id": "1175790",
+  "readings": [
+    {
+      "kanaExpression": "えんだて",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "円建て",
+      "furiganaExpression": [
+        {
+          "text": "円",
+          "annotation": "えん"
+        },
+        {
+          "text": "建",
+          "annotation": "だ"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yen basis (for trade, exchange, etc.)",
+        "yen-denominated",
+        "yen-based"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{hand.} op yen-basis",
+        "uitgedrukt in yen",
+        "{hand.} yen-basis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auf Yen-Basis",
+        "Yen-denominiert",
+        "Yenbasis",
+        "Yen-Basierung (bei internationalen Transaktionen)"
+      ]
+    }
+  ]
+}

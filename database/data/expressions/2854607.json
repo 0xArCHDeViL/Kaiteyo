@@ -1,0 +1,48 @@
+{
+  "id": "2854607",
+  "readings": [
+    {
+      "kanaExpression": "ろじ"
+    },
+    {
+      "kanjiExpression": "露地",
+      "furiganaExpression": [
+        {
+          "text": "露",
+          "annotation": "ろ"
+        },
+        {
+          "text": "地",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bare earth (i.e. ground not covered by a roof)",
+        "open field",
+        "outdoors (non-greenhouse cultivation of crops)",
+        "teahouse garden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "draußen",
+        "bloße Erde",
+        "Teegarten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) открытый грунт",
+        "2) садик для чайной церемонии"
+      ]
+    }
+  ]
+}

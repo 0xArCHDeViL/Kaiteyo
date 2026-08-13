@@ -1,0 +1,51 @@
+{
+  "id": "1339300",
+  "readings": [
+    {
+      "kanaExpression": "でば",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "出刃",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "刃",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "knife",
+        "pointed carver"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Küchenmesser",
+        "Hackmesser"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "секач, широкий кухонный нож"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "1207060",
+  "readings": [
+    {
+      "kanaExpression": "がくひ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "学費",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "費",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 12357
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tuition",
+        "school expenses"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schoolgeld",
+        "leergeld"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "droit d\u0027inscription",
+        "frais d\u0027étude"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schulgebühren",
+        "Studiengebühren",
+        "Studienkosten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "oktatás",
+        "tanítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "расходы (средства) на обучение"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "šolnina",
+        "šolski stroški"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gastos escolares"
+      ]
+    }
+  ]
+}

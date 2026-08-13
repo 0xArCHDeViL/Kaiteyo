@@ -1,0 +1,89 @@
+{
+  "id": "1326560",
+  "readings": [
+    {
+      "kanaExpression": "とりちがえる",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "取り違える",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "違",
+          "annotation": "ちが"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "取違える",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "違",
+          "annotation": "ちが"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to mistake one thing for another",
+        "to mix up two things",
+        "to confuse two things",
+        "to take by mistake",
+        "to misunderstand",
+        "to misapprehend"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bij vergissing nemen",
+        "de",
+        "het verkeerde ~ nemen",
+        "verkeerd kiezen",
+        "{Belg.N.",
+        "spreekt.} zich mispakken",
+        "verwarren met",
+        "ten onrechte",
+        "verkeerdelijk aanzien voor",
+        "{言葉を} verkeerd begrijpen",
+        "verkeerd interpreteren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verwechseln",
+        "vertauschen",
+        "missverstehen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) принимать (кого-л.) за [другого]; перепутать (вещи)",
+        "2) неправильно (превратно) понимать (смысл и т. п.)"
+      ]
+    }
+  ]
+}

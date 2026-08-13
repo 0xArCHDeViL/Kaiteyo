@@ -1,0 +1,118 @@
+{
+  "id": "1788620",
+  "readings": [
+    {
+      "kanaExpression": "おきざり",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "置き去り",
+      "furiganaExpression": [
+        {
+          "text": "置",
+          "annotation": "お"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "去",
+          "annotation": "ざ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "置去り",
+      "furiganaExpression": [
+        {
+          "text": "置",
+          "annotation": "おき"
+        },
+        {
+          "text": "去",
+          "annotation": "ざ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "置きざり",
+      "furiganaExpression": [
+        {
+          "text": "置",
+          "annotation": "お"
+        },
+        {
+          "text": "きざり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "おき去り",
+      "furiganaExpression": [
+        {
+          "text": "おき"
+        },
+        {
+          "text": "去",
+          "annotation": "ざ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "leaving behind",
+        "desertion",
+        "abandonment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "achterlating",
+        "verlating",
+        "indesteeklating"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verlassen",
+        "Im-Stich-Lassen",
+        "Aussetzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dezertálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) おいてきぼり"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abandono",
+        "desasistencia",
+        "abandono de familia"
+      ]
+    }
+  ]
+}

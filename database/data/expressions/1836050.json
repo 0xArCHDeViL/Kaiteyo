@@ -1,0 +1,53 @@
+{
+  "id": "1836050",
+  "readings": [
+    {
+      "kanaExpression": "きゅうかん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "休館",
+      "furiganaExpression": [
+        {
+          "text": "休",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "館",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "closure (of a library, museum, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sluiting van een gebouw",
+        "hal",
+        "zaal",
+        "centrum",
+        "museum",
+        "bibliotheek",
+        "{opschrift} gesloten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schließen",
+        "nicht öffnen",
+        "Schließung",
+        "Ferien",
+        "Feiertag (eines Kinos, einer Kunstgalerie, einer Bibliothek o.Ä.)"
+      ]
+    }
+  ]
+}

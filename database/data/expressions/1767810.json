@@ -1,0 +1,62 @@
+{
+  "id": "1767810",
+  "readings": [
+    {
+      "kanaExpression": "しじん",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "しにん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "私人",
+      "furiganaExpression": [
+        {
+          "text": "私",
+          "annotation": "し"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "private individual"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Privatperson",
+        "Privatmann"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "magánszemély"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) частное лицо",
+        "{～の} частный, индивидуальный, личный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "particular",
+        "individuo"
+      ]
+    }
+  ]
+}

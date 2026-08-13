@@ -1,0 +1,102 @@
+{
+  "id": "1180130",
+  "readings": [
+    {
+      "kanaExpression": "おし",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "押し",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 7240
+    },
+    {
+      "kanjiExpression": "圧し",
+      "furiganaExpression": [
+        {
+          "text": "圧",
+          "annotation": "お"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "push",
+        "pushing",
+        "weight",
+        "pressure",
+        "authority",
+        "forcefulness",
+        "boldness",
+        "audacity",
+        "persistence",
+        "to forcibly ...",
+        "to strongly ..."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "duw",
+        "gewicht",
+        "druk",
+        "macht",
+        "invloed",
+        "doordrijverij",
+        "brutaliteit",
+        "lef",
+        "drammerigheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stoß",
+        "Aufdringlichkeit",
+        "Aggressivität",
+        "Einfluss",
+        "Würde",
+        "Gewicht",
+        "Druck"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "energia",
+        "protekció",
+        "tolás",
+        "nyomás",
+        "felhatalmazás",
+        "imponáló fellépés",
+        "fennhatóság",
+        "meghatalmazás",
+        "szakértő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) тяжесть, груз",
+        "{～をする} придавить, положить груз (на что-л.)",
+        "2) (перен.) вес, влияние, авторитет; апломб",
+        "3) (тех.) напор",
+        "4) (ком.) падение, понижение (курса)"
+      ]
+    }
+  ]
+}

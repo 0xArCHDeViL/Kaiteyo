@@ -1,0 +1,62 @@
+{
+  "id": "1265850",
+  "readings": [
+    {
+      "kanaExpression": "ふるぎ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "古着",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "ふる"
+        },
+        {
+          "text": "着",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "old clothes",
+        "secondhand clothing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oude kleren",
+        "gedragen kleding",
+        "afgedankt kledingstuk",
+        "tweedehands kleding",
+        "versleten kleren",
+        "afdankertje",
+        "afdragertje",
+        "afleggertje",
+        "krijgertje",
+        "{iron.} erfstuk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Altkleider",
+        "Gebrauchtkleider",
+        "abgetragene Kleidung",
+        "alte Sachen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поношенное платье, старые вещи"
+      ]
+    }
+  ]
+}

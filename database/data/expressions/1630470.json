@@ -1,0 +1,80 @@
+{
+  "id": "1630470",
+  "readings": [
+    {
+      "kanaExpression": "きみがよ",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "君が代",
+      "furiganaExpression": [
+        {
+          "text": "君",
+          "annotation": "きみ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "代",
+          "annotation": "よ"
+        }
+      ],
+      "rank": 10001
+    },
+    {
+      "kanjiExpression": "君が世",
+      "furiganaExpression": [
+        {
+          "text": "君",
+          "annotation": "きみ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "世",
+          "annotation": "よ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Imperial reign",
+        "Kimigayo (Japanese national anthem)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Kimigayo {\u003d het Japanse volkslied}",
+        "keizersbewind",
+        "uw levensduur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kimigayo",
+        "japanische Nationalhymne (seit 1999 gegen den heftigen Widerstand der Opposition gesetzlich eingesetzt)",
+        "die kaiserliche Regentschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "государственный гимн Японии (по первым словам гимна)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reino imperial",
+        "título del himno nacional japonés"
+      ]
+    }
+  ]
+}

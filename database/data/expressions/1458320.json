@@ -1,0 +1,39 @@
+{
+  "id": "1458320",
+  "readings": [
+    {
+      "kanaExpression": "ないじ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "内耳",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "耳",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inner ear"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Innenohr",
+        "Labybrinth",
+        "Auris interna"
+      ]
+    }
+  ]
+}

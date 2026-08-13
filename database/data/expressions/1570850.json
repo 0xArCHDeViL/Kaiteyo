@@ -1,0 +1,90 @@
+{
+  "id": "1570850",
+  "readings": [
+    {
+      "kanaExpression": "すね",
+      "rank": 3793
+    },
+    {
+      "kanaExpression": "はぎ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "脛",
+      "furiganaExpression": [
+        {
+          "text": "脛",
+          "annotation": "すね"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "臑",
+      "furiganaExpression": [
+        {
+          "text": "臑",
+          "annotation": "すね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shin",
+        "shank",
+        "lower leg"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} scheen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jambe",
+        "tibia"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterschenkel",
+        "Schienbein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hazardőr",
+        "láb",
+        "lábazat",
+        "lábszár",
+        "mancs",
+        "mellékvonal",
+        "sípcsont"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "голень; нога",
+        "нога, голень"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tibia",
+        "espinilla",
+        "canilla",
+        "parte de la pierna que abarca desde la rodilla al tobillo"
+      ]
+    }
+  ]
+}

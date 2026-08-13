@@ -1,0 +1,68 @@
+{
+  "id": "1576410",
+  "readings": [
+    {
+      "kanaExpression": "みぎはし",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "うたん"
+    },
+    {
+      "kanjiExpression": "右端",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "みぎ"
+        },
+        {
+          "text": "端",
+          "annotation": "はし"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "右はし",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "みぎ"
+        },
+        {
+          "text": "はし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "right end",
+        "right edge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rechtereinde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ganz rechts",
+        "rechts außen",
+        "am rechten Rand",
+        "rechtes Ende"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jobbszélső"
+      ]
+    }
+  ]
+}

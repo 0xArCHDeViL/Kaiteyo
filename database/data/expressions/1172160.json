@@ -1,0 +1,106 @@
+{
+  "id": "1172160",
+  "readings": [
+    {
+      "kanaExpression": "あまもり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "雨漏り",
+      "furiganaExpression": [
+        {
+          "text": "雨",
+          "annotation": "あま"
+        },
+        {
+          "text": "漏",
+          "annotation": "も"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "雨もり",
+      "furiganaExpression": [
+        {
+          "text": "雨",
+          "annotation": "あま"
+        },
+        {
+          "text": "もり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "雨漏",
+      "furiganaExpression": [
+        {
+          "text": "雨",
+          "annotation": "あま"
+        },
+        {
+          "text": "漏",
+          "annotation": "もり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "roof leak"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lekkage aan het dak",
+        "plafond",
+        "lek van het dak",
+        "verweringssporen op een ceremoniële theekom"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fuite (dans un toit)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Durchregnen durchs Dach",
+        "durchs Dach sickerndes Wasser",
+        "Flecken auf bestimmten Teetassen durch langjährigen Gebrauch (aufgrund von Durchsickern entstanden)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tetőszerkezet beázása"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "течь [в крыше]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "puščanje strehe"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gotera"
+      ]
+    }
+  ]
+}

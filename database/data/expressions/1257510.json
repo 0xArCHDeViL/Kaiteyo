@@ -1,0 +1,88 @@
+{
+  "id": "1257510",
+  "readings": [
+    {
+      "kanaExpression": "けんちくか",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "建築家",
+      "furiganaExpression": [
+        {
+          "text": "建",
+          "annotation": "けん"
+        },
+        {
+          "text": "築",
+          "annotation": "ちく"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "architect"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "architect",
+        "bouwmeester",
+        "bouwkundige"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "architecte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Architekt",
+        "Baumeister",
+        "Bauunternehmer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "építész",
+        "építészmérnök"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "архитектор"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "arhitekt"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arquitecto"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "arkitekt"
+      ]
+    }
+  ]
+}

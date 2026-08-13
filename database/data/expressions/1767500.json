@@ -1,0 +1,78 @@
+{
+  "id": "1767500",
+  "readings": [
+    {
+      "kanaExpression": "しぼつ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "死没",
+      "furiganaExpression": [
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "没",
+          "annotation": "ぼつ"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "死歿",
+      "furiganaExpression": [
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "歿",
+          "annotation": "ぼつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "death"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sterben",
+        "umkommen",
+        "Tod",
+        "Sterben",
+        "Umkommen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halál"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. см.) しぼう【死亡】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "muerte"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "död"
+      ]
+    }
+  ]
+}

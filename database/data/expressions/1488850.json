@@ -1,0 +1,51 @@
+{
+  "id": "1488850",
+  "readings": [
+    {
+      "kanaExpression": "ひ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "氷",
+      "furiganaExpression": [
+        {
+          "text": "氷",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 4869
+    },
+    {
+      "kanjiExpression": "冰",
+      "furiganaExpression": [
+        {
+          "text": "冰",
+          "annotation": "ひ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ice",
+        "hail"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "glace",
+        "grêle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jégeső",
+        "köszöntés"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "1529370",
+  "readings": [
+    {
+      "kanaExpression": "ねむり",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "ねぶり"
+    },
+    {
+      "kanjiExpression": "眠り",
+      "furiganaExpression": [
+        {
+          "text": "眠",
+          "annotation": "ねむ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 10181
+    },
+    {
+      "kanjiExpression": "睡り",
+      "furiganaExpression": [
+        {
+          "text": "睡",
+          "annotation": "ねむ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "睡",
+      "furiganaExpression": [
+        {
+          "text": "睡",
+          "annotation": "ねむり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sleep",
+        "sleeping",
+        "inactivity",
+        "death"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slaap",
+        "rust"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sommeil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlaf",
+        "Schlummer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alvás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сон"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sueño"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sömn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "1752040",
+  "readings": [
+    {
+      "kanaExpression": "ひょうでん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "評伝",
+      "furiganaExpression": [
+        {
+          "text": "評",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "伝",
+          "annotation": "でん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "critical biography"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kritische Biographie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "критическая биография"
+      ]
+    }
+  ]
+}

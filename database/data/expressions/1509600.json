@@ -1,0 +1,39 @@
+{
+  "id": "1509600",
+  "readings": [
+    {
+      "kanaExpression": "べっかん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "別巻",
+      "furiganaExpression": [
+        {
+          "text": "別",
+          "annotation": "べっ"
+        },
+        {
+          "text": "巻",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "separate volume",
+        "extra issue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sonderband",
+        "Zusatzband (einer Buchreihe)"
+      ]
+    }
+  ]
+}

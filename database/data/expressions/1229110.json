@@ -1,0 +1,69 @@
+{
+  "id": "1229110",
+  "readings": [
+    {
+      "kanaExpression": "きゅうきゅうばこ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "救急箱",
+      "furiganaExpression": [
+        {
+          "text": "救",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "急",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "箱",
+          "annotation": "ばこ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first-aid kit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erste-Hilfe-Kasten",
+        "Verbandskasten",
+        "Hausapotheke"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elsősegély-doboz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "аптечка [скорой помощи]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "botiquín",
+        "botiquín de primeros auxilios"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "förbandslåda",
+        "reseapotek"
+      ]
+    }
+  ]
+}

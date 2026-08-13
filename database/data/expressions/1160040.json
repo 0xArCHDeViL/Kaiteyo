@@ -1,0 +1,60 @@
+{
+  "id": "1160040",
+  "readings": [
+    {
+      "kanaExpression": "いちょう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "医長",
+      "furiganaExpression": [
+        {
+          "text": "医",
+          "annotation": "い"
+        },
+        {
+          "text": "長",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "medical director",
+        "chief physician"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} chef de clinique",
+        "hoofdarts",
+        "diensthoofd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Oberarzt",
+        "Chefarzt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "главный врач, главврач"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "director médico",
+        "jefe médico"
+      ]
+    }
+  ]
+}

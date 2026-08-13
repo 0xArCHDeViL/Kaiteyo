@@ -1,0 +1,45 @@
+{
+  "id": "1662330",
+  "readings": [
+    {
+      "kanaExpression": "ようすい",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "羊水",
+      "furiganaExpression": [
+        {
+          "text": "羊",
+          "annotation": "よう"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "amniotic fluid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fruchtwasser",
+        "Amnionflüssigkeit",
+        "Liquor amnii"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fostervatten"
+      ]
+    }
+  ]
+}

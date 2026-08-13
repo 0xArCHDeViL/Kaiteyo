@@ -1,0 +1,111 @@
+{
+  "id": "1422720",
+  "readings": [
+    {
+      "kanaExpression": "ちゃいろ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "茶色",
+      "furiganaExpression": [
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ],
+      "rank": 10622
+    },
+    {
+      "kanjiExpression": "ちゃ色",
+      "furiganaExpression": [
+        {
+          "text": "ちゃ"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "茶いろ",
+      "furiganaExpression": [
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        },
+        {
+          "text": "いろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brown",
+        "light brown",
+        "tawny"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "theekleur",
+        "bruine kleur",
+        "bruin {\u003d de kleur █}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "marron clair",
+        "fauve"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Braun",
+        "helles Braun",
+        "braun"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "homokszínű",
+        "sárgásbarna"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "светло-коричневый цвет"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "rjava barva"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "café (castaño, marrón) claro"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ljusbrun"
+      ]
+    }
+  ]
+}

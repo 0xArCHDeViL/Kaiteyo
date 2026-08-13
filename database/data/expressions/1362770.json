@@ -1,0 +1,52 @@
+{
+  "id": "1362770",
+  "readings": [
+    {
+      "kanaExpression": "しんそう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "深層",
+      "furiganaExpression": [
+        {
+          "text": "深",
+          "annotation": "しん"
+        },
+        {
+          "text": "層",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 13272
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depths",
+        "deep level"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tiefe",
+        "tiefe Schichten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feneketlen mélység",
+        "feneketlen örvény",
+        "feneketlen szakadék",
+        "határtalan nagysága vminek",
+        "mély régiói vminek",
+        "rejtett régiói vminek",
+        "titokzatos mivolta vminek",
+        "titokzatos volta vminek"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "1175000",
+  "readings": [
+    {
+      "kanaExpression": "えきしょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "液晶",
+      "furiganaExpression": [
+        {
+          "text": "液",
+          "annotation": "えき"
+        },
+        {
+          "text": "晶",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 4932
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "liquid crystal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} vloeibaar kristal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flüssigkristall",
+        "flüssige Kristalle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "folyadékkristály"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жидкий кристалл"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cristal líquido"
+      ]
+    }
+  ]
+}

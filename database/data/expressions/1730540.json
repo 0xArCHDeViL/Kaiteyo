@@ -1,0 +1,45 @@
+{
+  "id": "1730540",
+  "readings": [
+    {
+      "kanaExpression": "にちろく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "日録",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "録",
+          "annotation": "ろく"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "journal",
+        "daily record"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tagesbericht",
+        "Tagebuch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "журнал, дневник"
+      ]
+    }
+  ]
+}

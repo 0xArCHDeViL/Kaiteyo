@@ -1,0 +1,105 @@
+{
+  "id": "1224350",
+  "readings": [
+    {
+      "kanaExpression": "いつわり",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "偽り",
+      "furiganaExpression": [
+        {
+          "text": "偽",
+          "annotation": "いつわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "詐り",
+      "furiganaExpression": [
+        {
+          "text": "詐",
+          "annotation": "いつわ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lie",
+        "falsehood",
+        "fiction",
+        "fabrication"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onwaar",
+        "leugenachtig",
+        "vals",
+        "onecht",
+        "aangenomen",
+        "voorgewend",
+        "gefingeerd",
+        "fictief",
+        "geveinsd",
+        "bedrieglijk",
+        "onwaarheid",
+        "leugen",
+        "leugenachtigheid",
+        "valsheid",
+        "onechtheid",
+        "bedrieglijkheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "falsch",
+        "unwahr",
+        "vorgeblich",
+        "lügenhaft",
+        "fiktiv",
+        "Lüge",
+        "Unwahrheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hazugság",
+        "képzelgés",
+        "kitalálás",
+        "koholmány",
+        "valótlanság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ложь, обман",
+        "{～の} ложный, фальшивый",
+        "{～のない} честный, безобманный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mentira",
+        "falsedad",
+        "embuste",
+        "engaño"
+      ]
+    }
+  ]
+}

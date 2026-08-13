@@ -1,0 +1,43 @@
+{
+  "id": "1358520",
+  "readings": [
+    {
+      "kanaExpression": "しょくぜん",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "食前",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "before meals"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vor dem Essen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "до еды, перед едой"
+      ]
+    }
+  ]
+}

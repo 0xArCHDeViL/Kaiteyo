@@ -1,0 +1,66 @@
+{
+  "id": "1798950",
+  "readings": [
+    {
+      "kanaExpression": "しょとうきょういく",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "初等教育",
+      "furiganaExpression": [
+        {
+          "text": "初",
+          "annotation": "しょ"
+        },
+        {
+          "text": "等",
+          "annotation": "とう"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "育",
+          "annotation": "いく"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "elementary education"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "basisonderwijs",
+        "lager onderwijs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Elementarbildung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "начальное (низшее) образование"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "educación primaria",
+        "enseñanza básica",
+        "enseñanza elemental"
+      ]
+    }
+  ]
+}

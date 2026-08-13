@@ -1,0 +1,50 @@
+{
+  "id": "1777360",
+  "readings": [
+    {
+      "kanaExpression": "ていちあみ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "定置網",
+      "furiganaExpression": [
+        {
+          "text": "定",
+          "annotation": "てい"
+        },
+        {
+          "text": "置",
+          "annotation": "ち"
+        },
+        {
+          "text": "網",
+          "annotation": "あみ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fixed shore net",
+        "fixed shore trap",
+        "stationary trap",
+        "stationary net"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{viss.} stelnet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "festes Netz"
+      ]
+    }
+  ]
+}

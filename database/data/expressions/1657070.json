@@ -1,0 +1,52 @@
+{
+  "id": "1657070",
+  "readings": [
+    {
+      "kanaExpression": "すいあつ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "水圧",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "圧",
+          "annotation": "あつ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water (hydraulic) pressure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waterdruk",
+        "hydraulische druk",
+        "drukking van het water"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserdruck",
+        "hydraulischer Druck"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "давление воды"
+      ]
+    }
+  ]
+}

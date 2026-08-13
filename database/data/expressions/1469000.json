@@ -1,0 +1,121 @@
+{
+  "id": "1469000",
+  "readings": [
+    {
+      "kanaExpression": "ねんじゅう",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "ねんちゅう"
+    },
+    {
+      "kanaExpression": "ねんぢゅう"
+    },
+    {
+      "kanjiExpression": "年中",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "中",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 10206
+    },
+    {
+      "kanjiExpression": "年じゅう",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "じゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "whole year",
+        "all year round",
+        "throughout the year",
+        "always",
+        "all the time",
+        "perpetually",
+        "during an era",
+        "middle class (of a nursery school, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het hele jaar door",
+        "het gehele jaar door",
+        "het hele jaar rond",
+        "gedurende het hele jaar",
+        "altijd",
+        "aldoor",
+        "steeds",
+        "de hele tijd",
+        "eindeloos",
+        "altijddurend",
+        "voortdurend",
+        "permanent"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "année entière",
+        "toute l\u0027année",
+        "tout au long de l\u0027année",
+        "toujours",
+        "tout le temps",
+        "moyenne section (d\u0027une école maternelle, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jahraus",
+        "jahrein",
+        "das ganze Jahr hindurch",
+        "immer",
+        "Midis",
+        "Vierjährigen (im Kindergarten usw.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hétköznapi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "весь (круглый) год; (перен.) всегда, постоянно"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "celo leto",
+        "vedno",
+        "vsak dan"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "durante todo el año"
+      ]
+    }
+  ]
+}

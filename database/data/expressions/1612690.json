@@ -1,0 +1,100 @@
+{
+  "id": "1612690",
+  "readings": [
+    {
+      "kanaExpression": "ございます",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御座います",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "ご"
+        },
+        {
+          "text": "座",
+          "annotation": "ざ"
+        },
+        {
+          "text": "います"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ご座います",
+      "furiganaExpression": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "座",
+          "annotation": "ざ"
+        },
+        {
+          "text": "います"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be",
+        "to exist"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{werkwoordelijke hoffelijkheidsvariant van aru} zijn",
+        "zich bevinden",
+        "hebben",
+        "{hulpwerkwoordelijke hoffelijkheidsvariant van aru}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "être",
+        "exister"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "es gibt",
+        "sein",
+        "haben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jön vhova",
+        "létezik",
+        "van"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "быть",
+        "находиться",
+        "существовать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ser",
+        "estar",
+        "existir",
+        "haber",
+        "copula cortes"
+      ]
+    }
+  ]
+}

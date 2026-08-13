@@ -1,0 +1,61 @@
+{
+  "id": "1215490",
+  "readings": [
+    {
+      "kanaExpression": "まどり",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "間取り",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "ま"
+        },
+        {
+          "text": "取",
+          "annotation": "ど"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 11732
+    },
+    {
+      "kanjiExpression": "間取",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "ま"
+        },
+        {
+          "text": "取",
+          "annotation": "どり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "layout (of a house or apartment)",
+        "arrangement of rooms"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anordnung der Zimmer",
+        "Schnitt eines Hauses od. einer Wohnung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "расположение комнат [в доме]; планировка дома"
+      ]
+    }
+  ]
+}

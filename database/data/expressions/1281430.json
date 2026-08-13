@@ -1,0 +1,55 @@
+{
+  "id": "1281430",
+  "readings": [
+    {
+      "kanaExpression": "こうほう",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "航法",
+      "furiganaExpression": [
+        {
+          "text": "航",
+          "annotation": "こう"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sailing",
+        "navigation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "navigatie",
+        "stuurmanskunst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Navigation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elindulás",
+        "hajózás",
+        "indulás",
+        "vitorlás",
+        "vitorlázás"
+      ]
+    }
+  ]
+}

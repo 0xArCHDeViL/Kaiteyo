@@ -1,0 +1,52 @@
+{
+  "id": "1683000",
+  "readings": [
+    {
+      "kanaExpression": "かんじいる",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "感じ入る",
+      "furiganaExpression": [
+        {
+          "text": "感",
+          "annotation": "かん"
+        },
+        {
+          "text": "じ"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be deeply impressed (by)",
+        "to be moved (by)",
+        "to admire greatly"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tief gerührt sein",
+        "tief beeindruckt sein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "быть под сильным впечатлением, быть в восхищении"
+      ]
+    }
+  ]
+}

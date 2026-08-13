@@ -1,0 +1,75 @@
+{
+  "id": "1781660",
+  "readings": [
+    {
+      "kanaExpression": "つれこみやど",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "連れ込み宿",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "つ"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "宿",
+          "annotation": "やど"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "連込み宿",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "つれ"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "宿",
+          "annotation": "やど"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hotel catering for lovers",
+        "hotel that rents rooms by the hour"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Love-Hotel",
+        "Hotel speziell für Paare"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) гостиница, служащая приютом на ночь для влюблённых или для проституток с их клиентами"
+      ]
+    }
+  ]
+}

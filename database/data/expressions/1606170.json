@@ -1,0 +1,86 @@
+{
+  "id": "1606170",
+  "readings": [
+    {
+      "kanaExpression": "よわよわしい",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "弱々しい",
+      "furiganaExpression": [
+        {
+          "text": "弱",
+          "annotation": "よわ"
+        },
+        {
+          "text": "々",
+          "annotation": "よわ"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "弱弱しい",
+      "furiganaExpression": [
+        {
+          "text": "弱",
+          "annotation": "よわ"
+        },
+        {
+          "text": "弱",
+          "annotation": "よわ"
+        },
+        {
+          "text": "しい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weak",
+        "weakly",
+        "feeble",
+        "frail",
+        "delicate",
+        "faint (voice, sunlight, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwach",
+        "schwächlich",
+        "weichlich",
+        "kraftlos",
+        "energielos"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyarló",
+        "középszerű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слабенький, тщедушный, хилый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "frágil",
+        "débil",
+        "femenino"
+      ]
+    }
+  ]
+}

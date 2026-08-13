@@ -1,0 +1,51 @@
+{
+  "id": "1518270",
+  "readings": [
+    {
+      "kanaExpression": "ほうやく",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "邦訳",
+      "furiganaExpression": [
+        {
+          "text": "邦",
+          "annotation": "ほう"
+        },
+        {
+          "text": "訳",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 14981
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "translation into Japanese"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het vertalen in het Japans",
+        "Japanse vertaling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Übersetzung ins Japanische"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) перевод на родной (японский) язык",
+        "2) переводчик на японский язык"
+      ]
+    }
+  ]
+}

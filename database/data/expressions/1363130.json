@@ -1,0 +1,97 @@
+{
+  "id": "1363130",
+  "readings": [
+    {
+      "kanaExpression": "しんせい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "申請",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "しん"
+        },
+        {
+          "text": "請",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 2133
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "application",
+        "request",
+        "petition"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aanvragen",
+        "een aanvraag",
+        "verzoek doen",
+        "{jur.} voorstellen",
+        "aanvraag",
+        "verzoek",
+        "{jur.} voorstel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "demande",
+        "pétition",
+        "requête"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ansuchen",
+        "bitten",
+        "beantragen",
+        "Gesuch",
+        "Bitte",
+        "Antrag",
+        "Ansuchen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jelentkezés",
+        "kérelem",
+        "kérvény",
+        "kérés",
+        "ima"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прошение, ходатайство; (юр.) запрос в суд",
+        "{…を～する} подавать прошение; испрашивать (что-л.), ходатайствовать о (чём-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prošnja",
+        "peticija",
+        "prositi",
+        "zaprositi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "solicitud"
+      ]
+    }
+  ]
+}

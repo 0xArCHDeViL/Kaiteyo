@@ -1,0 +1,71 @@
+{
+  "id": "1260990",
+  "readings": [
+    {
+      "kanaExpression": "もとどおり",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "元通り",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "もと"
+        },
+        {
+          "text": "通",
+          "annotation": "どお"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "元どおり",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "もと"
+        },
+        {
+          "text": "どおり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "as before",
+        "as ever",
+        "as it was originally"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{～に} zoals voorheen",
+        "in de oorspronkelijke toestand",
+        "in statu quo ante"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vorhergehender Zustand",
+        "alte Ordnung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "по-старому, как прежде",
+        "{～になる} стать прежним; восстановиться",
+        "{～にして} как [было] прежде, в прежнем виде"
+      ]
+    }
+  ]
+}

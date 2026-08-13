@@ -1,0 +1,61 @@
+{
+  "id": "1172900",
+  "readings": [
+    {
+      "kanaExpression": "うんてんめんきょ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "運転免許",
+      "furiganaExpression": [
+        {
+          "text": "運",
+          "annotation": "うん"
+        },
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "免",
+          "annotation": "めん"
+        },
+        {
+          "text": "許",
+          "annotation": "きょ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "driver\u0027s license",
+        "driver\u0027s licence",
+        "driving licence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijbewijs",
+        "rijbevoegdheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fahrerlaubnis",
+        "Führerschein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jogosítvány"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1662950",
+  "readings": [
+    {
+      "kanaExpression": "きんざん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "金山",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "きん"
+        },
+        {
+          "text": "山",
+          "annotation": "ざん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gold mine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "goudmijn",
+        "goudgroeve",
+        "goudberg",
+        "Jīnshān"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Goldmine",
+        "Goldbergwerk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bánya",
+        "enyém"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "золотой рудник, прииск"
+      ]
+    }
+  ]
+}

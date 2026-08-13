@@ -1,0 +1,68 @@
+{
+  "id": "1501640",
+  "readings": [
+    {
+      "kanaExpression": "ふっしょく",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "ふっしき"
+    },
+    {
+      "kanjiExpression": "払拭",
+      "furiganaExpression": [
+        {
+          "text": "払",
+          "annotation": "ふっ"
+        },
+        {
+          "text": "拭",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 12586
+    },
+    {
+      "kanjiExpression": "払しょく",
+      "furiganaExpression": [
+        {
+          "text": "払",
+          "annotation": "ふっ"
+        },
+        {
+          "text": "しょく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wiping out",
+        "sweeping away",
+        "eradicating",
+        "dispelling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitwissing",
+        "wegruiming",
+        "uitvlakking",
+        "banning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausmerzen",
+        "Wegwischen",
+        "ausmerzen",
+        "weg wischen",
+        "ausradieren"
+      ]
+    }
+  ]
+}

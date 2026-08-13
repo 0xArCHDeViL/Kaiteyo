@@ -1,0 +1,61 @@
+{
+  "id": "1290840",
+  "readings": [
+    {
+      "kanaExpression": "さかん",
+      "rank": 17500
+    },
+    {
+      "kanaExpression": "しゃかん"
+    },
+    {
+      "kanjiExpression": "左官",
+      "furiganaExpression": [
+        {
+          "text": "左",
+          "annotation": "さ"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "plasterer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stukadoor",
+        "stucwerker",
+        "pleisteraar",
+        "pleisterwerker",
+        "raper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stuckateur",
+        "Stuckarbeiter",
+        "Gipsarbeiter",
+        "Putzer",
+        "Gipser"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) さかん【左官】",
+        "штукатур"
+      ]
+    }
+  ]
+}

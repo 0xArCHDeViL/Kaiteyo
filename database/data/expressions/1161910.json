@@ -1,0 +1,65 @@
+{
+  "id": "1161910",
+  "readings": [
+    {
+      "kanaExpression": "いっきょく",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "一局",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "局",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "１局",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いっ"
+        },
+        {
+          "text": "局",
+          "annotation": "きょく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one game (of go, shogi, etc.)",
+        "one board (go, shogi, etc.)",
+        "one office (of a broadcasting station, post office, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Spielbrett",
+        "eine Partie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[одна] партия (в го)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un juego (damas, etc.)"
+      ]
+    }
+  ]
+}

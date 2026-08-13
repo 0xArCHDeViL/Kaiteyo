@@ -1,0 +1,61 @@
+{
+  "id": "1608820",
+  "readings": [
+    {
+      "kanaExpression": "しょうとりほう",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "証取法",
+      "furiganaExpression": [
+        {
+          "text": "証",
+          "annotation": "しょう"
+        },
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "証取り法",
+      "furiganaExpression": [
+        {
+          "text": "証",
+          "annotation": "しょう"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Securities and Exchange Act"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wertpapierhandelsgesetz"
+      ]
+    }
+  ]
+}

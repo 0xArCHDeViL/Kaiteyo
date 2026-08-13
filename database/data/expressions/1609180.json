@@ -1,0 +1,107 @@
+{
+  "id": "1609180",
+  "readings": [
+    {
+      "kanaExpression": "いじめ",
+      "rank": 7068
+    },
+    {
+      "kanaExpression": "イジメ"
+    },
+    {
+      "kanjiExpression": "虐め",
+      "furiganaExpression": [
+        {
+          "text": "虐",
+          "annotation": "いじ"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "苛め",
+      "furiganaExpression": [
+        {
+          "text": "苛",
+          "annotation": "いじ"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bullying",
+        "teasing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pesterij",
+        "treiterij",
+        "kwellerij",
+        "gepest",
+        "getreiter",
+        "gesar",
+        "gekwel",
+        "terging",
+        "sarring",
+        "pijniging",
+        "mishandeling",
+        "mobbing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "brutal",
+        "railleur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mobbing",
+        "Schikanieren",
+        "Schikane",
+        "Quälen",
+        "Ijime"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erőszakos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～をする} (см.) いじめる"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "muka",
+        "bolečina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hostigamiento",
+        "acoso (físico, psicológico)"
+      ]
+    }
+  ]
+}

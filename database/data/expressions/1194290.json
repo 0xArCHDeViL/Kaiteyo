@@ -1,0 +1,77 @@
+{
+  "id": "1194290",
+  "readings": [
+    {
+      "kanaExpression": "かようび",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "火曜日",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "曜",
+          "annotation": "よう"
+        },
+        {
+          "text": "日",
+          "annotation": "び"
+        }
+      ],
+      "rank": 5078
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Tuesday"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dinsdag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mardi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dienstag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вторник"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "torek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Martes"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tisdag"
+      ]
+    }
+  ]
+}

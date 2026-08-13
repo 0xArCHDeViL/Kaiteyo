@@ -1,0 +1,82 @@
+{
+  "id": "1591010",
+  "readings": [
+    {
+      "kanaExpression": "がっしゅうこく",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "合衆国",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "がっ"
+        },
+        {
+          "text": "衆",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 8919
+    },
+    {
+      "kanjiExpression": "合州国",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "がっ"
+        },
+        {
+          "text": "州",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "federation",
+        "federal state",
+        "United States of America"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bondsstaat",
+        "federale staat",
+        "Verenigde Staten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Föderation",
+        "Vereinigten Staaten (von Amerika; Abk.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соединённые штаты"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Estados Unidos de América",
+        "estado federal"
+      ]
+    }
+  ]
+}

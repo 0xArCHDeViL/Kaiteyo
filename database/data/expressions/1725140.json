@@ -1,0 +1,41 @@
+{
+  "id": "1725140",
+  "readings": [
+    {
+      "kanaExpression": "びがん",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "美顔",
+      "furiganaExpression": [
+        {
+          "text": "美",
+          "annotation": "び"
+        },
+        {
+          "text": "顔",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beautiful face",
+        "facial care",
+        "facial treatment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schönes Gesicht",
+        "Gesichtsverschönerung",
+        "Gesichtspflege"
+      ]
+    }
+  ]
+}

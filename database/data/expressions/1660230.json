@@ -1,0 +1,61 @@
+{
+  "id": "1660230",
+  "readings": [
+    {
+      "kanaExpression": "しょうかき",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "消化器",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "digestive organ"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} spijsverteringsorgaan",
+        "spijsverteringsorganen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verdauungsapparat",
+        "Verdauungsorgane"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "орган[ы] пищеварения"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aparato digestivo"
+      ]
+    }
+  ]
+}

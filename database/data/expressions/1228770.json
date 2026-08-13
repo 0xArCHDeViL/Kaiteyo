@@ -1,0 +1,63 @@
+{
+  "id": "1228770",
+  "readings": [
+    {
+      "kanaExpression": "きゅうば",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "急場",
+      "furiganaExpression": [
+        {
+          "text": "急",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "emergency"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Notfall",
+        "Bedrängnis",
+        "Krise",
+        "kritische Lage",
+        "Notlage",
+        "höchste Not",
+        "Schwierigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szükségállapot",
+        "váratlan esemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "критический момент, критическое положение, кризис; крайность",
+        "{～の} а) срочный; б) нависший, угрожающий; в) приспособленный к случаю, временный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "emergencia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1625150",
+  "readings": [
+    {
+      "kanaExpression": "がいこうだん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "外交団",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "交",
+          "annotation": "こう"
+        },
+        {
+          "text": "団",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "diplomatic corps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Delegation",
+        "diplomatisches Korps",
+        "fremde Gesandte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "diplomáciai testület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дипломатический корпус"
+      ]
+    }
+  ]
+}

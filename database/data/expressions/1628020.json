@@ -1,0 +1,64 @@
+{
+  "id": "1628020",
+  "readings": [
+    {
+      "kanaExpression": "かいづか",
+      "rank": 31000
+    },
+    {
+      "kanaExpression": "かいずか"
+    },
+    {
+      "kanjiExpression": "貝塚",
+      "furiganaExpression": [
+        {
+          "text": "貝",
+          "annotation": "かい"
+        },
+        {
+          "text": "塚",
+          "annotation": "づか"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shell heap",
+        "shell mound",
+        "kitchen midden"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorhistorische afvalhoop van schelpen",
+        "{maatwoord voor voorhistorische afvalhopen}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "kitchen midden (archéologie:restes de foyer)",
+        "tas de coquilles"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kaizuka (Stadt im Südwesten der Präf. Ōsaka)",
+        "Kaizuka",
+        "Muschelhaufen (Anhäufung von Gräten und Muschelschalen aus der japanische Steinzeit)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(археол.) раковинная куча"
+      ]
+    }
+  ]
+}

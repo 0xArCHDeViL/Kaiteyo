@@ -1,0 +1,58 @@
+{
+  "id": "1177000",
+  "readings": [
+    {
+      "kanaExpression": "えんだい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "演題",
+      "furiganaExpression": [
+        {
+          "text": "演",
+          "annotation": "えん"
+        },
+        {
+          "text": "題",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subject of an address"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onderwerp",
+        "thema",
+        "titel van een lezing of rede"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Thema eines Vortrags",
+        "Thema einer Rede"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тема [речи (выступления (и т. п.))]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "titulo de un discurso (de una conferencia)"
+      ]
+    }
+  ]
+}

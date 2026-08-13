@@ -1,0 +1,67 @@
+{
+  "id": "1345800",
+  "readings": [
+    {
+      "kanaExpression": "じょや",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "除夜",
+      "furiganaExpression": [
+        {
+          "text": "除",
+          "annotation": "じょ"
+        },
+        {
+          "text": "夜",
+          "annotation": "や"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "New Year\u0027s Eve"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oudejaarsavond",
+        "oudejaarsnacht",
+        "oud en nieuw",
+        "silvesteravond",
+        "{Belg.N.} nieuwjaarsavond",
+        "{niet alg.} nieuwavond"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Silvesterabend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szilveszter",
+        "szilveszterest"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "канун Нового года"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nochevieja"
+      ]
+    }
+  ]
+}

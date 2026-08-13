@@ -1,0 +1,106 @@
+{
+  "id": "2830705",
+  "readings": [
+    {
+      "kanaExpression": "しんたい",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "しんだい",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "しんてい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "身体",
+      "furiganaExpression": [
+        {
+          "text": "身",
+          "annotation": "しん"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 1241
+    },
+    {
+      "kanjiExpression": "身體",
+      "furiganaExpression": [
+        {
+          "text": "身",
+          "annotation": "しん"
+        },
+        {
+          "text": "體",
+          "annotation": "たい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "body",
+        "physical system",
+        "(the) person"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lichaam",
+        "lijf",
+        "fysiek",
+        "gestel",
+        "body",
+        "donder",
+        "{volkst.} bast",
+        "{volkst.} flikker"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Körper",
+        "Leib"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alapanyag",
+        "erdőállomány",
+        "főrész",
+        "hangszerszekrény",
+        "holttest",
+        "kalaptető",
+        "karosszéria",
+        "kocsiszekrény",
+        "konzisztencia",
+        "összeállás",
+        "ruhaderék",
+        "tömöttség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тело (человека)",
+        "～の",
+        "а) физический",
+        "б) личный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "telo"
+      ]
+    }
+  ]
+}

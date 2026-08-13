@@ -1,0 +1,58 @@
+{
+  "id": "1239450",
+  "readings": [
+    {
+      "kanaExpression": "ぎょうしゅ",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "業種",
+      "furiganaExpression": [
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "種",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 5299
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "type of industry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bedrijfstak",
+        "nijverheidstak",
+        "branche",
+        "ondernemingsvorm",
+        "soort van werk",
+        "{maatwoord voor bedrijfstakken",
+        "branches}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschäftszweig",
+        "Industriezweig",
+        "Betriebsart",
+        "Branche"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вид предприятия (производства); отрасль промышленности"
+      ]
+    }
+  ]
+}

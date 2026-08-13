@@ -1,0 +1,65 @@
+{
+  "id": "2101420",
+  "readings": [
+    {
+      "kanaExpression": "かおをだす",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "顔を出す",
+      "furiganaExpression": [
+        {
+          "text": "顔",
+          "annotation": "かお"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "顔をだす",
+      "furiganaExpression": [
+        {
+          "text": "顔",
+          "annotation": "かお"
+        },
+        {
+          "text": "をだす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to turn up",
+        "to make an appearance",
+        "to put in an appearance",
+        "to drop by"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erscheinen",
+        "auftauchen",
+        "sich zeigen",
+        "anwesend sein",
+        "teilnehmen",
+        "sein Gesicht zeigen",
+        "jmdn. besuchen",
+        "vorbeikommen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1366350",
+  "readings": [
+    {
+      "kanaExpression": "しんげん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "震源",
+      "furiganaExpression": [
+        {
+          "text": "震",
+          "annotation": "しん"
+        },
+        {
+          "text": "源",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 18000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hypocentre (of an earthquake)",
+        "hypocenter",
+        "focus"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aardbevingshaard",
+        "hypocentrum",
+        "{fig.} haard"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épicentre (tremblement de terre)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Epizentrum",
+        "Erdbebenherd",
+        "Erdbebenzentrum",
+        "Hypozentrum",
+        "Ursprung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) しんげんち"
+      ]
+    }
+  ]
+}

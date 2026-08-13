@@ -1,0 +1,60 @@
+{
+  "id": "1426980",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうりゅう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "駐留",
+      "furiganaExpression": [
+        {
+          "text": "駐",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "留",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 10245
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stationing (e.g. of troops)",
+        "garrison"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gestationeerd zijn",
+        "stationering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stationiert sein",
+        "Stationierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyőrség",
+        "várőrség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дислоцирование, пребывание (войск где-л.)",
+        "{～する} стоять, быть расквартированным (о воинских частях)"
+      ]
+    }
+  ]
+}

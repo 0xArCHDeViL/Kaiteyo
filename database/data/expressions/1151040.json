@@ -1,0 +1,58 @@
+{
+  "id": "1151040",
+  "readings": [
+    {
+      "kanaExpression": "あいば",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "愛馬",
+      "furiganaExpression": [
+        {
+          "text": "愛",
+          "annotation": "あい"
+        },
+        {
+          "text": "馬",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "favourite horse",
+        "favorite horse"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "paardenliefhebberij",
+        "lievelingspaard"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lieblingspferd",
+        "Zuneigung zu einem Pferd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "любимый конь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "caballo favorito"
+      ]
+    }
+  ]
+}

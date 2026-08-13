@@ -1,0 +1,51 @@
+{
+  "id": "1746480",
+  "readings": [
+    {
+      "kanaExpression": "こくほう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "国法",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "national law"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijkswet",
+        "staatsrecht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Staatsrecht",
+        "Staatsgesetz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "государственные законы, законы страны"
+      ]
+    }
+  ]
+}

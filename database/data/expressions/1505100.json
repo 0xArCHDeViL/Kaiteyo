@@ -1,0 +1,72 @@
+{
+  "id": "1505100",
+  "readings": [
+    {
+      "kanaExpression": "ぶんあん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "文案",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "案",
+          "annotation": "あん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "draft (of a document)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entwurf eines Textes",
+        "Konzept",
+        "Skizze"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "behívás",
+        "intézvény",
+        "katonai összeírás",
+        "összeírás",
+        "piszkozat",
+        "sorozat",
+        "tervezet",
+        "tervrajz",
+        "huzat",
+        "korty"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "набросок, черновик"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "borrador (documento)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "utkast"
+      ]
+    }
+  ]
+}

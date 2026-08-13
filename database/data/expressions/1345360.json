@@ -1,0 +1,54 @@
+{
+  "id": "1345360",
+  "readings": [
+    {
+      "kanaExpression": "にょたい"
+    },
+    {
+      "kanaExpression": "じょたい",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "女体",
+      "furiganaExpression": [
+        {
+          "text": "女",
+          "annotation": "にょ"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "woman\u0027s body"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weiblicher Körper",
+        "Leib einer Frau"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) じょたい【女体】",
+        "женское тело"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuerpo de la mujer"
+      ]
+    }
+  ]
+}

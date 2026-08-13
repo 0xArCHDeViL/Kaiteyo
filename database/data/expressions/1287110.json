@@ -1,0 +1,68 @@
+{
+  "id": "1287110",
+  "readings": [
+    {
+      "kanaExpression": "こくみんとうひょう",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "国民投票",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "投",
+          "annotation": "とう"
+        },
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 16500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "national referendum"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{pol.} volksraadpleging",
+        "volksstemming",
+        "plebisciet",
+        "referendum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Volksabstimmung",
+        "Plebiszit",
+        "nationales Referendum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "всенародное голосование, плебисцит"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "referéndum nacional"
+      ]
+    }
+  ]
+}

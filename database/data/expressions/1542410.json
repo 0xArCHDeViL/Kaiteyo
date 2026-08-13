@@ -1,0 +1,61 @@
+{
+  "id": "1542410",
+  "readings": [
+    {
+      "kanaExpression": "ゆうびんかわせ",
+      "rank": 34000
+    },
+    {
+      "kanaExpression": "ゆうびんがわせ"
+    },
+    {
+      "kanjiExpression": "郵便為替",
+      "furiganaExpression": [
+        {
+          "text": "郵",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "便",
+          "annotation": "びん"
+        },
+        {
+          "text": "為替",
+          "annotation": "かわせ"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "postal money order"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "postwissel",
+        "postbewijs",
+        "postkwitantie",
+        "betaalopdracht",
+        "{Belg.N.} postmandaat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Postanweisung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ゆうびんがわせ",
+        "почтовый денежный перевод"
+      ]
+    }
+  ]
+}

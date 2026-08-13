@@ -1,0 +1,123 @@
+{
+  "id": "1589030",
+  "readings": [
+    {
+      "kanaExpression": "おくりもの",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "贈り物",
+      "furiganaExpression": [
+        {
+          "text": "贈",
+          "annotation": "おく"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 7717
+    },
+    {
+      "kanjiExpression": "贈りもの",
+      "furiganaExpression": [
+        {
+          "text": "贈",
+          "annotation": "おく"
+        },
+        {
+          "text": "りもの"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "贈物",
+      "furiganaExpression": [
+        {
+          "text": "贈",
+          "annotation": "おくり"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "present",
+        "gift"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geschenk",
+        "cadeau",
+        "presentje",
+        "gift",
+        "gave"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cadeau",
+        "présent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschenk",
+        "Gabe",
+        "Spende",
+        "Aufmerksamkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ajándék",
+        "adomány",
+        "fehér folt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подарок, подношение",
+        "{～をする} дарить, делать подарок",
+        "подарок"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "darilo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "regalo",
+        "obsequio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "present"
+      ]
+    }
+  ]
+}

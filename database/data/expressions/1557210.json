@@ -1,0 +1,84 @@
+{
+  "id": "1557210",
+  "readings": [
+    {
+      "kanaExpression": "れいとうこ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "冷凍庫",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "れい"
+        },
+        {
+          "text": "凍",
+          "annotation": "とう"
+        },
+        {
+          "text": "庫",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "freezer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vriezer",
+        "diepvries",
+        "diepvriezer",
+        "diepvrieskast",
+        "diepvrieskist",
+        "vrieskast",
+        "vrieskist",
+        "vriesvak",
+        "vriesruimte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tiefkühlschrank",
+        "Tiefkühlfach",
+        "Gefriertruhe",
+        "Kühltruhe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fagyasztó",
+        "mélyhűtő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) れいぞうこ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "congelador",
+        "heladera"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "frys"
+      ]
+    }
+  ]
+}

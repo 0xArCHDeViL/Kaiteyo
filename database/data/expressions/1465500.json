@@ -1,0 +1,69 @@
+{
+  "id": "1465500",
+  "readings": [
+    {
+      "kanaExpression": "いりくむ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "入り組む",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "組",
+          "annotation": "く"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to become complicated"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gecompliceerd",
+        "complex worden",
+        "ingewikkeld raken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verwickelt werden",
+        "sich verwickeln",
+        "kompliziert werden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "быть сложным (запутанным)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "complicarse",
+        "intrincarse",
+        "enmarañarse",
+        "liarse",
+        "enredarse"
+      ]
+    }
+  ]
+}

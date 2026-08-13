@@ -1,0 +1,42 @@
+{
+  "id": "1341030",
+  "readings": [
+    {
+      "kanaExpression": "はるいちばん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "春一番",
+      "furiganaExpression": [
+        {
+          "text": "春",
+          "annotation": "はる"
+        },
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first storm of spring",
+        "strong winds during the change from winter to spring"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erster Südsturm im Jahr"
+      ]
+    }
+  ]
+}

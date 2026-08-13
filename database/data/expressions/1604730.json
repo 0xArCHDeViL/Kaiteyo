@@ -1,0 +1,95 @@
+{
+  "id": "1604730",
+  "readings": [
+    {
+      "kanaExpression": "みょうじ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "苗字",
+      "furiganaExpression": [
+        {
+          "text": "苗",
+          "annotation": "みょう"
+        },
+        {
+          "text": "字",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "名字",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "みょう"
+        },
+        {
+          "text": "字",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "surname",
+        "family name",
+        "last name"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "familienaam",
+        "achternaam",
+        "geslachtsnaam"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nom de famille"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Familienname",
+        "Zuname",
+        "Nachname"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фамилия"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "priimek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "apellido"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "familjenamn",
+        "tillnamn",
+        "efternamn"
+      ]
+    }
+  ]
+}

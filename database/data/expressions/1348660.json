@@ -1,0 +1,44 @@
+{
+  "id": "1348660",
+  "readings": [
+    {
+      "kanaExpression": "こばち",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "小鉢",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "鉢",
+          "annotation": "ばち"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small bowl"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleine Schüssel",
+        "kleine Schale"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мисочка, горшочек"
+      ]
+    }
+  ]
+}

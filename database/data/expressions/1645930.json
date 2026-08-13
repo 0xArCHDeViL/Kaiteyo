@@ -1,0 +1,52 @@
+{
+  "id": "1645930",
+  "readings": [
+    {
+      "kanaExpression": "せきぞう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "石像",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "せき"
+        },
+        {
+          "text": "像",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stone statue"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stenen beeld",
+        "stenen figuur",
+        "steensculptuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steinbildnis",
+        "steinerne Statue"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каменное изваяние, каменная статуя"
+      ]
+    }
+  ]
+}

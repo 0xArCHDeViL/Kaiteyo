@@ -1,0 +1,64 @@
+{
+  "id": "1611060",
+  "readings": [
+    {
+      "kanaExpression": "にっかん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "日韓",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にっ"
+        },
+        {
+          "text": "韓",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 17000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japan and South Korea",
+        "Japanese-Korean"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Japans-Koreaans"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nippo-coréen",
+        "entre le Japon et la Corée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "japanisch-koreanisch",
+        "Japan und Korea (Abk.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} японо-корейский (имеется в виду Южная Корея)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Japón y Corea"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1609340",
+  "readings": [
+    {
+      "kanaExpression": "うつぶせ",
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "うつ伏せ",
+      "furiganaExpression": [
+        {
+          "text": "うつ"
+        },
+        {
+          "text": "伏",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "せ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "俯せ",
+      "furiganaExpression": [
+        {
+          "text": "俯",
+          "annotation": "うつぶ"
+        },
+        {
+          "text": "せ"
+        }
+      ],
+      "rank": 32039
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lying face down",
+        "lying on one\u0027s face",
+        "placing upside down",
+        "placing face down"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "renversé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bauchlage",
+        "Lage auf dem Gesicht"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "boca abajo, tumbado boca abajo",
+        "boca abajo"
+      ]
+    }
+  ]
+}

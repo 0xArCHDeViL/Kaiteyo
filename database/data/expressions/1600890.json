@@ -1,0 +1,68 @@
+{
+  "id": "1600890",
+  "readings": [
+    {
+      "kanaExpression": "はなことば",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "花言葉",
+      "furiganaExpression": [
+        {
+          "text": "花",
+          "annotation": "はな"
+        },
+        {
+          "text": "言",
+          "annotation": "こと"
+        },
+        {
+          "text": "葉",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "花詞",
+      "furiganaExpression": [
+        {
+          "text": "花",
+          "annotation": "はな"
+        },
+        {
+          "text": "詞",
+          "annotation": "ことば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "language of flowers (e.g. the use of red roses to signify love)",
+        "floriography"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blumensymbol",
+        "Blumensprache"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "язык цветов"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "blomsterspråk"
+      ]
+    }
+  ]
+}

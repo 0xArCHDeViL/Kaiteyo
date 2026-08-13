@@ -1,0 +1,82 @@
+{
+  "id": "1591060",
+  "readings": [
+    {
+      "kanaExpression": "ききかえす",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "聞き返す",
+      "furiganaExpression": [
+        {
+          "text": "聞",
+          "annotation": "き"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "訊き返す",
+      "furiganaExpression": [
+        {
+          "text": "訊",
+          "annotation": "き"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "きき返す",
+      "furiganaExpression": [
+        {
+          "text": "きき"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to listen repeatedly",
+        "to listen again",
+        "to ask a question in return",
+        "to ask again",
+        "to ask for a repeated explanation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurückfragen",
+        "rückfragen"
+      ]
+    }
+  ]
+}

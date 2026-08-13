@@ -1,0 +1,70 @@
+{
+  "id": "1463200",
+  "readings": [
+    {
+      "kanaExpression": "にまいじた",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "二枚舌",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "枚",
+          "annotation": "まい"
+        },
+        {
+          "text": "舌",
+          "annotation": "じた"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "double-dealing",
+        "duplicity",
+        "equivocation",
+        "double-tongued"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{fig.} gespleten tong",
+        "dubbeltongigheid",
+        "het met twee monden spreken",
+        "dubbelhartigheid",
+        "onbetrouwbaarheid",
+        "dubbelzinnigheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "double sens"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Doppelzüngigkeit",
+        "gespaltene Zunge",
+        "zweideutige Formulierungen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "двуличие, лицемерие; двурушничество",
+        "{～の} двуличный, лицемерный"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "1709190",
+  "readings": [
+    {
+      "kanaExpression": "ぞくちょう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "族長",
+      "furiganaExpression": [
+        {
+          "text": "族",
+          "annotation": "ぞく"
+        },
+        {
+          "text": "長",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "patriarch",
+        "head of a family"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "patriarch",
+        "stamhoofd",
+        "familiehoofd",
+        "{bijb.} stamvader",
+        "{bijb.} aartsvader",
+        "patriarchaal",
+        "{bijb.} aartsvaderlijk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erzvater",
+        "Patriarch",
+        "Stammeshäuptling"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глава (старейшина) рода; патриарх"
+      ]
+    }
+  ]
+}

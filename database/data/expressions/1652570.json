@@ -1,0 +1,41 @@
+{
+  "id": "1652570",
+  "readings": [
+    {
+      "kanaExpression": "つうだ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "痛打",
+      "furiganaExpression": [
+        {
+          "text": "痛",
+          "annotation": "つう"
+        },
+        {
+          "text": "打",
+          "annotation": "だ"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hard blow",
+        "crushing blow",
+        "severe attack"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einen harten Schlag machen",
+        "einen Ball hart schlagen",
+        "harter Schlag (insbes.) hartgeschlagener Ball"
+      ]
+    }
+  ]
+}

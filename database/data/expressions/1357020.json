@@ -1,0 +1,84 @@
+{
+  "id": "1357020",
+  "readings": [
+    {
+      "kanaExpression": "ゆずりわたす",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "譲り渡す",
+      "furiganaExpression": [
+        {
+          "text": "譲",
+          "annotation": "ゆず"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "譲りわたす",
+      "furiganaExpression": [
+        {
+          "text": "譲",
+          "annotation": "ゆず"
+        },
+        {
+          "text": "りわたす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to hand over",
+        "to turn over",
+        "to cede"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "céder",
+        "transférer",
+        "transmettre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "übergeben",
+        "abtreten",
+        "übertragen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átad",
+        "átruház",
+        "átfordít",
+        "átgondol",
+        "felfordít",
+        "visszafordul"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уступать, передавать"
+      ]
+    }
+  ]
+}

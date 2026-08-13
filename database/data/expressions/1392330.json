@@ -1,0 +1,68 @@
+{
+  "id": "1392330",
+  "readings": [
+    {
+      "kanaExpression": "せんたくし",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "選択肢",
+      "furiganaExpression": [
+        {
+          "text": "選",
+          "annotation": "せん"
+        },
+        {
+          "text": "択",
+          "annotation": "たく"
+        },
+        {
+          "text": "肢",
+          "annotation": "し"
+        }
+      ],
+      "rank": 3694
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "choices",
+        "alternatives",
+        "options"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keuzemogelijkheid",
+        "keuze",
+        "optie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auswahlmöglichkeit",
+        "Wahlmöglichkeit",
+        "Alternative"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "posibilidades",
+        "alternativas",
+        "opciones"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "val",
+        "valmöjlighet"
+      ]
+    }
+  ]
+}

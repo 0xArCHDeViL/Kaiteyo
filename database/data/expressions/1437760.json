@@ -1,0 +1,53 @@
+{
+  "id": "1437760",
+  "readings": [
+    {
+      "kanaExpression": "てっぺい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "撤兵",
+      "furiganaExpression": [
+        {
+          "text": "撤",
+          "annotation": "てっ"
+        },
+        {
+          "text": "兵",
+          "annotation": "ぺい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "withdrawal of troops"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "repli des troupes",
+        "repliement des troupes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Truppenrückzug",
+        "Zurückziehen der Truppen",
+        "Truppen zurückziehen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "эвакуация (отвод) войск",
+        "{～する}, отводить войска из…, эвакуировать (город и т. п.)"
+      ]
+    }
+  ]
+}

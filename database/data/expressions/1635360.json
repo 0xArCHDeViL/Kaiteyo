@@ -1,0 +1,49 @@
+{
+  "id": "1635360",
+  "readings": [
+    {
+      "kanaExpression": "じつぞう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "実像",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じつ"
+        },
+        {
+          "text": "像",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "real image",
+        "real form",
+        "real-life image",
+        "true picture",
+        "actual conditions",
+        "actual circumstances"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "reelles Bild"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "imagen real",
+        "apariencia verdadera"
+      ]
+    }
+  ]
+}

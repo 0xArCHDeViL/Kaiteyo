@@ -1,0 +1,69 @@
+{
+  "id": "1310840",
+  "readings": [
+    {
+      "kanaExpression": "しご",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "死語",
+      "furiganaExpression": [
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dead language",
+        "extinct language",
+        "obsolete word",
+        "dated word",
+        "word that has become passé"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "archaïsme (mot)",
+        "langue morte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tote Sprache",
+        "obsoletes Wort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "holt nyelv"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) мёртвый язык",
+        "2) вышедшее из употребления (забытое) слово"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lengua muerta",
+        "palabra obsoleta"
+      ]
+    }
+  ]
+}

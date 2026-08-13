@@ -1,0 +1,61 @@
+{
+  "id": "1622610",
+  "readings": [
+    {
+      "kanaExpression": "ちじき",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "地磁気",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "磁",
+          "annotation": "じ"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "geomagnetism",
+        "terrestrial magnetism"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aardmagnetisme",
+        "geomagnetisme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erdmagnetismus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физ.) земной магнетизм"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "jordmagnetism"
+      ]
+    }
+  ]
+}

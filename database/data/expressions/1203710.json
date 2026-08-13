@@ -1,0 +1,45 @@
+{
+  "id": "1203710",
+  "readings": [
+    {
+      "kanaExpression": "がいさい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "外債",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "債",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "foreign loan",
+        "foreign debt",
+        "foreign bond"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auslandsanleihe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) がいこくさい"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "1222250",
+  "readings": [
+    {
+      "kanaExpression": "きしつ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "かたぎ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "気質",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 10962
+    },
+    {
+      "kanjiExpression": "形気",
+      "furiganaExpression": [
+        {
+          "text": "形",
+          "annotation": "かた"
+        },
+        {
+          "text": "気",
+          "annotation": "ぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "disposition",
+        "temperament",
+        "nature",
+        "mentality",
+        "spirit",
+        "character",
+        "trait",
+        "turn of mind"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "temperament",
+        "aard",
+        "karakter",
+        "inslag",
+        "natuur",
+        "inborst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tempérament"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Temperament",
+        "Charakter",
+        "Wesensart",
+        "Geistesart",
+        "Typ",
+        "Charakteranlage",
+        "Veranlagung",
+        "Gemütsart",
+        "Natur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kísértet",
+        "jelleg",
+        "sajátság",
+        "alkat",
+        "természet",
+        "vérmérséklet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дух; характер, склад; нравы",
+        "характер, натура, темперамент"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "narava",
+        "nrav",
+        "karakter"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "talante",
+        "espíritu",
+        "mentalidad",
+        "temperamento",
+        "aptitud",
+        "temple",
+        "cualidad",
+        "esencia"
+      ]
+    }
+  ]
+}

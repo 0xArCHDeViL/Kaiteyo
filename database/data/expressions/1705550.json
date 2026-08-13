@@ -1,0 +1,69 @@
+{
+  "id": "1705550",
+  "readings": [
+    {
+      "kanaExpression": "ちんじ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "珍事",
+      "furiganaExpression": [
+        {
+          "text": "珍",
+          "annotation": "ちん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "椿事",
+      "furiganaExpression": [
+        {
+          "text": "椿",
+          "annotation": "ちん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "strange incident",
+        "unusual occurrence",
+        "rare event",
+        "grave (and unexpected) incident",
+        "serious event",
+        "accident"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überraschung",
+        "etw. Ungewöhnliches",
+        "etw. Seltsames",
+        "unerwartetes Ereignis",
+        "Unfall",
+        "Unglück",
+        "Zwischenfall",
+        "Tragödie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "редкий случай; неожиданное событие (происшествие)",
+        "происшествие; несчастный случай"
+      ]
+    }
+  ]
+}

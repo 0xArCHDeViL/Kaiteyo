@@ -1,0 +1,94 @@
+{
+  "id": "1168830",
+  "readings": [
+    {
+      "kanaExpression": "ひきさげ",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "引き下げ",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "下",
+          "annotation": "さ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 10073
+    },
+    {
+      "kanjiExpression": "引下げ",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "下",
+          "annotation": "さ"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reduction",
+        "cut"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verlaging",
+        "vermindering",
+        "reductie",
+        "korting",
+        "afslag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Senkung",
+        "Preissenkung",
+        "Reduktion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csökkentés",
+        "árok",
+        "csökkent",
+        "herélt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "снижение (напр. цен, зарплаты)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reducción",
+        "corte"
+      ]
+    }
+  ]
+}

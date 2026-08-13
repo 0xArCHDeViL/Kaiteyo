@@ -1,0 +1,90 @@
+{
+  "id": "1598560",
+  "readings": [
+    {
+      "kanaExpression": "でかせぎ",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "出稼ぎ",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "稼",
+          "annotation": "かせ"
+        },
+        {
+          "text": "ぎ"
+        }
+      ],
+      "rank": 14574
+    },
+    {
+      "kanjiExpression": "出かせぎ",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "かせぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "working away from home (esp. abroad)",
+        "person working away from home",
+        "migrant worker"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "van huis weg arbeiden",
+        "naar een ander gewest",
+        "land uit werken gaan",
+        "migreren om den brode",
+        "{i.h.b.} seizoenarbeid",
+        "seizoenwerk verrichten",
+        "het van huis weg arbeiden",
+        "het naar een ander gewest",
+        "migratie om den brode",
+        "{i.h.b.} het verrichten van seizoenarbeid",
+        "seizoenwerk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "travailler à l\u0027extérieur de chez soi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "getrennt von der Familie einer Arbeit nachgehen",
+        "Arbeit getrennt von der Familie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отходничество, отхожий промысел; уход на заработки",
+        "{～する} уехать на заработки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "emigrante"
+      ]
+    }
+  ]
+}

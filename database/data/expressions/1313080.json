@@ -1,0 +1,106 @@
+{
+  "id": "1313080",
+  "readings": [
+    {
+      "kanaExpression": "はいしゃ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "歯医者",
+      "furiganaExpression": [
+        {
+          "text": "歯",
+          "annotation": "は"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 8597
+    },
+    {
+      "kanjiExpression": "齒醫者",
+      "furiganaExpression": [
+        {
+          "text": "齒",
+          "annotation": "は"
+        },
+        {
+          "text": "醫",
+          "annotation": "い"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dentist"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tandarts",
+        "tandheelkundige",
+        "dentist",
+        "{inform.",
+        "scherts.} smoelensmid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dentiste"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zahnarzt",
+        "Dentist"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fogász",
+        "fogorvos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зубной врач"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zobozdravnik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dentista"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tandläkare"
+      ]
+    }
+  ]
+}

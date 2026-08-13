@@ -1,0 +1,77 @@
+{
+  "id": "1352020",
+  "readings": [
+    {
+      "kanaExpression": "しょうにゅうどう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "鍾乳洞",
+      "furiganaExpression": [
+        {
+          "text": "鍾",
+          "annotation": "しょう"
+        },
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "洞",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "鐘乳洞",
+      "furiganaExpression": [
+        {
+          "text": "鐘",
+          "annotation": "しょう"
+        },
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "洞",
+          "annotation": "どう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "limestone cave",
+        "limestone cavern"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kalksteengrot"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grotte calcaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tropfsteinhöhle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сталактитовая пещера, сталактитовый грот"
+      ]
+    }
+  ]
+}

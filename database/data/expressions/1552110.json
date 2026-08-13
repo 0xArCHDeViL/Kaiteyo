@@ -1,0 +1,74 @@
+{
+  "id": "1552110",
+  "readings": [
+    {
+      "kanaExpression": "ながしこむ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "流し込む",
+      "furiganaExpression": [
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "流しこむ",
+      "furiganaExpression": [
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "しこむ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to pour into",
+        "to wash down (food)",
+        "to insert (e.g. into a data stream)",
+        "to integrate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gießen",
+        "hineingießen",
+        "herunterschütten (Bier etc.)",
+        "herunterschlingen (Essen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "befolyik",
+        "leöblít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вливать"
+      ]
+    }
+  ]
+}

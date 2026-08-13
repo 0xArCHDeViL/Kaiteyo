@@ -1,0 +1,128 @@
+{
+  "id": "1533560",
+  "readings": [
+    {
+      "kanaExpression": "めんどくさい",
+      "rank": 11658
+    },
+    {
+      "kanaExpression": "めんどうくさい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "面倒くさい",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "めん"
+        },
+        {
+          "text": "倒",
+          "annotation": "ど"
+        },
+        {
+          "text": "くさい"
+        }
+      ],
+      "rank": 10285
+    },
+    {
+      "kanjiExpression": "面倒臭い",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "めん"
+        },
+        {
+          "text": "倒",
+          "annotation": "どう"
+        },
+        {
+          "text": "臭",
+          "annotation": "くさ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bothersome",
+        "tiresome",
+        "bother to do"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lastig",
+        "moeilijk",
+        "vervelend",
+        "ellendig",
+        "verdrietelijk",
+        "{vulg.} klote"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "désagréable",
+        "ennuyeux",
+        "fatigant",
+        "embêtant",
+        "déranger de faire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unbequem",
+        "lästig",
+        "störend",
+        "umständlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fárasztó",
+        "unalmas"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) беспокойный; надоедливый; раздражающий; затрудняющий"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "utrudljiv",
+        "dolgočasen",
+        "nadležen",
+        "siten"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "casansarse de hacer",
+        "cansado",
+        "tedioso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "jobbig",
+        "tröttsam"
+      ]
+    }
+  ]
+}

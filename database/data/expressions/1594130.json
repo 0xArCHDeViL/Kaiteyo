@@ -1,0 +1,102 @@
+{
+  "id": "1594130",
+  "readings": [
+    {
+      "kanaExpression": "しがい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "死骸",
+      "furiganaExpression": [
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "骸",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "屍骸",
+      "furiganaExpression": [
+        {
+          "text": "屍",
+          "annotation": "し"
+        },
+        {
+          "text": "骸",
+          "annotation": "がい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "死がい",
+      "furiganaExpression": [
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "がい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(dead) body",
+        "corpse",
+        "carcass",
+        "remains"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dood lichaam",
+        "lijk",
+        "{動物の} kadaver",
+        "kreng"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "toter Körper",
+        "Kadaver",
+        "Leiche"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erdőállomány",
+        "főrész",
+        "hangszerszekrény",
+        "holttest",
+        "kalaptető",
+        "karosszéria",
+        "kocsiszekrény",
+        "konzisztencia",
+        "összeállás",
+        "ruhaderék",
+        "szerv",
+        "tetem",
+        "tollszár",
+        "tömöttség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "труп",
+        "труп, мёртвое тело"
+      ]
+    }
+  ]
+}

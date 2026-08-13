@@ -1,0 +1,68 @@
+{
+  "id": "1848640",
+  "readings": [
+    {
+      "kanaExpression": "いみづける",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "意味づける",
+      "furiganaExpression": [
+        {
+          "text": "意",
+          "annotation": "い"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        },
+        {
+          "text": "づける"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "意味付ける",
+      "furiganaExpression": [
+        {
+          "text": "意",
+          "annotation": "い"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        },
+        {
+          "text": "付",
+          "annotation": "づ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to give meaning (to)",
+        "to assess the significance (of)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bedeutung beimessen",
+        "Wert zuweisen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dar significado a"
+      ]
+    }
+  ]
+}

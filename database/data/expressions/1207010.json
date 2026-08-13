@@ -1,0 +1,69 @@
+{
+  "id": "1207010",
+  "readings": [
+    {
+      "kanaExpression": "がくどう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "学童",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "童",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 14491
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "school child",
+        "pupil"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "scholier",
+        "schoolkind",
+        "leerling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "écolier",
+        "élève du primaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grundschüler",
+        "Schulkind",
+        "lernendes Kind"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pupilla",
+        "szembogár",
+        "tanuló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) школьник, ученик"
+      ]
+    }
+  ]
+}

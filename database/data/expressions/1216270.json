@@ -1,0 +1,100 @@
+{
+  "id": "1216270",
+  "readings": [
+    {
+      "kanaExpression": "まるっきり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "丸っきり",
+      "furiganaExpression": [
+        {
+          "text": "丸",
+          "annotation": "まる"
+        },
+        {
+          "text": "っきり"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "丸っ切り",
+      "furiganaExpression": [
+        {
+          "text": "丸",
+          "annotation": "まる"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "completely",
+        "absolutely",
+        "totally",
+        "(not) at all"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volkomen",
+        "volstrekt",
+        "absoluut",
+        "geheel en al",
+        "helemaal",
+        "compleet"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "à fond",
+        "completement",
+        "parfaitement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vollkommen",
+        "völlig",
+        "ganz",
+        "ganz und gar (nicht)",
+        "überhaupt (nicht; Verstärkung von marukiri)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tökéletesen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "совершенно, совсем, абсолютно (с последующим отрицанием)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "en su totalidad",
+        "por completo"
+      ]
+    }
+  ]
+}

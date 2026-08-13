@@ -1,0 +1,45 @@
+{
+  "id": "1704280",
+  "readings": [
+    {
+      "kanaExpression": "てんたい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "転貸",
+      "furiganaExpression": [
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "貸",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subleasing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Untervermietung",
+        "Weiterverpachtung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "субаренда",
+        "{～する} сдавать в субаренду (землю, дом и т. п.)"
+      ]
+    }
+  ]
+}

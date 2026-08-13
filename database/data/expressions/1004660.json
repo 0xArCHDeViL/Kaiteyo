@@ -1,0 +1,39 @@
+{
+  "id": "1004660",
+  "readings": [
+    {
+      "kanaExpression": "このほか",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "この外",
+      "furiganaExpression": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "外",
+          "annotation": "ほか"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "besides",
+        "moreover",
+        "in addition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "darüber hinaus",
+        "daneben"
+      ]
+    }
+  ]
+}

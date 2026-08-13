@@ -1,0 +1,76 @@
+{
+  "id": "1280560",
+  "readings": [
+    {
+      "kanaExpression": "こうこつ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "硬骨",
+      "furiganaExpression": [
+        {
+          "text": "硬",
+          "annotation": "こう"
+        },
+        {
+          "text": "骨",
+          "annotation": "こつ"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "鯁骨",
+      "furiganaExpression": [
+        {
+          "text": "鯁",
+          "annotation": "こう"
+        },
+        {
+          "text": "骨",
+          "annotation": "こつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bone",
+        "firmness (of character)",
+        "backbone",
+        "unyielding spirit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Charakterfestigkeit",
+        "Prinzipienfestigkeit",
+        "Rückgrat",
+        "Härte",
+        "Festigkeit",
+        "Hartnäckigkeit",
+        "Knochen (der Knochenfische)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szilárdság",
+        "hajthatatlan",
+        "meg nem alkuvó",
+        "rendíthetetlen",
+        "tántoríthatatlan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "твёрдая кость; (обр.) твёрдость (убеждений)",
+        "{～の} стойкий, непреклонный, с твёрдым характером"
+      ]
+    }
+  ]
+}

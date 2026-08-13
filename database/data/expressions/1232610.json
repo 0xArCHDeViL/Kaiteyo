@@ -1,0 +1,71 @@
+{
+  "id": "1232610",
+  "readings": [
+    {
+      "kanaExpression": "きょどう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "挙動",
+      "furiganaExpression": [
+        {
+          "text": "挙",
+          "annotation": "きょ"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 13774
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "conduct",
+        "behavior",
+        "behaviour"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gedrag",
+        "houding",
+        "optreden",
+        "gedraging",
+        "handelwijze",
+        "manier van doen",
+        "doen en laten",
+        "handelingen",
+        "daden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Benehmen",
+        "Verhalten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "életvitel",
+        "igazgatás",
+        "magatartás",
+        "magaviselet",
+        "viselkedés",
+        "viselkedésmód"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "образ действий, поведение; манеры"
+      ]
+    }
+  ]
+}

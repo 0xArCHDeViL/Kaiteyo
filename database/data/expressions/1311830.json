@@ -1,0 +1,65 @@
+{
+  "id": "1311830",
+  "readings": [
+    {
+      "kanaExpression": "しぼうさん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "脂肪酸",
+      "furiganaExpression": [
+        {
+          "text": "脂",
+          "annotation": "し"
+        },
+        {
+          "text": "肪",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "酸",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fatty acid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} vetzuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fettsäure"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zsírsav"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ácido graso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fettsyra"
+      ]
+    }
+  ]
+}

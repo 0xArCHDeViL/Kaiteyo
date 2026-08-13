@@ -1,0 +1,65 @@
+{
+  "id": "1518100",
+  "readings": [
+    {
+      "kanaExpression": "ほうにち",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "訪日",
+      "furiganaExpression": [
+        {
+          "text": "訪",
+          "annotation": "ほう"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        }
+      ],
+      "rank": 16500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "visit to Japan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "visite du Japon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besuch in Japan",
+        "Japanbesuch (durch Ausländer)",
+        "Japan besuchen",
+        "nach Japan kommen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) посещение Японии"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "obisk na Japonsko",
+        "obiskati Japonsko"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "visita a Japón"
+      ]
+    }
+  ]
+}

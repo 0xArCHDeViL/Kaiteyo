@@ -1,0 +1,54 @@
+{
+  "id": "1555530",
+  "readings": [
+    {
+      "kanaExpression": "りん",
+      "rank": 5523
+    },
+    {
+      "kanaExpression": "リン",
+      "rank": 3327
+    },
+    {
+      "kanjiExpression": "燐",
+      "furiganaExpression": [
+        {
+          "text": "燐",
+          "annotation": "りん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "phosphorus (P)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} fosfor",
+        "fosforus",
+        "{afk.} P"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fluoreszkáló anyag",
+        "fluoreszkáló bevonat",
+        "foszfor",
+        "lumineszcens anyag",
+        "lumineszcens bevonat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фосфор"
+      ]
+    }
+  ]
+}

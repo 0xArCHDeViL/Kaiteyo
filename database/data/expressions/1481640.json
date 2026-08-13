@@ -1,0 +1,91 @@
+{
+  "id": "1481640",
+  "readings": [
+    {
+      "kanaExpression": "はん",
+      "rank": 9289
+    },
+    {
+      "kanjiExpression": "班",
+      "furiganaExpression": [
+        {
+          "text": "班",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 5762
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "group",
+        "party",
+        "team",
+        "squad",
+        "section"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "groep",
+        "ploeg",
+        "team",
+        "{mil.} korps",
+        "sectie",
+        "afdeling",
+        "brigade",
+        "{maatwoord voor groepen}",
+        "(a) verdelen",
+        "(b) groep",
+        "(c) rang",
+        "positie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "équipe",
+        "escouade (mil)",
+        "groupe",
+        "section (mil)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gruppe",
+        "…trupp",
+        "…Gruppe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csoport",
+        "ágazat",
+        "melléklet",
+        "negyed",
+        "rekesz",
+        "részleg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (воен.) команда, подразделение",
+        "2) группа, бригада"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grupo",
+        "brigada",
+        "escuadrón"
+      ]
+    }
+  ]
+}

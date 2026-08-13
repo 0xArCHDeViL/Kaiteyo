@@ -1,0 +1,114 @@
+{
+  "id": "1464340",
+  "readings": [
+    {
+      "kanaExpression": "ひづけ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "日付",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "付",
+          "annotation": "づけ"
+        }
+      ],
+      "rank": 4838
+    },
+    {
+      "kanjiExpression": "日付け",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "付",
+          "annotation": "づ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "日附",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "附",
+          "annotation": "づけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "date",
+        "dating"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "datering",
+        "dagtekening",
+        "datum"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "date",
+        "datation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Datum",
+        "Tagesangabe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "datolya",
+        "dátum",
+        "időpont",
+        "randi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) датировка",
+        "{～をする} датировать",
+        "2) дата",
+        "{～のない} недатированный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "datum"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fecha"
+      ]
+    }
+  ]
+}

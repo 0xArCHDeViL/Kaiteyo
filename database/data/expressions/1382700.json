@@ -1,0 +1,79 @@
+{
+  "id": "1382700",
+  "readings": [
+    {
+      "kanaExpression": "せきたん",
+      "rank": 19500
+    },
+    {
+      "kanaExpression": "いしずみ"
+    },
+    {
+      "kanjiExpression": "石炭",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "せき"
+        },
+        {
+          "text": "炭",
+          "annotation": "たん"
+        }
+      ],
+      "rank": 6565
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "coal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kool",
+        "steenkool"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "charbon",
+        "houille"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steinkohle",
+        "Kohle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kőszén"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каменный уголь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carbón"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kol"
+      ]
+    }
+  ]
+}

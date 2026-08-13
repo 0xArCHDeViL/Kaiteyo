@@ -1,0 +1,68 @@
+{
+  "id": "1666040",
+  "readings": [
+    {
+      "kanaExpression": "かんきょうほご",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "環境保護",
+      "furiganaExpression": [
+        {
+          "text": "環",
+          "annotation": "かん"
+        },
+        {
+          "text": "境",
+          "annotation": "きょう"
+        },
+        {
+          "text": "保",
+          "annotation": "ほ"
+        },
+        {
+          "text": "護",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "environmental protection"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "milieubescherming",
+        "milieudefensie",
+        "milieuhygiëne",
+        "milieubeheer",
+        "landschapsverzorging",
+        "{Belg.N.} landschapszorg"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Umweltschutz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "környezetvédelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "защита окружающей среды"
+      ]
+    }
+  ]
+}

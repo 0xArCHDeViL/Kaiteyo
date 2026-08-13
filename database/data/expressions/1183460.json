@@ -1,0 +1,58 @@
+{
+  "id": "1183460",
+  "readings": [
+    {
+      "kanaExpression": "おんぞん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "温存",
+      "furiganaExpression": [
+        {
+          "text": "温",
+          "annotation": "おん"
+        },
+        {
+          "text": "存",
+          "annotation": "ぞん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "preservation",
+        "retainment",
+        "keeping"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bewahren",
+        "sorgfältig aufbewahren",
+        "reservieren",
+        "sparen",
+        "Bewahrung",
+        "Aufbewahrung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "befőtt"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "preservar",
+        "conservar",
+        "guardar"
+      ]
+    }
+  ]
+}

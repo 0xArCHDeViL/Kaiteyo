@@ -1,0 +1,61 @@
+{
+  "id": "1854740",
+  "readings": [
+    {
+      "kanaExpression": "ついし",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "追試",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "つい"
+        },
+        {
+          "text": "試",
+          "annotation": "し"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "replication (of an experiment)",
+        "verification (of experimental results)",
+        "reproduction",
+        "corroboration",
+        "supplementary examination",
+        "makeup exam"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "herexamen",
+        "herkansing",
+        "{inform.} her",
+        "{Belg.N.} tweede zit",
+        "{Belg.N.} inhaalexamen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "noch einmal prüfen",
+        "zusätzliche Prüfung",
+        "Wiederholungsprüfung",
+        "Nachprüfung"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "efterprövning"
+      ]
+    }
+  ]
+}

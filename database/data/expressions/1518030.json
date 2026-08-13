@@ -1,0 +1,67 @@
+{
+  "id": "1518030",
+  "readings": [
+    {
+      "kanaExpression": "ほうしょう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "褒賞",
+      "furiganaExpression": [
+        {
+          "text": "褒",
+          "annotation": "ほう"
+        },
+        {
+          "text": "賞",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prize",
+        "award",
+        "reward"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "prijs"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "certificat de mérite",
+        "médaille",
+        "prix"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Preis",
+        "Belohnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kitűnő",
+        "ellenszolgáltatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "награда, премия, приз (на конкурсе и т. п.)"
+      ]
+    }
+  ]
+}

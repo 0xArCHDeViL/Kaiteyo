@@ -1,0 +1,55 @@
+{
+  "id": "1455360",
+  "readings": [
+    {
+      "kanaExpression": "とくやく",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "特約",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とく"
+        },
+        {
+          "text": "約",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 14339
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "special contract",
+        "special agreement",
+        "rider (insurance)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "speciale overeenkomst",
+        "speciaal contract",
+        "franchiseovereenkomst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einen Sondervertrag schließen",
+        "Sondervertrag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "особое соглашение, особый договор",
+        "{～する}, …と特約を結ぶ заключать (с кем-л.) особое соглашение"
+      ]
+    }
+  ]
+}

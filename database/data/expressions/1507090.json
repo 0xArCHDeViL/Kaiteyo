@@ -1,0 +1,93 @@
+{
+  "id": "1507090",
+  "readings": [
+    {
+      "kanaExpression": "ひらがな",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "平仮名",
+      "furiganaExpression": [
+        {
+          "text": "平",
+          "annotation": "ひら"
+        },
+        {
+          "text": "仮",
+          "annotation": "が"
+        },
+        {
+          "text": "名",
+          "annotation": "な"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "ひら仮名",
+      "furiganaExpression": [
+        {
+          "text": "ひら"
+        },
+        {
+          "text": "仮",
+          "annotation": "が"
+        },
+        {
+          "text": "名",
+          "annotation": "な"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hiragana",
+        "cursive Japanese syllabary used primarily for native Japanese words (esp. function words, inflections, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hiragana {Japans cursief lettergrepenschrift}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "hiragana",
+        "syllabaire cursif japonais utilisé principalement pour les mots d\u0027origine japonaise (en part. les mots fonctionnels, les désinences, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hiragana",
+        "japanisches Silbenschriftzeichen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хирагана (один из двух шрифтов яп. слоговой азбуки, обычный шрифт в печати и письме); ()",
+        "(ср.) かたかな"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hiragana"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hiragana",
+        "48 silabas",
+        "silabario cursivo"
+      ]
+    }
+  ]
+}

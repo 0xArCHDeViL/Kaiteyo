@@ -1,0 +1,77 @@
+{
+  "id": "1280490",
+  "readings": [
+    {
+      "kanaExpression": "こうてい",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "おうだい"
+    },
+    {
+      "kanjiExpression": "皇帝",
+      "furiganaExpression": [
+        {
+          "text": "皇",
+          "annotation": "こう"
+        },
+        {
+          "text": "帝",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 6717
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "emperor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keizer",
+        "{ローマの} imperator",
+        "{ロシアの} tsaar",
+        "{ペルシアの} sjah",
+        "{トルコの} sultan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "empereur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kaiser",
+        "Zar",
+        "Imperator",
+        "Monarch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "császár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "император"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "emperador"
+      ]
+    }
+  ]
+}

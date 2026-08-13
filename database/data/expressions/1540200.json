@@ -1,0 +1,59 @@
+{
+  "id": "1540200",
+  "readings": [
+    {
+      "kanaExpression": "ともづり",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "友釣り",
+      "furiganaExpression": [
+        {
+          "text": "友",
+          "annotation": "とも"
+        },
+        {
+          "text": "釣",
+          "annotation": "づ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "友釣",
+      "furiganaExpression": [
+        {
+          "text": "友",
+          "annotation": "とも"
+        },
+        {
+          "text": "釣",
+          "annotation": "づり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "live decoy fishing (esp. for sweetfish)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Angeln mit einem Köderfisch (nach Ayu)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ужение рыбы на приманку"
+      ]
+    }
+  ]
+}

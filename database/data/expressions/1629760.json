@@ -1,0 +1,64 @@
+{
+  "id": "1629760",
+  "readings": [
+    {
+      "kanaExpression": "ゆうきかがく",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "有機化学",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "organic chemistry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} organische scheikunde",
+        "organische chemie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "organische Chemie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "органическая химия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "química orgánica"
+      ]
+    }
+  ]
+}

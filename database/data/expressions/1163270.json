@@ -1,0 +1,84 @@
+{
+  "id": "1163270",
+  "readings": [
+    {
+      "kanaExpression": "いっしゅうかん",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "一週間",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "間",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "１週間",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いっ"
+        },
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "間",
+          "annotation": "かん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one week"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "één week"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Woche",
+        "eine Woche lang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[одна] неделя",
+        "{～の} недельный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "en teden {časovno obdobje}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "una semana"
+      ]
+    }
+  ]
+}

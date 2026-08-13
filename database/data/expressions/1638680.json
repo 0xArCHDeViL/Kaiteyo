@@ -1,0 +1,70 @@
+{
+  "id": "1638680",
+  "readings": [
+    {
+      "kanaExpression": "きょうしゅう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "強襲",
+      "furiganaExpression": [
+        {
+          "text": "強",
+          "annotation": "きょう"
+        },
+        {
+          "text": "襲",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "assault",
+        "violent attack"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bestormen",
+        "een stormaanval uitvoeren",
+        "stormlopen",
+        "{honkb.} smashen",
+        "bestorming",
+        "stormaanval",
+        "felle aanval",
+        "{honkb.} smash"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stürmen",
+        "bestürmen",
+        "stürmisch angreifen",
+        "heftig angreifen",
+        "stürmischer Angriff",
+        "wilde Attacke"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ostromlás",
+        "veszélyes fenyegetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "штурм, приступ; налёт; форсированная атака",
+        "{～する} идти на приступ, штурмовать"
+      ]
+    }
+  ]
+}

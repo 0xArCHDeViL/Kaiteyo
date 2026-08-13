@@ -1,0 +1,89 @@
+{
+  "id": "1589660",
+  "readings": [
+    {
+      "kanaExpression": "かいかん",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "会館",
+      "furiganaExpression": [
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "館",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 4957
+    },
+    {
+      "kanjiExpression": "会舘",
+      "furiganaExpression": [
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "舘",
+          "annotation": "かん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "meeting hall",
+        "assembly hall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zaal",
+        "hal",
+        "gebouw voor grote bijeenkomsten",
+        "clubgebouw",
+        "(cultureel) centrum",
+        "ontmoetingscentrum"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "halle",
+        "salle de réunion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Klubhaus",
+        "Vereinsgebäude",
+        "…-Haus",
+        "…-Gebäude",
+        "…-Halle",
+        "(in China)Ständehaus",
+        "Landsmannschaftenhaus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дом общественных собраний",
+        "(в сложн. сл. на 2-м месте) дом: 文化会館 Дом культуры"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dvorana za srečanja",
+        "kulturni dom"
+      ]
+    }
+  ]
+}

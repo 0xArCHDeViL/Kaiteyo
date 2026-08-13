@@ -1,0 +1,57 @@
+{
+  "id": "1501100",
+  "readings": [
+    {
+      "kanaExpression": "ふくり",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "福利",
+      "furiganaExpression": [
+        {
+          "text": "福",
+          "annotation": "ふく"
+        },
+        {
+          "text": "利",
+          "annotation": "り"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "welfare"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wohlfahrt",
+        "Soziales"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "boldogulás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "благосостояние"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bästa",
+        "välfärd"
+      ]
+    }
+  ]
+}

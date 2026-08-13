@@ -1,0 +1,102 @@
+{
+  "id": "1705810",
+  "readings": [
+    {
+      "kanaExpression": "みじたく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "身支度",
+      "furiganaExpression": [
+        {
+          "text": "身",
+          "annotation": "み"
+        },
+        {
+          "text": "支",
+          "annotation": "じ"
+        },
+        {
+          "text": "度",
+          "annotation": "たく"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "身仕度",
+      "furiganaExpression": [
+        {
+          "text": "身",
+          "annotation": "み"
+        },
+        {
+          "text": "仕",
+          "annotation": "じ"
+        },
+        {
+          "text": "度",
+          "annotation": "たく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "身じたく",
+      "furiganaExpression": [
+        {
+          "text": "身",
+          "annotation": "み"
+        },
+        {
+          "text": "じたく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dress",
+        "outfit",
+        "getup",
+        "to dress oneself",
+        "to outfit oneself"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich fertig machen",
+        "sich herrichten",
+        "Sichankleiden",
+        "Sichfrisieren",
+        "Sichzurechtmachen",
+        "Toilette",
+        "Sichfeinmachen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ruha",
+        "berendezés",
+        "felszerelés",
+        "fogat",
+        "gyülekezet",
+        "jelentkezés",
+        "leágazás",
+        "váltás",
+        "viselet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (см.) みじまい",
+        "2) сборы (в дорогу)",
+        "{～をする} собираться, готовиться, снаряжаться (в путь)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.gradle
+.idea/
+build/
+parser_data/**
+!parser_data/download_**
+!parser_data/radkfile
+!parser_data/JMdict_e_examp
+!parser_data/JmdictFurigana.json
+!parser_data/SNAPSHOTS.sha256
+/kanji-dojo-data-**

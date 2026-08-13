@@ -1,0 +1,95 @@
+{
+  "id": "1508680",
+  "readings": [
+    {
+      "kanaExpression": "へいそく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "閉塞",
+      "furiganaExpression": [
+        {
+          "text": "閉",
+          "annotation": "へい"
+        },
+        {
+          "text": "塞",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 13307
+    },
+    {
+      "kanjiExpression": "閉そく",
+      "furiganaExpression": [
+        {
+          "text": "閉",
+          "annotation": "へい"
+        },
+        {
+          "text": "そく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blockage",
+        "blockade",
+        "blocking up",
+        "stoppage",
+        "obstruction",
+        "occlusion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blokkeren",
+        "afsluiten",
+        "afdichten",
+        "opstoppen",
+        "obstrueren",
+        "occluderen",
+        "blokkade",
+        "blokkering",
+        "afsluiting",
+        "afdichting",
+        "obstructie",
+        "opstopping",
+        "occlusie",
+        "{spoorw.} blok"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blockade",
+        "Blockierung",
+        "Sperrung",
+        "Verschluss",
+        "Obstruktion",
+        "blockieren",
+        "sperren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zárlat",
+        "eltorlaszolás",
+        "eltorlaszolt",
+        "forgalom elakadása"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "блокада (напр. порта); закупорка (напр. кишечника); блокировка (напр. тока)",
+        "{～する} блокировать; закрывать (пути)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1364770",
+  "readings": [
+    {
+      "kanaExpression": "しんでん",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "神殿",
+      "furiganaExpression": [
+        {
+          "text": "神",
+          "annotation": "しん"
+        },
+        {
+          "text": "殿",
+          "annotation": "でん"
+        }
+      ],
+      "rank": 8907
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "temple",
+        "shrine",
+        "sanctuary"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "heiligdom",
+        "tempel",
+        "sanctuarium",
+        "tabernakel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "shintōistisches Heiligtum",
+        "Schrein",
+        "Tempel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halánték"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(синт.) храм, святилище"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "tempelj",
+        "svetišče"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "templo sagrado"
+      ]
+    }
+  ]
+}

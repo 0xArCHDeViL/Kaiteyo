@@ -1,0 +1,121 @@
+{
+  "id": "1587060",
+  "readings": [
+    {
+      "kanaExpression": "いえなみ",
+      "rank": 31000
+    },
+    {
+      "kanaExpression": "やなみ"
+    },
+    {
+      "kanjiExpression": "家並み",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "いえ"
+        },
+        {
+          "text": "並",
+          "annotation": "な"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "家並",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "いえ"
+        },
+        {
+          "text": "並",
+          "annotation": "なみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "屋並み",
+      "furiganaExpression": [
+        {
+          "text": "屋",
+          "annotation": "や"
+        },
+        {
+          "text": "並",
+          "annotation": "な"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "屋並",
+      "furiganaExpression": [
+        {
+          "text": "屋",
+          "annotation": "や"
+        },
+        {
+          "text": "並",
+          "annotation": "なみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "row of houses",
+        "each house",
+        "every house",
+        "every door"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "reeks huizen",
+        "rij huizen",
+        "huizenrij",
+        "voorkomen",
+        "uiterlijk van de huizen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Häuserreihe",
+        "Straßenzug",
+        "Häuserflucht",
+        "jedes Haus",
+        "durchschnittlich",
+        "Häuserzeile",
+        "an jeder Türe",
+        "von Haus zu Haus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "házsor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) ряд домов",
+        "2) каждый дом",
+        "{～に} в каждый дом, в каждую дверь, от двери к двери, от дома к дому, из дома в дом",
+        "1. ряд домов",
+        "2. в каждом доме"
+      ]
+    }
+  ]
+}

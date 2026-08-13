@@ -1,0 +1,71 @@
+{
+  "id": "1534390",
+  "readings": [
+    {
+      "kanaExpression": "あみど",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "網戸",
+      "furiganaExpression": [
+        {
+          "text": "網",
+          "annotation": "あみ"
+        },
+        {
+          "text": "戸",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "window screen",
+        "insect screen",
+        "mosquito screen",
+        "screen",
+        "screen door"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "raamhor",
+        "hor",
+        "chassinet",
+        "{Belg.N.} vliegenraam",
+        "{gew.} zetter",
+        "{gew.} zift",
+        "hordeur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fliegenfenster",
+        "Moskitofenster",
+        "Fliegentüre",
+        "Gazetür",
+        "Insektenschutztür",
+        "Tür mit Fliegenschutzgitter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дверь с проволочной сеткой"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mosquitera",
+        "tela mosquitera"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "1477870",
+  "readings": [
+    {
+      "kanaExpression": "はつびょう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "発病",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はつ"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 13550
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "onset of an illness",
+        "falling ill"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ziek worden",
+        "het ziek worden",
+        "ziekteaanval",
+        "aanval",
+        "uitbraak",
+        "outbreak",
+        "{Belg.N.} opstoot"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(vs) tomber malade"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erkranken",
+        "krank werden",
+        "Erkrankung",
+        "Ausbruch einer Krankheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "roham"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возникновение болезни, заболевание",
+        "{～する} заболеть; начаться (о болезни)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izbruhniti bolezen",
+        "pojaviti se bolezen",
+        "izbruh bolezni"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ataque (enfermedad)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1303730",
+  "readings": [
+    {
+      "kanaExpression": "さんいん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "産院",
+      "furiganaExpression": [
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "院",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "maternity hospital"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kraamkliniek",
+        "kraaminrichting",
+        "materniteit",
+        "{Belg.N.} moederhuis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frauenklinik",
+        "Entbindungsklinik",
+        "Entbindungsheim"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szülőotthon"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "родильный дом"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hospital de maternidad"
+      ]
+    }
+  ]
+}

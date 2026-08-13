@@ -1,0 +1,61 @@
+{
+  "id": "1707980",
+  "readings": [
+    {
+      "kanaExpression": "しゅいしょ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "趣意書",
+      "furiganaExpression": [
+        {
+          "text": "趣",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prospectus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Programm",
+        "Prospekt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jegyzési felhívás",
+        "prospektus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проспект (напр. книги)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "prospekt"
+      ]
+    }
+  ]
+}

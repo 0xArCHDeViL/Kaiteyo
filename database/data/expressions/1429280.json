@@ -1,0 +1,81 @@
+{
+  "id": "1429280",
+  "readings": [
+    {
+      "kanaExpression": "ちょうど",
+      "rank": 1654
+    },
+    {
+      "kanjiExpression": "調度",
+      "furiganaExpression": [
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "household items",
+        "furniture",
+        "furnishings",
+        "fixtures",
+        "supplies",
+        "bow and arrow"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "huisraad",
+        "inboedel",
+        "meubilering",
+        "meubilair",
+        "meubels",
+        "pijl en boog"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "provisions",
+        "équipement",
+        "ameublement",
+        "meubles",
+        "appareils"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hausrat",
+        "Möbel",
+        "Einrichtung",
+        "Utensilien",
+        "Pfeil und Bogen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pénzellátmány",
+        "bútor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) предметы обстановки; утварь",
+        "2) регулировка, настройка"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "1582240",
+  "readings": [
+    {
+      "kanaExpression": "とうたい"
+    },
+    {
+      "kanaExpression": "とうだい",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "凍餒",
+      "furiganaExpression": [
+        {
+          "text": "凍",
+          "annotation": "とう"
+        },
+        {
+          "text": "餒",
+          "annotation": "だい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "privation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megfosztás",
+        "nyomor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) нужда, лишения"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "försakelse"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "1502710",
+  "readings": [
+    {
+      "kanaExpression": "ぶってき",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "物的",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶっ"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "material",
+        "physical"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "materiell",
+        "physisch",
+        "dinglich",
+        "Sach…",
+        "Real…"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anyag",
+        "anyagi",
+        "anyagias",
+        "dologi",
+        "érzéki",
+        "fizikai",
+        "fontos",
+        "lényegbevágó",
+        "lényeges",
+        "tárgyi",
+        "testi",
+        "gyógyhatású",
+        "gyógyító",
+        "invalidus",
+        "orvoslásra szoruló",
+        "természettani"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "материальный, вещественный; физический"
+      ]
+    }
+  ]
+}

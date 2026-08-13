@@ -1,0 +1,57 @@
+{
+  "id": "1415990",
+  "readings": [
+    {
+      "kanaExpression": "だくりゅう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "濁流",
+      "furiganaExpression": [
+        {
+          "text": "濁",
+          "annotation": "だく"
+        },
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "muddy stream"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "modderstroom"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ruisseau boueux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlammflut",
+        "schlammiger Fluss",
+        "trübe Strömung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мутный поток, мутное течение"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1774950",
+  "readings": [
+    {
+      "kanaExpression": "うわのせ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "上乗せ",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "うわ"
+        },
+        {
+          "text": "乗",
+          "annotation": "の"
+        },
+        {
+          "text": "せ"
+        }
+      ],
+      "rank": 14548
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "adding (an extra amount)",
+        "increasing",
+        "tacking on (a charge)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "draufschlagen",
+        "aufschlagen",
+        "zuschlagen",
+        "aufstocken",
+        "Draufgabe",
+        "Aufschlag",
+        "Zuschlag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "melléktantárgy",
+        "rendkívül",
+        "többletkiadás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "extra, añadido, suplemento, aumento"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "extra"
+      ]
+    }
+  ]
+}

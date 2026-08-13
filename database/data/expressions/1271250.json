@@ -1,0 +1,45 @@
+{
+  "id": "1271250",
+  "readings": [
+    {
+      "kanaExpression": "ごろく",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "語録",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "録",
+          "annotation": "ろく"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "analects",
+        "sayings"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Worte",
+        "Analekten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "Изречения (название сборников)"
+      ]
+    }
+  ]
+}

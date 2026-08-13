@@ -1,0 +1,43 @@
+{
+  "id": "1627520",
+  "readings": [
+    {
+      "kanaExpression": "ほすう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "歩数",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "ほ"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "number of steps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schrittzahl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "число шагов"
+      ]
+    }
+  ]
+}

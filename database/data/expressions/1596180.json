@@ -1,0 +1,68 @@
+{
+  "id": "1596180",
+  "readings": [
+    {
+      "kanaExpression": "せんけん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "浅見",
+      "furiganaExpression": [
+        {
+          "text": "浅",
+          "annotation": "せん"
+        },
+        {
+          "text": "見",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "淺見",
+      "furiganaExpression": [
+        {
+          "text": "淺",
+          "annotation": "せん"
+        },
+        {
+          "text": "見",
+          "annotation": "けん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shallow view",
+        "superficial idea"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "idées creuses",
+        "vues superficielles"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "oberflächliche Ansicht",
+        "oberflächliche Denkweise",
+        "Oberflächlichkeit",
+        "Äußerlichkeit",
+        "Flachheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) поверхностный взгляд"
+      ]
+    }
+  ]
+}

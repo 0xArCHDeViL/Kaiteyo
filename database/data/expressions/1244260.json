@@ -1,0 +1,50 @@
+{
+  "id": "1244260",
+  "readings": [
+    {
+      "kanaExpression": "くみん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "区民",
+      "furiganaExpression": [
+        {
+          "text": "区",
+          "annotation": "く"
+        },
+        {
+          "text": "民",
+          "annotation": "みん"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ward residents"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einwohner eines Stadtbezirks"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "население (жители) района (городского)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "stanovalec določenega mestnega predela",
+        "prebivalec četrti"
+      ]
+    }
+  ]
+}

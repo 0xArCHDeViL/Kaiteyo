@@ -1,0 +1,54 @@
+{
+  "id": "1162640",
+  "readings": [
+    {
+      "kanaExpression": "いっさく",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "一昨",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "昨",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one previous"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerverleden …",
+        "eergisteren",
+        "de …e"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vorletzt",
+        "vorvorig (Tag, Jahr, Abend)",
+        "vorgestrig"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un previo",
+        "un antes"
+      ]
+    }
+  ]
+}

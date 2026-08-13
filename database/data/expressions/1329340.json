@@ -1,0 +1,75 @@
+{
+  "id": "1329340",
+  "readings": [
+    {
+      "kanaExpression": "しゅと",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "首都",
+      "furiganaExpression": [
+        {
+          "text": "首",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "都",
+          "annotation": "と"
+        }
+      ],
+      "rank": 3302
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "capital (city)",
+        "metropolis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdstad"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "capitale",
+        "métropole"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptstadt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "főváros"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "столица, главный город"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "glavno mesto"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "capital"
+      ]
+    }
+  ]
+}

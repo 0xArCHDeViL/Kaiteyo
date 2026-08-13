@@ -1,0 +1,69 @@
+{
+  "id": "1417710",
+  "readings": [
+    {
+      "kanaExpression": "たんせん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "単線",
+      "furiganaExpression": [
+        {
+          "text": "単",
+          "annotation": "たん"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "single track (railway)",
+        "single line",
+        "solid wire",
+        "solid-core wire",
+        "single-strand wire"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "enkele lijn",
+        "{spoorw.} enkelspoor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einfaches Gleis",
+        "einfache Leitung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egy vágányú vasútvonal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) одна линия",
+        "2) одна колея",
+        "{～の} одноколейный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "enojne tračnice"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1278270",
+  "readings": [
+    {
+      "kanaExpression": "こうむ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "工務",
+      "furiganaExpression": [
+        {
+          "text": "工",
+          "annotation": "こう"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        }
+      ],
+      "rank": 10413
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "engineering",
+        "engineering works"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bauarbeiten",
+        "Ingenieurarbeiten",
+        "Fabrkarbeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fondorlat",
+        "gépészet",
+        "gépszerkesztés",
+        "hadmérnökség",
+        "machináció",
+        "mérnöki munka",
+        "mérnöki tudomány",
+        "mérnökség",
+        "műszaki tudományok",
+        "technika"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "технические (строительные) работы"
+      ]
+    }
+  ]
+}

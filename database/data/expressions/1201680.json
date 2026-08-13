@@ -1,0 +1,73 @@
+{
+  "id": "1201680",
+  "readings": [
+    {
+      "kanaExpression": "かいなん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "海難",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "難",
+          "annotation": "なん"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "accident at sea",
+        "sea disaster",
+        "shipwreck"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nood op zee",
+        "zeenood"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "accident en mer",
+        "naufrage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seenot",
+        "Schiffbruch",
+        "Havarie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hajótörés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кораблекрушение; авария (бедствие) на море"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "naufragio"
+      ]
+    }
+  ]
+}

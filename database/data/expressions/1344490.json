@@ -1,0 +1,86 @@
+{
+  "id": "1344490",
+  "readings": [
+    {
+      "kanaExpression": "たすけぶね",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "助け舟",
+      "furiganaExpression": [
+        {
+          "text": "助",
+          "annotation": "たす"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "舟",
+          "annotation": "ぶね"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "助け船",
+      "furiganaExpression": [
+        {
+          "text": "助",
+          "annotation": "たす"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "船",
+          "annotation": "ぶね"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "助けぶね",
+      "furiganaExpression": [
+        {
+          "text": "助",
+          "annotation": "たす"
+        },
+        {
+          "text": "けぶね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lifeboat",
+        "friend in need",
+        "helping hand",
+        "timely help"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rettungsboot",
+        "Rettungsanker",
+        "Rettungsring"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "háztartási alkalmazott",
+        "segédlet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спасательная лодка (шлюпка); (обр.) помощь"
+      ]
+    }
+  ]
+}

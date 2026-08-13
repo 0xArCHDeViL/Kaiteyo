@@ -1,0 +1,55 @@
+{
+  "id": "1421050",
+  "readings": [
+    {
+      "kanaExpression": "ちけん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "地検",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "検",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 12534
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "District Public Prosecutor\u0027s Office"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kadastrale opmeting",
+        "landopmeting",
+        "landmeting",
+        "kadastraal onderzoek",
+        "{jur.} arrondissementsparket",
+        "bureau van een arrondissementeel Openbaar Ministerie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Landvermessung und -untersuchung",
+        "lokale Staatsanwaltschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 地方検事局) районная прокуратура"
+      ]
+    }
+  ]
+}

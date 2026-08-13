@@ -1,0 +1,108 @@
+{
+  "id": "1303600",
+  "readings": [
+    {
+      "kanaExpression": "さんぷ",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "さっぷ"
+    },
+    {
+      "kanjiExpression": "散布",
+      "furiganaExpression": [
+        {
+          "text": "散",
+          "annotation": "さん"
+        },
+        {
+          "text": "布",
+          "annotation": "ぷ"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "撒布",
+      "furiganaExpression": [
+        {
+          "text": "撒",
+          "annotation": "さん"
+        },
+        {
+          "text": "布",
+          "annotation": "ぷ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dissemination",
+        "scattering",
+        "sprinkling",
+        "spraying"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sprenkelen",
+        "sprengen",
+        "sproeien",
+        "sprayen",
+        "besprenkelen",
+        "besproeien",
+        "dispergeren",
+        "sprenkeling",
+        "het sprengen",
+        "het sproeien",
+        "besprenkeling",
+        "besproeiing",
+        "dispersie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sprayen",
+        "Verspritzen",
+        "Versprengen",
+        "Verstreuen",
+        "Umherstreuen",
+        "Verteilen",
+        "sprayen",
+        "verspritzen",
+        "versprengen",
+        "verstreuen",
+        "umherstreuen",
+        "verteilen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elterjesztés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} рассыпать, разбрасывать, рассеивать; опрыскивать",
+        "(неправ.) 撒布",
+        "разбрасывание; разбрызгивание; (воен.) рассеивание",
+        "{～する} разбрасывать, рассыпать; разбрызгивать; (мор.) ставить мины"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "espolvoreado",
+        "dispersión",
+        "esparcimiento"
+      ]
+    }
+  ]
+}

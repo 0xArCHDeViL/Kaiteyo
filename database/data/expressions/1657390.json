@@ -1,0 +1,69 @@
+{
+  "id": "1657390",
+  "readings": [
+    {
+      "kanaExpression": "こくさいれんごう",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "国際連合",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "際",
+          "annotation": "さい"
+        },
+        {
+          "text": "連",
+          "annotation": "れん"
+        },
+        {
+          "text": "合",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "United Nations",
+        "UN"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Verenigde Naties",
+        "{afk.} VN",
+        "{Eng.",
+        "afk.} UN",
+        "afk.} UNO"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vereinte Nationen",
+        "Uno"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "Объединённые Нации; (ср.) こくれん"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Naciones Unidas"
+      ]
+    }
+  ]
+}

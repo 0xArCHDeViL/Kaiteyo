@@ -1,0 +1,65 @@
+{
+  "id": "1623130",
+  "readings": [
+    {
+      "kanaExpression": "ちょうみ",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "調味",
+      "furiganaExpression": [
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        }
+      ],
+      "rank": 11438
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seasoning",
+        "flavoring",
+        "flavouring"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het kruiden",
+        "het op smaak brengen",
+        "het smaak geven aan",
+        "kruiden",
+        "op smaak brengen",
+        "smaak geven aan",
+        "assaisonneren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Würzen",
+        "würzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fűszerezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приправа",
+        "{～する} приправлять"
+      ]
+    }
+  ]
+}

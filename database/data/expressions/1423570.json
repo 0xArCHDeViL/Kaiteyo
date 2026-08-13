@@ -1,0 +1,57 @@
+{
+  "id": "1423570",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうかがい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "中華街",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "華",
+          "annotation": "か"
+        },
+        {
+          "text": "街",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Chinatown"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Chinese wijk",
+        "buurt",
+        "Chinezenwijk",
+        "Chinatown"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Chinesenviertel",
+        "Chinatown"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "barrio chino"
+      ]
+    }
+  ]
+}

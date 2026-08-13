@@ -1,0 +1,62 @@
+{
+  "id": "1408650",
+  "readings": [
+    {
+      "kanaExpression": "うちこみ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "打ち込み",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "driving",
+        "pounding in",
+        "shooting into",
+        "implantation",
+        "invasion",
+        "falling badly in love",
+        "putting (one\u0027s heart) into",
+        "step recording (in electronic or computer music)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einrammen",
+        "Einschlagen",
+        "Schlagen",
+        "Beschuss",
+        "Schmettern",
+        "Hingabe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "becsavarás",
+        "hajtó"
+      ]
+    }
+  ]
+}

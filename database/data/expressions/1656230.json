@@ -1,0 +1,68 @@
+{
+  "id": "1656230",
+  "readings": [
+    {
+      "kanaExpression": "つめしょうぎ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "詰将棋",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つめ"
+        },
+        {
+          "text": "将",
+          "annotation": "しょう"
+        },
+        {
+          "text": "棋",
+          "annotation": "ぎ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "詰め将棋",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "将",
+          "annotation": "しょう"
+        },
+        {
+          "text": "棋",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "composed shogi problem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Shōgi-Problem",
+        "Shōgi-Aufgabe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шахматы, в которых победой считается мат королю"
+      ]
+    }
+  ]
+}

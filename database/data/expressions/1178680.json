@@ -1,0 +1,66 @@
+{
+  "id": "1178680",
+  "readings": [
+    {
+      "kanaExpression": "えんき",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "塩基",
+      "furiganaExpression": [
+        {
+          "text": "塩",
+          "annotation": "えん"
+        },
+        {
+          "text": "基",
+          "annotation": "き"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "base"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} base"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Base",
+        "Lauge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alaplap",
+        "alapszó",
+        "alapzat",
+        "bázis",
+        "támaszpont"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(хим.) основание"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "base (química)"
+      ]
+    }
+  ]
+}

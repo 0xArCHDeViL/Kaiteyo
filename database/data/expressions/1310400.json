@@ -1,0 +1,67 @@
+{
+  "id": "1310400",
+  "readings": [
+    {
+      "kanaExpression": "しせい",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "施政",
+      "furiganaExpression": [
+        {
+          "text": "施",
+          "annotation": "し"
+        },
+        {
+          "text": "政",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "government",
+        "administration",
+        "statesmanship"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "administration",
+        "gouvernement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Regierung",
+        "Administration"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kormányzat",
+        "adás",
+        "adminisztráció",
+        "államapparátus",
+        "beadás",
+        "kabinet",
+        "kormány",
+        "közigazgatás",
+        "ügyintézés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "администрация; управление государством"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "1654740",
+  "readings": [
+    {
+      "kanaExpression": "とりはらう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "取り払う",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "取払う",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "とり払う",
+      "furiganaExpression": [
+        {
+          "text": "とり"
+        },
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to clear away",
+        "to remove",
+        "to demolish"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abreißen",
+        "wegräumen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eltakarít",
+        "eltávolít",
+        "feltisztul",
+        "lebont",
+        "ledönt",
+        "lerombol",
+        "megdönt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "убирать, устранять; сносить (напр. здание)"
+      ]
+    }
+  ]
+}

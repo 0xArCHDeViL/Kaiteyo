@@ -1,0 +1,72 @@
+{
+  "id": "1413690",
+  "readings": [
+    {
+      "kanaExpression": "だいく",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "大工",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "だい"
+        },
+        {
+          "text": "工",
+          "annotation": "く"
+        }
+      ],
+      "rank": 9285
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "carpenter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "timmerman",
+        "timmerwerk",
+        "timmerkunst",
+        "het timmeren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "charpentier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zimmermann",
+        "Zimmermannsarbeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ács",
+        "asztalos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плотник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carpintero"
+      ]
+    }
+  ]
+}

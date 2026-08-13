@@ -1,0 +1,108 @@
+{
+  "id": "1497380",
+  "readings": [
+    {
+      "kanaExpression": "うき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "浮き",
+      "furiganaExpression": [
+        {
+          "text": "浮",
+          "annotation": "う"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "浮子",
+      "furiganaExpression": [
+        {
+          "text": "浮子",
+          "annotation": "うき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "泛子",
+      "furiganaExpression": [
+        {
+          "text": "泛子",
+          "annotation": "うき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "floating",
+        "buoyancy",
+        "fishing float",
+        "bobber",
+        "buoy",
+        "lifebuoy",
+        "life belt",
+        "float",
+        "rubber ring"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "drijvend voorwerp",
+        "drijflichaam",
+        "drijver",
+        "kurk",
+        "dobber",
+        "sim",
+        "vlotter",
+        "boei",
+        "reddingsboei",
+        "reddingsgordel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwimmer",
+        "Pose",
+        "Boje",
+        "Rettungsring",
+        "Schwimmring",
+        "Schwimmgürtel",
+        "Rettungsboje"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tutaj",
+        "bója",
+        "úszó (folyadékszint jelző)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поплавок",
+        "1) поплавок",
+        "2) буй",
+        "3) спасательный (плавательный) круг"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "boya",
+        "flotador",
+        "corcho (pesca)"
+      ]
+    }
+  ]
+}

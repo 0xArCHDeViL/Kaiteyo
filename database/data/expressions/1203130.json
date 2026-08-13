@@ -1,0 +1,115 @@
+{
+  "id": "1203130",
+  "readings": [
+    {
+      "kanaExpression": "かいがら",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "貝殻",
+      "furiganaExpression": [
+        {
+          "text": "貝",
+          "annotation": "かい"
+        },
+        {
+          "text": "殻",
+          "annotation": "がら"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "貝がら",
+      "furiganaExpression": [
+        {
+          "text": "貝",
+          "annotation": "かい"
+        },
+        {
+          "text": "がら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "貝殼",
+      "furiganaExpression": [
+        {
+          "text": "貝",
+          "annotation": "かい"
+        },
+        {
+          "text": "殼",
+          "annotation": "がら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seashell",
+        "shell"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} schelp",
+        "{海の} zeeschelp"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "coquille"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Muschelschale"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csigaház",
+        "héjszerkezet",
+        "karosszérialemezek",
+        "kéreg",
+        "köpeny",
+        "lövedék",
+        "versenycsónak"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "раковина (пустая)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "školjka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "concha",
+        "caparazón",
+        "coraza"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skal",
+        "snäckskal"
+      ]
+    }
+  ]
+}

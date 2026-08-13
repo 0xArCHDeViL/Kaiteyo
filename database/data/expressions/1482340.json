@@ -1,0 +1,81 @@
+{
+  "id": "1482340",
+  "readings": [
+    {
+      "kanaExpression": "ばんぐみ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "番組",
+      "furiganaExpression": [
+        {
+          "text": "番",
+          "annotation": "ばん"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐみ"
+        }
+      ],
+      "rank": 897
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "program (e.g. TV)",
+        "programme"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "programma",
+        "uitzending",
+        "affiche"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "émission (par ex. de télévision)",
+        "programme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Programm",
+        "Rundfunksendung",
+        "Fernsehsendung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "értesítő",
+        "célkitűzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "программа (театральная, концертная и т. п.); репертуар"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "program (televizijski)",
+        "TV oddaja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "programa (ej. TV)"
+      ]
+    }
+  ]
+}

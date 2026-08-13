@@ -1,0 +1,57 @@
+{
+  "id": "1729980",
+  "readings": [
+    {
+      "kanaExpression": "ひいちにちと",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "日一日と",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "と"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "day by day"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "täglich",
+        "von Tag zu Tag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "изо дня в день, день за днём, с каждым днём"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "día tras día"
+      ]
+    }
+  ]
+}

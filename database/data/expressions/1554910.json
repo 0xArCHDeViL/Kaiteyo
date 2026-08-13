@@ -1,0 +1,72 @@
+{
+  "id": "1554910",
+  "readings": [
+    {
+      "kanaExpression": "りきがく",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "力学",
+      "furiganaExpression": [
+        {
+          "text": "力",
+          "annotation": "りき"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 8890
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mechanics",
+        "dynamics"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{techn.",
+        "nat.} dynamica",
+        "krachtenleer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dynamik",
+        "Mechanik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "géptan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физ.) динамика; механика"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mecánica",
+        "dinámica"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mekanik"
+      ]
+    }
+  ]
+}

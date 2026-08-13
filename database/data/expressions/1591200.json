@@ -1,0 +1,91 @@
+{
+  "id": "1591200",
+  "readings": [
+    {
+      "kanaExpression": "きじ",
+      "rank": 30000
+    },
+    {
+      "kanaExpression": "きぎす"
+    },
+    {
+      "kanaExpression": "きぎし"
+    },
+    {
+      "kanaExpression": "キジ"
+    },
+    {
+      "kanjiExpression": "雉",
+      "furiganaExpression": [
+        {
+          "text": "雉",
+          "annotation": "きじ"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "雉子",
+      "furiganaExpression": [
+        {
+          "text": "雉",
+          "annotation": "き"
+        },
+        {
+          "text": "子",
+          "annotation": "じ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "green pheasant (Phasianus versicolor)",
+        "Japanese pheasant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} fazant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fasan (alte Bez.)",
+        "Phasianus colchicus tohkaidi",
+        "Fasan",
+        "Kigisu (eine Volksliedart)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fácán"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пёстрый фазан, Phasianus versicolor versicolor (Vieillot.)",
+        "(см.) きじ【雉子】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "faisán"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fasan",
+        "ädelfasan"
+      ]
+    }
+  ]
+}

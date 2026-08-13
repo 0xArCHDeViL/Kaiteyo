@@ -1,0 +1,44 @@
+{
+  "id": "1204220",
+  "readings": [
+    {
+      "kanaExpression": "がいよう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "外用",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "external use"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "äußerliche Anwendung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "для наружного употребления",
+        "{～する} употреблять в качестве наружного средства"
+      ]
+    }
+  ]
+}

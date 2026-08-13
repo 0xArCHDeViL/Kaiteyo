@@ -1,0 +1,37 @@
+{
+  "id": "1501310",
+  "readings": [
+    {
+      "kanaExpression": "ふくがん",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "複眼",
+      "furiganaExpression": [
+        {
+          "text": "複",
+          "annotation": "ふく"
+        },
+        {
+          "text": "眼",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "compound eye"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Facettenauge"
+      ]
+    }
+  ]
+}

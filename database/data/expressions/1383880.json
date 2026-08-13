@@ -1,0 +1,71 @@
+{
+  "id": "1383880",
+  "readings": [
+    {
+      "kanaExpression": "きりばな",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "切り花",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "花",
+          "annotation": "ばな"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "切花",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "花",
+          "annotation": "ばな"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cut flowers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schnittblume"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vágott virág"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "срезанные цветы"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lösa blommor"
+      ]
+    }
+  ]
+}

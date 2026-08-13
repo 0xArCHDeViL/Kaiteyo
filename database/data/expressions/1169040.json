@@ -1,0 +1,102 @@
+{
+  "id": "1169040",
+  "readings": [
+    {
+      "kanaExpression": "ひきあて",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "引き当て",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "当",
+          "annotation": "あ"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "引当て",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "当",
+          "annotation": "あ"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "引当",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "当",
+          "annotation": "あて"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mortgage",
+        "security"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rücklage",
+        "Rückstellungen",
+        "Reservefonds",
+        "Hypothek",
+        "Sicherheit",
+        "Pfand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "betáblázás",
+        "jelzálog",
+        "állami kötvény",
+        "biztonság",
+        "biztosíték"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (см.) ていとう【抵当】",
+        "2) (см.) こころあて"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hipoteca",
+        "seguridad"
+      ]
+    }
+  ]
+}

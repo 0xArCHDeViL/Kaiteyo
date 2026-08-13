@@ -1,0 +1,44 @@
+{
+  "id": "1681290",
+  "readings": [
+    {
+      "kanaExpression": "かたおや",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "片親",
+      "furiganaExpression": [
+        {
+          "text": "片",
+          "annotation": "かた"
+        },
+        {
+          "text": "親",
+          "annotation": "おや"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one parent",
+        "single parent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Elternteil"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "один из родителей"
+      ]
+    }
+  ]
+}

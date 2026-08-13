@@ -1,0 +1,100 @@
+{
+  "id": "1696160",
+  "readings": [
+    {
+      "kanaExpression": "あさがけ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "朝駆け",
+      "furiganaExpression": [
+        {
+          "text": "朝",
+          "annotation": "あさ"
+        },
+        {
+          "text": "駆",
+          "annotation": "が"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "朝駈け",
+      "furiganaExpression": [
+        {
+          "text": "朝",
+          "annotation": "あさ"
+        },
+        {
+          "text": "駈",
+          "annotation": "が"
+        },
+        {
+          "text": "け"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "朝駆",
+      "furiganaExpression": [
+        {
+          "text": "朝",
+          "annotation": "あさ"
+        },
+        {
+          "text": "駆",
+          "annotation": "がけ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "朝がけ",
+      "furiganaExpression": [
+        {
+          "text": "朝",
+          "annotation": "あさ"
+        },
+        {
+          "text": "がけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "early-morning attack"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vroegochtendlijke paardenrit",
+        "vroegrit",
+        "{mil.} raid",
+        "aanval \u0027s ochtends vroeg",
+        "ochtendoffensief",
+        "{journ.} bezoek door journalisten \u0027s ochtends vroeg",
+        "koud kunstje",
+        "kinderspel",
+        "diefstal in de vroege ochtend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "am frühen Morgen angreifen",
+        "jmdn. am frühen Morgen aufsuchen",
+        "Attacke bei Tagesanbruch",
+        "morgendlicher Überfall",
+        "Besuch am frühen Morgen",
+        "morgendlicher Auslauf (eines Pferdes)"
+      ]
+    }
+  ]
+}

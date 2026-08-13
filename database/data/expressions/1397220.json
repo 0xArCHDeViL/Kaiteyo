@@ -1,0 +1,82 @@
+{
+  "id": "1397220",
+  "readings": [
+    {
+      "kanaExpression": "そざい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "素材",
+      "furiganaExpression": [
+        {
+          "text": "素",
+          "annotation": "そ"
+        },
+        {
+          "text": "材",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 2279
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ingredient",
+        "(raw) material",
+        "resource",
+        "unprocessed timber",
+        "raw timber",
+        "subject matter",
+        "topic"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "materiaal",
+        "grondstof",
+        "stof"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "matériaux",
+        "matière (d\u0027un livre)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stoff",
+        "Material",
+        "Zutat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сырьё, материалы",
+        "{～的} простой, элементарный",
+        "2) тема, содержание (художественного произведения)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "gradivo",
+        "snov"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "material",
+        "materiales"
+      ]
+    }
+  ]
+}

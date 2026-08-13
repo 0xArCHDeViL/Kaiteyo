@@ -1,0 +1,74 @@
+{
+  "id": "1370180",
+  "readings": [
+    {
+      "kanaExpression": "じんえい",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "陣営",
+      "furiganaExpression": [
+        {
+          "text": "陣",
+          "annotation": "じん"
+        },
+        {
+          "text": "営",
+          "annotation": "えい"
+        }
+      ],
+      "rank": 9607
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "camp (supporters of a doctrine, party, etc.)",
+        "faction (of a party)",
+        "military camp",
+        "encampment",
+        "cantonment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kamp",
+        "kampement",
+        "legerplaats"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "camp",
+        "campement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lager",
+        "Feldlager",
+        "ideologisches Lager"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "abszurd",
+        "buzis",
+        "groteszk",
+        "nosztalgikusan régimódi",
+        "sátortábor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прям. и перен.) лагерь"
+      ]
+    }
+  ]
+}

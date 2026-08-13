@@ -1,0 +1,69 @@
+{
+  "id": "1421140",
+  "readings": [
+    {
+      "kanaExpression": "ちしつがく",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "地質学",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "geology"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geologie",
+        "{veroud.} aardkunde",
+        "{afk.} geol."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geologie",
+        "Erdkunde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "földtan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "геология",
+        "{～的} геологический"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "geologi"
+      ]
+    }
+  ]
+}

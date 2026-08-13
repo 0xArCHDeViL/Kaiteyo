@@ -1,0 +1,71 @@
+{
+  "id": "1460870",
+  "readings": [
+    {
+      "kanaExpression": "なんい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "難易",
+      "furiganaExpression": [
+        {
+          "text": "難",
+          "annotation": "なん"
+        },
+        {
+          "text": "易",
+          "annotation": "い"
+        }
+      ],
+      "rank": 10428
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(relative) difficulty"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(relatieve) moeilijkheid",
+        "het al dan niet moeilijk zijn"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "difficulté"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwierigkeit",
+        "relative Schwierigkeit",
+        "Schwierigkeit und Leichtigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nehézség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) трудность (относительная)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dificultad",
+        "complejidad"
+      ]
+    }
+  ]
+}

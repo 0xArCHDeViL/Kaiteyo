@@ -1,0 +1,67 @@
+{
+  "id": "1508810",
+  "readings": [
+    {
+      "kanaExpression": "べいか",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "米価",
+      "furiganaExpression": [
+        {
+          "text": "米",
+          "annotation": "べい"
+        },
+        {
+          "text": "価",
+          "annotation": "か"
+        }
+      ],
+      "rank": 11182
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rice price"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijstprijs"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prix du riz"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reispreis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цены на рис"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "cena riža"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precio del arroz"
+      ]
+    }
+  ]
+}

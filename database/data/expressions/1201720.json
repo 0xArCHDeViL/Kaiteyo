@@ -1,0 +1,78 @@
+{
+  "id": "1201720",
+  "readings": [
+    {
+      "kanaExpression": "かいひん",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "海浜",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "浜",
+          "annotation": "ひん"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seashore",
+        "seaside",
+        "beach"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeekust",
+        "kust",
+        "zeestrand",
+        "strand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bord de mer",
+        "rivage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Küste",
+        "Strand",
+        "Meeresküste",
+        "Meeresstrand",
+        "Gestade"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tengerpart"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[морское] побережье, взморье; морской пляж"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "orilla (del mar)",
+        "playa"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "1453670",
+  "readings": [
+    {
+      "kanaExpression": "みちびきだす",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "導き出す",
+      "furiganaExpression": [
+        {
+          "text": "導",
+          "annotation": "みちび"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 12375
+    },
+    {
+      "kanjiExpression": "導きだす",
+      "furiganaExpression": [
+        {
+          "text": "導",
+          "annotation": "みちび"
+        },
+        {
+          "text": "きだす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to draw (conclusion)",
+        "to deduce",
+        "to derive"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leiden uit",
+        "weghalen uit",
+        "{答えを} afleiden uit",
+        "deduceren uit",
+        "opmaken uit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ziehen (eine Schlussfolgerung)",
+        "auf etw. schließen",
+        "etw. ableiten",
+        "etw. herleiten",
+        "ableiten",
+        "abführen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "származtat"
+      ]
+    }
+  ]
+}

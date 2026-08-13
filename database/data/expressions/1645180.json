@@ -1,0 +1,54 @@
+{
+  "id": "1645180",
+  "readings": [
+    {
+      "kanaExpression": "さきぼそり",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "先細り",
+      "furiganaExpression": [
+        {
+          "text": "先",
+          "annotation": "さき"
+        },
+        {
+          "text": "細",
+          "annotation": "ぼそ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dwindling",
+        "declining",
+        "diminishing",
+        "tapering off",
+        "tapering (to a point)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verjüngung",
+        "Zuspitzung",
+        "Nachlassen",
+        "Schwächerwerden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (см.) さきぼそ",
+        "2) плохие перспективы; (бирж.) перспективы снижения"
+      ]
+    }
+  ]
+}

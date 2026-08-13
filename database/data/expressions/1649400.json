@@ -1,0 +1,52 @@
+{
+  "id": "1649400",
+  "readings": [
+    {
+      "kanaExpression": "うまぬし",
+      "rank": 26500
+    },
+    {
+      "kanaExpression": "ばしゅ"
+    },
+    {
+      "kanaExpression": "ばぬし"
+    },
+    {
+      "kanjiExpression": "馬主",
+      "furiganaExpression": [
+        {
+          "text": "馬",
+          "annotation": "うま"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "owner of a horse (esp. racehorse)",
+        "registered owner (of a racehorse)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "paardenbezitter",
+        "paardeneigenaar",
+        "{i.h.b.} eigenaar van een racepaard"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pferdebesitzer"
+      ]
+    }
+  ]
+}

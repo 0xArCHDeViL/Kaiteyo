@@ -1,0 +1,43 @@
+{
+  "id": "1213670",
+  "readings": [
+    {
+      "kanaExpression": "かんさつい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "監察医",
+      "furiganaExpression": [
+        {
+          "text": "監",
+          "annotation": "かん"
+        },
+        {
+          "text": "察",
+          "annotation": "さつ"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "medical coroner",
+        "medical examiner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gerichtsmediziner",
+        "Leichenbeschauer"
+      ]
+    }
+  ]
+}

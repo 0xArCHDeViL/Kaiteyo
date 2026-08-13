@@ -1,0 +1,58 @@
+{
+  "id": "1590210",
+  "readings": [
+    {
+      "kanaExpression": "かさいりゅう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "火砕流",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "砕",
+          "annotation": "さい"
+        },
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "火災流",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "災",
+          "annotation": "さい"
+        },
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pyroclastic flow"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "pyroklastischer Strom (Strom von geschmolzenem Fels und Vulkanasche)"
+      ]
+    }
+  ]
+}

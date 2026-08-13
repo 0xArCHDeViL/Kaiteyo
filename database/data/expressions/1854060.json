@@ -1,0 +1,66 @@
+{
+  "id": "1854060",
+  "readings": [
+    {
+      "kanaExpression": "そめ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "染め",
+      "furiganaExpression": [
+        {
+          "text": "染",
+          "annotation": "そ"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "染",
+      "furiganaExpression": [
+        {
+          "text": "染",
+          "annotation": "そめ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dyeing",
+        "printing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verving",
+        "het verven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Farbe",
+        "Färbung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "festés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окраска (ткани, волос)"
+      ]
+    }
+  ]
+}

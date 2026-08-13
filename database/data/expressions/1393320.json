@@ -1,0 +1,106 @@
+{
+  "id": "1393320",
+  "readings": [
+    {
+      "kanaExpression": "まえぶれ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "前触れ",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "まえ"
+        },
+        {
+          "text": "触",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "前ぶれ",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "まえ"
+        },
+        {
+          "text": "ぶれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "advance warning",
+        "previous notice",
+        "prior announcement",
+        "herald",
+        "harbinger",
+        "forerunner",
+        "portent",
+        "sign",
+        "omen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "annonce",
+        "préavis",
+        "signe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "im Voraus ankündigen",
+        "vorher ansagen",
+        "eine Voranzeige machen",
+        "Vorankündigung",
+        "vorherige Benachrichtigung",
+        "Vorzeichen",
+        "Vorbote",
+        "Anzeichen",
+        "Omen",
+        "Auftakt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előjel",
+        "ómen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предупреждение, предварительное извещение",
+        "{～する} предупреждать, оповещать заранее"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "predhodna napoved",
+        "glasnik",
+        "oznanilo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aviso previo",
+        "presagio"
+      ]
+    }
+  ]
+}

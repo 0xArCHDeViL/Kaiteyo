@@ -1,0 +1,61 @@
+{
+  "id": "1640170",
+  "readings": [
+    {
+      "kanaExpression": "こうろ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "高炉",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "炉",
+          "annotation": "ろ"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blast furnace"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoogoven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hochofen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vasolvasztó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "домна, доменная печь"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "masugn"
+      ]
+    }
+  ]
+}

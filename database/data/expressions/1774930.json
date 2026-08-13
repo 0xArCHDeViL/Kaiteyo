@@ -1,0 +1,51 @@
+{
+  "id": "1774930",
+  "readings": [
+    {
+      "kanaExpression": "じょうこくしん",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "上告審",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "じょう"
+        },
+        {
+          "text": "告",
+          "annotation": "こく"
+        },
+        {
+          "text": "審",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "appeal hearing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Revisionsinstanz",
+        "Berufungsinstanz",
+        "Revisionsgericht",
+        "Revisionsverhandlung",
+        "Berufungsverhandlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заседание апелляционного (кассационного) суда"
+      ]
+    }
+  ]
+}

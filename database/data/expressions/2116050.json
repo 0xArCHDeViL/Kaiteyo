@@ -1,0 +1,70 @@
+{
+  "id": "2116050",
+  "readings": [
+    {
+      "kanaExpression": "おもてなし",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お持て成し",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "成",
+          "annotation": "な"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hospitality",
+        "reception",
+        "treatment",
+        "service",
+        "entertainment",
+        "(light) refreshment",
+        "entertaining with food and drink",
+        "treat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Empfang",
+        "Aufnahme",
+        "Behandlung",
+        "Bewirtung",
+        "Bedienung",
+        "Traktament",
+        "Gastfreundschaft",
+        "Gastlichkeit",
+        "Wirtlichkeit",
+        "Geselligkeit",
+        "Unterhaltung"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hospitalidad",
+        "entretenimiento",
+        "servicio"
+      ]
+    }
+  ]
+}

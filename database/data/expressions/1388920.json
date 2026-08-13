@@ -1,0 +1,60 @@
+{
+  "id": "1388920",
+  "readings": [
+    {
+      "kanaExpression": "せんしゅうらく",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "千秋楽",
+      "furiganaExpression": [
+        {
+          "text": "千",
+          "annotation": "せん"
+        },
+        {
+          "text": "秋",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "楽",
+          "annotation": "らく"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "final day of a performance",
+        "closing date",
+        "final show",
+        "final day of a tournament"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{theat.} laatste dag",
+        "slotdag van een opvoering",
+        "wedstrijd enz."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letzter Tag (eines Sumō-Turniers od. einer Theateraufführung)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (уст.) тысяча осенних радостей (название заключительной пьесы в программе придворной музыки)",
+        "2) (перен.) закрытие сезона",
+        "{～になる} закрыться (о театре)"
+      ]
+    }
+  ]
+}

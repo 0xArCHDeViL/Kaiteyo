@@ -1,0 +1,47 @@
+{
+  "id": "1211060",
+  "readings": [
+    {
+      "kanaExpression": "かんじんちょう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "勧進帳",
+      "furiganaExpression": [
+        {
+          "text": "勧",
+          "annotation": "かん"
+        },
+        {
+          "text": "進",
+          "annotation": "じん"
+        },
+        {
+          "text": "帳",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "temple solicitation book"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stiftungsliste"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лист (книга) пожертвований"
+      ]
+    }
+  ]
+}

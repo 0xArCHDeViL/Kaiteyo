@@ -1,0 +1,103 @@
+{
+  "id": "1834660",
+  "readings": [
+    {
+      "kanaExpression": "うめあわせ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "埋め合わせ",
+      "furiganaExpression": [
+        {
+          "text": "埋",
+          "annotation": "う"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせ"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "埋め合せ",
+      "furiganaExpression": [
+        {
+          "text": "埋",
+          "annotation": "う"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "合",
+          "annotation": "あわ"
+        },
+        {
+          "text": "せ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "compensation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "genoegdoening",
+        "schadeloosstelling",
+        "voldoening",
+        "compensatie",
+        "vergoeding",
+        "goedmaking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ersatz",
+        "Entschädigung",
+        "Entgeltung",
+        "Wiedergutmachung",
+        "Ausgleich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszámítás",
+        "ellensúlyozás",
+        "kártalanítás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compensación",
+        "resarcimiento",
+        "indemnización"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ersättning",
+        "gottgörelse",
+        "kompensation",
+        "utjämnande",
+        "vederlag"
+      ]
+    }
+  ]
+}

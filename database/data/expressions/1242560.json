@@ -1,0 +1,70 @@
+{
+  "id": "1242560",
+  "readings": [
+    {
+      "kanaExpression": "きんらい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "近来",
+      "furiganaExpression": [
+        {
+          "text": "近",
+          "annotation": "きん"
+        },
+        {
+          "text": "来",
+          "annotation": "らい"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "recently"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de laatste tijd",
+        "recentelijk",
+        "kort geleden",
+        "laatst",
+        "onlangs",
+        "{form.} kortelings",
+        "de afgelopen tijd",
+        "vandaag de dag",
+        "tegenwoordig",
+        "dezer dagen",
+        "heden ten dage",
+        "{Belg.N.} de dag van vandaag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letzte Zeit",
+        "jüngst",
+        "in der letzten Zeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mostanában",
+        "nemrégiben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "в (за) последнее время",
+        "{～の} недавний, последний"
+      ]
+    }
+  ]
+}

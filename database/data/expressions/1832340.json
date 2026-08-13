@@ -1,0 +1,51 @@
+{
+  "id": "1832340",
+  "readings": [
+    {
+      "kanaExpression": "ねっぷう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "熱風",
+      "furiganaExpression": [
+        {
+          "text": "熱",
+          "annotation": "ねっ"
+        },
+        {
+          "text": "風",
+          "annotation": "ぷう"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hot wind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heißer Wind",
+        "Heißluft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "forró levegő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) знойный ветер",
+        "2) поток горячего воздуха; (тех.) горячее дутьё"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "1437970",
+  "readings": [
+    {
+      "kanaExpression": "てっぱん",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "テッパン"
+    },
+    {
+      "kanjiExpression": "鉄板",
+      "furiganaExpression": [
+        {
+          "text": "鉄",
+          "annotation": "てっ"
+        },
+        {
+          "text": "板",
+          "annotation": "ぱん"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "鉄鈑",
+      "furiganaExpression": [
+        {
+          "text": "鉄",
+          "annotation": "てっ"
+        },
+        {
+          "text": "鈑",
+          "annotation": "ぱん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "iron plate",
+        "steel plate",
+        "sure thing",
+        "certain winner",
+        "no-fail joke",
+        "joke that gets people every time"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ijzeren plaat",
+        "{レンジの} bakplaat",
+        "kookplaat",
+        "{i.h.b.} teppanyakiplaat",
+        "{鉄琴の} metalen staafje",
+        "{slang} feit",
+        "zekerheid",
+        "vaststaand iets",
+        "{i.h.b.} gedoodverfde winnaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eisenplatte",
+        "eiserne Platte",
+        "Eisenblech",
+        "Gewissheit",
+        "Sicherheit (des Erfolgs)",
+        "sicherer Sieger",
+        "Favorit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vaslemez"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "железный (стальной) лист; листовое железо"
+      ]
+    }
+  ]
+}

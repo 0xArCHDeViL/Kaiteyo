@@ -1,0 +1,45 @@
+{
+  "id": "1622370",
+  "readings": [
+    {
+      "kanaExpression": "びょうれき",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "病歴",
+      "furiganaExpression": [
+        {
+          "text": "病",
+          "annotation": "びょう"
+        },
+        {
+          "text": "歴",
+          "annotation": "れき"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "clinical (case) history"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krankengeschichte",
+        "Vorgeschichte",
+        "Anamnese"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) история болезни (больного)"
+      ]
+    }
+  ]
+}

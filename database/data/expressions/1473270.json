@@ -1,0 +1,43 @@
+{
+  "id": "1473270",
+  "readings": [
+    {
+      "kanaExpression": "ばいがく",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "倍額",
+      "furiganaExpression": [
+        {
+          "text": "倍",
+          "annotation": "ばい"
+        },
+        {
+          "text": "額",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "double amount"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "doppelte Summe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "двойная сумма"
+      ]
+    }
+  ]
+}

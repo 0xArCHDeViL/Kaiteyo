@@ -1,0 +1,83 @@
+{
+  "id": "1617840",
+  "readings": [
+    {
+      "kanaExpression": "けんぶん",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "検分",
+      "furiganaExpression": [
+        {
+          "text": "検",
+          "annotation": "けん"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "見分",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "けん"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inspection",
+        "examination",
+        "survey"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "prüfen",
+        "besichtigen",
+        "mustern",
+        "untersuchen",
+        "inspizieren",
+        "Inspektion",
+        "Besichtigung",
+        "Musterung",
+        "Prüfung",
+        "Untersuchung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vizsgálat",
+        "vizsga",
+        "átnézés",
+        "felmérés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проверка, обследование; осмотр",
+        "{～する} проверять, обследовать; осматривать"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "besiktning"
+      ]
+    }
+  ]
+}

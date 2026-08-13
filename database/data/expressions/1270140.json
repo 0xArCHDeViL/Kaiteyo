@@ -1,0 +1,54 @@
+{
+  "id": "1270140",
+  "readings": [
+    {
+      "kanaExpression": "あとあじ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "後味",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "あと"
+        },
+        {
+          "text": "味",
+          "annotation": "あじ"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "aftertaste"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nasmaak",
+        "{ワインの} afdronk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachgeschmack",
+        "Abgang",
+        "Beigeschmack",
+        "Erinnerung",
+        "Nachhall"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вкус, остающийся во рту; (обр.) осадок, впечатление"
+      ]
+    }
+  ]
+}

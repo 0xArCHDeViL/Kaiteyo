@@ -1,0 +1,49 @@
+{
+  "id": "1311250",
+  "readings": [
+    {
+      "kanaExpression": "ししん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "私信",
+      "furiganaExpression": [
+        {
+          "text": "私",
+          "annotation": "し"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "private letter",
+        "personal letter",
+        "private message",
+        "secret correspondence",
+        "confidential report"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "privater Brief",
+        "Brief für den Privatgebrauch",
+        "geheime Mitteilung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "частное сообщение, частное письмо, частная телеграмма; частная корреспонденция"
+      ]
+    }
+  ]
+}

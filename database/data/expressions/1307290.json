@@ -1,0 +1,49 @@
+{
+  "id": "1307290",
+  "readings": [
+    {
+      "kanaExpression": "しせん",
+      "rank": 36000
+    },
+    {
+      "kanaExpression": "スーチョワン"
+    },
+    {
+      "kanjiExpression": "四川",
+      "furiganaExpression": [
+        {
+          "text": "四",
+          "annotation": "し"
+        },
+        {
+          "text": "川",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Sichuan (China)",
+        "Szechuan",
+        "Szechwan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Sìchuān",
+        "Setsj\u0027wan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sichuan (Prov. im zentralen China; am Oberlauf des Jangtsekiang)"
+      ]
+    }
+  ]
+}

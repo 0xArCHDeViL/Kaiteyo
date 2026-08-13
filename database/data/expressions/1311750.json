@@ -1,0 +1,113 @@
+{
+  "id": "1311750",
+  "readings": [
+    {
+      "kanaExpression": "あぶら",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "脂",
+      "furiganaExpression": [
+        {
+          "text": "脂",
+          "annotation": "あぶら"
+        }
+      ],
+      "rank": 10798
+    },
+    {
+      "kanjiExpression": "膏",
+      "furiganaExpression": [
+        {
+          "text": "膏",
+          "annotation": "あぶら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "膩",
+      "furiganaExpression": [
+        {
+          "text": "膩",
+          "annotation": "あぶら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fat",
+        "tallow",
+        "lard",
+        "grease"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} vet",
+        "talg",
+        "talk",
+        "{veroud.",
+        "inform.} reuzel",
+        "{gew.} smout",
+        "smeer",
+        "smeersel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gras",
+        "matière grasse",
+        "suif",
+        "saindoux",
+        "graisse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(tierisches)Fett",
+        "Talg",
+        "Schmiere",
+        "festes Fett",
+        "Unterhautfett",
+        "Speck",
+        "Blubber (bei Wal, Robbe etc.)",
+        "Walspeck",
+        "Schweiß"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hájas",
+        "java vminek",
+        "kiadós",
+        "testes",
+        "vaskos",
+        "vastag",
+        "vminek a java",
+        "zsír"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) 膩",
+        "жир, сало"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grasa",
+        "aceite",
+        "lubricante"
+      ]
+    }
+  ]
+}

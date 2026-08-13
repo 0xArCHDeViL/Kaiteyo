@@ -1,0 +1,64 @@
+{
+  "id": "1955640",
+  "readings": [
+    {
+      "kanaExpression": "ヒさん"
+    },
+    {
+      "kanaExpression": "ひさん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "ヒ酸",
+      "furiganaExpression": [
+        {
+          "text": "ヒ"
+        },
+        {
+          "text": "酸",
+          "annotation": "さん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "砒酸",
+      "furiganaExpression": [
+        {
+          "text": "砒",
+          "annotation": "ひ"
+        },
+        {
+          "text": "酸",
+          "annotation": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "arsenic acid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} arseenzuur",
+        "arsenicumzuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arseniksäure"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мышьяковая кислота"
+      ]
+    }
+  ]
+}

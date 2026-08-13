@@ -1,0 +1,96 @@
+{
+  "id": "1268990",
+  "readings": [
+    {
+      "kanaExpression": "ごご",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "午後",
+      "furiganaExpression": [
+        {
+          "text": "午",
+          "annotation": "ご"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 888
+    },
+    {
+      "kanjiExpression": "午后",
+      "furiganaExpression": [
+        {
+          "text": "午",
+          "annotation": "ご"
+        },
+        {
+          "text": "后",
+          "annotation": "ご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "afternoon",
+        "p.m."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "namiddag",
+        "middag",
+        "{afk.} p.m.",
+        "post meridiem"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "après-midi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "am Nachmittag",
+        "zweite Tageshälfte",
+        "Zeit von 12 Uhr mittags bis 0 Uhr",
+        "Nachmittag",
+        "Zeit von 12 Uhr mittags bis Abend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "délután"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "после полудня"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "popoldne"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "la tarde",
+        "p.m",
+        "P.M."
+      ]
+    }
+  ]
+}

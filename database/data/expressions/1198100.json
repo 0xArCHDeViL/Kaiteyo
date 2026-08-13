@@ -1,0 +1,85 @@
+{
+  "id": "1198100",
+  "readings": [
+    {
+      "kanaExpression": "かいぞえ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "介添え",
+      "furiganaExpression": [
+        {
+          "text": "介",
+          "annotation": "かい"
+        },
+        {
+          "text": "添",
+          "annotation": "ぞ"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "介添",
+      "furiganaExpression": [
+        {
+          "text": "介",
+          "annotation": "かい"
+        },
+        {
+          "text": "添",
+          "annotation": "ぞえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "helper (e.g. for a sick person)",
+        "assistant",
+        "bridesmaid",
+        "best man",
+        "cornerman",
+        "second"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "helfen",
+        "beistehen",
+        "sekundieren",
+        "Helfen",
+        "Beistehen",
+        "Assistieren",
+        "Sekundieren",
+        "Helfer",
+        "Beistand",
+        "Assistent",
+        "Sekundant",
+        "Brautführer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "segítő",
+        "helyettes-",
+        "tanársegéd",
+        "következő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "помощник; ассистент; секундант",
+        "{～する} помогать; содействовать; выступать в качестве секунданта"
+      ]
+    }
+  ]
+}

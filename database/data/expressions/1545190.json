@@ -1,0 +1,61 @@
+{
+  "id": "1545190",
+  "readings": [
+    {
+      "kanaExpression": "ようじ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "おさなどき"
+    },
+    {
+      "kanjiExpression": "幼時",
+      "furiganaExpression": [
+        {
+          "text": "幼",
+          "annotation": "よう"
+        },
+        {
+          "text": "時",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "childhood",
+        "infancy"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in der Kindheit",
+        "frühe Kindheit",
+        "frühes Kindesalter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bölcső"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "детство; младенчество"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuna"
+      ]
+    }
+  ]
+}

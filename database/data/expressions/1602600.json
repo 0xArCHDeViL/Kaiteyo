@@ -1,0 +1,102 @@
+{
+  "id": "1602600",
+  "readings": [
+    {
+      "kanaExpression": "ふしあわせ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "不幸せ",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "幸",
+          "annotation": "しあわ"
+        },
+        {
+          "text": "せ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "不仕合わせ",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unhappiness",
+        "misfortune",
+        "ill luck"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "infortune",
+        "malchance",
+        "malheur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unglücklich",
+        "Unglück",
+        "Missgeschick",
+        "Pech"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szerencsétlenség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "несчастье",
+        "{～な} несчастный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nesreča",
+        "beda",
+        "trpljenje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desgracia",
+        "infelicidad",
+        "desdicha"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "1454360",
+  "readings": [
+    {
+      "kanaExpression": "どうざん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "銅山",
+      "furiganaExpression": [
+        {
+          "text": "銅",
+          "annotation": "どう"
+        },
+        {
+          "text": "山",
+          "annotation": "ざん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "copper mine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kopermijn",
+        "kopergroeve",
+        "koperberg",
+        "Tóngshān"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mine de cuivre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kupfermine",
+        "Kupferbergwerk"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "медный рудник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mina de cobre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "koppargruva"
+      ]
+    }
+  ]
+}

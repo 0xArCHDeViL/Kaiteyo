@@ -1,0 +1,74 @@
+{
+  "id": "1434580",
+  "readings": [
+    {
+      "kanaExpression": "ていち",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "低地",
+      "furiganaExpression": [
+        {
+          "text": "低",
+          "annotation": "てい"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depression",
+        "lowlands",
+        "low ground",
+        "bottom land",
+        "plain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "laagland",
+        "laaggelegen land",
+        "laagliggend stuk land",
+        "vlak land",
+        "terrein",
+        "laagvlakte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "terrain bas"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Niederung",
+        "Tiefland",
+        "Tiefebene",
+        "Unterland"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "skót síkság",
+        "érthető"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "низменность, низина"
+      ]
+    }
+  ]
+}

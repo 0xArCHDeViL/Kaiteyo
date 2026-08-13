@@ -1,0 +1,50 @@
+{
+  "id": "1380570",
+  "readings": [
+    {
+      "kanaExpression": "せいゆう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "声優",
+      "furiganaExpression": [
+        {
+          "text": "声",
+          "annotation": "せい"
+        },
+        {
+          "text": "優",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 9090
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "voice actor or actress (radio, animation, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Synchronsprecher",
+        "Hörspielsprecher"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "актёр (актриса) на радио"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "actor o actriz de voz (radio, animación, doblaje)"
+      ]
+    }
+  ]
+}

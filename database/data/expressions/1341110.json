@@ -1,0 +1,45 @@
+{
+  "id": "1341110",
+  "readings": [
+    {
+      "kanaExpression": "はるさき",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "春先",
+      "furiganaExpression": [
+        {
+          "text": "春",
+          "annotation": "はる"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beginning of spring"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anfang des Frühlings",
+        "Frühlingsanfang",
+        "Frühlingsbeginn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "начало весны, ранняя весна"
+      ]
+    }
+  ]
+}

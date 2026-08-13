@@ -1,0 +1,61 @@
+{
+  "id": "1628800",
+  "readings": [
+    {
+      "kanaExpression": "てっとう",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "鉄塔",
+      "furiganaExpression": [
+        {
+          "text": "鉄",
+          "annotation": "てっ"
+        },
+        {
+          "text": "塔",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "steel tower",
+        "electricity pylon",
+        "transmission tower"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ijzeren toren",
+        "{高圧線用} hoogspanningsmast"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stahlturm",
+        "Stahlmast",
+        "Stahlfachwerkturm",
+        "Hochspannungsmast"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "villanyoszlop"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "железная (стальная) башня"
+      ]
+    }
+  ]
+}

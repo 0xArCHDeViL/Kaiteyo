@@ -1,0 +1,50 @@
+{
+  "id": "1630670",
+  "readings": [
+    {
+      "kanaExpression": "けっとうち",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "血糖値",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "けっ"
+        },
+        {
+          "text": "糖",
+          "annotation": "とう"
+        },
+        {
+          "text": "値",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blood sugar level",
+        "blood glucose level"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} bloedsuikerspiegel",
+        "bloedglucosewaarde",
+        "{verk.} suikerspiegel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blutzuckerspiegel"
+      ]
+    }
+  ]
+}

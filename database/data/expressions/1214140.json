@@ -1,0 +1,70 @@
+{
+  "id": "1214140",
+  "readings": [
+    {
+      "kanaExpression": "かんげんがくだん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "管弦楽団",
+      "furiganaExpression": [
+        {
+          "text": "管",
+          "annotation": "かん"
+        },
+        {
+          "text": "弦",
+          "annotation": "げん"
+        },
+        {
+          "text": "楽",
+          "annotation": "がく"
+        },
+        {
+          "text": "団",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "orchestra"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "orchestre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Orchester",
+        "Philharmonie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zsöllye"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "orquesta"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "orkester"
+      ]
+    }
+  ]
+}

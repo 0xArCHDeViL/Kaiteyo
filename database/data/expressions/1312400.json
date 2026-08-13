@@ -1,0 +1,52 @@
+{
+  "id": "1312400",
+  "readings": [
+    {
+      "kanaExpression": "しこう",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "試行",
+      "furiganaExpression": [
+        {
+          "text": "試",
+          "annotation": "し"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "making an attempt",
+        "trial run"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "proef",
+        "poging",
+        "het uitproberen",
+        "trial",
+        "het proefdraaien",
+        "proeftoepassing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "versuchen",
+        "probieren",
+        "Versuch",
+        "Experiment"
+      ]
+    }
+  ]
+}

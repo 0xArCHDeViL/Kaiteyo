@@ -1,0 +1,41 @@
+{
+  "id": "2159920",
+  "readings": [
+    {
+      "kanaExpression": "テレビばんぐみ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "テレビ番組",
+      "furiganaExpression": [
+        {
+          "text": "テレビ"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐみ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "television program",
+        "TV program"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fernsehprogramm"
+      ]
+    }
+  ]
+}

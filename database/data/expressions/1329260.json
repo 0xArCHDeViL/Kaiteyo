@@ -1,0 +1,97 @@
+{
+  "id": "1329260",
+  "readings": [
+    {
+      "kanaExpression": "くびすじ",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "首筋",
+      "furiganaExpression": [
+        {
+          "text": "首",
+          "annotation": "くび"
+        },
+        {
+          "text": "筋",
+          "annotation": "すじ"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "首すじ",
+      "furiganaExpression": [
+        {
+          "text": "首",
+          "annotation": "くび"
+        },
+        {
+          "text": "すじ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "頸筋",
+      "furiganaExpression": [
+        {
+          "text": "頸",
+          "annotation": "くび"
+        },
+        {
+          "text": "筋",
+          "annotation": "すじ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "頚筋",
+      "furiganaExpression": [
+        {
+          "text": "頚",
+          "annotation": "くび"
+        },
+        {
+          "text": "筋",
+          "annotation": "すじ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nape of the neck",
+        "back of the neck",
+        "scruff of the neck"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nekvel",
+        "achterkant van de nek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Genick",
+        "Nacken"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "затылок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nuca"
+      ]
+    }
+  ]
+}

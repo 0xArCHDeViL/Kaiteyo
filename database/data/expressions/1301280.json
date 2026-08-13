@@ -1,0 +1,66 @@
+{
+  "id": "1301280",
+  "readings": [
+    {
+      "kanaExpression": "さんとう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "三等",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "等",
+          "annotation": "とう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "３等",
+      "furiganaExpression": [
+        {
+          "text": "３",
+          "annotation": "さん"
+        },
+        {
+          "text": "等",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "third class"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dritte Klasse",
+        "dritter Grad",
+        "dritter Rang",
+        "Drittklassigkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "третий класс (напр. в поезде); третий разряд; третье место (в соревнованиях)",
+        "{～の} третьего класса; третьеразрядный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tercera clase"
+      ]
+    }
+  ]
+}

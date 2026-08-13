@@ -1,0 +1,102 @@
+{
+  "id": "1233180",
+  "readings": [
+    {
+      "kanaExpression": "さかなつり",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "うおつり"
+    },
+    {
+      "kanaExpression": "いおつり"
+    },
+    {
+      "kanjiExpression": "魚釣り",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "さかな"
+        },
+        {
+          "text": "釣",
+          "annotation": "つ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "魚つり",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "さかな"
+        },
+        {
+          "text": "つり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "魚釣",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "さかな"
+        },
+        {
+          "text": "釣",
+          "annotation": "つり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fishing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het vissen",
+        "het hengelen",
+        "hengelsport",
+        "vissport",
+        "{w.g.} visserij",
+        "visser",
+        "hengelaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischen",
+        "Angeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halászat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ужение"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fiske"
+      ]
+    }
+  ]
+}

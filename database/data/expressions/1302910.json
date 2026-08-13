@@ -1,0 +1,65 @@
+{
+  "id": "1302910",
+  "readings": [
+    {
+      "kanaExpression": "だし",
+      "rank": 4899
+    },
+    {
+      "kanaExpression": "さんしゃ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "山車",
+      "furiganaExpression": [
+        {
+          "text": "山車",
+          "annotation": "だし"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "花車",
+      "furiganaExpression": [
+        {
+          "text": "花",
+          "annotation": "だ"
+        },
+        {
+          "text": "車",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "parade float",
+        "festival float"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "praalwagen",
+        "festivalwagen",
+        "{myth.} bergwagen {zonder menselijk toedoen tot stand gekomen wagen op boomstammen; geldt als een gunstig voorteken en duikt in tijden van vrede op in de bergen}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geschmückter Festwagen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ковчег на колёсах; колесница (принадлежность религиозных процессий)"
+      ]
+    }
+  ]
+}

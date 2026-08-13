@@ -1,0 +1,65 @@
+{
+  "id": "1293390",
+  "readings": [
+    {
+      "kanaExpression": "さいはいち",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "再配置",
+      "furiganaExpression": [
+        {
+          "text": "再",
+          "annotation": "さい"
+        },
+        {
+          "text": "配",
+          "annotation": "はい"
+        },
+        {
+          "text": "置",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rearrangement",
+        "reallocation",
+        "realignment",
+        "relocation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verschiebung",
+        "Verlagerung",
+        "Umverteilung",
+        "Umstrukturierung",
+        "Relozierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átrendeződés",
+        "átszerveződés",
+        "áttelepítés",
+        "internálás",
+        "kitelepítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перестановка, перемещение; перестройка",
+        "{～する} переставлять, перемещать; перестраивать"
+      ]
+    }
+  ]
+}

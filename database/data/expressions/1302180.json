@@ -1,0 +1,57 @@
+{
+  "id": "1302180",
+  "readings": [
+    {
+      "kanaExpression": "さんかん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "参観",
+      "furiganaExpression": [
+        {
+          "text": "参",
+          "annotation": "さん"
+        },
+        {
+          "text": "観",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "visit",
+        "inspection"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besichtigung",
+        "Besuch",
+        "Inspektion",
+        "Visitation",
+        "besichtigen besuchen",
+        "inspizieren",
+        "visitieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vizsgálat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "осмотр; наблюдение (напр. эксперимента)",
+        "{～する} осматривать; смотреть, наблюдать (что-л.)"
+      ]
+    }
+  ]
+}

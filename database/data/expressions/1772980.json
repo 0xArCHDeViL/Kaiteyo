@@ -1,0 +1,57 @@
+{
+  "id": "1772980",
+  "readings": [
+    {
+      "kanaExpression": "かいうんぎょう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "海運業",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "運",
+          "annotation": "うん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shipping industry",
+        "shipping business",
+        "marine transportation business"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schiffsspedition",
+        "Schiffsagentur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предприятие (агентство, контора) морских перевозок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "servicio de transportes maritimos",
+        "comercio marítimo"
+      ]
+    }
+  ]
+}

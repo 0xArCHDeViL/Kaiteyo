@@ -1,0 +1,44 @@
+{
+  "id": "1004600",
+  "readings": [
+    {
+      "kanaExpression": "ことによって",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "事によって",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "こと"
+        },
+        {
+          "text": "によって"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "via",
+        "through",
+        "by doing",
+        "by means of",
+        "using"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "misschien",
+        "mogelijk",
+        "mogelijkerwijs",
+        "wellicht",
+        "bijgeval"
+      ]
+    }
+  ]
+}

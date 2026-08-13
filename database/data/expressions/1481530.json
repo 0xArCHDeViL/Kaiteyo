@@ -1,0 +1,71 @@
+{
+  "id": "1481530",
+  "readings": [
+    {
+      "kanaExpression": "はんもと",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "版元",
+      "furiganaExpression": [
+        {
+          "text": "版",
+          "annotation": "はん"
+        },
+        {
+          "text": "元",
+          "annotation": "もと"
+        }
+      ],
+      "rank": 14007
+    },
+    {
+      "kanjiExpression": "板元",
+      "furiganaExpression": [
+        {
+          "text": "板",
+          "annotation": "はん"
+        },
+        {
+          "text": "元",
+          "annotation": "もと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "publisher"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verleger",
+        "Verlag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiadó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "издатель"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bokförläggare",
+        "förläggare",
+        "utgivare"
+      ]
+    }
+  ]
+}

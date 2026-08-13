@@ -1,0 +1,56 @@
+{
+  "id": "2860148",
+  "readings": [
+    {
+      "kanaExpression": "うし",
+      "rank": 7553
+    },
+    {
+      "kanaExpression": "くし",
+      "rank": 13040
+    },
+    {
+      "kanjiExpression": "齲歯",
+      "furiganaExpression": [
+        {
+          "text": "齲",
+          "annotation": "う"
+        },
+        {
+          "text": "歯",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "carious tooth",
+        "decayed tooth"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fauler Zahn",
+        "schlechter Zahn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "odú",
+        "szuvasodás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "diente cariado",
+        "muela cariada"
+      ]
+    }
+  ]
+}

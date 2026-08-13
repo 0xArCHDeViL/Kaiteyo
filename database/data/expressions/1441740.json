@@ -1,0 +1,73 @@
+{
+  "id": "1441740",
+  "readings": [
+    {
+      "kanaExpression": "てんとう",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "点灯",
+      "furiganaExpression": [
+        {
+          "text": "点",
+          "annotation": "てん"
+        },
+        {
+          "text": "灯",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 13349
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lighting (a lamp)",
+        "turning on a light"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het licht aansteken",
+        "de lampen aandoen",
+        "de verlichting ontsteken",
+        "licht maken",
+        "verlichting",
+        "aansteking van het licht",
+        "ontsteking van de verlichting",
+        "het aandoen van de lampen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das Licht anschalten",
+        "Anschalten des Lichtes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "meggyújtás",
+        "világítás",
+        "világít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "освещение",
+        "{～する} зажечь свет (лампу), включить электричество"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "belysning"
+      ]
+    }
+  ]
+}

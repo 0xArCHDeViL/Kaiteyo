@@ -1,0 +1,133 @@
+{
+  "id": "1599350",
+  "readings": [
+    {
+      "kanaExpression": "どんよく",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "とんよく"
+    },
+    {
+      "kanaExpression": "たんよく"
+    },
+    {
+      "kanjiExpression": "貪欲",
+      "furiganaExpression": [
+        {
+          "text": "貪",
+          "annotation": "どん"
+        },
+        {
+          "text": "欲",
+          "annotation": "よく"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "貪慾",
+      "furiganaExpression": [
+        {
+          "text": "貪",
+          "annotation": "どん"
+        },
+        {
+          "text": "慾",
+          "annotation": "よく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "greedy",
+        "avaricious",
+        "covetous"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hebzucht",
+        "hebberigheid",
+        "{inform.} heb",
+        "begerigheid",
+        "inhaligheid",
+        "gretigheid",
+        "begeerlijkheid",
+        "gulzigheid",
+        "schrokkerij",
+        "schrokkerigheid",
+        "schrokkigheid",
+        "{fig.} hongerigheid",
+        "hebzuchtig",
+        "hebberig",
+        "begerig",
+        "inhalig",
+        "begeerlijk",
+        "gretig",
+        "gulzig",
+        "schrokkig",
+        "schrokkerig",
+        "{fig.} hongerig"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "avidité",
+        "cupidité",
+        "gloutonnerie",
+        "voracité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Habgier",
+        "Habsucht",
+        "Gier",
+        "Unersättlichkeit",
+        "Gefräßigkeit",
+        "Gierigkeit",
+        "habgierig",
+        "unersättlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fukarság",
+        "kapzsiság",
+        "mohóság",
+        "pénzvágy",
+        "pénzsóvárság",
+        "sóvárgás",
+        "sóvárság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скупость, скаредность, алчность",
+        "{～な} скупой, скаредный, алчный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pohlepnost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "avaricia",
+        "codicia"
+      ]
+    }
+  ]
+}

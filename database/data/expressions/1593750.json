@@ -1,0 +1,103 @@
+{
+  "id": "1593750",
+  "readings": [
+    {
+      "kanaExpression": "さしえ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "挿絵",
+      "furiganaExpression": [
+        {
+          "text": "挿",
+          "annotation": "さし"
+        },
+        {
+          "text": "絵",
+          "annotation": "え"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "挿し絵",
+      "furiganaExpression": [
+        {
+          "text": "挿",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "絵",
+          "annotation": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "さし絵",
+      "furiganaExpression": [
+        {
+          "text": "さし"
+        },
+        {
+          "text": "絵",
+          "annotation": "え"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "illustration (in a book, newspaper, etc.)",
+        "picture"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "illustratie",
+        "verluchting",
+        "{boekdr.} plaat",
+        "afbeelding",
+        "bladversiering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "illustration (livre)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Illustration",
+        "Abbildung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ábra",
+        "kép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "иллюстрация",
+        "иллюстрация (в книге)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ilustración (de un libro)"
+      ]
+    }
+  ]
+}

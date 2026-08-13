@@ -1,0 +1,45 @@
+{
+  "id": "1838210",
+  "readings": [
+    {
+      "kanaExpression": "りっとう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "立党",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "りっ"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "founding a political party"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Partei gründen",
+        "Parteigründung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "образование (сформирование, основание) партии",
+        "{～する} образовать (основать) партию"
+      ]
+    }
+  ]
+}

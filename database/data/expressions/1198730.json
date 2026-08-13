@@ -1,0 +1,47 @@
+{
+  "id": "1198730",
+  "readings": [
+    {
+      "kanaExpression": "かいそう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "会葬",
+      "furiganaExpression": [
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "葬",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "attendance at a funeral"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Teilnahme an einem Begräbnis",
+        "Teilnahme an einer Trauerfeier",
+        "an einer Trauerfeier teilnehmen",
+        "an einem Begängnis teilnehmen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "присутствие на похоронах",
+        "{～する} присутствовать (быть) на похоронах"
+      ]
+    }
+  ]
+}

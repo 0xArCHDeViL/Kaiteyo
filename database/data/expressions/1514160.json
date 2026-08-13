@@ -1,0 +1,95 @@
+{
+  "id": "1514160",
+  "readings": [
+    {
+      "kanaExpression": "ほかく",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "捕獲",
+      "furiganaExpression": [
+        {
+          "text": "捕",
+          "annotation": "ほ"
+        },
+        {
+          "text": "獲",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 10979
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "capture",
+        "seizure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vangst",
+        "buitmaking",
+        "{gew.} vang",
+        "vangen",
+        "buitmaken",
+        "gaan strijken met",
+        "{scheepv.} opbrengen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "capture",
+        "prise"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fangen (ein Tier)",
+        "Aufbringung",
+        "Kapern (ein Schiffes)",
+        "fangen",
+        "aufbringen",
+        "kapern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elfogás",
+        "elkobzás",
+        "megragadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "захват (пленного, трофеев)",
+        "{～する} захватывать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zavzeti",
+        "aretirati",
+        "odvzem",
+        "zavzetje",
+        "zaplemba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "captura",
+        "caza",
+        "botín"
+      ]
+    }
+  ]
+}

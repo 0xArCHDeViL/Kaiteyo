@@ -1,0 +1,48 @@
+{
+  "id": "1192090",
+  "readings": [
+    {
+      "kanaExpression": "かじん",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "家人",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "occupant of a house",
+        "family member",
+        "household member (incl. servants)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Familie",
+        "Familienmitglieder",
+        "Hausgenossen",
+        "meine Familie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "домашние, семья, члены семьи; домочадцы"
+      ]
+    }
+  ]
+}

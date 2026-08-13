@@ -1,0 +1,64 @@
+{
+  "id": "1280710",
+  "readings": [
+    {
+      "kanaExpression": "べにばな",
+      "rank": 37000
+    },
+    {
+      "kanaExpression": "こうか",
+      "rank": 26000
+    },
+    {
+      "kanaExpression": "ベニバナ"
+    },
+    {
+      "kanaExpression": "ベニハナ"
+    },
+    {
+      "kanjiExpression": "紅花",
+      "furiganaExpression": [
+        {
+          "text": "紅",
+          "annotation": "べに"
+        },
+        {
+          "text": "花",
+          "annotation": "ばな"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "safflower (Carthamus tinctorius)",
+        "dyer\u0027s safflower"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{planttk.} saffloer",
+        "saffloor",
+        "Carthamus tinctorius"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Färbersaflor",
+        "Färberdistel",
+        "Carthamus tinctorius"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(бот.) сафлор, ложный шафран, Carthamus tinctorius (L.)"
+      ]
+    }
+  ]
+}

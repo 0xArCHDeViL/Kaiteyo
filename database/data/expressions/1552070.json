@@ -1,0 +1,62 @@
+{
+  "id": "1552070",
+  "readings": [
+    {
+      "kanaExpression": "りゃくれき",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "略歴",
+      "furiganaExpression": [
+        {
+          "text": "略",
+          "annotation": "りゃく"
+        },
+        {
+          "text": "歴",
+          "annotation": "れき"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brief personal record",
+        "short curriculum vitae",
+        "short CV"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "korte biografische schets",
+        "korte persoonsbeschrijving",
+        "korte levensschets",
+        "profiel",
+        "beknopt cv",
+        "bio"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "curriculum vitae succinct"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kurzer Lebenslauf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "краткая биография"
+      ]
+    }
+  ]
+}

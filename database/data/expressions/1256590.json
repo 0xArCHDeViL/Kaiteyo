@@ -1,0 +1,51 @@
+{
+  "id": "1256590",
+  "readings": [
+    {
+      "kanaExpression": "けんぎょうのうか",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "兼業農家",
+      "furiganaExpression": [
+        {
+          "text": "兼",
+          "annotation": "けん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "農",
+          "annotation": "のう"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "part-time farmer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nebenerwerbsbauer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крестьянин, занимающийся (чем-л.) (работающий (где-л.)) ради подсобного заработка"
+      ]
+    }
+  ]
+}

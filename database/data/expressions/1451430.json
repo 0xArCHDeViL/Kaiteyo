@@ -1,0 +1,65 @@
+{
+  "id": "1451430",
+  "readings": [
+    {
+      "kanaExpression": "どうたい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "動態",
+      "furiganaExpression": [
+        {
+          "text": "動",
+          "annotation": "どう"
+        },
+        {
+          "text": "態",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "movement",
+        "dynamic state"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dynamische toestand",
+        "situatie",
+        "dynamiek",
+        "dynamisme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bewegung",
+        "Dynamik",
+        "dynamischer Zustand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mozgalmasság",
+        "mozgató szerkezet",
+        "ürülés",
+        "életbevágó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "движение",
+        "{～的} динамичный; активный"
+      ]
+    }
+  ]
+}

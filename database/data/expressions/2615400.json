@@ -1,0 +1,55 @@
+{
+  "id": "2615400",
+  "readings": [
+    {
+      "kanaExpression": "きもう"
+    },
+    {
+      "kanaExpression": "きぼう",
+      "rank": 16000
+    },
+    {
+      "kanaExpression": "ぎもう"
+    },
+    {
+      "kanjiExpression": "欺罔",
+      "furiganaExpression": [
+        {
+          "text": "欺",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "罔",
+          "annotation": "もう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deception",
+        "defrauding someone",
+        "fooling someone",
+        "swindling",
+        "false pretences"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Betrügen",
+        "Täuschen",
+        "Vorspiegelung falscher Tatsachen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) обман",
+        "{～する} обманывать"
+      ]
+    }
+  ]
+}

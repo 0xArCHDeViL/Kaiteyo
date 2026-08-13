@@ -1,0 +1,61 @@
+{
+  "id": "1820450",
+  "readings": [
+    {
+      "kanaExpression": "そうぎしゃ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "葬儀社",
+      "furiganaExpression": [
+        {
+          "text": "葬",
+          "annotation": "そう"
+        },
+        {
+          "text": "儀",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "undertaker\u0027s office",
+        "funeral home",
+        "funeral parlor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "begrafenisonderneming"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bestattungsinstitut",
+        "Bestattungsunternehmen",
+        "Bestattungsanstalt",
+        "Beerdigungsinstitut",
+        "Beerdigungsanstalt",
+        "Beerdigungsunternehmen",
+        "Bestatter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "похоронное бюро"
+      ]
+    }
+  ]
+}

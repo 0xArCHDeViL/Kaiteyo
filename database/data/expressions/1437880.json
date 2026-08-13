@@ -1,0 +1,69 @@
+{
+  "id": "1437880",
+  "readings": [
+    {
+      "kanaExpression": "てっこう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "鉄鋼",
+      "furiganaExpression": [
+        {
+          "text": "鉄",
+          "annotation": "てっ"
+        },
+        {
+          "text": "鋼",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 11759
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "iron and steel"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ijzer en staal",
+        "staal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stahl",
+        "Eisen und Stahl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "acél"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "железо и сталь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "železo in jeklo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hierro y acero"
+      ]
+    }
+  ]
+}

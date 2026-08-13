@@ -1,0 +1,76 @@
+{
+  "id": "1324180",
+  "readings": [
+    {
+      "kanaExpression": "しゃくねつ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "灼熱",
+      "furiganaExpression": [
+        {
+          "text": "灼",
+          "annotation": "しゃく"
+        },
+        {
+          "text": "熱",
+          "annotation": "ねつ"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "しゃく熱",
+      "furiganaExpression": [
+        {
+          "text": "しゃく"
+        },
+        {
+          "text": "熱",
+          "annotation": "ねつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "becoming red-hot",
+        "red heat",
+        "scorching heat",
+        "burning heat",
+        "burning (love)",
+        "passionate (e.g. debate)",
+        "ardent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "glühend heiß",
+        "glühend",
+        "sengend",
+        "glühen",
+        "Glut",
+        "Hitze"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "накаливание",
+        "{～する} накаливаться, раскаляться",
+        "{～した} раскалённый, накалённый докрасна"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "candente",
+        "ardiente",
+        "enardecido"
+      ]
+    }
+  ]
+}

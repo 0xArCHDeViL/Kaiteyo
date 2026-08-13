@@ -1,0 +1,144 @@
+{
+  "id": "1593780",
+  "readings": [
+    {
+      "kanaExpression": "さしつかえ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "差し支え",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "支",
+          "annotation": "つか"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "差支え",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "支",
+          "annotation": "つか"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差閊",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "閊",
+          "annotation": "つかえ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差閊え",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "閊",
+          "annotation": "つか"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hindrance",
+        "impediment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "obstakel",
+        "belemmering",
+        "hindernis",
+        "ongemak",
+        "ongerief",
+        "bezwaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "empêchement",
+        "entrave",
+        "gêne",
+        "obstacle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hindernis",
+        "Einwand",
+        "anderweitige Verabredung",
+        "Schwierigkeit",
+        "Störung",
+        "Unbequemlichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "akadály",
+        "akadályozás",
+        "gátló körülmény",
+        "meggátlás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "препятствие, помеха; неудобство"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ugovor",
+        "dolžnost, ki si si jo naložil",
+        "dovoljenje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inconveniente",
+        "impedimento"
+      ]
+    }
+  ]
+}

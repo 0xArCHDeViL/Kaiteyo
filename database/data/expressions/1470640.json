@@ -1,0 +1,54 @@
+{
+  "id": "1470640",
+  "readings": [
+    {
+      "kanaExpression": "のうかんき",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "農閑期",
+      "furiganaExpression": [
+        {
+          "text": "農",
+          "annotation": "のう"
+        },
+        {
+          "text": "閑",
+          "annotation": "かん"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "slack season for farmers",
+        "leisure season for farmers"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "période de repos dans l\u0027agriculture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ruhezeit in der Landwirtschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "время, свободное от сельскохозяйственных работ"
+      ]
+    }
+  ]
+}

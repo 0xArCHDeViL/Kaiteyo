@@ -1,0 +1,58 @@
+{
+  "id": "1477300",
+  "readings": [
+    {
+      "kanaExpression": "はっけん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "発券",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はっ"
+        },
+        {
+          "text": "券",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "issuing (a banknote, ticket, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "emissie (van bankbiljetten)",
+        "uitgifte",
+        "kaartverkoop",
+        "verstrekking van tickets",
+        "ticketing",
+        "bankbiljetten uitgeven",
+        "kaarten",
+        "tickets verstrekken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Notenausgabe",
+        "Ausgabe von Banknoten",
+        "Banknoten ausgeben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "эмиссия банкнот, выпуск бумажных денег"
+      ]
+    }
+  ]
+}

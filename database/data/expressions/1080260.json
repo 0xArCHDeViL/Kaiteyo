@@ -1,0 +1,39 @@
+{
+  "id": "1080260",
+  "readings": [
+    {
+      "kanaExpression": "テレカンファレンス",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "テレコンファレンス"
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "teleconference"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Telekonferenz",
+        "Videokonferenz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "телеконференция"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "teleconferencia (eng: teleconference)"
+      ]
+    }
+  ]
+}

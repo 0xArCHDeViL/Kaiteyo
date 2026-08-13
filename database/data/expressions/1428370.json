@@ -1,0 +1,51 @@
+{
+  "id": "1428370",
+  "readings": [
+    {
+      "kanaExpression": "あさいち",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "朝市",
+      "furiganaExpression": [
+        {
+          "text": "朝",
+          "annotation": "あさ"
+        },
+        {
+          "text": "市",
+          "annotation": "いち"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "morning market"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ochtendmarkt",
+        "vroege markt",
+        "{Belg.N.} vroegmarkt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Morgenmarkt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "утренний базар"
+      ]
+    }
+  ]
+}

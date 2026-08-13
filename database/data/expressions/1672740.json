@@ -1,0 +1,96 @@
+{
+  "id": "1672740",
+  "readings": [
+    {
+      "kanaExpression": "ぶこつ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "無骨",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "骨",
+          "annotation": "こつ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "武骨",
+      "furiganaExpression": [
+        {
+          "text": "武",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "骨",
+          "annotation": "こつ"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "boorish",
+        "unrefined",
+        "rustic",
+        "uncouth",
+        "clumsy",
+        "brusque"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boers",
+        "niet verfijnd",
+        "lomp",
+        "onbehouwen",
+        "bot",
+        "grof",
+        "ongecultiveerd",
+        "onbeschaafd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "grob",
+        "derb",
+        "plump",
+        "rau",
+        "roh",
+        "ungehobelt",
+        "Grobheit",
+        "Derbheit",
+        "Rauheit",
+        "Rohheit",
+        "Plumpheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "faragatlan",
+        "durván megmunkált",
+        "falusias",
+        "parasztos",
+        "esetlen",
+        "ügyetlen",
+        "udvariatlan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～な} неотёсанный, простой; грубый"
+      ]
+    }
+  ]
+}

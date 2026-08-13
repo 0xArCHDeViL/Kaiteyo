@@ -1,0 +1,48 @@
+{
+  "id": "1765070",
+  "readings": [
+    {
+      "kanaExpression": "しんがっこう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "神学校",
+      "furiganaExpression": [
+        {
+          "text": "神",
+          "annotation": "しん"
+        },
+        {
+          "text": "学",
+          "annotation": "がっ"
+        },
+        {
+          "text": "校",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "theological school",
+        "seminary"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Theologisches Seminar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[духовная] семинария"
+      ]
+    }
+  ]
+}

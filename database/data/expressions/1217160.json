@@ -1,0 +1,67 @@
+{
+  "id": "1217160",
+  "readings": [
+    {
+      "kanaExpression": "がんかい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "眼科医",
+      "furiganaExpression": [
+        {
+          "text": "眼",
+          "annotation": "がん"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ophthalmologist",
+        "eye specialist"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ophtalmologue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Augenarzt",
+        "Ophthalmologe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "офтальмолог, окулист, глазной врач, глазник"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "okulist"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oftalmólogo"
+      ]
+    }
+  ]
+}

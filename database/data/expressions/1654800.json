@@ -1,0 +1,43 @@
+{
+  "id": "1654800",
+  "readings": [
+    {
+      "kanaExpression": "そうがい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "窓外",
+      "furiganaExpression": [
+        {
+          "text": "窓",
+          "annotation": "そう"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outside a window"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(Gebiet) vor dem Fenster"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) за окном, на дворе, на улице"
+      ]
+    }
+  ]
+}

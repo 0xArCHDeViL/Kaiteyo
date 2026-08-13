@@ -1,0 +1,85 @@
+{
+  "id": "1600800",
+  "readings": [
+    {
+      "kanaExpression": "はだざわり",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "肌触り",
+      "furiganaExpression": [
+        {
+          "text": "肌",
+          "annotation": "はだ"
+        },
+        {
+          "text": "触",
+          "annotation": "ざわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "肌ざわり",
+      "furiganaExpression": [
+        {
+          "text": "肌",
+          "annotation": "はだ"
+        },
+        {
+          "text": "ざわり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "膚触り",
+      "furiganaExpression": [
+        {
+          "text": "膚",
+          "annotation": "はだ"
+        },
+        {
+          "text": "触",
+          "annotation": "ざわ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "feel",
+        "touch",
+        "texture",
+        "manner (with others)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "le touché de",
+        "sensation (agréable, désagréable)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gefühl",
+        "Anfühlen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ощущение на ощупь"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "1385610",
+  "readings": [
+    {
+      "kanaExpression": "せってん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "接点",
+      "furiganaExpression": [
+        {
+          "text": "接",
+          "annotation": "せっ"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 9724
+    },
+    {
+      "kanjiExpression": "切点",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "せっ"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "point of tangency",
+        "point of contact",
+        "(electrical) contact",
+        "point of contact (between)",
+        "connection",
+        "point of agreement",
+        "common ground"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{wisk.} raakpunt",
+        "tangentpunt",
+        "raakpunt",
+        "aanrakingspunt",
+        "contactpunt",
+        "grenspunt",
+        "aanknopingspunt",
+        "raakvlak",
+        "vlak",
+        "punt van overeenkomst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Berührungspunkt (einer Geraden und eines Kreises)",
+        "Kontakt",
+        "Berührungspunkt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érintkezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "точка соприкосновения"
+      ]
+    }
+  ]
+}

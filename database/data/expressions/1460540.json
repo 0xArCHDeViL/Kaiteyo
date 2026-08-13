@@ -1,0 +1,64 @@
+{
+  "id": "1460540",
+  "readings": [
+    {
+      "kanaExpression": "なんぷう"
+    },
+    {
+      "kanaExpression": "みなみかぜ",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "はえ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "南風",
+      "furiganaExpression": [
+        {
+          "text": "南",
+          "annotation": "なん"
+        },
+        {
+          "text": "風",
+          "annotation": "ぷう"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "south wind",
+        "southerly wind",
+        "summer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Südwind",
+        "Süd",
+        "Sommerwind",
+        "Einfluss der südlichen Länder",
+        "Macht der südlichen Länder",
+        "südliches Lied"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) южный ветер",
+        "южный ветер"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sydvind"
+      ]
+    }
+  ]
+}

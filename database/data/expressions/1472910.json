@@ -1,0 +1,61 @@
+{
+  "id": "1472910",
+  "readings": [
+    {
+      "kanaExpression": "はいけっかく",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "肺結核",
+      "furiganaExpression": [
+        {
+          "text": "肺",
+          "annotation": "はい"
+        },
+        {
+          "text": "結",
+          "annotation": "けっ"
+        },
+        {
+          "text": "核",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pulmonary tuberculosis",
+        "consumption"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tuberculose"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lungentuberkulose",
+        "Tuberkulose"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tüdővész"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "туберкулёз лёгких"
+      ]
+    }
+  ]
+}

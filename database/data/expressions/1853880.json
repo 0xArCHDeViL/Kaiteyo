@@ -1,0 +1,63 @@
+{
+  "id": "1853880",
+  "readings": [
+    {
+      "kanaExpression": "しゅうちょう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "酋長",
+      "furiganaExpression": [
+        {
+          "text": "酋",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "長",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chieftain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opperhoofd",
+        "stamhoofd",
+        "hoofd",
+        "chef",
+        "leider",
+        "baas",
+        "voorman"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Oberhaupt",
+        "Häuptling",
+        "Stammesoberhaupt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "törzsfőnök"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вождь (напр. племени)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1486070",
+  "readings": [
+    {
+      "kanaExpression": "みじんぎり",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "みじん切り",
+      "furiganaExpression": [
+        {
+          "text": "みじん"
+        },
+        {
+          "text": "切",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "微塵切り",
+      "furiganaExpression": [
+        {
+          "text": "微",
+          "annotation": "み"
+        },
+        {
+          "text": "塵",
+          "annotation": "じん"
+        },
+        {
+          "text": "切",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "finely chopped (cooking)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schneiden in kleine Stückchen",
+        "in kleine Stücke Geschnittenes",
+        "Feingeschnittenes"
+      ]
+    }
+  ]
+}

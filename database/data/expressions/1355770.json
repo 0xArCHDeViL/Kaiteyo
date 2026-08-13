@@ -1,0 +1,67 @@
+{
+  "id": "1355770",
+  "readings": [
+    {
+      "kanaExpression": "じょうへき",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "城壁",
+      "furiganaExpression": [
+        {
+          "text": "城",
+          "annotation": "じょう"
+        },
+        {
+          "text": "壁",
+          "annotation": "へき"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "castle wall",
+        "town walls",
+        "defensive wall",
+        "rampart"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kasteelmuur",
+        "burchtmuur",
+        "vestingmuur",
+        "{lit.t} vestmuur",
+        "stadsmuur",
+        "burchtwal",
+        "vestingwal",
+        "vestwal",
+        "stadswal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Burgmauer",
+        "Schlossmauer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крепостной вал; крепостная стена"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fästningsvall"
+      ]
+    }
+  ]
+}

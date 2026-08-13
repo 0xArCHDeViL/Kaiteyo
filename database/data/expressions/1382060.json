@@ -1,0 +1,49 @@
+{
+  "id": "1382060",
+  "readings": [
+    {
+      "kanaExpression": "ぜいびき",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "ぜいひき"
+    },
+    {
+      "kanjiExpression": "税引き",
+      "furiganaExpression": [
+        {
+          "text": "税",
+          "annotation": "ぜい"
+        },
+        {
+          "text": "引",
+          "annotation": "び"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "after (deduction of) tax",
+        "after-tax (income or profits)",
+        "excluding tax (of a price)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nach Steuern",
+        "netto",
+        "nach Abzug der Steuern",
+        "Bezahlen der Steuern",
+        "Summe nach Zahlung der Steuern"
+      ]
+    }
+  ]
+}

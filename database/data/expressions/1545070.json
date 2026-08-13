@@ -1,0 +1,62 @@
+{
+  "id": "1545070",
+  "readings": [
+    {
+      "kanaExpression": "ようせん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "用船",
+      "furiganaExpression": [
+        {
+          "text": "用",
+          "annotation": "よう"
+        },
+        {
+          "text": "船",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "傭船",
+      "furiganaExpression": [
+        {
+          "text": "傭",
+          "annotation": "よう"
+        },
+        {
+          "text": "船",
+          "annotation": "せん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chartered ship",
+        "chartering or hiring a vessel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Charterschiff",
+        "gechartertes Schiff",
+        "zu einem bestimmten Zweck eingesetztes Schiff",
+        "Chartern eines Schiffes",
+        "ein Schiff chartern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зафрахтованное судно",
+        "{～する} фрахтовать [судно]"
+      ]
+    }
+  ]
+}

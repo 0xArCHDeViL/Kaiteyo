@@ -1,0 +1,82 @@
+{
+  "id": "1672460",
+  "readings": [
+    {
+      "kanaExpression": "むみ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "無味",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tasteless",
+        "flavourless",
+        "uninteresting",
+        "dull",
+        "dry",
+        "insipid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "smaakloos",
+        "geen smaak hebbend",
+        "… zonder smaak",
+        "flauw",
+        "laf"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fadheit",
+        "Geschmacklosigkeit",
+        "Uninteressantheit",
+        "Trockenheit",
+        "Poesielosigkeit",
+        "fad",
+        "geschmacklos",
+        "ungewürzt",
+        "trocken",
+        "poesielos",
+        "prosaisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lanyha",
+        "unalmas"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} безвкусный; (перен.) пресный, сухой"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "insípido",
+        "sin sabor"
+      ]
+    }
+  ]
+}

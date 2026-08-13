@@ -1,0 +1,62 @@
+{
+  "id": "1390710",
+  "readings": [
+    {
+      "kanaExpression": "おうぎ",
+      "rank": 21000
+    },
+    {
+      "kanaExpression": "おおぎ"
+    },
+    {
+      "kanjiExpression": "扇",
+      "furiganaExpression": [
+        {
+          "text": "扇",
+          "annotation": "おうぎ"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "folding fan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waaier",
+        "{i.h.b.} vouwwaaier"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "éventail"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fächer",
+        "Faltfächer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "веер (складной)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abanico plegable"
+      ]
+    }
+  ]
+}

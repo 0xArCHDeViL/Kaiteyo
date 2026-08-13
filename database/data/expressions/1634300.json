@@ -1,0 +1,110 @@
+{
+  "id": "1634300",
+  "readings": [
+    {
+      "kanaExpression": "うえこみ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "植え込み",
+      "furiganaExpression": [
+        {
+          "text": "植",
+          "annotation": "う"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "植込み",
+      "furiganaExpression": [
+        {
+          "text": "植",
+          "annotation": "うえ"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "植込",
+      "furiganaExpression": [
+        {
+          "text": "植",
+          "annotation": "うえ"
+        },
+        {
+          "text": "込",
+          "annotation": "こみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thick growth of plants",
+        "plantation",
+        "shrubbery",
+        "thicket"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bosschage",
+        "bosje",
+        "innesteling",
+        "inplanting",
+        "implantatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pflanzung",
+        "dichtes Gebüsch",
+        "Buschwerk",
+        "Strauchwerk",
+        "Einpassen",
+        "Implantation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyarmat",
+        "élősövény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "насаждения; густая заросль"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "implante",
+        "plantel, plantío"
+      ]
+    }
+  ]
+}

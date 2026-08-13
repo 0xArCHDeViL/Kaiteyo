@@ -1,0 +1,53 @@
+{
+  "id": "1150970",
+  "readings": [
+    {
+      "kanaExpression": "あいちょう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "愛鳥",
+      "furiganaExpression": [
+        {
+          "text": "愛",
+          "annotation": "あい"
+        },
+        {
+          "text": "鳥",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pet bird"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vogelliefhebberij",
+        "vogelbescherming"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vogel (als Haustier)",
+        "Zuneigung zu Vögeln",
+        "Vogelliebe",
+        "Vogelschutz"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pájaro querido"
+      ]
+    }
+  ]
+}

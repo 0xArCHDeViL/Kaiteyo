@@ -1,0 +1,74 @@
+{
+  "id": "1575820",
+  "readings": [
+    {
+      "kanaExpression": "あくりょう",
+      "rank": 32000
+    },
+    {
+      "kanaExpression": "あくれい"
+    },
+    {
+      "kanjiExpression": "悪霊",
+      "furiganaExpression": [
+        {
+          "text": "悪",
+          "annotation": "あく"
+        },
+        {
+          "text": "霊",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "evil spirit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boze geest",
+        "kwade geest",
+        "kwelgeest",
+        "kwelduivel",
+        "demon",
+        "cacodemon",
+        "{veroud.} eunjer",
+        "Бесы {roman (1872) van Dostojevski (1821-1881); Ned.vert.: Boze geesten}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Die Dämonen",
+        "Bessy (Roman von Fjodor Dostojewski; 1873)",
+        "böser Geist",
+        "Dämon"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) злой дух"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "espíritu maligno"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ond ande"
+      ]
+    }
+  ]
+}

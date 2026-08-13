@@ -1,0 +1,60 @@
+{
+  "id": "1205530",
+  "readings": [
+    {
+      "kanaExpression": "かくかぞく",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "核家族",
+      "furiganaExpression": [
+        {
+          "text": "核",
+          "annotation": "かく"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "族",
+          "annotation": "ぞく"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nuclear family"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{soc.} kerngezin",
+        "nucleair gezin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kernfamilie"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "familia nuclear"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kärnfamilj"
+      ]
+    }
+  ]
+}

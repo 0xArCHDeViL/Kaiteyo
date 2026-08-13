@@ -1,0 +1,37 @@
+{
+  "id": "1952530",
+  "readings": [
+    {
+      "kanaExpression": "しょうさ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "勝差",
+      "furiganaExpression": [
+        {
+          "text": "勝",
+          "annotation": "しょう"
+        },
+        {
+          "text": "差",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "difference in wins (in number of games won)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Differenz in der Anzahl der Gewinne"
+      ]
+    }
+  ]
+}

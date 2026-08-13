@@ -1,0 +1,51 @@
+{
+  "id": "1252800",
+  "readings": [
+    {
+      "kanaExpression": "けいそう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "軽装",
+      "furiganaExpression": [
+        {
+          "text": "軽",
+          "annotation": "けい"
+        },
+        {
+          "text": "装",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "light clothing",
+        "dressing light",
+        "light equipment",
+        "light armaments"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leicht gekleidet sein",
+        "leicht ausgerüstet sein",
+        "leichte Kleidung",
+        "leichte Ausrüstung",
+        "leichte Bewaffnung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лёгкая одежда; лёгкая экипировка; лёгкое снаряжение",
+        "{～する} быть легко одетым (снаряжённым)"
+      ]
+    }
+  ]
+}

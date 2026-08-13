@@ -1,0 +1,79 @@
+{
+  "id": "1227140",
+  "readings": [
+    {
+      "kanaExpression": "ぎゃくせつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "逆説",
+      "furiganaExpression": [
+        {
+          "text": "逆",
+          "annotation": "ぎゃく"
+        },
+        {
+          "text": "説",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paradox"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{stijll.} paradox",
+        "wonderspreuk",
+        "{wisk.} paradox",
+        "{log.} paradox"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "paradoxe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Widerspruch",
+        "Paradoxon",
+        "Paradox"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "paradoxon"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "парадокс",
+        "{～的} парадоксальный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "paradoja"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "paradox"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1399080",
+  "readings": [
+    {
+      "kanaExpression": "そうだち",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "むらだち"
+    },
+    {
+      "kanjiExpression": "叢立ち",
+      "furiganaExpression": [
+        {
+          "text": "叢",
+          "annotation": "むら"
+        },
+        {
+          "text": "立",
+          "annotation": "だ"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "総立ち",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "立",
+          "annotation": "だ"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "群立ち",
+      "furiganaExpression": [
+        {
+          "text": "群",
+          "annotation": "むら"
+        },
+        {
+          "text": "立",
+          "annotation": "だ"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "standing in a group",
+        "standing up in unison"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gemeinsames Aufstehen von den Sitzplätzen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одновременное вставание [всех присутствующих]"
+      ]
+    }
+  ]
+}

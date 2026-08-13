@@ -1,0 +1,62 @@
+{
+  "id": "1222290",
+  "readings": [
+    {
+      "kanaExpression": "きしょうだい",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "気象台",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "象",
+          "annotation": "しょう"
+        },
+        {
+          "text": "台",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "meteorological observatory"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "meteorologisch observatorium",
+        "weerobservatorium"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wetterwarte",
+        "Wetterstation",
+        "meteorologische Beobachtungsstation"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "метеорологическая станция (обсерватория); бюро погоды"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "observatorio meteorológico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "1588710",
+  "readings": [
+    {
+      "kanaExpression": "えはがき",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "えハガキ"
+    },
+    {
+      "kanjiExpression": "絵葉書",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "葉",
+          "annotation": "は"
+        },
+        {
+          "text": "書",
+          "annotation": "がき"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "絵はがき",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "はがき"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "絵ハガキ",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "ハガキ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "絵端書",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "端",
+          "annotation": "は"
+        },
+        {
+          "text": "書",
+          "annotation": "がき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "picture postcard"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "prentbriefkaart",
+        "ansichtkaart",
+        "ansicht",
+        "aanzicht",
+        "prentkaart",
+        "{Belg.N.",
+        "niet alg.} zichtkaart",
+        "niet alg.} postkaart"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "carte postale illustrée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ansichtskarte",
+        "Bildpostkarte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "képes levelezőlap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "открытка (с картинкой)",
+        "художественная открытка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "razglednica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "postal",
+        "tarjeta postal (ilustrada)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vykort"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1388710",
+  "readings": [
+    {
+      "kanaExpression": "せんれい",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "先例",
+      "furiganaExpression": [
+        {
+          "text": "先",
+          "annotation": "せん"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "precedent"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jurisprudence",
+        "précédent",
+        "tradition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "früheres Beispiel",
+        "Präzedenzfall",
+        "Beispiel",
+        "früherer Fall"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "irányadó eset",
+        "precedens"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прецедент",
+        "{～のない} беспрецедентный, беспримерный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prejšnji primer",
+        "prejšnji"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precedente"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "precedensfall",
+        "prejudikat"
+      ]
+    }
+  ]
+}

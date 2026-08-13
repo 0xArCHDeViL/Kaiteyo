@@ -1,0 +1,104 @@
+{
+  "id": "1318970",
+  "readings": [
+    {
+      "kanaExpression": "じしょ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "辞書",
+      "furiganaExpression": [
+        {
+          "text": "辞",
+          "annotation": "じ"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 3339
+    },
+    {
+      "kanjiExpression": "辭書",
+      "furiganaExpression": [
+        {
+          "text": "辭",
+          "annotation": "じ"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dictionary",
+        "lexicon",
+        "letter of resignation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "woordenboek",
+        "lexicon",
+        "dictionaire",
+        "{i.h.b.} woordentolk",
+        "thesaurus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dictionnaire",
+        "lexique",
+        "lettre de démission"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wörterbuch",
+        "(obsol.)Diktionär"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szótár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фонетический словарь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "slovar"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "diccionario",
+        "léxico"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ordlista",
+        "lexikon",
+        "ordbok"
+      ]
+    }
+  ]
+}

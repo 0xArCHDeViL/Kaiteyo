@@ -1,0 +1,63 @@
+{
+  "id": "1687250",
+  "readings": [
+    {
+      "kanaExpression": "つうしんぼ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "通信簿",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        },
+        {
+          "text": "簿",
+          "annotation": "ぼ"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "report card"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schoolrapport",
+        "rapport",
+        "cijferlijst",
+        "{Belg.N.} schooluitslag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeugnis",
+        "Schulzeugnis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizonyítvány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "школьный дневник, табель"
+      ]
+    }
+  ]
+}

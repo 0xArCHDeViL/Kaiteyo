@@ -1,0 +1,68 @@
+{
+  "id": "1240280",
+  "readings": [
+    {
+      "kanaExpression": "ごっかん",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "ごくかん"
+    },
+    {
+      "kanjiExpression": "極寒",
+      "furiganaExpression": [
+        {
+          "text": "極",
+          "annotation": "ごっ"
+        },
+        {
+          "text": "寒",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "extreme cold",
+        "intense cold",
+        "coldest season",
+        "midwinter"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "froid intense",
+        "plein hiver"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "strenge Kälte",
+        "extreme Kälte",
+        "grimmige Kälte",
+        "eisige Kälte",
+        "Zeit der strengen Winterkälte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tél dereka",
+        "téli napforduló",
+        "télközép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жестокий (сильный) холод; суровый мороз"
+      ]
+    }
+  ]
+}

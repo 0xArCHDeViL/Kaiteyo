@@ -1,0 +1,53 @@
+{
+  "id": "1613210",
+  "readings": [
+    {
+      "kanaExpression": "リーグせん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "リーグ戦",
+      "furiganaExpression": [
+        {
+          "text": "リーグ"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "league match",
+        "league game",
+        "league series",
+        "round robin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ligaspiel",
+        "Spiel der Liga"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) командное соревнование, командный розыгрыш первенства"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ligamatch",
+        "seriematch"
+      ]
+    }
+  ]
+}

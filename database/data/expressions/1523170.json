@@ -1,0 +1,89 @@
+{
+  "id": "1523170",
+  "readings": [
+    {
+      "kanaExpression": "ほんぶ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "本部",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        }
+      ],
+      "rank": 2159
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "headquarters",
+        "head office",
+        "main office"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdbureau",
+        "hoofdkantoor",
+        "hoofdzetel",
+        "hoofdkwartier",
+        "hoofdpost",
+        "centrale"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "quartier général",
+        "siège social",
+        "bureau principal",
+        "bureau central"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptverwaltung",
+        "Hauptbüro",
+        "Zentrale",
+        "Sitz",
+        "Hauptquartier"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "főhadiszállás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "штаб; главное управление"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "generalni štab",
+        "policijska centrala",
+        "sedež podjetja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuartel general"
+      ]
+    }
+  ]
+}

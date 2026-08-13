@@ -1,0 +1,75 @@
+{
+  "id": "1611240",
+  "readings": [
+    {
+      "kanaExpression": "はなしごえ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "話し声",
+      "furiganaExpression": [
+        {
+          "text": "話",
+          "annotation": "はな"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "話声",
+      "furiganaExpression": [
+        {
+          "text": "話",
+          "annotation": "はなし"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "speaking voice",
+        "talking voice"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bruits de conversation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "redende Stimme",
+        "Sprechstimme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "голос (голоса) разговаривающих",
+        "{…の～がする} слышен (чей-л.) разговор"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voces",
+        "ruido de voces"
+      ]
+    }
+  ]
+}

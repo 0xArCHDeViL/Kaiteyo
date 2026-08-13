@@ -1,0 +1,70 @@
+{
+  "id": "1086880",
+  "readings": [
+    {
+      "kanaExpression": "トルコ",
+      "rank": 4572
+    },
+    {
+      "kanjiExpression": "土耳古",
+      "furiganaExpression": [
+        {
+          "text": "土耳古",
+          "annotation": "トルコ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "土耳其",
+      "furiganaExpression": [
+        {
+          "text": "土",
+          "annotation": "ト"
+        },
+        {
+          "text": "耳",
+          "annotation": "ル"
+        },
+        {
+          "text": "其",
+          "annotation": "コ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Turkey",
+        "Türkiye",
+        "turquoise"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Turkije"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Türkei (Staat in Vorderasien u. Südosteuropa)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pulyka",
+        "törökország"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "Турция"
+      ]
+    }
+  ]
+}

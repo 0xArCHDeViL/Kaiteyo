@@ -1,0 +1,111 @@
+{
+  "id": "1002610",
+  "readings": [
+    {
+      "kanaExpression": "おなか",
+      "rank": 7300
+    },
+    {
+      "kanjiExpression": "お腹",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "腹",
+          "annotation": "なか"
+        }
+      ],
+      "rank": 3661
+    },
+    {
+      "kanjiExpression": "お中",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "中",
+          "annotation": "なか"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御中",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "中",
+          "annotation": "なか"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "belly",
+        "abdomen",
+        "stomach"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "buik",
+        "maag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "estomac"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bauch",
+        "Magen",
+        "Leib (überwiegend von Frauen und Kinder gebraucht, ursprüngl. frauenspr.)",
+        "Mahl",
+        "Mahlzeit",
+        "Watte",
+        "Seide"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dölyf",
+        "étvágy",
+        "hajlandóság",
+        "gyomor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) живот"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estómago",
+        "vientre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mage"
+      ]
+    }
+  ]
+}

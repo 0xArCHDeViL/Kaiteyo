@@ -1,0 +1,71 @@
+{
+  "id": "1354880",
+  "readings": [
+    {
+      "kanaExpression": "のりおり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "乗り降り",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "の"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "降",
+          "annotation": "お"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "getting on and off (a vehicle)",
+        "boarding and alighting"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "en montant et en descendant",
+        "montée et descente"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein- und aussteigen",
+        "Ein- und Aussteigen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "посадка и высадка",
+        "{～する} садиться и выходить (о пассажирах)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vstopanje in izstopanje z {vozila}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ascenso y descenso de un transporte"
+      ]
+    }
+  ]
+}

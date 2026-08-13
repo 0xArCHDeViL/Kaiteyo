@@ -1,0 +1,58 @@
+{
+  "id": "1208440",
+  "readings": [
+    {
+      "kanaExpression": "かつべん",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "活弁",
+      "furiganaExpression": [
+        {
+          "text": "活",
+          "annotation": "かつ"
+        },
+        {
+          "text": "弁",
+          "annotation": "べん"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "活辯",
+      "furiganaExpression": [
+        {
+          "text": "活",
+          "annotation": "かつ"
+        },
+        {
+          "text": "辯",
+          "annotation": "べん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "silent movie narrator"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stummfilmkonferencier",
+        "Filmerklärer (in Japan ehemals eigener Beruf)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) объяснитель, комментатор (немого фильма)",
+        "(тех.) золотник"
+      ]
+    }
+  ]
+}

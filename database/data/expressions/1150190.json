@@ -1,0 +1,66 @@
+{
+  "id": "1150190",
+  "readings": [
+    {
+      "kanaExpression": "あいかん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "哀感",
+      "furiganaExpression": [
+        {
+          "text": "哀",
+          "annotation": "あい"
+        },
+        {
+          "text": "感",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pathos"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leedgevoel",
+        "gevoel van droefheid",
+        "aandoenlijkheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wehmut",
+        "Ergriffenheit",
+        "Melancholie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pátosz",
+        "szánalmasság"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "patetismo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "patos"
+      ]
+    }
+  ]
+}

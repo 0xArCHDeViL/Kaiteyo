@@ -1,0 +1,66 @@
+{
+  "id": "1661600",
+  "readings": [
+    {
+      "kanaExpression": "とうち",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "当地",
+      "furiganaExpression": [
+        {
+          "text": "当",
+          "annotation": "とう"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 9991
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "this place",
+        "here"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hier",
+        "deze plaats",
+        "plek",
+        "stad",
+        "streek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "diese Gegend",
+        "dieser Ort",
+        "dieses Land",
+        "bei uns"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ide",
+        "itt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "эта (та) местность",
+        "{～に} а) здесь, у нас; б) там, у них",
+        "{～の} местный"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "1252810",
+  "readings": [
+    {
+      "kanaExpression": "けいど",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "軽度",
+      "furiganaExpression": [
+        {
+          "text": "軽",
+          "annotation": "けい"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "slight",
+        "light",
+        "mild (disability, symptoms, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "licht",
+        "gering",
+        "mild",
+        "lichtheid",
+        "geringe zwaarte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leicht",
+        "in geringem Grade",
+        "unbedeutend",
+        "unerheblich",
+        "Leichtigkeit",
+        "Unbedeutendheit",
+        "Unerheblichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "könnyű",
+        "enyhe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лёгкость; слабость",
+        "{～の} лёгкий; слабый; незначительный"
+      ]
+    }
+  ]
+}

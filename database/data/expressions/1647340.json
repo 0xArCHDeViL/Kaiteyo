@@ -1,0 +1,55 @@
+{
+  "id": "1647340",
+  "readings": [
+    {
+      "kanaExpression": "しぜんかい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "自然界",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "し"
+        },
+        {
+          "text": "然",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "界",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nature",
+        "the natural world",
+        "realm of nature"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reich der Natur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sajátosság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мир природы, природа"
+      ]
+    }
+  ]
+}

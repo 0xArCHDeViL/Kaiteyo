@@ -1,0 +1,60 @@
+{
+  "id": "1429400",
+  "readings": [
+    {
+      "kanaExpression": "ちょうおんそく",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "超音速",
+      "furiganaExpression": [
+        {
+          "text": "超",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "速",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "supersonic speed"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vitesse supersonique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überschallgeschwindigkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сверхзвуковая (гиперзвуковая) скорость",
+        "{～[の]} сверхзвуковой"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "velocidad supersónica"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "1241310",
+  "readings": [
+    {
+      "kanaExpression": "きんとう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "均等",
+      "furiganaExpression": [
+        {
+          "text": "均",
+          "annotation": "きん"
+        },
+        {
+          "text": "等",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 7597
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "equal (distribution, treatment, level, etc.)",
+        "even",
+        "uniform"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gelijkheid",
+        "gelijkmatigheid",
+        "uniformiteit",
+        "pariteit",
+        "gelijk",
+        "gelijkmatig",
+        "uniform",
+        "paritair"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "égalité",
+        "parité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gerecht",
+        "gleichmäßig",
+        "gleich",
+        "gleichberechtigt",
+        "Gleichheit",
+        "Gleichstellung",
+        "Parität",
+        "Gleichberechtigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egységesség",
+        "változatlanság",
+        "higgadtság",
+        "szabályosság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "равенство, паритет",
+        "{～の} одинаковый, равный",
+        "{～にする} уравнивать; распределять поровну"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "igualdad",
+        "uniformidad"
+      ]
+    }
+  ]
+}

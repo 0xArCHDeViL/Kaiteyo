@@ -1,0 +1,81 @@
+{
+  "id": "1224000",
+  "readings": [
+    {
+      "kanaExpression": "かがやかす",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "輝かす",
+      "furiganaExpression": [
+        {
+          "text": "輝",
+          "annotation": "かがや"
+        },
+        {
+          "text": "かす"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "耀かす",
+      "furiganaExpression": [
+        {
+          "text": "耀",
+          "annotation": "かがや"
+        },
+        {
+          "text": "かす"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "赫かす",
+      "furiganaExpression": [
+        {
+          "text": "赫",
+          "annotation": "かがや"
+        },
+        {
+          "text": "かす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to light up",
+        "to brighten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beleuchten",
+        "erleuchten",
+        "erhellen",
+        "belichten",
+        "glänzen lassen",
+        "aufleuchten lassen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felderül",
+        "felderít",
+        "fényesít",
+        "tisztít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "освещать ярким светом, озарять; (обр.) прославлять"
+      ]
+    }
+  ]
+}

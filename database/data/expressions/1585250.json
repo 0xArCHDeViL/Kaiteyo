@@ -1,0 +1,67 @@
+{
+  "id": "1585250",
+  "readings": [
+    {
+      "kanaExpression": "こいうた",
+      "rank": 34500
+    },
+    {
+      "kanaExpression": "れんか",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "こいか"
+    },
+    {
+      "kanjiExpression": "恋歌",
+      "furiganaExpression": [
+        {
+          "text": "恋",
+          "annotation": "こい"
+        },
+        {
+          "text": "歌",
+          "annotation": "うた"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "love song",
+        "love poem"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "liefdesgedicht",
+        "minnedicht",
+        "minnezang",
+        "liefdespoëzie",
+        "liefdeslyriek",
+        "liefdeslied",
+        "minnelied",
+        "chanson d\u0027amour"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Liebesgedicht",
+        "Liebeslied"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "песня любви; любовная лирика (японская)",
+        "(см.) こいうた",
+        "(кн.) любовная поэзия; любовная песня"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1295210",
+  "readings": [
+    {
+      "kanaExpression": "さいせき",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "砕石",
+      "furiganaExpression": [
+        {
+          "text": "砕",
+          "annotation": "さい"
+        },
+        {
+          "text": "石",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "crushed stone",
+        "macadam",
+        "crushing (rock)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "décombres",
+        "pierres concassées"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steinbrechen",
+        "Steinzertrümmerung",
+        "Makadam",
+        "gebrochener Stein",
+        "Schotter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "murva",
+        "nyers bányakő",
+        "terméskő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "щебёнка"
+      ]
+    }
+  ]
+}

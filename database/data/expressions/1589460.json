@@ -1,0 +1,87 @@
+{
+  "id": "1589460",
+  "readings": [
+    {
+      "kanaExpression": "おりこみ",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "オリコミ"
+    },
+    {
+      "kanjiExpression": "折り込み",
+      "furiganaExpression": [
+        {
+          "text": "折",
+          "annotation": "お"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "折込み",
+      "furiganaExpression": [
+        {
+          "text": "折",
+          "annotation": "おり"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "折込",
+      "furiganaExpression": [
+        {
+          "text": "折",
+          "annotation": "おり"
+        },
+        {
+          "text": "込",
+          "annotation": "こみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "insert (in a magazine, newspaper, etc.)",
+        "foldout",
+        "insertion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beilage (zu einer Zeitung)",
+        "Reklamebeilage",
+        "Beilegen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beillesztés",
+        "beszúrás",
+        "közzététel"
+      ]
+    }
+  ]
+}

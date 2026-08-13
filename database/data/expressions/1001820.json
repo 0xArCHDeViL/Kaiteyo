@@ -1,0 +1,98 @@
+{
+  "id": "1001820",
+  "readings": [
+    {
+      "kanaExpression": "おかね",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "お金",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "金",
+          "annotation": "かね"
+        }
+      ],
+      "rank": 758
+    },
+    {
+      "kanjiExpression": "御金",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "金",
+          "annotation": "かね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "money"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geld",
+        "poen",
+        "cash"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "argent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geld",
+        "Münze",
+        "Vermögen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fizetőeszköz",
+        "papírpénz",
+        "pénzjegy",
+        "pénzösszeg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг. см.) かね【金】2"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "denar"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dinero"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "pengar"
+      ]
+    }
+  ]
+}

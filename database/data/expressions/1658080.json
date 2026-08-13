@@ -1,0 +1,57 @@
+{
+  "id": "1658080",
+  "readings": [
+    {
+      "kanaExpression": "さんりょう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "産量",
+      "furiganaExpression": [
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "output"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Produktionsmenge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kimenő teljesítmény",
+        "termelés",
+        "termelési eredmény"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "salida (de algo)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "output"
+      ]
+    }
+  ]
+}

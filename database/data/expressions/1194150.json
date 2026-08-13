@@ -1,0 +1,54 @@
+{
+  "id": "1194150",
+  "readings": [
+    {
+      "kanaExpression": "ひばしら",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "火柱",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "ひ"
+        },
+        {
+          "text": "柱",
+          "annotation": "ばしら"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pillar of fire",
+        "blazing column"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vuurkolom",
+        "vuurzuil",
+        "zuil van vlammen",
+        "vuur",
+        "hallucinair voorteken van brand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feuersäule"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "огненный столб"
+      ]
+    }
+  ]
+}

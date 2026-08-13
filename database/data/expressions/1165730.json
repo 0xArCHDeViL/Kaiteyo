@@ -1,0 +1,109 @@
+{
+  "id": "1165730",
+  "readings": [
+    {
+      "kanaExpression": "いっぱつ",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "一発",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "発",
+          "annotation": "ぱつ"
+        }
+      ],
+      "rank": 13286
+    },
+    {
+      "kanjiExpression": "１発",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いっ"
+        },
+        {
+          "text": "発",
+          "annotation": "ぱつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one shot",
+        "one charge",
+        "one explosion",
+        "one blow",
+        "one punch",
+        "home run",
+        "one try",
+        "one attempt",
+        "win on the first go-around after calling rīchi"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schot",
+        "salvo",
+        "explosie",
+        "klap",
+        "slag",
+        "stoot",
+        "{honkb.} homerun",
+        "poging",
+        "keer",
+        "ronde",
+        "{inform.} wip",
+        "beurt",
+        "nummertje"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Schuss",
+        "einmaliges Schießen",
+        "ein Versuch",
+        "ein Durchgang",
+        "ein Runde",
+        "ein Schlag",
+        "ein Mal",
+        "ein",
+        "ein Homerun"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egész",
+        "nyílt",
+        "kötelesség",
+        "támadás",
+        "vád"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выстрел"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un disparo",
+        "ronda",
+        "carga",
+        "homerun (béisbol)"
+      ]
+    }
+  ]
+}

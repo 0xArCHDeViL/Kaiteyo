@@ -1,0 +1,63 @@
+{
+  "id": "1373930",
+  "readings": [
+    {
+      "kanaExpression": "せかいたいせん",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "世界大戦",
+      "furiganaExpression": [
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "界",
+          "annotation": "かい"
+        },
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "world war"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Weltkrieg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мировая война"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "la Guerra Mundial"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "världskrig"
+      ]
+    }
+  ]
+}

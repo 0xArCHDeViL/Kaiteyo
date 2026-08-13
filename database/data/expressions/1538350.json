@@ -1,0 +1,79 @@
+{
+  "id": "1538350",
+  "readings": [
+    {
+      "kanaExpression": "やくす",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "訳す",
+      "furiganaExpression": [
+        {
+          "text": "訳",
+          "annotation": "やく"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 5236
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to translate",
+        "to interpret"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vertalen",
+        "overbrengen",
+        "omzetten",
+        "overzetten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "traduire",
+        "interpréter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "übersetzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fordít",
+        "lefordít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переводить (с одного языка на другой)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prevesti",
+        "prevajati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "traducir"
+      ]
+    }
+  ]
+}

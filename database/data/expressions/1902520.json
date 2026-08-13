@@ -1,0 +1,104 @@
+{
+  "id": "1902520",
+  "readings": [
+    {
+      "kanaExpression": "はらいもどし",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "払い戻し",
+      "furiganaExpression": [
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "戻",
+          "annotation": "もど"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "払戻し",
+      "furiganaExpression": [
+        {
+          "text": "払",
+          "annotation": "はらい"
+        },
+        {
+          "text": "戻",
+          "annotation": "もど"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "払戻",
+      "furiganaExpression": [
+        {
+          "text": "払",
+          "annotation": "はらい"
+        },
+        {
+          "text": "戻",
+          "annotation": "もどし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "払いもどし",
+      "furiganaExpression": [
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "いもどし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "repayment",
+        "refund",
+        "payback"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "terugbetaling",
+        "restitutie",
+        "teruggave",
+        "terugstorting",
+        "vergoeding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rückerstattung",
+        "Rückzahlung",
+        "Auszahlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возвращение (суммы)"
+      ]
+    }
+  ]
+}

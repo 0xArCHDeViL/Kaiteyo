@@ -1,0 +1,59 @@
+{
+  "id": "1432750",
+  "readings": [
+    {
+      "kanaExpression": "つうかい",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "痛快",
+      "furiganaExpression": [
+        {
+          "text": "痛",
+          "annotation": "つう"
+        },
+        {
+          "text": "快",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exhilarating",
+        "thrilling",
+        "intensely pleasurable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sehr angenehm",
+        "höchst erfreulich",
+        "zu jmds. großer Freude",
+        "zu jmds. Zufriedenheit",
+        "Vergnügen",
+        "aufregendes Erlebnis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "izgalmas",
+        "izgató"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "большое удовольствие",
+        "{～な} чрезвычайно приятный, доставляющий большое удовольствие",
+        "{～に} к большому удовлетворению (удовольствию)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "1061740",
+  "readings": [
+    {
+      "kanaExpression": "シャボンだま",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "しゃぼんだま"
+    },
+    {
+      "kanjiExpression": "シャボン玉",
+      "furiganaExpression": [
+        {
+          "text": "シャボン"
+        },
+        {
+          "text": "玉",
+          "annotation": "だま"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "しゃぼん玉",
+      "furiganaExpression": [
+        {
+          "text": "しゃぼん"
+        },
+        {
+          "text": "玉",
+          "annotation": "だま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "soap bubble"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeepbel",
+        "zeepblaasje",
+        "{gew.} blaas"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seifenblase"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мыльный пузырь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "burbuja de jabón"
+      ]
+    }
+  ]
+}

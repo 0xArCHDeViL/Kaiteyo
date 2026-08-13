@@ -1,0 +1,52 @@
+{
+  "id": "1219030",
+  "readings": [
+    {
+      "kanaExpression": "きじくつうか",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "基軸通貨",
+      "furiganaExpression": [
+        {
+          "text": "基",
+          "annotation": "き"
+        },
+        {
+          "text": "軸",
+          "annotation": "じく"
+        },
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "貨",
+          "annotation": "か"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "key currency"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leitwährung",
+        "Schlüsselwährung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ключевая валюта"
+      ]
+    }
+  ]
+}

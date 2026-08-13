@@ -1,0 +1,67 @@
+{
+  "id": "1522390",
+  "readings": [
+    {
+      "kanaExpression": "ほんきょ",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "本拠",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "拠",
+          "annotation": "きょ"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stronghold",
+        "inner citadel",
+        "base",
+        "headquarters"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "basis",
+        "thuisbasis",
+        "thuishaven",
+        "hoofdkwartier",
+        "centrum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptquartier",
+        "Basis",
+        "Operationsbasis",
+        "Stützpunkt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alap",
+        "hamisított",
+        "központ"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "основная база; цитадель; главная опора (база); штаб"
+      ]
+    }
+  ]
+}

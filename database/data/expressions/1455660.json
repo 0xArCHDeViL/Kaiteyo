@@ -1,0 +1,92 @@
+{
+  "id": "1455660",
+  "readings": [
+    {
+      "kanaExpression": "ひとりでに",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "独りでに",
+      "furiganaExpression": [
+        {
+          "text": "独",
+          "annotation": "ひと"
+        },
+        {
+          "text": "りでに"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "一人でに",
+      "furiganaExpression": [
+        {
+          "text": "一人",
+          "annotation": "ひとり"
+        },
+        {
+          "text": "でに"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "by itself",
+        "automatically",
+        "naturally"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vanzelf",
+        "automatisch",
+        "spontaan",
+        "eigener beweging",
+        "uit zichzelf",
+        "uit eigen aandrang",
+        "sponte (sua)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "de soi-même",
+        "automatiquement",
+        "naturellement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "von alleine",
+        "automatisch",
+        "selbständig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "természettől fogva"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "само собой"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "por sí mismo",
+        "automáticamente",
+        "naturalmente"
+      ]
+    }
+  ]
+}

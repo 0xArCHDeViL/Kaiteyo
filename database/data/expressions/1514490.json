@@ -1,0 +1,63 @@
+{
+  "id": "1514490",
+  "readings": [
+    {
+      "kanaExpression": "ほかん",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "補完",
+      "furiganaExpression": [
+        {
+          "text": "補",
+          "annotation": "ほ"
+        },
+        {
+          "text": "完",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 7445
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "complementation",
+        "supplementation",
+        "completion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aanvullen",
+        "vervolledigen",
+        "completeren",
+        "aanvullend",
+        "complementair",
+        "supplementair",
+        "extra"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ergänzen",
+        "vervollständigen",
+        "Ergänzung",
+        "Vervollständigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beteljesülés",
+        "betöltés",
+        "elkészítés",
+        "elvégzés"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1402170",
+  "readings": [
+    {
+      "kanaExpression": "そうそう",
+      "rank": 3720
+    },
+    {
+      "kanjiExpression": "葬送",
+      "furiganaExpression": [
+        {
+          "text": "葬",
+          "annotation": "そう"
+        },
+        {
+          "text": "送",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "送葬",
+      "furiganaExpression": [
+        {
+          "text": "送",
+          "annotation": "そう"
+        },
+        {
+          "text": "葬",
+          "annotation": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "attending a funeral procession",
+        "seeing off the deceased",
+        "burial of someone\u0027s remains",
+        "observing a burial"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Teilnahme an einer Beerdigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "temetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "присутствие на похоронах"
+      ]
+    }
+  ]
+}

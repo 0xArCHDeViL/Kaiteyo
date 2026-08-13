@@ -1,0 +1,67 @@
+{
+  "id": "1441240",
+  "readings": [
+    {
+      "kanaExpression": "てんせい",
+      "rank": 33500
+    },
+    {
+      "kanaExpression": "てんしょう"
+    },
+    {
+      "kanjiExpression": "転生",
+      "furiganaExpression": [
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 14103
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transmigration",
+        "reincarnation",
+        "metempsychosis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "transmigreren",
+        "verhuizen van de ziel",
+        "wedergeboren worden",
+        "opnieuw geboren worden",
+        "reïncarneren",
+        "reïncarnatie",
+        "zielsverhuizing",
+        "transmigratie",
+        "metempsychose",
+        "wedergeboorte",
+        "palingenese",
+        "{geol.} palingenese"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wiedergeboren werden",
+        "Seelenwanderung",
+        "Wiedergeburt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "reinkarnáció"
+      ]
+    }
+  ]
+}

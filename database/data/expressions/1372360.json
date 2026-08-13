@@ -1,0 +1,62 @@
+{
+  "id": "1372360",
+  "readings": [
+    {
+      "kanaExpression": "すいはんき",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "炊飯器",
+      "furiganaExpression": [
+        {
+          "text": "炊",
+          "annotation": "すい"
+        },
+        {
+          "text": "飯",
+          "annotation": "はん"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rice cooker"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijstkoker",
+        "rijststomer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "marmite (pour cuire le riz)",
+        "rice cooker (cocotte-minute spécialisée pour le riz)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reiskochtopf",
+        "Reiskocher"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "máquina de cocer arroz (electrodoméstico)"
+      ]
+    }
+  ]
+}

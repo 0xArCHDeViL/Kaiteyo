@@ -1,0 +1,70 @@
+{
+  "id": "1681050",
+  "readings": [
+    {
+      "kanaExpression": "かたあし",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "片足",
+      "furiganaExpression": [
+        {
+          "text": "片",
+          "annotation": "かた"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "片脚",
+      "furiganaExpression": [
+        {
+          "text": "片",
+          "annotation": "かた"
+        },
+        {
+          "text": "脚",
+          "annotation": "あし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one foot",
+        "one leg",
+        "one of a pair (of shoes or socks)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een been",
+        "een poot",
+        "een voet",
+        "ongepaard",
+        "overgeschoten stuk schoeisel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Bein",
+        "ein Fuß"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[одна] нога",
+        "{～の} одноногий"
+      ]
+    }
+  ]
+}

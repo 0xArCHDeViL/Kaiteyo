@@ -1,0 +1,100 @@
+{
+  "id": "1412840",
+  "readings": [
+    {
+      "kanaExpression": "たいわん",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "台湾",
+      "furiganaExpression": [
+        {
+          "text": "台",
+          "annotation": "たい"
+        },
+        {
+          "text": "湾",
+          "annotation": "わん"
+        }
+      ],
+      "rank": 2209
+    },
+    {
+      "kanjiExpression": "台灣",
+      "furiganaExpression": [
+        {
+          "text": "台",
+          "annotation": "たい"
+        },
+        {
+          "text": "灣",
+          "annotation": "わん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "臺灣",
+      "furiganaExpression": [
+        {
+          "text": "臺",
+          "annotation": "たい"
+        },
+        {
+          "text": "灣",
+          "annotation": "わん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Taiwan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Taiwan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "Taiwan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Taiwan",
+        "Formosa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(о-в) Тайвань (бывш. Формоза).)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "Tajvan"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Taiwán"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "Taiwan"
+      ]
+    }
+  ]
+}

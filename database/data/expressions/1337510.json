@@ -1,0 +1,97 @@
+{
+  "id": "1337510",
+  "readings": [
+    {
+      "kanaExpression": "しゅくはい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "祝杯",
+      "furiganaExpression": [
+        {
+          "text": "祝",
+          "annotation": "しゅく"
+        },
+        {
+          "text": "杯",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "祝盃",
+      "furiganaExpression": [
+        {
+          "text": "祝",
+          "annotation": "しゅく"
+        },
+        {
+          "text": "盃",
+          "annotation": "はい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "toast",
+        "congratulatory cup"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "feestbeker",
+        "feestkelk",
+        "vreugdebeker",
+        "vreugdekelk",
+        "{meton.} feestdronk",
+        "heildronk",
+        "toost"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "toast (porter un)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freudentrunk",
+        "Freudenbecher"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "általános hódolat tárgya",
+        "felköszöntő",
+        "felköszöntött személy",
+        "felköszöntött ügy",
+        "híres szépség",
+        "ivás vkinek az egészségére",
+        "pirítós kenyér",
+        "pirítós",
+        "pirított kenyér",
+        "pohárköszöntő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бокал в честь (кого-чего-л.), тост, заздравная чаша"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "brindis"
+      ]
+    }
+  ]
+}

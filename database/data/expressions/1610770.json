@@ -1,0 +1,89 @@
+{
+  "id": "1610770",
+  "readings": [
+    {
+      "kanaExpression": "イスラムきょう",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "イスラームきょう"
+    },
+    {
+      "kanjiExpression": "イスラム教",
+      "furiganaExpression": [
+        {
+          "text": "イスラム"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 8771
+    },
+    {
+      "kanjiExpression": "イスラーム教",
+      "furiganaExpression": [
+        {
+          "text": "イスラーム"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Islam"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "islam",
+        "{veroud.} mohammedanisme"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "Islam",
+        "la religion islamique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Islam"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ислам, мусульманство"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "Muslimanska vera"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Islam"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "islam"
+      ]
+    }
+  ]
+}

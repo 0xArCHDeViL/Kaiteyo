@@ -1,0 +1,69 @@
+{
+  "id": "1653890",
+  "readings": [
+    {
+      "kanaExpression": "しょいん",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "署員",
+      "furiganaExpression": [
+        {
+          "text": "署",
+          "annotation": "しょ"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "所員",
+      "furiganaExpression": [
+        {
+          "text": "所",
+          "annotation": "しょ"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "staff member",
+        "station employee",
+        "official"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mitarbeiter",
+        "Beamte eines Büros",
+        "Büropersonal",
+        "Angestellter (bei einer Polizeistation oder einem Finanzamt)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hatósági közeg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "служащий, работник, сотрудник; штат, личный состав (какого-л. определённого учреждения)",
+        "сотрудник полицейского участка (управления)"
+      ]
+    }
+  ]
+}

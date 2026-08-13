@@ -1,0 +1,107 @@
+{
+  "id": "1596820",
+  "readings": [
+    {
+      "kanaExpression": "たきだし",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "炊き出し",
+      "furiganaExpression": [
+        {
+          "text": "炊",
+          "annotation": "た"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "炊出し",
+      "furiganaExpression": [
+        {
+          "text": "炊",
+          "annotation": "たき"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "焚き出し",
+      "furiganaExpression": [
+        {
+          "text": "焚",
+          "annotation": "た"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "焚出し",
+      "furiganaExpression": [
+        {
+          "text": "焚",
+          "annotation": "たき"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "food distribution (esp. cooked rice)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "distribution de rations alimentaires de secours"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Austeilung von Lebensmitteln (insbes. gekochten Reis; in einer Notsituation)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "раздача варёного риса (пострадавшим)"
+      ]
+    }
+  ]
+}

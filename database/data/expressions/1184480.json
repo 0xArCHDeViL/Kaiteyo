@@ -1,0 +1,76 @@
+{
+  "id": "1184480",
+  "readings": [
+    {
+      "kanaExpression": "かい",
+      "rank": 4627
+    },
+    {
+      "kanjiExpression": "下位",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "か"
+        },
+        {
+          "text": "位",
+          "annotation": "い"
+        }
+      ],
+      "rank": 11552
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "low rank",
+        "lower position",
+        "subordinate position",
+        "lower order (e.g. byte)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lage",
+        "lagere rang",
+        "ondergeschikte positie",
+        "ondergeschiktheid",
+        "subordinatie",
+        "{log.} ondergeschikt begrip",
+        "{geneesk.} hypostase",
+        "hypostasis",
+        "ondergeschikt",
+        "lager",
+        "minder",
+        "sub-"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "untergeordnet",
+        "untergeben",
+        "von niederem Rang",
+        "niederer Rang",
+        "unterer Rang",
+        "untergeordnete Stellung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "низший ранг; низшее звание; подчинённое положение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "posición inferior",
+        "subordinado",
+        "posicion mas baja"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "1494510",
+  "readings": [
+    {
+      "kanaExpression": "ふねん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "不燃",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "燃",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "incombustibility"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unbrennbar",
+        "feuerfest",
+        "Unbrennbarkeit",
+        "Unbrennbares"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ignífugo",
+        "ininflamable",
+        "incombustible"
+      ]
+    }
+  ]
+}

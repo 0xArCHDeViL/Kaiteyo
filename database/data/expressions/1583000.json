@@ -1,0 +1,56 @@
+{
+  "id": "1583000",
+  "readings": [
+    {
+      "kanaExpression": "はく",
+      "rank": 6500
+    },
+    {
+      "kanaExpression": "ばく"
+    },
+    {
+      "kanjiExpression": "博",
+      "furiganaExpression": [
+        {
+          "text": "博",
+          "annotation": "はく"
+        }
+      ],
+      "rank": 6030
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "doctor",
+        "PhD",
+        "exposition",
+        "fair",
+        "exhibition"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(a) omvangrijk",
+        "wijdreikend",
+        "(b) doctor",
+        "(c) tentoonstelling",
+        "kansspel",
+        "wedden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyesen",
+        "jól",
+        "korrekt",
+        "pontosan",
+        "tisztességes",
+        "felfogó"
+      ]
+    }
+  ]
+}

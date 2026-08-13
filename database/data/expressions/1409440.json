@@ -1,0 +1,58 @@
+{
+  "id": "1409440",
+  "readings": [
+    {
+      "kanaExpression": "たいげん",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "体現",
+      "furiganaExpression": [
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "現",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 14482
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "personification",
+        "impersonation",
+        "embodiment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkörperung",
+        "verkörpern",
+        "verwirklichen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megszemélyesítés",
+        "megtestesülés",
+        "alakítás",
+        "tolmácsolás",
+        "megtestesítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воплощение; проявление",
+        "{～する} воплощать; выявлять, проявлять"
+      ]
+    }
+  ]
+}

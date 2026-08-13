@@ -1,0 +1,69 @@
+{
+  "id": "1259960",
+  "readings": [
+    {
+      "kanaExpression": "みすかす",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "見透かす",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "透",
+          "annotation": "す"
+        },
+        {
+          "text": "かす"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "見すかす",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "すかす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to see through (a lie, scheme, etc.)",
+        "to see into (someone\u0027s mind)",
+        "to read (someone\u0027s true feelings)",
+        "to penetrate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "durchschauen",
+        "durch etw. hindurchsehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átlát",
+        "keresztüllát"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) みぬく"
+      ]
+    }
+  ]
+}

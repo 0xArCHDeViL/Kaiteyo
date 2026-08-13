@@ -1,0 +1,62 @@
+{
+  "id": "1733160",
+  "readings": [
+    {
+      "kanaExpression": "しまつしょ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "始末書",
+      "furiganaExpression": [
+        {
+          "text": "始",
+          "annotation": "し"
+        },
+        {
+          "text": "末",
+          "annotation": "まつ"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "written explanation",
+        "written apology"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} volledig schriftelijk verslag",
+        "excuusbrief"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rechenschaftsbericht",
+        "Entschuldigungsschreiben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bocsánatkérés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "письменное объяснение (поступка и т. п.)"
+      ]
+    }
+  ]
+}

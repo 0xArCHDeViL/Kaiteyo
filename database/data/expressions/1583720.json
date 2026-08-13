@@ -1,0 +1,97 @@
+{
+  "id": "1583720",
+  "readings": [
+    {
+      "kanaExpression": "かぜ",
+      "rank": 19500
+    },
+    {
+      "kanaExpression": "ふうじゃ"
+    },
+    {
+      "kanjiExpression": "風邪",
+      "furiganaExpression": [
+        {
+          "text": "風邪",
+          "annotation": "かぜ"
+        }
+      ],
+      "rank": 3098
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(common) cold",
+        "influenza",
+        "flu",
+        "ague",
+        "inflammatory respiratory system illness (in general)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkoudheid",
+        "kou",
+        "{Belg.N.",
+        "spreekt.} valling",
+        "{gew.} verkouwenis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rhume",
+        "grippe",
+        "fièvre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erkältung",
+        "Grippe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fagy",
+        "hideg",
+        "hűvös",
+        "közönyös",
+        "meghűlés",
+        "nátha",
+        "közönséges meghűlés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "простуда"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prehlad"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "resfrío",
+        "resfriado común",
+        "catarro"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "förkylning"
+      ]
+    }
+  ]
+}

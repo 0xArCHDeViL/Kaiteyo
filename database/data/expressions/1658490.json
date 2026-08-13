@@ -1,0 +1,54 @@
+{
+  "id": "1658490",
+  "readings": [
+    {
+      "kanaExpression": "ちけん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "治験",
+      "furiganaExpression": [
+        {
+          "text": "治",
+          "annotation": "ち"
+        },
+        {
+          "text": "験",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "clinical trial"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{farm.} klinische test",
+        "klinisch testen",
+        "klinische proef",
+        "klinisch experiment",
+        "{geneesk.} therapeutisch effect"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "therapeutische Wirksamkeit",
+        "klinische Studie (zur Untersuchung der Wirksamkeit von Medikamenten)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ensayo clínico"
+      ]
+    }
+  ]
+}

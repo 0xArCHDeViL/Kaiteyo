@@ -1,0 +1,70 @@
+{
+  "id": "1228470",
+  "readings": [
+    {
+      "kanaExpression": "きゅうでん",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "宮殿",
+      "furiganaExpression": [
+        {
+          "text": "宮",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "殿",
+          "annotation": "でん"
+        }
+      ],
+      "rank": 8424
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "palace"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "paleis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "palais"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Palast",
+        "Schloss",
+        "Schrein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дворец; чертоги"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "palacio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "palats",
+        "slott"
+      ]
+    }
+  ]
+}

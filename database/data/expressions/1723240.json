@@ -1,0 +1,54 @@
+{
+  "id": "1723240",
+  "readings": [
+    {
+      "kanaExpression": "ぶんがくてき",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "文学的",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "literary"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "literarisch",
+        "dichterisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "irodalmi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "литературный"
+      ]
+    }
+  ]
+}

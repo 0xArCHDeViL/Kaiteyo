@@ -1,0 +1,44 @@
+{
+  "id": "1539360",
+  "readings": [
+    {
+      "kanaExpression": "ゆうせい",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "優生",
+      "furiganaExpression": [
+        {
+          "text": "優",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eugenics"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hervorbringen erbgesunder Nachfahren",
+        "Eugenik"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "eugenisk"
+      ]
+    }
+  ]
+}

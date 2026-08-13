@@ -1,0 +1,83 @@
+{
+  "id": "1331000",
+  "readings": [
+    {
+      "kanaExpression": "しゅうれん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "収斂",
+      "furiganaExpression": [
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "斂",
+          "annotation": "れん"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "収れん",
+      "furiganaExpression": [
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "れん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "astringency",
+        "constriction",
+        "contraction",
+        "collecting (e.g. opinions)",
+        "putting together",
+        "summarizing",
+        "collection (of taxes)",
+        "convergence (of light)",
+        "convergence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kontraktion",
+        "Zusammenziehung",
+        "Konvergenz",
+        "Fokussierung",
+        "Steuereinziehung",
+        "zusammenziehen",
+        "kontrahieren",
+        "konvergieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "összehúzás",
+        "összehúzódás",
+        "rövidítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сжатие, сужение, сокращение",
+        "{～する} сжиматься, сужаться, сокращаться",
+        "2) (биол., мед., мат.) конвергенция",
+        "{～する} конвергировать",
+        "3) налоговый гнёт",
+        "{～する} выжимать (выколачивать) налоги"
+      ]
+    }
+  ]
+}

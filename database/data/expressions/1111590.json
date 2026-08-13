@@ -1,0 +1,56 @@
+{
+  "id": "1111590",
+  "readings": [
+    {
+      "kanaExpression": "フランスご",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "フランス語",
+      "furiganaExpression": [
+        {
+          "text": "フランス"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 4762
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "French (language)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Frans",
+        "de Franse taal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Französisch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "французский язык",
+        "{～で} по-французски"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "francés (idioma)"
+      ]
+    }
+  ]
+}

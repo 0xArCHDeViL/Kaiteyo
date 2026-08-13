@@ -1,0 +1,98 @@
+{
+  "id": "2007510",
+  "readings": [
+    {
+      "kanaExpression": "おなじみ",
+      "rank": 7931
+    },
+    {
+      "kanjiExpression": "お馴染み",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "馴",
+          "annotation": "な"
+        },
+        {
+          "text": "染",
+          "annotation": "じ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御馴染み",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "馴",
+          "annotation": "な"
+        },
+        {
+          "text": "染",
+          "annotation": "じ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "同じみ",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "おな"
+        },
+        {
+          "text": "じみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "familiar",
+        "well-known",
+        "regular (e.g. customer)",
+        "favourite",
+        "favorite",
+        "old acquaintance",
+        "old friend",
+        "(a) regular",
+        "regular customer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "guter Bekannter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "intim",
+        "ismert"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "familiar",
+        "famoso",
+        "muy conocido"
+      ]
+    }
+  ]
+}

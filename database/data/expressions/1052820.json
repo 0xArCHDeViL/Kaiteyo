@@ -1,0 +1,54 @@
+{
+  "id": "1052820",
+  "readings": [
+    {
+      "kanaExpression": "コントローラー",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "コントローラ",
+      "rank": 12745
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "controller"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{techn.} controller",
+        "{game} controller",
+        "spelbesturingsapparaat",
+        "{bedrijfsecon.} controller"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Controller"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ellenőrző szerkezet",
+        "menetszabályozó kapcsoló",
+        "vezérlő szerkezet",
+        "vezérlőkapcsoló",
+        "vezérlőegység"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "controller",
+        "kontrollant",
+        "kontrollör"
+      ]
+    }
+  ]
+}

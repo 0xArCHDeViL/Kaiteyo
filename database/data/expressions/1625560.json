@@ -1,0 +1,47 @@
+{
+  "id": "1625560",
+  "readings": [
+    {
+      "kanaExpression": "はいえき",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "廃液",
+      "furiganaExpression": [
+        {
+          "text": "廃",
+          "annotation": "はい"
+        },
+        {
+          "text": "液",
+          "annotation": "えき"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "waste liquid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afvalwater",
+        "vloeibaar afval",
+        "vuil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "flüssiger Abfall",
+        "Flüssigabfall",
+        "Abwasser"
+      ]
+    }
+  ]
+}

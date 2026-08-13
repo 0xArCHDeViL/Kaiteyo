@@ -1,0 +1,50 @@
+{
+  "id": "1704740",
+  "readings": [
+    {
+      "kanaExpression": "たんまつき",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "端末機",
+      "furiganaExpression": [
+        {
+          "text": "端",
+          "annotation": "たん"
+        },
+        {
+          "text": "末",
+          "annotation": "まつ"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "terminal (unit)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{comp.} terminal",
+        "eindstation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Endgerät",
+        "Terminal",
+        "Computerterminal"
+      ]
+    }
+  ]
+}

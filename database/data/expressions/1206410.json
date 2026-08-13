@@ -1,0 +1,48 @@
+{
+  "id": "1206410",
+  "readings": [
+    {
+      "kanaExpression": "かくねん",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "隔年",
+      "furiganaExpression": [
+        {
+          "text": "隔",
+          "annotation": "かく"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "biennially",
+        "every second year",
+        "every other year"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jedes zweites Jahr",
+        "jedes zweite Jahr",
+        "alle zwei Jahre",
+        "zweijährlich"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каждый второй год, раз в два года, через год"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1995090",
+  "readings": [
+    {
+      "kanaExpression": "しゅつじ",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "出自",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        },
+        {
+          "text": "自",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "origin",
+        "birthplace",
+        "descent",
+        "lineage",
+        "ancestry",
+        "stock"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "plaats van herkomst",
+        "oorsprong",
+        "bakermat",
+        "origine",
+        "geboorteplaats",
+        "afkomst",
+        "roots"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geburt",
+        "Ursprung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "családfa"
+      ]
+    }
+  ]
+}

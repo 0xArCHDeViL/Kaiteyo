@@ -1,0 +1,50 @@
+{
+  "id": "1428490",
+  "readings": [
+    {
+      "kanaExpression": "ちょうてい",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "朝廷",
+      "furiganaExpression": [
+        {
+          "text": "朝",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "廷",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Imperial Court"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kaiserhof",
+        "kaiserliche Regierung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) императорский двор"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "corte imperial"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "1456420",
+  "readings": [
+    {
+      "kanaExpression": "どくしょ",
+      "rank": 17500
+    },
+    {
+      "kanaExpression": "とくしょ"
+    },
+    {
+      "kanjiExpression": "読書",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "どく"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 2762
+    },
+    {
+      "kanjiExpression": "讀書",
+      "furiganaExpression": [
+        {
+          "text": "讀",
+          "annotation": "どく"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reading (a book)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het lezen",
+        "lectuur",
+        "(boeken) lezen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lecture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lesen",
+        "Lektüre",
+        "lesen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felolvasás",
+        "fennhangon olvasás",
+        "helyzetértékelés",
+        "interpretálás",
+        "kiértékelés",
+        "korrektúraolvasás",
+        "korrektúrázás",
+        "műszerállás",
+        "olvasás",
+        "olvasásmód",
+        "olvasat",
+        "olvasmány",
+        "olvasnivaló",
+        "olvasottság",
+        "szövegértelmezés",
+        "szövegváltozat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чтение",
+        "{～する} читать [книги]",
+        "(кн. см.) どくしょ"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "branje",
+        "branje knjig",
+        "brati knjige"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "la lectura (el leer)",
+        "lectura"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lektyr"
+      ]
+    }
+  ]
+}

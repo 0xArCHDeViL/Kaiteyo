@@ -1,0 +1,78 @@
+{
+  "id": "2069030",
+  "readings": [
+    {
+      "kanaExpression": "いつもどおり",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "いつもとおり"
+    },
+    {
+      "kanjiExpression": "いつも通り",
+      "furiganaExpression": [
+        {
+          "text": "いつも"
+        },
+        {
+          "text": "通",
+          "annotation": "どお"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "何時も通り",
+      "furiganaExpression": [
+        {
+          "text": "何時",
+          "annotation": "いつ"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "通",
+          "annotation": "どお"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "as always",
+        "as usual"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wie immer",
+        "wie üblich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "általában",
+        "mint rendesen",
+        "szokás szerint"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "como siempre",
+        "como de costumbre"
+      ]
+    }
+  ]
+}

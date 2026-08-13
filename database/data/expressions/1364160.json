@@ -1,0 +1,64 @@
+{
+  "id": "1364160",
+  "readings": [
+    {
+      "kanaExpression": "まひる",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "真昼",
+      "furiganaExpression": [
+        {
+          "text": "真",
+          "annotation": "ま"
+        },
+        {
+          "text": "昼",
+          "annotation": "ひる"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "midday",
+        "broad daylight"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "klaarlichte dag",
+        "middag",
+        "noen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mittag",
+        "Mittagszeit",
+        "helllichter Tag",
+        "heller Tag",
+        "am helllichten Tag",
+        "mittags"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "délidő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полдень",
+        "{～に} среди бела дня"
+      ]
+    }
+  ]
+}

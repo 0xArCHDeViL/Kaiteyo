@@ -1,0 +1,71 @@
+{
+  "id": "1174020",
+  "readings": [
+    {
+      "kanaExpression": "えいようし",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "栄養士",
+      "furiganaExpression": [
+        {
+          "text": "栄",
+          "annotation": "えい"
+        },
+        {
+          "text": "養",
+          "annotation": "よう"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dietitian",
+        "(licensed) nutritionist"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voedingsdeskundige",
+        "voedingsspecialist",
+        "diëtist",
+        "{Belg.N.} nutritionist"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Praktiker der Diätetik",
+        "diplomierter Ernährungswissenschaftler",
+        "Diätassistent"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "táplálkozástudós"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "техник по питанию"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nutricionista"
+      ]
+    }
+  ]
+}

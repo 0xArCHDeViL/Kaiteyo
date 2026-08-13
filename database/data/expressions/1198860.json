@@ -1,0 +1,80 @@
+{
+  "id": "1198860",
+  "readings": [
+    {
+      "kanaExpression": "かいひ",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "会費",
+      "furiganaExpression": [
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "費",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 8481
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "membership fee"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bijdrage",
+        "contributie",
+        "inbreng",
+        "{i.h.b.} lidmaatschapsgeld",
+        "{Belg.N.} lidgeld"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cotisation (de membre)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mitgliedsbeitrag",
+        "Beitrag",
+        "Vereinssteuer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "членские взносы"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "članarina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuota de miembro",
+        "cuota de membresía"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "medlemsavgift"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1737870",
+  "readings": [
+    {
+      "kanaExpression": "すいしつ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "水質",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 12058
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water quality"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waterkwaliteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserqualität"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физ., хим.) вода"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calidad del agua"
+      ]
+    }
+  ]
+}

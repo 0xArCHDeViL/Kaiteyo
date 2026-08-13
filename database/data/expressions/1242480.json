@@ -1,0 +1,64 @@
+{
+  "id": "1242480",
+  "readings": [
+    {
+      "kanaExpression": "きんとう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "近東",
+      "furiganaExpression": [
+        {
+          "text": "近",
+          "annotation": "きん"
+        },
+        {
+          "text": "東",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Near East"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het Nabije Oosten",
+        "de Levant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Naher Osten",
+        "Nahost"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közel-kelet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "Ближний Восток",
+        "{～の} ближневосточный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oriente próximo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "1199150",
+  "readings": [
+    {
+      "kanaExpression": "かいとう",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "解凍",
+      "furiganaExpression": [
+        {
+          "text": "解",
+          "annotation": "かい"
+        },
+        {
+          "text": "凍",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thawing",
+        "defrosting",
+        "decompression (of data)",
+        "extraction",
+        "unpacking",
+        "unzipping"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dooien",
+        "ontdooien",
+        "smelten",
+        "{comp.} (bestanden) uitpakken",
+        "unzippen",
+        "het dooien",
+        "dooi",
+        "het smelten",
+        "smelt",
+        "smelting",
+        "het ontdooien",
+        "ontdooiing",
+        "{Japanse kalender} eerste maand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auftauen",
+        "extrahieren",
+        "entpacken",
+        "dekomprimieren",
+        "Auftauen (von Tiefkühlkost etc.)",
+        "Extrahieren",
+        "Entpacken",
+        "Dekomprimieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "enyhébb idő",
+        "olvadás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "descongelación",
+        "deshielo"
+      ]
+    }
+  ]
+}

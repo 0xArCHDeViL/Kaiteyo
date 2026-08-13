@@ -1,0 +1,71 @@
+{
+  "id": "1270090",
+  "readings": [
+    {
+      "kanaExpression": "こうへん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "後編",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "こう"
+        },
+        {
+          "text": "編",
+          "annotation": "へん"
+        }
+      ],
+      "rank": 10864
+    },
+    {
+      "kanjiExpression": "後篇",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "こう"
+        },
+        {
+          "text": "篇",
+          "annotation": "へん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "latter part (of book, etc.)",
+        "sequel",
+        "concluding part"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "laatste deel (van een boek)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letzter Teil (eines Buches)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "folytatás",
+        "következmény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вторая часть, второй том (из двух)"
+      ]
+    }
+  ]
+}

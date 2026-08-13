@@ -1,0 +1,76 @@
+{
+  "id": "1216360",
+  "readings": [
+    {
+      "kanaExpression": "まるみえ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "丸見え",
+      "furiganaExpression": [
+        {
+          "text": "丸",
+          "annotation": "まる"
+        },
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "まる見え",
+      "furiganaExpression": [
+        {
+          "text": "まる"
+        },
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "丸みえ",
+      "furiganaExpression": [
+        {
+          "text": "丸",
+          "annotation": "まる"
+        },
+        {
+          "text": "みえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "full view",
+        "plain sight",
+        "completely visible"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ungehinderter Blick",
+        "vollständige Sichtbarkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～である} быть полностью видимым"
+      ]
+    }
+  ]
+}

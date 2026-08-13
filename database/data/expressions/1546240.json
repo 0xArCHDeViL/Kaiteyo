@@ -1,0 +1,76 @@
+{
+  "id": "1546240",
+  "readings": [
+    {
+      "kanaExpression": "ようぐ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "用具",
+      "furiganaExpression": [
+        {
+          "text": "用",
+          "annotation": "よう"
+        },
+        {
+          "text": "具",
+          "annotation": "ぐ"
+        }
+      ],
+      "rank": 12591
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tool",
+        "implement",
+        "instrument",
+        "equipment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "benodigdheden",
+        "gerei",
+        "gerief",
+        "gereedschap",
+        "materiaal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "instruments",
+        "outils"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gerät",
+        "Apparat",
+        "Utensil",
+        "Werkzeug",
+        "Artikel",
+        "…zeug"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "инструмент, орудие; принадлежности; приборы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "herramienta",
+        "utensilio",
+        "instrumento"
+      ]
+    }
+  ]
+}

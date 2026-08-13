@@ -1,0 +1,80 @@
+{
+  "id": "1320990",
+  "readings": [
+    {
+      "kanaExpression": "じっけんしつ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "実験室",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じっ"
+        },
+        {
+          "text": "験",
+          "annotation": "けん"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "laboratory"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "laboratorium",
+        "testruimte",
+        "proefruimte",
+        "{inform.} lab",
+        "{Belg.N.",
+        "inform.} labo"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Labor",
+        "Laboratorium",
+        "Versuchsraum",
+        "Prüfstand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kisérleti laboratórium",
+        "laboratórium"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лаборатория"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "laboratorio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "laborativ"
+      ]
+    }
+  ]
+}

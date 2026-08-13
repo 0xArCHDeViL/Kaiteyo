@@ -1,0 +1,78 @@
+{
+  "id": "1159430",
+  "readings": [
+    {
+      "kanaExpression": "いたい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "遺体",
+      "furiganaExpression": [
+        {
+          "text": "遺",
+          "annotation": "い"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 7158
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(dead) body",
+        "corpse",
+        "remains"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lijk",
+        "mensenlijk",
+        "kadaver",
+        "{euf.} lichaam"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cadavre",
+        "dépouille",
+        "restes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leiche",
+        "Leichnam",
+        "die sterblichen Überreste",
+        "der eigene von den Eltern vererbte Körper"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "maradványok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "останки; мёртвое тело, труп"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cadáver",
+        "restos mortales"
+      ]
+    }
+  ]
+}

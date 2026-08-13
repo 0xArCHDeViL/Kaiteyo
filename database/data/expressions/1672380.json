@@ -1,0 +1,57 @@
+{
+  "id": "1672380",
+  "readings": [
+    {
+      "kanaExpression": "むめんきょ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "無免許",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "免",
+          "annotation": "めん"
+        },
+        {
+          "text": "許",
+          "annotation": "きょ"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unlicensed",
+        "without a license (licence)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nicht-Besitz eines Führerscheines",
+        "Nicht-Besitz einer Lizenz",
+        "Notwendigkeit keiner Lizenz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} не имеющий разрешения (права, лицензии, патента)",
+        "{～で} без разрешения (права, патента, лицензии)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sin licencia"
+      ]
+    }
+  ]
+}

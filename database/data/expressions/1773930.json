@@ -1,0 +1,42 @@
+{
+  "id": "1773930",
+  "readings": [
+    {
+      "kanaExpression": "とうくつ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "盗掘",
+      "furiganaExpression": [
+        {
+          "text": "盗",
+          "annotation": "とう"
+        },
+        {
+          "text": "掘",
+          "annotation": "くつ"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "illegal digging",
+        "illegal mining",
+        "grave robbing",
+        "tomb robbing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Grab ausrauben",
+        "Grabraub begehen",
+        "Grabraub"
+      ]
+    }
+  ]
+}

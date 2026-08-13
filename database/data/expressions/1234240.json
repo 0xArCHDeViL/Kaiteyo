@@ -1,0 +1,69 @@
+{
+  "id": "1234240",
+  "readings": [
+    {
+      "kanaExpression": "けいりん",
+      "rank": 21500
+    },
+    {
+      "kanaExpression": "ケイリン"
+    },
+    {
+      "kanjiExpression": "競輪",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "けい"
+        },
+        {
+          "text": "輪",
+          "annotation": "りん"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "keirin",
+        "cycle racing event, usu. 2 km with a paced start and sprint finish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sportt.} wielerwedstrijd",
+        "wielerronde",
+        "{Belg.N.} omloop",
+        "{sportt.} keirin"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "course cycliste"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Radrennen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "велогонка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ciclismo en pista profesional",
+        "\"keirin\": ciclismo de persecución tras moto en pista"
+      ]
+    }
+  ]
+}

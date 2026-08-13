@@ -1,0 +1,60 @@
+{
+  "id": "1746180",
+  "readings": [
+    {
+      "kanaExpression": "こくみんたいいくたいかい",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "国民体育大会",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "育",
+          "annotation": "いく"
+        },
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "National Athletic Meet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Nationaal Sporttoernooi van Japan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nationalsportfest",
+        "Volkssportfest"
+      ]
+    }
+  ]
+}

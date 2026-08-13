@@ -1,0 +1,86 @@
+{
+  "id": "1428150",
+  "readings": [
+    {
+      "kanaExpression": "ちょうよう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "徴用",
+      "furiganaExpression": [
+        {
+          "text": "徴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "徴傭",
+      "furiganaExpression": [
+        {
+          "text": "徴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "傭",
+          "annotation": "よう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drafting",
+        "requisition",
+        "impressment",
+        "commandeering",
+        "expropriation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vorderen",
+        "opeisen",
+        "opvorderen",
+        "rekwireren",
+        "{veroud.} pressen",
+        "vordering",
+        "opeising",
+        "opvordering",
+        "rekwisitie",
+        "{veroud.} pressing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zum Kriegshilfsdienst einziehen",
+        "Kriegshilfsdienst"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kívánalom",
+        "rekvirálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) трудовая повинность",
+        "{～する} производить принудительный набор (на работу и т. п.)",
+        "2) реквизиция",
+        "{～する} реквизировать"
+      ]
+    }
+  ]
+}

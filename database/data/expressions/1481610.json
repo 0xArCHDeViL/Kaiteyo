@@ -1,0 +1,73 @@
+{
+  "id": "1481610",
+  "readings": [
+    {
+      "kanaExpression": "はんざいしゃ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "犯罪者",
+      "furiganaExpression": [
+        {
+          "text": "犯",
+          "annotation": "はん"
+        },
+        {
+          "text": "罪",
+          "annotation": "ざい"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "criminal",
+        "culprit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "misdadiger",
+        "crimineel",
+        "delinquent",
+        "overtreder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verbrecher",
+        "Straftäter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "büntetőjogi",
+        "bűnvádi",
+        "vádlott"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "преступник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "criminal",
+        "delincuente"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "1601880",
+  "readings": [
+    {
+      "kanaExpression": "ひっこし",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "引っ越し",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 10014
+    },
+    {
+      "kanjiExpression": "引越",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひっ"
+        },
+        {
+          "text": "越",
+          "annotation": "こし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "引越し",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひっ"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 5815
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "moving (dwelling, office, etc.)",
+        "changing residence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verhuizing",
+        "{Belg.N.} verhuis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déménagement",
+        "emménagement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "umziehen",
+        "Umzug",
+        "Umziehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megható",
+        "megindító"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переезд, переселение (на новую квартиру)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "selitev",
+        "preseliti se"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mudanza",
+        "cambio de residencia",
+        "cambiando de residencia"
+      ]
+    }
+  ]
+}

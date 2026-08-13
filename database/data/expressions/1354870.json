@@ -1,0 +1,80 @@
+{
+  "id": "1354870",
+  "readings": [
+    {
+      "kanaExpression": "のりつぐ",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "乗り継ぐ",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "の"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "継",
+          "annotation": "つ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "乗継ぐ",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "のり"
+        },
+        {
+          "text": "継",
+          "annotation": "つ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "乗りつぐ",
+      "furiganaExpression": [
+        {
+          "text": "乗",
+          "annotation": "の"
+        },
+        {
+          "text": "りつぐ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to connect (with a different flight, train, etc.)",
+        "to make a connection",
+        "to change (planes, trains, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einen Anschluss bekommen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átöltözik",
+        "változtat"
+      ]
+    }
+  ]
+}

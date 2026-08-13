@@ -1,0 +1,91 @@
+{
+  "id": "1418530",
+  "readings": [
+    {
+      "kanaExpression": "たんさん",
+      "rank": 25000
+    },
+    {
+      "kanaExpression": "タンサン"
+    },
+    {
+      "kanjiExpression": "炭酸",
+      "furiganaExpression": [
+        {
+          "text": "炭",
+          "annotation": "たん"
+        },
+        {
+          "text": "酸",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 11598
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "carbonic acid",
+        "carbonated water",
+        "carbonated drink",
+        "baking soda",
+        "sodium carbonate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} koolzuur",
+        "koolzuur houdend water",
+        "spuitwater"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "acide carbonique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kohlensäure (H₂CO₃)",
+        "Sprudel",
+        "Mineralwasser"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szénsav"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "углекислота",
+        "{～[の]} а) углекислый; б) кальцинированный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ogljikova kislina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ácido carbónico"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kolsyra"
+      ]
+    }
+  ]
+}

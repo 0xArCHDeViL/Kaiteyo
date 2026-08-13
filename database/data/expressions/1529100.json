@@ -1,0 +1,51 @@
+{
+  "id": "1529100",
+  "readings": [
+    {
+      "kanaExpression": "みんぞくじけつ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "民族自決",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "族",
+          "annotation": "ぞく"
+        },
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "決",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "self-determination of peoples"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Selbstbestimmung eines Volkes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "самоопределение нации (народа), национальное самоопределение"
+      ]
+    }
+  ]
+}

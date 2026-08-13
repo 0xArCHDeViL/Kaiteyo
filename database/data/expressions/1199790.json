@@ -1,0 +1,84 @@
+{
+  "id": "1199790",
+  "readings": [
+    {
+      "kanaExpression": "かいゆう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "回遊",
+      "furiganaExpression": [
+        {
+          "text": "回",
+          "annotation": "かい"
+        },
+        {
+          "text": "遊",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "回游",
+      "furiganaExpression": [
+        {
+          "text": "回",
+          "annotation": "かい"
+        },
+        {
+          "text": "游",
+          "annotation": "ゆう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "洄游",
+      "furiganaExpression": [
+        {
+          "text": "洄",
+          "annotation": "かい"
+        },
+        {
+          "text": "游",
+          "annotation": "ゆう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "excursion",
+        "round trip",
+        "seasonal migration (of fish, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Rundreise machen",
+        "wandern (Fische)",
+        "Rundreise",
+        "Vergnügungsreise",
+        "Fischwanderung (zu den Laichplätzen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kirezgés",
+        "elköltözés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "экскурсия; объезд",
+        "{～する} совершать экскурсию; объезжать (ряд мест)",
+        "ход, миграция (рыбы на нерестилище)"
+      ]
+    }
+  ]
+}

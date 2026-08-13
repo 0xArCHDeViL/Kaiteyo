@@ -1,0 +1,44 @@
+{
+  "id": "1459150",
+  "readings": [
+    {
+      "kanaExpression": "ないへき",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "内壁",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "壁",
+          "annotation": "へき"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inner wall"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Innenwand",
+        "Innenseite einer Mauer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутренняя стена, перегородка"
+      ]
+    }
+  ]
+}

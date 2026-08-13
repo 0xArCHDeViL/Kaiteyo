@@ -1,0 +1,60 @@
+{
+  "id": "1469300",
+  "readings": [
+    {
+      "kanaExpression": "ねんれいそう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "年齢層",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "齢",
+          "annotation": "れい"
+        },
+        {
+          "text": "層",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "age range",
+        "age-group",
+        "age bracket"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leeftijdsgroep",
+        "leeftijdsklasse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jahrgang",
+        "Altersschicht",
+        "Generation",
+        "Alterskohorte"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rango de edad",
+        "grupo de edad"
+      ]
+    }
+  ]
+}

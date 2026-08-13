@@ -1,0 +1,57 @@
+{
+  "id": "1768480",
+  "readings": [
+    {
+      "kanaExpression": "ほそみち",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "細道",
+      "furiganaExpression": [
+        {
+          "text": "細",
+          "annotation": "ほそ"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "ほそ道",
+      "furiganaExpression": [
+        {
+          "text": "ほそ"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "narrow path",
+        "narrow lane"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schmaler Pfad",
+        "enger Weg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "узкая дорожка, тропинка"
+      ]
+    }
+  ]
+}

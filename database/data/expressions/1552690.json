@@ -1,0 +1,78 @@
+{
+  "id": "1552690",
+  "readings": [
+    {
+      "kanaExpression": "とめ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "留め",
+      "furiganaExpression": [
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "止め",
+      "furiganaExpression": [
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 8882
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(a) stop (e.g. in a timber joint, or at the end of a kanji stroke)",
+        "remaining (e.g. poste-restante)",
+        "forty-five degree angle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "einde",
+        "slot",
+        "besluit",
+        "beëindiging",
+        "terminatie",
+        "het stoppen",
+        "stopzetting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ende",
+        "Halt",
+        "Stop",
+        "Gehrung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megmaradó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "остановка; задержка"
+      ]
+    }
+  ]
+}

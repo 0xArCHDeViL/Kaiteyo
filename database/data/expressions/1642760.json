@@ -1,0 +1,78 @@
+{
+  "id": "1642760",
+  "readings": [
+    {
+      "kanaExpression": "ね",
+      "rank": 89
+    },
+    {
+      "kanaExpression": "しん",
+      "rank": 7823
+    },
+    {
+      "kanaExpression": "い",
+      "rank": 1181
+    },
+    {
+      "kanjiExpression": "寝",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sleep"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slaap",
+        "het slapen",
+        "slapengaan",
+        "bed",
+        "(a) naar bed gaan",
+        "gaan slapen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlaf",
+        "Schlafen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alvás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сон",
+        "(кн. связ.) постель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sueño"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sömn"
+      ]
+    }
+  ]
+}

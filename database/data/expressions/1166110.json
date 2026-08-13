@@ -1,0 +1,91 @@
+{
+  "id": "1166110",
+  "readings": [
+    {
+      "kanaExpression": "いっぴょう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "一票",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "票",
+          "annotation": "ぴょう"
+        }
+      ],
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "１票",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いっ"
+        },
+        {
+          "text": "票",
+          "annotation": "ぴょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one vote",
+        "one ballot"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stem",
+        "votum"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "une voix (élection)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Stimme",
+        "eine Wählerstimme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szavazati jog"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "один голос (бюллетень для голосования)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un voto",
+        "votación",
+        "papeleta"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ballotera"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1692520",
+  "readings": [
+    {
+      "kanaExpression": "じゅえき",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "樹液",
+      "furiganaExpression": [
+        {
+          "text": "樹",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "液",
+          "annotation": "えき"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sap"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} boomsap",
+        "boomvocht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Baumsaft",
+        "Saft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "balfácán",
+        "életnedv",
+        "fafej",
+        "hiszékeny ember",
+        "nedv",
+        "rászedhető ember",
+        "tökfej"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сок [дерева]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "savia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sav"
+      ]
+    }
+  ]
+}

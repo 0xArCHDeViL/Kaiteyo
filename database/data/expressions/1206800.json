@@ -1,0 +1,91 @@
+{
+  "id": "1206800",
+  "readings": [
+    {
+      "kanaExpression": "がくしゃ",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "学者",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 2165
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scholar",
+        "academic",
+        "scientist",
+        "learned person",
+        "person of learning"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geleerde",
+        "wetenschapper"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "érudit",
+        "savant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gelehrter",
+        "Wissenschaftler"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ösztöndíjas",
+        "tanuló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сущ.) учёный",
+        "{～的} учёный, академический (о тоне, виде и т. п.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "šolnik",
+        "učenjak"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "erudito",
+        "becario"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vetenskapsman",
+        "lärd"
+      ]
+    }
+  ]
+}

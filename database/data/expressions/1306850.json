@@ -1,0 +1,58 @@
+{
+  "id": "1306850",
+  "readings": [
+    {
+      "kanaExpression": "ししょ",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "史書",
+      "furiganaExpression": [
+        {
+          "text": "史",
+          "annotation": "し"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "history book"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geschiedenisboek",
+        "geschiedboek",
+        "geschiedenis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschichtswerk",
+        "Geschichtsbuch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "историческая книга"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "historiebok"
+      ]
+    }
+  ]
+}

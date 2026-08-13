@@ -1,0 +1,52 @@
+{
+  "id": "1662580",
+  "readings": [
+    {
+      "kanaExpression": "ざんがく",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "残額",
+      "furiganaExpression": [
+        {
+          "text": "残",
+          "annotation": "ざん"
+        },
+        {
+          "text": "額",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "remaining amount",
+        "balance (of an account)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Restbetrag",
+        "Bilanz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szilárdság",
+        "többlet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "остаток, оставшаяся сумма; (бухг.) сальдо"
+      ]
+    }
+  ]
+}

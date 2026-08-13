@@ -1,0 +1,119 @@
+{
+  "id": "1360830",
+  "readings": [
+    {
+      "kanaExpression": "ここちよい",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "ここちいい"
+    },
+    {
+      "kanjiExpression": "心地よい",
+      "furiganaExpression": [
+        {
+          "text": "心地",
+          "annotation": "ここち"
+        },
+        {
+          "text": "よい"
+        }
+      ],
+      "rank": 5893
+    },
+    {
+      "kanjiExpression": "心地良い",
+      "furiganaExpression": [
+        {
+          "text": "心地",
+          "annotation": "ここち"
+        },
+        {
+          "text": "良",
+          "annotation": "よ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "心地いい",
+      "furiganaExpression": [
+        {
+          "text": "心地",
+          "annotation": "ここち"
+        },
+        {
+          "text": "いい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "心地好い",
+      "furiganaExpression": [
+        {
+          "text": "心地",
+          "annotation": "ここち"
+        },
+        {
+          "text": "好",
+          "annotation": "よ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "comfortable",
+        "pleasant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aangenaam",
+        "prettig",
+        "gezellig",
+        "behaaglijk",
+        "knus",
+        "genoeglijk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bequem",
+        "angenehm",
+        "behaglich",
+        "gemütlich",
+        "gemächlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kellemes",
+        "nyugodt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приятный; удобный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "confortable",
+        "agradable"
+      ]
+    }
+  ]
+}

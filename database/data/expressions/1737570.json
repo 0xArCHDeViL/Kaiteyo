@@ -1,0 +1,51 @@
+{
+  "id": "1737570",
+  "readings": [
+    {
+      "kanaExpression": "すいりょう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "水量",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "quantity or volume of water"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoeveelheid water",
+        "watervolume",
+        "watermassa"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wassermenge"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "количество воды"
+      ]
+    }
+  ]
+}

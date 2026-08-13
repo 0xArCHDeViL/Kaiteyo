@@ -1,0 +1,102 @@
+{
+  "id": "1643660",
+  "readings": [
+    {
+      "kanaExpression": "おももち",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "面持ち",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "おも"
+        },
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "面もち",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "おも"
+        },
+        {
+          "text": "もち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "面持",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "おも"
+        },
+        {
+          "text": "持",
+          "annotation": "もち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "expression",
+        "look",
+        "countenance",
+        "face"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blik",
+        "gezicht",
+        "gelaatsuitdrukking",
+        "gezichtsuitdrukking",
+        "uitdrukking",
+        "gelaatsexpressie",
+        "expressie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesicht",
+        "Gesichtsausdruck",
+        "Aussehen",
+        "Miene"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "arckifejezés",
+        "külső",
+        "pillantás",
+        "tekintet",
+        "ábrázat",
+        "arc",
+        "él",
+        "homlokzat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выражение лица, вид"
+      ]
+    }
+  ]
+}

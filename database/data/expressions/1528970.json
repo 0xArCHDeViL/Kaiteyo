@@ -1,0 +1,43 @@
+{
+  "id": "1528970",
+  "readings": [
+    {
+      "kanaExpression": "みんしん",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "民心",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "popular sentiment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Volksseele"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чувства народа"
+      ]
+    }
+  ]
+}

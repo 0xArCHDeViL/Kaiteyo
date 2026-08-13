@@ -1,0 +1,56 @@
+{
+  "id": "1600820",
+  "readings": [
+    {
+      "kanaExpression": "はっちょう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "八丁",
+      "furiganaExpression": [
+        {
+          "text": "八",
+          "annotation": "はっ"
+        },
+        {
+          "text": "丁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "八挺",
+      "furiganaExpression": [
+        {
+          "text": "八",
+          "annotation": "はっ"
+        },
+        {
+          "text": "挺",
+          "annotation": "ちょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "skillfulness"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschicklichkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "умение, мастерство, искусство"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "1282680",
+  "readings": [
+    {
+      "kanaExpression": "はがね",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "こう",
+      "rank": 446
+    },
+    {
+      "kanjiExpression": "鋼",
+      "furiganaExpression": [
+        {
+          "text": "鋼",
+          "annotation": "はがね"
+        }
+      ],
+      "rank": 9980
+    },
+    {
+      "kanjiExpression": "刃金",
+      "furiganaExpression": [
+        {
+          "text": "刃",
+          "annotation": "は"
+        },
+        {
+          "text": "金",
+          "annotation": "がね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "steel",
+        "sword steel",
+        "sword"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "staal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "acier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stahl",
+        "Klingenstahl",
+        "Zähigkeit",
+        "Gestähltheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "acél fűzőmerevítő",
+        "acél",
+        "fenőacél",
+        "vastartalmú orvosság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сталь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "acero"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "stål"
+      ]
+    }
+  ]
+}

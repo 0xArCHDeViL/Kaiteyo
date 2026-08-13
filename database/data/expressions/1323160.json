@@ -1,0 +1,47 @@
+{
+  "id": "1323160",
+  "readings": [
+    {
+      "kanaExpression": "しゃしゅ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "車種",
+      "furiganaExpression": [
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "種",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 13844
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "car model",
+        "type of (wheeled) vehicle",
+        "vehicle classification"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "automodel",
+        "wagenmodel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wagentyp",
+        "Wagenmodell"
+      ]
+    }
+  ]
+}

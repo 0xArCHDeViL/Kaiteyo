@@ -1,0 +1,59 @@
+{
+  "id": "1770300",
+  "readings": [
+    {
+      "kanaExpression": "しぎかい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "市議会",
+      "furiganaExpression": [
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 10123
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "city council"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stadsraad",
+        "stedelijke raad",
+        "gemeenteraad",
+        "stadsbestuur",
+        "gemeentebestuur",
+        "{gesch.} vroedschap",
+        "vroede vaderen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stadtrat (das Gremium)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ayuntamiento"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "1244300",
+  "readings": [
+    {
+      "kanaExpression": "くけい",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "さしがた"
+    },
+    {
+      "kanjiExpression": "矩形",
+      "furiganaExpression": [
+        {
+          "text": "矩",
+          "annotation": "く"
+        },
+        {
+          "text": "形",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rectangle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rechteck",
+        "Oblong",
+        "Oblongum",
+        "rechteckig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "téglalap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прямоугольник",
+        "{～の} прямоугольный"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "rektangel"
+      ]
+    }
+  ]
+}

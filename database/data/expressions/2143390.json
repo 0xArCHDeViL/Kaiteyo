@@ -1,0 +1,53 @@
+{
+  "id": "2143390",
+  "readings": [
+    {
+      "kanaExpression": "こうざばんごう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "口座番号",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "こう"
+        },
+        {
+          "text": "座",
+          "annotation": "ざ"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        },
+        {
+          "text": "号",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "account number (bank, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bankrekeningnummer",
+        "banknummer",
+        "rekeningnummer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kontonummer"
+      ]
+    }
+  ]
+}

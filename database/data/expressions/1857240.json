@@ -1,0 +1,64 @@
+{
+  "id": "1857240",
+  "readings": [
+    {
+      "kanaExpression": "あらたまった",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "改まった",
+      "furiganaExpression": [
+        {
+          "text": "改",
+          "annotation": "あらた"
+        },
+        {
+          "text": "まった"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ceremonious",
+        "formal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vormelijk",
+        "stijf",
+        "formeel",
+        "afgemeten",
+        "ceremonieus",
+        "ceremonieel",
+        "plechtstatig",
+        "plechtig",
+        "officieel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előírásos",
+        "formai"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "официальный, торжественный"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "cirklad"
+      ]
+    }
+  ]
+}

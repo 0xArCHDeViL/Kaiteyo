@@ -1,0 +1,51 @@
+{
+  "id": "1380490",
+  "readings": [
+    {
+      "kanaExpression": "こわだか",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "声高",
+      "furiganaExpression": [
+        {
+          "text": "声",
+          "annotation": "こわ"
+        },
+        {
+          "text": "高",
+          "annotation": "だか"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "loud (of a voice)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mit lauter Stimme",
+        "laute Stimme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～に} громко, громким голосом",
+        "{～な} громкий (о голосе)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "con voz alta"
+      ]
+    }
+  ]
+}

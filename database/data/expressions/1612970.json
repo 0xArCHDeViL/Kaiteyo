@@ -1,0 +1,72 @@
+{
+  "id": "1612970",
+  "readings": [
+    {
+      "kanaExpression": "ゆびきり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "指切り",
+      "furiganaExpression": [
+        {
+          "text": "指",
+          "annotation": "ゆび"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "指きり",
+      "furiganaExpression": [
+        {
+          "text": "指",
+          "annotation": "ゆび"
+        },
+        {
+          "text": "きり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pinky swear (i.e. linking little fingers to confirm a promise)",
+        "pinky promise"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "croiser les doigts pour sceller une promesse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verhaken der kleinen Finger (zur Bestätigung eines Versprechens)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) слово, твёрдая договорённость"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "yubikiri",
+        "promesa cruzando el dedo meñique"
+      ]
+    }
+  ]
+}

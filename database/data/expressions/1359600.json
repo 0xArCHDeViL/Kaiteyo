@@ -1,0 +1,60 @@
+{
+  "id": "1359600",
+  "readings": [
+    {
+      "kanaExpression": "しんぼう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "信望",
+      "furiganaExpression": [
+        {
+          "text": "信",
+          "annotation": "しん"
+        },
+        {
+          "text": "望",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "confidence",
+        "popularity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vertrouwen",
+        "krediet",
+        "prestige",
+        "populariteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vertrauen und Beliebtheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "meggyőződés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доверие; популярность",
+        "{～がある} пользоваться общим доверием (популярностью)"
+      ]
+    }
+  ]
+}

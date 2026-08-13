@@ -1,0 +1,101 @@
+{
+  "id": "1264740",
+  "readings": [
+    {
+      "kanaExpression": "こ",
+      "rank": 491
+    },
+    {
+      "kanaExpression": "コ"
+    },
+    {
+      "kanjiExpression": "個",
+      "furiganaExpression": [
+        {
+          "text": "個",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 1113
+    },
+    {
+      "kanjiExpression": "箇",
+      "furiganaExpression": [
+        {
+          "text": "箇",
+          "annotation": "こ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "counter for articles",
+        "counter for military units",
+        "individual"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stuk",
+        "exemplaar",
+        "{maatwoord voor stuks",
+        "items}",
+        "{maatwoord voor een beperkt leeftijdsverschil}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "compteur pour les articles (objets)",
+        "compteur pour les unités militaires",
+        "individuel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Individuum",
+        "eine Person",
+        "jmd. selbst",
+        "Stück",
+        "Exemplar (Zählwort für kleinere Dinge, Äpfel, Eier, Schachteln, Bündel etc.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyéni",
+        "egyes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(счётный суф. широкого применения); штука",
+        "(ср.) こ【個】",
+        "(связ.) частное, индивидуальное"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "(Msr) kosov {mera za manjše predmete}",
+        "(Msr) kosov"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(contador para huevos",
+        "etc)",
+        "contador para artículos",
+        "contador para unidades militares",
+        "individual"
+      ]
+    }
+  ]
+}

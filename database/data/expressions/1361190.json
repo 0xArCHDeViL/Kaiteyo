@@ -1,0 +1,105 @@
+{
+  "id": "1361190",
+  "readings": [
+    {
+      "kanaExpression": "ふりむく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "振り向く",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "向",
+          "annotation": "む"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 11239
+    },
+    {
+      "kanjiExpression": "振向く",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふり"
+        },
+        {
+          "text": "向",
+          "annotation": "む"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to turn one\u0027s face",
+        "to turn around",
+        "to look over one\u0027s shoulder"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich omwenden",
+        "omkijken",
+        "zich omdraaien",
+        "het hoofd omdraaien",
+        "zich omkeren",
+        "achterom kijken",
+        "omzien",
+        "omzien naar",
+        "omkijken naar",
+        "zich bekommeren om",
+        "zich bekreunen om",
+        "aandacht besteden aan",
+        "zich aantrekken",
+        "zich keren aan",
+        "vragen naar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "se retourner",
+        "se tourner vers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich umwenden",
+        "sich umsehen",
+        "sich umdrehen",
+        "beachten",
+        "zurückblicken"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оглядываться, оборачиваться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voltearse",
+        "dar la vuelta"
+      ]
+    }
+  ]
+}

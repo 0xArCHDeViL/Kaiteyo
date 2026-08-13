@@ -1,0 +1,43 @@
+{
+  "id": "1643260",
+  "readings": [
+    {
+      "kanaExpression": "のうけっせん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "脳血栓",
+      "furiganaExpression": [
+        {
+          "text": "脳",
+          "annotation": "のう"
+        },
+        {
+          "text": "血",
+          "annotation": "けっ"
+        },
+        {
+          "text": "栓",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cerebral thrombosis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zerebralthrombose",
+        "Hirnthrombose",
+        "Hirngefäßthrombose"
+      ]
+    }
+  ]
+}

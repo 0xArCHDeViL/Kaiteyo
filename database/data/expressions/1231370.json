@@ -1,0 +1,57 @@
+{
+  "id": "1231370",
+  "readings": [
+    {
+      "kanaExpression": "きゅうゆう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "旧友",
+      "furiganaExpression": [
+        {
+          "text": "旧",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "友",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "old friend",
+        "old pal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alter Freund"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "haver"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) старый друг"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compinche",
+        "viejo amigo"
+      ]
+    }
+  ]
+}

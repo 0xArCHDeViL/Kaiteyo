@@ -1,0 +1,115 @@
+{
+  "id": "1194520",
+  "readings": [
+    {
+      "kanaExpression": "はなびら",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "かべん"
+    },
+    {
+      "kanjiExpression": "花びら",
+      "furiganaExpression": [
+        {
+          "text": "花",
+          "annotation": "はな"
+        },
+        {
+          "text": "びら"
+        }
+      ],
+      "rank": 13136
+    },
+    {
+      "kanjiExpression": "花弁",
+      "furiganaExpression": [
+        {
+          "text": "花",
+          "annotation": "か"
+        },
+        {
+          "text": "弁",
+          "annotation": "べん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "花瓣",
+      "furiganaExpression": [
+        {
+          "text": "花",
+          "annotation": "か"
+        },
+        {
+          "text": "瓣",
+          "annotation": "べん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "瓣",
+      "furiganaExpression": [
+        {
+          "text": "瓣",
+          "annotation": "はなびら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(flower) petal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} bloemblad",
+        "bloemblaadje",
+        "kroonblad",
+        "petaal",
+        "{Lat.} petala"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pétale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blütenblatt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szirom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лепесток"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "cvetni listič (latica)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pétalo (de una flor)"
+      ]
+    }
+  ]
+}

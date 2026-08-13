@@ -1,0 +1,86 @@
+{
+  "id": "1707670",
+  "readings": [
+    {
+      "kanaExpression": "とりまき",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "取り巻き",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "巻",
+          "annotation": "ま"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "取巻き",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "巻",
+          "annotation": "ま"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "followers",
+        "hangers-on"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aanhanger",
+        "slaafs volgeling",
+        "meeloper",
+        "trawant",
+        "gunsteling",
+        "hielenlikker",
+        "{verzameln.} cronies"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anhänger",
+        "Umgebung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прихлебатели; приспешники"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "seguidores",
+        "parásitos"
+      ]
+    }
+  ]
+}

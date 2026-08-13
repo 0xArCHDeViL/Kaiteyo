@@ -1,0 +1,57 @@
+{
+  "id": "1545900",
+  "readings": [
+    {
+      "kanaExpression": "ようがく",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "洋楽",
+      "furiganaExpression": [
+        {
+          "text": "洋",
+          "annotation": "よう"
+        },
+        {
+          "text": "楽",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 11766
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Western music",
+        "European music"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "westerse muziek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "europäische Musik",
+        "westliche Musik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "западная (европейская) музыка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "música occidental (no japonesa)"
+      ]
+    }
+  ]
+}

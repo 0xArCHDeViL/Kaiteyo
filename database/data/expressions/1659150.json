@@ -1,0 +1,64 @@
+{
+  "id": "1659150",
+  "readings": [
+    {
+      "kanaExpression": "じゅしょうしき",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "授賞式",
+      "furiganaExpression": [
+        {
+          "text": "授",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "賞",
+          "annotation": "しょう"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "受賞式",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "賞",
+          "annotation": "しょう"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "award ceremony"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Preisverleihungszeremonie"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ceremonia de premios"
+      ]
+    }
+  ]
+}

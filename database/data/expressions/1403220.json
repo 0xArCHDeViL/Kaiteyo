@@ -1,0 +1,60 @@
+{
+  "id": "1403220",
+  "readings": [
+    {
+      "kanaExpression": "ぞうさん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "増産",
+      "furiganaExpression": [
+        {
+          "text": "増",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "production increase"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "augmentation de production"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Produktionserhöhung",
+        "Produktionssteigerung",
+        "die Produktion erhöhen",
+        "die Produktion steigern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "termelés növelése"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) увеличение продукции; повышение урожая",
+        "{～する} увеличивать продукцию; повышать урожай",
+        "2) увеличенная продукция; возросший урожай"
+      ]
+    }
+  ]
+}

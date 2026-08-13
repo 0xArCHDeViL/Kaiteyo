@@ -1,0 +1,76 @@
+{
+  "id": "1418700",
+  "readings": [
+    {
+      "kanaExpression": "たんざく",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "たんじゃく"
+    },
+    {
+      "kanjiExpression": "短冊",
+      "furiganaExpression": [
+        {
+          "text": "短",
+          "annotation": "たん"
+        },
+        {
+          "text": "冊",
+          "annotation": "ざく"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "短尺",
+      "furiganaExpression": [
+        {
+          "text": "短",
+          "annotation": "たん"
+        },
+        {
+          "text": "尺",
+          "annotation": "じゃく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tanzaku",
+        "long, narrow strip of paper on which Japanese poems are written (vertically)",
+        "thin rectangle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "smalle strook papier om verzen (tanka",
+        "haiku) op te schrijven"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "petite bande de papier sur laquelle on écrit des poèmes à la verticale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tanzaku",
+        "Papierstreifen zum Aufschreiben eines Gedichts"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тандзаку (продолговатый лист бумаги для написания танки)",
+        "(см.) たんざく"
+      ]
+    }
+  ]
+}

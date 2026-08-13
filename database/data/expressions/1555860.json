@@ -1,0 +1,45 @@
+{
+  "id": "1555860",
+  "readings": [
+    {
+      "kanaExpression": "りんせき",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "隣席",
+      "furiganaExpression": [
+        {
+          "text": "隣",
+          "annotation": "りん"
+        },
+        {
+          "text": "席",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "next seat",
+        "adjacent seat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "benachbarter Sitzplatz",
+        "nächster Sitzplatz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) соседнее место"
+      ]
+    }
+  ]
+}

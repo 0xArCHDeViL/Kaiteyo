@@ -1,0 +1,107 @@
+{
+  "id": "1756480",
+  "readings": [
+    {
+      "kanaExpression": "いいかえ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "言い換え",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "言い替え",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "言替え",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "いい"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "言換え",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "いい"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "putting in other words"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "parafrase",
+        "omwerking",
+        "herformulering",
+        "andere verwoording"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "umformulieren",
+        "anders formulieren",
+        "mit anderen Worten ausdrücken",
+        "Umformulierung",
+        "Ausdrücken in anderen Worten"
+      ]
+    }
+  ]
+}

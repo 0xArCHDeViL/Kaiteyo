@@ -1,0 +1,104 @@
+{
+  "id": "1496240",
+  "readings": [
+    {
+      "kanaExpression": "ふきん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "付近",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "ふ"
+        },
+        {
+          "text": "近",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 3578
+    },
+    {
+      "kanjiExpression": "附近",
+      "furiganaExpression": [
+        {
+          "text": "附",
+          "annotation": "ふ"
+        },
+        {
+          "text": "近",
+          "annotation": "きん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "neighborhood",
+        "neighbourhood",
+        "vicinity",
+        "environs",
+        "surrounding area",
+        "district"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "omgeving",
+        "buurt",
+        "omtrek",
+        "omstreken",
+        "nabijheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "approchant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Umgebung",
+        "Nachbarschaft",
+        "Nähe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "környék",
+        "szomszédok",
+        "szomszédság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окрестности",
+        "{～の} пригородный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "bližina",
+        "soseska",
+        "okoliš"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alrededores",
+        "cercanías",
+        "inmediaciones"
+      ]
+    }
+  ]
+}

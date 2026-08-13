@@ -1,0 +1,61 @@
+{
+  "id": "1448530",
+  "readings": [
+    {
+      "kanaExpression": "とうひん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "盗品",
+      "furiganaExpression": [
+        {
+          "text": "盗",
+          "annotation": "とう"
+        },
+        {
+          "text": "品",
+          "annotation": "ひん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stolen goods",
+        "stolen article",
+        "loot",
+        "spoils"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "butin",
+        "marchandise volée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Diebesgut",
+        "Diebesbeute",
+        "gestohlener Gegenstand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hadizsákmány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "краденые вещи"
+      ]
+    }
+  ]
+}

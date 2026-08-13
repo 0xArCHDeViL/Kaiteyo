@@ -1,0 +1,61 @@
+{
+  "id": "1401610",
+  "readings": [
+    {
+      "kanaExpression": "そうしゅうにゅう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "総収入",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "total income"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onzuiver inkomen",
+        "bruto-inkomen",
+        "totale inkomen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesamteinkommen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bruttó bevétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общий (валовой) доход"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "1335790",
+  "readings": [
+    {
+      "kanaExpression": "かさなりあう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "重なり合う",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "かさ"
+        },
+        {
+          "text": "なり"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "重なりあう",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "かさ"
+        },
+        {
+          "text": "なりあう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to lie on top of each other",
+        "to overlap",
+        "to pile up"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich überlappen",
+        "übereinander liegen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átfed",
+        "egybeesik",
+        "egybevág",
+        "részben fed",
+        "felhalmoz",
+        "felhalmozódik",
+        "halmoz",
+        "megrak"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лежать один на другом; частично покрывать один другого, заходить один за другой"
+      ]
+    }
+  ]
+}

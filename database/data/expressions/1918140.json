@@ -1,0 +1,66 @@
+{
+  "id": "1918140",
+  "readings": [
+    {
+      "kanaExpression": "えきじょうか",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "液状化",
+      "furiganaExpression": [
+        {
+          "text": "液",
+          "annotation": "えき"
+        },
+        {
+          "text": "状",
+          "annotation": "じょう"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "liquefaction",
+        "liquefy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geol.} bodemvervloeiing",
+        "verweking",
+        "liquefactie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verflüssigung",
+        "Bodenverflüssigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cseppfolyósodás",
+        "elfolyósítás",
+        "elfolyósodás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "licuefacción",
+        "licuar"
+      ]
+    }
+  ]
+}

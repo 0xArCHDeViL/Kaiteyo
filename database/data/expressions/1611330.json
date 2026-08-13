@@ -1,0 +1,107 @@
+{
+  "id": "1611330",
+  "readings": [
+    {
+      "kanaExpression": "ひきにく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "ひき肉",
+      "furiganaExpression": [
+        {
+          "text": "ひき"
+        },
+        {
+          "text": "肉",
+          "annotation": "にく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "挽肉",
+      "furiganaExpression": [
+        {
+          "text": "挽",
+          "annotation": "ひき"
+        },
+        {
+          "text": "肉",
+          "annotation": "にく"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "挽き肉",
+      "furiganaExpression": [
+        {
+          "text": "挽",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "肉",
+          "annotation": "にく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "minced meat",
+        "ground meat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gehakt (vlees)",
+        "hakvlees",
+        "met",
+        "{gew.} gekapt"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "viande hachée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hackfleisch",
+        "Gehacktes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мясной фарш (сырой)",
+        "фарш"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sesekljano meso"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carne picada"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "köttfärs"
+      ]
+    }
+  ]
+}

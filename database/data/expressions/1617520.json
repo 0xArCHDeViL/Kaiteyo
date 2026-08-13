@@ -1,0 +1,87 @@
+{
+  "id": "1617520",
+  "readings": [
+    {
+      "kanaExpression": "かけもち",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "掛け持ち",
+      "furiganaExpression": [
+        {
+          "text": "掛",
+          "annotation": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "掛持ち",
+      "furiganaExpression": [
+        {
+          "text": "掛",
+          "annotation": "かけ"
+        },
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "かけ持ち",
+      "furiganaExpression": [
+        {
+          "text": "かけ"
+        },
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "holding two or more positions concurrently"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Doppelbeschäftigung",
+        "Bekleiden mehrerer Ämter",
+        "Arbeiten an mehreren Orten (in gleicher Funktion)",
+        "Auftreten an mehreren Orten",
+        "an zwei od. mehr Plätzen arbeiten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) совместительство",
+        "{～する} работать по совместительству, совместительствовать",
+        "{～で} по совместительству; побочно",
+        "2) работа неполный рабочий день"
+      ]
+    }
+  ]
+}

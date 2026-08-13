@@ -1,0 +1,75 @@
+{
+  "id": "1334480",
+  "readings": [
+    {
+      "kanaExpression": "じゅういちがつ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "十一月",
+      "furiganaExpression": [
+        {
+          "text": "十",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 7947
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "November",
+        "eleventh month of the lunar calendar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "november",
+        "{afk.} nov",
+        "slachtmaand",
+        "nevelmaand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "November"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ноябрь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "november"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Noviembre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "november"
+      ]
+    }
+  ]
+}

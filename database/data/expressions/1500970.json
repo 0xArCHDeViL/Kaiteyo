@@ -1,0 +1,92 @@
+{
+  "id": "1500970",
+  "readings": [
+    {
+      "kanaExpression": "ふくそう",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "服装",
+      "furiganaExpression": [
+        {
+          "text": "服",
+          "annotation": "ふく"
+        },
+        {
+          "text": "装",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 6170
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "attire",
+        "dress",
+        "clothes",
+        "clothing",
+        "costume",
+        "garb"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleding",
+        "outfit",
+        "tooisel",
+        "kledij",
+        "kleren",
+        "plunje",
+        "tooi",
+        "gewaad",
+        "dos",
+        "dracht",
+        "kostuum",
+        "tenue",
+        "uitrusting",
+        "uitmonstering",
+        "uitdossing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "habits",
+        "vêtements",
+        "habillement",
+        "tenue",
+        "costume"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kleidung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "костюм, одежда; форма"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "oblačilo",
+        "obleka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "indumentaria",
+        "ropa"
+      ]
+    }
+  ]
+}

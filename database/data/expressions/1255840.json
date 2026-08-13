@@ -1,0 +1,76 @@
+{
+  "id": "1255840",
+  "readings": [
+    {
+      "kanaExpression": "げつまつ",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "つきずえ"
+    },
+    {
+      "kanjiExpression": "月末",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "げつ"
+        },
+        {
+          "text": "末",
+          "annotation": "まつ"
+        }
+      ],
+      "rank": 11093
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "end of the month"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "op het laatst van de maand",
+        "aan het eind van de maand",
+        "maandeinde",
+        "het einde",
+        "laatst van de maand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fin de mois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zum Monatsende",
+        "Monatsende",
+        "Ende des Monats"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "конец месяца"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "konec meseca"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fin de mes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1183710",
+  "readings": [
+    {
+      "kanaExpression": "おんかい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "音階",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "階",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scale"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} toonladder",
+        "toonschaal",
+        "{veroud.} schaal",
+        "klankladder",
+        "scala",
+        "echelle",
+        "gamma"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gamme musicale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tonleiter",
+        "Tonskala"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гамма; звукоряд"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "escala musical"
+      ]
+    }
+  ]
+}

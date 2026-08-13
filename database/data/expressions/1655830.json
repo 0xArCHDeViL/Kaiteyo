@@ -1,0 +1,51 @@
+{
+  "id": "1655830",
+  "readings": [
+    {
+      "kanaExpression": "こうねつ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "光熱",
+      "furiganaExpression": [
+        {
+          "text": "光",
+          "annotation": "こう"
+        },
+        {
+          "text": "熱",
+          "annotation": "ねつ"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "light and heat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "licht en warmte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Licht und Wärme",
+        "Licht und Heizung",
+        "Strom und Gas"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) свет и тепло; освещение и отопление"
+      ]
+    }
+  ]
+}

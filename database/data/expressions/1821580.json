@@ -1,0 +1,56 @@
+{
+  "id": "1821580",
+  "readings": [
+    {
+      "kanaExpression": "りにゅうしょく",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "離乳食",
+      "furiganaExpression": [
+        {
+          "text": "離",
+          "annotation": "り"
+        },
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "食",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "solid foods (as introduced during weaning)",
+        "weaning food",
+        "complementary feeding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entwöhnungsnahrung",
+        "Babynahrung"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comida para bebés"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "barnmat"
+      ]
+    }
+  ]
+}

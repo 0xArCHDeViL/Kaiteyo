@@ -1,0 +1,94 @@
+{
+  "id": "1266370",
+  "readings": [
+    {
+      "kanaExpression": "よびごえ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "こせい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "呼び声",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "呼声",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よび"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "call",
+        "hail",
+        "yell"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "appel",
+        "cris"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ruf",
+        "Schrei",
+        "Name",
+        "Rufname",
+        "Bezeichnung",
+        "Gerücht",
+        "Gerede"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhivatottság",
+        "felszólítás",
+        "fizetési felhívás",
+        "függöny elé szólítás",
+        "hívás",
+        "hivatásérzet",
+        "hívó szó",
+        "kiáltás",
+        "telefonbeszélgetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) выкрик, возглас; зов",
+        "2) (перен.) голос (за кого-л.)",
+        "3) (перен.) слухи, толки"
+      ]
+    }
+  ]
+}

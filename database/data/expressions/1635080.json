@@ -1,0 +1,56 @@
+{
+  "id": "1635080",
+  "readings": [
+    {
+      "kanaExpression": "じにん",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "自任",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "regarding oneself (as)",
+        "fancying oneself (as)",
+        "seeing oneself (as)",
+        "considering oneself (to be)",
+        "pretension"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einbildung",
+        "Anmaßung",
+        "sich etw. einbilden",
+        "sich für etw. halten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jogigény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "притязание, претензия"
+      ]
+    }
+  ]
+}

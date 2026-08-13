@@ -1,0 +1,58 @@
+{
+  "id": "1321420",
+  "readings": [
+    {
+      "kanaExpression": "じっぷ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "実父",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じっ"
+        },
+        {
+          "text": "父",
+          "annotation": "ぷ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s real father",
+        "natural father",
+        "biological father"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "natuurlijke vader",
+        "biologische vader"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leiblicher Vater"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "родной отец"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "padre biológico, padre natural"
+      ]
+    }
+  ]
+}

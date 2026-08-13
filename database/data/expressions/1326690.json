@@ -1,0 +1,69 @@
+{
+  "id": "1326690",
+  "readings": [
+    {
+      "kanaExpression": "とりかわす",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "取り交わす",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "交",
+          "annotation": "か"
+        },
+        {
+          "text": "わす"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "取交わす",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "交",
+          "annotation": "か"
+        },
+        {
+          "text": "わす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to exchange",
+        "to interchange"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "austauschen (Grüße, Papiere)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cserekereskedik",
+        "cserél",
+        "kicserél",
+        "vált"
+      ]
+    }
+  ]
+}

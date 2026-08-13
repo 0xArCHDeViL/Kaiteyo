@@ -1,0 +1,101 @@
+{
+  "id": "1603780",
+  "readings": [
+    {
+      "kanaExpression": "まえうり",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "前売り",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "まえ"
+        },
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "前売",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "まえ"
+        },
+        {
+          "text": "売",
+          "annotation": "うり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "advance sale",
+        "booking"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorverkopen",
+        "van tevoren verkopen",
+        "voorverkoop",
+        "{afk.} vvk."
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "location",
+        "réservation",
+        "vente à l\u0027avance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "im Voraus verkaufen",
+        "Vorverkauf",
+        "Kartenvorverkauf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jegykiadás",
+        "könyvből való magolás",
+        "poggyászfeladás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предварительная продажа",
+        "{～する} производить предварительную продажу"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "predprodaja",
+        "rezervacija (vstopnic)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "venta por anticipado"
+      ]
+    }
+  ]
+}

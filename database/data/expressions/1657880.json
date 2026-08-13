@@ -1,0 +1,53 @@
+{
+  "id": "1657880",
+  "readings": [
+    {
+      "kanaExpression": "さくしゅう",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "昨秋",
+      "furiganaExpression": [
+        {
+          "text": "昨",
+          "annotation": "さく"
+        },
+        {
+          "text": "秋",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 18000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "autumn of last year",
+        "fall of last year"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vorige herfst",
+        "verleden herfst",
+        "herfst van vorig jaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letzten Herbst",
+        "Herbst letzten Jahres"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) прошлая осень, осень прошлого года"
+      ]
+    }
+  ]
+}

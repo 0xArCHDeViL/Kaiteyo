@@ -1,0 +1,67 @@
+{
+  "id": "1490460",
+  "readings": [
+    {
+      "kanaExpression": "びょうよみ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "秒読み",
+      "furiganaExpression": [
+        {
+          "text": "秒",
+          "annotation": "びょう"
+        },
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "countdown"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "compte à rebours"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zählen der Sekunden",
+        "Countdown",
+        "Endstadium"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "visszaszámlálás"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odštevanje sekund",
+        "odštevati sekunde"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuenta atrás"
+      ]
+    }
+  ]
+}

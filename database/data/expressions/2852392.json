@@ -1,0 +1,71 @@
+{
+  "id": "2852392",
+  "readings": [
+    {
+      "kanaExpression": "おたんじょうび",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お誕生日",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "誕",
+          "annotation": "たん"
+        },
+        {
+          "text": "生",
+          "annotation": "じょう"
+        },
+        {
+          "text": "日",
+          "annotation": "び"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御誕生日",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "誕",
+          "annotation": "たん"
+        },
+        {
+          "text": "生",
+          "annotation": "じょう"
+        },
+        {
+          "text": "日",
+          "annotation": "び"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "birthday"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geburtstag (einer anderen Person; ehrerb.-höfl.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "rojstni dan"
+      ]
+    }
+  ]
+}

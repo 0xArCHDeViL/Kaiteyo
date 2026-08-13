@@ -1,0 +1,40 @@
+{
+  "id": "1693280",
+  "readings": [
+    {
+      "kanaExpression": "ごしゃ",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "誤射",
+      "furiganaExpression": [
+        {
+          "text": "誤",
+          "annotation": "ご"
+        },
+        {
+          "text": "射",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "accidental shooting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "versehentlich schießen",
+        "fälschlich beschießen",
+        "versehentliches Schießen",
+        "fälschliches Beschießen"
+      ]
+    }
+  ]
+}

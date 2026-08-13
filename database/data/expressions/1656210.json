@@ -1,0 +1,95 @@
+{
+  "id": "1656210",
+  "readings": [
+    {
+      "kanaExpression": "つめあわせ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "詰め合わせ",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせ"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "詰合わせ",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つめ"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "詰め合せ",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "合",
+          "annotation": "あわ"
+        },
+        {
+          "text": "せ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "combination",
+        "assortment (of goods)",
+        "assorted basket or box (e.g. of chocolates)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sortiment",
+        "Mischung",
+        "Geschenkpackung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kombináció"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) набор, комплект",
+        "2) (мор.) подстилка под груз (для закрепления его на месте)"
+      ]
+    }
+  ]
+}

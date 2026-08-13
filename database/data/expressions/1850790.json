@@ -1,0 +1,74 @@
+{
+  "id": "1850790",
+  "readings": [
+    {
+      "kanaExpression": "みみなれる",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "耳慣れる",
+      "furiganaExpression": [
+        {
+          "text": "耳",
+          "annotation": "みみ"
+        },
+        {
+          "text": "慣",
+          "annotation": "な"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "耳馴れる",
+      "furiganaExpression": [
+        {
+          "text": "耳",
+          "annotation": "みみ"
+        },
+        {
+          "text": "馴",
+          "annotation": "な"
+        },
+        {
+          "text": "れる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "耳なれる",
+      "furiganaExpression": [
+        {
+          "text": "耳",
+          "annotation": "みみ"
+        },
+        {
+          "text": "なれる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to become familiar (to one\u0027s ears)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vertraut klingen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "быть привычным [для слуха], быть знакомым (на слух)"
+      ]
+    }
+  ]
+}

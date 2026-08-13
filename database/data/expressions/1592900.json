@@ -1,0 +1,128 @@
+{
+  "id": "1592900",
+  "readings": [
+    {
+      "kanaExpression": "こいぬ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "子犬",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "犬",
+          "annotation": "いぬ"
+        }
+      ],
+      "rank": 13505
+    },
+    {
+      "kanjiExpression": "仔犬",
+      "furiganaExpression": [
+        {
+          "text": "仔",
+          "annotation": "こ"
+        },
+        {
+          "text": "犬",
+          "annotation": "いぬ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "小犬",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "犬",
+          "annotation": "いぬ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "子いぬ",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "いぬ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "子イヌ",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "イヌ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "puppy",
+        "small dog"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleine",
+        "jonge hond",
+        "hondje",
+        "hondenjong",
+        "puppy",
+        "pup"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Welpe",
+        "Hündchen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beképzelt fiatalember",
+        "kiskutya",
+        "kölyökkutya",
+        "kutyus",
+        "ostoba fiatalember",
+        "önhitt fiatalember",
+        "öntelt fiatalember",
+        "taknyos kölyök",
+        "úrhatnám fráter",
+        "üresfejű fiatalember"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "щенок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cachorro",
+        "perrito"
+      ]
+    }
+  ]
+}

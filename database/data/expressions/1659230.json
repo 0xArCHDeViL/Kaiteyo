@@ -1,0 +1,53 @@
+{
+  "id": "1659230",
+  "readings": [
+    {
+      "kanaExpression": "しゅうあけ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "週明け",
+      "furiganaExpression": [
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "明",
+          "annotation": "あ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "週あけ",
+      "furiganaExpression": [
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "あけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beginning of next week (usu. Monday)",
+        "early next week"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anfang der kommenden Woche"
+      ]
+    }
+  ]
+}

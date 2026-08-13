@@ -1,0 +1,93 @@
+{
+  "id": "1416320",
+  "readings": [
+    {
+      "kanaExpression": "うばいとる",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "奪い取る",
+      "furiganaExpression": [
+        {
+          "text": "奪",
+          "annotation": "うば"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "奪いとる",
+      "furiganaExpression": [
+        {
+          "text": "奪",
+          "annotation": "うば"
+        },
+        {
+          "text": "いとる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to plunder",
+        "to grab",
+        "to snatch"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "roven",
+        "beroven",
+        "stelen",
+        "bestelen",
+        "afnemen",
+        "ontnemen",
+        "wegnemen",
+        "leeghalen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wegnehmen",
+        "entreißen",
+        "rauben",
+        "plündern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kifoszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) うばう"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "despojar",
+        "arrebatar",
+        "desposeer"
+      ]
+    }
+  ]
+}

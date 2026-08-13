@@ -1,0 +1,93 @@
+{
+  "id": "1848440",
+  "readings": [
+    {
+      "kanaExpression": "いいすぎる",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "言い過ぎる",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "過",
+          "annotation": "す"
+        },
+        {
+          "text": "ぎる"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "言いすぎる",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "いすぎる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "言過ぎる",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "いい"
+        },
+        {
+          "text": "過",
+          "annotation": "す"
+        },
+        {
+          "text": "ぎる"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to talk or say too much",
+        "to go too far",
+        "to overstate",
+        "to exaggerate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zu viel sagen",
+        "übertreiben",
+        "zu weit gehen",
+        "übers Ziel hinaus schießen",
+        "sich vergaloppieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "túloz",
+        "eltúloz",
+        "nagyít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сказать слишком много (сильно); преувеличивать; хватить через край, перегибать палку (критикуя)"
+      ]
+    }
+  ]
+}

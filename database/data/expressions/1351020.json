@@ -1,0 +1,67 @@
+{
+  "id": "1351020",
+  "readings": [
+    {
+      "kanaExpression": "しょうこうぐん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "症候群",
+      "furiganaExpression": [
+        {
+          "text": "症",
+          "annotation": "しょう"
+        },
+        {
+          "text": "候",
+          "annotation": "こう"
+        },
+        {
+          "text": "群",
+          "annotation": "ぐん"
+        }
+      ],
+      "rank": 7483
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "syndrome"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} syndroom",
+        "symptomencomplex"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Syndrom"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szindróma",
+        "tünetcsoport"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "síndrome"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "syndrom"
+      ]
+    }
+  ]
+}

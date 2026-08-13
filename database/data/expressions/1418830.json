@@ -1,0 +1,75 @@
+{
+  "id": "1418830",
+  "readings": [
+    {
+      "kanaExpression": "たんめい",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "短命",
+      "furiganaExpression": [
+        {
+          "text": "短",
+          "annotation": "たん"
+        },
+        {
+          "text": "命",
+          "annotation": "めい"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "short life",
+        "short lived"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kort leven",
+        "korte levensduur",
+        "kortlevend",
+        "kortdurend",
+        "kortstondig",
+        "efemeer",
+        "efemerisch"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vie écourtée",
+        "vie brève"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kurzes Leben",
+        "kurze Dauer",
+        "kurzlebig",
+        "kurzfristig",
+        "kurzzeitig",
+        "Kurzlebigkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "короткая жизнь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "corta vida",
+        "muerte prematura"
+      ]
+    }
+  ]
+}

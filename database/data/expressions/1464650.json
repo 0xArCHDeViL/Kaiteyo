@@ -1,0 +1,50 @@
+{
+  "id": "1464650",
+  "readings": [
+    {
+      "kanaExpression": "にほんしき",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "日本式",
+      "furiganaExpression": [
+        {
+          "text": "日本",
+          "annotation": "にほん"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese style",
+        "Nihon-shiki romanization (of Japanese)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "style japonais"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "japanischer Stil"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estilo japonés"
+      ]
+    }
+  ]
+}

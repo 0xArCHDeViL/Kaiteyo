@@ -1,0 +1,79 @@
+{
+  "id": "1390840",
+  "readings": [
+    {
+      "kanaExpression": "あさぐろい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "浅黒い",
+      "furiganaExpression": [
+        {
+          "text": "浅",
+          "annotation": "あさ"
+        },
+        {
+          "text": "黒",
+          "annotation": "ぐろ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dark (skin, complexion, etc.)",
+        "swarthy",
+        "tanned"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zwartig",
+        "enigszins zwart",
+        "{～肌} gebronsd",
+        "getint",
+        "lichtgetint",
+        "donker"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "basané",
+        "brun",
+        "sombre (teint)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwarzbraun",
+        "schwärzlich",
+        "dunkelfarbig",
+        "bräunlich",
+        "sonnenverbrannt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "barna bőrű",
+        "füstös képű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "смуглый, темноватый",
+        "Aは色が浅黒い у А. тёмный цвет лица, А. смуглый"
+      ]
+    }
+  ]
+}

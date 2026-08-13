@@ -1,0 +1,56 @@
+{
+  "id": "1150980",
+  "readings": [
+    {
+      "kanaExpression": "まなでし",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "愛弟子",
+      "furiganaExpression": [
+        {
+          "text": "愛",
+          "annotation": "まな"
+        },
+        {
+          "text": "弟",
+          "annotation": "で"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "favorite pupil",
+        "favourite pupil",
+        "teacher\u0027s pet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lieblingsschüler"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) любимый ученик"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pupilo favorito",
+        "el favorito del maestro"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "1423140",
+  "readings": [
+    {
+      "kanaExpression": "ちゃくそう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "着想",
+      "furiganaExpression": [
+        {
+          "text": "着",
+          "annotation": "ちゃく"
+        },
+        {
+          "text": "想",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "conception",
+        "idea"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Idee",
+        "Einfall",
+        "Gedanke",
+        "Konzeption"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elgondolás",
+        "elképzelés",
+        "eszme",
+        "felfogás",
+        "fogamzás",
+        "gondolat",
+        "gyanú",
+        "ismeret",
+        "képzet",
+        "ötlet",
+        "sejtés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1): {～する} задумывать; возыметь мысль",
+        "2) [пришедшая в голову] мысль (идея)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ocurrencia, idea, inspiración"
+      ]
+    }
+  ]
+}

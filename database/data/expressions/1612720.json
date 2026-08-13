@@ -1,0 +1,69 @@
+{
+  "id": "1612720",
+  "readings": [
+    {
+      "kanaExpression": "どうもありがとう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "どうも有り難う",
+      "furiganaExpression": [
+        {
+          "text": "どうも"
+        },
+        {
+          "text": "有",
+          "annotation": "あ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "難",
+          "annotation": "がと"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thank you very much"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "merci"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Danke sehr!"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спасибо"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Muchas gracias"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tack själv"
+      ]
+    }
+  ]
+}

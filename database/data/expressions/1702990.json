@@ -1,0 +1,87 @@
+{
+  "id": "1702990",
+  "readings": [
+    {
+      "kanaExpression": "いしぶみ",
+      "rank": 19500
+    },
+    {
+      "kanaExpression": "ひ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "碑",
+      "furiganaExpression": [
+        {
+          "text": "碑",
+          "annotation": "いしぶみ"
+        }
+      ],
+      "rank": 13087
+    },
+    {
+      "kanjiExpression": "石文",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stone monument bearing an inscription (esp. memorial for future generations)",
+        "stele",
+        "stela"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grafsteen",
+        "zerk",
+        "gedenksteen",
+        "erezerk",
+        "gedenkteken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steindenkmal",
+        "Gedenkstein",
+        "Grabstein",
+        "Denkmal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "надгробный камень, надгробный памятник",
+        "надгробный камень (с надписью); памятник с эпитафией"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "spomenik",
+        "nagrobnik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lápida",
+        "memorial",
+        "monumento"
+      ]
+    }
+  ]
+}

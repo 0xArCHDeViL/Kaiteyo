@@ -1,0 +1,50 @@
+{
+  "id": "1468360",
+  "readings": [
+    {
+      "kanaExpression": "ねんかん",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "年刊",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "刊",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "annual publication"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jaarlijkse publicatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jährlich veröffentlicht",
+        "jährliche Veröffentlichung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ежегодное издание; выходит раз в год (объявление)"
+      ]
+    }
+  ]
+}

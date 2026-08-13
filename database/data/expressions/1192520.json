@@ -1,0 +1,51 @@
+{
+  "id": "1192520",
+  "readings": [
+    {
+      "kanaExpression": "かもん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "家紋",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "紋",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "family crest"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "familiewapen",
+        "geslachtswapen",
+        "stamwapen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Familienwappen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фамильный герб"
+      ]
+    }
+  ]
+}

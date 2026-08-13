@@ -1,0 +1,69 @@
+{
+  "id": "1258540",
+  "readings": [
+    {
+      "kanaExpression": "けんきゅういん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "研究員",
+      "furiganaExpression": [
+        {
+          "text": "研",
+          "annotation": "けん"
+        },
+        {
+          "text": "究",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "researcher",
+        "lab worker"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onderzoeker",
+        "navorser",
+        "researcher",
+        "researchwerker"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Forschungsmitglied"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kutató"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сотрудник научно-исследовательского института; лаборант"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "investigador"
+      ]
+    }
+  ]
+}

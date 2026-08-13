@@ -1,0 +1,37 @@
+{
+  "id": "2222090",
+  "readings": [
+    {
+      "kanaExpression": "ていし",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "睇視",
+      "furiganaExpression": [
+        {
+          "text": "睇",
+          "annotation": "てい"
+        },
+        {
+          "text": "視",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "squinting",
+        "looking closely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) пристально смотреть"
+      ]
+    }
+  ]
+}

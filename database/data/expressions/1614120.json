@@ -1,0 +1,52 @@
+{
+  "id": "1614120",
+  "readings": [
+    {
+      "kanaExpression": "かんしょう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "完勝",
+      "furiganaExpression": [
+        {
+          "text": "完",
+          "annotation": "かん"
+        },
+        {
+          "text": "勝",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "complete victory",
+        "total victory"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einen totalen Sieg gewinnen",
+        "totaler Sieg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полная победа",
+        "{～する} одерживать полную победу"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "victoria absoluta"
+      ]
+    }
+  ]
+}

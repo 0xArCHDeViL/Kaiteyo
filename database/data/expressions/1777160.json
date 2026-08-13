@@ -1,0 +1,50 @@
+{
+  "id": "1777160",
+  "readings": [
+    {
+      "kanaExpression": "ていりつ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "定率",
+      "furiganaExpression": [
+        {
+          "text": "定",
+          "annotation": "てい"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fixed rate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vast percentage",
+        "vast tarief"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fester Prozentsatz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "определённый тариф (коэффициент, процент)"
+      ]
+    }
+  ]
+}

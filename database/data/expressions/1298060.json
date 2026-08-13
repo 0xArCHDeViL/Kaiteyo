@@ -1,0 +1,83 @@
+{
+  "id": "1298060",
+  "readings": [
+    {
+      "kanaExpression": "けずりとる",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "削り取る",
+      "furiganaExpression": [
+        {
+          "text": "削",
+          "annotation": "けず"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "削りとる",
+      "furiganaExpression": [
+        {
+          "text": "削",
+          "annotation": "けず"
+        },
+        {
+          "text": "りとる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to shave off",
+        "to scrape off"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afschaven",
+        "wegschaven",
+        "afvijlen",
+        "wegvijlen",
+        "afschrappen",
+        "wegschrappen",
+        "afbikken",
+        "wegbikken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abschaben",
+        "abkratzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "levág"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) соскабливать, состругивать",
+        "2) (мед.) вырезать, отрезать; производить резекцию"
+      ]
+    }
+  ]
+}

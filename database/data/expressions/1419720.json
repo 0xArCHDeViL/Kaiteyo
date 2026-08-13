@@ -1,0 +1,53 @@
+{
+  "id": "1419720",
+  "readings": [
+    {
+      "kanaExpression": "だんちょう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "断腸",
+      "furiganaExpression": [
+        {
+          "text": "断",
+          "annotation": "だん"
+        },
+        {
+          "text": "腸",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heartbreak",
+        "grief",
+        "sorrow"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außerordentlicher Schmerz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:) 断腸の思いがする (обр.) сердце разрывается (готово разорваться, обливается кровью)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "atormentado por una enorme tristeza",
+        "sumamente triste",
+        "tremendamente triste y desconsolado"
+      ]
+    }
+  ]
+}

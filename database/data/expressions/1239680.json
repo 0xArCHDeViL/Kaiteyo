@@ -1,0 +1,82 @@
+{
+  "id": "1239680",
+  "readings": [
+    {
+      "kanaExpression": "きょくめん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "局面",
+      "furiganaExpression": [
+        {
+          "text": "局",
+          "annotation": "きょく"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 6387
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "position in a game",
+        "state of the game",
+        "situation",
+        "stage",
+        "phase",
+        "aspect"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{m.b.t. go",
+        "shogi} spelfase",
+        "spelstadium",
+        "situatie",
+        "toestand",
+        "stand van zaken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Situation",
+        "Lage",
+        "Lage der Dinge",
+        "Sachverhalt",
+        "Sachlage",
+        "Stand der Dinge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "külső megjelenés",
+        "megvilágítás",
+        "szempont",
+        "elhelyezkedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) лицевая сторона шахматной доски (доски для игры в го)",
+        "2) положение фигур (при игре в шахматы или в го)",
+        "3) положение [дел], ситуация"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tablero (ajedrez, damas, shogi)",
+        "situación"
+      ]
+    }
+  ]
+}

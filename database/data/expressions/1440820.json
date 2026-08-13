@@ -1,0 +1,81 @@
+{
+  "id": "1440820",
+  "readings": [
+    {
+      "kanaExpression": "てんか",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "添加",
+      "furiganaExpression": [
+        {
+          "text": "添",
+          "annotation": "てん"
+        },
+        {
+          "text": "加",
+          "annotation": "か"
+        }
+      ],
+      "rank": 8712
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "addition",
+        "annexing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "toevoegen",
+        "aanvoegen",
+        "toevoeging",
+        "aanvoeging",
+        "additie",
+        "adjunctie",
+        "{fonet.} epenthesis",
+        "epenthese"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ajout",
+        "annexion",
+        "supplément"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hinzufügen",
+        "zusetzen",
+        "Hinzufügung",
+        "Zusatz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "összeadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "присоединение; прибавление; приложение (документов и т. п.)",
+        "{～する} прилагать; присоединять; прибавлять, присовокуплять"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aditivo"
+      ]
+    }
+  ]
+}

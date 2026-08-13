@@ -1,0 +1,74 @@
+{
+  "id": "1653090",
+  "readings": [
+    {
+      "kanaExpression": "なげうり",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "投げ売り",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "な"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "投売り",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "なげ"
+        },
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sacrifice sale",
+        "selling at a loss",
+        "dumping",
+        "clearance sale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mit Verlust verkaufen",
+        "verschleudern",
+        "Verkauf mit Verlust",
+        "Verschleudern",
+        "Ausverkauf",
+        "Dumping"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продажа в убыток (по бросовым ценам); демпинг",
+        "{～する} продавать в убыток (по бросовым ценам); устраивать демпинг"
+      ]
+    }
+  ]
+}

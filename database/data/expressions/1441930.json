@@ -1,0 +1,72 @@
+{
+  "id": "1441930",
+  "readings": [
+    {
+      "kanaExpression": "でんき",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "伝奇",
+      "furiganaExpression": [
+        {
+          "text": "伝",
+          "annotation": "でん"
+        },
+        {
+          "text": "奇",
+          "annotation": "き"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fantasy fiction",
+        "bizarre fiction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abenteuerlichkeit",
+        "etw. Romantisches"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ábrándos dolog",
+        "idill",
+        "lovagregény",
+        "mese",
+        "poézis",
+        "regényes kaland",
+        "regényes történet",
+        "román nyelv",
+        "románc",
+        "romantikus dolog",
+        "romantikus kaland",
+        "romantikus történet",
+        "újlatin nyelv",
+        "verses regény",
+        "versregény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) роман (героического жанра)",
+        "{～的} легендарный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "romance (ficción)"
+      ]
+    }
+  ]
+}

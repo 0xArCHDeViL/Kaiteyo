@@ -1,0 +1,88 @@
+{
+  "id": "1330790",
+  "readings": [
+    {
+      "kanaExpression": "しゅうにゅう",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "収入",
+      "furiganaExpression": [
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 1550
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "income",
+        "receipts",
+        "revenue"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inkomen",
+        "inkomsten",
+        "{i.h.b.} revenuen",
+        "{fig.} boterham",
+        "opbrengst",
+        "provenu",
+        "ontvangsten",
+        "{i.h.b.} recette"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "reçu",
+        "recette",
+        "revenu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einkommen",
+        "Einkünfte",
+        "Einnahme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bevétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доход, приход, поступления",
+        "{～のある} доходный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dohodek",
+        "prihodek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ingresos"
+      ]
+    }
+  ]
+}

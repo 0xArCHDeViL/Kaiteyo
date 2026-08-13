@@ -1,0 +1,107 @@
+{
+  "id": "1365010",
+  "readings": [
+    {
+      "kanaExpression": "まき",
+      "rank": 9529
+    },
+    {
+      "kanaExpression": "たきぎ"
+    },
+    {
+      "kanjiExpression": "薪",
+      "furiganaExpression": [
+        {
+          "text": "薪",
+          "annotation": "まき"
+        }
+      ],
+      "rank": 13648
+    },
+    {
+      "kanjiExpression": "焚き木",
+      "furiganaExpression": [
+        {
+          "text": "焚",
+          "annotation": "た"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "木",
+          "annotation": "ぎ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "たき木",
+      "furiganaExpression": [
+        {
+          "text": "たき"
+        },
+        {
+          "text": "木",
+          "annotation": "ぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "piece(s) of firewood (esp. chopped or split from logs)",
+        "kindling (twigs, branches, etc.)",
+        "firewood"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "brandhout",
+        "kachelhoutjes",
+        "knuppelhout",
+        "talhout",
+        "{gew.} stookhout"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bûche",
+        "bois de chauffage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Brennholz",
+        "Holz",
+        "Feuerholz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fűtőanyag",
+        "tüzelőanyag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "топливо, дрова",
+        "дрова, поленья; [древесное] топливо"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "leña",
+        "astillas",
+        "combustible"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "1220260",
+  "readings": [
+    {
+      "kanaExpression": "きしゅ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "旗手",
+      "furiganaExpression": [
+        {
+          "text": "旗",
+          "annotation": "き"
+        },
+        {
+          "text": "手",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "standard-bearer",
+        "flag-bearer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fahnenträger",
+        "Fähnrich",
+        "Speerspitze (einer Bewegung)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "знаменосец"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "banerförare",
+        "standarbärare"
+      ]
+    }
+  ]
+}

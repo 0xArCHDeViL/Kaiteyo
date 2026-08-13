@@ -1,0 +1,85 @@
+{
+  "id": "1656220",
+  "readings": [
+    {
+      "kanaExpression": "つめしょ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "詰め所",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "所",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "詰所",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つめ"
+        },
+        {
+          "text": "所",
+          "annotation": "しょ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "station",
+        "office",
+        "guardroom"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "standplaats",
+        "bureau",
+        "post",
+        "wachthuis",
+        "wachtlokaal",
+        "bemanningsverblijf",
+        "kamer voor de bemanning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wachtstube",
+        "Pförtnerhaus",
+        "Hausmeisterloge",
+        "Posten",
+        "Büroraum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állomáshely",
+        "megálló",
+        "pályaudvar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "станция, пост; помещение для команды; присутственное место"
+      ]
+    }
+  ]
+}

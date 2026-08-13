@@ -1,0 +1,63 @@
+{
+  "id": "1467370",
+  "readings": [
+    {
+      "kanaExpression": "にんぷ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "妊婦",
+      "furiganaExpression": [
+        {
+          "text": "妊",
+          "annotation": "にん"
+        },
+        {
+          "text": "婦",
+          "annotation": "ぷ"
+        }
+      ],
+      "rank": 11725
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pregnant woman"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zwangere vrouw",
+        "aanstaande moeder"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "femme enceinte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwangere",
+        "schwangere Frau"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "беременная [женщина]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mujer embarazada"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "1596440",
+  "readings": [
+    {
+      "kanaExpression": "そうぞうしい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "騒々しい",
+      "furiganaExpression": [
+        {
+          "text": "騒",
+          "annotation": "そう"
+        },
+        {
+          "text": "々",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "騒騒しい",
+      "furiganaExpression": [
+        {
+          "text": "騒",
+          "annotation": "そう"
+        },
+        {
+          "text": "騒",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "しい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "noisy",
+        "loud",
+        "boisterous",
+        "clamorous",
+        "raucous",
+        "turbulent",
+        "unsettled",
+        "restless"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lawaaierig",
+        "lawaaiig",
+        "luidruchtig",
+        "schetterig",
+        "schreeuwerig",
+        "roezemoezig",
+        "rumoerig",
+        "roezig",
+        "druk",
+        "tapageus",
+        "tumultueus",
+        "bruyant",
+        "woelig",
+        "roerig",
+        "onrustig",
+        "turbulent",
+        "veelbewogen",
+        "woelziek",
+        "{fig.} troebel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bruyant",
+        "tapageur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "laut",
+        "lärmend",
+        "geräuschvoll",
+        "ohrenbetäubend",
+        "unruhig",
+        "aufgeregt",
+        "stürmisch",
+        "turbulent"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiabáló",
+        "lármás",
+        "féktelen",
+        "szilaj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шумный; беспокойный; крикливый; буйный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hrupen",
+        "vihrav",
+        "silovit"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ruidoso",
+        "bullicioso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "stojande"
+      ]
+    }
+  ]
+}

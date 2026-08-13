@@ -1,0 +1,49 @@
+{
+  "id": "1735370",
+  "readings": [
+    {
+      "kanaExpression": "せいちょう",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "政庁",
+      "furiganaExpression": [
+        {
+          "text": "政",
+          "annotation": "せい"
+        },
+        {
+          "text": "庁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "government office"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Regierungsgebäude"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "управление, ведомство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oficina de gobierno"
+      ]
+    }
+  ]
+}

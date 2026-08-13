@@ -1,0 +1,114 @@
+{
+  "id": "1564270",
+  "readings": [
+    {
+      "kanaExpression": "えんざい",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "冤罪",
+      "furiganaExpression": [
+        {
+          "text": "冤",
+          "annotation": "えん"
+        },
+        {
+          "text": "罪",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 14766
+    },
+    {
+      "kanjiExpression": "えん罪",
+      "furiganaExpression": [
+        {
+          "text": "えん"
+        },
+        {
+          "text": "罪",
+          "annotation": "ざい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "寃罪",
+      "furiganaExpression": [
+        {
+          "text": "寃",
+          "annotation": "えん"
+        },
+        {
+          "text": "罪",
+          "annotation": "ざい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "false charge",
+        "false accusation",
+        "misrepresentation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} valse beschuldiging",
+        "aanklacht",
+        "ongegronde aantijging",
+        "ongerechtvaardigde verdenking",
+        "imputatie",
+        "{i.h.b.} bestraffing",
+        "veroordeling van een onschuldige"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "falsche Anschuldigung",
+        "falsche Beschuldigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hamis vád",
+        "hamis beállítás",
+        "helytelen bemutatás",
+        "helytelen előadás",
+        "hibás bemutatás",
+        "hibás előadás",
+        "téves bemutatás",
+        "téves előadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ложное обвинение, навет"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "falsa acusación",
+        "falsos cargos",
+        "calumnia",
+        "infundio",
+        "difamación",
+        "cargo falso",
+        "misrepresentation"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "anklagelse"
+      ]
+    }
+  ]
+}

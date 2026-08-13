@@ -1,0 +1,76 @@
+{
+  "id": "1535250",
+  "readings": [
+    {
+      "kanaExpression": "めをとおす",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "目を通す",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "め"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "通",
+          "annotation": "とお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "目をとおす",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "め"
+        },
+        {
+          "text": "をとおす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to scan",
+        "to look over"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "flüchtig überblicken",
+        "durchsehen",
+        "etw. überfliegen",
+        "einen Blick hineintun",
+        "schnell durchlesen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "letapogat",
+        "megvizsgál",
+        "skandál",
+        "ütemez"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "examinar",
+        "echar un vistazo"
+      ]
+    }
+  ]
+}

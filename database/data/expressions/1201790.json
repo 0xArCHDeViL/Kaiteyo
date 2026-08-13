@@ -1,0 +1,85 @@
+{
+  "id": "1201790",
+  "readings": [
+    {
+      "kanaExpression": "かいよう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "海洋",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "洋",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 5703
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ocean",
+        "sea"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zee",
+        "oceaan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "océan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "See",
+        "Meer",
+        "Ozean",
+        "Weltmeer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "óceán"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "море; океан"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ocean"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "océano"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ocean",
+        "världshav"
+      ]
+    }
+  ]
+}

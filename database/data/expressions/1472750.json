@@ -1,0 +1,109 @@
+{
+  "id": "1472750",
+  "readings": [
+    {
+      "kanaExpression": "せぼね",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "背骨",
+      "furiganaExpression": [
+        {
+          "text": "背",
+          "annotation": "せ"
+        },
+        {
+          "text": "骨",
+          "annotation": "ぼね"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "脊骨",
+      "furiganaExpression": [
+        {
+          "text": "脊",
+          "annotation": "せ"
+        },
+        {
+          "text": "骨",
+          "annotation": "ぼね"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "背ぼね",
+      "furiganaExpression": [
+        {
+          "text": "背",
+          "annotation": "せ"
+        },
+        {
+          "text": "ぼね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spine",
+        "backbone",
+        "spinal column"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ruggengraat",
+        "wervelkolom",
+        "{bij dieren} ruggenstreng",
+        "{gew.} paternosterbeen",
+        "{gew.} ruggenbeen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épine dorsale",
+        "colonne vertébrale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rückgrat",
+        "Wirbelsäule"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gerinc",
+        "tövis",
+        "tüske"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спинной хребет; позвоночник"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hrbtenica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "columna vertebral",
+        "espina dorsal"
+      ]
+    }
+  ]
+}

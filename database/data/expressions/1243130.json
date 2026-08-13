@@ -1,0 +1,81 @@
+{
+  "id": "1243130",
+  "readings": [
+    {
+      "kanaExpression": "きんぱく",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "金箔",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "きん"
+        },
+        {
+          "text": "箔",
+          "annotation": "ぱく"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "金ぱく",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "きん"
+        },
+        {
+          "text": "ぱく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gold leaf",
+        "gold foil",
+        "beaten gold"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bladgoud",
+        "goudfolie",
+        "goudblad",
+        "± dukatengoud",
+        "{fig.} klatergoud",
+        "klinkklank",
+        "uiterlijke schijn",
+        "ijdele vertoning",
+        "masker"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "feuille d\u0027or",
+        "or battu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blattgold",
+        "Goldblättchen",
+        "gute äußere Erscheinung",
+        "Titel und Rang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сусальное золото"
+      ]
+    }
+  ]
+}

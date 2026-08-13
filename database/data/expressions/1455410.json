@@ -1,0 +1,100 @@
+{
+  "id": "1455410",
+  "readings": [
+    {
+      "kanaExpression": "はげ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ハゲ",
+      "rank": 9901
+    },
+    {
+      "kanjiExpression": "禿",
+      "furiganaExpression": [
+        {
+          "text": "禿",
+          "annotation": "はげ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "禿げ",
+      "furiganaExpression": [
+        {
+          "text": "禿",
+          "annotation": "は"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "baldness",
+        "bald head",
+        "bald person",
+        "baldy",
+        "idiot",
+        "moron"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kaalheid",
+        "kaalhoofdigheid",
+        "kale plek"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "calvitie",
+        "chauve"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Glatzköpfigkeit",
+        "Kahlköpfigkeit",
+        "Glatzköpfiger",
+        "Glatze",
+        "Kahlheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kopaszság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) плешь, лысина",
+        "2) (см.) はげあたま",
+        "3) (см.) はげやま"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "plešavost",
+        "plešec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calvicie"
+      ]
+    }
+  ]
+}

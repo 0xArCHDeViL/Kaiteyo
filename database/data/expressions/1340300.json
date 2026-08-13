@@ -1,0 +1,63 @@
+{
+  "id": "1340300",
+  "readings": [
+    {
+      "kanaExpression": "であるく",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "出歩く",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "歩",
+          "annotation": "ある"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to go out",
+        "to go around",
+        "to walk about",
+        "to roam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausgehen",
+        "sich herumtreiben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szórakozni megy",
+        "sztrájkba lép",
+        "társaságba jár",
+        "sétál egyet",
+        "hozzáfog vmihez",
+        "járkál",
+        "megfordul",
+        "nekilát vminek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отлучаться из дому; бродить, шататься"
+      ]
+    }
+  ]
+}

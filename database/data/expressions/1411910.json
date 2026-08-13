@@ -1,0 +1,54 @@
+{
+  "id": "1411910",
+  "readings": [
+    {
+      "kanaExpression": "だいしっこう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "代執行",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "執",
+          "annotation": "しっ"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "execution by proxy",
+        "subrogation (of administrative acts)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitvoering bij volmacht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ersatzvornahme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(юр.) действие по полномочию"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "1234340",
+  "readings": [
+    {
+      "kanaExpression": "ともかせぎ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "共稼ぎ",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "とも"
+        },
+        {
+          "text": "稼",
+          "annotation": "かせ"
+        },
+        {
+          "text": "ぎ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "共かせぎ",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "とも"
+        },
+        {
+          "text": "かせぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(husband and wife) earning a living together"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het tweeverdienen",
+        "het beiden",
+        "samen werken voor de kost"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fait que deux époux travaillent ensemble"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gemeinsames Geldverdienen (eines Ehepaares)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～をする} работать обоим (о муже и жене)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "gospodinjstvo, kjer sta zaposlena mož in žena",
+        "gospodinjstvo z dvojnimi dohodki",
+        "delati v dvoje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "salario ganado en conjunto entre una pareja"
+      ]
+    }
+  ]
+}

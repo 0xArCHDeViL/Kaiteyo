@@ -1,0 +1,69 @@
+{
+  "id": "1502200",
+  "readings": [
+    {
+      "kanaExpression": "ぶつだん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "仏壇",
+      "furiganaExpression": [
+        {
+          "text": "仏",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "壇",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 13277
+    },
+    {
+      "kanjiExpression": "仏檀",
+      "furiganaExpression": [
+        {
+          "text": "仏",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "檀",
+          "annotation": "だん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Buddhist (household) altar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{boeddh.} boeddhistisch huisaltaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Butsudan",
+        "buddhistischer Hausaltar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(буд.) божница, домашний алтарь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "altar budista"
+      ]
+    }
+  ]
+}

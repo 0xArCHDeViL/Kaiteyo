@@ -1,0 +1,57 @@
+{
+  "id": "1371580",
+  "readings": [
+    {
+      "kanaExpression": "すいし",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "水死",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "死",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "death by drowning"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "noyade"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ertrinken",
+        "ertrinken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fulladás",
+        "megfulladás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) できし"
+      ]
+    }
+  ]
+}

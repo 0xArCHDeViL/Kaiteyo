@@ -1,0 +1,69 @@
+{
+  "id": "1390230",
+  "readings": [
+    {
+      "kanaExpression": "せんさい",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "戦災",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "災",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "war damage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oorlogsschade"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dévastations de la guerre",
+        "ravages de la guerre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegsschaden",
+        "Bombenschaden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бедствия войны; военные разрушения"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vojna škoda"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desastre causado por guerras"
+      ]
+    }
+  ]
+}

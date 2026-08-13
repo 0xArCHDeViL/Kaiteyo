@@ -1,0 +1,70 @@
+{
+  "id": "1424530",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうしょうきぎょう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "中小企業",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "企",
+          "annotation": "き"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 17000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small and medium-sized enterprises",
+        "small and medium-sized businesses"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "midden- en kleinbedrijf",
+        "{Belg.N.} kleine of middelgrote onderneming",
+        "{afk.",
+        "Belg.N.} kmo"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "petites compagnies",
+        "petites et moyennes entreprises (PME)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mittlere und kleine Unternehmen",
+        "kleine und mittelständische Unternehmen",
+        "KMU"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "средние и мелкие предприятия"
+      ]
+    }
+  ]
+}

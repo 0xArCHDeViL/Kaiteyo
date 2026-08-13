@@ -1,0 +1,44 @@
+{
+  "id": "1709570",
+  "readings": [
+    {
+      "kanaExpression": "そうるい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "走塁",
+      "furiganaExpression": [
+        {
+          "text": "走",
+          "annotation": "そう"
+        },
+        {
+          "text": "塁",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "base running"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} honklopen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Base Running",
+        "Laufen zur nächsten Base"
+      ]
+    }
+  ]
+}

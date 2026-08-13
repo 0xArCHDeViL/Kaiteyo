@@ -1,0 +1,83 @@
+{
+  "id": "1424980",
+  "readings": [
+    {
+      "kanaExpression": "なかにわ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "中庭",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "なか"
+        },
+        {
+          "text": "庭",
+          "annotation": "にわ"
+        }
+      ],
+      "rank": 13091
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "courtyard",
+        "quadrangle",
+        "middle court"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "binnenhof",
+        "binnenplaats",
+        "binnenplein",
+        "patio"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cloître",
+        "cours"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hof",
+        "Innenhof",
+        "Innengarten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "négyszög",
+        "zárt belső udvar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутренний двор"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dvorišče",
+        "notranji vrt"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "patio"
+      ]
+    }
+  ]
+}

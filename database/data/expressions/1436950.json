@@ -1,0 +1,109 @@
+{
+  "id": "1436950",
+  "readings": [
+    {
+      "kanaExpression": "どろぬま",
+      "rank": 21000
+    },
+    {
+      "kanaExpression": "ドロぬま"
+    },
+    {
+      "kanaExpression": "でいしょう"
+    },
+    {
+      "kanjiExpression": "泥沼",
+      "furiganaExpression": [
+        {
+          "text": "泥",
+          "annotation": "どろ"
+        },
+        {
+          "text": "沼",
+          "annotation": "ぬま"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "ドロ沼",
+      "furiganaExpression": [
+        {
+          "text": "ドロ"
+        },
+        {
+          "text": "沼",
+          "annotation": "ぬま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bog",
+        "marsh",
+        "swamp",
+        "quagmire",
+        "morass",
+        "quandary",
+        "dire situation from which one cannot extricate oneself",
+        "imbroglio"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "modderpoel",
+        "dras",
+        "moer",
+        "broek",
+        "slijkland",
+        "moeras",
+        "zomp",
+        "{veroud.} donk",
+        "{fig.} moeras",
+        "poel",
+        "slop",
+        "impasse"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fondrière",
+        "marécage",
+        "marais"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sumpf",
+        "Morast",
+        "kaum überwindbare Situation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mocsár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "болото, трясина, топь",
+        "топь, болото"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pantano",
+        "ciénaga"
+      ]
+    }
+  ]
+}

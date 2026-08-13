@@ -1,0 +1,123 @@
+{
+  "id": "1612100",
+  "readings": [
+    {
+      "kanaExpression": "やむをえない",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "やむを得ない",
+      "furiganaExpression": [
+        {
+          "text": "やむを"
+        },
+        {
+          "text": "得",
+          "annotation": "え"
+        },
+        {
+          "text": "ない"
+        }
+      ],
+      "rank": 8593
+    },
+    {
+      "kanjiExpression": "止むを得ない",
+      "furiganaExpression": [
+        {
+          "text": "止",
+          "annotation": "や"
+        },
+        {
+          "text": "むを"
+        },
+        {
+          "text": "得",
+          "annotation": "え"
+        },
+        {
+          "text": "ない"
+        }
+      ],
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "已むを得ない",
+      "furiganaExpression": [
+        {
+          "text": "已",
+          "annotation": "や"
+        },
+        {
+          "text": "むを"
+        },
+        {
+          "text": "得",
+          "annotation": "え"
+        },
+        {
+          "text": "ない"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cannot be helped",
+        "unavoidable"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dwingende {redenen}",
+        "onvermijdelijk {bv. geval}",
+        "onontkoombaar",
+        "noodzakelijk",
+        "noodgedwongen",
+        "onvoorziene {omstandigheden}",
+        "buiten zijn wil (om)",
+        "waar niets aan te doen is",
+        "waar niets tegen te doen is",
+        "waar men geen controle over heeft"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "inéluctable",
+        "inévitable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unvermeidlich",
+        "unumgänglich",
+        "nötig",
+        "notgedrungen",
+        "es ist nichts zu machen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elkerülhetetlen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inevitable",
+        "ineludible",
+        "irremediable",
+        "no haber manera",
+        "no haber más remedio",
+        "no haber otra opción",
+        "ineluctable"
+      ]
+    }
+  ]
+}

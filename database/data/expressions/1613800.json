@@ -1,0 +1,69 @@
+{
+  "id": "1613800",
+  "readings": [
+    {
+      "kanaExpression": "かどうりつ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "稼働率",
+      "furiganaExpression": [
+        {
+          "text": "稼",
+          "annotation": "か"
+        },
+        {
+          "text": "働",
+          "annotation": "どう"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "稼動率",
+      "furiganaExpression": [
+        {
+          "text": "稼",
+          "annotation": "か"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "operating rate",
+        "utilization rate",
+        "occupancy rate",
+        "availability factor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitsauslastung",
+        "Auslastung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hatékonyság",
+        "hatásfok"
+      ]
+    }
+  ]
+}

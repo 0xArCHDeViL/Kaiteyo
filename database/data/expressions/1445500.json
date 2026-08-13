@@ -1,0 +1,59 @@
+{
+  "id": "1445500",
+  "readings": [
+    {
+      "kanaExpression": "どちゃく",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "土着",
+      "furiganaExpression": [
+        {
+          "text": "土",
+          "annotation": "ど"
+        },
+        {
+          "text": "着",
+          "annotation": "ちゃく"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "indigenousness",
+        "being native (to a region)",
+        "settling (of people)",
+        "native",
+        "indigenous",
+        "aboriginal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einheimisch",
+        "Einheimischsein",
+        "Eingeborensein",
+        "Indigenität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eredeti",
+        "bennszülött",
+        "vele született"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "местное происхождение"
+      ]
+    }
+  ]
+}

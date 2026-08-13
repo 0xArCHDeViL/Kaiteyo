@@ -1,0 +1,92 @@
+{
+  "id": "1578870",
+  "readings": [
+    {
+      "kanaExpression": "こうはん",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "こうばん",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "鋼板",
+      "furiganaExpression": [
+        {
+          "text": "鋼",
+          "annotation": "こう"
+        },
+        {
+          "text": "板",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "鋼鈑",
+      "furiganaExpression": [
+        {
+          "text": "鋼",
+          "annotation": "こう"
+        },
+        {
+          "text": "鈑",
+          "annotation": "はん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "steel sheet",
+        "steel plate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stalen plaat",
+        "staalplaat",
+        "plaatstaal",
+        "staalblik",
+        "stort",
+        "blik"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "plaque d\u0027acier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stahlplatte",
+        "Stahlblech"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "acéllemez"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стальная плита",
+        "листовая сталь; стальная плита"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jeklena plošča"
+      ]
+    }
+  ]
+}

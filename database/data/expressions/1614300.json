@@ -1,0 +1,46 @@
+{
+  "id": "1614300",
+  "readings": [
+    {
+      "kanaExpression": "かんばつ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "間伐",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "かん"
+        },
+        {
+          "text": "伐",
+          "annotation": "ばつ"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "periodic thinning (e.g. forest)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Durchforsten",
+        "Lichten",
+        "Ausdünnen (eines Waldes)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "санитарная рубка (леса), прореживание",
+        "{～する} производить санитарную рубку (прореживание)"
+      ]
+    }
+  ]
+}

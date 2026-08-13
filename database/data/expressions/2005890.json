@@ -1,0 +1,87 @@
+{
+  "id": "2005890",
+  "readings": [
+    {
+      "kanaExpression": "やるき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "やる気",
+      "furiganaExpression": [
+        {
+          "text": "やる"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        }
+      ],
+      "rank": 3989
+    },
+    {
+      "kanjiExpression": "ヤル気",
+      "furiganaExpression": [
+        {
+          "text": "ヤル"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "遣る気",
+      "furiganaExpression": [
+        {
+          "text": "遣",
+          "annotation": "や"
+        },
+        {
+          "text": "る"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "will (to do something)",
+        "drive",
+        "motivation",
+        "enthusiasm",
+        "eagerness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wil",
+        "zin",
+        "lust",
+        "bereidheid",
+        "bereidwilligheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Motivation",
+        "Wollen",
+        "Wille",
+        "Antrieb"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hajlandóság"
+      ]
+    }
+  ]
+}

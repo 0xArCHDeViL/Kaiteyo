@@ -1,0 +1,52 @@
+{
+  "id": "1431370",
+  "readings": [
+    {
+      "kanaExpression": "ちょくそう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "直送",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "ちょく"
+        },
+        {
+          "text": "送",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "direct delivery"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "direkt versenden",
+        "direkt liefern",
+        "Direktversand",
+        "Direktlieferung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közvetlen szállítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(эк.) отправка непосредственно контрагенту"
+      ]
+    }
+  ]
+}

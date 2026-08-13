@@ -1,0 +1,110 @@
+{
+  "id": "1606050",
+  "readings": [
+    {
+      "kanaExpression": "よみとり",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "読み取り",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "読取り",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よみ"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "読取",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よみ"
+        },
+        {
+          "text": "取",
+          "annotation": "とり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "読み取",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "取",
+          "annotation": "とり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reading (e.g. by a scanner)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auslesen",
+        "Lesen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felolvasás",
+        "fennhangon olvasás",
+        "helyzetértékelés",
+        "interpretálás",
+        "kiértékelés",
+        "korrektúraolvasás",
+        "korrektúrázás",
+        "műszerállás",
+        "olvasás",
+        "olvasásmód",
+        "olvasat",
+        "olvasmány",
+        "olvasnivaló",
+        "olvasottság",
+        "szövegértelmezés",
+        "szövegváltozat"
+      ]
+    }
+  ]
+}

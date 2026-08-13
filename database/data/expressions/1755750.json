@@ -1,0 +1,63 @@
+{
+  "id": "1755750",
+  "readings": [
+    {
+      "kanaExpression": "さんろく",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "山麓",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "さん"
+        },
+        {
+          "text": "麓",
+          "annotation": "ろく"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "山ろく",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "さん"
+        },
+        {
+          "text": "ろく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "foot of a mountain",
+        "base of a mountain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voet van een berg",
+        "uitlopers van een gebergte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fuß eines Berges"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подножие (подошва) горы"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1799660",
+  "readings": [
+    {
+      "kanaExpression": "きょうあつ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "強圧",
+      "furiganaExpression": [
+        {
+          "text": "強",
+          "annotation": "きょう"
+        },
+        {
+          "text": "圧",
+          "annotation": "あつ"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pressure",
+        "duress",
+        "stress"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Druck",
+        "Zwang",
+        "Gewalt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyomás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прям. и перен.) давление, нажим; насилие; притеснения",
+        "{～的} насильственный; принудительный"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tryck"
+      ]
+    }
+  ]
+}

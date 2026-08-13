@@ -1,0 +1,51 @@
+{
+  "id": "1371300",
+  "readings": [
+    {
+      "kanaExpression": "すいいき",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "水域",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "域",
+          "annotation": "いき"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "waters",
+        "water area"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "watergebied"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meeresgebiet",
+        "Gewässer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "водный бассейн; водное пространство; акватория"
+      ]
+    }
+  ]
+}

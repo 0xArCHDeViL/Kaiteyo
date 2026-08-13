@@ -1,0 +1,56 @@
+{
+  "id": "1451320",
+  "readings": [
+    {
+      "kanaExpression": "どうぎ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "動議",
+      "furiganaExpression": [
+        {
+          "text": "動",
+          "annotation": "どう"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "motion (i.e. proposal to a committee, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "motie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Antrag",
+        "(schweiz.)Motion"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предложение (на собрании)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vinka"
+      ]
+    }
+  ]
+}

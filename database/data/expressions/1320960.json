@@ -1,0 +1,56 @@
+{
+  "id": "1320960",
+  "readings": [
+    {
+      "kanaExpression": "じっけい",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "実兄",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じっ"
+        },
+        {
+          "text": "兄",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "biological older brother"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volle oudere broer",
+        "lijfelijke oudere broer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "frère aîné de sang (?)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leiblicher (älterer)Bruder"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "родной [старший] брат"
+      ]
+    }
+  ]
+}

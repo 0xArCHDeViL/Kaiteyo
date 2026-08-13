@@ -1,0 +1,75 @@
+{
+  "id": "1402270",
+  "readings": [
+    {
+      "kanaExpression": "そうるい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "藻類",
+      "furiganaExpression": [
+        {
+          "text": "藻",
+          "annotation": "そう"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seaweed",
+        "algae"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{biol.} algen",
+        "wieren",
+        "Algae"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "algues"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Alge",
+        "Tang",
+        "Seetang",
+        "Wasserpflanze",
+        "Algae"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alga",
+        "moszat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "водоросли"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alga"
+      ]
+    }
+  ]
+}

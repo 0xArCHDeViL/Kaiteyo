@@ -1,0 +1,83 @@
+{
+  "id": "1326850",
+  "readings": [
+    {
+      "kanaExpression": "とりなおす",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "取り直す",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "直",
+          "annotation": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "取直す",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "直",
+          "annotation": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取りなおす",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "りなおす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to re-grip",
+        "to re-wrestle",
+        "to regroup (after some adverse event)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wieder richtig in die Hand nehmen",
+        "nachgreifen",
+        "wieder aufnehmen",
+        "noch einmal kämpfen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) снова браться (за что-л.); опять брать [в руку] (что-л.)",
+        "2) повторить заново схватку борцов (в сумо)"
+      ]
+    }
+  ]
+}

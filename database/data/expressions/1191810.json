@@ -1,0 +1,71 @@
+{
+  "id": "1191810",
+  "readings": [
+    {
+      "kanaExpression": "あひる"
+    },
+    {
+      "kanaExpression": "アヒル",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "家鴨",
+      "furiganaExpression": [
+        {
+          "text": "家鴨",
+          "annotation": "あひる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "鶩",
+      "furiganaExpression": [
+        {
+          "text": "鶩",
+          "annotation": "あひる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "domestic duck"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} tamme eend",
+        "huiseend",
+        "Anas platyrhyncha var. domestica"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ente",
+        "Anas platyrhynchos var. domestica"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[домашняя] утка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pato doméstico"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "anka"
+      ]
+    }
+  ]
+}

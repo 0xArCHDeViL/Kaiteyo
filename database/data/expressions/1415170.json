@@ -1,0 +1,68 @@
+{
+  "id": "1415170",
+  "readings": [
+    {
+      "kanaExpression": "たいりくだな",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "大陸棚",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "陸",
+          "annotation": "りく"
+        },
+        {
+          "text": "棚",
+          "annotation": "だな"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "continental shelf"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "plancher continental"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kontinentalschelf",
+        "Kontinentalsockel",
+        "Festlandsockel",
+        "Festlandssockel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kontinentális talapzat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "материковая отмель, шельф"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "plataforma continental"
+      ]
+    }
+  ]
+}

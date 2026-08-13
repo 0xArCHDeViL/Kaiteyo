@@ -1,0 +1,65 @@
+{
+  "id": "1215500",
+  "readings": [
+    {
+      "kanaExpression": "かんしょく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "間食",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "かん"
+        },
+        {
+          "text": "食",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eating between meals",
+        "snacking"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "manger entre les repas"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Imbiss",
+        "Zwischenmahlzeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "закусывание между едой",
+        "{～する} закусывать, перекусить"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "malica",
+        "prigrizek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comer entre comidas"
+      ]
+    }
+  ]
+}

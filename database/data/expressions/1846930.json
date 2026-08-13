@@ -1,0 +1,87 @@
+{
+  "id": "1846930",
+  "readings": [
+    {
+      "kanaExpression": "きりかえす",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "切り返す",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "切返す",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "斬り返す",
+      "furiganaExpression": [
+        {
+          "text": "斬",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to slash back",
+        "to strike back",
+        "to counterattack",
+        "to retort",
+        "to quickly turn the steering wheel in the opposite direction",
+        "to cut the wheel",
+        "to perform a twisting backward knee trip"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurückschlagen",
+        "einen Gegenangriff machen",
+        "widersprechen",
+        "erwidern"
+      ]
+    }
+  ]
+}

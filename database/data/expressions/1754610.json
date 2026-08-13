@@ -1,0 +1,53 @@
+{
+  "id": "1754610",
+  "readings": [
+    {
+      "kanaExpression": "さんぶんし",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "散文詩",
+      "furiganaExpression": [
+        {
+          "text": "散",
+          "annotation": "さん"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "詩",
+          "annotation": "し"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prose poem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Prosagedicht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стихотворение в прозе"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "prosadikt"
+      ]
+    }
+  ]
+}

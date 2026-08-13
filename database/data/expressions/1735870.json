@@ -1,0 +1,77 @@
+{
+  "id": "1735870",
+  "readings": [
+    {
+      "kanaExpression": "ほどとおい",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "程遠い",
+      "furiganaExpression": [
+        {
+          "text": "程",
+          "annotation": "ほど"
+        },
+        {
+          "text": "遠",
+          "annotation": "とお"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "ほど遠い",
+      "furiganaExpression": [
+        {
+          "text": "ほど"
+        },
+        {
+          "text": "遠",
+          "annotation": "とお"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "far away",
+        "far off",
+        "nowhere near",
+        "far cry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ver weg",
+        "een heel eind weg",
+        "ver afgelegen",
+        "verwijderd",
+        "verre van …",
+        "bij lange na niet …",
+        "lang niet zo …"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weit entfernt",
+        "fern"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fjärran"
+      ]
+    }
+  ]
+}

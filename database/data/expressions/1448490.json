@@ -1,0 +1,82 @@
+{
+  "id": "1448490",
+  "readings": [
+    {
+      "kanaExpression": "とうちょうき",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "盗聴器",
+      "furiganaExpression": [
+        {
+          "text": "盗",
+          "annotation": "とう"
+        },
+        {
+          "text": "聴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "盗聴機",
+      "furiganaExpression": [
+        {
+          "text": "盗",
+          "annotation": "とう"
+        },
+        {
+          "text": "聴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "listening device",
+        "bug",
+        "wiretap"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afluisterapparaat",
+        "afluisterapparatuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wanze",
+        "Abhörgerät"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lehallgatókészülék",
+        "poloska",
+        "rovar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "аппарат для подслушивания; скрытый микрофон"
+      ]
+    }
+  ]
+}

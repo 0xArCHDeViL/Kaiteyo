@@ -1,0 +1,49 @@
+{
+  "id": "1443500",
+  "readings": [
+    {
+      "kanaExpression": "でんじ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "電磁",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "磁",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 14930
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "electromagnetic"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elektromagnetisme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Elektromagnetismus"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "electromagnetismo"
+      ]
+    }
+  ]
+}

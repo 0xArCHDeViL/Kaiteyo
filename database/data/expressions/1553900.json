@@ -1,0 +1,43 @@
+{
+  "id": "1553900",
+  "readings": [
+    {
+      "kanaExpression": "りょうとう",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "両党",
+      "furiganaExpression": [
+        {
+          "text": "両",
+          "annotation": "りょう"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 16000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "both political parties"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beide partijen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beide Parteien"
+      ]
+    }
+  ]
+}

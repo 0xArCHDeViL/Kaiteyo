@@ -1,0 +1,83 @@
+{
+  "id": "1209610",
+  "readings": [
+    {
+      "kanaExpression": "がれき",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "がりゃく"
+    },
+    {
+      "kanjiExpression": "瓦礫",
+      "furiganaExpression": [
+        {
+          "text": "瓦",
+          "annotation": "が"
+        },
+        {
+          "text": "礫",
+          "annotation": "れき"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rubble",
+        "debris",
+        "wreckage",
+        "tiles and pebbles",
+        "trash",
+        "rubbish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{lett.} dakpannen en steentjes",
+        "{i.h.b.} steenslag",
+        "steengruis",
+        "steenbrokken",
+        "brokstukken",
+        "puin",
+        "bouwval",
+        "{fig.} waardeloze dingen",
+        "rommel",
+        "grut",
+        "prullen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schutt",
+        "Trümmer",
+        "wertloser Kram"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "murva",
+        "nyers bányakő",
+        "terméskő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кирпич и гравий; (обр.) мусор, хлам"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "klappersten"
+      ]
+    }
+  ]
+}

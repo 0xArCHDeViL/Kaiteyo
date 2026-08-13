@@ -1,0 +1,71 @@
+{
+  "id": "1283880",
+  "readings": [
+    {
+      "kanaExpression": "こうねつ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "高熱",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "熱",
+          "annotation": "ねつ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high fever",
+        "intense heat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "forte fièvre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hohes Fieber",
+        "hohe Temperatur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pirogallol",
+        "pirogallussav"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "высокая температура, большой жар"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "visoka vročina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "altas temperaturas",
+        "fiebre"
+      ]
+    }
+  ]
+}

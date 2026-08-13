@@ -1,0 +1,93 @@
+{
+  "id": "1517690",
+  "readings": [
+    {
+      "kanaExpression": "ぬいぐるみ",
+      "rank": 11555
+    },
+    {
+      "kanaExpression": "ヌイグルミ"
+    },
+    {
+      "kanjiExpression": "縫いぐるみ",
+      "furiganaExpression": [
+        {
+          "text": "縫",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "いぐるみ"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "縫い包み",
+      "furiganaExpression": [
+        {
+          "text": "縫",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "包",
+          "annotation": "ぐる"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stuffed toy",
+        "stuffed animal",
+        "plush toy",
+        "soft toy",
+        "cuddly toy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het opstoppen van naaigoed (met katoen",
+        "watten)",
+        "met katoen of watten opgestopt naaiwerkje",
+        "speelgoeddier",
+        "{kabuki",
+        "ton.} toneelkostuum gedragen bij de rol van een dier",
+        "monster",
+        "dierkostuum",
+        "monsterkostuum",
+        "{kabuki} bij een vechtscène gebruikte stok",
+        "bestaande uit stro omwikkeld met stof"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stofftier",
+        "Plüschtier",
+        "Tierkostüm",
+        "Stofftierkostüm"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тряпичная кукла"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "peluche"
+      ]
+    }
+  ]
+}

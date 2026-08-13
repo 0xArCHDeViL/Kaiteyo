@@ -1,0 +1,57 @@
+{
+  "id": "1759300",
+  "readings": [
+    {
+      "kanaExpression": "だいさんじさんぎょう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "第三次産業",
+      "furiganaExpression": [
+        {
+          "text": "第",
+          "annotation": "だい"
+        },
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tertiary industry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tertiaire sector"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tertiärer Sektor",
+        "tertiärer Wirtschaftssektor",
+        "Dienstleistungssektor"
+      ]
+    }
+  ]
+}

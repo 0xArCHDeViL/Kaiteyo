@@ -1,0 +1,63 @@
+{
+  "id": "1808830",
+  "readings": [
+    {
+      "kanaExpression": "こうねん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "高年",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "old age"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hohes Alter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "aggkor",
+        "öregkor",
+        "vénség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "преклонные годы, преклонный возраст; старость"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vejez"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ålderdom"
+      ]
+    }
+  ]
+}

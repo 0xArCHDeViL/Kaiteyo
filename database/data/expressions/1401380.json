@@ -1,0 +1,76 @@
+{
+  "id": "1401380",
+  "readings": [
+    {
+      "kanaExpression": "すもうとり",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "すまいとり"
+    },
+    {
+      "kanjiExpression": "相撲取り",
+      "furiganaExpression": [
+        {
+          "text": "相撲",
+          "annotation": "すもう"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sumo wrestler",
+        "rikishi"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sumō-jargon} sumoworstelaar",
+        "{sumō-jargon} sumotori",
+        "sumoworstelaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lutteur de sumo"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sumō-Ringer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "birkózó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "борец сумо"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "luchador de sumo"
+      ]
+    }
+  ]
+}

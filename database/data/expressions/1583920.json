@@ -1,0 +1,66 @@
+{
+  "id": "1583920",
+  "readings": [
+    {
+      "kanaExpression": "べつじん",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "べつにん"
+    },
+    {
+      "kanjiExpression": "別人",
+      "furiganaExpression": [
+        {
+          "text": "別",
+          "annotation": "べつ"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 14139
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "different person",
+        "another person",
+        "someone else",
+        "changed man"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ander mens",
+        "nieuw mens"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "quelqu\u0027un d\u0027autre",
+        "une autre personne",
+        "une personne transformée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein anderer Mensch",
+        "eine andere Person"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "другой человек",
+        "кто-то другой"
+      ]
+    }
+  ]
+}

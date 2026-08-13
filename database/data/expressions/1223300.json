@@ -1,0 +1,77 @@
+{
+  "id": "1223300",
+  "readings": [
+    {
+      "kanaExpression": "きしょう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "記章",
+      "furiganaExpression": [
+        {
+          "text": "記",
+          "annotation": "き"
+        },
+        {
+          "text": "章",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "徽章",
+      "furiganaExpression": [
+        {
+          "text": "徽",
+          "annotation": "き"
+        },
+        {
+          "text": "章",
+          "annotation": "しょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "medal",
+        "badge",
+        "insignia"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "insigne",
+        "médaille"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erinnerung",
+        "Erinnerungstück",
+        "Andenken",
+        "Medaille",
+        "Abzeichen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jelképes ábrázolás",
+        "kitüntetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "значок (памятный или какой-л. организации); кокарда; знаки отличия (у военных); нашивки (у моряков)",
+        "медаль; [памятный] значок"
+      ]
+    }
+  ]
+}

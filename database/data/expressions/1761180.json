@@ -1,0 +1,51 @@
+{
+  "id": "1761180",
+  "readings": [
+    {
+      "kanaExpression": "がくせい",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "学制",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "制",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "educational or school system"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schulsystem",
+        "Schulwesen",
+        "Erziehungssystem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "система образования (обучения)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skolsystem"
+      ]
+    }
+  ]
+}

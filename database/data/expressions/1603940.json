@@ -1,0 +1,116 @@
+{
+  "id": "1603940",
+  "readings": [
+    {
+      "kanaExpression": "ますい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "麻酔",
+      "furiganaExpression": [
+        {
+          "text": "麻",
+          "annotation": "ま"
+        },
+        {
+          "text": "酔",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 9666
+    },
+    {
+      "kanjiExpression": "痲酔",
+      "furiganaExpression": [
+        {
+          "text": "痲",
+          "annotation": "ま"
+        },
+        {
+          "text": "酔",
+          "annotation": "すい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "麻睡",
+      "furiganaExpression": [
+        {
+          "text": "麻",
+          "annotation": "ま"
+        },
+        {
+          "text": "睡",
+          "annotation": "すい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "anaesthesia",
+        "anesthesia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verdoving",
+        "bedwelming",
+        "anesthesie",
+        "narcose"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "anesthésie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Narkose",
+        "Anästhesie",
+        "Betäubung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érzéstelenítés",
+        "érzéstelenség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наркоз",
+        "{～させる}, 麻酔をかける подвергать наркозу, усыплять",
+        "{～の} анестезирующий"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prekletstvo",
+        "anestezija",
+        "omrtvičenje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "anestesia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "anestesi"
+      ]
+    }
+  ]
+}

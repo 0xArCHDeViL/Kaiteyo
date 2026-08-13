@@ -1,0 +1,45 @@
+{
+  "id": "1321190",
+  "readings": [
+    {
+      "kanaExpression": "じつじゅ",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "実需",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じつ"
+        },
+        {
+          "text": "需",
+          "annotation": "じゅ"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "actual demand",
+        "user demand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tatsächliche Nachfrage",
+        "echte Nachfrage"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "реальный спрос"
+      ]
+    }
+  ]
+}

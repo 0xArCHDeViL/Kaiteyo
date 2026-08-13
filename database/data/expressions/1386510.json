@@ -1,0 +1,89 @@
+{
+  "id": "1386510",
+  "readings": [
+    {
+      "kanaExpression": "ゆきだるま",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "ゆきダルマ"
+    },
+    {
+      "kanaExpression": "ユキダルマ"
+    },
+    {
+      "kanjiExpression": "雪だるま",
+      "furiganaExpression": [
+        {
+          "text": "雪",
+          "annotation": "ゆき"
+        },
+        {
+          "text": "だるま"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "雪ダルマ",
+      "furiganaExpression": [
+        {
+          "text": "雪",
+          "annotation": "ゆき"
+        },
+        {
+          "text": "ダルマ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "雪達磨",
+      "furiganaExpression": [
+        {
+          "text": "雪達磨",
+          "annotation": "ゆきだるま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "snowman"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sneeuwpop",
+        "sneeuwman",
+        "sneeuwfiguur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schneemann"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hóember"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "снежная баба"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "snögubbe"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "1744190",
+  "readings": [
+    {
+      "kanaExpression": "こぼね",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "小骨",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "骨",
+          "annotation": "ぼね"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small bones"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beentje",
+        "graatje",
+        "kleine moeite",
+        "geringe inspanning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleiner Knochen",
+        "dünner Knochen",
+        "Gräte",
+        "geringe Mühe",
+        "kleine Anstrengung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мелкие кости"
+      ]
+    }
+  ]
+}

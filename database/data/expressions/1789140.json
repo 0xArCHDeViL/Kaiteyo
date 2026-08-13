@@ -1,0 +1,51 @@
+{
+  "id": "1789140",
+  "readings": [
+    {
+      "kanaExpression": "とくそう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "特捜",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とく"
+        },
+        {
+          "text": "捜",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 16500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "special investigation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "speciaal onderzoek",
+        "bijzondere recherche"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sonderuntersuchung",
+        "Sonderuntersuchungskommission"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "investigación especial"
+      ]
+    }
+  ]
+}

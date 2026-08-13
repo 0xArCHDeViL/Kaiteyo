@@ -1,0 +1,69 @@
+{
+  "id": "1730470",
+  "readings": [
+    {
+      "kanaExpression": "ひやけどめ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "日焼け止め",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "止",
+          "annotation": "ど"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sunscreen",
+        "suntan lotion",
+        "sunblock"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zonnefilter",
+        "zonnebrandmiddel",
+        "zonnebrand",
+        "sunblock",
+        "zonblok",
+        "{i.h.b.} zonnebrandolie",
+        "{i.h.b.} zonnebrandcrème",
+        "{i.h.b.} zonnecrème",
+        "{i.h.b.} zonnebrandzalf"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sunblocker"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "naptej hatóanyaga"
+      ]
+    }
+  ]
+}

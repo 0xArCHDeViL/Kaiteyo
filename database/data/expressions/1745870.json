@@ -1,0 +1,61 @@
+{
+  "id": "1745870",
+  "readings": [
+    {
+      "kanaExpression": "ゆうきてき",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "有機的",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "organic",
+        "coordinated",
+        "working in a coordinated fashion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "organisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szerves"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "а) органический; б) составляющий единую систему"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "organisk"
+      ]
+    }
+  ]
+}

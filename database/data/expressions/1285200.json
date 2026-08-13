@@ -1,0 +1,52 @@
+{
+  "id": "1285200",
+  "readings": [
+    {
+      "kanaExpression": "ごうひ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "合否",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "ごう"
+        },
+        {
+          "text": "否",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "success or failure",
+        "result"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erfolg oder Misserfolg",
+        "Bestehen oder Durchfallen",
+        "Ergebnis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eredmény"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aprobación o desaprobación"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "1344430",
+  "readings": [
+    {
+      "kanaExpression": "たすけあう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "助け合う",
+      "furiganaExpression": [
+        {
+          "text": "助",
+          "annotation": "たす"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 13043
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to help each other",
+        "to cooperate"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "collaborer",
+        "s\u0027entraider"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einander helfen",
+        "sich gegenseitig helfen",
+        "kooperieren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "помогать друг другу"
+      ]
+    }
+  ]
+}

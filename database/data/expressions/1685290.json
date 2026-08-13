@@ -1,0 +1,76 @@
+{
+  "id": "1685290",
+  "readings": [
+    {
+      "kanaExpression": "かれくさ",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "こそう"
+    },
+    {
+      "kanjiExpression": "枯れ草",
+      "furiganaExpression": [
+        {
+          "text": "枯",
+          "annotation": "か"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "草",
+          "annotation": "くさ"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "枯草",
+      "furiganaExpression": [
+        {
+          "text": "枯",
+          "annotation": "かれ"
+        },
+        {
+          "text": "草",
+          "annotation": "くさ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "かれ草",
+      "furiganaExpression": [
+        {
+          "text": "かれ"
+        },
+        {
+          "text": "草",
+          "annotation": "くさ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dry grass",
+        "dead grass",
+        "hay",
+        "withered grass"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dürres Gras",
+        "verwelktes Gras",
+        "vertrocknetes Gras",
+        "Heu",
+        "Stroh",
+        "getrocknetes Gras"
+      ]
+    }
+  ]
+}

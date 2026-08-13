@@ -1,0 +1,67 @@
+{
+  "id": "1342100",
+  "readings": [
+    {
+      "kanaExpression": "じゅんこう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "巡行",
+      "furiganaExpression": [
+        {
+          "text": "巡",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "patrol"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "patrouillieren",
+        "einen Rundgang machen",
+        "Patrouille",
+        "Besuchsrundgang"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "őrs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обход; патрулирование",
+        "{～する} совершать обход, обходить; патрулировать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "patrulla"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "avpatrullera",
+        "patrull",
+        "patrullera"
+      ]
+    }
+  ]
+}

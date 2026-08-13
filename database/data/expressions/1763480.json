@@ -1,0 +1,84 @@
+{
+  "id": "1763480",
+  "readings": [
+    {
+      "kanaExpression": "じあい",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "地合い",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "地合",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "texture (cloth, fabric, paper)",
+        "market tone",
+        "undertone",
+        "balance between the position of white and black stones"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Textur",
+        "Stoff",
+        "Gewebe",
+        "Gewebequalität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alkat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) выработка (степень плотности, качество) ткани",
+        "2) (перен.) настроение биржи"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "textura"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "textur"
+      ]
+    }
+  ]
+}

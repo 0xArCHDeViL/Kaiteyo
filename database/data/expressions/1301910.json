@@ -1,0 +1,50 @@
+{
+  "id": "1301910",
+  "readings": [
+    {
+      "kanaExpression": "さんるいだ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "三塁打",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "塁",
+          "annotation": "るい"
+        },
+        {
+          "text": "打",
+          "annotation": "だ"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "three-base hit",
+        "triple"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Drei-Base-Schlag",
+        "Triple",
+        "Schlag mit dem der Schlagmann bis zur dritten Base laufen kann"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hármas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1195300",
+  "readings": [
+    {
+      "kanaExpression": "にぬし",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "荷主",
+      "furiganaExpression": [
+        {
+          "text": "荷",
+          "annotation": "に"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shipper",
+        "consignor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Absender",
+        "Konsignant",
+        "Eigentümer",
+        "Befrachter",
+        "Verfrachter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "владелец груза; грузоотправитель"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "avsändare"
+      ]
+    }
+  ]
+}

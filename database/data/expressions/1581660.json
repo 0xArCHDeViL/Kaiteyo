@@ -1,0 +1,71 @@
+{
+  "id": "1581660",
+  "readings": [
+    {
+      "kanaExpression": "ちくじょう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "築城",
+      "furiganaExpression": [
+        {
+          "text": "築",
+          "annotation": "ちく"
+        },
+        {
+          "text": "城",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "castle construction",
+        "building a castle",
+        "fortification"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een kasteel",
+        "slot",
+        "burcht",
+        "fort bouwen",
+        "fortificeren",
+        "kasteelbouw",
+        "vestingbouw",
+        "fortenbouw",
+        "fortificatie",
+        "versterkingswerken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "befestigen",
+        "Befestigung",
+        "Festungsbau"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erődítmény",
+        "erősítés",
+        "sánc"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(воен.) укрепление; строительство оборонных сооружений, фортификация",
+        "{～する} укреплять; строить [укрепления]"
+      ]
+    }
+  ]
+}

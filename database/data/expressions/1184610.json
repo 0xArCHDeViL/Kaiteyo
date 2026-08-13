@@ -1,0 +1,85 @@
+{
+  "id": "1184610",
+  "readings": [
+    {
+      "kanaExpression": "したまわる",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "下回る",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 7933
+    },
+    {
+      "kanjiExpression": "下廻る",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "廻",
+          "annotation": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to fall below (esp. figures: profits, unemployment rate, etc.)",
+        "to be less than",
+        "to be lower than",
+        "to fall just short of",
+        "to be just under"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "minder zijn dan",
+        "lager zijn dan",
+        "lager uitkomen dan",
+        "niet beantwoorden aan",
+        "niet halen",
+        "blijven beneden",
+        "onder",
+        "vallen onder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geringer sein",
+        "weniger sein",
+        "unterbieten",
+        "unterschreiten",
+        "nicht erfüllen",
+        "hinter etw. zurückbleiben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "быть ниже, чем",
+        "быть меньше (ниже), чем (кто-что-л.)"
+      ]
+    }
+  ]
+}

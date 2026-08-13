@@ -1,0 +1,89 @@
+{
+  "id": "1473340",
+  "readings": [
+    {
+      "kanaExpression": "ばいりつ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "倍率",
+      "furiganaExpression": [
+        {
+          "text": "倍",
+          "annotation": "ばい"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 12546
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "magnification",
+        "leverage",
+        "amplification",
+        "scaling factor",
+        "scale factor",
+        "competitiveness rating (e.g. for university entrance)",
+        "applicant-to-acceptance ratio"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vergroting",
+        "sterkte waarmee een lens",
+        "microscoop",
+        "kijker vergroot",
+        "competitie",
+        "rivaliteit"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grandissement",
+        "grossissement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vergrößerung",
+        "Vergrößerungskraft",
+        "Konkurrenz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eszköz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "коэффициент увеличения"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "povečava",
+        "moč povečave",
+        "kratnost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aumento"
+      ]
+    }
+  ]
+}

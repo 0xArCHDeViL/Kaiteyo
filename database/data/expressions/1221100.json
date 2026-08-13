@@ -1,0 +1,72 @@
+{
+  "id": "1221100",
+  "readings": [
+    {
+      "kanaExpression": "きどうたい",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "機動隊",
+      "furiganaExpression": [
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "riot police",
+        "riot squad"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mobiele eenheid",
+        "ME",
+        "oproerpolitie",
+        "rellenbrigade",
+        "overvalcommando"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "police anti-émeute"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mobile Einsatztruppe",
+        "Bereitschaftspolizei"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "policía antidisturbios",
+        "brigada antidisturbios"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kravallpolis"
+      ]
+    }
+  ]
+}

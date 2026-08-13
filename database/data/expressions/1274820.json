@@ -1,0 +1,85 @@
+{
+  "id": "1274820",
+  "readings": [
+    {
+      "kanaExpression": "こうむいん",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "公務員",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 2330
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public employee",
+        "government employee",
+        "public-sector worker",
+        "public servant",
+        "civil servant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ambtenaar",
+        "overheidsambtenaar",
+        "persoon die werkzaam is in een overheidsdienst",
+        "ambtsdrager"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fonctionnaire",
+        "agent public"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beamter",
+        "Staatsbeamter",
+        "Bürokrat",
+        "Beamter im öffentlichen Dienst",
+        "Bürokratie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) служащие государственных и общественных учреждений",
+        "2) лицо, занимающее общественную должность"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "javni uslužbenec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "funcionario público",
+        "empleado del gobierno"
+      ]
+    }
+  ]
+}

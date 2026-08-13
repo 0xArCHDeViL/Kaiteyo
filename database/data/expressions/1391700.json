@@ -1,0 +1,109 @@
+{
+  "id": "1391700",
+  "readings": [
+    {
+      "kanaExpression": "せんぷう",
+      "rank": 22000
+    },
+    {
+      "kanaExpression": "つむじかぜ"
+    },
+    {
+      "kanaExpression": "つじかぜ"
+    },
+    {
+      "kanjiExpression": "旋風",
+      "furiganaExpression": [
+        {
+          "text": "旋",
+          "annotation": "せん"
+        },
+        {
+          "text": "風",
+          "annotation": "ぷう"
+        }
+      ],
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "つむじ風",
+      "furiganaExpression": [
+        {
+          "text": "つむじ"
+        },
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "辻風",
+      "furiganaExpression": [
+        {
+          "text": "辻",
+          "annotation": "つじ"
+        },
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "whirlwind",
+        "sensation",
+        "commotion",
+        "hullabaloo"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wervelwind",
+        "dwarrelwind",
+        "windhoos",
+        "hoos",
+        "{fig.} storm"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tornade",
+        "tourbillon",
+        "trombe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wirbelwind",
+        "Wirbelsturm",
+        "Tornado",
+        "Wirbel",
+        "Aufruhr",
+        "Zyklon"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érzékelés",
+        "érzés",
+        "érzet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вихрь, шквал, циклон",
+        "вихрь, смерч"
+      ]
+    }
+  ]
+}

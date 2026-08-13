@@ -1,0 +1,71 @@
+{
+  "id": "1687220",
+  "readings": [
+    {
+      "kanaExpression": "つうしんしゃ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "通信社",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        },
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "news agency"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nieuwsagentschap",
+        "persagentschap",
+        "nieuwsbureau",
+        "persbureau",
+        "nieuwsdienst",
+        "persdienst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachrichtenagentur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "телеграфное агентство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "agencia de noticias"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "nyhetsbyrå",
+        "telegrambyrå"
+      ]
+    }
+  ]
+}

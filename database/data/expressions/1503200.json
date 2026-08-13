@@ -1,0 +1,51 @@
+{
+  "id": "1503200",
+  "readings": [
+    {
+      "kanaExpression": "ぶんかい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "分会",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "branch",
+        "chapter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sektion",
+        "Zweigverein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fejezet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отделение, филиал; [местная] организация (профсоюза и т. п.)"
+      ]
+    }
+  ]
+}

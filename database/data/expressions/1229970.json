@@ -1,0 +1,66 @@
+{
+  "id": "1229970",
+  "readings": [
+    {
+      "kanaExpression": "きゅうじょう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "球場",
+      "furiganaExpression": [
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "場",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 8861
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "baseball stadium",
+        "ballpark"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sportt.} baseballstadion",
+        "honkbalstadion",
+        "honkbalveld",
+        "{maatwoord voor honkbalstadions}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "stade de base-ball"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Baseballstadion",
+        "Baseballplatz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бейсбольная площадка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estadio de béisbol"
+      ]
+    }
+  ]
+}

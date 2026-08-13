@@ -1,0 +1,50 @@
+{
+  "id": "1064650",
+  "readings": [
+    {
+      "kanaExpression": "ジス",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ジェーアイエス"
+    },
+    {
+      "kanjiExpression": "ＪＩＳ",
+      "furiganaExpression": [
+        {
+          "text": "Ｊ",
+          "annotation": "ジェー"
+        },
+        {
+          "text": "Ｉ",
+          "annotation": "アイ"
+        },
+        {
+          "text": "Ｓ",
+          "annotation": "エス"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese Industrial Standards",
+        "JIS"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Japanische Industrienorm"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр. англ.) Japan Industrial Standard) японский промышленный стандарт"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "1816570",
+  "readings": [
+    {
+      "kanaExpression": "じひょう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "時評",
+      "furiganaExpression": [
+        {
+          "text": "時",
+          "annotation": "じ"
+        },
+        {
+          "text": "評",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commentary on current events"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeitkritik",
+        "Kommentar zu Zeitfragen",
+        "Rezension",
+        "Revue"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обзор [текущих событий]"
+      ]
+    }
+  ]
+}

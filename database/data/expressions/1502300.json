@@ -1,0 +1,47 @@
+{
+  "id": "1502300",
+  "readings": [
+    {
+      "kanaExpression": "ふつぶん",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "仏文",
+      "furiganaExpression": [
+        {
+          "text": "仏",
+          "annotation": "ふつ"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "French",
+        "French writing",
+        "French literature"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "französisch geschriebener Text",
+        "französische Literatur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) французский текст",
+        "2) французская литература"
+      ]
+    }
+  ]
+}

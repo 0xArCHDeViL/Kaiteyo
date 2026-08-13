@@ -1,0 +1,57 @@
+{
+  "id": "1517290",
+  "readings": [
+    {
+      "kanaExpression": "ほうち",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "法治",
+      "furiganaExpression": [
+        {
+          "text": "法",
+          "annotation": "ほう"
+        },
+        {
+          "text": "治",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "constitutional government"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} rechtsbestel",
+        "rechtsstatelijkheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "konstitutionelles Regieren",
+        "verfassungskonformes Regieren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "законный образ правления"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gobierno constitucional"
+      ]
+    }
+  ]
+}

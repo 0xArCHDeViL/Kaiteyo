@@ -1,0 +1,73 @@
+{
+  "id": "1647790",
+  "readings": [
+    {
+      "kanaExpression": "てみやげ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "手土産",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "土産",
+          "annotation": "みやげ"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "手みやげ",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "みやげ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "present (brought by a visitor)",
+        "gift"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "klein cadeau",
+        "kleinigheidje {meegenomen bij een gelegenheidsbezoek}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mitbringsel",
+        "Geschenk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jelen",
+        "jelenlegi",
+        "jelenlevő",
+        "mostani"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подарок (посетителя); небольшой подарок"
+      ]
+    }
+  ]
+}

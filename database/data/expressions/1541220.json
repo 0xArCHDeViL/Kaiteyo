@@ -1,0 +1,75 @@
+{
+  "id": "1541220",
+  "readings": [
+    {
+      "kanaExpression": "ゆうけい",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "有形",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "形",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "material",
+        "tangible",
+        "concrete"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stoffelijkheid",
+        "materialiteit",
+        "lichamelijkheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stofflichkeit",
+        "Materialität",
+        "materiell",
+        "körperlich",
+        "konkret"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anyagias",
+        "dologi",
+        "érzéki",
+        "lényegbevágó",
+        "tárgyi",
+        "érinthető",
+        "igazi",
+        "kézzelfogható",
+        "megfogható",
+        "tapintható"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "материальность, конкретность",
+        "{～[の]}, {～的} материальный, вещественный, осязаемый; конкретный, реально существующий",
+        "{～的に} конкретно, зримо, облекая в определённую форму",
+        "{～にする} материализовать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "1843990",
+  "readings": [
+    {
+      "kanaExpression": "ふうあい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "風合い",
+      "furiganaExpression": [
+        {
+          "text": "風",
+          "annotation": "ふう"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "風合",
+      "furiganaExpression": [
+        {
+          "text": "風",
+          "annotation": "ふう"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "texture (cloth, fabric, paper)",
+        "feel",
+        "appearance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gefühl beim Ansehen und Anfühlen von Textilien, Papier usw."
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alkat"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "textura"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "textur"
+      ]
+    }
+  ]
+}

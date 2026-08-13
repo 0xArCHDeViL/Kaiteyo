@@ -1,0 +1,67 @@
+{
+  "id": "1487720",
+  "readings": [
+    {
+      "kanaExpression": "ひつようじょうけん",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "必要条件",
+      "furiganaExpression": [
+        {
+          "text": "必",
+          "annotation": "ひつ"
+        },
+        {
+          "text": "要",
+          "annotation": "よう"
+        },
+        {
+          "text": "条",
+          "annotation": "じょう"
+        },
+        {
+          "text": "件",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "necessary condition",
+        "requirement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "noodzakelijke",
+        "absolute",
+        "beslissende",
+        "onvermijdelijke voorwaarde",
+        "eerste vereiste",
+        "conditio sine qua non",
+        "sine qua non",
+        "{afk.} c.s.q.n."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "notwendige Bedingung",
+        "notwendige Voraussetzung",
+        "Erfordernis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szükséges feltétel"
+      ]
+    }
+  ]
+}

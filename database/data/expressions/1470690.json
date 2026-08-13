@@ -1,0 +1,43 @@
+{
+  "id": "1470690",
+  "readings": [
+    {
+      "kanaExpression": "のうさぎょう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "農作業",
+      "furiganaExpression": [
+        {
+          "text": "農",
+          "annotation": "のう"
+        },
+        {
+          "text": "作",
+          "annotation": "さ"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "farmwork"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "landwirtschaftliche Arbeit",
+        "Feldarbeit",
+        "Landarbeit"
+      ]
+    }
+  ]
+}

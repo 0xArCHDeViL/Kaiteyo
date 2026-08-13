@@ -1,0 +1,66 @@
+{
+  "id": "2016170",
+  "readings": [
+    {
+      "kanaExpression": "のみかい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "飲み会",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "の"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "呑み会",
+      "furiganaExpression": [
+        {
+          "text": "呑",
+          "annotation": "の"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drinking party",
+        "get-together"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Umtrunk",
+        "Trinkgelage",
+        "Trinkgemeinschaft"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fiesta de bebidas",
+        "juntarse"
+      ]
+    }
+  ]
+}

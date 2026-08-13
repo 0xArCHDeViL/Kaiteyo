@@ -1,0 +1,52 @@
+{
+  "id": "1855270",
+  "readings": [
+    {
+      "kanaExpression": "ゆうすい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "湧水",
+      "furiganaExpression": [
+        {
+          "text": "湧",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "涌水",
+      "furiganaExpression": [
+        {
+          "text": "涌",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spring",
+        "welling of water"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Quelle",
+        "Naturbrunnen"
+      ]
+    }
+  ]
+}

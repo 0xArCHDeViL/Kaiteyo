@@ -1,0 +1,51 @@
+{
+  "id": "1454400",
+  "readings": [
+    {
+      "kanaExpression": "どうはんが",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "どうばんが"
+    },
+    {
+      "kanjiExpression": "銅版画",
+      "furiganaExpression": [
+        {
+          "text": "銅",
+          "annotation": "どう"
+        },
+        {
+          "text": "版",
+          "annotation": "はん"
+        },
+        {
+          "text": "画",
+          "annotation": "が"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "copperplate engraving",
+        "etching"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gravure sur cuivre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kupferstich (das Bild, nicht die Technik)"
+      ]
+    }
+  ]
+}

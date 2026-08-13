@@ -1,0 +1,55 @@
+{
+  "id": "1773970",
+  "readings": [
+    {
+      "kanaExpression": "じょうがい",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "場外",
+      "furiganaExpression": [
+        {
+          "text": "場",
+          "annotation": "じょう"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outside the hall (or stadium, market, etc.)",
+        "off the grounds",
+        "off the premises",
+        "off-track"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außerhalb eines Geländes",
+        "außerhalb eines Platzes",
+        "außerhalb eines Saales",
+        "(Bereich) außerhalb eines Geländes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～に} вне зала (помещения, территории); за стенами (за дверьми) зала (помещения); (бирж.) вне биржи"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "exterior"
+      ]
+    }
+  ]
+}

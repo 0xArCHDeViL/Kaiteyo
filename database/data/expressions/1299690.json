@@ -1,0 +1,57 @@
+{
+  "id": "1299690",
+  "readings": [
+    {
+      "kanaExpression": "さらあらい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "皿洗い",
+      "furiganaExpression": [
+        {
+          "text": "皿",
+          "annotation": "さら"
+        },
+        {
+          "text": "洗",
+          "annotation": "あら"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "washing-up",
+        "dish-washing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "plonge",
+        "vaisselle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abwasch",
+        "Tellerwaschen",
+        "Tellerwäscher"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) мытьё тарелок (посуды)",
+        "2) судомойка"
+      ]
+    }
+  ]
+}

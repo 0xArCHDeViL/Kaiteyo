@@ -1,0 +1,109 @@
+{
+  "id": "1266810",
+  "readings": [
+    {
+      "kanaExpression": "こじ",
+      "rank": 33000
+    },
+    {
+      "kanaExpression": "みなしご"
+    },
+    {
+      "kanjiExpression": "孤児",
+      "furiganaExpression": [
+        {
+          "text": "孤",
+          "annotation": "こ"
+        },
+        {
+          "text": "児",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 11515
+    },
+    {
+      "kanjiExpression": "孤",
+      "furiganaExpression": [
+        {
+          "text": "孤",
+          "annotation": "みなしご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "みなし子",
+      "furiganaExpression": [
+        {
+          "text": "みなし"
+        },
+        {
+          "text": "子",
+          "annotation": "ご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "orphan",
+        "person without friends"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "weeskind",
+        "wees",
+        "ouderloos kind"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "orphelin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Waise",
+        "elternloses Kind"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "árva"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сирота",
+        "{～の} сиротский; осиротелый, лишившийся родителей"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sirota",
+        "osirotel"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "huérfano"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "föräldralös"
+      ]
+    }
+  ]
+}

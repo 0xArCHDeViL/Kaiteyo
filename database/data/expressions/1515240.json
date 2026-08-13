@@ -1,0 +1,55 @@
+{
+  "id": "1515240",
+  "readings": [
+    {
+      "kanaExpression": "ぼさつ",
+      "rank": 25000
+    },
+    {
+      "kanaExpression": "ぼさち"
+    },
+    {
+      "kanjiExpression": "菩薩",
+      "furiganaExpression": [
+        {
+          "text": "菩",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "薩",
+          "annotation": "さつ"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bodhisattva",
+        "one who has reached enlightenment but vows to save all beings before becoming a buddha",
+        "High Monk (title bestowed by the imperial court)",
+        "title bestowed to Shinto kami in manifestation theory"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{boeddh.} bodhisattva"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bodhisattva"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((санскр.) Bodhisattwa) (буд.) бодисатва; (ср.) にょうぼさつ"
+      ]
+    }
+  ]
+}

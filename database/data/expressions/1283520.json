@@ -1,0 +1,73 @@
+{
+  "id": "1283520",
+  "readings": [
+    {
+      "kanaExpression": "こうざん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "高山",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "山",
+          "annotation": "ざん"
+        }
+      ],
+      "rank": 10063
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high mountain",
+        "alpine mountain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoge berg",
+        "alp",
+        "hooggebergte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hoher Berg",
+        "Hochgebirge",
+        "alpin",
+        "Hochgebirgs…",
+        "Höhen…"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alpesi",
+        "alpi",
+        "havasi",
+        "hegymászó",
+        "puha nemezkalapfajta"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "высокая гора",
+        "{～の} высокогорный, альпийский"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alta montaña"
+      ]
+    }
+  ]
+}

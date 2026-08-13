@@ -1,0 +1,67 @@
+{
+  "id": "1442870",
+  "readings": [
+    {
+      "kanaExpression": "でんい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "電位",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "位",
+          "annotation": "い"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "electric potential"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{elektr.} spanning",
+        "potentiaal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "elektrisches Potential"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elektromos feszültség",
+        "helyzeti",
+        "lappangó",
+        "lehetőség",
+        "potenciális",
+        "elektromos potenciál"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(эл.) потенциал"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "potencial eléctrico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "1582600",
+  "readings": [
+    {
+      "kanaExpression": "なんせい",
+      "rank": 18000
+    },
+    {
+      "kanaExpression": "みなみにし"
+    },
+    {
+      "kanjiExpression": "南西",
+      "furiganaExpression": [
+        {
+          "text": "南",
+          "annotation": "なん"
+        },
+        {
+          "text": "西",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 11999
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "southwest"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zuidwesten",
+        "{afk.} Z.W."
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sud-ouest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Südwesten",
+        "nach Südwesten",
+        "südwestlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "délnyugat felé",
+        "délnyugat felől",
+        "délnyugat",
+        "délnyugati",
+        "délnyugatra",
+        "délnyugatról"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "юго-запад; (мор.) зюйд-вест"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jugozahod"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "suroeste"
+      ]
+    }
+  ]
+}

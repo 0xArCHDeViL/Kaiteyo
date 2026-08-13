@@ -1,0 +1,58 @@
+{
+  "id": "1177040",
+  "readings": [
+    {
+      "kanaExpression": "えんもく",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "演目",
+      "furiganaExpression": [
+        {
+          "text": "演",
+          "annotation": "えん"
+        },
+        {
+          "text": "目",
+          "annotation": "もく"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "program (musical, concert, theatrical, etc.)",
+        "programme"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stuk",
+        "nummer",
+        "{verzameln.} programma"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Programm"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "программа [спектакля]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "programa (título) musical"
+      ]
+    }
+  ]
+}

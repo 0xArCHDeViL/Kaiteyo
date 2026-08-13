@@ -1,0 +1,50 @@
+{
+  "id": "1709230",
+  "readings": [
+    {
+      "kanaExpression": "すうまん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "数万",
+      "furiganaExpression": [
+        {
+          "text": "数",
+          "annotation": "すう"
+        },
+        {
+          "text": "万",
+          "annotation": "まん"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tens of thousands"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mehrere zehntausend"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "несколько десятков тысяч",
+        "{～の} десятки тысяч"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "decenas de miles"
+      ]
+    }
+  ]
+}

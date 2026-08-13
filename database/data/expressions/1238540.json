@@ -1,0 +1,81 @@
+{
+  "id": "1238540",
+  "readings": [
+    {
+      "kanaExpression": "きょうり",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "郷里",
+      "furiganaExpression": [
+        {
+          "text": "郷",
+          "annotation": "きょう"
+        },
+        {
+          "text": "里",
+          "annotation": "り"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hometown",
+        "birthplace"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geboortestad",
+        "geboortedorp",
+        "thuis",
+        "geboorteplaats",
+        "vaderstad",
+        "geboortegrond",
+        "geboortestreek",
+        "heimat",
+        "plaats waar men z\u0027n jeugd heeft doorgebracht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lieu de naissance",
+        "ville natale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Heimat",
+        "Geburtsort",
+        "Weiler",
+        "Dorf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szülőváros"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "родной дом, родные места, родина"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tierra natal",
+        "mi tierra"
+      ]
+    }
+  ]
+}

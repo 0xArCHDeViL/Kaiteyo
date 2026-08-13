@@ -1,0 +1,77 @@
+{
+  "id": "1407090",
+  "readings": [
+    {
+      "kanaExpression": "たさつ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "他殺",
+      "furiganaExpression": [
+        {
+          "text": "他",
+          "annotation": "た"
+        },
+        {
+          "text": "殺",
+          "annotation": "さつ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "murder"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moord",
+        "doodslag",
+        "manslag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "assassinat",
+        "meutre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mord"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "убийство"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "umor",
+        "umoriti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(un) asesinato"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mord"
+      ]
+    }
+  ]
+}

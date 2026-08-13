@@ -1,0 +1,74 @@
+{
+  "id": "1529310",
+  "readings": [
+    {
+      "kanaExpression": "みんわ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "民話",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "話",
+          "annotation": "わ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "folk tale",
+        "folktale",
+        "folk story",
+        "folklore"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volksverhaal",
+        "volkssprookje",
+        "sprookje",
+        "sage"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "conte populaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Volksmärchen",
+        "Volkssage"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "folklora"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "folklore"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "folklore"
+      ]
+    }
+  ]
+}

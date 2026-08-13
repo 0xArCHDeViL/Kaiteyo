@@ -1,0 +1,86 @@
+{
+  "id": "1405860",
+  "readings": [
+    {
+      "kanaExpression": "ぞくへん",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "続編",
+      "furiganaExpression": [
+        {
+          "text": "続",
+          "annotation": "ぞく"
+        },
+        {
+          "text": "編",
+          "annotation": "へん"
+        }
+      ],
+      "rank": 8400
+    },
+    {
+      "kanjiExpression": "続篇",
+      "furiganaExpression": [
+        {
+          "text": "続",
+          "annotation": "ぞく"
+        },
+        {
+          "text": "篇",
+          "annotation": "へん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "continuation",
+        "sequel"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vervolg (op een boek)",
+        "volgende aflevering",
+        "tweede deel",
+        "volumen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fortsetzung (eines Films, eines Aufsatzes od. eine Buches)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "folytatás",
+        "következmény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "следующая часть (книги, фильма); следующий том; продолжение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "continuación",
+        "secuela"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fortsättning"
+      ]
+    }
+  ]
+}

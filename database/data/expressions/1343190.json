@@ -1,0 +1,74 @@
+{
+  "id": "1343190",
+  "readings": [
+    {
+      "kanaExpression": "しょかん",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "所管",
+      "furiganaExpression": [
+        {
+          "text": "所",
+          "annotation": "しょ"
+        },
+        {
+          "text": "管",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 7496
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rechtsbevoegdheid",
+        "bevoegdheid",
+        "jurisdictie",
+        "competentie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zuständigkeit",
+        "Kontrolle",
+        "Aufsicht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "igazságszolgáltatás",
+        "törvénykezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подведомственность"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "jurisdicción"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "domsrätt",
+        "jurisdiktion"
+      ]
+    }
+  ]
+}

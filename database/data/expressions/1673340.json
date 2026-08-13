@@ -1,0 +1,57 @@
+{
+  "id": "1673340",
+  "readings": [
+    {
+      "kanaExpression": "むげ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "無碍",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "碍",
+          "annotation": "げ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "無礙",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "礙",
+          "annotation": "げ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "free from obstacles"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ungezwungenheit",
+        "Ungehindertheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) отсутствие препятствий (помех)"
+      ]
+    }
+  ]
+}

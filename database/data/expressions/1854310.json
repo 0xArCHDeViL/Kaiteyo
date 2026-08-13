@@ -1,0 +1,62 @@
+{
+  "id": "1854310",
+  "readings": [
+    {
+      "kanaExpression": "たいせい",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "体勢",
+      "furiganaExpression": [
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "勢",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "posture",
+        "position",
+        "stance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lichaamshouding",
+        "pose",
+        "stand",
+        "postuur",
+        "attitude"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Körperhaltung",
+        "Balance"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhelyezkedés",
+        "póz",
+        "testtartás",
+        "állás",
+        "beállítottság",
+        "helyzet",
+        "hozzáállás"
+      ]
+    }
+  ]
+}

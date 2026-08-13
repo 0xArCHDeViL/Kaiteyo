@@ -1,0 +1,66 @@
+{
+  "id": "1549490",
+  "readings": [
+    {
+      "kanaExpression": "りまわり",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "利回り",
+      "furiganaExpression": [
+        {
+          "text": "利",
+          "annotation": "り"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 10079
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interest",
+        "(investment) yield",
+        "profits"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "renteopbrengst",
+        "rendement van een belegging"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zinsen",
+        "Zinssatz",
+        "Zinsfuß",
+        "Zinstaxe",
+        "Rendite"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "süppedés",
+        "teljesítmény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доход (гл. обр. от акций, облигаций и т. п.)"
+      ]
+    }
+  ]
+}

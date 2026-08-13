@@ -1,0 +1,113 @@
+{
+  "id": "1499860",
+  "readings": [
+    {
+      "kanaExpression": "ふうし",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "風刺",
+      "furiganaExpression": [
+        {
+          "text": "風",
+          "annotation": "ふう"
+        },
+        {
+          "text": "刺",
+          "annotation": "し"
+        }
+      ],
+      "rank": 14244
+    },
+    {
+      "kanjiExpression": "諷刺",
+      "furiganaExpression": [
+        {
+          "text": "諷",
+          "annotation": "ふう"
+        },
+        {
+          "text": "刺",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "satire",
+        "irony",
+        "sarcasm"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "satire",
+        "de draak steken met",
+        "ridiculiseren",
+        "de spot drijven met"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "satire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Satire",
+        "Anspielung",
+        "witziger Spott",
+        "Sarkasmus",
+        "satirisch darstellen",
+        "satirische Anspielungen machen",
+        "bespötteln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gúnyos megjegyzés",
+        "maró gúny",
+        "szarkazmus",
+        "gúny",
+        "gúnyirat",
+        "burkolt gyanúsítás",
+        "célozgatás",
+        "rosszindulatú célozgatás",
+        "szatíra"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сатира; ирония, сарказм",
+        "{～する} высмеивать, писать сатирически",
+        "{～的} сатирический"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "satira"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sátira"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "satir"
+      ]
+    }
+  ]
+}

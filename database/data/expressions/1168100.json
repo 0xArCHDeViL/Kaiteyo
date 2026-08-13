@@ -1,0 +1,78 @@
+{
+  "id": "1168100",
+  "readings": [
+    {
+      "kanaExpression": "いんがし",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "印画紙",
+      "furiganaExpression": [
+        {
+          "text": "印",
+          "annotation": "いん"
+        },
+        {
+          "text": "画",
+          "annotation": "が"
+        },
+        {
+          "text": "紙",
+          "annotation": "し"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "陰画紙",
+      "furiganaExpression": [
+        {
+          "text": "陰",
+          "annotation": "いん"
+        },
+        {
+          "text": "画",
+          "annotation": "が"
+        },
+        {
+          "text": "紙",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(photographic) printing paper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{foto.} fotografisch papier",
+        "fotopapier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fotopapier",
+        "Kopierpapier"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фотобумага"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(fotográfico) papel de imprenta"
+      ]
+    }
+  ]
+}

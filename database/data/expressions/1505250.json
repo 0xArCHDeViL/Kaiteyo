@@ -1,0 +1,61 @@
+{
+  "id": "1505250",
+  "readings": [
+    {
+      "kanaExpression": "ぶんかん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "文官",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "civil official"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "civiel ambtenaar",
+        "burgerambtenaar",
+        "rijksambtenaar",
+        "staatsambtenaar",
+        "staatsdienaar",
+        "bestuursambtenaar",
+        "civiele dienst",
+        "burgerlijke",
+        "civiele overheid",
+        "burgerambtenarij",
+        "staatsdienst",
+        "rijksdienst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zivilbeamte",
+        "Staatsbeamte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) гражданский чиновник ((ант.) ぶかん【武官】)"
+      ]
+    }
+  ]
+}

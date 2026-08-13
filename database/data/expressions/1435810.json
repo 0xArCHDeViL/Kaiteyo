@@ -1,0 +1,72 @@
+{
+  "id": "1435810",
+  "readings": [
+    {
+      "kanaExpression": "みかど",
+      "rank": 20500
+    },
+    {
+      "kanaExpression": "ごもん"
+    },
+    {
+      "kanjiExpression": "帝",
+      "furiganaExpression": [
+        {
+          "text": "帝",
+          "annotation": "みかど"
+        }
+      ],
+      "rank": 7261
+    },
+    {
+      "kanjiExpression": "御門",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "み"
+        },
+        {
+          "text": "門",
+          "annotation": "かど"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "emperor (of Japan)",
+        "mikado",
+        "(the gates of an) imperial residence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mikado",
+        "Japanse keizer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tennō",
+        "Kaiser",
+        "Mikado"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "császár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "микадо (древнее обозначение яп. императора)"
+      ]
+    }
+  ]
+}

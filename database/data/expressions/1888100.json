@@ -1,0 +1,64 @@
+{
+  "id": "1888100",
+  "readings": [
+    {
+      "kanaExpression": "せかいぎんこう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "世界銀行",
+      "furiganaExpression": [
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "界",
+          "annotation": "かい"
+        },
+        {
+          "text": "銀",
+          "annotation": "ぎん"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "World Bank"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Wereldbank",
+        "{afk.} WB"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Weltbank"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Banco Mundial"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "Världsbanken"
+      ]
+    }
+  ]
+}

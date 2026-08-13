@@ -1,0 +1,49 @@
+{
+  "id": "1720910",
+  "readings": [
+    {
+      "kanaExpression": "おやどり",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "親鳥",
+      "furiganaExpression": [
+        {
+          "text": "親",
+          "annotation": "おや"
+        },
+        {
+          "text": "鳥",
+          "annotation": "どり"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "parent bird"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oudervogel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Elternvogel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "птица, имеющая птенцов"
+      ]
+    }
+  ]
+}

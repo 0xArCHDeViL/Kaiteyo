@@ -1,0 +1,82 @@
+{
+  "id": "1499610",
+  "readings": [
+    {
+      "kanaExpression": "ふういん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "封印",
+      "furiganaExpression": [
+        {
+          "text": "封",
+          "annotation": "ふう"
+        },
+        {
+          "text": "印",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 11774
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seal",
+        "to seal (e.g. a letter)",
+        "to affix a seal",
+        "to seal up"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zegel",
+        "cachet",
+        "verzegelen",
+        "met een zegel sluiten",
+        "bezegelen",
+        "inzegelen",
+        "zegelen",
+        "cacheteren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Siegel",
+        "(obsol.)Cachet",
+        "versiegeln",
+        "mit einem Siegel versehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bélyegző",
+        "fejgerenda",
+        "forrasztás",
+        "lezárás",
+        "papírpecsét",
+        "szigetelés",
+        "vízzárás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "печать",
+        "{～する} запечатывать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sello",
+        "estampilla"
+      ]
+    }
+  ]
+}

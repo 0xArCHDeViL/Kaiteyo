@@ -1,0 +1,71 @@
+{
+  "id": "1020470",
+  "readings": [
+    {
+      "kanaExpression": "アンド",
+      "rank": 6874
+    },
+    {
+      "kanaExpression": "エンド",
+      "rank": 6045
+    },
+    {
+      "kanjiExpression": "＆",
+      "furiganaExpression": [
+        {
+          "text": "＆",
+          "annotation": "アンド"
+        }
+      ],
+      "rank": 651
+    },
+    {
+      "kanjiExpression": "ＡＮＤ",
+      "furiganaExpression": [
+        {
+          "text": "Ａ",
+          "annotation": "ア"
+        },
+        {
+          "text": "Ｎ",
+          "annotation": "ン"
+        },
+        {
+          "text": "Ｄ",
+          "annotation": "ド"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "and",
+        "AND (Boolean operator)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{comp.} AND",
+        "en"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "UND (in der Schaltungslogik)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "és",
+        "ha",
+        "meg",
+        "mintha"
+      ]
+    }
+  ]
+}

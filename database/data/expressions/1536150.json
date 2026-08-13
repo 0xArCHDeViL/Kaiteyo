@@ -1,0 +1,65 @@
+{
+  "id": "1536150",
+  "readings": [
+    {
+      "kanaExpression": "もんがいかん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "門外漢",
+      "furiganaExpression": [
+        {
+          "text": "門",
+          "annotation": "もん"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "漢",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outsider",
+        "layman",
+        "amateur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "amateur",
+        "profane"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Außenstehender",
+        "Außenseiter",
+        "Uneingeweihter",
+        "Laie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "amatőr ember"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "посторонний, непричастный; неспециалист; профан"
+      ]
+    }
+  ]
+}

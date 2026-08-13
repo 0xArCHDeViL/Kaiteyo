@@ -1,0 +1,88 @@
+{
+  "id": "1630450",
+  "readings": [
+    {
+      "kanaExpression": "くりあげ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "繰り上げ",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "繰上",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "上",
+          "annotation": "あげ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "繰上げ",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "upward move",
+        "advance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorverlegung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előnyomulás",
+        "fejlődés",
+        "javulás",
+        "kölcsön"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перенос [на более близкий срок]"
+      ]
+    }
+  ]
+}

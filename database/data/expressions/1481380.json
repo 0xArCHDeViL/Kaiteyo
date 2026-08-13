@@ -1,0 +1,57 @@
+{
+  "id": "1481380",
+  "readings": [
+    {
+      "kanaExpression": "いたがみ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "板紙",
+      "furiganaExpression": [
+        {
+          "text": "板",
+          "annotation": "いた"
+        },
+        {
+          "text": "紙",
+          "annotation": "がみ"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cardboard",
+        "paperboard",
+        "pasteboard"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pappe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kartonpapír"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[толстый] картон"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "pappkartong"
+      ]
+    }
+  ]
+}

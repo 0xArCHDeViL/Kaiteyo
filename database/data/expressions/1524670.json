@@ -1,0 +1,69 @@
+{
+  "id": "1524670",
+  "readings": [
+    {
+      "kanaExpression": "まいかい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "毎回",
+      "furiganaExpression": [
+        {
+          "text": "毎",
+          "annotation": "まい"
+        },
+        {
+          "text": "回",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 3685
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "every time",
+        "each round"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elke keer",
+        "iedere keer",
+        "telkens",
+        "telkenmale",
+        "keer op keer",
+        "{oneig.} altijd",
+        "voortdurend",
+        "zo vaak"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jedes Mal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kivétel nélkül"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каждый раз"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cada vez"
+      ]
+    }
+  ]
+}

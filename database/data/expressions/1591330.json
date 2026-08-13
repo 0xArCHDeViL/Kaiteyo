@@ -1,0 +1,146 @@
+{
+  "id": "1591330",
+  "readings": [
+    {
+      "kanaExpression": "きづく",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "きずく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "気づく",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "づく"
+        }
+      ],
+      "rank": 1289
+    },
+    {
+      "kanjiExpression": "気付く",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "付",
+          "annotation": "づ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 2345
+    },
+    {
+      "kanjiExpression": "気ずく",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "ずく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to notice",
+        "to realize",
+        "to realise",
+        "to become aware (of)",
+        "to perceive",
+        "to sense",
+        "to suspect",
+        "to regain consciousness",
+        "to come to (one\u0027s senses)",
+        "to come round"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opmerken",
+        "bemerken",
+        "weten",
+        "zien",
+        "bespeuren",
+        "ontwaren",
+        "waarnemen",
+        "voelen",
+        "beseffen",
+        "erg hebben in"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "percevoir",
+        "réaliser",
+        "remarquer",
+        "reconnaître",
+        "prendre conscience de"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bemerken",
+        "merken",
+        "wahrnehmen",
+        "Notiz nehmen",
+        "herausfinden",
+        "achten",
+        "zu sich kommen",
+        "zur Besinnung kommen",
+        "das Bewusstsein wiedererlangen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "észrevesz",
+        "tudomásul vesz",
+        "elismer",
+        "felismer",
+        "észlel",
+        "felfog",
+        "megért",
+        "elér",
+        "értékesít",
+        "megvalósít",
+        "pénzzé tesz",
+        "rájön",
+        "szerez"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "opaziti",
+        "spoznati",
+        "zaznati",
+        "dojeti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "percibir",
+        "notar",
+        "advertir"
+      ]
+    }
+  ]
+}

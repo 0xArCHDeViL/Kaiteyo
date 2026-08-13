@@ -1,0 +1,46 @@
+{
+  "id": "1735380",
+  "readings": [
+    {
+      "kanaExpression": "せいそう",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "政争",
+      "furiganaExpression": [
+        {
+          "text": "政",
+          "annotation": "せい"
+        },
+        {
+          "text": "争",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "political strife"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "politische Auseinandersetzung",
+        "politischer Streit",
+        "politische Streitigkeit",
+        "politischer Zwist"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "политический спор (конфликт); политическая борьба"
+      ]
+    }
+  ]
+}

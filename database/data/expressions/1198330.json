@@ -1,0 +1,64 @@
+{
+  "id": "1198330",
+  "readings": [
+    {
+      "kanaExpression": "かいき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "会期",
+      "furiganaExpression": [
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        }
+      ],
+      "rank": 12028
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "session (of a legislature)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zitting",
+        "sessie",
+        "zittijd",
+        "zittingsperiode",
+        "zittingstijd",
+        "vergadertijd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sitzungsperiode",
+        "Session",
+        "Sitzungsdauer",
+        "Laufzeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyűlés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сессия, заседание",
+        "2) продолжительность (период работы) сессии, выставки (и т. п.)"
+      ]
+    }
+  ]
+}

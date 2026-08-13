@@ -1,0 +1,175 @@
+{
+  "id": "1270220",
+  "readings": [
+    {
+      "kanaExpression": "おかげさまで",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お陰様で",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "陰",
+          "annotation": "かげ"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        },
+        {
+          "text": "で"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お蔭様で",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "蔭",
+          "annotation": "かげ"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        },
+        {
+          "text": "で"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お陰さまで",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "陰",
+          "annotation": "かげ"
+        },
+        {
+          "text": "さまで"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "おかげ様で",
+      "furiganaExpression": [
+        {
+          "text": "おかげ"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        },
+        {
+          "text": "で"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御陰様で",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "陰",
+          "annotation": "かげ"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        },
+        {
+          "text": "で"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御蔭様で",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "蔭",
+          "annotation": "かげ"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        },
+        {
+          "text": "で"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thankfully",
+        "fortunately",
+        "luckily",
+        "by God\u0027s grace",
+        "under the gods\u0027 shadow",
+        "thanks to your (his, their, everyone\u0027s, etc.) kindness",
+        "thanks to your assistance",
+        "thanks to your support",
+        "thanks to your efforts"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dankzij u ~",
+        "bedankt dat ~",
+        "gelukkigerwijs ~"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(je vais bien) merci",
+        "grâce à toi",
+        "heureusement",
+        "grâce à Dieu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dank Ihrer freundlichen Unterstützung"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "po vaši zaslugi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gracias a dios",
+        "gracias a ti",
+        "afortunadamente",
+        "gracias a Dios",
+        "gracias a Ud.",
+        "gracias a su ayuda"
+      ]
+    }
+  ]
+}

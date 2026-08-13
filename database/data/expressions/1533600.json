@@ -1,0 +1,84 @@
+{
+  "id": "1533600",
+  "readings": [
+    {
+      "kanaExpression": "にきび",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "めんぽう"
+    },
+    {
+      "kanaExpression": "ニキビ"
+    },
+    {
+      "kanjiExpression": "面皰",
+      "furiganaExpression": [
+        {
+          "text": "面皰",
+          "annotation": "にきび"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pimple",
+        "acne"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "puist",
+        "puistje",
+        "pukkel",
+        "{i.h.b.} mee-eter",
+        "{verzameln.} acne"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "acné"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pickel",
+        "Mitesser",
+        "Akne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mitesszer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прыщ, угорь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "mozolj",
+        "akna"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "acné",
+        "barrillo",
+        "espinilla"
+      ]
+    }
+  ]
+}

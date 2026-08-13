@@ -1,0 +1,79 @@
+{
+  "id": "1499130",
+  "readings": [
+    {
+      "kanaExpression": "まいこ",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "ぶぎ"
+    },
+    {
+      "kanjiExpression": "舞妓",
+      "furiganaExpression": [
+        {
+          "text": "舞",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "妓",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "舞子",
+      "furiganaExpression": [
+        {
+          "text": "舞",
+          "annotation": "まい"
+        },
+        {
+          "text": "子",
+          "annotation": "こ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "maiko",
+        "apprentice geisha (in Kyoto)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maiko",
+        "jong dansmeisje",
+        "geisha in opleiding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Maiko",
+        "junge Geisha",
+        "Geisha-Schülerin",
+        "junge Tänzerin"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. см.) まいこ【舞子】",
+        "маико, девочка-танцовщица"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "geisha aprendiz",
+        "bailarina"
+      ]
+    }
+  ]
+}

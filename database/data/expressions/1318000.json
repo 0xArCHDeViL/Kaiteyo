@@ -1,0 +1,91 @@
+{
+  "id": "1318000",
+  "readings": [
+    {
+      "kanaExpression": "じしん",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "自身",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "身",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 466
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(one\u0027s) self",
+        "oneself"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{attr.} eigen",
+        "zelf",
+        "{adv.} persoonlijk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "personnellement",
+        "par soi-même"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "selbst",
+        "sich",
+        "persönlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ami engem illet",
+        "részemről",
+        "személyesen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сам",
+        "{～の} свой, личный",
+        "{～で} сам лично, самостоятельно"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "(nekdo) sam"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "por uno mismo",
+        "personalmente"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "själv",
+        "personligen"
+      ]
+    }
+  ]
+}

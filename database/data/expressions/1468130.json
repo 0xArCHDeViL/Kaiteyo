@@ -1,0 +1,72 @@
+{
+  "id": "1468130",
+  "readings": [
+    {
+      "kanaExpression": "としのせ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "年の瀬",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "とし"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "瀬",
+          "annotation": "せ"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "歳の瀬",
+      "furiganaExpression": [
+        {
+          "text": "歳",
+          "annotation": "とし"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "瀬",
+          "annotation": "せ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the year end",
+        "end of the year",
+        "last days of the year"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jahresende",
+        "die letzten Tage des Jahres"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szilveszter",
+        "szilveszterest"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "канун Нового года"
+      ]
+    }
+  ]
+}

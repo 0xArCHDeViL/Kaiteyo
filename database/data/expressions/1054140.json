@@ -1,0 +1,53 @@
+{
+  "id": "1054140",
+  "readings": [
+    {
+      "kanaExpression": "ゴーサイン",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ゴー・サイン"
+    },
+    {
+      "kanjiExpression": "ＧＯサイン",
+      "furiganaExpression": [
+        {
+          "text": "Ｇ",
+          "annotation": "ゴ"
+        },
+        {
+          "text": "Ｏ",
+          "annotation": "ー"
+        },
+        {
+          "text": "サイン"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "green light",
+        "(giving) permission",
+        "OK"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Startzeichen",
+        "grünes Licht",
+        "Genehmigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "engedély vmi megtételére",
+        "zöld út"
+      ]
+    }
+  ]
+}

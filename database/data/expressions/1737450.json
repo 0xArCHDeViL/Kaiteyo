@@ -1,0 +1,41 @@
+{
+  "id": "1737450",
+  "readings": [
+    {
+      "kanaExpression": "すいさんちょう",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "水産庁",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "庁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(Japanese) Fisheries Agency"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischereiamt"
+      ]
+    }
+  ]
+}

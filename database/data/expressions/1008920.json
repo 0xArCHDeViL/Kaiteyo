@@ -1,0 +1,87 @@
+{
+  "id": "1008920",
+  "readings": [
+    {
+      "kanaExpression": "どういう",
+      "rank": 773
+    },
+    {
+      "kanjiExpression": "どう言う",
+      "furiganaExpression": [
+        {
+          "text": "どう"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "如何いう",
+      "furiganaExpression": [
+        {
+          "text": "如何",
+          "annotation": "どう"
+        },
+        {
+          "text": "いう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "如何言う",
+      "furiganaExpression": [
+        {
+          "text": "如何",
+          "annotation": "どう"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "what kind of",
+        "what sort of",
+        "what"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "was",
+        "was für ein",
+        "wie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "miféle",
+        "milyen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "de alguna manera",
+        "cómo",
+        "de que forma",
+        "por qué",
+        "que tipo de"
+      ]
+    }
+  ]
+}

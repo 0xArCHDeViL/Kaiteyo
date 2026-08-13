@@ -1,0 +1,52 @@
+{
+  "id": "1254970",
+  "readings": [
+    {
+      "kanaExpression": "ゆいのう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "結納",
+      "furiganaExpression": [
+        {
+          "text": "結",
+          "annotation": "ゆい"
+        },
+        {
+          "text": "納",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "engagement gift",
+        "(ceremonial) exchange of engagement gifts"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verlovingscadeau",
+        "verlovingsgeschenk",
+        "verlovingsgift"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verlobungsgeschenk"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подарки при помолвке"
+      ]
+    }
+  ]
+}

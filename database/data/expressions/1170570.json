@@ -1,0 +1,64 @@
+{
+  "id": "1170570",
+  "readings": [
+    {
+      "kanaExpression": "かくしひきだし",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "隠し引き出し",
+      "furiganaExpression": [
+        {
+          "text": "隠",
+          "annotation": "かく"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "secret drawer",
+        "hidden drawer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "issue dérobée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geheimfach",
+        "geheime Schublade"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "retirada secreta"
+      ]
+    }
+  ]
+}

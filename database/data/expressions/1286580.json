@@ -1,0 +1,58 @@
+{
+  "id": "1286580",
+  "readings": [
+    {
+      "kanaExpression": "こくさく",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "国策",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "策",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "national policy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nationaal plan",
+        "staatsbeleid",
+        "staatspolitiek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Staatspolitik",
+        "nationale Politik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "национальная (государственная) политика"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "política nacional"
+      ]
+    }
+  ]
+}

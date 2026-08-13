@@ -1,0 +1,78 @@
+{
+  "id": "1320450",
+  "readings": [
+    {
+      "kanaExpression": "しっしん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "湿疹",
+      "furiganaExpression": [
+        {
+          "text": "湿",
+          "annotation": "しっ"
+        },
+        {
+          "text": "疹",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "湿しん",
+      "furiganaExpression": [
+        {
+          "text": "湿",
+          "annotation": "しっ"
+        },
+        {
+          "text": "しん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eczema",
+        "rash"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} eczeem",
+        "eczema"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ekzem",
+        "Eczema"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhamarkodott"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) мокнущая экзема"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "eczema",
+        "eccema",
+        "sarpullido"
+      ]
+    }
+  ]
+}

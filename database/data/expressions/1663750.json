@@ -1,0 +1,52 @@
+{
+  "id": "1663750",
+  "readings": [
+    {
+      "kanaExpression": "たにんずう",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "たにんず"
+    },
+    {
+      "kanjiExpression": "多人数",
+      "furiganaExpression": [
+        {
+          "text": "多",
+          "annotation": "た"
+        },
+        {
+          "text": "人",
+          "annotation": "にん"
+        },
+        {
+          "text": "数",
+          "annotation": "ずう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "large number of people"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "große Anzahl von Personen",
+        "große Anzahl von Menschen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "много народу",
+        "{～の} многочисленный (по числу людей)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1820700",
+  "readings": [
+    {
+      "kanaExpression": "こうでんがえし",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "香典返し",
+      "furiganaExpression": [
+        {
+          "text": "香",
+          "annotation": "こう"
+        },
+        {
+          "text": "典",
+          "annotation": "でん"
+        },
+        {
+          "text": "返",
+          "annotation": "がえ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "present given in return for funeral offering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gegengeschenk (für ein Beileidsgeschenk)"
+      ]
+    }
+  ]
+}

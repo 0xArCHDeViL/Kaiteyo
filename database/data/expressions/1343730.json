@@ -1,0 +1,85 @@
+{
+  "id": "1343730",
+  "readings": [
+    {
+      "kanaExpression": "かきこむ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "書き込む",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 3277
+    },
+    {
+      "kanjiExpression": "書きこむ",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "きこむ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to fill in (field, entry, etc.)",
+        "to fill out (form)",
+        "to post a message (e.g. on a bulletin-board)",
+        "to store",
+        "to write (data)",
+        "to flash"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inschrijven",
+        "invullen",
+        "{comp.} overschrijven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einschreiben",
+        "ausfüllen",
+        "beschreiben (ein Speichermedium)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "betemet",
+        "betölt",
+        "tárol",
+        "programot feltölt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) かきいれる【書き入れる】1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "1581050",
+  "readings": [
+    {
+      "kanaExpression": "かわづら",
+      "rank": 30000
+    },
+    {
+      "kanaExpression": "かわも"
+    },
+    {
+      "kanjiExpression": "川面",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "面",
+          "annotation": "づら"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "河面",
+      "furiganaExpression": [
+        {
+          "text": "河",
+          "annotation": "かわ"
+        },
+        {
+          "text": "面",
+          "annotation": "づら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "川づら",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "づら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "river surface",
+        "surface of a river"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasseroberfläche eines Flusses"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) поверхность реки",
+        "2) берег реки"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2854195",
+  "readings": [
+    {
+      "kanaExpression": "おとこたち",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "男たち",
+      "furiganaExpression": [
+        {
+          "text": "男",
+          "annotation": "おとこ"
+        },
+        {
+          "text": "たち"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "男達",
+      "furiganaExpression": [
+        {
+          "text": "男",
+          "annotation": "おとこ"
+        },
+        {
+          "text": "達",
+          "annotation": "たち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "men",
+        "males"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{verzameln.} mannen",
+        "manvolk",
+        "mansvolk",
+        "mannenvolk",
+        "manlui",
+        "manslui"
+      ]
+    }
+  ]
+}

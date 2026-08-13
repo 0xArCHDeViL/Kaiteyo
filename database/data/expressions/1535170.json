@@ -1,0 +1,96 @@
+{
+  "id": "1535170",
+  "readings": [
+    {
+      "kanaExpression": "めまぐるしい",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "目まぐるしい",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "め"
+        },
+        {
+          "text": "まぐるしい"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "目紛しい",
+      "furiganaExpression": [
+        {
+          "text": "目紛",
+          "annotation": "めまぐる"
+        },
+        {
+          "text": "しい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dizzying (speed, changes, etc.)",
+        "rapid",
+        "drastic",
+        "bewildering",
+        "hectic",
+        "bustling (e.g. world)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jachtig",
+        "bedrijvig",
+        "druk",
+        "turbulent",
+        "woelig",
+        "duizelingwekkend",
+        "duizelig makend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwindelig",
+        "schwindelerregend",
+        "hektisch",
+        "verwirrend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zavarba ejtő",
+        "nyüzsgő",
+        "sürgölődő",
+        "szédítő",
+        "szédülő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "головокружительный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "febril",
+        "agitado",
+        "confundido",
+        "mareado",
+        "aturdido",
+        "desconcertante",
+        "héctico"
+      ]
+    }
+  ]
+}

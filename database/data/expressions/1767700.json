@@ -1,0 +1,39 @@
+{
+  "id": "1767700",
+  "readings": [
+    {
+      "kanaExpression": "しひょう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "死票",
+      "furiganaExpression": [
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vote for a losing candidate",
+        "wasted vote"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tote Stimme",
+        "Stimme für den Wahlverlierer"
+      ]
+    }
+  ]
+}

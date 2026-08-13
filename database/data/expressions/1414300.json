@@ -1,0 +1,78 @@
+{
+  "id": "1414300",
+  "readings": [
+    {
+      "kanaExpression": "おおごえ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "たいせい",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "大声",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "おお"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ],
+      "rank": 6858
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "loud voice"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "luide stem",
+        "stentorstem",
+        "bulderstem",
+        "wekstem"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "forte voix",
+        "haute voix"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "laute Stimme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "громкий голос",
+        "{～の} громкоголосый, громкий",
+        "{～で} громко, громким голосом",
+        "громкий (звучный) голос"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "močan glas"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voz alta"
+      ]
+    }
+  ]
+}

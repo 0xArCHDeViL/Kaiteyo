@@ -1,0 +1,101 @@
+{
+  "id": "1327100",
+  "readings": [
+    {
+      "kanaExpression": "まもり",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "守り",
+      "furiganaExpression": [
+        {
+          "text": "守",
+          "annotation": "まも"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 13455
+    },
+    {
+      "kanjiExpression": "護り",
+      "furiganaExpression": [
+        {
+          "text": "護",
+          "annotation": "まも"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "守",
+      "furiganaExpression": [
+        {
+          "text": "守",
+          "annotation": "まもり"
+        }
+      ],
+      "rank": 7370
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "protection",
+        "defense",
+        "defence",
+        "providence",
+        "amulet",
+        "charm",
+        "talisman"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "defensie",
+        "verdediging",
+        "bescherming",
+        "afweer",
+        "amulet",
+        "talisman"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verteidigung",
+        "Schutz",
+        "Wehr",
+        "Amulett",
+        "Talisman"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "menedék",
+        "védelem",
+        "bűbáj",
+        "bűvölet",
+        "igézet",
+        "szerencsekarperec",
+        "szerencsetalizmán",
+        "szerencsetárgy",
+        "varázs",
+        "varázslat",
+        "vonzerő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "защита, охрана; (ср.) おまもり"
+      ]
+    }
+  ]
+}

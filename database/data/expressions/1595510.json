@@ -1,0 +1,114 @@
+{
+  "id": "1595510",
+  "readings": [
+    {
+      "kanaExpression": "すいがら",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "吸い殻",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "す"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "殻",
+          "annotation": "がら"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "吸殻",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "すい"
+        },
+        {
+          "text": "殻",
+          "annotation": "がら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吸いがら",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "す"
+        },
+        {
+          "text": "いがら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吸がら",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "すい"
+        },
+        {
+          "text": "がら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cigarette end",
+        "cigarette butt",
+        "tobacco ashes"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "peuk",
+        "peukje",
+        "eindje",
+        "{紙巻きの} sigarettenpeuk",
+        "{葉巻きの} sigarenpeuk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mégot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zigarettenstummel",
+        "Zigarrenstummel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окурок; обгоревший конец сигары"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "cigaretni ogorek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "colilla (de cigarro)"
+      ]
+    }
+  ]
+}

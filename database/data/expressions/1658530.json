@@ -1,0 +1,52 @@
+{
+  "id": "1658530",
+  "readings": [
+    {
+      "kanaExpression": "じかようしゃ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "自家用車",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        },
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "private car",
+        "private automobile"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Privatwagen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "собственная (личная, персональная, частная) автомашина"
+      ]
+    }
+  ]
+}

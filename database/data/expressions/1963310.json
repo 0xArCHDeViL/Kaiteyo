@@ -1,0 +1,66 @@
+{
+  "id": "1963310",
+  "readings": [
+    {
+      "kanaExpression": "クラシックおんがく",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "クラッシックおんがく"
+    },
+    {
+      "kanjiExpression": "クラシック音楽",
+      "furiganaExpression": [
+        {
+          "text": "クラシック"
+        },
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "楽",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "クラッシック音楽",
+      "furiganaExpression": [
+        {
+          "text": "クラッシック"
+        },
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "楽",
+          "annotation": "がく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "classical music"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Klassik",
+        "klassische Musik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "música clásica"
+      ]
+    }
+  ]
+}

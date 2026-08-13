@@ -1,0 +1,95 @@
+{
+  "id": "1169220",
+  "readings": [
+    {
+      "kanaExpression": "ひきつれる",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "引き連れる",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "連",
+          "annotation": "つ"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "引連れる",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "連",
+          "annotation": "つ"
+        },
+        {
+          "text": "れる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "引きつれる",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "きつれる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to take someone along",
+        "to be accompanied (by)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "meenemen",
+        "meebrengen",
+        "zich laten vergezellen door",
+        "in gezelschap gaan van"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jmdn. mitnehmen",
+        "jmdn. mitbringen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "брать с собой (кого-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "llevar consigo",
+        "llevarse"
+      ]
+    }
+  ]
+}

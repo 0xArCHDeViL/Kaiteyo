@@ -1,0 +1,64 @@
+{
+  "id": "1644860",
+  "readings": [
+    {
+      "kanaExpression": "りょっか",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "りょくか"
+    },
+    {
+      "kanjiExpression": "緑化",
+      "furiganaExpression": [
+        {
+          "text": "緑",
+          "annotation": "りょっ"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "greening (i.e. planting to increase greenery)",
+        "tree planting",
+        "afforestation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "begrünen",
+        "Bäume pflanzen",
+        "aufforsten",
+        "Begrünung",
+        "Grünanpflanzung",
+        "Aufforstung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erdőfelújítás",
+        "erdősítés",
+        "fásítás",
+        "újraerdősítés",
+        "vadászterületté alakítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "озеленение",
+        "{～する} озеленять"
+      ]
+    }
+  ]
+}

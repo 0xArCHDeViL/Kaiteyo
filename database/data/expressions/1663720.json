@@ -1,0 +1,69 @@
+{
+  "id": "1663720",
+  "readings": [
+    {
+      "kanaExpression": "おおどころ",
+      "rank": 30000
+    },
+    {
+      "kanaExpression": "おおどこ"
+    },
+    {
+      "kanjiExpression": "大所",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "おお"
+        },
+        {
+          "text": "所",
+          "annotation": "どころ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wealthy family",
+        "important person",
+        "bigwig"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grote naam",
+        "invloedrijk persoon",
+        "belangrijk iemand",
+        "man",
+        "vrouw van gewicht",
+        "autoriteit",
+        "invloedrijke organisatie",
+        "vermogende",
+        "rijke familie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "großes Haus",
+        "Autorität",
+        "Meister",
+        "einflussreiche Persönlichkeit",
+        "reiche Familie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.)",
+        "1) богатая семья",
+        "2) огромный дом",
+        "3) главная фигура; корифей; столп"
+      ]
+    }
+  ]
+}

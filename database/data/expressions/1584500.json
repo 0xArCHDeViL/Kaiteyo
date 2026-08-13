@@ -1,0 +1,89 @@
+{
+  "id": "1584500",
+  "readings": [
+    {
+      "kanaExpression": "ばんにん",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ばんじん",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "まんにん"
+    },
+    {
+      "kanjiExpression": "万人",
+      "furiganaExpression": [
+        {
+          "text": "万",
+          "annotation": "ばん"
+        },
+        {
+          "text": "人",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "all people",
+        "everybody"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "alle mensen",
+        "iedereen",
+        "alleman"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tout le monde",
+        "10 000 personnes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alle Menschen",
+        "jeder"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mindenki"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "все [люди]",
+        "множество (десятки тысяч) людей; (ср.) ばんにん"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vsi ljudje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lleno de gente",
+        "toda la gente",
+        "todos",
+        "diez mil personas"
+      ]
+    }
+  ]
+}

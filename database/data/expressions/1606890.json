@@ -1,0 +1,62 @@
+{
+  "id": "1606890",
+  "readings": [
+    {
+      "kanaExpression": "わりだか",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "割高",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わり"
+        },
+        {
+          "text": "高",
+          "annotation": "だか"
+        }
+      ],
+      "rank": 13978
+    },
+    {
+      "kanjiExpression": "割り高",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "高",
+          "annotation": "だか"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "comparatively high",
+        "fairly expensive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verhältnismäßiges Teuersein",
+        "vergleichsweise Hochpreisigkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сравнительно высокая цена (стоимость)",
+        "{～な} сравнительно дорогой"
+      ]
+    }
+  ]
+}

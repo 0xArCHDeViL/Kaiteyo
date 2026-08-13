@@ -1,0 +1,70 @@
+{
+  "id": "1613010",
+  "readings": [
+    {
+      "kanaExpression": "ウォールがい",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "ウオールがい"
+    },
+    {
+      "kanjiExpression": "ウォール街",
+      "furiganaExpression": [
+        {
+          "text": "ウォール"
+        },
+        {
+          "text": "街",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ウオール街",
+      "furiganaExpression": [
+        {
+          "text": "ウオール"
+        },
+        {
+          "text": "街",
+          "annotation": "がい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Wall Street"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Wall Street"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wall Street (Banken- und Börsenstraße in New York)",
+        "Wall Street (Geschäftsstraße in New York, USA)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "Уолл-стрит"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Wall Street"
+      ]
+    }
+  ]
+}

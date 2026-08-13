@@ -1,0 +1,70 @@
+{
+  "id": "1397770",
+  "readings": [
+    {
+      "kanaExpression": "そじょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "訴状",
+      "furiganaExpression": [
+        {
+          "text": "訴",
+          "annotation": "そ"
+        },
+        {
+          "text": "状",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "petition",
+        "complaint",
+        "(legal) brief"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} verzoekschrift",
+        "adres",
+        "petitionnement",
+        "rekest",
+        "smeekschrift",
+        "petitie",
+        "klachtschrift"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Klageschrift"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kurta"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[письменная] жалоба; петиция"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "demanda",
+        "escrito de demanda"
+      ]
+    }
+  ]
+}

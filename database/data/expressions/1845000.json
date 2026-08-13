@@ -1,0 +1,85 @@
+{
+  "id": "1845000",
+  "readings": [
+    {
+      "kanaExpression": "よびもの",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "呼び物",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "呼びもの",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "びもの"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "呼物",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よび"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main attraction",
+        "special feature",
+        "big draw"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "attractie",
+        "trekpleister",
+        "publiekstrekker",
+        "{Belg.N.} publiekslokker",
+        "{sportt.} ± koninginnennummer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptattraktion",
+        "Anziehungspunkt",
+        "Glanznummer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "аттракцион, гвоздь [программы]; (обр.) сенсация (о чём-л.)"
+      ]
+    }
+  ]
+}

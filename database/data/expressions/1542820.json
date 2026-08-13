@@ -1,0 +1,86 @@
+{
+  "id": "1542820",
+  "readings": [
+    {
+      "kanaExpression": "ゆうだち",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "夕立",
+      "furiganaExpression": [
+        {
+          "text": "夕",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "立",
+          "annotation": "だち"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "夕立ち",
+      "furiganaExpression": [
+        {
+          "text": "夕",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "立",
+          "annotation": "だ"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(sudden, heavy) shower (on a summer afternoon or evening)",
+        "evening shower"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(zomerse) onweersbui",
+        "donderbui"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "averse",
+        "orage (tombant le soir)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Regenschauer an einem Sommerabend",
+        "abendlicher Platzregen",
+        "Abendgewitter",
+        "Aufkommen von Wind oder Wellen am Abend"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "короткий ливень, проливной дождь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "chaparrón",
+        "aguacero",
+        "chubasco",
+        "lluvia repentina de la tarde"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1337060",
+  "readings": [
+    {
+      "kanaExpression": "じゅうしん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "銃身",
+      "furiganaExpression": [
+        {
+          "text": "銃",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "身",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gun barrel"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "loop van een vuurwapen",
+        "geweerloop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lauf",
+        "Gewehrlauf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ствол (стрелкового оружия)"
+      ]
+    }
+  ]
+}

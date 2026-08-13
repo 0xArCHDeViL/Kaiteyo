@@ -1,0 +1,96 @@
+{
+  "id": "1531100",
+  "readings": [
+    {
+      "kanaExpression": "ほこさき",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "矛先",
+      "furiganaExpression": [
+        {
+          "text": "矛",
+          "annotation": "ほこ"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "鉾先",
+      "furiganaExpression": [
+        {
+          "text": "鉾",
+          "annotation": "ほこ"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "ほこ先",
+      "furiganaExpression": [
+        {
+          "text": "ほこ"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "鋒",
+      "furiganaExpression": [
+        {
+          "text": "鋒",
+          "annotation": "ほこさき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "point of a spear",
+        "spearhead",
+        "focus (of one\u0027s attack, criticism, etc.)",
+        "aim",
+        "target",
+        "brunt",
+        "force (of an argument)",
+        "edge"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "diriger une attaque contre",
+        "pointe de fer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Speerspitze",
+        "scharfer Angriff",
+        "Angriffsziel",
+        "die Kraft eines Arguments"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) остриё пики",
+        "2) объект нападения",
+        "3) (перен. связ.) убедительность доводов в споре"
+      ]
+    }
+  ]
+}

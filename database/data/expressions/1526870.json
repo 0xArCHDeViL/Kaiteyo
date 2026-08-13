@@ -1,0 +1,96 @@
+{
+  "id": "1526870",
+  "readings": [
+    {
+      "kanaExpression": "まんちょう",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "みちしお"
+    },
+    {
+      "kanjiExpression": "満潮",
+      "furiganaExpression": [
+        {
+          "text": "満",
+          "annotation": "まん"
+        },
+        {
+          "text": "潮",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "満ち潮",
+      "furiganaExpression": [
+        {
+          "text": "満",
+          "annotation": "み"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "潮",
+          "annotation": "しお"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high tide",
+        "high water",
+        "full tide"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "marée haute"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flut",
+        "Hochflut"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "folyás",
+        "ömlés",
+        "kulminálás",
+        "tetőfok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[полный] прилив",
+        "полная вода, полный прилив; высшая точка прилива"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "flujo",
+        "corriente",
+        "pleamar",
+        "marea alta"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "flöda"
+      ]
+    }
+  ]
+}

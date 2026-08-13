@@ -1,0 +1,59 @@
+{
+  "id": "1449730",
+  "readings": [
+    {
+      "kanaExpression": "とうけいてき",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "統計的",
+      "furiganaExpression": [
+        {
+          "text": "統",
+          "annotation": "とう"
+        },
+        {
+          "text": "計",
+          "annotation": "けい"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "statistical"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "statistisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "statisztikai"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "статистический"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "statistisk"
+      ]
+    }
+  ]
+}

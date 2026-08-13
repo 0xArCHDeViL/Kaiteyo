@@ -1,0 +1,68 @@
+{
+  "id": "1281390",
+  "readings": [
+    {
+      "kanaExpression": "こうこう",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "航行",
+      "furiganaExpression": [
+        {
+          "text": "航",
+          "annotation": "こう"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cruise",
+        "navigation",
+        "sailing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "varen",
+        "per schip reizen",
+        "vaart",
+        "scheepvaart",
+        "navigatie",
+        "passage",
+        "scheepsreis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "navigieren",
+        "Navigation",
+        "Schifffahrt",
+        "Befahrbarkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tengeri utazás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "судоходство, навигация",
+        "{～する} плавать (на судне); совершать рейсы, ходить",
+        "{～の} судоходный"
+      ]
+    }
+  ]
+}

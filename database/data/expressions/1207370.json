@@ -1,0 +1,60 @@
+{
+  "id": "1207370",
+  "readings": [
+    {
+      "kanaExpression": "がくげき",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "楽劇",
+      "furiganaExpression": [
+        {
+          "text": "楽",
+          "annotation": "がく"
+        },
+        {
+          "text": "劇",
+          "annotation": "げき"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "musical play",
+        "opera"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "muziekdrama",
+        "opera"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Musikdrama",
+        "Oper"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "daljáték",
+        "opera",
+        "zenedráma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "музыкальная драма"
+      ]
+    }
+  ]
+}

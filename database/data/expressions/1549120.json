@@ -1,0 +1,123 @@
+{
+  "id": "1549120",
+  "readings": [
+    {
+      "kanaExpression": "らんよう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "乱用",
+      "furiganaExpression": [
+        {
+          "text": "乱",
+          "annotation": "らん"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 12768
+    },
+    {
+      "kanjiExpression": "濫用",
+      "furiganaExpression": [
+        {
+          "text": "濫",
+          "annotation": "らん"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 13054
+    },
+    {
+      "kanjiExpression": "らん用",
+      "furiganaExpression": [
+        {
+          "text": "らん"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "abuse",
+        "misuse",
+        "misappropriation",
+        "using to excess"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "misbruiken",
+        "verkeerd gebruiken",
+        "oneigenlijk",
+        "ongeoorloofd gebruik maken van",
+        "verkeerd toepassen",
+        "abuseren",
+        "misbruik",
+        "verkeerd",
+        "ongeoorloofd gebruik",
+        "verkeerde",
+        "onjuiste aanwending",
+        "verkeerde toepassing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "abus",
+        "détournement",
+        "mésusage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "missbrauchen",
+        "widerrechtlich verwenden",
+        "Missbrauch",
+        "widerrechtliche Verwendung",
+        "Abusus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "félrevezetés",
+        "jogtalanság",
+        "rongálás",
+        "szabálytalanság",
+        "szemfényvesztés",
+        "visszaélés",
+        "rossz felhasználás",
+        "elsikkasztás",
+        "hűtlen kezelés",
+        "sikkasztás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "злоупотребление",
+        "{～する} злоупотреблять (чем-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abuso"
+      ]
+    }
+  ]
+}

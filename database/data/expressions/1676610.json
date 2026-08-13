@@ -1,0 +1,43 @@
+{
+  "id": "1676610",
+  "readings": [
+    {
+      "kanaExpression": "よくご",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "浴後",
+      "furiganaExpression": [
+        {
+          "text": "浴",
+          "annotation": "よく"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "after bathing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nach dem Bade"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "после ванны, после купания"
+      ]
+    }
+  ]
+}

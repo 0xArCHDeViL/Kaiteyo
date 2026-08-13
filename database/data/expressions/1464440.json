@@ -1,0 +1,68 @@
+{
+  "id": "1464440",
+  "readings": [
+    {
+      "kanaExpression": "にっぽう",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "日報",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にっ"
+        },
+        {
+          "text": "報",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 10100
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "daily report"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dagelijkse berichten",
+        "verslaggeving",
+        "dagblad",
+        "dagelijks rapport",
+        "bulletin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "täglicher Bericht",
+        "Tageszeitung",
+        "Tagesblatt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "napi jelentés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) ежедневный вестник; [ежедневная] газета",
+        "2) ежедневное донесение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "informe diario"
+      ]
+    }
+  ]
+}

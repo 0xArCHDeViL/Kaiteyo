@@ -1,0 +1,100 @@
+{
+  "id": "1590040",
+  "readings": [
+    {
+      "kanaExpression": "かけ",
+      "rank": 6559
+    },
+    {
+      "kanjiExpression": "賭け",
+      "furiganaExpression": [
+        {
+          "text": "賭",
+          "annotation": "か"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 13683
+    },
+    {
+      "kanjiExpression": "賭",
+      "furiganaExpression": [
+        {
+          "text": "賭",
+          "annotation": "かけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bet",
+        "wager",
+        "stake",
+        "gamble"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "weddenschap",
+        "gok(je)",
+        "{w.g.} weddingschap",
+        "{spreekt.} wedje",
+        "{veroud.} wedspel",
+        "spel",
+        "gok",
+        "riskante zaak"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pari"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wette",
+        "Wetten",
+        "Spielen um Geld"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hazárdjáték"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) пари",
+        "{～をする} держать пари",
+        "2) (см.) かけもの【賭け物】"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "stava",
+        "kartanje",
+        "kockanje",
+        "špekuliranje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "apuesta",
+        "juego",
+        "jugada"
+      ]
+    }
+  ]
+}

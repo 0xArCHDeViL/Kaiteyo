@@ -1,0 +1,101 @@
+{
+  "id": "1519970",
+  "readings": [
+    {
+      "kanaExpression": "ふくらます",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "膨らます",
+      "furiganaExpression": [
+        {
+          "text": "膨",
+          "annotation": "ふく"
+        },
+        {
+          "text": "らます"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to swell",
+        "to expand",
+        "to inflate",
+        "to bulge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "doen zwellen",
+        "doen opzwellen",
+        "doen rijzen",
+        "opblazen",
+        "bol doen staan",
+        "doen opzetten",
+        "doen uitzetten",
+        "doen opbollen",
+        "doen oppuilen",
+        "doen bollen",
+        "vullen",
+        "opvullen",
+        "oppompen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grossir",
+        "gonfler",
+        "dilater",
+        "balonner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufblasen",
+        "ausbeulen",
+        "aufblähen",
+        "anschwellen",
+        "ausbauchen",
+        "aufquellen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "duzzaszt",
+        "kiemelkedik",
+        "megdagad",
+        "megduzzad",
+        "puffaszt",
+        "kibővít",
+        "elbizakodottá tesz",
+        "felfúj",
+        "felpuffaszt",
+        "kiduzzad",
+        "kihasasodik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "надувать (напр. шар, щёки)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inflar",
+        "hinchar",
+        "abultar"
+      ]
+    }
+  ]
+}

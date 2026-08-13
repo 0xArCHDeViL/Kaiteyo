@@ -1,0 +1,84 @@
+{
+  "id": "1281930",
+  "readings": [
+    {
+      "kanaExpression": "ぎょうじ",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "行事",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 3529
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "event",
+        "function"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "evenementen",
+        "activiteiten",
+        "plechtigheden",
+        "feestelijkheden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "évènement",
+        "fonction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ereignis",
+        "Fest",
+        "Veranstaltung",
+        "Begebenheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyűlés",
+        "összejövetel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обряд, торжество"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dogodek",
+        "prireditev"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "evento",
+        "función"
+      ]
+    }
+  ]
+}

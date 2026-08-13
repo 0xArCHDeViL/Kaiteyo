@@ -1,0 +1,97 @@
+{
+  "id": "1342720",
+  "readings": [
+    {
+      "kanaExpression": "はつもうで",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "初詣",
+      "furiganaExpression": [
+        {
+          "text": "初",
+          "annotation": "はつ"
+        },
+        {
+          "text": "詣",
+          "annotation": "もうで"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "初詣で",
+      "furiganaExpression": [
+        {
+          "text": "初",
+          "annotation": "はつ"
+        },
+        {
+          "text": "詣",
+          "annotation": "もう"
+        },
+        {
+          "text": "で"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "初もうで",
+      "furiganaExpression": [
+        {
+          "text": "初",
+          "annotation": "はつ"
+        },
+        {
+          "text": "もうで"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first shrine visit of the New Year"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerste tempelbezoek van het nieuwe jaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "première visite au temple pour la nouvelle année"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erster Tempel- od. Schreinbesuch zu Neujahr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "первое посещение храма в новом году",
+        "(см.) はつまいり"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prvi obisk templja po novem letu"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "primera visita al templo de Nuevo Año"
+      ]
+    }
+  ]
+}

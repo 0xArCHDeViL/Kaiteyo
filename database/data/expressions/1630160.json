@@ -1,0 +1,69 @@
+{
+  "id": "1630160",
+  "readings": [
+    {
+      "kanaExpression": "せりあう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "競り合う",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "せ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "競合う",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "せり"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to struggle for",
+        "to compete with",
+        "to vie with"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "konkurrieren",
+        "sich überbieten",
+        "wetteifern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "состязаться, соперничать; конкурировать"
+      ]
+    }
+  ]
+}

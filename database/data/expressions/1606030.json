@@ -1,0 +1,70 @@
+{
+  "id": "1606030",
+  "readings": [
+    {
+      "kanaExpression": "よみせ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "夜店",
+      "furiganaExpression": [
+        {
+          "text": "夜",
+          "annotation": "よ"
+        },
+        {
+          "text": "店",
+          "annotation": "みせ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "夜見世",
+      "furiganaExpression": [
+        {
+          "text": "夜",
+          "annotation": "よ"
+        },
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "世",
+          "annotation": "せ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "night stall",
+        "night shop",
+        "night fair"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "avondkraam",
+        "avondstalletje",
+        "avondmarkt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkaufsstand an einer nächtlichen Straße"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вечерний [уличный] ларёк; ночной базар"
+      ]
+    }
+  ]
+}

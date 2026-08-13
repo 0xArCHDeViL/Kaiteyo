@@ -1,0 +1,96 @@
+{
+  "id": "1303560",
+  "readings": [
+    {
+      "kanaExpression": "さんだん",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "散弾",
+      "furiganaExpression": [
+        {
+          "text": "散",
+          "annotation": "さん"
+        },
+        {
+          "text": "弾",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "霰弾",
+      "furiganaExpression": [
+        {
+          "text": "霰",
+          "annotation": "さん"
+        },
+        {
+          "text": "弾",
+          "annotation": "だん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shot",
+        "buckshot"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hagel",
+        "kartets",
+        "schroot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schrot"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átszőtt",
+        "dobótávolság",
+        "egy korty pálinka",
+        "egy kupica pálinka",
+        "fellövés",
+        "hajt",
+        "kilök",
+        "kilövell",
+        "lő",
+        "lövész",
+        "lövő",
+        "más színnel átszőtt",
+        "súlygolyó",
+        "száguld",
+        "színét változtató",
+        "színjátszó",
+        "vadászik",
+        "ágyúgolyó",
+        "forgat",
+        "injekció"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шрапнель, картечь; дробь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "perdigonada"
+      ]
+    }
+  ]
+}

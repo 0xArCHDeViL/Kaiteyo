@@ -1,0 +1,110 @@
+{
+  "id": "1002590",
+  "readings": [
+    {
+      "kanaExpression": "おとうさん",
+      "rank": 18500
+    },
+    {
+      "kanaExpression": "おとっさん"
+    },
+    {
+      "kanjiExpression": "お父さん",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "父",
+          "annotation": "とう"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "rank": 3492
+    },
+    {
+      "kanjiExpression": "御父さん",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "父",
+          "annotation": "とう"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "father",
+        "dad",
+        "papa",
+        "pa",
+        "pop",
+        "daddy",
+        "dada",
+        "husband",
+        "you (of an elderly person older than the speaker)",
+        "he",
+        "him"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vader",
+        "pa",
+        "papa {honorifieke term (sonkeigo 尊敬語)}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "père",
+        "papa"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vater (höfliche Anrede des eigenen Vaters od. Bez. des Vater jmd. anderes)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "atya",
+        "páter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) отец, папа",
+        "2) ваш (его) отец"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "oče",
+        "{naziv za naslavljanje, ogovarjanje lastnega očeta}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "padre"
+      ]
+    }
+  ]
+}

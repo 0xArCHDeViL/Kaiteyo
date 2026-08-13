@@ -1,0 +1,58 @@
+{
+  "id": "1345520",
+  "readings": [
+    {
+      "kanaExpression": "じょばん",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "序盤",
+      "furiganaExpression": [
+        {
+          "text": "序",
+          "annotation": "じょ"
+        },
+        {
+          "text": "盤",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 12162
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "opening (in a game of go, chess, etc.)",
+        "early stages",
+        "initial phase",
+        "outset"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{go",
+        "shōgi} beginspel",
+        "opening",
+        "openingszetten",
+        "beginfase",
+        "beginstadium",
+        "aanvangsstadium"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eröffnung (eines Spieles)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "начало в игре го"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1407530",
+  "readings": [
+    {
+      "kanaExpression": "たき",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "多岐",
+      "furiganaExpression": [
+        {
+          "text": "多",
+          "annotation": "た"
+        },
+        {
+          "text": "岐",
+          "annotation": "き"
+        }
+      ],
+      "rank": 10101
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "digression",
+        "many divergences"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vele vertakkingen (van een weg)",
+        "{fig.} veelzijdigheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Komplexität",
+        "die vielen Verzweigungen eines Weges"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "digresszió"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) разветвление дороги",
+        "2) (перен.) многообразие, множество направлений"
+      ]
+    }
+  ]
+}

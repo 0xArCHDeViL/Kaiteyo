@@ -1,0 +1,71 @@
+{
+  "id": "1735720",
+  "readings": [
+    {
+      "kanaExpression": "やくまわり",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "役回り",
+      "furiganaExpression": [
+        {
+          "text": "役",
+          "annotation": "やく"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "役まわり",
+      "furiganaExpression": [
+        {
+          "text": "役",
+          "annotation": "やく"
+        },
+        {
+          "text": "まわり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "role",
+        "part",
+        "duty"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zugewiesene Rolle",
+        "Rollenzuweisung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feladat",
+        "kötelesség",
+        "szerep",
+        "teendő",
+        "adó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обязанность, дело"
+      ]
+    }
+  ]
+}

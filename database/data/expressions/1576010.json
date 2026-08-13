@@ -1,0 +1,66 @@
+{
+  "id": "1576010",
+  "readings": [
+    {
+      "kanaExpression": "いっこじん",
+      "rank": 28000
+    },
+    {
+      "kanaExpression": "いちこじん"
+    },
+    {
+      "kanjiExpression": "一個人",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "個",
+          "annotation": "こ"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "private person",
+        "individual"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Individuum",
+        "eine Privatperson"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "индивидуум; частное лицо",
+        "{～の} индивидуальный; частный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "soldado raso",
+        "individual"
+      ]
+    }
+  ]
+}

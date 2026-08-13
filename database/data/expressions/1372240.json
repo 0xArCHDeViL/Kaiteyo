@@ -1,0 +1,52 @@
+{
+  "id": "1372240",
+  "readings": [
+    {
+      "kanaExpression": "すいりゅう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "水流",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water current"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stroming van het water",
+        "waterstroom",
+        "waterloop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Strömung",
+        "Fluss"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[водный] поток; течение [воды]"
+      ]
+    }
+  ]
+}

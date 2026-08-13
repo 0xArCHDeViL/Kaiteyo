@@ -1,0 +1,82 @@
+{
+  "id": "1584640",
+  "readings": [
+    {
+      "kanaExpression": "あさって",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "みょうごにち",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "明後日",
+      "furiganaExpression": [
+        {
+          "text": "明後日",
+          "annotation": "あさって"
+        }
+      ],
+      "rank": 11285
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "day after tomorrow",
+        "wrong (e.g. direction)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overmorgen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "après-demain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "übermorgen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "holnapután"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "послезавтра",
+        "1. послезавтра, через два дня",
+        "2. послезавтрашний день"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pojutrišnjem"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pasado mañana"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "övermorgon"
+      ]
+    }
+  ]
+}

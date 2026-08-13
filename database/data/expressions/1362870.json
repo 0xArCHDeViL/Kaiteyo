@@ -1,0 +1,60 @@
+{
+  "id": "1362870",
+  "readings": [
+    {
+      "kanaExpression": "もうしあわせる",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "申し合わせる",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "もう"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせる"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to arrange",
+        "to agree (on)",
+        "to prearrange"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich verabreden",
+        "übereinkommen",
+        "etw. abmachen",
+        "absprechen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megegyezik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уговариваться, сговариваться, уславливаться"
+      ]
+    }
+  ]
+}

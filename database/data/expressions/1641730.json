@@ -1,0 +1,51 @@
+{
+  "id": "1641730",
+  "readings": [
+    {
+      "kanaExpression": "みっし",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "密使",
+      "furiganaExpression": [
+        {
+          "text": "密",
+          "annotation": "みっ"
+        },
+        {
+          "text": "使",
+          "annotation": "し"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "secret messenger"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geheim gezant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geheimer Bote",
+        "Geheimbote",
+        "Emissär"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тайный посланец; агент секретной службы"
+      ]
+    }
+  ]
+}

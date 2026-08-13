@@ -1,0 +1,44 @@
+{
+  "id": "1283360",
+  "readings": [
+    {
+      "kanaExpression": "こうきのう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "高機能",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "能",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high-functioning",
+        "high-performance",
+        "sophisticated"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hohe Funktionalität",
+        "hochfunktional"
+      ]
+    }
+  ]
+}

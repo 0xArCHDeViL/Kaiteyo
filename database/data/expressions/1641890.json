@@ -1,0 +1,37 @@
+{
+  "id": "1641890",
+  "readings": [
+    {
+      "kanaExpression": "もどし",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "戻し",
+      "furiganaExpression": [
+        {
+          "text": "戻",
+          "annotation": "もど"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "returning",
+        "giving back"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возврат, возвращение"
+      ]
+    }
+  ]
+}

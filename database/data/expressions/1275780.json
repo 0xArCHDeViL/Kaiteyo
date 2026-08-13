@@ -1,0 +1,49 @@
+{
+  "id": "1275780",
+  "readings": [
+    {
+      "kanaExpression": "くちコミ",
+      "rank": 25000
+    },
+    {
+      "kanaExpression": "クチコミ"
+    },
+    {
+      "kanjiExpression": "口コミ",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "コミ"
+        }
+      ],
+      "rank": 9339
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "word of mouth",
+        "comments written online (about a product, service, etc.)",
+        "online reviews"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flüsterpropaganda",
+        "Mundpropaganda"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "передача (распространение) из уст в уста",
+        "{～で} по слухам; со слов"
+      ]
+    }
+  ]
+}

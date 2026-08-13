@@ -1,0 +1,70 @@
+{
+  "id": "1538140",
+  "readings": [
+    {
+      "kanaExpression": "やくじょう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "約定",
+      "furiganaExpression": [
+        {
+          "text": "約",
+          "annotation": "やく"
+        },
+        {
+          "text": "定",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "agreement",
+        "stipulation",
+        "contract"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "toezegging",
+        "belofte",
+        "overeenkomst",
+        "afspraak",
+        "akkoord",
+        "overeenstemming",
+        "contract",
+        "verbintenis",
+        "schikking",
+        "deal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abkommen",
+        "Vertrag",
+        "Übereinkunft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megegyezés",
+        "eljegyzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соглашение, договор, контракт, условие",
+        "{～する} договориться, заключить договор (контракт)"
+      ]
+    }
+  ]
+}

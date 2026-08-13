@@ -1,0 +1,95 @@
+{
+  "id": "1591790",
+  "readings": [
+    {
+      "kanaExpression": "きりかぶ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "切り株",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "株",
+          "annotation": "かぶ"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "切株",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "株",
+          "annotation": "かぶ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stump",
+        "stubble"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stronk",
+        "stomp",
+        "stoppel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "souche",
+        "tronc"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stumpf",
+        "Baumstumpf",
+        "Strunk",
+        "Baumstrunk",
+        "Stummel",
+        "Stoppeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csikk",
+        "tönk",
+        "törzs",
+        "tuskó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пень; жнивьё, стерня"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tocón"
+      ]
+    }
+  ]
+}

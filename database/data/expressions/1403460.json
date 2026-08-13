@@ -1,0 +1,89 @@
+{
+  "id": "1403460",
+  "readings": [
+    {
+      "kanaExpression": "ぞうお",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "憎悪",
+      "furiganaExpression": [
+        {
+          "text": "憎",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "悪",
+          "annotation": "お"
+        }
+      ],
+      "rank": 12646
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hatred",
+        "abhorrence",
+        "loathing",
+        "detestation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "haten",
+        "verafschuwen",
+        "verfoeien",
+        "een afkeer hebben van",
+        "gruwelen van",
+        "haat",
+        "weerzin",
+        "afschuw",
+        "afgrijzen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "haine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hassen",
+        "Abscheu empfinden",
+        "Hass",
+        "Abscheu"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "utálat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ненависть; отвращение",
+        "{～する} ненавидеть, питать ненависть (отвращение)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "odio",
+        "saña"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hat"
+      ]
+    }
+  ]
+}

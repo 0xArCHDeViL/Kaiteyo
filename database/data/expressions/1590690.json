@@ -1,0 +1,82 @@
+{
+  "id": "1590690",
+  "readings": [
+    {
+      "kanaExpression": "かるがる",
+      "rank": 25500
+    },
+    {
+      "kanaExpression": "かろがろ"
+    },
+    {
+      "kanjiExpression": "軽々",
+      "furiganaExpression": [
+        {
+          "text": "軽",
+          "annotation": "かる"
+        },
+        {
+          "text": "々",
+          "annotation": "がる"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "軽軽",
+      "furiganaExpression": [
+        {
+          "text": "軽",
+          "annotation": "かる"
+        },
+        {
+          "text": "軽",
+          "annotation": "がる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lightly",
+        "easily",
+        "carelessly"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leicht",
+        "ohne Anstrengung",
+        "mit Leichtigkeit",
+        "einfach"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "könnyedén",
+        "felszínesen",
+        "fürgén",
+        "könnyelműen",
+        "gondatlanul"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～と} легко, без [всяких] усилий"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fácilmente",
+        "ligeramente",
+        "frívolamente"
+      ]
+    }
+  ]
+}

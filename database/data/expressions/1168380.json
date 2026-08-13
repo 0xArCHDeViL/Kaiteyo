@@ -1,0 +1,72 @@
+{
+  "id": "1168380",
+  "readings": [
+    {
+      "kanaExpression": "いんしょう",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "印章",
+      "furiganaExpression": [
+        {
+          "text": "印",
+          "annotation": "いん"
+        },
+        {
+          "text": "章",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stamp",
+        "seal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zegel",
+        "stempel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Siegel",
+        "Petschaft",
+        "Stempel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bélyegző",
+        "fejgerenda",
+        "forrasztás",
+        "lezárás",
+        "papírpecsét",
+        "szigetelés",
+        "vízzárás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "печать, штемпель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estampilla",
+        "sello"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "1289480",
+  "readings": [
+    {
+      "kanaExpression": "こんばんは",
+      "rank": 5590
+    },
+    {
+      "kanaExpression": "こんばんわ",
+      "rank": 12935
+    },
+    {
+      "kanjiExpression": "今晩は",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "こん"
+        },
+        {
+          "text": "晩",
+          "annotation": "ばん"
+        },
+        {
+          "text": "は"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "good evening"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "goedenavond",
+        "goeienavond",
+        "{inform.} genavond",
+        "genavend"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bonsoir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Guten Abend!"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "добрый вечер"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "buenas tardes"
+      ]
+    }
+  ]
+}

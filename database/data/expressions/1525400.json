@@ -1,0 +1,43 @@
+{
+  "id": "1525400",
+  "readings": [
+    {
+      "kanaExpression": "まつじ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "末寺",
+      "furiganaExpression": [
+        {
+          "text": "末",
+          "annotation": "まつ"
+        },
+        {
+          "text": "寺",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "branch temple"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zweigtempel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(буд.) местное отделение храма"
+      ]
+    }
+  ]
+}

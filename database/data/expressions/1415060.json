@@ -1,0 +1,90 @@
+{
+  "id": "1415060",
+  "readings": [
+    {
+      "kanaExpression": "たいま",
+      "rank": 20000
+    },
+    {
+      "kanaExpression": "おおあさ"
+    },
+    {
+      "kanjiExpression": "大麻",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "麻",
+          "annotation": "ま"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hemp",
+        "cannabis",
+        "marijuana",
+        "pot",
+        "hashish",
+        "Shinto paper offerings"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} hennep",
+        "Cannabis sativa",
+        "{gew.} kemp",
+        "{stofn.} hennep",
+        "cannabis",
+        "hasj",
+        "hasjiesj",
+        "wiet",
+        "weed",
+        "marihuana",
+        "stuff",
+        "{gew.} kennep"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "offrandes shintoïste de papier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Marihuana",
+        "getrocknete Hanfblätter und -stengel",
+        "Haschisch",
+        "Hasch",
+        "Hanfharz",
+        "Hanf",
+        "Cannabis sativa",
+        "vom Großschrein von Ise herausgegebenes Amulett",
+        "(höfl. für)Gohei (geweihte, eingeschnittene und gefaltete Papierstreifen als Symbol für Heiligkeit)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kender"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) бумажный амулет из храмов Исэ",
+        "2) (синт.) большая нуса",
+        "3) конопля, Cannabis sativa (L.)"
+      ]
+    }
+  ]
+}

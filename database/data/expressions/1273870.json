@@ -1,0 +1,54 @@
+{
+  "id": "1273870",
+  "readings": [
+    {
+      "kanaExpression": "こうしゃさい",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "公社債",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "債",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public bonds"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Anleihen und Firmen-Schuldverschreibungen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 公債と社債) облигации займов, выпущенных как государством, так и общественными и частными предприятиями"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bonos públicos",
+        "títulos de deuda pública"
+      ]
+    }
+  ]
+}

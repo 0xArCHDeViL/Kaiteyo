@@ -1,0 +1,70 @@
+{
+  "id": "1455480",
+  "readings": [
+    {
+      "kanaExpression": "とくしか",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "篤志家",
+      "furiganaExpression": [
+        {
+          "text": "篤",
+          "annotation": "とく"
+        },
+        {
+          "text": "志",
+          "annotation": "し"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "charitable person",
+        "philanthropist",
+        "volunteer",
+        "supporter"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bénévol",
+        "bienfaiteur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eifriger Mensch",
+        "Unterstützer",
+        "wohltätiger Mensch",
+        "gütiger Mensch",
+        "Philanthrop"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "önként jelentkező"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) доброволец",
+        "2) покровитель",
+        "1) благотворитель",
+        "2) желающий, добровольно вызвавшийся (сделать что-л.), доброволец"
+      ]
+    }
+  ]
+}

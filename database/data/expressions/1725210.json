@@ -1,0 +1,38 @@
+{
+  "id": "1725210",
+  "readings": [
+    {
+      "kanaExpression": "ばんき",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "晩期",
+      "furiganaExpression": [
+        {
+          "text": "晩",
+          "annotation": "ばん"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the last stage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letzte Periode",
+        "Lebensabend"
+      ]
+    }
+  ]
+}

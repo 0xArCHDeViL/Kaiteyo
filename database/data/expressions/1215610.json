@@ -1,0 +1,61 @@
+{
+  "id": "1215610",
+  "readings": [
+    {
+      "kanaExpression": "あいだじゅう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "間中",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "あいだ"
+        },
+        {
+          "text": "中",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "間じゅう",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "あいだ"
+        },
+        {
+          "text": "じゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "during"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "während"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közben"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "durante"
+      ]
+    }
+  ]
+}

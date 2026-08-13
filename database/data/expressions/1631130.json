@@ -1,0 +1,68 @@
+{
+  "id": "1631130",
+  "readings": [
+    {
+      "kanaExpression": "まじり",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "交じり",
+      "furiganaExpression": [
+        {
+          "text": "交",
+          "annotation": "ま"
+        },
+        {
+          "text": "じり"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "混じり",
+      "furiganaExpression": [
+        {
+          "text": "混",
+          "annotation": "ま"
+        },
+        {
+          "text": "じり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mixed with",
+        "mingled with",
+        "interspersed with",
+        "dashed with",
+        "sprinkled with"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vermischung",
+        "Verschnitt",
+        "stark verdünnter Reisbrei"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megzavarodott"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "смесь; примесь; засорение",
+        "{～のある} смешанный; с примесью; засорённый",
+        "{～のない} чистый, беспримесный"
+      ]
+    }
+  ]
+}

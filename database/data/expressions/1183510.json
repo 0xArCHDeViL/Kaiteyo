@@ -1,0 +1,81 @@
+{
+  "id": "1183510",
+  "readings": [
+    {
+      "kanaExpression": "おんど",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "温度",
+      "furiganaExpression": [
+        {
+          "text": "温",
+          "annotation": "おん"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 3102
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "temperature"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "temperatuur",
+        "warmtegraad"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "température"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Temperatur",
+        "Wärmegrad"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hőmérséklet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "температура"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "temperatura"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "temperatura"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "temperatur"
+      ]
+    }
+  ]
+}

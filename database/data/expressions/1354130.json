@@ -1,0 +1,62 @@
+{
+  "id": "1354130",
+  "readings": [
+    {
+      "kanaExpression": "うわぜい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "上背",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "うわ"
+        },
+        {
+          "text": "背",
+          "annotation": "ぜい"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stature",
+        "height"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lengte",
+        "lichaamslengte",
+        "gestalte",
+        "postuur",
+        "statuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Körpergröße"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szellemi kaliber",
+        "hegy",
+        "magaslat"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kroppslängd"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "1570370",
+  "readings": [
+    {
+      "kanaExpression": "くじびき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "くじ引き",
+      "furiganaExpression": [
+        {
+          "text": "くじ"
+        },
+        {
+          "text": "引",
+          "annotation": "び"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "籤引き",
+      "furiganaExpression": [
+        {
+          "text": "籤",
+          "annotation": "くじ"
+        },
+        {
+          "text": "引",
+          "annotation": "び"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "籤引",
+      "furiganaExpression": [
+        {
+          "text": "籤",
+          "annotation": "くじ"
+        },
+        {
+          "text": "引",
+          "annotation": "びき"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lottery",
+        "drawn lot"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "loting",
+        "uitloting",
+        "verloting",
+        "het strootjes",
+        "lootjes trekken",
+        "± het bamzaaien",
+        "{w.g.} loterij"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lot",
+        "lotterie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verlosung",
+        "Lotterie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lottó",
+        "lutri"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бросание жребия",
+        "{～する} тянуть (бросать) жребий"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "žrebanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sorteo",
+        "rifa",
+        "lotería"
+      ]
+    }
+  ]
+}

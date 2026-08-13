@@ -1,0 +1,71 @@
+{
+  "id": "1287020",
+  "readings": [
+    {
+      "kanaExpression": "こくほう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "国宝",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "宝",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "national treasure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nationale schat",
+        "rijksschat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "trésor public"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nationaler Schatz",
+        "Staatsschatz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "национальное сокровище (достояние, наследие)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nacionalno",
+        "ljudsko",
+        "narodno bogastvo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tesoro nacional"
+      ]
+    }
+  ]
+}

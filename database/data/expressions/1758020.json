@@ -1,0 +1,44 @@
+{
+  "id": "1758020",
+  "readings": [
+    {
+      "kanaExpression": "となりぐみ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "隣組",
+      "furiganaExpression": [
+        {
+          "text": "隣",
+          "annotation": "となり"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐみ"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "neighborhood association (established in Japan in 1940)",
+        "neighbourhood association"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachbarschaftsvereinigung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "товарищество соседей (объединение жителей соседних домов)"
+      ]
+    }
+  ]
+}

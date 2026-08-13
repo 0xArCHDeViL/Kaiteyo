@@ -1,0 +1,63 @@
+{
+  "id": "1547140",
+  "readings": [
+    {
+      "kanaExpression": "ようさん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "養蚕",
+      "furiganaExpression": [
+        {
+          "text": "養",
+          "annotation": "よう"
+        },
+        {
+          "text": "蚕",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sericulture",
+        "silkworm culture",
+        "silkworm raising"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zijderupsteelt",
+        "zijdecultuur",
+        "zijdeteelt",
+        "sericultuur",
+        "sericicultuur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "élevage de ver à soie",
+        "sériciculture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seidenraupenzucht",
+        "Seidenzucht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шелководство"
+      ]
+    }
+  ]
+}

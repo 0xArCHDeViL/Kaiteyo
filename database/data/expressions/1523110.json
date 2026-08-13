@@ -1,0 +1,77 @@
+{
+  "id": "1523110",
+  "readings": [
+    {
+      "kanaExpression": "ほんじつ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "本日",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "日",
+          "annotation": "じつ"
+        }
+      ],
+      "rank": 1028
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "today",
+        "this day"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vandaag",
+        "heden",
+        "deze dag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aujourd\u0027hui"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heute",
+        "der heutige Tag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) сего числа, сегодня"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "danes (formalno)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hoy"
+      ]
+    }
+  ]
+}

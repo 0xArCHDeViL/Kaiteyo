@@ -1,0 +1,60 @@
+{
+  "id": "1720250",
+  "readings": [
+    {
+      "kanaExpression": "しんでん",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "あらた",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "新田",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "田",
+          "annotation": "でん"
+        }
+      ],
+      "rank": 10738
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "new rice field",
+        "newly developed rice field",
+        "wasteland or marshland newly reclaimed as a rice field (Edo period)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nieuw ontgonnen rijstveld",
+        "{Edo-gesch.} nieuw ontgonnen stuk land",
+        "grond",
+        "Xīntián"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arata",
+        "neu urbargemachtes Reisfeld"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "новое рисовое поле (возделанное на целине)",
+        "целина, возделанная под рисовое поле"
+      ]
+    }
+  ]
+}

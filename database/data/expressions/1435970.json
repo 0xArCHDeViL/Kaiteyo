@@ -1,0 +1,54 @@
+{
+  "id": "1435970",
+  "readings": [
+    {
+      "kanaExpression": "ていと",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "帝都",
+      "furiganaExpression": [
+        {
+          "text": "帝",
+          "annotation": "てい"
+        },
+        {
+          "text": "都",
+          "annotation": "と"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "imperial capital"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keizerstad",
+        "keizerlijke hoofdstad",
+        "keizerlijke residentie",
+        "residentiestad",
+        "hofstad"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kaiserstadt",
+        "kaiserliche Residenzstadt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "столица империи (о Токио)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "1594990",
+  "readings": [
+    {
+      "kanaExpression": "しょうとう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "消灯",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "灯",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "消燈",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "燈",
+          "annotation": "とう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "putting out the lights",
+        "turning off the lights"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het licht uitdoen",
+        "de lampen doven"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "extinction (lumières)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "löschen",
+        "ausschalten",
+        "Löschen",
+        "Ausschalten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eloltás",
+        "kialvás",
+        "kihalás",
+        "kiirtás",
+        "kioltás",
+        "semmivé válás",
+        "kikapcsol"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тушение (гашение, выключение) света",
+        "{～する}, тушить (гасить, выключать) свет"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "apagado de luces"
+      ]
+    }
+  ]
+}

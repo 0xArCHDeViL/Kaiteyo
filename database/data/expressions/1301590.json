@@ -1,0 +1,66 @@
+{
+  "id": "1301590",
+  "readings": [
+    {
+      "kanaExpression": "さんもん",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "三文",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "文",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paltry amount of money",
+        "cheapness",
+        "worthlessness",
+        "three one-mon coins"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "drei Mon",
+        "drei Heller",
+        "niedriger Preis",
+        "geringer Wert",
+        "Groschen…",
+        "Schund…",
+        "billig",
+        "wertlos"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fitying"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) грош (ист. одна десятая сэна)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "de tres al cuarto",
+        "cutre"
+      ]
+    }
+  ]
+}

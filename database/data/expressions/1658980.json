@@ -1,0 +1,61 @@
+{
+  "id": "1658980",
+  "readings": [
+    {
+      "kanaExpression": "とりくち",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "取り口",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "口",
+          "annotation": "くち"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "取口",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "口",
+          "annotation": "くち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "technique",
+        "techniques"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Griff",
+        "Griffweise"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стиль [спортивной] борьбы"
+      ]
+    }
+  ]
+}

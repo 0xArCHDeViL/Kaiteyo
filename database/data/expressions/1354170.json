@@ -1,0 +1,49 @@
+{
+  "id": "1354170",
+  "readings": [
+    {
+      "kanaExpression": "かみはんき",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "上半期",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "かみ"
+        },
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first half of the year",
+        "first half of the fiscal year"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erstes Halbjahr",
+        "erste Hälfte des Jahres"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "первое полугодие"
+      ]
+    }
+  ]
+}

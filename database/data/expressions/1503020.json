@@ -1,0 +1,69 @@
+{
+  "id": "1503020",
+  "readings": [
+    {
+      "kanaExpression": "わけあう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "分け合う",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to share"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "delen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "etw. mit jmdm. teilen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "osztozik",
+        "része van",
+        "részesedik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "делиться (с кем-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compartir"
+      ]
+    }
+  ]
+}

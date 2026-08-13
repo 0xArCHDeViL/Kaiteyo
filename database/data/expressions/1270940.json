@@ -1,0 +1,69 @@
+{
+  "id": "1270940",
+  "readings": [
+    {
+      "kanaExpression": "かたりつぐ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "語り継ぐ",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "かた"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "継",
+          "annotation": "つ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "語りつぐ",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "かた"
+        },
+        {
+          "text": "りつぐ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to pass down (a story) from generation to generation",
+        "to hand down"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mündlich überliefern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átörökít",
+        "átvisz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "передавать из рода в род (сказание)"
+      ]
+    }
+  ]
+}

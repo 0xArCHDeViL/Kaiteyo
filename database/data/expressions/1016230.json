@@ -1,0 +1,49 @@
+{
+  "id": "1016230",
+  "readings": [
+    {
+      "kanaExpression": "アスロック",
+      "rank": 55000
+    },
+    {
+      "kanjiExpression": "ＡＳＲＯＣ",
+      "furiganaExpression": [
+        {
+          "text": "Ａ",
+          "annotation": "ア"
+        },
+        {
+          "text": "Ｓ",
+          "annotation": "ス"
+        },
+        {
+          "text": "Ｒ",
+          "annotation": "ロ"
+        },
+        {
+          "text": "Ｏ",
+          "annotation": "ッ"
+        },
+        {
+          "text": "Ｃ",
+          "annotation": "ク"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Anti-Submarine ROCket",
+        "ASROC"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anti-U-Boot-Rakete"
+      ]
+    }
+  ]
+}

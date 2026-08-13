@@ -1,0 +1,117 @@
+{
+  "id": "1483940",
+  "readings": [
+    {
+      "kanaExpression": "ひふか",
+      "rank": 26500
+    },
+    {
+      "kanaExpression": "ひフか"
+    },
+    {
+      "kanaExpression": "ヒフか"
+    },
+    {
+      "kanjiExpression": "皮膚科",
+      "furiganaExpression": [
+        {
+          "text": "皮",
+          "annotation": "ひ"
+        },
+        {
+          "text": "膚",
+          "annotation": "ふ"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "皮フ科",
+      "furiganaExpression": [
+        {
+          "text": "皮",
+          "annotation": "ひ"
+        },
+        {
+          "text": "フ"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "皮ふ科",
+      "furiganaExpression": [
+        {
+          "text": "皮",
+          "annotation": "ひ"
+        },
+        {
+          "text": "ふ"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "ヒフ科",
+      "furiganaExpression": [
+        {
+          "text": "ヒフ"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dermatology"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} dermatologie",
+        "leer der huidziekten",
+        "afdeling Dermatologie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dermatologische Abteilung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дерматология (как предмет преподавания)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dermatología"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "dermatologi"
+      ]
+    }
+  ]
+}

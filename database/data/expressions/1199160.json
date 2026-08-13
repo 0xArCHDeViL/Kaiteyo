@@ -1,0 +1,91 @@
+{
+  "id": "1199160",
+  "readings": [
+    {
+      "kanaExpression": "かいとう",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "解答",
+      "furiganaExpression": [
+        {
+          "text": "解",
+          "annotation": "かい"
+        },
+        {
+          "text": "答",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 5721
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "answer",
+        "solution"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oplossen",
+        "het juiste antwoord geven",
+        "oplossing",
+        "juiste antwoorden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "réponse",
+        "solution"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lösen",
+        "auflösen",
+        "antworten",
+        "Lösung",
+        "Auflösung",
+        "Antwort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felelet",
+        "megoldás",
+        "válasz",
+        "feloldás",
+        "megfejtés",
+        "oldat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "решение (задачи); ответ (на экзаменационный и т. п. вопрос)",
+        "{～[を]する} решить (задачу); ответить, дать ответ"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odgovor",
+        "rešitev"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "respuesta",
+        "solución"
+      ]
+    }
+  ]
+}

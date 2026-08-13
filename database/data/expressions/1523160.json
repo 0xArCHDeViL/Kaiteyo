@@ -1,0 +1,57 @@
+{
+  "id": "1523160",
+  "readings": [
+    {
+      "kanaExpression": "ほんぶたい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "本舞台",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "舞",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "台",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main stage",
+        "public place"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptbühne (zwischen den beiden Frontpfeilern)",
+        "Öffentlichkeit",
+        "öffentlicher Ort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közterület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ほんぶたい",
+        "основная сцена"
+      ]
+    }
+  ]
+}

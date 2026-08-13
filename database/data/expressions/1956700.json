@@ -1,0 +1,86 @@
+{
+  "id": "1956700",
+  "readings": [
+    {
+      "kanaExpression": "つち",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "槌",
+      "furiganaExpression": [
+        {
+          "text": "槌",
+          "annotation": "つち"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "鎚",
+      "furiganaExpression": [
+        {
+          "text": "鎚",
+          "annotation": "つち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "椎",
+      "furiganaExpression": [
+        {
+          "text": "椎",
+          "annotation": "つち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hammer",
+        "mallet",
+        "sledgehammer",
+        "gavel"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hamer",
+        "moker"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hammer",
+        "Schlegel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kakas",
+        "kalapács",
+        "kalapácscsont",
+        "pöröly",
+        "sulyok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "молот, молоток"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "martillo",
+        "mazo",
+        "\"tsuchi\": maza de combate (instrumento de artes marciales)"
+      ]
+    }
+  ]
+}

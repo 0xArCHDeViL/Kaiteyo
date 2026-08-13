@@ -1,0 +1,82 @@
+{
+  "id": "1362530",
+  "readings": [
+    {
+      "kanaExpression": "しんりん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "森林",
+      "furiganaExpression": [
+        {
+          "text": "森",
+          "annotation": "しん"
+        },
+        {
+          "text": "林",
+          "annotation": "りん"
+        }
+      ],
+      "rank": 5300
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "forest",
+        "woods"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "woud",
+        "bos",
+        "{verzameln.} hout",
+        "{in aardr. namen} loo"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "forêt",
+        "bois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wald",
+        "Forst"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erdő",
+        "erdőség",
+        "liget"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лес",
+        "{～[の]} лесной"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "gozdovi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bosque"
+      ]
+    }
+  ]
+}

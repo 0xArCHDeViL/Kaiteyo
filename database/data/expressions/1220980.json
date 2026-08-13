@@ -1,0 +1,70 @@
+{
+  "id": "1220980",
+  "readings": [
+    {
+      "kanaExpression": "きしゅ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "機種",
+      "furiganaExpression": [
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "種",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 4021
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "model (of machine, device)",
+        "model of aircraft",
+        "type of aircraft"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vliegtuigtype",
+        "vliegtuigmodel",
+        "machinetype",
+        "machinemodel",
+        "type",
+        "model van een toestel",
+        "machine",
+        "computer enz."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Typ",
+        "Bauart",
+        "Modell (einer Maschine, eines Flugzeuges, eines Computers)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "maneken",
+        "minta",
+        "mintakép",
+        "típus",
+        "modell"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тип самолёта"
+      ]
+    }
+  ]
+}

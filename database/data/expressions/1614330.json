@@ -1,0 +1,61 @@
+{
+  "id": "1614330",
+  "readings": [
+    {
+      "kanaExpression": "まるがかえ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "丸抱え",
+      "furiganaExpression": [
+        {
+          "text": "丸",
+          "annotation": "まる"
+        },
+        {
+          "text": "抱",
+          "annotation": "がか"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "丸がかえ",
+      "furiganaExpression": [
+        {
+          "text": "丸",
+          "annotation": "まる"
+        },
+        {
+          "text": "がかえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "completely financed",
+        "sponsored",
+        "under patronage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bestreiten aller Unkosten",
+        "Freihalten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полное содержание (кого-л.)"
+      ]
+    }
+  ]
+}

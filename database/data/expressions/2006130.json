@@ -1,0 +1,81 @@
+{
+  "id": "2006130",
+  "readings": [
+    {
+      "kanaExpression": "なにびと",
+      "rank": 18500
+    },
+    {
+      "kanaExpression": "なんびと"
+    },
+    {
+      "kanaExpression": "なんぴと"
+    },
+    {
+      "kanjiExpression": "何人",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なに"
+        },
+        {
+          "text": "人",
+          "annotation": "びと"
+        }
+      ],
+      "rank": 4087
+    },
+    {
+      "kanjiExpression": "何びと",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なに"
+        },
+        {
+          "text": "びと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "anyone",
+        "any person",
+        "whoever"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wat voor mens",
+        "welk mens"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "was für eine Person",
+        "wer auch immer",
+        "wer?",
+        "jemand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mindenki",
+        "összesen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кто?, какой человек?, что за человек?",
+        "(кн.) каждый человек, все"
+      ]
+    }
+  ]
+}

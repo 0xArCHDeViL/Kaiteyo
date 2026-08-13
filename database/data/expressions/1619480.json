@@ -1,0 +1,69 @@
+{
+  "id": "1619480",
+  "readings": [
+    {
+      "kanaExpression": "たいち",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "対置",
+      "furiganaExpression": [
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "置",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "opposing (a thing) to (another)",
+        "contrast",
+        "contraposition",
+        "antithesis",
+        "counterposing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tegenoverstellen",
+        "plaatsen",
+        "zetten",
+        "stellen tegenover",
+        "contrasteren",
+        "opponeren",
+        "{w.g.} tegenstellen",
+        "tegenoverstelling",
+        "contrapositie",
+        "plaatsing tegenover",
+        "oppositie",
+        "tegenstelling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gegenüberstellen",
+        "kontrastieren",
+        "Gegensatz",
+        "Kontrast",
+        "Antithese"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) противопоставление",
+        "{～する} противопоставлять"
+      ]
+    }
+  ]
+}

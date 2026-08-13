@@ -1,0 +1,40 @@
+{
+  "id": "1614270",
+  "readings": [
+    {
+      "kanaExpression": "かんさい",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "簡裁",
+      "furiganaExpression": [
+        {
+          "text": "簡",
+          "annotation": "かん"
+        },
+        {
+          "text": "裁",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "summary court",
+        "court of summary offences"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "summarisches Gericht",
+        "einfacher Gerichtshof",
+        "Amtsgericht"
+      ]
+    }
+  ]
+}

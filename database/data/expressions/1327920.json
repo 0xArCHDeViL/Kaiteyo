@@ -1,0 +1,78 @@
+{
+  "id": "1327920",
+  "readings": [
+    {
+      "kanaExpression": "てざわり",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "手触り",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "触",
+          "annotation": "ざわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "手ざわり",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "ざわり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "feel",
+        "touch"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gevoel bij aanraking",
+        "aanvoelen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gefühl beim Tasten",
+        "haptische Empfindung",
+        "Anfühlen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érzékelés",
+        "tapintás",
+        "ecsetvonás",
+        "partvonal",
+        "tapintóérzék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "осязание; ощущение на ощупь"
+      ]
+    }
+  ]
+}

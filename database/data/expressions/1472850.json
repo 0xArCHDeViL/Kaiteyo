@@ -1,0 +1,57 @@
+{
+  "id": "1472850",
+  "readings": [
+    {
+      "kanaExpression": "せばんごう",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "背番号",
+      "furiganaExpression": [
+        {
+          "text": "背",
+          "annotation": "せ"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        },
+        {
+          "text": "号",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "number on back of player\u0027s shirt",
+        "uniform number",
+        "shirt number"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rugnummer",
+        "± shirtnummer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rückennummer",
+        "Trikotnummer (Nummer des Spielers auf seinem Trikot)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sorozatszám"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "1447010",
+  "readings": [
+    {
+      "kanaExpression": "なげかける",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "投げかける",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "な"
+        },
+        {
+          "text": "げかける"
+        }
+      ],
+      "rank": 9812
+    },
+    {
+      "kanjiExpression": "投げ掛ける",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "な"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "掛",
+          "annotation": "か"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to throw at",
+        "to turn",
+        "to raise"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gooien",
+        "werpen",
+        "smijten naar",
+        "toegooien",
+        "toewerpen",
+        "toesmijten",
+        "{身を} zich aandrukken tegen",
+        "zich werpen op",
+        "{影を} afwerpen",
+        "{視線を} werpen op",
+        "{疑問を} uiten",
+        "in twijfel trekken",
+        "{問題を} stellen",
+        "veroorzaken",
+        "{衣類を} snel aantrekken",
+        "aanschieten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "werfen auf",
+        "bewerfen",
+        "werfen an jmd",
+        "ranwerfen an jmd.",
+        "aufwerfen (Zweifel, Fragen)",
+        "überwerfen (Umhang)",
+        "zuwerfen (Blicke, Worte)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feléje dob",
+        "megdob",
+        "nekidob",
+        "fordít",
+        "előidéz",
+        "épít",
+        "felemel",
+        "felvet",
+        "fokoz",
+        "tenyészt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бросать, набрасывать (на что-л.); бросать (напр. в стену, в стекло); забрасывать (за что-л.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "1457580",
+  "readings": [
+    {
+      "kanaExpression": "どんか",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "鈍化",
+      "furiganaExpression": [
+        {
+          "text": "鈍",
+          "annotation": "どん"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "becoming dull",
+        "slowing down"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stumpf werden",
+        "abstumpfen",
+        "Stumpfheit"
+      ]
+    }
+  ]
+}

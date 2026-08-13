@@ -1,0 +1,56 @@
+{
+  "id": "1401710",
+  "readings": [
+    {
+      "kanaExpression": "そうだい",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "総代",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "代",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "representative"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vertreter",
+        "Delegierter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "képviseleti"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "представитель, делегат"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ombud"
+      ]
+    }
+  ]
+}

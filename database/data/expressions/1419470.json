@@ -1,0 +1,65 @@
+{
+  "id": "1419470",
+  "readings": [
+    {
+      "kanaExpression": "だんとう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "弾頭",
+      "furiganaExpression": [
+        {
+          "text": "弾",
+          "annotation": "だん"
+        },
+        {
+          "text": "頭",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "warhead"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} {ミサイルの} raketkop",
+        "{魚雷の} kop van een torpedo"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sprengkopf",
+        "Gefechtskopf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "élesfej",
+        "gyújtófej",
+        "robbanófej"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ojiva (arma)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "stridsspets"
+      ]
+    }
+  ]
+}

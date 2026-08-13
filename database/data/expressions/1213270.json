@@ -1,0 +1,107 @@
+{
+  "id": "1213270",
+  "readings": [
+    {
+      "kanaExpression": "かんがい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "灌漑",
+      "furiganaExpression": [
+        {
+          "text": "灌",
+          "annotation": "かん"
+        },
+        {
+          "text": "漑",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "潅漑",
+      "furiganaExpression": [
+        {
+          "text": "潅",
+          "annotation": "かん"
+        },
+        {
+          "text": "漑",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "irrigation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "irrigeren",
+        "bevloeien",
+        "besproeien",
+        "sproeien",
+        "bewateren",
+        "irrigatie",
+        "bevloeiing",
+        "besproeiing",
+        "bewatering",
+        "watering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "irrigation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bewässern",
+        "Bewässerung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "öntözés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ирригация, орошение",
+        "{～する} проводить ирригацию (где-л.), орошать (что-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "namakanje",
+        "splakovanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "irrigación"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bevattning",
+        "irrigation",
+        "vattning"
+      ]
+    }
+  ]
+}

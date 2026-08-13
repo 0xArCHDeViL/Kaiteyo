@@ -1,0 +1,61 @@
+{
+  "id": "1509050",
+  "readings": [
+    {
+      "kanaExpression": "こめつぶ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "米粒",
+      "furiganaExpression": [
+        {
+          "text": "米",
+          "annotation": "こめ"
+        },
+        {
+          "text": "粒",
+          "annotation": "つぶ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grain of rice"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grain de riz"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reiskorn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рисовое зерно"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grano de arroz"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "risgryn"
+      ]
+    }
+  ]
+}

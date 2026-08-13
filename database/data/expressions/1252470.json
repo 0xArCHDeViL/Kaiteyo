@@ -1,0 +1,66 @@
+{
+  "id": "1252470",
+  "readings": [
+    {
+      "kanaExpression": "けいしょう",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "警鐘",
+      "furiganaExpression": [
+        {
+          "text": "警",
+          "annotation": "けい"
+        },
+        {
+          "text": "鐘",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "alarm bell",
+        "fire bell",
+        "warning",
+        "wake-up call"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "alarmklok",
+        "noodklok",
+        "± brandklok",
+        "± stormklok",
+        "{fig.} noodklok"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sonnerie d\u0027alarme",
+        "tocsin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Alarmglocke",
+        "Sturmglocke",
+        "Warnsignal",
+        "Warnung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "набатный колокол; набат"
+      ]
+    }
+  ]
+}

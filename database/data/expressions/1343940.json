@@ -1,0 +1,140 @@
+{
+  "id": "1343940",
+  "readings": [
+    {
+      "kanaExpression": "かきとめる"
+    },
+    {
+      "kanaExpression": "かきとどめる",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "書き留める",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "書きとめる",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "きとめる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "書留める",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "かき"
+        },
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "書き止める",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to write down",
+        "to make a note of",
+        "to put on record",
+        "to chronicle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opschrijven",
+        "neerschrijven",
+        "op papier vastleggen",
+        "optekenen",
+        "noteren",
+        "notities",
+        "aantekeningen maken",
+        "aantekenen",
+        "in geschrifte vastleggen",
+        "memoreren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "notieren",
+        "aufschreiben",
+        "sich Notizen machen",
+        "schriftlich festhalten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ábrázol",
+        "becsmérel",
+        "lebecsmérel",
+        "leír",
+        "tart vminek",
+        "feljegyez",
+        "jelez",
+        "regisztrál",
+        "krónikában feljegyez"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "записывать, делать заметки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "apuntar"
+      ]
+    }
+  ]
+}

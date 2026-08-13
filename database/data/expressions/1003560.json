@@ -1,0 +1,107 @@
+{
+  "id": "1003560",
+  "readings": [
+    {
+      "kanaExpression": "ぎざぎざ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ギザギザ"
+    },
+    {
+      "kanjiExpression": "刻々",
+      "furiganaExpression": [
+        {
+          "text": "刻",
+          "annotation": "ぎざ"
+        },
+        {
+          "text": "々",
+          "annotation": "ぎざ"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "段々",
+      "furiganaExpression": [
+        {
+          "text": "段",
+          "annotation": "ぎざ"
+        },
+        {
+          "text": "々",
+          "annotation": "ぎざ"
+        }
+      ],
+      "rank": 14720
+    },
+    {
+      "kanjiExpression": "刻刻",
+      "furiganaExpression": [
+        {
+          "text": "刻",
+          "annotation": "ぎざ"
+        },
+        {
+          "text": "刻",
+          "annotation": "ぎざ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "段段",
+      "furiganaExpression": [
+        {
+          "text": "段",
+          "annotation": "ぎざ"
+        },
+        {
+          "text": "段",
+          "annotation": "ぎざ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "notches",
+        "serration",
+        "indentation",
+        "jaggies (stair-step artifacts in computer images)",
+        "notched",
+        "serrated",
+        "jagged",
+        "corrugated",
+        "milled"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "crénelé",
+        "déchiqueté",
+        "denté",
+        "dentelé",
+        "ondulé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Riffelung",
+        "Gezacktheit"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "con mellas",
+        "con recortes",
+        "dentado"
+      ]
+    }
+  ]
+}

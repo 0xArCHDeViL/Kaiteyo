@@ -1,0 +1,53 @@
+{
+  "id": "2088750",
+  "readings": [
+    {
+      "kanaExpression": "いってらっしゃい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "行ってらっしゃい",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "い"
+        },
+        {
+          "text": "ってらっしゃい"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "have a good day",
+        "take care",
+        "see you"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{afscheidsgroet bij iemands vertrek} tot straks"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bonne journée",
+        "à plus"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "que tengas un buen día",
+        "cuídate",
+        "nos vemos"
+      ]
+    }
+  ]
+}

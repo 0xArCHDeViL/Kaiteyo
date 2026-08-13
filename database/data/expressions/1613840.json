@@ -1,0 +1,50 @@
+{
+  "id": "1613840",
+  "readings": [
+    {
+      "kanaExpression": "かいしゃこうせいほう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "会社更生法",
+      "furiganaExpression": [
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "更",
+          "annotation": "こう"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Corporate Rehabilitation Law"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesetz für Umorganisation und Instandsetzung",
+        "Konkursabwendungsgesetz"
+      ]
+    }
+  ]
+}

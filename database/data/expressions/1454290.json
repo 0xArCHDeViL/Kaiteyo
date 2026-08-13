@@ -1,0 +1,89 @@
+{
+  "id": "1454290",
+  "readings": [
+    {
+      "kanaExpression": "どうろ",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "道路",
+      "furiganaExpression": [
+        {
+          "text": "道",
+          "annotation": "どう"
+        },
+        {
+          "text": "路",
+          "annotation": "ろ"
+        }
+      ],
+      "rank": 1176
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "road",
+        "highway"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "weg",
+        "straat",
+        "straatweg",
+        "baan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "avenue",
+        "chemin",
+        "route",
+        "rue",
+        "voie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Straße",
+        "Weg"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alapvágat",
+        "országút",
+        "út",
+        "városi út",
+        "vasúti pálya",
+        "autóút"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дорога, шоссе; магистраль; улица"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "cesta"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "camino",
+        "carretera",
+        "autopista"
+      ]
+    }
+  ]
+}

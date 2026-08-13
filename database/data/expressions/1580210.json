@@ -1,0 +1,63 @@
+{
+  "id": "1580210",
+  "readings": [
+    {
+      "kanaExpression": "ういざん",
+      "rank": 36000
+    },
+    {
+      "kanaExpression": "しょざん"
+    },
+    {
+      "kanaExpression": "しょさん",
+      "rank": 32000
+    },
+    {
+      "kanaExpression": "はつざん"
+    },
+    {
+      "kanjiExpression": "初産",
+      "furiganaExpression": [
+        {
+          "text": "初",
+          "annotation": "うい"
+        },
+        {
+          "text": "産",
+          "annotation": "ざん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first childbirth"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerste bevalling",
+        "{geneesk.} primipariteit",
+        "eerste worp"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erste Geburt",
+        "Erstgeburt",
+        "erste Entbindung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "первые роды"
+      ]
+    }
+  ]
+}

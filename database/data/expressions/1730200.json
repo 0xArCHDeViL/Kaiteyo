@@ -1,0 +1,43 @@
+{
+  "id": "1730200",
+  "readings": [
+    {
+      "kanaExpression": "にちよう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "日用",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "daily use"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "täglicher Bedarf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} для повседневного употребления, повседневный, обычный, обиходный"
+      ]
+    }
+  ]
+}

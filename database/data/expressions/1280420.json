@@ -1,0 +1,59 @@
+{
+  "id": "1280420",
+  "readings": [
+    {
+      "kanaExpression": "こうしつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "皇室",
+      "furiganaExpression": [
+        {
+          "text": "皇",
+          "annotation": "こう"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 7860
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Imperial household"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keizershuis",
+        "keizerlijk huis",
+        "keizerlijke familie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "maison impériale (japonaise)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die kaiserliche Familie",
+        "das Kaiserhaus",
+        "der kaiserliche Haushalt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[японская] императорская фамилия"
+      ]
+    }
+  ]
+}

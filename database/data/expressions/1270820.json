@@ -1,0 +1,55 @@
+{
+  "id": "1270820",
+  "readings": [
+    {
+      "kanaExpression": "ごれんらく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ご連絡",
+      "furiganaExpression": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "連",
+          "annotation": "れん"
+        },
+        {
+          "text": "絡",
+          "annotation": "らく"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御連絡",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "ご"
+        },
+        {
+          "text": "連",
+          "annotation": "れん"
+        },
+        {
+          "text": "絡",
+          "annotation": "らく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "contacting",
+        "getting in touch",
+        "communication",
+        "call",
+        "message"
+      ]
+    }
+  ]
+}

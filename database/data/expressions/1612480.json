@@ -1,0 +1,110 @@
+{
+  "id": "1612480",
+  "readings": [
+    {
+      "kanaExpression": "にげみち",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "逃げ道",
+      "furiganaExpression": [
+        {
+          "text": "逃",
+          "annotation": "に"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "逃道",
+      "furiganaExpression": [
+        {
+          "text": "逃",
+          "annotation": "にげ"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "逃げ路",
+      "furiganaExpression": [
+        {
+          "text": "逃",
+          "annotation": "に"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "路",
+          "annotation": "みち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "way out",
+        "means to escape",
+        "escape route"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vluchtweg",
+        "vluchtroute",
+        "uitweg",
+        "ontsnappingsmiddel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "échappatoire",
+        "issue",
+        "sortie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausweg",
+        "Fluchtweg",
+        "Hintertürchen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kijárat",
+        "menekülési útvonal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "путь к отступлению (бегству), путь спасения"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "salida",
+        "escapatoria"
+      ]
+    }
+  ]
+}

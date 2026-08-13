@@ -1,0 +1,60 @@
+{
+  "id": "1647800",
+  "readings": [
+    {
+      "kanaExpression": "おもてがき",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "表書き",
+      "furiganaExpression": [
+        {
+          "text": "表",
+          "annotation": "おもて"
+        },
+        {
+          "text": "書",
+          "annotation": "が"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "表書",
+      "furiganaExpression": [
+        {
+          "text": "表",
+          "annotation": "おもて"
+        },
+        {
+          "text": "書",
+          "annotation": "がき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "address (on envelope, etc.)",
+        "addressee"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Adresse des Empfängers"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszéd"
+      ]
+    }
+  ]
+}

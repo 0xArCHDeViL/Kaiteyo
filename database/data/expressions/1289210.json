@@ -1,0 +1,54 @@
+{
+  "id": "1289210",
+  "readings": [
+    {
+      "kanaExpression": "こんしゅう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "今秋",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "こん"
+        },
+        {
+          "text": "秋",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 18000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "this autumn",
+        "this fall",
+        "autumn of this year"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "deze herfst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dieser Herbst",
+        "der Herbst dieses Jahres"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1. эта осень",
+        "2. этой (нынешней) осенью"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "1606980",
+  "readings": [
+    {
+      "kanaExpression": "わりまし",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "割り増し",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "増",
+          "annotation": "ま"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "割増",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わり"
+        },
+        {
+          "text": "増",
+          "annotation": "まし"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "割増し",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わり"
+        },
+        {
+          "text": "増",
+          "annotation": "ま"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "extra (charge, fare, etc.)",
+        "premium",
+        "bonus",
+        "(after a number) tenths increase"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "percentuele toeslag",
+        "bijkomend tarief",
+        "meerprijs",
+        "premie",
+        "extra",
+        "bonus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zuschlag",
+        "Aufschlag",
+        "erhöhte Gebühr",
+        "Prämie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ázsió",
+        "biztosítási díj",
+        "biztosítási díjrészlet",
+        "díj",
+        "felár csekk",
+        "felár csekkpénz",
+        "felár",
+        "felpénz",
+        "jutalék",
+        "jutalom",
+        "kiváló minőségű",
+        "osztályon felüli",
+        "tandíj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пропорциональная надбавка",
+        "{～をする} пропорционально увеличивать (делать надбавку)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "suplemento",
+        "recargo"
+      ]
+    }
+  ]
+}

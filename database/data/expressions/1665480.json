@@ -1,0 +1,61 @@
+{
+  "id": "1665480",
+  "readings": [
+    {
+      "kanaExpression": "まきがみ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "巻紙",
+      "furiganaExpression": [
+        {
+          "text": "巻",
+          "annotation": "まき"
+        },
+        {
+          "text": "紙",
+          "annotation": "がみ"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "巻き紙",
+      "furiganaExpression": [
+        {
+          "text": "巻",
+          "annotation": "ま"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "紙",
+          "annotation": "がみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rolled letter paper",
+        "roll of paper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Papierrolle",
+        "zusammengerolltes Briefpapier"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "писчая бумага в свитке; свиток писчей бумаги"
+      ]
+    }
+  ]
+}

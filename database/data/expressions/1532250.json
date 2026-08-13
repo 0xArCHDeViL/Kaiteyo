@@ -1,0 +1,90 @@
+{
+  "id": "1532250",
+  "readings": [
+    {
+      "kanaExpression": "あくる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "明くる",
+      "furiganaExpression": [
+        {
+          "text": "明",
+          "annotation": "あ"
+        },
+        {
+          "text": "くる"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "翌る",
+      "furiganaExpression": [
+        {
+          "text": "翌",
+          "annotation": "あく"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "next (day, morning, etc.)",
+        "following"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerstvolgende …",
+        "volgende …"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prochain",
+        "suivant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nächster",
+        "folgender"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "következő",
+        "közvetlenül utána",
+        "legközelebb álló személy",
+        "legközelebbi",
+        "alábbi",
+        "hívek",
+        "követők",
+        "párthívek",
+        "utána következő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "следующий, будущий (тк. о дне и месяце)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "siguiente"
+      ]
+    }
+  ]
+}

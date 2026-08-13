@@ -1,0 +1,82 @@
+{
+  "id": "1204120",
+  "readings": [
+    {
+      "kanaExpression": "そとぼり",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "外堀",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "そと"
+        },
+        {
+          "text": "堀",
+          "annotation": "ぼり"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "外濠",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "そと"
+        },
+        {
+          "text": "濠",
+          "annotation": "ぼり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "外壕",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "そと"
+        },
+        {
+          "text": "壕",
+          "annotation": "ぼり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outer moat (of a castle)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "buitengracht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "douves extérieures (château)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "äußerer Burggraben",
+        "äußerer Graben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внешний ров [с водой] (вокруг замка)"
+      ]
+    }
+  ]
+}

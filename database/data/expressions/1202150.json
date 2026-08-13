@@ -1,0 +1,123 @@
+{
+  "id": "1202150",
+  "readings": [
+    {
+      "kanaExpression": "みんな",
+      "rank": 558
+    },
+    {
+      "kanaExpression": "みな",
+      "rank": 3819
+    },
+    {
+      "kanjiExpression": "皆",
+      "furiganaExpression": [
+        {
+          "text": "皆",
+          "annotation": "みんな"
+        }
+      ],
+      "rank": 1484
+    },
+    {
+      "kanjiExpression": "皆んな",
+      "furiganaExpression": [
+        {
+          "text": "皆",
+          "annotation": "み"
+        },
+        {
+          "text": "んな"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "everyone",
+        "everybody",
+        "all",
+        "everything"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "al",
+        "alle",
+        "allen",
+        "alles",
+        "ieder",
+        "iedereen",
+        "elkeen",
+        "alleman",
+        "algeheel",
+        "geheel",
+        "gans",
+        "heel",
+        "helemaal",
+        "compleet",
+        "totaal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tous",
+        "tout le monde",
+        "tout"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alle",
+        "jeder",
+        "alles"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mind",
+        "minden",
+        "összesen",
+        "mindenki"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "все; всё",
+        "{～で} все (всё) вместе; всего",
+        "(ср.) みなのしゅう",
+        "(см.) みな"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vsi",
+        "vse",
+        "vsi vključeni"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "todos",
+        "todo el mundo",
+        "todas las personas",
+        "todo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "alla"
+      ]
+    }
+  ]
+}

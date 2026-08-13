@@ -1,0 +1,37 @@
+{
+  "id": "1494560",
+  "readings": [
+    {
+      "kanaExpression": "ふばい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "不買",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "買",
+          "annotation": "ばい"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "not buying"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Boykott"
+      ]
+    }
+  ]
+}

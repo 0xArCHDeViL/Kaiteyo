@@ -1,0 +1,90 @@
+{
+  "id": "1270870",
+  "readings": [
+    {
+      "kanaExpression": "ご",
+      "rank": 172
+    },
+    {
+      "kanjiExpression": "碁",
+      "furiganaExpression": [
+        {
+          "text": "碁",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "棊",
+      "furiganaExpression": [
+        {
+          "text": "棊",
+          "annotation": "ご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "棋",
+      "furiganaExpression": [
+        {
+          "text": "棋",
+          "annotation": "ご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "go (board game)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "go",
+        "Japans bordspel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "go (jeu de plateau de capture de territoire)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Go-Spiel",
+        "Go (ostasiat. Brettspiel für zwei Personen; wird mit 181 schwarzen und 180 weißen Steinen auf einem quadrat. Brett gespielt; Spieler versuchen mit eigenen Steinen zusammenhängende Ketten zu bilden und dadurch Raum bzw. gegnerische Steine einzukreisen und so zu erobern)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mozgás",
+        "siker"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "го (яп. игра типа шашек)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "igra go"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "juego japónes de Go"
+      ]
+    }
+  ]
+}

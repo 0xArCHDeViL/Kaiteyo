@@ -1,0 +1,54 @@
+{
+  "id": "1371470",
+  "readings": [
+    {
+      "kanaExpression": "すいげんち",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "水源地",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "源",
+          "annotation": "げん"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "source (of a river, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Quellgebiet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "исток реки; источник водоснабжения; водохранилище"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "källflod",
+        "källa"
+      ]
+    }
+  ]
+}

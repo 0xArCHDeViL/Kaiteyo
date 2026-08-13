@@ -1,0 +1,72 @@
+{
+  "id": "1421110",
+  "readings": [
+    {
+      "kanaExpression": "ちし",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "地誌",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "誌",
+          "annotation": "し"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "topography",
+        "geographical description"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "géographie régionale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Topographie",
+        "Geländebeschreibung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyleírás",
+        "helyrajz",
+        "tereprajz",
+        "topográfia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "топография; географическое описание"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "topografía"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "topografi"
+      ]
+    }
+  ]
+}

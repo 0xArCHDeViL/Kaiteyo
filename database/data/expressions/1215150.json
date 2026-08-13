@@ -1,0 +1,77 @@
+{
+  "id": "1215150",
+  "readings": [
+    {
+      "kanaExpression": "かんりゅう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "還流",
+      "furiganaExpression": [
+        {
+          "text": "還",
+          "annotation": "かん"
+        },
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "環流",
+      "furiganaExpression": [
+        {
+          "text": "環",
+          "annotation": "かん"
+        },
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "return current",
+        "convection",
+        "reflux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurückfließen",
+        "Rückfluss",
+        "Rückstrom",
+        "Äquatorialstrom"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áramvezetés",
+        "hőszállítás",
+        "konvekció"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) отлив; обратное течение; обратный ток",
+        "{～する} возвращаться, притекать",
+        "2) (метеор.) конвекция"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "circulación"
+      ]
+    }
+  ]
+}

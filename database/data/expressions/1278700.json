@@ -1,0 +1,87 @@
+{
+  "id": "1278700",
+  "readings": [
+    {
+      "kanaExpression": "こうや",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ひろの"
+    },
+    {
+      "kanjiExpression": "広野",
+      "furiganaExpression": [
+        {
+          "text": "広",
+          "annotation": "こう"
+        },
+        {
+          "text": "野",
+          "annotation": "や"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "曠野",
+      "furiganaExpression": [
+        {
+          "text": "曠",
+          "annotation": "こう"
+        },
+        {
+          "text": "野",
+          "annotation": "や"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wide plain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weite Ebene",
+        "offenes Flachland"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "préri",
+        "érdem",
+        "lakatlan",
+        "sivatag",
+        "sivatagi",
+        "érthető"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "широкое (открытое) поле, широкая равнина",
+        "широкая равнина; степь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "campo devastado",
+        "campo desolado",
+        "páramo",
+        "llanura"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "slätt"
+      ]
+    }
+  ]
+}

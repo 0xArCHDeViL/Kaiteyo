@@ -1,0 +1,83 @@
+{
+  "id": "1450850",
+  "readings": [
+    {
+      "kanaExpression": "とうこつ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "かしらぼね"
+    },
+    {
+      "kanaExpression": "ずこつ"
+    },
+    {
+      "kanjiExpression": "頭骨",
+      "furiganaExpression": [
+        {
+          "text": "頭",
+          "annotation": "とう"
+        },
+        {
+          "text": "骨",
+          "annotation": "こつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "skull"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdschedel",
+        "schedel",
+        "cranium",
+        "{form.} bekkeneel",
+        "{anat.} schedelbeenderen",
+        "schedelbenen",
+        "os cranii"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "crâne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schädel",
+        "Schädelknochen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "koponya"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calavera",
+        "cráneo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "huvudskalle",
+        "kranium",
+        "skalle"
+      ]
+    }
+  ]
+}

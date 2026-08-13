@@ -1,0 +1,89 @@
+{
+  "id": "1427080",
+  "readings": [
+    {
+      "kanaExpression": "あらわす",
+      "rank": 8887
+    },
+    {
+      "kanjiExpression": "著す",
+      "furiganaExpression": [
+        {
+          "text": "著",
+          "annotation": "あらわ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "著わす",
+      "furiganaExpression": [
+        {
+          "text": "著",
+          "annotation": "あら"
+        },
+        {
+          "text": "わす"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to write",
+        "to publish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "publiceren",
+        "schrijven en publiceren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "écrire",
+        "composer",
+        "publier",
+        "rédiger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "veröffentlichen",
+        "schreiben",
+        "verfassen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ír",
+        "megír"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "писать, издавать (книгу)",
+        "A博士の著わした本 книга доктора А"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "escribir",
+        "publicar"
+      ]
+    }
+  ]
+}

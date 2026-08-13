@@ -1,0 +1,69 @@
+{
+  "id": "1343410",
+  "readings": [
+    {
+      "kanaExpression": "しょゆうしゃ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "所有者",
+      "furiganaExpression": [
+        {
+          "text": "所",
+          "annotation": "しょ"
+        },
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "owner"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eigenaar",
+        "bezitter",
+        "houder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besitzer",
+        "Eigentümer",
+        "Eigner"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tulajdonos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "владелец, собственник; держатель (облигаций и т. п.)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ägare"
+      ]
+    }
+  ]
+}

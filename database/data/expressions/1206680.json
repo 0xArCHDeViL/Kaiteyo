@@ -1,0 +1,72 @@
+{
+  "id": "1206680",
+  "readings": [
+    {
+      "kanaExpression": "がっきゅう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "学級",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がっ"
+        },
+        {
+          "text": "級",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 6031
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(school) class"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{onderw.} klas"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "classe (scolaire)",
+        "niveau d\u0027étude"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schulklasse",
+        "Klasse",
+        "Klassenstufe",
+        "Jahrgangsstufe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "класс (в школе)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "stopnja učenja",
+        "razred"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grado escolar"
+      ]
+    }
+  ]
+}

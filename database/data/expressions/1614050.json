@@ -1,0 +1,41 @@
+{
+  "id": "1614050",
+  "readings": [
+    {
+      "kanaExpression": "わりびきさい",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "割引債",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わり"
+        },
+        {
+          "text": "引",
+          "annotation": "びき"
+        },
+        {
+          "text": "債",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "discount bond"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Diskontschuldverschreibung"
+      ]
+    }
+  ]
+}

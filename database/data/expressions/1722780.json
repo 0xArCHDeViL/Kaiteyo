@@ -1,0 +1,48 @@
+{
+  "id": "1722780",
+  "readings": [
+    {
+      "kanaExpression": "ぶつのう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "物納",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "納",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "payment in kind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in Waren bezahlen",
+        "in Naturalien bezahlen",
+        "in Sachen entrichten",
+        "Naturalleistung",
+        "Naturalzahlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "взнос (платёж) натурой",
+        "{～する} вносить натурой"
+      ]
+    }
+  ]
+}

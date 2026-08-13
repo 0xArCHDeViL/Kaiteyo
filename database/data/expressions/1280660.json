@@ -1,0 +1,52 @@
+{
+  "id": "1280660",
+  "readings": [
+    {
+      "kanaExpression": "こう",
+      "rank": 446
+    },
+    {
+      "kanjiExpression": "稿",
+      "furiganaExpression": [
+        {
+          "text": "稿",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 8440
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "manuscript",
+        "version",
+        "draft"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entwurf",
+        "Manuskript",
+        "Rohfassung",
+        "schreiben",
+        "verfassen (einen Entwurf, ein Manuskript)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kézirat",
+        "változat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рукопись"
+      ]
+    }
+  ]
+}

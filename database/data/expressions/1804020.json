@@ -1,0 +1,44 @@
+{
+  "id": "1804020",
+  "readings": [
+    {
+      "kanaExpression": "がんてい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "眼底",
+      "furiganaExpression": [
+        {
+          "text": "眼",
+          "annotation": "がん"
+        },
+        {
+          "text": "底",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fundus of the eye"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Augenhintergrund",
+        "Fundus oculi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глазное дно"
+      ]
+    }
+  ]
+}

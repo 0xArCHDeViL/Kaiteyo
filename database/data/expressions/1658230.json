@@ -1,0 +1,49 @@
+{
+  "id": "1658230",
+  "readings": [
+    {
+      "kanaExpression": "してんちょう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "支店長",
+      "furiganaExpression": [
+        {
+          "text": "支",
+          "annotation": "し"
+        },
+        {
+          "text": "店",
+          "annotation": "てん"
+        },
+        {
+          "text": "長",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 17500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "branch manager",
+        "manager of a branch office"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Filialleiter",
+        "Leiter eines Zweiggeschäfts"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gerente de sucursal"
+      ]
+    }
+  ]
+}

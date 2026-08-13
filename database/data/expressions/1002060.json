@@ -1,0 +1,130 @@
+{
+  "id": "1002060",
+  "readings": [
+    {
+      "kanaExpression": "おまもり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お守り",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "守",
+          "annotation": "まも"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 14045
+    },
+    {
+      "kanjiExpression": "御守り",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "守",
+          "annotation": "まも"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御守",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "守",
+          "annotation": "まもり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "お守",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "守",
+          "annotation": "まもり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "charm",
+        "amulet",
+        "talisman"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "amulet",
+        "talisman",
+        "gelukaanbrenger"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "amulette",
+        "porte-bonheur",
+        "talisman"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Amulett",
+        "Talisman",
+        "Schutzzeichen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bűvölet",
+        "dal",
+        "szerencsekarperec",
+        "varázs",
+        "varázslat",
+        "vonzerő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "амулет"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "amuleto",
+        "talismán"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "amulett"
+      ]
+    }
+  ]
+}

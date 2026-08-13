@@ -1,0 +1,47 @@
+{
+  "id": "1431490",
+  "readings": [
+    {
+      "kanaExpression": "ちょくばい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "直売",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "ちょく"
+        },
+        {
+          "text": "売",
+          "annotation": "ばい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "direct selling",
+        "direct sales"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "direkt verkaufen",
+        "ab Fabrik verkaufen",
+        "Direktverkauf",
+        "Verkauf ab Fabrik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продажа непосредственно потребителю"
+      ]
+    }
+  ]
+}

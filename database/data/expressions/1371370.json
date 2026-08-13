@@ -1,0 +1,71 @@
+{
+  "id": "1371370",
+  "readings": [
+    {
+      "kanaExpression": "すいがい",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "水害",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "害",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 13914
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water damage",
+        "flood disaster"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waterschade"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dégât des eaux",
+        "dégâts d\u0027une inondation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserschaden",
+        "Hochwasserschaden",
+        "Überschwemmung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наводнение; ущерб от наводнения"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "poplava"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desastres naturales (causados por inundaciones, ciclones, etc)"
+      ]
+    }
+  ]
+}

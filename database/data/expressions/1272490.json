@@ -1,0 +1,67 @@
+{
+  "id": "1272490",
+  "readings": [
+    {
+      "kanaExpression": "こうはい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "交配",
+      "furiganaExpression": [
+        {
+          "text": "交",
+          "annotation": "こう"
+        },
+        {
+          "text": "配",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mating",
+        "crossbreeding",
+        "cross-fertilization",
+        "cross-fertilisation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kruising",
+        "vermenging",
+        "kruisbevruchting",
+        "kruisbestuiving",
+        "bastaardering",
+        "hybridisatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kreuzen (Pflanzen, Tiere)",
+        "Kreuzung",
+        "kreuzende Befruchtung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "párosodás",
+        "párzás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(биол.) скрещивание",
+        "{～する} скрещивать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "1640790",
+  "readings": [
+    {
+      "kanaExpression": "まちこうば"
+    },
+    {
+      "kanaExpression": "まちこうじょう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "町工場",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "まち"
+        },
+        {
+          "text": "工",
+          "annotation": "こう"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small factory in town",
+        "(small) backstreet workshop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleine Fabrik (in der Stadt)"
+      ]
+    }
+  ]
+}

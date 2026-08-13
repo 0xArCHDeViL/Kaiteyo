@@ -1,0 +1,61 @@
+{
+  "id": "1257370",
+  "readings": [
+    {
+      "kanaExpression": "たてぐ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "建具",
+      "furiganaExpression": [
+        {
+          "text": "建",
+          "annotation": "たて"
+        },
+        {
+          "text": "具",
+          "annotation": "ぐ"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fittings that open and close (doors, windows, shoji, fusuma, etc.)",
+        "fixtures"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "deur- en raamwerk",
+        "schrijnwerk",
+        "stoffering en meubilering",
+        "woninginrichting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fenster und Türen",
+        "Fusuma, Shōji etc."
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bútor",
+        "nyílászárók"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "двери, сёдзи, фусума (и т. п.)"
+      ]
+    }
+  ]
+}

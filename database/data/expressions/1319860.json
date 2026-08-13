@@ -1,0 +1,93 @@
+{
+  "id": "1319860",
+  "readings": [
+    {
+      "kanaExpression": "しつぎょう",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "失業",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しつ"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 3318
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unemployment",
+        "losing one\u0027s job",
+        "becoming unemployed"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zijn betrekking kwijtraken",
+        "zijn baan verliezen",
+        "werkloos",
+        "baanloos worden",
+        "zonder werk",
+        "emplooi komen te zitten",
+        "werkloosheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chômage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "arbeitslos sein",
+        "keine Arbeit mehr haben",
+        "seine Stellung verlieren",
+        "Stempeln gehen",
+        "Arbeitslosigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "munkanélküliség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "безработица; потеря работы",
+        "{～する} потерять работу; быть безработным"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izgubiti delo",
+        "nezaposlenost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desempleo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "arbetslöshet"
+      ]
+    }
+  ]
+}

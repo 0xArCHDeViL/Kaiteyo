@@ -1,0 +1,95 @@
+{
+  "id": "1292150",
+  "readings": [
+    {
+      "kanaExpression": "もよおしもの",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "もようしもの"
+    },
+    {
+      "kanjiExpression": "催し物",
+      "furiganaExpression": [
+        {
+          "text": "催",
+          "annotation": "もよお"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "催物",
+      "furiganaExpression": [
+        {
+          "text": "催",
+          "annotation": "もよおし"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(program of) entertainments",
+        "special events",
+        "exhibitions",
+        "amusements",
+        "attractions"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "entertainment",
+        "amusement",
+        "vermakelijkheid",
+        "attracties",
+        "vertoningen",
+        "opvoeringen",
+        "{デパートの} speciale aanbieding"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "attraction touristique",
+        "divertissements",
+        "manifestation (fête)",
+        "spectacle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Veranstaltungsprogramm",
+        "Veranstaltungen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizonyíték",
+        "kiállított tárgy"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prireditev"
+      ]
+    }
+  ]
+}

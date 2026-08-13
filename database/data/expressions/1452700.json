@@ -1,0 +1,67 @@
+{
+  "id": "1452700",
+  "readings": [
+    {
+      "kanaExpression": "どうじょう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "同上",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "上",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 14262
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "same as above",
+        "ditto",
+        "ibid."
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "comme ci-dessus",
+        "ibid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ibidem",
+        "wie oben",
+        "dito"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dettó",
+        "hasonló dolog"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) как указано выше; тот же, то же"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arriba mencionado"
+      ]
+    }
+  ]
+}

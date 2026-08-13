@@ -1,0 +1,60 @@
+{
+  "id": "1709610",
+  "readings": [
+    {
+      "kanaExpression": "おくりて",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "送り手",
+      "furiganaExpression": [
+        {
+          "text": "送",
+          "annotation": "おく"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sender"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Absender",
+        "Übersender",
+        "Überweiser"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feladó"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "emisor, remitente"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sändare"
+      ]
+    }
+  ]
+}

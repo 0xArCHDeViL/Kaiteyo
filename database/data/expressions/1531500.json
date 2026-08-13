@@ -1,0 +1,83 @@
+{
+  "id": "1531500",
+  "readings": [
+    {
+      "kanaExpression": "めいさく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "名作",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "めい"
+        },
+        {
+          "text": "作",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 6897
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "masterpiece"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "meesterwerk",
+        "meesterstuk",
+        "prachtwerk",
+        "prachtstuk",
+        "chef-d\u0027œuvre"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chef-d\u0027œuvre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meisterwerk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mestermű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шедевр"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "mojstrovina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "obra maestra"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mästerverk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "1645170",
+  "readings": [
+    {
+      "kanaExpression": "さけのみ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "酒飲み",
+      "furiganaExpression": [
+        {
+          "text": "酒",
+          "annotation": "さけ"
+        },
+        {
+          "text": "飲",
+          "annotation": "の"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "酒呑み",
+      "furiganaExpression": [
+        {
+          "text": "酒",
+          "annotation": "さけ"
+        },
+        {
+          "text": "呑",
+          "annotation": "の"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "酒呑",
+      "furiganaExpression": [
+        {
+          "text": "酒",
+          "annotation": "さけ"
+        },
+        {
+          "text": "呑",
+          "annotation": "のみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(heavy) drinker",
+        "drunkard",
+        "tippler",
+        "boozer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "drinker",
+        "drinkebroer",
+        "drinkersbaas",
+        "dronkenlap",
+        "dronkaard",
+        "zuipschuit",
+        "zuiper",
+        "zuiplap",
+        "potator",
+        "{veroud.} slampamper",
+        "{gew.} heffer",
+        "{gew.} likker",
+        "{gew.} pomper",
+        "{gew.} zuipzak",
+        "{Barg.} lijperd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trinker",
+        "Gewohnheitstrinker",
+        "Säufer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "részeges ember",
+        "piás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пьяница, алкоголик"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "storsupare"
+      ]
+    }
+  ]
+}

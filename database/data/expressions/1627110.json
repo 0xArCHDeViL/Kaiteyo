@@ -1,0 +1,59 @@
+{
+  "id": "1627110",
+  "readings": [
+    {
+      "kanaExpression": "ほうどうじん",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "報道陣",
+      "furiganaExpression": [
+        {
+          "text": "報",
+          "annotation": "ほう"
+        },
+        {
+          "text": "道",
+          "annotation": "どう"
+        },
+        {
+          "text": "陣",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 17500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "press corps"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schare van verslaggevers",
+        "falanx van journalisten",
+        "persleger",
+        "{verzameln.} pers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Journalisten",
+        "Presse",
+        "Nachrichtenwesen",
+        "Pressevertreter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "информационная группа; пресс-группа"
+      ]
+    }
+  ]
+}

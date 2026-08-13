@@ -1,0 +1,89 @@
+{
+  "id": "1611190",
+  "readings": [
+    {
+      "kanaExpression": "はしたない",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "端たない",
+      "furiganaExpression": [
+        {
+          "text": "端",
+          "annotation": "はし"
+        },
+        {
+          "text": "たない"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "端ない",
+      "furiganaExpression": [
+        {
+          "text": "端",
+          "annotation": "はした"
+        },
+        {
+          "text": "ない"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "improper",
+        "immodest",
+        "disgraceful",
+        "shameful",
+        "vulgar",
+        "low"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "indiscret",
+        "irréfléchi",
+        "bas",
+        "vil",
+        "vulgaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unanständig",
+        "schamlos",
+        "vulgär",
+        "frech"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "otromba"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "neotesan",
+        "neolikan",
+        "robat",
+        "prostaški"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vulgar",
+        "bajo",
+        "indecente"
+      ]
+    }
+  ]
+}

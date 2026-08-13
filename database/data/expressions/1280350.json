@@ -1,0 +1,63 @@
+{
+  "id": "1280350",
+  "readings": [
+    {
+      "kanaExpression": "こうい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "皇位",
+      "furiganaExpression": [
+        {
+          "text": "皇",
+          "annotation": "こう"
+        },
+        {
+          "text": "位",
+          "annotation": "い"
+        }
+      ],
+      "rank": 13948
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "imperial throne"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keizerlijke troon van Japan",
+        "Japanse keizerstroon",
+        "chrysantentroon"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "trône impérial"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "der kaiserliche Thron"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "престол"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "trono imperial"
+      ]
+    }
+  ]
+}

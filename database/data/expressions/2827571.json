@@ -1,0 +1,78 @@
+{
+  "id": "2827571",
+  "readings": [
+    {
+      "kanaExpression": "おどろくほど",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "驚くほど",
+      "furiganaExpression": [
+        {
+          "text": "驚",
+          "annotation": "おどろ"
+        },
+        {
+          "text": "くほど"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "驚く程",
+      "furiganaExpression": [
+        {
+          "text": "驚",
+          "annotation": "おどろ"
+        },
+        {
+          "text": "く"
+        },
+        {
+          "text": "程",
+          "annotation": "ほど"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "おどろく程",
+      "furiganaExpression": [
+        {
+          "text": "おどろく"
+        },
+        {
+          "text": "程",
+          "annotation": "ほど"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to a surprising degree",
+        "to a remarkable extent",
+        "surprisingly",
+        "astonishingly",
+        "amazingly",
+        "alarmingly"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verrassenderwijs",
+        "wonderbaarlijkerwijs",
+        "in verrassende mate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erstaunlicherweise",
+        "überraschenderweise"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1269650",
+  "readings": [
+    {
+      "kanaExpression": "ごさい",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "こうさい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "後妻",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "ご"
+        },
+        {
+          "text": "妻",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "second wife"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tweede vrouw",
+        "{i.h.b.} bijvrouw"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "seconde femme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zweite Ehefrau"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вторая жена"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "segunda esposa",
+        "concubina"
+      ]
+    }
+  ]
+}

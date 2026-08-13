@@ -1,0 +1,63 @@
+{
+  "id": "1522180",
+  "readings": [
+    {
+      "kanaExpression": "ほんい",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "ほい"
+    },
+    {
+      "kanjiExpression": "本意",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "real intention",
+        "true motive",
+        "true will",
+        "original intention",
+        "original purpose",
+        "original hope"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jmds. wahre Absicht",
+        "jmds. eigentlicher Wunsch",
+        "jmds. ursprüngliche Absicht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "indító",
+        "motívum",
+        "ok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (см.) ほんい【本意】",
+        "2): {～ない} (см.) ほいない",
+        "[основное] желание, цель; [подлинные] намерения; (ср.) ほんいならずも"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1864020",
+  "readings": [
+    {
+      "kanaExpression": "かいもどし",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "買い戻し",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "戻",
+          "annotation": "もど"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "買戻し",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "かい"
+        },
+        {
+          "text": "戻",
+          "annotation": "もど"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "repurchase",
+        "redemption"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rückkauf",
+        "Wiederkauf",
+        "Deckungskauf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beváltás",
+        "visszafizetés",
+        "visszavásárlás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выкуп, покупка [обратно] ранее проданного товара; (бирж.) покупка для покрытия обязательств по срочным сделкам"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "retroventa de un inmueble"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "1835940",
+  "readings": [
+    {
+      "kanaExpression": "こうせん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "好戦",
+      "furiganaExpression": [
+        {
+          "text": "好",
+          "annotation": "こう"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "belligerence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegslust",
+        "Kriegerischkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ellenséges magatatás",
+        "ellenséges viselkedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воинственность",
+        "{～的} воинственный"
+      ]
+    }
+  ]
+}

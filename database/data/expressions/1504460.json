@@ -1,0 +1,100 @@
+{
+  "id": "1504460",
+  "readings": [
+    {
+      "kanaExpression": "ぶんるい",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "分類",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 2196
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "classification",
+        "categorization",
+        "sorting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "indelen",
+        "classificeren",
+        "klasseren",
+        "rangschikken",
+        "sorteren",
+        "groeperen",
+        "indeling",
+        "classificatie",
+        "klassering",
+        "rangschikking",
+        "sortering",
+        "groepering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "classification"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "klassifizieren",
+        "in Klassen einteilen",
+        "einteilen",
+        "ordnen",
+        "systematisieren",
+        "sortieren",
+        "passend zusammenstellen",
+        "Einteilung",
+        "Anordnung",
+        "Klassifikation",
+        "Klassifizierung",
+        "System"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "osztályozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "классификация; сортировка",
+        "{～する} классифицировать, распределять по группам (рубрикам (и т. п.)); сортировать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "klasifikacija",
+        "razdelitev v tipe",
+        "dati v skupine"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "clasificación"
+      ]
+    }
+  ]
+}

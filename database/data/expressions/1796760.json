@@ -1,0 +1,40 @@
+{
+  "id": "1796760",
+  "readings": [
+    {
+      "kanaExpression": "やくり",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "薬理",
+      "furiganaExpression": [
+        {
+          "text": "薬",
+          "annotation": "やく"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "effect of a drug"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arzneiwirkung",
+        "Arzneimittelwirkung",
+        "pharmakologische Wirkung",
+        "Pharmakologie"
+      ]
+    }
+  ]
+}

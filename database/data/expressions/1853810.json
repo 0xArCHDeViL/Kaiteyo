@@ -1,0 +1,40 @@
+{
+  "id": "1853810",
+  "readings": [
+    {
+      "kanaExpression": "しょうおん",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "消音",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "音",
+          "annotation": "おん"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "silencing (e.g. machine)",
+        "muffling",
+        "muting (e.g. TV)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schalldämpfung",
+        "Geräuschdämpfung"
+      ]
+    }
+  ]
+}

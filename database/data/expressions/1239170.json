@@ -1,0 +1,88 @@
+{
+  "id": "1239170",
+  "readings": [
+    {
+      "kanaExpression": "ぎょうしゅう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "凝集",
+      "furiganaExpression": [
+        {
+          "text": "凝",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "集",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "凝聚",
+      "furiganaExpression": [
+        {
+          "text": "凝",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "聚",
+          "annotation": "しゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "agglomeration",
+        "clumping together",
+        "cohesion (of ions, etc.)",
+        "flocculation (of colloidal particles)",
+        "agglutination"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kohärieren",
+        "agglutinieren",
+        "sich ansammeln",
+        "kondensieren",
+        "gerinnen",
+        "Kohäsion",
+        "Agglutination",
+        "Flockung",
+        "Aggregierung",
+        "Aggregation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kohézió",
+        "összetapadás",
+        "összetartás",
+        "sűrítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сцепление; конденсация, конденсирование; (обр.) сосредоточение",
+        "{～する} сцепляться; конденсироваться; (обр.) сосредоточиваться (вокруг чего-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aglutinación",
+        "cohesión",
+        "agregación",
+        "ligación"
+      ]
+    }
+  ]
+}

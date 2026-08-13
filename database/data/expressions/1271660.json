@@ -1,0 +1,124 @@
+{
+  "id": "1271660",
+  "readings": [
+    {
+      "kanaExpression": "まじえる",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "交える",
+      "furiganaExpression": [
+        {
+          "text": "交",
+          "annotation": "まじ"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 7210
+    },
+    {
+      "kanjiExpression": "混える",
+      "furiganaExpression": [
+        {
+          "text": "混",
+          "annotation": "まじ"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "雑える",
+      "furiganaExpression": [
+        {
+          "text": "雑",
+          "annotation": "まじ"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to mix",
+        "to combine",
+        "to include",
+        "to exchange (words, fire, etc.)",
+        "to cross (e.g. swords)",
+        "to join together"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "erin mengen",
+        "erin brengen",
+        "erin begrijpen",
+        "erbij betrekken",
+        "toevoegen",
+        "larderen met",
+        "doorspekken met",
+        "kruisen",
+        "uitwisselen",
+        "wisselen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mélanger",
+        "combiner",
+        "immiscer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mischen",
+        "vermischen",
+        "vermengen",
+        "einbringen",
+        "kreuzen",
+        "verschränken",
+        "wechseln",
+        "austauschen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elegyít",
+        "összejár",
+        "összekever",
+        "vegyít",
+        "áthúz",
+        "keresztbe rak",
+        "keresztülhúz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) смешивать; примешивать",
+        "2) скрещивать",
+        "3) обмениваться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mezclar",
+        "combinar",
+        "intercambiar (palabras, fuego, etc)",
+        "cruzar (espadas)"
+      ]
+    }
+  ]
+}

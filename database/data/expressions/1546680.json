@@ -1,0 +1,130 @@
+{
+  "id": "1546680",
+  "readings": [
+    {
+      "kanaExpression": "ようきゅう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "要求",
+      "furiganaExpression": [
+        {
+          "text": "要",
+          "annotation": "よう"
+        },
+        {
+          "text": "求",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 1153
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "demand",
+        "firm request",
+        "requisition",
+        "requirement",
+        "desire"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vorderen",
+        "eisen",
+        "claimen",
+        "bedingen",
+        "aanspraak maken op",
+        "pretenderen",
+        "opeisen",
+        "vindiceren",
+        "verzoeken",
+        "aanspreken om",
+        "vereisen",
+        "verlangen",
+        "gebieden",
+        "kosten",
+        "vergen",
+        "vragen",
+        "nodig hebben",
+        "vordering",
+        "eis",
+        "claim",
+        "opvraging",
+        "aanspraak",
+        "pretentie",
+        "opeising",
+        "vindicatie",
+        "vereiste",
+        "vraag",
+        "behoefte",
+        "de noden",
+        "het gevergde"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "demander",
+        "réquisitionner",
+        "requérir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fordern",
+        "verlangen",
+        "erfordern",
+        "Forderung",
+        "Anspruch",
+        "Bedürfnis",
+        "Verlangen",
+        "Erfordernis",
+        "Anforderung",
+        "Anfrage",
+        "Request"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kereslet",
+        "kérés",
+        "kívánság",
+        "követelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "требование",
+        "{～する} требовать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zahteva",
+        "potreba",
+        "terjatev",
+        "zahtevati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pedir",
+        "requerir",
+        "demandar",
+        "reclamar",
+        "solicitar",
+        "demanda"
+      ]
+    }
+  ]
+}

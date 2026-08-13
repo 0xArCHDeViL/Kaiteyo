@@ -1,0 +1,105 @@
+{
+  "id": "1485430",
+  "readings": [
+    {
+      "kanaExpression": "とびたつ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "飛び立つ",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "rank": 14877
+    },
+    {
+      "kanjiExpression": "飛びたつ",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "びたつ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "飛立つ",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "とび"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to jump up",
+        "to start up",
+        "to leap to one\u0027s feet",
+        "to fly away",
+        "to take off"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opstijgen",
+        "vertrekken",
+        "wegvliegen",
+        "opvliegen",
+        "de vlucht aanvangen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufspringen",
+        "auffliegen",
+        "abheben",
+        "abfliegen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beindul",
+        "felpattan",
+        "eltávolít",
+        "utánzással nevetségessé tesz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) взлетать; улетать",
+        "2) вскакивать [на ноги]",
+        "3) прыгать (от радости)"
+      ]
+    }
+  ]
+}

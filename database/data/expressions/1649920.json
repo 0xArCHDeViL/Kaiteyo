@@ -1,0 +1,56 @@
+{
+  "id": "1649920",
+  "readings": [
+    {
+      "kanaExpression": "すいてい",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "みなそこ"
+    },
+    {
+      "kanaExpression": "みずそこ"
+    },
+    {
+      "kanaExpression": "みずぞこ"
+    },
+    {
+      "kanjiExpression": "水底",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "底",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sea or river bottom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flussgrund",
+        "Seegrund",
+        "Meeresgrund",
+        "Grund (eines Flusses, eines Sees oder Meeres)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дно (реки, моря и т. п.)",
+        "дно (реки и т. п.)"
+      ]
+    }
+  ]
+}

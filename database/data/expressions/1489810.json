@@ -1,0 +1,46 @@
+{
+  "id": "1489810",
+  "readings": [
+    {
+      "kanaExpression": "ひょうど",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "表土",
+      "furiganaExpression": [
+        {
+          "text": "表",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "土",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "top soil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Oberboden",
+        "oberste Erdschicht",
+        "Mutterboden",
+        "oberste Bodenschicht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поверхностный слой почвы"
+      ]
+    }
+  ]
+}

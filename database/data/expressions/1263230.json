@@ -1,0 +1,71 @@
+{
+  "id": "1263230",
+  "readings": [
+    {
+      "kanaExpression": "げんすい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "減衰",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "衰",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "attenuation",
+        "damping",
+        "decay"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(geleidelijke) vermindering",
+        "afneming",
+        "afname",
+        "verzwakking",
+        "fade-out",
+        "{nat.} decrement",
+        "(geleidelijk) verminderen",
+        "afnemen",
+        "verzwakken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abschwächung",
+        "Verdünnung",
+        "Dämpfung",
+        "abgeschwächt werden",
+        "geschwächt werden",
+        "gedämpft werden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bomlás",
+        "rothadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физ.) затухание; демпфирование; амортизация; декремент"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1974780",
+  "readings": [
+    {
+      "kanaExpression": "かていい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "家庭医",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "庭",
+          "annotation": "てい"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "family doctor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hausarzt",
+        "Familienarzt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "háziorvos"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "husläkare"
+      ]
+    }
+  ]
+}

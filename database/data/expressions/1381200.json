@@ -1,0 +1,73 @@
+{
+  "id": "1381200",
+  "readings": [
+    {
+      "kanaExpression": "ちかい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "誓い",
+      "furiganaExpression": [
+        {
+          "text": "誓",
+          "annotation": "ちか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "oath",
+        "vow"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eed",
+        "gelofte",
+        "plechtige belofte",
+        "erewoord",
+        "toezegging van een kami",
+        "boeddha om ter redding te komen",
+        "godsbelofte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eid",
+        "Schwur",
+        "Gelübde",
+        "Eidesleistung",
+        "Versprechen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eskü",
+        "ünnepélyes ígéret"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "присяга; клятва"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "juramento",
+        "promesa"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "1455240",
+  "readings": [
+    {
+      "kanaExpression": "とくはいん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "特派員",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とく"
+        },
+        {
+          "text": "派",
+          "annotation": "は"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(special) correspondent (e.g. for a newspaper)",
+        "representative",
+        "delegate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "speciale correspondent"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "correspondant",
+        "envoyé spécial"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Korrespondent"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "levelező"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) специальный представитель",
+        "2) специальный корреспондент"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "corresponsal"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "brevskrivare"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1604320",
+  "readings": [
+    {
+      "kanaExpression": "まんだら",
+      "rank": 34000
+    },
+    {
+      "kanaExpression": "まだら"
+    },
+    {
+      "kanaExpression": "マンダラ"
+    },
+    {
+      "kanjiExpression": "曼荼羅",
+      "furiganaExpression": [
+        {
+          "text": "曼",
+          "annotation": "まん"
+        },
+        {
+          "text": "荼",
+          "annotation": "だ"
+        },
+        {
+          "text": "羅",
+          "annotation": "ら"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "曼陀羅",
+      "furiganaExpression": [
+        {
+          "text": "曼",
+          "annotation": "まん"
+        },
+        {
+          "text": "陀",
+          "annotation": "だ"
+        },
+        {
+          "text": "羅",
+          "annotation": "ら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mandala"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mandala (mystisches Diagramm in in runder oder viereckiger Form; soll bestimmte geistige Zusammenhange versinnbildlichen)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((санскр.) Mandala)",
+        "1) (буд.) Мандала (мир познания)",
+        "2) мандала (картина)",
+        "3) изображение Будды",
+        "4) божница с изображением Будды",
+        "5) красочное изображение (чего-л.), картина"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "1201650",
+  "readings": [
+    {
+      "kanaExpression": "かいてい",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "うなぞこ"
+    },
+    {
+      "kanjiExpression": "海底",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "底",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 10227
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bottom of the ocean",
+        "seafloor",
+        "seabed",
+        "undersea",
+        "submarine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeebodem",
+        "zeebedding",
+        "grond"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fond de la mer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meeresgrund",
+        "Meeresboden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "морское дно, дно океана"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dno oceana"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fondo del océano"
+      ]
+    }
+  ]
+}

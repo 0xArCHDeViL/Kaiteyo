@@ -1,0 +1,119 @@
+{
+  "id": "1371280",
+  "readings": [
+    {
+      "kanaExpression": "みずたまり",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "水溜り",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "溜",
+          "annotation": "たま"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "水たまり",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "たまり"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "水溜まり",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "溜",
+          "annotation": "た"
+        },
+        {
+          "text": "まり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "水溜",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "溜",
+          "annotation": "たまり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "puddle",
+        "pool of water"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "plas",
+        "poel",
+        "waterplas"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserpfütze",
+        "Pfütze",
+        "Wasserlache",
+        "Lache"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tócsa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лужа"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "charco"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "puss",
+        "vattenpöl",
+        "vattenpuss"
+      ]
+    }
+  ]
+}

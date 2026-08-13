@@ -1,0 +1,81 @@
+{
+  "id": "1349310",
+  "readings": [
+    {
+      "kanaExpression": "なおかつ",
+      "rank": 8185
+    },
+    {
+      "kanjiExpression": "尚且つ",
+      "furiganaExpression": [
+        {
+          "text": "尚",
+          "annotation": "なお"
+        },
+        {
+          "text": "且",
+          "annotation": "か"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "尚かつ",
+      "furiganaExpression": [
+        {
+          "text": "尚",
+          "annotation": "なお"
+        },
+        {
+          "text": "かつ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "なお且つ",
+      "furiganaExpression": [
+        {
+          "text": "なお"
+        },
+        {
+          "text": "且",
+          "annotation": "か"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "besides",
+        "furthermore",
+        "on top of that",
+        "and yet",
+        "nevertheless",
+        "even so"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außerdem",
+        "noch immer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "amellett",
+        "azonkívül",
+        "ezenkívül"
+      ]
+    }
+  ]
+}

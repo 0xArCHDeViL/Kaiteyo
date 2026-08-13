@@ -1,0 +1,37 @@
+{
+  "id": "1689420",
+  "readings": [
+    {
+      "kanaExpression": "ひんだ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "貧打",
+      "furiganaExpression": [
+        {
+          "text": "貧",
+          "annotation": "ひん"
+        },
+        {
+          "text": "打",
+          "annotation": "だ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "poor hitting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schlechtes Schlagen"
+      ]
+    }
+  ]
+}

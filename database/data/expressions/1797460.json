@@ -1,0 +1,49 @@
+{
+  "id": "1797460",
+  "readings": [
+    {
+      "kanaExpression": "ちょうぶん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "長文",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 10764
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "long sentence",
+        "long piece of writing (e.g. passage, letter, article, telegram)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lang",
+        "ausführlich (Text, Satz, Brief)",
+        "langer Satz",
+        "langer Text",
+        "langer Brief"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "длинный текст (письма и т. п.)",
+        "{～の} длинный (о тексте)"
+      ]
+    }
+  ]
+}

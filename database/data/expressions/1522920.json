@@ -1,0 +1,44 @@
+{
+  "id": "1522920",
+  "readings": [
+    {
+      "kanaExpression": "ほんそう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "本葬",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "葬",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "formal funeral"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "formelles Begräbnis",
+        "Bestattungsfeier"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "официальная церемония погребения"
+      ]
+    }
+  ]
+}

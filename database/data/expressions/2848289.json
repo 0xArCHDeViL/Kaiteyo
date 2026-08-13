@@ -1,0 +1,92 @@
+{
+  "id": "2848289",
+  "readings": [
+    {
+      "kanaExpression": "こんぽん",
+      "rank": 18000
+    },
+    {
+      "kanaExpression": "こんぼん"
+    },
+    {
+      "kanjiExpression": "根本",
+      "furiganaExpression": [
+        {
+          "text": "根",
+          "annotation": "こん"
+        },
+        {
+          "text": "本",
+          "annotation": "ぽん"
+        }
+      ],
+      "rank": 2623
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "root",
+        "source",
+        "origin",
+        "foundation",
+        "basis",
+        "essence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "origine",
+        "ontstaan",
+        "oorsprong",
+        "wortel",
+        "essentie",
+        "wezen",
+        "basis",
+        "fundament",
+        "grondslag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grundlage",
+        "Basis",
+        "Ursache"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eredet",
+        "forrás",
+        "gyök",
+        "szótő",
+        "alap",
+        "aljas",
+        "hamisított",
+        "közönséges"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) корень, [перво]источник",
+        "2) основа",
+        "{～[的]} фундаментальный; основной; радикальный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "raíz",
+        "origen",
+        "cimientos",
+        "base",
+        "principio"
+      ]
+    }
+  ]
+}

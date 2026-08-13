@@ -1,0 +1,67 @@
+{
+  "id": "1308600",
+  "readings": [
+    {
+      "kanaExpression": "しちょうそん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "市町村",
+      "furiganaExpression": [
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "町",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "村",
+          "annotation": "そん"
+        }
+      ],
+      "rank": 2656
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cities, towns and villages",
+        "municipalities"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "steden",
+        "stedelijke gemeenten en dorpen",
+        "{verzameln.} municipaliteiten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "communes",
+        "municipalité",
+        "villages",
+        "villes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Städte und Dörfer",
+        "Gemeinden",
+        "Kommunen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "города, городки и деревни"
+      ]
+    }
+  ]
+}

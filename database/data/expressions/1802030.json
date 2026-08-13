@@ -1,0 +1,49 @@
+{
+  "id": "1802030",
+  "readings": [
+    {
+      "kanaExpression": "せんぱい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "戦敗",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "敗",
+          "annotation": "ぱい"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "defeat in war"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegsniederlage"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поражение [в войне (в бою)]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "derrotado en la guerra"
+      ]
+    }
+  ]
+}

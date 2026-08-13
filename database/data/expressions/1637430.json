@@ -1,0 +1,41 @@
+{
+  "id": "1637430",
+  "readings": [
+    {
+      "kanaExpression": "ておし",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "手押し",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pushing by hand",
+        "hand gilding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schieben mit der Hand"
+      ]
+    }
+  ]
+}

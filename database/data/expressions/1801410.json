@@ -1,0 +1,47 @@
+{
+  "id": "1801410",
+  "readings": [
+    {
+      "kanaExpression": "かくせい",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "隔世",
+      "furiganaExpression": [
+        {
+          "text": "隔",
+          "annotation": "かく"
+        },
+        {
+          "text": "世",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "separation of ages",
+        "being of a different age"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weit entfernte Zeit",
+        "andere Generation",
+        "anderes Zeitalter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) другие времена, другая эпоха",
+        "{～的} а) принадлежащий другому миру; (обр.) необычайный; б) периодический"
+      ]
+    }
+  ]
+}

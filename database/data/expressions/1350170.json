@@ -1,0 +1,83 @@
+{
+  "id": "1350170",
+  "readings": [
+    {
+      "kanaExpression": "しょうかき",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "消火器",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fire extinguisher"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "brandblusapparaat",
+        "blusapparaat",
+        "brandblusser",
+        "extincteur",
+        "± annihilator"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "extincteur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feuerlöscher",
+        "Feuerlöschgerät"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kézi tűzoltókészülék",
+        "tűzoltó készülék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "огнетушитель"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "gasilna naprava"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "extintor de incendios"
+      ]
+    }
+  ]
+}

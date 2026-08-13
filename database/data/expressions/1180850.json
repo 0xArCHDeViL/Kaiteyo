@@ -1,0 +1,80 @@
+{
+  "id": "1180850",
+  "readings": [
+    {
+      "kanaExpression": "よこがき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "横書き",
+      "furiganaExpression": [
+        {
+          "text": "横",
+          "annotation": "よこ"
+        },
+        {
+          "text": "書",
+          "annotation": "が"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "横書",
+      "furiganaExpression": [
+        {
+          "text": "横",
+          "annotation": "よこ"
+        },
+        {
+          "text": "書",
+          "annotation": "がき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "writing horizontally",
+        "horizontal writing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "écrire horizontalement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "horizontale Schreibung",
+        "horizontaler Schriftsatz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горизонтальное письмо",
+        "{～にする} писать горизонтально"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vodoravno pisanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "escritura horizontal"
+      ]
+    }
+  ]
+}

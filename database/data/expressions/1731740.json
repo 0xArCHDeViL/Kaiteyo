@@ -1,0 +1,55 @@
+{
+  "id": "1731740",
+  "readings": [
+    {
+      "kanaExpression": "ひれいはいぶん",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "比例配分",
+      "furiganaExpression": [
+        {
+          "text": "比",
+          "annotation": "ひ"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        },
+        {
+          "text": "配",
+          "annotation": "はい"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "proportional distribution"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "proportionale Verteilung",
+        "proportionale Zuteilung",
+        "lineare Interpolation"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "prorrateo",
+        "reparto a prorrata",
+        "distribución proporcional a la cuota de cada copartícipe"
+      ]
+    }
+  ]
+}

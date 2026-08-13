@@ -1,0 +1,53 @@
+{
+  "id": "1735230",
+  "readings": [
+    {
+      "kanaExpression": "てっき",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "てきき"
+    },
+    {
+      "kanjiExpression": "敵機",
+      "furiganaExpression": [
+        {
+          "text": "敵",
+          "annotation": "てっ"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "enemy plane"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vijandelijk vliegtuig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feindliches Flugzeug",
+        "Feindflugzeug"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неприятельский самолёт; авиация противника"
+      ]
+    }
+  ]
+}

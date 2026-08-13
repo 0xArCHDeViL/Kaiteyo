@@ -1,0 +1,84 @@
+{
+  "id": "1520260",
+  "readings": [
+    {
+      "kanaExpression": "ぼうか",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "防火",
+      "furiganaExpression": [
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fire prevention",
+        "fire fighting",
+        "fire proof"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "brandpreventie",
+        "brandbeveiliging",
+        "bestrijding van brandgevaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lutte contre les incendies",
+        "prévention contre les incendies"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feuersicher",
+        "Brandschutz",
+        "Feuerschutz",
+        "Brandverhütung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tűzvédelem",
+        "tűztől elszigetelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предохранение от огня (от пожаров); противопожарная охрана"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "požig",
+        "preprečitev požara"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "prevención de incendios",
+        "antifuego"
+      ]
+    }
+  ]
+}

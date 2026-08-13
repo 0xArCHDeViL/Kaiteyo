@@ -1,0 +1,65 @@
+{
+  "id": "1611140",
+  "readings": [
+    {
+      "kanaExpression": "ばあさん",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ばーさん"
+    },
+    {
+      "kanjiExpression": "婆さん",
+      "furiganaExpression": [
+        {
+          "text": "婆",
+          "annotation": "ばあ"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "祖母さん",
+      "furiganaExpression": [
+        {
+          "text": "祖母",
+          "annotation": "ばあ"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grandmother",
+        "old woman",
+        "female senior citizen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grand-mère"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nagyanya"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abuela"
+      ]
+    }
+  ]
+}

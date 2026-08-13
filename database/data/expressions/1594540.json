@@ -1,0 +1,83 @@
+{
+  "id": "1594540",
+  "readings": [
+    {
+      "kanaExpression": "しまじま",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "島々",
+      "furiganaExpression": [
+        {
+          "text": "島",
+          "annotation": "しま"
+        },
+        {
+          "text": "々",
+          "annotation": "じま"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "島島",
+      "furiganaExpression": [
+        {
+          "text": "島",
+          "annotation": "しま"
+        },
+        {
+          "text": "島",
+          "annotation": "じま"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "島じま",
+      "furiganaExpression": [
+        {
+          "text": "島",
+          "annotation": "しま"
+        },
+        {
+          "text": "じま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "islands"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eilanden",
+        "eilandengroep",
+        "archipel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "îles"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "viele Inseln",
+        "Inseln"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "islas"
+      ]
+    }
+  ]
+}

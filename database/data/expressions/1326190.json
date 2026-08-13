@@ -1,0 +1,60 @@
+{
+  "id": "1326190",
+  "readings": [
+    {
+      "kanaExpression": "しゅぶん",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "主文",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main clause",
+        "main part (of a piece of writing)",
+        "text (of a judicial decision)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{taalk.} hoofdzin",
+        "{jur.} uitspraak",
+        "beslissend gedeelte van een vonnis",
+        "verdict"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptsatz",
+        "Urteilstext",
+        "Wortlaut",
+        "Urteilsformel",
+        "Tenor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) текст",
+        "2) (грам.) главное предложение",
+        "3) (юр.) резолютивная часть приговора"
+      ]
+    }
+  ]
+}

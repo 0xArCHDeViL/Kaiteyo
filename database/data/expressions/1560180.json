@@ -1,0 +1,55 @@
+{
+  "id": "1560180",
+  "readings": [
+    {
+      "kanaExpression": "ろてんぶろ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "露天風呂",
+      "furiganaExpression": [
+        {
+          "text": "露",
+          "annotation": "ろ"
+        },
+        {
+          "text": "天",
+          "annotation": "てん"
+        },
+        {
+          "text": "風",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "呂",
+          "annotation": "ろ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "open-air bath",
+        "rotenburo",
+        "rotemburo"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "openluchtbad",
+        "buitenbad",
+        "natuurbad"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freiluftbad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "1599010",
+  "readings": [
+    {
+      "kanaExpression": "とりあつかいちゅうい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "取扱注意",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "扱",
+          "annotation": "あつかい"
+        },
+        {
+          "text": "注",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "取り扱い注意",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "扱",
+          "annotation": "あつか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "注",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "handling warning"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "\"Attention fragile !\""
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "Vigyázva Szállítandó!"
+      ]
+    }
+  ]
+}

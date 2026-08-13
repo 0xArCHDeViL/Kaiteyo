@@ -1,0 +1,72 @@
+{
+  "id": "1483430",
+  "readings": [
+    {
+      "kanaExpression": "ひはんてき",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "批判的",
+      "furiganaExpression": [
+        {
+          "text": "批",
+          "annotation": "ひ"
+        },
+        {
+          "text": "判",
+          "annotation": "はん"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "critical",
+        "judgmental"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kritisch"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "critique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kritisch",
+        "in kritischer Weise",
+        "streng prüfend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "boncolgató",
+        "kritikai",
+        "kritikus",
+        "válságos",
+        "vizsgálódó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "критический"
+      ]
+    }
+  ]
+}

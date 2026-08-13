@@ -1,0 +1,89 @@
+{
+  "id": "1514420",
+  "readings": [
+    {
+      "kanaExpression": "ほどう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "歩道",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "ほ"
+        },
+        {
+          "text": "道",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 7368
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "footpath",
+        "walkway",
+        "sidewalk",
+        "pavement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voetpad",
+        "wandelpad",
+        "wandelweg",
+        "stoep",
+        "trottoir",
+        "de kleine steentjes"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chemin",
+        "trottoir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gehweg",
+        "Fußweg",
+        "Bürgersteig",
+        "Gehsteig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "futóléc",
+        "járó",
+        "kezelőhíd",
+        "járda"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тротуар; пешеходная дорожка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "steza za pešce",
+        "pločnik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arcén"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "1313350",
+  "readings": [
+    {
+      "kanaExpression": "はぐるま",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "歯車",
+      "furiganaExpression": [
+        {
+          "text": "歯",
+          "annotation": "は"
+        },
+        {
+          "text": "車",
+          "annotation": "ぐるま"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gear",
+        "cogwheel",
+        "cog (in an organization, company, etc.)",
+        "cog in the machine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tandwiel",
+        "tandrad",
+        "kamrad",
+        "kamwiel",
+        "getand rad",
+        "{fig.} radertje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "engrenage",
+        "roue dentée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zahnrad",
+        "Ritzel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fogaskerék",
+        "holmi",
+        "sebességfokozat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зубчатое колесо; шестерня"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zobato kolo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "engranaje",
+        "rueda dentada"
+      ]
+    }
+  ]
+}

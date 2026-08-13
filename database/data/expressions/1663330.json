@@ -1,0 +1,64 @@
+{
+  "id": "1663330",
+  "readings": [
+    {
+      "kanaExpression": "やきばた",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "やきはた"
+    },
+    {
+      "kanaExpression": "やきばたけ"
+    },
+    {
+      "kanaExpression": "やいばた"
+    },
+    {
+      "kanjiExpression": "焼き畑",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "畑",
+          "annotation": "ばた"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "焼畑",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "やき"
+        },
+        {
+          "text": "畑",
+          "annotation": "ばた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "land made arable by the slash-and-burn method",
+        "swidden",
+        "slash-and-burn farming"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Brandrodungsfläche"
+      ]
+    }
+  ]
+}

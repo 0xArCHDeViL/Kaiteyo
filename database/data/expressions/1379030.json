@@ -1,0 +1,61 @@
+{
+  "id": "1379030",
+  "readings": [
+    {
+      "kanaExpression": "せいさんせい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "生産性",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "せい"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "productivity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "productiviteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Produktivität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "termelékenység",
+        "termékenység",
+        "termőképesség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "производительность [труда] ((как качество; ср.) せいさんこうりつ и せいさんりょう)"
+      ]
+    }
+  ]
+}

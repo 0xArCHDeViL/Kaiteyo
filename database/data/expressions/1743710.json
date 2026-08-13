@@ -1,0 +1,57 @@
+{
+  "id": "1743710",
+  "readings": [
+    {
+      "kanaExpression": "こさく",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "小作",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "作",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tenant farming"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pachting",
+        "pacht",
+        "{i.h.b.} deelpacht",
+        "zaadpacht",
+        "pachter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pacht",
+        "Pachtung",
+        "Pachtverhältnis",
+        "Pächter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "аренда [земли]",
+        "{～する} арендовать [землю]"
+      ]
+    }
+  ]
+}

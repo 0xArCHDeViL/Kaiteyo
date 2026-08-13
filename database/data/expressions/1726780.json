@@ -1,0 +1,55 @@
+{
+  "id": "1726780",
+  "readings": [
+    {
+      "kanaExpression": "じばら",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "自腹",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "腹",
+          "annotation": "ばら"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paying one\u0027s own way"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eigen buik",
+        "eigen portemonnee",
+        "betaling uit eigen portemonnee",
+        "betaling uit eigen zak"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "der eigene Bauch",
+        "der eigene Geldbeutel",
+        "das eigene Geld",
+        "Bezahlen aus eigener Tasche"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прост.) расходы из собственных средств"
+      ]
+    }
+  ]
+}

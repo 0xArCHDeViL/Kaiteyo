@@ -1,0 +1,50 @@
+{
+  "id": "1391800",
+  "readings": [
+    {
+      "kanaExpression": "せんが",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "線画",
+      "furiganaExpression": [
+        {
+          "text": "線",
+          "annotation": "せん"
+        },
+        {
+          "text": "画",
+          "annotation": "が"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "line drawing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Strichzeichnung",
+        "Umrisszeichnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vonalas rajz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "штриховой рисунок; штриховая гравюра"
+      ]
+    }
+  ]
+}

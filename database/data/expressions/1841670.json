@@ -1,0 +1,87 @@
+{
+  "id": "1841670",
+  "readings": [
+    {
+      "kanaExpression": "しろくま",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "シロクマ"
+    },
+    {
+      "kanjiExpression": "白熊",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "しろ"
+        },
+        {
+          "text": "熊",
+          "annotation": "くま"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "白くま",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "しろ"
+        },
+        {
+          "text": "くま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "polar bear (Ursus maritimus)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} ijsbeer",
+        "poolbeer",
+        "Ursus maritimus",
+        "Thalassarctos maritimus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eisbär",
+        "Polarbär",
+        "Thalarctos maritimus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jegesmedve"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "белый медведь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oso polar (eng: polar bear)",
+        "oso polar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "isbjörn"
+      ]
+    }
+  ]
+}

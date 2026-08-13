@@ -1,0 +1,44 @@
+{
+  "id": "1436180",
+  "readings": [
+    {
+      "kanaExpression": "にわき",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "庭木",
+      "furiganaExpression": [
+        {
+          "text": "庭",
+          "annotation": "にわ"
+        },
+        {
+          "text": "木",
+          "annotation": "き"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "garden tree"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gartenbaum",
+        "Gartenstrauch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "садовые деревья (посадки)"
+      ]
+    }
+  ]
+}

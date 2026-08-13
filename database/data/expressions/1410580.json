@@ -1,0 +1,103 @@
+{
+  "id": "1410580",
+  "readings": [
+    {
+      "kanaExpression": "まちのぞむ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "待ち望む",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "ま"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "望",
+          "annotation": "のぞ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "待ちのぞむ",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "ま"
+        },
+        {
+          "text": "ちのぞむ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "待望む",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "まち"
+        },
+        {
+          "text": "望",
+          "annotation": "のぞ"
+        },
+        {
+          "text": "む"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to wait eagerly for",
+        "to look forward to"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vol verlangen tegemoet zien",
+        "reikhalzend uitzien naar",
+        "met ongeduld afwachten",
+        "met smart wachten op",
+        "{form.",
+        "lit.t.} verbeiden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "attendre avec anxiété",
+        "attendre impatiemment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sehnsüchtig warten",
+        "sich freuen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ожидать с надеждой, надеяться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "anhelar"
+      ]
+    }
+  ]
+}

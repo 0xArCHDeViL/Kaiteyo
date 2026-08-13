@@ -1,0 +1,95 @@
+{
+  "id": "1606630",
+  "readings": [
+    {
+      "kanaExpression": "わがくに",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "我が国",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "国",
+          "annotation": "くに"
+        }
+      ],
+      "rank": 2566
+    },
+    {
+      "kanjiExpression": "我国",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わが"
+        },
+        {
+          "text": "国",
+          "annotation": "くに"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "わが国",
+      "furiganaExpression": [
+        {
+          "text": "わが"
+        },
+        {
+          "text": "国",
+          "annotation": "くに"
+        }
+      ],
+      "rank": 3093
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "our country",
+        "our land",
+        "one\u0027s own country"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ons land",
+        "het eigen land",
+        "z\u0027n geboortestreek",
+        "z\u0027n heimat",
+        "heem",
+        "{vanuit Japans perspectief} Japan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "notre pays",
+        "notre terre (le japon)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unser Land",
+        "unser Vaterland",
+        "Japan (wenn Japaner von ihrem Land sprechen)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nuestro país",
+        "nuestra tierra"
+      ]
+    }
+  ]
+}

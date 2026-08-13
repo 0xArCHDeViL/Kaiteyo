@@ -1,0 +1,44 @@
+{
+  "id": "1653290",
+  "readings": [
+    {
+      "kanaExpression": "ちょうけん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "朝見",
+      "furiganaExpression": [
+        {
+          "text": "朝",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "見",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "audience with the Emperor",
+        "imperial audience"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Audienz beim Kaiser"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) аудиенция у императора"
+      ]
+    }
+  ]
+}

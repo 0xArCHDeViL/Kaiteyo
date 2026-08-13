@@ -1,0 +1,71 @@
+{
+  "id": "1237140",
+  "readings": [
+    {
+      "kanaExpression": "きょうじ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "きょうし",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "教示",
+      "furiganaExpression": [
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "示",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "instruction",
+        "teaching"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "enseignement",
+        "instruction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Belehrung",
+        "Unterweisung",
+        "Instruktion",
+        "Anweisung an eine Testperson (bei einer Studie)",
+        "belehren",
+        "unterweisen",
+        "unterrichten",
+        "jmdm. etw. zeigen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "oktatás",
+        "tanítás",
+        "útmutatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "инструктаж; указание",
+        "{～する} инструктировать; давать указание; разъяснять"
+      ]
+    }
+  ]
+}

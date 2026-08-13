@@ -1,0 +1,67 @@
+{
+  "id": "1535580",
+  "readings": [
+    {
+      "kanaExpression": "もくてきち",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "目的地",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "もく"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "destination (one is heading towards)",
+        "goal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "destination"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zielort",
+        "Ziel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "место назначения; конечный пункт (напр. путешествия)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lugar de destino"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "adressort"
+      ]
+    }
+  ]
+}

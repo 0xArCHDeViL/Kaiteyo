@@ -1,0 +1,69 @@
+{
+  "id": "1183040",
+  "readings": [
+    {
+      "kanaExpression": "おろしどんや",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "卸し問屋",
+      "furiganaExpression": [
+        {
+          "text": "卸",
+          "annotation": "おろ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "問",
+          "annotation": "どん"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "卸問屋",
+      "furiganaExpression": [
+        {
+          "text": "卸",
+          "annotation": "おろし"
+        },
+        {
+          "text": "問",
+          "annotation": "どん"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wholesaler"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Großhändler"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nagybani vásárló",
+        "nagykereskedelmi vállalat",
+        "nagykereskedő"
+      ]
+    }
+  ]
+}

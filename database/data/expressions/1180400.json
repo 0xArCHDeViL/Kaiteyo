@@ -1,0 +1,101 @@
+{
+  "id": "1180400",
+  "readings": [
+    {
+      "kanaExpression": "おしだまる",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "押し黙る",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "黙",
+          "annotation": "だま"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "押黙る",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "おし"
+        },
+        {
+          "text": "黙",
+          "annotation": "だま"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "押しだまる",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "しだまる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "おし黙る",
+      "furiganaExpression": [
+        {
+          "text": "おし"
+        },
+        {
+          "text": "黙",
+          "annotation": "だま"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to keep silent"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zwijgen als het graf",
+        "de lippen stijf op elkaar klemmen",
+        "geen mond open doen",
+        "z\u0027n mond houden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stillschweigen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хранить молчание, упорно молчать"
+      ]
+    }
+  ]
+}

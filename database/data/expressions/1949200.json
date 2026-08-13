@@ -1,0 +1,76 @@
+{
+  "id": "1949200",
+  "readings": [
+    {
+      "kanaExpression": "たっし",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "達し",
+      "furiganaExpression": [
+        {
+          "text": "達",
+          "annotation": "たっ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "達示",
+      "furiganaExpression": [
+        {
+          "text": "達",
+          "annotation": "たっ"
+        },
+        {
+          "text": "示",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "official notice",
+        "notification"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "officieel bericht",
+        "overheidsbericht",
+        "mededeling van overheidswege",
+        "nota vanwege een meerdere",
+        "{Edo-shogunaat} bevel",
+        "decreet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bekanntmachung",
+        "öffentliche Anordnung",
+        "Erlass",
+        "Befehl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tudtul adás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "распоряжение (властей), приказ"
+      ]
+    }
+  ]
+}

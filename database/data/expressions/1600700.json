@@ -1,0 +1,125 @@
+{
+  "id": "1600700",
+  "readings": [
+    {
+      "kanaExpression": "はぐくむ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "育む",
+      "furiganaExpression": [
+        {
+          "text": "育",
+          "annotation": "はぐく"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 9595
+    },
+    {
+      "kanjiExpression": "育くむ",
+      "furiganaExpression": [
+        {
+          "text": "育",
+          "annotation": "はぐ"
+        },
+        {
+          "text": "くむ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to raise",
+        "to bring up",
+        "to rear",
+        "to cultivate",
+        "to foster",
+        "to nurture"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bebroeden",
+        "broeden op",
+        "oppassen",
+        "zorgen voor",
+        "grootbrengen",
+        "opvoeden",
+        "kweken",
+        "{niet alg.} opbrengen",
+        "cultiveren",
+        "aankweken",
+        "koesteren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "élever"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufziehen",
+        "großziehen",
+        "ernähren",
+        "füttern",
+        "züchten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ébreszt",
+        "előidéz",
+        "előléptet",
+        "előteremt",
+        "emel",
+        "épít",
+        "felébreszt",
+        "felemel",
+        "felhoz",
+        "felkelt",
+        "felnevel",
+        "felold",
+        "felver",
+        "felvet",
+        "fokoz",
+        "kelt",
+        "magasra emel",
+        "megemel",
+        "megszüntet",
+        "tenyészt",
+        "termeszt",
+        "felállít",
+        "felelevenít",
+        "felidéz",
+        "kihány",
+        "kiokád",
+        "megállít"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vzgojiti",
+        "vzrediti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "criar",
+        "educar"
+      ]
+    }
+  ]
+}

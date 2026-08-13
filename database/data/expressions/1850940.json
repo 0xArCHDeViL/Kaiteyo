@@ -1,0 +1,100 @@
+{
+  "id": "1850940",
+  "readings": [
+    {
+      "kanaExpression": "くりあがる",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "繰り上がる",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "がる"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "繰上がる",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "がる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "繰り上る",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "annotation": "あが"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "繰上る",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "上",
+          "annotation": "あが"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to move up (e.g. date, rank, order)",
+        "to be advanced",
+        "to be carried (of a number in addition)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufrücken",
+        "nach vorne rücken",
+        "nach oben rücken",
+        "vorverlegen",
+        "übertragen"
+      ]
+    }
+  ]
+}

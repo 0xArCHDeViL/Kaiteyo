@@ -1,0 +1,63 @@
+{
+  "id": "1325340",
+  "readings": [
+    {
+      "kanaExpression": "しゅけい",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "主計",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "計",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paymaster",
+        "accountant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "accountant",
+        "boekhouder",
+        "administrateur",
+        "{mil.} betaalmeester"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rechnungsbeamter",
+        "Schatzmeister"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fizetőtiszt",
+        "hadbiztos",
+        "számvivő",
+        "számvivőtiszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "интендант; офицер интендантской службы"
+      ]
+    }
+  ]
+}

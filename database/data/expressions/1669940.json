@@ -1,0 +1,60 @@
+{
+  "id": "1669940",
+  "readings": [
+    {
+      "kanaExpression": "ちのうみ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "血の海",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "ち"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "海",
+          "annotation": "うみ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sea of blood",
+        "pool of blood"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zee van bloed",
+        "bloedbad"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meer von Blut"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vérfürdő"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Mar de sangre"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "2772730",
+  "readings": [
+    {
+      "kanaExpression": "にくい",
+      "rank": 1232
+    },
+    {
+      "kanaExpression": "がたい",
+      "rank": 4096
+    },
+    {
+      "kanjiExpression": "難い",
+      "furiganaExpression": [
+        {
+          "text": "難",
+          "annotation": "にく"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 4855
+    },
+    {
+      "kanjiExpression": "悪い",
+      "furiganaExpression": [
+        {
+          "text": "悪",
+          "annotation": "にく"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 365
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "difficult to ...",
+        "hard to ..."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moeilijk {te doen}",
+        "moeilijk te ~",
+        "lastig te ~"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bonyolult",
+        "nehéz",
+        "nehézkes",
+        "éles",
+        "erős",
+        "fáradságos",
+        "fárasztó",
+        "gyorsan",
+        "kegyetlen",
+        "kemény",
+        "keserves",
+        "kitartó",
+        "rideg",
+        "szilárd",
+        "zord"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(суф., указывает на трудность совершения действия)",
+        "(суф., указывающий на трудность совершения действия:)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "duro",
+        "difícil"
+      ]
+    }
+  ]
+}

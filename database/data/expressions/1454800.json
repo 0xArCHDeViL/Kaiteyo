@@ -1,0 +1,53 @@
+{
+  "id": "1454800",
+  "readings": [
+    {
+      "kanaExpression": "とっきょけん",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "特許権",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とっ"
+        },
+        {
+          "text": "許",
+          "annotation": "きょ"
+        },
+        {
+          "text": "権",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "patent rights"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Patentrecht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szabadalmi jogok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "патентное право"
+      ]
+    }
+  ]
+}

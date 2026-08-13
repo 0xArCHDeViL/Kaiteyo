@@ -1,0 +1,53 @@
+{
+  "id": "1472480",
+  "readings": [
+    {
+      "kanaExpression": "はいらん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "排卵",
+      "furiganaExpression": [
+        {
+          "text": "排",
+          "annotation": "はい"
+        },
+        {
+          "text": "卵",
+          "annotation": "らん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ovulation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eisprung",
+        "Ovulation",
+        "ovulieren (reife Eizellen abstoßen)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ovulación"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ovulation",
+        "äggbildning",
+        "ägglossning"
+      ]
+    }
+  ]
+}

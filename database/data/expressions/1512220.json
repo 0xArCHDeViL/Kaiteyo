@@ -1,0 +1,121 @@
+{
+  "id": "1512220",
+  "readings": [
+    {
+      "kanaExpression": "へんじ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "返事",
+      "furiganaExpression": [
+        {
+          "text": "返",
+          "annotation": "へん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 2350
+    },
+    {
+      "kanjiExpression": "返辞",
+      "furiganaExpression": [
+        {
+          "text": "返",
+          "annotation": "へん"
+        },
+        {
+          "text": "辞",
+          "annotation": "じ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reply",
+        "answer",
+        "response"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "antwoorden",
+        "(een) antwoord geven",
+        "repliceren",
+        "responderen",
+        "reageren",
+        "beantwoorden",
+        "{arch.} bescheid geven",
+        "{i.h.b.} rescriberen",
+        "antwoord",
+        "repliek",
+        "respons",
+        "responsie",
+        "beantwoording",
+        "reactie",
+        "{i.h.b.} weerwoord",
+        "sjoege"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "réponse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "antworten",
+        "eine Antwort geben",
+        "Antwort",
+        "Erwiderung",
+        "Entgegnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "válasz",
+        "felelet",
+        "érzelmi visszahatás",
+        "reagálás",
+        "reakció",
+        "válaszolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ответ",
+        "{～する} отвечать, давать ответ"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odgovor",
+        "odgovoriti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "respuesta",
+        "contestación"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "svar"
+      ]
+    }
+  ]
+}

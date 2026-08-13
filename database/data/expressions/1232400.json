@@ -1,0 +1,66 @@
+{
+  "id": "1232400",
+  "readings": [
+    {
+      "kanaExpression": "きょぜつはんのう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "拒絶反応",
+      "furiganaExpression": [
+        {
+          "text": "拒",
+          "annotation": "きょ"
+        },
+        {
+          "text": "絶",
+          "annotation": "ぜつ"
+        },
+        {
+          "text": "反",
+          "annotation": "はん"
+        },
+        {
+          "text": "応",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(transplant) rejection",
+        "strong reaction (against)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rejektion",
+        "Abstoßung",
+        "Abstoßungsreaktion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kilökődés"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reacción de rechazo (medicina)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "avslag"
+      ]
+    }
+  ]
+}

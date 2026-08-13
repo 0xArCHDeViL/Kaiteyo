@@ -1,0 +1,43 @@
+{
+  "id": "1802060",
+  "readings": [
+    {
+      "kanaExpression": "せんぴ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "戦費",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "費",
+          "annotation": "ぴ"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "war expenditures"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegskosten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "военные расходы"
+      ]
+    }
+  ]
+}

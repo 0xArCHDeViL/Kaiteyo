@@ -1,0 +1,139 @@
+{
+  "id": "1456670",
+  "readings": [
+    {
+      "kanaExpression": "つきとめる",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "突き止める",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "突きとめる",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "きとめる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "突止める",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つき"
+        },
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "突き留める",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to determine (esp. a culprit or underlying cause)",
+        "to pin down",
+        "to ascertain",
+        "to locate",
+        "to identify",
+        "to stab to death"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vastpinnen",
+        "vastspelden",
+        "doodsteken",
+        "uitzoeken",
+        "uitpuzzelen",
+        "achterhalen",
+        "erachter komen",
+        "zich vergewissen van",
+        "nagaan",
+        "te weten komen",
+        "opsporen",
+        "nasporen",
+        "traceren",
+        "uitvinden",
+        "precies aangeven",
+        "verifiëren",
+        "pointeren",
+        "precies lokaliseren",
+        "nauwkeurig vaststellen",
+        "identificeren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausfindig machen",
+        "aufspüren",
+        "ermitteln",
+        "herausbekommen",
+        "erstechen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyet megállapít",
+        "kiderít",
+        "megállapít",
+        "megtud"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доискиваться, уточнять"
+      ]
+    }
+  ]
+}

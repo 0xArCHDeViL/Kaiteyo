@@ -1,0 +1,41 @@
+{
+  "id": "1264700",
+  "readings": [
+    {
+      "kanaExpression": "げんどがく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "限度額",
+      "furiganaExpression": [
+        {
+          "text": "限",
+          "annotation": "げん"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        },
+        {
+          "text": "額",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "limit (amount, e.g. on credit card, loan, expenditure)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kreditlimit (einer Kreditkarte)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "1610350",
+  "readings": [
+    {
+      "kanaExpression": "ちょうほんにん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "張本人",
+      "furiganaExpression": [
+        {
+          "text": "張",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "人",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "帳本人",
+      "furiganaExpression": [
+        {
+          "text": "帳",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "人",
+          "annotation": "にん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "originator",
+        "ringleader",
+        "perpetrator",
+        "main culprit",
+        "person responsible"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aanstichter",
+        "aanstoker",
+        "aanzetter",
+        "ophitser",
+        "opstoker",
+        "stoker",
+        "opruier",
+        "oproerkraaier",
+        "raddraaier",
+        "stokebrand",
+        "{veroud.} aanlegger",
+        "{veroud.} operateur",
+        "{gew.} opsteker",
+        "{jur.} auctor intellectualis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "auteur",
+        "meneur",
+        "promoteur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anstifter",
+        "Urheber",
+        "Rädelsführer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "főkolompos",
+        "kezdeményező",
+        "létrehozó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зачинщик, застрельщик, заводила; главарь, вожак"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pobudnik",
+        "organizator",
+        "odgovorni",
+        "avtor"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cabecilla"
+      ]
+    }
+  ]
+}

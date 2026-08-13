@@ -1,0 +1,52 @@
+{
+  "id": "2001850",
+  "readings": [
+    {
+      "kanaExpression": "れいばい",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "冷媒",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "れい"
+        },
+        {
+          "text": "媒",
+          "annotation": "ばい"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "refrigerant",
+        "coolant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kühlmittel",
+        "Kältemittel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hűtő"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kylmedel",
+        "kylvätska"
+      ]
+    }
+  ]
+}

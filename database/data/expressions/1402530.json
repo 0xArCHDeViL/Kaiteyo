@@ -1,0 +1,82 @@
+{
+  "id": "1402530",
+  "readings": [
+    {
+      "kanaExpression": "はしりはばとび",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "走り幅跳び",
+      "furiganaExpression": [
+        {
+          "text": "走",
+          "annotation": "はし"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "幅",
+          "annotation": "はば"
+        },
+        {
+          "text": "跳",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "走幅跳",
+      "furiganaExpression": [
+        {
+          "text": "走",
+          "annotation": "はしり"
+        },
+        {
+          "text": "幅",
+          "annotation": "はば"
+        },
+        {
+          "text": "跳",
+          "annotation": "とび"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "running long jump"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{atlet.} het verspringen met aanloop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Weitsprung (mit Anlauf)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) прыжки с разбега в длину"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "salto de longitud"
+      ]
+    }
+  ]
+}

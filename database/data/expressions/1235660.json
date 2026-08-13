@@ -1,0 +1,67 @@
+{
+  "id": "1235660",
+  "readings": [
+    {
+      "kanaExpression": "きょうしょう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "協商",
+      "furiganaExpression": [
+        {
+          "text": "協",
+          "annotation": "きょう"
+        },
+        {
+          "text": "商",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "agreement",
+        "entente",
+        "understanding"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "consultatie",
+        "overleg",
+        "entente",
+        "overeenkomst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Entente eingehen",
+        "Entente",
+        "Abkommen",
+        "Bündnis",
+        "Staatenbündnis",
+        "Einvernehmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megegyezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) соглашение, конвенция, договор; договорённость",
+        "2) переговоры",
+        "{～する} вести переговоры"
+      ]
+    }
+  ]
+}

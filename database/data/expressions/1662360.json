@@ -1,0 +1,49 @@
+{
+  "id": "1662360",
+  "readings": [
+    {
+      "kanaExpression": "よわび",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "弱火",
+      "furiganaExpression": [
+        {
+          "text": "弱",
+          "annotation": "よわ"
+        },
+        {
+          "text": "火",
+          "annotation": "び"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "low flame (cooking)",
+        "low heat",
+        "simmering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwaches Feuer",
+        "schwache Flamme (am Herd)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lassú tűzön főzés",
+        "lassú tűzön sütés",
+        "párolás",
+        "zümmögő csendes forrás"
+      ]
+    }
+  ]
+}

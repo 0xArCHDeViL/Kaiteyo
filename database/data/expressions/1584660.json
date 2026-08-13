@@ -1,0 +1,96 @@
+{
+  "id": "1584660",
+  "readings": [
+    {
+      "kanaExpression": "あした",
+      "rank": 12208
+    },
+    {
+      "kanaExpression": "あす",
+      "rank": 14063
+    },
+    {
+      "kanaExpression": "みょうにち",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "明日",
+      "furiganaExpression": [
+        {
+          "text": "明日",
+          "annotation": "あした"
+        }
+      ],
+      "rank": 741
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tomorrow",
+        "near future"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "morgen",
+        "{fig.} de dag van morgen",
+        "toekomst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "demain",
+        "future proche"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "morgen",
+        "der morgige Tag",
+        "Morgen",
+        "Zukunft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "holnap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "завтрашний день; завтра",
+        "(ср.) あす",
+        "завтра",
+        "(ср.) あした【明日】",
+        "1. завтрашний день",
+        "2. завтра"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jutri",
+        "jutri (formalno)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mañana"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "imorgon"
+      ]
+    }
+  ]
+}

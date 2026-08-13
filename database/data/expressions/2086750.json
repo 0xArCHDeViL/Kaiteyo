@@ -1,0 +1,68 @@
+{
+  "id": "2086750",
+  "readings": [
+    {
+      "kanaExpression": "かこく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "カ国",
+      "furiganaExpression": [
+        {
+          "text": "カ"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 4584
+    },
+    {
+      "kanjiExpression": "か国",
+      "furiganaExpression": [
+        {
+          "text": "か"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 13830
+    },
+    {
+      "kanjiExpression": "箇国",
+      "furiganaExpression": [
+        {
+          "text": "箇",
+          "annotation": "か"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "counter for countries"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{\u003d maatwoord voor landen}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "contador para países"
+      ]
+    }
+  ]
+}

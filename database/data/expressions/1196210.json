@@ -1,0 +1,48 @@
+{
+  "id": "1196210",
+  "readings": [
+    {
+      "kanaExpression": "かしん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "過信",
+      "furiganaExpression": [
+        {
+          "text": "過",
+          "annotation": "か"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trusting too much",
+        "overestimating ability"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überschätzung",
+        "übermäßiges Vertrauen",
+        "überschätzen",
+        "zuviel Vertrauen setzen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чрезмерная вера; легковерие",
+        "{～する} (кн.) чрезмерно верить, слишком доверять (кому-л.); быть легковерным"
+      ]
+    }
+  ]
+}

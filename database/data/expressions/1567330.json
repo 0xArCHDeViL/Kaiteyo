@@ -1,0 +1,81 @@
+{
+  "id": "1567330",
+  "readings": [
+    {
+      "kanaExpression": "らち",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "らっち"
+    },
+    {
+      "kanjiExpression": "拉致",
+      "furiganaExpression": [
+        {
+          "text": "拉",
+          "annotation": "ら"
+        },
+        {
+          "text": "致",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 3632
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "taking captive",
+        "carrying away",
+        "kidnapping",
+        "kidnaping",
+        "abduction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontvoering",
+        "kidnapping",
+        "wegvoering",
+        "schaking",
+        "ontvoeren",
+        "kidnappen",
+        "wegvoeren",
+        "schaken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verschleppen",
+        "Entführen",
+        "verschleppen",
+        "entführen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erőszakos megszöktetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) захват, поимка",
+        "{～する} захватить, взять в плен; похитить (напр. ребёнка)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rapto",
+        "secuestro",
+        "abducción"
+      ]
+    }
+  ]
+}

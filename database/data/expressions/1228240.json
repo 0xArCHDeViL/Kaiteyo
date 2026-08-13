@@ -1,0 +1,91 @@
+{
+  "id": "1228240",
+  "readings": [
+    {
+      "kanaExpression": "すいとる",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "吸い取る",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "す"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "吸取る",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "すい"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吸いとる",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "す"
+        },
+        {
+          "text": "いとる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to suck up",
+        "to absorb",
+        "to squeeze (money)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "absorbieren",
+        "aufsaugen",
+        "aussaugen",
+        "ausbeuten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "abszorbeál",
+        "elnyel",
+        "felszív"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) высасывать; впитывать",
+        "2) вытягивать (деньги), клянчить"
+      ]
+    }
+  ]
+}

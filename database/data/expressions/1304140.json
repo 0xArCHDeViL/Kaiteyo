@@ -1,0 +1,98 @@
+{
+  "id": "1304140",
+  "readings": [
+    {
+      "kanaExpression": "さんか",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "賛歌",
+      "furiganaExpression": [
+        {
+          "text": "賛",
+          "annotation": "さん"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "讃歌",
+      "furiganaExpression": [
+        {
+          "text": "讃",
+          "annotation": "さん"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "讚歌",
+      "furiganaExpression": [
+        {
+          "text": "讚",
+          "annotation": "さん"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "song of praise",
+        "eulogy",
+        "paean",
+        "hymn"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lofzang",
+        "loflied",
+        "lofpsalm",
+        "hymne",
+        "paean",
+        "{クリスマスの} carol"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lobgesang",
+        "Hymne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "diadalének",
+        "dicsőítő ének",
+        "győzelmi ének",
+        "hálaének",
+        "ünnepi ének",
+        "dicsérés",
+        "hálaadó istentisztelet",
+        "dicséret"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хвалебная песнь, славословие, гимн"
+      ]
+    }
+  ]
+}

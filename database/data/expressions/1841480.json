@@ -1,0 +1,50 @@
+{
+  "id": "1841480",
+  "readings": [
+    {
+      "kanaExpression": "しらうめ",
+      "rank": 37000
+    },
+    {
+      "kanaExpression": "はくばい"
+    },
+    {
+      "kanjiExpression": "白梅",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "しら"
+        },
+        {
+          "text": "梅",
+          "annotation": "うめ"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "white plum blossoms",
+        "white Japanese apricot",
+        "white-blossomed plum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weiße Pflaumenblüten",
+        "weiß blühender Pflaumenbaum",
+        "weißliche Stofffarbe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "белая цветущая слива; белые цветы сливы"
+      ]
+    }
+  ]
+}

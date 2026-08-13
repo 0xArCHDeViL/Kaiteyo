@@ -1,0 +1,72 @@
+{
+  "id": "1161030",
+  "readings": [
+    {
+      "kanaExpression": "いちい",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "一尉",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "尉",
+          "annotation": "い"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "１尉",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いち"
+        },
+        {
+          "text": "尉",
+          "annotation": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "captain (JASDF, JGSDF)",
+        "lieutenant (senior grade; JMSDF)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} kapitein",
+        "{mil.} luitenant-ter-zee"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csapatkapitány",
+        "hadvezér",
+        "hajóparancsnok",
+        "hajóvezető",
+        "kapitány",
+        "parancsnok",
+        "százados",
+        "szürke morgóhal",
+        "vezérevezős"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "capitán (JAF)"
+      ]
+    }
+  ]
+}

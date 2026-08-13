@@ -1,0 +1,131 @@
+{
+  "id": "1455670",
+  "readings": [
+    {
+      "kanaExpression": "ひとりごと",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "独り言",
+      "furiganaExpression": [
+        {
+          "text": "独",
+          "annotation": "ひと"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "言",
+          "annotation": "ごと"
+        }
+      ],
+      "rank": 6372
+    },
+    {
+      "kanjiExpression": "ひとり言",
+      "furiganaExpression": [
+        {
+          "text": "ひとり"
+        },
+        {
+          "text": "言",
+          "annotation": "ごと"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "独りごと",
+      "furiganaExpression": [
+        {
+          "text": "独",
+          "annotation": "ひと"
+        },
+        {
+          "text": "りごと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "一人言",
+      "furiganaExpression": [
+        {
+          "text": "一人",
+          "annotation": "ひとり"
+        },
+        {
+          "text": "言",
+          "annotation": "ごと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "一人ごと",
+      "furiganaExpression": [
+        {
+          "text": "一人",
+          "annotation": "ひとり"
+        },
+        {
+          "text": "ごと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "soliloquy",
+        "monologue",
+        "speaking to oneself"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zelfgesprek",
+        "het tegen zichzelf praten",
+        "monoloog",
+        "alleenspraak"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "soliloque",
+        "monologue",
+        "parler à soi-même"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Selbstgespräch",
+        "Monolog"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "magánbeszéd",
+        "monológ"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:) 独り言を言う думать вслух, говорить с самим собой (про себя)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "soliloquio",
+        "monólogo",
+        "hablarse a uno miso"
+      ]
+    }
+  ]
+}

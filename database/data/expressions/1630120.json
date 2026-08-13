@@ -1,0 +1,56 @@
+{
+  "id": "1630120",
+  "readings": [
+    {
+      "kanaExpression": "ぎょみん",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "漁民",
+      "furiganaExpression": [
+        {
+          "text": "漁",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "民",
+          "annotation": "みん"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fishermen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischer",
+        "Fischersleute"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halász"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рыбаки, рыбачье население"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pescadores"
+      ]
+    }
+  ]
+}

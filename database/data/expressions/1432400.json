@@ -1,0 +1,107 @@
+{
+  "id": "1432400",
+  "readings": [
+    {
+      "kanaExpression": "おいたてる",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "追い立てる",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "追いたてる",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "お"
+        },
+        {
+          "text": "いたてる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "追立てる",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "おい"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "てる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to drive on",
+        "to urge forward (e.g. cattle)",
+        "to rouse (game from its cover)",
+        "to shoo away",
+        "to press a tenant to leave",
+        "to evict"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wegsturen",
+        "wegjagen",
+        "{獲物を} opjagen",
+        "opdrijven",
+        "{馬を} voortdrijven",
+        "aanzetten",
+        "aansporen",
+        "{借家人を} uitzetten",
+        "{Belg.N.} buitenzetten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vertreiben",
+        "verjagen",
+        "ausstoßen",
+        "ausweisen",
+        "aufhetzen",
+        "gehetzt werden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhajt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гнать"
+      ]
+    }
+  ]
+}

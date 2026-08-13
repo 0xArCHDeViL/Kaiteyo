@@ -1,0 +1,83 @@
+{
+  "id": "1599140",
+  "readings": [
+    {
+      "kanaExpression": "とりもの",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "捕り物",
+      "furiganaExpression": [
+        {
+          "text": "捕",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "捕物",
+      "furiganaExpression": [
+        {
+          "text": "捕",
+          "annotation": "とり"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "capture (of a suspect, criminal, etc.)",
+        "arrest"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "arrestatie",
+        "aanhouding",
+        "arrest",
+        "inrekening",
+        "gevangenneming",
+        "vangst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verhaftung",
+        "Festnahme",
+        "Gefangennahme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elfogás",
+        "lefoglalás",
+        "leszorítás",
+        "letartóztatás",
+        "őrizetbe vétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) арест, поимка"
+      ]
+    }
+  ]
+}

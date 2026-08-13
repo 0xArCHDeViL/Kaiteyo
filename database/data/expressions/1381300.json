@@ -1,0 +1,99 @@
+{
+  "id": "1381300",
+  "readings": [
+    {
+      "kanaExpression": "うけおう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "請け負う",
+      "furiganaExpression": [
+        {
+          "text": "請",
+          "annotation": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "負",
+          "annotation": "お"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 14293
+    },
+    {
+      "kanjiExpression": "請負う",
+      "furiganaExpression": [
+        {
+          "text": "請",
+          "annotation": "うけ"
+        },
+        {
+          "text": "負",
+          "annotation": "お"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to contract",
+        "to undertake",
+        "to take over",
+        "to take responsibility for"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich contractueel verplichten om",
+        "tot",
+        "zich ertoe verbinden te",
+        "op zich nemen",
+        "ondernemen",
+        "voor zijn rekening nemen",
+        "aannemen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einen Vertrag abschließen",
+        "übernehmen",
+        "auf sich nehmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felvesz",
+        "vállal",
+        "elvállal",
+        "magára vállal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заключать контракт (напр. на постройку)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "encargarse",
+        "hacerse cargo",
+        "asumir la responsabilidad"
+      ]
+    }
+  ]
+}

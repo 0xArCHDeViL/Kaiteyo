@@ -1,0 +1,77 @@
+{
+  "id": "1443940",
+  "readings": [
+    {
+      "kanaExpression": "でんわばんごう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "電話番号",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "話",
+          "annotation": "わ"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        },
+        {
+          "text": "号",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "telephone number"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "telefoonnummer",
+        "{pregn.} nummer",
+        "{afk.} tel.nr."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Telefonnummer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "номер телефона"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "telefonska številka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "número de telefóno"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "telefonnummer"
+      ]
+    }
+  ]
+}

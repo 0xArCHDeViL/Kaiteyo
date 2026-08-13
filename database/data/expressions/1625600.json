@@ -1,0 +1,46 @@
+{
+  "id": "1625600",
+  "readings": [
+    {
+      "kanaExpression": "はいほん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "配本",
+      "furiganaExpression": [
+        {
+          "text": "配",
+          "annotation": "はい"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "distribution of books"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bücher liefern",
+        "Drucksachen liefern",
+        "Buchlieferung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доставка (рассылка, выдача) книг (напр. подписных изданий)",
+        "{～する} доставлять (рассылать, выдавать) книги"
+      ]
+    }
+  ]
+}

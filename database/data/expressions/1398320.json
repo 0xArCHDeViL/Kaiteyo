@@ -1,0 +1,78 @@
+{
+  "id": "1398320",
+  "readings": [
+    {
+      "kanaExpression": "そうかん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "創刊",
+      "furiganaExpression": [
+        {
+          "text": "創",
+          "annotation": "そう"
+        },
+        {
+          "text": "刊",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 8106
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "foundation (of a newspaper, magazine, etc.)",
+        "starting",
+        "launching",
+        "first publication"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerste uitgave",
+        "publicatie (van een tijdschrift",
+        "krant enz.)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fondation (d\u0027un journal)",
+        "premier numéro"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Zeitschrift gründen",
+        "eine Zeitschrift zum ersten Mal herausgeben",
+        "erste Herausgabe (einer Zeitschrift etc.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "основание (журнала, газеты)",
+        "{～する} основать, начать издавать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "lansirati (časopis)",
+        "prva izdaja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "publicación",
+        "edición"
+      ]
+    }
+  ]
+}

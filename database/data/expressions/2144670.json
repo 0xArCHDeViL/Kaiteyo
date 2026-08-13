@@ -1,0 +1,47 @@
+{
+  "id": "2144670",
+  "readings": [
+    {
+      "kanaExpression": "ぼうはんカメラ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "防犯カメラ",
+      "furiganaExpression": [
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "犯",
+          "annotation": "はん"
+        },
+        {
+          "text": "カメラ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "security camera"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überwachungskamera",
+        "Sicherheitskamera"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cámara de seguridad"
+      ]
+    }
+  ]
+}

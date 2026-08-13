@@ -1,0 +1,63 @@
+{
+  "id": "1634020",
+  "readings": [
+    {
+      "kanaExpression": "おもしろがる",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "面白がる",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "おも"
+        },
+        {
+          "text": "白",
+          "annotation": "しろ"
+        },
+        {
+          "text": "がる"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to amuse oneself",
+        "to be amused",
+        "to enjoy",
+        "to think fun"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "an etw. Spaß haben",
+        "sich an etw. amüsieren",
+        "sich gut unterhalten",
+        "sich an etw. erfreuen",
+        "etw. genießen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jól érzi magát",
+        "szórakozik",
+        "meg van lepve",
+        "meglepődik",
+        "élvez"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "развлекаться (чем-л.), находить удовольствие (в чём-л.)"
+      ]
+    }
+  ]
+}

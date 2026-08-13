@@ -1,0 +1,69 @@
+{
+  "id": "1710720",
+  "readings": [
+    {
+      "kanaExpression": "ほうもんしゃ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "訪問者",
+      "furiganaExpression": [
+        {
+          "text": "訪",
+          "annotation": "ほう"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "visitor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bezoeker",
+        "gast",
+        "{verzameln.} bezoek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besucher",
+        "Besuch",
+        "Gast"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "látogató"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "посетитель, визитёр"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "besökare"
+      ]
+    }
+  ]
+}

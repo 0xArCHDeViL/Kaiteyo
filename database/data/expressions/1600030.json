@@ -1,0 +1,99 @@
+{
+  "id": "1600030",
+  "readings": [
+    {
+      "kanaExpression": "ねあげ",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "値上げ",
+      "furiganaExpression": [
+        {
+          "text": "値",
+          "annotation": "ね"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 5076
+    },
+    {
+      "kanjiExpression": "値上",
+      "furiganaExpression": [
+        {
+          "text": "値",
+          "annotation": "ね"
+        },
+        {
+          "text": "上",
+          "annotation": "あげ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "price increase",
+        "rise in price",
+        "wage increase"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "prijsverhoging",
+        "prijsstijging",
+        "prijsopdrijving",
+        "tariefverhoging",
+        "tariefstijging",
+        "tariefopdrijving",
+        "opslag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "inflation",
+        "montée des prix"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "den Preis erhöhen",
+        "Preiserhöhung",
+        "Preissteigerung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "повышение цен (платы, зарплаты); вздорожание",
+        "{～になる} подняться в цене, вздорожать; повыситься (о ценах, плате, зарплате)",
+        "{～する} повышать цены (плату, зарплату)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "povišanje cene",
+        "podražitev",
+        "povišati ceno",
+        "podražiti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alza de precios"
+      ]
+    }
+  ]
+}

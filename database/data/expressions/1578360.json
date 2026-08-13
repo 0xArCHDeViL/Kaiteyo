@@ -1,0 +1,87 @@
+{
+  "id": "1578360",
+  "readings": [
+    {
+      "kanaExpression": "げんきょう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "元凶",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "げん"
+        },
+        {
+          "text": "凶",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "元兇",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "げん"
+        },
+        {
+          "text": "兇",
+          "annotation": "きょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ringleader",
+        "main culprit",
+        "main cause",
+        "source"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aanstichter",
+        "kwade genius",
+        "hoofdschuldige",
+        "hoofddader",
+        "belangrijkste boosdoener",
+        "belhamel",
+        "grondoorzaak",
+        "hoofdoorzaak",
+        "voornaamste oorzaak"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bandenchef",
+        "Rädelsführer",
+        "Hauptübeltäter",
+        "Grundübel",
+        "Grundursache",
+        "Hauptursache",
+        "Wurzel eines Übels",
+        "Hauptverursacher",
+        "Hauptschuldiger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "főkolompos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) главарь банды, предводитель шайки"
+      ]
+    }
+  ]
+}

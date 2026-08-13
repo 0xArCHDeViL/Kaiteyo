@@ -1,0 +1,49 @@
+{
+  "id": "1491870",
+  "readings": [
+    {
+      "kanaExpression": "ふきそ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "不起訴",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "起",
+          "annotation": "き"
+        },
+        {
+          "text": "訴",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 14157
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nonprosecution",
+        "nonindictment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einstellung eines Verfahrens",
+        "Einstellung der Anklageerhebung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～にする} не возбуждать дела (в суде); отклонять (дело)"
+      ]
+    }
+  ]
+}

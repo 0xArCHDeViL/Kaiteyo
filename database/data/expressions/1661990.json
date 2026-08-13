@@ -1,0 +1,95 @@
+{
+  "id": "1661990",
+  "readings": [
+    {
+      "kanaExpression": "うりかた",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "売り方",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "方",
+          "annotation": "かた"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "売方",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うり"
+        },
+        {
+          "text": "方",
+          "annotation": "かた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seller",
+        "selling side",
+        "method of selling",
+        "art of selling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkoopmethode",
+        "verkoper",
+        "{hand.} {弱気の} baissier",
+        "speculant à la baisse",
+        "contramineur",
+        "beer",
+        "{Edo-gesch.} rijsthandelaar",
+        "aan- en doorverkoper van pachtrijst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkaufsmethode",
+        "Salesmanship",
+        "Verkaufsgeschick",
+        "Verkäufer",
+        "Verkäufer, der mit fallenden Preisen rechnet"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eladó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) способ продажи",
+        "2) продавец"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "método de venta",
+        "forma de vender",
+        "parte vendedora",
+        "vendedor"
+      ]
+    }
+  ]
+}

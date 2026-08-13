@@ -1,0 +1,81 @@
+{
+  "id": "1597950",
+  "readings": [
+    {
+      "kanaExpression": "つけだし",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "付け出し",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "付出し",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つけ"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bill",
+        "account",
+        "very successful amateur wrestler, allowed to start professional career in makushita division"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rechnung über Außenstände"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csőr",
+        "jegyzék",
+        "számla",
+        "vádirat",
+        "váltó",
+        "beszámoló",
+        "jelentőség",
+        "kimutatás",
+        "közlés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "счёт (в ресторане, магазине и т. п.)"
+      ]
+    }
+  ]
+}

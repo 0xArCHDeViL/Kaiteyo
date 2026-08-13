@@ -1,0 +1,85 @@
+{
+  "id": "1371800",
+  "readings": [
+    {
+      "kanaExpression": "すいそう",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "水槽",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "槽",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 9251
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water tank",
+        "cistern",
+        "fish tank",
+        "aquarium"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "watertank",
+        "waterbak",
+        "waterreservoir",
+        "waterbekken",
+        "waterbassin",
+        "bassin",
+        "cisterne",
+        "aquarium"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bassin",
+        "citerne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserbehälter",
+        "Wasserspeicher",
+        "Wassertrog",
+        "Aquarium"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ciszterna",
+        "víztartály",
+        "vécétartály"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цистерна, бак, резервуар (для воды)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pecera",
+        "cisterna",
+        "depósito de agua"
+      ]
+    }
+  ]
+}

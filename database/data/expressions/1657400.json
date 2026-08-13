@@ -1,0 +1,58 @@
+{
+  "id": "1657400",
+  "readings": [
+    {
+      "kanaExpression": "こくじょう",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "国情",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "情",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "国状",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "状",
+          "annotation": "じょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "conditions of a country"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verhältnisse eines Landes",
+        "Landesverhältnisse",
+        "Lage einer Nation"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "положение дел в стране"
+      ]
+    }
+  ]
+}

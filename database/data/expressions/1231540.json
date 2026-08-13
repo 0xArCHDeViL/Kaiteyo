@@ -1,0 +1,74 @@
+{
+  "id": "1231540",
+  "readings": [
+    {
+      "kanaExpression": "ぎゅうしゃ",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "ぎっしゃ"
+    },
+    {
+      "kanaExpression": "うしぐるま"
+    },
+    {
+      "kanjiExpression": "牛車",
+      "furiganaExpression": [
+        {
+          "text": "牛",
+          "annotation": "ぎゅう"
+        },
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ox carriage (for Heian-era nobles)",
+        "oxcart"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ossenkoets",
+        "door ossen getrokken rijtuig {als staatsierijtuig van de Heian-aristocratie}",
+        "ossenkar",
+        "ossenwagen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ochsenkarren",
+        "Ochsenwagen (der Adligen in der Heian-Zeit)",
+        "Ochsenwagen",
+        "Ochsenkarren, in dem die Adligen der Heian-Zeit fuhren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "телега, запряжённая быками"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "voz na volovsko vprego"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carreta de bueyes"
+      ]
+    }
+  ]
+}

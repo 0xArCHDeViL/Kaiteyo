@@ -1,0 +1,75 @@
+{
+  "id": "1646140",
+  "readings": [
+    {
+      "kanaExpression": "せんぷく",
+      "rank": 34000
+    },
+    {
+      "kanaExpression": "ふなばら"
+    },
+    {
+      "kanjiExpression": "船腹",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "せん"
+        },
+        {
+          "text": "腹",
+          "annotation": "ぷく"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "舟腹",
+      "furiganaExpression": [
+        {
+          "text": "舟",
+          "annotation": "ふな"
+        },
+        {
+          "text": "腹",
+          "annotation": "ばら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "side or bottom of a ship",
+        "ship\u0027s hold",
+        "bottoms",
+        "shipping",
+        "tonnage",
+        "freight space"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schiffsbauch",
+        "Laderaum",
+        "Schiffsboden",
+        "Tonnage",
+        "Platz auf einem Schiff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hajózás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) помещение для груза (на судне), трюм",
+        "2) (перен.) грузоподъёмность, тоннаж"
+      ]
+    }
+  ]
+}

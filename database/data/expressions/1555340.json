@@ -1,0 +1,66 @@
+{
+  "id": "1555340",
+  "readings": [
+    {
+      "kanaExpression": "ろくしょう",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "りょくしょう"
+    },
+    {
+      "kanjiExpression": "緑青",
+      "furiganaExpression": [
+        {
+          "text": "緑",
+          "annotation": "ろく"
+        },
+        {
+          "text": "青",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "verdigris",
+        "green rust",
+        "copper rust"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vert de gris"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grünspan",
+        "Spangrün",
+        "spanisches Grün",
+        "Aerugo",
+        "Verdigris"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kukoricaüszög",
+        "patina",
+        "rézrozsda"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "медная окись, зелень"
+      ]
+    }
+  ]
+}

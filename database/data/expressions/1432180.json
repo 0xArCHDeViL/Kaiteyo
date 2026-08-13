@@ -1,0 +1,71 @@
+{
+  "id": "1432180",
+  "readings": [
+    {
+      "kanaExpression": "ちんじゅつ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "陳述",
+      "furiganaExpression": [
+        {
+          "text": "陳",
+          "annotation": "ちん"
+        },
+        {
+          "text": "述",
+          "annotation": "じゅつ"
+        }
+      ],
+      "rank": 8633
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "statement",
+        "declaration"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "exposé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Aussage machen",
+        "darlegen",
+        "aussagen",
+        "erwähnen",
+        "Erklärung",
+        "Aussage"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bejelentés",
+        "kijelentés",
+        "kimutatás",
+        "nyilatkozat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "изложение; разъяснение; показание",
+        "{～する} излагать; разъяснять; давать показания; делать заявление"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "deklaration"
+      ]
+    }
+  ]
+}

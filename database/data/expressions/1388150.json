@@ -1,0 +1,69 @@
+{
+  "id": "1388150",
+  "readings": [
+    {
+      "kanaExpression": "せんちゃく",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "先着",
+      "furiganaExpression": [
+        {
+          "text": "先",
+          "annotation": "せん"
+        },
+        {
+          "text": "着",
+          "annotation": "ちゃく"
+        }
+      ],
+      "rank": 12907
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "arriving first"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerste aankomst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fait d\u0027arriver en premier",
+        "première arrivée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ankommen vor allen anderen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прибытие первым",
+        "{～になる} прибыть первым"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prvi prihod"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "llegada con anterioridad"
+      ]
+    }
+  ]
+}

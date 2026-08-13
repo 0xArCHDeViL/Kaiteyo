@@ -1,0 +1,57 @@
+{
+  "id": "1582720",
+  "readings": [
+    {
+      "kanaExpression": "にゅうぎゅう",
+      "rank": 28000
+    },
+    {
+      "kanaExpression": "ちちうし"
+    },
+    {
+      "kanaExpression": "ちうし"
+    },
+    {
+      "kanaExpression": "ちうじ"
+    },
+    {
+      "kanjiExpression": "乳牛",
+      "furiganaExpression": [
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "牛",
+          "annotation": "ぎゅう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dairy cow",
+        "dairy cattle",
+        "milk cow",
+        "milch cow"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Milchkuh",
+        "Melkkuh"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дойная корова; молочный скот",
+        "дойная корова; молочное стадо"
+      ]
+    }
+  ]
+}

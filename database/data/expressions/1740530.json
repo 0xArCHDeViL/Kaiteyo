@@ -1,0 +1,37 @@
+{
+  "id": "1740530",
+  "readings": [
+    {
+      "kanaExpression": "ほくげん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "北限",
+      "furiganaExpression": [
+        {
+          "text": "北",
+          "annotation": "ほく"
+        },
+        {
+          "text": "限",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "northern limit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nördliche Grenze (des Verbreitungsgebietes von Lebewesen)"
+      ]
+    }
+  ]
+}

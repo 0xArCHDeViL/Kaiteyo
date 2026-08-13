@@ -1,0 +1,64 @@
+{
+  "id": "1314320",
+  "readings": [
+    {
+      "kanaExpression": "じむかん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "事務官",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "administrative official",
+        "secretary",
+        "commissioner"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "secretaris"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Staatsbeamter",
+        "Sekretär einer Behörde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "biztos",
+        "megbízott",
+        "meghatalmazott"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "управляющий делами; секретарь (посольства, консульства и т. п.)"
+      ]
+    }
+  ]
+}

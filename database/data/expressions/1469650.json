@@ -1,0 +1,60 @@
+{
+  "id": "1469650",
+  "readings": [
+    {
+      "kanaExpression": "ねんぴ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "燃費",
+      "furiganaExpression": [
+        {
+          "text": "燃",
+          "annotation": "ねん"
+        },
+        {
+          "text": "費",
+          "annotation": "ぴ"
+        }
+      ],
+      "rank": 10249
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fuel consumption",
+        "gas mileage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "benzineverbruik",
+        "brandstofverbruik"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "consommation d\u0027essence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kraftstoffverbrauch",
+        "Benzinverbrauch (in km",
+        "l)",
+        "Benzinkosten"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "consumo de combustible"
+      ]
+    }
+  ]
+}

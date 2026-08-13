@@ -1,0 +1,71 @@
+{
+  "id": "1656380",
+  "readings": [
+    {
+      "kanaExpression": "にひゃく",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "二百",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "百",
+          "annotation": "ひゃく"
+        }
+      ],
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "２百",
+      "furiganaExpression": [
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "百",
+          "annotation": "ひゃく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "200",
+        "two hundred"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tweehonderd",
+        "{gesch.} tweehonderd mon 文"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zweihundert"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "двести"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "doscientos",
+        "200"
+      ]
+    }
+  ]
+}

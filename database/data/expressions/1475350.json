@@ -1,0 +1,59 @@
+{
+  "id": "1475350",
+  "readings": [
+    {
+      "kanaExpression": "はくじつ",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "白日",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "はく"
+        },
+        {
+          "text": "日",
+          "annotation": "じつ"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bright sunshine",
+        "broad daylight"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stralende zon",
+        "heldere zonneschijn",
+        "klaarlichte dag",
+        "vol daglicht",
+        "{fig.} onschuld",
+        "integriteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heller Tag",
+        "Tageslicht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) дневное время; середина дня",
+        "{～に} средь бела дня",
+        "2) ясный (безоблачный) день"
+      ]
+    }
+  ]
+}

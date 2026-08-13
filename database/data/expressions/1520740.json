@@ -1,0 +1,69 @@
+{
+  "id": "1520740",
+  "readings": [
+    {
+      "kanaExpression": "ほくい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "北緯",
+      "furiganaExpression": [
+        {
+          "text": "北",
+          "annotation": "ほく"
+        },
+        {
+          "text": "緯",
+          "annotation": "い"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "north latitude"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "noorderbreedte",
+        "{afk.} N.Br.",
+        "N.B."
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "latitude nord"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nördliche Breite (Abk.) n.Br"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "северная широта"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "latitud norte"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "nordlig bredd"
+      ]
+    }
+  ]
+}

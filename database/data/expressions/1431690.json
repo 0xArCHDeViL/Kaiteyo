@@ -1,0 +1,69 @@
+{
+  "id": "1431690",
+  "readings": [
+    {
+      "kanaExpression": "ちんか",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "沈下",
+      "furiganaExpression": [
+        {
+          "text": "沈",
+          "annotation": "ちん"
+        },
+        {
+          "text": "下",
+          "annotation": "か"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sinking",
+        "subsidence"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "affaissement",
+        "baisse",
+        "chute"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich senken",
+        "sich setzen",
+        "Sinken",
+        "Einsinken",
+        "Senkung",
+        "Absacken",
+        "Sacken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megsüllyed (fal",
+        "kerítés)",
+        "süllyedés",
+        "süppedés",
+        "leülepedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оседание (опускание, осадка) породы",
+        "{～する} оседать, опускаться"
+      ]
+    }
+  ]
+}

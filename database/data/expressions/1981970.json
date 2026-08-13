@@ -1,0 +1,53 @@
+{
+  "id": "1981970",
+  "readings": [
+    {
+      "kanaExpression": "せいたい",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "整体",
+      "furiganaExpression": [
+        {
+          "text": "整",
+          "annotation": "せい"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 11704
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seitai",
+        "manipulative therapy based on Chinese and Japanese traditions, and encompassing osteopathy, massage and chiropractic"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Osteopathie",
+        "Heilung körperlicher Leiden durch Massage"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "chiropraxis",
+        "hátgerinc kezelése",
+        "hátgerincmasszázs"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kiropraktik"
+      ]
+    }
+  ]
+}

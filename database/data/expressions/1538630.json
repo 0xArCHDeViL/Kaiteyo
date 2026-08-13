@@ -1,0 +1,84 @@
+{
+  "id": "1538630",
+  "readings": [
+    {
+      "kanaExpression": "あぶらえ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "油絵",
+      "furiganaExpression": [
+        {
+          "text": "油",
+          "annotation": "あぶら"
+        },
+        {
+          "text": "絵",
+          "annotation": "え"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "油画",
+      "furiganaExpression": [
+        {
+          "text": "油",
+          "annotation": "あぶら"
+        },
+        {
+          "text": "画",
+          "annotation": "え"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "oil painting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het schilderen met olieverf",
+        "olieverfschilderij",
+        "schilderij in olieverf",
+        "{meton.} olieverf"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "peinture à l\u0027huile"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ölbild",
+        "Ölgemälde"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "картина маслом"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "slikanje z oljem"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pintura al óleo"
+      ]
+    }
+  ]
+}

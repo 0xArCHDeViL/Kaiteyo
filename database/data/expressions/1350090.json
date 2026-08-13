@@ -1,0 +1,65 @@
+{
+  "id": "1350090",
+  "readings": [
+    {
+      "kanaExpression": "けしとめる",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "消し止める",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "け"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to put out",
+        "to extinguish"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "löschen",
+        "auslöschen",
+        "ersticken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kihajózik",
+        "kikölcsönöz",
+        "kitesz",
+        "zavarba hoz",
+        "eltöröl",
+        "kiolt",
+        "kiöl",
+        "letörleszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "потушить, затушить"
+      ]
+    }
+  ]
+}

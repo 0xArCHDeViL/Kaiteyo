@@ -1,0 +1,87 @@
+{
+  "id": "1309140",
+  "readings": [
+    {
+      "kanaExpression": "しぼう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "志望",
+      "furiganaExpression": [
+        {
+          "text": "志",
+          "annotation": "し"
+        },
+        {
+          "text": "望",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 8415
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wish",
+        "desire",
+        "ambition",
+        "choice"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ambition",
+        "désir",
+        "vœux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wünschen",
+        "bestreben",
+        "Wunsch",
+        "Bestrebung",
+        "Trachten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kívánság",
+        "óhaj",
+        "vágy",
+        "ambíció",
+        "becsvágyás",
+        "érvényesülési törekvés",
+        "kitűzött cél",
+        "törekvés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "желание; стремление; мечта",
+        "{～の} выбранный (о чём-л.)",
+        "{～する} желать; стремиться"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "želja",
+        "upanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "deseo",
+        "ambición"
+      ]
+    }
+  ]
+}

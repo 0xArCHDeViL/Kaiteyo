@@ -1,0 +1,119 @@
+{
+  "id": "1610660",
+  "readings": [
+    {
+      "kanaExpression": "くちげんか",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "くちけんか"
+    },
+    {
+      "kanjiExpression": "口喧嘩",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "喧",
+          "annotation": "げん"
+        },
+        {
+          "text": "嘩",
+          "annotation": "か"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "口げんか",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "げんか"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "口ゲンカ",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "ゲンカ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "口ケンカ",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "ケンカ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "quarrel",
+        "dispute",
+        "argument"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dispute",
+        "querelle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zanken",
+        "streiten",
+        "Streit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "veszekedés",
+        "vita"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ссора",
+        "{～をする} ссориться"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "besedni spor",
+        "prepir"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pelea",
+        "disputa"
+      ]
+    }
+  ]
+}

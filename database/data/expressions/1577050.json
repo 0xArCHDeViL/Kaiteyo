@@ -1,0 +1,58 @@
+{
+  "id": "1577050",
+  "readings": [
+    {
+      "kanaExpression": "けしょうすい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "化粧水",
+      "furiganaExpression": [
+        {
+          "text": "化",
+          "annotation": "け"
+        },
+        {
+          "text": "粧",
+          "annotation": "しょう"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "skin lotion",
+        "face lotion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lotion",
+        "eau de toilette",
+        "reukwater"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesichtswasser",
+        "Gesichtslotion",
+        "Astringent"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "туалетная вода, лосьон"
+      ]
+    }
+  ]
+}

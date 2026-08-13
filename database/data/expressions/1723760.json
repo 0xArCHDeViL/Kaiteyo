@@ -1,0 +1,69 @@
+{
+  "id": "1723760",
+  "readings": [
+    {
+      "kanaExpression": "こめぐら",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "米倉",
+      "furiganaExpression": [
+        {
+          "text": "米",
+          "annotation": "こめ"
+        },
+        {
+          "text": "倉",
+          "annotation": "ぐら"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "米蔵",
+      "furiganaExpression": [
+        {
+          "text": "米",
+          "annotation": "こめ"
+        },
+        {
+          "text": "蔵",
+          "annotation": "ぐら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rice granary"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijstschuur",
+        "rijstpakhuis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reisspeicher"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рисохранилище, склад риса; (перен.) житница"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "granero de arroz"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1648700",
+  "readings": [
+    {
+      "kanaExpression": "とっか",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "特化",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とっ"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "specialization",
+        "specialisation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich specialiseren",
+        "specialisering",
+        "specialisatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spezialisierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "specializálódás",
+        "szakosodás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "especialización"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "specialisering"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "1681770",
+  "readings": [
+    {
+      "kanaExpression": "はんし",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "藩士",
+      "furiganaExpression": [
+        {
+          "text": "藩",
+          "annotation": "はん"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "retainer of a daimyo"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{Jap.gesch.} feodale ridder",
+        "samoerai",
+        "vazal van een daimio"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vasall",
+        "Lehnsmann (in der Edo-Zeit)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ист.) член клана; вассал даймё"
+      ]
+    }
+  ]
+}

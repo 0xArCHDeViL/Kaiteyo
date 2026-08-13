@@ -1,0 +1,57 @@
+{
+  "id": "1255830",
+  "readings": [
+    {
+      "kanaExpression": "げっぽう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "月報",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "げっ"
+        },
+        {
+          "text": "報",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "monthly report"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maandbericht",
+        "maandverslag",
+        "maandrapport"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Monatsbericht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "havi jelentés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[еже]месячное обозрение; [еже]месячный бюллетень (журнал)"
+      ]
+    }
+  ]
+}

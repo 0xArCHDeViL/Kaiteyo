@@ -1,0 +1,51 @@
+{
+  "id": "1460050",
+  "readings": [
+    {
+      "kanaExpression": "なんより"
+    },
+    {
+      "kanaExpression": "みなみより",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "南寄り",
+      "furiganaExpression": [
+        {
+          "text": "南",
+          "annotation": "なん"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "southerly (wind)",
+        "from the south"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "südliche Richtung"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sunnan",
+        "sydvind"
+      ]
+    }
+  ]
+}

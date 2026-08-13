@@ -1,0 +1,90 @@
+{
+  "id": "1584080",
+  "readings": [
+    {
+      "kanaExpression": "たからもの",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "ほうもつ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "宝物",
+      "furiganaExpression": [
+        {
+          "text": "宝",
+          "annotation": "たから"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 10986
+    },
+    {
+      "kanjiExpression": "宝もの",
+      "furiganaExpression": [
+        {
+          "text": "宝",
+          "annotation": "たから"
+        },
+        {
+          "text": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "treasure",
+        "treasured item",
+        "prized possession"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schat",
+        "kostbaarheid",
+        "kleinood"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "objet précieux",
+        "trésor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schatz",
+        "Kostbarkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kincs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сокровище",
+        "драгоценность"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tesoro"
+      ]
+    }
+  ]
+}

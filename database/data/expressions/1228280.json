@@ -1,0 +1,78 @@
+{
+  "id": "1228280",
+  "readings": [
+    {
+      "kanaExpression": "きゅうき",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "吸気",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inhalation (of air)",
+        "inhaled air",
+        "intake (e.g. of air)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inademing",
+        "inhalatie",
+        "inspiratie",
+        "inlating",
+        "{i.h.b.} inlaatgas"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einatmung",
+        "Ansaugen von Luft",
+        "eingeatmete Luft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "inspiráció",
+        "sugalmazás",
+        "levegő betáplálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) вдыхание, вдох",
+        "2) впуск (всасывание) воздуха (газа)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inspiración (atraer el aire exterior)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "inspiration"
+      ]
+    }
+  ]
+}

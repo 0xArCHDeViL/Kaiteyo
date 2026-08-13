@@ -1,0 +1,69 @@
+{
+  "id": "1267230",
+  "readings": [
+    {
+      "kanaExpression": "かれえだ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "枯れ枝",
+      "furiganaExpression": [
+        {
+          "text": "枯",
+          "annotation": "か"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "枝",
+          "annotation": "えだ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "枯枝",
+      "furiganaExpression": [
+        {
+          "text": "枯",
+          "annotation": "かれ"
+        },
+        {
+          "text": "枝",
+          "annotation": "えだ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dead branch (or twig, etc.)",
+        "withered branch"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dürrer Ast",
+        "vertrockneter Ast",
+        "toter Ast"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сухая ветка",
+        "сухие (засохшие) ветки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rama seca"
+      ]
+    }
+  ]
+}

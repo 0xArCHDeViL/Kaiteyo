@@ -1,0 +1,60 @@
+{
+  "id": "1357860",
+  "readings": [
+    {
+      "kanaExpression": "しきちょう",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "色調",
+      "furiganaExpression": [
+        {
+          "text": "色",
+          "annotation": "しき"
+        },
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "color tone",
+        "colour tone"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleurschakering",
+        "schakering",
+        "tint",
+        "toon",
+        "kleur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Farbton (eine der drei Eigenschaft zur Charakterisierung in der Farbmetrik; neben Helligkeit und Sättigung)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "színtónus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оттенок, тон; колорит, расцветка"
+      ]
+    }
+  ]
+}

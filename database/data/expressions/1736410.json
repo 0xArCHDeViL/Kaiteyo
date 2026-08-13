@@ -1,0 +1,45 @@
+{
+  "id": "1736410",
+  "readings": [
+    {
+      "kanaExpression": "せんせき",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "船籍",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "せん"
+        },
+        {
+          "text": "籍",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ship\u0027s nationality",
+        "ship\u0027s country of registration"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nationalität eines Schiffes",
+        "Registrierung eines Schiffes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "национальная принадлежность судна"
+      ]
+    }
+  ]
+}

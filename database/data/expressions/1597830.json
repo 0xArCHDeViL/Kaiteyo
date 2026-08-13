@@ -1,0 +1,77 @@
+{
+  "id": "1597830",
+  "readings": [
+    {
+      "kanaExpression": "つきづき",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "月々",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "つき"
+        },
+        {
+          "text": "々",
+          "annotation": "づき"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "月月",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "つき"
+        },
+        {
+          "text": "月",
+          "annotation": "づき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "every month",
+        "monthly",
+        "month by month"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maandelijks",
+        "maand-",
+        "iedere maand",
+        "alle maanden",
+        "elke maand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "monatlich",
+        "jeder Monat",
+        "Monat für Monat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ежемесячно, помесячно, каждый месяц",
+        "{～の} ежемесячный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cada mes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1490430",
+  "readings": [
+    {
+      "kanaExpression": "びょう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "秒",
+      "furiganaExpression": [
+        {
+          "text": "秒",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 1318
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "second (unit of time)",
+        "arc second"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{tijdseenheid} seconde {het zestigste deel van een minuut}",
+        "{schaaleenheid} seconde {het zestigste deel van een minuut}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "seconde (c.-à-d. 60e de minute)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sekunde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "másod",
+        "másodperc",
+        "másodrangú",
+        "párbajsegéd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "секунда"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sekunda"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "segundo (1",
+        "60 de minuto)"
+      ]
+    }
+  ]
+}

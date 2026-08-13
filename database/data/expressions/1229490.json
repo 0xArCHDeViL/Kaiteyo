@@ -1,0 +1,63 @@
+{
+  "id": "1229490",
+  "readings": [
+    {
+      "kanaExpression": "きゅうしんりょく",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "求心力",
+      "furiganaExpression": [
+        {
+          "text": "求",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "力",
+          "annotation": "りょく"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "centripetal force",
+        "unifying force",
+        "cohesive power"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{nat.} middelpuntzoekende kracht",
+        "centrumzoekende kracht",
+        "centripetale kracht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zentripetalkraft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "центростремительная сила"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fuerza centrípeta"
+      ]
+    }
+  ]
+}

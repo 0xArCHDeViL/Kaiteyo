@@ -1,0 +1,47 @@
+{
+  "id": "1623530",
+  "readings": [
+    {
+      "kanaExpression": "だいそつ",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "大卒",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "だい"
+        },
+        {
+          "text": "卒",
+          "annotation": "そつ"
+        }
+      ],
+      "rank": 17500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "university graduate",
+        "having graduated from university"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Graduieren",
+        "Uniabschluss",
+        "Hochschulabsolvent",
+        "Graduierter"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "akademiker"
+      ]
+    }
+  ]
+}

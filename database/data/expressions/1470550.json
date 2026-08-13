@@ -1,0 +1,68 @@
+{
+  "id": "1470550",
+  "readings": [
+    {
+      "kanaExpression": "のうり",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "脳裏",
+      "furiganaExpression": [
+        {
+          "text": "脳",
+          "annotation": "のう"
+        },
+        {
+          "text": "裏",
+          "annotation": "り"
+        }
+      ],
+      "rank": 13332
+    },
+    {
+      "kanjiExpression": "脳裡",
+      "furiganaExpression": [
+        {
+          "text": "脳",
+          "annotation": "のう"
+        },
+        {
+          "text": "裡",
+          "annotation": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s mind"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verstand",
+        "brein",
+        "hersenen",
+        "geest",
+        "gedachten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sinn",
+        "Verstand",
+        "Erinnerung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ум"
+      ]
+    }
+  ]
+}

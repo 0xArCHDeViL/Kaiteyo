@@ -1,0 +1,56 @@
+{
+  "id": "1820320",
+  "readings": [
+    {
+      "kanaExpression": "くらもと",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "蔵元",
+      "furiganaExpression": [
+        {
+          "text": "蔵",
+          "annotation": "くら"
+        },
+        {
+          "text": "元",
+          "annotation": "もと"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "倉本",
+      "furiganaExpression": [
+        {
+          "text": "倉",
+          "annotation": "くら"
+        },
+        {
+          "text": "本",
+          "annotation": "もと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brewery (sake, soy)",
+        "brewer",
+        "warehouse overseer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kuramoto",
+        "Person, die ein Lagerhaus besitzt (insbes. für Sake, Sojasoße etc.)",
+        "Brauer (für Bier, Sake, Sojasoße etc.)",
+        "Sakehersteller",
+        "Sojasoßenhersteller"
+      ]
+    }
+  ]
+}

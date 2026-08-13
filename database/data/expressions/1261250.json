@@ -1,0 +1,58 @@
+{
+  "id": "1261250",
+  "readings": [
+    {
+      "kanaExpression": "げんが",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "原画",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "画",
+          "annotation": "が"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "original picture",
+        "key frame",
+        "key animation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "originele afbeelding",
+        "tekening",
+        "plaat",
+        "prent",
+        "schildering",
+        "origineel schilderij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Originalbild",
+        "Schlüsselbild (in einer Animationssequenz)",
+        "grobe Animationsskizze"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оригинал (картины)"
+      ]
+    }
+  ]
+}

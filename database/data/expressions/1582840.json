@@ -1,0 +1,54 @@
+{
+  "id": "1582840",
+  "readings": [
+    {
+      "kanaExpression": "じゅすい"
+    },
+    {
+      "kanaExpression": "にゅうすい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "入水",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "suicide by drowning",
+        "drowning oneself",
+        "entering the water",
+        "hitting the water"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ins-Wasser-Gehen",
+        "Selbstmord im Wasser",
+        "ins Wasser gehen",
+        "sich ertränken",
+        "eindringendes Wasser"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. см.) じゅすい",
+        "{～する} утопиться"
+      ]
+    }
+  ]
+}

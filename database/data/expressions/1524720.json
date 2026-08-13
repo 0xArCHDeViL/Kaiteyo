@@ -1,0 +1,89 @@
+{
+  "id": "1524720",
+  "readings": [
+    {
+      "kanaExpression": "まいにち",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "毎日",
+      "furiganaExpression": [
+        {
+          "text": "毎",
+          "annotation": "まい"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        }
+      ],
+      "rank": 693
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "every day"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "iedere dag",
+        "elke dag",
+        "dagelijks",
+        "alle dagen",
+        "alledag",
+        "alledaags ~",
+        "dag aan dag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chaque jour",
+        "tous les jours"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jeden Tag",
+        "jeder Tag",
+        "täglich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mindennap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каждый день, ежедневно; день за днём, изо дня в день",
+        "{～の} ежедневный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vsak dan"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "todos los días"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "varje dag"
+      ]
+    }
+  ]
+}

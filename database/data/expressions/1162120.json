@@ -1,0 +1,91 @@
+{
+  "id": "1162120",
+  "readings": [
+    {
+      "kanaExpression": "いちがつ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "１月",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いち"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 2178
+    },
+    {
+      "kanjiExpression": "一月",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 5286
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "January",
+        "first month of the lunar calendar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "januari",
+        "de eerste maand van het jaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "janvier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Januar",
+        "(österr.)Jänner (erster Monat im Jahr)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "январь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "januar"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enero",
+        "Enero"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "januari"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "1661960",
+  "readings": [
+    {
+      "kanaExpression": "うみのおや",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "生みの親",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "う"
+        },
+        {
+          "text": "みの"
+        },
+        {
+          "text": "親",
+          "annotation": "おや"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "産みの親",
+      "furiganaExpression": [
+        {
+          "text": "産",
+          "annotation": "う"
+        },
+        {
+          "text": "みの"
+        },
+        {
+          "text": "親",
+          "annotation": "おや"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "biological parent",
+        "founder",
+        "creator"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "biologische",
+        "eigen",
+        "bloedeigen",
+        "echte",
+        "natuurlijke ouder",
+        "ouders",
+        "grondlegger",
+        "schepper",
+        "stichter",
+        "oprichter",
+        "uitvinder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leibliche Eltern",
+        "Gründer",
+        "Begründer",
+        "Gründervater",
+        "Gründermutter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alapító",
+        "alkotó"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "padre",
+        "creador",
+        "pionero",
+        "fundador"
+      ]
+    }
+  ]
+}

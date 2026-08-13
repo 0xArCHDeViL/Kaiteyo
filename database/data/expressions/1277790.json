@@ -1,0 +1,67 @@
+{
+  "id": "1277790",
+  "readings": [
+    {
+      "kanaExpression": "こうぶつ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "好物",
+      "furiganaExpression": [
+        {
+          "text": "好",
+          "annotation": "こう"
+        },
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        }
+      ],
+      "rank": 12861
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "favourite dish (favorite)",
+        "favourite food"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "plat préféré"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leibgericht",
+        "Lieblingsspeise",
+        "etw., das jmd. gern mag",
+        "Essen, das einem Kranken gut tut"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "любимое блюдо (кушанье, лакомство); любимая вещь (пища)",
+        "[私は]魚が好物です я очень люблю рыбу"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "najljubša hrana"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "plato favorito",
+        "comida favorita"
+      ]
+    }
+  ]
+}

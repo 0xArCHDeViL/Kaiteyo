@@ -1,0 +1,70 @@
+{
+  "id": "1280770",
+  "readings": [
+    {
+      "kanaExpression": "こうちゃ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "紅茶",
+      "furiganaExpression": [
+        {
+          "text": "紅",
+          "annotation": "こう"
+        },
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        }
+      ],
+      "rank": 6605
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "black tea"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zwarte thee",
+        "donkere thee"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "thé noir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwarzer Tee",
+        "Schwarztee"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[чёрный] чай"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "indijski čaj",
+        "pravi čaj"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "té negro"
+      ]
+    }
+  ]
+}

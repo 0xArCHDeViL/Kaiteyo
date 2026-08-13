@@ -1,0 +1,98 @@
+{
+  "id": "1169110",
+  "readings": [
+    {
+      "kanaExpression": "ひきはらう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "引き払う",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "引きはらう",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "きはらう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "引払う",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to vacate",
+        "to move out"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wegziehen",
+        "umziehen",
+        "ausziehen",
+        "einen Ort aufgeben",
+        "einen Platz räumen",
+        "verlassen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érvénytelenít",
+        "kiköltözik",
+        "semmisnek nyilvánít",
+        "szabadságra megy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "покидать (место); уходить (откуда-либо); освобождать (помещение); очищать (местность)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desalojar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "1546180",
+  "readings": [
+    {
+      "kanaExpression": "ようゆう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "溶融",
+      "furiganaExpression": [
+        {
+          "text": "溶",
+          "annotation": "よう"
+        },
+        {
+          "text": "融",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "熔融",
+      "furiganaExpression": [
+        {
+          "text": "熔",
+          "annotation": "よう"
+        },
+        {
+          "text": "融",
+          "annotation": "ゆう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "melting",
+        "fusion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schmelzen",
+        "verschmelzen",
+        "legieren",
+        "Schmelzen",
+        "Verschmelzung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megható",
+        "fúzió",
+        "szövetkezés",
+        "olvadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плавление",
+        "{～する} плавить[ся]"
+      ]
+    }
+  ]
+}

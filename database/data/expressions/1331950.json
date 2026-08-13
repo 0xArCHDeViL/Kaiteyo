@@ -1,0 +1,74 @@
+{
+  "id": "1331950",
+  "readings": [
+    {
+      "kanaExpression": "しゅうがく",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "修学",
+      "furiganaExpression": [
+        {
+          "text": "修",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "learning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lernen",
+        "studieren",
+        "Lernen",
+        "Studium"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erudíció",
+        "ismeretek",
+        "megtanulás",
+        "tanultság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "учение, образование",
+        "{～する} обучаться, учиться, получать образование"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "učenje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aprendizaje"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lärdom"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "1606700",
+  "readings": [
+    {
+      "kanaExpression": "わけまえ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "分け前",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "前",
+          "annotation": "まえ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "別け前",
+      "furiganaExpression": [
+        {
+          "text": "別",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "前",
+          "annotation": "まえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "share",
+        "portion",
+        "quota",
+        "cut"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aandeel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "morceau",
+        "part",
+        "portion",
+        "quota"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anteil",
+        "Portion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "osztályrész",
+        "rész",
+        "részesedés",
+        "adag",
+        "sors",
+        "ereszték",
+        "marás",
+        "metszet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доля, часть"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "porción"
+      ]
+    }
+  ]
+}

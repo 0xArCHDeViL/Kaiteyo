@@ -1,0 +1,69 @@
+{
+  "id": "1521420",
+  "readings": [
+    {
+      "kanaExpression": "ぼくたち",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "僕たち",
+      "furiganaExpression": [
+        {
+          "text": "僕",
+          "annotation": "ぼく"
+        },
+        {
+          "text": "たち"
+        }
+      ],
+      "rank": 6113
+    },
+    {
+      "kanjiExpression": "僕達",
+      "furiganaExpression": [
+        {
+          "text": "僕",
+          "annotation": "ぼく"
+        },
+        {
+          "text": "達",
+          "annotation": "たち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "we"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wij",
+        "we"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wir (Männersprache)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nosotros",
+        "nos"
+      ]
+    }
+  ]
+}

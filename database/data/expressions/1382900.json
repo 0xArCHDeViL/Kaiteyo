@@ -1,0 +1,84 @@
+{
+  "id": "1382900",
+  "readings": [
+    {
+      "kanaExpression": "つみかさなる",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "積み重なる",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "重",
+          "annotation": "かさ"
+        },
+        {
+          "text": "なる"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "積重なる",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つみ"
+        },
+        {
+          "text": "重",
+          "annotation": "かさ"
+        },
+        {
+          "text": "なる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to pile up",
+        "to stack up",
+        "to accumulate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich opstapelen",
+        "zich ophopen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufeinanderliegen",
+        "aufeinanderstapeln",
+        "aufstauen",
+        "ansammeln (Arbeit, Unzufriedenheit)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felhalmoz",
+        "felhalmozódik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "громоздиться, нагромождаться"
+      ]
+    }
+  ]
+}

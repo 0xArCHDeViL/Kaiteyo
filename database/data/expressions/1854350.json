@@ -1,0 +1,86 @@
+{
+  "id": "1854350",
+  "readings": [
+    {
+      "kanaExpression": "たくわえ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "蓄え",
+      "furiganaExpression": [
+        {
+          "text": "蓄",
+          "annotation": "たくわ"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "貯え",
+      "furiganaExpression": [
+        {
+          "text": "貯",
+          "annotation": "たくわ"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "store",
+        "reserve",
+        "stock",
+        "savings"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorraad",
+        "reserve",
+        "spaarpot",
+        "arsenaal",
+        "het oppotten",
+        "het opsparen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorrat",
+        "Lager",
+        "Ersparnisse",
+        "erspartes Geld",
+        "Spargroschen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áruraktár",
+        "depó",
+        "készlet",
+        "óvatosság",
+        "természetvédelmi terület",
+        "védett terület",
+        "részvénytőke",
+        "tőke"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сбережения",
+        "2) запас; фонд"
+      ]
+    }
+  ]
+}

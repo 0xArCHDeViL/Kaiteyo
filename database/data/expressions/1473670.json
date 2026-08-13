@@ -1,0 +1,82 @@
+{
+  "id": "1473670",
+  "readings": [
+    {
+      "kanaExpression": "かいだし",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "買い出し",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "買出し",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "かい"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "going out to shop",
+        "going shopping",
+        "buying in quantity",
+        "buying wholesale",
+        "bulk purchasing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einkauf",
+        "Besorgung",
+        "Engros-Einkauf",
+        "Einkauf im Großen",
+        "Kaufen auf Vorrat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emelőszerkezet",
+        "könnyítés",
+        "szerzemény",
+        "vásárlás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "закупка; покупка"
+      ]
+    }
+  ]
+}

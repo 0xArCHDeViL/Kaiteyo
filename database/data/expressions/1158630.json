@@ -1,0 +1,63 @@
+{
+  "id": "1158630",
+  "readings": [
+    {
+      "kanaExpression": "いかいよう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "胃潰瘍",
+      "furiganaExpression": [
+        {
+          "text": "胃",
+          "annotation": "い"
+        },
+        {
+          "text": "潰",
+          "annotation": "かい"
+        },
+        {
+          "text": "瘍",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stomach ulcer",
+        "gastric ulcer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} maagzweer",
+        "ulcus ventriculi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Magengeschwür",
+        "Magenulkus",
+        "Ulcus ventriculi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) язва желудка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "úlcera estomacal"
+      ]
+    }
+  ]
+}

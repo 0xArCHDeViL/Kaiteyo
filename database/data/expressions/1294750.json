@@ -1,0 +1,100 @@
+{
+  "id": "1294750",
+  "readings": [
+    {
+      "kanaExpression": "さいくつ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "採掘",
+      "furiganaExpression": [
+        {
+          "text": "採",
+          "annotation": "さい"
+        },
+        {
+          "text": "掘",
+          "annotation": "くつ"
+        }
+      ],
+      "rank": 14035
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mining",
+        "digging",
+        "working (a mine)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontginnen",
+        "exploiteren",
+        "delven",
+        "graven",
+        "uitdelven",
+        "uitgraven",
+        "opdelven",
+        "opgraven",
+        "winnen",
+        "uit de grond halen",
+        "ontginning",
+        "exploitatie",
+        "mijnbouw",
+        "delving",
+        "uitdelving",
+        "uitgraving",
+        "opdelving",
+        "opgraving",
+        "winning",
+        "graverij"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "exploitation minière"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abbauen",
+        "zu Tage fördern",
+        "Abbau",
+        "Bergbau",
+        "Förderung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разработка [полезных ископаемых]",
+        "{～する} разрабатывать (рудник и т. п.); добывать (уголь и т. п.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "rudarstvo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "explotar",
+        "extraer"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "minering"
+      ]
+    }
+  ]
+}

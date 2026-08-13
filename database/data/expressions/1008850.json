@@ -1,0 +1,42 @@
+{
+  "id": "1008850",
+  "readings": [
+    {
+      "kanaExpression": "といえば",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "と言えば",
+      "furiganaExpression": [
+        {
+          "text": "と"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "えば"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "speaking of ...",
+        "when it comes to ...",
+        "as for ...",
+        "if one were to say ..."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "over … gesproken"
+      ]
+    }
+  ]
+}

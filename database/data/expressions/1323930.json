@@ -1,0 +1,69 @@
+{
+  "id": "1323930",
+  "readings": [
+    {
+      "kanaExpression": "しゃっかん",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "借款",
+      "furiganaExpression": [
+        {
+          "text": "借",
+          "annotation": "しゃっ"
+        },
+        {
+          "text": "款",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "loan (esp. between governments)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lening"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dette (international)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "internationale Anleihe",
+        "internationales Darlehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kölcsön"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заём",
+        "{～する} делать (получать) заём"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "préstamo (internacional)"
+      ]
+    }
+  ]
+}

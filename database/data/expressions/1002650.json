@@ -1,0 +1,112 @@
+{
+  "id": "1002650",
+  "readings": [
+    {
+      "kanaExpression": "おかあさん",
+      "rank": 12933
+    },
+    {
+      "kanjiExpression": "お母さん",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "母",
+          "annotation": "かあ"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "rank": 2544
+    },
+    {
+      "kanjiExpression": "御母さん",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "母",
+          "annotation": "かあ"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mother",
+        "mom",
+        "mum",
+        "ma",
+        "wife",
+        "you (of an elderly person older than the speaker)",
+        "she",
+        "her"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moeder {honorifieke term}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mère"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mutter (höfliche Bez. der Mutter jmds. anderen)",
+        "Mama",
+        "Mutti (höfliche Anrede der eigenen Mutter)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anya-",
+        "forrás",
+        "létrehozó",
+        "mama",
+        "szülőanya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мама, мамочка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "mati",
+        "{naziv za naslavljanje",
+        "ogovarjanje lastne matere}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "madre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mamma"
+      ]
+    }
+  ]
+}

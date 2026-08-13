@@ -1,0 +1,71 @@
+{
+  "id": "1233100",
+  "readings": [
+    {
+      "kanaExpression": "さかなや",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "魚屋",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "さかな"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fish market",
+        "fish dealer",
+        "fishmonger"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vishandelaar",
+        "visboer",
+        "viswinkel",
+        "vishandel",
+        "vishal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "marché au poissons"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischladen",
+        "Fischgeschäft",
+        "Fischhändler"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) рыбная лавка, рыбный магазин",
+        "2) рыботорговец"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pescadería",
+        "vendedor de pescados"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "1985390",
+  "readings": [
+    {
+      "kanaExpression": "あいつら",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "アイツら"
+    },
+    {
+      "kanjiExpression": "あいつ等",
+      "furiganaExpression": [
+        {
+          "text": "あいつ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "彼奴ら",
+      "furiganaExpression": [
+        {
+          "text": "彼奴",
+          "annotation": "あいつ"
+        },
+        {
+          "text": "ら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "彼奴等",
+      "furiganaExpression": [
+        {
+          "text": "彼奴",
+          "annotation": "あいつ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "they",
+        "those guys",
+        "those fellows"
+      ]
+    }
+  ]
+}

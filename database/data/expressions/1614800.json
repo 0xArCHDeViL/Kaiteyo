@@ -1,0 +1,84 @@
+{
+  "id": "1614800",
+  "readings": [
+    {
+      "kanaExpression": "よこばい",
+      "rank": 19500
+    },
+    {
+      "kanaExpression": "ヨコバイ"
+    },
+    {
+      "kanjiExpression": "横ばい",
+      "furiganaExpression": [
+        {
+          "text": "横",
+          "annotation": "よこ"
+        },
+        {
+          "text": "ばい"
+        }
+      ],
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "横這い",
+      "furiganaExpression": [
+        {
+          "text": "横",
+          "annotation": "よこ"
+        },
+        {
+          "text": "這",
+          "annotation": "ば"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sidewise crawl (e.g. of a crab)",
+        "crawling sideways",
+        "leafhopper (insect)",
+        "jassid",
+        "sidewinder (Crotalus cerastes)",
+        "levelling off (of prices, etc.)",
+        "stabilizing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zijdelingse gang",
+        "beweging",
+        "het zijwaarts kruipen",
+        "{かにの} krabbengang",
+        "stagnatie",
+        "stabilisering",
+        "{dierk.} dwergcicade",
+        "bladspringer",
+        "Cicadellidae"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "seitwärts laufen",
+        "Seitwärtslaufen",
+        "Stabilbleiben",
+        "Beibehalten einer Höhe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～をする} ползать боком; (обр.) оставаться почти на том же уровне (напр. о ценах)"
+      ]
+    }
+  ]
+}

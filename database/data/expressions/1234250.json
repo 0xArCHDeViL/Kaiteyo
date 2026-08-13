@@ -1,0 +1,50 @@
+{
+  "id": "1234250",
+  "readings": [
+    {
+      "kanaExpression": "ども",
+      "rank": 814
+    },
+    {
+      "kanjiExpression": "共",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "ども"
+        }
+      ],
+      "rank": 4825
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first-person plural (or singular)",
+        "second or third person plural (implies speaker is of higher status than those referred to)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{hum.} {aan de eerste persoon gevoegde bescheidenheidsuitgang}",
+        "{meervoudsuitgang} -en",
+        "-s",
+        "{vocatief-uitgang}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "suffixe de pluriel indiquant l\u0027humilité s\u0027il est utilisé pour soi-même ou le mépris s\u0027il est utilisé pour une tierce personne"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "indica plural humilde refiriendose a uno mismo",
+        "desdeñoso refiriendose a otros"
+      ]
+    }
+  ]
+}

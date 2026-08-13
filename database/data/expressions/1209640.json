@@ -1,0 +1,50 @@
+{
+  "id": "1209640",
+  "readings": [
+    {
+      "kanaExpression": "かわき",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "乾き",
+      "furiganaExpression": [
+        {
+          "text": "乾",
+          "annotation": "かわ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drying",
+        "dryness"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trockenheit",
+        "Trocknen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szárazság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сушка"
+      ]
+    }
+  ]
+}

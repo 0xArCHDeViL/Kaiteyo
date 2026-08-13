@@ -1,0 +1,41 @@
+{
+  "id": "1613480",
+  "readings": [
+    {
+      "kanaExpression": "うちゅうかん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "右中間",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "う"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "間",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "between right and center fielders (centre)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Position zwischen rechten und zentralen Feldspielern"
+      ]
+    }
+  ]
+}

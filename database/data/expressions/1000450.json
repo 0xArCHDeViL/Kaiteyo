@@ -1,0 +1,88 @@
+{
+  "id": "1000450",
+  "readings": [
+    {
+      "kanaExpression": "あのかた",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "あの方",
+      "furiganaExpression": [
+        {
+          "text": "あの"
+        },
+        {
+          "text": "方",
+          "annotation": "かた"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "彼の方",
+      "furiganaExpression": [
+        {
+          "text": "彼",
+          "annotation": "あ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "方",
+          "annotation": "かた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "that gentleman",
+        "that lady",
+        "he",
+        "she"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "die persoon",
+        "hij",
+        "zij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "diese Dame",
+        "dieser Herr",
+        "diese Person",
+        "er",
+        "sie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(вежл.) он, она"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "tista oseba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ese señor",
+        "esa señora",
+        "él",
+        "ella"
+      ]
+    }
+  ]
+}

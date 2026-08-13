@@ -1,0 +1,67 @@
+{
+  "id": "1654000",
+  "readings": [
+    {
+      "kanaExpression": "しょしゃ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "書写",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "写",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transcription",
+        "copying",
+        "handwriting (as a school subject)",
+        "penmanship"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kopiëring",
+        "overschrijving",
+        "afschrift",
+        "transcriptie",
+        "{onderw.} schoonschrift",
+        "schrijfoefening"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kopieren",
+        "transkribieren",
+        "abschreiben",
+        "durchpausen",
+        "Kopieren",
+        "Transkribieren",
+        "Abschreiben",
+        "Durchpausen",
+        "Schönschrift",
+        "Kalligraphie (Unterrichtsfach in Grund- und Mittelschule)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átírás",
+        "áttétel"
+      ]
+    }
+  ]
+}

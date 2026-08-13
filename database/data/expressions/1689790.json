@@ -1,0 +1,79 @@
+{
+  "id": "1689790",
+  "readings": [
+    {
+      "kanaExpression": "とびおり",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "飛び下り",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "下",
+          "annotation": "お"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "飛び降り",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "降",
+          "annotation": "お"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "jumping off"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het zich neerstorten van grote hoogte",
+        "sprong uit een rijdend voertuig",
+        "rijtuig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herunterspringen",
+        "Herabspringen",
+        "Abspringen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соскакивание на ходу (с трамвая и т. п.)",
+        "спрыгивание"
+      ]
+    }
+  ]
+}

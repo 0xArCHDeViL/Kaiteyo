@@ -1,0 +1,112 @@
+{
+  "id": "1481970",
+  "readings": [
+    {
+      "kanaExpression": "はんざつ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "煩雑",
+      "furiganaExpression": [
+        {
+          "text": "煩",
+          "annotation": "はん"
+        },
+        {
+          "text": "雑",
+          "annotation": "ざつ"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "繁雑",
+      "furiganaExpression": [
+        {
+          "text": "繁",
+          "annotation": "はん"
+        },
+        {
+          "text": "雑",
+          "annotation": "ざつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "complex",
+        "intricate",
+        "complicated",
+        "confused",
+        "troublesome",
+        "vexatious",
+        "cumbersome"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gecompliceerdheid",
+        "ingewikkeldheid",
+        "complexiteit",
+        "neteligheid",
+        "gecompliceerd",
+        "complex",
+        "ingewikkeld",
+        "netelig",
+        "moeilijk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "complexe",
+        "compliqué",
+        "confus",
+        "embrouillé",
+        "incommode"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verwickelt",
+        "verworren",
+        "kompliziert",
+        "Verwicklung",
+        "Kompliziertheit",
+        "Lästigkeit",
+        "Umständlichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "komplex",
+        "komplexus",
+        "lelki gátlás",
+        "zaklató"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) сложность; запутанность",
+        "{～な} сложный; запутанный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lioso",
+        "confuso",
+        "molesto",
+        "trabajoso",
+        "complicado"
+      ]
+    }
+  ]
+}

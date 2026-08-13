@@ -1,0 +1,45 @@
+{
+  "id": "1623630",
+  "readings": [
+    {
+      "kanaExpression": "だんこう",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "断交",
+      "furiganaExpression": [
+        {
+          "text": "断",
+          "annotation": "だん"
+        },
+        {
+          "text": "交",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "breaking off relations (esp. between countries)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bruch der Freundschaft",
+        "Abbruch der diplomatischen Beziehungen",
+        "die Beziehungen abbrechen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разрыв отношений, прекращение сношений"
+      ]
+    }
+  ]
+}

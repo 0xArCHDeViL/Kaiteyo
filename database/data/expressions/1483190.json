@@ -1,0 +1,130 @@
+{
+  "id": "1483190",
+  "readings": [
+    {
+      "kanaExpression": "かなしい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "悲しい",
+      "furiganaExpression": [
+        {
+          "text": "悲",
+          "annotation": "かな"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "rank": 2399
+    },
+    {
+      "kanjiExpression": "哀しい",
+      "furiganaExpression": [
+        {
+          "text": "哀",
+          "annotation": "かな"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "rank": 10500
+    },
+    {
+      "kanjiExpression": "愛しい",
+      "furiganaExpression": [
+        {
+          "text": "愛",
+          "annotation": "かな"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "rank": 13758
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sad",
+        "miserable",
+        "unhappy",
+        "sorrowful",
+        "lamentable",
+        "deplorable",
+        "grievous"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "droevig",
+        "triest",
+        "zielig",
+        "treurig",
+        "ongelukkig",
+        "bedroefd"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "affligé",
+        "triste"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "traurig",
+        "betrübt",
+        "unglücklich",
+        "bekümmert",
+        "kummervoll",
+        "schmerzerfüllt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bús",
+        "sajnálatos",
+        "szerencsétlen",
+        "szomorú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "печальный, грустный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "žalosten"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "triste",
+        "tristeza",
+        "dolor",
+        "duelo",
+        "pena",
+        "congoja"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sorglig",
+        "sorgsen"
+      ]
+    }
+  ]
+}

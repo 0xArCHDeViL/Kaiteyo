@@ -1,0 +1,106 @@
+{
+  "id": "1327830",
+  "readings": [
+    {
+      "kanaExpression": "てがき",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "手書き",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "書",
+          "annotation": "が"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 8940
+    },
+    {
+      "kanjiExpression": "手描き",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "描",
+          "annotation": "が"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "手書",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "書",
+          "annotation": "がき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "手描",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "描",
+          "annotation": "がき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "handwriting",
+        "handwritten",
+        "hand-painted",
+        "hand-drawn"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "handschrift",
+        "manuscript",
+        "{～の} handgeschreven",
+        "het uit de hand tekenen",
+        "handtekening",
+        "{～の} handgetekend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "handgemalt",
+        "handbemalt",
+        "Handbemalen",
+        "Handbemalung",
+        "Handschrift"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kézírás"
+      ]
+    }
+  ]
+}

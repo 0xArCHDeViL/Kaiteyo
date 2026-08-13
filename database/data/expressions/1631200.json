@@ -1,0 +1,53 @@
+{
+  "id": "1631200",
+  "readings": [
+    {
+      "kanaExpression": "こうていぶあい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "公定歩合",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "定",
+          "annotation": "てい"
+        },
+        {
+          "text": "歩",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ],
+      "rank": 17000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "official discount (bank) rate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "officieel disconto",
+        "wisseldisconto"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "amtlicher Kurs",
+        "Diskontsatz"
+      ]
+    }
+  ]
+}

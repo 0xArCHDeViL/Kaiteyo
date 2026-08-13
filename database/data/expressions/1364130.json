@@ -1,0 +1,91 @@
+{
+  "id": "1364130",
+  "readings": [
+    {
+      "kanaExpression": "しんうち",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "真打",
+      "furiganaExpression": [
+        {
+          "text": "真",
+          "annotation": "しん"
+        },
+        {
+          "text": "打",
+          "annotation": "うち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "真打ち",
+      "furiganaExpression": [
+        {
+          "text": "真",
+          "annotation": "しん"
+        },
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "心打",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "打",
+          "annotation": "うち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "心打ち",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main performer",
+        "star performer",
+        "headliner",
+        "rakugo storyteller of the highest rank"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Star einer Yose-Vorstellung, der als letzter auftritt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ведущий актёр (рассказчик, исполнитель)"
+      ]
+    }
+  ]
+}

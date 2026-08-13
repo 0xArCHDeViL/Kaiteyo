@@ -1,0 +1,60 @@
+{
+  "id": "1323190",
+  "readings": [
+    {
+      "kanaExpression": "しゃそう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "車窓",
+      "furiganaExpression": [
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "窓",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "train window",
+        "car window"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vitre de voiture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wagenfenster",
+        "Fahrzeugfenster",
+        "Autofenster",
+        "Zugfenster",
+        "Busfenster"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окно вагона"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ventanilla (coche, tren, etc.)"
+      ]
+    }
+  ]
+}

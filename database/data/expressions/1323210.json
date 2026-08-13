@@ -1,0 +1,80 @@
+{
+  "id": "1323210",
+  "readings": [
+    {
+      "kanaExpression": "しゃどう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "車道",
+      "furiganaExpression": [
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "道",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "roadway",
+        "road",
+        "carriageway"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijweg",
+        "rijbaan",
+        "{in \u0027t alg.} autoweg",
+        "{veroud.} wagenweg"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chaussée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Straße",
+        "Fahrbahn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проезжая дорога; шоссе; (ж.-д.) колея"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "cesta",
+        "cestišče"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calzada"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vägbana"
+      ]
+    }
+  ]
+}

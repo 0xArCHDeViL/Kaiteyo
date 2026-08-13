@@ -1,0 +1,52 @@
+{
+  "id": "1423120",
+  "readings": [
+    {
+      "kanaExpression": "きごこち",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "着心地",
+      "furiganaExpression": [
+        {
+          "text": "着",
+          "annotation": "き"
+        },
+        {
+          "text": "心地",
+          "annotation": "ごこち"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(good or bad) feel when wearing something"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tragegefühl",
+        "Tragekomfort",
+        "Gefühl beim Tragen (eines Kleidungsstückes)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "удобство в носке (одежды)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cómodo de vestir",
+        "fácil de llevar (ropa)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1823340",
+  "readings": [
+    {
+      "kanaExpression": "ききやく",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "聞き役",
+      "furiganaExpression": [
+        {
+          "text": "聞",
+          "annotation": "き"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "役",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "聞役",
+      "furiganaExpression": [
+        {
+          "text": "聞",
+          "annotation": "きき"
+        },
+        {
+          "text": "役",
+          "annotation": "やく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "listener\u0027s role"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zuhörer",
+        "Zuhörerrolle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "1562020",
+  "readings": [
+    {
+      "kanaExpression": "わがし",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "和菓子",
+      "furiganaExpression": [
+        {
+          "text": "和",
+          "annotation": "わ"
+        },
+        {
+          "text": "菓",
+          "annotation": "が"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 14060
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wagashi",
+        "traditional Japanese confectionery"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "confiserie japonaise"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "japanisches Konfekt",
+        "japanische Süßigkeiten"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pastelillos japoneses",
+        "dulces japoneses"
+      ]
+    }
+  ]
+}

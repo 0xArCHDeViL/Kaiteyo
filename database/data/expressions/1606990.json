@@ -1,0 +1,64 @@
+{
+  "id": "1606990",
+  "readings": [
+    {
+      "kanaExpression": "わりやす",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "割安",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わり"
+        },
+        {
+          "text": "安",
+          "annotation": "やす"
+        }
+      ],
+      "rank": 13141
+    },
+    {
+      "kanjiExpression": "割り安",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "安",
+          "annotation": "やす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "economical",
+        "comparatively cheap"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "preiswert",
+        "günstig",
+        "wohlfeil",
+        "vergleichsweise Günstigkeit",
+        "Preiswertsein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～な} сравнительно дешёвый, умеренный (о цене)"
+      ]
+    }
+  ]
+}

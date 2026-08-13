@@ -1,0 +1,57 @@
+{
+  "id": "1464090",
+  "readings": [
+    {
+      "kanaExpression": "にっさん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "日産",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にっ"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 10522
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "daily output",
+        "Nissan (Japanese car company)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dagelijkse productie",
+        "dagelijkse opbrengst",
+        "NISSAN",
+        "Nissan Motor Co.",
+        "Ltd."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tagesproduktion",
+        "tägliche Produktion",
+        "täglicher Ausstoß",
+        "Nissan (japan. Autohersteller)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дневная (суточная) выработка (продукция); дневная (суточная) производительность"
+      ]
+    }
+  ]
+}

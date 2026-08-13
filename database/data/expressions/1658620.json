@@ -1,0 +1,88 @@
+{
+  "id": "1658620",
+  "readings": [
+    {
+      "kanaExpression": "じゆうがた",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "自由形",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "由",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "形",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "自由型",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "由",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "型",
+          "annotation": "がた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "freestyle (e.g. swimming event)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sportt.} freestyle",
+        "{zwemmen} vrije slag",
+        "borstcrawl",
+        "crawl"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freistil",
+        "Freistilschwimmen",
+        "Kraulen",
+        "Freistilringen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szabadfogás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) вольный стиль (в плавании)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estilo libre (natación)"
+      ]
+    }
+  ]
+}

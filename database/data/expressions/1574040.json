@@ -1,0 +1,89 @@
+{
+  "id": "1574040",
+  "readings": [
+    {
+      "kanaExpression": "いんせき",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "隕石",
+      "furiganaExpression": [
+        {
+          "text": "隕",
+          "annotation": "いん"
+        },
+        {
+          "text": "石",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "いん石",
+      "furiganaExpression": [
+        {
+          "text": "いん"
+        },
+        {
+          "text": "石",
+          "annotation": "せき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "meteorite"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{astron.} meteoriet",
+        "steenmeteoriet",
+        "meteoorsteen",
+        "hemelsteen",
+        "luchtsteen",
+        "meteoroliet",
+        "aeroliet",
+        "uranoliet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meteorit",
+        "Meteorstein",
+        "Aerolith"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "meteorkő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каменный метеорит"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "meteorito"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "meteorit",
+        "meteorsten"
+      ]
+    }
+  ]
+}

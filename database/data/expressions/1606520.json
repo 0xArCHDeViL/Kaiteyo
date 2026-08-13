@@ -1,0 +1,77 @@
+{
+  "id": "1606520",
+  "readings": [
+    {
+      "kanaExpression": "わかち",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "分かち",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "かち"
+        }
+      ],
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "分ち",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "わか"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "別ち",
+      "furiganaExpression": [
+        {
+          "text": "別",
+          "annotation": "わか"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "distinction",
+        "differentiation",
+        "discrimination"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterschied",
+        "Unterscheidung",
+        "Differenz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kitüntetés",
+        "megkülönböztetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "различие"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1273120",
+  "readings": [
+    {
+      "kanaExpression": "こうねん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "光年",
+      "furiganaExpression": [
+        {
+          "text": "光",
+          "annotation": "こう"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "light-year"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{astron.} lichtjaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "année lumière"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lichtjahr (9.460.500.000.000km; Abk.: lt-yr bzw. l.y.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fényév"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(астр.) световой год"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "año luz"
+      ]
+    }
+  ]
+}

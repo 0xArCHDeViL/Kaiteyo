@@ -1,0 +1,56 @@
+{
+  "id": "1555950",
+  "readings": [
+    {
+      "kanaExpression": "なみだごえ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "涙声",
+      "furiganaExpression": [
+        {
+          "text": "涙",
+          "annotation": "なみだ"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tearful voice"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "voix larmoyante"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tränenerstickte Stimme",
+        "weinerliche Stimme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "голос, полный слёз"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voz llorosa"
+      ]
+    }
+  ]
+}

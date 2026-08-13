@@ -1,0 +1,72 @@
+{
+  "id": "1486850",
+  "readings": [
+    {
+      "kanaExpression": "はなうた",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "鼻歌",
+      "furiganaExpression": [
+        {
+          "text": "鼻",
+          "annotation": "はな"
+        },
+        {
+          "text": "歌",
+          "annotation": "うた"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "鼻唄",
+      "furiganaExpression": [
+        {
+          "text": "鼻",
+          "annotation": "はな"
+        },
+        {
+          "text": "唄",
+          "annotation": "うた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "humming",
+        "crooning"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geneurie",
+        "gedeun",
+        "het neuriën",
+        "het croonen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Summen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zúgás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мурлыкание, напевание (пение) с закрытым ртом"
+      ]
+    }
+  ]
+}

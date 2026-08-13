@@ -1,0 +1,55 @@
+{
+  "id": "1731580",
+  "readings": [
+    {
+      "kanaExpression": "みつりょう",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "密漁",
+      "furiganaExpression": [
+        {
+          "text": "密",
+          "annotation": "みつ"
+        },
+        {
+          "text": "漁",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "poaching (fish or seafood)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fische wildern",
+        "illegal fangen",
+        "Fischwilderei",
+        "illegaler Fischfang",
+        "Schwarzfang"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "orvhalászat",
+        "orvvadászat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "браконьерство, незаконный (хищнический) лов [рыбы]",
+        "{～する} браконьерствовать, заниматься хищническим ловом [рыбы]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1477110",
+  "readings": [
+    {
+      "kanaExpression": "はちうえ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "鉢植え",
+      "furiganaExpression": [
+        {
+          "text": "鉢",
+          "annotation": "はち"
+        },
+        {
+          "text": "植",
+          "annotation": "う"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "鉢植",
+      "furiganaExpression": [
+        {
+          "text": "鉢",
+          "annotation": "はち"
+        },
+        {
+          "text": "植",
+          "annotation": "うえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "potted plant",
+        "potting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "potplant",
+        "kamerplant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Topfpflanze",
+        "Eintopfen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cserepes növény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цветок (растение) в горшке"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "1839820",
+  "readings": [
+    {
+      "kanaExpression": "しょくりょうちょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "食糧庁",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "糧",
+          "annotation": "りょう"
+        },
+        {
+          "text": "庁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "food agency"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ernährungsamt"
+      ]
+    }
+  ]
+}

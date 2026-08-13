@@ -1,0 +1,53 @@
+{
+  "id": "1359130",
+  "readings": [
+    {
+      "kanaExpression": "しんきょう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "信教",
+      "furiganaExpression": [
+        {
+          "text": "信",
+          "annotation": "しん"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "religious belief",
+        "faith"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "religiöser Glaube",
+        "Religion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "becsület",
+        "hit",
+        "hűség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "религия, вера, вероисповедание"
+      ]
+    }
+  ]
+}

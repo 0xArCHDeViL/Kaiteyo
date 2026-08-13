@@ -1,0 +1,148 @@
+{
+  "id": "1837710",
+  "readings": [
+    {
+      "kanaExpression": "たちあい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "立会い",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "たち"
+        },
+        {
+          "text": "会",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "立ち会い",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "会",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "立会",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "たち"
+        },
+        {
+          "text": "会",
+          "annotation": "あい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "立ち合い",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "立合い",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "たち"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "presence (e.g. of an observer)",
+        "observation",
+        "observer",
+        "witness",
+        "trading session (at an exchange)",
+        "rising from a crouch to charge",
+        "initial charge",
+        "face-off"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sumō-jargon} afzet",
+        "charge",
+        "aanval",
+        "aanwezigheid",
+        "tegenwoordigheid",
+        "presentie",
+        "waarneming",
+        "observatie",
+        "{m.b.t. beurs} sessie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anwesenheit",
+        "Gegenwart",
+        "Dabeisein",
+        "Börsensitzung",
+        "Kaufoption",
+        "Kampfbeginn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyűlés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) присутствие",
+        "2) (бирж.) работа"
+      ]
+    }
+  ]
+}

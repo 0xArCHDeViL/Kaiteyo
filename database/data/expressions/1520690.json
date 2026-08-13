@@ -1,0 +1,72 @@
+{
+  "id": "1520690",
+  "readings": [
+    {
+      "kanaExpression": "ほくほくとう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "北北東",
+      "furiganaExpression": [
+        {
+          "text": "北",
+          "annotation": "ほく"
+        },
+        {
+          "text": "北",
+          "annotation": "ほく"
+        },
+        {
+          "text": "東",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "北々東",
+      "furiganaExpression": [
+        {
+          "text": "北",
+          "annotation": "ほく"
+        },
+        {
+          "text": "々",
+          "annotation": "ほく"
+        },
+        {
+          "text": "東",
+          "annotation": "とう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "north-northeast",
+        "north-north-east"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nord-nord-est"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nordnordost",
+        "NNO"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "северо-северо-восток"
+      ]
+    }
+  ]
+}

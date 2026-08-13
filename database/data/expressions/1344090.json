@@ -1,0 +1,81 @@
+{
+  "id": "1344090",
+  "readings": [
+    {
+      "kanaExpression": "しょせき",
+      "rank": 19500
+    },
+    {
+      "kanaExpression": "しょじゃく"
+    },
+    {
+      "kanjiExpression": "書籍",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "籍",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 2251
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "book",
+        "publication"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boek",
+        "boekwerk",
+        "boekdeel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "livre",
+        "publication"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Buch",
+        "Bücher"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jegyzetfüzet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "книга; книги, литература"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "knjiga"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "libro"
+      ]
+    }
+  ]
+}

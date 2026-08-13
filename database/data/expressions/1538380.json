@@ -1,0 +1,62 @@
+{
+  "id": "1538380",
+  "readings": [
+    {
+      "kanaExpression": "やくしょ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "訳書",
+      "furiganaExpression": [
+        {
+          "text": "訳",
+          "annotation": "やく"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "translation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Übersetzung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fordítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) [письменный] перевод"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "traducción escrita",
+        "texto de una traducción"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "översättning"
+      ]
+    }
+  ]
+}

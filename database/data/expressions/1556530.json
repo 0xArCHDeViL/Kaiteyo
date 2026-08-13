@@ -1,0 +1,73 @@
+{
+  "id": "1556530",
+  "readings": [
+    {
+      "kanaExpression": "れいしょう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "例証",
+      "furiganaExpression": [
+        {
+          "text": "例",
+          "annotation": "れい"
+        },
+        {
+          "text": "証",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "例證",
+      "furiganaExpression": [
+        {
+          "text": "例",
+          "annotation": "れい"
+        },
+        {
+          "text": "證",
+          "annotation": "しょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exemplification",
+        "illustration",
+        "example"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beleg",
+        "Illustration",
+        "Erläuterung",
+        "belegen",
+        "erläutern",
+        "illustrieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ábra",
+        "illusztráció",
+        "példa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подтверждающий пример; подтверждение примером",
+        "{～する} доказывать на примере, подтверждать примерами",
+        "{～となる} служить (являться) подтверждением (доказательным примером)"
+      ]
+    }
+  ]
+}

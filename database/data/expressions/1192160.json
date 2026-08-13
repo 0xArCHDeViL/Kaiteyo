@@ -1,0 +1,57 @@
+{
+  "id": "1192160",
+  "readings": [
+    {
+      "kanaExpression": "かぞくけいかく",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "家族計画",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "族",
+          "annotation": "ぞく"
+        },
+        {
+          "text": "計",
+          "annotation": "けい"
+        },
+        {
+          "text": "画",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "family planning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Familienplanung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "регулирование деторождения"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "planificación familiar"
+      ]
+    }
+  ]
+}

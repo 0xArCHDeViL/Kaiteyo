@@ -1,0 +1,75 @@
+{
+  "id": "1206330",
+  "readings": [
+    {
+      "kanaExpression": "へだたり",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "隔たり",
+      "furiganaExpression": [
+        {
+          "text": "隔",
+          "annotation": "へだ"
+        },
+        {
+          "text": "たり"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "distance",
+        "interval",
+        "gap",
+        "difference",
+        "estrangement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afstand",
+        "distantie",
+        "tussenruimte",
+        "interval",
+        "{fig.} kloof",
+        "gat",
+        "verschil",
+        "gap",
+        "dispariteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Distanz",
+        "Entfernung",
+        "Abstand",
+        "Entfremdung",
+        "Disparität",
+        "Diskrepanz",
+        "Auseinanderklaffen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "táv",
+        "távolság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) расстояние (между чем-л.); промежуток",
+        "2) разница, разрыв",
+        "3) (перен.) отчуждение, холодок"
+      ]
+    }
+  ]
+}

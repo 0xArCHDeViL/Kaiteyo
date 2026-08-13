@@ -1,0 +1,78 @@
+{
+  "id": "1193890",
+  "readings": [
+    {
+      "kanaExpression": "かさいほけん",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "火災保険",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "災",
+          "annotation": "さい"
+        },
+        {
+          "text": "保",
+          "annotation": "ほ"
+        },
+        {
+          "text": "険",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fire insurance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "brandverzekering",
+        "brandassurantie",
+        "verzekering tegen brand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feuerversicherung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tűzkár biztosítás",
+        "tűzkárbiztosítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "страхование от огня"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zavarovanje proti požaru"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "seguro contra incendios"
+      ]
+    }
+  ]
+}

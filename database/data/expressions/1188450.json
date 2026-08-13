@@ -1,0 +1,62 @@
+{
+  "id": "1188450",
+  "readings": [
+    {
+      "kanaExpression": "なんという",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "なんとゆう"
+    },
+    {
+      "kanjiExpression": "何という",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なん"
+        },
+        {
+          "text": "という"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "何と言う",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なん"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "how (beautiful, etc.)",
+        "what a ...",
+        "nothing worth mentioning",
+        "nothing special",
+        "of what name"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "was für ein"
+      ]
+    }
+  ]
+}

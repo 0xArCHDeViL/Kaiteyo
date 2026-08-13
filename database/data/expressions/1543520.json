@@ -1,0 +1,47 @@
+{
+  "id": "1543520",
+  "readings": [
+    {
+      "kanaExpression": "よびちしき",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "予備知識",
+      "furiganaExpression": [
+        {
+          "text": "予",
+          "annotation": "よ"
+        },
+        {
+          "text": "備",
+          "annotation": "び"
+        },
+        {
+          "text": "知",
+          "annotation": "ち"
+        },
+        {
+          "text": "識",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "background knowledge",
+        "prerequisite knowledge"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorkenntnisse",
+        "Vorwissen"
+      ]
+    }
+  ]
+}

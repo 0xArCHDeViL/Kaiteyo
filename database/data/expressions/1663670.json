@@ -1,0 +1,79 @@
+{
+  "id": "1663670",
+  "readings": [
+    {
+      "kanaExpression": "きたい",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "きだい"
+    },
+    {
+      "kanjiExpression": "希代",
+      "furiganaExpression": [
+        {
+          "text": "希",
+          "annotation": "き"
+        },
+        {
+          "text": "代",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "稀代",
+      "furiganaExpression": [
+        {
+          "text": "稀",
+          "annotation": "き"
+        },
+        {
+          "text": "代",
+          "annotation": "たい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "uncommon",
+        "rare",
+        "extraordinary",
+        "matchless"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seltenheit",
+        "Einmaligkeit",
+        "Merkwürdigkeit",
+        "Ungewöhnlichkeit",
+        "selten",
+        "einmalig",
+        "ungewöhnlich",
+        "merkwürdig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kivételes",
+        "ritka",
+        "szokatlan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": ～の",
+        "1) редкостный, удивительный",
+        "2) (см.) きたい【奇態】"
+      ]
+    }
+  ]
+}

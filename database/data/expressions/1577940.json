@@ -1,0 +1,50 @@
+{
+  "id": "1577940",
+  "readings": [
+    {
+      "kanaExpression": "きゅうがた",
+      "rank": 31000
+    },
+    {
+      "kanaExpression": "きゅうけい",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "旧型",
+      "furiganaExpression": [
+        {
+          "text": "旧",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "型",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "old style",
+        "old type"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "altes Modell"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "старый фасон (стиль); старая модель",
+        "{～の} устаревший; вышедший из моды; несовременный",
+        "старый тип, старая модель"
+      ]
+    }
+  ]
+}

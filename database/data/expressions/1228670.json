@@ -1,0 +1,58 @@
+{
+  "id": "1228670",
+  "readings": [
+    {
+      "kanaExpression": "きゅうかん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "急患",
+      "furiganaExpression": [
+        {
+          "text": "急",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "患",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "emergency case"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cas d\u0027urgence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Notfallpatient",
+        "Notfall",
+        "ein plötzlich Erkrankter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внезапная болезнь"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "jourfall",
+        "katastroffall"
+      ]
+    }
+  ]
+}

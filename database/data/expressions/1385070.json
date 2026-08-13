@@ -1,0 +1,83 @@
+{
+  "id": "1385070",
+  "readings": [
+    {
+      "kanaExpression": "きって",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "切手",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きっ"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ],
+      "rank": 7719
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stamp (postage)",
+        "merchandise certificate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "postzegel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "timbre (postal)",
+        "bon d\u0027achat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Briefmarke (eigentl. Abk.)",
+        "Zahlungsbeleg",
+        "Quittung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bélyegző"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[почтовая] марка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "znamka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sello"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "frimärke"
+      ]
+    }
+  ]
+}

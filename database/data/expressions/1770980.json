@@ -1,0 +1,92 @@
+{
+  "id": "1770980",
+  "readings": [
+    {
+      "kanaExpression": "いわいごと",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "はぎごと"
+    },
+    {
+      "kanjiExpression": "祝い事",
+      "furiganaExpression": [
+        {
+          "text": "祝",
+          "annotation": "いわ"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "事",
+          "annotation": "ごと"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "祝事",
+      "furiganaExpression": [
+        {
+          "text": "祝",
+          "annotation": "いわい"
+        },
+        {
+          "text": "事",
+          "annotation": "ごと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "祝いごと",
+      "furiganaExpression": [
+        {
+          "text": "祝",
+          "annotation": "いわ"
+        },
+        {
+          "text": "いごと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "celebration",
+        "auspicious occasion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blijde gebeurtenis",
+        "feestelijkheid",
+        "festiviteit",
+        "feestgelegenheid",
+        "viering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "freudige Angelegenheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "радостное событие; празднование"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "celebración",
+        "fiesta"
+      ]
+    }
+  ]
+}

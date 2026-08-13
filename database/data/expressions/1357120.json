@@ -1,0 +1,83 @@
+{
+  "id": "1357120",
+  "readings": [
+    {
+      "kanaExpression": "じょうざい",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "錠剤",
+      "furiganaExpression": [
+        {
+          "text": "錠",
+          "annotation": "じょう"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pill",
+        "lozenge",
+        "tablet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pil",
+        "tablet"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pastille",
+        "pilule",
+        "tablette"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tablette",
+        "Pille"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ágyúgolyó",
+        "cigaretta",
+        "futball-labda",
+        "kellemetlen alak",
+        "labdacs",
+        "pirula",
+        "tabletta",
+        "teniszlabda",
+        "emléktábla"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "таблетка, пилюля"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pildora",
+        "pastilla",
+        "comprimido"
+      ]
+    }
+  ]
+}

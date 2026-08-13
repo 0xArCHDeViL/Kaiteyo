@@ -1,0 +1,50 @@
+{
+  "id": "1401560",
+  "readings": [
+    {
+      "kanaExpression": "そうこうげき",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "総攻撃",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "攻",
+          "annotation": "こう"
+        },
+        {
+          "text": "撃",
+          "annotation": "げき"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "all-out attack",
+        "general offensive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einen allgemeinen Angriff unternehmen",
+        "Allgemeinangriff",
+        "allgemeiner Angriff"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общее (генеральное) наступление"
+      ]
+    }
+  ]
+}

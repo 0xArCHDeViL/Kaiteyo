@@ -1,0 +1,55 @@
+{
+  "id": "1274540",
+  "readings": [
+    {
+      "kanaExpression": "こうひ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "公費",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "費",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public expense",
+        "public funds",
+        "public money",
+        "public expenditure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Gelder",
+        "öffentliche Kosten",
+        "öffentliche Ausgaben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общественные расходы",
+        "{～で} на общественный счёт"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gasto público"
+      ]
+    }
+  ]
+}

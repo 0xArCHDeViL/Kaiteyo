@@ -1,0 +1,57 @@
+{
+  "id": "1578190",
+  "readings": [
+    {
+      "kanaExpression": "ぐんぴょう",
+      "rank": 21000
+    },
+    {
+      "kanaExpression": "ぐんぺい"
+    },
+    {
+      "kanaExpression": "ぐんびょう"
+    },
+    {
+      "kanjiExpression": "軍兵",
+      "furiganaExpression": [
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "兵",
+          "annotation": "ぴょう"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "armed forces",
+        "battle troops"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bewaffnete Truppen",
+        "Bewaffnete"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fegyveres erők"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) солдаты; войска"
+      ]
+    }
+  ]
+}

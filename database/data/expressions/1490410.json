@@ -1,0 +1,50 @@
+{
+  "id": "1490410",
+  "readings": [
+    {
+      "kanaExpression": "びょうめい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "病名",
+      "furiganaExpression": [
+        {
+          "text": "病",
+          "annotation": "びょう"
+        },
+        {
+          "text": "名",
+          "annotation": "めい"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "name of a disease"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krankheitsbezeichnung",
+        "Name einer Krankheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "название болезни"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nombre de una enfermedad"
+      ]
+    }
+  ]
+}

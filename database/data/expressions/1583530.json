@@ -1,0 +1,71 @@
+{
+  "id": "1583530",
+  "readings": [
+    {
+      "kanaExpression": "ふじ",
+      "rank": 14545
+    },
+    {
+      "kanaExpression": "ふち",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "不治",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "治",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "incurability"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ongeneeslijkheid",
+        "{～の} ongeneeslijk",
+        "fataal",
+        "terminaal",
+        "niet te verhelpen",
+        "onherstelbaar",
+        "onbehandelbaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unheilbarkeit",
+        "Inkurabilität",
+        "unheilbar",
+        "inkurabel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) неизлечимость"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "incurable",
+        "irremediable",
+        "sin remedio",
+        "sin arreglo"
+      ]
+    }
+  ]
+}

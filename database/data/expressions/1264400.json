@@ -1,0 +1,59 @@
+{
+  "id": "1264400",
+  "readings": [
+    {
+      "kanaExpression": "げんがい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "言外",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "げん"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unexpressed",
+        "unspoken",
+        "implied",
+        "implicit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "implizit",
+        "unausgesprochen",
+        "mit gemeint",
+        "Unausgesprochenes",
+        "nicht ausdrücklich Gesagtes",
+        "Impliziertes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beleértett",
+        "fenntartás nélküli",
+        "hallgatólagos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.:) {～の} невыраженный [словами]; подразумеваемый"
+      ]
+    }
+  ]
+}

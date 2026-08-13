@@ -1,0 +1,48 @@
+{
+  "id": "1394110",
+  "readings": [
+    {
+      "kanaExpression": "ぜんやさい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "前夜祭",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "夜",
+          "annotation": "や"
+        },
+        {
+          "text": "祭",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "event held the night before another event",
+        "eve (of a festival) (e.g. Christmas Eve)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorfeier am Abend vor einem Festtag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "канун праздника; торжественное собрание накануне праздника"
+      ]
+    }
+  ]
+}

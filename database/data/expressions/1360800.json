@@ -1,0 +1,76 @@
+{
+  "id": "1360800",
+  "readings": [
+    {
+      "kanaExpression": "こころまち",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "心待ち",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "こころ"
+        },
+        {
+          "text": "待",
+          "annotation": "ま"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "anticipation",
+        "expectation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{～にする",
+        "に待つ} reikhalzend tegemoet zien",
+        "vol verlangen uitzien naar",
+        "zich verheugen op",
+        "verlangen",
+        "hunkeren naar",
+        "met smart zitten wachten op"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "innige Erwartung",
+        "Ersehnen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előérzet",
+        "megelőzés",
+        "várakozás",
+        "remény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:) 心待ちに待つ ждать с нетерпением, ждать не дождаться, быть в страстном ожидании"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "anticipación",
+        "expectativa"
+      ]
+    }
+  ]
+}

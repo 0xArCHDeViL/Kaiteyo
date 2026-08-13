@@ -1,0 +1,74 @@
+{
+  "id": "1519870",
+  "readings": [
+    {
+      "kanaExpression": "つむぎうた",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "紡ぎ歌",
+      "furiganaExpression": [
+        {
+          "text": "紡",
+          "annotation": "つむ"
+        },
+        {
+          "text": "ぎ"
+        },
+        {
+          "text": "歌",
+          "annotation": "うた"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "紡ぎ唄",
+      "furiganaExpression": [
+        {
+          "text": "紡",
+          "annotation": "つむ"
+        },
+        {
+          "text": "ぎ"
+        },
+        {
+          "text": "唄",
+          "annotation": "うた"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "つむぎ唄",
+      "furiganaExpression": [
+        {
+          "text": "つむぎ"
+        },
+        {
+          "text": "唄",
+          "annotation": "うた"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "つむぎ歌",
+      "furiganaExpression": [
+        {
+          "text": "つむぎ"
+        },
+        {
+          "text": "歌",
+          "annotation": "うた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spinning song"
+      ]
+    }
+  ]
+}

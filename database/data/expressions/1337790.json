@@ -1,0 +1,56 @@
+{
+  "id": "1337790",
+  "readings": [
+    {
+      "kanaExpression": "じゅくせい",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "塾生",
+      "furiganaExpression": [
+        {
+          "text": "塾",
+          "annotation": "じゅく"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cram school student",
+        "student of a private-tutoring school"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "élève d\u0027une école privée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schüler einer Nachhilfeschule"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) учащийся (частного учебного заведения); воспитанник пансиона"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estudiante de escuela privada"
+      ]
+    }
+  ]
+}

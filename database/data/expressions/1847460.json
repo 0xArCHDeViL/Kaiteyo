@@ -1,0 +1,74 @@
+{
+  "id": "1847460",
+  "readings": [
+    {
+      "kanaExpression": "おいもとめる",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "追い求める",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "求",
+          "annotation": "もと"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "追求める",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "おい"
+        },
+        {
+          "text": "求",
+          "annotation": "もと"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to pursue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verfolgen",
+        "suchen nach"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "folytat",
+        "üldöz",
+        "űz"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "perseguir"
+      ]
+    }
+  ]
+}

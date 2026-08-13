@@ -1,0 +1,62 @@
+{
+  "id": "1347920",
+  "readings": [
+    {
+      "kanaExpression": "しょうきぼ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "小規模",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "規",
+          "annotation": "き"
+        },
+        {
+          "text": "模",
+          "annotation": "ぼ"
+        }
+      ],
+      "rank": 6448
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small scale"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleine schaal",
+        "microschaal",
+        "kleinschalig",
+        "fijnschalig",
+        "op kleine schaal",
+        "mini-"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleiner Maßstab",
+        "in kleinem Stil",
+        "in kleinem Umfang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "небольшой (мелкий) масштаб",
+        "{～の} небольшого (мелкого) масштаба",
+        "{～に} в небольших масштабах"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "2853262",
+  "readings": [
+    {
+      "kanaExpression": "どぶ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ドブ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "溝",
+      "furiganaExpression": [
+        {
+          "text": "溝",
+          "annotation": "どぶ"
+        }
+      ],
+      "rank": 8298
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ditch",
+        "drain",
+        "gutter",
+        "trench",
+        "gap (between cutting guides)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sloot",
+        "greppel",
+        "gracht",
+        "watergang",
+        "afwateringssloot",
+        "wetering",
+        "watering",
+        "afvoerkanaal",
+        "geul",
+        "watervoor",
+        "goot",
+        "riool"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abflussgraben",
+        "Abwassergraben",
+        "Graben",
+        "Rinne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csatorna",
+        "folyóka",
+        "vájat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[водосточная, дренажная] канава"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "rov (za vodo)",
+        "odtočni kanal",
+        "odtok",
+        "kanalizacija"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "1628220",
+  "readings": [
+    {
+      "kanaExpression": "れいしょ",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "隷書",
+      "furiganaExpression": [
+        {
+          "text": "隷",
+          "annotation": "れい"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "clerical script (ancient, highly angular style of kanji)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ancien style de kanjis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reisho (archaischer auf Siegelschrift basierender Schriftstil aus der Qing-Zeit)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рэйсё (старинная форма иероглифического письма)"
+      ]
+    }
+  ]
+}

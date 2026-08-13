@@ -1,0 +1,58 @@
+{
+  "id": "1149740",
+  "readings": [
+    {
+      "kanaExpression": "あしゅ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "亜種",
+      "furiganaExpression": [
+        {
+          "text": "亜",
+          "annotation": "あ"
+        },
+        {
+          "text": "種",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subspecies"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{biol.} ondersoort",
+        "subspecies",
+        "{afk.} subsp."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterart",
+        "Subspezies"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подвид, разновидность"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "subespecie"
+      ]
+    }
+  ]
+}

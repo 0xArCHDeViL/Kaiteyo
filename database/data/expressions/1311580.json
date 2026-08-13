@@ -1,0 +1,72 @@
+{
+  "id": "1311580",
+  "readings": [
+    {
+      "kanaExpression": "かみぶくろ",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "かんぶくろ"
+    },
+    {
+      "kanjiExpression": "紙袋",
+      "furiganaExpression": [
+        {
+          "text": "紙",
+          "annotation": "かみ"
+        },
+        {
+          "text": "袋",
+          "annotation": "ぶくろ"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paper bag"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "papieren zak",
+        "{gew.} buil",
+        "{gew.} brief"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sac en papier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Papiertüte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "papírzacskó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бумажный мешочек (пакет), кулёк"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bolsa de papel"
+      ]
+    }
+  ]
+}

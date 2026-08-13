@@ -1,0 +1,75 @@
+{
+  "id": "1639770",
+  "readings": [
+    {
+      "kanaExpression": "こどもごころ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "子供心",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "供",
+          "annotation": "ども"
+        },
+        {
+          "text": "心",
+          "annotation": "ごころ"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "子ども心",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "ども"
+        },
+        {
+          "text": "心",
+          "annotation": "ごころ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "childlike mind",
+        "judgment as a child (judgement)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kinderhart",
+        "kindergemoed",
+        "kinderziel",
+        "kinderlijke gevoelsleven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kindliches Gemüt",
+        "Kinderherz",
+        "Kindersinn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "детская (чистая) душа"
+      ]
+    }
+  ]
+}

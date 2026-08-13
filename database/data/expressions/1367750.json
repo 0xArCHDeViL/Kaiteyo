@@ -1,0 +1,43 @@
+{
+  "id": "1367750",
+  "readings": [
+    {
+      "kanaExpression": "じんさい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "人災",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "じん"
+        },
+        {
+          "text": "災",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "man-made calamity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "menschenverursachte Katastrophe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ember okozta baleset"
+      ]
+    }
+  ]
+}

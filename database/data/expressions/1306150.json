@@ -1,0 +1,54 @@
+{
+  "id": "1306150",
+  "readings": [
+    {
+      "kanaExpression": "しと",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "使途",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "し"
+        },
+        {
+          "text": "途",
+          "annotation": "と"
+        }
+      ],
+      "rank": 18000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "purpose for which money is spent",
+        "the way money is spent",
+        "how goods are used"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bestedingswijze",
+        "aanwendingswijze",
+        "manier van spenderen",
+        "bestemming"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verwendungsweise von Geld oder Waren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) цель расходов, пути расходования"
+      ]
+    }
+  ]
+}

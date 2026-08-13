@@ -1,0 +1,92 @@
+{
+  "id": "1630990",
+  "readings": [
+    {
+      "kanaExpression": "いいつたえ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "言い伝え",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "伝",
+          "annotation": "つた"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "言伝え",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "いい"
+        },
+        {
+          "text": "伝",
+          "annotation": "つた"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tradition",
+        "legend"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "legende",
+        "traditie",
+        "overlevering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sage",
+        "Legende",
+        "mündliche Überlieferung",
+        "Tradition"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felirat",
+        "jelmagyarázat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сказание, предание",
+        "{～の} легендарный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dicho popular",
+        "tradición oral"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1206290",
+  "readings": [
+    {
+      "kanaExpression": "かくがい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "閣外",
+      "furiganaExpression": [
+        {
+          "text": "閣",
+          "annotation": "かく"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outside the Cabinet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außerhalb des Kabinetts",
+        "außerhalb es Kabinetts"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} вне кабинета [министров]"
+      ]
+    }
+  ]
+}

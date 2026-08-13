@@ -1,0 +1,97 @@
+{
+  "id": "1611370",
+  "readings": [
+    {
+      "kanaExpression": "ひにち",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "日にち",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "にち"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "日日",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "date (of a planned event, act, etc.)",
+        "day",
+        "(number of) days"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "datum",
+        "dag",
+        "(een aantal) dagen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "le nombre de jours",
+        "date"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tag",
+        "Datum",
+        "Termin",
+        "Zeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "datolya",
+        "dátum",
+        "időpont",
+        "randi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дни"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "datum",
+        "dnevi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "día tras día"
+      ]
+    }
+  ]
+}

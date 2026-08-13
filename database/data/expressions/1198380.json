@@ -1,0 +1,69 @@
+{
+  "id": "1198380",
+  "readings": [
+    {
+      "kanaExpression": "かいぎしつ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "会議室",
+      "furiganaExpression": [
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "conference room",
+        "council room"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vergaderzaal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "salle de réunion",
+        "salle du conseil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Konferenzraum",
+        "Konferenzzimmer",
+        "Besprechungszimmer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зал для собраний (совещаний (и т. п.)), конференц-зал"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "konferenčna soba"
+      ]
+    }
+  ]
+}

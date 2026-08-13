@@ -1,0 +1,96 @@
+{
+  "id": "1592530",
+  "readings": [
+    {
+      "kanaExpression": "けいこう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "蛍光",
+      "furiganaExpression": [
+        {
+          "text": "蛍",
+          "annotation": "けい"
+        },
+        {
+          "text": "光",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 11926
+    },
+    {
+      "kanjiExpression": "螢光",
+      "furiganaExpression": [
+        {
+          "text": "螢",
+          "annotation": "けい"
+        },
+        {
+          "text": "光",
+          "annotation": "こう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "けい光",
+      "furiganaExpression": [
+        {
+          "text": "けい"
+        },
+        {
+          "text": "光",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fluorescence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het fosforiserend licht van een vuurvliegje",
+        "het fosforiserend licht van een glimworm",
+        "fluorescentie",
+        "het fluoresceren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fluoreszenz (Aufleuchten unter Strahleneinwirkung)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fluoreszcencia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) свет светлячка",
+        "2) флуоресценция, свечение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fluorescencia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fluorescens"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "1178640",
+  "readings": [
+    {
+      "kanaExpression": "えんかビニール",
+      "rank": 28000
+    },
+    {
+      "kanaExpression": "えんかビニル"
+    },
+    {
+      "kanjiExpression": "塩化ビニール",
+      "furiganaExpression": [
+        {
+          "text": "塩",
+          "annotation": "えん"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "ビニール"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "塩化ビニル",
+      "furiganaExpression": [
+        {
+          "text": "塩",
+          "annotation": "えん"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "ビニル"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vinyl chloride",
+        "chloroethylene"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} vinylchloride",
+        "chlooretheen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vinylchlorid"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "polivinil-klorid",
+        "PVC"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vinylklorid"
+      ]
+    }
+  ]
+}

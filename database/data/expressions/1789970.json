@@ -1,0 +1,106 @@
+{
+  "id": "1789970",
+  "readings": [
+    {
+      "kanaExpression": "さんびか",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "賛美歌",
+      "furiganaExpression": [
+        {
+          "text": "賛",
+          "annotation": "さん"
+        },
+        {
+          "text": "美",
+          "annotation": "び"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "讚美歌",
+      "furiganaExpression": [
+        {
+          "text": "讚",
+          "annotation": "さん"
+        },
+        {
+          "text": "美",
+          "annotation": "び"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "讃美歌",
+      "furiganaExpression": [
+        {
+          "text": "讃",
+          "annotation": "さん"
+        },
+        {
+          "text": "美",
+          "annotation": "び"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hymn",
+        "hymnal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hymne",
+        "lofzang",
+        "vreugdezang",
+        "jubelzang",
+        "danklied",
+        "kerkgezang",
+        "hymnus",
+        "psalm"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hymne",
+        "Lobgesang",
+        "Loblied",
+        "Psalm",
+        "Kirchenlied"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyházi ének",
+        "egyházi énekeskönyv"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гимн; хорал"
+      ]
+    }
+  ]
+}

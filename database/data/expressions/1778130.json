@@ -1,0 +1,82 @@
+{
+  "id": "1778130",
+  "readings": [
+    {
+      "kanaExpression": "よせぎざいく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "寄せ木細工",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "せ"
+        },
+        {
+          "text": "木",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "細",
+          "annotation": "ざい"
+        },
+        {
+          "text": "工",
+          "annotation": "く"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "寄木細工",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "よせ"
+        },
+        {
+          "text": "木",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "細",
+          "annotation": "ざい"
+        },
+        {
+          "text": "工",
+          "annotation": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wooden mosaic work",
+        "parquetry",
+        "wooden mosaic (e.g. on a piece of furniture)",
+        "marquetry",
+        "marqueterie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Intarsie",
+        "Holzmosaik",
+        "Parkett",
+        "Parkettarbeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "деревянная мозаика; паркет"
+      ]
+    }
+  ]
+}

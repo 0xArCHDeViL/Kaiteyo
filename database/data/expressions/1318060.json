@@ -1,0 +1,54 @@
+{
+  "id": "1318060",
+  "readings": [
+    {
+      "kanaExpression": "じせん",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "自薦",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "薦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "self-recommendation",
+        "self-nomination",
+        "putting oneself forward"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich aanbevelen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "auto-promotion",
+        "auto-recommandation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich selbst vorschlagen",
+        "Selbstvorschlag",
+        "Selbstempfehlung"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "1418560",
+  "readings": [
+    {
+      "kanaExpression": "たんすいかぶつ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "炭水化物",
+      "furiganaExpression": [
+        {
+          "text": "炭",
+          "annotation": "たん"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "carbohydrate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} koolhydraat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kohlenhydrat",
+        "KH",
+        "Kohlehydrat",
+        "Saccharid"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szénhidrát"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hidrato de carbono"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kolhydrat"
+      ]
+    }
+  ]
+}

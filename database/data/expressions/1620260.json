@@ -1,0 +1,67 @@
+{
+  "id": "1620260",
+  "readings": [
+    {
+      "kanaExpression": "ずいはん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "随伴",
+      "furiganaExpression": [
+        {
+          "text": "随",
+          "annotation": "ずい"
+        },
+        {
+          "text": "伴",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "attendance",
+        "accompanying",
+        "following",
+        "adjoint"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "begeleiding",
+        "geleide",
+        "gezelschap",
+        "vergezelling",
+        "begeleiden",
+        "vergezelschappen",
+        "gezelschap houden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Begleitung",
+        "begleiten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jelenlét",
+        "jelenlevők"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сопровождение",
+        "{～する} сопровождать (кого-л.), сопутствовать (кому-л.)"
+      ]
+    }
+  ]
+}

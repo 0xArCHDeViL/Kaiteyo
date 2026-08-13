@@ -1,0 +1,52 @@
+{
+  "id": "2033380",
+  "readings": [
+    {
+      "kanaExpression": "しゅうかつ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "就活",
+      "furiganaExpression": [
+        {
+          "text": "就",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "活",
+          "annotation": "かつ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "job hunting",
+        "job searching"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitssuche",
+        "Suche nach einem Arbeitsplatz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поиск работы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "búsqueda de empleo",
+        "búsqueda de trabajo"
+      ]
+    }
+  ]
+}

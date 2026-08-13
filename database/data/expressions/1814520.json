@@ -1,0 +1,54 @@
+{
+  "id": "1814520",
+  "readings": [
+    {
+      "kanaExpression": "けんたい",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "検体",
+      "furiganaExpression": [
+        {
+          "text": "検",
+          "annotation": "けん"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "specimen",
+        "sample",
+        "object to be examined"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Probe",
+        "Untersuchungsprobe (Blut, Serum, Urin usw.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mintadarab",
+        "kóstoló"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "provbit",
+        "provexemplar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1409280",
+  "readings": [
+    {
+      "kanaExpression": "たいがい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "体外",
+      "furiganaExpression": [
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ectogenesis",
+        "outside the body"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außerhalb des Körpers",
+        "extrakorporal",
+        "extrasomatisch",
+        "ex vivo",
+        "in vitro"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mesterséges szövettenyésztés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～に} вне тела"
+      ]
+    }
+  ]
+}

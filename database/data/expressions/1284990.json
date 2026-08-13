@@ -1,0 +1,55 @@
+{
+  "id": "1284990",
+  "readings": [
+    {
+      "kanaExpression": "ごうせいじゅし",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "合成樹脂",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "ごう"
+        },
+        {
+          "text": "成",
+          "annotation": "せい"
+        },
+        {
+          "text": "樹",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "脂",
+          "annotation": "し"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "plastics",
+        "synthetic resins"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Synthetik",
+        "Kunstharz",
+        "Kunststoff",
+        "Plastik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "resina sintética"
+      ]
+    }
+  ]
+}

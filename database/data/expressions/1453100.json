@@ -1,0 +1,39 @@
+{
+  "id": "1453100",
+  "readings": [
+    {
+      "kanaExpression": "どうち",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "同地",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the same place",
+        "that place"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "derselbe Ort",
+        "der gerade erwähnte Ort"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "1357430",
+  "readings": [
+    {
+      "kanaExpression": "しょっき",
+      "rank": 21000
+    },
+    {
+      "kanaExpression": "おりき"
+    },
+    {
+      "kanjiExpression": "織機",
+      "furiganaExpression": [
+        {
+          "text": "織",
+          "annotation": "しょっ"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "織り機",
+      "furiganaExpression": [
+        {
+          "text": "織",
+          "annotation": "お"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "loom",
+        "weaving machine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "weefgetouw",
+        "{verk.} getouw",
+        "{verk.} touw",
+        "weefstoel",
+        "weeftoestel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "métier à tisser"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Webstuhl",
+        "Webmaschine"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "evezőnyél",
+        "szövőszék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ткацкий станок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "telar"
+      ]
+    }
+  ]
+}

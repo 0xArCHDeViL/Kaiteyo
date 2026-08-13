@@ -1,0 +1,66 @@
+{
+  "id": "1198870",
+  "readings": [
+    {
+      "kanaExpression": "かいほう",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "会報",
+      "furiganaExpression": [
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "報",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 12214
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bulletin (issued by a society)",
+        "report",
+        "newsletter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bulletin",
+        "Bericht",
+        "Mitteilungen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszámoló",
+        "dördülés",
+        "kiadmány",
+        "kósza hír",
+        "riport",
+        "tanulmányi értesítő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вестник, известия; труды (какого-л. общества)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "boletín",
+        "comunicado",
+        "informe"
+      ]
+    }
+  ]
+}

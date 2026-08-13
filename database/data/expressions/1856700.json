@@ -1,0 +1,50 @@
+{
+  "id": "1856700",
+  "readings": [
+    {
+      "kanaExpression": "あつかいかた",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "扱い方",
+      "furiganaExpression": [
+        {
+          "text": "扱",
+          "annotation": "あつか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "方",
+          "annotation": "かた"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "how to manage (e.g. case)",
+        "how to handle (e.g. machine)",
+        "way with (e.g. children, animal)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bearbeitungsweise",
+        "Art und Weise, etw. zu behandeln",
+        "Behandlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "способ обращения, как [надо] обращаться (с чем-л.)"
+      ]
+    }
+  ]
+}

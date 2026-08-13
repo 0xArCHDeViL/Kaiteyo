@@ -1,0 +1,73 @@
+{
+  "id": "1846450",
+  "readings": [
+    {
+      "kanaExpression": "かけめぐる",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "駆け巡る",
+      "furiganaExpression": [
+        {
+          "text": "駆",
+          "annotation": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "巡",
+          "annotation": "めぐ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "駆けめぐる",
+      "furiganaExpression": [
+        {
+          "text": "駆",
+          "annotation": "か"
+        },
+        {
+          "text": "けめぐる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "駆巡る",
+      "furiganaExpression": [
+        {
+          "text": "駆",
+          "annotation": "かけ"
+        },
+        {
+          "text": "巡",
+          "annotation": "めぐ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to run about",
+        "to rush about"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lót-fut",
+        "szaladgál"
+      ]
+    }
+  ]
+}

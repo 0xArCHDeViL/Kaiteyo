@@ -1,0 +1,71 @@
+{
+  "id": "1529000",
+  "readings": [
+    {
+      "kanaExpression": "みんせい",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "民政",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "政",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "civil administration",
+        "civil government",
+        "politics focused on the promotion of public welfare"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volkspolitiek",
+        "volkse politiek",
+        "burgerbestuur",
+        "burgerlijk bestuur",
+        "burgerbewind",
+        "burgerlijke overheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zivilregierung",
+        "Zivilverwaltung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "demokrácia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) гражданская администрация",
+        "2) демократическое правление, демократия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "democracia",
+        "gobierno civil"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1466140",
+  "readings": [
+    {
+      "kanaExpression": "にゅうこくかんりきょく",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "入国管理局",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "管",
+          "annotation": "かん"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "局",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Immigration Bureau",
+        "Immigration Office"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einwanderungsbehörde",
+        "Immigrationsbehörde",
+        "Ausländerbehörde",
+        "Ausländeramt"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "urad za priseljevanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oficina de inmigración"
+      ]
+    }
+  ]
+}

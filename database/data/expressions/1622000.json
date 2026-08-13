@@ -1,0 +1,64 @@
+{
+  "id": "1622000",
+  "readings": [
+    {
+      "kanaExpression": "ぼくとう",
+      "rank": 33500
+    },
+    {
+      "kanaExpression": "ぼくっとう"
+    },
+    {
+      "kanaExpression": "ぼくた"
+    },
+    {
+      "kanaExpression": "きがたな"
+    },
+    {
+      "kanjiExpression": "木刀",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "ぼく"
+        },
+        {
+          "text": "刀",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wooden sword"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "houten zwaard"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Holzschwert"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "деревянный меч"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "espada de madera"
+      ]
+    }
+  ]
+}

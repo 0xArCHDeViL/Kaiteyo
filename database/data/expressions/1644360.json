@@ -1,0 +1,45 @@
+{
+  "id": "1644360",
+  "readings": [
+    {
+      "kanaExpression": "りにち",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "離日",
+      "furiganaExpression": [
+        {
+          "text": "離",
+          "annotation": "り"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "departure from Japan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verlassen Japans",
+        "Japan verlassen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) отъезд из Японии (иностранца)",
+        "{～する} уезжать из Японии, покидать Японию (об иностранце)"
+      ]
+    }
+  ]
+}

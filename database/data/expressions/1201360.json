@@ -1,0 +1,60 @@
+{
+  "id": "1201360",
+  "readings": [
+    {
+      "kanaExpression": "かいこう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "海溝",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "溝",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "oceanic trench",
+        "deep-sea trench",
+        "deep"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fosse (marine)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tiefseegraben",
+        "Graben",
+        "Tiefseerinne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alapos",
+        "mély"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[морская] впадина"
+      ]
+    }
+  ]
+}

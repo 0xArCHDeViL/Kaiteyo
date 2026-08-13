@@ -1,0 +1,46 @@
+{
+  "id": "1478990",
+  "readings": [
+    {
+      "kanaExpression": "はんかい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "半壊",
+      "furiganaExpression": [
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "壊",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "partial destruction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "teilweise zerstört sein",
+        "halb zerstört werden",
+        "teilweise Zerstörung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) частичное разрушение",
+        "{～する} быть полуразрушенным (наполовину разрушенным)"
+      ]
+    }
+  ]
+}

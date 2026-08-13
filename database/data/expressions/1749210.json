@@ -1,0 +1,60 @@
+{
+  "id": "1749210",
+  "readings": [
+    {
+      "kanaExpression": "そうぞくぜい",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "相続税",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "そう"
+        },
+        {
+          "text": "続",
+          "annotation": "ぞく"
+        },
+        {
+          "text": "税",
+          "annotation": "ぜい"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inheritance tax",
+        "death duty"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geldw.} successierecht",
+        "successiebelasting",
+        "recht van successie",
+        "belasting op nalatenschappen",
+        "{Belg.N.} erfenisrecht",
+        "{gew.} het beste hoofd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erbschaftsteuer",
+        "Erbschaftssteuer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "налог на наследство"
+      ]
+    }
+  ]
+}

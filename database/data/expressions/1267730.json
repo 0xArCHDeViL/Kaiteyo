@@ -1,0 +1,56 @@
+{
+  "id": "1267730",
+  "readings": [
+    {
+      "kanaExpression": "ほこらしい",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "誇らしい",
+      "furiganaExpression": [
+        {
+          "text": "誇",
+          "annotation": "ほこ"
+        },
+        {
+          "text": "らしい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "proud",
+        "haughty",
+        "arrogant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stolz sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "büszke",
+        "önhitt",
+        "öntelt",
+        "pompás",
+        "remek",
+        "fennhéjázó",
+        "fönséges"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) гордый, горделивый"
+      ]
+    }
+  ]
+}

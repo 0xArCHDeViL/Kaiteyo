@@ -1,0 +1,140 @@
+{
+  "id": "1348910",
+  "readings": [
+    {
+      "kanaExpression": "すくない",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "少ない",
+      "furiganaExpression": [
+        {
+          "text": "少",
+          "annotation": "すく"
+        },
+        {
+          "text": "ない"
+        }
+      ],
+      "rank": 515
+    },
+    {
+      "kanjiExpression": "尠い",
+      "furiganaExpression": [
+        {
+          "text": "尠",
+          "annotation": "すくな"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "寡い",
+      "furiganaExpression": [
+        {
+          "text": "寡",
+          "annotation": "すくな"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "少い",
+      "furiganaExpression": [
+        {
+          "text": "少",
+          "annotation": "すくな"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 9173
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "few",
+        "little",
+        "small (amount)",
+        "low",
+        "scarce",
+        "insufficient",
+        "seldom",
+        "rare"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "weinig",
+        "gering",
+        "luttel",
+        "min",
+        "karig",
+        "{fig.} beperkt",
+        "{fig.} klein",
+        "{oneig.} schaars",
+        "{oneig.} zeldzaam"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "quelques",
+        "un petit nombre",
+        "un peu",
+        "rare",
+        "insuffisant",
+        "rarement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wenig",
+        "gering",
+        "begrenzt",
+        "selten",
+        "nicht genug"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elégtelen",
+        "ritka"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) 尠い, 寡い",
+        "(прил.) иметься в малом количестве; немногочисленный; скудный; редкий"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "maloštevilen",
+        "malo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "poco",
+        "un poco",
+        "escaso",
+        "insuficiente",
+        "raramente"
+      ]
+    }
+  ]
+}

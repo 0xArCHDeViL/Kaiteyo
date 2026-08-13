@@ -1,0 +1,114 @@
+{
+  "id": "1475790",
+  "readings": [
+    {
+      "kanaExpression": "ばくぜん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "漠然",
+      "furiganaExpression": [
+        {
+          "text": "漠",
+          "annotation": "ばく"
+        },
+        {
+          "text": "然",
+          "annotation": "ぜん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "ばく然",
+      "furiganaExpression": [
+        {
+          "text": "ばく"
+        },
+        {
+          "text": "然",
+          "annotation": "ぜん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vague",
+        "obscure",
+        "indistinct",
+        "hazy",
+        "ambiguous"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vaag",
+        "op vage wijze",
+        "onduidelijk",
+        "onbepaald",
+        "schemerig",
+        "schimmig",
+        "vaagjes",
+        "vagelijk",
+        "onomlijnd"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "confus",
+        "vague",
+        "confusément",
+        "vaguement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vage",
+        "verschwommen",
+        "unbestimmt",
+        "dunkel",
+        "undeutlich",
+        "unklar",
+        "zweideutig",
+        "zwecklos",
+        "obskur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizonytalan",
+        "homályos",
+        "tompa",
+        "határozatlan",
+        "dubiózus",
+        "félremagyarázható",
+        "kétes értékű",
+        "többféleképpen magyarázható"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～たる}, {～とした} неясный, смутный, туманный; неопределённый",
+        "{～と[して]} неясно, смутно"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "impreciso",
+        "vago",
+        "obscuro",
+        "ambiguo",
+        "indefinido"
+      ]
+    }
+  ]
+}

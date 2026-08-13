@@ -1,0 +1,57 @@
+{
+  "id": "1315170",
+  "readings": [
+    {
+      "kanaExpression": "じく",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "字句",
+      "furiganaExpression": [
+        {
+          "text": "字",
+          "annotation": "じ"
+        },
+        {
+          "text": "句",
+          "annotation": "く"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wording",
+        "words and phrases",
+        "way of expression",
+        "token"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Worte",
+        "Formulierung",
+        "Wortlaut"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "figyelmeztető",
+        "jelképes",
+        "jelzés",
+        "zálog"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слова и фразы, выражение, оборот; формулировка"
+      ]
+    }
+  ]
+}

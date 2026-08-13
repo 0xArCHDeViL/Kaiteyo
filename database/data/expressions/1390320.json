@@ -1,0 +1,82 @@
+{
+  "id": "1390320",
+  "readings": [
+    {
+      "kanaExpression": "せんじょう",
+      "rank": 21500
+    },
+    {
+      "kanaExpression": "いくさば"
+    },
+    {
+      "kanjiExpression": "戦場",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "場",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 6867
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "battlefield",
+        "battleground"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slagveld",
+        "{lit.t.} oorlogsveld",
+        "{w.g.} strijdveld"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "champ de bataille"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlachtfeld",
+        "Feld",
+        "Kampfstätte",
+        "Front"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csatatér"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поле боя; фронт"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "campo de batalla"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "slagfält"
+      ]
+    }
+  ]
+}

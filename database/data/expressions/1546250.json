@@ -1,0 +1,88 @@
+{
+  "id": "1546250",
+  "readings": [
+    {
+      "kanaExpression": "ようけん",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "用件",
+      "furiganaExpression": [
+        {
+          "text": "用",
+          "annotation": "よう"
+        },
+        {
+          "text": "件",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "business",
+        "thing to be done",
+        "something that should be performed",
+        "information that should be conveyed"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zaak",
+        "aangelegenheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "affaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Angelegenheit",
+        "Sache",
+        "Anliegen",
+        "Geschäft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "üzleti tevékenység"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дело",
+        "{～で} по делу"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "opravek",
+        "delo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "asunto"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "affär"
+      ]
+    }
+  ]
+}

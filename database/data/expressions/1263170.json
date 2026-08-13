@@ -1,0 +1,55 @@
+{
+  "id": "1263170",
+  "readings": [
+    {
+      "kanaExpression": "げんけい",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "減刑",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "刑",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reduction of penalty",
+        "commutation of a sentence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Strafe herabsetzen",
+        "eine Strafe vermindern",
+        "Strafminderung",
+        "Strafermäßigung",
+        "Strafmilderung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(юр.) смягчение наказания"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "indulto parcial",
+        "conmutación de la pena por otra más leve"
+      ]
+    }
+  ]
+}

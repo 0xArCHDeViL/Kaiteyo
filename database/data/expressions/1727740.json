@@ -1,0 +1,51 @@
+{
+  "id": "1727740",
+  "readings": [
+    {
+      "kanaExpression": "ひとくふう",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "一工夫",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "工",
+          "annotation": "く"
+        },
+        {
+          "text": "夫",
+          "annotation": "ふう"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "a bit of contrivance",
+        "some fiddling",
+        "a little ingenuity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "etwas mehr Nachdenken",
+        "etwas besser Planung"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un invento",
+        "un pedazo más"
+      ]
+    }
+  ]
+}

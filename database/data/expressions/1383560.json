@@ -1,0 +1,79 @@
+{
+  "id": "1383560",
+  "readings": [
+    {
+      "kanaExpression": "せきどう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "赤道",
+      "furiganaExpression": [
+        {
+          "text": "赤",
+          "annotation": "せき"
+        },
+        {
+          "text": "道",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "equator"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "evenaar",
+        "linie",
+        "equator",
+        "hemelequator",
+        "evennachtslijn"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "équateur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "äquatorial",
+        "Äquator"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyenlítő",
+        "ekvátor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "экватор"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ecuador"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ekvator"
+      ]
+    }
+  ]
+}

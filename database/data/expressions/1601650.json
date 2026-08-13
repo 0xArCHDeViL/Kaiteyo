@@ -1,0 +1,166 @@
+{
+  "id": "1601650",
+  "readings": [
+    {
+      "kanaExpression": "ひきだし",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "引き出し",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 11846
+    },
+    {
+      "kanjiExpression": "引出し",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "抽き出し",
+      "furiganaExpression": [
+        {
+          "text": "抽",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "抽出し",
+      "furiganaExpression": [
+        {
+          "text": "抽",
+          "annotation": "ひき"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "抽斗",
+      "furiganaExpression": [
+        {
+          "text": "抽斗",
+          "annotation": "ひきだし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drawer",
+        "withdrawal (of money from an account)",
+        "variety of knowledge and experience useful for handling things impromptu"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lade",
+        "schuiflade",
+        "la",
+        "{Belg.N.",
+        "spreekt.} schuif",
+        "{Barg.} flip",
+        "{m.b.t. bankrekening} opneming",
+        "opname",
+        "opvraging"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tiroir",
+        "retrait",
+        "variété de connaissances et d\u0027expériences utiles pour gérer les choses improvisées"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schublade",
+        "Schubfach",
+        "Abhebung",
+        "Abheben (Geld von einem Konto)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "borfiú",
+        "csapos",
+        "előrajzoló",
+        "fogalmazó",
+        "kibocsátó",
+        "fiók"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) выдвижной ящик",
+        "2) изъятие (вклада)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "predal"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cajón",
+        "gaveta",
+        "(2) retiro",
+        "sacar",
+        "extraer",
+        "retiro"
+      ]
+    }
+  ]
+}

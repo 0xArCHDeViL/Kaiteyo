@@ -1,0 +1,80 @@
+{
+  "id": "1470380",
+  "readings": [
+    {
+      "kanaExpression": "のう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "脳",
+      "furiganaExpression": [
+        {
+          "text": "脳",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 1518
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brain",
+        "brains",
+        "mind"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} hersenen",
+        "hersens",
+        "brein",
+        "cerebrum",
+        "hoofd",
+        "verstand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cerveau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gehirn",
+        "Hirn",
+        "Verstand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "agy",
+        "ész"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мозг[и]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "možgani"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cerebro",
+        "memoria"
+      ]
+    }
+  ]
+}

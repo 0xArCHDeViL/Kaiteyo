@@ -1,0 +1,80 @@
+{
+  "id": "1443170",
+  "readings": [
+    {
+      "kanaExpression": "でんきゅう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "電球",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 12716
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "light bulb"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gloeilamp",
+        "(elektrische) lamp",
+        "{meton.} lichtpeer",
+        "lichtpeertje",
+        "{meton.} (elektrische) peer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ampoule (électrique)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Glühlampe",
+        "Glühbirne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "izzó",
+        "villanykörte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "электрическая лампочка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "žarnica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "foco",
+        "bombilla"
+      ]
+    }
+  ]
+}

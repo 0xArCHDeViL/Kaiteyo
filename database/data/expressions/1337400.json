@@ -1,0 +1,61 @@
+{
+  "id": "1337400",
+  "readings": [
+    {
+      "kanaExpression": "しゅくえん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "祝宴",
+      "furiganaExpression": [
+        {
+          "text": "祝",
+          "annotation": "しゅく"
+        },
+        {
+          "text": "宴",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "celebratory banquet",
+        "feast"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "banket",
+        "feestmaal",
+        "{i.h.b.} jubelfeest",
+        "jubileum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fest",
+        "Bankett"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bankett",
+        "díszvacsora"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "банкет"
+      ]
+    }
+  ]
+}

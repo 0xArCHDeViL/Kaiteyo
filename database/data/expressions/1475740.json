@@ -1,0 +1,78 @@
+{
+  "id": "1475740",
+  "readings": [
+    {
+      "kanaExpression": "はくげきほう",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "迫撃砲",
+      "furiganaExpression": [
+        {
+          "text": "迫",
+          "annotation": "はく"
+        },
+        {
+          "text": "撃",
+          "annotation": "げき"
+        },
+        {
+          "text": "砲",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mortar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "granaatwerper",
+        "mortier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Granatwerfer",
+        "Mörser",
+        "Minenwerfer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "aknavető",
+        "habarcs",
+        "malter",
+        "mozsár",
+        "mozsárágyú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "миномёт"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mortero (artillería)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mörsare"
+      ]
+    }
+  ]
+}

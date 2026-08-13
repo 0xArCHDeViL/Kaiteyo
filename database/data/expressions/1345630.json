@@ -1,0 +1,52 @@
+{
+  "id": "1345630",
+  "readings": [
+    {
+      "kanaExpression": "のぞいて",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "除いて",
+      "furiganaExpression": [
+        {
+          "text": "除",
+          "annotation": "のぞ"
+        },
+        {
+          "text": "いて"
+        }
+      ],
+      "rank": 17500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "except",
+        "save"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nicht inbegriffen",
+        "außer",
+        "ohne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kivéve",
+        "védés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "за исключением, исключая, кроме"
+      ]
+    }
+  ]
+}

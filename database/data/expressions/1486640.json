@@ -1,0 +1,66 @@
+{
+  "id": "1486640",
+  "readings": [
+    {
+      "kanaExpression": "びみ",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "美味",
+      "furiganaExpression": [
+        {
+          "text": "美",
+          "annotation": "び"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        }
+      ],
+      "rank": 10015
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "good flavor",
+        "good flavour",
+        "delicacy",
+        "dainty"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wohlgeschmack",
+        "Schmackhaftigkeit",
+        "köstlicher Geschmack",
+        "Köstlichkeit",
+        "Leckerbissen",
+        "Delikatesse",
+        "köstlich",
+        "wohlschmeckend",
+        "schmackhaft",
+        "lecker",
+        "delikat",
+        "deliziös"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "törékenység"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) прекрасный вкус (чего-л.)",
+        "{～の} вкусный, восхитительный (на вкус)",
+        "2) деликатес"
+      ]
+    }
+  ]
+}

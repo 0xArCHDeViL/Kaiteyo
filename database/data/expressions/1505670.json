@@ -1,0 +1,51 @@
+{
+  "id": "1505670",
+  "readings": [
+    {
+      "kanaExpression": "ぶんめん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "文面",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 12605
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "contents of a document (esp. of a letter)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Briefinhalt",
+        "Brieftext",
+        "Textinhalt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) содержание, текст [письма]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "contenido de una carta"
+      ]
+    }
+  ]
+}

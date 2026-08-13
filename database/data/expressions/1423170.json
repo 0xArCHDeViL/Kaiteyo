@@ -1,0 +1,100 @@
+{
+  "id": "1423170",
+  "readings": [
+    {
+      "kanaExpression": "きがえる",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "きかえる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "着替える",
+      "furiganaExpression": [
+        {
+          "text": "着",
+          "annotation": "き"
+        },
+        {
+          "text": "替",
+          "annotation": "が"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 9299
+    },
+    {
+      "kanjiExpression": "着換える",
+      "furiganaExpression": [
+        {
+          "text": "着",
+          "annotation": "き"
+        },
+        {
+          "text": "換",
+          "annotation": "が"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to change (one\u0027s clothes)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich omkleden",
+        "andere kleren aantrekken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "changer de vêtements",
+        "se changer",
+        "se rhabiller"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kleider wechseln",
+        "sich umziehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átöltözik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переодевать[ся]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "preobleči se"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cambiarse la ropa"
+      ]
+    }
+  ]
+}

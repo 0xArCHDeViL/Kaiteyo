@@ -1,0 +1,85 @@
+{
+  "id": "1583810",
+  "readings": [
+    {
+      "kanaExpression": "ぶんぴつ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ぶんぴ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "分泌",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "泌",
+          "annotation": "ぴつ"
+        }
+      ],
+      "rank": 12084
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "secretion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afscheiden",
+        "uitscheiden",
+        "secretie",
+        "afscheiding",
+        "uitscheiding"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sécrétion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "absondern",
+        "sekretieren",
+        "Sekretion",
+        "Absonderung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rejtegetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выделение",
+        "секреция"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "secreción"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sekretion"
+      ]
+    }
+  ]
+}

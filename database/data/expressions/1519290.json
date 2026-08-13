@@ -1,0 +1,107 @@
+{
+  "id": "1519290",
+  "readings": [
+    {
+      "kanaExpression": "いそがしい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "忙しい",
+      "furiganaExpression": [
+        {
+          "text": "忙",
+          "annotation": "いそが"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "rank": 1785
+    },
+    {
+      "kanjiExpression": "忙がしい",
+      "furiganaExpression": [
+        {
+          "text": "忙",
+          "annotation": "いそ"
+        },
+        {
+          "text": "がしい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "busy",
+        "occupied",
+        "hectic",
+        "restless",
+        "hurried",
+        "fidgety"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "druk",
+        "in de weer",
+        "bedrijvig",
+        "bezet",
+        "zich niet kunnen vrijmaken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "occupé",
+        "trépidant",
+        "affairé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "viel zu tun habend",
+        "vielbeschäftigt",
+        "stark beansprucht",
+        "beschäftigt",
+        "rührig",
+        "hektisch",
+        "betriebsam",
+        "geschäftig",
+        "ruhelos",
+        "unaufhörlich",
+        "endlos"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elfoglalt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "занятый",
+        "занятой"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zaposlen, zavzet {z delom}, poln dela, ki nima časa"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ocupado",
+        "irritado"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1420560",
+  "readings": [
+    {
+      "kanaExpression": "ちけん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "知見",
+      "furiganaExpression": [
+        {
+          "text": "知",
+          "annotation": "ち"
+        },
+        {
+          "text": "見",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 10070
+    },
+    {
+      "kanjiExpression": "智見",
+      "furiganaExpression": [
+        {
+          "text": "智",
+          "annotation": "ち"
+        },
+        {
+          "text": "見",
+          "annotation": "けん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "knowledge",
+        "information",
+        "opinion",
+        "view"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waarneming",
+        "besef",
+        "bevinding",
+        "kennis",
+        "inzicht",
+        "informatie",
+        "visie",
+        "{boeddh.} jñāna-darśana {\u003d gefundeerd begrip}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kenntnisse",
+        "Wissen",
+        "Meinung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szakvélemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) знания, осведомлённость",
+        "2) взгляд, мнение"
+      ]
+    }
+  ]
+}

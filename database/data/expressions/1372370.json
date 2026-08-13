@@ -1,0 +1,82 @@
+{
+  "id": "1372370",
+  "readings": [
+    {
+      "kanaExpression": "すいみん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "睡眠",
+      "furiganaExpression": [
+        {
+          "text": "睡",
+          "annotation": "すい"
+        },
+        {
+          "text": "眠",
+          "annotation": "みん"
+        }
+      ],
+      "rank": 4174
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sleep"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slaap"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sommeil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlaf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alvás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сон",
+        "{～する} спать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "spanje",
+        "spanec",
+        "spati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sueño"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sömn"
+      ]
+    }
+  ]
+}

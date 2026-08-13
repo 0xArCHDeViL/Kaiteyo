@@ -1,0 +1,45 @@
+{
+  "id": "1631160",
+  "readings": [
+    {
+      "kanaExpression": "こうしきせん",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "公式戦",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "official match",
+        "regular game",
+        "regular-season game",
+        "formal match"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "reguläres Spiel",
+        "regulärer Wettkampf"
+      ]
+    }
+  ]
+}

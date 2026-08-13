@@ -1,0 +1,55 @@
+{
+  "id": "1529990",
+  "readings": [
+    {
+      "kanaExpression": "むさくい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "無作為",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "作",
+          "annotation": "さく"
+        },
+        {
+          "text": "為",
+          "annotation": "い"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "random",
+        "unintentional",
+        "unintended"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zufällige Auswahl",
+        "wahllos",
+        "willkürlich",
+        "ziellos",
+        "zufällig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "találomra",
+        "vaktában",
+        "véletlenül"
+      ]
+    }
+  ]
+}

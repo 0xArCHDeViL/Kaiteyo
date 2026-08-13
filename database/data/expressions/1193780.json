@@ -1,0 +1,62 @@
+{
+  "id": "1193780",
+  "readings": [
+    {
+      "kanaExpression": "かき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "火器",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "firearms",
+        "guns"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vuurpot",
+        "vuurpan",
+        "vuurtest",
+        "vuurwapen",
+        "vuurmond",
+        "artillerie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feuerwaffe",
+        "Schusswaffe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "огнестрельное оружие; огневые средства"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "armas de fuego"
+      ]
+    }
+  ]
+}

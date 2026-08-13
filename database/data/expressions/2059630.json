@@ -1,0 +1,92 @@
+{
+  "id": "2059630",
+  "readings": [
+    {
+      "kanaExpression": "ついてくる",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "付いてくる",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "いてくる"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "付いて来る",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "いて"
+        },
+        {
+          "text": "来",
+          "annotation": "く"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ついて来る",
+      "furiganaExpression": [
+        {
+          "text": "ついて"
+        },
+        {
+          "text": "来",
+          "annotation": "く"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to follow",
+        "to come along with one",
+        "to accompany"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mitkommen",
+        "folgen",
+        "mitgehen",
+        "treu sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "utána jön",
+        "utána megy",
+        "kísér"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "seguir",
+        "venir con alguien",
+        "acompañar"
+      ]
+    }
+  ]
+}

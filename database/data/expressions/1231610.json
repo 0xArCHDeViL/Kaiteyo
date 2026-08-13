@@ -1,0 +1,44 @@
+{
+  "id": "1231610",
+  "readings": [
+    {
+      "kanaExpression": "ぎゅうば",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "牛馬",
+      "furiganaExpression": [
+        {
+          "text": "牛",
+          "annotation": "ぎゅう"
+        },
+        {
+          "text": "馬",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "horses and cattle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rinder und Pferde",
+        "Vieh"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "коровы (быки) и лошади; рабочий скот"
+      ]
+    }
+  ]
+}

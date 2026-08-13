@@ -1,0 +1,40 @@
+{
+  "id": "1679080",
+  "readings": [
+    {
+      "kanaExpression": "ばんそう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "伴走",
+      "furiganaExpression": [
+        {
+          "text": "伴",
+          "annotation": "ばん"
+        },
+        {
+          "text": "走",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "running alongside",
+        "pacesetting",
+        "accompanying"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "begleiten",
+        "Begleitung (eines Marathonläufers od. Tourenrennfahrers)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "1819740",
+  "readings": [
+    {
+      "kanaExpression": "げきちゅうげき",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "劇中劇",
+      "furiganaExpression": [
+        {
+          "text": "劇",
+          "annotation": "げき"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "劇",
+          "annotation": "げき"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "play within a play"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schauspiel im Schauspiel",
+        "Spiel im Spiel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пьеса в пьесе (исполняемая в пьесе по ходу действия); интермедия"
+      ]
+    }
+  ]
+}

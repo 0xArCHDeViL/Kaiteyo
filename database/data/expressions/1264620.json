@@ -1,0 +1,102 @@
+{
+  "id": "1264620",
+  "readings": [
+    {
+      "kanaExpression": "かぎりない",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "限りない",
+      "furiganaExpression": [
+        {
+          "text": "限",
+          "annotation": "かぎ"
+        },
+        {
+          "text": "りない"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "限り無い",
+      "furiganaExpression": [
+        {
+          "text": "限",
+          "annotation": "かぎ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unlimited",
+        "endless",
+        "boundless",
+        "infinite"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onbegrensd",
+        "onbeperkt",
+        "grenzeloos",
+        "oneindig",
+        "eindeloos",
+        "ongelimiteerd",
+        "opperst",
+        "hoogst",
+        "suprême",
+        "supreem",
+        "uiterst",
+        "extreem",
+        "buitengewoon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "grenzenlos",
+        "unbeschränkt",
+        "unbegrenzt",
+        "ohne Einschränkung",
+        "endlos",
+        "unendlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "örök",
+        "se vége se hossza"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неограниченный, безграничный, беспредельный; бесконечный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "eterno",
+        "sin límite",
+        "sin fin"
+      ]
+    }
+  ]
+}

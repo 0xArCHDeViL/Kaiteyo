@@ -1,0 +1,44 @@
+{
+  "id": "1377700",
+  "readings": [
+    {
+      "kanaExpression": "せいとう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "正答",
+      "furiganaExpression": [
+        {
+          "text": "正",
+          "annotation": "せい"
+        },
+        {
+          "text": "答",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "correct answer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "richtige Antwort",
+        "korrekte Antwort"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "respuesta correcta"
+      ]
+    }
+  ]
+}

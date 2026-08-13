@@ -1,0 +1,81 @@
+{
+  "id": "1303340",
+  "readings": [
+    {
+      "kanaExpression": "さんじ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "惨事",
+      "furiganaExpression": [
+        {
+          "text": "惨",
+          "annotation": "さん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "disaster",
+        "tragedy",
+        "tragic incident",
+        "horrible accident"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ramp",
+        "drama",
+        "tragedie",
+        "catastrofe",
+        "rampzalig ongeval",
+        "noodlottig voorval",
+        "tragische gebeurtenis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "accident horrible",
+        "désastre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unglücksfall",
+        "furchtbares Ereignis",
+        "schrecklicher Zwischenfall",
+        "Katastrophe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "katasztrófa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "несчастный случай; катастрофа; трагедия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desastre",
+        "accidente horrible"
+      ]
+    }
+  ]
+}

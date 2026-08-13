@@ -1,0 +1,56 @@
+{
+  "id": "1223910",
+  "readings": [
+    {
+      "kanaExpression": "きばく",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "起爆",
+      "furiganaExpression": [
+        {
+          "text": "起",
+          "annotation": "き"
+        },
+        {
+          "text": "爆",
+          "annotation": "ばく"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ignition",
+        "detonation",
+        "triggering",
+        "explosion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zünden",
+        "Zündung",
+        "Zur-Detonation-Bringen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "взрывание",
+        "{～する} взрывать, вызывать взрыв"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "detonación",
+        "deflagración"
+      ]
+    }
+  ]
+}

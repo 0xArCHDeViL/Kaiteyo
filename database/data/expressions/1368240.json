@@ -1,0 +1,93 @@
+{
+  "id": "1368240",
+  "readings": [
+    {
+      "kanaExpression": "ひとくい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "人食い",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "食",
+          "annotation": "く"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "人喰い",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "喰",
+          "annotation": "く"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "人喰",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "喰",
+          "annotation": "くい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cannibalism",
+        "biting (someone)",
+        "man-eating (e.g. tiger)",
+        "cannibalistic"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "menschenfressend",
+        "Menschenfresserei",
+        "Kannibalismus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emberevés",
+        "kannibalizmus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "людоед, каннибал"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "canibalismo"
+      ]
+    }
+  ]
+}

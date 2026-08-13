@@ -1,0 +1,60 @@
+{
+  "id": "1610540",
+  "readings": [
+    {
+      "kanaExpression": "としガス",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "都市ガス",
+      "furiganaExpression": [
+        {
+          "text": "都",
+          "annotation": "と"
+        },
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "ガス"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "city gas",
+        "mains gas",
+        "gas supplied to buildings via pipes"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gaz de ville"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stadtgas"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gas municipal"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "stadsgas"
+      ]
+    }
+  ]
+}

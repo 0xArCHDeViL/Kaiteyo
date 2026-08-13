@@ -1,0 +1,96 @@
+{
+  "id": "1310050",
+  "readings": [
+    {
+      "kanaExpression": "ゆびわ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "指輪",
+      "furiganaExpression": [
+        {
+          "text": "指",
+          "annotation": "ゆび"
+        },
+        {
+          "text": "輪",
+          "annotation": "わ"
+        }
+      ],
+      "rank": 7964
+    },
+    {
+      "kanjiExpression": "指環",
+      "furiganaExpression": [
+        {
+          "text": "指",
+          "annotation": "ゆび"
+        },
+        {
+          "text": "環",
+          "annotation": "わ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(finger) ring"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ring",
+        "vingerring",
+        "{veroud.} bag",
+        "{veroud.} bagge",
+        "{Barg.} puinsteker"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bague"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ring",
+        "Fingerring"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bukmékerek",
+        "elkerített rész",
+        "karika",
+        "kör",
+        "ökölvívás",
+        "porond"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кольцо, перстень"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prstan"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "anillo"
+      ]
+    }
+  ]
+}

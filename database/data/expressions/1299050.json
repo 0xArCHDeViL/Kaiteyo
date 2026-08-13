@@ -1,0 +1,87 @@
+{
+  "id": "1299050",
+  "readings": [
+    {
+      "kanaExpression": "さつがい",
+      "rank": 18500
+    },
+    {
+      "kanaExpression": "せつがい"
+    },
+    {
+      "kanaExpression": "せちがい"
+    },
+    {
+      "kanjiExpression": "殺害",
+      "furiganaExpression": [
+        {
+          "text": "殺",
+          "annotation": "さつ"
+        },
+        {
+          "text": "害",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 4582
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "killing",
+        "murder"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moord",
+        "doodslag",
+        "doodslaan",
+        "het ombrengen",
+        "doding",
+        "vermoorden",
+        "ombrengen",
+        "om het leven brengen",
+        "doden",
+        "moorden",
+        "doodmaken",
+        "kapot maken",
+        "killen",
+        "om zeep helpen",
+        "brengen",
+        "uit de weg ruimen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mord",
+        "Mordtat",
+        "ermorden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyilkosság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "убийство",
+        "{～する} совершать убийство",
+        "(см.) さつがい"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "asesinato"
+      ]
+    }
+  ]
+}

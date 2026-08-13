@@ -1,0 +1,59 @@
+{
+  "id": "1954700",
+  "readings": [
+    {
+      "kanaExpression": "ほはば",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "歩幅",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "ほ"
+        },
+        {
+          "text": "幅",
+          "annotation": "はば"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "step",
+        "pace",
+        "stride"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schritt",
+        "Schrittlänge",
+        "Schrittweite"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "járás",
+        "járásmód",
+        "lépés",
+        "ha megengedik",
+        "iram",
+        "menetsebesség",
+        "vki engedelmével"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ширина шага"
+      ]
+    }
+  ]
+}

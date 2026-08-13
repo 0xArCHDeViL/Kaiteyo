@@ -1,0 +1,47 @@
+{
+  "id": "1157360",
+  "readings": [
+    {
+      "kanaExpression": "かわせぎんこう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "為替銀行",
+      "furiganaExpression": [
+        {
+          "text": "為替",
+          "annotation": "かわせ"
+        },
+        {
+          "text": "銀",
+          "annotation": "ぎん"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exchange bank"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Devisenbank"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cambio de banco"
+      ]
+    }
+  ]
+}

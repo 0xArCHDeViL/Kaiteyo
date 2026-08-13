@@ -1,0 +1,66 @@
+{
+  "id": "1567890",
+  "readings": [
+    {
+      "kanaExpression": "すばる",
+      "rank": 32000
+    },
+    {
+      "kanaExpression": "すまる"
+    },
+    {
+      "kanaExpression": "ぼう",
+      "rank": 11213
+    },
+    {
+      "kanjiExpression": "昴",
+      "furiganaExpression": [
+        {
+          "text": "昴",
+          "annotation": "すばる"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Chinese \"Hairy Head\" constellation (one of the 28 mansions)",
+        "Pleiades",
+        "Seven Sisters"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{astron.} Plejaden",
+        "Zevengesternte",
+        "Subaru {\u003d literair tijdschrift",
+        "1909-1913}",
+        "{Chin.astron.} Behaard Hoofd",
+        "Mǎo {\u003d één van de achtentwintig maanhuizen}",
+        "(a) {astron.} Plejaden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Plejaden (Sternhaufen im Sternbild Stier)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(астр.) Плеяды"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Las Pléyades"
+      ]
+    }
+  ]
+}

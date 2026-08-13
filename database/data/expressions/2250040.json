@@ -1,0 +1,58 @@
+{
+  "id": "2250040",
+  "readings": [
+    {
+      "kanaExpression": "ふえ",
+      "rank": 21000
+    },
+    {
+      "kanaExpression": "うきぶくろ"
+    },
+    {
+      "kanaExpression": "ひょう",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "ほばら"
+    },
+    {
+      "kanaExpression": "ほはら"
+    },
+    {
+      "kanjiExpression": "鰾",
+      "furiganaExpression": [
+        {
+          "text": "鰾",
+          "annotation": "ふえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "swim bladder",
+        "air bladder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwimmblase"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плавательный пузырь (у рыб)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vejiga natatoria"
+      ]
+    }
+  ]
+}

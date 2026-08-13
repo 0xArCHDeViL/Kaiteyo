@@ -1,0 +1,40 @@
+{
+  "id": "1073380",
+  "readings": [
+    {
+      "kanaExpression": "スポーツしんぶん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "スポーツ新聞",
+      "furiganaExpression": [
+        {
+          "text": "スポーツ"
+        },
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "聞",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sports newspaper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sportzeitung"
+      ]
+    }
+  ]
+}

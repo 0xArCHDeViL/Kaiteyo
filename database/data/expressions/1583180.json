@@ -1,0 +1,72 @@
+{
+  "id": "1583180",
+  "readings": [
+    {
+      "kanaExpression": "はんにち",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "はんじつ"
+    },
+    {
+      "kanjiExpression": "半日",
+      "furiganaExpression": [
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        }
+      ],
+      "rank": 10579
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "half day"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "halve dag",
+        "halfdaags",
+        "halfdaagse …"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "demi-journée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "halber Tag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полдня"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pol dneva"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mitad de día"
+      ]
+    }
+  ]
+}

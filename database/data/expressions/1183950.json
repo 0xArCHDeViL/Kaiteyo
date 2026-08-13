@@ -1,0 +1,62 @@
+{
+  "id": "1183950",
+  "readings": [
+    {
+      "kanaExpression": "おんそく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "音速",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "速",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "speed of sound"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geluidssnelheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schallgeschwindigkeit (etwa 1200 km",
+        "h)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скорость звука, звуковая скорость"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "velocidad del sonido"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ljudhastighet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "1981030",
+  "readings": [
+    {
+      "kanaExpression": "そんぎかい",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "村議会",
+      "furiganaExpression": [
+        {
+          "text": "村",
+          "annotation": "そん"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "village assembly"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dorpsraad"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dorfversammlung",
+        "Gemeindeversammlung"
+      ]
+    }
+  ]
+}

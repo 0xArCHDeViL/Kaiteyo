@@ -1,0 +1,106 @@
+{
+  "id": "1588520",
+  "readings": [
+    {
+      "kanaExpression": "うりこ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "売り子",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "子",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "売子",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うり"
+        },
+        {
+          "text": "子",
+          "annotation": "こ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "売り児",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "児",
+          "annotation": "こ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "salesperson",
+        "shop assistant",
+        "hawker",
+        "peddler",
+        "vendor",
+        "male prostitute"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkoper",
+        "winkeljongen",
+        "verkoopster",
+        "winkelmeisje",
+        "winkelbediende",
+        "schandknaap",
+        "schandjongen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vendeur",
+        "vendeuse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkäuferin",
+        "Verkäufer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eladónő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продавец, продавщица"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "1730150",
+  "readings": [
+    {
+      "kanaExpression": "にほんのうえん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "日本脳炎",
+      "furiganaExpression": [
+        {
+          "text": "日本",
+          "annotation": "にほん"
+        },
+        {
+          "text": "脳",
+          "annotation": "のう"
+        },
+        {
+          "text": "炎",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese encephalitis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "japanische Enzephalitis"
+      ]
+    }
+  ]
+}

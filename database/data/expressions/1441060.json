@@ -1,0 +1,76 @@
+{
+  "id": "1441060",
+  "readings": [
+    {
+      "kanaExpression": "てんか",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "転嫁",
+      "furiganaExpression": [
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "嫁",
+          "annotation": "か"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "imputation",
+        "shifting (blame, responsibility, etc.)",
+        "passing the buck",
+        "second marriage",
+        "remarriage"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "remariage",
+        "accusation",
+        "blâme",
+        "inculpation",
+        "responsabilité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abwälzen",
+        "zuschieben",
+        "verantwortlich machen",
+        "beschuldigen",
+        "Abwälzen (einer Schuld oder Verpflichtung)",
+        "Wiederheirat (einer Frau)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyanúsítás",
+        "tulajdonítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) второй брак",
+        "2): {～する} переложить (на кого-л. (вину, ответственность)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pasar a otros la responsabilidad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1683910",
+  "readings": [
+    {
+      "kanaExpression": "きゅうきん",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "給金",
+      "furiganaExpression": [
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(one\u0027s) pay",
+        "wages"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "loon",
+        "salaris",
+        "wedde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lohn",
+        "Gehalt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bér",
+        "fizetés",
+        "fizetség",
+        "illetmény",
+        "munkabér"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заработная плата, жалованье"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "1652060",
+  "readings": [
+    {
+      "kanaExpression": "こんどう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "金堂",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "こん"
+        },
+        {
+          "text": "堂",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main temple structure (sanctuary, hall)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{boeddh.} hoofdzaal",
+        "hoofdhal",
+        "gouden tempel",
+        "gouden hal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Haupthalle eines Tempels",
+        "Hauptheiligtum eines Tempels (wörtl. goldenen Halle)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "главный храм (в ансамбле построек буддийского монастыря)"
+      ]
+    }
+  ]
+}

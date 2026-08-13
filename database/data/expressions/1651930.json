@@ -1,0 +1,78 @@
+{
+  "id": "1651930",
+  "readings": [
+    {
+      "kanaExpression": "かみゆい",
+      "rank": 37000
+    },
+    {
+      "kanaExpression": "かみい"
+    },
+    {
+      "kanjiExpression": "髪結い",
+      "furiganaExpression": [
+        {
+          "text": "髪",
+          "annotation": "かみ"
+        },
+        {
+          "text": "結",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "髪結",
+      "furiganaExpression": [
+        {
+          "text": "髪",
+          "annotation": "かみ"
+        },
+        {
+          "text": "結",
+          "annotation": "ゆい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hairdresser",
+        "hairdressing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frisieren",
+        "Friseur",
+        "Friseuse"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "női fodrász"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) причёсывание",
+        "2) парикмахер"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "frisör"
+      ]
+    }
+  ]
+}

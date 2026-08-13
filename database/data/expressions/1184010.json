@@ -1,0 +1,55 @@
+{
+  "id": "1184010",
+  "readings": [
+    {
+      "kanaExpression": "おんぱ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "音波",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "波",
+          "annotation": "ぱ"
+        }
+      ],
+      "rank": 12244
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sound wave"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geluidsgolf"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schallwelle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "звуковая волна"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "onda sonora"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1658400",
+  "readings": [
+    {
+      "kanaExpression": "もちいえ",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "もちや"
+    },
+    {
+      "kanjiExpression": "持ち家",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "家",
+          "annotation": "いえ"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "持家",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "家",
+          "annotation": "いえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s (own) house"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eigenheim",
+        "das eigene Haus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "собственный дом"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1380550",
+  "readings": [
+    {
+      "kanaExpression": "せいもん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "声紋",
+      "furiganaExpression": [
+        {
+          "text": "声",
+          "annotation": "せい"
+        },
+        {
+          "text": "紋",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "voiceprint"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stimmenabdruck",
+        "akustischer Fingerabdruck"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "1609020",
+  "readings": [
+    {
+      "kanaExpression": "あき",
+      "rank": 12450
+    },
+    {
+      "kanjiExpression": "飽き",
+      "furiganaExpression": [
+        {
+          "text": "飽",
+          "annotation": "あ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "厭き",
+      "furiganaExpression": [
+        {
+          "text": "厭",
+          "annotation": "あ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weariness",
+        "boredom",
+        "tedium",
+        "tiresomeness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moeheid",
+        "verveling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "assommant",
+        "fatigue",
+        "lassitude"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überdruss",
+        "Langeweile"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "türelmetlenség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пресыщение (чем-л.), усталость (от чего-л. надоевшего)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hartazgo",
+        "hastío"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "1209480",
+  "readings": [
+    {
+      "kanaExpression": "かりいれ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "刈り入れ",
+      "furiganaExpression": [
+        {
+          "text": "刈",
+          "annotation": "か"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "刈入れ",
+      "furiganaExpression": [
+        {
+          "text": "刈",
+          "annotation": "かり"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "刈入",
+      "furiganaExpression": [
+        {
+          "text": "刈",
+          "annotation": "かり"
+        },
+        {
+          "text": "入",
+          "annotation": "いれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "harvest"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "moisson"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ernten",
+        "Ernte",
+        "Getreideernte (Ernte von etwas, das abgeschnitten werden muss)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "aratás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жатва, уборка урожая"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skörd"
+      ]
+    }
+  ]
+}

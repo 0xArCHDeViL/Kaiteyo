@@ -1,0 +1,105 @@
+{
+  "id": "1592430",
+  "readings": [
+    {
+      "kanaExpression": "くりこし",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "繰り越し",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "繰越",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "越",
+          "annotation": "こし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "繰越し",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "繰り越",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "越",
+          "annotation": "こし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "carry-over (of a balance, annual leave, etc.)",
+        "carrying over",
+        "bringing forward",
+        "carrying forward",
+        "transfer",
+        "balance brought forward",
+        "balance carried forward"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Übertragung",
+        "Überschreibung",
+        "Transport",
+        "Übertrag (von der vorhergehenden Seite o.Ä.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (бухг.) перенос (суммы); перенос итога, транспорт",
+        "{～する} переносить [в другую графу, книгу (и т. п.)]",
+        "2) перенос на следующий раз"
+      ]
+    }
+  ]
+}

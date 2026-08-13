@@ -1,0 +1,58 @@
+{
+  "id": "1374890",
+  "readings": [
+    {
+      "kanaExpression": "せいどう",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "制動",
+      "furiganaExpression": [
+        {
+          "text": "制",
+          "annotation": "せい"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "braking"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "remmen",
+        "{skiën} een remboog maken",
+        "het remmen",
+        "remming"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bremsen",
+        "dämpfen",
+        "stemmen",
+        "Bremsen",
+        "Dämpfen",
+        "Stemmen",
+        "Bremsung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} тормозить"
+      ]
+    }
+  ]
+}

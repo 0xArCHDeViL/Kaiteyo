@@ -1,0 +1,59 @@
+{
+  "id": "1711110",
+  "readings": [
+    {
+      "kanaExpression": "ひゃくせん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "百選",
+      "furiganaExpression": [
+        {
+          "text": "百",
+          "annotation": "ひゃく"
+        },
+        {
+          "text": "選",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "百撰",
+      "furiganaExpression": [
+        {
+          "text": "百",
+          "annotation": "ひゃく"
+        },
+        {
+          "text": "撰",
+          "annotation": "せん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "top hundred",
+        "hundred best"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keuze van de honderd beste",
+        "mooiste …"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auswahl von hundert bedeutenden Dingen",
+        "Kompilation hundert ausgewählter Stücke"
+      ]
+    }
+  ]
+}

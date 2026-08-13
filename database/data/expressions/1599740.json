@@ -1,0 +1,65 @@
+{
+  "id": "1599740",
+  "readings": [
+    {
+      "kanaExpression": "なんなんせい",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "南南西",
+      "furiganaExpression": [
+        {
+          "text": "南",
+          "annotation": "なん"
+        },
+        {
+          "text": "南",
+          "annotation": "なん"
+        },
+        {
+          "text": "西",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "南々西",
+      "furiganaExpression": [
+        {
+          "text": "南",
+          "annotation": "なん"
+        },
+        {
+          "text": "々",
+          "annotation": "なん"
+        },
+        {
+          "text": "西",
+          "annotation": "せい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "south-southwest",
+        "south-south-west"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Südsüdwest"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "юго-юго-запад"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1279470",
+  "readings": [
+    {
+      "kanaExpression": "こうい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "校医",
+      "furiganaExpression": [
+        {
+          "text": "校",
+          "annotation": "こう"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "school doctor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schularzt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "iskolaorvos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "школьный врач"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "médico de escuela"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skolläkare"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1658410",
+  "readings": [
+    {
+      "kanaExpression": "もちまわり",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "持ち回り",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "持回り",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rotation (of a post, role, etc.)",
+        "taking turns"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zirkulieren",
+        "Herumgehen (z.B. einer Akte zur Entscheidungsfindung)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rendre"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) обход (напр. заинтересованных); обнесение (чем-л., напр. желающих)",
+        "2): {～として} поочерёдно, посменно"
+      ]
+    }
+  ]
+}

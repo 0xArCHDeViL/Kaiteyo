@@ -1,0 +1,71 @@
+{
+  "id": "1697540",
+  "readings": [
+    {
+      "kanaExpression": "かりば",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "狩場",
+      "furiganaExpression": [
+        {
+          "text": "狩",
+          "annotation": "かり"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "狩り場",
+      "furiganaExpression": [
+        {
+          "text": "狩",
+          "annotation": "か"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hunting ground",
+        "hunting preserve"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jachtgebied",
+        "jachtterrein",
+        "jachtterritorium",
+        "jachtveld",
+        "jachtrevier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jagdrevier",
+        "Jagdgründe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "место охоты; охотничье угодье"
+      ]
+    }
+  ]
+}

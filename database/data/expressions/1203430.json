@@ -1,0 +1,57 @@
+{
+  "id": "1203430",
+  "readings": [
+    {
+      "kanaExpression": "がいかく",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "外角",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "角",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "external angle",
+        "exterior angle",
+        "outside corner"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoek aan de buitenkant",
+        "uitspringende hoek",
+        "{wisk.",
+        "meetk.} buitenhoek",
+        "{honkb.} buitenhoek",
+        "outside corner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Außenwinkel",
+        "Outside"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внешний угол"
+      ]
+    }
+  ]
+}

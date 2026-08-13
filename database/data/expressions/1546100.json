@@ -1,0 +1,74 @@
+{
+  "id": "1546100",
+  "readings": [
+    {
+      "kanaExpression": "ようえき",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "溶液",
+      "furiganaExpression": [
+        {
+          "text": "溶",
+          "annotation": "よう"
+        },
+        {
+          "text": "液",
+          "annotation": "えき"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "solution (liquid)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oplossing",
+        "solutie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "solution (liquide)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lösung",
+        "Solutio",
+        "Solution"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feloldás",
+        "megfejtés",
+        "megoldás",
+        "oldás",
+        "oldat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "раствор"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "solución (liquida)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "1953640",
+  "readings": [
+    {
+      "kanaExpression": "たんさん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "単産",
+      "furiganaExpression": [
+        {
+          "text": "単",
+          "annotation": "たん"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(single-industry) industrial union"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Industriegewerkschaft (Abk.)"
+      ]
+    }
+  ]
+}

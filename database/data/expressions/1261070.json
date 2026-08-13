@@ -1,0 +1,62 @@
+{
+  "id": "1261070",
+  "readings": [
+    {
+      "kanaExpression": "がんぽん",
+      "rank": 21500
+    },
+    {
+      "kanaExpression": "げんぽん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "元本",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "がん"
+        },
+        {
+          "text": "本",
+          "annotation": "ぽん"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "principal (invest.)",
+        "capital"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kapital (das Zinsen abwirft; wie Spareinlagen, Aktien)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elöljáró",
+        "felettes",
+        "legfontosabb",
+        "tőke",
+        "fontos",
+        "kéménysisak",
+        "kéménytoldat",
+        "legfőbb"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "base",
+        "principal (por oposición a intereses)"
+      ]
+    }
+  ]
+}

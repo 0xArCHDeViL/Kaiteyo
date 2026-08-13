@@ -1,0 +1,63 @@
+{
+  "id": "1812830",
+  "readings": [
+    {
+      "kanaExpression": "めんぼう",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "綿棒",
+      "furiganaExpression": [
+        {
+          "text": "綿",
+          "annotation": "めん"
+        },
+        {
+          "text": "棒",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "めん棒",
+      "furiganaExpression": [
+        {
+          "text": "めん"
+        },
+        {
+          "text": "棒",
+          "annotation": "ぼう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cotton swab"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wattenstaafje",
+        "wattenstokje",
+        "{i.h.b.} oorstokje"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wattestäbchen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sodrófa"
+      ]
+    }
+  ]
+}

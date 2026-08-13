@@ -1,0 +1,57 @@
+{
+  "id": "1898580",
+  "readings": [
+    {
+      "kanaExpression": "どとう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "怒涛",
+      "furiganaExpression": [
+        {
+          "text": "怒",
+          "annotation": "ど"
+        },
+        {
+          "text": "涛",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "怒濤",
+      "furiganaExpression": [
+        {
+          "text": "怒",
+          "annotation": "ど"
+        },
+        {
+          "text": "濤",
+          "annotation": "とう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "surging waves",
+        "raging billows",
+        "turbulent",
+        "tempestuous",
+        "tumultuous",
+        "chaotic"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stürmische Wogen",
+        "tobende Wellen",
+        "brandende Wogen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "1370290",
+  "readings": [
+    {
+      "kanaExpression": "さくさん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "酢酸",
+      "furiganaExpression": [
+        {
+          "text": "酢",
+          "annotation": "さく"
+        },
+        {
+          "text": "酸",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "醋酸",
+      "furiganaExpression": [
+        {
+          "text": "醋",
+          "annotation": "さく"
+        },
+        {
+          "text": "酸",
+          "annotation": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "acetic acid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} azijnzuur",
+        "methaancarbonzuur",
+        "ethaanzuur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "acide acétique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Acetylsäure",
+        "Essigsäure (CH₃COOH)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ecetsav"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уксусная кислота"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ácido acético"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ättiksyra"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "1361300",
+  "readings": [
+    {
+      "kanaExpression": "ふりおとす",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "振り落とす",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "落",
+          "annotation": "お"
+        },
+        {
+          "text": "とす"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "振り落す",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "落",
+          "annotation": "おと"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to shake off",
+        "to throw off"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "herunterschütteln",
+        "abschütteln",
+        "abwerfen",
+        "herunterwerfen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "leráz",
+        "megszabadul",
+        "kidob",
+        "ledob"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сбрасывать, стряхивать"
+      ]
+    }
+  ]
+}

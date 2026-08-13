@@ -1,0 +1,113 @@
+{
+  "id": "1271290",
+  "readings": [
+    {
+      "kanaExpression": "あやまり",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "誤り",
+      "furiganaExpression": [
+        {
+          "text": "誤",
+          "annotation": "あやま"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 5454
+    },
+    {
+      "kanjiExpression": "謬り",
+      "furiganaExpression": [
+        {
+          "text": "謬",
+          "annotation": "あやま"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "謬",
+      "furiganaExpression": [
+        {
+          "text": "謬",
+          "annotation": "あやまり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "error",
+        "mistake",
+        "slip",
+        "bug"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fout",
+        "abuis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "erreur",
+        "faute",
+        "bug"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fehler",
+        "Irrtum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hiba",
+        "tévedés",
+        "botlás",
+        "póráz",
+        "sólya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ошибка, оплошность, промах",
+        "{～のない} безошибочный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zmota",
+        "pomota"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "falla",
+        "falta"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "misstag"
+      ]
+    }
+  ]
+}

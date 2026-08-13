@@ -1,0 +1,161 @@
+{
+  "id": "2657130",
+  "readings": [
+    {
+      "kanaExpression": "とどまる",
+      "rank": 4319
+    },
+    {
+      "kanjiExpression": "止まる",
+      "furiganaExpression": [
+        {
+          "text": "止",
+          "annotation": "とど"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "rank": 2249
+    },
+    {
+      "kanjiExpression": "留まる",
+      "furiganaExpression": [
+        {
+          "text": "留",
+          "annotation": "とど"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "rank": 6925
+    },
+    {
+      "kanjiExpression": "停まる",
+      "furiganaExpression": [
+        {
+          "text": "停",
+          "annotation": "とど"
+        },
+        {
+          "text": "まる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "駐まる",
+      "furiganaExpression": [
+        {
+          "text": "駐",
+          "annotation": "とど"
+        },
+        {
+          "text": "まる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to remain",
+        "to abide",
+        "to stay (in the one place)",
+        "to be limited to",
+        "to be confined to",
+        "to only account for"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blijven",
+        "aanblijven",
+        "in stand blijven",
+        "zich handhaven",
+        "zich staande houden",
+        "{form.} toeven",
+        "{m.n. in briefstijl} verblijven",
+        "{lit.t.} beiden",
+        "blijven bij",
+        "zich beperken tot",
+        "volstaan met",
+        "zich houden aan",
+        "niet meer doen dan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "demeurer",
+        "rester (dans un seul endroit)",
+        "se limiter à",
+        "se borner à"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bleiben",
+        "stehen bleiben",
+        "zum Stillstand kommen",
+        "anhalten",
+        "aufhören",
+        "sich niederlassen",
+        "behalten",
+        "sich beschränken",
+        "beschränkt sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "marad",
+        "megmarad",
+        "tartózkodik",
+        "felfüggeszt",
+        "feltartóztat",
+        "időt eltölt",
+        "megáll",
+        "megállít",
+        "megtámaszt",
+        "rögzít",
+        "szünetet tart",
+        "támaszt",
+        "támogat",
+        "tartóztat",
+        "visszatart",
+        "szorítkozik",
+        "abbahagy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) останавливаться",
+        "2) оставаться [на месте]",
+        "3) ограничиваться"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ostati na mestu"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "detenerse",
+        "permanecer",
+        "quedarse",
+        "limitarse",
+        "detener",
+        "parar",
+        "detener(se)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "1075680",
+  "readings": [
+    {
+      "kanaExpression": "ソれん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ソ連",
+      "furiganaExpression": [
+        {
+          "text": "ソ"
+        },
+        {
+          "text": "連",
+          "annotation": "れん"
+        }
+      ],
+      "rank": 3234
+    },
+    {
+      "kanjiExpression": "蘇連",
+      "furiganaExpression": [
+        {
+          "text": "蘇",
+          "annotation": "ソ"
+        },
+        {
+          "text": "連",
+          "annotation": "れん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Soviet Union",
+        "USSR"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сокр.) СССР, Советский Союз",
+        "(уст.) 蘇連",
+        "Советский Союз, СССР"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1547170",
+  "readings": [
+    {
+      "kanaExpression": "ようじょ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "養女",
+      "furiganaExpression": [
+        {
+          "text": "養",
+          "annotation": "よう"
+        },
+        {
+          "text": "女",
+          "annotation": "じょ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "adopted daughter",
+        "foster daughter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pleegdochter",
+        "voedsterdochter",
+        "adoptiefdochter",
+        "adoptiedochter",
+        "geadopteerde dochter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Adoptivtochter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приёмная дочь; падчерица; невестка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hija adoptiva",
+        "niña de acogida"
+      ]
+    }
+  ]
+}

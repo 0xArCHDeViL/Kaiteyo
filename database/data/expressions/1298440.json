@@ -1,0 +1,82 @@
+{
+  "id": "1298440",
+  "readings": [
+    {
+      "kanaExpression": "さくそう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "錯綜",
+      "furiganaExpression": [
+        {
+          "text": "錯",
+          "annotation": "さく"
+        },
+        {
+          "text": "綜",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "錯そう",
+      "furiganaExpression": [
+        {
+          "text": "錯",
+          "annotation": "さく"
+        },
+        {
+          "text": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "becoming complicated",
+        "becoming involved",
+        "being intricate",
+        "becoming entangled",
+        "becoming jumbled",
+        "becoming mixed up"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ingewikkeld worden",
+        "onoverzichtelijk worden",
+        "complex",
+        "verwarrend worden",
+        "ingewikkeldheid",
+        "gecompliceerdheid",
+        "complicatie",
+        "verwikkeling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verwicklung",
+        "Verwirrung",
+        "Komplikation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bonyolultság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) сложность, запутанность; смешение; неразбериха",
+        "{～した} сложный, запутанный"
+      ]
+    }
+  ]
+}

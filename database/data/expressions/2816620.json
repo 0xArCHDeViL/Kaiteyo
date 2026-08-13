@@ -1,0 +1,65 @@
+{
+  "id": "2816620",
+  "readings": [
+    {
+      "kanaExpression": "しんじ",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "かみごと"
+    },
+    {
+      "kanaExpression": "じんじ",
+      "rank": 16000
+    },
+    {
+      "kanaExpression": "かむこと"
+    },
+    {
+      "kanjiExpression": "神事",
+      "furiganaExpression": [
+        {
+          "text": "神",
+          "annotation": "しん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Shinto ritual"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "godendienst",
+        "godsdienstoefening",
+        "godsdienstplechtigheid",
+        "godsdienstige viering",
+        "shintoïstische rite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Shintō-Ritual",
+        "Gottesdienst",
+        "Gottesfest"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(синт.) богослужение, служба"
+      ]
+    }
+  ]
+}

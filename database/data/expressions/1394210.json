@@ -1,0 +1,45 @@
+{
+  "id": "1394210",
+  "readings": [
+    {
+      "kanaExpression": "ぜんれつ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "前列",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "列",
+          "annotation": "れつ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "front row"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vordere Reihe",
+        "Vorderreihe",
+        "erste Reihe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "первый ряд, первая шеренга"
+      ]
+    }
+  ]
+}

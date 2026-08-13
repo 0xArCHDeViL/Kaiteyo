@@ -1,0 +1,175 @@
+{
+  "id": "1001980",
+  "readings": [
+    {
+      "kanaExpression": "おつかい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お使い",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お遣い",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "遣",
+          "annotation": "つか"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御使い",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御遣い",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "遣",
+          "annotation": "つか"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "お使",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "使",
+          "annotation": "つかい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御使",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "使",
+          "annotation": "つかい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "errand",
+        "mission",
+        "going on an errand",
+        "messenger",
+        "bearer",
+        "errand boy",
+        "errand girl",
+        "familiar spirit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boodschap",
+        "opdracht",
+        "boodschapper",
+        "afgezant",
+        "bode",
+        "renbode",
+        "gezondene",
+        "uitgezondene",
+        "émissaire",
+        "loopjongen",
+        "besteller",
+        "overbrenger",
+        "brenger"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "messager",
+        "porteur",
+        "garçon de courses",
+        "démon familier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Botengang",
+        "Besorgung",
+        "Erledigung",
+        "Bote"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "küldetés",
+        "kezelés"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "opravek",
+        "posel",
+        "postrežba",
+        "sluga",
+        "strežnik",
+        "sobar",
+        "sobarica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "siervo",
+        "súbdito",
+        "vasallo"
+      ]
+    }
+  ]
+}

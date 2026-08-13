@@ -1,0 +1,50 @@
+{
+  "id": "1452260",
+  "readings": [
+    {
+      "kanaExpression": "どうけん",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "同県",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "県",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 16000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the same prefecture",
+        "the said prefecture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dieselbe Präfektur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "та же префектура"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(la) misma prefectura"
+      ]
+    }
+  ]
+}

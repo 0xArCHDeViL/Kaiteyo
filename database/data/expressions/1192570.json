@@ -1,0 +1,58 @@
+{
+  "id": "1192570",
+  "readings": [
+    {
+      "kanaExpression": "かろう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "家老",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "老",
+          "annotation": "ろう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chief retainer",
+        "daimyo\u0027s minister"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{Jap.gesch.} {lett.} huisoudere",
+        "nauwste raadsman (van een shōgun",
+        "daimyō)",
+        "huismeier",
+        "majordomus",
+        "minister",
+        "{Jap.gesch.} intendant (van een koopmansfamilie)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Burgvogt",
+        "Haushofmeister",
+        "ältester Vasall"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ист.) главный вассал (у даймё)"
+      ]
+    }
+  ]
+}

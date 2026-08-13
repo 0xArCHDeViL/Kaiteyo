@@ -1,0 +1,132 @@
+{
+  "id": "1183300",
+  "readings": [
+    {
+      "kanaExpression": "ぬるい",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ぬくい"
+    },
+    {
+      "kanjiExpression": "温い",
+      "furiganaExpression": [
+        {
+          "text": "温",
+          "annotation": "ぬる"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "緩い",
+      "furiganaExpression": [
+        {
+          "text": "緩",
+          "annotation": "ぬる"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 13404
+    },
+    {
+      "kanjiExpression": "微温い",
+      "furiganaExpression": [
+        {
+          "text": "微温",
+          "annotation": "ぬる"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lukewarm",
+        "tepid",
+        "lenient",
+        "slow",
+        "stupid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{meteo.} warm",
+        "mild",
+        "zacht",
+        "suf",
+        "dwaas",
+        "dom",
+        "rijk",
+        "bemiddeld",
+        "gegoed",
+        "lauw",
+        "halfwarm",
+        "clement",
+        "schappelijk",
+        "soepel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tiède",
+        "indulgent",
+        "clément",
+        "lent",
+        "stupide"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lauwarm",
+        "warm",
+        "mild",
+        "mollig",
+        "nachsichtig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közömbös",
+        "langymeleg",
+        "langyos",
+        "lagymatag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тёплый",
+        "1) холодный (о чём-л. недостаточно горячем, напр. о пище, о ванне); слабый (об огне); тепловатый (о том, что должно быть холодным)",
+        "2) (см.) のろい【鈍い】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tibio",
+        "templado",
+        "cálido"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ljum"
+      ]
+    }
+  ]
+}

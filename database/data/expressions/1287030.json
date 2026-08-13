@@ -1,0 +1,85 @@
+{
+  "id": "1287030",
+  "readings": [
+    {
+      "kanaExpression": "こくぼう",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "国防",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 6248
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "national defence",
+        "national defense"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "landsverdediging",
+        "nationale defensie",
+        "\u0027s lands defensie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "défense nationale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Landesverteidigung",
+        "Wehr"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "honvédelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оборона государства, государственная (национальная) оборона"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nacionalna",
+        "ljudska",
+        "narodna obramba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "defensa nacional"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "försvarsväsen"
+      ]
+    }
+  ]
+}

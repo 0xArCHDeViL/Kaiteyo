@@ -1,0 +1,84 @@
+{
+  "id": "1589420",
+  "readings": [
+    {
+      "kanaExpression": "おもや",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "母屋",
+      "furiganaExpression": [
+        {
+          "text": "母屋",
+          "annotation": "おもや"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "母家",
+      "furiganaExpression": [
+        {
+          "text": "母家",
+          "annotation": "おもや"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "主屋",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "おも"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "主家",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "おも"
+        },
+        {
+          "text": "家",
+          "annotation": "や"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main building (of a manor)",
+        "central room (of a house)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdgebouw",
+        "hoofdhuis",
+        "centraal pand",
+        "hoofdkantoor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptgebäude"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "главное здание, главный корпус"
+      ]
+    }
+  ]
+}

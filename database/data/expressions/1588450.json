@@ -1,0 +1,142 @@
+{
+  "id": "1588450",
+  "readings": [
+    {
+      "kanaExpression": "うらづけ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "裏付け",
+      "furiganaExpression": [
+        {
+          "text": "裏",
+          "annotation": "うら"
+        },
+        {
+          "text": "付",
+          "annotation": "づ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "裏づけ",
+      "furiganaExpression": [
+        {
+          "text": "裏",
+          "annotation": "うら"
+        },
+        {
+          "text": "づけ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "裏付",
+      "furiganaExpression": [
+        {
+          "text": "裏",
+          "annotation": "うら"
+        },
+        {
+          "text": "付",
+          "annotation": "づけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "support (e.g. for an argument)",
+        "backing",
+        "proof",
+        "evidence",
+        "corroboration",
+        "substantiation",
+        "guarantee",
+        "security"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bewijs",
+        "staving",
+        "grond",
+        "fundering",
+        "substantiëring",
+        "confirmatie",
+        "corroboratie",
+        "garantie",
+        "waarborg",
+        "bevestiging",
+        "bekrachtiging",
+        "steun",
+        "ondersteuning",
+        "backing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fondement",
+        "garantie",
+        "preuve",
+        "sécurité",
+        "soutien"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterstützung",
+        "Stütze",
+        "Beweis",
+        "Nachweis",
+        "Sicherheit",
+        "Bestätigung",
+        "Anhalt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hátlap",
+        "támogatás",
+        "alátámasztás",
+        "karó",
+        "oszlop",
+        "segítség",
+        "támaszték",
+        "másodlagos",
+        "mellék-",
+        "pót-",
+        "bizonyíték",
+        "kefe",
+        "korrektúra",
+        "bizonyítás",
+        "igazolás",
+        "alap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подтверждение, подкрепление; гарантия, обеспечение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "prueba",
+        "garantía",
+        "refuerzo"
+      ]
+    }
+  ]
+}

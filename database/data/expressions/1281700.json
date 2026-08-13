@@ -1,0 +1,100 @@
+{
+  "id": "1281700",
+  "readings": [
+    {
+      "kanaExpression": "ゆきかう"
+    },
+    {
+      "kanaExpression": "いきかう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "行き交う",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "交",
+          "annotation": "か"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "行交う",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "ゆき"
+        },
+        {
+          "text": "交",
+          "annotation": "か"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "行きかう",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "きかう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to come and go",
+        "to go back and forth"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gaan en komen",
+        "af en aan lopen",
+        "heen en weer lopen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hin- und herfahren",
+        "hin- und hergehen",
+        "auf- und abwandern",
+        "umhergehen",
+        "sich umherbewegen",
+        "verkehren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jön-megy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ходить взад и вперёд"
+      ]
+    }
+  ]
+}

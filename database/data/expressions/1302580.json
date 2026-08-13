@@ -1,0 +1,78 @@
+{
+  "id": "1302580",
+  "readings": [
+    {
+      "kanaExpression": "さんぼう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "参謀",
+      "furiganaExpression": [
+        {
+          "text": "参",
+          "annotation": "さん"
+        },
+        {
+          "text": "謀",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "staff officer",
+        "military staff",
+        "adviser",
+        "counselor",
+        "counsellor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} stafofficier",
+        "{verzameln.} staf",
+        "stafpersoneel",
+        "état-major",
+        "{fig.} adviseur",
+        "raadgever",
+        "raadsman",
+        "consulent"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "conseiller",
+        "officier d\u0027état major"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stab",
+        "Generalstab",
+        "Stabsoffizier",
+        "Ratgeber",
+        "das Hirn hinter etwas"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vezérkari tiszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) штаб",
+        "2) штабной офицер"
+      ]
+    }
+  ]
+}

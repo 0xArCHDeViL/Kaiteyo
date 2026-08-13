@@ -1,0 +1,58 @@
+{
+  "id": "1660200",
+  "readings": [
+    {
+      "kanaExpression": "しょうじ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "小事",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trifling matter",
+        "trifle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kleinigkeit",
+        "Nichtigkeit",
+        "Bagatelle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egy kicsit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) мелочь, пустяк"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "struntsak"
+      ]
+    }
+  ]
+}

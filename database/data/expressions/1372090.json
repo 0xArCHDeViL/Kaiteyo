@@ -1,0 +1,60 @@
+{
+  "id": "1372090",
+  "readings": [
+    {
+      "kanaExpression": "すいぼつ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "水没",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "没",
+          "annotation": "ぼつ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "submerge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verzinken",
+        "wegzinken",
+        "onder water wegzakken",
+        "naar de bodem verdwijnen",
+        "door de golven verzwolgen worden",
+        "{veroud.} verdrinken",
+        "verzinking",
+        "wegzinking",
+        "wegzakking",
+        "verdwijning onder water",
+        "submersie",
+        "immersie",
+        "{veroud.} verdrinking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "überschwemmt werden",
+        "untertauchen",
+        "untergehen",
+        "Untergehen",
+        "Überschwemmung",
+        "Submersion"
+      ]
+    }
+  ]
+}

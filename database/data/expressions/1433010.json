@@ -1,0 +1,85 @@
+{
+  "id": "1433010",
+  "readings": [
+    {
+      "kanaExpression": "とおりぬける",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "通り抜ける",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "とお"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "抜",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 13818
+    },
+    {
+      "kanjiExpression": "通りぬける",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "とお"
+        },
+        {
+          "text": "りぬける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to go through",
+        "to pass through",
+        "to get through",
+        "to cut across"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "passeren door",
+        "trekken door",
+        "reizen door",
+        "lopen door",
+        "rijden door",
+        "doorsteken via"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "durchqueren",
+        "durchgehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átkutat",
+        "átvizsgál",
+        "eleget tesz vminek",
+        "végigcsinál"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проходить (через что-л.)"
+      ]
+    }
+  ]
+}

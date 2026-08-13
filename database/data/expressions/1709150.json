@@ -1,0 +1,59 @@
+{
+  "id": "1709150",
+  "readings": [
+    {
+      "kanaExpression": "そっきろく",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "速記録",
+      "furiganaExpression": [
+        {
+          "text": "速",
+          "annotation": "そっ"
+        },
+        {
+          "text": "記",
+          "annotation": "き"
+        },
+        {
+          "text": "録",
+          "annotation": "ろく"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stenographic record",
+        "shorthand notes"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stenografisch verslag",
+        "stenogram",
+        "steno"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stenogramm",
+        "stenografische Notizen",
+        "stenografische Mitschrift",
+        "Steno"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стенограмма"
+      ]
+    }
+  ]
+}

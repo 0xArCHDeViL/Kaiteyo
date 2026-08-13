@@ -1,0 +1,67 @@
+{
+  "id": "1523070",
+  "readings": [
+    {
+      "kanaExpression": "ほんどう",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "本堂",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "堂",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main hall (of a Buddhist temple)",
+        "main temple"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdzaal",
+        "hoofdgebouw van een tempel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bâtiment principal d\u0027un temple",
+        "temple principal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Haupthalle eines Tempels"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hosszhajó",
+        "kerékagy",
+        "templomhajó",
+        "templomi főhajó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "главное здание храма"
+      ]
+    }
+  ]
+}

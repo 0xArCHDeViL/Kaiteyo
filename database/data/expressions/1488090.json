@@ -1,0 +1,77 @@
+{
+  "id": "1488090",
+  "readings": [
+    {
+      "kanaExpression": "ひゃっかてん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "百貨店",
+      "furiganaExpression": [
+        {
+          "text": "百",
+          "annotation": "ひゃっ"
+        },
+        {
+          "text": "貨",
+          "annotation": "か"
+        },
+        {
+          "text": "店",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 9208
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "department store"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "warenhuis",
+        "{Belg.N.} grootwarenhuis",
+        "grootwinkelbedrijf",
+        "bazaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grand magasin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kaufhaus",
+        "Warenhaus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áruraktár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "универсальный магазин, универмаг"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grandes almacenes",
+        "supermercado",
+        "hipermercado"
+      ]
+    }
+  ]
+}

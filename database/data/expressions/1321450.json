@@ -1,0 +1,54 @@
+{
+  "id": "1321450",
+  "readings": [
+    {
+      "kanaExpression": "じつぼ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "実母",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じつ"
+        },
+        {
+          "text": "母",
+          "annotation": "ぼ"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s real mother",
+        "natural mother",
+        "birth mother",
+        "biological mother"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leibliche Mutter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "родная мать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "madre verdadera",
+        "madre biológica",
+        "madre natural"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "1792380",
+  "readings": [
+    {
+      "kanaExpression": "ちんぎんかくさ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "賃金格差",
+      "furiganaExpression": [
+        {
+          "text": "賃",
+          "annotation": "ちん"
+        },
+        {
+          "text": "金",
+          "annotation": "ぎん"
+        },
+        {
+          "text": "格",
+          "annotation": "かく"
+        },
+        {
+          "text": "差",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pay gap",
+        "wage gap",
+        "wage differential"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lohndifferenz",
+        "Lohngefälle",
+        "Lohnunterschied"
+      ]
+    }
+  ]
+}

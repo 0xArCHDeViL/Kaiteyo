@@ -1,0 +1,52 @@
+{
+  "id": "1760600",
+  "readings": [
+    {
+      "kanaExpression": "ごくさいしき",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "ごくさいしょく"
+    },
+    {
+      "kanjiExpression": "極彩色",
+      "furiganaExpression": [
+        {
+          "text": "極",
+          "annotation": "ごく"
+        },
+        {
+          "text": "彩",
+          "annotation": "さい"
+        },
+        {
+          "text": "色",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "richly colored",
+        "richly coloured"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bunte Färbung",
+        "prächtige Färbung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} с яркой (богатой, роскошной) окраской"
+      ]
+    }
+  ]
+}

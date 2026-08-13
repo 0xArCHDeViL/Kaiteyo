@@ -1,0 +1,88 @@
+{
+  "id": "1177930",
+  "readings": [
+    {
+      "kanaExpression": "とおまわり",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "遠回り",
+      "furiganaExpression": [
+        {
+          "text": "遠",
+          "annotation": "とお"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "遠まわり",
+      "furiganaExpression": [
+        {
+          "text": "遠",
+          "annotation": "とお"
+        },
+        {
+          "text": "まわり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "detour",
+        "roundabout way"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "omweg"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Umweg",
+        "Indirektheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "terelőút"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окольный (кружный) путь, крюк",
+        "{～する} делать крюк, идти дальним путём"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "obvoz",
+        "ovinek",
+        "ovinkasta pot"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desvío",
+        "camino indirecto"
+      ]
+    }
+  ]
+}

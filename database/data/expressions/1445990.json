@@ -1,0 +1,66 @@
+{
+  "id": "1445990",
+  "readings": [
+    {
+      "kanaExpression": "とういん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "党員",
+      "furiganaExpression": [
+        {
+          "text": "党",
+          "annotation": "とう"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 10209
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "party member"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "partijlid",
+        "partijganger",
+        "partijman",
+        "aanhanger van een partij",
+        "{verzameln.} partij"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "membre d\u0027un parti"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Parteimitglied"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "член партии",
+        "{～になる} вступить в партию, стать членом партии"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "miembro del partido (político)"
+      ]
+    }
+  ]
+}

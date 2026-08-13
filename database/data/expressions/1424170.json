@@ -1,0 +1,49 @@
+{
+  "id": "1424170",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうこしゃ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "中古車",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "古",
+          "annotation": "こ"
+        },
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "used car",
+        "secondhand car"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gebrauchtwagen",
+        "gebrauchtes Fahrrad"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бывшая в употреблении машина"
+      ]
+    }
+  ]
+}

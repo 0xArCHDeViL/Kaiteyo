@@ -1,0 +1,74 @@
+{
+  "id": "1418730",
+  "readings": [
+    {
+      "kanaExpression": "たんじゅう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "短銃",
+      "furiganaExpression": [
+        {
+          "text": "短",
+          "annotation": "たん"
+        },
+        {
+          "text": "銃",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pistol"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pistool",
+        "revolver"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pistolet",
+        "revolver"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pistole",
+        "Revolver",
+        "Handfeuerwaffe",
+        "Kurzwaffe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pisztoly",
+        "revolver"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пистолет, револьвер, автомат, карабин"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pistola",
+        "revólver"
+      ]
+    }
+  ]
+}

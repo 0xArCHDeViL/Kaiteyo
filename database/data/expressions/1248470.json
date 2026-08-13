@@ -1,0 +1,71 @@
+{
+  "id": "1248470",
+  "readings": [
+    {
+      "kanaExpression": "ぐんしゅく",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "軍縮",
+      "furiganaExpression": [
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "縮",
+          "annotation": "しゅく"
+        }
+      ],
+      "rank": 17000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reduction of armaments",
+        "disarmament"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wapenvermindering",
+        "ontwapening"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "désarmement",
+        "limitation des armements"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abrüstung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lefegyverzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 軍備縮小) сокращение вооружений; разоружение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desarme",
+        "desarmamiento"
+      ]
+    }
+  ]
+}

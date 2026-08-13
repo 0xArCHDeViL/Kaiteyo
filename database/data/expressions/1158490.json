@@ -1,0 +1,74 @@
+{
+  "id": "1158490",
+  "readings": [
+    {
+      "kanaExpression": "いど",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "緯度",
+      "furiganaExpression": [
+        {
+          "text": "緯",
+          "annotation": "い"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "latitude (nav.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "breedtegraad",
+        "latitude",
+        "geografische breedte",
+        "parallel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "latitude (pour la navigation)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "latitudinal",
+        "Breitengrad",
+        "Latitüde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "földrajzi szélesség",
+        "mozgástér",
+        "szélességi fok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(геогр.) широта, параллель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "latitud (nav.)"
+      ]
+    }
+  ]
+}

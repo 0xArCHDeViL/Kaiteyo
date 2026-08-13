@@ -1,0 +1,68 @@
+{
+  "id": "1477890",
+  "readings": [
+    {
+      "kanaExpression": "はっぽうスチロール",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "発泡スチロール",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はっ"
+        },
+        {
+          "text": "泡",
+          "annotation": "ぽう"
+        },
+        {
+          "text": "スチロール"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "発砲スチロール",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はっ"
+        },
+        {
+          "text": "砲",
+          "annotation": "ぽう"
+        },
+        {
+          "text": "スチロール"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "styrofoam",
+        "styrene foam",
+        "expanded polystyrene"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufgeschäumtes Polystyrol",
+        "Polystyrolschaum",
+        "Schaumpolystyrol",
+        "Styropor"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "polisztirol hab",
+        "hungarocell"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "1408620",
+  "readings": [
+    {
+      "kanaExpression": "うちとける",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "打ち解ける",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "解",
+          "annotation": "と"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "うち解ける",
+      "furiganaExpression": [
+        {
+          "text": "うち"
+        },
+        {
+          "text": "解",
+          "annotation": "と"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "打解ける",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "うち"
+        },
+        {
+          "text": "解",
+          "annotation": "と"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to open up (to someone)",
+        "to become unreserved",
+        "to lower one\u0027s guard",
+        "to become friendly (with)",
+        "to feel at ease",
+        "to take a relaxed attitude (to)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{fig.",
+        "inform.} ontdooien",
+        "loskomen",
+        "op dreef komen",
+        "z\u0027n gereserveerdheid opzijzetten",
+        "z\u0027n terughoudendheid laten varen",
+        "uit z\u0027n schulp kruipen",
+        "minder stijf gaan doen",
+        "familiair worden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "offen sein",
+        "sich jmdm. öffnen",
+        "aus sich herausgehen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) うちあける"
+      ]
+    }
+  ]
+}

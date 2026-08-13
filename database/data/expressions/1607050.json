@@ -1,0 +1,113 @@
+{
+  "id": "1607050",
+  "readings": [
+    {
+      "kanaExpression": "われわれ",
+      "rank": 1102
+    },
+    {
+      "kanjiExpression": "我々",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "われ"
+        },
+        {
+          "text": "々",
+          "annotation": "われ"
+        }
+      ],
+      "rank": 722
+    },
+    {
+      "kanjiExpression": "吾々",
+      "furiganaExpression": [
+        {
+          "text": "吾",
+          "annotation": "われ"
+        },
+        {
+          "text": "々",
+          "annotation": "われ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "我我",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "われ"
+        },
+        {
+          "text": "我",
+          "annotation": "われ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吾吾",
+      "furiganaExpression": [
+        {
+          "text": "吾",
+          "annotation": "われ"
+        },
+        {
+          "text": "吾",
+          "annotation": "われ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "we"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wij",
+        "we",
+        "ons",
+        "onze",
+        "elk",
+        "ieder"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nous"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wir",
+        "unsereins"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мы",
+        "{～の} наш"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nosotros"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1568760",
+  "readings": [
+    {
+      "kanaExpression": "こんぜん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "渾然",
+      "furiganaExpression": [
+        {
+          "text": "渾",
+          "annotation": "こん"
+        },
+        {
+          "text": "然",
+          "annotation": "ぜん"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "混然",
+      "furiganaExpression": [
+        {
+          "text": "混",
+          "annotation": "こん"
+        },
+        {
+          "text": "然",
+          "annotation": "ぜん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "whole",
+        "entire",
+        "harmonious",
+        "well-rounded"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in eins verschmolzen",
+        "aus einem Guss",
+        "harmonisch",
+        "Vermischung",
+        "Undifferenziertheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egész",
+        "ép",
+        "sértetlen",
+        "teljes",
+        "hibátlan",
+        "egyező"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[たる]} (кн.) полный, совершенный; гармоничный",
+        "{～と} полностью, всецело; гармонично"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "homogéneo",
+        "uniforme"
+      ]
+    }
+  ]
+}

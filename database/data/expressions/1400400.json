@@ -1,0 +1,83 @@
+{
+  "id": "1400400",
+  "readings": [
+    {
+      "kanaExpression": "すくう",
+      "rank": 14737
+    },
+    {
+      "kanjiExpression": "巣食う",
+      "furiganaExpression": [
+        {
+          "text": "巣",
+          "annotation": "す"
+        },
+        {
+          "text": "食",
+          "annotation": "く"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "巣くう",
+      "furiganaExpression": [
+        {
+          "text": "巣",
+          "annotation": "す"
+        },
+        {
+          "text": "くう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to build a nest",
+        "to nest",
+        "to hang out (of a bad group)",
+        "to be based (in)",
+        "to haunt",
+        "to lodge (in one\u0027s mind; of an evil thought, delusion, etc.)",
+        "to be planted",
+        "to luck (in one\u0027s heart)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nisten",
+        "ein Nest bauen",
+        "sich einnisten",
+        "seinen Unterschlupf haben",
+        "heimsuchen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kísért",
+        "letelepedik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вить гнездо; гнездиться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "construir (un nido)",
+        "colgar fuera"
+      ]
+    }
+  ]
+}

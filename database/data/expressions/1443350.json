@@ -1,0 +1,92 @@
+{
+  "id": "1443350",
+  "readings": [
+    {
+      "kanaExpression": "でんしメール",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "でんしメイル"
+    },
+    {
+      "kanjiExpression": "電子メール",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        },
+        {
+          "text": "メール"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "電子メイル",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        },
+        {
+          "text": "メイル"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "email",
+        "e-mail",
+        "electronic mail"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "e-mail",
+        "elektronische post",
+        "mail",
+        "e-mailbericht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "E-Mail",
+        "elektronische Post",
+        "elektronischer Brief"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((англ.) mail) (вчт.) электронная почта"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "elektronska pošta"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "correo electrónico",
+        "correo-e",
+        "e-mail"
+      ]
+    }
+  ]
+}

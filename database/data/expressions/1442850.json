@@ -1,0 +1,81 @@
+{
+  "id": "1442850",
+  "readings": [
+    {
+      "kanaExpression": "でんあつ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "電圧",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "圧",
+          "annotation": "あつ"
+        }
+      ],
+      "rank": 9126
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "voltage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voltage",
+        "(elektrische) spanning"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "voltage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "elektrische Spannung",
+        "Voltspannung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feszültség(V)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(эл.) напряжение, вольтаж"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "napetost toka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voltaje"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "spänning"
+      ]
+    }
+  ]
+}

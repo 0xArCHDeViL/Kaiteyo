@@ -1,0 +1,63 @@
+{
+  "id": "1312190",
+  "readings": [
+    {
+      "kanaExpression": "ししゅう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "詩集",
+      "furiganaExpression": [
+        {
+          "text": "詩",
+          "annotation": "し"
+        },
+        {
+          "text": "集",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 12766
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "poetry anthology",
+        "collection of poems",
+        "collected poems"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dichtbundel",
+        "gedichtenbundel",
+        "poëziebundel",
+        "gedichtenverzameling",
+        "verzamelde gedichten",
+        "anthologie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "recueil de poésies"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gedichtsammlung",
+        "Anthologie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сборник стихотворений; антология"
+      ]
+    }
+  ]
+}

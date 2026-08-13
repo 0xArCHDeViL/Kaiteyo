@@ -1,0 +1,77 @@
+{
+  "id": "1042530",
+  "readings": [
+    {
+      "kanaExpression": "キリストきょう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "キリスト教",
+      "furiganaExpression": [
+        {
+          "text": "キリスト"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 2832
+    },
+    {
+      "kanjiExpression": "基督教",
+      "furiganaExpression": [
+        {
+          "text": "基督",
+          "annotation": "キリスト"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Christianity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "christendom",
+        "christelijke godsdienst",
+        "christelijk geloof",
+        "{afk.} c"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "christianisme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Christentum",
+        "christliche Religion"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "krščanstvo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Cristiandad"
+      ]
+    }
+  ]
+}

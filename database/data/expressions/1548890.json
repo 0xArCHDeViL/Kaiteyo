@@ -1,0 +1,71 @@
+{
+  "id": "1548890",
+  "readings": [
+    {
+      "kanaExpression": "らくのう",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "酪農",
+      "furiganaExpression": [
+        {
+          "text": "酪",
+          "annotation": "らく"
+        },
+        {
+          "text": "農",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dairy farming"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zuivelindustrie",
+        "zuivelbedrijf",
+        "zuivelwezen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "laiterie (ferme)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Milchwirtschaft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tejgazdaság",
+        "tejivó",
+        "tejüzem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "молочное хозяйство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "industria lechera"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "1759230",
+  "readings": [
+    {
+      "kanaExpression": "だいにじせかいたいせん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "第二次世界大戦",
+      "furiganaExpression": [
+        {
+          "text": "第",
+          "annotation": "だい"
+        },
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        },
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "界",
+          "annotation": "かい"
+        },
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "第２次世界大戦",
+      "furiganaExpression": [
+        {
+          "text": "第",
+          "annotation": "だい"
+        },
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        },
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "界",
+          "annotation": "かい"
+        },
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Second World War (1939-1945)",
+        "World War II",
+        "WWII",
+        "WW2"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{gesch.} Tweede Wereldoorlog",
+        "WO II"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zweiter Weltkrieg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "Вторая Мировая Война (1939-1945 гг.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Segunda Guerra Mundial"
+      ]
+    }
+  ]
+}

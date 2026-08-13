@@ -1,0 +1,67 @@
+{
+  "id": "1401690",
+  "readings": [
+    {
+      "kanaExpression": "そうせんきょ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "総選挙",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "選",
+          "annotation": "せん"
+        },
+        {
+          "text": "挙",
+          "annotation": "きょ"
+        }
+      ],
+      "rank": 15500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "general election (of the lower house)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "algemene verkiezingen",
+        "parlementsverkiezing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "allgemeine Wahlen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "általános választás",
+        "országos képviselőválasztás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "всеобщие выборы"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "riksdagsval"
+      ]
+    }
+  ]
+}

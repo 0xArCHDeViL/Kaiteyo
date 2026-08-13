@@ -1,0 +1,55 @@
+{
+  "id": "1340100",
+  "readings": [
+    {
+      "kanaExpression": "しゅっぱんもと",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "出版元",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "しゅっ"
+        },
+        {
+          "text": "版",
+          "annotation": "ぱん"
+        },
+        {
+          "text": "元",
+          "annotation": "もと"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "publisher"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verleger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiadó"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bokförläggare",
+        "förläggare",
+        "utgivare"
+      ]
+    }
+  ]
+}

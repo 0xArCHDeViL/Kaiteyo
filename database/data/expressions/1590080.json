@@ -1,0 +1,110 @@
+{
+  "id": "1590080",
+  "readings": [
+    {
+      "kanaExpression": "かけざん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "掛け算",
+      "furiganaExpression": [
+        {
+          "text": "掛",
+          "annotation": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "算",
+          "annotation": "ざん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "掛算",
+      "furiganaExpression": [
+        {
+          "text": "掛",
+          "annotation": "かけ"
+        },
+        {
+          "text": "算",
+          "annotation": "ざん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "かけ算",
+      "furiganaExpression": [
+        {
+          "text": "かけ"
+        },
+        {
+          "text": "算",
+          "annotation": "ざん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "multiplication"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vermenigvuldiging",
+        "multiplicatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "multiplication"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Multiplikation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szorzás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "умножение",
+        "{～をする} умножать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pomnožitev",
+        "množenje {v matematiki}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "multiplicación"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "multiplikation"
+      ]
+    }
+  ]
+}

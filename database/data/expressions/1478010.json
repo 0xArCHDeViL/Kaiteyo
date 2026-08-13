@@ -1,0 +1,132 @@
+{
+  "id": "1478010",
+  "readings": [
+    {
+      "kanaExpression": "うつ",
+      "rank": 3360
+    },
+    {
+      "kanjiExpression": "討つ",
+      "furiganaExpression": [
+        {
+          "text": "討",
+          "annotation": "う"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "rank": 14762
+    },
+    {
+      "kanjiExpression": "撃つ",
+      "furiganaExpression": [
+        {
+          "text": "撃",
+          "annotation": "う"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "rank": 5449
+    },
+    {
+      "kanjiExpression": "伐つ",
+      "furiganaExpression": [
+        {
+          "text": "伐",
+          "annotation": "う"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to attack",
+        "to destroy",
+        "to defeat",
+        "to conquer",
+        "to avenge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schieten",
+        "een schot lossen",
+        "vuren",
+        "ontladen",
+        "aanvallen",
+        "attaqueren",
+        "een aanval doen",
+        "aanvliegen",
+        "bestormen",
+        "naar de keel vliegen",
+        "vermoorden",
+        "ombrengen",
+        "van het leven beroven",
+        "onthoofden",
+        "het hoofd afhakken",
+        "het hoofd afhouwen",
+        "decapiteren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abfeuern",
+        "schießen",
+        "erschießen",
+        "totschießen",
+        "erlegen",
+        "angreifen",
+        "bekämpfen",
+        "erobern",
+        "erschlagen",
+        "töten (mit einem Schwert, Messer, Speer)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "legyőz",
+        "megdönt",
+        "meghiúsít",
+        "megver",
+        "elpusztít",
+        "lerombol",
+        "megsemmisít",
+        "megüt",
+        "nekiütődik",
+        "ráakad",
+        "rábukkan",
+        "üt",
+        "ver",
+        "megbosszul"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нападать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "atacar",
+        "derrotar",
+        "destruir",
+        "castigar",
+        "disparar",
+        "vengar"
+      ]
+    }
+  ]
+}

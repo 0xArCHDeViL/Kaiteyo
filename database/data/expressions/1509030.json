@@ -1,0 +1,56 @@
+{
+  "id": "1509030",
+  "readings": [
+    {
+      "kanaExpression": "こめこ",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "べいふん"
+    },
+    {
+      "kanjiExpression": "米粉",
+      "furiganaExpression": [
+        {
+          "text": "米",
+          "annotation": "こめ"
+        },
+        {
+          "text": "粉",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rice flour"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijstpoeder",
+        "rijstbloem",
+        "rijstebloem",
+        "rijstmeel",
+        "rijstemeel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reismehl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рисовая мука"
+      ]
+    }
+  ]
+}

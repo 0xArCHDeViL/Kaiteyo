@@ -1,0 +1,52 @@
+{
+  "id": "1404470",
+  "readings": [
+    {
+      "kanaExpression": "たばね",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "束ね",
+      "furiganaExpression": [
+        {
+          "text": "束",
+          "annotation": "たば"
+        },
+        {
+          "text": "ね"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bundle",
+        "control",
+        "management"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bündel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "köteg",
+        "kormányzás",
+        "vezetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пучок, связка"
+      ]
+    }
+  ]
+}

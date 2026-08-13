@@ -1,0 +1,57 @@
+{
+  "id": "1578650",
+  "readings": [
+    {
+      "kanaExpression": "こうこう",
+      "rank": 30500
+    },
+    {
+      "kanaExpression": "こうくう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "口腔",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "こう"
+        },
+        {
+          "text": "腔",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "oral cavity",
+        "mouth"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} mondholte",
+        "cavum oris"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mund",
+        "Mundhöhle (medizinisch gebräuchliche Lesung)",
+        "Mundhöhle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(анат.) полость рта, рот"
+      ]
+    }
+  ]
+}

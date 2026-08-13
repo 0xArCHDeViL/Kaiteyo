@@ -1,0 +1,49 @@
+{
+  "id": "1723090",
+  "readings": [
+    {
+      "kanaExpression": "ぶんかちょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "文化庁",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "庁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 11049
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Agency for Cultural Affairs"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Agentschap voor Culturele Zaken",
+        "Bureau voor Cultuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Amt für Kunst und Kultur",
+        "Bunkachō (Tōkyō)"
+      ]
+    }
+  ]
+}

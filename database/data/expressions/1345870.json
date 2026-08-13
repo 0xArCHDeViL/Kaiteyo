@@ -1,0 +1,53 @@
+{
+  "id": "1345870",
+  "readings": [
+    {
+      "kanaExpression": "しょうしゃ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "傷者",
+      "furiganaExpression": [
+        {
+          "text": "傷",
+          "annotation": "しょう"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wounded person",
+        "casualty",
+        "injured person"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verletzter",
+        "Verwundeter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "baleseti sérült",
+        "halálos baleset"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сущ.) раненый"
+      ]
+    }
+  ]
+}

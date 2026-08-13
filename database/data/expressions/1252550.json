@@ -1,0 +1,51 @@
+{
+  "id": "1252550",
+  "readings": [
+    {
+      "kanaExpression": "けいむ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "警務",
+      "furiganaExpression": [
+        {
+          "text": "警",
+          "annotation": "けい"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "police affairs",
+        "military police"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "polizeiliche Angelegenheiten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "katonai rendőrség",
+        "tábori csendőrség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полицейская служба"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "1861890",
+  "readings": [
+    {
+      "kanaExpression": "おおあきない",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "大商い",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "おお"
+        },
+        {
+          "text": "商",
+          "annotation": "あきな"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heavy turnover (trading)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{hand.} grote transactie",
+        "groot debiet",
+        "handelsvolume"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "großes Geschäft"
+      ]
+    }
+  ]
+}

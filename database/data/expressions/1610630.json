@@ -1,0 +1,143 @@
+{
+  "id": "1610630",
+  "readings": [
+    {
+      "kanaExpression": "おもいがけない",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "思いがけない",
+      "furiganaExpression": [
+        {
+          "text": "思",
+          "annotation": "おも"
+        },
+        {
+          "text": "いがけない"
+        }
+      ],
+      "rank": 13969
+    },
+    {
+      "kanjiExpression": "思い掛けない",
+      "furiganaExpression": [
+        {
+          "text": "思",
+          "annotation": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "掛",
+          "annotation": "が"
+        },
+        {
+          "text": "けない"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "思い掛け無い",
+      "furiganaExpression": [
+        {
+          "text": "思",
+          "annotation": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "掛",
+          "annotation": "が"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unexpected",
+        "contrary to expectations",
+        "by chance",
+        "casual"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onverwacht",
+        "onvoorzien",
+        "niet voorspeld",
+        "plotseling",
+        "toevallig",
+        "bij toeval voorvallend",
+        "onaangekondigd",
+        "niet op voorhand bekend gemaakt"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "inattendu",
+        "imprévu",
+        "contraire aux attentes",
+        "fortuit",
+        "accidentel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unerwartet",
+        "ungeahnt",
+        "unverhofft",
+        "unvermutet",
+        "unvorhergesehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "történetesen",
+        "alkalmi",
+        "hétköznapi",
+        "nemtörődöm",
+        "rendszertelen",
+        "véletlen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неожиданный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nepričakovan",
+        "nesluten"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inesperado",
+        "imprevisto",
+        "casual"
+      ]
+    }
+  ]
+}

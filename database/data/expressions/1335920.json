@@ -1,0 +1,71 @@
+{
+  "id": "1335920",
+  "readings": [
+    {
+      "kanaExpression": "おもり",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "重り",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "おも"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "錘",
+      "furiganaExpression": [
+        {
+          "text": "錘",
+          "annotation": "おもり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weight",
+        "sinker"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zinklood",
+        "vislood",
+        "gewicht (voor weegschaal)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewicht",
+        "Senkblei",
+        "Lot",
+        "Senker"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lefolyó",
+        "mérőón"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тяжесть",
+        "гиря; груз, грузило; лот; отвес"
+      ]
+    }
+  ]
+}

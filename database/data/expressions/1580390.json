@@ -1,0 +1,68 @@
+{
+  "id": "1580390",
+  "readings": [
+    {
+      "kanaExpression": "かみざ"
+    },
+    {
+      "kanaExpression": "じょうざ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "上座",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "かみ"
+        },
+        {
+          "text": "座",
+          "annotation": "ざ"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chief seat",
+        "seat of honor",
+        "seat of honour",
+        "head of the table"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beste plaats",
+        "ereplaats",
+        "eregestoelte",
+        "erestoel",
+        "gestoelte der ere",
+        "{meton.} hoofd van de tafel",
+        "boveneinde van de tafel",
+        "hogereinde",
+        "hogerhand",
+        "{ton.",
+        "theat.} rechterkant van het toneel (gezien vanuit de zaal)",
+        "{Fr.} côté cour"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ehrenplatz",
+        "Ehrensitz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "почётное место (за столом и т. п.)",
+        "первое (почётное) место"
+      ]
+    }
+  ]
+}

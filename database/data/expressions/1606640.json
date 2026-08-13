@@ -1,0 +1,114 @@
+{
+  "id": "1606640",
+  "readings": [
+    {
+      "kanaExpression": "わがはい",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "我輩",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わが"
+        },
+        {
+          "text": "輩",
+          "annotation": "はい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吾輩",
+      "furiganaExpression": [
+        {
+          "text": "吾",
+          "annotation": "わが"
+        },
+        {
+          "text": "輩",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "我が輩",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "輩",
+          "annotation": "はい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吾が輩",
+      "furiganaExpression": [
+        {
+          "text": "吾",
+          "annotation": "わ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "輩",
+          "annotation": "はい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "わが輩",
+      "furiganaExpression": [
+        {
+          "text": "わが"
+        },
+        {
+          "text": "輩",
+          "annotation": "はい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "I",
+        "me",
+        "myself",
+        "we",
+        "us",
+        "ourselves"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{♂} wij",
+        "we",
+        "{♂} ik"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wir",
+        "ich (heute mit etw. arrogantem Unterton)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) я"
+      ]
+    }
+  ]
+}

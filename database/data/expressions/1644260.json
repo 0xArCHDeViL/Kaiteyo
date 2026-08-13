@@ -1,0 +1,51 @@
+{
+  "id": "1644260",
+  "readings": [
+    {
+      "kanaExpression": "りぐい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "利食い",
+      "furiganaExpression": [
+        {
+          "text": "利",
+          "annotation": "り"
+        },
+        {
+          "text": "食",
+          "annotation": "ぐ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "profit-taking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewinne mitnehmen",
+        "mit Profit verkaufen",
+        "Gewinnmitnahme",
+        "Verkauf mit Profit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) рост процента (доходности)",
+        "2) (бирж.) перепродажа (акций) с выгодой",
+        "{～する} перепродавать с выгодой"
+      ]
+    }
+  ]
+}

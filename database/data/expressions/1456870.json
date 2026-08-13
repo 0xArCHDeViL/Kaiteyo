@@ -1,0 +1,98 @@
+{
+  "id": "1456870",
+  "readings": [
+    {
+      "kanaExpression": "つきおとす",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "突き落とす",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "落",
+          "annotation": "お"
+        },
+        {
+          "text": "とす"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "突き落す",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "落",
+          "annotation": "おと"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "突落とす",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つき"
+        },
+        {
+          "text": "落",
+          "annotation": "お"
+        },
+        {
+          "text": "とす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to thrust down",
+        "to push off"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hinunterstoßen",
+        "herabstoßen",
+        "herunterstoßen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhúzza a csíkot",
+        "ellöki a csónakot a parttól",
+        "elmegy",
+        "eltaszít",
+        "eltol",
+        "lelép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сбрасывать, сталкивать, сваливать"
+      ]
+    }
+  ]
+}

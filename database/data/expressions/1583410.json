@@ -1,0 +1,56 @@
+{
+  "id": "1583410",
+  "readings": [
+    {
+      "kanaExpression": "こおりむろ",
+      "rank": 33000
+    },
+    {
+      "kanaExpression": "ひむろ"
+    },
+    {
+      "kanaExpression": "ひょうしつ"
+    },
+    {
+      "kanjiExpression": "氷室",
+      "furiganaExpression": [
+        {
+          "text": "氷",
+          "annotation": "こおり"
+        },
+        {
+          "text": "室",
+          "annotation": "むろ"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ice house",
+        "ice room",
+        "cold room"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eiskeller",
+        "Raum, in dem Eis aufbewahrt wird",
+        "Himuro",
+        "Eiskammer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ледник",
+        "ледник (помещение)",
+        "ледник, холодильник (помещение)"
+      ]
+    }
+  ]
+}

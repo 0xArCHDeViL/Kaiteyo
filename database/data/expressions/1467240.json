@@ -1,0 +1,52 @@
+{
+  "id": "1467240",
+  "readings": [
+    {
+      "kanaExpression": "にんち",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "任地",
+      "furiganaExpression": [
+        {
+          "text": "任",
+          "annotation": "にん"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s place of appointment",
+        "one\u0027s post"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Posten",
+        "Amt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megbeszélés",
+        "megbeszélt időpont"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "место службы (назначения)"
+      ]
+    }
+  ]
+}

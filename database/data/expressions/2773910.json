@@ -1,0 +1,106 @@
+{
+  "id": "2773910",
+  "readings": [
+    {
+      "kanaExpression": "いまひとつ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "今ひとつ",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "いま"
+        },
+        {
+          "text": "ひとつ"
+        }
+      ],
+      "rank": 12294
+    },
+    {
+      "kanjiExpression": "今一つ",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "いま"
+        },
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "いま一つ",
+      "furiganaExpression": [
+        {
+          "text": "いま"
+        },
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one more",
+        "another (one)",
+        "(not) quite",
+        "(not) entirely",
+        "(not) enough",
+        "somewhat (lacking)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nog een beetje",
+        "een ietsje"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "noch eines",
+        "ein weiteres",
+        "noch nicht ganz zufriedenstellend sein",
+        "nicht ganz",
+        "nicht ganz vollständig",
+        "etw. lässt zu wünschen übrig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eggyel több",
+        "eggyel többet",
+        "még egy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ещё один"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ligeramente insatisfactorio",
+        "un pelín insuficiente",
+        "que deja un poco que desear"
+      ]
+    }
+  ]
+}

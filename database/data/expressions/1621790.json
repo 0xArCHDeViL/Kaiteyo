@@ -1,0 +1,96 @@
+{
+  "id": "1621790",
+  "readings": [
+    {
+      "kanaExpression": "あやつりにんぎょう",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "操り人形",
+      "furiganaExpression": [
+        {
+          "text": "操",
+          "annotation": "あやつ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "人",
+          "annotation": "にん"
+        },
+        {
+          "text": "形",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "操人形",
+      "furiganaExpression": [
+        {
+          "text": "操",
+          "annotation": "あやつり"
+        },
+        {
+          "text": "人",
+          "annotation": "にん"
+        },
+        {
+          "text": "形",
+          "annotation": "ぎょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "puppet",
+        "marionette"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "marionet",
+        "pop",
+        "draadpop",
+        "poesjenel",
+        "trekpop",
+        "toneelpop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Marionette",
+        "Drahtpuppe",
+        "Schachfigur",
+        "Werkzeug",
+        "als Werkzeug benutzte Person"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "báb",
+        "baba"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[кукла-]марионетка"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "marionett"
+      ]
+    }
+  ]
+}

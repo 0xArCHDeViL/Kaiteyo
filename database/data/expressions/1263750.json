@@ -1,0 +1,81 @@
+{
+  "id": "1263750",
+  "readings": [
+    {
+      "kanaExpression": "げんしょう",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "現象",
+      "furiganaExpression": [
+        {
+          "text": "現",
+          "annotation": "げん"
+        },
+        {
+          "text": "象",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 1520
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "phenomenon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fenomeen",
+        "verschijnsel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "phénomène"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ereignis",
+        "Vorfall",
+        "Geschehen",
+        "Entwicklung",
+        "Erscheinung (z.B. bei Kant)",
+        "Phänomen (z.B. bei Husserl)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jelenség",
+        "tünet",
+        "hibajelenség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "явление (естественное или социальное); (филос.) феномен"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "fenomen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fenómeno"
+      ]
+    }
+  ]
+}

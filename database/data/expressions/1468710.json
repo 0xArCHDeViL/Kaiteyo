@@ -1,0 +1,57 @@
+{
+  "id": "1468710",
+  "readings": [
+    {
+      "kanaExpression": "ねんさん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "年産",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "annual production"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jahresproduktion",
+        "jährliche Produktion",
+        "jährlicher Ausstoß"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "годовая продукция (выработка, добыча, выдача)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "producción anual"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "årsproduktion"
+      ]
+    }
+  ]
+}

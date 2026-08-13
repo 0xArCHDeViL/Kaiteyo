@@ -1,0 +1,71 @@
+{
+  "id": "1839040",
+  "readings": [
+    {
+      "kanaExpression": "いわはだ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "岩肌",
+      "furiganaExpression": [
+        {
+          "text": "岩",
+          "annotation": "いわ"
+        },
+        {
+          "text": "肌",
+          "annotation": "はだ"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "岩膚",
+      "furiganaExpression": [
+        {
+          "text": "岩",
+          "annotation": "いわ"
+        },
+        {
+          "text": "膚",
+          "annotation": "はだ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "岩はだ",
+      "furiganaExpression": [
+        {
+          "text": "岩",
+          "annotation": "いわ"
+        },
+        {
+          "text": "はだ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bare rock",
+        "rock surface",
+        "rock face"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rotsoppervlak",
+        "rotsgrond"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Felsoberfläche"
+      ]
+    }
+  ]
+}

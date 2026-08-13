@@ -1,0 +1,75 @@
+{
+  "id": "1655950",
+  "readings": [
+    {
+      "kanaExpression": "たえま",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "絶え間",
+      "furiganaExpression": [
+        {
+          "text": "絶",
+          "annotation": "た"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "間",
+          "annotation": "ま"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "絶えま",
+      "furiganaExpression": [
+        {
+          "text": "絶",
+          "annotation": "た"
+        },
+        {
+          "text": "えま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interval",
+        "break",
+        "pause",
+        "intermission",
+        "gap (e.g. in the clouds)",
+        "rift",
+        "cleft"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pause",
+        "Unterbrechung",
+        "Lücke"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "térköz",
+        "tízperc",
+        "hézag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перерыв; пауза",
+        "{～のない} непрерывный; непрекращающийся"
+      ]
+    }
+  ]
+}

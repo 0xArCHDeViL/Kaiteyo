@@ -1,0 +1,81 @@
+{
+  "id": "1334300",
+  "readings": [
+    {
+      "kanaExpression": "じゅうけつ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "充血",
+      "furiganaExpression": [
+        {
+          "text": "充",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "血",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "congestion (with blood)",
+        "hyperemia",
+        "hyperaemia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} verstopt raken",
+        "congestie vertonen",
+        "zwellen met bloed",
+        "bloeddoorlopen raken",
+        "bloedbelopen raken",
+        "{geneesk.} hyperemie",
+        "congestie",
+        "bloedaandrang",
+        "bloedophoping",
+        "aandrang",
+        "ophoping van bloed"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unter Blutandrang leiden",
+        "Blutandrang",
+        "Blutstauung",
+        "Hyperämie",
+        "Kongestion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "forgalmi torlódás",
+        "vérbőség",
+        "zsúfoltság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прилив крови",
+        "{～する} переполняться кровью (об органах)",
+        "{～させる} вызывать прилив крови"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "congestión (con sangre)"
+      ]
+    }
+  ]
+}

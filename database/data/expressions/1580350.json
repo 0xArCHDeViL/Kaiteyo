@@ -1,0 +1,71 @@
+{
+  "id": "1580350",
+  "readings": [
+    {
+      "kanaExpression": "じょういん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "上院",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "じょう"
+        },
+        {
+          "text": "院",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 9257
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "upper house",
+        "upper legislative chamber",
+        "senate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{pol.} Hogerhuis",
+        "Senaat",
+        "Eerste Kamer",
+        "{Eng.pol.} Huis der Lords",
+        "House of Lords",
+        "{Du.pol.} Bondsraad"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Oberhaus",
+        "Senat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felsőház",
+        "főrendiház",
+        "egyetemi tanács"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "верхняя палата; сенат; палата лордов (и т. п.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "senado"
+      ]
+    }
+  ]
+}

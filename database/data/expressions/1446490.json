@@ -1,0 +1,69 @@
+{
+  "id": "1446490",
+  "readings": [
+    {
+      "kanaExpression": "とうけん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "刀剣",
+      "furiganaExpression": [
+        {
+          "text": "刀",
+          "annotation": "とう"
+        },
+        {
+          "text": "剣",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sword",
+        "dagger",
+        "knife",
+        "bayonet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zwaarden",
+        "blanke slagwapens",
+        "wapenen",
+        "koude wapens"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épées",
+        "armes blanches"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hiebwaffen",
+        "Schwerter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szúró- és vágófegyverek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "холодное оружие"
+      ]
+    }
+  ]
+}

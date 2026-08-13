@@ -1,0 +1,86 @@
+{
+  "id": "1619900",
+  "readings": [
+    {
+      "kanaExpression": "とうしゅう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "踏襲",
+      "furiganaExpression": [
+        {
+          "text": "踏",
+          "annotation": "とう"
+        },
+        {
+          "text": "襲",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "蹈襲",
+      "furiganaExpression": [
+        {
+          "text": "蹈",
+          "annotation": "とう"
+        },
+        {
+          "text": "襲",
+          "annotation": "しゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "following (a precedent, former policy, etc.)",
+        "continuing with",
+        "sticking to",
+        "observing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voortzetting",
+        "overneming",
+        "navolging",
+        "voortzetten",
+        "overnemen",
+        "navolgen",
+        "volgen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachfolge",
+        "folgen",
+        "nachfolgen",
+        "befolgen",
+        "fortsetzen",
+        "in seiner Spur gehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alábbi",
+        "hívek",
+        "követők",
+        "párthívek",
+        "utána következő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} следовать (чему-л.), идти по (чьим-л.) стопам"
+      ]
+    }
+  ]
+}

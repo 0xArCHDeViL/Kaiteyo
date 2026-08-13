@@ -1,0 +1,58 @@
+{
+  "id": "1263540",
+  "readings": [
+    {
+      "kanaExpression": "げんぎょう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "現業",
+      "furiganaExpression": [
+        {
+          "text": "現",
+          "annotation": "げん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "on-site work",
+        "work-site operations"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeit in der Produktion (im Gegensatz zu Büroarbeit)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "házon kívüli",
+        "külső",
+        "szabadban történő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "работа [непосредственно] на месте"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "utearbete"
+      ]
+    }
+  ]
+}

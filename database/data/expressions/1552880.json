@@ -1,0 +1,72 @@
+{
+  "id": "1552880",
+  "readings": [
+    {
+      "kanaExpression": "りゅうさん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "硫酸",
+      "furiganaExpression": [
+        {
+          "text": "硫",
+          "annotation": "りゅう"
+        },
+        {
+          "text": "酸",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sulfuric acid",
+        "sulphuric acid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zwavelzuur",
+        "vitrioolzuur",
+        "{veroud.} vitriool"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "acide sulfurique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwefelsäure"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kénsav",
+        "-szulfát"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "серная кислота",
+        "{～[の]} сернокислый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ácido sulfúrico"
+      ]
+    }
+  ]
+}

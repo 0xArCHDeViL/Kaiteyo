@@ -1,0 +1,73 @@
+{
+  "id": "1649480",
+  "readings": [
+    {
+      "kanaExpression": "こうりん",
+      "rank": 30500
+    },
+    {
+      "kanaExpression": "あとわ"
+    },
+    {
+      "kanaExpression": "しずわ"
+    },
+    {
+      "kanaExpression": "しりわ"
+    },
+    {
+      "kanjiExpression": "後輪",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "こう"
+        },
+        {
+          "text": "輪",
+          "annotation": "りん"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "尻輪",
+      "furiganaExpression": [
+        {
+          "text": "尻",
+          "annotation": "しり"
+        },
+        {
+          "text": "輪",
+          "annotation": "わ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rear wheel",
+        "cantle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "achterwiel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hinterer Sattelbogen (eines japan. Sattels)",
+        "Hinterrad"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bakhjul"
+      ]
+    }
+  ]
+}

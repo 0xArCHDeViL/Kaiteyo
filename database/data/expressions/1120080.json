@@ -1,0 +1,68 @@
+{
+  "id": "1120080",
+  "readings": [
+    {
+      "kanaExpression": "ベルトコンベア",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ベルトコンベアー"
+    },
+    {
+      "kanaExpression": "ベルトコンベヤー"
+    },
+    {
+      "kanaExpression": "ベルトコンベヤ"
+    },
+    {
+      "kanaExpression": "ベルト・コンベア"
+    },
+    {
+      "kanaExpression": "ベルト・コンベアー"
+    },
+    {
+      "kanaExpression": "ベルト・コンベヤー"
+    },
+    {
+      "kanaExpression": "ベルト・コンベヤ"
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "conveyor belt",
+        "belt conveyor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "transportband",
+        "lopende band",
+        "sorteerband",
+        "laadband",
+        "roedelbaan",
+        "transporteur",
+        "bandtransporteur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Förderband",
+        "Transportband",
+        "Gurtbandförderer",
+        "Gurtförderer",
+        "Bandförderer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "futószalag",
+        "szalagkonvejor"
+      ]
+    }
+  ]
+}

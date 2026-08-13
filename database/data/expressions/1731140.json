@@ -1,0 +1,38 @@
+{
+  "id": "1731140",
+  "readings": [
+    {
+      "kanaExpression": "ねんりつ",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "年率",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "annual rate (of interest)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jährliche Rate",
+        "Jahresrate"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1524790",
+  "readings": [
+    {
+      "kanaExpression": "まくあい",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "まくま"
+    },
+    {
+      "kanjiExpression": "幕間",
+      "furiganaExpression": [
+        {
+          "text": "幕",
+          "annotation": "まく"
+        },
+        {
+          "text": "間",
+          "annotation": "あい"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "幕あい",
+      "furiganaExpression": [
+        {
+          "text": "幕",
+          "annotation": "まく"
+        },
+        {
+          "text": "あい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "intermission (between acts)",
+        "interlude"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{ton.} pauze",
+        "entr’acte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pause (zwischen zwei Akten)",
+        "Zwischenakt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felvonásköz",
+        "pauza",
+        "félbeszakítás",
+        "közjáték"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "антракт"
+      ]
+    }
+  ]
+}

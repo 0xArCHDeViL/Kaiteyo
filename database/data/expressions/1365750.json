@@ -1,0 +1,91 @@
+{
+  "id": "1365750",
+  "readings": [
+    {
+      "kanaExpression": "しんたいしょうがいしゃ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "身体障害者",
+      "furiganaExpression": [
+        {
+          "text": "身",
+          "annotation": "しん"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "障",
+          "annotation": "しょう"
+        },
+        {
+          "text": "害",
+          "annotation": "がい"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "身体障がい者",
+      "furiganaExpression": [
+        {
+          "text": "身",
+          "annotation": "しん"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "障",
+          "annotation": "しょう"
+        },
+        {
+          "text": "がい"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(physically) disabled person",
+        "person with a physical disability"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lichamelijk",
+        "motorisch gehandicapte mens",
+        "invalide",
+        "mindervalide",
+        "gehandicapte",
+        "onvolwaardige"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Körperbehinderter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "страдающий (каким-л.) физическим недостатком, инвалид"
+      ]
+    }
+  ]
+}

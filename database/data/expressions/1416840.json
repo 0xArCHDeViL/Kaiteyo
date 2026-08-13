@@ -1,0 +1,70 @@
+{
+  "id": "1416840",
+  "readings": [
+    {
+      "kanaExpression": "だれか",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "誰か",
+      "furiganaExpression": [
+        {
+          "text": "誰",
+          "annotation": "だれ"
+        },
+        {
+          "text": "か"
+        }
+      ],
+      "rank": 2090
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "someone",
+        "somebody"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "iemand",
+        "deze of gene",
+        "je-weet-wel (-wie)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "quelqu\u0027un"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jemand",
+        "irgendjemand"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nekdo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alguien"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "någon"
+      ]
+    }
+  ]
+}

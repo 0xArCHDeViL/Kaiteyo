@@ -1,0 +1,48 @@
+{
+  "id": "1816660",
+  "readings": [
+    {
+      "kanaExpression": "しぶん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "詩文",
+      "furiganaExpression": [
+        {
+          "text": "詩",
+          "annotation": "し"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "poetry and prose",
+        "literature",
+        "literary works"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Poesie und Prosa",
+        "Dichtung",
+        "Literatur",
+        "schöne Literatur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) поэзия и проза; литература"
+      ]
+    }
+  ]
+}

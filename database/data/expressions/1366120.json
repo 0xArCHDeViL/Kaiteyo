@@ -1,0 +1,75 @@
+{
+  "id": "1366120",
+  "readings": [
+    {
+      "kanaExpression": "しんたいうかがい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "進退伺い",
+      "furiganaExpression": [
+        {
+          "text": "進",
+          "annotation": "しん"
+        },
+        {
+          "text": "退",
+          "annotation": "たい"
+        },
+        {
+          "text": "伺",
+          "annotation": "うかが"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "進退伺",
+      "furiganaExpression": [
+        {
+          "text": "進",
+          "annotation": "しん"
+        },
+        {
+          "text": "退",
+          "annotation": "たい"
+        },
+        {
+          "text": "伺",
+          "annotation": "うかがい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "informal resignation",
+        "unofficial resignation"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "démission informelle (officieuse)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "inoffizielles Rücktrittsgesuch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) запрос начальству, следует ли подать в отставку (в случае своей провинности)",
+        "2) заявление об отставке (в этом случае)"
+      ]
+    }
+  ]
+}

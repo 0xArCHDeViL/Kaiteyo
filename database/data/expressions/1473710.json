@@ -1,0 +1,98 @@
+{
+  "id": "1473710",
+  "readings": [
+    {
+      "kanaExpression": "かいいれる",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "買い入れる",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "買入れる",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "かい"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to purchase",
+        "to buy in"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aankopen",
+        "kopen",
+        "(zich) aanschaffen",
+        "betrekken",
+        "inkopen",
+        "inslaan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "acheter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einkaufen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszerez",
+        "felemel",
+        "megszerez"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "закупать, производить закупки, покупать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comprar",
+        "adquirir"
+      ]
+    }
+  ]
+}

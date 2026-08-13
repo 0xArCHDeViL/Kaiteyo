@@ -1,0 +1,63 @@
+{
+  "id": "1555810",
+  "readings": [
+    {
+      "kanaExpression": "りんばん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "輪番",
+      "furiganaExpression": [
+        {
+          "text": "輪",
+          "annotation": "りん"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rotation (e.g. of a duty)",
+        "taking turns"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "à tour de rôle",
+        "rotation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reihenfolge",
+        "Abwechslung",
+        "Rotation",
+        "Turnus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fordulat",
+        "forduló",
+        "hajlam"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чередование",
+        "{～で} чередуясь, по очереди"
+      ]
+    }
+  ]
+}

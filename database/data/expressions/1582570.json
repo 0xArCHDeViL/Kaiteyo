@@ -1,0 +1,102 @@
+{
+  "id": "1582570",
+  "readings": [
+    {
+      "kanaExpression": "うちまく",
+      "rank": 26000
+    },
+    {
+      "kanaExpression": "ないまく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "内幕",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "うち"
+        },
+        {
+          "text": "幕",
+          "annotation": "まく"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lowdown",
+        "inside information",
+        "hidden circumstances",
+        "inside facts",
+        "inner workings",
+        "undisclosed circumstances",
+        "inner curtain (in a military encampment)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "binnendoek",
+        "binnenzeil",
+        "binnengordijn",
+        "medestanders",
+        "bondgenoten",
+        "kameraden",
+        "bondgenootschap",
+        "kameraadschap",
+        "camaraderie",
+        "interne realiteit",
+        "interne omstandigheden",
+        "interne keuken",
+        "inside-information",
+        "datgene wat zich achter de schermen afspeelt",
+        "datgene achter de coulissen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "coulisses",
+        "dessous (de l\u0027affaire)",
+        "information interne",
+        "secret"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "innere Verhältnisse",
+        "interne Informationen",
+        "internes Funktionieren",
+        "Insiderinformationen",
+        "Interna"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "magánértesülés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "частные (скрытые) обстоятельства; закулисная сторона",
+        "(см.) ないまく【内幕】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entresijos",
+        "secretos",
+        "lo que ocurre en la trastienda",
+        "lo que ocurre entre bastidores"
+      ]
+    }
+  ]
+}

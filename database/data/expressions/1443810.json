@@ -1,0 +1,89 @@
+{
+  "id": "1443810",
+  "readings": [
+    {
+      "kanaExpression": "でんりょく",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "電力",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "力",
+          "annotation": "りょく"
+        }
+      ],
+      "rank": 3078
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "electric power"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elektrisch vermogen",
+        "{pregn.} vermogen",
+        "elektriciteit",
+        "elektrische energie",
+        "stroom"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "énergie électrique",
+        "puissance électrique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "elektrischer Strom",
+        "elektrische Energie",
+        "Elektrizität",
+        "elektrische Leistung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "teljesítmény (kW)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "электроэнергия"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "električna energija",
+        "elektrika"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "electricidad",
+        "energía eléctrica"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "elkraft"
+      ]
+    }
+  ]
+}

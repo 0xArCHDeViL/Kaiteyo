@@ -1,0 +1,93 @@
+{
+  "id": "1485450",
+  "readings": [
+    {
+      "kanaExpression": "ひこう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "飛行",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "ひ"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 4434
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "flight",
+        "flying",
+        "aviation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vliegen",
+        "een vlucht maken",
+        "een vliegreis maken",
+        "vlucht",
+        "het vliegen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aviation",
+        "vol",
+        "voler",
+        "prendre un vol"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fliegen",
+        "Flug",
+        "Fliegen",
+        "Luftfahrt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "légi közlekedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полёт (авиационный); авиация"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "polet",
+        "letenje",
+        "leteti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aviación"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "aviatik"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "1207790",
+  "readings": [
+    {
+      "kanaExpression": "わりだす",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "割り出す",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "割出す",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わり"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to calculate",
+        "to compute",
+        "to deduce",
+        "to infer",
+        "to conclude"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "calculer",
+        "déduire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "berechnen",
+        "kalkulieren",
+        "schätzen",
+        "herleiten",
+        "ableiten",
+        "schließen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiszámít",
+        "vél",
+        "magával von"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) считать, подсчитывать",
+        "2) делать вывод (умозаключение), заключать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calcular",
+        "computar",
+        "inferir"
+      ]
+    }
+  ]
+}

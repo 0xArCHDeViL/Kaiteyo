@@ -1,0 +1,56 @@
+{
+  "id": "1521250",
+  "readings": [
+    {
+      "kanaExpression": "きたはんきゅう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "北半球",
+      "furiganaExpression": [
+        {
+          "text": "北",
+          "annotation": "きた"
+        },
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "northern hemisphere"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "noordelijk halfrond",
+        "noordelijke hemisfeer",
+        "noorderhalfrond"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nördliche Hemisphäre",
+        "Nordhalbkugel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "Северное полушарие"
+      ]
+    }
+  ]
+}

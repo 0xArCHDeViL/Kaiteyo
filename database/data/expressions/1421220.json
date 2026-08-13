@@ -1,0 +1,61 @@
+{
+  "id": "1421220",
+  "readings": [
+    {
+      "kanaExpression": "じしんがく",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "地震学",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "震",
+          "annotation": "しん"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seismology"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seismologie",
+        "Erdbebenkunde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "földrengéstan",
+        "szeizmológia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сейсмология"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "seismologi"
+      ]
+    }
+  ]
+}

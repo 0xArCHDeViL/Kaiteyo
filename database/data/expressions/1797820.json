@@ -1,0 +1,84 @@
+{
+  "id": "1797820",
+  "readings": [
+    {
+      "kanaExpression": "ながぐつ",
+      "rank": 29000
+    },
+    {
+      "kanaExpression": "ちょうか",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "長靴",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "なが"
+        },
+        {
+          "text": "靴",
+          "annotation": "ぐつ"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "長ぐつ",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "なが"
+        },
+        {
+          "text": "ぐつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "leather boots",
+        "rubber boots",
+        "wellingtons",
+        "wellies",
+        "long boots",
+        "high boots"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "laars",
+        "{Belg.N.",
+        "spreekt.} bot",
+        "{w.g.",
+        "scherts.} stevel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stiefel",
+        "Reitstiefel",
+        "Gummistiefel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сапоги",
+        "(кн.) [высокие] сапоги"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "botas de cuero",
+        "botas altas"
+      ]
+    }
+  ]
+}

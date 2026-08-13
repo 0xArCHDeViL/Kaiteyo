@@ -1,0 +1,58 @@
+{
+  "id": "1294840",
+  "readings": [
+    {
+      "kanaExpression": "さいたん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "採炭",
+      "furiganaExpression": [
+        {
+          "text": "採",
+          "annotation": "さい"
+        },
+        {
+          "text": "炭",
+          "annotation": "たん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "coal mining",
+        "coal extraction"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "extraction de charbon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kohleförderung",
+        "Kohleabbau"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "добыча угля",
+        "{～する} добывать уголь, разрабатывать месторождение угля"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "minería del carbón"
+      ]
+    }
+  ]
+}

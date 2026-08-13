@@ -1,0 +1,68 @@
+{
+  "id": "1370210",
+  "readings": [
+    {
+      "kanaExpression": "じんち",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "陣地",
+      "furiganaExpression": [
+        {
+          "text": "陣",
+          "annotation": "じん"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "encampment",
+        "position",
+        "side",
+        "end",
+        "goal area"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} stelling",
+        "positie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "campement",
+        "position (militaire)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stellung",
+        "(militärische)Position"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pozíció"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(воен.) позиция"
+      ]
+    }
+  ]
+}

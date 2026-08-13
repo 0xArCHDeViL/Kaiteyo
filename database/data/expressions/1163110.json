@@ -1,0 +1,65 @@
+{
+  "id": "1163110",
+  "readings": [
+    {
+      "kanaExpression": "いっしつ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "一室",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one room"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "één kamer",
+        "een kamer",
+        "dezelfde kamer",
+        "de betreffende ruimte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Zimmer",
+        "ein Raum",
+        "eine Kabine",
+        "ein Abteil",
+        "das gleiche Zimmer",
+        "dasselbe Zimmer",
+        "ein gewisses Zimmer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одна комната"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "una habitación",
+        "un cuarto"
+      ]
+    }
+  ]
+}

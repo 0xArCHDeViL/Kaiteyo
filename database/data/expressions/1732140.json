@@ -1,0 +1,46 @@
+{
+  "id": "1732140",
+  "readings": [
+    {
+      "kanaExpression": "ひつだん",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "筆談",
+      "furiganaExpression": [
+        {
+          "text": "筆",
+          "annotation": "ひつ"
+        },
+        {
+          "text": "談",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "communicating in writing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schriftliche Konversation betreiben",
+        "sich schriftlich verständigen",
+        "schriftliche Konversation",
+        "schriftlicher Austausch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разговор путём обмена записками"
+      ]
+    }
+  ]
+}

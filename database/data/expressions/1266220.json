@@ -1,0 +1,73 @@
+{
+  "id": "1266220",
+  "readings": [
+    {
+      "kanaExpression": "ころう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "古老",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "こ"
+        },
+        {
+          "text": "老",
+          "annotation": "ろう"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "故老",
+      "furiganaExpression": [
+        {
+          "text": "故",
+          "annotation": "こ"
+        },
+        {
+          "text": "老",
+          "annotation": "ろう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "old person (knowledgeable about events of the distant past)",
+        "elderly person",
+        "elder"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oude grijsaard",
+        "ouderling",
+        "oudje",
+        "patriarch",
+        "nestor",
+        "{i.h.b.} oude bewoner",
+        "{verzameln.} de derde leeftijd",
+        "senioren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alter Mensch",
+        "(insbes.) alter Experte",
+        "alter Hase"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) старый человек, старик; старейшина"
+      ]
+    }
+  ]
+}

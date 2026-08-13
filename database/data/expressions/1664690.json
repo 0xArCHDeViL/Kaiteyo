@@ -1,0 +1,83 @@
+{
+  "id": "1664690",
+  "readings": [
+    {
+      "kanaExpression": "たちおくれる",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "立ち後れる",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "後",
+          "annotation": "おく"
+        },
+        {
+          "text": "れる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "立ち遅れる",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "遅",
+          "annotation": "おく"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to start slowly",
+        "to lag behind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "langsam starten",
+        "zurückbleiben",
+        "zurückgeblieben sein",
+        "im Rückstand sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmarad",
+        "elmaradozik",
+        "hátramarad",
+        "lemarad",
+        "visszamarad"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) запоздать встать (в борьбе)",
+        "2) запаздывать"
+      ]
+    }
+  ]
+}

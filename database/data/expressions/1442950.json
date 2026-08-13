@@ -1,0 +1,53 @@
+{
+  "id": "1442950",
+  "readings": [
+    {
+      "kanaExpression": "でんかいしつ",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "電解質",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "解",
+          "annotation": "かい"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "electrolyte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Elektrolyt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elektrolit"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "elektrolyt"
+      ]
+    }
+  ]
+}

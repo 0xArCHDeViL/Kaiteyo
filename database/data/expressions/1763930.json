@@ -1,0 +1,58 @@
+{
+  "id": "1763930",
+  "readings": [
+    {
+      "kanaExpression": "じうた",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "地唄",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "唄",
+          "annotation": "うた"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "地歌",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "歌",
+          "annotation": "うた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(style of) folk song"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Volkslied",
+        "Ballade (nur in einer bestimmten Gegend gesungen)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) местная песня",
+        "2) народная песенка (один из видов)"
+      ]
+    }
+  ]
+}

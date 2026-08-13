@@ -1,0 +1,58 @@
+{
+  "id": "1263390",
+  "readings": [
+    {
+      "kanaExpression": "げんりゅう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "源流",
+      "furiganaExpression": [
+        {
+          "text": "源",
+          "annotation": "げん"
+        },
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "source (e.g. of a river)",
+        "headwaters",
+        "origin of something continuous (language, culture, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bron",
+        "oorsprong",
+        "rivierbron",
+        "bovenloop",
+        "{fig.} oorsprong",
+        "begin",
+        "origine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Quelle (eines Flusses)",
+        "Ursprung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. прям. и перен.) источник"
+      ]
+    }
+  ]
+}

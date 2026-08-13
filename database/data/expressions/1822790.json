@@ -1,0 +1,80 @@
+{
+  "id": "1822790",
+  "readings": [
+    {
+      "kanaExpression": "ほんぎまり",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "本決まり",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "決",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "まり"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "本決り",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "決",
+          "annotation": "ぎま"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "本極まり",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "極",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "まり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "definite decision",
+        "final decision"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "endgültige Entscheidung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окончательное решение",
+        "{～になる} быть окончательно решённым"
+      ]
+    }
+  ]
+}

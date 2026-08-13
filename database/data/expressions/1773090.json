@@ -1,0 +1,53 @@
+{
+  "id": "1773090",
+  "readings": [
+    {
+      "kanaExpression": "かいぞくばん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "海賊版",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "賊",
+          "annotation": "ぞく"
+        },
+        {
+          "text": "版",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pirated edition",
+        "pirated version",
+        "bootleg copy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pirateneditie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Raubkopie",
+        "unerlaubte Kopie",
+        "Bootleg",
+        "Raubdruck",
+        "Piratenausgabe"
+      ]
+    }
+  ]
+}

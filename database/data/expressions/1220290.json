@@ -1,0 +1,104 @@
+{
+  "id": "1220290",
+  "readings": [
+    {
+      "kanaExpression": "はたあげ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "旗揚げ",
+      "furiganaExpression": [
+        {
+          "text": "旗",
+          "annotation": "はた"
+        },
+        {
+          "text": "揚",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "旗揚",
+      "furiganaExpression": [
+        {
+          "text": "旗",
+          "annotation": "はた"
+        },
+        {
+          "text": "揚",
+          "annotation": "あげ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "旗挙げ",
+      "furiganaExpression": [
+        {
+          "text": "旗",
+          "annotation": "はた"
+        },
+        {
+          "text": "挙",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "旗挙",
+      "furiganaExpression": [
+        {
+          "text": "旗",
+          "annotation": "はた"
+        },
+        {
+          "text": "挙",
+          "annotation": "あげ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "raising an army",
+        "raising a banner",
+        "launching a new group",
+        "launching a business",
+        "launching a new party"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Truppen ausheben",
+        "eine Armee aufstellen",
+        "ein Unternehmen starten",
+        "Heben einer Fahne",
+        "Hissen einer Fahne",
+        "Ausheben von Truppen",
+        "Erhebung",
+        "Aufstand",
+        "Start einer Unternehmung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поднятие знамён; (обр.)",
+        "а) призыв к оружию, восстание",
+        "{～をする} поднимать знамя восстания",
+        "б) начало нового дела",
+        "{～をする} начинать (открывать) новое дело"
+      ]
+    }
+  ]
+}

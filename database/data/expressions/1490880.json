@@ -1,0 +1,45 @@
+{
+  "id": "1490880",
+  "readings": [
+    {
+      "kanaExpression": "ひんのう",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "貧農",
+      "furiganaExpression": [
+        {
+          "text": "貧",
+          "annotation": "ひん"
+        },
+        {
+          "text": "農",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "poor farmer",
+        "needy peasant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "armer Bauer",
+        "armer Landpächter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крестьянин-бедняк; беднейшее крестьянство"
+      ]
+    }
+  ]
+}

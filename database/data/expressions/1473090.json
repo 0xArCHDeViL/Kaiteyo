@@ -1,0 +1,59 @@
+{
+  "id": "1473090",
+  "readings": [
+    {
+      "kanaExpression": "はいしょく",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "配色",
+      "furiganaExpression": [
+        {
+          "text": "配",
+          "annotation": "はい"
+        },
+        {
+          "text": "色",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "color scheme",
+        "colour scheme"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleurschikking",
+        "kleurschakering",
+        "kleurstelling",
+        "kleurenpalet",
+        "palet",
+        "kleurenschema",
+        "kleuring"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Farbzusammenstellung",
+        "Farbkombination",
+        "Farbkomposition",
+        "Farbgebung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "распределение цвета (красок)"
+      ]
+    }
+  ]
+}

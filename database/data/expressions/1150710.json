@@ -1,0 +1,72 @@
+{
+  "id": "1150710",
+  "readings": [
+    {
+      "kanaExpression": "あいこく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "愛国",
+      "furiganaExpression": [
+        {
+          "text": "愛",
+          "annotation": "あい"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 9525
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "love of one\u0027s country",
+        "patriotism",
+        "Ireland"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vaderlandsliefde",
+        "liefde tot het vaderland",
+        "liefde voor het land",
+        "amor patriae",
+        "patriottisme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vaterlandsliebe",
+        "Patriotismus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hazafiasság",
+        "hazaszeretet",
+        "patriotizmus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "любовь к родине, патриотизм",
+        "{～的} патриотический"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "amor al país (de uno)",
+        "patriotismo"
+      ]
+    }
+  ]
+}

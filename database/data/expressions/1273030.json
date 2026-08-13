@@ -1,0 +1,85 @@
+{
+  "id": "1273030",
+  "readings": [
+    {
+      "kanaExpression": "こうせん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "光線",
+      "furiganaExpression": [
+        {
+          "text": "光",
+          "annotation": "こう"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 14630
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beam",
+        "light ray"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lichtstraal",
+        "licht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faisceau",
+        "rayon (lumineux)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Licht",
+        "Lichtstrahl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "napsugár",
+        "sugárnyaláb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[световой] луч; свет"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "žarek",
+        "svetlobni žarek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rayo de luz"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ljusstråle"
+      ]
+    }
+  ]
+}

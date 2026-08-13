@@ -1,0 +1,67 @@
+{
+  "id": "1631470",
+  "readings": [
+    {
+      "kanaExpression": "ふり",
+      "rank": 7895
+    },
+    {
+      "kanjiExpression": "降り",
+      "furiganaExpression": [
+        {
+          "text": "降",
+          "annotation": "ふ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rainfall",
+        "snowfall",
+        "alighting",
+        "descending"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "neerslag",
+        "regenval",
+        "sneeuwval"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Regen",
+        "Schneefall"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hóesés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дождь, снегопад"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bajar (autobús)",
+        "descender (ej. montaña)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1581140",
+  "readings": [
+    {
+      "kanaExpression": "ぜんはん",
+      "rank": 16000
+    },
+    {
+      "kanaExpression": "ぜんぱん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "前半",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "半",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 2720
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first half"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerste helft",
+        "{sportt.} eerste speeltijd",
+        "ronde"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "première mi-temps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erste Hälfte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "первая половина"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "primera mitad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1534050",
+  "readings": [
+    {
+      "kanaExpression": "もうしょ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "猛暑",
+      "furiganaExpression": [
+        {
+          "text": "猛",
+          "annotation": "もう"
+        },
+        {
+          "text": "暑",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heat wave",
+        "fierce heat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeer sterke hitte",
+        "gloeihitte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "canicule",
+        "chaleur torride"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "große Hitze",
+        "schreckliche Hitze"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) страшная жара"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ola de calor",
+        "calor sofocante"
+      ]
+    }
+  ]
+}

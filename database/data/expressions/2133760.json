@@ -1,0 +1,64 @@
+{
+  "id": "2133760",
+  "readings": [
+    {
+      "kanaExpression": "よろしくおねがいいたします",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "よろしくお願いいたします",
+      "furiganaExpression": [
+        {
+          "text": "よろしくお"
+        },
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "いいたします"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "宜しくお願い致します",
+      "furiganaExpression": [
+        {
+          "text": "宜",
+          "annotation": "よろ"
+        },
+        {
+          "text": "しくお"
+        },
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "致",
+          "annotation": "いた"
+        },
+        {
+          "text": "します"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "please remember me",
+        "please help me",
+        "please treat me well",
+        "I look forward to working with you",
+        "please do",
+        "please take care of"
+      ]
+    }
+  ]
+}

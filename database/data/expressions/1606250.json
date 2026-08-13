@@ -1,0 +1,100 @@
+{
+  "id": "1606250",
+  "readings": [
+    {
+      "kanaExpression": "りゃくだつ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "略奪",
+      "furiganaExpression": [
+        {
+          "text": "略",
+          "annotation": "りゃく"
+        },
+        {
+          "text": "奪",
+          "annotation": "だつ"
+        }
+      ],
+      "rank": 14134
+    },
+    {
+      "kanjiExpression": "掠奪",
+      "furiganaExpression": [
+        {
+          "text": "掠",
+          "annotation": "りゃく"
+        },
+        {
+          "text": "奪",
+          "annotation": "だつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pillage",
+        "plunder",
+        "looting",
+        "robbery"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "plunderen",
+        "{fig.} brandschatten",
+        "plundering",
+        "spoliatie",
+        "{fig.} brandschatting"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pillage",
+        "sac",
+        "vol"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rauben",
+        "plündern",
+        "kapern",
+        "Plünderung",
+        "Raub"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fosztogatás",
+        "zsákmány",
+        "rablás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "грабёж",
+        "захват",
+        "грабёж, ограбление; мародёрство",
+        "{～する} [о]грабить; похищать; мародёрствовать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pillaje",
+        "saqueo",
+        "botín"
+      ]
+    }
+  ]
+}

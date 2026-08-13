@@ -1,0 +1,85 @@
+{
+  "id": "1605230",
+  "readings": [
+    {
+      "kanaExpression": "もちぬし",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "持ち主",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ],
+      "rank": 6310
+    },
+    {
+      "kanjiExpression": "持主",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "owner",
+        "proprietor",
+        "possessor (e.g. of talent, beauty, etc.)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "détenteur",
+        "possesseur",
+        "propriétaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besitzer",
+        "Eigentümer",
+        "Inhaber",
+        "WirtHerr"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tulajdonos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "владелец, хозяин; обладатель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dueño",
+        "propietario"
+      ]
+    }
+  ]
+}

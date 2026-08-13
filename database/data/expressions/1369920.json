@@ -1,0 +1,116 @@
+{
+  "id": "1369920",
+  "readings": [
+    {
+      "kanaExpression": "ちりとり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "ちり取り",
+      "furiganaExpression": [
+        {
+          "text": "ちり"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "ちり取",
+      "furiganaExpression": [
+        {
+          "text": "ちり"
+        },
+        {
+          "text": "取",
+          "annotation": "とり"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "塵取り",
+      "furiganaExpression": [
+        {
+          "text": "塵",
+          "annotation": "ちり"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dustpan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blik",
+        "stofblik",
+        "{Belg.N.} vuilblik",
+        "{gew.} motblik"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pelle à poussière"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schaufel",
+        "Kehrichtschaufel",
+        "Kehrschaufel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szemeteslapát",
+        "szemétlapát"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "совок [для сора]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "smetišnica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "recogedor (para recoger la basura)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sopskyffel"
+      ]
+    }
+  ]
+}

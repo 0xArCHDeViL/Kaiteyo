@@ -1,0 +1,50 @@
+{
+  "id": "1206710",
+  "readings": [
+    {
+      "kanaExpression": "がっく",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "学区",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がっ"
+        },
+        {
+          "text": "区",
+          "annotation": "く"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "school district",
+        "school area"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schooldistrict"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schulbezirk"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "школьный район"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "1532290",
+  "readings": [
+    {
+      "kanaExpression": "あけわたす",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "明け渡す",
+      "furiganaExpression": [
+        {
+          "text": "明",
+          "annotation": "あ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "明渡す",
+      "furiganaExpression": [
+        {
+          "text": "明",
+          "annotation": "あけ"
+        },
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "開け渡す",
+      "furiganaExpression": [
+        {
+          "text": "開",
+          "annotation": "あ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to vacate",
+        "to surrender (e.g. a castle)",
+        "to give up (e.g. a position)",
+        "to hand over (e.g. power)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{城を} prijsgeven",
+        "opgeven",
+        "overdragen",
+        "overgeven",
+        "overleveren",
+        "afstaan",
+        "afgeven",
+        "{店を} overdoen",
+        "{gew.} overlaten",
+        "{家を} ontruimen",
+        "verlaten",
+        "evacueren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "räumen",
+        "evakuieren",
+        "abtreten",
+        "übergeben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhagy",
+        "elutazik",
+        "érvénytelenít",
+        "lemond",
+        "beszolgáltat",
+        "megad"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "освобождать (помещение и т. п.); сдавать (замок, крепость)"
+      ]
+    }
+  ]
+}

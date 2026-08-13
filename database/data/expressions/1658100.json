@@ -1,0 +1,40 @@
+{
+  "id": "1658100",
+  "readings": [
+    {
+      "kanaExpression": "ざんるい",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "残塁",
+      "furiganaExpression": [
+        {
+          "text": "残",
+          "annotation": "ざん"
+        },
+        {
+          "text": "塁",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "left on base",
+        "remnant fort"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auf einer Base zurückbleiben, während die eigene Mannschaft angreift",
+        "Läufer, der an einer Base bleibt, während der Angriff zu Ende ist",
+        "angegriffene aber nicht zu Fall gebrachte Festung"
+      ]
+    }
+  ]
+}

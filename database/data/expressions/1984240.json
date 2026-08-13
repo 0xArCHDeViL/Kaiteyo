@@ -1,0 +1,53 @@
+{
+  "id": "1984240",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうこう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "中高",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "高",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "middle and high school",
+        "medium and high (level)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lagere en hogere middelbare school",
+        "middelbare en hoge mate",
+        "middelbaar en hoog niveau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mittel- und Oberschule (Abk.)",
+        "mittleres und oberes Niveau"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "средняя школа и средняя школа высшей ступени"
+      ]
+    }
+  ]
+}

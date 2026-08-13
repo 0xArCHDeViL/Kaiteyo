@@ -1,0 +1,59 @@
+{
+  "id": "1622640",
+  "readings": [
+    {
+      "kanaExpression": "ちかって",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "誓って",
+      "furiganaExpression": [
+        {
+          "text": "誓",
+          "annotation": "ちか"
+        },
+        {
+          "text": "って"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "surely",
+        "upon my word",
+        "by Jove",
+        "(with neg) by no means",
+        "never"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorwaar",
+        "op mijn woord",
+        "op mijn erewoord",
+        "onder ede"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bei meinem Ehrenwort",
+        "auf mein Wort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "becsületszavamra",
+        "szavamat adom rá",
+        "szavamra mondom",
+        "szavamra"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1111830",
+  "readings": [
+    {
+      "kanaExpression": "フリーダイヤル",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "フリーダイアル"
+    },
+    {
+      "kanaExpression": "フリー・ダイヤル"
+    },
+    {
+      "kanaExpression": "フリー・ダイアル"
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "toll-free number",
+        "free dial (e.g. device or combination lock that can be set to any number)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gratis telefoonnummer",
+        "{in Nl.} gratis 06-nummer",
+        "{Belg.N.} groen nummer",
+        "kosteloos gesprek",
+        "het gratis bellen",
+        "gratis telefoondienst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gebührenfreier Anruf"
+      ]
+    }
+  ]
+}

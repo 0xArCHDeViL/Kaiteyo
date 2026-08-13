@@ -1,0 +1,78 @@
+{
+  "id": "1605910",
+  "readings": [
+    {
+      "kanaExpression": "よこちょう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "横丁",
+      "furiganaExpression": [
+        {
+          "text": "横",
+          "annotation": "よこ"
+        },
+        {
+          "text": "丁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "横町",
+      "furiganaExpression": [
+        {
+          "text": "横",
+          "annotation": "よこ"
+        },
+        {
+          "text": "町",
+          "annotation": "ちょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bystreet",
+        "side street",
+        "back street",
+        "alley",
+        "lane"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zijstraat",
+        "dwarsstraat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seitenstraße",
+        "Seitengasse",
+        "Nebenstraße",
+        "Nebengasse",
+        "Abzweigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fasor",
+        "tekepálya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переулок; боковая улица"
+      ]
+    }
+  ]
+}

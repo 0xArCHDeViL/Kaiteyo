@@ -1,0 +1,71 @@
+{
+  "id": "1630500",
+  "readings": [
+    {
+      "kanaExpression": "かたしき",
+      "rank": 26573
+    },
+    {
+      "kanaExpression": "けいしき",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "型式",
+      "furiganaExpression": [
+        {
+          "text": "型",
+          "annotation": "かた"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "model (e.g. of a vehicle)",
+        "type"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "model",
+        "type"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Modell",
+        "Baureihe",
+        "Typ (eines Autos, Flugzeuges etc.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "maneken",
+        "minta",
+        "mintakép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тип (напр. самолёта)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "modell"
+      ]
+    }
+  ]
+}

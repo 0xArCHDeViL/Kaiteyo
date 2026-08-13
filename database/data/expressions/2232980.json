@@ -1,0 +1,65 @@
+{
+  "id": "2232980",
+  "readings": [
+    {
+      "kanaExpression": "このうち",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "このなか"
+    },
+    {
+      "kanjiExpression": "この内",
+      "furiganaExpression": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "内",
+          "annotation": "うち"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "この中",
+      "furiganaExpression": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "中",
+          "annotation": "うち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "among these",
+        "between these",
+        "of these",
+        "in here",
+        "in this"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "von diesen",
+        "daraus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mostanában",
+        "nemrég",
+        "újabban",
+        "utóbbi időben"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "1753030",
+  "readings": [
+    {
+      "kanaExpression": "うりあげきん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "売上金",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うり"
+        },
+        {
+          "text": "上",
+          "annotation": "あげ"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "売り上げ金",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "proceeds (from a sale)",
+        "takings"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "winst",
+        "opbrengst (door verkoop)",
+        "inkomsten",
+        "recette",
+        "ontvangsten",
+        "provenu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkaufserlös",
+        "Einnahmen",
+        "Erlös"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bevétel",
+        "jövedelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выручка [от продажи]"
+      ]
+    }
+  ]
+}

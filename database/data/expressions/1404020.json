@@ -1,0 +1,43 @@
+{
+  "id": "1404020",
+  "readings": [
+    {
+      "kanaExpression": "そくへき",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "側壁",
+      "furiganaExpression": [
+        {
+          "text": "側",
+          "annotation": "そく"
+        },
+        {
+          "text": "壁",
+          "annotation": "へき"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "side wall"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seitenwand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "боковая стена"
+      ]
+    }
+  ]
+}

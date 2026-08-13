@@ -1,0 +1,44 @@
+{
+  "id": "1514040",
+  "readings": [
+    {
+      "kanaExpression": "ほれい",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "保冷",
+      "furiganaExpression": [
+        {
+          "text": "保",
+          "annotation": "ほ"
+        },
+        {
+          "text": "冷",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "keeping (something) cool"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kühle Lagerung",
+        "Kühlung (z.B. von Lebensmitteln)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "держать в холодном месте (надпись на этикетке)"
+      ]
+    }
+  ]
+}

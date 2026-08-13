@@ -1,0 +1,57 @@
+{
+  "id": "1213540",
+  "readings": [
+    {
+      "kanaExpression": "あまず",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "甘酢",
+      "furiganaExpression": [
+        {
+          "text": "甘",
+          "annotation": "あま"
+        },
+        {
+          "text": "酢",
+          "annotation": "ず"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sweet vinegar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "met mirin en suiker gezoete azijn"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vinaigre doux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "süßsaurer Essig",
+        "gezuckerter Essig",
+        "mit Mirin gemischter Essig"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vinagre dulce"
+      ]
+    }
+  ]
+}

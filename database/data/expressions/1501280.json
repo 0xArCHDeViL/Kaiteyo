@@ -1,0 +1,89 @@
+{
+  "id": "1501280",
+  "readings": [
+    {
+      "kanaExpression": "はらだたしい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "腹立たしい",
+      "furiganaExpression": [
+        {
+          "text": "腹",
+          "annotation": "はら"
+        },
+        {
+          "text": "立",
+          "annotation": "だ"
+        },
+        {
+          "text": "たしい"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "腹だたしい",
+      "furiganaExpression": [
+        {
+          "text": "腹",
+          "annotation": "はら"
+        },
+        {
+          "text": "だたしい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "irritating",
+        "aggravating",
+        "upsetting",
+        "maddening",
+        "infuriating",
+        "exasperating",
+        "provoking"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "irritant",
+        "aanstootgevend",
+        "aanstotelijk",
+        "ergerlijk",
+        "vervelend",
+        "provocerend",
+        "tergend",
+        "sarrig",
+        "hatelijk",
+        "treiterig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ärgerlich",
+        "unerfreulich",
+        "empörend",
+        "verärgernd",
+        "wütend machend"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "раздражающий; вызывающий гнев"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "retande"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "1501860",
+  "readings": [
+    {
+      "kanaExpression": "ぶっかく",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "仏閣",
+      "furiganaExpression": [
+        {
+          "text": "仏",
+          "annotation": "ぶっ"
+        },
+        {
+          "text": "閣",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Buddhist temple"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "buddhistischer Tempel",
+        "Tempelgebäude"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "буддийский храм"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "templo budista"
+      ]
+    }
+  ]
+}

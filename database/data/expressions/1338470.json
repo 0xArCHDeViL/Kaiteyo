@@ -1,0 +1,92 @@
+{
+  "id": "1338470",
+  "readings": [
+    {
+      "kanaExpression": "でがけ",
+      "rank": 29000
+    },
+    {
+      "kanaExpression": "でかけ"
+    },
+    {
+      "kanjiExpression": "出掛け",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "掛",
+          "annotation": "が"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "出がけ",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "がけ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "出掛",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "掛",
+          "annotation": "がけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(on the) point of going out",
+        "(at the) moment one is about to leave",
+        "just after leaving",
+        "while on the way"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{～に} net voor z\u0027n vertrek",
+        "toen iem. net op het punt staat te vertrekken",
+        "{…への～に} onderweg naar",
+        "eerste stap",
+        "begin",
+        "aanvang",
+        "start"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufbruch",
+        "Fortgehen",
+        "Zeitpunkt, wenn man weggeht",
+        "Zeitpunkt, gleich nach dem Aufbruch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～に} в момент ухода (выхода)"
+      ]
+    }
+  ]
+}

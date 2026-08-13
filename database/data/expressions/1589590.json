@@ -1,0 +1,113 @@
+{
+  "id": "1589590",
+  "readings": [
+    {
+      "kanaExpression": "おわり",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "終わり",
+      "furiganaExpression": [
+        {
+          "text": "終",
+          "annotation": "お"
+        },
+        {
+          "text": "わり"
+        }
+      ],
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "終り",
+      "furiganaExpression": [
+        {
+          "text": "終",
+          "annotation": "おわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 14281
+    },
+    {
+      "kanjiExpression": "終",
+      "furiganaExpression": [
+        {
+          "text": "終",
+          "annotation": "おわり"
+        }
+      ],
+      "rank": 8513
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "end",
+        "ending",
+        "close",
+        "conclusion",
+        "end of (one\u0027s) life",
+        "death"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "einde",
+        "slot",
+        "afloop"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ende",
+        "Schluss",
+        "Abschluss",
+        "Ausgang"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vége"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "конец",
+        "конец, окончание, финал",
+        "{～の} конечный, последний, финальный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "konec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fin"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "slut"
+      ]
+    }
+  ]
+}

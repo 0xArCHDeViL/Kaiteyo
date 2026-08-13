@@ -1,0 +1,103 @@
+{
+  "id": "1588430",
+  "readings": [
+    {
+      "kanaExpression": "うめたてち",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "埋め立て地",
+      "furiganaExpression": [
+        {
+          "text": "埋",
+          "annotation": "う"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "埋立地",
+      "furiganaExpression": [
+        {
+          "text": "埋",
+          "annotation": "うめ"
+        },
+        {
+          "text": "立",
+          "annotation": "たて"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "埋立て地",
+      "furiganaExpression": [
+        {
+          "text": "埋",
+          "annotation": "うめ"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reclaimed land"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "teruggewonnen land",
+        "aangedijkte gronden",
+        "ingepolderd gebied",
+        "droogmakerij",
+        "landaanwinst",
+        "inpoldering",
+        "{i.h.b.} herwonnen stortterrein"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufgeschüttetes Land",
+        "aufgeschüttetes Gelände"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "осушенный участок (напр. болота); участок земли, созданный путём поднятия грунта (напр. на месте прибрежной части моря)"
+      ]
+    }
+  ]
+}

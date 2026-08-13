@@ -1,0 +1,66 @@
+{
+  "id": "1678770",
+  "readings": [
+    {
+      "kanaExpression": "うしろゆび",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "後ろ指",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "うし"
+        },
+        {
+          "text": "ろ"
+        },
+        {
+          "text": "指",
+          "annotation": "ゆび"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "後指",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "うしろ"
+        },
+        {
+          "text": "指",
+          "annotation": "ゆび"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "criticizing someone behind their back",
+        "backbiting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{～を指される} met de vinger nagewezen worden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heimlich auf jmdn. gerichteter Finger"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:) 後指を差す дурно отзываться (злословить) (о ком-л.)"
+      ]
+    }
+  ]
+}

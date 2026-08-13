@@ -1,0 +1,79 @@
+{
+  "id": "1261000",
+  "readings": [
+    {
+      "kanaExpression": "もとじめ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "元締め",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "もと"
+        },
+        {
+          "text": "締",
+          "annotation": "じ"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "元締",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "もと"
+        },
+        {
+          "text": "締",
+          "annotation": "じめ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "manager",
+        "controller",
+        "administrator",
+        "chief treasurer",
+        "boss (of a gambling den)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verwalter",
+        "Geschäftsführer",
+        "Kassenführer",
+        "Kassenwart",
+        "Schatzmeister",
+        "Boss",
+        "Chef",
+        "Anführer",
+        "Haupt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fejes",
+        "frankó",
+        "ellenőr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прост.) хозяин; главный, босс"
+      ]
+    }
+  ]
+}

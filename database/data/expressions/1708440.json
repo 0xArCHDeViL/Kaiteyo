@@ -1,0 +1,66 @@
+{
+  "id": "1708440",
+  "readings": [
+    {
+      "kanaExpression": "そうあたり",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "総当たり",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "当",
+          "annotation": "あ"
+        },
+        {
+          "text": "たり"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "総当り",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "当",
+          "annotation": "あた"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "round robin",
+        "having no losing tickets (of a lottery)",
+        "brute force (in cryptography)",
+        "using all combinations"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sportt.} round robin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wettkampfsystem, bei dem jeder einmal gegen jeden anderen antritt",
+        "Verlosen ohne Nieten"
+      ]
+    }
+  ]
+}

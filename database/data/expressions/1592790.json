@@ -1,0 +1,75 @@
+{
+  "id": "1592790",
+  "readings": [
+    {
+      "kanaExpression": "げこくじょう",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "下克上",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "げ"
+        },
+        {
+          "text": "克",
+          "annotation": "こく"
+        },
+        {
+          "text": "上",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "下剋上",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "げ"
+        },
+        {
+          "text": "剋",
+          "annotation": "こく"
+        },
+        {
+          "text": "上",
+          "annotation": "じょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "juniors dominating seniors",
+        "inferiors overthrowing their superiors",
+        "retainer supplanting his lord"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "omgekeerde wereld",
+        "toestand waarbij de ondergeschikten de baas over de meerderen worden",
+        "± daar is booi baas"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überheblichkeit eines Untergebenen seinem Vorgesetzten gegenüber",
+        "Umkehrung der ursprünglichen Machtverhältnisse"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ист.) низший подавляет высшего (в традиционной историографии о гражданских войнах и классовых битвах в эпоху Муромати)"
+      ]
+    }
+  ]
+}

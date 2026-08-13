@@ -1,0 +1,81 @@
+{
+  "id": "1255730",
+  "readings": [
+    {
+      "kanaExpression": "げっしょく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "月食",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "げっ"
+        },
+        {
+          "text": "食",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "月蝕",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "げっ"
+        },
+        {
+          "text": "蝕",
+          "annotation": "しょく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lunar eclipse"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maansverduistering",
+        "maaneclips"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "éclipse de lune"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mondfinsternis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "holdfogyatkozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лунное затмение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "eclipse lunar"
+      ]
+    }
+  ]
+}

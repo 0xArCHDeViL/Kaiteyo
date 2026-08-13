@@ -1,0 +1,103 @@
+{
+  "id": "1656420",
+  "readings": [
+    {
+      "kanaExpression": "ひやとい",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "日雇い",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "雇",
+          "annotation": "やと"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "日雇",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "雇",
+          "annotation": "やとい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "日傭い",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "傭",
+          "annotation": "やと"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "日傭",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "傭",
+          "annotation": "やとい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "daily employment",
+        "hiring by the day",
+        "day laborer",
+        "day labourer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dagloner",
+        "daggelder",
+        "los arbeider",
+        "dagbetrekking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tagesarbeit",
+        "Tagelöhner",
+        "Gelegenheitsarbeiter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) подённая работа",
+        "2) подёнщик"
+      ]
+    }
+  ]
+}

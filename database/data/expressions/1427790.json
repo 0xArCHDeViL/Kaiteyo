@@ -1,0 +1,79 @@
+{
+  "id": "1427790",
+  "readings": [
+    {
+      "kanaExpression": "はりこみ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "張り込み",
+      "furiganaExpression": [
+        {
+          "text": "張",
+          "annotation": "は"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "張込み",
+      "furiganaExpression": [
+        {
+          "text": "張",
+          "annotation": "はり"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stakeout",
+        "ambush",
+        "cordon",
+        "lookout",
+        "watch",
+        "paste-up",
+        "collage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bewachung",
+        "Observierung",
+        "Beschattung",
+        "Einkleben",
+        "Eingeklebtes",
+        "große Ausgabe",
+        "teure Anschaffung",
+        "Einschüchtern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подкарауливание; засада",
+        "{～する} подкарауливать; устраивать засаду"
+      ]
+    }
+  ]
+}

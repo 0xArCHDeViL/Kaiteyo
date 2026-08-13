@@ -1,0 +1,135 @@
+{
+  "id": "1595820",
+  "readings": [
+    {
+      "kanaExpression": "すりきず",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "さっしょう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "擦り傷",
+      "furiganaExpression": [
+        {
+          "text": "擦",
+          "annotation": "す"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "傷",
+          "annotation": "きず"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "すり傷",
+      "furiganaExpression": [
+        {
+          "text": "すり"
+        },
+        {
+          "text": "傷",
+          "annotation": "きず"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "擦傷",
+      "furiganaExpression": [
+        {
+          "text": "擦",
+          "annotation": "すり"
+        },
+        {
+          "text": "傷",
+          "annotation": "きず"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "擦り疵",
+      "furiganaExpression": [
+        {
+          "text": "擦",
+          "annotation": "す"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "疵",
+          "annotation": "きず"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "擦疵",
+      "furiganaExpression": [
+        {
+          "text": "擦",
+          "annotation": "すり"
+        },
+        {
+          "text": "疵",
+          "annotation": "きず"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scratch",
+        "graze",
+        "abrasion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schram",
+        "krab",
+        "kras"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "écorchure (peau)",
+        "éraflure",
+        "rayure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schramme",
+        "Kratzer",
+        "Hautabschürfung",
+        "Abschürfung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "horzsolás",
+        "karcolás",
+        "vakarás",
+        "morzsolódás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) ссадина, царапина",
+        "ссадина, царапина"
+      ]
+    }
+  ]
+}

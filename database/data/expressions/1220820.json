@@ -1,0 +1,75 @@
+{
+  "id": "1220820",
+  "readings": [
+    {
+      "kanaExpression": "きかいか",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "機械化",
+      "furiganaExpression": [
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "械",
+          "annotation": "かい"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mechanization",
+        "mechanisation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mechaniseren",
+        "machinaliseren",
+        "mechanisatie",
+        "mechanisering",
+        "machinalisering",
+        "machinalisatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mécanisation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mechanisieren",
+        "automatisieren",
+        "Mechanisierung",
+        "Motorisierung (des Militärs)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "механизация",
+        "{～する} механизировать; оснащать машинами"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mekanisering"
+      ]
+    }
+  ]
+}

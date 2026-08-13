@@ -1,0 +1,58 @@
+{
+  "id": "1378220",
+  "readings": [
+    {
+      "kanaExpression": "せいしゅ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "清酒",
+      "furiganaExpression": [
+        {
+          "text": "清",
+          "annotation": "せい"
+        },
+        {
+          "text": "酒",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "refined sake"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "klare sake",
+        "verfijnde sake",
+        "Japanse sake"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "saké"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feiner Sake",
+        "raffinierter Sake"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[очищенное] сакэ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "1229660",
+  "readings": [
+    {
+      "kanaExpression": "なきじゃくる",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "泣きじゃくる",
+      "furiganaExpression": [
+        {
+          "text": "泣",
+          "annotation": "な"
+        },
+        {
+          "text": "きじゃくる"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "泣き噦る",
+      "furiganaExpression": [
+        {
+          "text": "泣",
+          "annotation": "な"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "噦",
+          "annotation": "じゃく"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to sob",
+        "to never stop crying",
+        "to cry on and on"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schluchzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elzokog vmit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "всхлипывать"
+      ]
+    }
+  ]
+}

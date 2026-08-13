@@ -1,0 +1,102 @@
+{
+  "id": "1533440",
+  "readings": [
+    {
+      "kanaExpression": "めんかい",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "面会",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "めん"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 10720
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "meeting (face-to-face)",
+        "seeing",
+        "visit",
+        "interview"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontmoeten",
+        "bezoeken",
+        "te zien krijgen",
+        "een onderhoud hebben",
+        "ontmoeting",
+        "bezoek",
+        "onderhoud",
+        "interview"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "audience",
+        "entrevue",
+        "visite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jmdn. sprechen",
+        "jmdn. besuchen",
+        "jmdn. sehen",
+        "sich unterreden",
+        "Gespräch",
+        "Unterredung",
+        "Besprechung",
+        "Besuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "interjú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "свидание, встреча",
+        "{～する} встречаться, иметь встречу; принять, быть принятым"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "intervju",
+        "pogovor za javnost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reunión (en persona)",
+        "entrevista",
+        "encuentro"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "intervju"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "1537660",
+  "readings": [
+    {
+      "kanaExpression": "のら",
+      "rank": 13254
+    },
+    {
+      "kanjiExpression": "野良",
+      "furiganaExpression": [
+        {
+          "text": "野",
+          "annotation": "の"
+        },
+        {
+          "text": "良",
+          "annotation": "ら"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "field",
+        "farm",
+        "stray (dog, cat, etc.)",
+        "stranger (in an online multiplayer game)",
+        "random player",
+        "playing with strangers"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "veld",
+        "land",
+        "akker",
+        "akkerland",
+        "akkerveld",
+        "bouwland",
+        "bouwveld",
+        "{Belg.N.} kouter",
+        "boeren-",
+        "akker-",
+        "veld-",
+        "{i.h.b.} zwerf-"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Acker",
+        "Feld"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "falusi",
+        "mezőgazdasági"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поле (обработанное)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1487600",
+  "readings": [
+    {
+      "kanaExpression": "ひっちゃく",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "必着",
+      "furiganaExpression": [
+        {
+          "text": "必",
+          "annotation": "ひっ"
+        },
+        {
+          "text": "着",
+          "annotation": "ちゃく"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "must arrive",
+        "must be received"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "doit être reçu",
+        "doit arriver"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "etw., das unbedingt bis zu einem bestimmten Termin ankommen muss (Brief etc.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entrega (arribo) imprescindible"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "1332760",
+  "readings": [
+    {
+      "kanaExpression": "おえる",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "終える",
+      "furiganaExpression": [
+        {
+          "text": "終",
+          "annotation": "お"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 1966
+    },
+    {
+      "kanjiExpression": "了える",
+      "furiganaExpression": [
+        {
+          "text": "了",
+          "annotation": "お"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "卒える",
+      "furiganaExpression": [
+        {
+          "text": "卒",
+          "annotation": "お"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to finish",
+        "to graduate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eindigen",
+        "aflopen",
+        "ophouden",
+        "stoppen",
+        "beëindigen",
+        "ten einde brengen",
+        "afmaken",
+        "afdoen",
+        "afwerken",
+        "voltooien",
+        "voleinden",
+        "completeren",
+        "een einde maken aan",
+        "volbrengen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "achever",
+        "finir",
+        "terminer",
+        "obtenir son diplôme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(Studium, Schule) abschließen",
+        "beenden",
+        "graduieren",
+        "abschließen",
+        "vollenden",
+        "erledigen",
+        "fertig stellen",
+        "zu Ende bringen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eldolgoz",
+        "véget vet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кончать, заканчивать; завершать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "finalizar"
+      ]
+    }
+  ]
+}

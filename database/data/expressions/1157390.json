@@ -1,0 +1,53 @@
+{
+  "id": "1157390",
+  "readings": [
+    {
+      "kanaExpression": "かわせそうば",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "為替相場",
+      "furiganaExpression": [
+        {
+          "text": "為替",
+          "annotation": "かわせ"
+        },
+        {
+          "text": "相",
+          "annotation": "そう"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exchange rates"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wechselkurs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "валютный (обменный) курс"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tasa de cambio"
+      ]
+    }
+  ]
+}

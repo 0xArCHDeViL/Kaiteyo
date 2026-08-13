@@ -1,0 +1,52 @@
+{
+  "id": "1942010",
+  "readings": [
+    {
+      "kanaExpression": "たんじゅんへいきん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "単純平均",
+      "furiganaExpression": [
+        {
+          "text": "単",
+          "annotation": "たん"
+        },
+        {
+          "text": "純",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "平",
+          "annotation": "へい"
+        },
+        {
+          "text": "均",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "simple average",
+        "arithmetic average"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "arithmetischer Mittelwert"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyszerű átlag"
+      ]
+    }
+  ]
+}

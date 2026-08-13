@@ -1,0 +1,50 @@
+{
+  "id": "1347950",
+  "readings": [
+    {
+      "kanaExpression": "こがね",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "小金",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "金",
+          "annotation": "がね"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small sum of money"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleine Geldsumme",
+        "kleines Vermögen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) малая сумма денег; небольшой капиталец"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "penningsumma"
+      ]
+    }
+  ]
+}

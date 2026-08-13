@@ -1,0 +1,91 @@
+{
+  "id": "1315750",
+  "readings": [
+    {
+      "kanaExpression": "もてあます",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "持て余す",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "余",
+          "annotation": "あま"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "持てあます",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "てあます"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "もて余す",
+      "furiganaExpression": [
+        {
+          "text": "もて"
+        },
+        {
+          "text": "余",
+          "annotation": "あま"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be too much for one",
+        "to find unmanageable",
+        "to be beyond one\u0027s control",
+        "to not know what to do with"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nicht wissen, mit etw. umzugehen",
+        "einem zu viel sein",
+        "mehr sein, als man vertragen kann"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) не знать, что делать (с чем-л.), не справляться (с чем-л.); находить (кого-л.) неподдающимся влиянию (трудновоспитуемым); оказаться не по силам (кому-л.)",
+        "2) иметь слишком много (чего-л.), не справляться, быть обременённым количеством (чего-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ser demasiado para uno",
+        "encontrar inmanejable",
+        "estar más allá del control de uno",
+        "no saber qué hacer con"
+      ]
+    }
+  ]
+}

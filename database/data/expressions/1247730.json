@@ -1,0 +1,51 @@
+{
+  "id": "1247730",
+  "readings": [
+    {
+      "kanaExpression": "ぐんか",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "軍歌",
+      "furiganaExpression": [
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "war song"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "krijgslied"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegslied",
+        "Militärlied",
+        "Soldatenlied"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "солдатская песня"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "1311200",
+  "readings": [
+    {
+      "kanaExpression": "わたしじしん",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "わたくしじしん"
+    },
+    {
+      "kanjiExpression": "私自身",
+      "furiganaExpression": [
+        {
+          "text": "私",
+          "annotation": "わたし"
+        },
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "身",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "myself"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "moi-même",
+        "soi-même"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ich persönlich"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "jag själv",
+        "mig själv"
+      ]
+    }
+  ]
+}

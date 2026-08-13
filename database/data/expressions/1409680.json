@@ -1,0 +1,134 @@
+{
+  "id": "1409680",
+  "readings": [
+    {
+      "kanaExpression": "からだつき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "体つき",
+      "furiganaExpression": [
+        {
+          "text": "体",
+          "annotation": "からだ"
+        },
+        {
+          "text": "つき"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "体付き",
+      "furiganaExpression": [
+        {
+          "text": "体",
+          "annotation": "からだ"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "身体つき",
+      "furiganaExpression": [
+        {
+          "text": "身体",
+          "annotation": "からだ"
+        },
+        {
+          "text": "つき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "身体付き",
+      "furiganaExpression": [
+        {
+          "text": "身体",
+          "annotation": "からだ"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "body build",
+        "figure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lichaamsbouw",
+        "lichaamsgestel",
+        "bouw",
+        "figuur",
+        "fysiek",
+        "{Belg.N.",
+        "spreekt.} carrure"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ligne",
+        "physique",
+        "silhouette"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gestalt",
+        "Körperhaltung",
+        "Haltung",
+        "Positur",
+        "Stellung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "diagram",
+        "illusztráció",
+        "termet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "телосложение, фигура"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "postava",
+        "zgradba telesa"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "físico",
+        "fisonomía"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1303310",
+  "readings": [
+    {
+      "kanaExpression": "さんげき",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "惨劇",
+      "furiganaExpression": [
+        {
+          "text": "惨",
+          "annotation": "さん"
+        },
+        {
+          "text": "劇",
+          "annotation": "げき"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tragedy",
+        "tragic event"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tragödie",
+        "tragische Begebenheit",
+        "schreckliches Ereignis",
+        "Gräuel",
+        "Katastrophe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tragédia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(театр. и перен.) трагедия"
+      ]
+    }
+  ]
+}

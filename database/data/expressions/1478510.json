@@ -1,0 +1,68 @@
+{
+  "id": "1478510",
+  "readings": [
+    {
+      "kanaExpression": "はんがん",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "ほうがん",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "じょう",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "ぞう",
+      "rank": 9182
+    },
+    {
+      "kanjiExpression": "判官",
+      "furiganaExpression": [
+        {
+          "text": "判",
+          "annotation": "はん"
+        },
+        {
+          "text": "官",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "judge",
+        "magistrate",
+        "3rd grade official (ritsuryō system)",
+        "assistant district officer",
+        "inspector"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dritter Rang in der Verwaltung (nach dem Ritsuryō-System)",
+        "Richter (insbes. ein Titel in der Heian-Zeit)",
+        "Richter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bíró",
+        "szakértő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) судья"
+      ]
+    }
+  ]
+}

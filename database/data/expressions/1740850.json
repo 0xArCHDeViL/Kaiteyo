@@ -1,0 +1,49 @@
+{
+  "id": "1740850",
+  "readings": [
+    {
+      "kanaExpression": "ふくちじ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "副知事",
+      "furiganaExpression": [
+        {
+          "text": "副",
+          "annotation": "ふく"
+        },
+        {
+          "text": "知",
+          "annotation": "ち"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vice-governor",
+        "deputy governor",
+        "lieutenant governor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vize-Gouverneur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вице-губернатор"
+      ]
+    }
+  ]
+}

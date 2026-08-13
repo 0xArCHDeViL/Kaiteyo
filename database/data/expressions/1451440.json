@@ -1,0 +1,71 @@
+{
+  "id": "1451440",
+  "readings": [
+    {
+      "kanaExpression": "どうてき",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "動的",
+      "furiganaExpression": [
+        {
+          "text": "動",
+          "annotation": "どう"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 12497
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dynamic",
+        "kinetic"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dynamisch",
+        "kinetisch"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dynamisch",
+        "bewegend",
+        "kinetisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dinamikai",
+        "dinamikus",
+        "tetterős",
+        "kinetikai",
+        "kinetikus",
+        "mozgási"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "динамический; кинетический"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dinámico",
+        "avivado"
+      ]
+    }
+  ]
+}

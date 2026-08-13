@@ -1,0 +1,74 @@
+{
+  "id": "1678060",
+  "readings": [
+    {
+      "kanaExpression": "こうじょうしょ"
+    },
+    {
+      "kanaExpression": "こうじょうがき",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "口上書",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "こう"
+        },
+        {
+          "text": "上",
+          "annotation": "じょう"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "口上書き",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "こう"
+        },
+        {
+          "text": "上",
+          "annotation": "じょう"
+        },
+        {
+          "text": "書",
+          "annotation": "が"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "verbal note (notes verbale)",
+        "written statement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Niederschrift einer mündlichen Erklärung",
+        "Verbalnote",
+        "Gerichtsmitschrift (in der Edo-Zeit)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(дип.) вербальная нота",
+        "вербальная нота"
+      ]
+    }
+  ]
+}

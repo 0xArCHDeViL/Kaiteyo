@@ -1,0 +1,77 @@
+{
+  "id": "1160110",
+  "readings": [
+    {
+      "kanaExpression": "いやくひん",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "医薬品",
+      "furiganaExpression": [
+        {
+          "text": "医",
+          "annotation": "い"
+        },
+        {
+          "text": "薬",
+          "annotation": "やく"
+        },
+        {
+          "text": "品",
+          "annotation": "ひん"
+        }
+      ],
+      "rank": 6789
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "medical and pharmaceutical products",
+        "medicinal supplies",
+        "drugs",
+        "pharmaceuticals",
+        "medicine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "farmaceutica",
+        "geneesmiddelen",
+        "medicijnen",
+        "medicamenten",
+        "medische artikelen",
+        "artsenijen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "médicament",
+        "produit pharmaceutique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Medikament",
+        "Arzneimittel",
+        "Pharmazeutikum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "медикаменты, лечебные средства"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "suministros médicos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "1314370",
+  "readings": [
+    {
+      "kanaExpression": "じむじかん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "事務次官",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 16500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "permanent vice-president",
+        "undersecretary",
+        "vice-minister"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{Jap.pol.} ± secretaris-generaal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beamteter Staatssekretär"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "постоянный заместитель министра"
+      ]
+    }
+  ]
+}

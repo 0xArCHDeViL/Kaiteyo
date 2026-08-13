@@ -1,0 +1,69 @@
+{
+  "id": "1273700",
+  "readings": [
+    {
+      "kanaExpression": "こうさい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "公債",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "債",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 11410
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public debt",
+        "public bond",
+        "government securities"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "staatslening",
+        "staatsfonds",
+        "staatspapier",
+        "overheidsobligatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Anleihe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "államadósság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) [государственный] заём",
+        "2) облигации [государственного] займа"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "deuda pública",
+        "bonos del Estado",
+        "obligaciones del Estado"
+      ]
+    }
+  ]
+}

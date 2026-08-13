@@ -1,0 +1,53 @@
+{
+  "id": "1538260",
+  "readings": [
+    {
+      "kanaExpression": "やくそう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "薬草",
+      "furiganaExpression": [
+        {
+          "text": "薬",
+          "annotation": "やく"
+        },
+        {
+          "text": "草",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "medicinal herb"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geneeskrachtige plant",
+        "kruiden",
+        "medicinale plant",
+        "heelkruid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Heilkraut",
+        "(medizinische)Kräuter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лекарственные растения (травы)"
+      ]
+    }
+  ]
+}

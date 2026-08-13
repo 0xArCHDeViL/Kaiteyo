@@ -1,0 +1,69 @@
+{
+  "id": "2821500",
+  "readings": [
+    {
+      "kanaExpression": "ひと",
+      "rank": 1985
+    },
+    {
+      "kanaExpression": "ひ",
+      "rank": 22000
+    },
+    {
+      "kanaExpression": "ひい"
+    },
+    {
+      "kanjiExpression": "一",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        }
+      ],
+      "rank": 13000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "één",
+        "één rondje ~",
+        "wat",
+        "een beetje",
+        "{voorvoegsel dat de onbepaaldheid",
+        "vaagheid van het grondwoord suggereert}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eins",
+        "ein",
+        "einmal",
+        "ein wenig",
+        "kurz",
+        "ganz",
+        "1"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "один (при счёте)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "uno (1)"
+      ]
+    }
+  ]
+}

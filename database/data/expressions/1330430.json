@@ -1,0 +1,61 @@
+{
+  "id": "1330430",
+  "readings": [
+    {
+      "kanaExpression": "じゅきゅう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "需給",
+      "furiganaExpression": [
+        {
+          "text": "需",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 7458
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "supply and demand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "l\u0027offre et la demande"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachfrage und Angebot"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kínálat és kereslet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спрос и предложение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oferta y demanda"
+      ]
+    }
+  ]
+}

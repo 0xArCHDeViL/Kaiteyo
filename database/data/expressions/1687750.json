@@ -1,0 +1,64 @@
+{
+  "id": "1687750",
+  "readings": [
+    {
+      "kanaExpression": "どうじつうやく",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "同時通訳",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "時",
+          "annotation": "じ"
+        },
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "訳",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "simultaneous interpretation",
+        "simultaneous interpreting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "simultaanvertaling",
+        "het simultaan tolken",
+        "simultaantolk",
+        "simultaanvertaler"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Simultanübersetzung",
+        "Simultandolmetschen",
+        "Simultandolmetscher",
+        "simultan dolmetschen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "синхронный перевод"
+      ]
+    }
+  ]
+}

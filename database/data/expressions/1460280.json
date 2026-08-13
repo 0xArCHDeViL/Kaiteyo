@@ -1,0 +1,58 @@
+{
+  "id": "1460280",
+  "readings": [
+    {
+      "kanaExpression": "みなみぐち",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "南口",
+      "furiganaExpression": [
+        {
+          "text": "南",
+          "annotation": "みなみ"
+        },
+        {
+          "text": "口",
+          "annotation": "ぐち"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "south entrance",
+        "south exit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zuidingang",
+        "zuiduitgang"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "entrée sud"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Südeingang",
+        "Südausgang"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entrada sur"
+      ]
+    }
+  ]
+}

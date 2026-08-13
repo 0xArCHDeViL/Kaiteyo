@@ -1,0 +1,61 @@
+{
+  "id": "1641440",
+  "readings": [
+    {
+      "kanaExpression": "めんし",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "綿糸",
+      "furiganaExpression": [
+        {
+          "text": "綿",
+          "annotation": "めん"
+        },
+        {
+          "text": "糸",
+          "annotation": "し"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cotton yarn",
+        "cotton thread"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "katoengaren",
+        "katoendraad",
+        "katoenen garens",
+        "draad van katoen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Baumwollfaden",
+        "Baumwollgarn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cérna",
+        "pamutfonal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хлопчатобумажная пряжа"
+      ]
+    }
+  ]
+}

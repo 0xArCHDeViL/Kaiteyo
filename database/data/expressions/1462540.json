@@ -1,0 +1,48 @@
+{
+  "id": "1462540",
+  "readings": [
+    {
+      "kanaExpression": "ふたりづれ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "二人連れ",
+      "furiganaExpression": [
+        {
+          "text": "二人",
+          "annotation": "ふたり"
+        },
+        {
+          "text": "連",
+          "annotation": "づ"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "party of two"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Paar",
+        "Pärchen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пара (о людях)",
+        "{～で} вдвоём"
+      ]
+    }
+  ]
+}

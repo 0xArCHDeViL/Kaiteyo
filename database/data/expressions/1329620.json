@@ -1,0 +1,88 @@
+{
+  "id": "1329620",
+  "readings": [
+    {
+      "kanaExpression": "うけざら",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "受け皿",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "皿",
+          "annotation": "ざら"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "受皿",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "うけ"
+        },
+        {
+          "text": "皿",
+          "annotation": "ざら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "saucer",
+        "person (group, institution, etc.) to take over a position or matter",
+        "receptacle (e.g. of funds)",
+        "receiver"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schoteltje",
+        "theeschoteltje",
+        "{Belg.N.",
+        "spreekt.} ondertas",
+        "{fig.} instantie die de verantwoordelijkheid voor een project draagt"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "soucoupe",
+        "sous-tasse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Untertasse",
+        "Untersetzer",
+        "Übernahme einer Position oder Funktion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csészealj",
+        "gép alatti olajfelfogó tálca"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fat"
+      ]
+    }
+  ]
+}

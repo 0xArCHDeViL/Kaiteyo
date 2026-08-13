@@ -1,0 +1,72 @@
+{
+  "id": "1510870",
+  "readings": [
+    {
+      "kanaExpression": "へんい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "変移",
+      "furiganaExpression": [
+        {
+          "text": "変",
+          "annotation": "へん"
+        },
+        {
+          "text": "移",
+          "annotation": "い"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "change",
+        "alteration",
+        "transmutation",
+        "mutation"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "alteration",
+        "changement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verwandlung",
+        "Veränderung",
+        "verwandeln",
+        "verändern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átszállás",
+        "változás",
+        "változtatás",
+        "átalakítás",
+        "átalakulás",
+        "megváltozás",
+        "megváltoztatás",
+        "módosítás",
+        "módosulás",
+        "átváltozás",
+        "átváltoztatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "изменение; (хим.) конверсия"
+      ]
+    }
+  ]
+}

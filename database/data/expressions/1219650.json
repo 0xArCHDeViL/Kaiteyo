@@ -1,0 +1,89 @@
+{
+  "id": "1219650",
+  "readings": [
+    {
+      "kanaExpression": "よりみち",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "寄り道",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "寄道",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "より"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dropping in on the way",
+        "stopping off at",
+        "making a side trip",
+        "going the long way round",
+        "making a detour"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faire un détour"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einen Abstecher machen",
+        "einen Umweg machen",
+        "Umweg",
+        "Abstecher"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} заходить (заезжать) по пути"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vmesni postanek",
+        "iti spotoma nekam",
+        "nenadoma obiskati",
+        "nepričakovano obiskati",
+        "(pogovorno: vleteti)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "parada",
+        "escala"
+      ]
+    }
+  ]
+}

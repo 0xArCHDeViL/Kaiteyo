@@ -1,0 +1,85 @@
+{
+  "id": "1588420",
+  "readings": [
+    {
+      "kanaExpression": "うめあわせる",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "埋め合わせる",
+      "furiganaExpression": [
+        {
+          "text": "埋",
+          "annotation": "う"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせる"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "埋め合せる",
+      "furiganaExpression": [
+        {
+          "text": "埋",
+          "annotation": "う"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "合",
+          "annotation": "あわ"
+        },
+        {
+          "text": "せる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to make up for",
+        "to compensate for",
+        "to offset"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "compenseren",
+        "weer goed maken",
+        "vergoeden",
+        "schadeloosstellen",
+        "vereffenen",
+        "aanvullen",
+        "goedmaken",
+        "aanzuiveren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wiedergutmachen",
+        "ersetzen",
+        "kompensieren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возмещать, компенсировать"
+      ]
+    }
+  ]
+}

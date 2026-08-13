@@ -1,0 +1,97 @@
+{
+  "id": "1601490",
+  "readings": [
+    {
+      "kanaExpression": "ひきあてる",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "引き当てる",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "当",
+          "annotation": "あ"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "引当てる",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "当",
+          "annotation": "あ"
+        },
+        {
+          "text": "てる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "引当る",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "当",
+          "annotation": "あて"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to draw (the winning ticket)",
+        "to apply",
+        "to compare",
+        "to put (oneself in someone\u0027s position)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ziehen",
+        "anwenden",
+        "gebrauchen",
+        "vergleichen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felhord",
+        "felvisz",
+        "ráhelyez",
+        "ráilleszt"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aplicar",
+        "comparar"
+      ]
+    }
+  ]
+}

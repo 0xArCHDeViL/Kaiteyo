@@ -1,0 +1,66 @@
+{
+  "id": "1290030",
+  "readings": [
+    {
+      "kanaExpression": "ねざす",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "根ざす",
+      "furiganaExpression": [
+        {
+          "text": "根",
+          "annotation": "ね"
+        },
+        {
+          "text": "ざす"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "根差す",
+      "furiganaExpression": [
+        {
+          "text": "根",
+          "annotation": "ね"
+        },
+        {
+          "text": "差",
+          "annotation": "ざ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to come from",
+        "to have roots in"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wurzeln schlagen",
+        "wurzeln",
+        "entspringen",
+        "stammen",
+        "herkommen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) пускать корни",
+        "2) происходить, проистекать (откуда-л.)",
+        "3) обнаруживать (проявлять) симптомы ((заболевания))"
+      ]
+    }
+  ]
+}

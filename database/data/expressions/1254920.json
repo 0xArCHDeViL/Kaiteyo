@@ -1,0 +1,56 @@
+{
+  "id": "1254920",
+  "readings": [
+    {
+      "kanaExpression": "けっせつ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "結節",
+      "furiganaExpression": [
+        {
+          "text": "結",
+          "annotation": "けっ"
+        },
+        {
+          "text": "節",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "knot",
+        "nodule",
+        "tubercule",
+        "node"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Knoten",
+        "Knolle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csomó",
+        "csoport",
+        "csomócska"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "узел; (анат.) бугор, бугорок; (бот., мед.) узел, узелок, узелковое утолщение; нарост",
+        "{～のある} узловатый; бугорчатый"
+      ]
+    }
+  ]
+}

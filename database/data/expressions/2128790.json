@@ -1,0 +1,44 @@
+{
+  "id": "2128790",
+  "readings": [
+    {
+      "kanaExpression": "さいぼうない",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "細胞内",
+      "furiganaExpression": [
+        {
+          "text": "細",
+          "annotation": "さい"
+        },
+        {
+          "text": "胞",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "内",
+          "annotation": "ない"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inside the cell",
+        "intracellular"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "intrazellulär",
+        "intrazellular",
+        "innerhalb der Zelle"
+      ]
+    }
+  ]
+}

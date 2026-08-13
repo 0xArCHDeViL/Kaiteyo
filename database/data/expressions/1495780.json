@@ -1,0 +1,66 @@
+{
+  "id": "1495780",
+  "readings": [
+    {
+      "kanaExpression": "つけくわえ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "付け加え",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "加",
+          "annotation": "くわ"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "付加え",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つけ"
+        },
+        {
+          "text": "加",
+          "annotation": "くわ"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "addition (to something)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beifügung",
+        "Ergänzung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "добавление"
+      ]
+    }
+  ]
+}

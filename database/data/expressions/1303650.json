@@ -1,0 +1,113 @@
+{
+  "id": "1303650",
+  "readings": [
+    {
+      "kanaExpression": "さんばし",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "さんきょう"
+    },
+    {
+      "kanjiExpression": "桟橋",
+      "furiganaExpression": [
+        {
+          "text": "桟",
+          "annotation": "さん"
+        },
+        {
+          "text": "橋",
+          "annotation": "ばし"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "棧橋",
+      "furiganaExpression": [
+        {
+          "text": "棧",
+          "annotation": "さん"
+        },
+        {
+          "text": "橋",
+          "annotation": "ばし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wharf",
+        "bridge",
+        "jetty",
+        "pier"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "havenhoofd",
+        "havendam",
+        "pier",
+        "plankier",
+        "zeehoofd",
+        "landingsbrug",
+        "aanlegsteiger",
+        "aanlegplaats",
+        "steiger"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pont",
+        "quai"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hängebrücke",
+        "Landungsbrücke",
+        "Anlegebrücke",
+        "Pier",
+        "Landungssteg",
+        "Kai"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rakpart",
+        "kikötőgát",
+        "móló",
+        "négyszögletes fali pillér",
+        "pilaszter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пристань, причал"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nabrežje",
+        "pristan",
+        "pristaniški nasip"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "embarcadero",
+        "muelle"
+      ]
+    }
+  ]
+}

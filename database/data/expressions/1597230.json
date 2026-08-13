@@ -1,0 +1,81 @@
+{
+  "id": "1597230",
+  "readings": [
+    {
+      "kanaExpression": "たれまく",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "垂れ幕",
+      "furiganaExpression": [
+        {
+          "text": "垂",
+          "annotation": "た"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "幕",
+          "annotation": "まく"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "垂幕",
+      "furiganaExpression": [
+        {
+          "text": "垂",
+          "annotation": "たれ"
+        },
+        {
+          "text": "幕",
+          "annotation": "まく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hanging banner",
+        "hanging screen",
+        "curtain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "valgordijn",
+        "verticale banier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorhang",
+        "herabgelassener Vorhang",
+        "Sichtvorhang",
+        "Hängebanner"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bástyakör",
+        "kerítésfal",
+        "kulcslyukpajzs",
+        "kurtina",
+        "szádfal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[свешивающийся] занавес"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "1350230",
+  "readings": [
+    {
+      "kanaExpression": "しょうしつ",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "消失",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "失",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 12655
+    },
+    {
+      "kanjiExpression": "銷失",
+      "furiganaExpression": [
+        {
+          "text": "銷",
+          "annotation": "しょう"
+        },
+        {
+          "text": "失",
+          "annotation": "しつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "disappearance",
+        "vanishing",
+        "loss",
+        "dying away",
+        "wearing off"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verdwijning",
+        "het minder worden",
+        "vervaging",
+        "het verloren gaan",
+        "het tenietgaan",
+        "{farm.} het uitgewerkt raken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vergehen",
+        "Verschwinden",
+        "Verlorengehen",
+        "vergehen",
+        "verloren gehen",
+        "verschwinden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) исчезновение; пропажа",
+        "{～する} исчезать, пропадать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "extinguirse",
+        "desaparecer"
+      ]
+    }
+  ]
+}

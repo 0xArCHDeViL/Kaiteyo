@@ -1,0 +1,69 @@
+{
+  "id": "1717060",
+  "readings": [
+    {
+      "kanaExpression": "ちょうりし",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "調理師",
+      "furiganaExpression": [
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "licensed chef",
+        "qualified cook"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "diplomierter Koch",
+        "lizenzierter Koch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "konyhafőnök",
+        "séf"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kuhar"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "chef",
+        "cocinero"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "köksmästare"
+      ]
+    }
+  ]
+}

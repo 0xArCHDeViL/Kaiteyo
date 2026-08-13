@@ -1,0 +1,78 @@
+{
+  "id": "1273330",
+  "readings": [
+    {
+      "kanaExpression": "こうかいどう",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "公会堂",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "堂",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "town hall",
+        "public hall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stadshal",
+        "gemeenschapscentrum",
+        "gemeenschapshuis",
+        "wijkcentrum",
+        "wijkgebouw",
+        "buurtcentrum",
+        "buurthuis",
+        "dorpshuis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "salle des fêtes",
+        "salle municipale",
+        "salle publique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stadthalle",
+        "öffentliche Halle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tanácsháza",
+        "városháza"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) дом собраний (для съездов, митингов, приёмов и т. п.); клуб (здание)",
+        "2) конференц-зал"
+      ]
+    }
+  ]
+}

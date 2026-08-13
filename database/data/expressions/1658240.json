@@ -1,0 +1,67 @@
+{
+  "id": "1658240",
+  "readings": [
+    {
+      "kanaExpression": "とまり",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "止まり",
+      "furiganaExpression": [
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "まり"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stop",
+        "stoppage",
+        "end"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Halt",
+        "Stopp",
+        "Ende",
+        "Endstation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dugulás",
+        "elállítás",
+        "fennakadás",
+        "leállás",
+        "leállítás",
+        "megállás",
+        "megállítás",
+        "meggátlás",
+        "megszüntetés",
+        "székrekedés",
+        "szünet",
+        "befejezés",
+        "célkitűzés",
+        "vég"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) остановка",
+        "2) конечная остановка; конец"
+      ]
+    }
+  ]
+}

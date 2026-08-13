@@ -1,0 +1,43 @@
+{
+  "id": "1551000",
+  "readings": [
+    {
+      "kanaExpression": "りくうん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "陸運",
+      "furiganaExpression": [
+        {
+          "text": "陸",
+          "annotation": "りく"
+        },
+        {
+          "text": "運",
+          "annotation": "うん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "land transportation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Landtransport"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перевозки сухим путём, транспортировка сушей"
+      ]
+    }
+  ]
+}

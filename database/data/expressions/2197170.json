@@ -1,0 +1,43 @@
+{
+  "id": "2197170",
+  "readings": [
+    {
+      "kanaExpression": "そのうちに",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "その内に",
+      "furiganaExpression": [
+        {
+          "text": "その"
+        },
+        {
+          "text": "内",
+          "annotation": "うち"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "before very long",
+        "soon",
+        "someday",
+        "one of these days",
+        "sooner or later"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скоро; когда-нибудь; со временем"
+      ]
+    }
+  ]
+}

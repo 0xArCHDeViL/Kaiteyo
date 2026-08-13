@@ -1,0 +1,50 @@
+{
+  "id": "1468840",
+  "readings": [
+    {
+      "kanaExpression": "ねんしょ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "年初",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "初",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beginning of the year"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jaarbegin",
+        "begin van het jaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jahresanfang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "начало года"
+      ]
+    }
+  ]
+}

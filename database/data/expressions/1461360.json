@@ -1,0 +1,43 @@
+{
+  "id": "1461360",
+  "readings": [
+    {
+      "kanaExpression": "にいん",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "二院",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "院",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the two houses of legislature"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zwei Kammern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "две палаты (парламента)"
+      ]
+    }
+  ]
+}

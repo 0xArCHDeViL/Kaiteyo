@@ -1,0 +1,47 @@
+{
+  "id": "1248410",
+  "readings": [
+    {
+      "kanaExpression": "ぐんじゅ",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "軍需",
+      "furiganaExpression": [
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "需",
+          "annotation": "じゅ"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "munitions",
+        "military stores"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} militaire behoeften",
+        "oorlogsbehoeften",
+        "krijgsbehoeften"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegsbedarf",
+        "Militärbedarf"
+      ]
+    }
+  ]
+}

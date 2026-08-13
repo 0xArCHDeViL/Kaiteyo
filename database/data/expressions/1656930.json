@@ -1,0 +1,56 @@
+{
+  "id": "1656930",
+  "readings": [
+    {
+      "kanaExpression": "ちゃくしゅつ",
+      "rank": 25000
+    },
+    {
+      "kanaExpression": "てきしゅつ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "嫡出",
+      "furiganaExpression": [
+        {
+          "text": "嫡",
+          "annotation": "ちゃく"
+        },
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "legitimate birth"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Legitimität",
+        "Ehelichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "legalitás",
+        "legitimitás",
+        "törvényesség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} законнорождённый"
+      ]
+    }
+  ]
+}

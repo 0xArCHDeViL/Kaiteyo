@@ -1,0 +1,81 @@
+{
+  "id": "1630660",
+  "readings": [
+    {
+      "kanaExpression": "けっせんとうひょう",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "決選投票",
+      "furiganaExpression": [
+        {
+          "text": "決",
+          "annotation": "けっ"
+        },
+        {
+          "text": "選",
+          "annotation": "せん"
+        },
+        {
+          "text": "投",
+          "annotation": "とう"
+        },
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "決戦投票",
+      "furiganaExpression": [
+        {
+          "text": "決",
+          "annotation": "けっ"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "投",
+          "annotation": "とう"
+        },
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "final vote",
+        "run-off ballot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stichwahl",
+        "entscheidende Abstimmung",
+        "letzter Wahlgang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заключительное (решающее) голосование"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voto decisivo"
+      ]
+    }
+  ]
+}

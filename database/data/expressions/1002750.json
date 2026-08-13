@@ -1,0 +1,116 @@
+{
+  "id": "1002750",
+  "readings": [
+    {
+      "kanaExpression": "おはなしちゅう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "お話し中",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "話",
+          "annotation": "はな"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "お話中",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "話",
+          "annotation": "はなし"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御話し中",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "話",
+          "annotation": "はな"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御話中",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "話",
+          "annotation": "はなし"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "busy (phone)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besetzt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elfoglalt",
+        "forgalmas",
+        "hekus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "занято (телефонный сигнал)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ocupado (al teléfono)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1233060",
+  "readings": [
+    {
+      "kanaExpression": "ぎょそん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "漁村",
+      "furiganaExpression": [
+        {
+          "text": "漁",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "村",
+          "annotation": "そん"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fishing village"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vissersdorp"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "village de pêcheurs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischerdorf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рыбачья деревня, рыбацкое село"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pueblo pesquero"
+      ]
+    }
+  ]
+}

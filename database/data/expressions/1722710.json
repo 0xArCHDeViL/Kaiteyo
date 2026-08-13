@@ -1,0 +1,53 @@
+{
+  "id": "1722710",
+  "readings": [
+    {
+      "kanaExpression": "ぶっせい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "物性",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶっ"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "physical properties",
+        "properties of matter",
+        "physicality"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eigenschaft der Materie",
+        "Material…"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "az anyag fizikai tulajdonságai",
+        "fizikai állapot"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "физическая природа (вещества, явления)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "1158310",
+  "readings": [
+    {
+      "kanaExpression": "いしょく",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "移植",
+      "furiganaExpression": [
+        {
+          "text": "移",
+          "annotation": "い"
+        },
+        {
+          "text": "植",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 5019
+    },
+    {
+      "kanjiExpression": "移殖",
+      "furiganaExpression": [
+        {
+          "text": "移",
+          "annotation": "い"
+        },
+        {
+          "text": "殖",
+          "annotation": "しょく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transplanting (a plant)",
+        "transplant",
+        "grafting",
+        "transplantation (of an organ, tissue, etc.)",
+        "embryo transfer",
+        "embryo transplant",
+        "porting (software)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} transplanteren",
+        "implanteren",
+        "{geneesk.} transplantatie",
+        "implantatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "greffe",
+        "transplantation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verpflanzen",
+        "auspflanzen",
+        "transplantieren",
+        "portieren",
+        "Verpflanzung",
+        "Auspflanzung",
+        "Inkulturation",
+        "Übernahme einer ausländischen Kultur",
+        "Transplantation",
+        "Organverpflanzung",
+        "Gewebeverpflanzung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пересадка, трансплантация",
+        "{～する} пересаживать (растения, живую ткань); производить трансплантацию"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "presaditev",
+        "transplantacija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "trasplante",
+        "implantación",
+        "injerto"
+      ]
+    }
+  ]
+}

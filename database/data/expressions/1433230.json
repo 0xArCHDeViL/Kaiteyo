@@ -1,0 +1,64 @@
+{
+  "id": "1433230",
+  "readings": [
+    {
+      "kanaExpression": "つうさん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "通算",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "算",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 11665
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "total",
+        "sum",
+        "aggregate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "totaalberekening",
+        "totaal",
+        "totaalbedrag",
+        "totaalcijfer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zusammenrechnen",
+        "summieren",
+        "Zusammenrechnen",
+        "Summieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "totális"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общая сумма, итог",
+        "{～する} подводить итог; суммировать; включать, засчитывать"
+      ]
+    }
+  ]
+}

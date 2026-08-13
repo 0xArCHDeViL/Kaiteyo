@@ -1,0 +1,67 @@
+{
+  "id": "1162680",
+  "readings": [
+    {
+      "kanaExpression": "いっさつ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "一冊",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "冊",
+          "annotation": "さつ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "１冊",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いっ"
+        },
+        {
+          "text": "冊",
+          "annotation": "さつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one copy (of a book, magazine, etc.)",
+        "one volume"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{本～} één boek",
+        "één exemplaar",
+        "{帳面～} één notitieboekje"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Band",
+        "ein Buch",
+        "ein Exemplar (eines Buches)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "una copia (ej. libro)"
+      ]
+    }
+  ]
+}

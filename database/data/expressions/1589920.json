@@ -1,0 +1,128 @@
+{
+  "id": "1589920",
+  "readings": [
+    {
+      "kanaExpression": "かきかえる",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "書き換える",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 12258
+    },
+    {
+      "kanjiExpression": "書換える",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "かき"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "書き替える",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "書きかえる",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "きかえる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to rewrite",
+        "to overwrite",
+        "to renew",
+        "to transfer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "umschreiben",
+        "überschreiben",
+        "ändern",
+        "verfälschen",
+        "erneuern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "újraír",
+        "felújul",
+        "áthelyez",
+        "átmásol",
+        "átruház",
+        "átszáll",
+        "átszállít",
+        "átutal",
+        "átvisz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) переписывать [заново]; написать иначе",
+        "2) возобновлять (документ в связи с истечением срока)",
+        "3) оформлять документом передачу (имущества и т. п. на чьё-л. имя)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reescribir",
+        "sobreescribir",
+        "renovar",
+        "transferir"
+      ]
+    }
+  ]
+}

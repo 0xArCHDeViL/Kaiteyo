@@ -1,0 +1,39 @@
+{
+  "id": "2112070",
+  "readings": [
+    {
+      "kanaExpression": "ゆらぎ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "揺らぎ",
+      "furiganaExpression": [
+        {
+          "text": "揺",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "らぎ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "quiver",
+        "quaver",
+        "flutter",
+        "statistical fluctuation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fluktuation"
+      ]
+    }
+  ]
+}

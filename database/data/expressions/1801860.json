@@ -1,0 +1,59 @@
+{
+  "id": "1801860",
+  "readings": [
+    {
+      "kanaExpression": "せんぽう",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "戦法",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "法",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tactics",
+        "strategy"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Taktik",
+        "Strategie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "harcászat",
+        "stratégia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "методы ведения войны; тактика, стратегия; план кампании"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "táctica",
+        "estrategia"
+      ]
+    }
+  ]
+}

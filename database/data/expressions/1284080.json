@@ -1,0 +1,69 @@
+{
+  "id": "1284080",
+  "readings": [
+    {
+      "kanaExpression": "ごうき",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "剛毅",
+      "furiganaExpression": [
+        {
+          "text": "剛",
+          "annotation": "ごう"
+        },
+        {
+          "text": "毅",
+          "annotation": "き"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "豪毅",
+      "furiganaExpression": [
+        {
+          "text": "豪",
+          "annotation": "ごう"
+        },
+        {
+          "text": "毅",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fortitude",
+        "firmness of character",
+        "sturdiness",
+        "inner strength",
+        "hardihood"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "innere Stärke",
+        "kühn",
+        "beherzt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bátorság",
+        "ellenállóképesség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～な} непреклонный, твёрдый"
+      ]
+    }
+  ]
+}

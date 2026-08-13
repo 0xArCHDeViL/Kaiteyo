@@ -1,0 +1,108 @@
+{
+  "id": "1590700",
+  "readings": [
+    {
+      "kanaExpression": "かるがるしい",
+      "rank": 33500
+    },
+    {
+      "kanaExpression": "かろがろしい"
+    },
+    {
+      "kanjiExpression": "軽々しい",
+      "furiganaExpression": [
+        {
+          "text": "軽",
+          "annotation": "かる"
+        },
+        {
+          "text": "々",
+          "annotation": "がる"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "軽軽しい",
+      "furiganaExpression": [
+        {
+          "text": "軽",
+          "annotation": "かる"
+        },
+        {
+          "text": "軽",
+          "annotation": "がる"
+        },
+        {
+          "text": "しい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rash",
+        "thoughtless",
+        "imprudent",
+        "careless",
+        "frivolous"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lichtvaardig",
+        "onbezonnen",
+        "roekeloos",
+        "onbesuisd",
+        "ondoordacht",
+        "onberaden",
+        "overhaastig",
+        "lichtzinnig",
+        "wuft",
+        "frivool",
+        "luchthartig",
+        "lichthartig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leichtsinnig",
+        "leichtfertig",
+        "fahrlässig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "figyelmetlen",
+        "meggondolatlan",
+        "szeleburdi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "легкомысленный, опрометчивый, необдуманный, неосторожный",
+        "(см.) かるがるしい"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "indiscreto",
+        "imprudente",
+        "descuidado",
+        "frívolo",
+        "ligero",
+        "negligente"
+      ]
+    }
+  ]
+}

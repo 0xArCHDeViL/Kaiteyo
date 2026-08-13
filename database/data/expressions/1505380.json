@@ -1,0 +1,54 @@
+{
+  "id": "1505380",
+  "readings": [
+    {
+      "kanaExpression": "ぶんごう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "文豪",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "豪",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "literary master"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "groot schrijver",
+        "letterkundige",
+        "letterheld",
+        "lettermeester"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dichterfürst",
+        "literarischer Großmeister",
+        "großer Dichter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) великий писатель"
+      ]
+    }
+  ]
+}

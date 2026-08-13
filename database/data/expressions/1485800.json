@@ -1,0 +1,61 @@
+{
+  "id": "1485800",
+  "readings": [
+    {
+      "kanaExpression": "おね",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "尾根",
+      "furiganaExpression": [
+        {
+          "text": "尾",
+          "annotation": "お"
+        },
+        {
+          "text": "根",
+          "annotation": "ね"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(mountain) ridge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bergkam",
+        "kam",
+        "bergrug",
+        "rug"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bergkamm",
+        "Grat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bakhát",
+        "taréj",
+        "sarkantyú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гребень [горы]"
+      ]
+    }
+  ]
+}

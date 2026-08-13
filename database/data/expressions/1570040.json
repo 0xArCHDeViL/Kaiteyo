@@ -1,0 +1,93 @@
+{
+  "id": "1570040",
+  "readings": [
+    {
+      "kanaExpression": "ろくに",
+      "rank": 13432
+    },
+    {
+      "kanjiExpression": "碌に",
+      "furiganaExpression": [
+        {
+          "text": "碌",
+          "annotation": "ろく"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "陸に",
+      "furiganaExpression": [
+        {
+          "text": "陸",
+          "annotation": "ろく"
+        },
+        {
+          "text": "に"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(not) well",
+        "(not) properly",
+        "(not) enough",
+        "(not) sufficiently",
+        "(not) satisfactorily",
+        "(not) decently"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(négatif avec -nai: rien, peu, à peine de quoi)",
+        "assez",
+        "bien",
+        "suffisament"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gut",
+        "richtig",
+        "ordentlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyesen",
+        "no de ilyet!",
+        "nos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "столько, сколько следует",
+        "как следует"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dosti",
+        "zadovoljivo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bien",
+        "debidamente"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "1200390",
+  "readings": [
+    {
+      "kanaExpression": "くい",
+      "rank": 5320
+    },
+    {
+      "kanjiExpression": "悔い",
+      "furiganaExpression": [
+        {
+          "text": "悔",
+          "annotation": "く"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "regret",
+        "repentance"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "regret",
+        "repentir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reue",
+        "Bedauern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megbánás",
+        "sajnálat"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "remordimiento",
+        "arrepentimiento"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1400540",
+  "readings": [
+    {
+      "kanaExpression": "そうてい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "漕艇",
+      "furiganaExpression": [
+        {
+          "text": "漕",
+          "annotation": "そう"
+        },
+        {
+          "text": "艇",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rowing",
+        "boating"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rudern (insbes. als sportlicher Wettkampf)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csónakázás",
+        "leszidás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гребля; управление лодкой"
+      ]
+    }
+  ]
+}

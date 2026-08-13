@@ -1,0 +1,72 @@
+{
+  "id": "1589990",
+  "readings": [
+    {
+      "kanaExpression": "かくいつ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "画一",
+      "furiganaExpression": [
+        {
+          "text": "画",
+          "annotation": "かく"
+        },
+        {
+          "text": "一",
+          "annotation": "いつ"
+        }
+      ],
+      "rank": 13773
+    },
+    {
+      "kanjiExpression": "劃一",
+      "furiganaExpression": [
+        {
+          "text": "劃",
+          "annotation": "かく"
+        },
+        {
+          "text": "一",
+          "annotation": "いつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "uniformity",
+        "standardization",
+        "standardisation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in gleicher Weise",
+        "einheitlich",
+        "Uniformität",
+        "Einheitlichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyformaság",
+        "egyöntetűség",
+        "szabványosítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "единообразие; унификация; стандартизация",
+        "{～に} единообразно",
+        "{～する} унифицировать; стандартизировать",
+        "{～的} единообразный; унифицированный; стандартный"
+      ]
+    }
+  ]
+}

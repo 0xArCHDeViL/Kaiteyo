@@ -1,0 +1,82 @@
+{
+  "id": "1583660",
+  "readings": [
+    {
+      "kanaExpression": "はださむい",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "はだざむい"
+    },
+    {
+      "kanjiExpression": "肌寒い",
+      "furiganaExpression": [
+        {
+          "text": "肌",
+          "annotation": "はだ"
+        },
+        {
+          "text": "寒",
+          "annotation": "さむ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "膚寒い",
+      "furiganaExpression": [
+        {
+          "text": "膚",
+          "annotation": "はだ"
+        },
+        {
+          "text": "寒",
+          "annotation": "さむ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chilly",
+        "unpleasantly cold"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "désagréablement froid",
+        "frais",
+        "frisquet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unangenehm kalt",
+        "kalt",
+        "erschaudern lassend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hűvös"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "холодно"
+      ]
+    }
+  ]
+}

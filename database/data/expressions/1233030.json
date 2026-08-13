@@ -1,0 +1,72 @@
+{
+  "id": "1233030",
+  "readings": [
+    {
+      "kanaExpression": "ぎょじょう",
+      "rank": 26000
+    },
+    {
+      "kanaExpression": "ぎょば"
+    },
+    {
+      "kanaExpression": "りょうば",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "漁場",
+      "furiganaExpression": [
+        {
+          "text": "漁",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "場",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fishing grounds",
+        "permitted fishing zone"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "visgrond",
+        "viswater",
+        "visplaats",
+        "visgebied",
+        "visserij"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "zone de pêche"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischgründe",
+        "Fanggrund",
+        "Fischereigewässer",
+        "Fanggebiet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "район рыбного промысла, рыбалка",
+        "(см.) ぎょば",
+        "(см.) ぎょじょう"
+      ]
+    }
+  ]
+}

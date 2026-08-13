@@ -1,0 +1,106 @@
+{
+  "id": "1340460",
+  "readings": [
+    {
+      "kanaExpression": "できるだけ",
+      "rank": 2065
+    },
+    {
+      "kanjiExpression": "出来るだけ",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "来",
+          "annotation": "き"
+        },
+        {
+          "text": "るだけ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "出来る丈",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "来",
+          "annotation": "き"
+        },
+        {
+          "text": "る"
+        },
+        {
+          "text": "丈",
+          "annotation": "だけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "as much as one can",
+        "as much as possible",
+        "if at all possible"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zo ~ mogelijk",
+        "voor zover het mogelijk is",
+        "zo ~ je kan",
+        "{Belg.N.} in de mate van het mogelijke"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "autant qu\u0027on peut",
+        "autant que possible",
+        "si possible"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "soweit es geht",
+        "soweit wie möglich"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "насколько возможно"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "čim več",
+        "čim bolj",
+        "kolikor je mogoče"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tanto como sea posible"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "om möjligt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1735120",
+  "readings": [
+    {
+      "kanaExpression": "てきち",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "敵地",
+      "furiganaExpression": [
+        {
+          "text": "敵",
+          "annotation": "てき"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "enemy territory",
+        "hostile place"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feindliches Gebiet",
+        "feindliches Territorium",
+        "auswärtiger Spielort",
+        "Platz der gegnerischen Mannschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "территория противника; вражеская земля"
+      ]
+    }
+  ]
+}

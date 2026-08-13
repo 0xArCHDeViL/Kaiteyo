@@ -1,0 +1,74 @@
+{
+  "id": "1514370",
+  "readings": [
+    {
+      "kanaExpression": "ほこう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "歩行",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "ほ"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 6347
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "walking",
+        "walk"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lopen",
+        "gaan",
+        "wandelen",
+        "te voet gaan",
+        "het wandelen",
+        "wandel",
+        "het gaan",
+        "gang",
+        "gaans",
+        "het lopen",
+        "loop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gehen",
+        "zu Fuß gehen",
+        "Gang",
+        "Gehen",
+        "Schritt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyaloglás",
+        "járás",
+        "séta",
+        "lépés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шаг; ходьба",
+        "{～する} ходить [пешком]"
+      ]
+    }
+  ]
+}

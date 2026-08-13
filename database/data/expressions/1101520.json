@@ -1,0 +1,50 @@
+{
+  "id": "1101520",
+  "readings": [
+    {
+      "kanaExpression": "パスワード",
+      "rank": 3940
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "password"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "password",
+        "paswoord",
+        "wachtwoord",
+        "toegangscode"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Passwort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jelszó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((англ.) password) (вчт.) пароль"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "contraseña (en el ordenador) (eng: password)"
+      ]
+    }
+  ]
+}

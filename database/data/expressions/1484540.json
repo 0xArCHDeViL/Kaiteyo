@@ -1,0 +1,65 @@
+{
+  "id": "1484540",
+  "readings": [
+    {
+      "kanaExpression": "ひばく",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "被爆",
+      "furiganaExpression": [
+        {
+          "text": "被",
+          "annotation": "ひ"
+        },
+        {
+          "text": "爆",
+          "annotation": "ばく"
+        }
+      ],
+      "rank": 11470
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "being bombed",
+        "being subjected to a nuclear bomb attack",
+        "being exposed to radiation from a nuclear bomb"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gebombardeerd worden",
+        "door een bombardement getroffen worden",
+        "door een atoombom gebombardeerd worden",
+        "{i.h.b.} aan atoombomstraling blootgesteld worden",
+        "het gebombardeerd worden",
+        "bombardement",
+        "bombardering",
+        "het gebombardeerd worden door een atoombom",
+        "atoombombardement",
+        "atoombombardering",
+        "{i.h.b.} blootstelling aan atoombomstraling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bombardiert werden",
+        "Opfer der Atombombe werden",
+        "Bombardiertwerden",
+        "Bombardiertwerden mit der Atombombe",
+        "Verstrahltwerden durch eine Atombombe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} подвергаться бомбёжке"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1182390",
+  "readings": [
+    {
+      "kanaExpression": "きみどり",
+      "rank": 34000
+    },
+    {
+      "kanaExpression": "おうりょく"
+    },
+    {
+      "kanjiExpression": "黄緑",
+      "furiganaExpression": [
+        {
+          "text": "黄",
+          "annotation": "き"
+        },
+        {
+          "text": "緑",
+          "annotation": "みどり"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "黃綠",
+      "furiganaExpression": [
+        {
+          "text": "黃",
+          "annotation": "き"
+        },
+        {
+          "text": "綠",
+          "annotation": "みどり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pea green",
+        "yellow-green"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geelgroen",
+        "geelachtig groen",
+        "lime",
+        "groengeel {\u003d de kleur █}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gelbliches Grün"
+      ]
+    }
+  ]
+}

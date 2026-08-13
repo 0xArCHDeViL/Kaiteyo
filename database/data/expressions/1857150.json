@@ -1,0 +1,50 @@
+{
+  "id": "1857150",
+  "readings": [
+    {
+      "kanaExpression": "あやまり",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "謝り",
+      "furiganaExpression": [
+        {
+          "text": "謝",
+          "annotation": "あやま"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "excuse",
+        "apology"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entschuldigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ürügy",
+        "bocsánatkérés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "извинение"
+      ]
+    }
+  ]
+}

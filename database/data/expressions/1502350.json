@@ -1,0 +1,45 @@
+{
+  "id": "1502350",
+  "readings": [
+    {
+      "kanaExpression": "ぶつもん",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "仏門",
+      "furiganaExpression": [
+        {
+          "text": "仏",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "門",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Buddhism",
+        "priesthood"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Buddhismus",
+        "buddhistisches Priestertum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "буддизм"
+      ]
+    }
+  ]
+}

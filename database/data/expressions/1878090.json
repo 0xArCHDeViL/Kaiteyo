@@ -1,0 +1,78 @@
+{
+  "id": "1878090",
+  "readings": [
+    {
+      "kanaExpression": "ごりやく",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "御利益",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "ご"
+        },
+        {
+          "text": "利",
+          "annotation": "り"
+        },
+        {
+          "text": "益",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "ご利益",
+      "furiganaExpression": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "利",
+          "annotation": "り"
+        },
+        {
+          "text": "益",
+          "annotation": "やく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "divine grace",
+        "divine favour",
+        "blessing",
+        "answer to a prayer",
+        "benefit",
+        "help"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "göttliche Hilfe",
+        "Gnade Gottes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "isten kegye",
+        "isten kegyelme",
+        "isteni kegyelem",
+        "isteni malaszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) りやく"
+      ]
+    }
+  ]
+}

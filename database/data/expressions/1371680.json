@@ -1,0 +1,69 @@
+{
+  "id": "1371680",
+  "readings": [
+    {
+      "kanaExpression": "みずびたし",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "水浸し",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "浸",
+          "annotation": "びた"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "水びたし",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "びたし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "submersion",
+        "inundation",
+        "being flooded"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "être inondé",
+        "être submergé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überschwemmung",
+        "Überflutung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "погружение [в воду]",
+        "{～になる} быть погружённым в воду; оказаться под водой; быть затопленным"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "1216710",
+  "readings": [
+    {
+      "kanaExpression": "まるぼん"
+    },
+    {
+      "kanaExpression": "まるほん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "丸本",
+      "furiganaExpression": [
+        {
+          "text": "丸",
+          "annotation": "まる"
+        },
+        {
+          "text": "本",
+          "annotation": "ぼん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reciter\u0027s book",
+        "complete set of books"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kompletter Satz der Werke (eines Autoren)",
+        "kompletter Text eines Jōruri"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(театр.)",
+        "1) книга с текстом гидаю",
+        "2) книга с полным текстом гидаю ((ант.) ぬきほん【抜き本】)"
+      ]
+    }
+  ]
+}

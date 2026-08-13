@@ -1,0 +1,68 @@
+{
+  "id": "1359470",
+  "readings": [
+    {
+      "kanaExpression": "しんと",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "信徒",
+      "furiganaExpression": [
+        {
+          "text": "信",
+          "annotation": "しん"
+        },
+        {
+          "text": "徒",
+          "annotation": "と"
+        }
+      ],
+      "rank": 11699
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "layman",
+        "believer",
+        "adherent",
+        "follower",
+        "laity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{rel.} gelovige",
+        "aanhanger",
+        "volgeling",
+        "discipel",
+        "{verzameln.} gemeente",
+        "kudde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gläubiger",
+        "Anhänger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizalmas embere vkinek",
+        "hű embere vkinek",
+        "követő",
+        "tisztelő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "последователь (какого-л. вероучения), верующий"
+      ]
+    }
+  ]
+}

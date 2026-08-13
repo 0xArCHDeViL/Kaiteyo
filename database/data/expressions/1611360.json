@@ -1,0 +1,112 @@
+{
+  "id": "1611360",
+  "readings": [
+    {
+      "kanaExpression": "ひとばんじゅう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "一晩中",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "晩",
+          "annotation": "ばん"
+        },
+        {
+          "text": "中",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "ひと晩中",
+      "furiganaExpression": [
+        {
+          "text": "ひと"
+        },
+        {
+          "text": "晩",
+          "annotation": "ばん"
+        },
+        {
+          "text": "中",
+          "annotation": "じゅう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "一晩じゅう",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "晩",
+          "annotation": "ばん"
+        },
+        {
+          "text": "じゅう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "１晩中",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "ひと"
+        },
+        {
+          "text": "晩",
+          "annotation": "ばん"
+        },
+        {
+          "text": "中",
+          "annotation": "じゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "all night long",
+        "all through the night"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "toute la nuit",
+        "pendant toute la nuit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die ganze Nacht",
+        "über Nacht"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vso noč",
+        "celo noč"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "durante toda la noche"
+      ]
+    }
+  ]
+}

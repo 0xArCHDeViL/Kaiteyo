@@ -1,0 +1,71 @@
+{
+  "id": "1593620",
+  "readings": [
+    {
+      "kanaExpression": "さいさい",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "再々",
+      "furiganaExpression": [
+        {
+          "text": "再",
+          "annotation": "さい"
+        },
+        {
+          "text": "々",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "再再",
+      "furiganaExpression": [
+        {
+          "text": "再",
+          "annotation": "さい"
+        },
+        {
+          "text": "再",
+          "annotation": "さい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "often",
+        "frequently"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wieder und wieder",
+        "oft",
+        "öfters",
+        "häufig",
+        "mehrmals",
+        "wiederholt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyakorta",
+        "gyakran",
+        "sokszor",
+        "sűrűn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) たびたび"
+      ]
+    }
+  ]
+}

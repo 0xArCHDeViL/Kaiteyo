@@ -1,0 +1,43 @@
+{
+  "id": "1299300",
+  "readings": [
+    {
+      "kanaExpression": "ざつがく",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "雑学",
+      "furiganaExpression": [
+        {
+          "text": "雑",
+          "annotation": "ざつ"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 12955
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "miscellaneous knowledge"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feuilletonistisches Wissen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "широкие познания"
+      ]
+    }
+  ]
+}

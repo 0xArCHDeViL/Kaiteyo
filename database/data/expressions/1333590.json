@@ -1,0 +1,60 @@
+{
+  "id": "1333590",
+  "readings": [
+    {
+      "kanaExpression": "しゅうか",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "集荷",
+      "furiganaExpression": [
+        {
+          "text": "集",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "荷",
+          "annotation": "か"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "蒐荷",
+      "furiganaExpression": [
+        {
+          "text": "蒐",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "荷",
+          "annotation": "か"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "collection of cargo (esp. produce, etc.)",
+        "cargo booking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sammlung von Last",
+        "Last",
+        "Fracht sammeln",
+        "waren sammeln"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "собирание, сбор (товаров, грузов)"
+      ]
+    }
+  ]
+}

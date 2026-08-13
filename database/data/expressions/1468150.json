@@ -1,0 +1,71 @@
+{
+  "id": "1468150",
+  "readings": [
+    {
+      "kanaExpression": "としのくれ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "年の暮れ",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "とし"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "暮",
+          "annotation": "く"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "年の暮",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "とし"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "暮",
+          "annotation": "くれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "year end"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jahresende"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "final de año"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "årsslut"
+      ]
+    }
+  ]
+}

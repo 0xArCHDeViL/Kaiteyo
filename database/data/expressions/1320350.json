@@ -1,0 +1,71 @@
+{
+  "id": "1320350",
+  "readings": [
+    {
+      "kanaExpression": "しつない",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "室内",
+      "furiganaExpression": [
+        {
+          "text": "室",
+          "annotation": "しつ"
+        },
+        {
+          "text": "内",
+          "annotation": "ない"
+        }
+      ],
+      "rank": 4987
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "indoor",
+        "inside the room"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kamer-",
+        "interieur-",
+        "indoor-"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dans la pièce"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Innen…",
+        "Zimmer…",
+        "Hallen…",
+        "Kammer…",
+        "im Zimmer",
+        "drinnen",
+        "im Hause"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутри комнаты; в [закрытом] помещении",
+        "{～[の]} комнатный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "interior de un edificio"
+      ]
+    }
+  ]
+}

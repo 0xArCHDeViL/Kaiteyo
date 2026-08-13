@@ -1,0 +1,43 @@
+{
+  "id": "1600170",
+  "readings": [
+    {
+      "kanaExpression": "ねはば",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "値幅",
+      "furiganaExpression": [
+        {
+          "text": "値",
+          "annotation": "ね"
+        },
+        {
+          "text": "幅",
+          "annotation": "はば"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "price range or fluctuation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Preisunterschied"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "колебания цен"
+      ]
+    }
+  ]
+}

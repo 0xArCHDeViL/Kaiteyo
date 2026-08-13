@@ -1,0 +1,49 @@
+{
+  "id": "1718100",
+  "readings": [
+    {
+      "kanaExpression": "こてい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "湖底",
+      "furiganaExpression": [
+        {
+          "text": "湖",
+          "annotation": "こ"
+        },
+        {
+          "text": "底",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bottom of a lake"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grund des Sees"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дно озера"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sjöbotten"
+      ]
+    }
+  ]
+}

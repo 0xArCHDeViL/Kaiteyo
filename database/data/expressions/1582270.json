@@ -1,0 +1,49 @@
+{
+  "id": "1582270",
+  "readings": [
+    {
+      "kanaExpression": "ひがしがわ",
+      "rank": 19500
+    },
+    {
+      "kanaExpression": "とうそく"
+    },
+    {
+      "kanjiExpression": "東側",
+      "furiganaExpression": [
+        {
+          "text": "東",
+          "annotation": "ひがし"
+        },
+        {
+          "text": "側",
+          "annotation": "がわ"
+        }
+      ],
+      "rank": 12694
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "east side",
+        "east bank"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ostseite",
+        "Ostblock"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "восточная сторона",
+        "{～に} на востоке"
+      ]
+    }
+  ]
+}

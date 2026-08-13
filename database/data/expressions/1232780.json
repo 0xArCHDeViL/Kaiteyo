@@ -1,0 +1,72 @@
+{
+  "id": "1232780",
+  "readings": [
+    {
+      "kanaExpression": "きょぞう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "虚像",
+      "furiganaExpression": [
+        {
+          "text": "虚",
+          "annotation": "きょ"
+        },
+        {
+          "text": "像",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "virtual image",
+        "false image",
+        "pretense",
+        "pretence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "virtuelles Bild (durch Spiegelung od. Lichtbrechung)",
+        "falsches Bild (von einer Person)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áltatás",
+        "fondorlat",
+        "igény",
+        "jogcím",
+        "látszat",
+        "szerepjátszás",
+        "színlelés",
+        "ürügy",
+        "látszatkeltés",
+        "nagyravágyás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(опт.) паразитное изображение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "imagen virtual",
+        "imagen falsa",
+        "apariencia irreal",
+        "ficción",
+        "ilusión"
+      ]
+    }
+  ]
+}

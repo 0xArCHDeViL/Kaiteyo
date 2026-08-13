@@ -1,0 +1,43 @@
+{
+  "id": "1671270",
+  "readings": [
+    {
+      "kanaExpression": "あらごと",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "荒事",
+      "furiganaExpression": [
+        {
+          "text": "荒",
+          "annotation": "あら"
+        },
+        {
+          "text": "事",
+          "annotation": "ごと"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(theatrical) fighting scene"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kabuki-Genre, in dem es um tapfere Krieger und grimmige Gottheiten und Dämonen geht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "арагото (в пьесах театра Кабуки сцена или роль, демонстрирующая силу, мощь, бурные страсти, неистовство; сцена бурной схватки)"
+      ]
+    }
+  ]
+}

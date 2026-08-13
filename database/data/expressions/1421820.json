@@ -1,0 +1,119 @@
+{
+  "id": "1421820",
+  "readings": [
+    {
+      "kanaExpression": "おきかえる",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "置き換える",
+      "furiganaExpression": [
+        {
+          "text": "置",
+          "annotation": "お"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 6716
+    },
+    {
+      "kanjiExpression": "置きかえる",
+      "furiganaExpression": [
+        {
+          "text": "置",
+          "annotation": "お"
+        },
+        {
+          "text": "きかえる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "置き替える",
+      "furiganaExpression": [
+        {
+          "text": "置",
+          "annotation": "お"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to replace",
+        "to move",
+        "to change the position of"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vervangen",
+        "verwisselen",
+        "omwisselen",
+        "verplaatsen",
+        "verzetten",
+        "anders opstellen",
+        "anders zetten",
+        "anders plaatsen",
+        "anders inrichten",
+        "omzetten",
+        "herschikken",
+        "anders schikken",
+        "verschikken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "woanders hinstellen",
+        "umstellen",
+        "verstellen",
+        "neu ordnen",
+        "ersetzen",
+        "austauschen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elköltözik",
+        "költözik",
+        "meghat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перемещать, переставлять; перекладывать; замещать (что-л. чем-л.); подставлять (что-л. на место чего-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zamenjati (nekaj z nečim drugim); premestiti, preložiti"
+      ]
+    }
+  ]
+}

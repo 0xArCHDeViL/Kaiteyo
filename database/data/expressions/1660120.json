@@ -1,0 +1,55 @@
+{
+  "id": "1660120",
+  "readings": [
+    {
+      "kanaExpression": "しょうちょう",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "小腸",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "腸",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small intestine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dunne darm"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dünndarm"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vékonybél"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tunntarm"
+      ]
+    }
+  ]
+}

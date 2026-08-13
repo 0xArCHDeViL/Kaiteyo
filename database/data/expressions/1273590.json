@@ -1,0 +1,53 @@
+{
+  "id": "1273590",
+  "readings": [
+    {
+      "kanaExpression": "こうきょうりょうきん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "公共料金",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "共",
+          "annotation": "きょう"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public utilities charge"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gebühren öffentlicher Versorgungsunternehmen",
+        "Gebühren für Strom, Wasser, Gas usw."
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tasa",
+        "precio de un servicio público"
+      ]
+    }
+  ]
+}

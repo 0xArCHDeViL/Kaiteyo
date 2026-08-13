@@ -1,0 +1,110 @@
+{
+  "id": "1004830",
+  "readings": [
+    {
+      "kanaExpression": "これら",
+      "rank": 586
+    },
+    {
+      "kanjiExpression": "これ等",
+      "furiganaExpression": [
+        {
+          "text": "これ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "此等",
+      "furiganaExpression": [
+        {
+          "text": "此",
+          "annotation": "これ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "是等",
+      "furiganaExpression": [
+        {
+          "text": "是",
+          "annotation": "これ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "之等",
+      "furiganaExpression": [
+        {
+          "text": "之",
+          "annotation": "これ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "此れ等",
+      "furiganaExpression": [
+        {
+          "text": "此",
+          "annotation": "こ"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "these"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "deze dingen",
+        "deze zaken",
+        "deze voorwerpen",
+        "deze objecten",
+        "deze items {Dit woord is een combinatie van het voornaamwoord;pronomen kore これ (此",
+        "是) met het meervoudssuffix -ra ら (等).}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ces",
+        "ceux-là",
+        "celles-là"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} эти"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "1603540",
+  "readings": [
+    {
+      "kanaExpression": "ほぼ",
+      "rank": 1305
+    },
+    {
+      "kanjiExpression": "保母",
+      "furiganaExpression": [
+        {
+          "text": "保",
+          "annotation": "ほ"
+        },
+        {
+          "text": "母",
+          "annotation": "ぼ"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "保姆",
+      "furiganaExpression": [
+        {
+          "text": "保",
+          "annotation": "ほ"
+        },
+        {
+          "text": "姆",
+          "annotation": "ぼ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(female) childcare worker",
+        "kindergarten teacher"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pleegmoeder",
+        "verzorgster",
+        "kleuterleidster",
+        "kinderverzorgster",
+        "kinderjuffrouw",
+        "kindermeisje",
+        "droge min",
+        "opvoedster"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kindergärtnerin",
+        "Kindermädchen",
+        "Kinderfräulein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "няня (в яслях)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vzgojiteljica v vrtcu"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "maestra de jardín de niños",
+        "enfermera escolar"
+      ]
+    }
+  ]
+}

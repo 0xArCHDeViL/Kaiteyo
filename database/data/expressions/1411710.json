@@ -1,0 +1,50 @@
+{
+  "id": "1411710",
+  "readings": [
+    {
+      "kanaExpression": "だいぎ",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "代議",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 17000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "representing others in a conference"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vertegenwoordiging",
+        "representatie",
+        "deputatie",
+        "afvaardiging",
+        "delegatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Repräsentieren",
+        "Vertreten",
+        "jmdn. vertreten",
+        "jmdn. repräsentieren"
+      ]
+    }
+  ]
+}

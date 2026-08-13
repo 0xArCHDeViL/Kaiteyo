@@ -1,0 +1,45 @@
+{
+  "id": "1225470",
+  "readings": [
+    {
+      "kanaExpression": "ぎだ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "犠打",
+      "furiganaExpression": [
+        {
+          "text": "犠",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "打",
+          "annotation": "だ"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sacrifice (bunt or fly)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} opofferingsslag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geopferter Schlag",
+        "Sacrifice",
+        "Sacrifice Hit (absichtlich schlechter Schlag des Schlagmannes, damit ein Läufer einen Punkt machen kann)"
+      ]
+    }
+  ]
+}

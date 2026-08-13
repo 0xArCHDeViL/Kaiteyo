@@ -1,0 +1,69 @@
+{
+  "id": "1490500",
+  "readings": [
+    {
+      "kanaExpression": "なえぎ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "苗木",
+      "furiganaExpression": [
+        {
+          "text": "苗",
+          "annotation": "なえ"
+        },
+        {
+          "text": "木",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seedling",
+        "sapling",
+        "young tree"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jong boompje",
+        "zaailing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jeune arbre",
+        "plant",
+        "pousse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Setzling",
+        "Steckreis",
+        "junger Baum",
+        "Schössling"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csemete"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "саженец; молодое деревцо"
+      ]
+    }
+  ]
+}

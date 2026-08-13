@@ -1,0 +1,63 @@
+{
+  "id": "1776890",
+  "readings": [
+    {
+      "kanaExpression": "ちょうぎかい",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "町議会",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "town council"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gemeenteraad",
+        "gemeentebestuur",
+        "{gesch.} vroedschap",
+        "vroede vaderen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stadtrat",
+        "Gemeinderat (die Institution)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "városi tanács"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ayuntamiento"
+      ]
+    }
+  ]
+}

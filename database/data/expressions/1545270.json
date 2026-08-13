@@ -1,0 +1,73 @@
+{
+  "id": "1545270",
+  "readings": [
+    {
+      "kanaExpression": "ようちゅう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "幼虫",
+      "furiganaExpression": [
+        {
+          "text": "幼",
+          "annotation": "よう"
+        },
+        {
+          "text": "虫",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "larva",
+        "grub",
+        "maggot"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} larve",
+        "larf"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chrysalide",
+        "larve"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Larve",
+        "Raupe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lárva"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "личинка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "larva",
+        "crisálida"
+      ]
+    }
+  ]
+}

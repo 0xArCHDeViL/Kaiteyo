@@ -1,0 +1,59 @@
+{
+  "id": "1234230",
+  "readings": [
+    {
+      "kanaExpression": "きょうほ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "競歩",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "きょう"
+        },
+        {
+          "text": "歩",
+          "annotation": "ほ"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "racewalking",
+        "race walking",
+        "walking race"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{atlet.} snelwandelen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gehen (als Disziplin)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соревнования по ходьбе"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "marcha",
+        "caminata",
+        "marcha atlética (deporte)"
+      ]
+    }
+  ]
+}

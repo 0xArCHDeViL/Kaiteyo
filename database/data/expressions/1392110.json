@@ -1,0 +1,61 @@
+{
+  "id": "1392110",
+  "readings": [
+    {
+      "kanaExpression": "ふなたび",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "船旅",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "ふな"
+        },
+        {
+          "text": "旅",
+          "annotation": "たび"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trip by boat",
+        "sea trip",
+        "voyage",
+        "cruise"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "croisière",
+        "traversée",
+        "voyage en bateau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schiffsreise",
+        "Seefahrt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "морское путешествие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "viaje en barco"
+      ]
+    }
+  ]
+}

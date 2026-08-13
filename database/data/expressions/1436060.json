@@ -1,0 +1,58 @@
+{
+  "id": "1436060",
+  "readings": [
+    {
+      "kanaExpression": "そこね",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "底値",
+      "furiganaExpression": [
+        {
+          "text": "底",
+          "annotation": "そこ"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bottom price"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{hand.} bodemprijs",
+        "bodemkoers",
+        "minimumprijs"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prix plancher"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "niedrigster Preis",
+        "Preistiefststand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "самая низкая цена"
+      ]
+    }
+  ]
+}

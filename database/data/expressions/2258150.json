@@ -1,0 +1,54 @@
+{
+  "id": "2258150",
+  "readings": [
+    {
+      "kanaExpression": "ぞんじ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "存知",
+      "furiganaExpression": [
+        {
+          "text": "存",
+          "annotation": "ぞん"
+        },
+        {
+          "text": "知",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "存じ",
+      "furiganaExpression": [
+        {
+          "text": "存",
+          "annotation": "ぞん"
+        },
+        {
+          "text": "じ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "knowing",
+        "being aware (of)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das Wissen",
+        "Wissen",
+        "Kenntnis",
+        "Einsicht"
+      ]
+    }
+  ]
+}

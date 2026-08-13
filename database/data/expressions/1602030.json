@@ -1,0 +1,102 @@
+{
+  "id": "1602030",
+  "readings": [
+    {
+      "kanaExpression": "ひとりたび",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "一人旅",
+      "furiganaExpression": [
+        {
+          "text": "一人",
+          "annotation": "ひとり"
+        },
+        {
+          "text": "旅",
+          "annotation": "たび"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ひとり旅",
+      "furiganaExpression": [
+        {
+          "text": "ひとり"
+        },
+        {
+          "text": "旅",
+          "annotation": "たび"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "独り旅",
+      "furiganaExpression": [
+        {
+          "text": "独",
+          "annotation": "ひと"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "旅",
+          "annotation": "たび"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "travelling alone",
+        "solitary journey"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eenmansreis",
+        "soloreis",
+        "het alleen reizen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Alleinreisen",
+        "Reisen ohne Begleitung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyedül",
+        "anakoréta",
+        "egyedüli",
+        "elhagyatott",
+        "félreeső",
+        "magányos",
+        "magára maradt",
+        "társtalan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "путешествие в одиночку",
+        "{～をする} путешествовать одному"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "viajar solo",
+        "viaje solitario"
+      ]
+    }
+  ]
+}

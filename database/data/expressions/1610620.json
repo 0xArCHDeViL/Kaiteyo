@@ -1,0 +1,96 @@
+{
+  "id": "1610620",
+  "readings": [
+    {
+      "kanaExpression": "おきにいり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お気に入り",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 2968
+    },
+    {
+      "kanjiExpression": "御気に入り",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "favorite",
+        "favourite",
+        "pet (e.g. teacher\u0027s pet)",
+        "bookmark (in a web browser)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lieblings…",
+        "Liebling",
+        "Favorit",
+        "Günstling",
+        "Bookmark",
+        "Lesezeichen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kedvenc"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг. см.) きにいり"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "favorito",
+        "predilecto"
+      ]
+    }
+  ]
+}

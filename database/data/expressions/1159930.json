@@ -1,0 +1,98 @@
+{
+  "id": "1159930",
+  "readings": [
+    {
+      "kanaExpression": "いし",
+      "rank": 7228
+    },
+    {
+      "kanjiExpression": "医師",
+      "furiganaExpression": [
+        {
+          "text": "医",
+          "annotation": "い"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ],
+      "rank": 1661
+    },
+    {
+      "kanjiExpression": "醫師",
+      "furiganaExpression": [
+        {
+          "text": "醫",
+          "annotation": "い"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "doctor",
+        "physician"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "arts",
+        "geneesheer",
+        "dokter",
+        "medicus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "docteur (en médecine)",
+        "médecin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arzt",
+        "Mediziner",
+        "(med.)Doktor",
+        "Medizinalrat (nach dem Ritsuryō-System bzw. in der Edo-Zeit)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "doktor",
+        "orvos",
+        "belgyógyász"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "врач",
+        "доктор"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zdravnik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "doctor",
+        "facultativo"
+      ]
+    }
+  ]
+}

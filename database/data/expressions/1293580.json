@@ -1,0 +1,48 @@
+{
+  "id": "1293580",
+  "readings": [
+    {
+      "kanaExpression": "さいほけん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "再保険",
+      "furiganaExpression": [
+        {
+          "text": "再",
+          "annotation": "さい"
+        },
+        {
+          "text": "保",
+          "annotation": "ほ"
+        },
+        {
+          "text": "険",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reinsurance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rückversicherung",
+        "Reassekuranz (Versicherung gegen Versicherungsrisiken)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "reassurans"
+      ]
+    }
+  ]
+}

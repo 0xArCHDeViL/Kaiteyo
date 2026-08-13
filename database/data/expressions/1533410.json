@@ -1,0 +1,100 @@
+{
+  "id": "1533410",
+  "readings": [
+    {
+      "kanaExpression": "おもかげ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "面影",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "おも"
+        },
+        {
+          "text": "影",
+          "annotation": "かげ"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "俤",
+      "furiganaExpression": [
+        {
+          "text": "俤",
+          "annotation": "おもかげ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "face",
+        "looks",
+        "countenance",
+        "vestige",
+        "trace",
+        "reminder"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "herinneringsbeeld",
+        "herinnering",
+        "beeld",
+        "afspiegeling",
+        "spoor",
+        "zweem",
+        "evocatie",
+        "sfeer",
+        "uitstraling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aspect",
+        "trace",
+        "trait marquant",
+        "traits",
+        "vestiges (?)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesicht",
+        "Gestalt",
+        "Bild",
+        "Spur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "él",
+        "hám",
+        "lábnyom",
+        "maradvány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лицо; облик, образ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sombra del pasado",
+        "sombras (del aspecto original)"
+      ]
+    }
+  ]
+}

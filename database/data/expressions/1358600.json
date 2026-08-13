@@ -1,0 +1,88 @@
+{
+  "id": "1358600",
+  "readings": [
+    {
+      "kanaExpression": "しょくひん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "食品",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "品",
+          "annotation": "ひん"
+        }
+      ],
+      "rank": 1990
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "food",
+        "food products",
+        "foodstuffs"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voeding",
+        "voedingsproduct",
+        "voedingsmiddel",
+        "levensmiddel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nourriture",
+        "aliment",
+        "denrées",
+        "produit alimentaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lebensmittel",
+        "Nahrungsmittel",
+        "Esswaren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "árucikk"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продукты питания"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hrana",
+        "živilo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mercancía",
+        "mercadería",
+        "comida",
+        "alimentos",
+        "víveres"
+      ]
+    }
+  ]
+}

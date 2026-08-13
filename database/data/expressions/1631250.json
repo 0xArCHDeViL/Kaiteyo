@@ -1,0 +1,43 @@
+{
+  "id": "1631250",
+  "readings": [
+    {
+      "kanaExpression": "こうてん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "好天",
+      "furiganaExpression": [
+        {
+          "text": "好",
+          "annotation": "こう"
+        },
+        {
+          "text": "天",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fine weather"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schönes Wetter"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "buen tiempo"
+      ]
+    }
+  ]
+}

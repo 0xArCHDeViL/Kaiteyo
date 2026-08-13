@@ -1,0 +1,88 @@
+{
+  "id": "1586560",
+  "readings": [
+    {
+      "kanaExpression": "あなたがた",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "あなた方",
+      "furiganaExpression": [
+        {
+          "text": "あなた"
+        },
+        {
+          "text": "方",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "貴方がた",
+      "furiganaExpression": [
+        {
+          "text": "貴方",
+          "annotation": "あなた"
+        },
+        {
+          "text": "がた"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "貴方方",
+      "furiganaExpression": [
+        {
+          "text": "貴方",
+          "annotation": "あなた"
+        },
+        {
+          "text": "方",
+          "annotation": "がた"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "貴方々",
+      "furiganaExpression": [
+        {
+          "text": "貴方",
+          "annotation": "あなた"
+        },
+        {
+          "text": "々",
+          "annotation": "がた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "you (plural)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sie",
+        "ihr (pl.; ehrerb.-höfl.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "Vi (množina)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ustedes",
+        "vosotros"
+      ]
+    }
+  ]
+}

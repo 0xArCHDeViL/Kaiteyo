@@ -1,0 +1,88 @@
+{
+  "id": "1501930",
+  "readings": [
+    {
+      "kanaExpression": "ぶっきょう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "仏教",
+      "furiganaExpression": [
+        {
+          "text": "仏",
+          "annotation": "ぶっ"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 3827
+    },
+    {
+      "kanjiExpression": "佛教",
+      "furiganaExpression": [
+        {
+          "text": "佛",
+          "annotation": "ぶっ"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Buddhism"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{rel.} boeddhisme",
+        "leer van Boeddha"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bouddhisme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Buddhismus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "буддизм",
+        "{～の} буддийский"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "budizem"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "el budismo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "buddism"
+      ]
+    }
+  ]
+}

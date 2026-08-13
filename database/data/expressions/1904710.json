@@ -1,0 +1,57 @@
+{
+  "id": "1904710",
+  "readings": [
+    {
+      "kanaExpression": "ひまがない",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "暇がない",
+      "furiganaExpression": [
+        {
+          "text": "暇",
+          "annotation": "ひま"
+        },
+        {
+          "text": "がない"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "暇が無い",
+      "furiganaExpression": [
+        {
+          "text": "暇",
+          "annotation": "ひま"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "busy",
+        "having no (free) time"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "keine Zeit haben",
+        "keine Freizeit haben"
+      ]
+    }
+  ]
+}

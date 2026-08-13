@@ -1,0 +1,63 @@
+{
+  "id": "1446000",
+  "readings": [
+    {
+      "kanaExpression": "とうしゅ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "党首",
+      "furiganaExpression": [
+        {
+          "text": "党",
+          "annotation": "とう"
+        },
+        {
+          "text": "首",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 8816
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "party leader"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "partijleider",
+        "partijchef",
+        "voorman"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chef d\u0027un parti"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Parteivorsitzender"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глава (лидер) партии"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "líder del partido (político)"
+      ]
+    }
+  ]
+}

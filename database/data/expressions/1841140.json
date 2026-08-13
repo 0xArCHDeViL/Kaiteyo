@@ -1,0 +1,43 @@
+{
+  "id": "1841140",
+  "readings": [
+    {
+      "kanaExpression": "しろみず",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "白水",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "しろ"
+        },
+        {
+          "text": "水",
+          "annotation": "みず"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "color of water after washing rice (colour)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasser, in dem Reis gewaschen worden ist"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "белая вода (после мойки риса)"
+      ]
+    }
+  ]
+}

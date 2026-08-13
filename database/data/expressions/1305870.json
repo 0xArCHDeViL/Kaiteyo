@@ -1,0 +1,94 @@
+{
+  "id": "1305870",
+  "readings": [
+    {
+      "kanaExpression": "つかいきる",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "使い切る",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "使いきる",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "いきる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "遣い切る",
+      "furiganaExpression": [
+        {
+          "text": "遣",
+          "annotation": "つか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to use up",
+        "to exhaust",
+        "to wear out"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufbrauchen",
+        "restlos verbrauchen",
+        "alle machen",
+        "vollen Gebrauch von etw. machen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhasznál",
+        "fogyaszt",
+        "kihasznál",
+        "elhasználódik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "использовать; износить; истратить"
+      ]
+    }
+  ]
+}

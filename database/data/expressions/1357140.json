@@ -1,0 +1,136 @@
+{
+  "id": "1357140",
+  "readings": [
+    {
+      "kanaExpression": "しょくたく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "嘱託",
+      "furiganaExpression": [
+        {
+          "text": "嘱",
+          "annotation": "しょく"
+        },
+        {
+          "text": "託",
+          "annotation": "たく"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "属託",
+      "furiganaExpression": [
+        {
+          "text": "属",
+          "annotation": "しょく"
+        },
+        {
+          "text": "託",
+          "annotation": "たく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "囑託",
+      "furiganaExpression": [
+        {
+          "text": "囑",
+          "annotation": "しょく"
+        },
+        {
+          "text": "託",
+          "annotation": "たく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commission",
+        "entrusting with (work)",
+        "part-time employee",
+        "temporary work"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overdragen",
+        "delegeren",
+        "toevertrouwen",
+        "opdragen",
+        "opdracht geven",
+        "belasten met",
+        "overdracht",
+        "delegatie",
+        "het toevertrouwen",
+        "tijdelijke medewerker",
+        "werkkracht",
+        "interimkracht",
+        "deeltijdwerker",
+        "parttimer",
+        "deeltijder",
+        "{verk.} interim",
+        "{Belg.N.} interimaris",
+        "reservist"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "commissionner",
+        "déléguer une tâche",
+        "faire sous-traiter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beauftragen",
+        "in Auftrag geben",
+        "Teilzeitarbeit",
+        "Aushilfskraft",
+        "Beauftragter",
+        "Auftrag",
+        "Beauftragung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizomány",
+        "bizományi díj",
+        "bizottság",
+        "elkövetés",
+        "megbízás",
+        "rendelkezés",
+        "tiszti kinevezés",
+        "feladat",
+        "kötelesség",
+        "szolgálat",
+        "támadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) поручение",
+        "{～する} поручать",
+        "2) (в сложн. сл.) внештатный",
+        "3) (сокр.) внештатный сотрудник; сотрудник для [особых] поручений"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comisión",
+        "encargo",
+        "delegación"
+      ]
+    }
+  ]
+}

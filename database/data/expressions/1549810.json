@@ -1,0 +1,96 @@
+{
+  "id": "1549810",
+  "readings": [
+    {
+      "kanaExpression": "りれき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "履歴",
+      "furiganaExpression": [
+        {
+          "text": "履",
+          "annotation": "り"
+        },
+        {
+          "text": "歴",
+          "annotation": "れき"
+        }
+      ],
+      "rank": 5003
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "personal history",
+        "background",
+        "career",
+        "log",
+        "record",
+        "history",
+        "hysteresis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verleden",
+        "iemands antecedenten",
+        "loopbaan",
+        "carrière",
+        "staat van dienst",
+        "achtergrond",
+        "levensloop",
+        "persoonlijke geschiedenis",
+        "curriculum vitae",
+        "cv",
+        "levensgeschiedenis",
+        "{nat.} hysteresis",
+        "{comp.} geschiedenis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "antécédents",
+        "histoire personnelle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lebenslauf",
+        "Lebensgeschichte",
+        "Vorleben",
+        "Hysterese",
+        "History-Menü (bei Webbrowser u. Ä.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "napló",
+        "logfile",
+        "életpálya",
+        "fahasáb",
+        "fatönk"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "биография"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "historia personal",
+        "trayectoria",
+        "currículo"
+      ]
+    }
+  ]
+}

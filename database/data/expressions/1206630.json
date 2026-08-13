@@ -1,0 +1,73 @@
+{
+  "id": "1206630",
+  "readings": [
+    {
+      "kanaExpression": "がくわり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "学割",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "割",
+          "annotation": "わり"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "学割り",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "割",
+          "annotation": "わ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "student discount"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rabais fait à un étudiant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Studentenermäßigung",
+        "Schülerermäßigung (Abk.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "študentski popust"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "descuento para estudiantes"
+      ]
+    }
+  ]
+}

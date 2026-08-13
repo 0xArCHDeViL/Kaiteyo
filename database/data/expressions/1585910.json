@@ -1,0 +1,131 @@
+{
+  "id": "1585910",
+  "readings": [
+    {
+      "kanaExpression": "とんぼ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "とんぼう"
+    },
+    {
+      "kanaExpression": "せいれい",
+      "rank": 18000
+    },
+    {
+      "kanaExpression": "トンボ",
+      "rank": 14978
+    },
+    {
+      "kanjiExpression": "蜻蛉",
+      "furiganaExpression": [
+        {
+          "text": "蜻蛉",
+          "annotation": "とんぼ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "蜻蜒",
+      "furiganaExpression": [
+        {
+          "text": "蜻",
+          "annotation": "とん"
+        },
+        {
+          "text": "蜒",
+          "annotation": "ぼ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "蜻蜓",
+      "furiganaExpression": [
+        {
+          "text": "蜻蜓",
+          "annotation": "とんぼ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dragonfly",
+        "damselfly"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} libel",
+        "libelle",
+        "waterjuffer",
+        "wrattenbijter",
+        "{gew.} bijenbijter",
+        "{gew.} glazenwipper",
+        "salto",
+        "koprol",
+        "{sportt.} flip",
+        "{luchtv.} looping",
+        "{drukw.} register marks",
+        "hark {gebruikt voor het onderhoud van een sportveld}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "libellule"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Libelle",
+        "Purzelbaum",
+        "Überschlag",
+        "Passmarke",
+        "Passermarke",
+        "Registermarke",
+        "Deckungsmarke",
+        "Passerkreuz",
+        "Tombo",
+        "Tonbo (japan. Registermarke)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szitakötő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) стрекозы, odonata",
+        "2) (см.) とんぼがえり"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kačji pastir"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "libélula"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "trollslända"
+      ]
+    }
+  ]
+}

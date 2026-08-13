@@ -1,0 +1,121 @@
+{
+  "id": "1591350",
+  "readings": [
+    {
+      "kanaExpression": "きとう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "祈祷",
+      "furiganaExpression": [
+        {
+          "text": "祈",
+          "annotation": "き"
+        },
+        {
+          "text": "祷",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "祈とう",
+      "furiganaExpression": [
+        {
+          "text": "祈",
+          "annotation": "き"
+        },
+        {
+          "text": "とう"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "祈禱",
+      "furiganaExpression": [
+        {
+          "text": "祈",
+          "annotation": "き"
+        },
+        {
+          "text": "禱",
+          "annotation": "とう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prayer",
+        "grace (at meals)",
+        "exorcism"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gebed",
+        "bede",
+        "{r.-k.} oratie",
+        "bidden",
+        "z\u0027n gebeden opzeggen",
+        "danken",
+        "dankzeggen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prière"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beten",
+        "das Tischgebet sprechen",
+        "Gott anrufen",
+        "einen Teufel beschwören",
+        "einen Teufel austreiben",
+        "Beten",
+        "Gebet",
+        "Tischgebet",
+        "Beschwörung",
+        "Besprechung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ima",
+        "imádság",
+        "könyörgés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "молитва; заклинание",
+        "{～する} молиться, возносить молитву; заклинать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oración",
+        "orar",
+        "rezar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bön"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1322630",
+  "readings": [
+    {
+      "kanaExpression": "にもの",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "煮物",
+      "furiganaExpression": [
+        {
+          "text": "煮",
+          "annotation": "に"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nimono",
+        "food cooked by boiling or stewing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het koken van eten",
+        "{cul.} gekookte spijs",
+        "{gew.} gezoden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gekochtes",
+        "Kochen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) варка, приготовление (пищи)",
+        "2) варёное"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1270170",
+  "readings": [
+    {
+      "kanaExpression": "こうれつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "後列",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "こう"
+        },
+        {
+          "text": "列",
+          "annotation": "れつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "back row",
+        "rear rank"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "au fond",
+        "dernier rang"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hintere Reihe",
+        "hintere Linie",
+        "hinteres Glied"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "árnyékszék",
+        "klozett"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "задний (последний) ряд; вторая (последняя) шеренга"
+      ]
+    }
+  ]
+}

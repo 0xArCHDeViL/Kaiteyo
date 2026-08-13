@@ -1,0 +1,66 @@
+{
+  "id": "1360180",
+  "readings": [
+    {
+      "kanaExpression": "ねしずまる",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "寝静まる",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "静",
+          "annotation": "しず"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to fall asleep"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "still werden, weil alles schläft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elalszik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "затихать во сне"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dormirse",
+        "quedarse dormido",
+        "caer dormido"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "somna"
+      ]
+    }
+  ]
+}

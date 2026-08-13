@@ -1,0 +1,66 @@
+{
+  "id": "1202230",
+  "readings": [
+    {
+      "kanaExpression": "みなごろし",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "皆殺し",
+      "furiganaExpression": [
+        {
+          "text": "皆",
+          "annotation": "みな"
+        },
+        {
+          "text": "殺",
+          "annotation": "ごろ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "鏖",
+      "furiganaExpression": [
+        {
+          "text": "鏖",
+          "annotation": "みなごろし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "massacre",
+        "annihilation",
+        "wholesale slaughter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausrottung",
+        "Massenmord"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vérfürdő",
+        "tömegmészárlás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "истребление, уничтожение",
+        "{～にする} истребить до последнего, поголовно уничтожить, перебить (убить) всех"
+      ]
+    }
+  ]
+}

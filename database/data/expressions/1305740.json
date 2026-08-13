@@ -1,0 +1,79 @@
+{
+  "id": "1305740",
+  "readings": [
+    {
+      "kanaExpression": "つかいこなす",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "使いこなす",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "いこなす"
+        }
+      ],
+      "rank": 11096
+    },
+    {
+      "kanjiExpression": "使い熟す",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "熟",
+          "annotation": "こな"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to handle (men)",
+        "to master (a tool)",
+        "to manage",
+        "to acquire a command of (a language)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beherrschen",
+        "zu handhaben wissen",
+        "umgehen können mit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elsajátítja a használatát",
+        "foglalkozik",
+        "hozzányúl",
+        "megfékez",
+        "irányít",
+        "kezel",
+        "boldogul",
+        "sikerül"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "умело обращаться (с чем-л.); справляться (с кем-л.); овладевать (знаниями, языком и т. п.)"
+      ]
+    }
+  ]
+}

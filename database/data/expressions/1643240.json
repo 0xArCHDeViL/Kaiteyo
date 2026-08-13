@@ -1,0 +1,56 @@
+{
+  "id": "1643240",
+  "readings": [
+    {
+      "kanaExpression": "のうぐ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "農具",
+      "furiganaExpression": [
+        {
+          "text": "農",
+          "annotation": "のう"
+        },
+        {
+          "text": "具",
+          "annotation": "ぐ"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "farming implement",
+        "farm tools"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{landb.} landbouwgereedschap",
+        "landbouwersgereedschap",
+        "landbouwwerktuig",
+        "landbouwmachine",
+        "{gew.} landbouwalaam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "landwirtschaftliches Gerät",
+        "Ackergerät",
+        "Landmaschine"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сельскохозяйственные орудия"
+      ]
+    }
+  ]
+}

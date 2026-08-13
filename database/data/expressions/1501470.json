@@ -1,0 +1,55 @@
+{
+  "id": "1501470",
+  "readings": [
+    {
+      "kanaExpression": "ふくり",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "複利",
+      "furiganaExpression": [
+        {
+          "text": "複",
+          "annotation": "ふく"
+        },
+        {
+          "text": "利",
+          "annotation": "り"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "compound interest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zinseszins"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kamatos kamat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сложные проценты"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "interés compuesto"
+      ]
+    }
+  ]
+}

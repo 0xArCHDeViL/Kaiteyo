@@ -1,0 +1,104 @@
+{
+  "id": "1391890",
+  "readings": [
+    {
+      "kanaExpression": "せんい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "繊維",
+      "furiganaExpression": [
+        {
+          "text": "繊",
+          "annotation": "せん"
+        },
+        {
+          "text": "維",
+          "annotation": "い"
+        }
+      ],
+      "rank": 4291
+    },
+    {
+      "kanjiExpression": "線維",
+      "furiganaExpression": [
+        {
+          "text": "線",
+          "annotation": "せん"
+        },
+        {
+          "text": "維",
+          "annotation": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fibre",
+        "fiber",
+        "textile"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "draad",
+        "streng",
+        "vezel",
+        "{verzameln.} textiel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fibre",
+        "textile"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Faser",
+        "Fiber",
+        "Faden",
+        "Textilfaser"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elemi szál",
+        "idegrost",
+        "izomrost",
+        "rost",
+        "rostanyag",
+        "szál",
+        "fonal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "волокно"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vlakno",
+        "tkanina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fibra",
+        "filamento",
+        "hilo"
+      ]
+    }
+  ]
+}

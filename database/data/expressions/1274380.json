@@ -1,0 +1,61 @@
+{
+  "id": "1274380",
+  "readings": [
+    {
+      "kanaExpression": "こうてき",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "公的",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 3474
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public",
+        "official"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "openbaar",
+        "publiek",
+        "officieel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentlich",
+        "offiziell"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "köz-",
+        "nyilvánosság",
+        "hivatalnok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общественный; публичный"
+      ]
+    }
+  ]
+}

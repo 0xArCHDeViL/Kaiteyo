@@ -1,0 +1,106 @@
+{
+  "id": "2249810",
+  "readings": [
+    {
+      "kanaExpression": "えをかく",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "えをえがく"
+    },
+    {
+      "kanjiExpression": "絵を描く",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "描",
+          "annotation": "か"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "絵を書く",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "絵をかく",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "をかく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "絵をえがく",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "をえがく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to paint (draw) a picture"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schilderen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Bild malen",
+        "malen",
+        "zeichnen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pintar un cuadro",
+        "hacer un dibujo",
+        "dibujar",
+        "pintar"
+      ]
+    }
+  ]
+}

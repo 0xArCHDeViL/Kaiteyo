@@ -1,0 +1,76 @@
+{
+  "id": "1473840",
+  "readings": [
+    {
+      "kanaExpression": "うりこみ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "売り込み",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "売込み",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うり"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sales promotion",
+        "hard selling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "promoting",
+        "verkoop",
+        "afzet",
+        "verkooppraatje"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vertrieb",
+        "Verkaufswerbung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продажа"
+      ]
+    }
+  ]
+}

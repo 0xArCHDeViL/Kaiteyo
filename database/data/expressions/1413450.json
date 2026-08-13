@@ -1,0 +1,48 @@
+{
+  "id": "1413450",
+  "readings": [
+    {
+      "kanaExpression": "たいりょう",
+      "rank": 16500
+    },
+    {
+      "kanaExpression": "たいぎょ"
+    },
+    {
+      "kanjiExpression": "大漁",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "漁",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "big catch (fishing)",
+        "good haul"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "guter Fang",
+        "großer Fang (an Fischen)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "богатый улов"
+      ]
+    }
+  ]
+}

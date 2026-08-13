@@ -1,0 +1,46 @@
+{
+  "id": "1408930",
+  "readings": [
+    {
+      "kanaExpression": "だせん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "打線",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "だ"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 16500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "batting line-up",
+        "batting order"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} slagvolgorde",
+        "line-up",
+        "opstelling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufstellung der Schlagmänner"
+      ]
+    }
+  ]
+}

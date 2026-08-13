@@ -1,0 +1,126 @@
+{
+  "id": "1601790",
+  "readings": [
+    {
+      "kanaExpression": "ひきわたす",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "引き渡す",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "引渡す",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "引きわたす",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "きわたす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to deliver",
+        "to extradite",
+        "to stretch across",
+        "to hand over"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leveren",
+        "aanleveren",
+        "overhandigen",
+        "overleveren",
+        "overdragen",
+        "ter hand stellen",
+        "uit handen geven",
+        "afgeven",
+        "overgeven",
+        "bezorgen",
+        "afleveren",
+        "uitleveren",
+        "spannen",
+        "strak trekken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "spannen (ein Seil)",
+        "übergeben",
+        "ausliefern",
+        "aushändigen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átad",
+        "előad",
+        "hoz",
+        "kézbesít",
+        "kiad",
+        "kiszolgáltat",
+        "mond"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) доставлять; передавать; выдавать (преступника властям)",
+        "2) натягивать (верёвку, между чем-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entregar",
+        "repartir",
+        "extraditar",
+        "estirar de un lado al otro",
+        "extender",
+        "ceder"
+      ]
+    }
+  ]
+}

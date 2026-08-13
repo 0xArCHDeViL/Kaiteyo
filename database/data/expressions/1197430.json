@@ -1,0 +1,54 @@
+{
+  "id": "1197430",
+  "readings": [
+    {
+      "kanaExpression": "がだん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "画壇",
+      "furiganaExpression": [
+        {
+          "text": "画",
+          "annotation": "が"
+        },
+        {
+          "text": "壇",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "artists\u0027 world",
+        "painting circles"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schilderswereld",
+        "schildersmilieu",
+        "schilderskringen",
+        "galerie",
+        "{Belg.N.} galerij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Künstlerkreise"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мир (круги) художников"
+      ]
+    }
+  ]
+}

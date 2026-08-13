@@ -1,0 +1,67 @@
+{
+  "id": "1348050",
+  "readings": [
+    {
+      "kanaExpression": "こごと",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "小言",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "言",
+          "annotation": "ごと"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scolding",
+        "telling-off",
+        "rebuke",
+        "lecture",
+        "complaint",
+        "grumbling",
+        "fault-finding"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "engueulade",
+        "gronderie",
+        "réprimande",
+        "semonce"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schimpfen",
+        "Schelte",
+        "Tadel",
+        "Vorwurf",
+        "Rüge",
+        "Verweis",
+        "Nörgelei",
+        "Klage",
+        "Murren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) выговор, замечание; упрёк",
+        "2) жалоба, ворчание"
+      ]
+    }
+  ]
+}

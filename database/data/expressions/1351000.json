@@ -1,0 +1,55 @@
+{
+  "id": "1351000",
+  "readings": [
+    {
+      "kanaExpression": "しょう",
+      "rank": 2769
+    },
+    {
+      "kanjiExpression": "症",
+      "furiganaExpression": [
+        {
+          "text": "症",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 2403
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "illness",
+        "condition",
+        "-pathy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ziekteteken",
+        "symptoom",
+        "-pathie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "maladie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "betegség"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enfermedad"
+      ]
+    }
+  ]
+}

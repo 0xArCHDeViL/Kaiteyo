@@ -1,0 +1,66 @@
+{
+  "id": "1333460",
+  "readings": [
+    {
+      "kanaExpression": "しゅうかん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "週刊",
+      "furiganaExpression": [
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "刊",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 3072
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weekly publication"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eens in de week verschijnend",
+        "wekelijks verschijnend",
+        "wekelijkse uitgave",
+        "publicatie",
+        "weekblad"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "hebdomadaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wöchentlich",
+        "Wochenschrift"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "еженедельное издание; еженедельник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "publicación semanal"
+      ]
+    }
+  ]
+}

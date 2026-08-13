@@ -1,0 +1,81 @@
+{
+  "id": "1003950",
+  "readings": [
+    {
+      "kanaExpression": "くらべ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "比べ",
+      "furiganaExpression": [
+        {
+          "text": "比",
+          "annotation": "くら"
+        },
+        {
+          "text": "べ"
+        }
+      ],
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "較べ",
+      "furiganaExpression": [
+        {
+          "text": "較",
+          "annotation": "くら"
+        },
+        {
+          "text": "べ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "競べ",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "くら"
+        },
+        {
+          "text": "べ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "contest",
+        "comparison",
+        "competition"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vergelijking",
+        "krachtmeting",
+        "proef",
+        "test"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "verseny",
+        "összevetés"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "competición",
+        "rivalización",
+        "desafío",
+        "comparación"
+      ]
+    }
+  ]
+}

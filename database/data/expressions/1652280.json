@@ -1,0 +1,56 @@
+{
+  "id": "1652280",
+  "readings": [
+    {
+      "kanaExpression": "きゃくじん",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "客人",
+      "furiganaExpression": [
+        {
+          "text": "客",
+          "annotation": "きゃく"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "caller",
+        "visitor",
+        "company",
+        "guest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besucher",
+        "Gast",
+        "Kunde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "látogató",
+        "vendég",
+        "társulat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) きゃく"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1220900",
+  "readings": [
+    {
+      "kanaExpression": "きき",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "機器",
+      "furiganaExpression": [
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 2232
+    },
+    {
+      "kanjiExpression": "器機",
+      "furiganaExpression": [
+        {
+          "text": "器",
+          "annotation": "き"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "device",
+        "equipment",
+        "machinery",
+        "apparatus"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "apparaat",
+        "apparatuur",
+        "instrument",
+        "instrumentarium"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gerät",
+        "Maschine",
+        "Instrument"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gépek és berendezések"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "машины и приборы, машинное оборудование и аппаратура"
+      ]
+    }
+  ]
+}

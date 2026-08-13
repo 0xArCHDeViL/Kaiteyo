@@ -1,0 +1,97 @@
+{
+  "id": "1196690",
+  "readings": [
+    {
+      "kanaExpression": "わがみ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "我が身",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "身",
+          "annotation": "み"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "わが身",
+      "furiganaExpression": [
+        {
+          "text": "わが"
+        },
+        {
+          "text": "身",
+          "annotation": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "我身",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わが"
+        },
+        {
+          "text": "身",
+          "annotation": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "myself",
+        "oneself",
+        "I",
+        "me",
+        "you (referring to one\u0027s inferior)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "man selbst"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "maga magát",
+        "maga",
+        "magának",
+        "magát",
+        "önmaga",
+        "önmagát",
+        "saját magát",
+        "sajátmaga"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～を} [самого] себя"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "yo",
+        "yo mismo",
+        "mí",
+        "mí mismo"
+      ]
+    }
+  ]
+}

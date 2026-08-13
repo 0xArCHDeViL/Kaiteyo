@@ -1,0 +1,45 @@
+{
+  "id": "1298220",
+  "readings": [
+    {
+      "kanaExpression": "さくしゅん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "昨春",
+      "furiganaExpression": [
+        {
+          "text": "昨",
+          "annotation": "さく"
+        },
+        {
+          "text": "春",
+          "annotation": "しゅん"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "last spring",
+        "the spring of last year"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letzter Frühling",
+        "der Frühling letzten Jahres"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) прошлая весна, весна прошлого года"
+      ]
+    }
+  ]
+}

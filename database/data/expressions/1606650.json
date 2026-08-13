@@ -1,0 +1,112 @@
+{
+  "id": "1606650",
+  "readings": [
+    {
+      "kanaExpression": "わがや",
+      "rank": 21000
+    },
+    {
+      "kanaExpression": "わがいえ"
+    },
+    {
+      "kanjiExpression": "我が家",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "家",
+          "annotation": "や"
+        }
+      ],
+      "rank": 2734
+    },
+    {
+      "kanjiExpression": "わが家",
+      "furiganaExpression": [
+        {
+          "text": "わが"
+        },
+        {
+          "text": "家",
+          "annotation": "や"
+        }
+      ],
+      "rank": 11386
+    },
+    {
+      "kanjiExpression": "我家",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わが"
+        },
+        {
+          "text": "家",
+          "annotation": "や"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s house",
+        "one\u0027s home",
+        "one\u0027s family"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eigen woning",
+        "eigen huis",
+        "eigen haard",
+        "z\u0027n gezin",
+        "z\u0027n thuis",
+        "z\u0027n haardstede"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "notre chez-nous",
+        "notre maison"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mein Haus",
+        "mein Heim",
+        "meine Familie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "свой дом",
+        "{～に} [у себя] дома",
+        "{～へ} [к себе] домой"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "lastni dom"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mi hogar",
+        "mi casa"
+      ]
+    }
+  ]
+}

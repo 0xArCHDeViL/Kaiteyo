@@ -1,0 +1,90 @@
+{
+  "id": "1658950",
+  "readings": [
+    {
+      "kanaExpression": "とりさげ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "取り下げ",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "下",
+          "annotation": "さ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "取下げ",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "下",
+          "annotation": "さ"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "withdrawal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rücknahme",
+        "Zurücknahme",
+        "Zurückziehung",
+        "Widerruf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kivét",
+        "visszalépés",
+        "visszaszívás",
+        "visszavonás",
+        "visszavonulás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "взятие назад; (юр.) прекращение (дела)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "retirada"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "indragning"
+      ]
+    }
+  ]
+}

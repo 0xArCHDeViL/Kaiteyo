@@ -1,0 +1,89 @@
+{
+  "id": "1402450",
+  "readings": [
+    {
+      "kanaExpression": "はしりたかとび",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "走り高跳び",
+      "furiganaExpression": [
+        {
+          "text": "走",
+          "annotation": "はし"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "高",
+          "annotation": "たか"
+        },
+        {
+          "text": "跳",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "走高跳",
+      "furiganaExpression": [
+        {
+          "text": "走",
+          "annotation": "はしり"
+        },
+        {
+          "text": "高",
+          "annotation": "たか"
+        },
+        {
+          "text": "跳",
+          "annotation": "とび"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "running high jump"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sportt.",
+        "atlet.} hoogspringen (met aanloop)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "saut en hauteur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hochsprung (mit Anlauf)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) прыжки с разбега в высоту"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "salto de altura"
+      ]
+    }
+  ]
+}

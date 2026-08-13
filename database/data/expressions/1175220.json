@@ -1,0 +1,74 @@
+{
+  "id": "1175220",
+  "readings": [
+    {
+      "kanaExpression": "えきとう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "駅頭",
+      "furiganaExpression": [
+        {
+          "text": "駅",
+          "annotation": "えき"
+        },
+        {
+          "text": "頭",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "station area",
+        "in front of a station",
+        "(at a) station"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stationsbuurt",
+        "station"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bahnhof",
+        "Bahnhofsvorplatz",
+        "Bahnhofsgegend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állomáshely",
+        "megálló",
+        "pályaudvar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) станция, вокзал"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estación"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "station"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1312790",
+  "readings": [
+    {
+      "kanaExpression": "しほんきん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "資本金",
+      "furiganaExpression": [
+        {
+          "text": "資",
+          "annotation": "し"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "capital stock"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{econ.} kapitaal",
+        "aandelenkapitaal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kapital",
+        "Kapitalfonds"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alaptőke"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[денежный] капитал"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "1278910",
+  "readings": [
+    {
+      "kanaExpression": "こうげん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "抗原",
+      "furiganaExpression": [
+        {
+          "text": "抗",
+          "annotation": "こう"
+        },
+        {
+          "text": "原",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "抗元",
+      "furiganaExpression": [
+        {
+          "text": "抗",
+          "annotation": "こう"
+        },
+        {
+          "text": "元",
+          "annotation": "げん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "antigen"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} antigen",
+        "antigeen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Antigen",
+        "Antisomatogen",
+        "Antikörperbildner"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физиол.) антиген"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "antígeno"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "antigen"
+      ]
+    }
+  ]
+}

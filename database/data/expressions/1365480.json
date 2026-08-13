@@ -1,0 +1,90 @@
+{
+  "id": "1365480",
+  "readings": [
+    {
+      "kanaExpression": "しんだん",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "診断",
+      "furiganaExpression": [
+        {
+          "text": "診",
+          "annotation": "しん"
+        },
+        {
+          "text": "断",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 2455
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "diagnosis",
+        "medical examination"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "diagnosticeren",
+        "de diagnose stellen",
+        "diagnostisch vaststellen",
+        "diagnose",
+        "diagnosticering",
+        "{fig.} onderzoek",
+        "toetsing",
+        "test",
+        "proefneming"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "diagnostic",
+        "examen médical"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "diagnostizieren",
+        "untersuchen",
+        "Diagnose",
+        "Untersuchung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "diagnózis",
+        "kórmeghatározás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "диагноз",
+        "{～する}, 診断を下す ставить диагноз"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "diagnoza",
+        "diagnosticirati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "diagnosticar",
+        "diagnóstico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "1172940",
+  "readings": [
+    {
+      "kanaExpression": "うんどうかい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "運動会",
+      "furiganaExpression": [
+        {
+          "text": "運",
+          "annotation": "うん"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 9078
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "athletic meet (esp. at a school)",
+        "sports day",
+        "field day",
+        "sports festival"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{学校の} sportdag",
+        "sportevenementendag",
+        "sportmeeting",
+        "{会社の} bedrijfssportdag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rencontre sportive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sportfest"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спортивные соревнования, спартакиада"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "športno srečanje",
+        "atletsko srečanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "encuentro atlético"
+      ]
+    }
+  ]
+}

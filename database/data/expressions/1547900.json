@@ -1,0 +1,84 @@
+{
+  "id": "1547900",
+  "readings": [
+    {
+      "kanaExpression": "らいげつ",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "来月",
+      "furiganaExpression": [
+        {
+          "text": "来",
+          "annotation": "らい"
+        },
+        {
+          "text": "月",
+          "annotation": "げつ"
+        }
+      ],
+      "rank": 6207
+    },
+    {
+      "kanjiExpression": "來月",
+      "furiganaExpression": [
+        {
+          "text": "來",
+          "annotation": "らい"
+        },
+        {
+          "text": "月",
+          "annotation": "げつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "next month"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volgende maand",
+        "komende maand",
+        "eerstkomende maand",
+        "{gew.} naaste maand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mois suivant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nächsten Monat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "следующий (будущий) месяц"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prihodnji, naslednji mesec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mes entrante",
+        "mes siguiente"
+      ]
+    }
+  ]
+}

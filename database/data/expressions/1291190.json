@@ -1,0 +1,102 @@
+{
+  "id": "1291190",
+  "readings": [
+    {
+      "kanaExpression": "さしとめ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "差し止め",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "差止め",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "め"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差止",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "止",
+          "annotation": "とめ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prohibition",
+        "ban",
+        "suspension",
+        "injunction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verbot"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tilalom",
+        "átok",
+        "kiátkozás",
+        "kitiltás",
+        "megtiltás",
+        "beszüntetés",
+        "elhalasztás",
+        "félbeszakítás",
+        "függés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запрещение; задержка, приостановка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "interdicción",
+        "prohibición"
+      ]
+    }
+  ]
+}

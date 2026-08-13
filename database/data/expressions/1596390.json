@@ -1,0 +1,91 @@
+{
+  "id": "1596390",
+  "readings": [
+    {
+      "kanaExpression": "そうじき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "掃除機",
+      "furiganaExpression": [
+        {
+          "text": "掃",
+          "annotation": "そう"
+        },
+        {
+          "text": "除",
+          "annotation": "じ"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "掃除器",
+      "furiganaExpression": [
+        {
+          "text": "掃",
+          "annotation": "そう"
+        },
+        {
+          "text": "除",
+          "annotation": "じ"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vacuum cleaner",
+        "vacuum",
+        "hoover",
+        "cleaning device"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stofzuiger"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aspirateur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Staubsauger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "porszívó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пылесос"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aspiradora"
+      ]
+    }
+  ]
+}

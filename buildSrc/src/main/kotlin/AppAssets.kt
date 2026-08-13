@@ -9,8 +9,14 @@ data class AssetLocation(
 
 object AppAssets {
 
-    const val AppDataDatabaseVersion = 15
-    const val AppDataAssetFileName = "kanji-dojo-data-base-v$AppDataDatabaseVersion.sql"
+    const val DefaultAppDataDatabaseVersion = 15
+    const val DefaultAppDataReleaseTag = "data-v15"
+    const val AppDataReleaseRepository = "0xArCHDeViL/Kaiteyo"
+
+    fun appDataAssetFileName(version: Int): String = "kanji-dojo-data-base-v$version.sql"
+
+    fun appDataReleaseUrl(version: Int, releaseTag: String): String =
+        "https://github.com/$AppDataReleaseRepository/releases/download/$releaseTag/${appDataAssetFileName(version)}"
 
     val kanaVoiceOpus = Asset(
         fileName = "ja-JP-Neural2-B.opus",
@@ -22,11 +28,14 @@ object AppAssets {
         url = "https://github.com/syt0r/Kanji-Dojo-Data/releases/download/voice-v1/ja-JP-Neural2-B.wav"
     )
 
-    val CommonAssetsLocation = AssetLocation(
+    fun commonAssetsLocation(
+        appDataVersion: Int = DefaultAppDataDatabaseVersion,
+        appDataReleaseTag: String = DefaultAppDataReleaseTag
+    ) = AssetLocation(
         expectedAssets = listOf(
             Asset(
-                fileName = AppDataAssetFileName,
-                url = "https://github.com/syt0r/Kanji-Dojo-Data/releases/download/v15.0/kanji-dojo-data-base-v15.sql"
+                fileName = appDataAssetFileName(appDataVersion),
+                url = appDataReleaseUrl(appDataVersion, appDataReleaseTag)
             ),
             Asset(
                 fileName = "text_analysis_preview.json",
@@ -51,4 +60,17 @@ object AppAssets {
         expectedAssets = listOf(kanaVoiceWav)
     )
 
+}
+
+enum class AppDataSource {
+    RELEASE,
+    SOURCE;
+
+    companion object {
+        fun parse(value: String): AppDataSource = when (value.lowercase()) {
+            "release" -> RELEASE
+            "source" -> SOURCE
+            else -> error("Unsupported app data source '$value'. Expected 'release' or 'source'.")
+        }
+    }
 }

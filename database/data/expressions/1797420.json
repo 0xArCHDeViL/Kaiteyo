@@ -1,0 +1,74 @@
+{
+  "id": "1797420",
+  "readings": [
+    {
+      "kanaExpression": "ながちょうば",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "長丁場",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "なが"
+        },
+        {
+          "text": "丁",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "長町場",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "なが"
+        },
+        {
+          "text": "町",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "long stretch",
+        "long haul",
+        "marathon",
+        "time-consuming work",
+        "long scene (in a play)",
+        "long act"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lange Dauer",
+        "große Zeitspanne",
+        "weiter Weg",
+        "weite Strecke",
+        "lange Szene",
+        "langer Akt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "длинный период"
+      ]
+    }
+  ]
+}

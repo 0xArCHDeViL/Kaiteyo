@@ -1,0 +1,129 @@
+{
+  "id": "1340600",
+  "readings": [
+    {
+      "kanaExpression": "できあがり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "出来上がり",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "来",
+          "annotation": "き"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "がり"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "でき上がり",
+      "furiganaExpression": [
+        {
+          "text": "でき"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "がり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "出来上り",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "来",
+          "annotation": "き"
+        },
+        {
+          "text": "上",
+          "annotation": "あが"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "completion",
+        "finish",
+        "workmanship",
+        "result",
+        "outcome"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oplevering",
+        "voltooiing",
+        "completering",
+        "volbrenging",
+        "{form.} voleindiging",
+        "afwerking",
+        "uitvoering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(travail) achevé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vollendung",
+        "Fertigstellung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "befejezés",
+        "kikészítés",
+        "megmunkálás",
+        "vég",
+        "elkészülni, vigyázz, rajt!",
+        "hajlandó",
+        "hozzáférhető",
+        "kéznél levő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) завершение, окончание (работы)",
+        "2) качество работы (выработки, выделки)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dovršitev",
+        "izpolnitev"
+      ]
+    }
+  ]
+}

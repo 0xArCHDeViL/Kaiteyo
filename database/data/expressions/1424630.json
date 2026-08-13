@@ -1,0 +1,43 @@
+{
+  "id": "1424630",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうしん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "中震",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "震",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "moderate earthquake"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mittleres Erdbeben (Stärke 4)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "землетрясение средней силы ((ср.) しんど【震度】)"
+      ]
+    }
+  ]
+}

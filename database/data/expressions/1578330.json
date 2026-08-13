@@ -1,0 +1,72 @@
+{
+  "id": "1578330",
+  "readings": [
+    {
+      "kanaExpression": "けんきゅうじょ",
+      "rank": 15500
+    },
+    {
+      "kanaExpression": "けんきゅうしょ"
+    },
+    {
+      "kanjiExpression": "研究所",
+      "furiganaExpression": [
+        {
+          "text": "研",
+          "annotation": "けん"
+        },
+        {
+          "text": "究",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "所",
+          "annotation": "じょ"
+        }
+      ],
+      "rank": 1920
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "research establishment",
+        "research institute",
+        "laboratory"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "laboratorium",
+        "{verk.} lab",
+        "{verk.",
+        "Belg.N.} labo",
+        "onderzoeksruimte",
+        "onderzoeksinstelling",
+        "onderzoeksinstituut"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "établissement de recherche (institut, laboratoire, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Forschungsinstitut",
+        "Institut",
+        "Laboratorium"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "научно-исследовательский институт; лаборатория"
+      ]
+    }
+  ]
+}

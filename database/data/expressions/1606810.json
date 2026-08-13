@@ -1,0 +1,134 @@
+{
+  "id": "1606810",
+  "readings": [
+    {
+      "kanaExpression": "わりあい",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "割合",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わり"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ],
+      "rank": 2793
+    },
+    {
+      "kanjiExpression": "割り合い",
+      "furiganaExpression": [
+        {
+          "text": "割",
+          "annotation": "わ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rate",
+        "ratio",
+        "percentage",
+        "proportion",
+        "comparatively",
+        "contrary to expectations"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verhouding",
+        "ratio",
+        "{wisk.} reden",
+        "proportie",
+        "percentage",
+        "verhoudingsgetal",
+        "relatief",
+        "betrekkelijk",
+        "verhoudingsgewijs",
+        "vergelijkenderwijs",
+        "naar verhouding",
+        "naar proportie",
+        "naar rato"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "proportion",
+        "rapport",
+        "ratio",
+        "comparativement",
+        "contrairement aux attentes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verhältnis",
+        "Proportion",
+        "Prozentsatz",
+        "Anteil",
+        "Beitrag",
+        "Quote",
+        "vergleichsweise",
+        "verhältnismäßig",
+        "relativ"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "arány",
+        "ár",
+        "fok",
+        "gyorsaság",
+        "kategória",
+        "osztályzat",
+        "rend",
+        "sebesség",
+        "százalék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соотношение",
+        "{～[に]} сравнительно",
+        "{…の～に} (см.) わり(…の～に)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "razmerje",
+        "odnos"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "porcentaje",
+        "proporción",
+        "tasa"
+      ]
+    }
+  ]
+}

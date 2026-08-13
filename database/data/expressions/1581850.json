@@ -1,0 +1,53 @@
+{
+  "id": "1581850",
+  "readings": [
+    {
+      "kanaExpression": "ちょくゆにゅう",
+      "rank": 32000
+    },
+    {
+      "kanaExpression": "じきゆにゅう"
+    },
+    {
+      "kanjiExpression": "直輸入",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "ちょく"
+        },
+        {
+          "text": "輸",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "direct import",
+        "direct importation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Direktimport",
+        "direkt importieren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "импорт товаров путём заключения сделки непосредственно с заграничным поставщиком",
+        "(эк.) прямой импорт"
+      ]
+    }
+  ]
+}

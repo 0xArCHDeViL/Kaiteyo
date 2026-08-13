@@ -1,0 +1,66 @@
+{
+  "id": "1475490",
+  "readings": [
+    {
+      "kanaExpression": "うすっぺら",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "薄っぺら",
+      "furiganaExpression": [
+        {
+          "text": "薄",
+          "annotation": "うす"
+        },
+        {
+          "text": "っぺら"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "very thin",
+        "flimsy",
+        "cheap",
+        "shallow"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "heel dun",
+        "dunnetjes",
+        "nietig",
+        "goedkoop",
+        "oppervlakkig",
+        "niet-diepgaand",
+        "onbenullig",
+        "wuft",
+        "frivool"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dünn",
+        "flach",
+        "seicht",
+        "oberflächlich",
+        "äußerlich",
+        "leichtfertig"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": ～な",
+        "1) очень тонкий",
+        "2) поверхностный; легкомысленный, пустой"
+      ]
+    }
+  ]
+}

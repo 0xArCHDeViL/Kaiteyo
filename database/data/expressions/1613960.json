@@ -1,0 +1,69 @@
+{
+  "id": "1613960",
+  "readings": [
+    {
+      "kanaExpression": "がいよう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "外洋",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "洋",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "open sea",
+        "ocean"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ruime zee",
+        "ruime sop",
+        "volle zee",
+        "open zee",
+        "vrije zee",
+        "oceaan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "offene See",
+        "offenes Meer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "óceán"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "открытое море, океан"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mar abierto",
+        "océano"
+      ]
+    }
+  ]
+}

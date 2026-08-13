@@ -1,0 +1,69 @@
+{
+  "id": "1344060",
+  "readings": [
+    {
+      "kanaExpression": "しょしき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "書式",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 13980
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prescribed form (of writing)",
+        "format"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opmaak",
+        "voorgeschreven vorm",
+        "format"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Formular",
+        "Vordruck",
+        "Form",
+        "Format",
+        "Formatierung (eines Zeichens, Absatzes, Abschnittes etc.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ívnagyság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "установленная форма (документа); бланк"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "formulario",
+        "modelo de escrito"
+      ]
+    }
+  ]
+}

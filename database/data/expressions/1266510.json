@@ -1,0 +1,74 @@
+{
+  "id": "1266510",
+  "readings": [
+    {
+      "kanaExpression": "こしょう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "呼称",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "こ"
+        },
+        {
+          "text": "称",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 11270
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "name",
+        "designation",
+        "denomination",
+        "naming",
+        "giving a name"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "noemen",
+        "heten",
+        "aanduiden als",
+        "benoemen",
+        "van een naam voorzien",
+        "naam",
+        "benaming",
+        "betiteling",
+        "het benoemen",
+        "naamgeving",
+        "denominatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nennen",
+        "bezeichnen",
+        "Bezeichnen",
+        "Bezeichnung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "название"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "exclamar",
+        "gritar",
+        "llamar por nombre"
+      ]
+    }
+  ]
+}

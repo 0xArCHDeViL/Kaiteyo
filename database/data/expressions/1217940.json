@@ -1,0 +1,54 @@
+{
+  "id": "1217940",
+  "readings": [
+    {
+      "kanaExpression": "ねがいでる",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "願い出る",
+      "furiganaExpression": [
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to ask for",
+        "to apply for",
+        "to make an application for",
+        "to file a request for",
+        "to submit (e.g. one\u0027s resignation)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Bitte einreichen",
+        "eine Bewerbung einreichen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подавать прошение (заявление)"
+      ]
+    }
+  ]
+}

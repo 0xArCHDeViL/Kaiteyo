@@ -1,0 +1,57 @@
+{
+  "id": "1290380",
+  "readings": [
+    {
+      "kanaExpression": "こんざい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "混在",
+      "furiganaExpression": [
+        {
+          "text": "混",
+          "annotation": "こん"
+        },
+        {
+          "text": "在",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 12234
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "existing alongside (each other)",
+        "mixture",
+        "intermingling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dooreengemengd zijn",
+        "gemixt voorkomen",
+        "door elkaar bestaan",
+        "mix",
+        "vermenging"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vermischt sein",
+        "nebeneinander existieren",
+        "Vermischung"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mezcla"
+      ]
+    }
+  ]
+}

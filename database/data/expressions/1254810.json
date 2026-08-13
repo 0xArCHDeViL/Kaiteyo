@@ -1,0 +1,90 @@
+{
+  "id": "1254810",
+  "readings": [
+    {
+      "kanaExpression": "けっこんしき",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "結婚式",
+      "furiganaExpression": [
+        {
+          "text": "結",
+          "annotation": "けっ"
+        },
+        {
+          "text": "婚",
+          "annotation": "こん"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 4263
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "marriage ceremony",
+        "wedding",
+        "nuptials"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bruiloft",
+        "huwelijksceremonie",
+        "huwelijksplechtigheid",
+        "trouwplechtigheid",
+        "huwelijksinzegening",
+        "{inform.} trouwerij"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cérémonie de mariage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hochzeit",
+        "Hochzeitsfeier",
+        "Trauzeremonie",
+        "Trauungszeremonie",
+        "Trauung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "esküvő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "свадебный обряд, свадьба, бракосочетание"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "poroka",
+        "svatba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ceremonia de matrimonio",
+        "boda"
+      ]
+    }
+  ]
+}

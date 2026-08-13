@@ -1,0 +1,69 @@
+{
+  "id": "1168200",
+  "readings": [
+    {
+      "kanaExpression": "いんさつき",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "印刷機",
+      "furiganaExpression": [
+        {
+          "text": "印",
+          "annotation": "いん"
+        },
+        {
+          "text": "刷",
+          "annotation": "さつ"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "printing press"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boekdrukpers",
+        "drukpers",
+        "pers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Druckmaschine",
+        "Druckerpresse",
+        "Drucker"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "печатная машина, типографский станок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "prensa"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tryckpress"
+      ]
+    }
+  ]
+}

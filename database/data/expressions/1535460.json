@@ -1,0 +1,78 @@
+{
+  "id": "1535460",
+  "readings": [
+    {
+      "kanaExpression": "もくじ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "目次",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "もく"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 3823
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "table of contents",
+        "contents"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inhoud",
+        "inhoudsopgave"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "table des matières"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Inhaltsverzeichnis",
+        "Inhalt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tartalomjegyzék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оглавление"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "índice de contenidos",
+        "tabla de contenidos"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "register",
+        "innehållsförteckning"
+      ]
+    }
+  ]
+}

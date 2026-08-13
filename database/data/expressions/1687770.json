@@ -1,0 +1,37 @@
+{
+  "id": "1687770",
+  "readings": [
+    {
+      "kanaExpression": "どうりつ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "同率",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the same ratio or percentage"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одинаковый (тот же) процент (тариф, показатель)"
+      ]
+    }
+  ]
+}

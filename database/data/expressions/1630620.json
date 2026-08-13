@@ -1,0 +1,60 @@
+{
+  "id": "1630620",
+  "readings": [
+    {
+      "kanaExpression": "けつじょう",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "欠場",
+      "furiganaExpression": [
+        {
+          "text": "欠",
+          "annotation": "けつ"
+        },
+        {
+          "text": "場",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "absence",
+        "not taking part"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afwezigheid",
+        "verstek",
+        "niet-optreden",
+        "no-show",
+        "wegblijven",
+        "niet optreden",
+        "verstek laten gaan",
+        "niet komen opdagen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fehlen",
+        "Nicht-Antritt",
+        "fehlen",
+        "nicht antreten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hiány"
+      ]
+    }
+  ]
+}

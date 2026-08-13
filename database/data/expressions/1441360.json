@@ -1,0 +1,72 @@
+{
+  "id": "1441360",
+  "readings": [
+    {
+      "kanaExpression": "てんよう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "転用",
+      "furiganaExpression": [
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 12479
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "diversion",
+        "putting something to another use"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "herbestemmen",
+        "een andere bestemming geven",
+        "heralloceren",
+        "{jur.} aliëneren",
+        "herbestemming",
+        "herallocatie",
+        "{jur.} aliënatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zweckentfremden",
+        "widerrechtlich verwenden",
+        "unterschlagen",
+        "Zweckentfremdung",
+        "widerrechtliche Verwendung",
+        "Unterschlagung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elterelés",
+        "elterelő hadmozdulat",
+        "eltérítés",
+        "elvezetés",
+        "terelőút"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "применение [не по назначению]",
+        "{～する} применять [не по назначению]"
+      ]
+    }
+  ]
+}

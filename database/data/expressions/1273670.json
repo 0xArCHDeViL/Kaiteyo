@@ -1,0 +1,56 @@
+{
+  "id": "1273670",
+  "readings": [
+    {
+      "kanaExpression": "こうこく",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "公告",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "告",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public announcement",
+        "official notice"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentlich bekannt machen",
+        "öffentlich ankündigen",
+        "öffentliche Bekanntmachung",
+        "öffentliche Ankündigung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "официальное извещение",
+        "{～する} официально извещать (оповещать)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "javni razglas",
+        "uradno obvestilo",
+        "javno razglasiti"
+      ]
+    }
+  ]
+}

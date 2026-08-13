@@ -1,0 +1,50 @@
+{
+  "id": "1252420",
+  "readings": [
+    {
+      "kanaExpression": "けいさつちょう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "警察庁",
+      "furiganaExpression": [
+        {
+          "text": "警",
+          "annotation": "けい"
+        },
+        {
+          "text": "察",
+          "annotation": "さつ"
+        },
+        {
+          "text": "庁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 8030
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "National Police Agency"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{Jap.pol.} Nationale Politiedienst",
+        "Nationaal Politieagentschap",
+        "{Eng.} National Police Agency",
+        "{afk.} NPA"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nationale Polizeibehörde"
+      ]
+    }
+  ]
+}

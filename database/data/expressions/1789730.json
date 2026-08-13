@@ -1,0 +1,136 @@
+{
+  "id": "1789730",
+  "readings": [
+    {
+      "kanaExpression": "さしかえ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "差し替え",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "差替え",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差し換え",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差換え",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差替",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "替",
+          "annotation": "かえ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差しかえ",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "しかえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "replacement",
+        "correcting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Austausch",
+        "Erneuerung",
+        "Wechsel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felváltás",
+        "helyettesítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) замена",
+        "2) смена программы (в кино)"
+      ]
+    }
+  ]
+}

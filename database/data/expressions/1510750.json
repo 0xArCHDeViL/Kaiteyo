@@ -1,0 +1,71 @@
+{
+  "id": "1510750",
+  "readings": [
+    {
+      "kanaExpression": "かわりはてる",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "変わり果てる",
+      "furiganaExpression": [
+        {
+          "text": "変",
+          "annotation": "か"
+        },
+        {
+          "text": "わり"
+        },
+        {
+          "text": "果",
+          "annotation": "は"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "変り果てる",
+      "furiganaExpression": [
+        {
+          "text": "変",
+          "annotation": "かわ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "果",
+          "annotation": "は"
+        },
+        {
+          "text": "てる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be completely changed (for the worse)",
+        "to be transformed"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich völlig verändern",
+        "ganz anders werden",
+        "ein anderer Mensch werden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "совершенно измениться, стать непохожим на себя"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "1254550",
+  "readings": [
+    {
+      "kanaExpression": "あなぐま",
+      "rank": 36000
+    },
+    {
+      "kanaExpression": "あなくま"
+    },
+    {
+      "kanaExpression": "アナグマ"
+    },
+    {
+      "kanjiExpression": "穴熊",
+      "furiganaExpression": [
+        {
+          "text": "穴",
+          "annotation": "あな"
+        },
+        {
+          "text": "熊",
+          "annotation": "ぐま"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "貛",
+      "furiganaExpression": [
+        {
+          "text": "貛",
+          "annotation": "あなぐま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "badger",
+        "Eurasian badger (Meles meles)",
+        "anaguma castle (defensive opening)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} das",
+        "Meles meles",
+        "{shōgi} egelstelling {waarbij de koning in een hoek door verdedigende stukken omringd is}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dachs",
+        "Meles meles",
+        "Dachse",
+        "Melinae",
+        "Winterschlaf haltender Bär",
+        "in einer Höhle überwinternder Bär",
+        "Anaguma (eine Festungsstellung)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "borz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "барсук-медведь, барсук анакума, Meles anakuma (Temminck.)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "grävling"
+      ]
+    }
+  ]
+}

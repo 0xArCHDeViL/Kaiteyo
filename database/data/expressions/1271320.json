@@ -1,0 +1,77 @@
+{
+  "id": "1271320",
+  "readings": [
+    {
+      "kanaExpression": "ごさ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "誤差",
+      "furiganaExpression": [
+        {
+          "text": "誤",
+          "annotation": "ご"
+        },
+        {
+          "text": "差",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 10378
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "measurement error",
+        "calculation error"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "foutenmarge"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "erreur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fehler",
+        "Abweichung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mérési hiba",
+        "számítási hiba",
+        "hiba"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "погрешность, отклонение (при вычислениях)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "napaka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "error"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1166550",
+  "readings": [
+    {
+      "kanaExpression": "いっぽうつうこう",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "一方通行",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "方",
+          "annotation": "ぽう"
+        },
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one-way traffic",
+        "one-way (e.g. communication)",
+        "one-sided"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eenrichtingsverkeer",
+        "{掲示} verboden in te rijden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einbahnverkehr",
+        "einbahniger Verkehr",
+        "Einbahn…",
+        "Einbahnstraße",
+        "Einseitigkeit (im Dialog)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tráfico de un sentido"
+      ]
+    }
+  ]
+}

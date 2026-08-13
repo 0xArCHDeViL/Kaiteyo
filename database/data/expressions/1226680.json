@@ -1,0 +1,56 @@
+{
+  "id": "1226680",
+  "readings": [
+    {
+      "kanaExpression": "きゃくえん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "客演",
+      "furiganaExpression": [
+        {
+          "text": "客",
+          "annotation": "きゃく"
+        },
+        {
+          "text": "演",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "guest appearance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een gastoptreden doen",
+        "een gastrol spelen",
+        "vervullen",
+        "gastoptreden",
+        "gastrol"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in einer Gastrolle auftreten",
+        "Gastauftritt",
+        "Gastspiel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гастроли (артиста в чужой труппе)",
+        "{～する} гастролировать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "1215440",
+  "readings": [
+    {
+      "kanaExpression": "まあい",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "間合い",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "ま"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "間合",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "ま"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pause",
+        "interval",
+        "distance",
+        "range",
+        "reach",
+        "suitable time",
+        "appropriate opportunity",
+        "distance between opponents (kendo)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pause",
+        "Zwischenpause",
+        "Distanz",
+        "Abstand",
+        "der richtige Augenblick",
+        "Timing",
+        "Gelegenheit",
+        "Chance"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csilletávköz",
+        "féltónus",
+        "hangköz",
+        "intervallum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) время (до чего-л.)",
+        "2) расстояние"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "intervalo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mellanrum"
+      ]
+    }
+  ]
+}

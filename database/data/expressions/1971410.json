@@ -1,0 +1,58 @@
+{
+  "id": "1971410",
+  "readings": [
+    {
+      "kanaExpression": "いカメラ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "胃カメラ",
+      "furiganaExpression": [
+        {
+          "text": "胃",
+          "annotation": "い"
+        },
+        {
+          "text": "カメラ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "endoscope",
+        "gastrocamera"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} maagcamera",
+        "{oneig.} maagdarm-endoscoop",
+        "gastro-intestinale endoscoop",
+        "fiberscoop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gastrokamera"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) гастрокамера"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gastrocámara"
+      ]
+    }
+  ]
+}

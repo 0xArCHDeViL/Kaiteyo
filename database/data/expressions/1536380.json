@@ -1,0 +1,58 @@
+{
+  "id": "1536380",
+  "readings": [
+    {
+      "kanaExpression": "よなよな",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "夜な夜な",
+      "furiganaExpression": [
+        {
+          "text": "夜",
+          "annotation": "よ"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "夜",
+          "annotation": "よ"
+        },
+        {
+          "text": "な"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "every evening",
+        "night after night"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nacht für Nacht",
+        "jede Nacht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каждую ночь; по ночам"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cada noche",
+        "todas las noches"
+      ]
+    }
+  ]
+}

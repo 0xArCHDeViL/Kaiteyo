@@ -1,0 +1,63 @@
+{
+  "id": "1241630",
+  "readings": [
+    {
+      "kanaExpression": "きんだん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "禁断",
+      "furiganaExpression": [
+        {
+          "text": "禁",
+          "annotation": "きん"
+        },
+        {
+          "text": "断",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prohibition",
+        "interdiction",
+        "forbidden",
+        "prohibited"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "strenges Verbot",
+        "Tabu",
+        "Entzug",
+        "Abstinenz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szesztilalom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) запрещение",
+        "{～する} запрещать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "prohibición",
+        "interdicción"
+      ]
+    }
+  ]
+}

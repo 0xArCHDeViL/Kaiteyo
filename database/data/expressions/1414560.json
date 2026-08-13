@@ -1,0 +1,74 @@
+{
+  "id": "1414560",
+  "readings": [
+    {
+      "kanaExpression": "だいちょう",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "おおわた"
+    },
+    {
+      "kanjiExpression": "大腸",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "だい"
+        },
+        {
+          "text": "腸",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "large intestine",
+        "large bowel",
+        "colon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} dikke darm",
+        "colon"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "deux points"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dickdarm",
+        "Intestinum crassum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kettőspont"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "colon"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "grovtarm"
+      ]
+    }
+  ]
+}

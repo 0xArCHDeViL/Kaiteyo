@@ -1,0 +1,66 @@
+{
+  "id": "1832860",
+  "readings": [
+    {
+      "kanaExpression": "しょくぎょうびょう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "職業病",
+      "furiganaExpression": [
+        {
+          "text": "職",
+          "annotation": "しょく"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "occupational disease"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beroepsziekte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Berufskrankheit",
+        "Berufserkrankung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "foglalkozási betegségek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "профессиональная болезнь"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "yrkessjukdom"
+      ]
+    }
+  ]
+}

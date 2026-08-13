@@ -1,0 +1,96 @@
+{
+  "id": "1546900",
+  "readings": [
+    {
+      "kanaExpression": "おどりこ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "踊り子",
+      "furiganaExpression": [
+        {
+          "text": "踊",
+          "annotation": "おど"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "子",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "踊子",
+      "furiganaExpression": [
+        {
+          "text": "踊",
+          "annotation": "おどり"
+        },
+        {
+          "text": "子",
+          "annotation": "こ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dancer (usu. female)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "danseres",
+        "danseuse",
+        "{バレエの～} balletdanseres",
+        "ballerina",
+        "{anat.} fontanel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "danseur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tänzerin",
+        "Showgirl",
+        "Fontanelle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "táncos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "танцовщица, балерина"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bailarín"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "dansare",
+        "dansör"
+      ]
+    }
+  ]
+}

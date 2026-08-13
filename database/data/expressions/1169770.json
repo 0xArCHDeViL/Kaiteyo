@@ -1,0 +1,62 @@
+{
+  "id": "1169770",
+  "readings": [
+    {
+      "kanaExpression": "のみまわる",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "飲み回る",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "の"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "飲みまわる",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "の"
+        },
+        {
+          "text": "みまわる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to go on a pub-crawl",
+        "to drink at a round of places"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ходить из одного кабачка (бара (и т. п.)) в другой"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "beber en muchos lugares"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1582620",
+  "readings": [
+    {
+      "kanaExpression": "なんとう",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "みなみひがし"
+    },
+    {
+      "kanjiExpression": "南東",
+      "furiganaExpression": [
+        {
+          "text": "南",
+          "annotation": "なん"
+        },
+        {
+          "text": "東",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 14390
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "southeast"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zuidoosten",
+        "{afk.} Z.O."
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sud-est"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Südost",
+        "Südosten",
+        "nach Südosten",
+        "südöstlich"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "юго-восток; (мор.) зюйд-ост"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jugovzhod"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sureste"
+      ]
+    }
+  ]
+}

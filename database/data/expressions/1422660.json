@@ -1,0 +1,60 @@
+{
+  "id": "1422660",
+  "readings": [
+    {
+      "kanaExpression": "ちゃかい",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "さかい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "茶会",
+      "furiganaExpression": [
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tea party",
+        "get-together",
+        "tea ceremony"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "theekransje",
+        "theevisite",
+        "{meton.} thee",
+        "bijeenkomst waarbij een theeceremonie opgevoerd wordt",
+        "ceremoniële theepartij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Teegesellschaft",
+        "Teezeremonie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "званый чай"
+      ]
+    }
+  ]
+}

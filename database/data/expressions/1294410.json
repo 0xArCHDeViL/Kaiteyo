@@ -1,0 +1,83 @@
+{
+  "id": "1294410",
+  "readings": [
+    {
+      "kanaExpression": "さいしき",
+      "rank": 26500
+    },
+    {
+      "kanaExpression": "さいしょく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "彩色",
+      "furiganaExpression": [
+        {
+          "text": "彩",
+          "annotation": "さい"
+        },
+        {
+          "text": "色",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "colouring",
+        "coloring",
+        "colouration",
+        "coloration",
+        "painting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleuring",
+        "kleursel",
+        "kleurstof",
+        "kleuren",
+        "verven"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "coloration",
+        "coloris",
+        "peinture",
+        "teinte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kolorit",
+        "Färbung",
+        "Farbgebung",
+        "färben",
+        "kolorieren",
+        "bemalen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "színeződés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окраска",
+        "{～する} раскрашивать",
+        "{～した} раскрашенный, окрашенный; цветной"
+      ]
+    }
+  ]
+}

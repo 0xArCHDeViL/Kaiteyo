@@ -1,0 +1,69 @@
+{
+  "id": "1490030",
+  "readings": [
+    {
+      "kanaExpression": "ひょうぎいん",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "評議員",
+      "furiganaExpression": [
+        {
+          "text": "評",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trustee",
+        "councillor (councilor)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "raadslid",
+        "{veroud.} raadspersoon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rat",
+        "Berater",
+        "Ratgeber",
+        "Ratsmitglied",
+        "Senator",
+        "Aufsichtsratsmitglied"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ügyintézőség",
+        "bizottsági ülés",
+        "igazgatósági ülés",
+        "választmányi ülés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "член совета"
+      ]
+    }
+  ]
+}

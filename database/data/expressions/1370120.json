@@ -1,0 +1,49 @@
+{
+  "id": "1370120",
+  "readings": [
+    {
+      "kanaExpression": "じんふぜん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "腎不全",
+      "furiganaExpression": [
+        {
+          "text": "腎",
+          "annotation": "じん"
+        },
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "全",
+          "annotation": "ぜん"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "kidney failure",
+        "renal failure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Niereninsuffizienz",
+        "Nierenversagen"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "njursvikt"
+      ]
+    }
+  ]
+}

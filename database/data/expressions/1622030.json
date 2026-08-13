@@ -1,0 +1,75 @@
+{
+  "id": "1622030",
+  "readings": [
+    {
+      "kanaExpression": "ぼうたかとび",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "棒高跳び",
+      "furiganaExpression": [
+        {
+          "text": "棒",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "高",
+          "annotation": "たか"
+        },
+        {
+          "text": "跳",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "棒高跳",
+      "furiganaExpression": [
+        {
+          "text": "棒",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "高",
+          "annotation": "たか"
+        },
+        {
+          "text": "跳",
+          "annotation": "とび"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pole vault"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sportt.} polsstoksprong",
+        "het polsstokspringen",
+        "het polsstokhoogspringen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stabhochsprung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) прыжок с шестом"
+      ]
+    }
+  ]
+}

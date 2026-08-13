@@ -1,0 +1,49 @@
+{
+  "id": "1619390",
+  "readings": [
+    {
+      "kanaExpression": "そうしゃ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "掃射",
+      "furiganaExpression": [
+        {
+          "text": "掃",
+          "annotation": "そう"
+        },
+        {
+          "text": "射",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sweeping with fire",
+        "mowing down",
+        "strafing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unter Beschuss nehmen",
+        "bestreichen",
+        "beharken",
+        "Beschuss",
+        "Bestreichung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стрельба с рассеиванием по фронту"
+      ]
+    }
+  ]
+}

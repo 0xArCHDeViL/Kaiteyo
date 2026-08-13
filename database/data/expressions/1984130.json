@@ -1,0 +1,60 @@
+{
+  "id": "1984130",
+  "readings": [
+    {
+      "kanaExpression": "つうはん",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "通販",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "販",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 4609
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "online shopping",
+        "e-commerce",
+        "mail order"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "postorder",
+        "catalogusverkoop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Versandhandel",
+        "Versandvertrieb",
+        "Versandhaus"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pedido por correo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "postorder"
+      ]
+    }
+  ]
+}

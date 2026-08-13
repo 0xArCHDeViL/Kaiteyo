@@ -1,0 +1,50 @@
+{
+  "id": "1805340",
+  "readings": [
+    {
+      "kanaExpression": "ほけきょう",
+      "rank": 34000
+    },
+    {
+      "kanaExpression": "ほっけきょう"
+    },
+    {
+      "kanjiExpression": "法華経",
+      "furiganaExpression": [
+        {
+          "text": "法",
+          "annotation": "ほっ"
+        },
+        {
+          "text": "華",
+          "annotation": "け"
+        },
+        {
+          "text": "経",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Lotus Sutra"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lotos-Sūtra"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "Садхарма Пундарика сутра (священная сутра секты Нитирэн)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2854977",
+  "readings": [
+    {
+      "kanaExpression": "おそうしき",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "お葬式",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "葬",
+          "annotation": "そう"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "御葬式",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "葬",
+          "annotation": "そう"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "funeral"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beerdigung",
+        "Bestattung",
+        "Begräbnisfeier",
+        "Trauerfeier"
+      ]
+    }
+  ]
+}

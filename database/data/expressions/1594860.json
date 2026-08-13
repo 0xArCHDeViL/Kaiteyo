@@ -1,0 +1,82 @@
+{
+  "id": "1594860",
+  "readings": [
+    {
+      "kanaExpression": "しゅっしょしんたい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "出処進退",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "しゅっ"
+        },
+        {
+          "text": "処",
+          "annotation": "しょ"
+        },
+        {
+          "text": "進",
+          "annotation": "しん"
+        },
+        {
+          "text": "退",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "出所進退",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "しゅっ"
+        },
+        {
+          "text": "所",
+          "annotation": "しょ"
+        },
+        {
+          "text": "進",
+          "annotation": "しん"
+        },
+        {
+          "text": "退",
+          "annotation": "たい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "staying in one\u0027s position or resigning",
+        "course of action",
+        "move"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verhalten",
+        "Haltung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:) 出処進退を誤らず не ошибаться ни в чём ((букв.) ни на службе, ни в частной жизни, ни во всех своих действиях)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pensar en el camino profesional a seguir",
+        "decidir si uno permanece en el cargo o se retira"
+      ]
+    }
+  ]
+}

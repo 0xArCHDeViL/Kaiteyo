@@ -1,0 +1,50 @@
+{
+  "id": "1760970",
+  "readings": [
+    {
+      "kanaExpression": "こうくん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "校訓",
+      "furiganaExpression": [
+        {
+          "text": "校",
+          "annotation": "こう"
+        },
+        {
+          "text": "訓",
+          "annotation": "くん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "school precepts"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schoolleuze",
+        "schoolmotto"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schulmotto"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) школьные правила"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1658460",
+  "readings": [
+    {
+      "kanaExpression": "もちあじ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "持ち味",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "味",
+          "annotation": "あじ"
+        }
+      ],
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "持味",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "味",
+          "annotation": "あじ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inherent flavor",
+        "inherent flavour",
+        "natural taste",
+        "distinctive characteristic (of a person, work, etc.)",
+        "peculiar quality",
+        "special ability"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "typische smaak",
+        "{fig.} het karakteristieke",
+        "het eigene",
+        "het typische"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "natürlicher Geschmack",
+        "eigener Geschmack",
+        "charakteristische Qualität"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) присущий (свойственный) (чему-л.) вкус",
+        "2) (перен.) отличительные особенности"
+      ]
+    }
+  ]
+}

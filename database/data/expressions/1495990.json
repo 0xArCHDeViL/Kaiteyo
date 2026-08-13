@@ -1,0 +1,102 @@
+{
+  "id": "1495990",
+  "readings": [
+    {
+      "kanaExpression": "つけたす",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "付け足す",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "足",
+          "annotation": "た"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "つけ足す",
+      "furiganaExpression": [
+        {
+          "text": "つけ"
+        },
+        {
+          "text": "足",
+          "annotation": "た"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "付足す",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つけ"
+        },
+        {
+          "text": "足",
+          "annotation": "た"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to add (to)",
+        "to add on",
+        "to append"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ajouter qqc"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ergänzen",
+        "hinzufügen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дополнять; добавлять; приписывать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dodati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "añadir",
+        "adicionar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1862840",
+  "readings": [
+    {
+      "kanaExpression": "おひらき",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "お開き",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "開",
+          "annotation": "ひら"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "御開き",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "開",
+          "annotation": "ひら"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "breakup (of a ceremony, wedding, party, meeting, etc.)",
+        "closure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schluss eines Gastmahles"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) окончание (напр. банкета)",
+        "{～になる} окончиться",
+        "{～にする} окончить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fin",
+        "conclusión",
+        "salida",
+        "partida",
+        "retirada"
+      ]
+    }
+  ]
+}

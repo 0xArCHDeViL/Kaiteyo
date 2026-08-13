@@ -1,0 +1,52 @@
+{
+  "id": "1673970",
+  "readings": [
+    {
+      "kanaExpression": "ぶたいかんとく",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "舞台監督",
+      "furiganaExpression": [
+        {
+          "text": "舞",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "台",
+          "annotation": "たい"
+        },
+        {
+          "text": "監",
+          "annotation": "かん"
+        },
+        {
+          "text": "督",
+          "annotation": "とく"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stage director"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bühnenleitung",
+        "Bühnenleiter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(театр.) режиссёр"
+      ]
+    }
+  ]
+}

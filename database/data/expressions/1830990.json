@@ -1,0 +1,58 @@
+{
+  "id": "1830990",
+  "readings": [
+    {
+      "kanaExpression": "けいさつてちょう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "警察手帳",
+      "furiganaExpression": [
+        {
+          "text": "警",
+          "annotation": "けい"
+        },
+        {
+          "text": "察",
+          "annotation": "さつ"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "帳",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "police identification card"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "von der Polizei benutztes Notizbuch",
+        "Polizeiausweis (ursprünglich in Form eines Notizbüchleins aus braunem Leder)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "записная книжка полицейского"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "placa de policía"
+      ]
+    }
+  ]
+}

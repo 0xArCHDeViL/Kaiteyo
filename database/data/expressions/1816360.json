@@ -1,0 +1,60 @@
+{
+  "id": "1816360",
+  "readings": [
+    {
+      "kanaExpression": "じじつ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "時日",
+      "furiganaExpression": [
+        {
+          "text": "時",
+          "annotation": "じ"
+        },
+        {
+          "text": "日",
+          "annotation": "じつ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "date",
+        "time"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Termin",
+        "Datum",
+        "Tag",
+        "Zeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "datolya",
+        "dátum",
+        "időpont",
+        "randevú",
+        "randi",
+        "találka",
+        "ütem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) дата, день",
+        "2) время, срок"
+      ]
+    }
+  ]
+}

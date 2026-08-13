@@ -1,0 +1,125 @@
+{
+  "id": "1505810",
+  "readings": [
+    {
+      "kanaExpression": "ききて",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "聞き手",
+      "furiganaExpression": [
+        {
+          "text": "聞",
+          "annotation": "き"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ],
+      "rank": 14647
+    },
+    {
+      "kanjiExpression": "聞手",
+      "furiganaExpression": [
+        {
+          "text": "聞",
+          "annotation": "きき"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "聴き手",
+      "furiganaExpression": [
+        {
+          "text": "聴",
+          "annotation": "き"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "聴手",
+      "furiganaExpression": [
+        {
+          "text": "聴",
+          "annotation": "きき"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hearer",
+        "listener",
+        "audience",
+        "interviewer",
+        "questioner"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "auditeur",
+        "interlocuteur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zuhörer",
+        "Hörer",
+        "Rezipient",
+        "Zuhörerschaft",
+        "Publikum",
+        "guter Zuhörer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hallgató",
+        "közönség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слушатель; слушатели, аудитория"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "poslušalec",
+        "občinstvo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entrevistador",
+        "oyente"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1312370",
+  "readings": [
+    {
+      "kanaExpression": "しけんかん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "試験管",
+      "furiganaExpression": [
+        {
+          "text": "試",
+          "annotation": "し"
+        },
+        {
+          "text": "験",
+          "annotation": "けん"
+        },
+        {
+          "text": "管",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "test tube"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "proefbuis",
+        "reageerbuis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Proberöhrchen",
+        "Reagenzglas",
+        "Probeglas"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kémcső"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "provglas",
+        "provrör"
+      ]
+    }
+  ]
+}

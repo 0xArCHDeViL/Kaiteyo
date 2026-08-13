@@ -1,0 +1,62 @@
+{
+  "id": "1289030",
+  "readings": [
+    {
+      "kanaExpression": "いまいち",
+      "rank": 7548
+    },
+    {
+      "kanaExpression": "イマイチ",
+      "rank": 8055
+    },
+    {
+      "kanjiExpression": "今一",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "いま"
+        },
+        {
+          "text": "一",
+          "annotation": "いち"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "今いち",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "いま"
+        },
+        {
+          "text": "いち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "not quite (right)",
+        "not very good",
+        "somewhat (lacking)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zu wünschen übrig lassend",
+        "nicht ganz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eggyel többet"
+      ]
+    }
+  ]
+}

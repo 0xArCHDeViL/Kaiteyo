@@ -1,0 +1,46 @@
+{
+  "id": "1583120",
+  "readings": [
+    {
+      "kanaExpression": "はちほん",
+      "rank": 28000
+    },
+    {
+      "kanaExpression": "はっぽん"
+    },
+    {
+      "kanjiExpression": "八本",
+      "furiganaExpression": [
+        {
+          "text": "八",
+          "annotation": "はち"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eight (long cylindrical things)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "acht Flaschen (bzw. andere lange, schmale Dinge)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyolc"
+      ]
+    }
+  ]
+}

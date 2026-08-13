@@ -1,0 +1,111 @@
+{
+  "id": "1592380",
+  "readings": [
+    {
+      "kanaExpression": "くら",
+      "rank": 10010
+    },
+    {
+      "kanjiExpression": "蔵",
+      "furiganaExpression": [
+        {
+          "text": "蔵",
+          "annotation": "くら"
+        }
+      ],
+      "rank": 4795
+    },
+    {
+      "kanjiExpression": "倉",
+      "furiganaExpression": [
+        {
+          "text": "倉",
+          "annotation": "くら"
+        }
+      ],
+      "rank": 12826
+    },
+    {
+      "kanjiExpression": "庫",
+      "furiganaExpression": [
+        {
+          "text": "庫",
+          "annotation": "くら"
+        }
+      ],
+      "rank": 10608
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "warehouse",
+        "storehouse",
+        "cellar",
+        "magazine",
+        "granary",
+        "godown",
+        "depository",
+        "treasury",
+        "elevator"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pakhuis",
+        "opslagplaats",
+        "voorraadschuur",
+        "bergplaats",
+        "magazijn",
+        "{地下の} kelder"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cellier",
+        "débarras",
+        "dépôt",
+        "entrepôt",
+        "grenier",
+        "magasin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Speicher",
+        "Magazin",
+        "Lager",
+        "Lagerhaus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "raktárépület",
+        "csűr",
+        "megőrzőhely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кладовая",
+        "склад",
+        "складское помещение",
+        "склад; сарай, кладовая; амбар; погреб; хранилище"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "silo",
+        "almacen de grano",
+        "almacén"
+      ]
+    }
+  ]
+}

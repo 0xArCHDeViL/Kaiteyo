@@ -1,0 +1,104 @@
+{
+  "id": "1546770",
+  "readings": [
+    {
+      "kanaExpression": "ようし",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "要旨",
+      "furiganaExpression": [
+        {
+          "text": "要",
+          "annotation": "よう"
+        },
+        {
+          "text": "旨",
+          "annotation": "し"
+        }
+      ],
+      "rank": 7672
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(main) point",
+        "gist",
+        "key points",
+        "essentials",
+        "substance",
+        "summary",
+        "outline",
+        "abstract"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdgedachte",
+        "grondgedachte",
+        "kern",
+        "essentie",
+        "hoofdzaak",
+        "pointe",
+        "clou",
+        "strekking",
+        "hoofdinhoud",
+        "teneur",
+        "gedachte",
+        "tendens",
+        "portee",
+        "tendentie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "point principal",
+        "essentiel",
+        "résumé",
+        "bases",
+        "fondamentaux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das Wesentliche",
+        "Kern",
+        "Hauptinhalt",
+        "Hauptsache",
+        "Zusammenfassung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ceruzahegy",
+        "csattanó",
+        "egység",
+        "fali csatlakozó",
+        "konnektor",
+        "poén",
+        "pontérték",
+        "összefoglalás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[основное] содержание; суть"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lo esencial",
+        "punto principal",
+        "lo mas importante"
+      ]
+    }
+  ]
+}

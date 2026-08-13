@@ -1,0 +1,45 @@
+{
+  "id": "1645380",
+  "readings": [
+    {
+      "kanaExpression": "せいふう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "清風",
+      "furiganaExpression": [
+        {
+          "text": "清",
+          "annotation": "せい"
+        },
+        {
+          "text": "風",
+          "annotation": "ふう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "breath of fresh air",
+        "cool (refreshing) breeze"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kühle Brise",
+        "frischer Wind"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) прохладный (освежающий) ветер"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1543630",
+  "readings": [
+    {
+      "kanaExpression": "よほう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "予報",
+      "furiganaExpression": [
+        {
+          "text": "予",
+          "annotation": "よ"
+        },
+        {
+          "text": "報",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 5240
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "forecast",
+        "prediction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorspelling",
+        "voorspellen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prévision",
+        "prédiction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Prognose",
+        "Vorhersage",
+        "vorhersagen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előrelátás",
+        "jövendölés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предварительное извещение; предсказание; прогноз (погоды)",
+        "{～する} делать предварительное извещение; заранее извещать; предсказывать; давать прогноз"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "napoved (vremenska)",
+        "napovedati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pronóstico",
+        "predicción"
+      ]
+    }
+  ]
+}

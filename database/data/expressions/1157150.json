@@ -1,0 +1,74 @@
+{
+  "id": "1157150",
+  "readings": [
+    {
+      "kanaExpression": "ために",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "為に",
+      "furiganaExpression": [
+        {
+          "text": "為",
+          "annotation": "ため"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "爲に",
+      "furiganaExpression": [
+        {
+          "text": "爲",
+          "annotation": "ため"
+        },
+        {
+          "text": "に"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "for",
+        "for the sake of",
+        "to one\u0027s advantage",
+        "in favor of",
+        "in favour of",
+        "on behalf of",
+        "because of",
+        "as a result of"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "deshalb",
+        "deswegen",
+        "daher",
+        "daraus folgt",
+        "um zu",
+        "damit",
+        "wegen",
+        "aufgrund"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "para",
+        "por",
+        "para ventaja propia",
+        "en favor",
+        "en nombre de",
+        "a causa de",
+        "con el fin de"
+      ]
+    }
+  ]
+}

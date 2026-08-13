@@ -1,0 +1,57 @@
+{
+  "id": "2345340",
+  "readings": [
+    {
+      "kanaExpression": "さぎょうかんきょう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "作業環境",
+      "furiganaExpression": [
+        {
+          "text": "作",
+          "annotation": "さ"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "環",
+          "annotation": "かん"
+        },
+        {
+          "text": "境",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "work environment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitsumgebung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "munkakörülmények"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entorno de trabajo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1412050",
+  "readings": [
+    {
+      "kanaExpression": "だいだ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "代打",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "打",
+          "annotation": "だ"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pinch-hitting",
+        "pinch hitter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} pinch-hitting",
+        "het vervangen van de slagman in een kritieke fase",
+        "{honkb.} pinchhitter",
+        "vervangende slagman"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ersatzschlagmann"
+      ]
+    }
+  ]
+}

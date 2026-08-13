@@ -1,0 +1,65 @@
+{
+  "id": "1221990",
+  "readings": [
+    {
+      "kanaExpression": "きがい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "気概",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "概",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "気慨",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "慨",
+          "annotation": "がい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "strong spirit",
+        "mettle",
+        "backbone",
+        "guts",
+        "fighting spirit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mut",
+        "Rückgrat",
+        "Schneid",
+        "Mumm"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[сильный] характер; твёрдость, мужество",
+        "{～のある} с характером; твёрдый; мужественный",
+        "{～のない} бесхарактерный"
+      ]
+    }
+  ]
+}

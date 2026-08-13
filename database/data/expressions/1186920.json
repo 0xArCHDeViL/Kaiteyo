@@ -1,0 +1,66 @@
+{
+  "id": "1186920",
+  "readings": [
+    {
+      "kanaExpression": "かがくひりょう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "化学肥料",
+      "furiganaExpression": [
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "肥",
+          "annotation": "ひ"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chemical fertilizer",
+        "chemical fertiliser"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} kunstmeststof",
+        "kunstmest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Chemiedünger",
+        "Kunstdünger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "műtrágya"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fertilizante artificial (químico)"
+      ]
+    }
+  ]
+}

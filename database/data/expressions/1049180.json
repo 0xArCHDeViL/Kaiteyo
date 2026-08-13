@@ -1,0 +1,78 @@
+{
+  "id": "1049180",
+  "readings": [
+    {
+      "kanaExpression": "コーヒー",
+      "rank": 2197
+    },
+    {
+      "kanjiExpression": "珈琲",
+      "furiganaExpression": [
+        {
+          "text": "珈琲",
+          "annotation": "コーヒー"
+        }
+      ],
+      "rank": 12727
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "coffee"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "koffie",
+        "{volkst.} leut",
+        "{volkst.} slobber",
+        "{Barg.} slemp",
+        "{Barg.} zog",
+        "{Barg.} zwarterik",
+        "{Barg.",
+        "bel.} negerzweet"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "café"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kaffee"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kávé",
+        "kávécserje"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kava"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "café (bebida)",
+        "café (eng: coffee, dut: koffie)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kaffe"
+      ]
+    }
+  ]
+}

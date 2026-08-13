@@ -1,0 +1,49 @@
+{
+  "id": "1232560",
+  "readings": [
+    {
+      "kanaExpression": "きょしき",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "挙式",
+      "furiganaExpression": [
+        {
+          "text": "挙",
+          "annotation": "きょ"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 13718
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "holding a ceremony",
+        "wedding ceremony"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feiern (bes. Hochzeitsfeier)",
+        "Feier",
+        "Abhaltung einer Feier",
+        "Hochzeit",
+        "Hochzeitsfeier"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "церемония; празднование, торжество",
+        "{～する} праздновать"
+      ]
+    }
+  ]
+}

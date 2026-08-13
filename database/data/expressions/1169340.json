@@ -1,0 +1,146 @@
+{
+  "id": "1169340",
+  "readings": [
+    {
+      "kanaExpression": "ひっこす",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ひきこす"
+    },
+    {
+      "kanjiExpression": "引っ越す",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 7022
+    },
+    {
+      "kanjiExpression": "引越す",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "引き越す",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "引っこす",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "っこす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to move (house)",
+        "to change residence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verhuizen",
+        "{van een kamer",
+        "woning enz.} afgaan",
+        "wegtrekken (naar)",
+        "opbreken",
+        "betrekken",
+        "intrekken bij",
+        "(bij iem.) zijn intrek nemen",
+        "{in een nieuw huis} trekken",
+        "{inform.} verkassen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déménager"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "umziehen",
+        "den Wohnort wechseln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elköltözik",
+        "javaslatot tesz",
+        "költözik",
+        "meghat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ひっこす",
+        "перебираться, переезжать (на новую квартиру)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "preseliti se",
+        "seliti se"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mudarse",
+        "cambiar de residencia"
+      ]
+    }
+  ]
+}

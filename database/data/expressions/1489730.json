@@ -1,0 +1,63 @@
+{
+  "id": "1489730",
+  "readings": [
+    {
+      "kanaExpression": "ひょうそう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "表装",
+      "furiganaExpression": [
+        {
+          "text": "表",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "装",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mounting (of a picture)",
+        "binding (of a book)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einbinden",
+        "aufziehen",
+        "Aufziehen",
+        "Einbinden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felragasztás",
+        "kasírozás",
+        "lóra szállás",
+        "nyüstszerelés",
+        "talapzat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ひょうぐ"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "montering"
+      ]
+    }
+  ]
+}

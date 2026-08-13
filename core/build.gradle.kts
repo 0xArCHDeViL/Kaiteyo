@@ -97,7 +97,22 @@ compose.resources {
     publicResClass = true
 }
 
-registerPrepareAppAssetTasks()
+val appDataSource = AppDataSource.parse(
+    providers.gradleProperty("appDataSource").orElse(AppDataSource.RELEASE.name.lowercase()).get()
+)
+val appDataVersion = providers.gradleProperty("appDataVersion")
+    .map(String::toInt)
+    .orElse(AppAssets.DefaultAppDataDatabaseVersion)
+    .get()
+val appDataReleaseTag = providers.gradleProperty("appDataReleaseTag")
+    .orElse(AppAssets.DefaultAppDataReleaseTag)
+    .get()
+
+registerPrepareAppAssetTasks(
+    appDataSource = appDataSource,
+    appDataVersion = appDataVersion,
+    appDataReleaseTag = appDataReleaseTag
+)
 
 sqldelight {
     linkSqlite = true
@@ -144,8 +159,8 @@ buildConfig {
 
     buildConfigField("versionCode", AppVersion.versionCode.toLong())
     buildConfigField("versionName", AppVersion.versionName)
-    buildConfigField("appDataAssetName", AppAssets.AppDataAssetFileName)
-    buildConfigField("appDataDatabaseVersion", AppAssets.AppDataDatabaseVersion)
+    buildConfigField("appDataAssetName", AppAssets.appDataAssetFileName(appDataVersion))
+    buildConfigField("appDataDatabaseVersion", appDataVersion)
 
     val kanaVoiceFieldName = "kanaVoiceAssetName"
 

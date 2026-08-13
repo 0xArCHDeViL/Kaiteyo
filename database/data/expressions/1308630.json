@@ -1,0 +1,66 @@
+{
+  "id": "1308630",
+  "readings": [
+    {
+      "kanaExpression": "しでん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "市電",
+      "furiganaExpression": [
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "電",
+          "annotation": "でん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "municipal railway",
+        "city streetcar",
+        "tram"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stadstram",
+        "tram"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Straßenbahn",
+        "städtische Elektrische",
+        "städtische elektrische Straßenbahn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "villamos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 市内電車) городской трамвай"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tranvía"
+      ]
+    }
+  ]
+}

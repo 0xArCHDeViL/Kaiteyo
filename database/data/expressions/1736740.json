@@ -1,0 +1,44 @@
+{
+  "id": "1736740",
+  "readings": [
+    {
+      "kanaExpression": "みずぐち",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "水口",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "口",
+          "annotation": "ぐち"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spout"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Öffnung für den Wasseraustritt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) отверстие для ввода (вывода, стока) воды",
+        "2) отверстие для [получения] воды в кухне (яп. дома)"
+      ]
+    }
+  ]
+}

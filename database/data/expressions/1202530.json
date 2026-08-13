@@ -1,0 +1,64 @@
+{
+  "id": "1202530",
+  "readings": [
+    {
+      "kanaExpression": "かいえん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "開演",
+      "furiganaExpression": [
+        {
+          "text": "開",
+          "annotation": "かい"
+        },
+        {
+          "text": "演",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 10812
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "curtain raising",
+        "starting (e.g. play, concert)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mit einer Aufführung beginnen",
+        "eine Vorstellung eröffnen",
+        "Anfang einer Aufführung",
+        "Beginn der Vorstellung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kezdet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) поднятие занавеса; начало спектакля",
+        "{～する} поднимать занавес; начинать спектакль",
+        "2) постановка",
+        "{～する} ставить спектакль"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comenzar la función",
+        "levantando el telón",
+        "comienzo (ej. concierto)"
+      ]
+    }
+  ]
+}

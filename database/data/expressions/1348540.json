@@ -1,0 +1,66 @@
+{
+  "id": "1348540",
+  "readings": [
+    {
+      "kanaExpression": "こがたな",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "しょうとう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "小刀",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "刀",
+          "annotation": "がたな"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(small) knife",
+        "short sword",
+        "small sword"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mes",
+        "hulpmes",
+        "bijmes"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "petit couteau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Taschenmesser",
+        "Messer",
+        "Kurzschwert (das kürzere der beiden von einem Samurai getragenen Schwerter)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[перочинный] ножик",
+        "(уст.) малый меч"
+      ]
+    }
+  ]
+}

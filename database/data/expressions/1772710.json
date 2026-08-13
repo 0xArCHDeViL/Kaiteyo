@@ -1,0 +1,51 @@
+{
+  "id": "1772710",
+  "readings": [
+    {
+      "kanaExpression": "かいず",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "海図",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "図",
+          "annotation": "ず"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sea chart"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seekarte",
+        "nautische Karte (mit Verzeichnung der Untiefen, Strömungen, Strudel etc.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "морская карта"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carta de navegación",
+        "mapa marítimo"
+      ]
+    }
+  ]
+}

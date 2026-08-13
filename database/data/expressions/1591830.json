@@ -1,0 +1,121 @@
+{
+  "id": "1591830",
+  "readings": [
+    {
+      "kanaExpression": "きりとり",
+      "rank": 33000
+    },
+    {
+      "kanaExpression": "きりどり"
+    },
+    {
+      "kanjiExpression": "切り取り",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "切取り",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "斬り取り",
+      "furiganaExpression": [
+        {
+          "text": "斬",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "斬取り",
+      "furiganaExpression": [
+        {
+          "text": "斬",
+          "annotation": "きり"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cutting",
+        "tearing off",
+        "cutting off",
+        "clipping",
+        "cutting (for a railroad, highway, etc.)",
+        "cut",
+        "robbery with assault",
+        "burglary"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abschneiden",
+        "Erschlagen mit dem Schwert und Ausrauben",
+        "Raubmord"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bevágás",
+        "dugvány",
+        "éles"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) выемка (напр. ж.-д. пути)",
+        "2) вырезывание, вырывание (из журнала, книги)"
+      ]
+    }
+  ]
+}

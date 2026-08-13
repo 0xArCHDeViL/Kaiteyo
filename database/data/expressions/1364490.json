@@ -1,0 +1,81 @@
+{
+  "id": "1364490",
+  "readings": [
+    {
+      "kanaExpression": "しんかん",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "かんづかさ"
+    },
+    {
+      "kanaExpression": "かみづかさ"
+    },
+    {
+      "kanaExpression": "かむづかさ"
+    },
+    {
+      "kanaExpression": "しんし",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "神官",
+      "furiganaExpression": [
+        {
+          "text": "神",
+          "annotation": "しん"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "神司",
+      "furiganaExpression": [
+        {
+          "text": "神",
+          "annotation": "しん"
+        },
+        {
+          "text": "司",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Shinto priest"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "shintopriester"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prêtre Shintoïste"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Shintō-Priester"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "синтоистский священник; синтоистское духовенство"
+      ]
+    }
+  ]
+}

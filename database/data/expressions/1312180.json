@@ -1,0 +1,65 @@
+{
+  "id": "1312180",
+  "readings": [
+    {
+      "kanaExpression": "しけい",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "詩形",
+      "furiganaExpression": [
+        {
+          "text": "詩",
+          "annotation": "し"
+        },
+        {
+          "text": "形",
+          "annotation": "けい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "詩型",
+      "furiganaExpression": [
+        {
+          "text": "詩",
+          "annotation": "し"
+        },
+        {
+          "text": "型",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "form of verse",
+        "verse form",
+        "poetic form"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Versform"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "verselés",
+        "verselési technika"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "форма стиха, стихотворная форма"
+      ]
+    }
+  ]
+}

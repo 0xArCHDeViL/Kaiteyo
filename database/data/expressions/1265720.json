@@ -1,0 +1,64 @@
+{
+  "id": "1265720",
+  "readings": [
+    {
+      "kanaExpression": "ふるす",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "古巣",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "ふる"
+        },
+        {
+          "text": "巣",
+          "annotation": "す"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "old haunts",
+        "former homes"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oude nest",
+        "{fig.} voormalige woonplaats",
+        "oude werkplek"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "Ancien lieu de travail",
+        "Ancienne habitation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "altes Vogelnest",
+        "verlassenes Nest",
+        "früherer Aufenthalt",
+        "frühere Wohnung",
+        "frühere Arbeitsstelle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "старое гнездо; старая обитель; старое пепелище",
+        "N氏はもとの古巣の大蔵省へ帰った г-н N вернулся на свою прежнюю работу в министерстве финансов"
+      ]
+    }
+  ]
+}

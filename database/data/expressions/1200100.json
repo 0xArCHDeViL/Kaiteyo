@@ -1,0 +1,47 @@
+{
+  "id": "1200100",
+  "readings": [
+    {
+      "kanaExpression": "かいだく",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "快諾",
+      "furiganaExpression": [
+        {
+          "text": "快",
+          "annotation": "かい"
+        },
+        {
+          "text": "諾",
+          "annotation": "だく"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ready consent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bereitwillige Zustimmung",
+        "bereitwillig zustimmen",
+        "gern einwilligen",
+        "entgegenkommend bewilligen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "охотное согласие",
+        "{～する} с радостью (охотно) соглашаться"
+      ]
+    }
+  ]
+}

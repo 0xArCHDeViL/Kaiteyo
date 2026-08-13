@@ -1,0 +1,71 @@
+{
+  "id": "1475130",
+  "readings": [
+    {
+      "kanaExpression": "はっけつびょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "白血病",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "はっ"
+        },
+        {
+          "text": "血",
+          "annotation": "けつ"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "leukemia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} leukemie",
+        "bloedkanker",
+        "{w.g.} leukose",
+        "{w.g.} leucosis",
+        "{w.g.} leukocytemie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leukämie",
+        "Blutkrebs",
+        "Leukozythämie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) белокровие, лейкемия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "leucemia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "leukemi"
+      ]
+    }
+  ]
+}

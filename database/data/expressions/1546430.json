@@ -1,0 +1,56 @@
+{
+  "id": "1546430",
+  "readings": [
+    {
+      "kanaExpression": "ようりょう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "用量",
+      "furiganaExpression": [
+        {
+          "text": "用",
+          "annotation": "よう"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dose"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dosis",
+        "Dosierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дозировка; доза"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dosis"
+      ]
+    }
+  ]
+}

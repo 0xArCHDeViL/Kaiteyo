@@ -1,0 +1,70 @@
+{
+  "id": "1213710",
+  "readings": [
+    {
+      "kanaExpression": "かんしゅう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "監修",
+      "furiganaExpression": [
+        {
+          "text": "監",
+          "annotation": "かん"
+        },
+        {
+          "text": "修",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 8737
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(editorial) supervision",
+        "general editorship",
+        "supervising director"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "superviseren",
+        "redactioneel controleren",
+        "redactionele supervisie",
+        "redactiecomité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bei der Zusammenstellung die Schriftleitung innehaben",
+        "Schriftleitung",
+        "redaktionelle Leitung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felügyelet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "редактура, [общая] редакция",
+        "{～する} редактировать (что-л.), быть редактором (чего-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "coordinación",
+        "supervisión"
+      ]
+    }
+  ]
+}

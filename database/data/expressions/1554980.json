@@ -1,0 +1,54 @@
+{
+  "id": "1554980",
+  "readings": [
+    {
+      "kanaExpression": "りきさく",
+      "rank": 24500
+    },
+    {
+      "kanaExpression": "りょくさく"
+    },
+    {
+      "kanjiExpression": "力作",
+      "furiganaExpression": [
+        {
+          "text": "力",
+          "annotation": "りき"
+        },
+        {
+          "text": "作",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "painstaking piece of work",
+        "work of great effort",
+        "tour de force",
+        "outstanding work",
+        "toil",
+        "labor",
+        "labour"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leistung",
+        "Glanzstück",
+        "ein Werk, das von Anstrengung und Arbeit geprägt ist"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "замечательная работа; шедевр"
+      ]
+    }
+  ]
+}

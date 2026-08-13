@@ -1,0 +1,52 @@
+{
+  "id": "1183170",
+  "readings": [
+    {
+      "kanaExpression": "おんし",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "恩賜",
+      "furiganaExpression": [
+        {
+          "text": "恩",
+          "annotation": "おん"
+        },
+        {
+          "text": "賜",
+          "annotation": "し"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Imperial gift"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cadeaux impérial"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kaiserliches Geschenk",
+        "kaiserliche Schenkung",
+        "Geschenk des Herrn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) дар императора",
+        "{～の} пожалованный императором"
+      ]
+    }
+  ]
+}

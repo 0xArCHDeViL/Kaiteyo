@@ -1,0 +1,71 @@
+{
+  "id": "1765600",
+  "readings": [
+    {
+      "kanaExpression": "しんしてき",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "紳士的",
+      "furiganaExpression": [
+        {
+          "text": "紳",
+          "annotation": "しん"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gentlemanly",
+        "well-mannered",
+        "well-bred",
+        "gentlemanlike"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voornaam",
+        "beschaafd",
+        "fatsoenlijk",
+        "als een echte heer",
+        "gentleman",
+        "herig",
+        "heerachtig",
+        "gentlemanlike"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gentlemanlike",
+        "wie ein Gentleman"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "úri",
+        "úriemberhez méltó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "джентльменский, благородный"
+      ]
+    }
+  ]
+}

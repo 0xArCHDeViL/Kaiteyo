@@ -1,0 +1,51 @@
+{
+  "id": "1437130",
+  "readings": [
+    {
+      "kanaExpression": "てきし",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "敵視",
+      "furiganaExpression": [
+        {
+          "text": "敵",
+          "annotation": "てき"
+        },
+        {
+          "text": "視",
+          "annotation": "し"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "looking upon (someone) as an enemy",
+        "regarding as an enemy",
+        "being hostile toward"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jmdn. als Feind betrachten",
+        "feindlich gesinnt sein",
+        "feindlich gegenüberstehen",
+        "Anfeindung",
+        "feindliche Gesinnung",
+        "Feindschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) враждебность",
+        "{～する} смотреть (относиться) враждебно"
+      ]
+    }
+  ]
+}

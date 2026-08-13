@@ -1,0 +1,53 @@
+{
+  "id": "1839140",
+  "readings": [
+    {
+      "kanaExpression": "がんぺき",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "岩壁",
+      "furiganaExpression": [
+        {
+          "text": "岩",
+          "annotation": "がん"
+        },
+        {
+          "text": "壁",
+          "annotation": "ぺき"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "巌壁",
+      "furiganaExpression": [
+        {
+          "text": "巌",
+          "annotation": "がん"
+        },
+        {
+          "text": "壁",
+          "annotation": "ぺき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wall of rock",
+        "rock cliff",
+        "rock face"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Felswand",
+        "Steilwand"
+      ]
+    }
+  ]
+}

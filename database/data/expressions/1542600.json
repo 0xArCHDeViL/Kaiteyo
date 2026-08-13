@@ -1,0 +1,84 @@
+{
+  "id": "1542600",
+  "readings": [
+    {
+      "kanaExpression": "ゆうし",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "融資",
+      "furiganaExpression": [
+        {
+          "text": "融",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "資",
+          "annotation": "し"
+        }
+      ],
+      "rank": 3548
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "financing",
+        "loan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "financieren",
+        "van geld",
+        "kapitaal",
+        "fondsen voorzien",
+        "geld verschaffen",
+        "financiering",
+        "lening"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "financemement",
+        "prêt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "finanzieren",
+        "ein Darlehen geben",
+        "Kapital anlegen",
+        "Finanzierung",
+        "Darlehen",
+        "Anleihe",
+        "Kredit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kölcsön"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "деньги, денежные суммы; капитал",
+        "{～する} ассигновать; финансировать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "financiación",
+        "préstamo",
+        "crédito"
+      ]
+    }
+  ]
+}

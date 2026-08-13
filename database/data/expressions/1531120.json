@@ -1,0 +1,64 @@
+{
+  "id": "1531120",
+  "readings": [
+    {
+      "kanaExpression": "きりさめ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "霧雨",
+      "furiganaExpression": [
+        {
+          "text": "霧",
+          "annotation": "きり"
+        },
+        {
+          "text": "雨",
+          "annotation": "さめ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drizzle",
+        "light rain"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bruine",
+        "pluie fine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sprühregen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szitáló eső"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) きりあめ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lluvia débil",
+        "llovizna"
+      ]
+    }
+  ]
+}

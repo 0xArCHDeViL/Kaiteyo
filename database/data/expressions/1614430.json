@@ -1,0 +1,85 @@
+{
+  "id": "1614430",
+  "readings": [
+    {
+      "kanaExpression": "はたじるし",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "旗印",
+      "furiganaExpression": [
+        {
+          "text": "旗",
+          "annotation": "はた"
+        },
+        {
+          "text": "印",
+          "annotation": "じるし"
+        }
+      ],
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "旗標",
+      "furiganaExpression": [
+        {
+          "text": "旗",
+          "annotation": "はた"
+        },
+        {
+          "text": "標",
+          "annotation": "じるし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "旗じるし",
+      "furiganaExpression": [
+        {
+          "text": "旗",
+          "annotation": "はた"
+        },
+        {
+          "text": "じるし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "design (on a banner)",
+        "emblem (on a flag)",
+        "insignia",
+        "banner (e.g. of democracy)",
+        "slogan",
+        "cause",
+        "objective"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wappen",
+        "Fahnenabzeichen",
+        "Slogan",
+        "Schlagwort",
+        "etw., das man sich auf die Fahne geschrieben hat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zászló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) рисунок (знак, эмблема) на флаге",
+        "2) (перен.) девиз, лозунг"
+      ]
+    }
+  ]
+}

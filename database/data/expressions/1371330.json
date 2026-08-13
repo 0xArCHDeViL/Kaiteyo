@@ -1,0 +1,67 @@
+{
+  "id": "1371330",
+  "readings": [
+    {
+      "kanaExpression": "すいおん",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "水温",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "温",
+          "annotation": "おん"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water temperature"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "watertemperatuur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "température de l\u0027eau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wassertemperatur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vízhőfok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "температура воды"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "temperatura del agua"
+      ]
+    }
+  ]
+}

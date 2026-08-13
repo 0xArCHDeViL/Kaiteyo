@@ -1,0 +1,49 @@
+{
+  "id": "1571070",
+  "readings": [
+    {
+      "kanaExpression": "こうげんびょう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "膠原病",
+      "furiganaExpression": [
+        {
+          "text": "膠",
+          "annotation": "こう"
+        },
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "collagen disease"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} collageenziekte",
+        "collagenose"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kollagenkrankheit",
+        "Kollagenose"
+      ]
+    }
+  ]
+}

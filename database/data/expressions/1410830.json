@@ -1,0 +1,113 @@
+{
+  "id": "1410830",
+  "readings": [
+    {
+      "kanaExpression": "かえ",
+      "rank": 30000
+    },
+    {
+      "kanaExpression": "がえ"
+    },
+    {
+      "kanjiExpression": "替え",
+      "furiganaExpression": [
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 8150
+    },
+    {
+      "kanjiExpression": "換え",
+      "furiganaExpression": [
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "代え",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "change",
+        "alteration",
+        "substitute",
+        "spare",
+        "replacement",
+        "proxy",
+        "rate of exchange"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ersatz",
+        "Reserve",
+        "Vertretung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kényszerárfolyam",
+        "tőzsde",
+        "változás",
+        "változat",
+        "változatosság",
+        "változtatás",
+        "megváltozás",
+        "megváltoztatás",
+        "módosítás",
+        "módosulás",
+        "pótszer",
+        "helyettes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "по, за",
+        "1) замена",
+        "2) заместитель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cambio",
+        "recambio",
+        "repuesto",
+        "reserva"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "växelkurs"
+      ]
+    }
+  ]
+}

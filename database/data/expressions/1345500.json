@@ -1,0 +1,58 @@
+{
+  "id": "1345500",
+  "readings": [
+    {
+      "kanaExpression": "じょしょう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "序章",
+      "furiganaExpression": [
+        {
+          "text": "序",
+          "annotation": "じょ"
+        },
+        {
+          "text": "章",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "preface",
+        "foreword",
+        "introduction",
+        "introductory chapter",
+        "beginning",
+        "start"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einleitung",
+        "Prolog",
+        "Anfangsstadium"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "prológus",
+        "bevezetés"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "prólogo",
+        "prefacio"
+      ]
+    }
+  ]
+}

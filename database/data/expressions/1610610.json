@@ -1,0 +1,125 @@
+{
+  "id": "1610610",
+  "readings": [
+    {
+      "kanaExpression": "うめたて",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "埋め立て",
+      "furiganaExpression": [
+        {
+          "text": "埋",
+          "annotation": "う"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "埋立",
+      "furiganaExpression": [
+        {
+          "text": "埋",
+          "annotation": "うめ"
+        },
+        {
+          "text": "立",
+          "annotation": "たて"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "埋立て",
+      "furiganaExpression": [
+        {
+          "text": "埋",
+          "annotation": "うめ"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "land reclamation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "landaanwinning",
+        "landwinning",
+        "grondaanwinning",
+        "aanwinning",
+        "drooglegging",
+        "droogmakerij",
+        "indijking",
+        "inpoldering",
+        "polderwerk",
+        "{運河の} demping"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "comblement",
+        "remblayage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Landgewinnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ácsolatrablás",
+        "földegyengetés",
+        "hányófelújítás",
+        "regenerálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "засыпка, подъём грунта; осушение"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zasip",
+        "zasipavanje",
+        "izsuševanje",
+        "melioracija",
+        "polnjenje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "recuperación de tierras"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "1581080",
+  "readings": [
+    {
+      "kanaExpression": "せんてい",
+      "rank": 28000
+    },
+    {
+      "kanaExpression": "ふなぞこ"
+    },
+    {
+      "kanaExpression": "ふなそこ"
+    },
+    {
+      "kanjiExpression": "船底",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "せん"
+        },
+        {
+          "text": "底",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "舟底",
+      "furiganaExpression": [
+        {
+          "text": "舟",
+          "annotation": "ふな"
+        },
+        {
+          "text": "底",
+          "annotation": "ぞこ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ship\u0027s bottom",
+        "bilge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bodem van een schip",
+        "scheepsbodem",
+        "scheepsbuik",
+        "kiel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schiffsboden",
+        "Schiffsbauch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "aljvíz",
+        "áporodott víz",
+        "dohos víz",
+        "fenékvíz",
+        "hajó legszélesebb része",
+        "hajóalj",
+        "hajófenék",
+        "hajófenékrész",
+        "hordó legszélesebb része",
+        "hülye duma",
+        "ökörség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "днище (судна)",
+        "днище судна"
+      ]
+    }
+  ]
+}

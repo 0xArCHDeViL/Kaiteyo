@@ -1,0 +1,96 @@
+{
+  "id": "1855030",
+  "readings": [
+    {
+      "kanaExpression": "わずらい",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "煩い",
+      "furiganaExpression": [
+        {
+          "text": "煩",
+          "annotation": "わずら"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "患い",
+      "furiganaExpression": [
+        {
+          "text": "患",
+          "annotation": "わずら"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "worry",
+        "agony",
+        "vexation",
+        "illness",
+        "sickness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ziekte",
+        "kwaal",
+        "ongemak",
+        "zorg",
+        "beslommering",
+        "bezorgdheid",
+        "muizenissen",
+        "kommer",
+        "probleem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leiden",
+        "Sorge",
+        "Kummer",
+        "Leid",
+        "Schwierigkeiten",
+        "körperlicher Schmerz",
+        "Krankheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "betegség",
+        "aggodalom",
+        "gond",
+        "nyugtalankodás",
+        "agónia",
+        "haláltusa",
+        "lelki gyötrelem",
+        "nagy fájdalom",
+        "bosszúság",
+        "zaklatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) беспокойство, волнение",
+        "2) хлопоты, беспокойство",
+        "3) (разг.) болезнь, недомогание"
+      ]
+    }
+  ]
+}

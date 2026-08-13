@@ -1,0 +1,49 @@
+{
+  "id": "1418030",
+  "readings": [
+    {
+      "kanaExpression": "たんり",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "単利",
+      "furiganaExpression": [
+        {
+          "text": "単",
+          "annotation": "たん"
+        },
+        {
+          "text": "利",
+          "annotation": "り"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "simple interest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einfache Verzinsung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "простые проценты"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "enkel ränta"
+      ]
+    }
+  ]
+}

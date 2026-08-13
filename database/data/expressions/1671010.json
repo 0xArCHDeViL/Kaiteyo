@@ -1,0 +1,58 @@
+{
+  "id": "1671010",
+  "readings": [
+    {
+      "kanaExpression": "もぎてん",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "模擬店",
+      "furiganaExpression": [
+        {
+          "text": "模",
+          "annotation": "も"
+        },
+        {
+          "text": "擬",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "店",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "refreshment booth",
+        "refreshment stand",
+        "snack bar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bude",
+        "Bretterbude",
+        "Imbissstand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "закусочная"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "puesto",
+        "quiosco"
+      ]
+    }
+  ]
+}

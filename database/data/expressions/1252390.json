@@ -1,0 +1,100 @@
+{
+  "id": "1252390",
+  "readings": [
+    {
+      "kanaExpression": "けいさつ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "警察",
+      "furiganaExpression": [
+        {
+          "text": "警",
+          "annotation": "けい"
+        },
+        {
+          "text": "察",
+          "annotation": "さつ"
+        }
+      ],
+      "rank": 1220
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "police",
+        "police officer",
+        "police station",
+        "self-appointed enforcer (of a rule, standard, etc.)",
+        "busybody",
+        "vigilante",
+        "gatekeeper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "politie",
+        "politiemacht",
+        "politiekorps",
+        "politiebureau"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "police",
+        "policier",
+        "commissariat de police"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Polizei (die Organisation)",
+        "polizeiliche Tätigkeiten",
+        "Polizeiwache",
+        "Polizeibeamter",
+        "Polizist"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "körletrend",
+        "laktanyarend",
+        "rendőrség",
+        "szobarend",
+        "táborrend",
+        "takarítás és rendcsinálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полиция",
+        "{～[の]} полицейский"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "policija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "policía"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "polis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1382130",
+  "readings": [
+    {
+      "kanaExpression": "ぜいせい",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "税制",
+      "furiganaExpression": [
+        {
+          "text": "税",
+          "annotation": "ぜい"
+        },
+        {
+          "text": "制",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 4133
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tax system"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "belastingstelsel",
+        "belastingsysteem",
+        "belastingregime"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "système fiscal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steuerwesen",
+        "Steuersystem"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adórendszer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "налоговая система, система [налого]обложения"
+      ]
+    }
+  ]
+}

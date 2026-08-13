@@ -1,0 +1,96 @@
+{
+  "id": "1602120",
+  "readings": [
+    {
+      "kanaExpression": "ひび",
+      "rank": 17000
+    },
+    {
+      "kanaExpression": "にちにち"
+    },
+    {
+      "kanjiExpression": "日々",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "々",
+          "annotation": "び"
+        }
+      ],
+      "rank": 1227
+    },
+    {
+      "kanjiExpression": "日日",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "日",
+          "annotation": "び"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "daily",
+        "everyday",
+        "days (e.g. of one\u0027s youth)",
+        "every day",
+        "day after day",
+        "day by day",
+        "from day to day"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jour après jour",
+        "quotidiennement",
+        "tous les jours"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "täglich",
+        "tagtäglich",
+        "alle Tage",
+        "jeden Tag",
+        "Tag für Tag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mindennap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каждый день, ежедневно, день за днём, изо дня в день",
+        "{～[の]} ежедневный, повседневный",
+        "день за днём, изо дня в день",
+        "{～の} повседневный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "todos los días",
+        "a diario",
+        "diariamente",
+        "cada día",
+        "día tras día"
+      ]
+    }
+  ]
+}

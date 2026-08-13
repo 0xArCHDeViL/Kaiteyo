@@ -1,0 +1,55 @@
+{
+  "id": "1437950",
+  "readings": [
+    {
+      "kanaExpression": "てっそく",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "鉄則",
+      "furiganaExpression": [
+        {
+          "text": "鉄",
+          "annotation": "てっ"
+        },
+        {
+          "text": "則",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ironclad rule",
+        "inviolable rule",
+        "invariable principle",
+        "iron law"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ijzeren wet",
+        "wet van Meden en Perzen",
+        "waterdichte regel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eiserne Regel",
+        "ehernes Gesetz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) железное правило"
+      ]
+    }
+  ]
+}

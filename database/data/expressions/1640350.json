@@ -1,0 +1,63 @@
+{
+  "id": "1640350",
+  "readings": [
+    {
+      "kanaExpression": "こざかな",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "小魚",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "魚",
+          "annotation": "ざかな"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "小肴",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "肴",
+          "annotation": "ざかな"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small fish",
+        "fry"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleiner Fisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "apróhal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мелкая рыба, рыбёшка; молодь (крупной рыбы)"
+      ]
+    }
+  ]
+}

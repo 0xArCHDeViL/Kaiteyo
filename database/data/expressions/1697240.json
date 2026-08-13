@@ -1,0 +1,44 @@
+{
+  "id": "1697240",
+  "readings": [
+    {
+      "kanaExpression": "さくとう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "昨冬",
+      "furiganaExpression": [
+        {
+          "text": "昨",
+          "annotation": "さく"
+        },
+        {
+          "text": "冬",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "last winter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letzter Winter",
+        "voriger Winter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) прошлая зима, зима прошлого года"
+      ]
+    }
+  ]
+}

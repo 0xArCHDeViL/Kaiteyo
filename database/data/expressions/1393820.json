@@ -1,0 +1,65 @@
+{
+  "id": "1393820",
+  "readings": [
+    {
+      "kanaExpression": "ぜんにんしゃ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "前任者",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "predecessor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorgänger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предшественник [по службе]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "predecesor"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "företrädare"
+      ]
+    }
+  ]
+}

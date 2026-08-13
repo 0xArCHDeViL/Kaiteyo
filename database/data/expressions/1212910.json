@@ -1,0 +1,86 @@
+{
+  "id": "1212910",
+  "readings": [
+    {
+      "kanaExpression": "かんきつるい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "柑橘類",
+      "furiganaExpression": [
+        {
+          "text": "柑",
+          "annotation": "かん"
+        },
+        {
+          "text": "橘",
+          "annotation": "きつ"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "かんきつ類",
+      "furiganaExpression": [
+        {
+          "text": "かんきつ"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "甘橘類",
+      "furiganaExpression": [
+        {
+          "text": "甘",
+          "annotation": "かん"
+        },
+        {
+          "text": "橘",
+          "annotation": "きつ"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "citrus fruits"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} citrusvrucht",
+        "citrusvruchten",
+        "citrusfruit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zitrusfrüchte",
+        "Zitruspflanzen",
+        "Citrus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цитрусовые"
+      ]
+    }
+  ]
+}

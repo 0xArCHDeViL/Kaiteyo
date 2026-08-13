@@ -1,0 +1,92 @@
+{
+  "id": "1330120",
+  "readings": [
+    {
+      "kanaExpression": "のろう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "呪う",
+      "furiganaExpression": [
+        {
+          "text": "呪",
+          "annotation": "のろ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 14619
+    },
+    {
+      "kanjiExpression": "詛う",
+      "furiganaExpression": [
+        {
+          "text": "詛",
+          "annotation": "のろ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to curse",
+        "to put a curse on",
+        "to detest intensely"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vervloeken",
+        "verwensen",
+        "verdoemen",
+        "vloeken",
+        "een vloek uitspreken over",
+        "vermaledijen",
+        "vermaledijden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jeter un sort",
+        "maudire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verfluchen",
+        "fluchen",
+        "verwünschen",
+        "verdammen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átkoz",
+        "átkozódik",
+        "megátkoz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проклинать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "maldecir"
+      ]
+    }
+  ]
+}

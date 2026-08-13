@@ -1,0 +1,55 @@
+{
+  "id": "1254960",
+  "readings": [
+    {
+      "kanaExpression": "けっとう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "結党",
+      "furiganaExpression": [
+        {
+          "text": "結",
+          "annotation": "けっ"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "formation of a (political) party"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een partij vormen",
+        "stichten",
+        "partijvorming",
+        "stichting van een partij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Partei gründen",
+        "Parteigründung",
+        "Gründung einer Partei"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "создание (образование) партии",
+        "{～する} создавать (образовывать) партию"
+      ]
+    }
+  ]
+}

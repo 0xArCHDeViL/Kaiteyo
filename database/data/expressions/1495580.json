@@ -1,0 +1,120 @@
+{
+  "id": "1495580",
+  "readings": [
+    {
+      "kanaExpression": "ついていく",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "ついてゆく"
+    },
+    {
+      "kanjiExpression": "ついて行く",
+      "furiganaExpression": [
+        {
+          "text": "ついて"
+        },
+        {
+          "text": "行",
+          "annotation": "い"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "付いていく",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "いていく"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "付いて行く",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "いて"
+        },
+        {
+          "text": "行",
+          "annotation": "い"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "付いてゆく",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "いてゆく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to accompany",
+        "to follow",
+        "to keep up with"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volgen",
+        "achternalopen",
+        "achternagaan",
+        "meegaan",
+        "meekomen",
+        "begeleiden",
+        "vergezellen",
+        "bijhouden",
+        "bijblijven",
+        "gelijke tred houden",
+        "{fig.} meegaan met",
+        "bijvallen",
+        "het eens zijn met",
+        "akkoord gaan met",
+        "zich aansluiten bij",
+        "{Belg.N.} bijtreden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mitgehen",
+        "begleiten",
+        "Schritt halten",
+        "mitkommen",
+        "folgen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "utána jön",
+        "utána megy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1371510",
+  "readings": [
+    {
+      "kanaExpression": "すいさんぎょう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "水産業",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fisheries industry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "visserij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischerei",
+        "Fischereiindustrie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "морской и речной промысел"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "industria pesquera"
+      ]
+    }
+  ]
+}

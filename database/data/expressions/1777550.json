@@ -1,0 +1,134 @@
+{
+  "id": "1777550",
+  "readings": [
+    {
+      "kanaExpression": "つみかさね",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "積み重ね",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "重",
+          "annotation": "かさ"
+        },
+        {
+          "text": "ね"
+        }
+      ],
+      "rank": 10383
+    },
+    {
+      "kanjiExpression": "積重ね",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つみ"
+        },
+        {
+          "text": "重",
+          "annotation": "かさ"
+        },
+        {
+          "text": "ね"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "つみ重ね",
+      "furiganaExpression": [
+        {
+          "text": "つみ"
+        },
+        {
+          "text": "重",
+          "annotation": "かさ"
+        },
+        {
+          "text": "ね"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "積みかさね",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つ"
+        },
+        {
+          "text": "みかさね"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "積み重",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "重",
+          "annotation": "かさね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pile",
+        "accumulation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoop",
+        "stapel",
+        "berg",
+        "opeenstapeling",
+        "opstapeling",
+        "opeenhoping",
+        "ophoping",
+        "accumulatie",
+        "verzameling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Häufung",
+        "Anhäufung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cölöp",
+        "halom",
+        "karó",
+        "máglya",
+        "rakás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "куча, груда; нагромождение; штабель"
+      ]
+    }
+  ]
+}

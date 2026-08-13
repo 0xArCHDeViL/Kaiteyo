@@ -1,0 +1,103 @@
+{
+  "id": "1314390",
+  "readings": [
+    {
+      "kanaExpression": "じむとりあつかい",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "事務取扱",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "扱",
+          "annotation": "あつかい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "事務取扱い",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "扱",
+          "annotation": "あつか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "事務取り扱い",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "扱",
+          "annotation": "あつか"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "acting director"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geschäftsführender Direktor",
+        "stellvertretender Direktor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сущ.) исполняющий обязанности"
+      ]
+    }
+  ]
+}

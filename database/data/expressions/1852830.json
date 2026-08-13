@@ -1,0 +1,77 @@
+{
+  "id": "1852830",
+  "readings": [
+    {
+      "kanaExpression": "おとろえ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "衰え",
+      "furiganaExpression": [
+        {
+          "text": "衰",
+          "annotation": "おとろ"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weakening",
+        "emaciation",
+        "decline"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verval",
+        "achteruitgang",
+        "aftakeling",
+        "verzwakking",
+        "afname",
+        "vermindering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachlassen",
+        "Schwächerwerden",
+        "Verfall"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyengülés",
+        "beteges soványság",
+        "girhesség",
+        "csökkenés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "упадок сил, изнурение, истощение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "debilitamiento",
+        "decaimiento",
+        "debilidad",
+        "declive",
+        "decadencia",
+        "pérdida de vigor"
+      ]
+    }
+  ]
+}

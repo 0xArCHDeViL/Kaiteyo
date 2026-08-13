@@ -1,0 +1,84 @@
+{
+  "id": "1594410",
+  "readings": [
+    {
+      "kanaExpression": "しっさく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "失策",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しっ"
+        },
+        {
+          "text": "策",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "失錯",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しっ"
+        },
+        {
+          "text": "錯",
+          "annotation": "さく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blunder",
+        "slip",
+        "error"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fout",
+        "vergissing",
+        "abuis",
+        "dwaling",
+        "{honkb.} veldfout",
+        "{maatwoord voor veldfouten}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einen Fehler machen",
+        "einen Fehler begehen",
+        "Fehler",
+        "Fehltritt",
+        "Missgriff",
+        "Versehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hiba",
+        "botlás",
+        "póráz",
+        "sólya",
+        "tévedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ошибка, промах, оплошность"
+      ]
+    }
+  ]
+}

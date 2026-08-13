@@ -1,0 +1,82 @@
+{
+  "id": "1319520",
+  "readings": [
+    {
+      "kanaExpression": "しちめんちょう",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "シチメンチョウ"
+    },
+    {
+      "kanjiExpression": "七面鳥",
+      "furiganaExpression": [
+        {
+          "text": "七",
+          "annotation": "しち"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        },
+        {
+          "text": "鳥",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "turkey (Meleagris gallopavo)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} kalkoen",
+        "Meleagris gallopavo",
+        "{stofn.} kalkoen",
+        "kalkoenenvlees"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Truthahn",
+        "Truthuhn",
+        "Puter",
+        "Pute",
+        "Meleagris gallopavo"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pulyka",
+        "törökország"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "индюк, индюшка, Meleagris gallopavo (L.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pavo (ave)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kalkon"
+      ]
+    }
+  ]
+}

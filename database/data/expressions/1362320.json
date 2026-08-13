@@ -1,0 +1,101 @@
+{
+  "id": "1362320",
+  "readings": [
+    {
+      "kanaExpression": "しんぱん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "新版",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "版",
+          "annotation": "ぱん"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "新板",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "板",
+          "annotation": "ぱん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "志ん板",
+      "furiganaExpression": [
+        {
+          "text": "志",
+          "annotation": "し"
+        },
+        {
+          "text": "ん"
+        },
+        {
+          "text": "板",
+          "annotation": "ぱん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "new publication",
+        "new book",
+        "new edition",
+        "reissue",
+        "republication"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nieuwe uitgave",
+        "nieuwe publicatie",
+        "nieuwe druk",
+        "herdruk",
+        "hereditie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Neuauflage",
+        "Neuausgabe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vadonatúj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "новое издание",
+        "{～の} в новом издании"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nuevo",
+        "flamante"
+      ]
+    }
+  ]
+}

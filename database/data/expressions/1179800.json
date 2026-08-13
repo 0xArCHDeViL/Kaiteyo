@@ -1,0 +1,60 @@
+{
+  "id": "1179800",
+  "readings": [
+    {
+      "kanaExpression": "おうろ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "往路",
+      "furiganaExpression": [
+        {
+          "text": "往",
+          "annotation": "おう"
+        },
+        {
+          "text": "路",
+          "annotation": "ろ"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outward journey"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "heenweg",
+        "heenreis",
+        "uitreis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hinweg",
+        "die erste Hälfte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "путь, поездка в…",
+        "(ср.) きろ【帰路】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "camino de ida",
+        "ruta de ida"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1505690",
+  "readings": [
+    {
+      "kanaExpression": "ぶんれい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "文例",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sample sentence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beispielsatz",
+        "Mustersatz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "литературный образец"
+      ]
+    }
+  ]
+}

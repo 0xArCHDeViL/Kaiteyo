@@ -1,0 +1,71 @@
+{
+  "id": "1711900",
+  "readings": [
+    {
+      "kanaExpression": "のべ",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "野辺",
+      "furiganaExpression": [
+        {
+          "text": "野",
+          "annotation": "の"
+        },
+        {
+          "text": "辺",
+          "annotation": "べ"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "野べ",
+      "furiganaExpression": [
+        {
+          "text": "野",
+          "annotation": "の"
+        },
+        {
+          "text": "べ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "field"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feld",
+        "Nobe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csatatér",
+        "erőtér",
+        "szántóföld",
+        "tér"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) поля; равнины"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fält"
+      ]
+    }
+  ]
+}

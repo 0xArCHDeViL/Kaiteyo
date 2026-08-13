@@ -1,0 +1,60 @@
+{
+  "id": "1679780",
+  "readings": [
+    {
+      "kanaExpression": "はいえん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "廃園",
+      "furiganaExpression": [
+        {
+          "text": "廃",
+          "annotation": "はい"
+        },
+        {
+          "text": "園",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "廃苑",
+      "furiganaExpression": [
+        {
+          "text": "廃",
+          "annotation": "はい"
+        },
+        {
+          "text": "苑",
+          "annotation": "えん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "neglected garden",
+        "abandoned garden",
+        "closing down (of a zoo, kindergarten, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verwildeter Garten",
+        "verwahrloster Garten",
+        "Schließung (eines Kindergartens, Tiergartens usw.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) заброшенный сад"
+      ]
+    }
+  ]
+}

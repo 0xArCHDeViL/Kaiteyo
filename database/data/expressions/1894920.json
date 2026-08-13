@@ -1,0 +1,55 @@
+{
+  "id": "1894920",
+  "readings": [
+    {
+      "kanaExpression": "つみ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "詰み",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "checkmate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Matt",
+        "Schachmatt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sakk-matt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(шахм.) мат"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "schacka"
+      ]
+    }
+  ]
+}

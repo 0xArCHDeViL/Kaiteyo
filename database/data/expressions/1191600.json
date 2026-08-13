@@ -1,0 +1,52 @@
+{
+  "id": "1191600",
+  "readings": [
+    {
+      "kanaExpression": "なつふく",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "夏服",
+      "furiganaExpression": [
+        {
+          "text": "夏",
+          "annotation": "なつ"
+        },
+        {
+          "text": "服",
+          "annotation": "ふく"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "summer clothes",
+        "summer wear",
+        "summer uniform"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sommerkleidung",
+        "Sommersachen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "летний костюм; летняя форма (военная и т. п.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ropa de verano"
+      ]
+    }
+  ]
+}

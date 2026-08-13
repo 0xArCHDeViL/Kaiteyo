@@ -1,0 +1,46 @@
+{
+  "id": "1467920",
+  "readings": [
+    {
+      "kanaExpression": "ねっせん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "熱線",
+      "furiganaExpression": [
+        {
+          "text": "熱",
+          "annotation": "ねっ"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heated wire",
+        "infrared rays",
+        "heat rays"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wärmestrahlung",
+        "Infrarot"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тепловые лучи"
+      ]
+    }
+  ]
+}

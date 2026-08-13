@@ -1,0 +1,89 @@
+{
+  "id": "1570260",
+  "readings": [
+    {
+      "kanaExpression": "きょうたい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "筐体",
+      "furiganaExpression": [
+        {
+          "text": "筐",
+          "annotation": "きょう"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "筺体",
+      "furiganaExpression": [
+        {
+          "text": "筺",
+          "annotation": "きょう"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "きょう体",
+      "furiganaExpression": [
+        {
+          "text": "きょう"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "case (of a machine, computer, etc.)",
+        "casing",
+        "housing",
+        "enclosure",
+        "cabinet",
+        "chassis",
+        "frame"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kist",
+        "kistwerk",
+        "bekisting",
+        "doos",
+        "kast",
+        "omhulsel",
+        "ombouw"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gehäuse"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "köpeny",
+        "láda",
+        "tok",
+        "alváz"
+      ]
+    }
+  ]
+}

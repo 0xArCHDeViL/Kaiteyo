@@ -1,0 +1,67 @@
+{
+  "id": "1458750",
+  "readings": [
+    {
+      "kanaExpression": "ないぞう",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "内蔵",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "蔵",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 7265
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "internal (e.g. disk)",
+        "built-in",
+        "equipped (with)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inwendig",
+        "ingebouwd",
+        "ingebouwd hebben",
+        "inwendig hebben"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "etw. Eingebautes",
+        "Lagerhaus des Kaiserhofs",
+        "eingebaut",
+        "interne",
+        "etw. eingebaut haben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "belföldi",
+        "belső",
+        "beépített"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "interno",
+        "intrínseco"
+      ]
+    }
+  ]
+}

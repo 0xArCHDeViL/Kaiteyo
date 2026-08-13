@@ -1,0 +1,103 @@
+{
+  "id": "1307950",
+  "readings": [
+    {
+      "kanaExpression": "こもりうた",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "子守唄",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "守",
+          "annotation": "もり"
+        },
+        {
+          "text": "唄",
+          "annotation": "うた"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "子守歌",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "守",
+          "annotation": "もり"
+        },
+        {
+          "text": "歌",
+          "annotation": "うた"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lullaby"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wiegeliedje",
+        "slaapliedje",
+        "berceuse",
+        "bakerrijmpje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "berceuse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ammenlied",
+        "Wiegenlied",
+        "Schlaflied",
+        "Lullaby"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "altatódal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "колыбельная",
+        "колыбельная песня"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nana",
+        "canción de cuna"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vaggvisa"
+      ]
+    }
+  ]
+}

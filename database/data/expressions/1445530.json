@@ -1,0 +1,86 @@
+{
+  "id": "1445530",
+  "readings": [
+    {
+      "kanaExpression": "どのう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "土嚢",
+      "furiganaExpression": [
+        {
+          "text": "土",
+          "annotation": "ど"
+        },
+        {
+          "text": "嚢",
+          "annotation": "のう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "土のう",
+      "furiganaExpression": [
+        {
+          "text": "土",
+          "annotation": "ど"
+        },
+        {
+          "text": "のう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sandbag"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zandzak",
+        "{mil.} aardzak",
+        "schanskorf",
+        "{soldatent.} vaderlandertje",
+        "berghol",
+        "hol",
+        "grot",
+        "spelonk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sac de sable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sandsack"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "homokzsák"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мешок с песком"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sandsäck"
+      ]
+    }
+  ]
+}

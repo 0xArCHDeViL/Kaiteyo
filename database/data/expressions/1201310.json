@@ -1,0 +1,86 @@
+{
+  "id": "1201310",
+  "readings": [
+    {
+      "kanaExpression": "うみがめ",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "うみガメ"
+    },
+    {
+      "kanaExpression": "ウミガメ"
+    },
+    {
+      "kanjiExpression": "海がめ",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "うみ"
+        },
+        {
+          "text": "がめ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "海亀",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "うみ"
+        },
+        {
+          "text": "亀",
+          "annotation": "がめ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "海ガメ",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "うみ"
+        },
+        {
+          "text": "ガメ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sea turtle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} zeeschildpad"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meeresschildkröte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "морская черепаха"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "galápago",
+        "tortuga marina"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "1828200",
+  "readings": [
+    {
+      "kanaExpression": "のうざしょう",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "脳挫傷",
+      "furiganaExpression": [
+        {
+          "text": "脳",
+          "annotation": "のう"
+        },
+        {
+          "text": "挫",
+          "annotation": "ざ"
+        },
+        {
+          "text": "傷",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cerebral contusion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hirnkontusion",
+        "Hirnprellung",
+        "Contusio cerebri"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "1252000",
+  "readings": [
+    {
+      "kanaExpression": "ほたる",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ホタル"
+    },
+    {
+      "kanjiExpression": "蛍",
+      "furiganaExpression": [
+        {
+          "text": "蛍",
+          "annotation": "ほたる"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "螢",
+      "furiganaExpression": [
+        {
+          "text": "螢",
+          "annotation": "ほたる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "firefly (Luciola cruciata)",
+        "lightning bug",
+        "glowworm"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.",
+        "entom.} vuurvliegje",
+        "vuurkever",
+        "glimworm",
+        "glimkever",
+        "lichtkever",
+        "johanneswormpje",
+        "Luciola"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "luciole",
+        "ver luisant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Glühwürmchen",
+        "Leuchtkäfer",
+        "Luciola cruciata",
+        "Luciola lateralis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szentjánosbogár",
+        "világító bogár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "светлячок"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kresnica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "luciérnaga"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "eldfluga"
+      ]
+    }
+  ]
+}

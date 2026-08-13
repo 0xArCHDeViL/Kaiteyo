@@ -1,0 +1,65 @@
+{
+  "id": "1977270",
+  "readings": [
+    {
+      "kanaExpression": "えいり",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "絵入り",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "illustrated",
+        "pictorial"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{～の} geïllustreerd",
+        "verlucht",
+        "prenten-",
+        "platen-"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "illustriert",
+        "bebildert",
+        "Illustration",
+        "Bebilderung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} иллюстрированный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ilustrado"
+      ]
+    }
+  ]
+}

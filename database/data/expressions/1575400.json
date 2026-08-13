@@ -1,0 +1,103 @@
+{
+  "id": "1575400",
+  "readings": [
+    {
+      "kanaExpression": "ばいきん"
+    },
+    {
+      "kanjiExpression": "ばい菌",
+      "furiganaExpression": [
+        {
+          "text": "ばい"
+        },
+        {
+          "text": "菌",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "バイ菌",
+      "furiganaExpression": [
+        {
+          "text": "バイ"
+        },
+        {
+          "text": "菌",
+          "annotation": "きん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "黴菌",
+      "furiganaExpression": [
+        {
+          "text": "黴",
+          "annotation": "ばい"
+        },
+        {
+          "text": "菌",
+          "annotation": "きん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "germ",
+        "germs",
+        "bacteria",
+        "bug",
+        "something dirty or harmful",
+        "vermin"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} kiem",
+        "bacil",
+        "bacterie",
+        "microbe"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bactérie(s)",
+        "microbe(s)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bazillus",
+        "Bakterie",
+        "Erreger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "baktérium"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бактерия, микроб, бацилла"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gérmenes",
+        "bacteria",
+        "microbio"
+      ]
+    }
+  ]
+}

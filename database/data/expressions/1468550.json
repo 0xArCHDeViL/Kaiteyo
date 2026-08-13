@@ -1,0 +1,85 @@
+{
+  "id": "1468550",
+  "readings": [
+    {
+      "kanaExpression": "ねんがっぴ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "年月日",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "月",
+          "annotation": "がっ"
+        },
+        {
+          "text": "日",
+          "annotation": "ぴ"
+        }
+      ],
+      "rank": 14404
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "date (year, month and day)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "datum",
+        "dagtekening",
+        "datering",
+        "jaartal",
+        "maand en dag van de maand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "date"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Datum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "datolya",
+        "dátum",
+        "időpont",
+        "randi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дата (год, месяц и число)",
+        "{～のない} недатированный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fecha"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "datum"
+      ]
+    }
+  ]
+}

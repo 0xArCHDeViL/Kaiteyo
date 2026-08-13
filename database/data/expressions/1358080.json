@@ -1,0 +1,63 @@
+{
+  "id": "1358080",
+  "readings": [
+    {
+      "kanaExpression": "しょくはつ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "触発",
+      "furiganaExpression": [
+        {
+          "text": "触",
+          "annotation": "しょく"
+        },
+        {
+          "text": "発",
+          "annotation": "はつ"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "detonation by contact",
+        "contact detonation",
+        "touching off (something)",
+        "triggering",
+        "sparking",
+        "provocation",
+        "inspiration"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontploffing door contact",
+        "impuls",
+        "inspiratie",
+        "stimulering",
+        "prikkeling",
+        "incitatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kontaktdetonation",
+        "Auslösung",
+        "Provokation",
+        "Anregung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "provokáció"
+      ]
+    }
+  ]
+}

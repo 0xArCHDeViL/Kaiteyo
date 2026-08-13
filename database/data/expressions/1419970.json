@@ -1,0 +1,88 @@
+{
+  "id": "1419970",
+  "readings": [
+    {
+      "kanaExpression": "だんどり",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "段取り",
+      "furiganaExpression": [
+        {
+          "text": "段",
+          "annotation": "だん"
+        },
+        {
+          "text": "取",
+          "annotation": "ど"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 11707
+    },
+    {
+      "kanjiExpression": "段どり",
+      "furiganaExpression": [
+        {
+          "text": "段",
+          "annotation": "だん"
+        },
+        {
+          "text": "どり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "programme",
+        "program",
+        "plans",
+        "arrangements"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arrangement",
+        "plan",
+        "programme",
+        "projet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Programm",
+        "Plan",
+        "Arrangement",
+        "Anordnung",
+        "Reihenfolge",
+        "Vorbereitung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "értesítő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "программа, план, порядок (курс) действий"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "plan",
+        "esquema"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "1590230",
+  "readings": [
+    {
+      "kanaExpression": "かしきり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "貸し切り",
+      "furiganaExpression": [
+        {
+          "text": "貸",
+          "annotation": "か"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "貸切り",
+      "furiganaExpression": [
+        {
+          "text": "貸",
+          "annotation": "かし"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "貸切",
+      "furiganaExpression": [
+        {
+          "text": "貸",
+          "annotation": "かし"
+        },
+        {
+          "text": "切",
+          "annotation": "きり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reserving (for exclusive use)",
+        "(full) booking",
+        "chartering",
+        "block reservation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afhuring",
+        "chartering",
+        "groepsreservering",
+        "{opschrift} gecharterd",
+        "gereserveerd"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "réservé",
+        "réservation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "reserviert",
+        "vorbestellt",
+        "gechartert",
+        "Reservierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "félretétel",
+        "helyjegyváltás",
+        "középső elválasztó sáv",
+        "szobafoglalás",
+        "védett terület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бронирование, оставление за собой",
+        "{～の} заказанный, забронированный",
+        "{～[に]する} бронировать, оставлять за собой",
+        "заказ",
+        "заказанный",
+        "забронированный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "rezerviranje",
+        "rezervacija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reserva (e.g. mesa reservada)"
+      ]
+    }
+  ]
+}

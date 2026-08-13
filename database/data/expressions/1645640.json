@@ -1,0 +1,89 @@
+{
+  "id": "1645640",
+  "readings": [
+    {
+      "kanaExpression": "せいらい",
+      "rank": 31000
+    },
+    {
+      "kanaExpression": "しょうらい",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "生来",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "せい"
+        },
+        {
+          "text": "来",
+          "annotation": "らい"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "性来",
+      "furiganaExpression": [
+        {
+          "text": "性",
+          "annotation": "せい"
+        },
+        {
+          "text": "来",
+          "annotation": "らい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "by nature",
+        "naturally",
+        "by birth",
+        "innately",
+        "congenitally"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aangeboren eigenschap",
+        "natuurlijke aanleg",
+        "het geboren worden",
+        "geboorte",
+        "van z\u0027n geboorte af",
+        "van nature",
+        "van huis uit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "angeboren",
+        "natürlich",
+        "von Natur aus",
+        "von Haus aus",
+        "seit der Geburt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "természeténél fogva",
+        "természettől fogva",
+        "vele születetten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. см.) せいらい",
+        "от рождения, по природе, от природы"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "1360660",
+  "readings": [
+    {
+      "kanaExpression": "こころづかい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "心遣い",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "こころ"
+        },
+        {
+          "text": "遣",
+          "annotation": "づか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "心づかい",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "こころ"
+        },
+        {
+          "text": "づかい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "心使い",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "こころ"
+        },
+        {
+          "text": "使",
+          "annotation": "づか"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "consideration (for)",
+        "thoughtfulness",
+        "solicitude",
+        "care",
+        "watchfulness",
+        "concern",
+        "sympathy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "acht",
+        "aandacht",
+        "zorg",
+        "bekommernis",
+        "bezorgdheid",
+        "consideratie",
+        "begaanheid",
+        "attentheid",
+        "betrokkenheid",
+        "fooi",
+        "tip",
+        "tipgeld"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "anxiété",
+        "préoccupation de",
+        "sollicitude",
+        "souci"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufmerksamkeit",
+        "Rücksicht",
+        "Bemühung",
+        "Sorge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "aggály",
+        "aggódás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "забота (о ком-л.), внимание (к кому-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "solicitud",
+        "deferencia",
+        "cuidados",
+        "atenciones",
+        "esmero"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1588900",
+  "readings": [
+    {
+      "kanaExpression": "おおさじ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "大さじ",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "おお"
+        },
+        {
+          "text": "さじ"
+        }
+      ],
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "大匙",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "おお"
+        },
+        {
+          "text": "匙",
+          "annotation": "さじ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tablespoon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eetlepel",
+        "{cul.} grote eetlepel {\u003d inhoudsmaat: 14,8 ml}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "großer Löffel",
+        "Esslöffel (15 ml)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "столовая ложка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cucharón",
+        "cucharada"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "matsked"
+      ]
+    }
+  ]
+}

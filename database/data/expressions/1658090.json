@@ -1,0 +1,53 @@
+{
+  "id": "1658090",
+  "readings": [
+    {
+      "kanaExpression": "さんい",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "賛意",
+      "furiganaExpression": [
+        {
+          "text": "賛",
+          "annotation": "さん"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "approval",
+        "assent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einwilligung",
+        "Zustimmung",
+        "Billigung",
+        "Einverständnis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jóváhagyás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) одобрение"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "1631260",
+  "readings": [
+    {
+      "kanaExpression": "こうさくいん",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "工作員",
+      "furiganaExpression": [
+        {
+          "text": "工",
+          "annotation": "こう"
+        },
+        {
+          "text": "作",
+          "annotation": "さく"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spy",
+        "agent provocateur",
+        "covert operative",
+        "maker",
+        "builder",
+        "constructor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geheimagent"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kém"
+      ]
+    }
+  ]
+}

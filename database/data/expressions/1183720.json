@@ -1,0 +1,98 @@
+{
+  "id": "1183720",
+  "readings": [
+    {
+      "kanaExpression": "おんがく",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "音楽",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "楽",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 415
+    },
+    {
+      "kanjiExpression": "音樂",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "樂",
+          "annotation": "がく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "music"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "muziek",
+        "toonkunst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "musique",
+        "mouvement musical"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Musik",
+        "Tonkunst",
+        "Ongaku (Musikart im Kabuki)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zene"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "музыка",
+        "{～的} музыкальный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "glasba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "música",
+        "movimiento musical"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "musik"
+      ]
+    }
+  ]
+}

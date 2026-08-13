@@ -1,0 +1,77 @@
+{
+  "id": "1443520",
+  "readings": [
+    {
+      "kanaExpression": "でんじしゃく",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "電磁石",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "磁",
+          "annotation": "じ"
+        },
+        {
+          "text": "石",
+          "annotation": "しゃく"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "electromagnet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elektromagneet"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "électro-aimant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Elektromagnet"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elektromágnes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) でんじてつ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "electroimán"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "elektromagnet"
+      ]
+    }
+  ]
+}

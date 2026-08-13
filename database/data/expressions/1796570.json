@@ -1,0 +1,59 @@
+{
+  "id": "1796570",
+  "readings": [
+    {
+      "kanaExpression": "くすりだい",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "やくだい"
+    },
+    {
+      "kanjiExpression": "薬代",
+      "furiganaExpression": [
+        {
+          "text": "薬",
+          "annotation": "くすり"
+        },
+        {
+          "text": "代",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "charge for medicine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geneesmiddelenprijs",
+        "medicijnkosten",
+        "apothekersrekening",
+        "doktersrekening",
+        "honorarium"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arzneikosten",
+        "Arzneirechnung",
+        "Behandlungshonorar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плата за лекарство; стоимость лекарства",
+        "плата за лекарство"
+      ]
+    }
+  ]
+}

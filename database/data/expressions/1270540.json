@@ -1,0 +1,84 @@
+{
+  "id": "1270540",
+  "readings": [
+    {
+      "kanaExpression": "おちゅうげん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お中元",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "元",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "御中元",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "元",
+          "annotation": "げん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mid-year gift",
+        "summer gift"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "midjaarsgeschenk",
+        "geschenk dat mensen midden in het jaar (tussen 1 en 15 juli) geven"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cadeaux offerts pendant le festival Bon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschenk zur Jahresmitte"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "Ochûgen",
+        "čuugen (darilo ob prazniku Bon)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "regalos (a benefactores)"
+      ]
+    }
+  ]
+}

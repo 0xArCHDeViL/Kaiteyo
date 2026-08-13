@@ -1,0 +1,54 @@
+{
+  "id": "1208950",
+  "readings": [
+    {
+      "kanaExpression": "かぶか",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "株価",
+      "furiganaExpression": [
+        {
+          "text": "株",
+          "annotation": "かぶ"
+        },
+        {
+          "text": "価",
+          "annotation": "か"
+        }
+      ],
+      "rank": 2741
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stock prices"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{beurst.} aandeelprijs",
+        "aandelenkoers",
+        "beursprijs",
+        "beursnotering",
+        "effectenkoers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aktienpreis",
+        "Aktienkurs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стоимость акций"
+      ]
+    }
+  ]
+}

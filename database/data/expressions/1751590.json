@@ -1,0 +1,47 @@
+{
+  "id": "1751590",
+  "readings": [
+    {
+      "kanaExpression": "うけおいぎょう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "請負業",
+      "furiganaExpression": [
+        {
+          "text": "請",
+          "annotation": "うけ"
+        },
+        {
+          "text": "負",
+          "annotation": "おい"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the contracting business"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vertragsgeschäft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подряды (как дело)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "1221120",
+  "readings": [
+    {
+      "kanaExpression": "きない",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "機内",
+      "furiganaExpression": [
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "内",
+          "annotation": "ない"
+        }
+      ],
+      "rank": 8276
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inside a plane",
+        "in-flight"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "im Flugzeug"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутри самолёта, в самолёте"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dentro del avión",
+        "a bordo",
+        "en el aparato"
+      ]
+    }
+  ]
+}

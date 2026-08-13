@@ -1,0 +1,73 @@
+{
+  "id": "1193300",
+  "readings": [
+    {
+      "kanaExpression": "かしゅう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "歌集",
+      "furiganaExpression": [
+        {
+          "text": "歌",
+          "annotation": "か"
+        },
+        {
+          "text": "集",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "collection of waka poems",
+        "anthology",
+        "songbook"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tanka-bundel",
+        "bloemlezing",
+        "anthologie",
+        "liedbundel",
+        "liederenbundel",
+        "liedboek",
+        "zangbundel",
+        "zangboek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gedichtsammlung",
+        "Anthologie",
+        "Liederbuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "antológia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сборник стихотворений, поэтическая антология"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "antología",
+        "libro de poesía"
+      ]
+    }
+  ]
+}

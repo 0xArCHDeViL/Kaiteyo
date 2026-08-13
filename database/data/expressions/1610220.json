@@ -1,0 +1,96 @@
+{
+  "id": "1610220",
+  "readings": [
+    {
+      "kanaExpression": "ただす",
+      "rank": 14958
+    },
+    {
+      "kanjiExpression": "糺す",
+      "furiganaExpression": [
+        {
+          "text": "糺",
+          "annotation": "ただ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "糾す",
+      "furiganaExpression": [
+        {
+          "text": "糾",
+          "annotation": "ただ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "正す",
+      "furiganaExpression": [
+        {
+          "text": "正",
+          "annotation": "ただ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 10724
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to ascertain",
+        "to confirm",
+        "to verify",
+        "to make sure of"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "demander",
+        "enquêter",
+        "interroger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ermitteln",
+        "feststellen",
+        "untersuchen",
+        "Untersuchungen anstellen über …"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megkérdőjelez"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) исправлять, выправлять",
+        "2) (см.) ただす【質す】2",
+        "1) (に) спрашивать (кого-л.), обращаться с вопросом (к кому-л.)",
+        "2) (を) разузнавать, выяснять (что-л.); допрашивать (о чём-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "preguntar"
+      ]
+    }
+  ]
+}

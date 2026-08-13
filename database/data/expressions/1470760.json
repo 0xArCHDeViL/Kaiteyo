@@ -1,0 +1,63 @@
+{
+  "id": "1470760",
+  "readings": [
+    {
+      "kanaExpression": "のうふ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "農夫",
+      "furiganaExpression": [
+        {
+          "text": "農",
+          "annotation": "のう"
+        },
+        {
+          "text": "夫",
+          "annotation": "ふ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(male) farmer",
+        "peasant",
+        "farmhand"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boer",
+        "landbouwer",
+        "agrariër",
+        "landman"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bauer",
+        "Landwirt",
+        "Landarbeiter",
+        "Knecht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "paraszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крестьянин"
+      ]
+    }
+  ]
+}

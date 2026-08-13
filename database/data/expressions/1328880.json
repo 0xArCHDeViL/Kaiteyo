@@ -1,0 +1,89 @@
+{
+  "id": "1328880",
+  "readings": [
+    {
+      "kanaExpression": "しゅもく",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "種目",
+      "furiganaExpression": [
+        {
+          "text": "種",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "目",
+          "annotation": "もく"
+        }
+      ],
+      "rank": 11836
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "item",
+        "event"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "item",
+        "artikel",
+        "post",
+        "{sportt.} nummer",
+        "onderdeel",
+        "{maatwoord voor onderdelen van een sportprogramma}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "événement",
+        "articles divers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gattung",
+        "Sorte",
+        "Art",
+        "Disziplin",
+        "Wettbewerb",
+        "Branche"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sportesemény",
+        "versenyszám"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "род (предприятия); предмет (торговли); статья (расходов); номер (программы) и т. п.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vrsta",
+        "predmet",
+        "kategorija {v športu}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "artículo (lista)",
+        "evento (competencia)"
+      ]
+    }
+  ]
+}

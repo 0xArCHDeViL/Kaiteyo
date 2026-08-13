@@ -1,0 +1,68 @@
+{
+  "id": "1502220",
+  "readings": [
+    {
+      "kanaExpression": "ぶっちょうづら",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "仏頂面",
+      "furiganaExpression": [
+        {
+          "text": "仏",
+          "annotation": "ぶっ"
+        },
+        {
+          "text": "頂",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "面",
+          "annotation": "づら"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sour look",
+        "surly face",
+        "pout"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zuur",
+        "pruilend",
+        "stuurs",
+        "lang gezicht",
+        "norse",
+        "chagrijnige",
+        "stuurse blik",
+        "stuurse gelaatsuitdrukking",
+        "een gezicht als een oorwurm",
+        "een gezicht of hij",
+        "zij azijn gedronken had"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "finstere Miene",
+        "mürrisches Gesicht",
+        "unfreundliches Gesicht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "надутая (нахмуренная, недовольная) физиономия",
+        "{～する} дуться, хмуриться, делать недовольное лицо"
+      ]
+    }
+  ]
+}

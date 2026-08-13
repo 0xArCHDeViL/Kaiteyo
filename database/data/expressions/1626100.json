@@ -1,0 +1,75 @@
+{
+  "id": "1626100",
+  "readings": [
+    {
+      "kanaExpression": "はなしがい",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "放し飼い",
+      "furiganaExpression": [
+        {
+          "text": "放",
+          "annotation": "はな"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "飼",
+          "annotation": "が"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "放飼い",
+      "furiganaExpression": [
+        {
+          "text": "放",
+          "annotation": "はなし"
+        },
+        {
+          "text": "飼",
+          "annotation": "が"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "free-range rearing",
+        "letting (animals) roam freely",
+        "pasturing",
+        "grazing",
+        "letting (a dog) run loose",
+        "letting (a child) run free"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auslaufhaltung",
+        "Freilandhaltung",
+        "Weidehaltung (von Haus- oder Nutztieren)",
+        "Gewährenlassen",
+        "Laissez-faire (z. B. in der Kindererziehung)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пастьба; выпас скота",
+        "{～にする} пасти; держать на подножном корму"
+      ]
+    }
+  ]
+}

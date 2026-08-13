@@ -1,0 +1,101 @@
+{
+  "id": "1404680",
+  "readings": [
+    {
+      "kanaExpression": "たしざん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "足し算",
+      "furiganaExpression": [
+        {
+          "text": "足",
+          "annotation": "た"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "算",
+          "annotation": "ざん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "たし算",
+      "furiganaExpression": [
+        {
+          "text": "たし"
+        },
+        {
+          "text": "算",
+          "annotation": "ざん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "addition"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{rekenk.} optelling",
+        "additie",
+        "{w.g.} samentelling",
+        "{meton.} sommen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "addition (opération arithmétique)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Addition"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "összeadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мат.) сложение"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "seštevanje {v matematiki}",
+        "dodatek",
+        "seštevati {v matematiki}",
+        "dodati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "suma (matemáticas)",
+        "adición"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "addition"
+      ]
+    }
+  ]
+}

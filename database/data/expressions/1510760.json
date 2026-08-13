@@ -1,0 +1,120 @@
+{
+  "id": "1510760",
+  "readings": [
+    {
+      "kanaExpression": "かわりもの",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "変わり者",
+      "furiganaExpression": [
+        {
+          "text": "変",
+          "annotation": "か"
+        },
+        {
+          "text": "わり"
+        },
+        {
+          "text": "者",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "変り者",
+      "furiganaExpression": [
+        {
+          "text": "変",
+          "annotation": "かわ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "者",
+          "annotation": "もの"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "変りもの",
+      "furiganaExpression": [
+        {
+          "text": "変",
+          "annotation": "かわ"
+        },
+        {
+          "text": "りもの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eccentric",
+        "oddball",
+        "character",
+        "weirdo"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "raar persoon",
+        "zonderling mens",
+        "bizar iemand",
+        "rare gast",
+        "vent",
+        "gozer",
+        "individu",
+        "klant",
+        "snuiter",
+        "snoeshaan",
+        "druif",
+        "kwibus",
+        "sinjeur",
+        "merkwaardige kerel",
+        "vreemde vogel",
+        "stoethaspel",
+        "kwant",
+        "snaak",
+        "excentriekeling",
+        "weirdo",
+        "flippo",
+        "quidam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Original",
+        "Sonderling",
+        "Exzentriker",
+        "Kauz",
+        "Querkopf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "своеобразный человек; чудак, оригинал, человек с причудами"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "excéntrico"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "excenter"
+      ]
+    }
+  ]
+}

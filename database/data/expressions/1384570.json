@@ -1,0 +1,69 @@
+{
+  "id": "1384570",
+  "readings": [
+    {
+      "kanaExpression": "きりうり",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "切り売り",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "切売り",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "selling by the piece",
+        "selling (one\u0027s knowledge, talents, etc.) bit by bit",
+        "selling a little at a time"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stückweise verkaufen",
+        "stückweises Verkaufen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "торговля в розницу",
+        "{…の～をする} торговать в розницу (чем-л.); (обр.) торговать (чувствами, любовью, знаниями)"
+      ]
+    }
+  ]
+}

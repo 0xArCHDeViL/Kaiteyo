@@ -1,0 +1,81 @@
+{
+  "id": "1569220",
+  "readings": [
+    {
+      "kanaExpression": "はちゅうるい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "爬虫類",
+      "furiganaExpression": [
+        {
+          "text": "爬",
+          "annotation": "は"
+        },
+        {
+          "text": "虫",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "は虫類",
+      "furiganaExpression": [
+        {
+          "text": "は"
+        },
+        {
+          "text": "虫",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reptiles"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} reptiel",
+        "reptielen",
+        "kruipdieren",
+        "kruipende dieren",
+        "Reptilia"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reptilien",
+        "Kriechtiere",
+        "Reptilia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пресмыкающиеся"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reptiles"
+      ]
+    }
+  ]
+}

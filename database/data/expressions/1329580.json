@@ -1,0 +1,84 @@
+{
+  "id": "1329580",
+  "readings": [
+    {
+      "kanaExpression": "うかる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "受かる",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "う"
+        },
+        {
+          "text": "かる"
+        }
+      ],
+      "rank": 10352
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to pass (examination)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slagen {voor een test",
+        "examen}",
+        "{een test",
+        "examen} met succes afleggen",
+        "examen} halen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "être reçu à un examen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bestehen (Prüfung etc.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átmegy",
+        "átsiklik vmin",
+        "elfogadtat",
+        "elhalad",
+        "elléptet",
+        "előfordul",
+        "előz",
+        "eltelik",
+        "elvonultat",
+        "határozatba megy",
+        "megszavaz",
+        "nem vesz észre",
+        "továbbhalad",
+        "túljut"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пройти, выдержать (проверку, испытание и т. п.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pasar(prueba)",
+        "aprobar (examen)"
+      ]
+    }
+  ]
+}

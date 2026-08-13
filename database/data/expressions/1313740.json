@@ -1,0 +1,59 @@
+{
+  "id": "1313740",
+  "readings": [
+    {
+      "kanaExpression": "じぎょうしょ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "事業所",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "所",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "establishment",
+        "place of business",
+        "business site",
+        "office",
+        "(production) facility"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Firma",
+        "Büro",
+        "Geschäftsort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hivatal"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "centro de trabajo"
+      ]
+    }
+  ]
+}

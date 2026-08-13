@@ -1,0 +1,51 @@
+{
+  "id": "1528220",
+  "readings": [
+    {
+      "kanaExpression": "みっかい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "密会",
+      "furiganaExpression": [
+        {
+          "text": "密",
+          "annotation": "みっ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "secret meeting",
+        "clandestine meeting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich heimlich treffen",
+        "heimlich zusammenkommen",
+        "sich ein Stelldichein geben",
+        "geheime Zusammenkunft",
+        "heimliches Zusammentreffen",
+        "Stelldichein",
+        "Rendezvous"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тайное свидание; тайная встреча; тайное собрание",
+        "{～する} тайно встречаться, иметь тайное свидание; тайно собираться"
+      ]
+    }
+  ]
+}

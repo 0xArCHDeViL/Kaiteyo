@@ -1,0 +1,111 @@
+{
+  "id": "1253020",
+  "readings": [
+    {
+      "kanaExpression": "とりにく",
+      "rank": 26500
+    },
+    {
+      "kanaExpression": "けいにく"
+    },
+    {
+      "kanaExpression": "ちょうにく"
+    },
+    {
+      "kanjiExpression": "鶏肉",
+      "furiganaExpression": [
+        {
+          "text": "鶏",
+          "annotation": "とり"
+        },
+        {
+          "text": "肉",
+          "annotation": "にく"
+        }
+      ],
+      "rank": 12842
+    },
+    {
+      "kanjiExpression": "鳥肉",
+      "furiganaExpression": [
+        {
+          "text": "鳥",
+          "annotation": "とり"
+        },
+        {
+          "text": "肉",
+          "annotation": "にく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "とり肉",
+      "furiganaExpression": [
+        {
+          "text": "とり"
+        },
+        {
+          "text": "肉",
+          "annotation": "にく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chicken meat",
+        "fowl",
+        "poultry",
+        "bird meat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} kippenvlees",
+        "{cul.} hoendervlees",
+        "{cul.} kip",
+        "{cul.} gevogelte",
+        "{op Fr. menu\u0027s} poulet"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "viande de poulet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hühnerfleisch",
+        "Geflügel",
+        "Huhn",
+        "Hähnchen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "куриное мясо",
+        "(кн.) птичье мясо; курятина",
+        "куриное мясо, курятина"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "perutnina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carne de pollo",
+        "carne de gallina"
+      ]
+    }
+  ]
+}

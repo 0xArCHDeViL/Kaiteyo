@@ -1,0 +1,81 @@
+{
+  "id": "1347690",
+  "readings": [
+    {
+      "kanaExpression": "しょうこう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "将校",
+      "furiganaExpression": [
+        {
+          "text": "将",
+          "annotation": "しょう"
+        },
+        {
+          "text": "校",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 12902
+    },
+    {
+      "kanjiExpression": "將校",
+      "furiganaExpression": [
+        {
+          "text": "將",
+          "annotation": "しょう"
+        },
+        {
+          "text": "校",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commissioned officer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} officier"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "officier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Offizier",
+        "Militär"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hivatásos tiszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "офицер"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "officer"
+      ]
+    }
+  ]
+}

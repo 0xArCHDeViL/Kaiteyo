@@ -1,0 +1,59 @@
+{
+  "id": "1662490",
+  "readings": [
+    {
+      "kanaExpression": "ゆさん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "遊山",
+      "furiganaExpression": [
+        {
+          "text": "遊",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "山",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "excursion",
+        "outing",
+        "picnic"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bergausflug",
+        "Picknick",
+        "Ausflug",
+        "Vergnügungsreise",
+        "Reise nach Abschluss des Trainings an verschiedene Ort",
+        "Vergnügung",
+        "Zerstreuung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kirándulás",
+        "kirezgés",
+        "séta"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прогулка в горы; экскурсия, пикник"
+      ]
+    }
+  ]
+}

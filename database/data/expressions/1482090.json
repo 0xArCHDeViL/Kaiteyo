@@ -1,0 +1,73 @@
+{
+  "id": "1482090",
+  "readings": [
+    {
+      "kanaExpression": "ばんか",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "挽歌",
+      "furiganaExpression": [
+        {
+          "text": "挽",
+          "annotation": "ばん"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "輓歌",
+      "furiganaExpression": [
+        {
+          "text": "輓",
+          "annotation": "ばん"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "elegy",
+        "funeral song"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Totenlied",
+        "Grablied",
+        "Trauerweise",
+        "Elegie",
+        "Klagegedicht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elégia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) элегия (на чью-л. смерть); похоронная песнь; плач по умершему"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "elegía"
+      ]
+    }
+  ]
+}

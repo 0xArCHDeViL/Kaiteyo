@@ -1,0 +1,147 @@
+{
+  "id": "1598780",
+  "readings": [
+    {
+      "kanaExpression": "とって",
+      "rank": 16000
+    },
+    {
+      "kanaExpression": "はしゅ"
+    },
+    {
+      "kanjiExpression": "取っ手",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ],
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "把手",
+      "furiganaExpression": [
+        {
+          "text": "把手",
+          "annotation": "とって"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "把っ手",
+      "furiganaExpression": [
+        {
+          "text": "把",
+          "annotation": "と"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取手",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とっ"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "handle",
+        "grip",
+        "knob"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "handvat",
+        "handgreep",
+        "greep",
+        "hendel",
+        "oor",
+        "hengsel",
+        "kruk",
+        "trekknop",
+        "{ドアの} deurkruk",
+        "deurknop",
+        "deurklink",
+        "klink"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "anse",
+        "poignée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Griff",
+        "Knauf",
+        "Henkel",
+        "Handgriff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fogantyú",
+        "fogás",
+        "kilincs",
+        "nyél",
+        "hatalom",
+        "kézitáska",
+        "szorítás",
+        "fej",
+        "gomb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ручка",
+        "рукоятка",
+        "ручка (двери и т. п.), рукоятка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ročica",
+        "ročaj"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mango",
+        "empuñadura",
+        "tirador (e.g. de un cajón, etc.)"
+      ]
+    }
+  ]
+}

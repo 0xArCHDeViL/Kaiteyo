@@ -1,0 +1,51 @@
+{
+  "id": "1213070",
+  "readings": [
+    {
+      "kanaExpression": "あせばむ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "汗ばむ",
+      "furiganaExpression": [
+        {
+          "text": "汗",
+          "annotation": "あせ"
+        },
+        {
+          "text": "ばむ"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be sweaty"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bezweet raken",
+        "zweterig raken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ins Schwitzen kommen",
+        "zu schwitzen beginnen",
+        "leicht verschwitzt sein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стать мокрым от пота, покрыться потом"
+      ]
+    }
+  ]
+}

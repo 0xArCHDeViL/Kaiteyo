@@ -1,0 +1,51 @@
+{
+  "id": "1654310",
+  "readings": [
+    {
+      "kanaExpression": "だんこう",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "団交",
+      "furiganaExpression": [
+        {
+          "text": "団",
+          "annotation": "だん"
+        },
+        {
+          "text": "交",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "collective bargaining"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "cao-onderhandelingen",
+        "cao-overleg",
+        "collectieve arbeidsonderhandelingen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kollektivverhandlungen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 団体交渉) коллективные переговоры"
+      ]
+    }
+  ]
+}

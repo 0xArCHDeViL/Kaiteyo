@@ -1,0 +1,66 @@
+{
+  "id": "1334010",
+  "readings": [
+    {
+      "kanaExpression": "すみかえる",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "住み替える",
+      "furiganaExpression": [
+        {
+          "text": "住",
+          "annotation": "す"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "住替える",
+      "furiganaExpression": [
+        {
+          "text": "住",
+          "annotation": "すみ"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to move house",
+        "to move to a new house (or apartment, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "umziehen (insbes.) zu einer neuen Herrschaft ziehen (z.B. Diener)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) переменить местожительство, переехать на новую квартиру"
+      ]
+    }
+  ]
+}

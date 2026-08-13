@@ -1,0 +1,65 @@
+{
+  "id": "1534430",
+  "readings": [
+    {
+      "kanaExpression": "あみだな",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "網棚",
+      "furiganaExpression": [
+        {
+          "text": "網",
+          "annotation": "あみ"
+        },
+        {
+          "text": "棚",
+          "annotation": "だな"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(overhead) luggage rack (on a train, bus, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bagagenet",
+        "net",
+        "bagagerek",
+        "rek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gepäckablage",
+        "Gepäcknetz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csomagtartó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "багажная сетка (напр. в ж.-д. вагоне)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "polica za prtljago"
+      ]
+    }
+  ]
+}

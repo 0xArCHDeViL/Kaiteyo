@@ -1,0 +1,71 @@
+{
+  "id": "1580930",
+  "readings": [
+    {
+      "kanaExpression": "いしわた",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "せきめん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "石綿",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "綿",
+          "annotation": "わた"
+        }
+      ],
+      "rank": 11289
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "asbestos"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "asbest",
+        "steenvlas",
+        "amiant",
+        "aardvlas",
+        "bergvlas",
+        "steenzijde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Asbest",
+        "Steinflachs (feuerfeste mineralische Faser)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "azbeszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "асбест"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "asbest"
+      ]
+    }
+  ]
+}

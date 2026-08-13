@@ -1,0 +1,71 @@
+{
+  "id": "1303550",
+  "readings": [
+    {
+      "kanaExpression": "さんすい",
+      "rank": 32000
+    },
+    {
+      "kanaExpression": "さっすい"
+    },
+    {
+      "kanjiExpression": "散水",
+      "furiganaExpression": [
+        {
+          "text": "散",
+          "annotation": "さん"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "撒水",
+      "furiganaExpression": [
+        {
+          "text": "撒",
+          "annotation": "さん"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sprinkling water over",
+        "water sprinkling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besprengen mit Wasser",
+        "Bewässerung",
+        "besprengen",
+        "bewässern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) さんすい【散水】",
+        "(неправ.) 撒水",
+        "разбрызгивание, распыление"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aspersión"
+      ]
+    }
+  ]
+}

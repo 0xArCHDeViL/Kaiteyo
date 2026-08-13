@@ -1,0 +1,63 @@
+{
+  "id": "1291780",
+  "readings": [
+    {
+      "kanaExpression": "すわりこみ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "座り込み",
+      "furiganaExpression": [
+        {
+          "text": "座",
+          "annotation": "すわ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sit-in (protest)",
+        "sit-down (strike)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sit-in",
+        "sit-indemonstratie",
+        "sit-downdemonstratie",
+        "sit-downstaking",
+        "zitstaking",
+        "bedrijfsbezetting",
+        "bezetting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sit-in",
+        "Sitzstreik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～をやる} проводить сидячую забастовку"
+      ]
+    }
+  ]
+}

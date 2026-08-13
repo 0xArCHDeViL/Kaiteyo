@@ -1,0 +1,81 @@
+{
+  "id": "1442410",
+  "readings": [
+    {
+      "kanaExpression": "でんぴょう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "伝票",
+      "furiganaExpression": [
+        {
+          "text": "伝",
+          "annotation": "でん"
+        },
+        {
+          "text": "票",
+          "annotation": "ぴょう"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chit",
+        "slip",
+        "ticket",
+        "voucher"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "briefje",
+        "bewijsje",
+        "nota",
+        "bonnetje",
+        "reçu",
+        "strookje",
+        "voucher",
+        "{boekh.} slip"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bon (de réduction, ...)",
+        "facture",
+        "fiche",
+        "note",
+        "ticket"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zettel",
+        "Slip",
+        "Schein",
+        "Karte",
+        "Rechnung",
+        "Buchungsbeleg",
+        "Lieferschein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jótálló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "расписка; талон; накладная, требование; ордер"
+      ]
+    }
+  ]
+}

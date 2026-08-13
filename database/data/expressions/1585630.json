@@ -1,0 +1,95 @@
+{
+  "id": "1585630",
+  "readings": [
+    {
+      "kanaExpression": "さじ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "しゃじ",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "かい",
+      "rank": 4627
+    },
+    {
+      "kanjiExpression": "匙",
+      "furiganaExpression": [
+        {
+          "text": "匙",
+          "annotation": "さじ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "匕",
+      "furiganaExpression": [
+        {
+          "text": "匕",
+          "annotation": "さじ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spoon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lepel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cuillère"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Löffel",
+        "Arzt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "evező lapátja",
+        "evező tolla",
+        "kanálvillantó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ложка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "žlica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuchara"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sked"
+      ]
+    }
+  ]
+}

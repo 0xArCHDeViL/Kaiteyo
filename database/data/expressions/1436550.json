@@ -1,0 +1,83 @@
+{
+  "id": "1436550",
+  "readings": [
+    {
+      "kanaExpression": "しまりや",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "締まり屋",
+      "furiganaExpression": [
+        {
+          "text": "締",
+          "annotation": "し"
+        },
+        {
+          "text": "まり"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "締り屋",
+      "furiganaExpression": [
+        {
+          "text": "締",
+          "annotation": "しま"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thrifty person",
+        "stingy person",
+        "tight-fisted person"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "spaarzaam iemand",
+        "zuinig persoon",
+        "vrek",
+        "gierigaard",
+        "schraper",
+        "potter",
+        "krent",
+        "krentenkakker",
+        "pin",
+        "knijper",
+        "grijp"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sparsamer Mensch",
+        "jmd., der sorgsam mit seinem Geld umgeht",
+        "Geizkragen",
+        "Knickeriger"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) скуповатый (прижимистый) человек"
+      ]
+    }
+  ]
+}

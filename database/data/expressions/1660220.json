@@ -1,0 +1,58 @@
+{
+  "id": "1660220",
+  "readings": [
+    {
+      "kanaExpression": "しょうかいじょう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "紹介状",
+      "furiganaExpression": [
+        {
+          "text": "紹",
+          "annotation": "しょう"
+        },
+        {
+          "text": "介",
+          "annotation": "かい"
+        },
+        {
+          "text": "状",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "letter of introduction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "introductiebrief",
+        "aanbevelingsbrief",
+        "introductie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Empfehlungsschreiben",
+        "Empfehlungsbrief",
+        "Schreiben zur Vorstellung eines Patienten",
+        "Überweisungsschein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рекомендательное письмо"
+      ]
+    }
+  ]
+}

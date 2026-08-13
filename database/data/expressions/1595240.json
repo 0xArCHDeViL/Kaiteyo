@@ -1,0 +1,96 @@
+{
+  "id": "1595240",
+  "readings": [
+    {
+      "kanaExpression": "じたい",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "事態",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "態",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 1638
+    },
+    {
+      "kanjiExpression": "事体",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "situation",
+        "(present) state of affairs",
+        "circumstances"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "situatie",
+        "toestand",
+        "de dingen",
+        "de zaak",
+        "de (stand van) zaken",
+        "omstandigheden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "état des choses",
+        "situation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sachlage",
+        "Sachverhalt",
+        "Stand der Dinge",
+        "Situation",
+        "Tatbestand",
+        "Umstand",
+        "Verhältnisse"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyzet",
+        "körülmények"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "положение [вещей], обстановка, ситуация"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "circunstancias",
+        "estado"
+      ]
+    }
+  ]
+}

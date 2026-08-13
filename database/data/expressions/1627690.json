@@ -1,0 +1,41 @@
+{
+  "id": "1627690",
+  "readings": [
+    {
+      "kanaExpression": "ひょうよみ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "票読み",
+      "furiganaExpression": [
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "estimation of votes (in an election)",
+        "announcing the number of votes cast (for each candidate)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abschätzung der Stimmen"
+      ]
+    }
+  ]
+}

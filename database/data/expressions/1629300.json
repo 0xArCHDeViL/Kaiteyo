@@ -1,0 +1,73 @@
+{
+  "id": "1629300",
+  "readings": [
+    {
+      "kanaExpression": "にじゅうよっか",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "にじゅうよんにち"
+    },
+    {
+      "kanaExpression": "にじゅうよにち"
+    },
+    {
+      "kanjiExpression": "二十四日",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "十",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "四",
+          "annotation": "よっ"
+        },
+        {
+          "text": "日",
+          "annotation": "か"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "24th day of the month",
+        "24 days"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vierentwintigste dag van de maand",
+        "vierentwintig dagen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vierundzwanzigster",
+        "vierundzwanzig Tage",
+        "vierundzwanzigster (Tag eines Monats)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "štiriindvajseti dan v mesecu"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "día 24"
+      ]
+    }
+  ]
+}

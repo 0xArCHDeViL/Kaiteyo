@@ -1,0 +1,46 @@
+{
+  "id": "1580200",
+  "readings": [
+    {
+      "kanaExpression": "じゅんぷう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "順風",
+      "furiganaExpression": [
+        {
+          "text": "順",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "風",
+          "annotation": "ぷう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "favourable wind",
+        "favorable wind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "günstiger Wind",
+        "Rückenwind",
+        "glückliche Winde"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "попутный ветер"
+      ]
+    }
+  ]
+}

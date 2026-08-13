@@ -1,0 +1,88 @@
+{
+  "id": "1400980",
+  "readings": [
+    {
+      "kanaExpression": "あいつぐ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "相次ぐ",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "あい"
+        },
+        {
+          "text": "次",
+          "annotation": "つ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ],
+      "rank": 6020
+    },
+    {
+      "kanjiExpression": "相継ぐ",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "あい"
+        },
+        {
+          "text": "継",
+          "annotation": "つ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to follow in succession",
+        "to happen one after another"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elkaar opvolgen",
+        "op elkaar volgen",
+        "na elkaar komen",
+        "de een achter de ander plaatsvinden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "se suivre successivement(?)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufeinanderfolgen",
+        "hintereinander geschehen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "следовать один за другим"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "concatenarse",
+        "sucederse",
+        "sobrevenir",
+        "advenir"
+      ]
+    }
+  ]
+}

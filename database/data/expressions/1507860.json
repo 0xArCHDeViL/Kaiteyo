@@ -1,0 +1,47 @@
+{
+  "id": "1507860",
+  "readings": [
+    {
+      "kanaExpression": "へいほうキロメートル",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "平方キロメートル",
+      "furiganaExpression": [
+        {
+          "text": "平",
+          "annotation": "へい"
+        },
+        {
+          "text": "方",
+          "annotation": "ほう"
+        },
+        {
+          "text": "キロメートル"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "square kilometer",
+        "square kilometre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Quadratkilometer"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "kilómetro cuadrado (eng: square kilometer, square kilometre)"
+      ]
+    }
+  ]
+}

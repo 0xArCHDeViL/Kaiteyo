@@ -1,0 +1,63 @@
+{
+  "id": "1822080",
+  "readings": [
+    {
+      "kanaExpression": "らんどく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "乱読",
+      "furiganaExpression": [
+        {
+          "text": "乱",
+          "annotation": "らん"
+        },
+        {
+          "text": "読",
+          "annotation": "どく"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "濫読",
+      "furiganaExpression": [
+        {
+          "text": "濫",
+          "annotation": "らん"
+        },
+        {
+          "text": "読",
+          "annotation": "どく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "indiscriminate reading",
+        "unsystematic reading",
+        "desultory reading",
+        "reading at random"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "planlos lesen",
+        "Bücher verschlingen",
+        "planloses Lesen",
+        "Verschlingen von Büchern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бессистемное чтение",
+        "{～する} читать бессистемно (что попало)"
+      ]
+    }
+  ]
+}

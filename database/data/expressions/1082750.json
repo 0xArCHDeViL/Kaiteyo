@@ -1,0 +1,60 @@
+{
+  "id": "1082750",
+  "readings": [
+    {
+      "kanaExpression": "デコーダ",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "デコーダー",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ディコーダー"
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "decoder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Decoder"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dekóder",
+        "dekódoló",
+        "kódjel-átalakító",
+        "kódmegoldó berendezés",
+        "kódoltjel-átalakító",
+        "ütemkiértékelő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дешифровщик",
+        "декодер"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "descodificador (eng: decoder)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "avkodare"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "1565230",
+  "readings": [
+    {
+      "kanaExpression": "ほにゅう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "哺乳",
+      "furiganaExpression": [
+        {
+          "text": "哺",
+          "annotation": "ほ"
+        },
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "suckling",
+        "nursing",
+        "lactation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zogen",
+        "de borst geven",
+        "borstvoeding geven",
+        "het zogen",
+        "lactatie",
+        "melkvoeding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Säugen",
+        "Stillen",
+        "säugen",
+        "stillen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csecsemő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вскармливание грудью",
+        "{～する} вскармливать грудью"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "amamantar",
+        "dar de mamar"
+      ]
+    }
+  ]
+}

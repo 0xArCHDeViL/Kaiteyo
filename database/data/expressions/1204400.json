@@ -1,0 +1,65 @@
+{
+  "id": "1204400",
+  "readings": [
+    {
+      "kanaExpression": "がいして",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "概して",
+      "furiganaExpression": [
+        {
+          "text": "概",
+          "annotation": "がい"
+        },
+        {
+          "text": "して"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "generally",
+        "as a rule"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "in",
+        "over \u0027t algemeen",
+        "globaal genomen",
+        "over het geheel genomen",
+        "alles bij elkaar",
+        "ruwweg",
+        "doorgaans"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "im Allgemeinen",
+        "im Großen und Ganzen",
+        "im Ganzen",
+        "alles in Allem",
+        "in der Regel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rendszerint"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "в общем; в большинстве, большей частью"
+      ]
+    }
+  ]
+}

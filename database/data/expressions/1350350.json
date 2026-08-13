@@ -1,0 +1,70 @@
+{
+  "id": "1350350",
+  "readings": [
+    {
+      "kanaExpression": "しょうぼうし",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "消防士",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "firefighter",
+        "fireman"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "brandweerman",
+        "brandspuitgast",
+        "spuitgast",
+        "brandbestrijder",
+        "{Belg.N.} pompier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feuerwehrmann"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tűzoltó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "член добровольной пожарной дружины"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bombero"
+      ]
+    }
+  ]
+}

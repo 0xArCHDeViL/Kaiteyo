@@ -1,0 +1,60 @@
+{
+  "id": "1531390",
+  "readings": [
+    {
+      "kanaExpression": "めいが",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "名画",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "めい"
+        },
+        {
+          "text": "画",
+          "annotation": "が"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "famous picture",
+        "masterpiece (painting)",
+        "excellent film",
+        "film classic"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "berühmtes Bild",
+        "berühmter Film"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mestermű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "знаменитая картина"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuadro famoso",
+        "obra maestra"
+      ]
+    }
+  ]
+}

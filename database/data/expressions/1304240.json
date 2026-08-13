@@ -1,0 +1,128 @@
+{
+  "id": "1304240",
+  "readings": [
+    {
+      "kanaExpression": "さんび",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "賛美",
+      "furiganaExpression": [
+        {
+          "text": "賛",
+          "annotation": "さん"
+        },
+        {
+          "text": "美",
+          "annotation": "び"
+        }
+      ],
+      "rank": 11011
+    },
+    {
+      "kanjiExpression": "讃美",
+      "furiganaExpression": [
+        {
+          "text": "讃",
+          "annotation": "さん"
+        },
+        {
+          "text": "美",
+          "annotation": "び"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "讚美",
+      "furiganaExpression": [
+        {
+          "text": "讚",
+          "annotation": "さん"
+        },
+        {
+          "text": "美",
+          "annotation": "び"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "praise",
+        "glorification",
+        "extolment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "loven",
+        "prijzen",
+        "verheerlijken",
+        "bezingen",
+        "{bijb.} grootmaken",
+        "lof",
+        "verheerlijking",
+        "glorificatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "éloge",
+        "adoration",
+        "louange"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "loben",
+        "preisen",
+        "verherrlichen",
+        "anbeten",
+        "Lob",
+        "Lobpreisung",
+        "Verherrlichung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dicsérés",
+        "hálaadó istentisztelet",
+        "rajongás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хвала, восхваление",
+        "{～する} восхвалять, осыпать хвалой"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "povzdigovati",
+        "častiti",
+        "oboževati",
+        "hvala",
+        "poveličevanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "elogio",
+        "alabanza",
+        "encomio",
+        "adulación",
+        "cumplido",
+        "piropo"
+      ]
+    }
+  ]
+}

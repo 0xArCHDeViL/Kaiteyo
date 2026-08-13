@@ -1,0 +1,72 @@
+{
+  "id": "1379570",
+  "readings": [
+    {
+      "kanaExpression": "なまたまご",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "生卵",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "卵",
+          "annotation": "たまご"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "生玉子",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "玉",
+          "annotation": "たま"
+        },
+        {
+          "text": "子",
+          "annotation": "ご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "生たまご",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "たまご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "raw egg"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rohes Ei"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сырое яйцо"
+      ]
+    }
+  ]
+}

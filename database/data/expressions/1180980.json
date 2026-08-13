@@ -1,0 +1,61 @@
+{
+  "id": "1180980",
+  "readings": [
+    {
+      "kanaExpression": "よこづけ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "横付け",
+      "furiganaExpression": [
+        {
+          "text": "横",
+          "annotation": "よこ"
+        },
+        {
+          "text": "付",
+          "annotation": "づ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "横づけ",
+      "furiganaExpression": [
+        {
+          "text": "横",
+          "annotation": "よこ"
+        },
+        {
+          "text": "づけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bringing alongside (ship, vehicle, etc.)",
+        "coming alongside",
+        "mooring"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anlegen",
+        "Vorfahren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～にする} причаливать, пришвартовывать (судно борт о борт, вдоль стенки, пирса и т. п.); подкатывать, ставить (автомашину к самому подъезду и т. п.); подводить (к чему-л.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "1002250",
+  "readings": [
+    {
+      "kanaExpression": "おせじ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お世辞",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "辞",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "御世辞",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "辞",
+          "annotation": "じ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "flattery",
+        "compliment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vleiende opmerking",
+        "woorden",
+        "compliment",
+        "vleierij",
+        "vleitaal",
+        "gevlei",
+        "beleefdheden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "compliment",
+        "flatterie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kompliment",
+        "Schmeichelei",
+        "Höflichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dicséret"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "комплимент; лесть, льстивые слова",
+        "{～に} как комплимент, как любезность"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "laskanje",
+        "kompliment"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "adulación",
+        "galantería"
+      ]
+    }
+  ]
+}

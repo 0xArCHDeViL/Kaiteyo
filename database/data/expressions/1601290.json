@@ -1,0 +1,77 @@
+{
+  "id": "1601290",
+  "readings": [
+    {
+      "kanaExpression": "ばくろう",
+      "rank": 36000
+    },
+    {
+      "kanaExpression": "はくらく"
+    },
+    {
+      "kanjiExpression": "伯楽",
+      "furiganaExpression": [
+        {
+          "text": "伯",
+          "annotation": "はく"
+        },
+        {
+          "text": "楽",
+          "annotation": "らく"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "博労",
+      "furiganaExpression": [
+        {
+          "text": "博",
+          "annotation": "ばく"
+        },
+        {
+          "text": "労",
+          "annotation": "ろう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "馬喰",
+      "furiganaExpression": [
+        {
+          "text": "馬喰",
+          "annotation": "ばくろう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cattle or horse trader",
+        "good judge of horses or cattle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kuh- und Pferdehändler",
+        "Pferdekenner",
+        "Arzt für Pferde und Kühe",
+        "Menschenkenner"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (уст.) торговец лошадьми, барышник",
+        "2) (см.) ばくろう【伯楽】",
+        "1) знаток лошадей",
+        "2) ветеринар (лечащий лошадей)",
+        "3) лошадиный барышник",
+        "(разг.) коновал"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1323970",
+  "readings": [
+    {
+      "kanaExpression": "かりぬし",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "借り主",
+      "furiganaExpression": [
+        {
+          "text": "借",
+          "annotation": "か"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "借主",
+      "furiganaExpression": [
+        {
+          "text": "借",
+          "annotation": "かり"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "borrower",
+        "debtor",
+        "tenant",
+        "lessee",
+        "renter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Borger",
+        "Entleiher",
+        "Pächter",
+        "Mieter",
+        "Schuldner",
+        "Debitor"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lakó",
+        "haszonélvező"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) かりて【借り手】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arrendatario",
+        "prestatario"
+      ]
+    }
+  ]
+}

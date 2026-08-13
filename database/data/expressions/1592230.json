@@ -1,0 +1,85 @@
+{
+  "id": "1592230",
+  "readings": [
+    {
+      "kanaExpression": "くっきょう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "屈強",
+      "furiganaExpression": [
+        {
+          "text": "屈",
+          "annotation": "くっ"
+        },
+        {
+          "text": "強",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "倔強",
+      "furiganaExpression": [
+        {
+          "text": "倔",
+          "annotation": "くっ"
+        },
+        {
+          "text": "強",
+          "annotation": "きょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "robust",
+        "brawny",
+        "muscular",
+        "strong",
+        "sturdy"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Robustheit",
+        "Stärke",
+        "Kraft",
+        "Derbheit",
+        "Stämmigkeit",
+        "robust",
+        "stark",
+        "kräftig",
+        "derb",
+        "stämmig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egészséges",
+        "erős",
+        "erőteljes",
+        "izmos",
+        "robusztus",
+        "szilárd",
+        "csökönyös",
+        "makacs",
+        "önfejű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": ～な",
+        "1) сильный, крепкий, здоровый",
+        "2) упрямый, несговорчивый"
+      ]
+    }
+  ]
+}

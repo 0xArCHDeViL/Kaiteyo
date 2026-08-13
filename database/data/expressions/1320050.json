@@ -1,0 +1,73 @@
+{
+  "id": "1320050",
+  "readings": [
+    {
+      "kanaExpression": "しっそく",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "失速",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しっ"
+        },
+        {
+          "text": "速",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stall",
+        "downturn",
+        "slowdown",
+        "slump",
+        "weakening",
+        "decline"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{luchtv.} snelheid verliezen",
+        "in overtrek raken",
+        "{luchtv.} snelheidsverlies",
+        "overtrek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "durchsacken",
+        "an Fahrt verlieren",
+        "an Schwung verlieren",
+        "Durchsacken (Geschwindigkeit verlieren und abzustürzen drohen)",
+        "Verlieren an Fahrt",
+        "Verlieren an Schwung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "árusítóbódé",
+        "kórusülés",
+        "sebességvesztés",
+        "szentélybeli ülés",
+        "zsebtolvaj falazó társa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ав.) потеря скорости",
+        "{～する} терять скорость"
+      ]
+    }
+  ]
+}

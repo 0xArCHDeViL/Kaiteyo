@@ -1,0 +1,58 @@
+{
+  "id": "1181460",
+  "readings": [
+    {
+      "kanaExpression": "おうきゅう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "王宮",
+      "furiganaExpression": [
+        {
+          "text": "王",
+          "annotation": "おう"
+        },
+        {
+          "text": "宮",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "royal palace"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "paleis van een koning",
+        "koninklijk paleis",
+        "{w.g.} koningshuis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "königliche Residenz",
+        "Königspalast"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "королевский (императорский) дворец"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "palacio"
+      ]
+    }
+  ]
+}

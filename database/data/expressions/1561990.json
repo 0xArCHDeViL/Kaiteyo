@@ -1,0 +1,54 @@
+{
+  "id": "1561990",
+  "readings": [
+    {
+      "kanaExpression": "わおん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "和音",
+      "furiganaExpression": [
+        {
+          "text": "和",
+          "annotation": "わ"
+        },
+        {
+          "text": "音",
+          "annotation": "おん"
+        }
+      ],
+      "rank": 14905
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chord",
+        "customary \"on\" reading (of a kanji) used in Japanese (as opposed to those derived from Chinese)",
+        "Wu reading (of a kanji; as opposed to a Han reading)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} akkoord"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Akkord",
+        "Einklang",
+        "On-Lesung eines Kanji",
+        "japanische Lesung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "благозвучие, гармония"
+      ]
+    }
+  ]
+}

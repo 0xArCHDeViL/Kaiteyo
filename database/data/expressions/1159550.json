@@ -1,0 +1,62 @@
+{
+  "id": "1159550",
+  "readings": [
+    {
+      "kanaExpression": "いでんびょう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "遺伝病",
+      "furiganaExpression": [
+        {
+          "text": "遺",
+          "annotation": "い"
+        },
+        {
+          "text": "伝",
+          "annotation": "でん"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hereditary (genetic) disease"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} erfelijke ziekte",
+        "genetische ziekte",
+        "familiekwaal",
+        "{inform.} overerfelijke ziekte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erbkrankheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наследственная болезнь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enfermedad hereditaria (genética)"
+      ]
+    }
+  ]
+}

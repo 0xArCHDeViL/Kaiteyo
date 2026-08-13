@@ -1,0 +1,61 @@
+{
+  "id": "1625930",
+  "readings": [
+    {
+      "kanaExpression": "はくひょう",
+      "rank": 27500
+    },
+    {
+      "kanaExpression": "うすごおり"
+    },
+    {
+      "kanjiExpression": "薄氷",
+      "furiganaExpression": [
+        {
+          "text": "薄",
+          "annotation": "はく"
+        },
+        {
+          "text": "氷",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thin ice"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dun ijs",
+        "dun ijslaagje",
+        "{gew.} kis",
+        "dun laagje ijs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dünnes Eis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "veszély"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тонкий лёд"
+      ]
+    }
+  ]
+}

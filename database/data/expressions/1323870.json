@@ -1,0 +1,82 @@
+{
+  "id": "1323870",
+  "readings": [
+    {
+      "kanaExpression": "かりいれる",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "借り入れる",
+      "furiganaExpression": [
+        {
+          "text": "借",
+          "annotation": "か"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "借入れる",
+      "furiganaExpression": [
+        {
+          "text": "借",
+          "annotation": "かり"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to borrow",
+        "to rent",
+        "to lease",
+        "to charter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leihen",
+        "entleihen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bérbe ad",
+        "bérbe vesz",
+        "bérel",
+        "kibérel",
+        "árendába vesz",
+        "haszonbérbe vesz",
+        "láncfonalat keresztez",
+        "szabadalmaz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) かりる"
+      ]
+    }
+  ]
+}

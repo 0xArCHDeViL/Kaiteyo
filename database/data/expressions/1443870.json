@@ -1,0 +1,55 @@
+{
+  "id": "1443870",
+  "readings": [
+    {
+      "kanaExpression": "でんわき",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "電話機",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "話",
+          "annotation": "わ"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 11476
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "telephone (device)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Telefon",
+        "Telefonapparat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "телефонный аппарат, телефон"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "teléfono",
+        "aparato telefónico"
+      ]
+    }
+  ]
+}

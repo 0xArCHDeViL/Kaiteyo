@@ -1,0 +1,92 @@
+{
+  "id": "1587780",
+  "readings": [
+    {
+      "kanaExpression": "いる",
+      "rank": 14
+    },
+    {
+      "kanjiExpression": "鋳る",
+      "furiganaExpression": [
+        {
+          "text": "鋳",
+          "annotation": "い"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "鑄る",
+      "furiganaExpression": [
+        {
+          "text": "鑄",
+          "annotation": "い"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to cast",
+        "to mint",
+        "to coin"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gieten",
+        "{muntw.} munten",
+        "aanmunten",
+        "slaan",
+        "smeden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "couler le métal",
+        "frapper le métal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gießen (Metall)",
+        "prägen (Münzen)",
+        "schlagen (Münzen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dob",
+        "kiagyal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отливать, чеканить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tirar",
+        "arrojar",
+        "echar",
+        "acuñar",
+        "idear"
+      ]
+    }
+  ]
+}

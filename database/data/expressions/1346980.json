@@ -1,0 +1,53 @@
+{
+  "id": "1346980",
+  "readings": [
+    {
+      "kanaExpression": "しょうこうぎょう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "商工業",
+      "furiganaExpression": [
+        {
+          "text": "商",
+          "annotation": "しょう"
+        },
+        {
+          "text": "工",
+          "annotation": "こう"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commerce and industry"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Handel und Industrie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "торговля и промышленность"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comercio e industria"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "1273320",
+  "readings": [
+    {
+      "kanaExpression": "こうかい",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "公会",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public meeting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Versammlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "собрание, митинг"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "opinionsmöte"
+      ]
+    }
+  ]
+}

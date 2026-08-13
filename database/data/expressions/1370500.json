@@ -1,0 +1,68 @@
+{
+  "id": "1370500",
+  "readings": [
+    {
+      "kanaExpression": "ずがら",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "図柄",
+      "furiganaExpression": [
+        {
+          "text": "図",
+          "annotation": "ず"
+        },
+        {
+          "text": "柄",
+          "annotation": "がら"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "design",
+        "pattern"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "patroon",
+        "dessin",
+        "tekening",
+        "figuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Muster",
+        "Dessin",
+        "Design"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elgondolás",
+        "kivitelezés",
+        "minta",
+        "szerkesztés",
+        "terv",
+        "tervezet",
+        "tervrajz"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "diseño",
+        "patrón"
+      ]
+    }
+  ]
+}

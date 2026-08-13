@@ -1,0 +1,100 @@
+{
+  "id": "1596700",
+  "readings": [
+    {
+      "kanaExpression": "そろばん",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ソロバン"
+    },
+    {
+      "kanjiExpression": "算盤",
+      "furiganaExpression": [
+        {
+          "text": "算盤",
+          "annotation": "そろばん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "十露盤",
+      "furiganaExpression": [
+        {
+          "text": "十露盤",
+          "annotation": "そろばん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "abacus",
+        "soroban",
+        "calculation (esp. of profit and loss)",
+        "reckoning"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "telraam",
+        "rekenraam",
+        "abacus",
+        "{fig.} rekening",
+        "telling",
+        "{i.h.b.} berekening",
+        "{i.h.b.} calculatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "boulier",
+        "abaque"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Soroban",
+        "Abakus",
+        "Rechenbrett",
+        "Rechnung",
+        "Berechnung",
+        "Rentabilität",
+        "Profitabilität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "számológép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) 十露盤",
+        "1) [японские] счёты (по пятеричной системе)",
+        "2) расчёты"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "abakus",
+        "računalo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ábaco"
+      ]
+    }
+  ]
+}

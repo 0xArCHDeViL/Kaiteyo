@@ -1,0 +1,63 @@
+{
+  "id": "1274900",
+  "readings": [
+    {
+      "kanaExpression": "こうゆう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "公有",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public ownership",
+        "public domain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in öffentlichem Besitz",
+        "gemeinfrei",
+        "Staatseigentum",
+        "Gemeineigentum",
+        "öffentlicher Besitz",
+        "Gemeinfreiheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "köztulajdon",
+        "társadalmi tulajdon"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} общественный (по принадлежности)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "público",
+        "de propiedad pública"
+      ]
+    }
+  ]
+}

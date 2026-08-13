@@ -1,0 +1,54 @@
+{
+  "id": "1631150",
+  "readings": [
+    {
+      "kanaExpression": "こうきょうほうそう",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "公共放送",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "共",
+          "annotation": "きょう"
+        },
+        {
+          "text": "放",
+          "annotation": "ほう"
+        },
+        {
+          "text": "送",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public broadcasting (e.g. NHK, BBC)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "publieke omroep",
+        "openbare omroep",
+        "publieksomroep",
+        "openbare zender"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentlicher Rundfunk (wie NHK, BBC, ARD, ZDF etc.)"
+      ]
+    }
+  ]
+}

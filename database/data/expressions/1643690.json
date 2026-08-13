@@ -1,0 +1,68 @@
+{
+  "id": "1643690",
+  "readings": [
+    {
+      "kanaExpression": "おんなで",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "女手",
+      "furiganaExpression": [
+        {
+          "text": "女",
+          "annotation": "おんな"
+        },
+        {
+          "text": "手",
+          "annotation": "で"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "female help",
+        "female labor",
+        "female labour",
+        "female worker",
+        "woman\u0027s handwriting",
+        "hiragana"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vrouwelijke werkkracht",
+        "{i.h.b.} werkster",
+        "vrouwelijk handschrift",
+        "vrouwenhandschrift",
+        "vrouwenhand",
+        "vrouwenschrift",
+        "{i.h.b.} hiragana",
+        "handen van een vrouwelijke pop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frauenhand",
+        "Frauenhandschrift",
+        "Hiragana",
+        "weibliche Arbeitskraft"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "labor femenina",
+        "trabajo femenino",
+        "hiragana",
+        "escritura de mujeres",
+        "mujer en una familia"
+      ]
+    }
+  ]
+}

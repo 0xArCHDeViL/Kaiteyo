@@ -1,0 +1,67 @@
+{
+  "id": "2098290",
+  "readings": [
+    {
+      "kanaExpression": "ない",
+      "rank": 13
+    },
+    {
+      "kanjiExpression": "内",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        }
+      ],
+      "rank": 417
+    },
+    {
+      "kanjiExpression": "內",
+      "furiganaExpression": [
+        {
+          "text": "內",
+          "annotation": "ない"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "within ...",
+        "inside ..."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "binnen ~",
+        "in ~",
+        "binnen in ~",
+        "binnens-",
+        "intra-"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dedans",
+        "à l\u0027intérieur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутри (чего-л.), в пределах (чего-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "interior",
+        "parte interior"
+      ]
+    }
+  ]
+}

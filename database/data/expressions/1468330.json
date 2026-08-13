@@ -1,0 +1,50 @@
+{
+  "id": "1468330",
+  "readings": [
+    {
+      "kanaExpression": "ねんがく",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "年額",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "額",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yearly amount"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jährliche Summe",
+        "Jahresbetrag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "годовая сумма"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cantidad anual"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1325580",
+  "readings": [
+    {
+      "kanaExpression": "しゅじく",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "主軸",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "軸",
+          "annotation": "じく"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main spindle",
+        "main shaft",
+        "linchpin",
+        "pivot",
+        "principal axis",
+        "main axis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{wisk.} hoofdas",
+        "voornaamste as"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptachse",
+        "Antriebsachse",
+        "zentrale Figur",
+        "Dreh- und Angelpunkt",
+        "Hauptspindel",
+        "Arbeitsspindel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "főtengely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "главная ось"
+      ]
+    }
+  ]
+}

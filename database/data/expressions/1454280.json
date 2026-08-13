@@ -1,0 +1,69 @@
+{
+  "id": "1454280",
+  "readings": [
+    {
+      "kanaExpression": "みちづれ",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "みちずれ"
+    },
+    {
+      "kanjiExpression": "道連れ",
+      "furiganaExpression": [
+        {
+          "text": "道",
+          "annotation": "みち"
+        },
+        {
+          "text": "連",
+          "annotation": "づ"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "道づれ",
+      "furiganaExpression": [
+        {
+          "text": "道",
+          "annotation": "みち"
+        },
+        {
+          "text": "づれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fellow traveler",
+        "fellow traveller",
+        "travelling companion",
+        "taking someone along unwillingly (e.g. in death)",
+        "forcing to take part"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Weggefährte",
+        "Mitreisender",
+        "Begleiter",
+        "gewaltsame Mitnahme",
+        "zwangsweise Mitnahme (in den Tod)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "попутчик"
+      ]
+    }
+  ]
+}

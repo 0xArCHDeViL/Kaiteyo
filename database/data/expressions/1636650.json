@@ -1,0 +1,78 @@
+{
+  "id": "1636650",
+  "readings": [
+    {
+      "kanaExpression": "かわべ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "川辺",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "辺",
+          "annotation": "べ"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "河辺",
+      "furiganaExpression": [
+        {
+          "text": "河",
+          "annotation": "かわ"
+        },
+        {
+          "text": "辺",
+          "annotation": "べ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "川べ",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "べ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "riverside",
+        "riverbank",
+        "edge of a river"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rivierkant",
+        "rivieroever"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flussufer",
+        "Kawabe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) かわばた"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "1247770",
+  "readings": [
+    {
+      "kanaExpression": "ぐんがく",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "軍楽",
+      "furiganaExpression": [
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "楽",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "military music"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Marschmusik",
+        "Militärmusik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "военная музыка"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "militärmusik"
+      ]
+    }
+  ]
+}

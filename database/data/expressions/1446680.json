@@ -1,0 +1,108 @@
+{
+  "id": "1446680",
+  "readings": [
+    {
+      "kanaExpression": "とうがらし",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "とんがらし"
+    },
+    {
+      "kanaExpression": "トウガラシ"
+    },
+    {
+      "kanjiExpression": "唐辛子",
+      "furiganaExpression": [
+        {
+          "text": "唐",
+          "annotation": "とう"
+        },
+        {
+          "text": "辛",
+          "annotation": "がら"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "唐芥子",
+      "furiganaExpression": [
+        {
+          "text": "唐",
+          "annotation": "とう"
+        },
+        {
+          "text": "芥子",
+          "annotation": "がらし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "capsicum (Capsicum annuum, esp. the cultivated chili peppers)",
+        "chili pepper (chile, chilli)",
+        "cayenne",
+        "red pepper",
+        "shichimi pepper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} chilipeper",
+        "cayennepeper",
+        "chili",
+        "Capsicum frutescens",
+        "{plantk.} Spaanse peper",
+        "rode peper",
+        "rode paprika",
+        "{Ind.N.} lombok",
+        "{Ind.N.} tjabé",
+        "Capsicum annuum"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "piment de cayenne",
+        "piment rouge"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spanischer Pfeffer",
+        "Paprika",
+        "Capsicum annuum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "paprika"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "красный перец, Capsicum annum (L.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "chile",
+        "guindilla",
+        "ají"
+      ]
+    }
+  ]
+}

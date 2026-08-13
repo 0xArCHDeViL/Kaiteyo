@@ -1,0 +1,59 @@
+{
+  "id": "1393160",
+  "readings": [
+    {
+      "kanaExpression": "ぜんしゅう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "前週",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "last week",
+        "the week before"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letzte Woche",
+        "vorige Woche"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "múlt hét",
+        "múlt héten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прошлая неделя"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "la última semana",
+        "la semana anterior"
+      ]
+    }
+  ]
+}

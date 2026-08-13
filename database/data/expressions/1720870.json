@@ -1,0 +1,50 @@
+{
+  "id": "1720870",
+  "readings": [
+    {
+      "kanaExpression": "しんしょ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "親書",
+      "furiganaExpression": [
+        {
+          "text": "親",
+          "annotation": "しん"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "official letter (from the Emperor, Prime Minister, etc.)",
+        "personal message",
+        "handwritten letter",
+        "autograph letter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eigenhändiges Schreiben",
+        "Brief des Kaisers",
+        "Brief eines Staatsoberhauptes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) лично написанное письмо",
+        "2) письмо императора"
+      ]
+    }
+  ]
+}

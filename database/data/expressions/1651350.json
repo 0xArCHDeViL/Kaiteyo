@@ -1,0 +1,67 @@
+{
+  "id": "1651350",
+  "readings": [
+    {
+      "kanaExpression": "わせい",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "かせい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "和声",
+      "furiganaExpression": [
+        {
+          "text": "和",
+          "annotation": "わ"
+        },
+        {
+          "text": "声",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 14316
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "harmony",
+        "concord",
+        "consonance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} harmonie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Harmonie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyetértés",
+        "egyezés",
+        "harmónia",
+        "összhang",
+        "szerződés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(муз.) гармония",
+        "благозвучие, гармоничность",
+        "{～的} благозвучный, гармоничный"
+      ]
+    }
+  ]
+}

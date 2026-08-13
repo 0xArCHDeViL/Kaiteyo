@@ -1,0 +1,74 @@
+{
+  "id": "1286220",
+  "readings": [
+    {
+      "kanaExpression": "こっか",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "国歌",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こっ"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ],
+      "rank": 8554
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "national anthem"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(nationaal) volkslied"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "hymne national"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nationalhymne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nemzeti himnusz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "государственный гимн"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "himno nacional"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "nationalhymn",
+        "nationalsång"
+      ]
+    }
+  ]
+}

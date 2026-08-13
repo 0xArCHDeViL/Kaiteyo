@@ -1,0 +1,56 @@
+{
+  "id": "1345000",
+  "readings": [
+    {
+      "kanaExpression": "じょい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "女医",
+      "furiganaExpression": [
+        {
+          "text": "女",
+          "annotation": "じょ"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "female doctor"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "doctoresse",
+        "femme docteur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ärztin"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "женщина-врач"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mujer médico"
+      ]
+    }
+  ]
+}

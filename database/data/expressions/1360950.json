@@ -1,0 +1,48 @@
+{
+  "id": "1360950",
+  "readings": [
+    {
+      "kanaExpression": "しんふぜん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "心不全",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "全",
+          "annotation": "ぜん"
+        }
+      ],
+      "rank": 16500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heart failure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herzinsuffizienz",
+        "Herzversagen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "insuficiencia cardiaca"
+      ]
+    }
+  ]
+}

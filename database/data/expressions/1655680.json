@@ -1,0 +1,86 @@
+{
+  "id": "1655680",
+  "readings": [
+    {
+      "kanaExpression": "しょほうせん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "処方箋",
+      "furiganaExpression": [
+        {
+          "text": "処",
+          "annotation": "しょ"
+        },
+        {
+          "text": "方",
+          "annotation": "ほう"
+        },
+        {
+          "text": "箋",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 14401
+    },
+    {
+      "kanjiExpression": "処方せん",
+      "furiganaExpression": [
+        {
+          "text": "処",
+          "annotation": "しょ"
+        },
+        {
+          "text": "方",
+          "annotation": "ほう"
+        },
+        {
+          "text": "せん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prescription"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} voorschrift",
+        "doktersvoorschrift",
+        "receptbriefje",
+        "recept",
+        "doktersrecept"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rezept",
+        "Verschreibung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "orvosi recept"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рецепт, рецептурный бланк"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "recept"
+      ]
+    }
+  ]
+}

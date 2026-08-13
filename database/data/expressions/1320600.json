@@ -1,0 +1,65 @@
+{
+  "id": "1320600",
+  "readings": [
+    {
+      "kanaExpression": "しっぺい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "疾病",
+      "furiganaExpression": [
+        {
+          "text": "疾",
+          "annotation": "しっ"
+        },
+        {
+          "text": "病",
+          "annotation": "ぺい"
+        }
+      ],
+      "rank": 10075
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "illness",
+        "disease"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ziekte",
+        "kwaal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krankheit",
+        "Maladie",
+        "Leiden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rossz közérzet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) болезнь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enfermedad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1602320",
+  "readings": [
+    {
+      "kanaExpression": "ひらや",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "平家",
+      "furiganaExpression": [
+        {
+          "text": "平",
+          "annotation": "ひら"
+        },
+        {
+          "text": "家",
+          "annotation": "や"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "平屋",
+      "furiganaExpression": [
+        {
+          "text": "平",
+          "annotation": "ひら"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bungalow",
+        "one-story house"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "huis van één verdieping",
+        "parterrebouw",
+        "{一戸建ての} bungalow"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einstöckiges Haus",
+        "Flachbau",
+        "Flachhaus",
+        "Bungalow"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bungaló",
+        "földszintes családi ház",
+        "nyaralóház"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одноэтажный дом"
+      ]
+    }
+  ]
+}

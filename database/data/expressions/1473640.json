@@ -1,0 +1,76 @@
+{
+  "id": "1473640",
+  "readings": [
+    {
+      "kanaExpression": "かいとる",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "買い取る",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 10765
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to buy",
+        "to purchase"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aankopen",
+        "zich aanschaffen",
+        "door koop verkrijgen",
+        "afkopen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ankaufen",
+        "abkaufen",
+        "käuflich erwerben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megvásárol",
+        "megvesz",
+        "vásárol",
+        "vesz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "покупать, приобретать"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "inhandla"
+      ]
+    }
+  ]
+}

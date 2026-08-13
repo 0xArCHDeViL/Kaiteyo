@@ -1,0 +1,61 @@
+{
+  "id": "1513470",
+  "readings": [
+    {
+      "kanaExpression": "ほけんきん",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "保険金",
+      "furiganaExpression": [
+        {
+          "text": "保",
+          "annotation": "ほ"
+        },
+        {
+          "text": "険",
+          "annotation": "けん"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "insurance payout",
+        "insurance money"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auszahlung im Versicherungsfall",
+        "Versicherungsleistung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "biztosítási összeg (amit megkapsz)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "страховая премия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "seguro (aseguramiento contra pérdidas económicas)"
+      ]
+    }
+  ]
+}

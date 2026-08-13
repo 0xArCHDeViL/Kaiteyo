@@ -1,0 +1,54 @@
+{
+  "id": "1751760",
+  "readings": [
+    {
+      "kanaExpression": "へきめん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "壁面",
+      "furiganaExpression": [
+        {
+          "text": "壁",
+          "annotation": "へき"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 14326
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "surface of a wall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "muurvlak",
+        "muurvlakte",
+        "muuroppervlak",
+        "wand",
+        "muur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wandfläche",
+        "Oberfläche einer Wand"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "superficie de una pared"
+      ]
+    }
+  ]
+}

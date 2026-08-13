@@ -1,0 +1,61 @@
+{
+  "id": "1315860",
+  "readings": [
+    {
+      "kanaExpression": "ときには",
+      "rank": 12322
+    },
+    {
+      "kanjiExpression": "時には",
+      "furiganaExpression": [
+        {
+          "text": "時",
+          "annotation": "とき"
+        },
+        {
+          "text": "には"
+        }
+      ],
+      "rank": 4571
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "at times",
+        "occasionally"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "occasionnellement",
+        "parfois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "manchmal",
+        "gelegentlich",
+        "ab und zu"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "időnként",
+        "néha",
+        "olykor"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "algunas veces",
+        "de vez en cuando..."
+      ]
+    }
+  ]
+}

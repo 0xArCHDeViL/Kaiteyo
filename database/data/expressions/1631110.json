@@ -1,0 +1,48 @@
+{
+  "id": "1631110",
+  "readings": [
+    {
+      "kanaExpression": "ごようてい",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "御用邸",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "ご"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        },
+        {
+          "text": "邸",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "imperial villa"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kaiserliche Villa",
+        "kaiserliches Ferienhaus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "императорская вилла, отдельный дворец"
+      ]
+    }
+  ]
+}

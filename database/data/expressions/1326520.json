@@ -1,0 +1,73 @@
+{
+  "id": "1326520",
+  "readings": [
+    {
+      "kanaExpression": "とりこぼす",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "取りこぼす",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "りこぼす"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "取り零す",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "零",
+          "annotation": "こぼ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取零す",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "零",
+          "annotation": "こぼ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to lose an easy game",
+        "to suffer an unexpected defeat",
+        "to lose information"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unerwartet unterliegen (aufgrund von Nachlässigkeit)"
+      ]
+    }
+  ]
+}

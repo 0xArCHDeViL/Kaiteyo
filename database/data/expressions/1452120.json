@@ -1,0 +1,83 @@
+{
+  "id": "1452120",
+  "readings": [
+    {
+      "kanaExpression": "どうきゅうせい",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "同級生",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "級",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 6639
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "classmate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "klasgenoot",
+        "iemand die in hetzelfde klassejaar",
+        "leerjaar",
+        "academiejaar zit"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "camarade de classe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Klassenkamerad",
+        "Mitschüler",
+        "Kommilitone"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "osztálytárs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одноклассник"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sošolec",
+        "sošolka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compañero(s) de clase"
+      ]
+    }
+  ]
+}

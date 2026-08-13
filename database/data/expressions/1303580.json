@@ -1,0 +1,53 @@
+{
+  "id": "1303580",
+  "readings": [
+    {
+      "kanaExpression": "さんぱつ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "散発",
+      "furiganaExpression": [
+        {
+          "text": "散",
+          "annotation": "さん"
+        },
+        {
+          "text": "発",
+          "annotation": "ぱつ"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sporadic",
+        "scattering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vereinzeltes Feuer",
+        "vereinzeltes Vorkommen",
+        "sporadisches Vorkommen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szórványos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} а) возникать разрозненно (спорадически); б) представлять в разрозненном виде",
+        "{～的} разрозненный; спорадический"
+      ]
+    }
+  ]
+}

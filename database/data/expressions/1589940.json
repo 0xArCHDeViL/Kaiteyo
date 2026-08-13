@@ -1,0 +1,77 @@
+{
+  "id": "1589940",
+  "readings": [
+    {
+      "kanaExpression": "かきそえる",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "書き添える",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "添",
+          "annotation": "そ"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "書添える",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "かき"
+        },
+        {
+          "text": "添",
+          "annotation": "そ"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to add",
+        "to write a postscript"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ergänzen",
+        "hinzufügen",
+        "ein Postskript schreiben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hozzáad",
+        "hozzájön",
+        "hozzátesz",
+        "szaporodik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приписывать, делать приписку, добавлять (в письме и т. п.)"
+      ]
+    }
+  ]
+}

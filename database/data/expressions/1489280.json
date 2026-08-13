@@ -1,0 +1,54 @@
+{
+  "id": "1489280",
+  "readings": [
+    {
+      "kanaExpression": "ひょうはく",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "漂白",
+      "furiganaExpression": [
+        {
+          "text": "漂",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "白",
+          "annotation": "はく"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blanching",
+        "bleaching"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "blanchir",
+        "décolorer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bleichen",
+        "bleichen",
+        "entfärben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отбелка, беление",
+        "{～する} отбеливать"
+      ]
+    }
+  ]
+}

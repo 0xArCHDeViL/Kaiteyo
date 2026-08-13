@@ -1,0 +1,64 @@
+{
+  "id": "1560610",
+  "readings": [
+    {
+      "kanaExpression": "ろうむ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "労務",
+      "furiganaExpression": [
+        {
+          "text": "労",
+          "annotation": "ろう"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        }
+      ],
+      "rank": 7543
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "labor",
+        "labour",
+        "work",
+        "service"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeit",
+        "Dienst",
+        "Personalangelegenheiten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dolog",
+        "munka",
+        "munkaerő",
+        "munkások",
+        "munkásosztály",
+        "szülés",
+        "vajúdás",
+        "tevékenység",
+        "alkalmazás",
+        "készlet",
+        "szolgálat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "работа, труд"
+      ]
+    }
+  ]
+}

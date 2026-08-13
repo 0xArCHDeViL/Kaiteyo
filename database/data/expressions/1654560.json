@@ -1,0 +1,102 @@
+{
+  "id": "1654560",
+  "readings": [
+    {
+      "kanaExpression": "かちえる",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "勝ち得る",
+      "furiganaExpression": [
+        {
+          "text": "勝",
+          "annotation": "か"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "得",
+          "annotation": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "贏ち得る",
+      "furiganaExpression": [
+        {
+          "text": "贏",
+          "annotation": "か"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "得",
+          "annotation": "え"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to achieve",
+        "to win",
+        "to gain",
+        "to attain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erreichen",
+        "gewinnen",
+        "erwerben",
+        "bekommen",
+        "verdienen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elér",
+        "megvalósít",
+        "teljesít",
+        "elnyer",
+        "győz",
+        "nyer",
+        "szerez",
+        "előnyére van",
+        "hasznára van",
+        "hízik",
+        "keres",
+        "megszerez",
+        "felvisz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "добиваться, достигать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lograr",
+        "ganar",
+        "obtener",
+        "conseguir"
+      ]
+    }
+  ]
+}

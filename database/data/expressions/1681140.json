@@ -1,0 +1,63 @@
+{
+  "id": "1681140",
+  "readings": [
+    {
+      "kanaExpression": "かたとき",
+      "rank": 37000
+    },
+    {
+      "kanaExpression": "へんじ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "片時",
+      "furiganaExpression": [
+        {
+          "text": "片",
+          "annotation": "かた"
+        },
+        {
+          "text": "時",
+          "annotation": "とき"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "a (single) moment",
+        "an instant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moment",
+        "ogenblik"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Augenblick",
+        "Moment"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[один] момент, миг",
+        "(кн.) момент"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "momang"
+      ]
+    }
+  ]
+}

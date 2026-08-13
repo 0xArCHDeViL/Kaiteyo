@@ -1,0 +1,71 @@
+{
+  "id": "1410350",
+  "readings": [
+    {
+      "kanaExpression": "たいか",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "耐火",
+      "furiganaExpression": [
+        {
+          "text": "耐",
+          "annotation": "たい"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fireproof"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ignifuge",
+        "résistant au feu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feuerfest",
+        "Feuerfestigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tűzbiztos",
+        "tűzálló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} огнеупорный, жаростойкий"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "a prueba de fuego"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "brandsäker",
+        "eldfast"
+      ]
+    }
+  ]
+}

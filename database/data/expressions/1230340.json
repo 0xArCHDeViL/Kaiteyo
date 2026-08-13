@@ -1,0 +1,86 @@
+{
+  "id": "1230340",
+  "readings": [
+    {
+      "kanaExpression": "きゅうゆ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "給油",
+      "furiganaExpression": [
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "油",
+          "annotation": "ゆ"
+        }
+      ],
+      "rank": 13216
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "refueling (a car, plane, etc.)",
+        "lubricating (a machine)",
+        "oiling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "smering",
+        "het doorsmeren",
+        "olietoevoer",
+        "olieaanvoer",
+        "het bijtanken",
+        "tankbeurt",
+        "smeren",
+        "doorsmeren",
+        "oliën",
+        "beoliën",
+        "bijtanken",
+        "de voorraad brandstof aanvullen",
+        "bijvullen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tanken",
+        "Schmierung",
+        "tanken",
+        "auftanken",
+        "schmieren",
+        "ölen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "olajozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "снабжение (заправка) горючим",
+        "{～する} заправлять[ся] горючим"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "suministro de petróleo",
+        "echar gasolina",
+        "repostar",
+        "lubricación",
+        "engrase",
+        "suministrar combustible"
+      ]
+    }
+  ]
+}

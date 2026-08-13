@@ -1,0 +1,77 @@
+{
+  "id": "1599690",
+  "readings": [
+    {
+      "kanaExpression": "なりたち",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "成り立ち",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "な"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "成立ち",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "なり"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the way in which something came about",
+        "origin",
+        "structure",
+        "organization",
+        "the way something is constructed"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herkunft",
+        "Entstehung",
+        "Zustandekommen",
+        "ganze Geschichte",
+        "Organisation",
+        "Struktur",
+        "Bestandteil"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) становление, образование, формирование",
+        "2) происхождение, история (чего-л.)",
+        "3) составные элементы; устройство, механизм (чего-л.)"
+      ]
+    }
+  ]
+}

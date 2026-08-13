@@ -1,0 +1,53 @@
+{
+  "id": "1230090",
+  "readings": [
+    {
+      "kanaExpression": "きゅうじょう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "窮状",
+      "furiganaExpression": [
+        {
+          "text": "窮",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "状",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "distress",
+        "wretched condition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Not",
+        "Bedrängnis",
+        "schlimme Lage",
+        "Elend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "aggódás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бедственное положение; стеснённые обстоятельства"
+      ]
+    }
+  ]
+}

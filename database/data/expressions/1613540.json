@@ -1,0 +1,58 @@
+{
+  "id": "1613540",
+  "readings": [
+    {
+      "kanaExpression": "かげのないかく",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "影の内閣",
+      "furiganaExpression": [
+        {
+          "text": "影",
+          "annotation": "かげ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "閣",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shadow cabinet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schattenkabinett"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "árnyékkormány",
+        "ellenzéki kormánylista-tervezet",
+        "ellenzéki kormánylista"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skuggregering"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "1563010",
+  "readings": [
+    {
+      "kanaExpression": "かいり",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "乖離",
+      "furiganaExpression": [
+        {
+          "text": "乖",
+          "annotation": "かい"
+        },
+        {
+          "text": "離",
+          "annotation": "り"
+        }
+      ],
+      "rank": 11497
+    },
+    {
+      "kanjiExpression": "かい離",
+      "furiganaExpression": [
+        {
+          "text": "かい"
+        },
+        {
+          "text": "離",
+          "annotation": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "divergence",
+        "alienation",
+        "deviation",
+        "estrangement",
+        "separation",
+        "detachment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vervreemding",
+        "verwijdering",
+        "discrepantie",
+        "het uiteenlopen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entfremdung",
+        "Diskrepanz",
+        "Divergenz",
+        "Abweichung",
+        "entfremdet werden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elkülönítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) отчуждение; отделение"
+      ]
+    }
+  ]
+}

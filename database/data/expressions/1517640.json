@@ -1,0 +1,52 @@
+{
+  "id": "1517640",
+  "readings": [
+    {
+      "kanaExpression": "ぬい",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "縫い",
+      "furiganaExpression": [
+        {
+          "text": "縫",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "embroidery",
+        "sewing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nähen",
+        "Sticken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hímzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) шитьё",
+        "2) вышивка",
+        "{～のある} вышитый, с вышивкой"
+      ]
+    }
+  ]
+}

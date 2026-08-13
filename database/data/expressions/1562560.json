@@ -1,0 +1,85 @@
+{
+  "id": "1562560",
+  "readings": [
+    {
+      "kanaExpression": "わきやく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "脇役",
+      "furiganaExpression": [
+        {
+          "text": "脇",
+          "annotation": "わき"
+        },
+        {
+          "text": "役",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "傍役",
+      "furiganaExpression": [
+        {
+          "text": "傍",
+          "annotation": "わき"
+        },
+        {
+          "text": "役",
+          "annotation": "やく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "わき役",
+      "furiganaExpression": [
+        {
+          "text": "わき"
+        },
+        {
+          "text": "役",
+          "annotation": "やく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "supporting role (actor)",
+        "minor role"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rôle secondaire",
+        "second rôle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nebenrolle",
+        "Nebendarsteller"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) подсобная роль",
+        "{～的} подсобный; побочный",
+        "2) (см.) ワキ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "papel secundario (teatro, cine, etc)"
+      ]
+    }
+  ]
+}

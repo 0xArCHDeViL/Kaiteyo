@@ -1,0 +1,78 @@
+{
+  "id": "1188960",
+  "readings": [
+    {
+      "kanaExpression": "いつごろ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "いつ頃",
+      "furiganaExpression": [
+        {
+          "text": "いつ"
+        },
+        {
+          "text": "頃",
+          "annotation": "ごろ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "何時頃",
+      "furiganaExpression": [
+        {
+          "text": "何時",
+          "annotation": "いつ"
+        },
+        {
+          "text": "頃",
+          "annotation": "ごろ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "何時ごろ",
+      "furiganaExpression": [
+        {
+          "text": "何時",
+          "annotation": "いつ"
+        },
+        {
+          "text": "ごろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "about when",
+        "about what time",
+        "how soon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "om hoe laat ongeveer",
+        "wanneer ongeveer",
+        "omtrent welke tijd"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "quand à peu près"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "когда?, в какое время?"
+      ]
+    }
+  ]
+}

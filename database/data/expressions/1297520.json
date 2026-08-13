@@ -1,0 +1,59 @@
+{
+  "id": "1297520",
+  "readings": [
+    {
+      "kanaExpression": "さっか",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "作歌",
+      "furiganaExpression": [
+        {
+          "text": "作",
+          "annotation": "さっ"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "writing songs or poems",
+        "poem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dichten",
+        "Verfassen von Gedichten bzw. Liedern",
+        "verfasstes Gedicht",
+        "verfasstes Lied"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "költemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стихосложение, поэтическое творчество"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "escribir canciones o poemas"
+      ]
+    }
+  ]
+}

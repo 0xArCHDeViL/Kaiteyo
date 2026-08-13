@@ -1,0 +1,76 @@
+{
+  "id": "1478300",
+  "readings": [
+    {
+      "kanaExpression": "ばっぽんてき",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "抜本的",
+      "furiganaExpression": [
+        {
+          "text": "抜",
+          "annotation": "ばっ"
+        },
+        {
+          "text": "本",
+          "annotation": "ぽん"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 17500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drastic",
+        "radical"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "radicaal",
+        "drastisch",
+        "verregaand",
+        "ingrijpend",
+        "doortastend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "drastisch",
+        "durchgreifend",
+        "radikal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "drasztikus",
+        "gyökjel",
+        "mélyreható",
+        "radikális"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "коренной, радикальный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "drástico",
+        "radical"
+      ]
+    }
+  ]
+}

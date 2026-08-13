@@ -1,0 +1,64 @@
+{
+  "id": "1539530",
+  "readings": [
+    {
+      "kanaExpression": "ゆうとうせい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "優等生",
+      "furiganaExpression": [
+        {
+          "text": "優",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "等",
+          "annotation": "とう"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "honor student",
+        "honours student",
+        "model student",
+        "prize pupil"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "excellent élève"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Musterschüler",
+        "Primus",
+        "glänzender Schüler"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лучший (первый) ученик (студент)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estudiante de honor"
+      ]
+    }
+  ]
+}

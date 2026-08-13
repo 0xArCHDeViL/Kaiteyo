@@ -1,0 +1,76 @@
+{
+  "id": "1191040",
+  "readings": [
+    {
+      "kanaExpression": "かねんせい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "可燃性",
+      "furiganaExpression": [
+        {
+          "text": "可",
+          "annotation": "か"
+        },
+        {
+          "text": "燃",
+          "annotation": "ねん"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "combustibility",
+        "inflammability",
+        "combustible",
+        "inflammable"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontbrandbaarheid",
+        "brandbaarheid",
+        "verbrandbaarheid",
+        "ontvlambaarheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "combustibilité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Brennbarkeit",
+        "Entzündbarkeit",
+        "Inflammabilität",
+        "Feuergefährlichkeit",
+        "brennbar",
+        "leicht entzündlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyúlékonyság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горючесть, воспламеняемость"
+      ]
+    }
+  ]
+}

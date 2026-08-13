@@ -1,0 +1,94 @@
+{
+  "id": "1545300",
+  "readings": [
+    {
+      "kanaExpression": "ようかい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "妖怪",
+      "furiganaExpression": [
+        {
+          "text": "妖",
+          "annotation": "よう"
+        },
+        {
+          "text": "怪",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 11048
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ghost",
+        "apparition",
+        "phantom",
+        "spectre",
+        "specter",
+        "demon",
+        "monster",
+        "goblin",
+        "yōkai"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geest",
+        "spook",
+        "verschijning",
+        "spookverschijning",
+        "geestverschijning",
+        "schim",
+        "fantoom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unheimliche Erscheinung",
+        "Spuk",
+        "Ungeheuer",
+        "Monster",
+        "Unhold"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hazajáró lélek",
+        "kísértet",
+        "lélek",
+        "szellem",
+        "jelenés",
+        "agyrém",
+        "ál-",
+        "káprázat",
+        "képzeletbeli",
+        "rémkép",
+        "gonosz szellem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "привидение; злой дух; чудовище"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fantasma",
+        "aparición",
+        "espectro",
+        "demonio",
+        "monstruo",
+        "duende"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2134360",
+  "readings": [
+    {
+      "kanaExpression": "はんばいいん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "販売員",
+      "furiganaExpression": [
+        {
+          "text": "販",
+          "annotation": "はん"
+        },
+        {
+          "text": "売",
+          "annotation": "ばい"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sales staff",
+        "salesperson"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkoper",
+        "vertegenwoordiger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkäufer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продавец, продавщица"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "personal de ventas",
+        "vendedor"
+      ]
+    }
+  ]
+}

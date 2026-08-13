@@ -1,0 +1,54 @@
+{
+  "id": "1424300",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうごくじん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "中国人",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "国",
+          "annotation": "ごく"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 3769
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Chinese person"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Chinese",
+        "Chinesin"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "китаец, китаянка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "chino (persona)"
+      ]
+    }
+  ]
+}

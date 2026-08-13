@@ -1,0 +1,80 @@
+{
+  "id": "1240300",
+  "readings": [
+    {
+      "kanaExpression": "きょくげん",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "極限",
+      "furiganaExpression": [
+        {
+          "text": "極",
+          "annotation": "きょく"
+        },
+        {
+          "text": "限",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 11749
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "utmost limits",
+        "extremity",
+        "limit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uiterste grens",
+        "limiet",
+        "{wisk.} limiet",
+        "grenswaarde"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "extrême limite",
+        "limite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Begrenzung",
+        "äußerste Grenze",
+        "Grenzwert",
+        "Limes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "határpillér",
+        "limes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предел",
+        "{～する} ограничивать, устанавливать предел"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "extremo",
+        "borde",
+        "límite"
+      ]
+    }
+  ]
+}

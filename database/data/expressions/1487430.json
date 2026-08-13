@@ -1,0 +1,65 @@
+{
+  "id": "1487430",
+  "readings": [
+    {
+      "kanaExpression": "ひっけい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "必携",
+      "furiganaExpression": [
+        {
+          "text": "必",
+          "annotation": "ひっ"
+        },
+        {
+          "text": "携",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "indispensable",
+        "essential",
+        "must-have",
+        "handbook",
+        "manual",
+        "vade mecum"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "guide (essentiel, de référence)",
+        "mémento",
+        "manuel (de base)",
+        "vade mecum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unerlässlichkeit",
+        "Unentbehrlichkeit",
+        "etw. Unerlässliches",
+        "etw. Unentbehrliches",
+        "Handbuch",
+        "Vademekum",
+        "unentbehrlich",
+        "unerlässlich"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) руководство, пособие (учебное)",
+        "2): {～の} необходимый, обязательный"
+      ]
+    }
+  ]
+}

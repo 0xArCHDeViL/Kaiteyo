@@ -1,0 +1,123 @@
+{
+  "id": "1590550",
+  "readings": [
+    {
+      "kanaExpression": "かなしみ",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "悲しみ",
+      "furiganaExpression": [
+        {
+          "text": "悲",
+          "annotation": "かな"
+        },
+        {
+          "text": "しみ"
+        }
+      ],
+      "rank": 5563
+    },
+    {
+      "kanjiExpression": "哀しみ",
+      "furiganaExpression": [
+        {
+          "text": "哀",
+          "annotation": "かな"
+        },
+        {
+          "text": "しみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "愛しみ",
+      "furiganaExpression": [
+        {
+          "text": "愛",
+          "annotation": "かな"
+        },
+        {
+          "text": "しみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sadness",
+        "sorrow",
+        "grief",
+        "affection",
+        "love"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verdriet",
+        "leed",
+        "lijden",
+        "smart",
+        "droefheid",
+        "bedroefdheid",
+        "pijn",
+        "{arch.",
+        "lit.t.} wee"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chagrin",
+        "peine",
+        "tristesse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Traurigkeit",
+        "Trauer",
+        "Betrübnis",
+        "Gram",
+        "Schmerz",
+        "Kummer",
+        "Leid"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bánat",
+        "szomorúság",
+        "fájdalom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "печаль, грусть; скорбь; горе"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "žalost",
+        "bol",
+        "bridkost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tristeza",
+        "dolor",
+        "pesar",
+        "congoja"
+      ]
+    }
+  ]
+}

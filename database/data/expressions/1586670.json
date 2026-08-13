@@ -1,0 +1,101 @@
+{
+  "id": "1586670",
+  "readings": [
+    {
+      "kanaExpression": "あみもの",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "編み物",
+      "furiganaExpression": [
+        {
+          "text": "編",
+          "annotation": "あ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "編物",
+      "furiganaExpression": [
+        {
+          "text": "編",
+          "annotation": "あみ"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "knitting",
+        "knitted material",
+        "crochet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "breiwerk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tricot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Strickerei",
+        "Stricken",
+        "Häkeln",
+        "Strickware",
+        "Strickarbeit",
+        "Häkelarbeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "penge",
+        "szövedék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вязанье, вязаное изделие",
+        "{～をする} заниматься вязанием"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pletenje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tejido",
+        "labor de punto",
+        "croché"
+      ]
+    }
+  ]
+}

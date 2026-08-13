@@ -1,0 +1,45 @@
+{
+  "id": "1473160",
+  "readings": [
+    {
+      "kanaExpression": "はいでん",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "配電",
+      "furiganaExpression": [
+        {
+          "text": "配",
+          "annotation": "はい"
+        },
+        {
+          "text": "電",
+          "annotation": "でん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "distribution of electricity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stromverteilung",
+        "mit Strom versorgen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "распределение (подача) электроэнергии; электроснабжение",
+        "{～する} распределять (подавать) электроэнергию; снабжать электроэнергией"
+      ]
+    }
+  ]
+}

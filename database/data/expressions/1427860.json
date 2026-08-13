@@ -1,0 +1,73 @@
+{
+  "id": "1427860",
+  "readings": [
+    {
+      "kanaExpression": "はりあげる",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "張り上げる",
+      "furiganaExpression": [
+        {
+          "text": "張",
+          "annotation": "は"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "張りあげる",
+      "furiganaExpression": [
+        {
+          "text": "張",
+          "annotation": "は"
+        },
+        {
+          "text": "りあげる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to raise (one\u0027s voice)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erheben (die Stimme)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ébreszt",
+        "előidéz",
+        "előteremt",
+        "felemel",
+        "magasra emel",
+        "megemel",
+        "termeszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "повышать, усиливать, подтягивать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1363010",
+  "readings": [
+    {
+      "kanaExpression": "もうしいれる",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "申し入れる",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "もう"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to propose",
+        "to suggest"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorstellen",
+        "voorleggen",
+        "een voorstel doen",
+        "aanbieden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vorstellig werden",
+        "mitteilen",
+        "vorschlagen",
+        "anbieten",
+        "Einspruch erheben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ajánl",
+        "indítványoz",
+        "felvet",
+        "sugalmaz",
+        "tanácsol"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "predlagati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pedir",
+        "solicitar",
+        "protestar",
+        "quejarse"
+      ]
+    }
+  ]
+}

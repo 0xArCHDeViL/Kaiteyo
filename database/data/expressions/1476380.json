@@ -1,0 +1,57 @@
+{
+  "id": "1476380",
+  "readings": [
+    {
+      "kanaExpression": "はこづめ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "箱詰め",
+      "furiganaExpression": [
+        {
+          "text": "箱",
+          "annotation": "はこ"
+        },
+        {
+          "text": "詰",
+          "annotation": "づ"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "boxing",
+        "packing into a box",
+        "something packed into a box"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in eine Schachtel verpackt",
+        "etw. in einer Schachtel verpacken",
+        "Verpackung in einer Kiste"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dobozolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} упакованный в ящик[и]; в ящиках",
+        "{～にする} укладывать (упаковывать) в ящики"
+      ]
+    }
+  ]
+}

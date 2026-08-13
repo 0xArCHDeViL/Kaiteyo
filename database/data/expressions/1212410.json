@@ -1,0 +1,98 @@
+{
+  "id": "1212410",
+  "readings": [
+    {
+      "kanaExpression": "かんじょう",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "感情",
+      "furiganaExpression": [
+        {
+          "text": "感",
+          "annotation": "かん"
+        },
+        {
+          "text": "情",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 1432
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "emotion",
+        "feeling",
+        "feelings",
+        "sentiment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gevoel",
+        "emotie",
+        "sentiment",
+        "affectie",
+        "aandoening"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "émotion",
+        "sentiment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gefühl",
+        "Empfindung",
+        "Gemüt",
+        "Leidenschaft",
+        "Empfindsamkeit",
+        "Emotion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érzelem",
+        "érzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чувство, эмоция; страсть",
+        "{～的} чувствительный, эмоциональный; импульсивный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "čustvo",
+        "občutje",
+        "emocije"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "emoción",
+        "sentimiento",
+        "sentimientos"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "känsla"
+      ]
+    }
+  ]
+}

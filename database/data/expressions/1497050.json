@@ -1,0 +1,90 @@
+{
+  "id": "1497050",
+  "readings": [
+    {
+      "kanaExpression": "ふせつ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "敷設",
+      "furiganaExpression": [
+        {
+          "text": "敷",
+          "annotation": "ふ"
+        },
+        {
+          "text": "設",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "布設",
+      "furiganaExpression": [
+        {
+          "text": "布",
+          "annotation": "ふ"
+        },
+        {
+          "text": "設",
+          "annotation": "せつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "laying (a railroad, pipes, naval mines, etc.)",
+        "construction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aanleggen",
+        "leggen",
+        "bouwen",
+        "aanbouwen",
+        "construeren",
+        "aanleg",
+        "bouw",
+        "aanbouw",
+        "constructie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "construction",
+        "pose (rails)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "legen",
+        "anlegen",
+        "verlegen",
+        "Legen",
+        "Anlegen",
+        "Verlegen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szerkesztés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прокладка, проведение (ж.-д. линии)",
+        "{～する} прокладывать (ж.-д. линию); укладывать (кабель); ставить (мины)"
+      ]
+    }
+  ]
+}

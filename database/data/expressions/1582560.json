@@ -1,0 +1,75 @@
+{
+  "id": "1582560",
+  "readings": [
+    {
+      "kanaExpression": "ないぶんぴつ"
+    },
+    {
+      "kanaExpression": "ないぶんぴ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "内分泌",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "泌",
+          "annotation": "ぴつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "endocrine",
+        "incretion",
+        "internal secretion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} inwendige afscheiding",
+        "interne secretie",
+        "incretie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sécrétion interne (endocrine)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "innere Sekretion",
+        "Inkretion",
+        "Einsonderung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физиол.) внутренняя секреция",
+        "(см.) ないぶんぴ"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "insöndring"
+      ]
+    }
+  ]
+}

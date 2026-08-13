@@ -1,0 +1,100 @@
+{
+  "id": "1265000",
+  "readings": [
+    {
+      "kanaExpression": "こべつ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "個別",
+      "furiganaExpression": [
+        {
+          "text": "個",
+          "annotation": "こ"
+        },
+        {
+          "text": "別",
+          "annotation": "べつ"
+        }
+      ],
+      "rank": 2222
+    },
+    {
+      "kanjiExpression": "箇別",
+      "furiganaExpression": [
+        {
+          "text": "箇",
+          "annotation": "こ"
+        },
+        {
+          "text": "別",
+          "annotation": "べつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "individual",
+        "separate",
+        "personal",
+        "case-by-case"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "individueel",
+        "apart"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einzeln",
+        "separat",
+        "gesondert",
+        "getrennt",
+        "geschieden",
+        "persönlich",
+        "einer nach dem anderen",
+        "nacheinander",
+        "einzelner"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "különálló",
+        "egyén",
+        "egyéni",
+        "egyes",
+        "független",
+        "külön"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "индивидуальный случай",
+        "{～[の]} отдельный, раздельный, обособленный",
+        "{～的に} индивидуально; раздельно, по отдельности"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "določen primer"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "separado",
+        "aparte"
+      ]
+    }
+  ]
+}

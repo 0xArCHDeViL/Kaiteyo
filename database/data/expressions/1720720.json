@@ -1,0 +1,55 @@
+{
+  "id": "1720720",
+  "readings": [
+    {
+      "kanaExpression": "おやきょうだい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "親兄弟",
+      "furiganaExpression": [
+        {
+          "text": "親",
+          "annotation": "おや"
+        },
+        {
+          "text": "兄",
+          "annotation": "きょう"
+        },
+        {
+          "text": "弟",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "parents and siblings",
+        "one\u0027s relatives"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eltern und Geschwister",
+        "die nächsten Verwandten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "родители, братья и сёстры; ближайшие родственники"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "padres e hijos"
+      ]
+    }
+  ]
+}

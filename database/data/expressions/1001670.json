@@ -1,0 +1,124 @@
+{
+  "id": "1001670",
+  "readings": [
+    {
+      "kanaExpression": "おばけ",
+      "rank": 26500
+    },
+    {
+      "kanaExpression": "オバケ"
+    },
+    {
+      "kanjiExpression": "お化け",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "化",
+          "annotation": "ば"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "御化け",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "化",
+          "annotation": "ば"
+        },
+        {
+          "text": "け"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ghost",
+        "apparition",
+        "goblin",
+        "monster",
+        "demon",
+        "something unusually large"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geest",
+        "spook",
+        "monster",
+        "gedrocht",
+        "{fig.} monster",
+        "iets buitensporig groots",
+        "lompen",
+        "kapotte kleding",
+        "clandestien gedrukte almanak",
+        "{meton.} venter van clandestiene almanakken",
+        "{dierk.} heremietkreeft",
+        "heremiet",
+        "kluizenaarskreeft",
+        "Pagurus",
+        "haardracht van vrouwen uit de Keihan-streek met oudejaar",
+        "setsubun",
+        "{i.h.b.} Japanse haardracht",
+        "haarwrong bij jonge vrouwen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "apparition",
+        "fantôme",
+        "lutin",
+        "monstre",
+        "spectre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gespenst",
+        "Schreckbild",
+        "Spuk",
+        "der schwarze Mann (beim Fangen-Spielen)",
+        "etwas Riesiges"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gonosz szellem",
+        "kísértet",
+        "hazajáró lélek",
+        "lélek",
+        "szellem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) оборотень"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fantasma",
+        "aparición",
+        "espectro"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "1512980",
+  "readings": [
+    {
+      "kanaExpression": "べんしょう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "弁償",
+      "furiganaExpression": [
+        {
+          "text": "弁",
+          "annotation": "べん"
+        },
+        {
+          "text": "償",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "辨償",
+      "furiganaExpression": [
+        {
+          "text": "辨",
+          "annotation": "べん"
+        },
+        {
+          "text": "償",
+          "annotation": "しょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "compensation",
+        "indemnification",
+        "reparation",
+        "restitution",
+        "recompense"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vergoeden",
+        "schadeloosstellen",
+        "compenseren",
+        "goedmaken",
+        "dekken",
+        "indemniseren",
+        "compensatie",
+        "vergoeding",
+        "schadevergoeding",
+        "schadeloosstelling",
+        "herstelbetaling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dédommagement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wiedergutmachen",
+        "entschädigen",
+        "ersetzen",
+        "Entschädigung",
+        "Wiedergutmachung",
+        "Reparation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kártalanítás",
+        "helyreállítás",
+        "kijavítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возмещение, компенсация",
+        "{～する} возмещать, компенсировать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odškodnina",
+        "nadomestilo",
+        "povrnitev",
+        "povračilo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reembolso",
+        "compensación",
+        "indemnización"
+      ]
+    }
+  ]
+}

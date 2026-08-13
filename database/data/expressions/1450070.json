@@ -1,0 +1,100 @@
+{
+  "id": "1450070",
+  "readings": [
+    {
+      "kanaExpression": "とうふ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "豆腐",
+      "furiganaExpression": [
+        {
+          "text": "豆",
+          "annotation": "とう"
+        },
+        {
+          "text": "腐",
+          "annotation": "ふ"
+        }
+      ],
+      "rank": 5403
+    },
+    {
+      "kanjiExpression": "豆富",
+      "furiganaExpression": [
+        {
+          "text": "豆",
+          "annotation": "とう"
+        },
+        {
+          "text": "富",
+          "annotation": "ふ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "豆冨",
+      "furiganaExpression": [
+        {
+          "text": "豆",
+          "annotation": "とう"
+        },
+        {
+          "text": "冨",
+          "annotation": "ふ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tofu",
+        "bean curd",
+        "beancurd"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} tofoe",
+        "tahoe",
+        "sojakaas",
+        "{i.h.b.} sojavlees"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tofu (bloc de soja fermenté)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tōfu",
+        "Sojabohnenquark"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тофу (соевый творог)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "tofu",
+        "sojin sir"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tofu (requesón hecho a base de semilla de soya)"
+      ]
+    }
+  ]
+}

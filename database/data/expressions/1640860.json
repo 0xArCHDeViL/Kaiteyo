@@ -1,0 +1,49 @@
+{
+  "id": "1640860",
+  "readings": [
+    {
+      "kanaExpression": "まいふん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "毎分",
+      "furiganaExpression": [
+        {
+          "text": "毎",
+          "annotation": "まい"
+        },
+        {
+          "text": "分",
+          "annotation": "ふん"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "every minute",
+        "per minute"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elke minuut",
+        "iedere minuut",
+        "per minuut"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jede Minute",
+        "minütlich",
+        "je Minute",
+        "pro Minute"
+      ]
+    }
+  ]
+}

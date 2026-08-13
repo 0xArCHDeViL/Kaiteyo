@@ -1,0 +1,72 @@
+{
+  "id": "1541370",
+  "readings": [
+    {
+      "kanaExpression": "ゆうしきしゃ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "有識者",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "識",
+          "annotation": "しき"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 10787
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "expert",
+        "knowledgeable person",
+        "authority (on a subject)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gelehrter",
+        "Sachkundiger",
+        "Experte",
+        "Autorität",
+        "Kapazität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "járatos",
+        "ügyes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "образованный человек, интеллигент"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "experto (persona)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sakförståndig"
+      ]
+    }
+  ]
+}

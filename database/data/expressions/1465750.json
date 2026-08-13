@@ -1,0 +1,56 @@
+{
+  "id": "1465750",
+  "readings": [
+    {
+      "kanaExpression": "にゅうえん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "入園",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "園",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "入苑",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "苑",
+          "annotation": "えん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "enrollment in kindergarten",
+        "enrolment in nursery school",
+        "entering a park, garden, zoo, etc."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "anfangen einen Kindergarten zu besuchen",
+        "in den Kindergarten kommen",
+        "Betreten eines Parks",
+        "Beginn des Besuchs eines Kindergartens",
+        "Kommen in den Kindergarten"
+      ]
+    }
+  ]
+}

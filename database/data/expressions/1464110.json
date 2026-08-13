@@ -1,0 +1,76 @@
+{
+  "id": "1464110",
+  "readings": [
+    {
+      "kanaExpression": "にちじ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "日時",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "時",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 2052
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "date and time (of a meeting, departure, etc.)",
+        "days and hours"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dag en uur",
+        "datum",
+        "aantal dagen en uren",
+        "tijd"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "date et heure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Datum und Zeit",
+        "Termin",
+        "Datum",
+        "Zeit",
+        "Tage und Stunden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "время; срок, дата; день и час"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "datum in ura",
+        "čas"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fecha y hora"
+      ]
+    }
+  ]
+}

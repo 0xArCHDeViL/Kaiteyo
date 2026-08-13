@@ -1,0 +1,84 @@
+{
+  "id": "1770000",
+  "readings": [
+    {
+      "kanaExpression": "もちにげ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "持ち逃げ",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "逃",
+          "annotation": "に"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "持逃げ",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "逃",
+          "annotation": "に"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "持逃",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "逃",
+          "annotation": "にげ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "making off with (something)",
+        "absconding",
+        "stolen",
+        "absconded (with)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Davonlaufen mit …",
+        "Durchbrennen mit …",
+        "Türmen mit …"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бегство с (чем-л.) похищенным",
+        "{～する} скрыться, похитив (что-л.)"
+      ]
+    }
+  ]
+}

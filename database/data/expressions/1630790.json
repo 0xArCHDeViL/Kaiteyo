@@ -1,0 +1,50 @@
+{
+  "id": "1630790",
+  "readings": [
+    {
+      "kanaExpression": "けんがい",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "県外",
+      "furiganaExpression": [
+        {
+          "text": "県",
+          "annotation": "けん"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outside the prefecture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außerhalb der Präfektur gelegen",
+        "außerhalb einer Präfektur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "за пределами (границами) префектуры"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fuera de la prefectura"
+      ]
+    }
+  ]
+}

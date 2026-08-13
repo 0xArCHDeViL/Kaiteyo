@@ -1,0 +1,80 @@
+{
+  "id": "1255600",
+  "readings": [
+    {
+      "kanaExpression": "げっけい",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "月経",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "げっ"
+        },
+        {
+          "text": "経",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "menstruation",
+        "menstrual period"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "menstruatie",
+        "ongesteldheid",
+        "maandstonden",
+        "maandbloeding",
+        "maandvloed",
+        "regels",
+        "periode",
+        "menses",
+        "{geneesk.} menorroe",
+        "{euf.} emmetje",
+        "m’etje",
+        "{inform.",
+        "euf.} het goed",
+        "{veroud.} maandzuivering",
+        "{veroud.} maandelijkse zuivering",
+        "{volkst.} opoe",
+        "{gew.} bullen",
+        "{gew.} maanden",
+        "{vulg.} rommel",
+        "{vulg.} de rooie loop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Menstruation",
+        "Monatsblutung",
+        "Regel",
+        "Periode",
+        "Menses",
+        "Katamenien"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "менструации, месячные"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "menstruación"
+      ]
+    }
+  ]
+}

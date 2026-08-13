@@ -1,0 +1,57 @@
+{
+  "id": "1199130",
+  "readings": [
+    {
+      "kanaExpression": "かいだい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "解題",
+      "furiganaExpression": [
+        {
+          "text": "解",
+          "annotation": "かい"
+        },
+        {
+          "text": "題",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "synopsis",
+        "review of subject",
+        "annotation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erläuterung eines Buches od. Bildes",
+        "bibliografische Erläuterung",
+        "Synopse",
+        "Inhaltsübersicht",
+        "Einleitung",
+        "Vorwort",
+        "Nachwort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szinopszis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "объяснение названия; аннотированная библиография; аннотация"
+      ]
+    }
+  ]
+}

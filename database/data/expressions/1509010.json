@@ -1,0 +1,43 @@
+{
+  "id": "1509010",
+  "readings": [
+    {
+      "kanaExpression": "べいはん",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "米飯",
+      "furiganaExpression": [
+        {
+          "text": "米",
+          "annotation": "べい"
+        },
+        {
+          "text": "飯",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cooked rice"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gekochter Reis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[варёный] рис"
+      ]
+    }
+  ]
+}

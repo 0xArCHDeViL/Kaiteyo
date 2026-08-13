@@ -1,0 +1,46 @@
+{
+  "id": "1657630",
+  "readings": [
+    {
+      "kanaExpression": "さへん",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "左辺",
+      "furiganaExpression": [
+        {
+          "text": "左",
+          "annotation": "さ"
+        },
+        {
+          "text": "辺",
+          "annotation": "へん"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "left side (of an equation, expression, etc.)",
+        "LHS",
+        "left side (go, chess, othello board)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die linke Seite"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "левая сторона",
+        "{～に} налево, слева"
+      ]
+    }
+  ]
+}

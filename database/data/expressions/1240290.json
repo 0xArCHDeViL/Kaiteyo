@@ -1,0 +1,60 @@
+{
+  "id": "1240290",
+  "readings": [
+    {
+      "kanaExpression": "きょっけい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "極刑",
+      "furiganaExpression": [
+        {
+          "text": "極",
+          "annotation": "きょっ"
+        },
+        {
+          "text": "刑",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "capital punishment",
+        "death penalty",
+        "maximum penalty",
+        "ultimate punishment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Höchststrafe",
+        "Todesstrafe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halálbüntetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "высшая мера [наказания]; (перен.) смертная казнь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pena máxima",
+        "pena capital"
+      ]
+    }
+  ]
+}

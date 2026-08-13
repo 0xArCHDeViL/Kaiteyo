@@ -1,0 +1,58 @@
+{
+  "id": "1630490",
+  "readings": [
+    {
+      "kanaExpression": "けいじせきにん",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "刑事責任",
+      "furiganaExpression": [
+        {
+          "text": "刑",
+          "annotation": "けい"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "責",
+          "annotation": "せき"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "criminal liability"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "strafrechtliche Haftung",
+        "Haftung aus vorsätzlichen Straftaten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "büntetőjogi felelősség"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "responsabilidad penal"
+      ]
+    }
+  ]
+}

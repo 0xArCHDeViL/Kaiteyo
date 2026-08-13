@@ -1,0 +1,80 @@
+{
+  "id": "1585030",
+  "readings": [
+    {
+      "kanaExpression": "らいきゃく",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "らいかく"
+    },
+    {
+      "kanjiExpression": "来客",
+      "furiganaExpression": [
+        {
+          "text": "来",
+          "annotation": "らい"
+        },
+        {
+          "text": "客",
+          "annotation": "きゃく"
+        }
+      ],
+      "rank": 14906
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "visitor",
+        "caller"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bezoeker",
+        "gast",
+        "{verzameln.} bezoek",
+        "visite",
+        "toeloop",
+        "aanloop"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "visiteur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besucher",
+        "Gast"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "látogató",
+        "hívó fél"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "посетитель, гость"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "visitas",
+        "clientes",
+        "invitados"
+      ]
+    }
+  ]
+}

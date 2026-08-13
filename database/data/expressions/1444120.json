@@ -1,0 +1,116 @@
+{
+  "id": "1444120",
+  "readings": [
+    {
+      "kanaExpression": "はきけ",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "はきげ"
+    },
+    {
+      "kanjiExpression": "吐き気",
+      "furiganaExpression": [
+        {
+          "text": "吐",
+          "annotation": "は"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "気",
+          "annotation": "け"
+        }
+      ],
+      "rank": 13230
+    },
+    {
+      "kanjiExpression": "吐気",
+      "furiganaExpression": [
+        {
+          "text": "吐",
+          "annotation": "はき"
+        },
+        {
+          "text": "気",
+          "annotation": "け"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "嘔き気",
+      "furiganaExpression": [
+        {
+          "text": "嘔",
+          "annotation": "は"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "気",
+          "annotation": "け"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nausea",
+        "feeling like throwing up",
+        "feeling sick"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "braakneiging",
+        "misselijkheid",
+        "onpasselijkheid",
+        "walging",
+        "gekokhals"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dégoût",
+        "envie de vomir",
+        "nausée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Brechreiz",
+        "Übelkeit",
+        "Ekel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megcsömörlés",
+        "tengeribetegség",
+        "undor",
+        "undorodás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тошнота",
+        "тошнота; позывы к рвоте"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "náusea"
+      ]
+    }
+  ]
+}

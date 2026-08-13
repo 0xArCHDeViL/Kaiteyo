@@ -1,0 +1,74 @@
+{
+  "id": "1437890",
+  "readings": [
+    {
+      "kanaExpression": "てっこつ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "鉄骨",
+      "furiganaExpression": [
+        {
+          "text": "鉄",
+          "annotation": "てっ"
+        },
+        {
+          "text": "骨",
+          "annotation": "こつ"
+        }
+      ],
+      "rank": 12699
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "steel frame",
+        "steel beam",
+        "steel girder"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "charpente en fer, armature en fer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eisengerippe",
+        "Stahlskelett",
+        "Stahlgerüst",
+        "Stahlbau"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fém alapszerkezet",
+        "fém alapváz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "металлический каркас"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jeklen okvir",
+        "jekleno ogrodje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "marco de acero"
+      ]
+    }
+  ]
+}

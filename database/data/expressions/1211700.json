@@ -1,0 +1,69 @@
+{
+  "id": "1211700",
+  "readings": [
+    {
+      "kanaExpression": "かんしゃ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "官舎",
+      "furiganaExpression": [
+        {
+          "text": "官",
+          "annotation": "かん"
+        },
+        {
+          "text": "舎",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "官舍",
+      "furiganaExpression": [
+        {
+          "text": "官",
+          "annotation": "かん"
+        },
+        {
+          "text": "舍",
+          "annotation": "しゃ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "official residence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Amtswohnung",
+        "Dienstwohnung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "официальная резиденция; ведомственная (казённая) квартира; казённый (ведомственный) дом"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "residencia oficial"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "boställe"
+      ]
+    }
+  ]
+}

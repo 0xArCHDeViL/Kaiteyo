@@ -1,0 +1,86 @@
+{
+  "id": "1569460",
+  "readings": [
+    {
+      "kanaExpression": "さまつ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "瑣末",
+      "furiganaExpression": [
+        {
+          "text": "瑣",
+          "annotation": "さ"
+        },
+        {
+          "text": "末",
+          "annotation": "まつ"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "些末",
+      "furiganaExpression": [
+        {
+          "text": "些",
+          "annotation": "さ"
+        },
+        {
+          "text": "末",
+          "annotation": "まつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trivial",
+        "trifling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onbelangrijk",
+        "onbeduidend",
+        "onbetekenend",
+        "onbenullig",
+        "nietszeggend",
+        "futiel",
+        "gering",
+        "irrelevant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kleinigkeit",
+        "Bagatelle",
+        "Lappalie",
+        "unbedeutend",
+        "unwichtig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elcsépelt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～な}, {～的} (кн.) ничтожный, пустяковый, второстепенный, незначительный"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "småttig"
+      ]
+    }
+  ]
+}

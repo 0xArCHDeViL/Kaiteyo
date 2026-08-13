@@ -1,0 +1,91 @@
+{
+  "id": "1311600",
+  "readings": [
+    {
+      "kanaExpression": "しへい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "紙幣",
+      "furiganaExpression": [
+        {
+          "text": "紙",
+          "annotation": "し"
+        },
+        {
+          "text": "幣",
+          "annotation": "へい"
+        }
+      ],
+      "rank": 11859
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paper money",
+        "note",
+        "bill"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "papiergeld",
+        "bankpapier",
+        "bankbiljet",
+        "{Belg.N.} bankbriefje",
+        "muntbiljet",
+        "biljet",
+        "briefje",
+        "papiertje",
+        "lapje",
+        "{Barg.",
+        "inform.} flap",
+        "{inform.} flapje",
+        "{inform.} bankje",
+        "{volkst.} prent"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "billet (de banque)",
+        "papier-monnaie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geldschein",
+        "Papiergeld",
+        "Banknote"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "papírpénz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бумажные деньги, банкноты; казначейские билеты"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "bankovec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "billetes"
+      ]
+    }
+  ]
+}

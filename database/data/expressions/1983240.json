@@ -1,0 +1,54 @@
+{
+  "id": "1983240",
+  "readings": [
+    {
+      "kanaExpression": "たたみじき",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "畳敷き",
+      "furiganaExpression": [
+        {
+          "text": "畳",
+          "annotation": "たたみ"
+        },
+        {
+          "text": "敷",
+          "annotation": "じ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "畳敷",
+      "furiganaExpression": [
+        {
+          "text": "畳",
+          "annotation": "たたみ"
+        },
+        {
+          "text": "敷",
+          "annotation": "じき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tatami-matted"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausgelegt-Sein mit Tatami",
+        "mit Tatami ausgelegtes Zimmer"
+      ]
+    }
+  ]
+}

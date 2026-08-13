@@ -1,0 +1,53 @@
+{
+  "id": "1482960",
+  "readings": [
+    {
+      "kanaExpression": "いやおう",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "否応",
+      "furiganaExpression": [
+        {
+          "text": "否",
+          "annotation": "いや"
+        },
+        {
+          "text": "応",
+          "annotation": "おう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yes or no answer",
+        "agreement or disagreement",
+        "consent or refusal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "goed- of afkeuring",
+        "toestemming of verwerping"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verneinen und Bejahen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "да или нет",
+        "(ср.) いやおうなし"
+      ]
+    }
+  ]
+}

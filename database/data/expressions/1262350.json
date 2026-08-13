@@ -1,0 +1,55 @@
+{
+  "id": "1262350",
+  "readings": [
+    {
+      "kanaExpression": "げんぼ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "原簿",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "簿",
+          "annotation": "ぼ"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ledger",
+        "original record",
+        "register"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptbuch",
+        "Originalregister"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állandó dolog",
+        "álló dolog",
+        "főkönyv",
+        "keresztgerenda"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(бухг.) гроссбух"
+      ]
+    }
+  ]
+}

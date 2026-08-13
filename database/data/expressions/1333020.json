@@ -1,0 +1,56 @@
+{
+  "id": "1333020",
+  "readings": [
+    {
+      "kanaExpression": "しゅうまつ",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "終末",
+      "furiganaExpression": [
+        {
+          "text": "終",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "末",
+          "annotation": "まつ"
+        }
+      ],
+      "rank": 14942
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "end",
+        "close",
+        "conclusion",
+        "termination"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "einde",
+        "slot",
+        "besluit",
+        "{theol.} eschaton"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ende",
+        "das Weltende"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окончание, конец"
+      ]
+    }
+  ]
+}

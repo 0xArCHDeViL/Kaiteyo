@@ -1,0 +1,94 @@
+{
+  "id": "1303930",
+  "readings": [
+    {
+      "kanaExpression": "さんすう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "算数",
+      "furiganaExpression": [
+        {
+          "text": "算",
+          "annotation": "さん"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 7857
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "arithmetic",
+        "calculation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "telling",
+        "het rekenen",
+        "gereken",
+        "{inform.} rekenarij",
+        "berekening",
+        "becijfering",
+        "calculatie",
+        "{schoolt.} rekenkunde",
+        "{schoolt.} getallenleer",
+        "{schoolt.} aritmetica"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arithmétique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rechnen",
+        "Arithmetik",
+        "Mathematik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "aritmetika",
+        "aritmetikai",
+        "számtan",
+        "számtani"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "счёт; вычисление; арифметика"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "aritmetika"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aritmética"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "aritmetik"
+      ]
+    }
+  ]
+}

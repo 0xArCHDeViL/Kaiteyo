@@ -1,0 +1,97 @@
+{
+  "id": "1350490",
+  "readings": [
+    {
+      "kanaExpression": "やきざかな",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "焼き魚",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "魚",
+          "annotation": "ざかな"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "焼魚",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "やき"
+        },
+        {
+          "text": "魚",
+          "annotation": "ざかな"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "焼肴",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "やき"
+        },
+        {
+          "text": "肴",
+          "annotation": "ざかな"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "焼き肴",
+      "furiganaExpression": [
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "肴",
+          "annotation": "ざかな"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grilled fish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} gebakken",
+        "gegrilde",
+        "geroosterde vis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gebratener Fisch",
+        "gegrillter Fisch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жареная рыба"
+      ]
+    }
+  ]
+}

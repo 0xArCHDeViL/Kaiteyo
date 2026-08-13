@@ -1,0 +1,78 @@
+{
+  "id": "1750060",
+  "readings": [
+    {
+      "kanaExpression": "あおじゃしん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "青写真",
+      "furiganaExpression": [
+        {
+          "text": "青",
+          "annotation": "あお"
+        },
+        {
+          "text": "写",
+          "annotation": "じゃ"
+        },
+        {
+          "text": "真",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blueprint",
+        "cyanotype",
+        "blueprint (for the future)",
+        "plan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blauwdruk",
+        "cyanotypie",
+        "ontwerp",
+        "schets",
+        "plan",
+        "schema"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blaupause",
+        "Zyanotypie",
+        "Lichtpause",
+        "Zukunftskonzeption"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tervrajz",
+        "elgondolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "светописная синяя копия, синька"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cianotipo",
+        "proyecto"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "1584940",
+  "readings": [
+    {
+      "kanaExpression": "よそゆき",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "よそいき"
+    },
+    {
+      "kanjiExpression": "よそ行き",
+      "furiganaExpression": [
+        {
+          "text": "よそ"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "余所行き",
+      "furiganaExpression": [
+        {
+          "text": "余",
+          "annotation": "よ"
+        },
+        {
+          "text": "所",
+          "annotation": "そ"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "他所行き",
+      "furiganaExpression": [
+        {
+          "text": "他所",
+          "annotation": "よそ"
+        },
+        {
+          "text": "行",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "going out",
+        "one\u0027s best clothes",
+        "formal (e.g. language)",
+        "best (behaviour, manners, etc.)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "comportement en société",
+        "sortie",
+        "meilleurs vêtements"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "formal",
+        "Ausgehen",
+        "Sonntagsanzug",
+        "Ausgehanzug",
+        "Formalität"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1): {～の} для выхода, выходной",
+        "2) (перен.) особый, торжественный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "de salir",
+        "formal (ropa, vocabulario)"
+      ]
+    }
+  ]
+}

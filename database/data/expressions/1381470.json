@@ -1,0 +1,82 @@
+{
+  "id": "1381470",
+  "readings": [
+    {
+      "kanaExpression": "あおぞら",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "青空",
+      "furiganaExpression": [
+        {
+          "text": "青",
+          "annotation": "あお"
+        },
+        {
+          "text": "空",
+          "annotation": "ぞら"
+        }
+      ],
+      "rank": 7313
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blue sky"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blauwe hemel",
+        "blauwe lucht",
+        "± wolkeloze hemel",
+        "openlucht-",
+        "buiten-",
+        "… in de open lucht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ciel bleu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "blauer Himmel",
+        "Himmelsbläue",
+        "Freiluft-",
+        "Open-Air-",
+        "Aozora"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "голубое небо, небесная синева"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "modro nebo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cielo azul"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "himlens blå"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "1587750",
+  "readings": [
+    {
+      "kanaExpression": "いりまじる",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "入り混じる",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "混",
+          "annotation": "ま"
+        },
+        {
+          "text": "じる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "入り交じる",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "交",
+          "annotation": "ま"
+        },
+        {
+          "text": "じる"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "入りまじる",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "りまじる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to mix (with)",
+        "to be mixed (together)",
+        "to be mingled"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich mengen",
+        "zich onderling vermengen",
+        "vermengd worden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich vermischen",
+        "sich ineinander mischen",
+        "sich miteinander mischen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перемешиваться, спутываться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mezclarse",
+        "entremezclarse"
+      ]
+    }
+  ]
+}

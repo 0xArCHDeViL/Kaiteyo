@@ -1,0 +1,74 @@
+{
+  "id": "1474960",
+  "readings": [
+    {
+      "kanaExpression": "はくあ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "白亜",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "はく"
+        },
+        {
+          "text": "亜",
+          "annotation": "あ"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "白堊",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "はく"
+        },
+        {
+          "text": "堊",
+          "annotation": "あ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chalk (rock)",
+        "white wall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geol.} krijt",
+        "witte",
+        "witgepleisterde",
+        "witgekalkte muur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kreide",
+        "weiße Wand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mészkő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) мел; известняк",
+        "2) белая стена"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "1360000",
+  "readings": [
+    {
+      "kanaExpression": "ねつき",
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "寝つき",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "つき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "寝付き",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 32039
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "falling asleep",
+        "going to sleep"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "s\u0027endormir difficilement (~ ga warui)",
+        "s\u0027endormir facilement (~ go yoi)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einschlafen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "засыпание"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zmožnost zaspati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "conciliación del sueño"
+      ]
+    }
+  ]
+}

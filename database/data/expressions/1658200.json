@@ -1,0 +1,60 @@
+{
+  "id": "1658200",
+  "readings": [
+    {
+      "kanaExpression": "おもいうかべる",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "思い浮かべる",
+      "furiganaExpression": [
+        {
+          "text": "思",
+          "annotation": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "浮",
+          "annotation": "う"
+        },
+        {
+          "text": "かべる"
+        }
+      ],
+      "rank": 8912
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be reminded of",
+        "to call to mind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich erinnern",
+        "sich vorstellen",
+        "etw. ins Bewusstsein rufen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вызывать в памяти"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "predstavljati si",
+        "spomniti se na",
+        "priklicati v spomin"
+      ]
+    }
+  ]
+}

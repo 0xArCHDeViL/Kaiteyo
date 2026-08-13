@@ -1,0 +1,69 @@
+{
+  "id": "1192210",
+  "readings": [
+    {
+      "kanaExpression": "かたく",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "家宅",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "宅",
+          "annotation": "たく"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "domicile",
+        "premises"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "huis",
+        "woning",
+        "woonst",
+        "woonplaats",
+        "domicilie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "domicile"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wohnhaus",
+        "Haus",
+        "Wohnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "épület",
+        "helyiség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дом, жилище"
+      ]
+    }
+  ]
+}

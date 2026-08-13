@@ -1,0 +1,58 @@
+{
+  "id": "1553280",
+  "readings": [
+    {
+      "kanaExpression": "たびじ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "旅路",
+      "furiganaExpression": [
+        {
+          "text": "旅",
+          "annotation": "たび"
+        },
+        {
+          "text": "路",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "journey",
+        "route of a journey"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reiseweg",
+        "Reiseroute",
+        "Reise"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "út"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "путешествие"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "resa"
+      ]
+    }
+  ]
+}

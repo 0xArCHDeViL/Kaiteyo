@@ -1,0 +1,82 @@
+{
+  "id": "1432780",
+  "readings": [
+    {
+      "kanaExpression": "いたで",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "痛手",
+      "furiganaExpression": [
+        {
+          "text": "痛",
+          "annotation": "いた"
+        },
+        {
+          "text": "手",
+          "annotation": "で"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "傷手",
+      "furiganaExpression": [
+        {
+          "text": "傷",
+          "annotation": "いた"
+        },
+        {
+          "text": "手",
+          "annotation": "で"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "serious wound",
+        "hard blow"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zware verwonding",
+        "ernstige wonde",
+        "lelijke wond",
+        "zwaar letsel",
+        "{fig.} harde",
+        "fikse klap",
+        "zware",
+        "harde slag",
+        "opdoffer",
+        "gevoelige",
+        "lelijke knauw"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "blessure grave"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwere Wunde",
+        "schwere Verletzung",
+        "harter Schlag",
+        "schwerer Schlag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тяжёлая рана; (обр.) тяжёлый удар; большие убытки"
+      ]
+    }
+  ]
+}

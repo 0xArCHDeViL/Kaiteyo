@@ -1,0 +1,89 @@
+{
+  "id": "1269920",
+  "readings": [
+    {
+      "kanaExpression": "あとおい",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "後追い",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "あと"
+        },
+        {
+          "text": "追",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "跡追い",
+      "furiganaExpression": [
+        {
+          "text": "跡",
+          "annotation": "あと"
+        },
+        {
+          "text": "追",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "あと追い",
+      "furiganaExpression": [
+        {
+          "text": "あと"
+        },
+        {
+          "text": "追",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trailing",
+        "chasing after",
+        "imitation",
+        "imitating",
+        "copying",
+        "following someone\u0027s example",
+        "clinginess (in babies, toddlers)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het (slaafs) achternalopen",
+        "nakomen",
+        "imitatie",
+        "navolging",
+        "nabootsing"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rastreo",
+        "seguimiento de las pistas",
+        "persecución"
+      ]
+    }
+  ]
+}

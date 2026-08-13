@@ -1,0 +1,72 @@
+{
+  "id": "1398370",
+  "readings": [
+    {
+      "kanaExpression": "そうけん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "創建",
+      "furiganaExpression": [
+        {
+          "text": "創",
+          "annotation": "そう"
+        },
+        {
+          "text": "建",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "establishment",
+        "foundation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oprichten",
+        "stichten",
+        "vestigen",
+        "grondvesten",
+        "etableren",
+        "oprichting",
+        "stichting",
+        "vestiging"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gründung",
+        "Errichtung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "háztartás",
+        "létesítmény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "созидание; основание (чего-л.); закладка (здания)",
+        "{～する} создавать; основывать; закладывать (здание)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "grundläggning"
+      ]
+    }
+  ]
+}

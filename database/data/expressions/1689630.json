@@ -1,0 +1,62 @@
+{
+  "id": "1689630",
+  "readings": [
+    {
+      "kanaExpression": "くばりもの",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "配り物",
+      "furiganaExpression": [
+        {
+          "text": "配",
+          "annotation": "くば"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "present",
+        "gift"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verteiltes Geschenk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ajándék",
+        "adomány",
+        "fehér folt"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "regalo",
+        "obsequio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "present"
+      ]
+    }
+  ]
+}

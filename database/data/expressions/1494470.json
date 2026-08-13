@@ -1,0 +1,62 @@
+{
+  "id": "1494470",
+  "readings": [
+    {
+      "kanaExpression": "ふにんしょう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "不妊症",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "妊",
+          "annotation": "にん"
+        },
+        {
+          "text": "症",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "infertility",
+        "sterility",
+        "barrenness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} steriliteit",
+        "onvruchtbaarheid",
+        "infertiliteit",
+        "{pathol.} acyesis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sterilität",
+        "Unfruchtbarkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "meddőség",
+        "sterilitás",
+        "kopárság",
+        "terméketlenség"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1538360",
+  "readings": [
+    {
+      "kanaExpression": "やくご",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "訳語",
+      "furiganaExpression": [
+        {
+          "text": "訳",
+          "annotation": "やく"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "translational equivalent",
+        "equivalent word in translation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vertaald woord",
+        "vertaling",
+        "equivalent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Übersetzungswort",
+        "Wort, das für die Übersetzung eines Ausdruckes benutzt wird",
+        "Lehnübersetzung",
+        "Übersetzung eines Wortes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перевод (слова); японский эквивалент (иностранного слова)"
+      ]
+    }
+  ]
+}

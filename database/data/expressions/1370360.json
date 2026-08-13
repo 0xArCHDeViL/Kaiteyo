@@ -1,0 +1,92 @@
+{
+  "id": "1370360",
+  "readings": [
+    {
+      "kanaExpression": "ずかい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "図解",
+      "furiganaExpression": [
+        {
+          "text": "図",
+          "annotation": "ず"
+        },
+        {
+          "text": "解",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 14175
+    },
+    {
+      "kanjiExpression": "圖解",
+      "furiganaExpression": [
+        {
+          "text": "圖",
+          "annotation": "ず"
+        },
+        {
+          "text": "解",
+          "annotation": "かい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(explanatory) diagram",
+        "illustration"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "illustreren",
+        "in een diagram afbeelden",
+        "grafisch toelichten",
+        "verhelderen",
+        "schematisch voorstellen",
+        "illustratie",
+        "grafische toelichting",
+        "verheldering",
+        "diagram",
+        "schematische voorstelling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "illustrieren",
+        "Illustration",
+        "Bebilderung",
+        "Diagramm",
+        "Abbildung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "képlet",
+        "séma",
+        "szókép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[пояснительный] рисунок (чертёж), [пояснительная] диаграмма; иллюстрация",
+        "{～する} изображать в форме чертежа (диаграммы, графически); иллюстрировать",
+        "{～的に} графически, в рисунках"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ilustración"
+      ]
+    }
+  ]
+}

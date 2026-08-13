@@ -1,0 +1,121 @@
+{
+  "id": "1282470",
+  "readings": [
+    {
+      "kanaExpression": "こうばい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "購買",
+      "furiganaExpression": [
+        {
+          "text": "購",
+          "annotation": "こう"
+        },
+        {
+          "text": "買",
+          "annotation": "ばい"
+        }
+      ],
+      "rank": 7651
+    },
+    {
+      "kanjiExpression": "校売",
+      "furiganaExpression": [
+        {
+          "text": "校",
+          "annotation": "こう"
+        },
+        {
+          "text": "売",
+          "annotation": "ばい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "procurement",
+        "purchase",
+        "buying",
+        "school store",
+        "co-op",
+        "school canteen",
+        "tuck shop"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kopen",
+        "(zich) aanschaffen",
+        "aankopen",
+        "inkopen",
+        "koop",
+        "aanschaf",
+        "aankoop",
+        "aanschaffing",
+        "inkoop"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "achat",
+        "acquisition",
+        "emplette"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "käuflich erwerben",
+        "Einkauf",
+        "Ankauf",
+        "Einkaufsabteilung",
+        "Beschaffungsabteilung",
+        "Beschaffung (eines Unternehmens)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszerzés",
+        "vétel",
+        "üzlet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "покупка; закупка",
+        "{～する} покупать, приобретать; закупать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "priboriti",
+        "pridobiti",
+        "kupiti",
+        "nakup",
+        "kupčija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compra",
+        "adquisición"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "inhandla"
+      ]
+    }
+  ]
+}

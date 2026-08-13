@@ -1,0 +1,60 @@
+{
+  "id": "1391300",
+  "readings": [
+    {
+      "kanaExpression": "せんこう",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "潜航",
+      "furiganaExpression": [
+        {
+          "text": "潜",
+          "annotation": "せん"
+        },
+        {
+          "text": "航",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "submarine voyage",
+        "underwater navigation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onder water varen",
+        "onderduiken",
+        "vaart onder water",
+        "onderwatervaart",
+        "onderduik"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unter Wasser fahren",
+        "tauchen",
+        "untertauchen",
+        "Tauchfahrt",
+        "Unterwasserfahrt",
+        "heimliche Fahrt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "погружение; продвижение (пребывание) под водой (о подводной лодке)",
+        "{～する} идти под водой"
+      ]
+    }
+  ]
+}

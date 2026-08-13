@@ -1,0 +1,64 @@
+{
+  "id": "1339320",
+  "readings": [
+    {
+      "kanaExpression": "でつくす",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "出尽くす",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "尽",
+          "annotation": "つ"
+        },
+        {
+          "text": "くす"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "出つくす",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "つくす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to come out completely",
+        "to be fully expressed (of views, ideas, etc.)",
+        "to be aired fully",
+        "to be exhausted",
+        "to run out"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vollkommen aufgebraucht sein",
+        "vollkommen ausverkauft sein",
+        "vollständig zur Rede gebracht haben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kihasznál"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1401770",
+  "readings": [
+    {
+      "kanaExpression": "そうむ",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "総務",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        }
+      ],
+      "rank": 3482
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "general affairs",
+        "general business",
+        "manager",
+        "director",
+        "adjutant general"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "allgemeine Angelegenheiten",
+        "sämtliche Geschäfte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "igazgató",
+        "osztályvezető",
+        "ügyvezető"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) общие дела",
+        "2) директор; главный распорядитель; руководитель, глава"
+      ]
+    }
+  ]
+}

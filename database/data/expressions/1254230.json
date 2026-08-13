@@ -1,0 +1,72 @@
+{
+  "id": "1254230",
+  "readings": [
+    {
+      "kanaExpression": "けっかい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "決壊",
+      "furiganaExpression": [
+        {
+          "text": "決",
+          "annotation": "けっ"
+        },
+        {
+          "text": "壊",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "決潰",
+      "furiganaExpression": [
+        {
+          "text": "決",
+          "annotation": "けっ"
+        },
+        {
+          "text": "潰",
+          "annotation": "かい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "burst (e.g. dam, embankment, levee)",
+        "breach",
+        "collapse",
+        "washout",
+        "rupture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "brechen",
+        "einstürzen",
+        "Brechen",
+        "Bruch",
+        "Einsturz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ájulás",
+        "összeomlás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прорыв, разрушение (плотины)",
+        "{～する} прорваться, быть прорванным (о плотине и т. п.)"
+      ]
+    }
+  ]
+}

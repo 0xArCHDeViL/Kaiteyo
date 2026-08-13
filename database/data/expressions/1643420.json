@@ -1,0 +1,62 @@
+{
+  "id": "1643420",
+  "readings": [
+    {
+      "kanaExpression": "おびふう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "帯封",
+      "furiganaExpression": [
+        {
+          "text": "帯",
+          "annotation": "おび"
+        },
+        {
+          "text": "封",
+          "annotation": "ふう"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "currency strap",
+        "banknote strap",
+        "currency band",
+        "money band",
+        "mailing wrapper (around a newspaper, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "banderol",
+        "adresbandje",
+        "adresstrook",
+        "{w.g.} kruisband",
+        "papieren strook die om de omslag of cassette van een boek gedaan wordt",
+        "buikband {geeft de korte inhoud",
+        "blurb",
+        "recensiecitaten e.d. weer}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Streifband (für Postversand)",
+        "Geldscheinbanderole",
+        "Geldbanderole"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бандероль"
+      ]
+    }
+  ]
+}

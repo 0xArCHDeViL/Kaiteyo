@@ -1,0 +1,51 @@
+{
+  "id": "1458380",
+  "readings": [
+    {
+      "kanaExpression": "ないじゅ",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "内需",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "需",
+          "annotation": "じゅ"
+        }
+      ],
+      "rank": 14370
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "domestic demand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Inlandsbedarf",
+        "Inlandsnachfrage",
+        "einheimischer Bedarf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутренний рынок; потребление (спрос) внутри страны"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "demanda doméstica"
+      ]
+    }
+  ]
+}

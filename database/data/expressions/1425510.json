@@ -1,0 +1,43 @@
+{
+  "id": "1425510",
+  "readings": [
+    {
+      "kanaExpression": "なかまく",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "中幕",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "なか"
+        },
+        {
+          "text": "幕",
+          "annotation": "まく"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "middle act"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zwischenspiel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "интермедия"
+      ]
+    }
+  ]
+}

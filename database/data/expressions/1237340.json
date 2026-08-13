@@ -1,0 +1,64 @@
+{
+  "id": "1237340",
+  "readings": [
+    {
+      "kanaExpression": "きょうほん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "教本",
+      "furiganaExpression": [
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "textbook",
+        "manual"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lehrbuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyetemi tankönyv",
+        "tankönyv"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "учебник, руководство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "libro de aprendizaje",
+        "método de enseñanza"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lärobok"
+      ]
+    }
+  ]
+}

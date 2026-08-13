@@ -1,0 +1,53 @@
+{
+  "id": "1644440",
+  "readings": [
+    {
+      "kanaExpression": "りろ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "理路",
+      "furiganaExpression": [
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "路",
+          "annotation": "ろ"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "logic",
+        "reasoning",
+        "argument"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "logische Beweisführung",
+        "Schlussfolgerung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érv",
+        "szóváltás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "логическое рассуждение"
+      ]
+    }
+  ]
+}

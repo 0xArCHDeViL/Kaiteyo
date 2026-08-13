@@ -1,0 +1,58 @@
+{
+  "id": "1910460",
+  "readings": [
+    {
+      "kanaExpression": "みとうほう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "未踏峰",
+      "furiganaExpression": [
+        {
+          "text": "未",
+          "annotation": "み"
+        },
+        {
+          "text": "踏",
+          "annotation": "とう"
+        },
+        {
+          "text": "峰",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "未登峰",
+      "furiganaExpression": [
+        {
+          "text": "未",
+          "annotation": "み"
+        },
+        {
+          "text": "登",
+          "annotation": "とう"
+        },
+        {
+          "text": "峰",
+          "annotation": "ほう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unclimbed mountain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unbestiegener Berg"
+      ]
+    }
+  ]
+}

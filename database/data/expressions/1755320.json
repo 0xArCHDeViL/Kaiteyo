@@ -1,0 +1,49 @@
+{
+  "id": "1755320",
+  "readings": [
+    {
+      "kanaExpression": "やまうば",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "やまんば"
+    },
+    {
+      "kanjiExpression": "山姥",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "姥",
+          "annotation": "うば"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mountain witch",
+        "yamauba"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Berghexe",
+        "Yamanba (Titel eines Nō-Stückes von Zeami Motokiyo)",
+        "weibliches Bergungeheuer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горная ведьма (колдунья)"
+      ]
+    }
+  ]
+}

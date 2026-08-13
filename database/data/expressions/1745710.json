@@ -1,0 +1,44 @@
+{
+  "id": "1745710",
+  "readings": [
+    {
+      "kanaExpression": "ゆうぜい",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "有税",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "税",
+          "annotation": "ぜい"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "taxable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "steuerpflichtig",
+        "Steuerpflichtigkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} подлежащий обложению [налогом]"
+      ]
+    }
+  ]
+}

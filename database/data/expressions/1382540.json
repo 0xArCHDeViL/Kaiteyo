@@ -1,0 +1,89 @@
+{
+  "id": "1382540",
+  "readings": [
+    {
+      "kanaExpression": "いしがき",
+      "rank": 21500
+    },
+    {
+      "kanaExpression": "いしがけ"
+    },
+    {
+      "kanjiExpression": "石垣",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "垣",
+          "annotation": "がき"
+        }
+      ],
+      "rank": 13205
+    },
+    {
+      "kanjiExpression": "石崖",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "崖",
+          "annotation": "がけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stone wall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "muur",
+        "stenen omheining",
+        "stenen afsluiting"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mur de pierre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steinwall",
+        "Steinmauer",
+        "Mauer",
+        "Ishigaki"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скала; каменная стена",
+        "каменная ограда (стена)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "muro de piedra"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "stenmur"
+      ]
+    }
+  ]
+}

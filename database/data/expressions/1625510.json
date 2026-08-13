@@ -1,0 +1,55 @@
+{
+  "id": "1625510",
+  "readings": [
+    {
+      "kanaExpression": "はいあん",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "廃案",
+      "furiganaExpression": [
+        {
+          "text": "廃",
+          "annotation": "はい"
+        },
+        {
+          "text": "案",
+          "annotation": "あん"
+        }
+      ],
+      "rank": 17500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rejected bill (project)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verworpen ontwerp",
+        "afgewezen plan",
+        "afgekeurd voorstel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ablehnung",
+        "Verwerfen (eines Entwurfes od. Planes)",
+        "abgelehnter Antrag",
+        "abgelehnter Plan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отвергнутый план (проект)",
+        "{～とする} отвергать (план, проект)"
+      ]
+    }
+  ]
+}

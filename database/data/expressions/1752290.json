@@ -1,0 +1,44 @@
+{
+  "id": "1752290",
+  "readings": [
+    {
+      "kanaExpression": "めいてん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "名店",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "めい"
+        },
+        {
+          "text": "店",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "well-known store"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "berühmtes Geschäft",
+        "renommiertes Geschäft"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tienda famosa o de renombre"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "1269870",
+  "readings": [
+    {
+      "kanaExpression": "こうぞく",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "後続",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "こう"
+        },
+        {
+          "text": "続",
+          "annotation": "ぞく"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "succeeding",
+        "following",
+        "trailing",
+        "next"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volgend (op)",
+        "{w.g.} opvolgend",
+        "vervolg"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nachfolgend",
+        "nächster",
+        "Nachfolge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "következő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} последующий; следующий [сзади], идущий вслед, задний"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "subsiguiente",
+        "posterior"
+      ]
+    }
+  ]
+}

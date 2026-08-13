@@ -1,0 +1,52 @@
+{
+  "id": "1646720",
+  "readings": [
+    {
+      "kanaExpression": "しんぶ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "深部",
+      "furiganaExpression": [
+        {
+          "text": "深",
+          "annotation": "しん"
+        },
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depths",
+        "deep part"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tiefe Stelle",
+        "Tiefe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feneketlen mélység",
+        "feneketlen örvény",
+        "feneketlen szakadék",
+        "határtalan nagysága vminek",
+        "mély régiói vminek",
+        "rejtett régiói vminek",
+        "titokzatos mivolta vminek",
+        "titokzatos volta vminek"
+      ]
+    }
+  ]
+}

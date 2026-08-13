@@ -1,0 +1,55 @@
+{
+  "id": "1173130",
+  "readings": [
+    {
+      "kanaExpression": "うんかい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "雲海",
+      "furiganaExpression": [
+        {
+          "text": "雲",
+          "annotation": "うん"
+        },
+        {
+          "text": "海",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sea of clouds"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wolkenzee"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wolkenmeer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "море облаков (видимое сверху)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mar de nubes"
+      ]
+    }
+  ]
+}

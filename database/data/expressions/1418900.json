@@ -1,0 +1,69 @@
+{
+  "id": "1418900",
+  "readings": [
+    {
+      "kanaExpression": "はすう",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "端数",
+      "furiganaExpression": [
+        {
+          "text": "端",
+          "annotation": "は"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fraction",
+        "odd amount",
+        "leftover amount"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{wisk.} restgetal",
+        "rest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bruchzahl",
+        "Restsumme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "frakció",
+        "részpárlat",
+        "tört",
+        "törtrész",
+        "törtszám"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) はした 1"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bråk"
+      ]
+    }
+  ]
+}

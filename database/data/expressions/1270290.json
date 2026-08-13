@@ -1,0 +1,67 @@
+{
+  "id": "1270290",
+  "readings": [
+    {
+      "kanaExpression": "ごきょうりょく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ご協力",
+      "furiganaExpression": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "協",
+          "annotation": "きょう"
+        },
+        {
+          "text": "力",
+          "annotation": "りょく"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御協力",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "ご"
+        },
+        {
+          "text": "協",
+          "annotation": "きょう"
+        },
+        {
+          "text": "力",
+          "annotation": "りょく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cooperation",
+        "collaboration",
+        "help",
+        "support"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "együttműködés"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cooperación",
+        "colaboración"
+      ]
+    }
+  ]
+}

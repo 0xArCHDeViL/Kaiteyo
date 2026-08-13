@@ -1,0 +1,52 @@
+{
+  "id": "1727110",
+  "readings": [
+    {
+      "kanaExpression": "じんえん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "腎炎",
+      "furiganaExpression": [
+        {
+          "text": "腎",
+          "annotation": "じん"
+        },
+        {
+          "text": "炎",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nephritis",
+        "inflammation of the kidneys"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} nierontsteking",
+        "nefritis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nierenentzündung",
+        "Nephritis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воспаление почек, нефрит"
+      ]
+    }
+  ]
+}

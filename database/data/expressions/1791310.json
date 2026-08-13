@@ -1,0 +1,73 @@
+{
+  "id": "1791310",
+  "readings": [
+    {
+      "kanaExpression": "きかんしえん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "気管支炎",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "管",
+          "annotation": "かん"
+        },
+        {
+          "text": "支",
+          "annotation": "し"
+        },
+        {
+          "text": "炎",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bronchitis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} bronchitis",
+        "ontsteking van het slijmvlies van de luchtpijptakken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bronchitis",
+        "Bronchialkatarr",
+        "Bronchialkatarrh"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hörghurut",
+        "bronchitis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бронхит"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bronquitis"
+      ]
+    }
+  ]
+}

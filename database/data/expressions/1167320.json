@@ -1,0 +1,62 @@
+{
+  "id": "1167320",
+  "readings": [
+    {
+      "kanaExpression": "いちりょう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "一両",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "両",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "一輛",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "輛",
+          "annotation": "りょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one vehicle",
+        "one ryō (an old coin)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Ryō (alte Münzeinheit)",
+        "ein Yen",
+        "ein Wagen",
+        "ein oder zwei",
+        "ein paar"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un vehículo",
+        "un ryou (moneda antigua)"
+      ]
+    }
+  ]
+}

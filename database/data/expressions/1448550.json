@@ -1,0 +1,72 @@
+{
+  "id": "1448550",
+  "readings": [
+    {
+      "kanaExpression": "とうよう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "盗用",
+      "furiganaExpression": [
+        {
+          "text": "盗",
+          "annotation": "とう"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "embezzlement",
+        "fraudulent use",
+        "plagiarism",
+        "appropriation"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "détournement",
+        "escroquerie",
+        "plagiat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unterschlagen",
+        "veruntreuen",
+        "widerrechtlich gebrauchen",
+        "stehlen",
+        "plagiieren",
+        "Unterschlagung",
+        "Veruntreuung",
+        "widerrechtlicher Gebrauch",
+        "Diebstahl",
+        "Plagiat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "plágium",
+        "plagizálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) присвоение",
+        "{～する} присваивать",
+        "2) пользование (чем-л.) украдкой (тайком)"
+      ]
+    }
+  ]
+}

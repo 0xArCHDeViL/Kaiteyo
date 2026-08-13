@@ -1,0 +1,87 @@
+{
+  "id": "1202260",
+  "readings": [
+    {
+      "kanaExpression": "みなさま",
+      "rank": 6692
+    },
+    {
+      "kanjiExpression": "皆様",
+      "furiganaExpression": [
+        {
+          "text": "皆",
+          "annotation": "みな"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        }
+      ],
+      "rank": 1497
+    },
+    {
+      "kanjiExpression": "皆さま",
+      "furiganaExpression": [
+        {
+          "text": "皆",
+          "annotation": "みな"
+        },
+        {
+          "text": "さま"
+        }
+      ],
+      "rank": 8329
+    },
+    {
+      "kanjiExpression": "みな様",
+      "furiganaExpression": [
+        {
+          "text": "みな"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "everyone"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tout le monde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alle",
+        "Verehrte Anwesende! (etwas höflich distanziert)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mindenki"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vsi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "todos"
+      ]
+    }
+  ]
+}

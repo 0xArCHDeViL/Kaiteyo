@@ -1,0 +1,68 @@
+{
+  "id": "1234350",
+  "readings": [
+    {
+      "kanaExpression": "きょうがく",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "共学",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "きょう"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "coeducation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{onderw.} gemengd onderwijs",
+        "gemeenschappelijk onderricht",
+        "co-educatie",
+        "co-instructie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "école mixte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Koedukation",
+        "Gemeinschaftserziehung",
+        "gemeinsame Erziehung von Mädchen und Jungen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "совместное обучение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "coeducación",
+        "enseñanza mixta",
+        "escuela mixta"
+      ]
+    }
+  ]
+}

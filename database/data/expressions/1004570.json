@@ -1,0 +1,93 @@
+{
+  "id": "1004570",
+  "readings": [
+    {
+      "kanaExpression": "ことごとく",
+      "rank": 10625
+    },
+    {
+      "kanjiExpression": "悉く",
+      "furiganaExpression": [
+        {
+          "text": "悉",
+          "annotation": "ことごと"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "尽く",
+      "furiganaExpression": [
+        {
+          "text": "尽",
+          "annotation": "ことごと"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "altogether",
+        "entirely"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "integraal",
+        "volledig",
+        "helemaal",
+        "allemaal",
+        "geheel",
+        "algeheel",
+        "heel",
+        "totaal",
+        "volkomen",
+        "{arch.} gans"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tout à fait"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alles",
+        "samt und sonders",
+        "ausnahmslos",
+        "ohne Ausnahme",
+        "durch und durch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "teljesen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "всё, полностью, совершенно; все [до единого]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enteramente",
+        "completamente"
+      ]
+    }
+  ]
+}

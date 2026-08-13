@@ -1,0 +1,61 @@
+{
+  "id": "1517560",
+  "readings": [
+    {
+      "kanaExpression": "ほう",
+      "rank": 471
+    },
+    {
+      "kanjiExpression": "砲",
+      "furiganaExpression": [
+        {
+          "text": "砲",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 2407
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gun",
+        "cannon",
+        "artillery",
+        "ordnance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kanon",
+        "vuurmond",
+        "geschut",
+        "artillerie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschütz",
+        "Kanone",
+        "Artillerie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ágyú",
+        "lőfegyver",
+        "löveg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пушка, орудие; артиллерия"
+      ]
+    }
+  ]
+}

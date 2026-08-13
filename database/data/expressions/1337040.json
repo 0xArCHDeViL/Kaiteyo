@@ -1,0 +1,59 @@
+{
+  "id": "1337040",
+  "readings": [
+    {
+      "kanaExpression": "じゅうこう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "銃口",
+      "furiganaExpression": [
+        {
+          "text": "銃",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "口",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gun point",
+        "muzzle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mond (van een geweer)",
+        "tromp"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mündung",
+        "Gewehrmündung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csőtorkolat",
+        "szájkosár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дуло, дульное отверстие (стрелкового оружия)"
+      ]
+    }
+  ]
+}

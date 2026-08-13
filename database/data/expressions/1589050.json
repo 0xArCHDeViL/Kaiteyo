@@ -1,0 +1,101 @@
+{
+  "id": "1589050",
+  "readings": [
+    {
+      "kanaExpression": "おこない",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "行い",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "おこな"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "行ない",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "おこ"
+        },
+        {
+          "text": "ない"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deed",
+        "act",
+        "action",
+        "conduct",
+        "behavior",
+        "behaviour",
+        "asceticism"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "daad",
+        "handeling",
+        "optreden",
+        "gangen",
+        "bedrijf",
+        "gedrag",
+        "houding",
+        "gedraging"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Handlung",
+        "Tat",
+        "Tun",
+        "Akt",
+        "Handeln",
+        "Benehmen",
+        "Auftreten",
+        "Manieren",
+        "Verhalten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "igazgatás",
+        "magatartás",
+        "magaviselet",
+        "viselkedés",
+        "viselkedésmód",
+        "mozdulat",
+        "ütközet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) поступок, действие",
+        "2) поведение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gestos",
+        "acciones"
+      ]
+    }
+  ]
+}

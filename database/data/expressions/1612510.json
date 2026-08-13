@@ -1,0 +1,101 @@
+{
+  "id": "1612510",
+  "readings": [
+    {
+      "kanaExpression": "ひきしめ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "引き締め",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "締",
+          "annotation": "し"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "引締め",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "締",
+          "annotation": "し"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tightening"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beperking",
+        "restrictie",
+        "inperking",
+        "verstrakking"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(re)serrement",
+        "bandage",
+        "raidissement",
+        "serrage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Straffheit",
+        "straffe Führung",
+        "Restriktion"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nategniti",
+        "napeti",
+        "stisniti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "apretando",
+        "apretar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skärpning"
+      ]
+    }
+  ]
+}

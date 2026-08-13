@@ -1,0 +1,54 @@
+{
+  "id": "1650500",
+  "readings": [
+    {
+      "kanaExpression": "ういまご",
+      "rank": 34500
+    },
+    {
+      "kanaExpression": "はつまご"
+    },
+    {
+      "kanjiExpression": "初孫",
+      "furiganaExpression": [
+        {
+          "text": "初",
+          "annotation": "うい"
+        },
+        {
+          "text": "孫",
+          "annotation": "まご"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first grandchild"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerste kleinkind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erster Enkel",
+        "erstes Enkelkind"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "первый внук, первая внучка",
+        "первый внук"
+      ]
+    }
+  ]
+}

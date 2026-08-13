@@ -1,0 +1,78 @@
+{
+  "id": "1483220",
+  "readings": [
+    {
+      "kanaExpression": "ひうん",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "悲運",
+      "furiganaExpression": [
+        {
+          "text": "悲",
+          "annotation": "ひ"
+        },
+        {
+          "text": "運",
+          "annotation": "うん"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sad fate",
+        "tragic doom",
+        "ill fate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "treurig",
+        "droevig",
+        "ongelukkig lot",
+        "noodlot",
+        "ongeluk",
+        "onheil",
+        "doem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "trauriges Schicksal",
+        "Unglück",
+        "Missgeschick"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pusztulás",
+        "sors"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "печальная судьба"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "destino"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "öde"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "1463050",
+  "readings": [
+    {
+      "kanaExpression": "にぶ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "二部",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        }
+      ],
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "２部",
+      "furiganaExpression": [
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "two parts",
+        "two copies",
+        "the second part"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "twee delen",
+        "twee exemplaren",
+        "twee banden",
+        "twee volumes",
+        "{ton.} twee bedrijven",
+        "twee akten",
+        "{dichtk.} twee coupletten",
+        "twee strofen",
+        "tweede deel",
+        "{sportt.} tweede divisie",
+        "tweede klasse",
+        "avondschool",
+        "{Belg.N.} avondleergangen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zwei Teile",
+        "der zweite Teil",
+        "Abdendkurs (einer Universität)",
+        "zweistimmiger Chor (Abk.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) две части; вторая часть",
+        "2) два экземпляра (книги и т. п.)"
+      ]
+    }
+  ]
+}

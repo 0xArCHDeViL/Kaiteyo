@@ -1,0 +1,44 @@
+{
+  "id": "1305060",
+  "readings": [
+    {
+      "kanaExpression": "しごとがら",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "仕事柄",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "事",
+          "annotation": "ごと"
+        },
+        {
+          "text": "柄",
+          "annotation": "がら"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "for work",
+        "in a manner related to work"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wegen der Arbeit",
+        "durch die Arbeit",
+        "Arbeits…"
+      ]
+    }
+  ]
+}

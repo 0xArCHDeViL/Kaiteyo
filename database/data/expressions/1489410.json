@@ -1,0 +1,59 @@
+{
+  "id": "1489410",
+  "readings": [
+    {
+      "kanaExpression": "おもてかんばん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "表看板",
+      "furiganaExpression": [
+        {
+          "text": "表",
+          "annotation": "おもて"
+        },
+        {
+          "text": "看",
+          "annotation": "かん"
+        },
+        {
+          "text": "板",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sign out in front",
+        "front (for someone)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aushängeschild",
+        "Anschlagtafel",
+        "Maske",
+        "Deckmantel",
+        "Galionsfigur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elülső",
+        "harcvonal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вывеска"
+      ]
+    }
+  ]
+}

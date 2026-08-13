@@ -1,0 +1,57 @@
+{
+  "id": "1654260",
+  "readings": [
+    {
+      "kanaExpression": "とうりゃく",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "党略",
+      "furiganaExpression": [
+        {
+          "text": "党",
+          "annotation": "とう"
+        },
+        {
+          "text": "略",
+          "annotation": "りゃく"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "party politics (tactics)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Parteipolitik",
+        "Parteistrategie",
+        "Parteieninteresse"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pártpolitikai"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "политика партии"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "políticas de partido (tácticas)"
+      ]
+    }
+  ]
+}

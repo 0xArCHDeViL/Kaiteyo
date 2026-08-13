@@ -1,0 +1,104 @@
+{
+  "id": "1250950",
+  "readings": [
+    {
+      "kanaExpression": "けいこく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "渓谷",
+      "furiganaExpression": [
+        {
+          "text": "渓",
+          "annotation": "けい"
+        },
+        {
+          "text": "谷",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "谿谷",
+      "furiganaExpression": [
+        {
+          "text": "谿",
+          "annotation": "けい"
+        },
+        {
+          "text": "谷",
+          "annotation": "こく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "溪谷",
+      "furiganaExpression": [
+        {
+          "text": "溪",
+          "annotation": "けい"
+        },
+        {
+          "text": "谷",
+          "annotation": "こく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "valley (with a river running through it)",
+        "gorge",
+        "ravine",
+        "canyon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ravijn"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "canyon",
+        "gorge",
+        "ravin",
+        "vallée étroite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(tiefe)Schlucht",
+        "(enges)Tal",
+        "Bergschlucht",
+        "Klamm",
+        "Hohlweg"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "völgy",
+        "szurdok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глубокое ущелье, теснина"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "valle"
+      ]
+    }
+  ]
+}

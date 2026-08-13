@@ -1,0 +1,56 @@
+{
+  "id": "1687350",
+  "readings": [
+    {
+      "kanaExpression": "つうこう",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "通航",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "航",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "navigation",
+        "sailing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schiffsverkehr",
+        "Schifffahrt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elindulás",
+        "hajózás",
+        "indulás",
+        "vitorlás",
+        "vitorlázás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "судоходство, навигация",
+        "{～する} курсировать, совершать рейсы (о судне)"
+      ]
+    }
+  ]
+}

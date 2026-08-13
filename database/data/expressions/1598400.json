@@ -1,0 +1,107 @@
+{
+  "id": "1598400",
+  "readings": [
+    {
+      "kanaExpression": "てぬぐい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "手ぬぐい",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "ぬぐい"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "手拭い",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "拭",
+          "annotation": "ぬぐ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "手拭",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "拭",
+          "annotation": "ぬぐい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(hand) towel"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "handdoek",
+        "{洗面用} waslap",
+        "waslapje",
+        "washandje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "essuie-mains",
+        "serviette (pour les mains)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tenugui",
+        "japanisches Handtuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "törülköző"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полотенце"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "brisača za roke"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "toalla"
+      ]
+    }
+  ]
+}

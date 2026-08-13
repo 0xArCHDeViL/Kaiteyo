@@ -1,0 +1,61 @@
+{
+  "id": "1554130",
+  "readings": [
+    {
+      "kanaExpression": "りょうどなり",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "両隣",
+      "furiganaExpression": [
+        {
+          "text": "両",
+          "annotation": "りょう"
+        },
+        {
+          "text": "隣",
+          "annotation": "どなり"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "両隣り",
+      "furiganaExpression": [
+        {
+          "text": "両",
+          "annotation": "りょう"
+        },
+        {
+          "text": "隣",
+          "annotation": "どな"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "both sides (on the left and right)",
+        "both neighbours"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachbarschaft auf beiden Seiten",
+        "beidseitige Nachbarn"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ambos lados"
+      ]
+    }
+  ]
+}

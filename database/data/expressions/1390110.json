@@ -1,0 +1,59 @@
+{
+  "id": "1390110",
+  "readings": [
+    {
+      "kanaExpression": "せんりゅう",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "川柳",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "せん"
+        },
+        {
+          "text": "柳",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 14600
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "senryū",
+        "comic haiku",
+        "humorous seventeen-mora poem"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeventienlettergrepig humoristisch gedichtje",
+        "speels versje van satirische aard"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "haïku comique, satirique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Senryū",
+        "17-silbiges humoristisches, satirisches Gedicht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сэнрю (сатирическое или шуточное хокку)"
+      ]
+    }
+  ]
+}

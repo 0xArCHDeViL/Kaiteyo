@@ -1,0 +1,62 @@
+{
+  "id": "1332110",
+  "readings": [
+    {
+      "kanaExpression": "しゅうせい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "修整",
+      "furiganaExpression": [
+        {
+          "text": "修",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "整",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "adjustment",
+        "retouching (in photography)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Retuschieren",
+        "Retusche",
+        "Ausbesserung",
+        "retuschieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "behangolás",
+        "beigazítás",
+        "beszabályozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "регулирование, приспособление, подгонка",
+        "{～する} регулировать, приспосабливать, подгонять"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "retocar"
+      ]
+    }
+  ]
+}

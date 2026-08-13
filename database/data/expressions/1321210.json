@@ -1,0 +1,66 @@
+{
+  "id": "1321210",
+  "readings": [
+    {
+      "kanaExpression": "じっしょう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "実証",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じっ"
+        },
+        {
+          "text": "証",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 5767
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "demonstration",
+        "verification",
+        "substantiation",
+        "actual proof"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bewijs",
+        "staving",
+        "adstructie",
+        "waarmaking",
+        "bewijzen",
+        "aantonen",
+        "staven",
+        "adstrueren",
+        "waarmaken",
+        "bewaarheiden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beweis",
+        "Bestätigung",
+        "Nachweis",
+        "bestätigen",
+        "beweisen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "реальное доказательство, фактическое (реальное) подтверждение",
+        "{～する} подтверждать фактами"
+      ]
+    }
+  ]
+}

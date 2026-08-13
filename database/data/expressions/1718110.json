@@ -1,0 +1,50 @@
+{
+  "id": "1718110",
+  "readings": [
+    {
+      "kanaExpression": "こがん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "湖岸",
+      "furiganaExpression": [
+        {
+          "text": "湖",
+          "annotation": "こ"
+        },
+        {
+          "text": "岸",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lakeshore",
+        "lakeside"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seeufer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tóparti"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "берег озера"
+      ]
+    }
+  ]
+}

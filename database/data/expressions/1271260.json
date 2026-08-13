@@ -1,0 +1,108 @@
+{
+  "id": "1271260",
+  "readings": [
+    {
+      "kanaExpression": "ごい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "語彙",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "彙",
+          "annotation": "い"
+        }
+      ],
+      "rank": 8449
+    },
+    {
+      "kanjiExpression": "語い",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vocabulary",
+        "lexicon",
+        "lexis",
+        "terminology"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "woordenschat",
+        "vocabulaire",
+        "lexicon",
+        "woordenlijst",
+        "glossarium"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "glossaire",
+        "vocabulaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wortschatz",
+        "Vokabular",
+        "Terminologie",
+        "Lexik",
+        "Lexikon (Wortschatz einer Sprache)",
+        "Wörterverzeichnis",
+        "Wörtersammlung",
+        "Glossar"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szókincs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "словарь (напр. писателя); словарный состав; запас слов"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "besedišče",
+        "besednjak"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vocabulario",
+        "léxico"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "glosbok"
+      ]
+    }
+  ]
+}

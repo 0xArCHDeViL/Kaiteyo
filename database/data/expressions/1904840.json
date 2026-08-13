@@ -1,0 +1,60 @@
+{
+  "id": "1904840",
+  "readings": [
+    {
+      "kanaExpression": "ひょうしょう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "標章",
+      "furiganaExpression": [
+        {
+          "text": "標",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "章",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "emblem",
+        "ensign",
+        "mark"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abzeichen",
+        "Kennzeichen",
+        "Emblem",
+        "Marke"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lobogó",
+        "nemzeti lobogó",
+        "zászló",
+        "célpont",
+        "jel",
+        "kézjegy",
+        "osztályzat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отличительный знак; эмблема, значок"
+      ]
+    }
+  ]
+}

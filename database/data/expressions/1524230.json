@@ -1,0 +1,101 @@
+{
+  "id": "1524230",
+  "readings": [
+    {
+      "kanaExpression": "まほう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "魔法",
+      "furiganaExpression": [
+        {
+          "text": "魔",
+          "annotation": "ま"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 3859
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "magic",
+        "witchcraft",
+        "sorcery",
+        "spell"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "magie",
+        "toverij",
+        "toverkunst",
+        "hekserij",
+        "betovering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "magie",
+        "sorcellerie",
+        "sortilège"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zauberei",
+        "Zauberkunst",
+        "Magie",
+        "Hexerei",
+        "Hexenwerk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bűvészet",
+        "fekete mágia",
+        "ördöngösség",
+        "varázslás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "колдовство, магия, волшебство",
+        "{～の} магический, чудодейственный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "čaroben",
+        "magičen",
+        "skrivnosten"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "magia",
+        "brujería",
+        "hechicería"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "magi",
+        "trolldom"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "1367680",
+  "readings": [
+    {
+      "kanaExpression": "ひとごみ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "人ごみ",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "ごみ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "人込み",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "込",
+          "annotation": "ご"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "人混み",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "混",
+          "annotation": "ご"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "人込",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "込",
+          "annotation": "ごみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "crowd of people"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mensenmenigte",
+        "volksmenigte",
+        "mensenmassa",
+        "mensendrom",
+        "drom",
+        "menigte",
+        "massa",
+        "gedrang",
+        "oploop",
+        "foule",
+        "{Barg.} stand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "foule"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gedränge",
+        "Menschenmenge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyülevész népség",
+        "néma szereplők",
+        "pereputty",
+        "sokadalom",
+        "statiszták"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "толпа; толчея; давка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "multitud",
+        "muchedumbre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hop",
+        "folkskara"
+      ]
+    }
+  ]
+}

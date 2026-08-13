@@ -1,0 +1,94 @@
+{
+  "id": "1581470",
+  "readings": [
+    {
+      "kanaExpression": "だいたい",
+      "rank": 3210
+    },
+    {
+      "kanaExpression": "だいがえ"
+    },
+    {
+      "kanjiExpression": "代替",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "替",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 4561
+    },
+    {
+      "kanjiExpression": "代替え",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "替",
+          "annotation": "が"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "substitution",
+        "alternative",
+        "substitute"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "substitutie",
+        "vervanging",
+        "substitueren",
+        "vervangen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "changement de propriétaire, de dirigeant",
+        "alternative",
+        "ersatz",
+        "subrogation (juridique)",
+        "substitution"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ersatz",
+        "Alternative",
+        "ersetzen",
+        "benutzen anstatt …",
+        "benutzen an Stelle von …"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "behelyettesítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "замена, замещение",
+        ": {～する} заменять, замещать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1493140",
+  "readings": [
+    {
+      "kanaExpression": "ふこころえ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "不心得",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "心",
+          "annotation": "こころ"
+        },
+        {
+          "text": "得",
+          "annotation": "え"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "indiscretion",
+        "imprudence",
+        "rudeness",
+        "misbehavior",
+        "misconduct",
+        "misdeed",
+        "immorality"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "taktlos",
+        "unbesonnen",
+        "unmoralische Haltung",
+        "Taktlosigkeit",
+        "Unbesonnenheit",
+        "schlechtes Betragen",
+        "Schlechtigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "neveletlenség",
+        "tapintatlanság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "недомыслие; неблагоразумный поступок, безрассудство; неблаговидное поведение"
+      ]
+    }
+  ]
+}

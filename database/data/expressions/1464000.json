@@ -1,0 +1,51 @@
+{
+  "id": "1464000",
+  "readings": [
+    {
+      "kanaExpression": "にっけい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "日経",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にっ"
+        },
+        {
+          "text": "経",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 2780
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Nikkei (newspaper, share index)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Nihon Keizai Shimbun",
+        "Inc."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nihon Keizai Shinbun",
+        "Nikkei (größte Wirtschaftszeitung Japans und mit dem nach der Kurzform der Zeitung genannten Nikkei-Index eine weltweite Institution)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Nikkei (periódico e índice de cotizaciones)"
+      ]
+    }
+  ]
+}

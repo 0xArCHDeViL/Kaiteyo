@@ -1,0 +1,94 @@
+{
+  "id": "1848150",
+  "readings": [
+    {
+      "kanaExpression": "うつりかわる",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "移り変わる",
+      "furiganaExpression": [
+        {
+          "text": "移",
+          "annotation": "うつ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "変",
+          "annotation": "か"
+        },
+        {
+          "text": "わる"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "移り変る",
+      "furiganaExpression": [
+        {
+          "text": "移",
+          "annotation": "うつ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "変",
+          "annotation": "かわ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to change (with time, the ages, the seasons, etc.)",
+        "to shift"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "veranderen",
+        "een verandering",
+        "veranderingen ondergaan",
+        "wisselen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich wandeln",
+        "sich verändern",
+        "wechseln",
+        "übergehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átöltözik",
+        "változtat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "меняться, сменяться; претерпевать перемены"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cambiar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "1511610",
+  "readings": [
+    {
+      "kanaExpression": "かたすみ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "片隅",
+      "furiganaExpression": [
+        {
+          "text": "片",
+          "annotation": "かた"
+        },
+        {
+          "text": "隅",
+          "annotation": "すみ"
+        }
+      ],
+      "rank": 10373
+    },
+    {
+      "kanjiExpression": "片すみ",
+      "furiganaExpression": [
+        {
+          "text": "片",
+          "annotation": "かた"
+        },
+        {
+          "text": "すみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "corner",
+        "nook"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoek",
+        "hoekje",
+        "rustig",
+        "verborgen hoekje",
+        "schuilhoek"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(dans) un coin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Ecke",
+        "ein Winkel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áruhiányt teremtő felvásárlás",
+        "falkiszögellés",
+        "felvásárló szindikátus",
+        "kiálló hegy",
+        "korner",
+        "londoni lóvásártér",
+        "sarok",
+        "saroklemez",
+        "szájszöglet",
+        "szemzug",
+        "szöglet",
+        "szögletrúgás",
+        "terület",
+        "zug",
+        "beszögellés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "угол (внутренний); закоулок"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hörn",
+        "vrå"
+      ]
+    }
+  ]
+}

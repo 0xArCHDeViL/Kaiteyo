@@ -1,0 +1,59 @@
+{
+  "id": "1623840",
+  "readings": [
+    {
+      "kanaExpression": "でんじは",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "電磁波",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "磁",
+          "annotation": "じ"
+        },
+        {
+          "text": "波",
+          "annotation": "は"
+        }
+      ],
+      "rank": 11145
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "electromagnetic wave"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "elektromagnetische Welle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elektromágneses hullám"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "электромагнитные волны"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "onda electromagnética"
+      ]
+    }
+  ]
+}

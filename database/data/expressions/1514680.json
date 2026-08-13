@@ -1,0 +1,91 @@
+{
+  "id": "1514680",
+  "readings": [
+    {
+      "kanaExpression": "ほせい",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "補正",
+      "furiganaExpression": [
+        {
+          "text": "補",
+          "annotation": "ほ"
+        },
+        {
+          "text": "正",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 6290
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "correction",
+        "revision",
+        "compensation (e.g. to a pendulum)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "compensatie",
+        "correctie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "correction",
+        "révision"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verbesserung",
+        "Berichtigung",
+        "Korrektur",
+        "Revision",
+        "Kompensation",
+        "ergänzen",
+        "verbessern",
+        "korrigieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fenyítés",
+        "javítás",
+        "korrigálás",
+        "megbüntetés",
+        "módosít",
+        "korrigál"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дополнение и исправление",
+        "{～する} дополнять и вносить поправки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rectificación",
+        "corrección"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "korrektion"
+      ]
+    }
+  ]
+}

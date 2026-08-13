@@ -1,0 +1,59 @@
+{
+  "id": "1838010",
+  "readings": [
+    {
+      "kanaExpression": "りっぽうきかん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "立法機関",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "りっ"
+        },
+        {
+          "text": "法",
+          "annotation": "ぽう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "関",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "legislature",
+        "legislative body"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gesetzgebendes Organ",
+        "Legislatur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "törvényhozó testület"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "legislatur"
+      ]
+    }
+  ]
+}

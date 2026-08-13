@@ -1,0 +1,104 @@
+{
+  "id": "1372660",
+  "readings": [
+    {
+      "kanaExpression": "よっぱらい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "酔っ払い",
+      "furiganaExpression": [
+        {
+          "text": "酔",
+          "annotation": "よ"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "払",
+          "annotation": "ぱら"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "酔っぱらい",
+      "furiganaExpression": [
+        {
+          "text": "酔",
+          "annotation": "よ"
+        },
+        {
+          "text": "っぱらい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drunkard"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dronkeman",
+        "dronken persoon",
+        "beschonkene",
+        "bedronkene",
+        "{inform.} bezopene",
+        "{w.g.} zatteman",
+        "kennelijke staat",
+        "dronkenschap",
+        "het dronken zijn",
+        "temulentie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ivre",
+        "saoul"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Betrunkener"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "iszákos ember",
+        "részeges ember"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пьяный, пьяница",
+        "{～の} пьяный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pijanec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "borracho",
+        "alcohólico (persona)"
+      ]
+    }
+  ]
+}

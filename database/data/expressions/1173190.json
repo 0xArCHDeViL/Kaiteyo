@@ -1,0 +1,71 @@
+{
+  "id": "1173190",
+  "readings": [
+    {
+      "kanaExpression": "うんさんむしょう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "雲散霧消",
+      "furiganaExpression": [
+        {
+          "text": "雲",
+          "annotation": "うん"
+        },
+        {
+          "text": "散",
+          "annotation": "さん"
+        },
+        {
+          "text": "霧",
+          "annotation": "む"
+        },
+        {
+          "text": "消",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vanishing like mist"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "in het niets oplossen",
+        "in rook opgaan",
+        "in rook vervliegen",
+        "als sneeuw voor de zon smelten",
+        "spoorloos verdwijnen",
+        "{～する} in het niets oplossen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich wie Nebel auflösen",
+        "Auflösen wie Nebel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} рассеиваться как туман"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "esfumarse",
+        "disgregarse pronto",
+        "disolverse o separarse enseguida"
+      ]
+    }
+  ]
+}

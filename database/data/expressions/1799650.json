@@ -1,0 +1,40 @@
+{
+  "id": "1799650",
+  "readings": [
+    {
+      "kanaExpression": "つよび",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "強火",
+      "furiganaExpression": [
+        {
+          "text": "強",
+          "annotation": "つよ"
+        },
+        {
+          "text": "火",
+          "annotation": "び"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high flame (cooking)",
+        "high heat",
+        "strong heat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "starke Flamme",
+        "große Hitze"
+      ]
+    }
+  ]
+}

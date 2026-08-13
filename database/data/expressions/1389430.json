@@ -1,0 +1,101 @@
+{
+  "id": "1389430",
+  "readings": [
+    {
+      "kanaExpression": "うらなう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "占う",
+      "furiganaExpression": [
+        {
+          "text": "占",
+          "annotation": "うらな"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 11620
+    },
+    {
+      "kanjiExpression": "卜う",
+      "furiganaExpression": [
+        {
+          "text": "卜",
+          "annotation": "うらな"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to tell someone\u0027s fortune",
+        "to divine (the future)",
+        "to predict",
+        "to forecast"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorspellen",
+        "profeteren",
+        "waarzeggen",
+        "in iemands toekomst kijken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dire la bonne aventure à quelqu\u0027un",
+        "prévoir",
+        "prédire",
+        "deviner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wahrsagen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előre jelez",
+        "előre lát",
+        "megjósol",
+        "eldönt",
+        "elintéz",
+        "rendez",
+        "beilleszt",
+        "erősít",
+        "kitűz",
+        "letelepszik",
+        "megállapít",
+        "megalvad",
+        "megerősít",
+        "megszab"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гадать, предсказывать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pronosticar",
+        "predecir"
+      ]
+    }
+  ]
+}

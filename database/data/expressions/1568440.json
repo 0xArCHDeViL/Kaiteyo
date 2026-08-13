@@ -1,0 +1,99 @@
+{
+  "id": "1568440",
+  "readings": [
+    {
+      "kanaExpression": "うつびょう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "うつ病",
+      "furiganaExpression": [
+        {
+          "text": "うつ"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 8580
+    },
+    {
+      "kanjiExpression": "鬱病",
+      "furiganaExpression": [
+        {
+          "text": "鬱",
+          "annotation": "うつ"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "ウツ病",
+      "furiganaExpression": [
+        {
+          "text": "ウツ"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "欝病",
+      "furiganaExpression": [
+        {
+          "text": "欝",
+          "annotation": "うつ"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depression"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} depressie",
+        "dip",
+        "melancholie",
+        "zwaarmoedigheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Depression",
+        "Melancholie",
+        "depressiv",
+        "melancholisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alacsony légnyomás",
+        "pangás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "depresión (enfermedad)"
+      ]
+    }
+  ]
+}

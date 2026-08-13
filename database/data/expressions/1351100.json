@@ -1,0 +1,44 @@
+{
+  "id": "1351100",
+  "readings": [
+    {
+      "kanaExpression": "しょうちょう",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "省庁",
+      "furiganaExpression": [
+        {
+          "text": "省",
+          "annotation": "しょう"
+        },
+        {
+          "text": "庁",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 5065
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ministries and government offices",
+        "the authorities"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ministeries en agentschappen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ministerien und Behörden"
+      ]
+    }
+  ]
+}

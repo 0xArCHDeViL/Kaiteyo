@@ -1,0 +1,55 @@
+{
+  "id": "1388540",
+  "readings": [
+    {
+      "kanaExpression": "さきもの",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "先物",
+      "furiganaExpression": [
+        {
+          "text": "先",
+          "annotation": "さき"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 5814
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "futures",
+        "futures contract"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Terminwaren",
+        "Futures",
+        "zukünftige Lieferung bei bereits bezahlter Rechnung",
+        "Zukünftiges",
+        "Zukunftsträchtiges"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "határidőügylet",
+        "határidőüzlet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "товары по сделке на срок"
+      ]
+    }
+  ]
+}

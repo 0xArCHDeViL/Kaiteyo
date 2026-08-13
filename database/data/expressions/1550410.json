@@ -1,0 +1,79 @@
+{
+  "id": "1550410",
+  "readings": [
+    {
+      "kanaExpression": "うらがわ",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "裏側",
+      "furiganaExpression": [
+        {
+          "text": "裏",
+          "annotation": "うら"
+        },
+        {
+          "text": "側",
+          "annotation": "がわ"
+        }
+      ],
+      "rank": 7711
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the reverse (side)",
+        "back (side)",
+        "other side",
+        "hidden side",
+        "behind the scenes"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "achterkant",
+        "keerzijde",
+        "andere kant",
+        "ommezijde",
+        "tegenzijde",
+        "versozijde",
+        "averechtse kant",
+        "verkeerde kant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rückseite",
+        "Kehrseite",
+        "andere Seite"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bélés",
+        "betét"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обратная сторона (напр. Луны)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "parte trasera",
+        "parte de atrás",
+        "trastienda",
+        "lado oculto",
+        "cara oculta"
+      ]
+    }
+  ]
+}

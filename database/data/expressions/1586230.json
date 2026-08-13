@@ -1,0 +1,76 @@
+{
+  "id": "1586230",
+  "readings": [
+    {
+      "kanaExpression": "あきばれ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "しゅうせい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "秋晴れ",
+      "furiganaExpression": [
+        {
+          "text": "秋",
+          "annotation": "あき"
+        },
+        {
+          "text": "晴",
+          "annotation": "ば"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "秋晴",
+      "furiganaExpression": [
+        {
+          "text": "秋",
+          "annotation": "あき"
+        },
+        {
+          "text": "晴",
+          "annotation": "ばれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "clear autumnal weather"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mooi herfstweer",
+        "{～の日} mooie herfstdag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "temps d\u0027automne dégagé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "klares Herbstwetter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ясная осень"
+      ]
+    }
+  ]
+}

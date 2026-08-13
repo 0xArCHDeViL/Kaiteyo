@@ -1,0 +1,67 @@
+{
+  "id": "1854880",
+  "readings": [
+    {
+      "kanaExpression": "うり",
+      "rank": 11783
+    },
+    {
+      "kanjiExpression": "売り",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 8196
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sale",
+        "selling",
+        "selling point",
+        "gimmick",
+        "seller",
+        "vendor",
+        "prostitution"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkoop",
+        "afzet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkauf",
+        "Verkaufsargument",
+        "Kaufgrund",
+        "Vorzüge",
+        "Prostitution"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "értékesítés",
+        "kiárusítás",
+        "vásár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продажа"
+      ]
+    }
+  ]
+}

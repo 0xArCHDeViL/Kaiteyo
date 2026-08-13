@@ -1,0 +1,54 @@
+{
+  "id": "1689560",
+  "readings": [
+    {
+      "kanaExpression": "ふんえん",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "噴煙",
+      "furiganaExpression": [
+        {
+          "text": "噴",
+          "annotation": "ふん"
+        },
+        {
+          "text": "煙",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(eruption of) smoke"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausgestoßener Rauch (z.B. von einem Vulkan)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dohányzás",
+        "füst",
+        "ködfelhő",
+        "pipázás",
+        "porfelhő",
+        "szívnivaló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "клубы дыма"
+      ]
+    }
+  ]
+}

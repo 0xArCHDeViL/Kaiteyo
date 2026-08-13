@@ -1,0 +1,83 @@
+{
+  "id": "1422480",
+  "readings": [
+    {
+      "kanaExpression": "ちくいち",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "ちくいつ"
+    },
+    {
+      "kanjiExpression": "逐一",
+      "furiganaExpression": [
+        {
+          "text": "逐",
+          "annotation": "ちく"
+        },
+        {
+          "text": "一",
+          "annotation": "いち"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one by one",
+        "in detail",
+        "minutely"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "punt voor punt",
+        "puntsgewijs",
+        "één voor één",
+        "individueel",
+        "apart",
+        "afzonderlijk",
+        "van naaldje tot draadje",
+        "met vermelding van alle bijzonderheden",
+        "gedetailleerd",
+        "omstandig",
+        "minutieus",
+        "uitvoerig",
+        "grondig"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "en détail",
+        "un par un"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "genau",
+        "ausführlich",
+        "einzeln",
+        "im einzelnen",
+        "Wort für Wort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pontosan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "от начала до конца, подробно; слово в слово, полностью"
+      ]
+    }
+  ]
+}

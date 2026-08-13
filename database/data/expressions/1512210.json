@@ -1,0 +1,91 @@
+{
+  "id": "1512210",
+  "readings": [
+    {
+      "kanaExpression": "へんさい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "返済",
+      "furiganaExpression": [
+        {
+          "text": "返",
+          "annotation": "へん"
+        },
+        {
+          "text": "済",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 5062
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "repayment",
+        "reimbursement",
+        "refund",
+        "redemption"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vereffenen",
+        "delgen",
+        "voldoen",
+        "terugbetalen",
+        "aflossen",
+        "lossen",
+        "restitueren",
+        "vereffening",
+        "delging",
+        "voldoening",
+        "terugbetaling",
+        "aflossing",
+        "lossing",
+        "restitutie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "remboursement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurückzahlen",
+        "zurückgeben",
+        "Rückgabe",
+        "Rückerstattung",
+        "Rückzahlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) へんきゃく"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odplačati",
+        "izplačati",
+        "povračilo",
+        "poplačilo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reembolso",
+        "devolución (de dinero)"
+      ]
+    }
+  ]
+}

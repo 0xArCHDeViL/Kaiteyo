@@ -1,0 +1,118 @@
+{
+  "id": "1605160",
+  "readings": [
+    {
+      "kanaExpression": "もうしたて",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "申し立て",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "もう"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 12356
+    },
+    {
+      "kanjiExpression": "申立",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "もうし"
+        },
+        {
+          "text": "立",
+          "annotation": "たて"
+        }
+      ],
+      "rank": 9949
+    },
+    {
+      "kanjiExpression": "申立て",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "もうし"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "statement",
+        "account (of something)",
+        "declaration",
+        "allegation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} verklaring",
+        "bewering",
+        "relaas",
+        "getuigenis",
+        "betoog",
+        "statement",
+        "depositie",
+        "declaratie",
+        "aanvoering",
+        "eis",
+        "{m.b.t. echtscheidingsgeding} aanvrage",
+        "aanvraag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aussage",
+        "Angabe",
+        "Äußerung",
+        "Behauptung",
+        "Darlegung",
+        "Antrag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заявление; изложение; (юр.) показание",
+        "{～をする} заявлять, делать заявление; излагать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "instancia",
+        "solicitud"
+      ]
+    }
+  ]
+}

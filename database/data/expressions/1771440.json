@@ -1,0 +1,54 @@
+{
+  "id": "1771440",
+  "readings": [
+    {
+      "kanaExpression": "あれほど",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "あれ程",
+      "furiganaExpression": [
+        {
+          "text": "あれ"
+        },
+        {
+          "text": "程",
+          "annotation": "ほど"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to that extent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "so",
+        "so sehr",
+        "in solch einer Weise"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "так [много], настолько, до такой степени; (ср.) あれだけ",
+        "{～の} такой, как…"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tanto",
+        "tan",
+        "de tal manera",
+        "de tal forma"
+      ]
+    }
+  ]
+}

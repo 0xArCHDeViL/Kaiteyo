@@ -1,0 +1,63 @@
+{
+  "id": "1229240",
+  "readings": [
+    {
+      "kanaExpression": "きゅうなん",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "救難",
+      "furiganaExpression": [
+        {
+          "text": "救",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "難",
+          "annotation": "なん"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rescue",
+        "salvage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "redding",
+        "ontzetting",
+        "berging",
+        "het in veiligheid brengen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rettung",
+        "Bergung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kimentés",
+        "megmentés",
+        "megszabadítás",
+        "mentés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спасение погибающих"
+      ]
+    }
+  ]
+}

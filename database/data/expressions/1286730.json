@@ -1,0 +1,62 @@
+{
+  "id": "1286730",
+  "readings": [
+    {
+      "kanaExpression": "こくせい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "国勢",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "勢",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "state of a country (population, resources, etc.)",
+        "condition of a country",
+        "strength of a country"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "staatstoestand",
+        "staat der natie",
+        "{i.h.b.} staatssterkte",
+        "kracht van de natie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "situation, état économique et démographique d\u0027un pays"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zustand eines Landes",
+        "Macht eines Landes",
+        "Bevölkerungsstand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) положение страны"
+      ]
+    }
+  ]
+}

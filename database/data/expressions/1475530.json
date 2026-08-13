@@ -1,0 +1,105 @@
+{
+  "id": "1475530",
+  "readings": [
+    {
+      "kanaExpression": "うすぐらい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "薄暗い",
+      "furiganaExpression": [
+        {
+          "text": "薄",
+          "annotation": "うす"
+        },
+        {
+          "text": "暗",
+          "annotation": "ぐら"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 13492
+    },
+    {
+      "kanjiExpression": "うす暗い",
+      "furiganaExpression": [
+        {
+          "text": "うす"
+        },
+        {
+          "text": "暗",
+          "annotation": "ぐら"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dim",
+        "gloomy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "halfduister",
+        "halfdonker",
+        "schemerig donker",
+        "schemerig",
+        "in schemering gehuld",
+        "somber",
+        "zwak verlicht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mal éclairé",
+        "sombre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "halbdunkel",
+        "dämmrig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmosódott",
+        "sápadt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "темноватый; полутёмный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "temen",
+        "otožen",
+        "mrk",
+        "bedast"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oscuro",
+        "sombrío"
+      ]
+    }
+  ]
+}

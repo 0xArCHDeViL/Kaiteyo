@@ -1,0 +1,60 @@
+{
+  "id": "1705640",
+  "readings": [
+    {
+      "kanaExpression": "しんさつしつ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "診察室",
+      "furiganaExpression": [
+        {
+          "text": "診",
+          "annotation": "しん"
+        },
+        {
+          "text": "察",
+          "annotation": "さつ"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "examining room",
+        "consultation room"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "spreekkamer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sprechzimmer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vizsgáló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[врачебный] кабинет"
+      ]
+    }
+  ]
+}

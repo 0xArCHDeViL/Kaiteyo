@@ -1,0 +1,56 @@
+{
+  "id": "1494010",
+  "readings": [
+    {
+      "kanaExpression": "ふわたりてがた",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "不渡り手形",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "形",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dishonored bill",
+        "dishonoured bill"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "notleidender Wechsel"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "letra de cambio devuelta",
+        "letra de cambio impagada"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "1280410",
+  "readings": [
+    {
+      "kanaExpression": "おうじ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "皇子",
+      "furiganaExpression": [
+        {
+          "text": "皇",
+          "annotation": "おう"
+        },
+        {
+          "text": "子",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "imperial prince"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kaiserlicher Prinz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "принц крови"
+      ]
+    }
+  ]
+}

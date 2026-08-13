@@ -1,0 +1,61 @@
+{
+  "id": "1631380",
+  "readings": [
+    {
+      "kanaExpression": "こうらくち",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "行楽地",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "こう"
+        },
+        {
+          "text": "楽",
+          "annotation": "らく"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tourist resort",
+        "holiday resort"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausflugsgebiet"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "üdülőhely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "место для экскурсий (прогулок)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kraj, kamor se gre na ekskurzijo ali na piknik",
+        "turistični kraj"
+      ]
+    }
+  ]
+}

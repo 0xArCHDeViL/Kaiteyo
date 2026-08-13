@@ -1,0 +1,77 @@
+{
+  "id": "1533840",
+  "readings": [
+    {
+      "kanaExpression": "けあな",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "もうく"
+    },
+    {
+      "kanjiExpression": "毛穴",
+      "furiganaExpression": [
+        {
+          "text": "毛",
+          "annotation": "け"
+        },
+        {
+          "text": "穴",
+          "annotation": "あな"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "毛孔",
+      "furiganaExpression": [
+        {
+          "text": "毛",
+          "annotation": "け"
+        },
+        {
+          "text": "孔",
+          "annotation": "あな"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "毛あな",
+      "furiganaExpression": [
+        {
+          "text": "毛",
+          "annotation": "け"
+        },
+        {
+          "text": "あな"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pore (of the skin)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "porie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pore"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пора (кожи)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "1119290",
+  "readings": [
+    {
+      "kanaExpression": "ベータ",
+      "rank": 10653
+    },
+    {
+      "kanaExpression": "ベーター"
+    },
+    {
+      "kanaExpression": "ヴィタ"
+    },
+    {
+      "kanjiExpression": "Β",
+      "furiganaExpression": [
+        {
+          "text": "Β",
+          "annotation": "ベータ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "β",
+      "furiganaExpression": [
+        {
+          "text": "β",
+          "annotation": "ベータ"
+        }
+      ],
+      "rank": 10308
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beta"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beta (zweiter Buchstabe des griech. Alphabets)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "1393840",
+  "readings": [
+    {
+      "kanaExpression": "ぜんねん",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "前年",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 4234
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the preceding year",
+        "the previous year",
+        "last year"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jaar tevoren",
+        "jaar ervoor",
+        "voorbije jaren",
+        "afgelopen jaren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "l\u0027an dernier",
+        "l\u0027année précédente"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letztes Jahr",
+        "voriges Jahr",
+        "das vorangegangene Jahr",
+        "Vorjahr"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmúlt évben",
+        "múlt évben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) предыдущий (прошлый) год",
+        "2) прежние годы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "antaño",
+        "año anterior"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "1383370",
+  "readings": [
+    {
+      "kanaExpression": "せきがいせん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "赤外線",
+      "furiganaExpression": [
+        {
+          "text": "赤",
+          "annotation": "せき"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 10675
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "infrared rays",
+        "infrared radiation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "infrarode stralen",
+        "infrarode straling",
+        "infraroodstraling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Infrarot",
+        "Wärmestrahlung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "infravörös fény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "инфракрасные лучи"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rayos infrarrojos"
+      ]
+    }
+  ]
+}

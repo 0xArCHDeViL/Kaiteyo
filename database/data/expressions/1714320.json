@@ -1,0 +1,50 @@
+{
+  "id": "1714320",
+  "readings": [
+    {
+      "kanaExpression": "けんちくし",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "建築士",
+      "furiganaExpression": [
+        {
+          "text": "建",
+          "annotation": "けん"
+        },
+        {
+          "text": "築",
+          "annotation": "ちく"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "authorized architect and builder",
+        "licensed architect",
+        "registered architect"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "erkend architect",
+        "gediplomeerd bouwmeester"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "staatlich lizenzierter Architekt"
+      ]
+    }
+  ]
+}

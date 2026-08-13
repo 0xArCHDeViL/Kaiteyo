@@ -1,0 +1,81 @@
+{
+  "id": "1169990",
+  "readings": [
+    {
+      "kanaExpression": "いんりょう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "飲料",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "いん"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 8135
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beverage",
+        "drink"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "drank",
+        "iets te drinken",
+        "drinkbare waren",
+        "drinkwaar",
+        "drinkwaren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "boisson"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Getränk",
+        "Trank",
+        "Trunk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ital"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "напиток, питьё"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bebida"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "dryck",
+        "drink"
+      ]
+    }
+  ]
+}

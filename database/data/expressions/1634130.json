@@ -1,0 +1,79 @@
+{
+  "id": "1634130",
+  "readings": [
+    {
+      "kanaExpression": "よさ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "良さ",
+      "furiganaExpression": [
+        {
+          "text": "良",
+          "annotation": "よ"
+        },
+        {
+          "text": "さ"
+        }
+      ],
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "好さ",
+      "furiganaExpression": [
+        {
+          "text": "好",
+          "annotation": "よ"
+        },
+        {
+          "text": "さ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "善さ",
+      "furiganaExpression": [
+        {
+          "text": "善",
+          "annotation": "よ"
+        },
+        {
+          "text": "さ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "merit",
+        "virtue",
+        "good quality"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die gute Seite",
+        "Vorzug",
+        "Vorteil"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érdemrend",
+        "erény",
+        "erkölcsi tisztaság",
+        "érték"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заслуга; добродетель; достоинства, хорошие качества (стороны)"
+      ]
+    }
+  ]
+}

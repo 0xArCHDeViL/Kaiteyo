@@ -1,0 +1,59 @@
+{
+  "id": "1645500",
+  "readings": [
+    {
+      "kanaExpression": "せいか",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "盛夏",
+      "furiganaExpression": [
+        {
+          "text": "盛",
+          "annotation": "せい"
+        },
+        {
+          "text": "夏",
+          "annotation": "か"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "midsummer",
+        "height of summer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "midzomer",
+        "hartje zomer",
+        "hoogzomer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hochsommer",
+        "Mittsommer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyárközép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) разгар лета"
+      ]
+    }
+  ]
+}

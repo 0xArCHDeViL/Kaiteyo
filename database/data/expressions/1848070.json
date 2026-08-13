@@ -1,0 +1,73 @@
+{
+  "id": "1848070",
+  "readings": [
+    {
+      "kanaExpression": "うりきる",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "売り切る",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "売切る",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うり"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to sell out",
+        "to sell off"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausverkaufen",
+        "restlos verkaufen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiárusít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "распродать [полностью]"
+      ]
+    }
+  ]
+}

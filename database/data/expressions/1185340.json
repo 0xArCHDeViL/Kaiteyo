@@ -1,0 +1,63 @@
+{
+  "id": "1185340",
+  "readings": [
+    {
+      "kanaExpression": "したじゅんび",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "下準備",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "準",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "備",
+          "annotation": "び"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "preparations",
+        "preliminary arrangements",
+        "spade work",
+        "mise en place"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "regeling vooraf",
+        "voorbereiding",
+        "voorafgaande schikkingen",
+        "grondwerk",
+        "voorbereidende werkzaamheden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich vorbereiten",
+        "Vorkehrungen treffen",
+        "Vorbereitung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подготовительная (черновая) работа, подготовка",
+        "{～をする} вести подготовку, готовиться"
+      ]
+    }
+  ]
+}

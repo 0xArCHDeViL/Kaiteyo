@@ -1,0 +1,85 @@
+{
+  "id": "1587680",
+  "readings": [
+    {
+      "kanaExpression": "いよう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "威容",
+      "furiganaExpression": [
+        {
+          "text": "威",
+          "annotation": "い"
+        },
+        {
+          "text": "容",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "偉容",
+      "furiganaExpression": [
+        {
+          "text": "偉",
+          "annotation": "い"
+        },
+        {
+          "text": "容",
+          "annotation": "よう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dignified appearance",
+        "majestic appearance",
+        "imposing appearance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voornaam",
+        "waardig voorkomen",
+        "indrukwekkende verschijning",
+        "waardigheid",
+        "présence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "majestätischer Anblick",
+        "majestätisches Aussehen",
+        "Majestät",
+        "imponierende Gestalt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "méltóság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) величественный (героический) вид",
+        "(кн.) внушительный (достойный) вид; величественная (внушительная) фигура"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dignidad",
+        "apariencia majestuosa"
+      ]
+    }
+  ]
+}

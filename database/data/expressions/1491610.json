@@ -1,0 +1,78 @@
+{
+  "id": "1491610",
+  "readings": [
+    {
+      "kanaExpression": "ふかくじつ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "不確実",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "確",
+          "annotation": "かく"
+        },
+        {
+          "text": "実",
+          "annotation": "じつ"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "uncertain",
+        "unreliable",
+        "inauthentic",
+        "insecure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onzeker",
+        "twijfelachtig",
+        "ongewis",
+        "onvast",
+        "bedenkelijk",
+        "dubieus",
+        "onbestendig",
+        "onberekenbaar",
+        "onvoorspelbaar",
+        "wankel",
+        "onbetrouwbaar",
+        "niet te vertrouwen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unsicher",
+        "unzuverlässig",
+        "Unsicherheit",
+        "Ungewissheit",
+        "Unberechenbarkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kétes",
+        "megbízhatatlan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～な} неуверенный, неопределённый, неточный; ненадёжный; неустойчивый, шаткий"
+      ]
+    }
+  ]
+}

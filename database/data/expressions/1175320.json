@@ -1,0 +1,69 @@
+{
+  "id": "1175320",
+  "readings": [
+    {
+      "kanaExpression": "えっけん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "越権",
+      "furiganaExpression": [
+        {
+          "text": "越",
+          "annotation": "えっ"
+        },
+        {
+          "text": "権",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "going beyond authority",
+        "unauthorized",
+        "unauthorised",
+        "ultra vires"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bevoegdheidsoverschrijding",
+        "gezagsoverschrijding",
+        "competentieoverschrijding"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "outrepasser (ses compétences, son autorité)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überschreitung der Kompetenzen",
+        "Hinausgehen über die Befugnisse",
+        "Anmaßung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "illetéktelen",
+        "jogtalan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "превышение власти"
+      ]
+    }
+  ]
+}

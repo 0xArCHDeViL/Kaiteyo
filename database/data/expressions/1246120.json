@@ -1,0 +1,56 @@
+{
+  "id": "1246120",
+  "readings": [
+    {
+      "kanaExpression": "くうれい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "空冷",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "冷",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "air cooling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "luchtkoeling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Luftkühlung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "léghűtés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воздушное охлаждение",
+        "{～式[の]エンジン} мотор с воздушным охлаждением"
+      ]
+    }
+  ]
+}

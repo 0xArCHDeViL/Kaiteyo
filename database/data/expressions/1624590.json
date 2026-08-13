@@ -1,0 +1,44 @@
+{
+  "id": "1624590",
+  "readings": [
+    {
+      "kanaExpression": "ふうどう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "風洞",
+      "furiganaExpression": [
+        {
+          "text": "風",
+          "annotation": "ふう"
+        },
+        {
+          "text": "洞",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wind tunnel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Windkanal",
+        "Strömungskanal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szélcsatorna"
+      ]
+    }
+  ]
+}

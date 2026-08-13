@@ -1,0 +1,59 @@
+{
+  "id": "1870010",
+  "readings": [
+    {
+      "kanaExpression": "きょうかく",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "侠客",
+      "furiganaExpression": [
+        {
+          "text": "侠",
+          "annotation": "きょう"
+        },
+        {
+          "text": "客",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "俠客",
+      "furiganaExpression": [
+        {
+          "text": "俠",
+          "annotation": "きょう"
+        },
+        {
+          "text": "客",
+          "annotation": "かく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "self-styled humanitarian",
+        "person acting under the pretence of chivalry while participating in gangs and engaging in gambling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kavalier",
+        "Person mit ritterlicher Gesinnung",
+        "jmd., der von den Starken nimmt und den Schwachen hilft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прям. и перен.) рыцарь"
+      ]
+    }
+  ]
+}

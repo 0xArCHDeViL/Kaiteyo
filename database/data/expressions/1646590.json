@@ -1,0 +1,48 @@
+{
+  "id": "1646590",
+  "readings": [
+    {
+      "kanaExpression": "しじょう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "試乗",
+      "furiganaExpression": [
+        {
+          "text": "試",
+          "annotation": "し"
+        },
+        {
+          "text": "乗",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 14845
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "test drive",
+        "test ride",
+        "trial ride"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Probefahrt machen",
+        "Probefahrt",
+        "Testfahrt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пробный рейс, пробная поездка",
+        "{～する} совершать пробную поездку; проводить пробный рейс"
+      ]
+    }
+  ]
+}

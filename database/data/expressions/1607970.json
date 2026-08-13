@@ -1,0 +1,99 @@
+{
+  "id": "1607970",
+  "readings": [
+    {
+      "kanaExpression": "おもいちがい",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "思い違い",
+      "furiganaExpression": [
+        {
+          "text": "思",
+          "annotation": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "違",
+          "annotation": "ちが"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "思いちがい",
+      "furiganaExpression": [
+        {
+          "text": "思",
+          "annotation": "おも"
+        },
+        {
+          "text": "いちがい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "misunderstanding",
+        "misapprehension",
+        "misconception",
+        "false impression",
+        "wrong idea"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkeerd begrijpen",
+        "verstaan",
+        "misvatten",
+        "misverstaan",
+        "het verkeerd opvatten",
+        "het mis hebben",
+        "het verkeerde voorhebben",
+        "misverstand",
+        "malentendu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Missverständnis",
+        "Irrtum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "félreértés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неправильное представление; ошибочное суждение; заблуждение",
+        "{～をする} иметь неправильное представление, ошибочно судить; заблуждаться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "malentendido"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "missförstånd"
+      ]
+    }
+  ]
+}

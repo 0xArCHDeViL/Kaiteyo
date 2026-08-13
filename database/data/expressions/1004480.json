@@ -1,0 +1,87 @@
+{
+  "id": "1004480",
+  "readings": [
+    {
+      "kanaExpression": "こだわる",
+      "rank": 3388
+    },
+    {
+      "kanjiExpression": "拘る",
+      "furiganaExpression": [
+        {
+          "text": "拘",
+          "annotation": "こだわ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 10118
+    },
+    {
+      "kanjiExpression": "拘わる",
+      "furiganaExpression": [
+        {
+          "text": "拘",
+          "annotation": "こだ"
+        },
+        {
+          "text": "わる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be obsessive (about)",
+        "to be overly concerned (with)",
+        "to fuss (over)",
+        "to worry too much (about)",
+        "to be picky (about)",
+        "to be hung up (on)",
+        "to stick to",
+        "to be particular (about)",
+        "to pay special attention (to)",
+        "to be fastidious (about)",
+        "to insist (on)",
+        "to be uncompromising",
+        "to get stuck",
+        "to be obstructed"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "être exigeant",
+        "être soucieux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hängen an …",
+        "von … besessen sein",
+        "auf… fixiert sein",
+        "Wert legen auf …",
+        "bestehen auf …",
+        "Aufhebens machen um …",
+        "stagnieren",
+        "hindern",
+        "behindern",
+        "kritisieren",
+        "nörgeln",
+        "haarspalterisch sein",
+        "engstirnig sein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) мешать, препятствовать",
+        "2) упорно придерживаться (чего-л.), погрязать (в чём-л.)"
+      ]
+    }
+  ]
+}

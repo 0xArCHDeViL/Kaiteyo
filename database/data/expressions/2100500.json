@@ -1,0 +1,41 @@
+{
+  "id": "2100500",
+  "readings": [
+    {
+      "kanaExpression": "こんしゅうまつ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "今週末",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "こん"
+        },
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "末",
+          "annotation": "まつ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "this weekend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dieses Wochenende"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "1326740",
+  "readings": [
+    {
+      "kanaExpression": "とりのこす",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "取り残す",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "残",
+          "annotation": "のこ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 12648
+    },
+    {
+      "kanjiExpression": "取残す",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "残",
+          "annotation": "のこ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "とり残す",
+      "furiganaExpression": [
+        {
+          "text": "とり"
+        },
+        {
+          "text": "残",
+          "annotation": "のこ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to leave behind"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wat overlaten",
+        "achterlaten",
+        "nalaten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurücklassen",
+        "zurückfallen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ottfelejt"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dejar atrás"
+      ]
+    }
+  ]
+}

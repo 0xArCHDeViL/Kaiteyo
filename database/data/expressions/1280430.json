@@ -1,0 +1,62 @@
+{
+  "id": "1280430",
+  "readings": [
+    {
+      "kanaExpression": "こうじょ",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "おうじょ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "皇女",
+      "furiganaExpression": [
+        {
+          "text": "皇",
+          "annotation": "こう"
+        },
+        {
+          "text": "女",
+          "annotation": "じょ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "imperial princess"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "princesse impériale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kaiserliche Prinzessin",
+        "Kaisertochter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "принцесса (императорского дома)",
+        "принцесса крови"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "princesa",
+        "princesa imperial"
+      ]
+    }
+  ]
+}

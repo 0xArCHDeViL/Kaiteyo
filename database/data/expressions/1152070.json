@@ -1,0 +1,91 @@
+{
+  "id": "1152070",
+  "readings": [
+    {
+      "kanaExpression": "あくせい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "悪性",
+      "furiganaExpression": [
+        {
+          "text": "悪",
+          "annotation": "あく"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "malignant (cancer)",
+        "virulent",
+        "pernicious (anemia, anaemia)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kwaadaardigheid",
+        "maligniteit",
+        "kwaadaardig",
+        "maligne",
+        "{geneesk.} pernicieus",
+        "boosaardig"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dangereux",
+        "malin (cancer)",
+        "mauvais",
+        "virulent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bösartigkeit",
+        "Malignität",
+        "gesellschaftliche Schädlichkeit",
+        "bösartig",
+        "gefährlich",
+        "maligne",
+        "virulent"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyűlölködő",
+        "rosszakaratú",
+        "rosszindulatú",
+        "ártalmas",
+        "káros"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "злостный характер; зловредность; (мед.) злокачественность",
+        "{～の} злокачественный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "maligno",
+        "virulencia",
+        "(cancer) maligno",
+        "pernicioso (anemia)"
+      ]
+    }
+  ]
+}

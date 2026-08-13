@@ -1,0 +1,71 @@
+{
+  "id": "1242460",
+  "readings": [
+    {
+      "kanaExpression": "きんだいてき",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "近代的",
+      "furiganaExpression": [
+        {
+          "text": "近",
+          "annotation": "きん"
+        },
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "modern"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "modern",
+        "modernistisch",
+        "neuzeitlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "korszerű",
+        "mai",
+        "modern",
+        "újabb kori"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "новый; новейший, современный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "moderen",
+        "sodoben"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "moderno"
+      ]
+    }
+  ]
+}

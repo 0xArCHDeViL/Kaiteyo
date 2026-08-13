@@ -1,0 +1,59 @@
+{
+  "id": "1007070",
+  "readings": [
+    {
+      "kanaExpression": "それら",
+      "rank": 1144
+    },
+    {
+      "kanjiExpression": "それ等",
+      "furiganaExpression": [
+        {
+          "text": "それ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "其れ等",
+      "furiganaExpression": [
+        {
+          "text": "其",
+          "annotation": "そ"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "其等",
+      "furiganaExpression": [
+        {
+          "text": "其",
+          "annotation": "それ"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "those (near the second person)"
+      ]
+    }
+  ]
+}

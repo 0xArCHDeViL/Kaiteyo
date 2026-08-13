@@ -1,0 +1,55 @@
+{
+  "id": "1650280",
+  "readings": [
+    {
+      "kanaExpression": "かいふう",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "うみかぜ"
+    },
+    {
+      "kanjiExpression": "海風",
+      "furiganaExpression": [
+        {
+          "text": "海",
+          "annotation": "かい"
+        },
+        {
+          "text": "風",
+          "annotation": "ふう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sea breeze"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seewind",
+        "Meeresbrise",
+        "auflandiger Wind"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "морской ветер"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "viento marino",
+        "brisa marina"
+      ]
+    }
+  ]
+}

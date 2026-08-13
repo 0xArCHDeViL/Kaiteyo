@@ -1,0 +1,63 @@
+{
+  "id": "1603010",
+  "readings": [
+    {
+      "kanaExpression": "きゅうせき",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "旧跡",
+      "furiganaExpression": [
+        {
+          "text": "旧",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "跡",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "旧蹟",
+      "furiganaExpression": [
+        {
+          "text": "旧",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "蹟",
+          "annotation": "せき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "historic spot",
+        "historic site",
+        "place of historical interest",
+        "historic remains",
+        "ruins"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "historische Stätte",
+        "Ruinen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "исторические места",
+        "исторические руины",
+        "развалины, руины; исторические места"
+      ]
+    }
+  ]
+}

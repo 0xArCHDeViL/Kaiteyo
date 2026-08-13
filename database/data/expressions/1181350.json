@@ -1,0 +1,109 @@
+{
+  "id": "1181350",
+  "readings": [
+    {
+      "kanaExpression": "なぐりこみ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "殴り込み",
+      "furiganaExpression": [
+        {
+          "text": "殴",
+          "annotation": "なぐ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "殴りこみ",
+      "furiganaExpression": [
+        {
+          "text": "殴",
+          "annotation": "なぐ"
+        },
+        {
+          "text": "りこみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "擲り込み",
+      "furiganaExpression": [
+        {
+          "text": "擲",
+          "annotation": "なぐ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "raid",
+        "attack",
+        "assault"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "attaque",
+        "expédition punitive",
+        "raid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gewaltsames Eindringen",
+        "Übergriff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fegyveres betörés fosztogatás céljából",
+        "kontremin",
+        "portya",
+        "portyázó rablóhadjárat",
+        "rácsapás",
+        "rátörés",
+        "váratlan támadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) нападение, налёт"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "räd"
+      ]
+    }
+  ]
+}

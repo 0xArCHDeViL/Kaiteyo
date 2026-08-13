@@ -1,0 +1,70 @@
+{
+  "id": "1303610",
+  "readings": [
+    {
+      "kanaExpression": "さんぶん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "散文",
+      "furiganaExpression": [
+        {
+          "text": "散",
+          "annotation": "さん"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prose"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "proza"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prose"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Prosa"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hétköznapiság",
+        "próza",
+        "prózaiság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проза",
+        "{～的} (прям. и перен.) прозаический"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "prosa"
+      ]
+    }
+  ]
+}

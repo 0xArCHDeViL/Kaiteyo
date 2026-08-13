@@ -1,0 +1,42 @@
+{
+  "id": "1613860",
+  "readings": [
+    {
+      "kanaExpression": "かいせん",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "回戦",
+      "furiganaExpression": [
+        {
+          "text": "回",
+          "annotation": "かい"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 9108
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "event with ... rounds, innings, legs, etc.",
+        "nth-round match (in a knockout tournament)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mérkőzés",
+        "párja vminek",
+        "csonka",
+        "örömlány",
+        "sport"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1652430",
+  "readings": [
+    {
+      "kanaExpression": "たねうま",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "種馬",
+      "furiganaExpression": [
+        {
+          "text": "種",
+          "annotation": "たね"
+        },
+        {
+          "text": "馬",
+          "annotation": "うま"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "studhorse",
+        "stallion",
+        "breeding horse"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fokpaard",
+        "fokhengst",
+        "dekhengst",
+        "springhengst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Deckhengst",
+        "Zuchthengst",
+        "Beschäler"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "apamén",
+        "mén"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жеребец-производитель, племенной жеребец"
+      ]
+    }
+  ]
+}

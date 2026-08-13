@@ -1,0 +1,94 @@
+{
+  "id": "2110850",
+  "readings": [
+    {
+      "kanaExpression": "にどと",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "二度と",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        },
+        {
+          "text": "と"
+        }
+      ],
+      "rank": 5773
+    },
+    {
+      "kanjiExpression": "２度と",
+      "furiganaExpression": [
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        },
+        {
+          "text": "と"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "二どと",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "どと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "never again"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{～…ない} opnieuw",
+        "weer",
+        "nog eens",
+        "nog een keer",
+        "nogmaals",
+        "(voor) een tweede keer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "niemals wieder",
+        "kein zweites Mal"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dvakrat",
+        "vdrugič",
+        "{+zanikani povedek} nikoli več"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nunca más (con verbo negativo)"
+      ]
+    }
+  ]
+}

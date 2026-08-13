@@ -1,0 +1,64 @@
+{
+  "id": "1680600",
+  "readings": [
+    {
+      "kanaExpression": "はんぽん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "版本",
+      "furiganaExpression": [
+        {
+          "text": "版",
+          "annotation": "はん"
+        },
+        {
+          "text": "本",
+          "annotation": "ぽん"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "板本",
+      "furiganaExpression": [
+        {
+          "text": "板",
+          "annotation": "はん"
+        },
+        {
+          "text": "本",
+          "annotation": "ぽん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "woodblock-printed book",
+        "book printed from woodblocks"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blokboek",
+        "via blokdruk vervaardigd boek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mit hölzernen Druckstöcken gedrucktes Buch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ксилографическая книга (отпечатанная с деревянных клише)"
+      ]
+    }
+  ]
+}

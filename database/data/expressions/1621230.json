@@ -1,0 +1,48 @@
+{
+  "id": "1621230",
+  "readings": [
+    {
+      "kanaExpression": "せきぞう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "石造",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "せき"
+        },
+        {
+          "text": "造",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stone construction",
+        "stone-built",
+        "(made of) stone"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "steinern",
+        "aus Steinen gebaut",
+        "Bauen aus Steinen",
+        "Stein…"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} каменный; построенный из камня"
+      ]
+    }
+  ]
+}

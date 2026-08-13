@@ -1,0 +1,81 @@
+{
+  "id": "1447120",
+  "readings": [
+    {
+      "kanaExpression": "とうき",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "投機",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "とう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 10090
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "speculation",
+        "venture",
+        "stockjobbing",
+        "gambling (on stocks)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "speculatie",
+        "het speculeren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "spéculation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spekulation",
+        "Aktienspekulation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elmélkedés",
+        "spekuláció"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спекуляция",
+        "{～する} спекулировать",
+        "{～的} рискованный, авантюрный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "especulación"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "spekulation"
+      ]
+    }
+  ]
+}

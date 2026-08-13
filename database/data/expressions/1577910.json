@@ -1,0 +1,138 @@
+{
+  "id": "1577910",
+  "readings": [
+    {
+      "kanaExpression": "あだ",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "あた"
+    },
+    {
+      "kanaExpression": "あたん"
+    },
+    {
+      "kanjiExpression": "仇",
+      "furiganaExpression": [
+        {
+          "text": "仇",
+          "annotation": "あだ"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "寇",
+      "furiganaExpression": [
+        {
+          "text": "寇",
+          "annotation": "あだ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "讐",
+      "furiganaExpression": [
+        {
+          "text": "讐",
+          "annotation": "あだ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "賊",
+      "furiganaExpression": [
+        {
+          "text": "賊",
+          "annotation": "あだ"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "foe",
+        "enemy",
+        "rival",
+        "resentment",
+        "enmity",
+        "grudge",
+        "harm",
+        "injury"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vijand",
+        "tegenstander",
+        "vijandigheid",
+        "vijandschap",
+        "animositeit",
+        "verbolgenheid",
+        "kwaadwilligheid",
+        "malice",
+        "haat",
+        "wrok",
+        "rancune",
+        "vete",
+        "kwaad",
+        "schade",
+        "nadeel",
+        "slechte dienst",
+        "iets contraproductiefs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feind",
+        "Gegner",
+        "Rache",
+        "Ahndung",
+        "Groll",
+        "Hass",
+        "Feindseligkeit",
+        "Ruin",
+        "Niedergang",
+        "Invasion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ellenfél",
+        "ellenség",
+        "bosszúállás",
+        "hűbérbirtok",
+        "baj",
+        "rossz",
+        "bűn",
+        "rosszul",
+        "pusztulás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) враг",
+        "2) зло",
+        "{～をする} причинить зло"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enemigo",
+        "venganza",
+        "rencor",
+        "aversión",
+        "algo perjudicial para uno mismo",
+        "odio"
+      ]
+    }
+  ]
+}

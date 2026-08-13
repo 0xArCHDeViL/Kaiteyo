@@ -1,0 +1,103 @@
+{
+  "id": "1811920",
+  "readings": [
+    {
+      "kanaExpression": "まんがか",
+      "rank": 20000
+    },
+    {
+      "kanaExpression": "マンガか"
+    },
+    {
+      "kanjiExpression": "漫画家",
+      "furiganaExpression": [
+        {
+          "text": "漫",
+          "annotation": "まん"
+        },
+        {
+          "text": "画",
+          "annotation": "が"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "マンガ家",
+      "furiganaExpression": [
+        {
+          "text": "マンガ"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "まんが家",
+      "furiganaExpression": [
+        {
+          "text": "まんが"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cartoonist",
+        "comic book artist",
+        "manga artist",
+        "manga author",
+        "mangaka"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mangazeichner",
+        "Cartoonist"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gúnyképrajzoló",
+        "karikaturista",
+        "torzképrajzoló",
+        "torzrajzoló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мангака",
+        "автор манги",
+        "карикатурист"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "risar stripov"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "historietista",
+        "caricaturista"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1911120",
+  "readings": [
+    {
+      "kanaExpression": "みんぽう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "民放",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "放",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 12016
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commercial broadcast"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "commerciële radio en tv",
+        "commerciële omroep",
+        "commerciële zender"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kommerzieller Sender (Abk.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) みんかんほうそう"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "canal comercial (vg tv)"
+      ]
+    }
+  ]
+}

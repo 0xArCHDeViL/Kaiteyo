@@ -1,0 +1,66 @@
+{
+  "id": "1332910",
+  "readings": [
+    {
+      "kanaExpression": "しゅうそく",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "終息",
+      "furiganaExpression": [
+        {
+          "text": "終",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "息",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "終熄",
+      "furiganaExpression": [
+        {
+          "text": "終",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "熄",
+          "annotation": "そく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cessation",
+        "(coming to an) end"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufhören",
+        "zu Ende kommen",
+        "enden",
+        "erlöschen",
+        "ausgerottet werden",
+        "Aufhören",
+        "Enden",
+        "Erlöschen",
+        "Ausrottung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прекращение; окончание; искоренение; уничтожение",
+        "{～する} прекращаться, приходить к концу; исчезать, быть уничтоженным (искоренённым)"
+      ]
+    }
+  ]
+}

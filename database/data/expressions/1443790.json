@@ -1,0 +1,81 @@
+{
+  "id": "1443790",
+  "readings": [
+    {
+      "kanaExpression": "でんりゅう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "電流",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 8539
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "electric current"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elektrische stroom",
+        "{pregn.} stroom"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "courant électrique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "elektrischer Strom"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elektromos áram",
+        "áramerősség(A)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "электрический ток"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "električni tok"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "corriente eléctrica"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "elström"
+      ]
+    }
+  ]
+}

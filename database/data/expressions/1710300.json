@@ -1,0 +1,84 @@
+{
+  "id": "1710300",
+  "readings": [
+    {
+      "kanaExpression": "ぼうご",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "防護",
+      "furiganaExpression": [
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "護",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "protection"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bescherming",
+        "beveiliging",
+        "beschutting",
+        "protectie",
+        "hoede",
+        "beschermen",
+        "beveiligen",
+        "beschutten",
+        "hoeden",
+        "bewaren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schutz",
+        "schützen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megvédés",
+        "menedék",
+        "menlevél",
+        "oltalom",
+        "védekezés",
+        "védővám",
+        "védővámrendszer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "защита, охрана",
+        "{～する} защищать, охранять"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "protección"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "beskydd"
+      ]
+    }
+  ]
+}

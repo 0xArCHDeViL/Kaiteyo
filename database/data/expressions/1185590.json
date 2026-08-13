@@ -1,0 +1,56 @@
+{
+  "id": "1185590",
+  "readings": [
+    {
+      "kanaExpression": "したうけぎょうしゃ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "下請け業者",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "請",
+          "annotation": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subcontractor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zulieferer",
+        "Zulieferbetrieb",
+        "Subunternehmer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alvállalkozó"
+      ]
+    }
+  ]
+}

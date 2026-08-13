@@ -1,0 +1,59 @@
+{
+  "id": "1707110",
+  "readings": [
+    {
+      "kanaExpression": "しょうれい",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "症例",
+      "furiganaExpression": [
+        {
+          "text": "症",
+          "annotation": "しょう"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 12280
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "case"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} ziektegeval",
+        "geval",
+        "casus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krankheitsfall",
+        "Fall"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fiók",
+        "töltényhüvely"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "caso (médico, clínico)"
+      ]
+    }
+  ]
+}

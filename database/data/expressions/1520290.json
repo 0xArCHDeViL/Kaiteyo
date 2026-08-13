@@ -1,0 +1,53 @@
+{
+  "id": "1520290",
+  "readings": [
+    {
+      "kanaExpression": "ぼうかん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "防寒",
+      "furiganaExpression": [
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "寒",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "protection against cold"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bescherming",
+        "beveiliging tegen de koude",
+        "beschutting tegen de kou"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kälteschutz",
+        "Schutz gegen Kälte",
+        "Schutz vor Kälte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "защита от холода"
+      ]
+    }
+  ]
+}

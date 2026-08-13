@@ -1,0 +1,89 @@
+{
+  "id": "1561240",
+  "readings": [
+    {
+      "kanaExpression": "ろうそく",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ローソク"
+    },
+    {
+      "kanaExpression": "ロウソク"
+    },
+    {
+      "kanjiExpression": "蝋燭",
+      "furiganaExpression": [
+        {
+          "text": "蝋",
+          "annotation": "ろう"
+        },
+        {
+          "text": "燭",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "蠟燭",
+      "furiganaExpression": [
+        {
+          "text": "蠟",
+          "annotation": "ろう"
+        },
+        {
+          "text": "燭",
+          "annotation": "そく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "candle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kaars",
+        "waskaars"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bougie",
+        "chandelle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kerze"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyertya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "свеча"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vela (eng: candle)",
+        "cirio"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1457800",
+  "readings": [
+    {
+      "kanaExpression": "ないえん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "内縁",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "縁",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "de facto marriage",
+        "common-law marriage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vertrouwelijke relatie",
+        "intieme relatie",
+        "het ongehuwd samenwonen",
+        "samenleven",
+        "samenwoning",
+        "samenleving",
+        "het hokken",
+        "binnenrand",
+        "binnenzoom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wilde Ehe",
+        "eheähnliche Gemeinschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) незаконный (незарегистрированный) брак",
+        "2) внутренний край"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "unión de hecho",
+        "convivencia \"more uxorio\"",
+        "convivencia de una pareja de hecho"
+      ]
+    }
+  ]
+}

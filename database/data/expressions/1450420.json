@@ -1,0 +1,87 @@
+{
+  "id": "1450420",
+  "readings": [
+    {
+      "kanaExpression": "にげまどう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "逃げ惑う",
+      "furiganaExpression": [
+        {
+          "text": "逃",
+          "annotation": "に"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "惑",
+          "annotation": "まど"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "逃げまどう",
+      "furiganaExpression": [
+        {
+          "text": "逃",
+          "annotation": "に"
+        },
+        {
+          "text": "げまどう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "逃惑う",
+      "furiganaExpression": [
+        {
+          "text": "逃",
+          "annotation": "にげ"
+        },
+        {
+          "text": "惑",
+          "annotation": "まど"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to run about frantically trying to escape",
+        "to run this way and that to make one\u0027s escape"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "niet weten waarnaartoe te vluchten",
+        "in verwarring op de vlucht slaan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auf der Flucht hin und her rennen",
+        "herumrennen um zu fliehen",
+        "herumirren um zu fliehen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "не знать, куда бежать; бежать в спешке (потеряв голову)"
+      ]
+    }
+  ]
+}

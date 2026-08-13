@@ -1,0 +1,94 @@
+{
+  "id": "1715720",
+  "readings": [
+    {
+      "kanaExpression": "みとりず",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "見取り図",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "図",
+          "annotation": "ず"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "見取図",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "図",
+          "annotation": "ず"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rough sketch",
+        "floor plan",
+        "blueprint"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ruwe schets",
+        "schetsontwerp",
+        "voorontwerp",
+        "schetskaart"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Skizze",
+        "Rohzeichnung",
+        "Umrisszeichnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vázlat",
+        "skicc",
+        "mórickarajz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "набросок; эскиз; предварительный план"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "råskiss"
+      ]
+    }
+  ]
+}

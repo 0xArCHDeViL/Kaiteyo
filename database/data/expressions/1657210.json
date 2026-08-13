@@ -1,0 +1,51 @@
+{
+  "id": "1657210",
+  "readings": [
+    {
+      "kanaExpression": "こうさい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "高裁",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "裁",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 8302
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "High Court"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} gerechtshof",
+        "hof",
+        "rechtbank(en) van hogere rang"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "höheres Gericht (entspricht etwa dem Oberlandesgericht)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 高等裁判所) верховный суд"
+      ]
+    }
+  ]
+}

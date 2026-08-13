@@ -1,0 +1,50 @@
+{
+  "id": "1182610",
+  "readings": [
+    {
+      "kanaExpression": "おぎ",
+      "rank": 25000
+    },
+    {
+      "kanaExpression": "オギ"
+    },
+    {
+      "kanjiExpression": "荻",
+      "furiganaExpression": [
+        {
+          "text": "荻",
+          "annotation": "おぎ"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Amur silvergrass (Miscanthus sacchariflorus)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} Miscanthus sacchariflorus {\u003d soort van siergras}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rohrschilf",
+        "Miscanthus sacchariflorus",
+        "Ogi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мискант сахароцветный, Miscanthus sacchariflorus (Benth et Hooker.)"
+      ]
+    }
+  ]
+}

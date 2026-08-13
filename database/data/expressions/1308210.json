@@ -1,0 +1,51 @@
+{
+  "id": "1308210",
+  "readings": [
+    {
+      "kanaExpression": "しがいち",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "市街地",
+      "furiganaExpression": [
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "街",
+          "annotation": "がい"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 7693
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "town area",
+        "urban area",
+        "metropolitan area",
+        "built-up area"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stadsgebied",
+        "bebouwde kom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stadtgebiet"
+      ]
+    }
+  ]
+}

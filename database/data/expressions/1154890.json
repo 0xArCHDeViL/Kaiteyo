@@ -1,0 +1,80 @@
+{
+  "id": "1154890",
+  "readings": [
+    {
+      "kanaExpression": "あんないしょ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "案内書",
+      "furiganaExpression": [
+        {
+          "text": "案",
+          "annotation": "あん"
+        },
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "guidebook",
+        "guide"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gids",
+        "wegwijzer",
+        "handleiding",
+        "inleiding",
+        "vademecum",
+        "vraagbaak"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Führer (Buch)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "útikönyv",
+        "idegenvezető",
+        "ismertető",
+        "példamutatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "путеводитель, справочник"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "informacijska brošura"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "guía (libro)"
+      ]
+    }
+  ]
+}

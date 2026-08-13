@@ -1,0 +1,79 @@
+{
+  "id": "1778260",
+  "readings": [
+    {
+      "kanaExpression": "よせがき",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "寄せ書き",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "せ"
+        },
+        {
+          "text": "書",
+          "annotation": "が"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "寄書き",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "よせ"
+        },
+        {
+          "text": "書",
+          "annotation": "が"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "寄書",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "よせ"
+        },
+        {
+          "text": "書",
+          "annotation": "がき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "collection of words or drawings by several people on a single sheet of paper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gemeinsames Schreiben von Versen, Wünschen oder Zeichnungen auf ein Stück Papier oder Stoff",
+        "Stück Papier oder Stoff mit Versen, Wünschen oder Zeichnungen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) よりあいがき"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1337030",
+  "readings": [
+    {
+      "kanaExpression": "じゅうけん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "銃剣",
+      "furiganaExpression": [
+        {
+          "text": "銃",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "剣",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bayonet",
+        "guns and swords"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bajonet",
+        "sabelbajonet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwert und Gewehr",
+        "Waffen",
+        "Bajonett",
+        "Seitengewehr"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bajonett",
+        "rohamkés",
+        "szurony"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "штык"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "spetsa"
+      ]
+    }
+  ]
+}

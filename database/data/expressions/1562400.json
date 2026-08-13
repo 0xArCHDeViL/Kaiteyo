@@ -1,0 +1,99 @@
+{
+  "id": "1562400",
+  "readings": [
+    {
+      "kanaExpression": "わだい",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "話題",
+      "furiganaExpression": [
+        {
+          "text": "話",
+          "annotation": "わ"
+        },
+        {
+          "text": "題",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 1085
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "topic",
+        "subject",
+        "much talked about",
+        "topical",
+        "in the news",
+        "hot"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gespreksonderwerp",
+        "onderwerp",
+        "gespreksthema",
+        "gespreksstof",
+        "chapiter",
+        "{veroud.} artikel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sujet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesprächsstoff",
+        "Gesprächsgegenstand",
+        "Gesprächsthema",
+        "Thema der Unterhaltung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "általános érv",
+        "tárgy",
+        "téma",
+        "alárendelt",
+        "állampolgár",
+        "tantárgy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тема [разговора]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "tema pogovora"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tema",
+        "asunto"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ämne",
+        "samtalsämne"
+      ]
+    }
+  ]
+}

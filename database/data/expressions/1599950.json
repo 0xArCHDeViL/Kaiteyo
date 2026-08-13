@@ -1,0 +1,78 @@
+{
+  "id": "1599950",
+  "readings": [
+    {
+      "kanaExpression": "ぬいばり",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "ぬいはり"
+    },
+    {
+      "kanjiExpression": "縫い針",
+      "furiganaExpression": [
+        {
+          "text": "縫",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "針",
+          "annotation": "ばり"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "縫針",
+      "furiganaExpression": [
+        {
+          "text": "縫",
+          "annotation": "ぬい"
+        },
+        {
+          "text": "針",
+          "annotation": "ばり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sewing needle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "naaiwerk",
+        "naaldwerk",
+        "naainaald",
+        "naald om mee te naaien"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nähnadel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шитьё, пошив",
+        "[швейная] иголка"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "synål"
+      ]
+    }
+  ]
+}

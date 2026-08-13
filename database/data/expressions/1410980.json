@@ -1,0 +1,99 @@
+{
+  "id": "1410980",
+  "readings": [
+    {
+      "kanaExpression": "たいじ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "胎児",
+      "furiganaExpression": [
+        {
+          "text": "胎",
+          "annotation": "たい"
+        },
+        {
+          "text": "児",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 11898
+    },
+    {
+      "kanjiExpression": "胎仔",
+      "furiganaExpression": [
+        {
+          "text": "胎",
+          "annotation": "たい"
+        },
+        {
+          "text": "仔",
+          "annotation": "じ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fetus",
+        "foetus",
+        "embryo",
+        "baby in the womb",
+        "unborn baby"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} conceptus",
+        "embryo",
+        "vrucht",
+        "foetus",
+        "ongeboren vrucht",
+        "kind",
+        "leven",
+        "baby",
+        "{jur.} ongeborene",
+        "{uitdr.} hansje-in-de-kelder"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "embryon",
+        "fœtus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Embryo",
+        "Fetus",
+        "Fötus",
+        "ungeborenes Kind"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "embrió",
+        "magzat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "эмбрион, зародыш; плод (в утробе)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "embrión",
+        "feto"
+      ]
+    }
+  ]
+}

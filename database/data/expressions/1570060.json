@@ -1,0 +1,64 @@
+{
+  "id": "1570060",
+  "readings": [
+    {
+      "kanaExpression": "つぶて",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "礫",
+      "furiganaExpression": [
+        {
+          "text": "礫",
+          "annotation": "つぶて"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "飛礫",
+      "furiganaExpression": [
+        {
+          "text": "飛礫",
+          "annotation": "つぶて"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stone (used for throwing)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geworfener Stein",
+        "Stein zum Werfen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "összerágott papírgalacsin"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) брошенный (бросаемый) камень",
+        "2) (уст.) праща"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lanzamiento de piedras",
+        "guijarro",
+        "piedrecilla"
+      ]
+    }
+  ]
+}

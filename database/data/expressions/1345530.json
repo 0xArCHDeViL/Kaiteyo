@@ -1,0 +1,96 @@
+{
+  "id": "1345530",
+  "readings": [
+    {
+      "kanaExpression": "じょぶん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "序文",
+      "furiganaExpression": [
+        {
+          "text": "序",
+          "annotation": "じょ"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "叙文",
+      "furiganaExpression": [
+        {
+          "text": "叙",
+          "annotation": "じょ"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "preface",
+        "foreword",
+        "introduction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorwoord",
+        "woord vooraf",
+        "inleidend woord",
+        "inleiding",
+        "voorbericht",
+        "voorafgaande woorden",
+        "{fig.} aanloopje",
+        "{jur.} preambule",
+        "{jur.} considerans"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "avant-propos",
+        "préface"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorwort",
+        "Geleitwort",
+        "Einleitung",
+        "Einführung",
+        "Vorrede"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bevezetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предисловие, введение; преамбула"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "prefacio",
+        "prólogo"
+      ]
+    }
+  ]
+}

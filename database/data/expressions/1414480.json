@@ -1,0 +1,69 @@
+{
+  "id": "1414480",
+  "readings": [
+    {
+      "kanaExpression": "だいたい",
+      "rank": 3210
+    },
+    {
+      "kanjiExpression": "大隊",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "だい"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "battalion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} bataljon",
+        "{mil.} {飛行～} squadron",
+        "{騎兵～} eskadron"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bataillon"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zászlóalj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "батальон; (арт.) дивизион; (ав.) отряд"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "batallón"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bataljon"
+      ]
+    }
+  ]
+}

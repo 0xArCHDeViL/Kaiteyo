@@ -1,0 +1,80 @@
+{
+  "id": "1307930",
+  "readings": [
+    {
+      "kanaExpression": "こもち",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "子持ち",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "子持",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "持",
+          "annotation": "もち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "parenthood",
+        "parent or someone with children on the way (esp. an expecting mother)",
+        "(of a fish) containing roe (eggs)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mutterschaft",
+        "Elternschaft",
+        "Schwangerschaft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anya",
+        "apa",
+        "kútfő",
+        "szülő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) беременность; беременная",
+        "2) материнство; мать, отец",
+        "{～になる} стать матерью (отцом)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "con hijos"
+      ]
+    }
+  ]
+}

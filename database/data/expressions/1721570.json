@@ -1,0 +1,119 @@
+{
+  "id": "1721570",
+  "readings": [
+    {
+      "kanaExpression": "きりすて",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "切り捨て",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "捨",
+          "annotation": "す"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "切捨て",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "捨",
+          "annotation": "す"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "斬り捨て",
+      "furiganaExpression": [
+        {
+          "text": "斬",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "捨",
+          "annotation": "す"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "斬捨て",
+      "furiganaExpression": [
+        {
+          "text": "斬",
+          "annotation": "きり"
+        },
+        {
+          "text": "捨",
+          "annotation": "す"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cutting a person down (without a second thought)",
+        "sacrificing",
+        "throwing to the wolves",
+        "treating as sword fodder",
+        "omission",
+        "rounding down (e.g. fractions)",
+        "truncation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Niederhauen",
+        "Niederschlagen",
+        "Wegstreichen",
+        "Abrunden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhagyás",
+        "kihagyás",
+        "mulasztás",
+        "levágás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) убийство",
+        "2) (мат.) сокращение, опущение"
+      ]
+    }
+  ]
+}

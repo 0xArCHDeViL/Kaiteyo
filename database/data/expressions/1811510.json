@@ -1,0 +1,58 @@
+{
+  "id": "1811510",
+  "readings": [
+    {
+      "kanaExpression": "かわかぜ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "川風",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "河風",
+      "furiganaExpression": [
+        {
+          "text": "河",
+          "annotation": "かわ"
+        },
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "breeze off a river"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flussbrise",
+        "Wind, der über einen Fluss streicht",
+        "Wind, der vom Fluss her weht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ветер на реке; ветер с реки"
+      ]
+    }
+  ]
+}

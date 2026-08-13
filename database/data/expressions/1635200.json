@@ -1,0 +1,51 @@
+{
+  "id": "1635200",
+  "readings": [
+    {
+      "kanaExpression": "じさくのう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "自作農",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "作",
+          "annotation": "さく"
+        },
+        {
+          "text": "農",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "farming on one\u0027s own land",
+        "independent farmer",
+        "landed farmer",
+        "owner farmer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "freier Bauer",
+        "Freisass"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крестьянин-собственник [земли]"
+      ]
+    }
+  ]
+}

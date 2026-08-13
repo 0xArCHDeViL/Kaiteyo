@@ -1,0 +1,50 @@
+{
+  "id": "1468900",
+  "readings": [
+    {
+      "kanaExpression": "ねんせい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "年生",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 1930
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nth-year student",
+        "nth-year pupil"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leerling {van een bep. klas}",
+        "-eklasser",
+        "{meton.} -e klas {steeds voorafgegaan door een telwoord}",
+        "student {van een bep. studiejaar}",
+        "-ejaars",
+        "{meton.} -e jaar {steeds voorafgegaan door een telwoord}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "élève de ... année",
+        "étudiant de ... année"
+      ]
+    }
+  ]
+}

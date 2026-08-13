@@ -1,0 +1,67 @@
+{
+  "id": "1371750",
+  "readings": [
+    {
+      "kanaExpression": "すいせん",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "スイセン"
+    },
+    {
+      "kanjiExpression": "水仙",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "仙",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "daffodil (esp. Narcissus tazetta var. chinensis)",
+        "narcissus"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} narcis",
+        "Narcissus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "narcisse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Narzisse",
+        "Narcissus tazetta"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nárcisz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нарцисс, Narcissus Tazetta (L.) var. Chinensis (M. Roem.)"
+      ]
+    }
+  ]
+}

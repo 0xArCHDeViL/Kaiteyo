@@ -1,0 +1,70 @@
+{
+  "id": "1599230",
+  "readings": [
+    {
+      "kanaExpression": "どうざ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "同坐",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "坐",
+          "annotation": "ざ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "同座",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "座",
+          "annotation": "ざ"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sitting together",
+        "the same theater (theatre)",
+        "involvement",
+        "entanglement",
+        "implication"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dasselbe Theater",
+        "dieses Theater"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beleértés",
+        "burkolt célzás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) ((тж.) 同坐)",
+        ": {～する} присутствовать там же",
+        "2) тот же театр"
+      ]
+    }
+  ]
+}

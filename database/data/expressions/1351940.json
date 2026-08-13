@@ -1,0 +1,54 @@
+{
+  "id": "1351940",
+  "readings": [
+    {
+      "kanaExpression": "しょうじょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "賞状",
+      "furiganaExpression": [
+        {
+          "text": "賞",
+          "annotation": "しょう"
+        },
+        {
+          "text": "状",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "certificate of merit",
+        "testimonial"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auszeichnungsurkunde",
+        "Belobigungsschreiben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "похвальная (почётная) грамота; похвальный лист; хвалебный отзыв (письменный)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "constancia",
+        "diploma",
+        "premio",
+        "agradecimiento"
+      ]
+    }
+  ]
+}

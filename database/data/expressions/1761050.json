@@ -1,0 +1,58 @@
+{
+  "id": "1761050",
+  "readings": [
+    {
+      "kanaExpression": "がくしいん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "学士院",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        },
+        {
+          "text": "院",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japan Academy",
+        "learned society",
+        "academy",
+        "institute"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{gesch.} Keizerlijke Academie",
+        "Academie van Japan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Akademie der Wissenschaften",
+        "Japanische Akademie der Wissenschaften (Abk.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "академия наук"
+      ]
+    }
+  ]
+}

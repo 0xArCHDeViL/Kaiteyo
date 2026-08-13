@@ -1,0 +1,97 @@
+{
+  "id": "1303170",
+  "readings": [
+    {
+      "kanaExpression": "やまなみ",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "山並み",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "並",
+          "annotation": "な"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "山並",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "並",
+          "annotation": "なみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "山なみ",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "なみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "山脈",
+      "furiganaExpression": [
+        {
+          "text": "山脈",
+          "annotation": "やまなみ"
+        }
+      ],
+      "rank": 14799
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mountain range",
+        "mountain belt"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bergketen",
+        "bergformatie",
+        "gebergte",
+        "keten van bergen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bergkette"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hegylánc"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горный хребет, горная цепь"
+      ]
+    }
+  ]
+}

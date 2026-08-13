@@ -1,0 +1,44 @@
+{
+  "id": "1528900",
+  "readings": [
+    {
+      "kanaExpression": "みんじゅ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "民需",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "需",
+          "annotation": "じゅ"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "private demand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "private Nachfrage",
+        "ziviler Bedarf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "потребление [гражданского] населения; спрос населения; частные нужды"
+      ]
+    }
+  ]
+}

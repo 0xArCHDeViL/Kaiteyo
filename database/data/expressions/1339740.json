@@ -1,0 +1,82 @@
+{
+  "id": "1339740",
+  "readings": [
+    {
+      "kanaExpression": "でなおし",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "出直し",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "直",
+          "annotation": "なお"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "starting from scratch",
+        "making a fresh start",
+        "redoing",
+        "calling again",
+        "visiting again"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "terugkomst",
+        "wederkomst",
+        "terugkeer",
+        "het van voren af aan beginnen",
+        "het helemaal opnieuw beginnen",
+        "het overnieuw beginnen",
+        "nieuwe start",
+        "± doorstart"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "neu anfangen",
+        "noch einmal von vorne anfangen",
+        "neuer Anfang",
+        "Anfang von vorne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "behangolás",
+        "beigazítás",
+        "beszabályozás"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ureditev",
+        "poravnava"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "volver",
+        "empezar de nuevo"
+      ]
+    }
+  ]
+}

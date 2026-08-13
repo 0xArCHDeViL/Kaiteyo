@@ -1,0 +1,75 @@
+{
+  "id": "1001620",
+  "readings": [
+    {
+      "kanaExpression": "おにぎり",
+      "rank": 9987
+    },
+    {
+      "kanjiExpression": "お握り",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "握",
+          "annotation": "にぎ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "御握り",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "握",
+          "annotation": "にぎ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "onigiri",
+        "rice ball (often triangular, sometimes with a filling and wrapped in nori)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rijstballetje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sushi moulé à la main"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Onigiri",
+        "Reisball"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bola de arroz (a menudo triangular, a veces con un relleno y envuelto en nori)"
+      ]
+    }
+  ]
+}

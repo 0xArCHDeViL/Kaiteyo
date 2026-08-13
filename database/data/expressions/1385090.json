@@ -1,0 +1,79 @@
+{
+  "id": "1385090",
+  "readings": [
+    {
+      "kanaExpression": "せつじょ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "切除",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "せつ"
+        },
+        {
+          "text": "除",
+          "annotation": "じょ"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cut off",
+        "cut out",
+        "ablation",
+        "resection",
+        "surgical removal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} operatieve verwijdering",
+        "wegsnijding",
+        "uitsnijding",
+        "{geneesk.} resectie",
+        "-ectomie",
+        "langs operatieve weg verwijderen",
+        "wegnemen",
+        "wegsnijden",
+        "{geneesk.} extirperen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entfernung",
+        "Exzision",
+        "Resektion",
+        "entfernen",
+        "exzidieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhordás",
+        "eltávolítás",
+        "kivétel",
+        "lehordás",
+        "lemosás",
+        "leolvadás",
+        "leoperálás",
+        "levétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "резекция",
+        "{～する} производить резекцию; вырезать, удалять (напр. гланды)"
+      ]
+    }
+  ]
+}

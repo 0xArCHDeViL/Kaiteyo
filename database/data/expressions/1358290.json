@@ -1,0 +1,61 @@
+{
+  "id": "1358290",
+  "readings": [
+    {
+      "kanaExpression": "たべすぎ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "食べ過ぎ",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "た"
+        },
+        {
+          "text": "べ"
+        },
+        {
+          "text": "過",
+          "annotation": "す"
+        },
+        {
+          "text": "ぎ"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "食べすぎ",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "た"
+        },
+        {
+          "text": "べすぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "overeating"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überessen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～である} объесться"
+      ]
+    }
+  ]
+}

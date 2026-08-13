@@ -1,0 +1,60 @@
+{
+  "id": "1230930",
+  "readings": [
+    {
+      "kanaExpression": "きゅうせい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "旧姓",
+      "furiganaExpression": [
+        {
+          "text": "旧",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "姓",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s original family name",
+        "maiden name"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voormalige achternaam",
+        "eigen familienaam",
+        "geboortenaam",
+        "{i.h.b.} meisjesnaam"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nom de jeune fille"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "früherer Familienname (vor Heirat od. Adoption)",
+        "Mädchenname"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прежняя (девичья) фамилия"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "1811010",
+  "readings": [
+    {
+      "kanaExpression": "ぎょぐ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "漁具",
+      "furiganaExpression": [
+        {
+          "text": "漁",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "具",
+          "annotation": "ぐ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fishing tackle",
+        "fishing gear"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischereigeräte",
+        "Fischfangausrüstung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рыболовные снасти"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "1382200",
+  "readings": [
+    {
+      "kanaExpression": "ぜいりし",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "税理士",
+      "furiganaExpression": [
+        {
+          "text": "税",
+          "annotation": "ぜい"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 7853
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tax counsellor",
+        "tax counselor",
+        "licensed tax accountant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "belastingconsulent",
+        "belastingadviseur",
+        "taxplanner"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "conseiller fiscal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steuerberater"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adószakértő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[бухгалтер-]эксперт по [налого]обложению"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "1382950",
+  "readings": [
+    {
+      "kanaExpression": "つみたて",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "積立",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つみ"
+        },
+        {
+          "text": "立",
+          "annotation": "たて"
+        }
+      ],
+      "rank": 13160
+    },
+    {
+      "kanjiExpression": "積み立て",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "積立て",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つみ"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "saving",
+        "savings",
+        "accumulation",
+        "putting aside",
+        "reserving"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "accumulatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épargne",
+        "mise en réserve (de fonds)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erspartes",
+        "Zurückgelegtes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "takarékbetét"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "накопление, запас"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ahorros"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sparpengar"
+      ]
+    }
+  ]
+}

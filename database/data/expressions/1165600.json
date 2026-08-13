@@ -1,0 +1,119 @@
+{
+  "id": "1165600",
+  "readings": [
+    {
+      "kanaExpression": "いちねんじゅう",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "いちねんぢゅう"
+    },
+    {
+      "kanjiExpression": "一年中",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "中",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "１年中",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いち"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "中",
+          "annotation": "じゅう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "一年じゅう",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "じゅう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "一年ぢゅう",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "ぢゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "all year round"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pendant un an",
+        "toute l\u0027année"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das ganze Jahr hindurch",
+        "das ganze Jahr lang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "в течении всего года"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "skozi vse leto"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "todo el año completo"
+      ]
+    }
+  ]
+}

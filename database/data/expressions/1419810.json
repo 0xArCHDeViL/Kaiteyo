@@ -1,0 +1,79 @@
+{
+  "id": "1419810",
+  "readings": [
+    {
+      "kanaExpression": "だんめん",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "断面",
+      "furiganaExpression": [
+        {
+          "text": "断",
+          "annotation": "だん"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 14285
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "section",
+        "cross section",
+        "profile"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "doorsnede",
+        "profiel",
+        "{fig.} dwarsdoorsnede"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schnitt",
+        "Querschnitt",
+        "Durchschnitt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "metszet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разрез, [поперечное] сечение"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prečen prerez"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "corte transversal"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tvärsnitt"
+      ]
+    }
+  ]
+}

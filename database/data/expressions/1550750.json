@@ -1,0 +1,62 @@
+{
+  "id": "1550750",
+  "readings": [
+    {
+      "kanaExpression": "うらばなし",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "ウラばなし"
+    },
+    {
+      "kanjiExpression": "裏話",
+      "furiganaExpression": [
+        {
+          "text": "裏",
+          "annotation": "うら"
+        },
+        {
+          "text": "話",
+          "annotation": "ばなし"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "ウラ話",
+      "furiganaExpression": [
+        {
+          "text": "ウラ"
+        },
+        {
+          "text": "話",
+          "annotation": "ばなし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inside story",
+        "the real story (behind something)",
+        "story not generally known"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verhaal dat erachter schuilt",
+        "inside story"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Insidergeschichte",
+        "Insidestory"
+      ]
+    }
+  ]
+}

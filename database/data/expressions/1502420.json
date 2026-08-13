@@ -1,0 +1,66 @@
+{
+  "id": "1502420",
+  "readings": [
+    {
+      "kanaExpression": "ものおと",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "物音",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "もの"
+        },
+        {
+          "text": "音",
+          "annotation": "おと"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "noise",
+        "sound"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geluid",
+        "gerucht",
+        "gehoor",
+        "geruis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sons"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geräusch",
+        "Ton"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шум; звук"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sonidos"
+      ]
+    }
+  ]
+}

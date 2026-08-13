@@ -1,0 +1,122 @@
+{
+  "id": "1819350",
+  "readings": [
+    {
+      "kanaExpression": "くりだしはしご",
+      "rank": 26573
+    },
+    {
+      "kanaExpression": "くりだしばしご"
+    },
+    {
+      "kanjiExpression": "繰り出し梯子",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "梯子",
+          "annotation": "はしご"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "繰出し梯子",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "梯子",
+          "annotation": "はしご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "繰り出しはしご",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "しはしご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "繰り出しばしご",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "しばしご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "extension ladder",
+        "aerial ladder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausziehleiter",
+        "Schiebeleiter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выдвижная лестница"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "utskjutstege"
+      ]
+    }
+  ]
+}

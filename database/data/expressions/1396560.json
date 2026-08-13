@@ -1,0 +1,115 @@
+{
+  "id": "1396560",
+  "readings": [
+    {
+      "kanaExpression": "ねらいうち",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "狙い撃ち",
+      "furiganaExpression": [
+        {
+          "text": "狙",
+          "annotation": "ねら"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "撃",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "狙い打ち",
+      "furiganaExpression": [
+        {
+          "text": "狙",
+          "annotation": "ねら"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "ねらい撃ち",
+      "furiganaExpression": [
+        {
+          "text": "ねらい"
+        },
+        {
+          "text": "撃",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sharpshooting",
+        "shooting",
+        "sniping",
+        "setting a goal and carrying it out"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gezieltes Schießen",
+        "Scharfschießen",
+        "Abzielen auf einen bestimmten Pitch",
+        "gezielt schießen",
+        "scharf schießen",
+        "auf einen bestimmten Pitch abzielen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "céllövészet",
+        "előtörés",
+        "elszáguldás",
+        "fakadás",
+        "felbuggyanás",
+        "fogzás",
+        "folyó sebes szakasza",
+        "főbelövés",
+        "hasogató fájdalom",
+        "kikelés",
+        "kivetés",
+        "lelövés",
+        "meglövés",
+        "suhanás",
+        "száguldás",
+        "vadászat",
+        "vadászati jog",
+        "lövés rejtekhelyről"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стрельба по цели; снайперское искусство",
+        "{～にする} стрелять с точным попаданием"
+      ]
+    }
+  ]
+}

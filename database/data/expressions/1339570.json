@@ -1,0 +1,56 @@
+{
+  "id": "1339570",
+  "readings": [
+    {
+      "kanaExpression": "でまど",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "出窓",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "窓",
+          "annotation": "まど"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bay window"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "erkerraam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erkerfenster"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiugró ablakfülke",
+        "zárt erkély"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выступающее наружу окно, фонарь, эркер"
+      ]
+    }
+  ]
+}

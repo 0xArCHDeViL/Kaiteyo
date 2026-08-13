@@ -1,0 +1,46 @@
+{
+  "id": "1205930",
+  "readings": [
+    {
+      "kanaExpression": "かくほう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "確報",
+      "furiganaExpression": [
+        {
+          "text": "確",
+          "annotation": "かく"
+        },
+        {
+          "text": "報",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "definite report",
+        "confirmed data"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zuverlässige Nachricht",
+        "sichere Nachricht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "достоверное сообщение, точные сведения, точная информация",
+        "{～する} давать точные сведения (точную информацию)"
+      ]
+    }
+  ]
+}

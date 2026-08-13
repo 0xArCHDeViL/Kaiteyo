@@ -1,0 +1,102 @@
+{
+  "id": "1511910",
+  "readings": [
+    {
+      "kanaExpression": "あみだす",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "編み出す",
+      "furiganaExpression": [
+        {
+          "text": "編",
+          "annotation": "あ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "あみ出す",
+      "furiganaExpression": [
+        {
+          "text": "あみ"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to think up",
+        "to think out",
+        "to work out",
+        "to come up with",
+        "to devise",
+        "to invent",
+        "to knit (a pattern into a sweater, etc.)",
+        "to start knitting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beginnen te breien",
+        "vlechten",
+        "tevoorschijn breien",
+        "uitdenken",
+        "bedenken",
+        "ontwerpen",
+        "ontwikkelen",
+        "uitkienen",
+        "uitwerken",
+        "uitbroeden",
+        "uitvinden",
+        "verzinnen",
+        "scheppen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erfinden",
+        "ausdenken",
+        "austüfteln",
+        "ersinnen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kijön",
+        "kitölt",
+        "kivív",
+        "megoldódik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) начать вязать (плести)",
+        "2) (перен.) выдумывать, изобретать, создавать"
+      ]
+    }
+  ]
+}

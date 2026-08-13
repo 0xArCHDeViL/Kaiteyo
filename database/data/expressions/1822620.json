@@ -1,0 +1,59 @@
+{
+  "id": "1822620",
+  "readings": [
+    {
+      "kanaExpression": "ほんまる",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "本丸",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "丸",
+          "annotation": "まる"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inner citadel",
+        "core",
+        "center",
+        "centre",
+        "focus",
+        "crux"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdvesting",
+        "binnenvesting",
+        "hoofdcitadel",
+        "binnencitadel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptburg",
+        "Bergfried",
+        "Burgfried"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ист.) основные укрепления крепости; цитадель"
+      ]
+    }
+  ]
+}

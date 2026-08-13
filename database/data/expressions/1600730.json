@@ -1,0 +1,85 @@
+{
+  "id": "1600730",
+  "readings": [
+    {
+      "kanaExpression": "はこぶね",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "箱舟",
+      "furiganaExpression": [
+        {
+          "text": "箱",
+          "annotation": "はこ"
+        },
+        {
+          "text": "舟",
+          "annotation": "ぶね"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "箱船",
+      "furiganaExpression": [
+        {
+          "text": "箱",
+          "annotation": "はこ"
+        },
+        {
+          "text": "船",
+          "annotation": "ぶね"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "方舟",
+      "furiganaExpression": [
+        {
+          "text": "方舟",
+          "annotation": "はこぶね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ark (i.e. Noah\u0027s)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ark"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kistenförmiges Schiff",
+        "Arche",
+        "Arche Noah"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bárka"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ковчег"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "Noaks ark"
+      ]
+    }
+  ]
+}

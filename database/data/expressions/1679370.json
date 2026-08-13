@@ -1,0 +1,59 @@
+{
+  "id": "1679370",
+  "readings": [
+    {
+      "kanaExpression": "はつめいか",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "発明家",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はつ"
+        },
+        {
+          "text": "明",
+          "annotation": "めい"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inventor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erfinder"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feltaláló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "изобретатель"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "uppfinnare"
+      ]
+    }
+  ]
+}

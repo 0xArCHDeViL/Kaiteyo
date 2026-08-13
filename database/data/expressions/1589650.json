@@ -1,0 +1,83 @@
+{
+  "id": "1589650",
+  "readings": [
+    {
+      "kanaExpression": "かいいぬ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "飼い犬",
+      "furiganaExpression": [
+        {
+          "text": "飼",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "犬",
+          "annotation": "いぬ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "飼犬",
+      "furiganaExpression": [
+        {
+          "text": "飼",
+          "annotation": "かい"
+        },
+        {
+          "text": "犬",
+          "annotation": "いぬ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pet dog"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chien domestique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Haushund"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "öleb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "домашняя собака"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "perro domesticado"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sällskapshund"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "1471070",
+  "readings": [
+    {
+      "kanaExpression": "なみがしら",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "はとう"
+    },
+    {
+      "kanjiExpression": "波頭",
+      "furiganaExpression": [
+        {
+          "text": "波",
+          "annotation": "なみ"
+        },
+        {
+          "text": "頭",
+          "annotation": "がしら"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wave crest",
+        "whitecaps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wellenkamm",
+        "Wellenkrone"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гребень (верхушка) волны",
+        "гребень волны"
+      ]
+    }
+  ]
+}

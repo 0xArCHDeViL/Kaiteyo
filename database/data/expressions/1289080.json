@@ -1,0 +1,47 @@
+{
+  "id": "1289080",
+  "readings": [
+    {
+      "kanaExpression": "こんき",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "今期",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "こん"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        }
+      ],
+      "rank": 11549
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the present term",
+        "the present session"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "diese Periode",
+        "diese Sitzungsperiode",
+        "diese Frist"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "этот (нынешний) период",
+        "{～[の]} нынешний, текущий"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1310390",
+  "readings": [
+    {
+      "kanaExpression": "せじょう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "施錠",
+      "furiganaExpression": [
+        {
+          "text": "施",
+          "annotation": "せ"
+        },
+        {
+          "text": "錠",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "locking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verschließen",
+        "abschließen",
+        "verriegeln",
+        "Verschließen",
+        "Abschließen",
+        "Verriegeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "biztosítás"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "låsning"
+      ]
+    }
+  ]
+}

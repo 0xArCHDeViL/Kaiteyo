@@ -1,0 +1,66 @@
+{
+  "id": "1289780",
+  "readings": [
+    {
+      "kanaExpression": "うらむ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "恨む",
+      "furiganaExpression": [
+        {
+          "text": "恨",
+          "annotation": "うら"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 14268
+    },
+    {
+      "kanjiExpression": "怨む",
+      "furiganaExpression": [
+        {
+          "text": "怨",
+          "annotation": "うら"
+        },
+        {
+          "text": "む"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to bear a grudge against",
+        "to resent",
+        "to blame",
+        "to curse",
+        "to feel bitter towards"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "regretter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átkoz",
+        "átkozódik",
+        "megátkoz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "быть в обиде (на кого-л.); сердиться (на кого-л.); питать злобу (к кому-л.); укорять, упрекать"
+      ]
+    }
+  ]
+}

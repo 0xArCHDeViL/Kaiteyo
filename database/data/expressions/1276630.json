@@ -1,0 +1,92 @@
+{
+  "id": "1276630",
+  "readings": [
+    {
+      "kanaExpression": "くちぶえ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "口笛",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "笛",
+          "annotation": "ぶえ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "口ぶえ",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "ぶえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "whistle (sound made with the lips)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fluit",
+        "fluitje",
+        "gefluit",
+        "fluitend geluid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "siffler",
+        "sifflet",
+        "siffloter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pfiff",
+        "Pfeifen",
+        "Pfeifen mit den Fingern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "síp"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "свист"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "silbido"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vissling"
+      ]
+    }
+  ]
+}

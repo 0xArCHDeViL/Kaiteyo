@@ -1,0 +1,71 @@
+{
+  "id": "1821230",
+  "readings": [
+    {
+      "kanaExpression": "かけね",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "掛け値",
+      "furiganaExpression": [
+        {
+          "text": "掛",
+          "annotation": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "掛値",
+      "furiganaExpression": [
+        {
+          "text": "掛",
+          "annotation": "かけ"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inflated price (assigned in anticipation of being haggled down)",
+        "overcharging",
+        "exaggeration"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkauf zu einem überhöhten Preis",
+        "überhöhter Preis",
+        "Übertreibung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "túlzás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) цена с запросом",
+        "{～のない} [цена] без запроса, твёрдая цена",
+        "2) (перен.) преувеличение"
+      ]
+    }
+  ]
+}

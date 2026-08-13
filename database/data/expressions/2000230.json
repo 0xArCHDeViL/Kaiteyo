@@ -1,0 +1,51 @@
+{
+  "id": "2000230",
+  "readings": [
+    {
+      "kanaExpression": "ふざいしゃとうひょう",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "不在者投票",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "在",
+          "annotation": "ざい"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "投",
+          "annotation": "とう"
+        },
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "absentee ballot",
+        "absentee voting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abwesenheitswahl",
+        "Briefwahl"
+      ]
+    }
+  ]
+}

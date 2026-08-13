@@ -1,0 +1,38 @@
+{
+  "id": "1208810",
+  "readings": [
+    {
+      "kanaExpression": "かっそう",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "褐藻",
+      "furiganaExpression": [
+        {
+          "text": "褐",
+          "annotation": "かっ"
+        },
+        {
+          "text": "藻",
+          "annotation": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brown algae",
+        "phaeophyceae"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Braunalge",
+        "Phaeophyceae"
+      ]
+    }
+  ]
+}

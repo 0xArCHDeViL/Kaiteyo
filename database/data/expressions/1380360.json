@@ -1,0 +1,68 @@
+{
+  "id": "1380360",
+  "readings": [
+    {
+      "kanaExpression": "せいせん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "聖戦",
+      "furiganaExpression": [
+        {
+          "text": "聖",
+          "annotation": "せい"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "holy war",
+        "crusade"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "heilige oorlog",
+        "{islam} jihad",
+        "ghazidsja"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heiliger Krieg",
+        "Kreuzzug",
+        "Dschihad",
+        "Djihad"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "keresztes hadjárat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "священная война; крестовый поход"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "guerra santa",
+        "crusada"
+      ]
+    }
+  ]
+}

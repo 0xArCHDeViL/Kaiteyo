@@ -1,0 +1,63 @@
+{
+  "id": "1207140",
+  "readings": [
+    {
+      "kanaExpression": "がくもんてき",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "学問的",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scholarly"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wetenschappelijk",
+        "academisch",
+        "geleerd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "akademisch",
+        "wissenschaftlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tudós"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "académico",
+        "científico"
+      ]
+    }
+  ]
+}

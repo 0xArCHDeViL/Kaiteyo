@@ -1,0 +1,47 @@
+{
+  "id": "1664750",
+  "readings": [
+    {
+      "kanaExpression": "すいようえき",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "水溶液",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "溶",
+          "annotation": "よう"
+        },
+        {
+          "text": "液",
+          "annotation": "えき"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "aqueous solution"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wässrige Lösung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "водный раствор"
+      ]
+    }
+  ]
+}

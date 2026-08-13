@@ -1,0 +1,63 @@
+{
+  "id": "1554810",
+  "readings": [
+    {
+      "kanaExpression": "りょうゆう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "領有",
+      "furiganaExpression": [
+        {
+          "text": "領",
+          "annotation": "りょう"
+        },
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "possession (esp. of a territory)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bezitten",
+        "in bezit hebben",
+        "possideren",
+        "possederen",
+        "bezit",
+        "possessie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "besitzen",
+        "herrschen über …",
+        "Besitz (eines Territoriums)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megszállottság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "владение",
+        "{～する} владеть (чем-л.)"
+      ]
+    }
+  ]
+}

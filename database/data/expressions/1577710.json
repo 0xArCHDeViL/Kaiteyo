@@ -1,0 +1,82 @@
+{
+  "id": "1577710",
+  "readings": [
+    {
+      "kanaExpression": "がんぼう",
+      "rank": 21000
+    },
+    {
+      "kanaExpression": "がんもう"
+    },
+    {
+      "kanjiExpression": "願望",
+      "furiganaExpression": [
+        {
+          "text": "願",
+          "annotation": "がん"
+        },
+        {
+          "text": "望",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 6972
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "desire",
+        "wish",
+        "aspiration"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aspiration",
+        "désir",
+        "souhait"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wünschen",
+        "begehren",
+        "hoffen",
+        "Wunsch",
+        "Verlangen",
+        "Sehnsucht",
+        "Begehren",
+        "Wunschtraum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kívánság",
+        "óhaj",
+        "vágy",
+        "törekvés",
+        "vágyódás"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hrepenenje",
+        "težnja",
+        "želja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "deseo",
+        "aspiración"
+      ]
+    }
+  ]
+}

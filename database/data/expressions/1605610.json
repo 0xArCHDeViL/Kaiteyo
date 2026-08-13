@@ -1,0 +1,93 @@
+{
+  "id": "1605610",
+  "readings": [
+    {
+      "kanaExpression": "やりなおし",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "やり直し",
+      "furiganaExpression": [
+        {
+          "text": "やり"
+        },
+        {
+          "text": "直",
+          "annotation": "なお"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 14542
+    },
+    {
+      "kanjiExpression": "遣り直し",
+      "furiganaExpression": [
+        {
+          "text": "遣",
+          "annotation": "や"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "直",
+          "annotation": "なお"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "遣直",
+      "furiganaExpression": [
+        {
+          "text": "遣",
+          "annotation": "やり"
+        },
+        {
+          "text": "直",
+          "annotation": "なおし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "redoing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "réessai",
+        "recommencement",
+        "rectification"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nocheinmalmachen",
+        "Neubeginnen",
+        "Wiederholen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переделка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reinicio"
+      ]
+    }
+  ]
+}

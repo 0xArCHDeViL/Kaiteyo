@@ -1,0 +1,58 @@
+{
+  "id": "1446140",
+  "readings": [
+    {
+      "kanaExpression": "ふゆもの",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "冬物",
+      "furiganaExpression": [
+        {
+          "text": "冬",
+          "annotation": "ふゆ"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "winter clothing",
+        "winter wear",
+        "winter goods"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "habits d\u0027hiver"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Winterkleidung",
+        "Wintersachen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зимние вещи"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ropa de invierno"
+      ]
+    }
+  ]
+}

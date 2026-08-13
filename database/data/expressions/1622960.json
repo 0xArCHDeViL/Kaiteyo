@@ -1,0 +1,46 @@
+{
+  "id": "1622960",
+  "readings": [
+    {
+      "kanaExpression": "ちょうだ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "長打",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "打",
+          "annotation": "だ"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "long hit",
+        "slugging",
+        "extra-base hit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} extra base hit",
+        "long hit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "langer Schlag"
+      ]
+    }
+  ]
+}

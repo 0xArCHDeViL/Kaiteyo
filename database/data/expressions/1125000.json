@@ -1,0 +1,38 @@
+{
+  "id": "1125000",
+  "readings": [
+    {
+      "kanaExpression": "ポケットベル",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ポケット・ベル"
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pager",
+        "beeper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pieper",
+        "oppiepapparaat",
+        "portofoon",
+        "semafoon",
+        "pager"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pager",
+        "Piepser"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1958410",
+  "readings": [
+    {
+      "kanaExpression": "じょうほうがく",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "情報学",
+      "furiganaExpression": [
+        {
+          "text": "情",
+          "annotation": "じょう"
+        },
+        {
+          "text": "報",
+          "annotation": "ほう"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "informatics"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Informatik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "informática"
+      ]
+    }
+  ]
+}

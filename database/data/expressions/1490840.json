@@ -1,0 +1,54 @@
+{
+  "id": "1490840",
+  "readings": [
+    {
+      "kanaExpression": "ひんじゃ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "貧者",
+      "furiganaExpression": [
+        {
+          "text": "貧",
+          "annotation": "ひん"
+        },
+        {
+          "text": "者",
+          "annotation": "じゃ"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "poor person"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "arm persoon",
+        "arme",
+        "pauper",
+        "{verzameln.} armelui",
+        "armen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Armer",
+        "arme Person"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) бедняк"
+      ]
+    }
+  ]
+}

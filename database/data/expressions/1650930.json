@@ -1,0 +1,73 @@
+{
+  "id": "1650930",
+  "readings": [
+    {
+      "kanaExpression": "ながしだい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "流し台",
+      "furiganaExpression": [
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "台",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "流しだい",
+      "furiganaExpression": [
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "しだい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sink",
+        "washstand"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aanrecht",
+        "aanrechtblok",
+        "gootsteen",
+        "wasblok",
+        "{Belg.N.} pompsteen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spüle",
+        "Spültisch",
+        "Spülbecken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mosdókagyló",
+        "fali mosdókagyló",
+        "mosdóállvány"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "1294780",
+  "readings": [
+    {
+      "kanaExpression": "さいさん",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "採算",
+      "furiganaExpression": [
+        {
+          "text": "採",
+          "annotation": "さい"
+        },
+        {
+          "text": "算",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 9253
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "profit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "winst",
+        "handelswinst",
+        "winstgevendheid",
+        "rentabiliteit"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gain",
+        "profit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ertrag",
+        "Vorteil",
+        "Gewinn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "haszon",
+        "nyereség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прибыль, выгода"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "beneficio",
+        "provecho"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "avans"
+      ]
+    }
+  ]
+}

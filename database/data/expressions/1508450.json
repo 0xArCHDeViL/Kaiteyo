@@ -1,0 +1,92 @@
+{
+  "id": "1508450",
+  "readings": [
+    {
+      "kanaExpression": "なみたいてい",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "並大抵",
+      "furiganaExpression": [
+        {
+          "text": "並",
+          "annotation": "なみ"
+        },
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "抵",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "並み大抵",
+      "furiganaExpression": [
+        {
+          "text": "並",
+          "annotation": "な"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "抵",
+          "annotation": "てい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "並たいてい",
+      "furiganaExpression": [
+        {
+          "text": "並",
+          "annotation": "なみ"
+        },
+        {
+          "text": "たいてい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ordinary",
+        "average",
+        "run-of-the-mill"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Normalität",
+        "Gewöhnlichkeit (häufig mit Neg. verwendet)",
+        "normal",
+        "gewöhnlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hétköznapi",
+        "menü"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} лёгкий, простой",
+        "{～でない} необычный, особенный"
+      ]
+    }
+  ]
+}

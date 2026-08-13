@@ -1,0 +1,65 @@
+{
+  "id": "1448400",
+  "readings": [
+    {
+      "kanaExpression": "ぬすみ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "盗み",
+      "furiganaExpression": [
+        {
+          "text": "盗",
+          "annotation": "ぬす"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stealing",
+        "theft"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Diebstahl",
+        "Stehlen",
+        "Dieberei",
+        "Mausen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lopás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кража, воровство",
+        "{～をする} совершать кражу"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kraja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "robo"
+      ]
+    }
+  ]
+}

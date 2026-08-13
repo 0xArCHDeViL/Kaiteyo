@@ -1,0 +1,67 @@
+{
+  "id": "1479120",
+  "readings": [
+    {
+      "kanaExpression": "はんき",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "半期",
+      "furiganaExpression": [
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "half-term",
+        "half-time",
+        "half period"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "helft van een periode",
+        "halve termijn",
+        "semester",
+        "halfjaar",
+        "jaarhelft"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "demi-période",
+        "mi-temps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Halbjahr",
+        "halbes Jahr",
+        "Hälfte einer Zeitspanne",
+        "Hälfte eines Zeitraums"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) половина срока",
+        "2) полугодие",
+        "{～の} полугодовой"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "1212330",
+  "readings": [
+    {
+      "kanaExpression": "かんかく",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "感覚",
+      "furiganaExpression": [
+        {
+          "text": "感",
+          "annotation": "かん"
+        },
+        {
+          "text": "覚",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 1182
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sense",
+        "sensation",
+        "feeling",
+        "intuition"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gevoel",
+        "gevoelen",
+        "gewaarwording",
+        "zin",
+        "sensatie",
+        "gevoeligheid",
+        "sensitiviteit"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sens",
+        "sensation",
+        "sentiment",
+        "intuition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sinneswahrnehmung",
+        "Sinn",
+        "Empfindung",
+        "Gefühl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érzés",
+        "érzet",
+        "benyomás",
+        "érzékelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чувство (зрение, осязание и т. п.); ощущение; восприятие",
+        "{～的} а) чувствующий; ощущающий; б) чувствительный, восприимчивый, сенситивный, с обострённой чувствительностью; в) чувственный",
+        "{～のない} нечувствительный, онемевший (напр. о руке, ноге)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "čustvo",
+        "občutje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sensación",
+        "sentido",
+        "sensibilidad"
+      ]
+    }
+  ]
+}

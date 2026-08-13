@@ -1,0 +1,41 @@
+{
+  "id": "1999500",
+  "readings": [
+    {
+      "kanaExpression": "にほんけいざい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "日本経済",
+      "furiganaExpression": [
+        {
+          "text": "日本",
+          "annotation": "にほん"
+        },
+        {
+          "text": "経",
+          "annotation": "けい"
+        },
+        {
+          "text": "済",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese economy"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "economía japonesa"
+      ]
+    }
+  ]
+}

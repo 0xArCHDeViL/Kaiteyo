@@ -1,0 +1,120 @@
+{
+  "id": "1180450",
+  "readings": [
+    {
+      "kanaExpression": "おしながす",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "押し流す",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "押流す",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "おし"
+        },
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "押しながす",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "しながす"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "おし流す",
+      "furiganaExpression": [
+        {
+          "text": "おし"
+        },
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to wash away",
+        "to sweep away",
+        "to carry away"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wegspoelen",
+        "meesleuren",
+        "wegsleuren",
+        "meevoeren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fortschwemmen",
+        "fortreißen",
+        "forttreiben",
+        "mitreißen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kimos",
+        "lemos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "смывать водой, уносить (сносить) течением"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arrastrar la corriente",
+        "llevar la corriente"
+      ]
+    }
+  ]
+}

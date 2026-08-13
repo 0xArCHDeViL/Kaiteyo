@@ -1,0 +1,73 @@
+{
+  "id": "1855190",
+  "readings": [
+    {
+      "kanaExpression": "よそおい",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "装い",
+      "furiganaExpression": [
+        {
+          "text": "装",
+          "annotation": "よそお"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "粧い",
+      "furiganaExpression": [
+        {
+          "text": "粧",
+          "annotation": "よそお"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dress",
+        "outfit",
+        "equipment",
+        "makeup",
+        "adornment",
+        "guise",
+        "get-up"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kleidung",
+        "Gewand",
+        "Aussehen",
+        "Erscheinung",
+        "Aufmachung",
+        "Vorbereitung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ruha",
+        "alakulat",
+        "berendezés",
+        "felszerelés",
+        "szerelvény",
+        "kikészítés",
+        "álöltözet",
+        "álruha",
+        "külső megjelenés"
+      ]
+    }
+  ]
+}

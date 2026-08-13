@@ -1,0 +1,46 @@
+{
+  "id": "1541410",
+  "readings": [
+    {
+      "kanaExpression": "ゆうじん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "有人",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "人",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "manned",
+        "occupied",
+        "piloted"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bemand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bemannung",
+        "bemannt"
+      ]
+    }
+  ]
+}

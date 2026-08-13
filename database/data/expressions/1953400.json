@@ -1,0 +1,63 @@
+{
+  "id": "1953400",
+  "readings": [
+    {
+      "kanaExpression": "ひとさま",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "人様",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        }
+      ],
+      "rank": 12093
+    },
+    {
+      "kanjiExpression": "人さま",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "ひと"
+        },
+        {
+          "text": "さま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "other people",
+        "others"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "andere Menschen (ehrerb.-höfl.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mások",
+        "másokat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) другие, люди"
+      ]
+    }
+  ]
+}

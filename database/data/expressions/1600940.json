@@ -1,0 +1,75 @@
+{
+  "id": "1600940",
+  "readings": [
+    {
+      "kanaExpression": "はなたかだか",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "鼻高々",
+      "furiganaExpression": [
+        {
+          "text": "鼻",
+          "annotation": "はな"
+        },
+        {
+          "text": "高",
+          "annotation": "たか"
+        },
+        {
+          "text": "々",
+          "annotation": "だか"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "鼻高高",
+      "furiganaExpression": [
+        {
+          "text": "鼻",
+          "annotation": "はな"
+        },
+        {
+          "text": "高",
+          "annotation": "たか"
+        },
+        {
+          "text": "高",
+          "annotation": "だか"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "proud",
+        "triumphant",
+        "boastful",
+        "self-satisfied"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stolz erhobene Nase",
+        "Stolz",
+        "Angabe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "diadalmasan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прост. обр.) задравши нос, задаваясь"
+      ]
+    }
+  ]
+}

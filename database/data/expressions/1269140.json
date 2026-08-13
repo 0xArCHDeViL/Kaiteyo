@@ -1,0 +1,124 @@
+{
+  "id": "1269140",
+  "readings": [
+    {
+      "kanaExpression": "くれぐれも",
+      "rank": 12526
+    },
+    {
+      "kanjiExpression": "呉れ呉れも",
+      "furiganaExpression": [
+        {
+          "text": "呉",
+          "annotation": "く"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "呉",
+          "annotation": "ぐ"
+        },
+        {
+          "text": "れも"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "呉々も",
+      "furiganaExpression": [
+        {
+          "text": "呉",
+          "annotation": "くれ"
+        },
+        {
+          "text": "々",
+          "annotation": "ぐれ"
+        },
+        {
+          "text": "も"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "呉呉も",
+      "furiganaExpression": [
+        {
+          "text": "呉",
+          "annotation": "くれ"
+        },
+        {
+          "text": "呉",
+          "annotation": "ぐれ"
+        },
+        {
+          "text": "も"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sincerely",
+        "earnestly",
+        "wholeheartedly",
+        "repeatedly",
+        "over and over",
+        "again and again"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "herhaaldelijk",
+        "bij herhaling",
+        "telkens opnieuw",
+        "steeds opnieuw",
+        "meer dan eens",
+        "met aandrang",
+        "dringend",
+        "urgent"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "à répétition",
+        "à plusieurs reprises",
+        "sincèrement",
+        "sérieusement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tausendmal",
+        "wiederholt",
+        "wieder und wieder",
+        "aufrichtigst"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyíltan",
+        "őszintén"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "повторно, ещё и ещё, снова и снова"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "encarecidamenete",
+        "ahincadamente"
+      ]
+    }
+  ]
+}

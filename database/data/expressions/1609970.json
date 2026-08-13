@@ -1,0 +1,108 @@
+{
+  "id": "1609970",
+  "readings": [
+    {
+      "kanaExpression": "しらずしらず",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "知らず知らず",
+      "furiganaExpression": [
+        {
+          "text": "知",
+          "annotation": "し"
+        },
+        {
+          "text": "らず"
+        },
+        {
+          "text": "知",
+          "annotation": "し"
+        },
+        {
+          "text": "らず"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "知らず識らず",
+      "furiganaExpression": [
+        {
+          "text": "知",
+          "annotation": "し"
+        },
+        {
+          "text": "らず"
+        },
+        {
+          "text": "識",
+          "annotation": "し"
+        },
+        {
+          "text": "らず"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "不知不識",
+      "furiganaExpression": [
+        {
+          "text": "不知不識",
+          "annotation": "しらずしらず"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unconsciously",
+        "unwittingly",
+        "unawares"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "inconsciemment",
+        "involontairement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unwillkürlich",
+        "unabsichtlich",
+        "unbewusst"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nem tudva",
+        "öntudatlanul",
+        "szándékolatlanul",
+        "tudtán kívül",
+        "észrevétlenül",
+        "rajtaütésszerűen",
+        "váratlanul"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) 不知不識",
+        "бессознательно, подсознательно, сам того не замечая; невольно; инстинктивно; незаметно"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inconscientemente",
+        "cuando me di cuenta"
+      ]
+    }
+  ]
+}

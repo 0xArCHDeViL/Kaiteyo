@@ -1,0 +1,55 @@
+{
+  "id": "1623380",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうしん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "忠臣",
+      "furiganaExpression": [
+        {
+          "text": "忠",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "臣",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "loyal retainer",
+        "loyal subject"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "getrouwe dienaar",
+        "loyale vazal",
+        "trouwe onderdaan",
+        "loyalist",
+        "{Jap.gesch.} reserveminister"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "treuer Vasall",
+        "treuer Untertan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "верный (преданный) вассал; верноподданный"
+      ]
+    }
+  ]
+}

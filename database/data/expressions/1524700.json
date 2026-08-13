@@ -1,0 +1,77 @@
+{
+  "id": "1524700",
+  "readings": [
+    {
+      "kanaExpression": "まいあさ",
+      "rank": 20500
+    },
+    {
+      "kanaExpression": "まいちょう"
+    },
+    {
+      "kanjiExpression": "毎朝",
+      "furiganaExpression": [
+        {
+          "text": "毎",
+          "annotation": "まい"
+        },
+        {
+          "text": "朝",
+          "annotation": "あさ"
+        }
+      ],
+      "rank": 8166
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "every morning"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elke ochtend",
+        "iedere ochtend",
+        "elke morgen",
+        "iedere morgen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chaque matin",
+        "tous les matins"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jeder Morgen",
+        "jeden Morgen",
+        "allmorgendlich"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каждое утро",
+        "(см.) まいあさ"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vsako jutro"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cada mañana"
+      ]
+    }
+  ]
+}

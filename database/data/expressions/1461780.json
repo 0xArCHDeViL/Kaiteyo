@@ -1,0 +1,51 @@
+{
+  "id": "1461780",
+  "readings": [
+    {
+      "kanaExpression": "にさ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "二佐",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "佐",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "２佐",
+      "furiganaExpression": [
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "佐",
+          "annotation": "さ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lieutenant colonel (JGSDF)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Oberstleutnant",
+        "Fregattenkapitän"
+      ]
+    }
+  ]
+}

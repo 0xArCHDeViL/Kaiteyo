@@ -1,0 +1,95 @@
+{
+  "id": "1646640",
+  "readings": [
+    {
+      "kanaExpression": "しきいし",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "敷石",
+      "furiganaExpression": [
+        {
+          "text": "敷",
+          "annotation": "しき"
+        },
+        {
+          "text": "石",
+          "annotation": "いし"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "敷き石",
+      "furiganaExpression": [
+        {
+          "text": "敷",
+          "annotation": "し"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "石",
+          "annotation": "いし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "甃石",
+      "furiganaExpression": [
+        {
+          "text": "甃石",
+          "annotation": "しきいし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paving stone",
+        "pavement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "straatsteen",
+        "tegel",
+        "plavei",
+        "{i.h.b.} klinker",
+        "flagstone",
+        "tuintegel",
+        "straatstenen",
+        "bestrating",
+        "plaveisel",
+        "verharding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gepflasterter Weg",
+        "Pflasterstein",
+        "Steinpflaster",
+        "Pflaster",
+        "Trittstein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "járda",
+        "útburkolat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мостовая; плита для мощения, булыжник"
+      ]
+    }
+  ]
+}

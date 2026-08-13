@@ -1,0 +1,64 @@
+{
+  "id": "1230000",
+  "readings": [
+    {
+      "kanaExpression": "きゅうたい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "球体",
+      "furiganaExpression": [
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sphere",
+        "globe",
+        "orb",
+        "ball"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bolvormig lichaam",
+        "bol",
+        "bal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kugel",
+        "Globus",
+        "Sphäre"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gömb",
+        "terület",
+        "égitest"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сферическое тело; шар"
+      ]
+    }
+  ]
+}

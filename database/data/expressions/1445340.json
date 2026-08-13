@@ -1,0 +1,127 @@
+{
+  "id": "1445340",
+  "readings": [
+    {
+      "kanaExpression": "どしゃぶり",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "ドシャぶり"
+    },
+    {
+      "kanjiExpression": "土砂降り",
+      "furiganaExpression": [
+        {
+          "text": "土",
+          "annotation": "ど"
+        },
+        {
+          "text": "砂",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "降",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "どしゃ降り",
+      "furiganaExpression": [
+        {
+          "text": "どしゃ"
+        },
+        {
+          "text": "降",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "ドシャ降り",
+      "furiganaExpression": [
+        {
+          "text": "ドシャ"
+        },
+        {
+          "text": "降",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "downpour",
+        "pouring rain",
+        "heavy rain",
+        "pelting rain",
+        "cloudburst"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zware",
+        "fikse regenbui",
+        "zware regenval",
+        "stortbui",
+        "stortregen",
+        "stromende",
+        "gutsende",
+        "gietende regen",
+        "gietbui",
+        "kletsbui",
+        "plasbui",
+        "plasregen",
+        "slagregen",
+        "plensbui",
+        "plensregen",
+        "hoosbui",
+        "wolkbreuk",
+        "{Belg.N.} regenvlaag",
+        "{Belg.N.} drache",
+        "{uitdr.} een schip met zure appelen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déluge",
+        "pluie torrentielle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Regenguss",
+        "Platzregen",
+        "heftiger Regenfall"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felhőszakadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прост.) проливной дождь, ливень"
+      ]
+    }
+  ]
+}

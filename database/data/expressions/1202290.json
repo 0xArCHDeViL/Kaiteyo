@@ -1,0 +1,75 @@
+{
+  "id": "1202290",
+  "readings": [
+    {
+      "kanaExpression": "えのぐ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "絵の具",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "具",
+          "annotation": "ぐ"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paint",
+        "coloring materials",
+        "colors",
+        "colours"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schildersmateriaal",
+        "verf"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "couleurs",
+        "peintures"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Malfarbe",
+        "Farbe",
+        "Farbstoff"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "краски"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "color",
+        "colores",
+        "pintura",
+        "(P)",
+        "pinturas"
+      ]
+    }
+  ]
+}

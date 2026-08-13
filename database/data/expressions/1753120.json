@@ -1,0 +1,55 @@
+{
+  "id": "1753120",
+  "readings": [
+    {
+      "kanaExpression": "ばいか",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "売価",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "ばい"
+        },
+        {
+          "text": "価",
+          "annotation": "か"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "selling price"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkaufspreis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eladási ár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продажная цена"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precio de venta"
+      ]
+    }
+  ]
+}

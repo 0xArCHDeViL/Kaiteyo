@@ -1,0 +1,60 @@
+{
+  "id": "1279500",
+  "readings": [
+    {
+      "kanaExpression": "こうがい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "校外",
+      "furiganaExpression": [
+        {
+          "text": "校",
+          "annotation": "こう"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "out-of-school",
+        "off-campus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außerhalb des Campus",
+        "außerhalb des Schulgeländes",
+        "außerhalb des Stundenplanes",
+        "außerschulisch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～で} вне школы (училища)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izven šole",
+        "izven univerze"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "extraescolar"
+      ]
+    }
+  ]
+}

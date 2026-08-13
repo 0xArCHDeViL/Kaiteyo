@@ -1,0 +1,81 @@
+{
+  "id": "1220880",
+  "readings": [
+    {
+      "kanaExpression": "きかんしゃ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "機関車",
+      "furiganaExpression": [
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "関",
+          "annotation": "かん"
+        },
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 14144
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "locomotive",
+        "engine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{spoorw.} locomotief"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "locomotive",
+        "moteur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lokomotive"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gép",
+        "mozdony"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "паровоз, локомотив"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "stroj",
+        "lokomotiva"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "locomotora"
+      ]
+    }
+  ]
+}

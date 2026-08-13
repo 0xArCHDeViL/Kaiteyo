@@ -1,0 +1,55 @@
+{
+  "id": "1303090",
+  "readings": [
+    {
+      "kanaExpression": "やまみち",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "さんどう",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "せんどう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "山道",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ],
+      "rank": 13668
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mountain road",
+        "mountain trail"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bergweg",
+        "Bergpfad",
+        "Gebirgsweg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горная дорога",
+        "(разг.) горная дорога, дорога в горах"
+      ]
+    }
+  ]
+}

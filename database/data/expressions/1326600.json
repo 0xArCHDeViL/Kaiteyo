@@ -1,0 +1,155 @@
+{
+  "id": "1326600",
+  "readings": [
+    {
+      "kanaExpression": "とりかかる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "取り掛かる",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "掛",
+          "annotation": "か"
+        },
+        {
+          "text": "かる"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "取りかかる",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "りかかる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取り掛る",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "掛",
+          "annotation": "かか"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取掛る",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "掛",
+          "annotation": "かか"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to begin (doing)",
+        "to start",
+        "to set about",
+        "to get down to"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beginnen met",
+        "aan de slag gaan met",
+        "aan de gang gaan met",
+        "starten met",
+        "zich begeven in"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "commencer",
+        "débuter",
+        "démarrer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "anfangen",
+        "beginnen",
+        "sich an etw. machen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elkezd",
+        "elkezdődik",
+        "hozzáfog",
+        "kezd",
+        "kezdődik",
+        "megkezd",
+        "alapít",
+        "beindít",
+        "elindít",
+        "elindul",
+        "elugrik",
+        "felriad",
+        "folyamatba tesz",
+        "indít",
+        "indul",
+        "megindít",
+        "megugrik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "браться, приниматься (за что-л.), приступать (к чему-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "začeti",
+        "lotiti se {česa}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comenzar",
+        "empezar"
+      ]
+    }
+  ]
+}

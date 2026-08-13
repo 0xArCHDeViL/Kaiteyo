@@ -1,0 +1,60 @@
+{
+  "id": "1347900",
+  "readings": [
+    {
+      "kanaExpression": "こきみ",
+      "rank": 33500
+    },
+    {
+      "kanaExpression": "こきび"
+    },
+    {
+      "kanjiExpression": "小気味",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sentiment",
+        "feeling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gefühl",
+        "Empfindung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érzelem",
+        "érzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.) чувства",
+        "(см.) こきみ"
+      ]
+    }
+  ]
+}

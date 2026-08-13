@@ -1,0 +1,66 @@
+{
+  "id": "1282610",
+  "readings": [
+    {
+      "kanaExpression": "こうしょう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "鉱床",
+      "furiganaExpression": [
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        },
+        {
+          "text": "床",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mineral deposit",
+        "ore deposit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{delfst.} ertslaag",
+        "opeenhoping van delfstoffen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lagerstätte",
+        "Lager",
+        "Erzlager",
+        "Erzlagerstätte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рудное месторождение, отложения руды"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "yacimiento minero"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "malmfyndighet"
+      ]
+    }
+  ]
+}

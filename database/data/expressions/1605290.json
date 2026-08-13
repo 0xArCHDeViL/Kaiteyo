@@ -1,0 +1,80 @@
+{
+  "id": "1605290",
+  "readings": [
+    {
+      "kanaExpression": "ものほし",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "物干し",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "もの"
+        },
+        {
+          "text": "干",
+          "annotation": "ほ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "物干",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "もの"
+        },
+        {
+          "text": "干",
+          "annotation": "ほし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "frame for drying clothes",
+        "clotheshorse"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "endroit où l\u0027on accroche le linge",
+        "penderie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trockengestell",
+        "Trockenplatz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рамы (вешалки) для сушки белья (носильных вещей)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sušilnica (za obleke)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ropa lavada y puesta a secar"
+      ]
+    }
+  ]
+}

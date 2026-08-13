@@ -1,0 +1,83 @@
+{
+  "id": "1539850",
+  "readings": [
+    {
+      "kanaExpression": "ゆうそう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "勇壮",
+      "furiganaExpression": [
+        {
+          "text": "勇",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "壮",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "雄壮",
+      "furiganaExpression": [
+        {
+          "text": "雄",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "壮",
+          "annotation": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heroic",
+        "brave",
+        "majestic",
+        "soul-stirring",
+        "lively",
+        "gallant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heroisch",
+        "tapfer",
+        "mutig",
+        "Tapferkeit",
+        "Mut",
+        "Heldentum",
+        "Kühnheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emberfeletti",
+        "hősi",
+        "bátor",
+        "derék",
+        "merész",
+        "fenséges",
+        "magasztos",
+        "aranyifjú",
+        "gavallér",
+        "pompás",
+        "udvarló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "{～な} (кн.) героический; смелый; мужественный"
+      ]
+    }
+  ]
+}

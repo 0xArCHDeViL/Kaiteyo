@@ -1,0 +1,100 @@
+{
+  "id": "1501530",
+  "readings": [
+    {
+      "kanaExpression": "ふち",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "淵",
+      "furiganaExpression": [
+        {
+          "text": "淵",
+          "annotation": "ふち"
+        }
+      ],
+      "rank": 11433
+    },
+    {
+      "kanjiExpression": "渕",
+      "furiganaExpression": [
+        {
+          "text": "渕",
+          "annotation": "ふち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "潭",
+      "furiganaExpression": [
+        {
+          "text": "潭",
+          "annotation": "ふち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "渊",
+      "furiganaExpression": [
+        {
+          "text": "渊",
+          "annotation": "ふち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deep pool",
+        "deep water",
+        "abyss",
+        "depths (e.g. of despair)",
+        "grip (e.g. of death)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "diep water",
+        "geul",
+        "{fig.} afgrond",
+        "{fig.} peilloze diepte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abgrund",
+        "Tiefe",
+        "Schlucht",
+        "Untiefe",
+        "schwierige Lage",
+        "Rand",
+        "Obuchi-Fraktion (Abk.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "végtelen idő",
+        "végtelen mélység"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пучина; бездна, пропасть"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estanque profundo",
+        "abismo",
+        "profundidades"
+      ]
+    }
+  ]
+}

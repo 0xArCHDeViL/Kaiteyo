@@ -1,0 +1,82 @@
+{
+  "id": "1610070",
+  "readings": [
+    {
+      "kanaExpression": "ぜったいに",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "絶対に",
+      "furiganaExpression": [
+        {
+          "text": "絶",
+          "annotation": "ぜっ"
+        },
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "rank": 6658
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "absolutely",
+        "definitely",
+        "unconditionally"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "absoluut",
+        "helemaal",
+        "totaal",
+        "volkomen",
+        "volstrekt",
+        "strikt",
+        "ten enenmale",
+        "totaliter"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "absolument",
+        "catégoriquement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "absolut",
+        "unbedingt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "абсолютно; категорически, безусловно"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vsekakor"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "absolutamente",
+        "incondicionalmente"
+      ]
+    }
+  ]
+}

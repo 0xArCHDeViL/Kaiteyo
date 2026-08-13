@@ -1,0 +1,60 @@
+{
+  "id": "1160700",
+  "readings": [
+    {
+      "kanaExpression": "いくしゅ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "育種",
+      "furiganaExpression": [
+        {
+          "text": "育",
+          "annotation": "いく"
+        },
+        {
+          "text": "種",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "breeding (of plants or animals)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "züchten",
+        "veredeln",
+        "Züchten",
+        "Veredelung",
+        "Zucht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nemzés",
+        "tenyésztés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выращивание, разведение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cultivo"
+      ]
+    }
+  ]
+}

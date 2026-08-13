@@ -1,0 +1,57 @@
+{
+  "id": "2420940",
+  "readings": [
+    {
+      "kanaExpression": "ちいさいころ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "小さい頃",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "ちい"
+        },
+        {
+          "text": "さい"
+        },
+        {
+          "text": "頃",
+          "annotation": "ころ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "小さいころ",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "ちい"
+        },
+        {
+          "text": "さいころ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "as a child",
+        "when one was a child"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kindheit",
+        "Kinderzeit",
+        "Zeit, als man klein war",
+        "als kleines Kind",
+        "in der Kinderzeit"
+      ]
+    }
+  ]
+}

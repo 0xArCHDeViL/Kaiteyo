@@ -1,0 +1,84 @@
+{
+  "id": "1209030",
+  "readings": [
+    {
+      "kanaExpression": "かぶと",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "兜",
+      "furiganaExpression": [
+        {
+          "text": "兜",
+          "annotation": "かぶと"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "冑",
+      "furiganaExpression": [
+        {
+          "text": "冑",
+          "annotation": "かぶと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "甲",
+      "furiganaExpression": [
+        {
+          "text": "甲",
+          "annotation": "かぶと"
+        }
+      ],
+      "rank": 7700
+    },
+    {
+      "kanjiExpression": "胄",
+      "furiganaExpression": [
+        {
+          "text": "胄",
+          "annotation": "かぶと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "helmet (of a warrior)",
+        "headpiece"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kabuto",
+        "samoeraihelm",
+        "helm",
+        "hoofdijzer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Helm (einer Rüstung)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sisak",
+        "fejezetdísz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шлем; каска"
+      ]
+    }
+  ]
+}

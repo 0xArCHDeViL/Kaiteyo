@@ -1,0 +1,87 @@
+{
+  "id": "1319190",
+  "readings": [
+    {
+      "kanaExpression": "じくうけ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "軸受け",
+      "furiganaExpression": [
+        {
+          "text": "軸",
+          "annotation": "じく"
+        },
+        {
+          "text": "受",
+          "annotation": "う"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "軸受",
+      "furiganaExpression": [
+        {
+          "text": "軸",
+          "annotation": "じく"
+        },
+        {
+          "text": "受",
+          "annotation": "うけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bearing",
+        "shaft bearing",
+        "axle bearing",
+        "plummer block",
+        "pillow block"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lager",
+        "Wellenlager",
+        "Radlager"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bemérési szög",
+        "csapágy",
+        "elviselés",
+        "felfekvés",
+        "iránylat",
+        "iránymeghatározás",
+        "kengyelvas",
+        "kocka alakú alapkő",
+        "tájolat",
+        "teherbíró képesség",
+        "teherhordó",
+        "termő",
+        "termőképesség",
+        "viselés",
+        "vitel",
+        "vivés",
+        "csapágyazás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подшипник"
+      ]
+    }
+  ]
+}

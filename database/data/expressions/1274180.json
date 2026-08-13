@@ -1,0 +1,63 @@
+{
+  "id": "1274180",
+  "readings": [
+    {
+      "kanaExpression": "こうせん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "公選",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "選",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 17500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public election",
+        "election by popular vote"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "openbare verkiezing",
+        "publieke stemming",
+        "openbaar verkiezen",
+        "bij publieke stemming kiezen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Wahl",
+        "wählen",
+        "ein öffentliche Wahl abhalten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выборы",
+        "{～する} избирать, выбирать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "elección democrática",
+        "sufragio"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "1598370",
+  "readings": [
+    {
+      "kanaExpression": "てづまり",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "手詰まり",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "詰",
+          "annotation": "づ"
+        },
+        {
+          "text": "まり"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "手詰り",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "詰",
+          "annotation": "づま"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deadlock",
+        "stalemate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stillstand",
+        "Hängepartie",
+        "Festgefahren-Sein",
+        "Schwierigkeiten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "patt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) безденежье",
+        "2) (шахм.) пат"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "pattställning"
+      ]
+    }
+  ]
+}

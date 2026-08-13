@@ -1,0 +1,48 @@
+{
+  "id": "1180710",
+  "readings": [
+    {
+      "kanaExpression": "よこむき",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "横向き",
+      "furiganaExpression": [
+        {
+          "text": "横",
+          "annotation": "よこ"
+        },
+        {
+          "text": "向",
+          "annotation": "む"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "turning sideways",
+        "landscape orientation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seite",
+        "seitliche Richtung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～になる} повернуться боком"
+      ]
+    }
+  ]
+}

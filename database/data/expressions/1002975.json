@@ -1,0 +1,65 @@
+{
+  "id": "1002975",
+  "readings": [
+    {
+      "kanaExpression": "かもしれません",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "かも知れません",
+      "furiganaExpression": [
+        {
+          "text": "かも"
+        },
+        {
+          "text": "知",
+          "annotation": "し"
+        },
+        {
+          "text": "れません"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "may",
+        "might",
+        "perhaps",
+        "may be",
+        "possibly"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vielleicht",
+        "eventuell",
+        "möglicherweise",
+        "unter Umständen",
+        "kann sein",
+        "ich fürchte, dass …",
+        "nicht ausgeschlossen, dass …",
+        "möglich, dass …"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "{dodano povedku izraža možnost} mogoče",
+        "verjetno da..."
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "es posible",
+        "quizás",
+        "puede ser"
+      ]
+    }
+  ]
+}

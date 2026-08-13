@@ -1,0 +1,64 @@
+{
+  "id": "1207400",
+  "readings": [
+    {
+      "kanaExpression": "がくしょう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "楽章",
+      "furiganaExpression": [
+        {
+          "text": "楽",
+          "annotation": "がく"
+        },
+        {
+          "text": "章",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 8632
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "movement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} beweging",
+        "deel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Satz (eines Musikstücks)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mozgalmasság",
+        "mozgató szerkezet",
+        "ürülés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(муз.) часть (напр. симфонии)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "movimiento (musical)"
+      ]
+    }
+  ]
+}

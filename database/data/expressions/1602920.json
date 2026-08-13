@@ -1,0 +1,145 @@
+{
+  "id": "1602920",
+  "readings": [
+    {
+      "kanaExpression": "ふりかえ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "振替",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふり"
+        },
+        {
+          "text": "替",
+          "annotation": "かえ"
+        }
+      ],
+      "rank": 11933
+    },
+    {
+      "kanjiExpression": "振り替え",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "振替え",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふり"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "振り替",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "替",
+          "annotation": "かえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transfer",
+        "switching over",
+        "change",
+        "money transfer (usu. between accounts held by the same person)",
+        "postal transfer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geldw.} overschrijving",
+        "overdracht",
+        "overboeking",
+        "remise",
+        "transfer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "échanger",
+        "remplacer(?)",
+        "virement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verschieben",
+        "Verlegen",
+        "Austauschen",
+        "Auswechseln",
+        "Überweisung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átengedés",
+        "áthelyezés",
+        "átigazolás",
+        "átmásolás",
+        "átruházás",
+        "átszállás",
+        "átszállítás",
+        "átutalás",
+        "átvitel",
+        "csere",
+        "pénzváltás",
+        "tőzsde",
+        "változtatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перевод, перечисление (денег); (фин.) трансферт"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "transferencia (moneda)",
+        "cambio"
+      ]
+    }
+  ]
+}

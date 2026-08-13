@@ -1,0 +1,76 @@
+{
+  "id": "1445150",
+  "readings": [
+    {
+      "kanaExpression": "たび",
+      "rank": 2356
+    },
+    {
+      "kanaExpression": "たんび"
+    },
+    {
+      "kanjiExpression": "度",
+      "furiganaExpression": [
+        {
+          "text": "度",
+          "annotation": "たび"
+        }
+      ],
+      "rank": 283
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "time (three times, each time, etc.)",
+        "times"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keer",
+        "maal",
+        "gelegenheid",
+        "-werf",
+        "elke keer (als",
+        "dat)",
+        "iedere keer (als",
+        "telkens (als",
+        "wanneer)",
+        "telkenmale (als"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jedes Mal",
+        "immer wenn …",
+        "Mal",
+        "dieses Mal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "-szer",
+        "-szor",
+        "-ször"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:) そのたんびに (прост.) каждый раз",
+        "раз; (после гл.) каждый раз [, когда…]"
+      ]
+    }
+  ]
+}

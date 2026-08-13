@@ -1,0 +1,53 @@
+{
+  "id": "1390140",
+  "readings": [
+    {
+      "kanaExpression": "せんいき",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "戦域",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "域",
+          "annotation": "いき"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "war area",
+        "battlefield",
+        "theater",
+        "theatre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegsschauplatz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csatatér",
+        "színház"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "театр (район) военных действий"
+      ]
+    }
+  ]
+}

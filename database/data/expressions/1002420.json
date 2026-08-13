@@ -1,0 +1,94 @@
+{
+  "id": "1002420",
+  "readings": [
+    {
+      "kanaExpression": "おしらせ",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "お知らせ",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "知",
+          "annotation": "し"
+        },
+        {
+          "text": "らせ"
+        }
+      ],
+      "rank": 2149
+    },
+    {
+      "kanjiExpression": "お報せ",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "報",
+          "annotation": "しら"
+        },
+        {
+          "text": "せ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御知らせ",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "知",
+          "annotation": "し"
+        },
+        {
+          "text": "らせ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "notice",
+        "notification"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachricht",
+        "Mitteilung",
+        "Benachrichtigung",
+        "Meldung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bejelentés",
+        "figyelem"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sporočilo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aviso",
+        "notificación"
+      ]
+    }
+  ]
+}

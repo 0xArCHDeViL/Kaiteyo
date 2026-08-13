@@ -1,0 +1,137 @@
+{
+  "id": "1362950",
+  "readings": [
+    {
+      "kanaExpression": "もうしあげる",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "申し上げる",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "もう"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "rank": 598
+    },
+    {
+      "kanjiExpression": "申上げる",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "もうし"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "申しあげる",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "もう"
+        },
+        {
+          "text": "しあげる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to say",
+        "to tell",
+        "to state",
+        "to express",
+        "to offer",
+        "to extend (greetings, congratulations, etc.)",
+        "to do"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeggen",
+        "verklaren",
+        "meedelen",
+        "betuigen",
+        "betonen",
+        "doen",
+        "verrichten",
+        "{uitleg} geven",
+        "{een dienst} bewijzen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dire",
+        "informer de",
+        "faire savoir que",
+        "exprimer",
+        "offrir",
+        "présenter (des salutations, des félicitations, etc.)",
+        "faire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erzählen",
+        "sagen",
+        "bemerken",
+        "meinen",
+        "machen",
+        "tun"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszél",
+        "kijelent",
+        "megfejt",
+        "megmond",
+        "mond",
+        "kifejez"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "говорить; заметить"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "(iz)reči, povedati, trditi"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "decir a alguien (lenguaje humilde)"
+      ]
+    }
+  ]
+}

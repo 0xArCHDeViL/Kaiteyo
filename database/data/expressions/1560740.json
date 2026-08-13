@@ -1,0 +1,76 @@
+{
+  "id": "1560740",
+  "readings": [
+    {
+      "kanaExpression": "ろうほう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "朗報",
+      "furiganaExpression": [
+        {
+          "text": "朗",
+          "annotation": "ろう"
+        },
+        {
+          "text": "報",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "good news",
+        "happy news",
+        "glad tidings"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verheugend",
+        "heuglijk nieuws",
+        "verblijdende",
+        "goede tijding",
+        "blijde boodschap",
+        "{arch.} blijmare"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bonne nouvelle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gute Nachricht",
+        "freudige Nachricht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jó hír",
+        "jó hírek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "радостное (приятное) известие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "buenas noticias"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "1443750",
+  "readings": [
+    {
+      "kanaExpression": "でんぶん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "電文",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "telegram"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Telegramm",
+        "Telegrammtext"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "távirat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "текст телеграммы; телеграмма"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "telegrama"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "telegram"
+      ]
+    }
+  ]
+}

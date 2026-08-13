@@ -1,0 +1,67 @@
+{
+  "id": "1560160",
+  "readings": [
+    {
+      "kanaExpression": "ろてい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "露呈",
+      "furiganaExpression": [
+        {
+          "text": "露",
+          "annotation": "ろ"
+        },
+        {
+          "text": "呈",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 12947
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exposure",
+        "disclosure"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "divulgation",
+        "révélation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "entblößen",
+        "enthüllen",
+        "aufdecken",
+        "Enthüllung",
+        "Aufdeckung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "expozíció",
+        "felfedés",
+        "kitettség",
+        "kitevés",
+        "leleplezés",
+        "megvilágítási idő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) обнаружение, открытие, раскрытие",
+        "{～する} обнаруживать, раскрывать; проявлять"
+      ]
+    }
+  ]
+}

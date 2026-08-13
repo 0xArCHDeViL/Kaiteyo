@@ -1,0 +1,59 @@
+{
+  "id": "1763890",
+  "readings": [
+    {
+      "kanaExpression": "じなり",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "地鳴り",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "鳴",
+          "annotation": "な"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "地なり",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "じ"
+        },
+        {
+          "text": "なり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rumble in the ground"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dröhnen der Erde (bei einer Naturkatastrophe)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подземный гул",
+        "{～がする} слышится подземный гул"
+      ]
+    }
+  ]
+}

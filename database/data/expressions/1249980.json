@@ -1,0 +1,58 @@
+{
+  "id": "1249980",
+  "readings": [
+    {
+      "kanaExpression": "あにでし",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "兄弟子",
+      "furiganaExpression": [
+        {
+          "text": "兄",
+          "annotation": "あに"
+        },
+        {
+          "text": "弟",
+          "annotation": "で"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "senior pupil (of the same master)",
+        "senior disciple",
+        "senior student",
+        "senior member"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oudere medeleerling",
+        "medediscipel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorgänger",
+        "älterer Lehrling"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "старший в группе по возрасту и знаниям ученик"
+      ]
+    }
+  ]
+}

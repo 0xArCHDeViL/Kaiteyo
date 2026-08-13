@@ -1,0 +1,82 @@
+{
+  "id": "1220010",
+  "readings": [
+    {
+      "kanaExpression": "きか",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "幾何",
+      "furiganaExpression": [
+        {
+          "text": "幾",
+          "annotation": "き"
+        },
+        {
+          "text": "何",
+          "annotation": "か"
+        }
+      ],
+      "rank": 11382
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "geometry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geometrie",
+        "meetkunde",
+        "{veroud.} meetkunst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "geometrie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geometrie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "geometria",
+        "mértan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) きかがく"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "geometrija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "geometría"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "geometri"
+      ]
+    }
+  ]
+}

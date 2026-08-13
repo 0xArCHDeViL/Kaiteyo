@@ -1,0 +1,78 @@
+{
+  "id": "1203280",
+  "readings": [
+    {
+      "kanaExpression": "ほかに",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "他に",
+      "furiganaExpression": [
+        {
+          "text": "他",
+          "annotation": "ほか"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "外に",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "ほか"
+        },
+        {
+          "text": "に"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "else",
+        "in addition",
+        "besides"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "de plus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "továbbmenve",
+        "amellett",
+        "azonkívül"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кроме",
+        "также"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "además"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "utöver",
+        "förutom"
+      ]
+    }
+  ]
+}

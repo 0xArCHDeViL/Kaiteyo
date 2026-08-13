@@ -1,0 +1,92 @@
+{
+  "id": "1557110",
+  "readings": [
+    {
+      "kanaExpression": "れいぞうこ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "冷蔵庫",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "れい"
+        },
+        {
+          "text": "蔵",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "庫",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 5376
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "refrigerator",
+        "fridge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "koelkast",
+        "ijskast",
+        "frigidaire",
+        "{Belg.N.",
+        "spreekt.} frigo"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "frigo",
+        "réfrigérateur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kühlschrank",
+        "Eisschrank"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hűtőgép",
+        "hűtőkészülék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "холодильник, холодильный склад"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hladilnik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "refrigerador",
+        "nevera"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kylskåp"
+      ]
+    }
+  ]
+}

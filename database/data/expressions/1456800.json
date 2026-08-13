@@ -1,0 +1,95 @@
+{
+  "id": "1456800",
+  "readings": [
+    {
+      "kanaExpression": "つきやぶる",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "突き破る",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "破",
+          "annotation": "やぶ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "突破る",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つき"
+        },
+        {
+          "text": "破",
+          "annotation": "やぶ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to break through",
+        "to penetrate",
+        "to pierce"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "doorbreken",
+        "doorboren",
+        "doorscheuren",
+        "een gat aanbrengen in"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "durchbrechen",
+        "durchstoßen",
+        "durchfahren",
+        "durchstechen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átdöf",
+        "átfúródik",
+        "átjár",
+        "átszúr",
+        "átszúródik",
+        "elérzékenyít",
+        "hasogat",
+        "keresztüldöf",
+        "kibújik",
+        "kifúr",
+        "szúr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прорывать, пробивать [насквозь]; разрушать, ломать (ударом, толчком)"
+      ]
+    }
+  ]
+}

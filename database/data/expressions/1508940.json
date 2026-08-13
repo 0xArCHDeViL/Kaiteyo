@@ -1,0 +1,63 @@
+{
+  "id": "1508940",
+  "readings": [
+    {
+      "kanaExpression": "べいこく",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "米穀",
+      "furiganaExpression": [
+        {
+          "text": "米",
+          "annotation": "べい"
+        },
+        {
+          "text": "穀",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rice"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reis",
+        "Getreide",
+        "Korn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rizs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рис (гл. обр. как товар)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arroz"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "risgryn"
+      ]
+    }
+  ]
+}

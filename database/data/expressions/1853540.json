@@ -1,0 +1,41 @@
+{
+  "id": "1853540",
+  "readings": [
+    {
+      "kanaExpression": "しのはい",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "死の灰",
+      "furiganaExpression": [
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "灰",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lethal radioactive fallout",
+        "atomic dust"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(radioaktiver)Fallout (wörtl. tödliche Asche)"
+      ]
+    }
+  ]
+}

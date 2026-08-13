@@ -1,0 +1,99 @@
+{
+  "id": "1946230",
+  "readings": [
+    {
+      "kanaExpression": "ふっこくばん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "復刻版",
+      "furiganaExpression": [
+        {
+          "text": "復",
+          "annotation": "ふっ"
+        },
+        {
+          "text": "刻",
+          "annotation": "こく"
+        },
+        {
+          "text": "版",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "覆刻版",
+      "furiganaExpression": [
+        {
+          "text": "覆",
+          "annotation": "ふっ"
+        },
+        {
+          "text": "刻",
+          "annotation": "こく"
+        },
+        {
+          "text": "版",
+          "annotation": "ばん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "複刻版",
+      "furiganaExpression": [
+        {
+          "text": "複",
+          "annotation": "ふっ"
+        },
+        {
+          "text": "刻",
+          "annotation": "こく"
+        },
+        {
+          "text": "版",
+          "annotation": "ばん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "復刻板",
+      "furiganaExpression": [
+        {
+          "text": "復",
+          "annotation": "ふっ"
+        },
+        {
+          "text": "刻",
+          "annotation": "こく"
+        },
+        {
+          "text": "板",
+          "annotation": "ばん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "facsimile edition",
+        "reprint"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachdruck"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "új kiadás"
+      ]
+    }
+  ]
+}

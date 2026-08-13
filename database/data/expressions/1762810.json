@@ -1,0 +1,53 @@
+{
+  "id": "1762810",
+  "readings": [
+    {
+      "kanaExpression": "ていしんたい",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "挺身隊",
+      "furiganaExpression": [
+        {
+          "text": "挺",
+          "annotation": "てい"
+        },
+        {
+          "text": "身",
+          "annotation": "しん"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "volunteer corps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freiwilligentruppe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "добровольческий ударный отряд (напр. парашютный десант); отряд смертников"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "frivilligkår"
+      ]
+    }
+  ]
+}

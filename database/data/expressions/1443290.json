@@ -1,0 +1,64 @@
+{
+  "id": "1443290",
+  "readings": [
+    {
+      "kanaExpression": "でんこう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "電工",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "工",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "electrician",
+        "electrical engineering",
+        "electric works (following company name)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elektrotechnische industrie",
+        "elektricien",
+        "elektrotechnicus",
+        "elektromonteur",
+        "elektrotechnisch installateur",
+        "{Belg.N.",
+        "veroud.} elektrieker"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Elektriker",
+        "Elektroindustrie (Abk.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "villanyszerelő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) でんきこう"
+      ]
+    }
+  ]
+}

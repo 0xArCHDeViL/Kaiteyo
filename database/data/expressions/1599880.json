@@ -1,0 +1,83 @@
+{
+  "id": "1599880",
+  "readings": [
+    {
+      "kanaExpression": "につかわしい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "似つかわしい",
+      "furiganaExpression": [
+        {
+          "text": "似",
+          "annotation": "に"
+        },
+        {
+          "text": "つかわしい"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "似付かわしい",
+      "furiganaExpression": [
+        {
+          "text": "似",
+          "annotation": "に"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "かわしい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "suitable",
+        "appropriate",
+        "becoming",
+        "fitting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "passend",
+        "angemessen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alkalmas",
+        "hozzáillő",
+        "megfelelő",
+        "helyénvaló",
+        "helyes",
+        "illő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подходящий; гармонирующий; (как сказ.) подходить (к чему-л.), гармонировать (с чем-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "adecuado",
+        "apropiado",
+        "conveniente",
+        "que sienta bien",
+        "decoroso"
+      ]
+    }
+  ]
+}

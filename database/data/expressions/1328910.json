@@ -1,0 +1,87 @@
+{
+  "id": "1328910",
+  "readings": [
+    {
+      "kanaExpression": "はれる",
+      "rank": 14101
+    },
+    {
+      "kanjiExpression": "腫れる",
+      "furiganaExpression": [
+        {
+          "text": "腫",
+          "annotation": "は"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "脹れる",
+      "furiganaExpression": [
+        {
+          "text": "脹",
+          "annotation": "は"
+        },
+        {
+          "text": "れる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to swell (from inflammation)",
+        "to become swollen"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zwellen",
+        "opzwellen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "enfler (inflammation)",
+        "gonfler"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwellen",
+        "anschwellen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megdagad",
+        "megduzzad",
+        "megnagyobbodik",
+        "feldagad"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "опухать, пухнуть; вздуваться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inflarse",
+        "hincharse",
+        "abotargarse"
+      ]
+    }
+  ]
+}

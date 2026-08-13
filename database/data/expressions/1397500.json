@@ -1,0 +1,84 @@
+{
+  "id": "1397500",
+  "readings": [
+    {
+      "kanaExpression": "くみこみ",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "組み込み",
+      "furiganaExpression": [
+        {
+          "text": "組",
+          "annotation": "く"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "組込み",
+      "furiganaExpression": [
+        {
+          "text": "組",
+          "annotation": "くみ"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "組込",
+      "furiganaExpression": [
+        {
+          "text": "組",
+          "annotation": "くみ"
+        },
+        {
+          "text": "込",
+          "annotation": "こみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cut-in (printing)",
+        "insertion",
+        "inclusion",
+        "built-in",
+        "predefined",
+        "embedded (e.g. software)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Installation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "betét",
+        "reklámmelléklet"
+      ]
+    }
+  ]
+}

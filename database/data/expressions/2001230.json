@@ -1,0 +1,49 @@
+{
+  "id": "2001230",
+  "readings": [
+    {
+      "kanaExpression": "むとうはそう",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "無党派層",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        },
+        {
+          "text": "派",
+          "annotation": "は"
+        },
+        {
+          "text": "層",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unaffiliated voters",
+        "floating voters",
+        "swinging voters"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unabhängige Wähler",
+        "freie Wähler",
+        "Wechselwähler"
+      ]
+    }
+  ]
+}

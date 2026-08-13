@@ -1,0 +1,134 @@
+{
+  "id": "1481420",
+  "readings": [
+    {
+      "kanaExpression": "はんらん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "氾濫",
+      "furiganaExpression": [
+        {
+          "text": "氾",
+          "annotation": "はん"
+        },
+        {
+          "text": "濫",
+          "annotation": "らん"
+        }
+      ],
+      "rank": 12749
+    },
+    {
+      "kanjiExpression": "はん濫",
+      "furiganaExpression": [
+        {
+          "text": "はん"
+        },
+        {
+          "text": "濫",
+          "annotation": "らん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "汎濫",
+      "furiganaExpression": [
+        {
+          "text": "汎",
+          "annotation": "はん"
+        },
+        {
+          "text": "濫",
+          "annotation": "らん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "overflowing",
+        "flood",
+        "inundation",
+        "deluge",
+        "oversupply",
+        "plethora",
+        "abundance (esp. of something undesirable)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overstromen",
+        "overlopen",
+        "overvloeien",
+        "buiten de oevers treden",
+        "blank zetten",
+        "onder water zetten",
+        "inunderen",
+        "onderzetten",
+        "laten onderlopen",
+        "overspoelen",
+        "overstelpen",
+        "overstroming",
+        "watervloed",
+        "overvloeiing",
+        "{Ind.N.} bandjir",
+        "{fig.} zondvloed",
+        "vloed"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déborder",
+        "débordement",
+        "inondation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hochwasser",
+        "Überflutung",
+        "Überschwemmung",
+        "Überangebot",
+        "überfluten",
+        "überschwemmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "árvíz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "половодье, паводок; разлив; затопление",
+        "{～する} разливаться, выходить из берегов"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "poplava",
+        "razlitje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desbordarse",
+        "inundarse",
+        "inundación",
+        "desborde",
+        "desbordamiento",
+        "desenfreno"
+      ]
+    }
+  ]
+}

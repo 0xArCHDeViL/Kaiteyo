@@ -1,0 +1,62 @@
+{
+  "id": "1515150",
+  "readings": [
+    {
+      "kanaExpression": "ぼせん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "母船",
+      "furiganaExpression": [
+        {
+          "text": "母",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "船",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depot ship",
+        "mother ship"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moederschip"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mutterschiff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anyahajó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "судно-матка, плавучая база"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "depåfartyg"
+      ]
+    }
+  ]
+}

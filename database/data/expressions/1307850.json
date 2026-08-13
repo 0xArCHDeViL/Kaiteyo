@@ -1,0 +1,130 @@
+{
+  "id": "1307850",
+  "readings": [
+    {
+      "kanaExpression": "こども",
+      "rank": 4858
+    },
+    {
+      "kanjiExpression": "子供",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "供",
+          "annotation": "ども"
+        }
+      ],
+      "rank": 315
+    },
+    {
+      "kanjiExpression": "子ども",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "こ"
+        },
+        {
+          "text": "ども"
+        }
+      ],
+      "rank": 559
+    },
+    {
+      "kanjiExpression": "小供",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "供",
+          "annotation": "ども"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "child",
+        "children"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kind",
+        "jongen",
+        "meisje",
+        "{meton.} jonge harten",
+        "baby",
+        "zuigeling",
+        "nakomeling",
+        "zoon",
+        "dochter",
+        "kroost",
+        "afstammeling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "enfant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kind",
+        "Säugling",
+        "Baby",
+        "Kleinkind",
+        "Junge",
+        "Mädchen",
+        "eigenes Kind",
+        "Abkömmling",
+        "Spross"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyerek",
+        "gyermek",
+        "gyerekek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ребёнок, дитя; сын; дочь; дети",
+        "{～の} детский, ребяческий",
+        "{～のない} бездетный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "otrok",
+        "otroci"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "niño",
+        "niños"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "barn"
+      ]
+    }
+  ]
+}

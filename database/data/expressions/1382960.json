@@ -1,0 +1,91 @@
+{
+  "id": "1382960",
+  "readings": [
+    {
+      "kanaExpression": "つみたてる",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "積み立てる",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "積立てる",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つみ"
+        },
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "てる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to accumulate",
+        "to save"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sparen voor",
+        "opsparen",
+        "opzijleggen",
+        "wegleggen",
+        "opzijzetten",
+        "wegzetten",
+        "reserveren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurücklegen",
+        "ersparen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felhalmoz",
+        "felhalmozódik",
+        "megkímél",
+        "megtakarít",
+        "megvált",
+        "spórol",
+        "takarékoskodik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "накапливать, запасать, откладывать [про запас]; создавать резерв [накопления]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "1428070",
+  "readings": [
+    {
+      "kanaExpression": "ちょうそ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "彫塑",
+      "furiganaExpression": [
+        {
+          "text": "彫",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "塑",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "carving",
+        "engraving",
+        "clay model",
+        "plastic art"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beeldhouw- en boetseerkunst",
+        "plastiek",
+        "beeldende kunsten",
+        "plastische kunsten",
+        "boetseerwerk",
+        "boetseersel",
+        "kleibeeld",
+        "kleifiguur",
+        "kleiplastiek",
+        "gipswerk",
+        "gipsbeeld",
+        "gipsfiguur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gravure (activité)",
+        "sculpture",
+        "taille"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bildhauerei",
+        "Plastik",
+        "Tonfigur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ваяние и лепка; выполнение модели скульптуры в глине"
+      ]
+    }
+  ]
+}

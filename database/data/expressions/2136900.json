@@ -1,0 +1,71 @@
+{
+  "id": "2136900",
+  "readings": [
+    {
+      "kanaExpression": "うまれそだつ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "生まれ育つ",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "う"
+        },
+        {
+          "text": "まれ"
+        },
+        {
+          "text": "育",
+          "annotation": "そだ"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "生れ育つ",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "うま"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "育",
+          "annotation": "そだ"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be born and raised (in)",
+        "to be born and brought up",
+        "to be born and bred"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geboren en getogen",
+        "grootgebracht worden"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "roditi se in odrasti"
+      ]
+    }
+  ]
+}

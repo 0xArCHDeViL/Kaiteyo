@@ -1,0 +1,69 @@
+{
+  "id": "1561700",
+  "readings": [
+    {
+      "kanaExpression": "ろんこう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "論考",
+      "furiganaExpression": [
+        {
+          "text": "論",
+          "annotation": "ろん"
+        },
+        {
+          "text": "考",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "論攷",
+      "furiganaExpression": [
+        {
+          "text": "論",
+          "annotation": "ろん"
+        },
+        {
+          "text": "攷",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "study (of)",
+        "discussion",
+        "discourse",
+        "inquiry",
+        "research article",
+        "academic paper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abhandlung",
+        "Studie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "etűd",
+        "tanulás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[научная] статья, очерк"
+      ]
+    }
+  ]
+}

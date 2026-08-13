@@ -1,0 +1,56 @@
+{
+  "id": "1383100",
+  "readings": [
+    {
+      "kanaExpression": "つみたてきん",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "積立金",
+      "furiganaExpression": [
+        {
+          "text": "積",
+          "annotation": "つみ"
+        },
+        {
+          "text": "立",
+          "annotation": "たて"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reserve (fund)",
+        "deposit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurückgelegtes Geld",
+        "Rücklage",
+        "Reservefonds"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "foglaló"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "deponera"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1889480",
+  "readings": [
+    {
+      "kanaExpression": "そうきょく",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "箏曲",
+      "furiganaExpression": [
+        {
+          "text": "箏",
+          "annotation": "そう"
+        },
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "筝曲",
+      "furiganaExpression": [
+        {
+          "text": "筝",
+          "annotation": "そう"
+        },
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "koto music"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} koto-muziek",
+        "koto-stuk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sō-no-Koto-Musik",
+        "Koto-Musik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "музыка для кото"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1514880",
+  "readings": [
+    {
+      "kanaExpression": "ぼひ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "墓碑",
+      "furiganaExpression": [
+        {
+          "text": "墓",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "碑",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gravestone",
+        "tombstone"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pierre tombale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grabstein",
+        "Grabmal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sírkő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "надгробный камень"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "gravsten"
+      ]
+    }
+  ]
+}

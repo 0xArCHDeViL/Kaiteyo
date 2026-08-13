@@ -1,0 +1,168 @@
+{
+  "id": "1628530",
+  "readings": [
+    {
+      "kanaExpression": "これ",
+      "rank": 64
+    },
+    {
+      "kanjiExpression": "此れ",
+      "furiganaExpression": [
+        {
+          "text": "此",
+          "annotation": "こ"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "是",
+      "furiganaExpression": [
+        {
+          "text": "是",
+          "annotation": "これ"
+        }
+      ],
+      "rank": 7858
+    },
+    {
+      "kanjiExpression": "是れ",
+      "furiganaExpression": [
+        {
+          "text": "是",
+          "annotation": "こ"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "之",
+      "furiganaExpression": [
+        {
+          "text": "之",
+          "annotation": "これ"
+        }
+      ],
+      "rank": 4268
+    },
+    {
+      "kanjiExpression": "之れ",
+      "furiganaExpression": [
+        {
+          "text": "之",
+          "annotation": "こ"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "維",
+      "furiganaExpression": [
+        {
+          "text": "維",
+          "annotation": "これ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "惟",
+      "furiganaExpression": [
+        {
+          "text": "惟",
+          "annotation": "これ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "此",
+      "furiganaExpression": [
+        {
+          "text": "此",
+          "annotation": "これ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "this",
+        "this one",
+        "this person",
+        "now",
+        "this point (in time)",
+        "here",
+        "used to stress the subject of a sentence",
+        "I",
+        "me"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dit",
+        "deze",
+        "hallo!",
+        "zeg!",
+        "hei!"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ceci (indiquant un élément près du locuteur, de l\u0027action du locuteur, ou le sujet en cours)",
+        "maintenant",
+        "ici",
+        "je (moi)",
+        "certainement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dies",
+        "das hier",
+        "jetzt",
+        "diese Person"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "это",
+        "{～で} а) этим, из этого (изготовленный и т. п.); с помощью этого; б) на этом, здесь; а теперь",
+        "{～では} а) так, таким образом; б) при сложившихся обстоятельствах, при таких условиях, при таком положении дел",
+        "{～から} из (от) этого ((ср.) これから)",
+        "{～まで} до этого ((ср.) これまで)",
+        "(ср.) これは, これだけ, これぐらい, これぞ, これでも, これほど (и др.)",
+        "это (рядом с говорящим)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "esto",
+        "éste",
+        "ésta",
+        "éstos",
+        "éstas",
+        "esta persona",
+        "ahora",
+        "aquí",
+        "yo (mi)",
+        "claramente",
+        "por supuesto",
+        "seguramente",
+        "esta persona (usu. indicando a alguien del grupo)",
+        "Yo (mi)"
+      ]
+    }
+  ]
+}

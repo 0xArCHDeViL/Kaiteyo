@@ -1,0 +1,111 @@
+{
+  "id": "1586500",
+  "readings": [
+    {
+      "kanaExpression": "あてさき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "宛先",
+      "furiganaExpression": [
+        {
+          "text": "宛",
+          "annotation": "あて"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "宛て先",
+      "furiganaExpression": [
+        {
+          "text": "宛",
+          "annotation": "あ"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "あて先",
+      "furiganaExpression": [
+        {
+          "text": "あて"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "address",
+        "destination"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "adres",
+        "bestemming",
+        "geadresseerde",
+        "adressaat",
+        "{Belg.N.} bestemmeling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "adresse du destinataire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Adressat",
+        "Empfänger",
+        "Anschrift",
+        "Adresse (des Empfängers)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszéd",
+        "címzés",
+        "címzett"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "адрес, место назначения"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "naslov"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "destinatario"
+      ]
+    }
+  ]
+}

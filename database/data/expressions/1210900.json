@@ -1,0 +1,114 @@
+{
+  "id": "1210900",
+  "readings": [
+    {
+      "kanaExpression": "すすめ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "勧め",
+      "furiganaExpression": [
+        {
+          "text": "勧",
+          "annotation": "すす"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 2857
+    },
+    {
+      "kanjiExpression": "薦め",
+      "furiganaExpression": [
+        {
+          "text": "薦",
+          "annotation": "すす"
+        },
+        {
+          "text": "め"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "奨め",
+      "furiganaExpression": [
+        {
+          "text": "奨",
+          "annotation": "すす"
+        },
+        {
+          "text": "め"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "recommendation",
+        "advice",
+        "suggestion",
+        "encouragement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "advies",
+        "aanraden",
+        "raad",
+        "aansporing",
+        "aanmoediging",
+        "aanbeveling",
+        "aandrang",
+        "instantie",
+        "aanprijzing",
+        "voordracht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anraten",
+        "Zureden",
+        "Rat",
+        "Ratschlag",
+        "Anregung",
+        "Aufmunterung",
+        "Empfehlung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "javaslat",
+        "értesítés",
+        "tanács"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "совет, рекомендация"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "priporočilo",
+        "nasvet",
+        "vzpodbuda"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "recomendación",
+        "consejo",
+        "sugerencia"
+      ]
+    }
+  ]
+}

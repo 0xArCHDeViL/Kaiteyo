@@ -1,0 +1,76 @@
+{
+  "id": "1287210",
+  "readings": [
+    {
+      "kanaExpression": "こくれん",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "国連",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "連",
+          "annotation": "れん"
+        }
+      ],
+      "rank": 2029
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "United Nations",
+        "UN"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Verenigde Naties",
+        "{afk.} VN",
+        "{Eng.",
+        "afk.} UNO"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ONU",
+        "nations unies"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Uno",
+        "Vereinte Nationen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сокр.)",
+        "1) Объединённые Нации",
+        "2) ООН, Организация Объединённых Наций"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "Združeni narodi (ZN)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "la ONU (o UN",
+        "las Naciones Unidas)"
+      ]
+    }
+  ]
+}

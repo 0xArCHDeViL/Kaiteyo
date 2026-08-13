@@ -1,0 +1,37 @@
+{
+  "id": "1521010",
+  "readings": [
+    {
+      "kanaExpression": "ほっこう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "北郊",
+      "furiganaExpression": [
+        {
+          "text": "北",
+          "annotation": "ほっ"
+        },
+        {
+          "text": "郊",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "northern suburbs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nördlicher Vorort"
+      ]
+    }
+  ]
+}

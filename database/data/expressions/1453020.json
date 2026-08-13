@@ -1,0 +1,64 @@
+{
+  "id": "1453020",
+  "readings": [
+    {
+      "kanaExpression": "どうぞく",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "同族",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "族",
+          "annotation": "ぞく"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "same family (race, tribe)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hetzelfde ras",
+        "dezelfde stam",
+        "verwantschap",
+        "dezelfde familie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die gleiche Familie",
+        "derselbe Clan",
+        "dieselbe Sippe",
+        "dieselbe Rasse"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) та же раса (нация); то же племя",
+        "2) та же семья; тот же род"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "de la misma familia",
+        "clan",
+        "etnia o grupo"
+      ]
+    }
+  ]
+}

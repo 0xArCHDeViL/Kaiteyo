@@ -1,0 +1,66 @@
+{
+  "id": "1373390",
+  "readings": [
+    {
+      "kanaExpression": "すうせい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "趨勢",
+      "furiganaExpression": [
+        {
+          "text": "趨",
+          "annotation": "すう"
+        },
+        {
+          "text": "勢",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "すう勢",
+      "furiganaExpression": [
+        {
+          "text": "すう"
+        },
+        {
+          "text": "勢",
+          "annotation": "せい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tendency",
+        "trend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tendenz",
+        "Trend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "irányzat",
+        "tendencia",
+        "áramlat",
+        "irány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тенденция; положение"
+      ]
+    }
+  ]
+}

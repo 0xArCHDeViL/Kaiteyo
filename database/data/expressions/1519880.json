@@ -1,0 +1,75 @@
+{
+  "id": "1519880",
+  "readings": [
+    {
+      "kanaExpression": "つむぐ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "紡ぐ",
+      "furiganaExpression": [
+        {
+          "text": "紡",
+          "annotation": "つむ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to spin",
+        "to make yarn",
+        "to spin (a tale)",
+        "to assemble (e.g. words)",
+        "to put together"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "spinnen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faire du fil",
+        "filer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "spinnen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megforgat",
+        "megperdít",
+        "megperdül",
+        "perdít",
+        "perdül"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прясть, сучить нить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hilar"
+      ]
+    }
+  ]
+}

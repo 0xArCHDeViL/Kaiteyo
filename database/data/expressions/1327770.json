@@ -1,0 +1,109 @@
+{
+  "id": "1327770",
+  "readings": [
+    {
+      "kanaExpression": "てくび",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "手首",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "首",
+          "annotation": "くび"
+        }
+      ],
+      "rank": 10374
+    },
+    {
+      "kanjiExpression": "手頸",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "頸",
+          "annotation": "くび"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "手頚",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "頚",
+          "annotation": "くび"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wrist"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pols",
+        "handwortel",
+        "{anat.} achterhand",
+        "{anat.",
+        "Lat.} carpus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "poignet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Handgelenk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csukló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запястье"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zapestje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "muñeca (de la mano)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "handled"
+      ]
+    }
+  ]
+}

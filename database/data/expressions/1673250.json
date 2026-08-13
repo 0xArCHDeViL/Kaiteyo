@@ -1,0 +1,50 @@
+{
+  "id": "1673250",
+  "readings": [
+    {
+      "kanaExpression": "むかしつせきにん",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "無過失責任",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "過",
+          "annotation": "か"
+        },
+        {
+          "text": "失",
+          "annotation": "しつ"
+        },
+        {
+          "text": "責",
+          "annotation": "せき"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "no-fault liability"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gefährdungshaftung",
+        "verschuldensunabhängige Haftung"
+      ]
+    }
+  ]
+}

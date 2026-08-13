@@ -1,0 +1,45 @@
+{
+  "id": "1941120",
+  "readings": [
+    {
+      "kanaExpression": "せんきょこうほう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "選挙公報",
+      "furiganaExpression": [
+        {
+          "text": "選",
+          "annotation": "せん"
+        },
+        {
+          "text": "挙",
+          "annotation": "きょ"
+        },
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "報",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "official gazette for elections"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wahlinformation durch die Wahlkommission über Namen, Karriere etc. der Kandidaten"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "1456950",
+  "readings": [
+    {
+      "kanaExpression": "つっぱしる",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "突っ走る",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "走",
+          "annotation": "ぱし"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to run swiftly",
+        "to speed",
+        "to dash",
+        "to rush",
+        "to race",
+        "to charge ahead (in pursuit of some goal)",
+        "to push forward"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mit voller Geschwindigkeit laufen",
+        "rennen",
+        "losstürmen",
+        "unüberlegt handeln"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бежать стремглав, мчаться"
+      ]
+    }
+  ]
+}

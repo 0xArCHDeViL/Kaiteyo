@@ -1,0 +1,62 @@
+{
+  "id": "1612280",
+  "readings": [
+    {
+      "kanaExpression": "りょうくう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "領空",
+      "furiganaExpression": [
+        {
+          "text": "領",
+          "annotation": "りょう"
+        },
+        {
+          "text": "空",
+          "annotation": "くう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "territorial airspace"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "territoriale luchtruim"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "espace aérien territorial"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "territorialer Luftraum",
+        "Lufthoheitsgebiet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воздушное пространство (принадлежащее какому-л. государству)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "espacio aereo territorial"
+      ]
+    }
+  ]
+}

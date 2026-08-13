@@ -1,0 +1,48 @@
+{
+  "id": "1624020",
+  "readings": [
+    {
+      "kanaExpression": "どくガス",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "毒ガス",
+      "furiganaExpression": [
+        {
+          "text": "毒",
+          "annotation": "どく"
+        },
+        {
+          "text": "ガス"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "poison gas"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Giftgas"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gas venenoso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "giftgas"
+      ]
+    }
+  ]
+}

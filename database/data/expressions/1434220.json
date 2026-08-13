@@ -1,0 +1,39 @@
+{
+  "id": "1434220",
+  "readings": [
+    {
+      "kanaExpression": "ていい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "低位",
+      "furiganaExpression": [
+        {
+          "text": "低",
+          "annotation": "てい"
+        },
+        {
+          "text": "位",
+          "annotation": "い"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lower position"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "niedriger Rang",
+        "niedrige Position",
+        "Niedrigkeit des Ranges"
+      ]
+    }
+  ]
+}

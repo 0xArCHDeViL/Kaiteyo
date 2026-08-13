@@ -1,0 +1,63 @@
+{
+  "id": "1185180",
+  "readings": [
+    {
+      "kanaExpression": "したどり",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "下取り",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "取",
+          "annotation": "ど"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trade-in",
+        "part exchange"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ter inruil aannemen",
+        "inruil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in Zahlung nehmen",
+        "Inzahlungnahme"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odkupiti star predmet in ga všteti v kupnino za novi predmet",
+        "vzeti kaj kot del kupnine za kaj drugega",
+        "prodati po sistemu \"staro za novo\""
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "permuta"
+      ]
+    }
+  ]
+}

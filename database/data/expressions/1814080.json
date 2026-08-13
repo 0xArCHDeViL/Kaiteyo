@@ -1,0 +1,48 @@
+{
+  "id": "1814080",
+  "readings": [
+    {
+      "kanaExpression": "さんかいき",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "三回忌",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "回",
+          "annotation": "かい"
+        },
+        {
+          "text": "忌",
+          "annotation": "き"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "second anniversary of a death"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die zweite Wiederkehr des Todestages",
+        "Gottesdienst anlässlich der zweiten Wiederkehr des Todestages"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(буд.) третья годовщина смерти"
+      ]
+    }
+  ]
+}

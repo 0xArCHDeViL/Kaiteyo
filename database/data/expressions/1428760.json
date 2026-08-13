@@ -1,0 +1,130 @@
+{
+  "id": "1428760",
+  "readings": [
+    {
+      "kanaExpression": "まちはずれ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "町外れ",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "まち"
+        },
+        {
+          "text": "外",
+          "annotation": "はず"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "街外れ",
+      "furiganaExpression": [
+        {
+          "text": "街",
+          "annotation": "まち"
+        },
+        {
+          "text": "外",
+          "annotation": "はず"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "町はずれ",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "まち"
+        },
+        {
+          "text": "はずれ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "街はずれ",
+      "furiganaExpression": [
+        {
+          "text": "街",
+          "annotation": "まち"
+        },
+        {
+          "text": "はずれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outskirts (of a town)",
+        "edge (of a town)",
+        "just outside the city limits"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rand",
+        "randgebied",
+        "buitenwijken",
+        "periferie van de stad"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "banlieue",
+        "faubourgs",
+        "périphérie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorstadt",
+        "Stadtrand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "környéke vminek",
+        "külváros",
+        "vminek a környéke"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окраина [города]; предместье, пригород"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "rob mesta",
+        "obmestje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "afueras",
+        "alrededores de la ciudad",
+        "etc"
+      ]
+    }
+  ]
+}

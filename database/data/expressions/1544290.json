@@ -1,0 +1,56 @@
+{
+  "id": "1544290",
+  "readings": [
+    {
+      "kanaExpression": "よしん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "余震",
+      "furiganaExpression": [
+        {
+          "text": "余",
+          "annotation": "よ"
+        },
+        {
+          "text": "震",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "aftershock"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachbeben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "utólökés",
+        "utórezgés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "толчки, следующие после главного толчка (при землетрясении)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "réplica (de un terremoto)"
+      ]
+    }
+  ]
+}

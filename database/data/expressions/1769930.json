@@ -1,0 +1,74 @@
+{
+  "id": "1769930",
+  "readings": [
+    {
+      "kanaExpression": "もちぶん",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "持ち分",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "持分",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "もち"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "share (of expenses)",
+        "equity (in company)",
+        "holdings",
+        "interest (in company)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anteil",
+        "Quote",
+        "anteilsmäßiger Besitz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ekevas",
+        "kvóta",
+        "részvény",
+        "méltányosság",
+        "figyelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доля, пай"
+      ]
+    }
+  ]
+}

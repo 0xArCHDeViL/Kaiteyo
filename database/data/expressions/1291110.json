@@ -1,0 +1,147 @@
+{
+  "id": "1291110",
+  "readings": [
+    {
+      "kanaExpression": "さしおさえ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "差し押さえ",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "さえ"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "差押え",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "押",
+          "annotation": "おさ"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差し押え",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "押",
+          "annotation": "おさ"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差押さえ",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "さえ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差押",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "押",
+          "annotation": "おさえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "seizure",
+        "attachment",
+        "foreclosure"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} beslaglegging",
+        "inbeslagneming",
+        "beslag",
+        "arrestatie",
+        "arrest",
+        "benadering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beschlagnahme",
+        "Pfändung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elkobzás",
+        "elkobzott dolog",
+        "lefoglalás",
+        "lefoglalt áru",
+        "tartozék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наложение запрещения (ареста); опись (имущества); секвестр"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "embargo",
+        "traba",
+        "confiscación",
+        "incautación",
+        "decomiso"
+      ]
+    }
+  ]
+}

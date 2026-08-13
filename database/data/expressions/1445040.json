@@ -1,0 +1,73 @@
+{
+  "id": "1445040",
+  "readings": [
+    {
+      "kanaExpression": "とない",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "都内",
+      "furiganaExpression": [
+        {
+          "text": "都",
+          "annotation": "と"
+        },
+        {
+          "text": "内",
+          "annotation": "ない"
+        }
+      ],
+      "rank": 5395
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "within the (Tokyo) metropolitan area"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "in de hoofdstad",
+        "in Tokio",
+        "in",
+        "binnen de metropool"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "à Tokyo",
+        "dans Tokyo"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in Tōkyō",
+        "innerhalb der Stadt Tōkyō"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nagy London"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "в городе",
+        "{～の} городской (о Токио, Осака и Киото)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "área metropolitana"
+      ]
+    }
+  ]
+}

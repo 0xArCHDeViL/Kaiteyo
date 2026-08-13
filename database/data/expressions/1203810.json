@@ -1,0 +1,63 @@
+{
+  "id": "1203810",
+  "readings": [
+    {
+      "kanaExpression": "がいしょう",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "外傷",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "傷",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 10697
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "external wound",
+        "(physical) trauma"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitwendige wond",
+        "uitwendig letsel",
+        "uitwendige verwonding",
+        "kwetsuur",
+        "{geneesk.",
+        "psych.} trauma",
+        "{geneesk.} laesie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "äußere Verletzung",
+        "Trauma"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "trauma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наружная рана, поверхностное ранение, внешняя травма"
+      ]
+    }
+  ]
+}

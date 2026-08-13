@@ -1,0 +1,76 @@
+{
+  "id": "1253040",
+  "readings": [
+    {
+      "kanaExpression": "けいらん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "鶏卵",
+      "furiganaExpression": [
+        {
+          "text": "鶏",
+          "annotation": "けい"
+        },
+        {
+          "text": "卵",
+          "annotation": "らん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "鷄卵",
+      "furiganaExpression": [
+        {
+          "text": "鷄",
+          "annotation": "けい"
+        },
+        {
+          "text": "卵",
+          "annotation": "らん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hen\u0027s egg"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoenderei",
+        "kippenei",
+        "hennenei"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "œuf de poule"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hühnerei"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) куриное яйцо"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "huevo de gallina"
+      ]
+    }
+  ]
+}

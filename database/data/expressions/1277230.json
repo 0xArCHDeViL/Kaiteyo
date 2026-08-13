@@ -1,0 +1,76 @@
+{
+  "id": "1277230",
+  "readings": [
+    {
+      "kanaExpression": "こうご",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "きょうこう",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "きょうご"
+    },
+    {
+      "kanjiExpression": "向後",
+      "furiganaExpression": [
+        {
+          "text": "向",
+          "annotation": "こう"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "嚮後",
+      "furiganaExpression": [
+        {
+          "text": "嚮",
+          "annotation": "こう"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hereafter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "von jetzt an",
+        "von nun an",
+        "künftig",
+        "in Zukunft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) впредь, отныне, в будущем",
+        "(кн.) потом, впоследствии"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "de aquí en adelante",
+        "de ahora en adelante",
+        "en lo sucesivo",
+        "en el futuro"
+      ]
+    }
+  ]
+}

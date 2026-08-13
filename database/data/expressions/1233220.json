@@ -1,0 +1,60 @@
+{
+  "id": "1233220",
+  "readings": [
+    {
+      "kanaExpression": "ぎょるい",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "魚類",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fish",
+        "fishes"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} vis",
+        "vissen",
+        "Pisces"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "les poissons"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fische",
+        "Fischarten",
+        "Pisces"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(зоол.) рыбы"
+      ]
+    }
+  ]
+}

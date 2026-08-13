@@ -1,0 +1,70 @@
+{
+  "id": "1214740",
+  "readings": [
+    {
+      "kanaExpression": "かんたい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "艦隊",
+      "furiganaExpression": [
+        {
+          "text": "艦",
+          "annotation": "かん"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 9878
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(naval) fleet",
+        "armada"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} vloot",
+        "armada"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "escadrille",
+        "flotte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegsflotte",
+        "Flottille",
+        "Geschwader",
+        "Armada"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "flotta",
+        "hajóhad",
+        "hajóraj",
+        "armada"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "эскадра, флот; флотилия; армада"
+      ]
+    }
+  ]
+}

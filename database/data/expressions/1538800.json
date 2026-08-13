@@ -1,0 +1,46 @@
+{
+  "id": "1538800",
+  "readings": [
+    {
+      "kanaExpression": "ゆえき",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "輸液",
+      "furiganaExpression": [
+        {
+          "text": "輸",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "液",
+          "annotation": "えき"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transfusion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Infusion",
+        "Transfusion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átömlesztés",
+        "elkeveredés",
+        "transzfúzió"
+      ]
+    }
+  ]
+}

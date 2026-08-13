@@ -1,0 +1,87 @@
+{
+  "id": "1594140",
+  "readings": [
+    {
+      "kanaExpression": "いきち",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "しきいち",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "閾値",
+      "furiganaExpression": [
+        {
+          "text": "閾",
+          "annotation": "いき"
+        },
+        {
+          "text": "値",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "しきい値",
+      "furiganaExpression": [
+        {
+          "text": "しきい"
+        },
+        {
+          "text": "値",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "いき値",
+      "furiganaExpression": [
+        {
+          "text": "いき"
+        },
+        {
+          "text": "値",
+          "annotation": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "threshold (amount, dose, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwellwert",
+        "Grenzwert",
+        "Reizschwelle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "küszöb",
+        "küszöbérték"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "umbral (valor mínimo, necesario)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tröskel"
+      ]
+    }
+  ]
+}

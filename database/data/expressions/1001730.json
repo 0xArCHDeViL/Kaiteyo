@@ -1,0 +1,95 @@
+{
+  "id": "1001730",
+  "readings": [
+    {
+      "kanaExpression": "おねがいいたします",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お願いいたします",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "いいたします"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お願い致します",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "致",
+          "annotation": "いた"
+        },
+        {
+          "text": "します"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御願い致します",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "致",
+          "annotation": "いた"
+        },
+        {
+          "text": "します"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御願いいたします",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "いいたします"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "please"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "1612540",
+  "readings": [
+    {
+      "kanaExpression": "ふれあい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "触れ合い",
+      "furiganaExpression": [
+        {
+          "text": "触",
+          "annotation": "ふ"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "ふれ合い",
+      "furiganaExpression": [
+        {
+          "text": "ふれ"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "触合い",
+      "furiganaExpression": [
+        {
+          "text": "触",
+          "annotation": "ふれ"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "contact",
+        "connectedness",
+        "rapport",
+        "mutual touching"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "attouchement",
+        "contact"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kontakt",
+        "Verhältnis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érintkezés",
+        "villanykapcsoló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соприкосновение; общение (с кем-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dotikati se"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "contacto"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kontakt"
+      ]
+    }
+  ]
+}

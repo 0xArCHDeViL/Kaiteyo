@@ -1,0 +1,53 @@
+{
+  "id": "1657330",
+  "readings": [
+    {
+      "kanaExpression": "こっけん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "国権",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こっ"
+        },
+        {
+          "text": "権",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "power of the state",
+        "national sovereignty",
+        "sovereign rights"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Staatsgewalt",
+        "staatliche Souveränität"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) могущество (престиж) государства"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "autoridad del estado",
+        "poder del estado"
+      ]
+    }
+  ]
+}

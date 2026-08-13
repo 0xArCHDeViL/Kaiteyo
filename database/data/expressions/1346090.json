@@ -1,0 +1,71 @@
+{
+  "id": "1346090",
+  "readings": [
+    {
+      "kanaExpression": "かちこし",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "勝ち越し",
+      "furiganaExpression": [
+        {
+          "text": "勝",
+          "annotation": "か"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "越",
+          "annotation": "こ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "having more wins than losses",
+        "taking the lead (in points, goals, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "positief wedstrijdsaldo",
+        "het behaald hebben van meer overwinningen dan nederlagen",
+        "{sumō-jargon} acht overwinningen of meer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "plus de victoires que de défaites (en sport)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Punktevorsprung",
+        "Punktführung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выигрыш; перевес в счёте выигранных партий"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "más ganadas que perdidas (deportes)"
+      ]
+    }
+  ]
+}

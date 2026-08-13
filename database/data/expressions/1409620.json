@@ -1,0 +1,66 @@
+{
+  "id": "1409620",
+  "readings": [
+    {
+      "kanaExpression": "たいちょう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "体長",
+      "furiganaExpression": [
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "長",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "length (of an animal)",
+        "body length"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{動物の} lichaamslengte",
+        "lengte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "longueur d\u0027un animal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Körperlänge",
+        "Länge (z. B. eines Tieres)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "длина тела (животного)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "longitud",
+        "largura",
+        "largo"
+      ]
+    }
+  ]
+}

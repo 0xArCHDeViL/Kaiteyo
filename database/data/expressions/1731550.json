@@ -1,0 +1,46 @@
+{
+  "id": "1731550",
+  "readings": [
+    {
+      "kanaExpression": "みっそう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "密葬",
+      "furiganaExpression": [
+        {
+          "text": "密",
+          "annotation": "みっ"
+        },
+        {
+          "text": "葬",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "private funeral",
+        "secret burial"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heimliche Beerdigung",
+        "Beerdigung im engsten Kreis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) тайные похороны",
+        "2) кремация по обрядам эзотерического буддизма"
+      ]
+    }
+  ]
+}

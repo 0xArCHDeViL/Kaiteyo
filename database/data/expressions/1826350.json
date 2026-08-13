@@ -1,0 +1,51 @@
+{
+  "id": "1826350",
+  "readings": [
+    {
+      "kanaExpression": "ふこくきょうへい",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "富国強兵",
+      "furiganaExpression": [
+        {
+          "text": "富",
+          "annotation": "ふ"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "強",
+          "annotation": "きょう"
+        },
+        {
+          "text": "兵",
+          "annotation": "へい"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "enrich the country, strengthen the army"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bereicherung des Landes und Stärkung des Militärs (Basispolitik der Meiji-Regierung)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "богатая страна и сильная армия (древний лозунг)"
+      ]
+    }
+  ]
+}

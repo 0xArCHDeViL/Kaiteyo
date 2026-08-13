@@ -1,0 +1,108 @@
+{
+  "id": "1596450",
+  "readings": [
+    {
+      "kanaExpression": "そうてい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "装丁",
+      "furiganaExpression": [
+        {
+          "text": "装",
+          "annotation": "そう"
+        },
+        {
+          "text": "丁",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "装幀",
+      "furiganaExpression": [
+        {
+          "text": "装",
+          "annotation": "そう"
+        },
+        {
+          "text": "幀",
+          "annotation": "てい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "装釘",
+      "furiganaExpression": [
+        {
+          "text": "装",
+          "annotation": "そう"
+        },
+        {
+          "text": "釘",
+          "annotation": "てい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "装訂",
+      "furiganaExpression": [
+        {
+          "text": "装",
+          "annotation": "そう"
+        },
+        {
+          "text": "訂",
+          "annotation": "てい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "binding (of a book)",
+        "design (of a book cover)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{本を} boekbinden",
+        "binden",
+        "boeken ontwerpen",
+        "het boekbinden",
+        "het binden",
+        "band",
+        "bindwerk",
+        "boekdesign"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Buch binden",
+        "Einband",
+        "Einbandgestaltung",
+        "Aufmachung",
+        "Ausstattung (eines Buches)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kötelező",
+        "ívnagyság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переплёт (книги)",
+        "{～する} переплетать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1221960",
+  "readings": [
+    {
+      "kanaExpression": "きか",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "気化",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vaporization",
+        "vaporisation",
+        "evaporation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verdampfen",
+        "verdunsten",
+        "sich verflüchtigen",
+        "sich vergasen",
+        "Verdampfung",
+        "Verdunstung",
+        "Verflüchtigung",
+        "Vergasung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elgőzölögtetés",
+        "párologtatás",
+        "permetszerű szórás",
+        "porlasztás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "парообразование; испарение; выпаривание; газификация; карбюрация",
+        "{～する} превращать[ся] в пар (газ); выпаривать[ся]; испарять[ся]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vaporización"
+      ]
+    }
+  ]
+}

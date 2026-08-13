@@ -1,0 +1,75 @@
+{
+  "id": "1428120",
+  "readings": [
+    {
+      "kanaExpression": "ちょうぜい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "徴税",
+      "furiganaExpression": [
+        {
+          "text": "徴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "税",
+          "annotation": "ぜい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tax collection",
+        "taxation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "belasting innen",
+        "heffen",
+        "ontvangen",
+        "belastinginning",
+        "belastingheffing",
+        "belastingontvangst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "collecte d\u0027impôt",
+        "impôt",
+        "taxation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steuern erheben",
+        "Steuern einnehmen",
+        "Steuererhebung",
+        "Steuereinnahme",
+        "erhobene Steuer",
+        "eingenommene Steuer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adózás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "взимание (сбор) налогов",
+        "{～する} взимать налоги"
+      ]
+    }
+  ]
+}

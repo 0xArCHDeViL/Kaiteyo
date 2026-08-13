@@ -1,0 +1,63 @@
+{
+  "id": "1635330",
+  "readings": [
+    {
+      "kanaExpression": "じつげつ",
+      "rank": 37000
+    },
+    {
+      "kanaExpression": "にちげつ"
+    },
+    {
+      "kanjiExpression": "日月",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "じつ"
+        },
+        {
+          "text": "月",
+          "annotation": "げつ"
+        }
+      ],
+      "rank": 8821
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sun and moon",
+        "time",
+        "days and months",
+        "years",
+        "Sunday and Monday"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sonne und Mond",
+        "Zeit",
+        "Tage und Monate",
+        "Jahre"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "időmérés",
+        "időpont",
+        "időszámítás",
+        "szabadidő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "солнце и луна",
+        "дни и месяцы; (обр.) время"
+      ]
+    }
+  ]
+}

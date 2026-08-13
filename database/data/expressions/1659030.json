@@ -1,0 +1,42 @@
+{
+  "id": "1659030",
+  "readings": [
+    {
+      "kanaExpression": "とりしまりほう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "取締法",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "締",
+          "annotation": "しまり"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "control law"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kontrollgesetz",
+        "Drogenkontrollgesetz"
+      ]
+    }
+  ]
+}

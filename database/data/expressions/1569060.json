@@ -1,0 +1,113 @@
+{
+  "id": "1569060",
+  "readings": [
+    {
+      "kanaExpression": "くんじょう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "燻蒸",
+      "furiganaExpression": [
+        {
+          "text": "燻",
+          "annotation": "くん"
+        },
+        {
+          "text": "蒸",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "くん蒸",
+      "furiganaExpression": [
+        {
+          "text": "くん"
+        },
+        {
+          "text": "蒸",
+          "annotation": "じょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "薫蒸",
+      "furiganaExpression": [
+        {
+          "text": "薫",
+          "annotation": "くん"
+        },
+        {
+          "text": "蒸",
+          "annotation": "じょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "熏蒸",
+      "furiganaExpression": [
+        {
+          "text": "熏",
+          "annotation": "くん"
+        },
+        {
+          "text": "蒸",
+          "annotation": "じょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fumigation",
+        "smoking (out)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fumigatie",
+        "uitroking",
+        "{硫黄での～} uitzwaveling",
+        "vergassing",
+        "fumigeren",
+        "uitroken",
+        "{硫黄で～} uitzwavelen",
+        "vergassen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausräuchern",
+        "Vernichtung durch Rauch (z. B. Insekten)",
+        "ausräuchern",
+        "mit Rauch vernichten (z. B. Insekten)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fertőtlenítés",
+        "füstölő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окуривание",
+        "{～する} окуривать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fumigación",
+        "sulfatado"
+      ]
+    }
+  ]
+}

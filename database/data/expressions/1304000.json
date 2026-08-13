@@ -1,0 +1,85 @@
+{
+  "id": "1304000",
+  "readings": [
+    {
+      "kanaExpression": "かいこ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "カイコ"
+    },
+    {
+      "kanjiExpression": "蚕",
+      "furiganaExpression": [
+        {
+          "text": "蚕",
+          "annotation": "かいこ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "蠶",
+      "furiganaExpression": [
+        {
+          "text": "蠶",
+          "annotation": "かいこ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "silkworm (Bombyx mori)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.",
+        "entom.} zijderups",
+        "Bombyx mori"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ver à soie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seidenraupe",
+        "Bombyx mori"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "selyemhernyó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шелковичный червь, тутовый шелкопряд"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gusano de seda (Bombyx Mori)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "silkeslarv",
+        "silkesmask"
+      ]
+    }
+  ]
+}

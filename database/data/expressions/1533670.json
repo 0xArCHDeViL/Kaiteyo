@@ -1,0 +1,80 @@
+{
+  "id": "1533670",
+  "readings": [
+    {
+      "kanaExpression": "もしゃ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "模写",
+      "furiganaExpression": [
+        {
+          "text": "模",
+          "annotation": "も"
+        },
+        {
+          "text": "写",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "摸写",
+      "furiganaExpression": [
+        {
+          "text": "摸",
+          "annotation": "も"
+        },
+        {
+          "text": "写",
+          "annotation": "しゃ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "copy (of the real thing)",
+        "copying",
+        "reproduction",
+        "tracing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kopieren",
+        "abschreiben",
+        "abmalen",
+        "nachzeichnen",
+        "Kopie",
+        "Replik",
+        "Abschrift",
+        "Abbild",
+        "Imitation",
+        "Nachbildung",
+        "Nachahmung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "másolat",
+        "szaporodás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "копия (картины)",
+        "репродукция",
+        "1) копирование",
+        "{～する} копировать, снимать копию; делать репродукцию",
+        "2) копия; репродукция; факсимиле"
+      ]
+    }
+  ]
+}

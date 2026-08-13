@@ -1,0 +1,70 @@
+{
+  "id": "1648640",
+  "readings": [
+    {
+      "kanaExpression": "そうこう",
+      "rank": 12344
+    },
+    {
+      "kanjiExpression": "奏功",
+      "furiganaExpression": [
+        {
+          "text": "奏",
+          "annotation": "そう"
+        },
+        {
+          "text": "功",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "success",
+        "achievement",
+        "fruition"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slagen",
+        "succes hebben",
+        "kennen",
+        "succesvol zijn",
+        "gelukken",
+        "vrucht dragen",
+        "vruchten afwerpen",
+        "goed uitvallen",
+        "een prestatie leveren",
+        "succes",
+        "het slagen",
+        "positief resultaat",
+        "vervulling",
+        "prestatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erfolg haben",
+        "Wirkung haben",
+        "erfolgreich verlaufen",
+        "gelingen",
+        "Erfolg",
+        "Wirkung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megvalósulás",
+        "teljesülés"
+      ]
+    }
+  ]
+}

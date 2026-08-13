@@ -1,0 +1,58 @@
+{
+  "id": "1315550",
+  "readings": [
+    {
+      "kanaExpression": "もちよる",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "持ち寄る",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to gather (bringing something)",
+        "to gather (to exchange something)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beitragen",
+        "mitbringen",
+        "einbringen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyülekszik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приносить (вносить) свою долю; вносить свою лепту, делать свой вклад"
+      ]
+    }
+  ]
+}

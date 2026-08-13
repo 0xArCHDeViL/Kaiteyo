@@ -1,0 +1,57 @@
+{
+  "id": "1265520",
+  "readings": [
+    {
+      "kanaExpression": "ふるて",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "古手",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "ふる"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "used article",
+        "worn-out article",
+        "veteran",
+        "old-timer",
+        "long-serving employee",
+        "long-established (way, method, etc.)",
+        "old",
+        "commonplace",
+        "stale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verbraucht",
+        "abgenutzt",
+        "altgedient",
+        "gebrauchte Artikel",
+        "alte Möbel",
+        "jmd. Altgedientes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) бывшая в употреблении вещь",
+        "2) бывший, отставной, в отставке"
+      ]
+    }
+  ]
+}

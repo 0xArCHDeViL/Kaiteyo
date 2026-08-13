@@ -1,0 +1,77 @@
+{
+  "id": "1348630",
+  "readings": [
+    {
+      "kanaExpression": "こむぎ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "小麦",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "麦",
+          "annotation": "むぎ"
+        }
+      ],
+      "rank": 11473
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wheat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gewone tarwe",
+        "{gew.} amelkoren",
+        "{gew.} weit",
+        "Triticum aestivum"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "blé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Weizen",
+        "Triticum aestivum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "búza"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пшеница, Triticum sativum (L.) var. vulgaris"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "trigo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vete"
+      ]
+    }
+  ]
+}

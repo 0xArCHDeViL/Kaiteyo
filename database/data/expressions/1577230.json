@@ -1,0 +1,46 @@
+{
+  "id": "1577230",
+  "readings": [
+    {
+      "kanaExpression": "なつくさ",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "なつぐさ"
+    },
+    {
+      "kanjiExpression": "夏草",
+      "furiganaExpression": [
+        {
+          "text": "夏",
+          "annotation": "なつ"
+        },
+        {
+          "text": "草",
+          "annotation": "くさ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "summer grass"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sommergras"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "летняя трава, трава летом"
+      ]
+    }
+  ]
+}

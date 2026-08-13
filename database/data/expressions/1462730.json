@@ -1,0 +1,91 @@
+{
+  "id": "1462730",
+  "readings": [
+    {
+      "kanaExpression": "にど",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "二度",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "２度",
+      "furiganaExpression": [
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "two times",
+        "twice",
+        "two degrees"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tweemaal",
+        "twee keer",
+        "eens zo …",
+        "tweevoud",
+        "tweevoudig",
+        "{arch.} tweewerf",
+        "opnieuw",
+        "weer",
+        "nog eens",
+        "nog een keer",
+        "nog eenmaal",
+        "ten tweeden male",
+        "overnieuw",
+        "nogmaals",
+        "wederom",
+        "andermaal",
+        "(voor) een tweede keer",
+        "bis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zwei Mal",
+        "Sekunde"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дважды, два раза; второй раз, вторично; снова",
+        "{～にする} повторять, делать второй раз",
+        "{～とない} неповторимый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "segunda vez",
+        "dos grados"
+      ]
+    }
+  ]
+}

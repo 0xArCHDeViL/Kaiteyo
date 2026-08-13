@@ -1,0 +1,113 @@
+{
+  "id": "1578070",
+  "readings": [
+    {
+      "kanaExpression": "おどかす",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "脅かす",
+      "furiganaExpression": [
+        {
+          "text": "脅",
+          "annotation": "おど"
+        },
+        {
+          "text": "かす"
+        }
+      ],
+      "rank": 8511
+    },
+    {
+      "kanjiExpression": "嚇かす",
+      "furiganaExpression": [
+        {
+          "text": "嚇",
+          "annotation": "おど"
+        },
+        {
+          "text": "かす"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "威かす",
+      "furiganaExpression": [
+        {
+          "text": "威",
+          "annotation": "おど"
+        },
+        {
+          "text": "かす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to threaten",
+        "to menace",
+        "to intimidate",
+        "to startle",
+        "to frighten",
+        "to scare"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dreigen",
+        "bedreigen",
+        "afdreigen",
+        "vrees aanjagen",
+        "bang maken",
+        "in het nauw brengen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "menacer",
+        "surprendre",
+        "étonner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bedrohen",
+        "einschüchtern",
+        "erpressen",
+        "erschrecken",
+        "überraschen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elnyom",
+        "kényszerít",
+        "korlátoz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "угрожать, грозить, пугать, запугивать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "espantar",
+        "intimidar",
+        "asustar",
+        "amedrentar",
+        "amenazar",
+        "sorprender"
+      ]
+    }
+  ]
+}

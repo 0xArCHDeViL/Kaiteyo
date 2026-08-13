@@ -1,0 +1,86 @@
+{
+  "id": "1455720",
+  "readings": [
+    {
+      "kanaExpression": "どくがく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "独学",
+      "furiganaExpression": [
+        {
+          "text": "独",
+          "annotation": "どく"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 13909
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "self-education",
+        "self-instruction",
+        "self-study"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "individueel studeren",
+        "leren",
+        "studeren zonder leermeester",
+        "zelfstudie",
+        "zelfonderricht",
+        "zelfinstructie",
+        "eigen studie",
+        "autodidactiek"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "autodidacte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "autodidaktisch",
+        "autodidaktisch lernen",
+        "als Autodidakt lernen",
+        "Selbststudium",
+        "Selbstunterricht",
+        "autodidaktisches Lernen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "самообразование",
+        "{～で} самоучкой",
+        "{～する} изучать самостоятельно"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "samoizobraževanje",
+        "samouk",
+        "samoučenje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estudiar de modo autodidacta",
+        "autoaprendizaje"
+      ]
+    }
+  ]
+}

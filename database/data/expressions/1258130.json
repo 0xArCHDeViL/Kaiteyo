@@ -1,0 +1,86 @@
+{
+  "id": "1258130",
+  "readings": [
+    {
+      "kanaExpression": "けんげん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "権限",
+      "furiganaExpression": [
+        {
+          "text": "権",
+          "annotation": "けん"
+        },
+        {
+          "text": "限",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 3242
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "power",
+        "authority",
+        "jurisdiction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "autoriteit",
+        "wettige macht",
+        "competentie",
+        "bevoegdheid",
+        "machtsbevoegdheid",
+        "gezag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "autorité",
+        "juridiction",
+        "puissance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zuständigkeit",
+        "Befugnis",
+        "Rechtsbefugnis",
+        "Kompetenz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erő",
+        "sok",
+        "felhatalmazás",
+        "jog",
+        "hatáskör"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(юр.) компетенция, полномочия; юрисдикция",
+        "{～の} полномочный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "poder",
+        "autoridad",
+        "jurisdicción"
+      ]
+    }
+  ]
+}

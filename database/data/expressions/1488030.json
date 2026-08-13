@@ -1,0 +1,57 @@
+{
+  "id": "1488030",
+  "readings": [
+    {
+      "kanaExpression": "ひゃっか",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "百科",
+      "furiganaExpression": [
+        {
+          "text": "百",
+          "annotation": "ひゃっ"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ],
+      "rank": 10492
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "many objects (for study)",
+        "encyclopedia",
+        "encyclopaedia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "diverse disciplines",
+        "allerhande vakken",
+        "encyclopedie",
+        "zaakwoordenboek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verschiedene Fächer",
+        "unterschiedliche Gebiete",
+        "Enzyklopädie",
+        "Lexikon"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "различные отрасли (науки, знаний)"
+      ]
+    }
+  ]
+}

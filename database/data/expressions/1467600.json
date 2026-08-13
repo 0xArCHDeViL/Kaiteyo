@@ -1,0 +1,52 @@
+{
+  "id": "1467600",
+  "readings": [
+    {
+      "kanaExpression": "にんぴ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "認否",
+      "furiganaExpression": [
+        {
+          "text": "認",
+          "annotation": "にん"
+        },
+        {
+          "text": "否",
+          "annotation": "ぴ"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "approval or disapproval",
+        "admission or denial"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} erkenning of niet-erkenning",
+        "bekentenis of ontkenning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anerkenntnis oder Nichtanerkenntnis",
+        "Einräumen oder Nichteinräumen (einer Schuld)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) признание [или непризнание]"
+      ]
+    }
+  ]
+}

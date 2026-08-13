@@ -1,0 +1,108 @@
+{
+  "id": "1483440",
+  "readings": [
+    {
+      "kanaExpression": "ひひょう",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "批評",
+      "furiganaExpression": [
+        {
+          "text": "批",
+          "annotation": "ひ"
+        },
+        {
+          "text": "評",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 4713
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "criticism",
+        "critique",
+        "review",
+        "commentary"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kritiseren",
+        "recenseren",
+        "bespreken",
+        "beoordelen",
+        "becommentariëren",
+        "commentariëren",
+        "commentaar leveren (bij)",
+        "kritiek",
+        "recensie",
+        "bespreking",
+        "beoordeling",
+        "commentaar",
+        "aanmerking"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "critique",
+        "commentaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "besprechen",
+        "kritisieren",
+        "kommentieren",
+        "Kritik",
+        "Kommentar",
+        "Rezension",
+        "Besprechung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kritika",
+        "áttekintés",
+        "folyóirat",
+        "visszapillantás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "критика; обзор",
+        "{～する} критиковать; рецензировать; делать обзор",
+        "{～的} критический"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "komentar",
+        "ocena",
+        "kritika",
+        "oceniti",
+        "kritizirati",
+        "komentirati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "criticar",
+        "crítica",
+        "reseña",
+        "comentario"
+      ]
+    }
+  ]
+}

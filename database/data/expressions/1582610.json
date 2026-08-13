@@ -1,0 +1,40 @@
+{
+  "id": "1582610",
+  "readings": [
+    {
+      "kanaExpression": "みなみがわ",
+      "rank": 20000
+    },
+    {
+      "kanaExpression": "なんそく"
+    },
+    {
+      "kanjiExpression": "南側",
+      "furiganaExpression": [
+        {
+          "text": "南",
+          "annotation": "みなみ"
+        },
+        {
+          "text": "側",
+          "annotation": "がわ"
+        }
+      ],
+      "rank": 12209
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "south side"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Südseite"
+      ]
+    }
+  ]
+}

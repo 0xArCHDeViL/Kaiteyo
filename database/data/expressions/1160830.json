@@ -1,0 +1,117 @@
+{
+  "id": "1160830",
+  "readings": [
+    {
+      "kanaExpression": "ひとつひとつ",
+      "rank": 8718
+    },
+    {
+      "kanjiExpression": "一つ一つ",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "つ"
+        },
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "rank": 6000
+    },
+    {
+      "kanjiExpression": "１つ１つ",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "ひと"
+        },
+        {
+          "text": "つ"
+        },
+        {
+          "text": "１",
+          "annotation": "ひと"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "一つひとつ",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "つひとつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one-by-one",
+        "separately",
+        "in detail"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "één voor één",
+        "stuk voor stuk",
+        "één tegelijk",
+        "elk afzonderlijk",
+        "apart",
+        "respectievelijk",
+        "onderscheidenlijk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "séparément",
+        "un par un"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einzeln",
+        "eins nach dem anderen",
+        "jedes einzeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "külön-külön"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поодиночке"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "uno por uno",
+        "separadamente",
+        "en detalle"
+      ]
+    }
+  ]
+}

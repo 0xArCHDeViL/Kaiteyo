@@ -1,0 +1,58 @@
+{
+  "id": "1410910",
+  "readings": [
+    {
+      "kanaExpression": "とどこおり",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "滞り",
+      "furiganaExpression": [
+        {
+          "text": "滞",
+          "annotation": "とどこお"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stagnation",
+        "hindrance",
+        "delay"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stagnation",
+        "Störung",
+        "Verzug",
+        "Rückstände"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "stagnálás",
+        "gát",
+        "gátlás",
+        "megakadályozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) застой; застойность",
+        "2) препятствие, помеха; затор; задержка",
+        "3) просрочка (платежа); задолженность"
+      ]
+    }
+  ]
+}

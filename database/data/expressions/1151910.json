@@ -1,0 +1,91 @@
+{
+  "id": "1151910",
+  "readings": [
+    {
+      "kanaExpression": "あくじゅんかん",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "悪循環",
+      "furiganaExpression": [
+        {
+          "text": "悪",
+          "annotation": "あく"
+        },
+        {
+          "text": "循",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "環",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 13013
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vicious circle",
+        "vicious cycle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vicieuze cirkel",
+        "(niet",
+        "moeilijk te doorbreken) spiraal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cercle vicieux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Teufelskreis",
+        "…-Spirale",
+        "(lat.)Circulus vitiosus",
+        "Zirkelschluss",
+        "Zirkelbeweis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "circulus vitiosus",
+        "körben forgó okoskodás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "порочный круг"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "začaran krog"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "circulo vicioso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ond cirkel"
+      ]
+    }
+  ]
+}

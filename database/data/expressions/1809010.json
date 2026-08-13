@@ -1,0 +1,44 @@
+{
+  "id": "1809010",
+  "readings": [
+    {
+      "kanaExpression": "こうてん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "高点",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high score"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hohe Punktzahl",
+        "große Stimmenzahl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "высшая оценка, лучший балл; наибольшее число голосов ((спорт.) очков)"
+      ]
+    }
+  ]
+}

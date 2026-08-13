@@ -1,0 +1,132 @@
+{
+  "id": "1610270",
+  "readings": [
+    {
+      "kanaExpression": "たのみ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "頼み",
+      "furiganaExpression": [
+        {
+          "text": "頼",
+          "annotation": "たの"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 14552
+    },
+    {
+      "kanjiExpression": "恃み",
+      "furiganaExpression": [
+        {
+          "text": "恃",
+          "annotation": "たの"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "憑み",
+      "furiganaExpression": [
+        {
+          "text": "憑",
+          "annotation": "たの"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "request",
+        "favor",
+        "favour",
+        "reliance",
+        "dependence",
+        "trust",
+        "hope"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vertrouwen",
+        "geloof",
+        "{theol.} toeverzicht",
+        "hoop",
+        "steun",
+        "toevlucht",
+        "verzoek",
+        "vraag",
+        "gunst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "confiance",
+        "demande",
+        "faveur",
+        "recours",
+        "requête"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bitte",
+        "Auftrag",
+        "Vertrauen",
+        "Zuversicht",
+        "Hoffnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kérelem",
+        "csokor",
+        "jelvény",
+        "jóindulat",
+        "kedvezés",
+        "kegy",
+        "pártfogás",
+        "részrehajlás",
+        "szívesség",
+        "támogatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) просьба",
+        "{～で} по просьбе",
+        "2) надежда; опора",
+        "{～になる} (как опред.) надёжный; на которого можно положиться",
+        "{～にする} полагаться, надеяться (на кого-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prošnja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "petición",
+        "solicitud"
+      ]
+    }
+  ]
+}

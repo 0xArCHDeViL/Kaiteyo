@@ -1,0 +1,78 @@
+{
+  "id": "1271010",
+  "readings": [
+    {
+      "kanaExpression": "ごがく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "語学",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 4545
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "study of foreign languages",
+        "linguistics"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "taalkunde",
+        "taalwetenschap",
+        "linguïstiek",
+        "taalstudie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "études des langues",
+        "linguistique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sprachwissenschaft",
+        "Linguistik",
+        "Fremdsprachenstudium",
+        "Fremdsprache",
+        "Sprache (als Fach)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) языкознание, лингвистика",
+        "2) знание (изучение) иностранных языков"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jezikoslovje",
+        "lingvistika"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lingüístico"
+      ]
+    }
+  ]
+}

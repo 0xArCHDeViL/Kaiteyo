@@ -1,0 +1,110 @@
+{
+  "id": "1587170",
+  "readings": [
+    {
+      "kanaExpression": "いけがき",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "生垣",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "いけ"
+        },
+        {
+          "text": "垣",
+          "annotation": "がき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "生け垣",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "い"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "垣",
+          "annotation": "がき"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "生け籬",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "い"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "籬",
+          "annotation": "がき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hedge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "heg",
+        "haag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "haie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hecke",
+        "Hag",
+        "lebender Zaun"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sorfal",
+        "sövény",
+        "sövénykerítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "живая изгородь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "seto"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "häck"
+      ]
+    }
+  ]
+}

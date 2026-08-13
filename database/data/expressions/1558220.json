@@ -1,0 +1,58 @@
+{
+  "id": "1558220",
+  "readings": [
+    {
+      "kanaExpression": "れきだい",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "歴代",
+      "furiganaExpression": [
+        {
+          "text": "歴",
+          "annotation": "れき"
+        },
+        {
+          "text": "代",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 9695
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "successive generations",
+        "successive emperors"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opeenvolgende generaties"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufeinanderfolgend",
+        "aufeinanderfolgende Generationen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поколения"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "generaciones sucesivas",
+        "emperadores sucesivos"
+      ]
+    }
+  ]
+}

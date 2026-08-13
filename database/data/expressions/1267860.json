@@ -1,0 +1,107 @@
+{
+  "id": "1267860",
+  "readings": [
+    {
+      "kanaExpression": "こよう",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "雇用",
+      "furiganaExpression": [
+        {
+          "text": "雇",
+          "annotation": "こ"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 1467
+    },
+    {
+      "kanjiExpression": "雇傭",
+      "furiganaExpression": [
+        {
+          "text": "雇",
+          "annotation": "こ"
+        },
+        {
+          "text": "傭",
+          "annotation": "よう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "employment",
+        "hire"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tewerkstellen",
+        "in dienst nemen",
+        "engageren",
+        "aannemen",
+        "werkgelegenheid",
+        "emplooi",
+        "dienstbetrekking",
+        "tewerkstelling",
+        "indienstneming",
+        "het in dienst nemen",
+        "het engageren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "emploi (à long terme)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "anstellen",
+        "beschäftigen",
+        "Anstellung",
+        "Beschäftigung",
+        "Engagement"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "díjazás",
+        "szerződtetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наём",
+        "{～する} нанимать (кого-л.); предоставлять работу (кому-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "redna zaposlitev",
+        "zaposlitev",
+        "služba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "empleo",
+        "trabajo",
+        "labor"
+      ]
+    }
+  ]
+}

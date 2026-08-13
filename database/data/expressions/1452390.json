@@ -1,0 +1,59 @@
+{
+  "id": "1452390",
+  "readings": [
+    {
+      "kanaExpression": "どうざい",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "同罪",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "罪",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "same crime",
+        "being equally guilty",
+        "bearing the same amount of responsibility"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dezelfde zonde",
+        "fout",
+        "hetzelfde misdrijf",
+        "{～だ} even",
+        "evengoed schuldig zijn",
+        "even slecht zijn",
+        "geen haar beter zijn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dasselbe Verbrechen",
+        "dieses Verbrechen",
+        "Mitschuld"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "то же преступление, та же вина"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1456270",
+  "readings": [
+    {
+      "kanaExpression": "よみきる",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "読みきる",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "みきる"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "読み切る",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to finish reading",
+        "to read through",
+        "to figure out",
+        "to fully anticipate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zu Ende lesen",
+        "fertig lesen",
+        "auslesen",
+        "verstehen",
+        "erraten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átolvas"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прочитать до конца; перечитать [всё]"
+      ]
+    }
+  ]
+}

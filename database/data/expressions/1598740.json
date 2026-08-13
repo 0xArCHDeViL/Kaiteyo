@@ -1,0 +1,54 @@
+{
+  "id": "1598740",
+  "readings": [
+    {
+      "kanaExpression": "としおい",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "年老",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "とし"
+        },
+        {
+          "text": "老",
+          "annotation": "おい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "年老い",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "とし"
+        },
+        {
+          "text": "老",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "old person"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Betagtheit",
+        "Betagter"
+      ]
+    }
+  ]
+}

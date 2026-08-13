@@ -1,0 +1,46 @@
+{
+  "id": "1440090",
+  "readings": [
+    {
+      "kanaExpression": "てんぴ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "天日",
+      "furiganaExpression": [
+        {
+          "text": "天",
+          "annotation": "てん"
+        },
+        {
+          "text": "日",
+          "annotation": "ぴ"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the sun",
+        "sunlight",
+        "heat of the sun"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sonnenwärme",
+        "Sonne"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "солнечный свет; солнечное тепло"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1528680",
+  "readings": [
+    {
+      "kanaExpression": "みんげい",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "民芸",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "芸",
+          "annotation": "げい"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "folk craft",
+        "folk art"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volkskunst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "art populaire",
+        "artisanat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Volkskunst"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "народное искусство; народное творчество"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "artesanía tradicional"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "1606620",
+  "readings": [
+    {
+      "kanaExpression": "わが",
+      "rank": 4282
+    },
+    {
+      "kanjiExpression": "我が",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わ"
+        },
+        {
+          "text": "が"
+        }
+      ],
+      "rank": 3182
+    },
+    {
+      "kanjiExpression": "我",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わが"
+        }
+      ],
+      "rank": 3790
+    },
+    {
+      "kanjiExpression": "吾が",
+      "furiganaExpression": [
+        {
+          "text": "吾",
+          "annotation": "わ"
+        },
+        {
+          "text": "が"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "my",
+        "our",
+        "one\u0027s own"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mijn",
+        "m\u0027n",
+        "ons",
+        "z\u0027n (eigen)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mon",
+        "me",
+        "mes",
+        "notre",
+        "nos",
+        "son propre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mein",
+        "unser"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "-m"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мой",
+        "наш",
+        "свой",
+        "1) наш; мой",
+        "2) свой"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "propio",
+        "de uno"
+      ]
+    }
+  ]
+}

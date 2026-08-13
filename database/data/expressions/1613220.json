@@ -1,0 +1,67 @@
+{
+  "id": "1613220",
+  "readings": [
+    {
+      "kanaExpression": "ロケットだん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ロケット弾",
+      "furiganaExpression": [
+        {
+          "text": "ロケット"
+        },
+        {
+          "text": "弾",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rocket"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "raketbom",
+        "raketgranaat",
+        "raketprojectiel",
+        "raket",
+        "projectiel",
+        "raketmunitie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rakete",
+        "Raketenwaffe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rakéta",
+        "röppentyű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "реактивный снаряд"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "raket"
+      ]
+    }
+  ]
+}

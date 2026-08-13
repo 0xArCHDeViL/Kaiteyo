@@ -1,0 +1,74 @@
+{
+  "id": "1362400",
+  "readings": [
+    {
+      "kanaExpression": "しんぶんしゃ",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "新聞社",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "聞",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 17500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "newspaper company"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "krantenuitgeverij",
+        "krantenbedrijf",
+        "krantenbureau",
+        "{pregn.} krant"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "société d\u0027édition de journaux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeitungsverlag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "газетное издательство"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "časopisna hiša"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compañia periodística"
+      ]
+    }
+  ]
+}

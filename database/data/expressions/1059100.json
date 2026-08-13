@@ -1,0 +1,52 @@
+{
+  "id": "1059100",
+  "readings": [
+    {
+      "kanaExpression": "シー・エム"
+    },
+    {
+      "kanaExpression": "シーエム"
+    },
+    {
+      "kanjiExpression": "ＣＭ",
+      "furiganaExpression": [
+        {
+          "text": "Ｃ",
+          "annotation": "シー"
+        },
+        {
+          "text": "Ｍ",
+          "annotation": "エム"
+        }
+      ],
+      "rank": 5864
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commercial (radio, TV, etc.)",
+        "ad",
+        "commercial message",
+        "construction management",
+        "contract manufacturer",
+        "customer management",
+        "court martial"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "commerciële boodschap",
+        "reclame"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Werbung"
+      ]
+    }
+  ]
+}

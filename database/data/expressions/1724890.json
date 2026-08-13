@@ -1,0 +1,51 @@
+{
+  "id": "1724890",
+  "readings": [
+    {
+      "kanaExpression": "びせい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "美声",
+      "furiganaExpression": [
+        {
+          "text": "美",
+          "annotation": "び"
+        },
+        {
+          "text": "声",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "beautiful voice"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schöne Stimme",
+        "süße Stimme",
+        "melodische Stimme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "красивый голос"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hermosa voz"
+      ]
+    }
+  ]
+}

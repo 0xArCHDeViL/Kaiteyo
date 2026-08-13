@@ -1,0 +1,74 @@
+{
+  "id": "1348550",
+  "readings": [
+    {
+      "kanaExpression": "こじま",
+      "rank": 18000
+    },
+    {
+      "kanaExpression": "しょうとう",
+      "rank": 29000
+    },
+    {
+      "kanaExpression": "おじま"
+    },
+    {
+      "kanjiExpression": "小島",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "島",
+          "annotation": "じま"
+        }
+      ],
+      "rank": 8933
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small island",
+        "islet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eilandje",
+        "klein eiland"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ojima",
+        "Kojima",
+        "kleine Insel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szigetecske"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "островок, небольшой остров",
+        "островок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "isla pequeña",
+        "islote"
+      ]
+    }
+  ]
+}

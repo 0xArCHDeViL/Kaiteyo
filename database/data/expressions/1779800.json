@@ -1,0 +1,53 @@
+{
+  "id": "1779800",
+  "readings": [
+    {
+      "kanaExpression": "てっぺき",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "鉄壁",
+      "furiganaExpression": [
+        {
+          "text": "鉄",
+          "annotation": "てっ"
+        },
+        {
+          "text": "壁",
+          "annotation": "ぺき"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "iron wall",
+        "impregnable fortress",
+        "impregnable",
+        "invulnerable",
+        "unassailable",
+        "cast-iron"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unüberwindlich",
+        "uneinnehmbar",
+        "eiserne Mauer",
+        "eiserne Wand",
+        "unüberwindliche Mauer",
+        "uneinnehmbare Festung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "железная стена; (обр.) неприступная крепость"
+      ]
+    }
+  ]
+}

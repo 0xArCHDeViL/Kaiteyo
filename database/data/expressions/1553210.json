@@ -1,0 +1,101 @@
+{
+  "id": "1553210",
+  "readings": [
+    {
+      "kanaExpression": "たびびと",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "りょじん"
+    },
+    {
+      "kanaExpression": "たびと"
+    },
+    {
+      "kanaExpression": "たひと"
+    },
+    {
+      "kanjiExpression": "旅人",
+      "furiganaExpression": [
+        {
+          "text": "旅",
+          "annotation": "たび"
+        },
+        {
+          "text": "人",
+          "annotation": "びと"
+        }
+      ],
+      "rank": 11271
+    },
+    {
+      "kanjiExpression": "たび人",
+      "furiganaExpression": [
+        {
+          "text": "たび"
+        },
+        {
+          "text": "人",
+          "annotation": "びと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "traveller",
+        "traveler",
+        "wayfarer",
+        "tourist"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "reiziger",
+        "trekker"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "touriste",
+        "voyageur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reisender",
+        "Wanderer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "utazó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "путешественник, путник",
+        "(кн.) путешественник, путник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "viajero"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "resenär"
+      ]
+    }
+  ]
+}

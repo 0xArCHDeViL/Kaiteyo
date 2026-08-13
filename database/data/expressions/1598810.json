@@ -1,0 +1,114 @@
+{
+  "id": "1598810",
+  "readings": [
+    {
+      "kanaExpression": "とどけ",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "届",
+      "furiganaExpression": [
+        {
+          "text": "届",
+          "annotation": "とどけ"
+        }
+      ],
+      "rank": 9848
+    },
+    {
+      "kanjiExpression": "届け",
+      "furiganaExpression": [
+        {
+          "text": "届",
+          "annotation": "とど"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 4315
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "report",
+        "notification",
+        "registration"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aangifte",
+        "rapportering",
+        "rapportage",
+        "bericht",
+        "kennisgeving",
+        "notificatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "autorisation par écrit",
+        "déclaration"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anmeldung",
+        "Anzeige",
+        "Bekanntgabe (die Handlung und das entsprechende Dokument)",
+        "Auslieferung",
+        "Lieferung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszámoló",
+        "hírnév",
+        "ajánlottként való feladás",
+        "beiktatás",
+        "beiratkozás",
+        "bejelentkezés",
+        "iktatás",
+        "nyilvántartásba vétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(тж. постпоз.) заявление; извещение, уведомление"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "poročilo",
+        "zapis",
+        "register"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reporte",
+        "aviso",
+        "notificación",
+        "denuncia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "meddelande",
+        "certifikat",
+        "registrering"
+      ]
+    }
+  ]
+}

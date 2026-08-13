@@ -1,0 +1,95 @@
+{
+  "id": "1594320",
+  "readings": [
+    {
+      "kanaExpression": "したうけ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "下請け",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "請",
+          "annotation": "う"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 13529
+    },
+    {
+      "kanjiExpression": "下請",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "請",
+          "annotation": "うけ"
+        }
+      ],
+      "rank": 13693
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subcontract",
+        "subcontractor (person or company)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitbesteden",
+        "onderaanbesteden",
+        "outsourcen",
+        "onderaanneming",
+        "onderaanbesteding",
+        "toelevering",
+        "onderaannemer",
+        "toeleveringsbedrijf",
+        "toeleverancier"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sous-contrat",
+        "sous-traitement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "als Subunternehmer arbeiten",
+        "Subkontrakt",
+        "Nebenvertrag",
+        "Zulieferungsvertrag",
+        "Arbeit auf Grundlage eines Subkontraktes",
+        "Zulieferer",
+        "Subunternehmer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "субконтракт",
+        "пересданный (перепорученный) подряд, субконтракт"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "subcontratación"
+      ]
+    }
+  ]
+}

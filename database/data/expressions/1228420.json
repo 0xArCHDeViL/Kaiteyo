@@ -1,0 +1,51 @@
+{
+  "id": "1228420",
+  "readings": [
+    {
+      "kanaExpression": "ぐうじ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "宮司",
+      "furiganaExpression": [
+        {
+          "text": "宮",
+          "annotation": "ぐう"
+        },
+        {
+          "text": "司",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chief priest"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdpriester van een shintoïstisch heiligdom",
+        "assistent-officiant verbonden aan Ise Jingū",
+        "functionaris aan het hof van de kroonprins of keizerin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Oberpriester (eines Shintō-Schreines)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "настоятель государственного храма"
+      ]
+    }
+  ]
+}

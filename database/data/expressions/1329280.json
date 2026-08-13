@@ -1,0 +1,121 @@
+{
+  "id": "1329280",
+  "readings": [
+    {
+      "kanaExpression": "くびかざり",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "首飾り",
+      "furiganaExpression": [
+        {
+          "text": "首",
+          "annotation": "くび"
+        },
+        {
+          "text": "飾",
+          "annotation": "かざ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "頸飾り",
+      "furiganaExpression": [
+        {
+          "text": "頸",
+          "annotation": "くび"
+        },
+        {
+          "text": "飾",
+          "annotation": "かざ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "頚飾り",
+      "furiganaExpression": [
+        {
+          "text": "頚",
+          "annotation": "くび"
+        },
+        {
+          "text": "飾",
+          "annotation": "かざ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "necklace",
+        "choker"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "halssieraad",
+        "halsketting",
+        "ketting",
+        "halssnoer",
+        "collier",
+        "halsband",
+        "halslint"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "collier",
+        "sautoir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Halsschmuck",
+        "Halskette"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyaklánc"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ogrlica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "collar",
+        "gargantilla"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "collier",
+        "halsband",
+        "halssmycke",
+        "koljé"
+      ]
+    }
+  ]
+}

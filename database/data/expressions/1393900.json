@@ -1,0 +1,45 @@
+{
+  "id": "1393900",
+  "readings": [
+    {
+      "kanaExpression": "ぜんはんせん",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "ぜんぱんせん"
+    },
+    {
+      "kanjiExpression": "前半戦",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first half of a game",
+        "first half of a match"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erste Halbzeit"
+      ]
+    }
+  ]
+}

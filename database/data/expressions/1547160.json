@@ -1,0 +1,90 @@
+{
+  "id": "1547160",
+  "readings": [
+    {
+      "kanaExpression": "ようしえんぐみ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "養子縁組",
+      "furiganaExpression": [
+        {
+          "text": "養",
+          "annotation": "よう"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        },
+        {
+          "text": "縁",
+          "annotation": "えん"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐみ"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "養子縁組み",
+      "furiganaExpression": [
+        {
+          "text": "養",
+          "annotation": "よう"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        },
+        {
+          "text": "縁",
+          "annotation": "えん"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "adoption (of a person)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "adoptie",
+        "aanneming",
+        "{veroud.} affiliatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Adoption"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adoptálás",
+        "örökbefogadás"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "adoption"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "1319280",
+  "readings": [
+    {
+      "kanaExpression": "しちがつ",
+      "rank": 15500
+    },
+    {
+      "kanaExpression": "なながつ"
+    },
+    {
+      "kanjiExpression": "７月",
+      "furiganaExpression": [
+        {
+          "text": "７",
+          "annotation": "しち"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 1708
+    },
+    {
+      "kanjiExpression": "七月",
+      "furiganaExpression": [
+        {
+          "text": "七",
+          "annotation": "しち"
+        },
+        {
+          "text": "月",
+          "annotation": "がつ"
+        }
+      ],
+      "rank": 6101
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "July",
+        "seventh month of the lunar calendar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "juli",
+        "{afk.} jul",
+        "hooimaand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Juli",
+        "7. Monat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "июль"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "julij"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Julio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "juli"
+      ]
+    }
+  ]
+}

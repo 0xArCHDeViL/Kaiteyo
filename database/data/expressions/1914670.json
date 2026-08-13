@@ -1,0 +1,50 @@
+{
+  "id": "1914670",
+  "readings": [
+    {
+      "kanaExpression": "ようは",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "要は",
+      "furiganaExpression": [
+        {
+          "text": "要",
+          "annotation": "よう"
+        },
+        {
+          "text": "は"
+        }
+      ],
+      "rank": 5835
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in short",
+        "the point is",
+        "the important thing is",
+        "in a word",
+        "basically"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in einem Wort",
+        "kurz gesagt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dióhéjban",
+        "egy szóval",
+        "összefoglalva",
+        "röviden"
+      ]
+    }
+  ]
+}

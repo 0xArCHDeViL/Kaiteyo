@@ -1,0 +1,106 @@
+{
+  "id": "1838030",
+  "readings": [
+    {
+      "kanaExpression": "たちおうじょう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "立ち往生",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "往",
+          "annotation": "おう"
+        },
+        {
+          "text": "生",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "立往生",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "たち"
+        },
+        {
+          "text": "往",
+          "annotation": "おう"
+        },
+        {
+          "text": "生",
+          "annotation": "じょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "being brought to a standstill",
+        "being stranded",
+        "getting stuck",
+        "stalling",
+        "deadlock",
+        "being stumped",
+        "being in a dilemma",
+        "stopping in one\u0027s tracks",
+        "standing speechless",
+        "dying while standing (and remaining standing)",
+        "dying on one\u0027s feet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tot stilstand komen",
+        "stilvallen",
+        "vastlopen",
+        "blijven steken",
+        "het tot stilstand komen",
+        "het stilvallen",
+        "het vastlopen",
+        "het blijven steken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arrêt",
+        "interruption",
+        "panne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stehen bleiben",
+        "zum Stillstand kommen",
+        "weder vor noch zurück können",
+        "weder ein noch aus wissen",
+        "Stillstand",
+        "Panne"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) смерть стоя",
+        "2) затор, пробка",
+        "{～する} не быть в состоянии двинуться; простоять",
+        "3): {～する} (перен.) запнуться, осечься (в речи)"
+      ]
+    }
+  ]
+}

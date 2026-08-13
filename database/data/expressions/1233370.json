@@ -1,0 +1,51 @@
+{
+  "id": "1233370",
+  "readings": [
+    {
+      "kanaExpression": "けいはん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "京阪",
+      "furiganaExpression": [
+        {
+          "text": "京",
+          "annotation": "けい"
+        },
+        {
+          "text": "阪",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "京坂",
+      "furiganaExpression": [
+        {
+          "text": "京",
+          "annotation": "けい"
+        },
+        {
+          "text": "坂",
+          "annotation": "はん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Kyoto and Osaka",
+        "Kyoto-Osaka area"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "Kyoto et Osaka"
+      ]
+    }
+  ]
+}

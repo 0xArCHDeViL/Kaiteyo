@@ -1,0 +1,57 @@
+{
+  "id": "2833992",
+  "readings": [
+    {
+      "kanaExpression": "むくわれる",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "報われる",
+      "furiganaExpression": [
+        {
+          "text": "報",
+          "annotation": "むく"
+        },
+        {
+          "text": "われる"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "酬われる",
+      "furiganaExpression": [
+        {
+          "text": "酬",
+          "annotation": "むく"
+        },
+        {
+          "text": "われる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be repaid",
+        "to be rewarded"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "entlohnt werden",
+        "entgolten werden"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ser recompensado",
+        "ser gratificado"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "1204170",
+  "readings": [
+    {
+      "kanaExpression": "がいや",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "外野",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "野",
+          "annotation": "や"
+        }
+      ],
+      "rank": 14418
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outfield",
+        "outfielder",
+        "outfield bleachers",
+        "third party",
+        "outsider",
+        "onlooker",
+        "bystander"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkbal} buitenveld",
+        "verreveld",
+        "buitenstaander",
+        "outsider",
+        "toeschouwer",
+        "toekijker",
+        "omstander",
+        "non-participant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Außenfeld"
+      ]
+    }
+  ]
+}

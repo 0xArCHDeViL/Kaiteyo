@@ -1,0 +1,76 @@
+{
+  "id": "1451200",
+  "readings": [
+    {
+      "kanaExpression": "うごきまわる",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "動き回る",
+      "furiganaExpression": [
+        {
+          "text": "動",
+          "annotation": "うご"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 13754
+    },
+    {
+      "kanjiExpression": "動きまわる",
+      "furiganaExpression": [
+        {
+          "text": "動",
+          "annotation": "うご"
+        },
+        {
+          "text": "きまわる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to move around",
+        "to move about",
+        "to get around"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich voortdurend bewegen",
+        "heen en weer bewegen",
+        "rondbewegen",
+        "rondwaren",
+        "waren",
+        "op de been zijn",
+        "woelen",
+        "ambuleren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "herumkommen",
+        "umherziehen",
+        "sich hin und her bewegen",
+        "herumgehen",
+        "geschäftig sein",
+        "regsam sein",
+        "aktiv sein"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "1217070",
+  "readings": [
+    {
+      "kanaExpression": "おもちゃ",
+      "rank": 5519
+    },
+    {
+      "kanaExpression": "がんぐ"
+    },
+    {
+      "kanaExpression": "オモチャ"
+    },
+    {
+      "kanjiExpression": "玩具",
+      "furiganaExpression": [
+        {
+          "text": "玩具",
+          "annotation": "おもちゃ"
+        }
+      ],
+      "rank": 10098
+    },
+    {
+      "kanjiExpression": "翫具",
+      "furiganaExpression": [
+        {
+          "text": "翫",
+          "annotation": "がん"
+        },
+        {
+          "text": "具",
+          "annotation": "ぐ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "toy",
+        "(person or thing treated as a) plaything"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "speelgoed",
+        "speeltuig",
+        "speeltje",
+        "stuk speelgoed"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jouet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spielzeug",
+        "Spielsachen",
+        "Spielwaren",
+        "Kleinigkeit",
+        "Bagatelle",
+        "Zeitvertreib"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyermek-",
+        "játék-",
+        "játékszer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "игрушка",
+        "{～の} игрушечный",
+        "{…を～にする} играть (чем-л.); флиртовать с (кем-л.); обводить (кого-л.) вокруг пальца",
+        "(кн.) игрушка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "igrača"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "juguete"
+      ]
+    }
+  ]
+}

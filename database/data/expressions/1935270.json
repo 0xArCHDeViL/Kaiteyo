@@ -1,0 +1,65 @@
+{
+  "id": "1935270",
+  "readings": [
+    {
+      "kanaExpression": "ぎょうせいしょし",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "行政書士",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "政",
+          "annotation": "せい"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "administrative scrivener",
+        "notary public",
+        "paralegal qualified to prepare legal documents on administrative matters, e.g. immigration"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "notaris"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verwaltungsnotar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поверенный (по делам, ведущимся в правительственных учреждениях)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gestor administrativo"
+      ]
+    }
+  ]
+}

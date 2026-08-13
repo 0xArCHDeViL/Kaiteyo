@@ -1,0 +1,99 @@
+{
+  "id": "1424040",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうけい",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "中継",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "継",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 4508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "relay",
+        "hook-up",
+        "relay broadcasting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "relayeren",
+        "heruitzenden",
+        "overnemen",
+        "doorgeven",
+        "relais",
+        "heruitzending",
+        "het overnemen",
+        "overname",
+        "omzetting {van signaal}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "radiodiffusion",
+        "relais (télé, radio)",
+        "retransmission",
+        "télédiffusion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "übertragen (z.B. eine Aufführung)",
+        "Übertragung",
+        "Relais",
+        "Rundfunkübertragung (Abk.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jelfogó",
+        "relé",
+        "sugárzás",
+        "szabályozó motor",
+        "szervomotor",
+        "továbbítás",
+        "váltott lovak"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(радио) трансляция",
+        "{～する} транслировать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prenašati prek druge postaje",
+        "neposredno prenašati",
+        "neposreden radijski ali televizijski prenos"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "retransmitir",
+        "transmisión (radio, televisón)"
+      ]
+    }
+  ]
+}

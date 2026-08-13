@@ -1,0 +1,67 @@
+{
+  "id": "1486190",
+  "readings": [
+    {
+      "kanaExpression": "びりゅうし",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "微粒子",
+      "furiganaExpression": [
+        {
+          "text": "微",
+          "annotation": "び"
+        },
+        {
+          "text": "粒",
+          "annotation": "りゅう"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "corpuscle",
+        "minute particle",
+        "particulate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fijn stof",
+        "deeltje",
+        "partikel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Korpuskel",
+        "Elementarteilchen",
+        "Feinkorn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "korpuszkula",
+        "részecske",
+        "testecske"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физ.) корпускула"
+      ]
+    }
+  ]
+}

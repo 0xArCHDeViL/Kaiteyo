@@ -1,0 +1,54 @@
+{
+  "id": "1792860",
+  "readings": [
+    {
+      "kanaExpression": "ねわざ",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "寝技",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "技",
+          "annotation": "わざ"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "寝業",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "業",
+          "annotation": "わざ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pinning technique (in wrestling or judo)",
+        "underhanded dealings"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Technik aus dem Liegen",
+        "Gemauschel",
+        "Mauschelei",
+        "Tricks hinter den Kulissen"
+      ]
+    }
+  ]
+}

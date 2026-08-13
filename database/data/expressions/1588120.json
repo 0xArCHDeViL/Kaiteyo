@@ -1,0 +1,139 @@
+{
+  "id": "1588120",
+  "readings": [
+    {
+      "kanaExpression": "うたう",
+      "rank": 7448
+    },
+    {
+      "kanjiExpression": "歌う",
+      "furiganaExpression": [
+        {
+          "text": "歌",
+          "annotation": "うた"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 1546
+    },
+    {
+      "kanjiExpression": "唄う",
+      "furiganaExpression": [
+        {
+          "text": "唄",
+          "annotation": "うた"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 11943
+    },
+    {
+      "kanjiExpression": "詠う",
+      "furiganaExpression": [
+        {
+          "text": "詠",
+          "annotation": "うた"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "謡う",
+      "furiganaExpression": [
+        {
+          "text": "謡",
+          "annotation": "うた"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "唱う",
+      "furiganaExpression": [
+        {
+          "text": "唱",
+          "annotation": "うた"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to sing",
+        "to sing of (love, beauty, etc.) in a poem",
+        "to express in the form of a poem",
+        "to recite (a poem)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zingen",
+        "kwinkeleren",
+        "reciteren",
+        "voordragen",
+        "declameren",
+        "ten gehore brengen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chanter",
+        "chanter (ses louanges dans un poème, etc.)",
+        "composer un poème",
+        "réciter un poème"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "singen",
+        "summen",
+        "dichten",
+        "rezitieren",
+        "jmdn. in den Himmel loben",
+        "in Deutlichkeit über etw. sprechen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "énekel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "петь (песни)",
+        "слагать [стихи]",
+        "читать нараспев (текст ёкёку или дзёрури)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "peti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cantar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1618280",
+  "readings": [
+    {
+      "kanaExpression": "きゅうしゅ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "鳩首",
+      "furiganaExpression": [
+        {
+          "text": "鳩",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "首",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "きゅう首",
+      "furiganaExpression": [
+        {
+          "text": "きゅう"
+        },
+        {
+          "text": "首",
+          "annotation": "しゅ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "going into a huddle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de koppen",
+        "hoofden bij elkaar steken",
+        "onderling beraad houden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zusammenstecken der Köpfe",
+        "die Köpfe zusammenstecken",
+        "zusammenkommen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. обр.) слёт, собрание",
+        "{～する} обсуждать, совещаться"
+      ]
+    }
+  ]
+}

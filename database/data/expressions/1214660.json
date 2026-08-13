@@ -1,0 +1,81 @@
+{
+  "id": "1214660",
+  "readings": [
+    {
+      "kanaExpression": "かんぞう",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "肝臓",
+      "furiganaExpression": [
+        {
+          "text": "肝",
+          "annotation": "かん"
+        },
+        {
+          "text": "臓",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 10754
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "liver"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} lever",
+        "hepar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "foie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leber",
+        "Hepar"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "máj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(анат.) печень"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jetra"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hígado"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lever"
+      ]
+    }
+  ]
+}

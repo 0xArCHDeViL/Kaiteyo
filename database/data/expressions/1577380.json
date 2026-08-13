@@ -1,0 +1,78 @@
+{
+  "id": "1577380",
+  "readings": [
+    {
+      "kanaExpression": "えし",
+      "rank": 31500
+    },
+    {
+      "kanaExpression": "がし",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "絵師",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "画師",
+      "furiganaExpression": [
+        {
+          "text": "画",
+          "annotation": "え"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "painter",
+        "artist",
+        "painter supported by patron"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schilder",
+        "{Jap.gesch.} hofschilder",
+        "{ritsuryō} staatsschilder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Maler"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "festő",
+        "festőművész",
+        "művész"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "художник"
+      ]
+    }
+  ]
+}

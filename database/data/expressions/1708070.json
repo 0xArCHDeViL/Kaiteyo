@@ -1,0 +1,52 @@
+{
+  "id": "1708070",
+  "readings": [
+    {
+      "kanaExpression": "しゅうきょうか",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "宗教家",
+      "furiganaExpression": [
+        {
+          "text": "宗",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "religious leader",
+        "person of religion",
+        "religious figure",
+        "religionist"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geistlicher",
+        "Priester",
+        "religiöser Führer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "религиозный человек"
+      ]
+    }
+  ]
+}

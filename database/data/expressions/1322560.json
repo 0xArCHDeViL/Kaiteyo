@@ -1,0 +1,67 @@
+{
+  "id": "1322560",
+  "readings": [
+    {
+      "kanaExpression": "につまる",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "煮詰まる",
+      "furiganaExpression": [
+        {
+          "text": "煮",
+          "annotation": "に"
+        },
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "煮詰る",
+      "furiganaExpression": [
+        {
+          "text": "煮",
+          "annotation": "に"
+        },
+        {
+          "text": "詰",
+          "annotation": "つま"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be boiled down",
+        "to come to a standstill",
+        "to reach an impasse",
+        "to approach a conclusion (of a discussion, investigation, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einkochen",
+        "eindampfen",
+        "allmählich zur Entscheidung kommen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выкипать, вывариваться"
+      ]
+    }
+  ]
+}

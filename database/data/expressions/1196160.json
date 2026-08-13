@@ -1,0 +1,56 @@
+{
+  "id": "1196160",
+  "readings": [
+    {
+      "kanaExpression": "かしょう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "過少",
+      "furiganaExpression": [
+        {
+          "text": "過",
+          "annotation": "か"
+        },
+        {
+          "text": "少",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "too few",
+        "too little",
+        "insufficient"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zu wenig",
+        "zu klein",
+        "zu gering",
+        "Mangel",
+        "Zu-wenig-Sein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.:)",
+        "{～[の]} слишком мало"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "demasiado escaso"
+      ]
+    }
+  ]
+}

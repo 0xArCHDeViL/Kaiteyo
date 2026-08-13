@@ -1,0 +1,73 @@
+{
+  "id": "1360720",
+  "readings": [
+    {
+      "kanaExpression": "しんじょう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "心情",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "情",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 8543
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sentiment",
+        "emotions",
+        "one\u0027s feelings",
+        "one\u0027s heart"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gevoelens"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gemüt",
+        "Gefühl",
+        "Herz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mentalitás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чувства; настроение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sentimientos",
+        "emociones"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mentalitet"
+      ]
+    }
+  ]
+}

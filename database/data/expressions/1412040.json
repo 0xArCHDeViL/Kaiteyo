@@ -1,0 +1,46 @@
+{
+  "id": "1412040",
+  "readings": [
+    {
+      "kanaExpression": "だいそう",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "代走",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "走",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "substitute runner"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} vervangende loper",
+        "pinch runner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "für jmdn. laufen",
+        "ersatzweises Laufen",
+        "Ersatzläufer"
+      ]
+    }
+  ]
+}

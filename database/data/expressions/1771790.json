@@ -1,0 +1,52 @@
+{
+  "id": "1771790",
+  "readings": [
+    {
+      "kanaExpression": "ぞうほ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "増補",
+      "furiganaExpression": [
+        {
+          "text": "増",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "補",
+          "annotation": "ほ"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "extending (e.g. a book)",
+        "augmenting",
+        "enlarging",
+        "supplementing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ergänzen",
+        "erweitern",
+        "vermehren",
+        "Ergänzung",
+        "Erweiterung",
+        "Vermehrung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дополнение, добавление",
+        "{～する} дополнять (гл. обр. книгу)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "1255180",
+  "readings": [
+    {
+      "kanaExpression": "けっかん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "血管",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "けっ"
+        },
+        {
+          "text": "管",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 8828
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blood vessel",
+        "vein"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} bloedvat",
+        "bloedader",
+        "ader"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vaisseaux sanguins"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ader",
+        "Blutgefäß"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кровеносный сосуд",
+        "{～の} сосудистый"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "krvna žila",
+        "arterija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vaso sanguíneo"
+      ]
+    }
+  ]
+}

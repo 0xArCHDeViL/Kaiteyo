@@ -1,0 +1,75 @@
+{
+  "id": "1646570",
+  "readings": [
+    {
+      "kanaExpression": "しはいにん",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "支配人",
+      "furiganaExpression": [
+        {
+          "text": "支",
+          "annotation": "し"
+        },
+        {
+          "text": "配",
+          "annotation": "はい"
+        },
+        {
+          "text": "人",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "manager",
+        "executive"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "manager",
+        "directeur",
+        "bedrijfsleider",
+        "administrateur",
+        "bestuurder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Manager",
+        "Direktor",
+        "Leiter",
+        "Prokurist"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "főelőadó",
+        "végrehajtási",
+        "végrehajtó hatalom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "управляющий, заведующий, распорядитель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gerente"
+      ]
+    }
+  ]
+}

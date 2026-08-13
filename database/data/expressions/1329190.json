@@ -1,0 +1,68 @@
+{
+  "id": "1329190",
+  "readings": [
+    {
+      "kanaExpression": "しゅるい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "酒類",
+      "furiganaExpression": [
+        {
+          "text": "酒",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "alcoholic drinks",
+        "liquor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "alcoholica",
+        "alcoholhoudende dranken",
+        "alcoholische dranken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Alkoholika",
+        "alkoholische Getränke",
+        "Spirituosen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "égetett szeszes ital",
+        "gyógyszeroldat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спиртные напитки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bebidas alcohólicas",
+        "licor"
+      ]
+    }
+  ]
+}

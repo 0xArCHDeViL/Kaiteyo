@@ -1,0 +1,58 @@
+{
+  "id": "1526260",
+  "readings": [
+    {
+      "kanaExpression": "ばんたん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "万端",
+      "furiganaExpression": [
+        {
+          "text": "万",
+          "annotation": "ばん"
+        },
+        {
+          "text": "端",
+          "annotation": "たん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "all",
+        "everything"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alle Angelegenheiten",
+        "alle Mittel",
+        "alles Mögliche",
+        "alles",
+        "jedes",
+        "alle Dinge",
+        "alle Sachen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mind",
+        "minden",
+        "összesen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) всё"
+      ]
+    }
+  ]
+}

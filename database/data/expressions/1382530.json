@@ -1,0 +1,86 @@
+{
+  "id": "1382530",
+  "readings": [
+    {
+      "kanaExpression": "せっかい",
+      "rank": 37000
+    },
+    {
+      "kanaExpression": "いしばい"
+    },
+    {
+      "kanjiExpression": "石灰",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "せっ"
+        },
+        {
+          "text": "灰",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lime",
+        "quicklime",
+        "caustic lime"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kalk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chaux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kalk",
+        "Kalziumoxid",
+        "Kalziumhydroxid"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "apró citromfajta",
+        "apró citromfajtát termő fa",
+        "borostyánszín",
+        "citrusfa",
+        "hárs",
+        "hársfa",
+        "kutyaszíj",
+        "madárenyv",
+        "madárlép",
+        "meszes",
+        "égetett mész",
+        "mész"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "известь",
+        "известь, извёстка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cal"
+      ]
+    }
+  ]
+}

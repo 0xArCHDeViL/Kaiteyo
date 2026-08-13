@@ -1,0 +1,67 @@
+{
+  "id": "1894480",
+  "readings": [
+    {
+      "kanaExpression": "つぎ",
+      "rank": 8512
+    },
+    {
+      "kanjiExpression": "継ぎ",
+      "furiganaExpression": [
+        {
+          "text": "継",
+          "annotation": "つ"
+        },
+        {
+          "text": "ぎ"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "接ぎ",
+      "furiganaExpression": [
+        {
+          "text": "接",
+          "annotation": "つ"
+        },
+        {
+          "text": "ぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "patch",
+        "patching",
+        "join",
+        "joining",
+        "successor",
+        "heir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flicken",
+        "Fleck",
+        "Verbindung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заплата"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lappa"
+      ]
+    }
+  ]
+}

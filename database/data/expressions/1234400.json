@@ -1,0 +1,56 @@
+{
+  "id": "1234400",
+  "readings": [
+    {
+      "kanaExpression": "きょうさい",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "共催",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "きょう"
+        },
+        {
+          "text": "催",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 14360
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "joint sponsorship (of an event)",
+        "cosponsorship",
+        "joint hosting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "co-organiseren",
+        "medesponsoren",
+        "co-organisatie",
+        "medesponsorschap"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zusammen veranstalten",
+        "in Gemeinschaft veranstalten",
+        "gemeinsame Veranstaltung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} совместно устраивать (конференцию, встречу и т. п.)"
+      ]
+    }
+  ]
+}

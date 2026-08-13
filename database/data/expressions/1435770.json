@@ -1,0 +1,49 @@
+{
+  "id": "1435770",
+  "readings": [
+    {
+      "kanaExpression": "ていほん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "定本",
+      "furiganaExpression": [
+        {
+          "text": "定",
+          "annotation": "てい"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "revised edition (of a book or manuscript)",
+        "authoritative edition",
+        "standard edition",
+        "edition incorporating many changes and corrections",
+        "final version of a book as edited by the author",
+        "revised edition of a book as edited by the author"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "authentischer Text",
+        "Standardtext"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(лит.) основной (установленный) текст"
+      ]
+    }
+  ]
+}

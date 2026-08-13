@@ -1,0 +1,73 @@
+{
+  "id": "1389770",
+  "readings": [
+    {
+      "kanaExpression": "せんぎょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "専業",
+      "furiganaExpression": [
+        {
+          "text": "専",
+          "annotation": "せん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 7828
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "special occupation",
+        "principal occupation",
+        "specialty",
+        "monopoly"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fulltimewerk",
+        "fulltimeberoep",
+        "fulltimebaan",
+        "fulltimebetrekking",
+        "fulltimefunctie",
+        "fulltimejob",
+        "hoofdberoep",
+        "hoofdwerk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vollzeit…",
+        "Haupterwerbs…",
+        "Beruf",
+        "Fach",
+        "Spezialisierung",
+        "Monopolunternehmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyedáruság",
+        "monopólium"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) специальность",
+        "{…を～する} специализироваться в (чём-л.); быть специалистом (в какой-л. отрасли)",
+        "2) монополия"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1613600",
+  "readings": [
+    {
+      "kanaExpression": "えんそうば",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "円相場",
+      "furiganaExpression": [
+        {
+          "text": "円",
+          "annotation": "えん"
+        },
+        {
+          "text": "相",
+          "annotation": "そう"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yen exchange rate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{beurst.} yenkoers",
+        "yennotering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Yen-Wechselkurs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "курс иены"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precio de intercambio yenes"
+      ]
+    }
+  ]
+}

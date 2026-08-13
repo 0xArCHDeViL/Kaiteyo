@@ -1,0 +1,106 @@
+{
+  "id": "1589480",
+  "readings": [
+    {
+      "kanaExpression": "おりまげる",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "折り曲げる",
+      "furiganaExpression": [
+        {
+          "text": "折",
+          "annotation": "お"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "曲",
+          "annotation": "ま"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "折曲げる",
+      "furiganaExpression": [
+        {
+          "text": "折",
+          "annotation": "おり"
+        },
+        {
+          "text": "曲",
+          "annotation": "ま"
+        },
+        {
+          "text": "げる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to bend",
+        "to turn up",
+        "to turn down",
+        "to double"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "buigen",
+        "krommen",
+        "plooien",
+        "verbuigen",
+        "{襟を} omslaan",
+        "{本のページを} omvouwen",
+        "ezelsoren maken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "biegen",
+        "umbiegen",
+        "umknicken",
+        "einknicken",
+        "einbiegen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hajlít",
+        "hajol",
+        "lehajt",
+        "meghajlik",
+        "adódik",
+        "émelyít",
+        "felfordul",
+        "felhajt",
+        "kifordít",
+        "megjelenik",
+        "kikosaraz",
+        "lecsavar",
+        "lefelé fordít",
+        "lehalkít",
+        "kétrét görnyed",
+        "összehajt",
+        "összekuporodik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сгибать, загибать, перегибать, складывать вдвое"
+      ]
+    }
+  ]
+}

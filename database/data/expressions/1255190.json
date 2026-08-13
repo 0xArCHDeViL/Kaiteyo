@@ -1,0 +1,82 @@
+{
+  "id": "1255190",
+  "readings": [
+    {
+      "kanaExpression": "ちまなこ",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ちめ"
+    },
+    {
+      "kanjiExpression": "血眼",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "ち"
+        },
+        {
+          "text": "眼",
+          "annotation": "まなこ"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "血まなこ",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "ち"
+        },
+        {
+          "text": "まなこ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "血目",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "ち"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bloodshot eyes",
+        "(doing something in a) frenzy"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "blutunterlaufenes Auge",
+        "fieberhafter Blick (vor Verzweiflung)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bevérzett szemek",
+        "véreres szemek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глаза, налитые кровью",
+        "1) (см.) ちまなこ",
+        "2) воспалённые глаза"
+      ]
+    }
+  ]
+}

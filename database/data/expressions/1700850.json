@@ -1,0 +1,53 @@
+{
+  "id": "1700850",
+  "readings": [
+    {
+      "kanaExpression": "としこっか",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "都市国家",
+      "furiganaExpression": [
+        {
+          "text": "都",
+          "annotation": "と"
+        },
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "国",
+          "annotation": "こっ"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "city-state"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stadstaat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stadtstaat",
+        "Polis",
+        "altgriechischer Stadtstaat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "1328090",
+  "readings": [
+    {
+      "kanaExpression": "てぶくろ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "手袋",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "袋",
+          "annotation": "ぶくろ"
+        }
+      ],
+      "rank": 10340
+    },
+    {
+      "kanjiExpression": "手ぶくろ",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "ぶくろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "glove",
+        "mitten",
+        "mitt"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "handschoen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gant",
+        "mitaine",
+        "moufle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Handschuh",
+        "Fäustling"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kesztyű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перчатки; рукавицы"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "rokavica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "guante"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "handske"
+      ]
+    }
+  ]
+}

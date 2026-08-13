@@ -1,0 +1,60 @@
+{
+  "id": "1244500",
+  "readings": [
+    {
+      "kanaExpression": "くしょう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "苦笑",
+      "furiganaExpression": [
+        {
+          "text": "苦",
+          "annotation": "く"
+        },
+        {
+          "text": "笑",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 3623
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bitter smile",
+        "wry smile",
+        "strained laugh",
+        "sarcastic laugh"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sourire amer",
+        "sourire forcé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gequält lächeln",
+        "bitter lächeln",
+        "säuerlich lächeln",
+        "gequältes Lächeln",
+        "gezwungenes Lächeln",
+        "bitteres Lächeln",
+        "säuerliches Lächeln"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "натянутая улыбка; горькая усмешка; кривая усмешка",
+        "{～する}, 苦笑をもらす натянуто (криво) улыбнуться; горько усмехнуться; улыбаться одними губами"
+      ]
+    }
+  ]
+}

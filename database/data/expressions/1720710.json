@@ -1,0 +1,65 @@
+{
+  "id": "1720710",
+  "readings": [
+    {
+      "kanaExpression": "おやがわり",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "親代わり",
+      "furiganaExpression": [
+        {
+          "text": "親",
+          "annotation": "おや"
+        },
+        {
+          "text": "代",
+          "annotation": "が"
+        },
+        {
+          "text": "わり"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "親代り",
+      "furiganaExpression": [
+        {
+          "text": "親",
+          "annotation": "おや"
+        },
+        {
+          "text": "代",
+          "annotation": "がわ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(one acting as a) foster parent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Elternstellvertreter",
+        "Vertretung der Eltern",
+        "Ersatz für die Eltern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) замещение родителей",
+        "2) заменяющий отца, заменяющая мать"
+      ]
+    }
+  ]
+}

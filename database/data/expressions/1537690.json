@@ -1,0 +1,85 @@
+{
+  "id": "1537690",
+  "readings": [
+    {
+      "kanaExpression": "のらねこ",
+      "rank": 33500
+    },
+    {
+      "kanaExpression": "ノラネコ"
+    },
+    {
+      "kanjiExpression": "ノラ猫",
+      "furiganaExpression": [
+        {
+          "text": "ノラ"
+        },
+        {
+          "text": "猫",
+          "annotation": "ねこ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "のら猫",
+      "furiganaExpression": [
+        {
+          "text": "のら"
+        },
+        {
+          "text": "猫",
+          "annotation": "ねこ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "野良ネコ",
+      "furiganaExpression": [
+        {
+          "text": "野",
+          "annotation": "の"
+        },
+        {
+          "text": "良",
+          "annotation": "ら"
+        },
+        {
+          "text": "ネコ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stray cat",
+        "alley cat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zwerfkat",
+        "zwervende kat",
+        "straatkat",
+        "kat die geen baas heeft",
+        "verwilderde kat",
+        "veldkat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "herrenlose Katze",
+        "streunende Katze"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бездомная кошка"
+      ]
+    }
+  ]
+}

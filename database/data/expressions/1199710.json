@@ -1,0 +1,62 @@
+{
+  "id": "1199710",
+  "readings": [
+    {
+      "kanaExpression": "かいふ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "回付",
+      "furiganaExpression": [
+        {
+          "text": "回",
+          "annotation": "かい"
+        },
+        {
+          "text": "付",
+          "annotation": "ふ"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transmitting",
+        "referring to",
+        "passing on"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nachsenden",
+        "nachschicken",
+        "weitergeben",
+        "weitersenden",
+        "zurücksenden",
+        "Weitergeben",
+        "Nachsenden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átvivő",
+        "közlő",
+        "leadás",
+        "leadó",
+        "sugározás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отсылка; передача",
+        "{～する} отсылать, пересылать; передавать [на рассмотрение]"
+      ]
+    }
+  ]
+}

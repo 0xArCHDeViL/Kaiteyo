@@ -1,0 +1,55 @@
+{
+  "id": "1542270",
+  "readings": [
+    {
+      "kanaExpression": "ゆうぜい",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "遊説",
+      "furiganaExpression": [
+        {
+          "text": "遊",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "説",
+          "annotation": "ぜい"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "election tour",
+        "election campaign",
+        "stumping"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "campagne électorale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "um Stimmen werben",
+        "Wahlreden halten",
+        "Wahlreise",
+        "Kampagne"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "агитационная предвыборная поездка",
+        "{～する} ездить с агитационными предвыборными речами"
+      ]
+    }
+  ]
+}

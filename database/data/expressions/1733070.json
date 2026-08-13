@@ -1,0 +1,52 @@
+{
+  "id": "1733070",
+  "readings": [
+    {
+      "kanaExpression": "ちがいほうけん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "治外法権",
+      "furiganaExpression": [
+        {
+          "text": "治",
+          "annotation": "ち"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        },
+        {
+          "text": "権",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "extraterritoriality"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Extraterritorialität",
+        "extraterritoriale Rechte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "право экстерриториальности; экстерриториальность; консульская юрисдикция"
+      ]
+    }
+  ]
+}

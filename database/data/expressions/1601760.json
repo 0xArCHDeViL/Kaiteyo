@@ -1,0 +1,74 @@
+{
+  "id": "1601760",
+  "readings": [
+    {
+      "kanaExpression": "ひきど",
+      "rank": 32000
+    },
+    {
+      "kanaExpression": "ひきと"
+    },
+    {
+      "kanjiExpression": "引き戸",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "戸",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "引戸",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "戸",
+          "annotation": "ど"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sliding door"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schiebetür"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "задвижная (раздвижная) дверь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "puerta corrediza"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skjutdörr"
+      ]
+    }
+  ]
+}

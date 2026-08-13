@@ -1,0 +1,43 @@
+{
+  "id": "1620220",
+  "readings": [
+    {
+      "kanaExpression": "ぞくしん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "続伸",
+      "furiganaExpression": [
+        {
+          "text": "続",
+          "annotation": "ぞく"
+        },
+        {
+          "text": "伸",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "continuous rise (in market price)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{fin.} gestage groei"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "anhaltender Anstieg"
+      ]
+    }
+  ]
+}

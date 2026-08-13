@@ -1,0 +1,94 @@
+{
+  "id": "1410050",
+  "readings": [
+    {
+      "kanaExpression": "たいさく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "対策",
+      "furiganaExpression": [
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "策",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 665
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "measure",
+        "step",
+        "countermeasure",
+        "counterplan",
+        "countermove",
+        "strategy",
+        "preparation (e.g. for a test)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maatregel",
+        "stap",
+        "tegenmaatregel",
+        "{fig.} tegenzet"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mesure (à prendre)",
+        "disposition",
+        "étape",
+        "contre-mesure",
+        "contre-plan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gegenmaßnahme",
+        "Maßnahme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ellenintézkedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[ответные] мероприятия; контрмеры"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "protiudarec",
+        "protiukrep"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "contramedida"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "motåtgärd"
+      ]
+    }
+  ]
+}

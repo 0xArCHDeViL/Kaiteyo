@@ -1,0 +1,62 @@
+{
+  "id": "1752540",
+  "readings": [
+    {
+      "kanaExpression": "めいせき",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "名跡",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "めい"
+        },
+        {
+          "text": "跡",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "名蹟",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "めい"
+        },
+        {
+          "text": "蹟",
+          "annotation": "せき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "famous historic spot",
+        "family name",
+        "professional name"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beroemde ruïne",
+        "befaamde site",
+        "beroemde historische plaats",
+        "beroemd handschrift"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "berühmte Ruine",
+        "Familienname"
+      ]
+    }
+  ]
+}

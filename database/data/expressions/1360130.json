@@ -1,0 +1,84 @@
+{
+  "id": "1360130",
+  "readings": [
+    {
+      "kanaExpression": "ねこむ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "寝込む",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "寝こむ",
+      "furiganaExpression": [
+        {
+          "text": "寝",
+          "annotation": "ね"
+        },
+        {
+          "text": "こむ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to fall fast asleep",
+        "to be confined to one\u0027s bed",
+        "to be laid up"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "in slaap vallen",
+        "inslapen",
+        "ziek naar bed gaan",
+        "het bed moeten houden",
+        "bedlegerig worden",
+        "bedgebonden raken",
+        "aan het ziekbed gekluisterd worden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einschlafen",
+        "tief schlafen",
+        "im Bett liegen",
+        "das Bett hüten",
+        "bettlägerig sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alszik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) заснуть",
+        "2) заспаться, проспать",
+        "3) слечь (заболев)"
+      ]
+    }
+  ]
+}

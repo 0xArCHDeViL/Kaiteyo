@@ -1,0 +1,166 @@
+{
+  "id": "1397310",
+  "readings": [
+    {
+      "kanaExpression": "すばやい",
+      "rank": 11453
+    },
+    {
+      "kanjiExpression": "素早い",
+      "furiganaExpression": [
+        {
+          "text": "素",
+          "annotation": "す"
+        },
+        {
+          "text": "早",
+          "annotation": "ばや"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 7830
+    },
+    {
+      "kanjiExpression": "素速い",
+      "furiganaExpression": [
+        {
+          "text": "素",
+          "annotation": "す"
+        },
+        {
+          "text": "速",
+          "annotation": "ばや"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "す早い",
+      "furiganaExpression": [
+        {
+          "text": "す"
+        },
+        {
+          "text": "早",
+          "annotation": "ばや"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "す速い",
+      "furiganaExpression": [
+        {
+          "text": "す"
+        },
+        {
+          "text": "速",
+          "annotation": "ばや"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "quick",
+        "swift",
+        "nimble",
+        "agile",
+        "quick (understanding, judgement, etc.)",
+        "alert",
+        "prompt"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "snel",
+        "vlug",
+        "rap",
+        "gezwind",
+        "alert",
+        "prompt",
+        "{arch.} vaardig"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prompt",
+        "rapide"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schnell",
+        "geschwind",
+        "rasch",
+        "flink",
+        "hurtig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erős",
+        "erősen",
+        "gyors",
+        "gyorsan",
+        "igaz",
+        "kicsapongó",
+        "megbízható",
+        "rögzített",
+        "sebes",
+        "szilárdan",
+        "tartós",
+        "zárt",
+        "élénk",
+        "éles",
+        "eleven",
+        "élő",
+        "sebesen",
+        "fürge",
+        "agilis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проворный, подвижный, быстрый, прыткий, юркий"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hiter",
+        "nagel",
+        "nemuden",
+        "uren"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rápido",
+        "veloz",
+        "ligero",
+        "presto",
+        "pronto",
+        "listo",
+        "ágil"
+      ]
+    }
+  ]
+}

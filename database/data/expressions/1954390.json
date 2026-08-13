@@ -1,0 +1,77 @@
+{
+  "id": "1954390",
+  "readings": [
+    {
+      "kanaExpression": "かみがた",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "髪型",
+      "furiganaExpression": [
+        {
+          "text": "髪",
+          "annotation": "かみ"
+        },
+        {
+          "text": "型",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 10256
+    },
+    {
+      "kanjiExpression": "髪形",
+      "furiganaExpression": [
+        {
+          "text": "髪",
+          "annotation": "かみ"
+        },
+        {
+          "text": "形",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hair style",
+        "coiffure",
+        "hairdo"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kapsel",
+        "coiffure",
+        "haardracht",
+        "haarsnit",
+        "coupe",
+        "frisuur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frisur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "frizura"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "peinado",
+        "estilo de pelo"
+      ]
+    }
+  ]
+}

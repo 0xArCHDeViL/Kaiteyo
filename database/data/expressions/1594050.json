@@ -1,0 +1,87 @@
+{
+  "id": "1594050",
+  "readings": [
+    {
+      "kanaExpression": "しあさって",
+      "rank": 32039
+    },
+    {
+      "kanaExpression": "みょうみょうごにち"
+    },
+    {
+      "kanjiExpression": "明々後日",
+      "furiganaExpression": [
+        {
+          "text": "明",
+          "annotation": "みょう"
+        },
+        {
+          "text": "々",
+          "annotation": "みょう"
+        },
+        {
+          "text": "後",
+          "annotation": "ご"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "明明後日",
+      "furiganaExpression": [
+        {
+          "text": "明明後日",
+          "annotation": "しあさって"
+        }
+      ],
+      "rank": 32039
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in three days\u0027 time",
+        "two days after tomorrow"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overovermorgen",
+        "de dag na overmorgen",
+        "drie dagen na vandaag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dans trois jours",
+        "après après-demain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "überübermorgen",
+        "in drei Tagen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "через три дня",
+        "(разг.) послепослезавтра, на третий день"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tres días a partir de hoy"
+      ]
+    }
+  ]
+}

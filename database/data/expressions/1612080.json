@@ -1,0 +1,96 @@
+{
+  "id": "1612080",
+  "readings": [
+    {
+      "kanaExpression": "ものおぼえ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "物覚え",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "もの"
+        },
+        {
+          "text": "覚",
+          "annotation": "おぼ"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "もの覚え",
+      "furiganaExpression": [
+        {
+          "text": "もの"
+        },
+        {
+          "text": "覚",
+          "annotation": "おぼ"
+        },
+        {
+          "text": "え"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "memory",
+        "ability to learn"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geheugen",
+        "{w.g.} retentie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "capacité de mémorisation",
+        "mémoire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gedächtnis",
+        "Erinnerungsvermögen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emlékezőtehetség",
+        "memória"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "память"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "memoria"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "minne"
+      ]
+    }
+  ]
+}

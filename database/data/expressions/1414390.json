@@ -1,0 +1,73 @@
+{
+  "id": "1414390",
+  "readings": [
+    {
+      "kanaExpression": "おおそうじ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "大掃除",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "おお"
+        },
+        {
+          "text": "掃",
+          "annotation": "そう"
+        },
+        {
+          "text": "除",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "major cleanup",
+        "spring cleaning"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grote schoonmaak",
+        "grote schoonmaakbeurt",
+        "grondige beurt",
+        "{Belg.N.} grote kuis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grand nettoyage",
+        "nettoyage de printemps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Großreinemachen",
+        "Großputz",
+        "Frühjahrsputz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "генеральная уборка [в доме]",
+        "{～をする} проводить генеральную уборку"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "limpieza general"
+      ]
+    }
+  ]
+}

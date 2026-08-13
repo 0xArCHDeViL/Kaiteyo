@@ -1,0 +1,87 @@
+{
+  "id": "1362610",
+  "readings": [
+    {
+      "kanaExpression": "しんすい",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "浸水",
+      "furiganaExpression": [
+        {
+          "text": "浸",
+          "annotation": "しん"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inundation",
+        "submersion",
+        "flood"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overstroomd worden",
+        "onderlopen",
+        "onder water lopen",
+        "ondervloeien",
+        "inlopen",
+        "inunderen",
+        "invloeien",
+        "{gew.} onderschieten",
+        "overstroming",
+        "inundatie",
+        "inondatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "inondation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "überschwemmen",
+        "Überschwemmung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ár",
+        "árvíz",
+        "elárasztás",
+        "vízbetörés",
+        "elárasztódás",
+        "vízbeszivárgás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) наводнение; затопление",
+        "{～する} быть затопленным",
+        "2) образование течи; течь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inundación"
+      ]
+    }
+  ]
+}

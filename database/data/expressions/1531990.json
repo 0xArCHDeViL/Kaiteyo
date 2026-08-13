@@ -1,0 +1,57 @@
+{
+  "id": "1531990",
+  "readings": [
+    {
+      "kanaExpression": "めいうん",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "命運",
+      "furiganaExpression": [
+        {
+          "text": "命",
+          "annotation": "めい"
+        },
+        {
+          "text": "運",
+          "annotation": "うん"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fate",
+        "destiny"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schicksal",
+        "Geschick",
+        "Fatum",
+        "Verderben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pusztulás",
+        "sors",
+        "végzet",
+        "balsors",
+        "megsemmisülés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) судьба, участь"
+      ]
+    }
+  ]
+}

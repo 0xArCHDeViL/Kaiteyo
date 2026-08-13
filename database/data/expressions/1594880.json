@@ -1,0 +1,103 @@
+{
+  "id": "1594880",
+  "readings": [
+    {
+      "kanaExpression": "しゅりょう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "首領",
+      "furiganaExpression": [
+        {
+          "text": "首",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "領",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "主領",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "領",
+          "annotation": "りょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "head",
+        "chief",
+        "boss",
+        "leader"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bendeleider",
+        "bendehoofd",
+        "leider",
+        "hoofd",
+        "chef",
+        "aanvoerder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anführer",
+        "Boss",
+        "Chef",
+        "Führer",
+        "Leiter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csúcs",
+        "eleje vminek",
+        "fejtési front",
+        "felső rész",
+        "fő",
+        "főnök",
+        "gubó",
+        "mákfej",
+        "orom",
+        "vezető",
+        "első",
+        "vezér",
+        "aknász",
+        "bányamester",
+        "domborulat",
+        "dudor",
+        "dudorodás",
+        "kidomborodás",
+        "kidudorodás",
+        "klassz",
+        "művezető",
+        "púp",
+        "szuper"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глава, вождь, лидер, предводитель",
+        "{…を～とする} возглавляться (кем-л.), иметь во главе (кого-л.)"
+      ]
+    }
+  ]
+}

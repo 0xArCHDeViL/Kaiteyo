@@ -1,0 +1,57 @@
+{
+  "id": "1289880",
+  "readings": [
+    {
+      "kanaExpression": "こんせい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "懇請",
+      "furiganaExpression": [
+        {
+          "text": "懇",
+          "annotation": "こん"
+        },
+        {
+          "text": "請",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "appeal",
+        "entreaty",
+        "request"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ersuchen",
+        "bitten",
+        "Ersuchen",
+        "Anliegen",
+        "dringende Bitte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felhívás",
+        "kérés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "настойчивая (настоятельная, убедительная) просьба; мольба",
+        "{～する} настойчиво (настоятельно, убедительно) просить, упрашивать; умолять"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "1630260",
+  "readings": [
+    {
+      "kanaExpression": "おどし",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "脅し",
+      "furiganaExpression": [
+        {
+          "text": "脅",
+          "annotation": "おど"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "嚇し",
+      "furiganaExpression": [
+        {
+          "text": "嚇",
+          "annotation": "おど"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "威し",
+      "furiganaExpression": [
+        {
+          "text": "威",
+          "annotation": "おど"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "threat",
+        "bird-scaring device (scarecrow, gun, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dreigement",
+        "bedreiging",
+        "dreiging",
+        "intimidatie",
+        "bangmakerij",
+        "schrikaanjaging",
+        "vreesaanjaging",
+        "afdreiging",
+        "afpersing",
+        "chantage",
+        "vogelverschrikker",
+        "mussenverschrikker",
+        "molik",
+        "{gew.} vogelschrik"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Drohung",
+        "Bedrohung",
+        "Androhung",
+        "Erpressung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fenyegetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) угроза, запугивание",
+        "2) (диал.) пугало"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "amenaza"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hotelse"
+      ]
+    }
+  ]
+}

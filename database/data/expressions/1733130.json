@@ -1,0 +1,58 @@
+{
+  "id": "1733130",
+  "readings": [
+    {
+      "kanaExpression": "ちりょうほう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "治療法",
+      "furiganaExpression": [
+        {
+          "text": "治",
+          "annotation": "ち"
+        },
+        {
+          "text": "療",
+          "annotation": "りょう"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "method of treatment",
+        "cure",
+        "remedy"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Behandlungsmethode",
+        "Heilmethode",
+        "Therapie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bánásmód"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лечебные методы; как [надо] лечить",
+        "{～の} лечебный; терапевтический"
+      ]
+    }
+  ]
+}

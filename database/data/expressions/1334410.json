@@ -1,0 +1,90 @@
+{
+  "id": "1334410",
+  "readings": [
+    {
+      "kanaExpression": "じゅうとう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "充当",
+      "furiganaExpression": [
+        {
+          "text": "充",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "当",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "allocation",
+        "appropriation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "toewijzen",
+        "besteden",
+        "aanwenden",
+        "bestemmen",
+        "alloceren",
+        "reserveren voor",
+        "oormerken",
+        "earmarken",
+        "toewijzing",
+        "besteding",
+        "aanwending",
+        "bestemming",
+        "allocatie",
+        "{psych.} cathexis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bewilligen",
+        "zuweisen",
+        "benutzen",
+        "anwenden",
+        "Bewilligung",
+        "Anwendung",
+        "Zuweisung",
+        "Benutzung",
+        "Verwertung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhelyezés",
+        "kiosztás",
+        "kiutalás",
+        "eltulajdonítás",
+        "felhasználás",
+        "kisajátítás",
+        "ráfordítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[пред]назначение",
+        "{～する} предназначать, ассигновать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odmeriti, dodeliti (denar, čas ipd.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1275120",
+  "readings": [
+    {
+      "kanaExpression": "こう",
+      "rank": 446
+    },
+    {
+      "kanjiExpression": "効",
+      "furiganaExpression": [
+        {
+          "text": "効",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "efficacy",
+        "benefit",
+        "efficiency",
+        "effect",
+        "result",
+        "success"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wirkung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hathatósság",
+        "eredmény",
+        "jelenség",
+        "következmény",
+        "siker"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[полезное] действие; эффект; результат; успех",
+        "{～がある} действовать, оказывать действие; быть эффективным; давать результат; быть полезным; быть успешным"
+      ]
+    }
+  ]
+}

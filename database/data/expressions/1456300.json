@@ -1,0 +1,71 @@
+{
+  "id": "1456300",
+  "readings": [
+    {
+      "kanaExpression": "よみなおす",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "読み直す",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "直",
+          "annotation": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "読みなおす",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "みなおす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to read (a book, etc.) over again"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opnieuw lezen",
+        "overlezen",
+        "herlezen",
+        "nalezen",
+        "teruglezen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "noch einmal lesen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перечитывать ещё раз"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "1352300",
+  "readings": [
+    {
+      "kanaExpression": "あげ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "上げ",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 6122
+    },
+    {
+      "kanjiExpression": "揚げ",
+      "furiganaExpression": [
+        {
+          "text": "揚",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 9468
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tuck (e.g. in a dress)",
+        "rise (e.g. in price)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verhoging",
+        "ophoging",
+        "verheffing",
+        "lossing",
+        "aflading",
+        "ontlading",
+        "{beurst.} stijging",
+        "hausse",
+        "{着物の} opnaaiing",
+        "opnaaisel",
+        "oprijg",
+        "inleg",
+        "retouche",
+        "pomp",
+        "plooi",
+        "plissé",
+        "{nō-jargon} passage voorgedragen in een hoog stemregister",
+        "hooggelegen rijstveld"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Falte",
+        "Abnäher",
+        "Einschlag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запасная складка (в кимоно, шьющемся навырост)"
+      ]
+    }
+  ]
+}

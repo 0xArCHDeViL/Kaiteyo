@@ -1,0 +1,45 @@
+{
+  "id": "1200430",
+  "readings": [
+    {
+      "kanaExpression": "くやしなき",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "悔し泣き",
+      "furiganaExpression": [
+        {
+          "text": "悔",
+          "annotation": "くや"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "泣",
+          "annotation": "な"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "crying from vexation",
+        "tears of regret"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Weinen vor Ärger",
+        "Weinen vor Zorn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "1557950",
+  "readings": [
+    {
+      "kanaExpression": "こよみ",
+      "rank": 21500
+    },
+    {
+      "kanaExpression": "れき"
+    },
+    {
+      "kanjiExpression": "暦",
+      "furiganaExpression": [
+        {
+          "text": "暦",
+          "annotation": "こよみ"
+        }
+      ],
+      "rank": 8252
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "calendar",
+        "almanac"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kalender",
+        "almanak",
+        "calendarium",
+        "(a) jaartelling",
+        "tijdrekening",
+        "(b) kosmografie",
+        "lotsbeschikking"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "almanach",
+        "calendrier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kalender",
+        "Almanach",
+        "Jahrbuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "almanach",
+        "naptár",
+        "évkönyv"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "календарь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calendario (no agenda)"
+      ]
+    }
+  ]
+}

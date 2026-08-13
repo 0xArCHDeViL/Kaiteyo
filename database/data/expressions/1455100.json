@@ -1,0 +1,55 @@
+{
+  "id": "1455100",
+  "readings": [
+    {
+      "kanaExpression": "とくせい",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "特製",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とく"
+        },
+        {
+          "text": "製",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 14479
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "special make",
+        "deluxe"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het speciaal maken",
+        "vervaardigen",
+        "speciaal gemaakt",
+        "vervaardigd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sonderanfertigung",
+        "besonders angefertigt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[продукция] по особому заказу",
+        "{～[の]} специально изготовленный, по особому заказу"
+      ]
+    }
+  ]
+}

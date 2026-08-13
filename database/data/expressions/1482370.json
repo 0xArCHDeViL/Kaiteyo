@@ -1,0 +1,56 @@
+{
+  "id": "1482370",
+  "readings": [
+    {
+      "kanaExpression": "ばんちゃ",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "番茶",
+      "furiganaExpression": [
+        {
+          "text": "番",
+          "annotation": "ばん"
+        },
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "coarse tea"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ordinaire groene thee"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bancha",
+        "einfacher grüner Tee"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чай низшего сорта (зелёный)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "té granulado"
+      ]
+    }
+  ]
+}

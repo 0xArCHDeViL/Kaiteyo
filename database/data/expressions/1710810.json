@@ -1,0 +1,49 @@
+{
+  "id": "1710810",
+  "readings": [
+    {
+      "kanaExpression": "びょういん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "病因",
+      "furiganaExpression": [
+        {
+          "text": "病",
+          "annotation": "びょう"
+        },
+        {
+          "text": "因",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the cause of a disease"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krankheitsursache"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "причина заболевания (болезни)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sjukdomsorsak"
+      ]
+    }
+  ]
+}

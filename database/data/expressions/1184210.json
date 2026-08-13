@@ -1,0 +1,40 @@
+{
+  "id": "1184210",
+  "readings": [
+    {
+      "kanaExpression": "さげあし",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "下げ足",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "さ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "downturn (in the market)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(бирж.) тенденция к понижению курса"
+      ]
+    }
+  ]
+}

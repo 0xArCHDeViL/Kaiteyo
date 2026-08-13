@@ -1,0 +1,63 @@
+{
+  "id": "1646460",
+  "readings": [
+    {
+      "kanaExpression": "しぶりばら",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "渋り腹",
+      "furiganaExpression": [
+        {
+          "text": "渋",
+          "annotation": "しぶ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "腹",
+          "annotation": "ばら"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "しぶり腹",
+      "furiganaExpression": [
+        {
+          "text": "しぶり"
+        },
+        {
+          "text": "腹",
+          "annotation": "ばら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bowel pains",
+        "painful loose bowels"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} kolieken",
+        "buikkramp",
+        "{i.h.b.} tenesmus",
+        "tenesme",
+        "pijnlijke stoelaandrang"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stuhlverhalt mit Bauchschmerzen und Stuhldrang"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "1259400",
+  "readings": [
+    {
+      "kanaExpression": "みまわす",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "見回す",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 12834
+    },
+    {
+      "kanjiExpression": "見まわす",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "まわす"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "見廻す",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "廻",
+          "annotation": "まわ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to look around",
+        "to survey"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich umsehen",
+        "herumsehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áttekint",
+        "felülvizsgál",
+        "szemrevételez"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оглядывать, окидывать взглядом"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "1832410",
+  "readings": [
+    {
+      "kanaExpression": "ねったいていきあつ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "熱帯低気圧",
+      "furiganaExpression": [
+        {
+          "text": "熱",
+          "annotation": "ねっ"
+        },
+        {
+          "text": "帯",
+          "annotation": "たい"
+        },
+        {
+          "text": "低",
+          "annotation": "てい"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "圧",
+          "annotation": "あつ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tropical cyclone"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tropischer Tiefdruck",
+        "tropisches Tiefdruckgebiet"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ciclón tropical"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "1004320",
+  "readings": [
+    {
+      "kanaExpression": "こういう",
+      "rank": 267
+    },
+    {
+      "kanaExpression": "こうゆう",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "こーゆー"
+    },
+    {
+      "kanjiExpression": "こう言う",
+      "furiganaExpression": [
+        {
+          "text": "こう"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "such",
+        "this sort of",
+        "like this"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "solch ein"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tal",
+        "así (como esto)",
+        "este tipo de"
+      ]
+    }
+  ]
+}

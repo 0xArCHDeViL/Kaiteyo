@@ -1,0 +1,76 @@
+{
+  "id": "1712210",
+  "readings": [
+    {
+      "kanaExpression": "あずかりしょう",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "預り証",
+      "furiganaExpression": [
+        {
+          "text": "預",
+          "annotation": "あずか"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "証",
+          "annotation": "しょう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "預かり証",
+      "furiganaExpression": [
+        {
+          "text": "預",
+          "annotation": "あず"
+        },
+        {
+          "text": "かり"
+        },
+        {
+          "text": "証",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "claim check",
+        "baggage check",
+        "luggage check",
+        "deposit receipt"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "depositobewijs",
+        "depotbewijs",
+        "ontvangbewijs",
+        "ontvangstbewijs",
+        "reçu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gepäckschein",
+        "Aufbewahrungsschein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "poggyász feladóvevény"
+      ]
+    }
+  ]
+}

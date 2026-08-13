@@ -1,0 +1,61 @@
+{
+  "id": "1557790",
+  "readings": [
+    {
+      "kanaExpression": "れいこん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "霊魂",
+      "furiganaExpression": [
+        {
+          "text": "霊",
+          "annotation": "れい"
+        },
+        {
+          "text": "魂",
+          "annotation": "こん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "soul",
+        "spirit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ziel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seele",
+        "Geist"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lélek",
+        "szellem",
+        "kedély",
+        "kísértet",
+        "szesz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "душа, дух"
+      ]
+    }
+  ]
+}

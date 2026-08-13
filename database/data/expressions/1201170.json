@@ -1,0 +1,80 @@
+{
+  "id": "1201170",
+  "readings": [
+    {
+      "kanaExpression": "かいざん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "改ざん",
+      "furiganaExpression": [
+        {
+          "text": "改",
+          "annotation": "かい"
+        },
+        {
+          "text": "ざん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "改竄",
+      "furiganaExpression": [
+        {
+          "text": "改",
+          "annotation": "かい"
+        },
+        {
+          "text": "竄",
+          "annotation": "ざん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "alteration",
+        "falsification",
+        "faking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fälschen",
+        "verfälschen",
+        "umschreiben",
+        "Verfälschung",
+        "Fälschung",
+        "Umschreibung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hamisítás",
+        "átalakuló",
+        "módosuló",
+        "változó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) подделка; фальсификация",
+        "{～する} подделывать; фальсифицировать",
+        "2) переделка, обработка; исправление",
+        "{～する} переделывать, делать обработку; исправлять, вносить поправки"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "falsifikat"
+      ]
+    }
+  ]
+}

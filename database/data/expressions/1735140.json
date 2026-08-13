@@ -1,0 +1,63 @@
+{
+  "id": "1735140",
+  "readings": [
+    {
+      "kanaExpression": "てきこく",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "てっこく"
+    },
+    {
+      "kanjiExpression": "敵国",
+      "furiganaExpression": [
+        {
+          "text": "敵",
+          "annotation": "てき"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "enemy nation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vijandig land",
+        "vijand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feindliches Land",
+        "Feindesland",
+        "Feindstaat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вражеская страна; противник (государство)",
+        "(см.) てきこく"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nación enemiga",
+        "país enemigo"
+      ]
+    }
+  ]
+}

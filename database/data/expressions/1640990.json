@@ -1,0 +1,53 @@
+{
+  "id": "1640990",
+  "readings": [
+    {
+      "kanaExpression": "まなび",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "学び",
+      "furiganaExpression": [
+        {
+          "text": "学",
+          "annotation": "まな"
+        },
+        {
+          "text": "び"
+        }
+      ],
+      "rank": 13340
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "learning",
+        "study"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lernen",
+        "Studium"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tanítás",
+        "tanulás",
+        "dolgozószoba",
+        "etűd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) учение, учёба"
+      ]
+    }
+  ]
+}

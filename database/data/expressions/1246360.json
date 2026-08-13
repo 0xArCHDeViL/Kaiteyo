@@ -1,0 +1,67 @@
+{
+  "id": "1246360",
+  "readings": [
+    {
+      "kanaExpression": "ぐうはつ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "偶発",
+      "furiganaExpression": [
+        {
+          "text": "偶",
+          "annotation": "ぐう"
+        },
+        {
+          "text": "発",
+          "annotation": "はつ"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sudden outbreak",
+        "accidental",
+        "incidental"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "accidentel",
+        "début soudain",
+        "fortuit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zufälliges Erscheinen",
+        "zufällige Entstehung",
+        "zufälliges Auftauchen",
+        "zufällig entstehen",
+        "zufällig geschehen",
+        "zufällig passieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mellék",
+        "nem lényeges"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "случайное возникновение",
+        "{～的} случайный",
+        "{～する} случаться"
+      ]
+    }
+  ]
+}

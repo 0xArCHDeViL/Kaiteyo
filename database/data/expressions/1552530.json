@@ -1,0 +1,60 @@
+{
+  "id": "1552530",
+  "readings": [
+    {
+      "kanaExpression": "りゅうひょう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "流氷",
+      "furiganaExpression": [
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        },
+        {
+          "text": "氷",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drift ice",
+        "ice floe"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "drijfijs"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "banquise",
+        "glaces en dérive",
+        "glaces flottantes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Treibeis",
+        "Eisscholle",
+        "Eisberg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плавучий (дрейфующий) лёд"
+      ]
+    }
+  ]
+}

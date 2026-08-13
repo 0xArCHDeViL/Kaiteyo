@@ -1,0 +1,70 @@
+{
+  "id": "1267250",
+  "readings": [
+    {
+      "kanaExpression": "こし",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "枯死",
+      "furiganaExpression": [
+        {
+          "text": "枯",
+          "annotation": "こ"
+        },
+        {
+          "text": "死",
+          "annotation": "し"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "withering",
+        "dying"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "flétri",
+        "mourant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verdorren",
+        "Vertrocknen",
+        "Eingehen",
+        "Absterben",
+        "eingehen",
+        "absterben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fonnyadó",
+        "fonnyasztó",
+        "hervadó",
+        "hervasztó",
+        "senyvesztő",
+        "sorvasztó",
+        "száradó",
+        "szárító"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) увядание, засыхание",
+        "{～する} увядать, засыхать"
+      ]
+    }
+  ]
+}

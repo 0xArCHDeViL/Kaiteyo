@@ -1,0 +1,85 @@
+{
+  "id": "1215220",
+  "readings": [
+    {
+      "kanaExpression": "かんべつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "鑑別",
+      "furiganaExpression": [
+        {
+          "text": "鑑",
+          "annotation": "かん"
+        },
+        {
+          "text": "別",
+          "annotation": "べつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "discrimination",
+        "judgement",
+        "judgment",
+        "separation",
+        "sorting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "differentiatie",
+        "onderscheiding",
+        "schifting",
+        "beoordeling",
+        "differentiëren",
+        "onderscheiden",
+        "schiften",
+        "onderscheid maken",
+        "beoordelen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "discernement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterscheidung",
+        "Differenzierung",
+        "Beurteilung",
+        "unterscheiden",
+        "beurteilen",
+        "differenzieren",
+        "begutachten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ítélőképesség",
+        "döntés",
+        "ítélet",
+        "megítélés",
+        "nézet",
+        "vélemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "различение",
+        "{～する} различать, распознавать, отличать"
+      ]
+    }
+  ]
+}

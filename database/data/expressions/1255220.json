@@ -1,0 +1,90 @@
+{
+  "id": "1255220",
+  "readings": [
+    {
+      "kanaExpression": "ちすじ",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "血筋",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "ち"
+        },
+        {
+          "text": "筋",
+          "annotation": "すじ"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "血すじ",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "ち"
+        },
+        {
+          "text": "すじ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lineage",
+        "stock",
+        "descent",
+        "strain",
+        "blood relationship"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abstammung",
+        "Abstammungslinie",
+        "Abkunft",
+        "Blut",
+        "Blutlinie",
+        "Geburt",
+        "Ader",
+        "Blutgefäß",
+        "Blutsverwandter",
+        "Blutsverwandtschaft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "családfa",
+        "leszármazás",
+        "származás",
+        "alaptőke",
+        "eredet",
+        "fajta",
+        "fatörzs",
+        "megszokott",
+        "nyél",
+        "tőke",
+        "tuskó",
+        "ének",
+        "feszülés",
+        "hajlam",
+        "vonás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) кровное родство, узы крови",
+        "2) происхождение, родословная",
+        "3) кровеносные сосуды"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1198480",
+  "readings": [
+    {
+      "kanaExpression": "かいけいし",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "会計士",
+      "furiganaExpression": [
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "計",
+          "annotation": "けい"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 10453
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "accountant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boekhouder",
+        "accountant",
+        "administrateur",
+        "boekhoudkundige",
+        "{Belg.N.",
+        "niet alg.} rekenplichtige"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wirtschaftsprüfer",
+        "Buchprüfer",
+        "Bücherrevisor"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "könyvelő",
+        "revizor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бухгалтер (по специальности)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "1336680",
+  "readings": [
+    {
+      "kanaExpression": "じゅうはん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "重版",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "版",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "additional printing",
+        "reprint",
+        "reissue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zweite Auflage",
+        "Neuauflage",
+        "Nachdruck"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) переиздание; перепечатка",
+        "2) перепечатка (переиздание) с нарушением авторского права"
+      ]
+    }
+  ]
+}

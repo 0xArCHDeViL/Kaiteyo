@@ -1,0 +1,94 @@
+{
+  "id": "1578010",
+  "readings": [
+    {
+      "kanaExpression": "さかな",
+      "rank": 16500
+    },
+    {
+      "kanaExpression": "うお",
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "魚",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "さかな"
+        }
+      ],
+      "rank": 1967
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} vis",
+        "vis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "poisson"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fisch",
+        "Fische"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átkelő bárka",
+        "csatlakozó lemez",
+        "ék",
+        "hal",
+        "halak",
+        "illesztett sínheveder",
+        "kötőlap",
+        "peca",
+        "sínheveder",
+        "tehetetlen ember",
+        "ütközési heveder",
+        "vitorlarúd-szilárdító"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рыба"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "riba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pez",
+        "pescado"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fisk",
+        "firre"
+      ]
+    }
+  ]
+}

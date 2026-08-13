@@ -1,0 +1,106 @@
+{
+  "id": "1597070",
+  "readings": [
+    {
+      "kanaExpression": "たてこむ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "立て込む",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "立込む",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "たて"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "立てこむ",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "てこむ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be crowded",
+        "to be packed",
+        "to be busy",
+        "to be piled up (of work)",
+        "to be busy (with many things)",
+        "to be packed (of one\u0027s schedule)",
+        "to have a lot of work to do",
+        "to have one\u0027s hands full"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "être occupé",
+        "être serré"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dicht beieinander stehen",
+        "zusammengedrängt sein",
+        "tüchtig im Druck sein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "толпиться"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "biti zaposlen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abarrotarse",
+        "atiborrarse"
+      ]
+    }
+  ]
+}

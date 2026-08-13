@@ -1,0 +1,78 @@
+{
+  "id": "1250820",
+  "readings": [
+    {
+      "kanaExpression": "けいかん",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "景観",
+      "furiganaExpression": [
+        {
+          "text": "景",
+          "annotation": "けい"
+        },
+        {
+          "text": "観",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 6854
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scenery"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitzicht",
+        "zicht",
+        "aanblik",
+        "panorama",
+        "landschap",
+        "vista"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anblick",
+        "Ansicht",
+        "Szene",
+        "Szenerie",
+        "Landschaft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "látvány",
+        "táj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) вид, пейзаж, картина"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "paisaje"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vy",
+        "landskap"
+      ]
+    }
+  ]
+}

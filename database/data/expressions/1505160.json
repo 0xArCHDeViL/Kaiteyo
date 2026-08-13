@@ -1,0 +1,76 @@
+{
+  "id": "1505160",
+  "readings": [
+    {
+      "kanaExpression": "ぶんかてき",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "文化的",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cultural"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "culturel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kulturell"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kulturális",
+        "művelési",
+        "művelődési",
+        "tenyésztési",
+        "termesztési"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "культурный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kulturen",
+        "prosveten"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cultural"
+      ]
+    }
+  ]
+}

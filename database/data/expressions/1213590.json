@@ -1,0 +1,65 @@
+{
+  "id": "1213590",
+  "readings": [
+    {
+      "kanaExpression": "かんみりょう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "甘味料",
+      "furiganaExpression": [
+        {
+          "text": "甘",
+          "annotation": "かん"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sweetener (sugar, honey, saccharin, maltose, etc.)",
+        "sweetening agent",
+        "sweetening"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zoetmiddel",
+        "zoetstof",
+        "zoetmakende middelen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "édulcorant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Süßmittel",
+        "Süßungsmittel",
+        "Süßstoff und Zucker"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вещества, придающие сладкий вкус (сахар, глюкоза, сахарин и т. п.)"
+      ]
+    }
+  ]
+}

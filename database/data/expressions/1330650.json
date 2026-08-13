@@ -1,0 +1,55 @@
+{
+  "id": "1330650",
+  "readings": [
+    {
+      "kanaExpression": "しゅうじゅ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "収受",
+      "furiganaExpression": [
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "受",
+          "annotation": "じゅ"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reception",
+        "receiving"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erhalten",
+        "empfangen",
+        "Einnahme",
+        "Empfang",
+        "Erhalt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fogadtatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "получение",
+        "{～する} получать"
+      ]
+    }
+  ]
+}

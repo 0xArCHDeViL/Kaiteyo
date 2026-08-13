@@ -1,0 +1,69 @@
+{
+  "id": "1346580",
+  "readings": [
+    {
+      "kanaExpression": "あきない",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "商い",
+      "furiganaExpression": [
+        {
+          "text": "商",
+          "annotation": "あきな"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trade",
+        "business",
+        "trading",
+        "dealing",
+        "turnover",
+        "sales",
+        "takings"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "handel",
+        "commercie",
+        "koophandel",
+        "omzet",
+        "{Belg.N.} zakencijfer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Handel",
+        "Geschäft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "foglalkozás",
+        "ipar",
+        "kereskedelem",
+        "mesterség",
+        "szakma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "торговля, дело"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "1328710",
+  "readings": [
+    {
+      "kanaExpression": "かり",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "狩り",
+      "furiganaExpression": [
+        {
+          "text": "狩",
+          "annotation": "か"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 7625
+    },
+    {
+      "kanjiExpression": "狩",
+      "furiganaExpression": [
+        {
+          "text": "狩",
+          "annotation": "かり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hunting",
+        "harvesting (e.g. berries, fruit)",
+        "picking",
+        "gathering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chasse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jagd",
+        "Sammeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "falkavadászat",
+        "keresés",
+        "rezgőmozgás",
+        "túlszabályozás",
+        "vadász-",
+        "vadászó",
+        "vadat kergető",
+        "vadat űző"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "охота; сбор (грибов); (перен.) облава; рейд",
+        "{～をする} охотиться; (перен.) устраивать облаву"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zasledovanje",
+        "lov {na živali}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "caza"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "1357710",
+  "readings": [
+    {
+      "kanaExpression": "いろあい",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "いろあわい"
+    },
+    {
+      "kanjiExpression": "色合い",
+      "furiganaExpression": [
+        {
+          "text": "色",
+          "annotation": "いろ"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 11576
+    },
+    {
+      "kanjiExpression": "色合",
+      "furiganaExpression": [
+        {
+          "text": "色",
+          "annotation": "いろ"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "colouring",
+        "coloring",
+        "shade (of colour)",
+        "hue",
+        "tone",
+        "tinge",
+        "tint",
+        "flavour",
+        "nuance",
+        "feel",
+        "sense",
+        "look"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleurschakering",
+        "schakering",
+        "tint",
+        "toon",
+        "coloriet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Farbe",
+        "Färbung",
+        "Farbton",
+        "Schattierung",
+        "Situation",
+        "Nuance",
+        "Tendenz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halvány árnyalat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оттенок, нюанс; окраска, расцветка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tonalidad, matiz"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "färgskiftning"
+      ]
+    }
+  ]
+}

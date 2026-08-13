@@ -1,0 +1,131 @@
+{
+  "id": "1165500",
+  "readings": [
+    {
+      "kanaExpression": "いちにちじゅう",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "いちにちぢゅう"
+    },
+    {
+      "kanjiExpression": "一日中",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "中",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 13995
+    },
+    {
+      "kanjiExpression": "１日中",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いち"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "中",
+          "annotation": "じゅう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "一日じゅう",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "じゅう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "１日じゅう",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いち"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "じゅう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "一日ぢゅう",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "ぢゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "all day long",
+        "all the day",
+        "throughout the day"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "au long de la journée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "den ganzen Tag",
+        "von morgens bis abends"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "целый день",
+        "весь день"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "todo el día"
+      ]
+    }
+  ]
+}

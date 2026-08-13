@@ -1,0 +1,76 @@
+{
+  "id": "1365150",
+  "readings": [
+    {
+      "kanaExpression": "おやもと",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "親元",
+      "furiganaExpression": [
+        {
+          "text": "親",
+          "annotation": "おや"
+        },
+        {
+          "text": "元",
+          "annotation": "もと"
+        }
+      ],
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "親許",
+      "furiganaExpression": [
+        {
+          "text": "親",
+          "annotation": "おや"
+        },
+        {
+          "text": "許",
+          "annotation": "もと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "親もと",
+      "furiganaExpression": [
+        {
+          "text": "親",
+          "annotation": "おや"
+        },
+        {
+          "text": "もと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s parents\u0027 home"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Elternhaus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "понтёр, банкомёт",
+        "1) родительский дом, родной кров",
+        "2) (см.) おやもと【親元】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "domicilio paterno"
+      ]
+    }
+  ]
+}

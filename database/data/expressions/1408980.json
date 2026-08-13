@@ -1,0 +1,45 @@
+{
+  "id": "1408980",
+  "readings": [
+    {
+      "kanaExpression": "だりつ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "打率",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "だ"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "batting average"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} batgemiddelde",
+        "slaggemiddelde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Durchschnittsleistung als Schlagmann",
+        "Batting Average"
+      ]
+    }
+  ]
+}

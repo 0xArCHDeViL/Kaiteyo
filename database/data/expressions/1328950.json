@@ -1,0 +1,62 @@
+{
+  "id": "1328950",
+  "readings": [
+    {
+      "kanaExpression": "しゅよう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "腫瘍",
+      "furiganaExpression": [
+        {
+          "text": "腫",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "瘍",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 11089
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tumor",
+        "tumour",
+        "neoplasm",
+        "neoplasia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} tumor",
+        "gezwel",
+        "nieuwvorming"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tumor",
+        "Neoplasma",
+        "Neubildung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "daganat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) опухоль"
+      ]
+    }
+  ]
+}

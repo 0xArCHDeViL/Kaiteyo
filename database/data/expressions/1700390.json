@@ -1,0 +1,43 @@
+{
+  "id": "1700390",
+  "readings": [
+    {
+      "kanaExpression": "そんかい",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "村会",
+      "furiganaExpression": [
+        {
+          "text": "村",
+          "annotation": "そん"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "village assembly"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dorfversammlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сельский совет (в Японии)"
+      ]
+    }
+  ]
+}

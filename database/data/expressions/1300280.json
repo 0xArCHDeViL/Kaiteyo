@@ -1,0 +1,37 @@
+{
+  "id": "1300280",
+  "readings": [
+    {
+      "kanaExpression": "さんけん",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "三権",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "権",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the three powers of government (legislative, executive and judicial)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die drei Gewalten (Legislative, Exekutive und Judikative)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "1620970",
+  "readings": [
+    {
+      "kanaExpression": "むはい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "無配",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "配",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "without dividend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dividendenlosigkeit"
+      ]
+    }
+  ]
+}

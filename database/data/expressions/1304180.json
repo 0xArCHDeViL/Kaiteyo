@@ -1,0 +1,109 @@
+{
+  "id": "1304180",
+  "readings": [
+    {
+      "kanaExpression": "さんじ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "賛辞",
+      "furiganaExpression": [
+        {
+          "text": "賛",
+          "annotation": "さん"
+        },
+        {
+          "text": "辞",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "讃辞",
+      "furiganaExpression": [
+        {
+          "text": "讃",
+          "annotation": "さん"
+        },
+        {
+          "text": "辞",
+          "annotation": "じ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "讚辞",
+      "furiganaExpression": [
+        {
+          "text": "讚",
+          "annotation": "さん"
+        },
+        {
+          "text": "辞",
+          "annotation": "じ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eulogy",
+        "compliment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lof",
+        "lofprijzing",
+        "loftuiting",
+        "lofspraak",
+        "lofrede",
+        "éloge"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lob",
+        "Lobrede",
+        "Lobpreisung",
+        "Anerkennung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dicsérés",
+        "hálaadó istentisztelet",
+        "dicsérő beszéd",
+        "dicshimnusz",
+        "bók",
+        "dicséret"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "похвалы, восхваление; панегирик, дифирамб"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "elogio",
+        "halago",
+        "cumplido"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "prisa"
+      ]
+    }
+  ]
+}

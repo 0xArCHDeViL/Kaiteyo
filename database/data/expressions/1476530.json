@@ -1,0 +1,49 @@
+{
+  "id": "1476530",
+  "readings": [
+    {
+      "kanaExpression": "はたけちがい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "畑違い",
+      "furiganaExpression": [
+        {
+          "text": "畑",
+          "annotation": "はたけ"
+        },
+        {
+          "text": "違",
+          "annotation": "ちが"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "out of one\u0027s line",
+        "out of one\u0027s field"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fachgebietsfremd",
+        "etw., das nicht zum eigenen Fachgebiet gehört",
+        "Halbgeschwisterschaft (väterlicherseits)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "иная (не данного лица) область (деятельности); не своё поприще"
+      ]
+    }
+  ]
+}

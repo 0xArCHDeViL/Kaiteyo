@@ -1,0 +1,65 @@
+{
+  "id": "1423940",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうこう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "中興",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "興",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "restoration",
+        "revival",
+        "resurgence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "restaureren",
+        "tijdelijk herstellen",
+        "weer tot bloei doen komen",
+        "restauratie",
+        "tijdelijk herstel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wiederherstellung",
+        "Wiederbelebung",
+        "Wiederaufleben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyreállítás",
+        "feléledés",
+        "új életre kelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(полит.) реставрация"
+      ]
+    }
+  ]
+}

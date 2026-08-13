@@ -1,0 +1,64 @@
+{
+  "id": "1534590",
+  "readings": [
+    {
+      "kanaExpression": "もっかん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "木管",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "もっ"
+        },
+        {
+          "text": "管",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wooden pipe",
+        "wooden bobbin",
+        "woodwind instrument"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "houten pijp",
+        "houten buis",
+        "houten spoel",
+        "klos",
+        "bobine",
+        "{muz.} houten blaasinstrument",
+        "{verzameln.} hout",
+        "houtblazers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Holzröhre"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "orsó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "деревянная трубка; (текст.) бобина"
+      ]
+    }
+  ]
+}

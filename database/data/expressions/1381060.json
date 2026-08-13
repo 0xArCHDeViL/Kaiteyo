@@ -1,0 +1,66 @@
+{
+  "id": "1381060",
+  "readings": [
+    {
+      "kanaExpression": "にしかぜ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "せいふう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "西風",
+      "furiganaExpression": [
+        {
+          "text": "西",
+          "annotation": "にし"
+        },
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "west wind"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vent d\u0027ouest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Westwind",
+        "aus Westen wehender Wind",
+        "Herbstwind"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "западный ветер",
+        "(кн.)",
+        "1) западный ветер; зефир",
+        "2) осенний ветер"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "viento occidental",
+        "viento del oeste",
+        "poniente"
+      ]
+    }
+  ]
+}

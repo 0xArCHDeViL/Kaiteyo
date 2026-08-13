@@ -1,0 +1,67 @@
+{
+  "id": "1499220",
+  "readings": [
+    {
+      "kanaExpression": "ぶよう",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "舞踊",
+      "furiganaExpression": [
+        {
+          "text": "舞",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "踊",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 11238
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dancing",
+        "dance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dans",
+        "gedans",
+        "het dansen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "danse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das Tanzen",
+        "Tanz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "танец",
+        "{～をする} танцевать; исполнять танец"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "baile",
+        "danza"
+      ]
+    }
+  ]
+}

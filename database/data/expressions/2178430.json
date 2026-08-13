@@ -1,0 +1,54 @@
+{
+  "id": "2178430",
+  "readings": [
+    {
+      "kanaExpression": "ろせんず",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "路線図",
+      "furiganaExpression": [
+        {
+          "text": "路",
+          "annotation": "ろ"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        },
+        {
+          "text": "図",
+          "annotation": "ず"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "route map (for buses, trains, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "routekaart",
+        "netkaart"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Karte für Verkehrslinien"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "itinerario"
+      ]
+    }
+  ]
+}

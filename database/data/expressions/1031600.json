@@ -1,0 +1,113 @@
+{
+  "id": "1031600",
+  "readings": [
+    {
+      "kanaExpression": "オッケー",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "オーケー",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "オッケ"
+    },
+    {
+      "kanjiExpression": "ＯＫ",
+      "furiganaExpression": [
+        {
+          "text": "Ｏ",
+          "annotation": "オー"
+        },
+        {
+          "text": "Ｋ",
+          "annotation": "ケー"
+        }
+      ],
+      "rank": 5093
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "OK",
+        "okay",
+        "fine (without)",
+        "not needed",
+        "unnecessary",
+        "all right"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "goedkeuring",
+        "akkoord",
+        "fiat",
+        "inwilliging",
+        "instemming",
+        "toestemming",
+        "succes",
+        "OK",
+        "oké",
+        "goed",
+        "het is in orde",
+        "afgesproken",
+        "ja",
+        "komt voor mekaar",
+        "all right",
+        "{提案に} z\u0027n fiat geven",
+        "verlenen",
+        "goedkeuren",
+        "akkoord gaan met",
+        "fiatteren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "OK"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "okay",
+        "o.k.",
+        "O.K",
+        "Okay",
+        "O.K.",
+        "in Ordnung",
+        "Jawohl!",
+        "Fertig!"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prav",
+        "v redu",
+        "OK",
+        "potrditi",
+        "sprejeti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ok",
+        "vale",
+        "de acuerdo",
+        "okey",
+        "OK"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ordning"
+      ]
+    }
+  ]
+}

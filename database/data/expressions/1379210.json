@@ -1,0 +1,94 @@
+{
+  "id": "1379210",
+  "readings": [
+    {
+      "kanaExpression": "あいにく",
+      "rank": 11469
+    },
+    {
+      "kanjiExpression": "生憎",
+      "furiganaExpression": [
+        {
+          "text": "生憎",
+          "annotation": "あいにく"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "合憎",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "あい"
+        },
+        {
+          "text": "憎",
+          "annotation": "にく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unfortunately",
+        "sorry, but ..."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jammer genoeg"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "malheureusement",
+        "Désolé, mais..."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unglücklich",
+        "unpassend",
+        "ungelegen",
+        "unzeitig",
+        "leider",
+        "unglücklicherweise",
+        "zu ungelegener Zeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sajnos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "к сожалению, к несчастью; жаль, что…"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nesrečen",
+        "nepričakovan",
+        "nesluten",
+        "žal"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lamentablemente",
+        "por desgracia"
+      ]
+    }
+  ]
+}

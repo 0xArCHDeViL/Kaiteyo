@@ -1,0 +1,65 @@
+{
+  "id": "1433270",
+  "readings": [
+    {
+      "kanaExpression": "つうしょう",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "通称",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "称",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 7798
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "popular name",
+        "common name",
+        "nickname",
+        "alias"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "allgemein verwendeter Name",
+        "Rufname",
+        "landläufige Bezeichnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "becenév",
+        "csúfnév",
+        "gúnynév",
+        "álnév"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общепринятое название; широко распространённое имя; прозвище"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "apodo",
+        "sobrenombre",
+        "alias"
+      ]
+    }
+  ]
+}

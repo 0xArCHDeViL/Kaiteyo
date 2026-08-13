@@ -1,0 +1,76 @@
+{
+  "id": "1214420",
+  "readings": [
+    {
+      "kanaExpression": "ゆるみ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "緩み",
+      "furiganaExpression": [
+        {
+          "text": "緩",
+          "annotation": "ゆる"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "弛み",
+      "furiganaExpression": [
+        {
+          "text": "弛",
+          "annotation": "ゆる"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "slack",
+        "looseness",
+        "play"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het loszitten",
+        "speling",
+        "het los",
+        "slap hangen",
+        "losheid",
+        "laksheid",
+        "verslapping",
+        "slapte",
+        "slapping"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachlassen (der Aufmerksamkeit o.Ä.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слабость, расслабление"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "slak"
+      ]
+    }
+  ]
+}

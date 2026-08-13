@@ -1,0 +1,63 @@
+{
+  "id": "1260280",
+  "readings": [
+    {
+      "kanaExpression": "けんじゃ",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "けんしゃ"
+    },
+    {
+      "kanjiExpression": "賢者",
+      "furiganaExpression": [
+        {
+          "text": "賢",
+          "annotation": "けん"
+        },
+        {
+          "text": "者",
+          "annotation": "じゃ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wise person",
+        "sage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wijze",
+        "wijs persoon",
+        "geleerde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Weiser"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bölcs",
+        "józan ember",
+        "zsálya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) умный человек; мудрец; умные люди"
+      ]
+    }
+  ]
+}

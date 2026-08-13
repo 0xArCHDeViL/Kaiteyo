@@ -1,0 +1,70 @@
+{
+  "id": "1420930",
+  "readings": [
+    {
+      "kanaExpression": "ちか",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "地価",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "価",
+          "annotation": "か"
+        }
+      ],
+      "rank": 9353
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the price of land"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grondprijs",
+        "prijs van grond",
+        "{jur.} ± kadastraal inkomen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prix du terrain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bodenpreis",
+        "Grundstückspreis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цены на землю; стоимость земли (земельного участка)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "cena zemlje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "valor de la tierra"
+      ]
+    }
+  ]
+}

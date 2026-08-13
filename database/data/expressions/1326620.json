@@ -1,0 +1,107 @@
+{
+  "id": "1326620",
+  "readings": [
+    {
+      "kanaExpression": "とりよせる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "取り寄せる",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "せる"
+        }
+      ],
+      "rank": 10172
+    },
+    {
+      "kanjiExpression": "取寄せる",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "せる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to order",
+        "to send away for",
+        "to have (something) sent to one",
+        "to pull (something) closer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bestellen",
+        "{郵便で} per post(order) laten komen",
+        "{手紙を出して} schrijven om"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "envoyer",
+        "ordonner",
+        "saisir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bestellen",
+        "kommen lassen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elrendel",
+        "igazgat",
+        "pappá szentel",
+        "rendel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "посылать (за чем-л.); заказывать, выписывать (что-л.); получать (по заказу)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "naročiti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ordenar un envío",
+        "despachar"
+      ]
+    }
+  ]
+}

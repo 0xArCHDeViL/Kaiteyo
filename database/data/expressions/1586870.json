@@ -1,0 +1,91 @@
+{
+  "id": "1586870",
+  "readings": [
+    {
+      "kanaExpression": "あわさる",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "合わさる",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わさる"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "合さる",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "あわ"
+        },
+        {
+          "text": "さる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "併さる",
+      "furiganaExpression": [
+        {
+          "text": "併",
+          "annotation": "あわ"
+        },
+        {
+          "text": "さる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to join",
+        "to be put together",
+        "to combine",
+        "to unite",
+        "to fit",
+        "to close (e.g. of a wound)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opeensluiten",
+        "op elkaar passen",
+        "sluiten",
+        "fitten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich vereinigen",
+        "sich vereinen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyesít",
+        "magában egyesít",
+        "összekapcsol"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aunarse",
+        "acoplarse",
+        "armonizar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1347070",
+  "readings": [
+    {
+      "kanaExpression": "しょうじがいしゃ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "商事会社",
+      "furiganaExpression": [
+        {
+          "text": "商",
+          "annotation": "しょう"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "会",
+          "annotation": "がい"
+        },
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commercial company"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gewerbliches Unternehmen",
+        "Handelsgesellschaft",
+        "kaufmännisches Unternehmen",
+        "Handelsfirma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "торговая компания (фирма)"
+      ]
+    }
+  ]
+}

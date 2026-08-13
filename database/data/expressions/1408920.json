@@ -1,0 +1,45 @@
+{
+  "id": "1408920",
+  "readings": [
+    {
+      "kanaExpression": "だすう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "打数",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "だ"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "times at bat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} at bat",
+        "{golf} aantal slagen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zahl der Einsätze als Schlagmann",
+        "Zahl der Schläge"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "1505520",
+  "readings": [
+    {
+      "kanaExpression": "ぶんだん",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "文壇",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "壇",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "literary world",
+        "literary circles"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cercles littéraires",
+        "monde des lettres"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "literarische Welt",
+        "literarische Kreise"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "литературный мир, литературные круги; литераторы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "el mundo de la literatura (o de sus intelectuales)"
+      ]
+    }
+  ]
+}

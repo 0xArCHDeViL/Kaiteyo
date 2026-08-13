@@ -1,0 +1,60 @@
+{
+  "id": "1391690",
+  "readings": [
+    {
+      "kanaExpression": "せんばん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "旋盤",
+      "furiganaExpression": [
+        {
+          "text": "旋",
+          "annotation": "せん"
+        },
+        {
+          "text": "盤",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lathe"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "draaibank",
+        "draaimachine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Drehmaschine",
+        "Drehbank",
+        "Drechselbank"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "esztergapad",
+        "esztergagép",
+        "közigazgatási terület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "токарный станок"
+      ]
+    }
+  ]
+}

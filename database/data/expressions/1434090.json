@@ -1,0 +1,111 @@
+{
+  "id": "1434090",
+  "readings": [
+    {
+      "kanaExpression": "つりがね",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "釣鐘",
+      "furiganaExpression": [
+        {
+          "text": "釣",
+          "annotation": "つり"
+        },
+        {
+          "text": "鐘",
+          "annotation": "がね"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "釣り鐘",
+      "furiganaExpression": [
+        {
+          "text": "釣",
+          "annotation": "つ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "鐘",
+          "annotation": "がね"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "吊り鐘",
+      "furiganaExpression": [
+        {
+          "text": "吊",
+          "annotation": "つ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "鐘",
+          "annotation": "がね"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吊鐘",
+      "furiganaExpression": [
+        {
+          "text": "吊",
+          "annotation": "つり"
+        },
+        {
+          "text": "鐘",
+          "annotation": "がね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "temple bell",
+        "hanging bell",
+        "funeral bell"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tempelklok",
+        "luiklok",
+        "torenklok",
+        "klok"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tempelglocke"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[висячий] колокол"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zvon"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "campana colgante"
+      ]
+    }
+  ]
+}

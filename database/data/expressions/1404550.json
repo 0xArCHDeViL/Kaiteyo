@@ -1,0 +1,45 @@
+{
+  "id": "1404550",
+  "readings": [
+    {
+      "kanaExpression": "そくち",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "測地",
+      "furiganaExpression": [
+        {
+          "text": "測",
+          "annotation": "そく"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "geodetic survey"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Landvermessung",
+        "Geodäsie",
+        "Land vermessen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "измерения на местности, землемерные (топографические) работы"
+      ]
+    }
+  ]
+}

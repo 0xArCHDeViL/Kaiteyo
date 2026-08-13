@@ -1,0 +1,88 @@
+{
+  "id": "1371760",
+  "readings": [
+    {
+      "kanaExpression": "すいせん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "水洗",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "洗",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "washing with water",
+        "rinsing",
+        "flushing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waterspoeling",
+        "spoeling",
+        "wassing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chasse d\u0027eau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "spülen",
+        "hinunterspülen",
+        "Wasserspülung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vizes öblítés",
+        "vizes átmosás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мытьё, промывка, промывание"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "splakovanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "limpiar con agua",
+        "enjuagar",
+        "fregar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "spolning"
+      ]
+    }
+  ]
+}

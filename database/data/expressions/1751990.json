@@ -1,0 +1,53 @@
+{
+  "id": "1751990",
+  "readings": [
+    {
+      "kanaExpression": "へいわぶたい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "平和部隊",
+      "furiganaExpression": [
+        {
+          "text": "平",
+          "annotation": "へい"
+        },
+        {
+          "text": "和",
+          "annotation": "わ"
+        },
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the Peace Corps"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vredeskorps",
+        "Peace Corps {Amerikaanse overheidsinstelling voor ontwikkelingshulp}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Friedenscorps",
+        "Peace Corps"
+      ]
+    }
+  ]
+}

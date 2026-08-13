@@ -1,0 +1,97 @@
+{
+  "id": "1508560",
+  "readings": [
+    {
+      "kanaExpression": "とじこめる",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "閉じ込める",
+      "furiganaExpression": [
+        {
+          "text": "閉",
+          "annotation": "と"
+        },
+        {
+          "text": "じ"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 11512
+    },
+    {
+      "kanjiExpression": "閉じこめる",
+      "furiganaExpression": [
+        {
+          "text": "閉",
+          "annotation": "と"
+        },
+        {
+          "text": "じこめる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "閉込める",
+      "furiganaExpression": [
+        {
+          "text": "閉",
+          "annotation": "とじ"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to lock up",
+        "to shut up",
+        "to imprison"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "insluiten",
+        "opsluiten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einschließen",
+        "einsperren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "becsuk",
+        "bezár",
+        "lecsuk vkit",
+        "lezár",
+        "elhallgattat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запирать (кого-л.); держать взаперти"
+      ]
+    }
+  ]
+}

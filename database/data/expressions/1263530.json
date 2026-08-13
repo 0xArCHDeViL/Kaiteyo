@@ -1,0 +1,57 @@
+{
+  "id": "1263530",
+  "readings": [
+    {
+      "kanaExpression": "げんきょう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "現況",
+      "furiganaExpression": [
+        {
+          "text": "現",
+          "annotation": "げん"
+        },
+        {
+          "text": "況",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 14778
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "present condition"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "circonstances actuelles",
+        "situation présente"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gegenwärtige Lage",
+        "jetziger Zustand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нынешнее положение (состояние); положение (в текущий момент)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estado actual"
+      ]
+    }
+  ]
+}

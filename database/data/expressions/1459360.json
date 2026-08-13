@@ -1,0 +1,70 @@
+{
+  "id": "1459360",
+  "readings": [
+    {
+      "kanaExpression": "うちわけ",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "内訳",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "うち"
+        },
+        {
+          "text": "訳",
+          "annotation": "わけ"
+        }
+      ],
+      "rank": 9290
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "itemization (of expenses)",
+        "the items",
+        "breakdown",
+        "classification"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "posten van een rekening",
+        "onderdelen",
+        "bijzonderheden",
+        "uitsplitsing",
+        "specificatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einzelangabe",
+        "Einzelposten",
+        "Aufschlüsselung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "osztályozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "статьи счёта; внутренние рубрики (в статистических таблицах)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lista detallada"
+      ]
+    }
+  ]
+}

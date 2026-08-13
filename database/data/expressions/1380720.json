@@ -1,0 +1,67 @@
+{
+  "id": "1380720",
+  "readings": [
+    {
+      "kanaExpression": "せいてつ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "製鉄",
+      "furiganaExpression": [
+        {
+          "text": "製",
+          "annotation": "せい"
+        },
+        {
+          "text": "鉄",
+          "annotation": "てつ"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "iron manufacture"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ijzerproductie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "industrie sidérurgique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eisenerzeugung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "производство железа"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izdelovanje železa"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "siderúrgico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1957020",
+  "readings": [
+    {
+      "kanaExpression": "のやま",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "野山",
+      "furiganaExpression": [
+        {
+          "text": "野",
+          "annotation": "の"
+        },
+        {
+          "text": "山",
+          "annotation": "やま"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hills and fields",
+        "hill and dale"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "velden en heuvels",
+        "veld en gebergte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Felder und Hügel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поля и горы"
+      ]
+    }
+  ]
+}

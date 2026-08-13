@@ -1,0 +1,80 @@
+{
+  "id": "1305920",
+  "readings": [
+    {
+      "kanaExpression": "つかいわけ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "使い分け",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "使いわけ",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "いわけ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "使分け",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "つかい"
+        },
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "proper use",
+        "using (different things) for different purposes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "angemessen benutzen",
+        "angemessene Benutzung",
+        "richtiger Gebrauch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "правильное употребление (применение)"
+      ]
+    }
+  ]
+}

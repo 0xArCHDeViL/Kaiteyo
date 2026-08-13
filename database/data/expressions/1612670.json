@@ -1,0 +1,90 @@
+{
+  "id": "1612670",
+  "readings": [
+    {
+      "kanaExpression": "おせいぼ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お歳暮",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "歳",
+          "annotation": "せい"
+        },
+        {
+          "text": "暮",
+          "annotation": "ぼ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "御歳暮",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "歳",
+          "annotation": "せい"
+        },
+        {
+          "text": "暮",
+          "annotation": "ぼ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "year-end gift",
+        "end of the year",
+        "year end"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eindejaarscadeau",
+        "eindejaarsgeschenk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cadeau offert en fin d\u0027année"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschenk zum Jahresende"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подарок по случаю конца года"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "formalno darilo ob koncu leta"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "regalos de fin de año"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1822650",
+  "readings": [
+    {
+      "kanaExpression": "ほんよさん",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "本予算",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "予",
+          "annotation": "よ"
+        },
+        {
+          "text": "算",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main budget"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptbudget"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "основной бюджет"
+      ]
+    }
+  ]
+}

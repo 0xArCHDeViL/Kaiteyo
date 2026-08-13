@@ -1,0 +1,73 @@
+{
+  "id": "1579240",
+  "readings": [
+    {
+      "kanaExpression": "さいてい",
+      "rank": 20500
+    },
+    {
+      "kanaExpression": "せいてい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "裁定",
+      "furiganaExpression": [
+        {
+          "text": "裁",
+          "annotation": "さい"
+        },
+        {
+          "text": "定",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 11919
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "decision",
+        "ruling",
+        "award",
+        "arbitration"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "arbitreren",
+        "scheidsrechterlijk beslissen",
+        "oordelen",
+        "arbitrage",
+        "scheidsrechterlijke uitspraak",
+        "beslissing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Entscheidung fällen",
+        "einen Beschluss fassen",
+        "Entscheidung",
+        "Beschluss",
+        "Schiedsspruch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "uralkodó",
+        "diploma",
+        "oklevél"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[арбитражное] решение"
+      ]
+    }
+  ]
+}

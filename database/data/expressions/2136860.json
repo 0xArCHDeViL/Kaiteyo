@@ -1,0 +1,55 @@
+{
+  "id": "2136860",
+  "readings": [
+    {
+      "kanaExpression": "コピーき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "コピー機",
+      "furiganaExpression": [
+        {
+          "text": "コピー"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "copier",
+        "copy machine",
+        "photocopier"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fotokopieerapparaat",
+        "fotokopieertoestel",
+        "kopieerapparaat",
+        "kopieermachine",
+        "kopieerder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kopierer",
+        "Kopiermaschine"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kopirni stroj"
+      ]
+    }
+  ]
+}

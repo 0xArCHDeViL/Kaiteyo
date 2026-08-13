@@ -1,0 +1,82 @@
+{
+  "id": "1417000",
+  "readings": [
+    {
+      "kanaExpression": "たんねん",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "丹念",
+      "furiganaExpression": [
+        {
+          "text": "丹",
+          "annotation": "たん"
+        },
+        {
+          "text": "念",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "painstaking",
+        "careful",
+        "meticulous",
+        "scrupulous",
+        "detailed",
+        "elaborate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nauwgezet",
+        "zorgvuldig",
+        "nauwkeurig",
+        "nauwlettend",
+        "secuur",
+        "soigneus",
+        "gedetailleerd",
+        "scrupuleus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "application",
+        "assiduité",
+        "attention",
+        "diligence",
+        "zèle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufmerksam",
+        "genau",
+        "sorgfältig",
+        "gründlich",
+        "gewissenhaft",
+        "mit Sorgfalt",
+        "Grad der Aufmerksamkeit",
+        "Aufmerksamkeit",
+        "Genauigkeit",
+        "Sorgfalt",
+        "Gründlichkeit",
+        "Gewissenhaftigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "serénység"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1659930",
+  "readings": [
+    {
+      "kanaExpression": "こし",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "古紙",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "こ"
+        },
+        {
+          "text": "紙",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "故紙",
+      "furiganaExpression": [
+        {
+          "text": "故",
+          "annotation": "こ"
+        },
+        {
+          "text": "紙",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "used paper",
+        "paper for recycling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oud papier",
+        "gebruikt papier",
+        "scheurpapier",
+        "lompen",
+        "{gew.} pondpapier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Altpapier"
+      ]
+    }
+  ]
+}

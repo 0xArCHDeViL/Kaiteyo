@@ -1,0 +1,61 @@
+{
+  "id": "1342270",
+  "readings": [
+    {
+      "kanaExpression": "じゅんえん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "順延",
+      "furiganaExpression": [
+        {
+          "text": "順",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "延",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "postponement",
+        "moving to a later date"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitstel",
+        "opschorting",
+        "verdaging",
+        "verschuiving",
+        "uitstellen",
+        "opschorten",
+        "verdagen",
+        "verschuiven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verschiebung",
+        "Verlegung auf einen späteren Termin",
+        "verschieben",
+        "auf einen späteren Termin verlegen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "откладывание",
+        "{～する} откладывать, переносить (на другое время)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1641870",
+  "readings": [
+    {
+      "kanaExpression": "もうばく",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "猛爆",
+      "furiganaExpression": [
+        {
+          "text": "猛",
+          "annotation": "もう"
+        },
+        {
+          "text": "爆",
+          "annotation": "ばく"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heavy bombing",
+        "intensive bombing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "intensiv bombardieren",
+        "schwerer Luftangriff",
+        "schweres Bombardement"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ожесточённая бомбардировка",
+        "{～する} сильно (ожесточённо) бомбить"
+      ]
+    }
+  ]
+}

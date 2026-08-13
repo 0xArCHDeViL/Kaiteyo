@@ -1,0 +1,44 @@
+{
+  "id": "1503180",
+  "readings": [
+    {
+      "kanaExpression": "ぶんかかい",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "分科会",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subcommittee",
+        "subworking group",
+        "breakout session"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterkomitee",
+        "Workshop"
+      ]
+    }
+  ]
+}

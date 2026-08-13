@@ -1,0 +1,85 @@
+{
+  "id": "1569000",
+  "readings": [
+    {
+      "kanaExpression": "こんろ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "コンロ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "焜炉",
+      "furiganaExpression": [
+        {
+          "text": "焜",
+          "annotation": "こん"
+        },
+        {
+          "text": "炉",
+          "annotation": "ろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cooking stove",
+        "burner (gas, electric, etc.)",
+        "range",
+        "cooktop",
+        "hob"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mobiel kooktoestel",
+        "draagbaar fornuis",
+        "kookplaat",
+        "kookstel",
+        "komfoor"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "réchaud à gaz",
+        "réchaud portable"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tragbarer Kocher",
+        "Gaskocher",
+        "Holzkohlekocher",
+        "Elektrokocher"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "небольшая кухонная плита; переносная печка (напр. электрическая)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kuhalna plošča",
+        "kuhalnik",
+        "prenosni štedilnik",
+        "plinski kuhalnik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estufa"
+      ]
+    }
+  ]
+}

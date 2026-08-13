@@ -1,0 +1,48 @@
+{
+  "id": "1157350",
+  "readings": [
+    {
+      "kanaExpression": "かわせかんり",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "為替管理",
+      "furiganaExpression": [
+        {
+          "text": "為替",
+          "annotation": "かわせ"
+        },
+        {
+          "text": "管",
+          "annotation": "かん"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exchange control"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Devisenbewirtschaftung",
+        "Devisenkontrolle"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "control de intercambio"
+      ]
+    }
+  ]
+}

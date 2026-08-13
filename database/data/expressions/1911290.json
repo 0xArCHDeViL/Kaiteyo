@@ -1,0 +1,37 @@
+{
+  "id": "1911290",
+  "readings": [
+    {
+      "kanaExpression": "むし",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "無死",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "死",
+          "annotation": "し"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "no outs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kein Spieler im Aus"
+      ]
+    }
+  ]
+}

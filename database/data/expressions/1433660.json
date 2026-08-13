@@ -1,0 +1,62 @@
+{
+  "id": "1433660",
+  "readings": [
+    {
+      "kanaExpression": "つくだに",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "佃煮",
+      "furiganaExpression": [
+        {
+          "text": "佃",
+          "annotation": "つくだ"
+        },
+        {
+          "text": "煮",
+          "annotation": "に"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "つくだ煮",
+      "furiganaExpression": [
+        {
+          "text": "つくだ"
+        },
+        {
+          "text": "煮",
+          "annotation": "に"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "preserved food boiled in sweetened soy sauce"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} tsukudani {\u003d zeevruchten",
+        "vlees of zeewier ingekookt in zoete sojasaus en mirin}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tsukuda・ni (in Sojasoße gekochte Meeresfrüchte)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цукудани (мелкая рыба, моллюски и т. п., проваренные в гуще из сои с сахаром)"
+      ]
+    }
+  ]
+}

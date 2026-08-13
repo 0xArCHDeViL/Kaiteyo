@@ -1,0 +1,43 @@
+{
+  "id": "1470700",
+  "readings": [
+    {
+      "kanaExpression": "のうさん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "農産",
+      "furiganaExpression": [
+        {
+          "text": "農",
+          "annotation": "のう"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "agricultural products"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "landwirtschaftliche Produktion"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "productos agrícolas"
+      ]
+    }
+  ]
+}

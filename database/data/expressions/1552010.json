@@ -1,0 +1,69 @@
+{
+  "id": "1552010",
+  "readings": [
+    {
+      "kanaExpression": "りゃくしき",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "略式",
+      "furiganaExpression": [
+        {
+          "text": "略",
+          "annotation": "りゃく"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "informal",
+        "simplified"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "informeel",
+        "onvormelijk",
+        "alledaags",
+        "zonder complimenten",
+        "informaliteit",
+        "onvormelijkheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "formlos",
+        "in verkürzter Form",
+        "in formloser Weise",
+        "ohne Formalitäten",
+        "Formlosigkeit",
+        "vereinfachte Form",
+        "verkürzte Form"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kötetlen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "несоблюдение формальностей",
+        "{～[の]} неофициальный, сделанный без соблюдения формальностей (церемоний); непарадный (об одежде)",
+        "{～で} без формальностей; упрощённо"
+      ]
+    }
+  ]
+}

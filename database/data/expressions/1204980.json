@@ -1,0 +1,81 @@
+{
+  "id": "1204980",
+  "readings": [
+    {
+      "kanaExpression": "かっこく",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "かくこく"
+    },
+    {
+      "kanjiExpression": "各国",
+      "furiganaExpression": [
+        {
+          "text": "各",
+          "annotation": "かっ"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 2683
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "each country",
+        "every country",
+        "various countries",
+        "all countries"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "elk land",
+        "ieder land",
+        "respectieve landen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chaque pays"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jedes Land",
+        "viele Länder",
+        "alle Länder",
+        "verschiedene Länder"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каждая страна; все страны; страны"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vsaka država"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cada nación",
+        "cada país",
+        "muchas naciones",
+        "muchos países"
+      ]
+    }
+  ]
+}

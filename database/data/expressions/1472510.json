@@ -1,0 +1,56 @@
+{
+  "id": "1472510",
+  "readings": [
+    {
+      "kanaExpression": "やぶれる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "敗れる",
+      "furiganaExpression": [
+        {
+          "text": "敗",
+          "annotation": "やぶ"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 8146
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be defeated",
+        "to be beaten",
+        "to be unsuccessful",
+        "to lose"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "échouer",
+        "perdre (un combat, un jeu, un match)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "besiegt werden",
+        "geschlagen werden",
+        "keinen Erfolg haben",
+        "eine Niederlage erleiden"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ser derrotado",
+        "ser un fracasado"
+      ]
+    }
+  ]
+}

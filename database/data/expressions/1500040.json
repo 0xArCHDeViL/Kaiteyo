@@ -1,0 +1,51 @@
+{
+  "id": "1500040",
+  "readings": [
+    {
+      "kanaExpression": "ふうぶつ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "風物",
+      "furiganaExpression": [
+        {
+          "text": "風",
+          "annotation": "ふう"
+        },
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "natural features",
+        "scenery",
+        "things particular to a certain region or season",
+        "characteristic scenery and customs",
+        "scenes and manners"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Szenerie",
+        "Landschaft",
+        "Land und Leute"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) вид, пейзаж",
+        "2) картина (чего-л.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "1531600",
+  "readings": [
+    {
+      "kanaExpression": "めいしょ",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "名所",
+      "furiganaExpression": [
+        {
+          "text": "名",
+          "annotation": "めい"
+        },
+        {
+          "text": "所",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 10034
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "famous place",
+        "noted place",
+        "place of (scenic or historical) interest",
+        "sights (to see)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beroemde plek",
+        "bezienswaardigheid",
+        "historische plaats",
+        "een plekje natuurschoon"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lieu célèbre",
+        "site célèbre",
+        "nom d\u0027une partie (d\u0027un instrument, etc.)",
+        "nom et adresse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "berühmter Ort",
+        "Sehenswürdigkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "достопримечательные места (напр. в городе); место известное (славящееся) (чем-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lugar famoso"
+      ]
+    }
+  ]
+}

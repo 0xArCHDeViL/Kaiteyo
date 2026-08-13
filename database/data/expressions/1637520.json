@@ -1,0 +1,71 @@
+{
+  "id": "1637520",
+  "readings": [
+    {
+      "kanaExpression": "たれながし",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "垂れ流し",
+      "furiganaExpression": [
+        {
+          "text": "垂",
+          "annotation": "た"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "たれ流し",
+      "furiganaExpression": [
+        {
+          "text": "たれ"
+        },
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "incontinence",
+        "soiling oneself",
+        "wetting one\u0027s pants",
+        "discharge (e.g. of contaminants)",
+        "effluence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Inkontinenz",
+        "Ablassen",
+        "Auslassen",
+        "Abfließenlassen von ungeklärtem Wasser"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) паралич заднего прохода; недержание мочи [и кала]"
+      ]
+    }
+  ]
+}

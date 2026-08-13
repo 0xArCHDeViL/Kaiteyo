@@ -1,0 +1,100 @@
+{
+  "id": "1399630",
+  "readings": [
+    {
+      "kanaExpression": "そうてい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "想定",
+      "furiganaExpression": [
+        {
+          "text": "想",
+          "annotation": "そう"
+        },
+        {
+          "text": "定",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 2742
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hypothesis",
+        "supposition",
+        "assumption",
+        "expectation",
+        "anticipation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "veronderstellen",
+        "stellen",
+        "onderstellen",
+        "aannemen",
+        "veronderstelling",
+        "hypothese",
+        "onderstelling",
+        "aanneming",
+        "verwachting",
+        "anticipatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "hypothèse",
+        "supposition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "annehmen",
+        "eine Hypothese aufstellen",
+        "Annahme",
+        "Hypothese"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "feltételezés",
+        "feltevés",
+        "vélekedés",
+        "feltétel",
+        "tettetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) предположение, гипотеза",
+        "{～的} предполагаемый, гипотетический",
+        "{～する} предполагать, полагать; намечать, прикидывать",
+        "2) (воен.) план (манёвров)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "domneva",
+        "hipoteza"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "simulacro",
+        "hipótesis",
+        "presunción"
+      ]
+    }
+  ]
+}

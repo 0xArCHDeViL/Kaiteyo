@@ -1,0 +1,92 @@
+{
+  "id": "2109610",
+  "readings": [
+    {
+      "kanaExpression": "ありえない",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "あり得ない",
+      "furiganaExpression": [
+        {
+          "text": "あり"
+        },
+        {
+          "text": "得",
+          "annotation": "え"
+        },
+        {
+          "text": "ない"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "有り得ない",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "あ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "得",
+          "annotation": "え"
+        },
+        {
+          "text": "ない"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "有得ない",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "あり"
+        },
+        {
+          "text": "得",
+          "annotation": "え"
+        },
+        {
+          "text": "ない"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "impossible",
+        "unthinkable",
+        "ridiculous",
+        "absurd"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onmogelijk",
+        "onbestaanbaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unmöglich sein",
+        "unglaublich sein"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "imposible"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "1317290",
+  "readings": [
+    {
+      "kanaExpression": "じびいんこうか",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "耳鼻咽喉科",
+      "furiganaExpression": [
+        {
+          "text": "耳",
+          "annotation": "じ"
+        },
+        {
+          "text": "鼻",
+          "annotation": "び"
+        },
+        {
+          "text": "咽",
+          "annotation": "いん"
+        },
+        {
+          "text": "喉",
+          "annotation": "こう"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "otorhinolaryngology",
+        "otolaryngology",
+        "ear, nose and throat department"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} oto-rino-laryngologie",
+        "keel-",
+        "neus- en oorheelkunde",
+        "{afk.} kno"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Otorhinolaryngologie",
+        "Hals-Nasen-Ohren-Heilkunde",
+        "HNO",
+        "HNO-Abteilung"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "otorrinolaringología"
+      ]
+    }
+  ]
+}

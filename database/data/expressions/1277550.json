@@ -1,0 +1,48 @@
+{
+  "id": "1277550",
+  "readings": [
+    {
+      "kanaExpression": "こうえん",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "好演",
+      "furiganaExpression": [
+        {
+          "text": "好",
+          "annotation": "こう"
+        },
+        {
+          "text": "演",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "good performance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausgezeichnet spielen",
+        "glänzend spielen",
+        "ausgezeichnete Darstellung",
+        "geschickte Darstellung",
+        "bravouröse Aufführung",
+        "gutes Spiel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хорошая (прекрасная) игра, искусное исполнение (в театре)"
+      ]
+    }
+  ]
+}

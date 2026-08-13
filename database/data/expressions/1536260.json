@@ -1,0 +1,67 @@
+{
+  "id": "1536260",
+  "readings": [
+    {
+      "kanaExpression": "もんばん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "門番",
+      "furiganaExpression": [
+        {
+          "text": "門",
+          "annotation": "もん"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gatekeeper",
+        "door guard",
+        "doorman",
+        "concierge",
+        "janitor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "portier",
+        "deurwachter",
+        "poortwachter",
+        "conciërge"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Torwächter",
+        "Torhüter",
+        "Pförtner",
+        "Concierge",
+        "Portier"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "привратник, швейцар; вахтёр",
+        "{～をする} охранять вход, сторожить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "portero"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1522430",
+  "readings": [
+    {
+      "kanaExpression": "ほんすじ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "本筋",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "筋",
+          "annotation": "すじ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main thread (of a story)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "richtiger Weg",
+        "Hauptstrang einer Erzählung",
+        "Hauptsache",
+        "Thema"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) основная линия (повествования, действия)",
+        "2) данная тема (область, сфера)"
+      ]
+    }
+  ]
+}

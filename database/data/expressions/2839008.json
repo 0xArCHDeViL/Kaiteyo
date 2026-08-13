@@ -1,0 +1,54 @@
+{
+  "id": "2839008",
+  "readings": [
+    {
+      "kanaExpression": "ようなきがする",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ような気がする",
+      "furiganaExpression": [
+        {
+          "text": "ような"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "がする"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "様な気がする",
+      "furiganaExpression": [
+        {
+          "text": "様",
+          "annotation": "よう"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "がする"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(I) think (that)",
+        "(I) have a feeling (that)",
+        "(I) fancy (that)"
+      ]
+    }
+  ]
+}

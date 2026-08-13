@@ -1,0 +1,76 @@
+{
+  "id": "1415490",
+  "readings": [
+    {
+      "kanaExpression": "だいめい",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "題名",
+      "furiganaExpression": [
+        {
+          "text": "題",
+          "annotation": "だい"
+        },
+        {
+          "text": "名",
+          "annotation": "めい"
+        }
+      ],
+      "rank": 6759
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "title",
+        "caption",
+        "heading"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "titel",
+        "opschrift"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "titre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Titel (eines Buches od. Kunstwerkes etc.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cím"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заглавие, название"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "título"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "titel"
+      ]
+    }
+  ]
+}

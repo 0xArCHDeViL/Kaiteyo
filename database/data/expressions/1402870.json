@@ -1,0 +1,86 @@
+{
+  "id": "1402870",
+  "readings": [
+    {
+      "kanaExpression": "そうりょう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "送料",
+      "furiganaExpression": [
+        {
+          "text": "送",
+          "annotation": "そう"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 4445
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "postage",
+        "carriage",
+        "shipping charge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "porto(kosten)",
+        "(brief)port",
+        "posttarief",
+        "frankeerkosten",
+        "bestelkosten",
+        "verzendkosten",
+        "vervoerkosten",
+        "vervoerstarief",
+        "vrachtkosten",
+        "vrachtprijs",
+        "vrachttarief",
+        "transportkosten",
+        "transportrecht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "affranchissement",
+        "frais de port"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Porto",
+        "Transportkosten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fuvarozás",
+        "kocsi",
+        "tarifa",
+        "vagon"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плата за пересылку (перевозку)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "poštnina"
+      ]
+    }
+  ]
+}

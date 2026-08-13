@@ -1,0 +1,59 @@
+{
+  "id": "1638890",
+  "readings": [
+    {
+      "kanaExpression": "ぶたいそうち",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "舞台装置",
+      "furiganaExpression": [
+        {
+          "text": "舞",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "台",
+          "annotation": "たい"
+        },
+        {
+          "text": "装",
+          "annotation": "そう"
+        },
+        {
+          "text": "置",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stage setting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "toneelschikking",
+        "toneelopbouw",
+        "mise-en-scène",
+        "montering",
+        "enscenering",
+        "scenerie",
+        "aankleding",
+        "toneeldecor",
+        "theateroutillage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bühnenausstattung"
+      ]
+    }
+  ]
+}

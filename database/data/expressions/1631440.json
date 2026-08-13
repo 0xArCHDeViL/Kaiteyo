@@ -1,0 +1,80 @@
+{
+  "id": "1631440",
+  "readings": [
+    {
+      "kanaExpression": "こうじる",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "講じる",
+      "furiganaExpression": [
+        {
+          "text": "講",
+          "annotation": "こう"
+        },
+        {
+          "text": "じる"
+        }
+      ],
+      "rank": 5190
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to take (e.g. measures)",
+        "to work out (e.g. a plan)",
+        "to lecture",
+        "to read aloud",
+        "to confer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "doceren",
+        "lesgeven",
+        "onderwijzen",
+        "{meton.} geven",
+        "{詩歌を} voordragen",
+        "opzeggen",
+        "declameren",
+        "{meton.} brengen",
+        "{手段を} nemen",
+        "treffen",
+        "ondernemen",
+        "{和を} onderhandelen",
+        "bemiddelen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lesen",
+        "eine Vorlesung halten über …",
+        "anwenden",
+        "ergreifen",
+        "treffen (Maßnahmen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lépéseket tesz",
+        "adományoz",
+        "tanácskozik",
+        "tárgyal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) читать лекции",
+        "2) находить, принимать (меры)",
+        "3) читать вслух (стихи)"
+      ]
+    }
+  ]
+}

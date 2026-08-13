@@ -1,0 +1,56 @@
+{
+  "id": "1259000",
+  "readings": [
+    {
+      "kanaExpression": "かたこり",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "肩こり",
+      "furiganaExpression": [
+        {
+          "text": "肩",
+          "annotation": "かた"
+        },
+        {
+          "text": "こり"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "肩凝り",
+      "furiganaExpression": [
+        {
+          "text": "肩",
+          "annotation": "かた"
+        },
+        {
+          "text": "凝",
+          "annotation": "こ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stiff neck",
+        "stiff shoulders"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verspannte Schultern",
+        "steife Schultern",
+        "Schultersteifigkeit"
+      ]
+    }
+  ]
+}

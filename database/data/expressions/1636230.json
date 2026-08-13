@@ -1,0 +1,49 @@
+{
+  "id": "1636230",
+  "readings": [
+    {
+      "kanaExpression": "かくのかさ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "核の傘",
+      "furiganaExpression": [
+        {
+          "text": "核",
+          "annotation": "かく"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "傘",
+          "annotation": "かさ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nuclear umbrella"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "atomarer Schutzschirm",
+        "Atomschirm",
+        "Nuklearschirm"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ядерный зонт",
+        "атомный зонт"
+      ]
+    }
+  ]
+}

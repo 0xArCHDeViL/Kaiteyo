@@ -1,0 +1,76 @@
+{
+  "id": "1241390",
+  "readings": [
+    {
+      "kanaExpression": "きんりょう"
+    },
+    {
+      "kanjiExpression": "斤量",
+      "furiganaExpression": [
+        {
+          "text": "斤",
+          "annotation": "きん"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "impost",
+        "assigned weight",
+        "(measured) weight",
+        "weight of 1000 sheets of paper (used as a measure of thickness)",
+        "basis weight"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gewicht",
+        "{paardenrennen} handicap {\u003d extra gewicht op de paardenrug}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "poids"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewicht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "súly"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вес"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "peso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vikta"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "1399810",
+  "readings": [
+    {
+      "kanaExpression": "そうとう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "掃討",
+      "furiganaExpression": [
+        {
+          "text": "掃",
+          "annotation": "そう"
+        },
+        {
+          "text": "討",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "掃蕩",
+      "furiganaExpression": [
+        {
+          "text": "掃",
+          "annotation": "そう"
+        },
+        {
+          "text": "蕩",
+          "annotation": "とう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "掃盪",
+      "furiganaExpression": [
+        {
+          "text": "掃",
+          "annotation": "そう"
+        },
+        {
+          "text": "盪",
+          "annotation": "とう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "剿討",
+      "furiganaExpression": [
+        {
+          "text": "剿",
+          "annotation": "そう"
+        },
+        {
+          "text": "討",
+          "annotation": "とう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cleaning up (enemy remnants)",
+        "sweeping clean (of opponents)",
+        "mopping up"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{fig.} opruimen",
+        "zuiveren",
+        "schoonvegen",
+        "verdrijven",
+        "verwijderen",
+        "uitroeien",
+        "vernietigen",
+        "{fig.} opruiming",
+        "zuivering",
+        "schoonveging",
+        "grote schoonmaak",
+        "verwijdering",
+        "verdrijving",
+        "uitroeiing",
+        "vernietiging"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épongeage",
+        "essuyage",
+        "nettoyage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "säubern",
+        "eine Säuberungsaktion durchführen",
+        "ausmerzen",
+        "vernichten",
+        "ausrotten",
+        "vertilgen",
+        "Säuberung",
+        "Ausrottung",
+        "Vernichtung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) очистка (местности и т. п.)",
+        "{…を～する} очищать от (кого-л.); сметать (кого-л.)"
+      ]
+    }
+  ]
+}

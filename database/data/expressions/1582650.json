@@ -1,0 +1,52 @@
+{
+  "id": "1582650",
+  "readings": [
+    {
+      "kanaExpression": "ふたなぬか",
+      "rank": 20500
+    },
+    {
+      "kanaExpression": "ふたなのか"
+    },
+    {
+      "kanjiExpression": "二七日",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "ふた"
+        },
+        {
+          "text": "七",
+          "annotation": "なの"
+        },
+        {
+          "text": "日",
+          "annotation": "か"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "second week\u0027s memorial services"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "14 Tage",
+        "der 14. Tag nach dem Tod einer Person",
+        "14 Tage nach dem Tod einer Person abgehaltene Messe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вторая неделя со дня смерти (отмечаемая траурным богослужением)"
+      ]
+    }
+  ]
+}

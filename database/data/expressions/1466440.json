@@ -1,0 +1,71 @@
+{
+  "id": "1466440",
+  "readings": [
+    {
+      "kanaExpression": "にゅうしょく",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "入植",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "植",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 12532
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "settlement",
+        "immigration",
+        "entering a (Japanese) settlement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich vestigen",
+        "zich settelen",
+        "immigreren",
+        "koloniseren",
+        "vestiging",
+        "immigratie",
+        "kolonisatie",
+        "bevolking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "besiedeln",
+        "kolonisieren",
+        "Besiedelung",
+        "Kolonisierung",
+        "Immigration"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyezség",
+        "talajsüllyedés",
+        "település"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заселение, поселение; переселение, иммиграция",
+        "{～する} поселяться (где-л.), заселять (местность); переселяться, иммигрировать"
+      ]
+    }
+  ]
+}

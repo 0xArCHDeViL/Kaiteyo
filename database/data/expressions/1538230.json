@@ -1,0 +1,77 @@
+{
+  "id": "1538230",
+  "readings": [
+    {
+      "kanaExpression": "やくざいし",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "薬剤師",
+      "furiganaExpression": [
+        {
+          "text": "薬",
+          "annotation": "やく"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ],
+      "rank": 10677
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pharmacist",
+        "chemist"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "apotheker",
+        "farmaceut",
+        "{veroud.} artsenijbereider",
+        "{scheldw.} pillendraaier"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pharmacien"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Apotheker",
+        "Pharmazeut",
+        "(österr.)Magister"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vegyész"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фармацевт; аптекарь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "farmacia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "1811470",
+  "readings": [
+    {
+      "kanaExpression": "かわじり",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "川尻",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "尻",
+          "annotation": "じり"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mouth of a river",
+        "lower stream"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterlauf",
+        "Flussmündung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нижнее течение (низовье) реки; устье реки"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1522890",
+  "readings": [
+    {
+      "kanaExpression": "ほんそ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "本訴",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "訴",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "original suit",
+        "main lawsuit",
+        "main action"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptklage",
+        "Hauptprozess",
+        "Ursprungsklage"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(юр.) основной иск"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1337010",
+  "readings": [
+    {
+      "kanaExpression": "じゅうか",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "銃火",
+      "furiganaExpression": [
+        {
+          "text": "銃",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gunfire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewehrfeuer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ágyúdörgés",
+        "ágyúmoraj",
+        "ágyúszó",
+        "ébresztő lövés",
+        "gyorstüzelés",
+        "takarodót jelző lövés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ружейный (пулемётный) огонь"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kanoneld"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "1338420",
+  "readings": [
+    {
+      "kanaExpression": "でまわる",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "出回る",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 9091
+    },
+    {
+      "kanjiExpression": "出廻る",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "廻",
+          "annotation": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "出まわる",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "まわる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to appear on the market",
+        "to be in season (e.g. of fruit)",
+        "to circulate widely",
+        "to make the rounds",
+        "to go around",
+        "to float around"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auf den Markt kommen",
+        "erscheinen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "появляться на рынке, поступать на рынок"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "krožiti",
+        "biti v obtoku",
+        "pojaviti se na tržišču"
+      ]
+    }
+  ]
+}

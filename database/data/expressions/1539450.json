@@ -1,0 +1,73 @@
+{
+  "id": "1539450",
+  "readings": [
+    {
+      "kanaExpression": "ゆうせんてき",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "優先的",
+      "furiganaExpression": [
+        {
+          "text": "優",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "先",
+          "annotation": "せん"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "preferential"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "prioritair",
+        "voorkeurs-",
+        "voorrang krijgend",
+        "hebbend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bevorrechtigt",
+        "bevorzugt",
+        "Vorzugs…",
+        "vorzugsweise",
+        "vorzüglich",
+        "vornehmlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kedvezményes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "первенствующий, предпочтительный, пользующийся предпочтением"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "preferente"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "1218110",
+  "readings": [
+    {
+      "kanaExpression": "くわだて",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "企て",
+      "furiganaExpression": [
+        {
+          "text": "企",
+          "annotation": "くわだ"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "plan",
+        "project",
+        "attempt",
+        "plot",
+        "scheme",
+        "undertaking"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "plan",
+        "ontwerp",
+        "beraming",
+        "opzet",
+        "bedoeling",
+        "project",
+        "onderneming",
+        "poging",
+        "complot",
+        "intrige",
+        "list"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Plan",
+        "Versuch",
+        "Absicht",
+        "Vorhaben",
+        "Unternehmung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elgondolás",
+        "merénylet",
+        "kötelezettség",
+        "vállalkozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) план, проект; замысел, затея; попытка; предприятие",
+        "2) интрига, козни"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "trama",
+        "maquinación",
+        "plan",
+        "proyecto"
+      ]
+    }
+  ]
+}

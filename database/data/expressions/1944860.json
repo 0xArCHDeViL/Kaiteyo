@@ -1,0 +1,50 @@
+{
+  "id": "1944860",
+  "readings": [
+    {
+      "kanaExpression": "にゅうかんりょう",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "入館料",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "館",
+          "annotation": "かん"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "admission fee"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eintritt",
+        "Eintrittsgebühr",
+        "Eintrittsgeld",
+        "Eintrittspreis (für ein Museum, Aquarium usw.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuota de admisión"
+      ]
+    }
+  ]
+}

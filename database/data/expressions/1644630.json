@@ -1,0 +1,62 @@
+{
+  "id": "1644630",
+  "readings": [
+    {
+      "kanaExpression": "ろめん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "路面",
+      "furiganaExpression": [
+        {
+          "text": "路",
+          "annotation": "ろ"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 10170
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "road surface"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wegdek",
+        "wegoppervlak"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Straßenoberfläche"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "útburkolat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полотно дороги; дорожное покрытие"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vägbeläggning"
+      ]
+    }
+  ]
+}

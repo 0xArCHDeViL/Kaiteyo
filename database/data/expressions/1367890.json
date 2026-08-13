@@ -1,0 +1,55 @@
+{
+  "id": "1367890",
+  "readings": [
+    {
+      "kanaExpression": "じんじいどう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "人事異動",
+      "furiganaExpression": [
+        {
+          "text": "人",
+          "annotation": "じん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "異",
+          "annotation": "い"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "personnel change",
+        "personnel shift",
+        "reshuffle",
+        "(annual) staff reassignment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Personalwechsel",
+        "personelle Umstrukturierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átalakítás"
+      ]
+    }
+  ]
+}

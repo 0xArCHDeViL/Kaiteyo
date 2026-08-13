@@ -1,0 +1,77 @@
+{
+  "id": "2087420",
+  "readings": [
+    {
+      "kanaExpression": "おわび",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お詫び",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "詫",
+          "annotation": "わ"
+        },
+        {
+          "text": "び"
+        }
+      ],
+      "rank": 7704
+    },
+    {
+      "kanjiExpression": "御詫び",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "詫",
+          "annotation": "わ"
+        },
+        {
+          "text": "び"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "apology"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verontschuldiging",
+        "excuus",
+        "{veroud.} verschoning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entschuldigung",
+        "Abbitte"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "opravičilo",
+        "opravičiti se"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "disculpa"
+      ]
+    }
+  ]
+}

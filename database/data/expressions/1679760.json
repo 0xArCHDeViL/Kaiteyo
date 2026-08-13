@@ -1,0 +1,48 @@
+{
+  "id": "1679760",
+  "readings": [
+    {
+      "kanaExpression": "はいせん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "廃船",
+      "furiganaExpression": [
+        {
+          "text": "廃",
+          "annotation": "はい"
+        },
+        {
+          "text": "船",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scrapped vessel",
+        "decommissioned ship",
+        "hulk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausrangieren eines Schiffes",
+        "ausrangiertes Schiff",
+        "aus dem Schiffsregister entferntes Schiff"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "устаревшее (вышедшее из строя, негодное к плаванию) судно",
+        "{～にする} списывать (об устаревшем судне)"
+      ]
+    }
+  ]
+}

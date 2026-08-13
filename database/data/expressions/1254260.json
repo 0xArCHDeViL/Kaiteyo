@@ -1,0 +1,88 @@
+{
+  "id": "1254260",
+  "readings": [
+    {
+      "kanaExpression": "けっさい",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "決済",
+      "furiganaExpression": [
+        {
+          "text": "決",
+          "annotation": "けっ"
+        },
+        {
+          "text": "済",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 5758
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "settlement (of an account)",
+        "liquidation of debts",
+        "payment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afrekenen",
+        "vereffenen",
+        "voldoen",
+        "betalen",
+        "liquideren",
+        "afrekening",
+        "vereffening",
+        "voldoening",
+        "afdoening",
+        "afbetaling",
+        "betaling",
+        "liquidatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "liquidation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abrechnen",
+        "die Rechnung abschließen",
+        "Bilanz ziehen",
+        "Abrechnung",
+        "Bilanz",
+        "Rechnungsabschluss",
+        "Begleichung (von Rechnungen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyezség",
+        "elszámolás",
+        "kiegyenlítés",
+        "rendezés",
+        "talajsüllyedés",
+        "település",
+        "lebonyolítás",
+        "számla kifizetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "окончательный расчёт; выплата (долга и т. п.)",
+        "{～する} расплачиваться (по счетам), выплачивать полностью, рассчитываться"
+      ]
+    }
+  ]
+}

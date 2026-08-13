@@ -1,0 +1,58 @@
+{
+  "id": "1414590",
+  "readings": [
+    {
+      "kanaExpression": "たいてき",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "大敵",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "敵",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "great rival",
+        "powerful enemy",
+        "archenemy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grote vijand",
+        "aartsvijand",
+        "doodsvijand",
+        "grote schare van vijanden",
+        "geduchte tegenstander"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mächtiger Feind",
+        "großer Konkurrent",
+        "unbeugsamer Feind"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) злейший враг",
+        "2) сильный противник; сильный конкурент"
+      ]
+    }
+  ]
+}

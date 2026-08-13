@@ -1,0 +1,55 @@
+{
+  "id": "1348500",
+  "readings": [
+    {
+      "kanaExpression": "しょうたい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "小隊",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "platoon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zug"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rendőrosztag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(воен.) взвод"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "pluton"
+      ]
+    }
+  ]
+}

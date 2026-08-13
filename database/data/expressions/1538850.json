@@ -1,0 +1,90 @@
+{
+  "id": "1538850",
+  "readings": [
+    {
+      "kanaExpression": "ゆそう",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "輸送",
+      "furiganaExpression": [
+        {
+          "text": "輸",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "送",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 4161
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transport",
+        "transportation",
+        "transit",
+        "conveyance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "transporteren",
+        "vervoeren",
+        "overbrengen",
+        "transport",
+        "vervoer",
+        "overbrenging"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "transport"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "transportieren",
+        "Beförderung",
+        "Transport"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elragadtatás",
+        "fuvarozás",
+        "szállítás",
+        "viteldíj",
+        "szállítmányozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перевозка, транспортировка",
+        "{～する} перевозить, транспортировать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prevažati",
+        "transportirati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "envío",
+        "expedición"
+      ]
+    }
+  ]
+}

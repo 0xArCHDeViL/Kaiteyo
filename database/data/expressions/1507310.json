@@ -1,0 +1,83 @@
+{
+  "id": "1507310",
+  "readings": [
+    {
+      "kanaExpression": "へいこう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "平衡",
+      "furiganaExpression": [
+        {
+          "text": "平",
+          "annotation": "へい"
+        },
+        {
+          "text": "衡",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "even scale",
+        "equilibrium",
+        "balance",
+        "equalization",
+        "equalisation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "evenwicht",
+        "equilibre",
+        "balans",
+        "evenwichtigheid",
+        "{ook geol.} isostasie",
+        "{geneesk.} equilibrium"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "équilibre",
+        "balance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gleichgewicht",
+        "Balance",
+        "Ausgleich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyensúly",
+        "ellensúly",
+        "higgadtság",
+        "maradék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "равновесие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "equilibrio",
+        "isostasia"
+      ]
+    }
+  ]
+}

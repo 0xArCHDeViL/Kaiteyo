@@ -1,0 +1,57 @@
+{
+  "id": "1735150",
+  "readings": [
+    {
+      "kanaExpression": "てきせい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "敵性",
+      "furiganaExpression": [
+        {
+          "text": "敵",
+          "annotation": "てき"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hostile nature",
+        "inimical character"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vijandigheid",
+        "vijandschap",
+        "vijandig karakter",
+        "vijandelijk",
+        "vijandig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feindliche Gesinnung",
+        "feindseliger Charakter",
+        "Feindseligkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "враждебность",
+        "{～[の]} вражеский; враждебный"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1283370",
+  "readings": [
+    {
+      "kanaExpression": "こうきあつ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "高気圧",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "圧",
+          "annotation": "あつ"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high (atmospheric) pressure",
+        "high-pressure system",
+        "anticyclone"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{meteo.} hoge luchtdruk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "forte pression atmosphérique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hochdruck",
+        "hoher atmosphärischer Druck",
+        "Antizyklone"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "высокое атмосферное давление, антициклон"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "visok atmosferski pritisk"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "presión barométrica elevada",
+        "anticiclón"
+      ]
+    }
+  ]
+}

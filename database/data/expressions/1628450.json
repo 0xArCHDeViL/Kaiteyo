@@ -1,0 +1,66 @@
+{
+  "id": "1628450",
+  "readings": [
+    {
+      "kanaExpression": "すやき",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "素焼き",
+      "furiganaExpression": [
+        {
+          "text": "素",
+          "annotation": "す"
+        },
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "素焼",
+      "furiganaExpression": [
+        {
+          "text": "素",
+          "annotation": "す"
+        },
+        {
+          "text": "焼",
+          "annotation": "やき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unglazed pottery",
+        "bisque",
+        "bisque firing",
+        "biscuit ware",
+        "roasting or grilling without seasoning (seafood, nuts, etc.)",
+        "simple okonomiyaki without any extra ingredients"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unglasiert",
+        "unglasierte Keramik",
+        "Biskuit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гончарное изделие, не покрытое глазурью; неглазурованный фарфор"
+      ]
+    }
+  ]
+}

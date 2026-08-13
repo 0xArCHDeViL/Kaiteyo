@@ -1,0 +1,47 @@
+{
+  "id": "1514820",
+  "readings": [
+    {
+      "kanaExpression": "ぼさい",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "募債",
+      "furiganaExpression": [
+        {
+          "text": "募",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "債",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "raising of a loan",
+        "loan floatation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Begebung von Anleihen",
+        "Anleiheemission",
+        "Anleihen begeben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выпуск займа",
+        "{～する} выпускать заём"
+      ]
+    }
+  ]
+}

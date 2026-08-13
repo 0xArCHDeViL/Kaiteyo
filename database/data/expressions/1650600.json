@@ -1,0 +1,47 @@
+{
+  "id": "1650600",
+  "readings": [
+    {
+      "kanaExpression": "ぎょき"
+    },
+    {
+      "kanaExpression": "りょうき",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "漁期",
+      "furiganaExpression": [
+        {
+          "text": "漁",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fishing season"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fischfangzeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рыболовный сезон; путина",
+        "рыболовный сезон, путина"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1396600",
+  "readings": [
+    {
+      "kanaExpression": "そげき",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "狙撃",
+      "furiganaExpression": [
+        {
+          "text": "狙",
+          "annotation": "そ"
+        },
+        {
+          "text": "撃",
+          "annotation": "げき"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shooting",
+        "sniping"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gericht schieten",
+        "scherpschieten",
+        "sluipschieten",
+        "gericht schot",
+        "{mil.} het scherpschieten",
+        "het sluipschieten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Scharfschießen",
+        "Zielen und Schießen",
+        "erschießen",
+        "schießen (aus dem Hinterhalt)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "céllövészet",
+        "előtörés",
+        "elszáguldás",
+        "fakadás",
+        "felbuggyanás",
+        "fogzás",
+        "folyó sebes szakasza",
+        "főbelövés",
+        "hasogató fájdalom",
+        "kikelés",
+        "kivetés",
+        "lelövés",
+        "meglövés",
+        "suhanás",
+        "száguldás",
+        "vadászat",
+        "vadászati jog",
+        "lövés rejtekhelyről"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "снайперская (прицельная) стрельба",
+        "{～する} вести снайперскую стрельбу, стрелять [по одиночным живым целям]"
+      ]
+    }
+  ]
+}

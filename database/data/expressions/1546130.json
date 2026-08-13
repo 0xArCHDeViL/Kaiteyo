@@ -1,0 +1,101 @@
+{
+  "id": "1546130",
+  "readings": [
+    {
+      "kanaExpression": "ようこうろ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "溶鉱炉",
+      "furiganaExpression": [
+        {
+          "text": "溶",
+          "annotation": "よう"
+        },
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        },
+        {
+          "text": "炉",
+          "annotation": "ろ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "熔鉱炉",
+      "furiganaExpression": [
+        {
+          "text": "熔",
+          "annotation": "よう"
+        },
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        },
+        {
+          "text": "炉",
+          "annotation": "ろ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "鎔鉱炉",
+      "furiganaExpression": [
+        {
+          "text": "鎔",
+          "annotation": "よう"
+        },
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        },
+        {
+          "text": "炉",
+          "annotation": "ろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "smelting furnace",
+        "blast furnace"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoogoven"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fournaise en fusion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schmelzofen",
+        "Hochofen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vasolvasztó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плавильная печь, горн; домна"
+      ]
+    }
+  ]
+}

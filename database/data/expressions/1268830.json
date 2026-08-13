@@ -1,0 +1,63 @@
+{
+  "id": "1268830",
+  "readings": [
+    {
+      "kanaExpression": "ごかん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "互換",
+      "furiganaExpression": [
+        {
+          "text": "互",
+          "annotation": "ご"
+        },
+        {
+          "text": "換",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 7740
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interchange",
+        "transposition",
+        "compatible (e.g. PC)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitwisselen",
+        "ruilen",
+        "ruil",
+        "ruiling",
+        "uitwisseling",
+        "{wisk.} transpositie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Austauschen",
+        "Vertauschung",
+        "Kompatibilität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átírás más hangnembe",
+        "transzponálás",
+        "behelyettesíthető",
+        "felcserélhető",
+        "összeegyeztethető",
+        "összeférhető"
+      ]
+    }
+  ]
+}

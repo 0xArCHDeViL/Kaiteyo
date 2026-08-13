@@ -1,0 +1,44 @@
+{
+  "id": "1520510",
+  "readings": [
+    {
+      "kanaExpression": "ぼうちゅう",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "防虫",
+      "furiganaExpression": [
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "虫",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "protection from insects",
+        "insect repellence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schutz vor Insekten"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "pesticid"
+      ]
+    }
+  ]
+}

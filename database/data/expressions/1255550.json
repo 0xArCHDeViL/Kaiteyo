@@ -1,0 +1,52 @@
+{
+  "id": "1255550",
+  "readings": [
+    {
+      "kanaExpression": "げっかん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "月間",
+      "furiganaExpression": [
+        {
+          "text": "月",
+          "annotation": "げっ"
+        },
+        {
+          "text": "間",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 9925
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "month-long period",
+        "(during) month"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Monat",
+        "Dauer eines Monats"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hónap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) месяц",
+        "2) месячник"
+      ]
+    }
+  ]
+}

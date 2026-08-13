@@ -1,0 +1,58 @@
+{
+  "id": "1228360",
+  "readings": [
+    {
+      "kanaExpression": "きゅうちゃく",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "吸着",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "着",
+          "annotation": "ちゃく"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "adsorption",
+        "adhesion (by suction)",
+        "attachment",
+        "sticking to"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "absorbieren",
+        "Festsaugen",
+        "Adsorption",
+        "Adsorbieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "függelék",
+        "szeretet",
+        "tartozék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "присасывание; (хим.) адсорбция",
+        "{～する} прилипать, приставать, присасываться (к чему-л.); (хим.) адсорбировать"
+      ]
+    }
+  ]
+}

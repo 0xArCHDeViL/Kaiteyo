@@ -1,0 +1,69 @@
+{
+  "id": "1786800",
+  "readings": [
+    {
+      "kanaExpression": "だいどう",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "たいどう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "大道",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "だい"
+        },
+        {
+          "text": "道",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main street",
+        "avenue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "große Straße",
+        "breite Straße",
+        "Hauptstraße",
+        "Weg der Gerechtigkeit",
+        "moralische Prinzipien",
+        "grundlegende moralische Prinzipien"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sugárút",
+        "széles utca"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) главная улица, проспект; большая дорога, тракт",
+        "{～で} на улице",
+        "2) (филос.) великий путь (о моральном поведении)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calle principal",
+        "avenida"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1560750",
+  "readings": [
+    {
+      "kanaExpression": "ろうかく",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "楼閣",
+      "furiganaExpression": [
+        {
+          "text": "楼",
+          "annotation": "ろう"
+        },
+        {
+          "text": "閣",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "multistoried building"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tour (immeuble)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mehrstöckiges Gebäude",
+        "hohes Gebäude",
+        "Schloss"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) дворец, замок; многоэтажное здание"
+      ]
+    }
+  ]
+}

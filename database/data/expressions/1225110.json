@@ -1,0 +1,87 @@
+{
+  "id": "1225110",
+  "readings": [
+    {
+      "kanaExpression": "ぎし",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "技師",
+      "furiganaExpression": [
+        {
+          "text": "技",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ],
+      "rank": 12436
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "engineer",
+        "technician"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ingenieur",
+        "technicus",
+        "technisch expert"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ingénieur",
+        "technicien"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ingenieur",
+        "Techniker"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gépész",
+        "gépkezelő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "инженер"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "inženir",
+        "tehnik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ingeniero",
+        "técnico"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ingenjör"
+      ]
+    }
+  ]
+}

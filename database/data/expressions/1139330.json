@@ -1,0 +1,88 @@
+{
+  "id": "1139330",
+  "readings": [
+    {
+      "kanaExpression": "ラテンご",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ラテン語",
+      "furiganaExpression": [
+        {
+          "text": "ラテン"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 14205
+    },
+    {
+      "kanjiExpression": "拉丁語",
+      "furiganaExpression": [
+        {
+          "text": "拉丁",
+          "annotation": "ラテン"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "羅甸語",
+      "furiganaExpression": [
+        {
+          "text": "羅甸",
+          "annotation": "ラテン"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Latin (language)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Latijn",
+        "de Latijnse taal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Latein",
+        "Lateinisch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "латинский язык, латынь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "latín"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "latin"
+      ]
+    }
+  ]
+}

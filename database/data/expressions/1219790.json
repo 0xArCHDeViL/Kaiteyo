@@ -1,0 +1,75 @@
+{
+  "id": "1219790",
+  "readings": [
+    {
+      "kanaExpression": "よせ",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "よせせき"
+    },
+    {
+      "kanjiExpression": "寄席",
+      "furiganaExpression": [
+        {
+          "text": "寄席",
+          "annotation": "よせ"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "寄せ席",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "せ"
+        },
+        {
+          "text": "席",
+          "annotation": "せき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "entertainment hall (for rakugo, manzai, magic, music, etc.)",
+        "vaudeville theater (theatre)",
+        "music hall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "variététheater",
+        "variété"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Yose",
+        "japanisches Brettlvarieté"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "revü"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) よせ【寄席】",
+        "эстрадный театр, варьете"
+      ]
+    }
+  ]
+}

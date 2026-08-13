@@ -1,0 +1,69 @@
+{
+  "id": "1836550",
+  "readings": [
+    {
+      "kanaExpression": "やくそくてがた",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "約束手形",
+      "furiganaExpression": [
+        {
+          "text": "約",
+          "annotation": "やく"
+        },
+        {
+          "text": "束",
+          "annotation": "そく"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "形",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "promissory note"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{fin.} promesse",
+        "orderbriefje",
+        "koopbriefje",
+        "schuldbewijs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schuldschein",
+        "Eigenwechsel",
+        "Solawechsel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "простой (прямой, соло-)вексель; долговое обязательство"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skuldsedel",
+        "egen växel"
+      ]
+    }
+  ]
+}

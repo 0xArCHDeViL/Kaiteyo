@@ -1,0 +1,45 @@
+{
+  "id": "1701090",
+  "readings": [
+    {
+      "kanaExpression": "ちゃくがん",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "着岸",
+      "furiganaExpression": [
+        {
+          "text": "着",
+          "annotation": "ちゃく"
+        },
+        {
+          "text": "岸",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reaching the shore",
+        "docking a boat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erreichen der Küste",
+        "die Küste erreichen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "причаливание"
+      ]
+    }
+  ]
+}

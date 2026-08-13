@@ -1,0 +1,41 @@
+{
+  "id": "1876000",
+  "readings": [
+    {
+      "kanaExpression": "こうわんきょく",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "港湾局",
+      "furiganaExpression": [
+        {
+          "text": "港",
+          "annotation": "こう"
+        },
+        {
+          "text": "湾",
+          "annotation": "わん"
+        },
+        {
+          "text": "局",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Port and Harbor Authority"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hafenamt"
+      ]
+    }
+  ]
+}

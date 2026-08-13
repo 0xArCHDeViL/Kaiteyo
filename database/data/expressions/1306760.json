@@ -1,0 +1,53 @@
+{
+  "id": "1306760",
+  "readings": [
+    {
+      "kanaExpression": "しがく",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "史学",
+      "furiganaExpression": [
+        {
+          "text": "史",
+          "annotation": "し"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "study of history"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geschiedkunde",
+        "geschiedeniswetenschap",
+        "geschiedvorsing",
+        "geschiedbeoefening",
+        "historiologie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschichtswissenschaft"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "история, историческая наука"
+      ]
+    }
+  ]
+}

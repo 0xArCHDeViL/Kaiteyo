@@ -1,0 +1,51 @@
+{
+  "id": "1289420",
+  "readings": [
+    {
+      "kanaExpression": "こんにちてき",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "今日的",
+      "furiganaExpression": [
+        {
+          "text": "今",
+          "annotation": "こん"
+        },
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "modern",
+        "up-to-date"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zeitgemäß",
+        "modern",
+        "up to date"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "modern",
+        "újabb kori"
+      ]
+    }
+  ]
+}

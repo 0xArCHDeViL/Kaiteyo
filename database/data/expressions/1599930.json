@@ -1,0 +1,103 @@
+{
+  "id": "1599930",
+  "readings": [
+    {
+      "kanaExpression": "にわかあめ",
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "にわか雨",
+      "furiganaExpression": [
+        {
+          "text": "にわか"
+        },
+        {
+          "text": "雨",
+          "annotation": "あめ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "俄雨",
+      "furiganaExpression": [
+        {
+          "text": "俄",
+          "annotation": "にわか"
+        },
+        {
+          "text": "雨",
+          "annotation": "あめ"
+        }
+      ],
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "俄か雨",
+      "furiganaExpression": [
+        {
+          "text": "俄",
+          "annotation": "にわ"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "雨",
+          "annotation": "あめ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rain shower"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "regenbui",
+        "bui"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pluie brutale et violente",
+        "pluie d\u0027orage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "plötzlicher Regenschauer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[внезапный] ливень"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "naliv"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lluvia repentina"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "regnskur"
+      ]
+    }
+  ]
+}

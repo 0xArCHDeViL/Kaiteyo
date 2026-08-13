@@ -1,0 +1,91 @@
+{
+  "id": "1172670",
+  "readings": [
+    {
+      "kanaExpression": "うんよく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "運良く",
+      "furiganaExpression": [
+        {
+          "text": "運",
+          "annotation": "うん"
+        },
+        {
+          "text": "良",
+          "annotation": "よ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "運よく",
+      "furiganaExpression": [
+        {
+          "text": "運",
+          "annotation": "うん"
+        },
+        {
+          "text": "よく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "luckily"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gelukkig",
+        "gelukkigerwijs",
+        "bij geluk",
+        "door een gelukkig toeval",
+        "het geluk wou dat …",
+        "{Belg.N.} gelukkiglijk",
+        "gelukkigerwijze"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "avec chance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zum Glück",
+        "glücklicherweise"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szerencsére"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "к счастью"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "por suerte",
+        "por fortuna",
+        "afortunadamente"
+      ]
+    }
+  ]
+}

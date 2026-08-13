@@ -1,0 +1,69 @@
+{
+  "id": "1315220",
+  "readings": [
+    {
+      "kanaExpression": "じまく",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "字幕",
+      "furiganaExpression": [
+        {
+          "text": "字",
+          "annotation": "じ"
+        },
+        {
+          "text": "幕",
+          "annotation": "まく"
+        }
+      ],
+      "rank": 8268
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subtitles",
+        "captioning"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ondertiteling",
+        "ondertitel",
+        "aftiteling",
+        "generiek",
+        "credits",
+        "titelrol"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Filmvorspann",
+        "Abspann",
+        "Untertitel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cím"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[суб]титр (в фильме)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "subtítulos (en una película)"
+      ]
+    }
+  ]
+}

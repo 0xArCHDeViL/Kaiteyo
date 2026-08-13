@@ -1,0 +1,112 @@
+{
+  "id": "1219330",
+  "readings": [
+    {
+      "kanaExpression": "きけい",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "きぎょう",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "奇形",
+      "furiganaExpression": [
+        {
+          "text": "奇",
+          "annotation": "き"
+        },
+        {
+          "text": "形",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "畸形",
+      "furiganaExpression": [
+        {
+          "text": "畸",
+          "annotation": "き"
+        },
+        {
+          "text": "形",
+          "annotation": "けい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "畸型",
+      "furiganaExpression": [
+        {
+          "text": "畸",
+          "annotation": "き"
+        },
+        {
+          "text": "型",
+          "annotation": "けい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deformity",
+        "malformation",
+        "strange shape",
+        "unusual shape"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "misvorming",
+        "deformatie",
+        "misvormdheid",
+        "mismaaktheid",
+        "{geneesk.} malformatie",
+        "wanstaltigheid",
+        "gedrochtelijkheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Missbildung",
+        "Abnormalität",
+        "Deformation",
+        "Missgestalt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csúnyaság",
+        "idomtalanság",
+        "rútság",
+        "rendellenesség",
+        "-őrült",
+        "csíny",
+        "furcsaság",
+        "rajongó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уродливость, ненормальность, отклонение от нормы",
+        "{～の} уродливый, ненормальный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "deformación",
+        "deformidad"
+      ]
+    }
+  ]
+}

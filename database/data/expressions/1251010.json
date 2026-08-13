@@ -1,0 +1,72 @@
+{
+  "id": "1251010",
+  "readings": [
+    {
+      "kanaExpression": "けいず",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "系図",
+      "furiganaExpression": [
+        {
+          "text": "系",
+          "annotation": "けい"
+        },
+        {
+          "text": "図",
+          "annotation": "ず"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "family tree",
+        "pedigree",
+        "genealogy"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arbre généalogique",
+        "généalogie",
+        "pedigree"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stammbaum",
+        "Stammtafel",
+        "Ahnentafel",
+        "Abstammung",
+        "Herkunft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "családfa",
+        "pedigré",
+        "származás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "генеалогия; родословная, происхождение",
+        "{～の} родословный, генеалогический"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "árbol genealógico"
+      ]
+    }
+  ]
+}

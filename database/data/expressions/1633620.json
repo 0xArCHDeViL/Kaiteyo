@@ -1,0 +1,66 @@
+{
+  "id": "1633620",
+  "readings": [
+    {
+      "kanaExpression": "くさち",
+      "rank": 31000
+    },
+    {
+      "kanaExpression": "そうち",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "草地",
+      "furiganaExpression": [
+        {
+          "text": "草",
+          "annotation": "くさ"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grassland",
+        "meadow"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grasveld",
+        "grasgrond",
+        "grasland",
+        "grasperk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wiese",
+        "Grasland"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kaszáló",
+        "füves táj",
+        "füves terület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "луг; пастбище, выгон"
+      ]
+    }
+  ]
+}

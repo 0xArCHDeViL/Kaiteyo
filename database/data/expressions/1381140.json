@@ -1,0 +1,80 @@
+{
+  "id": "1381140",
+  "readings": [
+    {
+      "kanaExpression": "せいれき",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "西暦",
+      "furiganaExpression": [
+        {
+          "text": "西",
+          "annotation": "せい"
+        },
+        {
+          "text": "暦",
+          "annotation": "れき"
+        }
+      ],
+      "rank": 14462
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Common Era",
+        "CE",
+        "Christian Era",
+        "anno domini",
+        "AD",
+        "Western (Gregorian) calendar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "christelijke tijdrekening",
+        "christelijk tijdperk",
+        "christelijke jaartelling",
+        "anno",
+        "A.D.",
+        "anno Domini",
+        "{in het} jaar onzes",
+        "des Heren ~"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "calendrier (grégorien) occidental"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gregorianischer Kalender",
+        "christliche Zeitrechnung",
+        "A.D",
+        "Anno Domini",
+        "nach Christus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "европейское летосчисление"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Era Cristiana",
+        "EC",
+        "anno domini",
+        "AD"
+      ]
+    }
+  ]
+}

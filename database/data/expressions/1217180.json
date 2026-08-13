@@ -1,0 +1,76 @@
+{
+  "id": "1217180",
+  "readings": [
+    {
+      "kanaExpression": "がんきゅう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "眼球",
+      "furiganaExpression": [
+        {
+          "text": "眼",
+          "annotation": "がん"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eyeball"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} oogbal",
+        "oogbol"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Augapfel",
+        "Bulbus oculi"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szemgolyó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глазное яблоко"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "očesno zrklo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bolas de los ojos",
+        "evento destacado"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ögonglob"
+      ]
+    }
+  ]
+}

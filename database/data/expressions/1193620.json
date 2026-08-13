@@ -1,0 +1,53 @@
+{
+  "id": "1193620",
+  "readings": [
+    {
+      "kanaExpression": "ひのけ",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "ほのけ"
+    },
+    {
+      "kanjiExpression": "火の気",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "ひ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "気",
+          "annotation": "け"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "source of fire",
+        "sign of fire",
+        "warmth of fire",
+        "heat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hitze eines Feuers",
+        "Feuer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тепло [от огня]"
+      ]
+    }
+  ]
+}

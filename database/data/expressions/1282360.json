@@ -1,0 +1,61 @@
+{
+  "id": "1282360",
+  "readings": [
+    {
+      "kanaExpression": "こうひょう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "講評",
+      "furiganaExpression": [
+        {
+          "text": "講",
+          "annotation": "こう"
+        },
+        {
+          "text": "評",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "criticism (by a teacher or coach, with commentary, especially at a poetry reading)",
+        "review",
+        "critique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kritisieren",
+        "besprechen",
+        "rezensieren",
+        "beurteilen",
+        "Kritik",
+        "Besprechung",
+        "Rezension"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kritika",
+        "felülvizsgálat",
+        "folyóirat",
+        "szemle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "критический обзор",
+        "{～する} делать (давать) критический обзор"
+      ]
+    }
+  ]
+}

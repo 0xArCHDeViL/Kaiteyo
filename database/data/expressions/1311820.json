@@ -1,0 +1,103 @@
+{
+  "id": "1311820",
+  "readings": [
+    {
+      "kanaExpression": "しぼう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "脂肪",
+      "furiganaExpression": [
+        {
+          "text": "脂",
+          "annotation": "し"
+        },
+        {
+          "text": "肪",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 4816
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fat",
+        "grease",
+        "blubber",
+        "lard",
+        "suet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vet",
+        "smeer",
+        "{豚の} reuzel",
+        "spek",
+        "{鯨の} blubber"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "graisse",
+        "gras",
+        "saindoux",
+        "suif"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fett",
+        "Talg",
+        "Schmalz",
+        "Speck"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dús",
+        "elhízott",
+        "gazdag",
+        "hájas",
+        "java vminek",
+        "kiadós",
+        "kövér",
+        "testes",
+        "tömött",
+        "vaskos",
+        "vastag",
+        "vminek a java",
+        "zsiradék",
+        "zsíros",
+        "zsír"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[животный] жир; сало; лярд"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grasas",
+        "grasa",
+        "manteca"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fett"
+      ]
+    }
+  ]
+}

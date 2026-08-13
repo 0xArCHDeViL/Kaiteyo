@@ -1,0 +1,119 @@
+{
+  "id": "1464160",
+  "readings": [
+    {
+      "kanaExpression": "ひでり",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "日照り",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "照",
+          "annotation": "で"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "旱",
+      "furiganaExpression": [
+        {
+          "text": "旱",
+          "annotation": "ひでり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "日でり",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "でり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "旱り",
+      "furiganaExpression": [
+        {
+          "text": "旱",
+          "annotation": "ひで"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dry weather",
+        "drought"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zonneschijn",
+        "droogte",
+        "droge periode",
+        "droog weer",
+        "gebrek",
+        "schaarste",
+        "tekort",
+        "nood"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trockenheit",
+        "Dürre",
+        "Wasserarmut",
+        "Regenmangel",
+        "Austrocknung",
+        "Mangel",
+        "Knappheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "aszály",
+        "szárazság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "засуха; жара"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sequía",
+        "escasez"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "torka"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "1609100",
+  "readings": [
+    {
+      "kanaExpression": "いいがかり",
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "言いがかり",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "いがかり"
+        }
+      ],
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "言い掛かり",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "掛",
+          "annotation": "が"
+        },
+        {
+          "text": "かり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "言い掛り",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "掛",
+          "annotation": "がか"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "言掛かり",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "いい"
+        },
+        {
+          "text": "掛",
+          "annotation": "が"
+        },
+        {
+          "text": "かり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "言掛り",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "いい"
+        },
+        {
+          "text": "掛",
+          "annotation": "がか"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "false accusation",
+        "trumped up-charge",
+        "pretext",
+        "picking a quarrel",
+        "statement that cannot be retracted",
+        "saying something one cannot take back"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aantijging",
+        "verdachtmaking",
+        "valse",
+        "verzonnen beschuldiging",
+        "voorwendsel",
+        "excuus",
+        "pretext",
+        "gegeven woord",
+        "engagement",
+        "toezegging",
+        "commitment"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "accusation mensongère",
+        "prétexte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "falsche Anschuldigung",
+        "falsche Beschuldigung",
+        "Aussage, die nicht zurückgenommen werden kann"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hamis vád",
+        "utalás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ложное обвинение; придирка"
+      ]
+    }
+  ]
+}

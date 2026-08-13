@@ -1,0 +1,89 @@
+{
+  "id": "1390060",
+  "readings": [
+    {
+      "kanaExpression": "かわぎし",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "かがん"
+    },
+    {
+      "kanjiExpression": "川岸",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "岸",
+          "annotation": "ぎし"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "河岸",
+      "furiganaExpression": [
+        {
+          "text": "河",
+          "annotation": "かわ"
+        },
+        {
+          "text": "岸",
+          "annotation": "ぎし"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "riverbank",
+        "riverside"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rivieroever",
+        "rivierdijk",
+        "waterkant"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "berge",
+        "bord d\u0027une rivière",
+        "quai",
+        "rive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flussufer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "берег (берега) реки; набережная",
+        "берег реки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ribera de un río",
+        "orilla de un río",
+        "pescadería",
+        "orilla (río)",
+        "rivera"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "1645510",
+  "readings": [
+    {
+      "kanaExpression": "せいか",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "聖火",
+      "furiganaExpression": [
+        {
+          "text": "聖",
+          "annotation": "せい"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sacred fire",
+        "sacred flame",
+        "Olympic flame",
+        "Olympic torch"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "heilig vuur",
+        "olympisch vuur",
+        "olympische fakkel",
+        "olympische vlam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heiliges Feuer",
+        "heilige Fackel",
+        "olympisches Feuer",
+        "olympische Fackel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "священный огонь (светильник, факел)"
+      ]
+    }
+  ]
+}

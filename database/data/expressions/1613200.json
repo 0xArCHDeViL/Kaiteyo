@@ -1,0 +1,53 @@
+{
+  "id": "1613200",
+  "readings": [
+    {
+      "kanaExpression": "ユダヤきょう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ユダヤ教",
+      "furiganaExpression": [
+        {
+          "text": "ユダヤ"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Judaism"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{rel.} joodse leer",
+        "joodse geloof",
+        "joodse godsdienst",
+        "judaïsme",
+        "jodendom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Judentum",
+        "Judaismus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "иудаизм"
+      ]
+    }
+  ]
+}

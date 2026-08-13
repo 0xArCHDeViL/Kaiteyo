@@ -1,0 +1,87 @@
+{
+  "id": "1436130",
+  "readings": [
+    {
+      "kanaExpression": "にわ",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "庭",
+      "furiganaExpression": [
+        {
+          "text": "庭",
+          "annotation": "にわ"
+        }
+      ],
+      "rank": 3119
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "garden",
+        "yard",
+        "courtyard",
+        "field (of action)",
+        "area"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tuin",
+        "{form.} gaard",
+        "{arch.} hof"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jardin",
+        "parc",
+        "terrain",
+        "cour",
+        "champ (d\u0027action)",
+        "zone"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Garten",
+        "Hof"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kert"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сад, двор"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vrt"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "jardín"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "trädgård"
+      ]
+    }
+  ]
+}

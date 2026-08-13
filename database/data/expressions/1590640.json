@@ -1,0 +1,113 @@
+{
+  "id": "1590640",
+  "readings": [
+    {
+      "kanaExpression": "からあげ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "唐揚げ",
+      "furiganaExpression": [
+        {
+          "text": "唐",
+          "annotation": "から"
+        },
+        {
+          "text": "揚",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "から揚げ",
+      "furiganaExpression": [
+        {
+          "text": "から"
+        },
+        {
+          "text": "揚",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "唐揚",
+      "furiganaExpression": [
+        {
+          "text": "唐",
+          "annotation": "から"
+        },
+        {
+          "text": "揚",
+          "annotation": "あげ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "空揚げ",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "から"
+        },
+        {
+          "text": "揚",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "空揚",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "から"
+        },
+        {
+          "text": "揚",
+          "annotation": "あげ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deep-frying food lightly coated in flour or potato starch",
+        "deep-fried food (esp. chicken)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} gefrituurde stukjes groente",
+        "vlees of vis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frittieren ohne Panierung",
+        "ohne Panierung Frittiertes"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "frito con gabardina",
+        "rebozado y frito"
+      ]
+    }
+  ]
+}

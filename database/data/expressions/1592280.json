@@ -1,0 +1,66 @@
+{
+  "id": "1592280",
+  "readings": [
+    {
+      "kanaExpression": "すみずみ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "隅々",
+      "furiganaExpression": [
+        {
+          "text": "隅",
+          "annotation": "すみ"
+        },
+        {
+          "text": "々",
+          "annotation": "ずみ"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "隅隅",
+      "furiganaExpression": [
+        {
+          "text": "隅",
+          "annotation": "すみ"
+        },
+        {
+          "text": "隅",
+          "annotation": "ずみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "every corner",
+        "every nook and cranny",
+        "all the ins and outs"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dans chaque coin",
+        "tout partout"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alle Ecken und Winkel",
+        "alle Ecken und Enden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "все уголки, все места; повсюду"
+      ]
+    }
+  ]
+}

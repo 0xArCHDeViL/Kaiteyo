@@ -1,0 +1,57 @@
+{
+  "id": "1626380",
+  "readings": [
+    {
+      "kanaExpression": "はつぶたい",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "初舞台",
+      "furiganaExpression": [
+        {
+          "text": "初",
+          "annotation": "はつ"
+        },
+        {
+          "text": "舞",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "台",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "debut",
+        "initial stage appearance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erster Auftritt",
+        "Debüt",
+        "Antritt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bemutatkozás",
+        "első fellépés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(театр.) дебют"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "1589720",
+  "readings": [
+    {
+      "kanaExpression": "かいぬし",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "飼い主",
+      "furiganaExpression": [
+        {
+          "text": "飼",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ],
+      "rank": 8137
+    },
+    {
+      "kanjiExpression": "飼主",
+      "furiganaExpression": [
+        {
+          "text": "飼",
+          "annotation": "かい"
+        },
+        {
+          "text": "主",
+          "annotation": "ぬし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(pet) owner",
+        "keeper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eigenaar",
+        "baas",
+        "bazin",
+        "baasje",
+        "vrouwtje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "berger",
+        "propriétaire (chien)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tierhalter",
+        "Halter",
+        "Herrchen",
+        "Herr",
+        "Besitzer (eines Tieres)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tulajdonos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "владелец (домашнего животного)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pastor",
+        "dueño (de una mascota)"
+      ]
+    }
+  ]
+}

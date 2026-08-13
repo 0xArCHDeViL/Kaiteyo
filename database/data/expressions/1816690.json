@@ -1,0 +1,47 @@
+{
+  "id": "1816690",
+  "readings": [
+    {
+      "kanaExpression": "しさく",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "詩作",
+      "furiganaExpression": [
+        {
+          "text": "詩",
+          "annotation": "し"
+        },
+        {
+          "text": "作",
+          "annotation": "さく"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "composition of a poem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gedichte schreiben",
+        "dichten",
+        "Schreiben von Gedichten",
+        "Dichten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стихосложение",
+        "{～する} писать (слагать) стихи"
+      ]
+    }
+  ]
+}

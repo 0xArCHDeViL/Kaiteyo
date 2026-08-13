@@ -1,0 +1,74 @@
+{
+  "id": "1348200",
+  "readings": [
+    {
+      "kanaExpression": "しょうにか",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "小児科",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "児",
+          "annotation": "に"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ],
+      "rank": 11237
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pediatrics"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} pediatrie",
+        "kindergeneeskunde",
+        "leer van de kinderziekten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pédiatrie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pädiatrie",
+        "Kinderheilkunde"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "педиатрия"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pediatrija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pediatría"
+      ]
+    }
+  ]
+}

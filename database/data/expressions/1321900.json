@@ -1,0 +1,141 @@
+{
+  "id": "1321900",
+  "readings": [
+    {
+      "kanaExpression": "しゃしん",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "写真",
+      "furiganaExpression": [
+        {
+          "text": "写",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "真",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 310
+    },
+    {
+      "kanjiExpression": "寫眞",
+      "furiganaExpression": [
+        {
+          "text": "寫",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "眞",
+          "annotation": "しん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "寫真",
+      "furiganaExpression": [
+        {
+          "text": "寫",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "真",
+          "annotation": "しん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "冩眞",
+      "furiganaExpression": [
+        {
+          "text": "冩",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "眞",
+          "annotation": "しん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "photograph",
+        "photo",
+        "picture",
+        "snapshot",
+        "snap",
+        "moving picture",
+        "movie"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "foto",
+        "{volkst.} portret",
+        "opname",
+        "plaatje",
+        "kiekje",
+        "foto-opname",
+        "shot",
+        "{veroud.} fotografie",
+        "fotografie",
+        "het fotograferen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "photographie",
+        "photo",
+        "cliché",
+        "photo instantanée",
+        "film"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fotografie",
+        "Foto",
+        "Aufnahme",
+        "Schnappschuss"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fénykép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фото[карточка], фотоснимок"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "fotografija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fotografía"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fotografi",
+        "bild"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1445020",
+  "readings": [
+    {
+      "kanaExpression": "つど",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "都度",
+      "furiganaExpression": [
+        {
+          "text": "都",
+          "annotation": "つ"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 9554
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "each (every) time",
+        "whenever"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{その～} elke",
+        "iedere keer",
+        "altijd",
+        "steeds",
+        "telkens",
+        "toties quoties"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jedes Mal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каждый раз"
+      ]
+    }
+  ]
+}

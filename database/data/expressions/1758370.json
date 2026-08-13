@@ -1,0 +1,53 @@
+{
+  "id": "1758370",
+  "readings": [
+    {
+      "kanaExpression": "りがいかんけい",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "利害関係",
+      "furiganaExpression": [
+        {
+          "text": "利",
+          "annotation": "り"
+        },
+        {
+          "text": "害",
+          "annotation": "がい"
+        },
+        {
+          "text": "関",
+          "annotation": "かん"
+        },
+        {
+          "text": "係",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interests",
+        "stake"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Interesse",
+        "Belang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заинтересованность"
+      ]
+    }
+  ]
+}

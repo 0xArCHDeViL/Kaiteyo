@@ -1,0 +1,52 @@
+{
+  "id": "1657180",
+  "readings": [
+    {
+      "kanaExpression": "こうげ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "高下",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "下",
+          "annotation": "げ"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rise and fall (e.g. prices)",
+        "fluctuation",
+        "difference (rank, grade, quality, etc.)",
+        "variation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "steigen und fallen",
+        "Höhe und Niedrigkeit (des Rangs od. der Stellung)",
+        "Steigen und Fallen",
+        "Aufstieg und Niedergang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) повышение и падение; колебания",
+        "{～する} колебаться (о ценах)",
+        "2) ранг, разряд, класс; качество"
+      ]
+    }
+  ]
+}

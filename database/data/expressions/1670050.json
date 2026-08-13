@@ -1,0 +1,70 @@
+{
+  "id": "1670050",
+  "readings": [
+    {
+      "kanaExpression": "けつえきけんさ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "血液検査",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "けつ"
+        },
+        {
+          "text": "液",
+          "annotation": "えき"
+        },
+        {
+          "text": "検",
+          "annotation": "けん"
+        },
+        {
+          "text": "査",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blood test",
+        "hemanalysis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} bloedonderzoek",
+        "bloedproef",
+        "bloedtest",
+        "hematoscopie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blutuntersuchung",
+        "Blutprobe",
+        "Bluttest"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vérvizsgálat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "анализ крови",
+        "{～をする} делать анализ крови"
+      ]
+    }
+  ]
+}

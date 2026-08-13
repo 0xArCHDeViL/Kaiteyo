@@ -1,0 +1,71 @@
+{
+  "id": "1338500",
+  "readings": [
+    {
+      "kanaExpression": "しゅつがん",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "出願",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        },
+        {
+          "text": "願",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 6883
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "application",
+        "filing an application"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aanvraag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "demande"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Gesuch einreichen",
+        "eine Bewerbung einreichen",
+        "einen Antrag stellen",
+        "Bewerbung",
+        "Gesuch",
+        "Ansuchen",
+        "Antrag",
+        "Anmeldung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подача заявления",
+        "{～する} подавать заявление (прошение); ходатайствовать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "solicitud",
+        "petición"
+      ]
+    }
+  ]
+}

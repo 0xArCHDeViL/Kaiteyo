@@ -1,0 +1,75 @@
+{
+  "id": "1562800",
+  "readings": [
+    {
+      "kanaExpression": "わん",
+      "rank": 9292
+    },
+    {
+      "kanjiExpression": "湾",
+      "furiganaExpression": [
+        {
+          "text": "湾",
+          "annotation": "わん"
+        }
+      ],
+      "rank": 8348
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bay",
+        "gulf",
+        "inlet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "baai",
+        "zeeboezem",
+        "golf",
+        "inham",
+        "{geol.} sinus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "anse",
+        "baie",
+        "crique",
+        "golfe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bucht",
+        "Golf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kocsielőtér",
+        "öböl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[морской] залив, бухта, губа"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bahía",
+        "golfo"
+      ]
+    }
+  ]
+}

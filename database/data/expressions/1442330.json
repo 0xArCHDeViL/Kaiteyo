@@ -1,0 +1,61 @@
+{
+  "id": "1442330",
+  "readings": [
+    {
+      "kanaExpression": "でんどうし",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "伝道師",
+      "furiganaExpression": [
+        {
+          "text": "伝",
+          "annotation": "でん"
+        },
+        {
+          "text": "道",
+          "annotation": "どう"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "evangelist"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Missionar",
+        "Evangelist"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "evangélista",
+        "evangelizátor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проповедник; миссионер"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "evangelist"
+      ]
+    }
+  ]
+}

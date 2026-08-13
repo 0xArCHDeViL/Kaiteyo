@@ -1,0 +1,94 @@
+{
+  "id": "1594660",
+  "readings": [
+    {
+      "kanaExpression": "しゃしんき",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "写真機",
+      "furiganaExpression": [
+        {
+          "text": "写",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "真",
+          "annotation": "しん"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "写真器",
+      "furiganaExpression": [
+        {
+          "text": "写",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "真",
+          "annotation": "しん"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(photographic) camera"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fototoestel",
+        "fotocamera",
+        "camera",
+        "{scherts.} kiekdoos",
+        "{w.g.} kiektoestel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fotoapparat",
+        "Kamera"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fényképezőgép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фотоаппарат"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cámara",
+        "cámara fotográfica"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kamera"
+      ]
+    }
+  ]
+}

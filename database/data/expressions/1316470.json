@@ -1,0 +1,76 @@
+{
+  "id": "1316470",
+  "readings": [
+    {
+      "kanaExpression": "じかい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "次回",
+      "furiganaExpression": [
+        {
+          "text": "次",
+          "annotation": "じ"
+        },
+        {
+          "text": "回",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 2147
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "next time (occasion)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volgende keer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "la prochaine fois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nächstes Mal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "legközelebb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "следующий раз",
+        "{～の} следующий",
+        "{～に} в следующий (в другой) раз"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "naslednjič",
+        "prihodnjič"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "próxima vez"
+      ]
+    }
+  ]
+}

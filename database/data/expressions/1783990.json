@@ -1,0 +1,86 @@
+{
+  "id": "1783990",
+  "readings": [
+    {
+      "kanaExpression": "あたりどし",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "当たり年",
+      "furiganaExpression": [
+        {
+          "text": "当",
+          "annotation": "あ"
+        },
+        {
+          "text": "たり"
+        },
+        {
+          "text": "年",
+          "annotation": "どし"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "当り年",
+      "furiganaExpression": [
+        {
+          "text": "当",
+          "annotation": "あた"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "年",
+          "annotation": "どし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "good year",
+        "lucky year",
+        "bumper year",
+        "banner year"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "goed",
+        "gunstig",
+        "uitstekend",
+        "prima jaar",
+        "topjaar",
+        "{Belg.N.} boerenjaar",
+        "geluksjaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "glückliches Jahr",
+        "gutes Jahr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "удачный (урожайный) год"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "buen año",
+        "año exitoso",
+        "año de buena cosecha"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2827870",
+  "readings": [
+    {
+      "kanaExpression": "きんこう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "金鉱",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "きん"
+        },
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gold ore",
+        "gold deposit",
+        "gold mine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Golderz",
+        "Goldmine",
+        "Goldbergwerk"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "золотая руда"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1535950",
+  "readings": [
+    {
+      "kanaExpression": "といつめる",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "問い詰める",
+      "furiganaExpression": [
+        {
+          "text": "問",
+          "annotation": "と"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "問いつめる",
+      "furiganaExpression": [
+        {
+          "text": "問",
+          "annotation": "と"
+        },
+        {
+          "text": "いつめる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to press a question",
+        "to cross-examine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ins Kreuzverhör nehmen",
+        "mit Fragen in die Enge treiben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "настойчиво спрашивать, осаждать вопросами"
+      ]
+    }
+  ]
+}

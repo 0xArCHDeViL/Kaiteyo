@@ -1,0 +1,51 @@
+{
+  "id": "1821920",
+  "readings": [
+    {
+      "kanaExpression": "らんぐん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "乱軍",
+      "furiganaExpression": [
+        {
+          "text": "乱",
+          "annotation": "らん"
+        },
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "melee"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Handgemenge",
+        "Handgreiflichkeit",
+        "Kampf, bei dem Freund und Feind durcheinander gemischt sind"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zűrzavar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рукопашный бой"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "1246930",
+  "readings": [
+    {
+      "kanaExpression": "くりのべる",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "繰り延べる",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "延",
+          "annotation": "の"
+        },
+        {
+          "text": "べる"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "繰延べる",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "延",
+          "annotation": "の"
+        },
+        {
+          "text": "べる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to postpone",
+        "to defer",
+        "to reschedule"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verschieben",
+        "aufschieben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhalaszt",
+        "halogat",
+        "késlekedik",
+        "késleltet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отсрочивать, откладывать; переносить [на более поздний срок]"
+      ]
+    }
+  ]
+}

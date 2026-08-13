@@ -1,0 +1,63 @@
+{
+  "id": "1766960",
+  "readings": [
+    {
+      "kanaExpression": "よんせん",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "しせん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "四千",
+      "furiganaExpression": [
+        {
+          "text": "四",
+          "annotation": "よん"
+        },
+        {
+          "text": "千",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "４千",
+      "furiganaExpression": [
+        {
+          "text": "４",
+          "annotation": "よん"
+        },
+        {
+          "text": "千",
+          "annotation": "せん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "four thousand",
+        "4,000"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "viertausend",
+        "4.000"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuatro mil",
+        "4000"
+      ]
+    }
+  ]
+}

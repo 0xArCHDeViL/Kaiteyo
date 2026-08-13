@@ -1,0 +1,96 @@
+{
+  "id": "1369900",
+  "readings": [
+    {
+      "kanaExpression": "ごみ",
+      "rank": 6272
+    },
+    {
+      "kanaExpression": "ゴミ",
+      "rank": 3111
+    },
+    {
+      "kanjiExpression": "塵",
+      "furiganaExpression": [
+        {
+          "text": "塵",
+          "annotation": "ごみ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "芥",
+      "furiganaExpression": [
+        {
+          "text": "芥",
+          "annotation": "ごみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rubbish",
+        "trash",
+        "garbage",
+        "refuse",
+        "litter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stof",
+        "vuil",
+        "vuilnis",
+        "afval"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déchets",
+        "détritus",
+        "immondices",
+        "ordures"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abfall",
+        "Müll",
+        "Staub",
+        "Dreck"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szemét",
+        "hulladék",
+        "limlom",
+        "vacak",
+        "selejt",
+        "visszautasított dolog"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мусор, сор; пыль"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "basura",
+        "desperdicio",
+        "porquería"
+      ]
+    }
+  ]
+}

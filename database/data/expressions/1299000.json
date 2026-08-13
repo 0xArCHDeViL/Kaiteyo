@@ -1,0 +1,67 @@
+{
+  "id": "1299000",
+  "readings": [
+    {
+      "kanaExpression": "ころし",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "殺し",
+      "furiganaExpression": [
+        {
+          "text": "殺",
+          "annotation": "ころ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 9562
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "murder",
+        "killing",
+        "murderer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het doden",
+        "ombrengen",
+        "doodslag",
+        "moord",
+        "doder",
+        "moordenaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mord"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "убийство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(un) asesinato"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mord"
+      ]
+    }
+  ]
+}

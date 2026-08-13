@@ -1,0 +1,42 @@
+{
+  "id": "1618600",
+  "readings": [
+    {
+      "kanaExpression": "れんぱ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "連破",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "れん"
+        },
+        {
+          "text": "破",
+          "annotation": "ぱ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "winning successively",
+        "defeating one\u0027s enemy in succession"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Siegfolge",
+        "aufeinanderfolgende Siege",
+        "Siegesserie",
+        "in Serie siegen",
+        "in Folge siegen"
+      ]
+    }
+  ]
+}

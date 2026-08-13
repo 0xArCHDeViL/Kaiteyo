@@ -1,0 +1,82 @@
+{
+  "id": "1383810",
+  "readings": [
+    {
+      "kanaExpression": "きりがない",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "キリがない"
+    },
+    {
+      "kanjiExpression": "切りがない",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "りがない"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "切りが無い",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "りが"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "endless",
+        "boundless",
+        "innumerable",
+        "never-ending",
+        "going on forever"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eindeloos zijn",
+        "zonder einde zijn",
+        "geen grenzen kennen",
+        "er komt geen eind aan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "endlos sein",
+        "ohne Ende sein",
+        "uferlos sein"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "interminable",
+        "inacabable",
+        "infinito",
+        "ilimitado"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1403360",
+  "readings": [
+    {
+      "kanaExpression": "ぞうふく",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "増幅",
+      "furiganaExpression": [
+        {
+          "text": "増",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "幅",
+          "annotation": "ふく"
+        }
+      ],
+      "rank": 12055
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "amplification",
+        "magnification",
+        "making larger"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{elektr.} versterken",
+        "{elektr.} versterking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verstärken",
+        "Verstärkung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (радио, эл.) усиление",
+        "{～する} усиливать",
+        "2) (уст.) увеличение (размера)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "amplificar"
+      ]
+    }
+  ]
+}

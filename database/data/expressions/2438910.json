@@ -1,0 +1,61 @@
+{
+  "id": "2438910",
+  "readings": [
+    {
+      "kanaExpression": "ゆうちょぎんこう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ゆうちょ銀行",
+      "furiganaExpression": [
+        {
+          "text": "ゆうちょ"
+        },
+        {
+          "text": "銀",
+          "annotation": "ぎん"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "郵貯銀行",
+      "furiganaExpression": [
+        {
+          "text": "郵",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "貯",
+          "annotation": "ちょ"
+        },
+        {
+          "text": "銀",
+          "annotation": "ぎん"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "JP Bank (former Postal Savings Bank, created when the Postal Services were privatized)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Japan Post Bank Co., Ltd."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1204680",
+  "readings": [
+    {
+      "kanaExpression": "がいろじゅ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "街路樹",
+      "furiganaExpression": [
+        {
+          "text": "街",
+          "annotation": "がい"
+        },
+        {
+          "text": "路",
+          "annotation": "ろ"
+        },
+        {
+          "text": "樹",
+          "annotation": "じゅ"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "roadside trees"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "straatboom",
+        "laanboom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Straßenbaum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дерево (деревья, зелёные насаждения) на улице (шоссе (и т. п.))"
+      ]
+    }
+  ]
+}

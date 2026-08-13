@@ -1,0 +1,56 @@
+{
+  "id": "1729470",
+  "readings": [
+    {
+      "kanaExpression": "にんよう",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "認容",
+      "furiganaExpression": [
+        {
+          "text": "認",
+          "annotation": "にん"
+        },
+        {
+          "text": "容",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "acknowledgement",
+        "acknowledgment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zugeständnis",
+        "Anerkennung",
+        "anerkennen",
+        "zugestehen",
+        "zugeben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elismerés",
+        "köszönetnyilvánítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) признание; допущение",
+        "{～する} признавать; допускать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1943170",
+  "readings": [
+    {
+      "kanaExpression": "ていきょうしゃ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "提供者",
+      "furiganaExpression": [
+        {
+          "text": "提",
+          "annotation": "てい"
+        },
+        {
+          "text": "供",
+          "annotation": "きょう"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "donor",
+        "contributor",
+        "provider"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "donor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spender (z. B. Blutspender)",
+        "Sponsor (eines Programms)",
+        "Anbieter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "donor",
+        "véradó"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "blodgivare"
+      ]
+    }
+  ]
+}

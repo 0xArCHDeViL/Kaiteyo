@@ -1,0 +1,61 @@
+{
+  "id": "1499670",
+  "readings": [
+    {
+      "kanaExpression": "ふうしょ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "封書",
+      "furiganaExpression": [
+        {
+          "text": "封",
+          "annotation": "ふう"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sealed letter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verzegelde brief",
+        "geënveloppeerde brief",
+        "brief in gesloten couvert",
+        "verzegeling",
+        "enveloppering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lettre cachetée (avec un sceau)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "versiegeltes Schreiben",
+        "versiegelter Brief"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запечатанное письмо, запечатанный пакет",
+        "{～で} в запечатанном конверте"
+      ]
+    }
+  ]
+}

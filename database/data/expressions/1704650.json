@@ -1,0 +1,72 @@
+{
+  "id": "1704650",
+  "readings": [
+    {
+      "kanaExpression": "えんぎもの",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "縁起物",
+      "furiganaExpression": [
+        {
+          "text": "縁",
+          "annotation": "えん"
+        },
+        {
+          "text": "起",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "縁起もの",
+      "furiganaExpression": [
+        {
+          "text": "縁",
+          "annotation": "えん"
+        },
+        {
+          "text": "起",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "talisman",
+        "lucky charm"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Maskottchen",
+        "Glücksbringer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "талисман, амулет [, приносящий счастье]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "talismán",
+        "atrae la suerte"
+      ]
+    }
+  ]
+}

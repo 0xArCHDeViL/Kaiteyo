@@ -1,0 +1,85 @@
+{
+  "id": "1304210",
+  "readings": [
+    {
+      "kanaExpression": "さんどう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "賛同",
+      "furiganaExpression": [
+        {
+          "text": "賛",
+          "annotation": "さん"
+        },
+        {
+          "text": "同",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 6849
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "approval",
+        "endorsement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "goedkeuren",
+        "akkoord gaan met",
+        "toestemmen in",
+        "steunen",
+        "goedvinden",
+        "onderschrijven",
+        "zich aansluiten bij",
+        "{Belg.N.} bijtreden",
+        "goedkeuring",
+        "instemming",
+        "onderschrijving",
+        "steun",
+        "adhesie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zustimmung",
+        "Einwilligung",
+        "Beifall",
+        "Unterstützung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyeslés",
+        "jóváhagyás",
+        "forgatmány",
+        "forgatmányozás",
+        "hátirat",
+        "hozzájárulás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одобрение; поддержка",
+        "{～する} одобрять, поддерживать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aprobación",
+        "aquiescencia",
+        "conformidad"
+      ]
+    }
+  ]
+}

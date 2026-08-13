@@ -1,0 +1,101 @@
+{
+  "id": "1584920",
+  "readings": [
+    {
+      "kanaExpression": "よげん",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "予言",
+      "furiganaExpression": [
+        {
+          "text": "予",
+          "annotation": "よ"
+        },
+        {
+          "text": "言",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 6855
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prediction",
+        "prophecy",
+        "prognostication",
+        "foretelling",
+        "forecast",
+        "(religious) prophecy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorspellen",
+        "voorzeggen",
+        "profeteren",
+        "als verwachting opgeven",
+        "voorspelling",
+        "voorzegging",
+        "profetie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prédiction",
+        "présage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vorhersagen",
+        "prophezeien",
+        "weissagen",
+        "Vorhersage",
+        "Prophezeiung",
+        "Weissagung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jóslás",
+        "jövendölés",
+        "előjel",
+        "jóslat",
+        "kórjóslat",
+        "megjövendölés",
+        "ómen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "предсказание, пророчество",
+        "{～する} предсказывать, пророчить"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prerok",
+        "prerokovati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "predecir",
+        "vaticinar",
+        "pronosticar",
+        "profecía"
+      ]
+    }
+  ]
+}

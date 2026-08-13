@@ -1,0 +1,52 @@
+{
+  "id": "1319680",
+  "readings": [
+    {
+      "kanaExpression": "しっとう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "執刀",
+      "furiganaExpression": [
+        {
+          "text": "執",
+          "annotation": "しっ"
+        },
+        {
+          "text": "刀",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "performing a surgical operation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} hantering van het operatiemes",
+        "uitvoering van een operatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Operation durchführen",
+        "Durchführung einer Operation",
+        "Durchführung einer Obduktion"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проведение [хирургической] операции"
+      ]
+    }
+  ]
+}

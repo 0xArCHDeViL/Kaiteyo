@@ -1,0 +1,81 @@
+{
+  "id": "1425030",
+  "readings": [
+    {
+      "kanaExpression": "ちゅうと",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "中途",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "途",
+          "annotation": "と"
+        }
+      ],
+      "rank": 12408
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "halfway",
+        "midway",
+        "partway",
+        "mid-course"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "halverwege",
+        "halfweg",
+        "in het midden van …",
+        "middenin …",
+        "op de helft van …"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "au milieu",
+        "à moitié",
+        "à mi chemin",
+        "moitié du chemin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "halbe Wegstrecke"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "félúton levő",
+        "félúton",
+        "középen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полпути",
+        "{～で} на полпути; (прям. и перен.) на полдороге"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "a medio camino",
+        "a medias"
+      ]
+    }
+  ]
+}

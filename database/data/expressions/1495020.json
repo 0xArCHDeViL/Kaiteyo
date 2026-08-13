@@ -1,0 +1,75 @@
+{
+  "id": "1495020",
+  "readings": [
+    {
+      "kanaExpression": "ふみんしょう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "不眠症",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "眠",
+          "annotation": "みん"
+        },
+        {
+          "text": "症",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sleeplessness",
+        "insomnia",
+        "wakefulness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slapeloosheid",
+        "insomnie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "état éveillé",
+        "insomnie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schlaflosigkeit",
+        "Schlafstörung",
+        "Asomnie",
+        "Agrypnie",
+        "Insomnie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "álmatlanság",
+        "ébrenlét",
+        "óvatosság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бессонница"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "1522990",
+  "readings": [
+    {
+      "kanaExpression": "ほんちょう",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "本朝",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "朝",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "this land",
+        "our country",
+        "Imperial Court of Japan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dieses Land",
+        "unser Land",
+        "unser Kaiserhaus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.)",
+        "1) наша страна; родина (о Японии)",
+        "2) императорский двор"
+      ]
+    }
+  ]
+}

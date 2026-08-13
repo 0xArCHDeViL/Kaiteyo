@@ -1,0 +1,89 @@
+{
+  "id": "1305630",
+  "readings": [
+    {
+      "kanaExpression": "しとめる",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "仕留める",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "為留める",
+      "furiganaExpression": [
+        {
+          "text": "為",
+          "annotation": "し"
+        },
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to bring down (an animal, opponent, etc.)",
+        "to kill",
+        "to shoot dead",
+        "to shoot down"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schießen",
+        "erschießen",
+        "abschießen",
+        "töten",
+        "erlegen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elerőtlenít",
+        "időbeli pontig elbeszél",
+        "időbeli pontig levezet",
+        "ledönt",
+        "legyengít",
+        "lehoz",
+        "hatástalanít",
+        "öl",
+        "semlegesít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прикончить; застрелить; сбить на лету"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "matar"
+      ]
+    }
+  ]
+}

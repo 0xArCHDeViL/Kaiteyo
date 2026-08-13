@@ -1,0 +1,106 @@
+{
+  "id": "1182920",
+  "readings": [
+    {
+      "kanaExpression": "かき",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ぼれい"
+    },
+    {
+      "kanaExpression": "カキ",
+      "rank": 14711
+    },
+    {
+      "kanjiExpression": "牡蠣",
+      "furiganaExpression": [
+        {
+          "text": "牡蠣",
+          "annotation": "かき"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "牡蛎",
+      "furiganaExpression": [
+        {
+          "text": "牡",
+          "annotation": "か"
+        },
+        {
+          "text": "蛎",
+          "annotation": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "蠣",
+      "furiganaExpression": [
+        {
+          "text": "蠣",
+          "annotation": "かき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "硴",
+      "furiganaExpression": [
+        {
+          "text": "硴",
+          "annotation": "かき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "oyster",
+        "oyster shell"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} oester",
+        "{Chin.geneesk.} oesterschelp",
+        "{i.h.b.} gemalen oesterschelp",
+        "oesterschelppoeder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auster",
+        "Pulver aus gebrannten und zerkleinerten Muschelschalen (als Medizin oder Vogelfutter verwendet)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "osztriga"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "устрица"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ostra"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ostron"
+      ]
+    }
+  ]
+}

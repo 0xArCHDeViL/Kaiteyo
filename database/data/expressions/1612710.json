@@ -1,0 +1,110 @@
+{
+  "id": "1612710",
+  "readings": [
+    {
+      "kanaExpression": "ちりがみ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ちりし"
+    },
+    {
+      "kanjiExpression": "ちり紙",
+      "furiganaExpression": [
+        {
+          "text": "ちり"
+        },
+        {
+          "text": "紙",
+          "annotation": "がみ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "チリ紙",
+      "furiganaExpression": [
+        {
+          "text": "チリ"
+        },
+        {
+          "text": "紙",
+          "annotation": "がみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "塵紙",
+      "furiganaExpression": [
+        {
+          "text": "塵",
+          "annotation": "ちり"
+        },
+        {
+          "text": "紙",
+          "annotation": "がみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tissue paper",
+        "toilet paper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tissue",
+        "papieren zakdoekje",
+        "toiletpapier",
+        "closetpapier",
+        "wc-papier",
+        "{inform.} pleepapier"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mouchoir en papier",
+        "papier hygiénique",
+        "papier toilette"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Papiertaschentücher",
+        "Toilettenpapier"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vécépapír"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "грубая туалетная бумага"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "toaletni papir",
+        "papir"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pañuelo de papel"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "1545210",
+  "readings": [
+    {
+      "kanaExpression": "ようじょ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "幼女",
+      "furiganaExpression": [
+        {
+          "text": "幼",
+          "annotation": "よう"
+        },
+        {
+          "text": "女",
+          "annotation": "じょ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "little girl"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleines Mädchen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[маленькая] девочка"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "flickunge"
+      ]
+    }
+  ]
+}

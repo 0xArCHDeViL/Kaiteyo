@@ -1,0 +1,80 @@
+{
+  "id": "1255120",
+  "readings": [
+    {
+      "kanaExpression": "けつえき",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "血液",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "けつ"
+        },
+        {
+          "text": "液",
+          "annotation": "えき"
+        }
+      ],
+      "rank": 3748
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blood"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bloed"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sang"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blut"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vér",
+        "vérrokonság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) кровь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kri"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sangre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "blod"
+      ]
+    }
+  ]
+}

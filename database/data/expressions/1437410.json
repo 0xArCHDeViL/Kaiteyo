@@ -1,0 +1,82 @@
+{
+  "id": "1437410",
+  "readings": [
+    {
+      "kanaExpression": "てきせい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "適性",
+      "furiganaExpression": [
+        {
+          "text": "適",
+          "annotation": "てき"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 13227
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "aptitude",
+        "aptness",
+        "suitability"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geschiktheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aptitude",
+        "capacité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eignung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adottság",
+        "rátermettség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пригодность",
+        "{～の} пригодный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sposobnost",
+        "nadarjenost",
+        "nagnjenje",
+        "smisel za {kaj}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aptitud",
+        "talento"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "1598920",
+  "readings": [
+    {
+      "kanaExpression": "とめがね",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "留め金",
+      "furiganaExpression": [
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "金",
+          "annotation": "がね"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "止め金",
+      "furiganaExpression": [
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "金",
+          "annotation": "がね"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "留金",
+      "furiganaExpression": [
+        {
+          "text": "留",
+          "annotation": "とめ"
+        },
+        {
+          "text": "金",
+          "annotation": "がね"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "止金",
+      "furiganaExpression": [
+        {
+          "text": "止",
+          "annotation": "とめ"
+        },
+        {
+          "text": "金",
+          "annotation": "がね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "clasp",
+        "latch",
+        "catch",
+        "fastener"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sluithaak",
+        "gesp",
+        "slot",
+        "haak",
+        "knip",
+        "kram"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verschluss",
+        "Schnalle",
+        "Schließe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kézszorítás",
+        "patent"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пряжка, застёжка"
+      ]
+    }
+  ]
+}

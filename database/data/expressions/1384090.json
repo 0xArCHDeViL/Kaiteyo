@@ -1,0 +1,117 @@
+{
+  "id": "1384090",
+  "readings": [
+    {
+      "kanaExpression": "きりくち",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "切り口",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "口",
+          "annotation": "くち"
+        }
+      ],
+      "rank": 10012
+    },
+    {
+      "kanjiExpression": "切口",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "口",
+          "annotation": "くち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "截り口",
+      "furiganaExpression": [
+        {
+          "text": "截",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "口",
+          "annotation": "くち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cut end",
+        "section",
+        "opening",
+        "slit",
+        "point of view",
+        "(different) perspective",
+        "new approach"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "snijvlak",
+        "snede",
+        "snee",
+        "opening",
+        "insnijding",
+        "keep",
+        "kerf",
+        "inkeping",
+        "insteek",
+        "benadering",
+        "perspectief",
+        "houwtechniek",
+        "{wisk.} doorsnede",
+        "{Jap.herald.} gestileerde doorsnede van een nashi",
+        "{dierk.} kirikuchi-zalmforel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schnitt",
+        "Schnittende",
+        "Anschnitt",
+        "Einschnitt",
+        "Schnittfläche",
+        "Schnittwunde",
+        "Öffnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ágazat",
+        "lemez",
+        "melléklet",
+        "rekesz",
+        "nyílás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "место обреза; разрез; пропил; зарубка; края раны"
+      ]
+    }
+  ]
+}

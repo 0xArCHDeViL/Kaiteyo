@@ -1,0 +1,68 @@
+{
+  "id": "1302360",
+  "readings": [
+    {
+      "kanaExpression": "さんじ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "参事",
+      "furiganaExpression": [
+        {
+          "text": "参",
+          "annotation": "さん"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "secretary",
+        "councillor",
+        "councilor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "raadsman",
+        "raad",
+        "gedeputeerde"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "employé à la Diète",
+        "secrétaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Berater",
+        "Rat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tanácsos",
+        "tanácstag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) советник"
+      ]
+    }
+  ]
+}

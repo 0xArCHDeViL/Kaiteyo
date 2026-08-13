@@ -1,0 +1,105 @@
+{
+  "id": "2005860",
+  "readings": [
+    {
+      "kanaExpression": "もういちど",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "もう一度",
+      "furiganaExpression": [
+        {
+          "text": "もう"
+        },
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 2258
+    },
+    {
+      "kanjiExpression": "もう１度",
+      "furiganaExpression": [
+        {
+          "text": "もう"
+        },
+        {
+          "text": "１",
+          "annotation": "いち"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "once more",
+        "again"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opnieuw",
+        "nogmaals",
+        "weer",
+        "nog eens",
+        "nog een keer",
+        "bis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "à nouveau",
+        "encore une fois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "noch einmal",
+        "wieder"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ezenfelül",
+        "ezután",
+        "ismét",
+        "megint",
+        "újfent",
+        "vissza-"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ещё раз"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "še enkrat"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ännu en gång"
+      ]
+    }
+  ]
+}

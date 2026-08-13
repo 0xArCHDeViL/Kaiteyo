@@ -1,0 +1,81 @@
+{
+  "id": "1636710",
+  "readings": [
+    {
+      "kanaExpression": "かわぞこ",
+      "rank": 28000
+    },
+    {
+      "kanaExpression": "かてい",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "川底",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "底",
+          "annotation": "ぞこ"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "河底",
+      "furiganaExpression": [
+        {
+          "text": "河",
+          "annotation": "かわ"
+        },
+        {
+          "text": "底",
+          "annotation": "ぞこ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "riverbed"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lit de rivière"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flussbett",
+        "Grund eines Flusses"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дно (ложе) реки",
+        "(кн.) дно реки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cauce",
+        "lecho (de un río)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "älvbädd"
+      ]
+    }
+  ]
+}

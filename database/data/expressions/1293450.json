@@ -1,0 +1,61 @@
+{
+  "id": "1293450",
+  "readings": [
+    {
+      "kanaExpression": "さいはん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "再犯",
+      "furiganaExpression": [
+        {
+          "text": "再",
+          "annotation": "さい"
+        },
+        {
+          "text": "犯",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "second offense",
+        "second offence",
+        "reoffending",
+        "recidivism"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "recidive",
+        "{jur.} herhaling van misdrijf",
+        "herhaling van een strafbaar feit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wiederholungstat",
+        "Rückfalltat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "повторное преступление, (юр.) рецидив"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reincidencia"
+      ]
+    }
+  ]
+}

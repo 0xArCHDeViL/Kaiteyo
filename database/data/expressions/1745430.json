@@ -1,0 +1,69 @@
+{
+  "id": "1745430",
+  "readings": [
+    {
+      "kanaExpression": "ゆうじ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "有事",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 11081
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "emergency"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitzonderingstoestand",
+        "geval van nood",
+        "noodtoestand",
+        "noodgeval",
+        "noodsituatie",
+        "calamiteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausnahmefall",
+        "Notfall",
+        "Notstand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szükségállapot",
+        "váratlan esemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) происшествие, событие; чрезвычайные обстоятельства"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "emergencia"
+      ]
+    }
+  ]
+}

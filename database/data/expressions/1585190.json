@@ -1,0 +1,73 @@
+{
+  "id": "1585190",
+  "readings": [
+    {
+      "kanaExpression": "りょうようじょ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "りょうようしょ"
+    },
+    {
+      "kanjiExpression": "療養所",
+      "furiganaExpression": [
+        {
+          "text": "療",
+          "annotation": "りょう"
+        },
+        {
+          "text": "養",
+          "annotation": "よう"
+        },
+        {
+          "text": "所",
+          "annotation": "じょ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sanatorium"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sanatorium",
+        "herstellingsoord",
+        "gezondheidskolonie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sanatorium"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sanatorium",
+        "Heilanstalt",
+        "Genesungsheim",
+        "Krankenheim"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) りょうよういん"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sanatorio"
+      ]
+    }
+  ]
+}

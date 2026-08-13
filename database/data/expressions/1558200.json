@@ -1,0 +1,47 @@
+{
+  "id": "1558200",
+  "readings": [
+    {
+      "kanaExpression": "れきせん",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "歴戦",
+      "furiganaExpression": [
+        {
+          "text": "歴",
+          "annotation": "れき"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "veteran (e.g. soldier)",
+        "battle-hardened",
+        "seasoned",
+        "(of) long military service"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "langer Militärdienst",
+        "Lebenslauf mit langem Wehrdienst"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) многолетняя боевая служба в войсках"
+      ]
+    }
+  ]
+}

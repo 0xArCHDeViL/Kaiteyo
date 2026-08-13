@@ -1,0 +1,57 @@
+{
+  "id": "1447060",
+  "readings": [
+    {
+      "kanaExpression": "なげいれる",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "投げ入れる",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "な"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to throw into",
+        "to dump in together"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hineinwerfen",
+        "einstecken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bedob"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) なげこむ"
+      ]
+    }
+  ]
+}

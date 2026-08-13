@@ -1,0 +1,108 @@
+{
+  "id": "1356610",
+  "readings": [
+    {
+      "kanaExpression": "じょうれい",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "条例",
+      "furiganaExpression": [
+        {
+          "text": "条",
+          "annotation": "じょう"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 4143
+    },
+    {
+      "kanjiExpression": "条令",
+      "furiganaExpression": [
+        {
+          "text": "条",
+          "annotation": "じょう"
+        },
+        {
+          "text": "令",
+          "annotation": "れい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "regulations",
+        "rules",
+        "(local) regulation",
+        "ordinance",
+        "bylaw",
+        "law"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "regel",
+        "voorschrift",
+        "bepaling",
+        "reglement",
+        "regeling",
+        "verordening",
+        "ordinantie",
+        "ordonnantie",
+        "decreet",
+        "besluit"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arrêté (préfectoral)",
+        "décret",
+        "ordonnance",
+        "règlement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorschrift",
+        "Satzung",
+        "Verordnung",
+        "Ordnung",
+        "Verordnung mit einzelnen Artikeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rendelet",
+        "utasítás",
+        "beigazítás",
+        "előírás",
+        "szabvány",
+        "szabványos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "правила, устав, [законо]положение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ordenanzas",
+        "reglas",
+        "reglamentos"
+      ]
+    }
+  ]
+}

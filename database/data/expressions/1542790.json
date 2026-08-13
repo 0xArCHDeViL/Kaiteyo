@@ -1,0 +1,91 @@
+{
+  "id": "1542790",
+  "readings": [
+    {
+      "kanaExpression": "ゆうがた",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "夕方",
+      "furiganaExpression": [
+        {
+          "text": "夕",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "方",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 2179
+    },
+    {
+      "kanjiExpression": "夕がた",
+      "furiganaExpression": [
+        {
+          "text": "夕",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "がた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "early evening (usu. from 3pm to 6pm)",
+        "dusk"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "avond"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "soir",
+        "soirée",
+        "crépuscule"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abend",
+        "am Abend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "este"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вечер, сумерки",
+        "{～[に]} под вечер; вечером"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "večer"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tarde",
+        "noche"
+      ]
+    }
+  ]
+}

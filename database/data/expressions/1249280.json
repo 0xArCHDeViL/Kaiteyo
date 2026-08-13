@@ -1,0 +1,66 @@
+{
+  "id": "1249280",
+  "readings": [
+    {
+      "kanaExpression": "かかりかん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "係官",
+      "furiganaExpression": [
+        {
+          "text": "係",
+          "annotation": "かかり"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "係り官",
+      "furiganaExpression": [
+        {
+          "text": "係",
+          "annotation": "かか"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "official in charge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bevoegde ambtenaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zuständiger Beamter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ügyintéző tisztviselő",
+        "ügyintéző"
+      ]
+    }
+  ]
+}

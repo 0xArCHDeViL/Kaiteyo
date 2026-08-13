@@ -1,0 +1,65 @@
+{
+  "id": "1794380",
+  "readings": [
+    {
+      "kanaExpression": "さまがわり",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "様変わり",
+      "furiganaExpression": [
+        {
+          "text": "様",
+          "annotation": "さま"
+        },
+        {
+          "text": "変",
+          "annotation": "が"
+        },
+        {
+          "text": "わり"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "様変り",
+      "furiganaExpression": [
+        {
+          "text": "様",
+          "annotation": "さま"
+        },
+        {
+          "text": "変",
+          "annotation": "がわ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "changing completely",
+        "transformation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das Aussehen verändern",
+        "die Form verändern",
+        "völlige Veränderung (von Aussehen, Form)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cambio completo"
+      ]
+    }
+  ]
+}

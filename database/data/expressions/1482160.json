@@ -1,0 +1,75 @@
+{
+  "id": "1482160",
+  "readings": [
+    {
+      "kanaExpression": "ばんさん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "晩餐",
+      "furiganaExpression": [
+        {
+          "text": "晩",
+          "annotation": "ばん"
+        },
+        {
+          "text": "餐",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 14787
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dinner (esp. a formal one)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "avondeten",
+        "avondmaal",
+        "souper",
+        "{Ind.N.} avondtafel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dinner",
+        "Diner",
+        "Souper",
+        "festliches Abendessen",
+        "Abendmahl",
+        "Abendtafel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vacsora"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "банкет, званый обед (ужин)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cena"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "diné"
+      ]
+    }
+  ]
+}

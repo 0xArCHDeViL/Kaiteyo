@@ -1,0 +1,83 @@
+{
+  "id": "1442370",
+  "readings": [
+    {
+      "kanaExpression": "でんぱ",
+      "rank": 17500
+    },
+    {
+      "kanaExpression": "でんぱん"
+    },
+    {
+      "kanjiExpression": "伝播",
+      "furiganaExpression": [
+        {
+          "text": "伝",
+          "annotation": "でん"
+        },
+        {
+          "text": "播",
+          "annotation": "ぱ"
+        }
+      ],
+      "rank": 12186
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "transmission",
+        "propagation",
+        "spread",
+        "circulation",
+        "diffusion",
+        "dissemination"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich verbreiden",
+        "zich verspreiden",
+        "zich uitzaaien",
+        "verbreiding",
+        "verspreiding",
+        "verstrooiing",
+        "propagatie",
+        "diffusie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Übertragung",
+        "Verbreitung",
+        "Ausbreitung",
+        "sich übertragen",
+        "sich verbreiten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "terjesztés",
+        "elterjesztés",
+        "kiterjesztés",
+        "szórás",
+        "terjedelem",
+        "terjedés",
+        "szétszórás",
+        "szétszóródás",
+        "szóródás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "распространение, передача",
+        "{～する} распространяться, передаваться (от одного к другому)"
+      ]
+    }
+  ]
+}

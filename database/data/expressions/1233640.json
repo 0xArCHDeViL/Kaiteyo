@@ -1,0 +1,48 @@
+{
+  "id": "1233640",
+  "readings": [
+    {
+      "kanaExpression": "きょうきゅうげん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "供給源",
+      "furiganaExpression": [
+        {
+          "text": "供",
+          "annotation": "きょう"
+        },
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "源",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "source of supply"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Versorgungsquelle",
+        "Bezugsquelle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "источник снабжения"
+      ]
+    }
+  ]
+}

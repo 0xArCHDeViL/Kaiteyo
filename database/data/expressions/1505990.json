@@ -1,0 +1,121 @@
+{
+  "id": "1505990",
+  "readings": [
+    {
+      "kanaExpression": "しかし",
+      "rank": 160
+    },
+    {
+      "kanaExpression": "しっかし"
+    },
+    {
+      "kanjiExpression": "然し",
+      "furiganaExpression": [
+        {
+          "text": "然",
+          "annotation": "しか"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "併し",
+      "furiganaExpression": [
+        {
+          "text": "併",
+          "annotation": "しか"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "however",
+        "but"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maar",
+        "doch",
+        "{arch.",
+        "iron.} edoch",
+        "echter",
+        "evenwel",
+        "toch",
+        "nochtans",
+        "niettemin",
+        "desondanks",
+        "nu",
+        "luister eens",
+        "zeg",
+        "goh"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cependant",
+        "mais",
+        "néanmoins",
+        "pourtant",
+        "toutefois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aber",
+        "jedoch",
+        "doch",
+        "indessen",
+        "allein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "akárhogyan",
+        "bármennyire",
+        "csupán",
+        "de",
+        "hanem",
+        "kivéve",
+        "legalább"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "однако",
+        "но"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "toda",
+        "vendar",
+        "ampak",
+        "kljub temu"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "de cualquier modo",
+        "como quiera que",
+        "pero",
+        "sin embargo"
+      ]
+    }
+  ]
+}

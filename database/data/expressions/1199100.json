@@ -1,0 +1,49 @@
+{
+  "id": "1199100",
+  "readings": [
+    {
+      "kanaExpression": "かいぞうど",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "解像度",
+      "furiganaExpression": [
+        {
+          "text": "解",
+          "annotation": "かい"
+        },
+        {
+          "text": "像",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 10946
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "resolution (of a display, printer, scanner, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Auflösung (z. B. Foto od. Bildschirm)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "döntés",
+        "elhatározás",
+        "határozat"
+      ]
+    }
+  ]
+}

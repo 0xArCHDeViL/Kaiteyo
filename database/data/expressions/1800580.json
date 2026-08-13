@@ -1,0 +1,54 @@
+{
+  "id": "1800580",
+  "readings": [
+    {
+      "kanaExpression": "ちょうもん",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "聴聞",
+      "furiganaExpression": [
+        {
+          "text": "聴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "聞",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "listening",
+        "hearing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "anhören",
+        "Anhörung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hallás",
+        "kihallgatás",
+        "meghallgatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) выслушивание",
+        "{～する} слушать, внимать"
+      ]
+    }
+  ]
+}

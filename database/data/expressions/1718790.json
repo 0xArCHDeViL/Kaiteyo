@@ -1,0 +1,48 @@
+{
+  "id": "1718790",
+  "readings": [
+    {
+      "kanaExpression": "くるまだい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "車代",
+      "furiganaExpression": [
+        {
+          "text": "車",
+          "annotation": "くるま"
+        },
+        {
+          "text": "代",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cost of a car",
+        "carfare",
+        "honorarium (to cover transportation costs)",
+        "travel expenses (customarily given by wedding hosts to guests who have travelled from afar)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fahrgeld",
+        "Honorar",
+        "kleine Aufmerksamkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) くるまちん"
+      ]
+    }
+  ]
+}

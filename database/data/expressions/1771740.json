@@ -1,0 +1,37 @@
+{
+  "id": "1771740",
+  "readings": [
+    {
+      "kanaExpression": "ぞうびん",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "増便",
+      "furiganaExpression": [
+        {
+          "text": "増",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "便",
+          "annotation": "びん"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "increase in the number of flights"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erhöhung der Zahl der Flüge"
+      ]
+    }
+  ]
+}

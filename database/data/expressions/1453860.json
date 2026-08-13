@@ -1,0 +1,80 @@
+{
+  "id": "1453860",
+  "readings": [
+    {
+      "kanaExpression": "どうくつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "洞窟",
+      "furiganaExpression": [
+        {
+          "text": "洞",
+          "annotation": "どう"
+        },
+        {
+          "text": "窟",
+          "annotation": "くつ"
+        }
+      ],
+      "rank": 9400
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cave",
+        "cavern",
+        "grotto"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grot",
+        "hol",
+        "spelonk",
+        "holte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "caverne",
+        "grotte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Höhle",
+        "Grotte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "üreg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пещера, грот"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cueva"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "grotta"
+      ]
+    }
+  ]
+}

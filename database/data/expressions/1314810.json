@@ -1,0 +1,51 @@
+{
+  "id": "1314810",
+  "readings": [
+    {
+      "kanaExpression": "じい",
+      "rank": 14929
+    },
+    {
+      "kanjiExpression": "侍医",
+      "furiganaExpression": [
+        {
+          "text": "侍",
+          "annotation": "じ"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "court physician"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "médecin de la cour",
+        "médecin du roi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leibarzt",
+        "Hofarzt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лейб-медик"
+      ]
+    }
+  ]
+}

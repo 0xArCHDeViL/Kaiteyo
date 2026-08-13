@@ -1,0 +1,67 @@
+{
+  "id": "1243450",
+  "readings": [
+    {
+      "kanaExpression": "ぎんか",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "銀貨",
+      "furiganaExpression": [
+        {
+          "text": "銀",
+          "annotation": "ぎん"
+        },
+        {
+          "text": "貨",
+          "annotation": "か"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "silver coin"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zilverstuk",
+        "stuk zilvergeld",
+        "zilveren munt",
+        "zilvermunt",
+        "witgeld",
+        "{bijb.} zilverling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pièce d\u0027argent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Silbermünze"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "серебряная монета, серебро (деньги)",
+        "{～で} серебром"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "moneda de plata"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "1515280",
+  "readings": [
+    {
+      "kanaExpression": "ほうきゅう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "俸給",
+      "furiganaExpression": [
+        {
+          "text": "俸",
+          "annotation": "ほう"
+        },
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "salary (esp. public employees)",
+        "wages",
+        "pay"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "loon",
+        "salaris",
+        "wedde",
+        "honorarium"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "salaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gehalt",
+        "Lohn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fizetség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жалованье; денежное содержание"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sueldo",
+        "salario",
+        "paga"
+      ]
+    }
+  ]
+}

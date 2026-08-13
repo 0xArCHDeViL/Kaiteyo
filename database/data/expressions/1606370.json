@@ -1,0 +1,95 @@
+{
+  "id": "1606370",
+  "readings": [
+    {
+      "kanaExpression": "るいけい",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "類型",
+      "furiganaExpression": [
+        {
+          "text": "類",
+          "annotation": "るい"
+        },
+        {
+          "text": "型",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 9411
+    },
+    {
+      "kanjiExpression": "類形",
+      "furiganaExpression": [
+        {
+          "text": "類",
+          "annotation": "るい"
+        },
+        {
+          "text": "形",
+          "annotation": "けい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "type",
+        "pattern",
+        "shape",
+        "genre",
+        "breed",
+        "similar type",
+        "similar pattern"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "type",
+        "stereotype"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "forme identique",
+        "modèle",
+        "type similaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Typ",
+        "Typus",
+        "Grundform"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "séma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тип; трафарет",
+        "{～的} стереотипный, шаблонный",
+        "(биол.) сходство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "categoría",
+        "clase",
+        "estereotipo"
+      ]
+    }
+  ]
+}

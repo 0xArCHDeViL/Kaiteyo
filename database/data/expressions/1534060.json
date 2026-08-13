@@ -1,0 +1,58 @@
+{
+  "id": "1534060",
+  "readings": [
+    {
+      "kanaExpression": "もうだ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "猛打",
+      "furiganaExpression": [
+        {
+          "text": "猛",
+          "annotation": "もう"
+        },
+        {
+          "text": "打",
+          "annotation": "だ"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heavy blow",
+        "heavy hit"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "coup dur",
+        "période difficile"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heftiger Schlag",
+        "schwerer Schlag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erős ütés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) сильный удар"
+      ]
+    }
+  ]
+}

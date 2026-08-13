@@ -1,0 +1,44 @@
+{
+  "id": "1244150",
+  "readings": [
+    {
+      "kanaExpression": "くけん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "区検",
+      "furiganaExpression": [
+        {
+          "text": "区",
+          "annotation": "く"
+        },
+        {
+          "text": "検",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "local prosecutor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Amtsstaatsanwaltschaft",
+        "Bezirksstaatsanwaltschaft (Abk.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "районный прокурор"
+      ]
+    }
+  ]
+}

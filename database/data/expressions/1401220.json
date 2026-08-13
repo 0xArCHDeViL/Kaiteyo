@@ -1,0 +1,147 @@
+{
+  "id": "1401220",
+  "readings": [
+    {
+      "kanaExpression": "あいづち",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "あいずち"
+    },
+    {
+      "kanjiExpression": "相槌",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "あい"
+        },
+        {
+          "text": "槌",
+          "annotation": "づち"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "相づち",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "あい"
+        },
+        {
+          "text": "づち"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "相鎚",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "あい"
+        },
+        {
+          "text": "鎚",
+          "annotation": "づち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "合槌",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "あい"
+        },
+        {
+          "text": "槌",
+          "annotation": "づち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "合づち",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "あい"
+        },
+        {
+          "text": "づち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "合鎚",
+      "furiganaExpression": [
+        {
+          "text": "合",
+          "annotation": "あい"
+        },
+        {
+          "text": "鎚",
+          "annotation": "づち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "aizuchi",
+        "backchanneling",
+        "interjections indicating that one is paying attention",
+        "two smiths hammering at an object in turn"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het om beurten met een moker slaan",
+        "beurtelings gemoker",
+        "gehamer",
+        "{fig.} respons",
+        "beantwoording",
+        "resonantie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "approbation",
+        "assentiment",
+        "sons émis au cours d\u0027une conversation pour indiquer la compréhension"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abwechselnder Hammerschlag beim Schmieden",
+        "eingeschobene akustische oder gestische Rückmeldung des Hörers an den Sprecher"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:) 相槌を打つ поддакивать, вторить"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pritrjevanje",
+        "glasovi v premorih med pogovorom"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "respuesta",
+        "réplica"
+      ]
+    }
+  ]
+}

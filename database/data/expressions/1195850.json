@@ -1,0 +1,93 @@
+{
+  "id": "1195850",
+  "readings": [
+    {
+      "kanaExpression": "かてい",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "課程",
+      "furiganaExpression": [
+        {
+          "text": "課",
+          "annotation": "か"
+        },
+        {
+          "text": "程",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 5288
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "course",
+        "curriculum"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "cursus",
+        "curriculum",
+        "leergang",
+        "studietraject",
+        "opleiding",
+        "{maatwoord voor leergangen",
+        "curricula}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cursus",
+        "curriculum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kursus",
+        "Lehrgang",
+        "Lehrplan",
+        "Curriculum",
+        "Studium",
+        "Studiengang"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előadássorozat",
+        "irány",
+        "kúra",
+        "kurzus",
+        "téglasor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "курс (науки, учебного заведения и т. п.), программа"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "študij",
+        "učni načrt",
+        "program na podiplomskem študiju"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "curso",
+        "currículo"
+      ]
+    }
+  ]
+}

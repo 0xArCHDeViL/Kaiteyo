@@ -1,0 +1,127 @@
+{
+  "id": "2803510",
+  "readings": [
+    {
+      "kanaExpression": "まちづくり",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "街づくり",
+      "furiganaExpression": [
+        {
+          "text": "街",
+          "annotation": "まち"
+        },
+        {
+          "text": "づくり"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "町づくり",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "まち"
+        },
+        {
+          "text": "づくり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "街作り",
+      "furiganaExpression": [
+        {
+          "text": "街",
+          "annotation": "まち"
+        },
+        {
+          "text": "作",
+          "annotation": "づく"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "町作り",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "まち"
+        },
+        {
+          "text": "作",
+          "annotation": "づく"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "街造り",
+      "furiganaExpression": [
+        {
+          "text": "街",
+          "annotation": "まち"
+        },
+        {
+          "text": "造",
+          "annotation": "づく"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "町造り",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "まち"
+        },
+        {
+          "text": "造",
+          "annotation": "づく"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "town planning",
+        "urban development",
+        "community development",
+        "creating a community"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stadsplanning",
+        "stedenbouw",
+        "stadsaanleg",
+        "buurtopbouwwerk",
+        "{i.h.b.} stadsverbetering",
+        "stadssanering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Städtebau",
+        "Stadterneuerung (Stadtplanung auf der Mikroebene mit Bottom-up-Ansatz)"
+      ]
+    }
+  ]
+}

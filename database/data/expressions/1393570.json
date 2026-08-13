@@ -1,0 +1,46 @@
+{
+  "id": "1393570",
+  "readings": [
+    {
+      "kanaExpression": "ぜんだい",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "前代",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "代",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "previous generation",
+        "former ages"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorzeit",
+        "vorheriges Zeitalter",
+        "vorhergehende Generation"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прежние времена (века, поколения)"
+      ]
+    }
+  ]
+}

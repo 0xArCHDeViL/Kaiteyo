@@ -1,0 +1,72 @@
+{
+  "id": "1027750",
+  "readings": [
+    {
+      "kanaExpression": "エキス",
+      "rank": 11908
+    },
+    {
+      "kanjiExpression": "越幾斯",
+      "furiganaExpression": [
+        {
+          "text": "越",
+          "annotation": "エ"
+        },
+        {
+          "text": "幾",
+          "annotation": "キ"
+        },
+        {
+          "text": "斯",
+          "annotation": "ス"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "extract (of plants, meat, etc.)",
+        "essence",
+        "concentrate",
+        "concentrated stock"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "extract",
+        "aftreksel",
+        "essence",
+        "concentraat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Extrakt",
+        "Essenz",
+        "Auszug"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eszencia",
+        "extrakt",
+        "extraktum",
+        "párlat",
+        "szemelvény",
+        "illatszer"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "extracto (de comida, fruta, etc.)",
+        "esencia"
+      ]
+    }
+  ]
+}

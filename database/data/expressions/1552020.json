@@ -1,0 +1,80 @@
+{
+  "id": "1552020",
+  "readings": [
+    {
+      "kanaExpression": "りゃくしゅ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "略取",
+      "furiganaExpression": [
+        {
+          "text": "略",
+          "annotation": "りゃく"
+        },
+        {
+          "text": "取",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "掠取",
+      "furiganaExpression": [
+        {
+          "text": "掠",
+          "annotation": "りゃく"
+        },
+        {
+          "text": "取",
+          "annotation": "しゅ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "capture",
+        "looting",
+        "plundering",
+        "abduction (using violence or threats)",
+        "kidnapping"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "plündern",
+        "erobern",
+        "rauben",
+        "entführen",
+        "Plündern",
+        "Erobern",
+        "Rauben",
+        "Entführung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erőszakos megszöktetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) захват",
+        "{～する} захватывать"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kvinnorov"
+      ]
+    }
+  ]
+}

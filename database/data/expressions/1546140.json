@@ -1,0 +1,103 @@
+{
+  "id": "1546140",
+  "readings": [
+    {
+      "kanaExpression": "ようざい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "溶剤",
+      "furiganaExpression": [
+        {
+          "text": "溶",
+          "annotation": "よう"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "溶材",
+      "furiganaExpression": [
+        {
+          "text": "溶",
+          "annotation": "よう"
+        },
+        {
+          "text": "材",
+          "annotation": "ざい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "熔剤",
+      "furiganaExpression": [
+        {
+          "text": "熔",
+          "annotation": "よう"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "solvent",
+        "solution",
+        "flux",
+        "hot charge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} solvent",
+        "oplosmiddel",
+        "oplossend middel",
+        "vloeimiddel",
+        "smeltmiddel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lösungsmittel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fizetőképes",
+        "oldó",
+        "megoldás",
+        "oldás",
+        "állandó mozgás",
+        "állandó változás",
+        "fluxus",
+        "folyadékmozgás",
+        "folyósító szer",
+        "salakosító adalékanyag",
+        "oldószer",
+        "feloldó",
+        "hitelképes",
+        "oldható",
+        "oldóképes"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lösningsmedel",
+        "solvent"
+      ]
+    }
+  ]
+}

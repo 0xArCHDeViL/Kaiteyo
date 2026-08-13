@@ -1,0 +1,61 @@
+{
+  "id": "1242790",
+  "readings": [
+    {
+      "kanaExpression": "かなぐ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "金具",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "かな"
+        },
+        {
+          "text": "具",
+          "annotation": "ぐ"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "metal fittings",
+        "metal fixtures"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beslag",
+        "fittings",
+        "fittingen",
+        "metalen stukken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "armature",
+        "ferrures"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beschlag",
+        "Metallbeschlag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "металлические принадлежности; металлическая арматура"
+      ]
+    }
+  ]
+}

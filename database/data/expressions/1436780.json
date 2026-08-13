@@ -1,0 +1,66 @@
+{
+  "id": "1436780",
+  "readings": [
+    {
+      "kanaExpression": "ていしん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "逓信",
+      "furiganaExpression": [
+        {
+          "text": "逓",
+          "annotation": "てい"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "communications (e.g. post, telegraph)",
+        "Ministry of Communications and Transportation (dissolved in 1949)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "communicatie",
+        "communicatiemiddelen",
+        "postwezen",
+        "posterijen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "communications ([moyen de] ex :postes, télécommunications)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kommunikation",
+        "Postwesen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "értesítő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "связь (почтовая, телеграфная и т. п.)"
+      ]
+    }
+  ]
+}

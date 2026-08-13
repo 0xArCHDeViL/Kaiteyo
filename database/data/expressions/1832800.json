@@ -1,0 +1,53 @@
+{
+  "id": "1832800",
+  "readings": [
+    {
+      "kanaExpression": "しょくむしつもん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "職務質問",
+      "furiganaExpression": [
+        {
+          "text": "職",
+          "annotation": "しょく"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "police questioning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "polizeiliche Befragung",
+        "Polizeikontrolle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полицейская проверка, полицейский опрос (подозрительных прохожих и т. п.); облава",
+        "{～する} производить полицейскую проверку (облаву)"
+      ]
+    }
+  ]
+}

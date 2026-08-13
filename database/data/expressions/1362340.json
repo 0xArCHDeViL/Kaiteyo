@@ -1,0 +1,76 @@
+{
+  "id": "1362340",
+  "readings": [
+    {
+      "kanaExpression": "しんぷ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "新婦",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "婦",
+          "annotation": "ぷ"
+        }
+      ],
+      "rank": 13881
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bride"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bruid",
+        "jonggehuwde",
+        "pasgehuwde",
+        "pasgetrouwde",
+        "nieuwgetrouwde",
+        "ondertrouwde",
+        "nupturiënte",
+        "{w.g.} trouwster",
+        "{volkst.} kalle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Braut"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fiatalasszony",
+        "menyasszony"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "новобрачная"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "novia (casamiento)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "brud"
+      ]
+    }
+  ]
+}

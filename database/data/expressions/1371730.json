@@ -1,0 +1,67 @@
+{
+  "id": "1371730",
+  "readings": [
+    {
+      "kanaExpression": "すいせい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "水星",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "星",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Mercury (planet)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{astron.} Mercurius"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "Mercure (planète)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Merkur (innerster Planet unseres Sonnensystems)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "higany"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(астр.) Меркурий"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Mercurio (planeta)"
+      ]
+    }
+  ]
+}

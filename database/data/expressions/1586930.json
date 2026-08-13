@@ -1,0 +1,82 @@
+{
+  "id": "1586930",
+  "readings": [
+    {
+      "kanaExpression": "あんず",
+      "rank": 26573
+    },
+    {
+      "kanaExpression": "アンズ"
+    },
+    {
+      "kanjiExpression": "杏",
+      "furiganaExpression": [
+        {
+          "text": "杏",
+          "annotation": "あんず"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "杏子",
+      "furiganaExpression": [
+        {
+          "text": "杏",
+          "annotation": "あん"
+        },
+        {
+          "text": "子",
+          "annotation": "ず"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "apricot (Prunus armeniaca)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} abrikoos",
+        "abrikozenboom",
+        "Prunus armeniaca",
+        "abrikozenvrucht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aprikose",
+        "Prunus armeniaca"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kajszi",
+        "sárgabarack"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "абрикос андзу, Prunus armeniaca (L.) var. ansu (Maxim.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(comida) albaricoque",
+        "damasco",
+        "chabacano",
+        "albaricoque",
+        "árbol de albaricoque"
+      ]
+    }
+  ]
+}

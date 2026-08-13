@@ -1,0 +1,63 @@
+{
+  "id": "1548070",
+  "readings": [
+    {
+      "kanaExpression": "らいせ",
+      "rank": 33500
+    },
+    {
+      "kanaExpression": "らいせい"
+    },
+    {
+      "kanjiExpression": "来世",
+      "furiganaExpression": [
+        {
+          "text": "来",
+          "annotation": "らい"
+        },
+        {
+          "text": "世",
+          "annotation": "せ"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "afterlife",
+        "the next world",
+        "the world beyond"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{boeddh.} leven na de dood",
+        "hiernamaals",
+        "andere wereld"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das Leben nach der Wiedergeburt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "leszármazottak",
+        "utókor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(буд.) будущая (загробная) жизнь"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "1412640",
+  "readings": [
+    {
+      "kanaExpression": "だいどころ",
+      "rank": 18500
+    },
+    {
+      "kanaExpression": "だいどこ"
+    },
+    {
+      "kanjiExpression": "台所",
+      "furiganaExpression": [
+        {
+          "text": "台",
+          "annotation": "だい"
+        },
+        {
+          "text": "所",
+          "annotation": "どころ"
+        }
+      ],
+      "rank": 6900
+    },
+    {
+      "kanjiExpression": "臺處",
+      "furiganaExpression": [
+        {
+          "text": "臺",
+          "annotation": "だい"
+        },
+        {
+          "text": "處",
+          "annotation": "どころ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "kitchen",
+        "financial situation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keuken",
+        "financiële situatie",
+        "{fig.} portemonnee"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cuisine",
+        "situation financière"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Küche",
+        "Familienbudget",
+        "Haushalt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "konyha"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кухня"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kuhinja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cocina"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kök"
+      ]
+    }
+  ]
+}

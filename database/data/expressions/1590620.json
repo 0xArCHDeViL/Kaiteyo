@@ -1,0 +1,84 @@
+{
+  "id": "1590620",
+  "readings": [
+    {
+      "kanaExpression": "かや",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "かちょう",
+      "rank": 16000
+    },
+    {
+      "kanaExpression": "ぶんちょう"
+    },
+    {
+      "kanjiExpression": "蚊帳",
+      "furiganaExpression": [
+        {
+          "text": "蚊帳",
+          "annotation": "かや"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "蚊屋",
+      "furiganaExpression": [
+        {
+          "text": "蚊",
+          "annotation": "か"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mosquito net"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "klamboe",
+        "muggengordijn",
+        "muggennet",
+        "muggenscherm",
+        "muggendoek",
+        "muskietennet",
+        "muskietentule",
+        "muskietengaas"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "moustiquaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Moskitonetz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сетка (полог) от москитов"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mosquitera"
+      ]
+    }
+  ]
+}

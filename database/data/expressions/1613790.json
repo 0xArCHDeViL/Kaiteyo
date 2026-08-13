@@ -1,0 +1,86 @@
+{
+  "id": "1613790",
+  "readings": [
+    {
+      "kanaExpression": "ひつけやく",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "火付け役",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "ひ"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "役",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "火つけ役",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "ひ"
+        },
+        {
+          "text": "つけ"
+        },
+        {
+          "text": "役",
+          "annotation": "やく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "instigator",
+        "originator",
+        "initiator",
+        "torch bearer",
+        "incendiary",
+        "agitator",
+        "troublemaker"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unruhestifter",
+        "geistiger Brandstifter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felbujtó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(перен.) поджигатель, подстрекатель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "instigador",
+        "agitador"
+      ]
+    }
+  ]
+}

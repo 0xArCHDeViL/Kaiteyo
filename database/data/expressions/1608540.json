@@ -1,0 +1,93 @@
+{
+  "id": "1608540",
+  "readings": [
+    {
+      "kanaExpression": "かたりぐさ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "語り草",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "かた"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "草",
+          "annotation": "ぐさ"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "語り種",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "かた"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "種",
+          "annotation": "ぐさ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "語りぐさ",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "かた"
+        },
+        {
+          "text": "りぐさ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "story",
+        "topic (on everyone\u0027s lips)",
+        "(the stuff of) legend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesprächsthema",
+        "Gesprächsstoff",
+        "Stoff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anekdota",
+        "emelet",
+        "emeletsor",
+        "füllentés",
+        "história",
+        "novella",
+        "sztori",
+        "történelem",
+        "történet",
+        "tréfás történet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) тема разговора, предмет обсуждения"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "1501610",
+  "readings": [
+    {
+      "kanaExpression": "はらいもどす",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "払い戻す",
+      "furiganaExpression": [
+        {
+          "text": "払",
+          "annotation": "はら"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "戻",
+          "annotation": "もど"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "払戻す",
+      "furiganaExpression": [
+        {
+          "text": "払",
+          "annotation": "はらい"
+        },
+        {
+          "text": "戻",
+          "annotation": "もど"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to repay",
+        "to pay back",
+        "to refund",
+        "to reimburse"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "terugbetalen",
+        "restitueren",
+        "retribueren",
+        "teruggeven",
+        "rembourseren",
+        "{i.h.b.} terugboeken",
+        "{i.h.b.} terugstorten",
+        "vergoeden",
+        "aflossen",
+        "{tegoeden} uitbetalen",
+        "{z\u0027n deposito} opnemen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rembourser"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurückzahlen",
+        "rückzahlen",
+        "auszahlen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "visszafizet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возвращать обратно (деньги)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reembolsar",
+        "pagar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "återbetala"
+      ]
+    }
+  ]
+}

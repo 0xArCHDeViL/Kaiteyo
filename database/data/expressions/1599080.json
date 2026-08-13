@@ -1,0 +1,131 @@
+{
+  "id": "1599080",
+  "readings": [
+    {
+      "kanaExpression": "とりしらべ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "取り調べ",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "調",
+          "annotation": "しら"
+        },
+        {
+          "text": "べ"
+        }
+      ],
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "取調べ",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "調",
+          "annotation": "しら"
+        },
+        {
+          "text": "べ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "取調",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "調",
+          "annotation": "しらべ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "investigation (e.g. by police or prosecutors)",
+        "examination",
+        "inquiry",
+        "enquiry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onderzoek",
+        "navorsing",
+        "nasporing",
+        "naspeuring",
+        "investigatie",
+        "ondervraging",
+        "verhoor"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "enquêter",
+        "examiner",
+        "investiguer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Untersuchung",
+        "Verhör"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adatgyűjtés",
+        "kutatás",
+        "nyomozás",
+        "tanulmányozás",
+        "vizsgálat",
+        "vizsgálódás",
+        "vizsga",
+        "érdeklődés",
+        "tudakozódás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "расследование, выяснение; (юр.) следствие"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "raziskava"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "investigación",
+        "indagación",
+        "averiguación"
+      ]
+    }
+  ]
+}

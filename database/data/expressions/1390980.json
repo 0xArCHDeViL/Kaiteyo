@@ -1,0 +1,108 @@
+{
+  "id": "1390980",
+  "readings": [
+    {
+      "kanaExpression": "せんたく",
+      "rank": 16500
+    },
+    {
+      "kanaExpression": "せんだく"
+    },
+    {
+      "kanjiExpression": "洗濯",
+      "furiganaExpression": [
+        {
+          "text": "洗",
+          "annotation": "せん"
+        },
+        {
+          "text": "濯",
+          "annotation": "たく"
+        }
+      ],
+      "rank": 3565
+    },
+    {
+      "kanjiExpression": "洗たく",
+      "furiganaExpression": [
+        {
+          "text": "洗",
+          "annotation": "せん"
+        },
+        {
+          "text": "たく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "washing",
+        "laundry",
+        "relaxation",
+        "rejuvenation",
+        "melting away (of worries, fatigue, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wassen",
+        "de was doen",
+        "was",
+        "het wassen",
+        "wasserij"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "blanchissage",
+        "lavage",
+        "lessive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "waschen",
+        "Wäsche waschen",
+        "Wäsche",
+        "Waschen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mosókonyha",
+        "szennyes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стирка",
+        "{～する} стирать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "perilo",
+        "pranje",
+        "prati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lavar la ropa",
+        "hacer la colada",
+        "lavado",
+        "colada"
+      ]
+    }
+  ]
+}

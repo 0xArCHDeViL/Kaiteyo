@@ -1,0 +1,44 @@
+{
+  "id": "1459620",
+  "readings": [
+    {
+      "kanaExpression": "ないこう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "内訌",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "訌",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "internal discord",
+        "domestic discord"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "interner Zwist",
+        "interne Verwicklungen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутренние разногласия (неурядицы)"
+      ]
+    }
+  ]
+}

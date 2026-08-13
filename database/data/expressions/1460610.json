@@ -1,0 +1,64 @@
+{
+  "id": "1460610",
+  "readings": [
+    {
+      "kanaExpression": "なんぼくせんそう",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "南北戦争",
+      "furiganaExpression": [
+        {
+          "text": "南",
+          "annotation": "なん"
+        },
+        {
+          "text": "北",
+          "annotation": "ぼく"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "争",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "American Civil War (1861-1865)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "der amerikanische Sezessionskrieg",
+        "der amerikanische Bürgerkrieg (1861-1865)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "polgárháború"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(EUA) Guerra Civil"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "inbördeskrig"
+      ]
+    }
+  ]
+}

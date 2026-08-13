@@ -1,0 +1,43 @@
+{
+  "id": "1688480",
+  "readings": [
+    {
+      "kanaExpression": "よみきかせる",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "読み聞かせる",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "聞",
+          "annotation": "き"
+        },
+        {
+          "text": "かせる"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to read aloud to another"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vorlesen"
+      ]
+    }
+  ]
+}

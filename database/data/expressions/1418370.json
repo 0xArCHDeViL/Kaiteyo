@@ -1,0 +1,79 @@
+{
+  "id": "1418370",
+  "readings": [
+    {
+      "kanaExpression": "たんちき",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "探知機",
+      "furiganaExpression": [
+        {
+          "text": "探",
+          "annotation": "たん"
+        },
+        {
+          "text": "知",
+          "annotation": "ち"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "探知器",
+      "furiganaExpression": [
+        {
+          "text": "探",
+          "annotation": "たん"
+        },
+        {
+          "text": "知",
+          "annotation": "ち"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "detector",
+        "locator"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Detektor",
+        "Sucher"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érzékelő",
+        "detektor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прибор для обнаружения (чего-л.); (сокр.) пеленгатор, миноискатель, радар (и т. п.)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "detektor"
+      ]
+    }
+  ]
+}

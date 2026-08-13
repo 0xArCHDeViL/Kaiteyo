@@ -1,0 +1,91 @@
+{
+  "id": "1192820",
+  "readings": [
+    {
+      "kanaExpression": "ひまつぶし",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "暇つぶし",
+      "furiganaExpression": [
+        {
+          "text": "暇",
+          "annotation": "ひま"
+        },
+        {
+          "text": "つぶし"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "暇潰し",
+      "furiganaExpression": [
+        {
+          "text": "暇",
+          "annotation": "ひま"
+        },
+        {
+          "text": "潰",
+          "annotation": "つぶ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "waste of time",
+        "killing time"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "perte de temps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeitvertreib",
+        "Zeitvergeudung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "időpazarlás",
+        "időpocsékolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пустая трата времени",
+        "{～をする} убивать (попусту терять) время",
+        "{～に} чтобы убить (как-нибудь заполнить) время"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "krajšati si čas",
+        "kratkočasenje",
+        "zapravljanje časa"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pérdida de tiempo",
+        "matar el tiempo"
+      ]
+    }
+  ]
+}

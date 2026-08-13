@@ -1,0 +1,51 @@
+{
+  "id": "1234280",
+  "readings": [
+    {
+      "kanaExpression": "きょうえい",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "共栄",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "きょう"
+        },
+        {
+          "text": "栄",
+          "annotation": "えい"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mutual prosperity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beiderseitiger Nutzen",
+        "beiderseitiger Vorteil",
+        "beiderseitiges Wohlergehen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "совместное процветание"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "prosperidad mutua"
+      ]
+    }
+  ]
+}

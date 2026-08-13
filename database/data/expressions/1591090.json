@@ -1,0 +1,101 @@
+{
+  "id": "1591090",
+  "readings": [
+    {
+      "kanaExpression": "きぎ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "木々",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "き"
+        },
+        {
+          "text": "々",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 9722
+    },
+    {
+      "kanjiExpression": "木木",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "き"
+        },
+        {
+          "text": "木",
+          "annotation": "ぎ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "樹々",
+      "furiganaExpression": [
+        {
+          "text": "樹",
+          "annotation": "き"
+        },
+        {
+          "text": "々",
+          "annotation": "ぎ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "樹樹",
+      "furiganaExpression": [
+        {
+          "text": "樹",
+          "annotation": "き"
+        },
+        {
+          "text": "樹",
+          "annotation": "ぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(many) trees",
+        "every tree",
+        "all kinds of trees"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bomen",
+        "geboomte",
+        "{meton.} hout"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "plein d\u0027arbres",
+        "tous les arbres",
+        "toutes sortes d\u0027arbres"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "viele Bäume",
+        "jeder Baum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каждое дерево; [многочисленные] деревья"
+      ]
+    }
+  ]
+}

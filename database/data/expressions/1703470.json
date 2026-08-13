@@ -1,0 +1,45 @@
+{
+  "id": "1703470",
+  "readings": [
+    {
+      "kanaExpression": "ずろく",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "図録",
+      "furiganaExpression": [
+        {
+          "text": "図",
+          "annotation": "ず"
+        },
+        {
+          "text": "録",
+          "annotation": "ろく"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "illustrated book",
+        "picture book"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufzeichnung in Bildern",
+        "illustriertes Buch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рассказ (впечатления, описание) в рисунках"
+      ]
+    }
+  ]
+}

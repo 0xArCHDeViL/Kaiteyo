@@ -1,0 +1,69 @@
+{
+  "id": "1373300",
+  "readings": [
+    {
+      "kanaExpression": "すうり",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "数理",
+      "furiganaExpression": [
+        {
+          "text": "数",
+          "annotation": "すう"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        }
+      ],
+      "rank": 14350
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mathematical principle",
+        "mathematics",
+        "arithmetic",
+        "figures",
+        "accounts"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{wisk.} wiskundig principe",
+        "cijferwerk",
+        "rekenwerk",
+        "het cijferen",
+        "het rekenen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mathematisches Gesetz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "matematika"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "математический закон (принцип)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "matematik"
+      ]
+    }
+  ]
+}

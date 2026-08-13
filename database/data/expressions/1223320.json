@@ -1,0 +1,89 @@
+{
+  "id": "1223320",
+  "readings": [
+    {
+      "kanaExpression": "きちょう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "記帳",
+      "furiganaExpression": [
+        {
+          "text": "記",
+          "annotation": "き"
+        },
+        {
+          "text": "帳",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "registry",
+        "entry",
+        "book-keeping",
+        "signature"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inschrijving",
+        "inboeking",
+        "boeking",
+        "registratie",
+        "notering",
+        "bijschrijving",
+        "inschrijven",
+        "inboeken",
+        "boeken",
+        "registreren",
+        "noteren",
+        "bijschrijven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eintragung",
+        "Registrierung",
+        "Unterschrift",
+        "eintragen",
+        "buchen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anyakönyvi hivatal",
+        "bejegyzés",
+        "iktató",
+        "iktatóhivatal",
+        "munkaközvetítő hivatal",
+        "munkaközvetítő",
+        "nyilvántartó hivatal",
+        "nyilvántartó",
+        "behatolás",
+        "belépés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} регистрировать; вносить в отчёт (список (и т. п.))"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "anotación",
+        "asiento registral"
+      ]
+    }
+  ]
+}

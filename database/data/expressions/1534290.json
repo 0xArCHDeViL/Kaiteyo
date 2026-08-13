@@ -1,0 +1,58 @@
+{
+  "id": "1534290",
+  "readings": [
+    {
+      "kanaExpression": "もうどうけん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "盲導犬",
+      "furiganaExpression": [
+        {
+          "text": "盲",
+          "annotation": "もう"
+        },
+        {
+          "text": "導",
+          "annotation": "どう"
+        },
+        {
+          "text": "犬",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "guide dog",
+        "seeing-eye dog"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blindengeleidehond",
+        "geleidehond"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blindenhund",
+        "Führhund",
+        "Blindenführhund",
+        "Leithund"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "собака-поводырь слепого"
+      ]
+    }
+  ]
+}

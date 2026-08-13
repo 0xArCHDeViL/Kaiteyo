@@ -1,0 +1,61 @@
+{
+  "id": "1644010",
+  "readings": [
+    {
+      "kanaExpression": "れいはい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "零敗",
+      "furiganaExpression": [
+        {
+          "text": "零",
+          "annotation": "れい"
+        },
+        {
+          "text": "敗",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "losing without scoring",
+        "shutout",
+        "whitewash",
+        "having no losses",
+        "being undefeated"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "glatt verlieren",
+        "verlieren ohne zu punkten",
+        "Zu-null-Spiel",
+        "Verlieren, ohne einen Punkt zu machen",
+        "Überhaupt-nicht-Verlieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mész",
+        "meszelés",
+        "mészfesték",
+        "szerecsenmosdatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт. разг.) проигрыш с сухим счётом",
+        "{～する} проиграть с сухим счётом"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "1001770",
+  "readings": [
+    {
+      "kanaExpression": "おきゃくさま",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お客様",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "客",
+          "annotation": "きゃく"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        }
+      ],
+      "rank": 1381
+    },
+    {
+      "kanjiExpression": "お客さま",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "客",
+          "annotation": "きゃく"
+        },
+        {
+          "text": "さま"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御客様",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "客",
+          "annotation": "きゃく"
+        },
+        {
+          "text": "様",
+          "annotation": "さま"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御客さま",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "客",
+          "annotation": "きゃく"
+        },
+        {
+          "text": "さま"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "guest",
+        "visitor",
+        "customer",
+        "client",
+        "shopper",
+        "spectator",
+        "audience",
+        "tourist",
+        "sightseer",
+        "passenger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gast",
+        "Kunde",
+        "Herrschaften",
+        "mein Herr",
+        "meine Dame"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vendég"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "gost (spošt.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "invitado",
+        "huésped",
+        "visitante",
+        "cliente"
+      ]
+    }
+  ]
+}

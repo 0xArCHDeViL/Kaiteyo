@@ -1,0 +1,62 @@
+{
+  "id": "1657230",
+  "readings": [
+    {
+      "kanaExpression": "こうそくど",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "高速度",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "速",
+          "annotation": "そく"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high speed"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hohe Geschwindigkeit",
+        "Hochgeschwindigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nagy sebesség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "большая (высокая) скорость",
+        "{～で} с большой скоростью",
+        "{～[の]} быстроходный, скоростной"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hård fart"
+      ]
+    }
+  ]
+}

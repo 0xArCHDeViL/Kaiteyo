@@ -1,0 +1,75 @@
+{
+  "id": "1638420",
+  "readings": [
+    {
+      "kanaExpression": "わごう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "和合",
+      "furiganaExpression": [
+        {
+          "text": "和",
+          "annotation": "わ"
+        },
+        {
+          "text": "合",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "harmony",
+        "concord",
+        "agreement",
+        "unity",
+        "union"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "harmonieren",
+        "sich vertragen",
+        "Harmonie",
+        "Eintracht",
+        "Einmütigkeit",
+        "Einklang",
+        "trautes Einvernehmen",
+        "Frieden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyetértés",
+        "egyezés",
+        "harmónia",
+        "összhang",
+        "szerződés",
+        "egyezmény",
+        "egyeztetés",
+        "megegyezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "согласие, лад",
+        "{～する} ладить, жить дружно (в согласии)",
+        "{～して} дружно"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "unión armónica"
+      ]
+    }
+  ]
+}

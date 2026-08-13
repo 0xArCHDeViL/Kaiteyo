@@ -1,0 +1,56 @@
+{
+  "id": "1279490",
+  "readings": [
+    {
+      "kanaExpression": "こうか",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "校歌",
+      "furiganaExpression": [
+        {
+          "text": "校",
+          "annotation": "こう"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "school song"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schoollied"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schulhymne",
+        "Schullied"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "школьная песня"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "canción escolar"
+      ]
+    }
+  ]
+}

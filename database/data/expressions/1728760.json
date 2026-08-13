@@ -1,0 +1,56 @@
+{
+  "id": "1728760",
+  "readings": [
+    {
+      "kanaExpression": "つきそいかんごふ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "付き添い看護婦",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "添",
+          "annotation": "そ"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "看",
+          "annotation": "かん"
+        },
+        {
+          "text": "護",
+          "annotation": "ご"
+        },
+        {
+          "text": "婦",
+          "annotation": "ふ"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(female) private nurse",
+        "patient attendant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "private Krankenschwester"
+      ]
+    }
+  ]
+}

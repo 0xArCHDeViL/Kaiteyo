@@ -1,0 +1,49 @@
+{
+  "id": "1281580",
+  "readings": [
+    {
+      "kanaExpression": "こうじょう",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "荒城",
+      "furiganaExpression": [
+        {
+          "text": "荒",
+          "annotation": "こう"
+        },
+        {
+          "text": "城",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ruined castle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Burgruine"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "castillo en ruinas"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "slottsruin"
+      ]
+    }
+  ]
+}

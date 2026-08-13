@@ -1,0 +1,70 @@
+{
+  "id": "1241010",
+  "readings": [
+    {
+      "kanaExpression": "きんぞく",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "勤続",
+      "furiganaExpression": [
+        {
+          "text": "勤",
+          "annotation": "きん"
+        },
+        {
+          "text": "続",
+          "annotation": "ぞく"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "continuous service"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lange tijd",
+        "onafgebroken dienst doen",
+        "onafgebroken dienst",
+        "duurzame dienstbetrekking",
+        "continu dienstverband"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lange Zeit Dienst tun",
+        "kontinuierliche Beschäftigung",
+        "fortgesetztes Beschäftigungsverhältnis",
+        "ununterbrochener Dienst"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продолжительная (непрерывная, долголетняя) служба",
+        "{～する} служить продолжительное время; служить непрерывно"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "delati dolgo",
+        "stalno delati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "servicio continuo"
+      ]
+    }
+  ]
+}

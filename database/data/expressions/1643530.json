@@ -1,0 +1,89 @@
+{
+  "id": "1643530",
+  "readings": [
+    {
+      "kanaExpression": "おいめ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "負い目",
+      "furiganaExpression": [
+        {
+          "text": "負",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        }
+      ],
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "負目",
+      "furiganaExpression": [
+        {
+          "text": "負",
+          "annotation": "おい"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(feeling of) indebtedness",
+        "feeling obliged"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verschuldigdheid",
+        "schuldplichtigheid",
+        "verplichting",
+        "schuldgevoel",
+        "schuld",
+        "geldelijke verplichting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schuld",
+        "Schuldenlast",
+        "Schuldbürde",
+        "Minderwertigkeitsgefühl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adósság összege",
+        "eladósodás foka",
+        "eladósodás",
+        "lekötelezettség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ふさい【負債】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "deuda"
+      ]
+    }
+  ]
+}

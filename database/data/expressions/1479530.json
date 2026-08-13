@@ -1,0 +1,70 @@
+{
+  "id": "1479530",
+  "readings": [
+    {
+      "kanaExpression": "はんすう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "半数",
+      "furiganaExpression": [
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 7723
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "half the number",
+        "haploid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "helft"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "moitié"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hälfte",
+        "halbe Anzahl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "половинное число, половина"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "polovica",
+        "polovica števila"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mitad de cierta cantidad"
+      ]
+    }
+  ]
+}

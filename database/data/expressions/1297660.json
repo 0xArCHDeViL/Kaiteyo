@@ -1,0 +1,76 @@
+{
+  "id": "1297660",
+  "readings": [
+    {
+      "kanaExpression": "さっきょくか",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "作曲家",
+      "furiganaExpression": [
+        {
+          "text": "作",
+          "annotation": "さっ"
+        },
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "composer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} componist",
+        "muziekauteur",
+        "toonzetter",
+        "liedjesschrijver"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Komponist",
+        "Tonschöpfer",
+        "Tonsetzer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zeneszerző"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "композитор"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "composición"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kompositör"
+      ]
+    }
+  ]
+}

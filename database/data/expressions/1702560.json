@@ -1,0 +1,45 @@
+{
+  "id": "1702560",
+  "readings": [
+    {
+      "kanaExpression": "しゃしゅ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "社主",
+      "furiganaExpression": [
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "owner of a company",
+        "head of a company"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Firmenbesitzer",
+        "Firmenchef"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глава (какой-л.) компании (фирмы); владелец торгового дома ((и т. п.), (ср.) しゃ【社】)"
+      ]
+    }
+  ]
+}

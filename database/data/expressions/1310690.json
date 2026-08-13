@@ -1,0 +1,63 @@
+{
+  "id": "1310690",
+  "readings": [
+    {
+      "kanaExpression": "しけつ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "止血",
+      "furiganaExpression": [
+        {
+          "text": "止",
+          "annotation": "し"
+        },
+        {
+          "text": "血",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stopping of bleeding",
+        "stanching",
+        "hemostasis",
+        "haemostasis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} een bloeding stoppen",
+        "stelpen",
+        "{gew.} stulpen",
+        "het bloed ophouden",
+        "{veroud.",
+        "lit.t.} het bloed stillen",
+        "{geneesk.} hemostase",
+        "bloedstelping",
+        "het stoppen van een bloeding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blut stillen",
+        "Hämostase",
+        "Blutstillung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "остановка кровотечения",
+        "{～する} останавливать кровотечение"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "1342240",
+  "readings": [
+    {
+      "kanaExpression": "じゅんに",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "順に",
+      "furiganaExpression": [
+        {
+          "text": "順",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "rank": 14400
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in order",
+        "in turn",
+        "one by one"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geordnet",
+        "nacheinander",
+        "abwechselnd"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pedig",
+        "viszont"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "по порядку, по очереди, поочерёдно"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "1824630",
+  "readings": [
+    {
+      "kanaExpression": "さんにゅう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "算入",
+      "furiganaExpression": [
+        {
+          "text": "算",
+          "annotation": "さん"
+        },
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "factoring in",
+        "including"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einrechnung",
+        "Anrechnung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beleértve"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "включение, причисление",
+        "{～する} включать, причислять; присчитывать"
+      ]
+    }
+  ]
+}

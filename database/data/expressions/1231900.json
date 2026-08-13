@@ -1,0 +1,68 @@
+{
+  "id": "1231900",
+  "readings": [
+    {
+      "kanaExpression": "きょりゅう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "居留",
+      "furiganaExpression": [
+        {
+          "text": "居",
+          "annotation": "きょ"
+        },
+        {
+          "text": "留",
+          "annotation": "りゅう"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "residence",
+        "reside"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verblijf houden",
+        "verblijven",
+        "wonen",
+        "zich ophouden",
+        "zich vestigen",
+        "verblijf",
+        "vestiging"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich im Ausland aufhalten",
+        "Aufenthalt im Ausland"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kastély",
+        "lakóhely",
+        "rezidencia",
+        "tartózkodás",
+        "tartózkodási hely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проживание; пребывание",
+        "{～する} проживать; пребывать"
+      ]
+    }
+  ]
+}

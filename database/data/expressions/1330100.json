@@ -1,0 +1,93 @@
+{
+  "id": "1330100",
+  "readings": [
+    {
+      "kanaExpression": "のろい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "呪い",
+      "furiganaExpression": [
+        {
+          "text": "呪",
+          "annotation": "のろ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 11808
+    },
+    {
+      "kanjiExpression": "詛い",
+      "furiganaExpression": [
+        {
+          "text": "詛",
+          "annotation": "のろ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "咒い",
+      "furiganaExpression": [
+        {
+          "text": "咒",
+          "annotation": "のろ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "curse",
+        "spell",
+        "malediction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vloek",
+        "vervloeking",
+        "verdoeming",
+        "verwensing",
+        "banvloek",
+        "anathema"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "malédiction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fluch",
+        "Verwünschung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проклятие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "maldición",
+        "hechizo"
+      ]
+    }
+  ]
+}

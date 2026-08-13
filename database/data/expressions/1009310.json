@@ -1,0 +1,78 @@
+{
+  "id": "1009310",
+  "readings": [
+    {
+      "kanaExpression": "どろどろ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ドロドロ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "泥々",
+      "furiganaExpression": [
+        {
+          "text": "泥",
+          "annotation": "どろ"
+        },
+        {
+          "text": "々",
+          "annotation": "どろ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "泥泥",
+      "furiganaExpression": [
+        {
+          "text": "泥",
+          "annotation": "どろ"
+        },
+        {
+          "text": "泥",
+          "annotation": "どろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "viscous",
+        "mushy",
+        "pulpy",
+        "thick",
+        "slushy",
+        "syrupy",
+        "sticky",
+        "muddy",
+        "dirty (with oil, grease, etc.)",
+        "to be in an ugly state (of emotions, relations, etc.)",
+        "to be murky",
+        "to be sordid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "embrouillé",
+        "sirupeux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schlammig",
+        "matschig",
+        "dreckig",
+        "dick",
+        "breiartig",
+        "pappig",
+        "klebrig",
+        "seimig"
+      ]
+    }
+  ]
+}

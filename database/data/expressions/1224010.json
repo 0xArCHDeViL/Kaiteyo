@@ -1,0 +1,100 @@
+{
+  "id": "1224010",
+  "readings": [
+    {
+      "kanaExpression": "かがやき",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "輝き",
+      "furiganaExpression": [
+        {
+          "text": "輝",
+          "annotation": "かがや"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 8922
+    },
+    {
+      "kanjiExpression": "赫き",
+      "furiganaExpression": [
+        {
+          "text": "赫",
+          "annotation": "かがや"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "耀き",
+      "furiganaExpression": [
+        {
+          "text": "耀",
+          "annotation": "かがや"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brightness",
+        "brilliance",
+        "brilliancy",
+        "radiance",
+        "glitter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "helderheid",
+        "schittering",
+        "glans",
+        "briljantheid",
+        "gloed",
+        "fonkeling",
+        "schijnsel",
+        "luister",
+        "glinstering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Glanz",
+        "Schimmer",
+        "Schein",
+        "Strahlen",
+        "Funkeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ragyogás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сверкание, блеск; сияние; вспышка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "resplandor"
+      ]
+    }
+  ]
+}

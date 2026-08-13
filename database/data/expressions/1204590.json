@@ -1,0 +1,48 @@
+{
+  "id": "1204590",
+  "readings": [
+    {
+      "kanaExpression": "がいく",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "街区",
+      "furiganaExpression": [
+        {
+          "text": "街",
+          "annotation": "がい"
+        },
+        {
+          "text": "区",
+          "annotation": "く"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "block (of land)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Straße",
+        "Stadtviertel",
+        "Block",
+        "Quartier"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "blokáció",
+        "csigasor",
+        "féktuskó"
+      ]
+    }
+  ]
+}

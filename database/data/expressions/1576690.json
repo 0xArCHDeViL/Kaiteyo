@@ -1,0 +1,69 @@
+{
+  "id": "1576690",
+  "readings": [
+    {
+      "kanaExpression": "おくち",
+      "rank": 26500
+    },
+    {
+      "kanaExpression": "おうち",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "奥地",
+      "furiganaExpression": [
+        {
+          "text": "奥",
+          "annotation": "おく"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interior",
+        "backwoods",
+        "hinterland",
+        "back regions"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "binnenland",
+        "achterland",
+        "{オーストラリアの} outback"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hinterland",
+        "Landesinnere",
+        "im Landesinneren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "belföldi",
+        "belseje vminek",
+        "isten háta mögötti terület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) глубь страны, глубинные районы (пункты)",
+        "(кн. см.) おくち"
+      ]
+    }
+  ]
+}

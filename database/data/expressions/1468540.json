@@ -1,0 +1,76 @@
+{
+  "id": "1468540",
+  "readings": [
+    {
+      "kanaExpression": "ねんきん",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "年金",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 1561
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "annuity",
+        "pension"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pensioen",
+        "jaargeld",
+        "annuïteit",
+        "jaarrente"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "retraite"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rente",
+        "Jahresrente",
+        "Pension"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyugdíj",
+        "panzió",
+        "penzió"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пенсия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pago anual",
+        "pensión (lit dinero del año)"
+      ]
+    }
+  ]
+}

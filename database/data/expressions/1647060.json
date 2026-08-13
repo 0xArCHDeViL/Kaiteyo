@@ -1,0 +1,64 @@
+{
+  "id": "1647060",
+  "readings": [
+    {
+      "kanaExpression": "しんそう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "新装",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "装",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 13975
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "redecoration",
+        "remodelling",
+        "remodeling",
+        "refurbishment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "renovatie",
+        "opknapbeurt",
+        "herinrichting",
+        "verbouwing",
+        "{boekdr.} herinbinding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Restaurierung",
+        "Neuausstattung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átalakítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) новый наряд (костюм)",
+        "2) новое оборудование, новая экипировка; новая отделка; новая обшивка"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1477760",
+  "readings": [
+    {
+      "kanaExpression": "はつでんき",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "発電機",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はつ"
+        },
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dynamo",
+        "power generator"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "generator",
+        "dynamo",
+        "{i.h.b.} aggregaat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "elektrisches Organ",
+        "Generator",
+        "Dynamo"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dinamó",
+        "áramfejlesztő",
+        "generátor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(эл.) генератор, динамо[-машина]"
+      ]
+    }
+  ]
+}

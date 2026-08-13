@@ -1,0 +1,105 @@
+{
+  "id": "1226530",
+  "readings": [
+    {
+      "kanaExpression": "つめよる",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "詰め寄る",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "詰寄る",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つめ"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "詰めよる",
+      "furiganaExpression": [
+        {
+          "text": "詰",
+          "annotation": "つ"
+        },
+        {
+          "text": "めよる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "つめ寄る",
+      "furiganaExpression": [
+        {
+          "text": "つめ"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to draw near",
+        "to draw closer",
+        "to press (e.g. for an answer)",
+        "to hound"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "näher kommen",
+        "näher rücken",
+        "sich drohend nähern",
+        "bedrängen",
+        "auf jmdn. eindringen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közelebb jön"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) つめよせる"
+      ]
+    }
+  ]
+}

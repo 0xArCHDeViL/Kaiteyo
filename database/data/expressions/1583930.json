@@ -1,0 +1,90 @@
+{
+  "id": "1583930",
+  "readings": [
+    {
+      "kanaExpression": "べつめい",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "べつみょう"
+    },
+    {
+      "kanjiExpression": "別名",
+      "furiganaExpression": [
+        {
+          "text": "別",
+          "annotation": "べつ"
+        },
+        {
+          "text": "名",
+          "annotation": "めい"
+        }
+      ],
+      "rank": 11531
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "another name",
+        "different name",
+        "synonym",
+        "alias",
+        "pseudonym",
+        "pen name",
+        "nom de plume"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "andere naam",
+        "alias",
+        "bijnaam",
+        "pseudoniem",
+        "schuilnaam"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "alias",
+        "nom de plume",
+        "pseudonyme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "anderer Namen",
+        "andere Bezeichnung",
+        "Deckname",
+        "Pseudonym",
+        "Alias",
+        "anderer Name"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "írói álnév"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. см.) べつめい",
+        "1) другое имя (название, наименование)",
+        "2) псевдоним"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alias",
+        "seudónimo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1498580",
+  "readings": [
+    {
+      "kanaExpression": "ぶこう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "武功",
+      "furiganaExpression": [
+        {
+          "text": "武",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "功",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "military exploits",
+        "military feats",
+        "military achievements",
+        "distinguished military service"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "militärischer Verdienst",
+        "kriegerische Heldentat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "боевые (военные) подвиги (заслуги)"
+      ]
+    }
+  ]
+}

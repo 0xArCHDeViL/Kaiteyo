@@ -1,0 +1,44 @@
+{
+  "id": "1720430",
+  "readings": [
+    {
+      "kanaExpression": "しんしゅ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "新酒",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "酒",
+          "annotation": "しゅ"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "new brew of sake"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "neuer Sake",
+        "diesjähriger Sake (der vom neuen Reis des letzten Jahres hergestellt wurde)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "молодое сакэ"
+      ]
+    }
+  ]
+}

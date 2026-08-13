@@ -1,0 +1,103 @@
+{
+  "id": "1335140",
+  "readings": [
+    {
+      "kanaExpression": "じゅうまん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "十万",
+      "furiganaExpression": [
+        {
+          "text": "十",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "万",
+          "annotation": "まん"
+        }
+      ],
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "壱拾萬",
+      "furiganaExpression": [
+        {
+          "text": "壱",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "拾",
+          "annotation": "う"
+        },
+        {
+          "text": "萬",
+          "annotation": "まん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "拾万",
+      "furiganaExpression": [
+        {
+          "text": "拾",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "万",
+          "annotation": "まん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "拾萬",
+      "furiganaExpression": [
+        {
+          "text": "拾",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "萬",
+          "annotation": "まん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "100,000",
+        "hundred thousand"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "honderdduizend",
+        "100k",
+        "{muntw.} ton"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hunderttausend",
+        "100.000"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сто тысяч"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cien mil",
+        "100,000"
+      ]
+    }
+  ]
+}

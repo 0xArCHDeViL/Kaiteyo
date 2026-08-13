@@ -1,0 +1,109 @@
+{
+  "id": "1265530",
+  "readings": [
+    {
+      "kanaExpression": "ふるくさい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "古臭い",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "ふる"
+        },
+        {
+          "text": "臭",
+          "annotation": "くさ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "古くさい",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "ふる"
+        },
+        {
+          "text": "くさい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stale",
+        "old fashioned",
+        "hackneyed",
+        "trite",
+        "antiquated",
+        "obsolete",
+        "musty",
+        "outdated"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ouderwets",
+        "achterhaald",
+        "verouderd",
+        "uit de tijd",
+        "niet meer van deze tijd",
+        "afgezaagd",
+        "versleten",
+        "passé",
+        "archaïsch"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ancien",
+        "démodé",
+        "usé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "altbacken",
+        "altmodisch",
+        "abgenutzt",
+        "zu alt",
+        "verstaubt",
+        "überholt",
+        "antiquiert",
+        "archaisch",
+        "altertümlich",
+        "muffig",
+        "zopfig",
+        "verzopft",
+        "abgegriffen",
+        "abgedroschen",
+        "altfränkisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elcsépelt",
+        "agyoncsépelt",
+        "elnyűtt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "старый, устаревший, неоригинальный; древний"
+      ]
+    }
+  ]
+}

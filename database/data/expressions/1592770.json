@@ -1,0 +1,69 @@
+{
+  "id": "1592770",
+  "readings": [
+    {
+      "kanaExpression": "げきむ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "劇務",
+      "furiganaExpression": [
+        {
+          "text": "劇",
+          "annotation": "げき"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "激務",
+      "furiganaExpression": [
+        {
+          "text": "激",
+          "annotation": "げき"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exhausting work",
+        "hard work",
+        "severe duty"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "harte Arbeit",
+        "stressige Arbeit",
+        "Geschäftigkeit",
+        "Überanstrengung",
+        "Fronarbeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "keserves munka",
+        "hálátlan feladat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тяжёлая (напряжённая) работа; усиленные занятия"
+      ]
+    }
+  ]
+}

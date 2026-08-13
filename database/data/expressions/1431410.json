@@ -1,0 +1,69 @@
+{
+  "id": "1431410",
+  "readings": [
+    {
+      "kanaExpression": "じかだんぱん",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "じきだんぱん"
+    },
+    {
+      "kanjiExpression": "直談判",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "じか"
+        },
+        {
+          "text": "談",
+          "annotation": "だん"
+        },
+        {
+          "text": "判",
+          "annotation": "ぱん"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "じか談判",
+      "furiganaExpression": [
+        {
+          "text": "じか"
+        },
+        {
+          "text": "談",
+          "annotation": "だん"
+        },
+        {
+          "text": "判",
+          "annotation": "ぱん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "direct talks",
+        "direct negotiations",
+        "talking to someone in person"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "direkte Verhandlungen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "личные (непосредственные) переговоры; личная беседа",
+        "{～をする} вести личные (непосредственные) переговоры; переговорить (побеседовать) лично"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "1601300",
+  "readings": [
+    {
+      "kanaExpression": "ばけもの",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ばけもん"
+    },
+    {
+      "kanaExpression": "バケモノ"
+    },
+    {
+      "kanaExpression": "バケモン"
+    },
+    {
+      "kanjiExpression": "化け物",
+      "furiganaExpression": [
+        {
+          "text": "化",
+          "annotation": "ば"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "化物",
+      "furiganaExpression": [
+        {
+          "text": "化",
+          "annotation": "ばけ"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "goblin",
+        "apparition",
+        "monster",
+        "ghost",
+        "phantom",
+        "spectre",
+        "specter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "monster",
+        "gedrocht",
+        "monstrum",
+        "wanschepsel",
+        "spook",
+        "geest",
+        "boeman",
+        "schrikbeeld",
+        "spooksel",
+        "(spook)verschijning",
+        "apparitie",
+        "duivelskunstenaar",
+        "wondermens",
+        "buitengewoon mens",
+        "levend wonder"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "doppelgänger",
+        "esprit",
+        "fantome",
+        "monstre",
+        "spectre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gespenst",
+        "Geist",
+        "Ungeheuer",
+        "Monster",
+        "Monstrum",
+        "Kobold",
+        "die Schreckgestalt, in die sich z.B. ein Fuchs oder Dachs verwandelt hat",
+        "hässliche Person",
+        "Genie",
+        "Zauberer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gonosz szellem",
+        "jelenés",
+        "kísértet",
+        "hazajáró lélek",
+        "lélek",
+        "szellem",
+        "agyrém",
+        "ál-",
+        "káprázat",
+        "képzeletbeli",
+        "rémkép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оборотень; привидение"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "duh",
+        "pošast",
+        "fantom",
+        "nestvor"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "duende",
+        "fantasma",
+        "monstruo",
+        "aparición",
+        "espectro"
+      ]
+    }
+  ]
+}

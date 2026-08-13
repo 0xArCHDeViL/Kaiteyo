@@ -1,0 +1,63 @@
+{
+  "id": "1376060",
+  "readings": [
+    {
+      "kanaExpression": "せいとう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "政党",
+      "furiganaExpression": [
+        {
+          "text": "政",
+          "annotation": "せい"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 3261
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "political party"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "politieke partij",
+        "staatspartij",
+        "partij"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "parti politique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "politische Partei"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[политическая] партия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(miembro de un) partido político"
+      ]
+    }
+  ]
+}

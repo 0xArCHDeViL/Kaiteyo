@@ -1,0 +1,67 @@
+{
+  "id": "1419030",
+  "readings": [
+    {
+      "kanaExpression": "たんじゅう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "胆汁",
+      "furiganaExpression": [
+        {
+          "text": "胆",
+          "annotation": "たん"
+        },
+        {
+          "text": "汁",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bile",
+        "gall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Galle",
+        "Gallenflüssigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "epe",
+        "gubacs",
+        "keserűség",
+        "malícia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жёлчь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bilis",
+        "hiel"
+      ]
+    }
+  ]
+}

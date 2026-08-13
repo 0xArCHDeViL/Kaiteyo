@@ -1,0 +1,77 @@
+{
+  "id": "1612920",
+  "readings": [
+    {
+      "kanaExpression": "ひく",
+      "rank": 4003
+    },
+    {
+      "kanjiExpression": "轢く",
+      "furiganaExpression": [
+        {
+          "text": "轢",
+          "annotation": "ひ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to run over (with a vehicle)",
+        "to knock down"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overrijden",
+        "omrijden",
+        "omverrijden",
+        "aanrijden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "écraser (avec un véhicule)",
+        "abattre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "überfahren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elgázol vkit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переехать (кого-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "povoziti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "atropellar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1596340",
+  "readings": [
+    {
+      "kanaExpression": "ぜんぺん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "前編",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "編",
+          "annotation": "ぺん"
+        }
+      ],
+      "rank": 9521
+    },
+    {
+      "kanjiExpression": "前篇",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "篇",
+          "annotation": "ぺん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first part",
+        "first volume",
+        "prequel"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerste deel",
+        "eerste band",
+        "eerste volumen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erster Band",
+        "erster Teil"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "первая книга (часть)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1646820",
+  "readings": [
+    {
+      "kanaExpression": "しんけいけい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "神経系",
+      "furiganaExpression": [
+        {
+          "text": "神",
+          "annotation": "しん"
+        },
+        {
+          "text": "経",
+          "annotation": "けい"
+        },
+        {
+          "text": "系",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nervous system"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zenuwstelsel",
+        "zenuwgestel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nervensystem",
+        "Systema nervosum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "idegrendszer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нервная система"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "nervsystem"
+      ]
+    }
+  ]
+}

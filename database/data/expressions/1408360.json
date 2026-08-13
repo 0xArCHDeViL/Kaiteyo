@@ -1,0 +1,105 @@
+{
+  "id": "1408360",
+  "readings": [
+    {
+      "kanaExpression": "たいへいよう",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "太平洋",
+      "furiganaExpression": [
+        {
+          "text": "太",
+          "annotation": "たい"
+        },
+        {
+          "text": "平",
+          "annotation": "へい"
+        },
+        {
+          "text": "洋",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 5946
+    },
+    {
+      "kanjiExpression": "大平洋",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "平",
+          "annotation": "へい"
+        },
+        {
+          "text": "洋",
+          "annotation": "よう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Pacific Ocean"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Grote Oceaan",
+        "Stille Oceaan",
+        "Stille Zuidzee",
+        "Pacific"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "Océan Pacifique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pazifischer Ozean",
+        "Pazifik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csendes-óceán"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "Тихий океан"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "Tihi ocean",
+        "Pacifiški ocean"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Océano Pacífico"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "Stilla havet"
+      ]
+    }
+  ]
+}

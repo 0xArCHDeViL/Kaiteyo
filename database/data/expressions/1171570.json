@@ -1,0 +1,109 @@
+{
+  "id": "1171570",
+  "readings": [
+    {
+      "kanaExpression": "イカ",
+      "rank": 5674
+    },
+    {
+      "kanaExpression": "いか",
+      "rank": 8686
+    },
+    {
+      "kanjiExpression": "烏賊",
+      "furiganaExpression": [
+        {
+          "text": "烏賊",
+          "annotation": "いか"
+        }
+      ],
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "柔魚",
+      "furiganaExpression": [
+        {
+          "text": "柔",
+          "annotation": "い"
+        },
+        {
+          "text": "魚",
+          "annotation": "か"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "鰞",
+      "furiganaExpression": [
+        {
+          "text": "鰞",
+          "annotation": "いか"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cuttlefish",
+        "squid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} inktvis",
+        "calamaris",
+        "kalmaar",
+        "tienarm",
+        "zeekat",
+        "{i.h.b.} pijlinktvis",
+        "pijlstaartinktvis",
+        "{niet alg.} poliep",
+        "veelarm",
+        "{veroud.} blakvis",
+        "{w.g.} zeedraak"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "calamar",
+        "seiche"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tintenfisch",
+        "Sepia"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tintahal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каракатица",
+        "(зоол.) каракатицы, Sepia"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sipa"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calamar"
+      ]
+    }
+  ]
+}

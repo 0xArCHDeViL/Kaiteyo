@@ -1,0 +1,48 @@
+{
+  "id": "1767390",
+  "readings": [
+    {
+      "kanaExpression": "しせい",
+      "rank": 28000
+    },
+    {
+      "kanaExpression": "ししょう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "死生",
+      "furiganaExpression": [
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "life and death"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leben und Tod",
+        "Leben oder Tod"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жизнь и (или) смерть; судьба"
+      ]
+    }
+  ]
+}

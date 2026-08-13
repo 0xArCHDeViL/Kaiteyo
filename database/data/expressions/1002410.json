@@ -1,0 +1,71 @@
+{
+  "id": "1002410",
+  "readings": [
+    {
+      "kanaExpression": "おたんじょうびおめでとうございます",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お誕生日おめでとうございます",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "誕",
+          "annotation": "たん"
+        },
+        {
+          "text": "生",
+          "annotation": "じょう"
+        },
+        {
+          "text": "日",
+          "annotation": "び"
+        },
+        {
+          "text": "おめでとうございます"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御誕生日おめでとうございます",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "誕",
+          "annotation": "たん"
+        },
+        {
+          "text": "生",
+          "annotation": "じょう"
+        },
+        {
+          "text": "日",
+          "annotation": "び"
+        },
+        {
+          "text": "おめでとうございます"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "happy birthday"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Feliz Cumpleaños"
+      ]
+    }
+  ]
+}

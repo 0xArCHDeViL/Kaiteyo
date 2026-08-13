@@ -1,0 +1,49 @@
+{
+  "id": "1791850",
+  "readings": [
+    {
+      "kanaExpression": "うちまわり",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "内回り",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "うち"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inner tracks or lanes",
+        "going around an inner circle",
+        "indoors"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "binnenbaan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Innenbahn",
+        "innere Spur einer mehrspurigen Fahrbahn"
+      ]
+    }
+  ]
+}

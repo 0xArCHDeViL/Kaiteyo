@@ -1,0 +1,76 @@
+{
+  "id": "1432610",
+  "readings": [
+    {
+      "kanaExpression": "ついとう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "追悼",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "つい"
+        },
+        {
+          "text": "悼",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 7408
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mourning"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het rouwen",
+        "het treuren",
+        "rouw",
+        "{gew.} treur",
+        "rouwen",
+        "in de rouw zijn",
+        "treuren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "commémoration funèbre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trauer",
+        "trauern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előterjesztés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оплакивание",
+        "{～する} оплакивать [усопшего]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "luto",
+        "duelo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "1579380",
+  "readings": [
+    {
+      "kanaExpression": "さんかくけい",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "さんかっけい"
+    },
+    {
+      "kanjiExpression": "三角形",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "角",
+          "annotation": "かく"
+        },
+        {
+          "text": "形",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 14003
+    },
+    {
+      "kanjiExpression": "３角形",
+      "furiganaExpression": [
+        {
+          "text": "３",
+          "annotation": "さん"
+        },
+        {
+          "text": "角",
+          "annotation": "かく"
+        },
+        {
+          "text": "形",
+          "annotation": "けい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "triangle"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "driehoek",
+        "driehoekige vorm",
+        "{veroud.} triangel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "triangle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dreieck",
+        "dreieckig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "háromszög",
+        "háromszögű vonalzó",
+        "triangulum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "треугольник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "triángulo",
+        "polígono de tres ángulos"
+      ]
+    }
+  ]
+}

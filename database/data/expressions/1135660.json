@@ -1,0 +1,55 @@
+{
+  "id": "1135660",
+  "readings": [
+    {
+      "kanaExpression": "モノラル",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "モノーラル"
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "monaural",
+        "monophonic",
+        "mono"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "monauraal",
+        "mono",
+        "niet-stereofonisch"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "monaural",
+        "einkanalig"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "монофонический"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(eng: monaural) monoaural"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "enkanalig"
+      ]
+    }
+  ]
+}

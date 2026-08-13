@@ -1,0 +1,59 @@
+{
+  "id": "1379920",
+  "readings": [
+    {
+      "kanaExpression": "せいさい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "精細",
+      "furiganaExpression": [
+        {
+          "text": "精",
+          "annotation": "せい"
+        },
+        {
+          "text": "細",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fine",
+        "minute",
+        "detailed",
+        "meticulous",
+        "precise"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "genau",
+        "detailliert",
+        "ausführlich",
+        "Detailliertheit",
+        "Genauigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gépelem",
+        "napi munkaterv",
+        "osztag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) せいみつ"
+      ]
+    }
+  ]
+}

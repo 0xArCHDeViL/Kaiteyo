@@ -1,0 +1,75 @@
+{
+  "id": "1216140",
+  "readings": [
+    {
+      "kanaExpression": "かんぼつ",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "陥没",
+      "furiganaExpression": [
+        {
+          "text": "陥",
+          "annotation": "かん"
+        },
+        {
+          "text": "没",
+          "annotation": "ぼつ"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cave-in",
+        "collapse",
+        "sinking",
+        "depression (e.g. of the skull)",
+        "subsidence"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "affaissement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich senken",
+        "sinken",
+        "einstürzen",
+        "Senkung",
+        "Einsturz",
+        "Bergschaden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lecsendesedés",
+        "lelohadás",
+        "lesüppedés",
+        "leülepedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оседание, опускание, осадка (породы); погружение (земной коры)",
+        "{～する} оседать, опускаться; погружаться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "derrumbamiento",
+        "hundimiento"
+      ]
+    }
+  ]
+}

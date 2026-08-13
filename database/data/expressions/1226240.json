@@ -1,0 +1,74 @@
+{
+  "id": "1226240",
+  "readings": [
+    {
+      "kanaExpression": "きっか"
+    },
+    {
+      "kanaExpression": "きくか",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "菊花",
+      "furiganaExpression": [
+        {
+          "text": "菊",
+          "annotation": "きっ"
+        },
+        {
+          "text": "花",
+          "annotation": "か"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chrysanthemum flower"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "chrysantenbloem",
+        "chrysantengeurig wierook"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Chrysantheme",
+        "Chrysanthemenblüte",
+        "eine Weihrauchart"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "krizantém"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цветок хризантемы, хризантема"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "crisantemo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "krysantem",
+        "krysantemum"
+      ]
+    }
+  ]
+}

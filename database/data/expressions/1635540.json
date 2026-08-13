@@ -1,0 +1,70 @@
+{
+  "id": "1635540",
+  "readings": [
+    {
+      "kanaExpression": "じょせい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "女婿",
+      "furiganaExpression": [
+        {
+          "text": "女",
+          "annotation": "じょ"
+        },
+        {
+          "text": "婿",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "女壻",
+      "furiganaExpression": [
+        {
+          "text": "女",
+          "annotation": "じょ"
+        },
+        {
+          "text": "壻",
+          "annotation": "せい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "son-in-law"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schoonzoon",
+        "behuwdzoon",
+        "man van iemands dochter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwiegersohn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зять (муж дочери)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "yerno (propio)"
+      ]
+    }
+  ]
+}

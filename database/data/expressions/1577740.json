@@ -1,0 +1,149 @@
+{
+  "id": "1577740",
+  "readings": [
+    {
+      "kanaExpression": "すてご",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "きじ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "捨て子",
+      "furiganaExpression": [
+        {
+          "text": "捨",
+          "annotation": "す"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "子",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "棄て子",
+      "furiganaExpression": [
+        {
+          "text": "棄",
+          "annotation": "す"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "子",
+          "annotation": "ご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "棄て児",
+      "furiganaExpression": [
+        {
+          "text": "棄",
+          "annotation": "す"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "児",
+          "annotation": "ご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "棄児",
+      "furiganaExpression": [
+        {
+          "text": "棄",
+          "annotation": "すて"
+        },
+        {
+          "text": "児",
+          "annotation": "ご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "捨子",
+      "furiganaExpression": [
+        {
+          "text": "捨",
+          "annotation": "すて"
+        },
+        {
+          "text": "子",
+          "annotation": "ご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "棄子",
+      "furiganaExpression": [
+        {
+          "text": "棄",
+          "annotation": "すて"
+        },
+        {
+          "text": "子",
+          "annotation": "ご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "abandoned child",
+        "foundling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vondeling",
+        "verlaten kind",
+        "ouderloos kind",
+        "{gew.} houkind"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "enfant abandonné"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aussetzen",
+        "Verstoßen (eines Kindes)",
+        "ausgesetztes Kind",
+        "verstoßenes Kind",
+        "Findelkind",
+        "Findling"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "talált gyermek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подкидыш",
+        "{～をする} подкинуть ребёнка"
+      ]
+    }
+  ]
+}

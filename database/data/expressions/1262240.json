@@ -1,0 +1,67 @@
+{
+  "id": "1262240",
+  "readings": [
+    {
+      "kanaExpression": "げんぱつ",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "原発",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "発",
+          "annotation": "ぱつ"
+        }
+      ],
+      "rank": 6226
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nuclear power plant",
+        "nuclear power generation",
+        "primary (e.g. primary immunodeficiency syndrome)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kerncentrale",
+        "atoomcentrale",
+        "reactorcentrale",
+        "nucleaire opwekking van energie",
+        "elektriciteit",
+        "stroom",
+        "nucleaire elektriciteitsopwekking",
+        "energieopwekking",
+        "stroomopwekking",
+        "kernopwekking",
+        "atoomopwekking",
+        "{geneesk.} primair"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stromerzeugung aus Atomkraft",
+        "Atomkraftwerk",
+        "AKW",
+        "Kernkraftwerk",
+        "KKW",
+        "Primär…"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "atomerőmű"
+      ]
+    }
+  ]
+}

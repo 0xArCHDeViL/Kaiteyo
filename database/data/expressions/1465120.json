@@ -1,0 +1,50 @@
+{
+  "id": "1465120",
+  "readings": [
+    {
+      "kanaExpression": "にゅうさんきん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "乳酸菌",
+      "furiganaExpression": [
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "酸",
+          "annotation": "さん"
+        },
+        {
+          "text": "菌",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lactic-acid bacilli"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Milchsäurebakterie",
+        "Laktobakterie",
+        "Lactobacillus",
+        "Milchsäurestäbchen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "молочнокислые (ацидофильные) бактерии"
+      ]
+    }
+  ]
+}

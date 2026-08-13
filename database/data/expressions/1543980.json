@@ -1,0 +1,95 @@
+{
+  "id": "1543980",
+  "readings": [
+    {
+      "kanaExpression": "よか",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "余暇",
+      "furiganaExpression": [
+        {
+          "text": "余",
+          "annotation": "よ"
+        },
+        {
+          "text": "暇",
+          "annotation": "か"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "leisure",
+        "leisure time",
+        "spare time"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vrije tijd",
+        "vrije uren",
+        "verloren uur",
+        "uurtje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "loisirs",
+        "temps libre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in der Freizeit",
+        "Freizeit",
+        "freie Zeit",
+        "Muße"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ráérő",
+        "szabad",
+        "szabadidő",
+        "felesleges idő",
+        "szabad idő",
+        "üres óra"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "свободное время, досуг"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prosti čas"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tiempo libre",
+        "ocio",
+        "esparcimiento"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fritid"
+      ]
+    }
+  ]
+}

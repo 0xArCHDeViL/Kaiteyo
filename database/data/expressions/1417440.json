@@ -1,0 +1,51 @@
+{
+  "id": "1417440",
+  "readings": [
+    {
+      "kanaExpression": "たんさん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "単３",
+      "furiganaExpression": [
+        {
+          "text": "単",
+          "annotation": "たん"
+        },
+        {
+          "text": "３",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "単三",
+      "furiganaExpression": [
+        {
+          "text": "単",
+          "annotation": "たん"
+        },
+        {
+          "text": "三",
+          "annotation": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "AA battery",
+        "AA cell"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mignonzelle (Abk.)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1425990",
+  "readings": [
+    {
+      "kanaExpression": "なかね",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "中値",
+      "furiganaExpression": [
+        {
+          "text": "中",
+          "annotation": "なか"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "仲値",
+      "furiganaExpression": [
+        {
+          "text": "仲",
+          "annotation": "なか"
+        },
+        {
+          "text": "値",
+          "annotation": "ね"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "medium or average price"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mittlerer Preis",
+        "Mitte zwischen Einkaufs- und Verkaufspreis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "средняя цена (между запрошенной и предложенной)"
+      ]
+    }
+  ]
+}

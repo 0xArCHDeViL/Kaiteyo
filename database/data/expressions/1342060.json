@@ -1,0 +1,45 @@
+{
+  "id": "1342060",
+  "readings": [
+    {
+      "kanaExpression": "じゅんえん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "巡演",
+      "furiganaExpression": [
+        {
+          "text": "巡",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "演",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "performance tour"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tournee",
+        "Gastspielreise",
+        "Auftrittstour"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гастрольная поездка (театра по ряду мест); поездка с лекциями, лекционная поездка (по ряду мест)"
+      ]
+    }
+  ]
+}

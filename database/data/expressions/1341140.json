@@ -1,0 +1,68 @@
+{
+  "id": "1341140",
+  "readings": [
+    {
+      "kanaExpression": "はるかぜ"
+    },
+    {
+      "kanaExpression": "しゅんぷう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "春風",
+      "furiganaExpression": [
+        {
+          "text": "春",
+          "annotation": "はる"
+        },
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spring breeze"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lentewind",
+        "voorjaarswind",
+        "lentebries",
+        "{lit.t.} lenteadem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frühlingswind"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "весенний ветер",
+        "(поэт.) весенний ветер"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pomladanski vetrič"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "brisa primaveral"
+      ]
+    }
+  ]
+}

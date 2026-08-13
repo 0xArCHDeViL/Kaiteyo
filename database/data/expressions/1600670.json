@@ -1,0 +1,148 @@
+{
+  "id": "1600670",
+  "readings": [
+    {
+      "kanaExpression": "はがす",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "へがす"
+    },
+    {
+      "kanjiExpression": "剥がす",
+      "furiganaExpression": [
+        {
+          "text": "剥",
+          "annotation": "は"
+        },
+        {
+          "text": "がす"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "剥す",
+      "furiganaExpression": [
+        {
+          "text": "剥",
+          "annotation": "はが"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "剝がす",
+      "furiganaExpression": [
+        {
+          "text": "剝",
+          "annotation": "は"
+        },
+        {
+          "text": "がす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to tear off",
+        "to peel off",
+        "to rip off",
+        "to strip off",
+        "to skin",
+        "to flay",
+        "to disrobe",
+        "to deprive of",
+        "to detach",
+        "to disconnect"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afhalen",
+        "losmaken",
+        "aftrekken",
+        "lostrekken",
+        "wegnemen",
+        "afstrippen",
+        "afritsen",
+        "afscheuren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "écorcher",
+        "arracher",
+        "déconnecter",
+        "dépouiller",
+        "détacher",
+        "enlever",
+        "peler",
+        "se déshabiller"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abkratzen",
+        "abnehmen",
+        "abreißen",
+        "abhäuten",
+        "abbalgen",
+        "abstreifen",
+        "entlarven"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elrohan",
+        "hámlik",
+        "lehámlik",
+        "lemállik",
+        "lepattogzik",
+        "lepereg",
+        "leválik",
+        "levetkőzik",
+        "kifoszt",
+        "lenyúz",
+        "megkopaszt",
+        "hevesen bírál",
+        "hevesen kritizál",
+        "lehánt",
+        "lehúz",
+        "nyúz",
+        "leválaszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) はぐ【剥ぐ】",
+        "(разг. см.) はぐ【剥ぐ】"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odtrgati",
+        "olupiti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desprender",
+        "despegar",
+        "raspar"
+      ]
+    }
+  ]
+}

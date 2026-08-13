@@ -1,0 +1,60 @@
+{
+  "id": "1619310",
+  "readings": [
+    {
+      "kanaExpression": "しゅくげん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "縮減",
+      "furiganaExpression": [
+        {
+          "text": "縮",
+          "annotation": "しゅく"
+        },
+        {
+          "text": "減",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reduction",
+        "diminishment",
+        "contraction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "reduzieren",
+        "kürzen",
+        "zurückschrauben (einen Plan etc.)",
+        "Reduktion",
+        "Kürzung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kedvezmény",
+        "levonás",
+        "összehúzás",
+        "rövid összefoglalás",
+        "rövidítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сокращение",
+        "{～する} сокращать, уменьшать"
+      ]
+    }
+  ]
+}

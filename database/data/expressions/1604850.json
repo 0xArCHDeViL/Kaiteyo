@@ -1,0 +1,109 @@
+{
+  "id": "1604850",
+  "readings": [
+    {
+      "kanaExpression": "むしば",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "虫歯",
+      "furiganaExpression": [
+        {
+          "text": "虫",
+          "annotation": "むし"
+        },
+        {
+          "text": "歯",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 13887
+    },
+    {
+      "kanjiExpression": "むし歯",
+      "furiganaExpression": [
+        {
+          "text": "むし"
+        },
+        {
+          "text": "歯",
+          "annotation": "ば"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "齲歯",
+      "furiganaExpression": [
+        {
+          "text": "齲歯",
+          "annotation": "むしば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tooth decay",
+        "cavity",
+        "decayed tooth",
+        "dental caries"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "slechte tand",
+        "slechte kies",
+        "rotte kies",
+        "rotte tand",
+        "rottend gebit",
+        "carieus gebit",
+        "cariës"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "carie",
+        "dent carié"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schlechter Zahn",
+        "fauler Zahn",
+        "kariöser Zahn",
+        "Zahnfäule",
+        "Karies"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "odú",
+        "szuvasodás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "испорченный зуб; кариоз"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "gnili zob"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "caries dental"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1483560",
+  "readings": [
+    {
+      "kanaExpression": "ひかく",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "比較",
+      "furiganaExpression": [
+        {
+          "text": "比",
+          "annotation": "ひ"
+        },
+        {
+          "text": "較",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 1255
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "comparison"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vergelijken",
+        "naast elkaar leggen",
+        "vergelijking"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "comparaison"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vergleichen",
+        "einen Vergleich anstellen",
+        "Vergleich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "összehasonlítás",
+        "összevetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сравнение",
+        "{～する} сравнивать; проводить параллель (между чем-л.)",
+        "{…と～して} в сравнении, по сравнению с (кем-чем-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "primerjava",
+        "vzporedje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comparar",
+        "comparación"
+      ]
+    }
+  ]
+}

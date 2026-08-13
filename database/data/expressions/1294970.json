@@ -1,0 +1,48 @@
+{
+  "id": "1294970",
+  "readings": [
+    {
+      "kanaExpression": "さいにゅう",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "歳入",
+      "furiganaExpression": [
+        {
+          "text": "歳",
+          "annotation": "さい"
+        },
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 10107
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "annual revenue (government)",
+        "annual income (government)",
+        "budget receipts"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Staatseinnahmen",
+        "öffentliche Einnahmen",
+        "jährliche Einnahmen",
+        "jährliches Einkommen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "годовой доход (государства)"
+      ]
+    }
+  ]
+}

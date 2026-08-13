@@ -1,0 +1,55 @@
+{
+  "id": "1388400",
+  "readings": [
+    {
+      "kanaExpression": "せんねん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "先年",
+      "furiganaExpression": [
+        {
+          "text": "先",
+          "annotation": "せん"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "former years",
+        "formerly",
+        "a few years ago"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vor einigen Jahren",
+        "vor ein paar Jahren",
+        "damals",
+        "früher",
+        "vor Jahr und Tag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "korábban"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[в] прежние годы; несколько лет назад"
+      ]
+    }
+  ]
+}

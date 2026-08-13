@@ -1,0 +1,47 @@
+{
+  "id": "1723990",
+  "readings": [
+    {
+      "kanaExpression": "びどう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "微動",
+      "furiganaExpression": [
+        {
+          "text": "微",
+          "annotation": "び"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "slight movement",
+        "slight tremor",
+        "quiver"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleine Bewegung",
+        "leichter Erdstoß",
+        "leichtes Erdbeben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лёгкое движение; небольшой толчок; слабое колебание (почвы)"
+      ]
+    }
+  ]
+}

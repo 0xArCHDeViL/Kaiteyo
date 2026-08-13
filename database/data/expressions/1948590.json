@@ -1,0 +1,44 @@
+{
+  "id": "1948590",
+  "readings": [
+    {
+      "kanaExpression": "りょうはんてん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "量販店",
+      "furiganaExpression": [
+        {
+          "text": "量",
+          "annotation": "りょう"
+        },
+        {
+          "text": "販",
+          "annotation": "はん"
+        },
+        {
+          "text": "店",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "volume retailer",
+        "mass marketer",
+        "emporium"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grossmarkt",
+        "Massenhändler"
+      ]
+    }
+  ]
+}

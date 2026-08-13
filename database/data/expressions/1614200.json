@@ -1,0 +1,69 @@
+{
+  "id": "1614200",
+  "readings": [
+    {
+      "kanaExpression": "かんぽう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "漢方",
+      "furiganaExpression": [
+        {
+          "text": "漢",
+          "annotation": "かん"
+        },
+        {
+          "text": "方",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 14651
+    },
+    {
+      "kanjiExpression": "漢法",
+      "furiganaExpression": [
+        {
+          "text": "漢",
+          "annotation": "かん"
+        },
+        {
+          "text": "法",
+          "annotation": "ぽう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "traditional Chinese medicine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "traditionele Chinese geneeskunde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kanpō",
+        "chinesische traditionelle Heilkunde"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "китайская медицина"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "medicina tradicional china"
+      ]
+    }
+  ]
+}

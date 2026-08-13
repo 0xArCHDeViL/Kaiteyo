@@ -1,0 +1,77 @@
+{
+  "id": "1358300",
+  "readings": [
+    {
+      "kanaExpression": "たべすぎる",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "食べ過ぎる",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "た"
+        },
+        {
+          "text": "べ"
+        },
+        {
+          "text": "過",
+          "annotation": "す"
+        },
+        {
+          "text": "ぎる"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "食べすぎる",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "た"
+        },
+        {
+          "text": "べすぎる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to overeat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(pop)s\u0027empiffrer",
+        "(pop)se gaver",
+        "(pop)se goinfrer",
+        "trop manger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zu viel essen",
+        "sich überessen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переедать; объедаться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comer demasiado"
+      ]
+    }
+  ]
+}

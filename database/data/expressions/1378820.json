@@ -1,0 +1,73 @@
+{
+  "id": "1378820",
+  "readings": [
+    {
+      "kanaExpression": "せいかがく",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "生化学",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "せい"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "biochemistry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "biochemie",
+        "{afk.} biochem."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Biochemie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "biokémia",
+        "életvegytan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "биохимия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bioquímica"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "biokemi"
+      ]
+    }
+  ]
+}

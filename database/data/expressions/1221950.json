@@ -1,0 +1,70 @@
+{
+  "id": "1221950",
+  "readings": [
+    {
+      "kanaExpression": "きおん",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "気温",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "温",
+          "annotation": "おん"
+        }
+      ],
+      "rank": 3609
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(air) temperature"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(buiten)temperatuur",
+        "temperatuur van de atmosfeer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "température atmosphérique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Temperatur",
+        "Lufttemperatur",
+        "Außentemperatur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "температура [воздуха]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "temperatura"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "temperatura atmosférica"
+      ]
+    }
+  ]
+}

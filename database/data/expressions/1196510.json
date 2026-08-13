@@ -1,0 +1,112 @@
+{
+  "id": "1196510",
+  "readings": [
+    {
+      "kanaExpression": "かすみ",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "霞",
+      "furiganaExpression": [
+        {
+          "text": "霞",
+          "annotation": "かすみ"
+        }
+      ],
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "翳み",
+      "furiganaExpression": [
+        {
+          "text": "翳",
+          "annotation": "かす"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "翳",
+      "furiganaExpression": [
+        {
+          "text": "翳",
+          "annotation": "かすみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "haze (esp. in spring)",
+        "mist",
+        "dimness (of sight)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waas",
+        "nevel",
+        "heiigheid",
+        "mist",
+        "{目の} vaagheid",
+        "wazigheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "brouillard"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dunst",
+        "Nebel",
+        "Augentrübung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "köd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) дымка, лёгкий туман",
+        "2) (см.) かすみあみ",
+        "3) (обр.) сакэ"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "megla",
+        "pršec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "neblina",
+        "niebla",
+        "calina",
+        "enturbiamiento de la vista",
+        "visión borrosa"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "dimma"
+      ]
+    }
+  ]
+}

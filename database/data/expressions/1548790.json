@@ -1,0 +1,58 @@
+{
+  "id": "1548790",
+  "readings": [
+    {
+      "kanaExpression": "らくせいしき",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "落成式",
+      "furiganaExpression": [
+        {
+          "text": "落",
+          "annotation": "らく"
+        },
+        {
+          "text": "成",
+          "annotation": "せい"
+        },
+        {
+          "text": "式",
+          "annotation": "しき"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ceremony to celebrate the completion of a building",
+        "inauguration ceremony"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inhuldigingsplechtigheid",
+        "inwijdingsfeest",
+        "openingsplechtigheid",
+        "plechtigheid bij de ingebruikneming van een gebouw"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einweihungsfeier",
+        "Fertigstellungsfeier"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "празднование окончания (строительства)"
+      ]
+    }
+  ]
+}

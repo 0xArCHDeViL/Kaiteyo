@@ -1,0 +1,74 @@
+{
+  "id": "1348960",
+  "readings": [
+    {
+      "kanaExpression": "しょうがく",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "少額",
+      "furiganaExpression": [
+        {
+          "text": "少",
+          "annotation": "しょう"
+        },
+        {
+          "text": "額",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 13015
+    },
+    {
+      "kanjiExpression": "小額",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "額",
+          "annotation": "がく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "small sum (of money)",
+        "small amount",
+        "small denomination (banknote, coin, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "klein bedrag",
+        "kleine som",
+        "kleintje",
+        "habbekrats",
+        "prik(je)",
+        "schijntje",
+        "kleinigheid",
+        "{muntw.} kleine coupure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleine Geldmenge",
+        "kleiner Betrag",
+        "geringer Betrag",
+        "niedriger Betrag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "небольшая (мелкая) сумма"
+      ]
+    }
+  ]
+}

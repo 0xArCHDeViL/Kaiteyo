@@ -1,0 +1,63 @@
+{
+  "id": "1303120",
+  "readings": [
+    {
+      "kanaExpression": "やまはだ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "山肌",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "肌",
+          "annotation": "はだ"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "山膚",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "膚",
+          "annotation": "はだ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "山はだ",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "はだ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mountain\u0027s surface",
+        "bare surface of a mountain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bergoberfläche"
+      ]
+    }
+  ]
+}

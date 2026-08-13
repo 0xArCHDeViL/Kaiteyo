@@ -1,0 +1,75 @@
+{
+  "id": "1154820",
+  "readings": [
+    {
+      "kanaExpression": "あんがい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "案外",
+      "furiganaExpression": [
+        {
+          "text": "案",
+          "annotation": "あん"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 6033
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unexpectedly",
+        "surprisingly",
+        "unexpected",
+        "unanticipated",
+        "unforeseen",
+        "surprising"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onverwacht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "à l\u0027improviste",
+        "de façon inattendu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unerwartet",
+        "wider Erwarten",
+        "Unerwartetheit",
+        "Überraschendheit",
+        "Unhöflichkeit",
+        "Unachtsamkeit",
+        "überraschenderweise",
+        "überraschend"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неожиданно, против (сверх) ожидания, вопреки предположениям",
+        "{～な} неожиданный, непредвиденный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inesperadamente"
+      ]
+    }
+  ]
+}

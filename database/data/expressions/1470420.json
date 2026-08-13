@@ -1,0 +1,94 @@
+{
+  "id": "1470420",
+  "readings": [
+    {
+      "kanaExpression": "のうこうそく",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "脳梗塞",
+      "furiganaExpression": [
+        {
+          "text": "脳",
+          "annotation": "のう"
+        },
+        {
+          "text": "梗",
+          "annotation": "こう"
+        },
+        {
+          "text": "塞",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "脳硬塞",
+      "furiganaExpression": [
+        {
+          "text": "脳",
+          "annotation": "のう"
+        },
+        {
+          "text": "硬",
+          "annotation": "こう"
+        },
+        {
+          "text": "塞",
+          "annotation": "そく"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "脳こうそく",
+      "furiganaExpression": [
+        {
+          "text": "脳",
+          "annotation": "のう"
+        },
+        {
+          "text": "こうそく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cerebral infarction",
+        "(ischemic) stroke"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zerebralinfarkt",
+        "Hirninfarkt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "agyi infarktus",
+        "cirógatás",
+        "felvillanás",
+        "karcsapás",
+        "kartempó",
+        "kedvező helyzet",
+        "löket",
+        "simogatás",
+        "szélhűdés",
+        "ütem",
+        "váratlan helyzet"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hjärninfarkt"
+      ]
+    }
+  ]
+}

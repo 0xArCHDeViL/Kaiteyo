@@ -1,0 +1,58 @@
+{
+  "id": "1185230",
+  "readings": [
+    {
+      "kanaExpression": "したてなげ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "下手投げ",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "した"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "投",
+          "annotation": "な"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "underhand throw",
+        "underarm throw"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sumō-jargon} onderarmse worp",
+        "{honkb.} onderarmse worp"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterarmwurf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бросок (мяча) из-под руки (в бейсболе); бросок снизу (в борьбе сумо)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "1716950",
+  "readings": [
+    {
+      "kanaExpression": "ちょうりつし",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "調律師",
+      "furiganaExpression": [
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "律",
+          "annotation": "りつ"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "piano tuner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stimmer",
+        "Instrumentenstimmer (Klavier etc.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "настройщик [музыкальных инструментов]"
+      ]
+    }
+  ]
+}

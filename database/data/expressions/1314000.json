@@ -1,0 +1,71 @@
+{
+  "id": "1314000",
+  "readings": [
+    {
+      "kanaExpression": "じしょう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "事象",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "象",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 7525
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "event",
+        "phenomenon",
+        "matter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fenomeen",
+        "verschijnsel",
+        "gebeurtenis",
+        "voorval",
+        "{wisk.",
+        "kansberekening} uitkomst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Phänomen",
+        "Erscheinung",
+        "Geschehen",
+        "Vorgang",
+        "Ereignis",
+        "Zufallsereignis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szedés",
+        "tárgy",
+        "téma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) явление, феномен",
+        "2) обстоятельство"
+      ]
+    }
+  ]
+}

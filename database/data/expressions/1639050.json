@@ -1,0 +1,76 @@
+{
+  "id": "1639050",
+  "readings": [
+    {
+      "kanaExpression": "はいしん",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "配信",
+      "furiganaExpression": [
+        {
+          "text": "配",
+          "annotation": "はい"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 2411
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "distribution (of information, news, etc.)",
+        "broadcast",
+        "delivery",
+        "transmission",
+        "streaming (over the Internet)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nieuwsdistributie",
+        "informatiedistributie",
+        "nieuwsverspreiding",
+        "informatieverspreiding",
+        "nieuws distribueren",
+        "informatie verspreiden",
+        "een bericht doorgeven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verteilung von Informationen (durch Nachrichtenagenturen, Zeitung, Rundfunk etc.)",
+        "Verteilung",
+        "Distribution",
+        "Vertrieb (auf elektronischem Wege)",
+        "verteilen (Informationen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "disztribúció",
+        "eloszlás",
+        "eloszlatás",
+        "megoszlás",
+        "szétosztás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "distribución",
+        "reparto",
+        "transmisión",
+        "provisión"
+      ]
+    }
+  ]
+}

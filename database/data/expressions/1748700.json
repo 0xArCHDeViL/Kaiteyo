@@ -1,0 +1,47 @@
+{
+  "id": "1748700",
+  "readings": [
+    {
+      "kanaExpression": "ふどうひょう",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "浮動票",
+      "furiganaExpression": [
+        {
+          "text": "浮",
+          "annotation": "ふ"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        },
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "swing vote"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stimmen von Wechselwählern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "текучие голоса (не связанные с постоянной партией или определённым кандидатом)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "1494200",
+  "readings": [
+    {
+      "kanaExpression": "ふとうめい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "不透明",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "透",
+          "annotation": "とう"
+        },
+        {
+          "text": "明",
+          "annotation": "めい"
+        }
+      ],
+      "rank": 10650
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "opaque",
+        "obscure",
+        "murky",
+        "turbid",
+        "opacity",
+        "obscurity",
+        "unclear",
+        "unpredictable",
+        "uncertain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ondoorschijnend",
+        "ondoorzichtig",
+        "opaak",
+        "troebel",
+        "{i.h.b.} gewolkt",
+        "ondoorschijnendheid",
+        "ondoorzichtigheid",
+        "opaciteit",
+        "troebelheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "opacité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "undurchsichtig",
+        "trübe",
+        "opak",
+        "unklar",
+        "ungewiss",
+        "Undurchsichtigkeit",
+        "Opazität",
+        "Unklarheit",
+        "Ungewissheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átlátszatlanság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～な} непрозрачный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "motnost",
+        "nejasnost",
+        "nerazumljivost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "opacidad",
+        "opaco"
+      ]
+    }
+  ]
+}

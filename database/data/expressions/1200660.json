@@ -1,0 +1,70 @@
+{
+  "id": "1200660",
+  "readings": [
+    {
+      "kanaExpression": "かいげんれい",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "戒厳令",
+      "furiganaExpression": [
+        {
+          "text": "戒",
+          "annotation": "かい"
+        },
+        {
+          "text": "厳",
+          "annotation": "げん"
+        },
+        {
+          "text": "令",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "martial law"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "krijgswet",
+        "staat van beleg"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausnahmezustand",
+        "Kriegsrecht",
+        "Belagerungszustand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hadijog",
+        "rögtönítélő bíráskodás",
+        "statárium"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приказ о введении военного (осадного, чрезвычайного) положения"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ley marcial"
+      ]
+    }
+  ]
+}

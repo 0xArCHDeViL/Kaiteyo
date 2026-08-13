@@ -1,0 +1,50 @@
+{
+  "id": "1503530",
+  "readings": [
+    {
+      "kanaExpression": "ぶんこう",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "分校",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "校",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "branch school"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bijschool",
+        "deelschool"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zweigschule"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отделение школы (училища)"
+      ]
+    }
+  ]
+}

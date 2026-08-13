@@ -1,0 +1,67 @@
+{
+  "id": "1545090",
+  "readings": [
+    {
+      "kanaExpression": "ようへい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "傭兵",
+      "furiganaExpression": [
+        {
+          "text": "傭",
+          "annotation": "よう"
+        },
+        {
+          "text": "兵",
+          "annotation": "へい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mercenary (soldier)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} huursoldaat",
+        "huurling",
+        "mercenair",
+        "{verzameln.} huurtroepen",
+        "huurleger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Söldner",
+        "Söldling"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kalmárszellemű",
+        "zsoldos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наёмные войска; наёмный солдат"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mercenario (soldado)"
+      ]
+    }
+  ]
+}

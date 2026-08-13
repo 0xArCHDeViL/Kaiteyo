@@ -1,0 +1,132 @@
+{
+  "id": "1598590",
+  "readings": [
+    {
+      "kanaExpression": "といあわせ",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "問い合わせ",
+      "furiganaExpression": [
+        {
+          "text": "問",
+          "annotation": "と"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせ"
+        }
+      ],
+      "rank": 2317
+    },
+    {
+      "kanjiExpression": "問い合せ",
+      "furiganaExpression": [
+        {
+          "text": "問",
+          "annotation": "と"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "合",
+          "annotation": "あわ"
+        },
+        {
+          "text": "せ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "問合わせ",
+      "furiganaExpression": [
+        {
+          "text": "問",
+          "annotation": "とい"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inquiry",
+        "query",
+        "enquiry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "navraag",
+        "raadpleging",
+        "verzoek om informatie",
+        "{veroud.} bevraging",
+        "{w.g.} ondervraging"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "demande de renseignements",
+        "question",
+        "interrogation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anfrage",
+        "Erkundigung",
+        "Abfrage",
+        "Query (einer Datenbank)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érdeklődés",
+        "kérdezősködés",
+        "nyomozás",
+        "tudakozódás",
+        "vizsgálat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запрос, справка",
+        "запрос",
+        "справка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "povpraševanje po informacijah"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "averiguación (indagatoria",
+        "interrogación)"
+      ]
+    }
+  ]
+}

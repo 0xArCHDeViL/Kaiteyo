@@ -1,0 +1,53 @@
+{
+  "id": "1214490",
+  "readings": [
+    {
+      "kanaExpression": "かんしょう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "緩衝",
+      "furiganaExpression": [
+        {
+          "text": "緩",
+          "annotation": "かん"
+        },
+        {
+          "text": "衝",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shock absorption",
+        "buffer action",
+        "cushioning",
+        "buffer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "buffer-"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "puffern",
+        "Puffer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "амортизация"
+      ]
+    }
+  ]
+}

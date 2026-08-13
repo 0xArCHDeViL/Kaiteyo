@@ -1,0 +1,87 @@
+{
+  "id": "1192270",
+  "readings": [
+    {
+      "kanaExpression": "やちん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "家賃",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "や"
+        },
+        {
+          "text": "賃",
+          "annotation": "ちん"
+        }
+      ],
+      "rank": 6292
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rent"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "huishuur",
+        "huur",
+        "huurgeld",
+        "huursom",
+        "huurprijs"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "loyer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Miete",
+        "Hausmiete",
+        "Wohnungsmiete"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bérleti díj",
+        "lakbér"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "квартирная плата"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "najem, najemnina (hiše)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alquiler (casa)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "avgäld",
+        "hyra"
+      ]
+    }
+  ]
+}

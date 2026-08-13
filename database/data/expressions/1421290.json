@@ -1,0 +1,91 @@
+{
+  "id": "1421290",
+  "readings": [
+    {
+      "kanaExpression": "ちず",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "地図",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "図",
+          "annotation": "ず"
+        }
+      ],
+      "rank": 2546
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "map",
+        "atlas",
+        "chart",
+        "plan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "landkaart",
+        "kaart",
+        "{i.h.b.} plattegrond",
+        "{i.h.b.} plan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "carte",
+        "plan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Karte",
+        "Landkarte",
+        "Plan",
+        "Stadtplan",
+        "Atlas"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "térkép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "карта; план (города); атлас"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zemljevid"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mapa"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "karta",
+        "landkarta"
+      ]
+    }
+  ]
+}

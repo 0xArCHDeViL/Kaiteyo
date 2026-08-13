@@ -1,0 +1,55 @@
+{
+  "id": "1534680",
+  "readings": [
+    {
+      "kanaExpression": "もくせい",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "木星",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "もく"
+        },
+        {
+          "text": "星",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 14210
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Jupiter (planet)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{astron.} Jupiter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jupiter (fünfter und größter Planet unseres Sonnensystems)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(астр.) Юпитер"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Júpiter (planeta)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "1655150",
+  "readings": [
+    {
+      "kanaExpression": "やえい",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "野営",
+      "furiganaExpression": [
+        {
+          "text": "野",
+          "annotation": "や"
+        },
+        {
+          "text": "営",
+          "annotation": "えい"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "camping",
+        "campground",
+        "making camp"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het kamperen",
+        "kamp",
+        "kampement",
+        "legerplaats",
+        "kampeerplaats",
+        "kamperen",
+        "zich legeren",
+        "z\u0027n kamp opslaan",
+        "{i.h.b.} bivakkeren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Biwak",
+        "Lager",
+        "das Biwak aufstellen",
+        "biwakieren",
+        "lagern",
+        "campieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "táborhely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лагерь; бивак",
+        "{～する} располагаться лагерем; разбивать бивак"
+      ]
+    }
+  ]
+}

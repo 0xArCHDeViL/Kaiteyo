@@ -1,0 +1,58 @@
+{
+  "id": "1360880",
+  "readings": [
+    {
+      "kanaExpression": "しんでんず",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "心電図",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "図",
+          "annotation": "ず"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "electrocardiogram",
+        "ECG",
+        "EKG"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} elektrocardiogram",
+        "hartfilm",
+        "hartfilmpje",
+        "ecg"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Elektrokardiogramm (Abk.: EKG)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) электрокардиограмма"
+      ]
+    }
+  ]
+}

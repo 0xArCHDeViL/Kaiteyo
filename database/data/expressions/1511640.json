@@ -1,0 +1,84 @@
+{
+  "id": "1511640",
+  "readings": [
+    {
+      "kanaExpression": "かたこと",
+      "rank": 30000
+    },
+    {
+      "kanaExpression": "カタコト"
+    },
+    {
+      "kanjiExpression": "片言",
+      "furiganaExpression": [
+        {
+          "text": "片",
+          "annotation": "かた"
+        },
+        {
+          "text": "言",
+          "annotation": "こと"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prattle",
+        "broken language",
+        "halting language",
+        "baby talk",
+        "imperfect speech",
+        "smattering"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gebrabbel",
+        "spraakvermogen als van een kind",
+        "koeterwaals",
+        "kromspraak",
+        "kromme",
+        "gebroken",
+        "gebrekkige taal",
+        "{i.h.b.} kinderpraat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gelalle",
+        "Gebabbel",
+        "Geplapper",
+        "gebrochenes Sprechen",
+        "Dialekt",
+        "Akzent"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) лепет",
+        "2) (см.) かたくち 3"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kolebavo govorjenje",
+        "površno znanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "chapurreo",
+        "balbuceo"
+      ]
+    }
+  ]
+}

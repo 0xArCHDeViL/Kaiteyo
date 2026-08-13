@@ -1,0 +1,63 @@
+{
+  "id": "1734980",
+  "readings": [
+    {
+      "kanaExpression": "てきせいけんさ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "適性検査",
+      "furiganaExpression": [
+        {
+          "text": "適",
+          "annotation": "てき"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        },
+        {
+          "text": "検",
+          "annotation": "けん"
+        },
+        {
+          "text": "査",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "aptitude test"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eignungstest"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alkalmassági vizsga"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проверочное испытание (напр. к занятию должности)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "anlagsprov"
+      ]
+    }
+  ]
+}

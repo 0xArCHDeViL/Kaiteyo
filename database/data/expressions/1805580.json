@@ -1,0 +1,45 @@
+{
+  "id": "1805580",
+  "readings": [
+    {
+      "kanaExpression": "しなかず",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "品数",
+      "furiganaExpression": [
+        {
+          "text": "品",
+          "annotation": "しな"
+        },
+        {
+          "text": "数",
+          "annotation": "かず"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "variety of goods",
+        "number of articles"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zahl der Artikel",
+        "Sortiment"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ассортимент"
+      ]
+    }
+  ]
+}

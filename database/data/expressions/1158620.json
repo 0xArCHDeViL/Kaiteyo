@@ -1,0 +1,63 @@
+{
+  "id": "1158620",
+  "readings": [
+    {
+      "kanaExpression": "いつう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "胃痛",
+      "furiganaExpression": [
+        {
+          "text": "胃",
+          "annotation": "い"
+        },
+        {
+          "text": "痛",
+          "annotation": "つう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stomach-ache",
+        "stomach pain",
+        "gastralgia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} maagpijn",
+        "pijn in de buik",
+        "buikpijn",
+        "maagklachten",
+        "gastralgie",
+        "koliek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Magenschmerzen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "боль в желудке"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dolor estomacal",
+        "gastralgia"
+      ]
+    }
+  ]
+}

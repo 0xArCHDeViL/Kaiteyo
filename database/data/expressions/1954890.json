@@ -1,0 +1,43 @@
+{
+  "id": "1954890",
+  "readings": [
+    {
+      "kanaExpression": "むこくせき",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "無国籍",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "籍",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "statelessness",
+        "stateless"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "staatenlos",
+        "Staatenlosigkeit"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "1205440",
+  "readings": [
+    {
+      "kanaExpression": "かくとう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "格闘",
+      "furiganaExpression": [
+        {
+          "text": "格",
+          "annotation": "かく"
+        },
+        {
+          "text": "闘",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 7890
+    },
+    {
+      "kanjiExpression": "挌闘",
+      "furiganaExpression": [
+        {
+          "text": "挌",
+          "annotation": "かく"
+        },
+        {
+          "text": "闘",
+          "annotation": "とう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "格鬪",
+      "furiganaExpression": [
+        {
+          "text": "格",
+          "annotation": "かく"
+        },
+        {
+          "text": "鬪",
+          "annotation": "とう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(hand-to-hand) fight",
+        "grapple",
+        "scuffle",
+        "tussle",
+        "struggling (with a problem, task, etc.)",
+        "grappling",
+        "wrestling",
+        "getting to grips (with)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vechten (met)",
+        "strijden (met)",
+        "de strijd aangaan (met)",
+        "worstelen (met)",
+        "gevecht",
+        "strijd",
+        "worsteling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "combat corps à corps",
+        "rixe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich balgen",
+        "sich raufen",
+        "Handgemenge",
+        "Handgreiflichkeit",
+        "Rauferei",
+        "Tätlichkeit",
+        "Auseinandersetzung (mit einem Problem)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "драка, схватка; рукопашный бой",
+        "{～する} драться, схватиться, сцепиться; биться врукопашную"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pretep",
+        "ravs",
+        "prerivanje",
+        "trk",
+        "trčenje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lucha cuerpo a cuerpo"
+      ]
+    }
+  ]
+}

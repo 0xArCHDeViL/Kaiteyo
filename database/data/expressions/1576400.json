@@ -1,0 +1,102 @@
+{
+  "id": "1576400",
+  "readings": [
+    {
+      "kanaExpression": "みぎがわ",
+      "rank": 22500
+    },
+    {
+      "kanaExpression": "うそく"
+    },
+    {
+      "kanaExpression": "みぎっかわ"
+    },
+    {
+      "kanjiExpression": "右側",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "みぎ"
+        },
+        {
+          "text": "側",
+          "annotation": "がわ"
+        }
+      ],
+      "rank": 6154
+    },
+    {
+      "kanjiExpression": "右がわ",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "みぎ"
+        },
+        {
+          "text": "がわ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "右っかわ",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "みぎ"
+        },
+        {
+          "text": "っかわ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "right side",
+        "right-hand side"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "côté droit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rechte Seite",
+        "Rechte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jobb kéz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "правая сторона",
+        "1) правая сторона",
+        "{～の} находящийся справа",
+        "2) (воен.) правый фланг"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "desna (stran)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lado derecho"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "1324350",
+  "readings": [
+    {
+      "kanaExpression": "わかもの",
+      "rank": 16000
+    },
+    {
+      "kanaExpression": "わかもん"
+    },
+    {
+      "kanjiExpression": "若者",
+      "furiganaExpression": [
+        {
+          "text": "若",
+          "annotation": "わか"
+        },
+        {
+          "text": "者",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 1721
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "young person",
+        "youngster",
+        "young people",
+        "(the) youth"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jongere",
+        "jongmens",
+        "jongeling",
+        "{verzameln.} jeugd",
+        "jongelui",
+        "jonge mensen",
+        "jonge mannen en vrouwen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jeune homme",
+        "jeune personne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "junger Mann",
+        "Jugendlicher",
+        "Jugend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fiú",
+        "legény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "молодой человек; молодёжь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "mladina",
+        "mlad človek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "joven",
+        "muchacho"
+      ]
+    }
+  ]
+}

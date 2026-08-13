@@ -1,0 +1,62 @@
+{
+  "id": "1174040",
+  "readings": [
+    {
+      "kanaExpression": "えいようそ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "栄養素",
+      "furiganaExpression": [
+        {
+          "text": "栄",
+          "annotation": "えい"
+        },
+        {
+          "text": "養",
+          "annotation": "よう"
+        },
+        {
+          "text": "素",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nutrient"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voedingsstof",
+        "voedingselement",
+        "brandstof",
+        "nutriënt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nährstoff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tápláló"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nutriente"
+      ]
+    }
+  ]
+}

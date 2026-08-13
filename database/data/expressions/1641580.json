@@ -1,0 +1,64 @@
+{
+  "id": "1641580",
+  "readings": [
+    {
+      "kanaExpression": "みいり",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "実入り",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "み"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "crop",
+        "harvest",
+        "ripeness",
+        "income",
+        "profits",
+        "loaded (e.g. intermodal containers in the transport industry)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ernte",
+        "Einkünfte",
+        "Einkommen",
+        "Profit",
+        "Gewinn",
+        "Verdienst"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "termés",
+        "betakarítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сбор, урожай",
+        "2) доход; заработки; прибыль"
+      ]
+    }
+  ]
+}

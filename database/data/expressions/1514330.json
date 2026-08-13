@@ -1,0 +1,105 @@
+{
+  "id": "1514330",
+  "readings": [
+    {
+      "kanaExpression": "あゆみ",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "歩み",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "あゆ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 10739
+    },
+    {
+      "kanjiExpression": "歩",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "あゆみ"
+        }
+      ],
+      "rank": 2136
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "walking",
+        "pace",
+        "step",
+        "course (of history, one\u0027s life, etc.)",
+        "history",
+        "progress",
+        "advance",
+        "development",
+        "pitch (of a screw, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het wandelen",
+        "het gaan",
+        "gang",
+        "tempo",
+        "tred",
+        "pace",
+        "ritme",
+        "ontwikkelingsgang",
+        "loop",
+        "verloop",
+        "{i.h.b.} geschiedenis",
+        "{Belg.N.} historiek"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schritt",
+        "Gehen",
+        "Schreiten",
+        "Gang",
+        "Tritt",
+        "Fortschritt",
+        "Verlauf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyaloglás",
+        "séta",
+        "előmenetel",
+        "haladás",
+        "előleg",
+        "előrehaladás",
+        "előzetes",
+        "fejlődés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шаг, поступь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "paso",
+        "andar",
+        "curso",
+        "recorrido"
+      ]
+    }
+  ]
+}

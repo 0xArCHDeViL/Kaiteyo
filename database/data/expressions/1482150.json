@@ -1,0 +1,44 @@
+{
+  "id": "1482150",
+  "readings": [
+    {
+      "kanaExpression": "ばんこん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "晩婚",
+      "furiganaExpression": [
+        {
+          "text": "晩",
+          "annotation": "ばん"
+        },
+        {
+          "text": "婚",
+          "annotation": "こん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "late marriage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "späte Heirat",
+        "Heirat im hohen Alter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поздний брак"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1288430",
+  "readings": [
+    {
+      "kanaExpression": "ようつう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "腰痛",
+      "furiganaExpression": [
+        {
+          "text": "腰",
+          "annotation": "よう"
+        },
+        {
+          "text": "痛",
+          "annotation": "つう"
+        }
+      ],
+      "rank": 12352
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lower back pain",
+        "lumbago"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} lendenpijn",
+        "lendenschot",
+        "spit",
+        "lumbago",
+        "pijn in de rug",
+        "lenden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lumbago",
+        "Hexenschuss",
+        "Rückenschmerzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ágyékzsába",
+        "derékzsába",
+        "hexensussz",
+        "keresztcsont-fájás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) люмбаго, прострел"
+      ]
+    }
+  ]
+}

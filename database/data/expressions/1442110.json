@@ -1,0 +1,101 @@
+{
+  "id": "1442110",
+  "readings": [
+    {
+      "kanaExpression": "でんせん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "伝染",
+      "furiganaExpression": [
+        {
+          "text": "伝",
+          "annotation": "でん"
+        },
+        {
+          "text": "染",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "contagion",
+        "infection"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "besmettelijk zijn",
+        "infectueus zijn",
+        "infectieus zijn",
+        "contagieus zijn",
+        "aanstekelijk zijn",
+        "{bij uitbr.; oneig.} overerfelijk zijn",
+        "besmetten",
+        "aansteken",
+        "infecteren",
+        "{inform.",
+        "scherts.} aanpoten",
+        "aanslaan",
+        "aanstekelijk werken",
+        "besmetting",
+        "infectie",
+        "contagie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "contagion",
+        "infection"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich infizieren",
+        "sich anstecken",
+        "Infektion",
+        "Ansteckung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fertőző betegség",
+        "fertőzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зараза, инфекция",
+        "{～する} а) быть заразным (о болезни); б) заразиться (о человеке)",
+        "{～させる} заражать; распространять инфекцию"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "infekcija",
+        "kontaminacija",
+        "nalezljivost",
+        "prenosen",
+        "prenašati se",
+        "širiti se"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "contagio"
+      ]
+    }
+  ]
+}

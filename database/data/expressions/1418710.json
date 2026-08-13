@@ -1,0 +1,43 @@
+{
+  "id": "1418710",
+  "readings": [
+    {
+      "kanaExpression": "たんし",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "短詩",
+      "furiganaExpression": [
+        {
+          "text": "短",
+          "annotation": "たん"
+        },
+        {
+          "text": "詩",
+          "annotation": "し"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "verselet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kurzgedicht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "короткое стихотворение (европейского типа)"
+      ]
+    }
+  ]
+}

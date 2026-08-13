@@ -1,0 +1,48 @@
+{
+  "id": "1512280",
+  "readings": [
+    {
+      "kanaExpression": "へんそう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "返送",
+      "furiganaExpression": [
+        {
+          "text": "返",
+          "annotation": "へん"
+        },
+        {
+          "text": "送",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sending back",
+        "return to sender"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurückschicken",
+        "zurücksenden",
+        "Rücksendung",
+        "Zurückschickung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возвращение, отсылка (высылка) обратно",
+        "{～する} возвращать, отсылать обратно"
+      ]
+    }
+  ]
+}

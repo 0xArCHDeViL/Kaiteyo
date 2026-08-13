@@ -1,0 +1,56 @@
+{
+  "id": "1615180",
+  "readings": [
+    {
+      "kanaExpression": "ぼっかてき",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "牧歌的",
+      "furiganaExpression": [
+        {
+          "text": "牧",
+          "annotation": "ぼっ"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pastoral",
+        "idyllic"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "pastoral",
+        "bukolisch",
+        "idyllisch",
+        "Hirten…",
+        "Schäfer…"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lelkészi",
+        "pásztor-",
+        "pásztordal",
+        "pásztori",
+        "idillikus"
+      ]
+    }
+  ]
+}

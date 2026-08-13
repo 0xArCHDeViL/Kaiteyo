@@ -1,0 +1,112 @@
+{
+  "id": "1427830",
+  "readings": [
+    {
+      "kanaExpression": "はりだし",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "張り出し",
+      "furiganaExpression": [
+        {
+          "text": "張",
+          "annotation": "は"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "張出し",
+      "furiganaExpression": [
+        {
+          "text": "張",
+          "annotation": "はり"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "張り出",
+      "furiganaExpression": [
+        {
+          "text": "張",
+          "annotation": "は"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "出",
+          "annotation": "だし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "張出",
+      "furiganaExpression": [
+        {
+          "text": "張",
+          "annotation": "はり"
+        },
+        {
+          "text": "出",
+          "annotation": "だし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "overhang",
+        "poster",
+        "placard",
+        "notice",
+        "extra third or fourth wrestler of certain rank"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Plakat",
+        "Anschlag",
+        "Aushang",
+        "Überhang",
+        "etw., das über das Fundament hinausragt",
+        "etw. Erkerartiges"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "figyelem",
+        "plakát"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) выступ, свес",
+        "2) запасной борец (в борьбе сумо)",
+        "3) (см.) はりだし【貼出し】"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1578160",
+  "readings": [
+    {
+      "kanaExpression": "きゅうじゅう",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "くじゅう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "九十",
+      "furiganaExpression": [
+        {
+          "text": "九",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "十",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 18000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ninety",
+        "90"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "neunzig"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "девяносто"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "noventa"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "nittio"
+      ]
+    }
+  ]
+}

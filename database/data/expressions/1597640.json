@@ -1,0 +1,94 @@
+{
+  "id": "1597640",
+  "readings": [
+    {
+      "kanaExpression": "ちょうちょう",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ちょうちょ"
+    },
+    {
+      "kanaExpression": "チョウチョウ"
+    },
+    {
+      "kanaExpression": "チョウチョ"
+    },
+    {
+      "kanjiExpression": "蝶々",
+      "furiganaExpression": [
+        {
+          "text": "蝶",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "々",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "蝶蝶",
+      "furiganaExpression": [
+        {
+          "text": "蝶",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "蝶",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "butterfly"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "papillon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schmetterling",
+        "Chōchō (wörtl. „Schmetterling“; japan. Kinderlied mit der Melodie von „Hänschen Klein“)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lepke",
+        "pillangó",
+        "pillangóúszás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бабочка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mariposa"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "dagfjäril",
+        "fjäril"
+      ]
+    }
+  ]
+}

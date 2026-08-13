@@ -1,0 +1,121 @@
+{
+  "id": "1490140",
+  "readings": [
+    {
+      "kanaExpression": "びょうしゃ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "描写",
+      "furiganaExpression": [
+        {
+          "text": "描",
+          "annotation": "びょう"
+        },
+        {
+          "text": "写",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 4699
+    },
+    {
+      "kanjiExpression": "描寫",
+      "furiganaExpression": [
+        {
+          "text": "描",
+          "annotation": "びょう"
+        },
+        {
+          "text": "寫",
+          "annotation": "しゃ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depiction",
+        "description",
+        "portrayal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beschrijven",
+        "afschilderen",
+        "afbeelden",
+        "in beeld brengen",
+        "schilderen",
+        "voorstellen",
+        "beschrijving",
+        "afschildering",
+        "voorstelling",
+        "portrettering",
+        "afbeelding",
+        "tekening",
+        "schildering",
+        "descriptie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "description",
+        "portrait",
+        "représentation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schildern",
+        "beschreiben",
+        "Schilderung",
+        "Beschreibung",
+        "Darstellung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "féle",
+        "leírás",
+        "ábrázolás",
+        "alakítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "изображение, описание",
+        "{～する} рисовать, изображать, описывать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "slika",
+        "opis",
+        "upodobitev",
+        "opisati",
+        "upodobiti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "descripción (retrato)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "avbildning"
+      ]
+    }
+  ]
+}

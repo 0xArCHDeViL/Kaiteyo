@@ -1,0 +1,48 @@
+{
+  "id": "1271030",
+  "readings": [
+    {
+      "kanaExpression": "ごかん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "語感",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "感",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sense of language",
+        "feeling of a word",
+        "impression a word makes",
+        "nuance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sprachgefühl",
+        "Nuance",
+        "Konnotation"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чувство языка ((калька нем.) Sprachgefühl)"
+      ]
+    }
+  ]
+}

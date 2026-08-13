@@ -1,0 +1,52 @@
+{
+  "id": "1872560",
+  "readings": [
+    {
+      "kanaExpression": "くもりぞら",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "曇り空",
+      "furiganaExpression": [
+        {
+          "text": "曇",
+          "annotation": "くも"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "空",
+          "annotation": "ぞら"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cloudy sky",
+        "overcast sky"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "betrokken lucht",
+        "bewolkte hemel",
+        "bedekte hemel",
+        "wolkenlucht",
+        "wolkenhemel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bewölkter Himmel",
+        "Wolkenhimmel"
+      ]
+    }
+  ]
+}

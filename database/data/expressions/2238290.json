@@ -1,0 +1,106 @@
+{
+  "id": "2238290",
+  "readings": [
+    {
+      "kanaExpression": "よくあるごしつもん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "よくあるご質問",
+      "furiganaExpression": [
+        {
+          "text": "よくあるご"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "良くあるご質問",
+      "furiganaExpression": [
+        {
+          "text": "良",
+          "annotation": "よ"
+        },
+        {
+          "text": "くあるご"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "よくある御質問",
+      "furiganaExpression": [
+        {
+          "text": "よくある"
+        },
+        {
+          "text": "御",
+          "annotation": "ご"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "良くある御質問",
+      "furiganaExpression": [
+        {
+          "text": "良",
+          "annotation": "よ"
+        },
+        {
+          "text": "くある"
+        },
+        {
+          "text": "御",
+          "annotation": "ご"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "frequently asked questions",
+        "FAQ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "preguntas más frecuentes",
+        "FAQ (acrónimo del inglés Frequently Asked Questions)"
+      ]
+    }
+  ]
+}

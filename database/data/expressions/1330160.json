@@ -1,0 +1,95 @@
+{
+  "id": "1330160",
+  "readings": [
+    {
+      "kanaExpression": "じゅもん",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "呪文",
+      "furiganaExpression": [
+        {
+          "text": "呪",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "文",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 11966
+    },
+    {
+      "kanjiExpression": "じゅ文",
+      "furiganaExpression": [
+        {
+          "text": "じゅ"
+        },
+        {
+          "text": "文",
+          "annotation": "もん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spell",
+        "charm",
+        "incantation",
+        "magic word"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "toverspreuk",
+        "toverformule",
+        "spreuk",
+        "bezweringsformule",
+        "bezwering",
+        "betovering",
+        "incantatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zauberspruch",
+        "Beschwörungsformel",
+        "Bannspruch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bűbáj",
+        "bűvige",
+        "forduló",
+        "időtartam",
+        "munkaszakasz",
+        "rövid idő",
+        "rövid időszak",
+        "szakmány",
+        "varázs",
+        "varázslat",
+        "bűvölet",
+        "vonzerő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заклинание"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hechizo"
+      ]
+    }
+  ]
+}

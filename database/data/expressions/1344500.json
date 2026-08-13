@@ -1,0 +1,65 @@
+{
+  "id": "1344500",
+  "readings": [
+    {
+      "kanaExpression": "すけっと",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "助っ人",
+      "furiganaExpression": [
+        {
+          "text": "助",
+          "annotation": "すけ"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "人",
+          "annotation": "と"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "helper",
+        "supporter",
+        "second",
+        "backer",
+        "foreign player (hired to strengthen a team)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "helper",
+        "assistent",
+        "hulp"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Helfer",
+        "Unterstützer",
+        "Sekundant"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alátámasztás",
+        "szurkoló",
+        "támasz",
+        "támaszték",
+        "támogató",
+        "csendestárs"
+      ]
+    }
+  ]
+}

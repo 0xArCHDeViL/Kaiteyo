@@ -1,0 +1,104 @@
+{
+  "id": "1251860",
+  "readings": [
+    {
+      "kanaExpression": "つぎめ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "継ぎ目",
+      "furiganaExpression": [
+        {
+          "text": "継",
+          "annotation": "つ"
+        },
+        {
+          "text": "ぎ"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "継目",
+      "furiganaExpression": [
+        {
+          "text": "継",
+          "annotation": "つぎ"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "joint",
+        "seam",
+        "joining point"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verbindingsstuk",
+        "verbinding",
+        "voeg",
+        "las",
+        "naad"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fuge",
+        "Verbindungsstelle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyesített",
+        "görcs",
+        "közös",
+        "társas",
+        "varrás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) шов; место соединения (двух кусков чего-л.); стык",
+        "2) (бот.) место прививки"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sklep",
+        "zgib",
+        "šiv"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "junta",
+        "costura"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fog"
+      ]
+    }
+  ]
+}

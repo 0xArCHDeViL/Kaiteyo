@@ -1,0 +1,58 @@
+{
+  "id": "1294030",
+  "readings": [
+    {
+      "kanaExpression": "さいしょうげんど",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "最小限度",
+      "furiganaExpression": [
+        {
+          "text": "最",
+          "annotation": "さい"
+        },
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "限",
+          "annotation": "げん"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "minimum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Minimum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "минимум",
+        "{～の} минимальный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mínimo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1386260",
+  "readings": [
+    {
+      "kanaExpression": "せっすい",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "節水",
+      "furiganaExpression": [
+        {
+          "text": "節",
+          "annotation": "せっ"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "saving water",
+        "water conservation",
+        "economizing on water"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wassersparen",
+        "sparsamer Wasserverbrauch",
+        "Wasser sparen",
+        "sparsam Wasser verbrauchen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "экономия воды",
+        "{～する} экономить воду, расходовать воду бережно"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vattenvård"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "1665660",
+  "readings": [
+    {
+      "kanaExpression": "かんぐん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "官軍",
+      "furiganaExpression": [
+        {
+          "text": "官",
+          "annotation": "かん"
+        },
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "government forces",
+        "loyalist army"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} regeringsleger",
+        "regeringstroepen",
+        "legermacht van de regering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Regierungstruppen",
+        "kaiserliche Armee"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "правительственные войска, государственная армия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oficial (militar)"
+      ]
+    }
+  ]
+}

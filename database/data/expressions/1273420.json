@@ -1,0 +1,84 @@
+{
+  "id": "1273420",
+  "readings": [
+    {
+      "kanaExpression": "こうがい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "公害",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "害",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 4956
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pollution",
+        "public nuisance",
+        "contamination"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "milieuvervuiling",
+        "pollutie",
+        "milieuontwrichting",
+        "milieuverstoring",
+        "verstoring van het ecologisch evenwicht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pollution",
+        "nuisance publique",
+        "contamination"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Umweltverschmutzung",
+        "Umweltzerstörung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közháborítás",
+        "szennyezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общественный вред (о загрязнении воздуха дымом, отравлении воды сточными водами и т. п.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "onesnaženje",
+        "onesnaževanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "contaminación ambiental"
+      ]
+    }
+  ]
+}

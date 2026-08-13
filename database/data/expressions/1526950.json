@@ -1,0 +1,94 @@
+{
+  "id": "1526950",
+  "readings": [
+    {
+      "kanaExpression": "まんえん",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "蔓延",
+      "furiganaExpression": [
+        {
+          "text": "蔓",
+          "annotation": "まん"
+        },
+        {
+          "text": "延",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 10809
+    },
+    {
+      "kanjiExpression": "まん延",
+      "furiganaExpression": [
+        {
+          "text": "まん"
+        },
+        {
+          "text": "延",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "蔓衍",
+      "furiganaExpression": [
+        {
+          "text": "蔓",
+          "annotation": "まん"
+        },
+        {
+          "text": "衍",
+          "annotation": "えん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spread (e.g. of a disease)",
+        "rampancy",
+        "infestation",
+        "proliferation",
+        "being widespread"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verspreiding",
+        "proliferatie",
+        "uitbreiding",
+        "zich wijd verspreiden",
+        "wijd verspreid zijn",
+        "heersen",
+        "snel om zich heen grijpen",
+        "woekeren",
+        "zich uitbreiden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Umsichgreifen",
+        "Verbreitung",
+        "Ausbreitung",
+        "um sich greifen",
+        "sich verbreiten",
+        "sich ausbreiten",
+        "überhandnehmen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) распространение; рассеивание",
+        "{～する} распространяться; быть распространённым"
+      ]
+    }
+  ]
+}

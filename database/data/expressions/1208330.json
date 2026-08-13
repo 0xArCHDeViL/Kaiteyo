@@ -1,0 +1,71 @@
+{
+  "id": "1208330",
+  "readings": [
+    {
+      "kanaExpression": "かっせい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "活性",
+      "furiganaExpression": [
+        {
+          "text": "活",
+          "annotation": "かっ"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 3026
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "active"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} activiteit",
+        "{natuurk.} radioactiviteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aktivität",
+        "aktiv",
+        "aktiviert"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cselekvő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[のある]} (хим.) активированный",
+        "{～のない} инертный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "actividad"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "aktiv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1320910",
+  "readings": [
+    {
+      "kanaExpression": "じつがい",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "実害",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じつ"
+        },
+        {
+          "text": "害",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "real harm",
+        "actual damage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Effektivschaden",
+        "tatsächlicher Schaden"
+      ]
+    }
+  ]
+}

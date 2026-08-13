@@ -1,0 +1,56 @@
+{
+  "id": "1515050",
+  "readings": [
+    {
+      "kanaExpression": "ぼこう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "母港",
+      "furiganaExpression": [
+        {
+          "text": "母",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "港",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "home port"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "thuishaven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Heimathafen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anyakikötő",
+        "lajstromozási kikötő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "порт приписки (судна)"
+      ]
+    }
+  ]
+}

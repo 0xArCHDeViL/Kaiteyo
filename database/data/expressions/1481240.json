@@ -1,0 +1,74 @@
+{
+  "id": "1481240",
+  "readings": [
+    {
+      "kanaExpression": "ほ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "帆",
+      "furiganaExpression": [
+        {
+          "text": "帆",
+          "annotation": "ほ"
+        }
+      ],
+      "rank": 13443
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sail"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{scheepv.} zeil",
+        "{verzameln.} zeilvoering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "navigation",
+        "voile"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Segel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "utazás vitorláson",
+        "vitorlás hajó",
+        "vitorlás",
+        "vitorlázás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "парус"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vela (de barco)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "segel"
+      ]
+    }
+  ]
+}

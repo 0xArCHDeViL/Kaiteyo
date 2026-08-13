@@ -1,0 +1,83 @@
+{
+  "id": "1358530",
+  "readings": [
+    {
+      "kanaExpression": "しょくたく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "食卓",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "卓",
+          "annotation": "たく"
+        }
+      ],
+      "rank": 8443
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dining table"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eettafel",
+        "tafel",
+        "dis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "table à manger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Esstisch",
+        "Tisch",
+        "Tafel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ebédlőasztal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[обеденный] стол"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jedilna miza"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mesa del comedor"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "matbord"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1286320",
+  "readings": [
+    {
+      "kanaExpression": "こっきょう",
+      "rank": 33500
+    },
+    {
+      "kanaExpression": "くにざかい"
+    },
+    {
+      "kanjiExpression": "国境",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こっ"
+        },
+        {
+          "text": "境",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 4089
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "border (between countries)",
+        "national border"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{Jap.gesch.} provinciegrens",
+        "landgrens",
+        "landsgrens",
+        "rijksgrens",
+        "grens van een land"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "frontière nationale",
+        "frontière provinciale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Staatsgrenze",
+        "Landesgrenze",
+        "Grenze",
+        "Demarkationslinie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) こっきょう【国境】",
+        "государственная граница, государственные рубежи"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "frontera nacional o estatal"
+      ]
+    }
+  ]
+}

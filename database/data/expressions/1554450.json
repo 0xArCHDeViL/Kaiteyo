@@ -1,0 +1,72 @@
+{
+  "id": "1554450",
+  "readings": [
+    {
+      "kanaExpression": "りょうし",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "猟師",
+      "furiganaExpression": [
+        {
+          "text": "猟",
+          "annotation": "りょう"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hunter",
+        "huntsman"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jager",
+        "weiman",
+        "weidman"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chasseur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jäger",
+        "Weidmann",
+        "Waidmann"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fedeles zsebóra"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "охотник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cazador"
+      ]
+    }
+  ]
+}

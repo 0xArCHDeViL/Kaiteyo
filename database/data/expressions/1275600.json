@@ -1,0 +1,86 @@
+{
+  "id": "1275600",
+  "readings": [
+    {
+      "kanaExpression": "あつみ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "厚み",
+      "furiganaExpression": [
+        {
+          "text": "厚",
+          "annotation": "あつ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 12182
+    },
+    {
+      "kanjiExpression": "厚味",
+      "furiganaExpression": [
+        {
+          "text": "厚",
+          "annotation": "あつ"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thickness",
+        "profundity",
+        "depth"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dikte",
+        "dikheid",
+        "dichtheid",
+        "lijvigheid",
+        "diepte",
+        "{fig.} gehalte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dicke",
+        "Tiefe",
+        "Tiefgründigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alapos",
+        "mély",
+        "vastagság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "толщина"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "grosor",
+        "profundidad",
+        "espesor"
+      ]
+    }
+  ]
+}

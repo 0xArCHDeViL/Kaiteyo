@@ -1,0 +1,81 @@
+{
+  "id": "1687200",
+  "readings": [
+    {
+      "kanaExpression": "つうちひょう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "通知表",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "知",
+          "annotation": "ち"
+        },
+        {
+          "text": "表",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "通知票",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "知",
+          "annotation": "ち"
+        },
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "report card"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schoolrapport",
+        "rapport",
+        "cijferlijst",
+        "{Belg.N.} schooluitslag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Avis",
+        "Zeugnis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bizonyítvány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "часть бланка почтового перевода (и т. п.), предназначенная для письма (для сообщения)",
+        "(см.) つうちぼ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1197910",
+  "readings": [
+    {
+      "kanaExpression": "がごう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "雅号",
+      "furiganaExpression": [
+        {
+          "text": "雅",
+          "annotation": "が"
+        },
+        {
+          "text": "号",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "alias",
+        "pseudonym",
+        "pen name",
+        "nom de plume"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pseudoniem",
+        "nom de plume",
+        "kunstenaarsnaam",
+        "schuilnaam",
+        "{Belg.N.} deknaam",
+        "{i.h.b.} schrijversnaam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Künstlername",
+        "Schriftstellername",
+        "Pseudonym"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "írói álnév"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) псевдоним"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "1401810",
+  "readings": [
+    {
+      "kanaExpression": "そうり",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "総理",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        }
+      ],
+      "rank": 2064
+    },
+    {
+      "kanjiExpression": "綜理",
+      "furiganaExpression": [
+        {
+          "text": "綜",
+          "annotation": "そう"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prime minister (as the head of a cabinet government)",
+        "premier",
+        "leading",
+        "overseeing",
+        "leader",
+        "overseer",
+        "president"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerste minister",
+        "premier",
+        "minister-president"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "président",
+        "premier ministre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Präsident",
+        "Ministerpräsident"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "munkavezető",
+        "művezető"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) президент; глава; лидер",
+        "2) (сокр.) премьер"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ministrski predsednik",
+        "vodja"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "primer ministro",
+        "líder",
+        "presidente"
+      ]
+    }
+  ]
+}

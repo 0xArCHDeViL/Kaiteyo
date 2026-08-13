@@ -1,0 +1,47 @@
+{
+  "id": "1005600",
+  "readings": [
+    {
+      "kanaExpression": "しまった",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "仕舞った",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "舞",
+          "annotation": "ま"
+        },
+        {
+          "text": "った"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "darn it!",
+        "darn!",
+        "oops!",
+        "oh dear!",
+        "oh no!"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "merde !",
+        "zut !",
+        "oups !",
+        "bon sang !",
+        "oh non !"
+      ]
+    }
+  ]
+}

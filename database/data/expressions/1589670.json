@@ -1,0 +1,80 @@
+{
+  "id": "1589670",
+  "readings": [
+    {
+      "kanaExpression": "かいしめ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "買い占め",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "占",
+          "annotation": "し"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "買占め",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "かい"
+        },
+        {
+          "text": "占",
+          "annotation": "し"
+        },
+        {
+          "text": "め"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "buying up of goods",
+        "cornering (market)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{beurst.} corner",
+        "opkoop"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "accaparer le marché",
+        "achat de marchandise"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufkauf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скупка; скупка со спекулятивными целями"
+      ]
+    }
+  ]
+}

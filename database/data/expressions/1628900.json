@@ -1,0 +1,49 @@
+{
+  "id": "1628900",
+  "readings": [
+    {
+      "kanaExpression": "てつじょうもう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "鉄条網",
+      "furiganaExpression": [
+        {
+          "text": "鉄",
+          "annotation": "てつ"
+        },
+        {
+          "text": "条",
+          "annotation": "じょう"
+        },
+        {
+          "text": "網",
+          "annotation": "もう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(barbed) wire entanglements"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stacheldrahtverhau",
+        "Drahtverhau",
+        "Stacheldraht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проволочные заграждения, колючая проволока"
+      ]
+    }
+  ]
+}

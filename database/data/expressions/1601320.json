@@ -1,0 +1,168 @@
+{
+  "id": "1601320",
+  "readings": [
+    {
+      "kanaExpression": "ばらまく",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "バラまく"
+    },
+    {
+      "kanjiExpression": "ばら撒く",
+      "furiganaExpression": [
+        {
+          "text": "ばら"
+        },
+        {
+          "text": "撒",
+          "annotation": "ま"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "散蒔く",
+      "furiganaExpression": [
+        {
+          "text": "散",
+          "annotation": "ばら"
+        },
+        {
+          "text": "蒔",
+          "annotation": "ま"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "散播く",
+      "furiganaExpression": [
+        {
+          "text": "散",
+          "annotation": "ばら"
+        },
+        {
+          "text": "播",
+          "annotation": "ま"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "バラ撒く",
+      "furiganaExpression": [
+        {
+          "text": "バラ"
+        },
+        {
+          "text": "撒",
+          "annotation": "ま"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "ばら蒔く",
+      "furiganaExpression": [
+        {
+          "text": "ばら"
+        },
+        {
+          "text": "蒔",
+          "annotation": "ま"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to scatter",
+        "to disseminate (e.g. a rumor)",
+        "to spread (e.g. germs)",
+        "to broadcast",
+        "to distribute widely (e.g. leaflets)",
+        "to hand out freely",
+        "to spend recklessly"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "strooien",
+        "verstrooien",
+        "verspreiden",
+        "uitstrooien",
+        "rondstrooien",
+        "in het rond strooien",
+        "smijten met",
+        "overdadig uitgeven",
+        "overdadig bedelen",
+        "strooien met",
+        "kwistig zijn met",
+        "rondsmijten",
+        "om zich heen gooien",
+        "met kwistige hand uitdelen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "éparpiller",
+        "disperser",
+        "disséminer",
+        "jeter son argent par les fenêtres"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verstreuen",
+        "ausstreuen",
+        "streuen",
+        "umherstreuen",
+        "weit verteilen",
+        "verschwenden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eldobál",
+        "elhint",
+        "eloszlat",
+        "elszéled",
+        "elszóródik",
+        "szertefoszlat",
+        "széthint"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разбрасывать, рассыпать; (обр.) раздавать направо и налево"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "esparcir",
+        "derrochar"
+      ]
+    }
+  ]
+}

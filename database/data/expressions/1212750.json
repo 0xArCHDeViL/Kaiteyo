@@ -1,0 +1,94 @@
+{
+  "id": "1212750",
+  "readings": [
+    {
+      "kanaExpression": "かんれい",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "慣例",
+      "furiganaExpression": [
+        {
+          "text": "慣",
+          "annotation": "かん"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "custom",
+        "practice",
+        "convention",
+        "precedent"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gewoonte",
+        "gebruik",
+        "precedent",
+        "{w.g.} antecedent",
+        "{Belg.N.",
+        "niet alg.} voorgaande"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "coutume",
+        "précédent",
+        "usage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tradition",
+        "Brauch",
+        "Gepflogenheit",
+        "Gewohnheit",
+        "Usus",
+        "Sitte",
+        "Konvention"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "példa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обычай, обыкновение, традиция",
+        "{～の} обычный, традиционный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "običaj",
+        "prejšnji",
+        "predhoden"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "costumbre",
+        "usanza",
+        "práctica"
+      ]
+    }
+  ]
+}

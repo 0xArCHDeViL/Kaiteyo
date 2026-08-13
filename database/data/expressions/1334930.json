@@ -1,0 +1,72 @@
+{
+  "id": "1334930",
+  "readings": [
+    {
+      "kanaExpression": "じゅうにしちょう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "十二指腸",
+      "furiganaExpression": [
+        {
+          "text": "十",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "指",
+          "annotation": "し"
+        },
+        {
+          "text": "腸",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "duodenum"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} twaalfvingerige darm",
+        "duodenum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zwölffingerdarm",
+        "Duodenum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyombél",
+        "patkóbél"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(анат.) двенадцатиперстная кишка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "duodeno"
+      ]
+    }
+  ]
+}

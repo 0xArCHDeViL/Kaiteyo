@@ -1,0 +1,110 @@
+{
+  "id": "1310220",
+  "readings": [
+    {
+      "kanaExpression": "しちゅう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "支柱",
+      "furiganaExpression": [
+        {
+          "text": "支",
+          "annotation": "し"
+        },
+        {
+          "text": "柱",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prop",
+        "stay",
+        "support",
+        "brace",
+        "fulcrum"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stut",
+        "steun",
+        "steunpilaar",
+        "pijler",
+        "pilaar",
+        "schoor",
+        "{fig.} steun",
+        "kostwinner",
+        "broodwinner"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "appui",
+        "attache",
+        "colonne",
+        "pilier (fig.)",
+        "pivot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stütze",
+        "Pfahl",
+        "Säule",
+        "Pfosten",
+        "Stützpfeiler",
+        "seelischer Halt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "derékszalag",
+        "dúcfa",
+        "fogszabályozó",
+        "furdancs",
+        "gyógyfűző",
+        "hintó felfüggesztő szíjazata",
+        "járógép",
+        "kapcsolójel",
+        "kapcsos zárójel",
+        "kocsi felfüggesztő szíjazata",
+        "merevítő lemez",
+        "merevítő rúd",
+        "merevítő szalagvas",
+        "összekötő rúd",
+        "összekötő szalagvas",
+        "pergőhúr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подпорка; стойка; подставка; (горн.) крепь; (перен.) опора",
+        "{～する}, 支柱をかう подпирать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pilote",
+        "soporte",
+        "columna",
+        "poste",
+        "pilar de sostén",
+        "fulcro",
+        "apéndice"
+      ]
+    }
+  ]
+}

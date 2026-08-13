@@ -1,0 +1,62 @@
+{
+  "id": "1292030",
+  "readings": [
+    {
+      "kanaExpression": "ざしょう",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "挫傷",
+      "furiganaExpression": [
+        {
+          "text": "挫",
+          "annotation": "ざ"
+        },
+        {
+          "text": "傷",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sprain",
+        "wrench",
+        "bruise",
+        "contusion",
+        "fracture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Quetschung",
+        "Kontusion",
+        "Verstauchung",
+        "Verrenkung",
+        "gequetscht werden",
+        "sich verrenken",
+        "sich verstauchen",
+        "sich verzerren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ütés nyoma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) растяжение связок; вывих",
+        "2) внутреннее кровоизлияние (от ушиба и т. п.)",
+        "3) контузия"
+      ]
+    }
+  ]
+}

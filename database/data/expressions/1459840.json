@@ -1,0 +1,103 @@
+{
+  "id": "1459840",
+  "readings": [
+    {
+      "kanaExpression": "なわとび",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "縄跳び",
+      "furiganaExpression": [
+        {
+          "text": "縄",
+          "annotation": "なわ"
+        },
+        {
+          "text": "跳",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "縄飛び",
+      "furiganaExpression": [
+        {
+          "text": "縄",
+          "annotation": "なわ"
+        },
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "縄とび",
+      "furiganaExpression": [
+        {
+          "text": "縄",
+          "annotation": "なわ"
+        },
+        {
+          "text": "とび"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "skipping rope",
+        "jump rope",
+        "skipping",
+        "rope-jumping"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "touwtjespringen",
+        "touwtje springen",
+        "{gew.} het koorddansen",
+        "{gew.} het in de koord dansen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "corde à sauter",
+        "saut à la corde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seilspringen",
+        "Seilhüpfen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ugrókötél",
+        "kötélugrás",
+        "ugrálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прыжки через [протянутую] верёвку (через скакалку)",
+        "{～をする} перепрыгивать через верёвку; прыгать через скакалку"
+      ]
+    }
+  ]
+}

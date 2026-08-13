@@ -1,0 +1,68 @@
+{
+  "id": "1583300",
+  "readings": [
+    {
+      "kanaExpression": "はなぢ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "はなじ"
+    },
+    {
+      "kanjiExpression": "鼻血",
+      "furiganaExpression": [
+        {
+          "text": "鼻",
+          "annotation": "はな"
+        },
+        {
+          "text": "血",
+          "annotation": "ぢ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nosebleed"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "neusbloeding",
+        "{geneesk.} epistaxis",
+        "rinorragie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épistaxis",
+        "saignement de nez"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nasenbluten",
+        "Epistaxis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кровь (кровотечение) из носу"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hemorragia nasal"
+      ]
+    }
+  ]
+}

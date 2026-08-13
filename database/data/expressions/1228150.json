@@ -1,0 +1,52 @@
+{
+  "id": "1228150",
+  "readings": [
+    {
+      "kanaExpression": "およびごし",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "及び腰",
+      "furiganaExpression": [
+        {
+          "text": "及",
+          "annotation": "およ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "腰",
+          "annotation": "ごし"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bent back",
+        "indecisive attitude",
+        "timidity",
+        "lack of nerve"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unsichere, in der Hüfte leicht eingenickte Haltung",
+        "zaghafte Haltung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "согнутая спина",
+        "{～になる} нагнуться, наклониться",
+        "{～になって} нагнувшись, наклонившись"
+      ]
+    }
+  ]
+}

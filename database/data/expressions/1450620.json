@@ -1,0 +1,67 @@
+{
+  "id": "1450620",
+  "readings": [
+    {
+      "kanaExpression": "とうげい",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "陶芸",
+      "furiganaExpression": [
+        {
+          "text": "陶",
+          "annotation": "とう"
+        },
+        {
+          "text": "芸",
+          "annotation": "げい"
+        }
+      ],
+      "rank": 14307
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ceramic art",
+        "ceramics"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keramiek",
+        "ceramiek",
+        "pottenbakkerskunst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "céramique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kunstkeramik",
+        "Keramikkunst",
+        "Keramikhandwerk"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гончарное (керамическое) искусство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arte de la cerámica",
+        "alfarería"
+      ]
+    }
+  ]
+}

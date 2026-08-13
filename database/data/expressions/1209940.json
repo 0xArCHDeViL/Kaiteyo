@@ -1,0 +1,98 @@
+{
+  "id": "1209940",
+  "readings": [
+    {
+      "kanaExpression": "かんそうき",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "乾燥機",
+      "furiganaExpression": [
+        {
+          "text": "乾",
+          "annotation": "かん"
+        },
+        {
+          "text": "燥",
+          "annotation": "そう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "乾燥器",
+      "furiganaExpression": [
+        {
+          "text": "乾",
+          "annotation": "かん"
+        },
+        {
+          "text": "燥",
+          "annotation": "そう"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drying machine",
+        "dryer",
+        "desiccator"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "droger",
+        "droogmachine",
+        "droogtoestel",
+        "droogapparaat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sécheuse",
+        "séchoir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entfeuchter",
+        "Exsikkator",
+        "Trockenapparat",
+        "Trockner",
+        "Wäschetrockner"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szárító"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сушильный аппарат, сушильная машина, сушилка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "secadora"
+      ]
+    }
+  ]
+}

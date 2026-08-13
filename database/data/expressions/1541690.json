@@ -1,0 +1,83 @@
+{
+  "id": "1541690",
+  "readings": [
+    {
+      "kanaExpression": "ゆうりょう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "有料",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 4144
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fee-charging",
+        "paid",
+        "not free",
+        "toll road"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het niet kosteloos zijn",
+        "~ waarvoor betaald moet worden",
+        "tol-",
+        "~ tegen betaling",
+        "~ met tolheffing",
+        "aan tol onderworpen ~",
+        "{m.b.t. software e.d.} onvrij(e) ~"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "payant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gebührenpflichtig",
+        "zollpflichtig",
+        "Gebührenpflicht",
+        "Kostenpflicht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hídvám",
+        "vám",
+        "vámszedési jog"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} платный",
+        "{～で} за плату"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "de paga",
+        "de pago requerido"
+      ]
+    }
+  ]
+}

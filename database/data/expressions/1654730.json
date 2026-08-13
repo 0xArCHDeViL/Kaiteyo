@@ -1,0 +1,73 @@
+{
+  "id": "1654730",
+  "readings": [
+    {
+      "kanaExpression": "とりぶん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "取り分",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "取分",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s share",
+        "one\u0027s portion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aandeel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "der eigene Anteil",
+        "mein Anteil"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доля; порция"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "anpart"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "2231160",
+  "readings": [
+    {
+      "kanaExpression": "おたがいに",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お互いに",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "互",
+          "annotation": "たが"
+        },
+        {
+          "text": "いに"
+        }
+      ],
+      "rank": 7059
+    },
+    {
+      "kanjiExpression": "御互いに",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "互",
+          "annotation": "たが"
+        },
+        {
+          "text": "いに"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mutually",
+        "with each other",
+        "reciprocally",
+        "together",
+        "both"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wederzijds",
+        "wederkerig",
+        "onderling",
+        "met elkaar",
+        "mutueel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gegeneinander",
+        "einander (höfl.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vzajemno",
+        "obojestransko"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mutuamente",
+        "con los demás",
+        "recíprocamente",
+        "juntos"
+      ]
+    }
+  ]
+}

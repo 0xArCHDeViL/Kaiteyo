@@ -1,0 +1,89 @@
+{
+  "id": "1249780",
+  "readings": [
+    {
+      "kanaExpression": "けいばつ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "刑罰",
+      "furiganaExpression": [
+        {
+          "text": "刑",
+          "annotation": "けい"
+        },
+        {
+          "text": "罰",
+          "annotation": "ばつ"
+        }
+      ],
+      "rank": 12447
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(criminal) punishment",
+        "penalty",
+        "sentence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "straf",
+        "bestraffing",
+        "tuchtiging",
+        "{jur.} penaliteit",
+        "{arch.} straffe",
+        "{arch.} peine"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jugement",
+        "peine",
+        "sanction",
+        "sentance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Strafe",
+        "Bestrafung",
+        "rechtmäßige Bestrafung",
+        "(insbes.)Todesstrafe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "döntés",
+        "ítélet",
+        "ítélőképesség",
+        "megítélés",
+        "nézet",
+        "vélemény",
+        "büntetés",
+        "büntető",
+        "hibapont"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наказание, кара"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "castigo",
+        "punición"
+      ]
+    }
+  ]
+}

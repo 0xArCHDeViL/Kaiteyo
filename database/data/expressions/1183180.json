@@ -1,0 +1,76 @@
+{
+  "id": "1183180",
+  "readings": [
+    {
+      "kanaExpression": "おんしゃ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "恩赦",
+      "furiganaExpression": [
+        {
+          "text": "恩",
+          "annotation": "おん"
+        },
+        {
+          "text": "赦",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "amnesty",
+        "pardon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "begenadiging",
+        "kwijtschelding",
+        "pardon",
+        "gratie",
+        "amnestie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "amnistie",
+        "pardon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Amnestie",
+        "Begnadigung",
+        "Straferlass"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közkegyelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "амнистия; помилование"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "amnistía",
+        "perdón"
+      ]
+    }
+  ]
+}

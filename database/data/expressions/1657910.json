@@ -1,0 +1,72 @@
+{
+  "id": "1657910",
+  "readings": [
+    {
+      "kanaExpression": "すり",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "刷り",
+      "furiganaExpression": [
+        {
+          "text": "刷",
+          "annotation": "す"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "摺り",
+      "furiganaExpression": [
+        {
+          "text": "摺",
+          "annotation": "す"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "刷",
+      "furiganaExpression": [
+        {
+          "text": "刷",
+          "annotation": "すり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "printing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afdruk",
+        "druk",
+        "gedrukt materiaal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Drucken",
+        "Druck"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "печатание"
+      ]
+    }
+  ]
+}

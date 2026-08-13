@@ -1,0 +1,53 @@
+{
+  "id": "1336140",
+  "readings": [
+    {
+      "kanaExpression": "じゅうきんぞく",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "重金属",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        },
+        {
+          "text": "属",
+          "annotation": "ぞく"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heavy metals"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwermetall"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nehézfém"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тяжёлые металлы"
+      ]
+    }
+  ]
+}

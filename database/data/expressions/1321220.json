@@ -1,0 +1,59 @@
+{
+  "id": "1321220",
+  "readings": [
+    {
+      "kanaExpression": "じっしょうてき",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "実証的",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じっ"
+        },
+        {
+          "text": "証",
+          "annotation": "しょう"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "empirical",
+        "positive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "empirisch",
+        "in empirischer Weise",
+        "positiv"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "empirikus",
+        "alapfok",
+        "alapfokú",
+        "feltétlen",
+        "helyeslő",
+        "pozitív fénykép",
+        "pozitív kép",
+        "pozitív mennyiség",
+        "tényeken alapuló",
+        "valós"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "1512960",
+  "readings": [
+    {
+      "kanaExpression": "べんし",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "弁士",
+      "furiganaExpression": [
+        {
+          "text": "弁",
+          "annotation": "べん"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "辯士",
+      "furiganaExpression": [
+        {
+          "text": "辯",
+          "annotation": "べん"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lecturer",
+        "rhetorician",
+        "orator",
+        "narrator in Japanese silent cinema",
+        "film interpreter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "redegewandte Person",
+        "Redner",
+        "Sprecher",
+        "Erzähler (bei einer Stummfilmvorführung)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előadó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.)",
+        "1) оратор",
+        "2) чтец-пояснятель немых фильмов (во время сеанса)"
+      ]
+    }
+  ]
+}

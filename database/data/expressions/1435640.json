@@ -1,0 +1,69 @@
+{
+  "id": "1435640",
+  "readings": [
+    {
+      "kanaExpression": "ていしょく",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "定職",
+      "furiganaExpression": [
+        {
+          "text": "定",
+          "annotation": "てい"
+        },
+        {
+          "text": "職",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "occupation (i.e. field of regular employment)",
+        "steady job",
+        "regular work"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vaste betrekking",
+        "vaste baan",
+        "vaste positie",
+        "vast werk",
+        "vast beroep"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feste Anstellung",
+        "regelmäßige Beschäftigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "betöltés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "определённое (постоянное) занятие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "empleo fijo",
+        "trabajo fijo"
+      ]
+    }
+  ]
+}

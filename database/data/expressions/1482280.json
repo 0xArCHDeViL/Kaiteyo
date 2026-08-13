@@ -1,0 +1,68 @@
+{
+  "id": "1482280",
+  "readings": [
+    {
+      "kanaExpression": "ばんけん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "番犬",
+      "furiganaExpression": [
+        {
+          "text": "番",
+          "annotation": "ばん"
+        },
+        {
+          "text": "犬",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "watchdog"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waakhond",
+        "waker"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chien de garde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wachhund"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "házőrző kutya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сторожевой пёс"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "perro guardián"
+      ]
+    }
+  ]
+}

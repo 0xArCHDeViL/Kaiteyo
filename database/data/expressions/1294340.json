@@ -1,0 +1,82 @@
+{
+  "id": "1294340",
+  "readings": [
+    {
+      "kanaExpression": "さいし",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "つまこ"
+    },
+    {
+      "kanaExpression": "めこ"
+    },
+    {
+      "kanjiExpression": "妻子",
+      "furiganaExpression": [
+        {
+          "text": "妻",
+          "annotation": "さい"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wife and children",
+        "wife"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vrouw en kind",
+        "kinderen",
+        "{arch.} gade en kroost",
+        "spruiten",
+        "gezin",
+        "huisgezin"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "famille",
+        "femme et enfants"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frau und Kind",
+        "Familie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жена и дети, семья"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "žena in otroci",
+        "družina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "esposa e hijos"
+      ]
+    }
+  ]
+}

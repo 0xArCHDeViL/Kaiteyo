@@ -1,0 +1,83 @@
+{
+  "id": "1388600",
+  "readings": [
+    {
+      "kanaExpression": "せんぽう",
+      "rank": 22000
+    },
+    {
+      "kanaExpression": "さきかた"
+    },
+    {
+      "kanjiExpression": "先方",
+      "furiganaExpression": [
+        {
+          "text": "先",
+          "annotation": "せん"
+        },
+        {
+          "text": "方",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 9434
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "other party",
+        "other side",
+        "ahead",
+        "in front",
+        "destination"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "partner",
+        "tegenpartij",
+        "wederpartij",
+        "comparant ter andere zijde",
+        "{i.h.a.} hij",
+        "zij",
+        "ze",
+        "{postwezen} ontvanger",
+        "bestemmeling",
+        "{～に} vooruit",
+        "voorop",
+        "voor de boeg",
+        "bestemming",
+        "eindpunt",
+        "{i.h.b.} reisbestemming",
+        "reisdoel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die andere Seite",
+        "er",
+        "sie",
+        "Reiseziel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "célállomás",
+        "rendeltetési hely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) противная сторона, он, они",
+        "2) место назначения",
+        "{～に} там"
+      ]
+    }
+  ]
+}

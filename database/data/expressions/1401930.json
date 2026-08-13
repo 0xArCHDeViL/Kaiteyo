@@ -1,0 +1,88 @@
+{
+  "id": "1401930",
+  "readings": [
+    {
+      "kanaExpression": "そうあん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "草案",
+      "furiganaExpression": [
+        {
+          "text": "草",
+          "annotation": "そう"
+        },
+        {
+          "text": "案",
+          "annotation": "あん"
+        }
+      ],
+      "rank": 11715
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "draft (for a speech, bill, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontwerp",
+        "concept",
+        "schets"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ébauche",
+        "brouillon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entwurf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "behívás",
+        "intézvény",
+        "katonai összeírás",
+        "összeírás",
+        "piszkozat",
+        "sorozat",
+        "tervezet",
+        "tervrajz",
+        "huzat",
+        "korty"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[предварительный] проект, намётка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "borrador",
+        "minuta",
+        "escrito en sucio",
+        "proyecto"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "utkast"
+      ]
+    }
+  ]
+}

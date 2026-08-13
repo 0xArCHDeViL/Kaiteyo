@@ -1,0 +1,55 @@
+{
+  "id": "1329140",
+  "readings": [
+    {
+      "kanaExpression": "しゅぞう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "酒造",
+      "furiganaExpression": [
+        {
+          "text": "酒",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "造",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 12827
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brewing (sake)",
+        "distilling (e.g. whisky)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sakebrouwerij",
+        "het brouwen van sake",
+        "{ウイスキー",
+        "ジンの} distillatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sakebrauen",
+        "Weinbrennen",
+        "Destillieren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "изготовление сакэ (водочных изделий), виноделие"
+      ]
+    }
+  ]
+}

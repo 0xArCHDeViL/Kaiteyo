@@ -1,0 +1,88 @@
+{
+  "id": "1400880",
+  "readings": [
+    {
+      "kanaExpression": "あいうち",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "相打ち",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "あい"
+        },
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "相撃ち",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "あい"
+        },
+        {
+          "text": "撃",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "相討ち",
+      "furiganaExpression": [
+        {
+          "text": "相",
+          "annotation": "あい"
+        },
+        {
+          "text": "討",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "simultaneously striking one another (in kendo, etc.)",
+        "draw",
+        "tie"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{schermen} gelijktijdige treffer",
+        "wederzijdse stoot",
+        "coup fourré",
+        "onbesliste partij",
+        "quitte",
+        "gelijktijdige slag door twee personen",
+        "gezamenlijke aanval tegen een vijand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gleichzeitiges gegenseitiges Schlagen od. Töten",
+        "Unentschieden (bei einem Wettbewerb)",
+        "gemeinsames Kämpfen (gegen einen gemeinsamen Feind)"
+      ]
+    }
+  ]
+}

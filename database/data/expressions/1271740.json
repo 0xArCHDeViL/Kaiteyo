@@ -1,0 +1,59 @@
+{
+  "id": "1271740",
+  "readings": [
+    {
+      "kanaExpression": "こうかんしんけい",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "交感神経",
+      "furiganaExpression": [
+        {
+          "text": "交",
+          "annotation": "こう"
+        },
+        {
+          "text": "感",
+          "annotation": "かん"
+        },
+        {
+          "text": "神",
+          "annotation": "しん"
+        },
+        {
+          "text": "経",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sympathetic nerves"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sympathischer Nerv",
+        "Sympathikus",
+        "Nervus sympathicus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "симпатический нерв"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nervio simpático"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "1586450",
+  "readings": [
+    {
+      "kanaExpression": "あだな",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "こんめい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "あだ名",
+      "furiganaExpression": [
+        {
+          "text": "あだ"
+        },
+        {
+          "text": "名",
+          "annotation": "な"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "渾名",
+      "furiganaExpression": [
+        {
+          "text": "渾名",
+          "annotation": "あだな"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "綽名",
+      "furiganaExpression": [
+        {
+          "text": "綽名",
+          "annotation": "あだな"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "諢名",
+      "furiganaExpression": [
+        {
+          "text": "諢名",
+          "annotation": "あだな"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "仇名",
+      "furiganaExpression": [
+        {
+          "text": "仇",
+          "annotation": "あだ"
+        },
+        {
+          "text": "名",
+          "annotation": "な"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nickname"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bijnaam",
+        "alias",
+        "andere naam",
+        "toenaam",
+        "spotnaam",
+        "schimpnaam",
+        "geuzennaam",
+        "scheldnaam",
+        "{w.g.} speelnaam",
+        "{gew.} lapnaam"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "surnom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spitzname",
+        "Spottname",
+        "Beiname",
+        "Gerücht über ein Liebesverhältnis",
+        "Liebesskandal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "becenév",
+        "csúfnév",
+        "gúnynév"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прозвище, кличка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vzdevek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "apodo",
+        "sobrenombre"
+      ]
+    }
+  ]
+}

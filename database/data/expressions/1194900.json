@@ -1,0 +1,63 @@
+{
+  "id": "1194900",
+  "readings": [
+    {
+      "kanaExpression": "かふんしょう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "花粉症",
+      "furiganaExpression": [
+        {
+          "text": "花",
+          "annotation": "か"
+        },
+        {
+          "text": "粉",
+          "annotation": "ふん"
+        },
+        {
+          "text": "症",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hay fever",
+        "pollinosis (allergy to pollen)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Heuschnupfen",
+        "Pollinose",
+        "Pollenallergie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szénanátha",
+        "virágpor allergia"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "alergija na cvetni prah"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alergia al polen"
+      ]
+    }
+  ]
+}

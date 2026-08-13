@@ -1,0 +1,71 @@
+{
+  "id": "1029030",
+  "readings": [
+    {
+      "kanaExpression": "エックスせん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "Ｘ線",
+      "furiganaExpression": [
+        {
+          "text": "Ｘ",
+          "annotation": "エックス"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "エックス線",
+      "furiganaExpression": [
+        {
+          "text": "エックス"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "X-ray"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Röntgenstrahl",
+        "X-Strahl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рентгеновские лучи",
+        "рентгеновы лучи, рентген"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rayos X"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "röntga",
+        "skärmbilda"
+      ]
+    }
+  ]
+}

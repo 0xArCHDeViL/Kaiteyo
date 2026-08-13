@@ -1,0 +1,51 @@
+{
+  "id": "1452840",
+  "readings": [
+    {
+      "kanaExpression": "どうすう",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "同数",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "same number"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dieselbe Zahl",
+        "genauso viele",
+        "gleich viele"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "то же (одинаковое) число; одинаковое количество; столько же"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mismo número"
+      ]
+    }
+  ]
+}

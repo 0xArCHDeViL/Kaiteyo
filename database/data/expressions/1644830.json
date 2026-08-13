@@ -1,0 +1,53 @@
+{
+  "id": "1644830",
+  "readings": [
+    {
+      "kanaExpression": "りょうけい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "量刑",
+      "furiganaExpression": [
+        {
+          "text": "量",
+          "annotation": "りょう"
+        },
+        {
+          "text": "刑",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "judge\u0027s sentence",
+        "assessment of a case"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Strafzumessung",
+        "Festsetzung des Strafmaßes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "взвешивание (определение тяжести) проступка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fijación de la pena",
+        "determinación de la pena",
+        "gradación de la pena"
+      ]
+    }
+  ]
+}

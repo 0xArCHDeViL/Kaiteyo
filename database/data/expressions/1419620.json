@@ -1,0 +1,55 @@
+{
+  "id": "1419620",
+  "readings": [
+    {
+      "kanaExpression": "だんこう",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "断行",
+      "furiganaExpression": [
+        {
+          "text": "断",
+          "annotation": "だん"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "decisive action",
+        "carrying out",
+        "resolute enforcement",
+        "execution"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "energisch durchführen",
+        "durchsetzen",
+        "energische Aktion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "döntő ütközet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "решительное проведение (осуществление)",
+        "{～する} решительно проводить (делать, осуществлять)"
+      ]
+    }
+  ]
+}

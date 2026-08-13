@@ -1,0 +1,82 @@
+{
+  "id": "1514380",
+  "readings": [
+    {
+      "kanaExpression": "ほこうしゃ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "歩行者",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "ほ"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pedestrian",
+        "walker"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voetganger",
+        "wandelaar",
+        "stapper",
+        "loper"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "piéton"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fußgänger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyalogos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пешеход"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pešec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "peatón",
+        "transeúnte"
+      ]
+    }
+  ]
+}

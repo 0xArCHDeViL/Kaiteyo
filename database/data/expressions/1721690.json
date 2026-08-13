@@ -1,0 +1,49 @@
+{
+  "id": "1721690",
+  "readings": [
+    {
+      "kanaExpression": "ぜったいりょう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "絶対量",
+      "furiganaExpression": [
+        {
+          "text": "絶",
+          "annotation": "ぜっ"
+        },
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "absolute amount",
+        "absolute quantity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Absolutmenge",
+        "Mindestmenge"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "абсолютное (абсолютно необходимое) количество"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1173260",
+  "readings": [
+    {
+      "kanaExpression": "うんも",
+      "rank": 34000
+    },
+    {
+      "kanaExpression": "うんぼ"
+    },
+    {
+      "kanaExpression": "きらら"
+    },
+    {
+      "kanjiExpression": "雲母",
+      "furiganaExpression": [
+        {
+          "text": "雲",
+          "annotation": "うん"
+        },
+        {
+          "text": "母",
+          "annotation": "も"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mica",
+        "isinglass"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mica",
+        "glimmer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Glimmer (glänzendes Schichtsilikat)",
+        "Glimmer (glänzendes in blättrig-tafelartiger Form vorkommendes Mineral)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csillámpala",
+        "máriaüveg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слюда",
+        "{～の} слюдяной",
+        "(уст.) слюда"
+      ]
+    }
+  ]
+}

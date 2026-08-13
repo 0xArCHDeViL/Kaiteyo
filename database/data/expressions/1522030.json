@@ -1,0 +1,66 @@
+{
+  "id": "1522030",
+  "readings": [
+    {
+      "kanaExpression": "ぼつねん",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "没年",
+      "furiganaExpression": [
+        {
+          "text": "没",
+          "annotation": "ぼつ"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "歿年",
+      "furiganaExpression": [
+        {
+          "text": "歿",
+          "annotation": "ぼつ"
+        },
+        {
+          "text": "年",
+          "annotation": "ねん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "year of a person\u0027s death",
+        "one\u0027s age at death"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leeftijd bij overlijden",
+        "sterfjaar",
+        "doodsjaar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sterbealter",
+        "Todesjahr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возраст (кого-л.) в год смерти"
+      ]
+    }
+  ]
+}

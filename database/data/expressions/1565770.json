@@ -1,0 +1,116 @@
+{
+  "id": "1565770",
+  "readings": [
+    {
+      "kanaExpression": "きそん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "毀損",
+      "furiganaExpression": [
+        {
+          "text": "毀",
+          "annotation": "き"
+        },
+        {
+          "text": "損",
+          "annotation": "そん"
+        }
+      ],
+      "rank": 10179
+    },
+    {
+      "kanjiExpression": "き損",
+      "furiganaExpression": [
+        {
+          "text": "き"
+        },
+        {
+          "text": "損",
+          "annotation": "そん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "棄損",
+      "furiganaExpression": [
+        {
+          "text": "棄",
+          "annotation": "き"
+        },
+        {
+          "text": "損",
+          "annotation": "そん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "damage",
+        "injury",
+        "defamation",
+        "harm"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beschadigen",
+        "schade berokkenen",
+        "toebrengen",
+        "toetakelen",
+        "{名誉を} aantasten",
+        "schaden",
+        "in diskrediet brengen",
+        "te schande maken",
+        "belasteren",
+        "schade",
+        "beschadiging",
+        "toetakeling",
+        "{名誉の} diffamatie",
+        "eerroof",
+        "laster",
+        "smaad",
+        "aantasting",
+        "belastering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beschädigung",
+        "Verletzung",
+        "Diffamierung",
+        "Verleumdung",
+        "Verletzung (der Ehre)",
+        "beschädigen",
+        "verletzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kár",
+        "kártétel",
+        "rongálás",
+        "sebesülés",
+        "becsületsértés",
+        "lefolyócső",
+        "pazarlás",
+        "pusztaság",
+        "szennyvíz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "повреждение, порча; ущерб, урон",
+        "{～する} повреждать, портить; наносить ущерб (урон)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1470190",
+  "readings": [
+    {
+      "kanaExpression": "のうがき",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "能書き",
+      "furiganaExpression": [
+        {
+          "text": "能",
+          "annotation": "のう"
+        },
+        {
+          "text": "書",
+          "annotation": "が"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "advertising the excellence of one\u0027s wares",
+        "boasting",
+        "self-advertisement",
+        "statement of the virtues of a medicine",
+        "description of the virtues of a drug"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gebrauchsanweisung",
+        "Beipackzettel",
+        "Eigenlob",
+        "Reklame",
+        "Tamtam"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) [рекламное] описание свойств и действия лекарства",
+        "2) самореклама"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "1273440",
+  "readings": [
+    {
+      "kanaExpression": "こうき",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "公器",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public institution"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Institution",
+        "öffentliche Einrichtung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) общественный орган"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "samhällsorgan"
+      ]
+    }
+  ]
+}

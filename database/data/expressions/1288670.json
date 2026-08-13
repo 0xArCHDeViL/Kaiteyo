@@ -1,0 +1,98 @@
+{
+  "id": "1288670",
+  "readings": [
+    {
+      "kanaExpression": "ほねぐみ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "骨組み",
+      "furiganaExpression": [
+        {
+          "text": "骨",
+          "annotation": "ほね"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "骨組",
+      "furiganaExpression": [
+        {
+          "text": "骨",
+          "annotation": "ほね"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "skeletal frame",
+        "skeleton",
+        "build",
+        "physique",
+        "framework",
+        "frame",
+        "structure",
+        "outline"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "skelet",
+        "geraamte",
+        "bouw",
+        "fysiek",
+        "{veroud.} gestel",
+        "samenstel",
+        "frame",
+        "structuur",
+        "opzet",
+        "opbouw",
+        "raamwerk",
+        "kader"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Knochengerüst",
+        "Skelett",
+        "Knochenbau",
+        "Gestell",
+        "Gerüst",
+        "Gebälk",
+        "Fachwerk",
+        "Aufbau",
+        "Umriss"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "váz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) скелет, костяк",
+        "2) остов, каркас; (перен.) общий план, намётка"
+      ]
+    }
+  ]
+}

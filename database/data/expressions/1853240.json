@@ -1,0 +1,39 @@
+{
+  "id": "1853240",
+  "readings": [
+    {
+      "kanaExpression": "せいにゅう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "生乳",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "せい"
+        },
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "raw milk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rohmilch",
+        "Frischmilch",
+        "unbehandelte Milch (nicht sterilisiert, wie gemolken)"
+      ]
+    }
+  ]
+}

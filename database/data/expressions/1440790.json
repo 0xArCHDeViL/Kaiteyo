@@ -1,0 +1,73 @@
+{
+  "id": "1440790",
+  "readings": [
+    {
+      "kanaExpression": "みせばん",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "店番",
+      "furiganaExpression": [
+        {
+          "text": "店",
+          "annotation": "みせ"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "見世番",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tending a store",
+        "salesperson",
+        "sales clerk",
+        "shop assistant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkäufer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сторож магазина",
+        "{～をする} охранять магазин",
+        "2) приказчик",
+        "{～をする} обслуживать покупателей, стоять у прилавка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tendero",
+        "vendedor"
+      ]
+    }
+  ]
+}

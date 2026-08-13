@@ -1,0 +1,90 @@
+{
+  "id": "1414830",
+  "readings": [
+    {
+      "kanaExpression": "たいぶ",
+      "rank": 28000
+    },
+    {
+      "kanaExpression": "だいぶ",
+      "rank": 4050
+    },
+    {
+      "kanjiExpression": "大部",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lengthy (of a book, etc.)",
+        "voluminous",
+        "most (e.g. most part)",
+        "greater",
+        "fairly",
+        "a good deal",
+        "much"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lijvig",
+        "omvangrijk",
+        "volumineus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "voluminös",
+        "umfangreich",
+        "Voluminösität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "becsületesen",
+        "eléggé",
+        "meglehetősen",
+        "jó sok",
+        "sokkal",
+        "nagyon",
+        "nagy tömeg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} объёмистый"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "obsežen",
+        "prostoren",
+        "obilen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mucho",
+        "considerablemente"
+      ]
+    }
+  ]
+}

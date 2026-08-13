@@ -1,0 +1,61 @@
+{
+  "id": "1553400",
+  "readings": [
+    {
+      "kanaExpression": "りょうゆう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "僚友",
+      "furiganaExpression": [
+        {
+          "text": "僚",
+          "annotation": "りょう"
+        },
+        {
+          "text": "友",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "colleague",
+        "workmate",
+        "comrade",
+        "coworker"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "collègue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitskollege",
+        "Mitarbeiter",
+        "Kamerad",
+        "Genosse"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bajtárs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) товарищ, друг"
+      ]
+    }
+  ]
+}

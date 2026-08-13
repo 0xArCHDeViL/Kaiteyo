@@ -1,0 +1,75 @@
+{
+  "id": "1559680",
+  "readings": [
+    {
+      "kanaExpression": "れんたい",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "連隊",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "れん"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "聯隊",
+      "furiganaExpression": [
+        {
+          "text": "聯",
+          "annotation": "れん"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "regiment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} regiment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Regiment"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ezred"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полк",
+        "{～[の]} полковой"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "regimiento"
+      ]
+    }
+  ]
+}

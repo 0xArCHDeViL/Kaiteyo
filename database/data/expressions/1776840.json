@@ -1,0 +1,69 @@
+{
+  "id": "1776840",
+  "readings": [
+    {
+      "kanaExpression": "まちやくば",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "町役場",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "まち"
+        },
+        {
+          "text": "役",
+          "annotation": "やく"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "town hall"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gemeentehuis",
+        "raadhuis",
+        "municipaliteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rathaus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tanácsháza",
+        "városháza"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ист.) городская управа"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ayuntamiento",
+        "municipalidad"
+      ]
+    }
+  ]
+}

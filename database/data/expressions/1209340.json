@@ -1,0 +1,39 @@
+{
+  "id": "1209340",
+  "readings": [
+    {
+      "kanaExpression": "かやば",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "茅場",
+      "furiganaExpression": [
+        {
+          "text": "茅",
+          "annotation": "かや"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hayfield",
+        "field of miscanthus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Röhricht",
+        "Schilfdickicht"
+      ]
+    }
+  ]
+}

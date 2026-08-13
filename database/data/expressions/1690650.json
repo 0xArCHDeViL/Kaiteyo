@@ -1,0 +1,103 @@
+{
+  "id": "1690650",
+  "readings": [
+    {
+      "kanaExpression": "ひょうしぬけ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "拍子抜け",
+      "furiganaExpression": [
+        {
+          "text": "拍",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        },
+        {
+          "text": "抜",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "拍子ぬけ",
+      "furiganaExpression": [
+        {
+          "text": "拍",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        },
+        {
+          "text": "ぬけ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "拍子抜",
+      "furiganaExpression": [
+        {
+          "text": "拍",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        },
+        {
+          "text": "抜",
+          "annotation": "ぬけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "anticlimax",
+        "let-down",
+        "disappointment",
+        "loss of interest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "enttäuscht sein",
+        "sich enttäuscht sehen",
+        "aus dem Konzept sein",
+        "Enttäuschung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiábrándulás",
+        "kiábrándultság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разочарование",
+        "{～がする} быть разочарованным; быть обескураженным"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "snopenhet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "1271350",
+  "readings": [
+    {
+      "kanaExpression": "ごじ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "誤字",
+      "furiganaExpression": [
+        {
+          "text": "誤",
+          "annotation": "ご"
+        },
+        {
+          "text": "字",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "misprint",
+        "misspelling",
+        "typo",
+        "typographical error",
+        "erratum"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faute d\u0027impression"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "falsches Schriftzeichen",
+        "falsches Wort",
+        "Schreibfehler",
+        "Druckfehler"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "опечатка, описка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "napak natisniti",
+        "tiskovna napaka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "error tipográfico"
+      ]
+    }
+  ]
+}

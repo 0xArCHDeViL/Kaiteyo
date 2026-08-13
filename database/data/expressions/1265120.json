@@ -1,0 +1,55 @@
+{
+  "id": "1265120",
+  "readings": [
+    {
+      "kanaExpression": "ふるめかしい",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "古めかしい",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "ふる"
+        },
+        {
+          "text": "めかしい"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "old-fashioned",
+        "ancient-looking",
+        "time-worn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "altehrwürdig",
+        "altmodisch",
+        "veraltet",
+        "alt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "древний; старинного вида"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pasado de moda",
+        "anticuado",
+        "viejo"
+      ]
+    }
+  ]
+}

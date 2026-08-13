@@ -1,0 +1,49 @@
+{
+  "id": "2262030",
+  "readings": [
+    {
+      "kanaExpression": "むしパン",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "蒸しパン",
+      "furiganaExpression": [
+        {
+          "text": "蒸",
+          "annotation": "む"
+        },
+        {
+          "text": "しパン"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "蒸パン",
+      "furiganaExpression": [
+        {
+          "text": "蒸",
+          "annotation": "むし"
+        },
+        {
+          "text": "パン"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "steamed bun",
+        "steamed bread"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gedämpftes Brötchen"
+      ]
+    }
+  ]
+}

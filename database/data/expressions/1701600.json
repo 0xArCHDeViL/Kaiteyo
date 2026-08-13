@@ -1,0 +1,75 @@
+{
+  "id": "1701600",
+  "readings": [
+    {
+      "kanaExpression": "かきて",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "書き手",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ],
+      "rank": 12481
+    },
+    {
+      "kanjiExpression": "書手",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "かき"
+        },
+        {
+          "text": "手",
+          "annotation": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "writer",
+        "painter",
+        "drawer",
+        "calligrapher",
+        "skilful writer",
+        "skilful painter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schreiber",
+        "Kalligraph",
+        "Maler",
+        "jmd., der schön schreibt und malt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szerző"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) переписчик, писец",
+        "2) каллиграф, мастер письма",
+        "3) стилист"
+      ]
+    }
+  ]
+}

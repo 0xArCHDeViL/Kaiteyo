@@ -1,0 +1,70 @@
+{
+  "id": "1715170",
+  "readings": [
+    {
+      "kanaExpression": "きっきん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "喫緊",
+      "furiganaExpression": [
+        {
+          "text": "喫",
+          "annotation": "きっ"
+        },
+        {
+          "text": "緊",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "吃緊",
+      "furiganaExpression": [
+        {
+          "text": "吃",
+          "annotation": "きっ"
+        },
+        {
+          "text": "緊",
+          "annotation": "きん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "urgent",
+        "pressing",
+        "exigent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dringlich",
+        "drängend",
+        "eilig",
+        "auf den Nägeln brennend",
+        "Dringlichkeit",
+        "Drängen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sürgősség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) важность, значительность, серьёзность; срочность, неотложность",
+        "{～の} [жизненно] важный, серьёзный; срочный, настоятельный, неотложный"
+      ]
+    }
+  ]
+}

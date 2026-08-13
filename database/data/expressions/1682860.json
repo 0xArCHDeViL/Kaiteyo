@@ -1,0 +1,53 @@
+{
+  "id": "1682860",
+  "readings": [
+    {
+      "kanaExpression": "げんすい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "減水",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "subsiding of water"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sinken des Wasserstandes (eines Flusses o. Ä.)",
+        "sinken",
+        "abnehmen (der Wasserstand)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спад воды; низкий уровень воды",
+        "{～する} вода спадает (убывает); уровень воды понижается"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "descenso del caudal",
+        "bajada de las aguas"
+      ]
+    }
+  ]
+}

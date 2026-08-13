@@ -1,0 +1,100 @@
+{
+  "id": "1168120",
+  "readings": [
+    {
+      "kanaExpression": "いんかん",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "印鑑",
+      "furiganaExpression": [
+        {
+          "text": "印",
+          "annotation": "いん"
+        },
+        {
+          "text": "鑑",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 14158
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stamp",
+        "seal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zegel",
+        "stempel",
+        "zegelstempel",
+        "cachet",
+        "signet",
+        "stempelafdruk",
+        "zegelafdruk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sceau",
+        "tampon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Siegel",
+        "Namenssiegel",
+        "Siegelabdruck",
+        "amtlich registrierter Abdruck eines Namensstempels",
+        "gesiegelter Passierschein",
+        "eine Art Passierschein mit Stempelabdruck, den man z.B. beim Passieren eines Schlosstores vorweisen musste"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bélyegző",
+        "fejgerenda",
+        "forrasztás",
+        "lezárás",
+        "papírpecsét",
+        "szigetelés",
+        "vízzárás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оттиск печати, печать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "osebni pečat, štampiljka (uporablja se namesto podpisa)",
+        "potrditev"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estampilla",
+        "sello"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "namnstämpel"
+      ]
+    }
+  ]
+}

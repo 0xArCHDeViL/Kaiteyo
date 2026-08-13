@@ -1,0 +1,55 @@
+{
+  "id": "1523030",
+  "readings": [
+    {
+      "kanaExpression": "ほんでん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "本殿",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "殿",
+          "annotation": "でん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main hall (of a Shinto shrine)",
+        "main shrine",
+        "inner sanctuary"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdhal van een heiligdom",
+        "tabernakel",
+        "Seiryōden {\u003d shintoïstische hoofdhal van het keizerlijk paleis te Kioto}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptgebäude eines Schreins",
+        "Hauptschrein",
+        "Allerheiligstes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(синт.) главный храм"
+      ]
+    }
+  ]
+}

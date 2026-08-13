@@ -1,0 +1,91 @@
+{
+  "id": "1485330",
+  "readings": [
+    {
+      "kanaExpression": "とびちる",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "飛び散る",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "と"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "散",
+          "annotation": "ち"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "飛散る",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "とび"
+        },
+        {
+          "text": "散",
+          "annotation": "ち"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to fly around",
+        "to scatter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "her en der rondvliegen",
+        "in het rond vliegen",
+        "uiteenvliegen",
+        "uiteenstuiven",
+        "zich verspreiden (over)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "umherfliegen",
+        "spritzen",
+        "zersplittern",
+        "sich zerstreuen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eldobál",
+        "elhint",
+        "eloszlat",
+        "elszéled",
+        "elszóródik",
+        "szertefoszlat",
+        "széthint"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разлетаться во все стороны; рассыпаться"
+      ]
+    }
+  ]
+}

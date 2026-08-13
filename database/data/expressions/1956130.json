@@ -1,0 +1,76 @@
+{
+  "id": "1956130",
+  "readings": [
+    {
+      "kanaExpression": "むくろ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "躯",
+      "furiganaExpression": [
+        {
+          "text": "躯",
+          "annotation": "むくろ"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "骸",
+      "furiganaExpression": [
+        {
+          "text": "骸",
+          "annotation": "むくろ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "身",
+      "furiganaExpression": [
+        {
+          "text": "身",
+          "annotation": "むくろ"
+        }
+      ],
+      "rank": 949
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(dead) body",
+        "corpse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Körper",
+        "Rumpf",
+        "Torso",
+        "morscher Baumstamm",
+        "verrotteter Baumstamm",
+        "Leichnam",
+        "sterbliche Überreste"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alapanyag",
+        "erdőállomány",
+        "hulla",
+        "tetem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) тело (гл. обр. мёртвое)",
+        "2) трухлявый ствол [дерева]"
+      ]
+    }
+  ]
+}

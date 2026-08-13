@@ -1,0 +1,74 @@
+{
+  "id": "1475220",
+  "readings": [
+    {
+      "kanaExpression": "はくしょ",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "白書",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "はく"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 8313
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "white paper (government report)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "witboek"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "livre blanc"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Weißbuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fehér papír",
+        "hivatalos kormánykiadvány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "белая книга"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "bela knjiga"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "papel blanco"
+      ]
+    }
+  ]
+}

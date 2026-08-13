@@ -1,0 +1,95 @@
+{
+  "id": "1504230",
+  "readings": [
+    {
+      "kanaExpression": "ぶんべん",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "分娩",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "娩",
+          "annotation": "べん"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "分べん",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "べん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "childbirth",
+        "delivery"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bevalling",
+        "verlossing",
+        "geboorte",
+        "het ter wereld brengen",
+        "het baren",
+        "baring",
+        "{geneesk.} partus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(ein Kind) gebären",
+        "von einem Kind entbunden werden",
+        "mit einem Kind niederkommen",
+        "Entbindung",
+        "Gebären",
+        "Geburt",
+        "Niederkunft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kézbesítés",
+        "szülés",
+        "behatárolás",
+        "börtönbüntetés",
+        "fogság",
+        "kényszerű elszigeteltség",
+        "szobafogság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "роды",
+        "{～する} рожать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "parir",
+        "dar a luz",
+        "alumbrar"
+      ]
+    }
+  ]
+}

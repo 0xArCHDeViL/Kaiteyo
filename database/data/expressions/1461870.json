@@ -1,0 +1,83 @@
+{
+  "id": "1461870",
+  "readings": [
+    {
+      "kanaExpression": "にじ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "二次",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "２次",
+      "furiganaExpression": [
+        {
+          "text": "２",
+          "annotation": "に"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "second",
+        "secondary",
+        "quadratic (function, equation, etc.)",
+        "second-order"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "secondaire",
+        "subalterne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zweites …",
+        "zweites Mal",
+        "zweite Generation",
+        "Sekundär…",
+        "untergeordnet",
+        "zweite Ordnung",
+        "Quadrat…",
+        "quadratisch",
+        "… der zweite",
+        "zweit",
+        "sekundär"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "másodlagos"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "secundario",
+        "subordinado"
+      ]
+    }
+  ]
+}

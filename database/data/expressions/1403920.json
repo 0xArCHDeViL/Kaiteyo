@@ -1,0 +1,62 @@
+{
+  "id": "1403920",
+  "readings": [
+    {
+      "kanaExpression": "そっこう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "側溝",
+      "furiganaExpression": [
+        {
+          "text": "側",
+          "annotation": "そっ"
+        },
+        {
+          "text": "溝",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gutter",
+        "ditch"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "goot",
+        "geul",
+        "watervoor",
+        "greppel",
+        "gleuf",
+        "afvoerkanaal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gosse",
+        "Rinnstein",
+        "Straßengraben",
+        "Abflussrinne (neben der Straße oder neben dem Bahndamm)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "barázda",
+        "csatorna",
+        "kanális",
+        "vájat",
+        "lövészárok"
+      ]
+    }
+  ]
+}

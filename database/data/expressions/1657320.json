@@ -1,0 +1,61 @@
+{
+  "id": "1657320",
+  "readings": [
+    {
+      "kanaExpression": "こくぐん",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "国軍",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        }
+      ],
+      "rank": 18000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "national armed forces"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} rijksleger",
+        "staatsleger",
+        "nationaal leger",
+        "{mil.} ons leger",
+        "onze troepen",
+        "onze strijdkrachten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nationale Streitkräfte",
+        "Streitkräfte eines Landes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) вооружённые силы Японии, японская армия и флот"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fuerzas armadas nacionales"
+      ]
+    }
+  ]
+}

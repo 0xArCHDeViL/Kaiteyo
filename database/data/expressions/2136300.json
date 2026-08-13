@@ -1,0 +1,56 @@
+{
+  "id": "2136300",
+  "readings": [
+    {
+      "kanaExpression": "ということは",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "と言うことは",
+      "furiganaExpression": [
+        {
+          "text": "と"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "うことは"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "と言う事は",
+      "furiganaExpression": [
+        {
+          "text": "と"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        },
+        {
+          "text": "事",
+          "annotation": "こと"
+        },
+        {
+          "text": "は"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "that is to say",
+        "so that means"
+      ]
+    }
+  ]
+}

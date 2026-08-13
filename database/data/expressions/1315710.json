@@ -1,0 +1,116 @@
+{
+  "id": "1315710",
+  "readings": [
+    {
+      "kanaExpression": "もってくる",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "持ってくる",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "ってくる"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "持って来る",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "も"
+        },
+        {
+          "text": "って"
+        },
+        {
+          "text": "来",
+          "annotation": "く"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "もって来る",
+      "furiganaExpression": [
+        {
+          "text": "もって"
+        },
+        {
+          "text": "来",
+          "annotation": "く"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to bring",
+        "to take (something) along",
+        "to fetch",
+        "to get"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "meebrengen",
+        "aanbrengen",
+        "brengen",
+        "halen",
+        "komen aanzetten met"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "apporter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "etw. bringen",
+        "etw. mitbringen",
+        "etw. holen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "meghoz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приносить; брать с собой"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prinesti (nekaj)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "traer (algo)"
+      ]
+    }
+  ]
+}

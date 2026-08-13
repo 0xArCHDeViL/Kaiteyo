@@ -1,0 +1,54 @@
+{
+  "id": "1623450",
+  "readings": [
+    {
+      "kanaExpression": "だいふく",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "大福",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "だい"
+        },
+        {
+          "text": "福",
+          "annotation": "ふく"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "great fortune",
+        "good luck",
+        "rice cake stuffed with bean jam"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "groot geluk",
+        "{cul.} mochi gevuld met azuki-bonenpasta"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "großes Glück",
+        "Daifuku-mochi (mit Bohnenmus gefüllte Mochi; Abk.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) огромное богатство",
+        "2) (см.) だいふくもち"
+      ]
+    }
+  ]
+}

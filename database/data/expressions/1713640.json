@@ -1,0 +1,48 @@
+{
+  "id": "1713640",
+  "readings": [
+    {
+      "kanaExpression": "たいれつ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "隊列",
+      "furiganaExpression": [
+        {
+          "text": "隊",
+          "annotation": "たい"
+        },
+        {
+          "text": "列",
+          "annotation": "れつ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rank (of troops)",
+        "file",
+        "column",
+        "formation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "von einer Truppe gebildete Reihe",
+        "Kolonne",
+        "Formation"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(воен.) ряд, шеренга; ряды, строй"
+      ]
+    }
+  ]
+}

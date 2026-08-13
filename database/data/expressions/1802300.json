@@ -1,0 +1,46 @@
+{
+  "id": "1802300",
+  "readings": [
+    {
+      "kanaExpression": "だんじょう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "壇上",
+      "furiganaExpression": [
+        {
+          "text": "壇",
+          "annotation": "だん"
+        },
+        {
+          "text": "上",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "on a stage",
+        "on a platform",
+        "on an altar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auf dem Podium",
+        "auf dem Podest"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "на трибуне"
+      ]
+    }
+  ]
+}

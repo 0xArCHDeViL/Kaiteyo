@@ -1,0 +1,152 @@
+{
+  "id": "2714050",
+  "readings": [
+    {
+      "kanaExpression": "うえじに",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "かつえじに"
+    },
+    {
+      "kanjiExpression": "飢え死に",
+      "furiganaExpression": [
+        {
+          "text": "飢",
+          "annotation": "う"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "死",
+          "annotation": "じ"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "餓え死に",
+      "furiganaExpression": [
+        {
+          "text": "餓",
+          "annotation": "う"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "死",
+          "annotation": "じ"
+        },
+        {
+          "text": "に"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "飢死に",
+      "furiganaExpression": [
+        {
+          "text": "飢",
+          "annotation": "うえ"
+        },
+        {
+          "text": "死",
+          "annotation": "じ"
+        },
+        {
+          "text": "に"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "飢え死",
+      "furiganaExpression": [
+        {
+          "text": "飢",
+          "annotation": "う"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "死",
+          "annotation": "じに"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "飢死",
+      "furiganaExpression": [
+        {
+          "text": "飢",
+          "annotation": "うえ"
+        },
+        {
+          "text": "死",
+          "annotation": "じに"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "饑死",
+      "furiganaExpression": [
+        {
+          "text": "饑",
+          "annotation": "うえ"
+        },
+        {
+          "text": "死",
+          "annotation": "じに"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(death from) starvation",
+        "starving to death"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hungertod",
+        "Verhungern",
+        "verhungern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "éhezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "голодная смерть",
+        "{～する} умереть (погибнуть) от голода, умереть голодной смертью"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "muerte por inanición",
+        "muerte de hambre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "svältdöd"
+      ]
+    }
+  ]
+}

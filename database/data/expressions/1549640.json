@@ -1,0 +1,52 @@
+{
+  "id": "1549640",
+  "readings": [
+    {
+      "kanaExpression": "りにょう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "利尿",
+      "furiganaExpression": [
+        {
+          "text": "利",
+          "annotation": "り"
+        },
+        {
+          "text": "尿",
+          "annotation": "にょう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "diuresis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Diurese",
+        "Harnabsonderung",
+        "Harnausscheidung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мочеиспускание",
+        "{～する} мочиться"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "urindrivande"
+      ]
+    }
+  ]
+}

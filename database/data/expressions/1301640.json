@@ -1,0 +1,57 @@
+{
+  "id": "1301640",
+  "readings": [
+    {
+      "kanaExpression": "さんぼん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "三本",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "本",
+          "annotation": "ぼん"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "３本",
+      "furiganaExpression": [
+        {
+          "text": "３",
+          "annotation": "さん"
+        },
+        {
+          "text": "本",
+          "annotation": "ぼん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "three (long cylindrical things)",
+        "three-of-a-kind (in a dealt hand)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "drei Flaschen (bzw. andere lange, schmale Dinge)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "három"
+      ]
+    }
+  ]
+}

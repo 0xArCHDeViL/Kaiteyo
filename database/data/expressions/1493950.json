@@ -1,0 +1,54 @@
+{
+  "id": "1493950",
+  "readings": [
+    {
+      "kanaExpression": "ふてき",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "不適",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "適",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inadequacy",
+        "inappropriateness",
+        "unfitness",
+        "impropriety"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Untauglichkeit",
+        "Unangemessenheit",
+        "fehlende Eignung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "illetlenség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. см.) ふてきとう"
+      ]
+    }
+  ]
+}

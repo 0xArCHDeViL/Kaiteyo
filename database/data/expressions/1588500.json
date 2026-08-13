@@ -1,0 +1,148 @@
+{
+  "id": "1588500",
+  "readings": [
+    {
+      "kanaExpression": "うりあげ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "売り上げ",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 4517
+    },
+    {
+      "kanjiExpression": "売上げ",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うり"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 11370
+    },
+    {
+      "kanjiExpression": "売上",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うり"
+        },
+        {
+          "text": "上",
+          "annotation": "あげ"
+        }
+      ],
+      "rank": 3330
+    },
+    {
+      "kanjiExpression": "売り上",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "annotation": "あげ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "amount sold",
+        "sales",
+        "proceeds",
+        "takings",
+        "turnover"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkoop",
+        "ontvangsten door de verkoop",
+        "recette",
+        "opbrengst",
+        "provenu"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "quantité vendue",
+        "ventes",
+        "produit des ventes",
+        "recette",
+        "chiffre d\u0027affaires"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erlös",
+        "Ertrag",
+        "Umsatz",
+        "Gewinn",
+        "Einnahme",
+        "Verkauf",
+        "Quittung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bevétel",
+        "jövedelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) завершение продажи",
+        "2) выручка [от продажи]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izkupiček"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ventas",
+        "ingresos",
+        "total de las ventas"
+      ]
+    }
+  ]
+}

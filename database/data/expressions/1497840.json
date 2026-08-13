@@ -1,0 +1,108 @@
+{
+  "id": "1497840",
+  "readings": [
+    {
+      "kanaExpression": "ふしょく",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "腐食",
+      "furiganaExpression": [
+        {
+          "text": "腐",
+          "annotation": "ふ"
+        },
+        {
+          "text": "食",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "腐蝕",
+      "furiganaExpression": [
+        {
+          "text": "腐",
+          "annotation": "ふ"
+        },
+        {
+          "text": "蝕",
+          "annotation": "しょく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "corrosion",
+        "etching",
+        "erosion",
+        "rot",
+        "decay",
+        "rust",
+        "saprophagy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "corroderen",
+        "eroderen",
+        "{i.h.b.} roesten",
+        "wegroesten",
+        "aanvreten",
+        "aantasten",
+        "wegbijten",
+        "corrosie",
+        "erosie",
+        "aantasting"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "corrosion",
+        "décomposition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "korrodieren",
+        "ätzen",
+        "zerfressen",
+        "Korrosion",
+        "Ätzung",
+        "Verwesung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "korrózió"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ржавчина, коррозия; эрозия",
+        "{～する} ржаветь, подвергаться коррозии (эрозии)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "corrosión"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "korrosion"
+      ]
+    }
+  ]
+}

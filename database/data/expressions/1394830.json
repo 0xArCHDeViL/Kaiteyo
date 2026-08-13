@@ -1,0 +1,61 @@
+{
+  "id": "1394830",
+  "readings": [
+    {
+      "kanaExpression": "ぜんいき",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "全域",
+      "furiganaExpression": [
+        {
+          "text": "全",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "域",
+          "annotation": "いき"
+        }
+      ],
+      "rank": 10689
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the whole area",
+        "the entire region",
+        "all parts (of)",
+        "the whole field (of study)",
+        "every field",
+        "the whole gamut"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het hele gebied",
+        "de hele regio",
+        "de hele streek",
+        "het hele terrein",
+        "het hele scala",
+        "het hele gamma"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das ganze Gebiet",
+        "der ganze Bereich",
+        "weit und breit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "весь район (участок); вся территория"
+      ]
+    }
+  ]
+}

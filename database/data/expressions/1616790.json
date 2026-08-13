@@ -1,0 +1,70 @@
+{
+  "id": "1616790",
+  "readings": [
+    {
+      "kanaExpression": "ふきょう",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "布教",
+      "furiganaExpression": [
+        {
+          "text": "布",
+          "annotation": "ふ"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "propagation (e.g. a religion)",
+        "proselytizing",
+        "missionary work"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{rel.} het geloof verbreiden",
+        "verkondigen",
+        "missiewerk",
+        "zendingswerk verrichten",
+        "{rel.} verbreiding",
+        "verkondiging van het geloof",
+        "missie",
+        "zendingswerk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "missionieren",
+        "Mission treiben",
+        "propagieren",
+        "Verbreitung einer religiösen Lehre",
+        "Mission"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "propagálás",
+        "szaporítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проповедование",
+        "{～する} проповедовать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "1626520",
+  "readings": [
+    {
+      "kanaExpression": "へいざん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "閉山",
+      "furiganaExpression": [
+        {
+          "text": "閉",
+          "annotation": "へい"
+        },
+        {
+          "text": "山",
+          "annotation": "ざん"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ending the climbing season",
+        "closure of a mountain to climbers",
+        "closing a mine",
+        "discontinuation of mining"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het afsluiten van een berg voor bergsporters",
+        "mijnsluiting",
+        "een berg afsluiten voor bergsporters",
+        "een mijn sluiten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schließen eines Bergwerkes",
+        "Auflassen",
+        "Schließen eines Berges",
+        "Beendigung der Bergsteigesaison",
+        "ein Bergwerk stilllegen",
+        "ein Bergwerk auflassen",
+        "(einen Berg) für die Bergsteiger schließen",
+        "die Bergsteigesaison beenden"
+      ]
+    }
+  ]
+}

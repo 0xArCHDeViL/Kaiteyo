@@ -1,0 +1,76 @@
+{
+  "id": "1374190",
+  "readings": [
+    {
+      "kanaExpression": "せだい",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "世代",
+      "furiganaExpression": [
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "代",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 1544
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "generation",
+        "the world",
+        "the age"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "generatie",
+        "geslacht",
+        "tijdgenotengroep",
+        "{biol.} generatie",
+        "voortplanting",
+        "teling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "génération"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Generation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "generáció",
+        "generálás",
+        "nemzedék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поколение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "generación"
+      ]
+    }
+  ]
+}

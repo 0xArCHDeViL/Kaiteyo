@@ -1,0 +1,59 @@
+{
+  "id": "1274790",
+  "readings": [
+    {
+      "kanaExpression": "こうみんけん",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "公民権",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "権",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "civil rights",
+        "franchise",
+        "citizenship"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bürgerrechte",
+        "Staatsbürgerschaft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "polgárjogok",
+        "kihasználási engedély",
+        "koncesszió",
+        "menedékhely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гражданские права"
+      ]
+    }
+  ]
+}

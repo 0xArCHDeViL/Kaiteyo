@@ -1,0 +1,63 @@
+{
+  "id": "1430710",
+  "readings": [
+    {
+      "kanaExpression": "ちょくえい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "直営",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "ちょく"
+        },
+        {
+          "text": "営",
+          "annotation": "えい"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "direct management"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rechtstreeks bestuur",
+        "beheer",
+        "rechtstreekse leiding",
+        "uitbating",
+        "exploitatie",
+        "rechtstreeks besturen",
+        "beheren",
+        "leiden",
+        "rechtstreeks uitbaten",
+        "exploiteren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "direkte Verwaltung",
+        "direkte Kontrolle (z.B. der Regierung)",
+        "direkt verwaltet",
+        "unter direkter Verwaltung",
+        "direkt verwalten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "непосредственная эксплуатация, непосредственное руководство (предприятием и т. п.)",
+        "{～する} непосредственно эксплуатировать"
+      ]
+    }
+  ]
+}

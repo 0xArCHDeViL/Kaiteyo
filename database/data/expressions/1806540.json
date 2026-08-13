@@ -1,0 +1,55 @@
+{
+  "id": "1806540",
+  "readings": [
+    {
+      "kanaExpression": "がいこういん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "外交員",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "交",
+          "annotation": "こう"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "canvasser",
+        "door-to-door salesman"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Außendienstmitarbeiter",
+        "Außendienstler"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "házaló ügynök"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "агент по сбору заказов (по рекламе); агент по вербовке (напр. подписчиков); коммивояжёр"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "1532300",
+  "readings": [
+    {
+      "kanaExpression": "あけがた",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "明け方",
+      "furiganaExpression": [
+        {
+          "text": "明",
+          "annotation": "あ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "方",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 14646
+    },
+    {
+      "kanjiExpression": "明方",
+      "furiganaExpression": [
+        {
+          "text": "明",
+          "annotation": "あけ"
+        },
+        {
+          "text": "方",
+          "annotation": "がた"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "明けがた",
+      "furiganaExpression": [
+        {
+          "text": "明",
+          "annotation": "あ"
+        },
+        {
+          "text": "けがた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dawn",
+        "daybreak"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dageraad",
+        "ochtendstond",
+        "ochtendgloren",
+        "het krieken van de dag",
+        "het aanbreken van de dag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aube",
+        "aurore"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tagesanbruch",
+        "bei Tagesanbruch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "keletkezés",
+        "pirkadat",
+        "reggeli szürkület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рассвет",
+        "{～に} чуть свет, на рассвете"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zora",
+        "zarja",
+        "svitanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "amanecer",
+        "alba",
+        "al salir el sol"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "gryning"
+      ]
+    }
+  ]
+}

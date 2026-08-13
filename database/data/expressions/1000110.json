@@ -1,0 +1,79 @@
+{
+  "id": "1000110",
+  "readings": [
+    {
+      "kanaExpression": "シーディープレーヤー",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "シーディープレイヤー"
+    },
+    {
+      "kanjiExpression": "ＣＤプレーヤー",
+      "furiganaExpression": [
+        {
+          "text": "Ｃ",
+          "annotation": "シー"
+        },
+        {
+          "text": "Ｄ",
+          "annotation": "ディー"
+        },
+        {
+          "text": "プレーヤー"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ＣＤプレイヤー",
+      "furiganaExpression": [
+        {
+          "text": "Ｃ",
+          "annotation": "シー"
+        },
+        {
+          "text": "Ｄ",
+          "annotation": "ディー"
+        },
+        {
+          "text": "プレイヤー"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "CD player"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lecteur CD"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "CD-Spieler",
+        "CD-Player"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "CD плеер",
+        "проигрыватель компакт-дисков"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reproductor de CD (eng: CD player)"
+      ]
+    }
+  ]
+}

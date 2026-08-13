@@ -1,0 +1,126 @@
+{
+  "id": "1245340",
+  "readings": [
+    {
+      "kanaExpression": "あきち",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "空き地",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "あ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "空地",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "あき"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "明き地",
+      "furiganaExpression": [
+        {
+          "text": "明",
+          "annotation": "あ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "あき地",
+      "furiganaExpression": [
+        {
+          "text": "あき"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vacant land",
+        "unoccupied ground",
+        "empty lot",
+        "empty point"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onbebouwd stuk land",
+        "terrein",
+        "gebied",
+        "lege ruimte",
+        "{i.h.b.} bouwterrein",
+        "stuk bouwgrond"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "terrain inoccupé",
+        "terrain vague"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "freie Fläche",
+        "Freifläche",
+        "freier Platz",
+        "freies Grundstück",
+        "Baulücke"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "свободный участок [земли]; пустырь"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pusta zemlja",
+        "prazno zemljišče"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "yermo"
+      ]
+    }
+  ]
+}

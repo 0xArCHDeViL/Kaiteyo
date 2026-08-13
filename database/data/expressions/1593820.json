@@ -1,0 +1,103 @@
+{
+  "id": "1593820",
+  "readings": [
+    {
+      "kanaExpression": "さび",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "錆",
+      "furiganaExpression": [
+        {
+          "text": "錆",
+          "annotation": "さび"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "錆び",
+      "furiganaExpression": [
+        {
+          "text": "錆",
+          "annotation": "さ"
+        },
+        {
+          "text": "び"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "銹",
+      "furiganaExpression": [
+        {
+          "text": "銹",
+          "annotation": "さび"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "鏽",
+      "furiganaExpression": [
+        {
+          "text": "鏽",
+          "annotation": "さび"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rust"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "roest",
+        "oxidatie",
+        "patina"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rouille"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rost",
+        "Patina",
+        "Beschlag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rozsda"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ржавчина, коррозия"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "rjasto-rjava barva"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "óxido"
+      ]
+    }
+  ]
+}

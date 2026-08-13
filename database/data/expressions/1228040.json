@@ -1,0 +1,86 @@
+{
+  "id": "1228040",
+  "readings": [
+    {
+      "kanaExpression": "きゅうじつ",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "休日",
+      "furiganaExpression": [
+        {
+          "text": "休",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "日",
+          "annotation": "じつ"
+        }
+      ],
+      "rank": 3193
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "holiday",
+        "day off"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vakantiedag",
+        "rustdag",
+        "snipperdag",
+        "verlofdag",
+        "dagje vrij",
+        "dag vrijaf",
+        "vrije dag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jour de vacance",
+        "jour férié"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ruhetag",
+        "Urlaubstag",
+        "Feiertag",
+        "Sonn- und Feiertag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "munkaszüneti nap",
+        "szabadnap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "день отдыха, выходной день"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prost dan",
+        "počitnice"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "día libre"
+      ]
+    }
+  ]
+}

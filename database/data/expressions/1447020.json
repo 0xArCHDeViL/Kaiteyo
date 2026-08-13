@@ -1,0 +1,76 @@
+{
+  "id": "1447020",
+  "readings": [
+    {
+      "kanaExpression": "なげこむ",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "投げ込む",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "な"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "投げこむ",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "な"
+        },
+        {
+          "text": "げこむ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to throw into"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inwerpen",
+        "ingooien",
+        "{honkb.} zich warmgooien"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hineinwerfen",
+        "einstecken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bedob"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бросать, забрасывать, кидать, швырять (во что-л.)"
+      ]
+    }
+  ]
+}

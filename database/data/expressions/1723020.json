@@ -1,0 +1,52 @@
+{
+  "id": "1723020",
+  "readings": [
+    {
+      "kanaExpression": "ぶんし",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "文士",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "man of letters",
+        "literary man"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schriftsteller",
+        "Romancier",
+        "Mann der Feder"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "irodalmár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "литератор, писатель"
+      ]
+    }
+  ]
+}

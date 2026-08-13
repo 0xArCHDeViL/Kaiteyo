@@ -1,0 +1,67 @@
+{
+  "id": "1554660",
+  "readings": [
+    {
+      "kanaExpression": "りょうさん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "量産",
+      "furiganaExpression": [
+        {
+          "text": "量",
+          "annotation": "りょう"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 11257
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mass production"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "massaproductie",
+        "massafabricage",
+        "massafabricatie",
+        "in massa produceren",
+        "in grote aantallen",
+        "hoeveelheden voortbrengen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Massenproduktion (Abk.)",
+        "in Massen produzieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tömegtermelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "массовое производство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "producción en masa"
+      ]
+    }
+  ]
+}

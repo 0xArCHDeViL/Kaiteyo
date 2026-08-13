@@ -1,0 +1,52 @@
+{
+  "id": "1304640",
+  "readings": [
+    {
+      "kanaExpression": "ざんぞう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "残像",
+      "furiganaExpression": [
+        {
+          "text": "残",
+          "annotation": "ざん"
+        },
+        {
+          "text": "像",
+          "annotation": "ぞう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "afterimage",
+        "after image"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachbild"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emlékkép",
+        "recehártyán mutatkozó utókép",
+        "utókép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "картина, всё ещё стоящая перед глазами; образ, встающий перед мысленным взором"
+      ]
+    }
+  ]
+}

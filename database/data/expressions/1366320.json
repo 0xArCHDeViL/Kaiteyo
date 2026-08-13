@@ -1,0 +1,64 @@
+{
+  "id": "1366320",
+  "readings": [
+    {
+      "kanaExpression": "ふるえあがる",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "震え上がる",
+      "furiganaExpression": [
+        {
+          "text": "震",
+          "annotation": "ふる"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "がる"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "震えあがる",
+      "furiganaExpression": [
+        {
+          "text": "震",
+          "annotation": "ふる"
+        },
+        {
+          "text": "えあがる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to tremble violently",
+        "to shudder up",
+        "to shake"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schaudern",
+        "erzittern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вздрогнуть, задрожать; дрожать, трястись"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1172650",
+  "readings": [
+    {
+      "kanaExpression": "はこびだす",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "運び出す",
+      "furiganaExpression": [
+        {
+          "text": "運",
+          "annotation": "はこ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "運びだす",
+      "furiganaExpression": [
+        {
+          "text": "運",
+          "annotation": "はこ"
+        },
+        {
+          "text": "びだす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to carry out (of somewhere)",
+        "to transport",
+        "to take out"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eruit",
+        "naar buiten dragen",
+        "uitdragen",
+        "naar buiten voeren",
+        "uitvoeren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heraustragen",
+        "hinaustragen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kivitelez"
+      ]
+    }
+  ]
+}

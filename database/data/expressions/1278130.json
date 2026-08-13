@@ -1,0 +1,89 @@
+{
+  "id": "1278130",
+  "readings": [
+    {
+      "kanaExpression": "こうじ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "工事",
+      "furiganaExpression": [
+        {
+          "text": "工",
+          "annotation": "こう"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 1662
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "construction work"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "werken",
+        "bouw",
+        "bouwwerken",
+        "bouwwerkzaamheden",
+        "constructie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chantier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bauen",
+        "Bau",
+        "Bauarbeit",
+        "Arbeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "telepítési munkálatok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "работы (строительные, дорожные, осушительные и т. п.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "gradnja",
+        "delo",
+        "popravilo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "construcción",
+        "remodelación"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "byggnadsarbete"
+      ]
+    }
+  ]
+}

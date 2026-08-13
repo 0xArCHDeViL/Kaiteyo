@@ -1,0 +1,89 @@
+{
+  "id": "1977250",
+  "readings": [
+    {
+      "kanaExpression": "えそらごと",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "絵空事",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "空",
+          "annotation": "そら"
+        },
+        {
+          "text": "事",
+          "annotation": "ごと"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "絵空言",
+      "furiganaExpression": [
+        {
+          "text": "絵",
+          "annotation": "え"
+        },
+        {
+          "text": "空",
+          "annotation": "そら"
+        },
+        {
+          "text": "言",
+          "annotation": "ごと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fabrication",
+        "pipe dream"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "droombeeld",
+        "luchtkasteel",
+        "hersenschim",
+        "illusie",
+        "toekomstdroom",
+        "verzinsel",
+        "verdichtsel",
+        "fictie",
+        "overdreven voorstelling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spielerei",
+        "Fiktion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyártás",
+        "készítés",
+        "koholmány",
+        "vágyálom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прост.) чистая выдумка, одно воображение"
+      ]
+    }
+  ]
+}

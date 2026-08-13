@@ -1,0 +1,88 @@
+{
+  "id": "1432120",
+  "readings": [
+    {
+      "kanaExpression": "ちんせい",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "鎮静",
+      "furiganaExpression": [
+        {
+          "text": "鎮",
+          "annotation": "ちん"
+        },
+        {
+          "text": "静",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "calming down",
+        "settling down",
+        "quieting down",
+        "quietening down",
+        "subsiding",
+        "pacification",
+        "appeasement",
+        "sedation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kalmeren",
+        "bedaren",
+        "tot rust komen",
+        "verstillen",
+        "doen bedaren",
+        "tot rust brengen",
+        "apaiseren",
+        "sussen",
+        "stillen",
+        "{geneesk.} sederen",
+        "kalmering",
+        "bedaring",
+        "{geneesk.} sedatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Beruhigung",
+        "Besänftigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csend",
+        "csendes",
+        "nyugalom",
+        "nyugodt",
+        "sima",
+        "szélcsend",
+        "békés",
+        "halk",
+        "szelíd",
+        "békesség",
+        "csendesség",
+        "kielégítés",
+        "megbékítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "затишье, успокоение",
+        "{～する} утихать (о боли и т. п.); утихомириться; успокоиться; быть усмирённым (улаженным)"
+      ]
+    }
+  ]
+}

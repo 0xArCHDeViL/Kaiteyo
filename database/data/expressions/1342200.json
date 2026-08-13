@@ -1,0 +1,70 @@
+{
+  "id": "1342200",
+  "readings": [
+    {
+      "kanaExpression": "じゅんぽう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "遵法",
+      "furiganaExpression": [
+        {
+          "text": "遵",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "法",
+          "annotation": "ぽう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "順法",
+      "furiganaExpression": [
+        {
+          "text": "順",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "法",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "law observance",
+        "obeying the law"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "respect des lois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Befolgung des Gesetzes",
+        "Dienst nach Vorschrift"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подчинение законам, соблюдение законов"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "laglydig"
+      ]
+    }
+  ]
+}

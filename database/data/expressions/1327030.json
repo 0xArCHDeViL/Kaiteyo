@@ -1,0 +1,98 @@
+{
+  "id": "1327030",
+  "readings": [
+    {
+      "kanaExpression": "とりしきる",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "取り仕切る",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "取りしきる",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "りしきる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "取仕切る",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "とり"
+        },
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to manage (all by oneself)",
+        "to control",
+        "to run",
+        "to take charge of"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bedisselen",
+        "leiden",
+        "runnen",
+        "managen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "managen",
+        "führen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "управлять (вести дело) единолично (самому)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1322820",
+  "readings": [
+    {
+      "kanaExpression": "しゃかいめん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "社会面",
+      "furiganaExpression": [
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 17000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "social page (of newspaper)",
+        "local news page"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "katern \"maatschappij\""
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesellschaftskolumne",
+        "vermischte Nachrichten einer Zeitung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "страница общественной жизни, отдел местных новостей (в газете)"
+      ]
+    }
+  ]
+}

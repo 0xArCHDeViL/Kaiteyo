@@ -1,0 +1,56 @@
+{
+  "id": "1779460",
+  "readings": [
+    {
+      "kanaExpression": "てっこう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "鉄工",
+      "furiganaExpression": [
+        {
+          "text": "鉄",
+          "annotation": "てっ"
+        },
+        {
+          "text": "工",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ironworking",
+        "ironworker"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ijzerbewerking",
+        "ijzersmid",
+        "ijzerbewerker"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eisenverarbeitung",
+        "Eisenarbeit",
+        "Eisenkonstruktion",
+        "Eisenbearbeitung",
+        "Eisenarbeiter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кузнец; металлист"
+      ]
+    }
+  ]
+}

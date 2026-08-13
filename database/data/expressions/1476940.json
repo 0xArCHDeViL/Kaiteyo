@@ -1,0 +1,54 @@
+{
+  "id": "1476940",
+  "readings": [
+    {
+      "kanaExpression": "はちまんぐう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "八幡宮",
+      "furiganaExpression": [
+        {
+          "text": "八",
+          "annotation": "はち"
+        },
+        {
+          "text": "幡",
+          "annotation": "まん"
+        },
+        {
+          "text": "宮",
+          "annotation": "ぐう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Shrine of the God of War"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Hachiman-heiligdom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hachiman-Schrein",
+        "Schrein, in dem der Kriegsgott Hachiman verehrt wird"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(синт.) храм Хатимана"
+      ]
+    }
+  ]
+}

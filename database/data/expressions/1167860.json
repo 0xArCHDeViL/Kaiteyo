@@ -1,0 +1,95 @@
+{
+  "id": "1167860",
+  "readings": [
+    {
+      "kanaExpression": "いなずま",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "いなづま"
+    },
+    {
+      "kanjiExpression": "稲妻",
+      "furiganaExpression": [
+        {
+          "text": "稲",
+          "annotation": "いな"
+        },
+        {
+          "text": "妻",
+          "annotation": "ずま"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "電",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "いなずま"
+        }
+      ],
+      "rank": 5901
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lightning",
+        "flash of lightning",
+        "lightning bolt"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bliksem",
+        "bliksemflits",
+        "bliksemschicht",
+        "bliksemstraal",
+        "weerlicht",
+        "bliksemlicht",
+        "{form.} hemelvuur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "éclair"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blitz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "villámlás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "молния"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "relámpago",
+        "rayo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "blixt"
+      ]
+    }
+  ]
+}

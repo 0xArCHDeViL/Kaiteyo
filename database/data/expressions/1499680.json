@@ -1,0 +1,78 @@
+{
+  "id": "1499680",
+  "readings": [
+    {
+      "kanaExpression": "ふうきり",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "封切り",
+      "furiganaExpression": [
+        {
+          "text": "封",
+          "annotation": "ふう"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "封切",
+      "furiganaExpression": [
+        {
+          "text": "封",
+          "annotation": "ふう"
+        },
+        {
+          "text": "切",
+          "annotation": "きり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "premiere",
+        "first showing",
+        "release (film)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "uraufführen (einen Film)",
+        "Brechen des Siegels",
+        "Uraufführung",
+        "Premiere (eines Filmes)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elengedés",
+        "szabadon bocsátás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ふうきりきょうこう",
+        "{～する} быть [впервые] выпущенным на экран"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estreno"
+      ]
+    }
+  ]
+}

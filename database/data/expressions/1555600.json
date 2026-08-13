@@ -1,0 +1,52 @@
+{
+  "id": "1555600",
+  "readings": [
+    {
+      "kanaExpression": "りんげつ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "臨月",
+      "furiganaExpression": [
+        {
+          "text": "臨",
+          "annotation": "りん"
+        },
+        {
+          "text": "月",
+          "annotation": "げつ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "final month of pregnancy",
+        "month in which childbirth is due"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bevallingsmaand",
+        "laatste maand van de zwangerschap",
+        "maand waarin de geboorte verwacht wordt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "letzter Schwangerschaftsmonat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "последний месяц беременности"
+      ]
+    }
+  ]
+}

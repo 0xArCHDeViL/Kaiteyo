@@ -1,0 +1,46 @@
+{
+  "id": "1445520",
+  "readings": [
+    {
+      "kanaExpression": "どなべ",
+      "rank": 37000
+    },
+    {
+      "kanaExpression": "つちなべ"
+    },
+    {
+      "kanjiExpression": "土鍋",
+      "furiganaExpression": [
+        {
+          "text": "土",
+          "annotation": "ど"
+        },
+        {
+          "text": "鍋",
+          "annotation": "なべ"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "earthenware pot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "irdener Kochtopf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глиняный горшок"
+      ]
+    }
+  ]
+}

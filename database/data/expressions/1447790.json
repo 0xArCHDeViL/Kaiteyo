@@ -1,0 +1,45 @@
+{
+  "id": "1447790",
+  "readings": [
+    {
+      "kanaExpression": "ひがしぐち",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "東口",
+      "furiganaExpression": [
+        {
+          "text": "東",
+          "annotation": "ひがし"
+        },
+        {
+          "text": "口",
+          "annotation": "ぐち"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "east entrance",
+        "east exit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Osteingang",
+        "Ostausgang"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entrada este"
+      ]
+    }
+  ]
+}

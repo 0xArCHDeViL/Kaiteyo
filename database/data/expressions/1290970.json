@@ -1,0 +1,80 @@
+{
+  "id": "1290970",
+  "readings": [
+    {
+      "kanaExpression": "ひだりあし",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "さそく"
+    },
+    {
+      "kanjiExpression": "左足",
+      "furiganaExpression": [
+        {
+          "text": "左",
+          "annotation": "ひだり"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ],
+      "rank": 13138
+    },
+    {
+      "kanjiExpression": "左脚",
+      "furiganaExpression": [
+        {
+          "text": "左",
+          "annotation": "ひだり"
+        },
+        {
+          "text": "脚",
+          "annotation": "あし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "left foot",
+        "left leg"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "linkervoet"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pied gauche"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "der linke Fuß",
+        "das linke Bein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) левая нога",
+        "левая нога"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pie izquierdo (pié)"
+      ]
+    }
+  ]
+}

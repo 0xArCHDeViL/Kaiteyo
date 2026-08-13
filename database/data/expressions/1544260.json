@@ -1,0 +1,86 @@
+{
+  "id": "1544260",
+  "readings": [
+    {
+      "kanaExpression": "よじょう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "余剰",
+      "furiganaExpression": [
+        {
+          "text": "余",
+          "annotation": "よ"
+        },
+        {
+          "text": "剰",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 11980
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "surplus",
+        "remainder",
+        "residue",
+        "margin",
+        "balance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "surplus",
+        "overschot",
+        "rest",
+        "residu",
+        "reserve",
+        "teveel",
+        "overmaat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "résidu",
+        "redondant",
+        "solde",
+        "surplus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überrest",
+        "Überschuss"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felesleges",
+        "létszám fölötti",
+        "nélkülözhető",
+        "pleonasztikus",
+        "szükségtelen",
+        "maradvány",
+        "maradék",
+        "egyenleg",
+        "szilárdság",
+        "többlet",
+        "felesleg",
+        "fölösleg"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "остаток, излишек"
+      ]
+    }
+  ]
+}

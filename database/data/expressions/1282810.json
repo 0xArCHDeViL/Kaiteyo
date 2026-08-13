@@ -1,0 +1,67 @@
+{
+  "id": "1282810",
+  "readings": [
+    {
+      "kanaExpression": "こうう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "降雨",
+      "furiganaExpression": [
+        {
+          "text": "降",
+          "annotation": "こう"
+        },
+        {
+          "text": "雨",
+          "annotation": "う"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rainfall",
+        "rain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "regenval",
+        "regen",
+        "neerslag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Regen",
+        "Regenfall"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "özön",
+        "zápor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) выпадение дождя (осадков); дождь, осадки"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precipitaciones",
+        "lluvia"
+      ]
+    }
+  ]
+}

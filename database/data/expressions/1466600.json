@@ -1,0 +1,61 @@
+{
+  "id": "1466600",
+  "readings": [
+    {
+      "kanaExpression": "にゅうとう",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "入党",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "joining a political party"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich bij een partij aansluiten",
+        "tot een partij toetreden",
+        "aansluiting bij een partij",
+        "toetreding tot een partij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in eine Partei eintreten",
+        "Parteimitglied werden",
+        "Eintritt in eine Partei"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вступление в партию",
+        "{～する} вступать в партию"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "afiliarse a un partido político"
+      ]
+    }
+  ]
+}

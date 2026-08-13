@@ -1,0 +1,73 @@
+{
+  "id": "1221260",
+  "readings": [
+    {
+      "kanaExpression": "かえりみち",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "帰り道",
+      "furiganaExpression": [
+        {
+          "text": "帰",
+          "annotation": "かえ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ],
+      "rank": 9010
+    },
+    {
+      "kanjiExpression": "帰り路",
+      "furiganaExpression": [
+        {
+          "text": "帰",
+          "annotation": "かえ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "路",
+          "annotation": "みち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the way back",
+        "the way home",
+        "return trip"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Heimweg",
+        "Rückweg",
+        "Rückfahrt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обратный путь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "camino de vuelta",
+        "camino de regreso"
+      ]
+    }
+  ]
+}

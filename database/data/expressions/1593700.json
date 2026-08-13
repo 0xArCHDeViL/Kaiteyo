@@ -1,0 +1,88 @@
+{
+  "id": "1593700",
+  "readings": [
+    {
+      "kanaExpression": "さくづけ",
+      "rank": 25000
+    },
+    {
+      "kanaExpression": "さくつけ"
+    },
+    {
+      "kanjiExpression": "作付け",
+      "furiganaExpression": [
+        {
+          "text": "作",
+          "annotation": "さく"
+        },
+        {
+          "text": "付",
+          "annotation": "づ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "作付",
+      "furiganaExpression": [
+        {
+          "text": "作",
+          "annotation": "さく"
+        },
+        {
+          "text": "付",
+          "annotation": "づけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "planting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bebouwen",
+        "beplanten",
+        "aanbouwen",
+        "aanplanten",
+        "betelen",
+        "bezaaien",
+        "aanbouw",
+        "aanplant",
+        "aanplanting",
+        "beplanting",
+        "bezaaiing",
+        "{w.g.} beteling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anbau",
+        "Anpflanzen (Lesung sake・zuke üblicher)",
+        "Anpflanzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "telepítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) さくづけ",
+        "посев, посадка; возделывание сельскохозяйственных культур"
+      ]
+    }
+  ]
+}

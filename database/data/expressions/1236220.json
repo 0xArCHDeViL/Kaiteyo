@@ -1,0 +1,57 @@
+{
+  "id": "1236220",
+  "readings": [
+    {
+      "kanaExpression": "つよふくみ",
+      "rank": 36000
+    },
+    {
+      "kanaExpression": "つよぶくみ"
+    },
+    {
+      "kanjiExpression": "強含み",
+      "furiganaExpression": [
+        {
+          "text": "強",
+          "annotation": "つよ"
+        },
+        {
+          "text": "含",
+          "annotation": "ふく"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bullish tendency",
+        "strong tone (of a market)",
+        "firm tone"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bullentendenz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erősödő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(бирж.) устойчивое (твёрдое) настроение"
+      ]
+    }
+  ]
+}

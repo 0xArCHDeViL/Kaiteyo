@@ -1,0 +1,44 @@
+{
+  "id": "1523210",
+  "readings": [
+    {
+      "kanaExpression": "ほんぽう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "本邦",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "邦",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "this country",
+        "our country"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unser Land"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) данная страна; наша страна"
+      ]
+    }
+  ]
+}

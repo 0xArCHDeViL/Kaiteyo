@@ -1,0 +1,70 @@
+{
+  "id": "1458600",
+  "readings": [
+    {
+      "kanaExpression": "ないせい",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "内政",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "政",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 13634
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "domestic affairs",
+        "internal administration"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "binnenlandse politiek",
+        "binnenlands beleid",
+        "intern bestuur",
+        "interne administratie",
+        "huisbestuur",
+        "huisbestier",
+        "huishouding",
+        "huishouden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "politique intérieure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Innenpolitik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "községi",
+        "városi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутренние [государственные] дела; внутренняя политика"
+      ]
+    }
+  ]
+}

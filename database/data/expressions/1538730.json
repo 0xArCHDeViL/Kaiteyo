@@ -1,0 +1,82 @@
+{
+  "id": "1538730",
+  "readings": [
+    {
+      "kanaExpression": "あぶらあげ",
+      "rank": 34500
+    },
+    {
+      "kanaExpression": "あぶらげ"
+    },
+    {
+      "kanjiExpression": "油揚げ",
+      "furiganaExpression": [
+        {
+          "text": "油",
+          "annotation": "あぶら"
+        },
+        {
+          "text": "揚",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "油揚",
+      "furiganaExpression": [
+        {
+          "text": "油",
+          "annotation": "あぶら"
+        },
+        {
+          "text": "揚",
+          "annotation": "あげ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "abura-age",
+        "thin deep-fried slices of tofu",
+        "deep-frying",
+        "deep-fried food"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{Jap.cul.} gefrituurde tofoeplakjes",
+        "gefrituurde stukjes groente",
+        "vis of vlees"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aburaage",
+        "frittierter Tōfu"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) あぶらげ",
+        "абурагэ (тофу, жаренное в масле); (обр.) лакомый кусок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pasta de soja frita",
+        "tofu frito"
+      ]
+    }
+  ]
+}

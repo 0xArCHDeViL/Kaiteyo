@@ -1,0 +1,79 @@
+{
+  "id": "1515120",
+  "readings": [
+    {
+      "kanaExpression": "ははおや",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "母親",
+      "furiganaExpression": [
+        {
+          "text": "母",
+          "annotation": "はは"
+        },
+        {
+          "text": "親",
+          "annotation": "おや"
+        }
+      ],
+      "rank": 1631
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mother"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moeder",
+        "{dierk.} moederdier",
+        "{dierk.} moer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mère"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mutter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anya-",
+        "forrás",
+        "létrehozó",
+        "mama",
+        "szülőanya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мать, матушка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "madre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mamma"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1827670",
+  "readings": [
+    {
+      "kanaExpression": "ふくいん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "復員",
+      "furiganaExpression": [
+        {
+          "text": "復",
+          "annotation": "ふく"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "demobilization",
+        "demobilisation",
+        "repatriation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} demobilisatie",
+        "{mil.} repatriëring"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Demobilisierung",
+        "Demobilmachung",
+        "demobilisieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hazatelepítés",
+        "repatriálás",
+        "visszahonosítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "демобилизация",
+        "{～する} быть демобилизованным, демобилизоваться"
+      ]
+    }
+  ]
+}

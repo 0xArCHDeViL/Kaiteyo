@@ -1,0 +1,97 @@
+{
+  "id": "1441440",
+  "readings": [
+    {
+      "kanaExpression": "てんか",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "点火",
+      "furiganaExpression": [
+        {
+          "text": "点",
+          "annotation": "てん"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ignition",
+        "lighting",
+        "firing",
+        "setting off"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aansteken",
+        "ontsteken",
+        "doen ontbranden",
+        "in brand steken",
+        "ontbranding",
+        "ontsteking",
+        "aansteking"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "allumage",
+        "mise à feu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "anzünden",
+        "entzünden",
+        "Zündung",
+        "Entzündung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "égés",
+        "gyújtás",
+        "gyújtószerkezet",
+        "izzás",
+        "meggyulladás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зажигание; воспламенение; (ав.) контакт",
+        "{～する} зажигать, воспламенять (что-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vžig",
+        "gorenje",
+        "zakuriti",
+        "podkuriti",
+        "zažig",
+        "prižig"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ignición",
+        "combustión"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "1715580",
+  "readings": [
+    {
+      "kanaExpression": "けんとうちがい",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "見当違い",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "けん"
+        },
+        {
+          "text": "当",
+          "annotation": "とう"
+        },
+        {
+          "text": "違",
+          "annotation": "ちが"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "見当ちがい",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "けん"
+        },
+        {
+          "text": "当",
+          "annotation": "とう"
+        },
+        {
+          "text": "ちがい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wrong (guess or estimate)",
+        "misdirected",
+        "irrelevant",
+        "off the point"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkeerde inschatting",
+        "slechte gok",
+        "misrekening",
+        "verrekening",
+        "inschattingsfout"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ganz falsch",
+        "Irrtum",
+        "falsche Schätzung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alaptalanul",
+        "alkalmatlan módon",
+        "alkalmatlanul",
+        "célszerűtlenül",
+        "félreértett",
+        "félrevezetett",
+        "hátrányos helyzet",
+        "helytelen",
+        "helytelenül cselekvő",
+        "helytelenül megállapító",
+        "helytelenül mondó",
+        "hibás",
+        "hibát elkövető",
+        "igazságtalanság",
+        "igazságtalanul",
+        "igazságtól eltérő",
+        "jogsértő cselekedet",
+        "jogtalan cselekedet",
+        "jogtalanul",
+        "megállapodástól eltérő",
+        "megegyezéstől eltérő",
+        "nem alkalmas",
+        "nem célra vezetően",
+        "nem időszerű",
+        "nem jó",
+        "pontatlanul",
+        "rossz",
+        "tévedő",
+        "téves"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неправильное представление; заблуждение",
+        "{～の} ошибочный, неправильный; не относящийся к делу, неуместный",
+        "{～する} просчитываться, составлять себе неправильное (ошибочное) суждение; неверно истолковывать"
+      ]
+    }
+  ]
+}

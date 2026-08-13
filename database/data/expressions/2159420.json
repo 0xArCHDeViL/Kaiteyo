@@ -1,0 +1,69 @@
+{
+  "id": "2159420",
+  "readings": [
+    {
+      "kanaExpression": "むせんラン",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "無線ＬＡＮ",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "線",
+          "annotation": "せ"
+        },
+        {
+          "text": "Ｌ",
+          "annotation": "ん"
+        },
+        {
+          "text": "Ａ",
+          "annotation": "ラ"
+        },
+        {
+          "text": "Ｎ",
+          "annotation": "ン"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "無線ラン",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        },
+        {
+          "text": "ラン"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wireless local area network",
+        "wireless LAN",
+        "WLAN"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Funk-LAN",
+        "Wireless-LAN",
+        "WLAN"
+      ]
+    }
+  ]
+}

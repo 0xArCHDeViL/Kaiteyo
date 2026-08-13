@@ -1,0 +1,52 @@
+{
+  "id": "1500030",
+  "readings": [
+    {
+      "kanaExpression": "ふうどびょう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "風土病",
+      "furiganaExpression": [
+        {
+          "text": "風",
+          "annotation": "ふう"
+        },
+        {
+          "text": "土",
+          "annotation": "ど"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "endemic disease",
+        "local disease"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Endemie",
+        "endemische Krankheit",
+        "ortsübliche Krankheit",
+        "Enzootie",
+        "enzootische Krankheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "эндемическая (местная) болезнь"
+      ]
+    }
+  ]
+}

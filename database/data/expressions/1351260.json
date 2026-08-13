@@ -1,0 +1,67 @@
+{
+  "id": "1351260",
+  "readings": [
+    {
+      "kanaExpression": "しょうごう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "称号",
+      "furiganaExpression": [
+        {
+          "text": "称",
+          "annotation": "しょう"
+        },
+        {
+          "text": "号",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 14056
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "title",
+        "name",
+        "degree"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "titel",
+        "{acad.} graad"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "titre (noblesse, doctorat, ...)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Titel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cím",
+        "diploma",
+        "oklevél"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) звание (научное)",
+        "2) название, наименование"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "1233110",
+  "readings": [
+    {
+      "kanaExpression": "ぎょかい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "魚介",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "介",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "魚貝",
+      "furiganaExpression": [
+        {
+          "text": "魚",
+          "annotation": "ぎょ"
+        },
+        {
+          "text": "貝",
+          "annotation": "かい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "marine products",
+        "seafood",
+        "fish and shellfish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeevis en schaal- en schelpdieren",
+        "visserijproducten",
+        "zeevruchten",
+        "fruits de mer",
+        "zeebanket"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fruits de mers",
+        "produits marins"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fische und Muscheln",
+        "Meeresfrüchte",
+        "Meeresprodukte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рыбы, ракообразные и моллюски; продукты морского промысла"
+      ]
+    }
+  ]
+}

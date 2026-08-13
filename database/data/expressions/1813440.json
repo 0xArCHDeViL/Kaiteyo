@@ -1,0 +1,47 @@
+{
+  "id": "1813440",
+  "readings": [
+    {
+      "kanaExpression": "しんちゅうぐん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "進駐軍",
+      "furiganaExpression": [
+        {
+          "text": "進",
+          "annotation": "しん"
+        },
+        {
+          "text": "駐",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "occupying forces (esp. of the Allies in Japan after World War II)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Besatzungstruppe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оккупационные войска"
+      ]
+    }
+  ]
+}

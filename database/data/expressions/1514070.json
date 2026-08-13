@@ -1,0 +1,105 @@
+{
+  "id": "1514070",
+  "readings": [
+    {
+      "kanaExpression": "ほそう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "舗装",
+      "furiganaExpression": [
+        {
+          "text": "舗",
+          "annotation": "ほ"
+        },
+        {
+          "text": "装",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 12596
+    },
+    {
+      "kanjiExpression": "鋪装",
+      "furiganaExpression": [
+        {
+          "text": "鋪",
+          "annotation": "ほ"
+        },
+        {
+          "text": "装",
+          "annotation": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "paving (a road)",
+        "surfacing (with asphalt, concrete, etc.)",
+        "pavement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bestraten",
+        "verharden",
+        "plaveien",
+        "bestrating",
+        "verharding",
+        "het plaveien"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "revêtement",
+        "surface d\u0027une route"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "pflastern",
+        "asphaltieren",
+        "Straßenpflaster",
+        "Asphalt",
+        "Pflasterarbeit",
+        "Asphaltieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "járda",
+        "kövezet",
+        "útburkolat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "покрытие",
+        "{～する} [за]мостить"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pločnik",
+        "tlak",
+        "cestna površina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "asfalto",
+        "acera"
+      ]
+    }
+  ]
+}

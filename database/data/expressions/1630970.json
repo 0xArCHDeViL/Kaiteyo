@@ -1,0 +1,52 @@
+{
+  "id": "1630970",
+  "readings": [
+    {
+      "kanaExpression": "げんだんかい",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "現段階",
+      "furiganaExpression": [
+        {
+          "text": "現",
+          "annotation": "げん"
+        },
+        {
+          "text": "段",
+          "annotation": "だん"
+        },
+        {
+          "text": "階",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "present stage",
+        "current phase",
+        "current rank",
+        "present grade"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gegenwärtige Stufe",
+        "gegenwärtiger Grad",
+        "jetziger Stand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "современный (нынешний) этап, современная стадия"
+      ]
+    }
+  ]
+}

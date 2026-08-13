@@ -1,0 +1,77 @@
+{
+  "id": "1412600",
+  "readings": [
+    {
+      "kanaExpression": "だいざ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "台座",
+      "furiganaExpression": [
+        {
+          "text": "台",
+          "annotation": "だい"
+        },
+        {
+          "text": "座",
+          "annotation": "ざ"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pedestal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "piëdestal",
+        "pedestal",
+        "voetstuk",
+        "sokkel",
+        "postament",
+        "{boeddh.} adhiṣṭhāna"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Podest",
+        "Sockel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "piedesztál",
+        "talapzat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пьедестал; основание памятника; цоколь (колонны)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pedestal",
+        "zócalo",
+        "base"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hurts",
+        "piedestal"
+      ]
+    }
+  ]
+}

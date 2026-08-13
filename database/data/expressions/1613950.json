@@ -1,0 +1,52 @@
+{
+  "id": "1613950",
+  "readings": [
+    {
+      "kanaExpression": "がいえん",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "外苑",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "苑",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outer garden"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "buitentuin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Äußerer Garten",
+        "Außenanlage",
+        "Parkanlage",
+        "Garten außerhalb des eigentl. Schreins od. kaiserlichen Palastes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наружный сад (при храме)"
+      ]
+    }
+  ]
+}

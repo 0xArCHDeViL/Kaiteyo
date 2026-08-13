@@ -1,0 +1,62 @@
+{
+  "id": "1391870",
+  "readings": [
+    {
+      "kanaExpression": "せんりょう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "線量",
+      "furiganaExpression": [
+        {
+          "text": "線",
+          "annotation": "せん"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dose (of radioactivity)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{nat.} stralingsdosis",
+        "hoeveelheid straling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Strahlendosis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 放射線量) доза облучения"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dosis"
+      ]
+    }
+  ]
+}

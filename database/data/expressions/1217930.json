@@ -1,0 +1,57 @@
+{
+  "id": "1217930",
+  "readings": [
+    {
+      "kanaExpression": "ねがいで",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "願い出",
+      "furiganaExpression": [
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "application",
+        "petition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bitte",
+        "Antrag",
+        "Bewerbung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "esedezés",
+        "ima",
+        "könyörgés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прошение, заявление"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1503570",
+  "readings": [
+    {
+      "kanaExpression": "ぶんさつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "分冊",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "冊",
+          "annotation": "さつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "separate volume",
+        "fascicle",
+        "fascicule"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "apart",
+        "afzonderlijk boekdeel",
+        "aflevering {van een boek",
+        "reeks}",
+        "fascikel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fascicule",
+        "volumes séparés"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einzelband",
+        "Lieferung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отдельный том (выпуск)",
+        "{～にする} издавать отдельными выпусками"
+      ]
+    }
+  ]
+}

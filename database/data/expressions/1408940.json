@@ -1,0 +1,77 @@
+{
+  "id": "1408940",
+  "readings": [
+    {
+      "kanaExpression": "だとう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "打倒",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "だ"
+        },
+        {
+          "text": "倒",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "overthrow",
+        "defeat",
+        "bringing down",
+        "knockdown"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "omverwerpen",
+        "ten val brengen",
+        "wippen",
+        "ten gronde richten",
+        "onderuithalen",
+        "uit het zadel werpen",
+        "lichten",
+        "omverwerping",
+        "onderuithaling",
+        "weg met ~!"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "niederschlagen",
+        "vernichten",
+        "zu Boden schlagen",
+        "vollständig besiegen",
+        "jmdn. stürzen",
+        "Vernichtung",
+        "Niederschlagung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megbuktatás",
+        "megdöntés",
+        "vereség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "свержение, ниспровержение",
+        "{～！} долой!",
+        "{～する} свергать"
+      ]
+    }
+  ]
+}

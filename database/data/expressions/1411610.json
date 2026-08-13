@@ -1,0 +1,55 @@
+{
+  "id": "1411610",
+  "readings": [
+    {
+      "kanaExpression": "だいあん",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "代案",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "案",
+          "annotation": "あん"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "alternate plan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "alternatief plan",
+        "voorstel",
+        "plan B"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ersatzvorschlag",
+        "Alternativplan",
+        "Ausweichvorschlag",
+        "zweiter Vorschlag",
+        "anderer Antrag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вариант проекта (плана) (выдвинутый взамен другого); встречный проект (план)"
+      ]
+    }
+  ]
+}

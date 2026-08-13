@@ -1,0 +1,65 @@
+{
+  "id": "1497560",
+  "readings": [
+    {
+      "kanaExpression": "ふひょう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "浮標",
+      "furiganaExpression": [
+        {
+          "text": "浮",
+          "annotation": "ふ"
+        },
+        {
+          "text": "標",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "buoy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bebakeningsboei",
+        "markeringsboei",
+        "boei",
+        "baken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Boje"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bója"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бакен, буй"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "boj",
+        "flytboj"
+      ]
+    }
+  ]
+}

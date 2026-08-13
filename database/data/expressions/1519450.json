@@ -1,0 +1,64 @@
+{
+  "id": "1519450",
+  "readings": [
+    {
+      "kanaExpression": "ぼうくん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "暴君",
+      "furiganaExpression": [
+        {
+          "text": "暴",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "君",
+          "annotation": "くん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tyrant",
+        "despot"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tiran",
+        "dwingeland",
+        "despoot",
+        "geweldenaar",
+        "nero"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tyrann",
+        "Gewaltherrscher",
+        "Despot",
+        "Wüterich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kényúr",
+        "zsarnok"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тиран, деспот"
+      ]
+    }
+  ]
+}

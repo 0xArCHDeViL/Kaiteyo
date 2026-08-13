@@ -1,0 +1,100 @@
+{
+  "id": "1304390",
+  "readings": [
+    {
+      "kanaExpression": "さんみ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "すみ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "酸味",
+      "furiganaExpression": [
+        {
+          "text": "酸",
+          "annotation": "さん"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        }
+      ],
+      "rank": 14649
+    },
+    {
+      "kanjiExpression": "酸み",
+      "furiganaExpression": [
+        {
+          "text": "酸",
+          "annotation": "す"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sourness",
+        "acidity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zuurheid",
+        "wrangheid",
+        "zuurte",
+        "aciditeit",
+        "zure",
+        "wrange smaak"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "acidité",
+        "aigreur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "saurer Geschmack",
+        "Sauerkeit",
+        "Säure"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "savanyúság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кислота, кислый вкус",
+        "{～ある} кислый",
+        "{～のある} кислый, с кислинкой"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "acidez"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "surhet"
+      ]
+    }
+  ]
+}

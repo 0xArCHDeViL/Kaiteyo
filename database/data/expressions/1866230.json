@@ -1,0 +1,69 @@
+{
+  "id": "1866230",
+  "readings": [
+    {
+      "kanaExpression": "かねがない",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "金がない",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "かね"
+        },
+        {
+          "text": "がない"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "金が無い",
+      "furiganaExpression": [
+        {
+          "text": "金",
+          "annotation": "かね"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "broke",
+        "poor",
+        "short",
+        "skint",
+        "having no money"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kein Geld haben",
+        "arm sein",
+        "arm dran sein",
+        "kein Geld bei sich haben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nincs pénze",
+        "nincs semmi pénze"
+      ]
+    }
+  ]
+}

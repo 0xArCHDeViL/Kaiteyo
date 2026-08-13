@@ -1,0 +1,56 @@
+{
+  "id": "1811570",
+  "readings": [
+    {
+      "kanaExpression": "かわはば",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "川幅",
+      "furiganaExpression": [
+        {
+          "text": "川",
+          "annotation": "かわ"
+        },
+        {
+          "text": "幅",
+          "annotation": "はば"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "河幅",
+      "furiganaExpression": [
+        {
+          "text": "河",
+          "annotation": "かわ"
+        },
+        {
+          "text": "幅",
+          "annotation": "はば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "width of a river"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flussbreite"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ширина реки"
+      ]
+    }
+  ]
+}

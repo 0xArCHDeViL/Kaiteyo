@@ -1,0 +1,67 @@
+{
+  "id": "1490700",
+  "readings": [
+    {
+      "kanaExpression": "ひんもく",
+      "rank": 19000
+    },
+    {
+      "kanaExpression": "しなめ"
+    },
+    {
+      "kanjiExpression": "品目",
+      "furiganaExpression": [
+        {
+          "text": "品",
+          "annotation": "ひん"
+        },
+        {
+          "text": "目",
+          "annotation": "もく"
+        }
+      ],
+      "rank": 6744
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "item",
+        "commodity",
+        "list of articles"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "artikel",
+        "item",
+        "artikellijst",
+        "goederenlijst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Artikel",
+        "Sortenartikel",
+        "Waren",
+        "Warenverzeichnis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) перечень товаров",
+        "2) вид товара (наименование в графе)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lista de artículos"
+      ]
+    }
+  ]
+}

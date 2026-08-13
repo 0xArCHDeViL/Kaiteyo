@@ -1,0 +1,106 @@
+{
+  "id": "1533340",
+  "readings": [
+    {
+      "kanaExpression": "わた",
+      "rank": 21500
+    },
+    {
+      "kanaExpression": "ワタ",
+      "rank": 3918
+    },
+    {
+      "kanjiExpression": "綿",
+      "furiganaExpression": [
+        {
+          "text": "綿",
+          "annotation": "わた"
+        }
+      ],
+      "rank": 9227
+    },
+    {
+      "kanjiExpression": "棉",
+      "furiganaExpression": [
+        {
+          "text": "棉",
+          "annotation": "わた"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "草綿",
+      "furiganaExpression": [
+        {
+          "text": "草",
+          "annotation": "わ"
+        },
+        {
+          "text": "綿",
+          "annotation": "た"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cotton plant (Gossypium spp.)",
+        "batting",
+        "wadding",
+        "padding"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ruwe katoen",
+        "katoen",
+        "watten",
+        "boomwol",
+        "katoenplant",
+        "Gossypium"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cotonnier (Gossypium spp.)",
+        "ouate",
+        "rembourrage",
+        "remplissage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Baumwolle",
+        "Watte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "karton",
+        "pamutszövet",
+        "vatta"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) хлопчатник индийский, Gossipium indicum (Lam.)",
+        "2) хлопок; вата"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "algodón",
+        "borra de algodón",
+        "guata"
+      ]
+    }
+  ]
+}

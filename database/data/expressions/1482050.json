@@ -1,0 +1,49 @@
+{
+  "id": "1482050",
+  "readings": [
+    {
+      "kanaExpression": "はんてん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "飯店",
+      "furiganaExpression": [
+        {
+          "text": "飯",
+          "annotation": "はん"
+        },
+        {
+          "text": "店",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Chinese restaurant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "chinesisches Restaurant"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "étterem"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "restaurante chino"
+      ]
+    }
+  ]
+}

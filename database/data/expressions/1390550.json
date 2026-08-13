@@ -1,0 +1,80 @@
+{
+  "id": "1390550",
+  "readings": [
+    {
+      "kanaExpression": "せんぼつ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "戦没",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "没",
+          "annotation": "ぼつ"
+        }
+      ],
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "戦歿",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "歿",
+          "annotation": "ぼつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "death in battle",
+        "killed in action"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het sneuvelen in de strijd",
+        "het vallen op het veld van eer",
+        "{lit.t.} het sneven",
+        "het omkomen in de oorlog",
+        "sneuvelen in de strijd",
+        "vallen op het veld van eer",
+        "{lit.t.} sneven",
+        "omkomen in de oorlog"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fallen im Krieg",
+        "Tod auf dem Schlachtfeld",
+        "fallen",
+        "auf dem Schlachtfeld sterben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elesett",
+        "hősi halált halt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) смерть (гибель) в бою (на войне)"
+      ]
+    }
+  ]
+}

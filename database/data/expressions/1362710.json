@@ -1,0 +1,56 @@
+{
+  "id": "1362710",
+  "readings": [
+    {
+      "kanaExpression": "しんかい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "深海",
+      "furiganaExpression": [
+        {
+          "text": "深",
+          "annotation": "しん"
+        },
+        {
+          "text": "海",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deep sea",
+        "depths of the sea",
+        "ocean depths"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "diepe zee",
+        "diepzee",
+        "bathysfeer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tiefsee…",
+        "abyssal",
+        "Tiefsee"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глубокое море",
+        "{～[の]} глубоководный; глубинный"
+      ]
+    }
+  ]
+}

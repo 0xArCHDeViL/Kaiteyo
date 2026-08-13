@@ -1,0 +1,51 @@
+{
+  "id": "1290440",
+  "readings": [
+    {
+      "kanaExpression": "こんせい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "混声",
+      "furiganaExpression": [
+        {
+          "text": "混",
+          "annotation": "こん"
+        },
+        {
+          "text": "声",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mixed voices"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} gemengde stemmen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gemischte Stimmen",
+        "Mehrstimmigkeit",
+        "gemischter Chor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(муз.) смешанные голоса"
+      ]
+    }
+  ]
+}

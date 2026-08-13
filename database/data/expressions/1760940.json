@@ -1,0 +1,51 @@
+{
+  "id": "1760940",
+  "readings": [
+    {
+      "kanaExpression": "こうふう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "校風",
+      "furiganaExpression": [
+        {
+          "text": "校",
+          "annotation": "こう"
+        },
+        {
+          "text": "風",
+          "annotation": "ふう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "school tradition",
+        "school customs",
+        "school spirit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schultradition"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "школьные обычаи, традиции школы; дух школьного коллектива"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tradición de la escuela"
+      ]
+    }
+  ]
+}

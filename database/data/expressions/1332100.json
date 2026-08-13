@@ -1,0 +1,49 @@
+{
+  "id": "1332100",
+  "readings": [
+    {
+      "kanaExpression": "しゅうしん",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "修身",
+      "furiganaExpression": [
+        {
+          "text": "修",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "身",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "morals",
+        "ethics",
+        "moral training"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ethik",
+        "Moral",
+        "Moralunterricht (im frühren Schulsystem)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erkölcs",
+        "erkölcstan",
+        "etika"
+      ]
+    }
+  ]
+}

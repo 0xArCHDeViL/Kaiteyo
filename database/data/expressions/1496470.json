@@ -1,0 +1,109 @@
+{
+  "id": "1496470",
+  "readings": [
+    {
+      "kanaExpression": "ふとう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "埠頭",
+      "furiganaExpression": [
+        {
+          "text": "埠",
+          "annotation": "ふ"
+        },
+        {
+          "text": "頭",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "ふ頭",
+      "furiganaExpression": [
+        {
+          "text": "ふ"
+        },
+        {
+          "text": "頭",
+          "annotation": "とう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "阜頭",
+      "furiganaExpression": [
+        {
+          "text": "阜",
+          "annotation": "ふ"
+        },
+        {
+          "text": "頭",
+          "annotation": "とう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pier",
+        "wharf",
+        "quay",
+        "dock"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kaai",
+        "kade",
+        "aanlegsteiger",
+        "aanlegplaats",
+        "landingsplaats",
+        "steiger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kai",
+        "Landungsplatz",
+        "Anlegestelle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ablakköz",
+        "cölöpépítmény",
+        "cölöpmű",
+        "erősítő falpillér",
+        "falköz",
+        "gyámoszlop",
+        "hídoszlop",
+        "hídpillér",
+        "hullámtörőgát",
+        "ívpillér",
+        "kirakodóhíd",
+        "stég",
+        "támpillér",
+        "tartóoszlop"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пристань, причал, мол; пирс"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "pir"
+      ]
+    }
+  ]
+}

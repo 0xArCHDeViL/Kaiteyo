@@ -1,0 +1,43 @@
+{
+  "id": "1195740",
+  "readings": [
+    {
+      "kanaExpression": "かいん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "課員",
+      "furiganaExpression": [
+        {
+          "text": "課",
+          "annotation": "か"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "section staff"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Personal einer Abteilung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сотрудник (служащий) отдела; штат отдела"
+      ]
+    }
+  ]
+}

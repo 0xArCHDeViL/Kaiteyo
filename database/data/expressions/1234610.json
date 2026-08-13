@@ -1,0 +1,62 @@
+{
+  "id": "1234610",
+  "readings": [
+    {
+      "kanaExpression": "ともぐい",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "共食い",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "とも"
+        },
+        {
+          "text": "食",
+          "annotation": "ぐ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cannibalism (in animals)",
+        "feeding on each other",
+        "cannibalization",
+        "mutually harmful competition",
+        "internecine struggle",
+        "dog-eat-dog competition",
+        "suicidal conflict"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich gegenseitig auffressen",
+        "gegenseitiges Auffressen",
+        "Kannibalismus",
+        "gegenseitige Zerstörung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emberevés",
+        "kannibalizmus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} (прям. и перен.) поедать (пожирать) друг друга"
+      ]
+    }
+  ]
+}

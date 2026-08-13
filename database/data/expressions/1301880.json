@@ -1,0 +1,56 @@
+{
+  "id": "1301880",
+  "readings": [
+    {
+      "kanaExpression": "さんるい",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "三塁",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "塁",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "３塁",
+      "furiganaExpression": [
+        {
+          "text": "３",
+          "annotation": "さん"
+        },
+        {
+          "text": "塁",
+          "annotation": "るい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "third base"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} derde honk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dritte Base"
+      ]
+    }
+  ]
+}

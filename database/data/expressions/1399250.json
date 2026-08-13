@@ -1,0 +1,75 @@
+{
+  "id": "1399250",
+  "readings": [
+    {
+      "kanaExpression": "も",
+      "rank": 15
+    },
+    {
+      "kanaExpression": "そう",
+      "rank": 97
+    },
+    {
+      "kanjiExpression": "喪",
+      "furiganaExpression": [
+        {
+          "text": "喪",
+          "annotation": "も"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mourning",
+        "calamity",
+        "misfortune"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rouw"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "deuil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trauer",
+        "Unglück",
+        "Unheil",
+        "Katastrophe",
+        "Schicksalsschlag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyász",
+        "gyászruha"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "траур"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "luto",
+        "duelo"
+      ]
+    }
+  ]
+}

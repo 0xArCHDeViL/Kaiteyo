@@ -1,0 +1,50 @@
+{
+  "id": "1754820",
+  "readings": [
+    {
+      "kanaExpression": "さんべつ",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "産別",
+      "furiganaExpression": [
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "別",
+          "annotation": "べつ"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "industrial union"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trennung nach Produktionszweigen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "производственное объединение; (в сложн. сл.) производственный; по отраслям производства"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sindicato industrial",
+        "gremio"
+      ]
+    }
+  ]
+}

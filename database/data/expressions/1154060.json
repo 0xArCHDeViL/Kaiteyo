@@ -1,0 +1,58 @@
+{
+  "id": "1154060",
+  "readings": [
+    {
+      "kanaExpression": "あんだ",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "安打",
+      "furiganaExpression": [
+        {
+          "text": "安",
+          "annotation": "あん"
+        },
+        {
+          "text": "打",
+          "annotation": "だ"
+        }
+      ],
+      "rank": 12489
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "safe hit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} een goede slag slaan",
+        "{honkb.} hit",
+        "goede slag {waarmee de slagman minstens het eerste honk haalt}",
+        "{honkb.} {maatwoord voor hits}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hit (Schlag des Schlagmannes, mit dem er als Läufer mindestens die erste Base erreicht)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) удачный удар (бросок)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hit seguro (béisbol)"
+      ]
+    }
+  ]
+}

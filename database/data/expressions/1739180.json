@@ -1,0 +1,49 @@
+{
+  "id": "1739180",
+  "readings": [
+    {
+      "kanaExpression": "るいれい",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "類例",
+      "furiganaExpression": [
+        {
+          "text": "類",
+          "annotation": "るい"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "similar instance",
+        "similar case",
+        "parallel case",
+        "analogy"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ähnliches Beispiel",
+        "ähnlicher Fall",
+        "Parallele"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "аналогичный пример (случай); прецедент",
+        "{～のない} беспримерный, беспрецедентный; не имеющий себе равного, единственный в своём роде"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "1430950",
+  "readings": [
+    {
+      "kanaExpression": "ちょっこう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "直航",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "ちょっ"
+        },
+        {
+          "text": "航",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "direct voyage",
+        "direct service"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "direkt fliegen",
+        "direkt fahren",
+        "Direktflug",
+        "direkte Schiffsverbindung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прямой рейс; беспосадочный перелёт",
+        "{～する} идти прямым рейсом; лететь без посадки"
+      ]
+    }
+  ]
+}

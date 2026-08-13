@@ -1,0 +1,47 @@
+{
+  "id": "1489170",
+  "readings": [
+    {
+      "kanaExpression": "ひょうてんか",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "氷点下",
+      "furiganaExpression": [
+        {
+          "text": "氷",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "点",
+          "annotation": "てん"
+        },
+        {
+          "text": "下",
+          "annotation": "か"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "below freezing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "en dessous du point de gel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unter dem Gefrierpunkt"
+      ]
+    }
+  ]
+}

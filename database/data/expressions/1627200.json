@@ -1,0 +1,79 @@
+{
+  "id": "1627200",
+  "readings": [
+    {
+      "kanaExpression": "ほうじょう",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ほうにょう"
+    },
+    {
+      "kanaExpression": "ぶにょう"
+    },
+    {
+      "kanaExpression": "ふにょう"
+    },
+    {
+      "kanjiExpression": "豊饒",
+      "furiganaExpression": [
+        {
+          "text": "豊",
+          "annotation": "ほう"
+        },
+        {
+          "text": "饒",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fertile",
+        "productive",
+        "fruitful"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vruchtbaarheid",
+        "productiviteit",
+        "fertiliteit",
+        "overvloed",
+        "weligheid",
+        "vruchtbaar",
+        "productief",
+        "fertiel",
+        "overvloedig",
+        "rijk",
+        "vruchtdragend",
+        "welig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reichtum",
+        "Fruchtbarkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плодородие",
+        "{～な} плодородный"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bördighet"
+      ]
+    }
+  ]
+}

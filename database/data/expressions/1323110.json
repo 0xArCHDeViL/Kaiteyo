@@ -1,0 +1,65 @@
+{
+  "id": "1323110",
+  "readings": [
+    {
+      "kanaExpression": "しゃけん",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "車検",
+      "furiganaExpression": [
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "検",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 11921
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vehicle inspection"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "autokeuring",
+        "{Belg.N.} autocontrole",
+        "{Belg.N.} automobielinspectie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fahrzeuginspektion",
+        "TÜV (Abk.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "Gépjármű Műszaki Vizsga"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "техосмотр ([ежегодный] технический осмотр автомобилей)",
+        "{～に出す} поставить (предоставить) машину на техосмотр"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inspección técnica de vehículos (ITV)"
+      ]
+    }
+  ]
+}

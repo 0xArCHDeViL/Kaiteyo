@@ -1,0 +1,65 @@
+{
+  "id": "1318470",
+  "readings": [
+    {
+      "kanaExpression": "じどうてき",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "自動的",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 4470
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "automatic"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "automatisch",
+        "selbsttätig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "automatikus",
+        "gépies",
+        "ön-",
+        "önkéntelen",
+        "önműködő fegyver",
+        "önműködő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "автоматический, механический, самодвижущийся"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "automático"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "1002320",
+  "readings": [
+    {
+      "kanaExpression": "おじいさん",
+      "rank": 9856
+    },
+    {
+      "kanjiExpression": "お祖父さん",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "祖父",
+          "annotation": "じい"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "お爺さん",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "爺",
+          "annotation": "じい"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御爺さん",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "爺",
+          "annotation": "じい"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "御祖父さん",
+      "furiganaExpression": [
+        {
+          "text": "御祖父",
+          "annotation": "おじい"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grandfather",
+        "male senior-citizen",
+        "old man"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oude man",
+        "oudje",
+        "ouwe",
+        "grootvader",
+        "grootpa",
+        "opa"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grand-père",
+        "homme âgé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alter Mann",
+        "(mein)Großvater",
+        "Opa",
+        "ein alter Mann",
+        "ein Opa"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nagyapa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "старик, дед",
+        "(см.) おじいさん【お爺さん】, おじいさん【お祖父さん】",
+        "дедушка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abuelo",
+        "anciano"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1043190",
+  "readings": [
+    {
+      "kanaExpression": "ギリシャ",
+      "rank": 5111
+    },
+    {
+      "kanaExpression": "ギリシア",
+      "rank": 10332
+    },
+    {
+      "kanaExpression": "ギリシヤ"
+    },
+    {
+      "kanjiExpression": "希臘",
+      "furiganaExpression": [
+        {
+          "text": "希臘",
+          "annotation": "ギリシャ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Greece"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Griekenland"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Griechenland (Staat in Südosteuropa)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "Grekland"
+      ]
+    }
+  ]
+}

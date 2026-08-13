@@ -1,0 +1,117 @@
+{
+  "id": "1596430",
+  "readings": [
+    {
+      "kanaExpression": "ひまご",
+      "rank": 32039
+    },
+    {
+      "kanaExpression": "そうそん"
+    },
+    {
+      "kanaExpression": "ひいまご"
+    },
+    {
+      "kanaExpression": "ひこ"
+    },
+    {
+      "kanaExpression": "ひひこ"
+    },
+    {
+      "kanaExpression": "ひこまご"
+    },
+    {
+      "kanjiExpression": "ひ孫",
+      "furiganaExpression": [
+        {
+          "text": "ひ"
+        },
+        {
+          "text": "孫",
+          "annotation": "まご"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "曾孫",
+      "furiganaExpression": [
+        {
+          "text": "曾",
+          "annotation": "そう"
+        },
+        {
+          "text": "孫",
+          "annotation": "そん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "曽孫",
+      "furiganaExpression": [
+        {
+          "text": "曽",
+          "annotation": "そう"
+        },
+        {
+          "text": "孫",
+          "annotation": "そん"
+        }
+      ],
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "ひい孫",
+      "furiganaExpression": [
+        {
+          "text": "ひい"
+        },
+        {
+          "text": "孫",
+          "annotation": "まご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "great-grandchild"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "achterkleinkind"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arrière petit-fils"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Urenkel",
+        "Großenkel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "правнук",
+        "правнук, правнучка",
+        "(см.) ひいまご"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bisnieto",
+        "bisnieta"
+      ]
+    }
+  ]
+}

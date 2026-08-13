@@ -1,0 +1,66 @@
+{
+  "id": "1430630",
+  "readings": [
+    {
+      "kanaExpression": "すぐそば",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "すぐ側",
+      "furiganaExpression": [
+        {
+          "text": "すぐ"
+        },
+        {
+          "text": "側",
+          "annotation": "そば"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "直ぐそば",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "す"
+        },
+        {
+          "text": "ぐそば"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "直ぐ側",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "す"
+        },
+        {
+          "text": "ぐ"
+        },
+        {
+          "text": "側",
+          "annotation": "そば"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "right beside",
+        "close to",
+        "nearby"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "intim"
+      ]
+    }
+  ]
+}

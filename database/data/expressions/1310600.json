@@ -1,0 +1,101 @@
+{
+  "id": "1310600",
+  "readings": [
+    {
+      "kanaExpression": "よす",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "止す",
+      "furiganaExpression": [
+        {
+          "text": "止",
+          "annotation": "よ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to stop (doing)",
+        "to cease",
+        "to desist",
+        "to drop",
+        "to lay off",
+        "to give up",
+        "to quit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ophouden (met)",
+        "stoppen met",
+        "uitscheiden (met)",
+        "kappen (met)",
+        "nokken met",
+        "(achterwege) laten",
+        "opgeven"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cesser",
+        "s\u0027abstenir",
+        "arrêter",
+        "laisser tomber (un sujet)",
+        "abolir",
+        "démissionner",
+        "abandonner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufhören",
+        "aufgeben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "abbahagy",
+        "megszűnik",
+        "lemond",
+        "alábbhagy",
+        "felad",
+        "kézre ad",
+        "lemond vmiről",
+        "megválik vmitől"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переставать, бросать (что-л. делать)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odpovedati (se), prenehati, ustaviti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cesar",
+        "abolir",
+        "renunciar",
+        "rendirse"
+      ]
+    }
+  ]
+}

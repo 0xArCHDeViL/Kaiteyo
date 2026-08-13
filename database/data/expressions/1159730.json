@@ -1,0 +1,72 @@
+{
+  "id": "1159730",
+  "readings": [
+    {
+      "kanaExpression": "いいん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "医院",
+      "furiganaExpression": [
+        {
+          "text": "医",
+          "annotation": "い"
+        },
+        {
+          "text": "院",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 8921
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "doctor\u0027s office",
+        "doctor\u0027s surgery",
+        "clinic"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dokterspraktijk",
+        "praktijk",
+        "kliniek",
+        "{Belg.N.} dokterskabinet",
+        "{Belg.N.} kabinet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Privatklinik",
+        "Privatpraxis",
+        "Praxis eines niedergelassenen Arztes",
+        "Arztpraxis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyógyszertár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "амбулатория"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oficina del doctor (cirugía)",
+        "clínica",
+        "dispensario"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1627070",
+  "readings": [
+    {
+      "kanaExpression": "ひぜに",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "日銭",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "ひ"
+        },
+        {
+          "text": "銭",
+          "annotation": "ぜに"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "daily income in cash",
+        "money paid by daily installments",
+        "money paid by daily instalments"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "tägliches Einkommen in Bargeld"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "recaudación diaria",
+        "dinero obtenido por día",
+        "dinero prestado a alto interés pero sin garantía y con obligación de reembolsar un tanto por día"
+      ]
+    }
+  ]
+}

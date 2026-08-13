@@ -1,0 +1,80 @@
+{
+  "id": "1177100",
+  "readings": [
+    {
+      "kanaExpression": "えんしょう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "炎症",
+      "furiganaExpression": [
+        {
+          "text": "炎",
+          "annotation": "えん"
+        },
+        {
+          "text": "症",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 14247
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inflammation",
+        "irritation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} ontsteking",
+        "inflammatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "inflammation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entzündung",
+        "Inflammation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyulladás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) воспаление",
+        "{～の} воспалительный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inflamación",
+        "ardor",
+        "irritación",
+        "quemazon"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "inflammation"
+      ]
+    }
+  ]
+}

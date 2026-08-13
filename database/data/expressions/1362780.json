@@ -1,0 +1,77 @@
+{
+  "id": "1362780",
+  "readings": [
+    {
+      "kanaExpression": "しんど",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "深度",
+      "furiganaExpression": [
+        {
+          "text": "深",
+          "annotation": "しん"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depth"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "diepte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "profondeur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tiefe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "falvastagság",
+        "képmélység",
+        "mélye vminek",
+        "mélység",
+        "vízmagasság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глубина"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "profundidad"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "djuplek"
+      ]
+    }
+  ]
+}

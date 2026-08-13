@@ -1,0 +1,59 @@
+{
+  "id": "1475670",
+  "readings": [
+    {
+      "kanaExpression": "うすまく",
+      "rank": 28500
+    },
+    {
+      "kanaExpression": "はくまく"
+    },
+    {
+      "kanjiExpression": "薄膜",
+      "furiganaExpression": [
+        {
+          "text": "薄",
+          "annotation": "うす"
+        },
+        {
+          "text": "膜",
+          "annotation": "まく"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thin film"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dun huidje",
+        "laagje",
+        "velletje",
+        "dunne film",
+        "dun membraan",
+        "dun vlies"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dünner Film",
+        "dünne Membran",
+        "Pellicula"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тонкая плёнка; перепонка; плева"
+      ]
+    }
+  ]
+}

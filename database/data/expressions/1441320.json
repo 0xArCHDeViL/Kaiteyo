@@ -1,0 +1,79 @@
+{
+  "id": "1441320",
+  "readings": [
+    {
+      "kanaExpression": "てんにん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "転任",
+      "furiganaExpression": [
+        {
+          "text": "転",
+          "annotation": "てん"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "轉任",
+      "furiganaExpression": [
+        {
+          "text": "轉",
+          "annotation": "てん"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "change of post"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overgeplaatst worden",
+        "op een nieuwe post gestationeerd worden",
+        "overplaatsing",
+        "verandering van post"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déplacement",
+        "mutation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Versetzung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перевод [на другую должность]",
+        "{～する} быть переведённым на другую должность (работу, в другое учреждение)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "traslado"
+      ]
+    }
+  ]
+}

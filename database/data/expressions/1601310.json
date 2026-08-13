@@ -1,0 +1,126 @@
+{
+  "id": "1601310",
+  "readings": [
+    {
+      "kanaExpression": "ばっすい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "抜粋",
+      "furiganaExpression": [
+        {
+          "text": "抜",
+          "annotation": "ばっ"
+        },
+        {
+          "text": "粋",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 5817
+    },
+    {
+      "kanjiExpression": "抜萃",
+      "furiganaExpression": [
+        {
+          "text": "抜",
+          "annotation": "ばっ"
+        },
+        {
+          "text": "萃",
+          "annotation": "すい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "extract",
+        "excerpt",
+        "selection"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "excerperen",
+        "selecteren (uit)",
+        "uitlichten",
+        "uittrekken",
+        "extraheren",
+        "{enkele fragmenten",
+        "passages enz.} eruit halen",
+        "een uittreksel",
+        "selectie",
+        "excerpt maken (van)",
+        "bloemlezen (uit)",
+        "resumeren",
+        "samenvatten",
+        "uittreksel",
+        "excerpt",
+        "extract",
+        "fragment",
+        "passage",
+        "extractie",
+        "bloemlezing",
+        "resumé",
+        "synopsis",
+        "samenvatting"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "extrait",
+        "sélection"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auswählen",
+        "exzerpieren",
+        "eine Auswahl machen",
+        "Exzerpt",
+        "Auswahl",
+        "Auslese",
+        "Zusammenfassung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eszencia",
+        "extrakt",
+        "extraktum",
+        "kivonat",
+        "szemelvény",
+        "kiválasztás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выдержка, выписка, вырезка; выборки; избранные места (из лит. произведения)",
+        "{～する} делать выписку (вырезку, выборки)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izvleček",
+        "povzetek",
+        "izpisek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "extracto",
+        "selección"
+      ]
+    }
+  ]
+}

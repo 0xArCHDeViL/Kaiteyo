@@ -1,0 +1,104 @@
+{
+  "id": "1822390",
+  "readings": [
+    {
+      "kanaExpression": "かくれが",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "かくれや"
+    },
+    {
+      "kanjiExpression": "隠れ家",
+      "furiganaExpression": [
+        {
+          "text": "隠",
+          "annotation": "かく"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "家",
+          "annotation": "が"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "かくれ家",
+      "furiganaExpression": [
+        {
+          "text": "かくれ"
+        },
+        {
+          "text": "家",
+          "annotation": "が"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "隠れ処",
+      "furiganaExpression": [
+        {
+          "text": "隠",
+          "annotation": "かく"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "処",
+          "annotation": "が"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hiding place",
+        "hideout",
+        "refuge",
+        "retreat",
+        "hideaway"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schuilplaats",
+        "wijkplaats",
+        "retirade",
+        "toevluchtsoord",
+        "toevlucht",
+        "vluchtplaats",
+        "vrijplaats",
+        "{w.g.} shelter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Versteck",
+        "Unterschlupf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "járdasziget",
+        "mentsvár",
+        "óvóhely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) [тайное] убежище, пристанище",
+        "2) притон"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1200700",
+  "readings": [
+    {
+      "kanaExpression": "かいりつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "戒律",
+      "furiganaExpression": [
+        {
+          "text": "戒",
+          "annotation": "かい"
+        },
+        {
+          "text": "律",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(religious) precept",
+        "discipline",
+        "commandment",
+        "mitzvah"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{rel.} religieuze voorschriften",
+        "geboden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "précepte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "buddhistische Gebote",
+        "religiöse Vorschrift"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(буд.) заповедь; (перен.) нормы поведения"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mandamiento",
+        "precepto religioso"
+      ]
+    }
+  ]
+}

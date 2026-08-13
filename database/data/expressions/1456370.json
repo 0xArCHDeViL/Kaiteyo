@@ -1,0 +1,59 @@
+{
+  "id": "1456370",
+  "readings": [
+    {
+      "kanaExpression": "どっかい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "読解",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "どっ"
+        },
+        {
+          "text": "解",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 12049
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reading comprehension"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Leseverstehen",
+        "Leseverständnis",
+        "verstehendes Lesen",
+        "Interpretation",
+        "interpretieren"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "bralno razumevanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comprensión de lectura"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "läsförståelse"
+      ]
+    }
+  ]
+}

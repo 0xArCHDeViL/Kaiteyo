@@ -1,0 +1,46 @@
+{
+  "id": "1522770",
+  "readings": [
+    {
+      "kanaExpression": "ほんすう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "本数",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 12798
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "number (of long, cylindrical things, movies, trains, home runs, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{鉛筆の} aantal stuks",
+        "{バスの} aantal verbindingen",
+        "lijnen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anzahl (von Dingen, die mit dem Zählwort hon gezählt werden; also Busverbindungen, Bahnverbindungen, Bleistifte, Kerzen, Filme etc.)",
+        "ursprüngliche Anzahl"
+      ]
+    }
+  ]
+}

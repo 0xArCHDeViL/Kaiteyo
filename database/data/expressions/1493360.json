@@ -1,0 +1,65 @@
+{
+  "id": "1493360",
+  "readings": [
+    {
+      "kanaExpression": "ふせいみゃく",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "不整脈",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "整",
+          "annotation": "せい"
+        },
+        {
+          "text": "脈",
+          "annotation": "みゃく"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "irregular pulse",
+        "arrhythmia"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} onregelmatige pols",
+        "polsslag",
+        "ritmestoornis",
+        "aritmie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arrhythmie",
+        "Unregelmäßigkeit des Herzschlags bzw. Pulses"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) аритмия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pulso irregular",
+        "arritmia"
+      ]
+    }
+  ]
+}

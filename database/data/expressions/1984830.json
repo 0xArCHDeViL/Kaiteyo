@@ -1,0 +1,76 @@
+{
+  "id": "1984830",
+  "readings": [
+    {
+      "kanaExpression": "くちうるさい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "口煩い",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "煩",
+          "annotation": "うるさ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "口うるさい",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "うるさい"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nagging",
+        "faultfinding",
+        "carping",
+        "captious"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nörgelnd",
+        "keifend",
+        "spitzfindig",
+        "scharfzüngig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "akadékoskodó",
+        "civakodó",
+        "civódós",
+        "idegekre menő",
+        "mindenbe belekötő",
+        "pörlekedés",
+        "zsörtölődő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "придирчивый, ворчливый, брюзга"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1697580",
+  "readings": [
+    {
+      "kanaExpression": "うちいり",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "討ち入り",
+      "furiganaExpression": [
+        {
+          "text": "討",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "storming (e.g. an enemy\u0027s castle)",
+        "attack",
+        "raid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inval",
+        "raid",
+        "bliksemaanval",
+        "verrassingsaanval"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einbruch",
+        "gewaltsames Eindringen",
+        "Überfall"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вторжение; набег"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "räd"
+      ]
+    }
+  ]
+}

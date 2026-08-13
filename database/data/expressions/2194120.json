@@ -1,0 +1,51 @@
+{
+  "id": "2194120",
+  "readings": [
+    {
+      "kanaExpression": "もつなべ",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "モツなべ"
+    },
+    {
+      "kanjiExpression": "もつ鍋",
+      "furiganaExpression": [
+        {
+          "text": "もつ"
+        },
+        {
+          "text": "鍋",
+          "annotation": "なべ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "モツ鍋",
+      "furiganaExpression": [
+        {
+          "text": "モツ"
+        },
+        {
+          "text": "鍋",
+          "annotation": "なべ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hot pot stew made with offal, vegetables and (often) miso"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eintopf aus Innereien und Gemüse"
+      ]
+    }
+  ]
+}

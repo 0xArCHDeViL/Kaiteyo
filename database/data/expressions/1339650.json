@@ -1,0 +1,48 @@
+{
+  "id": "1339650",
+  "readings": [
+    {
+      "kanaExpression": "でおくれる",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "出遅れる",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "遅",
+          "annotation": "おく"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to get a late start"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "laat starten",
+        "met achterstand starten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einen späten Start erwischen",
+        "verspätet starten"
+      ]
+    }
+  ]
+}

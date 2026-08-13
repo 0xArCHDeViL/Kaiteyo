@@ -1,0 +1,130 @@
+{
+  "id": "1397530",
+  "readings": [
+    {
+      "kanaExpression": "くみかえる",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "組み替える",
+      "furiganaExpression": [
+        {
+          "text": "組",
+          "annotation": "く"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "組み換える",
+      "furiganaExpression": [
+        {
+          "text": "組",
+          "annotation": "く"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "組替える",
+      "furiganaExpression": [
+        {
+          "text": "組",
+          "annotation": "くみ"
+        },
+        {
+          "text": "替",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "組換える",
+      "furiganaExpression": [
+        {
+          "text": "組",
+          "annotation": "くみ"
+        },
+        {
+          "text": "換",
+          "annotation": "か"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to rearrange (classes)",
+        "to recompose",
+        "to reset",
+        "to recombine (genes)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "neu gruppieren",
+        "neu ordnen",
+        "neu verteilen",
+        "umgruppieren",
+        "neu setzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bűnözőnek szállást ad",
+        "bűnözőt befogad",
+        "köszörül",
+        "orgazdának ad át",
+        "orgazdánál értékesít",
+        "rejteget",
+        "számkivetettet befogad",
+        "számkivetettnek szállást ad"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) пересортировывать",
+        "2) переформировывать, формировать заново",
+        "3) (полигр.) перебирать [заново]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reorganizar",
+        "recombinar",
+        "recomponer"
+      ]
+    }
+  ]
+}

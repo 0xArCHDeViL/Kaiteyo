@@ -1,0 +1,67 @@
+{
+  "id": "1252230",
+  "readings": [
+    {
+      "kanaExpression": "けいそく",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "計測",
+      "furiganaExpression": [
+        {
+          "text": "計",
+          "annotation": "けい"
+        },
+        {
+          "text": "測",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 5847
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "measuring",
+        "measurement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "meten",
+        "opmeten",
+        "opnemen",
+        "meting",
+        "het meten",
+        "opmeting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vermessen",
+        "Vermessung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fok",
+        "mértékegység",
+        "ütem",
+        "hangszerelés",
+        "méret",
+        "mérés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "измерение"
+      ]
+    }
+  ]
+}

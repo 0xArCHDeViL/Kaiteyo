@@ -1,0 +1,94 @@
+{
+  "id": "1511780",
+  "readings": [
+    {
+      "kanaExpression": "かたづけ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "片付け",
+      "furiganaExpression": [
+        {
+          "text": "片",
+          "annotation": "かた"
+        },
+        {
+          "text": "付",
+          "annotation": "づ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 13768
+    },
+    {
+      "kanjiExpression": "片づけ",
+      "furiganaExpression": [
+        {
+          "text": "片",
+          "annotation": "かた"
+        },
+        {
+          "text": "づけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tidying up",
+        "finishing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inordebrenging",
+        "regeling",
+        "bereddering",
+        "verhelping",
+        "opruiming",
+        "opberging",
+        "wegzetting",
+        "het wegdoen",
+        "het wegruimen",
+        "verwijdering",
+        "oriëntatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufräumen",
+        "Saubermachen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "befejező",
+        "kikészítő",
+        "rendrakás"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pospravljanje",
+        "urejanje",
+        "odpremljanje",
+        "dovrševanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ordenar",
+        "poner en su lugar"
+      ]
+    }
+  ]
+}

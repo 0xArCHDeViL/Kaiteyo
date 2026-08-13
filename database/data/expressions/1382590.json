@@ -1,0 +1,105 @@
+{
+  "id": "1382590",
+  "readings": [
+    {
+      "kanaExpression": "せっけん",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "石鹸",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "せっ"
+        },
+        {
+          "text": "鹸",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 11530
+    },
+    {
+      "kanjiExpression": "石けん",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "せっ"
+        },
+        {
+          "text": "けん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "石鹼",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "せっ"
+        },
+        {
+          "text": "鹼",
+          "annotation": "けん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "soap"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeep"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "savon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Seife"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csúszópénz",
+        "szappan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мыло"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "milo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "jabón"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tvål"
+      ]
+    }
+  ]
+}

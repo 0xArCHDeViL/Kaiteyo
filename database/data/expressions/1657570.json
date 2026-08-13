@@ -1,0 +1,62 @@
+{
+  "id": "1657570",
+  "readings": [
+    {
+      "kanaExpression": "こくろん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "国論",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "論",
+          "annotation": "ろん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "public opinion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Meinung",
+        "Volkes Stimme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közvélemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общественное мнение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "opinión pública"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "opinion"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1194240",
+  "readings": [
+    {
+      "kanaExpression": "かほう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "火砲",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "砲",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "artillery"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kanon",
+        "grof",
+        "zwaar geschut",
+        "zware artillerie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kanone"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tüzérség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "артиллерийское орудие"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "artilleri"
+      ]
+    }
+  ]
+}

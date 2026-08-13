@@ -1,0 +1,43 @@
+{
+  "id": "1613750",
+  "readings": [
+    {
+      "kanaExpression": "かさい",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "家裁",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "裁",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "family court"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Familiengericht (Abk.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "juzgado de familia"
+      ]
+    }
+  ]
+}

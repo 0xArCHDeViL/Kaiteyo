@@ -1,0 +1,58 @@
+{
+  "id": "1983500",
+  "readings": [
+    {
+      "kanaExpression": "しょくざい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "食材",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "材",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 5400
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "foodstuff",
+        "ingredient"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} ingrediënt",
+        "{cul.} etenswaar",
+        "eetwaar",
+        "voedingsmiddel",
+        "voedingswaar",
+        "spijs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lebensmittelzutat",
+        "Nahrungszutat",
+        "Zutat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alkotórész",
+        "hozzávaló"
+      ]
+    }
+  ]
+}

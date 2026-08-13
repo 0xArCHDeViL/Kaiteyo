@@ -1,0 +1,83 @@
+{
+  "id": "1482110",
+  "readings": [
+    {
+      "kanaExpression": "ばん",
+      "rank": 8280
+    },
+    {
+      "kanjiExpression": "晩",
+      "furiganaExpression": [
+        {
+          "text": "晩",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 4325
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "evening",
+        "night",
+        "dinner",
+        "evening meal",
+        "counter for nights"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "avond",
+        "avondstond",
+        "{maatwoord voor avonden}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "soir",
+        "soirée",
+        "compteur pour les nuits"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "am Abend",
+        "abends",
+        "Abend",
+        "Nacht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "este"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вечер",
+        "{～に} вечером",
+        "{～の} вечерний"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "večer"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "noche",
+        "contador para noches"
+      ]
+    }
+  ]
+}

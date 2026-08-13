@@ -1,0 +1,49 @@
+{
+  "id": "1614100",
+  "readings": [
+    {
+      "kanaExpression": "かんこう",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "完工",
+      "furiganaExpression": [
+        {
+          "text": "完",
+          "annotation": "かん"
+        },
+        {
+          "text": "工",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "completion of construction work",
+        "completion of a building"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fertigstellung",
+        "Vollendung",
+        "Abschluss (eines Baues od. von Bauarbeiten)",
+        "fertig stellen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beteljesedés",
+        "betöltés",
+        "elvégzés"
+      ]
+    }
+  ]
+}

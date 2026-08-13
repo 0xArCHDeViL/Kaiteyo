@@ -1,0 +1,44 @@
+{
+  "id": "1434820",
+  "readings": [
+    {
+      "kanaExpression": "ていりつ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "低率",
+      "furiganaExpression": [
+        {
+          "text": "低",
+          "annotation": "てい"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "low rate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mit niedriger Rate",
+        "niedrige Rate"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "низкий тариф (коэффициент, процент)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "1163790",
+  "readings": [
+    {
+      "kanaExpression": "ひとりむすこ",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "一人息子",
+      "furiganaExpression": [
+        {
+          "text": "一人",
+          "annotation": "ひとり"
+        },
+        {
+          "text": "息子",
+          "annotation": "むすこ"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "１人息子",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "ひと"
+        },
+        {
+          "text": "人",
+          "annotation": "り"
+        },
+        {
+          "text": "息子",
+          "annotation": "むすこ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "ひとり息子",
+      "furiganaExpression": [
+        {
+          "text": "ひとり"
+        },
+        {
+          "text": "息子",
+          "annotation": "むすこ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "only son"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "enige zoon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "der einzige Sohn"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un sólo hijo"
+      ]
+    }
+  ]
+}

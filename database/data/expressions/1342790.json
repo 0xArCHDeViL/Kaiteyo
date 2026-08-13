@@ -1,0 +1,50 @@
+{
+  "id": "1342790",
+  "readings": [
+    {
+      "kanaExpression": "しょしゅう",
+      "rank": 37000
+    },
+    {
+      "kanaExpression": "はつあき"
+    },
+    {
+      "kanjiExpression": "初秋",
+      "furiganaExpression": [
+        {
+          "text": "初",
+          "annotation": "しょ"
+        },
+        {
+          "text": "秋",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "early autumn (fall)",
+        "seventh month of the lunar calendar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frühherbst",
+        "Herbstbeginn",
+        "siebter Monat nach dem Mondkalender"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "начало осени, ранняя осень",
+        "ранняя осень, начало осени"
+      ]
+    }
+  ]
+}

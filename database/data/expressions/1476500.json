@@ -1,0 +1,113 @@
+{
+  "id": "1476500",
+  "readings": [
+    {
+      "kanaExpression": "はだぎ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "はだぎぬ"
+    },
+    {
+      "kanjiExpression": "肌着",
+      "furiganaExpression": [
+        {
+          "text": "肌",
+          "annotation": "はだ"
+        },
+        {
+          "text": "着",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "肌衣",
+      "furiganaExpression": [
+        {
+          "text": "肌",
+          "annotation": "はだ"
+        },
+        {
+          "text": "衣",
+          "annotation": "ぎ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "膚着",
+      "furiganaExpression": [
+        {
+          "text": "膚",
+          "annotation": "はだ"
+        },
+        {
+          "text": "着",
+          "annotation": "ぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "underwear",
+        "underclothes",
+        "lingerie",
+        "chemise",
+        "singlet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ondergoed",
+        "onderkleding",
+        "onderkleren",
+        "{verzameln.} lijfgoed",
+        "{w.g.} lijfgewaad",
+        "dessous",
+        "{i.h.b.} lingerie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sous-vêtements",
+        "lingerie",
+        "chemise de nuit",
+        "nuisette",
+        "maillot de corps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unterwäsche"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fehérnemű",
+        "női fehérnemű",
+        "trikó",
+        "alsónemű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нательное бельё"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ropa interior"
+      ]
+    }
+  ]
+}

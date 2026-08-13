@@ -1,0 +1,77 @@
+{
+  "id": "1690280",
+  "readings": [
+    {
+      "kanaExpression": "ほてん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "補填",
+      "furiganaExpression": [
+        {
+          "text": "補",
+          "annotation": "ほ"
+        },
+        {
+          "text": "填",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "補てん",
+      "furiganaExpression": [
+        {
+          "text": "補",
+          "annotation": "ほ"
+        },
+        {
+          "text": "てん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "補塡",
+      "furiganaExpression": [
+        {
+          "text": "補",
+          "annotation": "ほ"
+        },
+        {
+          "text": "塡",
+          "annotation": "てん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "covering (a loss, deficit, etc.)",
+        "making up (for)",
+        "compensating (for)",
+        "supplementation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausgleichen",
+        "Kompensieren",
+        "Ersetzen",
+        "ausgleichen",
+        "kompensieren",
+        "ersetzen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) возмещение (недостающего); покрытие (напр. дефицита)",
+        "{～する} восполнять; покрывать"
+      ]
+    }
+  ]
+}

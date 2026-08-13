@@ -1,0 +1,88 @@
+{
+  "id": "1401360",
+  "readings": [
+    {
+      "kanaExpression": "すもう",
+      "rank": 16500
+    },
+    {
+      "kanaExpression": "すまい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "相撲",
+      "furiganaExpression": [
+        {
+          "text": "相撲",
+          "annotation": "すもう"
+        }
+      ],
+      "rank": 7681
+    },
+    {
+      "kanjiExpression": "角力",
+      "furiganaExpression": [
+        {
+          "text": "角力",
+          "annotation": "すもう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sumo (wrestling)",
+        "sumo wrestler",
+        "rikishi"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sumo",
+        "sumoworstelen",
+        "Japanse worstelkunst",
+        "sumowedstrijd",
+        "sumoworstelaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "combat de sumo",
+        "lutteur",
+        "rikishi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sumō",
+        "japanischer Ringkampf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сумо (вид японской борьбы)",
+        "2) борец сумо"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sumo borba",
+        "japonska oblika rokoborbe"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sumo (lucha)",
+        "lucha sumo"
+      ]
+    }
+  ]
+}

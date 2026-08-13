@@ -1,0 +1,107 @@
+{
+  "id": "1177190",
+  "readings": [
+    {
+      "kanaExpression": "けむい",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "けぶい"
+    },
+    {
+      "kanjiExpression": "煙い",
+      "furiganaExpression": [
+        {
+          "text": "煙",
+          "annotation": "けむ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "烟い",
+      "furiganaExpression": [
+        {
+          "text": "烟",
+          "annotation": "けむ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "smoky"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rokerig",
+        "vol rook"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "enfumé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rauchig",
+        "verraucht",
+        "einen schwer atmen lassend",
+        "vor Rauch schmerzend (in Augen, Nase, Hals)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "befüstölt",
+        "bekormozott",
+        "dohányfüstös",
+        "füstölgő",
+        "füstölt ízű",
+        "füsttel teli",
+        "füsttől befeketített",
+        "füsttől feketére festett",
+        "kormos",
+        "kormozó",
+        "ködbe burkolt",
+        "párás",
+        "pipáló",
+        "telefüstölt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(диал. см.) けむい",
+        "дымный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zakajen",
+        "dimen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "humeante",
+        "ahumado"
+      ]
+    }
+  ]
+}

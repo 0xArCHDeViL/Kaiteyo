@@ -1,0 +1,108 @@
+{
+  "id": "1565670",
+  "readings": [
+    {
+      "kanaExpression": "ささやく",
+      "rank": 12191
+    },
+    {
+      "kanjiExpression": "囁く",
+      "furiganaExpression": [
+        {
+          "text": "囁",
+          "annotation": "ささや"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "私語く",
+      "furiganaExpression": [
+        {
+          "text": "私語",
+          "annotation": "ささや"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to whisper",
+        "to murmur",
+        "to rumor",
+        "to rumour"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fluisteren",
+        "zacht",
+        "met gedempte stem spreken",
+        "{niet alg.} wispelen",
+        "bedekt(elijk) zeggen",
+        "praatjes",
+        "geruchten doen rondgaan",
+        "roddelen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chuchoter",
+        "murmurer",
+        "faire circuler (une rumeur)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "flüstern",
+        "murmeln",
+        "raunen",
+        "wispern",
+        "tuscheln",
+        "munkeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halkan beszél",
+        "halkan mond",
+        "suttog",
+        "mormol",
+        "morog"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "шептать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "šepetati",
+        "mrmrati",
+        "momljati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "susurrar",
+        "murmurar"
+      ]
+    }
+  ]
+}

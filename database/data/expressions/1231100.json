@@ -1,0 +1,45 @@
+{
+  "id": "1231100",
+  "readings": [
+    {
+      "kanaExpression": "きゅうと",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "旧都",
+      "furiganaExpression": [
+        {
+          "text": "旧",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "都",
+          "annotation": "と"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "old capital",
+        "former capital"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alte Hauptstadt",
+        "ehemalige Hauptstadt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) старая (прежняя, бывшая) столица"
+      ]
+    }
+  ]
+}

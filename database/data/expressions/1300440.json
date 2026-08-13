@@ -1,0 +1,62 @@
+{
+  "id": "1300440",
+  "readings": [
+    {
+      "kanaExpression": "さんさ",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "三佐",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "佐",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "３佐",
+      "furiganaExpression": [
+        {
+          "text": "３",
+          "annotation": "さん"
+        },
+        {
+          "text": "佐",
+          "annotation": "さ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "major (JGSDF)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Major",
+        "Korvettenkapitän"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dúr hangnem",
+        "fontosabb",
+        "főtantárgy",
+        "idősebb",
+        "nagykorú",
+        "őrnagy"
+      ]
+    }
+  ]
+}

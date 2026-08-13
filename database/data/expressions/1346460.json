@@ -1,0 +1,97 @@
+{
+  "id": "1346460",
+  "readings": [
+    {
+      "kanaExpression": "しょうかん",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "召喚",
+      "furiganaExpression": [
+        {
+          "text": "召",
+          "annotation": "しょう"
+        },
+        {
+          "text": "喚",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "招喚",
+      "furiganaExpression": [
+        {
+          "text": "招",
+          "annotation": "しょう"
+        },
+        {
+          "text": "喚",
+          "annotation": "かん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "summons",
+        "citation",
+        "subpoena",
+        "arraigning",
+        "summoning",
+        "calling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} dagvaarden",
+        "{jur.} dagvaarding"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "citation (justice)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vorladen",
+        "laden",
+        "zitieren",
+        "Vorladung",
+        "gerichtliche Ladung",
+        "Herbeirufen",
+        "Zusichrufen",
+        "jmdn. zu sich rufen",
+        "Zu-sich-Rufen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megidézés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вызов (напр. в суд)",
+        "{～する} вызывать [повесткой]",
+        ": {～する} (кн.) звать, приглашать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "citación",
+        "llamamiento"
+      ]
+    }
+  ]
+}

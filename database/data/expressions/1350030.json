@@ -1,0 +1,66 @@
+{
+  "id": "1350030",
+  "readings": [
+    {
+      "kanaExpression": "ぬまち",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "しょうち",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "沼地",
+      "furiganaExpression": [
+        {
+          "text": "沼",
+          "annotation": "ぬま"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "marshland",
+        "wetland",
+        "swampland"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "marécage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sumpfland",
+        "Sumpfboden",
+        "Moor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "болотистая местность",
+        "(кн.) болото, топь; болотистая местность"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pantanal",
+        "tierra pantanosa",
+        "humedales"
+      ]
+    }
+  ]
+}

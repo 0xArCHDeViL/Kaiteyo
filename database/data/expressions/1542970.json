@@ -1,0 +1,65 @@
+{
+  "id": "1542970",
+  "readings": [
+    {
+      "kanaExpression": "よこう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "予行",
+      "furiganaExpression": [
+        {
+          "text": "予",
+          "annotation": "よ"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rehearsal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Probe durchführen",
+        "Probe",
+        "Generalprobe (unter den originalen formellen Umständen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "próba"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "репетиция",
+        "{～する} репетировать, проводить репетицию (пробу)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ensayo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "instudering",
+        "repetition"
+      ]
+    }
+  ]
+}

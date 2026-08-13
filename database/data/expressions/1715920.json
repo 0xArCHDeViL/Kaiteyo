@@ -1,0 +1,52 @@
+{
+  "id": "1715920",
+  "readings": [
+    {
+      "kanaExpression": "げんか",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "現下",
+      "furiganaExpression": [
+        {
+          "text": "現",
+          "annotation": "げん"
+        },
+        {
+          "text": "下",
+          "annotation": "か"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the present time",
+        "current"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gegenwärtig",
+        "heutig",
+        "augenblicklich",
+        "jetzig",
+        "momentan",
+        "nahe bevorstehend",
+        "Gegenwart",
+        "Jetzt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) настоящее время",
+        "{～の} нынешний, теперешний; сегодняшнего дня; существующий, настоящий"
+      ]
+    }
+  ]
+}

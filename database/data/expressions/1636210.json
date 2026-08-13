@@ -1,0 +1,64 @@
+{
+  "id": "1636210",
+  "readings": [
+    {
+      "kanaExpression": "かこみ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "囲み",
+      "furiganaExpression": [
+        {
+          "text": "囲",
+          "annotation": "かこ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "enclosure",
+        "box",
+        "siege"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Belagerung",
+        "Umrahmung",
+        "Einfassung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "házikó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) осада; окружение",
+        "2) ограждение; ограда; рамка (в газете)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "encierro",
+        "cercado",
+        "caja",
+        "cajón",
+        "columna",
+        "(Milicia) sitio"
+      ]
+    }
+  ]
+}

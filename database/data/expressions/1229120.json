@@ -1,0 +1,79 @@
+{
+  "id": "1229120",
+  "readings": [
+    {
+      "kanaExpression": "きゅうご",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "救護",
+      "furiganaExpression": [
+        {
+          "text": "救",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "護",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "relief",
+        "aid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hulp",
+        "hulpverlening",
+        "redding",
+        "ontzetting",
+        "ontzet",
+        "steun",
+        "steunverlening",
+        "redden",
+        "ontzetten",
+        "helpen",
+        "steunen",
+        "steun verlenen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rettung",
+        "Hilfe",
+        "Schutz",
+        "Hilfeleistung",
+        "retten",
+        "in Sicherheit bringen",
+        "aus Gefahr bergen",
+        "erste Hilfe leisten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dombormű",
+        "enyhülés",
+        "segély",
+        "segítség",
+        "segéderő",
+        "segítőtárs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "помощь, поддержка; спасение"
+      ]
+    }
+  ]
+}

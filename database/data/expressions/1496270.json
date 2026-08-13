@@ -1,0 +1,102 @@
+{
+  "id": "1496270",
+  "readings": [
+    {
+      "kanaExpression": "ふずい",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "付随",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "ふ"
+        },
+        {
+          "text": "随",
+          "annotation": "ずい"
+        }
+      ],
+      "rank": 12888
+    },
+    {
+      "kanjiExpression": "附随",
+      "furiganaExpression": [
+        {
+          "text": "附",
+          "annotation": "ふ"
+        },
+        {
+          "text": "随",
+          "annotation": "ずい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "being incident to",
+        "being accompanied by",
+        "being collateral with",
+        "being attached to"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "begeleiden",
+        "geleiden",
+        "vergezellen",
+        "gepaard gaan",
+        "samengaan",
+        "samenhangen",
+        "op de voet volgen",
+        "bijkomend",
+        "begeleidend",
+        "bijgaand",
+        "bijbehorend",
+        "gepaard gaand",
+        "samengaand",
+        "ermee verbonden",
+        "samenhangend",
+        "concomitant",
+        "incidenteel",
+        "bijkomstig",
+        "accessoir",
+        "neven-",
+        "bij-",
+        "van dien"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "accessoire à",
+        "accompagnant",
+        "annexe à",
+        "concomitant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "begleitet sein von …",
+        "verbunden sein mit …",
+        "zu … gehörig sein",
+        "Begleitung",
+        "Begleit…",
+        "Neben…"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} сопровождающий, сопутствующий; прилагаемый",
+        "{～する} следовать (за кем-чем-л.); сопутствовать (кому-чему-л.); примыкать, принадлежать (к чему-л.); быть приложенным",
+        "{～的} дополнительный; побочный; вторничный, производный"
+      ]
+    }
+  ]
+}

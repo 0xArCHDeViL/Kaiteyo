@@ -1,0 +1,47 @@
+{
+  "id": "1457900",
+  "readings": [
+    {
+      "kanaExpression": "ないかく",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "内角",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "角",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interior angle",
+        "internal angle",
+        "inside corner"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{wisk.} binnenhoek",
+        "{honkb.} inside corner"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Innenwinkel",
+        "Inside"
+      ]
+    }
+  ]
+}

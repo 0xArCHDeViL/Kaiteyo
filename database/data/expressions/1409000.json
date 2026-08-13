@@ -1,0 +1,110 @@
+{
+  "id": "1409000",
+  "readings": [
+    {
+      "kanaExpression": "だえん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "楕円",
+      "furiganaExpression": [
+        {
+          "text": "楕",
+          "annotation": "だ"
+        },
+        {
+          "text": "円",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "だ円",
+      "furiganaExpression": [
+        {
+          "text": "だ"
+        },
+        {
+          "text": "円",
+          "annotation": "えん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "橢円",
+      "furiganaExpression": [
+        {
+          "text": "橢",
+          "annotation": "だ"
+        },
+        {
+          "text": "円",
+          "annotation": "えん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ellipse"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ellips",
+        "ovaal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ellipse",
+        "ovale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "elliptisch",
+        "Ellipse",
+        "elliptische Form",
+        "Oval"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ellipszis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(геом.) эллипс"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "elipsa",
+        "oval"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "elipse"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ellips"
+      ]
+    }
+  ]
+}

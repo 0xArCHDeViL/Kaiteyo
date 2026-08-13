@@ -1,0 +1,57 @@
+{
+  "id": "2122790",
+  "readings": [
+    {
+      "kanaExpression": "おせち",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お節",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "節",
+          "annotation": "せち"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御節",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "節",
+          "annotation": "せち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "osechi",
+        "food eaten during the New Year\u0027s Holidays"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Osechi",
+        "festliches Essen zu Neujahr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "праздничное кушанье"
+      ]
+    }
+  ]
+}

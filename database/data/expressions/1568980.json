@@ -1,0 +1,77 @@
+{
+  "id": "1568980",
+  "readings": [
+    {
+      "kanaExpression": "さくれつ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "炸裂",
+      "furiganaExpression": [
+        {
+          "text": "炸",
+          "annotation": "さく"
+        },
+        {
+          "text": "裂",
+          "annotation": "れつ"
+        }
+      ],
+      "rank": 14366
+    },
+    {
+      "kanjiExpression": "さく裂",
+      "furiganaExpression": [
+        {
+          "text": "さく"
+        },
+        {
+          "text": "裂",
+          "annotation": "れつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "violent explosion",
+        "bursting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontploffen",
+        "exploderen",
+        "detoneren",
+        "ontploffing",
+        "explosie",
+        "detonatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Explosion",
+        "explodieren",
+        "zerplatzen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "detonáció",
+        "felrobbanás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "взрыв, разрыв",
+        "{～する} взрываться, разрываться"
+      ]
+    }
+  ]
+}

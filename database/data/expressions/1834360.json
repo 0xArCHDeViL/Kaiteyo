@@ -1,0 +1,100 @@
+{
+  "id": "1834360",
+  "readings": [
+    {
+      "kanaExpression": "ふりつけ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "振り付け",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "振付け",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふり"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "振付",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふり"
+        },
+        {
+          "text": "付",
+          "annotation": "つけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "choreography",
+        "dance composition",
+        "dance coaching"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "choreografie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Choreographie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "koreográfia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "постановка танца",
+        "{～をする} поставить танцы"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "koreografi"
+      ]
+    }
+  ]
+}

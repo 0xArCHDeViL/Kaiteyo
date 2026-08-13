@@ -1,0 +1,107 @@
+{
+  "id": "1593100",
+  "readings": [
+    {
+      "kanaExpression": "こおる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "凍る",
+      "furiganaExpression": [
+        {
+          "text": "凍",
+          "annotation": "こお"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 10053
+    },
+    {
+      "kanjiExpression": "氷る",
+      "furiganaExpression": [
+        {
+          "text": "氷",
+          "annotation": "こお"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to freeze",
+        "to become frozen",
+        "to freeze over"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bevriezen",
+        "dichtvriezen",
+        "stollen",
+        "hard worden",
+        "in vaste toestand overgaan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "congeler",
+        "frigorifier",
+        "geler"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gefrieren",
+        "frieren",
+        "zu Eis werden",
+        "vereisen",
+        "eiskalt sein",
+        "eisig kalt sein",
+        "klirrend kalt sein",
+        "erstarren",
+        "steif werden",
+        "unbeweglich werden",
+        "einfrieren",
+        "sich aufhängen",
+        "nicht mehr reagieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fagy",
+        "alvaszt",
+        "befagy",
+        "besűrűsödik",
+        "megdermeszt",
+        "megkeményszik",
+        "megmerevedik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "замерзать, застывать; покрываться льдом",
+        "замерзать",
+        "покрываться льдом"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "helarse",
+        "congelarse"
+      ]
+    }
+  ]
+}

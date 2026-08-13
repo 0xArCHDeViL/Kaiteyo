@@ -1,0 +1,57 @@
+{
+  "id": "1345330",
+  "readings": [
+    {
+      "kanaExpression": "じょせい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "女声",
+      "furiganaExpression": [
+        {
+          "text": "女",
+          "annotation": "じょ"
+        },
+        {
+          "text": "声",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "female voice"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vrouwenstem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weibliche Stimme",
+        "Frauenstimme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "женский голос"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voz femenina",
+        "voz de mujer"
+      ]
+    }
+  ]
+}

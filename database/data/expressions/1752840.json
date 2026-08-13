@@ -1,0 +1,97 @@
+{
+  "id": "1752840",
+  "readings": [
+    {
+      "kanaExpression": "かいいれ",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "買い入れ",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "買入れ",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "かい"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "買入",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "かい"
+        },
+        {
+          "text": "入",
+          "annotation": "いれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "buying",
+        "purchasing",
+        "laying in"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aankoop",
+        "koop",
+        "inkoop",
+        "aanschaf",
+        "kooppenningen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einkauf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "закупка, покупка, заготовка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compra",
+        "adquisición"
+      ]
+    }
+  ]
+}

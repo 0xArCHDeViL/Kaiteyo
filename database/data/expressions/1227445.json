@@ -1,0 +1,98 @@
+{
+  "id": "1227445",
+  "readings": [
+    {
+      "kanaExpression": "かたきうち",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "敵討ち",
+      "furiganaExpression": [
+        {
+          "text": "敵",
+          "annotation": "かたき"
+        },
+        {
+          "text": "討",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "仇討ち",
+      "furiganaExpression": [
+        {
+          "text": "仇",
+          "annotation": "かたき"
+        },
+        {
+          "text": "討",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "かたき討ち",
+      "furiganaExpression": [
+        {
+          "text": "かたき"
+        },
+        {
+          "text": "討",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vengeance",
+        "revenge",
+        "retaliation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rache",
+        "Racheaktion",
+        "Vergeltung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bosszú",
+        "bosszúállás",
+        "megtorlás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {…の～} кровная месть за (кого-л.); мщение (кому-л.)",
+        "{～をする} мстить"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hämnd",
+        "revansch"
+      ]
+    }
+  ]
+}

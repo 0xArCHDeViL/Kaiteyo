@@ -1,0 +1,66 @@
+{
+  "id": "1502800",
+  "readings": [
+    {
+      "kanaExpression": "ぶつりがく",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "物理学",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "physics"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "natuurkunde",
+        "fysica"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Physik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fizika"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "физика"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "física"
+      ]
+    }
+  ]
+}

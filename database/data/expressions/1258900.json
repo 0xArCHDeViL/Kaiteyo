@@ -1,0 +1,56 @@
+{
+  "id": "1258900",
+  "readings": [
+    {
+      "kanaExpression": "けんどう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "県道",
+      "furiganaExpression": [
+        {
+          "text": "県",
+          "annotation": "けん"
+        },
+        {
+          "text": "道",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prefectural road"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "prefecturale weg"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "route préfectorale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Präfekturstraße",
+        "Landstraße"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "префектуральные дороги (шоссе)"
+      ]
+    }
+  ]
+}

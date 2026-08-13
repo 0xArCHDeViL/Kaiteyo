@@ -1,0 +1,57 @@
+{
+  "id": "1591640",
+  "readings": [
+    {
+      "kanaExpression": "きょうだん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "凶弾",
+      "furiganaExpression": [
+        {
+          "text": "凶",
+          "annotation": "きょう"
+        },
+        {
+          "text": "弾",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "兇弾",
+      "furiganaExpression": [
+        {
+          "text": "兇",
+          "annotation": "きょう"
+        },
+        {
+          "text": "弾",
+          "annotation": "だん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "assassin\u0027s bullet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moordenaarskogel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in Mordabsicht abgefeuerte Kugel",
+        "Mordanschlag (mit einer Feuerwaffe)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "1389590",
+  "readings": [
+    {
+      "kanaExpression": "せんゆう",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "占有",
+      "furiganaExpression": [
+        {
+          "text": "占",
+          "annotation": "せん"
+        },
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 11073
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "possession",
+        "occupation",
+        "occupancy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bezetten",
+        "occuperen",
+        "in bezit nemen",
+        "bezetting",
+        "occupatie",
+        "inbezitneming",
+        "bezitneming",
+        "bezit",
+        "possessie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "possession"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "besitzen",
+        "in Besitz haben",
+        "in Besitz nehmen",
+        "Besitz",
+        "Besitznahme",
+        "Besitzergreifung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "betöltés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "владение",
+        "{～する} завладевать, владеть"
+      ]
+    }
+  ]
+}

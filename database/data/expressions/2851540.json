@@ -1,0 +1,52 @@
+{
+  "id": "2851540",
+  "readings": [
+    {
+      "kanaExpression": "これをきに",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "これを機に",
+      "furiganaExpression": [
+        {
+          "text": "これを"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "これを期に",
+      "furiganaExpression": [
+        {
+          "text": "これを"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        },
+        {
+          "text": "に"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "with this (as a reason, excuse, impetus, starting point, etc.)",
+        "taking this as an opportunity",
+        "as a result (of this)",
+        "as a consequence",
+        "from this point forward"
+      ]
+    }
+  ]
+}

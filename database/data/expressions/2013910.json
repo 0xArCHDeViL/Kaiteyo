@@ -1,0 +1,50 @@
+{
+  "id": "2013910",
+  "readings": [
+    {
+      "kanaExpression": "にわたって",
+      "rank": 3658
+    },
+    {
+      "kanjiExpression": "に渡って",
+      "furiganaExpression": [
+        {
+          "text": "に"
+        },
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "って"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "に亘って",
+      "furiganaExpression": [
+        {
+          "text": "に"
+        },
+        {
+          "text": "亘",
+          "annotation": "わた"
+        },
+        {
+          "text": "って"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "throughout",
+        "over a period of ...",
+        "over a span of ..."
+      ]
+    }
+  ]
+}

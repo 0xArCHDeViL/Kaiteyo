@@ -1,0 +1,159 @@
+{
+  "id": "1266330",
+  "readings": [
+    {
+      "kanaExpression": "よびとめる",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "呼び止める",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "呼びとめる",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "びとめる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "呼び留める",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "呼止める",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よび"
+        },
+        {
+          "text": "止",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "呼留める",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よび"
+        },
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to (call and) stop",
+        "to call (someone) to stop",
+        "to hail (e.g. a taxi)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "roepend staande houden",
+        "roepend halt doen houden",
+        "aanspreken",
+        "aanklampen",
+        "aanschieten",
+        "accosteren",
+        "aborderen",
+        "{fig.} enteren",
+        "{fig.} praaien",
+        "{タクシーを} aanroepen",
+        "{w.g.",
+        "inform.} attaqueren",
+        "{veroud.",
+        "gew.} aanranden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "anhalten",
+        "durch Rufen zum Halten bringen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ellenállásra késztet",
+        "ellentmondásra késztet",
+        "kifogásol",
+        "kiprovokál",
+        "kivált",
+        "megállásra felszólít"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "останавливать [окликом], окликать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izzvati",
+        "narediti konec čemu"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pedir que se detenga",
+        "parar (un taxi)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "1502940",
+  "readings": [
+    {
+      "kanaExpression": "わかり",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "分かり",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "かり"
+        }
+      ],
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "解り",
+      "furiganaExpression": [
+        {
+          "text": "解",
+          "annotation": "わか"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "判り",
+      "furiganaExpression": [
+        {
+          "text": "判",
+          "annotation": "わか"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "分り",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "わか"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "understanding",
+        "comprehension"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verstand",
+        "Verständnis",
+        "Intelligenz",
+        "Verstehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "értelem",
+        "megállapodás",
+        "megértés",
+        "felfogás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "понимание"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comprensión"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "förståelse"
+      ]
+    }
+  ]
+}

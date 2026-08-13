@@ -1,0 +1,49 @@
+{
+  "id": "1418310",
+  "readings": [
+    {
+      "kanaExpression": "たんこう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "探鉱",
+      "furiganaExpression": [
+        {
+          "text": "探",
+          "annotation": "たん"
+        },
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mineral exploration"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Prospektierung",
+        "Erkundung von Bodenschätzen",
+        "Suche nach Bodenschätzen",
+        "prospektieren",
+        "erkunden",
+        "suchen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поиски руды, рудная разведка",
+        "{～する} производить рудную разведку"
+      ]
+    }
+  ]
+}

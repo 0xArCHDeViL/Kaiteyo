@@ -1,0 +1,78 @@
+{
+  "id": "1189340",
+  "readings": [
+    {
+      "kanaExpression": "なんべん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "何遍",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なん"
+        },
+        {
+          "text": "遍",
+          "annotation": "べん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "何べん",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なん"
+        },
+        {
+          "text": "べん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "how many times",
+        "how often"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "avec quelle fréquence",
+        "combien de fois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wie oft?",
+        "wie viele Mal?"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сколько раз?",
+        "{～も} несколько (много) раз"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kako pogosto",
+        "kolikokrat"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cuantas veces"
+      ]
+    }
+  ]
+}

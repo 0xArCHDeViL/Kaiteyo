@@ -1,0 +1,58 @@
+{
+  "id": "1444860",
+  "readings": [
+    {
+      "kanaExpression": "とばく",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "賭博",
+      "furiganaExpression": [
+        {
+          "text": "賭",
+          "annotation": "と"
+        },
+        {
+          "text": "博",
+          "annotation": "ばく"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gambling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het gokken",
+        "gokkerij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Glücksspiel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hazárdjáték"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "азартная [картёжная] игра",
+        "{～[を]する} играть в азартную [картёжную] игру",
+        "{～的} рискованный, гадательный"
+      ]
+    }
+  ]
+}

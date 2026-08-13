@@ -1,0 +1,97 @@
+{
+  "id": "1172530",
+  "readings": [
+    {
+      "kanaExpression": "うまや"
+    },
+    {
+      "kanaExpression": "まや"
+    },
+    {
+      "kanjiExpression": "厩",
+      "furiganaExpression": [
+        {
+          "text": "厩",
+          "annotation": "うまや"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "馬屋",
+      "furiganaExpression": [
+        {
+          "text": "馬",
+          "annotation": "うま"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "廐",
+      "furiganaExpression": [
+        {
+          "text": "廐",
+          "annotation": "うまや"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "廏",
+      "furiganaExpression": [
+        {
+          "text": "廏",
+          "annotation": "うまや"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stable",
+        "barn"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "paardenstal",
+        "stal",
+        "stallingen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pferdestall",
+        "Kuhstall",
+        "Rinderstall"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állandó",
+        "szénapajta"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "конюшня"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "stall",
+        "stallbyggnad"
+      ]
+    }
+  ]
+}

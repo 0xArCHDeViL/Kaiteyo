@@ -1,0 +1,60 @@
+{
+  "id": "1523310",
+  "readings": [
+    {
+      "kanaExpression": "ほんるいだ",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "本塁打",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "塁",
+          "annotation": "るい"
+        },
+        {
+          "text": "打",
+          "annotation": "だ"
+        }
+      ],
+      "rank": 16000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "home run"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} homerun",
+        "homer"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "home run (terme de base-ball)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Homerun"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hazafutás"
+      ]
+    }
+  ]
+}

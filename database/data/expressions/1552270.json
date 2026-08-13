@@ -1,0 +1,79 @@
+{
+  "id": "1552270",
+  "readings": [
+    {
+      "kanaExpression": "りゅうけい",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "るけい"
+    },
+    {
+      "kanjiExpression": "流刑",
+      "furiganaExpression": [
+        {
+          "text": "流",
+          "annotation": "りゅう"
+        },
+        {
+          "text": "刑",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exile",
+        "banishment",
+        "deportation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verbanning",
+        "ballingschap",
+        "deportatie",
+        "transportatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verbannung",
+        "Deportation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "babilóniai fogság",
+        "menekült",
+        "számkivetés",
+        "száműzés",
+        "száműzött",
+        "deportálás",
+        "elhurcolás",
+        "kitoloncolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) ссылка",
+        "(см.) るざい"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "destierro",
+        "ostracismo"
+      ]
+    }
+  ]
+}

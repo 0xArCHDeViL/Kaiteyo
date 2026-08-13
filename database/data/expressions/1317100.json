@@ -1,0 +1,87 @@
+{
+  "id": "1317100",
+  "readings": [
+    {
+      "kanaExpression": "しめしあわせる",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "示し合わせる",
+      "furiganaExpression": [
+        {
+          "text": "示",
+          "annotation": "しめ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "わせる"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "示し合せる",
+      "furiganaExpression": [
+        {
+          "text": "示",
+          "annotation": "しめ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "合",
+          "annotation": "あわ"
+        },
+        {
+          "text": "せる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to arrange beforehand",
+        "to make a sign to each other",
+        "to conspire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich vorher absprechen",
+        "etw. abkarten",
+        "konspirieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hozzájárul vminek a romlásához"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "договариваться (уславливаться) заранее, согласовывать; заранее подготавливать; сговариваться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ponerse de acuerdo",
+        "confabularse",
+        "conchabarse",
+        "concertarse"
+      ]
+    }
+  ]
+}

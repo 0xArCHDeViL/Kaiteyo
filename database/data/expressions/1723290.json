@@ -1,0 +1,57 @@
+{
+  "id": "1723290",
+  "readings": [
+    {
+      "kanaExpression": "ぶんてん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "文典",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "典",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grammar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grammatikbuch",
+        "Grammatik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyelvtan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "грамматика (гл. обр. как книга)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "grammatik",
+        "språklära"
+      ]
+    }
+  ]
+}

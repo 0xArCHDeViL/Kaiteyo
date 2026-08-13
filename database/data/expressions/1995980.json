@@ -1,0 +1,57 @@
+{
+  "id": "1995980",
+  "readings": [
+    {
+      "kanaExpression": "すいとうしょう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "水頭症",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "頭",
+          "annotation": "とう"
+        },
+        {
+          "text": "症",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hydrocephalus"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} waterhoofd",
+        "hydrocefalus",
+        "hydrocefalie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hydrozephalus",
+        "Hydrocephalus",
+        "Wasserkopf"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hjärnvattusot"
+      ]
+    }
+  ]
+}

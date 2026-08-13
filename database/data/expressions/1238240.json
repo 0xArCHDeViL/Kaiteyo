@@ -1,0 +1,58 @@
+{
+  "id": "1238240",
+  "readings": [
+    {
+      "kanaExpression": "こうぎょう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "興業",
+      "furiganaExpression": [
+        {
+          "text": "興",
+          "annotation": "こう"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "promotion of industry",
+        "inauguration of a new industrial enterprise"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "entreprise industrielle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Industrieunternehmensgründung",
+        "Förderung der Industrie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поощрение промышленности; (в сложн. сл.) промышленный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pospeševanje industrije",
+        "razvoj industrije"
+      ]
+    }
+  ]
+}

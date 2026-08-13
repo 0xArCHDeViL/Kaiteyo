@@ -1,0 +1,78 @@
+{
+  "id": "1606200",
+  "readings": [
+    {
+      "kanaExpression": "らんかく",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "乱獲",
+      "furiganaExpression": [
+        {
+          "text": "乱",
+          "annotation": "らん"
+        },
+        {
+          "text": "獲",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "濫獲",
+      "furiganaExpression": [
+        {
+          "text": "濫",
+          "annotation": "らん"
+        },
+        {
+          "text": "獲",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 32039
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "excessive fishing",
+        "overfishing",
+        "overhunting",
+        "excessive taking"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pêche excessive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "übermäßig fangen",
+        "Überfischen",
+        "Überjagen",
+        "rücksichtsloses Fischen",
+        "rücksichtsloses Jagen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хищнический лов; хищническая охота",
+        "{～する} заниматься хищническим ловом (хищнической охотой)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "exceso de pesca",
+        "la sobrepesca"
+      ]
+    }
+  ]
+}

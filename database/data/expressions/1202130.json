@@ -1,0 +1,75 @@
+{
+  "id": "1202130",
+  "readings": [
+    {
+      "kanaExpression": "かいわい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "界隈",
+      "furiganaExpression": [
+        {
+          "text": "界",
+          "annotation": "かい"
+        },
+        {
+          "text": "隈",
+          "annotation": "わい"
+        }
+      ],
+      "rank": 11840
+    },
+    {
+      "kanjiExpression": "界わい",
+      "furiganaExpression": [
+        {
+          "text": "界",
+          "annotation": "かい"
+        },
+        {
+          "text": "わい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "neighborhood",
+        "neighbourhood",
+        "vicinity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Umgebung",
+        "Nachbarschaft",
+        "Gegend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "környék",
+        "szomszédok",
+        "szomszédság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соседство, близость; окрестности, район"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aledaños",
+        "inmediaciones",
+        "cercanías"
+      ]
+    }
+  ]
+}

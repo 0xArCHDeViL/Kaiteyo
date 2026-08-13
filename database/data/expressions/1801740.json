@@ -1,0 +1,50 @@
+{
+  "id": "1801740",
+  "readings": [
+    {
+      "kanaExpression": "せんゆう",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "戦友",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "友",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "comrade in arms",
+        "war buddy",
+        "fellow soldier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegskamerad",
+        "Waffenbruder",
+        "Kampfgenosse",
+        "Kampfgefährte",
+        "Mitkämpfer",
+        "Mitstreiter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "боевой друг; соратник"
+      ]
+    }
+  ]
+}

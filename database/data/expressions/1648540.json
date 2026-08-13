@@ -1,0 +1,69 @@
+{
+  "id": "1648540",
+  "readings": [
+    {
+      "kanaExpression": "ひじょうきん",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "非常勤",
+      "furiganaExpression": [
+        {
+          "text": "非",
+          "annotation": "ひ"
+        },
+        {
+          "text": "常",
+          "annotation": "じょう"
+        },
+        {
+          "text": "勤",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 10389
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "part-time work"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "deeltijddienst",
+        "{～の} deeltijd-",
+        "parttime-"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nicht reguläre Anstellung",
+        "irreguläre Anstellung",
+        "Teilzeitarbeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "служба (работа) в течение неполного рабочего дня"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "trabajo a tiempo parcial"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "deltidsarbete"
+      ]
+    }
+  ]
+}

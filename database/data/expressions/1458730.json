@@ -1,0 +1,65 @@
+{
+  "id": "1458730",
+  "readings": [
+    {
+      "kanaExpression": "ないそう",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "内装",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "装",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 8372
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interior design",
+        "interior",
+        "upholstery"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inrichting en stoffering",
+        "aankleding",
+        "{車の} bekleding"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die Innenausstattung machen",
+        "Innenausstattung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "belföldi",
+        "belseje vminek",
+        "kárpitosmunka",
+        "kárpitozás",
+        "párnázat",
+        "belsőépítészet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутренняя отделка, интерьер"
+      ]
+    }
+  ]
+}

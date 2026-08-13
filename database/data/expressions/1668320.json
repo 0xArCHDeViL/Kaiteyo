@@ -1,0 +1,54 @@
+{
+  "id": "1668320",
+  "readings": [
+    {
+      "kanaExpression": "きき",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "鬼気",
+      "furiganaExpression": [
+        {
+          "text": "鬼",
+          "annotation": "き"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ghastly",
+        "dreadful"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dämonische Atmosphäre"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "borzasztó",
+        "félelmetes",
+        "ijesztő",
+        "irtózatos",
+        "rettenetes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) зловещее предчувствие; гнетущая атмосфера"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "1004710",
+  "readings": [
+    {
+      "kanaExpression": "このごろ",
+      "rank": 10210
+    },
+    {
+      "kanjiExpression": "この頃",
+      "furiganaExpression": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "頃",
+          "annotation": "ごろ"
+        }
+      ],
+      "rank": 6029
+    },
+    {
+      "kanjiExpression": "此の頃",
+      "furiganaExpression": [
+        {
+          "text": "此",
+          "annotation": "こ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "頃",
+          "annotation": "ごろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "these days",
+        "nowadays",
+        "now",
+        "at present",
+        "recently",
+        "lately"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nu",
+        "op dit ogenblik",
+        "op dit moment",
+        "tegenwoordig",
+        "de laatste tijd",
+        "dezer dagen",
+        "onlangs",
+        "recentelijk",
+        "kort geleden",
+        "kortelings",
+        "een paar dagen geleden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "récemment",
+        "dernièrement",
+        "ces derniers temps",
+        "de nos jours",
+        "ces temps-ci",
+        "maintenant",
+        "actuellement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jetzt",
+        "heutzutage",
+        "neuerdings",
+        "gegenwärtig",
+        "in diesen Tagen",
+        "in letzter Zeit",
+        "in der letzten Zeit",
+        "die letzten Tage"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "manapság",
+        "ezekben a napokban"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сейчас, теперь; [в] эти дни",
+        "{～の} нынешний, настоящий; современный",
+        "2) недавно, [в] последнее время; на днях, несколько дней тому назад",
+        "{～の} недавний; прошлый, прошедший",
+        "{～まで} до недавних пор, до последнего времени"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zadnje čase",
+        "{nedavno",
+        "pred kratkim}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "recientemente",
+        "últimamente",
+        "hoy en día",
+        "esos días"
+      ]
+    }
+  ]
+}

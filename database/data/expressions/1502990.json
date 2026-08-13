@@ -1,0 +1,86 @@
+{
+  "id": "1502990",
+  "readings": [
+    {
+      "kanaExpression": "わけ",
+      "rank": 131
+    },
+    {
+      "kanjiExpression": "分け",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 8716
+    },
+    {
+      "kanjiExpression": "別け",
+      "furiganaExpression": [
+        {
+          "text": "別",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "division",
+        "splitting",
+        "classification",
+        "sharing",
+        "distribution",
+        "draw",
+        "tie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einteilung",
+        "Aufteilung",
+        "Eingeteiltes",
+        "Aufgeteiltes",
+        "Unentschieden",
+        "Unterteilung (eines Dorfes, einer Siedlung)",
+        "Unterschied",
+        "Unterscheidung",
+        "Speiserest",
+        "Essenrest",
+        "Essensrest"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "holtverseny",
+        "kasszadarab",
+        "kinyújtás",
+        "nyújtás",
+        "reklámozás",
+        "sorshúzás",
+        "sorsjáték",
+        "vonszolás",
+        "csomó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) распределение",
+        "2) ничья",
+        "{～になる} окончиться вничью"
+      ]
+    }
+  ]
+}

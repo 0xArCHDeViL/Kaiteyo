@@ -1,0 +1,64 @@
+{
+  "id": "1737020",
+  "readings": [
+    {
+      "kanaExpression": "すいけい",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "水系",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "系",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water system",
+        "river system",
+        "drainage system"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waterstaat",
+        "rivierstelsel",
+        "op waterbasis",
+        "waterachtig",
+        "waterig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flusssystem",
+        "Stromgebiet",
+        "Flußeinzugsgebiet",
+        "Flussnetz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) водная система"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "red de drenaje (red de ríos, lagos, etc.)"
+      ]
+    }
+  ]
+}

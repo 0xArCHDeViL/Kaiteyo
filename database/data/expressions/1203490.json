@@ -1,0 +1,53 @@
+{
+  "id": "1203490",
+  "readings": [
+    {
+      "kanaExpression": "がいきん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "外勤",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "勤",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "working away from the office",
+        "working outside the office",
+        "outside duty"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "buitendienst",
+        "het canvassen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Außendienst",
+        "Außendienstler"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внешняя служба, служба вне учреждения (работа репортёра, агента и т. п.)"
+      ]
+    }
+  ]
+}

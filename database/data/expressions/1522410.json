@@ -1,0 +1,57 @@
+{
+  "id": "1522410",
+  "readings": [
+    {
+      "kanaExpression": "ほんぎょう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "本業",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 9560
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "principal occupation",
+        "core business"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdberoep",
+        "voornaamste bezigheid",
+        "hoofdwerk",
+        "hoofdbedrijf",
+        "hoofdindustrie",
+        "hoofdnijverheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptberuf",
+        "Hauptbeschäftigung",
+        "eigentlicher Beruf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "основное занятие, основная профессия"
+      ]
+    }
+  ]
+}

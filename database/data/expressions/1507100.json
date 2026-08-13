@@ -1,0 +1,62 @@
+{
+  "id": "1507100",
+  "readings": [
+    {
+      "kanaExpression": "へいか",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "平価",
+      "furiganaExpression": [
+        {
+          "text": "平",
+          "annotation": "へい"
+        },
+        {
+          "text": "価",
+          "annotation": "か"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "normal prices",
+        "par",
+        "parity"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Parität (von Währungen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "árfolyam",
+        "cikkely",
+        "egy kör lejátszásához szükséges ütések golfban",
+        "egyenérték",
+        "egyenlőség",
+        "egyenrangúság",
+        "kis újságcikk",
+        "napi hírek rovata",
+        "névérték",
+        "új bekezdés",
+        "egyenértékűség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "номинальная стоимость",
+        "{～で} по номинальной стоимости, альпари"
+      ]
+    }
+  ]
+}

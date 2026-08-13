@@ -1,0 +1,56 @@
+{
+  "id": "1364890",
+  "readings": [
+    {
+      "kanaExpression": "しんぶつ",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "かみほとけ"
+    },
+    {
+      "kanjiExpression": "神仏",
+      "furiganaExpression": [
+        {
+          "text": "神",
+          "annotation": "しん"
+        },
+        {
+          "text": "仏",
+          "annotation": "ぶつ"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gods and Buddha",
+        "Shinto and Buddhism"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{rel.} kami en boeddha",
+        "{rel.} shintoïsme en boeddhisme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Götter und Buddhas",
+        "die Götter und Buddhas",
+        "Shintō und Buddhismus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "боги и будды, синтоистские и буддийские божества"
+      ]
+    }
+  ]
+}

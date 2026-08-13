@@ -1,0 +1,130 @@
+{
+  "id": "1502920",
+  "readings": [
+    {
+      "kanaExpression": "わかつ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "分かつ",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "かつ"
+        }
+      ],
+      "rank": 9539
+    },
+    {
+      "kanjiExpression": "分つ",
+      "furiganaExpression": [
+        {
+          "text": "分",
+          "annotation": "わか"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "別つ",
+      "furiganaExpression": [
+        {
+          "text": "別",
+          "annotation": "わか"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to divide",
+        "to separate",
+        "to share",
+        "to distribute",
+        "to distinguish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "scheiden",
+        "delen",
+        "opdelen",
+        "splitsen",
+        "uitdelen",
+        "verdelen",
+        "verspreiden",
+        "ronddelen",
+        "distribueren",
+        "onderscheid maken",
+        "onderscheiden",
+        "uit elkaar houden",
+        "onderkennen",
+        "het verschil zien tussen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "distinguer",
+        "diviser",
+        "séparer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verteilen",
+        "teilen",
+        "unterscheiden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elkülönít",
+        "elválaszt",
+        "feloszt",
+        "kettéoszt",
+        "megoszt",
+        "oszt",
+        "szavaz",
+        "szétválaszt",
+        "szétválik",
+        "elválik",
+        "kiválaszt",
+        "különválik",
+        "leválaszt",
+        "szeparál",
+        "szeparálódik",
+        "megkülönböztet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) делить, разделять (на части)",
+        "2) делить, разделять (с кем-л.)",
+        "3) различать, отличать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dividir",
+        "separar",
+        "distinguir"
+      ]
+    }
+  ]
+}

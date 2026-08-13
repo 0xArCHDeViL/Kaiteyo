@@ -1,0 +1,75 @@
+{
+  "id": "1494340",
+  "readings": [
+    {
+      "kanaExpression": "ふとくい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "不得意",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "得",
+          "annotation": "とく"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s weak point"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faible"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unerfahren",
+        "ungeschickt",
+        "schwache Seite",
+        "Schwäche",
+        "angreifbare Stelle",
+        "Achillesferse",
+        "Unerfahrenheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(чьё-л.) слабое место",
+        "{～な} неумелый, неподготовленный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nekoga slaba točka",
+        "slaba točka nekoga"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "punto débil",
+        "inhabilidad",
+        "defecto"
+      ]
+    }
+  ]
+}

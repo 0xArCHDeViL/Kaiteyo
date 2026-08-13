@@ -1,0 +1,68 @@
+{
+  "id": "1380790",
+  "readings": [
+    {
+      "kanaExpression": "せいふん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "製粉",
+      "furiganaExpression": [
+        {
+          "text": "製",
+          "annotation": "せい"
+        },
+        {
+          "text": "粉",
+          "annotation": "ふん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "milling",
+        "grinding into flour"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "malen tot bloem",
+        "gemaal",
+        "malerij",
+        "het malen tot bloem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mahlen",
+        "Mahlen",
+        "Müllerei"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "guvrírozás",
+        "maratás",
+        "molnármesterség",
+        "molnárság",
+        "nyüstgép",
+        "peremrece",
+        "trébelés",
+        "ványolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "помол"
+      ]
+    }
+  ]
+}

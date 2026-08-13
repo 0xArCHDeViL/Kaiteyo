@@ -1,0 +1,71 @@
+{
+  "id": "1708350",
+  "readings": [
+    {
+      "kanaExpression": "そうごうだいがく",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "総合大学",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "合",
+          "annotation": "ごう"
+        },
+        {
+          "text": "大",
+          "annotation": "だい"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "university"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "universiteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesamtuniversität",
+        "Volluniversität",
+        "Universität (mit mehreren Fakultäten)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyetem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "университет"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "universidad"
+      ]
+    }
+  ]
+}

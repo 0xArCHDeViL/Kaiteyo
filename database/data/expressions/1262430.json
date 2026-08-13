@@ -1,0 +1,78 @@
+{
+  "id": "1262430",
+  "readings": [
+    {
+      "kanaExpression": "げんゆ",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "原油",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "油",
+          "annotation": "ゆ"
+        }
+      ],
+      "rank": 5489
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "crude oil"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ruwe olie",
+        "ruwe petroleum",
+        "kroet"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "huile non raffinée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rohöl",
+        "Erdöl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kőolaj",
+        "nyersolaj",
+        "pakura"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[сырая] нефть"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "petróleo (crudo)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "råolja"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1767950",
+  "readings": [
+    {
+      "kanaExpression": "しり",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "私利",
+      "furiganaExpression": [
+        {
+          "text": "私",
+          "annotation": "し"
+        },
+        {
+          "text": "利",
+          "annotation": "り"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "self-interest",
+        "personal profit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eigenbaat",
+        "eigenbelang",
+        "baatzucht",
+        "zelfzucht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "persönlicher Vorteil",
+        "Eigennutz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "личные интересы, личная выгода; корысть; корыстолюбие, своекорыстие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "beneficio personal",
+        "interés propio"
+      ]
+    }
+  ]
+}

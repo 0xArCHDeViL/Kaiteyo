@@ -1,0 +1,126 @@
+{
+  "id": "1589540",
+  "readings": [
+    {
+      "kanaExpression": "おろしうり",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "卸売",
+      "furiganaExpression": [
+        {
+          "text": "卸",
+          "annotation": "おろし"
+        },
+        {
+          "text": "売",
+          "annotation": "うり"
+        }
+      ],
+      "rank": 8001
+    },
+    {
+      "kanjiExpression": "卸売り",
+      "furiganaExpression": [
+        {
+          "text": "卸",
+          "annotation": "おろし"
+        },
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "卸し売り",
+      "furiganaExpression": [
+        {
+          "text": "卸",
+          "annotation": "おろ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wholesale",
+        "wholesaling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "groothandel",
+        "en-groshandel",
+        "grossierderij",
+        "groothandelaar",
+        "grossier",
+        "en-groshandelaar"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vente en gros"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Engros-Verkauf",
+        "Großhandel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nagyban",
+        "nagybani eladás",
+        "nagybani",
+        "nagykereskedelmi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оптовая продажа"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prodaja na debelo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "al por mayor"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "partihandel",
+        "grossisthandel"
+      ]
+    }
+  ]
+}

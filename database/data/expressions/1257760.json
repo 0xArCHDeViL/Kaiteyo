@@ -1,0 +1,86 @@
+{
+  "id": "1257760",
+  "readings": [
+    {
+      "kanaExpression": "けんじゅう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "拳銃",
+      "furiganaExpression": [
+        {
+          "text": "拳",
+          "annotation": "けん"
+        },
+        {
+          "text": "銃",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 12460
+    },
+    {
+      "kanjiExpression": "けん銃",
+      "furiganaExpression": [
+        {
+          "text": "けん"
+        },
+        {
+          "text": "銃",
+          "annotation": "じゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pistol",
+        "handgun"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vuistvuurwapen",
+        "handvuurwapen",
+        "pistool",
+        "revolver"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pistole",
+        "Faustfeuerwaffe",
+        "Revolver"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pisztoly"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "револьвер; пистолет"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pistola",
+        "revólver"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "pistol"
+      ]
+    }
+  ]
+}

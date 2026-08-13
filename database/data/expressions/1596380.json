@@ -1,0 +1,121 @@
+{
+  "id": "1596380",
+  "readings": [
+    {
+      "kanaExpression": "そうごう",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "総合",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "合",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 1234
+    },
+    {
+      "kanjiExpression": "綜合",
+      "furiganaExpression": [
+        {
+          "text": "綜",
+          "annotation": "そう"
+        },
+        {
+          "text": "合",
+          "annotation": "ごう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "synthesis",
+        "combination",
+        "integration",
+        "putting together",
+        "colligation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "samen nemen",
+        "bij elkaar nemen",
+        "bijeenvoegen",
+        "verbinden",
+        "tot een geheel samenvoegen",
+        "tot een eenheid maken",
+        "een synthese maken",
+        "integreren",
+        "synthese",
+        "verbinding",
+        "combinatie",
+        "{fil.} colligatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "composite",
+        "coordination",
+        "intégrer",
+        "synthèse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "synthetisieren",
+        "zusammenfassen",
+        "vereinheitlichen",
+        "Synthese",
+        "Verbindung",
+        "Zusammenfassung",
+        "Einheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyesítés",
+        "összetétel",
+        "beilleszkedés",
+        "összetett"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "синтез",
+        "обобщение",
+        "синтез; обобщение, сведение воедино",
+        "{～する} сводить воедино, обобщать; резюмировать",
+        "{～して} обобщённо; в комплексе; резюмируя",
+        "{～[的]} сведённый воедино, обобщённый; сводный, объединённый; комплексный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "uskladitev",
+        "sestavitev",
+        "združitev",
+        "sinteza"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "general"
+      ]
+    }
+  ]
+}

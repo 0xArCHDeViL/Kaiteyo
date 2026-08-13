@@ -1,0 +1,68 @@
+{
+  "id": "1197320",
+  "readings": [
+    {
+      "kanaExpression": "かくすう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "画数",
+      "furiganaExpression": [
+        {
+          "text": "画",
+          "annotation": "かく"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "劃数",
+      "furiganaExpression": [
+        {
+          "text": "劃",
+          "annotation": "かく"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stroke count (of a kanji)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nombre de traits"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Strichzahl eines Kanji"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "število potez pri pismenki"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "número de trazos"
+      ]
+    }
+  ]
+}

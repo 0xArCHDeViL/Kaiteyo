@@ -1,0 +1,104 @@
+{
+  "id": "1543110",
+  "readings": [
+    {
+      "kanaExpression": "よせん",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "予選",
+      "furiganaExpression": [
+        {
+          "text": "予",
+          "annotation": "よ"
+        },
+        {
+          "text": "選",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 4409
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "preliminary contest",
+        "qualifying round",
+        "trial",
+        "heat",
+        "primary"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{pol.} voorverkiezing",
+        "{Am.pol.} primary",
+        "{sportt.} voorronde",
+        "kwalificatieronde",
+        "voorwedstrijd",
+        "kwalificatiewedstrijd",
+        "selectiewedstrijd",
+        "plaatsingswedstrijd",
+        "{Belg.N.} schiftingswedstrijd",
+        "{i.h.b.} afvalwedstrijd",
+        "afvalrace",
+        "kwalificatieduel",
+        "kwalificatietoernooi",
+        "preselectie",
+        "voorselectie",
+        "serie",
+        "manche",
+        "{Belg.N.} schifting",
+        "voorverkiezen",
+        "screenen",
+        "vooraf",
+        "in een voorronde selecteren",
+        "preselecteren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "concours préliminaire",
+        "nomination",
+        "préalables (élections)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausscheidung",
+        "Qualifikation",
+        "Vorrunde",
+        "Vorentscheidung",
+        "Vorwahl",
+        "Vorauswahl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "első"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) предварительный отбор (кандидатур)",
+        "{～する} выбирать (отбирать) предварительно",
+        "2) отборочные соревнования",
+        "{～する} проводить отборочные соревнования"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "eliminatoria",
+        "preselección"
+      ]
+    }
+  ]
+}

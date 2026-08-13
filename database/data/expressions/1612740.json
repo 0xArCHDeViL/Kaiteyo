@@ -1,0 +1,98 @@
+{
+  "id": "1612740",
+  "readings": [
+    {
+      "kanaExpression": "あのよ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "あの世",
+      "furiganaExpression": [
+        {
+          "text": "あの"
+        },
+        {
+          "text": "世",
+          "annotation": "よ"
+        }
+      ],
+      "rank": 14578
+    },
+    {
+      "kanjiExpression": "彼の世",
+      "furiganaExpression": [
+        {
+          "text": "彼",
+          "annotation": "あ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "世",
+          "annotation": "よ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the other world",
+        "the next world",
+        "the world beyond",
+        "world after death"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hiernamaals",
+        "andere wereld",
+        "het leven na de dood",
+        "gene zijde van het graf",
+        "dodenrijk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "l\u0027autre monde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das Jenseits",
+        "die andere Welt",
+        "die nächste Welt",
+        "die kommende Welt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "a másvilág",
+        "a túlvilág"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тот свет",
+        "{～で} на том свете"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "el otro mundo",
+        "el mas allá",
+        "ultratumba",
+        "lo que hay después de la muerte",
+        "el más allá"
+      ]
+    }
+  ]
+}

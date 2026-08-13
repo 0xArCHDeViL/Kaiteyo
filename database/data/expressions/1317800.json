@@ -1,0 +1,59 @@
+{
+  "id": "1317800",
+  "readings": [
+    {
+      "kanaExpression": "じさん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "自賛",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "賛",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "自讃",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "讃",
+          "annotation": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "self-praise",
+        "praising oneself"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich selbst loben",
+        "Eigenlob",
+        "Selbstlob"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "самовосхваление, самореклама"
+      ]
+    }
+  ]
+}

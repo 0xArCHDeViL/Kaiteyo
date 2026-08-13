@@ -1,0 +1,57 @@
+{
+  "id": "1502820",
+  "readings": [
+    {
+      "kanaExpression": "ぶつりてき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "物理的",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "physical"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "physikalisch",
+        "in physikalischer Weise"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fizikai",
+        "invalidus",
+        "orvoslásra szoruló",
+        "természettani"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "физический"
+      ]
+    }
+  ]
+}

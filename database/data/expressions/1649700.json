@@ -1,0 +1,87 @@
+{
+  "id": "1649700",
+  "readings": [
+    {
+      "kanaExpression": "いしころ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "石ころ",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "ころ"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "石塊",
+      "furiganaExpression": [
+        {
+          "text": "石塊",
+          "annotation": "いしころ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "石コロ",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "コロ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(small) stone",
+        "rock",
+        "pebble"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kiezelsteen",
+        "rolsteentje",
+        "keitje",
+        "kiezel",
+        "grind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kiesel",
+        "Geröll"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kő",
+        "akadály",
+        "ékszer",
+        "szikla",
+        "szirt",
+        "zátony"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "галька; гравий; мелкий камень"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "1452380",
+  "readings": [
+    {
+      "kanaExpression": "どうこん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "同根",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "根",
+          "annotation": "こん"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "same root",
+        "same origin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dieselben Wurzeln",
+        "derselbe Ursprung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～である} иметь общий корень (одинаковое происхождение); проистекать из одного и того же источника, происходить по той же причине"
+      ]
+    }
+  ]
+}

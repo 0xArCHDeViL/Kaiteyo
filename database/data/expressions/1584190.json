@@ -1,0 +1,82 @@
+{
+  "id": "1584190",
+  "readings": [
+    {
+      "kanaExpression": "ほくとう",
+      "rank": 18000
+    },
+    {
+      "kanaExpression": "きたひがし"
+    },
+    {
+      "kanjiExpression": "北東",
+      "furiganaExpression": [
+        {
+          "text": "北",
+          "annotation": "ほく"
+        },
+        {
+          "text": "東",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 10903
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "northeast"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "noordoosten",
+        "{afk.} N.O."
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nord-est"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nordosten",
+        "NO",
+        "nordöstlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "északkelet felé",
+        "északkelet",
+        "északkeletre"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "северо-восток",
+        "{～[の]} северо-восточный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "severovzhod"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "noreste"
+      ]
+    }
+  ]
+}

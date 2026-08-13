@@ -1,0 +1,122 @@
+{
+  "id": "1513060",
+  "readings": [
+    {
+      "kanaExpression": "べんとう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "弁当",
+      "furiganaExpression": [
+        {
+          "text": "弁",
+          "annotation": "べん"
+        },
+        {
+          "text": "当",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 3933
+    },
+    {
+      "kanjiExpression": "辨當",
+      "furiganaExpression": [
+        {
+          "text": "辨",
+          "annotation": "べん"
+        },
+        {
+          "text": "當",
+          "annotation": "とう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "弁當",
+      "furiganaExpression": [
+        {
+          "text": "弁",
+          "annotation": "べん"
+        },
+        {
+          "text": "當",
+          "annotation": "とう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "辨当",
+      "furiganaExpression": [
+        {
+          "text": "辨",
+          "annotation": "べん"
+        },
+        {
+          "text": "当",
+          "annotation": "とう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bento",
+        "Japanese box lunch"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verpakte lunch",
+        "verpakt twaalfuurtje",
+        "lunchpakket"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bento",
+        "panier repas japonais"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bentō",
+        "O-Bentō",
+        "Imbiss zum Mitnehmen",
+        "Lunchpaket",
+        "Verpflegungspaket",
+        "mitgebrachtes Essen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бэнто (завтрак в коробке, который берут из дому или покупают)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kosilo v škatli"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bento",
+        "lonchera japonesa"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "matsäck"
+      ]
+    }
+  ]
+}

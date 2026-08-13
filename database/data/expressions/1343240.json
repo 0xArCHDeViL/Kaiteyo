@@ -1,0 +1,56 @@
+{
+  "id": "1343240",
+  "readings": [
+    {
+      "kanaExpression": "しょさん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "所産",
+      "furiganaExpression": [
+        {
+          "text": "所",
+          "annotation": "しょ"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "result",
+        "fruit (of)",
+        "product (of)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Produkt",
+        "Erzeugnis",
+        "Ergebnis",
+        "Frucht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "készítmény",
+        "termény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) продукт, продукция",
+        "2) (перен.) плод"
+      ]
+    }
+  ]
+}

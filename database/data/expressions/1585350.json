@@ -1,0 +1,76 @@
+{
+  "id": "1585350",
+  "readings": [
+    {
+      "kanaExpression": "わみょう",
+      "rank": 32000
+    },
+    {
+      "kanaExpression": "わめい"
+    },
+    {
+      "kanjiExpression": "和名",
+      "furiganaExpression": [
+        {
+          "text": "和",
+          "annotation": "わ"
+        },
+        {
+          "text": "名",
+          "annotation": "みょう"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "倭名",
+      "furiganaExpression": [
+        {
+          "text": "倭",
+          "annotation": "わ"
+        },
+        {
+          "text": "名",
+          "annotation": "みょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese name (esp. of plants and animals)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Japanse naam",
+        "{i.h.b.} volkse",
+        "populaire",
+        "niet-wetenschappelijke naam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "japanischer Name",
+        "japanische Bezeichnung (insbesondere der japanische Trivialname von Tieren und Pflanzen im Gegensatz zu deren wissenschaftlicher lat. Bez.)",
+        "japanische Bezeichnung (für etw.)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "японское имя (название)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nombre japonés dado a plantas y animales que se escribe usualmente en kana"
+      ]
+    }
+  ]
+}

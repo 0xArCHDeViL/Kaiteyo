@@ -1,0 +1,47 @@
+{
+  "id": "1276270",
+  "readings": [
+    {
+      "kanaExpression": "こうしゅう",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "口臭",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "こう"
+        },
+        {
+          "text": "臭",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bad breath",
+        "halitosis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mundgeruch",
+        "schlechter Atem",
+        "Halitose",
+        "Halitosis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неприятный запах изо рта"
+      ]
+    }
+  ]
+}

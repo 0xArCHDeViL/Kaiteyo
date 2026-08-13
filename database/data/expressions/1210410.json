@@ -1,0 +1,127 @@
+{
+  "id": "1210410",
+  "readings": [
+    {
+      "kanaExpression": "さむけ",
+      "rank": 24500
+    },
+    {
+      "kanaExpression": "かんき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "寒気",
+      "furiganaExpression": [
+        {
+          "text": "寒",
+          "annotation": "さむ"
+        },
+        {
+          "text": "気",
+          "annotation": "け"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "寒け",
+      "furiganaExpression": [
+        {
+          "text": "寒",
+          "annotation": "さむ"
+        },
+        {
+          "text": "け"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chill",
+        "the shivers",
+        "shivering fit",
+        "cold",
+        "coldness",
+        "cold air"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "koud weer",
+        "koude",
+        "kou",
+        "koude rilling",
+        "kouwelijk",
+        "kleumerig gevoel",
+        "huiverigheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "froid",
+        "froidure",
+        "frisson (de froid, de fièvre, de peur)",
+        "sensation de froid (provoquée par la fièvre, l\u0027effroi)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schüttelfrost",
+        "Schauder",
+        "Grausen",
+        "Grusel",
+        "Kälte",
+        "Kühle",
+        "Frost (unter null Grad)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "barátságtalan",
+        "fagy",
+        "hideg",
+        "hűvös",
+        "közönyös",
+        "meghűlés",
+        "nátha",
+        "rideg",
+        "fagyos",
+        "hidegség",
+        "jeges"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "холод",
+        "1) ощущение холода",
+        "2) (мед.) озноб"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "mraz",
+        "slana",
+        "zmrzal",
+        "zmraziti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aire frío",
+        "frío",
+        "escalofríos",
+        "temblar"
+      ]
+    }
+  ]
+}

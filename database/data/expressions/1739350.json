@@ -1,0 +1,57 @@
+{
+  "id": "1739350",
+  "readings": [
+    {
+      "kanaExpression": "やくぶん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "訳文",
+      "furiganaExpression": [
+        {
+          "text": "訳",
+          "annotation": "やく"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "translated sentence",
+        "translated passage",
+        "translation",
+        "version",
+        "rendering"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vertaalde zin",
+        "vertaalde passage",
+        "vertaalde tekst",
+        "vertaling",
+        "in het Japans (kakikudashibun 書下文) herschreven Kanbun-tekst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Übersetzung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[письменный] перевод; текст перевода"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "1628570",
+  "readings": [
+    {
+      "kanaExpression": "よりきり",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "寄り切り",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "寄切り",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "より"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "寄りきり",
+      "furiganaExpression": [
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "りきり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "driving opponent out of the ring while gripping his belt"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sumō-jargon} yorikiri {het ruggelings buiten de ring duwen van de tegenstander terwijl men diens gordel met beide handen vasthoudt}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Yori・kiri (Technik, bei der der Gegner am Gürtel gepackt und aus dem Ring geschoben wird)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) выталкивание противника из круга (в борьбе сумо)"
+      ]
+    }
+  ]
+}

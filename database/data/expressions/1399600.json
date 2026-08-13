@@ -1,0 +1,60 @@
+{
+  "id": "1399600",
+  "readings": [
+    {
+      "kanaExpression": "そうき",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "想起",
+      "furiganaExpression": [
+        {
+          "text": "想",
+          "annotation": "そう"
+        },
+        {
+          "text": "起",
+          "annotation": "き"
+        }
+      ],
+      "rank": 14450
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "remembering",
+        "recollection",
+        "calling to mind",
+        "anamnesis",
+        "recall (memory)",
+        "retrieval"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich erinnern",
+        "gedenken",
+        "zurückdenken",
+        "Erinnerung",
+        "Gedenken",
+        "Gedächtnis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "emlék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воспоминание",
+        "{～する} вспоминать"
+      ]
+    }
+  ]
+}

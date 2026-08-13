@@ -1,0 +1,54 @@
+{
+  "id": "1954180",
+  "readings": [
+    {
+      "kanaExpression": "にげん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "二元",
+      "furiganaExpression": [
+        {
+          "text": "二",
+          "annotation": "に"
+        },
+        {
+          "text": "元",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "duality",
+        "binary (system)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dualität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kettéoszlás",
+        "kettősség",
+        "kettőződés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "двойственность",
+        "{～的な} двойственный; дуалистический",
+        "{～的に} двойственно, двояко; в дуалистическом аспекте"
+      ]
+    }
+  ]
+}

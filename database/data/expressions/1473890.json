@@ -1,0 +1,86 @@
+{
+  "id": "1473890",
+  "readings": [
+    {
+      "kanaExpression": "うりわたす",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "売り渡す",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "売渡す",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うり"
+        },
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to sell over to"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkopen",
+        "van de hand doen",
+        "verraden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verkaufen",
+        "absetzen",
+        "veräußern",
+        "abstoßen",
+        "losschlagen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продавать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "vender y entregar la cosa vendida",
+        "traicionar",
+        "vender al enemigo",
+        "entregar al enemigo"
+      ]
+    }
+  ]
+}

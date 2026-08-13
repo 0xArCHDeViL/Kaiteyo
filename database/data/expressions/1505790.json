@@ -1,0 +1,137 @@
+{
+  "id": "1505790",
+  "readings": [
+    {
+      "kanaExpression": "ききとり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "聞き取り",
+      "furiganaExpression": [
+        {
+          "text": "聞",
+          "annotation": "き"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "聴き取り",
+      "furiganaExpression": [
+        {
+          "text": "聴",
+          "annotation": "き"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "聞取り",
+      "furiganaExpression": [
+        {
+          "text": "聞",
+          "annotation": "きき"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "聴取り",
+      "furiganaExpression": [
+        {
+          "text": "聴",
+          "annotation": "きき"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "listening comprehension",
+        "aural comprehension",
+        "hearing what others say",
+        "gathering information, opinions, etc.",
+        "public hearing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "begrijpend luisteren",
+        "auditief opvangen van wat er gezegd wordt",
+        "vergaring van auditieve informatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "compréhension orale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hörverständnis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) восприятие на слух, слух",
+        "2) слушание, прослушивание, выслушивание"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "slušno razumevanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comprensión auditiva"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hörförståelse"
+      ]
+    }
+  ]
+}

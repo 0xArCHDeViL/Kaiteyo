@@ -1,0 +1,90 @@
+{
+  "id": "1505620",
+  "readings": [
+    {
+      "kanaExpression": "ぶんぼうぐ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "文房具",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "房",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "具",
+          "annotation": "ぐ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stationery"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schrijfbehoeften",
+        "schrijfbenodigdheden",
+        "schrijfmateriaal",
+        "schrijfgerei",
+        "kantoorbehoeften",
+        "kantoorbenodigdheden",
+        "papeterie",
+        "papierwaren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "papeterie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schreibwaren",
+        "Papierwaren",
+        "Schreibmaterial",
+        "Schreibbedarf",
+        "Büromaterial",
+        "Bürobedarf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "irodaszerek",
+        "írószer és papíráru"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "письменные (канцелярские) принадлежности"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pisalne potrebščine"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "artículos de papelería"
+      ]
+    }
+  ]
+}

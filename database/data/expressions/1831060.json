@@ -1,0 +1,78 @@
+{
+  "id": "1831060",
+  "readings": [
+    {
+      "kanaExpression": "けいら",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "警ら",
+      "furiganaExpression": [
+        {
+          "text": "警",
+          "annotation": "けい"
+        },
+        {
+          "text": "ら"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "警邏",
+      "furiganaExpression": [
+        {
+          "text": "警",
+          "annotation": "けい"
+        },
+        {
+          "text": "邏",
+          "annotation": "ら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "patrol"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "patrouillieren",
+        "Patrouille",
+        "Streife",
+        "Patrouillieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "őrs"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) дозор[ный], патруль"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "patrulla"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "avpatrullera",
+        "patrull",
+        "patrullera"
+      ]
+    }
+  ]
+}

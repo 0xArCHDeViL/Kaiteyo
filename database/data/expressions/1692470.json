@@ -1,0 +1,52 @@
+{
+  "id": "1692470",
+  "readings": [
+    {
+      "kanaExpression": "とうびょう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "闘病",
+      "furiganaExpression": [
+        {
+          "text": "闘",
+          "annotation": "とう"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fighting against an illness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tegen een ziekte vechten",
+        "strijden",
+        "gevecht tegen een ziekte",
+        "strijd tegen ziekte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kampf gegen eine Krankheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "борьба с болезнью, постоянное лечение"
+      ]
+    }
+  ]
+}

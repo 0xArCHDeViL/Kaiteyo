@@ -1,0 +1,84 @@
+{
+  "id": "1199830",
+  "readings": [
+    {
+      "kanaExpression": "かいろ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "回路",
+      "furiganaExpression": [
+        {
+          "text": "回",
+          "annotation": "かい"
+        },
+        {
+          "text": "路",
+          "annotation": "ろ"
+        }
+      ],
+      "rank": 4878
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "circuit (electric)",
+        "cycle (e.g. Krebs cycle)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{elektr.} stroomkring",
+        "stroomketen",
+        "schakeling",
+        "circuit"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "circuit (électrique)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stromkreis",
+        "Schaltung",
+        "Leitung",
+        "Zyklus",
+        "Zirkel",
+        "etw., das wieder denselben Weg beschreitet"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áramkör",
+        "körforgás",
+        "zárt görbe vonal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(эл.) цепь, контур; система"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "električno vezje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "circuito (eléctrico)"
+      ]
+    }
+  ]
+}

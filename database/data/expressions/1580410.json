@@ -1,0 +1,87 @@
+{
+  "id": "1580410",
+  "readings": [
+    {
+      "kanaExpression": "うわくちびる",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "じょうしん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "上唇",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "うわ"
+        },
+        {
+          "text": "唇",
+          "annotation": "くちびる"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "上くちびる",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "うわ"
+        },
+        {
+          "text": "くちびる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "upper lip",
+        "labrum"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bovenlip",
+        "bovenste lip",
+        "labrum {\u003d bovenlip van een insect}",
+        "{plantk.} bovenlip"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lèvre supérieure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Oberlippe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "верхняя губа"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "labio superior"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "överläpp"
+      ]
+    }
+  ]
+}

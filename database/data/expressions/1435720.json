@@ -1,0 +1,60 @@
+{
+  "id": "1435720",
+  "readings": [
+    {
+      "kanaExpression": "ていそくすう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "定足数",
+      "furiganaExpression": [
+        {
+          "text": "定",
+          "annotation": "てい"
+        },
+        {
+          "text": "足",
+          "annotation": "そく"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "quorum"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "quorum",
+        "vereist aantal (aanwezige) leden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Quorum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "határozatképesség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кворум"
+      ]
+    }
+  ]
+}

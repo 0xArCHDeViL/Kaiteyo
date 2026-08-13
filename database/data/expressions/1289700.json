@@ -1,0 +1,44 @@
+{
+  "id": "1289700",
+  "readings": [
+    {
+      "kanaExpression": "こんぎ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "婚儀",
+      "furiganaExpression": [
+        {
+          "text": "婚",
+          "annotation": "こん"
+        },
+        {
+          "text": "儀",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wedding ceremony"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hochzeitsfeierlichkeit",
+        "Vermählungsfeier"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) бракосочетание, свадебная церемония"
+      ]
+    }
+  ]
+}

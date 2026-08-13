@@ -1,0 +1,88 @@
+{
+  "id": "1610030",
+  "readings": [
+    {
+      "kanaExpression": "ずるがしこい",
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "ずる賢い",
+      "furiganaExpression": [
+        {
+          "text": "ずる"
+        },
+        {
+          "text": "賢",
+          "annotation": "がしこ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "狡賢い",
+      "furiganaExpression": [
+        {
+          "text": "狡",
+          "annotation": "ずる"
+        },
+        {
+          "text": "賢",
+          "annotation": "がしこ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 32039
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "devious",
+        "cunning",
+        "sly",
+        "crafty"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rusé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "durchtrieben",
+        "verschlagen",
+        "listig",
+        "raffiniert"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alattomos"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zvit",
+        "prebrisan",
+        "prekanjen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "astuto",
+        "listo"
+      ]
+    }
+  ]
+}

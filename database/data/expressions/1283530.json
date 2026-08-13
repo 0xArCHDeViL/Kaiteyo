@@ -1,0 +1,54 @@
+{
+  "id": "1283530",
+  "readings": [
+    {
+      "kanaExpression": "こうざんびょう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "高山病",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "山",
+          "annotation": "ざん"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "altitude sickness",
+        "mountain sickness"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Höhenkrankheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hegyibetegség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горная болезнь"
+      ]
+    }
+  ]
+}

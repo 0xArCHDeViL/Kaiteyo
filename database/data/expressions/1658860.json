@@ -1,0 +1,66 @@
+{
+  "id": "1658860",
+  "readings": [
+    {
+      "kanaExpression": "しゃかいほしょう",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "社会保障",
+      "furiganaExpression": [
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "保",
+          "annotation": "ほ"
+        },
+        {
+          "text": "障",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "social security"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sociale zekerheid",
+        "sociale bijstand",
+        "bestaanszekerheid",
+        "sociale verzekering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sozialversicherung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "társadalombiztosítás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "seguridad social"
+      ]
+    }
+  ]
+}

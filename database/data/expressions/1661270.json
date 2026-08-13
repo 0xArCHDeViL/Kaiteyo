@@ -1,0 +1,57 @@
+{
+  "id": "1661270",
+  "readings": [
+    {
+      "kanaExpression": "たんでん",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "炭田",
+      "furiganaExpression": [
+        {
+          "text": "炭",
+          "annotation": "たん"
+        },
+        {
+          "text": "田",
+          "annotation": "でん"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "coalfield",
+        "coal field"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kolengebied",
+        "mijnstreek",
+        "kolendistrict",
+        "kolenbekken",
+        "{niet alg.} koolbekken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kohlenrevier",
+        "Kohlerevier",
+        "Kohlenbecken",
+        "Kohlenfeld"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "каменноугольный бассейн"
+      ]
+    }
+  ]
+}

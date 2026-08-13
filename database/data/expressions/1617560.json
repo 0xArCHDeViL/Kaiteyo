@@ -1,0 +1,91 @@
+{
+  "id": "1617560",
+  "readings": [
+    {
+      "kanaExpression": "かくせい",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "覚醒",
+      "furiganaExpression": [
+        {
+          "text": "覚",
+          "annotation": "かく"
+        },
+        {
+          "text": "醒",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 12206
+    },
+    {
+      "kanjiExpression": "覚せい",
+      "furiganaExpression": [
+        {
+          "text": "覚",
+          "annotation": "かく"
+        },
+        {
+          "text": "せい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "waking up",
+        "awakening",
+        "arousal",
+        "revival",
+        "disillusion",
+        "disillusionment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontwaken",
+        "wakker worden",
+        "{fig.} ontwaken",
+        "ontnuchterd worden",
+        "het ontwaken",
+        "ontnuchtering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erwachen",
+        "aufwachen",
+        "erwachen (aus einem Wahn)",
+        "desillusioniert werden",
+        "sich wiederfinden",
+        "Erwachen",
+        "Erwecken",
+        "Befreiung (von einem Wahn)",
+        "Desillusionierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "teljesen éber",
+        "csalódás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) пробуждение",
+        "{～する} пробудиться, проснуться, очнуться; прийти в себя, опомниться",
+        "{～させる} пробудить; разбудить",
+        "2) прозрение",
+        "{～する} (обр.) прозревать",
+        "{～させる} открывать глаза (кому-л.)"
+      ]
+    }
+  ]
+}

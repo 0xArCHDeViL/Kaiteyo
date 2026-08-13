@@ -1,0 +1,69 @@
+{
+  "id": "1183910",
+  "readings": [
+    {
+      "kanaExpression": "おんせつ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "音節",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "節",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "syllable"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lettergreep",
+        "syllabe",
+        "woorddeel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Silbe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szótag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(лингв.) слог"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sílaba"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "stavelse"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "1576430",
+  "readings": [
+    {
+      "kanaExpression": "あまあし",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "あめあし"
+    },
+    {
+      "kanaExpression": "うきゃく"
+    },
+    {
+      "kanjiExpression": "雨脚",
+      "furiganaExpression": [
+        {
+          "text": "雨",
+          "annotation": "あま"
+        },
+        {
+          "text": "脚",
+          "annotation": "あし"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "雨足",
+      "furiganaExpression": [
+        {
+          "text": "雨",
+          "annotation": "あま"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "雨あし",
+      "furiganaExpression": [
+        {
+          "text": "雨",
+          "annotation": "あま"
+        },
+        {
+          "text": "あし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "passing shower",
+        "streaks of pouring rain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "passage van de regen",
+        "regensliert",
+        "regenstreep",
+        "pijpenstelen",
+        "regenintensiteit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschwindigkeit einer herannahenden od. abziehenden Regenfront",
+        "Regenschauer",
+        "dicht fallender Regen",
+        "wie Bindfäden fallender Regen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полосы дождя"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lluvia torrencial",
+        "chuzos de punta",
+        "lluvia transitoria",
+        "racha de lluvia a cantaros"
+      ]
+    }
+  ]
+}

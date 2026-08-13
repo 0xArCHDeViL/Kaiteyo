@@ -1,0 +1,82 @@
+{
+  "id": "1282750",
+  "readings": [
+    {
+      "kanaExpression": "ふりしきる",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "降りしきる",
+      "furiganaExpression": [
+        {
+          "text": "降",
+          "annotation": "ふ"
+        },
+        {
+          "text": "りしきる"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "降り頻る",
+      "furiganaExpression": [
+        {
+          "text": "降",
+          "annotation": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "頻",
+          "annotation": "しき"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "降頻る",
+      "furiganaExpression": [
+        {
+          "text": "降",
+          "annotation": "ふり"
+        },
+        {
+          "text": "頻",
+          "annotation": "しき"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to fall continuously (of rain, snow, etc.)",
+        "to fall hard",
+        "to fall heavily",
+        "to pour down"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heftig regnen",
+        "gießen",
+        "pausenlos schneien"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "идти не прекращаясь (о дожде, снеге), лить как из ведра; густо падать (о снеге); (как опред.) проливной (о дожде); густой (о снеге)"
+      ]
+    }
+  ]
+}

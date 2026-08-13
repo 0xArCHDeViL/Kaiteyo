@@ -1,0 +1,67 @@
+{
+  "id": "1234690",
+  "readings": [
+    {
+      "kanaExpression": "きょうちょ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "共著",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "きょう"
+        },
+        {
+          "text": "著",
+          "annotation": "ちょ"
+        }
+      ],
+      "rank": 11308
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "joint authorship",
+        "co-authorship",
+        "collaboration",
+        "joint work"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gezamenlijk auteurschap",
+        "medeauteurschap",
+        "coauteurschap",
+        "gezamenlijk werk",
+        "copublicatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mitarbeit",
+        "Mitwirkung",
+        "Koautorenschaft",
+        "Mitverfasserschaft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "együttműködés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соавторство",
+        "{～する} быть (выступать) соавтором",
+        "A氏とK氏の共著 произведение г-на А и г-на К"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "1279240",
+  "readings": [
+    {
+      "kanaExpression": "こうせい",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "攻勢",
+      "furiganaExpression": [
+        {
+          "text": "攻",
+          "annotation": "こう"
+        },
+        {
+          "text": "勢",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 10926
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "offensive (movement)",
+        "aggression"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "offensief",
+        "aanval",
+        "campagne",
+        "forcing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "agression",
+        "offensive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Offensive",
+        "Angriff",
+        "Vorstoß"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "támadó",
+        "agresszió"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наступление",
+        "{～的} наступательный; агрессивный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ataque",
+        "agresión",
+        "ofensiva"
+      ]
+    }
+  ]
+}

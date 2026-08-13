@@ -1,0 +1,41 @@
+{
+  "id": "2242660",
+  "readings": [
+    {
+      "kanaExpression": "でんげんケーブル",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "電源ケーブル",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "源",
+          "annotation": "げん"
+        },
+        {
+          "text": "ケーブル"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "power cable",
+        "power lead"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stromkabel"
+      ]
+    }
+  ]
+}

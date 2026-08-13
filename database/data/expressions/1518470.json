@@ -1,0 +1,47 @@
+{
+  "id": "1518470",
+  "readings": [
+    {
+      "kanaExpression": "なきあと",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "亡き後",
+      "furiganaExpression": [
+        {
+          "text": "亡",
+          "annotation": "な"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "後",
+          "annotation": "あと"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "after one\u0027s death"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nach jmds. Tod",
+        "nach jmds. Ableben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) после смерти"
+      ]
+    }
+  ]
+}

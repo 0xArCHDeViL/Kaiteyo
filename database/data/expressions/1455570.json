@@ -1,0 +1,68 @@
+{
+  "id": "1455570",
+  "readings": [
+    {
+      "kanaExpression": "どくせい",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "毒性",
+      "furiganaExpression": [
+        {
+          "text": "毒",
+          "annotation": "どく"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 14118
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "toxicity",
+        "virulence",
+        "toxic",
+        "virulent",
+        "poisonous"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "giftigheid",
+        "toxiciteit",
+        "virulentie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Giftigkeit",
+        "Toxizität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mérgező",
+        "toxikus",
+        "epés",
+        "fertőző",
+        "maró",
+        "virulens"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ядовитость, токсичность, вирулентность",
+        "{～の} ядовитый, токсический, вирулентный"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1666270",
+  "readings": [
+    {
+      "kanaExpression": "ねがいさげ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "願い下げ",
+      "furiganaExpression": [
+        {
+          "text": "願",
+          "annotation": "ねが"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "下",
+          "annotation": "さ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cancellation",
+        "withdrawal",
+        "asking to be excused",
+        "begging off",
+        "not taking",
+        "refusing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rückzug eines Gesuches",
+        "Rückzug eines Antrages"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érvénytelenítő lebélyegzés",
+        "felbontás",
+        "helylemondás",
+        "stornírozás",
+        "visszavonás",
+        "visszavonulás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～にする} взять назад жалобу (иск)"
+      ]
+    }
+  ]
+}

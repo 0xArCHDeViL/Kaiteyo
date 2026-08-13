@@ -1,0 +1,54 @@
+{
+  "id": "1613780",
+  "readings": [
+    {
+      "kanaExpression": "かせんじき",
+      "rank": 22000
+    },
+    {
+      "kanaExpression": "かせんしき"
+    },
+    {
+      "kanjiExpression": "河川敷",
+      "furiganaExpression": [
+        {
+          "text": "河",
+          "annotation": "か"
+        },
+        {
+          "text": "川",
+          "annotation": "せん"
+        },
+        {
+          "text": "敷",
+          "annotation": "じき"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "flood plain",
+        "river terrace",
+        "riverside area",
+        "area between river and river bank"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flussbett"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cauce seco",
+        "lecho seco (de un río)"
+      ]
+    }
+  ]
+}

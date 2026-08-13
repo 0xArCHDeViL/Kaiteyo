@@ -1,0 +1,57 @@
+{
+  "id": "2149190",
+  "readings": [
+    {
+      "kanaExpression": "せんじょうざい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "洗浄剤",
+      "furiganaExpression": [
+        {
+          "text": "洗",
+          "annotation": "せん"
+        },
+        {
+          "text": "浄",
+          "annotation": "じょう"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "detergent",
+        "cleanser",
+        "cleaning agent",
+        "washing material"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Waschlotion",
+        "Reinigungsmittel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "очищающее (дезинфицирующее) средство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "detergente"
+      ]
+    }
+  ]
+}

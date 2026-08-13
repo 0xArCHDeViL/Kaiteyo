@@ -1,0 +1,129 @@
+{
+  "id": "1419070",
+  "readings": [
+    {
+      "kanaExpression": "タンパクしつ",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "たんぱくしつ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "タンパク質",
+      "furiganaExpression": [
+        {
+          "text": "タンパク"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 10220
+    },
+    {
+      "kanjiExpression": "蛋白質",
+      "furiganaExpression": [
+        {
+          "text": "蛋",
+          "annotation": "たん"
+        },
+        {
+          "text": "白",
+          "annotation": "ぱく"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "たんぱく質",
+      "furiganaExpression": [
+        {
+          "text": "たんぱく"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "たん白質",
+      "furiganaExpression": [
+        {
+          "text": "たん"
+        },
+        {
+          "text": "白",
+          "annotation": "ぱく"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "protein"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{biochem.} proteïne",
+        "eiwit",
+        "eiwitstof",
+        "albumine"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "proteine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eiweiß",
+        "Protein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fehérje"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "альбумин, белок",
+        "{～の} белковый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "proteína",
+        "proteína (eng: protein)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "äggviteämne",
+        "protein"
+      ]
+    }
+  ]
+}

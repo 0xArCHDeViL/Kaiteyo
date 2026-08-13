@@ -1,0 +1,80 @@
+{
+  "id": "1469660",
+  "readings": [
+    {
+      "kanaExpression": "ねんりょう",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "燃料",
+      "furiganaExpression": [
+        {
+          "text": "燃",
+          "annotation": "ねん"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 3411
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fuel"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "brandstof",
+        "stookmiddel",
+        "energiedrager",
+        "{verzameln.} brand"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "combustible"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Treibstoff",
+        "Kraftstoff",
+        "Brennstoff",
+        "Brennmaterial"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fűtőanyag",
+        "tüzelőanyag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горючее, топливо"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "combustible"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bränsle"
+      ]
+    }
+  ]
+}

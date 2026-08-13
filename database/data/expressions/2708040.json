@@ -1,0 +1,74 @@
+{
+  "id": "2708040",
+  "readings": [
+    {
+      "kanaExpression": "ひどく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "酷く",
+      "furiganaExpression": [
+        {
+          "text": "酷",
+          "annotation": "ひど"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "非道く",
+      "furiganaExpression": [
+        {
+          "text": "非",
+          "annotation": "ひ"
+        },
+        {
+          "text": "道",
+          "annotation": "ど"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "terribly",
+        "awfully",
+        "dreadfully",
+        "extremely",
+        "severely",
+        "very (much)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "erg",
+        "zeer",
+        "buitengewoon",
+        "hard",
+        "ontzettend",
+        "vreselijk",
+        "verschrikkelijk",
+        "geweldig",
+        "beestachtig",
+        "beestig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "grausam",
+        "furchtbar",
+        "schlimm"
+      ]
+    }
+  ]
+}

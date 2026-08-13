@@ -1,0 +1,83 @@
+{
+  "id": "1513130",
+  "readings": [
+    {
+      "kanaExpression": "べんむかん",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "弁務官",
+      "furiganaExpression": [
+        {
+          "text": "弁",
+          "annotation": "べん"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "辨務官",
+      "furiganaExpression": [
+        {
+          "text": "辨",
+          "annotation": "べん"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commissioner"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "commissaris"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kommissar",
+        "Beauftragter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "meghatalmazott"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "специальный уполномоченный, комиссар"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comisionado"
+      ]
+    }
+  ]
+}

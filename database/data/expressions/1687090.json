@@ -1,0 +1,43 @@
+{
+  "id": "1687090",
+  "readings": [
+    {
+      "kanaExpression": "つうし",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "通史",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "史",
+          "annotation": "し"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "overview of history"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschichte (vom Altertum bis zur Gegenwart)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "история с древнейших времён до нашего времени"
+      ]
+    }
+  ]
+}

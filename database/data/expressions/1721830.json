@@ -1,0 +1,82 @@
+{
+  "id": "1721830",
+  "readings": [
+    {
+      "kanaExpression": "ぜっさん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "絶賛",
+      "furiganaExpression": [
+        {
+          "text": "絶",
+          "annotation": "ぜっ"
+        },
+        {
+          "text": "賛",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 8605
+    },
+    {
+      "kanjiExpression": "絶讃",
+      "furiganaExpression": [
+        {
+          "text": "絶",
+          "annotation": "ぜっ"
+        },
+        {
+          "text": "讃",
+          "annotation": "さん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high praise",
+        "great admiration",
+        "acclaim",
+        "with critical acclaim",
+        "to rave reviews",
+        "with high commendations",
+        "currently",
+        "presently",
+        "right now"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoge lof geven",
+        "de hoogste lof toezwaaien",
+        "ten zeerste loven",
+        "hemelhoog prijzen",
+        "de loftrompet steken over",
+        "hoge",
+        "hoogste lof"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rühmen",
+        "über alles loben",
+        "mit Lob überschütten",
+        "uneingeschränktes Lob zollen",
+        "uneingeschränktes Lob",
+        "größter Beifall"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "восхваление, восторги",
+        "{～する} превозносить, восхвалять"
+      ]
+    }
+  ]
+}

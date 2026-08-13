@@ -1,0 +1,74 @@
+{
+  "id": "1663430",
+  "readings": [
+    {
+      "kanaExpression": "へいぞん"
+    },
+    {
+      "kanaExpression": "へいそん",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "併存",
+      "furiganaExpression": [
+        {
+          "text": "併",
+          "annotation": "へい"
+        },
+        {
+          "text": "存",
+          "annotation": "ぞん"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "並存",
+      "furiganaExpression": [
+        {
+          "text": "並",
+          "annotation": "へい"
+        },
+        {
+          "text": "存",
+          "annotation": "ぞん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "coexistence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Koexistenz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyidejű fennállás",
+        "együttlétezés",
+        "párhuzamos haladás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) сосуществование",
+        "{～する} сосуществовать; существовать совместно"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "coexistencia"
+      ]
+    }
+  ]
+}

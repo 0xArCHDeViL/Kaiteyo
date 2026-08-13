@@ -1,0 +1,53 @@
+{
+  "id": "1501000",
+  "readings": [
+    {
+      "kanaExpression": "ふくやく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "服薬",
+      "furiganaExpression": [
+        {
+          "text": "服",
+          "annotation": "ふく"
+        },
+        {
+          "text": "薬",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "taking medicine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inname van een geneesmiddel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einnehmen",
+        "schlucken",
+        "Einnahme eines Medikaments",
+        "Einnahme einer Medizin"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приём лекарства",
+        "{～する} принимать лекарство"
+      ]
+    }
+  ]
+}

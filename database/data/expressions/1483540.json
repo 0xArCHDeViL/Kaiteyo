@@ -1,0 +1,121 @@
+{
+  "id": "1483540",
+  "readings": [
+    {
+      "kanaExpression": "くらべる",
+      "rank": 10537
+    },
+    {
+      "kanjiExpression": "比べる",
+      "furiganaExpression": [
+        {
+          "text": "比",
+          "annotation": "くら"
+        },
+        {
+          "text": "べる"
+        }
+      ],
+      "rank": 968
+    },
+    {
+      "kanjiExpression": "較べる",
+      "furiganaExpression": [
+        {
+          "text": "較",
+          "annotation": "くら"
+        },
+        {
+          "text": "べる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "競べる",
+      "furiganaExpression": [
+        {
+          "text": "競",
+          "annotation": "くら"
+        },
+        {
+          "text": "べる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to compare",
+        "to make a comparison",
+        "to compete",
+        "to vie"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vergelijken met",
+        "meten met"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "comparer",
+        "faire une comparaison",
+        "concurrencer",
+        "rivaliser"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vergleichen",
+        "einen Vergleich anstellen",
+        "gegenüberstellen",
+        "entgegenhalten",
+        "kontrastieren",
+        "wetteifern",
+        "sich messen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hitelesít",
+        "kalibrál"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сравнивать",
+        "сравнивать, сопоставлять"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "primerjati"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comparar",
+        "calibrar",
+        "competir",
+        "rivalizar",
+        "desafiarse"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "jämföra"
+      ]
+    }
+  ]
+}

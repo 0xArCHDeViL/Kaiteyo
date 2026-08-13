@@ -1,0 +1,45 @@
+{
+  "id": "1907110",
+  "readings": [
+    {
+      "kanaExpression": "ぶんはく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "文博",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "博",
+          "annotation": "はく"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "doctor of literature"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dr. phil.",
+        "Doktor philosophiae",
+        "Doktor der Philosophie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 文学博士) доктор литературы"
+      ]
+    }
+  ]
+}

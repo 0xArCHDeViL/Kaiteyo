@@ -1,0 +1,45 @@
+{
+  "id": "1345710",
+  "readings": [
+    {
+      "kanaExpression": "じょせつ",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "除雪",
+      "furiganaExpression": [
+        {
+          "text": "除",
+          "annotation": "じょ"
+        },
+        {
+          "text": "雪",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "snow removal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schnee räumen",
+        "Schneeräumung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "очистка от снега",
+        "{～する} счищать (убирать) снег, очищать от снега"
+      ]
+    }
+  ]
+}

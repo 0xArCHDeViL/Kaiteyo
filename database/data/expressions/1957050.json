@@ -1,0 +1,85 @@
+{
+  "id": "1957050",
+  "readings": [
+    {
+      "kanaExpression": "ありとあらゆる",
+      "rank": 10918
+    },
+    {
+      "kanjiExpression": "有りとあらゆる",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "あ"
+        },
+        {
+          "text": "りとあらゆる"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "有りと有らゆる",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "あ"
+        },
+        {
+          "text": "りと"
+        },
+        {
+          "text": "有",
+          "annotation": "あ"
+        },
+        {
+          "text": "らゆる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "every conceivable",
+        "every single",
+        "every possible",
+        "all kinds of"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alles Mögliche",
+        "alle Sorten",
+        "alle Arten",
+        "alle",
+        "jeder",
+        "allerhand",
+        "allerlei"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "minden egyes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "всевозможный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "todos los (+n)",
+        "toda clase de",
+        "todos y cada uno",
+        "absolutamente todos"
+      ]
+    }
+  ]
+}

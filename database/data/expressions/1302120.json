@@ -1,0 +1,63 @@
+{
+  "id": "1302120",
+  "readings": [
+    {
+      "kanaExpression": "さんかく",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "参画",
+      "furiganaExpression": [
+        {
+          "text": "参",
+          "annotation": "さん"
+        },
+        {
+          "text": "画",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 6603
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "taking part (in planning)",
+        "participation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "deelname aan de planning",
+        "betrokkenheid bij een plan",
+        "deelnemen aan de planning",
+        "betrokken zijn bij een plan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Teilnahme an der Planung",
+        "Mitbeteiligung",
+        "mitplanen",
+        "sich beteiligen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "участие в планировании",
+        "{～する} участвовать в выработке плана"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tomando parte en un plan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "1310950",
+  "readings": [
+    {
+      "kanaExpression": "しぼう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "死亡",
+      "furiganaExpression": [
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "亡",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 2233
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "death",
+        "dying",
+        "mortality"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sterven",
+        "doodgaan",
+        "overlijden",
+        "afsterven",
+        "{arch.} verscheiden",
+        "{euf.} heengaan",
+        "{i.h.b.} omkomen",
+        "dood",
+        "{attr.} thanato-"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "décès",
+        "mort",
+        "mortalité",
+        "mourir",
+        "trépasser",
+        "succomber",
+        "décéder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sterben",
+        "umkommen",
+        "Tod",
+        "Sterben",
+        "Umkommen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halál",
+        "halálos mivolta vminek",
+        "halálozás",
+        "halandóság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "смерть, кончина",
+        "{～する} умереть, скончаться; погибнуть"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "smrt",
+        "preminitev"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "muerte",
+        "mortalidad (pérdida de vidas humanas)"
+      ]
+    }
+  ]
+}

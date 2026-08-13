@@ -1,0 +1,72 @@
+{
+  "id": "1383120",
+  "readings": [
+    {
+      "kanaExpression": "せきずい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "脊髄",
+      "furiganaExpression": [
+        {
+          "text": "脊",
+          "annotation": "せき"
+        },
+        {
+          "text": "髄",
+          "annotation": "ずい"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spinal cord"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} ruggenmerg",
+        "pit",
+        "medulla"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "moelle épinière"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rückenmark",
+        "Medulla spinalis",
+        "spinal",
+        "Rückenmarks…"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gerincagy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спинной мозг"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "médula espinal"
+      ]
+    }
+  ]
+}

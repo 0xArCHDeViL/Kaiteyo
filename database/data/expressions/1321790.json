@@ -1,0 +1,78 @@
+{
+  "id": "1321790",
+  "readings": [
+    {
+      "kanaExpression": "うつし",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "写し",
+      "furiganaExpression": [
+        {
+          "text": "写",
+          "annotation": "うつ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "copy",
+        "duplicate",
+        "facsimile",
+        "transcript"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kopie",
+        "reproductie",
+        "duplicaat",
+        "afdruk",
+        "afschrift",
+        "fotokopie",
+        "facsimile",
+        "dubbel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kopie",
+        "Abzug",
+        "Ablichtung",
+        "Abschrift",
+        "Durchschlag",
+        "Pause",
+        "Duplikat",
+        "Faksimile"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átírás",
+        "áttétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "копия, дубликат"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "copia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "1256350",
+  "readings": [
+    {
+      "kanaExpression": "けんしん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "検診",
+      "furiganaExpression": [
+        {
+          "text": "検",
+          "annotation": "けん"
+        },
+        {
+          "text": "診",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 10269
+    },
+    {
+      "kanjiExpression": "健診",
+      "furiganaExpression": [
+        {
+          "text": "健",
+          "annotation": "けん"
+        },
+        {
+          "text": "診",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "physical examination",
+        "medical examination",
+        "health checkup",
+        "health screening"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} medisch onderzoek",
+        "screening",
+        "controle",
+        "keuring",
+        "{geneesk.} medisch onderzoeken",
+        "screenen",
+        "controleren",
+        "keuren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "examen médical"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesundheitsuntersuchung",
+        "ärztliche Untersuchung",
+        "medizinische Untersuchung",
+        "Exploration",
+        "ärztlich untersuchen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "orvosi vizsgálat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "медицинский осмотр, освидетельствование",
+        "{～する} осматривать, производить медосмотр (освидетельствование)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "examen físico",
+        "examen médico"
+      ]
+    }
+  ]
+}

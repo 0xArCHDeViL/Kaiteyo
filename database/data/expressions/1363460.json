@@ -1,0 +1,71 @@
+{
+  "id": "1363460",
+  "readings": [
+    {
+      "kanaExpression": "ました",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "真下",
+      "furiganaExpression": [
+        {
+          "text": "真",
+          "annotation": "ま"
+        },
+        {
+          "text": "下",
+          "annotation": "した"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "right under",
+        "directly below"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "er net onder",
+        "net eronder",
+        "net onder",
+        "direct onderliggend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "direkt unter",
+        "gerade unterhalb",
+        "gerade unten",
+        "unmittelbar unten",
+        "direkt nach unten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "как раз внизу, прямо внизу",
+        "{…の～に} как раз под (чем-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "točno pod",
+        "Mashita (ime)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "justo debajo"
+      ]
+    }
+  ]
+}

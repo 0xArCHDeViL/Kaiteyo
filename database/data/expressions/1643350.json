@@ -1,0 +1,65 @@
+{
+  "id": "1643350",
+  "readings": [
+    {
+      "kanaExpression": "ぬけげ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "抜け毛",
+      "furiganaExpression": [
+        {
+          "text": "抜",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "毛",
+          "annotation": "げ"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "脱け毛",
+      "furiganaExpression": [
+        {
+          "text": "脱",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "毛",
+          "annotation": "げ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fallen hair",
+        "combings",
+        "hair left on comb"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Haarausfall",
+        "ausgefallene Haare"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выпавшие волосы; вылинявший пух (птиц)"
+      ]
+    }
+  ]
+}

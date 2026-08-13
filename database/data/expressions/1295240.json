@@ -1,0 +1,94 @@
+{
+  "id": "1295240",
+  "readings": [
+    {
+      "kanaExpression": "とりで",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "砦",
+      "furiganaExpression": [
+        {
+          "text": "砦",
+          "annotation": "とりで"
+        }
+      ],
+      "rank": 14398
+    },
+    {
+      "kanjiExpression": "塁",
+      "furiganaExpression": [
+        {
+          "text": "塁",
+          "annotation": "とりで"
+        }
+      ],
+      "rank": 14090
+    },
+    {
+      "kanjiExpression": "寨",
+      "furiganaExpression": [
+        {
+          "text": "寨",
+          "annotation": "とりで"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fort",
+        "fortress",
+        "stronghold",
+        "fortification"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "fort",
+        "vesting",
+        "sterkte",
+        "bastion",
+        "bolwerk",
+        "vestingwerk",
+        "fortificatie",
+        "versterking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Festung",
+        "Feste",
+        "Schanze",
+        "Fort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erőd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) укрепление, форт, крепость, цитадель; (обр.) оплот"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fortaleza",
+        "fuerte",
+        "bastión",
+        "base militar",
+        "atalaya",
+        "alcázar"
+      ]
+    }
+  ]
+}

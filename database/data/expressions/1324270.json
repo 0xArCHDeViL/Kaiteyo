@@ -1,0 +1,73 @@
+{
+  "id": "1324270",
+  "readings": [
+    {
+      "kanaExpression": "しゃくめい",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "釈明",
+      "furiganaExpression": [
+        {
+          "text": "釈",
+          "annotation": "しゃく"
+        },
+        {
+          "text": "明",
+          "annotation": "めい"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "explanation",
+        "vindication"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "explication",
+        "justification"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rechtfertigen",
+        "entschuldigen",
+        "erklären",
+        "Rechtfertigung",
+        "Entschuldigung",
+        "Erklärung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megvédelmezés",
+        "összefüggéstelen beszéd",
+        "visszakövetelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "объяснение, разъяснение",
+        "{～する} объяснять, разъяснять; оправдываться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "explicación",
+        "justificación",
+        "excusa"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "1600580",
+  "readings": [
+    {
+      "kanaExpression": "はいかい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "徘徊",
+      "furiganaExpression": [
+        {
+          "text": "徘",
+          "annotation": "はい"
+        },
+        {
+          "text": "徊",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "俳徊",
+      "furiganaExpression": [
+        {
+          "text": "俳",
+          "annotation": "はい"
+        },
+        {
+          "text": "徊",
+          "annotation": "かい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "徘回",
+      "furiganaExpression": [
+        {
+          "text": "徘",
+          "annotation": "はい"
+        },
+        {
+          "text": "回",
+          "annotation": "かい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wandering (around)",
+        "roaming",
+        "loitering",
+        "prowling",
+        "hanging around"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zwerven",
+        "rondzwerven",
+        "ronddolen",
+        "dolen",
+        "ronddwalen",
+        "dwalen",
+        "rondhangen",
+        "{獣",
+        "盗賊が} rondsluipen",
+        "rondneuzen",
+        "gezwerf",
+        "gedool",
+        "{psych.} fugue",
+        "zwerfzucht",
+        "vagabondage",
+        "dromomanie",
+        "poriomanie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herumstreichen",
+        "Herumlungern",
+        "Poriomanie",
+        "Fugue",
+        "herumstreichen",
+        "umhergehen",
+        "herumlungern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": ～する",
+        "1) бродить; слоняться",
+        "2) (мор.) крейсировать"
+      ]
+    }
+  ]
+}

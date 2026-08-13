@@ -1,0 +1,66 @@
+{
+  "id": "1237230",
+  "readings": [
+    {
+      "kanaExpression": "きょうしょくいん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "教職員",
+      "furiganaExpression": [
+        {
+          "text": "教",
+          "annotation": "きょう"
+        },
+        {
+          "text": "職",
+          "annotation": "しょく"
+        },
+        {
+          "text": "員",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 8645
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "teaching staff",
+        "faculty"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schoolpersoneel",
+        "leerkrachten van een school",
+        "lerarenkorps",
+        "onderwijzerskorps",
+        "docentenkorps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lehrkräfte",
+        "Lehrkörper"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyetemi kar",
+        "tantestület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "работник[и] школы, педагог[и], преподавательский состав"
+      ]
+    }
+  ]
+}

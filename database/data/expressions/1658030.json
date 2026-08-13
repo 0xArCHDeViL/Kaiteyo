@@ -1,0 +1,61 @@
+{
+  "id": "1658030",
+  "readings": [
+    {
+      "kanaExpression": "さんや",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "山野",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "さん"
+        },
+        {
+          "text": "野",
+          "annotation": "や"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hills and fields",
+        "countryside"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "heuvels en velden",
+        "± berg en dal",
+        "platteland"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Berge und Felder",
+        "Berg und Tal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vidéki táj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) горы и равнины",
+        "2) (перен.) глушь"
+      ]
+    }
+  ]
+}

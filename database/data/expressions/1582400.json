@@ -1,0 +1,63 @@
+{
+  "id": "1582400",
+  "readings": [
+    {
+      "kanaExpression": "とくほん",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "どくほん"
+    },
+    {
+      "kanjiExpression": "読本",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "とく"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reading-book",
+        "reader",
+        "guidebook",
+        "manual",
+        "textbook (esp. a pre-war elementary school Japanese language textbook)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "livre de lecture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lesebuch",
+        "Reader"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хрестоматия, книга для чтения (школьная)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "libro de lectura"
+      ]
+    }
+  ]
+}

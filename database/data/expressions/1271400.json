@@ -1,0 +1,49 @@
+{
+  "id": "1271400",
+  "readings": [
+    {
+      "kanaExpression": "ごしん",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "誤診",
+      "furiganaExpression": [
+        {
+          "text": "誤",
+          "annotation": "ご"
+        },
+        {
+          "text": "診",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wrong diagnosis",
+        "misdiagnosis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Fehldiagnose leisten",
+        "falsch diagnostizieren",
+        "eine falsche Diagnose stellen",
+        "Fehldiagnose",
+        "falsche Diagnose"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ошибочный (неверный) диагноз",
+        "{～する} поставить неверный диагноз"
+      ]
+    }
+  ]
+}

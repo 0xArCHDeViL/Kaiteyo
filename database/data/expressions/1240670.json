@@ -1,0 +1,117 @@
+{
+  "id": "1240670",
+  "readings": [
+    {
+      "kanaExpression": "たまねぎ"
+    },
+    {
+      "kanaExpression": "タマネギ"
+    },
+    {
+      "kanjiExpression": "玉ねぎ",
+      "furiganaExpression": [
+        {
+          "text": "玉",
+          "annotation": "たま"
+        },
+        {
+          "text": "ねぎ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "玉葱",
+      "furiganaExpression": [
+        {
+          "text": "玉",
+          "annotation": "たま"
+        },
+        {
+          "text": "葱",
+          "annotation": "ねぎ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "玉ネギ",
+      "furiganaExpression": [
+        {
+          "text": "玉",
+          "annotation": "たま"
+        },
+        {
+          "text": "ネギ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "葱頭",
+      "furiganaExpression": [
+        {
+          "text": "葱頭",
+          "annotation": "たまねぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "onion (Allium cepa)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} ui",
+        "Allium cepa",
+        "{gew.",
+        "Belg.N.",
+        "spreekt.} ajuin",
+        "{gew.} siepel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "oignon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zwiebel",
+        "Allium cepa"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vöröshagyma"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лук",
+        "луковица",
+        "1) репчатый лук, Allium cepa (L.)",
+        "2) луковица"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cebolla"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lök"
+      ]
+    }
+  ]
+}

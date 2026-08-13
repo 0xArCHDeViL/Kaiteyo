@@ -1,0 +1,93 @@
+{
+  "id": "1334210",
+  "readings": [
+    {
+      "kanaExpression": "じゅうみん",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "住民",
+      "furiganaExpression": [
+        {
+          "text": "住",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "民",
+          "annotation": "みん"
+        }
+      ],
+      "rank": 1329
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inhabitant",
+        "resident",
+        "citizen",
+        "population"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inwoner",
+        "bewoner",
+        "ingezetene",
+        "gedomicilieerde",
+        "{verzameln.} (gezeten) bevolking"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "citoyens",
+        "habitants",
+        "population",
+        "résidents"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bewohner",
+        "Einwohner",
+        "Bürger",
+        "Bevölkerung",
+        "Einwohnerschaft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lakosság",
+        "népesség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "жители, население"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "meščan",
+        "prebivalec",
+        "državljan"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ciudadanos",
+        "habitantes",
+        "residentes",
+        "población"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "1802140",
+  "readings": [
+    {
+      "kanaExpression": "せんたん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "戦端",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "端",
+          "annotation": "たん"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "opening of hostilities"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feindseligkeiten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "начало боевых действий; начало боя"
+      ]
+    }
+  ]
+}

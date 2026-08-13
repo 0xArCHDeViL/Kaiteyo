@@ -1,0 +1,58 @@
+{
+  "id": "1325280",
+  "readings": [
+    {
+      "kanaExpression": "しゅきょう",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "主教",
+      "furiganaExpression": [
+        {
+          "text": "主",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "教",
+          "annotation": "きょう"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bishop (Orthodox, Anglican, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{angl.",
+        "Gr.orth.} bisschop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bischof",
+        "Prälat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "futó",
+        "prímás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "епископ"
+      ]
+    }
+  ]
+}

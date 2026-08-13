@@ -1,0 +1,62 @@
+{
+  "id": "1642460",
+  "readings": [
+    {
+      "kanaExpression": "ながれさぎょう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "流れ作業",
+      "furiganaExpression": [
+        {
+          "text": "流",
+          "annotation": "なが"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "作",
+          "annotation": "さ"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "assembly-line system"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lopendebandwerk",
+        "bandwerk",
+        "werk",
+        "montage aan de lopende band",
+        "kettingmontage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fließbandfertigung",
+        "Fließfertigung",
+        "Fließverfahren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "система конвейеров, поточная система"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1739420",
+  "readings": [
+    {
+      "kanaExpression": "やくし",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "訳詞",
+      "furiganaExpression": [
+        {
+          "text": "訳",
+          "annotation": "やく"
+        },
+        {
+          "text": "詞",
+          "annotation": "し"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "translation of lyrics"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Liedertextübersetzung",
+        "Gedichtübersetzung"
+      ]
+    }
+  ]
+}

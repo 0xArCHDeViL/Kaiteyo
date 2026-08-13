@@ -1,0 +1,67 @@
+{
+  "id": "1432190",
+  "readings": [
+    {
+      "kanaExpression": "ちんじょう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "陳情",
+      "furiganaExpression": [
+        {
+          "text": "陳",
+          "annotation": "ちん"
+        },
+        {
+          "text": "情",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 10813
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "petition",
+        "appeal"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "requête"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Bittschrift einreichen",
+        "eine Eingabe machen",
+        "Eingabe",
+        "Bittschrift",
+        "Petition",
+        "Gesuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felterjesztés",
+        "fohász",
+        "folyamodvány",
+        "kérvény",
+        "petíció",
+        "fellebbezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "изложение дела (обстоятельств); ходатайство, петиция; жалоба; заявление, прошение",
+        "{～する} обратиться с жалобой (заявлением) (к кому-л.); подать заявление (кому-л.)"
+      ]
+    }
+  ]
+}

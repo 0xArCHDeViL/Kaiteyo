@@ -1,0 +1,81 @@
+{
+  "id": "1752990",
+  "readings": [
+    {
+      "kanaExpression": "かいどく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "買い得",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "得",
+          "annotation": "どく"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "買得",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "かい"
+        },
+        {
+          "text": "得",
+          "annotation": "どく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bargain",
+        "good buy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "koopje",
+        "goede koop",
+        "voordelig zaakje"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "günstiger Kauf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alkalmi vétel",
+        "alku"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прост.) выгодная покупка (сделка)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "pruta"
+      ]
+    }
+  ]
+}

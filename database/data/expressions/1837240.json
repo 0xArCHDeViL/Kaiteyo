@@ -1,0 +1,44 @@
+{
+  "id": "1837240",
+  "readings": [
+    {
+      "kanaExpression": "すみび",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "炭火",
+      "furiganaExpression": [
+        {
+          "text": "炭",
+          "annotation": "すみ"
+        },
+        {
+          "text": "火",
+          "annotation": "び"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "charcoal fire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Holzkohlenfeuer",
+        "brennende Holzkohle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разожжённый древесный уголь"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1186130",
+  "readings": [
+    {
+      "kanaExpression": "げばひょう",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "下馬評",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "げ"
+        },
+        {
+          "text": "馬",
+          "annotation": "ば"
+        },
+        {
+          "text": "評",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rumor",
+        "rumour",
+        "gossip",
+        "speculation",
+        "irresponsible criticism",
+        "hearsay"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "losse",
+        "ongecontroleerde geruchten",
+        "onbevestigde berichten",
+        "praatjes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gerede von Außenstehenden",
+        "Gerücht",
+        "Klatschgeschichte",
+        "Stadtgespräch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fáma",
+        "híresztelés",
+        "csevegés",
+        "pletyka",
+        "elmélet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слухи, толки, кулуарные разговоры"
+      ]
+    }
+  ]
+}

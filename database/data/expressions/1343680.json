@@ -1,0 +1,75 @@
+{
+  "id": "1343680",
+  "readings": [
+    {
+      "kanaExpression": "かきおろす",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "書き下ろす",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "下",
+          "annotation": "お"
+        },
+        {
+          "text": "ろす"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "書下ろす",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "かき"
+        },
+        {
+          "text": "下",
+          "annotation": "お"
+        },
+        {
+          "text": "ろす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to write (a new novel, play, song, etc.)",
+        "to write (an original work for a specific purpose)",
+        "to write specially (for)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "op maat schrijven van",
+        "speciaal schrijven voor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schreiben",
+        "niederschreiben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "написать (новую пьесу, повесть и т. п.)"
+      ]
+    }
+  ]
+}

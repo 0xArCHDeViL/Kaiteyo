@@ -1,0 +1,69 @@
+{
+  "id": "1602070",
+  "readings": [
+    {
+      "kanaExpression": "ひにょうき",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "ひつにょうき"
+    },
+    {
+      "kanjiExpression": "泌尿器",
+      "furiganaExpression": [
+        {
+          "text": "泌",
+          "annotation": "ひ"
+        },
+        {
+          "text": "尿",
+          "annotation": "にょう"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "urinary organs"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} urinevat",
+        "urinewegen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "organes urinaires"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Harnorgan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мочеполовые органы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aparato excretor"
+      ]
+    }
+  ]
+}

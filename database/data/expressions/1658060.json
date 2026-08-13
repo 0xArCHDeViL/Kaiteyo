@@ -1,0 +1,55 @@
+{
+  "id": "1658060",
+  "readings": [
+    {
+      "kanaExpression": "さんぴん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "産品",
+      "furiganaExpression": [
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "品",
+          "annotation": "ぴん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "products"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "product"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Produkt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) продукт"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "productos"
+      ]
+    }
+  ]
+}

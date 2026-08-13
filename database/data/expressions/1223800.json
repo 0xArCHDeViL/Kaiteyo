@@ -1,0 +1,75 @@
+{
+  "id": "1223800",
+  "readings": [
+    {
+      "kanaExpression": "きしかいせい",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "起死回生",
+      "furiganaExpression": [
+        {
+          "text": "起",
+          "annotation": "き"
+        },
+        {
+          "text": "死",
+          "annotation": "し"
+        },
+        {
+          "text": "回",
+          "annotation": "かい"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "revival from the brink of death",
+        "recovering from a hopeless situation",
+        "resuscitation",
+        "revitalization"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wiederbelebung",
+        "Auferweckung vom Tode",
+        "Überwindung einer Krise und Wendung zum Besseren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felélesztés",
+        "felelevenedés",
+        "felelevenítés",
+        "feltámadás",
+        "feltámasztás",
+        "újjáélesztés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) оживление, воскрешение из мёртвых"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "resurrección de los muertos",
+        "recuperación de una situación desesperada",
+        "resucitación"
+      ]
+    }
+  ]
+}

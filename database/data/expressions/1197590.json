@@ -1,0 +1,61 @@
+{
+  "id": "1197590",
+  "readings": [
+    {
+      "kanaExpression": "がほう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "画法",
+      "furiganaExpression": [
+        {
+          "text": "画",
+          "annotation": "が"
+        },
+        {
+          "text": "法",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "art of drawing and painting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schilderwijze",
+        "schildertechniek",
+        "schilderkunst",
+        "tekenwijze",
+        "tekentechniek",
+        "tekenkunst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Malstil",
+        "Maltechnik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "правила рисования (живописи)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "målarkonst"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "1527650",
+  "readings": [
+    {
+      "kanaExpression": "みすい",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "未遂",
+      "furiganaExpression": [
+        {
+          "text": "未",
+          "annotation": "み"
+        },
+        {
+          "text": "遂",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 11819
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "failed attempt (at a crime, suicide, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "poging tot …",
+        "-poging",
+        "mislukt iets"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tentative (criminelle)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unvollendet",
+        "versucht",
+        "…versuch",
+        "Versuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kísérlet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "покушение, попытка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "intento de"
+      ]
+    }
+  ]
+}

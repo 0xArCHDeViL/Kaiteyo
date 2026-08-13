@@ -1,0 +1,81 @@
+{
+  "id": "1662130",
+  "readings": [
+    {
+      "kanaExpression": "ようぶん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "養分",
+      "furiganaExpression": [
+        {
+          "text": "養",
+          "annotation": "よう"
+        },
+        {
+          "text": "分",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nutrient",
+        "nourishment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voedingsstof",
+        "nutriënt",
+        "voedingsmiddel",
+        "voedsel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nourriture",
+        "alimentation",
+        "nutriment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nahrung",
+        "Nahrungsstoff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "étel",
+        "táplálás",
+        "táplálék",
+        "táplálkozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "питательные элементы; питательность",
+        "{～がある} быть питательным"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "excedente",
+        "exceso",
+        "sobrante",
+        "de sobra"
+      ]
+    }
+  ]
+}

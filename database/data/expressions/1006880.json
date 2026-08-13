@@ -1,0 +1,105 @@
+{
+  "id": "1006880",
+  "readings": [
+    {
+      "kanaExpression": "そのうえ",
+      "rank": 14199
+    },
+    {
+      "kanjiExpression": "その上",
+      "furiganaExpression": [
+        {
+          "text": "その"
+        },
+        {
+          "text": "上",
+          "annotation": "うえ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "其の上",
+      "furiganaExpression": [
+        {
+          "text": "其",
+          "annotation": "そ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "上",
+          "annotation": "うえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in addition",
+        "furthermore",
+        "above (which)",
+        "on top of (which)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bovendien",
+        "daarenboven",
+        "daarbij",
+        "daarbij komt nog dat",
+        "op de koop toe",
+        "tevens",
+        "daarnaast",
+        "wat meer is",
+        "voorts",
+        "verder",
+        "en ook (nog)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "en outre",
+        "de plus",
+        "en plus de cela",
+        "là-dessus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außerdem",
+        "darüber hinaus",
+        "dazu",
+        "ferner",
+        "überdies"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "továbbmenve",
+        "azonkívül",
+        "ráadásul"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[に]} сверх (кроме) того, к тому же, вдобавок, в придачу"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "povrhu",
+        "poleg tega"
+      ]
+    }
+  ]
+}

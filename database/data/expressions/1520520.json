@@ -1,0 +1,47 @@
+{
+  "id": "1520520",
+  "readings": [
+    {
+      "kanaExpression": "ぼうちゅうざい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "防虫剤",
+      "furiganaExpression": [
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "虫",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "insect repellent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Insektenmittel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "инсектицид, средство от насекомых"
+      ]
+    }
+  ]
+}

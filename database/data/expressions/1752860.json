@@ -1,0 +1,50 @@
+{
+  "id": "1752860",
+  "readings": [
+    {
+      "kanaExpression": "かいささえ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "買い支え",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "支",
+          "annotation": "ささ"
+        },
+        {
+          "text": "え"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "buying support"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stützung",
+        "Stützungskauf (für Geld- od. Börsenkurse)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(бирж.) скупка [ценных бумаг] для поддержания курса"
+      ]
+    }
+  ]
+}

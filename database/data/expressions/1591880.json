@@ -1,0 +1,96 @@
+{
+  "id": "1591880",
+  "readings": [
+    {
+      "kanaExpression": "きりみ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "切り身",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "身",
+          "annotation": "み"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "切身",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "身",
+          "annotation": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cut",
+        "slice (meat, fish)",
+        "fillet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} afgesneden stuk",
+        "moot",
+        "snee",
+        "schijf",
+        "plak",
+        "reep",
+        "{w.g.} tranche",
+        "lichaam met snijwonden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Scheibe",
+        "Stück",
+        "Stückchen (Fischfleisch o.Ä.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csapás",
+        "elvág",
+        "emel",
+        "hasíték",
+        "herélt",
+        "leszállít",
+        "levág",
+        "meghúz",
+        "megvág",
+        "nyesés",
+        "szelet",
+        "szúrás",
+        "vág",
+        "vágás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пласт (рыбы); вырезка, филе (мяса); отбивная котлета",
+        "{～にする} резать пластами (рыбу)"
+      ]
+    }
+  ]
+}

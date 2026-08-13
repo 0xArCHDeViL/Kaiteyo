@@ -1,0 +1,45 @@
+{
+  "id": "1757800",
+  "readings": [
+    {
+      "kanaExpression": "れいか",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "冷夏",
+      "furiganaExpression": [
+        {
+          "text": "冷",
+          "annotation": "れい"
+        },
+        {
+          "text": "夏",
+          "annotation": "か"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cool summer",
+        "cold summer",
+        "cooler-than-normal summer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ungewöhnlich kalter Sommer"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(un) verano fresco"
+      ]
+    }
+  ]
+}

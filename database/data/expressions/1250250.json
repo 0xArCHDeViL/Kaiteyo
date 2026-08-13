@@ -1,0 +1,63 @@
+{
+  "id": "1250250",
+  "readings": [
+    {
+      "kanaExpression": "けいがい",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "形骸",
+      "furiganaExpression": [
+        {
+          "text": "形",
+          "annotation": "けい"
+        },
+        {
+          "text": "骸",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(soulless) body",
+        "framework (of a building, etc.)",
+        "skeleton",
+        "remains",
+        "ruin",
+        "wreck",
+        "mere shell",
+        "mere name",
+        "dead letter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gerippe",
+        "Skelett",
+        "Gerüst",
+        "Ruine",
+        "geistloser Körper"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "összeomlás",
+        "tönkremenés",
+        "összetörés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) остов; скелет; каркас (здания); (обр.) обломки; развалины"
+      ]
+    }
+  ]
+}

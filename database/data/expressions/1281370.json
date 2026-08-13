@@ -1,0 +1,85 @@
+{
+  "id": "1281370",
+  "readings": [
+    {
+      "kanaExpression": "こうくうぼかん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "航空母艦",
+      "furiganaExpression": [
+        {
+          "text": "航",
+          "annotation": "こう"
+        },
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "母",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "艦",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "aircraft carrier"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vliegtuigmoederschip",
+        "vliegdekschip",
+        "vliegkampschip",
+        "carrier"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "porte-avions"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flugzeugträger",
+        "Flugzeugmutterschiff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "repülőgép-anyahajó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "авианосец"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "portaaviones"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hangarfartyg"
+      ]
+    }
+  ]
+}

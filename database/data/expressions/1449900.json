@@ -1,0 +1,88 @@
+{
+  "id": "1449900",
+  "readings": [
+    {
+      "kanaExpression": "とうらい",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "到来",
+      "furiganaExpression": [
+        {
+          "text": "到",
+          "annotation": "とう"
+        },
+        {
+          "text": "来",
+          "annotation": "らい"
+        }
+      ],
+      "rank": 7084
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "arrival",
+        "coming",
+        "advent"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "komst",
+        "het aanbreken",
+        "aanbreken",
+        "komen",
+        "zich voordoen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arrivée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ankunft",
+        "Eintreffen",
+        "ankommen",
+        "eintreffen",
+        "sich bieten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "befutás",
+        "megérkezés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) прибытие (чего-л. посланного)",
+        "{～する} приходить, прибывать, получаться",
+        "2) наступление (чего-л.)",
+        "{～する} наступать, приходить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "llegada"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ankomst"
+      ]
+    }
+  ]
+}

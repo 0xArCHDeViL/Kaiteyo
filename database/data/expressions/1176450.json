@@ -1,0 +1,69 @@
+{
+  "id": "1176450",
+  "readings": [
+    {
+      "kanaExpression": "えんしょう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "延焼",
+      "furiganaExpression": [
+        {
+          "text": "延",
+          "annotation": "えん"
+        },
+        {
+          "text": "焼",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spread of fire"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "brandoverslag",
+        "het overslaan van een brand",
+        "{炎が～} overslaan",
+        "om zich heen grijpen",
+        "{建物が～} vuur vatten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausbreitung eines Feuers",
+        "Übergreifen eines Feuers",
+        "sich ausbreiten",
+        "um sich greifen (Feuer)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tűz továbbterjedése"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "распространение огня (пламени)",
+        "{～する} распространяться (об огне)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "extensión (propagación) del fuego (incendio)"
+      ]
+    }
+  ]
+}

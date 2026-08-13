@@ -1,0 +1,69 @@
+{
+  "id": "1283280",
+  "readings": [
+    {
+      "kanaExpression": "こうおん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "高温",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "温",
+          "annotation": "おん"
+        }
+      ],
+      "rank": 11036
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high temperature"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoge temperatuur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "température élevée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hohe Temperatur"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "высокая температура"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "visoka temperatura",
+        "vročina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "temperatura alta",
+        "temperatura elevada"
+      ]
+    }
+  ]
+}

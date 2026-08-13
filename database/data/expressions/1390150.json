@@ -1,0 +1,78 @@
+{
+  "id": "1390150",
+  "readings": [
+    {
+      "kanaExpression": "せんか",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "戦火",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "火",
+          "annotation": "か"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wartime fire",
+        "war",
+        "wartime destruction",
+        "horrors of war"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oorlogsvuur",
+        "krijgsvuur",
+        "{fig.} oorlog",
+        "oorlogsgeweld",
+        "krijgsgeweld",
+        "vijandelijkheden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krieg",
+        "Kriegsbrand"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "háború"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) пожар войны"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "guerra"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "härnad",
+        "krig",
+        "ofred"
+      ]
+    }
+  ]
+}

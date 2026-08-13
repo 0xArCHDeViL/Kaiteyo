@@ -1,0 +1,92 @@
+{
+  "id": "1584710",
+  "readings": [
+    {
+      "kanaExpression": "もうしん"
+    },
+    {
+      "kanaExpression": "ぼうしん",
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "盲信",
+      "furiganaExpression": [
+        {
+          "text": "盲",
+          "annotation": "もう"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "妄信",
+      "furiganaExpression": [
+        {
+          "text": "妄",
+          "annotation": "もう"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 32039
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blind acceptance",
+        "blind belief",
+        "credulity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waangeloof",
+        "lichtgelovigheid",
+        "creduliteit"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "crédulité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "blind glauben",
+        "blinder Glaube"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hiszékenység"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) суеверие",
+        "2) ((тж.) 盲信) слепая вера; доверчивость; легковерие",
+        "{～する} слепо доверять; быть легковерным"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fe ciega",
+        "credulidad"
+      ]
+    }
+  ]
+}

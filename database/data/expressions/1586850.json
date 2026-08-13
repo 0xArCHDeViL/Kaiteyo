@@ -1,0 +1,107 @@
+{
+  "id": "1586850",
+  "readings": [
+    {
+      "kanaExpression": "あるいは",
+      "rank": 5440
+    },
+    {
+      "kanjiExpression": "或いは",
+      "furiganaExpression": [
+        {
+          "text": "或",
+          "annotation": "ある"
+        },
+        {
+          "text": "いは"
+        }
+      ],
+      "rank": 5440
+    },
+    {
+      "kanjiExpression": "或るいは",
+      "furiganaExpression": [
+        {
+          "text": "或",
+          "annotation": "あ"
+        },
+        {
+          "text": "るいは"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "or",
+        "either ... or",
+        "maybe",
+        "perhaps",
+        "possibly",
+        "some ... and others ...",
+        "sometimes ... and at other times ..."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "of",
+        "oftewel",
+        "sommigen … anderen …",
+        "nu eens … dan weer …",
+        "soms",
+        "misschien",
+        "mogelijk",
+        "mogelijkerwijs",
+        "wellicht"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ou",
+        "ou bien"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "oder",
+        "vielleicht",
+        "vermutlich",
+        "wahrscheinlich",
+        "wohl",
+        "eventuell",
+        "einige … und einige …",
+        "mal …, mal …"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "esetlegesen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "или",
+        "либо",
+        "возможно",
+        "пожалуй",
+        "1) или, либо",
+        "2) возможно, пожалуй",
+        "3) одни…, а другие"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ali",
+        "oziroma"
+      ]
+    }
+  ]
+}

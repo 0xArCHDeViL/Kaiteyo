@@ -1,0 +1,82 @@
+{
+  "id": "1222080",
+  "readings": [
+    {
+      "kanaExpression": "ききゅう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "気球",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "balloon (hot-air, weather, etc.)",
+        "blimp"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ballon",
+        "luchtballon",
+        "aërostaat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ballon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ballon",
+        "Luftballon",
+        "Heißluftballon",
+        "Heliumballon"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ballon",
+        "képregény bekeretezett szövege",
+        "léggömb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воздушный шар, аэростат; баллон"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "globo",
+        "dirigible"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ballong"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1471100",
+  "readings": [
+    {
+      "kanaExpression": "はろう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "波浪",
+      "furiganaExpression": [
+        {
+          "text": "波",
+          "annotation": "は"
+        },
+        {
+          "text": "浪",
+          "annotation": "ろう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "waves",
+        "billows",
+        "surge"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "houle",
+        "vagues"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wellen",
+        "Wogen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "habok",
+        "tenger"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "волны; вал, большая волна"
+      ]
+    }
+  ]
+}

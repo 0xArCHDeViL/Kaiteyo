@@ -1,0 +1,68 @@
+{
+  "id": "1161290",
+  "readings": [
+    {
+      "kanaExpression": "いっかく",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "一画",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "画",
+          "annotation": "かく"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "一劃",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "劃",
+          "annotation": "かく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one plot (of land)",
+        "one (city) block",
+        "one area",
+        "one lot",
+        "one brush stroke",
+        "one kanji stroke"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Pinselstrich",
+        "Abschnitt"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un terreno",
+        "una cuadra",
+        "un área",
+        "un ltoe",
+        "un trazo",
+        "un trazo de kanji",
+        "un lote"
+      ]
+    }
+  ]
+}

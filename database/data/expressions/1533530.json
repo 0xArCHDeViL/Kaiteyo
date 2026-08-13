@@ -1,0 +1,69 @@
+{
+  "id": "1533530",
+  "readings": [
+    {
+      "kanaExpression": "めんそう",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "面相",
+      "furiganaExpression": [
+        {
+          "text": "面",
+          "annotation": "めん"
+        },
+        {
+          "text": "相",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "countenance",
+        "features",
+        "looks"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gelaatsuitdrukking",
+        "gezichtsuitdrukking",
+        "uitdrukking",
+        "gelaatsexpressie",
+        "expressie",
+        "gelaatstrekken",
+        "trekken",
+        "schilderspenseel voor het uitwerken van gezichtsdetails"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Physiognomie",
+        "Erscheinungsbild",
+        "Miene",
+        "Gesichtsausdruck",
+        "Gesicht",
+        "Pinsel mit sehr feiner Spitze zum Zeichnen der Umrisse von Augenbrauen, Nase usw."
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tagoltság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "черты лица"
+      ]
+    }
+  ]
+}

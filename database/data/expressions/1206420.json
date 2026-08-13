@@ -1,0 +1,51 @@
+{
+  "id": "1206420",
+  "readings": [
+    {
+      "kanaExpression": "かくへき",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "隔壁",
+      "furiganaExpression": [
+        {
+          "text": "隔",
+          "annotation": "かく"
+        },
+        {
+          "text": "壁",
+          "annotation": "へき"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "barrier wall",
+        "bulkhead",
+        "partition",
+        "septum",
+        "diaphragm"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trennwand",
+        "Spundwand",
+        "Schott",
+        "Spant",
+        "Stirnwand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перегородка; переборка (на судне); перемычка (в руднике); общая стена (двух смежных зданий); (воен.) куртина"
+      ]
+    }
+  ]
+}

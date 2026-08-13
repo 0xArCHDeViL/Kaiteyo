@@ -1,0 +1,58 @@
+{
+  "id": "1287970",
+  "readings": [
+    {
+      "kanaExpression": "くろしお",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "黒潮",
+      "furiganaExpression": [
+        {
+          "text": "黒",
+          "annotation": "くろ"
+        },
+        {
+          "text": "潮",
+          "annotation": "しお"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Kuroshio Current",
+        "Japan Current"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Kuroshiostroom"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "courant japonais (courant maritime chaud au Sud-Est du Japon)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kuroshio-Strömung",
+        "Japan-Strömung",
+        "Schwarze Strömung (warme, salzreiche Meeresströmung des Pazifischen Ozeans auf der Ostseite der japan. Inseln)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kuro-sivo"
+      ]
+    }
+  ]
+}

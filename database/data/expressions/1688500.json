@@ -1,0 +1,83 @@
+{
+  "id": "1688500",
+  "readings": [
+    {
+      "kanaExpression": "よみにくい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "読みにくい",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "みにくい"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "読み悪い",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "悪",
+          "annotation": "にく"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "読み難い",
+      "furiganaExpression": [
+        {
+          "text": "読",
+          "annotation": "よ"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "難",
+          "annotation": "にく"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hard to read",
+        "illegible"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwer zu lesen",
+        "schwer lesbar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "трудный (о книге); неразборчивый (о почерке и т. п.)"
+      ]
+    }
+  ]
+}

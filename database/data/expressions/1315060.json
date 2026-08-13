@@ -1,0 +1,79 @@
+{
+  "id": "1315060",
+  "readings": [
+    {
+      "kanaExpression": "じどう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "児童",
+      "furiganaExpression": [
+        {
+          "text": "児",
+          "annotation": "じ"
+        },
+        {
+          "text": "童",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 2281
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "children",
+        "juvenile"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(onmondig) kind",
+        "onvolwassene",
+        "{verzameln.} jeugd",
+        "{jur.} minderjarige"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "enfants",
+        "juvénile"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kind",
+        "Jungen und Mädchen",
+        "Schulkind"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyerek",
+        "gyerekek",
+        "gyermek",
+        "fiatal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ребёнок; дети",
+        "{～[の]} детский"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "niños",
+        "juvenil"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1533900",
+  "readings": [
+    {
+      "kanaExpression": "もうとう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "毛頭",
+      "furiganaExpression": [
+        {
+          "text": "毛",
+          "annotation": "もう"
+        },
+        {
+          "text": "頭",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(not) in the least",
+        "(not) at all",
+        "(not) a bit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nicht im geringsten",
+        "keineswegs",
+        "keinerlei",
+        "überhaupt nicht",
+        "in keinerlei Hinsicht",
+        "beileibe nicht",
+        "nie und nimmer (mit Verneinung gebildet)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egy cseppet sem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(с отриц.) ни на волос, ни на йоту; ни в малейшей степени"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "inte minst"
+      ]
+    }
+  ]
+}

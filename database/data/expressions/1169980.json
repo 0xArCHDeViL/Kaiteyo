@@ -1,0 +1,71 @@
+{
+  "id": "1169980",
+  "readings": [
+    {
+      "kanaExpression": "いんよう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "飲用",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "いん"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drinking"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "drinken",
+        "{～の} drinkbaar",
+        "geschikt om te drinken",
+        "drink-",
+        "{geneesk.} voor inwendig gebruik"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "trinkbar",
+        "zum Trinken",
+        "trinken",
+        "Trinkbarkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "italozás",
+        "részegeskedés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} для питья, питьевой; внутреннее (о лекарстве)",
+        "{～する} пить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bebible",
+        "potable"
+      ]
+    }
+  ]
+}

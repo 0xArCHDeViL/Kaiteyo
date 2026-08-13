@@ -1,0 +1,65 @@
+{
+  "id": "1643190",
+  "readings": [
+    {
+      "kanaExpression": "にわし",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "庭師",
+      "furiganaExpression": [
+        {
+          "text": "庭",
+          "annotation": "にわ"
+        },
+        {
+          "text": "師",
+          "annotation": "し"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gardener"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hovenier",
+        "tuinarchitect"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gärtner",
+        "Gartenbaukünstler",
+        "Landschaftsgärtner",
+        "Landschaftsdesigner"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kertész"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "садовник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "jardinero"
+      ]
+    }
+  ]
+}

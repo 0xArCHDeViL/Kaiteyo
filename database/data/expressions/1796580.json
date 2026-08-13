@@ -1,0 +1,53 @@
+{
+  "id": "1796580",
+  "readings": [
+    {
+      "kanaExpression": "やくよう",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "薬用",
+      "furiganaExpression": [
+        {
+          "text": "薬",
+          "annotation": "やく"
+        },
+        {
+          "text": "用",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "medicinal use"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "medicinaal gebruik",
+        "gebruik als geneesmiddel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "medizinisch",
+        "Medizin…",
+        "Heil…",
+        "medizinische Verwendung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} лекарственный; лечебный"
+      ]
+    }
+  ]
+}

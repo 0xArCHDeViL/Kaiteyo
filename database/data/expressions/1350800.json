@@ -1,0 +1,92 @@
+{
+  "id": "1350800",
+  "readings": [
+    {
+      "kanaExpression": "しょうそう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "焦燥",
+      "furiganaExpression": [
+        {
+          "text": "焦",
+          "annotation": "しょう"
+        },
+        {
+          "text": "燥",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "焦躁",
+      "furiganaExpression": [
+        {
+          "text": "焦",
+          "annotation": "しょう"
+        },
+        {
+          "text": "躁",
+          "annotation": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "impatience",
+        "irritation",
+        "frustration",
+        "fretfulness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kribbigheid",
+        "geïrriteerdheid",
+        "geprikkeldheid",
+        "irritatie",
+        "geraaktheid",
+        "ergernis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "agitation nerveuse",
+        "hâte",
+        "impatience"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ungeduld",
+        "Hast",
+        "Unruhe",
+        "Nervosität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bosszúság",
+        "ingerlés",
+        "ingerültség",
+        "izgatás",
+        "türelmetlenség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нетерпение; беспокойство",
+        "{～する} быть в нетерпении; быть в раздражённом (беспокойном) состоянии; суетиться, нервничать"
+      ]
+    }
+  ]
+}

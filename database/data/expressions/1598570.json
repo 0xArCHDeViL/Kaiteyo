@@ -1,0 +1,62 @@
+{
+  "id": "1598570",
+  "readings": [
+    {
+      "kanaExpression": "でそろう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "出そろう",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "そろう"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "出揃う",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "揃",
+          "annotation": "そろ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to appear all together",
+        "to be all present"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich vollständig versammeln",
+        "vollzählig da sein",
+        "bereit sein",
+        "zusammen haben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "появляться (выходить, выступать) в полном составе; быть налицо (о группе лиц)"
+      ]
+    }
+  ]
+}

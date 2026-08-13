@@ -1,0 +1,55 @@
+{
+  "id": "1609930",
+  "readings": [
+    {
+      "kanaExpression": "しゅうきゅう",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "週休",
+      "furiganaExpression": [
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "休",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weekly holiday"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "fermeture hebdomadaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "freier Tag in der Woche"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "недельный отдых (отпуск)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "días de descanso a la semana"
+      ]
+    }
+  ]
+}

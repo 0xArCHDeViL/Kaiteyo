@@ -1,0 +1,72 @@
+{
+  "id": "1299290",
+  "readings": [
+    {
+      "kanaExpression": "ざっか",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "雑貨",
+      "furiganaExpression": [
+        {
+          "text": "雑",
+          "annotation": "ざっ"
+        },
+        {
+          "text": "貨",
+          "annotation": "か"
+        }
+      ],
+      "rank": 5231
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "miscellaneous goods",
+        "general goods",
+        "sundries"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ongeregelde goederen",
+        "allerlei waren",
+        "diversen",
+        "varia",
+        "drogerijen",
+        "kruidenierswaren",
+        "grutterswaren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gemischtwaren",
+        "Haushaltswaren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "различные товары; бакалея"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ostanki (blaga)",
+        "posebni izdelki",
+        "mešane dobrine"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "misceláneos"
+      ]
+    }
+  ]
+}

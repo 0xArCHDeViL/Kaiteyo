@@ -1,0 +1,84 @@
+{
+  "id": "1227320",
+  "readings": [
+    {
+      "kanaExpression": "きゅうりょう",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "丘陵",
+      "furiganaExpression": [
+        {
+          "text": "丘",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "陵",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hill",
+        "hillock",
+        "rolling hills",
+        "foothills"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "heuvel",
+        "hoogte",
+        "kop(je)",
+        "boekit",
+        "{Ind.N.",
+        "soldatent.} tjot",
+        "{lit.t.",
+        "veroud.} kling"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "colline"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hügel",
+        "Hügelkette"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "domb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "холм; курган; высота, возвышенность"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "colina"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "backe"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "1392370",
+  "readings": [
+    {
+      "kanaExpression": "せんにん",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "選任",
+      "furiganaExpression": [
+        {
+          "text": "選",
+          "annotation": "せん"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 6586
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nomination (of a person to a position)",
+        "selection",
+        "election",
+        "assignment",
+        "appointment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verkiezen",
+        "benoemen",
+        "aanstellen",
+        "verkiezing",
+        "benoeming",
+        "aanstelling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ernennen",
+        "berufen",
+        "einsetzen",
+        "wählen",
+        "Ernennung",
+        "Anstellung",
+        "Berufung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "választás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "избрание и назначение",
+        "{～する} [избирать и] назначать"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "inval"
+      ]
+    }
+  ]
+}

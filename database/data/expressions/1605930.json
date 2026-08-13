@@ -1,0 +1,69 @@
+{
+  "id": "1605930",
+  "readings": [
+    {
+      "kanaExpression": "よせい",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "余生",
+      "furiganaExpression": [
+        {
+          "text": "余",
+          "annotation": "よ"
+        },
+        {
+          "text": "生",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "余世",
+      "furiganaExpression": [
+        {
+          "text": "余",
+          "annotation": "よ"
+        },
+        {
+          "text": "世",
+          "annotation": "せい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s remaining years",
+        "the rest of one\u0027s life"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leven dat nog rest",
+        "rest van z\u0027n leven",
+        "resterend leven",
+        "verdere leven",
+        "{i.h.b.} oude dag",
+        "latere jaren"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lebensabend",
+        "Rest des Lebens"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "остаток (последние годы) жизни, остаток [своих] дней"
+      ]
+    }
+  ]
+}

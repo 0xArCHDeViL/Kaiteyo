@@ -1,0 +1,86 @@
+{
+  "id": "1391340",
+  "readings": [
+    {
+      "kanaExpression": "せんすいかん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "潜水艦",
+      "furiganaExpression": [
+        {
+          "text": "潜",
+          "annotation": "せん"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "艦",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 8263
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "submarine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "duikboot",
+        "onderzeeboot",
+        "onderzeeër"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sous-marin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "U-Boot",
+        "Unterseeboot"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tenger alatti"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подводная лодка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "podmornica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "submarino"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ubåt"
+      ]
+    }
+  ]
+}

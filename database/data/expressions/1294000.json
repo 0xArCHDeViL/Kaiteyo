@@ -1,0 +1,80 @@
+{
+  "id": "1294000",
+  "readings": [
+    {
+      "kanaExpression": "さいしょう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "最小",
+      "furiganaExpression": [
+        {
+          "text": "最",
+          "annotation": "さい"
+        },
+        {
+          "text": "小",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 7181
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "smallest (in size, degree, etc.)",
+        "least",
+        "minimum",
+        "minimal"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleinst",
+        "minimum-",
+        "minimaal",
+        "kleinste",
+        "minimum"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "minimum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kleinst",
+        "minimal",
+        "wenigst"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "legcsekélyebb",
+        "legjelentéktelenebb",
+        "legkevesebb",
+        "legkisebb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} самый малый, наименьший, минимальный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "más pequeño",
+        "al mínimo"
+      ]
+    }
+  ]
+}

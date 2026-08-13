@@ -1,0 +1,51 @@
+{
+  "id": "1580010",
+  "readings": [
+    {
+      "kanaExpression": "しゅつりょう",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "しゅつぎょ"
+    },
+    {
+      "kanjiExpression": "出漁",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "しゅつ"
+        },
+        {
+          "text": "漁",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "going fishing",
+        "going out to fish"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zum Fischfang fahren",
+        "Fischfang",
+        "Ausfahren zum Fischfang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выход (судов) на лов [рыбы]",
+        "{～する} выходить (отправляться) на лов [рыбы]",
+        "(см.) しゅつぎょ【出漁】"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1583650",
+  "readings": [
+    {
+      "kanaExpression": "ふしゃ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ふうしゃ"
+    },
+    {
+      "kanjiExpression": "富者",
+      "furiganaExpression": [
+        {
+          "text": "富",
+          "annotation": "ふ"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rich person",
+        "millionaire",
+        "the wealthy"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "millionnaire",
+        "riche",
+        "les puissants"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reicher",
+        "Wohlhabender"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "milliomos"
+      ]
+    }
+  ]
+}

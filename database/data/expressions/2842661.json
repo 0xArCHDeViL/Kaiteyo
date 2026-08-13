@@ -1,0 +1,46 @@
+{
+  "id": "2842661",
+  "readings": [
+    {
+      "kanaExpression": "おみせ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お店",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "店",
+          "annotation": "みせ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御店",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "店",
+          "annotation": "みせ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "store",
+        "shop",
+        "establishment",
+        "restaurant"
+      ]
+    }
+  ]
+}

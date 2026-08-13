@@ -1,0 +1,81 @@
+{
+  "id": "1610750",
+  "readings": [
+    {
+      "kanaExpression": "つめきり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "爪切り",
+      "furiganaExpression": [
+        {
+          "text": "爪",
+          "annotation": "つめ"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "爪切",
+      "furiganaExpression": [
+        {
+          "text": "爪",
+          "annotation": "つめ"
+        },
+        {
+          "text": "切",
+          "annotation": "きり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nail clippers"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nagelknipper",
+        "nagelschaar",
+        "nagelschaartje",
+        "nageltang"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "coupe-ongles"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nagelknipser",
+        "Nagelschere"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кусачки для ногтей"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cortauñas"
+      ]
+    }
+  ]
+}

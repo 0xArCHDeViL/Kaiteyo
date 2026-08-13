@@ -1,0 +1,101 @@
+{
+  "id": "1309790",
+  "readings": [
+    {
+      "kanaExpression": "ゆびさす",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "指差す",
+      "furiganaExpression": [
+        {
+          "text": "指",
+          "annotation": "ゆび"
+        },
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "指さす",
+      "furiganaExpression": [
+        {
+          "text": "指",
+          "annotation": "ゆび"
+        },
+        {
+          "text": "さす"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "指指す",
+      "furiganaExpression": [
+        {
+          "text": "指",
+          "annotation": "ゆび"
+        },
+        {
+          "text": "指",
+          "annotation": "さ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to point at"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "met de vinger wijzen",
+        "nawijzen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "montrer du doigt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zeigen auf …",
+        "deuten auf … (mit dem Finger)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ujjal mutat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(を) указывать пальцем на (кого-что-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "señalar",
+        "cerciorarse apuntando con el dedo"
+      ]
+    }
+  ]
+}

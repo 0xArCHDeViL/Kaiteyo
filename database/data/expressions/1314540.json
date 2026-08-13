@@ -1,0 +1,69 @@
+{
+  "id": "1314540",
+  "readings": [
+    {
+      "kanaExpression": "じれい",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "事例",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 1976
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "example",
+        "precedent",
+        "case"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorbeeld",
+        "geval",
+        "casus",
+        "precedent",
+        "{Belg.N.",
+        "niet alg.} voorgaande"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fallbeispiel",
+        "Beispiel",
+        "Präzedenzfall",
+        "Fall",
+        "Kasus",
+        "Sachverhalt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "esettanulmány",
+        "precedens",
+        "példa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) пример, прецедент"
+      ]
+    }
+  ]
+}

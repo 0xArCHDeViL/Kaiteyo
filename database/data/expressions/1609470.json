@@ -1,0 +1,91 @@
+{
+  "id": "1609470",
+  "readings": [
+    {
+      "kanaExpression": "かあさん",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "かかさん"
+    },
+    {
+      "kanjiExpression": "母さん",
+      "furiganaExpression": [
+        {
+          "text": "母",
+          "annotation": "かあ"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "rank": 8215
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mother",
+        "wife"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moeder",
+        "mamma",
+        "ma",
+        "mams"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mère"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(die eigene)Mutti",
+        "ich (Selbstbezeichnung einer Mutter)",
+        "Mutti (Bezeichnung für die eigene Ehefrau)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anya-",
+        "forrás",
+        "létrehozó",
+        "mama",
+        "szülőanya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) おかあさん"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "mati (spošt. pogovorno)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "madre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mamma"
+      ]
+    }
+  ]
+}

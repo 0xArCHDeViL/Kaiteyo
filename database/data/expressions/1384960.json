@@ -1,0 +1,103 @@
+{
+  "id": "1384960",
+  "readings": [
+    {
+      "kanaExpression": "きりは",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "切羽",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "羽",
+          "annotation": "は"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "切り羽",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "羽",
+          "annotation": "は"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "切端",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "端",
+          "annotation": "は"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "切り端",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "端",
+          "annotation": "は"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "face",
+        "working face"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mijnb.} kolenfront"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Streb",
+        "Abbauort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szenelő front",
+        "szénfront"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(горн.) забой, плоскость забоя"
+      ]
+    }
+  ]
+}

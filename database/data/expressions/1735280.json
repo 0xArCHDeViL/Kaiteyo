@@ -1,0 +1,57 @@
+{
+  "id": "1735280",
+  "readings": [
+    {
+      "kanaExpression": "まさき"
+    },
+    {
+      "kanaExpression": "マサキ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "正木",
+      "furiganaExpression": [
+        {
+          "text": "正",
+          "annotation": "まさ"
+        },
+        {
+          "text": "木",
+          "annotation": "き"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "柾",
+      "furiganaExpression": [
+        {
+          "text": "柾",
+          "annotation": "まさき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese spindletree (Euonymus japonicus)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spindelbaum",
+        "Euonymus japonicus",
+        "Masaki"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "эвонимус японский, Evonymus japonica (Thunb. (вечнозелёный декоративный кустарник)"
+      ]
+    }
+  ]
+}

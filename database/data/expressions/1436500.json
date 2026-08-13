@@ -1,0 +1,52 @@
+{
+  "id": "1436500",
+  "readings": [
+    {
+      "kanaExpression": "ていせん",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "みぎわせん"
+    },
+    {
+      "kanjiExpression": "汀線",
+      "furiganaExpression": [
+        {
+          "text": "汀",
+          "annotation": "てい"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shoreline",
+        "beach line"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Uferlinie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "partvonal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) береговая линия"
+      ]
+    }
+  ]
+}

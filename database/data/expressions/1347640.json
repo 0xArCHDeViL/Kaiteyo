@@ -1,0 +1,113 @@
+{
+  "id": "1347640",
+  "readings": [
+    {
+      "kanaExpression": "しょうぎ",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "将棋",
+      "furiganaExpression": [
+        {
+          "text": "将",
+          "annotation": "しょう"
+        },
+        {
+          "text": "棋",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 6785
+    },
+    {
+      "kanjiExpression": "象棋",
+      "furiganaExpression": [
+        {
+          "text": "象",
+          "annotation": "しょう"
+        },
+        {
+          "text": "棋",
+          "annotation": "ぎ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "象戯",
+      "furiganaExpression": [
+        {
+          "text": "象",
+          "annotation": "しょう"
+        },
+        {
+          "text": "戯",
+          "annotation": "ぎ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "将棊",
+      "furiganaExpression": [
+        {
+          "text": "将",
+          "annotation": "しょう"
+        },
+        {
+          "text": "棊",
+          "annotation": "ぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shogi",
+        "Japanese chess"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "shogi",
+        "Japans schaakspel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "shôgi (échecs japonais)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Shōgi (Art japanisches Schachspiel)",
+        "Xiangqi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сёги (kj)",
+        "шоги (японские шахматы)",
+        "1) японские шахматы",
+        "2) шахматная фигура"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "šogi",
+        "japonski šah"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ajedrez japonés"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1476120",
+  "readings": [
+    {
+      "kanaExpression": "ばくが",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "麦芽",
+      "furiganaExpression": [
+        {
+          "text": "麦",
+          "annotation": "ばく"
+        },
+        {
+          "text": "芽",
+          "annotation": "が"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "malt"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mout",
+        "{gew.} malt"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "malt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Malz",
+        "Weizenkeim"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "maláta"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "солод"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "malta"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "malt",
+        "mälta"
+      ]
+    }
+  ]
+}

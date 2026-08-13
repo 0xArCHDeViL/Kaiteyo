@@ -1,0 +1,48 @@
+{
+  "id": "1953230",
+  "readings": [
+    {
+      "kanaExpression": "ふながいしゃ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "船会社",
+      "furiganaExpression": [
+        {
+          "text": "船",
+          "annotation": "ふな"
+        },
+        {
+          "text": "会",
+          "annotation": "がい"
+        },
+        {
+          "text": "社",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "steamship (shipping) company"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schifffahrtsgesellschaft",
+        "Reederei"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пароходная компания, пароходство, судовладельческое предприятие"
+      ]
+    }
+  ]
+}

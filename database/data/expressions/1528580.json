@@ -1,0 +1,52 @@
+{
+  "id": "1528580",
+  "readings": [
+    {
+      "kanaExpression": "みんい",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "民意",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "popular will",
+        "will of the people"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wille des Volkes",
+        "öffentliche Meinung",
+        "Volksmeinung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воля (желание) народа"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voluntad popular"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2746180",
+  "readings": [
+    {
+      "kanaExpression": "かんこうスポット",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "観光スポット",
+      "furiganaExpression": [
+        {
+          "text": "観",
+          "annotation": "かん"
+        },
+        {
+          "text": "光",
+          "annotation": "こう"
+        },
+        {
+          "text": "スポット"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tourist attraction",
+        "sight-seeing area"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Touristikregion",
+        "Tourismuszentrum",
+        "Touristenattraktion"
+      ]
+    }
+  ]
+}

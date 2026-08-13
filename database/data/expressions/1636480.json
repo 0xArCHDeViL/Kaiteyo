@@ -1,0 +1,55 @@
+{
+  "id": "1636480",
+  "readings": [
+    {
+      "kanaExpression": "かさなり",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "重なり",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "かさ"
+        },
+        {
+          "text": "なり"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "overlapping",
+        "piling",
+        "stacking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überschneidung",
+        "Überlappung",
+        "Haufen",
+        "Stapel",
+        "Stoß"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átfedő",
+        "egymást részben fedő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "груда, куча"
+      ]
+    }
+  ]
+}

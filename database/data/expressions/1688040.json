@@ -1,0 +1,58 @@
+{
+  "id": "1688040",
+  "readings": [
+    {
+      "kanaExpression": "どうばん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "銅板",
+      "furiganaExpression": [
+        {
+          "text": "銅",
+          "annotation": "どう"
+        },
+        {
+          "text": "板",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sheet copper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "koperen plaat",
+        "koperplaat",
+        "koperblad"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kupferblech",
+        "Kupferplatte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "медный лист; листовая медь"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kopparplåt"
+      ]
+    }
+  ]
+}

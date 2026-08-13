@@ -1,0 +1,70 @@
+{
+  "id": "1400020",
+  "readings": [
+    {
+      "kanaExpression": "そうぎょう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "操業",
+      "furiganaExpression": [
+        {
+          "text": "操",
+          "annotation": "そう"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        }
+      ],
+      "rank": 11983
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "operation (of a machine, factory, fishing boat, etc.)",
+        "work"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bedrijf",
+        "werking",
+        "werk",
+        "praktijken",
+        "werkzaamheden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "arbeiten",
+        "Arbeit",
+        "Operation",
+        "Betrieb (von Maschinen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "üzemeltetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "работа (завода, предприятия и т. п.)",
+        "{～する} работать (о предприятии), действовать, функционировать"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "operation"
+      ]
+    }
+  ]
+}

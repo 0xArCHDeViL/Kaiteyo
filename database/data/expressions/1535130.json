@@ -1,0 +1,69 @@
+{
+  "id": "1535130",
+  "readings": [
+    {
+      "kanaExpression": "めざわり",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "目障り",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "め"
+        },
+        {
+          "text": "障",
+          "annotation": "ざわ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "目ざわり",
+      "furiganaExpression": [
+        {
+          "text": "目",
+          "annotation": "め"
+        },
+        {
+          "text": "ざわり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eyesore",
+        "unpleasant sight",
+        "obstructing a view"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sichtbehinderung",
+        "Schandfleck",
+        "Beleidigung für das Auge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szemet sértő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(обр.) бельмо на глазу",
+        "{～になる} мозолить глаза; стать бельмом на глазу"
+      ]
+    }
+  ]
+}

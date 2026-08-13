@@ -1,0 +1,57 @@
+{
+  "id": "1930070",
+  "readings": [
+    {
+      "kanaExpression": "いぞんしょう",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "いそんしょう"
+    },
+    {
+      "kanjiExpression": "依存症",
+      "furiganaExpression": [
+        {
+          "text": "依",
+          "annotation": "い"
+        },
+        {
+          "text": "存",
+          "annotation": "ぞん"
+        },
+        {
+          "text": "症",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dependence (on alcohol, drugs, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "krankhafte Abhängigkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "függőség"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(alcohol, droga) dependencia",
+        "dependencia morbosa (del alcohol)"
+      ]
+    }
+  ]
+}

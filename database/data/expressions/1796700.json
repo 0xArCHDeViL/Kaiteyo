@@ -1,0 +1,44 @@
+{
+  "id": "1796700",
+  "readings": [
+    {
+      "kanaExpression": "やくがい",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "薬害",
+      "furiganaExpression": [
+        {
+          "text": "薬",
+          "annotation": "やく"
+        },
+        {
+          "text": "害",
+          "annotation": "がい"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "harmful side effects of a medicine or drug"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Medikamentenschaden",
+        "Pestizidschaden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вред от лекарства; вред, приносимый химикалиями"
+      ]
+    }
+  ]
+}

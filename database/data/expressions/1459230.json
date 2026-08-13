@@ -1,0 +1,75 @@
+{
+  "id": "1459230",
+  "readings": [
+    {
+      "kanaExpression": "ないみつ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "内密",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "密",
+          "annotation": "みつ"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "privacy",
+        "secrecy",
+        "confidentiality"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vertrouwelijk",
+        "geheim",
+        "onderhands",
+        "besloten",
+        "privé",
+        "confidentieel",
+        "vertrouwelijkheid",
+        "geheimhouding",
+        "beslotenheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geheim",
+        "vertraulich",
+        "informell",
+        "Heimlichkeit",
+        "Verschwiegenheit",
+        "Geheimhaltung",
+        "Verheimlichung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elvonultság",
+        "magány",
+        "diszkréció",
+        "titoktartás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "секрет, тайна",
+        "{～の} секретный, тайный, конфиденциальный"
+      ]
+    }
+  ]
+}

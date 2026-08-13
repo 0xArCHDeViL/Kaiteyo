@@ -1,0 +1,44 @@
+{
+  "id": "1703510",
+  "readings": [
+    {
+      "kanaExpression": "とうむ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "党務",
+      "furiganaExpression": [
+        {
+          "text": "党",
+          "annotation": "とう"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "party business"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Parteiverwaltung",
+        "Parteiangelegenheiten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "партийные дела"
+      ]
+    }
+  ]
+}

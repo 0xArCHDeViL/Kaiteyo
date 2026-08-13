@@ -1,0 +1,50 @@
+{
+  "id": "1332770",
+  "readings": [
+    {
+      "kanaExpression": "しゅうえん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "終演",
+      "furiganaExpression": [
+        {
+          "text": "終",
+          "annotation": "しゅう"
+        },
+        {
+          "text": "演",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "end of a performance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "einde der voorstelling",
+        "afloop van de show"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ende einer Aufführung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "конец спектакля (представления)"
+      ]
+    }
+  ]
+}

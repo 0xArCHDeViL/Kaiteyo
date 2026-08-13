@@ -1,0 +1,46 @@
+{
+  "id": "1658900",
+  "readings": [
+    {
+      "kanaExpression": "しゃちゅう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "車中",
+      "furiganaExpression": [
+        {
+          "text": "車",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in a train (car, bus, etc.)",
+        "on a train"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "im Zug",
+        "im Auto",
+        "im Wagen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～で} в поезде, в вагоне (и т. п.)"
+      ]
+    }
+  ]
+}

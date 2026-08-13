@@ -1,0 +1,56 @@
+{
+  "id": "1365210",
+  "readings": [
+    {
+      "kanaExpression": "おやゆずり",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "親譲り",
+      "furiganaExpression": [
+        {
+          "text": "親",
+          "annotation": "おや"
+        },
+        {
+          "text": "譲",
+          "annotation": "ゆず"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inheritance from a parent (property, trait, physique, etc.)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "héréditaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "von den Eltern ererbt",
+        "von den Eltern geerbt",
+        "Erbschaft von den Eltern",
+        "elterliches Erbe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "наследство от родителей",
+        "{～の} доставшийся по наследству от родителей, наследственный"
+      ]
+    }
+  ]
+}

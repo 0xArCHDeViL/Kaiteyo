@@ -1,0 +1,75 @@
+{
+  "id": "1280380",
+  "readings": [
+    {
+      "kanaExpression": "こうきょ",
+      "rank": 18500
+    },
+    {
+      "kanaExpression": "こうぎょ"
+    },
+    {
+      "kanjiExpression": "皇居",
+      "furiganaExpression": [
+        {
+          "text": "皇",
+          "annotation": "こう"
+        },
+        {
+          "text": "居",
+          "annotation": "きょ"
+        }
+      ],
+      "rank": 18500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Imperial Palace (of Japan)",
+        "imperial residence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keizerlijk paleis",
+        "keizerlijke residentie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "palais impérial"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kaiserliche Residenz",
+        "kaiserlicher Palast",
+        "kaiserliches Schloss",
+        "Sitz des Kaisers"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "императорский дворец"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "cesarska palača"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "palacio imperial"
+      ]
+    }
+  ]
+}

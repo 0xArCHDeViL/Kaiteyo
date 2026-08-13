@@ -1,0 +1,72 @@
+{
+  "id": "1404120",
+  "readings": [
+    {
+      "kanaExpression": "そくおう",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "即応",
+      "furiganaExpression": [
+        {
+          "text": "即",
+          "annotation": "そく"
+        },
+        {
+          "text": "応",
+          "annotation": "おう"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "compliance",
+        "conformance",
+        "adaptation",
+        "(immediate) response",
+        "(rapid) reaction"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beantwoorden aan",
+        "zich aanpassen aan",
+        "inspelen op",
+        "onmiddellijk reageren",
+        "overeenstemming",
+        "afstemming",
+        "aanpassing",
+        "onmiddellijke respons"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "genaue Übereinstimmung",
+        "Entsprechung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átdolgozás",
+        "hozzáalkalmazás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) соответствие, согласованность",
+        "{～する} соответствовать, согласоваться",
+        "{…に～して} в соответствии (в согласии) с (чем-л.)",
+        "2): {～する} немедленно отозваться; быстро удовлетворить (напр. чьи-л. нужды)",
+        "3): {～する} применяться, приспособляться"
+      ]
+    }
+  ]
+}

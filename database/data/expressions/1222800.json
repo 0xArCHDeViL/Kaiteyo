@@ -1,0 +1,78 @@
+{
+  "id": "1222800",
+  "readings": [
+    {
+      "kanaExpression": "きねん",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "祈念",
+      "furiganaExpression": [
+        {
+          "text": "祈",
+          "annotation": "き"
+        },
+        {
+          "text": "念",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prayer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gebed",
+        "bidden"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prière",
+        "vœu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gebet"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ima",
+        "imádság",
+        "könyörgés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) молитва, мольба",
+        "{～する} молить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oración"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bön"
+      ]
+    }
+  ]
+}

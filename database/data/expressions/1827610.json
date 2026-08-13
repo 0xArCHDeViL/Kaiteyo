@@ -1,0 +1,43 @@
+{
+  "id": "1827610",
+  "readings": [
+    {
+      "kanaExpression": "ふっこう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "復交",
+      "furiganaExpression": [
+        {
+          "text": "復",
+          "annotation": "ふっ"
+        },
+        {
+          "text": "交",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "restoration of diplomatic relations"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wiederaufnahme diplomatischer Beziehungen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "восстановление сношений"
+      ]
+    }
+  ]
+}

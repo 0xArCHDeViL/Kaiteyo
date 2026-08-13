@@ -1,0 +1,51 @@
+{
+  "id": "1276970",
+  "readings": [
+    {
+      "kanaExpression": "くちやくそく",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "口約束",
+      "furiganaExpression": [
+        {
+          "text": "口",
+          "annotation": "くち"
+        },
+        {
+          "text": "約",
+          "annotation": "やく"
+        },
+        {
+          "text": "束",
+          "annotation": "そく"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "verbal promise",
+        "one\u0027s word"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mündliches Versprechen",
+        "mündliche Verabredung",
+        "mündlicher Vertrag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "устное обещание; устная договорённость",
+        "{～をする} обещать устно, давать слово"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1661940",
+  "readings": [
+    {
+      "kanaExpression": "うぶごえ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "産声",
+      "furiganaExpression": [
+        {
+          "text": "産",
+          "annotation": "うぶ"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "うぶ声",
+      "furiganaExpression": [
+        {
+          "text": "うぶ"
+        },
+        {
+          "text": "声",
+          "annotation": "ごえ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first cry of a newborn baby"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerste schreeuw van een pasgeboren baby",
+        "geboorteschreeuw"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erster Schrei eines Babys"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "первый крик ребёнка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "primer llanto del bebé"
+      ]
+    }
+  ]
+}

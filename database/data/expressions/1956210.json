@@ -1,0 +1,56 @@
+{
+  "id": "1956210",
+  "readings": [
+    {
+      "kanaExpression": "けつ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "決",
+      "furiganaExpression": [
+        {
+          "text": "決",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "decision",
+        "vote"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beslissing",
+        "stemming"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entscheidung",
+        "Abstimmung",
+        "Hammelsprung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szavazás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) решение",
+        "2) голосование, баллотировка"
+      ]
+    }
+  ]
+}

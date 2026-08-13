@@ -1,0 +1,89 @@
+{
+  "id": "1584030",
+  "readings": [
+    {
+      "kanaExpression": "ぼせき",
+      "rank": 26000
+    },
+    {
+      "kanaExpression": "はかいし"
+    },
+    {
+      "kanjiExpression": "墓石",
+      "furiganaExpression": [
+        {
+          "text": "墓",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "石",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tombstone",
+        "gravestone"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grafzerk",
+        "zerk",
+        "grafsteen",
+        "grafgesteente",
+        "graftombe",
+        "lijksteen",
+        "{verk.} steen",
+        "{lit.t.} lijkgesteente",
+        "epitafium",
+        "matseive",
+        "matseva"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pierre tombale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Grabstein",
+        "Grabmal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sírkő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "могильный камень, могильная плита",
+        "могильная плита"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lápida"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "gravsten"
+      ]
+    }
+  ]
+}

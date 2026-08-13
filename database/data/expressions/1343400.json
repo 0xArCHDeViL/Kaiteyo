@@ -1,0 +1,69 @@
+{
+  "id": "1343400",
+  "readings": [
+    {
+      "kanaExpression": "しょゆうけん",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "所有権",
+      "furiganaExpression": [
+        {
+          "text": "所",
+          "annotation": "しょ"
+        },
+        {
+          "text": "有",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "権",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ownership",
+        "dominion",
+        "ownership rights",
+        "proprietorship",
+        "property rights"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eigendomsrecht",
+        "titel van eigendom",
+        "eigendom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Eigentumsrecht",
+        "Eigentum"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tulajdon",
+        "tulajdonjog",
+        "uralkodás",
+        "uralom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "право собственности"
+      ]
+    }
+  ]
+}

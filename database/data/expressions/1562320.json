@@ -1,0 +1,82 @@
+{
+  "id": "1562320",
+  "readings": [
+    {
+      "kanaExpression": "はなしこむ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "話し込む",
+      "furiganaExpression": [
+        {
+          "text": "話",
+          "annotation": "はな"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "話込む",
+      "furiganaExpression": [
+        {
+          "text": "話",
+          "annotation": "はなし"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be deep in talk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "être en pleine conversation",
+        "bavarder longtemps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich lange unterhalten",
+        "ein langes Gespräch haben",
+        "sich in ein Gespräch vertiefen",
+        "sich verplaudern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заводить долгий разговор"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dialogar por largo tiempo"
+      ]
+    }
+  ]
+}

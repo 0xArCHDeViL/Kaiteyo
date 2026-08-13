@@ -1,0 +1,52 @@
+{
+  "id": "1560360",
+  "readings": [
+    {
+      "kanaExpression": "ろうちん",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "労賃",
+      "furiganaExpression": [
+        {
+          "text": "労",
+          "annotation": "ろう"
+        },
+        {
+          "text": "賃",
+          "annotation": "ちん"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wages"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitslohn",
+        "Lohn",
+        "Gehalt",
+        "Bezahlung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kereset"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заработная плата"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1302130",
+  "readings": [
+    {
+      "kanaExpression": "さんが",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "参賀",
+      "furiganaExpression": [
+        {
+          "text": "参",
+          "annotation": "さん"
+        },
+        {
+          "text": "賀",
+          "annotation": "が"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "congratulatory visit to the Imperial Palace (e.g. at New Year)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zum Kaiserpalast gehen, um seine Gratulation zu entbieten",
+        "Besuch beim kaiserlichen Palast anlässlich der Gratulation zu Neujahr oder zu Kaisers Geburtstag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) посещение императорского дворца с поздравлением"
+      ]
+    }
+  ]
+}

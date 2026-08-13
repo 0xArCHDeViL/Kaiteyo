@@ -1,0 +1,44 @@
+{
+  "id": "1458680",
+  "readings": [
+    {
+      "kanaExpression": "ないそう",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "内奏",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "奏",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "secret report to the emperor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vertraulicher Bericht an den Tennō"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) секретный (неофициальный) доклад [императору]",
+        "{～する} секретно (неофициально) докладывать [императору]"
+      ]
+    }
+  ]
+}

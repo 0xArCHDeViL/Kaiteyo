@@ -1,0 +1,66 @@
+{
+  "id": "1342140",
+  "readings": [
+    {
+      "kanaExpression": "じゅんようかん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "巡洋艦",
+      "furiganaExpression": [
+        {
+          "text": "巡",
+          "annotation": "じゅん"
+        },
+        {
+          "text": "洋",
+          "annotation": "よう"
+        },
+        {
+          "text": "艦",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cruiser (warship)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kruiser"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kreuzer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cirkáló",
+        "kajütös motorcsónak"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крейсер"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kryssare"
+      ]
+    }
+  ]
+}

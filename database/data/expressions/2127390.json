@@ -1,0 +1,49 @@
+{
+  "id": "2127390",
+  "readings": [
+    {
+      "kanaExpression": "こうぞうぶつ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "構造物",
+      "furiganaExpression": [
+        {
+          "text": "構",
+          "annotation": "こう"
+        },
+        {
+          "text": "造",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "structure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Konstruktion",
+        "Aufbau",
+        "Bau"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estructura"
+      ]
+    }
+  ]
+}

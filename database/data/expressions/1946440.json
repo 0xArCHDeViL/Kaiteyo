@@ -1,0 +1,58 @@
+{
+  "id": "1946440",
+  "readings": [
+    {
+      "kanaExpression": "ぶんかいさん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "文化遺産",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "遺",
+          "annotation": "い"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cultural heritage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kulturerbe",
+        "Weltkulturerbe"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "patrimonio cultural"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kulturarv"
+      ]
+    }
+  ]
+}

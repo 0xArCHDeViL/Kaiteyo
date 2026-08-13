@@ -1,0 +1,61 @@
+{
+  "id": "1944790",
+  "readings": [
+    {
+      "kanaExpression": "にっぽんぎんこう",
+      "rank": 19000
+    },
+    {
+      "kanaExpression": "にほんぎんこう"
+    },
+    {
+      "kanjiExpression": "日本銀行",
+      "furiganaExpression": [
+        {
+          "text": "日本",
+          "annotation": "にっぽん"
+        },
+        {
+          "text": "銀",
+          "annotation": "ぎん"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 6964
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Bank of Japan",
+        "BOJ",
+        "BoJ"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Bank van Japan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bank von Japan",
+        "japanische Reichsbank (japanische Zentralnotenbank; gegr. 1882 nach dem Vorbild der Dtsch. Reichsbank; westliche Abk. BoJ, Akronym für engl. Bank of Japan)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Banco de Japón",
+        "BOJ",
+        "BoJ"
+      ]
+    }
+  ]
+}

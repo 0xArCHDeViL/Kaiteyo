@@ -1,0 +1,73 @@
+{
+  "id": "1808530",
+  "readings": [
+    {
+      "kanaExpression": "はねあがり",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "跳ね上がり",
+      "furiganaExpression": [
+        {
+          "text": "跳",
+          "annotation": "は"
+        },
+        {
+          "text": "ね"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "がり"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "跳ね上り",
+      "furiganaExpression": [
+        {
+          "text": "跳",
+          "annotation": "は"
+        },
+        {
+          "text": "ね"
+        },
+        {
+          "text": "上",
+          "annotation": "あが"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "jumping",
+        "jump (e.g. in prices)",
+        "rashness",
+        "rash person"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ugrás",
+        "elhamarkodottság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) подпрыгивание, подскакивание",
+        "2) (см.) おてんば"
+      ]
+    }
+  ]
+}

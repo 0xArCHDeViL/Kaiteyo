@@ -1,0 +1,50 @@
+{
+  "id": "1121610",
+  "readings": [
+    {
+      "kanaExpression": "ペンさき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ペン先",
+      "furiganaExpression": [
+        {
+          "text": "ペン"
+        },
+        {
+          "text": "先",
+          "annotation": "さき"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pen nibs"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "puntig uiteinde",
+        "punt van een pen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Feder",
+        "Federspitze (eines Federhalters)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кончик пера, перо"
+      ]
+    }
+  ]
+}

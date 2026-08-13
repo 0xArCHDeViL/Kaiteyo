@@ -1,0 +1,107 @@
+{
+  "id": "1361490",
+  "readings": [
+    {
+      "kanaExpression": "あたらしい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "新しい",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "あたら"
+        },
+        {
+          "text": "しい"
+        }
+      ],
+      "rank": 352
+    },
+    {
+      "kanjiExpression": "新らしい",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "あた"
+        },
+        {
+          "text": "らしい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "new",
+        "novel",
+        "fresh",
+        "recent",
+        "latest",
+        "up-to-date",
+        "modern"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nieuw"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "neuf",
+        "nouveau",
+        "frais",
+        "récent",
+        "dernier",
+        "à jour",
+        "moderne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "neu",
+        "nagelneu",
+        "frisch",
+        "neuartig",
+        "zeitgemäß",
+        "modern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "modern"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "новый; свежий (о хлебе и т. п.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nov"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nuevo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ny"
+      ]
+    }
+  ]
+}

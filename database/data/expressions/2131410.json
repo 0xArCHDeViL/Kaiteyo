@@ -1,0 +1,56 @@
+{
+  "id": "2131410",
+  "readings": [
+    {
+      "kanaExpression": "きしょうよほうし",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "気象予報士",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "象",
+          "annotation": "しょう"
+        },
+        {
+          "text": "予",
+          "annotation": "よ"
+        },
+        {
+          "text": "報",
+          "annotation": "ほう"
+        },
+        {
+          "text": "士",
+          "annotation": "し"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weather forecaster"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zertifizierter Meteorologe",
+        "Wetteransager"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "predicción meteorológica"
+      ]
+    }
+  ]
+}

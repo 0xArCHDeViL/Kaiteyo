@@ -1,0 +1,87 @@
+{
+  "id": "1651690",
+  "readings": [
+    {
+      "kanaExpression": "せめこむ",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "攻め込む",
+      "furiganaExpression": [
+        {
+          "text": "攻",
+          "annotation": "せ"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "攻めこむ",
+      "furiganaExpression": [
+        {
+          "text": "攻",
+          "annotation": "せ"
+        },
+        {
+          "text": "めこむ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to invade",
+        "to attack",
+        "to breach",
+        "to penetrate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "binnenvallen",
+        "invallen",
+        "een vijandelijke inval doen",
+        "binnendringen",
+        "dringen in",
+        "indringen",
+        "penetreren",
+        "{veroud.} invaderen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einfallen",
+        "überfallen",
+        "angreifen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "betör",
+        "megtámad",
+        "támad"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вторгаться"
+      ]
+    }
+  ]
+}

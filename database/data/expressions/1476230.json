@@ -1,0 +1,56 @@
+{
+  "id": "1476230",
+  "readings": [
+    {
+      "kanaExpression": "むぎちゃ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "麦茶",
+      "furiganaExpression": [
+        {
+          "text": "麦",
+          "annotation": "むぎ"
+        },
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "barley tea"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gerstethee",
+        "thee van geroosterde gerst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "thé d\u0027orge"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gerstentee"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ячменный чай"
+      ]
+    }
+  ]
+}

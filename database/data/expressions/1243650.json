@@ -1,0 +1,71 @@
+{
+  "id": "1243650",
+  "readings": [
+    {
+      "kanaExpression": "くく",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "九九",
+      "furiganaExpression": [
+        {
+          "text": "九",
+          "annotation": "く"
+        },
+        {
+          "text": "九",
+          "annotation": "く"
+        }
+      ],
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "九々",
+      "furiganaExpression": [
+        {
+          "text": "九",
+          "annotation": "く"
+        },
+        {
+          "text": "々",
+          "annotation": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "multiplication table",
+        "times table"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{wisk.} tafel",
+        "tafels van vermenigvuldiging"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einmaleins",
+        "Multiplikationstabelle"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 九九の表) таблица умножения"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(las) tablas de multiplicar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1335330",
+  "readings": [
+    {
+      "kanaExpression": "じゅうしゃ",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "じゅしゃ"
+    },
+    {
+      "kanjiExpression": "従者",
+      "furiganaExpression": [
+        {
+          "text": "従",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "attendant",
+        "valet",
+        "servant",
+        "follower"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Begleiter",
+        "Gefolge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gondozó",
+        "kezelő",
+        "inas",
+        "komornyik",
+        "szolgálólány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сущ.) сопровождающий"
+      ]
+    }
+  ]
+}

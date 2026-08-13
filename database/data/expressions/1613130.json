@@ -1,0 +1,46 @@
+{
+  "id": "1613130",
+  "readings": [
+    {
+      "kanaExpression": "ドルかい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ドル買い",
+      "furiganaExpression": [
+        {
+          "text": "ドル"
+        },
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dollar purchase"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kauf von Dollar oder Werpapier, das in Dollar notiert wird",
+        "jmd., der Dollar oder Werpapier, das in Dollar notiert wird, kauft"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compra de dólares"
+      ]
+    }
+  ]
+}

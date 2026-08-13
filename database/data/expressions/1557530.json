@@ -1,0 +1,74 @@
+{
+  "id": "1557530",
+  "readings": [
+    {
+      "kanaExpression": "れいじょう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "礼状",
+      "furiganaExpression": [
+        {
+          "text": "礼",
+          "annotation": "れい"
+        },
+        {
+          "text": "状",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "acknowledgment",
+        "acknowledgement",
+        "letter of thanks"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bedankbrief(je)",
+        "schriftelijke dankbetuiging",
+        "schriftelijk bedankje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lettre de remerciement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dankschreiben",
+        "Dankbrief",
+        "Dankesbrief"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bevallás",
+        "elismerés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "благодарственное письмо, письмо с благодарностью за (что-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "carta de agradecimiento"
+      ]
+    }
+  ]
+}

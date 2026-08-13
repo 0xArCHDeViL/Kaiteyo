@@ -1,0 +1,52 @@
+{
+  "id": "1649450",
+  "readings": [
+    {
+      "kanaExpression": "くうしつ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "空室",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "室",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "vacant room",
+        "vacancy",
+        "unoccupied room",
+        "empty room"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onbewoond",
+        "leegstaand huis",
+        "lege",
+        "vrije",
+        "onbezette kamer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leer stehendes Zimmer",
+        "Zimmerleerstand",
+        "freies Zimmer"
+      ]
+    }
+  ]
+}

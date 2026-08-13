@@ -1,0 +1,69 @@
+{
+  "id": "1126030",
+  "readings": [
+    {
+      "kanaExpression": "ポンド",
+      "rank": 4701
+    },
+    {
+      "kanjiExpression": "听",
+      "furiganaExpression": [
+        {
+          "text": "听",
+          "annotation": "ポンド"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "封度",
+      "furiganaExpression": [
+        {
+          "text": "封度",
+          "annotation": "ポンド"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "英斤",
+      "furiganaExpression": [
+        {
+          "text": "英斤",
+          "annotation": "ポンド"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "磅",
+      "furiganaExpression": [
+        {
+          "text": "磅",
+          "annotation": "ポンド"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pound (unit of weight)",
+        "pound (currency)",
+        "pound sterling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pfund (Gewicht und Währung)",
+        "englische Pfund",
+        "Pfund Sterling (brit. Währungseinheit)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "libra (unidad de peso)"
+      ]
+    }
+  ]
+}

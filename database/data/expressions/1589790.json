@@ -1,0 +1,87 @@
+{
+  "id": "1589790",
+  "readings": [
+    {
+      "kanaExpression": "かえん",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "火炎",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "炎",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "火焔",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "焔",
+          "annotation": "えん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "flame",
+        "blaze"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vlam",
+        "gloed"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flamme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "láng",
+        "lángolás",
+        "ragyogás",
+        "szenvedély",
+        "szerelme vkinek",
+        "szerelmese vkinek",
+        "fehér folt",
+        "fehér sáv",
+        "lobogó tűz",
+        "turistajelzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пламя"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "llama",
+        "flama",
+        "llamarada"
+      ]
+    }
+  ]
+}

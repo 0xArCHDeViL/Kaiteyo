@@ -1,0 +1,97 @@
+{
+  "id": "1501400",
+  "readings": [
+    {
+      "kanaExpression": "ふくすう",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "複数",
+      "furiganaExpression": [
+        {
+          "text": "複",
+          "annotation": "ふく"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ],
+      "rank": 1847
+    },
+    {
+      "kanjiExpression": "復数",
+      "furiganaExpression": [
+        {
+          "text": "復",
+          "annotation": "ふく"
+        },
+        {
+          "text": "数",
+          "annotation": "すう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "plural",
+        "multiple",
+        "plural (number)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "pluraliteit",
+        "meervoudigheid",
+        "meer dan één ~",
+        "{taalk.} meervoud",
+        "pluralis",
+        "het meervoudige getal",
+        "mv.",
+        "meer dan één",
+        "meerdere",
+        "multipel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "multiple",
+        "pluriel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vielzahl",
+        "Mehrzahl",
+        "Plural",
+        "Pluralis",
+        "mehrere",
+        "pluralisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "összetett"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(грам.) множественное число"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "plural"
+      ]
+    }
+  ]
+}

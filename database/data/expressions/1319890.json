@@ -1,0 +1,45 @@
+{
+  "id": "1319890",
+  "readings": [
+    {
+      "kanaExpression": "しつぎょうほけん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "失業保険",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しつ"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "保",
+          "annotation": "ほ"
+        },
+        {
+          "text": "険",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unemployment insurance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitslosenversicherung"
+      ]
+    }
+  ]
+}

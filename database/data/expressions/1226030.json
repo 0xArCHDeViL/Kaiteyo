@@ -1,0 +1,48 @@
+{
+  "id": "1226030",
+  "readings": [
+    {
+      "kanaExpression": "ぎいん",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "議院",
+      "furiganaExpression": [
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "院",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "parliament",
+        "congress",
+        "diet",
+        "house (of parliament, etc.)",
+        "chamber"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abgeordnetenhaus",
+        "Parlament"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "парламент"
+      ]
+    }
+  ]
+}

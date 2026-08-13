@@ -1,0 +1,54 @@
+{
+  "id": "1314460",
+  "readings": [
+    {
+      "kanaExpression": "じむとうきょく",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "事務当局",
+      "furiganaExpression": [
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "務",
+          "annotation": "む"
+        },
+        {
+          "text": "当",
+          "annotation": "とう"
+        },
+        {
+          "text": "局",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "officials in charge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de verantwoordelijke instanties",
+        "gezagdragers",
+        "gezaghebbers"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die zuständige Behörde",
+        "das zuständige Amt"
+      ]
+    }
+  ]
+}

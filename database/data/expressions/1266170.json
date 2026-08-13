@@ -1,0 +1,68 @@
+{
+  "id": "1266170",
+  "readings": [
+    {
+      "kanaExpression": "ふるほんや",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "古本屋",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "ふる"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ],
+      "rank": 10184
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "secondhand bookshop",
+        "secondhand bookstore",
+        "secondhand bookseller"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boekenantiquariaat",
+        "antiquariaat",
+        "handel in oude boeken",
+        "antiquaar",
+        "handelaar in oude boeken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Antiquariat",
+        "Antiquar",
+        "Bouquinist"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) букинистический магазин",
+        "2) букинист"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "librería de libros usados"
+      ]
+    }
+  ]
+}

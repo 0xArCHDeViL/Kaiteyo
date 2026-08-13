@@ -1,0 +1,92 @@
+{
+  "id": "1281780",
+  "readings": [
+    {
+      "kanaExpression": "いったりきたり",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "行ったり来たり",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "い"
+        },
+        {
+          "text": "ったり"
+        },
+        {
+          "text": "来",
+          "annotation": "き"
+        },
+        {
+          "text": "たり"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "行ったりきたり",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "い"
+        },
+        {
+          "text": "ったりきたり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "行ったり来り",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "い"
+        },
+        {
+          "text": "ったり"
+        },
+        {
+          "text": "来",
+          "annotation": "きた"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "going to and fro",
+        "back and forth"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "komen en gaan",
+        "heen en weer lopen",
+        "af en aan lopen",
+        "pendelen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kommen und gehen",
+        "hin und her reisen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előre-hátra",
+        "ide-oda"
+      ]
+    }
+  ]
+}

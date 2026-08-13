@@ -1,0 +1,79 @@
+{
+  "id": "1011020",
+  "readings": [
+    {
+      "kanaExpression": "ふっきれる",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "吹っ切れる",
+      "furiganaExpression": [
+        {
+          "text": "吹",
+          "annotation": "ふ"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "吹っきれる",
+      "furiganaExpression": [
+        {
+          "text": "吹",
+          "annotation": "ふ"
+        },
+        {
+          "text": "っきれる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to break through (e.g. one\u0027s doubts)",
+        "to become unbound by (e.g. the past)",
+        "to allay (e.g. anger)",
+        "to put behind one",
+        "to move on",
+        "to burst (e.g. a boil)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "durch den Wind aufreißen",
+        "aufklaren (Wolken)",
+        "aufbrechen",
+        "aufplatzen (Eiterbeule)",
+        "verfliegen",
+        "sich verflüchtigen (Sorgen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áttör",
+        "kiszivárog",
+        "napvilágra jut"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прорываться (о нарыве и т. п.); (обр.) смягчиться (о душевном напряжении), почувствовать облегчение"
+      ]
+    }
+  ]
+}

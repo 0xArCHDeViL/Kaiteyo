@@ -1,0 +1,46 @@
+{
+  "id": "1488010",
+  "readings": [
+    {
+      "kanaExpression": "ひゃくおく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "百億",
+      "furiganaExpression": [
+        {
+          "text": "百",
+          "annotation": "ひゃく"
+        },
+        {
+          "text": "億",
+          "annotation": "おく"
+        }
+      ],
+      "rank": 18000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "10,000,000,000",
+        "ten billion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zehn Milliarden",
+        "10.000.000.000"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "diez mil millones",
+        "10,000,000,000"
+      ]
+    }
+  ]
+}

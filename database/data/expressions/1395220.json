@@ -1,0 +1,57 @@
+{
+  "id": "1395220",
+  "readings": [
+    {
+      "kanaExpression": "ぜんこくてき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "全国的",
+      "furiganaExpression": [
+        {
+          "text": "全",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nationwide",
+        "countrywide",
+        "national",
+        "throughout the country"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "landesweit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "országos",
+        "országosan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[обще]национальный"
+      ]
+    }
+  ]
+}

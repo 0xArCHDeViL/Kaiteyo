@@ -1,0 +1,51 @@
+{
+  "id": "1260970",
+  "readings": [
+    {
+      "kanaExpression": "もとちょう",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "元帳",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "もと"
+        },
+        {
+          "text": "帳",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ledger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptbuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állandó dolog",
+        "álló dolog",
+        "főkönyv"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(бухг.) гроссбух"
+      ]
+    }
+  ]
+}

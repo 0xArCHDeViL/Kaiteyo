@@ -1,0 +1,69 @@
+{
+  "id": "1176530",
+  "readings": [
+    {
+      "kanaExpression": "えんのう",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "延納",
+      "furiganaExpression": [
+        {
+          "text": "延",
+          "annotation": "えん"
+        },
+        {
+          "text": "納",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deferred payment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "achterstallig betalen",
+        "leveren",
+        "{Belg.N.} laattijdig betalen",
+        "de betaling uitstellen",
+        "achterstallige betaling",
+        "levering",
+        "{Belg.N.} laattijdige betaling",
+        "uitstel",
+        "surseance van betaling",
+        "moratorium"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verspätet liefern",
+        "verspätet zahlen",
+        "Lieferungsverzug",
+        "Zahlungsverzug",
+        "Zahlungsaufschub",
+        "aufgeschobene Zahlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отсрочка платежа (уплаты)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pago aplazado"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "1626410",
+  "readings": [
+    {
+      "kanaExpression": "はっと",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "法度",
+      "furiganaExpression": [
+        {
+          "text": "法",
+          "annotation": "はっ"
+        },
+        {
+          "text": "度",
+          "annotation": "と"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ban",
+        "prohibition",
+        "taboo",
+        "something forbidden",
+        "law",
+        "ordinance (esp. in the middle ages)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "strenges Verbot",
+        "Untersagung",
+        "Tabu"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átok",
+        "kiátkozás",
+        "kitiltás",
+        "megtiltás",
+        "tilalom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.)",
+        "1) закон, указ",
+        "2) запрещение, запрет",
+        "{～となる} оказаться под запретом, быть запрещённым, подвергнуться запрещению"
+      ]
+    }
+  ]
+}

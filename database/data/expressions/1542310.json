@@ -1,0 +1,58 @@
+{
+  "id": "1542310",
+  "readings": [
+    {
+      "kanaExpression": "ゆうぼく",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "遊牧",
+      "furiganaExpression": [
+        {
+          "text": "遊",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "牧",
+          "annotation": "ぼく"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nomadism"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nomadisme",
+        "zwerversbestaan",
+        "rondtrekkend bestaan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nomadentum",
+        "nomadisch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кочевое скотоводство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nomadismo"
+      ]
+    }
+  ]
+}

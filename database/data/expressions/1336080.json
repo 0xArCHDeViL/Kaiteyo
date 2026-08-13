@@ -1,0 +1,52 @@
+{
+  "id": "1336080",
+  "readings": [
+    {
+      "kanaExpression": "じゅうきかんじゅう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "重機関銃",
+      "furiganaExpression": [
+        {
+          "text": "重",
+          "annotation": "じゅう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "関",
+          "annotation": "かん"
+        },
+        {
+          "text": "銃",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heavy machine gun"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schweres Maschinengewehr",
+        "SMG"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тяжёлый (станковый) пулемёт"
+      ]
+    }
+  ]
+}

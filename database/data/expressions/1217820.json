@@ -1,0 +1,98 @@
+{
+  "id": "1217820",
+  "readings": [
+    {
+      "kanaExpression": "かおいろ",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "がんしょく"
+    },
+    {
+      "kanjiExpression": "顔色",
+      "furiganaExpression": [
+        {
+          "text": "顔",
+          "annotation": "かお"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ],
+      "rank": 12715
+    },
+    {
+      "kanjiExpression": "顔いろ",
+      "furiganaExpression": [
+        {
+          "text": "顔",
+          "annotation": "かお"
+        },
+        {
+          "text": "いろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "complexion",
+        "one\u0027s colour",
+        "one\u0027s color",
+        "countenance",
+        "expression",
+        "one\u0027s face"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mine",
+        "teint"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Teint",
+        "Gesichtsfarbe",
+        "Miene",
+        "Gesichtsausdruck",
+        "Mimik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "arckifejezés",
+        "kinyilvánítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) цвет лица",
+        "2) (перен.) выражение лица, вид",
+        "вид, выражение лица"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ten",
+        "barva obraza"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "semblante",
+        "fisonomía",
+        "tez"
+      ]
+    }
+  ]
+}

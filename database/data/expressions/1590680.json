@@ -1,0 +1,62 @@
+{
+  "id": "1590680",
+  "readings": [
+    {
+      "kanaExpression": "かりもの",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "借り物",
+      "furiganaExpression": [
+        {
+          "text": "借",
+          "annotation": "か"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "借物",
+      "furiganaExpression": [
+        {
+          "text": "借",
+          "annotation": "かり"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "borrowed thing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dinge und Gedanken, die man sich ausgeliehen hat",
+        "etw. Geborgtes",
+        "etw. aus fremder Feder"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одолженная (взятая напрокат) вещь; (обр.) нечто заимствованное",
+        "{～の} одолженный; заимствованный"
+      ]
+    }
+  ]
+}

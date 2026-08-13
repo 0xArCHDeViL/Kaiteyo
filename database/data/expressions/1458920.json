@@ -1,0 +1,72 @@
+{
+  "id": "1458920",
+  "readings": [
+    {
+      "kanaExpression": "ないてい",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "内定",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "定",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 9778
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tentative decision",
+        "unofficial offer (esp. job offer)",
+        "informal offer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "officieus beslissen",
+        "officieus beslist",
+        "geregeld worden",
+        "informele",
+        "onofficiële",
+        "officieuze beslissing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "informell entscheiden",
+        "inoffiziell entscheiden",
+        "informeller Beschluss",
+        "inoffizielle Entscheidung",
+        "Vorabentscheidung",
+        "vorläufige Stellenzusage"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неофициальное (предварительное) решение (постановление)",
+        "{～する} неофициально решать (постановлять); быть неофициально решённым (постановленным)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "preacuerdo",
+        "precontrato",
+        "acuerdo no formal",
+        "nombramiento oficioso",
+        "designación informal"
+      ]
+    }
+  ]
+}

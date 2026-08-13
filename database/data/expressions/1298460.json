@@ -1,0 +1,107 @@
+{
+  "id": "1298460",
+  "readings": [
+    {
+      "kanaExpression": "さくらんぼ",
+      "rank": 35500
+    },
+    {
+      "kanaExpression": "さくらんぼう"
+    },
+    {
+      "kanaExpression": "サクランボ"
+    },
+    {
+      "kanjiExpression": "桜ん坊",
+      "furiganaExpression": [
+        {
+          "text": "桜",
+          "annotation": "さくら"
+        },
+        {
+          "text": "ん"
+        },
+        {
+          "text": "坊",
+          "annotation": "ぼ"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "桜桃",
+      "furiganaExpression": [
+        {
+          "text": "桜桃",
+          "annotation": "さくらんぼ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "桜んぼ",
+      "furiganaExpression": [
+        {
+          "text": "桜",
+          "annotation": "さくら"
+        },
+        {
+          "text": "んぼ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cherry (fruit; esp. of the sweet cherry, Prunus avium)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} kers"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cerise comestible",
+        "espèce de prunier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kirsche (die Frucht)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cseresznye",
+        "cseresznyefa",
+        "cseresznyepiros",
+        "marófúró",
+        "süllyesztékmaró",
+        "szármaró",
+        "szüzesség",
+        "ujjmaró",
+        "vörösen izzó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вишня (плод)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cereza (eng: cherry)",
+        "cereza"
+      ]
+    }
+  ]
+}

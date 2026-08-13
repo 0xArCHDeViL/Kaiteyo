@@ -1,0 +1,92 @@
+{
+  "id": "1499880",
+  "readings": [
+    {
+      "kanaExpression": "かぜをひく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "風邪をひく",
+      "furiganaExpression": [
+        {
+          "text": "風邪",
+          "annotation": "かぜ"
+        },
+        {
+          "text": "をひく"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "風邪を引く",
+      "furiganaExpression": [
+        {
+          "text": "風邪",
+          "annotation": "かぜ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "かぜを引く",
+      "furiganaExpression": [
+        {
+          "text": "かぜを"
+        },
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to catch a cold"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich eine Erkältung zuziehen",
+        "sich eine Erkältung holen",
+        "eine Erkältung bekommen",
+        "sich erkälten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megfázik",
+        "meghűl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "простудиться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "coger un resfriado"
+      ]
+    }
+  ]
+}

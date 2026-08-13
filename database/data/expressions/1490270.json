@@ -1,0 +1,79 @@
+{
+  "id": "1490270",
+  "readings": [
+    {
+      "kanaExpression": "びょうげん",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "病原",
+      "furiganaExpression": [
+        {
+          "text": "病",
+          "annotation": "びょう"
+        },
+        {
+          "text": "原",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "病源",
+      "furiganaExpression": [
+        {
+          "text": "病",
+          "annotation": "びょう"
+        },
+        {
+          "text": "源",
+          "annotation": "げん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "origin of an illness",
+        "cause of a disease",
+        "pathogenesis",
+        "etiology"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} ziekteoorzaak",
+        "oorzaak van een ziekte",
+        "etiologie",
+        "ziekteverwekker",
+        "ziekmaker",
+        "pathogeen",
+        "{fig.} ziektehaard",
+        "kiem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Krankheitsherd",
+        "Krankheitsursache"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "причина болезни; (мед.) патогенез"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sjukdomsorsak"
+      ]
+    }
+  ]
+}

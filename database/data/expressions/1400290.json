@@ -1,0 +1,100 @@
+{
+  "id": "1400290",
+  "readings": [
+    {
+      "kanaExpression": "はやあし",
+      "rank": 33000
+    },
+    {
+      "kanaExpression": "そくほ"
+    },
+    {
+      "kanjiExpression": "早足",
+      "furiganaExpression": [
+        {
+          "text": "早",
+          "annotation": "はや"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "速歩",
+      "furiganaExpression": [
+        {
+          "text": "速歩",
+          "annotation": "はやあし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "速足",
+      "furiganaExpression": [
+        {
+          "text": "速",
+          "annotation": "はや"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "quick pace",
+        "quick steps",
+        "quick march",
+        "trot (horse gait)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gezwinde",
+        "flinke pas",
+        "flink gangetje",
+        "kwieke tred",
+        "stevig tempo",
+        "draf",
+        "drafje",
+        "{mil.} mars in gewone pas",
+        "voorwaarts mars!",
+        "ingerukt mars!",
+        "ruk uit!"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schneller Gang",
+        "eiliger Schritt",
+        "Trab (Gangart des Pferds)",
+        "Riesenschritte",
+        "Trab"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyorsított menet",
+        "ügetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "быстрый шаг; форсированный марш",
+        "быстрый (ускоренный) шаг; рысь (лошади)",
+        "{～で} быстрым шагом"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "1714230",
+  "readings": [
+    {
+      "kanaExpression": "たてうり",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "建て売り",
+      "furiganaExpression": [
+        {
+          "text": "建",
+          "annotation": "た"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "建売り",
+      "furiganaExpression": [
+        {
+          "text": "建",
+          "annotation": "たて"
+        },
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "建売",
+      "furiganaExpression": [
+        {
+          "text": "建",
+          "annotation": "たて"
+        },
+        {
+          "text": "売",
+          "annotation": "うり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "constructing and selling a ready-built house"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Haus bauen, um es zu verkaufen",
+        "Verkauf eines für den Verkauf gebauten Hauses",
+        "für den Verkauf gebautes Haus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} продавать только что отстроившись"
+      ]
+    }
+  ]
+}

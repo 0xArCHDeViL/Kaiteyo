@@ -1,0 +1,69 @@
+{
+  "id": "1437320",
+  "readings": [
+    {
+      "kanaExpression": "ふえふき",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "笛吹き",
+      "furiganaExpression": [
+        {
+          "text": "笛",
+          "annotation": "ふえ"
+        },
+        {
+          "text": "吹",
+          "annotation": "ふ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "笛吹",
+      "furiganaExpression": [
+        {
+          "text": "笛",
+          "annotation": "ふえ"
+        },
+        {
+          "text": "吹",
+          "annotation": "ふき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "flute player",
+        "flutist",
+        "flautist",
+        "piper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} fluitist",
+        "fluitspeler"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Blasinstrumentspieler"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "флейтист"
+      ]
+    }
+  ]
+}

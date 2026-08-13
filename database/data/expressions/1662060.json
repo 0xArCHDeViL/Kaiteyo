@@ -1,0 +1,58 @@
+{
+  "id": "1662060",
+  "readings": [
+    {
+      "kanaExpression": "やっこう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "薬効",
+      "furiganaExpression": [
+        {
+          "text": "薬",
+          "annotation": "やっ"
+        },
+        {
+          "text": "効",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "薬效",
+      "furiganaExpression": [
+        {
+          "text": "薬",
+          "annotation": "やっ"
+        },
+        {
+          "text": "效",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "medical efficacy",
+        "effect of a medicine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wirksamkeit eines Medikaments",
+        "Wirkung einer Arznei"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "действие лекарства"
+      ]
+    }
+  ]
+}

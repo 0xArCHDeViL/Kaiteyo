@@ -1,0 +1,101 @@
+{
+  "id": "1473060",
+  "readings": [
+    {
+      "kanaExpression": "はいぐうしゃ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "配偶者",
+      "furiganaExpression": [
+        {
+          "text": "配",
+          "annotation": "はい"
+        },
+        {
+          "text": "偶",
+          "annotation": "ぐう"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spouse",
+        "wife",
+        "husband",
+        "partner"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "echtgenoot",
+        "wederhelft",
+        "gemaal",
+        "huwelijkspartner",
+        "man",
+        "{scherts.",
+        "deftig} eega",
+        "deftig} eegade",
+        "{arch.} gade",
+        "{gew.} soos",
+        "echtgenote",
+        "betere helft",
+        "gemalin",
+        "vrouw"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épouse",
+        "conjoint",
+        "mari"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gatte",
+        "Gemahl",
+        "Ehemann",
+        "Gattin",
+        "Ehefrau",
+        "Ehepartner"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "asszony"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "супруг, супруга"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "soprog",
+        "zakonec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dependiente familiar"
+      ]
+    }
+  ]
+}

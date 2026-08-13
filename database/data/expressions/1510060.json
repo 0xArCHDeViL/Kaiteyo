@@ -1,0 +1,66 @@
+{
+  "id": "1510060",
+  "readings": [
+    {
+      "kanaExpression": "べつむね",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "べっとう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "別棟",
+      "furiganaExpression": [
+        {
+          "text": "別",
+          "annotation": "べつ"
+        },
+        {
+          "text": "棟",
+          "annotation": "むね"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "separate building",
+        "outbuilding",
+        "outhouse"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "autre bâtiment",
+        "bâtiment séparé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "getrenntes Gebäude",
+        "Anbau",
+        "Nebengebäude",
+        "Flügel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "melléképület",
+        "külső épület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отдельное здание (строение); отдельный корпус, флигель; отдельная пристройка"
+      ]
+    }
+  ]
+}

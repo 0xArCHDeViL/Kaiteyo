@@ -1,0 +1,69 @@
+{
+  "id": "1797650",
+  "readings": [
+    {
+      "kanaExpression": "ながや",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "長屋",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "なが"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "長家",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "なが"
+        },
+        {
+          "text": "家",
+          "annotation": "や"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tenement house",
+        "row house"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lang pand",
+        "lang huis",
+        "rijtjeshuizen onder één dak",
+        "rijtjeswoningen die onder een doorlopend dak gebouwd zijn",
+        "rijhuis",
+        "tweedeklasbordeel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mietsreihenhaus",
+        "Reihenhaus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нагая (одноэтажный многоквартирный дом, иногда с мезонином в каждой квартире)"
+      ]
+    }
+  ]
+}

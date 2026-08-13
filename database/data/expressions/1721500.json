@@ -1,0 +1,104 @@
+{
+  "id": "1721500",
+  "readings": [
+    {
+      "kanaExpression": "きりこみ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "切り込み",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "斬り込み",
+      "furiganaExpression": [
+        {
+          "text": "斬",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "切込み",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cut",
+        "notch",
+        "raid",
+        "attack"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "insnijding",
+        "kerf",
+        "snede",
+        "snee",
+        "gewapende inval",
+        "raid",
+        "innesteling",
+        "binnendringing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Angriff",
+        "Angriff mit dem Schwert",
+        "Einkerben",
+        "Einschnitt",
+        "Kerbe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(стр.) врубка, замок; связь замком"
+      ]
+    }
+  ]
+}

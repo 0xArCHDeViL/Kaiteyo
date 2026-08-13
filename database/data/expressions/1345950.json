@@ -1,0 +1,44 @@
+{
+  "id": "1345950",
+  "readings": [
+    {
+      "kanaExpression": "しょうへい",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "傷兵",
+      "furiganaExpression": [
+        {
+          "text": "傷",
+          "annotation": "しょう"
+        },
+        {
+          "text": "兵",
+          "annotation": "へい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wounded soldier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verwundeter Soldat",
+        "Verwundeter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "раненый солдат (боец)"
+      ]
+    }
+  ]
+}

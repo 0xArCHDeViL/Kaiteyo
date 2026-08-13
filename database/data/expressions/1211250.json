@@ -1,0 +1,57 @@
+{
+  "id": "1211250",
+  "readings": [
+    {
+      "kanaExpression": "かんまつ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "巻末",
+      "furiganaExpression": [
+        {
+          "text": "巻",
+          "annotation": "かん"
+        },
+        {
+          "text": "末",
+          "annotation": "まつ"
+        }
+      ],
+      "rank": 14713
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "end of a book"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eind van een boek",
+        "boekdeel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ende eines Buches",
+        "Schluss eines Buches"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "конец книги (тома)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "final de un libro"
+      ]
+    }
+  ]
+}

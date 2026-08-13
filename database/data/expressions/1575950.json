@@ -1,0 +1,69 @@
+{
+  "id": "1575950",
+  "readings": [
+    {
+      "kanaExpression": "いっかげん",
+      "rank": 36000
+    },
+    {
+      "kanaExpression": "いっかごと"
+    },
+    {
+      "kanjiExpression": "一家言",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "言",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "private opinion",
+        "personal view",
+        "personal opinion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onafhankelijke opinie",
+        "eigen ideeën",
+        "persoonlijk standpunt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jmds. persönliche Meinung",
+        "jmds. eigene Meinung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) собственное (личное) мнение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "opinión particular",
+        "vista personal",
+        "opinión personal"
+      ]
+    }
+  ]
+}

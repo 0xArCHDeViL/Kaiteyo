@@ -1,0 +1,71 @@
+{
+  "id": "1337460",
+  "readings": [
+    {
+      "kanaExpression": "しゅくじ",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "祝辞",
+      "furiganaExpression": [
+        {
+          "text": "祝",
+          "annotation": "しゅく"
+        },
+        {
+          "text": "辞",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "congratulatory address"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gelukwens",
+        "felicitatie",
+        "heilwens"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "discours de félicitation",
+        "ses meilleurs vœux (adresser)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Glückwunsch",
+        "Glückwunschadresse",
+        "Gratulation",
+        "Festrede"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поздравление, поздравительное послание, адрес"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "felicitación",
+        "enhorabuena",
+        "congratulación",
+        "alabanza",
+        "parabién"
+      ]
+    }
+  ]
+}

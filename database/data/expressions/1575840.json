@@ -1,0 +1,76 @@
+{
+  "id": "1575840",
+  "readings": [
+    {
+      "kanaExpression": "あんぶん",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "あんもん"
+    },
+    {
+      "kanjiExpression": "案文",
+      "furiganaExpression": [
+        {
+          "text": "案",
+          "annotation": "あん"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "draft",
+        "draft proposal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entwurf",
+        "Textentwurf",
+        "Konzept"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "behívás",
+        "intézvény",
+        "katonai összeírás",
+        "összeírás",
+        "piszkozat",
+        "sorozat",
+        "tervezet",
+        "tervrajz",
+        "huzat",
+        "korty"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "текст проекта; проект (документа и т. п., письменный)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "borrador (documento)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "utkast"
+      ]
+    }
+  ]
+}

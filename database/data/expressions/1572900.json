@@ -1,0 +1,92 @@
+{
+  "id": "1572900",
+  "readings": [
+    {
+      "kanaExpression": "おうか",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "謳歌",
+      "furiganaExpression": [
+        {
+          "text": "謳",
+          "annotation": "おう"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "おう歌",
+      "furiganaExpression": [
+        {
+          "text": "おう"
+        },
+        {
+          "text": "歌",
+          "annotation": "か"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rejoicing",
+        "glorification",
+        "exultation",
+        "celebration",
+        "enjoyment",
+        "singing praises"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de lof zingen van",
+        "prijzen",
+        "loven",
+        "verheerlijken",
+        "roemen",
+        "vieren",
+        "lofzang",
+        "glorificatie",
+        "verheerlijking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lobgesang",
+        "Glorifizierung",
+        "Verherrlichung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dicsérő beszéd",
+        "dicshimnusz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прославление, воспевание",
+        "{～する} воспевать, превозносить, прославлять"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "exaltación",
+        "canto",
+        "elogio"
+      ]
+    }
+  ]
+}

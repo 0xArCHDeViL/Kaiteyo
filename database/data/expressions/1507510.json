@@ -1,0 +1,57 @@
+{
+  "id": "1507510",
+  "readings": [
+    {
+      "kanaExpression": "へいぜい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "平生",
+      "furiganaExpression": [
+        {
+          "text": "平",
+          "annotation": "へい"
+        },
+        {
+          "text": "生",
+          "annotation": "ぜい"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "usual",
+        "ordinary"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gewöhnlich",
+        "normal",
+        "alltäglich",
+        "Normalität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szokásos",
+        "általános",
+        "átlagos",
+        "hétköznapi",
+        "közönséges"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} обычный, привычный; повседневный, постоянный"
+      ]
+    }
+  ]
+}

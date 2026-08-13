@@ -1,0 +1,97 @@
+{
+  "id": "1603820",
+  "readings": [
+    {
+      "kanaExpression": "まえもって",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "前もって",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "まえ"
+        },
+        {
+          "text": "もって"
+        }
+      ],
+      "rank": 12936
+    },
+    {
+      "kanjiExpression": "前以て",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "まえ"
+        },
+        {
+          "text": "以",
+          "annotation": "もっ"
+        },
+        {
+          "text": "て"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in advance",
+        "beforehand",
+        "previously"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vooraf",
+        "van tevoren",
+        "op voorhand",
+        "vooruit",
+        "voordien",
+        "in afwachting",
+        "bij voorbaat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "à l\u0027avance",
+        "par avance",
+        "précédemment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vorher",
+        "im Voraus",
+        "im Vorhinein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előzetesen",
+        "előzőleg",
+        "korábban"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заранее, предварительно"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "previamente",
+        "por adelantado"
+      ]
+    }
+  ]
+}

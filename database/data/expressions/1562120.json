@@ -1,0 +1,89 @@
+{
+  "id": "1562120",
+  "readings": [
+    {
+      "kanaExpression": "おしょう",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "かしょう",
+      "rank": 33500
+    },
+    {
+      "kanaExpression": "わじょう"
+    },
+    {
+      "kanjiExpression": "和尚",
+      "furiganaExpression": [
+        {
+          "text": "和",
+          "annotation": "お"
+        },
+        {
+          "text": "尚",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "和上",
+      "furiganaExpression": [
+        {
+          "text": "和",
+          "annotation": "か"
+        },
+        {
+          "text": "上",
+          "annotation": "しょう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "priestly teacher",
+        "preceptor",
+        "monk (esp. the head monk of a temple)",
+        "priest",
+        "head priest",
+        "second highest priestly rank in Buddhism",
+        "master (of one\u0027s art, trade, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{boeddh.} priester (met wijdingsrecht)",
+        "geestelijke",
+        "bonze",
+        "{boeddh.} upādhyāya {\u003d leraar",
+        "meester}",
+        "{krijgskunsten",
+        "theeceremonie} meester"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bonze"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "buddhistischer Priester",
+        "Bonze"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "буддийский священник",
+        "(буд.) настоятель (монастыря); [святой] отец (обращение к монаху)"
+      ]
+    }
+  ]
+}

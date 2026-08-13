@@ -1,0 +1,69 @@
+{
+  "id": "1308930",
+  "readings": [
+    {
+      "kanaExpression": "しだん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "師団",
+      "furiganaExpression": [
+        {
+          "text": "師",
+          "annotation": "し"
+        },
+        {
+          "text": "団",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(army) division"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} divisie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "division (armée)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Division"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hadosztály",
+        "osztás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дивизия",
+        "{～[の]} дивизионный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "división (ejército)"
+      ]
+    }
+  ]
+}

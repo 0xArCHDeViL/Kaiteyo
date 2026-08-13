@@ -1,0 +1,44 @@
+{
+  "id": "1193380",
+  "readings": [
+    {
+      "kanaExpression": "かだん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "歌壇",
+      "furiganaExpression": [
+        {
+          "text": "歌",
+          "annotation": "か"
+        },
+        {
+          "text": "壇",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "poetry circles"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dichterkreise",
+        "Dichterwelt (insbes. Waka-Dichter)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общество поэтов жанра вака"
+      ]
+    }
+  ]
+}

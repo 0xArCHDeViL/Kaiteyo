@@ -1,0 +1,58 @@
+{
+  "id": "1531020",
+  "readings": [
+    {
+      "kanaExpression": "むりなんだい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "無理難題",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "難",
+          "annotation": "なん"
+        },
+        {
+          "text": "題",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unreasonable demand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "himmelschreiende Ungerechtigkeit",
+        "unvernünftige Forderung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "необоснованное требование"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "petición poco razonable"
+      ]
+    }
+  ]
+}

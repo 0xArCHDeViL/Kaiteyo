@@ -1,0 +1,62 @@
+{
+  "id": "1734090",
+  "readings": [
+    {
+      "kanaExpression": "あきまつり",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "秋祭り",
+      "furiganaExpression": [
+        {
+          "text": "秋",
+          "annotation": "あき"
+        },
+        {
+          "text": "祭",
+          "annotation": "まつ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "秋祭",
+      "furiganaExpression": [
+        {
+          "text": "秋",
+          "annotation": "あき"
+        },
+        {
+          "text": "祭",
+          "annotation": "まつり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "autumn festival",
+        "fall festival",
+        "autumn matsuri"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "herfstfeest",
+        "najaarsfeest"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herbstfest (shintōistisches Erntedankfest)"
+      ]
+    }
+  ]
+}

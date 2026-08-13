@@ -1,0 +1,78 @@
+{
+  "id": "1421000",
+  "readings": [
+    {
+      "kanaExpression": "ちきゅうぎ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "地球儀",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "球",
+          "annotation": "きゅう"
+        },
+        {
+          "text": "儀",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Earth globe (model)",
+        "terrestrial globe"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aardbol",
+        "aardglobe",
+        "wereldbol",
+        "{verk.} globe"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mappemonde (globe)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Globus",
+        "Erdglobus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "földgolyó",
+        "földgömb",
+        "glóbusz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "глобус"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "globo terráqueo"
+      ]
+    }
+  ]
+}

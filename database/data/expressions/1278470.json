@@ -1,0 +1,53 @@
+{
+  "id": "1278470",
+  "readings": [
+    {
+      "kanaExpression": "こういき",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "広域",
+      "furiganaExpression": [
+        {
+          "text": "広",
+          "annotation": "こう"
+        },
+        {
+          "text": "域",
+          "annotation": "いき"
+        }
+      ],
+      "rank": 6352
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wide area",
+        "wide view (of a digitally displayed map)",
+        "zoomed-out view"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "groot gebied",
+        "grote oppervlakte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weites Gebiet",
+        "großes Gebiet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "крупный район, значительная (широкая) территория; широкое пространство"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "1751450",
+  "readings": [
+    {
+      "kanaExpression": "しょうりょう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "精霊",
+      "furiganaExpression": [
+        {
+          "text": "精",
+          "annotation": "しょう"
+        },
+        {
+          "text": "霊",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 11538
+    },
+    {
+      "kanjiExpression": "聖霊",
+      "furiganaExpression": [
+        {
+          "text": "聖",
+          "annotation": "しょう"
+        },
+        {
+          "text": "霊",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 12126
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "spirit of the deceased"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geist",
+        "Geist eines Verstorbenen",
+        "Totenseele"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дух (умершего)"
+      ]
+    }
+  ]
+}

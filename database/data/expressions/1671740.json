@@ -1,0 +1,68 @@
+{
+  "id": "1671740",
+  "readings": [
+    {
+      "kanaExpression": "まじょがり",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "魔女狩り",
+      "furiganaExpression": [
+        {
+          "text": "魔",
+          "annotation": "ま"
+        },
+        {
+          "text": "女",
+          "annotation": "じょ"
+        },
+        {
+          "text": "狩",
+          "annotation": "が"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "魔女狩",
+      "furiganaExpression": [
+        {
+          "text": "魔",
+          "annotation": "ま"
+        },
+        {
+          "text": "女",
+          "annotation": "じょ"
+        },
+        {
+          "text": "狩",
+          "annotation": "がり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "witch hunt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hexenjagd",
+        "Hexenverfolgung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "boszorkányüldözés"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "1215660",
+  "readings": [
+    {
+      "kanaExpression": "あいだがら",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "間柄",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "あいだ"
+        },
+        {
+          "text": "柄",
+          "annotation": "がら"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "間がら",
+      "furiganaExpression": [
+        {
+          "text": "間",
+          "annotation": "あいだ"
+        },
+        {
+          "text": "がら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "relationship",
+        "relation",
+        "terms (good, friendly, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verhouding",
+        "relatie",
+        "betrekking",
+        "band",
+        "binding",
+        "verstandhouding",
+        "{fig.} voet",
+        "omgang"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lien",
+        "relation (avec qqn)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verhältnis",
+        "Beziehung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rokon",
+        "vonatkozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[взаимо]отношения; родство"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "relación",
+        "conexión"
+      ]
+    }
+  ]
+}

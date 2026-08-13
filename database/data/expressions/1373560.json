@@ -1,0 +1,89 @@
+{
+  "id": "1373560",
+  "readings": [
+    {
+      "kanaExpression": "すずめ",
+      "rank": 20000
+    },
+    {
+      "kanaExpression": "スズメ"
+    },
+    {
+      "kanjiExpression": "雀",
+      "furiganaExpression": [
+        {
+          "text": "雀",
+          "annotation": "すずめ"
+        }
+      ],
+      "rank": 14111
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tree sparrow (Passer montanus)",
+        "talkative person",
+        "knowledgeable person"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} mus",
+        "{i.h.b.} ringmus",
+        "Passer montanus",
+        "kletser",
+        "kwebbel",
+        "babbelkous",
+        "klapekster",
+        "kletskop"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "moineau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spatz",
+        "Sperling",
+        "Passer montanus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "veréb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "восточный полевой воробей, Passer montanus saturatus (Stejneger)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vrabec"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gorrión"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sparv"
+      ]
+    }
+  ]
+}

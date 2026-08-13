@@ -1,0 +1,127 @@
+{
+  "id": "1012940",
+  "readings": [
+    {
+      "kanaExpression": "やりとり",
+      "rank": 4645
+    },
+    {
+      "kanjiExpression": "やり取り",
+      "furiganaExpression": [
+        {
+          "text": "やり"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 6267
+    },
+    {
+      "kanjiExpression": "遣り取り",
+      "furiganaExpression": [
+        {
+          "text": "遣",
+          "annotation": "や"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "giving and taking",
+        "exchange (of letters)",
+        "arguing back and forth",
+        "(conversational) exchange"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitwisselen",
+        "geven en nemen",
+        "transigeren",
+        "discussiëren",
+        "{i.h.b.} twisten",
+        "kibbelen",
+        "drank uitwisselen",
+        "uitwisseling",
+        "discussie",
+        "{i.h.b.} woordenwisseling",
+        "woordenstrijd",
+        "uitwisseling van drank"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "échange"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "austauschen",
+        "geben und nehmen",
+        "Austausch",
+        "Geben und Nehmen",
+        "Hin und Her",
+        "Wechseln",
+        "Austauschen (von Worten)",
+        "Disput",
+        "Wortwechsel",
+        "Korrespondenz",
+        "Briefwechsel",
+        "gemeinsames Trinken",
+        "gegenseitiges Einschenken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átváltási árfolyam",
+        "beváltási árfolyam",
+        "értéktőzsde",
+        "telefonközpont",
+        "valutaárfolyam"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обмен",
+        "{～する} обмениваться (чем-л.); давать и брать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dajanje in prejemanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "diálogo",
+        "negociación",
+        "trueque"
+      ]
+    }
+  ]
+}

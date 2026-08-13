@@ -1,0 +1,121 @@
+{
+  "id": "1514310",
+  "readings": [
+    {
+      "kanaExpression": "あるきまわる",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "歩き回る",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "ある"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 11173
+    },
+    {
+      "kanjiExpression": "歩きまわる",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "ある"
+        },
+        {
+          "text": "きまわる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "歩き廻る",
+      "furiganaExpression": [
+        {
+          "text": "歩",
+          "annotation": "ある"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "廻",
+          "annotation": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to walk about",
+        "to walk around",
+        "to walk to and fro",
+        "to pace around",
+        "to wander"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rondlopen",
+        "rondgaan",
+        "rondwandelen",
+        "rondstappen",
+        "omwandelen",
+        "omlopen",
+        "wat heen en weer wandelen",
+        "heen en weer lopen",
+        "op en neer lopen",
+        "over en weer lopen",
+        "{i.h.b.} her- en derwaarts kuieren",
+        "{i.h.b.} rondkuieren",
+        "{i.h.b.} rondstruinen",
+        "{i.h.b.} rondslenteren",
+        "{i.h.b.} omdolen",
+        "{i.h.b.} ronddolen",
+        "{i.h.b.} rondzwerven",
+        "{i.h.b.} omdwalen",
+        "{i.h.b.} ronddwalen",
+        "{i.h.b.} omzwalken",
+        "{i.h.b.} rondwaren",
+        "{i.h.b.",
+        "inform.} rondbanjeren",
+        "{i.h.b.} ronddarren",
+        "{i.h.b.} ronddalven"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "herumgehen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ходить кругом (взад и вперёд), бродить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ir de aquí para allá",
+        "ir y venir"
+      ]
+    }
+  ]
+}

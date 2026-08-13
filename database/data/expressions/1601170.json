@@ -1,0 +1,58 @@
+{
+  "id": "1601170",
+  "readings": [
+    {
+      "kanaExpression": "はんき",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "反旗",
+      "furiganaExpression": [
+        {
+          "text": "反",
+          "annotation": "はん"
+        },
+        {
+          "text": "旗",
+          "annotation": "き"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "叛旗",
+      "furiganaExpression": [
+        {
+          "text": "叛",
+          "annotation": "はん"
+        },
+        {
+          "text": "旗",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "standard of revolt",
+        "banner of rebellion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rebellionsflagge",
+        "Banner der Revolte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) знамя восстания"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "2149640",
+  "readings": [
+    {
+      "kanaExpression": "おまたせしました",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お待たせしました",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "待",
+          "annotation": "ま"
+        },
+        {
+          "text": "たせしました"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thank you for waiting",
+        "sorry to have kept you waiting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sorry dat ik je liet wachten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "Merci d\u0027avoir attendu",
+        "Vous ai-je fait attendre ?"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "oprostite za zamudo (dob. \"oprostite, ker sem vaš pustil čakati\")"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "discúlpeme por haberlo hecho esperar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1687210",
+  "readings": [
+    {
+      "kanaExpression": "つうせい",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "通性",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "性",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "common quality",
+        "common property",
+        "common gender"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "allgemeine Eigenschaft",
+        "gemeinsame Eigenschaft",
+        "doppeltes Geschlecht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общее свойство"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "1003920",
+  "readings": [
+    {
+      "kanaExpression": "くまなく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "隈なく",
+      "furiganaExpression": [
+        {
+          "text": "隈",
+          "annotation": "くま"
+        },
+        {
+          "text": "なく"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "隈無く",
+      "furiganaExpression": [
+        {
+          "text": "隈",
+          "annotation": "くま"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "all over",
+        "everywhere",
+        "in every nook and cranny"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "helemaal",
+        "geheel",
+        "overal",
+        "in elk hoekje en gaatje",
+        "zonder het minste wolkje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dans tous les recoins",
+        "partout"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in allen Ecken und Winkeln",
+        "überall",
+        "allenthalben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "végig",
+        "mindenhol"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "повсюду, в каждом закоулке"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sin excepción"
+      ]
+    }
+  ]
+}

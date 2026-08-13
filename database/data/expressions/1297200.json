@@ -1,0 +1,72 @@
+{
+  "id": "1297200",
+  "readings": [
+    {
+      "kanaExpression": "さきみだれる",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "咲き乱れる",
+      "furiganaExpression": [
+        {
+          "text": "咲",
+          "annotation": "さ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "乱",
+          "annotation": "みだ"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "咲乱れる",
+      "furiganaExpression": [
+        {
+          "text": "咲",
+          "annotation": "さき"
+        },
+        {
+          "text": "乱",
+          "annotation": "みだ"
+        },
+        {
+          "text": "れる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to bloom in profusion"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "couvert de fleurs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in voller Blüte stehen",
+        "in großen Mengen blühen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "буйно (пышно) цвести"
+      ]
+    }
+  ]
+}

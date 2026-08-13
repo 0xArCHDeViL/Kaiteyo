@@ -1,0 +1,51 @@
+{
+  "id": "1787140",
+  "readings": [
+    {
+      "kanaExpression": "だいしんさい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "大震災",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "だい"
+        },
+        {
+          "text": "震",
+          "annotation": "しん"
+        },
+        {
+          "text": "災",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 8162
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "great earthquake (disaster)",
+        "highly destructive earthquake"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grote aardbevingsramp",
+        "groot aardbevingsdrama",
+        "aardbevingscatastrofe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "großes Erdbeben",
+        "(insbes.) das große Kantō-Erdbeben (1.9.1923)"
+      ]
+    }
+  ]
+}

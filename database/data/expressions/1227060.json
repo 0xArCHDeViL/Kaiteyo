@@ -1,0 +1,74 @@
+{
+  "id": "1227060",
+  "readings": [
+    {
+      "kanaExpression": "ぎゃくさん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "逆算",
+      "furiganaExpression": [
+        {
+          "text": "逆",
+          "annotation": "ぎゃく"
+        },
+        {
+          "text": "算",
+          "annotation": "さん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "counting backwards",
+        "calculating backwards",
+        "inverse operation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "achteruit tellen",
+        "rekenen",
+        "achterwaarts tellen",
+        "terugtellen",
+        "terugrekenen",
+        "{wisk.} de inverse bewerking maken",
+        "terugtelling",
+        "terugrekening",
+        "{wisk.} inverse bewerking",
+        "omgekeerde bewerking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurückrechnen",
+        "zurückzählen",
+        "Rückrechnung",
+        "umgekehrte Operation",
+        "Zurückzählen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gróf",
+        "megszámlálás",
+        "számítás",
+        "számlálás",
+        "vádpont"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подсчёт в обратном направлении; подсчёт на основании позднейших данных"
+      ]
+    }
+  ]
+}

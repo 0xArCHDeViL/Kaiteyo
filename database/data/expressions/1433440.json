@@ -1,0 +1,65 @@
+{
+  "id": "1433440",
+  "readings": [
+    {
+      "kanaExpression": "つうぞく",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "通俗",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "俗",
+          "annotation": "ぞく"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "popular",
+        "common"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "volkstümlich",
+        "populär",
+        "Popularität"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "könnyen érthető",
+        "közkedvelt",
+        "nép-",
+        "népies",
+        "népszerű",
+        "általános",
+        "átlagos",
+        "együttes",
+        "gyakori",
+        "közönséges",
+        "közösségi",
+        "megszokott"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "популярность, общедоступность",
+        "{～[の]} популярный; общедоступный; простой; общеупотребительный",
+        "{～的} популярный"
+      ]
+    }
+  ]
+}

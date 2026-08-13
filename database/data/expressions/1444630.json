@@ -1,0 +1,64 @@
+{
+  "id": "1444630",
+  "readings": [
+    {
+      "kanaExpression": "わたりあう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "渡り合う",
+      "furiganaExpression": [
+        {
+          "text": "渡",
+          "annotation": "わた"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to fight (with)",
+        "to cross swords",
+        "to compete (with)",
+        "to argue (with)",
+        "to have an argument",
+        "to have a dispute",
+        "to debate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die Klingen kreuzen",
+        "kämpfen",
+        "miteinander wettstreiten",
+        "heftig debattieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érvel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скрестить мечи (с кем-л.)"
+      ]
+    }
+  ]
+}

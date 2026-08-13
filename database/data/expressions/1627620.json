@@ -1,0 +1,46 @@
+{
+  "id": "1627620",
+  "readings": [
+    {
+      "kanaExpression": "ひょうでん",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "票田",
+      "furiganaExpression": [
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "田",
+          "annotation": "でん"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(reliable) source of votes",
+        "area of strong electoral support",
+        "stronghold",
+        "(voter) base"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stimmenlager"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "választókerület"
+      ]
+    }
+  ]
+}

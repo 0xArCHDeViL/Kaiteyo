@@ -1,0 +1,57 @@
+{
+  "id": "1616490",
+  "readings": [
+    {
+      "kanaExpression": "ぶっこ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "物故",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "ぶっ"
+        },
+        {
+          "text": "故",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "death (of a person)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sterben",
+        "Sterben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "halál"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) смерть",
+        "{～せる} (перед именем) покойный…"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "muerte"
+      ]
+    }
+  ]
+}

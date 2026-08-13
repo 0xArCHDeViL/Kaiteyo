@@ -1,0 +1,60 @@
+{
+  "id": "1192300",
+  "readings": [
+    {
+      "kanaExpression": "かていか",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "家庭科",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "か"
+        },
+        {
+          "text": "庭",
+          "annotation": "てい"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "home economics"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Haushaltsunterricht",
+        "Hauswirtschaftsunterricht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "háztartástan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "домоводство (как предмет преподавания)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "economía doméstica"
+      ]
+    }
+  ]
+}

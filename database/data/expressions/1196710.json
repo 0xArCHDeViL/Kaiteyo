@@ -1,0 +1,72 @@
+{
+  "id": "1196710",
+  "readings": [
+    {
+      "kanaExpression": "われながら",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "我ながら",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "われ"
+        },
+        {
+          "text": "ながら"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "我乍ら",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "われ"
+        },
+        {
+          "text": "乍",
+          "annotation": "なが"
+        },
+        {
+          "text": "ら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "even if I say so myself",
+        "for me (to do such a thing)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "al zeg ik het zelf"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vor sich selbst",
+        "obwohl man es selbst ist"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nekem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(нареч.) сам"
+      ]
+    }
+  ]
+}

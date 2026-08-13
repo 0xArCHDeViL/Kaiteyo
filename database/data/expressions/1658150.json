@@ -1,0 +1,54 @@
+{
+  "id": "1658150",
+  "readings": [
+    {
+      "kanaExpression": "しどう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "市道",
+      "furiganaExpression": [
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "道",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "city road",
+        "municipal road"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stadsweg",
+        "stadsstraat",
+        "gemeenteweg",
+        "gemeentestraat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Straße in städtischer Verwaltung"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "camino municipal",
+        "vía municipal"
+      ]
+    }
+  ]
+}

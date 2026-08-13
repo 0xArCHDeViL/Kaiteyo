@@ -1,0 +1,89 @@
+{
+  "id": "1581710",
+  "readings": [
+    {
+      "kanaExpression": "ひるま",
+      "rank": 19000
+    },
+    {
+      "kanaExpression": "ちゅうかん",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "昼間",
+      "furiganaExpression": [
+        {
+          "text": "昼",
+          "annotation": "ひる"
+        },
+        {
+          "text": "間",
+          "annotation": "ま"
+        }
+      ],
+      "rank": 4587
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "daytime",
+        "during the day",
+        "time from sunrise until sunset",
+        "diurnal period"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{bij} dag",
+        "overdag"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jour",
+        "journée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tages…",
+        "Tag",
+        "tagsüber"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nappal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1. дневное время",
+        "{～[の]} дневной",
+        "2. днём"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dan",
+        "podnevi",
+        "čez dan"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "día",
+        "durante el día"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "1316880",
+  "readings": [
+    {
+      "kanaExpression": "ちゆ",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "治癒",
+      "furiganaExpression": [
+        {
+          "text": "治",
+          "annotation": "ち"
+        },
+        {
+          "text": "癒",
+          "annotation": "ゆ"
+        }
+      ],
+      "rank": 12091
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "healing",
+        "cure",
+        "recovery"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "guérison",
+        "récupération"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "heilen",
+        "verheilen",
+        "genesen",
+        "wieder gesund werden",
+        "Heilung",
+        "Genesung",
+        "Gesundung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyógyulás",
+        "felépülés",
+        "felgyógyulás",
+        "fellendülés",
+        "megtalálás",
+        "visszanyerés",
+        "visszaszerzés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "излечение, исцеление",
+        "{～する} излечивать, исцелять"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sanación",
+        "curación",
+        "recuperación"
+      ]
+    }
+  ]
+}

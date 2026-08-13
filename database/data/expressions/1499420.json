@@ -1,0 +1,76 @@
+{
+  "id": "1499420",
+  "readings": [
+    {
+      "kanaExpression": "ぶぞく",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "部族",
+      "furiganaExpression": [
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "族",
+          "annotation": "ぞく"
+        }
+      ],
+      "rank": 10146
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tribe",
+        "clan",
+        "house"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "clan",
+        "famille",
+        "maison",
+        "tribu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stamm",
+        "Sippe",
+        "Geschlecht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nem",
+        "dinasztia",
+        "előadás",
+        "épület",
+        "torony",
+        "tőzsde",
+        "uralkodóház"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "племя"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tribu",
+        "clan",
+        "casa (linaje con un mismo apellido y origen)"
+      ]
+    }
+  ]
+}

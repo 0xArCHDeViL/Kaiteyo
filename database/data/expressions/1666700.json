@@ -1,0 +1,60 @@
+{
+  "id": "1666700",
+  "readings": [
+    {
+      "kanaExpression": "わぎ",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "和議",
+      "furiganaExpression": [
+        {
+          "text": "和",
+          "annotation": "わ"
+        },
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 26500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "peace conference",
+        "peace negotiations"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vredesbesprekingen",
+        "vredesonderhandelingen",
+        "{jur.",
+        "m.b.t. faillissementsregeling} compositie",
+        "minnelijk vergelijk",
+        "akkoord",
+        "compromis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frieden",
+        "Friedensschluss",
+        "Friedensverhandlung",
+        "Vergleich"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) мирные переговоры, мирная конференция",
+        "2) примирение; (юр.) соглашение"
+      ]
+    }
+  ]
+}

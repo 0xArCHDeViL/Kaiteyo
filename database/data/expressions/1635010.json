@@ -1,0 +1,68 @@
+{
+  "id": "1635010",
+  "readings": [
+    {
+      "kanaExpression": "じこう",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "時候",
+      "furiganaExpression": [
+        {
+          "text": "時",
+          "annotation": "じ"
+        },
+        {
+          "text": "候",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "season",
+        "time of the year"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wetter",
+        "Jahreszeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "évad",
+        "évszak",
+        "idény",
+        "szezon"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сезон, время года",
+        "2) погода, климат, климатические условия"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estación",
+        "temporada"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "årstid"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "1495700",
+  "readings": [
+    {
+      "kanaExpression": "つきそう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "付き添う",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "添",
+          "annotation": "そ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "付添う",
+      "furiganaExpression": [
+        {
+          "text": "付",
+          "annotation": "つき"
+        },
+        {
+          "text": "添",
+          "annotation": "そ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to attend on",
+        "to wait on",
+        "to accompany",
+        "to escort",
+        "to chaperone"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bijstaan",
+        "begeleiden",
+        "geleiden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "begleiten",
+        "geleiten",
+        "jmdm. Geleit geben",
+        "bedienen",
+        "pflegen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kísérő jelensége vminek",
+        "velejárója vminek",
+        "gardíroz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сопровождать"
+      ]
+    }
+  ]
+}

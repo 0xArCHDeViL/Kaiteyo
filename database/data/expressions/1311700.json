@@ -1,0 +1,86 @@
+{
+  "id": "1311700",
+  "readings": [
+    {
+      "kanaExpression": "むらさきいろ",
+      "rank": 25000
+    },
+    {
+      "kanaExpression": "ししょく",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "紫色",
+      "furiganaExpression": [
+        {
+          "text": "紫",
+          "annotation": "むらさき"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "purple",
+        "violet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de kleur paars",
+        "violet",
+        "{oneig.} purper",
+        "paarse",
+        "violette",
+        "purperen kleur {\u003d de kleur █}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "violet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Purpur",
+        "Violett",
+        "violett",
+        "purpurn"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ibolya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фиолетовый (лиловый) цвет"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "violeta"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "viol"
+      ]
+    }
+  ]
+}

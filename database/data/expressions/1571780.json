@@ -1,0 +1,111 @@
+{
+  "id": "1571780",
+  "readings": [
+    {
+      "kanaExpression": "バラいろ",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "ばらいろ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "バラ色",
+      "furiganaExpression": [
+        {
+          "text": "バラ"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "薔薇色",
+      "furiganaExpression": [
+        {
+          "text": "薔薇",
+          "annotation": "ばら"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "ばら色",
+      "furiganaExpression": [
+        {
+          "text": "ばら"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rose-colour",
+        "rose-color",
+        "bright (e.g. life, future, prospects)",
+        "cheerful",
+        "rosy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rozenkleur",
+        "rozerood",
+        "rozenrood",
+        "roze",
+        "lichtrode kleur",
+        "{w.g.} rozenkleurig",
+        "rooskleurig",
+        "rozig",
+        "{fig.} rooskleurig",
+        "hoopvol",
+        "optimistisch",
+        "veelbelovend"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rose"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rosa",
+        "Rosarot",
+        "Rosenfarbe",
+        "rosa",
+        "rosarot",
+        "rosig",
+        "rosenfarben"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "розовый цвет"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rosa (color)"
+      ]
+    }
+  ]
+}

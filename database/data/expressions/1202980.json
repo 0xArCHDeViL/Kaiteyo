@@ -1,0 +1,45 @@
+{
+  "id": "1202980",
+  "readings": [
+    {
+      "kanaExpression": "かいもん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "開門",
+      "furiganaExpression": [
+        {
+          "text": "開",
+          "annotation": "かい"
+        },
+        {
+          "text": "門",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "opening gate"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Tor öffnen",
+        "Öffnen eines Tores"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "открытие ворот (входа)",
+        "{～する} открывать ворота (вход)"
+      ]
+    }
+  ]
+}

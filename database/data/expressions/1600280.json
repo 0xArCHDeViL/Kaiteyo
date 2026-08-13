@@ -1,0 +1,121 @@
+{
+  "id": "1600280",
+  "readings": [
+    {
+      "kanaExpression": "のど",
+      "rank": 7306
+    },
+    {
+      "kanaExpression": "のんど"
+    },
+    {
+      "kanaExpression": "のみと"
+    },
+    {
+      "kanaExpression": "のみど"
+    },
+    {
+      "kanaExpression": "ノド"
+    },
+    {
+      "kanjiExpression": "喉",
+      "furiganaExpression": [
+        {
+          "text": "喉",
+          "annotation": "のど"
+        }
+      ],
+      "rank": 6818
+    },
+    {
+      "kanjiExpression": "咽",
+      "furiganaExpression": [
+        {
+          "text": "咽",
+          "annotation": "のど"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "吭",
+      "furiganaExpression": [
+        {
+          "text": "吭",
+          "annotation": "のど"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "throat",
+        "singing voice",
+        "gutter (inner margins of a book)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "keel",
+        "strot",
+        "hals",
+        "{veroud.",
+        "lit.t.} gorgel",
+        "{in bep. uitdr.} roeper",
+        "{meton.} keel",
+        "stemgeluid",
+        "stem",
+        "{boekdr.} rugmarge"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gorge",
+        "voix chantante"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hals",
+        "Kehle",
+        "Gurgel",
+        "Stimme",
+        "Schlucht",
+        "Enge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyílás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горло",
+        "(кн. см.) のど",
+        "1) горло; глотка",
+        "2) голос",
+        "3) корешок, место сшивки книги; сгиб газеты"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "grlo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "garganta",
+        "voz de cantante"
+      ]
+    }
+  ]
+}

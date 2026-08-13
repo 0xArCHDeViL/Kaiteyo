@@ -1,0 +1,76 @@
+{
+  "id": "1188980",
+  "readings": [
+    {
+      "kanaExpression": "なにもの",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "何者",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なに"
+        },
+        {
+          "text": "者",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 8275
+    },
+    {
+      "kanjiExpression": "何もの",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なに"
+        },
+        {
+          "text": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "who",
+        "what kind of person"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wie",
+        "wat voor iemand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wer?"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кто?"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kdo",
+        "oseba kakšne vrste"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "quién (qué clase de persona)"
+      ]
+    }
+  ]
+}

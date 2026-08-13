@@ -1,0 +1,48 @@
+{
+  "id": "1658050",
+  "readings": [
+    {
+      "kanaExpression": "さんぎょうかい",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "産業界",
+      "furiganaExpression": [
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "界",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 18000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the industrial world"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Industriekreise",
+        "Industriewelt"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(el) mundo industrial"
+      ]
+    }
+  ]
+}

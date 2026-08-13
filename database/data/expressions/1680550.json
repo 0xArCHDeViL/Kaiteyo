@@ -1,0 +1,58 @@
+{
+  "id": "1680550",
+  "readings": [
+    {
+      "kanaExpression": "へんしょ",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "返書",
+      "furiganaExpression": [
+        {
+          "text": "返",
+          "annotation": "へん"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reply (to a letter)",
+        "response",
+        "answer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Antwortschreiben",
+        "Antwortbrief",
+        "schriftliche Antwort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "válasz",
+        "érzelmi visszahatás",
+        "felelet",
+        "reagálás",
+        "reakció",
+        "válaszolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ответное письмо, письменный ответ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "1365570",
+  "readings": [
+    {
+      "kanaExpression": "みなり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "身なり",
+      "furiganaExpression": [
+        {
+          "text": "身",
+          "annotation": "み"
+        },
+        {
+          "text": "なり"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "身形",
+      "furiganaExpression": [
+        {
+          "text": "身",
+          "annotation": "み"
+        },
+        {
+          "text": "形",
+          "annotation": "なり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dress",
+        "attire",
+        "clothing",
+        "getup",
+        "outfit",
+        "personal appearance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleding",
+        "kledij",
+        "tenue",
+        "toilet",
+        "dos",
+        "tooi",
+        "dracht",
+        "voorkomen",
+        "uiterlijk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "apparence",
+        "mise",
+        "tenue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kleidung",
+        "äußere Erscheinung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ruha",
+        "berendezés",
+        "felszerelés",
+        "külső megjelenés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "костюм; одежда"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "obleka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "presentación",
+        "apariencia",
+        "vestimenta"
+      ]
+    }
+  ]
+}

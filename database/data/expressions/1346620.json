@@ -1,0 +1,51 @@
+{
+  "id": "1346620",
+  "readings": [
+    {
+      "kanaExpression": "しょうか",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "商科",
+      "furiganaExpression": [
+        {
+          "text": "商",
+          "annotation": "しょう"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commerce (field of study)",
+        "department of commerce (at a university)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "faculteit handelswetenschappen",
+        "departement handelswetenschap"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fakultät für Handelswissenschaften"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "коммерческие науки"
+      ]
+    }
+  ]
+}

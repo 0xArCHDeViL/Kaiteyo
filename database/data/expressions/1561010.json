@@ -1,0 +1,94 @@
+{
+  "id": "1561010",
+  "readings": [
+    {
+      "kanaExpression": "ふける",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "老ける",
+      "furiganaExpression": [
+        {
+          "text": "老",
+          "annotation": "ふ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "化ける",
+      "furiganaExpression": [
+        {
+          "text": "化",
+          "annotation": "ふ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to age",
+        "to grow old (esp. in appearance)",
+        "to show marks of age"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oud worden",
+        "een dagje ouder worden",
+        "verouderen",
+        "vergrijzen",
+        "op leeftijd komen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grandir (veillir)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alt werden",
+        "altern",
+        "alt aussehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "öregít",
+        "öregszik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стареть; стариться"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "starati se"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "envejecer"
+      ]
+    }
+  ]
+}

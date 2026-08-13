@@ -1,0 +1,63 @@
+{
+  "id": "1650140",
+  "readings": [
+    {
+      "kanaExpression": "りんそん"
+    },
+    {
+      "kanaExpression": "となりむら",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "隣村",
+      "furiganaExpression": [
+        {
+          "text": "隣",
+          "annotation": "りん"
+        },
+        {
+          "text": "村",
+          "annotation": "そん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "neighboring village",
+        "neighbouring village"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "buurdorp",
+        "naburig",
+        "nabijgelegen dorp",
+        "volgend dorp"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachbardorf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соседняя деревня, соседнее (ближайшее) село",
+        "соседняя деревня"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pueblo vecino"
+      ]
+    }
+  ]
+}

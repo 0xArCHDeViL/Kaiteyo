@@ -1,0 +1,50 @@
+{
+  "id": "1130560",
+  "readings": [
+    {
+      "kanaExpression": "ミサ",
+      "rank": 10328
+    },
+    {
+      "kanjiExpression": "弥撒",
+      "furiganaExpression": [
+        {
+          "text": "弥撒",
+          "annotation": "ミサ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(Catholic) Mass"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{r.-k.} mis",
+        "misviering",
+        "eucharistie",
+        "eucharistieviering",
+        "{muz.} mis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Messe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mise",
+        "nagy csomó",
+        "tömeg"
+      ]
+    }
+  ]
+}

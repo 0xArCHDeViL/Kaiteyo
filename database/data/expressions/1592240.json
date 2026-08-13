@@ -1,0 +1,92 @@
+{
+  "id": "1592240",
+  "readings": [
+    {
+      "kanaExpression": "くっぷく",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "屈服",
+      "furiganaExpression": [
+        {
+          "text": "屈",
+          "annotation": "くっ"
+        },
+        {
+          "text": "服",
+          "annotation": "ぷく"
+        }
+      ],
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "屈伏",
+      "furiganaExpression": [
+        {
+          "text": "屈",
+          "annotation": "くっ"
+        },
+        {
+          "text": "伏",
+          "annotation": "ぷく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yielding",
+        "submission",
+        "surrender",
+        "giving way",
+        "succumbing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich onderwerpen",
+        "zich overgeven",
+        "zich neerleggen",
+        "toegeven",
+        "zwichten",
+        "onderwerping",
+        "submissie",
+        "overgave",
+        "zwichting",
+        "subjectie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufgeben",
+        "sich ergeben",
+        "sich unterwerfen",
+        "Kapitulation",
+        "Aufgabe",
+        "Unterwerfung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "engedelmesség",
+        "abbahagyás",
+        "átadás",
+        "beszolgáltatás",
+        "elhagyás",
+        "lemondás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подчинение, покорность",
+        "{～する} подчиняться, покоряться; уступать"
+      ]
+    }
+  ]
+}

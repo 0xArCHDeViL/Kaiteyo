@@ -1,0 +1,44 @@
+{
+  "id": "1838690",
+  "readings": [
+    {
+      "kanaExpression": "はざくら",
+      "rank": 37000
+    },
+    {
+      "kanjiExpression": "葉桜",
+      "furiganaExpression": [
+        {
+          "text": "葉",
+          "annotation": "は"
+        },
+        {
+          "text": "桜",
+          "annotation": "ざくら"
+        }
+      ],
+      "rank": 37000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cherry tree in leaf",
+        "cherry tree whose blossoms have fallen, revealing the young leaves"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "belaubter Kirschbaum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "листва вишен после цветения"
+      ]
+    }
+  ]
+}

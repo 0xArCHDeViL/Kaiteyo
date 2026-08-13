@@ -1,0 +1,86 @@
+{
+  "id": "1548010",
+  "readings": [
+    {
+      "kanaExpression": "らいしゅう",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "来週",
+      "furiganaExpression": [
+        {
+          "text": "来",
+          "annotation": "らい"
+        },
+        {
+          "text": "週",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 3266
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "next week"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "volgende week",
+        "komende week",
+        "eerstkomende week",
+        "eerstvolgende week",
+        "de andere week",
+        "{gew.} naaste week"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "semaine prochaine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "nächste Woche"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "következő hét",
+        "következő héten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "будущая неделя"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prihodnji, naslednji teden"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "semana entrante",
+        "semana siguiente"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "nästa vecka"
+      ]
+    }
+  ]
+}

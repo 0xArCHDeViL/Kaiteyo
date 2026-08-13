@@ -1,0 +1,62 @@
+{
+  "id": "1854360",
+  "readings": [
+    {
+      "kanaExpression": "たんきかん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "短期間",
+      "furiganaExpression": [
+        {
+          "text": "短",
+          "annotation": "たん"
+        },
+        {
+          "text": "期",
+          "annotation": "き"
+        },
+        {
+          "text": "間",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 6851
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "short term",
+        "short time"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "kurze Zeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nem teljes munkaidő",
+        "részleges munkaidő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) короткое (недолгое) время"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "a corto plazo",
+        "poco tiempo"
+      ]
+    }
+  ]
+}

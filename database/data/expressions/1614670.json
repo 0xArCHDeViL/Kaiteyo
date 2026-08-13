@@ -1,0 +1,53 @@
+{
+  "id": "1614670",
+  "readings": [
+    {
+      "kanaExpression": "ぎかいせいじ",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "議会政治",
+      "furiganaExpression": [
+        {
+          "text": "議",
+          "annotation": "ぎ"
+        },
+        {
+          "text": "会",
+          "annotation": "かい"
+        },
+        {
+          "text": "政",
+          "annotation": "せい"
+        },
+        {
+          "text": "治",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "parliamentarism",
+        "parliamentary government"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Parlamentarismus",
+        "parlamentarische Demokratie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "парламентаризм, парламентарная система правления"
+      ]
+    }
+  ]
+}

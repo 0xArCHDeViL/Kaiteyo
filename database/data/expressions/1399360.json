@@ -1,0 +1,51 @@
+{
+  "id": "1399360",
+  "readings": [
+    {
+      "kanaExpression": "そうかん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "壮観",
+      "furiganaExpression": [
+        {
+          "text": "壮",
+          "annotation": "そう"
+        },
+        {
+          "text": "観",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "magnificent spectacle",
+        "thrilling sight",
+        "grand view"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "grandioser Anblick"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "látvány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(поэт.) грандиозный вид, величественное зрелище"
+      ]
+    }
+  ]
+}

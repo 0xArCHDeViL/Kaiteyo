@@ -1,0 +1,40 @@
+{
+  "id": "1855220",
+  "readings": [
+    {
+      "kanaExpression": "ゆうばく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "誘爆",
+      "furiganaExpression": [
+        {
+          "text": "誘",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "爆",
+          "annotation": "ばく"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "induced explosion",
+        "secondary explosion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Explosion herbeiführen",
+        "eine Explosion verursachen",
+        "herbeigeführte Explosion"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1478870",
+  "readings": [
+    {
+      "kanaExpression": "はんえん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "半円",
+      "furiganaExpression": [
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "円",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "semicircle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "halbkreisförmig",
+        "Halbkreis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полукруг"
+      ]
+    }
+  ]
+}

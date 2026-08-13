@@ -1,0 +1,69 @@
+{
+  "id": "1604770",
+  "readings": [
+    {
+      "kanaExpression": "むかいかぜ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "向い風",
+      "furiganaExpression": [
+        {
+          "text": "向",
+          "annotation": "むか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "向かい風",
+      "furiganaExpression": [
+        {
+          "text": "向",
+          "annotation": "む"
+        },
+        {
+          "text": "かい"
+        },
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "headwind",
+        "head wind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gegenwind"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "встречный (противный) ветер"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vindrätt"
+      ]
+    }
+  ]
+}

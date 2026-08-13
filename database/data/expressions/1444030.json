@@ -1,0 +1,75 @@
+{
+  "id": "1444030",
+  "readings": [
+    {
+      "kanaExpression": "ともあれ",
+      "rank": 7060
+    },
+    {
+      "kanjiExpression": "兎もあれ",
+      "furiganaExpression": [
+        {
+          "text": "兎",
+          "annotation": "と"
+        },
+        {
+          "text": "もあれ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "とも有れ",
+      "furiganaExpression": [
+        {
+          "text": "とも"
+        },
+        {
+          "text": "有",
+          "annotation": "あ"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "兎も有れ",
+      "furiganaExpression": [
+        {
+          "text": "兎",
+          "annotation": "と"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "有",
+          "annotation": "あ"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "anyhow",
+        "in any case"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "akárhogyan",
+        "így is úgy is",
+        "különben is",
+        "mindenesetre",
+        "mindenképpen",
+        "valahogyan"
+      ]
+    }
+  ]
+}

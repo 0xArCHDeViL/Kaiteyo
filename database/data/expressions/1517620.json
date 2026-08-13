@@ -1,0 +1,81 @@
+{
+  "id": "1517620",
+  "readings": [
+    {
+      "kanaExpression": "ほうだん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "砲弾",
+      "furiganaExpression": [
+        {
+          "text": "砲",
+          "annotation": "ほう"
+        },
+        {
+          "text": "弾",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shell",
+        "cannonball"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "projectiel",
+        "kanonskogel",
+        "bom",
+        "bommetje",
+        "granaat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschoss",
+        "Kugel",
+        "Kanonenkugel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csigaház",
+        "héjszerkezet",
+        "karosszérialemezek",
+        "kéreg",
+        "köpeny",
+        "lövedék",
+        "versenycsónak"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[орудийный] снаряд"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "proyectil",
+        "obús"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skal"
+      ]
+    }
+  ]
+}

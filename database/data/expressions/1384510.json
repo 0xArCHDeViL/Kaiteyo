@@ -1,0 +1,108 @@
+{
+  "id": "1384510",
+  "readings": [
+    {
+      "kanaExpression": "きりたおす",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "切り倒す",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "倒",
+          "annotation": "たお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "斬り倒す",
+      "furiganaExpression": [
+        {
+          "text": "斬",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "倒",
+          "annotation": "たお"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "切倒す",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "倒",
+          "annotation": "たお"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to cut down",
+        "to chop down",
+        "to fell"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kappen",
+        "omhakken",
+        "omhouwen",
+        "vellen",
+        "aankappen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fällen",
+        "schlagen",
+        "umhauen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ledönt",
+        "lerövidít",
+        "megrövidít",
+        "letaglóz",
+        "leüt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "срубить, повалить (дерево); ((тж.) 斬り倒す) зарубить (человека)"
+      ]
+    }
+  ]
+}

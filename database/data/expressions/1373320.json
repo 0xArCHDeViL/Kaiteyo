@@ -1,0 +1,88 @@
+{
+  "id": "1373320",
+  "readings": [
+    {
+      "kanaExpression": "すうりょう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "数量",
+      "furiganaExpression": [
+        {
+          "text": "数",
+          "annotation": "すう"
+        },
+        {
+          "text": "量",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 6462
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "quantity",
+        "volume",
+        "amount"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoeveelheid",
+        "kwantiteit",
+        "grootte",
+        "kwantum"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "quantité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Quantität",
+        "Menge"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hangmennyiség",
+        "időmérték",
+        "kvantitás",
+        "nagy mennyiség",
+        "prozódiai jel",
+        "tömeg",
+        "könyv",
+        "térfogat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "количество, численность"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "količina",
+        "prostornina"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cantidad",
+        "monto"
+      ]
+    }
+  ]
+}

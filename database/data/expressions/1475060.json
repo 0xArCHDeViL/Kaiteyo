@@ -1,0 +1,66 @@
+{
+  "id": "1475060",
+  "readings": [
+    {
+      "kanaExpression": "しらかば",
+      "rank": 26573
+    },
+    {
+      "kanaExpression": "しらかんば"
+    },
+    {
+      "kanaExpression": "シラカバ"
+    },
+    {
+      "kanaExpression": "シラカンバ"
+    },
+    {
+      "kanjiExpression": "白樺",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "しら"
+        },
+        {
+          "text": "樺",
+          "annotation": "かば"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese white birch (Betula platyphylla var. japonica)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} Japanse zilverberk",
+        "Betula platyphylla var. japonica"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Birke"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyírfa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) белая берёза; (ср.) しらかんば",
+        "берёза широколистная, Betula platyphylla (Sukatchev) var. japonica (Hara.)"
+      ]
+    }
+  ]
+}

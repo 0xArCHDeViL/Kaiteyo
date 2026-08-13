@@ -1,0 +1,67 @@
+{
+  "id": "1195370",
+  "readings": [
+    {
+      "kanaExpression": "にだい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "荷台",
+      "furiganaExpression": [
+        {
+          "text": "荷",
+          "annotation": "に"
+        },
+        {
+          "text": "台",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(truck) load-carrying tray",
+        "(bicycle) luggage carrier",
+        "roof rack"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{トラックの}laadbak",
+        "laadplateau",
+        "laadbord",
+        "laadplaat",
+        "laadplatform",
+        "pallet",
+        "{自転車の} bagagedrager",
+        "carrier",
+        "pakjesdrager",
+        "{自動車の} imperiaal",
+        "bagagerek",
+        "rek",
+        "allesdrager",
+        "dakrek",
+        "roofrack"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ladefläche (eines Lastwagens)",
+        "Gepäckträger (eines Fahrrades o.Ä.)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rakodófelület",
+        "raklap"
+      ]
+    }
+  ]
+}

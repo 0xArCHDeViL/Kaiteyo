@@ -1,0 +1,71 @@
+{
+  "id": "1614290",
+  "readings": [
+    {
+      "kanaExpression": "かんぷ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "還付",
+      "furiganaExpression": [
+        {
+          "text": "還",
+          "annotation": "かん"
+        },
+        {
+          "text": "付",
+          "annotation": "ぷ"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "return",
+        "restoration",
+        "refund",
+        "(duty) drawback"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurückgeben",
+        "wiedererstatten",
+        "Rückgabe",
+        "Wiedererstattung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "haszon",
+        "jövedelem",
+        "nyereség",
+        "visszahelyezés",
+        "visszatérítés",
+        "visszatérít",
+        "megtérít",
+        "visszafizet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возврат, возвращение",
+        "{～する} возвращать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "restitución",
+        "devolución",
+        "devolución de efectos o piezas de convicción retenidos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "1635980",
+  "readings": [
+    {
+      "kanaExpression": "かべしんぶん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "壁新聞",
+      "furiganaExpression": [
+        {
+          "text": "壁",
+          "annotation": "かべ"
+        },
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "聞",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wall newspaper",
+        "wall poster"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wandzeitung",
+        "Aushang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стенная газета, стенгазета"
+      ]
+    }
+  ]
+}

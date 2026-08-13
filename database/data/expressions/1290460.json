@@ -1,0 +1,69 @@
+{
+  "id": "1290460",
+  "readings": [
+    {
+      "kanaExpression": "こんせん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "混戦",
+      "furiganaExpression": [
+        {
+          "text": "混",
+          "annotation": "こん"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "confused fight",
+        "free-for-all",
+        "melee",
+        "close contest",
+        "close match"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verward gevecht",
+        "wilde strijd",
+        "strijdgewoel",
+        "krijgsgewoel",
+        "mêlee",
+        "woelige competitie",
+        "spannende match",
+        "gelijk opgaande wedstrijd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Handgemenge",
+        "heißer Kampf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "беспорядочный бой; схватка",
+        "{～する} биться в беспорядке"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "riña tumultuaria",
+        "lucha todos contra todos"
+      ]
+    }
+  ]
+}

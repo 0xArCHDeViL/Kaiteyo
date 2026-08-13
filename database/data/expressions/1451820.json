@@ -1,0 +1,54 @@
+{
+  "id": "1451820",
+  "readings": [
+    {
+      "kanaExpression": "どうい",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "同位",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "位",
+          "annotation": "い"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the same rank",
+        "the same digit"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dezelfde rang",
+        "positie",
+        "iso-"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "derselbe Rang",
+        "dieselbe Position",
+        "dieselbe Ziffer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "одинаковый ранг, одинаковое положение"
+      ]
+    }
+  ]
+}

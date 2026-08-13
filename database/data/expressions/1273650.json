@@ -1,0 +1,49 @@
+{
+  "id": "1273650",
+  "readings": [
+    {
+      "kanaExpression": "こうこ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "公庫",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "庫",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 9691
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "finance corporation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Finanzkasse (Regierungsfinanzorgan für die Verwaltung öffentlicher Geldmittel)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кредитное учреждение (полуобщественного, полуказённого типа)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "corporación financiera"
+      ]
+    }
+  ]
+}

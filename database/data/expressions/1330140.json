@@ -1,0 +1,55 @@
+{
+  "id": "1330140",
+  "readings": [
+    {
+      "kanaExpression": "じゅじゅつ",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "呪術",
+      "furiganaExpression": [
+        {
+          "text": "呪",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "術",
+          "annotation": "じゅつ"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "magic",
+        "sorcery",
+        "incantation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "toverkunst",
+        "magie",
+        "toverij"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zauberei",
+        "Magie",
+        "Hexerei"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bűvészet"
+      ]
+    }
+  ]
+}

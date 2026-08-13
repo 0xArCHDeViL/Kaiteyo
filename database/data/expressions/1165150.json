@@ -1,0 +1,81 @@
+{
+  "id": "1165150",
+  "readings": [
+    {
+      "kanaExpression": "いっとう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "一党",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "１党",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いっ"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one party",
+        "one faction",
+        "one clique"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bende",
+        "kliek",
+        "gezelschap",
+        "{pol.} een partij",
+        "{Jap.gesch.} samoeraiclan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Partei"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "buli"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[одна] партия; [одна] группа; [одна] труппа"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "partido",
+        "camarilla"
+      ]
+    }
+  ]
+}

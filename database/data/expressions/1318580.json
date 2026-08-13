@@ -1,0 +1,52 @@
+{
+  "id": "1318580",
+  "readings": [
+    {
+      "kanaExpression": "じひ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "自費",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "費",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s own expense",
+        "out-of-pocket expense"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eigen kosten",
+        "eigen rekening"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eigene Kosten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "расходы за собственный счёт",
+        "{～で} за свой счёт"
+      ]
+    }
+  ]
+}

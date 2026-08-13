@@ -1,0 +1,55 @@
+{
+  "id": "1476550",
+  "readings": [
+    {
+      "kanaExpression": "はたち",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "畑地",
+      "furiganaExpression": [
+        {
+          "text": "畑",
+          "annotation": "はた"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "farmland"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "terre agricole"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ackerland"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gazdaság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поле, обработанная земля"
+      ]
+    }
+  ]
+}

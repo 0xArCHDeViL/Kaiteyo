@@ -1,0 +1,64 @@
+{
+  "id": "1614360",
+  "readings": [
+    {
+      "kanaExpression": "かおみしり",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "顔見知り",
+      "furiganaExpression": [
+        {
+          "text": "顔",
+          "annotation": "かお"
+        },
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "知",
+          "annotation": "し"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "acquaintance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bekannter",
+        "Bekanntschaft vom Sehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ismeretség"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "conocido",
+        "persona conocida"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bekanting"
+      ]
+    }
+  ]
+}

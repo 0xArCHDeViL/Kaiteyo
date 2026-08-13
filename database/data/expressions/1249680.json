@@ -1,0 +1,86 @@
+{
+  "id": "1249680",
+  "readings": [
+    {
+      "kanaExpression": "けいじじけん",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "刑事事件",
+      "furiganaExpression": [
+        {
+          "text": "刑",
+          "annotation": "けい"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "件",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "刑事々件",
+      "furiganaExpression": [
+        {
+          "text": "刑",
+          "annotation": "けい"
+        },
+        {
+          "text": "事",
+          "annotation": "じ"
+        },
+        {
+          "text": "々",
+          "annotation": "じ"
+        },
+        {
+          "text": "件",
+          "annotation": "けん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "criminal case"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Strafsache",
+        "Kriminalfall"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bűnper"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уголовное дело"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "brottmål",
+        "kriminalfall"
+      ]
+    }
+  ]
+}

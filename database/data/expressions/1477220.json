@@ -1,0 +1,68 @@
+{
+  "id": "1477220",
+  "readings": [
+    {
+      "kanaExpression": "はっかん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "発汗",
+      "furiganaExpression": [
+        {
+          "text": "発",
+          "annotation": "はっ"
+        },
+        {
+          "text": "汗",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sweating",
+        "perspiration",
+        "sudation",
+        "hidrosis",
+        "diaphoresis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwitzen",
+        "Schwitzen",
+        "Transpiration",
+        "Schweißausbruch",
+        "Hautausdünstungen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "izzadás",
+        "izzadság",
+        "veríték"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[обильное] потение; потоотделение",
+        "{～する} потеть",
+        "{～させる} вызывать потоотделение (потение); бросать в пот",
+        "{～の}, 発汗を促す потогонный"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "svettning"
+      ]
+    }
+  ]
+}

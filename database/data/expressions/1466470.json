@@ -1,0 +1,48 @@
+{
+  "id": "1466470",
+  "readings": [
+    {
+      "kanaExpression": "にゅうせん",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "入船",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "船",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "arrival of a ship",
+        "ship coming into a port"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einlaufendes Schiff",
+        "ankommendes Schiff",
+        "Ankunft des Schiffes"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) прибытие судна",
+        "{～する} прибыть (о судне и т. п.)",
+        "2) прибывшее судно"
+      ]
+    }
+  ]
+}

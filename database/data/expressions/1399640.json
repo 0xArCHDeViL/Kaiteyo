@@ -1,0 +1,95 @@
+{
+  "id": "1399640",
+  "readings": [
+    {
+      "kanaExpression": "さがしもとめる",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "探し求める",
+      "furiganaExpression": [
+        {
+          "text": "探",
+          "annotation": "さが"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "求",
+          "annotation": "もと"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "捜し求める",
+      "furiganaExpression": [
+        {
+          "text": "捜",
+          "annotation": "さが"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "求",
+          "annotation": "もと"
+        },
+        {
+          "text": "める"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "探しもとめる",
+      "furiganaExpression": [
+        {
+          "text": "探",
+          "annotation": "さが"
+        },
+        {
+          "text": "しもとめる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "捜しもとめる",
+      "furiganaExpression": [
+        {
+          "text": "捜",
+          "annotation": "さが"
+        },
+        {
+          "text": "しもとめる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to search for",
+        "to seek for",
+        "to look for"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hinterher sein",
+        "zu bekommen suchen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "keres"
+      ]
+    }
+  ]
+}

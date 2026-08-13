@@ -1,0 +1,132 @@
+{
+  "id": "1169780",
+  "readings": [
+    {
+      "kanaExpression": "のみほす",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "飲み干す",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "の"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "干",
+          "annotation": "ほ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "飲み乾す",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "の"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "乾",
+          "annotation": "ほ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "飲干す",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "のみ"
+        },
+        {
+          "text": "干",
+          "annotation": "ほ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "飲みほす",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "の"
+        },
+        {
+          "text": "みほす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to drink up",
+        "to drink to the last drop",
+        "to drink (a glass) dry",
+        "to drain (one\u0027s glass)",
+        "to empty",
+        "to down (a drink)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leegdrinken",
+        "opdrinken",
+        "uitdrinken",
+        "ledigen",
+        "{一息に～} achteroverslaan",
+        "{すっかり～} leegdrinken,\u0027m omslaan",
+        "{Belg.N.} uitkuisen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "austrinken",
+        "leer trinken",
+        "leeren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alagcsövez",
+        "elfolyik",
+        "kiszárít",
+        "kiszipolyoz",
+        "lecsapol"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "осушать (бокал), выпивать до дна"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bebérselo todo",
+        "vaciar (copa)"
+      ]
+    }
+  ]
+}

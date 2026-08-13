@@ -1,0 +1,58 @@
+{
+  "id": "1428780",
+  "readings": [
+    {
+      "kanaExpression": "ちょうそん",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "町村",
+      "furiganaExpression": [
+        {
+          "text": "町",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "村",
+          "annotation": "そん"
+        }
+      ],
+      "rank": 6311
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "towns and villages"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "plaatsen en dorpen",
+        "gemeenten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Städte und Dörfer",
+        "Stadt und Land",
+        "Ortsgemeinde"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "города и сёла"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ciudades y pueblos"
+      ]
+    }
+  ]
+}

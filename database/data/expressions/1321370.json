@@ -1,0 +1,55 @@
+{
+  "id": "1321370",
+  "readings": [
+    {
+      "kanaExpression": "じつだん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "実弾",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じつ"
+        },
+        {
+          "text": "弾",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "live bullets",
+        "live ammunition",
+        "ball cartridge",
+        "money"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "scharfe Munition",
+        "scharfe Patronen",
+        "Geld",
+        "Moneten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "papírpénz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "боевой патрон (снаряд) (тж. обр. о деньгах, используемых в качестве взятки)"
+      ]
+    }
+  ]
+}

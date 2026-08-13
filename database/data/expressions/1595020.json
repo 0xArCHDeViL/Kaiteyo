@@ -1,0 +1,130 @@
+{
+  "id": "1595020",
+  "readings": [
+    {
+      "kanaExpression": "しょうゆ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "しょうゆう"
+    },
+    {
+      "kanaExpression": "せうゆ"
+    },
+    {
+      "kanaExpression": "しょゆ"
+    },
+    {
+      "kanaExpression": "しょゆう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "醤油",
+      "furiganaExpression": [
+        {
+          "text": "醤",
+          "annotation": "しょう"
+        },
+        {
+          "text": "油",
+          "annotation": "ゆ"
+        }
+      ],
+      "rank": 6741
+    },
+    {
+      "kanjiExpression": "しょう油",
+      "furiganaExpression": [
+        {
+          "text": "しょう"
+        },
+        {
+          "text": "油",
+          "annotation": "ゆ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "醬油",
+      "furiganaExpression": [
+        {
+          "text": "醬",
+          "annotation": "しょう"
+        },
+        {
+          "text": "油",
+          "annotation": "ゆ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "正油",
+      "furiganaExpression": [
+        {
+          "text": "正",
+          "annotation": "しょう"
+        },
+        {
+          "text": "油",
+          "annotation": "ゆ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "soy sauce",
+        "shoyu"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "shoyu",
+        "Japanse soja",
+        "sojasaus",
+        "Japanse ketjap"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "sauce soja"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sojasoße",
+        "Sojasauce"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "соевый соус",
+        "соя (соус, приправа)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sojina omaka"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "shoyu (un tipo de salsa de soja Japonesa)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "soja"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "1260700",
+  "readings": [
+    {
+      "kanaExpression": "もとより",
+      "rank": 7302
+    },
+    {
+      "kanjiExpression": "元より",
+      "furiganaExpression": [
+        {
+          "text": "元",
+          "annotation": "もと"
+        },
+        {
+          "text": "より"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "固より",
+      "furiganaExpression": [
+        {
+          "text": "固",
+          "annotation": "もと"
+        },
+        {
+          "text": "より"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "素より",
+      "furiganaExpression": [
+        {
+          "text": "素",
+          "annotation": "もと"
+        },
+        {
+          "text": "より"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "from the beginning",
+        "from the first",
+        "all along",
+        "originally",
+        "of course",
+        "not to mention ...",
+        "not only ... but also ...",
+        "to say nothing of ..."
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "depuis le début"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "von Anfang an",
+        "eigentlich",
+        "ursprünglich",
+        "von Natur",
+        "natürlich",
+        "selbstverständlich",
+        "selbstredend",
+        "gewiss"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kezdettől fogva",
+        "természetesen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) с самого начала; первоначально",
+        "2) (см.) もちろん"
+      ]
+    }
+  ]
+}

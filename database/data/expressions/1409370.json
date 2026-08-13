@@ -1,0 +1,109 @@
+{
+  "id": "1409370",
+  "readings": [
+    {
+      "kanaExpression": "たいけい",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "体型",
+      "furiganaExpression": [
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "型",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 11705
+    },
+    {
+      "kanjiExpression": "体形",
+      "furiganaExpression": [
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "形",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "figure",
+        "body shape",
+        "build",
+        "physique",
+        "form",
+        "somatotype",
+        "biotype",
+        "habitus",
+        "(type of) physique"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vorm",
+        "figuur",
+        "bouw",
+        "fysiek",
+        "lichaamstype",
+        "lichaamsvorm",
+        "lichaamsbouw",
+        "{geneesk.} habitus",
+        "somatotype"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "silhouette"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Figur",
+        "Form",
+        "Gestalt",
+        "Körpergestalt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "diagram",
+        "illusztráció",
+        "termet",
+        "alak",
+        "forma",
+        "ábra",
+        "alakzat",
+        "számjegy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "форма"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "figura (cuerpo)",
+        "forma",
+        "figura"
+      ]
+    }
+  ]
+}

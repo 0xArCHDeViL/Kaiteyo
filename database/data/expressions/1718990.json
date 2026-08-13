@@ -1,0 +1,58 @@
+{
+  "id": "1718990",
+  "readings": [
+    {
+      "kanaExpression": "かちはんだん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "価値判断",
+      "furiganaExpression": [
+        {
+          "text": "価",
+          "annotation": "か"
+        },
+        {
+          "text": "値",
+          "annotation": "ち"
+        },
+        {
+          "text": "判",
+          "annotation": "はん"
+        },
+        {
+          "text": "断",
+          "annotation": "だん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "value judgement",
+        "value judgment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waardeoordeel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wertbeurteilung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оценка, определение стоимости"
+      ]
+    }
+  ]
+}

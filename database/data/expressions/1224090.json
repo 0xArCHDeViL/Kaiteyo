@@ -1,0 +1,101 @@
+{
+  "id": "1224090",
+  "readings": [
+    {
+      "kanaExpression": "きが",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "飢餓",
+      "furiganaExpression": [
+        {
+          "text": "飢",
+          "annotation": "き"
+        },
+        {
+          "text": "餓",
+          "annotation": "が"
+        }
+      ],
+      "rank": 14405
+    },
+    {
+      "kanjiExpression": "饑餓",
+      "furiganaExpression": [
+        {
+          "text": "饑",
+          "annotation": "き"
+        },
+        {
+          "text": "餓",
+          "annotation": "が"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "starvation",
+        "famine",
+        "hunger"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verhongering",
+        "hongersnood",
+        "uitgehongerdheid",
+        "{geneesk.} inanitie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faim"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hunger",
+        "Hungersnot",
+        "Inanition"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "éhség",
+        "éhínség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "голод"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "lakota",
+        "glad"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hambre"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hunger"
+      ]
+    }
+  ]
+}

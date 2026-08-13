@@ -1,0 +1,64 @@
+{
+  "id": "1294240",
+  "readings": [
+    {
+      "kanaExpression": "さいていげん",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "最低限",
+      "furiganaExpression": [
+        {
+          "text": "最",
+          "annotation": "さい"
+        },
+        {
+          "text": "低",
+          "annotation": "てい"
+        },
+        {
+          "text": "限",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 5662
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "minimum",
+        "at the very least"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "minimum",
+        "ondergrens",
+        "onderste grens",
+        "limiet",
+        "grens naar beneden (toe)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Minimum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "самый низкий предел"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mínimo"
+      ]
+    }
+  ]
+}

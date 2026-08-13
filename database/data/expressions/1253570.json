@@ -1,0 +1,67 @@
+{
+  "id": "1253570",
+  "readings": [
+    {
+      "kanaExpression": "うつ",
+      "rank": 3360
+    },
+    {
+      "kanjiExpression": "撃つ",
+      "furiganaExpression": [
+        {
+          "text": "撃",
+          "annotation": "う"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "rank": 5449
+    },
+    {
+      "kanjiExpression": "射つ",
+      "furiganaExpression": [
+        {
+          "text": "射",
+          "annotation": "う"
+        },
+        {
+          "text": "つ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to shoot (a gun, person, etc.)",
+        "to fire"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tirer (sur)",
+        "assaillir",
+        "attaquer",
+        "vaincre",
+        "détruire",
+        "venger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megbosszul"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "atacar",
+        "vengar"
+      ]
+    }
+  ]
+}

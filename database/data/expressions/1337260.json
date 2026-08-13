@@ -1,0 +1,49 @@
+{
+  "id": "1337260",
+  "readings": [
+    {
+      "kanaExpression": "しゅくば",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "宿場",
+      "furiganaExpression": [
+        {
+          "text": "宿",
+          "annotation": "しゅく"
+        },
+        {
+          "text": "場",
+          "annotation": "ば"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "relay station (esp. on Edo-period highway)",
+        "post station",
+        "stage"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "relais",
+        "pleisterplaats",
+        "poststation",
+        "stopplaats"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Poststation",
+        "Station"
+      ]
+    }
+  ]
+}

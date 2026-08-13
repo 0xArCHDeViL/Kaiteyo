@@ -1,0 +1,67 @@
+{
+  "id": "1452220",
+  "readings": [
+    {
+      "kanaExpression": "どうけい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "同系",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "系",
+          "annotation": "けい"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "affiliated",
+        "akin"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneal.} dezelfde lijn",
+        "linie",
+        "afstamming",
+        "stam",
+        "afkomst",
+        "verwant",
+        "aanverwant",
+        "gelieerd",
+        "geaffilieerd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gleiche Abstammung",
+        "gleiche Herkunft",
+        "von gleicher Abstammung",
+        "von gleicher Herkunft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hasonló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} родственный, того же происхождения"
+      ]
+    }
+  ]
+}

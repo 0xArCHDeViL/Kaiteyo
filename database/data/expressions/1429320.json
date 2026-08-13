@@ -1,0 +1,53 @@
+{
+  "id": "1429320",
+  "readings": [
+    {
+      "kanaExpression": "ちょうりつ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "調律",
+      "furiganaExpression": [
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "律",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tuning (musical)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stemming",
+        "het op de juiste toon brengen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "stimmen (ein Instrument)",
+        "Stimmung",
+        "Stimmen (eines Instruments)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(муз.) настройка",
+        "{～する} настраивать"
+      ]
+    }
+  ]
+}

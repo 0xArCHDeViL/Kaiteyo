@@ -1,0 +1,64 @@
+{
+  "id": "1718020",
+  "readings": [
+    {
+      "kanaExpression": "すその",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "裾野",
+      "furiganaExpression": [
+        {
+          "text": "裾",
+          "annotation": "すそ"
+        },
+        {
+          "text": "野",
+          "annotation": "の"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "すそ野",
+      "furiganaExpression": [
+        {
+          "text": "すそ"
+        },
+        {
+          "text": "野",
+          "annotation": "の"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "foot of a mountain",
+        "plain at the foot of a mountain",
+        "range",
+        "spread",
+        "extent",
+        "encompassing circle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fuß eines Berges",
+        "Bereich",
+        "Gebiet",
+        "Umfang",
+        "Susono (Stadt im Nordosten der Präf. Shizuoka)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "отлогий склон подошвы горы, подножие горы"
+      ]
+    }
+  ]
+}

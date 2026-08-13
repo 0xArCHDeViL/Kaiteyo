@@ -1,0 +1,119 @@
+{
+  "id": "1591080",
+  "readings": [
+    {
+      "kanaExpression": "ききん",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "飢饉",
+      "furiganaExpression": [
+        {
+          "text": "飢",
+          "annotation": "き"
+        },
+        {
+          "text": "饉",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "飢きん",
+      "furiganaExpression": [
+        {
+          "text": "飢",
+          "annotation": "き"
+        },
+        {
+          "text": "きん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "饑饉",
+      "furiganaExpression": [
+        {
+          "text": "饑",
+          "annotation": "き"
+        },
+        {
+          "text": "饉",
+          "annotation": "きん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "famine",
+        "crop failure",
+        "chronic shortage (e.g. of water)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hongersnood",
+        "nijpend tekort",
+        "mislukking van de oogst"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "famine",
+        "sécheresse",
+        "pénurie",
+        "mauvaise récolte"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hungersnot",
+        "Nahrungsmittel-Knappheit",
+        "Hungerkatastrophe",
+        "Mangel",
+        "Knappheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "éhség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "голод; (обр.) недостаток, нехватка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "lakota",
+        "glad"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hambruna",
+        "escasez",
+        "penuria",
+        "carencia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hungersnöd"
+      ]
+    }
+  ]
+}

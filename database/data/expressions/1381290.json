@@ -1,0 +1,145 @@
+{
+  "id": "1381290",
+  "readings": [
+    {
+      "kanaExpression": "うけあう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "請け合う",
+      "furiganaExpression": [
+        {
+          "text": "請",
+          "annotation": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "受け合う",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "請合う",
+      "furiganaExpression": [
+        {
+          "text": "請",
+          "annotation": "うけ"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "受合う",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "うけ"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to undertake",
+        "to take on (task)",
+        "to assure",
+        "to guarantee",
+        "to vouch (for)",
+        "to promise"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "op zich nemen",
+        "als uitdaging accepteren",
+        "ervoor zorgen",
+        "zich verbinden",
+        "garanderen",
+        "waarborgen",
+        "instaan voor",
+        "verzekeren",
+        "garant staan",
+        "borg staan",
+        "beloven",
+        "het gehalte garanderen van"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "garantieren",
+        "gewährleisten",
+        "die Gewähr übernehmen",
+        "jmdm. versichern",
+        "eine Arbeit übernehmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "biztosít",
+        "meggyőz",
+        "belefog",
+        "belekezd",
+        "magára vállal",
+        "vállal",
+        "vállalkozik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) брать на себя (какое-л. дело)",
+        "2) ручаться (за кого-что-л.); гарантировать (что-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tomar una tarea y garantizar éxito en ella"
+      ]
+    }
+  ]
+}

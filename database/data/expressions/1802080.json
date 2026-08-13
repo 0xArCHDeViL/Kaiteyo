@@ -1,0 +1,43 @@
+{
+  "id": "1802080",
+  "readings": [
+    {
+      "kanaExpression": "せんしょう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "戦傷",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "傷",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "war wound"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kriegsverletzung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ранение в бою"
+      ]
+    }
+  ]
+}

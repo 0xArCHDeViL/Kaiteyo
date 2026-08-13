@@ -1,0 +1,80 @@
+{
+  "id": "1169860",
+  "readings": [
+    {
+      "kanaExpression": "のみぐすり",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "飲み薬",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "の"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "薬",
+          "annotation": "ぐすり"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "飲薬",
+      "furiganaExpression": [
+        {
+          "text": "飲",
+          "annotation": "のみ"
+        },
+        {
+          "text": "薬",
+          "annotation": "ぐすり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "oral medicine",
+        "internal medicine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geneesmiddel voor inwendig gebruik",
+        "oraal medicijn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "orales Medikament"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лекарство для приёма внутрь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "medicina oral",
+        "medicina interna"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "internmedicin"
+      ]
+    }
+  ]
+}

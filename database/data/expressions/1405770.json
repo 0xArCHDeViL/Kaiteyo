@@ -1,0 +1,78 @@
+{
+  "id": "1405770",
+  "readings": [
+    {
+      "kanaExpression": "ぞく",
+      "rank": 33000
+    },
+    {
+      "kanaExpression": "ぞう",
+      "rank": 9182
+    },
+    {
+      "kanjiExpression": "族",
+      "furiganaExpression": [
+        {
+          "text": "族",
+          "annotation": "ぞく"
+        }
+      ],
+      "rank": 3285
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tribe",
+        "clan",
+        "band",
+        "family",
+        "(taxonomical) tribe",
+        "group (of the periodic table)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "-familie",
+        "-stam",
+        "-ras",
+        "-dom",
+        "{chem.} -groep"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stamm",
+        "Rasse",
+        "Volk",
+        "Familie",
+        "Familie (z.B. Sprachfamilie)",
+        "Elementfamilie",
+        "Gruppe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "faj",
+        "nem",
+        "néptörzs",
+        "életpálya",
+        "verseny"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tribu (taxonomía)",
+        "grupo de la tabla periódica",
+        "raza",
+        "grupo",
+        "pueblo"
+      ]
+    }
+  ]
+}

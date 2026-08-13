@@ -1,0 +1,94 @@
+{
+  "id": "1396860",
+  "readings": [
+    {
+      "kanaExpression": "そぼ",
+      "rank": 20000
+    },
+    {
+      "kanaExpression": "ばば",
+      "rank": 19500
+    },
+    {
+      "kanaExpression": "おおば"
+    },
+    {
+      "kanaExpression": "おば",
+      "rank": 5737
+    },
+    {
+      "kanaExpression": "うば",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "祖母",
+      "furiganaExpression": [
+        {
+          "text": "祖",
+          "annotation": "そ"
+        },
+        {
+          "text": "母",
+          "annotation": "ぼ"
+        }
+      ],
+      "rank": 6471
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "grandmother"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grootmoeder",
+        "grootmama",
+        "grootma",
+        "grootmoe",
+        "oma"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "grand-mère"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Großmutter",
+        "Oma"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nagyanya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бабушка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "stara mama",
+        "babica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abuela"
+      ]
+    }
+  ]
+}

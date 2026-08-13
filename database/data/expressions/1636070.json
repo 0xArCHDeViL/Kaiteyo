@@ -1,0 +1,64 @@
+{
+  "id": "1636070",
+  "readings": [
+    {
+      "kanaExpression": "かい",
+      "rank": 4627
+    },
+    {
+      "kanjiExpression": "買い",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 4335
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "buying",
+        "shopping",
+        "buyer",
+        "purchase"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "koop",
+        "aankoop",
+        "verwerving"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kauf",
+        "Einkauf",
+        "Kaufen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "könnyítés",
+        "szerzemény",
+        "vásárlás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compra",
+        "adquisición"
+      ]
+    }
+  ]
+}

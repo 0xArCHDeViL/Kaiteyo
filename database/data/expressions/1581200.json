@@ -1,0 +1,49 @@
+{
+  "id": "1581200",
+  "readings": [
+    {
+      "kanaExpression": "ひい"
+    },
+    {
+      "kanaExpression": "ひ",
+      "rank": 22000
+    },
+    {
+      "kanaExpression": "そう",
+      "rank": 97
+    },
+    {
+      "kanjiExpression": "曾",
+      "furiganaExpression": [
+        {
+          "text": "曾",
+          "annotation": "ひい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "曽",
+      "furiganaExpression": [
+        {
+          "text": "曽",
+          "annotation": "ひい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "great (i.e. great-grandson, great-grandmother)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "soha",
+        "sohasem"
+      ]
+    }
+  ]
+}

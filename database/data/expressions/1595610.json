@@ -1,0 +1,115 @@
+{
+  "id": "1595610",
+  "readings": [
+    {
+      "kanaExpression": "すくなくとも",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "少なくとも",
+      "furiganaExpression": [
+        {
+          "text": "少",
+          "annotation": "すく"
+        },
+        {
+          "text": "なくとも"
+        }
+      ],
+      "rank": 1486
+    },
+    {
+      "kanjiExpression": "少くとも",
+      "furiganaExpression": [
+        {
+          "text": "少",
+          "annotation": "すくな"
+        },
+        {
+          "text": "くとも"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "尠くとも",
+      "furiganaExpression": [
+        {
+          "text": "尠",
+          "annotation": "すくな"
+        },
+        {
+          "text": "くとも"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "at least"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "minstens",
+        "ten minste",
+        "niet minder dan",
+        "wel",
+        "minimaal",
+        "op zijn minst",
+        "het minste dat ~",
+        "(al)licht",
+        "althans"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "au minimum",
+        "au moins"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wenigstens",
+        "mindestens",
+        "zumindest"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "legalább"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "по меньшей (по крайней) мере"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nazadnje",
+        "končno",
+        "če drugega ne"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "al menos"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "åtminstone"
+      ]
+    }
+  ]
+}

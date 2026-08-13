@@ -1,0 +1,55 @@
+{
+  "id": "1347330",
+  "readings": [
+    {
+      "kanaExpression": "しょうひんけん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "商品券",
+      "furiganaExpression": [
+        {
+          "text": "商",
+          "annotation": "しょう"
+        },
+        {
+          "text": "品",
+          "annotation": "ひん"
+        },
+        {
+          "text": "券",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gift certificate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geschenkbon",
+        "cadeaubon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gutschein",
+        "Warenschein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "талон на получение товара"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "1180150",
+  "readings": [
+    {
+      "kanaExpression": "おしボタン",
+      "rank": 32000
+    },
+    {
+      "kanaExpression": "おしぼたん"
+    },
+    {
+      "kanjiExpression": "押しボタン",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "しボタン"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "押ボタン",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "おし"
+        },
+        {
+          "text": "ボタン"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "押し釦",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "お"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "釦",
+          "annotation": "ぼたん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "押釦",
+      "furiganaExpression": [
+        {
+          "text": "押",
+          "annotation": "おし"
+        },
+        {
+          "text": "釦",
+          "annotation": "ぼたん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "push button",
+        "push-button"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "drukknop",
+        "drukschakelaar",
+        "druktoets",
+        "drukker",
+        "{ベルの} belknop(je)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Druckknopf",
+        "Drucktaste",
+        "(insbes.)Klingelknopf",
+        "Ruftaste"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyomógomb"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кнопка (звонка, прибора и т. п.); (обр.) высокая степень автоматизации"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pulsador"
+      ]
+    }
+  ]
+}

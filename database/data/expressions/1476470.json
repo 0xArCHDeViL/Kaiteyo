@@ -1,0 +1,92 @@
+{
+  "id": "1476470",
+  "readings": [
+    {
+      "kanaExpression": "はだあい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "肌合い",
+      "furiganaExpression": [
+        {
+          "text": "肌",
+          "annotation": "はだ"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "肌合",
+      "furiganaExpression": [
+        {
+          "text": "肌",
+          "annotation": "はだ"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "disposition",
+        "temperament",
+        "turn of mind",
+        "atmosphere",
+        "feeling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Natur",
+        "Gemüt",
+        "Temperament",
+        "Gefühl beim Tasten",
+        "haptische Empfindung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beosztás",
+        "intézkedés",
+        "természet",
+        "testalkat",
+        "alkat",
+        "vérmérséklet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "склад [ума], натура, характер"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "forma de ser",
+        "carácter",
+        "temperamento"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sinnelag"
+      ]
+    }
+  ]
+}

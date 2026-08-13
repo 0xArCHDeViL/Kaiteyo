@@ -1,0 +1,100 @@
+{
+  "id": "1602960",
+  "readings": [
+    {
+      "kanaExpression": "ふりこみ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "振込",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふり"
+        },
+        {
+          "text": "込",
+          "annotation": "こみ"
+        }
+      ],
+      "rank": 9862
+    },
+    {
+      "kanjiExpression": "振込み",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふり"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "振り込み",
+      "furiganaExpression": [
+        {
+          "text": "振",
+          "annotation": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "payment made via bank deposit transfer",
+        "discarding a tile that becomes another player\u0027s winning tile"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "storting",
+        "overschrijving",
+        "overmaking",
+        "overboeking",
+        "transfer",
+        "{麻雀で} het wegslaan van een mahjongsteen met promotiekansen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einzahlung",
+        "Überweisung",
+        "Ablegen (eines Steines)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "banki átutalás"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pago realizado a través de transferencia bancaria"
+      ]
+    }
+  ]
+}

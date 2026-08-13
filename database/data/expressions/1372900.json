@@ -1,0 +1,101 @@
+{
+  "id": "1372900",
+  "readings": [
+    {
+      "kanaExpression": "かぞえる",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "数える",
+      "furiganaExpression": [
+        {
+          "text": "数",
+          "annotation": "かぞ"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "rank": 4681
+    },
+    {
+      "kanjiExpression": "算える",
+      "furiganaExpression": [
+        {
+          "text": "算",
+          "annotation": "かぞ"
+        },
+        {
+          "text": "える"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to count",
+        "to enumerate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tellen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "compter",
+        "énumérer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zählen",
+        "rechnen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megszámlál",
+        "megszámol",
+        "számít",
+        "számlál",
+        "számol",
+        "tekint vminek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) считать, подсчитывать, исчислять",
+        "2) насчитывать[ся]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "šteti",
+        "prešteti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "contar",
+        "enumerar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "räkna"
+      ]
+    }
+  ]
+}

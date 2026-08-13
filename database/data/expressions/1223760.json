@@ -1,0 +1,64 @@
+{
+  "id": "1223760",
+  "readings": [
+    {
+      "kanaExpression": "きこう",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "起工",
+      "furiganaExpression": [
+        {
+          "text": "起",
+          "annotation": "き"
+        },
+        {
+          "text": "工",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "setting to work"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "begin van de bouw",
+        "bouwwerkzaamheden",
+        "aanvang van constructiewerk",
+        "grondbouw",
+        "het leggen van de grondslag",
+        "{scheepv.} kiellegging"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "den Bau beginnen",
+        "Beginn der Bauarbeiten",
+        "Grundsteinlegung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "закладка (здания, судна); начало постройки",
+        "{～する} закладывать, начинать постройку (прокладку (и т. п.))"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "comienzo de los trabajos",
+        "comienzo de una obra"
+      ]
+    }
+  ]
+}

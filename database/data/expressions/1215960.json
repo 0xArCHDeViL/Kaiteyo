@@ -1,0 +1,77 @@
+{
+  "id": "1215960",
+  "readings": [
+    {
+      "kanaExpression": "かんせつ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "関節",
+      "furiganaExpression": [
+        {
+          "text": "関",
+          "annotation": "かん"
+        },
+        {
+          "text": "節",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 7038
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "joint"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} gewricht",
+        "geleding"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jointures (des articulations)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gelenk",
+        "Articulatio"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ízület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сустав",
+        "{～の} суставной",
+        "2) (тех.) стык"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sklep"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "articulaciones corporales"
+      ]
+    }
+  ]
+}

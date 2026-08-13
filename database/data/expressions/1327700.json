@@ -1,0 +1,57 @@
+{
+  "id": "1327700",
+  "readings": [
+    {
+      "kanaExpression": "てはじめ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "手始め",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "始",
+          "annotation": "はじ"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outset",
+        "start",
+        "beginning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anfang",
+        "Beginn",
+        "Auftakt",
+        "erste Schritte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kezdet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "начало"
+      ]
+    }
+  ]
+}

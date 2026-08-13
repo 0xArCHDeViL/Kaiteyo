@@ -1,0 +1,78 @@
+{
+  "id": "2017850",
+  "readings": [
+    {
+      "kanaExpression": "かて"
+    },
+    {
+      "kanaExpression": "りょう",
+      "rank": 14250
+    },
+    {
+      "kanaExpression": "かりて",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "糧",
+      "furiganaExpression": [
+        {
+          "text": "糧",
+          "annotation": "かて"
+        }
+      ],
+      "rank": 10288
+    },
+    {
+      "kanjiExpression": "粮",
+      "furiganaExpression": [
+        {
+          "text": "粮",
+          "annotation": "かて"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "food",
+        "provisions",
+        "nourishment (mental, spiritual, etc.)",
+        "sustenance (e.g. of one\u0027s life)",
+        "source of encouragement"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Speise",
+        "Nahrung",
+        "Lebensmittel",
+        "Proviant",
+        "Viktualien"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "élelem",
+        "ennivaló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пища, провизия, продукты, продовольствие, провиант"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "maná",
+        "alimento",
+        "sustento"
+      ]
+    }
+  ]
+}

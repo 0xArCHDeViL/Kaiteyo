@@ -1,0 +1,49 @@
+{
+  "id": "1257970",
+  "readings": [
+    {
+      "kanaExpression": "けんしん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "検針",
+      "furiganaExpression": [
+        {
+          "text": "検",
+          "annotation": "けん"
+        },
+        {
+          "text": "針",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inspection of a meter",
+        "reading a meter",
+        "needle detection (in garments, etc.)",
+        "needle inspection"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Messgerät ablesen",
+        "Kontrolle eines Messgerätes",
+        "Ablesen eines Messgerätes",
+        "Zählerablesung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～する} снимать показания счётчика (напр. газового)"
+      ]
+    }
+  ]
+}

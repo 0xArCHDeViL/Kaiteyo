@@ -1,0 +1,44 @@
+{
+  "id": "1827070",
+  "readings": [
+    {
+      "kanaExpression": "のうげい",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "農芸",
+      "furiganaExpression": [
+        {
+          "text": "農",
+          "annotation": "のう"
+        },
+        {
+          "text": "芸",
+          "annotation": "げい"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "agriculture and horticulture"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Agrartechnik",
+        "Landwirtschaft und Gartenbau"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "агротехника"
+      ]
+    }
+  ]
+}

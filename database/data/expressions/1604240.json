@@ -1,0 +1,68 @@
+{
+  "id": "1604240",
+  "readings": [
+    {
+      "kanaExpression": "まるがお",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "丸顔",
+      "furiganaExpression": [
+        {
+          "text": "丸",
+          "annotation": "まる"
+        },
+        {
+          "text": "顔",
+          "annotation": "がお"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "円顔",
+      "furiganaExpression": [
+        {
+          "text": "円",
+          "annotation": "まる"
+        },
+        {
+          "text": "顔",
+          "annotation": "がお"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "round face",
+        "moon face"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mondgesichtig",
+        "rundgesichtig",
+        "rundes Gesicht",
+        "Mondgesicht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "круглое лицо",
+        "{～の} круглолицый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cara redonda",
+        "cara de luna"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1202610",
+  "readings": [
+    {
+      "kanaExpression": "かいぎょうい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "開業医",
+      "furiganaExpression": [
+        {
+          "text": "開",
+          "annotation": "かい"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "医",
+          "annotation": "い"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "private clinician",
+        "physician in private practice"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beoefenaar van de geneeskunde",
+        "praktiserend geneesheer",
+        "arts",
+        "medicus",
+        "{veroud.} praktizijn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "niedergelassener Arzt",
+        "praktischer Arzt",
+        "praktizierender Arzt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "практикующий врач"
+      ]
+    }
+  ]
+}

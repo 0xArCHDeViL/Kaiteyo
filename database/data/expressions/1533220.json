@@ -1,0 +1,88 @@
+{
+  "id": "1533220",
+  "readings": [
+    {
+      "kanaExpression": "めんしょく",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "免職",
+      "furiganaExpression": [
+        {
+          "text": "免",
+          "annotation": "めん"
+        },
+        {
+          "text": "職",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dismissal",
+        "sacking",
+        "discharge"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontslag uit een ambt",
+        "ambtsontheffing",
+        "uit een ambt ontslaan",
+        "uit een functie ontheffen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "congédiement",
+        "destitution",
+        "licenciement",
+        "révocation",
+        "renvoi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Entlassung",
+        "Amtsenthebung",
+        "des Amtes entheben",
+        "entlassen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elbocsátás",
+        "elutasítás",
+        "elsülés",
+        "kiöntés",
+        "kisülés",
+        "lövés",
+        "teljesítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "увольнение [со службы]",
+        "{～する} увольнять; освобождать от должности",
+        "{～になる} быть уволенным"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "destitución",
+        "cese en el cargo"
+      ]
+    }
+  ]
+}

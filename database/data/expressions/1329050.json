@@ -1,0 +1,44 @@
+{
+  "id": "1329050",
+  "readings": [
+    {
+      "kanaExpression": "しゅき",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "酒気",
+      "furiganaExpression": [
+        {
+          "text": "酒",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "liquor smell",
+        "tipsiness"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Alkoholgeruch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запах сакэ (алкоголя)"
+      ]
+    }
+  ]
+}

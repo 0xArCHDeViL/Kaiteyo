@@ -1,0 +1,56 @@
+{
+  "id": "1369950",
+  "readings": [
+    {
+      "kanaExpression": "たずねびと",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "尋ね人",
+      "furiganaExpression": [
+        {
+          "text": "尋",
+          "annotation": "たず"
+        },
+        {
+          "text": "ね"
+        },
+        {
+          "text": "人",
+          "annotation": "びと"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "missing person",
+        "wanted person"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "personne recherchée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesuchter",
+        "Vermisster",
+        "vermisste Person",
+        "gesuchte Person"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "разыскиваемое лицо"
+      ]
+    }
+  ]
+}

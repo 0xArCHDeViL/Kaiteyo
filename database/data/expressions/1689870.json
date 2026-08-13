@@ -1,0 +1,55 @@
+{
+  "id": "1689870",
+  "readings": [
+    {
+      "kanaExpression": "ひこうてい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "飛行艇",
+      "furiganaExpression": [
+        {
+          "text": "飛",
+          "annotation": "ひ"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        },
+        {
+          "text": "艇",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "flying boat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vliegboot",
+        "watervliegtuig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserflugzeug",
+        "Flugboot"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "летающая лодка"
+      ]
+    }
+  ]
+}

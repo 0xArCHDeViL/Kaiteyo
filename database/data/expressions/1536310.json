@@ -1,0 +1,55 @@
+{
+  "id": "1536310",
+  "readings": [
+    {
+      "kanaExpression": "やきん",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "冶金",
+      "furiganaExpression": [
+        {
+          "text": "冶",
+          "annotation": "や"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "metallurgy"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Metallurgie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kohászat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "металлургия"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "metallurgi"
+      ]
+    }
+  ]
+}

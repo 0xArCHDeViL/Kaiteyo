@@ -1,0 +1,87 @@
+{
+  "id": "1592260",
+  "readings": [
+    {
+      "kanaExpression": "くにぐに",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "国々",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "くに"
+        },
+        {
+          "text": "々",
+          "annotation": "ぐに"
+        }
+      ],
+      "rank": 5533
+    },
+    {
+      "kanjiExpression": "国国",
+      "furiganaExpression": [
+        {
+          "text": "国",
+          "annotation": "くに"
+        },
+        {
+          "text": "国",
+          "annotation": "ぐに"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "countries"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "landen",
+        "staten",
+        "{Jap.gesch.} provincies",
+        "elk land",
+        "iedere staat",
+        "{Jap.gesch.} elke provincie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "pays (pluriel)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Länder"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "страны",
+        "1) страны, государства",
+        "2) (ист.) провинции"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "države"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "países"
+      ]
+    }
+  ]
+}

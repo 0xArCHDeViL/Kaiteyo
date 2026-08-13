@@ -1,0 +1,45 @@
+{
+  "id": "1735170",
+  "readings": [
+    {
+      "kanaExpression": "てきじん",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "敵陣",
+      "furiganaExpression": [
+        {
+          "text": "敵",
+          "annotation": "てき"
+        },
+        {
+          "text": "陣",
+          "annotation": "じん"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "enemy camp",
+        "enemy line"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "feindliche Stellung",
+        "feindliche Linien"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "позиции противника; вражеский лагерь"
+      ]
+    }
+  ]
+}

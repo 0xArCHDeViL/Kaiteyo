@@ -1,0 +1,150 @@
+{
+  "id": "1244800",
+  "readings": [
+    {
+      "kanaExpression": "かけあし",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "駆け足",
+      "furiganaExpression": [
+        {
+          "text": "駆",
+          "annotation": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "駆足",
+      "furiganaExpression": [
+        {
+          "text": "駆",
+          "annotation": "かけ"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "駈け足",
+      "furiganaExpression": [
+        {
+          "text": "駈",
+          "annotation": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "駈足",
+      "furiganaExpression": [
+        {
+          "text": "駈",
+          "annotation": "かけ"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "かけ足",
+      "furiganaExpression": [
+        {
+          "text": "かけ"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "running fast",
+        "double time",
+        "cantering",
+        "doing things in a hurry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "looppas",
+        "versnelde pas",
+        "loop",
+        "het rennen",
+        "ren",
+        "galop",
+        "{fig.} holletje",
+        "{fig.} haastje-repje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "(au) pas de course"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Laufen",
+        "Rennen",
+        "Geschwindschritt",
+        "Galopp",
+        "Gehetztheit",
+        "Rastlosigkeit",
+        "Eile"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyors lépés",
+        "gyors menetlépés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "бег; быстрый шаг; галоп",
+        "{～になる} переходить на бег (на быстрый шаг); переходить в галоп"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hitra hoja",
+        "tek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "galope",
+        "algo hecho a prisas"
+      ]
+    }
+  ]
+}

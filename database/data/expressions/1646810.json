@@ -1,0 +1,66 @@
+{
+  "id": "1646810",
+  "readings": [
+    {
+      "kanaExpression": "しんかろん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "進化論",
+      "furiganaExpression": [
+        {
+          "text": "進",
+          "annotation": "しん"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "論",
+          "annotation": "ろん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "evolutionary theory",
+        "theory of evolution"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "evolutietheorie",
+        "evolutieleer",
+        "afstammingsleer",
+        "ontwikkelingsleer",
+        "ontwikkelingstheorie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Evolutionslehre",
+        "Evolutionstheorie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(биол.) эволюционная теория",
+        "{～的} эволюционистский"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "teoría de la evolución"
+      ]
+    }
+  ]
+}

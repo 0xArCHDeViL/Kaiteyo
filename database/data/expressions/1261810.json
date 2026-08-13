@@ -1,0 +1,56 @@
+{
+  "id": "1261810",
+  "readings": [
+    {
+      "kanaExpression": "げんし",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "原紙",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "紙",
+          "annotation": "し"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stencil (for a mimeograph)",
+        "silkworm egg sheet",
+        "base paper",
+        "body paper"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Matrize"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "betűrajzoló minta",
+        "festősablon",
+        "patron",
+        "stencil"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) бумага для гектографа",
+        "2) лист с яичками шелковичных червей"
+      ]
+    }
+  ]
+}

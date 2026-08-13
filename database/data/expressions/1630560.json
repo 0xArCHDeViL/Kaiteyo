@@ -1,0 +1,49 @@
+{
+  "id": "1630560",
+  "readings": [
+    {
+      "kanaExpression": "けいじょうりえき",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "経常利益",
+      "furiganaExpression": [
+        {
+          "text": "経",
+          "annotation": "けい"
+        },
+        {
+          "text": "常",
+          "annotation": "じょう"
+        },
+        {
+          "text": "利",
+          "annotation": "り"
+        },
+        {
+          "text": "益",
+          "annotation": "えき"
+        }
+      ],
+      "rank": 17500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "current profits",
+        "ordinary profit",
+        "income before income taxes",
+        "ordinary income",
+        "operating income"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "laufender Gewinn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1394200",
+  "readings": [
+    {
+      "kanaExpression": "ぜんれき",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "前歴",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "歴",
+          "annotation": "れき"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "personal history"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "antécédents",
+        "curriculum vitæ",
+        "passé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jmds. Vorgeschichte",
+        "Vorleben",
+        "bisheriges Leben",
+        "bisheriger Lebenslauf",
+        "jmds. Vergangenheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прошлые годы (чьи-л.)"
+      ]
+    }
+  ]
+}

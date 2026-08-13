@@ -1,0 +1,53 @@
+{
+  "id": "2755350",
+  "readings": [
+    {
+      "kanaExpression": "じゃない",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "ぢゃない"
+    },
+    {
+      "kanjiExpression": "じゃ無い",
+      "furiganaExpression": [
+        {
+          "text": "じゃ"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "ぢゃ無い",
+      "furiganaExpression": [
+        {
+          "text": "ぢゃ"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "is not",
+        "am not",
+        "are not",
+        "isn\u0027t it?"
+      ]
+    }
+  ]
+}

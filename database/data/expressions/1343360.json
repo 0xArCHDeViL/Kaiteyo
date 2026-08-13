@@ -1,0 +1,80 @@
+{
+  "id": "1343360",
+  "readings": [
+    {
+      "kanaExpression": "しょとく",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "所得",
+      "furiganaExpression": [
+        {
+          "text": "所",
+          "annotation": "しょ"
+        },
+        {
+          "text": "得",
+          "annotation": "とく"
+        }
+      ],
+      "rank": 1833
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "income",
+        "earnings"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inkomen",
+        "inkomsten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "gains",
+        "revenu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einkommen",
+        "Einkünfte",
+        "Einnahmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "jövedelem",
+        "haszon"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доход[ы]; поступления"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dohodek",
+        "zaslužek"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ingresos"
+      ]
+    }
+  ]
+}

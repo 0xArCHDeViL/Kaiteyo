@@ -1,0 +1,78 @@
+{
+  "id": "1505080",
+  "readings": [
+    {
+      "kanaExpression": "ふみ",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "文",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ふみ"
+        }
+      ],
+      "rank": 1306
+    },
+    {
+      "kanjiExpression": "書",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "ふみ"
+        }
+      ],
+      "rank": 452
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "letter",
+        "note",
+        "mail",
+        "book",
+        "writings",
+        "literary arts",
+        "learning",
+        "scholarship"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "écrits",
+        "lettre (postale)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Brief",
+        "Buch",
+        "Schrift",
+        "Schriftstück",
+        "Epistel (antike literarische Form)",
+        "Liebesbrief"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "levél",
+        "irodalmi művek",
+        "művek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.)",
+        "1) письмо; любовное послание",
+        "2) книга; литература; наука, просвещение"
+      ]
+    }
+  ]
+}

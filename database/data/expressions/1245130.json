@@ -1,0 +1,51 @@
+{
+  "id": "1245130",
+  "readings": [
+    {
+      "kanaExpression": "ぐこう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "愚行",
+      "furiganaExpression": [
+        {
+          "text": "愚",
+          "annotation": "ぐ"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "foolish act",
+        "folly"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dummheit",
+        "Torheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ostobaság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) глупый поступок, глупость, сумасбродство"
+      ]
+    }
+  ]
+}

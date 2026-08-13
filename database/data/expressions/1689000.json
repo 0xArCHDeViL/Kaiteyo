@@ -1,0 +1,50 @@
+{
+  "id": "1689000",
+  "readings": [
+    {
+      "kanaExpression": "はいらんゆうはつざい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "排卵誘発剤",
+      "furiganaExpression": [
+        {
+          "text": "排",
+          "annotation": "はい"
+        },
+        {
+          "text": "卵",
+          "annotation": "らん"
+        },
+        {
+          "text": "誘",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "発",
+          "annotation": "はつ"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ovulation-inducing drug"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hormonpräparat",
+        "ovulationsauslösendes Mittel"
+      ]
+    }
+  ]
+}

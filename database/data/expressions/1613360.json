@@ -1,0 +1,50 @@
+{
+  "id": "1613360",
+  "readings": [
+    {
+      "kanaExpression": "いちもん",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "一問",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "問",
+          "annotation": "もん"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one question"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "één vraag",
+        "vraagstuk"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "una pregunta"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "spörsmål"
+      ]
+    }
+  ]
+}

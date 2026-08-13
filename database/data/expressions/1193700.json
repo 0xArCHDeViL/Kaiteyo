@@ -1,0 +1,64 @@
+{
+  "id": "1193700",
+  "readings": [
+    {
+      "kanaExpression": "ひのこ",
+      "rank": 29500
+    },
+    {
+      "kanaExpression": "ほのこ"
+    },
+    {
+      "kanjiExpression": "火の粉",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "ひ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "粉",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sparks"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Funke",
+        "unerwartetes Unglück",
+        "Ärger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átvilágítás",
+        "rádiós",
+        "rádióstiszt",
+        "röntgen",
+        "röntgenezés",
+        "röntgenszoba",
+        "szikratávírász",
+        "távírász"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "искры"
+      ]
+    }
+  ]
+}

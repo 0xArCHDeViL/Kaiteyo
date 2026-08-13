@@ -1,0 +1,56 @@
+{
+  "id": "2560520",
+  "readings": [
+    {
+      "kanaExpression": "ワンこ"
+    },
+    {
+      "kanaExpression": "わんこ"
+    },
+    {
+      "kanaExpression": "ワンコ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ワン子",
+      "furiganaExpression": [
+        {
+          "text": "ワン"
+        },
+        {
+          "text": "子",
+          "annotation": "こ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "わん子",
+      "furiganaExpression": [
+        {
+          "text": "わん"
+        },
+        {
+          "text": "子",
+          "annotation": "こ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dog",
+        "doggy",
+        "bow-wow"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wau-Wau",
+        "Hündchen"
+      ]
+    }
+  ]
+}

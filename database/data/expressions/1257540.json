@@ -1,0 +1,89 @@
+{
+  "id": "1257540",
+  "readings": [
+    {
+      "kanaExpression": "たてもの",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "建物",
+      "furiganaExpression": [
+        {
+          "text": "建",
+          "annotation": "たて"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 1358
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "building"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gebouw",
+        "bouwwerk",
+        "bouwsel",
+        "pand",
+        "perceel",
+        "{meton.",
+        "verzameln.} architectuur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bâtiment",
+        "construction",
+        "immeuble"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gebäude",
+        "Bau",
+        "Bauwerk"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "építés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "здание, строение, постройка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zgradba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "edificio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "byggnad"
+      ]
+    }
+  ]
+}

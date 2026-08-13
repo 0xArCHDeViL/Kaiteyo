@@ -1,0 +1,81 @@
+{
+  "id": "1588260",
+  "readings": [
+    {
+      "kanaExpression": "うちまくる",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "打ちまくる",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ちまくる"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "打ち捲る",
+      "furiganaExpression": [
+        {
+          "text": "打",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "捲",
+          "annotation": "まく"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to hit repeatedly",
+        "to belt hit after hit (e.g. in baseball)",
+        "to unleash a barrage of blows",
+        "to pound away (at a keyboard)",
+        "to hammer away",
+        "to pummel"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{honkb.} overal de bal slaan",
+        "een spervuur van hits afvuren",
+        "{bokssp.} een klappenregen lanceren",
+        "{ワープロを～} woest tikken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hintereinander schlagen",
+        "wiederholt schlagen"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aporrear",
+        "apalear",
+        "golpear violentamente",
+        "acribillar",
+        "tirotear",
+        "ametrallar"
+      ]
+    }
+  ]
+}

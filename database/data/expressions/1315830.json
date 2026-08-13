@@ -1,0 +1,55 @@
+{
+  "id": "1315830",
+  "readings": [
+    {
+      "kanaExpression": "じびょう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "持病",
+      "furiganaExpression": [
+        {
+          "text": "持",
+          "annotation": "じ"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chronic disease",
+        "chronic illness",
+        "old complaint",
+        "bad habit",
+        "intractable habit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "chronische Krankheit",
+        "chronische Beschwerden",
+        "habituelle Krankheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хроническая (застарелая) болезнь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enfermedad crónica"
+      ]
+    }
+  ]
+}

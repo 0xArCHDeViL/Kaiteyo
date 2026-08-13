@@ -1,0 +1,68 @@
+{
+  "id": "1222150",
+  "readings": [
+    {
+      "kanaExpression": "きづかう",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "気遣う",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "遣",
+          "annotation": "づか"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "気づかう",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "づかう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to worry about (someone\u0027s welfare or comfort)",
+        "to feel anxious about",
+        "to have apprehensions of"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zich ongerust maken",
+        "bezorgd zijn",
+        "zich zorgen maken",
+        "beducht zijn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich sorgen",
+        "sich Sorgen machen",
+        "besorgt sein",
+        "sich ängstigen",
+        "sich fürchten",
+        "bange sein"
+      ]
+    }
+  ]
+}

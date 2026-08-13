@@ -1,0 +1,59 @@
+{
+  "id": "1786650",
+  "readings": [
+    {
+      "kanaExpression": "おおぶね",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "おおふね"
+    },
+    {
+      "kanaExpression": "たいせん",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "大船",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "おお"
+        },
+        {
+          "text": "船",
+          "annotation": "ぶね"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "large boat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "groot schip",
+        "groot vaartuig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "großes Schiff",
+        "Riesenschiff"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "большое судно, большой корабль",
+        "(кн.) большой корабль, большое судно"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "1622980",
+  "readings": [
+    {
+      "kanaExpression": "ちょうえん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "腸炎",
+      "furiganaExpression": [
+        {
+          "text": "腸",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "炎",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "enteritis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Darmentzündung",
+        "Darmkatarrh",
+        "Enteritis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) воспаление кишечника"
+      ]
+    }
+  ]
+}

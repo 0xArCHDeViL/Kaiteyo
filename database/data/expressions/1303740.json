@@ -1,0 +1,67 @@
+{
+  "id": "1303740",
+  "readings": [
+    {
+      "kanaExpression": "さんか",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "産科",
+      "furiganaExpression": [
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "科",
+          "annotation": "か"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "obstetrics"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} obstetrie",
+        "verloskunde",
+        "vroedkunde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geburts…",
+        "Entbindungs…",
+        "Abteilung für Geburtshilfe",
+        "Geburtshilfe",
+        "Obstetrik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szülészet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "акушерство, родовспоможение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "obstetricia"
+      ]
+    }
+  ]
+}

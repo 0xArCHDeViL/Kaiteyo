@@ -1,0 +1,66 @@
+{
+  "id": "1837290",
+  "readings": [
+    {
+      "kanaExpression": "すみやき",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "炭焼き",
+      "furiganaExpression": [
+        {
+          "text": "炭",
+          "annotation": "すみ"
+        },
+        {
+          "text": "焼",
+          "annotation": "や"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "炭焼",
+      "furiganaExpression": [
+        {
+          "text": "炭",
+          "annotation": "すみ"
+        },
+        {
+          "text": "焼",
+          "annotation": "やき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "charcoal making",
+        "charcoal maker",
+        "charcoal-roasted",
+        "charcoal-grilled"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Köhlerei",
+        "Gewinnung von Holzkohle aus Kohlenmeilern",
+        "Köhler",
+        "auf Holzkohle gebratenes Gericht"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) обжиг [древесного] угля",
+        "2) угольщик"
+      ]
+    }
+  ]
+}

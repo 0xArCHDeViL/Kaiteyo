@@ -1,0 +1,75 @@
+{
+  "id": "1308305",
+  "readings": [
+    {
+      "kanaExpression": "しじょう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "市場",
+      "furiganaExpression": [
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "場",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 569
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "market (financial, stock, domestic, etc.)",
+        "marketplace",
+        "exchange",
+        "(street) market"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "markt",
+        "marktplaats",
+        "afzetgebied",
+        "beurs"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Markt (im theoretischen und abstrakten Sinnnicht der Ort)",
+        "Absatzmarkt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fogyasztási terület"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) рынок; торговый центр",
+        "{～[の]} рыночный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(el) mercado (como concepto)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "marknad"
+      ]
+    }
+  ]
+}

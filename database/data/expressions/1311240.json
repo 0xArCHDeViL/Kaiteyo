@@ -1,0 +1,63 @@
+{
+  "id": "1311240",
+  "readings": [
+    {
+      "kanaExpression": "ししょばこ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "私書箱",
+      "furiganaExpression": [
+        {
+          "text": "私",
+          "annotation": "し"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "箱",
+          "annotation": "ばこ"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "post office box"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "postbus",
+        "postbox",
+        "PO Box"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Postfach",
+        "Postschließfach"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pf.",
+        "postafiók"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) ししょかん"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1631070",
+  "readings": [
+    {
+      "kanaExpression": "こうはんせん",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "後半戦",
+      "furiganaExpression": [
+        {
+          "text": "後",
+          "annotation": "こう"
+        },
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "second half"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zweite Spielhälfte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) вторая половина игры (матча)"
+      ]
+    }
+  ]
+}

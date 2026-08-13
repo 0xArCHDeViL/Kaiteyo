@@ -1,0 +1,44 @@
+{
+  "id": "1511820",
+  "readings": [
+    {
+      "kanaExpression": "かためん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "片面",
+      "furiganaExpression": [
+        {
+          "text": "片",
+          "annotation": "かた"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one side"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine Seite (von zweien)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[одна] сторона",
+        "{～の} односторонний"
+      ]
+    }
+  ]
+}

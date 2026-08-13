@@ -1,0 +1,44 @@
+{
+  "id": "1659100",
+  "readings": [
+    {
+      "kanaExpression": "しゅはん",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "酒販",
+      "furiganaExpression": [
+        {
+          "text": "酒",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "販",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "liquor trade"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Alkoholverkauf",
+        "Spirituosenverkauf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) продажа вина, торговля вином"
+      ]
+    }
+  ]
+}

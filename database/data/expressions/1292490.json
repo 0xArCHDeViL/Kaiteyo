@@ -1,0 +1,68 @@
+{
+  "id": "1292490",
+  "readings": [
+    {
+      "kanaExpression": "さいきどう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "再起動",
+      "furiganaExpression": [
+        {
+          "text": "再",
+          "annotation": "さい"
+        },
+        {
+          "text": "起",
+          "annotation": "き"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "restart",
+        "reboot"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opnieuw opstarten",
+        "herstarten",
+        "heropstarten",
+        "weer op gang brengen",
+        "rebooten",
+        "herstart",
+        "reboot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "neustarten",
+        "Neustart (System, Computer)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "újraindítás (gépé)",
+        "újrakezdés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перезапуск"
+      ]
+    }
+  ]
+}

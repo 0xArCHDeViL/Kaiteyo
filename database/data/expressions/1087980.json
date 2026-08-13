@@ -1,0 +1,77 @@
+{
+  "id": "1087980",
+  "readings": [
+    {
+      "kanaExpression": "ドイツご",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ドイツ語",
+      "furiganaExpression": [
+        {
+          "text": "ドイツ"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ],
+      "rank": 5952
+    },
+    {
+      "kanjiExpression": "独逸語",
+      "furiganaExpression": [
+        {
+          "text": "独逸",
+          "annotation": "ドイツ"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "German (language)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Duits",
+        "Hoogduits",
+        "Duitse taal",
+        "Hoogduitse taal",
+        "{scheldw.} moffentaal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Deutsch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "немецкий язык"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Alemán (idioma)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tyska"
+      ]
+    }
+  ]
+}

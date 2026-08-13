@@ -1,0 +1,55 @@
+{
+  "id": "1728310",
+  "readings": [
+    {
+      "kanaExpression": "いちじゅ",
+      "rank": 31000
+    },
+    {
+      "kanaExpression": "いっき",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "一樹",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "樹",
+          "annotation": "じゅ"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one tree",
+        "a tree"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "één boom"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Baum",
+        "derselbe Baum"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un árbol"
+      ]
+    }
+  ]
+}

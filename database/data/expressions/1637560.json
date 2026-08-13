@@ -1,0 +1,52 @@
+{
+  "id": "1637560",
+  "readings": [
+    {
+      "kanaExpression": "ししょうせつ",
+      "rank": 31000
+    },
+    {
+      "kanaExpression": "わたくししょうせつ"
+    },
+    {
+      "kanjiExpression": "私小説",
+      "furiganaExpression": [
+        {
+          "text": "私",
+          "annotation": "し"
+        },
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "説",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "I-novel",
+        "novel narrated in the first person"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Roman, bei dem der Autor sich selbst und seine Erfahrungen in den Mittelpunkt stellt",
+        "Ich-Roman"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(калька (нем.) Ich-Roman) роман о себе"
+      ]
+    }
+  ]
+}

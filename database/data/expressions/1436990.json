@@ -1,0 +1,78 @@
+{
+  "id": "1436990",
+  "readings": [
+    {
+      "kanaExpression": "でいたん",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "すくも"
+    },
+    {
+      "kanjiExpression": "泥炭",
+      "furiganaExpression": [
+        {
+          "text": "泥",
+          "annotation": "でい"
+        },
+        {
+          "text": "炭",
+          "annotation": "たん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "peat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "turf"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "tourbe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Torf"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tőzeg",
+        "turfa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "торф"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "turba"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bränntorv",
+        "torv"
+      ]
+    }
+  ]
+}

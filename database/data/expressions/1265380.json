@@ -1,0 +1,61 @@
+{
+  "id": "1265380",
+  "readings": [
+    {
+      "kanaExpression": "ここん",
+      "rank": 23000
+    },
+    {
+      "kanaExpression": "こきん"
+    },
+    {
+      "kanjiExpression": "古今",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "こ"
+        },
+        {
+          "text": "今",
+          "annotation": "こん"
+        }
+      ],
+      "rank": 12865
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ancient and modern times",
+        "all ages",
+        "past and present"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verleden en heden",
+        "oude en moderne tijden",
+        "{Jap.letterk.} Kokin Wakashū",
+        "van vroeger tot nu",
+        "van alle tijden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alt und neu",
+        "zu allen Zeiten",
+        "Vergangenheit und Gegenwart",
+        "Kokin-waka-shū (Abk. für Kokin・wakashū古今和歌集)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} старый и новый; всех времён"
+      ]
+    }
+  ]
+}

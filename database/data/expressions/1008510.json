@@ -1,0 +1,65 @@
+{
+  "id": "1008510",
+  "readings": [
+    {
+      "kanaExpression": "というもの",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "と言うもの",
+      "furiganaExpression": [
+        {
+          "text": "と"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "うもの"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "という物",
+      "furiganaExpression": [
+        {
+          "text": "という"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "と言う物",
+      "furiganaExpression": [
+        {
+          "text": "と"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "something like ...",
+        "something called ..."
+      ]
+    }
+  ]
+}

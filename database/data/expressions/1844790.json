@@ -1,0 +1,42 @@
+{
+  "id": "1844790",
+  "readings": [
+    {
+      "kanaExpression": "こうあつざい",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "降圧剤",
+      "furiganaExpression": [
+        {
+          "text": "降",
+          "annotation": "こう"
+        },
+        {
+          "text": "圧",
+          "annotation": "あつ"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drug to lower blood pressure",
+        "antihypertensive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "blutdrucksenkendes Mittel"
+      ]
+    }
+  ]
+}

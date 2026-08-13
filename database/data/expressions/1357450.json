@@ -1,0 +1,94 @@
+{
+  "id": "1357450",
+  "readings": [
+    {
+      "kanaExpression": "おりもの",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "織物",
+      "furiganaExpression": [
+        {
+          "text": "織",
+          "annotation": "おり"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "textile",
+        "fabric"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{text.} textiel",
+        "weefsels",
+        "stoffen",
+        "weefgoederen",
+        "weefstoffen",
+        "textielproducten"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "textile",
+        "tissu",
+        "toile"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewebe",
+        "Webwaren",
+        "Tuch",
+        "Textilien",
+        "Textilwaren",
+        "Stoff"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ruhaanyag"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ткань, материя, текстиль"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "tekstil",
+        "blago"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "textiles"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tyg",
+        "textil"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "1374500",
+  "readings": [
+    {
+      "kanaExpression": "ぜがひでも",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "是が非でも",
+      "furiganaExpression": [
+        {
+          "text": "是",
+          "annotation": "ぜ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "非",
+          "annotation": "ひ"
+        },
+        {
+          "text": "でも"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rightly or wrongly",
+        "by all possible means",
+        "at all costs",
+        "at any cost",
+        "no matter what (happens)",
+        "by fair means or foul"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "um jeden Preis",
+        "partout",
+        "mit allen Mitteln",
+        "wohl oder übel",
+        "ob man will oder nicht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "joggal vagy jogtalanul",
+        "jogosan vagy jogtalanul"
+      ]
+    }
+  ]
+}

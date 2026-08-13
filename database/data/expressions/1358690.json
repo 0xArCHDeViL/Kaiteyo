@@ -1,0 +1,86 @@
+{
+  "id": "1358690",
+  "readings": [
+    {
+      "kanaExpression": "しょくりょう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "食糧",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "糧",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 5484
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "food (esp. staple food such as rice or wheat)",
+        "provisions",
+        "rations",
+        "food supply"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voedsel",
+        "spijs",
+        "voedingsmiddel",
+        "provisie",
+        "proviand",
+        "mondkost",
+        "mondvoorraad",
+        "voedselvoorraad",
+        "levensvoorraad",
+        "{form.} leeftocht",
+        "victualiën"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aliments (en part. les aliments de base comme le riz ou le blé)",
+        "provisions",
+        "vivres",
+        "rations"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nahrungsmittel",
+        "Lebensmittel",
+        "Proviant"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "élelmiszerek"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продовольствие; (воен.) провиант"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "provisiones",
+        "víveres"
+      ]
+    }
+  ]
+}

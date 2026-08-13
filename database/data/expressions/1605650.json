@@ -1,0 +1,70 @@
+{
+  "id": "1605650",
+  "readings": [
+    {
+      "kanaExpression": "ゆうぎ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "友誼",
+      "furiganaExpression": [
+        {
+          "text": "友",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "誼",
+          "annotation": "ぎ"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "友宜",
+      "furiganaExpression": [
+        {
+          "text": "友",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "宜",
+          "annotation": "ぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "friendship",
+        "friendly relations",
+        "fellowship"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freundschaft",
+        "freundschaftliches Verhältnis",
+        "freundschaftliche Gefühle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "barátság",
+        "ösztöndíj",
+        "tagság",
+        "társaság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) дружба, дружеские отношения",
+        "{～[的]} дружественный"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1413740",
+  "readings": [
+    {
+      "kanaExpression": "たいさ",
+      "rank": 19500
+    },
+    {
+      "kanaExpression": "だいさ"
+    },
+    {
+      "kanjiExpression": "大佐",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "佐",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 14200
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "colonel",
+        "(navy) captain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} kolonel",
+        "{mar.} kapitein-ter-zee"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "capitaine (marine)",
+        "colonel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Oberst (des Heeres)",
+        "Kapitän zur See"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csapatkapitány",
+        "hadvezér",
+        "hajóparancsnok",
+        "hajóvezető",
+        "kapitány",
+        "parancsnok",
+        "százados",
+        "szürke morgóhal",
+        "vezérevezős"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "полковник; (мор.) капитан 1-го ранга"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "coronel"
+      ]
+    }
+  ]
+}

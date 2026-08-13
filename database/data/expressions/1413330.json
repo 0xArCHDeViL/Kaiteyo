@@ -1,0 +1,104 @@
+{
+  "id": "1413330",
+  "readings": [
+    {
+      "kanaExpression": "たいき",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "大気",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        }
+      ],
+      "rank": 5796
+    },
+    {
+      "kanjiExpression": "大氣",
+      "furiganaExpression": [
+        {
+          "text": "大",
+          "annotation": "たい"
+        },
+        {
+          "text": "氣",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "atmosphere",
+        "air",
+        "magnanimity",
+        "generosity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dampkring",
+        "atmosfeer",
+        "lucht",
+        "luchtruim"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "atmosphère"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Größe",
+        "Großmut",
+        "Großherzigkeit",
+        "Luft",
+        "Atmosphäre",
+        "Lufthülle der Erde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "atmoszféra"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "атмосфера; воздух"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zrak",
+        "ozračje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "atmósfera"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "atmosfär"
+      ]
+    }
+  ]
+}

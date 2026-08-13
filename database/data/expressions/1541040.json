@@ -1,0 +1,68 @@
+{
+  "id": "1541040",
+  "readings": [
+    {
+      "kanaExpression": "ありがとうございます",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "有り難うございます",
+      "furiganaExpression": [
+        {
+          "text": "有",
+          "annotation": "あ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "難",
+          "annotation": "がと"
+        },
+        {
+          "text": "うございます"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thank you"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dank u"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "merci"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спасибо",
+        "благодарю"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gracias"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tack"
+      ]
+    }
+  ]
+}

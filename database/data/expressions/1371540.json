@@ -1,0 +1,52 @@
+{
+  "id": "1371540",
+  "readings": [
+    {
+      "kanaExpression": "すいさんかナトリウム",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "水酸化ナトリウム",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "酸",
+          "annotation": "さん"
+        },
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "ナトリウム"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sodium hydroxide"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Natriumhydroxid",
+        "Ätznatron",
+        "NaOH"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nátrium-hidroxid"
+      ]
+    }
+  ]
+}

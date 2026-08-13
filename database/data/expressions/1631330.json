@@ -1,0 +1,50 @@
+{
+  "id": "1631330",
+  "readings": [
+    {
+      "kanaExpression": "こうくうじえいたい",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "航空自衛隊",
+      "furiganaExpression": [
+        {
+          "text": "航",
+          "annotation": "こう"
+        },
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "衛",
+          "annotation": "えい"
+        },
+        {
+          "text": "隊",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japan Air Self-Defense Force",
+        "JASDF"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Luftselbstverteidigungsstreitkräfte"
+      ]
+    }
+  ]
+}

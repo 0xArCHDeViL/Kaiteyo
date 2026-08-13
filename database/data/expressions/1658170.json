@@ -1,0 +1,103 @@
+{
+  "id": "1658170",
+  "readings": [
+    {
+      "kanaExpression": "おもいおこす",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "思い起こす",
+      "furiganaExpression": [
+        {
+          "text": "思",
+          "annotation": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "起",
+          "annotation": "お"
+        },
+        {
+          "text": "こす"
+        }
+      ],
+      "rank": 10305
+    },
+    {
+      "kanjiExpression": "思い起す",
+      "furiganaExpression": [
+        {
+          "text": "思",
+          "annotation": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "起",
+          "annotation": "おこ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "思起す",
+      "furiganaExpression": [
+        {
+          "text": "思",
+          "annotation": "おもい"
+        },
+        {
+          "text": "起",
+          "annotation": "おこ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to recall",
+        "to remember"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich erinnern",
+        "sich besinnen",
+        "noch wissen",
+        "zurückdenken"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felelevenít",
+        "felidéz",
+        "visszahív",
+        "visszavon",
+        "emlékezik",
+        "emlékszik",
+        "eszébe jut",
+        "gondol",
+        "nem felejt el"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) вспоминать, вызывать в памяти",
+        "2) задумывать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1583950",
+  "readings": [
+    {
+      "kanaExpression": "へんしゃ",
+      "rank": 26000
+    },
+    {
+      "kanaExpression": "へんじゃ"
+    },
+    {
+      "kanjiExpression": "編者",
+      "furiganaExpression": [
+        {
+          "text": "編",
+          "annotation": "へん"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "editor",
+        "compiler"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herausgeber"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szerkesztő",
+        "összeállító",
+        "összegyűjtő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "издатель; составитель"
+      ]
+    }
+  ]
+}

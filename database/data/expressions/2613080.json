@@ -1,0 +1,92 @@
+{
+  "id": "2613080",
+  "readings": [
+    {
+      "kanaExpression": "いっそのこと",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "いっそうのこと"
+    },
+    {
+      "kanjiExpression": "いっその事",
+      "furiganaExpression": [
+        {
+          "text": "いっその"
+        },
+        {
+          "text": "事",
+          "annotation": "こと"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "一層のこと",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "層",
+          "annotation": "そ"
+        },
+        {
+          "text": "のこと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "一層の事",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "層",
+          "annotation": "そう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "事",
+          "annotation": "こと"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "いっそうの事",
+      "furiganaExpression": [
+        {
+          "text": "いっそうの"
+        },
+        {
+          "text": "事",
+          "annotation": "こと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rather",
+        "sooner",
+        "preferably"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lieber",
+        "besser",
+        "eher",
+        "vielmehr"
+      ]
+    }
+  ]
+}

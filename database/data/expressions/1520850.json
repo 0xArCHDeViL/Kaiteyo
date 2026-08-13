@@ -1,0 +1,42 @@
+{
+  "id": "1520850",
+  "readings": [
+    {
+      "kanaExpression": "きたより",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "北寄り",
+      "furiganaExpression": [
+        {
+          "text": "北",
+          "annotation": "きた"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "northerly (wind)",
+        "from the north"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "nordan",
+        "nordvind"
+      ]
+    }
+  ]
+}

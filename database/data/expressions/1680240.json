@@ -1,0 +1,76 @@
+{
+  "id": "1680240",
+  "readings": [
+    {
+      "kanaExpression": "はんこうてき",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "反抗的",
+      "furiganaExpression": [
+        {
+          "text": "反",
+          "annotation": "はん"
+        },
+        {
+          "text": "抗",
+          "annotation": "こう"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rebellious",
+        "defiant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "weerspannig",
+        "opstandig",
+        "oproerig",
+        "rebels",
+        "ongehoorzaam",
+        "vijandig",
+        "antagonistisch"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rebellisch",
+        "widerspenstig",
+        "aufsässig",
+        "widersetzlich",
+        "ungehorsam",
+        "trotzig",
+        "widerborstig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "engedetlenség",
+        "lázadó szellem",
+        "dac",
+        "ellenszegülés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сопротивляющийся, противодействующий; оппозиционный",
+        "мятежный; непокорный"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "1591750",
+  "readings": [
+    {
+      "kanaExpression": "きりあげ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "切り上げ",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "切上げ",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "切りあげ",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "りあげ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "end",
+        "conclusion",
+        "rounding up",
+        "revaluation"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "conclusion",
+        "fin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abschluss",
+        "Schluss",
+        "Ende",
+        "Aufrundung",
+        "Revaluation",
+        "Revalvation",
+        "Aufwertung (einer Währung)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "befejezés",
+        "vég",
+        "végződés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) завершение, конец; заключение",
+        "2) (мат.) округление до единицы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "final",
+        "conclusión"
+      ]
+    }
+  ]
+}

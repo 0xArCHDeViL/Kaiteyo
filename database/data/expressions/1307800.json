@@ -1,0 +1,82 @@
+{
+  "id": "1307800",
+  "readings": [
+    {
+      "kanaExpression": "しいん",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "しおん"
+    },
+    {
+      "kanjiExpression": "子音",
+      "furiganaExpression": [
+        {
+          "text": "子",
+          "annotation": "し"
+        },
+        {
+          "text": "音",
+          "annotation": "いん"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "consonant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{taalk.} medeklinker",
+        "consonant",
+        "{maatwoord voor medeklinkers}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Konsonant",
+        "Mitlaut"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egybecsengő",
+        "együtthangzó",
+        "harmonizáló",
+        "konszonáns",
+        "mássalhangzó",
+        "megegyező",
+        "összhangban levő",
+        "összhangzatos"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "согласный звук",
+        "(см.) しいん【子音】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "consonante"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "konsonant",
+        "medljud"
+      ]
+    }
+  ]
+}

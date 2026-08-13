@@ -1,0 +1,44 @@
+{
+  "id": "1797250",
+  "readings": [
+    {
+      "kanaExpression": "ばくしん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "爆心",
+      "furiganaExpression": [
+        {
+          "text": "爆",
+          "annotation": "ばく"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "center of an explosion",
+        "centre of an explosion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Explosionszentrum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "эпицентр взрыва"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "1548580",
+  "readings": [
+    {
+      "kanaExpression": "おちついた",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "落ち着いた",
+      "furiganaExpression": [
+        {
+          "text": "落",
+          "annotation": "お"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "着",
+          "annotation": "つ"
+        },
+        {
+          "text": "いた"
+        }
+      ],
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "落ちついた",
+      "furiganaExpression": [
+        {
+          "text": "落",
+          "annotation": "お"
+        },
+        {
+          "text": "ちついた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "calm",
+        "composed",
+        "cool",
+        "settled",
+        "fixed",
+        "established",
+        "unobtrusive",
+        "quiet",
+        "subdued",
+        "low-key (color)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kalm",
+        "rustig",
+        "bedaard",
+        "beheerst",
+        "bezadigd",
+        "onbewogen",
+        "flink"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "calme",
+        "tranquille"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ruhig",
+        "gelassen",
+        "cool"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "békés",
+        "csend",
+        "csendes",
+        "halk",
+        "nyugalom",
+        "nyugodt",
+        "szelíd",
+        "sima",
+        "szélcsend",
+        "szenvtelen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спокойный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tranquilo",
+        "calmado"
+      ]
+    }
+  ]
+}

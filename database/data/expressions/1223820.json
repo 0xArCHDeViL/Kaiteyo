@@ -1,0 +1,84 @@
+{
+  "id": "1223820",
+  "readings": [
+    {
+      "kanaExpression": "きしょう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "起床",
+      "furiganaExpression": [
+        {
+          "text": "起",
+          "annotation": "き"
+        },
+        {
+          "text": "床",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 7413
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rising (from one\u0027s bed)",
+        "getting up",
+        "getting out of bed"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opstaan",
+        "uit bed komen",
+        "het opstaan (\u0027s ochtends)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "lever",
+        "réveil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "aufstehen",
+        "das Bett verlassen",
+        "Aufstehen",
+        "Verlassen des Bettes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erősödő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[утренний] подъём; побудка",
+        "{～する} вставать [с кровати], подниматься"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vstajanje",
+        "dviganje",
+        "vstati iz postelje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "levantarse de la cama"
+      ]
+    }
+  ]
+}

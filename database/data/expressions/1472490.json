@@ -1,0 +1,90 @@
+{
+  "id": "1472490",
+  "readings": [
+    {
+      "kanaExpression": "はいせつ",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "排泄",
+      "furiganaExpression": [
+        {
+          "text": "排",
+          "annotation": "はい"
+        },
+        {
+          "text": "泄",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "排せつ",
+      "furiganaExpression": [
+        {
+          "text": "排",
+          "annotation": "はい"
+        },
+        {
+          "text": "せつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "excretion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lozen",
+        "afscheiden",
+        "uitscheiden",
+        "ontlasten",
+        "uitdrijven",
+        "afgaan",
+        "lozing",
+        "afscheiding",
+        "uitscheiding",
+        "excretie",
+        "afgang",
+        "ontlasting",
+        "uitdrijving",
+        "extrusie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausscheidung",
+        "Sekretion",
+        "Absonderung",
+        "ausscheiden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "váladék"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физиол.) выделение",
+        "{～する} выделять"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "exkretion"
+      ]
+    }
+  ]
+}

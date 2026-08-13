@@ -1,0 +1,86 @@
+{
+  "id": "1379440",
+  "readings": [
+    {
+      "kanaExpression": "なまもの",
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "生物",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 2068
+    },
+    {
+      "kanjiExpression": "生もの",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "なま"
+        },
+        {
+          "text": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "raw food",
+        "perishables"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "créature vivante",
+        "nourriture crue",
+        "organisme vivant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rohes",
+        "Ungekochtes (besonders Fisch)",
+        "leicht verderbliche Ware",
+        "Torte mit frischer Sahne"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "romlandó áru"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сырая пища; сырое"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "surova hrana"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "färskvaror",
+        "halvkonserver"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "1347020",
+  "readings": [
+    {
+      "kanaExpression": "しょうごう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "商号",
+      "furiganaExpression": [
+        {
+          "text": "商",
+          "annotation": "しょう"
+        },
+        {
+          "text": "号",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "firm name",
+        "trade name"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "handelsnaam",
+        "firmanaam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Firma",
+        "Handelsname"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "название (марка) фирмы"
+      ]
+    }
+  ]
+}

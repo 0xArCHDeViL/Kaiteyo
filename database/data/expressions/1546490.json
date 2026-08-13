@@ -1,0 +1,76 @@
+{
+  "id": "1546490",
+  "readings": [
+    {
+      "kanaExpression": "ひつじ",
+      "rank": 20500
+    },
+    {
+      "kanaExpression": "ヒツジ"
+    },
+    {
+      "kanjiExpression": "羊",
+      "furiganaExpression": [
+        {
+          "text": "羊",
+          "annotation": "ひつじ"
+        }
+      ],
+      "rank": 5632
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sheep (Ovis aries)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} schaap",
+        "Ovis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mouton"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schaf",
+        "Lamm (junges Schaf)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "birka",
+        "juh",
+        "málészájú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "баран, овца"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ovca"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oveja"
+      ]
+    }
+  ]
+}

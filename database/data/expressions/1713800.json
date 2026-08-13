@@ -1,0 +1,56 @@
+{
+  "id": "1713800",
+  "readings": [
+    {
+      "kanaExpression": "たいない",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "対内",
+      "furiganaExpression": [
+        {
+          "text": "対",
+          "annotation": "たい"
+        },
+        {
+          "text": "内",
+          "annotation": "ない"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "domestic",
+        "internal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "inländisch",
+        "intern",
+        "Innen…",
+        "Inner…"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "belföldi",
+        "hazai",
+        "bel-",
+        "belső"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} (полит.) внутренний"
+      ]
+    }
+  ]
+}

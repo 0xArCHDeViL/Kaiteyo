@@ -1,0 +1,76 @@
+{
+  "id": "1692590",
+  "readings": [
+    {
+      "kanaExpression": "なげわざ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "投げ技",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "な"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "技",
+          "annotation": "わざ"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "投技",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "なげ"
+        },
+        {
+          "text": "技",
+          "annotation": "わざ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "投げ業",
+      "furiganaExpression": [
+        {
+          "text": "投",
+          "annotation": "な"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "業",
+          "annotation": "わざ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "throw or throwing technique (sumo, judo)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{sportt.} werptechniek",
+        "worp"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wurftechnik"
+      ]
+    }
+  ]
+}

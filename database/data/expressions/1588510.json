@@ -1,0 +1,96 @@
+{
+  "id": "1588510",
+  "readings": [
+    {
+      "kanaExpression": "うりかけきん",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "売り掛け金",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "掛",
+          "annotation": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "売掛金",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "うり"
+        },
+        {
+          "text": "掛",
+          "annotation": "かけ"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "accounts receivable",
+        "outstanding sales account"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "te innen rekening",
+        "vordering",
+        "uitstaande schuld",
+        "boekschuld"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Außenstände",
+        "Debitor"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "követelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) うりかけだいきん"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cantidad pendiente de pago",
+        "precio aplazado",
+        "importe pendiente",
+        "importe fiado"
+      ]
+    }
+  ]
+}

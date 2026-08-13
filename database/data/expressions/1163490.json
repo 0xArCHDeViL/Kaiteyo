@@ -1,0 +1,71 @@
+{
+  "id": "1163490",
+  "readings": [
+    {
+      "kanaExpression": "いっしょう",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "一笑",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "笑",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "laugh",
+        "smile"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "even lachen",
+        "glimlachen",
+        "beginnen te lachen",
+        "een lach",
+        "een glimlach"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lachen",
+        "Lächeln",
+        "Lachen",
+        "Auslachen",
+        "Verlachen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mosoly"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "усмешка, улыбка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "risa",
+        "sonrisa"
+      ]
+    }
+  ]
+}

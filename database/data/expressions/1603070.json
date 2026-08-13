@@ -1,0 +1,86 @@
+{
+  "id": "1603070",
+  "readings": [
+    {
+      "kanaExpression": "ふるぼける",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "古ぼける",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "ふる"
+        },
+        {
+          "text": "ぼける"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "古惚ける",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "ふる"
+        },
+        {
+          "text": "惚",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "古呆ける",
+      "furiganaExpression": [
+        {
+          "text": "古",
+          "annotation": "ふる"
+        },
+        {
+          "text": "呆",
+          "annotation": "ぼ"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to look old",
+        "to become time-worn",
+        "to become worn out",
+        "to become old and grubby",
+        "to become musty"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "alt aussehen",
+        "alt werden",
+        "veralten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhasználódik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выглядеть старым (поношенным)"
+      ]
+    }
+  ]
+}

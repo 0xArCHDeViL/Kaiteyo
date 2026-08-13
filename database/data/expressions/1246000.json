@@ -1,0 +1,78 @@
+{
+  "id": "1246000",
+  "readings": [
+    {
+      "kanaExpression": "くうふく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "空腹",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "くう"
+        },
+        {
+          "text": "腹",
+          "annotation": "ふく"
+        }
+      ],
+      "rank": 11302
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "empty stomach",
+        "hunger"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lege",
+        "nuchtere maag",
+        "honger",
+        "trek",
+        "hongerig",
+        "{gew.} graaiig"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "faim"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hunger",
+        "leerer Magen",
+        "Magenleere",
+        "Nüchternheit",
+        "hungrig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "éhség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пустой желудок; голод",
+        "{～な} голодный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hambre"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1611010",
+  "readings": [
+    {
+      "kanaExpression": "なんじゅう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "何十",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "なん"
+        },
+        {
+          "text": "十",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(several) tens",
+        "dozens",
+        "scores (of)"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "des dizaines"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mehrere Dutzend",
+        "dutzende",
+        "zig",
+        "wieviele Dutzend (wörtlich geht es um Vielfache von zehn nicht von zwölf)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "večdesetkratno"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cientos"
+      ]
+    }
+  ]
+}

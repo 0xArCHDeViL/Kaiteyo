@@ -1,0 +1,59 @@
+{
+  "id": "1291960",
+  "readings": [
+    {
+      "kanaExpression": "ざひょうじく",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "座標軸",
+      "furiganaExpression": [
+        {
+          "text": "座",
+          "annotation": "ざ"
+        },
+        {
+          "text": "標",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "軸",
+          "annotation": "じく"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "coordinate axis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{wisk.} as in een coördinatenstelsel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Koordinatenachse"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "koordinátatengely"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ось координат"
+      ]
+    }
+  ]
+}

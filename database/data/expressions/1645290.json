@@ -1,0 +1,52 @@
+{
+  "id": "1645290",
+  "readings": [
+    {
+      "kanaExpression": "せひょう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "世評",
+      "furiganaExpression": [
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "評",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reputation",
+        "public opinion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "öffentliche Meinung",
+        "Ansehen",
+        "gesellschaftliche Stellung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hírnév"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общее мнение; молва, толки, слухи"
+      ]
+    }
+  ]
+}

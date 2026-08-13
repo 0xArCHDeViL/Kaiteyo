@@ -1,0 +1,48 @@
+{
+  "id": "1271490",
+  "readings": [
+    {
+      "kanaExpression": "ごやく",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "誤訳",
+      "furiganaExpression": [
+        {
+          "text": "誤",
+          "annotation": "ご"
+        },
+        {
+          "text": "訳",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mistranslation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "falsch übersetzen",
+        "einen Übersetzungsfehler machen",
+        "Übersetzungsfehler",
+        "falsche Übersetzung",
+        "Fehlübersetzung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неверный (неправильный) перевод; ошибка в переводе",
+        "{～する} неверно переводить, переводить с ошибками"
+      ]
+    }
+  ]
+}

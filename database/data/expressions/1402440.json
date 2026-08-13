@@ -1,0 +1,65 @@
+{
+  "id": "1402440",
+  "readings": [
+    {
+      "kanaExpression": "はしりさる",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "走り去る",
+      "furiganaExpression": [
+        {
+          "text": "走",
+          "annotation": "はし"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "去",
+          "annotation": "さ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to run away",
+        "to run off"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wegrennen",
+        "weglaufen",
+        "wegfahren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elszalad"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "убегать [прочь]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odteči",
+        "steči proč"
+      ]
+    }
+  ]
+}

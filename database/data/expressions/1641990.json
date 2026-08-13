@@ -1,0 +1,57 @@
+{
+  "id": "1641990",
+  "readings": [
+    {
+      "kanaExpression": "もくはん",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "木版",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "もく"
+        },
+        {
+          "text": "版",
+          "annotation": "はん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wood-block printing",
+        "wood engraving"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "houtsnedeblok",
+        "houtblok",
+        "houtsnede",
+        "toonhoutsnede",
+        "houtgravure",
+        "xylografie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Holzdruck",
+        "Holzschnitt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) ксилография; гравирование на дереве и печатание",
+        "2) (см.) もくはんが"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1646170",
+  "readings": [
+    {
+      "kanaExpression": "せんせき",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "戦績",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "績",
+          "annotation": "せき"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "war or military record",
+        "score",
+        "military achievements",
+        "results"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} militaire prestaties",
+        "krijgsresultaten",
+        "{sportt.} resultaten",
+        "score",
+        "uitslag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "militärischer Erfolg",
+        "Resultat eines Wettbewerbes"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyilvántartás",
+        "talpraesett válasz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) военные успехи",
+        "2) достижения в спорте"
+      ]
+    }
+  ]
+}

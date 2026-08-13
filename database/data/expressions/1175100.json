@@ -1,0 +1,65 @@
+{
+  "id": "1175100",
+  "readings": [
+    {
+      "kanaExpression": "えききん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "益金",
+      "furiganaExpression": [
+        {
+          "text": "益",
+          "annotation": "えき"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "profit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Erlös",
+        "Gewinn",
+        "Profit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "haszon",
+        "nyereség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доход, прибыль (денежные)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "beneficio",
+        "provecho"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "vinst"
+      ]
+    }
+  ]
+}

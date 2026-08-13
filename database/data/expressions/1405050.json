@@ -1,0 +1,90 @@
+{
+  "id": "1405050",
+  "readings": [
+    {
+      "kanaExpression": "そくど",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "速度",
+      "furiganaExpression": [
+        {
+          "text": "速",
+          "annotation": "そく"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 2679
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "speed",
+        "velocity",
+        "pace",
+        "rate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "snelheid",
+        "vaart",
+        "gang",
+        "tempo"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "vitesse",
+        "rapidité",
+        "vélocité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geschwindigkeit",
+        "Tempo",
+        "Schnelligkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyorsaság",
+        "sebesség",
+        "ár",
+        "arány",
+        "díjszabás",
+        "érték"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скорость; темп"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "velocidad"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "fart",
+        "hastighet",
+        "takt"
+      ]
+    }
+  ]
+}

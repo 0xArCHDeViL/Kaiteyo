@@ -1,0 +1,71 @@
+{
+  "id": "1610000",
+  "readings": [
+    {
+      "kanaExpression": "すいばく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "水爆",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "爆",
+          "annotation": "ばく"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hydrogen bomb"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waterstofbom",
+        "H-bom"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bombe à hydrogène",
+        "bombe H"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserstoffbombe",
+        "H-Bombe",
+        "Hydrogenbombe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 水素爆弾) водородная бомба"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vodikova bomba"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bomba de hidrógeno"
+      ]
+    }
+  ]
+}

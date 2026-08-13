@@ -1,0 +1,51 @@
+{
+  "id": "1308680",
+  "readings": [
+    {
+      "kanaExpression": "しぶ",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "市部",
+      "furiganaExpression": [
+        {
+          "text": "市",
+          "annotation": "し"
+        },
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        }
+      ],
+      "rank": 20000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "urban areas"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "städtisches Gebiet",
+        "Stadtgebiet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "районы города"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "áreas urbanas",
+        "zonas urbanas"
+      ]
+    }
+  ]
+}

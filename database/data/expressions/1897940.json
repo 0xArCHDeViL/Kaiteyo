@@ -1,0 +1,83 @@
+{
+  "id": "1897940",
+  "readings": [
+    {
+      "kanaExpression": "とらわれ",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "捕らわれ",
+      "furiganaExpression": [
+        {
+          "text": "捕",
+          "annotation": "と"
+        },
+        {
+          "text": "らわれ"
+        }
+      ],
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "捕われ",
+      "furiganaExpression": [
+        {
+          "text": "捕",
+          "annotation": "とら"
+        },
+        {
+          "text": "われ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "囚われ",
+      "furiganaExpression": [
+        {
+          "text": "囚",
+          "annotation": "とら"
+        },
+        {
+          "text": "われ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "imprisonment",
+        "captive"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gevangenschap",
+        "opsluiting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gefangenschaft",
+        "Festnahme",
+        "Gefangennahme"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "börtönbüntetés",
+        "fogság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плен; заключение"
+      ]
+    }
+  ]
+}

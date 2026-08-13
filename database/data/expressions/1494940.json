@@ -1,0 +1,105 @@
+{
+  "id": "1494940",
+  "readings": [
+    {
+      "kanaExpression": "ふほんい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "不本意",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reluctant",
+        "unwilling",
+        "involuntary",
+        "unintentional",
+        "unintended",
+        "unlooked-for",
+        "disappointing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onwillig",
+        "ongewillig",
+        "weigerachtig",
+        "ongeneigd",
+        "ongenegen",
+        "onwilligheid",
+        "ongewilligheid",
+        "weigerachtigheid",
+        "onwil",
+        "tegenzin",
+        "ongeneigdheid",
+        "ongenegenheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "répugnance"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unwillig",
+        "widerwillig",
+        "Abneigung",
+        "Widerwille"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "idegenkedés",
+        "vonakodás",
+        "húzódozó",
+        "kelletlen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нежелание, неохота",
+        "{～な} совершаемый против воли",
+        "{～に}, {～ながら} неохотно, против воли",
+        "{～である} не хотеть"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odpor",
+        "nasprotovanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desganado",
+        "renuente"
+      ]
+    }
+  ]
+}

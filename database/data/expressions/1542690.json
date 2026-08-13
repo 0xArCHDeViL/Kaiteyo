@@ -1,0 +1,77 @@
+{
+  "id": "1542690",
+  "readings": [
+    {
+      "kanaExpression": "ゆうかん",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "夕刊",
+      "furiganaExpression": [
+        {
+          "text": "夕",
+          "annotation": "ゆう"
+        },
+        {
+          "text": "刊",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 7632
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "evening paper"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "avondeditie",
+        "avondblad",
+        "avondkrant"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "journal du soir",
+        "édition du soir (d\u0027un journal)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abendzeitung",
+        "Abendausgabe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вечерний выпуск [газеты]"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "večerni časopis"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "periódico de la tarde"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kvällstidning"
+      ]
+    }
+  ]
+}

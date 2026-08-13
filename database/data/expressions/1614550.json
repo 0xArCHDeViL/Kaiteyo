@@ -1,0 +1,61 @@
+{
+  "id": "1614550",
+  "readings": [
+    {
+      "kanaExpression": "きせい",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "規正",
+      "furiganaExpression": [
+        {
+          "text": "規",
+          "annotation": "き"
+        },
+        {
+          "text": "正",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "correction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Korrigierung",
+        "Regulierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fenyítés",
+        "javítás",
+        "korrigálás",
+        "megbüntetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "исправление; регулирование",
+        "{～する} исправлять; приспособлять; регулировать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "rectificación",
+        "corrección"
+      ]
+    }
+  ]
+}

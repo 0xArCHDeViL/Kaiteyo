@@ -1,0 +1,61 @@
+{
+  "id": "1792600",
+  "readings": [
+    {
+      "kanaExpression": "だんせい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "男声",
+      "furiganaExpression": [
+        {
+          "text": "男",
+          "annotation": "だん"
+        },
+        {
+          "text": "声",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "male voice"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mannenstem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Männerstimme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мужской голос"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "voz masculina"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "mansröst"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "1373940",
+  "readings": [
+    {
+      "kanaExpression": "せかいてき",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "世界的",
+      "furiganaExpression": [
+        {
+          "text": "世",
+          "annotation": "せ"
+        },
+        {
+          "text": "界",
+          "annotation": "かい"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 17000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "worldwide",
+        "global",
+        "international",
+        "universal",
+        "world-famous",
+        "world-class"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wereldwijd",
+        "mondiaal",
+        "globaal",
+        "internationaal",
+        "wereld-",
+        "van wereldformaat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weltweit",
+        "auf der ganzen Welt",
+        "international",
+        "global",
+        "universal"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "teljes",
+        "világ-",
+        "nemzetközi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мировой, всемирный; международный"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "svetovno"
+      ]
+    }
+  ]
+}

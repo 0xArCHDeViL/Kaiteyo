@@ -1,0 +1,72 @@
+{
+  "id": "1320260",
+  "readings": [
+    {
+      "kanaExpression": "しっそう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "失踪",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しっ"
+        },
+        {
+          "text": "踪",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 12484
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "disappearance",
+        "running away",
+        "going missing",
+        "absconding"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vermist raken",
+        "worden",
+        "verdwijnen",
+        "vermissing",
+        "verdwijning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verschollenheit (insbes. eines Verbrechers)",
+        "verschwinden",
+        "verschwunden sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "eltűnés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "исчезновение; бегство; побег",
+        "{～する} исчезать, бежать; скрываться"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fuga",
+        "desaparición"
+      ]
+    }
+  ]
+}

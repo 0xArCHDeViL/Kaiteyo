@@ -1,0 +1,51 @@
+{
+  "id": "1312540",
+  "readings": [
+    {
+      "kanaExpression": "しやく",
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "試薬",
+      "furiganaExpression": [
+        {
+          "text": "試",
+          "annotation": "し"
+        },
+        {
+          "text": "薬",
+          "annotation": "やく"
+        }
+      ],
+      "rank": 26573
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reagent"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} reageermiddel",
+        "reagens"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reagens",
+        "Reagenz (Stoff, der mit einem anderen eine bestimmte chem. Reaktion herbeiführt u. ihn so identifiziert)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(хим.) реагент, реактив"
+      ]
+    }
+  ]
+}

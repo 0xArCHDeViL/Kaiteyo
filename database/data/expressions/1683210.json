@@ -1,0 +1,82 @@
+{
+  "id": "1683210",
+  "readings": [
+    {
+      "kanaExpression": "かんしょうてき",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "感傷的",
+      "furiganaExpression": [
+        {
+          "text": "感",
+          "annotation": "かん"
+        },
+        {
+          "text": "傷",
+          "annotation": "しょう"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sentimental",
+        "emotional",
+        "maudlin",
+        "mawkish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "sentimenteel",
+        "overdreven gevoelig",
+        "gevoelerig",
+        "emotioneel",
+        "zoetsappig",
+        "melodramatisch",
+        "weeïg",
+        "huilerig",
+        "melig",
+        "larmoyant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sentimental",
+        "empfindsam",
+        "rührselig",
+        "gefühlsduselig",
+        "schwärmerisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "érzelgős",
+        "szentimentális"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сентиментальный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sentimental"
+      ]
+    }
+  ]
+}

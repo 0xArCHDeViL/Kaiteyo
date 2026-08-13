@@ -1,0 +1,45 @@
+{
+  "id": "1080610",
+  "readings": [
+    {
+      "kanaExpression": "テレビきょく",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "テレビ局",
+      "furiganaExpression": [
+        {
+          "text": "テレビ"
+        },
+        {
+          "text": "局",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 7182
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "television station"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fernsehsender",
+        "Fernsehanstalt",
+        "TV-Anstalt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "телекомпания",
+        "телестанция"
+      ]
+    }
+  ]
+}

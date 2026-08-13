@@ -1,0 +1,72 @@
+CREATE TABLE character_stroke(
+    character       TEXT NOT NULL,
+    stroke_number   INTEGER  NOT NULL,
+    stroke_path     TEXT NOT NULL,
+    PRIMARY KEY (character, stroke_number)
+);
+
+CREATE TABLE radical(
+    radical      TEXT NOT NULL,
+    strokesCount INTEGER  NOT NULL,
+    PRIMARY KEY (radical, strokesCount)
+);
+
+CREATE TABLE kanji_data(
+    kanji TEXT NOT NULL PRIMARY KEY,
+    frequency  INTEGER,
+    variantFamily TEXT
+);
+
+CREATE TABLE kanji_reading(
+    kanji        TEXT NOT NULL,
+    reading_type TEXT NOT NULL,
+    reading      TEXT NOT NULL,
+    PRIMARY KEY (kanji, reading_type, reading)
+);
+
+CREATE TABLE kanji_meaning(
+    kanji    TEXT NOT NULL,
+    meaning  TEXT NOT NULL,
+    priority INTEGER NOT NULL,
+    PRIMARY KEY (kanji, meaning, priority)
+);
+
+CREATE TABLE kanji_radical(
+    kanji         TEXT NOT NULL,
+    radical       TEXT NOT NULL,
+    start_stroke  INTEGER NOT NULL,
+    strokes_count INTEGER NOT NULL,
+    PRIMARY KEY (kanji, radical, start_stroke)
+);
+
+CREATE TABLE kanji_classification(
+    kanji    TEXT NOT NULL,
+    class    TEXT NOT NULL,
+    PRIMARY KEY (kanji, class)
+);
+
+CREATE TABLE letter_vocab_example(
+    letter      TEXT NOT NULL,
+    vocab_id    INTEGER NOT NULL,
+    kanji       TEXT,
+    kana        TEXT NOT NULL,
+    PRIMARY KEY (letter, vocab_id, kanji, kana)
+);
+
+
+insertCharacterStroke:
+INSERT INTO character_stroke VALUES ?;
+insertRadical:
+INSERT INTO radical VALUES ?;
+insertKanjiData:
+INSERT INTO kanji_data VALUES ?;
+insertKanjiReading:
+INSERT INTO kanji_reading VALUES ?;
+insertKanjiMeaning:
+INSERT INTO kanji_meaning VALUES ?;
+insertKanjiRadical:
+INSERT INTO kanji_radical VALUES ?;
+insertKanjiClassification:
+INSERT INTO kanji_classification VALUES ?;
+insertLetterVocabExample:
+INSERT INTO letter_vocab_example VALUES ?;

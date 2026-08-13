@@ -1,0 +1,110 @@
+{
+  "id": "1169120",
+  "readings": [
+    {
+      "kanaExpression": "ひきわけ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "引き分け",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 11882
+    },
+    {
+      "kanjiExpression": "引分け",
+      "furiganaExpression": [
+        {
+          "text": "引",
+          "annotation": "ひき"
+        },
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "draw (in competition)",
+        "tie game"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gelijk spel",
+        "gelijke stand",
+        "tie",
+        "remisepartij",
+        "remise",
+        "onbesliste wedstrijd",
+        "quitte",
+        "deadheat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "match nul"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Unentschieden (im Wettkampf)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszédre való unszolás",
+        "döntetlen játék",
+        "döntetlen mérkőzés",
+        "eldöntetlen ütközet",
+        "farablás",
+        "felvonóhíd mozgatható része",
+        "kihúzott nyeremény",
+        "kihúzott nyereménytárgy",
+        "kisorsolás",
+        "nyereménytárgy",
+        "remi",
+        "sorsolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) ничья",
+        "{～になる} кончиться в ничью"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "empate (en una competición)"
+      ]
+    }
+  ]
+}

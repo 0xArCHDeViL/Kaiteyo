@@ -1,0 +1,181 @@
+{
+  "id": "1588810",
+  "readings": [
+    {
+      "kanaExpression": "おいつく",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "追いつく",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "お"
+        },
+        {
+          "text": "いつく"
+        }
+      ],
+      "rank": 7159
+    },
+    {
+      "kanjiExpression": "追い付く",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "追い着く",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "着",
+          "annotation": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "追付く",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "おい"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "追着く",
+      "furiganaExpression": [
+        {
+          "text": "追",
+          "annotation": "おい"
+        },
+        {
+          "text": "着",
+          "annotation": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "おい付く",
+      "furiganaExpression": [
+        {
+          "text": "おい"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to catch up (with)",
+        "to draw level",
+        "to pull even",
+        "to reach",
+        "to be compensated",
+        "to make up for one\u0027s losses"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "inhalen",
+        "bijkomen",
+        "gelijkkomen",
+        "achterhalen",
+        "achterop zijn",
+        "achteropkomen",
+        "evenaren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rattraper",
+        "égaliser",
+        "atteindre",
+        "rejoindre",
+        "être indemnisé",
+        "compenser ses pertes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einholen",
+        "aufholen",
+        "erreichen",
+        "nachholen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "legyőz",
+        "megelőz",
+        "meglep",
+        "felfüggeszt",
+        "felkap",
+        "közbeszól",
+        "megért"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нагонять, догонять"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "alcanzar",
+        "coger",
+        "ponerse a la altura de",
+        "llegar al nivel de",
+        "dar alcance"
+      ]
+    }
+  ]
+}

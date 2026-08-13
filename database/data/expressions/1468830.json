@@ -1,0 +1,56 @@
+{
+  "id": "1468830",
+  "readings": [
+    {
+      "kanaExpression": "ねんしゅう",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "年収",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "収",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 6163
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "annual income"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "revenu annuel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jahresgehalt",
+        "Jahreseinkommen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "годовой доход"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ingresos anuales"
+      ]
+    }
+  ]
+}

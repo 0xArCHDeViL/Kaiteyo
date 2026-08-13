@@ -1,0 +1,60 @@
+{
+  "id": "1358470",
+  "readings": [
+    {
+      "kanaExpression": "しょくし",
+      "rank": 36500
+    },
+    {
+      "kanaExpression": "ひとさしゆび",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "食指",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "指",
+          "annotation": "し"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "index finger",
+        "forefinger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zeigefinger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mutatóujj"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "указательный палец"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "pekfinger"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1669960",
+  "readings": [
+    {
+      "kanaExpression": "けっせん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "血栓",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "けっ"
+        },
+        {
+          "text": "栓",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "thrombus",
+        "blood clot"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} bloedprop",
+        "bloedstolsel",
+        "bloedklont",
+        "trombus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Thrombus",
+        "Blutgerinnsel",
+        "Blutpfropf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) тромб"
+      ]
+    }
+  ]
+}

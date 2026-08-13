@@ -1,0 +1,66 @@
+{
+  "id": "1358930",
+  "readings": [
+    {
+      "kanaExpression": "のびりつ",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "伸び率",
+      "furiganaExpression": [
+        {
+          "text": "伸",
+          "annotation": "の"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ],
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "延び率",
+      "furiganaExpression": [
+        {
+          "text": "延",
+          "annotation": "の"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "率",
+          "annotation": "りつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "growth rate",
+        "elongation percentage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wachstumsrate",
+        "Dehnrate",
+        "Elongationsrate"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lánc nyúlása",
+        "növekedési ráta"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "1009250",
+  "readings": [
+    {
+      "kanaExpression": "どのくらい",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "どのぐらい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "どの位",
+      "furiganaExpression": [
+        {
+          "text": "どの"
+        },
+        {
+          "text": "位",
+          "annotation": "くらい"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "何の位",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "ど"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "位",
+          "annotation": "くらい"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "何のくらい",
+      "furiganaExpression": [
+        {
+          "text": "何",
+          "annotation": "ど"
+        },
+        {
+          "text": "のくらい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "how long",
+        "how far",
+        "how much"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "à quelle distance",
+        "combien",
+        "combien de temps"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wie lange ungefähr",
+        "wie weit ungefähr",
+        "wie oft ungefähr",
+        "wie groß ungefähr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сколько [примерно] (о количестве, цене, расстоянии, времени)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "como cuanto",
+        "qué tanto"
+      ]
+    }
+  ]
+}

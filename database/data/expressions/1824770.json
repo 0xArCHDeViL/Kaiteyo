@@ -1,0 +1,108 @@
+{
+  "id": "1824770",
+  "readings": [
+    {
+      "kanaExpression": "だいがわり",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "代替わり",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "替",
+          "annotation": "が"
+        },
+        {
+          "text": "わり"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "代替り",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "替",
+          "annotation": "がわ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "代変わり",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "変",
+          "annotation": "が"
+        },
+        {
+          "text": "わり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "代変り",
+      "furiganaExpression": [
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "変",
+          "annotation": "がわ"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "taking over (e.g. store or family\u0027s headship)",
+        "subrogation",
+        "substitution of one person for another (usu. a creditor)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wechsel in der Leitung eines Geschäfts",
+        "Vorstandswechsel",
+        "Generationswechsel",
+        "Thronwechsel",
+        "Wechsel des Monarchen, Familienoberhauptes, Geschäftsleiters o.Ä."
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "behelyettesítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) смена (начальника, главы семьи и т. п.)",
+        "2) переход в руки преемника",
+        "{～になる} перейти в другие руки (о магазине и т. п.)"
+      ]
+    }
+  ]
+}

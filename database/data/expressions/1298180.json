@@ -1,0 +1,79 @@
+{
+  "id": "1298180",
+  "readings": [
+    {
+      "kanaExpression": "さくにゅう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "搾乳",
+      "furiganaExpression": [
+        {
+          "text": "搾",
+          "annotation": "さく"
+        },
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "さく乳",
+      "furiganaExpression": [
+        {
+          "text": "さく"
+        },
+        {
+          "text": "乳",
+          "annotation": "にゅう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "milking (a cow, goat, etc.)",
+        "breast pumping",
+        "milk expression"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "melken",
+        "het melken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "traite (des vaches)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "melken",
+        "Melken"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "доение",
+        "{～する} доить"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ordeñar",
+        "ordeño (de una vaca)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1579040",
+  "readings": [
+    {
+      "kanaExpression": "くろかみ",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "こくはつ",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "黒髪",
+      "furiganaExpression": [
+        {
+          "text": "黒",
+          "annotation": "くろ"
+        },
+        {
+          "text": "髪",
+          "annotation": "かみ"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "black hair"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwarzes Haar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чёрные волосы",
+        "(кн.) чёрные волосы",
+        "{～の} черноволосый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pelo negro"
+      ]
+    }
+  ]
+}

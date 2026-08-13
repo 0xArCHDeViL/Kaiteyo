@@ -1,0 +1,58 @@
+{
+  "id": "1393810",
+  "readings": [
+    {
+      "kanaExpression": "ぜんにん",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "前任",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "former (incumbent)",
+        "predecessor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vroegere betrekking",
+        "vorige aanstelling",
+        "voorganger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorgänger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "korábbi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} прежний, бывший, предшествующий (по должности)"
+      ]
+    }
+  ]
+}

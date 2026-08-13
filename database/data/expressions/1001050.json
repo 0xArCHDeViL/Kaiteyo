@@ -1,0 +1,46 @@
+{
+  "id": "1001050",
+  "readings": [
+    {
+      "kanaExpression": "うねり",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "畝り",
+      "furiganaExpression": [
+        {
+          "text": "畝",
+          "annotation": "うね"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "undulation",
+        "winding",
+        "meandering",
+        "swell (of waves)",
+        "ground swell",
+        "surge",
+        "billow",
+        "roller"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "houle",
+        "mer agitée",
+        "ondulation",
+        "rouleau (vague)",
+        "sinuosité"
+      ]
+    }
+  ]
+}

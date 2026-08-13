@@ -1,0 +1,69 @@
+{
+  "id": "1164600",
+  "readings": [
+    {
+      "kanaExpression": "いちだいき",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "一代記",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "代",
+          "annotation": "だい"
+        },
+        {
+          "text": "記",
+          "annotation": "き"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "biography"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "biografie",
+        "levensbeschrijving",
+        "levensgeschiedenis",
+        "levensverhaal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Biographie",
+        "Geschichte eines Lebens"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "életrajz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "биография, жизнеописание; жизнь… (в названии жизнеописания)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "biografía"
+      ]
+    }
+  ]
+}

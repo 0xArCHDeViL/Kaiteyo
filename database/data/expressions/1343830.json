@@ -1,0 +1,107 @@
+{
+  "id": "1343830",
+  "readings": [
+    {
+      "kanaExpression": "かきなおす",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "書き直す",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "直",
+          "annotation": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 13795
+    },
+    {
+      "kanjiExpression": "書きなおす",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "きなおす"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "かき直す",
+      "furiganaExpression": [
+        {
+          "text": "かき"
+        },
+        {
+          "text": "直",
+          "annotation": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to write out",
+        "to make a fair copy",
+        "to rewrite"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mettre au propre",
+        "recopier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "noch einmal schreiben",
+        "umschreiben",
+        "ins Reine schreiben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lemásol",
+        "teljesen kiír"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переписывать [заново]; писать заново"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reescribir",
+        "editar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "skriva rent"
+      ]
+    }
+  ]
+}

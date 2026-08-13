@@ -1,0 +1,45 @@
+{
+  "id": "1019520",
+  "readings": [
+    {
+      "kanaExpression": "アルファ",
+      "rank": 11721
+    },
+    {
+      "kanaExpression": "アルファー"
+    },
+    {
+      "kanjiExpression": "Α",
+      "furiganaExpression": [
+        {
+          "text": "Α",
+          "annotation": "アルファ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "α",
+      "furiganaExpression": [
+        {
+          "text": "α",
+          "annotation": "アルファ"
+        }
+      ],
+      "rank": 6875
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "alpha"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Alpha (erster Buchstabe des griechischen Alphabets)"
+      ]
+    }
+  ]
+}

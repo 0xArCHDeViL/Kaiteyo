@@ -1,0 +1,98 @@
+{
+  "id": "1630460",
+  "readings": [
+    {
+      "kanaExpression": "くりいれ",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "繰入",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "入",
+          "annotation": "いれ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "繰り入れ",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 26573
+    },
+    {
+      "kanjiExpression": "繰入れ",
+      "furiganaExpression": [
+        {
+          "text": "繰",
+          "annotation": "くり"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inward transfer (of money)",
+        "carry over (money from previous period)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einreihen",
+        "Übertragung",
+        "Überschreibung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áthelyezés",
+        "átigazolás",
+        "átszállás",
+        "átszállítás",
+        "átutalás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "перечисление, перевод (денег), трансфер"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "girera"
+      ]
+    }
+  ]
+}

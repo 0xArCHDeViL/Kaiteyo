@@ -1,0 +1,62 @@
+{
+  "id": "1429190",
+  "readings": [
+    {
+      "kanaExpression": "ちょうしょ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "調書",
+      "furiganaExpression": [
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "書",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 12696
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "protocol",
+        "written evidence",
+        "record (investigation, interrogation, etc.)",
+        "preliminary memo",
+        "charge sheet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} proces-verbaal",
+        "verbaal",
+        "protocol"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Protokoll",
+        "Bericht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "protokoll"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "протокол, акт"
+      ]
+    }
+  ]
+}

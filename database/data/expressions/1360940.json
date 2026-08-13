@@ -1,0 +1,61 @@
+{
+  "id": "1360940",
+  "readings": [
+    {
+      "kanaExpression": "しんぱく",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "心拍",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "拍",
+          "annotation": "ぱく"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "心搏",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "搏",
+          "annotation": "ぱく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "heartbeat"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} hartslag",
+        "hartklopping",
+        "het kloppen",
+        "slaan van het hart",
+        "ictus cordis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herzschlag",
+        "Herzstoß"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "2839962",
+  "readings": [
+    {
+      "kanaExpression": "ゼロ",
+      "rank": 2427
+    },
+    {
+      "kanjiExpression": "０",
+      "furiganaExpression": [
+        {
+          "text": "０",
+          "annotation": "ゼロ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "〇",
+      "furiganaExpression": [
+        {
+          "text": "〇",
+          "annotation": "ゼロ"
+        }
+      ],
+      "rank": 870
+    },
+    {
+      "kanjiExpression": "零",
+      "furiganaExpression": [
+        {
+          "text": "零",
+          "annotation": "ゼロ"
+        }
+      ],
+      "rank": 10514
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "zero",
+        "0",
+        "nought",
+        "nil",
+        "nothing",
+        "zilch"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nul",
+        "zero",
+        "niets",
+        "nihil",
+        "nul (komma nul)",
+        "niks",
+        "nop(pes)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Null",
+        "nichts",
+        "kein einziger",
+        "Anfang",
+        "Nullpunkt",
+        "Versager"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyenge látási viszonyok",
+        "nullafok",
+        "nullapont",
+        "nullfok",
+        "nullpont",
+        "rossz látási viszonyok",
+        "zérus",
+        "zérusfok",
+        "zéruspont"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nič"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Cero"
+      ]
+    }
+  ]
+}

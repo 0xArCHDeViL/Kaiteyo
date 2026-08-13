@@ -1,0 +1,75 @@
+{
+  "id": "1576120",
+  "readings": [
+    {
+      "kanaExpression": "いっしょ",
+      "rank": 4433
+    },
+    {
+      "kanaExpression": "ひとところ"
+    },
+    {
+      "kanjiExpression": "一所",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "所",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "一処",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "ひと"
+        },
+        {
+          "text": "処",
+          "annotation": "ところ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one place",
+        "the same place",
+        "one person",
+        "together"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Ort",
+        "eine Stelle",
+        "derselbe Ort",
+        "Zusammensein",
+        "Begleitung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) то же самое место; одно место",
+        "{～に} на (в) одном месте",
+        "2) (см.) いっしょ【一緒】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "un lugar",
+        "el mismo lugar"
+      ]
+    }
+  ]
+}

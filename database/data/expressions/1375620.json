@@ -1,0 +1,103 @@
+{
+  "id": "1375620",
+  "readings": [
+    {
+      "kanaExpression": "なるべく",
+      "rank": 5375
+    },
+    {
+      "kanjiExpression": "成るべく",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "な"
+        },
+        {
+          "text": "るべく"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "成る可く",
+      "furiganaExpression": [
+        {
+          "text": "成",
+          "annotation": "な"
+        },
+        {
+          "text": "る"
+        },
+        {
+          "text": "可",
+          "annotation": "べ"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "as (much) as possible",
+        "as (much) as one can",
+        "wherever practicable",
+        "if possible"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zo ~ mogelijk",
+        "zo mogelijk",
+        "liefst {gevolgd door nara なら}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aussi... que possible",
+        "autant que possible",
+        "dans la mesure du possible",
+        "si possible"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "möglichst",
+        "wenn möglich",
+        "wo möglich"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) なるたけ",
+        "насколько возможно"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "če je le mogoče",
+        "kolikor je mogoče"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tanto como sea posible"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "till max"
+      ]
+    }
+  ]
+}

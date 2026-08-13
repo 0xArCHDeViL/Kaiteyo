@@ -1,0 +1,50 @@
+{
+  "id": "1702420",
+  "readings": [
+    {
+      "kanaExpression": "どしつ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "土質",
+      "furiganaExpression": [
+        {
+          "text": "土",
+          "annotation": "ど"
+        },
+        {
+          "text": "質",
+          "annotation": "しつ"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "soil",
+        "soil quality"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bodenbeschaffenheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "termőföld"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "качество почвы, почва"
+      ]
+    }
+  ]
+}

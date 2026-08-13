@@ -1,0 +1,72 @@
+{
+  "id": "1257260",
+  "readings": [
+    {
+      "kanaExpression": "いやがらせ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "嫌がらせ",
+      "furiganaExpression": [
+        {
+          "text": "嫌",
+          "annotation": "いや"
+        },
+        {
+          "text": "がらせ"
+        }
+      ],
+      "rank": 12254
+    },
+    {
+      "kanjiExpression": "厭がらせ",
+      "furiganaExpression": [
+        {
+          "text": "厭",
+          "annotation": "いや"
+        },
+        {
+          "text": "がらせ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "harassment",
+        "pestering"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overlast",
+        "last",
+        "hinder",
+        "pesterij",
+        "hatelijkheid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ärger",
+        "Belästigung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "zaklatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "враждебный выпад; неприятное (в словах или действиях)"
+      ]
+    }
+  ]
+}

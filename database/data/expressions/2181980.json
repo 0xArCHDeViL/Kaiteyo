@@ -1,0 +1,45 @@
+{
+  "id": "2181980",
+  "readings": [
+    {
+      "kanaExpression": "しょうとう",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "床榻",
+      "furiganaExpression": [
+        {
+          "text": "床",
+          "annotation": "しょう"
+        },
+        {
+          "text": "榻",
+          "annotation": "とう"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "牀榻",
+      "furiganaExpression": [
+        {
+          "text": "牀",
+          "annotation": "しょう"
+        },
+        {
+          "text": "榻",
+          "annotation": "とう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bed",
+        "seat",
+        "bench"
+      ]
+    }
+  ]
+}

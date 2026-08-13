@@ -1,10 +1,64 @@
 name: Build All
 
-on: [ workflow_call, workflow_dispatch ]
+on:
+  workflow_call:
+    inputs:
+      data_source:
+        description: "Use the internal data release or compile the vendored source data"
+        required: false
+        type: string
+        default: release
+      app_data_version:
+        description: "Application data schema/release version"
+        required: false
+        type: string
+        default: "15"
+      app_data_release_tag:
+        description: "Internal GitHub Release tag used in release mode"
+        required: false
+        type: string
+        default: data-v15
+      publish_data_release:
+        description: "Publish the source-built database as a GitHub Release asset"
+        required: false
+        type: boolean
+        default: false
+  workflow_dispatch:
+    inputs:
+      data_source:
+        description: "Data build mode"
+        required: true
+        type: choice
+        options:
+          - release
+          - source
+        default: release
+      app_data_version:
+        description: "Application data schema/release version"
+        required: true
+        type: string
+        default: "15"
+      app_data_release_tag:
+        description: "Internal GitHub Release tag used in release mode"
+        required: true
+        type: string
+        default: data-v15
+      publish_data_release:
+        description: "Publish source-built database to the GitHub Release section"
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
 
 jobs:
   build-android:
     runs-on: ubuntu-latest
+    env:
+      APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '15' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v15' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -16,15 +70,52 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Build
+      - name: Prepare and validate application data
+        shell: bash
+        run: |
+          set -euo pipefail
+          chmod +x gradlew
+          database_file="database/kanji-dojo-data-base-v${APP_DATA_VERSION}.sql"
+
+          case "$APP_DATA_SOURCE" in
+            source)
+              ./gradlew :database:exportAppDatabase \
+                -PappDataVersion="$APP_DATA_VERSION" \
+                --no-daemon --max-workers=1 \
+                -Dorg.gradle.workers.max=1 \
+                -Dorg.gradle.jvmargs='-Xmx3072m -XX:MaxMetaspaceSize=512m -XX:+UseParallelGC -Dfile.encoding=UTF-8'
+              ;;
+            release)
+              echo "Using internal data release $APP_DATA_RELEASE_TAG"
+              ;;
+            *)
+              echo "Unsupported data source: $APP_DATA_SOURCE" >&2
+              exit 1
+              ;;
+          esac
+
+          if [[ "$APP_DATA_SOURCE" == source ]]; then
+            test -s "$database_file"
+            file "$database_file" | grep -F 'SQLite 3.x database'
+            sqlite_header=$(head -c 16 "$database_file")
+            test "$sqlite_header" = 'SQLite format 3'
+            sha256sum "$database_file" | tee "${database_file}.sha256"
+          fi
+
+      - name: Build Android release
         env:
           KEYSTORE: ${{ secrets.KEYSTORE_BASE64 }}
           KEYSTORE_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
           SIGN_KEY: ${{ secrets.KEY_ALIAS }}
           SIGN_PASS: ${{ secrets.KEY_PASSWORD }}
         run: |
-          chmod +x gradlew
-          ./gradlew app:assembleRelease
+          ./gradlew app:assembleRelease \
+            -PappDataSource="$APP_DATA_SOURCE" \
+            -PappDataVersion="$APP_DATA_VERSION" \
+            -PappDataReleaseTag="$APP_DATA_RELEASE_TAG" \
+            --no-daemon --max-workers=1 \
+            -Dorg.gradle.workers.max=1 \
+            -Dorg.gradle.jvmargs='-Xmx3072m -XX:MaxMetaspaceSize=512m -XX:+UseParallelGC -Dfile.encoding=UTF-8'
 
       - name: Upload Android Build
         uses: actions/upload-artifact@v4
@@ -33,13 +124,55 @@ jobs:
           path: app/build/outputs/apk/release/*.apk
           retention-days: 1
 
+      - name: Upload Source Data Release Asset
+        if: ${{ env.APP_DATA_SOURCE == 'source' && (inputs.publish_data_release || false) }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: kanji-data-release
+          path: |
+            database/kanji-dojo-data-base-v${{ env.APP_DATA_VERSION }}.sql
+            database/kanji-dojo-data-base-v${{ env.APP_DATA_VERSION }}.sql.sha256
+          retention-days: 7
+
   verify-uploaded-builds:
     needs:
       - build-android
     runs-on: ubuntu-latest
     steps:
-      - name: Downloading artifacts
+      - name: Download artifacts
         uses: actions/download-artifact@v4
 
-      - name: Print all files
-        run: ls -R
+      - name: Validate artifact layout
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$(find android -type f -name '*.apk' -print -quit)"
+          find . -maxdepth 3 -type f -print | sort
+
+  publish-data-release:
+    if: ${{ inputs.data_source == 'source' && (inputs.publish_data_release || false) }}
+    needs:
+      - build-android
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download source data artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: kanji-data-release
+          path: kanji-data-release
+
+      - name: Publish internal data release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: data-v${{ inputs.app_data_version || '15' }}
+          name: Internal Kanji Data v${{ inputs.app_data_version || '15' }}
+          target_commitish: ${{ github.sha }}
+          generate_release_notes: false
+          body: |
+            Source-built Kaiteyo application database generated from the vendored `database/` source tree.
+            The `.sql` extension is retained for application asset compatibility; the artifact is a SQLite database.
+          files: |
+            kanji-data-release/kanji-dojo-data-base-v${{ inputs.app_data_version || '15' }}.sql
+            kanji-data-release/kanji-dojo-data-base-v${{ inputs.app_data_version || '15' }}.sql.sha256

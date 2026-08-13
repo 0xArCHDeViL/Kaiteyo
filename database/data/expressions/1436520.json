@@ -1,0 +1,100 @@
+{
+  "id": "1436520",
+  "readings": [
+    {
+      "kanaExpression": "ほどなく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "程なく",
+      "furiganaExpression": [
+        {
+          "text": "程",
+          "annotation": "ほど"
+        },
+        {
+          "text": "なく"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "程無く",
+      "furiganaExpression": [
+        {
+          "text": "程",
+          "annotation": "ほど"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "く"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "soon",
+        "before long",
+        "shortly thereafter"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gauw",
+        "weldra",
+        "dadelijk",
+        "binnenkort",
+        "spoedig daarop",
+        "snel daarna",
+        "na korte tijd",
+        "kort daarna",
+        "eventjes later",
+        "binnen de kortste keren",
+        "aldra",
+        "alras"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bientôt",
+        "sous peu"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bald",
+        "nach kurzer Zeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hamar",
+        "inkább, semhogy",
+        "korán"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спустя некоторое время; вскоре"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pronto",
+        "muy pronto"
+      ]
+    }
+  ]
+}

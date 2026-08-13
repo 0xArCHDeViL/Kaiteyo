@@ -1,0 +1,97 @@
+{
+  "id": "1499650",
+  "readings": [
+    {
+      "kanaExpression": "ふうさ",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "封鎖",
+      "furiganaExpression": [
+        {
+          "text": "封",
+          "annotation": "ふう"
+        },
+        {
+          "text": "鎖",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 12249
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "blockade",
+        "lockdown",
+        "sealing off (an area)",
+        "freezing (funds)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "blokkeren",
+        "afsluiten",
+        "versperren",
+        "afgrendelen",
+        "{econ.} bevriezen",
+        "{veroud.} sperren",
+        "blokkade",
+        "afsluiting",
+        "versperring",
+        "blokkering",
+        "{econ.} bevriezing"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "blocus",
+        "gel (d\u0027avoirs, de fonds)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "blockieren",
+        "eine Blockade verhängen",
+        "sperren",
+        "Blockade",
+        "Einschließung",
+        "Einfrieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "blokád",
+        "ostromzár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "блокада; (эк.) замораживание",
+        "{～する} блокировать; (эк.) замораживать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "blokada",
+        "zapora",
+        "blokirati",
+        "zamrzniti {zaloge, račun}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bloqueo"
+      ]
+    }
+  ]
+}

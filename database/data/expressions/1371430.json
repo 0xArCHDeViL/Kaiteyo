@@ -1,0 +1,78 @@
+{
+  "id": "1371430",
+  "readings": [
+    {
+      "kanaExpression": "すいぎん",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "水銀",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "銀",
+          "annotation": "ぎん"
+        }
+      ],
+      "rank": 14890
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mercury (Hg)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} kwik",
+        "kwikzilver",
+        "{veroud.} mercurius",
+        "Hg"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mercure"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "quecksilbrig",
+        "Quecksilber (silbrig glänzendes, bei Zimmertemperatur zähflüssiges Schwermetall; Zeichen: Hg)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "higany"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ртуть",
+        "{～の} ртутный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mercurio"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kvicksilver"
+      ]
+    }
+  ]
+}

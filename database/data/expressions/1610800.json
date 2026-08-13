@@ -1,0 +1,81 @@
+{
+  "id": "1610800",
+  "readings": [
+    {
+      "kanaExpression": "ガラスど",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "ガラス戸",
+      "furiganaExpression": [
+        {
+          "text": "ガラス"
+        },
+        {
+          "text": "戸",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "硝子戸",
+      "furiganaExpression": [
+        {
+          "text": "硝子",
+          "annotation": "ガラス"
+        },
+        {
+          "text": "戸",
+          "annotation": "ど"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "glass door"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "glazen deur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "porte en verre",
+        "porte vitrée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Glastür"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стеклянная дверь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cristalera",
+        "puerta de cristal"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "glasdörr"
+      ]
+    }
+  ]
+}

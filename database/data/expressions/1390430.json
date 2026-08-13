@@ -1,0 +1,71 @@
+{
+  "id": "1390430",
+  "readings": [
+    {
+      "kanaExpression": "せんとうき",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "戦闘機",
+      "furiganaExpression": [
+        {
+          "text": "戦",
+          "annotation": "せん"
+        },
+        {
+          "text": "闘",
+          "annotation": "とう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fighter (aircraft)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} gevechtstoestel",
+        "gevechtsvliegtuig",
+        "jager",
+        "jachtvliegtuig",
+        "{veroud.} gevechtsmachine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kampfflugzeug",
+        "Jagdflugzeug",
+        "Jäger"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vadászrepülőgép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "истребитель (самолёт)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "caza de combate"
+      ]
+    }
+  ]
+}

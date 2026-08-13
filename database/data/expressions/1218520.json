@@ -1,0 +1,78 @@
+{
+  "id": "1218520",
+  "readings": [
+    {
+      "kanaExpression": "ききゅう",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "危急",
+      "furiganaExpression": [
+        {
+          "text": "危",
+          "annotation": "き"
+        },
+        {
+          "text": "急",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "emergency",
+        "crisis",
+        "imminent danger",
+        "Vulnerable (conservation status)",
+        "VU"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "urgence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "drohende Gefahr",
+        "unmittelbare Gefahr",
+        "Notfall",
+        "Not",
+        "Krisensituation",
+        "Krise"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szükségállapot",
+        "váratlan esemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "критические обстоятельства, критический момент; [крайняя] опасность",
+        "{～の} критический; неотложный; крайний"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "emergencia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "nödläge"
+      ]
+    }
+  ]
+}

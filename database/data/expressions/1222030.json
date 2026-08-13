@@ -1,0 +1,69 @@
+{
+  "id": "1222030",
+  "readings": [
+    {
+      "kanaExpression": "きかん",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "気管",
+      "furiganaExpression": [
+        {
+          "text": "気",
+          "annotation": "き"
+        },
+        {
+          "text": "管",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trachea",
+        "windpipe"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "luchtpijp",
+        "{med.} trachea",
+        "{entom.} luchtbuis",
+        "{entom.} adembuis",
+        "{entom.} ademhalingsbuis",
+        "{entom.} trachee"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "trachée-artère"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Luftröhre",
+        "Trachea",
+        "Trachee (Atmungsorgan von Gliedertieren)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "трахея, дыхательное горло"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tráquea"
+      ]
+    }
+  ]
+}

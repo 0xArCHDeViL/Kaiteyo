@@ -1,0 +1,78 @@
+{
+  "id": "1338360",
+  "readings": [
+    {
+      "kanaExpression": "ですぎる",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "出すぎる",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "すぎる"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "出過ぎる",
+      "furiganaExpression": [
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "過",
+          "annotation": "す"
+        },
+        {
+          "text": "ぎる"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to stick out too much",
+        "to protrude too far",
+        "to be too strong (e.g. of tea)",
+        "to be too forward",
+        "to be too assertive",
+        "to be pushy",
+        "to be obtrusive"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vorstehen",
+        "zu stark sein (Tee)",
+        "zu viel sein",
+        "aufdringlich sein",
+        "dreist sein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rátukmál",
+        "tolakszik"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) слишком выдаваться вперёд",
+        "2) быть навязчивым, вмешиваться",
+        "3) быть слишком крепким (о чае)"
+      ]
+    }
+  ]
+}

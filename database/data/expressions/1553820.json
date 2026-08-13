@@ -1,0 +1,87 @@
+{
+  "id": "1553820",
+  "readings": [
+    {
+      "kanaExpression": "りょうがえ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "両替",
+      "furiganaExpression": [
+        {
+          "text": "両",
+          "annotation": "りょう"
+        },
+        {
+          "text": "替",
+          "annotation": "がえ"
+        }
+      ],
+      "rank": 13243
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "change",
+        "money exchange"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "geldwisseling",
+        "geldruil",
+        "wisselen {in kleingeld}",
+        "stukmaken",
+        "kleinmaken",
+        "cambiëren",
+        "{Barg.} knokken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "change",
+        "monnaie (rendue)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geldwechsel",
+        "Geld wechseln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pénzváltás",
+        "átszállás",
+        "változat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обмен денег"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "menjava denarja",
+        "menjava deviz",
+        "menjalnica",
+        "denarna menjava"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cambio de moneda"
+      ]
+    }
+  ]
+}

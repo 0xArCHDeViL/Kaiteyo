@@ -1,0 +1,55 @@
+{
+  "id": "1168420",
+  "readings": [
+    {
+      "kanaExpression": "いんしょうは",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "印象派",
+      "furiganaExpression": [
+        {
+          "text": "印",
+          "annotation": "いん"
+        },
+        {
+          "text": "象",
+          "annotation": "しょう"
+        },
+        {
+          "text": "派",
+          "annotation": "は"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Impressionists"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{kunstgesch.} impressionisme",
+        "impressionisten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Impressionisten",
+        "impressionistische Schule"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Impresionistas"
+      ]
+    }
+  ]
+}

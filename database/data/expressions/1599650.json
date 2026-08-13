@@ -1,0 +1,94 @@
+{
+  "id": "1599650",
+  "readings": [
+    {
+      "kanaExpression": "なみなみ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "並々",
+      "furiganaExpression": [
+        {
+          "text": "並",
+          "annotation": "なみ"
+        },
+        {
+          "text": "々",
+          "annotation": "なみ"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "並並",
+      "furiganaExpression": [
+        {
+          "text": "並",
+          "annotation": "なみ"
+        },
+        {
+          "text": "並",
+          "annotation": "なみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "並み並み",
+      "furiganaExpression": [
+        {
+          "text": "並",
+          "annotation": "な"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "並",
+          "annotation": "な"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ordinary"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Normalität (häufig mit Neg. verwendet)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hétköznapi",
+        "menü"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} обыкновенный, заурядный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "normal",
+        "general",
+        "ordinario",
+        "común",
+        "corriente",
+        "alinearse",
+        "ser igual"
+      ]
+    }
+  ]
+}

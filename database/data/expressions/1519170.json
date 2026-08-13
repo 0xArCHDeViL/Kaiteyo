@@ -1,0 +1,89 @@
+{
+  "id": "1519170",
+  "readings": [
+    {
+      "kanaExpression": "ぼうし",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "帽子",
+      "furiganaExpression": [
+        {
+          "text": "帽",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 5572
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hat",
+        "cap"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoed",
+        "hoofddeksel",
+        "{Barg.} gibus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chapeau",
+        "casquette",
+        "bonnet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hut",
+        "Mütze",
+        "Schwertspitze"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bíborosi kalap",
+        "fejfedő",
+        "kalap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "головной убор; шляпа, шапка, кепка, фуражка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "klobuk",
+        "kapa"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sombrero"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "hatt"
+      ]
+    }
+  ]
+}

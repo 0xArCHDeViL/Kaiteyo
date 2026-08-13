@@ -1,0 +1,61 @@
+{
+  "id": "1483960",
+  "readings": [
+    {
+      "kanaExpression": "ひぶん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "碑文",
+      "furiganaExpression": [
+        {
+          "text": "碑",
+          "annotation": "ひ"
+        },
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "inscription",
+        "epitaph",
+        "epigraph"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épitaphe",
+        "inscription"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Inschrift",
+        "Gedenkstein-Inschrift",
+        "Grabschrift",
+        "Epitaph"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "sírfelirat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "эпитафия"
+      ]
+    }
+  ]
+}

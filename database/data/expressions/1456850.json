@@ -1,0 +1,80 @@
+{
+  "id": "1456850",
+  "readings": [
+    {
+      "kanaExpression": "つきつける",
+      "rank": 27500
+    },
+    {
+      "kanjiExpression": "突きつける",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "きつける"
+        }
+      ],
+      "rank": 12958
+    },
+    {
+      "kanjiExpression": "突き付ける",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "突付ける",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つき"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to thrust (at someone)",
+        "to stick",
+        "to point (a gun)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jmdm. vorhalten",
+        "jmdm. entgegenhalten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тыкать в лицо, совать под нос"
+      ]
+    }
+  ]
+}

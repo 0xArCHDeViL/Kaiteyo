@@ -1,0 +1,72 @@
+{
+  "id": "1492320",
+  "readings": [
+    {
+      "kanaExpression": "ふむき",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "不向き",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "向",
+          "annotation": "む"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unfit",
+        "unsuitable",
+        "unmarketable"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ongeschikt",
+        "niet passend",
+        "onbruikbaar",
+        "niet in de wieg gelegd voor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ungeeignet",
+        "unpassend",
+        "unangemessen",
+        "untauglich",
+        "mangelnde Eignung",
+        "Unangemessenheit",
+        "Untauglichkeit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alkalmatlan",
+        "gyenge szervezetű",
+        "nem használható",
+        "helytelen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～な} негодный, неподходящий"
+      ]
+    }
+  ]
+}

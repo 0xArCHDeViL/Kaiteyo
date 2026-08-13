@@ -1,0 +1,88 @@
+{
+  "id": "1456820",
+  "readings": [
+    {
+      "kanaExpression": "つきぬける",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "突き抜ける",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "抜",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "突抜ける",
+      "furiganaExpression": [
+        {
+          "text": "突",
+          "annotation": "つき"
+        },
+        {
+          "text": "抜",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to pierce through",
+        "to break through"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "percer à jour",
+        "transpercer",
+        "traverser"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "durchstoßen",
+        "hindurchgehen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áttör"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "проходить [насквозь]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "atravesar",
+        "cruzar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "1299180",
+  "readings": [
+    {
+      "kanaExpression": "さっちゅうざい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "殺虫剤",
+      "furiganaExpression": [
+        {
+          "text": "殺",
+          "annotation": "さっ"
+        },
+        {
+          "text": "虫",
+          "annotation": "ちゅう"
+        },
+        {
+          "text": "剤",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "insecticide",
+        "pesticide"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "insecticide",
+        "pesticide"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Insektenvertilgungsmittel",
+        "Insektizid",
+        "Pestizid"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rovarirtószer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "инсектицид, средство от насекомых"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "insecticida",
+        "pesticida"
+      ]
+    }
+  ]
+}

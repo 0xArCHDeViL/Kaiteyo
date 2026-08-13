@@ -1,0 +1,69 @@
+{
+  "id": "1657930",
+  "readings": [
+    {
+      "kanaExpression": "さんじ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "三次",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "次",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "３時",
+      "furiganaExpression": [
+        {
+          "text": "３",
+          "annotation": "さん"
+        },
+        {
+          "text": "時",
+          "annotation": "じ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "third",
+        "tertiary",
+        "cubic (function, equation, etc.)",
+        "third-order"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dritter Grad",
+        "dritte Stufe",
+        "tertiär",
+        "kubisch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "harmadfokú egyenlet",
+        "kocka alakú"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} (мат.) кубический, третьей степени"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "1234740",
+  "readings": [
+    {
+      "kanaExpression": "ともだおれ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "共倒れ",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "とも"
+        },
+        {
+          "text": "倒",
+          "annotation": "だお"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "falling together",
+        "mutual destruction",
+        "joint bankruptcy"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "destruction mutuelle",
+        "faillite commune",
+        "ruine commune"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gemeinsam zugrunde gehen",
+        "gemeinsames Scheitern",
+        "gemeinsamer Untergang",
+        "gleichzeitiger Ruin",
+        "gegenseitige Zerstörung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "совместное (одновременное) банкротство",
+        "{～になる} одновременно разориться (обанкротиться, потерпеть крах)"
+      ]
+    }
+  ]
+}

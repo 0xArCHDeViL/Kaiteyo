@@ -1,0 +1,60 @@
+{
+  "id": "1455000",
+  "readings": [
+    {
+      "kanaExpression": "とくしゅさつえい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "特殊撮影",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とく"
+        },
+        {
+          "text": "殊",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "撮",
+          "annotation": "さつ"
+        },
+        {
+          "text": "影",
+          "annotation": "えい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "special effects",
+        "SFX"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{filmk.} special effects",
+        "speciale effecten",
+        "trucage"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufnahme mit od. von Spezialeffekten"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "efectos especiales"
+      ]
+    }
+  ]
+}

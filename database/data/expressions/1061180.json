@@ -1,0 +1,81 @@
+{
+  "id": "1061180",
+  "readings": [
+    {
+      "kanaExpression": "シベリア",
+      "rank": 12675
+    },
+    {
+      "kanaExpression": "シベリヤ"
+    },
+    {
+      "kanjiExpression": "西比利亜",
+      "furiganaExpression": [
+        {
+          "text": "西比利亜",
+          "annotation": "シベリア"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "西伯利亜",
+      "furiganaExpression": [
+        {
+          "text": "西",
+          "annotation": "シ"
+        },
+        {
+          "text": "伯",
+          "annotation": "ベ"
+        },
+        {
+          "text": "利",
+          "annotation": "リ"
+        },
+        {
+          "text": "亜",
+          "annotation": "ア"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Siberia",
+        "cake made with layers of sweet bean paste and sponge cake"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "Siberië"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sibirien (Großlandschaft in Nordasien)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "Сибирь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Siberia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "Sibirien"
+      ]
+    }
+  ]
+}

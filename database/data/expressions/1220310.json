@@ -1,0 +1,120 @@
+{
+  "id": "1220310",
+  "readings": [
+    {
+      "kanaExpression": "すでに",
+      "rank": 845
+    },
+    {
+      "kanaExpression": "すんでに"
+    },
+    {
+      "kanjiExpression": "既に",
+      "furiganaExpression": [
+        {
+          "text": "既",
+          "annotation": "すで"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "rank": 1197
+    },
+    {
+      "kanjiExpression": "已に",
+      "furiganaExpression": [
+        {
+          "text": "已",
+          "annotation": "すで"
+        },
+        {
+          "text": "に"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "already",
+        "too late"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "reeds",
+        "al",
+        "al eerder",
+        "onderhand",
+        "{form.} bereids",
+        "tevoren",
+        "eerder",
+        "voordien",
+        "vroeger",
+        "vooraf",
+        "echt",
+        "alvast",
+        "vast",
+        "wel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déjà",
+        "trop tard"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zuvor",
+        "vorher",
+        "früher",
+        "längst",
+        "schon",
+        "bereits",
+        "nicht mehr (bei Verneinung)",
+        "vollständig",
+        "insgesamt",
+        "ohne Ausnahme",
+        "fast",
+        "beinahe",
+        "offensichtlich",
+        "unbestreitbar",
+        "zweifellos"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "már"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уже",
+        "1) уже",
+        "2) вот-вот совсем",
+        "3): {～して} (кн.) немного спустя"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "že"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ya",
+        "demasiado tarde"
+      ]
+    }
+  ]
+}

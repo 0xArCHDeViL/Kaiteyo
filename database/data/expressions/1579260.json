@@ -1,0 +1,84 @@
+{
+  "id": "1579260",
+  "readings": [
+    {
+      "kanaExpression": "きのう",
+      "rank": 7162
+    },
+    {
+      "kanaExpression": "さくじつ",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "昨日",
+      "furiganaExpression": [
+        {
+          "text": "昨日",
+          "annotation": "きのう"
+        }
+      ],
+      "rank": 507
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yesterday"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gisteren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "hier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gestern",
+        "der gestrige Tag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tegnap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вчера",
+        "1. вчерашний день",
+        "2. вчера",
+        "{～の} вчерашний"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "včeraj",
+        "včeraj (formalno)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ayer"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "igår"
+      ]
+    }
+  ]
+}

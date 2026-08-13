@@ -1,0 +1,48 @@
+{
+  "id": "1272080",
+  "readings": [
+    {
+      "kanaExpression": "こうさいひ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "交際費",
+      "furiganaExpression": [
+        {
+          "text": "交",
+          "annotation": "こう"
+        },
+        {
+          "text": "際",
+          "annotation": "さい"
+        },
+        {
+          "text": "費",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "entertainment expenses"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Repräsentationskosten",
+        "Unterhaltungskosten"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "расходы на поддержание знакомств; представительские расходы"
+      ]
+    }
+  ]
+}

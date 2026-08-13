@@ -1,0 +1,66 @@
+{
+  "id": "1191130",
+  "readings": [
+    {
+      "kanaExpression": "かひ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "可否",
+      "furiganaExpression": [
+        {
+          "text": "可",
+          "annotation": "か"
+        },
+        {
+          "text": "否",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "propriety",
+        "right and wrong",
+        "advisability",
+        "possibility",
+        "pro and con",
+        "ayes and noes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Richtigkeit",
+        "Richtiges oder Falsches",
+        "Ratsamkeit",
+        "Für und Wider",
+        "Pro und Contra",
+        "Vor- und Nachteile",
+        "Ja oder Nein"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "helyesség",
+        "illendőség",
+        "szabályszerűség",
+        "tanácsos volta vminek",
+        "mellette és ellene"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) правильность [или неправильность]; достоинства [и недостатки]; уместность, целесообразность; применимость",
+        "2) за и против; про и контра"
+      ]
+    }
+  ]
+}

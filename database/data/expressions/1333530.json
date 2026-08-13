@@ -1,0 +1,61 @@
+{
+  "id": "1333530",
+  "readings": [
+    {
+      "kanaExpression": "つどい",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "集い",
+      "furiganaExpression": [
+        {
+          "text": "集",
+          "annotation": "つど"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 13310
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "meeting",
+        "get-together (e.g. among friends)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bijeenkomst",
+        "samenkomst",
+        "samenzijn",
+        "treffen",
+        "ontmoeting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Treffen",
+        "Versammlung",
+        "Zusammenkunft"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "találkozó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) собрание; встреча"
+      ]
+    }
+  ]
+}

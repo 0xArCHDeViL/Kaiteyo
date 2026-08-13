@@ -1,0 +1,73 @@
+{
+  "id": "1470200",
+  "readings": [
+    {
+      "kanaExpression": "のうどう",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "能動",
+      "furiganaExpression": [
+        {
+          "text": "能",
+          "annotation": "のう"
+        },
+        {
+          "text": "動",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 13709
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "activity"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "activiteit",
+        "bedrijvigheid",
+        "{spraakk.} activum",
+        "actief"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aktivität",
+        "Aktiv",
+        "Tatform",
+        "Tätigkeitsform"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cselekvő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) активность; действенность"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "activo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "aktiv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "1195430",
+  "readings": [
+    {
+      "kanaExpression": "にもつ",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "荷物",
+      "furiganaExpression": [
+        {
+          "text": "荷",
+          "annotation": "に"
+        },
+        {
+          "text": "物",
+          "annotation": "もつ"
+        }
+      ],
+      "rank": 3142
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "luggage",
+        "baggage",
+        "package",
+        "burden",
+        "payload (of a packet, cell, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bagage",
+        "pakkage",
+        "pak",
+        "vracht",
+        "lading",
+        "{verzameln.} goed",
+        "goederen",
+        "spullen",
+        "bullen",
+        "{fig.} last",
+        "ballast",
+        "blok aan het been",
+        "rem"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bagage",
+        "paquet",
+        "fardeau",
+        "charge (d\u0027un paquet, etc.)",
+        "fret"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gepäck",
+        "Fracht",
+        "Last",
+        "Ladung",
+        "Post",
+        "Päckchen",
+        "Paket",
+        "Klamotten",
+        "Belastung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "poggyász",
+        "hasznos súly",
+        "hasznos teher"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "груз; багаж, вещи; товар"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "paket",
+        "prtljaga"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "equipaje"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bagage"
+      ]
+    }
+  ]
+}

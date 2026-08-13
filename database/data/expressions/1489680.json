@@ -1,0 +1,62 @@
+{
+  "id": "1489680",
+  "readings": [
+    {
+      "kanaExpression": "ひょうしょうじょう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "表彰状",
+      "furiganaExpression": [
+        {
+          "text": "表",
+          "annotation": "ひょう"
+        },
+        {
+          "text": "彰",
+          "annotation": "しょう"
+        },
+        {
+          "text": "状",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "testimonial",
+        "certificate of commendation"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "attestation",
+        "certificat (de recommendation)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Belobigungsschreiben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "működési bizonyítvány",
+        "szolgálati bizonyítvány"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "почётная грамота"
+      ]
+    }
+  ]
+}

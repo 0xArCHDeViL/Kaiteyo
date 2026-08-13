@@ -1,0 +1,84 @@
+{
+  "id": "1329830",
+  "readings": [
+    {
+      "kanaExpression": "じゅしんき",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "受信機",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "受信器",
+      "furiganaExpression": [
+        {
+          "text": "受",
+          "annotation": "じゅ"
+        },
+        {
+          "text": "信",
+          "annotation": "しん"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(television, radio, etc.) receiver"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ontvanger",
+        "ontvangtoestel",
+        "ontvanginstallatie",
+        "receiver"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Empfangsgerät",
+        "Empfänger",
+        "Receiver"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csődtömeggondnok",
+        "orgazda",
+        "telefonkagyló",
+        "vevő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[радио]приёмник; приёмный телеграфный аппарат"
+      ]
+    }
+  ]
+}

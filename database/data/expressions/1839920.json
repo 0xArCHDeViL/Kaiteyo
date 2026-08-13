@@ -1,0 +1,54 @@
+{
+  "id": "1839920",
+  "readings": [
+    {
+      "kanaExpression": "おばな",
+      "rank": 31500
+    },
+    {
+      "kanaExpression": "ゆうか"
+    },
+    {
+      "kanjiExpression": "雄花",
+      "furiganaExpression": [
+        {
+          "text": "雄",
+          "annotation": "お"
+        },
+        {
+          "text": "花",
+          "annotation": "ばな"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "male flower",
+        "staminate flower"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} mannelijke bloem",
+        "bloesem"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "männliche Blüte"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} (бот.) бесплодный, неспособный к оплодотворению"
+      ]
+    }
+  ]
+}

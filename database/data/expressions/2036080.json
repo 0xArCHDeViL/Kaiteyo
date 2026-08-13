@@ -1,0 +1,68 @@
+{
+  "id": "2036080",
+  "readings": [
+    {
+      "kanaExpression": "うつ",
+      "rank": 3360
+    },
+    {
+      "kanjiExpression": "鬱",
+      "furiganaExpression": [
+        {
+          "text": "鬱",
+          "annotation": "うつ"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "欝",
+      "furiganaExpression": [
+        {
+          "text": "欝",
+          "annotation": "うつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "depression",
+        "low spirits",
+        "luxuriant (of vegetation)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "depressie",
+        "dichtbegroeid",
+        "weelderig"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Melancholie",
+        "Niedergeschlagenheit",
+        "Depression"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pangás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) уныние, меланхолия, тоска",
+        "2) чащоба; густая заросль"
+      ]
+    }
+  ]
+}

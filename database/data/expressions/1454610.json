@@ -1,0 +1,67 @@
+{
+  "id": "1454610",
+  "readings": [
+    {
+      "kanaExpression": "とくひょう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "得票",
+      "furiganaExpression": [
+        {
+          "text": "得",
+          "annotation": "とく"
+        },
+        {
+          "text": "票",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 17000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "number of votes polled",
+        "poll votes"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "stemmen behalen",
+        "krijgen",
+        "winnen",
+        "ontvangen",
+        "het behalen",
+        "ontvangen van stemmen",
+        "behaalde stemmen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "suffrage",
+        "voix"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stimmen erhalten",
+        "Stimmen gewinnen",
+        "(gewonnene)Stimmenzahl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) получение голосов",
+        "{～する} получать голоса",
+        "2) (см.) とくひょうすう"
+      ]
+    }
+  ]
+}

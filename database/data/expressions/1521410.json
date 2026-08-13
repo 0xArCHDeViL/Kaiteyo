@@ -1,0 +1,74 @@
+{
+  "id": "1521410",
+  "readings": [
+    {
+      "kanaExpression": "ぼくら",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "僕ら",
+      "furiganaExpression": [
+        {
+          "text": "僕",
+          "annotation": "ぼく"
+        },
+        {
+          "text": "ら"
+        }
+      ],
+      "rank": 4063
+    },
+    {
+      "kanjiExpression": "僕等",
+      "furiganaExpression": [
+        {
+          "text": "僕",
+          "annotation": "ぼく"
+        },
+        {
+          "text": "等",
+          "annotation": "ら"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "we"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{♂} we",
+        "wij"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "nous (langage masculin)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "wir (1. Person Plural; vertraulich im Ton; Männersprache)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nosotros"
+      ]
+    }
+  ]
+}

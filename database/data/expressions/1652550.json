@@ -1,0 +1,44 @@
+{
+  "id": "1652550",
+  "readings": [
+    {
+      "kanaExpression": "つうかん",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "通巻",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "巻",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "consecutive number of volumes",
+        "total number of volumes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "fortlaufende Nummer von Zeitschriften"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) выпуск, том (какого-л. издания)"
+      ]
+    }
+  ]
+}

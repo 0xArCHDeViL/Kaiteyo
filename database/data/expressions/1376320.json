@@ -1,0 +1,66 @@
+{
+  "id": "1376320",
+  "readings": [
+    {
+      "kanaExpression": "せいうん",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "星雲",
+      "furiganaExpression": [
+        {
+          "text": "星",
+          "annotation": "せい"
+        },
+        {
+          "text": "雲",
+          "annotation": "うん"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nebula",
+        "galaxy"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{astron.} nevel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nebel",
+        "Galaxie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csillagköd",
+        "ködfátyol",
+        "ködfolt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(астр.) туманность"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nebulosa",
+        "galaxia"
+      ]
+    }
+  ]
+}

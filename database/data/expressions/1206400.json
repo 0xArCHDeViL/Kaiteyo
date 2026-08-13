@@ -1,0 +1,61 @@
+{
+  "id": "1206400",
+  "readings": [
+    {
+      "kanaExpression": "かくじつ",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "かくにち"
+    },
+    {
+      "kanjiExpression": "隔日",
+      "furiganaExpression": [
+        {
+          "text": "隔",
+          "annotation": "かく"
+        },
+        {
+          "text": "日",
+          "annotation": "じつ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "every other day",
+        "every second day"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "jeder zweite Tag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "másodnaponként",
+        "minden másnap",
+        "minden második nap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～に} через день, каждый второй день"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cada dos días"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "1500540",
+  "readings": [
+    {
+      "kanaExpression": "ふくしょう",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "副賞",
+      "furiganaExpression": [
+        {
+          "text": "副",
+          "annotation": "ふく"
+        },
+        {
+          "text": "賞",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "extra prize"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Extrapreis",
+        "Nebenpreis (neben dem formellen Preis mit einer Preisverleihung verbundener Geldpreis od. anderes Geschenk)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дополнительная награда"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "premio extra"
+      ]
+    }
+  ]
+}

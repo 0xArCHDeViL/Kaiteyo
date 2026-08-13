@@ -1,0 +1,94 @@
+{
+  "id": "1202390",
+  "readings": [
+    {
+      "kanaExpression": "からし",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "カラシ"
+    },
+    {
+      "kanjiExpression": "辛子",
+      "furiganaExpression": [
+        {
+          "text": "辛",
+          "annotation": "から"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "芥子",
+      "furiganaExpression": [
+        {
+          "text": "芥子",
+          "annotation": "からし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mustard"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "mosterd",
+        "{gew.} mostaard"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "moutarde"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "japanischer Senf",
+        "Karashi"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mustár",
+        "mustárfű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "горчица"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "gorčica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mostaza"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "senap"
+      ]
+    }
+  ]
+}

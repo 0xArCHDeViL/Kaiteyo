@@ -1,0 +1,66 @@
+{
+  "id": "1428710",
+  "readings": [
+    {
+      "kanaExpression": "しおかぜ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "潮風",
+      "furiganaExpression": [
+        {
+          "text": "潮",
+          "annotation": "しお"
+        },
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        }
+      ],
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "塩風",
+      "furiganaExpression": [
+        {
+          "text": "塩",
+          "annotation": "しお"
+        },
+        {
+          "text": "風",
+          "annotation": "かぜ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "salty sea breeze",
+        "salt wind"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meeresbrise",
+        "Seewind"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "морской ветер; солёный ветер"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "brisa del mar",
+        "brisa marina",
+        "aire salado"
+      ]
+    }
+  ]
+}

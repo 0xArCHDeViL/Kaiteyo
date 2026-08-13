@@ -1,0 +1,72 @@
+{
+  "id": "1182690",
+  "readings": [
+    {
+      "kanaExpression": "やごう",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "屋号",
+      "furiganaExpression": [
+        {
+          "text": "屋",
+          "annotation": "や"
+        },
+        {
+          "text": "号",
+          "annotation": "ごう"
+        }
+      ],
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "家号",
+      "furiganaExpression": [
+        {
+          "text": "家",
+          "annotation": "や"
+        },
+        {
+          "text": "号",
+          "annotation": "ごう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "name of store",
+        "trade name (esp. of a sole proprietorship)",
+        "stage name (e.g. of actor)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "winkelnaam",
+        "firmanaam",
+        "handelsnaam",
+        "{kabuki} toneelnaam",
+        "huisnaam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bühnenname",
+        "Geschäftszeichen",
+        "Firmenname",
+        "Name eines Hauses"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) наименование (марка) фирмы (торгового предприятия)",
+        "2) (театр.) наследственное актёрское имя"
+      ]
+    }
+  ]
+}

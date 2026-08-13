@@ -1,0 +1,75 @@
+{
+  "id": "1167410",
+  "readings": [
+    {
+      "kanaExpression": "いちれい",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "一例",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いち"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "example",
+        "an instance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een voorbeeld",
+        "een geval",
+        "een illustratie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein Beispiel",
+        "ein Exempel",
+        "ein Muster",
+        "ein Fall",
+        "eine Illustration"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "példa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "пример"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ejemplo",
+        "un caso"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "exempel"
+      ]
+    }
+  ]
+}

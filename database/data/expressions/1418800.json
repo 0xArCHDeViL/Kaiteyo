@@ -1,0 +1,61 @@
+{
+  "id": "1418800",
+  "readings": [
+    {
+      "kanaExpression": "たんとう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "短刀",
+      "furiganaExpression": [
+        {
+          "text": "短",
+          "annotation": "たん"
+        },
+        {
+          "text": "刀",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "short sword",
+        "knife",
+        "dagger",
+        "dirk",
+        "tantō"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épée courte",
+        "dague"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kurzschwert",
+        "Dolch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tőr"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "короткий меч; кинжал, стилет"
+      ]
+    }
+  ]
+}

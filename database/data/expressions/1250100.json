@@ -1,0 +1,52 @@
+{
+  "id": "1250100",
+  "readings": [
+    {
+      "kanaExpression": "かたがみ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "型紙",
+      "furiganaExpression": [
+        {
+          "text": "型",
+          "annotation": "かた"
+        },
+        {
+          "text": "紙",
+          "annotation": "がみ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pattern paper (for dressmaking)",
+        "stencil"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "knippatroon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Muster",
+        "Schnittmuster",
+        "Schnitt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[бумажная] выкройка"
+      ]
+    }
+  ]
+}

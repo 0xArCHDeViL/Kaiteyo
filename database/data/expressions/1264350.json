@@ -1,0 +1,132 @@
+{
+  "id": "1264350",
+  "readings": [
+    {
+      "kanaExpression": "いうまでもない",
+      "rank": 26500
+    },
+    {
+      "kanaExpression": "ゆうまでもない"
+    },
+    {
+      "kanjiExpression": "言うまでもない",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "うまでもない"
+        }
+      ],
+      "rank": 6079
+    },
+    {
+      "kanjiExpression": "言うまでも無い",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "うまでも"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "言う迄も無い",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        },
+        {
+          "text": "迄",
+          "annotation": "まで"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "無",
+          "annotation": "な"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "言う迄もない",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        },
+        {
+          "text": "迄",
+          "annotation": "まで"
+        },
+        {
+          "text": "もない"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "goes without saying",
+        "needless to say",
+        "obvious"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het behoeft geen betoog dat",
+        "overbodig te zeggen dat",
+        "het spreekt vanzelf dat",
+        "het is zonneklaar dat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "natürlich",
+        "freilich",
+        "selbstverständlich",
+        "selbstredend"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "magától értetődik",
+        "mondanom sem kell"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "нечего и говорить",
+        "и говорить не приходится",
+        "само собой разумеется"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "1481590",
+  "readings": [
+    {
+      "kanaExpression": "はんざい",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "犯罪",
+      "furiganaExpression": [
+        {
+          "text": "犯",
+          "annotation": "はん"
+        },
+        {
+          "text": "罪",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 1259
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "crime",
+        "offence",
+        "offense"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "misdaad",
+        "misdrijf",
+        "overtreding",
+        "vergrijp",
+        "delict",
+        "crimen",
+        "crime",
+        "criminaliteit",
+        "delinquentie",
+        "misdadigheid"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "crime",
+        "infraction",
+        "délit",
+        "offense"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verbrechen",
+        "Delikt",
+        "Frevel",
+        "Straftat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bűncselekmény",
+        "bűntett"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "преступление; уголовное дело",
+        "{～的} преступный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "crimen"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "brott",
+        "dåd"
+      ]
+    }
+  ]
+}

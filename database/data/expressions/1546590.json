@@ -1,0 +1,146 @@
+{
+  "id": "1546590",
+  "readings": [
+    {
+      "kanaExpression": "はがき",
+      "rank": 12555
+    },
+    {
+      "kanaExpression": "ハガキ",
+      "rank": 11631
+    },
+    {
+      "kanjiExpression": "葉書",
+      "furiganaExpression": [
+        {
+          "text": "葉",
+          "annotation": "は"
+        },
+        {
+          "text": "書",
+          "annotation": "がき"
+        }
+      ],
+      "rank": 14954
+    },
+    {
+      "kanjiExpression": "葉書き",
+      "furiganaExpression": [
+        {
+          "text": "葉",
+          "annotation": "は"
+        },
+        {
+          "text": "書",
+          "annotation": "が"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "端書",
+      "furiganaExpression": [
+        {
+          "text": "端",
+          "annotation": "は"
+        },
+        {
+          "text": "書",
+          "annotation": "がき"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "端書き",
+      "furiganaExpression": [
+        {
+          "text": "端",
+          "annotation": "は"
+        },
+        {
+          "text": "書",
+          "annotation": "が"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "羽書",
+      "furiganaExpression": [
+        {
+          "text": "羽",
+          "annotation": "は"
+        },
+        {
+          "text": "書",
+          "annotation": "がき"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "postcard",
+        "memo",
+        "note",
+        "card"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "briefkaart",
+        "correspondentiekaart",
+        "postkaart"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "carte postale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Postkarte"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "képes levelezőlap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "открытка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "razglednica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tarjeta"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "postkort"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "1201070",
+  "readings": [
+    {
+      "kanaExpression": "かいていばん",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "改訂版",
+      "furiganaExpression": [
+        {
+          "text": "改",
+          "annotation": "かい"
+        },
+        {
+          "text": "訂",
+          "annotation": "てい"
+        },
+        {
+          "text": "版",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "改定版",
+      "furiganaExpression": [
+        {
+          "text": "改",
+          "annotation": "かい"
+        },
+        {
+          "text": "定",
+          "annotation": "てい"
+        },
+        {
+          "text": "版",
+          "annotation": "ばん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "revised edition"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "édition révisée"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "revidierte Auflage",
+        "verbesserte Auflage"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "javított kiadás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "исправленное издание"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "edición revisada"
+      ]
+    }
+  ]
+}

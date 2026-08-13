@@ -1,0 +1,83 @@
+{
+  "id": "1566820",
+  "readings": [
+    {
+      "kanaExpression": "どうかつ",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "恫喝",
+      "furiganaExpression": [
+        {
+          "text": "恫",
+          "annotation": "どう"
+        },
+        {
+          "text": "喝",
+          "annotation": "かつ"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "どう喝",
+      "furiganaExpression": [
+        {
+          "text": "どう"
+        },
+        {
+          "text": "喝",
+          "annotation": "かつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "intimidation",
+        "threat",
+        "bluster"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bedreigen",
+        "intimideren",
+        "bedreiging",
+        "intimidatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bedrohung",
+        "Einschüchterung",
+        "bedrohen",
+        "einschüchtern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "féktelenség",
+        "hangoskodás",
+        "háryjánoskodás",
+        "hevesség",
+        "kérkedés",
+        "lárma",
+        "pofázás",
+        "tombolás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) угроза, устрашение, запугивание",
+        "{～する} запугивать, угрожать"
+      ]
+    }
+  ]
+}

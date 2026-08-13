@@ -1,0 +1,59 @@
+{
+  "id": "1278960",
+  "readings": [
+    {
+      "kanaExpression": "こうたい",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "抗体",
+      "furiganaExpression": [
+        {
+          "text": "抗",
+          "annotation": "こう"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "antibody"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "antistof",
+        "afweerstof",
+        "antilichaam",
+        "tegenstof"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Antikörper"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "anticuerpo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "antikropp",
+        "skyddskropp"
+      ]
+    }
+  ]
+}

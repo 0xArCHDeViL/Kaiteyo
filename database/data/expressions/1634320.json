@@ -1,0 +1,92 @@
+{
+  "id": "1634320",
+  "readings": [
+    {
+      "kanaExpression": "くさむしり",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "草毟り",
+      "furiganaExpression": [
+        {
+          "text": "草",
+          "annotation": "くさ"
+        },
+        {
+          "text": "毟",
+          "annotation": "むし"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "草むしり",
+      "furiganaExpression": [
+        {
+          "text": "草",
+          "annotation": "くさ"
+        },
+        {
+          "text": "むしり"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "草毮り",
+      "furiganaExpression": [
+        {
+          "text": "草",
+          "annotation": "くさ"
+        },
+        {
+          "text": "毮",
+          "annotation": "むし"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "weeding",
+        "weeder",
+        "weeding fork"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het wieden",
+        "verwijdering van onkruid",
+        "het uittrekken van onkruid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jäten",
+        "Unkrautjäten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyomlálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прополка",
+        "{～する} полоть"
+      ]
+    }
+  ]
+}

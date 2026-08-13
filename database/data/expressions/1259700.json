@@ -1,0 +1,105 @@
+{
+  "id": "1259700",
+  "readings": [
+    {
+      "kanaExpression": "みならう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "見習う",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "習",
+          "annotation": "なら"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 10047
+    },
+    {
+      "kanjiExpression": "見倣う",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "倣",
+          "annotation": "なら"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "見ならう",
+      "furiganaExpression": [
+        {
+          "text": "見",
+          "annotation": "み"
+        },
+        {
+          "text": "ならう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to follow (someone\u0027s) example",
+        "to imitate",
+        "to copy",
+        "to pattern oneself on",
+        "to learn (by observation)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "navolgen",
+        "toekijken",
+        "toezien en nadoen",
+        "afkijken",
+        "kijkend leren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "apprendre",
+        "imiter"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erlernen",
+        "einem Beispiel folgen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) изучать [на практике]; практиковаться (в специальности)",
+        "2) ((тж.) 見倣う) брать пример (с кого-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "seguir el ejemplo de alguien",
+        "imitar",
+        "aprender de alguien"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "1589960",
+  "readings": [
+    {
+      "kanaExpression": "かきとめ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "書留",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "かき"
+        },
+        {
+          "text": "留",
+          "annotation": "とめ"
+        }
+      ],
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "書き留め",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "め"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "書留め",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "かき"
+        },
+        {
+          "text": "留",
+          "annotation": "と"
+        },
+        {
+          "text": "め"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "registered mail",
+        "registered post",
+        "registration (of mail)",
+        "(putting on) record",
+        "writing down",
+        "noting down",
+        "registry"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aangetekend schrijven"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "courrier recommandé",
+        "recommandation (par ex. du courrier)",
+        "mis par écrit",
+        "enregistrement",
+        "prise de note"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einschreiben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beiktatás",
+        "beiratkozás",
+        "nyilvántartásba vétel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(сущ.) заказное (о письме и т. п.); заказное отправление",
+        "{～にする}, 書留にして出す отправлять (посылать) заказным"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "priporočeno pismo"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "poner por escrito",
+        "registro",
+        "dejar una nota atrás"
+      ]
+    }
+  ]
+}

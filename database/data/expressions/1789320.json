@@ -1,0 +1,78 @@
+{
+  "id": "1789320",
+  "readings": [
+    {
+      "kanaExpression": "とくせん",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "特選",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とく"
+        },
+        {
+          "text": "選",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "特撰",
+      "furiganaExpression": [
+        {
+          "text": "特",
+          "annotation": "とく"
+        },
+        {
+          "text": "撰",
+          "annotation": "せん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "special selection",
+        "special approval",
+        "special prize",
+        "highest honours"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "besondere Auszeichnung",
+        "besondere Auswahl",
+        "besondere Auslese",
+        "ausgesucht",
+        "erlesen",
+        "exquisit",
+        "besonders auszeichnen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alkalmi",
+        "különkiadás",
+        "különleges",
+        "különvonat",
+        "legjobb minőségű"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) специальный отбор (выбор)",
+        "{～[の]} [специально] отобранный; отборный, лучший",
+        "{～になる} быть [специально] отобранным (выбранным) (напр. для выставки)",
+        "2): {～の} по особому заказу"
+      ]
+    }
+  ]
+}

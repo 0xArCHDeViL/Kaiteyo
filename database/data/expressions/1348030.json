@@ -1,0 +1,100 @@
+{
+  "id": "1348030",
+  "readings": [
+    {
+      "kanaExpression": "こづかい",
+      "rank": 21500
+    },
+    {
+      "kanaExpression": "こずかい"
+    },
+    {
+      "kanjiExpression": "小遣い",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "遣",
+          "annotation": "づか"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 6438
+    },
+    {
+      "kanjiExpression": "小遣",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "遣",
+          "annotation": "づかい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pocket money",
+        "spending money",
+        "pin money",
+        "allowance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zakgeld",
+        "geld voor eigen gebruik",
+        "geld voor dagelijkse kleine uitgaven",
+        "huishoudgeld",
+        "speldengeld"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "argent de poche",
+        "dépenses personnelles",
+        "petite monnaie",
+        "allocation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Taschengeld"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "juttatás",
+        "tűrés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "карманные деньги; [деньги на] личные (мелкие) расходы"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "propina",
+        "asignación semanal",
+        "dinerillo para gastos propios",
+        "dinero (para gastos menores) de bolsillo"
+      ]
+    }
+  ]
+}

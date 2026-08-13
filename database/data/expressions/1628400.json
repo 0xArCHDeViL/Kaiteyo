@@ -1,0 +1,51 @@
+{
+  "id": "1628400",
+  "readings": [
+    {
+      "kanaExpression": "ちがく",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "地学",
+      "furiganaExpression": [
+        {
+          "text": "地",
+          "annotation": "ち"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "earth science",
+        "geoscience"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aardwetenschap(pen)",
+        "geowetenschap(pen)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Geowissenschaften"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "физическая география"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1553250",
+  "readings": [
+    {
+      "kanaExpression": "りょひ",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "旅費",
+      "furiganaExpression": [
+        {
+          "text": "旅",
+          "annotation": "りょ"
+        },
+        {
+          "text": "費",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 14806
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "travel expenses"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "reiskosten",
+        "reisgeld",
+        "uitgaven voor en gedurende een reis"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dépenses de voyage",
+        "frais"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reisekosten",
+        "Reisespesen",
+        "Reisegeld"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "путевые расходы (издержки)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "gastos de viaje"
+      ]
+    }
+  ]
+}

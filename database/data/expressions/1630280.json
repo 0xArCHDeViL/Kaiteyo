@@ -1,0 +1,71 @@
+{
+  "id": "1630280",
+  "readings": [
+    {
+      "kanaExpression": "まがり",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "曲がり",
+      "furiganaExpression": [
+        {
+          "text": "曲",
+          "annotation": "ま"
+        },
+        {
+          "text": "がり"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "曲り",
+      "furiganaExpression": [
+        {
+          "text": "曲",
+          "annotation": "まが"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "curvature",
+        "warp",
+        "bend"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Biegung",
+        "Kurve",
+        "Zimmermannswinkel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elgörbülés",
+        "lánc",
+        "láncfonál",
+        "lápföld",
+        "vontatókötél",
+        "hajlás",
+        "mulatás",
+        "tekintet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "изгиб, сгиб; искривление, кривизна; поворот (дороги); колено (трубы)"
+      ]
+    }
+  ]
+}

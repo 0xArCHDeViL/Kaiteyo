@@ -1,0 +1,82 @@
+{
+  "id": "1579030",
+  "readings": [
+    {
+      "kanaExpression": "くろしろ",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "こくはく",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "こくびゃく"
+    },
+    {
+      "kanjiExpression": "黒白",
+      "furiganaExpression": [
+        {
+          "text": "黒",
+          "annotation": "くろ"
+        },
+        {
+          "text": "白",
+          "annotation": "しろ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "black and white",
+        "right and wrong"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zwart en wit",
+        "zwart en blank",
+        "goed en slecht",
+        "goed en kwaad",
+        "juist en fout",
+        "schuld of onschuld"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bon et mauvais",
+        "noir et blanc"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwarz und Weiß",
+        "Schwarzweiß",
+        "Monochrom",
+        "Recht und Unrecht",
+        "Rechtes und Falsches",
+        "Gut und Schlecht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ceruzarajz",
+        "tusrajz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) こくびゃく",
+        "(кн.) чёрное и белое; (обр.) дурное и хорошее; правда и кривда; добро и зло"
+      ]
+    }
+  ]
+}

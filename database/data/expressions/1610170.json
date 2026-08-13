@@ -1,0 +1,86 @@
+{
+  "id": "1610170",
+  "readings": [
+    {
+      "kanaExpression": "だいだいいろ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "とうしょく"
+    },
+    {
+      "kanjiExpression": "橙色",
+      "furiganaExpression": [
+        {
+          "text": "橙",
+          "annotation": "だいだい"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "だいだい色",
+      "furiganaExpression": [
+        {
+          "text": "だいだい"
+        },
+        {
+          "text": "色",
+          "annotation": "いろ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "orange (color, colour)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oranje",
+        "oranjekleur {\u003d de kleur █}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "orange (couleur)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Orange",
+        "orange",
+        "Orange (Farbe)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оранжевый цвет",
+        "(кн.) оранжевый цвет"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "oranžna barva"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "naranja (color)"
+      ]
+    }
+  ]
+}

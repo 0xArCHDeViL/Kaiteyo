@@ -1,0 +1,40 @@
+{
+  "id": "1560330",
+  "readings": [
+    {
+      "kanaExpression": "ろうし",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "労使",
+      "furiganaExpression": [
+        {
+          "text": "労",
+          "annotation": "ろう"
+        },
+        {
+          "text": "使",
+          "annotation": "し"
+        }
+      ],
+      "rank": 6834
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "labour and management",
+        "labor and management"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Arbeitgeber und Arbeitnehmer",
+        "Arbeiter und Unternehmer",
+        "Beschäftigten- und Unternehmensseite"
+      ]
+    }
+  ]
+}

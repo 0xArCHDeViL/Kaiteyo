@@ -1,0 +1,64 @@
+{
+  "id": "1499300",
+  "readings": [
+    {
+      "kanaExpression": "ぶい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "部位",
+      "furiganaExpression": [
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        },
+        {
+          "text": "位",
+          "annotation": "い"
+        }
+      ],
+      "rank": 9542
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "part (esp. of the body)",
+        "region",
+        "site",
+        "cut (of meat)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} streek",
+        "gebied"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gegend",
+        "Körperteil",
+        "Teil"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhelyezkedés",
+        "fekvés",
+        "helyzet",
+        "gépelem"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(мед.) часть тела; орган"
+      ]
+    }
+  ]
+}

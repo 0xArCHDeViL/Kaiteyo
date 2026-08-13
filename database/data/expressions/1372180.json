@@ -1,0 +1,63 @@
+{
+  "id": "1372180",
+  "readings": [
+    {
+      "kanaExpression": "すいよう",
+      "rank": 20000
+    },
+    {
+      "kanjiExpression": "水曜",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "曜",
+          "annotation": "よう"
+        }
+      ],
+      "rank": 11276
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Wednesday"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "woensdag",
+        "{afk.} wo",
+        "{afk.} woe"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "mercredi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mittwoch"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "sreda"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "miércoles"
+      ]
+    }
+  ]
+}

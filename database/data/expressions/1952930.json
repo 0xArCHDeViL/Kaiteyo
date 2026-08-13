@@ -1,0 +1,72 @@
+{
+  "id": "1952930",
+  "readings": [
+    {
+      "kanaExpression": "よい",
+      "rank": 177
+    },
+    {
+      "kanaExpression": "えい",
+      "rank": 13702
+    },
+    {
+      "kanjiExpression": "酔い",
+      "furiganaExpression": [
+        {
+          "text": "酔",
+          "annotation": "よ"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 12920
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drunkenness",
+        "intoxication",
+        "motion sickness",
+        "travel sickness"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rausch",
+        "Betrunkenheit",
+        "Trunkenheit",
+        "Reisekrankheit",
+        "Seekrankheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "részegség",
+        "mámor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "опьянение"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "embriaguez"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "rusighet"
+      ]
+    }
+  ]
+}

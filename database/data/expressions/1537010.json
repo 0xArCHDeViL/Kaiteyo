@@ -1,0 +1,47 @@
+{
+  "id": "1537010",
+  "readings": [
+    {
+      "kanaExpression": "ようち",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "夜討ち",
+      "furiganaExpression": [
+        {
+          "text": "夜",
+          "annotation": "よ"
+        },
+        {
+          "text": "討",
+          "annotation": "う"
+        },
+        {
+          "text": "ち"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "night attack"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nachtangriff",
+        "nächtlicher Angriff"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.) ночная атака"
+      ]
+    }
+  ]
+}

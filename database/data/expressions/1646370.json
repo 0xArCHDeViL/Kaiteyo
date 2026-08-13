@@ -1,0 +1,68 @@
+{
+  "id": "1646370",
+  "readings": [
+    {
+      "kanaExpression": "しゃこうしん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "射幸心",
+      "furiganaExpression": [
+        {
+          "text": "射",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "幸",
+          "annotation": "こう"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "射倖心",
+      "furiganaExpression": [
+        {
+          "text": "射",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "倖",
+          "annotation": "こう"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "passion for gambling",
+        "fondness for speculation",
+        "speculative spirit"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spielermentalität",
+        "Spielleidenschaft",
+        "Leidenschaft für Spekulation"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "спекулятивный дух; дух азарта"
+      ]
+    }
+  ]
+}

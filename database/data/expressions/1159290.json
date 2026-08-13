@@ -1,0 +1,61 @@
+{
+  "id": "1159290",
+  "readings": [
+    {
+      "kanaExpression": "いし",
+      "rank": 7228
+    },
+    {
+      "kanjiExpression": "遺志",
+      "furiganaExpression": [
+        {
+          "text": "遺",
+          "annotation": "い"
+        },
+        {
+          "text": "志",
+          "annotation": "し"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wishes of a deceased person",
+        "dying wish"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wens",
+        "wil van de overledene",
+        "laatste wens",
+        "wilsbeschikking",
+        "uiterste wil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "der Wille eines Verstorbenen",
+        "der letzte Wille"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "воля покойного; завещание"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "deseo de morir"
+      ]
+    }
+  ]
+}

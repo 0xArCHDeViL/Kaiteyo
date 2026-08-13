@@ -1,0 +1,63 @@
+{
+  "id": "1852150",
+  "readings": [
+    {
+      "kanaExpression": "たちあう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "立ち合う",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "立合う",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "たち"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be matched against (in a sports contest)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "einander treffen",
+        "einander begegnen",
+        "aufeinandertreffen",
+        "sich gegenüberstehen",
+        "einen Kampf austragen"
+      ]
+    }
+  ]
+}

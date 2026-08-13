@@ -1,0 +1,80 @@
+{
+  "id": "1580250",
+  "readings": [
+    {
+      "kanaExpression": "おんながた",
+      "rank": 25000
+    },
+    {
+      "kanaExpression": "おやま"
+    },
+    {
+      "kanjiExpression": "女形",
+      "furiganaExpression": [
+        {
+          "text": "女",
+          "annotation": "おんな"
+        },
+        {
+          "text": "形",
+          "annotation": "がた"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "女方",
+      "furiganaExpression": [
+        {
+          "text": "女",
+          "annotation": "おんな"
+        },
+        {
+          "text": "方",
+          "annotation": "がた"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "onnagata",
+        "male actor in female kabuki roles",
+        "female partner (in a relationship)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{m.b.t. kabuki} speler van travestierollen",
+        "vrouwenrollen",
+        "{m.b.t. marionettentheater} vrouwelijke marionet",
+        "{ton.",
+        "theat.} speler van travestierollen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "männlicher Schauspieler, der Frauenrollen spielt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оннагата (мужчина-актёр, исполняющий женские роли в кабуки)",
+        "1) женская роль",
+        "2) актёр, исполняющий женские роли"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "actor en roles femeninos de Kabuki",
+        "actor en roles femeninos de kabuki"
+      ]
+    }
+  ]
+}

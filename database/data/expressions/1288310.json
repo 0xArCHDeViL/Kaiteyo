@@ -1,0 +1,55 @@
+{
+  "id": "1288310",
+  "readings": [
+    {
+      "kanaExpression": "ごくちゅう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "獄中",
+      "furiganaExpression": [
+        {
+          "text": "獄",
+          "annotation": "ごく"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "during imprisonment",
+        "while in jail"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{～で",
+        "に} in de gevangenis",
+        "in het gevang",
+        "in de bak",
+        "achter de tralies",
+        "achter slot en grendel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(im)Kerker (im)Gefängnis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～で} в тюрьме"
+      ]
+    }
+  ]
+}

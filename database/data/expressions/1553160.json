@@ -1,0 +1,70 @@
+{
+  "id": "1553160",
+  "readings": [
+    {
+      "kanaExpression": "りょけん",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "旅券",
+      "furiganaExpression": [
+        {
+          "text": "旅",
+          "annotation": "りょ"
+        },
+        {
+          "text": "券",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 21500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "passport"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "paspoort",
+        "pas",
+        "reispas",
+        "{arch.} geleide"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "passeport"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reisepass"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "útlevél"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заграничный паспорт"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pasaporte"
+      ]
+    }
+  ]
+}

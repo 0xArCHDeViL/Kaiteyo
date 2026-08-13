@@ -1,0 +1,74 @@
+{
+  "id": "1273730",
+  "readings": [
+    {
+      "kanaExpression": "こうし",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "公使",
+      "furiganaExpression": [
+        {
+          "text": "公",
+          "annotation": "こう"
+        },
+        {
+          "text": "使",
+          "annotation": "し"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "envoy",
+        "diplomat below the rank of ambassador (e.g. deputy chief of mission, charge d\u0027affaires)",
+        "minister (of legation)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gezant",
+        "minister"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "délégué d\u0027ambassade (?)",
+        "responsable de légation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesandter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lelkipásztor",
+        "miniszter",
+        "református pap"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "посланник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ministro",
+        "enviado"
+      ]
+    }
+  ]
+}

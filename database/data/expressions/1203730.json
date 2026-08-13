@@ -1,0 +1,53 @@
+{
+  "id": "1203730",
+  "readings": [
+    {
+      "kanaExpression": "がいし",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "外資",
+      "furiganaExpression": [
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "資",
+          "annotation": "し"
+        }
+      ],
+      "rank": 5331
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "foreign capital (e.g. in a company)",
+        "foreign investment"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vreemd",
+        "buitenlands kapitaal",
+        "reisdeviezen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausländisches Kapital",
+        "Kapital aus dem Ausland"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "иностранный капитал, иностранные фонды"
+      ]
+    }
+  ]
+}

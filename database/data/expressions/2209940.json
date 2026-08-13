@@ -1,0 +1,52 @@
+{
+  "id": "2209940",
+  "readings": [
+    {
+      "kanaExpression": "けんさくじょうけん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "検索条件",
+      "furiganaExpression": [
+        {
+          "text": "検",
+          "annotation": "けん"
+        },
+        {
+          "text": "索",
+          "annotation": "さく"
+        },
+        {
+          "text": "条",
+          "annotation": "じょう"
+        },
+        {
+          "text": "件",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "search criteria"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Suchbedingung",
+        "Suchkriterium"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "criterios de búsqueda"
+      ]
+    }
+  ]
+}

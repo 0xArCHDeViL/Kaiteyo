@@ -1,0 +1,54 @@
+{
+  "id": "1672640",
+  "readings": [
+    {
+      "kanaExpression": "むしゅう",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "無臭",
+      "furiganaExpression": [
+        {
+          "text": "無",
+          "annotation": "む"
+        },
+        {
+          "text": "臭",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "odorless",
+        "odourless",
+        "unscented"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "geruchlos",
+        "ohne Geruch",
+        "Geruchlosigkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} без запаха, непахнущий"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sin olor",
+        "inodoro"
+      ]
+    }
+  ]
+}

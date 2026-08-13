@@ -1,0 +1,67 @@
+{
+  "id": "1193920",
+  "readings": [
+    {
+      "kanaExpression": "かざんばい",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "火山灰",
+      "furiganaExpression": [
+        {
+          "text": "火",
+          "annotation": "か"
+        },
+        {
+          "text": "山",
+          "annotation": "ざん"
+        },
+        {
+          "text": "灰",
+          "annotation": "ばい"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "volcanic ash"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vulkanische as",
+        "vulkaanas"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cendre volcanique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "vulkanische Asche",
+        "Vulkanasche"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вулканический пепел"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ceniza volcánica"
+      ]
+    }
+  ]
+}

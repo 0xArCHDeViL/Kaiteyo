@@ -1,0 +1,73 @@
+{
+  "id": "1420230",
+  "readings": [
+    {
+      "kanaExpression": "だんゆう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "男優",
+      "furiganaExpression": [
+        {
+          "text": "男",
+          "annotation": "だん"
+        },
+        {
+          "text": "優",
+          "annotation": "ゆう"
+        }
+      ],
+      "rank": 12942
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(male) actor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "acteur",
+        "speler",
+        "toneelspeler",
+        "filmspeler"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schauspieler"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "színész"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "актёр"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "actor"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "aktör",
+        "komediant",
+        "scenkonstnär",
+        "skådespelare"
+      ]
+    }
+  ]
+}

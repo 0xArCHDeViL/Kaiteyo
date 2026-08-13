@@ -1,0 +1,73 @@
+{
+  "id": "1303160",
+  "readings": [
+    {
+      "kanaExpression": "やまわけ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "山分け",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "分",
+          "annotation": "わ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "山わけ",
+      "furiganaExpression": [
+        {
+          "text": "山",
+          "annotation": "やま"
+        },
+        {
+          "text": "わけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "equal division (of profits, prize money, etc.)",
+        "equal split"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gelijk",
+        "paritair verdelen",
+        "eerlijk delen",
+        "hoofdelijk omslaan",
+        "gelijke",
+        "paritaire verdeling",
+        "hoofdelijke omslag"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufteilung",
+        "Halbierung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "делёж поровну",
+        "{～する} делить поровну (пополам)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "1383310",
+  "readings": [
+    {
+      "kanaExpression": "あかんぼう",
+      "rank": 22000
+    },
+    {
+      "kanaExpression": "あかんぼ"
+    },
+    {
+      "kanjiExpression": "赤ん坊",
+      "furiganaExpression": [
+        {
+          "text": "赤",
+          "annotation": "あか"
+        },
+        {
+          "text": "ん"
+        },
+        {
+          "text": "坊",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 9733
+    },
+    {
+      "kanjiExpression": "赤んぼ",
+      "furiganaExpression": [
+        {
+          "text": "赤",
+          "annotation": "あか"
+        },
+        {
+          "text": "んぼ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "赤んぼう",
+      "furiganaExpression": [
+        {
+          "text": "赤",
+          "annotation": "あか"
+        },
+        {
+          "text": "んぼう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "baby",
+        "infant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "baby"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bébé",
+        "nourrisson"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Säugling",
+        "Baby",
+        "Kleinkind",
+        "ungeborenes Kind",
+        "kindische Person"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csecsemő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ребёнок"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "dojenček"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "bebé"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bebis"
+      ]
+    }
+  ]
+}

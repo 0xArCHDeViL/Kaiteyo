@@ -1,0 +1,80 @@
+{
+  "id": "1200890",
+  "readings": [
+    {
+      "kanaExpression": "かいしょう",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "改称",
+      "furiganaExpression": [
+        {
+          "text": "改",
+          "annotation": "かい"
+        },
+        {
+          "text": "称",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "renaming",
+        "retitling"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een andere naam",
+        "benaming",
+        "titel geven",
+        "de naam",
+        "titel veranderen",
+        "hernoemen",
+        "herdopen",
+        "omdopen",
+        "{veroud.} vernoemen",
+        "{veroud.} verdopen",
+        "naamsverandering",
+        "naamswijziging",
+        "hernoeming",
+        "herdoping",
+        "omdoping",
+        "andere naam",
+        "titel",
+        "nieuwe naam"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "umbenennen",
+        "umtaufen",
+        "den Namen ändern",
+        "den Titel ändern",
+        "Namensänderung",
+        "Titeländerung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "переименование",
+        "{～する} переименовывать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cambio de nombre",
+        "cambio de denominación"
+      ]
+    }
+  ]
+}

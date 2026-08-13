@@ -1,0 +1,66 @@
+{
+  "id": "1183660",
+  "readings": [
+    {
+      "kanaExpression": "おんいき",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "音域",
+      "furiganaExpression": [
+        {
+          "text": "音",
+          "annotation": "おん"
+        },
+        {
+          "text": "域",
+          "annotation": "いき"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "range (of a voice or instrument)",
+        "register",
+        "compass"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} stembereik",
+        "toonbereik",
+        "stemomvang",
+        "register"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tonumfang",
+        "Stimmumfang",
+        "Umfang",
+        "Register"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hangterjedelem",
+        "névjegyzék",
+        "osztálykönyv",
+        "számláló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "диапазон (напр. голоса)"
+      ]
+    }
+  ]
+}

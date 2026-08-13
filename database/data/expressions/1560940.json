@@ -1,0 +1,80 @@
+{
+  "id": "1560940",
+  "readings": [
+    {
+      "kanaExpression": "おおかみ",
+      "rank": 24500
+    },
+    {
+      "kanaExpression": "おおかめ"
+    },
+    {
+      "kanaExpression": "おいぬ"
+    },
+    {
+      "kanaExpression": "オオカミ",
+      "rank": 8664
+    },
+    {
+      "kanjiExpression": "狼",
+      "furiganaExpression": [
+        {
+          "text": "狼",
+          "annotation": "おおかみ"
+        }
+      ],
+      "rank": 7673
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "wolf (Canis lupus)",
+        "wolf in sheep\u0027s clothing",
+        "womanizer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} wolf",
+        "Canis lupus",
+        "{inform.} vrouwenjager",
+        "casanova"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wolf",
+        "Canis lupus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "farkas",
+        "nagy kan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "волк"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lobo (carnivore, Canis lupus)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "varg"
+      ]
+    }
+  ]
+}

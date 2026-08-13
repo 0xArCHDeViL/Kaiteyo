@@ -1,0 +1,70 @@
+{
+  "id": "1442280",
+  "readings": [
+    {
+      "kanaExpression": "でんどう",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "伝導",
+      "furiganaExpression": [
+        {
+          "text": "伝",
+          "annotation": "でん"
+        },
+        {
+          "text": "導",
+          "annotation": "どう"
+        }
+      ],
+      "rank": 12645
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "conduction (of heat or electricity)",
+        "transmission (of light or sound)",
+        "conduction (of a nerve impulse)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{nat.} geleiden",
+        "overbrengen",
+        "{nat.} geleiding",
+        "conductie",
+        "overbrenging",
+        "transmissie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leiten",
+        "übertragen",
+        "Leitung",
+        "Übertragung",
+        "Transmission"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adás",
+        "erőátvitel",
+        "sebességváltó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) (физ.) передача (электроэнергии, тепла, световых и звуковых волн)",
+        "{～する} проводить, служить проводником",
+        "2) (тех.) передача, трансмиссия"
+      ]
+    }
+  ]
+}

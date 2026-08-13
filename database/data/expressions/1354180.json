@@ -1,0 +1,86 @@
+{
+  "id": "1354180",
+  "readings": [
+    {
+      "kanaExpression": "じょうはんしん",
+      "rank": 23500
+    },
+    {
+      "kanaExpression": "かみはんしん"
+    },
+    {
+      "kanjiExpression": "上半身",
+      "furiganaExpression": [
+        {
+          "text": "上",
+          "annotation": "じょう"
+        },
+        {
+          "text": "半",
+          "annotation": "はん"
+        },
+        {
+          "text": "身",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 12730
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "upper half of the body",
+        "upper body"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bovenlichaam",
+        "bovenlijf"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "buste",
+        "torse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Oberkörper",
+        "obere Körperhälfte",
+        "Brustbild"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mellbőség",
+        "mellszobor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "верхняя половина туловища"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zgornji del telesa (trup)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "torso"
+      ]
+    }
+  ]
+}

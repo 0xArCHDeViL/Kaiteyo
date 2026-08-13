@@ -1,0 +1,150 @@
+{
+  "id": "1196670",
+  "readings": [
+    {
+      "kanaExpression": "われ",
+      "rank": 8623
+    },
+    {
+      "kanaExpression": "わ",
+      "rank": 636
+    },
+    {
+      "kanaExpression": "あれ",
+      "rank": 1212
+    },
+    {
+      "kanaExpression": "あ",
+      "rank": 762
+    },
+    {
+      "kanaExpression": "わぬ"
+    },
+    {
+      "kanaExpression": "わろ"
+    },
+    {
+      "kanjiExpression": "我",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "われ"
+        }
+      ],
+      "rank": 3790
+    },
+    {
+      "kanjiExpression": "吾",
+      "furiganaExpression": [
+        {
+          "text": "吾",
+          "annotation": "われ"
+        }
+      ],
+      "rank": 10282
+    },
+    {
+      "kanjiExpression": "吾れ",
+      "furiganaExpression": [
+        {
+          "text": "吾",
+          "annotation": "わ"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "我れ",
+      "furiganaExpression": [
+        {
+          "text": "我",
+          "annotation": "わ"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "I",
+        "me",
+        "oneself",
+        "you",
+        "prefix indicating familiarity or contempt"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ik",
+        "je",
+        "jij",
+        "{veroud.} ge",
+        "gij",
+        "zelf",
+        "zichzelf"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ego",
+        "me",
+        "soi-même",
+        "son propre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ich",
+        "Pronomen für erste Person singular",
+        "jmd. selbst",
+        "du",
+        "Pronomen für zweite Person singular (gegenüber jmdn. den man liebt oder verachtet)",
+        "(als Präfix) du",
+        "dein (gegenüber jmdn. den man liebt oder verachtet)",
+        "Pronomen für zweite Person singular (gegenüber einem Niederstehenden verwendet, um ihn zu herabzusetzen)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "engem",
+        "nekem",
+        "maga magát",
+        "magának",
+        "magát",
+        "önmagát",
+        "saját magát",
+        "sajátmaga"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "я"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "yo",
+        "mí mismo",
+        "yo (arcaizado)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "jag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1464120",
+  "readings": [
+    {
+      "kanaExpression": "にっしゃ",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "日射",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にっ"
+        },
+        {
+          "text": "射",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "solar radiation",
+        "insolation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sonnenbestrahlung",
+        "Insolation"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(метеор.) инсоляция"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "solstrålning"
+      ]
+    }
+  ]
+}

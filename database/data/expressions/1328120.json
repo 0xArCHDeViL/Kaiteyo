@@ -1,0 +1,102 @@
+{
+  "id": "1328120",
+  "readings": [
+    {
+      "kanaExpression": "ておくれ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "手遅れ",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "遅",
+          "annotation": "おく"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "手後れ",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "後",
+          "annotation": "おく"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "手おくれ",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "おくれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "being too late",
+        "losing one\u0027s final chance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "te laat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "traitement tardif",
+        "trop tard"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verspätung",
+        "Zuspätsein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～である} быть запущенным (о болезни, и т. п.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prepozno",
+        "zakasnelost"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "demasiado tarde"
+      ]
+    }
+  ]
+}

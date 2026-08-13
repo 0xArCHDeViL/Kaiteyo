@@ -1,0 +1,84 @@
+{
+  "id": "1297710",
+  "readings": [
+    {
+      "kanaExpression": "さくしゃ",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "作者",
+      "furiganaExpression": [
+        {
+          "text": "作",
+          "annotation": "さく"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 3012
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "creator (of a work)",
+        "author",
+        "writer",
+        "artist",
+        "composer",
+        "playwright",
+        "dramatist"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "auteur",
+        "schrijver",
+        "schrijfster",
+        "steller",
+        "stelster",
+        "opsteller",
+        "opstelster"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "auteur",
+        "écrivain",
+        "compositeur",
+        "artiste"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Autor",
+        "Verfasser",
+        "Künstler"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "okozó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "автор; писатель"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "autor"
+      ]
+    }
+  ]
+}

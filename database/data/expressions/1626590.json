@@ -1,0 +1,58 @@
+{
+  "id": "1626590",
+  "readings": [
+    {
+      "kanaExpression": "ひばん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "非番",
+      "furiganaExpression": [
+        {
+          "text": "非",
+          "annotation": "ひ"
+        },
+        {
+          "text": "番",
+          "annotation": "ばん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "off duty"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außer Dienst",
+        "nicht im Dienst befindlich",
+        "Nicht-im-Dienst-Sein",
+        "jmd., der nicht im Dienst ist"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szolgálaton kívül"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} выходной; свободный от дежурства; вне службы"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "ha frivakt"
+      ]
+    }
+  ]
+}

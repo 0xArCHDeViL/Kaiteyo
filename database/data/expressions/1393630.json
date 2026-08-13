@@ -1,0 +1,83 @@
+{
+  "id": "1393630",
+  "readings": [
+    {
+      "kanaExpression": "まえおき",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "前置き",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "まえ"
+        },
+        {
+          "text": "置",
+          "annotation": "お"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 12689
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "preface",
+        "introduction",
+        "preamble"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voorwoord",
+        "woord vooraf",
+        "inleiding",
+        "inleidend woord",
+        "voorbericht",
+        "preambule"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "introduction",
+        "préambule",
+        "préface"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vorbemerkung",
+        "Einführung",
+        "Einleitung",
+        "Vorwort"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bevezetés"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "uvod",
+        "predgovor"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "preámbulo"
+      ]
+    }
+  ]
+}

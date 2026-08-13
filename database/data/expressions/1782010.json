@@ -1,0 +1,58 @@
+{
+  "id": "1782010",
+  "readings": [
+    {
+      "kanaExpression": "れんさはんのう",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "連鎖反応",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "れん"
+        },
+        {
+          "text": "鎖",
+          "annotation": "さ"
+        },
+        {
+          "text": "反",
+          "annotation": "はん"
+        },
+        {
+          "text": "応",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chain reaction",
+        "nuclear chain reaction"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kettenreaktion"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физ., хим.) цепная реакция"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kedjereaktion"
+      ]
+    }
+  ]
+}

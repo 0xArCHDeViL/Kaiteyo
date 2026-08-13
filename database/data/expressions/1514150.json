@@ -1,0 +1,37 @@
+{
+  "id": "1514150",
+  "readings": [
+    {
+      "kanaExpression": "ほいつ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "捕逸",
+      "furiganaExpression": [
+        {
+          "text": "捕",
+          "annotation": "ほ"
+        },
+        {
+          "text": "逸",
+          "annotation": "いつ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "passed ball"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ball, der am Fänger vorbei geht, ohne dass der Fänger fängt"
+      ]
+    }
+  ]
+}

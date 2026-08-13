@@ -1,0 +1,68 @@
+{
+  "id": "1417190",
+  "readings": [
+    {
+      "kanaExpression": "たんか",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "単価",
+      "furiganaExpression": [
+        {
+          "text": "単",
+          "annotation": "たん"
+        },
+        {
+          "text": "価",
+          "annotation": "か"
+        }
+      ],
+      "rank": 6884
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "unit price",
+        "unit cost"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eenheidsprijs",
+        "stukprijs",
+        "prijs per eenheid",
+        "stuk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "prix unitaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Stückpreis",
+        "Einzelpreis",
+        "Preis pro Einheit",
+        "Einheitspreis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egységár"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "цена за [одну] штуку"
+      ]
+    }
+  ]
+}

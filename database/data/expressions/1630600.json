@@ -1,0 +1,54 @@
+{
+  "id": "1630600",
+  "readings": [
+    {
+      "kanaExpression": "げいじゅつさい",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "芸術祭",
+      "furiganaExpression": [
+        {
+          "text": "芸",
+          "annotation": "げい"
+        },
+        {
+          "text": "術",
+          "annotation": "じゅつ"
+        },
+        {
+          "text": "祭",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "art festival"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kunstfestival",
+        "kunstenfestival"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kunstfestival"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фестиваль искусств"
+      ]
+    }
+  ]
+}

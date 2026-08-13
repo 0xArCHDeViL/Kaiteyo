@@ -1,0 +1,54 @@
+{
+  "id": "1619500",
+  "readings": [
+    {
+      "kanaExpression": "たいえき",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "退役",
+      "furiganaExpression": [
+        {
+          "text": "退",
+          "annotation": "たい"
+        },
+        {
+          "text": "役",
+          "annotation": "えき"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "retiring from military service"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} verlating van de militaire dienst",
+        "uittreding uit krijgsdienst"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausscheiden aus dem Militärdienst",
+        "außer Dienst",
+        "a. D.",
+        "aus dem Militärdienst ausscheiden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уход со службы (военной), отставка",
+        "{～する} уходить в отставку (с военной службы)"
+      ]
+    }
+  ]
+}

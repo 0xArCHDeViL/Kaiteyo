@@ -1,0 +1,39 @@
+{
+  "id": "1810700",
+  "readings": [
+    {
+      "kanaExpression": "こうひつ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "硬筆",
+      "furiganaExpression": [
+        {
+          "text": "硬",
+          "annotation": "こう"
+        },
+        {
+          "text": "筆",
+          "annotation": "ひつ"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pen or pencil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Füller",
+        "Füllfederhalter",
+        "Bleistift (hartes Schreibgerät im Gegensatz zum Pinsel)"
+      ]
+    }
+  ]
+}

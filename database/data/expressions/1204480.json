@@ -1,0 +1,93 @@
+{
+  "id": "1204480",
+  "readings": [
+    {
+      "kanaExpression": "がいねん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "概念",
+      "furiganaExpression": [
+        {
+          "text": "概",
+          "annotation": "がい"
+        },
+        {
+          "text": "念",
+          "annotation": "ねん"
+        }
+      ],
+      "rank": 1894
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "general idea",
+        "concept",
+        "notion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "begrip",
+        "conceptie",
+        "concept",
+        "notie",
+        "denkbeeld",
+        "idee"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "concept",
+        "idée générale",
+        "notion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "allgemeiner Bedeutungsinhalt",
+        "Begriff",
+        "Vorstellung",
+        "Konzeption",
+        "Grundgedanke",
+        "Bild",
+        "Konzept"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fogalom",
+        "elképzelés",
+        "eszme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общее понятие, общее представление"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "ideja",
+        "pojem",
+        "predstava",
+        "stališče"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "concepto (la idea completa)"
+      ]
+    }
+  ]
+}

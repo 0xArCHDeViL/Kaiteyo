@@ -1,0 +1,90 @@
+{
+  "id": "1602520",
+  "readings": [
+    {
+      "kanaExpression": "ふきでもの",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "吹き出物",
+      "furiganaExpression": [
+        {
+          "text": "吹",
+          "annotation": "ふ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "吹出物",
+      "furiganaExpression": [
+        {
+          "text": "吹",
+          "annotation": "ふき"
+        },
+        {
+          "text": "出",
+          "annotation": "で"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(skin) eruption",
+        "rash",
+        "pimple",
+        "spot",
+        "acne",
+        "boil"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "acné",
+        "bouton",
+        "eczma",
+        "furoncle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pickel",
+        "Akne",
+        "Ausschlag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pörsenés",
+        "forrás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сыпь; прыщ; чирей; экзема"
+      ]
+    }
+  ]
+}

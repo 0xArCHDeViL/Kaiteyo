@@ -1,0 +1,82 @@
+{
+  "id": "1208240",
+  "readings": [
+    {
+      "kanaExpression": "かっこ",
+      "rank": 11656
+    },
+    {
+      "kanaExpression": "カッコ",
+      "rank": 5166
+    },
+    {
+      "kanjiExpression": "括弧",
+      "furiganaExpression": [
+        {
+          "text": "括",
+          "annotation": "かっ"
+        },
+        {
+          "text": "弧",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "brackets",
+        "parentheses"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "haakjes"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "parenthèses",
+        "crochets"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Klammer"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kerek zárójel",
+        "szögletes csőprofil",
+        "zárt szelvény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скобки"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "oklepaj"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "paréntesis",
+        "corchetes"
+      ]
+    }
+  ]
+}

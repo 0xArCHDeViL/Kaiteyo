@@ -1,0 +1,75 @@
+{
+  "id": "1795860",
+  "readings": [
+    {
+      "kanaExpression": "りづめ",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "理詰め",
+      "furiganaExpression": [
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "詰",
+          "annotation": "づ"
+        },
+        {
+          "text": "め"
+        }
+      ],
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "理詰",
+      "furiganaExpression": [
+        {
+          "text": "理",
+          "annotation": "り"
+        },
+        {
+          "text": "詰",
+          "annotation": "づめ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reasoning",
+        "logic",
+        "persuasion"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "logisch",
+        "theoretisch",
+        "überzeugend",
+        "Überzeugung (mit Argumenten)",
+        "logische Argumentation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "logika",
+        "logikai hálózat",
+        "logikai"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "убедительность, логичность",
+        "{～で} силой убеждения",
+        "{～にする} убедить"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1207530",
+  "readings": [
+    {
+      "kanaExpression": "がくぶち",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "額縁",
+      "furiganaExpression": [
+        {
+          "text": "額",
+          "annotation": "がく"
+        },
+        {
+          "text": "縁",
+          "annotation": "ぶち"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "額ぶち",
+      "furiganaExpression": [
+        {
+          "text": "額",
+          "annotation": "がく"
+        },
+        {
+          "text": "ぶち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(picture) frame",
+        "architrave (of a door, window, etc.)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lijst",
+        "schilderijlijst",
+        "lijstwerk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cadre",
+        "encadrement",
+        "tableau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bilderrahmen",
+        "Rahmen",
+        "Fensterrahmen",
+        "Türrahmen",
+        "Rand der Bühne"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рама (картины)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "marco (de una pintura, de un cuadro)"
+      ]
+    }
+  ]
+}

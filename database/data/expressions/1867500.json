@@ -1,0 +1,52 @@
+{
+  "id": "1867500",
+  "readings": [
+    {
+      "kanaExpression": "かんしょ"
+    },
+    {
+      "kanaExpression": "かんしゃ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "甘蔗",
+      "furiganaExpression": [
+        {
+          "text": "甘",
+          "annotation": "かん"
+        },
+        {
+          "text": "蔗",
+          "annotation": "しょ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sugar cane"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zuckerrohr",
+        "Saccharum officinarum"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сахарный тростник, Saccharum officinarum (L.)"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "rörsocker"
+      ]
+    }
+  ]
+}

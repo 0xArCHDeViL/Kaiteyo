@@ -1,0 +1,62 @@
+{
+  "id": "1613240",
+  "readings": [
+    {
+      "kanaExpression": "あんしんかん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "安心感",
+      "furiganaExpression": [
+        {
+          "text": "安",
+          "annotation": "あん"
+        },
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "感",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sense of security"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gerust gevoel",
+        "gevoel van zekerheid",
+        "geborgenheid",
+        "verlichting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gefühl der Sicherheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чувство спокойствия, спокойствие"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sentido de seguridad"
+      ]
+    }
+  ]
+}

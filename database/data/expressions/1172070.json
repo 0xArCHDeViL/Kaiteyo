@@ -1,0 +1,43 @@
+{
+  "id": "1172070",
+  "readings": [
+    {
+      "kanaExpression": "うちゅう",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "雨中",
+      "furiganaExpression": [
+        {
+          "text": "雨",
+          "annotation": "う"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in the rain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "im Regen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "в дождь, под дождём"
+      ]
+    }
+  ]
+}

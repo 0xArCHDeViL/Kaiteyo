@@ -1,0 +1,111 @@
+{
+  "id": "1233630",
+  "readings": [
+    {
+      "kanaExpression": "きょうきゅう",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "供給",
+      "furiganaExpression": [
+        {
+          "text": "供",
+          "annotation": "きょう"
+        },
+        {
+          "text": "給",
+          "annotation": "きゅう"
+        }
+      ],
+      "rank": 2088
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "supply",
+        "provision"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leveren",
+        "verschaffen",
+        "bevoorraden",
+        "voorzien van",
+        "aanvoeren",
+        "bevoorrading",
+        "levering",
+        "verschaffing",
+        "voorziening",
+        "aanbod",
+        "aanvoer",
+        "ravitaillering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "approvisionnement",
+        "fourniture",
+        "provision"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "versorgen",
+        "liefern",
+        "beliefern",
+        "verschaffen",
+        "Versorgung",
+        "Lieferung",
+        "Belieferung",
+        "Angebot (engl. supply)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ellátás",
+        "szolgáltatás",
+        "élelmiszer",
+        "kínálat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "снабжение",
+        "{～する} снабжать, обеспечивать (чем-л.), поставлять (что-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nabava",
+        "preskrba",
+        "zaloga"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abastecer",
+        "suministrar",
+        "surtir de",
+        "proveer",
+        "aprovisionar",
+        "suministro"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "anskaffning"
+      ]
+    }
+  ]
+}

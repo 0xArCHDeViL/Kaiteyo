@@ -1,0 +1,72 @@
+{
+  "id": "1248670",
+  "readings": [
+    {
+      "kanaExpression": "ぐんそう",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "軍曹",
+      "furiganaExpression": [
+        {
+          "text": "軍",
+          "annotation": "ぐん"
+        },
+        {
+          "text": "曹",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sergeant"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} sergeant",
+        "wachtmeester"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sergeant",
+        "Feldwebel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fegyveres lovag",
+        "őrmester",
+        "szakaszvezető"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "старший унтер-офицер"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sargento"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "furir",
+        "sergeant"
+      ]
+    }
+  ]
+}

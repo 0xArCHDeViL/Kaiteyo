@@ -1,0 +1,105 @@
+{
+  "id": "1272520",
+  "readings": [
+    {
+      "kanaExpression": "こうふ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "交付",
+      "furiganaExpression": [
+        {
+          "text": "交",
+          "annotation": "こう"
+        },
+        {
+          "text": "付",
+          "annotation": "ふ"
+        }
+      ],
+      "rank": 3382
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "delivery",
+        "issuance",
+        "handing over",
+        "granting"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "overhandigen",
+        "ter hand stellen",
+        "overreiken",
+        "overgeven",
+        "uitreiken",
+        "afgeven",
+        "verstrekken",
+        "verlenen",
+        "{Belg.N.} afleveren",
+        "overhandiging",
+        "terhandstelling",
+        "overreiking",
+        "uitreiking",
+        "afgifte",
+        "verstrekking",
+        "verlening"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "livrer",
+        "procurer",
+        "remettre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ausstellen",
+        "ausfertigen",
+        "aushändigen",
+        "einhändigen",
+        "ausgeben",
+        "Ausstellung",
+        "Ausfertigung",
+        "Aushändigung",
+        "Einhändigung",
+        "Ausgabe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szolgáltatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выдача, передача, вручение",
+        "{～する} выдавать, передавать, вручать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izdati {javni dokument}",
+        "izdaja {javnega dokumenta}"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "entrega",
+        "distribución"
+      ]
+    }
+  ]
+}

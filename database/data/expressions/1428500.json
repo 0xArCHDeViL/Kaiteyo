@@ -1,0 +1,96 @@
+{
+  "id": "1428500",
+  "readings": [
+    {
+      "kanaExpression": "あさひ",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "朝日",
+      "furiganaExpression": [
+        {
+          "text": "朝",
+          "annotation": "あさ"
+        },
+        {
+          "text": "日",
+          "annotation": "ひ"
+        }
+      ],
+      "rank": 3336
+    },
+    {
+      "kanjiExpression": "旭",
+      "furiganaExpression": [
+        {
+          "text": "旭",
+          "annotation": "あさひ"
+        }
+      ],
+      "rank": 12336
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "morning sun"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "morgenzon",
+        "ochtendzon",
+        "{fig.} opgaande zon",
+        "gelukszon",
+        "opkomend geluk",
+        "{Meiji-gesch.} asahi-sigaret {\u003d goedkoopste van vier soorten sigaretten}",
+        "Asahi Shinbun",
+        "{Barg.} chilipeper",
+        "cayennepeper"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "soleil levant"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Asahi",
+        "Asahi・shinbun",
+        "Asahi・shimbun (große japan. Tageszeitung)",
+        "Morgensonne",
+        "aufgehende Sonne"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "восходящее солнце",
+        "утреннее солнце"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jutranje sonce"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "sol matutino"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "morgonsol"
+      ]
+    }
+  ]
+}

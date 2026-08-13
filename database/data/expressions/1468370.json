@@ -1,0 +1,74 @@
+{
+  "id": "1468370",
+  "readings": [
+    {
+      "kanaExpression": "ねんかん",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "年鑑",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "鑑",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "yearbook",
+        "almanac",
+        "annual"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "jaarboek",
+        "almanak"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "annales",
+        "chronique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Jahrbuch",
+        "Almanach"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ежегодник"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "letni almanah",
+        "knjiga, kjer so opisani vsi dogodki leta"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "almanaque",
+        "anuario"
+      ]
+    }
+  ]
+}

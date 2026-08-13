@@ -1,0 +1,70 @@
+{
+  "id": "1328410",
+  "readings": [
+    {
+      "kanaExpression": "てだて",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "手立て",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "立",
+          "annotation": "だ"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "手だて",
+      "furiganaExpression": [
+        {
+          "text": "手",
+          "annotation": "て"
+        },
+        {
+          "text": "だて"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "means",
+        "method"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Maßnahme",
+        "Weg",
+        "Mittel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anyagi eszközök",
+        "erőforrások",
+        "eszközök",
+        "rendszeresség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "средство, способ"
+      ]
+    }
+  ]
+}

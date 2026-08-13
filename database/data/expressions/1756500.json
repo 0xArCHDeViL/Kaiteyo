@@ -1,0 +1,55 @@
+{
+  "id": "1756500",
+  "readings": [
+    {
+      "kanaExpression": "げんじ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "言辞",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "げん"
+        },
+        {
+          "text": "辞",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "language",
+        "speech"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Worte",
+        "Rede",
+        "Sprache"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nyelv",
+        "beszéd",
+        "beszédmodor",
+        "hang"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) слова, выражения"
+      ]
+    }
+  ]
+}

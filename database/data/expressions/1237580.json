@@ -1,0 +1,54 @@
+{
+  "id": "1237580",
+  "readings": [
+    {
+      "kanaExpression": "きょうしきょく",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "狂詩曲",
+      "furiganaExpression": [
+        {
+          "text": "狂",
+          "annotation": "きょう"
+        },
+        {
+          "text": "詩",
+          "annotation": "し"
+        },
+        {
+          "text": "曲",
+          "annotation": "きょく"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rhapsody"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rhapsodie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lelkendezés",
+        "rapszódia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "rapsodi"
+      ]
+    }
+  ]
+}

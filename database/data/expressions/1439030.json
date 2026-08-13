@@ -1,0 +1,51 @@
+{
+  "id": "1439030",
+  "readings": [
+    {
+      "kanaExpression": "てんのうせい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "天皇制",
+      "furiganaExpression": [
+        {
+          "text": "天皇",
+          "annotation": "てんのう"
+        },
+        {
+          "text": "制",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the Emperor System"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{Jap.pol.} tenno-systeem",
+        "tennoïsme",
+        "tennocratie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tennō-System"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "монархический строй, монархия (в Японии)"
+      ]
+    }
+  ]
+}

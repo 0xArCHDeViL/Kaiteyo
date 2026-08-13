@@ -1,0 +1,57 @@
+{
+  "id": "1383910",
+  "readings": [
+    {
+      "kanaExpression": "きりひらき",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "切り開き",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "開",
+          "annotation": "ひら"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "clearing (land)",
+        "excavating"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rodung",
+        "Abholzung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tisztás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вырубка; участок [леса], расчищенный для обработки"
+      ]
+    }
+  ]
+}

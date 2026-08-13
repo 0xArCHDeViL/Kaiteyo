@@ -1,0 +1,93 @@
+{
+  "id": "1246720",
+  "readings": [
+    {
+      "kanaExpression": "くつや",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "靴屋",
+      "furiganaExpression": [
+        {
+          "text": "靴",
+          "annotation": "くつ"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "くつ屋",
+      "furiganaExpression": [
+        {
+          "text": "くつ"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shoe store",
+        "shoe shop",
+        "shoemaker"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schoenenwinkel",
+        "schoenwinkel",
+        "schoenenzaak",
+        "schoenmakerij",
+        "schoenmaker",
+        "schoenlapper"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chausseur",
+        "cordonnier",
+        "marchand de chaussures"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schuhmacher",
+        "Schuhverkäufer",
+        "Schuhgeschäft",
+        "Schuhladen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "cipész"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сапожник; владелец сапожной мастерской",
+        "2) сапожная мастерская; мастерская ремонт обуви"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "zapatero",
+        "zapatería"
+      ]
+    }
+  ]
+}

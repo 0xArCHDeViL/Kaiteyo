@@ -1,0 +1,60 @@
+{
+  "id": "1703220",
+  "readings": [
+    {
+      "kanaExpression": "いしぐみ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "石組み",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "石組",
+      "furiganaExpression": [
+        {
+          "text": "石",
+          "annotation": "いし"
+        },
+        {
+          "text": "組",
+          "annotation": "ぐみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "arrangement of stones in a garden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steinarrangement",
+        "Anordnung von Steinen und Felsen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "расстановка декоративных камней (в яп. саду)"
+      ]
+    }
+  ]
+}

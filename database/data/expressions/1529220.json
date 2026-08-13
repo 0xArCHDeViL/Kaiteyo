@@ -1,0 +1,76 @@
+{
+  "id": "1529220",
+  "readings": [
+    {
+      "kanaExpression": "みんぽう",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "民法",
+      "furiganaExpression": [
+        {
+          "text": "民",
+          "annotation": "みん"
+        },
+        {
+          "text": "法",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 8232
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "civil law",
+        "civil code"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "burgerlijk recht",
+        "civiel recht",
+        "burgerlijke rechtspleging",
+        "burgerlijk wetboek",
+        "code civil",
+        "{afk.} B.W.",
+        "{afk.} CC"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "code civil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zivilrecht"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "magánjog",
+        "polgári törvénykönyv"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "гражданский кодекс"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "derecho civil",
+        "código civil"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1803060",
+  "readings": [
+    {
+      "kanaExpression": "かがくちょうみりょう",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "化学調味料",
+      "furiganaExpression": [
+        {
+          "text": "化",
+          "annotation": "か"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        },
+        {
+          "text": "料",
+          "annotation": "りょう"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "chemical seasoning (esp. monosodium glutamate)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "chemisches Gewürz",
+        "Geschmacksverstärker",
+        "Glutamat"
+      ]
+    }
+  ]
+}

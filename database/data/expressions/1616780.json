@@ -1,0 +1,46 @@
+{
+  "id": "1616780",
+  "readings": [
+    {
+      "kanaExpression": "ふくも",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "服喪",
+      "furiganaExpression": [
+        {
+          "text": "服",
+          "annotation": "ふく"
+        },
+        {
+          "text": "喪",
+          "annotation": "も"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "going into mourning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Trauer tragen",
+        "in Trauer sein",
+        "Trauer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "траур",
+        "{～する} быть в трауре"
+      ]
+    }
+  ]
+}

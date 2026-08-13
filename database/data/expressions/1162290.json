@@ -1,0 +1,108 @@
+{
+  "id": "1162290",
+  "readings": [
+    {
+      "kanaExpression": "いっこ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "一個",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "個",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "１個",
+      "furiganaExpression": [
+        {
+          "text": "１",
+          "annotation": "いっ"
+        },
+        {
+          "text": "個",
+          "annotation": "こ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "一箇",
+      "furiganaExpression": [
+        {
+          "text": "一",
+          "annotation": "いっ"
+        },
+        {
+          "text": "箇",
+          "annotation": "こ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "piece",
+        "fragment",
+        "one (object)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "één stuk",
+        "één exemplaar",
+        "één item",
+        "eentje"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "un morceau",
+        "une pièce"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eins",
+        "ein Stück",
+        "ein Kubik-Shaku pro Sekunde"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "munkadarab",
+        "műtárgy",
+        "ritka példány",
+        "színdarab",
+        "zenedarab"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "[одна] штука"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pieza",
+        "fragmento",
+        "un objeto",
+        "un (objecto)"
+      ]
+    }
+  ]
+}

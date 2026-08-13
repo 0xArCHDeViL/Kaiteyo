@@ -1,0 +1,51 @@
+{
+  "id": "1737520",
+  "readings": [
+    {
+      "kanaExpression": "みずあそび",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "水遊び",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "みず"
+        },
+        {
+          "text": "遊",
+          "annotation": "あそ"
+        },
+        {
+          "text": "び"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "playing in the water (sea, lake, river, etc.)",
+        "playing with water"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Spielen im Wasser",
+        "Planschen",
+        "im Wasser spielen",
+        "planschen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "игра в воде",
+        "{～する} играть в воде; брызгаться"
+      ]
+    }
+  ]
+}

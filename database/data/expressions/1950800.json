@@ -1,0 +1,82 @@
+{
+  "id": "1950800",
+  "readings": [
+    {
+      "kanaExpression": "すいあげ",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "吸い上げ",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "す"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "吸上げ",
+      "furiganaExpression": [
+        {
+          "text": "吸",
+          "annotation": "すい"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "suction",
+        "sucking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Saugen",
+        "Aufsaugen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szívás",
+        "szivattyúzás",
+        "szívó-",
+        "szopós"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "всасывание, откачка"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "sugning"
+      ]
+    }
+  ]
+}

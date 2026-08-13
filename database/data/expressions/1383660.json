@@ -1,0 +1,76 @@
+{
+  "id": "1383660",
+  "readings": [
+    {
+      "kanaExpression": "せきり",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "赤痢",
+      "furiganaExpression": [
+        {
+          "text": "赤",
+          "annotation": "せき"
+        },
+        {
+          "text": "痢",
+          "annotation": "り"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dysentery"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} dysenterie",
+        "rodeloop",
+        "{veroud.} persloop"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "dysenterie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rote Ruhr",
+        "Dysenterie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vérhas"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дизентерия; кровавый понос"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "disentería"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "dysenteri"
+      ]
+    }
+  ]
+}

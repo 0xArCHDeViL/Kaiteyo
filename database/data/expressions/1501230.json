@@ -1,0 +1,67 @@
+{
+  "id": "1501230",
+  "readings": [
+    {
+      "kanaExpression": "ふくつう",
+      "rank": 24500
+    },
+    {
+      "kanaExpression": "はらいた"
+    },
+    {
+      "kanjiExpression": "腹痛",
+      "furiganaExpression": [
+        {
+          "text": "腹",
+          "annotation": "ふく"
+        },
+        {
+          "text": "痛",
+          "annotation": "つう"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stomach ache",
+        "abdominal pain"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "buikpijn",
+        "pijn in de buik",
+        "abdominale pijn",
+        "buikkramp(en)",
+        "koliek(en)",
+        "koliekpijn"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bauchschmerzen",
+        "Leibschmerzen",
+        "Bauchweh"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "боль в животе; колики",
+        "боль в животе, колики, резь в желудке"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dolor de estómago"
+      ]
+    }
+  ]
+}

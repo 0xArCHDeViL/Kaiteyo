@@ -1,0 +1,70 @@
+{
+  "id": "1838130",
+  "readings": [
+    {
+      "kanaExpression": "たちおくれ",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "立ち後れ",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "後",
+          "annotation": "おく"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "立ち遅れ",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "遅",
+          "annotation": "おく"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "slow start"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rückstand",
+        "Verspätung",
+        "Zurückgebliebensein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "запоздание; отставание"
+      ]
+    }
+  ]
+}

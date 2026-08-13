@@ -1,0 +1,43 @@
+{
+  "id": "1262040",
+  "readings": [
+    {
+      "kanaExpression": "げんせん",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "原潜",
+      "furiganaExpression": [
+        {
+          "text": "原",
+          "annotation": "げん"
+        },
+        {
+          "text": "潜",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "nuclear submarine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Atom-U-Boot"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "submarino nuclear"
+      ]
+    }
+  ]
+}

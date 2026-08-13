@@ -1,0 +1,76 @@
+{
+  "id": "1282510",
+  "readings": [
+    {
+      "kanaExpression": "こうそ",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "酵素",
+      "furiganaExpression": [
+        {
+          "text": "酵",
+          "annotation": "こう"
+        },
+        {
+          "text": "素",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 9788
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "enzyme"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "enzym",
+        "ferment"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "enzyme"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "enzymisch",
+        "Enzym",
+        "Ferment"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "enzim"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "фермент, энзим"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "enzima"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "enzym"
+      ]
+    }
+  ]
+}

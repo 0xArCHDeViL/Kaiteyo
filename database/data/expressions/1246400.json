@@ -1,0 +1,61 @@
+{
+  "id": "1246400",
+  "readings": [
+    {
+      "kanaExpression": "ぐうい",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "寓意",
+      "furiganaExpression": [
+        {
+          "text": "寓",
+          "annotation": "ぐう"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hidden meaning",
+        "symbolism",
+        "moral"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anspielung",
+        "verborgene Bedeutung",
+        "Allegorie"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "erkölcsös"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мораль (басни, рассказа), скрытый (переносный) смысл",
+        "{～的} аллегорический"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "metáfora",
+        "alusión"
+      ]
+    }
+  ]
+}

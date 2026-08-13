@@ -1,0 +1,91 @@
+{
+  "id": "1535930",
+  "readings": [
+    {
+      "kanaExpression": "とい",
+      "rank": 9653
+    },
+    {
+      "kanjiExpression": "問い",
+      "furiganaExpression": [
+        {
+          "text": "問",
+          "annotation": "と"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 5402
+    },
+    {
+      "kanjiExpression": "問",
+      "furiganaExpression": [
+        {
+          "text": "問",
+          "annotation": "とい"
+        }
+      ],
+      "rank": 2139
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "question",
+        "query"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vraag",
+        "vraagstuk",
+        "opgave",
+        "probleem"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "problème",
+        "question"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frage",
+        "Problem"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kérdés",
+        "kétség",
+        "vita tárgya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вопрос"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "vprašanje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pregunta",
+        "cuestión"
+      ]
+    }
+  ]
+}

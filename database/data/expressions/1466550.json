@@ -1,0 +1,46 @@
+{
+  "id": "1466550",
+  "readings": [
+    {
+      "kanaExpression": "にゅうちょう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "入超",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "超",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "excess of imports"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einfuhrüberschuss",
+        "Importüberschuss",
+        "Handelsbilzanzdefizit",
+        "Handelsdefizit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "((сокр.) 輸入超過) превышение импорта над экспортом, пассивный баланс внешней торговли"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1305020",
+  "readings": [
+    {
+      "kanaExpression": "しごとちゅう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "仕事中",
+      "furiganaExpression": [
+        {
+          "text": "仕",
+          "annotation": "し"
+        },
+        {
+          "text": "事",
+          "annotation": "ごと"
+        },
+        {
+          "text": "中",
+          "annotation": "ちゅう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "at work",
+        "in the midst of work",
+        "working"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "während der Arbeit"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "en el trabajo",
+        "en medio del trabajo",
+        "trabajando"
+      ]
+    }
+  ]
+}

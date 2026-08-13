@@ -1,0 +1,60 @@
+{
+  "id": "1952780",
+  "readings": [
+    {
+      "kanaExpression": "しんぷ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "新譜",
+      "furiganaExpression": [
+        {
+          "text": "新",
+          "annotation": "しん"
+        },
+        {
+          "text": "譜",
+          "annotation": "ぷ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "newly-released music",
+        "new release (CD, album, etc.)",
+        "new score",
+        "new composition"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "release",
+        "pas uitgekomen cd",
+        "nieuw uitgebrachte grammofoonplaat",
+        "nieuwe muziek",
+        "nieuw liedje",
+        "muziekstuk",
+        "deuntje"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "neue Noten",
+        "neue CD",
+        "neue LP"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(муз.) новая пьеса; новая пластинка"
+      ]
+    }
+  ]
+}

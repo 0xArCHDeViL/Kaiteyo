@@ -1,0 +1,46 @@
+{
+  "id": "1401890",
+  "readings": [
+    {
+      "kanaExpression": "そうわ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "総和",
+      "furiganaExpression": [
+        {
+          "text": "総",
+          "annotation": "そう"
+        },
+        {
+          "text": "和",
+          "annotation": "わ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "sum total",
+        "summation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Summierung",
+        "Summe",
+        "Gesamtsumme"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "общая сумма; общий итог"
+      ]
+    }
+  ]
+}

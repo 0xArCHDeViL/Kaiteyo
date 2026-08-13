@@ -1,0 +1,63 @@
+{
+  "id": "1342600",
+  "readings": [
+    {
+      "kanaExpression": "しょかい",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "初回",
+      "furiganaExpression": [
+        {
+          "text": "初",
+          "annotation": "しょ"
+        },
+        {
+          "text": "回",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 6910
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "first time",
+        "first innings",
+        "initial attempt",
+        "first",
+        "initial"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eerste keer",
+        "{honkb.} eerste inning"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "das erste Mal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) первый"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "primera vez",
+        "primer intento",
+        "primero",
+        "inicial"
+      ]
+    }
+  ]
+}

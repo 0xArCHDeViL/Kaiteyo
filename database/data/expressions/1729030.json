@@ -1,0 +1,84 @@
+{
+  "id": "1729030",
+  "readings": [
+    {
+      "kanaExpression": "ほうき",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "蜂起",
+      "furiganaExpression": [
+        {
+          "text": "蜂",
+          "annotation": "ほう"
+        },
+        {
+          "text": "起",
+          "annotation": "き"
+        }
+      ],
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "鋒起",
+      "furiganaExpression": [
+        {
+          "text": "鋒",
+          "annotation": "ほう"
+        },
+        {
+          "text": "起",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "uprising",
+        "revolt"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "opstand",
+        "revolte",
+        "rebellie",
+        "insurrectie",
+        "oproer",
+        "in opstand komen",
+        "revolteren",
+        "rebelleren",
+        "oproerig worden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aufstand",
+        "Aufruhr",
+        "Revolte",
+        "Empörung",
+        "sich empören",
+        "einen Aufstand machen",
+        "sich erheben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felkelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) восстание",
+        "{～する} восставать"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "1279600",
+  "readings": [
+    {
+      "kanaExpression": "こうてい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "校庭",
+      "furiganaExpression": [
+        {
+          "text": "校",
+          "annotation": "こう"
+        },
+        {
+          "text": "庭",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "schoolyard",
+        "school playground",
+        "school grounds",
+        "campus"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "speelplaats van een school",
+        "recreatieterrein van een school",
+        "schoolterrein",
+        "terrein van een school",
+        "campus",
+        "universiteitscampus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cour d\u0027école",
+        "campus"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schulhof",
+        "Schulgelände",
+        "Campus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyetem területe",
+        "egyetemváros",
+        "főiskola területe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "школьный двор"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "šolsko dvorišče",
+        "šolsko igrišče"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "patio escolar",
+        "recinto escolar",
+        "campus"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "campus"
+      ]
+    }
+  ]
+}

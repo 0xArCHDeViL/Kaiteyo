@@ -1,0 +1,86 @@
+{
+  "id": "1827400",
+  "readings": [
+    {
+      "kanaExpression": "にくたいてき",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "肉体的",
+      "furiganaExpression": [
+        {
+          "text": "肉",
+          "annotation": "にく"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bodily",
+        "physical",
+        "corporeal",
+        "sexual",
+        "sensual",
+        "of the flesh"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "lichamelijk",
+        "fysiek",
+        "lijfelijk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "physisch",
+        "körperlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "anyagi",
+        "fizikai",
+        "materiális",
+        "testi",
+        "testtel bíró",
+        "érzéki",
+        "tárgyi"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "плотский, физический; чувственный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "corporal",
+        "material"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "korpral"
+      ]
+    }
+  ]
+}

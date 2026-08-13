@@ -1,0 +1,69 @@
+{
+  "id": "1598910",
+  "readings": [
+    {
+      "kanaExpression": "とまりこみ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "泊まり込み",
+      "furiganaExpression": [
+        {
+          "text": "泊",
+          "annotation": "と"
+        },
+        {
+          "text": "まり"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "泊り込み",
+      "furiganaExpression": [
+        {
+          "text": "泊",
+          "annotation": "とま"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "staying somewhere (overnight) due to circumstances"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(arbeitsbedingtes)Übernachten vor Ort"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) остановка (ночлег) в гостинице",
+        "2) работа и жильё (в доме хозяина)"
+      ]
+    }
+  ]
+}

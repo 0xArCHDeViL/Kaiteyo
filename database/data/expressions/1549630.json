@@ -1,0 +1,88 @@
+{
+  "id": "1549630",
+  "readings": [
+    {
+      "kanaExpression": "りとく",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "利得",
+      "furiganaExpression": [
+        {
+          "text": "利",
+          "annotation": "り"
+        },
+        {
+          "text": "得",
+          "annotation": "とく"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "利徳",
+      "furiganaExpression": [
+        {
+          "text": "利",
+          "annotation": "り"
+        },
+        {
+          "text": "徳",
+          "annotation": "とく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gain",
+        "profit",
+        "benefit",
+        "amplification"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "winst",
+        "baat",
+        "profijt",
+        "voordeel",
+        "opbrengst",
+        "{elektr.} versterking",
+        "versterkingsfactor"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gewinn",
+        "Profit",
+        "Vorteil",
+        "Verstärkung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csaplyuk",
+        "előny",
+        "gyarapodás",
+        "haszon",
+        "nagyobbodás",
+        "növekedés",
+        "nyereség",
+        "sietés",
+        "jótétemény"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "прибыль; доход; выгода"
+      ]
+    }
+  ]
+}

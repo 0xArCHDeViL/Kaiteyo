@@ -1,0 +1,60 @@
+{
+  "id": "1662260",
+  "readings": [
+    {
+      "kanaExpression": "ようらん",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "要覧",
+      "furiganaExpression": [
+        {
+          "text": "要",
+          "annotation": "よう"
+        },
+        {
+          "text": "覧",
+          "annotation": "らん"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "outline",
+        "summary",
+        "survey",
+        "handbook"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überblick",
+        "Verzeichnis",
+        "Handbuch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "áttekintés",
+        "körvonal",
+        "vázlat",
+        "összefoglalás",
+        "tervrajz",
+        "vizsgálat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) обзор, очерк",
+        "2) справочник"
+      ]
+    }
+  ]
+}

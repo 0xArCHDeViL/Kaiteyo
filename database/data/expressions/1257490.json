@@ -1,0 +1,75 @@
+{
+  "id": "1257490",
+  "readings": [
+    {
+      "kanaExpression": "けんぞうぶつ",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "建造物",
+      "furiganaExpression": [
+        {
+          "text": "建",
+          "annotation": "けん"
+        },
+        {
+          "text": "造",
+          "annotation": "ぞう"
+        },
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        }
+      ],
+      "rank": 21000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "structure",
+        "building"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bouwwerk",
+        "bouwsel",
+        "constructie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bau",
+        "Bauten"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "alak"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сооружение, строение, здание, постройка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "estructura"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "byggnad"
+      ]
+    }
+  ]
+}

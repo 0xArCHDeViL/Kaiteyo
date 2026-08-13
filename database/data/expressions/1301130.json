@@ -1,0 +1,44 @@
+{
+  "id": "1301130",
+  "readings": [
+    {
+      "kanaExpression": "さんせん",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "三選",
+      "furiganaExpression": [
+        {
+          "text": "三",
+          "annotation": "さん"
+        },
+        {
+          "text": "選",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "third-term election"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zweite Wiederwahl"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "избрание на третий срок",
+        "{～する} избирать на третий срок"
+      ]
+    }
+  ]
+}

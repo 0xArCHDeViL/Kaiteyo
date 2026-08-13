@@ -1,0 +1,105 @@
+{
+  "id": "1392290",
+  "readings": [
+    {
+      "kanaExpression": "せんたく",
+      "rank": 16500
+    },
+    {
+      "kanaExpression": "せんだく"
+    },
+    {
+      "kanjiExpression": "選択",
+      "furiganaExpression": [
+        {
+          "text": "選",
+          "annotation": "せん"
+        },
+        {
+          "text": "択",
+          "annotation": "たく"
+        }
+      ],
+      "rank": 930
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "choice",
+        "selection",
+        "option"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kiezen",
+        "uitkiezen",
+        "selecteren",
+        "uitzoeken",
+        "opteren",
+        "een keuze doen",
+        "maken",
+        "verkiezen",
+        "keuze",
+        "keus",
+        "selectie",
+        "verkiezing",
+        "{veroud.} keur"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "choix",
+        "option",
+        "sélection"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "auswählen",
+        "eine Wahl treffen",
+        "eine Auswahl treffen",
+        "Auswahl",
+        "Auslese",
+        "Wahl",
+        "Selektion"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiválasztás",
+        "választék",
+        "választás",
+        "válogatott"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "выбор",
+        "{～する} выбирать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "izbor",
+        "izbira"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "selección",
+        "elección",
+        "opción"
+      ]
+    }
+  ]
+}

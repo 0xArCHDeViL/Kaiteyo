@@ -1,0 +1,76 @@
+{
+  "id": "1592360",
+  "readings": [
+    {
+      "kanaExpression": "くやしなみだ",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "悔し涙",
+      "furiganaExpression": [
+        {
+          "text": "悔",
+          "annotation": "くや"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "涙",
+          "annotation": "なみだ"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "悔やし涙",
+      "furiganaExpression": [
+        {
+          "text": "悔",
+          "annotation": "く"
+        },
+        {
+          "text": "やし"
+        },
+        {
+          "text": "涙",
+          "annotation": "なみだ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tears of regret",
+        "bitter tears",
+        "vexation",
+        "chagrin"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tränen des Ärgers",
+        "Tränen des Grolls"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bosszúság",
+        "nyugtalanítás",
+        "zaklatás",
+        "csalódás okozta szomorúság",
+        "lelki fájdalom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слёзы досады"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "1452360",
+  "readings": [
+    {
+      "kanaExpression": "どうこく",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "同国",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "国",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 11738
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "same country",
+        "same province",
+        "the (said) country"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hetzelfde land",
+        "dezelfde streek",
+        "hetzelfde gewest",
+        "onderhavig",
+        "voornoemd",
+        "voorgenoemd",
+        "bovengenoemd",
+        "voormeld land",
+        "dit",
+        "dat land"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "dasselbe Land"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.)",
+        "1) та же страна, то же государство",
+        "2) та же провинция (местность)"
+      ]
+    }
+  ]
+}

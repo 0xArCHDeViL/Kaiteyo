@@ -1,0 +1,60 @@
+{
+  "id": "1283570",
+  "readings": [
+    {
+      "kanaExpression": "こうしゃほう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "高射砲",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "射",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "砲",
+          "annotation": "ほう"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "antiaircraft gun"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} luchtdoelkanon",
+        "luchtdoelgeschut",
+        "luchtafweergeschut",
+        "afweergeschut",
+        "afweerkanon",
+        "luchtafweer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Flak",
+        "Flugabwehrkanone",
+        "Fliegerabwehrkanone"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "зенитное орудие; зенитная артиллерия"
+      ]
+    }
+  ]
+}

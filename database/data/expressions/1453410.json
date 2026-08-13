@@ -1,0 +1,42 @@
+{
+  "id": "1453410",
+  "readings": [
+    {
+      "kanaExpression": "どうぼう"
+    },
+    {
+      "kanaExpression": "どうほう",
+      "rank": 21000
+    },
+    {
+      "kanjiExpression": "同朋",
+      "furiganaExpression": [
+        {
+          "text": "同",
+          "annotation": "どう"
+        },
+        {
+          "text": "朋",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "companions",
+        "fellows"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Freunde",
+        "Kameraden"
+      ]
+    }
+  ]
+}

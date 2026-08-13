@@ -1,0 +1,44 @@
+{
+  "id": "1389415",
+  "readings": [
+    {
+      "kanaExpression": "うら",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "卜",
+      "furiganaExpression": [
+        {
+          "text": "卜",
+          "annotation": "うら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "占",
+      "furiganaExpression": [
+        {
+          "text": "占",
+          "annotation": "うら"
+        }
+      ],
+      "rank": 13208
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fortune-telling",
+        "divination"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "adivino",
+        "adivinación"
+      ]
+    }
+  ]
+}

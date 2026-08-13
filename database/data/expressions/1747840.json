@@ -1,0 +1,59 @@
+{
+  "id": "1747840",
+  "readings": [
+    {
+      "kanaExpression": "ほうだい",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "砲台",
+      "furiganaExpression": [
+        {
+          "text": "砲",
+          "annotation": "ほう"
+        },
+        {
+          "text": "台",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(gun) battery",
+        "fort"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "batterij",
+        "geschutstelling"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Batterie",
+        "Geschützbatterie",
+        "Festung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "akkumulátor"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "форт, батарея (стационарная)"
+      ]
+    }
+  ]
+}

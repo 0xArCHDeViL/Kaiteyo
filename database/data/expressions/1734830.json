@@ -1,0 +1,54 @@
+{
+  "id": "1734830",
+  "readings": [
+    {
+      "kanaExpression": "だいじ",
+      "rank": 26000
+    },
+    {
+      "kanjiExpression": "題字",
+      "furiganaExpression": [
+        {
+          "text": "題",
+          "annotation": "だい"
+        },
+        {
+          "text": "字",
+          "annotation": "じ"
+        }
+      ],
+      "rank": 26000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "title lettering"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "titelbelettering",
+        "titelkarakter(s)",
+        "titel"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überschrift",
+        "Vorbemerkung",
+        "Motto",
+        "Wahlspruch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заголовок"
+      ]
+    }
+  ]
+}

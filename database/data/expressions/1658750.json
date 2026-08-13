@@ -1,0 +1,47 @@
+{
+  "id": "1658750",
+  "readings": [
+    {
+      "kanaExpression": "じったいちょうさ",
+      "rank": 19000
+    },
+    {
+      "kanjiExpression": "実態調査",
+      "furiganaExpression": [
+        {
+          "text": "実",
+          "annotation": "じっ"
+        },
+        {
+          "text": "態",
+          "annotation": "たい"
+        },
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "査",
+          "annotation": "さ"
+        }
+      ],
+      "rank": 19000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "fact-finding investigation",
+        "investigation into actual conditions",
+        "fact-finding survey"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "обследование на месте"
+      ]
+    }
+  ]
+}

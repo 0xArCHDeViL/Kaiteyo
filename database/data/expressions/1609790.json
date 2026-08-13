@@ -1,0 +1,92 @@
+{
+  "id": "1609790",
+  "readings": [
+    {
+      "kanaExpression": "こわばる",
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "強張る",
+      "furiganaExpression": [
+        {
+          "text": "強",
+          "annotation": "こわ"
+        },
+        {
+          "text": "張",
+          "annotation": "ば"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 32039
+    },
+    {
+      "kanjiExpression": "強ばる",
+      "furiganaExpression": [
+        {
+          "text": "強",
+          "annotation": "こわ"
+        },
+        {
+          "text": "ばる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to stiffen",
+        "to become stiff"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "durcir",
+        "raidir"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "erstarren",
+        "sich verhärten",
+        "steif werden",
+        "sich versteifen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megkeményít",
+        "megmerevít",
+        "merevít",
+        "modora hűvösebb lesz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "затвердевать; делаться жёстким (неэластичным); загрубеть"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "odreveneti",
+        "otrpniti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "endurecerse",
+        "atiesarse"
+      ]
+    }
+  ]
+}

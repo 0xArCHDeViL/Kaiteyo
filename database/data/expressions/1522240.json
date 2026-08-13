@@ -1,0 +1,96 @@
+{
+  "id": "1522240",
+  "readings": [
+    {
+      "kanaExpression": "ほんや",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "本屋",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "屋",
+          "annotation": "や"
+        }
+      ],
+      "rank": 4698
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bookstore",
+        "bookshop",
+        "publisher",
+        "main building"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boekhandelaar",
+        "boekverkoper",
+        "boekhandel",
+        "boekwinkel",
+        "{afk.} bkh"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "bâtiment principal",
+        "librairie",
+        "maison d\u0027édition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Buchhandlung",
+        "Buchladen",
+        "Buchhändler",
+        "Verlag",
+        "Verleger",
+        "Hauptgebäude",
+        "Skriptautor",
+        "Libretto-Autor",
+        "Drehbuchautor"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "könyvesbolt",
+        "könyvkiadó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) книжный магазин, книжная лавка",
+        "2) книготорговец",
+        "3) (см.) おもや"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "knijgarna",
+        "založnik"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "librería",
+        "editor",
+        "edificio principal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "1636590",
+  "readings": [
+    {
+      "kanaExpression": "かたらい",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "語らい",
+      "furiganaExpression": [
+        {
+          "text": "語",
+          "annotation": "かた"
+        },
+        {
+          "text": "らい"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "talk",
+        "chat",
+        "troth",
+        "lovers\u0027 vow"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Plauderei",
+        "Unterhaltung",
+        "Versprechen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "előadás",
+        "fecsegés",
+        "üres beszéd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(уст.)",
+        "1) беседа, разговор",
+        "2) обещание (жениться при обручении); клятва в верности"
+      ]
+    }
+  ]
+}

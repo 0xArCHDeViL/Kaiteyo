@@ -1,0 +1,89 @@
+{
+  "id": "1743290",
+  "readings": [
+    {
+      "kanaExpression": "しょうひざい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "消費財",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "費",
+          "annotation": "ひ"
+        },
+        {
+          "text": "財",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "消費材",
+      "furiganaExpression": [
+        {
+          "text": "消",
+          "annotation": "しょう"
+        },
+        {
+          "text": "費",
+          "annotation": "ひ"
+        },
+        {
+          "text": "材",
+          "annotation": "ざい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "consumer goods"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "consumptieartikelen",
+        "consumptiegoederen",
+        "verbruiksgoederen",
+        "gebruiksgoederen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Konsumgüter",
+        "Verbrauchsgüter"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fogyasztási cikkek",
+        "fogyasztási javak"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "расходуемые материалы",
+        "потребительские товары"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "productos de consumo",
+        "bienes de consumo"
+      ]
+    }
+  ]
+}

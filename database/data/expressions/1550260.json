@@ -1,0 +1,66 @@
+{
+  "id": "1550260",
+  "readings": [
+    {
+      "kanaExpression": "うらがね",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "裏金",
+      "furiganaExpression": [
+        {
+          "text": "裏",
+          "annotation": "うら"
+        },
+        {
+          "text": "金",
+          "annotation": "がね"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bribe",
+        "secret fund",
+        "slush fund",
+        "money for bribery"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aan de binnenkant",
+        "onderkant bevestigd metalen plaatje",
+        "smeergeld",
+        "steekpenningen",
+        "omkoopsom",
+        "{Barg.} kaan",
+        "{Ind.N.} smeer",
+        "{euf.} bemiddelingsprovisie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schwarzgeld",
+        "Schwarzgeldfond"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megvesztegetés"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "muta"
+      ]
+    }
+  ]
+}

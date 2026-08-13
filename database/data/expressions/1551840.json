@@ -1,0 +1,74 @@
+{
+  "id": "1551840",
+  "readings": [
+    {
+      "kanaExpression": "りっぽう",
+      "rank": 17000
+    },
+    {
+      "kanjiExpression": "立法",
+      "furiganaExpression": [
+        {
+          "text": "立",
+          "annotation": "りっ"
+        },
+        {
+          "text": "法",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 4365
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "legislation",
+        "lawmaking"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} wetgeving",
+        "het maken van wetten",
+        "legislatie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "législation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gesetze verabschieden",
+        "Gesetzgebung",
+        "Legislation",
+        "Legislatur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "törvényhozás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "законодательство",
+        "{～[の]} законодательный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(poder) legislativo"
+      ]
+    }
+  ]
+}

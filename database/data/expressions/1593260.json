@@ -1,0 +1,77 @@
+{
+  "id": "1593260",
+  "readings": [
+    {
+      "kanaExpression": "こだち",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "木立",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "こ"
+        },
+        {
+          "text": "立",
+          "annotation": "だち"
+        }
+      ],
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "木立ち",
+      "furiganaExpression": [
+        {
+          "text": "木",
+          "annotation": "こ"
+        },
+        {
+          "text": "立",
+          "annotation": "だ"
+        },
+        {
+          "text": "ち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cluster of trees",
+        "grove",
+        "thicket"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bosje",
+        "groepje bomen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wäldchen",
+        "Gehölz",
+        "Baumgruppe",
+        "Hain"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "роща, лесок"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arboleda"
+      ]
+    }
+  ]
+}

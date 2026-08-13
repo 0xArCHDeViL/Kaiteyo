@@ -1,0 +1,73 @@
+{
+  "id": "1404110",
+  "readings": [
+    {
+      "kanaExpression": "そくい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "即位",
+      "furiganaExpression": [
+        {
+          "text": "即",
+          "annotation": "そく"
+        },
+        {
+          "text": "位",
+          "annotation": "い"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "accession to the throne",
+        "enthronement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de troon bestijgen",
+        "beklimmen",
+        "troonsbestijging",
+        "troonsbeklimming",
+        "troonsaanvaarding",
+        "intronisatie",
+        "inhuldiging",
+        "inauguratie",
+        "installatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "den Thron besteigen",
+        "Thronbesteigung",
+        "Inthronisation",
+        "Inthronisierung",
+        "Krönung",
+        "Krönungsfeier"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megkoronázás",
+        "püspökké szentelés",
+        "trónolás",
+        "trónra emelés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вступление на престол",
+        "{～する} вступать на престол"
+      ]
+    }
+  ]
+}

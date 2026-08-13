@@ -1,0 +1,64 @@
+{
+  "id": "1520590",
+  "readings": [
+    {
+      "kanaExpression": "ぼうふ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "防腐",
+      "furiganaExpression": [
+        {
+          "text": "防",
+          "annotation": "ぼう"
+        },
+        {
+          "text": "腐",
+          "annotation": "ふ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "preservation from decay",
+        "prevention of putrefaction",
+        "embalmment",
+        "antisepsis"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bederfwering",
+        "rotwering"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schutz gegen Fäulnis",
+        "Schutz gegen Verderben"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megőrzés",
+        "balzsamozó készítmény",
+        "balzsamozó szer",
+        "bebalzsamozás",
+        "bebalzsamoztatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～的}, {～の} асептический; антисептический; противогнилостный"
+      ]
+    }
+  ]
+}

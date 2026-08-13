@@ -1,0 +1,52 @@
+{
+  "id": "1312210",
+  "readings": [
+    {
+      "kanaExpression": "しじょう",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "詩情",
+      "furiganaExpression": [
+        {
+          "text": "詩",
+          "annotation": "し"
+        },
+        {
+          "text": "情",
+          "annotation": "じょう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "poetic sentiment",
+        "poetic interest",
+        "poetic inspiration"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "l\u0027âme poétique"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "poetisches Stimmung",
+        "poetische Atmosphäre"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "поэтическое чувство, интерес к поэзии"
+      ]
+    }
+  ]
+}

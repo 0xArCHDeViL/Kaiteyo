@@ -1,0 +1,113 @@
+{
+  "id": "1008050",
+  "readings": [
+    {
+      "kanaExpression": "ついでに",
+      "rank": 4040
+    },
+    {
+      "kanjiExpression": "序でに",
+      "furiganaExpression": [
+        {
+          "text": "序",
+          "annotation": "つい"
+        },
+        {
+          "text": "でに"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "序に",
+      "furiganaExpression": [
+        {
+          "text": "序",
+          "annotation": "ついで"
+        },
+        {
+          "text": "に"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "while (one is at it)",
+        "when",
+        "on the occasion of",
+        "at the same time (as)",
+        "on one\u0027s way (to)",
+        "by the way",
+        "incidentally",
+        "in passing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "nu we het daar toch over hebben",
+        "ik maak graag van de gelegenheid gebruik om",
+        "overigens",
+        "trouwens",
+        "à propos",
+        "en passant",
+        "terloops",
+        "in het voorbijgaan",
+        "terwijl",
+        "tegelijkertijd",
+        "meteen",
+        "nu ik",
+        "je",
+        "men enz. toch ~",
+        "in één moeite door",
+        "tegelijk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "à l\u0027occasion",
+        "par chance",
+        "saisir l\u0027opportunité"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bei Gelegenheit",
+        "nebenbei",
+        "im Vorbeigehen",
+        "beiläufig"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyébként",
+        "mellékesen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "во время (чего-л.)",
+        "при случае, кстати"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "spotoma",
+        "v primeru, da ..."
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "(hacer algo) de paso"
+      ]
+    }
+  ]
+}

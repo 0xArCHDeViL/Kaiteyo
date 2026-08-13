@@ -1,0 +1,61 @@
+{
+  "id": "1240330",
+  "readings": [
+    {
+      "kanaExpression": "きょくしょう",
+      "rank": 35000
+    },
+    {
+      "kanaExpression": "ごくしょう"
+    },
+    {
+      "kanjiExpression": "極小",
+      "furiganaExpression": [
+        {
+          "text": "極",
+          "annotation": "きょく"
+        },
+        {
+          "text": "小",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 35000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "minimum",
+        "minuscule",
+        "local minimum"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "minimal",
+        "kleinst",
+        "Minimal…",
+        "infinitesimal",
+        "mikroskopisch",
+        "winzig",
+        "Minimum",
+        "Winzigkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～[の]} бесконечно малый, минимальный"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mínimo"
+      ]
+    }
+  ]
+}

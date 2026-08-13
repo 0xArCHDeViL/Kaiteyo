@@ -1,0 +1,98 @@
+{
+  "id": "1363100",
+  "readings": [
+    {
+      "kanaExpression": "しんこく",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "申告",
+      "furiganaExpression": [
+        {
+          "text": "申",
+          "annotation": "しん"
+        },
+        {
+          "text": "告",
+          "annotation": "こく"
+        }
+      ],
+      "rank": 4617
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "report",
+        "return (e.g. tax)",
+        "statement",
+        "declaration",
+        "notification",
+        "filing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aangeven",
+        "declareren",
+        "aangifte",
+        "declaratie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déclaration",
+        "notification"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "anmelden",
+        "erklären",
+        "angeben",
+        "deklarieren",
+        "Anmeldung",
+        "Angabe",
+        "Erklärung",
+        "Deklaration",
+        "(insbes.)Steuererklärung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszámoló",
+        "hírnév",
+        "bejelentés",
+        "kijelentés",
+        "kimutatás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "подача сведений; доклад; рапорт",
+        "{～する} докладывать; представлять сведения; рапортовать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "prijava",
+        "izjava"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reporte",
+        "informe",
+        "declaración"
+      ]
+    }
+  ]
+}

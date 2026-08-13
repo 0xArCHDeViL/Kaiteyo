@@ -1,0 +1,77 @@
+{
+  "id": "1344140",
+  "readings": [
+    {
+      "kanaExpression": "しょひょう",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "書評",
+      "furiganaExpression": [
+        {
+          "text": "書",
+          "annotation": "しょ"
+        },
+        {
+          "text": "評",
+          "annotation": "ひょう"
+        }
+      ],
+      "rank": 4803
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "book review"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "boekbespreking",
+        "boekbeoordeling",
+        "recensie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "critique littéraire d\u0027un livre"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Buchbesprechung",
+        "Buchkritik",
+        "Rezension"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рецензия; обзор литературы (книг)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kritika knjige"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "reseña de un libro"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "bokanmälan"
+      ]
+    }
+  ]
+}

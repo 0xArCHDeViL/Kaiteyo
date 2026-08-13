@@ -1,0 +1,99 @@
+{
+  "id": "1378590",
+  "readings": [
+    {
+      "kanaExpression": "いきもの",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "生き物",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "い"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "物",
+          "annotation": "もの"
+        }
+      ],
+      "rank": 5637
+    },
+    {
+      "kanjiExpression": "生きもの",
+      "furiganaExpression": [
+        {
+          "text": "生",
+          "annotation": "い"
+        },
+        {
+          "text": "きもの"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "living thing",
+        "living creature",
+        "animal",
+        "life"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "levend wezen",
+        "schepsel",
+        "{verzameln.} leven"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "être vivant",
+        "animal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lebewesen",
+        "Geschöpf",
+        "Kreatur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állat",
+        "állati"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "живое существо; живая природа"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "živa stvar",
+        "žival"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ser viviente",
+        "animal"
+      ]
+    }
+  ]
+}

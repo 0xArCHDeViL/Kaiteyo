@@ -1,0 +1,72 @@
+{
+  "id": "1660170",
+  "readings": [
+    {
+      "kanaExpression": "しょうはい",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "賞杯",
+      "furiganaExpression": [
+        {
+          "text": "賞",
+          "annotation": "しょう"
+        },
+        {
+          "text": "杯",
+          "annotation": "はい"
+        }
+      ],
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "賞盃",
+      "furiganaExpression": [
+        {
+          "text": "賞",
+          "annotation": "しょう"
+        },
+        {
+          "text": "盃",
+          "annotation": "はい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "trophy",
+        "prize cup"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pokal",
+        "Trophäe"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "diadalemlék",
+        "trófea",
+        "vadásztrófea"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(спорт.) кубок (наградной)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "copa (trofeo)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "1621880",
+  "readings": [
+    {
+      "kanaExpression": "ばしん",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "馬身",
+      "furiganaExpression": [
+        {
+          "text": "馬",
+          "annotation": "ば"
+        },
+        {
+          "text": "身",
+          "annotation": "しん"
+        }
+      ],
+      "rank": 33000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "horse\u0027s length"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Pferdelänge"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "длина корпуса лошади"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "1002430",
+  "readings": [
+    {
+      "kanaExpression": "おちゃ",
+      "rank": 18000
+    },
+    {
+      "kanjiExpression": "お茶",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        }
+      ],
+      "rank": 2873
+    },
+    {
+      "kanjiExpression": "御茶",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "茶",
+          "annotation": "ちゃ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tea (esp. green or barley)",
+        "tea break (at work)",
+        "tea ceremony"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "thee",
+        "groene thee",
+        "theeceremonie"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "thé (en général vert)",
+        "pause thé (au travail)",
+        "cérémonie du thé"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tee",
+        "grüner Tee",
+        "Teezeremonie",
+        "Teekult",
+        "Teepflanze",
+        "Teestrauch"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tea"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(разг.) чай",
+        "(ср.) おちゃのこ"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "zeleni čaj",
+        "čaj"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "té (verde)"
+      ]
+    }
+  ]
+}

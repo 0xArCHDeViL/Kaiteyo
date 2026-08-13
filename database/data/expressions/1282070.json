@@ -1,0 +1,90 @@
+{
+  "id": "1282070",
+  "readings": [
+    {
+      "kanaExpression": "こうてい",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "行程",
+      "furiganaExpression": [
+        {
+          "text": "行",
+          "annotation": "こう"
+        },
+        {
+          "text": "程",
+          "annotation": "てい"
+        }
+      ],
+      "rank": 14018
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "journey",
+        "course",
+        "distance",
+        "march",
+        "flight",
+        "drive",
+        "leg (of a journey, relay race, etc.)",
+        "itinerary",
+        "stroke (of a piston)",
+        "throw (of a switch)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "traject",
+        "afstand",
+        "parcours",
+        "stuk weg",
+        "eind weegs",
+        "reisschema",
+        "{techn.} slag",
+        "slaglengte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "distance",
+        "longueur d\u0027un trajet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Strecke",
+        "Entfernung",
+        "Hub"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "messzeség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) длина (продолжительность) перехода; расстояние, дистанция",
+        "2) (перен.) поездка, путешествие; поход",
+        "3) (тех.) ход, такт [работы] (двигателя)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "marcha",
+        "trayecto",
+        "itinerario"
+      ]
+    }
+  ]
+}

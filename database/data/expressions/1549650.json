@@ -1,0 +1,46 @@
+{
+  "id": "1549650",
+  "readings": [
+    {
+      "kanaExpression": "りばらい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "利払い",
+      "furiganaExpression": [
+        {
+          "text": "利",
+          "annotation": "り"
+        },
+        {
+          "text": "払",
+          "annotation": "ばら"
+        },
+        {
+          "text": "い"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "interest payment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zinszahlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уплата процентов"
+      ]
+    }
+  ]
+}

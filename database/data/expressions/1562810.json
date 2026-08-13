@@ -1,0 +1,50 @@
+{
+  "id": "1562810",
+  "readings": [
+    {
+      "kanaExpression": "わんがん",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "湾岸",
+      "furiganaExpression": [
+        {
+          "text": "湾",
+          "annotation": "わん"
+        },
+        {
+          "text": "岸",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 9610
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "gulf coast",
+        "bay coast"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kust langs een golf",
+        "baai",
+        "boezem",
+        "bocht",
+        "inham",
+        "golfkust"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Golf",
+        "Küste einer Bucht"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "1664410",
+  "readings": [
+    {
+      "kanaExpression": "まちあい",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "待合",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "まち"
+        },
+        {
+          "text": "合",
+          "annotation": "あい"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "待ち合い",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "ま"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "待合い",
+      "furiganaExpression": [
+        {
+          "text": "待",
+          "annotation": "まち"
+        },
+        {
+          "text": "合",
+          "annotation": "あ"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rendezvous",
+        "meeting",
+        "assignation",
+        "area where guests gather before the start of a tea ceremony",
+        "waiting room",
+        "meeting place for assignations, drinking, etc."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Warten auf eine Person oder Sache",
+        "Ort, an dem man auf eine Person oder Sache wartet",
+        "Machiai",
+        "Geishahaus",
+        "Bordell",
+        "Vorraum des Teezimmers",
+        "Ort fürs Warten, bevor man sich ins Teezimmer begibt",
+        "Wartezimmer",
+        "Warteraum",
+        "Wartesaal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) свидание",
+        "2) матиаи, чайный домик (с отдельными кабинетами)"
+      ]
+    }
+  ]
+}

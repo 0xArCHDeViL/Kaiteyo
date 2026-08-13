@@ -1,0 +1,54 @@
+{
+  "id": "2085090",
+  "readings": [
+    {
+      "kanaExpression": "ああいう",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "あーゆー"
+    },
+    {
+      "kanaExpression": "ああゆう"
+    },
+    {
+      "kanjiExpression": "ああ言う",
+      "furiganaExpression": [
+        {
+          "text": "ああ"
+        },
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "that sort of",
+        "like that"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein solches",
+        "ein solcher"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "esa clase de",
+        "como eso"
+      ]
+    }
+  ]
+}

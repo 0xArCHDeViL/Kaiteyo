@@ -1,0 +1,51 @@
+{
+  "id": "1649820",
+  "readings": [
+    {
+      "kanaExpression": "もんぜんまち"
+    },
+    {
+      "kanaExpression": "もんぜんちょう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "門前町",
+      "furiganaExpression": [
+        {
+          "text": "門",
+          "annotation": "もん"
+        },
+        {
+          "text": "前",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "町",
+          "annotation": "まち"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "town originally built around a temple or shrine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Tempelstadt",
+        "Domstadt (im westl. Kontext)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ист.) посад (городок) у ворот монастыря"
+      ]
+    }
+  ]
+}

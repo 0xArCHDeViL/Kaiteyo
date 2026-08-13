@@ -1,0 +1,71 @@
+{
+  "id": "1478740",
+  "readings": [
+    {
+      "kanaExpression": "はんれい",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "判例",
+      "furiganaExpression": [
+        {
+          "text": "判",
+          "annotation": "はん"
+        },
+        {
+          "text": "例",
+          "annotation": "れい"
+        }
+      ],
+      "rank": 7829
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(judicial) precedent"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} precedent"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "jurisprudence"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Präzedens",
+        "Präzedenz",
+        "Präzedenzfall",
+        "Präjudiz"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "irányadó eset",
+        "precedens"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(юр.) [судебный] прецедент"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "precedente (legal)"
+      ]
+    }
+  ]
+}

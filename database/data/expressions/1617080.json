@@ -1,0 +1,50 @@
+{
+  "id": "1617080",
+  "readings": [
+    {
+      "kanaExpression": "へんのう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "返納",
+      "furiganaExpression": [
+        {
+          "text": "返",
+          "annotation": "へん"
+        },
+        {
+          "text": "納",
+          "annotation": "のう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "returning (to the authorities)",
+        "restoring"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zurückgeben",
+        "zurückbringen",
+        "zurückzahlen",
+        "Rückgabe",
+        "Zurückbringen",
+        "Rückzahlung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возвращение, внесение обратно",
+        "{～する} возвращать, вносить обратно"
+      ]
+    }
+  ]
+}

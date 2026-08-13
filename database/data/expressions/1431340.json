@@ -1,0 +1,56 @@
+{
+  "id": "1431340",
+  "readings": [
+    {
+      "kanaExpression": "じきそ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "直訴",
+      "furiganaExpression": [
+        {
+          "text": "直",
+          "annotation": "じき"
+        },
+        {
+          "text": "訴",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "direct appeal",
+        "direct petition"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eine direkte Eingabe machen",
+        "eine direkte Petition richten",
+        "Immediateingabe",
+        "Immediatgesuch",
+        "Direkteingabe",
+        "Direktgesuch (an den Herrscher oder Vorgesetzten)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(ист.) жалоба (петиция) непосредственно (лично) сёгуну",
+        "{～する} подавать петицию лично сёгуну"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "solicitud directa"
+      ]
+    }
+  ]
+}

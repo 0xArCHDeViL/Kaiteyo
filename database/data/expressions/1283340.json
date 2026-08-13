@@ -1,0 +1,52 @@
+{
+  "id": "1283340",
+  "readings": [
+    {
+      "kanaExpression": "こうかんど",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "高感度",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "こう"
+        },
+        {
+          "text": "感",
+          "annotation": "かん"
+        },
+        {
+          "text": "度",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high sensitivity",
+        "highly sensitive (e.g. film, radio receiver)",
+        "high speed (film)",
+        "discerning",
+        "discriminating",
+        "of refined tastes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hohe Empfindlichkeit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～の} (эл., радио) высокочувствительный"
+      ]
+    }
+  ]
+}

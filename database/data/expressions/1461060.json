@@ -1,0 +1,68 @@
+{
+  "id": "1461060",
+  "readings": [
+    {
+      "kanaExpression": "なんぱ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "難破",
+      "furiganaExpression": [
+        {
+          "text": "難",
+          "annotation": "なん"
+        },
+        {
+          "text": "破",
+          "annotation": "ぱ"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shipwreck"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "schipbreuk",
+        "schipbreuk lijden",
+        "ten onder gaan",
+        "te gronde gaan"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schiffbruch",
+        "Schiffbruch erleiden",
+        "stranden",
+        "scheitern"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hajótörés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кораблекрушение, авария на море",
+        "{～する} потерпеть кораблекрушение (аварию на море)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "naufragio"
+      ]
+    }
+  ]
+}

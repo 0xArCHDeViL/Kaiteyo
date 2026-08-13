@@ -1,0 +1,64 @@
+{
+  "id": "1556430",
+  "readings": [
+    {
+      "kanaExpression": "れいがいてき",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "例外的",
+      "furiganaExpression": [
+        {
+          "text": "例",
+          "annotation": "れい"
+        },
+        {
+          "text": "外",
+          "annotation": "がい"
+        },
+        {
+          "text": "的",
+          "annotation": "てき"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "exceptional",
+        "unusual"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "außergewöhnlich",
+        "Ausnahme…",
+        "ausnahmsweise",
+        "ungewöhnlich"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rendkívüli"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "excepcional",
+        "extraordinario"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "exceptionell"
+      ]
+    }
+  ]
+}

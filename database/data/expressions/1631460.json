@@ -1,0 +1,44 @@
+{
+  "id": "1631460",
+  "readings": [
+    {
+      "kanaExpression": "こうく",
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "鉱区",
+      "furiganaExpression": [
+        {
+          "text": "鉱",
+          "annotation": "こう"
+        },
+        {
+          "text": "区",
+          "annotation": "く"
+        }
+      ],
+      "rank": 25500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mining area",
+        "mine lot"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Bergbaugebiet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "рудник; золотые прииски"
+      ]
+    }
+  ]
+}

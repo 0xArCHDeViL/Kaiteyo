@@ -1,0 +1,66 @@
+{
+  "id": "1670100",
+  "readings": [
+    {
+      "kanaExpression": "けつぜい",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "血税",
+      "furiganaExpression": [
+        {
+          "text": "血",
+          "annotation": "けつ"
+        },
+        {
+          "text": "税",
+          "annotation": "ぜい"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "taxpayers\u0027 hard-earned money",
+        "heavy tax",
+        "conscription",
+        "compulsory military service"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bloedbelasting",
+        "loodzware belasting",
+        "dienstplicht",
+        "conscriptie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "harte Steuerlast",
+        "die unter Mühen aufgebrachten Steuergelder",
+        "die wertvollen Steuergelder der Bürger",
+        "Wehrpflicht (in der Meiji-Zeit)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hadiadó",
+        "katonaállítás",
+        "kötelező katonai szolgálat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн. обр.) воинская повинность ((букв.) налог кровью)"
+      ]
+    }
+  ]
+}

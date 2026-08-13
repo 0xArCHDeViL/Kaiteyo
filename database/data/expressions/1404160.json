@@ -1,0 +1,70 @@
+{
+  "id": "1404160",
+  "readings": [
+    {
+      "kanaExpression": "そっこう",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "即効",
+      "furiganaExpression": [
+        {
+          "text": "即",
+          "annotation": "そっ"
+        },
+        {
+          "text": "効",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "即功",
+      "furiganaExpression": [
+        {
+          "text": "即",
+          "annotation": "そっ"
+        },
+        {
+          "text": "功",
+          "annotation": "こう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "immediate effect",
+        "instant effect"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "onmiddellijke uitwerking"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sofortige Wirkung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) немедленное действие (лекарства и т. п.); немедленный эффект",
+        "{～がある} оказать немедленное действие, быстро действовать"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "efecto inmediato"
+      ]
+    }
+  ]
+}

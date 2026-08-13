@@ -1,0 +1,82 @@
+{
+  "id": "1411210",
+  "readings": [
+    {
+      "kanaExpression": "かしだおれ",
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "貸し倒れ",
+      "furiganaExpression": [
+        {
+          "text": "貸",
+          "annotation": "か"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "倒",
+          "annotation": "だお"
+        },
+        {
+          "text": "れ"
+        }
+      ],
+      "rank": 33000
+    },
+    {
+      "kanjiExpression": "貸倒れ",
+      "furiganaExpression": [
+        {
+          "text": "貸",
+          "annotation": "かし"
+        },
+        {
+          "text": "倒",
+          "annotation": "だお"
+        },
+        {
+          "text": "れ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "貸倒",
+      "furiganaExpression": [
+        {
+          "text": "貸",
+          "annotation": "かし"
+        },
+        {
+          "text": "倒",
+          "annotation": "だおれ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "bad debt",
+        "irrecoverable debt"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "uneinbringliche Schuld",
+        "verlorenes Darlehen",
+        "unsichere Ausstände",
+        "Dubiosa"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "неуплаченный (безнадёжный) долг"
+      ]
+    }
+  ]
+}

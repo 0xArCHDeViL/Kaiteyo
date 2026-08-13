@@ -1,0 +1,76 @@
+{
+  "id": "1723450",
+  "readings": [
+    {
+      "kanaExpression": "ぶんしゅう",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "文集",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "集",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "anthology"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verzameling werken",
+        "teksten",
+        "prozabundel",
+        "bloemlezing",
+        "anthologie",
+        "chrestomathie",
+        "{letterk.} mengelwerk",
+        "{onderw.} verzameling opstellen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anthologie",
+        "Textsammlung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "antológia"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "собрание сочинений"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "antología"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "antologi",
+        "samlingsverk"
+      ]
+    }
+  ]
+}

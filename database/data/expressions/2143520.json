@@ -1,0 +1,41 @@
+{
+  "id": "2143520",
+  "readings": [
+    {
+      "kanaExpression": "しゃたい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "斜体",
+      "furiganaExpression": [
+        {
+          "text": "斜",
+          "annotation": "しゃ"
+        },
+        {
+          "text": "体",
+          "annotation": "たい"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "oblique type",
+        "slanted type",
+        "division ring",
+        "skew field"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schräggestellte, oblique bzw. kursive Auszeichnung von Schriftzeichen (echte Kursivschrift hat einen eigenen Schriftschnitt)",
+        "Schiefkörper"
+      ]
+    }
+  ]
+}

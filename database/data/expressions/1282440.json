@@ -1,0 +1,96 @@
+{
+  "id": "1282440",
+  "readings": [
+    {
+      "kanaExpression": "こうにゅう",
+      "rank": 16000
+    },
+    {
+      "kanjiExpression": "購入",
+      "furiganaExpression": [
+        {
+          "text": "購",
+          "annotation": "こう"
+        },
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        }
+      ],
+      "rank": 629
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "purchase",
+        "buying"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aankoop",
+        "koop",
+        "aanschaf",
+        "kopen",
+        "aankopen",
+        "aanschaffen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "achat",
+        "acquisition",
+        "emplette"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einkauf",
+        "Ankauf",
+        "Anschaffung",
+        "kaufen",
+        "anschaffen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszerzés",
+        "vétel",
+        "üzlet"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "покупка; закупка",
+        "{～する} покупать, приобретать; закупать"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kupiti",
+        "nakup"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compra",
+        "adquisición"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "inhandla"
+      ]
+    }
+  ]
+}

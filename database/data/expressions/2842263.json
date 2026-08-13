@@ -1,0 +1,51 @@
+{
+  "id": "2842263",
+  "readings": [
+    {
+      "kanaExpression": "おじかん",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お時間",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "時",
+          "annotation": "じ"
+        },
+        {
+          "text": "間",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "御時間",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "時",
+          "annotation": "じ"
+        },
+        {
+          "text": "間",
+          "annotation": "かん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(your) time"
+      ]
+    }
+  ]
+}

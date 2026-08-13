@@ -1,0 +1,84 @@
+{
+  "id": "1629910",
+  "readings": [
+    {
+      "kanaExpression": "きさらぎ",
+      "rank": 37160
+    },
+    {
+      "kanaExpression": "じょげつ"
+    },
+    {
+      "kanaExpression": "きぬさらぎ"
+    },
+    {
+      "kanjiExpression": "如月",
+      "furiganaExpression": [
+        {
+          "text": "如月",
+          "annotation": "きさらぎ"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "衣更着",
+      "furiganaExpression": [
+        {
+          "text": "衣",
+          "annotation": "きぬ"
+        },
+        {
+          "text": "更",
+          "annotation": "さら"
+        },
+        {
+          "text": "着",
+          "annotation": "ぎ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "更衣",
+      "furiganaExpression": [
+        {
+          "text": "更衣",
+          "annotation": "きさらぎ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "second month of the lunar calendar"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "tweede maand van de Japanse kalender"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hornung",
+        "zweiter Monat (nach dem Mondkalender)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "второй месяц [по лунному календарю]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "segundo mes del calendario lunar"
+      ]
+    }
+  ]
+}

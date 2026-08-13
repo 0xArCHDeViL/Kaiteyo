@@ -1,0 +1,67 @@
+{
+  "id": "1533170",
+  "readings": [
+    {
+      "kanaExpression": "めんざい",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "免罪",
+      "furiganaExpression": [
+        {
+          "text": "免",
+          "annotation": "めん"
+        },
+        {
+          "text": "罪",
+          "annotation": "ざい"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "acquittal",
+        "indulgence",
+        "remission of sin",
+        "pardon"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "vrijspraak",
+        "kwijtschelding",
+        "{r.-k.} aflaat"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "begnadigen",
+        "Ablass gewähren",
+        "Begnadigung",
+        "Straferlass",
+        "Sündenvergebung",
+        "Ablass"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felmentő ítélet",
+        "bocsánat",
+        "bűnbocsánat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(юр.) оправдание; (рел.) отпущение грехов"
+      ]
+    }
+  ]
+}

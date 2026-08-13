@@ -1,0 +1,44 @@
+{
+  "id": "1500510",
+  "readings": [
+    {
+      "kanaExpression": "ふくしょ",
+      "rank": 34500
+    },
+    {
+      "kanjiExpression": "副署",
+      "furiganaExpression": [
+        {
+          "text": "副",
+          "annotation": "ふく"
+        },
+        {
+          "text": "署",
+          "annotation": "しょ"
+        }
+      ],
+      "rank": 34500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "countersignature"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gegenzeichnung (eines vom Tennō unterschriebenen Dokuments durch einen Staatsminister nach der Meiji-Verfassung)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вторая подпись; контрассигнация; вяза",
+        "{～する} ставить вторую подпись; расписываться на обороте (документа)"
+      ]
+    }
+  ]
+}

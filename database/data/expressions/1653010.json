@@ -1,0 +1,52 @@
+{
+  "id": "1653010",
+  "readings": [
+    {
+      "kanaExpression": "とうちょう",
+      "rank": 34000
+    },
+    {
+      "kanjiExpression": "頭頂",
+      "furiganaExpression": [
+        {
+          "text": "頭",
+          "annotation": "とう"
+        },
+        {
+          "text": "頂",
+          "annotation": "ちょう"
+        }
+      ],
+      "rank": 34000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "top of the head",
+        "vertex",
+        "parietal"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Scheitel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fejbúb",
+        "zenit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "темя"
+      ]
+    }
+  ]
+}

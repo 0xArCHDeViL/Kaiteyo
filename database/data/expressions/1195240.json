@@ -1,0 +1,98 @@
+{
+  "id": "1195240",
+  "readings": [
+    {
+      "kanaExpression": "なす",
+      "rank": 1355
+    },
+    {
+      "kanaExpression": "なすび"
+    },
+    {
+      "kanaExpression": "ナス",
+      "rank": 11275
+    },
+    {
+      "kanaExpression": "ナスビ"
+    },
+    {
+      "kanjiExpression": "茄子",
+      "furiganaExpression": [
+        {
+          "text": "茄子",
+          "annotation": "なす"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "茄",
+      "furiganaExpression": [
+        {
+          "text": "茄",
+          "annotation": "なす"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "eggplant (Solanum melongena)",
+        "aubergine"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} aubergine",
+        "{w.g.} eierplant",
+        "melanzaan",
+        "Solanum melongena",
+        "aubergine",
+        "eiervrucht",
+        "melanzaanappel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "aubergine"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Aubergine",
+        "Eierfrucht",
+        "Solanum melongena"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "padlizsán"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "баклажан"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "jajčevec",
+        "melancana"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "berenjena (Solanum melongena)"
+      ]
+    }
+  ]
+}

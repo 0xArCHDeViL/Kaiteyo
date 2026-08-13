@@ -1,0 +1,89 @@
+{
+  "id": "1213760",
+  "readings": [
+    {
+      "kanaExpression": "かんり",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "監理",
+      "furiganaExpression": [
+        {
+          "text": "監",
+          "annotation": "かん"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        }
+      ],
+      "rank": 13981
+    },
+    {
+      "kanjiExpression": "幹理",
+      "furiganaExpression": [
+        {
+          "text": "幹",
+          "annotation": "かん"
+        },
+        {
+          "text": "理",
+          "annotation": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "superintendence",
+        "supervision",
+        "administration"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "superviseren",
+        "toezien",
+        "toezicht",
+        "opzicht houden",
+        "controleren",
+        "supervisie",
+        "controle"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "überwachen",
+        "Aufsicht haben",
+        "kontrollieren",
+        "Oberaufsicht",
+        "Kontrolle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "felügyelet"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "dirección",
+        "control",
+        "gerencia"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "överinseende",
+        "kontroll"
+      ]
+    }
+  ]
+}

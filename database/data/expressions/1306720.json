@@ -1,0 +1,68 @@
+{
+  "id": "1306720",
+  "readings": [
+    {
+      "kanaExpression": "しれいかん",
+      "rank": 16500
+    },
+    {
+      "kanjiExpression": "司令官",
+      "furiganaExpression": [
+        {
+          "text": "司",
+          "annotation": "し"
+        },
+        {
+          "text": "令",
+          "annotation": "れい"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 16500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "commandant",
+        "commanding officer",
+        "general"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} bevelvoerende officier",
+        "bevelvoerder",
+        "bevelhebber",
+        "commandant",
+        "leider",
+        "aanvoerder"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Befehlshaber",
+        "Kommandant",
+        "Kommandeur"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "általános"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "командующий; начальник; комендант (напр. крепости)"
+      ]
+    }
+  ]
+}

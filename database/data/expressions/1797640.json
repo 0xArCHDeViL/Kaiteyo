@@ -1,0 +1,66 @@
+{
+  "id": "1797640",
+  "readings": [
+    {
+      "kanaExpression": "ながあめ",
+      "rank": 24000
+    },
+    {
+      "kanaExpression": "ながめ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "長雨",
+      "furiganaExpression": [
+        {
+          "text": "長",
+          "annotation": "なが"
+        },
+        {
+          "text": "雨",
+          "annotation": "あめ"
+        }
+      ],
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "霖",
+      "furiganaExpression": [
+        {
+          "text": "霖",
+          "annotation": "ながあめ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "long spell of rain"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "lang anhaltender Regen",
+        "Dauerregen",
+        "Landregen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продолжительный (затяжной) дождь; длительный период дождей",
+        "(см.) ながあめ"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lluvia de larga duración",
+        "lluvia que se prolonga durante varios días"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "1474040",
+  "readings": [
+    {
+      "kanaExpression": "ばいてん",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "売店",
+      "furiganaExpression": [
+        {
+          "text": "売",
+          "annotation": "ばい"
+        },
+        {
+          "text": "店",
+          "annotation": "てん"
+        }
+      ],
+      "rank": 12156
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "stand",
+        "stall",
+        "booth",
+        "kiosk",
+        "store"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kraam",
+        "kraampje",
+        "stalletje",
+        "kiosk"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "échoppe",
+        "kiosque",
+        "stand"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verkaufsstand",
+        "Kiosk",
+        "Bude"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "állomás",
+        "dobogó",
+        "leállás",
+        "lelátó",
+        "taxiállomás",
+        "tribün"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "киоск, ларёк, палатка"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "trgovina",
+        "stojnica"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "tienda",
+        "negocio"
+      ]
+    }
+  ]
+}

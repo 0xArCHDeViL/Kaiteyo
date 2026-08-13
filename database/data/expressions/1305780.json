@@ -1,0 +1,90 @@
+{
+  "id": "1305780",
+  "readings": [
+    {
+      "kanaExpression": "つかいなれる",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "使い慣れる",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "慣",
+          "annotation": "な"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "使いなれる",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "いなれる"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "使い馴れる",
+      "furiganaExpression": [
+        {
+          "text": "使",
+          "annotation": "つか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "馴",
+          "annotation": "な"
+        },
+        {
+          "text": "れる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to get accustomed to using"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "door gebruik wennen aan",
+        "gewoon",
+        "gewend raken te gebruiken"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "sich im Gebrauch einarbeiten",
+        "sich an den Gebrauch von etw. gewöhnen",
+        "lange benutzen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "привыкать пользоваться"
+      ]
+    }
+  ]
+}

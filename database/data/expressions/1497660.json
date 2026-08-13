@@ -1,0 +1,58 @@
+{
+  "id": "1497660",
+  "readings": [
+    {
+      "kanaExpression": "ふし",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "父子",
+      "furiganaExpression": [
+        {
+          "text": "父",
+          "annotation": "ふ"
+        },
+        {
+          "text": "子",
+          "annotation": "し"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "father and child",
+        "father and son",
+        "father and daughter"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "père et fils"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vater und Kind",
+        "Vater und Sohn"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) отец и сын (дочь)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "padre e hijo"
+      ]
+    }
+  ]
+}

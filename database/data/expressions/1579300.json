@@ -1,0 +1,77 @@
+{
+  "id": "1579300",
+  "readings": [
+    {
+      "kanaExpression": "さけ",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "しゃけ"
+    },
+    {
+      "kanaExpression": "サケ",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "シャケ"
+    },
+    {
+      "kanjiExpression": "鮭",
+      "furiganaExpression": [
+        {
+          "text": "鮭",
+          "annotation": "さけ"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "salmon (Salmonidae spp.)",
+        "chum salmon (Oncorhynchus keta)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{dierk.} zalm",
+        "Salmo salar"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lachs",
+        "Oncorhynchus keta"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "lazac"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "кета, Oncorhynchus keta (Wallbaum.)",
+        "(см.) さけ【鮭】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "salmón"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "blanklax"
+      ]
+    }
+  ]
+}

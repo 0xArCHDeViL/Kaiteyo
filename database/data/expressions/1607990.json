@@ -1,0 +1,131 @@
+{
+  "id": "1607990",
+  "readings": [
+    {
+      "kanaExpression": "うつしだす",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "映し出す",
+      "furiganaExpression": [
+        {
+          "text": "映",
+          "annotation": "うつ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "rank": 9313
+    },
+    {
+      "kanjiExpression": "写し出す",
+      "furiganaExpression": [
+        {
+          "text": "写",
+          "annotation": "うつ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "映しだす",
+      "furiganaExpression": [
+        {
+          "text": "映",
+          "annotation": "うつ"
+        },
+        {
+          "text": "しだす"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "写しだす",
+      "furiganaExpression": [
+        {
+          "text": "写",
+          "annotation": "うつ"
+        },
+        {
+          "text": "しだす"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "うつし出す",
+      "furiganaExpression": [
+        {
+          "text": "うつし"
+        },
+        {
+          "text": "出",
+          "annotation": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to project",
+        "to show (on a screen)",
+        "to reflect (of a mirror, lake, etc.)",
+        "to portray",
+        "to depict",
+        "to describe",
+        "to reflect (the times, mood, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "zeigen",
+        "sehen lassen",
+        "widerspiegeln"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "tükröz",
+        "visszaver",
+        "visszaverődik",
+        "megmutat",
+        "igazol",
+        "kilő",
+        "kinyúlik",
+        "kirepít",
+        "kitervez",
+        "vetít"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "proyectar",
+        "aparecer a imagen"
+      ]
+    }
+  ]
+}

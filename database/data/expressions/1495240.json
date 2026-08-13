@@ -1,0 +1,68 @@
+{
+  "id": "1495240",
+  "readings": [
+    {
+      "kanaExpression": "ふりこう",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "不履行",
+      "furiganaExpression": [
+        {
+          "text": "不",
+          "annotation": "ふ"
+        },
+        {
+          "text": "履",
+          "annotation": "り"
+        },
+        {
+          "text": "行",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 28500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "default",
+        "nonperformance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{jur.} niet-nakoming",
+        "het niet nakomen",
+        "verzuim",
+        "gebrek",
+        "het in gebreke blijven",
+        "{Lat.} mora"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Nichterfüllung",
+        "Nichtbeachtung",
+        "Nichtbefolgung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "nem teljesítés",
+        "teljesítés elmaradása"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "невыполнение"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "1659020",
+  "readings": [
+    {
+      "kanaExpression": "しゅすい",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "取水",
+      "furiganaExpression": [
+        {
+          "text": "取",
+          "annotation": "しゅ"
+        },
+        {
+          "text": "水",
+          "annotation": "すい"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "drawing water from river or lake",
+        "water intake"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "waterwinning",
+        "watervang",
+        "water winnen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wassereinlass",
+        "Wasserentnahme",
+        "Wasser entnehmen",
+        "Wasser einlassen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "забор воды"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "1288010",
+  "readings": [
+    {
+      "kanaExpression": "こくど",
+      "rank": 18000
+    },
+    {
+      "kanaExpression": "くろつち",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "黒土",
+      "furiganaExpression": [
+        {
+          "text": "黒",
+          "annotation": "こく"
+        },
+        {
+          "text": "土",
+          "annotation": "ど"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "black terracotta",
+        "black soil"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwarze Erde",
+        "fruchtbare Erde mit hohem Humusanteil",
+        "Schwarzerde",
+        "Tschernosem",
+        "Tschernosjom"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чернозём"
+      ]
+    }
+  ]
+}

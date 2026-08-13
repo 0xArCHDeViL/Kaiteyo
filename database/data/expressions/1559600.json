@@ -1,0 +1,99 @@
+{
+  "id": "1559600",
+  "readings": [
+    {
+      "kanaExpression": "れんそう",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "連想",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "れん"
+        },
+        {
+          "text": "想",
+          "annotation": "そう"
+        }
+      ],
+      "rank": 6615
+    },
+    {
+      "kanjiExpression": "聯想",
+      "furiganaExpression": [
+        {
+          "text": "聯",
+          "annotation": "れん"
+        },
+        {
+          "text": "想",
+          "annotation": "そう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "association (of ideas)",
+        "being reminded (of something)",
+        "suggestion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "associatie (van ideeën)",
+        "gedachtenassociatie",
+        "associëren",
+        "doen denken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "association d\u0027idées"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Assoziation",
+        "Verbindung",
+        "Gedankenverbindung",
+        "Ideenverbindung",
+        "assoziieren",
+        "erinnern",
+        "verbinden"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyesülés",
+        "szövetség",
+        "javaslat"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ассоциация [идей]",
+        "{～で} по ассоциации",
+        "{～する} ассоциироваться] (с чем-л.); напоминать [собой]; вызывать в памяти (что-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "asociación de ideas",
+        "relacion de conceptos",
+        "(~suru) atar cabos",
+        "asociar ideas",
+        "relacionar conceptos"
+      ]
+    }
+  ]
+}

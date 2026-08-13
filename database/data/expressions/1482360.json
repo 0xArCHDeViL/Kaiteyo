@@ -1,0 +1,83 @@
+{
+  "id": "1482360",
+  "readings": [
+    {
+      "kanaExpression": "ばんち",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "番地",
+      "furiganaExpression": [
+        {
+          "text": "番",
+          "annotation": "ばん"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 13536
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "house number",
+        "address"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "perceelnummer",
+        "benummerde woonkern",
+        "{oneig.} huisnummer",
+        "{oneig.} adres"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "adresse",
+        "numéro de rue"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hausnummer",
+        "Straßennummer",
+        "Grundstücksnummer",
+        "Parzellennummer",
+        "Adresse"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "beszéd"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "номер дома"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "hišna številka",
+        "naslov"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "calle y número (dirección)"
+      ]
+    }
+  ]
+}

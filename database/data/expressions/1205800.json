@@ -1,0 +1,104 @@
+{
+  "id": "1205800",
+  "readings": [
+    {
+      "kanaExpression": "かっこ",
+      "rank": 11656
+    },
+    {
+      "kanjiExpression": "確固",
+      "furiganaExpression": [
+        {
+          "text": "確",
+          "annotation": "かっ"
+        },
+        {
+          "text": "固",
+          "annotation": "こ"
+        }
+      ],
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "確乎",
+      "furiganaExpression": [
+        {
+          "text": "確",
+          "annotation": "かっ"
+        },
+        {
+          "text": "乎",
+          "annotation": "こ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "firm",
+        "unshakeable",
+        "resolute"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "zeker",
+        "vast",
+        "stevig",
+        "hecht",
+        "onwankelbaar",
+        "resoluut",
+        "onwrikbaar",
+        "standvastig",
+        "{veroud.} standvast"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Standhaftigkeit",
+        "Entschiedenheit",
+        "Entschlossenheit",
+        "fest",
+        "standhaft",
+        "entschlossen",
+        "unbewegt",
+        "entschieden",
+        "unerschütterlich",
+        "unentwegt"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "biztos",
+        "erős",
+        "határozott",
+        "határozottan",
+        "kemény",
+        "szilárd",
+        "szilárdan",
+        "eltökélt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        ": {～たる} твёрдый (о решимости, убеждении и т. п.)",
+        "{～として} твёрдо, крепко"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "firme",
+        "sólido",
+        "resuelto",
+        "decidido"
+      ]
+    }
+  ]
+}

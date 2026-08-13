@@ -1,0 +1,109 @@
+{
+  "id": "1263960",
+  "readings": [
+    {
+      "kanaExpression": "いいまわし",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "言い回し",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "い"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 12657
+    },
+    {
+      "kanjiExpression": "言回し",
+      "furiganaExpression": [
+        {
+          "text": "言",
+          "annotation": "いい"
+        },
+        {
+          "text": "回",
+          "annotation": "まわ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "expression",
+        "phraseology"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uitdrukking",
+        "zegswijze",
+        "dictie",
+        "bewoording",
+        "manier van spreken",
+        "spreekwijze",
+        "verwoording",
+        "formulering",
+        "frase",
+        "gezegde"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cliché",
+        "expression",
+        "formule"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausdruck",
+        "Formulierung",
+        "Redewendung",
+        "Ausdrucksweise",
+        "Diktion",
+        "Wortwahl"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szóhasználat",
+        "kifejezésmód"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "манера выражаться; оборот [речи]"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "forma de expresarse",
+        "dicción",
+        "expresión"
+      ]
+    }
+  ]
+}

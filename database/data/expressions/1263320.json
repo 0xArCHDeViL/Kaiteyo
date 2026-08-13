@@ -1,0 +1,60 @@
+{
+  "id": "1263320",
+  "readings": [
+    {
+      "kanaExpression": "げんぽう",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "減俸",
+      "furiganaExpression": [
+        {
+          "text": "減",
+          "annotation": "げん"
+        },
+        {
+          "text": "俸",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "salary reduction",
+        "salary cut"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "salarisverlaging",
+        "loonsverlaging",
+        "salarisvermindering"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "réduction de salaire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gehaltskürzung",
+        "Kürzung des Gehaltes",
+        "das Gehalt kürzen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "уменьшение жалованья"
+      ]
+    }
+  ]
+}

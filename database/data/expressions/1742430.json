@@ -1,0 +1,58 @@
+{
+  "id": "1742430",
+  "readings": [
+    {
+      "kanaExpression": "ちょうとうは",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "超党派",
+      "furiganaExpression": [
+        {
+          "text": "超",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "党",
+          "annotation": "とう"
+        },
+        {
+          "text": "派",
+          "annotation": "は"
+        }
+      ],
+      "rank": 20500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "suprapartisan",
+        "multiparty",
+        "bipartisan",
+        "nonpartisan"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bovenpartijdig",
+        "niet-partijgebonden"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Überparteilichkeit",
+        "überparteiisch"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "надпартийность"
+      ]
+    }
+  ]
+}

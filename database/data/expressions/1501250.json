@@ -1,0 +1,84 @@
+{
+  "id": "1501250",
+  "readings": [
+    {
+      "kanaExpression": "ふくぶ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "腹部",
+      "furiganaExpression": [
+        {
+          "text": "腹",
+          "annotation": "ふく"
+        },
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "abdomen"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "buik-",
+        "abdominaal",
+        "m.b.t. de buik",
+        "{dierk.} m.b.t. het achterlijf",
+        "ventraal",
+        "buikstreek",
+        "abdominale streek",
+        "buik",
+        "abdomen",
+        "{dierk.} achterlijf"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "abdominal",
+        "Bauch…",
+        "Venter",
+        "Bauch",
+        "Abdomen",
+        "Abdominalregion",
+        "Bauchregion",
+        "Regio abdominalis",
+        "Pars abdominalis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "potroh"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(анат.) брюшная часть, живот"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "abdomen"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "abdomen"
+      ]
+    }
+  ]
+}

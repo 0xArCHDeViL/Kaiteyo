@@ -1,0 +1,96 @@
+{
+  "id": "1226390",
+  "readings": [
+    {
+      "kanaExpression": "きつえん",
+      "rank": 18500
+    },
+    {
+      "kanjiExpression": "喫煙",
+      "furiganaExpression": [
+        {
+          "text": "喫",
+          "annotation": "きつ"
+        },
+        {
+          "text": "煙",
+          "annotation": "えん"
+        }
+      ],
+      "rank": 4789
+    },
+    {
+      "kanjiExpression": "喫烟",
+      "furiganaExpression": [
+        {
+          "text": "喫",
+          "annotation": "きつ"
+        },
+        {
+          "text": "烟",
+          "annotation": "えん"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "smoking (tobacco)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "(tabak) roken",
+        "het roken"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "\"fumeur\" (lieu)",
+        "action de fumer"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "rauchen",
+        "Rauchen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "füstölő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "курение",
+        "{～する} курить"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kajenje"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fumar"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "rökning"
+      ]
+    }
+  ]
+}

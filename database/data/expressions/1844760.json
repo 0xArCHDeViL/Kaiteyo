@@ -1,0 +1,49 @@
+{
+  "id": "1844760",
+  "readings": [
+    {
+      "kanaExpression": "はやみち",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "早道",
+      "furiganaExpression": [
+        {
+          "text": "早",
+          "annotation": "はや"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shortcut"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Abkürzung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "rövidebb út"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(прям. и перен.) кратчайший путь"
+      ]
+    }
+  ]
+}

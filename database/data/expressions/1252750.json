@@ -1,0 +1,51 @@
+{
+  "id": "1252750",
+  "readings": [
+    {
+      "kanaExpression": "けいしょう",
+      "rank": 29500
+    },
+    {
+      "kanjiExpression": "軽症",
+      "furiganaExpression": [
+        {
+          "text": "軽",
+          "annotation": "けい"
+        },
+        {
+          "text": "症",
+          "annotation": "しょう"
+        }
+      ],
+      "rank": 29500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "minor illness"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{geneesk.} lichte ziekte",
+        "aandoening",
+        "milde vorm"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leichte Krankheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лёгкое заболевание (недомогание); лёгкая форма болезни"
+      ]
+    }
+  ]
+}

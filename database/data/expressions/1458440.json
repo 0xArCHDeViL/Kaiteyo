@@ -1,0 +1,63 @@
+{
+  "id": "1458440",
+  "readings": [
+    {
+      "kanaExpression": "ないしゅっけつ",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "内出血",
+      "furiganaExpression": [
+        {
+          "text": "内",
+          "annotation": "ない"
+        },
+        {
+          "text": "出",
+          "annotation": "しゅっ"
+        },
+        {
+          "text": "血",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "internal bleeding",
+        "internal haemorrhage",
+        "internal hemorrhage"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "hémorragie interne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "innerlich bluten",
+        "innere Blutung",
+        "interne Hämorrhagie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "внутреннее кровоизлияние"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "hemorragia interna"
+      ]
+    }
+  ]
+}

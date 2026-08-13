@@ -1,0 +1,83 @@
+{
+  "id": "1576550",
+  "readings": [
+    {
+      "kanaExpression": "えきびょう",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "やくびょう"
+    },
+    {
+      "kanjiExpression": "疫病",
+      "furiganaExpression": [
+        {
+          "text": "疫",
+          "annotation": "えき"
+        },
+        {
+          "text": "病",
+          "annotation": "びょう"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "epidemic",
+        "plague",
+        "pestilence"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "plaag",
+        "pestilentie",
+        "pest",
+        "volksziekte",
+        "epidemie",
+        "epidemische ziekte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "épidémie",
+        "maladie infectieuse"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Epidemie",
+        "Seuche",
+        "epidemische Krankheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "pestis"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "эпидемия",
+        "(см.) えきびょう"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "epidemia",
+        "enfermedad contagiosa",
+        "peste"
+      ]
+    }
+  ]
+}

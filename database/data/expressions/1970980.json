@@ -1,0 +1,77 @@
+{
+  "id": "1970980",
+  "readings": [
+    {
+      "kanaExpression": "いにんとうち",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "委任統治",
+      "furiganaExpression": [
+        {
+          "text": "委",
+          "annotation": "い"
+        },
+        {
+          "text": "任",
+          "annotation": "にん"
+        },
+        {
+          "text": "統",
+          "annotation": "とう"
+        },
+        {
+          "text": "治",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mandate"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{gesch.} mandaatsbestuur",
+        "mandaat (vanwege de Volkenbond)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mandat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mandátum",
+        "meghagyás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "мандат, мандатное управление"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "mandato"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "uppdrag"
+      ]
+    }
+  ]
+}

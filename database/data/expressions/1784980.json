@@ -1,0 +1,44 @@
+{
+  "id": "1784980",
+  "readings": [
+    {
+      "kanaExpression": "せいとう",
+      "rank": 36000
+    },
+    {
+      "kanjiExpression": "製陶",
+      "furiganaExpression": [
+        {
+          "text": "製",
+          "annotation": "せい"
+        },
+        {
+          "text": "陶",
+          "annotation": "とう"
+        }
+      ],
+      "rank": 36000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "porcelain manufacturing"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Keramikherstellung",
+        "Porzellanherstellung"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "производство фарфора и фаянса"
+      ]
+    }
+  ]
+}

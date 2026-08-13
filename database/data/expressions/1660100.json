@@ -1,0 +1,97 @@
+{
+  "id": "1660100",
+  "readings": [
+    {
+      "kanaExpression": "おひる",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "お昼",
+      "furiganaExpression": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "昼",
+          "annotation": "ひる"
+        }
+      ],
+      "rank": 4300
+    },
+    {
+      "kanjiExpression": "御昼",
+      "furiganaExpression": [
+        {
+          "text": "御",
+          "annotation": "お"
+        },
+        {
+          "text": "昼",
+          "annotation": "ひる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lunch",
+        "noon",
+        "midday",
+        "daytime",
+        "waking up",
+        "getting up",
+        "rising"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "het ontwaken",
+        "het wakker worden",
+        "het uit de slaap bijkomen {honorifieke term (sonkeigo 尊敬語)}",
+        "dag",
+        "daglicht {honorifieke term (sonkeigo 尊敬語)}",
+        "middag",
+        "noen",
+        "het midden van de dag {honorifieke term (sonkeigo 尊敬語)}",
+        "middagmaal",
+        "middageten",
+        "lunch {honorifieke term (sonkeigo 尊敬語)}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "déjeuner",
+        "midi"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Mittagessen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "dél"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "poldne",
+        "dan"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "a medio día"
+      ]
+    }
+  ]
+}

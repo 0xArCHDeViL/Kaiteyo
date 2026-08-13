@@ -1,0 +1,85 @@
+{
+  "id": "1263060",
+  "readings": [
+    {
+      "kanaExpression": "げんがっき",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "弦楽器",
+      "furiganaExpression": [
+        {
+          "text": "弦",
+          "annotation": "げん"
+        },
+        {
+          "text": "楽",
+          "annotation": "がっ"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "絃楽器",
+      "furiganaExpression": [
+        {
+          "text": "絃",
+          "annotation": "げん"
+        },
+        {
+          "text": "楽",
+          "annotation": "がっ"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "string instrument",
+        "stringed instrument"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{muz.} snaarinstrument"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "instruments à cordes"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Saiteninstrument",
+        "Chordophon"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "струнный музыкальный инструмент",
+        "струнные инструменты"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "instrumentos de cuerda"
+      ]
+    }
+  ]
+}

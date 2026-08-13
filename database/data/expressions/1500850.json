@@ -1,0 +1,49 @@
+{
+  "id": "1500850",
+  "readings": [
+    {
+      "kanaExpression": "ふくしょく",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "復職",
+      "furiganaExpression": [
+        {
+          "text": "復",
+          "annotation": "ふく"
+        },
+        {
+          "text": "職",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reinstatement",
+        "reappointment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wiedereinsetzung",
+        "Wiedereinstellung",
+        "wiedereinsetzen",
+        "wiedereinstellen",
+        "reaktivieren"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "восстановление в должности",
+        "{～する} быть восстановленным [в должности]; возвращаться на [прежнюю] работу"
+      ]
+    }
+  ]
+}

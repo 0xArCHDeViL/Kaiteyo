@@ -1,0 +1,81 @@
+{
+  "id": "1742260",
+  "readings": [
+    {
+      "kanaExpression": "てりかえし",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "照り返し",
+      "furiganaExpression": [
+        {
+          "text": "照",
+          "annotation": "て"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "返",
+          "annotation": "かえ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "照りかえし",
+      "furiganaExpression": [
+        {
+          "text": "照",
+          "annotation": "て"
+        },
+        {
+          "text": "りかえし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "reflection",
+        "reflected light",
+        "reflected heat",
+        "glare"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Reflektion",
+        "Rückstrahlen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "visszatükrözés",
+        "visszatükröződés",
+        "visszavert fény",
+        "visszavert hő"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) отражённый свет",
+        "2) рефлектор"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "avglans"
+      ]
+    }
+  ]
+}

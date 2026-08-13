@@ -1,0 +1,50 @@
+{
+  "id": "1348450",
+  "readings": [
+    {
+      "kanaExpression": "こゆき",
+      "rank": 35500
+    },
+    {
+      "kanjiExpression": "小雪",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "こ"
+        },
+        {
+          "text": "雪",
+          "annotation": "ゆき"
+        }
+      ],
+      "rank": 35500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "light snow"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Koyuki",
+        "leichter Schneefall"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "небольшой снег, снежок"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "lös snö"
+      ]
+    }
+  ]
+}

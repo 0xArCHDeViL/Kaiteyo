@@ -1,0 +1,106 @@
+{
+  "id": "1594620",
+  "readings": [
+    {
+      "kanaExpression": "しめつけ",
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "締め付け",
+      "furiganaExpression": [
+        {
+          "text": "締",
+          "annotation": "し"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "け"
+        }
+      ],
+      "rank": 25000
+    },
+    {
+      "kanjiExpression": "締めつけ",
+      "furiganaExpression": [
+        {
+          "text": "締",
+          "annotation": "し"
+        },
+        {
+          "text": "めつけ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "締付け",
+      "furiganaExpression": [
+        {
+          "text": "締",
+          "annotation": "しめ"
+        },
+        {
+          "text": "付",
+          "annotation": "つ"
+        },
+        {
+          "text": "け"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "締付",
+      "furiganaExpression": [
+        {
+          "text": "締",
+          "annotation": "しめ"
+        },
+        {
+          "text": "付",
+          "annotation": "つけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "pressure",
+        "clamping",
+        "tightening",
+        "fastening"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Festschrauben",
+        "Festklemmen",
+        "festes Anziehen",
+        "scharfes Vorgehen",
+        "rigoroses Durchgreifen",
+        "Druck",
+        "Zwang"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "odaerősítés",
+        "rögzítés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(стр.) обвязка, обшивка; связь"
+      ]
+    }
+  ]
+}

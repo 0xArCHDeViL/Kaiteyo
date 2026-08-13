@@ -1,0 +1,46 @@
+{
+  "id": "2101020",
+  "readings": [
+    {
+      "kanaExpression": "あるいみでは",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "ある意味では",
+      "furiganaExpression": [
+        {
+          "text": "ある"
+        },
+        {
+          "text": "意",
+          "annotation": "い"
+        },
+        {
+          "text": "味",
+          "annotation": "み"
+        },
+        {
+          "text": "では"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "in a sense",
+        "in some way",
+        "to an extent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "in gewissem Sinne",
+        "gewissermaßen"
+      ]
+    }
+  ]
+}

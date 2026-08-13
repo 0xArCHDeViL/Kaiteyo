@@ -1,0 +1,89 @@
+{
+  "id": "1266320",
+  "readings": [
+    {
+      "kanaExpression": "よびこむ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "呼び込む",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "呼びこむ",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よ"
+        },
+        {
+          "text": "びこむ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "呼込む",
+      "furiganaExpression": [
+        {
+          "text": "呼",
+          "annotation": "よび"
+        },
+        {
+          "text": "込",
+          "annotation": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to call in",
+        "to invite",
+        "to bring in"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "hereinrufen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "bekér",
+        "bekéret",
+        "beszólít",
+        "elhív",
+        "lakásra hív"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(см.) よびいれる"
+      ]
+    }
+  ]
+}

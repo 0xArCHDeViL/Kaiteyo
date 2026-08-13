@@ -1,0 +1,60 @@
+{
+  "id": "1386680",
+  "readings": [
+    {
+      "kanaExpression": "ゆきみち",
+      "rank": 30500
+    },
+    {
+      "kanaExpression": "ゆきじ"
+    },
+    {
+      "kanjiExpression": "雪道",
+      "furiganaExpression": [
+        {
+          "text": "雪",
+          "annotation": "ゆき"
+        },
+        {
+          "text": "道",
+          "annotation": "みち"
+        }
+      ],
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "雪路",
+      "furiganaExpression": [
+        {
+          "text": "雪",
+          "annotation": "ゆき"
+        },
+        {
+          "text": "路",
+          "annotation": "みち"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "snow-covered road"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verschneiter Weg",
+        "schneebedeckte Straße"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "заснеженная дорога"
+      ]
+    }
+  ]
+}

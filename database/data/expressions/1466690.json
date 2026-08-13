@@ -1,0 +1,86 @@
+{
+  "id": "1466690",
+  "readings": [
+    {
+      "kanaExpression": "つゆいり",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "にゅうばい",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "ついり"
+    },
+    {
+      "kanjiExpression": "梅雨入り",
+      "furiganaExpression": [
+        {
+          "text": "梅雨",
+          "annotation": "つゆ"
+        },
+        {
+          "text": "入",
+          "annotation": "い"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "入梅",
+      "furiganaExpression": [
+        {
+          "text": "入",
+          "annotation": "にゅう"
+        },
+        {
+          "text": "梅",
+          "annotation": "ばい"
+        }
+      ],
+      "rank": 23508
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "entering the rainy season",
+        "beginning of the rainy season"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "entrer dans la saison des pluies"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anfang der Regenzeit",
+        "Regenzeit",
+        "Beginn der Regenzeit (um den 11. Juni)",
+        "Regenzeit (in Ostjapan in dieser Bed. verwendet)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) сезон дождей",
+        "2) день начала сезона дождей (около 10 июня)",
+        "начало дождливого сезона (в конце мая), начало июньских дождей"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "inicio de la estación de lluvias",
+        "comienzo de la estación de lluvias"
+      ]
+    }
+  ]
+}

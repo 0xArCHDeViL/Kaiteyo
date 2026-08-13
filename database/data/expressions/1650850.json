@@ -1,0 +1,50 @@
+{
+  "id": "1650850",
+  "readings": [
+    {
+      "kanaExpression": "しらかべ",
+      "rank": 32500
+    },
+    {
+      "kanaExpression": "はくへき"
+    },
+    {
+      "kanjiExpression": "白壁",
+      "furiganaExpression": [
+        {
+          "text": "白",
+          "annotation": "しら"
+        },
+        {
+          "text": "壁",
+          "annotation": "かべ"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "white plaster wall",
+        "tofu",
+        "bean curd"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "weiße Wand",
+        "weißgetünchte Wand"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) белая (побелённая) стена",
+        "белая стена"
+      ]
+    }
+  ]
+}

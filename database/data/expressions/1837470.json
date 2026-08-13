@@ -1,0 +1,52 @@
+{
+  "id": "1837470",
+  "readings": [
+    {
+      "kanaExpression": "まえだおし",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "前倒し",
+      "furiganaExpression": [
+        {
+          "text": "前",
+          "annotation": "まえ"
+        },
+        {
+          "text": "倒",
+          "annotation": "だお"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "moving forward (e.g. plans)",
+        "acceleration (e.g. of payment schedule)",
+        "front-loading"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "(Ausgaben oder Profite) nach vorne ziehen",
+        "Vorziehen",
+        "Nach-vorne-Ziehen (von Ausgaben oder Profiten)",
+        "Nach-vorne-Fallen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "meggyorsítás",
+        "előbbre hozás"
+      ]
+    }
+  ]
+}

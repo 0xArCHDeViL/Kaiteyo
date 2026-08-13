@@ -1,0 +1,81 @@
+{
+  "id": "1152620",
+  "readings": [
+    {
+      "kanaExpression": "わるふざけ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "悪ふざけ",
+      "furiganaExpression": [
+        {
+          "text": "悪",
+          "annotation": "わる"
+        },
+        {
+          "text": "ふざけ"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "悪巫山戯",
+      "furiganaExpression": [
+        {
+          "text": "悪",
+          "annotation": "わる"
+        },
+        {
+          "text": "巫山戯",
+          "annotation": "ふざけ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "prank",
+        "practical joke",
+        "horseplay",
+        "mischievous trick"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schabernack treiben",
+        "jmdm. übel mitspielen",
+        "Schabernack",
+        "Eulenspiegelei",
+        "übler Streich",
+        "Unfug"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csíny",
+        "kópéság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "скверная проделка"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "jugarreta",
+        "traesura",
+        "broma pesada",
+        "juego duro",
+        "truco malicioso",
+        "travesura"
+      ]
+    }
+  ]
+}

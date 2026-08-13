@@ -1,0 +1,69 @@
+{
+  "id": "1827980",
+  "readings": [
+    {
+      "kanaExpression": "ふくせん",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "複線",
+      "furiganaExpression": [
+        {
+          "text": "複",
+          "annotation": "ふく"
+        },
+        {
+          "text": "線",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "double track",
+        "two-track line"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{spoorw.} dubbelspoor",
+        "twee sporen",
+        "parallels",
+        "evenwijdige lijnen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Doppelgleis",
+        "mehrere Gleise"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kettős vágány",
+        "kettős vágányú vasútvonal"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "двойная линия (колея); двухколейная железная дорога",
+        "{～の} двухколейный",
+        "{～にする} проводить вторую колею"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "dubbelspår"
+      ]
+    }
+  ]
+}

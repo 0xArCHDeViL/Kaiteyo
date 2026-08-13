@@ -1,0 +1,93 @@
+{
+  "id": "1591500",
+  "readings": [
+    {
+      "kanaExpression": "きゅうり",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "きうり"
+    },
+    {
+      "kanaExpression": "キュウリ"
+    },
+    {
+      "kanaExpression": "キウリ"
+    },
+    {
+      "kanjiExpression": "胡瓜",
+      "furiganaExpression": [
+        {
+          "text": "胡瓜",
+          "annotation": "きゅうり"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "黄瓜",
+      "furiganaExpression": [
+        {
+          "text": "黄瓜",
+          "annotation": "きゅうり"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "cucumber (Cucumis sativus)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{plantk.} komkommer",
+        "komkommerplant",
+        "Cucumis sativus"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "concombre",
+        "cornichon"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gurke",
+        "Salatgurke",
+        "Cucumis sativus"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "uborka"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "огурец",
+        "огурец, Cucumis sativus (L.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "kumara 【胡瓜】"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "pepino"
+      ]
+    }
+  ]
+}

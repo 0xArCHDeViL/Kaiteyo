@@ -1,0 +1,70 @@
+{
+  "id": "1638130",
+  "readings": [
+    {
+      "kanaExpression": "めんか",
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "綿花",
+      "furiganaExpression": [
+        {
+          "text": "綿",
+          "annotation": "めん"
+        },
+        {
+          "text": "花",
+          "annotation": "か"
+        }
+      ],
+      "rank": 28500
+    },
+    {
+      "kanjiExpression": "棉花",
+      "furiganaExpression": [
+        {
+          "text": "棉",
+          "annotation": "めん"
+        },
+        {
+          "text": "花",
+          "annotation": "か"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "raw cotton",
+        "cotton wool"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ruwe katoen",
+        "(vette) watten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rohbaumwolle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "vatta"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "хлопок[-сырец]"
+      ]
+    }
+  ]
+}

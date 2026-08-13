@@ -1,0 +1,36 @@
+{
+  "id": "1550670",
+  "readings": [
+    {
+      "kanaExpression": "うらめん",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "裏面",
+      "furiganaExpression": [
+        {
+          "text": "裏",
+          "annotation": "うら"
+        },
+        {
+          "text": "面",
+          "annotation": "めん"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "back (side)",
+        "reverse",
+        "B side (of a record)",
+        "secret levels",
+        "hidden levels",
+        "post-game content"
+      ]
+    }
+  ]
+}

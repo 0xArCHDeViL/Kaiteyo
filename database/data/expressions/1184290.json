@@ -1,0 +1,47 @@
+{
+  "id": "1184290",
+  "readings": [
+    {
+      "kanaExpression": "くだし",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "下し",
+      "furiganaExpression": [
+        {
+          "text": "下",
+          "annotation": "くだ"
+        },
+        {
+          "text": "し"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "evacuation",
+        "purgation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiürítés",
+        "tisztítás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слабительное",
+        "очищение желудка",
+        "1) очищение желудка; стул",
+        "2) слабительное"
+      ]
+    }
+  ]
+}

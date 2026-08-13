@@ -1,0 +1,53 @@
+{
+  "id": "1553460",
+  "readings": [
+    {
+      "kanaExpression": "りょうがん",
+      "rank": 17929
+    },
+    {
+      "kanaExpression": "りょうぎし"
+    },
+    {
+      "kanjiExpression": "両岸",
+      "furiganaExpression": [
+        {
+          "text": "両",
+          "annotation": "りょう"
+        },
+        {
+          "text": "岸",
+          "annotation": "がん"
+        }
+      ],
+      "rank": 25000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "both banks (of a river)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "beide oevers",
+        "beide kusten"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "beide Ufer"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оба берега, берега"
+      ]
+    }
+  ]
+}

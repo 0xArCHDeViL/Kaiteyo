@@ -1,0 +1,81 @@
+{
+  "id": "1956200",
+  "readings": [
+    {
+      "kanaExpression": "けつ",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "欠",
+      "furiganaExpression": [
+        {
+          "text": "欠",
+          "annotation": "けつ"
+        }
+      ],
+      "rank": 13892
+    },
+    {
+      "kanjiExpression": "缺",
+      "furiganaExpression": [
+        {
+          "text": "缺",
+          "annotation": "けつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "lack",
+        "deficiency",
+        "vacancy",
+        "absence",
+        "non-attendance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "gebrek",
+        "tekort",
+        "absentie",
+        "afwezigheid",
+        "no-show",
+        "(a) missen",
+        "ontbreken",
+        "schorten",
+        "(b) absentie",
+        "lege",
+        "opengevallen plaats"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Fehlen",
+        "Mangel",
+        "freie Stelle"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hiány",
+        "elégtelenség",
+        "hiányosság",
+        "tökéletlenség",
+        "üresség",
+        "valami hiánya"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(связ.:) 欠を補う (кн.) заполнять пробел"
+      ]
+    }
+  ]
+}

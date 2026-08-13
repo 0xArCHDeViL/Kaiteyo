@@ -1,0 +1,50 @@
+{
+  "id": "1548730",
+  "readings": [
+    {
+      "kanaExpression": "らくごか",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "落語家",
+      "furiganaExpression": [
+        {
+          "text": "落",
+          "annotation": "らく"
+        },
+        {
+          "text": "語",
+          "annotation": "ご"
+        },
+        {
+          "text": "家",
+          "annotation": "か"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "rakugo story teller",
+        "comic story teller"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Rakugo-Geschichtenerzähler",
+        "Rakugoerzähler",
+        "traditioneller japanischer Komiker"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "чтец-рассказчик (артист, сочиняющий и читающий ракуго)"
+      ]
+    }
+  ]
+}

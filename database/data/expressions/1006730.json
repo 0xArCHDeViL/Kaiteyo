@@ -1,0 +1,95 @@
+{
+  "id": "1006730",
+  "readings": [
+    {
+      "kanaExpression": "そして",
+      "rank": 145
+    },
+    {
+      "kanaExpression": "しかして"
+    },
+    {
+      "kanjiExpression": "而して",
+      "furiganaExpression": [
+        {
+          "text": "而",
+          "annotation": "そ"
+        },
+        {
+          "text": "して"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "然して",
+      "furiganaExpression": [
+        {
+          "text": "然",
+          "annotation": "そ"
+        },
+        {
+          "text": "して"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "and",
+        "and then",
+        "thus",
+        "and now",
+        "and finally"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "ensuite",
+        "et",
+        "puis"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "und",
+        "dann"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "és",
+        "ha",
+        "meg",
+        "mintha"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "и",
+        "затем"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "y",
+        "y entonces",
+        "así",
+        "de esta manera",
+        "y ahora"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "och"
+      ]
+    }
+  ]
+}

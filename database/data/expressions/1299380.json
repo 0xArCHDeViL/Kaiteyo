@@ -1,0 +1,39 @@
+{
+  "id": "1299380",
+  "readings": [
+    {
+      "kanaExpression": "ざっきん",
+      "rank": 31500
+    },
+    {
+      "kanjiExpression": "雑菌",
+      "furiganaExpression": [
+        {
+          "text": "雑",
+          "annotation": "ざっ"
+        },
+        {
+          "text": "菌",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 31500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "microorganisms",
+        "saprophyte",
+        "saprophytic bacteria"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "diverse Bakterien"
+      ]
+    }
+  ]
+}

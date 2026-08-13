@@ -1,0 +1,50 @@
+{
+  "id": "1234410",
+  "readings": [
+    {
+      "kanaExpression": "きょうさい",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "共済",
+      "furiganaExpression": [
+        {
+          "text": "共",
+          "annotation": "きょう"
+        },
+        {
+          "text": "済",
+          "annotation": "さい"
+        }
+      ],
+      "rank": 7743
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mutual aid"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "gegenseitige Unterstützung",
+        "gegenseitige Hilfe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "взаимопомощь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "ayuda mutua"
+      ]
+    }
+  ]
+}

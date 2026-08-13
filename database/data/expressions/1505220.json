@@ -1,0 +1,79 @@
+{
+  "id": "1505220",
+  "readings": [
+    {
+      "kanaExpression": "ぶんがくしゃ",
+      "rank": 22500
+    },
+    {
+      "kanjiExpression": "文学者",
+      "furiganaExpression": [
+        {
+          "text": "文",
+          "annotation": "ぶん"
+        },
+        {
+          "text": "学",
+          "annotation": "がく"
+        },
+        {
+          "text": "者",
+          "annotation": "しゃ"
+        }
+      ],
+      "rank": 22500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "scholar of literature",
+        "literary person",
+        "man of letters",
+        "writer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "literator",
+        "letterkundige",
+        "letterkunstenaar",
+        "schrijver",
+        "literatuurkenner",
+        "literatuurwetenschapper",
+        "{verzameln.} literati"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "homme (ou femme) de lettres",
+        "un littéraire"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Literaturwissenschaftler",
+        "Literat",
+        "Literaturkritiker",
+        "Schriftsteller"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "литератор"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "escritor",
+        "hombre de letras"
+      ]
+    }
+  ]
+}

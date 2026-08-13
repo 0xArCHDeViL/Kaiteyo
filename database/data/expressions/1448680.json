@@ -1,0 +1,64 @@
+{
+  "id": "1448680",
+  "readings": [
+    {
+      "kanaExpression": "ゆわかしき",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "湯沸かし器",
+      "furiganaExpression": [
+        {
+          "text": "湯",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "沸",
+          "annotation": "わ"
+        },
+        {
+          "text": "かし"
+        },
+        {
+          "text": "器",
+          "annotation": "き"
+        }
+      ],
+      "rank": 17929
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "water heater",
+        "water boiler"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "ketel",
+        "kookapparaat",
+        "waterketel",
+        "waterkoker",
+        "schenkketel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chaudière",
+        "chauffe-eau"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Wasserkessel",
+        "Boiler",
+        "Heißwasserbereiter"
+      ]
+    }
+  ]
+}

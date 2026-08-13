@@ -1,0 +1,77 @@
+{
+  "id": "1559780",
+  "readings": [
+    {
+      "kanaExpression": "れんぽう",
+      "rank": 15500
+    },
+    {
+      "kanjiExpression": "連峰",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "れん"
+        },
+        {
+          "text": "峰",
+          "annotation": "ぽう"
+        }
+      ],
+      "rank": 25500
+    },
+    {
+      "kanjiExpression": "連峯",
+      "furiganaExpression": [
+        {
+          "text": "連",
+          "annotation": "れん"
+        },
+        {
+          "text": "峯",
+          "annotation": "ぽう"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "mountain range"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "bergketen",
+        "keten van bergen",
+        "bergformatie",
+        "gebergte"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "chaîne de montagne"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gebirgskette"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hegylánc"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ряд горных вершин; горная цепь"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "1009600",
+  "readings": [
+    {
+      "kanaExpression": "にとって",
+      "rank": 343
+    },
+    {
+      "kanjiExpression": "に取って",
+      "furiganaExpression": [
+        {
+          "text": "に"
+        },
+        {
+          "text": "取",
+          "annotation": "と"
+        },
+        {
+          "text": "って"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to",
+        "for",
+        "from the standpoint of",
+        "as far as ... is concerned"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "voor …",
+        "voor wat … betreft",
+        "voor wat … aangaat"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "-ba",
+        "-be",
+        "-hez",
+        "-hoz",
+        "-höz",
+        "-ig",
+        "-nak",
+        "-nek",
+        "-ni",
+        "-ra",
+        "-re",
+        "felé",
+        "irányában"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "Respecto a",
+        "para"
+      ]
+    }
+  ]
+}

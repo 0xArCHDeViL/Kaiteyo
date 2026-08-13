@@ -1,0 +1,85 @@
+{
+  "id": "1850030",
+  "readings": [
+    {
+      "kanaExpression": "さしせまる",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "差し迫る",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "迫",
+          "annotation": "せま"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "さし迫る",
+      "furiganaExpression": [
+        {
+          "text": "さし"
+        },
+        {
+          "text": "迫",
+          "annotation": "せま"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "差迫る",
+      "furiganaExpression": [
+        {
+          "text": "差",
+          "annotation": "さし"
+        },
+        {
+          "text": "迫",
+          "annotation": "せま"
+        },
+        {
+          "text": "る"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be imminent",
+        "to be impending",
+        "to be pressing",
+        "to be urgent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "bevorstehen",
+        "herannahen",
+        "drohen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приближаться вплотную, надвигаться"
+      ]
+    }
+  ]
+}

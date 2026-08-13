@@ -1,0 +1,63 @@
+{
+  "id": "1307430",
+  "readings": [
+    {
+      "kanaExpression": "しかん",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "士官",
+      "furiganaExpression": [
+        {
+          "text": "士",
+          "annotation": "し"
+        },
+        {
+          "text": "官",
+          "annotation": "かん"
+        }
+      ],
+      "rank": 23000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "officer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{mil.} officier"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Offizier"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "katonatiszt",
+        "köztisztviselő",
+        "tiszt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(воен.) младший офицер; (мор.) офицер"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "oficial (del ejército o de la policía)"
+      ]
+    }
+  ]
+}

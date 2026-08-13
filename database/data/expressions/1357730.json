@@ -1,0 +1,100 @@
+{
+  "id": "1357730",
+  "readings": [
+    {
+      "kanaExpression": "いろずり",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "色刷り",
+      "furiganaExpression": [
+        {
+          "text": "色",
+          "annotation": "いろ"
+        },
+        {
+          "text": "刷",
+          "annotation": "ず"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "色刷",
+      "furiganaExpression": [
+        {
+          "text": "色",
+          "annotation": "いろ"
+        },
+        {
+          "text": "刷",
+          "annotation": "ずり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "色摺",
+      "furiganaExpression": [
+        {
+          "text": "色",
+          "annotation": "いろ"
+        },
+        {
+          "text": "摺",
+          "annotation": "ずり"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "色摺り",
+      "furiganaExpression": [
+        {
+          "text": "色",
+          "annotation": "いろ"
+        },
+        {
+          "text": "摺",
+          "annotation": "ず"
+        },
+        {
+          "text": "り"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "colour printing",
+        "color printing"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "kleurendruk",
+        "kleurenafdruk",
+        "kleurprent"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Farbdruck"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) цветная (многокрасочная) печать",
+        "{～にする} печатать в красках",
+        "2) цветная иллюстрация",
+        "{～の} цветной (об иллюстрации и т. п.)"
+      ]
+    }
+  ]
+}

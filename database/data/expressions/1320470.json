@@ -1,0 +1,72 @@
+{
+  "id": "1320470",
+  "readings": [
+    {
+      "kanaExpression": "しっち",
+      "rank": 19500
+    },
+    {
+      "kanjiExpression": "湿地",
+      "furiganaExpression": [
+        {
+          "text": "湿",
+          "annotation": "しっ"
+        },
+        {
+          "text": "地",
+          "annotation": "ち"
+        }
+      ],
+      "rank": 19500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "damp ground",
+        "wetland",
+        "bog",
+        "marsh"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "moeras",
+        "dras",
+        "drasland",
+        "zomp",
+        "{gew.} somp",
+        "± slat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "marécage",
+        "marécageux"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Sumpf",
+        "sumpfiger Boden",
+        "feuchter Boden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "сырая (болотистая, топкая) местность, болото, топь"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "humedal"
+      ]
+    }
+  ]
+}

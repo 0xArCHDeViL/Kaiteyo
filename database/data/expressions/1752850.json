@@ -1,0 +1,88 @@
+{
+  "id": "1752850",
+  "readings": [
+    {
+      "kanaExpression": "かいあげ",
+      "rank": 23000
+    },
+    {
+      "kanjiExpression": "買い上げ",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ],
+      "rank": 13219
+    },
+    {
+      "kanjiExpression": "買上げ",
+      "furiganaExpression": [
+        {
+          "text": "買",
+          "annotation": "かい"
+        },
+        {
+          "text": "上",
+          "annotation": "あ"
+        },
+        {
+          "text": "げ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "buying",
+        "purchasing",
+        "procurement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "aankoop",
+        "aankoping",
+        "inkoop",
+        "aanschaf",
+        "aanschaffing",
+        "{hon.} {お～} uw aankoop"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ankauf",
+        "Einkauf",
+        "Beschaffung",
+        "Anschaffung"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "compra",
+        "adquisición"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "upphandling"
+      ]
+    }
+  ]
+}

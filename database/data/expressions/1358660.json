@@ -1,0 +1,93 @@
+{
+  "id": "1358660",
+  "readings": [
+    {
+      "kanaExpression": "しょくよく",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "食欲",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "欲",
+          "annotation": "よく"
+        }
+      ],
+      "rank": 7134
+    },
+    {
+      "kanjiExpression": "食慾",
+      "furiganaExpression": [
+        {
+          "text": "食",
+          "annotation": "しょく"
+        },
+        {
+          "text": "慾",
+          "annotation": "よく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "appetite (for food)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eetlust",
+        "appetijt",
+        "trek",
+        "honger",
+        "{Barg.",
+        "volkst.} doei"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "appétit (pour la nourriture)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Appetit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "étvágy",
+        "kedv"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "аппетит"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "tek",
+        "apetit"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "apetito (por la comida)"
+      ]
+    }
+  ]
+}

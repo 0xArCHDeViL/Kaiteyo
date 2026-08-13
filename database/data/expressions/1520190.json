@@ -1,0 +1,143 @@
+{
+  "id": "1520190",
+  "readings": [
+    {
+      "kanaExpression": "ふせぐ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "防ぐ",
+      "furiganaExpression": [
+        {
+          "text": "防",
+          "annotation": "ふせ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ],
+      "rank": 3306
+    },
+    {
+      "kanjiExpression": "禦ぐ",
+      "furiganaExpression": [
+        {
+          "text": "禦",
+          "annotation": "ふせ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "拒ぐ",
+      "furiganaExpression": [
+        {
+          "text": "拒",
+          "annotation": "ふせ"
+        },
+        {
+          "text": "ぐ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to defend against",
+        "to protect against",
+        "to prevent",
+        "to avert",
+        "to avoid"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "afweren",
+        "weren",
+        "afhouden",
+        "weghouden",
+        "buitensluiten",
+        "buitenlaten",
+        "afwenden",
+        "afschutten",
+        "afschermen",
+        "pareren",
+        "(zich) verdedigen tegen",
+        "(zich) verweren tegen",
+        "(zich) beschermen tegen",
+        "(zich) beschutten tegen",
+        "vermijden",
+        "voorkomen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "défendre",
+        "garantir",
+        "préserver",
+        "prévenir (un danger)",
+        "protéger"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "verteidigen",
+        "abwehren",
+        "schützen vor",
+        "verhüten",
+        "vorbeugen",
+        "widerstehen",
+        "sich widersetzen",
+        "abhalten",
+        "verhindern",
+        "hemmen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "megvéd tőle",
+        "kivédi",
+        "elszigeteli",
+        "megóv",
+        "megvéd",
+        "oltalmaz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "оборонять",
+        "обороняться",
+        "предотвращать",
+        "1) обороняться (от кого-чего-л.)",
+        "2) предохраняться (от чего-л.); предупреждать, предотвращать (что-л.); не допускать (чего-л.)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "preprečiti"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "protegerse",
+        "defenderse",
+        "impedir",
+        "prevenir",
+        "repeler",
+        "rechazar",
+        "alejar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "1626940",
+  "readings": [
+    {
+      "kanaExpression": "ひるい",
+      "rank": 32500
+    },
+    {
+      "kanjiExpression": "比類",
+      "furiganaExpression": [
+        {
+          "text": "比",
+          "annotation": "ひ"
+        },
+        {
+          "text": "類",
+          "annotation": "るい"
+        }
+      ],
+      "rank": 32500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "parallel",
+        "equal",
+        "match"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Vergleichbares",
+        "Ebenbürtiges"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "hasonló",
+        "hasonlóság",
+        "megfelelő",
+        "párhuzamos",
+        "párja vminek",
+        "pari"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) сравнение, параллель",
+        "{～のない} несравненный, не имеющий себе равного"
+      ]
+    }
+  ]
+}

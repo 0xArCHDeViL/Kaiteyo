@@ -1,0 +1,69 @@
+{
+  "id": "1695020",
+  "readings": [
+    {
+      "kanaExpression": "ゆあつ",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "油圧",
+      "furiganaExpression": [
+        {
+          "text": "油",
+          "annotation": "ゆ"
+        },
+        {
+          "text": "圧",
+          "annotation": "あつ"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "oil pressure",
+        "hydraulics"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "oliedruk"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Öldruck",
+        "Hydraulik"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "gyakorlati áramlástan",
+        "hidraulika",
+        "vízerőtan",
+        "vízműtan",
+        "olajnyomásos",
+        "hidraulikus"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "давление масла",
+        "{～計} указатель давления масла"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "presión de aceite"
+      ]
+    }
+  ]
+}

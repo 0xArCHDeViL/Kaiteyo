@@ -1,0 +1,139 @@
+{
+  "id": "1506000",
+  "readings": [
+    {
+      "kanaExpression": "しかしながら",
+      "rank": 2569
+    },
+    {
+      "kanjiExpression": "然しながら",
+      "furiganaExpression": [
+        {
+          "text": "然",
+          "annotation": "しか"
+        },
+        {
+          "text": "しながら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "併しながら",
+      "furiganaExpression": [
+        {
+          "text": "併",
+          "annotation": "しか"
+        },
+        {
+          "text": "しながら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "然し乍ら",
+      "furiganaExpression": [
+        {
+          "text": "然",
+          "annotation": "しか"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "乍",
+          "annotation": "なが"
+        },
+        {
+          "text": "ら"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "併し乍ら",
+      "furiganaExpression": [
+        {
+          "text": "併",
+          "annotation": "しか"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "乍",
+          "annotation": "なが"
+        },
+        {
+          "text": "ら"
+        }
+      ],
+      "rank": 32039
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "however",
+        "nevertheless"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "maar",
+        "doch",
+        "{arch.",
+        "iron.} edoch",
+        "echter",
+        "evenwel",
+        "toch",
+        "nochtans",
+        "niettemin",
+        "desondanks"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "cependant",
+        "mais",
+        "néanmoins",
+        "pourtant",
+        "toutefois"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "trotzdem",
+        "aber"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "azonban",
+        "bármennyire",
+        "mégis",
+        "mindamellett",
+        "annak ellenére",
+        "mindazonáltal"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "toda",
+        "vendar",
+        "kljub temu"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "no obstante",
+        "sin embargo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1243570",
+  "readings": [
+    {
+      "kanaExpression": "ぎんぱい",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "銀杯",
+      "furiganaExpression": [
+        {
+          "text": "銀",
+          "annotation": "ぎん"
+        },
+        {
+          "text": "杯",
+          "annotation": "ぱい"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "銀盃",
+      "furiganaExpression": [
+        {
+          "text": "銀",
+          "annotation": "ぎん"
+        },
+        {
+          "text": "盃",
+          "annotation": "ぱい"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "silver cup"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "coupe en argent",
+        "timbale"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Silberbecher",
+        "silberner Becher",
+        "versilberter Becher"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "серебряная чаша (чашечка); серебряный кубок"
+      ]
+    }
+  ]
+}

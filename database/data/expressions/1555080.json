@@ -1,0 +1,49 @@
+{
+  "id": "1555080",
+  "readings": [
+    {
+      "kanaExpression": "りきせん",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "力戦",
+      "furiganaExpression": [
+        {
+          "text": "力",
+          "annotation": "りき"
+        },
+        {
+          "text": "戦",
+          "annotation": "せん"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "hard fighting"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "unentwegt kämpfen",
+        "hart kämpfen",
+        "unerbittlich kämpfen",
+        "harter Kampf",
+        "unerbittlicher Kampf",
+        "unentwegter Kampf"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "тяжёлый бой",
+        "{～する} яростно сражаться (биться)"
+      ]
+    }
+  ]
+}

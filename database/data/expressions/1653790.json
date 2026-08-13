@@ -1,0 +1,61 @@
+{
+  "id": "1653790",
+  "readings": [
+    {
+      "kanaExpression": "そんらく",
+      "rank": 30500
+    },
+    {
+      "kanjiExpression": "村落",
+      "furiganaExpression": [
+        {
+          "text": "村",
+          "annotation": "そん"
+        },
+        {
+          "text": "落",
+          "annotation": "らく"
+        }
+      ],
+      "rank": 30500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "village",
+        "hamlet",
+        "settlement"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "dorp",
+        "gehucht"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dorf",
+        "Siedlung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "egyezség",
+        "talajsüllyedés",
+        "település"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "деревня, село"
+      ]
+    }
+  ]
+}

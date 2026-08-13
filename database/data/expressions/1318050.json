@@ -1,0 +1,53 @@
+{
+  "id": "1318050",
+  "readings": [
+    {
+      "kanaExpression": "じせつ",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "自説",
+      "furiganaExpression": [
+        {
+          "text": "自",
+          "annotation": "じ"
+        },
+        {
+          "text": "説",
+          "annotation": "せつ"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "one\u0027s personal opinion"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "eigen mening"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "eigene Ansicht",
+        "Behauptung",
+        "Einstellung",
+        "Überzeugung",
+        "Standpunkt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "своё мнение, своя точка зрения"
+      ]
+    }
+  ]
+}

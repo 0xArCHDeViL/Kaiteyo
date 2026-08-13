@@ -1,0 +1,103 @@
+{
+  "id": "1410660",
+  "readings": [
+    {
+      "kanaExpression": "なまける",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "怠ける",
+      "furiganaExpression": [
+        {
+          "text": "怠",
+          "annotation": "なま"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "懶ける",
+      "furiganaExpression": [
+        {
+          "text": "懶",
+          "annotation": "なま"
+        },
+        {
+          "text": "ける"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to be lazy",
+        "to be idle",
+        "to slack",
+        "to neglect (e.g. one\u0027s work)",
+        "to be neglectful of",
+        "to skip (e.g. school)"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "verzuimen",
+        "wegblijven van",
+        "veronachtzamen",
+        "verwaarlozen",
+        "negligeren",
+        "laten sloffen",
+        "de hand lichten met",
+        "lui zijn (in)",
+        "verluieren"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "négliger (par ex. son travail)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "faul sein",
+        "faulenzen",
+        "müßig sein",
+        "nichts tun",
+        "schwänzen",
+        "vernachlässigen",
+        "versäumen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "elhanyagol",
+        "figyelmen kívül hagy",
+        "nem vesz figyelembe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "лениться, лентяйничать; небрежно относиться (к чему-л.)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "descuidar",
+        "holgazanear",
+        "haraganear",
+        "desatender",
+        "escaquearse"
+      ]
+    }
+  ]
+}

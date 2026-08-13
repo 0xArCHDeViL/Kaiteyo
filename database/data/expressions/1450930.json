@@ -1,0 +1,61 @@
+{
+  "id": "1450930",
+  "readings": [
+    {
+      "kanaExpression": "とうぶ",
+      "rank": 20500
+    },
+    {
+      "kanjiExpression": "頭部",
+      "furiganaExpression": [
+        {
+          "text": "頭",
+          "annotation": "とう"
+        },
+        {
+          "text": "部",
+          "annotation": "ぶ"
+        }
+      ],
+      "rank": 11341
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "head"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Kopf",
+        "Kopfteil",
+        "Cranium",
+        "Schädel",
+        "Scheitel (des Vogelkopfes)"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(анат.) голова"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cabeza",
+        "cráneo",
+        "cefálico"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "huvud"
+      ]
+    }
+  ]
+}

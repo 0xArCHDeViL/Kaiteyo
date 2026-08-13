@@ -1,0 +1,46 @@
+{
+  "id": "1731010",
+  "readings": [
+    {
+      "kanaExpression": "ねんまつちょうせい",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "年末調整",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "末",
+          "annotation": "まつ"
+        },
+        {
+          "text": "調",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "整",
+          "annotation": "せい"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "year-end tax adjustment"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Steuerausgleich am Jahresende",
+        "Gehaltsverrechnung am Jahresende"
+      ]
+    }
+  ]
+}

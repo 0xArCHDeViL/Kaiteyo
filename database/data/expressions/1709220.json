@@ -1,0 +1,55 @@
+{
+  "id": "1709220",
+  "readings": [
+    {
+      "kanaExpression": "すうじゅう",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "数十",
+      "furiganaExpression": [
+        {
+          "text": "数",
+          "annotation": "すう"
+        },
+        {
+          "text": "十",
+          "annotation": "じゅう"
+        }
+      ],
+      "rank": 16317
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "dozens",
+        "scores of",
+        "decades"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Dutzende von …",
+        "Dutzende",
+        "zig"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "несколько десятков"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "docenas",
+        "puntuaciones de",
+        "décadas"
+      ]
+    }
+  ]
+}

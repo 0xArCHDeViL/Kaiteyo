@@ -1,0 +1,73 @@
+{
+  "id": "1283740",
+  "readings": [
+    {
+      "kanaExpression": "たかだい",
+      "rank": 24000
+    },
+    {
+      "kanjiExpression": "高台",
+      "furiganaExpression": [
+        {
+          "text": "高",
+          "annotation": "たか"
+        },
+        {
+          "text": "台",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 24000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "high ground",
+        "elevation",
+        "hill",
+        "plateau"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoogte",
+        "verhevenheid",
+        "heuvel",
+        "hoogland",
+        "plateau"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "élévation",
+        "hauteur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Anhöhe",
+        "Erhöhung",
+        "Hügel"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "fennköltség",
+        "magaslat",
+        "magasztosság"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "возвышенность, холм"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1320010",
+  "readings": [
+    {
+      "kanaExpression": "しっしょく",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "失職",
+      "furiganaExpression": [
+        {
+          "text": "失",
+          "annotation": "しっ"
+        },
+        {
+          "text": "職",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "losing one\u0027s job"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Verlust des Arbeitsplatzes",
+        "Arbeitslosigkeit",
+        "arbeitslos werden",
+        "seinen Arbeitsplatz verlieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "munkanélküliség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "безработица, потеря работы",
+        "{～する} потерять работу"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "desempleo"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "arbetslöshet"
+      ]
+    }
+  ]
+}

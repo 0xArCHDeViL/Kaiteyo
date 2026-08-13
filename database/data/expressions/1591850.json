@@ -1,0 +1,70 @@
+{
+  "id": "1591850",
+  "readings": [
+    {
+      "kanaExpression": "きりぬき",
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "切り抜き",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "抜",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "き"
+        }
+      ],
+      "rank": 26500
+    },
+    {
+      "kanjiExpression": "切抜き",
+      "furiganaExpression": [
+        {
+          "text": "切",
+          "annotation": "きり"
+        },
+        {
+          "text": "抜",
+          "annotation": "ぬ"
+        },
+        {
+          "text": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "clipping (of newspaper article, etc.)",
+        "cutting",
+        "scrap (for a scrapbook)",
+        "cut-out (picture, coloured paper, etc.)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ausschnitt",
+        "Zeitungsausschnitt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) вырезка (из газеты и т. п.)",
+        "2) цитата, выдержка, извлечение (из книги и т. п.)"
+      ]
+    }
+  ]
+}

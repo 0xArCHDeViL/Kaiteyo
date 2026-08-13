@@ -1,0 +1,63 @@
+{
+  "id": "1646710",
+  "readings": [
+    {
+      "kanaExpression": "しんぼう",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "心房",
+      "furiganaExpression": [
+        {
+          "text": "心",
+          "annotation": "しん"
+        },
+        {
+          "text": "房",
+          "annotation": "ぼう"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "atrium"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{anat.} hartboezem",
+        "boezem",
+        "atrium"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Herzvorhof",
+        "Vorhof",
+        "Vorkammer (des Herzens)",
+        "Atrium cordis"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "átrium",
+        "négyszögletes oszlopcsarnokos udvar",
+        "négyzet alakú hall",
+        "szívpitvar"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(анат.) предсердие"
+      ]
+    }
+  ]
+}

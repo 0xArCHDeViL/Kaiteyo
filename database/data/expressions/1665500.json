@@ -1,0 +1,87 @@
+{
+  "id": "1665500",
+  "readings": [
+    {
+      "kanaExpression": "まきあみ",
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "まき網",
+      "furiganaExpression": [
+        {
+          "text": "まき"
+        },
+        {
+          "text": "網",
+          "annotation": "あみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "巻き網",
+      "furiganaExpression": [
+        {
+          "text": "巻",
+          "annotation": "ま"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "網",
+          "annotation": "あみ"
+        }
+      ],
+      "rank": 35000
+    },
+    {
+      "kanjiExpression": "巻網",
+      "furiganaExpression": [
+        {
+          "text": "巻",
+          "annotation": "まき"
+        },
+        {
+          "text": "網",
+          "annotation": "あみ"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "旋網",
+      "furiganaExpression": [
+        {
+          "text": "旋網",
+          "annotation": "まきあみ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "purse seine",
+        "round haul net"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ringfangnetz"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "невод"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "snörpvad"
+      ]
+    }
+  ]
+}

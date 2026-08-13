@@ -1,0 +1,61 @@
+{
+  "id": "1303290",
+  "readings": [
+    {
+      "kanaExpression": "さんか",
+      "rank": 17500
+    },
+    {
+      "kanjiExpression": "惨禍",
+      "furiganaExpression": [
+        {
+          "text": "惨",
+          "annotation": "さん"
+        },
+        {
+          "text": "禍",
+          "annotation": "か"
+        }
+      ],
+      "rank": 27500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "calamity",
+        "disaster",
+        "catastrophe"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Katastrophe",
+        "Desaster",
+        "Unheil",
+        "Unglück"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csapás",
+        "szerencsétlenség"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) бедствие, ужасы, катастрофа"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "kalamitet"
+      ]
+    }
+  ]
+}

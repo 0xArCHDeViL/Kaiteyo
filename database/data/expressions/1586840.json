@@ -1,0 +1,90 @@
+{
+  "id": "1586840",
+  "readings": [
+    {
+      "kanaExpression": "ある",
+      "rank": 16
+    },
+    {
+      "kanjiExpression": "或る",
+      "furiganaExpression": [
+        {
+          "text": "或",
+          "annotation": "あ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "或",
+      "furiganaExpression": [
+        {
+          "text": "或",
+          "annotation": "ある"
+        }
+      ],
+      "rank": 9619
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "a certain ...",
+        "some ..."
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "een zekere",
+        "een of andere"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "un certain...",
+        "quelque...",
+        "tel..."
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "ein",
+        "ein gewisser"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "körülbelül"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "некий, некоторый, один"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "nek",
+        "neki"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cierto...",
+        "un...",
+        "un determinado..."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1303780",
+  "readings": [
+    {
+      "kanaExpression": "さんぎょうきかい",
+      "rank": 28000
+    },
+    {
+      "kanjiExpression": "産業機械",
+      "furiganaExpression": [
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "業",
+          "annotation": "ぎょう"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        },
+        {
+          "text": "械",
+          "annotation": "かい"
+        }
+      ],
+      "rank": 28000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "industrial machinery"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Industriemaschine"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "maquinaria industrial"
+      ]
+    }
+  ]
+}

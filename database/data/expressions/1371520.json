@@ -1,0 +1,62 @@
+{
+  "id": "1371520",
+  "readings": [
+    {
+      "kanaExpression": "すいさんぶつ",
+      "rank": 24500
+    },
+    {
+      "kanjiExpression": "水産物",
+      "furiganaExpression": [
+        {
+          "text": "水",
+          "annotation": "すい"
+        },
+        {
+          "text": "産",
+          "annotation": "さん"
+        },
+        {
+          "text": "物",
+          "annotation": "ぶつ"
+        }
+      ],
+      "rank": 24500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "marine products"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "uit de wateren gewonnen product {m.n. wieren",
+        "zoet- en zoutwatervis",
+        "schaal- en schelpdieren}"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Meeresfrüchte",
+        "Fischereiprodukt"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "продукты морского и речного промысла"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "productos marinos"
+      ]
+    }
+  ]
+}

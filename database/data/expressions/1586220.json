@@ -1,0 +1,118 @@
+{
+  "id": "1586220",
+  "readings": [
+    {
+      "kanaExpression": "あきす",
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "空き巣",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "あ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "巣",
+          "annotation": "す"
+        }
+      ],
+      "rank": 17929
+    },
+    {
+      "kanjiExpression": "空巣",
+      "furiganaExpression": [
+        {
+          "text": "空",
+          "annotation": "あき"
+        },
+        {
+          "text": "巣",
+          "annotation": "す"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "明き巣",
+      "furiganaExpression": [
+        {
+          "text": "明",
+          "annotation": "あ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "巣",
+          "annotation": "す"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "empty nest",
+        "empty house",
+        "empty home",
+        "burglary (of an empty house)",
+        "burglar (who targets empty houses)",
+        "sneak thief",
+        "prowler"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "leeg nest",
+        "huis waar de bewoners afwezig zijn",
+        "leegstaand huis",
+        "inbraak in een huis",
+        "huisbraak",
+        "{Barg.} gilletje",
+        "inbreker",
+        "insluiper"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "rôdeur"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Einbruch (während man außer Haus ist)",
+        "leeres Nest",
+        "leeres Haus",
+        "Einbrecher (der zuschlägt, wenn die Hausbewohner nicht daheim sind)"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "csavargó"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) похищение вещей из квартиры (когда никого нет дома)",
+        "2) квартирный вор, домушник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "nido vacío",
+        "casa vacía",
+        "ratero"
+      ]
+    }
+  ]
+}

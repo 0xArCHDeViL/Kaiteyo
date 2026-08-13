@@ -1,0 +1,46 @@
+{
+  "id": "1490660",
+  "readings": [
+    {
+      "kanaExpression": "しなうす",
+      "rank": 29000
+    },
+    {
+      "kanjiExpression": "品薄",
+      "furiganaExpression": [
+        {
+          "text": "品",
+          "annotation": "しな"
+        },
+        {
+          "text": "薄",
+          "annotation": "うす"
+        }
+      ],
+      "rank": 29000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "shortage of stock",
+        "scarcity of goods"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Warenmangel",
+        "Warenknappheit"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "недостаток (нехватка) товаров",
+        "{～になる} не хватать (о товаре)"
+      ]
+    }
+  ]
+}

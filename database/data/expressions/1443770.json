@@ -1,0 +1,62 @@
+{
+  "id": "1443770",
+  "readings": [
+    {
+      "kanaExpression": "でんり",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "電離",
+      "furiganaExpression": [
+        {
+          "text": "電",
+          "annotation": "でん"
+        },
+        {
+          "text": "離",
+          "annotation": "り"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ionization",
+        "ionisation",
+        "electrolytic dissociation"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{chem.} elektrolytische dissociatie",
+        "{chem.} ionisatie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ionisierung",
+        "elektrolytische Dissoziation",
+        "ionisieren"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "ionizációs kezelés",
+        "ionizálás"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(физ.) ионизация; электролитическая диссоциация",
+        "{～する} ионизировать"
+      ]
+    }
+  ]
+}

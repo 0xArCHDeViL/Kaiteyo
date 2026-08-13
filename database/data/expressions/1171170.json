@@ -1,0 +1,73 @@
+{
+  "id": "1171170",
+  "readings": [
+    {
+      "kanaExpression": "みぎあし",
+      "rank": 16317
+    },
+    {
+      "kanaExpression": "うそく"
+    },
+    {
+      "kanjiExpression": "右足",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "みぎ"
+        },
+        {
+          "text": "足",
+          "annotation": "あし"
+        }
+      ],
+      "rank": 13232
+    },
+    {
+      "kanjiExpression": "右脚",
+      "furiganaExpression": [
+        {
+          "text": "右",
+          "annotation": "みぎ"
+        },
+        {
+          "text": "脚",
+          "annotation": "あし"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "right foot",
+        "right leg"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "rechtervoet"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "der rechte Fuß",
+        "das rechte Bein"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "(кн.) правая нога"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "högerfot"
+      ]
+    }
+  ]
+}

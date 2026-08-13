@@ -1,0 +1,104 @@
+{
+  "id": "1390990",
+  "readings": [
+    {
+      "kanaExpression": "せんたくき",
+      "rank": 21500
+    },
+    {
+      "kanaExpression": "せんたっき"
+    },
+    {
+      "kanjiExpression": "洗濯機",
+      "furiganaExpression": [
+        {
+          "text": "洗",
+          "annotation": "せん"
+        },
+        {
+          "text": "濯",
+          "annotation": "たく"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ],
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "洗たく機",
+      "furiganaExpression": [
+        {
+          "text": "洗",
+          "annotation": "せん"
+        },
+        {
+          "text": "たく"
+        },
+        {
+          "text": "機",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "washing machine",
+        "(clothes) washer"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "wasmachine",
+        "wasautomaat"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "machine à laver (linge)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Waschmaschine"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "mosógép"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "стиральная машина"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pralni stroj"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "lavadora"
+      ]
+    },
+    {
+      "lang": "swe",
+      "values": [
+        "tvättmaskin"
+      ]
+    }
+  ]
+}

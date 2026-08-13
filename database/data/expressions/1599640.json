@@ -1,0 +1,105 @@
+{
+  "id": "1599640",
+  "readings": [
+    {
+      "kanaExpression": "なみき",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "並木",
+      "furiganaExpression": [
+        {
+          "text": "並",
+          "annotation": "なみ"
+        },
+        {
+          "text": "木",
+          "annotation": "き"
+        }
+      ],
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "並樹",
+      "furiganaExpression": [
+        {
+          "text": "並",
+          "annotation": "なみ"
+        },
+        {
+          "text": "樹",
+          "annotation": "き"
+        }
+      ]
+    },
+    {
+      "kanjiExpression": "並み木",
+      "furiganaExpression": [
+        {
+          "text": "並",
+          "annotation": "な"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "木",
+          "annotation": "き"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "roadside trees",
+        "row of trees"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "laanboom",
+        "bomenrij",
+        "bomenlaan"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "arbre au bord d\u0027une route",
+        "rangée d\u0027arbres"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Namiki",
+        "Baumreihe"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "ряд деревьев (вдоль улицы, дороги)",
+        "аллея",
+        "ряд деревьев (напр. вдоль пороги)"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "drevored",
+        "avenija"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "arboleda",
+        "alameda"
+      ]
+    }
+  ]
+}

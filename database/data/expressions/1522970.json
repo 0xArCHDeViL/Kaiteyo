@@ -1,0 +1,62 @@
+{
+  "id": "1522970",
+  "readings": [
+    {
+      "kanaExpression": "ほんだい",
+      "rank": 16317
+    },
+    {
+      "kanjiExpression": "本題",
+      "furiganaExpression": [
+        {
+          "text": "本",
+          "annotation": "ほん"
+        },
+        {
+          "text": "題",
+          "annotation": "だい"
+        }
+      ],
+      "rank": 9346
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "main topic",
+        "main subject",
+        "main issue",
+        "main question",
+        "this subject"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "hoofdonderwerp",
+        "hoofdprobleem",
+        "hoofdthema",
+        "grondthema",
+        "kern",
+        "essentie",
+        "onderhavig onderwerp",
+        "vraagstuk",
+        "onderhavige kwestie"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Hauptgegenstand",
+        "Hauptthema"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "главный вопрос, основная тема"
+      ]
+    }
+  ]
+}

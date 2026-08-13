@@ -1,0 +1,59 @@
+{
+  "id": "1482410",
+  "readings": [
+    {
+      "kanaExpression": "ばんめ",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "番目",
+      "furiganaExpression": [
+        {
+          "text": "番",
+          "annotation": "ばん"
+        },
+        {
+          "text": "目",
+          "annotation": "め"
+        }
+      ],
+      "rank": 2387
+    },
+    {
+      "kanjiExpression": "番め",
+      "furiganaExpression": [
+        {
+          "text": "番",
+          "annotation": "ばん"
+        },
+        {
+          "text": "め"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the nth ...",
+        "divisions of a kabuki performance"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "-de",
+        "-ste",
+        "nr. ~ {ordinaal suffix}"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "indique la position dans une séquence",
+        "divisions d\u0027un spectacle de kabuki"
+      ]
+    }
+  ]
+}

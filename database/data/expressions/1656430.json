@@ -1,0 +1,47 @@
+{
+  "id": "1656430",
+  "readings": [
+    {
+      "kanaExpression": "にちぎんけん",
+      "rank": 36500
+    },
+    {
+      "kanjiExpression": "日銀券",
+      "furiganaExpression": [
+        {
+          "text": "日",
+          "annotation": "にち"
+        },
+        {
+          "text": "銀",
+          "annotation": "ぎん"
+        },
+        {
+          "text": "券",
+          "annotation": "けん"
+        }
+      ],
+      "rank": 36500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "Japanese banknote"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schuldverschreibung der Bank von Japan"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "банкноты Японского [государственного] банка"
+      ]
+    }
+  ]
+}

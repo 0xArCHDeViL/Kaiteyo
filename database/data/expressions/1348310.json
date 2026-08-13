@@ -1,0 +1,67 @@
+{
+  "id": "1348310",
+  "readings": [
+    {
+      "kanaExpression": "しょうしょく",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "小食",
+      "furiganaExpression": [
+        {
+          "text": "小",
+          "annotation": "しょう"
+        },
+        {
+          "text": "食",
+          "annotation": "しょく"
+        }
+      ],
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "少食",
+      "furiganaExpression": [
+        {
+          "text": "少",
+          "annotation": "しょう"
+        },
+        {
+          "text": "食",
+          "annotation": "しょく"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "light eating",
+        "spare diet",
+        "not eating much"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "mäßiges Essen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) потребление малого количества пищи",
+        "{～する} есть мало",
+        "2) человек, который мало ест ((ант.) たいしょく【大食】)",
+        "лёгкая пища; немного пищи; голодная диета"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "frugalidad"
+      ]
+    }
+  ]
+}

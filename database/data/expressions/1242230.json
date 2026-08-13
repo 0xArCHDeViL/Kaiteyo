@@ -1,0 +1,107 @@
+{
+  "id": "1242230",
+  "readings": [
+    {
+      "kanaExpression": "ちかよる",
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "近寄る",
+      "furiganaExpression": [
+        {
+          "text": "近",
+          "annotation": "ちか"
+        },
+        {
+          "text": "寄",
+          "annotation": "よ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "rank": 11858
+    },
+    {
+      "kanjiExpression": "近よる",
+      "furiganaExpression": [
+        {
+          "text": "近",
+          "annotation": "ちか"
+        },
+        {
+          "text": "よる"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "to approach",
+        "to draw near"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "naderen",
+        "naderbij",
+        "dichterbij komen",
+        "benaderen",
+        "{arch.} naken",
+        "{arch.} genaken",
+        "toenadering vinden",
+        "zoeken (tot)",
+        "vertrouwd",
+        "close raken (met)",
+        "{veroud.} toenaderen"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "s\u0027approcher de quelque chose"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "herankommen",
+        "sich nähern",
+        "näher kommen",
+        "in die Nähe kommen"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "közeledik",
+        "közelít",
+        "megközelít",
+        "közelebb megy"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "приближаться, подходить"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "pristopiti",
+        "približati se"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "aproximarse",
+        "acercarse"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1395170",
+  "readings": [
+    {
+      "kanaExpression": "ぜんこう",
+      "rank": 23500
+    },
+    {
+      "kanjiExpression": "全校",
+      "furiganaExpression": [
+        {
+          "text": "全",
+          "annotation": "ぜん"
+        },
+        {
+          "text": "校",
+          "annotation": "こう"
+        }
+      ],
+      "rank": 23500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "the whole school",
+        "all the schools"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de hele school",
+        "heel de school",
+        "alle scholen"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "die ganze Schule",
+        "sämtliche Schulen",
+        "alle Schulen"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вся школа, всё училище (учебное заведение)"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "toda la escuela"
+      ]
+    }
+  ]
+}

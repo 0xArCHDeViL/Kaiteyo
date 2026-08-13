@@ -1,0 +1,93 @@
+{
+  "id": "1502550",
+  "readings": [
+    {
+      "kanaExpression": "ものごと",
+      "rank": 21500
+    },
+    {
+      "kanjiExpression": "物事",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "もの"
+        },
+        {
+          "text": "事",
+          "annotation": "ごと"
+        }
+      ],
+      "rank": 4045
+    },
+    {
+      "kanjiExpression": "物ごと",
+      "furiganaExpression": [
+        {
+          "text": "物",
+          "annotation": "もの"
+        },
+        {
+          "text": "ごと"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "things",
+        "everything"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "de dingen",
+        "de zaak"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "affaires",
+        "choses",
+        "tout"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Ding",
+        "Sache",
+        "Angelegenheit"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "minden"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дела, вещи, обстоятельства"
+      ]
+    },
+    {
+      "lang": "slv",
+      "values": [
+        "stvari",
+        "reči"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "cosas",
+        "asuntos"
+      ]
+    }
+  ]
+}

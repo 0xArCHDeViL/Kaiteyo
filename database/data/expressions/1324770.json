@@ -1,0 +1,47 @@
+{
+  "id": "1324770",
+  "readings": [
+    {
+      "kanaExpression": "じゃくし",
+      "rank": 33500
+    },
+    {
+      "kanjiExpression": "弱視",
+      "furiganaExpression": [
+        {
+          "text": "弱",
+          "annotation": "じゃく"
+        },
+        {
+          "text": "視",
+          "annotation": "し"
+        }
+      ],
+      "rank": 33500
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "amblyopia",
+        "weak sight"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "schwachsichtig",
+        "Schwachsichtigkeit",
+        "Amblyopie"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "слабое зрение",
+        "{～の} со слабым зрением"
+      ]
+    }
+  ]
+}

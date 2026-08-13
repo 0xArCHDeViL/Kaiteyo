@@ -1,0 +1,49 @@
+{
+  "id": "1195830",
+  "readings": [
+    {
+      "kanaExpression": "かちょうきん",
+      "rank": 22000
+    },
+    {
+      "kanjiExpression": "課徴金",
+      "furiganaExpression": [
+        {
+          "text": "課",
+          "annotation": "か"
+        },
+        {
+          "text": "徴",
+          "annotation": "ちょう"
+        },
+        {
+          "text": "金",
+          "annotation": "きん"
+        }
+      ],
+      "rank": 22000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "charges (i.e. fees)"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Zuschlag",
+        "Steuerzuschlag"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "kiadások",
+        "költségek"
+      ]
+    }
+  ]
+}

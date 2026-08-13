@@ -1,0 +1,52 @@
+{
+  "id": "1433110",
+  "readings": [
+    {
+      "kanaExpression": "つうき",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "通気",
+      "furiganaExpression": [
+        {
+          "text": "通",
+          "annotation": "つう"
+        },
+        {
+          "text": "気",
+          "annotation": "き"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "ventilation",
+        "airflow"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Lüftung",
+        "Ventilation"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szellőzés",
+        "szellőztetés"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "вентиляция"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1457410",
+  "readings": [
+    {
+      "kanaExpression": "とんカツ",
+      "rank": 23508
+    },
+    {
+      "kanaExpression": "とんかつ"
+    },
+    {
+      "kanaExpression": "トンカツ"
+    },
+    {
+      "kanjiExpression": "豚カツ",
+      "furiganaExpression": [
+        {
+          "text": "豚",
+          "annotation": "とん"
+        },
+        {
+          "text": "カツ"
+        }
+      ],
+      "rank": 23508
+    },
+    {
+      "kanjiExpression": "豚かつ",
+      "furiganaExpression": [
+        {
+          "text": "豚",
+          "annotation": "とん"
+        },
+        {
+          "text": "かつ"
+        }
+      ]
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "tonkatsu",
+        "breaded pork cutlet"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "{cul.} gepaneerd en gefrituurd varkensvlees",
+        "varkensvleeskroket",
+        "gefrituurde varkensschnitzel"
+      ]
+    },
+    {
+      "lang": "fre",
+      "values": [
+        "côtelette de porc"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Schweinekotelett",
+        "Schweineschnitzel"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "свиная котлета"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "chuleta de cerdo"
+      ]
+    }
+  ]
+}

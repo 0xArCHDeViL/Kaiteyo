@@ -1,0 +1,51 @@
+{
+  "id": "1650890",
+  "readings": [
+    {
+      "kanaExpression": "かぜけ"
+    },
+    {
+      "kanaExpression": "かざけ",
+      "rank": 37160
+    },
+    {
+      "kanjiExpression": "風邪気",
+      "furiganaExpression": [
+        {
+          "text": "風邪",
+          "annotation": "かぜ"
+        },
+        {
+          "text": "気",
+          "annotation": "け"
+        }
+      ],
+      "rank": 37160
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "slight cold"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "leichte Erkältung",
+        "Anflug einer Erkältung",
+        "Gefühl, dass Wind aufkommen wird"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "1) лёгкая простуда",
+        "{～である} быть немного простуженным",
+        "2) погода, обещающая ветер",
+        "(см.) かざけ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "1202820",
+  "readings": [
+    {
+      "kanaExpression": "かいそ",
+      "rank": 30000
+    },
+    {
+      "kanjiExpression": "開祖",
+      "furiganaExpression": [
+        {
+          "text": "開",
+          "annotation": "かい"
+        },
+        {
+          "text": "祖",
+          "annotation": "そ"
+        }
+      ],
+      "rank": 30000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "(sect) founder",
+        "apostle",
+        "originator",
+        "inventor"
+      ]
+    },
+    {
+      "lang": "dut",
+      "values": [
+        "grondlegger",
+        "grondvester",
+        "oprichter",
+        "stichter",
+        "geestelijke vader",
+        "initiator"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Gründer",
+        "Stifter",
+        "Urheber",
+        "Schöpfer",
+        "Initiator"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "adományozó",
+        "alapító",
+        "apostol",
+        "értelmi szerző",
+        "kezdeményező",
+        "feltaláló"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "основатель школы (течения); основатель храма (секты); (перен.) основатель, основоположник"
+      ]
+    },
+    {
+      "lang": "spa",
+      "values": [
+        "fundador"
+      ]
+    }
+  ]
+}

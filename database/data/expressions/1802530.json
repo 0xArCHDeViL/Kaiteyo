@@ -1,0 +1,52 @@
+{
+  "id": "1802530",
+  "readings": [
+    {
+      "kanaExpression": "だっしゅう",
+      "rank": 31000
+    },
+    {
+      "kanjiExpression": "脱臭",
+      "furiganaExpression": [
+        {
+          "text": "脱",
+          "annotation": "だっ"
+        },
+        {
+          "text": "臭",
+          "annotation": "しゅう"
+        }
+      ],
+      "rank": 31000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "deodorization",
+        "deodorisation"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "desodorieren",
+        "Geruchsbeseitigung",
+        "Desodorierung"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "szagtalanító"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "дезодорация, удаление запаха"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1468560",
+  "readings": [
+    {
+      "kanaExpression": "ねんげん",
+      "rank": 32000
+    },
+    {
+      "kanjiExpression": "年限",
+      "furiganaExpression": [
+        {
+          "text": "年",
+          "annotation": "ねん"
+        },
+        {
+          "text": "限",
+          "annotation": "げん"
+        }
+      ],
+      "rank": 32000
+    }
+  ],
+  "meanings": [
+    {
+      "lang": "en",
+      "values": [
+        "length of time",
+        "term"
+      ]
+    },
+    {
+      "lang": "ger",
+      "values": [
+        "Frist",
+        "Termin"
+      ]
+    },
+    {
+      "lang": "hun",
+      "values": [
+        "határnap",
+        "havibaj",
+        "menstruáció",
+        "szemeszter"
+      ]
+    },
+    {
+      "lang": "rus",
+      "values": [
+        "срок (в годах)"
+      ]
+    }
+  ]
+}
