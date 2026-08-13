@@ -23,11 +23,10 @@ open class KaiteyoActivity : AppCompatActivity() {
         enableEdgeToEdge()
         themeManager.invalidate()
         
-        // Android-only orientation contract: phones stay portrait; tablets/pads stay landscape.
-        requestedOrientation = if (resources.configuration.smallestScreenWidthDp >= 600) {
-            android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
-        } else {
-            android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+        // Phones are portrait-only. Tablets and pads intentionally remain unspecified so
+        // Android can recompose them naturally in either portrait or landscape.
+        if (resources.configuration.smallestScreenWidthDp < 600) {
+            requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         }
 
         Logger.d("intentData[${intent.dataString}]")

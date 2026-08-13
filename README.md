@@ -16,7 +16,7 @@
 
 ## About Kaiteyo
 
-Kaiteyo (書いてよ) — "write it!" in Japanese — is an Android-only application for learning Japanese. Phones use a portrait-only experience; tablets and pads use a dedicated landscape shell. Originally based on Kanji Dojo by syt0r, Kaiteyo is now independently developed with its own learning architecture, data pipeline, and feature set.
+Kaiteyo (書いてよ) — "write it!" in Japanese — is an Android-only application for learning Japanese. Phones use a portrait-only experience; tablets and pads support portrait and landscape through adaptive navigation. Originally based on Kanji Dojo by syt0r, Kaiteyo is now independently developed with its own learning architecture, data pipeline, and feature set.
 
 ### Features
 
@@ -27,7 +27,7 @@ Kaiteyo (書いてよ) — "write it!" in Japanese — is an Android-only applic
 - **Flashcards** — Study words with interactive flashcards
 - **Writing practice** — Stroke order diagrams and drawing canvas
 - **Offline-first** — Works completely offline
-- **Android tablet experience** — Dedicated landscape navigation shell for tablets and pads
+- **Android tablet experience** — Portrait and landscape navigation that adapts to available width
 - **Android phone experience** — Portrait-only interaction model optimized for touch
 - **Native delivery target** — ARM64-v8a devices running Android 12 or newer
 

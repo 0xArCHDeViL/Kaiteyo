@@ -1,6 +1,6 @@
 # Contributing to Kaiteyo Android
 
-Kaiteyo accepts changes that improve the Android application, its validated data pipeline, or the tooling required to build and release those components. The supported product is ARM64-v8a Android 12+; phones are portrait-only and tablets/pads are landscape-only.
+Kaiteyo accepts changes that improve the Android application, its validated data pipeline, or the tooling required to build and release those components. The supported product is ARM64-v8a Android 12+; phones are portrait-only and tablets/pads support portrait and landscape through adaptive layouts.
 
 ## Contribution Rules
 

@@ -1,6 +1,6 @@
 # Kaiteyo — Android Release Process
 
-Kaiteyo hanya didistribusikan sebagai aplikasi **Android ARM64-v8a** untuk perangkat **Android 12 atau lebih baru**. Phone menggunakan orientation portrait-only; tablet/pad menggunakan landscape-only shell.
+Kaiteyo hanya didistribusikan sebagai aplikasi **Android ARM64-v8a** untuk perangkat **Android 12 atau lebih baru**. Phone menggunakan orientation portrait-only; tablet/pad mendukung portrait dan landscape dengan navigasi adaptif berbasis lebar jendela.
 
 ## Versioning
 
@@ -27,7 +27,7 @@ Preview menggunakan build type `preview`, yang mewarisi seluruh optimasi `releas
 
 ### Release Candidate
 
-Release candidate dibuat setelah unit test, build release, database validation, dan device smoke test lulus. Candidate digunakan untuk QA pada phone portrait dan tablet landscape.
+Release candidate dibuat setelah unit test, build release, database validation, dan device smoke test lulus. Candidate digunakan untuk QA pada phone portrait serta tablet/pad portrait dan landscape.
 
 ### Stable Release
 
@@ -67,16 +67,16 @@ Jika device atau emulator tersedia, lanjutkan dengan:
   --no-daemon --max-workers=1
 ```
 
-Instrumentation harus mencakup minimal phone portrait, tablet landscape, Letter Practice, Vocabulary Detail, Grammar Practice, database migration, dan deep link.
+Instrumentation harus mencakup minimal phone portrait, tablet/pad portrait dan landscape, Letter Practice, Vocabulary Detail, Grammar Practice, database migration, dan deep link.
 
 ## Orientation Contract
 
 | Device class | Minimum width | Orientation | Layout contract |
 |---|---:|---|---|
 | Android phone | `< 600dp` | Portrait locked | Single-column touch UI |
-| Android tablet/pad | `≥ 600dp` | Landscape locked | Dedicated rail + content shell |
+| Android tablet/pad | `≥ 600dp` | Portrait dan landscape | Compact navigation strip pada lebar sempit; compact rail pada lebar `≥ 840dp` |
 
-Orientation ditetapkan pada Android activity berdasarkan `smallestScreenWidthDp`. Manifest dan runtime tidak boleh menyediakan jalur desktop, iOS, atau arbitrary freeform window.
+Orientation ditetapkan pada Android activity berdasarkan kelas perangkat: phone dikunci portrait, sementara tablet/pad dibiarkan mengikuti orientasi perangkat. Shell navigasi memilih strip atau rail dari lebar jendela aktual; manifest dan runtime tidak boleh menyediakan jalur desktop, iOS, atau arbitrary freeform window.
 
 ## Data Pipeline
 
@@ -135,7 +135,7 @@ Kaiteyo-{version}-arm64-v8a-android.aab
 - [ ] `minSdk` app dan core tetap `31`.
 - [ ] APK hanya berisi ABI `arm64-v8a`.
 - [ ] Phone terkunci portrait.
-- [ ] Tablet/pad terkunci landscape.
+- [ ] Tablet/pad tervalidasi pada portrait dan landscape, termasuk strip/rail adaptif tanpa overlap.
 - [ ] Dedicated tablet shell merender rail dan content tanpa desktop drag/resize overlay.
 - [ ] Full core unit test lulus.
 - [ ] Preview release-equivalent lulus dengan R8 mapping dan resource shrinking.

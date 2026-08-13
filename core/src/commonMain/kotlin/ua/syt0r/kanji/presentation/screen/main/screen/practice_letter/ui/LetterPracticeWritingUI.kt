@@ -10,10 +10,9 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.BoxScope
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.defaultMinSize
@@ -21,6 +20,7 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.sizeIn
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentSize
@@ -61,9 +61,7 @@ import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.common.trackItemPosition
 import ua.syt0r.kanji.presentation.common.ui.FuriganaText
-import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
 import ua.syt0r.kanji.presentation.common.ui.Material3BottomSheetScaffold
-import ua.syt0r.kanji.presentation.common.ui.Orientation
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BrushSelector
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BrushSettings
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWritingProgress
@@ -132,138 +130,106 @@ fun LetterPracticeWritingUI(
         )
     }
 
-    if (LocalOrientation.current == Orientation.Portrait) {
-
-        Material3BottomSheetScaffold(
-            scaffoldState = scaffoldState,
-            sheetContent = {
-                LetterPracticeWritingWordsBottomSheet(
-                    state = wordsBottomSheetState,
-                    sheetContentHeight = bottomSheetHeight,
-                    hideSheet = hideBottomSheet,
-                    onWordClick = onWordClick
-                )
-            },
-            modifier = Modifier
-                .fillMaxSize()
-                .onGloballyPositioned(onBottomSheetScaffoldCoordinatesUpdate)
-        ) {
-
-            val infoSectionBottomPadding = remember { mutableStateOf(0.dp) }
-
-            LetterPracticeWritingInfoSection(
-                state = infoSectionState,
-                onExpressionsClick = openBottomSheet,
-                onExpressionSectionCoordinatesUpdate = onExpressionSectionCoordinatesUpdate,
-                speakKana = speakKana,
-                extraBottomPaddingState = infoSectionBottomPadding,
-                modifier = Modifier.fillMaxSize(),
+    Material3BottomSheetScaffold(
+        scaffoldState = scaffoldState,
+        sheetContent = {
+            LetterPracticeWritingWordsBottomSheet(
+                state = wordsBottomSheetState,
+                sheetContentHeight = bottomSheetHeight,
+                hideSheet = hideBottomSheet,
+                onWordClick = onWordClick
             )
+        },
+        modifier = Modifier
+            .fillMaxSize()
+            .onGloballyPositioned(onBottomSheetScaffoldCoordinatesUpdate)
+    ) {
+        BoxWithConstraints(modifier = Modifier.fillMaxSize()) {
+            val useWidePaneLayout = maxWidth >= 840.dp && maxHeight >= 520.dp
 
-            Column(
-                modifier = Modifier
-                    .align(Alignment.BottomCenter)
-                    .fillMaxWidth()
-                    .trackItemPosition { infoSectionBottomPadding.value = it.heightFromScreenBottom },
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                // Brush selector toolbar above the drawing input
-                BrushSelector(
-                    brushSettings = brushSettings,
-                    onBrushSettingsChange = { brushSettings = it },
-                    modifier = Modifier
-                        .sizeIn(maxWidth = 400.dp)
-                        .padding(horizontal = 20.dp)
-                )
-
-                LetterPracticeWritingInputSection(
-                    state = reviewState,
-                    brushSettings = brushSettings,
-                    modifier = Modifier
-                        .sizeIn(maxWidth = 400.dp)
-                        .padding(horizontal = 20.dp)
-                        .padding(bottom = 12.dp)
-                        .aspectRatio(1f, matchHeightConstraintsFirst = false)
-                )
-
-                answersSection(Modifier)
-            }
-
-        }
-
-    } else {
-
-        val infoSection: @Composable RowScope.() -> Unit = {
-            Material3BottomSheetScaffold(
-                scaffoldState = scaffoldState,
-                sheetContent = {
-                    LetterPracticeWritingWordsBottomSheet(
-                        state = wordsBottomSheetState,
-                        sheetContentHeight = bottomSheetHeight,
-                        hideSheet = hideBottomSheet,
-                        onWordClick = onWordClick
+            if (useWidePaneLayout) {
+                val infoPane: @Composable (Modifier) -> Unit = { modifier ->
+                    LetterPracticeWritingInfoSection(
+                        state = infoSectionState,
+                        onExpressionsClick = openBottomSheet,
+                        onExpressionSectionCoordinatesUpdate = onExpressionSectionCoordinatesUpdate,
+                        speakKana = speakKana,
+                        modifier = modifier
                     )
-                },
-                modifier = Modifier
-                    .fillMaxHeight()
-                    .weight(1f)
-                    .onGloballyPositioned(onBottomSheetScaffoldCoordinatesUpdate)
-            ) {
-                LetterPracticeWritingInfoSection(
-                    state = infoSectionState,
-                    onExpressionsClick = openBottomSheet,
-                    onExpressionSectionCoordinatesUpdate = onExpressionSectionCoordinatesUpdate,
-                    speakKana = speakKana,
-                    modifier = Modifier.fillMaxSize()
-                )
+                }
+                val writingPane: @Composable (Modifier) -> Unit = { modifier ->
+                    Column(modifier = modifier) {
+                        BrushSelector(
+                            brushSettings = brushSettings,
+                            onBrushSettingsChange = { brushSettings = it },
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(horizontal = 20.dp, vertical = 8.dp)
+                        )
+                        BoxWithConstraints(
+                            modifier = Modifier
+                                .weight(1f)
+                                .fillMaxWidth(),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            val canvasSize = minOf(maxWidth, maxHeight, 440.dp)
+                            LetterPracticeWritingInputSection(
+                                state = reviewState,
+                                brushSettings = brushSettings,
+                                modifier = Modifier.size(canvasSize)
+                            )
+                        }
+                    }
+                }
+
+                Column(modifier = Modifier.fillMaxSize()) {
+                    Row(
+                        modifier = Modifier
+                            .weight(1f)
+                            .fillMaxWidth()
+                    ) {
+                        if (layoutConfiguration.leftHandedMode) {
+                            writingPane(Modifier.weight(1f).fillMaxHeight())
+                            infoPane(Modifier.weight(1f).fillMaxHeight())
+                        } else {
+                            infoPane(Modifier.weight(1f).fillMaxHeight())
+                            writingPane(Modifier.weight(1f).fillMaxHeight())
+                        }
+                    }
+                    answersSection(Modifier.fillMaxWidth())
+                }
+            } else {
+                Column(modifier = Modifier.fillMaxSize()) {
+                    LetterPracticeWritingInfoSection(
+                        state = infoSectionState,
+                        onExpressionsClick = openBottomSheet,
+                        onExpressionSectionCoordinatesUpdate = onExpressionSectionCoordinatesUpdate,
+                        speakKana = speakKana,
+                        modifier = Modifier
+                            .weight(1f)
+                            .fillMaxWidth()
+                    )
+                    BrushSelector(
+                        brushSettings = brushSettings,
+                        onBrushSettingsChange = { brushSettings = it },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .sizeIn(maxWidth = 440.dp)
+                            .padding(horizontal = 20.dp, vertical = 8.dp)
+                    )
+                    LetterPracticeWritingInputSection(
+                        state = reviewState,
+                        brushSettings = brushSettings,
+                        modifier = Modifier
+                            .sizeIn(maxWidth = 440.dp)
+                            .fillMaxWidth()
+                            .padding(horizontal = 20.dp)
+                            .aspectRatio(1f, matchHeightConstraintsFirst = false)
+                    )
+                    answersSection(Modifier.fillMaxWidth())
+                }
             }
         }
-
-        val inputSection: @Composable RowScope.() -> Unit = {
-            Column(
-                modifier = Modifier
-                    .fillMaxHeight()
-                    .weight(1f)
-                    .wrapContentSize()
-            ) {
-                BrushSelector(
-                    brushSettings = brushSettings,
-                    onBrushSettingsChange = { brushSettings = it },
-                    modifier = Modifier.fillMaxWidth()
-                )
-                LetterPracticeWritingInputSection(
-                    state = reviewState,
-                    brushSettings = brushSettings,
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .sizeIn(maxWidth = 400.dp)
-                        .aspectRatio(1f)
-                        .padding(20.dp)
-                )
-            }
-        }
-
-        val (firstSection, secondSection) = when (layoutConfiguration.leftHandedMode) {
-            true -> inputSection to infoSection
-            false -> infoSection to inputSection
-        }
-
-        Box {
-
-            Row(
-                modifier = Modifier.fillMaxSize()
-            ) {
-
-                firstSection()
-
-                secondSection()
-
-            }
-
-            answersSection(Modifier.align(Alignment.BottomCenter))
-
-        }
-
     }
 
 }

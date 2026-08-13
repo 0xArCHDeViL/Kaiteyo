@@ -1,6 +1,6 @@
 # Kaiteyo Documentation
 
-This directory contains the maintained engineering documentation for **Kaiteyo Android**. The product supports ARM64-v8a devices on Android 12 or newer. Phones are portrait-only; tablets and pads use the dedicated landscape navigation shell.
+This directory contains the maintained engineering documentation for **Kaiteyo Android**. The product supports ARM64-v8a devices on Android 12 or newer. Phones are portrait-only; tablets and pads support portrait and landscape through an adaptive navigation shell.
 
 ## Core Documents
 

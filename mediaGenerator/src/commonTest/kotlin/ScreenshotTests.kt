@@ -51,35 +51,21 @@ class ScreenshotTests {
 
     private companion object {
 
-        val portraitPhone = ComposableRecorderTestConfiguration(
-            size = IntSize(1080, 1920),
-            density = Density(1.9f),
-            orientation = Orientation.Portrait,
-            darkTheme = false
-        )
-
-        val landscapePhone = ComposableRecorderTestConfiguration(
-            size = IntSize(1920, 1200),
-            density = Density(1.2f),
-            orientation = Orientation.Landscape,
-            darkTheme = false
-        )
-
-        val iosPortraitPhone = ComposableRecorderTestConfiguration(
-            size = IntSize(1320, 2868),
+        val tabletPortrait = ComposableRecorderTestConfiguration(
+            size = IntSize(2048, 2732),
             density = Density(2.5f),
             orientation = Orientation.Portrait,
             darkTheme = false
         )
 
-        val ipadLandscape = ComposableRecorderTestConfiguration(
+        val tabletLandscape = ComposableRecorderTestConfiguration(
             size = IntSize(2732, 2048),
             density = Density(2.5f),
             orientation = Orientation.Landscape,
             darkTheme = false
         )
 
-        val configurations = listOf(ipadLandscape)
+        val configurations = listOf(tabletPortrait, tabletLandscape)
 
         @BeforeClass
         @JvmStatic

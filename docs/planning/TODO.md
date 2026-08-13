@@ -12,7 +12,7 @@ This document contains planned work for the Android-only Kaiteyo product. It int
 ## Android Device Contract
 
 - [ ] Verify phone portrait lock, insets, navigation, keyboard, process recreation, and deep links on Android 12+ ARM64 hardware.
-- [ ] Verify tablet/pad landscape lock, fixed rail/content composition, dialogs, writing canvas, and practice flows on Android 12+ ARM64 hardware.
+- [ ] Verify tablet/pad portrait and landscape, adaptive strip/rail composition, dialogs, writing canvas, and practice flows on Android 12+ ARM64 hardware.
 - [ ] Add instrumentation coverage for the most failure-prone vocabulary and grammar paths when a device/emulator is available.
 
 ## Data and Learning

@@ -2,20 +2,21 @@ package ua.syt0r.kanji.presentation.common.nav
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.BarChart
 import androidx.compose.material.icons.outlined.CloudUpload
@@ -25,6 +26,8 @@ import androidx.compose.material.icons.outlined.Sync
 import androidx.compose.material.icons.outlined.Translate
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.NavigationRail
+import androidx.compose.material3.NavigationRailItem
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -41,7 +44,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import org.koin.compose.koinInject
 import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
@@ -50,8 +53,6 @@ import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
 import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
-import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
-import ua.syt0r.kanji.presentation.common.ui.Orientation
 import ua.syt0r.kanji.presentation.screen.main.MainDestination
 import ua.syt0r.kanji.presentation.screen.main.MainNavigationState
 import ua.syt0r.kanji.presentation.screen.main.screen.home.HomeNavigationState
@@ -75,93 +76,165 @@ class NavSection(
 
 val LocalHomeNavigationState = compositionLocalOf<HomeNavigationState?> { null }
 
-private val TabletRailWidth = 248.dp
-private val TabletOuterPadding = 16.dp
-private val TabletRailGap = 16.dp
-private val TabletRailRadius = 24.dp
-private val TabletItemRadius = 14.dp
+private val WideNavigationBreakpoint = 840.dp
+private val CompactRailWidth = 92.dp
+private val CompactItemRadius = 14.dp
 
+/**
+ * Navigation adapts to available width instead of device orientation. A narrow window,
+ * including tablet portrait and split-screen, keeps content full-width and uses a bounded
+ * horizontal strip. A genuinely wide window receives a compact rail, never a fixed large sidebar.
+ */
 @Composable
 fun NavShell(
     navigationState: MainNavigationState,
     modifier: Modifier = Modifier,
     content: @Composable () -> Unit
 ) {
-    if (LocalOrientation.current == Orientation.Portrait) {
-        Box(modifier.fillMaxSize()) { content() }
-        return
-    }
-
     val appPreferences = koinInject<PreferencesContract.AppPreferences>()
     val defaultTab = rememberDefaultHomeTab(appPreferences)
     val homeNavState = rememberHomeNavigationState(defaultTab)
     val sections = buildNavSections(navigationState, homeNavState)
 
     CompositionLocalProvider(LocalHomeNavigationState provides homeNavState) {
-        Row(
+        BoxWithConstraints(
             modifier = modifier
                 .fillMaxSize()
                 .background(MaterialTheme.colorScheme.background)
-                .padding(TabletOuterPadding),
-            horizontalArrangement = Arrangement.spacedBy(TabletRailGap)
         ) {
-            TabletNavigationRail(
-                sections = sections,
-                modifier = Modifier
-                    .width(TabletRailWidth)
-                    .fillMaxHeight()
-            )
-            Surface(
-                modifier = Modifier
-                    .weight(1f)
-                    .fillMaxHeight(),
-                shape = RoundedCornerShape(TabletRailRadius),
-                color = MaterialTheme.colorScheme.surface,
-                tonalElevation = 1.dp
-            ) {
-                Box(Modifier.fillMaxSize()) { content() }
+            if (maxWidth >= WideNavigationBreakpoint) {
+                WideNavigationLayout(sections = sections, content = content)
+            } else {
+                CompactNavigationLayout(sections = sections, content = content)
             }
         }
     }
 }
 
 @Composable
-private fun TabletNavigationRail(
+private fun WideNavigationLayout(
+    sections: List<NavSection>,
+    content: @Composable () -> Unit
+) {
+    Row(modifier = Modifier.fillMaxSize()) {
+        CompactNavigationRail(
+            sections = sections,
+            modifier = Modifier
+                .width(CompactRailWidth)
+                .fillMaxHeight()
+        )
+        Box(
+            modifier = Modifier
+                .weight(1f)
+                .fillMaxHeight()
+        ) {
+            content()
+        }
+    }
+}
+
+@Composable
+private fun CompactNavigationLayout(
+    sections: List<NavSection>,
+    content: @Composable () -> Unit
+) {
+    Column(modifier = Modifier.fillMaxSize()) {
+        Box(
+            modifier = Modifier
+                .weight(1f)
+                .fillMaxWidth()
+        ) {
+            content()
+        }
+        CompactNavigationStrip(
+            sections = sections,
+            modifier = Modifier.fillMaxWidth()
+        )
+    }
+}
+
+@Composable
+private fun CompactNavigationRail(
     sections: List<NavSection>,
     modifier: Modifier = Modifier
 ) {
+    NavigationRail(
+        modifier = modifier,
+        containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
+        contentColor = MaterialTheme.colorScheme.onSurface
+    ) {
+        sections.flatMap(NavSection::entries).forEach { entry ->
+            NavigationRailItem(
+                selected = entry.selected,
+                enabled = entry.enabled,
+                onClick = entry.onClick,
+                icon = { NavigationEntryIcon(entry) },
+                label = {
+                    Text(
+                        text = entry.label(),
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
+                    )
+                },
+                alwaysShowLabel = false
+            )
+        }
+    }
+}
+
+@Composable
+private fun CompactNavigationStrip(
+    sections: List<NavSection>,
+    modifier: Modifier = Modifier
+) {
+    val accent = LocalKaiteyoAccent.current
+    val surfaceColors = LocalSurfaceColors.current
+    val entries = sections.flatMap(NavSection::entries)
+
     Surface(
         modifier = modifier,
-        shape = RoundedCornerShape(TabletRailRadius),
         color = MaterialTheme.colorScheme.surfaceContainerLow,
-        tonalElevation = 2.dp
+        contentColor = MaterialTheme.colorScheme.onSurface,
+        tonalElevation = 1.dp,
+        shadowElevation = 0.dp
     ) {
-        Column(
+        Row(
             modifier = Modifier
-                .fillMaxSize()
-                .verticalScroll(rememberScrollState())
-                .padding(horizontal = 12.dp, vertical = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(6.dp)
+                .fillMaxWidth()
+                .horizontalScroll(rememberScrollState())
+                .padding(horizontal = 8.dp, vertical = 8.dp),
+            horizontalArrangement = Arrangement.spacedBy(6.dp),
+            verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(
-                text = "Kaiteyo",
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.onSurface,
-                modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp)
-            )
-            sections.forEach { section ->
-                section.title?.let { title ->
+            entries.forEach { entry ->
+                val background = if (entry.selected) accent.primary.copy(alpha = 0.16f) else Color.Transparent
+                val foreground = if (entry.selected) accent.primary else surfaceColors.textSecondary
+
+                Row(
+                    modifier = Modifier
+                        .heightIn(min = 48.dp)
+                        .clip(MaterialTheme.shapes.medium)
+                        .background(background)
+                        .then(
+                            if (entry.enabled) {
+                                Modifier.clickable(onClick = entry.onClick)
+                            } else {
+                                Modifier
+                            }
+                        )
+                        .padding(horizontal = 12.dp, vertical = 8.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    NavigationEntryIcon(entry = entry, tint = foreground)
                     Text(
-                        text = title(),
-                        style = MaterialTheme.typography.labelMedium,
-                        color = LocalSurfaceColors.current.textMuted,
-                        fontWeight = FontWeight.SemiBold,
-                        modifier = Modifier.padding(start = 12.dp, top = 12.dp, bottom = 2.dp)
+                        text = entry.label(),
+                        style = MaterialTheme.typography.labelLarge,
+                        color = foreground,
+                        fontWeight = if (entry.selected) FontWeight.SemiBold else FontWeight.Normal,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
                     )
-                }
-                section.entries.forEach { entry ->
-                    TabletNavigationItem(entry)
                 }
             }
         }
@@ -169,46 +242,22 @@ private fun TabletNavigationRail(
 }
 
 @Composable
-private fun TabletNavigationItem(entry: NavEntry) {
-    val accent = LocalKaiteyoAccent.current
-    val surfaceColors = LocalSurfaceColors.current
-    val background = if (entry.selected) {
-        accent.primary.copy(alpha = 0.14f)
-    } else {
-        Color.Transparent
-    }
-    val foreground = if (entry.selected) accent.primary else surfaceColors.textSecondary
-
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(TabletItemRadius))
-            .background(background)
-            .clickable(enabled = entry.enabled, onClick = entry.onClick)
-            .padding(horizontal = 14.dp, vertical = 11.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(12.dp)
-    ) {
-        val icon = entry.icon
-        if (icon != null) {
-            Icon(
-                imageVector = icon,
-                contentDescription = entry.label(),
-                modifier = Modifier.size(22.dp),
-                tint = foreground
-            )
-        } else {
-            Box(Modifier.size(22.dp), contentAlignment = Alignment.Center) {
-                entry.iconContent?.invoke()
-            }
-        }
-        Text(
-            text = entry.label(),
-            style = MaterialTheme.typography.labelLarge,
-            color = foreground,
-            fontWeight = if (entry.selected) FontWeight.SemiBold else FontWeight.Normal,
-            maxLines = 1
+private fun NavigationEntryIcon(
+    entry: NavEntry,
+    tint: Color = MaterialTheme.colorScheme.onSurfaceVariant
+) {
+    val icon = entry.icon
+    if (icon != null) {
+        Icon(
+            imageVector = icon,
+            contentDescription = entry.label(),
+            modifier = Modifier.size(22.dp),
+            tint = tint
         )
+    } else {
+        Box(Modifier.size(22.dp), contentAlignment = Alignment.Center) {
+            entry.iconContent?.invoke()
+        }
     }
 }
 

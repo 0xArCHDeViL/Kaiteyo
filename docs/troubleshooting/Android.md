@@ -34,7 +34,7 @@ Verify the appropriate device contract after UI, navigation, orientation, resour
 | Device | Required checks |
 |---|---|
 | Phone (`smallestScreenWidthDp < 600`) | Portrait lock, navigation, keyboard/insets, vocabulary and grammar practice, process recreation |
-| Tablet/pad (`smallestScreenWidthDp >= 600`) | Landscape lock, navigation rail, content surface, dialogs, practice flows, process recreation |
+| Tablet/pad (`smallestScreenWidthDp >= 600`) | Portrait dan landscape, adaptive navigation strip/rail, dialogs, writing canvas, practice flows, process recreation |
 
 Collect `adb logcat` around a reproducible crash or rendering failure. Include the exact screen, source data/deck item, Android version, device class, and full exception chain in the issue record.
 

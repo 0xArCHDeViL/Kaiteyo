@@ -4,7 +4,7 @@ This document is written for AI assistants. Read it before making changes.
 
 ## Project Overview
 
-Kaiteyo is an **Android-only Japanese language learning application**. The supported product target is ARM64-v8a on Android 12 or newer. Phones are portrait-only; tablets and pads use a dedicated landscape shell. Desktop, iOS, web, and freeform cross-platform views are not product targets.
+Kaiteyo is an **Android-only Japanese language learning application**. The supported product target is ARM64-v8a on Android 12 or newer. Phones are portrait-only; tablets and pads support both portrait and landscape through an adaptive navigation shell. Desktop, iOS, web, and freeform cross-platform views are not product targets.
 
 **Tech Stack:**
 
@@ -36,8 +36,8 @@ mediaGenerator/ → JVM-only build tooling for media generation; not an app targ
 |------|---------|
 | `app/src/main/java/ua/syt0r/kanji/presentation/screen/main/MainActivity.kt` | Android launcher activity |
 | `core/src/androidMain/.../KaiteyoActivity.kt` | Android lifecycle, deep links, orientation policy |
-| `core/src/commonMain/.../KanjiDojoApp.kt` | Root Compose content and theme setup |
-| `core/src/commonMain/.../common/nav/NavShell.kt` | Phone content shell and tablet landscape rail |
+| `core/src/commonMain/.../KaiteyoApp.kt` | Root Compose content and theme setup |
+| `core/src/commonMain/.../common/nav/NavShell.kt` | Width-adaptive content shell, compact strip, and compact rail |
 | `core/src/commonMain/.../app_data/` | Application dictionary and vocabulary data access |
 | `core/src/commonMain/.../user_data/` | User database, SRS, review history, migrations |
 | `database/src/` | Streaming parser, exporter, integrity validation |
@@ -47,11 +47,11 @@ mediaGenerator/ → JVM-only build tooling for media generation; not an app targ
 | Device class | Rule |
 |---|---|
 | Phone (`smallestScreenWidthDp < 600`) | Portrait locked; single-column touch layout |
-| Tablet/pad (`smallestScreenWidthDp >= 600`) | Landscape locked; dedicated navigation rail and content surface |
+| Tablet/pad (`smallestScreenWidthDp >= 600`) | Portrait and landscape; compact navigation strip on narrow widths and compact rail from `840dp` |
 | ABI | `arm64-v8a` only |
 | Minimum OS | Android 12 / API 31 |
 
-The tablet shell must be an intentional layout, not a stretched phone screen. It uses a fixed-width navigation rail, a separate content surface, stable spacing, and touch targets sized for large displays.
+The tablet shell must be intentional rather than a stretched phone screen. It selects a bounded navigation strip or a compact rail from available width, preserves content space, avoids fixed large sidebars, and keeps touch targets sized for large displays.
 
 ## Coding Style
 
@@ -67,7 +67,7 @@ The tablet shell must be an intentional layout, not a stretched phone screen. It
 1. Crash-free vocabulary detail and metadata parsing.
 2. Correct FSRS/SRS persistence, grammar generation, queue transitions, and review history.
 3. Database parser/export integrity and release-data validation.
-4. Android phone portrait and tablet landscape device validation.
+4. Android phone portrait plus tablet/pad portrait and landscape device validation.
 5. TTS pronunciation correctness and low-memory performance.
 6. Only then, functional UI polish that is proven to be a blocker.
 
