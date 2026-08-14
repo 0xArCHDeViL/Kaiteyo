@@ -5,6 +5,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.IO
 import kotlinx.coroutines.withContext
 import ua.syt0r.kanji.core.app_data.AppDataRepository
+import ua.syt0r.kanji.core.app_data.SearchQueryParser
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.SearchScreenContract
 
 class SearchScreenLoadMoreWordsUseCase(
@@ -15,11 +16,11 @@ class SearchScreenLoadMoreWordsUseCase(
         val wordsState = state.words as MutableState
         val currentWords = wordsState.value
         wordsState.value = withContext(Dispatchers.IO) {
-            val newItems = currentWords.items + appDataRepository.getWordsWithText(
-                text = state.query,
+            val newItems = currentWords.items + appDataRepository.searchWords(
+                query = SearchQueryParser.parse(state.query),
                 offset = currentWords.items.size,
                 limit = SearchScreenContract.LoadMoreWordsCount
-            )
+            ).words
             currentWords.copy(items = newItems)
         }
     }

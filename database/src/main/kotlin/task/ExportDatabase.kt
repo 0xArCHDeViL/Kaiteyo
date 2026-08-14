@@ -10,11 +10,12 @@ import org.apache.commons.csv.CSVFormat
 import parser.CompositeJMdictParser
 import parser.LegacyExpressionFallback
 import parser.RadkFileParser
+import parser.StreamingJMnedictParser
 import parser.withFallback
 import java.io.File
 
 const val ExportFileNameTemplate = "kanji-dojo-data-base-v%d.sql"
-private const val DefaultExportDatabaseVersion = 15
+private const val DefaultExportDatabaseVersion = 18
 val ExportDatabaseVersion: Int
     get() = System.getProperty("appDataVersion")?.toIntOrNull() ?: DefaultExportDatabaseVersion
 
@@ -96,6 +97,7 @@ fun main() {
         LegacyExpressionFallback.parseMissing(missingVocabIds)
     )
     val exportVocabDeckCards: List<Vocab_deck_card> = getVocabImports()
+    val exportNames = getExportNames()
 
     val exportSentences = getExportSentences()
 
@@ -114,6 +116,7 @@ fun main() {
         writeKanjiClassifications(exportKanjiClassifications)
         writeLetterVocabExamples(exportLetterVocabExamples)
         writeVocab(exportVocabData)
+        writeNames(exportNames)
         writeVocabDeckCards(exportVocabDeckCards)
         writeSentences(exportSentences)
     }
@@ -126,6 +129,25 @@ fun main() {
         expectedDeckCardCount = exportVocabDeckCards.size
     )
     println("Validated database artifact ${outputFile.name}")
+}
+
+fun getExportNames(): List<DatabaseName> = buildList {
+    StreamingJMnedictParser.forEach(ProjectData.jMnedictFile) { entry ->
+        val kanji = entry.kanji.firstOrNull()
+        val kana = entry.readings.firstOrNull() ?: return@forEach
+        val meaning = entry.englishTranslations.distinct().joinToString("; ")
+        if (meaning.isNotEmpty()) {
+            add(
+                DatabaseName(
+                    id = entry.entrySequence,
+                    kanji = kanji,
+                    kana = kana,
+                    nameType = entry.nameTypes.distinct().joinToString("; ").takeIf { it.isNotEmpty() },
+                    meaning = meaning
+                )
+            )
+        }
+    }
 }
 
 fun getExportSentences(): List<Sentence> {

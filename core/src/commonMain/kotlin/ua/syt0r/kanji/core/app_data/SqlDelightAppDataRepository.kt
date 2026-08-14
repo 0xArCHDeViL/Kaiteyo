@@ -17,6 +17,7 @@ import ua.syt0r.kanji.core.app_data.data.ReadingType
 import ua.syt0r.kanji.core.app_data.data.VocabReading
 import ua.syt0r.kanji.core.app_data.data.VocabReadingInfo
 import ua.syt0r.kanji.core.app_data.db.AppDataDatabase
+import ua.syt0r.kanji.core.appdata.db.GetVocabSearchEntries
 import ua.syt0r.kanji.core.appdata.db.LettersQueries
 import ua.syt0r.kanji.core.appdata.db.VocabQueries
 import ua.syt0r.kanji.core.logger.Logger
@@ -201,13 +202,206 @@ class SqlDelightAppDataRepository(
     ): List<JapaneseWord> = vocabQuery {
         getVocabReadingsWithText(text, true, offset.toLong(), limit.toLong())
             .executeAsList()
-            .map { element ->
+            .mapNotNull { element ->
                 getWord(
                     id = element.entry_id,
                     kanaReading = element.reading.takeIf { element.isKana == 1L },
                     kanjiReading = element.reading.takeIf { element.isKana == 0L }
-                )!!
+                )
             }
+    }
+
+    override suspend fun searchWords(
+        query: SearchQuery,
+        offset: Int,
+        limit: Int
+    ): SearchResult {
+        if (query.scope == SearchScope.Kanji) return searchKanji(query)
+        if (query.scope == SearchScope.Components) return searchComponents(query)
+        if (query.scope == SearchScope.Names) return searchNames(query, offset, limit)
+
+        return vocabQuery {
+            try {
+                val fields = when (query.scope) {
+            SearchScope.Names -> listOf("name")
+            else -> listOf("kanji", "kana", "romaji", "gloss")
+        }
+
+        val matchedIds = if (query.terms.isEmpty()) {
+            getAllVocabEntryIds().executeAsList().toSet()
+        } else {
+            query.terms
+                .map { term ->
+                    term.toGlobPatterns().asSequence()
+                        .flatMap { pattern ->
+                            searchVocabEntryIds(fields, pattern).executeAsList().asSequence()
+                        }
+                        .toSet()
+                }
+                .reduceOrNull { left, right -> left intersect right }
+                ?: emptySet()
+        }.toMutableSet()
+
+        query.tags.filterNot { it.negated }.forEach { tag ->
+            matchedIds.retainAll(getVocabEntryIdsWithTag(tag.value).executeAsList().toSet())
+        }
+        query.tags.filter { it.negated }.forEach { tag ->
+            matchedIds.removeAll(getVocabEntryIdsWithTag(tag.value).executeAsList().toSet())
+        }
+
+        val sortedEntries = matchedIds
+            .toList()
+            .chunked(SearchEntryIdChunkSize)
+            .flatMap { ids ->
+                if (ids.isEmpty()) emptyList()
+                else getVocabSearchEntries(
+                    entryIds = ids,
+                    limit = Int.MAX_VALUE.toLong(),
+                    offset = 0
+                ).executeAsList()
+            }
+            .sortedWith(
+                compareBy<GetVocabSearchEntries> {
+                    it.priority == null
+                }.thenBy { it.priority ?: Long.MAX_VALUE }
+                    .thenBy { it.element_id }
+                    .thenBy { it.entry_id }
+            )
+
+        val page = sortedEntries.drop(offset.coerceAtLeast(0)).take(limit.coerceAtLeast(0))
+            .mapNotNull { element ->
+                getWord(
+                    id = element.entry_id,
+                    kanaReading = element.reading.takeIf { element.isKana == 1L },
+                    kanjiReading = element.reading.takeIf { element.isKana == 0L }
+                )
+            }
+
+            SearchResult(totalCount = matchedIds.size, words = page)
+        } catch (error: Exception) {
+            Logger.e("Structured search index unavailable; using legacy search: ${error.message}")
+            val legacyText = query.terms.joinToString(" ") { it.value }
+            val legacyWords = getVocabReadingsWithText(
+                text = legacyText,
+                includeKanjiReadings = true,
+                offset = offset.toLong(),
+                limit = limit.toLong()
+            ).executeAsList().mapNotNull { element ->
+                getWord(
+                    id = element.entry_id,
+                    kanaReading = element.reading.takeIf { element.isKana == 1L },
+                    kanjiReading = element.reading.takeIf { element.isKana == 0L }
+                )
+            }
+                SearchResult(
+                    totalCount = getCountOfVocabReadingsWithText(legacyText, true)
+                        .executeAsOne()
+                        .toInt(),
+                    words = legacyWords
+                )
+            }
+        }
+    }
+
+    private suspend fun searchNames(
+        query: SearchQuery,
+        offset: Int,
+        limit: Int
+    ): SearchResult = vocabQuery {
+        val matchedIds = if (query.terms.isEmpty()) {
+            getAllVocabNameIds().executeAsList().toSet()
+        } else {
+            query.terms
+                .map { term ->
+                    term.toGlobPatterns().asSequence()
+                        .flatMap { pattern ->
+                            searchVocabNameIds(pattern).executeAsList().asSequence()
+                        }
+                        .toSet()
+                }
+                .reduceOrNull { left, right -> left intersect right }
+                ?: emptySet()
+        }
+        val pageIds = matchedIds
+            .toList()
+            .sorted()
+            .drop(offset.coerceAtLeast(0))
+            .take(limit.coerceAtLeast(0))
+        val names = getVocabNamesByIds(pageIds)
+            .executeAsList()
+            .map {
+                JapaneseName(
+                    id = it.id,
+                    kanji = it.kanji,
+                    kana = it.kana,
+                    nameType = it.name_type,
+                    meaning = it.meaning
+                )
+            }
+        SearchResult(totalCount = matchedIds.size, words = emptyList(), names = names)
+    }
+
+    private suspend fun searchKanji(query: SearchQuery): SearchResult {
+        val catalog = lettersQuery {
+            getKanjiCatalog(DELIMITER).executeAsList()
+        }
+        val terms = query.terms
+        val matched = catalog.filter { row ->
+            terms.all { term ->
+                val candidates = listOf(
+                    row.kanji,
+                    row.meanings,
+                    row.on_readings
+                )
+                termMatchesAny(term, candidates)
+            }
+        }
+        return SearchResult(
+            totalCount = matched.size,
+            words = emptyList(),
+            characters = matched.map { it.kanji }
+        )
+    }
+
+    private suspend fun searchComponents(query: SearchQuery): SearchResult {
+        val components = query.terms
+            .flatMap { it.value.asSequence() }
+            .filterNot { it.isWhitespace() }
+            .map(Char::toString)
+            .distinct()
+            .toList()
+        if (components.isEmpty()) return SearchResult(0, emptyList())
+        val characters = lettersQuery {
+            getCharsWithRadicals(components, components.size.toLong()).executeAsList()
+        }
+        return SearchResult(
+            totalCount = characters.size,
+            words = emptyList(),
+            characters = characters
+        )
+    }
+
+    private fun termMatchesAny(term: SearchTerm, candidates: List<String>): Boolean {
+        val patterns = term.toGlobPatterns()
+        return candidates.any { candidate ->
+            val normalized = candidate.lowercase()
+            patterns.any { pattern -> normalized.matchesGlob(pattern) }
+        }
+    }
+
+    private fun String.matchesGlob(pattern: String): Boolean {
+        val regex = buildString(length + pattern.length) {
+            append('^')
+            pattern.forEach { character ->
+                when (character) {
+                    '*' -> append(".*")
+                    '?' -> append('.')
+                    else -> append(Regex.escape(character.toString()))
+                }
+            }
+            append('$')
+        }
+        return Regex(regex).matches(this)
     }
 
     override suspend fun getWordExamples(letter: String): List<JapaneseWord> {
@@ -531,6 +725,29 @@ class SqlDelightAppDataRepository(
         return null
     }
 
+    private fun SearchTerm.toGlobPatterns(): List<String> = if (quoted) {
+        listOf(toGlobPattern(normalized))
+    } else {
+        listOf(
+            toGlobPattern(normalized),
+            toGlobPattern(romajiNormalized)
+        ).distinct()
+    }
+
+    private fun toGlobPattern(value: String): String {
+        if (value.isEmpty()) return "*"
+        val escaped = buildString(value.length) {
+            value.forEach { character ->
+                when (character) {
+                    '*', '?' -> append(character)
+                    '[', ']' -> append('[').append(character).append(']')
+                    else -> append(character)
+                }
+            }
+        }
+        return if (escaped.startsWith('*')) escaped else "*$escaped"
+    }
+
     private fun String.splitValues(): List<String> =
         if (isEmpty()) emptyList() else split(DELIMITER)
 
@@ -554,6 +771,8 @@ class SqlDelightAppDataRepository(
     companion object {
 
         private const val DELIMITER = "|||"
+
+        private const val SearchEntryIdChunkSize = 500
 
         private val readingInfoSetWithLowerPriority = setOf(
             VocabReadingInfo.IrregularKanaUsage,

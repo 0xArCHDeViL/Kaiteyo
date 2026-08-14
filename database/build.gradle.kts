@@ -1,4 +1,12 @@
+import org.gradle.api.DefaultTask
+import org.gradle.api.file.RegularFileProperty
+import org.gradle.api.provider.Property
+import org.gradle.api.tasks.Input
+import org.gradle.api.tasks.OutputFile
+import org.gradle.api.tasks.TaskAction
 import org.gradle.api.tasks.JavaExec
+import java.net.URL
+import java.util.zip.GZIPInputStream
 
 plugins {
     kotlin("jvm")
@@ -16,6 +24,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    testImplementation(kotlin("test"))
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.1")
     implementation("org.jsoup:jsoup:1.15.3")
@@ -25,6 +34,7 @@ dependencies {
     implementation("io.ktor:ktor-client-cio:$ktor_version")
     implementation("org.apache.commons:commons-csv:1.13.0")
     implementation("com.squareup.moshi:moshi-kotlin:1.15.2")
+    implementation("dev.esnault.wanakana:wanakana-core:1.1.1")
 }
 
 sqldelight {
@@ -44,7 +54,11 @@ val appDataVersion = providers.gradleProperty("appDataVersion")
 tasks.register<JavaExec>("exportAppDatabase") {
     group = "database"
     description = "Export the internal Kanji Dojo SQLite database from the canonical source data."
-    dependsOn(tasks.named("classes"))
+    dependsOn(
+        tasks.named("classes"),
+        tasks.named("downloadJishoOpenFurigana"),
+        tasks.named("downloadJMnedict")
+    )
     classpath = sourceSets["main"].runtimeClasspath
     mainClass.set("task.ExportDatabaseKt")
     workingDir(project.projectDir)
@@ -62,9 +76,11 @@ application {
 
 val radFileUrl = "http://ftp.edrdg.org/pub/Nihongo/radkfile.gz"
 val jmdictFileUrl = "http://ftp.edrdg.org/pub/Nihongo/JMdict_e_examp.gz"
+val jmnedictFileUrl = "http://ftp.edrdg.org/pub/Nihongo/JMnedict.xml.gz"
 val leedsFreqUrl = "https://web.archive.org/web/20230924010025id_/http://corpus.leeds.ac.uk/frqc/internet-jp.num"
 val jmdictFuriganaJsonUrl =
     "https://github.com/Doublevil/JmdictFurigana/releases/download/2.3.0%2B2023-08-25/JmdictFurigana.json"
+val jishoOpenFuriganaUrl = "https://jisho.hlorenzi.com/furigana.txt"
 val yomichanJlptVocabDecksBaseUrl =
     "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/refs/heads/main/original_data/"
 
@@ -88,6 +104,31 @@ task("downloadJMdict") {
     }
 }
 
+abstract class DownloadJMnedictTask : DefaultTask() {
+    @get:Input
+    abstract val sourceUrl: Property<String>
+
+    @get:OutputFile
+    abstract val destination: RegularFileProperty
+
+    @TaskAction
+    fun downloadIfMissing() {
+        val output = destination.get().asFile
+        if (output.isFile && output.length() > 0L) return
+        output.parentFile.mkdirs()
+        GZIPInputStream(URL(sourceUrl.get()).openStream()).use { input ->
+            output.outputStream().use { outputStream -> input.copyTo(outputStream) }
+        }
+    }
+}
+
+tasks.register<DownloadJMnedictTask>("downloadJMnedict") {
+    group = "database"
+    description = "Download the official EDRDG JMnedict XML source."
+    sourceUrl.set(jmnedictFileUrl)
+    destination.set(layout.projectDirectory.file("parser_data/JMnedict.xml"))
+}
+
 task("downloadLeedsFrequencies") {
     doLast {
         dataDir.mkdirs()
@@ -102,6 +143,31 @@ task("downloadjmdictFuriganaJson") {
         val file = File(dataDir, "JmdictFurigana.json")
         downloadFile(jmdictFuriganaJsonUrl, file)
     }
+}
+
+abstract class DownloadJishoOpenFuriganaTask : DefaultTask() {
+    @get:Input
+    abstract val sourceUrl: Property<String>
+
+    @get:OutputFile
+    abstract val destination: RegularFileProperty
+
+    @TaskAction
+    fun downloadIfMissing() {
+        val output = destination.get().asFile
+        if (output.isFile && output.length() > 0L) return
+        output.parentFile.mkdirs()
+        URL(sourceUrl.get()).openStream().use { input ->
+            output.outputStream().use { outputStream -> input.copyTo(outputStream) }
+        }
+    }
+}
+
+tasks.register<DownloadJishoOpenFuriganaTask>("downloadJishoOpenFurigana") {
+    group = "database"
+    description = "Download the derived furigana source used by the offline vocabulary export."
+    sourceUrl.set(jishoOpenFuriganaUrl)
+    destination.set(layout.projectDirectory.file("parser_data/furigana.txt"))
 }
 
 task("downloadYomichanJlptVocab") {

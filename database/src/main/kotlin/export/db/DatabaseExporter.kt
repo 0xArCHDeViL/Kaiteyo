@@ -2,6 +2,7 @@ package export.db
 
 import app.cash.sqldelight.driver.jdbc.sqlite.JdbcSqliteDriver
 import java.io.File
+import java.util.Locale
 
 class DatabaseExporter(
     file: File,
@@ -133,6 +134,99 @@ class DatabaseExporter(
             senseExample.forEach { database.vocabQueries.insert_vocab_sense_example(it) }
             entities.forEach { database.vocabQueries.insert_vocab_entity(it) }
             furigana.forEach { database.vocabQueries.insert_vocab_furigana(it) }
+            writeVocabSearchIndex(this)
+        }
+    }
+
+    private fun writeVocabSearchIndex(data: DatabaseVocabData) {
+        val senseToEntry = data.senses.associate { it.id to it.entry_id }
+        val tagsByEntry = HashMap<Long, MutableSet<String>>()
+
+        fun insertValue(entryId: Long, field: String, value: String) {
+            val cleanValue = value.trim()
+            if (cleanValue.isEmpty()) return
+            database.vocabQueries.insert_vocab_search_index(
+                Vocab_search_index(
+                    entry_id = entryId,
+                    field_ = field,
+                    value_ = cleanValue,
+                    normalized = cleanValue.lowercase(Locale.ROOT)
+                )
+            )
+        }
+
+        fun insertReading(entryId: Long, value: String, field: String) {
+            insertValue(entryId, field, value)
+            insertValue(entryId, "romaji", value.searchRomaji())
+        }
+
+        fun insertTag(entryId: Long, value: String) {
+            val tag = value.removePrefix("&").removeSuffix(";")
+                .trim()
+                .lowercase(Locale.ROOT)
+            if (tag.isNotEmpty()) tagsByEntry.getOrPut(entryId) { LinkedHashSet() } += tag
+        }
+
+        data.kanjiElements.forEach { insertReading(it.entry_id, it.reading, "kanji") }
+        data.kanaElements.forEach { insertReading(it.entry_id, it.reading, "kana") }
+        data.kanjiPriorities.forEach { priority ->
+            val entryId = data.kanjiElements.firstOrNull { it.element_id == priority.element_id }?.entry_id
+                ?: return@forEach
+            insertTag(entryId, priority.priority)
+            if (priority.priority.startsWith("news") || priority.priority.startsWith("ichi") ||
+                priority.priority.startsWith("spec") || priority.priority.startsWith("gai") ||
+                priority.priority.startsWith("nf")
+            ) insertTag(entryId, "common")
+        }
+        data.kanaPriorities.forEach { priority ->
+            val entryId = data.kanaElements.firstOrNull { it.element_id == priority.element_id }?.entry_id
+                ?: return@forEach
+            insertTag(entryId, priority.priority)
+            if (priority.priority.startsWith("news") || priority.priority.startsWith("ichi") ||
+                priority.priority.startsWith("spec") || priority.priority.startsWith("gai") ||
+                priority.priority.startsWith("nf")
+            ) insertTag(entryId, "common")
+        }
+
+        data.senseGlosses.forEach { gloss ->
+            if (gloss.language == null || gloss.language == "eng") {
+                senseToEntry[gloss.sense_id]?.let { insertValue(it, "gloss", gloss.gloss_text) }
+            }
+        }
+        data.sensePartsOfSpeech.forEach { value ->
+            senseToEntry[value.sense_id]?.let { insertTag(it, value.part_of_speech) }
+        }
+        data.senseFields.forEach { value ->
+            senseToEntry[value.sense_id]?.let { insertTag(it, value.field_name) }
+        }
+        data.senseMiscellaneous.forEach { value ->
+            senseToEntry[value.sense_id]?.let { insertTag(it, value.miscellaneous_info) }
+        }
+        data.senseDialects.forEach { value ->
+            senseToEntry[value.sense_id]?.let { insertTag(it, value.dialect) }
+        }
+
+        tagsByEntry.forEach { (entryId, tags) ->
+            tags.forEach { tag ->
+                database.vocabQueries.insert_vocab_search_tag(
+                    Vocab_search_tag(entry_id = entryId, tag = tag)
+                )
+            }
+        }
+    }
+
+    fun writeNames(items: List<DatabaseName>) = database.transaction {
+        items.forEach { name ->
+            database.vocabQueries.insert_vocab_name(
+                Vocab_name(
+                    id = name.id,
+                    kanji = name.kanji,
+                    kana = name.kana,
+                    romaji = name.kana.searchRomaji(),
+                    name_type = name.nameType,
+                    meaning = name.meaning
+                )
+            )
         }
     }
 

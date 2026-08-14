@@ -48,6 +48,7 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
+import ua.syt0r.kanji.core.app_data.JapaneseName
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.presentation.common.CollapsibleContainer
 import ua.syt0r.kanji.presentation.common.CollapsibleContainerState
@@ -396,6 +397,15 @@ private fun ListContent(
                 }
             }
 
+            if (screenState.names.isNotEmpty()) {
+                stickyHeader {
+                    SearchHeader(text = "Names", isSticky = true)
+                }
+                items(screenState.names) { name ->
+                    JapaneseNameResult(name)
+                }
+            }
+
             val currentWordsState = screenState.words.value
             if (currentWordsState.totalCount > 0) {
                 stickyHeader {
@@ -456,6 +466,51 @@ private fun ListContent(
                 elevation = FloatingActionButtonDefaults.elevation(defaultElevation = 4.dp, pressedElevation = 8.dp)
             ) {
                 Icon(Icons.Default.KeyboardArrowUp, contentDescription = "Scroll to top")
+            }
+        }
+    }
+}
+
+@Composable
+private fun JapaneseNameResult(name: JapaneseName) {
+    Surface(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 4.dp),
+        shape = RoundedCornerShape(Dimens.RadiusLg),
+        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.45f)
+    ) {
+        Row(
+            modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            Column(modifier = Modifier.widthIn(min = 92.dp, max = 180.dp)) {
+                Text(
+                    text = name.kanji ?: name.kana,
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.SemiBold
+                )
+                if (name.kanji != null) {
+                    Text(
+                        text = name.kana,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = name.meaning,
+                    style = MaterialTheme.typography.bodyLarge
+                )
+                name.nameType?.takeIf { it.isNotBlank() }?.let {
+                    Text(
+                        text = it,
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
             }
         }
     }

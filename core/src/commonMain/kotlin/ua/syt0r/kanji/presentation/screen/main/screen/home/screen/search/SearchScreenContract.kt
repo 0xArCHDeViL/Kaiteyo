@@ -1,6 +1,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search
 
 import androidx.compose.runtime.State
+import ua.syt0r.kanji.core.app_data.JapaneseName
 import ua.syt0r.kanji.presentation.common.PaginatableJapaneseWordList
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.data.RadicalSearchListItem
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.data.RadicalSearchState
@@ -31,6 +32,7 @@ interface SearchScreenContract {
     data class ScreenState(
         val isLoading: Boolean,
         val characters: List<String>,
+        val names: List<JapaneseName> = emptyList(),
         val words: State<PaginatableJapaneseWordList>,
         val query: String
     )

@@ -29,11 +29,11 @@ fun main(args: Array<String>) {
     println("Adding ${extraExpressionsIds.size} expressions")
 
     val jmdictIdToItem = jmdictItems.associateBy { it.entrySequence }
-
-    val furiganaProvider = FuriganaProvider()
-    val expressions = extraExpressionsIds.map { id ->
+    val extraItems = extraExpressionsIds.map(jmdictIdToItem::getValue)
+    val furiganaProvider = FuriganaProvider.fromJMdictItems(extraItems)
+    val expressions = extraItems.map { item ->
         JmdictExpressionConverter.convert(
-            jMdictItem = jmdictIdToItem.getValue(id),
+            jMdictItem = item,
             furiganaProvider = furiganaProvider
         )
     }

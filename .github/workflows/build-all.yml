@@ -12,12 +12,12 @@ on:
         description: "Application data schema/release version"
         required: false
         type: string
-        default: "15"
+        default: "18"
       app_data_release_tag:
         description: "Internal GitHub Release tag used in release mode"
         required: false
         type: string
-        default: data-v15
+        default: data-v18
       publish_data_release:
         description: "Publish the source-built database as a GitHub Release asset"
         required: false
@@ -42,12 +42,12 @@ on:
         description: "Application data schema/release version"
         required: true
         type: string
-        default: "15"
+        default: "18"
       app_data_release_tag:
         description: "Internal GitHub Release tag used in release mode"
         required: true
         type: string
-        default: data-v15
+        default: data-v18
       publish_data_release:
         description: "Publish source-built database to the GitHub Release section"
         required: true
@@ -76,8 +76,8 @@ jobs:
     timeout-minutes: 25
     env:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
-      APP_DATA_VERSION: ${{ inputs.app_data_version || '15' }}
-      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v15' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '18' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v18' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -139,8 +139,8 @@ jobs:
     timeout-minutes: 25
     env:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
-      APP_DATA_VERSION: ${{ inputs.app_data_version || '15' }}
-      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v15' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '18' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v18' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -192,8 +192,8 @@ jobs:
     timeout-minutes: 35
     env:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
-      APP_DATA_VERSION: ${{ inputs.app_data_version || '15' }}
-      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v15' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '18' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v18' }}
       BUILD_VARIANT: ${{ inputs.build_variant || 'preview' }}
       KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
       KEYSTORE_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
@@ -317,19 +317,19 @@ jobs:
       - name: Download source-built application data
         uses: actions/download-artifact@v4
         with:
-          name: source-app-data-v${{ inputs.app_data_version || '15' }}
+          name: source-app-data-v${{ inputs.app_data_version || '18' }}
           path: database
 
       - name: Publish internal data release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: data-v${{ inputs.app_data_version || '15' }}
-          name: Internal Kaiteyo Data v${{ inputs.app_data_version || '15' }}
+          tag_name: data-v${{ inputs.app_data_version || '18' }}
+          name: Internal Kaiteyo Data v${{ inputs.app_data_version || '18' }}
           target_commitish: ${{ github.sha }}
           generate_release_notes: false
           body: |
             Source-built Kaiteyo application database generated from the vendored `database/` source tree.
             The `.sql` extension is retained for application asset compatibility; the artifact is a SQLite database.
           files: |
-            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '15' }}.sql
-            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '15' }}.sql.sha256
+            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '18' }}.sql
+            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '18' }}.sql.sha256

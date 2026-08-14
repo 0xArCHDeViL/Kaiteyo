@@ -38,6 +38,14 @@ data class DatabaseFuriganaItem(
     @SerializedName("a") val annotation: String? = null
 )
 
+data class DatabaseName(
+    val id: Long,
+    val kanji: String?,
+    val kana: String,
+    val nameType: String?,
+    val meaning: String
+)
+
 data class DatabaseRadical(
     val radical: String,
     val strokes: Int

@@ -54,6 +54,12 @@ interface AppDataRepository {
         limit: Int = Int.MAX_VALUE
     ): List<JapaneseWord>
 
+    suspend fun searchWords(
+        query: SearchQuery,
+        offset: Int = 0,
+        limit: Int = Int.MAX_VALUE
+    ): SearchResult
+
     suspend fun getWordExamples(letter: String): List<JapaneseWord>
 
     suspend fun getWord(id: Long, kanjiReading: String?, kanaReading: String): JapaneseWord?
@@ -124,6 +130,21 @@ data class Sentence(
     val value: String,
     val translation: String,
     val furigana: FuriganaString
+)
+
+data class JapaneseName(
+    val id: Long,
+    val kanji: String?,
+    val kana: String,
+    val nameType: String?,
+    val meaning: String
+)
+
+data class SearchResult(
+    val totalCount: Int,
+    val words: List<JapaneseWord>,
+    val characters: List<String> = emptyList(),
+    val names: List<JapaneseName> = emptyList()
 )
 
 @Serializable

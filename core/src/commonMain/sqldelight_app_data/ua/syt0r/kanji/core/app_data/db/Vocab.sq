@@ -171,6 +171,33 @@ CREATE TABLE vocab_deck_card(
     PRIMARY KEY (jmdict_seq, kanji, kana, deck)
 );
 
+-- Portable offline search index. Android's bundled SQLite does not guarantee FTS5,
+-- so export precomputes normalized values and keeps the runtime path B-tree based.
+CREATE TABLE vocab_search_index (
+    entry_id INTEGER NOT NULL,
+    field TEXT NOT NULL,
+    value TEXT NOT NULL,
+    normalized TEXT NOT NULL,
+    PRIMARY KEY(entry_id, field, value, normalized),
+    FOREIGN KEY (entry_id) REFERENCES vocab_entry(id) ON DELETE CASCADE
+);
+
+CREATE TABLE vocab_search_tag (
+    entry_id INTEGER NOT NULL,
+    tag TEXT NOT NULL,
+    PRIMARY KEY(entry_id, tag),
+    FOREIGN KEY (entry_id) REFERENCES vocab_entry(id) ON DELETE CASCADE
+);
+
+CREATE TABLE vocab_name (
+    id INTEGER PRIMARY KEY,
+    kanji TEXT,
+    kana TEXT NOT NULL,
+    romaji TEXT NOT NULL,
+    name_type TEXT,
+    meaning TEXT NOT NULL
+);
+
 -- Foreign-key and search access paths for bounded reads and batched detail loading.
 CREATE INDEX idx_vocab_kanji_entry_priority
 ON vocab_kanji_element(entry_id, priority, element_id);
@@ -192,6 +219,92 @@ ON sentence(score, tatoeba_id);
 
 CREATE INDEX idx_vocab_deck_deck_priority
 ON vocab_deck_card(deck, priority, jmdict_seq);
+
+CREATE INDEX idx_vocab_search_normalized_field_entry
+ON vocab_search_index(normalized, field, entry_id);
+
+CREATE INDEX idx_vocab_search_entry_field
+ON vocab_search_index(entry_id, field, normalized);
+
+CREATE INDEX idx_vocab_search_tag_tag_entry
+ON vocab_search_tag(tag, entry_id);
+
+insert_vocab_name:
+INSERT OR REPLACE INTO vocab_name VALUES ?;
+
+searchVocabNameIds:
+SELECT id
+FROM vocab_name
+WHERE lower(COALESCE(kanji, '')) GLOB :pattern
+   OR lower(kana) GLOB :pattern
+   OR lower(romaji) GLOB :pattern
+   OR lower(meaning) GLOB :pattern
+   OR lower(COALESCE(name_type, '')) GLOB :pattern
+ORDER BY id;
+
+getAllVocabNameIds:
+SELECT id
+FROM vocab_name
+ORDER BY id;
+
+getVocabNamesByIds:
+SELECT id, kanji, kana, romaji, name_type, meaning
+FROM vocab_name
+WHERE id IN :ids
+ORDER BY id;
+
+insert_vocab_search_index:
+INSERT OR IGNORE INTO vocab_search_index(entry_id, field, value, normalized)
+VALUES (?, ?, ?, ?);
+
+insert_vocab_search_tag:
+INSERT OR IGNORE INTO vocab_search_tag(entry_id, tag)
+VALUES (?, ?);
+
+searchVocabEntryIds:
+SELECT DISTINCT entry_id
+FROM vocab_search_index
+WHERE field IN :fields
+  AND normalized GLOB :pattern
+ORDER BY entry_id;
+
+getAllVocabEntryIds:
+SELECT id
+FROM vocab_entry
+ORDER BY id;
+
+getVocabSearchEntries:
+WITH matched AS (
+    SELECT entry_id, element_id, reading, priority, 0 AS isKana
+    FROM vocab_kanji_element
+    WHERE entry_id IN :entryIds
+    UNION ALL
+    SELECT entry_id, element_id, reading, priority, 1 AS isKana
+    FROM vocab_kana_element
+    WHERE entry_id IN :entryIds
+), ranked AS (
+    SELECT entry_id,
+           MIN(priority) AS priority,
+           MIN(element_id) AS element_id
+    FROM matched
+    GROUP BY entry_id
+)
+SELECT matched.entry_id,
+       matched.element_id,
+       matched.reading,
+       matched.isKana,
+       ranked.priority
+FROM ranked
+JOIN matched
+  ON matched.entry_id = ranked.entry_id
+ AND matched.element_id = ranked.element_id
+ORDER BY ranked.priority IS NULL, ranked.priority, ranked.element_id, ranked.entry_id
+LIMIT :limit OFFSET :offset;
+
+getVocabEntryIdsWithTag:
+SELECT entry_id
+FROM vocab_search_tag
+WHERE tag = :tag;
 
 getVocabDeckCardsCount:
 SELECT COUNT(*)

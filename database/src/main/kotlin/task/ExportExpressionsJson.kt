@@ -13,10 +13,10 @@ private const val MinimumCharacterCoverageExpressionsCount = 5
 
 fun main() {
 
-    val jMdictItems = JMdictParser.Instance.parse(ProjectData.jMdictFile).asSequence()
-    val furiganaProvider = FuriganaProvider()
+    val jMdictItems = JMdictParser.Instance.parse(ProjectData.jMdictFile)
+    val furiganaProvider = FuriganaProvider.fromJMdictItems(jMdictItems)
 
-    val popularExpressions = jMdictItems.filterOnlyWithClassifiedReadingPriorities()
+    val popularExpressions = jMdictItems.asSequence().filterOnlyWithClassifiedReadingPriorities()
         .map { JmdictExpressionConverter.convert(it, furiganaProvider) }
         .toList()
 
@@ -34,7 +34,7 @@ fun main() {
 
     val popularExpressionIds = popularExpressions.map { it.id }.toSet()
 
-    val extraCoverageExpressions = jMdictItems
+    val extraCoverageExpressions = jMdictItems.asSequence()
         .filter { !popularExpressionIds.contains(it.entrySequence) }
         .map { JmdictExpressionConverter.convert(it, furiganaProvider) }
         .filter { expressionData ->

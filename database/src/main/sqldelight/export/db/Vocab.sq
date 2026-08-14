@@ -171,6 +171,40 @@ CREATE TABLE vocab_deck_card(
     PRIMARY KEY (jmdict_seq, kanji, kana, deck)
 );
 
+CREATE TABLE vocab_search_index (
+    entry_id INTEGER NOT NULL,
+    field TEXT NOT NULL,
+    value TEXT NOT NULL,
+    normalized TEXT NOT NULL,
+    PRIMARY KEY(entry_id, field, value, normalized),
+    FOREIGN KEY (entry_id) REFERENCES vocab_entry(id) ON DELETE CASCADE
+);
+
+CREATE TABLE vocab_search_tag (
+    entry_id INTEGER NOT NULL,
+    tag TEXT NOT NULL,
+    PRIMARY KEY(entry_id, tag),
+    FOREIGN KEY (entry_id) REFERENCES vocab_entry(id) ON DELETE CASCADE
+);
+
+CREATE INDEX idx_vocab_search_normalized_field_entry
+ON vocab_search_index(normalized, field, entry_id);
+
+CREATE INDEX idx_vocab_search_entry_field
+ON vocab_search_index(entry_id, field, normalized);
+
+CREATE INDEX idx_vocab_search_tag_tag_entry
+ON vocab_search_tag(tag, entry_id);
+
+CREATE TABLE vocab_name (
+    id INTEGER PRIMARY KEY,
+    kanji TEXT,
+    kana TEXT NOT NULL,
+    romaji TEXT NOT NULL,
+    name_type TEXT,
+    meaning TEXT NOT NULL
+);
+
 CREATE INDEX idx_vocab_kanji_entry_priority
 ON vocab_kanji_element(entry_id, priority, element_id);
 
@@ -191,6 +225,15 @@ ON sentence(score, tatoeba_id);
 
 CREATE INDEX idx_vocab_deck_deck_priority
 ON vocab_deck_card(deck, priority, jmdict_seq);
+
+insert_vocab_name:
+INSERT OR REPLACE INTO vocab_name VALUES ?;
+
+insert_vocab_search_index:
+INSERT OR IGNORE INTO vocab_search_index(entry_id, field, value, normalized) VALUES ?;
+
+insert_vocab_search_tag:
+INSERT OR IGNORE INTO vocab_search_tag(entry_id, tag) VALUES ?;
 
 insert_vocab_entry:
 INSERT INTO vocab_entry VALUES ?;

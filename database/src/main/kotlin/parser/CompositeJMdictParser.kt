@@ -40,7 +40,9 @@ object CompositeJMdictParser {
         file: File = ProjectData.jMdictWithExamplesFile,
     ): DatabaseVocabData {
         val idGenerator = IdGenerator()
-        val furiganaProvider = FuriganaProvider()
+        val furiganaProvider = FuriganaProvider(
+            requestedReadings = collectRequestedFuriganaReadings(file, wordsPool)
+        )
         val gson = Gson()
         val entities = StreamingJMdictParser.readEntities(file)
         val entries = mutableListOf<DatabaseVocabSingleEntry>()
@@ -80,6 +82,24 @@ object CompositeJMdictParser {
     }
 
     const val ElementIdGeneratorKey = "ele"
+
+    /**
+     * The supplemental furigana source contains hundreds of thousands of
+     * expressions. Collect only the surface/reading pairs represented by the
+     * vocabulary database, then let [FuriganaProvider] stream-filter the source.
+     */
+    private fun collectRequestedFuriganaReadings(
+        file: File,
+        wordsPool: Set<Long>
+    ): Set<Pair<String, String>> = buildSet {
+        StreamingJMdictParser.forEachSupportedEntry(file, wordsPool) { entry ->
+            entry.kanji.forEach { kanji ->
+                entry.readings.forEach { kana ->
+                    add(kanji.expression to kana.expression)
+                }
+            }
+        }
+    }
 
     private fun parseStreamingEntry(
         entry: StreamingJMdictEntry,

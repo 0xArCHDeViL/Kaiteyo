@@ -3,6 +3,7 @@ package ua.syt0r.kanji.presentation.screen.main.screen.credits
 import ua.syt0r.kanji.presentation.common.ui.KaiteyoScaffold
 
 import androidx.compose.animation.Crossfade
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.wrapContentSize
@@ -25,6 +26,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import com.mikepenz.aboutlibraries.Libs
 import com.mikepenz.aboutlibraries.entity.Library
 import org.koin.compose.koinInject
@@ -90,6 +92,19 @@ fun CreditsScreen(
                     LazyColumn(
                         modifier = Modifier.fillMaxSize()
                     ) {
+                        item {
+                            Column(modifier = Modifier.padding(20.dp)) {
+                                Text(
+                                    text = "Dictionary data and attribution",
+                                    style = androidx.compose.material3.MaterialTheme.typography.titleMedium
+                                )
+                                Text(
+                                    text = "JMdict, JMnedict/ENAMDICT, KANJIDIC2, and RADKFILE are provided by the Electronic Dictionary Research and Development Group (EDRDG) under the CC BY-SA 4.0 licence. Furigana segmentation is derived from the JMdict data source.\n\nSources: https://www.edrdg.org/edrdg/licence.html\nhttps://www.edrdg.org/jmdict/\nhttps://www.edrdg.org/enamdict/enamdict_doc.html\nhttps://jisho.hlorenzi.com/furigana.txt",
+                                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
+                                    modifier = Modifier.padding(top = 8.dp)
+                                )
+                            }
+                        }
                         items(it.libraries) {
                             AppListItem(
                                 onClick = { selectedLib = it },
