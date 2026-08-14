@@ -262,7 +262,7 @@ jobs:
           apk="$(find "$apk_dir" -maxdepth 1 -type f -name '*.apk' -print -quit)"
           test -n "$apk"
           test -s "app/build/outputs/mapping/$BUILD_VARIANT/mapping.txt"
-          mapfile -t database_assets < <(unzip -Z1 "$apk" | grep -E 'kanji-dojo-data-base-v[0-9]+\\.sql$' || true)
+          mapfile -t database_assets < <(unzip -Z1 "$apk" | grep -E 'kanji-dojo-data-base-v[0-9]+\.sql$' || true)
           test "${#database_assets[@]}" -eq 1
           [[ "${database_assets[0]}" == *"kanji-dojo-data-base-v${APP_DATA_VERSION}.sql" ]]
           apksigner="$(find "$ANDROID_HOME/build-tools" -maxdepth 2 -type f -name apksigner -print | sort -V | tail -n 1)"
