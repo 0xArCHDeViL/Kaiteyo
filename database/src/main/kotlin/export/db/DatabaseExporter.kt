@@ -194,7 +194,11 @@ class DatabaseExporter(
             }
         }
         data.sensePartsOfSpeech.forEach { value ->
-            senseToEntry[value.sense_id]?.let { insertTag(it, value.part_of_speech) }
+            senseToEntry[value.sense_id]?.let { entryId ->
+                insertTag(entryId, value.part_of_speech)
+                EdrdgSearchTagMapper.canonicalPartOfSpeechTags(value.part_of_speech)
+                    .forEach { canonicalTag -> insertTag(entryId, canonicalTag) }
+            }
         }
         data.senseFields.forEach { value ->
             senseToEntry[value.sense_id]?.let { insertTag(it, value.field_name) }
