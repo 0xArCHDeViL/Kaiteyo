@@ -268,7 +268,7 @@ jobs:
           apksigner="$(find "$ANDROID_HOME/build-tools" -maxdepth 2 -type f -name apksigner -print | sort -V | tail -n 1)"
           test -n "$apksigner"
           test -x "$apksigner"
-          "$apksigner" verify --verbose --print-certs "$apk" | tee "$apk_dir/signing-certificate.txt"
+          "$apksigner" verify --verbose --print-certs "$apk" 2>&1 | tee "$apk_dir/signing-certificate.txt"
           # apksigner labels certificate lines differently across build-tools revisions.
           grep -E 'certificate SHA-256 digest:' "$apk_dir/signing-certificate.txt"
 
