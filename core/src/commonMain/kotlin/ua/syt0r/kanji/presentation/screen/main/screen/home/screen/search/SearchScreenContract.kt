@@ -2,6 +2,7 @@ package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search
 
 import androidx.compose.runtime.State
 import ua.syt0r.kanji.core.app_data.JapaneseName
+import ua.syt0r.kanji.presentation.common.PaginatableJapaneseNameList
 import ua.syt0r.kanji.presentation.common.PaginatableJapaneseWordList
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.data.RadicalSearchListItem
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.data.RadicalSearchState
@@ -22,6 +23,7 @@ interface SearchScreenContract {
 
         fun search(input: String)
         fun loadMoreWords()
+        fun loadMoreNames()
 
         // Added for performance issues, loaded list makes switching to screen junky
         fun loadRadicalsData()
@@ -32,7 +34,7 @@ interface SearchScreenContract {
     data class ScreenState(
         val isLoading: Boolean,
         val characters: List<String>,
-        val names: List<JapaneseName> = emptyList(),
+        val names: State<PaginatableJapaneseNameList>,
         val words: State<PaginatableJapaneseWordList>,
         val query: String
     )
@@ -50,6 +52,10 @@ interface SearchScreenContract {
     }
 
     interface LoadMoreWordsUseCase {
+        suspend fun loadMore(state: ScreenState)
+    }
+
+    interface LoadMoreNamesUseCase {
         suspend fun loadMore(state: ScreenState)
     }
 

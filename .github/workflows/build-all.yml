@@ -12,12 +12,12 @@ on:
         description: "Application data schema/release version"
         required: false
         type: string
-        default: "19"
+        default: "20"
       app_data_release_tag:
         description: "Internal GitHub Release tag used in release mode"
         required: false
         type: string
-        default: data-v19
+        default: data-v20
       publish_data_release:
         description: "Publish the source-built database as a GitHub Release asset"
         required: false
@@ -42,12 +42,12 @@ on:
         description: "Application data schema/release version"
         required: true
         type: string
-        default: "19"
+        default: "20"
       app_data_release_tag:
         description: "Internal GitHub Release tag used in release mode"
         required: true
         type: string
-        default: data-v19
+        default: data-v20
       publish_data_release:
         description: "Publish source-built database to the GitHub Release section"
         required: true
@@ -76,8 +76,8 @@ jobs:
     timeout-minutes: 25
     env:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
-      APP_DATA_VERSION: ${{ inputs.app_data_version || '19' }}
-      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v19' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '20' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v20' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -139,8 +139,8 @@ jobs:
     timeout-minutes: 25
     env:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
-      APP_DATA_VERSION: ${{ inputs.app_data_version || '19' }}
-      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v19' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '20' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v20' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -192,8 +192,8 @@ jobs:
     timeout-minutes: 35
     env:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
-      APP_DATA_VERSION: ${{ inputs.app_data_version || '19' }}
-      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v19' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '20' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v20' }}
       BUILD_VARIANT: ${{ inputs.build_variant || 'preview' }}
       KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
       KEYSTORE_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
@@ -262,6 +262,9 @@ jobs:
           apk="$(find "$apk_dir" -maxdepth 1 -type f -name '*.apk' -print -quit)"
           test -n "$apk"
           test -s "app/build/outputs/mapping/$BUILD_VARIANT/mapping.txt"
+          mapfile -t database_assets < <(unzip -Z1 "$apk" | grep -E 'kanji-dojo-data-base-v[0-9]+\\.sql$' || true)
+          test "${#database_assets[@]}" -eq 1
+          [[ "${database_assets[0]}" == *"kanji-dojo-data-base-v${APP_DATA_VERSION}.sql" ]]
           apksigner="$(find "$ANDROID_HOME/build-tools" -maxdepth 2 -type f -name apksigner -print | sort -V | tail -n 1)"
           test -n "$apksigner"
           test -x "$apksigner"
@@ -317,19 +320,19 @@ jobs:
       - name: Download source-built application data
         uses: actions/download-artifact@v4
         with:
-          name: source-app-data-v${{ inputs.app_data_version || '19' }}
+          name: source-app-data-v${{ inputs.app_data_version || '20' }}
           path: database
 
       - name: Publish internal data release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: data-v${{ inputs.app_data_version || '19' }}
-          name: Internal Kaiteyo Data v${{ inputs.app_data_version || '19' }}
+          tag_name: data-v${{ inputs.app_data_version || '20' }}
+          name: Internal Kaiteyo Data v${{ inputs.app_data_version || '20' }}
           target_commitish: ${{ github.sha }}
           generate_release_notes: false
           body: |
             Source-built Kaiteyo application database generated from the vendored `database/` source tree.
             The `.sql` extension is retained for application asset compatibility; the artifact is a SQLite database.
           files: |
-            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '19' }}.sql
-            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '19' }}.sql.sha256
+            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '20' }}.sql
+            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '20' }}.sql.sha256

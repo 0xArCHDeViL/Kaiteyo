@@ -249,6 +249,7 @@ object EnglishStatsStrings : StatsStrings {
 object EnglishSearchStrings : SearchStrings {
     override val inputHint: String = "Search words, romaji, or #k #c #name"
     override val charactersTitle: (count: Int) -> String = { "Letters ($it)" }
+    override val namesTitle: (count: Int) -> String = { "Names ($it)" }
     override val wordsTitle: (count: Int) -> String = { "Words ($it)" }
     override val radicalsSheetTitle: String = "Search by radicals"
     override val radicalsFoundCharacters: String = "Found letters"

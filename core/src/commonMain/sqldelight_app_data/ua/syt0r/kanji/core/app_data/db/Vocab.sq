@@ -223,11 +223,15 @@ ON vocab_deck_card(deck, priority, jmdict_seq);
 CREATE INDEX idx_vocab_search_normalized_field_entry
 ON vocab_search_index(normalized, field, entry_id);
 
+CREATE INDEX idx_vocab_search_field_normalized_entry
+ON vocab_search_index(field, normalized, entry_id);
+
 CREATE INDEX idx_vocab_search_entry_field
 ON vocab_search_index(entry_id, field, normalized);
 
 CREATE INDEX idx_vocab_search_tag_tag_entry
 ON vocab_search_tag(tag, entry_id);
+
 
 insert_vocab_name:
 INSERT OR REPLACE INTO vocab_name VALUES ?;
@@ -235,17 +239,47 @@ INSERT OR REPLACE INTO vocab_name VALUES ?;
 searchVocabNameIds:
 SELECT id
 FROM vocab_name
-WHERE lower(COALESCE(kanji, '')) GLOB :pattern
-   OR lower(kana) GLOB :pattern
-   OR lower(romaji) GLOB :pattern
-   OR lower(meaning) GLOB :pattern
-   OR lower(COALESCE(name_type, '')) GLOB :pattern
+WHERE COALESCE(kanji, '') COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR kana COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR romaji COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR meaning COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR COALESCE(name_type, '') COLLATE NOCASE LIKE :pattern ESCAPE '\'
 ORDER BY id;
 
 getAllVocabNameIds:
 SELECT id
 FROM vocab_name
 ORDER BY id;
+
+getAllVocabNameIdsPage:
+SELECT id
+FROM vocab_name
+ORDER BY id
+LIMIT :limit OFFSET :offset;
+
+getAllVocabNameCount:
+SELECT COUNT(*)
+FROM vocab_name;
+
+searchVocabNameCount:
+SELECT COUNT(*)
+FROM vocab_name
+WHERE COALESCE(kanji, '') COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR kana COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR romaji COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR meaning COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR COALESCE(name_type, '') COLLATE NOCASE LIKE :pattern ESCAPE '\';
+
+searchVocabNameIdsPage:
+SELECT id
+FROM vocab_name
+WHERE COALESCE(kanji, '') COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR kana COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR romaji COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR meaning COLLATE NOCASE LIKE :pattern ESCAPE '\'
+   OR COALESCE(name_type, '') COLLATE NOCASE LIKE :pattern ESCAPE '\'
+ORDER BY id
+LIMIT :limit OFFSET :offset;
 
 getVocabNamesByIds:
 SELECT id, kanji, kana, romaji, name_type, meaning

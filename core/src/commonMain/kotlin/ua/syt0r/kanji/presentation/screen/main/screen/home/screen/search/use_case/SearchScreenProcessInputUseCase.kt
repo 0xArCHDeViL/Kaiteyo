@@ -4,6 +4,7 @@ import androidx.compose.runtime.mutableStateOf
 import ua.syt0r.kanji.core.app_data.AppDataRepository
 import ua.syt0r.kanji.core.app_data.SearchQueryParser
 import ua.syt0r.kanji.core.japanese.isKana
+import ua.syt0r.kanji.presentation.common.PaginatableJapaneseNameList
 import ua.syt0r.kanji.presentation.common.PaginatableJapaneseWordList
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.SearchScreenContract
 
@@ -28,21 +29,28 @@ class SearchScreenProcessInputUseCase(
         }
 
 
+        val parsedQuery = SearchQueryParser.parse(input)
         val searchResult = input.takeIf { it.isNotBlank() }
-            ?.let { query ->
+            ?.let {
                 appDataRepository.searchWords(
-                    query = SearchQueryParser.parse(query),
+                    query = parsedQuery,
                     limit = SearchScreenContract.InitialWordsCount
                 )
             }
             ?: ua.syt0r.kanji.core.app_data.SearchResult(0, emptyList())
 
+        val isNamesQuery = parsedQuery.scope == ua.syt0r.kanji.core.app_data.SearchScope.Names
+        val namesTotalCount = if (isNamesQuery) searchResult.totalCount else 0
+        val wordsTotalCount = if (isNamesQuery) 0 else searchResult.totalCount
+
         return SearchScreenContract.ScreenState(
             isLoading = false,
             characters = searchResult.characters.ifEmpty { knownCharacters },
-            names = searchResult.names,
+            names = mutableStateOf(
+                PaginatableJapaneseNameList(namesTotalCount, searchResult.names)
+            ),
             words = mutableStateOf(
-                PaginatableJapaneseWordList(searchResult.totalCount, searchResult.words)
+                PaginatableJapaneseWordList(wordsTotalCount, searchResult.words)
             ),
             query = input
         )

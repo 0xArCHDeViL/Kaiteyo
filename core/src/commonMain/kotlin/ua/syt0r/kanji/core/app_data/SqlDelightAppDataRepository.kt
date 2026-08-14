@@ -221,84 +221,105 @@ class SqlDelightAppDataRepository(
         if (query.scope == SearchScope.Names) return searchNames(query, offset, limit)
 
         return vocabQuery {
-            try {
-                val fields = when (query.scope) {
-            SearchScope.Names -> listOf("name")
-            else -> listOf("kanji", "kana", "romaji", "gloss")
-        }
+            val fields = listOf("kanji", "kana", "romaji", "gloss")
+            val positiveTags = query.tags.filterNot(SearchTag::negated)
+            val negativeTags = query.tags.filter(SearchTag::negated)
 
-        val matchedIds = if (query.terms.isEmpty()) {
-            getAllVocabEntryIds().executeAsList().toSet()
-        } else {
-            query.terms
-                .map { term ->
-                    term.toGlobPatterns().asSequence()
-                        .flatMap { pattern ->
-                            searchVocabEntryIds(fields, pattern).executeAsList().asSequence()
-                        }
-                        .toSet()
+            val matchedIds = when {
+                query.terms.isNotEmpty() -> query.terms
+                    .map { term ->
+                        term.toGlobPatterns().asSequence()
+                            .flatMap { pattern ->
+                                searchVocabEntryIds(fields, pattern).executeAsList().asSequence()
+                            }
+                            .toSet()
+                    }
+                    .reduceOrNull { left, right -> left intersect right }
+                    ?.toMutableSet()
+                    ?: mutableSetOf()
+
+                positiveTags.isNotEmpty() -> positiveTags
+                    .map { tag -> getVocabEntryIdsForTag(tag) }
+                    .reduceOrNull { left, right -> left intersect right }
+                    ?.toMutableSet()
+                    ?: mutableSetOf()
+
+                else -> getAllVocabEntryIds().executeAsList().toMutableSet()
+            }
+
+            positiveTags.forEach { tag ->
+                if (query.terms.isNotEmpty()) {
+                    matchedIds.retainAll(getVocabEntryIdsForTag(tag))
                 }
-                .reduceOrNull { left, right -> left intersect right }
-                ?: emptySet()
-        }.toMutableSet()
-
-        query.tags.filterNot { it.negated }.forEach { tag ->
-            matchedIds.retainAll(getVocabEntryIdsWithTag(tag.value).executeAsList().toSet())
-        }
-        query.tags.filter { it.negated }.forEach { tag ->
-            matchedIds.removeAll(getVocabEntryIdsWithTag(tag.value).executeAsList().toSet())
-        }
-
-        val sortedEntries = matchedIds
-            .toList()
-            .chunked(SearchEntryIdChunkSize)
-            .flatMap { ids ->
-                if (ids.isEmpty()) emptyList()
-                else getVocabSearchEntries(
-                    entryIds = ids,
-                    limit = Int.MAX_VALUE.toLong(),
-                    offset = 0
-                ).executeAsList()
             }
-            .sortedWith(
-                compareBy<GetVocabSearchEntries> {
-                    it.priority == null
-                }.thenBy { it.priority ?: Long.MAX_VALUE }
-                    .thenBy { it.element_id }
-                    .thenBy { it.entry_id }
-            )
+            negativeTags.forEach { tag ->
+                matchedIds.removeAll(getVocabEntryIdsForTag(tag))
+            }
 
-        val page = sortedEntries.drop(offset.coerceAtLeast(0)).take(limit.coerceAtLeast(0))
-            .mapNotNull { element ->
-                getWord(
-                    id = element.entry_id,
-                    kanaReading = element.reading.takeIf { element.isKana == 1L },
-                    kanjiReading = element.reading.takeIf { element.isKana == 0L }
+            val requestedWindow = offset.toLong().coerceAtLeast(0L) +
+                    limit.toLong().coerceAtLeast(0L)
+            val chunkLimit = requestedWindow.coerceAtLeast(1L)
+
+            val sortedEntries = matchedIds
+                .toList()
+                .chunked(SearchEntryIdChunkSize)
+                .flatMap { ids ->
+                    if (ids.isEmpty()) emptyList()
+                    else getVocabSearchEntries(
+                        entryIds = ids,
+                        limit = chunkLimit,
+                        offset = 0
+                    ).executeAsList()
+                }
+                .sortedWith(
+                    compareBy<GetVocabSearchEntries> {
+                        it.priority == null
+                    }.thenBy { it.priority ?: Long.MAX_VALUE }
+                        .thenBy { it.element_id }
+                        .thenBy { it.entry_id }
                 )
-            }
+
+            val page = sortedEntries
+                .drop(offset.coerceAtLeast(0))
+                .take(limit.coerceAtLeast(0))
+                .mapNotNull { element ->
+                    getWord(
+                        id = element.entry_id,
+                        kanaReading = element.reading.takeIf { element.isKana == 1L },
+                        kanjiReading = element.reading.takeIf { element.isKana == 0L }
+                    )
+                }
 
             SearchResult(totalCount = matchedIds.size, words = page)
-        } catch (error: Exception) {
-            Logger.e("Structured search index unavailable; using legacy search: ${error.message}")
-            val legacyText = query.terms.joinToString(" ") { it.value }
-            val legacyWords = getVocabReadingsWithText(
-                text = legacyText,
-                includeKanjiReadings = true,
-                offset = offset.toLong(),
-                limit = limit.toLong()
-            ).executeAsList().mapNotNull { element ->
-                getWord(
-                    id = element.entry_id,
-                    kanaReading = element.reading.takeIf { element.isKana == 1L },
-                    kanjiReading = element.reading.takeIf { element.isKana == 0L }
-                )
-            }
-                SearchResult(
-                    totalCount = getCountOfVocabReadingsWithText(legacyText, true)
-                        .executeAsOne()
-                        .toInt(),
-                    words = legacyWords
-                )
+        }
+    }
+
+    private fun VocabQueries.getVocabEntryIdsForTag(tag: SearchTag): Set<Long> =
+        tag.storageValues()
+            .asSequence()
+            .flatMap { value -> getVocabEntryIdsWithTag(value).executeAsList().asSequence() }
+            .toSet()
+
+    private fun SearchTag.storageValues(): List<String> = when (value) {
+        "transitive", "transitive-verb", "vt" -> listOf("vt", "transitive verb")
+        "intransitive", "intransitive-verb", "vi" -> listOf("vi", "intransitive verb")
+        "ichidan", "ichidan-verb", "v1" -> listOf("v1", "ichidan verb")
+        "suru", "suru-verb", "vs" -> listOf("vs", "suru verb", "noun or participle which takes the aux. verb suru")
+        "kuru", "kuru-verb", "vk" -> listOf("vk", "kuru verb - special class")
+        "noun" -> listOf("noun", "noun (common) (futsuumeishi)")
+        "adj", "adjective" -> listOf("adj", "adjective (keiyoushi)", "adjectival nouns or quasi-adjectives (keiyodoshi)")
+        "adv", "adverb" -> listOf("adv", "adverb (fukushi)", "adverb taking the 'to' particle")
+        "expression", "expressions" -> listOf("expression", "expressions (phrases, clauses, etc.)")
+        else -> listOf(value)
+    }
+
+    private fun String.toSqlLikePattern(): String = buildString(length) {
+        for (character in this@toSqlLikePattern) {
+            when (character) {
+                '*' -> append('%')
+                '?' -> append('_')
+                '%', '_', '\\' -> append('\\').append(character)
+                else -> append(character)
             }
         }
     }
@@ -308,25 +329,41 @@ class SqlDelightAppDataRepository(
         offset: Int,
         limit: Int
     ): SearchResult = vocabQuery {
-        val matchedIds = if (query.terms.isEmpty()) {
-            getAllVocabNameIds().executeAsList().toSet()
+        val safeOffset = offset.coerceAtLeast(0).toLong()
+        val safeLimit = limit.coerceAtLeast(0).toLong()
+        val matchedIds: Set<Long>
+        val pageIds: List<Long>
+        val totalCount: Int
+
+        if (query.terms.isEmpty()) {
+            matchedIds = emptySet()
+            totalCount = getAllVocabNameCount().executeAsOne().toInt()
+            pageIds = getAllVocabNameIdsPage(
+                limit = safeLimit,
+                offset = safeOffset
+            ).executeAsList()
         } else {
-            query.terms
+            matchedIds = query.terms
                 .map { term ->
                     term.toGlobPatterns().asSequence()
                         .flatMap { pattern ->
-                            searchVocabNameIds(pattern).executeAsList().asSequence()
+                            searchVocabNameIds(pattern.toSqlLikePattern())
+                                .executeAsList()
+                                .asSequence()
                         }
                         .toSet()
                 }
                 .reduceOrNull { left, right -> left intersect right }
                 ?: emptySet()
+            totalCount = matchedIds.size
+            pageIds = matchedIds
+                .asSequence()
+                .sorted()
+                .drop(safeOffset.toInt())
+                .take(safeLimit.toInt())
+                .toList()
         }
-        val pageIds = matchedIds
-            .toList()
-            .sorted()
-            .drop(offset.coerceAtLeast(0))
-            .take(limit.coerceAtLeast(0))
+
         val names = getVocabNamesByIds(pageIds)
             .executeAsList()
             .map {
@@ -338,7 +375,7 @@ class SqlDelightAppDataRepository(
                     meaning = it.meaning
                 )
             }
-        SearchResult(totalCount = matchedIds.size, words = emptyList(), names = names)
+        SearchResult(totalCount = totalCount, words = emptyList(), names = names)
     }
 
     private suspend fun searchKanji(query: SearchQuery): SearchResult {

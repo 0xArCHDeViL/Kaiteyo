@@ -24,4 +24,24 @@ class EdrdgSearchTagMapperTest {
             "vs"
         )
     }
+
+    @Test
+    fun mapsCommonEdrdgCategoriesToStableShortTags() {
+        assertContains(
+            EdrdgSearchTagMapper.canonicalPartOfSpeechTags("noun (common) (futsuumeishi)"),
+            "noun"
+        )
+        assertContains(
+            EdrdgSearchTagMapper.canonicalPartOfSpeechTags("adverb (fukushi)"),
+            "adv"
+        )
+        assertContains(
+            EdrdgSearchTagMapper.canonicalPartOfSpeechTags("adjective (keiyoushi)"),
+            "adj"
+        )
+        assertContains(
+            EdrdgSearchTagMapper.canonicalPartOfSpeechTags("expressions (phrases, clauses, etc.)"),
+            "expression"
+        )
+    }
 }

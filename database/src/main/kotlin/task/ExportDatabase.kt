@@ -15,7 +15,7 @@ import parser.withFallback
 import java.io.File
 
 const val ExportFileNameTemplate = "kanji-dojo-data-base-v%d.sql"
-private const val DefaultExportDatabaseVersion = 19
+private const val DefaultExportDatabaseVersion = 20
 val ExportDatabaseVersion: Int
     get() = System.getProperty("appDataVersion")?.toIntOrNull() ?: DefaultExportDatabaseVersion
 

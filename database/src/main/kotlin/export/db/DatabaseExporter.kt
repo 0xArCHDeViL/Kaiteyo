@@ -221,12 +221,13 @@ class DatabaseExporter(
 
     fun writeNames(items: List<DatabaseName>) = database.transaction {
         items.forEach { name ->
+            val romaji = name.kana.searchRomaji()
             database.vocabQueries.insert_vocab_name(
                 Vocab_name(
                     id = name.id,
                     kanji = name.kanji,
                     kana = name.kana,
-                    romaji = name.kana.searchRomaji(),
+                    romaji = romaji,
                     name_type = name.nameType,
                     meaning = name.meaning
                 )

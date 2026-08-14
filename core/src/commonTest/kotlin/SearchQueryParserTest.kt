@@ -28,6 +28,20 @@ class SearchQueryParserTest {
     }
 
     @Test
+    fun expandsMultipleRomajiMoraAliasesWithoutCorruptingWords() {
+        val variants = SearchQueryParser.parse("syufu").terms.single().romajiVariants
+
+        assertTrue(variants.contains("syufu"))
+        assertTrue(variants.contains("shufu"))
+        assertTrue(variants.contains("syuhu"))
+        assertFalse(variants.any { it.contains("sfufu") })
+
+        assertTrue(SearchQueryParser.parse("si").terms.single().romajiVariants.contains("shi"))
+        assertTrue(SearchQueryParser.parse("ti").terms.single().romajiVariants.contains("chi"))
+        assertTrue(SearchQueryParser.parse("tu").terms.single().romajiVariants.contains("tsu"))
+    }
+
+    @Test
     fun preservesWildcardOperators() {
         val query = SearchQueryParser.parse("??直*")
 

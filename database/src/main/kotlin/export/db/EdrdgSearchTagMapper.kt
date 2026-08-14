@@ -26,6 +26,27 @@ object EdrdgSearchTagMapper {
                 normalized.startsWith("suru verb") ||
                     normalized.startsWith("noun or participle which takes the aux. verb suru") -> add("vs")
             }
+
+            when {
+                normalized.startsWith("noun") -> add("noun")
+                normalized.startsWith("adjective") ||
+                    normalized.startsWith("'taru' adjective") ||
+                    normalized.startsWith("'ku' adjective") ||
+                    normalized.startsWith("archaic/formal form of na-adjective") -> add("adj")
+                normalized.startsWith("adverb") -> add("adv")
+                normalized.startsWith("expressions") -> add("expression")
+                normalized.startsWith("particle") -> add("particle")
+                normalized.startsWith("pronoun") -> add("pronoun")
+                normalized.startsWith("prefix") -> add("prefix")
+                normalized.startsWith("suffix") -> add("suffix")
+                normalized.startsWith("counter") -> add("counter")
+                normalized.startsWith("conjunction") -> add("conjunction")
+                normalized.startsWith("interjection") -> add("interjection")
+                normalized.startsWith("auxiliary") -> add("auxiliary")
+                normalized.startsWith("copula") -> add("copula")
+                normalized.startsWith("numeric") -> add("numeric")
+                normalized.startsWith("pre-noun adjectival") -> add("rentaishi")
+            }
         }
     }
 }

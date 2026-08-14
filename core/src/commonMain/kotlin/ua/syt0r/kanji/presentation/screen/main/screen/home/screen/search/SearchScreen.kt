@@ -32,6 +32,7 @@ fun SearchScreen(
             mainNavigationState.navigate(MainDestination.Info(screenData))
         },
         onScrolledToEnd = { viewModel.loadMoreWords() },
+        onNamesScrolledToEnd = { viewModel.loadMoreNames() },
         onWordFeedback = {
             val feedbackTopic = FeedbackTopic.Expression(it.id, FeedbackScreen.Search)
             val destination = MainDestination.Feedback(feedbackTopic)

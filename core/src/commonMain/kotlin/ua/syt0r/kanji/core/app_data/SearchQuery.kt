@@ -110,41 +110,61 @@ object SearchQueryParser {
         .lowercase()
 
     /**
-     * Jisho-style search accepts common Hepburn/Kunrei variants. The database stores a
-     * canonical Wanakana form, so query-time aliases are cheaper and safer than duplicating
-     * every indexed row.
+     * Jisho-style search accepts common Hepburn/Kunrei/Nihon-shiki variants. The database
+     * stores a canonical Wanakana form, so query-time aliases are cheaper and safer than
+     * duplicating every indexed row. Variants are generated per mora rather than with global
+     * string replacement: `shufu` must not become the invalid `sfufu` when `fu`/`hu` aliases
+     * are expanded.
      */
     internal fun romajiVariants(value: String): List<String> {
         val lower = value.lowercase()
-        val canonical = lower
-            .replace("sya", "sha")
-            .replace("syu", "shu")
-            .replace("syo", "sho")
-            .replace("tya", "cha")
-            .replace("tyu", "chu")
-            .replace("tyo", "cho")
-            .replace("ti", "chi")
-            .replace("tu", "tsu")
-            .replace("dya", "ja")
-            .replace("dyu", "ju")
-            .replace("dyo", "jo")
-            .replace("zi", "ji")
-            .replace("zya", "ja")
-            .replace("zyu", "ju")
-            .replace("zyo", "jo")
-        val kunrei = canonical
-            .replace("sha", "sya")
-            .replace("shu", "syu")
-            .replace("sho", "syo")
-            .replace("cha", "tya")
-            .replace("chu", "tyu")
-            .replace("cho", "tyo")
-            .replace("chi", "ti")
-            .replace("tsu", "tu")
-            .replace("ja", "zya")
-            .replace("ju", "zyu")
-            .replace("zyo", "jo")
-            .replace("ji", "zi")
-        return linkedSetOf(lower, canonical, kunrei).filter(String::isNotEmpty)
+        if (lower.isEmpty()) return emptyList()
+
+        val variants = linkedSetOf(lower)
+        var partials = listOf("")
+        var index = 0
+        while (index < lower.length) {
+            val aliasMatch = romajiAliases
+                .asSequence()
+                .flatMap { alias -> alias.forms.asSequence().map { form -> alias to form } }
+                .filter { (_, form) -> lower.regionMatches(index, form, 0, form.length) }
+                .maxByOrNull { (_, form) -> form.length }
+
+            if (aliasMatch == null) {
+                val character = lower[index].toString()
+                partials = partials.map { it + character }
+                index += 1
+            } else {
+                val (alias, matchedForm) = aliasMatch
+                partials = partials
+                    .flatMap { prefix -> alias.forms.map { prefix + it } }
+                    .distinct()
+                    .take(MaxRomajiVariants)
+                index += matchedForm.length
+            }
+        }
+        variants.addAll(partials)
+        return variants.take(MaxRomajiVariants)
     }
+
+    private data class RomajiAlias(val forms: List<String>)
+
+    private val romajiAliases = listOf(
+        RomajiAlias(listOf("sha", "sya")),
+        RomajiAlias(listOf("shu", "syu")),
+        RomajiAlias(listOf("sho", "syo")),
+        RomajiAlias(listOf("shi", "si")),
+        RomajiAlias(listOf("cha", "tya")),
+        RomajiAlias(listOf("chu", "tyu")),
+        RomajiAlias(listOf("cho", "tyo")),
+        RomajiAlias(listOf("chi", "ti")),
+        RomajiAlias(listOf("tsu", "tu")),
+        RomajiAlias(listOf("fu", "hu")),
+        RomajiAlias(listOf("ja", "zya")),
+        RomajiAlias(listOf("ju", "zyu")),
+        RomajiAlias(listOf("jo", "zyo")),
+        RomajiAlias(listOf("ji", "zi"))
+    )
+
+    private const val MaxRomajiVariants = 32
 }

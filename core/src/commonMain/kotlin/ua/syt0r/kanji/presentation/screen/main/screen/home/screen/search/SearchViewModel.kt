@@ -19,6 +19,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
 import ua.syt0r.kanji.core.logger.Logger
+import ua.syt0r.kanji.presentation.common.PaginatableJapaneseNameList
 import ua.syt0r.kanji.presentation.common.PaginatableJapaneseWordList
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.SearchScreenContract.ScreenState
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.data.RadicalSearchState
@@ -27,6 +28,7 @@ class SearchViewModel(
     private val viewModelScope: CoroutineScope,
     private val processInputUseCase: SearchScreenContract.ProcessInputUseCase,
     private val loadMoreWordsUseCase: SearchScreenContract.LoadMoreWordsUseCase,
+    private val loadMoreNamesUseCase: SearchScreenContract.LoadMoreNamesUseCase,
     private val loadRadicalsUseCase: SearchScreenContract.LoadRadicalsUseCase,
     private val searchByRadicalsUseCase: SearchScreenContract.SearchByRadicalsUseCase,
     private val updateEnabledRadicalsUseCase: SearchScreenContract.UpdateEnabledRadicalsUseCase,
@@ -35,6 +37,7 @@ class SearchViewModel(
 
     private val searchQueriesChannel = Channel<String>(Channel.BUFFERED)
     private val loadMoreWordsChannel = Channel<Int>(Channel.RENDEZVOUS, BufferOverflow.DROP_LATEST)
+    private val loadMoreNamesChannel = Channel<Int>(Channel.RENDEZVOUS, BufferOverflow.DROP_LATEST)
 
     private val radicalsDataInitialLoadChannel = Channel<Unit>(Channel.BUFFERED)
     private val radicalsLoadedCompletable = CompletableDeferred<Unit>()
@@ -44,6 +47,7 @@ class SearchViewModel(
         ScreenState(
             isLoading = false,
             characters = emptyList(),
+            names = mutableStateOf(PaginatableJapaneseNameList(0, emptyList())),
             words = mutableStateOf(PaginatableJapaneseWordList(0, emptyList())),
             query = ""
         )
@@ -63,6 +67,7 @@ class SearchViewModel(
         handleRadicalsLoading(radicalsLoadedCompletable)
         handleRadicalSearchQueries(radicalsLoadedCompletable)
         handleLoadMoreWordsRequests()
+        handleLoadMoreNamesRequests()
     }
 
     override fun search(input: String) {
@@ -74,6 +79,12 @@ class SearchViewModel(
         Logger.d(">>")
         val currentState = state.value.words.value
         loadMoreWordsChannel.trySend(currentState.items.size)
+    }
+
+    override fun loadMoreNames() {
+        Logger.d("load more names")
+        val currentState = state.value.names.value
+        loadMoreNamesChannel.trySend(currentState.items.size)
     }
 
     override fun loadRadicalsData() {
@@ -156,9 +167,14 @@ class SearchViewModel(
             }
     }
 
-    private fun handleLoadMoreWordsRequests() = viewModelScope.launch {
+        private fun handleLoadMoreWordsRequests() = viewModelScope.launch {
         loadMoreWordsChannel.consumeAsFlow()
             .collect { loadMoreWordsUseCase.loadMore(state.value) }
+    }
+
+    private fun handleLoadMoreNamesRequests() = viewModelScope.launch {
+        loadMoreNamesChannel.consumeAsFlow()
+            .collect { loadMoreNamesUseCase.loadMore(state.value) }
     }
 
 }

@@ -79,6 +79,7 @@ fun SearchScreenUI(
     onCharacterClick: (String) -> Unit,
     onWordClick: (JapaneseWord) -> Unit,
     onScrolledToEnd: () -> Unit,
+    onNamesScrolledToEnd: () -> Unit,
     onWordFeedback: (JapaneseWord) -> Unit,
     startWithRadicals: Boolean = false
 ) {
@@ -149,7 +150,8 @@ fun SearchScreenUI(
                 searchContainerState = searchContainerState,
                 onCharacterClick = onCharacterClick,
                 onWordClick = onWordClick,
-                onScrolledToEnd = onScrolledToEnd
+                onScrolledToEnd = onScrolledToEnd,
+                onNamesScrolledToEnd = onNamesScrolledToEnd
             )
         }
 
@@ -362,11 +364,15 @@ private fun ListContent(
     searchContainerState: CollapsibleContainerState,
     onCharacterClick: (String) -> Unit,
     onWordClick: (JapaneseWord) -> Unit,
-    onScrolledToEnd: () -> Unit
+    onScrolledToEnd: () -> Unit,
+    onNamesScrolledToEnd: () -> Unit
 ) {
     val listState = rememberLazyListState()
     val canLoadMoreWords = remember(screenState) {
         derivedStateOf { screenState.words.value.canLoadMore }
+    }
+    val canLoadMoreNames = remember(screenState) {
+        derivedStateOf { screenState.names.value.canLoadMore }
     }
 
     if (canLoadMoreWords.value) {
@@ -375,6 +381,15 @@ private fun ListContent(
                 .map { it.isNearListEnd(SearchScreenContract.LoadMoreWordsFromEndThreshold) }
                 .filter { it }
                 .collect { onScrolledToEnd() }
+        }
+    }
+
+    if (canLoadMoreNames.value) {
+        LaunchedEffect(Unit) {
+            snapshotFlow { listState.layoutInfo }
+                .map { it.isNearListEnd(SearchScreenContract.LoadMoreWordsFromEndThreshold) }
+                .filter { it }
+                .collect { onNamesScrolledToEnd() }
         }
     }
 
@@ -423,11 +438,15 @@ private fun ListContent(
                 }
             }
 
-            if (screenState.names.isNotEmpty()) {
+            val currentNamesState = screenState.names.value
+            if (currentNamesState.items.isNotEmpty()) {
                 stickyHeader {
-                    SearchHeader(text = "Names", isSticky = true)
+                    SearchHeader(
+                        text = resolveString { search.namesTitle(currentNamesState.totalCount) },
+                        isSticky = true
+                    )
                 }
-                items(screenState.names) { name ->
+                items(currentNamesState.items) { name ->
                     JapaneseNameResult(name)
                 }
             }

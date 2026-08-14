@@ -190,11 +190,15 @@ CREATE TABLE vocab_search_tag (
 CREATE INDEX idx_vocab_search_normalized_field_entry
 ON vocab_search_index(normalized, field, entry_id);
 
+CREATE INDEX idx_vocab_search_field_normalized_entry
+ON vocab_search_index(field, normalized, entry_id);
+
 CREATE INDEX idx_vocab_search_entry_field
 ON vocab_search_index(entry_id, field, normalized);
 
 CREATE INDEX idx_vocab_search_tag_tag_entry
 ON vocab_search_tag(tag, entry_id);
+
 
 CREATE TABLE vocab_name (
     id INTEGER PRIMARY KEY,

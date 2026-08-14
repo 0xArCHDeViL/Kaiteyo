@@ -314,6 +314,7 @@ interface StatsStrings {
 interface SearchStrings {
     val inputHint: String
     val charactersTitle: (count: Int) -> String
+    val namesTitle: (count: Int) -> String
     val wordsTitle: (count: Int) -> String
     val radicalsSheetTitle: String
     val radicalsFoundCharacters: String
