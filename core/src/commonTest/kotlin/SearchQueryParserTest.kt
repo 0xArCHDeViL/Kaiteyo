@@ -17,6 +17,17 @@ class SearchQueryParserTest {
     }
 
     @Test
+    fun expandsRomajiAliasesForJishoStyleInput() {
+        val kana = SearchQueryParser.parse("しゅふ").terms.single()
+        val kunrei = SearchQueryParser.parse("syufu").terms.single()
+
+        assertTrue(kana.romajiVariants.contains("shufu"))
+        assertTrue(kana.romajiVariants.contains("syufu"))
+        assertTrue(kunrei.romajiVariants.contains("shufu"))
+        assertTrue(kunrei.romajiVariants.contains("syufu"))
+    }
+
+    @Test
     fun preservesWildcardOperators() {
         val query = SearchQueryParser.parse("??直*")
 

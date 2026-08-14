@@ -728,10 +728,10 @@ class SqlDelightAppDataRepository(
     private fun SearchTerm.toGlobPatterns(): List<String> = if (quoted) {
         listOf(toGlobPattern(normalized))
     } else {
-        listOf(
-            toGlobPattern(normalized),
-            toGlobPattern(romajiNormalized)
-        ).distinct()
+        buildList {
+            add(toGlobPattern(normalized))
+            romajiVariants.forEach { add(toGlobPattern(it)) }
+        }.distinct()
     }
 
     private fun toGlobPattern(value: String): String {

@@ -17,6 +17,7 @@ data class SearchTerm(
     val value: String,
     val normalized: String,
     val romajiNormalized: String,
+    val romajiVariants: List<String>,
     val quoted: Boolean
 )
 
@@ -59,6 +60,7 @@ object SearchQueryParser {
                     value = token.value,
                     normalized = token.value.lowercase(),
                     romajiNormalized = normalized,
+                    romajiVariants = romajiVariants(normalized),
                     quoted = token.quoted
                 )
             }
@@ -106,4 +108,43 @@ object SearchQueryParser {
     internal fun normalize(value: String): String = value
         .kanaToRomaji()
         .lowercase()
+
+    /**
+     * Jisho-style search accepts common Hepburn/Kunrei variants. The database stores a
+     * canonical Wanakana form, so query-time aliases are cheaper and safer than duplicating
+     * every indexed row.
+     */
+    internal fun romajiVariants(value: String): List<String> {
+        val lower = value.lowercase()
+        val canonical = lower
+            .replace("sya", "sha")
+            .replace("syu", "shu")
+            .replace("syo", "sho")
+            .replace("tya", "cha")
+            .replace("tyu", "chu")
+            .replace("tyo", "cho")
+            .replace("ti", "chi")
+            .replace("tu", "tsu")
+            .replace("dya", "ja")
+            .replace("dyu", "ju")
+            .replace("dyo", "jo")
+            .replace("zi", "ji")
+            .replace("zya", "ja")
+            .replace("zyu", "ju")
+            .replace("zyo", "jo")
+        val kunrei = canonical
+            .replace("sha", "sya")
+            .replace("shu", "syu")
+            .replace("sho", "syo")
+            .replace("cha", "tya")
+            .replace("chu", "tyu")
+            .replace("cho", "tyo")
+            .replace("chi", "ti")
+            .replace("tsu", "tu")
+            .replace("ja", "zya")
+            .replace("ju", "zyu")
+            .replace("zyo", "jo")
+            .replace("ji", "zi")
+        return linkedSetOf(lower, canonical, kunrei).filter(String::isNotEmpty)
+    }
 }

@@ -239,7 +239,7 @@ object JapaneseStatsStrings : StatsStrings {
 
 
 object JapaneseSearchStrings : SearchStrings {
-    override val inputHint: String = "文字または単語を入力"
+    override val inputHint: String = "文字・単語・ローマ字・#k #c #name"
     override val charactersTitle: (count: Int) -> String = { "文字 ($it)" }
     override val wordsTitle: (count: Int) -> String = { "単語 ($it)" }
     override val radicalsSheetTitle: String = "部首で検索"

@@ -14,6 +14,8 @@ import androidx.compose.foundation.gestures.Orientation
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
@@ -113,6 +115,13 @@ fun SearchScreenUI(
                     onOpenRadicalSearch = {
                         showRadicalSearch = true
                         onRadicalsSectionExpanded()
+                    },
+                    onAppendQueryToken = { token ->
+                        inputState.value = inputState.value.run {
+                            val separator = if (text.isBlank()) "" else " "
+                            val nextText = text + separator + token
+                            TextFieldValue(nextText, TextRange(nextText.length))
+                        }
                     },
                     modifier = Modifier.fillMaxWidth().align(Alignment.CenterHorizontally)
                 )
@@ -216,6 +225,7 @@ fun SearchScreenUI(
 private fun InputSection(
     inputState: MutableState<TextFieldValue>,
     onOpenRadicalSearch: () -> Unit,
+    onAppendQueryToken: (String) -> Unit,
     modifier: Modifier
 ) {
     var enteredText by inputState
@@ -241,88 +251,104 @@ private fun InputSection(
             .padding(horizontal = 24.dp, vertical = 16.dp)
             .graphicsLayer {
                 shadowElevation = elevation.dp.toPx()
-                shape = CircleShape
+                shape = RoundedCornerShape(28.dp)
                 clip = true
             }
             .background(MaterialTheme.colorScheme.surface)
             .border(
                 width = 1.dp,
                 color = MaterialTheme.colorScheme.primary.copy(alpha = borderAlpha),
-                shape = CircleShape
+                shape = RoundedCornerShape(28.dp)
             )
             .padding(horizontal = 16.dp, vertical = 12.dp)
     ) {
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(12.dp)
-        ) {
-            IconButton(
-                onClick = onOpenRadicalSearch,
-                modifier = Modifier.size(36.dp).background(MaterialTheme.colorScheme.primaryContainer, CircleShape)
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                Icon(
-                    imageVector = Icons.Rounded.GridView,
-                    contentDescription = "Radicals",
-                    tint = MaterialTheme.colorScheme.onPrimaryContainer,
-                    modifier = Modifier.size(20.dp)
-                )
-            }
-            
-            Box(
-                modifier = Modifier.weight(1f),
-                contentAlignment = Alignment.CenterStart
-            ) {
-                BasicTextField(
-                    value = enteredText,
-                    onValueChange = { enteredText = it },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .onFocusChanged { isInputFocused.value = it.isFocused },
-                    maxLines = 1,
-                    singleLine = true,
-                    interactionSource = interactionSource,
-                    cursorBrush = SolidColor(MaterialTheme.colorScheme.primary),
-                    textStyle = MaterialTheme.typography.bodyLarge.copy(color = color)
-                )
+                IconButton(
+                    onClick = onOpenRadicalSearch,
+                    modifier = Modifier.size(36.dp).background(MaterialTheme.colorScheme.primaryContainer, CircleShape)
+                ) {
+                    Icon(
+                        imageVector = Icons.Rounded.GridView,
+                        contentDescription = "Radicals",
+                        tint = MaterialTheme.colorScheme.onPrimaryContainer,
+                        modifier = Modifier.size(20.dp)
+                    )
+                }
 
-                if (hintAlpha > 0f) {
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        modifier = Modifier.graphicsLayer { alpha = hintAlpha }
+                Box(
+                    modifier = Modifier.weight(1f),
+                    contentAlignment = Alignment.CenterStart
+                ) {
+                    BasicTextField(
+                        value = enteredText,
+                        onValueChange = { enteredText = it },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .onFocusChanged { isInputFocused.value = it.isFocused },
+                        maxLines = 1,
+                        singleLine = true,
+                        interactionSource = interactionSource,
+                        cursorBrush = SolidColor(MaterialTheme.colorScheme.primary),
+                        textStyle = MaterialTheme.typography.bodyLarge.copy(color = color)
+                    )
+
+                    if (hintAlpha > 0f) {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            modifier = Modifier.graphicsLayer { alpha = hintAlpha }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Search,
+                                contentDescription = null,
+                                tint = color.copy(alpha = 0.4f),
+                                modifier = Modifier.size(20.dp).padding(end = 6.dp)
+                            )
+                            Text(
+                                text = resolveString { search.inputHint },
+                                style = MaterialTheme.typography.bodyLarge,
+                                color = color.copy(alpha = 0.4f)
+                            )
+                        }
+                    }
+                }
+
+                if (clearAlpha > 0f) {
+                    IconButton(
+                        onClick = { enteredText = TextFieldValue() },
+                        modifier = Modifier
+                            .size(28.dp)
+                            .graphicsLayer {
+                                alpha = clearAlpha
+                                scaleX = clearScale
+                                scaleY = clearScale
+                            }
+                            .background(MaterialTheme.colorScheme.surfaceVariant, CircleShape)
                     ) {
                         Icon(
-                            imageVector = Icons.Default.Search,
-                            contentDescription = null,
-                            tint = color.copy(alpha = 0.4f),
-                            modifier = Modifier.size(20.dp).padding(end = 6.dp)
-                        )
-                        Text(
-                            text = resolveString { search.inputHint },
-                            style = MaterialTheme.typography.bodyLarge,
-                            color = color.copy(alpha = 0.4f)
+                            imageVector = Icons.Default.Close,
+                            contentDescription = "Clear",
+                            modifier = Modifier.size(16.dp),
+                            tint = MaterialTheme.colorScheme.onSurfaceVariant
                         )
                     }
                 }
             }
 
-            if (clearAlpha > 0f) {
-                IconButton(
-                    onClick = { enteredText = TextFieldValue() },
-                    modifier = Modifier
-                        .size(28.dp)
-                        .graphicsLayer {
-                            alpha = clearAlpha
-                            scaleX = clearScale
-                            scaleY = clearScale
-                        }
-                        .background(MaterialTheme.colorScheme.surfaceVariant, CircleShape)
+            AnimatedVisibility(visible = isInputFocused.value || hasText) {
+                Row(
+                    modifier = Modifier.horizontalScroll(rememberScrollState()),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    Icon(
-                        imageVector = Icons.Default.Close,
-                        contentDescription = "Clear",
-                        modifier = Modifier.size(16.dp),
-                        tint = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
+                    listOf("#common", "#name", "#k", "#c", "#!vt").forEach { token ->
+                        AssistChip(
+                            onClick = { onAppendQueryToken(token) },
+                            label = { Text(token, style = MaterialTheme.typography.labelMedium) }
+                        )
+                    }
                 }
             }
         }
