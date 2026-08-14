@@ -690,6 +690,10 @@ object EnglishInfoScreenStrings : InfoScreenStrings {
     override val radicalsSectionTitle: (count: Int) -> String = { "Radicals ($it)" }
     override val noRadicalsMessage: String = "No radicals"
     override val wordsSectionTitle: (count: Int) -> String = { "Expressions ($it)" }
+    override val relatedReadingsSectionTitle: String = "Related readings"
+    override val readingInfoMessage: (info: List<String>) -> String = {
+        "Reading info: ${it.joinToString()}"
+    }
     override val romajiMessage: (romaji: List<String>) -> String = {
         "Romaji readings: ${it.joinToString()}"
     }

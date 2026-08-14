@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.LazyListState
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material.icons.Icons
@@ -38,14 +39,17 @@ import io.ktor.http.buildUrl
 import org.jetbrains.compose.resources.painterResource
 import ua.syt0r.kanji.Res
 import ua.syt0r.kanji.baseline_open_in_new_24
+import ua.syt0r.kanji.core.app_data.data.DetailedVocabReading
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.core.app_data.data.VocabReading
 import ua.syt0r.kanji.core.app_data.data.formattedKanaReading
+import ua.syt0r.kanji.core.app_data.data.formattedVocabReading
 import ua.syt0r.kanji.presentation.common.AppListItem
 import ua.syt0r.kanji.presentation.common.ExtraListSpacerState
 import ua.syt0r.kanji.presentation.common.ExtraSpacer
 import ua.syt0r.kanji.presentation.common.PaginationLoadLaunchedEffect
 import ua.syt0r.kanji.presentation.common.collectAsState
+import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.presentation.common.theme.neutralTextButtonColors
 import ua.syt0r.kanji.presentation.common.trackList
 import ua.syt0r.kanji.presentation.common.ui.FuriganaText
@@ -68,9 +72,14 @@ fun VocabInfoUI(
 ) {
 
     val senseExpanded = rememberSaveable { mutableStateOf(true) }
+    val relatedReadingsExpanded = rememberSaveable { mutableStateOf(true) }
     val lettersExpanded = rememberSaveable { mutableStateOf(true) }
     val sentencesExpanded = rememberSaveable { mutableStateOf(true) }
     val sentences = vocabData.sentences.collectAsState()
+    val relatedReadings = vocabData.senseList
+        .flatMap { it.otherReadings }
+        .distinctBy { Triple(it.elementId, it.kanji, it.kana) }
+    val relatedReadingsHeader = resolveString { info.relatedReadingsSectionTitle }
 
     PaginationLoadLaunchedEffect(
         listState = listState,
@@ -92,6 +101,12 @@ fun VocabInfoUI(
                 expandableSenseSection(
                     senseList = vocabData.senseList,
                     expanded = senseExpanded
+                )
+
+                expandableRelatedReadingsSection(
+                    readings = relatedReadings,
+                    expanded = relatedReadingsExpanded,
+                    headerText = relatedReadingsHeader
                 )
 
                 expandableVocabLettersSection(
@@ -129,6 +144,12 @@ fun VocabInfoUI(
                     expandableSenseSection(
                         senseList = vocabData.senseList,
                         expanded = senseExpanded
+                    )
+
+                    expandableRelatedReadingsSection(
+                        readings = relatedReadings,
+                        expanded = relatedReadingsExpanded,
+                        headerText = relatedReadingsHeader
                     )
 
                     expandableVocabLettersSection(
@@ -278,6 +299,46 @@ private fun LazyListScope.expandableVocabLettersSection(
                         )
                     }
                 }
+            }
+        }
+    )
+}
+
+private fun LazyListScope.expandableRelatedReadingsSection(
+    readings: List<DetailedVocabReading>,
+    expanded: MutableState<Boolean>,
+    headerText: String
+) {
+    if (readings.isEmpty()) return
+
+    infoScreenExpandableSection(
+        headerText = headerText,
+        headerCount = readings.size,
+        expanded = expanded,
+        expandedContent = {
+            items(readings) { reading ->
+                val readingInfo = reading.info
+                    .map { it.name }
+                    .takeIf { it.isNotEmpty() }
+                AppListItem(
+                    headlineContent = {
+                        SelectionContainer {
+                            FuriganaText(
+                                furiganaString = formattedVocabReading(
+                                    kanaReading = reading.kana,
+                                    kanjiReading = reading.kanji,
+                                    furigana = reading.furigana
+                                ),
+                                textStyle = MaterialTheme.typography.bodyLarge
+                            )
+                        }
+                    },
+                    supportingContent = readingInfo?.let { infoValues ->
+                        {
+                            Text(resolveString { info.readingInfoMessage(infoValues) })
+                        }
+                    }
+                )
             }
         }
     )

@@ -635,6 +635,10 @@ object JapaneseInfoScreenStrings : InfoScreenStrings {
     override val radicalsSectionTitle: (count: Int) -> String = { "部首 ($it)" }
     override val noRadicalsMessage: String = "部首なし"
     override val wordsSectionTitle: (count: Int) -> String = { "単語 ($it)" }
+    override val relatedReadingsSectionTitle: String = "関連する読み方"
+    override val readingInfoMessage: (info: List<String>) -> String = {
+        "読みの情報: ${it.joinToString()}"
+    }
     override val romajiMessage: (romaji: List<String>) -> String = {
         "ローマ字: ${it.joinToString { "「$it」" }}"
     }

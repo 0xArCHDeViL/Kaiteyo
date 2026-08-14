@@ -628,6 +628,8 @@ interface InfoScreenStrings {
     val radicalsSectionTitle: (count: Int) -> String
     val noRadicalsMessage: String
     val wordsSectionTitle: (count: Int) -> String
+    val relatedReadingsSectionTitle: String
+    val readingInfoMessage: (info: List<String>) -> String
     val romajiMessage: (romaji: List<String>) -> String
     val gradeMessage: (grade: Int) -> String
     val jlptMessage: (level: Int) -> String
