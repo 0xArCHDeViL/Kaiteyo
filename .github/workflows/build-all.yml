@@ -270,7 +270,7 @@ jobs:
           test -x "$apksigner"
           "$apksigner" verify --verbose --print-certs "$apk" | tee "$apk_dir/signing-certificate.txt"
           # apksigner labels certificate lines differently across build-tools revisions.
-          grep -E '(Signer #[0-9]+ certificate|V[0-9.]+ Signer: certificate) SHA-256 digest:' "$apk_dir/signing-certificate.txt"
+          grep -E 'certificate SHA-256 digest:' "$apk_dir/signing-certificate.txt"
 
       - name: Upload optimized Android artifact
         uses: actions/upload-artifact@v4
@@ -305,7 +305,7 @@ jobs:
           test -n "$apk"
           test -n "$signing_record"
           test -s "$signing_record"
-          grep -E '(Signer #[0-9]+ certificate|V[0-9.]+ Signer: certificate) SHA-256 digest:' "$signing_record"
+          grep -E 'certificate SHA-256 digest:' "$signing_record"
           find android-artifact -type f -printf '%P %s bytes\n' | sort
 
   publish-data-release:
