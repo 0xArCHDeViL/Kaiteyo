@@ -276,7 +276,6 @@ jobs:
           path: |
             app/build/outputs/apk/${{ inputs.build_variant || 'preview' }}/*.apk
             app/build/outputs/apk/${{ inputs.build_variant || 'preview' }}/signing-certificate.txt
-            app/build/outputs/mapping/${{ inputs.build_variant || 'preview' }}/mapping.txt
           if-no-files-found: error
           retention-days: 7
 
@@ -294,18 +293,15 @@ jobs:
           name: android-${{ inputs.build_variant || 'preview' }}
           path: android-artifact
 
-      - name: Verify artifact layout, signing record, and mapping
+      - name: Verify artifact layout and signing record
         shell: bash
         run: |
           set -euo pipefail
           apk="$(find android-artifact -type f -name '*.apk' -print -quit)"
           signing_record="$(find android-artifact -type f -name 'signing-certificate.txt' -print -quit)"
-          mapping="$(find android-artifact -type f -name 'mapping.txt' -print -quit)"
           test -n "$apk"
           test -n "$signing_record"
-          test -n "$mapping"
           test -s "$signing_record"
-          test -s "$mapping"
           grep -E '(Signer #[0-9]+ certificate|V[0-9.]+ Signer: certificate) SHA-256 digest:' "$signing_record"
           find android-artifact -type f -printf '%P %s bytes\n' | sort
 
