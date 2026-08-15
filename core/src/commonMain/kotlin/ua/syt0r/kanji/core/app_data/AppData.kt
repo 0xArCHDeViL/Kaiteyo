@@ -14,7 +14,9 @@ import ua.syt0r.kanji.core.app_data.data.ReadingType
 import ua.syt0r.kanji.core.app_data.db.AppDataDatabase
 
 const val AppDataDatabaseVersion: Long = BuildConfig.appDataDatabaseVersion.toLong()
-const val AppDataDatabaseResourceName: String = BuildConfig.appDataAssetName
+const val AppDataPackResourceName: String = BuildConfig.appDataPackName
+const val AppDataPackUrl: String = BuildConfig.appDataPackUrl
+const val AppDataPackChecksumUrl: String = BuildConfig.appDataPackChecksumUrl
 
 interface AppDataDatabaseProvider {
     fun provideAsync(): Deferred<AppDataDatabase>

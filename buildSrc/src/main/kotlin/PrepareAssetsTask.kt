@@ -40,20 +40,6 @@ private fun Project.registerAppAssetTask(
     prepareTask.appDataVersion = appDataVersion
     prepareTask.appDataReleaseTag = appDataReleaseTag
 
-    if (sourceSet == PrepareAssetsTask.SourceSet.Common && appDataSource == AppDataSource.SOURCE) {
-        val generatedDatabase = File(project.rootDir, "database/${AppAssets.appDataAssetFileName(appDataVersion)}")
-        prepareTask.dependsOn(":database:exportAppDatabase")
-        prepareTask.doFirst {
-            check(generatedDatabase.isFile) {
-                "Internal app database was not generated at ${generatedDatabase.absolutePath}"
-            }
-            val target = File(assetsDir, AppAssets.appDataAssetFileName(appDataVersion))
-            target.parentFile.mkdirs()
-            generatedDatabase.copyTo(target, overwrite = true)
-            println("Copied internal app database ${generatedDatabase.name} to ${target.absolutePath}")
-        }
-    }
-
     prepareTask.dependsOn(cleanupTask)
 
     val dependentTasks = setOf(
@@ -106,7 +92,7 @@ open class PrepareAssetsTask : DefaultTask() {
         println("Preparing Kaiteyo Assets for $sourceSet at $assetsPath using app data source $appDataSource...")
         handleAssets(
             when (sourceSet) {
-                SourceSet.Common -> AppAssets.commonAssetsLocation(appDataVersion, appDataReleaseTag)
+                SourceSet.Common -> AppAssets.commonAssetsLocation()
                 SourceSet.Android -> sourceSet.assetLocation
             }
         )

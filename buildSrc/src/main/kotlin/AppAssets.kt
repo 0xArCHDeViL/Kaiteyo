@@ -15,8 +15,15 @@ object AppAssets {
 
     fun appDataAssetFileName(version: Int): String = "kanji-dojo-data-base-v$version.sql"
 
-    fun appDataReleaseUrl(version: Int, releaseTag: String): String =
-        "https://github.com/$AppDataReleaseRepository/releases/download/$releaseTag/${appDataAssetFileName(version)}"
+    fun appDataPackFileName(version: Int): String = "${appDataAssetFileName(version)}.gz"
+
+    fun appDataPackChecksumFileName(version: Int): String = "${appDataPackFileName(version)}.sha256"
+
+    fun appDataPackReleaseUrl(version: Int, releaseTag: String): String =
+        "https://github.com/$AppDataReleaseRepository/releases/download/$releaseTag/${appDataPackFileName(version)}"
+
+    fun appDataPackChecksumUrl(version: Int, releaseTag: String): String =
+        "https://github.com/$AppDataReleaseRepository/releases/download/$releaseTag/${appDataPackChecksumFileName(version)}"
 
     val kanaVoiceOpus = Asset(
         fileName = "ja-JP-Neural2-B.opus",
@@ -28,15 +35,8 @@ object AppAssets {
         url = "https://github.com/syt0r/Kanji-Dojo-Data/releases/download/voice-v1/ja-JP-Neural2-B.wav"
     )
 
-    fun commonAssetsLocation(
-        appDataVersion: Int = DefaultAppDataDatabaseVersion,
-        appDataReleaseTag: String = DefaultAppDataReleaseTag
-    ) = AssetLocation(
+    fun commonAssetsLocation() = AssetLocation(
         expectedAssets = listOf(
-            Asset(
-                fileName = appDataAssetFileName(appDataVersion),
-                url = appDataReleaseUrl(appDataVersion, appDataReleaseTag)
-            ),
             Asset(
                 fileName = "text_analysis_preview.json",
                 url = null

@@ -159,7 +159,15 @@ buildConfig {
 
     buildConfigField("versionCode", AppVersion.versionCode.toLong())
     buildConfigField("versionName", AppVersion.versionName)
-    buildConfigField("appDataAssetName", AppAssets.appDataAssetFileName(appDataVersion))
+    buildConfigField("appDataPackName", AppAssets.appDataPackFileName(appDataVersion))
+    buildConfigField(
+        "appDataPackUrl",
+        AppAssets.appDataPackReleaseUrl(appDataVersion, appDataReleaseTag)
+    )
+    buildConfigField(
+        "appDataPackChecksumUrl",
+        AppAssets.appDataPackChecksumUrl(appDataVersion, appDataReleaseTag)
+    )
     buildConfigField("appDataDatabaseVersion", appDataVersion)
 
     val kanaVoiceFieldName = "kanaVoiceAssetName"

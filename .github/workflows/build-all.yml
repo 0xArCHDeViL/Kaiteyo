@@ -110,7 +110,11 @@ jobs:
               test -s "$database_file"
               file "$database_file" | grep -F 'SQLite 3.x database'
               test "$(head -c 16 "$database_file")" = 'SQLite format 3'
-              sha256sum "$database_file" | tee "${database_file}.sha256"
+              pack_file="${database_file}.gz"
+              gzip -1 -c "$database_file" > "$pack_file"
+              gzip -t "$pack_file"
+              sha256sum "$pack_file" | tee "${pack_file}.sha256"
+              rm -f "$database_file"
               ;;
             release)
               echo "Using internal data release $APP_DATA_RELEASE_TAG"
@@ -127,8 +131,8 @@ jobs:
         with:
           name: source-app-data-v${{ env.APP_DATA_VERSION }}
           path: |
-            database/kanji-dojo-data-base-v${{ env.APP_DATA_VERSION }}.sql
-            database/kanji-dojo-data-base-v${{ env.APP_DATA_VERSION }}.sql.sha256
+            database/kanji-dojo-data-base-v${{ env.APP_DATA_VERSION }}.sql.gz
+            database/kanji-dojo-data-base-v${{ env.APP_DATA_VERSION }}.sql.gz.sha256
           if-no-files-found: error
           retention-days: 7
 
@@ -155,13 +159,6 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-home-cache-cleanup: true
-
-      - name: Download source-built application data
-        if: ${{ env.APP_DATA_SOURCE == 'source' }}
-        uses: actions/download-artifact@v4
-        with:
-          name: source-app-data-v${{ env.APP_DATA_VERSION }}
-          path: database
 
       - name: Run Android unit tests
         shell: bash
@@ -214,13 +211,6 @@ jobs:
         with:
           gradle-home-cache-cleanup: true
 
-      - name: Download source-built application data
-        if: ${{ env.APP_DATA_SOURCE == 'source' }}
-        uses: actions/download-artifact@v4
-        with:
-          name: source-app-data-v${{ env.APP_DATA_VERSION }}
-          path: database
-
       - name: Build optimized Android artifact
         shell: bash
         run: |
@@ -262,9 +252,10 @@ jobs:
           apk="$(find "$apk_dir" -maxdepth 1 -type f -name '*.apk' -print -quit)"
           test -n "$apk"
           test -s "app/build/outputs/mapping/$BUILD_VARIANT/mapping.txt"
-          mapfile -t database_assets < <(unzip -Z1 "$apk" | grep -E 'kanji-dojo-data-base-v[0-9]+\.sql$' || true)
-          test "${#database_assets[@]}" -eq 1
-          [[ "${database_assets[0]}" == *"kanji-dojo-data-base-v${APP_DATA_VERSION}.sql" ]]
+          apk_size="$(stat -c '%s' "$apk")"
+          test "$apk_size" -lt 73400320
+          mapfile -t database_assets < <(unzip -Z1 "$apk" | grep -E 'kanji-dojo-data-base-v[0-9]+\.sql(\.gz)?$' || true)
+          test "${#database_assets[@]}" -eq 0
           apksigner="$(find "$ANDROID_HOME/build-tools" -maxdepth 2 -type f -name apksigner -print | sort -V | tail -n 1)"
           test -n "$apksigner"
           test -x "$apksigner"
@@ -342,8 +333,8 @@ jobs:
           target_commitish: ${{ github.sha }}
           generate_release_notes: false
           body: |
-            Source-built Kaiteyo application database generated from the vendored `database/` source tree.
-            The `.sql` extension is retained for application asset compatibility; the artifact is a SQLite database.
+            Source-built full-JMdict application database generated from the vendored `database/` source tree.
+            The compressed `.sql.gz` pack is downloaded and verified by the Android app on first launch, so the APK remains below 70 MiB.
           files: |
-            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '21' }}.sql
-            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '21' }}.sql.sha256
+            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '21' }}.sql.gz
+            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '21' }}.sql.gz.sha256
