@@ -69,10 +69,10 @@ The canonical source contract remains the upstream layout: exported character an
 The generated file `kanji-dojo-data-base-v<version>.sql` is a SQLite database despite the historical `.sql` extension. It is intentionally ignored by Git and is produced by the root-project task:
 
 ```bash
-./gradlew :database:exportAppDatabase -PappDataVersion=15
+./gradlew :database:exportAppDatabase -PappDataVersion=21
 ```
 
-The exporter performs strict supported-vocabulary assertions. When a newer JMdict snapshot removes an entry that remains part of Kaiteyo's canonical `data/supported_vocab.csv`, `LegacyExpressionFallback` reconstructs the minimal entry from repository-owned expression JSON rather than silently deleting the vocabulary item.
+The exporter includes every entry from the repository-owned `parser_data/JMdict_e_examp` snapshot. `data/supported_vocab.csv` is retained as a canonical fallback/deck vocabulary set: if a newer JMdict snapshot removes one of those IDs, `LegacyExpressionFallback` reconstructs the minimal entry instead of silently deleting it. The exporter asserts exact coverage of the full JMdict ID set plus those canonical fallback IDs, so the CSV is no longer a whitelist that can hide valid JMdict entries.
 
 Kaiteyo application builds accept `-PappDataSource=release` (default) or `-PappDataSource=source`. Release mode consumes the internally published asset from the Kaiteyo repository's GitHub Releases. Source mode runs `:database:exportAppDatabase` and bundles its output directly. The `Build All` workflow exposes the same choice through its manual `data_source` input and can publish a source-built database release asset when `publish_data_release` is enabled.
 

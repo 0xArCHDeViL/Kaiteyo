@@ -59,9 +59,8 @@ internal object StreamingJMdictParser {
 
     private const val XmlNamespace = "http://www.w3.org/XML/1998/namespace"
 
-    fun forEachSupportedEntry(
+    fun forEachEntry(
         file: File,
-        wordsPool: Set<Long>,
         onEntry: (StreamingJMdictEntry) -> Unit
     ) {
         file.inputStream().buffered().use { input ->
@@ -69,12 +68,21 @@ internal object StreamingJMdictParser {
             reader.use {
                 while (it.hasNext()) {
                     if (it.eventType == XMLStreamConstants.START_ELEMENT && it.localName == "entry") {
-                        val entry = readEntry(it)
-                        if (entry.entrySequence in wordsPool) onEntry(entry)
+                        onEntry(readEntry(it))
                     }
                     it.next()
                 }
             }
+        }
+    }
+
+    fun forEachSupportedEntry(
+        file: File,
+        wordsPool: Set<Long>,
+        onEntry: (StreamingJMdictEntry) -> Unit
+    ) {
+        forEachEntry(file) { entry ->
+            if (entry.entrySequence in wordsPool) onEntry(entry)
         }
     }
 

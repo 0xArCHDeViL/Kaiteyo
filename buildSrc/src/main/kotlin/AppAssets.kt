@@ -9,8 +9,8 @@ data class AssetLocation(
 
 object AppAssets {
 
-    const val DefaultAppDataDatabaseVersion = 20
-    const val DefaultAppDataReleaseTag = "data-v20"
+    const val DefaultAppDataDatabaseVersion = 21
+    const val DefaultAppDataReleaseTag = "data-v21"
     const val AppDataReleaseRepository = "0xArCHDeViL/Kaiteyo"
 
     fun appDataAssetFileName(version: Int): String = "kanji-dojo-data-base-v$version.sql"

@@ -10,12 +10,13 @@ import org.apache.commons.csv.CSVFormat
 import parser.CompositeJMdictParser
 import parser.LegacyExpressionFallback
 import parser.RadkFileParser
+import parser.StreamingJMdictParser
 import parser.StreamingJMnedictParser
 import parser.withFallback
 import java.io.File
 
 const val ExportFileNameTemplate = "kanji-dojo-data-base-v%d.sql"
-private const val DefaultExportDatabaseVersion = 20
+private const val DefaultExportDatabaseVersion = 21
 val ExportDatabaseVersion: Int
     get() = System.getProperty("appDataVersion")?.toIntOrNull() ?: DefaultExportDatabaseVersion
 
@@ -86,13 +87,19 @@ fun main() {
 
     val exportLetterVocabExamples = readExportVocabExamples()
 
-    val supportedVocabIdSet = ProjectData.supportedVocab
+    val canonicalVocabIds = ProjectData.supportedVocab
         .readLines()
         .map { it.toLong() }
         .toSet()
+    val jmdictVocabIds = collectJmdictEntryIds(ProjectData.jMdictWithExamplesFile)
+    val exportVocabIdSet = canonicalVocabIds + jmdictVocabIds
+    println(
+        "Exporting full JMdict vocabulary: ${jmdictVocabIds.size} source entries " +
+            "+ ${canonicalVocabIds subtract jmdictVocabIds} canonical fallback IDs"
+    )
 
-    val parsedVocabData = CompositeJMdictParser.parse(supportedVocabIdSet)
-    val missingVocabIds = supportedVocabIdSet - parsedVocabData.entries.map { it.id }.toSet()
+    val parsedVocabData = CompositeJMdictParser.parse(exportVocabIdSet)
+    val missingVocabIds = exportVocabIdSet - parsedVocabData.entries.map { it.id }.toSet()
     val exportVocabData = parsedVocabData.withFallback(
         LegacyExpressionFallback.parseMissing(missingVocabIds)
     )
@@ -101,8 +108,8 @@ fun main() {
 
     val exportSentences = getExportSentences()
 
-    assertVocabData(exportVocabData, supportedVocabIdSet)
-    assertVocabDeckCards(exportVocabDeckCards, supportedVocabIdSet)
+    assertVocabData(exportVocabData, exportVocabIdSet)
+    assertVocabDeckCards(exportVocabDeckCards, exportVocabIdSet)
 
     val outputFile = File(ExportFileNameTemplate.format(ExportDatabaseVersion))
     DatabaseExporter(
@@ -124,11 +131,17 @@ fun main() {
     DatabaseIntegrityValidator.validate(
         file = outputFile,
         expectedKanjiCount = exportKanjiData.size,
-        expectedVocabCount = supportedVocabIdSet.size,
+        expectedVocabCount = exportVocabIdSet.size,
         expectedSentenceCount = exportSentences.size,
         expectedDeckCardCount = exportVocabDeckCards.size
     )
     println("Validated database artifact ${outputFile.name}")
+}
+
+private fun collectJmdictEntryIds(file: File): Set<Long> = buildSet {
+    StreamingJMdictParser.forEachEntry(file) { entry ->
+        add(entry.entrySequence)
+    }
 }
 
 fun getExportNames(): List<DatabaseName> = buildList {
@@ -196,19 +209,19 @@ private fun readExportVocabExamples(): List<Letter_vocab_example> {
     }
 }
 
-private fun assertVocabData(exportVocabData: DatabaseVocabData, supportedVocabIdSet: Set<Long>) {
+private fun assertVocabData(exportVocabData: DatabaseVocabData, expectedVocabIds: Set<Long>) {
     val actualWords = exportVocabData.entries.map { it.id }.toSet()
-    if (actualWords != supportedVocabIdSet) {
-        val missing = supportedVocabIdSet.minus(actualWords)
-        val extra = actualWords.minus(supportedVocabIdSet)
-        error("Missing supported missing words $missing, extra words $extra")
+    if (actualWords != expectedVocabIds) {
+        val missing = expectedVocabIds.minus(actualWords)
+        val extra = actualWords.minus(expectedVocabIds)
+        error("Missing exported vocab $missing, extra exported vocab $extra")
     }
 }
 
-private fun assertVocabDeckCards(vocabDeckCards: List<Vocab_deck_card>, supportedVocabIdSet: Set<Long>) {
+private fun assertVocabDeckCards(vocabDeckCards: List<Vocab_deck_card>, exportedVocabIds: Set<Long>) {
     val importedVocabIdSet = vocabDeckCards.map { it.jmdict_seq }.toSet()
-    if (!supportedVocabIdSet.containsAll(importedVocabIdSet)) {
-        val missing = importedVocabIdSet.minus(supportedVocabIdSet)
+    if (!exportedVocabIds.containsAll(importedVocabIdSet)) {
+        val missing = importedVocabIdSet.minus(exportedVocabIds)
         error("Missing vocab used in imports $missing")
     }
 }
