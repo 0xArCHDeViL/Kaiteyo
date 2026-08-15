@@ -52,7 +52,9 @@ class SearchScreenProcessInputUseCase(
             words = mutableStateOf(
                 PaginatableJapaneseWordList(wordsTotalCount, searchResult.words)
             ),
-            query = input
+            query = input,
+            scope = parsedQuery.scope,
+            errorMessage = null
         )
     }
 

@@ -19,6 +19,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
 import ua.syt0r.kanji.core.logger.Logger
+import ua.syt0r.kanji.core.app_data.SearchQueryParser
 import ua.syt0r.kanji.presentation.common.PaginatableJapaneseNameList
 import ua.syt0r.kanji.presentation.common.PaginatableJapaneseWordList
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.SearchScreenContract.ScreenState
@@ -38,6 +39,8 @@ class SearchViewModel(
     private val searchQueriesChannel = Channel<String>(Channel.BUFFERED)
     private val loadMoreWordsChannel = Channel<Int>(Channel.RENDEZVOUS, BufferOverflow.DROP_LATEST)
     private val loadMoreNamesChannel = Channel<Int>(Channel.RENDEZVOUS, BufferOverflow.DROP_LATEST)
+    private var wordsPageLoading = false
+    private var namesPageLoading = false
 
     private val radicalsDataInitialLoadChannel = Channel<Unit>(Channel.BUFFERED)
     private val radicalsLoadedCompletable = CompletableDeferred<Unit>()
@@ -49,7 +52,9 @@ class SearchViewModel(
             characters = emptyList(),
             names = mutableStateOf(PaginatableJapaneseNameList(0, emptyList())),
             words = mutableStateOf(PaginatableJapaneseWordList(0, emptyList())),
-            query = ""
+            query = "",
+            scope = ua.syt0r.kanji.core.app_data.SearchScope.Words,
+            errorMessage = null
         )
     )
 
@@ -100,26 +105,32 @@ class SearchViewModel(
             .distinctUntilChanged()
             .onEach {
                 Logger.d("loading for $it")
-                state.value = state.value.copy(isLoading = true)
+                state.value = state.value.copy(isLoading = true, errorMessage = null)
             }
             .collectLatest { input ->
-                kotlin.runCatching {
+                try {
                     /***
-                     * Async is not interrupted here, it executes completelly but result is ignored,
+                     * Async is not interrupted here, it executes completely but result is ignored,
                      * runInterruptible doesn't work as well, TODO interrupt
                      * More details: https://github.com/Kotlin/kotlinx.coroutines/issues/3109
                      */
                     Logger.d("start searching for $input")
-                    async(coroutineContext + Dispatchers.IO) {
+                    val result = async(coroutineContext + Dispatchers.IO) {
                         Logger.d("processing input $input in background")
-                        val result = processInputUseCase.process(input)
-                        Logger.d("finished searching for $input")
-                        result
-                    }.also {
-                        Logger.d("applying new state for $input")
-                        state.value = it.await()
-                    }
-                }.onFailure { Logger.d("search for $input was interrupted, reason[$it]") }
+                        processInputUseCase.process(input)
+                    }.await()
+                    Logger.d("applying new state for $input")
+                    state.value = result
+                } catch (error: kotlinx.coroutines.CancellationException) {
+                    throw error
+                } catch (error: Throwable) {
+                    Logger.e("search for $input failed: ${error.stackTraceToString()}")
+                    state.value = SearchScreenContract.ScreenState.empty(
+                        query = input,
+                        scope = SearchQueryParser.parse(input).scope,
+                        errorMessage = error.message ?: "Unable to search the offline dictionary"
+                    )
+                }
             }
     }
 
@@ -169,12 +180,28 @@ class SearchViewModel(
 
         private fun handleLoadMoreWordsRequests() = viewModelScope.launch {
         loadMoreWordsChannel.consumeAsFlow()
-            .collect { loadMoreWordsUseCase.loadMore(state.value) }
+            .collect {
+                if (wordsPageLoading || !state.value.words.value.canLoadMore) return@collect
+                wordsPageLoading = true
+                try {
+                    loadMoreWordsUseCase.loadMore(state.value)
+                } finally {
+                    wordsPageLoading = false
+                }
+            }
     }
 
     private fun handleLoadMoreNamesRequests() = viewModelScope.launch {
         loadMoreNamesChannel.consumeAsFlow()
-            .collect { loadMoreNamesUseCase.loadMore(state.value) }
+            .collect {
+                if (namesPageLoading || !state.value.names.value.canLoadMore) return@collect
+                namesPageLoading = true
+                try {
+                    loadMoreNamesUseCase.loadMore(state.value)
+                } finally {
+                    namesPageLoading = false
+                }
+            }
     }
 
 }

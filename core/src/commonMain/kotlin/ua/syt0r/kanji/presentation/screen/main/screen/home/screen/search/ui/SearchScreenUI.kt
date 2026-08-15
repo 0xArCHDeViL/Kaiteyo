@@ -51,6 +51,7 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import ua.syt0r.kanji.core.app_data.JapaneseName
+import ua.syt0r.kanji.core.app_data.SearchScope
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.presentation.common.CollapsibleContainer
 import ua.syt0r.kanji.presentation.common.CollapsibleContainerState
@@ -145,13 +146,27 @@ fun SearchScreenUI(
                 }
             }
 
+            AnimatedVisibility(
+                visible = state.value.isLoading,
+                enter = fadeIn(),
+                exit = fadeOut()
+            ) {
+                Text(
+                    text = "Opening the full offline JMdict index…",
+                    modifier = Modifier.padding(horizontal = 24.dp, vertical = 6.dp),
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+
             ListContent(
                 screenState = state.value,
                 searchContainerState = searchContainerState,
                 onCharacterClick = onCharacterClick,
                 onWordClick = onWordClick,
                 onScrolledToEnd = onScrolledToEnd,
-                onNamesScrolledToEnd = onNamesScrolledToEnd
+                onNamesScrolledToEnd = onNamesScrolledToEnd,
+                onRetry = { onSubmitInput(state.value.query) }
             )
         }
 
@@ -365,7 +380,8 @@ private fun ListContent(
     onCharacterClick: (String) -> Unit,
     onWordClick: (JapaneseWord) -> Unit,
     onScrolledToEnd: () -> Unit,
-    onNamesScrolledToEnd: () -> Unit
+    onNamesScrolledToEnd: () -> Unit,
+    onRetry: () -> Unit
 ) {
     val listState = rememberLazyListState()
     val canLoadMoreWords = remember(screenState) {
@@ -415,6 +431,39 @@ private fun ListContent(
                 .nestedScroll(searchContainerState.nestedScrollConnection),
             contentPadding = PaddingValues(bottom = contentBottomPadding.value + 80.dp)
         ) {
+            when {
+                screenState.errorMessage != null -> item(key = "search-error") {
+                    SearchStateCard(
+                        title = "Search unavailable",
+                        body = "The offline JMdict index could not be opened. Your data was not removed.",
+                        actionLabel = "Retry",
+                        onAction = onRetry,
+                        isError = true
+                    )
+                }
+                !screenState.hasQuery && !screenState.isLoading -> item(key = "search-welcome") {
+                    SearchWelcomeState()
+                }
+                screenState.hasQuery && !screenState.isLoading && screenState.totalResultCount == 0 -> item(key = "search-empty") {
+                    SearchStateCard(
+                        title = "No matches in the full JMdict index",
+                        body = "Try another spelling, reading, romaji form, meaning, or remove a filter tag.",
+                        actionLabel = null,
+                        onAction = null,
+                        isError = false
+                    )
+                }
+            }
+
+            if (screenState.hasQuery && !screenState.isLoading) {
+                item(key = "search-mode") {
+                    SearchModeSummary(
+                        scope = screenState.scope,
+                        resultCount = screenState.totalResultCount
+                    )
+                }
+            }
+
             if (screenState.characters.isNotEmpty()) {
                 item {
                     SearchHeader(text = resolveString { search.charactersTitle(screenState.characters.size) })
@@ -443,11 +492,27 @@ private fun ListContent(
                 stickyHeader {
                     SearchHeader(
                         text = resolveString { search.namesTitle(currentNamesState.totalCount) },
+                        supportingText = loadedCountLabel(
+                            loaded = currentNamesState.items.size,
+                            total = currentNamesState.totalCount
+                        ),
                         isSticky = true
                     )
                 }
-                items(currentNamesState.items) { name ->
+                items(
+                    items = currentNamesState.items,
+                    key = { name -> "name-${name.id}" }
+                ) { name ->
                     JapaneseNameResult(name)
+                }
+                if (currentNamesState.canLoadMore) {
+                    item(key = "names-footer") {
+                        SearchResultFooter(
+                            loaded = currentNamesState.items.size,
+                            total = currentNamesState.totalCount,
+                            isLoading = screenState.isLoading
+                        )
+                    }
                 }
             }
 
@@ -456,13 +521,22 @@ private fun ListContent(
                 stickyHeader {
                     SearchHeader(
                         text = resolveString { search.wordsTitle(currentWordsState.totalCount) },
+                        supportingText = loadedCountLabel(
+                            loaded = currentWordsState.items.size,
+                            total = currentWordsState.totalCount
+                        ),
                         isSticky = true
                     )
                 }
                 
                 item { Spacer(Modifier.height(8.dp)) }
 
-                itemsIndexed(currentWordsState.items) { index, word ->
+                itemsIndexed(
+                    items = currentWordsState.items,
+                    key = { _, word ->
+                        "word-${word.id}-${word.reading.kanjiReading.orEmpty()}-${word.reading.kanaReading}"
+                    }
+                ) { index, word ->
                     Box(modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)) {
                         JapaneseWordUI(
                             index = index,
@@ -470,6 +544,15 @@ private fun ListContent(
                             onClick = { onWordClick(word) },
                             onFuriganaClick = onCharacterClick,
                             addWordToVocabDeckClick = { wordToAddToVocabDeck = word }
+                        )
+                    }
+                }
+                if (currentWordsState.canLoadMore) {
+                    item(key = "words-footer") {
+                        SearchResultFooter(
+                            loaded = currentWordsState.items.size,
+                            total = currentWordsState.totalCount,
+                            isLoading = screenState.isLoading
                         )
                     }
                 }
@@ -517,6 +600,122 @@ private fun ListContent(
 }
 
 @Composable
+private fun SearchWelcomeState() {
+    Surface(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 20.dp),
+        shape = RoundedCornerShape(Dimens.RadiusXl),
+        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.55f)
+    ) {
+        Column(
+            modifier = Modifier.padding(horizontal = 20.dp, vertical = 18.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            Text(
+                text = "Search the full JMdict index",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.SemiBold
+            )
+            Text(
+                text = "Find vocabulary, readings, romaji, meanings, names, kanji, and component matches without a curated subset boundary.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
+    }
+}
+
+@Composable
+private fun SearchModeSummary(scope: SearchScope, resultCount: Int) {
+    val scopeLabel = when (scope) {
+        SearchScope.Words -> "Vocabulary"
+        SearchScope.Kanji -> "Kanji"
+        SearchScope.Components -> "Components"
+        SearchScope.Names -> "Names"
+    }
+    Text(
+        text = "$scopeLabel · $resultCount total matches in full JMdict",
+        modifier = Modifier.padding(horizontal = 24.dp, vertical = 4.dp),
+        style = MaterialTheme.typography.labelMedium,
+        color = MaterialTheme.colorScheme.onSurfaceVariant
+    )
+}
+
+@Composable
+private fun SearchStateCard(
+    title: String,
+    body: String,
+    actionLabel: String?,
+    onAction: (() -> Unit)?,
+    isError: Boolean
+) {
+    val containerColor = if (isError) {
+        MaterialTheme.colorScheme.errorContainer
+    } else {
+        MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.55f)
+    }
+    val contentColor = if (isError) {
+        MaterialTheme.colorScheme.onErrorContainer
+    } else {
+        MaterialTheme.colorScheme.onSurfaceVariant
+    }
+    Surface(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 20.dp),
+        shape = RoundedCornerShape(Dimens.RadiusXl),
+        color = containerColor
+    ) {
+        Column(
+            modifier = Modifier.padding(horizontal = 20.dp, vertical = 18.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            Text(
+                text = title,
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.SemiBold,
+                color = if (isError) MaterialTheme.colorScheme.onErrorContainer
+                else MaterialTheme.colorScheme.onSurface
+            )
+            Text(
+                text = body,
+                style = MaterialTheme.typography.bodyMedium,
+                color = contentColor
+            )
+            if (actionLabel != null && onAction != null) {
+                Button(onClick = onAction) {
+                    Text(actionLabel)
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun SearchResultFooter(loaded: Int, total: Int, isLoading: Boolean) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 24.dp, vertical = 16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        if (isLoading) {
+            CircularProgressIndicator(modifier = Modifier.size(20.dp), strokeWidth = 2.dp)
+        }
+        Text(
+            text = "Showing $loaded of $total · scroll to load more",
+            style = MaterialTheme.typography.labelMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+    }
+}
+
+private fun loadedCountLabel(loaded: Int, total: Int): String =
+    "Showing $loaded of $total"
+
+@Composable
 private fun JapaneseNameResult(name: JapaneseName) {
     Surface(
         modifier = Modifier
@@ -562,7 +761,11 @@ private fun JapaneseNameResult(name: JapaneseName) {
 }
 
 @Composable
-private fun SearchHeader(text: String, isSticky: Boolean = false) {
+private fun SearchHeader(
+    text: String,
+    supportingText: String? = null,
+    isSticky: Boolean = false
+) {
     Box(
         modifier = Modifier
             .fillMaxWidth()
@@ -583,11 +786,20 @@ private fun SearchHeader(text: String, isSticky: Boolean = false) {
                     .clip(CircleShape)
                     .background(MaterialTheme.colorScheme.primary)
             )
-            Text(
-                text = text,
-                style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                color = MaterialTheme.colorScheme.onBackground
-            )
+            Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Text(
+                    text = text,
+                    style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                    color = MaterialTheme.colorScheme.onBackground
+                )
+                supportingText?.let {
+                    Text(
+                        text = it,
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
         }
     }
 }

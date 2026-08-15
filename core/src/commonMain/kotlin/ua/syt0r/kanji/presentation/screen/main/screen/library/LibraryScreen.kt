@@ -23,7 +23,9 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Icon
+import androidx.compose.material3.Button
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
@@ -42,6 +44,8 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.launch
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -174,6 +178,7 @@ private fun LibraryHub(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val coroutineScope = rememberCoroutineScope()
 
     var radicalCount by remember { mutableStateOf<Int?>(null) }
     LaunchedEffect(Unit) {
@@ -182,13 +187,47 @@ private fun LibraryHub(
 
     if (dataCenter.isLoading) {
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            FancyLoading()
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                FancyLoading()
+                Text(
+                    text = "Preparing the full offline dictionary…",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = surfaceColors.textMuted
+                )
+                Text(
+                    text = "The first setup may take a moment; your full JMdict data is kept intact.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = surfaceColors.textMuted
+                )
+            }
         }
         return
     }
     if (dataCenter.loadError) {
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            Text("Could not load the library", color = surfaceColors.textMuted)
+            Column(
+                modifier = Modifier.padding(horizontal = 24.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                Text(
+                    text = "The offline dictionary is not ready",
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                    color = surfaceColors.textPrimary
+                )
+                Text(
+                    text = "No data was deleted. Check your connection and retry the full JMdict setup.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = surfaceColors.textMuted
+                )
+                Button(onClick = { coroutineScope.launch { dataCenter.ensureLoaded() } }) {
+                    Text("Retry")
+                }
+            }
         }
         return
     }
@@ -207,12 +246,35 @@ private fun LibraryHub(
         verticalArrangement = Arrangement.spacedBy(Dimens.Space2)
     ) {
         item(key = "header") {
-            Column(Modifier.padding(top = Dimens.Space2, bottom = Dimens.Space1)) {
+            Column(
+                modifier = Modifier.padding(top = Dimens.Space2, bottom = Dimens.Space1),
+                verticalArrangement = Arrangement.spacedBy(10.dp)
+            ) {
                 Text(
                     text = "Your study hub — everything in one place",
                     color = surfaceColors.textMuted,
                     style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                 )
+                Row(
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(Dimens.RadiusLg))
+                        .background(surfaceColors.surfaceInteractive)
+                        .padding(horizontal = 12.dp, vertical = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Box(
+                        modifier = Modifier
+                            .size(8.dp)
+                            .clip(CircleShape)
+                            .background(accent.primary)
+                    )
+                    Text(
+                        text = "Full JMdict · offline index ready",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = surfaceColors.textSecondary
+                    )
+                }
             }
         }
 

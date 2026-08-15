@@ -4,6 +4,7 @@ import androidx.compose.runtime.State
 import ua.syt0r.kanji.core.app_data.JapaneseName
 import ua.syt0r.kanji.presentation.common.PaginatableJapaneseNameList
 import ua.syt0r.kanji.presentation.common.PaginatableJapaneseWordList
+import ua.syt0r.kanji.core.app_data.SearchScope
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.data.RadicalSearchListItem
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.data.RadicalSearchState
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search.data.SearchByRadicalsResult
@@ -36,8 +37,40 @@ interface SearchScreenContract {
         val characters: List<String>,
         val names: State<PaginatableJapaneseNameList>,
         val words: State<PaginatableJapaneseWordList>,
-        val query: String
-    )
+        val query: String,
+        val scope: SearchScope = SearchScope.Words,
+        val errorMessage: String? = null
+    ) {
+        val hasQuery: Boolean
+            get() = query.isNotBlank()
+
+        val totalResultCount: Int
+            get() = when (scope) {
+                SearchScope.Words -> words.value.totalCount
+                SearchScope.Names -> names.value.totalCount
+                SearchScope.Kanji, SearchScope.Components -> characters.size
+            }
+
+        companion object {
+            fun empty(
+                query: String = "",
+                scope: SearchScope = SearchScope.Words,
+                errorMessage: String? = null
+            ) = ScreenState(
+                isLoading = false,
+                characters = emptyList(),
+                names = androidx.compose.runtime.mutableStateOf(
+                    PaginatableJapaneseNameList(0, emptyList())
+                ),
+                words = androidx.compose.runtime.mutableStateOf(
+                    PaginatableJapaneseWordList(0, emptyList())
+                ),
+                query = query,
+                scope = scope,
+                errorMessage = errorMessage
+            )
+        }
+    }
 
     interface ProcessInputUseCase {
         suspend fun process(input: String): ScreenState
