@@ -16,6 +16,9 @@ import ua.syt0r.kanji.core.app_data.data.RadicalData
 import ua.syt0r.kanji.core.app_data.data.ReadingType
 import ua.syt0r.kanji.core.app_data.data.VocabReading
 import ua.syt0r.kanji.core.app_data.data.VocabReadingInfo
+import ua.syt0r.kanji.core.japanese.isKana
+import ua.syt0r.kanji.core.japanese.isKanji
+import ua.syt0r.kanji.core.japanese.kanaToRomaji
 import ua.syt0r.kanji.core.app_data.db.AppDataDatabase
 import ua.syt0r.kanji.core.appdata.db.GetVocabSearchEntries
 import ua.syt0r.kanji.core.appdata.db.LettersQueries
@@ -25,6 +28,14 @@ import ua.syt0r.kanji.core.logger.Logger
 class SqlDelightAppDataRepository(
     private val deferredDatabase: Deferred<AppDataDatabase>
 ) : AppDataRepository {
+
+    private data class SearchReadingCandidate(
+        val entryId: Long,
+        val elementId: Long,
+        val reading: String,
+        val priority: Long?,
+        val isKana: Long
+    )
 
     private suspend fun <T> lettersQuery(
         queryScope: LettersQueries.() -> T
@@ -128,7 +139,8 @@ class SqlDelightAppDataRepository(
                 meanings = row.meanings.splitValues(),
                 onReadings = row.on_readings.splitValues(),
                 classifications = row.classifications.splitValues(),
-                strokeCount = row.stroke_count.toInt()
+                strokeCount = row.stroke_count.toInt(),
+                readings = row.all_readings.splitValues()
             )
         }
     }
@@ -206,7 +218,8 @@ class SqlDelightAppDataRepository(
                 getWord(
                     id = element.entry_id,
                     kanaReading = element.reading.takeIf { element.isKana == 1L },
-                    kanjiReading = element.reading.takeIf { element.isKana == 0L }
+                    kanjiReading = element.reading.takeIf { element.isKana == 0L },
+                    elementId = element.element_id
                 )
             }
     }
@@ -222,8 +235,28 @@ class SqlDelightAppDataRepository(
 
         return vocabQuery {
             val fields = listOf("kanji", "kana", "romaji", "gloss")
+            val preferredElementsByEntry = query.terms
+                .asSequence()
+                .filter { term -> term.value.any { character -> character.isKana() || character.isKanji() } }
+                .flatMap { term ->
+                    term.toGlobPatterns().asSequence().flatMap { pattern ->
+                        searchVocabElementsByReading(pattern).executeAsList().asSequence()
+                            .map { row ->
+                                SearchReadingCandidate(
+                                    entryId = row.entry_id,
+                                    elementId = row.element_id,
+                                    reading = row.reading,
+                                    priority = row.priority,
+                                    isKana = row.isKana
+                                )
+                            }
+                    }
+                }
+                .groupBy { it.entryId }
             val positiveTags = query.tags.filterNot(SearchTag::negated)
             val negativeTags = query.tags.filter(SearchTag::negated)
+            val positiveTagIds = positiveTags.associateWith { tag -> getVocabEntryIdsForTag(tag) }
+            val negativeTagIds = negativeTags.associateWith { tag -> getVocabEntryIdsForTag(tag) }
 
             val matchedIds = when {
                 query.terms.isNotEmpty() -> query.terms
@@ -238,8 +271,7 @@ class SqlDelightAppDataRepository(
                     ?.toMutableSet()
                     ?: mutableSetOf()
 
-                positiveTags.isNotEmpty() -> positiveTags
-                    .map { tag -> getVocabEntryIdsForTag(tag) }
+                positiveTagIds.isNotEmpty() -> positiveTagIds.values
                     .reduceOrNull { left, right -> left intersect right }
                     ?.toMutableSet()
                     ?: mutableSetOf()
@@ -247,14 +279,10 @@ class SqlDelightAppDataRepository(
                 else -> getAllVocabEntryIds().executeAsList().toMutableSet()
             }
 
-            positiveTags.forEach { tag ->
-                if (query.terms.isNotEmpty()) {
-                    matchedIds.retainAll(getVocabEntryIdsForTag(tag))
-                }
+            if (query.terms.isNotEmpty()) {
+                positiveTagIds.values.forEach(matchedIds::retainAll)
             }
-            negativeTags.forEach { tag ->
-                matchedIds.removeAll(getVocabEntryIdsForTag(tag))
-            }
+            negativeTagIds.values.forEach(matchedIds::removeAll)
 
             val requestedWindow = offset.toLong().coerceAtLeast(0L) +
                     limit.toLong().coerceAtLeast(0L)
@@ -283,10 +311,26 @@ class SqlDelightAppDataRepository(
                 .drop(offset.coerceAtLeast(0))
                 .take(limit.coerceAtLeast(0))
                 .mapNotNull { element ->
+                    val preferredElement = preferredElementsByEntry[element.entry_id]
+                        ?.minWithOrNull(
+                            compareBy<SearchReadingCandidate> {
+                                it.priority == null
+                            }
+                                .thenBy { it.priority ?: Long.MAX_VALUE }
+                                .thenBy { it.elementId }
+                        )
+                    val selectedElement = preferredElement ?: SearchReadingCandidate(
+                        entryId = element.entry_id,
+                        elementId = element.element_id,
+                        reading = element.reading,
+                        priority = element.priority,
+                        isKana = element.isKana
+                    )
                     getWord(
-                        id = element.entry_id,
-                        kanaReading = element.reading.takeIf { element.isKana == 1L },
-                        kanjiReading = element.reading.takeIf { element.isKana == 0L }
+                        id = selectedElement.entryId,
+                        kanaReading = selectedElement.reading.takeIf { selectedElement.isKana == 1L },
+                        kanjiReading = selectedElement.reading.takeIf { selectedElement.isKana == 0L },
+                        elementId = selectedElement.elementId
                     )
                 }
 
@@ -301,6 +345,8 @@ class SqlDelightAppDataRepository(
             .toSet()
 
     private fun SearchTag.storageValues(): List<String> = when (value) {
+        "verb", "verbs" -> VerbSearchTags
+        "v5", "godan" -> VerbSearchTags.filter { it.startsWith("v5") }
         "transitive", "transitive-verb", "vt" -> listOf("vt", "transitive verb")
         "intransitive", "intransitive-verb", "vi" -> listOf("vi", "intransitive verb")
         "ichidan", "ichidan-verb", "v1" -> listOf("v1", "ichidan verb")
@@ -388,7 +434,7 @@ class SqlDelightAppDataRepository(
                 val candidates = listOf(
                     row.kanji,
                     row.meanings,
-                    row.on_readings
+                    row.all_readings
                 )
                 termMatchesAny(term, candidates)
             }
@@ -420,10 +466,17 @@ class SqlDelightAppDataRepository(
 
     private fun termMatchesAny(term: SearchTerm, candidates: List<String>): Boolean {
         val patterns = term.toGlobPatterns()
-        return candidates.any { candidate ->
-            val normalized = candidate.lowercase()
-            patterns.any { pattern -> normalized.matchesGlob(pattern) }
-        }
+        return candidates
+            .asSequence()
+            .flatMap { candidate ->
+                candidate.splitValues()
+                    .asSequence()
+                    .flatMap { value ->
+                        sequenceOf(value, value.kanaToRomaji())
+                    }
+            }
+            .map(String::lowercase)
+            .any { candidate -> patterns.any { pattern -> candidate.matchesGlob(pattern) } }
     }
 
     private fun String.matchesGlob(pattern: String): Boolean {
@@ -546,7 +599,7 @@ class SqlDelightAppDataRepository(
             limit = limit.toLong()
         )
             .executeAsList()
-            .map { getWord(it.entry_id, it.reading, null)!! }
+            .map { getWord(it.entry_id, it.reading, null, it.element_id)!! }
     }
 
     override suspend fun getSentencesWithTextCount(text: String): Int = vocabQuery {
@@ -732,57 +785,43 @@ class SqlDelightAppDataRepository(
         id: Long,
         kanaReading: String?,
         kanjiReading: String?,
+        elementId: Long? = null
     ): JapaneseWord? {
         val detailedWord = getDetailedWordInternal(id) ?: return null
+        var fallback: JapaneseWord? = null
+
+        fun toJapaneseWord(
+            sense: DetailedVocabSense,
+            reading: DetailedVocabReading
+        ) = JapaneseWord(
+            id = id,
+            reading = VocabReading(
+                kanjiReading = reading.kanji,
+                kanaReading = reading.kana,
+                furigana = reading.furigana
+            ),
+            glossary = sense.glossary,
+            partOfSpeechList = sense.partOfSpeechList
+        )
+
         for (sense in detailedWord.senseList) {
-
             for (reading in sense.readings) {
-
                 val matchesKanjiConstraint = kanjiReading == null || reading.kanji == kanjiReading
                 val matchesKanaConstraint = kanaReading == null || reading.kana == kanaReading
-                val matches = matchesKanjiConstraint && matchesKanaConstraint
+                if (!matchesKanjiConstraint || !matchesKanaConstraint) continue
 
-                if (matches) {
-                    return JapaneseWord(
-                        id = id,
-                        reading = VocabReading(
-                            kanjiReading = reading.kanji,
-                            kanaReading = reading.kana,
-                            furigana = reading.furigana
-                        ),
-                        glossary = sense.glossary,
-                        partOfSpeechList = sense.partOfSpeechList
-                    )
-                }
-
+                val result = toJapaneseWord(sense, reading)
+                if (elementId == null || reading.elementId == elementId) return result
+                if (fallback == null) fallback = result
             }
+        }
 
+        if (fallback != null) {
+            Logger.d("Using reading fallback for element[$elementId], id[$id]")
+            return fallback
         }
         Logger.d("Word not found, id[$id], kanaReading[$kanaReading], kanjiReading[$kanjiReading]")
         return null
-    }
-
-    private fun SearchTerm.toGlobPatterns(): List<String> = if (quoted) {
-        listOf(toGlobPattern(normalized))
-    } else {
-        buildList {
-            add(toGlobPattern(normalized))
-            romajiVariants.forEach { add(toGlobPattern(it)) }
-        }.distinct()
-    }
-
-    private fun toGlobPattern(value: String): String {
-        if (value.isEmpty()) return "*"
-        val escaped = buildString(value.length) {
-            value.forEach { character ->
-                when (character) {
-                    '*', '?' -> append(character)
-                    '[', ']' -> append('[').append(character).append(']')
-                    else -> append(character)
-                }
-            }
-        }
-        return if (escaped.startsWith('*')) escaped else "*$escaped"
     }
 
     private fun String.splitValues(): List<String> =
@@ -810,6 +849,11 @@ class SqlDelightAppDataRepository(
         private const val DELIMITER = "|||"
 
         private const val SearchEntryIdChunkSize = 500
+
+        private val VerbSearchTags = listOf(
+            "vt", "vi", "v1", "v5r", "v5s", "v5k", "v5m", "v5u", "v5t", "v5g", "v5b",
+            "v5k-s", "v5aru", "vk", "vs"
+        )
 
         private val readingInfoSetWithLowerPriority = setOf(
             VocabReadingInfo.IrregularKanaUsage,

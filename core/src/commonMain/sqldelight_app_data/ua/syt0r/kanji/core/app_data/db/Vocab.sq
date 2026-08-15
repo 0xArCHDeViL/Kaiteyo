@@ -302,6 +302,15 @@ WHERE field IN :fields
   AND normalized GLOB :pattern
 ORDER BY entry_id;
 
+searchVocabElementsByReading:
+SELECT entry_id, element_id, reading, priority, 0 AS isKana
+FROM vocab_kanji_element
+WHERE reading GLOB :pattern
+UNION ALL
+SELECT entry_id, element_id, reading, priority, 1 AS isKana
+FROM vocab_kana_element
+WHERE reading GLOB :pattern;
+
 getAllVocabEntryIds:
 SELECT id
 FROM vocab_entry
@@ -317,22 +326,40 @@ WITH matched AS (
     FROM vocab_kana_element
     WHERE entry_id IN :entryIds
 ), ranked AS (
-    SELECT entry_id,
-           MIN(priority) AS priority,
-           MIN(element_id) AS element_id
-    FROM matched
-    GROUP BY entry_id
+    SELECT candidate.entry_id,
+           candidate.element_id,
+           candidate.reading,
+           candidate.isKana,
+           candidate.priority
+    FROM matched AS candidate
+    WHERE NOT EXISTS (
+        SELECT 1
+        FROM matched AS better
+        WHERE better.entry_id = candidate.entry_id
+          AND (
+              (better.priority IS NOT NULL AND candidate.priority IS NULL)
+              OR (
+                  better.priority IS NOT NULL
+                  AND candidate.priority IS NOT NULL
+                  AND better.priority < candidate.priority
+              )
+              OR (
+                  (
+                      better.priority = candidate.priority
+                      OR (better.priority IS NULL AND candidate.priority IS NULL)
+                  )
+                  AND better.element_id < candidate.element_id
+              )
+          )
+    )
 )
-SELECT matched.entry_id,
-       matched.element_id,
-       matched.reading,
-       matched.isKana,
-       ranked.priority
+SELECT entry_id,
+       element_id,
+       reading,
+       isKana,
+       priority
 FROM ranked
-JOIN matched
-  ON matched.entry_id = ranked.entry_id
- AND matched.element_id = ranked.element_id
-ORDER BY ranked.priority IS NULL, ranked.priority, ranked.element_id, ranked.entry_id
+ORDER BY priority IS NULL, priority, element_id, entry_id
 LIMIT :limit OFFSET :offset;
 
 getVocabEntryIdsWithTag:

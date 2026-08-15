@@ -3,12 +3,13 @@ package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.search
 import androidx.compose.runtime.mutableStateOf
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.async
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.IO
-import kotlinx.coroutines.async
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.consumeAsFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.launchIn
@@ -41,6 +42,7 @@ class SearchViewModel(
     private val loadMoreNamesChannel = Channel<Int>(Channel.RENDEZVOUS, BufferOverflow.DROP_LATEST)
     private var wordsPageLoading = false
     private var namesPageLoading = false
+    private var searchGeneration = 0L
 
     private val radicalsDataInitialLoadChannel = Channel<Unit>(Channel.BUFFERED)
     private val radicalsLoadedCompletable = CompletableDeferred<Unit>()
@@ -103,33 +105,34 @@ class SearchViewModel(
     private fun handleSearchQueries() = viewModelScope.launch {
         searchQueriesChannel.consumeAsFlow()
             .distinctUntilChanged()
+            .debounce(SearchScreenContract.SearchInputDebounceMillis)
             .onEach {
                 Logger.d("loading for $it")
                 state.value = state.value.copy(isLoading = true, errorMessage = null)
             }
             .collectLatest { input ->
+                val generation = ++searchGeneration
                 try {
-                    /***
-                     * Async is not interrupted here, it executes completely but result is ignored,
-                     * runInterruptible doesn't work as well, TODO interrupt
-                     * More details: https://github.com/Kotlin/kotlinx.coroutines/issues/3109
-                     */
-                    Logger.d("start searching for $input")
-                    val result = async(coroutineContext + Dispatchers.IO) {
+                    Logger.d("start searching for $input generation[$generation]")
+                    val result = withContext(Dispatchers.IO) {
                         Logger.d("processing input $input in background")
                         processInputUseCase.process(input)
-                    }.await()
-                    Logger.d("applying new state for $input")
-                    state.value = result
+                    }
+                    if (generation == searchGeneration) {
+                        Logger.d("applying new state for $input generation[$generation]")
+                        state.value = result
+                    }
                 } catch (error: kotlinx.coroutines.CancellationException) {
                     throw error
                 } catch (error: Throwable) {
-                    Logger.e("search for $input failed: ${error.stackTraceToString()}")
-                    state.value = SearchScreenContract.ScreenState.empty(
-                        query = input,
-                        scope = SearchQueryParser.parse(input).scope,
-                        errorMessage = error.message ?: "Unable to search the offline dictionary"
-                    )
+                    if (generation == searchGeneration) {
+                        Logger.e("search for $input failed: ${error.stackTraceToString()}")
+                        state.value = SearchScreenContract.ScreenState.empty(
+                            query = input,
+                            scope = SearchQueryParser.parse(input).scope,
+                            errorMessage = error.message ?: "Unable to search the offline dictionary"
+                        )
+                    }
                 }
             }
     }
@@ -183,8 +186,18 @@ class SearchViewModel(
             .collect {
                 if (wordsPageLoading || !state.value.words.value.canLoadMore) return@collect
                 wordsPageLoading = true
+                val requestState = state.value
                 try {
-                    loadMoreWordsUseCase.loadMore(state.value)
+                    val updatedWords = loadMoreWordsUseCase.loadMore(requestState)
+                    val currentState = state.value
+                    if (
+                        currentState.query == requestState.query &&
+                        currentState.scope == requestState.scope
+                    ) {
+                        state.value = currentState.copy(
+                            words = androidx.compose.runtime.mutableStateOf(updatedWords)
+                        )
+                    }
                 } finally {
                     wordsPageLoading = false
                 }
@@ -196,8 +209,18 @@ class SearchViewModel(
             .collect {
                 if (namesPageLoading || !state.value.names.value.canLoadMore) return@collect
                 namesPageLoading = true
+                val requestState = state.value
                 try {
-                    loadMoreNamesUseCase.loadMore(state.value)
+                    val updatedNames = loadMoreNamesUseCase.loadMore(requestState)
+                    val currentState = state.value
+                    if (
+                        currentState.query == requestState.query &&
+                        currentState.scope == requestState.scope
+                    ) {
+                        state.value = currentState.copy(
+                            names = androidx.compose.runtime.mutableStateOf(updatedNames)
+                        )
+                    }
                 } finally {
                     namesPageLoading = false
                 }

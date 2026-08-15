@@ -4,6 +4,7 @@ import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 import ua.syt0r.kanji.core.app_data.SearchQueryParser
 import ua.syt0r.kanji.core.app_data.SearchScope
+import ua.syt0r.kanji.core.app_data.toGlobPatterns
 
 class SearchQueryParserTest {
 
@@ -47,6 +48,29 @@ class SearchQueryParserTest {
 
         assertEquals("??直*", query.terms.single().value)
         assertEquals("??直*", query.terms.single().normalized)
+    }
+
+    @Test
+    fun usesSubstringMatchingByDefaultAndExactMatchingForQuotedTerms() {
+        val substringPatterns = SearchQueryParser.parse("begin").terms.single().toGlobPatterns()
+        val exactPatterns = SearchQueryParser.parse("\"begin\"").terms.single().toGlobPatterns()
+
+        assertTrue(substringPatterns.contains("*begin*"))
+        assertEquals(listOf("begin"), exactPatterns)
+    }
+
+    @Test
+    fun keepsRawJapanesePatternForMixedKanjiAndKanaTerms() {
+        val patterns = SearchQueryParser.parse("召し上がる").terms.single().toGlobPatterns()
+
+        assertTrue(patterns.contains("*召し上がる*"))
+    }
+
+    @Test
+    fun preservesExplicitWildcardBoundaries() {
+        val patterns = SearchQueryParser.parse("??直*").terms.single().toGlobPatterns()
+
+        assertEquals(listOf("??直*"), patterns)
     }
 
     @Test

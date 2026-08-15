@@ -168,3 +168,42 @@ object SearchQueryParser {
 
     private const val MaxRomajiVariants = 32
 }
+
+/**
+ * Compiles a search term into SQLite GLOB patterns shared by all repositories.
+ * Unquoted terms are substring searches; quoted terms are exact field matches.
+ */
+internal fun SearchTerm.toGlobPatterns(): List<String> {
+    val rawValue = value.lowercase()
+    val values = buildList {
+        add(rawValue)
+        add(normalized)
+        addAll(romajiVariants)
+    }.filter { it.isNotEmpty() }.distinct()
+
+    return if (quoted) {
+        values.map { toGlobPattern(it, exact = true) }.distinct()
+    } else {
+        values.map(::toGlobPattern).distinct()
+    }
+}
+
+private fun toGlobPattern(value: String, exact: Boolean = false): String {
+    if (value.isEmpty()) return if (exact) "" else "*"
+    val escaped = buildString(value.length) {
+        value.forEach { character ->
+            when (character) {
+                '*', '?' -> append(character)
+                '[', ']' -> append('[').append(character).append(']')
+                else -> append(character)
+            }
+        }
+    }
+    if (exact) return escaped
+
+    return buildString(escaped.length + 2) {
+        if (escaped.firstOrNull() !in setOf('*', '?')) append('*')
+        append(escaped)
+        if (escaped.lastOrNull() !in setOf('*', '?')) append('*')
+    }
+}

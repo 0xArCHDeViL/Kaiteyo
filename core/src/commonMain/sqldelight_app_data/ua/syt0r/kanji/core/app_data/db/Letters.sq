@@ -163,6 +163,14 @@ WITH meanings AS (
         ORDER BY kanji, reading
     )
     GROUP BY kanji
+), all_readings AS (
+    SELECT kanji, group_concat(reading, :delimiter) AS all_readings
+    FROM (
+        SELECT kanji, reading
+        FROM kanji_reading
+        ORDER BY kanji, reading_type, reading
+    )
+    GROUP BY kanji
 ), classifications AS (
     SELECT kanji, group_concat(class, :delimiter) AS classifications
     FROM (
@@ -180,11 +188,13 @@ SELECT kanji_data.kanji,
        kanji_data.frequency,
        COALESCE(meanings.meanings, '') AS meanings,
        COALESCE(on_readings.on_readings, '') AS on_readings,
+       COALESCE(all_readings.all_readings, '') AS all_readings,
        COALESCE(classifications.classifications, '') AS classifications,
        COALESCE(stroke_counts.stroke_count, 0) AS stroke_count
 FROM kanji_data
 LEFT JOIN meanings ON meanings.kanji = kanji_data.kanji
 LEFT JOIN on_readings ON on_readings.kanji = kanji_data.kanji
+LEFT JOIN all_readings ON all_readings.kanji = kanji_data.kanji
 LEFT JOIN classifications ON classifications.kanji = kanji_data.kanji
 LEFT JOIN stroke_counts ON stroke_counts.character = kanji_data.kanji
 ORDER BY COALESCE(kanji_data.frequency, 2147483647), kanji_data.kanji;

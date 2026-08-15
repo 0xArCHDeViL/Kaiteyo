@@ -15,6 +15,7 @@ interface SearchScreenContract {
         const val InitialWordsCount = 50
         const val LoadMoreWordsCount = 50
         const val LoadMoreWordsFromEndThreshold = 20
+        const val SearchInputDebounceMillis = 120L
     }
 
     interface ViewModel {
@@ -85,11 +86,11 @@ interface SearchScreenContract {
     }
 
     interface LoadMoreWordsUseCase {
-        suspend fun loadMore(state: ScreenState)
+        suspend fun loadMore(state: ScreenState): PaginatableJapaneseWordList
     }
 
     interface LoadMoreNamesUseCase {
-        suspend fun loadMore(state: ScreenState)
+        suspend fun loadMore(state: ScreenState): PaginatableJapaneseNameList
     }
 
     interface UpdateEnabledRadicalsUseCase {

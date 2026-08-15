@@ -40,17 +40,34 @@ class SearchScreenProcessInputUseCase(
             ?: ua.syt0r.kanji.core.app_data.SearchResult(0, emptyList())
 
         val isNamesQuery = parsedQuery.scope == ua.syt0r.kanji.core.app_data.SearchScope.Names
+        val isWordsQuery = parsedQuery.scope == ua.syt0r.kanji.core.app_data.SearchScope.Words
         val namesTotalCount = if (isNamesQuery) searchResult.totalCount else 0
-        val wordsTotalCount = if (isNamesQuery) 0 else searchResult.totalCount
+        val wordsTotalCount = if (isWordsQuery) searchResult.totalCount else 0
+
+        val characters = when (parsedQuery.scope) {
+            ua.syt0r.kanji.core.app_data.SearchScope.Words ->
+                searchResult.characters.ifEmpty { knownCharacters }
+            ua.syt0r.kanji.core.app_data.SearchScope.Kanji,
+            ua.syt0r.kanji.core.app_data.SearchScope.Components,
+            ua.syt0r.kanji.core.app_data.SearchScope.Names -> searchResult.characters
+        }
 
         return SearchScreenContract.ScreenState(
             isLoading = false,
-            characters = searchResult.characters.ifEmpty { knownCharacters },
+            characters = characters,
             names = mutableStateOf(
-                PaginatableJapaneseNameList(namesTotalCount, searchResult.names)
+                PaginatableJapaneseNameList(
+                    totalCount = namesTotalCount,
+                    items = searchResult.names,
+                    nextOffset = minOf(namesTotalCount, SearchScreenContract.InitialWordsCount)
+                )
             ),
             words = mutableStateOf(
-                PaginatableJapaneseWordList(wordsTotalCount, searchResult.words)
+                PaginatableJapaneseWordList(
+                    totalCount = wordsTotalCount,
+                    items = searchResult.words,
+                    nextOffset = minOf(wordsTotalCount, SearchScreenContract.InitialWordsCount)
+                )
             ),
             query = input,
             scope = parsedQuery.scope,

@@ -12,7 +12,8 @@ data class KanjiCatalogEntry(
     val meanings: List<String>,
     val onReadings: List<String>,
     val classifications: List<String>,
-    val strokeCount: Int
+    val strokeCount: Int,
+    val readings: List<String> = onReadings
 )
 
 data class KanjiListEntry(
