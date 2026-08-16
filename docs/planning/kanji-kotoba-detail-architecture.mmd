@@ -1,0 +1,38 @@
+flowchart TD
+    A[Typed DetailTarget] --> B{Detail Use Case}
+    B --> C[Dictionary Aggregate]
+    B --> D[User Study Aggregate]
+    B --> E[Relation Aggregate]
+    C --> C1[KanjiData / VocabData]
+    C --> C2[Stroke / Reading / Meaning]
+    C --> C3[Sense / POS / Tags / Restrictions]
+    C --> C4[SourceMetadata + Coverage]
+    D --> D1[FSRS Card Repository]
+    D --> D2[Deck Membership]
+    D --> D3[Review History]
+    D --> D4[Tags / Flags / Notes]
+    E --> E1[Radicals / Components]
+    E --> E2[Referenced Words]
+    E --> E3[Kanji Constituents]
+    C1 --> F[Immutable DetailViewModel]
+    C2 --> F
+    C3 --> F
+    C4 --> F
+    D1 --> F
+    D2 --> F
+    D3 --> F
+    D4 --> F
+    E1 --> F
+    E2 --> F
+    E3 --> F
+    F --> G{Window Width Class}
+    G -->|Compact| H[Single Column Detail]
+    G -->|Medium| I[Single Surface + Adaptive Grid]
+    G -->|Expanded+| J[Primary Detail + Supporting Pane]
+    H --> K[Shared Detail Shell]
+    I --> K
+    J --> K
+    K --> L[Kanji Sections]
+    K --> M[Kotoba Sections]
+    L --> N[User Actions -> Use Cases -> Re-read State]
+    M --> N

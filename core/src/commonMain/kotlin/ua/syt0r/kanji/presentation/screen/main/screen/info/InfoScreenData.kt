@@ -4,6 +4,7 @@ import androidx.compose.ui.graphics.Path
 import kotlinx.serialization.Serializable
 import ua.syt0r.kanji.core.app_data.Sentence
 import ua.syt0r.kanji.core.app_data.data.DetailedJapaneseWord
+import ua.syt0r.kanji.core.app_data.data.DictionaryDetailTarget
 import ua.syt0r.kanji.core.app_data.data.DetailedVocabReading
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.core.japanese.CharacterClassification
@@ -32,6 +33,23 @@ fun JapaneseWord.toInfoScreenData() = InfoScreenData.Vocab(
     id = id,
     kanjiReading = reading.kanjiReading,
     kanaReading = reading.kanaReading
+)
+
+fun InfoScreenData.toDictionaryDetailTarget(): DictionaryDetailTarget? = when (this) {
+    is InfoScreenData.Letter -> DictionaryDetailTarget.Kanji(letter)
+    is InfoScreenData.Vocab -> id?.let {
+        DictionaryDetailTarget.Vocabulary(
+            entryId = it,
+            kanji = kanjiReading,
+            kana = kanaReading,
+        )
+    }
+}
+
+fun JapaneseWord.toDictionaryDetailTarget() = DictionaryDetailTarget.Vocabulary(
+    entryId = id,
+    kanji = reading.kanjiReading,
+    kana = reading.kanaReading,
 )
 
 sealed interface LetterInfoData {
