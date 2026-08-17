@@ -16,6 +16,16 @@
     <string name="vocab_card_missing_meaning">[No meaning]</string>
     <string name="error_unknown">Unknown error</string>
 
+    <string name="app_data_setup_title">Set up dictionary data</string>
+    <string name="app_data_setup_download">Download database</string>
+    <string name="app_data_setup_import">Import local database</string>
+    <string name="app_data_setup_download_description">Download the verified full JMdict database from the official Kaiteyo release. You can use the app offline after setup.</string>
+    <string name="app_data_setup_import_description">Choose a local SQLite database or a gzip-compressed database file. The file is validated before it replaces the app database.</string>
+    <string name="app_data_setup_downloading">Downloading and verifying the database…</string>
+    <string name="app_data_setup_importing">Importing and validating the selected database…</string>
+    <string name="app_data_setup_error">The database could not be installed.</string>
+    <string name="app_data_setup_retry">Retry</string>
+
     <string name="update_snackbar_title">The app was updated</string>
     <string name="update_snackbar_action">Changes</string>
 

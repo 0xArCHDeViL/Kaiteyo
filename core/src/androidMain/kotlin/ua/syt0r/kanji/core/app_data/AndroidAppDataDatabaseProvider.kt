@@ -2,13 +2,22 @@ package ua.syt0r.kanji.core.app_data
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
+import android.net.Uri
 import androidx.sqlite.db.SupportSQLiteDatabase
 import app.cash.sqldelight.driver.android.AndroidSqliteDriver
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.async
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import ua.syt0r.kanji.core.CustomVersionSqlSchema
 import ua.syt0r.kanji.core.app_data.db.AppDataDatabase
@@ -18,6 +27,7 @@ import java.io.BufferedInputStream
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream
+import java.io.InputStream
 import java.net.HttpURLConnection
 import java.net.URL
 import java.nio.charset.StandardCharsets
@@ -33,33 +43,143 @@ private const val HttpRequestedRangeNotSatisfiable = 416
 
 class AndroidAppDataDatabaseProvider(
     private val context: Context
-) : AppDataDatabaseProvider {
+) : AppDataDatabaseProvider, AppDataSetupController {
 
-    private val coroutineScope = CoroutineScope(context = Dispatchers.IO)
+    private val coroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val setupMutex = Mutex()
+    private val databaseReady = CompletableDeferred<AppDataDatabase>()
+    private val setupStateFlow = MutableStateFlow<AppDataSetupState>(AppDataSetupState.Checking)
+    private var setupJob: Job? = null
+    private var lastSetupAction: SetupAction? = null
+
+    override val state: StateFlow<AppDataSetupState> = setupStateFlow.asStateFlow()
+
+    override fun initialize() {
+        if (setupStateFlow.value != AppDataSetupState.Checking || databaseReady.isCompleted) return
+        coroutineScope.launch {
+            val existing = getCurrentDatabase()
+            if (existing != null) {
+                databaseReady.complete(existing)
+                setupStateFlow.value = AppDataSetupState.Ready
+            } else {
+                setupStateFlow.value = AppDataSetupState.ChoiceRequired
+            }
+        }
+    }
 
     override fun provideAsync(): Deferred<AppDataDatabase> = coroutineScope.async {
+        if (databaseReady.isCompleted) return@async databaseReady.await()
+
         val existing = getCurrentDatabase()
-        if (existing != null) return@async existing
+        if (existing != null) {
+            databaseReady.complete(existing)
+            setupStateFlow.value = AppDataSetupState.Ready
+            return@async existing
+        }
+
+        if (setupStateFlow.value == AppDataSetupState.Checking) {
+            setupStateFlow.value = AppDataSetupState.ChoiceRequired
+        }
+        databaseReady.await()
+    }
+
+    override fun chooseDownload() {
+        startSetup(SetupAction.Download)
+    }
+
+    override fun chooseImport(uri: String) {
+        startSetup(SetupAction.Import(uri))
+    }
+
+    override fun retry() {
+        lastSetupAction?.let(::startSetup)
+    }
+
+    private fun startSetup(action: SetupAction) {
+        if (databaseReady.isCompleted || setupJob?.isActive == true) return
+        lastSetupAction = action
+        setupJob = coroutineScope.launch {
+            setupMutex.withLock {
+                if (databaseReady.isCompleted) return@withLock
+                setupStateFlow.value = when (action) {
+                    SetupAction.Download -> AppDataSetupState.Downloading
+                    is SetupAction.Import -> AppDataSetupState.Importing
+                }
+                runCatching {
+                    when (action) {
+                        SetupAction.Download -> createNewDatabaseFromPack()
+                        is SetupAction.Import -> importDatabaseFromUri(action.uri)
+                    }
+                }.onSuccess { database ->
+                    databaseReady.complete(database)
+                    setupStateFlow.value = AppDataSetupState.Ready
+                }.onFailure { error ->
+                    val fallback = getLegacyDatabase()
+                    if (fallback != null) {
+                        Logger.e("App-data setup failed; using existing legacy database: ${error.stackTraceToString()}")
+                        databaseReady.complete(fallback)
+                        setupStateFlow.value = AppDataSetupState.Ready
+                    } else {
+                        Logger.e("App-data setup failed: ${error.stackTraceToString()}")
+                        setupStateFlow.value = AppDataSetupState.Error(error.message)
+                    }
+                }
+            }
+            setupJob = null
+        }
+    }
+
+    private sealed interface SetupAction {
+        data object Download : SetupAction
+        data class Import(val uri: String) : SetupAction
+    }
+
+    private suspend fun importDatabaseFromUri(uriString: String): AppDataDatabase = withContext(Dispatchers.IO) {
+        val dbFile = context.getDatabasePath(AppDataDatabaseName)
+        dbFile.parentFile?.mkdirs()
+        val stagedDb = File(dbFile.parentFile, "${dbFile.name}.import")
+        stagedDb.delete()
+        val uri = Uri.parse(uriString)
 
         try {
-            createNewDatabaseFromPack()
-        } catch (error: Throwable) {
-            val fallback = getLegacyDatabase()
-            if (fallback != null) {
-                Logger.e("Full app-data pack unavailable; using existing legacy database: ${error.stackTraceToString()}")
-                fallback
-            } else {
-                throw error
+            val source = context.contentResolver.openInputStream(uri)
+                ?: error("Unable to open selected database file")
+            source.use { rawInput ->
+                val bufferedInput = BufferedInputStream(rawInput, DownloadBufferSize)
+                bufferedInput.mark(2)
+                val header = ByteArray(2)
+                val headerBytes = bufferedInput.read(header)
+                bufferedInput.reset()
+                val input: InputStream = if (AppDataPackFormat.isGzipHeader(header, headerBytes)) {
+                    GZIPInputStream(bufferedInput, DownloadBufferSize)
+                } else {
+                    bufferedInput
+                }
+                input.use { databaseInput ->
+                    FileOutputStream(stagedDb).use { output ->
+                        databaseInput.copyTo(output, DownloadBufferSize)
+                    }
+                }
             }
+            validateSqliteFile(stagedDb)
+            val importedVersion = readDatabaseVersion(stagedDb)
+            require(AppDataPackFormat.supportsDatabaseVersion(importedVersion, AppDataDatabaseVersion)) {
+                "Unsupported app-data version $importedVersion; expected $AppDataDatabaseVersion"
+            }
+            context.deleteDatabase(AppDataDatabaseName)
+            moveAtomically(stagedDb, dbFile)
+            AppDataDatabase(createDriver(dbFile, AppDataDatabaseVersion).driver)
+        } finally {
+            stagedDb.delete()
         }
     }
 
     private suspend fun getCurrentDatabase(): AppDataDatabase? {
         val dbFile = context.getDatabasePath(AppDataDatabaseName)
         if (!dbFile.isFile) return null
-        if (readDatabaseVersion(dbFile) != AppDataDatabaseVersion) return null
 
         return try {
+            if (readDatabaseVersion(dbFile) != AppDataDatabaseVersion) return null
             AppDataDatabase(createDriver(dbFile, AppDataDatabaseVersion).driver)
         } catch (error: Throwable) {
             Logger.e("Existing app-data database is unusable: ${error.stackTraceToString()}")
@@ -189,7 +309,7 @@ class AndroidAppDataDatabaseProvider(
         FileInputStream(file).use { input ->
             val header = ByteArray(16)
             require(input.read(header) == header.size) { "Extracted app-data database is truncated" }
-            require(header.toString(StandardCharsets.US_ASCII) == "SQLite format 3\u0000") {
+            require(header.toString(StandardCharsets.US_ASCII) == AppDataPackFormat.SqliteHeader) {
                 "Extracted app-data database has an invalid SQLite header"
             }
         }

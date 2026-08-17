@@ -12,11 +12,13 @@ import androidx.media3.exoplayer.ExoPlayer
 import androidx.work.WorkManager
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.module.Module
+import org.koin.dsl.binds
 import org.koin.dsl.module
 import ua.syt0r.kanji.AndroidMainBuildConfig
 import ua.syt0r.kanji.core.AndroidThemeManager
 import ua.syt0r.kanji.core.BuildConfig
 import ua.syt0r.kanji.core.app_data.AppDataDatabaseProvider
+import ua.syt0r.kanji.core.app_data.AppDataSetupController
 import ua.syt0r.kanji.core.app_data.AndroidAppDataDatabaseProvider
 import ua.syt0r.kanji.core.backup.AndroidBackupArchiveHandler
 import ua.syt0r.kanji.core.backup.BackupArchiveHandler
@@ -67,11 +69,14 @@ actual val platformComponentsModule: Module = module {
         )
     }
 
-    single<AppDataDatabaseProvider> {
+    single {
         AndroidAppDataDatabaseProvider(
             context = androidContext()
         )
-    }
+    } binds arrayOf(
+        AppDataDatabaseProvider::class,
+        AppDataSetupController::class
+    )
 
     single<UserDataDatabaseContract.PlatformHandler> {
         AndroidUserDataDatabasePlatformHandler(

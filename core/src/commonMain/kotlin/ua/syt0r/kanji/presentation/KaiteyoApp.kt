@@ -7,11 +7,14 @@ import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import org.koin.compose.koinInject
+import ua.syt0r.kanji.core.app_data.AppDataSetupController
+import ua.syt0r.kanji.core.app_data.AppDataSetupState
 import ua.syt0r.kanji.core.theme_manager.ThemeManager
 import ua.syt0r.kanji.core.user_data.preferences.PreferencesTheme
 import ua.syt0r.kanji.presentation.common.theme.AllAccentSchemes
@@ -28,8 +31,13 @@ import ua.syt0r.kanji.presentation.screen.main.features.DeepLinkHandler
 fun KaiteyoApp(
     windowSizeClass: WindowSizeClass,
     deepLinkHandler: DeepLinkHandler = koinInject(),
-    themeManager: ThemeManager = koinInject()
+    themeManager: ThemeManager = koinInject(),
+    appDataSetupController: AppDataSetupController = koinInject()
 ) {
+
+    LaunchedEffect(appDataSetupController) {
+        appDataSetupController.initialize()
+    }
 
     val orientation = when (windowSizeClass.widthSizeClass) {
         WindowWidthSizeClass.Expanded -> Orientation.Landscape
@@ -76,7 +84,10 @@ fun KaiteyoApp(
                 modifier = Modifier.fillMaxSize(),
                 color = MaterialTheme.colorScheme.background
             ) {
-                MainScreen(deepLinkHandler)
+                when (appDataSetupController.state.collectAsState().value) {
+                    AppDataSetupState.Ready -> MainScreen(deepLinkHandler)
+                    else -> AppDataSetupScreen(appDataSetupController)
+                }
             }
         }
     }

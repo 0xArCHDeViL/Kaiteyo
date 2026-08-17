@@ -16,6 +16,16 @@
     <string name="vocab_card_missing_meaning">[意味なし]</string>
     <string name="error_unknown">不明なエラー</string>
 
+    <string name="app_data_setup_title">辞書データを設定</string>
+    <string name="app_data_setup_download">データベースをダウンロード</string>
+    <string name="app_data_setup_import">ローカルデータベースを読み込む</string>
+    <string name="app_data_setup_download_description">Kaiteyo公式リリースから検証済みのJMdictデータベースをダウンロードします。設定後はオフラインで利用できます。</string>
+    <string name="app_data_setup_import_description">ローカルのSQLiteデータベース、またはgzip圧縮されたデータベースを選択します。アプリデータを置き換える前にファイルを検証します。</string>
+    <string name="app_data_setup_downloading">データベースをダウンロードして検証しています…</string>
+    <string name="app_data_setup_importing">選択したデータベースを読み込んで検証しています…</string>
+    <string name="app_data_setup_error">データベースを設定できませんでした。</string>
+    <string name="app_data_setup_retry">再試行</string>
+
     <string name="update_snackbar_title">アプリが更新されました</string>
     <string name="update_snackbar_action">変更点</string>
 
