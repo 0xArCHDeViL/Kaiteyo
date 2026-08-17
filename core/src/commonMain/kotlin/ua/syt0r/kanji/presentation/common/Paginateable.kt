@@ -74,12 +74,13 @@ fun PaginationLoadLaunchedEffect(
     prefetchDistance: Int = 50,
     paginateableState: PaginateableState<out Any>
 ) {
-    LaunchedEffect(paginateableState) {
+    LaunchedEffect(paginateableState, listState) {
         Logger.d("starting listening for load more for - ${paginateableState.list.firstOrNull()}")
-        snapshotFlow { listState.layoutInfo }
-            .map { it.isNearListEnd(prefetchDistance) }
+        snapshotFlow {
+            listState.layoutInfo.isNearListEnd(prefetchDistance) to paginateableState.list.size
+        }
             .distinctUntilChanged()
-            .filter { it }
+            .filter { (nearEnd, _) -> nearEnd }
             .collect { paginateableState.loadMore() }
     }
 }
@@ -90,20 +91,34 @@ fun PaginationLoadLaunchedEffect(
     prefetchDistance: Int = 50,
     paginateableToExpandedStateList: List<Pair<Paginateable<*>, State<Boolean>>>
 ) {
-
-    PaginationLoadLaunchedEffect(
-        listState = listState,
-        prefetchDistance = prefetchDistance,
-        loadMore = {
-            val loadMoreTargetData = paginateableToExpandedStateList
-                .find { (paginateable, isExpandedState) ->
-                    isExpandedState.value && paginateable.canLoadMore.value
-                }
-                ?.first
-
-            loadMoreTargetData?.loadMore()
+    LaunchedEffect(listState, paginateableToExpandedStateList) {
+        snapshotFlow {
+            val nearEnd = listState.layoutInfo.isNearListEnd(prefetchDistance)
+            val sectionSnapshot = paginateableToExpandedStateList.map { (paginateable, isExpandedState) ->
+                Triple(isExpandedState.value, paginateable.list.value.size, paginateable.canLoadMore.value)
+            }
+            nearEnd to sectionSnapshot
         }
-    )
+            .distinctUntilChanged()
+            .collect { (nearEnd, sectionSnapshot) ->
+                val emptyExpandedSections = paginateableToExpandedStateList
+                    .mapIndexedNotNull { index, (paginateable, _) ->
+                        val (isExpanded, size, canLoadMore) = sectionSnapshot[index]
+                        paginateable.takeIf { isExpanded && size == 0 && canLoadMore }
+                    }
+                if (emptyExpandedSections.isNotEmpty()) {
+                    emptyExpandedSections.forEach { it.loadMore() }
+                } else if (nearEnd) {
+                    paginateableToExpandedStateList
+                        .mapIndexedNotNull { index, (paginateable, isExpandedState) ->
+                            val (isExpanded, size, canLoadMore) = sectionSnapshot[index]
+                            paginateable.takeIf { isExpanded && size > 0 && canLoadMore }
+                        }
+                        .firstOrNull()
+                        ?.loadMore()
+                }
+            }
+    }
 
 }
 

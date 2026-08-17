@@ -469,6 +469,34 @@ SELECT entry_id, element_id, reading, isKana
 FROM matched
 GROUP BY entry_id;
 
+getVocabKanjiElementsForEntries:
+SELECT elements.entry_id,
+       elements.element_id,
+       elements.reading,
+       elements.priority,
+       COALESCE((SELECT group_concat(information, :delimiter)
+        FROM vocab_kanji_information
+        WHERE element_id = elements.element_id), '') AS informations
+FROM vocab_kanji_element AS elements
+WHERE elements.entry_id IN :entryIds
+ORDER BY elements.entry_id, elements.priority IS NULL, elements.priority, elements.element_id;
+
+getVocabKanaElementsForEntries:
+SELECT elements.entry_id,
+       elements.element_id,
+       elements.reading,
+       elements.priority,
+       COALESCE((SELECT group_concat(information, :delimiter)
+        FROM vocab_kana_information
+        WHERE element_id = elements.element_id), '') AS informations,
+       elements.no_kanji,
+       COALESCE((SELECT group_concat(restricted_kanji, :delimiter)
+        FROM vocab_kana_restriction
+        WHERE element_id = elements.element_id), '') AS restricted_kanji
+FROM vocab_kana_element AS elements
+WHERE elements.entry_id IN :entryIds
+ORDER BY elements.entry_id, elements.priority IS NULL, elements.priority, elements.element_id;
+
 getVocabSensesWithDetails:
 WITH
     Senses AS (SELECT id, entry_id FROM vocab_sense WHERE entry_id IN :words),

@@ -28,6 +28,7 @@ fun Material3BottomSheetScaffold(
     BottomSheetScaffold(
         scaffoldState = scaffoldState,
         sheetPeekHeight = 0.dp,
+        sheetDragHandle = null,
         sheetContent = {
             Surface { sheetContent() }
         },

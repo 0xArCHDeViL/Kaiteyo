@@ -24,6 +24,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.sizeIn
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.NavigateNext
 import androidx.compose.material3.rememberBottomSheetScaffoldState
@@ -154,24 +155,34 @@ fun LetterPracticeWritingUI(
                     .weight(1f)
                     .fillMaxWidth()
             )
-            BrushSelector(
-                brushSettings = brushSettings,
-                onBrushSettingsChange = { brushSettings = it },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .sizeIn(maxWidth = 440.dp)
-                    .padding(horizontal = 20.dp, vertical = 8.dp)
-            )
-            LetterPracticeWritingInputSection(
-                state = reviewState,
-                brushSettings = brushSettings,
-                modifier = Modifier
-                    .sizeIn(maxWidth = 440.dp)
-                    .fillMaxWidth()
-                    .padding(horizontal = 20.dp)
-                    .aspectRatio(1f, matchHeightConstraintsFirst = false)
-            )
-            answersSection(Modifier.fillMaxWidth())
+            Box(
+                modifier = Modifier.fillMaxWidth(),
+                contentAlignment = Alignment.Center
+            ) {
+                BrushSelector(
+                    brushSettings = brushSettings,
+                    onBrushSettingsChange = { brushSettings = it },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .sizeIn(maxWidth = 440.dp)
+                        .padding(horizontal = 20.dp, vertical = 8.dp)
+                )
+            }
+            Box(
+                modifier = Modifier.fillMaxWidth(),
+                contentAlignment = Alignment.Center
+            ) {
+                LetterPracticeWritingInputSection(
+                    state = reviewState,
+                    brushSettings = brushSettings,
+                    modifier = Modifier
+                        .sizeIn(maxWidth = 440.dp)
+                        .fillMaxWidth()
+                        .padding(horizontal = 20.dp)
+                        .aspectRatio(1f, matchHeightConstraintsFirst = false)
+                )
+            }
+            answersSection(Modifier.fillMaxWidth().navigationBarsPadding())
         }
     }
 

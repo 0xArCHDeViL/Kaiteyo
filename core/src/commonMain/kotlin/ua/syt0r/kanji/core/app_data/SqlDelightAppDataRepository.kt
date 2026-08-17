@@ -20,7 +20,11 @@ import ua.syt0r.kanji.core.japanese.isKana
 import ua.syt0r.kanji.core.japanese.isKanji
 import ua.syt0r.kanji.core.japanese.kanaToRomaji
 import ua.syt0r.kanji.core.app_data.db.AppDataDatabase
+import ua.syt0r.kanji.core.appdata.db.GetVocabKanaElementsForEntries
+import ua.syt0r.kanji.core.appdata.db.GetVocabKanjiElementsForEntries
+import ua.syt0r.kanji.core.appdata.db.GetVocabReadingsWithText
 import ua.syt0r.kanji.core.appdata.db.GetVocabSearchEntries
+import ua.syt0r.kanji.core.appdata.db.GetVocabSensesWithDetails
 import ua.syt0r.kanji.core.appdata.db.LettersQueries
 import ua.syt0r.kanji.core.appdata.db.VocabQueries
 import ua.syt0r.kanji.core.logger.Logger
@@ -212,16 +216,81 @@ class SqlDelightAppDataRepository(
     override suspend fun getWordsWithText(
         text: String, offset: Int, limit: Int
     ): List<JapaneseWord> = vocabQuery {
-        getVocabReadingsWithText(text, true, offset.toLong(), limit.toLong())
+        val readingRows = getVocabReadingsWithText(
+            text = text,
+            includeKanjiReadings = true,
+            offset = offset.toLong(),
+            limit = limit.toLong()
+        ).executeAsList()
+        if (readingRows.isEmpty()) return@vocabQuery emptyList()
+
+        val entryIds = readingRows.map { it.entry_id }.distinct()
+        val senseRows = entryIds
+            .asSequence()
+            .chunked(100)
+            .flatMap { ids -> getVocabSensesWithDetails(ids, DELIMITER).executeAsList().asSequence() }
+            .toList()
+        val sensesByEntry = senseRows.groupBy { it.entry_id }
+        val kanjiByEntry = getVocabKanjiElementsForEntries(DELIMITER, entryIds)
             .executeAsList()
-            .mapNotNull { element ->
-                getWord(
-                    id = element.entry_id,
-                    kanaReading = element.reading.takeIf { element.isKana == 1L },
-                    kanjiReading = element.reading.takeIf { element.isKana == 0L },
-                    elementId = element.element_id
-                )
+            .groupBy { it.entry_id }
+        val kanaByEntry = getVocabKanaElementsForEntries(DELIMITER, entryIds)
+            .executeAsList()
+            .groupBy { it.entry_id }
+
+        val kanjiReadings = kanjiByEntry.values.flatten().map { it.reading }.distinct()
+        val kanaReadings = kanaByEntry.values.flatten().map { it.reading }.distinct()
+        val furiganaByPair = if (kanjiReadings.isNotEmpty() && kanaReadings.isNotEmpty()) {
+            getFuriganaForWord(kanjiReadings, kanaReadings).executeAsList().associateBy(
+                { Pair(it.text, it.reading) },
+                { it.furigana }
+            )
+        } else {
+            emptyMap()
+        }
+
+        readingRows.mapNotNull { row ->
+            val kanjiRows = kanjiByEntry[row.entry_id].orEmpty()
+            val kanaRows = kanaByEntry[row.entry_id].orEmpty()
+            val selectedKanji = if (row.isKana == 0L) {
+                kanjiRows.firstOrNull { it.element_id == row.element_id }
+            } else {
+                null
             }
+            val selectedKana = if (row.isKana == 1L) {
+                kanaRows.firstOrNull { it.element_id == row.element_id }
+            } else {
+                val selectedKanjiReading = selectedKanji?.reading
+                kanaRows.firstOrNull { kana ->
+                    val restrictions = kana.restricted_kanji.splitValues()
+                    restrictions.isEmpty() || selectedKanjiReading == null || selectedKanjiReading in restrictions
+                } ?: kanaRows.firstOrNull()
+            }
+            val kanji = selectedKanji?.reading
+            val kana = selectedKana?.reading ?: kanaRows.firstOrNull()?.reading ?: row.reading
+            val sense = sensesByEntry[row.entry_id]
+                ?.firstOrNull { senseRow ->
+                    val kanjiRestrictions = senseRow.kanji_restrictions.orEmpty().splitValues()
+                    val kanaRestrictions = senseRow.kana_restrictions.orEmpty().splitValues()
+                    (kanjiRestrictions.isEmpty() || kanji != null && kanji in kanjiRestrictions) &&
+                            (kanaRestrictions.isEmpty() || kana in kanaRestrictions)
+                }
+                ?: return@mapNotNull null
+            JapaneseWord(
+                id = row.entry_id,
+                reading = VocabReading(
+                    kanjiReading = kanji,
+                    kanaReading = kana,
+                    furigana = if (kanji != null && kana != null) {
+                        furiganaByPair[Pair(kanji, kana)]?.parseAsFurigana()
+                    } else {
+                        null
+                    }
+                ),
+                glossary = sense.glosses?.split(DELIMITER)?.filter(String::isNotEmpty) ?: emptyList(),
+                partOfSpeechList = sense.explanations?.split(DELIMITER)?.filter(String::isNotEmpty) ?: emptyList()
+            )
+        }
     }
 
     override suspend fun searchWords(
