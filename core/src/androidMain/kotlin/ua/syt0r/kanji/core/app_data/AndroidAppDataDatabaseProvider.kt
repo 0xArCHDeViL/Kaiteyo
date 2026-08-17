@@ -161,8 +161,8 @@ class AndroidAppDataDatabaseProvider(
                 }
             }
             val importedVersion = validateSqliteFile(stagedDb)
-            require(AppDataPackFormat.supportsDatabaseVersion(importedVersion, AppDataDatabaseVersion)) {
-                "Unsupported app-data version $importedVersion; expected $AppDataDatabaseVersion"
+            require(AppDataPackFormat.supportsSchemaVersion(importedVersion, AppDataSchemaVersion)) {
+                "Unsupported app-data version $importedVersion; expected $AppDataSchemaVersion"
             }
             installStagedDatabase(stagedDb)
         } finally {
@@ -175,8 +175,8 @@ class AndroidAppDataDatabaseProvider(
         if (!dbFile.isFile) return null
 
         return try {
-            if (readDatabaseVersion(dbFile) != AppDataDatabaseVersion) return null
-            AppDataDatabase(createDriver(dbFile, AppDataDatabaseVersion).driver)
+            if (readDatabaseVersion(dbFile) != AppDataSchemaVersion) return null
+            AppDataDatabase(createDriver(dbFile, AppDataSchemaVersion).driver)
         } catch (error: Throwable) {
             Logger.e("Existing app-data database is unusable: ${error.stackTraceToString()}")
             null
@@ -197,8 +197,8 @@ class AndroidAppDataDatabaseProvider(
                 }
             }
             val downloadedVersion = validateSqliteFile(stagedDb)
-            require(AppDataPackFormat.supportsDatabaseVersion(downloadedVersion, AppDataDatabaseVersion)) {
-                "Downloaded app-data version $downloadedVersion; expected $AppDataDatabaseVersion"
+            require(AppDataPackFormat.supportsSchemaVersion(downloadedVersion, AppDataSchemaVersion)) {
+                "Downloaded app-data version $downloadedVersion; expected $AppDataSchemaVersion"
             }
             installStagedDatabase(stagedDb)
         } finally {
@@ -207,7 +207,7 @@ class AndroidAppDataDatabaseProvider(
             File(archive.parentFile, "${archive.name}.sha256").delete()
         }
 
-        AppDataDatabase(createDriver(dbFile, AppDataDatabaseVersion).driver)
+        AppDataDatabase(createDriver(dbFile, AppDataSchemaVersion).driver)
     }
 
     private fun ensureDownloadedPack(): File {
@@ -346,7 +346,7 @@ class AndroidAppDataDatabaseProvider(
             }
             context.deleteDatabase(AppDataDatabaseName)
             moveAtomically(stagedDb, dbFile)
-            val database = AppDataDatabase(createDriver(dbFile, AppDataDatabaseVersion).driver)
+            val database = AppDataDatabase(createDriver(dbFile, AppDataSchemaVersion).driver)
             backupFile.delete()
             database
         } catch (error: Throwable) {

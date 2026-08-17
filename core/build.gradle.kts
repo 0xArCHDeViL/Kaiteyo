@@ -102,7 +102,11 @@ val appDataSource = AppDataSource.parse(
 )
 val appDataVersion = providers.gradleProperty("appDataVersion")
     .map(String::toInt)
-    .orElse(AppAssets.DefaultAppDataDatabaseVersion)
+    .orElse(AppAssets.DefaultAppDataPackVersion)
+    .get()
+val appDataSchemaVersion = providers.gradleProperty("appDataSchemaVersion")
+    .map(String::toInt)
+    .orElse(AppAssets.DefaultAppDataSchemaVersion)
     .get()
 val appDataReleaseTag = providers.gradleProperty("appDataReleaseTag")
     .orElse(AppAssets.DefaultAppDataReleaseTag)
@@ -168,7 +172,7 @@ buildConfig {
         "appDataPackChecksumUrl",
         AppAssets.appDataPackChecksumUrl(appDataVersion, appDataReleaseTag)
     )
-    buildConfigField("appDataDatabaseVersion", appDataVersion)
+    buildConfigField("appDataSchemaVersion", appDataSchemaVersion)
 
     val kanaVoiceFieldName = "kanaVoiceAssetName"
 

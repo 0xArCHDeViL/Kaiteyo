@@ -28,10 +28,10 @@ class AppDataPackFormatTest {
     }
 
     @Test
-    fun acceptsOnlyExpectedDatabaseVersion() {
-        assertTrue(AppDataPackFormat.supportsDatabaseVersion(21, 21))
-        assertFalse(AppDataPackFormat.supportsDatabaseVersion(20, 21))
-        assertFalse(AppDataPackFormat.supportsDatabaseVersion(22, 21))
+    fun acceptsOnlyExpectedSchemaVersion() {
+        assertTrue(AppDataPackFormat.supportsSchemaVersion(22, 22))
+        assertFalse(AppDataPackFormat.supportsSchemaVersion(21, 22))
+        assertFalse(AppDataPackFormat.supportsSchemaVersion(23, 22))
     }
 
     @Test

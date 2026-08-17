@@ -9,7 +9,10 @@ data class AssetLocation(
 
 object AppAssets {
 
-    const val DefaultAppDataDatabaseVersion = 22
+    // SQLite schema compatibility version. Bump only when schema/queries require migration.
+    const val DefaultAppDataSchemaVersion = 22
+    // Content-pack revision. Bump only when publishing a new database pack.
+    const val DefaultAppDataPackVersion = 22
     const val DefaultAppDataReleaseTag = "data-v22"
     const val AppDataReleaseRepository = "0xArCHDeViL/Kaiteyo"
 

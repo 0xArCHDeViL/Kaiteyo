@@ -15,6 +15,6 @@ internal object AppDataPackFormat {
             bytes[0].toInt() and 0xff == 0x1f &&
             bytes[1].toInt() and 0xff == 0x8b
 
-    fun supportsDatabaseVersion(importedVersion: Long, expectedVersion: Long): Boolean =
-        importedVersion == expectedVersion
+    fun supportsSchemaVersion(importedVersion: Long, expectedSchemaVersion: Long): Boolean =
+        importedVersion == expectedSchemaVersion
 }

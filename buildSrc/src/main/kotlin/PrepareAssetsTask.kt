@@ -9,7 +9,7 @@ import java.io.File
 
 fun Project.registerPrepareAppAssetTasks(
     appDataSource: AppDataSource = AppDataSource.RELEASE,
-    appDataVersion: Int = AppAssets.DefaultAppDataDatabaseVersion,
+    appDataVersion: Int = AppAssets.DefaultAppDataPackVersion,
     appDataReleaseTag: String = AppAssets.DefaultAppDataReleaseTag
 ) {
     PrepareAssetsTask.SourceSet.values().forEach {
@@ -78,7 +78,7 @@ open class PrepareAssetsTask : DefaultTask() {
     lateinit var appDataSource: AppDataSource
 
     @Input
-    var appDataVersion: Int = AppAssets.DefaultAppDataDatabaseVersion
+    var appDataVersion: Int = AppAssets.DefaultAppDataPackVersion
 
     @Input
     lateinit var appDataReleaseTag: String

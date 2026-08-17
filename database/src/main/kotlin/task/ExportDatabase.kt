@@ -16,9 +16,12 @@ import parser.withFallback
 import java.io.File
 
 const val ExportFileNameTemplate = "kanji-dojo-data-base-v%d.sql"
-private const val DefaultExportDatabaseVersion = 22
+private const val DefaultExportDatabaseSchemaVersion = 22
 val ExportDatabaseVersion: Int
-    get() = System.getProperty("appDataVersion")?.toIntOrNull() ?: DefaultExportDatabaseVersion
+    get() = System.getProperty("appDataVersion")?.toIntOrNull() ?: 22
+val ExportDatabaseSchemaVersion: Int
+    get() = System.getProperty("appDataSchemaVersion")?.toIntOrNull()
+        ?: DefaultExportDatabaseSchemaVersion
 
 private const val MaxExamplesPerLetter = 5
 
@@ -114,7 +117,7 @@ fun main() {
     val outputFile = File(ExportFileNameTemplate.format(ExportDatabaseVersion))
     DatabaseExporter(
         file = outputFile,
-        version = ExportDatabaseVersion
+        version = ExportDatabaseSchemaVersion
     ).apply {
         writeStrokes(exportStrokesData)
         writeKanjiData(exportKanjiData)

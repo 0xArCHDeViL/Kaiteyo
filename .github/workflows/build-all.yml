@@ -9,7 +9,7 @@ on:
         type: string
         default: release
       app_data_version:
-        description: "Application data schema/release version"
+        description: "Application data pack revision; does not control SQLite schema compatibility"
         required: false
         type: string
         default: "22"
@@ -39,7 +39,7 @@ on:
           - source
         default: release
       app_data_version:
-        description: "Application data schema/release version"
+        description: "Application data pack revision; does not control SQLite schema compatibility"
         required: true
         type: string
         default: "22"
