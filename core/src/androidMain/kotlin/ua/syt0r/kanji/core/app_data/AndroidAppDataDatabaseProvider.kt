@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.net.Uri
 import androidx.sqlite.db.SupportSQLiteDatabase
 import app.cash.sqldelight.driver.android.AndroidSqliteDriver
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred
@@ -56,7 +57,17 @@ class AndroidAppDataDatabaseProvider(
 
     override fun initialize() {
         if (setupStateFlow.value != AppDataSetupState.Checking || databaseReady.isCompleted) return
-        coroutineScope.launch {
+        coroutineScope.launch { prepareInitialState() }
+    }
+
+    override fun provideAsync(): Deferred<AppDataDatabase> = coroutineScope.async {
+        prepareInitialState()
+        databaseReady.await()
+    }
+
+    private suspend fun prepareInitialState() {
+        setupMutex.withLock {
+            if (databaseReady.isCompleted || setupStateFlow.value != AppDataSetupState.Checking) return@withLock
             val existing = getCurrentDatabase()
             if (existing != null) {
                 databaseReady.complete(existing)
@@ -65,22 +76,6 @@ class AndroidAppDataDatabaseProvider(
                 setupStateFlow.value = AppDataSetupState.ChoiceRequired
             }
         }
-    }
-
-    override fun provideAsync(): Deferred<AppDataDatabase> = coroutineScope.async {
-        if (databaseReady.isCompleted) return@async databaseReady.await()
-
-        val existing = getCurrentDatabase()
-        if (existing != null) {
-            databaseReady.complete(existing)
-            setupStateFlow.value = AppDataSetupState.Ready
-            return@async existing
-        }
-
-        if (setupStateFlow.value == AppDataSetupState.Checking) {
-            setupStateFlow.value = AppDataSetupState.ChoiceRequired
-        }
-        databaseReady.await()
     }
 
     override fun chooseDownload() {
@@ -99,33 +94,37 @@ class AndroidAppDataDatabaseProvider(
         if (databaseReady.isCompleted || setupJob?.isActive == true) return
         lastSetupAction = action
         setupJob = coroutineScope.launch {
-            setupMutex.withLock {
-                if (databaseReady.isCompleted) return@withLock
-                setupStateFlow.value = when (action) {
-                    SetupAction.Download -> AppDataSetupState.Downloading
-                    is SetupAction.Import -> AppDataSetupState.Importing
-                }
-                runCatching {
-                    when (action) {
-                        SetupAction.Download -> createNewDatabaseFromPack()
-                        is SetupAction.Import -> importDatabaseFromUri(action.uri)
+            try {
+                setupMutex.withLock {
+                    if (databaseReady.isCompleted) return@withLock
+                    setupStateFlow.value = when (action) {
+                        SetupAction.Download -> AppDataSetupState.Downloading
+                        is SetupAction.Import -> AppDataSetupState.Importing
                     }
-                }.onSuccess { database ->
-                    databaseReady.complete(database)
-                    setupStateFlow.value = AppDataSetupState.Ready
-                }.onFailure { error ->
-                    val fallback = getLegacyDatabase()
-                    if (fallback != null) {
-                        Logger.e("App-data setup failed; using existing legacy database: ${error.stackTraceToString()}")
-                        databaseReady.complete(fallback)
+                    try {
+                        val database = when (action) {
+                            SetupAction.Download -> createNewDatabaseFromPack()
+                            is SetupAction.Import -> importDatabaseFromUri(action.uri)
+                        }
+                        databaseReady.complete(database)
                         setupStateFlow.value = AppDataSetupState.Ready
-                    } else {
-                        Logger.e("App-data setup failed: ${error.stackTraceToString()}")
-                        setupStateFlow.value = AppDataSetupState.Error(error.message)
+                    } catch (error: CancellationException) {
+                        throw error
+                    } catch (error: Throwable) {
+                        val fallback = getLegacyDatabase()
+                        if (fallback != null) {
+                            Logger.e("App-data setup failed; using existing legacy database: ${error.stackTraceToString()}")
+                            databaseReady.complete(fallback)
+                            setupStateFlow.value = AppDataSetupState.Ready
+                        } else {
+                            Logger.e("App-data setup failed: ${error.stackTraceToString()}")
+                            setupStateFlow.value = AppDataSetupState.Error(error.message)
+                        }
                     }
                 }
+            } finally {
+                setupJob = null
             }
-            setupJob = null
         }
     }
 
@@ -161,14 +160,11 @@ class AndroidAppDataDatabaseProvider(
                     }
                 }
             }
-            validateSqliteFile(stagedDb)
-            val importedVersion = readDatabaseVersion(stagedDb)
+            val importedVersion = validateSqliteFile(stagedDb)
             require(AppDataPackFormat.supportsDatabaseVersion(importedVersion, AppDataDatabaseVersion)) {
                 "Unsupported app-data version $importedVersion; expected $AppDataDatabaseVersion"
             }
-            context.deleteDatabase(AppDataDatabaseName)
-            moveAtomically(stagedDb, dbFile)
-            AppDataDatabase(createDriver(dbFile, AppDataDatabaseVersion).driver)
+            installStagedDatabase(stagedDb)
         } finally {
             stagedDb.delete()
         }
@@ -200,9 +196,11 @@ class AndroidAppDataDatabaseProvider(
                     input.copyTo(output, DownloadBufferSize)
                 }
             }
-            validateSqliteFile(stagedDb)
-            context.deleteDatabase(AppDataDatabaseName)
-            moveAtomically(stagedDb, dbFile)
+            val downloadedVersion = validateSqliteFile(stagedDb)
+            require(AppDataPackFormat.supportsDatabaseVersion(downloadedVersion, AppDataDatabaseVersion)) {
+                "Downloaded app-data version $downloadedVersion; expected $AppDataDatabaseVersion"
+            }
+            installStagedDatabase(stagedDb)
         } finally {
             stagedDb.delete()
             archive.delete()
@@ -304,7 +302,7 @@ class AndroidAppDataDatabaseProvider(
         return digest.digest().joinToString("") { "%02x".format(it) } == expected
     }
 
-    private fun validateSqliteFile(file: File) {
+    private fun validateSqliteFile(file: File): Long {
         require(file.length() >= 16) { "Extracted app-data database is empty" }
         FileInputStream(file).use { input ->
             val header = ByteArray(16)
@@ -312,6 +310,51 @@ class AndroidAppDataDatabaseProvider(
             require(header.toString(StandardCharsets.US_ASCII) == AppDataPackFormat.SqliteHeader) {
                 "Extracted app-data database has an invalid SQLite header"
             }
+        }
+
+        return SQLiteDatabase.openDatabase(
+            file.path,
+            null,
+            SQLiteDatabase.OPEN_READONLY
+        ).use { database ->
+            val missingTables = AppDataPackFormat.RequiredTables.filterNot { table ->
+                database.rawQuery(
+                    "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = ? LIMIT 1",
+                    arrayOf(table)
+                ).use { cursor -> cursor.moveToFirst() }
+            }
+            require(missingTables.isEmpty()) {
+                "App-data database is missing required tables: ${missingTables.joinToString()}"
+            }
+            database.version.toLong()
+        }
+    }
+
+    private suspend fun installStagedDatabase(stagedDb: File): AppDataDatabase = withContext(Dispatchers.IO) {
+        val dbFile = context.getDatabasePath(AppDataDatabaseName)
+        val backupFile = File(dbFile.parentFile, "${dbFile.name}.previous")
+        backupFile.delete()
+        val hadExistingDatabase = dbFile.isFile
+
+        try {
+            if (hadExistingDatabase) {
+                Files.copy(
+                    dbFile.toPath(),
+                    backupFile.toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
+                )
+            }
+            context.deleteDatabase(AppDataDatabaseName)
+            moveAtomically(stagedDb, dbFile)
+            val database = AppDataDatabase(createDriver(dbFile, AppDataDatabaseVersion).driver)
+            backupFile.delete()
+            database
+        } catch (error: Throwable) {
+            context.deleteDatabase(AppDataDatabaseName)
+            if (backupFile.isFile) moveAtomically(backupFile, dbFile)
+            throw error
+        } finally {
+            backupFile.delete()
         }
     }
 

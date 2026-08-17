@@ -17,15 +17,16 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.runtime.collectAsState
 import org.jetbrains.compose.resources.stringResource
 import ua.syt0r.kanji.Res
+import ua.syt0r.kanji.app_data_setup_description
 import ua.syt0r.kanji.app_data_setup_download
 import ua.syt0r.kanji.app_data_setup_error
+import ua.syt0r.kanji.app_data_setup_error_detail
 import ua.syt0r.kanji.app_data_setup_import
 import ua.syt0r.kanji.app_data_setup_import_description
 import ua.syt0r.kanji.app_data_setup_title
@@ -63,15 +64,39 @@ actual fun AppDataSetupScreen(controller: AppDataSetupController) {
                     text = stringResource(Res.string.app_data_setup_title),
                     style = MaterialTheme.typography.headlineSmall
                 )
-                Text(
-                    text = when (val current = state) {
-                        AppDataSetupState.Downloading -> stringResource(Res.string.app_data_setup_downloading)
-                        AppDataSetupState.Importing -> stringResource(Res.string.app_data_setup_importing)
-                        is AppDataSetupState.Error -> current.message ?: stringResource(Res.string.app_data_setup_error)
-                        else -> stringResource(Res.string.app_data_setup_download_description)
-                    },
-                    style = MaterialTheme.typography.bodyLarge
-                )
+                when (val current = state) {
+                    AppDataSetupState.Downloading -> Text(
+                        text = stringResource(Res.string.app_data_setup_downloading),
+                        style = MaterialTheme.typography.bodyLarge
+                    )
+                    AppDataSetupState.Importing -> Text(
+                        text = stringResource(Res.string.app_data_setup_importing),
+                        style = MaterialTheme.typography.bodyLarge
+                    )
+                    is AppDataSetupState.Error -> {
+                        Text(
+                            text = stringResource(Res.string.app_data_setup_error),
+                            style = MaterialTheme.typography.bodyLarge,
+                            color = MaterialTheme.colorScheme.error
+                        )
+                        current.message?.takeIf { it.isNotBlank() }?.let { message ->
+                            Text(
+                                text = stringResource(Res.string.app_data_setup_error_detail, message),
+                                style = MaterialTheme.typography.bodySmall
+                            )
+                        }
+                    }
+                    else -> {
+                        Text(
+                            text = stringResource(Res.string.app_data_setup_description),
+                            style = MaterialTheme.typography.bodyLarge
+                        )
+                        Text(
+                            text = stringResource(Res.string.app_data_setup_download_description),
+                            style = MaterialTheme.typography.bodyMedium
+                        )
+                    }
+                }
 
                 when (state) {
                     AppDataSetupState.Checking,

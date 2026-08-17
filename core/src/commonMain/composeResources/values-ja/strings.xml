@@ -17,13 +17,15 @@
     <string name="error_unknown">不明なエラー</string>
 
     <string name="app_data_setup_title">辞書データを設定</string>
+    <string name="app_data_setup_description">検索、学習、オフライン検索を利用するには、完全な辞書データが必要です。</string>
     <string name="app_data_setup_download">データベースをダウンロード</string>
     <string name="app_data_setup_import">ローカルデータベースを読み込む</string>
     <string name="app_data_setup_download_description">Kaiteyo公式リリースから検証済みのJMdictデータベースをダウンロードします。設定後はオフラインで利用できます。</string>
-    <string name="app_data_setup_import_description">ローカルのSQLiteデータベース、またはgzip圧縮されたデータベースを選択します。アプリデータを置き換える前にファイルを検証します。</string>
+    <string name="app_data_setup_import_description">v21 SQLiteデータベース（`.sql`）またはgzip圧縮版（`.sql.gz`）を選択します。アプリデータを置き換える前にファイルを検証します。</string>
     <string name="app_data_setup_downloading">データベースをダウンロードして検証しています…</string>
     <string name="app_data_setup_importing">選択したデータベースを読み込んで検証しています…</string>
     <string name="app_data_setup_error">データベースを設定できませんでした。</string>
+    <string name="app_data_setup_error_detail">詳細: %1$s</string>
     <string name="app_data_setup_retry">再試行</string>
 
     <string name="update_snackbar_title">アプリが更新されました</string>
