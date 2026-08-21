@@ -48,5 +48,7 @@ class AppDataPackFormatTest {
         assertTrue("kanji_reading" in AppDataPackFormat.RequiredTables)
         assertTrue("vocab_entry" in AppDataPackFormat.RequiredTables)
         assertTrue("vocab_search_index" in AppDataPackFormat.RequiredTables)
+        assertTrue("learning_node" in AppDataPackFormat.RequiredTables)
+        assertTrue("learning_edge" in AppDataPackFormat.RequiredTables)
     }
 }

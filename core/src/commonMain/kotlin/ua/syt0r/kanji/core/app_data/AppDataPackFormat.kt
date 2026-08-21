@@ -7,7 +7,9 @@ internal object AppDataPackFormat {
         "kanji_data",
         "kanji_reading",
         "vocab_entry",
-        "vocab_search_index"
+        "vocab_search_index",
+        "learning_node",
+        "learning_edge"
     )
 
     fun isGzipHeader(bytes: ByteArray, count: Int): Boolean =
