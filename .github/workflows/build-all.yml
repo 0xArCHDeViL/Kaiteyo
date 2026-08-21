@@ -12,12 +12,12 @@ on:
         description: "Application data pack revision; does not control SQLite schema compatibility"
         required: false
         type: string
-        default: "22"
+        default: "23"
       app_data_release_tag:
         description: "Internal GitHub Release tag used in release mode"
         required: false
         type: string
-        default: data-v22
+        default: data-v23
       publish_data_release:
         description: "Publish the source-built database as a GitHub Release asset"
         required: false
@@ -42,12 +42,12 @@ on:
         description: "Application data pack revision; does not control SQLite schema compatibility"
         required: true
         type: string
-        default: "22"
+        default: "23"
       app_data_release_tag:
         description: "Internal GitHub Release tag used in release mode"
         required: true
         type: string
-        default: data-v22
+        default: data-v23
       publish_data_release:
         description: "Publish source-built database to the GitHub Release section"
         required: true
@@ -76,8 +76,8 @@ jobs:
     timeout-minutes: 25
     env:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
-      APP_DATA_VERSION: ${{ inputs.app_data_version || '22' }}
-      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v22' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '23' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v23' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -143,8 +143,8 @@ jobs:
     timeout-minutes: 25
     env:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
-      APP_DATA_VERSION: ${{ inputs.app_data_version || '22' }}
-      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v22' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '23' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v23' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -169,6 +169,7 @@ jobs:
             -PappDataSource="$APP_DATA_SOURCE" \
             -PappDataVersion="$APP_DATA_VERSION" \
             -PappDataReleaseTag="$APP_DATA_RELEASE_TAG" \
+            -PconnectedLearningV1=true \
             --no-daemon --parallel --build-cache --max-workers=4 \
             -Dorg.gradle.workers.max=4 \
             -Dorg.gradle.jvmargs='-Xmx4g -XX:MaxMetaspaceSize=1g -XX:+UseParallelGC -Dfile.encoding=UTF-8'
@@ -189,8 +190,8 @@ jobs:
     timeout-minutes: 35
     env:
       APP_DATA_SOURCE: ${{ inputs.data_source || 'release' }}
-      APP_DATA_VERSION: ${{ inputs.app_data_version || '22' }}
-      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v22' }}
+      APP_DATA_VERSION: ${{ inputs.app_data_version || '23' }}
+      APP_DATA_RELEASE_TAG: ${{ inputs.app_data_release_tag || 'data-v23' }}
       BUILD_VARIANT: ${{ inputs.build_variant || 'preview' }}
       KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
       KEYSTORE_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
@@ -240,6 +241,7 @@ jobs:
             -PappDataSource="$APP_DATA_SOURCE" \
             -PappDataVersion="$APP_DATA_VERSION" \
             -PappDataReleaseTag="$APP_DATA_RELEASE_TAG" \
+            -PconnectedLearningV1=true \
             --no-daemon --parallel --build-cache --max-workers=4 \
             -Dorg.gradle.workers.max=4 \
             -Dorg.gradle.jvmargs='-Xmx4g -XX:MaxMetaspaceSize=1g -XX:+UseParallelGC -Dfile.encoding=UTF-8'
@@ -322,19 +324,19 @@ jobs:
       - name: Download source-built application data
         uses: actions/download-artifact@v4
         with:
-          name: source-app-data-v${{ inputs.app_data_version || '22' }}
+          name: source-app-data-v${{ inputs.app_data_version || '23' }}
           path: database
 
       - name: Publish internal data release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: data-v${{ inputs.app_data_version || '22' }}
-          name: Internal Kaiteyo Data v${{ inputs.app_data_version || '22' }}
+          tag_name: ${{ inputs.app_data_release_tag || 'data-v23' }}
+          name: Internal Kaiteyo Data ${{ inputs.app_data_release_tag || 'data-v23' }}
           target_commitish: ${{ github.sha }}
           generate_release_notes: false
           body: |
             Source-built full-JMdict application database generated from the vendored `database/` source tree.
             The compressed `.sql.gz` pack is downloaded and verified by the Android app on first launch, so the APK remains below 70 MiB.
           files: |
-            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '22' }}.sql.gz
-            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '22' }}.sql.gz.sha256
+            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '23' }}.sql.gz
+            database/kanji-dojo-data-base-v${{ inputs.app_data_version || '23' }}.sql.gz.sha256

@@ -13,8 +13,8 @@ jobs:
     uses: ./.github/workflows/build-all.yml
     with:
       data_source: release
-      app_data_version: "22"
-      app_data_release_tag: data-v22
+      app_data_version: "23"
+      app_data_release_tag: data-v23
       publish_data_release: false
       build_variant: release
     secrets: inherit

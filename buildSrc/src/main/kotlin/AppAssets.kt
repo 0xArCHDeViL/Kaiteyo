@@ -12,8 +12,8 @@ object AppAssets {
     // SQLite schema compatibility version. Bump only when schema/queries require migration.
     const val DefaultAppDataSchemaVersion = 22
     // Content-pack revision. Bump only when publishing a new database pack.
-    const val DefaultAppDataPackVersion = 22
-    const val DefaultAppDataReleaseTag = "data-v22"
+    const val DefaultAppDataPackVersion = 23
+    const val DefaultAppDataReleaseTag = "data-v23"
     const val AppDataReleaseRepository = "0xArCHDeViL/Kaiteyo"
 
     fun appDataAssetFileName(version: Int): String = "kanji-dojo-data-base-v$version.sql"
