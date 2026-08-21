@@ -51,6 +51,27 @@ data class DatabaseRadical(
     val strokes: Int
 )
 
+data class DatabaseLearningNode(
+    val nodeKey: String,
+    val nodeKind: String,
+    val kanji: String? = null,
+    val reading: String? = null,
+    val entryId: Long? = null,
+    val elementId: Long? = null,
+    val senseId: Long? = null,
+    val sentenceId: Long? = null,
+    val level: Long? = null,
+    val priority: Double = 0.0,
+)
+
+data class DatabaseLearningEdge(
+    val fromNodeKey: String,
+    val toNodeKey: String,
+    val edgeKind: String,
+    val weight: Double = 0.0,
+    val provenance: String,
+)
+
 data class DatabaseVocabData(
     val entries: List<Vocab_entry>,
     val kanjiElements: List<Vocab_kanji_element>,

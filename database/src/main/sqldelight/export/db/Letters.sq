@@ -59,6 +59,51 @@ ON kanji_classification(class, kanji);
 CREATE INDEX idx_kanji_radical_radical_kanji
 ON kanji_radical(radical, kanji, start_stroke);
 
+CREATE TABLE learning_node(
+    node_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    node_key TEXT NOT NULL UNIQUE,
+    node_kind TEXT NOT NULL,
+    kanji TEXT,
+    reading TEXT,
+    entry_id INTEGER,
+    element_id INTEGER,
+    sense_id INTEGER,
+    sentence_id INTEGER,
+    level INTEGER,
+    priority REAL NOT NULL DEFAULT 0
+);
+
+CREATE TABLE learning_edge(
+    from_node_id INTEGER NOT NULL,
+    to_node_id INTEGER NOT NULL,
+    edge_kind TEXT NOT NULL,
+    weight REAL NOT NULL DEFAULT 0,
+    provenance TEXT NOT NULL,
+    PRIMARY KEY(from_node_id, to_node_id, edge_kind)
+);
+
+CREATE INDEX idx_learning_node_kind_level
+ON learning_node(node_kind, level, priority DESC, node_id);
+
+CREATE INDEX idx_learning_edge_from_kind_weight
+ON learning_edge(from_node_id, edge_kind, weight DESC, to_node_id);
+
+CREATE INDEX idx_learning_edge_to_kind
+ON learning_edge(to_node_id, edge_kind, from_node_id);
+
+insertLearningNode:
+INSERT INTO learning_node(
+    node_id, node_key, node_kind, kanji, reading, entry_id, element_id,
+    sense_id, sentence_id, level, priority
+)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+insertLearningEdge:
+INSERT OR IGNORE INTO learning_edge(
+    from_node_id, to_node_id, edge_kind, weight, provenance
+)
+VALUES (?, ?, ?, ?, ?);
+
 insertCharacterStroke:
 INSERT INTO character_stroke VALUES ?;
 insertRadical:

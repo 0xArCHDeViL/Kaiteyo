@@ -49,6 +49,24 @@ object DatabaseIntegrityValidator {
                 checkCount(statement, "sentence", expectedSentenceCount)
                 checkCount(statement, "vocab_deck_card", expectedDeckCardCount)
                 check(count(statement, "vocab_furigana") > 0) { "vocab_furigana is empty" }
+                check(count(statement, "learning_node") > 0) { "learning_node is empty" }
+                check(count(statement, "learning_edge") > 0) { "learning_edge is empty" }
+                check(
+                    count(statement, "learning_node", "node_key") ==
+                        countDistinct(statement, "learning_node", "node_key")
+                ) { "learning_node contains duplicate node_key values" }
+                check(
+                    countQuery(
+                        statement,
+                        """
+                        SELECT COUNT(*)
+                        FROM learning_edge AS edge
+                        LEFT JOIN learning_node AS source ON source.node_id = edge.from_node_id
+                        LEFT JOIN learning_node AS target ON target.node_id = edge.to_node_id
+                        WHERE source.node_id IS NULL OR target.node_id IS NULL
+                        """.trimIndent()
+                    ) == 0L
+                ) { "learning_edge contains orphan node references" }
             }
         }
     }
@@ -61,8 +79,23 @@ object DatabaseIntegrityValidator {
     }
 
     private fun count(statement: java.sql.Statement, table: String): Long =
-        statement.executeQuery("SELECT COUNT(*) FROM $table").use { result ->
-            check(result.next()) { "Unable to count $table" }
+        countQuery(statement, "SELECT COUNT(*) FROM $table")
+
+    private fun count(
+        statement: java.sql.Statement,
+        table: String,
+        column: String,
+    ): Long = countQuery(statement, "SELECT COUNT($column) FROM $table")
+
+    private fun countDistinct(
+        statement: java.sql.Statement,
+        table: String,
+        column: String,
+    ): Long = countQuery(statement, "SELECT COUNT(DISTINCT $column) FROM $table")
+
+    private fun countQuery(statement: java.sql.Statement, query: String): Long =
+        statement.executeQuery(query).use { result ->
+            check(result.next()) { "Unable to execute count query" }
             result.getLong(1)
         }
 }

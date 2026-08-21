@@ -129,6 +129,15 @@ fun main() {
         writeNames(exportNames)
         writeVocabDeckCards(exportVocabDeckCards)
         writeSentences(exportSentences)
+
+        val (learningNodes, learningEdges) = buildLearningGraph(
+            radicals = exportRadicals,
+            kanjiData = exportKanjiData,
+            kanjiRadicals = exportKanjiRadicals,
+            vocabulary = exportVocabData,
+            sentences = exportSentences,
+        )
+        writeLearningGraph(learningNodes, learningEdges)
     }
 
     DatabaseIntegrityValidator.validate(

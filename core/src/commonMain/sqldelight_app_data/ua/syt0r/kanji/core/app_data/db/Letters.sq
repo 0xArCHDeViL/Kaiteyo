@@ -205,3 +205,74 @@ ON kanji_classification(class, kanji);
 
 CREATE INDEX idx_kanji_radical_radical_kanji
 ON kanji_radical(radical, kanji, start_stroke);
+
+-- Connected Learning graph read model.
+CREATE TABLE learning_node(
+    node_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    node_key TEXT NOT NULL UNIQUE,
+    node_kind TEXT NOT NULL,
+    kanji TEXT,
+    reading TEXT,
+    entry_id INTEGER,
+    element_id INTEGER,
+    sense_id INTEGER,
+    sentence_id INTEGER,
+    level INTEGER,
+    priority REAL NOT NULL DEFAULT 0
+);
+
+CREATE TABLE learning_edge(
+    from_node_id INTEGER NOT NULL,
+    to_node_id INTEGER NOT NULL,
+    edge_kind TEXT NOT NULL,
+    weight REAL NOT NULL DEFAULT 0,
+    provenance TEXT NOT NULL,
+    PRIMARY KEY(from_node_id, to_node_id, edge_kind)
+);
+
+CREATE INDEX idx_learning_node_kind_level
+ON learning_node(node_kind, level, priority DESC, node_id);
+
+CREATE INDEX idx_learning_edge_from_kind_weight
+ON learning_edge(from_node_id, edge_kind, weight DESC, to_node_id);
+
+CREATE INDEX idx_learning_edge_to_kind
+ON learning_edge(to_node_id, edge_kind, from_node_id);
+
+getLearningNodeByKey:
+SELECT * FROM learning_node WHERE node_key = ?;
+
+getLearningNeighbors:
+SELECT target.*, edge.edge_kind, edge.weight, edge.provenance
+FROM learning_edge AS edge
+JOIN learning_node AS target ON target.node_id = edge.to_node_id
+WHERE edge.from_node_id = :nodeId
+  AND edge.edge_kind IN :edgeKinds
+ORDER BY edge.weight DESC, target.node_key
+LIMIT :limit;
+
+getLearningNeighborhood:
+WITH RECURSIVE walk(node_id, depth, path) AS (
+    SELECT node_id, 0, '/' || CAST(node_id AS TEXT) || '/'
+    FROM learning_node
+    WHERE node_key = :rootNodeKey
+
+    UNION ALL
+
+    SELECT edge.to_node_id,
+           walk.depth + 1,
+           walk.path || CAST(edge.to_node_id AS TEXT) || '/'
+    FROM walk
+    JOIN learning_edge AS edge ON edge.from_node_id = walk.node_id
+    WHERE walk.depth < :maxDepth
+      AND edge.edge_kind IN :edgeKinds
+      AND instr(
+          walk.path,
+          '/' || CAST(edge.to_node_id AS TEXT) || '/'
+      ) = 0
+)
+SELECT node.*, walk.depth
+FROM walk
+JOIN learning_node AS node ON node.node_id = walk.node_id
+ORDER BY walk.depth, node.priority DESC, node.node_key
+LIMIT :limit;

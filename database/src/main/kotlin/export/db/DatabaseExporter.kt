@@ -243,4 +243,50 @@ class DatabaseExporter(
         items.forEach { database.vocabQueries.insert_sentence(it) }
     }
 
+    fun writeLearningGraph(
+        nodes: List<DatabaseLearningNode>,
+        edges: List<DatabaseLearningEdge>,
+    ) = database.transaction {
+        val nodeIds = nodes
+            .distinctBy { it.nodeKey }
+            .sortedBy { it.nodeKey }
+            .mapIndexed { index, node ->
+                val nodeId = index.toLong() + 1L
+                database.lettersQueries.insertLearningNode(
+                    node_id = nodeId,
+                    node_key = node.nodeKey,
+                    node_kind = node.nodeKind,
+                    kanji = node.kanji,
+                    reading = node.reading,
+                    entry_id = node.entryId,
+                    element_id = node.elementId,
+                    sense_id = node.senseId,
+                    sentence_id = node.sentenceId,
+                    level = node.level,
+                    priority = node.priority,
+                )
+                node.nodeKey to nodeId
+            }
+            .toMap()
+
+        edges
+            .distinct()
+            .sortedWith(
+                compareBy<DatabaseLearningEdge> { it.fromNodeKey }
+                    .thenBy { it.edgeKind }
+                    .thenBy { it.toNodeKey }
+            )
+            .forEach { edge ->
+                val fromId = nodeIds[edge.fromNodeKey] ?: return@forEach
+                val toId = nodeIds[edge.toNodeKey] ?: return@forEach
+                database.lettersQueries.insertLearningEdge(
+                    from_node_id = fromId,
+                    to_node_id = toId,
+                    edge_kind = edge.edgeKind,
+                    weight = edge.weight,
+                    provenance = edge.provenance,
+                )
+            }
+    }
+
 }
