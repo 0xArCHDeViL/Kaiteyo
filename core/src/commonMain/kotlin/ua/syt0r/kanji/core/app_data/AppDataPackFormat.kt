@@ -17,4 +17,7 @@ internal object AppDataPackFormat {
 
     fun supportsSchemaVersion(importedVersion: Long, expectedSchemaVersion: Long): Boolean =
         importedVersion == expectedSchemaVersion
+
+    fun supportsPackRevision(importedRevision: Long, expectedRevision: Long): Boolean =
+        importedRevision == expectedRevision
 }

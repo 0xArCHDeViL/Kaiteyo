@@ -21,6 +21,7 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import ua.syt0r.kanji.core.CustomVersionSqlSchema
+import ua.syt0r.kanji.core.app_data.AppDataPackRevision
 import ua.syt0r.kanji.core.app_data.db.AppDataDatabase
 import ua.syt0r.kanji.core.logger.Logger
 import ua.syt0r.kanji.core.readUserVersion
@@ -128,6 +129,11 @@ class AndroidAppDataDatabaseProvider(
         }
     }
 
+    private data class AppDataDatabaseMetadata(
+        val schemaVersion: Long,
+        val packRevision: Long,
+    )
+
     private sealed interface SetupAction {
         data object Download : SetupAction
         data class Import(val uri: String) : SetupAction
@@ -160,9 +166,12 @@ class AndroidAppDataDatabaseProvider(
                     }
                 }
             }
-            val importedVersion = validateSqliteFile(stagedDb)
-            require(AppDataPackFormat.supportsSchemaVersion(importedVersion, AppDataSchemaVersion)) {
-                "Unsupported app-data version $importedVersion; expected $AppDataSchemaVersion"
+            val importedMetadata = validateSqliteFile(stagedDb)
+            require(AppDataPackFormat.supportsSchemaVersion(importedMetadata.schemaVersion, AppDataSchemaVersion)) {
+                "Unsupported app-data schema ${importedMetadata.schemaVersion}; expected $AppDataSchemaVersion"
+            }
+            require(AppDataPackFormat.supportsPackRevision(importedMetadata.packRevision, AppDataPackRevision)) {
+                "Unsupported app-data pack ${importedMetadata.packRevision}; expected $AppDataPackRevision"
             }
             installStagedDatabase(stagedDb)
         } finally {
@@ -175,7 +184,9 @@ class AndroidAppDataDatabaseProvider(
         if (!dbFile.isFile) return null
 
         return try {
-            if (readDatabaseVersion(dbFile) != AppDataSchemaVersion) return null
+            val metadata = readDatabaseMetadata(dbFile)
+            if (!AppDataPackFormat.supportsSchemaVersion(metadata.schemaVersion, AppDataSchemaVersion)) return null
+            if (!AppDataPackFormat.supportsPackRevision(metadata.packRevision, AppDataPackRevision)) return null
             AppDataDatabase(createDriver(dbFile, AppDataSchemaVersion).driver)
         } catch (error: Throwable) {
             Logger.e("Existing app-data database is unusable: ${error.stackTraceToString()}")
@@ -196,9 +207,12 @@ class AndroidAppDataDatabaseProvider(
                     input.copyTo(output, DownloadBufferSize)
                 }
             }
-            val downloadedVersion = validateSqliteFile(stagedDb)
-            require(AppDataPackFormat.supportsSchemaVersion(downloadedVersion, AppDataSchemaVersion)) {
-                "Downloaded app-data version $downloadedVersion; expected $AppDataSchemaVersion"
+            val downloadedMetadata = validateSqliteFile(stagedDb)
+            require(AppDataPackFormat.supportsSchemaVersion(downloadedMetadata.schemaVersion, AppDataSchemaVersion)) {
+                "Downloaded app-data schema ${downloadedMetadata.schemaVersion}; expected $AppDataSchemaVersion"
+            }
+            require(AppDataPackFormat.supportsPackRevision(downloadedMetadata.packRevision, AppDataPackRevision)) {
+                "Downloaded app-data pack ${downloadedMetadata.packRevision}; expected $AppDataPackRevision"
             }
             installStagedDatabase(stagedDb)
         } finally {
@@ -302,7 +316,7 @@ class AndroidAppDataDatabaseProvider(
         return digest.digest().joinToString("") { "%02x".format(it) } == expected
     }
 
-    private fun validateSqliteFile(file: File): Long {
+    private fun validateSqliteFile(file: File): AppDataDatabaseMetadata {
         require(file.length() >= 16) { "Extracted app-data database is empty" }
         FileInputStream(file).use { input ->
             val header = ByteArray(16)
@@ -326,7 +340,10 @@ class AndroidAppDataDatabaseProvider(
             require(missingTables.isEmpty()) {
                 "App-data database is missing required tables: ${missingTables.joinToString()}"
             }
-            database.version.toLong()
+            AppDataDatabaseMetadata(
+                schemaVersion = database.version.toLong(),
+                packRevision = readApplicationId(database),
+            )
         }
     }
 
@@ -375,17 +392,28 @@ class AndroidAppDataDatabaseProvider(
         val dbFile = context.getDatabasePath(AppDataDatabaseName)
         if (!dbFile.isFile) return null
         return try {
-            val version = readDatabaseVersion(dbFile)
-            AppDataDatabase(createDriver(dbFile, version).driver)
+            val metadata = readDatabaseMetadata(dbFile)
+            require(AppDataPackFormat.supportsSchemaVersion(metadata.schemaVersion, AppDataSchemaVersion))
+            require(AppDataPackFormat.supportsPackRevision(metadata.packRevision, AppDataPackRevision))
+            AppDataDatabase(createDriver(dbFile, metadata.schemaVersion).driver)
         } catch (error: Throwable) {
             Logger.e("Legacy app-data database fallback is unusable: ${error.stackTraceToString()}")
             null
         }
     }
 
-    private fun readDatabaseVersion(file: File): Long =
+    private fun readDatabaseMetadata(file: File): AppDataDatabaseMetadata =
         SQLiteDatabase.openDatabase(file.path, null, SQLiteDatabase.OPEN_READONLY).use { database ->
-            database.version.toLong()
+            AppDataDatabaseMetadata(
+                schemaVersion = database.version.toLong(),
+                packRevision = readApplicationId(database),
+            )
+        }
+
+    private fun readApplicationId(database: SQLiteDatabase): Long =
+        database.rawQuery("PRAGMA application_id", null).use { cursor ->
+            require(cursor.moveToFirst()) { "SQLite application_id is unavailable" }
+            cursor.getLong(0)
         }
 
     private data class DriverCreationResult(

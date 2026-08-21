@@ -168,6 +168,7 @@ buildConfig {
     buildConfigField("versionCode", AppVersion.versionCode.toLong())
 
     buildConfigField("versionName", AppVersion.versionName)
+    buildConfigField("appDataPackRevision", appDataVersion)
     buildConfigField("appDataPackName", AppAssets.appDataPackFileName(appDataVersion))
     buildConfigField(
         "appDataPackUrl",

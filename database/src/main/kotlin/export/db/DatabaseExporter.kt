@@ -6,7 +6,8 @@ import java.util.Locale
 
 class DatabaseExporter(
     file: File,
-    version: Int,
+    schemaVersion: Int,
+    packRevision: Int,
 ) {
 
     private val database: KanjiDojoData
@@ -19,7 +20,12 @@ class DatabaseExporter(
         database = KanjiDojoData(driver)
         driver.execute(
             identifier = null,
-            sql = "PRAGMA user_version = $version;",
+            sql = "PRAGMA user_version = $schemaVersion;",
+            parameters = 0
+        )
+        driver.execute(
+            identifier = null,
+            sql = "PRAGMA application_id = $packRevision;",
             parameters = 0
         )
     }

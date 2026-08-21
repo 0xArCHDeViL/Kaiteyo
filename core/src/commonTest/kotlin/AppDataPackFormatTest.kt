@@ -35,6 +35,13 @@ class AppDataPackFormatTest {
     }
 
     @Test
+    fun acceptsOnlyExpectedPackRevision() {
+        assertTrue(AppDataPackFormat.supportsPackRevision(23, 23))
+        assertFalse(AppDataPackFormat.supportsPackRevision(22, 23))
+        assertFalse(AppDataPackFormat.supportsPackRevision(24, 23))
+    }
+
+    @Test
     fun requiredSchemaContainsKanjiAndVocabularyTables() {
         assertTrue("character_stroke" in AppDataPackFormat.RequiredTables)
         assertTrue("kanji_data" in AppDataPackFormat.RequiredTables)

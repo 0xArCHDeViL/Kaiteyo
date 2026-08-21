@@ -12,6 +12,8 @@ def main() -> None:
     connection = sqlite3.connect(dump)
     try:
         queries = {
+            "schema_version": "PRAGMA user_version",
+            "pack_revision": "PRAGMA application_id",
             "nodes": "SELECT COUNT(*) FROM learning_node",
             "edges": "SELECT COUNT(*) FROM learning_edge",
             "orphans": """

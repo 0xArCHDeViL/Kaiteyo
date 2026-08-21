@@ -21,7 +21,7 @@
     <string name="app_data_setup_download">Download database</string>
     <string name="app_data_setup_import">Import local database</string>
     <string name="app_data_setup_download_description">Download the verified full JMdict database from the official Kaiteyo release. You can use the app offline after setup.</string>
-    <string name="app_data_setup_import_description">Choose the v21 SQLite database (`.sql`) or its gzip-compressed version (`.sql.gz`). The file is validated before it replaces the app database.</string>
+    <string name="app_data_setup_import_description">Choose the current v23 SQLite database (`.sql`) or its gzip-compressed version (`.sql.gz`). The file is validated for schema and pack revision before it replaces the app database.</string>
     <string name="app_data_setup_downloading">Downloading and verifying the database…</string>
     <string name="app_data_setup_importing">Importing and validating the selected database…</string>
     <string name="app_data_setup_error">The database could not be installed.</string>

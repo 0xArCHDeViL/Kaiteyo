@@ -14,6 +14,7 @@ import ua.syt0r.kanji.core.app_data.data.ReadingType
 import ua.syt0r.kanji.core.app_data.db.AppDataDatabase
 
 const val AppDataSchemaVersion: Long = BuildConfig.appDataSchemaVersion.toLong()
+const val AppDataPackRevision: Long = BuildConfig.appDataPackRevision.toLong()
 const val AppDataPackResourceName: String = BuildConfig.appDataPackName
 const val AppDataPackUrl: String = BuildConfig.appDataPackUrl
 const val AppDataPackChecksumUrl: String = BuildConfig.appDataPackChecksumUrl

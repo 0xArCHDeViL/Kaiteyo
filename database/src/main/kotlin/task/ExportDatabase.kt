@@ -117,7 +117,8 @@ fun main() {
     val outputFile = File(ExportFileNameTemplate.format(ExportDatabaseVersion))
     DatabaseExporter(
         file = outputFile,
-        version = ExportDatabaseSchemaVersion
+        schemaVersion = ExportDatabaseSchemaVersion,
+        packRevision = ExportDatabaseVersion,
     ).apply {
         writeStrokes(exportStrokesData)
         writeKanjiData(exportKanjiData)
