@@ -1,6 +1,10 @@
 package ua.syt0r.kanji.core.connected_learning
 
+import app.cash.sqldelight.db.SqlDriver
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.Deferred
 import ua.syt0r.kanji.core.app_data.db.AppDataDatabase
+import ua.syt0r.kanji.core.appdata.db.LettersQueries
 
 interface LearningGraphRepository {
     suspend fun getNeighborhood(
@@ -15,6 +19,12 @@ interface LearningGraphRepository {
         edgeKinds: Set<GraphEdgeKind>,
         limit: Int = 64,
     ): List<LearningGraphNeighbor>
+
+    suspend fun getEdgesFromNodes(
+        nodeIds: Collection<Long>,
+        edgeKinds: Set<GraphEdgeKind> = GraphEdgeKind.entries.toSet(),
+        limit: Int = 2_048,
+    ): List<LearningGraphConnection>
 }
 
 data class LearningGraphNode(
@@ -39,9 +49,20 @@ data class LearningGraphNeighbor(
     val provenance: GraphProvenance,
 )
 
+data class LearningGraphConnection(
+    val fromNodeId: Long,
+    val toNodeId: Long,
+    val node: LearningGraphNode,
+    val edgeKind: GraphEdgeKind,
+    val weight: Double,
+    val provenance: GraphProvenance,
+)
+
 class SqlDelightLearningGraphRepository(
-    private val database: AppDataDatabase,
+    private val deferredDatabase: Deferred<AppDataDatabase>,
 ) : LearningGraphRepository {
+
+    constructor(database: AppDataDatabase) : this(CompletableDeferred(database))
 
     override suspend fun getNeighborhood(
         rootNodeKey: ConnectedNodeKey,
@@ -51,17 +72,51 @@ class SqlDelightLearningGraphRepository(
     ): List<LearningGraphNode> {
         require(maxDepth in 0..3) { "Learning graph depth must be between 0 and 3" }
         require(limit in 1..2_000) { "Learning graph limit must be between 1 and 2000" }
+        require(edgeKinds.isNotEmpty()) { "At least one graph edge kind is required" }
 
-        return database.lettersQueries
-            .getLearningNeighborhood(
+        return lettersQuery {
+            getLearningNeighborhood(
                 rootNodeKey = rootNodeKey.value,
                 maxDepth = maxDepth.toLong(),
                 edgeKinds = edgeKinds.map { it.name }.sorted(),
                 limit = limit.toLong(),
+            ).executeAsList()
+        }.map { row ->
+            LearningGraphNode(
+                nodeId = row.node_id,
+                nodeKey = ConnectedNodeKey(row.node_key),
+                kind = parseNodeKind(row.node_kind),
+                kanji = row.kanji,
+                reading = row.reading,
+                entryId = row.entry_id,
+                elementId = row.element_id,
+                senseId = row.sense_id,
+                sentenceId = row.sentence_id,
+                level = row.level,
+                priority = row.priority,
+                depth = row.depth,
             )
-            .executeAsList()
-            .map { row ->
-                LearningGraphNode(
+        }
+    }
+
+    override suspend fun getNeighbors(
+        nodeId: Long,
+        edgeKinds: Set<GraphEdgeKind>,
+        limit: Int,
+    ): List<LearningGraphNeighbor> {
+        require(nodeId > 0) { "Graph node ID must be positive" }
+        require(limit in 1..2_000) { "Learning graph limit must be between 1 and 2000" }
+        require(edgeKinds.isNotEmpty()) { "At least one graph edge kind is required" }
+
+        return lettersQuery {
+            getLearningNeighbors(
+                nodeId = nodeId,
+                edgeKinds = edgeKinds.map { it.name }.sorted(),
+                limit = limit.toLong(),
+            ).executeAsList()
+        }.map { row ->
+            LearningGraphNeighbor(
+                node = LearningGraphNode(
                     nodeId = row.node_id,
                     nodeKey = ConnectedNodeKey(row.node_key),
                     kind = parseNodeKind(row.node_kind),
@@ -73,48 +128,58 @@ class SqlDelightLearningGraphRepository(
                     sentenceId = row.sentence_id,
                     level = row.level,
                     priority = row.priority,
-                    depth = row.depth,
-                )
-            }
+                    depth = 1,
+                ),
+                edgeKind = parseEdgeKind(row.edge_kind),
+                weight = row.weight,
+                provenance = parseProvenance(row.provenance),
+            )
+        }
     }
 
-    override suspend fun getNeighbors(
-        nodeId: Long,
+    override suspend fun getEdgesFromNodes(
+        nodeIds: Collection<Long>,
         edgeKinds: Set<GraphEdgeKind>,
         limit: Int,
-    ): List<LearningGraphNeighbor> {
-        require(nodeId > 0) { "Graph node ID must be positive" }
-        require(limit in 1..2_000) { "Learning graph limit must be between 1 and 2000" }
+    ): List<LearningGraphConnection> {
+        if (nodeIds.isEmpty()) return emptyList()
+        require(nodeIds.all { it > 0 }) { "Graph node IDs must be positive" }
+        require(limit in 1..10_000) { "Learning graph edge limit must be between 1 and 10000" }
+        require(edgeKinds.isNotEmpty()) { "At least one graph edge kind is required" }
 
-        return database.lettersQueries
-            .getLearningNeighbors(
-                nodeId = nodeId,
+        return lettersQuery {
+            getLearningEdgesFromNodes(
+                nodeIds = nodeIds.distinct().sorted(),
                 edgeKinds = edgeKinds.map { it.name }.sorted(),
                 limit = limit.toLong(),
+            ).executeAsList()
+        }.map { row ->
+            LearningGraphConnection(
+                fromNodeId = row.from_node_id,
+                toNodeId = row.to_node_id,
+                node = LearningGraphNode(
+                    nodeId = row.node_id,
+                    nodeKey = ConnectedNodeKey(row.node_key),
+                    kind = parseNodeKind(row.node_kind),
+                    kanji = row.kanji,
+                    reading = row.reading,
+                    entryId = row.entry_id,
+                    elementId = row.element_id,
+                    senseId = row.sense_id,
+                    sentenceId = row.sentence_id,
+                    level = row.level,
+                    priority = row.priority,
+                    depth = 1,
+                ),
+                edgeKind = parseEdgeKind(row.edge_kind),
+                weight = row.weight,
+                provenance = parseProvenance(row.provenance),
             )
-            .executeAsList()
-            .map { row ->
-                LearningGraphNeighbor(
-                    node = LearningGraphNode(
-                        nodeId = row.node_id,
-                        nodeKey = ConnectedNodeKey(row.node_key),
-                        kind = parseNodeKind(row.node_kind),
-                        kanji = row.kanji,
-                        reading = row.reading,
-                        entryId = row.entry_id,
-                        elementId = row.element_id,
-                        senseId = row.sense_id,
-                        sentenceId = row.sentence_id,
-                        level = row.level,
-                        priority = row.priority,
-                        depth = 1,
-                    ),
-                    edgeKind = parseEdgeKind(row.edge_kind),
-                    weight = row.weight,
-                    provenance = parseProvenance(row.provenance),
-                )
-            }
+        }
     }
+
+    private suspend fun <T> lettersQuery(block: LettersQueries.() -> T): T =
+        block(deferredDatabase.await().lettersQueries)
 
     private fun parseNodeKind(value: String): GraphNodeKind =
         GraphNodeKind.entries.firstOrNull { it.name == value }

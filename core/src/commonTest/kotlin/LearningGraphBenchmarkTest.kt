@@ -2,7 +2,6 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import kotlinx.coroutines.runBlocking
-import kotlin.time.Duration.Companion.milliseconds
 import ua.syt0r.kanji.core.connected_learning.ConnectedNodeKey
 import ua.syt0r.kanji.core.connected_learning.GraphEdgeKind
 import ua.syt0r.kanji.core.connected_learning.GraphNodeKind
@@ -51,6 +50,12 @@ class LearningGraphBenchmarkTest {
             edgeKinds: Set<GraphEdgeKind>,
             limit: Int,
         ) = emptyList<ua.syt0r.kanji.core.connected_learning.LearningGraphNeighbor>()
+
+        override suspend fun getEdgesFromNodes(
+            nodeIds: Collection<Long>,
+            edgeKinds: Set<GraphEdgeKind>,
+            limit: Int,
+        ) = emptyList<ua.syt0r.kanji.core.connected_learning.LearningGraphConnection>()
 
         private fun node(key: String) = LearningGraphNode(
             nodeId = key.hashCode().toLong(),

@@ -2,6 +2,7 @@ package ua.syt0r.kanji.core.user_data.database
 
 import org.koin.core.module.Module
 import ua.syt0r.kanji.core.user_data.database.migration.UserDataDatabaseMigrationProvider
+import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightConnectedReviewRepository
 import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightFsrsCardRepository
 import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightLetterPracticeRepository
 import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightReviewHistoryRepository
@@ -52,6 +53,12 @@ fun Module.addUserDataDatabaseDefinitions() {
 
     single<FsrsCardRepository> {
         SqlDelightFsrsCardRepository(
+            userDataDatabaseManager = get()
+        )
+    }
+
+    single<ConnectedReviewRepository> {
+        SqlDelightConnectedReviewRepository(
             userDataDatabaseManager = get()
         )
     }

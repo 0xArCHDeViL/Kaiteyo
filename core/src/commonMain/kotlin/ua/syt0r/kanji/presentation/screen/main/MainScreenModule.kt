@@ -2,11 +2,29 @@ package ua.syt0r.kanji.presentation.screen.main
 
 import org.koin.dsl.module
 import ua.syt0r.kanji.presentation.multiplatformViewModel
+import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.ConnectedLearningLoader
+import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.ConnectedLearningScreenViewModel
+import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.DefaultConnectedLearningLoader
+import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.DefaultConnectedLearningViewModel
 import ua.syt0r.kanji.presentation.screen.main.features.DeepLinkHandler
 import ua.syt0r.kanji.presentation.screen.main.features.DeckFeaturesController
 import ua.syt0r.kanji.presentation.screen.main.features.KaiteyoDataCenter
 
 val mainScreenModule = module {
+
+    single<ConnectedLearningLoader> {
+        DefaultConnectedLearningLoader(
+            graphRepository = get(),
+            reviewRepository = get(),
+        )
+    }
+
+    multiplatformViewModel<ConnectedLearningScreenViewModel> {
+        DefaultConnectedLearningViewModel(
+            viewModelScope = it.component1(),
+            loader = get(),
+        )
+    }
 
     multiplatformViewModel<MainContract.ViewModel> {
         MainScreenViewModel(

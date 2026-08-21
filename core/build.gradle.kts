@@ -158,10 +158,15 @@ android {
 }
 
 buildConfig {
-
     packageName = "ua.syt0r.kanji"
 
+    val connectedLearningV1 = providers.gradleProperty("connectedLearningV1")
+        .map(String::toBooleanStrict)
+        .orElse(false)
+        .get()
+    buildConfigField("connectedLearningV1", connectedLearningV1)
     buildConfigField("versionCode", AppVersion.versionCode.toLong())
+
     buildConfigField("versionName", AppVersion.versionName)
     buildConfigField("appDataPackName", AppAssets.appDataPackFileName(appDataVersion))
     buildConfigField(

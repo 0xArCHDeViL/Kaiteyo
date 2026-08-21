@@ -123,6 +123,16 @@ value class ConnectedItemKey(val value: String) {
                 "item:${entity.canonicalKey()}|variant:${KeyCodec.encode(variant)}"
             )
         }
+
+        fun fromNode(
+            nodeKey: ConnectedNodeKey,
+            variant: String = "default",
+        ): ConnectedItemKey {
+            require(variant.isNotEmpty()) { "Item variant must not be empty" }
+            return ConnectedItemKey(
+                "item:${nodeKey.value}|variant:${KeyCodec.encode(variant)}"
+            )
+        }
     }
 }
 

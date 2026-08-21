@@ -6,6 +6,8 @@ import org.koin.dsl.module
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
 import ua.syt0r.kanji.core.analytics.PrintAnalyticsManager
 import ua.syt0r.kanji.core.app_data.AppDataDatabaseProvider
+import ua.syt0r.kanji.core.connected_learning.LearningGraphRepository
+import ua.syt0r.kanji.core.connected_learning.SqlDelightLearningGraphRepository
 import ua.syt0r.kanji.core.app_data.AppDataRepository
 import ua.syt0r.kanji.core.app_data.SqlDelightAppDataRepository
 import ua.syt0r.kanji.core.backup.BackupManager
@@ -47,6 +49,12 @@ val coreModule = module {
     single<AppDataRepository> {
         val deferredDatabase = get<AppDataDatabaseProvider>().provideAsync()
         SqlDelightAppDataRepository(deferredDatabase)
+    }
+
+    single<LearningGraphRepository> {
+        SqlDelightLearningGraphRepository(
+            deferredDatabase = get<AppDataDatabaseProvider>().provideAsync(),
+        )
     }
 
     factory<PreferencesBackupManager> {

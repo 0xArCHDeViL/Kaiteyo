@@ -66,6 +66,16 @@ fun MainScreen(
                         category = "Navigate"
                     ) { navigationState.navigate(MainDestination.Collections) }
                 )
+                if (ua.syt0r.kanji.BuildConfig.connectedLearningV1) {
+                    add(
+                        PaletteAction(
+                            title = "Connected Learning",
+                            subtitle = "Follow a connected Kanji-to-usage mastery path",
+                            keywords = "connected learning kanji map mastery lesson graph",
+                            category = "Navigate"
+                        ) { navigationState.navigate(MainDestination.ConnectedLearning()) }
+                    )
+                }
                 add(
                     PaletteAction(
                         title = "Favorites",

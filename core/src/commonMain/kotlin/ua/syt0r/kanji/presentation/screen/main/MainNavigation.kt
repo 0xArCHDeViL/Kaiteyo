@@ -2,8 +2,12 @@ package ua.syt0r.kanji.presentation.screen.main
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.State
+import androidx.compose.runtime.collectAsState
 import kotlinx.serialization.Serializable
+import ua.syt0r.kanji.BuildConfig
+import ua.syt0r.kanji.core.connected_learning.ConnectedNodeKey
 import kotlinx.serialization.modules.PolymorphicModuleBuilder
 import org.koin.compose.koinInject
 import ua.syt0r.kanji.presentation.common.ScreenLetterPracticeType
@@ -41,6 +45,8 @@ import ua.syt0r.kanji.presentation.screen.main.screen.decks.PluginManagerScreen
 import ua.syt0r.kanji.presentation.screen.main.screen.decks.StatisticsDashboard
 import ua.syt0r.kanji.presentation.screen.main.screen.decks.BackupManagerScreen
 import ua.syt0r.kanji.presentation.screen.main.screen.decks.ImportExportScreen
+import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.ConnectedLearningScreen
+import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.ConnectedLearningScreenViewModel
 import ua.syt0r.kanji.presentation.screen.main.features.BackupRoute
 import ua.syt0r.kanji.presentation.screen.main.features.BulkActionsRoute
 import ua.syt0r.kanji.presentation.screen.main.features.CardBrowserRoute
@@ -89,6 +95,32 @@ interface MainDestination {
         @Composable
         override fun Content(state: MainNavigationState) {
             HomeScreen(mainNavigationState = state)
+        }
+
+    }
+
+    @Serializable
+    data class ConnectedLearning(
+        val rootNodeKey: String = "kanji:休",
+    ) : MainDestination {
+
+        override val analyticsName: String = "connected_learning"
+
+        @Composable
+        override fun Content(state: MainNavigationState) {
+            if (!BuildConfig.connectedLearningV1) {
+                Text("Connected Learning is unavailable in this build until the graph data pack is enabled.")
+                return
+            }
+            val viewModel = getMultiplatformViewModel<ConnectedLearningScreenViewModel>()
+            val uiState = viewModel.state.collectAsState().value
+            LaunchedEffect(rootNodeKey) {
+                viewModel.load(ConnectedNodeKey(rootNodeKey))
+            }
+            ConnectedLearningScreen(
+                state = uiState,
+                onEvent = viewModel::onEvent,
+            )
         }
 
     }
@@ -689,6 +721,7 @@ inline fun <reified T : MainDestination> KClass<T>.configuration(): MainDestinat
 
 val defaultMainDestinations: List<MainDestinationConfiguration<*>> = listOf(
     MainDestination.Home.configuration(),
+    MainDestination.ConnectedLearning::class.configuration(),
     MainDestination.Backup.configuration(),
     MainDestination.About.configuration(),
     MainDestination.Credits.configuration(),
