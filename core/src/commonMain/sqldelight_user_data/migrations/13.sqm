@@ -1,0 +1,226 @@
+-- User-data schema migration 13 -> 14.
+-- Legacy fsrs_card and review_history remain available for transition fallback.
+
+CREATE TABLE IF NOT EXISTS connected_review_item (
+    item_key TEXT NOT NULL PRIMARY KEY,
+    entity_kind TEXT NOT NULL,
+    entity_id TEXT NOT NULL,
+    entry_id INTEGER,
+    element_id INTEGER,
+    sense_id INTEGER,
+    variant TEXT NOT NULL DEFAULT '',
+    legacy_key TEXT,
+    legacy_practice_type INTEGER,
+    created_at INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_connected_review_item_entity
+ON connected_review_item(entity_kind, entity_id);
+
+CREATE TABLE IF NOT EXISTS connected_fsrs_card (
+    item_key TEXT NOT NULL,
+    dimension TEXT NOT NULL,
+    status INTEGER NOT NULL,
+    stability REAL NOT NULL,
+    difficulty REAL NOT NULL,
+    lapses INTEGER NOT NULL DEFAULT 0,
+    repeats INTEGER NOT NULL DEFAULT 0,
+    last_review INTEGER,
+    due_at INTEGER NOT NULL,
+    interval INTEGER NOT NULL,
+    first_seen INTEGER NOT NULL,
+    suspended INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY(item_key, dimension)
+);
+
+CREATE INDEX IF NOT EXISTS idx_connected_fsrs_due
+ON connected_fsrs_card(suspended, due_at, dimension, item_key);
+
+CREATE INDEX IF NOT EXISTS idx_connected_fsrs_item
+ON connected_fsrs_card(item_key, dimension);
+
+CREATE TABLE IF NOT EXISTS connected_review_event (
+    event_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    item_key TEXT NOT NULL,
+    dimension TEXT NOT NULL,
+    task_kind TEXT NOT NULL,
+    prompt_variant TEXT NOT NULL DEFAULT '',
+    timestamp INTEGER NOT NULL,
+    duration_ms INTEGER NOT NULL,
+    grade INTEGER NOT NULL,
+    mistakes INTEGER NOT NULL,
+    deck_id INTEGER NOT NULL,
+    context_key TEXT NOT NULL DEFAULT '',
+    source TEXT NOT NULL DEFAULT 'connected',
+    UNIQUE(item_key, dimension, timestamp)
+);
+
+CREATE INDEX IF NOT EXISTS idx_connected_review_event_item_time
+ON connected_review_event(item_key, dimension, timestamp DESC);
+
+INSERT OR IGNORE INTO connected_review_item(
+    item_key,
+    entity_kind,
+    entity_id,
+    entry_id,
+    element_id,
+    sense_id,
+    variant,
+    legacy_key,
+    legacy_practice_type,
+    created_at
+)
+SELECT
+    CASE
+        WHEN legacy.practice_type IN (0, 1)
+            THEN 'letter:' || legacy.key
+        WHEN legacy.practice_type IN (10, 11, 12)
+            THEN 'vocab:entry:' || legacy.key
+        ELSE 'grammar:point:' || legacy.key
+    END,
+    CASE
+        WHEN legacy.practice_type IN (0, 1)
+            THEN 'LETTER'
+        WHEN legacy.practice_type IN (10, 11, 12)
+            THEN 'VOCAB_ENTRY'
+        ELSE 'GRAMMAR_POINT'
+    END,
+    CASE
+        WHEN legacy.practice_type IN (0, 1)
+            THEN legacy.key
+        WHEN legacy.practice_type IN (10, 11, 12)
+            THEN 'entry:' || legacy.key
+        ELSE 'point:' || legacy.key
+    END,
+    CASE
+        WHEN legacy.practice_type IN (10, 11, 12)
+         AND legacy.key <> ''
+         AND legacy.key NOT GLOB '*[^0-9]*'
+            THEN CAST(legacy.key AS INTEGER)
+        ELSE NULL
+    END,
+    NULL,
+    NULL,
+    CASE
+        WHEN legacy.practice_type IN (0, 1)
+            THEN 'legacy-character'
+        WHEN legacy.practice_type IN (10, 11, 12)
+            THEN 'legacy-entry'
+        ELSE 'legacy-point'
+    END,
+    legacy.key,
+    legacy.practice_type,
+    CAST(strftime('%s', 'now') AS INTEGER) * 1000
+FROM (
+    SELECT key, practice_type FROM fsrs_card
+    UNION
+    SELECT key, practice_type FROM review_history
+) AS legacy;
+
+INSERT OR IGNORE INTO connected_fsrs_card(
+    item_key,
+    dimension,
+    status,
+    stability,
+    difficulty,
+    lapses,
+    repeats,
+    last_review,
+    due_at,
+    interval,
+    first_seen,
+    suspended
+)
+SELECT
+    item.item_key,
+    CASE fsrs.practice_type
+        WHEN 0 THEN 'LETTER_WRITING'
+        WHEN 1 THEN 'LETTER_READING'
+        WHEN 10 THEN 'VOCAB_MEANING'
+        WHEN 11 THEN 'VOCAB_READING'
+        WHEN 12 THEN 'VOCAB_WRITING'
+        WHEN 20 THEN 'GRAMMAR_FLASHCARD'
+        WHEN 21 THEN 'GRAMMAR_CLOZE'
+        WHEN 22 THEN 'GRAMMAR_CONJUGATION'
+        WHEN 23 THEN 'GRAMMAR_SENTENCE_SCRAMBLE'
+        WHEN 24 THEN 'GRAMMAR_SURVIVAL_DIALOGUE'
+        ELSE 'LEGACY_UNKNOWN_' || CAST(fsrs.practice_type AS TEXT)
+    END,
+    fsrs.status,
+    fsrs.stability,
+    fsrs.difficulty,
+    fsrs.lapses,
+    fsrs.repeats,
+    fsrs.last_review,
+    fsrs.last_review + fsrs.interval,
+    fsrs.interval,
+    COALESCE(
+        (
+            SELECT MIN(history.timestamp)
+            FROM review_history AS history
+            WHERE history.key = fsrs.key
+              AND history.practice_type = fsrs.practice_type
+        ),
+        fsrs.last_review
+    ),
+    0
+FROM fsrs_card AS fsrs
+JOIN connected_review_item AS item
+  ON item.legacy_key = fsrs.key
+ AND item.legacy_practice_type = fsrs.practice_type;
+
+INSERT OR IGNORE INTO connected_review_event(
+    item_key,
+    dimension,
+    task_kind,
+    prompt_variant,
+    timestamp,
+    duration_ms,
+    grade,
+    mistakes,
+    deck_id,
+    context_key,
+    source
+)
+SELECT
+    item.item_key,
+    CASE history.practice_type
+        WHEN 0 THEN 'LETTER_WRITING'
+        WHEN 1 THEN 'LETTER_READING'
+        WHEN 10 THEN 'VOCAB_MEANING'
+        WHEN 11 THEN 'VOCAB_READING'
+        WHEN 12 THEN 'VOCAB_WRITING'
+        WHEN 20 THEN 'GRAMMAR_FLASHCARD'
+        WHEN 21 THEN 'GRAMMAR_CLOZE'
+        WHEN 22 THEN 'GRAMMAR_CONJUGATION'
+        WHEN 23 THEN 'GRAMMAR_SENTENCE_SCRAMBLE'
+        WHEN 24 THEN 'GRAMMAR_SURVIVAL_DIALOGUE'
+        ELSE 'LEGACY_UNKNOWN_' || CAST(history.practice_type AS TEXT)
+    END,
+    CASE history.practice_type
+        WHEN 0 THEN 'LETTER_WRITING'
+        WHEN 1 THEN 'LETTER_READING'
+        WHEN 10 THEN 'VOCAB_MEANING'
+        WHEN 11 THEN 'VOCAB_READING'
+        WHEN 12 THEN 'VOCAB_WRITING'
+        WHEN 20 THEN 'GRAMMAR_FLASHCARD'
+        WHEN 21 THEN 'GRAMMAR_CLOZE'
+        WHEN 22 THEN 'GRAMMAR_CONJUGATION'
+        WHEN 23 THEN 'GRAMMAR_SENTENCE_SCRAMBLE'
+        WHEN 24 THEN 'GRAMMAR_SURVIVAL_DIALOGUE'
+        ELSE 'LEGACY_UNKNOWN_' || CAST(history.practice_type AS TEXT)
+    END,
+    'legacy',
+    history.timestamp,
+    history.duration,
+    history.grade,
+    history.mistakes,
+    history.deck_id,
+    '',
+    'legacy'
+FROM review_history AS history
+JOIN connected_review_item AS item
+  ON item.legacy_key = history.key
+ AND item.legacy_practice_type = history.practice_type;
+
+PRAGMA user_version = 14;

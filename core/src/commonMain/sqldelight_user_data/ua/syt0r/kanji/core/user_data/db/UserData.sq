@@ -205,6 +205,110 @@ SELECT COUNT(*)
 FROM review_history
 WHERE key = :key AND practice_type = :practiceType;
 
+------- CONNECTED LEARNING REVIEW -------
+
+CREATE TABLE IF NOT EXISTS connected_review_item (
+    item_key TEXT NOT NULL PRIMARY KEY,
+    entity_kind TEXT NOT NULL,
+    entity_id TEXT NOT NULL,
+    entry_id INTEGER,
+    element_id INTEGER,
+    sense_id INTEGER,
+    variant TEXT NOT NULL DEFAULT '',
+    legacy_key TEXT,
+    legacy_practice_type INTEGER,
+    created_at INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_connected_review_item_entity
+ON connected_review_item(entity_kind, entity_id);
+
+CREATE TABLE IF NOT EXISTS connected_fsrs_card (
+    item_key TEXT NOT NULL,
+    dimension TEXT NOT NULL,
+    status INTEGER NOT NULL,
+    stability REAL NOT NULL,
+    difficulty REAL NOT NULL,
+    lapses INTEGER NOT NULL DEFAULT 0,
+    repeats INTEGER NOT NULL DEFAULT 0,
+    last_review INTEGER,
+    due_at INTEGER NOT NULL,
+    interval INTEGER NOT NULL,
+    first_seen INTEGER NOT NULL,
+    suspended INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY(item_key, dimension)
+);
+
+CREATE INDEX IF NOT EXISTS idx_connected_fsrs_due
+ON connected_fsrs_card(suspended, due_at, dimension, item_key);
+
+CREATE INDEX IF NOT EXISTS idx_connected_fsrs_item
+ON connected_fsrs_card(item_key, dimension);
+
+CREATE TABLE IF NOT EXISTS connected_review_event (
+    event_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    item_key TEXT NOT NULL,
+    dimension TEXT NOT NULL,
+    task_kind TEXT NOT NULL,
+    prompt_variant TEXT NOT NULL DEFAULT '',
+    timestamp INTEGER NOT NULL,
+    duration_ms INTEGER NOT NULL,
+    grade INTEGER NOT NULL,
+    mistakes INTEGER NOT NULL,
+    deck_id INTEGER NOT NULL,
+    context_key TEXT NOT NULL DEFAULT '',
+    source TEXT NOT NULL DEFAULT 'connected',
+    UNIQUE(item_key, dimension, timestamp)
+);
+
+CREATE INDEX IF NOT EXISTS idx_connected_review_event_item_time
+ON connected_review_event(item_key, dimension, timestamp DESC);
+
+upsertConnectedReviewItem:
+INSERT OR REPLACE INTO connected_review_item(
+    item_key, entity_kind, entity_id, entry_id, element_id, sense_id,
+    variant, legacy_key, legacy_practice_type, created_at
+)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+upsertConnectedFsrsCard:
+INSERT OR REPLACE INTO connected_fsrs_card(
+    item_key, dimension, status, stability, difficulty, lapses, repeats,
+    last_review, due_at, interval, first_seen, suspended
+)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+insertConnectedReviewEvent:
+INSERT OR IGNORE INTO connected_review_event(
+    item_key, dimension, task_kind, prompt_variant, timestamp, duration_ms,
+    grade, mistakes, deck_id, context_key, source
+)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+getDueConnectedFsrsCards:
+SELECT item_key, dimension, status, stability, difficulty, lapses, repeats,
+       last_review, due_at, interval, first_seen, suspended
+FROM connected_fsrs_card
+WHERE suspended = 0
+  AND due_at <= :now
+  AND dimension IN :dimensions
+ORDER BY due_at, lapses DESC, item_key, dimension
+LIMIT :limit;
+
+getConnectedFsrsCardsForItems:
+SELECT item_key, dimension, status, stability, difficulty, lapses, repeats,
+       last_review, due_at, interval, first_seen, suspended
+FROM connected_fsrs_card
+WHERE item_key IN :itemKeys
+ORDER BY item_key, dimension;
+
+getConnectedReviewEventsForItems:
+SELECT event_id, item_key, dimension, task_kind, prompt_variant, timestamp,
+       duration_ms, grade, mistakes, deck_id, context_key, source
+FROM connected_review_event
+WHERE item_key IN :itemKeys
+ORDER BY item_key, dimension, timestamp DESC;
+
 getUniqueReviewItemsCountForPracticeTypes:
 SELECT COUNT(DISTINCT key)
 FROM review_history
