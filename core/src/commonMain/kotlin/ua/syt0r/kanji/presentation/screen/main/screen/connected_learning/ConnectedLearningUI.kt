@@ -584,6 +584,7 @@ data class ConnectedLearningUiState(
     val graphNodes: List<MasteryNodeUi> = emptyList(),
     val graphEdges: List<GraphEdgeUi> = emptyList(),
     val selectedNodeKey: ConnectedNodeKey? = null,
+    val activeLessonRootKey: ConnectedNodeKey? = null,
     val candidates: List<CandidateLessonUi> = emptyList(),
 )
 
