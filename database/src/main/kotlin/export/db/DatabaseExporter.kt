@@ -10,12 +10,13 @@ class DatabaseExporter(
     packRevision: Int,
 ) {
 
+    private val driver: JdbcSqliteDriver
     private val database: KanjiDojoData
 
     init {
         if (file.exists()) file.delete()
 
-        val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
+        driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
         KanjiDojoData.Schema.create(driver)
         database = KanjiDojoData(driver)
         driver.execute(
@@ -247,6 +248,26 @@ class DatabaseExporter(
 
     fun writeSentences(items: List<Sentence>) = database.transaction {
         items.forEach { database.vocabQueries.insert_sentence(it) }
+    }
+
+    /**
+     * Compact the immutable application pack after all writes are complete.
+     *
+     * This is a lossless file-layout optimization: it preserves all logical
+     * rows, schema metadata, and pack identity while removing interior page
+     * fragmentation introduced by the export insertion order.
+     */
+    fun compact() {
+        driver.execute(
+            identifier = null,
+            sql = "PRAGMA journal_mode = DELETE;",
+            parameters = 0
+        )
+        driver.execute(
+            identifier = null,
+            sql = "VACUUM;",
+            parameters = 0
+        )
     }
 
     fun writeLearningGraph(

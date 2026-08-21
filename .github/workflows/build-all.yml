@@ -111,7 +111,7 @@ jobs:
               file "$database_file" | grep -F 'SQLite 3.x database'
               test "$(head -c 16 "$database_file")" = 'SQLite format 3'
               pack_file="${database_file}.gz"
-              gzip -1 -c "$database_file" > "$pack_file"
+              gzip -9 -n -c "$database_file" > "$pack_file"
               gzip -t "$pack_file"
               sha256sum "$pack_file" | tee "${pack_file}.sha256"
               rm -f "$database_file"

@@ -139,6 +139,7 @@ fun main() {
             sentences = exportSentences,
         )
         writeLearningGraph(learningNodes, learningEdges)
+        compact()
     }
 
     DatabaseIntegrityValidator.validate(
