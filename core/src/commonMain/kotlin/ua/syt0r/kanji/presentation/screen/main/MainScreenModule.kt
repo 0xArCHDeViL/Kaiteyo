@@ -3,7 +3,9 @@ package ua.syt0r.kanji.presentation.screen.main
 import org.koin.dsl.module
 import ua.syt0r.kanji.presentation.multiplatformViewModel
 import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.ConnectedLearningLoader
+import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.AppDataConnectedVocabularyMetadataRepository
 import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.ConnectedLearningScreenViewModel
+import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.ConnectedVocabularyMetadataRepository
 import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.DefaultConnectedLearningLoader
 import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.DefaultConnectedLearningViewModel
 import ua.syt0r.kanji.presentation.screen.main.features.DeepLinkHandler
@@ -12,10 +14,17 @@ import ua.syt0r.kanji.presentation.screen.main.features.KaiteyoDataCenter
 
 val mainScreenModule = module {
 
+    single<ConnectedVocabularyMetadataRepository> {
+        AppDataConnectedVocabularyMetadataRepository(
+            appDataRepository = get(),
+        )
+    }
+
     single<ConnectedLearningLoader> {
         DefaultConnectedLearningLoader(
             graphRepository = get(),
             reviewRepository = get(),
+            vocabularyRepository = get(),
         )
     }
 

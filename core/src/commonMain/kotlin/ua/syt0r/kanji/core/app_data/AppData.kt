@@ -22,6 +22,15 @@ interface AppDataDatabaseProvider {
     fun provideAsync(): Deferred<AppDataDatabase>
 }
 
+data class ConnectedVocabElementData(
+    val entryId: Long,
+    val elementId: Long,
+    val elementKind: String,
+    val reading: String,
+    val glossary: List<String>,
+    val partOfSpeech: List<String>,
+)
+
 interface AppDataRepository {
 
     suspend fun getStrokes(character: String): List<String>
@@ -86,6 +95,7 @@ interface AppDataRepository {
     ): List<Sentence>
 
     suspend fun getWordSenses(idList: Set<Long>): List<VocabSenseGroup>
+    suspend fun getConnectedVocabElementData(entryIds: Set<Long>): List<ConnectedVocabElementData>
 
 }
 

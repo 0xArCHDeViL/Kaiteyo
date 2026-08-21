@@ -4,6 +4,7 @@ import kotlin.test.assertTrue
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.runBlocking
+import ua.syt0r.kanji.core.app_data.ConnectedVocabElementData
 import ua.syt0r.kanji.core.connected_learning.ConnectedItemKey
 import ua.syt0r.kanji.core.connected_learning.ConnectedNodeKey
 import ua.syt0r.kanji.core.connected_learning.GraphEdgeKind
@@ -17,6 +18,7 @@ import ua.syt0r.kanji.core.user_data.database.ConnectedReviewCard
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewEvent
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewItem
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewRepository
+import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.ConnectedVocabularyMetadataRepository
 import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.DefaultConnectedLearningLoader
 
 class DefaultConnectedLearningLoaderTest {
@@ -54,13 +56,25 @@ class DefaultConnectedLearningLoaderTest {
                 ),
             ),
             reviewRepository = EmptyConnectedReviewRepository(),
+            vocabularyRepository = ConnectedVocabularyMetadataRepository {
+                listOf(
+                    ConnectedVocabElementData(
+                        entryId = 100,
+                        elementId = 1,
+                        elementKind = "KANJI",
+                        reading = "休み",
+                        glossary = listOf("rest"),
+                        partOfSpeech = listOf("noun"),
+                    )
+                )
+            },
         ).load(root.nodeKey)
 
         assertEquals(2, state.graphNodes.size)
         assertEquals(1, state.graphEdges.size)
         assertEquals("2 connected nodes · 1 verified links", state.pathSummary)
-        assertEquals("やすみ", state.candidates.single().title)
-        assertEquals("Graph key: vocab-element:100|1|やすみ · Reading: やすみ · Entry ID: 100 · Element ID: 1", state.graphNodes[1].description)
+        assertEquals("休み", state.candidates.single().title)
+        assertEquals("Graph key: vocab-element:100|1|やすみ · Reading: やすみ · Meaning: rest · POS: noun · Entry ID: 100 · Element ID: 1", state.graphNodes[1].description)
         assertTrue(state.candidates.single().score in 0.0..1.0)
     }
 

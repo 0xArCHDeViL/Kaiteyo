@@ -3,6 +3,8 @@ package ua.syt0r.kanji.presentation.screen.main.screen.connected_learning
 import androidx.compose.ui.unit.dp
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant
+import ua.syt0r.kanji.core.app_data.AppDataRepository
+import ua.syt0r.kanji.core.app_data.ConnectedVocabElementData
 import ua.syt0r.kanji.core.connected_learning.ConnectedItemKey
 import ua.syt0r.kanji.core.connected_learning.ConnectedNodeKey
 import ua.syt0r.kanji.core.connected_learning.GraphNodeKind
@@ -18,9 +20,21 @@ import ua.syt0r.kanji.core.connected_learning.LearningGraphNode
 import ua.syt0r.kanji.core.connected_learning.LearningGraphRepository
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewRepository
 
+fun interface ConnectedVocabularyMetadataRepository {
+    suspend fun get(entryIds: Set<Long>): List<ConnectedVocabElementData>
+}
+
+class AppDataConnectedVocabularyMetadataRepository(
+    private val appDataRepository: AppDataRepository,
+) : ConnectedVocabularyMetadataRepository {
+    override suspend fun get(entryIds: Set<Long>): List<ConnectedVocabElementData> =
+        appDataRepository.getConnectedVocabElementData(entryIds)
+}
+
 class DefaultConnectedLearningLoader(
     private val graphRepository: LearningGraphRepository,
     private val reviewRepository: ConnectedReviewRepository,
+    private val vocabularyRepository: ConnectedVocabularyMetadataRepository,
     private val clock: Clock = Clock.System,
 ) : ConnectedLearningLoader {
 
@@ -44,6 +58,9 @@ class DefaultConnectedLearningLoader(
         }
         val itemKeys = nodes.map { ConnectedItemKey.fromNode(it.nodeKey) }
         val cardsByItem = reviewRepository.getCards(itemKeys)
+        val vocabularyByIdentity = vocabularyRepository
+            .get(nodes.mapNotNull { it.entryId }.toSet())
+            .associateBy { it.entryId to it.elementId }
         val now = clock.now()
         val masteryByNode = nodes.associate { node ->
             val itemKey = ConnectedItemKey.fromNode(node.nodeKey)
@@ -89,6 +106,7 @@ class DefaultConnectedLearningLoader(
                     mastery = masteryByNode.getValue(node.nodeKey).aggregate,
                     index = index,
                     isAnchor = node.nodeKey == rootNodeKey,
+                    vocabulary = vocabularyByIdentity,
                 )
             },
             graphEdges = visibleConnections.mapNotNull { it.toUi(nodeById) },
@@ -98,7 +116,7 @@ class DefaultConnectedLearningLoader(
                 CandidateLessonUi(
                     id = candidate.features.nodeKey.value,
                     rootKey = candidate.features.nodeKey,
-                    title = candidateNode.displayLabel(),
+                    title = candidateNode.displayLabel(vocabularyByIdentity),
                     rationale = rationaleFor(candidate.features.mastery, candidate.features.isDueReview),
                     score = candidate.score,
                     estimatedMinutes = estimatedMinutes(candidateNode.kind),
@@ -156,11 +174,12 @@ class DefaultConnectedLearningLoader(
         mastery: MasteryLevel,
         index: Int,
         isAnchor: Boolean,
+        vocabulary: Map<Pair<Long, Long>, ConnectedVocabElementData>,
     ) = MasteryNodeUi(
         key = nodeKey,
-        label = displayLabel(),
+        label = displayLabel(vocabulary),
         title = displayTitle(),
-        description = metadataDescription(),
+        description = metadataDescription(vocabulary),
         kind = kind,
         mastery = mastery,
         position = graphPosition(index, depth),
@@ -175,10 +194,12 @@ class DefaultConnectedLearningLoader(
         return GraphEdgeUi(from = from.nodeKey, to = to.nodeKey, kind = edgeKind)
     }
 
-    private fun LearningGraphNode.displayLabel(): String = when (kind) {
+    private fun LearningGraphNode.displayLabel(
+        vocabulary: Map<Pair<Long, Long>, ConnectedVocabElementData>,
+    ): String = when (kind) {
         GraphNodeKind.KANJI -> kanji
         GraphNodeKind.READING -> reading
-        GraphNodeKind.VOCABULARY_ELEMENT -> kanji ?: reading
+        GraphNodeKind.VOCABULARY_ELEMENT -> vocabulary[entryId to elementId]?.reading ?: reading
         else -> null
     }?.takeIf { it.isNotEmpty() } ?: nodeKey.value
 
@@ -193,10 +214,16 @@ class DefaultConnectedLearningLoader(
         GraphNodeKind.GRAMMAR -> "Grammar"
     }
 
-    private fun LearningGraphNode.metadataDescription(): String = buildList {
+    private fun LearningGraphNode.metadataDescription(
+        vocabulary: Map<Pair<Long, Long>, ConnectedVocabElementData>,
+    ): String = buildList {
         add("Graph key: ${nodeKey.value}")
         kanji?.let { add("Kanji: $it") }
         reading?.let { add("Reading: $it") }
+        vocabulary[entryId to elementId]?.let { data ->
+            data.glossary.takeIf { it.isNotEmpty() }?.let { add("Meaning: ${it.joinToString()}") }
+            data.partOfSpeech.takeIf { it.isNotEmpty() }?.let { add("POS: ${it.joinToString()}") }
+        }
         entryId?.let { add("Entry ID: $it") }
         elementId?.let { add("Element ID: $it") }
         senseId?.let { add("Sense ID: $it") }

@@ -3,6 +3,7 @@ package ua.syt0r.kanji.core.app_data
 import kotlinx.coroutines.Deferred
 import kotlin.random.Random
 import ua.syt0r.kanji.core.app_data.data.CharacterRadical
+import ua.syt0r.kanji.core.app_data.ConnectedVocabElementData
 import ua.syt0r.kanji.core.app_data.data.DetailedJapaneseWord
 import ua.syt0r.kanji.core.app_data.data.DetailedVocabReading
 import ua.syt0r.kanji.core.app_data.data.DetailedVocabSense
@@ -722,6 +723,30 @@ class SqlDelightAppDataRepository(
                     }
                 )
             }
+    }
+
+    override suspend fun getConnectedVocabElementData(
+        entryIds: Set<Long>
+    ): List<ConnectedVocabElementData> = vocabQuery {
+        entryIds.asSequence()
+            .filter { it > 0L }
+            .distinct()
+            .chunked(100)
+            .flatMap { ids ->
+                getConnectedVocabElementsForEntries(DELIMITER, ids).executeAsList()
+                    .asSequence()
+            }
+            .map { row ->
+                ConnectedVocabElementData(
+                    entryId = row.entry_id,
+                    elementId = row.element_id,
+                    elementKind = row.element_kind,
+                    reading = row.reading,
+                    glossary = row.glosses.splitValues(),
+                    partOfSpeech = row.part_of_speech.splitValues(),
+                )
+            }
+            .toList()
     }
 
     override suspend fun getDetailedWord(id: Long): DetailedJapaneseWord? = vocabQuery {
