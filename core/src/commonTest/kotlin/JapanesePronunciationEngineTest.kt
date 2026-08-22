@@ -1,6 +1,9 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import ua.syt0r.kanji.core.app_data.data.buildFuriganaString
+import ua.syt0r.kanji.core.app_data.data.FuriganaString
+import ua.syt0r.kanji.core.app_data.data.FuriganaStringCompound
+import ua.syt0r.kanji.core.app_data.data.toKanaReading
 import ua.syt0r.kanji.core.tts.JapanesePronunciationEngine
 import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
 import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
@@ -23,6 +26,48 @@ class JapanesePronunciationEngineTest {
         assertEquals("人", plan.displayText)
         assertEquals("ひと", plan.speakText)
         assertEquals(JapaneseSpeechStrategy.StandaloneKun, plan.strategy)
+    }
+
+    @Test
+    fun resolvesHyakuFromTheSelectedAuthoritativeReading() {
+        val plan = JapanesePronunciationEngine.resolve(
+            JapaneseSpeechRequest(
+                displayText = "百",
+                pronunciation = "ひゃく",
+                context = JapaneseSpeechContext.IsolatedKanji,
+            )
+        )
+
+        requireNotNull(plan)
+        assertEquals("ひゃく", plan.speakText)
+        assertEquals(JapaneseSpeechStrategy.ExplicitReading, plan.strategy)
+    }
+
+    @Test
+    fun resolvesOkashiAsTheCompleteVocabularyReading() {
+        val plan = JapanesePronunciationEngine.resolve(
+            JapaneseSpeechRequest(
+                displayText = "お菓子",
+                pronunciation = "おかし",
+                context = JapaneseSpeechContext.Vocabulary,
+            )
+        )
+
+        requireNotNull(plan)
+        assertEquals("おかし", plan.speakText)
+        assertEquals(JapaneseSpeechStrategy.ExplicitReading, plan.strategy)
+    }
+
+    @Test
+    fun emptyFuriganaAnnotationsDoNotDeleteVisibleCompoundText() {
+        val hidden = FuriganaString(
+            compounds = listOf(
+                FuriganaStringCompound("お"),
+                FuriganaStringCompound("菓子", ""),
+            )
+        )
+
+        assertEquals("お菓子", hidden.toKanaReading())
     }
 
     @Test

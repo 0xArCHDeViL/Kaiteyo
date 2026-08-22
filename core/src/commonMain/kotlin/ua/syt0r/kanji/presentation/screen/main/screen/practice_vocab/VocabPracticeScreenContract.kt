@@ -11,6 +11,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabP
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabPracticeReviewState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabPracticeScreenConfiguration
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabSummaryItem
+import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import kotlin.time.Duration
 
 interface VocabPracticeScreenContract {
@@ -27,7 +28,7 @@ interface VocabPracticeScreenContract {
         fun next(answer: PracticeAnswer)
         fun retryLastReview()
         fun finishPractice()
-        fun playVoice(text: String)
+        fun playVoice(request: JapaneseSpeechRequest)
     }
 
     sealed interface ScreenState {

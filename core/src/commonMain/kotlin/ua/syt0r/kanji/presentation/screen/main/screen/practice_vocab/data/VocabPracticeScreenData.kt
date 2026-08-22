@@ -63,6 +63,7 @@ sealed interface VocabReviewState {
     interface Flashcard : VocabReviewState {
         val reading: FuriganaString
         val noFuriganaReading: FuriganaString
+        val spokenReading: String
         val exampleSentence: VocabExampleSentence?
         val showMeaningInFront: Boolean
         val showAnswer: State<Boolean>
@@ -70,6 +71,7 @@ sealed interface VocabReviewState {
 
     interface Reading : VocabReviewState {
         val questionCharacter: String
+        val spokenReading: String
         val showMeaning: Boolean
         val displayReading: State<FuriganaString>
         val answers: List<String>

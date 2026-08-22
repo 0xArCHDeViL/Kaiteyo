@@ -40,6 +40,7 @@ class DefaultGetVocabPracticeFlashcardDataUseCase(
         return VocabPracticeItemData.Flashcard(
             reading = revealedReading,
             hiddenReading = hiddenReading,
+            spokenReading = card.kanaReading,
             meaning = card.meaning,
             exampleSentence = sentence?.let {
                 VocabExampleSentence(

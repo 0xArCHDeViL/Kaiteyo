@@ -285,6 +285,7 @@ object EnglishMindMapStrings : MindMapStrings {
     override val zoomInDescription: String = "Zoom in"
     override val fitGraphDescription: String = "Fit graph"
     override val chooseRoot: (String) -> String = { "Choose root · $it" }
+    override val showMoreTreeNodes: (Int) -> String = { "Show $it more nodes" }
 }
 
 object EnglishCommandPaletteStrings : CommandPaletteStrings {

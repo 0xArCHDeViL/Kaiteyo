@@ -22,6 +22,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import kotlinx.coroutines.flow.Flow
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
+import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.presentation.common.MultiplatformBackHandler
 import ua.syt0r.kanji.presentation.common.ScreenVocabPracticeType
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
@@ -62,7 +63,7 @@ fun VocabPracticeScreenUI(
     onFeedback: (JapaneseWord) -> Unit,
     navigateBack: () -> Unit,
     finishPractice: () -> Unit,
-    onVoiceClick: (String) -> Unit
+    onVoiceClick: (JapaneseSpeechRequest) -> Unit
 ) {
 
     var showPracticeFinishDialog by rememberSaveable { mutableStateOf(false) }
@@ -252,7 +253,7 @@ private fun ScreenReview(
     onNextClick: (PracticeAnswer) -> Unit,
     onInfoClick: (VocabReviewState) -> Unit,
     onFeedbackClick: (JapaneseWord) -> Unit,
-    onVoiceClick: (String) -> Unit
+    onVoiceClick: (JapaneseSpeechRequest) -> Unit
 ) {
 
     Box(

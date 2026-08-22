@@ -325,6 +325,7 @@ interface MindMapStrings {
     val zoomInDescription: String
     val fitGraphDescription: String
     val chooseRoot: (String) -> String
+    val showMoreTreeNodes: (Int) -> String
 }
 
 interface NavStrings {

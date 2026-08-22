@@ -1,5 +1,6 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertNotEquals
 import kotlin.test.assertTrue
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
@@ -21,8 +22,39 @@ import ua.syt0r.kanji.core.user_data.database.ConnectedReviewItem
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewRepository
 import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.ConnectedVocabularyMetadataRepository
 import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.DefaultConnectedLearningLoader
+import ua.syt0r.kanji.presentation.screen.main.screen.connected_learning.SkillNodeProgress
 
 class DefaultConnectedLearningLoaderTest {
+
+    @Test
+    fun distinctCandidateEvidenceProducesDistinctScoresAndTreeStates() = runBlocking {
+        val root = node(1, "kanji:休", GraphNodeKind.KANJI, 0, kanji = "休", level = 1, priority = 1.0)
+        val near = node(2, "kanji:体", GraphNodeKind.KANJI, 1, kanji = "体", level = 2, priority = 1.0)
+        val distant = node(3, "kanji:複", GraphNodeKind.KANJI, 2, kanji = "複", level = 15, priority = 0.1)
+        val reading = node(4, "reading:休|やすむ", GraphNodeKind.READING, 1, reading = "やすむ", level = 3, priority = 0.5)
+        val state = DefaultConnectedLearningLoader(
+            graphRepository = FakeGraphRepository(
+                nodes = listOf(root, near, distant, reading),
+                connections = listOf(
+                    prerequisite(root, near),
+                    prerequisite(near, distant),
+                    prerequisite(root, reading),
+                ),
+            ),
+            reviewRepository = EmptyConnectedReviewRepository(),
+            vocabularyRepository = ConnectedVocabularyMetadataRepository { emptyList() },
+        ).load(root.nodeKey)
+
+        val scores = state.candidates.associate { it.rootKey.value to it.score }
+        assertTrue(scores.values.all { it in 0.0..1.0 })
+        assertTrue(scores.values.distinct().size > 1)
+        assertEquals(SkillNodeProgress.Available, state.graphNodes.first { it.key == root.nodeKey }.progress)
+        assertEquals(SkillNodeProgress.Locked, state.graphNodes.first { it.key == near.nodeKey }.progress)
+        assertNotEquals(
+            state.graphNodes.first { it.key == near.nodeKey }.tier,
+            state.graphNodes.first { it.key == distant.nodeKey }.tier,
+        )
+    }
 
     @Test
     fun loadUsesBoundedGraphDataAndProducesRecommendations() = runBlocking {
@@ -50,7 +82,7 @@ class DefaultConnectedLearningLoaderTest {
                         fromNodeId = root.nodeId,
                         toNodeId = vocabulary.nodeId,
                         node = vocabulary,
-                        edgeKind = GraphEdgeKind.HAS_VOCABULARY,
+                        edgeKind = GraphEdgeKind.PREREQUISITE_OF,
                         weight = 1.0,
                         provenance = GraphProvenance.DERIVED_AT_EXPORT,
                     )
@@ -73,7 +105,7 @@ class DefaultConnectedLearningLoaderTest {
 
         assertEquals(2, state.graphNodes.size)
         assertEquals(1, state.graphEdges.size)
-        assertEquals("2 connected nodes · 1 verified links", state.pathSummary)
+        assertEquals("Kanji skill tree · 2 nodes · 1 prerequisite links", state.pathSummary)
         assertEquals("休み", state.candidates.single().title)
         assertEquals("Graph key: vocab-element:100|1|やすみ · Reading: やすみ · Meaning: rest · POS: noun · Entry ID: 100 · Element ID: 1", state.graphNodes[1].description)
         assertTrue(state.candidates.single().score in 0.0..1.0)
@@ -123,6 +155,18 @@ class DefaultConnectedLearningLoaderTest {
         override suspend fun commitReview(commit: ConnectedReviewCommit) = Unit
     }
 
+    private fun prerequisite(
+        from: LearningGraphNode,
+        to: LearningGraphNode,
+    ) = LearningGraphConnection(
+        fromNodeId = from.nodeId,
+        toNodeId = to.nodeId,
+        node = to,
+        edgeKind = GraphEdgeKind.PREREQUISITE_OF,
+        weight = 1.0,
+        provenance = GraphProvenance.DERIVED_AT_EXPORT,
+    )
+
     private fun node(
         id: Long,
         key: String,
@@ -132,6 +176,8 @@ class DefaultConnectedLearningLoaderTest {
         reading: String? = null,
         entryId: Long? = null,
         elementId: Long? = null,
+        level: Long? = null,
+        priority: Double = 1.0,
     ) = LearningGraphNode(
         nodeId = id,
         nodeKey = ConnectedNodeKey(key),
@@ -142,8 +188,8 @@ class DefaultConnectedLearningLoaderTest {
         elementId = elementId,
         senseId = null,
         sentenceId = null,
-        level = null,
-        priority = 1.0,
+        level = level,
+        priority = priority,
         depth = depth,
     )
 }

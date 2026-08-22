@@ -23,7 +23,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.core.app_data.data.FuriganaString
 import ua.syt0r.kanji.core.app_data.data.withoutAnnotations
-import ua.syt0r.kanji.core.app_data.data.toKanaReading
+import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
+import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.presentation.common.AutopaddedScrollableColumn
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.common.ui.CenteredBoxWithSide
@@ -40,7 +41,7 @@ fun VocabPracticeFlashcardUI(
     onRevealAnswerClick: () -> Unit,
     onNextClick: (PracticeAnswer) -> Unit,
     onInfoClick: () -> Unit,
-    onVoiceClick: (String) -> Unit
+    onVoiceClick: (JapaneseSpeechRequest) -> Unit
 ) {
 
     AutopaddedScrollableColumn(
@@ -93,7 +94,15 @@ fun VocabPracticeFlashcardUI(
                 sideContent = {
                     if (reviewState.showAnswer.value || !reviewState.showMeaningInFront) {
                         IconButton(
-                            onClick = { onVoiceClick(furigana.toKanaReading()) }
+                            onClick = {
+                                onVoiceClick(
+                                    JapaneseSpeechRequest(
+                                        displayText = furigana.withoutAnnotations(),
+                                        pronunciation = reviewState.spokenReading,
+                                        context = JapaneseSpeechContext.Vocabulary,
+                                    )
+                                )
+                            }
                         ) {
                             Icon(Icons.Default.VolumeUp, contentDescription = "Play voice")
                         }

@@ -105,6 +105,7 @@ sealed interface VocabPracticeItemData {
     data class Flashcard(
         val reading: FuriganaString,
         val hiddenReading: FuriganaString,
+        val spokenReading: String,
         val meaning: String,
         val exampleSentence: VocabExampleSentence?,
         val showMeaningInFront: Boolean,
@@ -116,6 +117,7 @@ sealed interface VocabPracticeItemData {
         ) = MutableVocabReviewState.Flashcard(
             reading,
             hiddenReading,
+            spokenReading,
             meaning,
             exampleSentence,
             showMeaningInFront,
@@ -128,6 +130,7 @@ sealed interface VocabPracticeItemData {
         val question: String,
         val revealedReading: FuriganaString,
         val hiddenReading: FuriganaString,
+        val spokenReading: String,
         val meaning: String,
         val answers: List<String>,
         val correctAnswer: String,
@@ -140,6 +143,7 @@ sealed interface VocabPracticeItemData {
             questionCharacter = question,
             revealedReading = revealedReading,
             hiddenReading = hiddenReading,
+            spokenReading = spokenReading,
             meaning = meaning,
             answers = answers.shuffled(),
             correctAnswer = correctAnswer,
@@ -197,6 +201,7 @@ sealed interface MutableVocabReviewState {
     class Flashcard(
         override val reading: FuriganaString,
         override val noFuriganaReading: FuriganaString,
+        override val spokenReading: String,
         override val meaning: String,
         override val exampleSentence: VocabExampleSentence?,
         override val showMeaningInFront: Boolean,
@@ -214,6 +219,7 @@ sealed interface MutableVocabReviewState {
         override val questionCharacter: String,
         val revealedReading: FuriganaString,
         hiddenReading: FuriganaString,
+        override val spokenReading: String,
         override val meaning: String,
         override val answers: List<String>,
         override val correctAnswer: String,

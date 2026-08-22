@@ -10,7 +10,6 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
-import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
 import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
@@ -139,14 +138,9 @@ class VocabPracticeViewModel(
         practiceQueue.immediateFinish()
     }
 
-    override fun playVoice(text: String) {
+    override fun playVoice(request: JapaneseSpeechRequest) {
         viewModelScope.launch {
-            appTtsManager.speak(
-                JapaneseSpeechRequest(
-                    displayText = text,
-                    context = JapaneseSpeechContext.Vocabulary
-                )
-            )
+            appTtsManager.speak(request)
         }
     }
 

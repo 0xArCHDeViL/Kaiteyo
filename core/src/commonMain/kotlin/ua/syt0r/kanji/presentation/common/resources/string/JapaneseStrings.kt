@@ -282,6 +282,7 @@ object JapaneseMindMapStrings : MindMapStrings {
     override val zoomInDescription: String = "拡大"
     override val fitGraphDescription: String = "グラフを全体表示"
     override val chooseRoot: (String) -> String = { "ルートを選択 · $it" }
+    override val showMoreTreeNodes: (Int) -> String = { "${it}個のノードをさらに表示" }
 }
 
 object JapaneseCommandPaletteStrings : CommandPaletteStrings {

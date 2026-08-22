@@ -33,7 +33,8 @@ import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
 import ua.syt0r.kanji.core.app_data.data.withoutAnnotations
-import ua.syt0r.kanji.core.app_data.data.toKanaReading
+import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
+import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
 import ua.syt0r.kanji.presentation.common.ui.CenteredBoxWithSide
 import ua.syt0r.kanji.presentation.common.ui.FuriganaText
@@ -54,7 +55,7 @@ fun VocabPracticeReadingPickerUI(
     onAnswerSelected: (String) -> Unit,
     onNextClick: (PracticeAnswer) -> Unit,
     onFeedbackClick: (JapaneseWord) -> Unit,
-    onVoiceClick: (String) -> Unit
+    onVoiceClick: (JapaneseSpeechRequest) -> Unit
 ) {
 
     Column(
@@ -77,7 +78,15 @@ fun VocabPracticeReadingPickerUI(
             sideContent = {
                 if (selectedAnswer != null) {
                     IconButton(
-                        onClick = { onVoiceClick(reviewState.displayReading.value.toKanaReading()) }
+                        onClick = {
+                            onVoiceClick(
+                                JapaneseSpeechRequest(
+                                    displayText = reviewState.displayReading.value.withoutAnnotations(),
+                                    pronunciation = reviewState.spokenReading,
+                                    context = JapaneseSpeechContext.Vocabulary,
+                                )
+                            )
+                        }
                     ) {
                         Icon(Icons.Default.VolumeUp, contentDescription = "Play voice")
                     }

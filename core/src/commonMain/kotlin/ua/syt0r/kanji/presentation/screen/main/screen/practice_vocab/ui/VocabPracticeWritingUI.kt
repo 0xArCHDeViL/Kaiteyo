@@ -68,7 +68,8 @@ import ua.syt0r.kanji.presentation.common.ui.CenteredBoxWithSide
 import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
 import ua.syt0r.kanji.presentation.common.ui.Orientation
 import ua.syt0r.kanji.core.app_data.data.withoutAnnotations
-import ua.syt0r.kanji.core.app_data.data.toKanaReading
+import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
+import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BrushSelector
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BrushSettings
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterWriter
@@ -88,7 +89,7 @@ fun VocabPracticeWritingUI(
     answerSelected: (PracticeAnswer) -> Unit,
     onInfoClick: () -> Unit,
     onFeedbackClick: (JapaneseWord) -> Unit,
-    onVoiceClick: (String) -> Unit
+    onVoiceClick: (JapaneseSpeechRequest) -> Unit
 ) {
 
     AutoSwitchSelectedItemLaunchedEffect(reviewState)
@@ -235,7 +236,7 @@ private fun Progress(
     reviewState: VocabReviewState.Writing,
     revealAnswer: State<Boolean>,
     onInfoClick: () -> Unit,
-    onVoiceClick: (String) -> Unit,
+    onVoiceClick: (JapaneseSpeechRequest) -> Unit,
     modifier: Modifier,
 ) {
 
@@ -271,7 +272,15 @@ private fun Progress(
             autoPlayEnabled = autoPlayEnabled,
             clickable = revealAnswer.value,
             onAutoPlayToggleClick = { autoPlayEnabled.value = !autoPlayEnabled.value },
-            onSpeakClick = { onVoiceClick(reviewState.summaryReading.toKanaReading()) },
+            onSpeakClick = {
+                onVoiceClick(
+                    JapaneseSpeechRequest(
+                        displayText = reviewState.summaryReading.withoutAnnotations(),
+                        pronunciation = reviewState.kanaReading,
+                        context = JapaneseSpeechContext.Vocabulary,
+                    )
+                )
+            },
             modifier = Modifier
         )
 

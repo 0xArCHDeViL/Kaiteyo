@@ -23,6 +23,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.AutoGraph
+import androidx.compose.material.icons.outlined.ExpandMore
 import androidx.compose.material.icons.outlined.PlayArrow
 import androidx.compose.material.icons.outlined.Refresh
 import androidx.compose.material3.Button
@@ -34,6 +35,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.getValue
@@ -44,6 +46,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.border
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
@@ -60,11 +63,13 @@ import kotlin.math.roundToInt
 import ua.syt0r.kanji.core.connected_learning.ConnectedNodeKey
 import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.presentation.common.kaiteyoHeading
+import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.core.connected_learning.GraphEdgeKind
 import ua.syt0r.kanji.core.connected_learning.GraphNodeKind
 import ua.syt0r.kanji.core.connected_learning.MasteryLevel
 
 private val GraphNodeSize = 56.dp
+private const val INITIAL_VISIBLE_TREE_NODES = 18
 
 @Composable
 fun ConnectedLearningScreen(
@@ -73,7 +78,7 @@ fun ConnectedLearningScreen(
     modifier: Modifier = Modifier,
 ) {
     BoxWithConstraints(modifier = modifier.fillMaxSize()) {
-        val compact = maxWidth < 600.dp
+        val compact = maxWidth < 600.dp || maxHeight < 600.dp
         val contentPadding = if (compact) 16.dp else 24.dp
 
         when {
@@ -248,82 +253,123 @@ private fun MasteryNodeGraph(
 ) {
     var zoom by remember { mutableFloatStateOf(1f) }
     var pan by remember { mutableStateOf(Offset.Zero) }
+    var expanded by remember(nodes) { mutableStateOf(false) }
     val density = LocalDensity.current
     val colors = MaterialTheme.colorScheme
-    val nodesByKey = remember(nodes) { nodes.associateBy { it.key } }
+    val strings = resolveString { mindMap }
+    val renderedNodes = remember(nodes, expanded) {
+        if (expanded) nodes else nodes.take(INITIAL_VISIBLE_TREE_NODES)
+    }
+    val renderedKeys = remember(renderedNodes) { renderedNodes.mapTo(hashSetOf()) { it.key } }
+    val renderedEdges = remember(edges, renderedKeys) {
+        edges.filter { it.from in renderedKeys && it.to in renderedKeys }
+    }
+    val nodesByKey = remember(renderedNodes) { renderedNodes.associateBy { it.key } }
+    val activePathEdges = remember(renderedEdges, selectedNodeKey) {
+        prerequisitePathEdges(renderedEdges, selectedNodeKey)
+    }
 
-    Box(
-        modifier = modifier
-            .fillMaxWidth()
-            .heightIn(min = 320.dp, max = 520.dp)
-            .clip(MaterialTheme.shapes.large)
-            .background(colors.surface)
-            .pointerInput(Unit) {
-                detectTransformGestures { _, panChange, zoomChange, _ ->
-                    zoom = (zoom * zoomChange).coerceIn(0.7f, 2.4f)
-                    pan += panChange
+    Column(modifier = modifier.fillMaxWidth()) {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .heightIn(min = 320.dp, max = 520.dp)
+                .clip(MaterialTheme.shapes.large)
+                .background(colors.surface)
+                .pointerInput(Unit) {
+                    detectTransformGestures { _, panChange, zoomChange, _ ->
+                        zoom = (zoom * zoomChange).coerceIn(0.7f, 2.4f)
+                        pan += panChange
+                    }
+                }
+                .semantics {
+                    contentDescription = "Hierarchical Kanji skill tree with ${nodes.size} nodes. Pinch to zoom and drag to pan."
+                },
+        ) {
+            Canvas(modifier = Modifier.fillMaxSize()) {
+                renderedEdges.forEach { edge ->
+                    val from = nodesByKey[edge.from] ?: return@forEach
+                    val to = nodesByKey[edge.to] ?: return@forEach
+                    val start = transformedPosition(from.position, zoom, pan, density)
+                    val end = transformedPosition(to.position, zoom, pan, density)
+                    val onPath = edge in activePathEdges
+                    drawLine(
+                        color = if (onPath) colors.primary else edgeColor(edge.kind, colors),
+                        start = start,
+                        end = end,
+                        strokeWidth = (if (onPath) 3.dp else 2.dp).toPx().coerceAtLeast(1f),
+                        cap = StrokeCap.Round,
+                    )
                 }
             }
-            .semantics {
-                contentDescription = "Mastery graph with ${nodes.size} nodes. Pinch to zoom and drag to pan."
-            },
-    ) {
-        Canvas(modifier = Modifier.fillMaxSize()) {
-            edges.forEach { edge ->
-                val from = nodesByKey[edge.from] ?: return@forEach
-                val to = nodesByKey[edge.to] ?: return@forEach
-                val start = transformedPosition(from.position, zoom, pan, density)
-                val end = transformedPosition(to.position, zoom, pan, density)
-                drawLine(
-                    color = edgeColor(edge.kind, colors),
-                    start = start,
-                    end = end,
-                    strokeWidth = 2.dp.toPx().coerceAtLeast(1f),
-                    cap = StrokeCap.Round,
-                )
+
+            renderedNodes.forEach { node ->
+                val isSelected = node.key == selectedNodeKey
+                val nodePosition = transformedPosition(node.position, zoom, pan, density)
+                val nodeSize = if (node.isAnchor) 68.dp else GraphNodeSize
+                val nodeSizePx = with(density) { nodeSize.roundToPx() }
+                Box(
+                    modifier = Modifier
+                        .offset {
+                            IntOffset(
+                                nodePosition.x.roundToInt() - nodeSizePx / 2,
+                                nodePosition.y.roundToInt() - nodeSizePx / 2,
+                            )
+                        }
+                        .size(nodeSize)
+                        .clip(CircleShape)
+                        .background(nodeColor(node.kind, colors))
+                        .border(
+                            width = if (isSelected) 4.dp else 2.dp,
+                            color = progressColor(node.progress, colors),
+                            shape = CircleShape,
+                        )
+                        .kaiteyoClickable(
+                            onClick = { onNodeSelected(node.key) },
+                            contentDescription = "${node.label}, ${node.progress.accessibleLabel}, tier ${node.tier + 1}",
+                        ),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    Text(
+                        text = node.label,
+                        style = if (node.isAnchor) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.titleMedium,
+                        color = colors.onPrimaryContainer,
+                    )
+                }
             }
         }
-
-        nodes.forEach { node ->
-            val isSelected = node.key == selectedNodeKey
-            val nodePosition = transformedPosition(node.position, zoom, pan, density)
-            val nodeSize = if (node.isAnchor) 68.dp else GraphNodeSize
-            val nodeSizePx = with(density) { nodeSize.roundToPx() }
-            Box(
-                modifier = Modifier
-                    .offset {
-                        IntOffset(
-                            nodePosition.x.roundToInt() - nodeSizePx / 2,
-                            nodePosition.y.roundToInt() - nodeSizePx / 2,
-                        )
-                    }
-                    .size(nodeSize)
-                    .clip(CircleShape)
-                    .background(nodeColor(node.kind, colors))
-                    .then(
-                        if (isSelected) {
-                            Modifier.background(
-                                color = masteryColor(node.mastery, colors),
-                                shape = CircleShape,
-                            )
-                        } else {
-                            Modifier
-                        }
-                    )
-                    .kaiteyoClickable(
-                        onClick = { onNodeSelected(node.key) },
-                        contentDescription = "${node.label}, ${node.mastery.name.lowercase()}",
-                    ),
-                contentAlignment = Alignment.Center,
+        if (!expanded && nodes.size > renderedNodes.size) {
+            TextButton(
+                onClick = { expanded = true },
+                modifier = Modifier.align(Alignment.CenterHorizontally),
             ) {
-                Text(
-                    text = node.label,
-                    style = if (node.isAnchor) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.titleMedium,
-                    color = colors.onPrimaryContainer,
-                )
+                Icon(Icons.Outlined.ExpandMore, contentDescription = null)
+                Spacer(Modifier.width(4.dp))
+                Text(strings.showMoreTreeNodes(nodes.size - renderedNodes.size))
             }
         }
     }
+}
+
+private fun prerequisitePathEdges(
+    edges: List<GraphEdgeUi>,
+    selectedNodeKey: ConnectedNodeKey?,
+): Set<GraphEdgeUi> {
+    if (selectedNodeKey == null) return emptySet()
+    val parentByChild = edges
+        .filter { it.kind == GraphEdgeKind.PREREQUISITE_OF }
+        .groupBy { it.to }
+    val path = linkedSetOf<GraphEdgeUi>()
+    var cursor = selectedNodeKey
+    while (true) {
+        val parentEdge = parentByChild[cursor]
+            .orEmpty()
+            .minByOrNull { it.from.value }
+            ?: break
+        if (!path.add(parentEdge)) break
+        cursor = parentEdge.from
+    }
+    return path
 }
 
 private fun transformedPosition(
@@ -344,7 +390,8 @@ private fun ConnectedNodeDetailCard(
     onEvent: (ConnectedLearningEvent) -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    val node = state.graphNodes.firstOrNull { it.key == state.selectedNodeKey }
+                val node = state.graphNodes.firstOrNull { it.key == state.selectedNodeKey }
+
     Card(
         modifier = modifier.fillMaxWidth(),
         shape = MaterialTheme.shapes.extraLarge,
@@ -368,6 +415,7 @@ private fun ConnectedNodeDetailCard(
             ) {
                 Text(node.label, style = MaterialTheme.typography.displaySmall)
                 Text(node.title, style = MaterialTheme.typography.titleMedium)
+                StatusBadge(node.progress.accessibleLabel)
                 Text(
                     node.description,
                     style = MaterialTheme.typography.bodyMedium,
@@ -474,19 +522,28 @@ private fun MasteryLegend() {
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        listOf(MasteryLevel.New, MasteryLevel.Familiar, MasteryLevel.Stable, MasteryLevel.Mastered)
-            .forEach { level ->
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Box(
-                        modifier = Modifier
-                            .size(8.dp)
-                            .clip(CircleShape)
-                            .background(masteryColor(level, MaterialTheme.colorScheme))
-                    )
-                    Spacer(Modifier.width(4.dp))
-                    Text(level.name, style = MaterialTheme.typography.labelSmall)
-                }
+        listOf(
+            SkillNodeProgress.Locked,
+            SkillNodeProgress.Available,
+            SkillNodeProgress.Learning,
+            SkillNodeProgress.Mastered,
+        ).forEach { progress ->
+            Row(
+                modifier = Modifier.semantics {
+                    contentDescription = progress.accessibleLabel
+                },
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Box(
+                    modifier = Modifier
+                        .size(8.dp)
+                        .clip(CircleShape)
+                        .background(progressColor(progress, MaterialTheme.colorScheme))
+                )
+                Spacer(Modifier.width(4.dp))
+                Text(progress.accessibleLabel, style = MaterialTheme.typography.labelSmall)
             }
+        }
     }
 }
 
@@ -533,6 +590,16 @@ private fun nodeColor(kind: GraphNodeKind, colors: androidx.compose.material3.Co
     GraphNodeKind.GRAMMAR -> colors.inversePrimary
 }
 
+private fun progressColor(
+    progress: SkillNodeProgress,
+    colors: androidx.compose.material3.ColorScheme,
+): Color = when (progress) {
+    SkillNodeProgress.Locked -> colors.outline
+    SkillNodeProgress.Available -> colors.tertiary
+    SkillNodeProgress.Learning -> colors.secondary
+    SkillNodeProgress.Mastered -> colors.primary
+}
+
 private fun masteryColor(
     mastery: MasteryLevel,
     colors: androidx.compose.material3.ColorScheme,
@@ -560,6 +627,13 @@ private fun edgeColor(
 @Immutable
 data class GraphPoint(val x: Dp, val y: Dp)
 
+enum class SkillNodeProgress(val accessibleLabel: String) {
+    Locked("locked"),
+    Available("available"),
+    Learning("learning"),
+    Mastered("mastered"),
+}
+
 @Immutable
 data class MasteryNodeUi(
     val key: ConnectedNodeKey,
@@ -568,7 +642,11 @@ data class MasteryNodeUi(
     val description: String,
     val kind: GraphNodeKind,
     val mastery: MasteryLevel,
+    val progress: SkillNodeProgress,
+    val tier: Int,
+    val lane: Int,
     val position: GraphPoint,
+    val isFrontier: Boolean = false,
     val isAnchor: Boolean = false,
 )
 

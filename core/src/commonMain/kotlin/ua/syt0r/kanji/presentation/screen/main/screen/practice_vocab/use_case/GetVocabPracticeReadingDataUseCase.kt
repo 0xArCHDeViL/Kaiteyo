@@ -73,6 +73,7 @@ class DefaultGetVocabPracticeReadingDataUseCase(
             question = question,
             revealedReading = revealedReading,
             hiddenReading = hiddenReading,
+            spokenReading = card.kanaReading,
             meaning = card.meaning,
             answers = answers,
             correctAnswer = correctAnswer,

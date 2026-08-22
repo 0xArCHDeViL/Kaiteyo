@@ -77,6 +77,8 @@ data class LessonSelectionPolicy(
 
 object LessonCandidateScorer {
 
+    private const val DUE_REVIEW_BONUS = 0.08
+
     fun score(
         features: LessonCandidateFeatures,
         weights: CandidateScoreWeights = CandidateScoreWeights(),
@@ -87,7 +89,8 @@ object LessonCandidateScorer {
                 features.learnerWeakness * normalized.learnerWeakness +
                 features.graphLeverage * normalized.graphLeverage +
                 features.levelRelevance * normalized.levelRelevance +
-                features.novelty * normalized.novelty
+                features.novelty * normalized.novelty +
+                if (features.isDueReview) DUE_REVIEW_BONUS else 0.0
             ).coerceIn(0.0, 1.0)
         return ScoredLessonCandidate(features = features, score = score)
     }
