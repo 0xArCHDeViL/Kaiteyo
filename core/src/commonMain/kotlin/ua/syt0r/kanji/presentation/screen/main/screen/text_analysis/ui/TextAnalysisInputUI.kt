@@ -2,7 +2,6 @@ package ua.syt0r.kanji.presentation.screen.main.screen.text_analysis.ui
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
@@ -32,7 +31,8 @@ import androidx.compose.ui.text.withStyle
 import org.jetbrains.compose.resources.stringResource
 import ua.syt0r.kanji.Res
 import ua.syt0r.kanji.presentation.common.AppTextField
-import ua.syt0r.kanji.presentation.common.clickable
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
+import ua.syt0r.kanji.presentation.common.kaiteyoTouchTarget
 import ua.syt0r.kanji.presentation.common.copyCentered
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.screen.main.screen.text_analysis.TextAnalysisContract
@@ -109,7 +109,10 @@ fun TextAnalysisInputUI(
                         modifier = Modifier
                             .size(Dimens.IconButton)
                             .clip(MaterialTheme.shapes.medium)
-                            .clickable(navigateToAccount)
+                            .kaiteyoClickable(
+                                onClick = navigateToAccount,
+                                contentDescription = "Open account settings",
+                            )
                             .wrapContentSize()
                             .size(Dimens.Icon)
                     )
@@ -166,10 +169,19 @@ fun TextAnalysisInputUI(
                 modifier = Modifier
                     .size(Dimens.IconButton)
                     .clip(MaterialTheme.shapes.medium)
-                    .clickable(canSubmit) {
-                        inputState as TextAnalysisInputState.Typing
-                        inputState.submit()
-                    }
+                    .then(
+                        if (canSubmit) {
+                            Modifier.kaiteyoClickable(
+                                onClick = {
+                                    inputState as TextAnalysisInputState.Typing
+                                    inputState.submit()
+                                },
+                                contentDescription = "Submit text for analysis",
+                            )
+                        } else {
+                            Modifier.kaiteyoTouchTarget()
+                        }
+                    )
             ) { isLoading ->
                 val modifier = Modifier.fillMaxSize().wrapContentSize()
                 when {

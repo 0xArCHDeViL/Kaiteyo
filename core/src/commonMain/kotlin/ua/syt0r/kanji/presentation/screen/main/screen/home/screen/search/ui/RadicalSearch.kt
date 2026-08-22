@@ -310,7 +310,15 @@ private fun CharactersLine(
         LazyRow(
             modifier = modifier.height(ItemHeight),
         ) {
-            items(itemsState.value) {
+            items(
+                items = itemsState.value,
+                key = { item ->
+                    when (item) {
+                        is RadicalSearchListItem.StrokeGroup -> "stroke-${item.count}"
+                        is RadicalSearchListItem.Character -> "character-${item.character}"
+                    }
+                },
+            ) {
                 when (it) {
                     is RadicalSearchListItem.StrokeGroup -> {
                         Text(
@@ -358,6 +366,12 @@ private fun CharactersGrid(
     ) {
         items(
             items = items.value,
+            key = { item ->
+                when (item) {
+                    is RadicalSearchListItem.StrokeGroup -> "stroke-${item.count}"
+                    is RadicalSearchListItem.Character -> "character-${item.character}"
+                }
+            },
             contentType = { it::class }
         ) {
             when (it) {

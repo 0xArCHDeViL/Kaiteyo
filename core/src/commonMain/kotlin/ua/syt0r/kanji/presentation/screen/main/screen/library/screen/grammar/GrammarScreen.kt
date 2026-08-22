@@ -144,7 +144,7 @@ fun GrammarChapterList(
         contentPadding = PaddingValues(Dimens.ContentPadding),
         verticalArrangement = Arrangement.spacedBy(Dimens.Space3)
     ) {
-        items(chapters) { chapter ->
+        items(chapters, key = { chapter -> chapter.id }) { chapter ->
             val interactionSource = remember { MutableInteractionSource() }
             val isPressed by interactionSource.collectIsPressedAsState()
             val isHovered by interactionSource.collectIsHoveredAsState()
@@ -223,7 +223,7 @@ fun GrammarPointList(chapter: GrammarChapter) {
         contentPadding = PaddingValues(Dimens.ContentPadding),
         verticalArrangement = Arrangement.spacedBy(Dimens.Space2)
     ) {
-        items(chapter.points) { point ->
+        items(chapter.points, key = { point -> point.number }) { point ->
             GrammarPointCard(point = point)
         }
     }

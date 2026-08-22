@@ -93,15 +93,14 @@ fun CardOperationsScreen(
                     modifier = Modifier.padding(bottom = 4.dp))
             }
 
-            items(CardOperation.entries) { op ->
+            items(CardOperation.entries, key = { operation -> operation.name }) { op ->
                 Card(
+                    onClick = { onOperation(op, selectedCards) },
                     modifier = Modifier.fillMaxWidth(),
                     colors = CardDefaults.cardColors(containerColor = surfaceColors.surface)
                 ) {
                     Row(
-                        modifier = Modifier.fillMaxWidth()
-                            .clickable { onOperation(op, selectedCards) }
-                            .padding(16.dp),
+                        modifier = Modifier.fillMaxWidth().padding(16.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Box(

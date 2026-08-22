@@ -66,8 +66,6 @@ object Dimens {
     val PopupMaxSize = 300.dp
 
     // --- Kaiteyo v1.2.0 Enhanced Layout ---
-    val SidebarWidth = 260.dp
-    val SidebarCompactWidth = 72.dp
     val SidebarRadius = 24.dp
     val SidebarFloatingRadius = 32.dp
     val ContentRadius = 24.dp

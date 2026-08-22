@@ -4,7 +4,6 @@ import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.Orientation
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -44,11 +43,14 @@ import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.semantics.paneTitle
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.filterIsInstance
 import ua.syt0r.kanji.core.srs.SrsItemStatus
 import ua.syt0r.kanji.presentation.common.AppDropdownMenu
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.presentation.common.ScreenLetterPracticeType
 import ua.syt0r.kanji.presentation.common.copyCentered
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
@@ -105,7 +107,9 @@ fun DeckDetailsBottomSheet(
     SheetVisibilityAutoToggleLaunchedEffect(sheetContentState, onDismissRequest)
 
     Column(
-        modifier = Modifier.animateContentSize(tween(100, easing = LinearEasing))
+        modifier = Modifier
+            .animateContentSize(tween(100, easing = LinearEasing))
+            .semantics { paneTitle = "Deck group details" }
     ) {
 
         BottomSheetDefaults.DragHandle(
@@ -189,7 +193,7 @@ private fun PracticeGroupDetails(
 
             item { Spacer(Modifier.width(20.dp)) }
 
-            items(group.items) {
+            items(group.items, key = { item -> item.character }) {
 
                 val srsStatus = it.summaryMap.getValue(practiceType).srsItemStatus
 
@@ -239,7 +243,10 @@ private fun LetterGroupSrsIndicator(state: SrsItemStatus) {
             modifier = Modifier
                 .padding(start = 4.dp)
                 .clip(CircleShape)
-                .clickable { hintDropdownShown = true }
+                .kaiteyoClickable(
+                    onClick = { hintDropdownShown = true },
+                    contentDescription = "Review state: ${state.name.lowercase()}",
+                )
                 .fillMaxHeight()
                 .padding(horizontal = 16.dp)
         ) {

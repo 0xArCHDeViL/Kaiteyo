@@ -151,7 +151,9 @@ fun DeckManager() {
 
         // Deck list
         LazyColumn(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            items(rootDecks) { deck -> DeckTreeItem(deck, accent, surfaceColors, 0) }
+            items(rootDecks, key = { deck -> deck.name }) { deck ->
+                DeckTreeItem(deck, accent, surfaceColors, 0)
+            }
         }
     }
 }
@@ -181,7 +183,7 @@ private fun DeckTreeItem(deck: KaiteyoDeck, accent: ua.syt0r.kanji.presentation.
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(deck.name, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
                     if (deck.isPinned) { Spacer(modifier = Modifier.width(4.dp)); Text("📌", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }
-                    if (deck.isFavorite) { Spacer(modifier = Modifier.width(4.dp)); Text("★", color = Color(0xFFFFB347), style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
+                    if (deck.isFavorite) { Spacer(modifier = Modifier.width(4.dp)); Text("★", color = MaterialTheme.colorScheme.secondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall) }
                     if (deck.isVirtual) { Spacer(modifier = Modifier.width(4.dp)); Text("⚡", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }
                     if (deck.isArchived) { Spacer(modifier = Modifier.width(4.dp)); Text("📦", style = androidx.compose.material3.MaterialTheme.typography.labelSmall) }
                 }

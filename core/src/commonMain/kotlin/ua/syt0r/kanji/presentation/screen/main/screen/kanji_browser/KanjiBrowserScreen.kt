@@ -1156,7 +1156,7 @@ private fun KanjiListRow(
                 Box(Modifier.size(8.dp).clip(CircleShape).background(flag.colorFromHex()))
             }
             if (card.isFavorite) {
-                Icon(Icons.Default.Favorite, null, tint = Color(0xFFFF6B9D), modifier = Modifier.size(14.dp))
+                Icon(Icons.Default.Favorite, null, tint = MaterialTheme.colorScheme.secondary, modifier = Modifier.size(14.dp))
             }
             if (dataCenter.isDifficult(card.id)) {
                 Text("⚠", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)

@@ -5,7 +5,6 @@ import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -50,6 +49,8 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import ua.syt0r.kanji.presentation.common.CollapsibleContainer
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
+import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.common.ExtraListSpacerState
 import ua.syt0r.kanji.presentation.common.rememberCollapsibleContainerState
 import ua.syt0r.kanji.presentation.common.resources.string.StringResolveScope
@@ -119,7 +120,7 @@ fun LetterDeckEditingUI(
         }
 
         LazyVerticalGrid(
-            columns = GridCells.Adaptive(50.dp),
+            columns = GridCells.Adaptive(Dimens.IconButton),
             verticalArrangement = Arrangement.spacedBy(8.dp),
             horizontalArrangement = Arrangement.spacedBy(8.dp),
             modifier = Modifier.fillMaxWidth()
@@ -127,7 +128,7 @@ fun LetterDeckEditingUI(
                 .nestedScroll(collapsibleContainerState.nestedScrollConnection)
         ) {
 
-            items(screenState.listState.value) {
+            items(screenState.listState.value, key = { item -> item.character }) {
                 ListItem(
                     item = it,
                     onClick = {
@@ -255,7 +256,10 @@ private fun LazyGridItemScope.ListItem(
         modifier = Modifier.animateItem()
             .clip(MaterialTheme.shapes.medium)
             .aspectRatio(1f)
-            .clickable(onClick = onClick)
+            .kaiteyoClickable(
+                onClick = onClick,
+                contentDescription = item.character,
+            )
     ) {
 
         Text(

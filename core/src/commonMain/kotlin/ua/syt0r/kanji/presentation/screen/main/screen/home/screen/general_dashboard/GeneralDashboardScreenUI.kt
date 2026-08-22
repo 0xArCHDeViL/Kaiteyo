@@ -29,7 +29,6 @@ import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.LinearProgressIndicator
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.MoreVert
@@ -45,6 +44,7 @@ import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Snackbar
@@ -591,13 +591,13 @@ fun StudyTargetItem(
                     horizontalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
                     LinearProgressIndicator(
-                        progress = studyProgress.totalProgress,
+                        progress = { studyProgress.totalProgress },
                         modifier = Modifier
                             .weight(1f)
                             .height(8.dp)
                             .clip(RoundedCornerShape(Dimens.RadiusXs)),
                         color = MaterialTheme.colorScheme.primary,
-                        backgroundColor = MaterialTheme.colorScheme.surfaceVariant,
+                        trackColor = MaterialTheme.colorScheme.surfaceVariant,
                         strokeCap = StrokeCap.Round
                     )
                     Text(

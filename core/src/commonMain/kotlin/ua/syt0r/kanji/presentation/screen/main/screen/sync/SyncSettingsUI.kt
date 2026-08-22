@@ -200,14 +200,16 @@ private fun AccountTab(
             color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
         Spacer(modifier = Modifier.height(16.dp))
 
-        Box(modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd))
-            .background(Color(0xFF24292E)).clickable { onShowDeviceCode(true) }.padding(16.dp),
-            contentAlignment = Alignment.Center) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text("⬛", style = androidx.compose.material3.MaterialTheme.typography.titleLarge)
-                Spacer(modifier = Modifier.width(10.dp))
-                Text("Sign in with GitHub", color = Color.White, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
-            }
+        Button(
+            onClick = { onShowDeviceCode(true) },
+            modifier = Modifier.fillMaxWidth(),
+            shape = MaterialTheme.shapes.medium,
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.surfaceContainerHighest,
+                contentColor = MaterialTheme.colorScheme.onSurface,
+            ),
+        ) {
+            Text("Sign in with GitHub", style = MaterialTheme.typography.labelLarge)
         }
 
         if (showDeviceCode) {

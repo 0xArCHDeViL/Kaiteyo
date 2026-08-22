@@ -701,7 +701,7 @@ private fun BrowserCardRow(
                             CardStatus.New -> ua.syt0r.kanji.presentation.common.theme.semanticInfo
                             CardStatus.Learning -> ua.syt0r.kanji.presentation.common.theme.semanticWarning
                             CardStatus.Young -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess
-                            CardStatus.Mature -> Color(0xFF4CAF50)
+                            CardStatus.Mature -> MaterialTheme.colorScheme.primary
                             CardStatus.Relearning -> ua.syt0r.kanji.presentation.common.theme.semanticError
                             CardStatus.Suspended -> surfaceColors.textMuted
                             CardStatus.Buried -> surfaceColors.textMuted

@@ -62,6 +62,7 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.paneTitle
 import androidx.compose.ui.semantics.role
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
@@ -359,7 +360,11 @@ private fun CatalogSheetContent(
 ) {
     val colors = LocalSurfaceColors.current
     Column(
-        modifier = Modifier.fillMaxWidth().heightIn(min = 220.dp, max = 680.dp).padding(horizontal = 16.dp),
+        modifier = Modifier
+            .fillMaxWidth()
+            .heightIn(min = 220.dp, max = 680.dp)
+            .padding(horizontal = 16.dp)
+            .semantics { paneTitle = "${mode.title} catalog" },
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -522,7 +527,7 @@ private fun MindMapCanvasSurface(
                     .semantics {
                         contentDescription = "Interactive mind map whiteboard. Drag to pan and pinch to zoom."
                     }
-                    .pointerInput(snapshot.rootKey) {
+                    .pointerInput(snapshot.rootKey, widthPx, heightPx) {
                         detectTransformGestures { centroid, panChange, zoomChange, _ ->
                             val previousScale = scale
                             val nextScale = (scale * zoomChange).coerceIn(MinCanvasScale, MaxCanvasScale)
@@ -590,7 +595,7 @@ private fun MindMapCanvasSurface(
                             )
                         }
                         .size(nodeSize)
-                        .semantics {
+                        .semantics(mergeDescendants = true) {
                             contentDescription = "${nodeLabel(node)}, ${node.kind.name.lowercase()} node"
                             role = Role.Button
                         },

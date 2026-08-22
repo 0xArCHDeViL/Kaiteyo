@@ -262,20 +262,21 @@ private fun InputSection(
     val borderAlpha by animateFloatAsState(targetValue = if (isInputFocused.value) 0.5f else 0f)
 
     val color = MaterialTheme.colorScheme.onSurface
+    val searchShape = MaterialTheme.shapes.extraLarge
 
     Box(
         modifier = modifier
             .padding(horizontal = 24.dp, vertical = 16.dp)
             .graphicsLayer {
                 shadowElevation = elevation.dp.toPx()
-                shape = RoundedCornerShape(28.dp)
+                shape = searchShape
                 clip = true
             }
             .background(MaterialTheme.colorScheme.surface)
             .border(
                 width = 1.dp,
                 color = MaterialTheme.colorScheme.primary.copy(alpha = borderAlpha),
-                shape = RoundedCornerShape(28.dp)
+                shape = searchShape
             )
             .padding(horizontal = 16.dp, vertical = 12.dp)
     ) {
@@ -286,7 +287,10 @@ private fun InputSection(
             ) {
                 IconButton(
                     onClick = onOpenRadicalSearch,
-                    modifier = Modifier.size(36.dp).background(MaterialTheme.colorScheme.primaryContainer, CircleShape)
+                                            modifier = Modifier
+                            .size(48.dp)
+                            .background(MaterialTheme.colorScheme.primaryContainer, CircleShape)
+
                 ) {
                     Icon(
                         imageVector = Icons.Rounded.GridView,
@@ -337,7 +341,7 @@ private fun InputSection(
                     IconButton(
                         onClick = { enteredText = TextFieldValue() },
                         modifier = Modifier
-                            .size(28.dp)
+                            .size(48.dp)
                             .graphicsLayer {
                                 alpha = clearAlpha
                                 scaleX = clearScale
@@ -476,7 +480,7 @@ private fun ListContent(
                         horizontalArrangement = Arrangement.spacedBy(12.dp),
                         contentPadding = PaddingValues(horizontal = 24.dp)
                     ) {
-                        items(screenState.characters) {
+                        items(screenState.characters, key = { character -> character }) {
                             HighlightedLetter(
                                 letter = it,
                                 onClick = onCharacterClick,

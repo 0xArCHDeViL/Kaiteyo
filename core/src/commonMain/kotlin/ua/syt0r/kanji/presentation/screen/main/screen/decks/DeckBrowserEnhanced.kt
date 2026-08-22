@@ -252,9 +252,9 @@ private fun DeckTreeNodeRow(
                         .clip(RoundedCornerShape(Dimens.RadiusSm))
                         .background(
                             when {
-                                deck.isArchived -> Color.Gray.copy(alpha = Dimens.Alpha.Light)
-                                deck.isFavorite -> Color(0xFFFFD700).copy(alpha = Dimens.Alpha.Light)
-                                else -> accent.primary.copy(alpha = Dimens.Alpha.Subtle)
+                                deck.isArchived -> MaterialTheme.colorScheme.surfaceVariant
+                                deck.isFavorite -> MaterialTheme.colorScheme.secondaryContainer
+                                else -> MaterialTheme.colorScheme.primaryContainer
                             }
                         ),
                     contentAlignment = Alignment.Center
@@ -267,9 +267,9 @@ private fun DeckTreeNodeRow(
                         },
                         null, Modifier.size(20.dp),
                         tint = when {
-                            deck.isArchived -> Color.Gray
-                            deck.isFavorite -> Color(0xFFFFD700)
-                            else -> accent.primary
+                            deck.isArchived -> MaterialTheme.colorScheme.onSurfaceVariant
+                            deck.isFavorite -> MaterialTheme.colorScheme.onSecondaryContainer
+                            else -> MaterialTheme.colorScheme.onPrimaryContainer
                         }
                     )
                 }
@@ -290,7 +290,8 @@ private fun DeckTreeNodeRow(
                             Spacer(Modifier.width(4.dp))
                             Text("FILTERED", style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Bold,
                                 color = accent.primary,
-                                modifier = Modifier.clip(RoundedCornerShape(2.dp))
+                                modifier = Modifier
+                                    .clip(MaterialTheme.shapes.extraSmall)
                                     .background(accent.primary.copy(alpha = Dimens.Alpha.Subtle))
                                     .padding(horizontal = 3.dp, vertical = 1.dp))
                         }
@@ -452,7 +453,7 @@ private fun MergeDecksDialog(
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant)
                 LazyColumn(Modifier.heightIn(max = 300.dp)) {
-                    items(targetDecks) { deck ->
+                    items(targetDecks, key = { deck -> deck.id }) { deck ->
                         Row(
                             modifier = Modifier.fillMaxWidth()
                                 .clip(RoundedCornerShape(Dimens.RadiusSm))

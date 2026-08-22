@@ -2,7 +2,6 @@ package ua.syt0r.kanji.presentation.screen.main.screen.connected_learning
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectTransformGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -22,7 +21,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.AutoGraph
 import androidx.compose.material.icons.outlined.PlayArrow
@@ -61,6 +59,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlin.math.roundToInt
 import ua.syt0r.kanji.core.connected_learning.ConnectedNodeKey
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.presentation.common.kaiteyoHeading
 import ua.syt0r.kanji.core.connected_learning.GraphEdgeKind
 import ua.syt0r.kanji.core.connected_learning.GraphNodeKind
@@ -198,7 +197,7 @@ private fun MasteryGraphCard(
 ) {
     Card(
         modifier = modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(24.dp),
+        shape = MaterialTheme.shapes.extraLarge,
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.surfaceContainerHigh,
         ),
@@ -312,10 +311,10 @@ private fun MasteryNodeGraph(
                             Modifier
                         }
                     )
-                    .clickable { onNodeSelected(node.key) }
-                    .semantics {
-                        contentDescription = "${node.label}, ${node.mastery.name.lowercase()}"
-                    },
+                    .kaiteyoClickable(
+                        onClick = { onNodeSelected(node.key) },
+                        contentDescription = "${node.label}, ${node.mastery.name.lowercase()}",
+                    ),
                 contentAlignment = Alignment.Center,
             ) {
                 Text(
@@ -349,7 +348,7 @@ private fun ConnectedNodeDetailCard(
     val node = state.graphNodes.firstOrNull { it.key == state.selectedNodeKey }
     Card(
         modifier = modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(24.dp),
+        shape = MaterialTheme.shapes.extraLarge,
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.surfaceContainerHigh,
         ),

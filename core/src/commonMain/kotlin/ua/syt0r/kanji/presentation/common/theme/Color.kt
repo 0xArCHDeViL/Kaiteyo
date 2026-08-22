@@ -35,7 +35,8 @@ val surfaceSepiaMedium = Color(0xFFE5DCC8)
 val surfaceSepiaLight = Color(0xFFF8F4EE)
 val textSepiaPrimary = Color(0xFF3D3028)
 val textSepiaSecondary = Color(0xFF7A6B5D)
-val textSepiaMuted = Color(0xFFA89888)
+// Sepia muted copy must remain readable on the warm light surfaces.
+val textSepiaMuted = Color(0xFF75604E)
 val borderSepia = Color(0xFFD4C8B8)
 
 // --- Shared Surface Colors ---
@@ -204,12 +205,14 @@ val AllAccentSchemes = listOf(
 
 val textPrimary = Color(0xFFF0F0F0)
 val textSecondary = Color(0xFFA0A0A0)
-val textMuted = Color(0xFF606060)
+// Muted text remains subdued while meeting AA for normal-size copy on OLED/dark surfaces.
+val textMuted = Color(0xFF8E8E8E)
 val textInverse = Color(0xFF050505)
 
 val textPrimaryLight = Color(0xFF1A1A1A)
 val textSecondaryLight = Color(0xFF606060)
-val textMutedLight = Color(0xFFA0A0A0)
+// The previous #A0A0A0 failed AA on the light surface; this value remains muted but readable.
+val textMutedLight = Color(0xFF6B6B6B)
 val textInverseLight = Color(0xFFF0F0F0)
 
 // ============================================

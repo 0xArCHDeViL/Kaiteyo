@@ -31,6 +31,17 @@ class AdaptiveOrientationPolicyTest {
     }
 
     @Test
+    fun expandedWidthMediumHeightUsesLandscapeThemeOrientation() {
+        assertEquals(
+            Orientation.Landscape,
+            resolveAppOrientation(
+                widthSizeClass = WindowWidthSizeClass.Expanded,
+                heightSizeClass = WindowHeightSizeClass.Medium,
+            )
+        )
+    }
+
+    @Test
     fun wideShortWindowUsesLandscapeThemeOrientation() {
         assertEquals(
             Orientation.Landscape,

@@ -32,10 +32,12 @@ internal fun resolveAppOrientation(
     widthSizeClass: WindowWidthSizeClass,
     heightSizeClass: WindowHeightSizeClass,
 ): Orientation {
-    val isWideLandscapeWindow =
+    // Expanded width with a non-expanded height is the common tablet/foldable
+    // landscape posture; an Expanded×Expanded window remains portrait-friendly.
+    val isLandscapeWindow =
         widthSizeClass != WindowWidthSizeClass.Compact &&
-            heightSizeClass == WindowHeightSizeClass.Compact
-    return if (isWideLandscapeWindow) Orientation.Landscape else Orientation.Portrait
+            heightSizeClass != WindowHeightSizeClass.Expanded
+    return if (isLandscapeWindow) Orientation.Landscape else Orientation.Portrait
 }
 
 @Composable

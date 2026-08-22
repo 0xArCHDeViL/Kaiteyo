@@ -1124,22 +1124,23 @@ private fun AnkiCardRow(
 
 @Composable
 fun StatusBadge(status: CardStatus) {
+    val colors = MaterialTheme.colorScheme
     val (bgColor, textColor) = when (status) {
-        CardStatus.New -> ua.syt0r.kanji.presentation.common.theme.semanticInfo to Color(0xFF1A3A5C)
-        CardStatus.Learning -> ua.syt0r.kanji.presentation.common.theme.semanticError to Color(0xFF5C1A1A)
-        CardStatus.Young -> ua.syt0r.kanji.presentation.common.theme.semanticWarning to Color(0xFF5C3A1A)
-        CardStatus.Mature -> ua.syt0r.kanji.presentation.common.theme.semanticSuccess to Color(0xFF2A5C1A)
-        CardStatus.Relearning -> ua.syt0r.kanji.presentation.common.theme.semanticError to Color(0xFF5C1A1A)
-        CardStatus.Suspended -> androidx.compose.ui.graphics.Color.Gray to Color(0xFF3A3A3A)
-        CardStatus.Buried -> Color(0xFF8B8B8B) to Color(0xFF3A3A3A)
-        CardStatus.Archived -> Color(0xFF6B6B6B) to Color(0xFF2A2A2A)
+        CardStatus.New -> colors.secondaryContainer to colors.onSecondaryContainer
+        CardStatus.Learning,
+        CardStatus.Relearning -> colors.errorContainer to colors.onErrorContainer
+        CardStatus.Young -> colors.tertiaryContainer to colors.onTertiaryContainer
+        CardStatus.Mature -> colors.primaryContainer to colors.onPrimaryContainer
+        CardStatus.Suspended,
+        CardStatus.Buried,
+        CardStatus.Archived -> colors.surfaceVariant to colors.onSurfaceVariant
     }
     Box(
         modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusXs))
             .background(bgColor.copy(alpha = Dimens.Alpha.Light))
             .padding(horizontal = 6.dp, vertical = 2.dp)
     ) {
-        Text(status.displayName, color = textColor, fontSize = 9.sp, fontWeight = FontWeight.Medium)
+        Text(status.displayName, color = textColor, style = MaterialTheme.typography.labelSmall)
     }
 }
 
