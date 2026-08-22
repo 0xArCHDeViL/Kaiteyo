@@ -31,6 +31,8 @@ import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.School
 import androidx.compose.material.icons.filled.Straighten
+import androidx.compose.material.icons.filled.VolumeOff
+import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
@@ -45,6 +47,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import kotlinx.coroutines.launch
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -60,12 +63,16 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import org.koin.compose.koinInject
 import ua.syt0r.kanji.core.app_data.data.CharacterRadical
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.core.app_data.data.KanjiDetailData
 import ua.syt0r.kanji.core.app_data.data.KanjiReadingData
 import ua.syt0r.kanji.core.app_data.data.ReadingType
 import ua.syt0r.kanji.core.connected_learning.GraphNodeKind
+import ua.syt0r.kanji.core.tts.AppTtsManager
+import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
+import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.core.connected_learning.LearningGraphNode
 import ua.syt0r.kanji.presentation.common.ScreenLetterPracticeType
 import ua.syt0r.kanji.presentation.common.ui.kanji.Kanji
@@ -95,19 +102,28 @@ fun KanjiDetailScreen(
     var error by remember(kanji) { mutableStateOf(false) }
     var retryToken by remember(kanji) { mutableStateOf(0) }
     val scope = rememberCoroutineScope()
+    val appTtsManager = koinInject<AppTtsManager>()
+    var speakingOnReading by remember(kanji) { mutableStateOf<String?>(null) }
+
+    DisposableEffect(kanji, appTtsManager) {
+        onDispose { appTtsManager.stop() }
+    }
 
     LaunchedEffect(kanji, retryToken) {
         loading = true
         error = false
-        runCatching {
+        try {
             detail = dataCenter.loadKanjiDetail(kanji)
-        }.onFailure {
+            graph = dataCenter.loadKanjiGraph(kanji)
+        } catch (cancellation: kotlinx.coroutines.CancellationException) {
+            throw cancellation
+        } catch (_: Throwable) {
             error = true
+            detail = null
+            graph = emptyList()
+        } finally {
+            loading = false
         }
-        if (!error && detail != null) {
-            graph = runCatching { dataCenter.loadKanjiGraph(kanji) }.getOrDefault(emptyList())
-        }
-        loading = false
     }
 
     Column(Modifier.fillMaxSize().background(surfaceColors.surface)) {
@@ -147,6 +163,25 @@ fun KanjiDetailScreen(
                 graph = graph,
                 dataCenter = dataCenter,
                 navigationState = navigationState,
+                speakingOnReading = speakingOnReading,
+                onSpeakOnReading = { reading ->
+                    if (speakingOnReading == reading) {
+                        appTtsManager.stop()
+                        speakingOnReading = null
+                    } else {
+                        speakingOnReading = reading
+                        appTtsManager.stop()
+                        scope.launch {
+                            appTtsManager.speak(
+                                JapaneseSpeechRequest(
+                                    displayText = detail!!.kanji,
+                                    pronunciation = reading,
+                                    context = JapaneseSpeechContext.IsolatedKanji,
+                                )
+                            )
+                        }
+                    }
+                },
             )
         }
     }
@@ -158,6 +193,8 @@ private fun KanjiDetailContent(
     graph: List<LearningGraphNode>,
     dataCenter: KaiteyoDataCenter,
     navigationState: MainNavigationState,
+    speakingOnReading: String?,
+    onSpeakOnReading: (String) -> Unit,
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
@@ -185,6 +222,9 @@ private fun KanjiDetailContent(
                 title = "On’yomi",
                 subtitle = "音読み · Primary display first; expand for every recorded reading",
                 readings = onReadings,
+                audioEnabled = true,
+                activeReading = speakingOnReading,
+                onAudioClick = onSpeakOnReading,
             )
         }
         item {
@@ -306,7 +346,12 @@ private fun HeroSection(
                 OutlinedButton(onClick = { navigationState.navigate(MainDestination.ConnectedLearning("kanji:${detail.kanji}")) }) {
                     Icon(Icons.Default.AccountTree, null)
                     Spacer(Modifier.width(6.dp))
-                    Text("Open map")
+                    Text("Learning map")
+                }
+                OutlinedButton(onClick = { navigationState.navigate(MainDestination.KanjiComponentMindMap) }) {
+                    Icon(Icons.Default.AccountTree, null)
+                    Spacer(Modifier.width(6.dp))
+                    Text("Components")
                 }
             }
         }
@@ -327,7 +372,14 @@ private fun MeaningSection(meanings: List<String>) {
 }
 
 @Composable
-private fun ReadingSection(title: String, subtitle: String, readings: List<KanjiReadingData>) {
+private fun ReadingSection(
+    title: String,
+    subtitle: String,
+    readings: List<KanjiReadingData>,
+    audioEnabled: Boolean = false,
+    activeReading: String? = null,
+    onAudioClick: ((String) -> Unit)? = null,
+) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
     var expanded by remember(title, readings) { mutableStateOf(false) }
@@ -344,7 +396,25 @@ private fun ReadingSection(title: String, subtitle: String, readings: List<Kanji
                     ) {
                         Box(Modifier.size(8.dp).clip(CircleShape).background(accent.primary))
                         Spacer(Modifier.width(12.dp))
-                        Text(reading.reading, color = surfaceColors.textPrimary, style = MaterialTheme.typography.titleMedium, fontWeight = if (index == 0) FontWeight.SemiBold else FontWeight.Normal)
+                        Text(
+                            reading.reading,
+                            modifier = Modifier.weight(1f),
+                            color = surfaceColors.textPrimary,
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = if (index == 0) FontWeight.SemiBold else FontWeight.Normal,
+                        )
+                        if (audioEnabled && onAudioClick != null) {
+                            IconButton(
+                                onClick = { onAudioClick(reading.reading) },
+                                modifier = Modifier.size(48.dp),
+                            ) {
+                                Icon(
+                                    imageVector = if (activeReading == reading.reading) Icons.Default.VolumeOff else Icons.Default.VolumeUp,
+                                    contentDescription = if (activeReading == reading.reading) "Stop ${reading.reading}" else "Play On’yomi ${reading.reading}",
+                                    tint = if (activeReading == reading.reading) accent.primary else surfaceColors.textMuted,
+                                )
+                            }
+                        }
                     }
                 }
                 if (readings.size > 3) {

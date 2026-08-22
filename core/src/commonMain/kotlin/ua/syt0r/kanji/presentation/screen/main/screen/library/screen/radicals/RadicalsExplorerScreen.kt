@@ -29,6 +29,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AccountTree
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.FilterList
 import androidx.compose.material.icons.filled.Search
@@ -163,6 +164,14 @@ fun RadicalsExplorerScreen(
                             else "${selectedRadicals.size} selected · ${matchingKanji.size} kanji found",
                             style = MaterialTheme.typography.bodySmall,
                             color = surfaceColors.textMuted
+                        )
+                    }
+
+                    IconButton(onClick = { navigationState.navigate(MainDestination.RadicalMindMap) }) {
+                        Icon(
+                            imageVector = Icons.Filled.AccountTree,
+                            contentDescription = "Open radical mind map",
+                            tint = accent.primary,
                         )
                     }
 

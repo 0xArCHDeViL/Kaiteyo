@@ -25,6 +25,22 @@ interface LearningGraphRepository {
         edgeKinds: Set<GraphEdgeKind> = GraphEdgeKind.entries.toSet(),
         limit: Int = 2_048,
     ): List<LearningGraphConnection>
+
+    suspend fun getNodesByKind(
+        nodeKind: GraphNodeKind,
+        query: String = "",
+        offset: Int = 0,
+        limit: Int = 100,
+    ): List<LearningGraphNode> = emptyList()
+
+    suspend fun countNodesByKind(
+        nodeKind: GraphNodeKind,
+        query: String = "",
+    ): Int = 0
+
+    suspend fun getRelatedKanjiCounts(
+        nodeIds: Collection<Long>,
+    ): Map<Long, Int> = emptyMap()
 }
 
 data class LearningGraphNode(
@@ -175,6 +191,64 @@ class SqlDelightLearningGraphRepository(
                 weight = row.weight,
                 provenance = parseProvenance(row.provenance),
             )
+        }
+    }
+
+    override suspend fun getNodesByKind(
+        nodeKind: GraphNodeKind,
+        query: String,
+        offset: Int,
+        limit: Int,
+    ): List<LearningGraphNode> {
+        require(offset >= 0) { "Learning graph offset must not be negative" }
+        require(limit in 1..500) { "Learning graph catalog limit must be between 1 and 500" }
+        val normalizedQuery = query.trim()
+        return lettersQuery {
+            getLearningNodesByKind(
+                nodeKind = nodeKind.name,
+                query = normalizedQuery,
+                offset = offset.toLong(),
+                limit = limit.toLong(),
+            ).executeAsList()
+        }.map { row ->
+            LearningGraphNode(
+                nodeId = row.node_id,
+                nodeKey = ConnectedNodeKey(row.node_key),
+                kind = parseNodeKind(row.node_kind),
+                kanji = row.kanji,
+                reading = row.reading,
+                entryId = row.entry_id,
+                elementId = row.element_id,
+                senseId = row.sense_id,
+                sentenceId = row.sentence_id,
+                level = row.level,
+                priority = row.priority,
+                depth = row.depth,
+            )
+        }
+    }
+
+    override suspend fun countNodesByKind(
+        nodeKind: GraphNodeKind,
+        query: String,
+    ): Int {
+        return lettersQuery {
+            countLearningNodesByKind(
+                nodeKind = nodeKind.name,
+                query = query.trim(),
+            ).executeAsOne().toInt()
+        }
+    }
+
+    override suspend fun getRelatedKanjiCounts(
+        nodeIds: Collection<Long>,
+    ): Map<Long, Int> {
+        if (nodeIds.isEmpty()) return emptyMap()
+        require(nodeIds.all { it > 0 }) { "Learning graph node IDs must be positive" }
+        return lettersQuery {
+            getRelatedKanjiCountsForNodes(nodeIds.distinct().sorted()).executeAsList().associate {
+                it.node_id to it.kanji_count.toInt()
+            }
         }
     }
 

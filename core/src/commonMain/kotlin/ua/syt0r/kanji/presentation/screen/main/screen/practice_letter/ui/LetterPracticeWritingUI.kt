@@ -69,6 +69,7 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.CharacterW
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswerButtonsContainer
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswerButtonsRow
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeInsightsAction
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.LetterPracticeExampleWord
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.LetterPracticeLayoutConfiguration
@@ -80,7 +81,8 @@ fun LetterPracticeWritingUI(
     reviewState: LetterPracticeReviewState.Writing,
     onNextClick: (PracticeAnswer) -> Unit,
     speakKana: (KanaReading) -> Unit,
-    onWordClick: (JapaneseWord) -> Unit
+    onWordClick: (JapaneseWord) -> Unit,
+    onKanjiDetailClick: (String) -> Unit,
 ) {
 
     val reviewState = rememberUpdatedState(reviewState)
@@ -123,12 +125,24 @@ fun LetterPracticeWritingUI(
     }
 
     val answersSection: @Composable (Modifier) -> Unit = { modifier ->
-        AnswerButtons(
-            letterWritingButtonsState = reviewState.toAnswerButtonsState(),
-            studyCompleted = { reviewState.value.isStudyMode.value = false },
-            answerSelected = onNextClick,
-            modifier = modifier
-        )
+        Column(
+            modifier = modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            val character = reviewState.value.itemData.character
+            val isSingleKanji = character.length == 1 && character[0] in '\u3400'..'\u4DBF' ||
+                character.length == 1 && character[0] in '\u4E00'..'\u9FFF' ||
+                character.length == 1 && character[0] in '\uF900'..'\uFAFF'
+            if (isSingleKanji) {
+                PracticeInsightsAction(onClick = { onKanjiDetailClick(character) })
+            }
+            AnswerButtons(
+                letterWritingButtonsState = reviewState.toAnswerButtonsState(),
+                studyCompleted = { reviewState.value.isStudyMode.value = false },
+                answerSelected = onNextClick,
+                modifier = Modifier.fillMaxWidth(),
+            )
+        }
     }
 
     Material3BottomSheetScaffold(

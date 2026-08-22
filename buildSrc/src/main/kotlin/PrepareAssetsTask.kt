@@ -30,17 +30,18 @@ private fun Project.registerAppAssetTask(
     val assetsDir = File(composeResourcesDir, "files")
 
     val sourceSetTitle = sourceSet.title.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
-    val prepareTask = tasks.create(
+    val prepareTask = tasks.register(
         "prepareKaiteyoAssetsFor$sourceSetTitle",
         PrepareAssetsTask::class.java
-    )
-    prepareTask.sourceSet = sourceSet
-    prepareTask.assetsPath = assetsDir.path
-    prepareTask.appDataSource = appDataSource
-    prepareTask.appDataVersion = appDataVersion
-    prepareTask.appDataReleaseTag = appDataReleaseTag
+    ) {
+        this.sourceSet = sourceSet
+        this.assetsPath = assetsDir.path
+        this.appDataSource = appDataSource
+        this.appDataVersion = appDataVersion
+        this.appDataReleaseTag = appDataReleaseTag
+    }
 
-    prepareTask.dependsOn(cleanupTask)
+    prepareTask.configure { dependsOn(cleanupTask) }
 
     val dependentTasks = setOf(
         "copyNonXmlValueResourcesFor$sourceSetTitle",
@@ -50,7 +51,6 @@ private fun Project.registerAppAssetTask(
     dependentTasks
         .map { tasks.findByName(it) ?: throw IllegalStateException("Task $it not found") }
         .forEach {
-            println("Setting up dependency for ${it.name}")
             it.dependsOn(prepareTask)
             it.mustRunAfter(prepareTask)
         }

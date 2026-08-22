@@ -28,11 +28,13 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AccountTree
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.CollectionsBookmark
 import androidx.compose.material.icons.filled.Extension
 import androidx.compose.material.icons.filled.Folder
+import androidx.compose.material.icons.filled.Hub
 import androidx.compose.material.icons.filled.LibraryBooks
 import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.Spellcheck
@@ -334,6 +336,22 @@ private fun LibraryHub(
                     subtitle = "Browse characters by radical components",
                     count = radicalCount,
                     onClick = onOpenRadicalSearch,
+                    accent = accent,
+                    surfaceColors = surfaceColors
+                )
+                SectionCard(
+                    icon = Icons.Default.AccountTree,
+                    title = "Radical Mind Map",
+                    subtitle = "Explore every radical and its connected Kanji",
+                    onClick = { navigationState.navigate(MainDestination.RadicalMindMap) },
+                    accent = accent,
+                    surfaceColors = surfaceColors
+                )
+                SectionCard(
+                    icon = Icons.Default.Hub,
+                    title = "Kanji Component Map",
+                    subtitle = "Explore component nodes across the Kanji graph",
+                    onClick = { navigationState.navigate(MainDestination.KanjiComponentMindMap) },
                     accent = accent,
                     surfaceColors = surfaceColors
                 )

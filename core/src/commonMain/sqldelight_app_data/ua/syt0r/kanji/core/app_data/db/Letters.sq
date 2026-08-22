@@ -97,7 +97,13 @@ getKanjiData:
 SELECT * FROM kanji_data WHERE kanji = ?;
 
 getRadicals:
-SELECT * FROM radical;
+SELECT * FROM radical ORDER BY strokesCount, radical;
+
+getRadicalUsageCounts:
+SELECT radical, COUNT(DISTINCT kanji) AS kanji_count
+FROM kanji_radical
+GROUP BY radical
+ORDER BY radical;
 
 getCharsWithRadicals:
 SELECT kanji
@@ -235,6 +241,56 @@ CREATE TABLE learning_edge(
 
 CREATE INDEX idx_learning_node_kind_level
 ON learning_node(node_kind, level, priority DESC, node_id);
+
+getLearningNodesByKind:
+SELECT node_id,
+       node_key,
+       node_kind,
+       kanji,
+       reading,
+       entry_id,
+       element_id,
+       sense_id,
+       sentence_id,
+       level,
+       priority,
+       0 AS depth
+FROM learning_node
+WHERE node_kind = :nodeKind
+  AND (
+      :query = ''
+      OR instr(COALESCE(kanji, ''), :query) > 0
+      OR instr(COALESCE(reading, ''), :query) > 0
+  )
+ORDER BY COALESCE(level, 2147483647), priority DESC, node_id
+LIMIT :limit OFFSET :offset;
+
+countLearningNodesByKind:
+SELECT COUNT(*) AS node_count
+FROM learning_node
+WHERE node_kind = :nodeKind
+  AND (
+      :query = ''
+      OR instr(COALESCE(kanji, ''), :query) > 0
+      OR instr(COALESCE(reading, ''), :query) > 0
+  );
+
+getRelatedKanjiCountsForNodes:
+WITH related AS (
+    SELECT from_node_id AS node_id, to_node_id AS related_node_id
+    FROM learning_edge
+    UNION ALL
+    SELECT to_node_id AS node_id, from_node_id AS related_node_id
+    FROM learning_edge
+)
+SELECT related.node_id,
+       COUNT(DISTINCT related.related_node_id) AS kanji_count
+FROM related
+JOIN learning_node AS related_node
+  ON related_node.node_id = related.related_node_id
+WHERE related.node_id IN :nodeIds
+  AND related_node.node_kind = 'KANJI'
+GROUP BY related.node_id;
 
 CREATE INDEX idx_learning_edge_from_kind_weight
 ON learning_edge(from_node_id, edge_kind, weight DESC, to_node_id);

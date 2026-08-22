@@ -58,6 +58,7 @@ interface AppDataRepository {
     suspend fun getKanjiStrokeCounts(): Map<String, Int>
 
     suspend fun getRadicals(): List<RadicalData>
+    suspend fun getRadicalUsageCounts(): Map<String, Int>
     suspend fun getCharactersWithRadicals(radicals: List<String>): List<String>
     suspend fun getAllRadicalsInCharactersWithSelectedRadicals(radicals: Set<String>): List<String>
 

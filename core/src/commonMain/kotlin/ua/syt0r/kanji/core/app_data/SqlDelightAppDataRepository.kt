@@ -138,6 +138,12 @@ class SqlDelightAppDataRepository(
         getRadicals().executeAsList().map { RadicalData(it.radical, it.strokesCount.toInt()) }
     }
 
+    override suspend fun getRadicalUsageCounts(): Map<String, Int> = lettersQuery {
+        getRadicalUsageCounts().executeAsList().associate { row ->
+            row.radical to row.kanji_count.toInt()
+        }
+    }
+
     override suspend fun getKanjiCatalog(): List<KanjiCatalogEntry> = lettersQuery {
         getKanjiCatalog(DELIMITER).executeAsList().map { row ->
             KanjiCatalogEntry(

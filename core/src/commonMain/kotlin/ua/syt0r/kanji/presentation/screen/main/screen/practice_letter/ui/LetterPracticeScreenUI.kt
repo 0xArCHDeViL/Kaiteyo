@@ -126,15 +126,8 @@ fun LetterPracticeScreenUI(
     ScreenLayout(
         state = state,
         toolbar = {
-            val currentCharacter = (state.value as? ScreenState.Review)
-                ?.reviewState
-                ?.itemData
-                ?.character
             PracticeToolbar(
                 state = state.toToolbarState(),
-                onDetailClick = currentCharacter?.let { character ->
-                    { onKanjiDetailClick(character) }
-                },
                 onUpButtonClick = {
                     if (shouldShowLeaveConfirmationOnBackClick.value) {
                         showEarlyFinishDialog = true
@@ -155,7 +148,8 @@ fun LetterPracticeScreenUI(
                 reviewState = it.reviewState,
                 onNextClick = onNextClick,
                 speakKana = speakKana,
-                onWordClick = onWordClick
+                onWordClick = onWordClick,
+                onKanjiDetailClick = onKanjiDetailClick,
             )
         },
         summary = {
@@ -335,7 +329,8 @@ private fun ReviewState(
     reviewState: LetterPracticeReviewState,
     onNextClick: (PracticeAnswer) -> Unit,
     speakKana: (KanaReading) -> Unit,
-    onWordClick: (JapaneseWord) -> Unit
+    onWordClick: (JapaneseWord) -> Unit,
+    onKanjiDetailClick: (String) -> Unit,
 ) {
 
     when (reviewState) {
@@ -344,7 +339,8 @@ private fun ReviewState(
             reviewState = reviewState,
             onNextClick = onNextClick,
             speakKana = speakKana,
-            onWordClick = onWordClick
+            onWordClick = onWordClick,
+            onKanjiDetailClick = onKanjiDetailClick,
         )
 
         is LetterPracticeReviewState.Reading -> LetterPracticeReadingUI(

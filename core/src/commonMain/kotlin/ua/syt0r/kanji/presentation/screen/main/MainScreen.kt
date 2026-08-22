@@ -60,6 +60,22 @@ fun MainScreen(
                 )
                 add(
                     PaletteAction(
+                        title = "Radical Mind Map",
+                        subtitle = "Explore all radicals and connected Kanji",
+                        keywords = "radical component map graph explorer",
+                        category = "Navigate"
+                    ) { navigationState.navigate(MainDestination.RadicalMindMap) }
+                )
+                add(
+                    PaletteAction(
+                        title = "Kanji Component Map",
+                        subtitle = "Explore component nodes across the Kanji graph",
+                        keywords = "kanji component map graph explorer",
+                        category = "Navigate"
+                    ) { navigationState.navigate(MainDestination.KanjiComponentMindMap) }
+                )
+                add(
+                    PaletteAction(
                         title = "Collections",
                         subtitle = "Smart collections, tags and flags",
                         keywords = "collections tags flags favorites",

@@ -129,7 +129,6 @@ sealed interface PracticeToolbarState {
 fun PracticeToolbar(
     state: State<PracticeToolbarState>,
     onUpButtonClick: () -> Unit,
-    onDetailClick: (() -> Unit)? = null,
 ) {
     TopAppBar(
         navigationIcon = {
@@ -154,11 +153,6 @@ fun PracticeToolbar(
             }
         },
         actions = {
-            if (onDetailClick != null && state.value is PracticeToolbarState.Review) {
-                IconButton(onClick = onDetailClick) {
-                    Icon(Icons.Default.Insights, contentDescription = "Open Kanji details")
-                }
-            }
             AnimatedContent(
                 targetState = state.value,
                 transitionSpec = snapToBiggerContainerCrossfadeTransitionSpec(),
@@ -179,6 +173,38 @@ fun PracticeToolbar(
             }
         }
     )
+}
+
+@Composable
+fun PracticeInsightsAction(
+    onClick: () -> Unit,
+) {
+    val colors = LocalSurfaceColors.current
+    val accent = LocalKaiteyoAccent.current
+    Surface(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(56.dp)
+            .clip(RoundedCornerShape(Dimens.RadiusLg))
+            .clickable(onClick = onClick),
+        color = colors.surfaceInteractive,
+        tonalElevation = 2.dp,
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Icon(Icons.Default.Insights, contentDescription = null, tint = accent.primary)
+            Spacer(Modifier.width(12.dp))
+            Column(Modifier.weight(1f)) {
+                Text("Kanji details", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.SemiBold)
+                Text("Open insights", style = MaterialTheme.typography.labelSmall, color = colors.textMuted)
+            }
+            Icon(Icons.Default.KeyboardArrowUp, contentDescription = "Open Kanji details", tint = accent.primary)
+        }
+    }
 }
 
 @Composable

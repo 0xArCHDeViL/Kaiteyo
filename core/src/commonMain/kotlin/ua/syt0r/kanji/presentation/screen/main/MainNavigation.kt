@@ -637,6 +637,40 @@ interface MainDestination {
     // ==================== KAITEYO REDESIGN ====================
 
     @Serializable
+    object RadicalMindMap : MainDestination {
+
+        override val analyticsName: String = "radical_mind_map"
+
+        @Composable
+        override fun Content(state: MainNavigationState) {
+            val dataCenter = koinInject<ua.syt0r.kanji.presentation.screen.main.features.KaiteyoDataCenter>()
+            androidx.compose.runtime.LaunchedEffect(Unit) { dataCenter.ensureLoaded() }
+            ua.syt0r.kanji.presentation.screen.main.screen.mind_map.MindMapExplorerScreen(
+                mode = ua.syt0r.kanji.presentation.screen.main.features.MindMapExplorerMode.RADICALS,
+                navigationState = state,
+                dataCenter = dataCenter,
+            )
+        }
+    }
+
+    @Serializable
+    object KanjiComponentMindMap : MainDestination {
+
+        override val analyticsName: String = "kanji_component_mind_map"
+
+        @Composable
+        override fun Content(state: MainNavigationState) {
+            val dataCenter = koinInject<ua.syt0r.kanji.presentation.screen.main.features.KaiteyoDataCenter>()
+            androidx.compose.runtime.LaunchedEffect(Unit) { dataCenter.ensureLoaded() }
+            ua.syt0r.kanji.presentation.screen.main.screen.mind_map.MindMapExplorerScreen(
+                mode = ua.syt0r.kanji.presentation.screen.main.features.MindMapExplorerMode.COMPONENTS,
+                navigationState = state,
+                dataCenter = dataCenter,
+            )
+        }
+    }
+
+    @Serializable
     data class KanjiDetail(
         val kanji: String,
     ) : MainDestination {
@@ -776,6 +810,8 @@ val defaultMainDestinations: List<MainDestinationConfiguration<*>> = listOf(
     MainDestination.SearchEngine.configuration(),
     MainDestination.BulkActions.configuration(),
     MainDestination.UndoHistory.configuration(),
+    MainDestination.RadicalMindMap.configuration(),
+    MainDestination.KanjiComponentMindMap.configuration(),
     MainDestination.KanjiDetail::class.configuration(),
     MainDestination.KanjiBrowser::class.configuration(),
     MainDestination.Collections.configuration(),

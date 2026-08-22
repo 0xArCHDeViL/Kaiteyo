@@ -17,6 +17,7 @@ import ua.syt0r.kanji.core.app_data.data.KanjiDetailData
 import ua.syt0r.kanji.core.connected_learning.ConnectedEntityKey
 import ua.syt0r.kanji.core.connected_learning.ConnectedNodeKey
 import ua.syt0r.kanji.core.connected_learning.GraphEdgeKind
+import ua.syt0r.kanji.core.connected_learning.GraphNodeKind
 import ua.syt0r.kanji.core.connected_learning.LearningGraphNode
 import ua.syt0r.kanji.core.connected_learning.LearningGraphRepository
 import ua.syt0r.kanji.core.app_data.data.KanjiCatalogEntry
@@ -189,14 +190,18 @@ class KaiteyoDataCenter(
     }
 
     private suspend fun loadRecentReviews(): List<KaiteyoActivity> {
-        return runCatching {
+        return try {
             val now = Clock.System.now()
             val start = now - 30.days
             reviewHistoryRepository.getReviews(start, now)
                 .sortedByDescending { it.timestamp }
                 .take(60)
                 .map { it.toActivity() }
-        }.getOrDefault(emptyList())
+        } catch (cancellation: kotlinx.coroutines.CancellationException) {
+            throw cancellation
+        } catch (_: Throwable) {
+            emptyList()
+        }
     }
 
     private fun buildCatalog(catalog: List<KanjiCatalogEntry>) {
@@ -315,6 +320,86 @@ class KaiteyoDataCenter(
     fun cardById(cardId: String): KaiteyoCard? = cards.firstOrNull { it.id == cardId }
 
     suspend fun loadRadicals(): List<RadicalData> = appDataRepository.getRadicals()
+
+    internal suspend fun loadMindMapCatalogPage(
+        mode: MindMapExplorerMode,
+        query: String = "",
+        offset: Int = 0,
+        limit: Int = 80,
+    ): MindMapCatalogPage {
+        require(offset >= 0) { "Mind map catalog offset must not be negative" }
+        require(limit in 1..200) { "Mind map catalog limit must be between 1 and 200" }
+        return when (mode) {
+            MindMapExplorerMode.RADICALS -> {
+                val normalizedQuery = query.trim()
+                val usages = appDataRepository.getRadicalUsageCounts()
+                val all = appDataRepository.getRadicals()
+                    .asSequence()
+                    .filter { normalizedQuery.isEmpty() || it.radical.contains(normalizedQuery) }
+                    .map { radical ->
+                        MindMapCatalogItem(
+                            key = radical.radical,
+                            label = radical.radical,
+                            mode = mode,
+                            relatedKanjiCount = usages[radical.radical] ?: 0,
+                            strokeCount = radical.strokesCount,
+                        )
+                    }
+                    .sortedWith(compareByDescending<MindMapCatalogItem> { it.relatedKanjiCount }.thenBy { it.label })
+                    .toList()
+                MindMapCatalogPage(
+                    items = all.drop(offset).take(limit),
+                    totalCount = all.size,
+                    offset = offset,
+                    limit = limit,
+                )
+            }
+
+            MindMapExplorerMode.COMPONENTS -> {
+                val total = learningGraphRepository.countNodesByKind(
+                    nodeKind = GraphNodeKind.COMPONENT,
+                    query = query,
+                )
+                val nodes = learningGraphRepository.getNodesByKind(
+                    nodeKind = GraphNodeKind.COMPONENT,
+                    query = query,
+                    offset = offset,
+                    limit = limit,
+                )
+                val relatedKanjiCounts = learningGraphRepository.getRelatedKanjiCounts(nodes.map { it.nodeId })
+                MindMapCatalogPage(
+                    items = nodes.map { node ->
+                        MindMapCatalogItem(
+                            key = node.nodeKey.value,
+                            label = node.kanji ?: node.reading ?: node.nodeKey.value.substringAfter(':'),
+                            mode = mode,
+                            relatedKanjiCount = relatedKanjiCounts[node.nodeId] ?: 0,
+                            nodeKind = node.kind,
+                        )
+                    },
+                    totalCount = total,
+                    offset = offset,
+                    limit = limit,
+                )
+            }
+        }
+    }
+
+    internal suspend fun loadMindMapNeighborhood(
+        mode: MindMapExplorerMode,
+        key: String,
+        limit: Int = 256,
+    ): List<LearningGraphNode> = learningGraphRepository.getNeighborhood(
+        rootNodeKey = ConnectedNodeKey.from(ConnectedEntityKey.Component(key.removePrefix("component:"))),
+        maxDepth = 2,
+        edgeKinds = setOf(
+            GraphEdgeKind.COMPOSED_OF,
+            GraphEdgeKind.RELATED_BY_COMPONENT,
+            GraphEdgeKind.HAS_READING,
+            GraphEdgeKind.HAS_VOCABULARY,
+        ),
+        limit = limit,
+    )
 
     suspend fun loadKanjiDetail(kanji: String): KanjiDetailData? =
         appDataRepository.getKanjiDetail(kanji)
