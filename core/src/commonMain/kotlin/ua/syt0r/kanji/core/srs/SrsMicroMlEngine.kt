@@ -1,14 +1,17 @@
 package ua.syt0r.kanji.core.srs
 
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.async
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.datetime.Instant
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import ua.syt0r.kanji.core.logger.Logger
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryItem
 import ua.syt0r.kanji.core.suspended_property.SuspendedProperty
 import kotlin.math.exp
@@ -31,8 +34,9 @@ class SrsMicroMlEngine(
 ) {
 
     private val json = Json { ignoreUnknownKeys = true }
+    private val stateMutex = Mutex()
     private var profiles: Map<Long, MicroMlProfile> = emptyMap()
-    private val pendingFeatures = mutableMapOf<String, MicroMlFeatures>()
+    private val pendingFeatures = mutableMapOf<String, MutableList<MicroMlFeatures>>()
     private val ready: Deferred<Unit> = scope.async { load() }
 
     suspend fun schedule(
@@ -43,24 +47,30 @@ class SrsMicroMlEngine(
     ): SrsAnswers {
         ready.await()
         val baseline = scheduler.answers(card, reviewTime)
-        val profile = profiles[key.practiceType] ?: MicroMlProfile()
-        val features = featuresFor(card, reviewTime, profile)
-            ?: return baseline
-        pendingFeatures[pendingKey(key)] = features
+        return stateMutex.withLock {
+            val profile = profiles[key.practiceType] ?: MicroMlProfile()
+            val features = featuresFor(card, reviewTime, profile)
+                ?: return@withLock baseline
+            pendingFeatures.getOrPut(pendingKey(key)) { mutableListOf() }
+                .apply {
+                    add(features)
+                    if (size > MAX_PENDING_FEATURES_PER_CARD) removeAt(0)
+                }
 
-        if (profile.sampleCount < MIN_SAMPLES) {
-            return baseline
+            if (profile.sampleCount < MIN_SAMPLES) {
+                baseline
+            } else {
+                val correction = correctionFactor(profile, features)
+                enforceOrdering(
+                    baseline.copy(
+                        again = correctAnswer(baseline.again, correction),
+                        hard = correctAnswer(baseline.hard, correction),
+                        good = correctAnswer(baseline.good, correction),
+                        easy = correctAnswer(baseline.easy, correction),
+                    )
+                )
+            }
         }
-
-        val correction = correctionFactor(profile, features)
-        return enforceOrdering(
-            baseline.copy(
-                again = correctAnswer(baseline.again, correction),
-                hard = correctAnswer(baseline.hard, correction),
-                good = correctAnswer(baseline.good, correction),
-                easy = correctAnswer(baseline.easy, correction),
-            )
-        )
     }
 
     suspend fun observe(
@@ -68,58 +78,95 @@ class SrsMicroMlEngine(
         review: ReviewHistoryItem,
     ) {
         ready.await()
-        val old = profiles[key.practiceType] ?: MicroMlProfile()
-        val features = pendingFeatures.remove(pendingKey(key)) ?: return
-        val label = if (review.grade > 1) 1.0 else 0.0
-        val prediction = predict(old, features)
-        val error = (label - prediction).coerceIn(-1.0, 1.0)
-        val learningRate = (BASE_LEARNING_RATE / (1.0 + old.sampleCount * 0.01))
-            .coerceIn(MIN_LEARNING_RATE, BASE_LEARNING_RATE)
-        val updatedWeights = old.weights.mapIndexed { index, weight ->
-            (weight + learningRate * error * features.values[index]).coerceIn(-WEIGHT_BOUND, WEIGHT_BOUND)
-        }
-        val updated = old.copy(
-            sampleCount = old.sampleCount + 1,
-            bias = (old.bias + learningRate * error).coerceIn(-WEIGHT_BOUND, WEIGHT_BOUND),
-            weights = updatedWeights,
-            failureRate = exponentialMovingAverage(old.failureRate, if (label == 0.0) 1.0 else 0.0),
-            mistakeRate = exponentialMovingAverage(
-                old.mistakeRate,
-                (review.mistakes / MISTAKE_NORMALIZER).coerceIn(0.0, 1.0),
-            ),
-            responseEffort = exponentialMovingAverage(
-                old.responseEffort,
-                (review.duration.inWholeSeconds / RESPONSE_SECONDS_NORMALIZER).coerceIn(0.0, 1.0),
-            ),
-        ).normalized()
+        stateMutex.withLock {
+            val old = profiles[key.practiceType] ?: MicroMlProfile()
+            val pending = pendingFeatures[pendingKey(key)]
+            val features = pending?.removeFirstOrNull() ?: return@withLock
+            if (pending.isEmpty()) pendingFeatures.remove(pendingKey(key))
 
-        profiles = profiles + (key.practiceType to updated)
-        if (updated.sampleCount == 1L || updated.sampleCount % PERSIST_EVERY_SAMPLES == 0L) {
-            persist()
+            val label = if (review.grade > 1) 1.0 else 0.0
+            val prediction = predict(old, features)
+            val error = (label - prediction).coerceIn(-1.0, 1.0)
+            val learningRate = (BASE_LEARNING_RATE / (1.0 + old.sampleCount * 0.01))
+                .coerceIn(MIN_LEARNING_RATE, BASE_LEARNING_RATE)
+            val updatedWeights = old.weights.mapIndexed { index, weight ->
+                (weight + learningRate * error * features.values[index])
+                    .coerceIn(-WEIGHT_BOUND, WEIGHT_BOUND)
+            }
+            val updated = old.copy(
+                sampleCount = old.sampleCount + 1,
+                bias = (old.bias + learningRate * error).coerceIn(-WEIGHT_BOUND, WEIGHT_BOUND),
+                weights = updatedWeights,
+                failureRate = exponentialMovingAverage(
+                    old.failureRate,
+                    if (label == 0.0) 1.0 else 0.0
+                ),
+                mistakeRate = exponentialMovingAverage(
+                    old.mistakeRate,
+                    (review.mistakes / MISTAKE_NORMALIZER).coerceIn(0.0, 1.0),
+                ),
+                responseEffort = exponentialMovingAverage(
+                    old.responseEffort,
+                    (review.duration.inWholeSeconds / RESPONSE_SECONDS_NORMALIZER)
+                        .coerceIn(0.0, 1.0),
+                ),
+            ).normalized()
+
+            profiles = profiles + (key.practiceType to updated)
+            if (updated.sampleCount == 1L || updated.sampleCount % PERSIST_EVERY_SAMPLES == 0L) {
+                persistLatestLocked()
+            }
         }
     }
 
     suspend fun reset() {
         ready.await()
-        profiles = emptyMap()
-        pendingFeatures.clear()
-        profileStorage.set("")
+        stateMutex.withLock {
+            profiles = emptyMap()
+            pendingFeatures.clear()
+            try {
+                profileStorage.set("")
+            } catch (cancellation: CancellationException) {
+                throw cancellation
+            } catch (error: Exception) {
+                Logger.w("Unable to clear SRS micro-ML profile: ${error.message}")
+            }
+        }
     }
 
     private suspend fun load() {
-        val raw = runCatching { profileStorage.get() }.getOrNull().orEmpty()
+        val raw = try {
+            profileStorage.get()
+        } catch (cancellation: CancellationException) {
+            throw cancellation
+        } catch (error: Exception) {
+            Logger.w("Unable to load SRS micro-ML profile: ${error.message}")
+            return
+        }
         if (raw.isBlank()) return
-        profiles = runCatching {
+
+        val loadedProfiles = try {
             json.decodeFromString<MicroMlProfileStore>(raw)
                 .profiles
                 .mapValues { it.value.normalized() }
-        }.getOrElse { emptyMap() }
+        } catch (cancellation: CancellationException) {
+            throw cancellation
+        } catch (error: Exception) {
+            Logger.w("Unable to decode SRS micro-ML profile: ${error.message}")
+            emptyMap()
+        }
+
+        stateMutex.withLock { profiles = loadedProfiles }
     }
 
-    private fun persist() {
+    private suspend fun persistLatestLocked() {
         val snapshot = MicroMlProfileStore(profiles = profiles)
-        scope.launch {
-            runCatching { profileStorage.set(json.encodeToString(snapshot)) }
+        try {
+            profileStorage.set(json.encodeToString(snapshot))
+        } catch (cancellation: CancellationException) {
+            throw cancellation
+        } catch (error: Exception) {
+            Logger.w("Unable to persist SRS micro-ML profile: ${error.message}")
         }
     }
 
@@ -167,7 +214,8 @@ class SrsMicroMlEngine(
     }
 
     private fun predict(profile: MicroMlProfile, features: MicroMlFeatures): Double {
-        val z = (profile.bias + profile.weights.zip(features.values).sumOf { (weight, value) -> weight * value })
+        val z = (profile.bias + profile.weights.zip(features.values)
+            .sumOf { (weight, value) -> weight * value })
             .coerceIn(-SIGMOID_LIMIT, SIGMOID_LIMIT)
         return 1.0 / (1.0 + exp(-z))
     }
@@ -243,6 +291,7 @@ class SrsMicroMlEngine(
         const val FEATURE_COUNT = 8
         const val MIN_SAMPLES = 32L
         const val PERSIST_EVERY_SAMPLES = 8L
+        const val MAX_PENDING_FEATURES_PER_CARD = 4
         const val BASE_RETENTION = 0.9
         const val BASE_LEARNING_RATE = 0.08
         const val MIN_LEARNING_RATE = 0.01

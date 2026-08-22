@@ -31,9 +31,12 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.SnackbarResult
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.State
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
@@ -52,6 +55,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.unit.dp
 import kotlin.math.roundToInt
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.stringResource
@@ -66,6 +70,7 @@ import ua.syt0r.kanji.presentation.common.resolveString
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.presentation.common.ui.FancyLoading
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeReviewSaveFailed
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationCharactersPreview
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationContainer
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationEnumSelector
@@ -90,6 +95,8 @@ import kotlin.math.cos
 @Composable
 fun LetterPracticeScreenUI(
     state: State<ScreenState>,
+    reviewErrors: Flow<PracticeReviewSaveFailed>,
+    onRetryReview: () -> Unit,
     navigateBack: () -> Unit,
     navigateToWordFeedback: (JapaneseWord) -> Unit,
     onConfigured: () -> Unit,
@@ -103,6 +110,20 @@ fun LetterPracticeScreenUI(
 ) {
 
     var showEarlyFinishDialog by rememberSaveable { mutableStateOf(false) }
+    val snackbarHostState = remember { SnackbarHostState() }
+    val strings = resolveString { commonPractice }
+
+    LaunchedEffect(reviewErrors, strings.reviewSaveError, strings.reviewSaveRetry) {
+        reviewErrors.collect {
+            val result = snackbarHostState.showSnackbar(
+                message = strings.reviewSaveError,
+                actionLabel = strings.reviewSaveRetry,
+                withDismissAction = true,
+            )
+            if (result == SnackbarResult.ActionPerformed) onRetryReview()
+        }
+    }
+
     if (showEarlyFinishDialog) {
         PracticeEarlyFinishDialog(
             onDismissRequest = { showEarlyFinishDialog = false },
@@ -125,6 +146,7 @@ fun LetterPracticeScreenUI(
 
     ScreenLayout(
         state = state,
+        snackbarHost = { SnackbarHost(snackbarHostState) },
         toolbar = {
             PracticeToolbar(
                 state = state.toToolbarState(),
@@ -166,6 +188,7 @@ fun LetterPracticeScreenUI(
 @Composable
 private fun ScreenLayout(
     state: State<ScreenState>,
+    snackbarHost: @Composable () -> Unit,
     toolbar: @Composable () -> Unit,
     configuration: @Composable (ScreenState.Configuring) -> Unit,
     review: @Composable (ScreenState.Review) -> Unit,
@@ -173,6 +196,7 @@ private fun ScreenLayout(
 ) {
 
     KaiteyoScaffold(
+        snackbarHost = snackbarHost,
         topBar = { toolbar() }
     ) { paddingValues ->
 

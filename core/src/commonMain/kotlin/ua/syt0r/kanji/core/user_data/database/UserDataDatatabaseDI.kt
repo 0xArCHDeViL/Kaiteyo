@@ -1,10 +1,12 @@
 package ua.syt0r.kanji.core.user_data.database
 
+import ua.syt0r.kanji.core.srs.srsApplicationScopeQualifier
 import org.koin.core.module.Module
 import ua.syt0r.kanji.core.user_data.database.migration.UserDataDatabaseMigrationProvider
 import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightConnectedReviewRepository
 import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightFsrsCardRepository
 import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightLetterPracticeRepository
+import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightReviewCommitRepository
 import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightReviewHistoryRepository
 import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightTextAnalysisRepository
 import ua.syt0r.kanji.core.user_data.database.sqldelight.SqlDelightVocabPracticeRepository
@@ -16,7 +18,8 @@ fun Module.addUserDataDatabaseDefinitions() {
     single<UserDataDatabaseContract.Manager> {
         DefaultUserDataDatabaseManager(
             databasePlatformHandler = get(),
-            updateLocalDataTimestampUseCase = get()
+            updateLocalDataTimestampUseCase = get(),
+            coroutineScope = get(srsApplicationScopeQualifier),
         )
     }
 
@@ -34,13 +37,15 @@ fun Module.addUserDataDatabaseDefinitions() {
 
     single<LetterPracticeRepository> {
         SqlDelightLetterPracticeRepository(
-            databaseManager = get()
+            databaseManager = get(),
+            coroutineScope = get(srsApplicationScopeQualifier)
         )
     }
 
     single<VocabPracticeRepository> {
         SqlDelightVocabPracticeRepository(
-            databaseManager = get()
+            databaseManager = get(),
+            coroutineScope = get(srsApplicationScopeQualifier)
         )
     }
 
@@ -53,19 +58,30 @@ fun Module.addUserDataDatabaseDefinitions() {
 
     single<FsrsCardRepository> {
         SqlDelightFsrsCardRepository(
-            userDataDatabaseManager = get()
+            userDataDatabaseManager = get(),
+            coroutineScope = get(srsApplicationScopeQualifier)
         )
     }
 
     single<ConnectedReviewRepository> {
         SqlDelightConnectedReviewRepository(
-            userDataDatabaseManager = get()
+            userDataDatabaseManager = get(),
+            coroutineScope = get(srsApplicationScopeQualifier)
         )
     }
 
     single<CardDatabaseManager> {
         CardDatabaseManagerImpl(
-            transactionScope = ObservableUserDataRepository(databaseManager = get())
+            transactionScope = ObservableUserDataRepository(
+                databaseManager = get(),
+                coroutineScope = get(srsApplicationScopeQualifier),
+            )
+        )
+    }
+
+    single<ReviewCommitRepository> {
+        SqlDelightReviewCommitRepository(
+            databaseManager = get()
         )
     }
 
@@ -77,7 +93,8 @@ fun Module.addUserDataDatabaseDefinitions() {
 
     single<TextAnalysisRepository> {
         SqlDelightTextAnalysisRepository(
-            manager = get()
+            manager = get(),
+            coroutineScope = get(srsApplicationScopeQualifier)
         )
     }
 

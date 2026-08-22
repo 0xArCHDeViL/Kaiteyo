@@ -73,6 +73,7 @@ val grammarPracticeScreenModule = module {
             getScrambleReviewStateUseCase = get(),
             getDialogueReviewStateUseCase = get(),
             reviewHistoryRepository = get(),
+            reviewCommitRepository = get(),
             analyticsManager = get()
         )
     }

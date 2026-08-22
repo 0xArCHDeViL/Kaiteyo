@@ -8,12 +8,20 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.material3.Button
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.SnackbarResult
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.flow.Flow
+import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.presentation.common.ui.FancyLoading
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeReviewSaveFailed
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeFlashcardUI
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.ui.GrammarPracticeClozeUI
@@ -26,10 +34,27 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.Muta
 @Composable
 fun GrammarPracticeScreenUI(
     state: GrammarPracticeScreenContract.State,
+    reviewErrors: Flow<PracticeReviewSaveFailed>,
+    onRetryReview: () -> Unit,
     onEvent: (GrammarPracticeScreenContract.Event) -> Unit,
     onNavigateBack: () -> Unit
 ) {
-    Column(modifier = Modifier.fillMaxSize()) {
+    val snackbarHostState = remember { SnackbarHostState() }
+    val strings = resolveString { commonPractice }
+
+    LaunchedEffect(reviewErrors, strings.reviewSaveError, strings.reviewSaveRetry) {
+        reviewErrors.collect {
+            val result = snackbarHostState.showSnackbar(
+                message = strings.reviewSaveError,
+                actionLabel = strings.reviewSaveRetry,
+                withDismissAction = true,
+            )
+            if (result == SnackbarResult.ActionPerformed) onRetryReview()
+        }
+    }
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        Column(modifier = Modifier.fillMaxSize()) {
         val activeQueueState = state.queueState
         if (activeQueueState is GrammarPracticeQueueState.Review) {
             GrammarPracticeProgressHeader(progress = activeQueueState.progress)
@@ -144,5 +169,10 @@ fun GrammarPracticeScreenUI(
             }
         }
         }
+    }
+        SnackbarHost(
+            hostState = snackbarHostState,
+            modifier = Modifier.align(Alignment.BottomCenter),
+        )
     }
 }

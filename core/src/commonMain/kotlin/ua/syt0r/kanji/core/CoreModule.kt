@@ -3,6 +3,7 @@ package ua.syt0r.kanji.core
 import kotlinx.serialization.json.Json
 import org.koin.dsl.binds
 import org.koin.dsl.module
+import org.koin.core.qualifier.named
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
 import ua.syt0r.kanji.core.analytics.PrintAnalyticsManager
 import ua.syt0r.kanji.core.app_data.AppDataDatabaseProvider
@@ -131,7 +132,8 @@ val coreModule = module {
     single {
         VocabCardResolver(
             vocabPracticeRepository = get(),
-            appDataRepository = get()
+            appDataRepository = get(),
+            coroutineScope = get(named("srsApplicationScope")),
         )
     }
 

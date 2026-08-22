@@ -1,5 +1,6 @@
 package ua.syt0r.kanji.core.user_data.database.sqldelight
 
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.datetime.Instant
 import ua.syt0r.kanji.core.srs.SrsCardKey
 import ua.syt0r.kanji.core.srs.fsrs.FsrsCard
@@ -22,13 +23,15 @@ class SqlDelightFsrsCardRepository private constructor(
     UserDataDatabaseContract.TransactionScope by observableRepository {
 
     constructor(
-        userDataDatabaseManager: UserDataDatabaseContract.Manager
+        userDataDatabaseManager: UserDataDatabaseContract.Manager,
+        coroutineScope: CoroutineScope,
     ) : this(
-        ObservableUserDataRepository(userDataDatabaseManager),
+        ObservableUserDataRepository(userDataDatabaseManager, coroutineScope),
         CachedUserDataState(
             debugTitle = "fsrs_cards",
             resetFlow = userDataDatabaseManager.databaseChangeEvents,
-            provider = { userDataDatabaseManager.readTransaction { loadRepoDataFromDB() } }
+            provider = { userDataDatabaseManager.readTransaction { loadRepoDataFromDB() } },
+            coroutineScope = coroutineScope,
         )
     )
 
@@ -42,8 +45,8 @@ class SqlDelightFsrsCardRepository private constructor(
 
     override suspend fun update(key: SrsCardKey, card: FsrsCard) {
         val repoData = getRepoData()
-        repoData.cardsMap[key] = card
         writeTransaction { upsertFsrsCard(covert(key, card)) }
+        repoData.cardsMap[key] = card
     }
 
     private suspend fun getRepoData(): RepoData {

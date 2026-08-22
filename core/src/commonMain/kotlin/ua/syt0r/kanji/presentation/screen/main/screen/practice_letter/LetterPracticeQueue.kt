@@ -12,6 +12,7 @@ import ua.syt0r.kanji.core.srs.SrsCardRepository
 import ua.syt0r.kanji.core.srs.SrsMicroMlEngine
 import ua.syt0r.kanji.core.srs.SrsScheduler
 import ua.syt0r.kanji.core.time.TimeUtils
+import ua.syt0r.kanji.core.user_data.database.ReviewCommitRepository
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryRepository
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BasePracticeQueue
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
@@ -34,6 +35,7 @@ class DefaultLetterPracticeQueue(
     srsScheduler: SrsScheduler,
     srsMicroMlEngine: SrsMicroMlEngine,
     private val getQueueItemDataUseCase: GetLetterPracticeQueueItemDataUseCase,
+    reviewCommitRepository: ReviewCommitRepository,
     analyticsManager: AnalyticsManager
 ) : BaseLetterPracticeQueue(
     practiceScope = coroutineScope,
@@ -42,6 +44,7 @@ class DefaultLetterPracticeQueue(
     srsCardRepository = srsCardRepository,
     srsMicroMlEngine = srsMicroMlEngine,
     reviewHistoryRepository = reviewHistoryRepository,
+    reviewCommitRepository = reviewCommitRepository,
     analyticsManager = analyticsManager
 ), LetterPracticeQueue {
 

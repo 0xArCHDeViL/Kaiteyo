@@ -5,8 +5,6 @@ import kotlinx.coroutines.sync.withLock
 import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import ua.syt0r.kanji.Res
-import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarChapter
-import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarPoint
 
 interface GrammarContentRepository {
     suspend fun chapters(): List<GrammarChapter>

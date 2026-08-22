@@ -564,6 +564,8 @@ interface CommonPracticeStrings {
     val hardButton: String
     val goodButton: String
     val easyButton: String
+    val reviewSaveError: String
+    val reviewSaveRetry: String
 
     val summaryTimeSpentValue: (Duration) -> String
 

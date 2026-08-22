@@ -7,8 +7,11 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.wrapContentSize
-import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.SnackbarResult
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.State
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
@@ -17,6 +20,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import kotlinx.coroutines.flow.Flow
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.presentation.common.MultiplatformBackHandler
 import ua.syt0r.kanji.presentation.common.ScreenVocabPracticeType
@@ -25,6 +29,7 @@ import ua.syt0r.kanji.presentation.common.theme.snapToBiggerContainerCrossfadeTr
 import ua.syt0r.kanji.presentation.common.ui.FancyLoading
 import ua.syt0r.kanji.presentation.common.ui.FuriganaText
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeReviewSaveFailed
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationContainer
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationEnumSelector
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationItemsSelector
@@ -46,6 +51,8 @@ import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.ui.VocabPra
 @Composable
 fun VocabPracticeScreenUI(
     state: State<ScreenState>,
+    reviewErrors: Flow<PracticeReviewSaveFailed>,
+    onRetryReview: () -> Unit,
     onConfigured: () -> Unit,
     onFlashcardAnswerRevealClick: () -> Unit,
     onReadingPickerAnswerSelected: (String) -> Unit,
@@ -59,6 +66,21 @@ fun VocabPracticeScreenUI(
 ) {
 
     var showPracticeFinishDialog by rememberSaveable { mutableStateOf(false) }
+    val snackbarHostState = remember { SnackbarHostState() }
+    val reviewSaveError = resolveString { commonPractice.reviewSaveError }
+    val retryReviewLabel = resolveString { commonPractice.reviewSaveRetry }
+
+    LaunchedEffect(reviewErrors, reviewSaveError, retryReviewLabel) {
+        reviewErrors.collect {
+            val result = snackbarHostState.showSnackbar(
+                message = reviewSaveError,
+                actionLabel = retryReviewLabel,
+                withDismissAction = true,
+            )
+            if (result == SnackbarResult.ActionPerformed) onRetryReview()
+        }
+    }
+
     if (showPracticeFinishDialog) {
         PracticeEarlyFinishDialog(
             onDismissRequest = { showPracticeFinishDialog = false },
@@ -81,6 +103,7 @@ fun VocabPracticeScreenUI(
     MultiplatformBackHandler(onBack = tryNavigateBack)
 
     KaiteyoScaffold(
+        snackbarHost = { SnackbarHost(snackbarHostState) },
         topBar = {
             PracticeToolbar(
                 state = state.toPracticeToolbarState(),

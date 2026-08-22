@@ -14,6 +14,7 @@ import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
 import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeReviewSaveFailed
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationCardsSelectorState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.VocabPracticeScreenContract.ScreenState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.MutableVocabReviewState
@@ -41,6 +42,8 @@ class VocabPracticeViewModel(
 
     override val state: StateFlow<ScreenState>
         get() = _state
+
+    override val reviewErrors = practiceQueue.errors
 
     override fun initialize(configuration: VocabPracticeScreenConfiguration) {
         if (this::configuration.isInitialized) return
@@ -126,6 +129,10 @@ class VocabPracticeViewModel(
 
     override fun next(answer: PracticeAnswer) {
         viewModelScope.launch { practiceQueue.submitAnswer(answer) }
+    }
+
+    override fun retryLastReview() {
+        viewModelScope.launch { practiceQueue.retryLastFailedAnswer() }
     }
 
     override fun finishPractice() {

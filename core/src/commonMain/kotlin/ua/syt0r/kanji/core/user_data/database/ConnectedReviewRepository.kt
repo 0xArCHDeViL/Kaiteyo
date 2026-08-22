@@ -29,6 +29,12 @@ data class ConnectedReviewCard(
     val suspended: Boolean,
 )
 
+data class ConnectedReviewCommit(
+    val item: ConnectedReviewItem,
+    val card: ConnectedReviewCard,
+    val event: ConnectedReviewEvent,
+)
+
 data class ConnectedReviewEvent(
     val itemKey: ConnectedItemKey,
     val dimension: ReviewDimension,
@@ -59,4 +65,6 @@ interface ConnectedReviewRepository : ObservableRepository {
     suspend fun upsertCard(card: ConnectedReviewCard)
 
     suspend fun recordEvent(event: ConnectedReviewEvent)
+
+    suspend fun commitReview(commit: ConnectedReviewCommit)
 }

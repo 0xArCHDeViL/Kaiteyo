@@ -1,9 +1,11 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab
 
 import androidx.compose.runtime.State
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow
 import ua.syt0r.kanji.presentation.common.ScreenVocabPracticeType
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeReviewSaveFailed
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeConfigurationCardsSelectorState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabPracticeConfiguration
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_vocab.data.VocabPracticeReviewState
@@ -15,6 +17,7 @@ interface VocabPracticeScreenContract {
 
     interface ViewModel {
         val state: StateFlow<ScreenState>
+        val reviewErrors: Flow<PracticeReviewSaveFailed>
 
         fun initialize(configuration: VocabPracticeScreenConfiguration)
         fun configure()
@@ -22,6 +25,7 @@ interface VocabPracticeScreenContract {
         fun revealFlashcard()
         fun submitReadingPickerAnswer(answer: String)
         fun next(answer: PracticeAnswer)
+        fun retryLastReview()
         fun finishPractice()
         fun playVoice(text: String)
     }

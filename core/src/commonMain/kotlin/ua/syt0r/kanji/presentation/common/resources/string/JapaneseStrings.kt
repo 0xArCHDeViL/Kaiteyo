@@ -567,6 +567,8 @@ object JapaneseCommonPracticeStrings : CommonPracticeStrings {
     override val hardButton: String = "難しい"
     override val goodButton: String = "正解"
     override val easyButton: String = "簡単"
+    override val reviewSaveError: String = "復習を保存できませんでした。回答はこのまま残っています。"
+    override val reviewSaveRetry: String = "再試行"
 
     override val summaryTimeSpentValue: (Duration) -> String = { formatDuration(it) }
 

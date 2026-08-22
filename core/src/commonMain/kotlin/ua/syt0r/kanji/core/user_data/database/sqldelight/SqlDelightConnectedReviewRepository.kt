@@ -1,5 +1,6 @@
 package ua.syt0r.kanji.core.user_data.database.sqldelight
 
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.datetime.Instant
 import ua.syt0r.kanji.core.connected_learning.ConnectedItemKey
 import ua.syt0r.kanji.core.connected_learning.ReviewDimension
@@ -7,12 +8,14 @@ import ua.syt0r.kanji.core.srs.fsrs.FsrsCard
 import ua.syt0r.kanji.core.srs.fsrs.FsrsCardParams
 import ua.syt0r.kanji.core.srs.fsrs.FsrsCardStatus
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewCard
+import ua.syt0r.kanji.core.user_data.database.ConnectedReviewCommit
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewEvent
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewItem
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewRepository
 import ua.syt0r.kanji.core.user_data.database.ObservableRepository
 import ua.syt0r.kanji.core.user_data.database.ObservableUserDataRepository
 import ua.syt0r.kanji.core.user_data.database.UserDataDatabaseContract
+import ua.syt0r.kanji.core.userdata.db.UserDataQueries
 import ua.syt0r.kanji.core.userdata.db.Connected_fsrs_card
 import kotlin.time.Duration.Companion.milliseconds
 
@@ -24,7 +27,8 @@ class SqlDelightConnectedReviewRepository private constructor(
 
     constructor(
         userDataDatabaseManager: UserDataDatabaseContract.Manager,
-    ) : this(ObservableUserDataRepository(userDataDatabaseManager))
+        coroutineScope: CoroutineScope,
+    ) : this(ObservableUserDataRepository(userDataDatabaseManager, coroutineScope))
 
     override suspend fun getCards(
         itemKeys: Collection<ConnectedItemKey>,
@@ -56,57 +60,94 @@ class SqlDelightConnectedReviewRepository private constructor(
     }
 
     override suspend fun upsertItem(item: ConnectedReviewItem) {
-        writeTransaction {
-            upsertConnectedReviewItem(
-                item.itemKey.value,
-                item.entityKind,
-                item.entityId,
-                item.entryId,
-                item.elementId,
-                item.senseId,
-                item.variant,
-                item.legacyKey,
-                item.legacyPracticeType,
-                item.createdAt.toEpochMilliseconds(),
-            )
-        }
+        writeTransaction { persistItem(item) }
     }
 
     override suspend fun upsertCard(card: ConnectedReviewCard) {
-        writeTransaction {
-            upsertConnectedFsrsCard(
-                card.itemKey.value,
-                card.dimension.name,
-                card.card.status.ordinal.toLong(),
-                card.card.params.stabilityOrZero(),
-                card.card.params.difficultyOrZero(),
-                card.card.lapses.toLong(),
-                card.card.repeats.toLong(),
-                card.card.lastReview?.toEpochMilliseconds(),
-                card.dueAt.toEpochMilliseconds(),
-                card.card.interval.inWholeMilliseconds,
-                card.firstSeen.toEpochMilliseconds(),
-                if (card.suspended) 1L else 0L,
-            )
-        }
+        writeTransaction { persistCard(card) }
     }
 
     override suspend fun recordEvent(event: ConnectedReviewEvent) {
-        writeTransaction {
-            insertConnectedReviewEvent(
-                event.itemKey.value,
-                event.dimension.name,
-                event.taskKind,
-                event.promptVariant,
-                event.timestamp.toEpochMilliseconds(),
-                event.durationMs,
-                event.grade,
-                event.mistakes,
-                event.deckId,
-                event.contextKey,
-                event.source,
-            )
+        writeTransaction { persistEvent(event) }
+    }
+
+    override suspend fun commitReview(commit: ConnectedReviewCommit) {
+        require(commit.card.itemKey == commit.item.itemKey) {
+            "Connected review card key must match item key"
         }
+        require(commit.event.itemKey == commit.item.itemKey) {
+            "Connected review event key must match item key"
+        }
+        require(commit.event.dimension == commit.card.dimension) {
+            "Connected review event dimension must match card dimension"
+        }
+        require(commit.item.entityKind.isNotBlank()) { "Connected entity kind must not be blank" }
+        require(commit.item.entityId.isNotBlank()) { "Connected entity ID must not be blank" }
+        require(commit.item.variant.isNotBlank()) { "Connected item variant must not be blank" }
+        require(commit.card.card.params is FsrsCardParams.Existing) {
+            "A connected reviewed card must have existing FSRS parameters"
+        }
+        require(commit.event.taskKind.isNotBlank()) { "Connected task kind must not be blank" }
+        require(commit.event.timestamp == commit.card.card.lastReview) {
+            "Connected event timestamp must match card last review time"
+        }
+        require(commit.event.durationMs >= 0) { "Connected review duration must not be negative" }
+        require(commit.event.grade in 1..4) { "Connected review grade must be in 1..4" }
+        require(commit.event.mistakes >= 0) { "Connected review mistakes must not be negative" }
+        require(commit.event.deckId > 0) { "Connected review deck ID must be positive" }
+        writeTransaction {
+            persistItem(commit.item)
+            persistCard(commit.card)
+            persistEvent(commit.event)
+        }
+    }
+
+    private fun UserDataQueries.persistItem(item: ConnectedReviewItem) {
+        upsertConnectedReviewItem(
+            item.itemKey.value,
+            item.entityKind,
+            item.entityId,
+            item.entryId,
+            item.elementId,
+            item.senseId,
+            item.variant,
+            item.legacyKey,
+            item.legacyPracticeType,
+            item.createdAt.toEpochMilliseconds(),
+        )
+    }
+
+    private fun UserDataQueries.persistCard(card: ConnectedReviewCard) {
+        upsertConnectedFsrsCard(
+            card.itemKey.value,
+            card.dimension.name,
+            card.card.status.ordinal.toLong(),
+            card.card.params.stabilityOrZero(),
+            card.card.params.difficultyOrZero(),
+            card.card.lapses.toLong(),
+            card.card.repeats.toLong(),
+            card.card.lastReview?.toEpochMilliseconds(),
+            card.dueAt.toEpochMilliseconds(),
+            card.card.interval.inWholeMilliseconds,
+            card.firstSeen.toEpochMilliseconds(),
+            if (card.suspended) 1L else 0L,
+        )
+    }
+
+    private fun UserDataQueries.persistEvent(event: ConnectedReviewEvent) {
+        insertConnectedReviewEvent(
+            event.itemKey.value,
+            event.dimension.name,
+            event.taskKind,
+            event.promptVariant,
+            event.timestamp.toEpochMilliseconds(),
+            event.durationMs,
+            event.grade,
+            event.mistakes,
+            event.deckId,
+            event.contextKey,
+            event.source,
+        )
     }
 
     private fun Connected_fsrs_card.toConnectedReviewCardOrNull(): ConnectedReviewCard? {

@@ -1,5 +1,6 @@
 package ua.syt0r.kanji.core
 
+import kotlinx.coroutines.CoroutineScope
 import org.jetbrains.compose.resources.getString
 import ua.syt0r.kanji.Res
 import ua.syt0r.kanji.core.app_data.AppDataRepository
@@ -31,13 +32,15 @@ fun ResolvedVocabCard.toInfoScreenData() =
 
 class VocabCardResolver(
     private val vocabPracticeRepository: VocabPracticeRepository,
-    private val appDataRepository: AppDataRepository
+    private val appDataRepository: AppDataRepository,
+    coroutineScope: CoroutineScope,
 ) {
 
     val cardsCache = CachedUserDataState(
         resetFlow = vocabPracticeRepository.changesFlow,
         provider = { vocabPracticeRepository.getAllCards().associateBy { it.cardId } },
-        debugTitle = "vocab_cards"
+        debugTitle = "vocab_cards",
+        coroutineScope = coroutineScope,
     )
 
     suspend fun resolveUserCard(cardId: Long): ResolvedVocabCard {

@@ -15,6 +15,7 @@ import ua.syt0r.kanji.core.connected_learning.LearningGraphNeighbor
 import ua.syt0r.kanji.core.connected_learning.LearningGraphNode
 import ua.syt0r.kanji.core.connected_learning.LearningGraphRepository
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewCard
+import ua.syt0r.kanji.core.user_data.database.ConnectedReviewCommit
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewEvent
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewItem
 import ua.syt0r.kanji.core.user_data.database.ConnectedReviewRepository
@@ -119,6 +120,7 @@ class DefaultConnectedLearningLoaderTest {
         override suspend fun upsertItem(item: ConnectedReviewItem) = Unit
         override suspend fun upsertCard(card: ConnectedReviewCard) = Unit
         override suspend fun recordEvent(event: ConnectedReviewEvent) = Unit
+        override suspend fun commitReview(commit: ConnectedReviewCommit) = Unit
     }
 
     private fun node(

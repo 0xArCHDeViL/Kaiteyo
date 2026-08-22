@@ -1,5 +1,6 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar
 
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
@@ -7,6 +8,7 @@ import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
 import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.presentation.common.BaseViewModel
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeReviewSaveFailed
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueItemDescriptor
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_grammar.data.GrammarPracticeQueueState
 
@@ -24,6 +26,7 @@ class GrammarPracticeViewModel(
         )
     )
     val state = _state.asStateFlow()
+    val reviewErrors: Flow<PracticeReviewSaveFailed> = queue.errors
 
     init {
         viewModelScope.launch {
@@ -79,6 +82,10 @@ class GrammarPracticeViewModel(
                 }
             }
         }
+    }
+
+    fun retryLastReview() {
+        viewModelScope.launch { queue.retryLastFailedAnswer() }
     }
 
     private fun handleAnswer(isCorrect: Boolean) {

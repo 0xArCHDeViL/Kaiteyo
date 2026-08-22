@@ -3,8 +3,6 @@ package ua.syt0r.kanji.core.user_data.database
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Deferred
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.IO
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.Flow
@@ -22,7 +20,7 @@ import kotlin.time.measureTime
 
 open class ObservableUserDataRepository(
     private val databaseManager: UserDataDatabaseContract.Manager,
-    coroutineScope: CoroutineScope = CoroutineScope(Dispatchers.IO)
+    coroutineScope: CoroutineScope
 ) : ObservableRepository, UserDataDatabaseContract.TransactionScope {
 
     private val _changesFlow = MutableSharedFlow<Unit>()
@@ -45,7 +43,7 @@ class CachedUserDataState<T>(
     private val provider: suspend () -> T,
     private val debugTitle: String,
     private val isLazy: Boolean = true,
-    coroutineScope: CoroutineScope = CoroutineScope(Dispatchers.IO)
+    coroutineScope: CoroutineScope
 ) {
 
     private val _data = MutableStateFlow(coroutineScope.createDeferred())

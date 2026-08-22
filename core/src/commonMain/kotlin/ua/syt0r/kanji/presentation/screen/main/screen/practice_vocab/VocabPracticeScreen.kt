@@ -23,6 +23,8 @@ fun VocabPracticeScreen(
 
     VocabPracticeScreenUI(
         state = viewModel.state.collectAsState(),
+        reviewErrors = viewModel.reviewErrors,
+        onRetryReview = { viewModel.retryLastReview() },
         onConfigured = { viewModel.configure() },
         onFlashcardAnswerRevealClick = { viewModel.revealFlashcard() },
         onReadingPickerAnswerSelected = { viewModel.submitReadingPickerAnswer(it) },

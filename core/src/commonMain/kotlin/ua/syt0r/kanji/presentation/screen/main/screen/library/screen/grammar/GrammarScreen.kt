@@ -1,6 +1,8 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar
 
+import ua.syt0r.kanji.core.grammar.GrammarChapter
 import ua.syt0r.kanji.core.grammar.GrammarMarkup
+import ua.syt0r.kanji.core.grammar.GrammarPoint
 import ua.syt0r.kanji.core.grammar.GrammarQuestionEngine
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 

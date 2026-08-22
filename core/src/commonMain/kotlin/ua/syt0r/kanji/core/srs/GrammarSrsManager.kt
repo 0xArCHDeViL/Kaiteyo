@@ -1,15 +1,15 @@
 package ua.syt0r.kanji.core.srs
 
 import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.datetime.Instant
 import kotlinx.datetime.LocalDate
 import ua.syt0r.kanji.core.time.TimeUtils
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryRepository
 import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
-import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarChapter
-import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarPoint
+import ua.syt0r.kanji.core.grammar.GrammarChapter
+import ua.syt0r.kanji.core.grammar.GrammarPoint
 import kotlinx.serialization.json.Json
 import ua.syt0r.kanji.Res
 import org.jetbrains.compose.resources.ExperimentalResourceApi
@@ -43,7 +43,7 @@ class DefaultGrammarSrsManager(
     private val reviewHistoryRepository: ReviewHistoryRepository,
     coroutineScope: CoroutineScope
 ) : SrsManager<String, GrammarPracticeType, GrammarSrsDeck>(
-    deckChangesFlow = MutableSharedFlow(), // Triggered when chapters change, usually static
+    deckChangesFlow = emptyFlow<Unit>(), // Grammar data invalidates explicitly in updateGrammarData
     srsChangesFlow = srsCardRepository.changesFlow,
     dailyLimitManager = dailyLimitManager,
     timeUtils = timeUtils,
@@ -67,6 +67,7 @@ class DefaultGrammarSrsManager(
 
     override suspend fun updateGrammarData(chapters: List<GrammarChapter>) {
         this._grammarChapters = chapters
+        invalidateCachedData()
     }
 
     override suspend fun getDecks(): GrammarSrsDecksData {

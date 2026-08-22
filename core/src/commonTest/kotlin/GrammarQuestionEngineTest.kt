@@ -4,7 +4,7 @@ import kotlin.test.assertNotNull
 import kotlin.test.assertTrue
 import ua.syt0r.kanji.core.grammar.GrammarMarkup
 import ua.syt0r.kanji.core.grammar.GrammarQuestionEngine
-import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarPoint
+import ua.syt0r.kanji.core.grammar.GrammarPoint
 
 class GrammarQuestionEngineTest {
 

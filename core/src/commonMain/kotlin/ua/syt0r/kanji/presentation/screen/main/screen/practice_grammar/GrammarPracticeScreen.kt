@@ -50,6 +50,8 @@ fun GrammarPracticeScreen(
 
     GrammarPracticeScreenUI(
         state = state,
+        reviewErrors = viewModel.reviewErrors,
+        onRetryReview = viewModel::retryLastReview,
         onEvent = viewModel::setEvent,
         onNavigateBack = onNavigateBack
     )

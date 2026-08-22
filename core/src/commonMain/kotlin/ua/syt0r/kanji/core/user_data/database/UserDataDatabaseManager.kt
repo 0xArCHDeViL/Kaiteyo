@@ -14,6 +14,7 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
+import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.withContext
 import ua.syt0r.kanji.core.logger.Logger
 import ua.syt0r.kanji.core.readUserVersion
@@ -25,13 +26,13 @@ import ua.syt0r.kanji.core.userdata.db.UserDataQueries
 class DefaultUserDataDatabaseManager(
     private val databasePlatformHandler: UserDataDatabaseContract.PlatformHandler,
     private val updateLocalDataTimestampUseCase: UpdateLocalDataTimestampUseCase,
+    private val coroutineScope: CoroutineScope,
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO
 ) : UserDataDatabaseContract.Manager {
 
     private val _databaseChangeEvents = MutableSharedFlow<Unit>()
     override val databaseChangeEvents: SharedFlow<Unit> = _databaseChangeEvents
 
-    private val coroutineScope = CoroutineScope(dispatcher)
     private val transactionMutex = Mutex()
 
     sealed interface DatabaseState {
@@ -81,10 +82,15 @@ class DefaultUserDataDatabaseManager(
                 }
 
                 state.value = DatabaseState.Disconnected
-                val result = runCatching { scope(databaseInfo) }
-                connectToDatabase()
-
-                result.exceptionOrNull()?.let { throw it }
+                var failure: Throwable? = null
+                try {
+                    scope(databaseInfo)
+                } catch (error: Throwable) {
+                    failure = error
+                } finally {
+                    withContext(NonCancellable) { connectToDatabase() }
+                }
+                failure?.let { throw it }
             }
         }
     }

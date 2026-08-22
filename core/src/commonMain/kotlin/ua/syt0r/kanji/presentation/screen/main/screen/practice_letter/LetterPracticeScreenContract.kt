@@ -1,10 +1,12 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_letter
 
 import androidx.compose.runtime.Composable
+import kotlinx.coroutines.flow.Flow
 import androidx.compose.runtime.State
 import ua.syt0r.kanji.core.japanese.KanaReading
 import ua.syt0r.kanji.presentation.screen.main.MainNavigationState
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswer
+import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeReviewSaveFailed
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeQueueProgress
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.LetterPracticeConfiguration
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_letter.data.LetterPracticeReviewState
@@ -33,11 +35,13 @@ interface LetterPracticeScreenContract {
     interface ViewModel {
 
         val state: State<ScreenState>
+        val reviewErrors: Flow<PracticeReviewSaveFailed>
 
         fun initialize(configuration: LetterPracticeScreenConfiguration)
         fun configure()
 
         fun submitAnswer(answer: PracticeAnswer)
+        fun retryLastReview()
         fun speakKana(reading: KanaReading)
         fun finishPractice()
 

@@ -58,6 +58,7 @@ val letterPracticeScreenModule = module {
             srsMicroMlEngine = get(),
             getQueueItemDataUseCase = get(),
             reviewHistoryRepository = get(),
+            reviewCommitRepository = get(),
             analyticsManager = get()
         )
     }

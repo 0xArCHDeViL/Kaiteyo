@@ -9,7 +9,14 @@ import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.DurationUnit
 
+enum class FsrsAlgorithmVersion {
+    FSRS5,
+    FSRS6,
+}
+
 interface FsrsAlgorithm {
+    val version: FsrsAlgorithmVersion
+    val parameterSetId: String
 
     fun updatedParams(
         card: FsrsCard,
@@ -28,7 +35,8 @@ data class FsrsAlgorithmConfiguration(
     val factor: Double,
     val decay: Double,
     val requestRetention: Double,
-    val maxInterval: Duration
+    val maxInterval: Duration,
+    val parameterSetId: String = "default"
 )
 
 val fsrs5Configuration = FsrsAlgorithmConfiguration(
@@ -39,12 +47,16 @@ val fsrs5Configuration = FsrsAlgorithmConfiguration(
     factor = 19.0 / 81,
     decay = -0.5,
     requestRetention = 0.9,
-    maxInterval = 355.days
+    maxInterval = 355.days,
+    parameterSetId = "fsrs5-default"
 )
 
 class Fsrs5(
     configuration: FsrsAlgorithmConfiguration = fsrs5Configuration
 ) : FsrsAlgorithm {
+
+    override val version: FsrsAlgorithmVersion = FsrsAlgorithmVersion.FSRS5
+    override val parameterSetId: String = configuration.parameterSetId
 
     private val w: List<Double> = configuration.w
     private val factor: Double = configuration.factor
@@ -52,6 +64,18 @@ class Fsrs5(
     private val requestRetention = configuration.requestRetention
     private val maxInterval = configuration.maxInterval
     private val minimalStability = 0.01
+
+    init {
+        require(w.size == 19) { "FSRS-5 requires 19 parameters, got ${w.size}" }
+        require(w.all(Double::isFinite)) { "FSRS-5 parameters must be finite" }
+        require(factor > 0.0 && factor.isFinite()) { "FSRS-5 forgetting factor must be finite and positive" }
+        require(decay < 0.0 && decay.isFinite()) { "FSRS-5 decay must be finite and negative" }
+        require(requestRetention.isFinite() && requestRetention in 0.1..0.999) {
+            "FSRS-5 desired retention must be finite and in [0.1, 0.999]"
+        }
+        require(maxInterval > Duration.ZERO) { "FSRS-5 maximum interval must be positive" }
+        require(configuration.parameterSetId.isNotBlank()) { "FSRS parameter-set ID must not be blank" }
+    }
 
     override fun updatedParams(
         card: FsrsCard,

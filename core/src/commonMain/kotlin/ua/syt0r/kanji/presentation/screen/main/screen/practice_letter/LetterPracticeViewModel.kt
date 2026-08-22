@@ -7,6 +7,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.dropWhile
@@ -53,6 +54,7 @@ class LetterPracticeViewModel(
 
     private val _state = mutableStateOf<ScreenState>(ScreenState.Loading)
     override val state: State<ScreenState> = _state
+    override val reviewErrors = practiceQueue.errors
 
     override fun initialize(configuration: LetterPracticeScreenConfiguration) {
         if (this::configuration.isInitialized) return
@@ -111,6 +113,10 @@ class LetterPracticeViewModel(
 
     override fun submitAnswer(answer: PracticeAnswer) {
         viewModelScope.launch { practiceQueue.submitAnswer(answer) }
+    }
+
+    override fun retryLastReview() {
+        viewModelScope.launch { practiceQueue.retryLastFailedAnswer() }
     }
 
     override fun speakKana(reading: KanaReading) {

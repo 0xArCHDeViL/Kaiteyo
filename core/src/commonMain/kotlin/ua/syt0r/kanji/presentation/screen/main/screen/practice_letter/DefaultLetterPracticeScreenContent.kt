@@ -26,6 +26,8 @@ object DefaultLetterPracticeScreenContent : LetterPracticeScreenContract.Content
 
         LetterPracticeScreenUI(
             state = viewModel.state,
+            reviewErrors = viewModel.reviewErrors,
+            onRetryReview = { viewModel.retryLastReview() },
             navigateBack = { mainNavigationState.navigateBack() },
             navigateToWordFeedback = {
                 val feedbackTopic = FeedbackTopic.Expression(it.id, FeedbackScreen.WritingPractice)

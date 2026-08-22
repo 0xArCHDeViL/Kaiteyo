@@ -584,6 +584,8 @@ object EnglishCommonPracticeStrings : CommonPracticeStrings {
     override val hardButton: String = "Hard"
     override val goodButton: String = "Good"
     override val easyButton: String = "Easy"
+    override val reviewSaveError: String = "Couldn’t save this review. Your answer is still here."
+    override val reviewSaveRetry: String = "Retry"
 
     override val summaryTimeSpentValue: (Duration) -> String = { formatDuration(it) }
 

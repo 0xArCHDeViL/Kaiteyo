@@ -1,17 +1,23 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.practice_common
 
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.async
 import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.consumeAsFlow
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
+import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.datetime.Instant
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
+import ua.syt0r.kanji.core.logger.Logger
 import ua.syt0r.kanji.core.debounceFirst
 import ua.syt0r.kanji.core.srs.SrsAnswers
 import ua.syt0r.kanji.core.srs.SrsCard
@@ -20,6 +26,7 @@ import ua.syt0r.kanji.core.srs.SrsCardRepository
 import ua.syt0r.kanji.core.srs.SrsScheduler
 import ua.syt0r.kanji.core.srs.SrsMicroMlEngine
 import ua.syt0r.kanji.core.time.TimeUtils
+import ua.syt0r.kanji.core.user_data.database.ReviewCommitRepository
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryItem
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryRepository
 import kotlin.math.min
@@ -27,12 +34,16 @@ import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 
 
+data object PracticeReviewSaveFailed
+
 interface PracticeQueue<State, Descriptor> {
 
     val state: StateFlow<State>
+    val errors: Flow<PracticeReviewSaveFailed>
 
     suspend fun initialize(items: List<Descriptor>)
     suspend fun submitAnswer(answer: PracticeAnswer)
+    suspend fun retryLastFailedAnswer()
     suspend fun skipCurrent()
     fun immediateFinish()
 
@@ -69,6 +80,7 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
     protected val srsCardRepository: SrsCardRepository,
     protected val srsMicroMlEngine: SrsMicroMlEngine,
     private val reviewHistoryRepository: ReviewHistoryRepository,
+    private val reviewCommitRepository: ReviewCommitRepository,
     analyticsManager: AnalyticsManager
 ) : PracticeQueue<State, Descriptor>
         where QueueItem : PracticeQueueItem<QueueItem>,
@@ -80,7 +92,11 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
     protected lateinit var practiceStartInstant: Instant
     private lateinit var currentReviewStartInstant: Instant
 
-    private val submittedAnswersChannel = Channel<PracticeAnswer>()
+    private val submittedAnswersChannel = Channel<PracticeAnswer>(Channel.BUFFERED)
+    private val reviewErrorsChannel = Channel<PracticeReviewSaveFailed>(Channel.BUFFERED)
+    override val errors: Flow<PracticeReviewSaveFailed> = reviewErrorsChannel.receiveAsFlow()
+    private val answerHandlingMutex = Mutex()
+    private var lastFailedAnswer: PracticeAnswer? = null
 
     private val _state: MutableStateFlow<State> = MutableStateFlow(value = this.getLoadingState())
     override val state: StateFlow<State> = _state
@@ -112,6 +128,12 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
 
     override suspend fun submitAnswer(answer: PracticeAnswer) {
         submittedAnswersChannel.send(answer)
+    }
+
+    override suspend fun retryLastFailedAnswer() {
+        answerHandlingMutex.withLock {
+            lastFailedAnswer?.let { handleAnswerLocked(it) }
+        }
     }
 
     override suspend fun skipCurrent() {
@@ -149,22 +171,43 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
     }
 
     private suspend fun handleAnswer(answer: PracticeAnswer) {
+        answerHandlingMutex.withLock { handleAnswerLocked(answer) }
+    }
+
+    private suspend fun handleAnswerLocked(answer: PracticeAnswer) {
         val item = queue.removeFirstOrNull() ?: return
         val updatedItem = item.copyForRepeat(answer)
-
-        saveSummaryData(updatedItem)
-
         val instant = timeUtils.now()
         val reviewDuration = instant - currentReviewStartInstant
+        val review = createReviewHistory(item, answer, instant, reviewDuration)
 
+        try {
+            reviewCommitRepository.commitReview(
+                key = item.srsCardKey,
+                card = answer.srsAnswer.card.fsrsCard,
+                review = review,
+                algorithmVersion = srsScheduler.algorithmVersion,
+                parameterSetId = srsScheduler.parameterSetId,
+            )
+        } catch (cancellation: CancellationException) {
+            queue.add(0, item)
+            throw cancellation
+        } catch (error: Exception) {
+            queue.add(0, item)
+            lastFailedAnswer = answer
+            Logger.w("Review commit failed: ${error.message}")
+            reviewErrorsChannel.send(PracticeReviewSaveFailed)
+            updateState()
+            return
+        }
+
+        lastFailedAnswer = null
+        saveSummaryData(updatedItem)
         if (answer.srsAnswer.card.interval < 1.days) {
             placeItemBackToQueue(updatedItem)
         }
 
         updateState()
-
-        srsCardRepository.update(item.srsCardKey, answer.srsAnswer.card)
-        val review = saveReviewHistory(item, answer, instant, reviewDuration)
         srsMicroMlEngine.observe(item.srsCardKey, review)
         reviewReporter.reportReview(updatedItem, answer, reviewDuration)
     }
@@ -231,7 +274,7 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
         summaryItems[queueItem.srsCardKey] = summaryItem
     }
 
-    private suspend fun saveReviewHistory(
+    private fun createReviewHistory(
         queueItem: QueueItem,
         answer: PracticeAnswer,
         reviewStart: Instant,
@@ -246,7 +289,6 @@ abstract class BasePracticeQueue<State, Descriptor, QueueItem, SummaryItem>(
             mistakes = answer.mistakes,
             deckId = queueItem.deckId
         )
-        reviewHistoryRepository.addReview(item)
         return item
     }
 

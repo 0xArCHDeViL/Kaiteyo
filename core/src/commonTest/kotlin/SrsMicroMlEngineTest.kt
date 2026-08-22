@@ -1,12 +1,18 @@
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.MutableSharedFlow
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.datetime.Instant
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toInstant
+import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonPrimitive
+import kotlinx.serialization.json.jsonObject
+import kotlinx.serialization.json.jsonPrimitive
+import kotlinx.serialization.json.long
 import ua.syt0r.kanji.core.srs.SrsCardKey
 import ua.syt0r.kanji.core.srs.SrsMicroMlEngine
 import ua.syt0r.kanji.core.srs.SrsScheduler
@@ -73,6 +79,42 @@ class SrsMicroMlEngineTest {
         }
         println("srs_micro_ml_1000_schedules=$elapsed")
         assertTrue(elapsed < 2.seconds)
+    }
+
+    @Test
+    fun concurrentObservationsDoNotLoseProfileUpdates() = runBlocking {
+        val storage = InMemoryStringProperty()
+        val engine = SrsMicroMlEngine(storage, CoroutineScope(Dispatchers.Default))
+        val scheduler = DefaultSrsScheduler(DefaultFsrsScheduler(Fsrs5()))
+        val key = SrsCardKey("concurrent", VocabPracticeType.Flashcard.srsPracticeType.value)
+        val card = scheduler.answers(scheduler.newCard(), now).easy.card
+        val reviewTime = now + card.interval
+
+        coroutineScope {
+            repeat(128) {
+                launch {
+                    val answer = engine.schedule(key, card, scheduler, reviewTime)
+                    engine.observe(
+                        key = key,
+                        review = ReviewHistoryItem(
+                            key = key.itemKey,
+                            practiceType = key.practiceType,
+                            timestamp = reviewTime,
+                            duration = 4.minutes,
+                            grade = answer.good.grade,
+                            mistakes = 0,
+                            deckId = 1L,
+                        ),
+                    )
+                }
+            }
+        }
+
+        val profile = Json.parseToJsonElement(storage.value)
+            .jsonObject["profiles"]!!
+            .jsonObject[key.practiceType.toString()]!!
+            .jsonObject
+        assertEquals(128L, profile["sampleCount"]!!.jsonPrimitive.long)
     }
 
     @Test

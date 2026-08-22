@@ -7,7 +7,6 @@ import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -19,7 +18,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.material3.HorizontalDivider
@@ -44,7 +43,9 @@ import androidx.compose.ui.input.key.onKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.CancellationException
 import ua.syt0r.kanji.core.srs.SrsAnswer
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
 import kotlin.time.Duration
@@ -60,6 +61,16 @@ data class PracticeAnswer(
     val srsAnswer: SrsAnswer,
     val mistakes: Int = 0
 )
+
+private fun requestFocusSafely(focusRequester: FocusRequester) {
+    try {
+        focusRequester.requestFocus()
+    } catch (cancellation: CancellationException) {
+        throw cancellation
+    } catch (_: IllegalStateException) {
+        // The node may be disposed during a fast state transition; focus is optional.
+    }
+}
 
 @Composable
 fun PracticeAnswerButtonsContainer(
@@ -93,7 +104,7 @@ fun PracticeAnswerButtonsRow(
 
     val keyboardControlsModifier = if (enableKeyboardControls) {
         val focusRequester = remember { FocusRequester() }
-        LaunchedEffect(Unit) { runCatching { focusRequester.requestFocus() } }
+        LaunchedEffect(Unit) { requestFocusSafely(focusRequester) }
 
         Modifier.focusable()
             .focusRequester(focusRequester)
@@ -200,7 +211,7 @@ fun FlashcardPracticeAnswerButtonsRow(
         val hiddenButton = @Composable { isVisible: Boolean ->
             val focusRequester = remember { FocusRequester() }
             if (isVisible) {
-                LaunchedEffect(Unit) { runCatching { focusRequester.requestFocus() } }
+                LaunchedEffect(Unit) { requestFocusSafely(focusRequester) }
             }
 
             SrsWholeRowButton(
@@ -254,17 +265,21 @@ fun RowScope.SrsAnswerButton(
     color: Color,
     onClick: () -> Unit
 ) {
+    val intervalText = resolveString { commonPractice.formattedSrsInterval(interval) }
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(0.dp),
         modifier = Modifier
             .weight(1f)
             .clip(MaterialTheme.shapes.medium)
-            .clickable(onClick = onClick)
+            .kaiteyoClickable(
+                onClick = onClick,
+                contentDescription = "$label, $intervalText",
+            )
             .padding(horizontal = 16.dp, vertical = 8.dp)
     ) {
         Text(
-            text = resolveString { commonPractice.formattedSrsInterval(interval) },
+            text = intervalText,
             style = MaterialTheme.typography.labelMedium,
             textAlign = TextAlign.Center,
             color = color,
@@ -295,10 +310,13 @@ private fun SrsWholeRowButton(
             modifier = Modifier
                 .fillMaxSize()
                 .wrapContentWidth()
-                .width(400.dp)
+                .widthIn(max = 400.dp)
                 .padding(horizontal = 20.dp)
                 .clip(MaterialTheme.shapes.medium)
-                .clickable(onClick = onClick)
+                .kaiteyoClickable(
+                    onClick = onClick,
+                    contentDescription = text,
+                )
                 .padding(horizontal = 16.dp, vertical = 16.dp)
                 .wrapContentSize()
         )

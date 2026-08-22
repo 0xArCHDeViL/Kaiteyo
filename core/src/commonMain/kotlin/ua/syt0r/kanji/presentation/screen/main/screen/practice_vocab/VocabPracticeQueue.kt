@@ -11,6 +11,7 @@ import ua.syt0r.kanji.core.srs.SrsCardRepository
 import ua.syt0r.kanji.core.srs.SrsMicroMlEngine
 import ua.syt0r.kanji.core.srs.SrsScheduler
 import ua.syt0r.kanji.core.time.TimeUtils
+import ua.syt0r.kanji.core.user_data.database.ReviewCommitRepository
 import ua.syt0r.kanji.core.user_data.database.ReviewHistoryRepository
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.BasePracticeQueue
 import ua.syt0r.kanji.presentation.screen.main.screen.practice_common.PracticeAnswers
@@ -40,6 +41,7 @@ class DefaultVocabPracticeQueue(
     private val getWritingReviewStateUseCase: GetVocabPracticeWritingDataUseCase,
     private val getSummaryItemUseCase: GetVocabPracticeSummaryItemUseCase,
     reviewHistoryRepository: ReviewHistoryRepository,
+    reviewCommitRepository: ReviewCommitRepository,
     analyticsManager: AnalyticsManager
 ) : BaseVocabPracticeQueue(
     practiceScope = coroutineScope,
@@ -48,6 +50,7 @@ class DefaultVocabPracticeQueue(
     reviewHistoryRepository = reviewHistoryRepository,
     srsScheduler = srsScheduler,
     srsMicroMlEngine = srsMicroMlEngine,
+    reviewCommitRepository = reviewCommitRepository,
     analyticsManager = analyticsManager
 ), VocabPracticeQueue {
 

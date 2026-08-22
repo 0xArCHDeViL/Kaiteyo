@@ -1,6 +1,5 @@
 package ua.syt0r.kanji.core.grammar
 
-import ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar.GrammarPoint
 import kotlin.random.Random
 
 private val japaneseTokenRegex = Regex("[一-龯々ぁ-んァ-ヶー]+|[０-９0-9]+|[。、！？!?]|[^\\s]")

@@ -1,10 +1,14 @@
 package ua.syt0r.kanji.core.srs
 
 import kotlinx.datetime.Instant
+import ua.syt0r.kanji.core.srs.fsrs.FsrsAlgorithmVersion
 import ua.syt0r.kanji.core.srs.fsrs.FsrsReviewRating
 import ua.syt0r.kanji.core.srs.fsrs.FsrsScheduler
 
 interface SrsScheduler {
+    val algorithmVersion: FsrsAlgorithmVersion
+    val parameterSetId: String
+
     fun newCard(): SrsCard
     fun answers(data: SrsCard, reviewTime: Instant): SrsAnswers
 }
@@ -12,6 +16,9 @@ interface SrsScheduler {
 class DefaultSrsScheduler(
     private val fsrsScheduler: FsrsScheduler
 ) : SrsScheduler {
+
+    override val algorithmVersion: FsrsAlgorithmVersion = fsrsScheduler.algorithmVersion
+    override val parameterSetId: String = fsrsScheduler.parameterSetId
 
     override fun newCard(): SrsCard = SrsCard(fsrsScheduler.newCard())
 

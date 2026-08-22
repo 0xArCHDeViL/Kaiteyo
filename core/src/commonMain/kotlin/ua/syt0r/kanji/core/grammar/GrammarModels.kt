@@ -1,4 +1,4 @@
-package ua.syt0r.kanji.presentation.screen.main.screen.library.screen.grammar
+package ua.syt0r.kanji.core.grammar
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

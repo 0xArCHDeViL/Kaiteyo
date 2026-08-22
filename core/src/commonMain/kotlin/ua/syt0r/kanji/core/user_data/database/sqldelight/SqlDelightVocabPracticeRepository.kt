@@ -1,5 +1,6 @@
 package ua.syt0r.kanji.core.user_data.database.sqldelight
 
+import kotlinx.coroutines.CoroutineScope
 import ua.syt0r.kanji.core.srs.VocabPracticeType
 import ua.syt0r.kanji.core.user_data.database.ObservableRepository
 import ua.syt0r.kanji.core.user_data.database.ObservableUserDataRepository
@@ -17,8 +18,9 @@ class SqlDelightVocabPracticeRepository(
     UserDataDatabaseContract.TransactionScope by observableRepository {
 
     constructor(
-        databaseManager: UserDataDatabaseContract.Manager
-    ) : this(ObservableUserDataRepository(databaseManager))
+        databaseManager: UserDataDatabaseContract.Manager,
+        coroutineScope: CoroutineScope,
+    ) : this(ObservableUserDataRepository(databaseManager, coroutineScope))
 
     override suspend fun createDeck(
         title: String,

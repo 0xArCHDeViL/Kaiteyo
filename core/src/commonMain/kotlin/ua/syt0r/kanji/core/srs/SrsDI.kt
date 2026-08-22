@@ -13,6 +13,10 @@ import ua.syt0r.kanji.core.srs.use_case.GetSrsStatusUseCase
 
 fun Module.applySrsDefinitions() {
 
+    single(srsApplicationScopeQualifier) {
+        CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    }
+
     single<DailyLimitManager> {
         DefaultDailyLimitManager(
             appPreferences = get()
@@ -27,7 +31,7 @@ fun Module.applySrsDefinitions() {
             reviewHistoryRepository = get(),
             timeUtils = get(),
             appPreferences = get(),
-            coroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+            coroutineScope = get(srsApplicationScopeQualifier)
         )
     }
 
@@ -45,7 +49,7 @@ fun Module.applySrsDefinitions() {
     single<SrsMicroMlEngine> {
         SrsMicroMlEngine(
             profileStorage = get<ua.syt0r.kanji.core.user_data.preferences.PreferencesContract.AppPreferences>().reviewPersonalizationJson,
-            scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+            scope = get(srsApplicationScopeQualifier)
         )
     }
 
@@ -57,7 +61,7 @@ fun Module.applySrsDefinitions() {
             timeUtils = get(),
             appPreferences = get(),
             reviewHistoryRepository = get(),
-            coroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+            coroutineScope = get(srsApplicationScopeQualifier)
         )
     }
 
@@ -68,7 +72,7 @@ fun Module.applySrsDefinitions() {
             timeUtils = get(),
             appPreferences = get(),
             reviewHistoryRepository = get(),
-            coroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+            coroutineScope = get(srsApplicationScopeQualifier)
         )
     }
 

@@ -1,6 +1,9 @@
 package ua.syt0r.kanji.core.srs
 
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.launchIn
@@ -19,8 +22,8 @@ import ua.syt0r.kanji.core.user_data.preferences.PreferencesContract
 import kotlin.time.measureTime
 
 abstract class SrsManager<ItemType, PracticeType, Deck>(
-    deckChangesFlow: SharedFlow<Unit>,
-    srsChangesFlow: SharedFlow<Unit>,
+    deckChangesFlow: Flow<Unit>,
+    srsChangesFlow: Flow<Unit>,
     private val dailyLimitManager: DailyLimitManager,
     private val timeUtils: TimeUtils,
     private val appPreferences: PreferencesContract.AppPreferences,
@@ -29,6 +32,7 @@ abstract class SrsManager<ItemType, PracticeType, Deck>(
         Deck : SrsDeckData<PracticeType, ItemType> {
 
     private var cache: SrsDecksData<Deck, PracticeType>? = null
+    private val cacheMutex = Mutex()
 
     private lateinit var cachedResetTime: LocalTime
 
@@ -45,11 +49,13 @@ abstract class SrsManager<ItemType, PracticeType, Deck>(
             dailyLimitManager.changesFlow,
             appPreferences.dailyResetTime.onModified
         )
-            .onEach {
-                cache = null
-                _dataChangeFlow.emit(Unit)
-            }
+            .onEach { invalidateCachedData() }
             .launchIn(coroutineScope)
+    }
+
+    protected suspend fun invalidateCachedData() {
+        cacheMutex.withLock { cache = null }
+        _dataChangeFlow.emit(Unit)
     }
 
     protected abstract val practiceTypes: List<PracticeType>
@@ -76,28 +82,26 @@ abstract class SrsManager<ItemType, PracticeType, Deck>(
         }
     }
 
-    protected suspend fun getDecksInternal(): SrsDecksData<Deck, PracticeType> {
-        cache?.let { return it }
+    protected suspend fun getDecksInternal(): SrsDecksData<Deck, PracticeType> = cacheMutex.withLock {
+        cache?.let { return@withLock it }
         cachedResetTime = appPreferences.dailyResetTime.get()
 
         val deckDescriptors: List<SrsDeckDescriptor<ItemType, PracticeType>>
 
-        // TODO optimize
         val descriptorsLoadingTime = measureTime {
             deckDescriptors = getDeckDescriptors().sortedWith(getDecksComparator())
         }
         Logger.d("descriptorsLoadingTime[$descriptorsLoadingTime]")
 
         val cardsMap: Map<SrsCardKey, SrsCardData> = deckDescriptors
+            .asSequence()
             .flatMap { deckDescriptor ->
-                deckDescriptor.itemsData.flatMap { (_, data) ->
-                    data.itemsData.map { (_, data) -> data }
+                deckDescriptor.itemsData.asSequence().flatMap { (_, data) ->
+                    data.itemsData.values.asSequence()
                 }
             }
+            .sortedByDescending { it.lastReview }
             .associateBy { it.key }
-            .toList()
-            .sortedByDescending { (_, data) -> data.lastReview }
-            .toMap()
 
         val currentSrsDate = timeUtils.now().toSrsDate()
 
@@ -131,7 +135,7 @@ abstract class SrsManager<ItemType, PracticeType, Deck>(
             deckLimit = deckLimit
         )
 
-        return SrsDecksData(
+        return@withLock SrsDecksData(
             decks = decks,
             dailyLimitEnabled = isDailyLimitEnabled,
             dailyLimitConfiguration = dailyLimitConfiguration,

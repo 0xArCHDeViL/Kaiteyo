@@ -14,6 +14,9 @@ import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.minutes
 
 interface FsrsScheduler {
+    val algorithmVersion: FsrsAlgorithmVersion
+    val parameterSetId: String
+
     fun newCard(): FsrsCard
     fun schedule(card: FsrsCard, reviewTime: Instant): FsrsAnswers
 }
@@ -21,6 +24,9 @@ interface FsrsScheduler {
 class DefaultFsrsScheduler(
     private val fsrsAlgorithm: FsrsAlgorithm,
 ) : FsrsScheduler {
+
+    override val algorithmVersion: FsrsAlgorithmVersion = fsrsAlgorithm.version
+    override val parameterSetId: String = fsrsAlgorithm.parameterSetId
 
     override fun newCard() = FsrsCard(
         status = New,
@@ -76,9 +82,9 @@ class DefaultFsrsScheduler(
             Review -> {
                 again = card.nextCard(Relearning, Again, 5.minutes, true)
 
-                val tmpHard = card.nextCard(Review, Hard, incrementLapses = true)
-                val tmpGood = card.nextCard(Review, Good, incrementLapses = true)
-                val tmpEasy = card.nextCard(Review, Easy, incrementLapses = true)
+                val tmpHard = card.nextCard(Review, Hard)
+                val tmpGood = card.nextCard(Review, Good)
+                val tmpEasy = card.nextCard(Review, Easy)
 
                 val hardInterval = minOf(tmpHard.interval, tmpGood.interval)
                 val goodInterval = maxOf(tmpGood.interval, hardInterval + 1.days)

@@ -115,6 +115,32 @@ class FsrsSchedulerTest {
         assertEquals(expectDifficulty, resultDifficulty)
     }
 
+    @Test
+    fun reviewLapseOnlyAgainIncrementsLapses() {
+        val card = FsrsCard(
+            status = Review,
+            params = FsrsCardParams.Existing(
+                difficulty = 6.0,
+                stability = 10.0,
+                reviewTime = now - 10.days
+            ),
+            interval = 10.days,
+            lapses = 3,
+            repeats = 12
+        )
+
+        val answers = scheduler.schedule(card, now)
+
+        assertEquals(4, answers.again.lapses)
+        assertEquals(3, answers.hard.lapses)
+        assertEquals(3, answers.good.lapses)
+        assertEquals(3, answers.easy.lapses)
+        assertEquals(13, answers.again.repeats)
+        assertEquals(13, answers.hard.repeats)
+        assertEquals(13, answers.good.repeats)
+        assertEquals(13, answers.easy.repeats)
+    }
+
     private fun FsrsAnswers.get(rating: FsrsReviewRating) = when (rating) {
         Again -> again
         Hard -> hard

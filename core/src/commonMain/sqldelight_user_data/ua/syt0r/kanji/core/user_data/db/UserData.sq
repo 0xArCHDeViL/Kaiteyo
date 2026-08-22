@@ -162,9 +162,27 @@ CREATE TABLE IF NOT EXISTS review_history(
     PRIMARY KEY(key, practice_type, timestamp)
 );
 
+CREATE TABLE IF NOT EXISTS review_scheduler_metadata(
+    key TEXT NOT NULL,
+    practice_type INTEGER NOT NULL,
+    timestamp INTEGER NOT NULL,
+    algorithm_version TEXT NOT NULL,
+    parameter_set_id TEXT NOT NULL,
+    PRIMARY KEY(key, practice_type, timestamp),
+    FOREIGN KEY(key, practice_type, timestamp)
+        REFERENCES review_history(key, practice_type, timestamp)
+        ON UPDATE CASCADE ON DELETE CASCADE
+);
+
 upsertReview:
 INSERT OR REPLACE INTO review_history(key, practice_type, timestamp, duration, grade, mistakes, deck_id)
 VALUES (?,?,?,?,?,?,?);
+
+upsertReviewSchedulerMetadata:
+INSERT OR REPLACE INTO review_scheduler_metadata(
+    key, practice_type, timestamp, algorithm_version, parameter_set_id
+)
+VALUES (?,?,?,?,?);
 
 getReviewHistory:
 SELECT key, practice_type, timestamp, duration, grade, mistakes, deck_id
@@ -301,6 +319,12 @@ SELECT item_key, dimension, status, stability, difficulty, lapses, repeats,
 FROM connected_fsrs_card
 WHERE item_key IN :itemKeys
 ORDER BY item_key, dimension;
+
+getConnectedReviewItem:
+SELECT item_key, entity_kind, entity_id, entry_id, element_id, sense_id,
+       variant, legacy_key, legacy_practice_type, created_at
+FROM connected_review_item
+WHERE item_key = ?;
 
 getConnectedReviewEventsForItems:
 SELECT event_id, item_key, dimension, task_kind, prompt_variant, timestamp,

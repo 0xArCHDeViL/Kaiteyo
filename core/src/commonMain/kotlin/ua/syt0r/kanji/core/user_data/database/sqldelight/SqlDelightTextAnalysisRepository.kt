@@ -1,5 +1,6 @@
 package ua.syt0r.kanji.core.user_data.database.sqldelight
 
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.datetime.Instant
 import ua.syt0r.kanji.core.user_data.database.ObservableUserDataRepository
 import ua.syt0r.kanji.core.user_data.database.TextAnalysisData
@@ -7,8 +8,9 @@ import ua.syt0r.kanji.core.user_data.database.TextAnalysisRepository
 import ua.syt0r.kanji.core.user_data.database.UserDataDatabaseContract
 
 class SqlDelightTextAnalysisRepository(
-    manager: UserDataDatabaseContract.Manager
-) : ObservableUserDataRepository(manager),
+    manager: UserDataDatabaseContract.Manager,
+    coroutineScope: CoroutineScope,
+) : ObservableUserDataRepository(manager, coroutineScope),
     TextAnalysisRepository {
 
     override suspend fun add(data: TextAnalysisData) = writeTransaction {

@@ -1,5 +1,6 @@
 package ua.syt0r.kanji.core.user_data.database.sqldelight
 
+import kotlinx.coroutines.CoroutineScope
 import ua.syt0r.kanji.core.srs.LetterPracticeType
 import ua.syt0r.kanji.core.user_data.database.LetterDeck
 import ua.syt0r.kanji.core.user_data.database.LetterPracticeRepository
@@ -8,7 +9,8 @@ import ua.syt0r.kanji.core.user_data.database.UserDataDatabaseContract
 
 class SqlDelightLetterPracticeRepository(
     databaseManager: UserDataDatabaseContract.Manager,
-) : ObservableUserDataRepository(databaseManager), LetterPracticeRepository {
+    coroutineScope: CoroutineScope,
+) : ObservableUserDataRepository(databaseManager, coroutineScope), LetterPracticeRepository {
 
     override suspend fun createDeck(
         title: String,
