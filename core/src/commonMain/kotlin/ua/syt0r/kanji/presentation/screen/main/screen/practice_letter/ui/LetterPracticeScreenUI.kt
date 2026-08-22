@@ -98,7 +98,8 @@ fun LetterPracticeScreenUI(
     onWordClick: (JapaneseWord) -> Unit,
     onSummaryItemCLick: (LetterPracticeSummaryItem) -> Unit,
     finishPractice: () -> Unit,
-    onPracticeCompleted: () -> Unit
+    onPracticeCompleted: () -> Unit,
+    onKanjiDetailClick: (String) -> Unit,
 ) {
 
     var showEarlyFinishDialog by rememberSaveable { mutableStateOf(false) }
@@ -125,8 +126,15 @@ fun LetterPracticeScreenUI(
     ScreenLayout(
         state = state,
         toolbar = {
+            val currentCharacter = (state.value as? ScreenState.Review)
+                ?.reviewState
+                ?.itemData
+                ?.character
             PracticeToolbar(
                 state = state.toToolbarState(),
+                onDetailClick = currentCharacter?.let { character ->
+                    { onKanjiDetailClick(character) }
+                },
                 onUpButtonClick = {
                     if (shouldShowLeaveConfirmationOnBackClick.value) {
                         showEarlyFinishDialog = true

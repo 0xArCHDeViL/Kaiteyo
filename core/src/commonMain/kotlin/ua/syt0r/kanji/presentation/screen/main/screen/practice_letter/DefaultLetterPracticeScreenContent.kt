@@ -44,6 +44,9 @@ object DefaultLetterPracticeScreenContent : LetterPracticeScreenContract.Content
             },
             finishPractice = { viewModel.finishPractice() },
             onPracticeCompleted = { mainNavigationState.navigateBack() },
+            onKanjiDetailClick = { character ->
+                mainNavigationState.navigate(MainDestination.KanjiDetail(character))
+            },
         )
 
     }

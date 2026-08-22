@@ -510,9 +510,7 @@ private fun MatchingKanjiResultsPanel(
                                 interactionSource = interactionSource,
                                 indication = LocalIndication.current
                             ) {
-                                navigationState.navigate(
-                                    MainDestination.KanjiBrowser(KanjiBrowserCriteria(query = kanji))
-                                )
+                                navigationState.navigate(MainDestination.KanjiDetail(kanji))
                             },
                         color = if (isHovered || isPressed) surfaceColors.surfaceInteractive else surfaceColors.surfaceElevated
                     ) {

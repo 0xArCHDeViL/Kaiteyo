@@ -13,6 +13,12 @@ import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
 import ua.syt0r.kanji.core.app_data.AppDataRepository
+import ua.syt0r.kanji.core.app_data.data.KanjiDetailData
+import ua.syt0r.kanji.core.connected_learning.ConnectedEntityKey
+import ua.syt0r.kanji.core.connected_learning.ConnectedNodeKey
+import ua.syt0r.kanji.core.connected_learning.GraphEdgeKind
+import ua.syt0r.kanji.core.connected_learning.LearningGraphNode
+import ua.syt0r.kanji.core.connected_learning.LearningGraphRepository
 import ua.syt0r.kanji.core.app_data.data.KanjiCatalogEntry
 import ua.syt0r.kanji.core.app_data.data.RadicalData
 import ua.syt0r.kanji.core.srs.SrsPracticeType
@@ -54,7 +60,8 @@ class KaiteyoDataCenter(
     private val fsrsCardRepository: FsrsCardRepository,
     private val cardDatabaseManager: CardDatabaseManager,
     private val reviewHistoryRepository: ReviewHistoryRepository,
-    private val timeUtils: TimeUtils
+    private val timeUtils: TimeUtils,
+    private val learningGraphRepository: LearningGraphRepository,
 ) {
 
     var isLoading by mutableStateOf(true)
@@ -308,6 +315,22 @@ class KaiteyoDataCenter(
     fun cardById(cardId: String): KaiteyoCard? = cards.firstOrNull { it.id == cardId }
 
     suspend fun loadRadicals(): List<RadicalData> = appDataRepository.getRadicals()
+
+    suspend fun loadKanjiDetail(kanji: String): KanjiDetailData? =
+        appDataRepository.getKanjiDetail(kanji)
+
+    suspend fun loadKanjiGraph(kanji: String): List<LearningGraphNode> =
+        learningGraphRepository.getNeighborhood(
+            rootNodeKey = ConnectedNodeKey.from(ConnectedEntityKey.Kanji(kanji)),
+            maxDepth = 2,
+            edgeKinds = setOf(
+                GraphEdgeKind.COMPOSED_OF,
+                GraphEdgeKind.HAS_READING,
+                GraphEdgeKind.HAS_VOCABULARY,
+                GraphEdgeKind.RELATED_BY_COMPONENT,
+            ),
+            limit = 128,
+        )
 
     suspend fun loadCharactersWithRadicals(radicals: Set<String>): Set<String> {
         val result = appDataRepository.getCharactersWithRadicals(radicals.toList())

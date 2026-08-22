@@ -53,7 +53,8 @@ val mainScreenModule = module {
             fsrsCardRepository = get(),
             cardDatabaseManager = get(),
             reviewHistoryRepository = get(),
-            timeUtils = get()
+            timeUtils = get(),
+            learningGraphRepository = get(),
         )
     }
 

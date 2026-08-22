@@ -13,6 +13,8 @@ import ua.syt0r.kanji.core.app_data.data.FuriganaStringCompound
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.core.app_data.data.KanjiCatalogEntry
 import ua.syt0r.kanji.core.app_data.data.KanjiData
+import ua.syt0r.kanji.core.app_data.data.KanjiDetailData
+import ua.syt0r.kanji.core.app_data.data.KanjiReadingData
 import ua.syt0r.kanji.core.app_data.data.RadicalData
 import ua.syt0r.kanji.core.app_data.data.ReadingType
 import ua.syt0r.kanji.core.app_data.data.VocabReading
@@ -148,6 +150,32 @@ class SqlDelightAppDataRepository(
                 readings = row.all_readings.splitValues()
             )
         }
+    }
+
+    override suspend fun getKanjiDetail(
+        kanji: String,
+        vocabularyLimit: Int
+    ): KanjiDetailData? {
+        val metadata = getData(kanji) ?: return null
+        val readings = lettersQuery {
+            getKanjiReadings(kanji).executeAsList().mapNotNull { row ->
+                ReadingType.entries.firstOrNull { it.value == row.reading_type }?.let { type ->
+                    KanjiReadingData(reading = row.reading, type = type)
+                }
+            }
+        }
+        return KanjiDetailData(
+            kanji = kanji,
+            frequency = metadata.frequency,
+            variantFamily = metadata.variantFamily,
+            meanings = getMeanings(kanji),
+            readings = readings,
+            classifications = getClassificationsForKanji(kanji),
+            strokePaths = getStrokes(kanji),
+            radicals = getRadicalsInCharacter(kanji),
+            vocabularyExamples = getWordExamples(kanji)
+                .take(vocabularyLimit.coerceIn(0, 64)),
+        )
     }
 
     override suspend fun getAllKanji(): List<ua.syt0r.kanji.core.app_data.data.KanjiListEntry> = lettersQuery {

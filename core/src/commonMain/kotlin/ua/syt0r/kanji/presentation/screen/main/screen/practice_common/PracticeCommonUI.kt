@@ -128,7 +128,8 @@ sealed interface PracticeToolbarState {
 @Composable
 fun PracticeToolbar(
     state: State<PracticeToolbarState>,
-    onUpButtonClick: () -> Unit
+    onUpButtonClick: () -> Unit,
+    onDetailClick: (() -> Unit)? = null,
 ) {
     TopAppBar(
         navigationIcon = {
@@ -153,6 +154,11 @@ fun PracticeToolbar(
             }
         },
         actions = {
+            if (onDetailClick != null && state.value is PracticeToolbarState.Review) {
+                IconButton(onClick = onDetailClick) {
+                    Icon(Icons.Default.Insights, contentDescription = "Open Kanji details")
+                }
+            }
             AnimatedContent(
                 targetState = state.value,
                 transitionSpec = snapToBiggerContainerCrossfadeTransitionSpec(),

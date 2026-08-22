@@ -88,7 +88,10 @@ getKanjiMeanings:
 SELECT meaning FROM kanji_meaning WHERE kanji = ? ORDER BY priority;
 
 getKanjiReadings:
-SELECT * FROM kanji_reading WHERE kanji = ?;
+SELECT *
+FROM kanji_reading
+WHERE kanji = ?
+ORDER BY CASE reading_type WHEN 'on' THEN 0 WHEN 'kun' THEN 1 ELSE 2 END, reading;
 
 getKanjiData:
 SELECT * FROM kanji_data WHERE kanji = ?;

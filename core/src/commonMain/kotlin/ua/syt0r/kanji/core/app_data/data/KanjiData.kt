@@ -36,3 +36,27 @@ data class KanjiClassificationEntry(
     val kanji: String,
     val classification: String
 )
+
+
+data class KanjiReadingData(
+    val reading: String,
+    val type: ReadingType,
+)
+
+data class KanjiDetailData(
+    val kanji: String,
+    val frequency: Int?,
+    val variantFamily: String?,
+    val meanings: List<String>,
+    val readings: List<KanjiReadingData>,
+    val classifications: List<String>,
+    val strokePaths: List<String>,
+    val radicals: List<CharacterRadical>,
+    val vocabularyExamples: List<JapaneseWord>,
+) {
+    val onReadings: List<KanjiReadingData>
+        get() = readings.filter { it.type == ReadingType.ON }
+
+    val kunReadings: List<KanjiReadingData>
+        get() = readings.filter { it.type == ReadingType.KUN }
+}

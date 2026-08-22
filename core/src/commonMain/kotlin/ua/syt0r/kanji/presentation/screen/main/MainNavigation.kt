@@ -637,6 +637,25 @@ interface MainDestination {
     // ==================== KAITEYO REDESIGN ====================
 
     @Serializable
+    data class KanjiDetail(
+        val kanji: String,
+    ) : MainDestination {
+
+        override val analyticsName: String = "kanji_detail"
+
+        @Composable
+        override fun Content(state: MainNavigationState) {
+            val dataCenter = koinInject<ua.syt0r.kanji.presentation.screen.main.features.KaiteyoDataCenter>()
+            LaunchedEffect(kanji) { dataCenter.ensureLoaded() }
+            ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiDetailScreen(
+                kanji = kanji,
+                navigationState = state,
+                dataCenter = dataCenter,
+            )
+        }
+    }
+
+    @Serializable
     data class KanjiBrowser(
         val criteria: ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria =
             ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria()
@@ -757,6 +776,7 @@ val defaultMainDestinations: List<MainDestinationConfiguration<*>> = listOf(
     MainDestination.SearchEngine.configuration(),
     MainDestination.BulkActions.configuration(),
     MainDestination.UndoHistory.configuration(),
+    MainDestination.KanjiDetail::class.configuration(),
     MainDestination.KanjiBrowser::class.configuration(),
     MainDestination.Collections.configuration(),
 )

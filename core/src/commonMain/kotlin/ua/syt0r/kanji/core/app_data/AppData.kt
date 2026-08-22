@@ -9,6 +9,7 @@ import ua.syt0r.kanji.core.app_data.data.FuriganaString
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.core.app_data.data.KanjiCatalogEntry
 import ua.syt0r.kanji.core.app_data.data.KanjiData
+import ua.syt0r.kanji.core.app_data.data.KanjiDetailData
 import ua.syt0r.kanji.core.app_data.data.RadicalData
 import ua.syt0r.kanji.core.app_data.data.ReadingType
 import ua.syt0r.kanji.core.app_data.db.AppDataDatabase
@@ -47,6 +48,7 @@ interface AppDataRepository {
 
     // Kanji Browser catalog query: one row per kanji, all display metadata aggregated.
     suspend fun getKanjiCatalog(): List<KanjiCatalogEntry>
+    suspend fun getKanjiDetail(kanji: String, vocabularyLimit: Int = 24): KanjiDetailData?
 
     // Legacy bulk queries retained for non-catalog callers during migration.
     suspend fun getAllKanji(): List<ua.syt0r.kanji.core.app_data.data.KanjiListEntry>

@@ -80,6 +80,7 @@ import kotlinx.serialization.Serializable
 import ua.syt0r.kanji.core.app_data.data.RadicalData
 import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
 import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
+import ua.syt0r.kanji.presentation.screen.main.MainDestination
 import ua.syt0r.kanji.presentation.screen.main.MainNavigationState
 import ua.syt0r.kanji.presentation.screen.main.features.KaiteyoDataCenter
 import ua.syt0r.kanji.presentation.screen.main.screen.decks.CardFlagType
@@ -150,7 +151,6 @@ fun KanjiBrowserScreen(
     var showRadicals by remember { mutableStateOf(initialCriteria.radicals.isNotEmpty()) }
     var selectionMode by remember { mutableStateOf(false) }
     var selectedIds by remember { mutableStateOf<Set<String>>(emptySet()) }
-    var detailCardId by remember { mutableStateOf<String?>(null) }
     var radicalFilteredSet by remember { mutableStateOf<Set<String>?>(null) }
     var flagPickerTarget by remember { mutableStateOf<List<String>?>(null) }
     var tagPickerTarget by remember { mutableStateOf<List<String>?>(null) }
@@ -378,7 +378,7 @@ fun KanjiBrowserScreen(
                                 onSelect = {
                                     selectedIds = if (it in selectedIds) selectedIds - it else selectedIds + it
                                 },
-                                onClick = { detailCardId = card.id },
+                                onClick = { navigationState.navigate(MainDestination.KanjiDetail(card.id)) },
                                 onLongClick = {
                                     selectionMode = true
                                     selectedIds = setOf(card.id)
@@ -400,7 +400,7 @@ fun KanjiBrowserScreen(
                                 onSelect = {
                                     selectedIds = if (it in selectedIds) selectedIds - it else selectedIds + it
                                 },
-                                onClick = { detailCardId = card.id },
+                                onClick = { navigationState.navigate(MainDestination.KanjiDetail(card.id)) },
                                 onLongClick = {
                                     selectionMode = true
                                     selectedIds = setOf(card.id)
@@ -420,16 +420,6 @@ fun KanjiBrowserScreen(
                 style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
         }
-    }
-
-    // Dialogs
-    detailCardId?.let { cardId ->
-        KanjiDetailDialog(
-            cardId = cardId,
-            dataCenter = dataCenter,
-            onDismiss = { detailCardId = null },
-            scope = scope
-        )
     }
 
     flagPickerTarget?.let { targets ->
@@ -1227,251 +1217,6 @@ private fun BrowserEmptyState(hasFilters: Boolean, onClear: () -> Unit) {
 }
 
 // ============================================
-// Dialogs
-// ============================================
-
-@Composable
-fun KanjiDetailDialog(
-    cardId: String,
-    dataCenter: KaiteyoDataCenter,
-    onDismiss: () -> Unit,
-    scope: kotlinx.coroutines.CoroutineScope
-) {
-    val surfaceColors = LocalSurfaceColors.current
-    val accent = LocalKaiteyoAccent.current
-    val card = dataCenter.cardById(cardId)
-
-    if (card == null) {
-        LaunchedEffect(Unit) { onDismiss() }
-        return
-    }
-
-    var tagPickerOpen by remember { mutableStateOf(false) }
-
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color.Black.copy(alpha = 0.55f))
-            .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null) { onDismiss() },
-        contentAlignment = Alignment.Center
-    ) {
-        Surface(
-            modifier = Modifier
-                .width(460.dp)
-                .height(560.dp),
-            shape = RoundedCornerShape(Dimens.RadiusXl),
-            color = surfaceColors.surfaceElevated
-        ) {
-                Column(modifier = Modifier.padding(24.dp)) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(
-                            text = card.character,
-                            fontSize = 56.sp,
-                            color = surfaceColors.textPrimary,
-                            modifier = Modifier.weight(1f)
-                        )
-                        IconButton(onClick = { scope.launch { dataCenter.toggleFavorite(cardId) } }) {
-                            Icon(
-                                if (card.isFavorite) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
-                                contentDescription = "Favorite",
-                                tint = if (card.isFavorite) Color(0xFFFF6B9D) else surfaceColors.textMuted
-                            )
-                        }
-                        IconButton(onClick = onDismiss) {
-                            Icon(Icons.Default.Close, "Close", tint = surfaceColors.textMuted)
-                        }
-                    }
-
-                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        Text(
-                            text = card.meaning,
-                            color = surfaceColors.textSecondary,
-                            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
-                        )
-                        Text(
-                            text = card.reading,
-                            color = surfaceColors.textSecondary,
-                            style = androidx.compose.material3.MaterialTheme.typography.bodySmall
-                        )
-                    }
-
-                    Spacer(Modifier.height(14.dp))
-
-                    // Info chips
-                    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        dataCenter.strokeCounts[cardId]?.let { strokes ->
-                            InfoChip("${strokes} strokes", accent, surfaceColors)
-                        }
-                        dataCenter.classifications[cardId].orEmpty().forEach { cls ->
-                            InfoChip(
-                                when {
-                                    cls.startsWith("n") -> "JLPT ${cls.uppercase()}"
-                                    else -> "Grade ${cls.drop(1)}"
-                                },
-                                accent,
-                                surfaceColors
-                            )
-                        }
-                        dataCenter.frequencies[cardId]?.let { freq ->
-                            InfoChip("#$freq most frequent", accent, surfaceColors)
-                        }
-                        if (dataCenter.isLearned(cardId)) {
-                            InfoChip("Learned", accent, surfaceColors)
-                        }
-                        if (dataCenter.isDifficult(cardId)) {
-                            InfoChip("Difficult", ua.syt0r.kanji.presentation.common.theme.semanticError, surfaceColors)
-                        }
-                        card.flag.takeIf { it != CardFlagType.None }?.let { flag ->
-                            InfoChip("Flagged ${flag.displayName}", flag.colorFromHex(), surfaceColors)
-                        }
-                    }
-
-                    Spacer(Modifier.height(16.dp))
-
-                    // Flag selector
-                    Text("Flag", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
-                    Row(
-                        modifier = Modifier.fillMaxWidth().padding(top = 6.dp),
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        FlagColorOption(CardFlagType.None, card.flag == CardFlagType.None, surfaceColors) {
-                            scope.launch { dataCenter.setFlag(listOf(cardId), CardFlagType.None) }
-                        }
-                        CardFlagType.entries.filter { it != CardFlagType.None }.forEach { flag ->
-                            FlagColorOption(flag, card.flag == flag, surfaceColors) {
-                                scope.launch { dataCenter.setFlag(listOf(cardId), flag) }
-                            }
-                        }
-                    }
-
-                    Spacer(Modifier.height(16.dp))
-
-                    // Tags
-                    Text("Tags", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
-                    val cardTagIds = dataCenter.cardTags[cardId].orEmpty()
-                    FlowRow(
-                        modifier = Modifier.fillMaxWidth().padding(top = 6.dp),
-                        horizontalArrangement = Arrangement.spacedBy(6.dp),
-                        verticalArrangement = Arrangement.spacedBy(6.dp)
-                    ) {
-                        if (cardTagIds.isEmpty()) {
-                            Text("No tags", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
-                        }
-                        dataCenter.tags.forEach { tag ->
-                            if (tag.id in cardTagIds) {
-                                TagBadge(tag, accent, surfaceColors)
-                            }
-                        }
-                        TextButton(onClick = { tagPickerOpen = true }, contentPadding = PaddingValues(horizontal = 8.dp)) {
-                            Text("+ Add", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
-                        }
-                    }
-
-                    Spacer(Modifier.weight(1f))
-
-                    // Actions
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        OutlinedButton(onClick = onDismiss, modifier = Modifier.weight(1f)) {
-                            Text("Close", color = surfaceColors.textSecondary)
-                        }
-                        Button(
-                            onClick = { scope.launch { dataCenter.resetProgress(listOf(cardId)) } },
-                            modifier = Modifier.weight(1f),
-                            colors = androidx.compose.material3.ButtonDefaults.buttonColors(
-                                containerColor = ua.syt0r.kanji.presentation.common.theme.semanticError.copy(alpha = Dimens.Alpha.Light),
-                                contentColor = ua.syt0r.kanji.presentation.common.theme.semanticError
-                            )
-                        ) {
-                            Text("Reset progress")
-                        }
-                    }
-                }
-        }
-    }
-
-    if (tagPickerOpen) {
-        TagPickerDialog(
-            dataCenter = dataCenter,
-            onApply = { tagId, add ->
-                scope.launch {
-                    if (add) dataCenter.addTagToCards(listOf(cardId), tagId)
-                    else dataCenter.removeTagFromCards(listOf(cardId), tagId)
-                }
-                tagPickerOpen = false
-            },
-            onDismiss = { tagPickerOpen = false }
-        )
-    }
-}
-
-@Composable
-private fun InfoChip(
-    label: String,
-    accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme,
-    surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors
-) {
-    Box(
-        modifier = Modifier
-            .clip(RoundedCornerShape(Dimens.RadiusSm))
-            .background(accent.primary.copy(alpha = 0.10f))
-            .padding(horizontal = 10.dp, vertical = 4.dp)
-    ) {
-        Text(label, color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Medium)
-    }
-}
-
-@Composable
-private fun InfoChip(label: String, color: Color, surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors) {
-    Box(
-        modifier = Modifier
-            .clip(RoundedCornerShape(Dimens.RadiusSm))
-            .background(color.copy(alpha = Dimens.Alpha.Light))
-            .padding(horizontal = 10.dp, vertical = 4.dp)
-    ) {
-        Text(label, color = color, style = androidx.compose.material3.MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Medium)
-    }
-}
-
-@Composable
-private fun FlagColorOption(
-    flag: CardFlagType,
-    selected: Boolean,
-    surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors,
-    onClick: () -> Unit
-) {
-    val color = if (flag == CardFlagType.None) surfaceColors.textMuted else flag.colorFromHex()
-    Box(
-        modifier = Modifier
-            .size(26.dp)
-            .clip(CircleShape)
-            .background(color.copy(alpha = if (flag == CardFlagType.None) 0.15f else 1f))
-            .border(2.dp, if (selected) Color.White.copy(alpha = 0.9f) else Color.Transparent, CircleShape)
-            .clickable(onClick = onClick)
-    )
-}
-
-@Composable
-private fun TagBadge(
-    tag: ua.syt0r.kanji.presentation.screen.main.screen.decks.CardTag,
-    accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme,
-    surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors
-) {
-    val color = tag.getDisplayColor()
-    Row(
-        modifier = Modifier
-            .clip(RoundedCornerShape(Dimens.RadiusSm))
-            .background(color.copy(alpha = 0.14f))
-            .padding(horizontal = 8.dp, vertical = 3.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(5.dp)
-    ) {
-        Box(Modifier.size(6.dp).clip(CircleShape).background(color))
-        Text(tag.name, color = color, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
-    }
-}
-
-// ============================================
-// Flag picker dialog (bulk)
 // ============================================
 
 @Composable
