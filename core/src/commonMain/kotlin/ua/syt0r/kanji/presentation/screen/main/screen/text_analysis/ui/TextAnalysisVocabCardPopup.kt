@@ -1,7 +1,6 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.text_analysis.ui
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -12,13 +11,15 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.sizeIn
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Add
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -26,11 +27,11 @@ import androidx.compose.runtime.MutableState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.window.Popup
-import androidx.compose.ui.window.PopupProperties
+import androidx.compose.material3.DropdownMenu
 import ua.syt0r.kanji.core.app_data.data.formattedVocabStringReading
 import ua.syt0r.kanji.presentation.common.copyCentered
 import ua.syt0r.kanji.presentation.common.theme.Dimens
@@ -49,56 +50,47 @@ fun TextAnalysisVocabCardPopup(
 
     val scrollState = rememberScrollState()
 
-    Popup(
+    DropdownMenu(
+        expanded = showPopup.value,
         onDismissRequest = { showPopup.value = false },
-        properties = PopupProperties()
+        modifier = Modifier
+            .widthIn(min = 280.dp, max = 360.dp)
+            .heightIn(max = 480.dp),
     ) {
         Row(
             modifier = Modifier
                 .height(IntrinsicSize.Max)
-                .shadow(Dimens.Space2, MaterialTheme.shapes.medium)
-                .clip(MaterialTheme.shapes.medium)
-                .background(MaterialTheme.colorScheme.surfaceDim)
+                .fillMaxHeight()
         ) {
-
             Column(
                 modifier = Modifier
-                    .sizeIn(
-                        minWidth = Dimens.PopupMinWidth,
-                        maxWidth = Dimens.PopupMaxSize,
-                        maxHeight = Dimens.PopupMaxSize
-                    )
+                    .weight(1f)
                     .verticalScroll(scrollState)
                     .padding(vertical = Dimens.ContentPaddingSmall)
                     .padding(start = Dimens.ContentPaddingSmall),
-                verticalArrangement = Arrangement.spacedBy(Dimens.Space1)
+                verticalArrangement = Arrangement.spacedBy(Dimens.Space1),
             ) {
-
-                node.cards.forEachIndexed { i, it ->
-
+                node.cards.forEachIndexed { i, cardData ->
                     CardDataUI(
-                        cardData = it,
-                        onAddClick = { saveWord(it) }
+                        cardData = cardData,
+                        onAddClick = {
+                            saveWord(cardData)
+                            showPopup.value = false
+                        },
                     )
-
-                    if (i != node.cards.size - 1) {
+                    if (i != node.cards.lastIndex) {
                         Spacer(modifier = Modifier.height(Dimens.Space3))
                     }
-
                 }
-
             }
-
             VerticalScrollbar(
                 scrollState = scrollState,
                 modifier = Modifier
                     .fillMaxHeight()
                     .padding(vertical = Dimens.Space2)
-                    .padding(end = Dimens.Space1)
+                    .padding(end = Dimens.Space1),
             )
-
         }
-
     }
 }
 
@@ -122,15 +114,16 @@ fun CardDataUI(
                 .weight(1f)
                 .align(Alignment.CenterVertically)
         )
-        Icon(
-            imageVector = Icons.Outlined.Add,
-            contentDescription = null,
-            modifier = Modifier
-                .align(Alignment.CenterVertically)
-                .clip(MaterialTheme.shapes.small)
-                .clickable(onClick = onAddClick)
-                .padding(Dimens.Space1)
-        )
+                    IconButton(
+                onClick = onAddClick,
+                modifier = Modifier.align(Alignment.CenterVertically),
+            ) {
+                Icon(
+                    imageVector = Icons.Outlined.Add,
+                    contentDescription = "Add ${reading.kanjiReading ?: reading.kanaReading} to deck",
+                )
+            }
+
     }
 
     cardData.notes.takeIf { it.isNotEmpty() }?.let { notes ->

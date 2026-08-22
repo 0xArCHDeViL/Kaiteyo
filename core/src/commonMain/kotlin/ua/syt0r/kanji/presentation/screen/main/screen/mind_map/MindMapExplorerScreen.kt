@@ -54,6 +54,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.clipToBounds
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.DrawScope
@@ -73,6 +74,7 @@ import ua.syt0r.kanji.core.connected_learning.GraphEdgeKind
 import ua.syt0r.kanji.core.connected_learning.GraphNodeKind
 import ua.syt0r.kanji.core.connected_learning.LearningGraphConnection
 import ua.syt0r.kanji.core.connected_learning.LearningGraphNode
+import ua.syt0r.kanji.presentation.common.kaiteyoHeading
 import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
 import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
 import ua.syt0r.kanji.presentation.screen.main.MainDestination
@@ -88,8 +90,8 @@ import kotlin.math.min
 import kotlin.math.roundToInt
 import kotlin.math.sin
 
-private const val MaxVisibleCanvasNodes = 192
-private const val MinCanvasScale = 0.42f
+private const val MaxVisibleCanvasNodes = 96
+private const val MinCanvasScale = 0.28f
 private const val MaxCanvasScale = 2.8f
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -257,7 +259,12 @@ private fun ExplorerTopBar(
     androidx.compose.material3.TopAppBar(
         title = {
             Column {
-                Text(mode.title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                Text(
+                    mode.title,
+                    modifier = Modifier.kaiteyoHeading(),
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold,
+                )
                 Text(
                     text = selected?.label?.let { "Whiteboard · $it" } ?: "Canonical connected-learning graph",
                     style = MaterialTheme.typography.labelSmall,
@@ -357,7 +364,12 @@ private fun CatalogSheetContent(
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
-                Text("${mode.title} catalog", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                Text(
+                    "${mode.title} catalog",
+                    modifier = Modifier.kaiteyoHeading(),
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold,
+                )
                 Text("Select a root to render its graph", color = colors.textMuted, style = MaterialTheme.typography.bodySmall)
             }
             Icon(Icons.Default.Tune, contentDescription = null, tint = LocalKaiteyoAccent.current.primary)
@@ -502,21 +514,49 @@ private fun MindMapCanvasSurface(
             pan = Offset.Zero
         }
 
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(colors.surface)
-                .semantics {
-                    contentDescription = "Interactive mind map canvas. Drag to pan and pinch to zoom."
-                }
-                .pointerInput(snapshot.rootKey) {
-                    detectTransformGestures { _, panChange, zoomChange, _ ->
-                        scale = (scale * zoomChange).coerceIn(MinCanvasScale, MaxCanvasScale)
-                        pan = clampPan(pan + panChange, widthPx, heightPx)
+                    Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .clipToBounds()
+                    .background(colors.surface)
+                    .semantics {
+                        contentDescription = "Interactive mind map whiteboard. Drag to pan and pinch to zoom."
                     }
-                },
-        ) {
+                    .pointerInput(snapshot.rootKey) {
+                        detectTransformGestures { centroid, panChange, zoomChange, _ ->
+                            val previousScale = scale
+                            val nextScale = (scale * zoomChange).coerceIn(MinCanvasScale, MaxCanvasScale)
+                            val focus = centroid - center
+                            val zoomPanChange = focus * (previousScale - nextScale)
+                            scale = nextScale
+                            pan = clampPan(pan + panChange + zoomPanChange, widthPx, heightPx)
+                        }
+                    },
+            ) {
             Canvas(Modifier.fillMaxSize()) {
+                val gridStep = with(density) { 32.dp.toPx() }
+                var x = 0f
+                while (x <= size.width) {
+                    drawLine(
+                        color = outlineColor.copy(alpha = 0.08f),
+                        start = Offset(x, 0f),
+                        end = Offset(x, size.height),
+                        strokeWidth = 1f,
+                    )
+                    x += gridStep
+                }
+                var y = 0f
+                while (y <= size.height) {
+                    drawLine(
+                        color = outlineColor.copy(alpha = 0.08f),
+                        start = Offset(0f, y),
+                        end = Offset(size.width, y),
+                        strokeWidth = 1f,
+                    )
+                    y += gridStep
+                }
+
+
                 visibleConnections.forEach { connection ->
                     val from = nodeById[connection.fromNodeId] ?: return@forEach
                     val to = nodeById[connection.toNodeId] ?: return@forEach

@@ -4,7 +4,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import ua.syt0r.kanji.presentation.screen.main.MainNavigationState
 
 /**
  * Keeps one mobile navigation hierarchy across every Android device class.
@@ -13,7 +12,6 @@ import ua.syt0r.kanji.presentation.screen.main.MainNavigationState
  */
 @Composable
 fun NavShell(
-    navigationState: MainNavigationState,
     modifier: Modifier = Modifier,
     content: @Composable () -> Unit
 ) {

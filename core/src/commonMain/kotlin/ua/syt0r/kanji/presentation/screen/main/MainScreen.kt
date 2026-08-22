@@ -14,8 +14,8 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.snapshotFlow
-import kotlinx.coroutines.flow.SharedFlow
-import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
@@ -193,7 +193,7 @@ fun MainScreen(
             )
         }
     ) {
-        NavShell(navigationState = navigationState) {
+        NavShell {
             MainNavigation(navigationState)
         }
     }
@@ -204,6 +204,12 @@ fun MainScreen(
 
     HandleScreenReportsLaunchedEffect(
         navigationState = navigationState
+    )
+
+    HandleSnackbarNotificationsLaunchedEffect(
+        notifications = viewModel.notifications,
+        snackbarHostState = snackbarHostState,
+        navigationState = navigationState,
     )
 
     val currentMigrationState = migrationState.value
@@ -218,12 +224,6 @@ fun MainScreen(
         VersionChangeDialog { viewModel.showVersionChangeDialog.value = false }
         return
     }
-
-    HandleSnackbarNotificationsLaunchedEffect(
-        notifications = viewModel.notifications,
-        snackbarHostState = snackbarHostState,
-        navigationState = navigationState
-    )
 
     SyncDialog(
         state = viewModel.syncDialogState.collectAsState(),
@@ -251,12 +251,12 @@ private fun HandleScreenReportsLaunchedEffect(navigationState: MainNavigationSta
 
 @Composable
 private fun HandleSnackbarNotificationsLaunchedEffect(
-    notifications: SharedFlow<MainSnackbarNotification>,
+    notifications: Flow<MainSnackbarNotification>,
     snackbarHostState: SnackbarHostState,
     navigationState: MainNavigationState
 ) {
     LaunchedEffect(Unit) {
-        notifications.collectLatest { notification ->
+        notifications.collect { notification ->
             val result = snackbarHostState.showSnackbar(notification)
             if (result == SnackbarResult.ActionPerformed) {
                 val destination = notification.handleAction()
@@ -270,7 +270,11 @@ private fun HandleSnackbarNotificationsLaunchedEffect(
 
 @Composable
 private fun NotificationSnackbar(snackbarData: SnackbarData) {
-    val notification = snackbarData.visuals as MainSnackbarNotification
+    val notification = snackbarData.visuals as? MainSnackbarNotification
+    if (notification == null) {
+        Snackbar(snackbarData = snackbarData)
+        return
+    }
     when {
         notification.isError -> {
             Snackbar(

@@ -3,6 +3,7 @@ package ua.syt0r.kanji.presentation
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.windowsizeclass.WindowHeightSizeClass
 import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
@@ -27,6 +28,16 @@ import ua.syt0r.kanji.presentation.common.ui.Orientation
 import ua.syt0r.kanji.presentation.screen.main.MainScreen
 import ua.syt0r.kanji.presentation.screen.main.features.DeepLinkHandler
 
+internal fun resolveAppOrientation(
+    widthSizeClass: WindowWidthSizeClass,
+    heightSizeClass: WindowHeightSizeClass,
+): Orientation {
+    val isWideLandscapeWindow =
+        widthSizeClass != WindowWidthSizeClass.Compact &&
+            heightSizeClass == WindowHeightSizeClass.Compact
+    return if (isWideLandscapeWindow) Orientation.Landscape else Orientation.Portrait
+}
+
 @Composable
 fun KaiteyoApp(
     windowSizeClass: WindowSizeClass,
@@ -39,10 +50,10 @@ fun KaiteyoApp(
         appDataSetupController.initialize()
     }
 
-    val orientation = when (windowSizeClass.widthSizeClass) {
-        WindowWidthSizeClass.Expanded -> Orientation.Landscape
-        else -> Orientation.Portrait
-    }
+    val orientation = resolveAppOrientation(
+        widthSizeClass = windowSizeClass.widthSizeClass,
+        heightSizeClass = windowSizeClass.heightSizeClass,
+    )
 
     // themeManager.currentTheme is a compose State<PreferencesTheme>, so 'by' delegate works with import
     val currentPrefTheme: PreferencesTheme by themeManager.currentTheme

@@ -49,7 +49,7 @@ object Dimens {
     val IconSmall = 20.dp
     val IconLg = 28.dp
     val IconXl = 32.dp
-    val IconButton = 40.dp
+    val IconButton = 48.dp
 
     // --- Alpha Scale ---
     object Alpha {

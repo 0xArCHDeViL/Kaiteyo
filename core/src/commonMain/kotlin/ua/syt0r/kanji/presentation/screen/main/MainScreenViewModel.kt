@@ -4,10 +4,10 @@ import androidx.compose.material3.SnackbarDuration
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ProducerScope
-import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.channelFlow
 import kotlinx.coroutines.flow.collect
@@ -17,6 +17,7 @@ import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import kotlinx.datetime.Instant
@@ -27,7 +28,6 @@ import ua.syt0r.kanji.BuildConfig
 import ua.syt0r.kanji.Res
 import ua.syt0r.kanji.core.AccountManager
 import ua.syt0r.kanji.core.ApiRequestIssue
-import ua.syt0r.kanji.core.emitWhenWithSubscribers
 import ua.syt0r.kanji.core.format
 import ua.syt0r.kanji.core.sync.SyncConflictResolveStrategy
 import ua.syt0r.kanji.core.sync.SyncDataDiffType
@@ -51,8 +51,8 @@ class MainScreenViewModel(
     private val syncManager: SyncManager
 ) : MainContract.ViewModel {
 
-    private val _notifications = MutableSharedFlow<MainSnackbarNotification>()
-    override val notifications: SharedFlow<MainSnackbarNotification> = _notifications
+    private val _notifications = Channel<MainSnackbarNotification>(Channel.BUFFERED)
+    override val notifications: Flow<MainSnackbarNotification> = _notifications.receiveAsFlow()
 
     override val migrationState: StateFlow<DatabaseMigrationState> = migrationObservable.state
 
@@ -81,7 +81,7 @@ class MainScreenViewModel(
                 }
             )
 
-            _notifications.emitWhenWithSubscribers(notification)
+            _notifications.send(notification)
         }
 
         appPreferences.subscriptionAlert.onModified
@@ -183,7 +183,7 @@ class MainScreenViewModel(
             handleAction = { MainDestination.Account() },
             duration = SnackbarDuration.Indefinite
         )
-        _notifications.emitWhenWithSubscribers(notification)
+        _notifications.send(notification)
     }
 
     private suspend fun notifySubscriptionExpiration() {
@@ -194,7 +194,7 @@ class MainScreenViewModel(
             handleAction = { MainDestination.Account() },
             duration = SnackbarDuration.Indefinite
         )
-        _notifications.emitWhenWithSubscribers(notification)
+        _notifications.send(notification)
     }
 
     private fun notifySyncError(error: SyncDialogState.Error) {
@@ -224,7 +224,7 @@ class MainScreenViewModel(
             handleAction = { _syncDialogState.value = error; null }
         )
 
-        viewModelScope.launch { _notifications.emitWhenWithSubscribers(notification) }
+        viewModelScope.launch { _notifications.send(notification) }
     }
 
 }

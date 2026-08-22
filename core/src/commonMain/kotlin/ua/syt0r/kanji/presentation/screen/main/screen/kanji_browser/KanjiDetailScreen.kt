@@ -60,6 +60,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -73,6 +74,7 @@ import ua.syt0r.kanji.core.tts.AppTtsManager
 import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
 import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
 import ua.syt0r.kanji.presentation.common.ScreenLetterPracticeType
+import ua.syt0r.kanji.presentation.common.kaiteyoHeading
 import ua.syt0r.kanji.presentation.common.ui.kanji.Kanji
 import ua.syt0r.kanji.presentation.common.ui.kanji.parseKanjiStrokes
 import ua.syt0r.kanji.presentation.common.theme.Dimens
@@ -480,15 +482,32 @@ private fun VocabularySection(vocabulary: List<JapaneseWord>, onWordClick: (Japa
         } else {
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 vocabulary.take(12).forEach { word ->
-                    Row(
-                        modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(Dimens.RadiusMd)).clickable { onWordClick(word) }.padding(horizontal = 10.dp, vertical = 8.dp),
-                        verticalAlignment = Alignment.CenterVertically,
+                    Surface(
+                        onClick = { onWordClick(word) },
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = MaterialTheme.shapes.medium,
+                        color = LocalSurfaceColors.current.surfaceInteractive,
                     ) {
-                        Column(Modifier.weight(1f)) {
-                            Text(word.reading.kanjiReading ?: word.reading.kanaReading, color = LocalSurfaceColors.current.textPrimary, style = MaterialTheme.typography.bodyLarge)
-                            Text(word.reading.kanaReading, color = LocalSurfaceColors.current.textMuted, style = MaterialTheme.typography.bodySmall)
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(horizontal = 12.dp, vertical = 10.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Column(Modifier.weight(1.4f)) {
+                                Text(word.reading.kanjiReading ?: word.reading.kanaReading, color = LocalSurfaceColors.current.textPrimary, style = MaterialTheme.typography.bodyLarge)
+                                Text(word.reading.kanaReading, color = LocalSurfaceColors.current.textMuted, style = MaterialTheme.typography.bodySmall)
+                            }
+                            Text(
+                                word.glossary.firstOrNull().orEmpty(),
+                                color = LocalSurfaceColors.current.textSecondary,
+                                style = MaterialTheme.typography.bodySmall,
+                                maxLines = 2,
+                                overflow = TextOverflow.Ellipsis,
+                                textAlign = TextAlign.End,
+                                modifier = Modifier.weight(1f),
+                            )
                         }
-                        Text(word.glossary.firstOrNull().orEmpty(), color = LocalSurfaceColors.current.textSecondary, style = MaterialTheme.typography.bodySmall, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.width(180.dp))
                     }
                 }
             }
@@ -503,7 +522,7 @@ private fun LearningStatusSection(kanji: String, dataCenter: KaiteyoDataCenter) 
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
             Text(if (dataCenter.isLearned(kanji)) "In your writing review" else "Not reviewed yet", color = surfaceColors.textPrimary)
             if (dataCenter.isDifficult(kanji)) {
-                Text("Difficult", color = Color(0xFFE57373), fontWeight = FontWeight.SemiBold)
+                Text("Difficult", color = MaterialTheme.colorScheme.error, fontWeight = FontWeight.SemiBold)
             }
             dataCenter.cardFlagsFor(kanji).takeIf { it.id != 0 }?.let { flag ->
                 Icon(Icons.Default.Flag, contentDescription = flag.displayName, tint = flag.colorFromHex())
@@ -519,7 +538,13 @@ private fun DetailSection(title: String, subtitle: String? = null, icon: android
         Column(Modifier.fillMaxWidth().padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 icon?.let { Icon(it, null, tint = LocalKaiteyoAccent.current.primary, modifier = Modifier.size(18.dp)) }
-                Text(title, color = surfaceColors.textPrimary, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                Text(
+                    title,
+                    modifier = Modifier.kaiteyoHeading(),
+                    color = surfaceColors.textPrimary,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                )
             }
             subtitle?.let { Text(it, color = surfaceColors.textMuted, style = MaterialTheme.typography.bodySmall) }
             content()

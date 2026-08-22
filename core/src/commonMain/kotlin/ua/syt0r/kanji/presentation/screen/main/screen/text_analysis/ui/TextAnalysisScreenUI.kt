@@ -74,6 +74,7 @@ import org.jetbrains.compose.resources.stringResource
 import ua.syt0r.kanji.Res
 import ua.syt0r.kanji.presentation.common.AppCheckBox
 import ua.syt0r.kanji.presentation.common.AppDropdownMenu
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.presentation.common.AppDropdownMenuItem
 import ua.syt0r.kanji.presentation.common.AppListItem
 import ua.syt0r.kanji.presentation.common.PaginationLoadLaunchedEffect
@@ -254,7 +255,7 @@ private fun AnalysisResultSection(
                         modifier = modifier
                             .fillMaxWidth()
                             .wrapContentSize()
-                            .widthIn(max = Dimens.ScreenWidth)
+                            .widthIn(max = 720.dp)
                             .verticalScroll(rememberScrollState())
                     ) {
                         Icon(
@@ -594,19 +595,20 @@ private fun RowScope.WordNode(
     Box(
         modifier = Modifier
             .clip(MaterialTheme.shapes.small)
-            .clickable { showPopup.value = true }
+            .kaiteyoClickable(
+                onClick = { showPopup.value = true },
+                contentDescription = "Open vocabulary details for ${node.text}",
+            )
             .padding(Dimens.Space2, Dimens.Space1)
             .width(IntrinsicSize.Max)
             .alignByBaseline()
     ) {
 
-        Box(Modifier.align(Alignment.BottomStart)) {
-            TextAnalysisVocabCardPopup(
-                showPopup = showPopup,
-                node = node,
-                saveWord = saveWord
-            )
-        }
+        TextAnalysisVocabCardPopup(
+            showPopup = showPopup,
+            node = node,
+            saveWord = saveWord,
+        )
 
         Column(
             verticalArrangement = Arrangement.spacedBy(Dimens.Space1)

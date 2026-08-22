@@ -1,7 +1,6 @@
 package ua.syt0r.kanji.presentation.common
 import androidx.compose.ui.unit.dp
 
-import androidx.compose.foundation.clickable
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -28,6 +27,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextOverflow
 import ua.syt0r.kanji.presentation.common.theme.Dimens
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.core.app_data.data.VocabReading
 import ua.syt0r.kanji.core.app_data.data.formattedVocabDefinition
@@ -110,7 +110,14 @@ fun NewStyleJapaneseWordUI(
 ) {
 
     NewStyleLayout(
-        modifier = modifier.clickable(onClick),
+        modifier = modifier.then(
+            onClick?.let { click ->
+                Modifier.kaiteyoClickable(
+                    onClick = click,
+                    contentDescription = "Open vocabulary details",
+                )
+            } ?: Modifier
+        ),
         topContent = {
             Text(
                 text = "${index + 1}",
@@ -118,14 +125,8 @@ fun NewStyleJapaneseWordUI(
             )
 
             addWordToVocabDeckClick?.let {
-                Box(
-                    modifier = Modifier
-                        .clip(MaterialTheme.shapes.small)
-                        .clickable(it)
-                        .height(Dimens.IconButton)
-                        .padding(Dimens.Space1)
-                ) {
-                    Icon(Icons.Default.Add, null)
+                IconButton(onClick = it) {
+                    Icon(Icons.Default.Add, contentDescription = "Add vocabulary to deck")
                 }
             }
         },

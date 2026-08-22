@@ -16,7 +16,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.lazy.LazyListScope
@@ -136,13 +136,17 @@ fun InfoScreenUI(
                 }
             }
 
-            Column(
+            Box(
                 modifier = Modifier
                     .fillMaxSize()
-                    .wrapContentWidth()
-                    .width(Dimens.ScreenWidth)
-                    .padding(Dimens.ContentPadding)
+                    .padding(Dimens.ContentPadding),
             ) {
+                Column(
+                    modifier = Modifier
+                        .align(Alignment.TopCenter)
+                        .fillMaxWidth()
+                        .widthIn(max = 520.dp),
+                ) {
 
                 Text(
                     text = message,
@@ -159,14 +163,15 @@ fun InfoScreenUI(
                 }
 
                 val uriHandler = LocalUriHandler.current
-                Button(
-                    onClick = {
-                        uriHandler.openUri(InfoScreenContract.getJishoSearchUrl(searchTerm))
-                    },
-                    modifier = Modifier.fillMaxWidth(),
-                    colors = ButtonDefaults.neutralButtonColors()
-                ) {
-                    Text(text = stringResource(Res.string.info_no_data_jisho))
+                    Button(
+                        onClick = {
+                            uriHandler.openUri(InfoScreenContract.getJishoSearchUrl(searchTerm))
+                        },
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = ButtonDefaults.neutralButtonColors(),
+                    ) {
+                        Text(text = stringResource(Res.string.info_no_data_jisho))
+                    }
                 }
             }
 

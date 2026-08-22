@@ -38,7 +38,6 @@ import androidx.compose.material.icons.automirrored.filled.NavigateNext
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Insights
 import androidx.compose.material.icons.filled.KeyboardArrowDown
-import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -68,6 +67,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -99,6 +99,7 @@ import ua.syt0r.kanji.presentation.common.AppDropdownMenuItem
 import ua.syt0r.kanji.presentation.common.AppListItem
 import ua.syt0r.kanji.presentation.common.AppListItemDefaults
 import ua.syt0r.kanji.presentation.common.MultiplatformDialog
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.presentation.common.resources.string.StringResolveScope
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.presentation.common.theme.Dimens
@@ -133,7 +134,7 @@ fun PracticeToolbar(
     TopAppBar(
         navigationIcon = {
             IconButton(onClick = onUpButtonClick) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, null)
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
             }
         },
         title = {
@@ -185,8 +186,11 @@ fun PracticeInsightsAction(
         modifier = Modifier
             .fillMaxWidth()
             .height(56.dp)
-            .clip(RoundedCornerShape(Dimens.RadiusLg))
-            .clickable(onClick = onClick),
+            .clip(MaterialTheme.shapes.large)
+            .kaiteyoClickable(
+                onClick = onClick,
+                contentDescription = "Open Kanji insights",
+            ),
         color = colors.surfaceInteractive,
         tonalElevation = 2.dp,
     ) {
@@ -202,7 +206,7 @@ fun PracticeInsightsAction(
                 Text("Kanji details", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.SemiBold)
                 Text("Open insights", style = MaterialTheme.typography.labelSmall, color = colors.textMuted)
             }
-            Icon(Icons.Default.KeyboardArrowUp, contentDescription = "Open Kanji details", tint = accent.primary)
+            Icon(Icons.AutoMirrored.Filled.NavigateNext, contentDescription = null, tint = accent.primary)
         }
     }
 }
@@ -467,7 +471,10 @@ fun ColumnScope.PracticeConfigurationCharactersPreview(
 
     Row(
         Modifier.clip(MaterialTheme.shapes.medium)
-            .clickable(onClick = { previewExpanded = !previewExpanded })
+            .kaiteyoClickable(
+                onClick = { previewExpanded = !previewExpanded },
+                contentDescription = if (previewExpanded) "Collapse character preview" else "Expand character preview",
+            )
             .fillMaxWidth()
             .padding(vertical = 4.dp)
             .padding(start = 20.dp, end = 10.dp),
@@ -478,11 +485,11 @@ fun ColumnScope.PracticeConfigurationCharactersPreview(
             text = resolveString { commonPractice.configurationCharactersPreview },
             modifier = Modifier.weight(1f)
         )
-        IconButton(onClick = { previewExpanded = !previewExpanded }) {
-            val icon = if (previewExpanded) Icons.Default.KeyboardArrowUp
-            else Icons.Default.KeyboardArrowDown
-            Icon(imageVector = icon, contentDescription = null)
-        }
+        Icon(
+            imageVector = Icons.Default.KeyboardArrowDown,
+            contentDescription = null,
+            modifier = Modifier.graphicsLayer { rotationZ = if (previewExpanded) 180f else 0f },
+        )
     }
 
     if (previewExpanded) {

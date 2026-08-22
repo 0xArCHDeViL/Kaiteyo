@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -26,7 +27,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.AutoGraph
 import androidx.compose.material.icons.outlined.PlayArrow
 import androidx.compose.material.icons.outlined.Refresh
-import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -38,6 +38,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -60,11 +61,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlin.math.roundToInt
 import ua.syt0r.kanji.core.connected_learning.ConnectedNodeKey
+import ua.syt0r.kanji.presentation.common.kaiteyoHeading
 import ua.syt0r.kanji.core.connected_learning.GraphEdgeKind
 import ua.syt0r.kanji.core.connected_learning.GraphNodeKind
 import ua.syt0r.kanji.core.connected_learning.MasteryLevel
 
-private val GraphHeight = 360.dp
 private val GraphNodeSize = 56.dp
 
 @Composable
@@ -171,6 +172,7 @@ private fun ConnectedLearningHeader(
         Column(modifier = Modifier.weight(1f)) {
             Text(
                 text = "Connected Learning",
+                modifier = Modifier.kaiteyoHeading(),
                 style = MaterialTheme.typography.headlineSmall,
             )
             Text(
@@ -214,8 +216,10 @@ private fun MasteryGraphCard(
                 Spacer(Modifier.width(8.dp))
                 Text(
                     text = "Mastery map",
+                    modifier = Modifier
+                        .kaiteyoHeading()
+                        .weight(1f),
                     style = MaterialTheme.typography.titleMedium,
-                    modifier = Modifier.weight(1f),
                 )
                 Text(
                     text = "${state.graphNodes.size} nodes",
@@ -253,8 +257,8 @@ private fun MasteryNodeGraph(
     Box(
         modifier = modifier
             .fillMaxWidth()
-            .height(GraphHeight)
-            .clip(RoundedCornerShape(18.dp))
+            .heightIn(min = 320.dp, max = 520.dp)
+            .clip(MaterialTheme.shapes.large)
             .background(colors.surface)
             .pointerInput(Unit) {
                 detectTransformGestures { _, panChange, zoomChange, _ ->
@@ -372,14 +376,8 @@ private fun ConnectedNodeDetailCard(
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    AssistChip(
-                        onClick = {},
-                        label = { Text(node.mastery.name) },
-                    )
-                    AssistChip(
-                        onClick = {},
-                        label = { Text(node.kind.name.lowercase()) },
-                    )
+                    StatusBadge(node.mastery.name)
+                    StatusBadge(node.kind.name.lowercase())
                 }
                 Button(
                     modifier = Modifier.fillMaxWidth(),
@@ -395,12 +393,30 @@ private fun ConnectedNodeDetailCard(
 }
 
 @Composable
+private fun StatusBadge(label: String) {
+    Surface(
+        shape = MaterialTheme.shapes.small,
+        color = MaterialTheme.colorScheme.surfaceVariant,
+    ) {
+        Text(
+            text = label,
+            style = MaterialTheme.typography.labelMedium,
+            modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+        )
+    }
+}
+
+@Composable
 private fun CandidateLessonSection(
     state: ConnectedLearningUiState,
     onEvent: (ConnectedLearningEvent) -> Unit,
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        Text("Recommended next", style = MaterialTheme.typography.titleLarge)
+        Text(
+            "Recommended next",
+            modifier = Modifier.kaiteyoHeading(),
+            style = MaterialTheme.typography.titleLarge,
+        )
         if (state.candidates.isEmpty()) {
             Text(
                 "No new candidate lesson is available yet.",
@@ -420,10 +436,9 @@ private fun CandidateLessonCard(
     onEvent: (ConnectedLearningEvent) -> Unit,
 ) {
     Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable { onEvent(ConnectedLearningEvent.StartLesson(candidate.rootKey)) },
-        shape = RoundedCornerShape(18.dp),
+        onClick = { onEvent(ConnectedLearningEvent.StartLesson(candidate.rootKey)) },
+        modifier = Modifier.fillMaxWidth(),
+        shape = MaterialTheme.shapes.large,
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
@@ -548,8 +563,10 @@ private fun edgeColor(
     else -> colors.outlineVariant
 }
 
+@Immutable
 data class GraphPoint(val x: Dp, val y: Dp)
 
+@Immutable
 data class MasteryNodeUi(
     val key: ConnectedNodeKey,
     val label: String,
@@ -561,12 +578,14 @@ data class MasteryNodeUi(
     val isAnchor: Boolean = false,
 )
 
+@Immutable
 data class GraphEdgeUi(
     val from: ConnectedNodeKey,
     val to: ConnectedNodeKey,
     val kind: GraphEdgeKind,
 )
 
+@Immutable
 data class CandidateLessonUi(
     val id: String,
     val rootKey: ConnectedNodeKey,

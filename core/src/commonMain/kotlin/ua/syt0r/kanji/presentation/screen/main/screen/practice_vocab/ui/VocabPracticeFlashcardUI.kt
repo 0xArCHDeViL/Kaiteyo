@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material.icons.Icons
@@ -111,14 +110,14 @@ fun VocabPracticeFlashcardUI(
                         FuriganaText(
                             it.furigana,
                             textStyle = MaterialTheme.typography.bodyLarge.copy(textAlign = TextAlign.Center),
-                            modifier = Modifier.width(Dimens.ScreenWidth)
+                            modifier = Modifier.fillMaxWidth().widthIn(max = 640.dp)
                         )
                     } else {
                         Text(
                             text = it.text,
                             style = MaterialTheme.typography.bodyLarge,
                             textAlign = TextAlign.Center,
-                            modifier = Modifier.width(Dimens.ScreenWidth)
+                            modifier = Modifier.fillMaxWidth().widthIn(max = 640.dp)
                         )
                     }
                 }
@@ -127,7 +126,7 @@ fun VocabPracticeFlashcardUI(
                         Text(
                             text = it.translation,
                             textAlign = TextAlign.Center,
-                            modifier = Modifier.width(Dimens.ScreenWidth)
+                            modifier = Modifier.fillMaxWidth().widthIn(max = 640.dp)
                         )
                     }
                 }

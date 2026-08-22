@@ -1,6 +1,5 @@
 package ua.syt0r.kanji.presentation.screen.main
 
-import androidx.compose.animation.togetherWith
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.derivedStateOf
@@ -10,6 +9,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.SaveableStateHolder
 import androidx.compose.runtime.saveable.rememberSaveableStateHolder
 import ua.syt0r.kanji.presentation.common.MultiplatformBackHandler
+import ua.syt0r.kanji.presentation.common.theme.LocalAnimationConfig
+import ua.syt0r.kanji.presentation.common.theme.getPageTransition
 
 
 interface MultiplatformMainNavigationState : MainNavigationState {
@@ -24,13 +25,11 @@ fun MultiplatformMainNavigation(
     state as MultiplatformMainNavigationState
 
     MultiplatformBackHandler { state.navigateBack() }
+    val animationConfig = LocalAnimationConfig.current
 
     androidx.compose.animation.AnimatedContent(
         targetState = state.currentDestination.value,
-        transitionSpec = {
-            androidx.compose.animation.fadeIn(androidx.compose.animation.core.tween(300)) togetherWith 
-                androidx.compose.animation.fadeOut(androidx.compose.animation.core.tween(300))
-        }
+        transitionSpec = { getPageTransition(animationConfig) }
     ) { destination ->
         state.stateHolder.SaveableStateProvider(destination.toString()) {
             key(destination) { destination.Content(state) }
@@ -68,7 +67,9 @@ fun rememberMultiplatformMainNavigationState(): MainNavigationState {
             }
 
             override fun navigate(destination: MainDestination) {
-                stack.value = stack.value.plus(destination)
+                if (stack.value.lastOrNull() != destination) {
+                    stack.value = stack.value.plus(destination)
+                }
             }
 
             override fun navigateToTop(destination: MainDestination) {

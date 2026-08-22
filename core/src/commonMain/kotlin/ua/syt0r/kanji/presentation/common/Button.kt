@@ -6,7 +6,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.requiredSize
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ExpandMore
@@ -52,11 +51,16 @@ fun ExpandButton(
         modifier = modifier
             .clip(CircleShape)
             .background(color)
-            .clickable(onClick = onClick)
+            .kaiteyoClickable(
+                onClick = onClick,
+                contentDescription = if (expanded) "Collapse" else "Expand",
+            )
             .padding(Dimens.Space1 / 2)
-            .requiredSize(Dimens.IconSmall)
     ) {
-        val rotation = animateFloatAsState(if (expanded) -180f else 0f)
+        val rotation = animateFloatAsState(
+            targetValue = if (expanded) -180f else 0f,
+            label = "expand_button_rotation",
+        )
 
         Icon(
             imageVector = Icons.Default.ExpandMore,

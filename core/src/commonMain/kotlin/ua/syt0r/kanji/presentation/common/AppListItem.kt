@@ -86,9 +86,19 @@ fun AppListItem(
             .padding(paddingValues)
             .clip(MaterialTheme.shapes.large)
             .background(MaterialTheme.colorScheme.surface)
-            .semantics(mergeDescendants = true) { role = Role.Button }
-            .clickable(enabled = onClick != null, onClick = onClick ?: {})
-            .focusable(enabled = onClick != null)
+            .semantics(mergeDescendants = true) {
+                if (onClick != null) role = Role.Button
+            }
+            .then(
+                if (onClick != null) {
+                    Modifier
+                        .kaiteyoTouchTarget()
+                        .clickable(onClick = onClick)
+                        .focusable()
+                } else {
+                    Modifier
+                }
+            )
             .padding(ListItemDefaultPaddings),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = horizontalArrangement

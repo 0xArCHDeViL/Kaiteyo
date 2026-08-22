@@ -131,7 +131,10 @@ suspend fun <T> paginateable(
 ): Paginateable<T> {
 
     var offset = 0
-    val loadMoreRequestsChannel = Channel<Unit>(onBufferOverflow = BufferOverflow.DROP_LATEST)
+    val loadMoreRequestsChannel = Channel<Unit>(
+        capacity = 1,
+        onBufferOverflow = BufferOverflow.DROP_LATEST,
+    )
 
     val list = MutableStateFlow<List<T>>(initial)
 
