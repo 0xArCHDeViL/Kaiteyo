@@ -15,16 +15,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.focusable
-import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.semantics.role
-import androidx.compose.ui.semantics.Role
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.presentation.common.AppListItemDefaults.ListItemDefaultPaddings
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.foundation.border
-import androidx.compose.foundation.shape.RoundedCornerShape
 
 object AppListItemDefaults {
     val ExtraPaddings = PaddingValues(
@@ -50,19 +45,16 @@ fun AppListItem(
     paddingValues: PaddingValues = AppListItemDefaults.ExtraPaddings,
     colors: ListItemColors = ListItemDefaults.colors()
 ) {
-    val surfaceColors = ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors.current
     val shape = MaterialTheme.shapes.large
 
     ListItem(
         headlineContent = headlineContent,
         modifier = modifier
             .padding(paddingValues)
-            .border(Dimens.ElevationXs, surfaceColors.border.copy(alpha = Dimens.Alpha.Light), shape)
+            .border(Dimens.ElevationXs, MaterialTheme.colorScheme.outlineVariant, shape)
             .clip(shape)
-            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = Dimens.Alpha.Medium))
-            .semantics(mergeDescendants = true) { role = Role.Button }
-            .clickable(enabled = onClick != null, onClick = onClick ?: {})
-            .focusable(enabled = onClick != null),
+            .background(MaterialTheme.colorScheme.surfaceContainerLow)
+            .then(onClick?.let { Modifier.kaiteyoClickable(it) } ?: Modifier),
         overlineContent = overlineContent,
         supportingContent = supportingContent,
         leadingContent = leadingContent,
@@ -85,20 +77,8 @@ fun AppListItem(
         modifier = modifier
             .padding(paddingValues)
             .clip(MaterialTheme.shapes.large)
-            .background(MaterialTheme.colorScheme.surface)
-            .semantics(mergeDescendants = true) {
-                if (onClick != null) role = Role.Button
-            }
-            .then(
-                if (onClick != null) {
-                    Modifier
-                        .kaiteyoTouchTarget()
-                        .clickable(onClick = onClick)
-                        .focusable()
-                } else {
-                    Modifier
-                }
-            )
+            .background(MaterialTheme.colorScheme.surfaceContainerLow)
+            .then(onClick?.let { Modifier.kaiteyoClickable(it) } ?: Modifier)
             .padding(ListItemDefaultPaddings),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = horizontalArrangement

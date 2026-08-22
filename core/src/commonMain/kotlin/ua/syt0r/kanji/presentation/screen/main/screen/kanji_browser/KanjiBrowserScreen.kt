@@ -3,6 +3,7 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser
 
 import ua.syt0r.kanji.presentation.common.theme.Dimens
+import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
@@ -25,6 +26,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
@@ -35,6 +37,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Done
 import androidx.compose.material.icons.filled.Favorite
@@ -49,10 +52,14 @@ import androidx.compose.material.icons.filled.SelectAll
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.outlined.Flag
 import androidx.compose.material3.Button
+import androidx.compose.material3.FilterChip as MaterialFilterChip
+import androidx.compose.material3.FilterChipDefaults
+import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -73,11 +80,17 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.launch
 import kotlinx.serialization.Serializable
 import ua.syt0r.kanji.core.app_data.data.RadicalData
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
 import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
 import ua.syt0r.kanji.presentation.screen.main.MainDestination
@@ -155,9 +168,10 @@ fun KanjiBrowserScreen(
     var flagPickerTarget by remember { mutableStateOf<List<String>?>(null) }
     var tagPickerTarget by remember { mutableStateOf<List<String>?>(null) }
 
-    val scope = rememberCoroutineScope()
-
+        val scope = rememberCoroutineScope()
+    val strings = resolveString { kanjiBrowser }
     // Radical search: query DB for chars containing all selected radicals
+
     LaunchedEffect(radicals) {
         if (radicals.isEmpty()) {
             radicalFilteredSet = null
@@ -350,7 +364,7 @@ fun KanjiBrowserScreen(
         Box(Modifier.weight(1f).fillMaxWidth()) {
             when {
                 dataCenter.isLoading -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    Text("Loading kanji…", color = surfaceColors.textMuted)
+                    Text(strings.loadingMessage, color = surfaceColors.textMuted)
                 }
                 filteredCards.isEmpty() -> BrowserEmptyState(
                     hasFilters = query.isNotBlank() || jlptLevels.isNotEmpty() || grades.isNotEmpty() ||
@@ -470,82 +484,89 @@ private fun BrowserHeader(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { kanjiBrowser }
 
     Row(
         modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp)
     ) {
-        Column(Modifier.weight(1f)) {
-            Text(
-                text = "Kanji Browser",
-                color = surfaceColors.textPrimary,
-                style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold
+        IconButton(onClick = onClose) {
+            Icon(
+                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                contentDescription = strings.navigateUpDescription,
             )
         }
-        HeaderIconButton(icon = Icons.Default.SelectAll, selected = selectionMode, onClick = onToggleSelectionMode, accent = accent, surfaceColors = surfaceColors)
-        HeaderIconButton(icon = Icons.Default.FilterList, selected = showFilters, onClick = onToggleFilters, accent = accent, surfaceColors = surfaceColors)
-        HeaderIconButton(icon = Icons.Outlined.Flag, selected = showRadicals, onClick = onToggleRadicals, accent = accent, surfaceColors = surfaceColors)
+        Column(Modifier.weight(1f)) {
+            Text(
+                text = strings.title,
+                color = surfaceColors.textPrimary,
+                style = androidx.compose.material3.MaterialTheme.typography.titleLarge
+            )
+        }
+        HeaderIconButton(
+            icon = Icons.Default.SelectAll,
+            selected = selectionMode,
+            contentDescription = if (selectionMode) strings.selectionModeActiveDescription else strings.selectionModeDescription,
+            onClick = onToggleSelectionMode,
+            accent = accent,
+            surfaceColors = surfaceColors,
+        )
+        HeaderIconButton(
+            icon = Icons.Default.FilterList,
+            selected = showFilters,
+            contentDescription = if (showFilters) strings.hideFiltersDescription else strings.showFiltersDescription,
+            onClick = onToggleFilters,
+            accent = accent,
+            surfaceColors = surfaceColors,
+        )
+        HeaderIconButton(
+            icon = Icons.Outlined.Flag,
+            selected = showRadicals,
+            contentDescription = if (showRadicals) strings.hideRadicalsDescription else strings.showRadicalsDescription,
+            onClick = onToggleRadicals,
+            accent = accent,
+            surfaceColors = surfaceColors,
+        )
         HeaderIconButton(
             icon = if (viewMode == KanjiBrowserViewMode.Grid) Icons.Default.List else Icons.Default.GridView,
             selected = false,
+            contentDescription = if (viewMode == KanjiBrowserViewMode.Grid) strings.switchToListDescription else strings.switchToGridDescription,
             onClick = { onViewModeChange(if (viewMode == KanjiBrowserViewMode.Grid) KanjiBrowserViewMode.List else KanjiBrowserViewMode.Grid) },
             accent = accent,
             surfaceColors = surfaceColors
         )
     }
 
-    Row(
-        modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.dp)
-    ) {
-        Box(
-            modifier = Modifier
-                .weight(1f)
-                .clip(RoundedCornerShape(Dimens.RadiusMd))
-                .background(surfaceColors.surfaceInteractive)
-                .padding(horizontal = 14.dp, vertical = 10.dp)
-        ) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                Icon(Icons.Default.Search, null, tint = surfaceColors.textMuted, modifier = Modifier.size(18.dp))
-                Box(
-                    modifier = Modifier.weight(1f),
-                    contentAlignment = Alignment.CenterStart
-                ) {
-                    androidx.compose.foundation.text.BasicTextField(
-                        value = query,
-                        onValueChange = onQueryChange,
-                        textStyle = androidx.compose.material3.MaterialTheme.typography.bodyMedium
-                        .copy(color = surfaceColors.textPrimary),
-                        cursorBrush = androidx.compose.ui.graphics.SolidColor(accent.primary),
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    if (query.isEmpty()) {
-                        Text(
-                            text = "Search kanji...",
-                            color = surfaceColors.textMuted,
-                            style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
-                        )
-                    }
-                }
-                if (query.isNotBlank()) {
-                    IconButton(onClick = { onQueryChange("") }, modifier = Modifier.size(24.dp)) {
-                        Icon(Icons.Default.Close, null, tint = surfaceColors.textMuted, modifier = Modifier.size(16.dp))
-                    }
+    OutlinedTextField(
+        value = query,
+        onValueChange = onQueryChange,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp),
+        singleLine = true,
+        label = { Text(strings.searchLabel) },
+        leadingIcon = {
+            Icon(Icons.Default.Search, contentDescription = null)
+        },
+        trailingIcon = {
+            if (query.isNotBlank()) {
+                IconButton(onClick = { onQueryChange("") }) {
+                    Icon(Icons.Default.Close, contentDescription = strings.clearSearchDescription)
                 }
             }
-        }
-    }
+        },
+        shape = MaterialTheme.shapes.small,
+    )
 }
 
 @Composable
 private fun HeaderIconButton(
     icon: androidx.compose.ui.graphics.vector.ImageVector,
     selected: Boolean,
+    contentDescription: String,
     onClick: () -> Unit,
+
     accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme,
     surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors
 ) {
@@ -558,19 +579,25 @@ private fun HeaderIconButton(
     )
     Box(
         modifier = Modifier
-            .size(36.dp)
+            .size(48.dp)
             .clip(RoundedCornerShape(Dimens.RadiusMd))
             .background(bg)
-            .clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
             .hoverable(interactionSource),
         contentAlignment = Alignment.Center
     ) {
-        Icon(
-            icon,
-            contentDescription = null,
-            tint = if (selected) accent.primary else surfaceColors.textSecondary,
-            modifier = Modifier.size(19.dp)
-        )
+        IconButton(
+            onClick = onClick,
+            modifier = Modifier
+                .fillMaxSize()
+                .semantics { this.selected = selected },
+        ) {
+            Icon(
+                icon,
+                contentDescription = contentDescription,
+                tint = if (selected) accent.primary else surfaceColors.textSecondary,
+                modifier = Modifier.size(19.dp)
+            )
+        }
     }
 }
 
@@ -589,30 +616,36 @@ private fun SelectionToolbar(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { kanjiBrowser }
 
-    Row(
+    Column(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp)
             .clip(RoundedCornerShape(Dimens.RadiusLg))
             .background(surfaceColors.surfaceElevated)
             .padding(horizontal = 16.dp, vertical = 10.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.dp)
+        verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        Text(
-            text = "$selectedCount selected",
-            color = accent.primary,
-            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
-            fontWeight = FontWeight.Medium
-        )
-        Spacer(Modifier.weight(1f))
-        BulkActionButton("Flag", onClick = onFlag, accent = accent, surfaceColors = surfaceColors)
-        BulkActionButton("Tag", onClick = onTag, accent = accent, surfaceColors = surfaceColors)
-        BulkActionButton("Favorite", onClick = onFavorite, accent = accent, surfaceColors = surfaceColors)
-        BulkActionButton("Reset", onClick = onResetProgress, accent = accent, surfaceColors = surfaceColors)
-        TextButton(onClick = onClear) {
-            Text("Clear", color = surfaceColors.textSecondary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(
+                text = strings.selectedCount(selectedCount),
+                color = accent.primary,
+                style = androidx.compose.material3.MaterialTheme.typography.labelLarge,
+            )
+            Spacer(Modifier.weight(1f))
+            TextButton(onClick = onClear) {
+                Text(strings.clearSelection)
+            }
+        }
+        FlowRow(
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            BulkActionButton(strings.flagAction, onClick = onFlag)
+            BulkActionButton(strings.tagAction, onClick = onTag)
+            BulkActionButton(strings.favoriteAction, onClick = onFavorite)
+            BulkActionButton(strings.resetProgressAction, onClick = onResetProgress)
         }
     }
 }
@@ -621,17 +654,12 @@ private fun SelectionToolbar(
 private fun BulkActionButton(
     label: String,
     onClick: () -> Unit,
-    accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme,
-    surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors
 ) {
-    Box(
-        modifier = Modifier
-            .clip(RoundedCornerShape(Dimens.RadiusSm))
-            .background(accent.primary.copy(alpha = 0.10f))
-            .clickable(onClick = onClick)
-            .padding(horizontal = 10.dp, vertical = 6.dp)
+    FilledTonalButton(
+        onClick = onClick,
+        contentPadding = PaddingValues(horizontal = 12.dp),
     ) {
-        Text(label, color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
+        Text(label)
     }
 }
 
@@ -675,6 +703,7 @@ private fun BrowserFilters(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { kanjiBrowser }
 
     Column(
         modifier = Modifier
@@ -684,14 +713,14 @@ private fun BrowserFilters(
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("Filters", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
+            Text(strings.filtersTitle, color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
             Spacer(Modifier.weight(1f))
             TextButton(onClick = onReset) {
-                Text("Reset all", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                Text(strings.resetFilters, color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
             }
         }
 
-        FilterSection("JLPT") {
+        FilterSection(strings.jlptFilter) {
             LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 items((5 downTo 1).toList()) { level ->
                     FilterChip(
@@ -705,7 +734,7 @@ private fun BrowserFilters(
             }
         }
 
-        FilterSection("Grade") {
+        FilterSection(strings.gradeFilter) {
             LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 items(listOf(1, 2, 3, 4, 5, 6, 8, 9, 10)) { grade ->
                     FilterChip(
@@ -724,7 +753,7 @@ private fun BrowserFilters(
             }
         }
 
-        FilterSection("Status") {
+        FilterSection(strings.statusFilter) {
             FlowRow(
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
@@ -747,7 +776,7 @@ private fun BrowserFilters(
             }
         }
 
-        FilterSection("Flags") {
+        FilterSection(strings.flagsFilter) {
             LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 items(CardFlagType.entries.filter { it != CardFlagType.None }) { flag ->
                     FilterChip(
@@ -762,27 +791,27 @@ private fun BrowserFilters(
             }
         }
 
-        FilterSection("Strokes") {
+        FilterSection(strings.strokesFilter) {
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
-                NumberStepper(value = minStrokes, label = "Min", onChange = onMinStrokes, accent = accent, surfaceColors = surfaceColors)
+                NumberStepper(value = minStrokes, label = strings.minLabel, onChange = onMinStrokes, accent = accent, surfaceColors = surfaceColors)
                 Text("–", color = surfaceColors.textMuted)
-                NumberStepper(value = maxStrokes, label = "Max", onChange = onMaxStrokes, accent = accent, surfaceColors = surfaceColors)
+                NumberStepper(value = maxStrokes, label = strings.maxLabel, onChange = onMaxStrokes, accent = accent, surfaceColors = surfaceColors)
             }
         }
 
-        FilterSection("Frequency (rank)") {
+        FilterSection(strings.frequencyFilter) {
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
-                NumberStepper(value = minFrequency, label = "Min", onChange = onMinFrequency, accent = accent, surfaceColors = surfaceColors)
+                NumberStepper(value = minFrequency, label = strings.minLabel, onChange = onMinFrequency, accent = accent, surfaceColors = surfaceColors)
                 Text("–", color = surfaceColors.textMuted)
-                NumberStepper(value = maxFrequency, label = "Max", onChange = onMaxFrequency, accent = accent, surfaceColors = surfaceColors)
+                NumberStepper(value = maxFrequency, label = strings.maxLabel, onChange = onMaxFrequency, accent = accent, surfaceColors = surfaceColors)
             }
         }
 
-        FilterSection("Sort") {
+        FilterSection(strings.sortFilter) {
             LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 items(KanjiBrowserSort.entries) { sort ->
                     FilterChip(
-                        label = sort.displayName,
+                        label = sort.localizedLabel(strings),
                         selected = sortBy == sort,
                         onClick = { onSortBy(sort) },
                         accent = accent,
@@ -812,30 +841,32 @@ private fun FilterChip(
     surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors,
     dotColor: Color? = null
 ) {
-    val bg by animateColorAsState(
-        targetValue = if (selected) accent.primary.copy(alpha = 0.14f) else surfaceColors.surfaceInteractive,
-        label = "chipBg"
+    MaterialFilterChip(
+        selected = selected,
+        onClick = onClick,
+        label = {
+            Text(
+                text = label,
+                style = MaterialTheme.typography.labelLarge,
+            )
+        },
+        leadingIcon = dotColor?.let { color ->
+            {
+                Box(
+                    Modifier
+                        .size(8.dp)
+                        .clip(CircleShape)
+                        .background(color)
+                )
+            }
+        },
+        colors = FilterChipDefaults.filterChipColors(
+            containerColor = surfaceColors.surfaceInteractive,
+            labelColor = surfaceColors.textSecondary,
+            selectedContainerColor = accent.primary.copy(alpha = 0.14f),
+            selectedLabelColor = accent.primary,
+        ),
     )
-    Row(
-        modifier = Modifier
-            .clip(RoundedCornerShape(Dimens.RadiusSm))
-            .background(bg)
-            .border(1.dp, if (selected) accent.primary.copy(alpha = 0.4f) else Color.Transparent, RoundedCornerShape(Dimens.RadiusSm))
-            .clickable(onClick = onClick)
-            .padding(horizontal = 10.dp, vertical = 5.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(6.dp)
-    ) {
-        if (dotColor != null) {
-            Box(Modifier.size(8.dp).clip(CircleShape).background(dotColor))
-        }
-        Text(
-            label,
-            color = if (selected) accent.primary else surfaceColors.textSecondary,
-            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
-            fontWeight = if (selected) FontWeight.Medium else FontWeight.Normal
-        )
-    }
 }
 
 @Composable
@@ -846,9 +877,10 @@ private fun NumberStepper(
     accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme,
     surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors
 ) {
+    val strings = resolveString { kanjiBrowser }
     Row(
         modifier = Modifier
-            .clip(RoundedCornerShape(Dimens.RadiusSm))
+            .clip(MaterialTheme.shapes.small)
             .background(surfaceColors.surfaceInteractive)
             .padding(horizontal = 10.dp, vertical = 4.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -857,19 +889,23 @@ private fun NumberStepper(
         Text(label, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
         Box(
             modifier = Modifier
-                .size(22.dp)
+                .size(48.dp)
                 .clip(CircleShape)
                 .background(accent.primary.copy(alpha = Dimens.Alpha.Light))
+                .semantics {
+                    role = Role.Button
+                    contentDescription = strings.decreaseValueDescription
+                }
                 .clickable {
                     val newValue = ((value ?: 0) - 1).coerceAtLeast(0)
                     onChange(newValue)
                 },
             contentAlignment = Alignment.Center
         ) {
-            Text("−", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+            Text("−", color = accent.primary, style = MaterialTheme.typography.bodySmall)
         }
         Text(
-            text = value?.toString() ?: "Any",
+            text = value?.toString() ?: strings.anyValue,
             color = surfaceColors.textPrimary,
             style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
             modifier = Modifier.width(36.dp),
@@ -877,26 +913,29 @@ private fun NumberStepper(
         )
         Box(
             modifier = Modifier
-                .size(22.dp)
+                .size(48.dp)
                 .clip(CircleShape)
                 .background(accent.primary.copy(alpha = Dimens.Alpha.Light))
+                .semantics {
+                    role = Role.Button
+                    contentDescription = strings.increaseValueDescription
+                }
                 .clickable { onChange((value ?: 0) + 1) },
             contentAlignment = Alignment.Center
         ) {
-            Text("+", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+            Text("+", color = accent.primary, style = MaterialTheme.typography.bodySmall)
         }
     }
 }
 
-private val KanjiBrowserSort.displayName: String
-    get() = when (this) {
-        KanjiBrowserSort.Frequency -> "Frequency"
-        KanjiBrowserSort.StrokeCount -> "Strokes"
-        KanjiBrowserSort.JLPT -> "JLPT"
-        KanjiBrowserSort.Difficulty -> "Difficulty"
-        KanjiBrowserSort.LastReviewed -> "Last reviewed"
-        KanjiBrowserSort.Kanji -> "Kanji"
-    }
+private fun KanjiBrowserSort.localizedLabel(strings: ua.syt0r.kanji.presentation.common.resources.string.KanjiBrowserStrings): String = when (this) {
+    KanjiBrowserSort.Frequency -> strings.frequencyFilter
+    KanjiBrowserSort.StrokeCount -> strings.strokesFilter
+    KanjiBrowserSort.JLPT -> strings.jlptFilter
+    KanjiBrowserSort.Difficulty -> strings.difficultySort
+    KanjiBrowserSort.LastReviewed -> strings.lastReviewedSort
+    KanjiBrowserSort.Kanji -> strings.kanjiSort
+}
 
 // ============================================
 // Radical picker
@@ -911,6 +950,7 @@ private fun RadicalPicker(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { kanjiBrowser }
     var radicals by remember { mutableStateOf<List<RadicalData>>(emptyList()) }
 
     LaunchedEffect(Unit) {
@@ -925,10 +965,10 @@ private fun RadicalPicker(
         verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("Radical search", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
+            Text(strings.radicalSearchTitle, color = surfaceColors.textPrimary, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
             Spacer(Modifier.weight(1f))
             if (selectedRadicals.isNotEmpty()) {
-                Text("${selectedRadicals.size} selected", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                Text(strings.radicalSelectedCount(selectedRadicals.size), color = accent.primary, style = MaterialTheme.typography.bodySmall)
             }
         }
         val grouped = radicals.groupBy { it.strokesCount }
@@ -936,7 +976,7 @@ private fun RadicalPicker(
             grouped.toSortedMap().forEach { (count, group) ->
                 item(key = "group-$count") {
                     Text(
-                        text = "$count strokes",
+                        text = strings.strokeCount(count),
                         color = surfaceColors.textMuted,
                         style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
                         modifier = Modifier.padding(vertical = 4.dp)
@@ -971,7 +1011,7 @@ private fun RadicalPicker(
                 onClick = { onRadicalsChange(emptySet()) },
                 modifier = Modifier.align(Alignment.End)
             ) {
-                Text("Clear radicals", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                Text(strings.clearRadicals, color = accent.primary, style = MaterialTheme.typography.bodySmall)
             }
         }
     }
@@ -987,10 +1027,15 @@ private fun RadicalChip(
 ) {
     Box(
         modifier = Modifier
-            .size(34.dp)
-            .clip(RoundedCornerShape(Dimens.RadiusSm))
+            .size(48.dp)
+            .clip(MaterialTheme.shapes.small)
             .background(if (selected) accent.primary.copy(alpha = 0.18f) else surfaceColors.surfaceInteractive)
-            .border(1.dp, if (selected) accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque) else Color.Transparent, RoundedCornerShape(Dimens.RadiusSm))
+            .border(1.dp, if (selected) accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque) else Color.Transparent, MaterialTheme.shapes.small)
+            .semantics {
+                role = Role.Checkbox
+                this.selected = selected
+                contentDescription = radical
+            }
             .clickable(onClick = onClick),
         contentAlignment = Alignment.Center
     ) {
@@ -1018,6 +1063,7 @@ private fun KanjiGridTile(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { kanjiBrowser }
     val interactionSource = remember { MutableInteractionSource() }
     val hovered by interactionSource.collectIsHoveredAsState()
 
@@ -1032,19 +1078,22 @@ private fun KanjiGridTile(
 
     Box(
         modifier = Modifier
-            .clip(RoundedCornerShape(Dimens.RadiusMd))
+            .clip(MaterialTheme.shapes.medium)
             .background(bg)
-            .border(1.dp, if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque) else Color.Transparent, RoundedCornerShape(Dimens.RadiusMd))
-            .clickable(interactionSource = interactionSource, indication = null) {
-                if (selectionMode) onSelect(card.id) else onClick(card.id)
-            }
+            .border(1.dp, if (isSelected) accent.primary.copy(alpha = Dimens.Alpha.SemiOpaque) else Color.Transparent, MaterialTheme.shapes.medium)
+            .kaiteyoClickable(
+                onClick = { if (selectionMode) onSelect(card.id) else onClick(card.id) },
+                contentDescription = card.character,
+                role = if (selectionMode) Role.Checkbox else Role.Button,
+            )
+            .semantics { this.selected = selectionMode && isSelected }
             .hoverable(interactionSource)
             .padding(8.dp)
     ) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
                 text = card.character,
-                fontSize = 30.sp,
+                style = MaterialTheme.typography.headlineMedium,
                 color = surfaceColors.textPrimary,
                 fontWeight = FontWeight.Normal
             )
@@ -1062,7 +1111,7 @@ private fun KanjiGridTile(
                         Text(
                             text = level.uppercase(),
                             color = surfaceColors.textMuted,
-                            fontSize = 9.sp
+                            style = MaterialTheme.typography.labelSmall
                         )
                     }
             }
@@ -1090,6 +1139,7 @@ private fun KanjiListRow(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { kanjiBrowser }
     val interactionSource = remember { MutableInteractionSource() }
     val hovered by interactionSource.collectIsHoveredAsState()
 
@@ -1105,11 +1155,14 @@ private fun KanjiListRow(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(Dimens.RadiusMd))
+            .clip(MaterialTheme.shapes.medium)
             .background(bg)
-            .clickable(interactionSource = interactionSource, indication = null) {
-                if (selectionMode) onSelect(card.id) else onClick(card.id)
-            }
+            .kaiteyoClickable(
+                onClick = { if (selectionMode) onSelect(card.id) else onClick(card.id) },
+                contentDescription = card.character,
+                role = if (selectionMode) Role.Checkbox else Role.Button,
+            )
+            .semantics { this.selected = selectionMode && isSelected }
             .hoverable(interactionSource)
             .padding(horizontal = 12.dp, vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -1138,7 +1191,8 @@ private fun KanjiListRow(
                 overflow = TextOverflow.Ellipsis
             )
             Text(
-                text = card.meaning.take(60).ifBlank { "No meaning" },
+                                        text = card.meaning.take(60).ifBlank { strings.noMeaning },
+
                 color = surfaceColors.textMuted,
                 style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                 maxLines = 1,
@@ -1147,7 +1201,7 @@ private fun KanjiListRow(
         }
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
             dataCenter.strokeCounts[card.id]?.let { strokes ->
-                Text("${strokes}画", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
+                Text(strings.strokeCount(strokes), color = surfaceColors.textMuted, style = MaterialTheme.typography.labelSmall)
             }
             dataCenter.classifications[card.id].orEmpty().firstOrNull { it.startsWith("n") }?.let {
                 JlptBadge(it, accent, surfaceColors)
@@ -1159,7 +1213,7 @@ private fun KanjiListRow(
                 Icon(Icons.Default.Favorite, null, tint = MaterialTheme.colorScheme.secondary, modifier = Modifier.size(14.dp))
             }
             if (dataCenter.isDifficult(card.id)) {
-                Text("⚠", style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                Text(strings.difficultyWarning, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.labelSmall)
             }
         }
     }
@@ -1189,6 +1243,7 @@ private fun JlptBadge(
 private fun BrowserEmptyState(hasFilters: Boolean, onClear: () -> Unit) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { kanjiBrowser }
 
     Box(Modifier.fillMaxSize().padding(32.dp), contentAlignment = Alignment.Center) {
         Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -1201,15 +1256,15 @@ private fun BrowserEmptyState(hasFilters: Boolean, onClear: () -> Unit) {
             ) {
                 Text("字", style = androidx.compose.material3.MaterialTheme.typography.headlineLarge, color = accent.primary)
             }
-            Text("No kanji found", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
+            Text(strings.noKanjiFound, color = surfaceColors.textPrimary, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
             Text(
-                if (hasFilters) "Try adjusting or clearing the filters" else "Search for a kanji, reading or meaning",
+                if (hasFilters) strings.adjustFiltersMessage else strings.searchPrompt,
                 color = surfaceColors.textMuted,
                 style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
             if (hasFilters) {
                 OutlinedButton(onClick = onClear) {
-                    Text("Clear filters", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                    Text(strings.clearFilters, color = accent.primary, style = MaterialTheme.typography.bodySmall)
                 }
             }
         }
@@ -1226,33 +1281,37 @@ fun FlagPickerDialog(
     onDismiss: () -> Unit
 ) {
     val surfaceColors = LocalSurfaceColors.current
+    val strings = resolveString { kanjiBrowser }
 
     Box(Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.55f)), contentAlignment = Alignment.Center) {
         Surface(
-            modifier = Modifier.width(360.dp),
-            shape = RoundedCornerShape(Dimens.RadiusXl),
+            modifier = Modifier.fillMaxWidth().widthIn(max = 480.dp).padding(horizontal = 16.dp),
+            shape = MaterialTheme.shapes.extraLarge,
             color = surfaceColors.surfaceElevated
         ) {
             Column(
                 modifier = Modifier.padding(20.dp),
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
-                Text("Set flag", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
+                Text(strings.setFlagTitle, color = surfaceColors.textPrimary, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
                 CardFlagType.entries.forEach { flag ->
                     val color = if (flag == CardFlagType.None) surfaceColors.textMuted else flag.colorFromHex()
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .clip(RoundedCornerShape(Dimens.RadiusMd))
+                            .clip(MaterialTheme.shapes.medium)
                             .background(if (currentFlag == flag) color.copy(alpha = Dimens.Alpha.Light) else Color.Transparent)
-                            .clickable { onPick(flag) }
+                            .kaiteyoClickable(
+                                onClick = { onPick(flag) },
+                                contentDescription = if (flag == CardFlagType.None) strings.noFlag else flag.displayName,
+                            )
                             .padding(horizontal = 12.dp, vertical = 10.dp),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(12.dp)
                     ) {
                         Box(Modifier.size(16.dp).clip(CircleShape).background(color))
                         Text(
-                            if (flag == CardFlagType.None) "No flag" else flag.displayName,
+                            if (flag == CardFlagType.None) strings.noFlag else flag.displayName,
                             color = surfaceColors.textPrimary,
                             style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
                         )
@@ -1263,7 +1322,7 @@ fun FlagPickerDialog(
                     }
                 }
                 TextButton(onClick = onDismiss, modifier = Modifier.align(Alignment.End)) {
-                    Text("Cancel", color = surfaceColors.textMuted)
+                    Text(strings.cancelButton, color = surfaceColors.textMuted)
                 }
             }
         }
@@ -1282,30 +1341,34 @@ fun TagPickerDialog(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { kanjiBrowser }
     var newTagName by remember { mutableStateOf("") }
     var newTagColor by remember { mutableStateOf("#C2FC8B") }
     val scope = rememberCoroutineScope()
 
     Box(Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.55f)), contentAlignment = Alignment.Center) {
         Surface(
-            modifier = Modifier.width(380.dp),
-            shape = RoundedCornerShape(Dimens.RadiusXl),
+            modifier = Modifier.fillMaxWidth().widthIn(max = 480.dp).padding(horizontal = 16.dp),
+            shape = MaterialTheme.shapes.extraLarge,
             color = surfaceColors.surfaceElevated
         ) {
             Column(
                 modifier = Modifier.padding(20.dp),
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
-                Text("Tags", color = surfaceColors.textPrimary, style = androidx.compose.material3.MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
+                Text(strings.tagsTitle, color = surfaceColors.textPrimary, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
 
                 dataCenter.tags.forEach { tag ->
                     val color = tag.getDisplayColor()
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .clip(RoundedCornerShape(Dimens.RadiusMd))
+                            .clip(MaterialTheme.shapes.medium)
                             .background(color.copy(alpha = 0.10f))
-                            .clickable { onApply(tag.id, true) }
+                            .kaiteyoClickable(
+                                onClick = { onApply(tag.id, true) },
+                                contentDescription = tag.name,
+                            )
                             .padding(horizontal = 12.dp, vertical = 8.dp),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(10.dp)
@@ -1335,7 +1398,7 @@ fun TagPickerDialog(
                             singleLine = true,
                             decorationBox = { inner ->
                                 if (newTagName.isEmpty()) {
-                                    Text("New tag name", color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                                    Text(strings.newTagNamePlaceholder, color = surfaceColors.textMuted, style = MaterialTheme.typography.bodySmall)
                                 }
                                 inner()
                             }
@@ -1350,12 +1413,12 @@ fun TagPickerDialog(
                             }
                         }
                     ) {
-                        Text("Create", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                        Text(strings.createButton, color = accent.primary, style = MaterialTheme.typography.bodySmall)
                     }
                 }
 
                 TextButton(onClick = onDismiss, modifier = Modifier.align(Alignment.End)) {
-                    Text("Cancel", color = surfaceColors.textMuted)
+                    Text(strings.cancelButton, color = surfaceColors.textMuted)
                 }
             }
         }

@@ -684,8 +684,9 @@ private fun CollectionRow(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     Card(
+        onClick = onClick,
         colors = CardDefaults.cardColors(containerColor = surfaceColors.surface),
-        modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)
+        modifier = Modifier.fillMaxWidth(),
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(12.dp),

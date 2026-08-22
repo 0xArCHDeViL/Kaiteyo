@@ -250,30 +250,30 @@ class KaiteyoDataCenter(
         val now = Clock.System.now()
         val result = mutableListOf<KaiteyoCollection>()
 
-        fun addSmart(title: String, icon: String, predicate: (KaiteyoCard) -> Boolean) {
+        fun addSmart(key: String, title: String, icon: String, predicate: (KaiteyoCard) -> Boolean) {
             val ids = cards.filter(predicate).map { it.id }.toSet()
-            if (ids.isNotEmpty()) result.add(KaiteyoCollection.smart(title, icon, ids))
+            if (ids.isNotEmpty()) result.add(KaiteyoCollection.smart(key, title, icon, ids))
         }
 
-        addSmart("Recently learned", "🕐") { card ->
+        addSmart("recently-learned", "Recently learned", "🕐") { card ->
             card.lastReviewed.isNotBlank() &&
                 runCatching { Instant.parse(card.lastReviewed) > now - 24.hours }.getOrDefault(false)
         }
-        addSmart("Needs review", "🔔") { card ->
+        addSmart("needs-review", "Needs review", "🔔") { card ->
             val srs = srsCards[card.id] ?: return@addSmart false
             val reviewTime = srs.lastReview ?: return@addSmart false
             reviewTime + srs.interval <= now
         }
-        addSmart("Frequently failed", "⚠️") { card ->
+        addSmart("frequently-failed", "Frequently failed", "⚠️") { card ->
             (srsCards[card.id]?.lapses ?: 0) >= 3
         }
-        addSmart("Not studied in 30 days", "🌙") { card ->
+        addSmart("not-studied-30-days", "Not studied in 30 days", "🌙") { card ->
             val srs = srsCards[card.id]
             if (srs == null) true
             else (srs.lastReview ?: Instant.fromEpochMilliseconds(0)) < now - 30.days
         }
-        addSmart("Flagged", "🚩") { card -> card.flag != CardFlagType.None }
-        addSmart("Favorites", "★") { card -> card.isFavorite }
+        addSmart("flagged", "Flagged", "🚩") { card -> card.flag != CardFlagType.None }
+        addSmart("favorites", "Favorites", "★") { card -> card.isFavorite }
 
         val userCollections = cardDatabaseManager.runCatching { getFilteredDecks() }
             .getOrDefault(emptyList())
@@ -706,9 +706,9 @@ data class KaiteyoCollection(
     val createdAt: Instant = Clock.System.now()
 ) {
     companion object {
-        fun smart(name: String, icon: String, cardIds: Set<String>): KaiteyoCollection =
+        fun smart(key: String, name: String, icon: String, cardIds: Set<String>): KaiteyoCollection =
             KaiteyoCollection(
-                id = "smart-$name",
+                id = "smart-$key",
                 name = name,
                 icon = icon,
                 isSmart = true,

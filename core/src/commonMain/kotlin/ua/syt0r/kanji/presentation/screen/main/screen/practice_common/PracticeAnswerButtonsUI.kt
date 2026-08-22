@@ -3,6 +3,7 @@ package ua.syt0r.kanji.presentation.screen.main.screen.practice_common
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.snap
+import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
@@ -47,7 +48,9 @@ import kotlinx.coroutines.CancellationException
 import ua.syt0r.kanji.core.srs.SrsAnswer
 import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
+import ua.syt0r.kanji.presentation.common.theme.LocalAnimationConfig
 import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
+import ua.syt0r.kanji.presentation.common.theme.tweenDuration
 import kotlin.time.Duration
 
 data class PracticeAnswers(
@@ -183,7 +186,16 @@ fun ExpandablePracticeAnswerButtonsRow(
         modifier = modifier
     ) { data ->
 
-        val offset = animateFloatAsState(if (data.showButton) 0f else 1f)
+        val animationConfig = LocalAnimationConfig.current
+        val offset = animateFloatAsState(
+            targetValue = if (data.showButton) 0f else 1f,
+            animationSpec = if (animationConfig.reducedMotion) {
+                snap()
+            } else {
+                tween(tweenDuration(animationConfig, baseDuration = 180))
+            },
+            label = "practiceAnswerOffset",
+        )
 
         PracticeAnswerButtonsRow(
             answers = data.answers,

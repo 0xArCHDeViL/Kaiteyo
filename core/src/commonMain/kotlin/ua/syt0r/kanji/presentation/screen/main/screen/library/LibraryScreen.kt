@@ -3,6 +3,10 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.library
 
 import ua.syt0r.kanji.presentation.common.theme.Dimens
+import ua.syt0r.kanji.presentation.common.kaiteyoHeading
+import ua.syt0r.kanji.presentation.common.resources.string.resolveString
+import ua.syt0r.kanji.presentation.common.theme.LocalAnimationConfig
+import ua.syt0r.kanji.presentation.common.theme.tweenDuration
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -51,6 +55,9 @@ import kotlinx.coroutines.launch
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -78,10 +85,12 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.snap
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.heightIn
 
 // ============================================
 // LIBRARY — the central hub
@@ -95,6 +104,7 @@ import androidx.compose.foundation.layout.width
 @Composable
 fun LibraryScreen(navigationState: MainNavigationState) {
     val dataCenter = koinInject<KaiteyoDataCenter>()
+    val strings = resolveString { library }
     LaunchedEffect(Unit) { dataCenter.ensureLoaded() }
 
     var view by remember { mutableStateOf<LibraryView>(LibraryView.Hub) }
@@ -109,13 +119,13 @@ fun LibraryScreen(navigationState: MainNavigationState) {
             onOpenWordSearch = { view = LibraryView.WordSearch },
             onOpenRadicalSearch = { view = LibraryView.RadicalSearch }
         )
-        LibraryView.KanjiDecks -> DrillDownScaffold(title = "字  Kanji Decks", onBack = { view = LibraryView.Hub }) {
+        LibraryView.KanjiDecks -> DrillDownScaffold(title = "字  ${strings.kanjiDecksTitle}", onBack = { view = LibraryView.Hub }) {
             LettersDashboardScreen(mainNavigationState = navigationState)
         }
-        LibraryView.Vocabulary -> DrillDownScaffold(title = "語  Vocabulary", onBack = { view = LibraryView.Hub }) {
+        LibraryView.Vocabulary -> DrillDownScaffold(title = "語  ${strings.vocabularyTitle}", onBack = { view = LibraryView.Hub }) {
             VocabDashboardScreen(mainNavigationState = navigationState)
         }
-        LibraryView.WordSearch -> DrillDownScaffold(title = "🔎  Word & Sentence Search", onBack = { view = LibraryView.Hub }) {
+        LibraryView.WordSearch -> DrillDownScaffold(title = "🔎  ${strings.vocabularyTitle}", onBack = { view = LibraryView.Hub }) {
             SearchScreen(mainNavigationState = navigationState, startWithRadicals = false)
         }
         LibraryView.RadicalSearch -> ua.syt0r.kanji.presentation.screen.main.screen.library.screen.radicals.RadicalsExplorerScreen(
@@ -146,6 +156,7 @@ private fun DrillDownScaffold(
     content: @Composable () -> Unit
 ) {
     val surfaceColors = LocalSurfaceColors.current
+    val strings = resolveString { library }
     Column(Modifier.fillMaxSize()) {
         Row(
             modifier = Modifier
@@ -155,7 +166,7 @@ private fun DrillDownScaffold(
             horizontalArrangement = Arrangement.spacedBy(4.dp)
         ) {
             IconButton(onClick = onBack) {
-                Icon(Icons.Default.ArrowBack, "Back", tint = surfaceColors.textSecondary)
+                Icon(Icons.Default.ArrowBack, resolveString { kanjiBrowser.navigateUpDescription }, tint = surfaceColors.textSecondary)
             }
             Text(
                 text = title,
@@ -180,6 +191,7 @@ private fun LibraryHub(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { library }
     val coroutineScope = rememberCoroutineScope()
 
     var radicalCount by remember { mutableStateOf<Int?>(null) }
@@ -195,12 +207,12 @@ private fun LibraryHub(
             ) {
                 FancyLoading()
                 Text(
-                    text = "Preparing the full offline dictionary…",
+                    text = strings.preparingTitle,
                     style = MaterialTheme.typography.bodyMedium,
                     color = surfaceColors.textMuted
                 )
                 Text(
-                    text = "The first setup may take a moment; your full JMdict data is kept intact.",
+                    text = strings.preparingMessage,
                     style = MaterialTheme.typography.bodySmall,
                     color = surfaceColors.textMuted
                 )
@@ -216,18 +228,18 @@ private fun LibraryHub(
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 Text(
-                    text = "The offline dictionary is not ready",
+                    text = strings.errorTitle,
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.SemiBold,
                     color = surfaceColors.textPrimary
                 )
                 Text(
-                    text = "No data was deleted. Check your connection and retry the full JMdict setup.",
+                    text = strings.errorMessage,
                     style = MaterialTheme.typography.bodyMedium,
                     color = surfaceColors.textMuted
                 )
                 Button(onClick = { coroutineScope.launch { dataCenter.ensureLoaded() } }) {
-                    Text("Retry")
+                    Text(strings.retryButton)
                 }
             }
         }
@@ -239,7 +251,7 @@ private fun LibraryHub(
     val customCount = dataCenter.collections.count { !it.isSmart }
     val smartCount = dataCenter.collections.count { it.isSmart }
     val recently = dataCenter.collections
-        .firstOrNull { it.isSmart && it.name == "Recently learned" }
+        .firstOrNull { it.id == "smart-recently-learned" }
         ?.cardIds?.size ?: 0
 
     LazyColumn(
@@ -253,7 +265,7 @@ private fun LibraryHub(
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
                 Text(
-                    text = "Your study hub — everything in one place",
+                    text = strings.hubDescription,
                     color = surfaceColors.textMuted,
                     style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                 )
@@ -272,7 +284,7 @@ private fun LibraryHub(
                             .background(accent.primary)
                     )
                     Text(
-                        text = "Full JMdict · offline index ready",
+                        text = strings.offlineIndexReady,
                         style = MaterialTheme.typography.labelMedium,
                         color = surfaceColors.textSecondary
                     )
@@ -283,24 +295,24 @@ private fun LibraryHub(
         item(key = "stats") {
             StatRow(
                 items = listOf(
-                    StatData("Kanji", dataCenter.cards.size),
-                    StatData("Favorites", favorites),
-                    StatData("Reviews", dataCenter.totalReviews.value.toInt()),
-                    StatData("Tags", dataCenter.tags.size)
+                    StatData(strings.kanjiStatLabel, dataCenter.cards.size),
+                    StatData(strings.favoritesStatLabel, favorites),
+                    StatData(strings.reviewsStatLabel, dataCenter.totalReviews.value.toInt()),
+                    StatData(strings.tagsStatLabel, dataCenter.tags.size)
                 ),
                 accent = accent,
                 surfaceColors = surfaceColors
             )
         }
 
-        item(key = "study-title") { SectionTitle("STUDY", accent, surfaceColors) }
+        item(key = "study-title") { SectionTitle(strings.studySection, accent, surfaceColors) }
 
         item(key = "study-items") {
             Column(verticalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
                 SectionCard(
                     glyph = "字",
-                    title = "Kanji",
-                    subtitle = "Browse, filter & review all kanji",
+                    title = strings.kanjiTitle,
+                    subtitle = strings.kanjiSubtitle,
                     count = dataCenter.cards.size,
                     onClick = { navigationState.navigate(MainDestination.KanjiBrowser()) },
                     accent = accent,
@@ -308,32 +320,32 @@ private fun LibraryHub(
                 )
                 SectionCard(
                     icon = Icons.Default.CollectionsBookmark,
-                    title = "Kanji Decks",
-                    subtitle = "Letter decks & spaced repetition",
+                    title = strings.kanjiDecksTitle,
+                    subtitle = strings.kanjiDecksSubtitle,
                     onClick = onOpenKanjiDecks,
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
                     icon = Icons.Default.Translate,
-                    title = "Vocabulary",
-                    subtitle = "Words, terms & vocab decks",
+                    title = strings.vocabularyTitle,
+                    subtitle = strings.vocabularySubtitle,
                     onClick = onOpenVocab,
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
                     icon = Icons.Default.Spellcheck,
-                    title = "Grammar",
-                    subtitle = "Rules, conjugations & dialogue",
+                    title = strings.grammarTitle,
+                    subtitle = strings.grammarSubtitle,
                     onClick = onOpenGrammar,
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
                     icon = Icons.Default.Extension,
-                    title = "Radicals",
-                    subtitle = "Browse characters by radical components",
+                    title = strings.radicalsTitle,
+                    subtitle = strings.radicalsSubtitle,
                     count = radicalCount,
                     onClick = onOpenRadicalSearch,
                     accent = accent,
@@ -341,24 +353,24 @@ private fun LibraryHub(
                 )
                 SectionCard(
                     icon = Icons.Default.AccountTree,
-                    title = "Radical Mind Map",
-                    subtitle = "Explore every radical and its connected Kanji",
+                    title = strings.radicalMapTitle,
+                    subtitle = strings.radicalMapSubtitle,
                     onClick = { navigationState.navigate(MainDestination.RadicalMindMap) },
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
                     icon = Icons.Default.Hub,
-                    title = "Kanji Component Map",
-                    subtitle = "Explore component nodes across the Kanji graph",
+                    title = strings.componentMapTitle,
+                    subtitle = strings.componentMapSubtitle,
                     onClick = { navigationState.navigate(MainDestination.KanjiComponentMindMap) },
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
                     icon = Icons.Default.Folder,
-                    title = "Custom Collections",
-                    subtitle = "Your manual study lists",
+                    title = strings.customCollectionsTitle,
+                    subtitle = strings.customCollectionsSubtitle,
                     count = customCount,
                     onClick = { navigationState.navigate(MainDestination.Collections) },
                     accent = accent,
@@ -367,14 +379,14 @@ private fun LibraryHub(
             }
         }
 
-        item(key = "smart-title") { SectionTitle("SMART LISTS", accent, surfaceColors) }
+        item(key = "smart-title") { SectionTitle(strings.smartListsSection, accent, surfaceColors) }
 
         item(key = "smart-items") {
             Column(verticalArrangement = Arrangement.spacedBy(Dimens.Space2)) {
                 SectionCard(
                     icon = Icons.Default.Star,
-                    title = "Favorites",
-                    subtitle = "Starred kanji",
+                    title = strings.favoritesTitle,
+                    subtitle = strings.favoritesSubtitle,
                     count = favorites,
                     onClick = {
                         navigationState.navigate(MainDestination.KanjiBrowser(KanjiBrowserCriteria(favoritesOnly = true)))
@@ -384,16 +396,16 @@ private fun LibraryHub(
                 )
                 SectionCard(
                     icon = Icons.Default.Bookmark,
-                    title = "Pinned",
-                    subtitle = "Quick access pinned items",
+                    title = strings.pinnedTitle,
+                    subtitle = strings.pinnedSubtitle,
                     onClick = { navigationState.navigate(MainDestination.Collections) },
                     accent = accent,
                     surfaceColors = surfaceColors
                 )
                 SectionCard(
                     icon = Icons.Default.Schedule,
-                    title = "Recently Learned",
-                    subtitle = "Kanji studied in the last 7 days",
+                    title = strings.recentlyLearnedTitle,
+                    subtitle = strings.recentlyLearnedSubtitle,
                     count = recently,
                     onClick = { navigationState.navigate(MainDestination.Collections) },
                     accent = accent,
@@ -401,8 +413,8 @@ private fun LibraryHub(
                 )
                 SectionCard(
                     icon = Icons.Default.LibraryBooks,
-                    title = "All Smart Lists",
-                    subtitle = "Auto-generated dynamic collections",
+                    title = strings.allSmartListsTitle,
+                    subtitle = strings.allSmartListsSubtitle,
                     count = smartCount,
                     onClick = { navigationState.navigate(MainDestination.Collections) },
                     accent = accent,
@@ -458,7 +470,8 @@ private fun StatRow(
 private fun SectionTitle(title: String, accent: KaiteyoAccentScheme, surfaceColors: SurfaceColors) {
     Row(
         verticalAlignment = Alignment.CenterVertically,
-        modifier = Modifier.padding(top = 16.dp, bottom = 4.dp)
+                    modifier = Modifier.padding(top = 16.dp, bottom = 4.dp).kaiteyoHeading()
+
     ) {
         Box(
             modifier = Modifier
@@ -493,6 +506,7 @@ fun SectionCard(
     val isPressed by interactionSource.collectIsPressedAsState()
     val isHovered by interactionSource.collectIsHoveredAsState()
     
+    val animationConfig = LocalAnimationConfig.current
     val targetScale = when {
         isPressed -> 0.95f
         isHovered && onClick != null -> 1.02f
@@ -500,12 +514,12 @@ fun SectionCard(
     }
     val scale by animateFloatAsState(
         targetValue = targetScale,
-        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
+        animationSpec = if (animationConfig.reducedMotion) snap() else spring(dampingRatio = Spring.DampingRatioMediumBouncy),
     )
 
     val backgroundColor by animateColorAsState(
         targetValue = if (isHovered || isPressed) surfaceColors.surfaceInteractive else surfaceColors.surface,
-        animationSpec = tween(200)
+        animationSpec = if (animationConfig.reducedMotion) snap() else tween(tweenDuration(animationConfig, baseDuration = 200)),
     )
 
     val base = Modifier
@@ -514,11 +528,14 @@ fun SectionCard(
             scaleX = scale
             scaleY = scale
         }
-        .clip(RoundedCornerShape(Dimens.RadiusXl))
+        .clip(MaterialTheme.shapes.extraLarge)
         .background(backgroundColor)
 
     val clickable = if (onClick != null) {
-        base.clickable(interactionSource = interactionSource, indication = LocalIndication.current, onClick = onClick)
+        base
+            .heightIn(min = 48.dp)
+            .semantics(mergeDescendants = true) { role = Role.Button }
+            .clickable(interactionSource = interactionSource, indication = LocalIndication.current, onClick = onClick)
     } else {
         base
     }

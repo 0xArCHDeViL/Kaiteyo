@@ -3,13 +3,10 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser
 
 import ua.syt0r.kanji.presentation.common.theme.Dimens
+import ua.syt0r.kanji.presentation.common.kaiteyoHeading
+import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.hoverable
-import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.interaction.collectIsHoveredAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -31,6 +28,8 @@ import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -45,11 +44,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import kotlinx.datetime.Clock
 import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
 import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
@@ -103,6 +100,7 @@ private fun CollectionsOverview(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { collections }
 
     Column(modifier = Modifier.fillMaxSize()) {
         Row(
@@ -111,17 +109,17 @@ private fun CollectionsOverview(
             horizontalArrangement = Arrangement.spacedBy(10.dp)
         ) {
             IconButton(onClick = { navigationState.navigateBack() }) {
-                Icon(Icons.Default.ArrowBack, "Back", tint = surfaceColors.textSecondary)
+                Icon(Icons.Default.ArrowBack, strings.backDescription, tint = surfaceColors.textSecondary)
             }
             Column(Modifier.weight(1f)) {
                 Text(
-                    text = "Collections",
+                    text = strings.title,
                     color = surfaceColors.textPrimary,
                     style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = "${dataCenter.cards.size} kanji available",
+                    text = strings.availableCards(dataCenter.cards.size),
                     color = surfaceColors.textMuted,
                     style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                 )
@@ -134,7 +132,7 @@ private fun CollectionsOverview(
             verticalArrangement = Arrangement.spacedBy(10.dp)
         ) {
             item(key = "smart") {
-                SectionTitle("Smart collections", accent, surfaceColors)
+                SectionTitle(strings.smartSectionTitle, accent, surfaceColors)
             }
             items(dataCenter.collections.filter { it.isSmart }, key = { it.id }) { collection ->
                 CollectionCard(
@@ -142,17 +140,18 @@ private fun CollectionsOverview(
                     count = collection.cardIds.size,
                     onClick = { onOpenCollection(collection) },
                     accent = accent,
-                    surfaceColors = surfaceColors
+                    surfaceColors = surfaceColors,
+                    title = strings.smartName(collection.id),
                 )
             }
 
             item(key = "tags") {
-                SectionTitle("By tag", accent, surfaceColors)
+                SectionTitle(strings.tagSectionTitle, accent, surfaceColors)
             }
             if (dataCenter.tags.isEmpty()) {
                 item(key = "no-tags") {
                     Text(
-                        text = "No tags yet — tag kanji from the browser to build collections.",
+                        text = strings.noTagsMessage,
                         color = surfaceColors.textMuted,
                         style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
                         modifier = Modifier.padding(vertical = 6.dp)
@@ -187,7 +186,7 @@ private fun CollectionsOverview(
             }
 
             item(key = "flags") {
-                SectionTitle("By flag", accent, surfaceColors)
+                SectionTitle(strings.flagLabel, accent, surfaceColors)
             }
             CardFlagType.entries.filter { it != CardFlagType.None }.forEach { flag ->
                 item(key = "flag-${flag.id}") {
@@ -215,6 +214,25 @@ private fun CollectionsOverview(
                     )
                 }
             }
+
+            item(key = "custom") {
+                SectionTitle(strings.customSectionTitle, accent, surfaceColors)
+            }
+            val customCollections = dataCenter.collections.filter { !it.isSmart && !it.id.startsWith("tag-") && !it.id.startsWith("flag-") }
+            if (customCollections.isEmpty()) {
+                item(key = "no-custom") {
+                    Text(strings.noCustomMessage, color = surfaceColors.textMuted, style = MaterialTheme.typography.bodySmall)
+                }
+            }
+            items(customCollections, key = { it.id }) { collection ->
+                CollectionCard(
+                    collection = collection,
+                    count = collection.cardIds.size,
+                    onClick = { onOpenCollection(collection) },
+                    accent = accent,
+                    surfaceColors = surfaceColors,
+                )
+            }
         }
     }
 }
@@ -226,7 +244,7 @@ private fun SectionTitle(title: String, accent: KaiteyoAccentScheme, surfaceColo
         color = accent.primary,
         style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
         fontWeight = FontWeight.Medium,
-        modifier = Modifier.padding(top = 8.dp)
+        modifier = Modifier.padding(top = 8.dp).kaiteyoHeading()
     )
 }
 
@@ -236,22 +254,21 @@ private fun CollectionCard(
     count: Int,
     onClick: () -> Unit,
     accent: KaiteyoAccentScheme,
-    surfaceColors: SurfaceColors
+    surfaceColors: SurfaceColors,
+    title: String = collection.name,
 ) {
-    val interactionSource = remember { MutableInteractionSource() }
-    val hovered by interactionSource.collectIsHoveredAsState()
-
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(Dimens.RadiusLg))
-            .background(if (hovered) surfaceColors.surfaceInteractive else surfaceColors.surface)
-            .clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
-            .hoverable(interactionSource)
-            .padding(14.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(12.dp)
+    Surface(
+        modifier = Modifier.fillMaxWidth(),
+        color = surfaceColors.surface,
+        shape = MaterialTheme.shapes.large,
+        onClick = onClick,
     ) {
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(14.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+
         Box(
             modifier = Modifier
                 .size(42.dp)
@@ -263,13 +280,13 @@ private fun CollectionCard(
         }
         Column(Modifier.weight(1f)) {
             Text(
-                text = collection.name,
+                text = title,
                 color = surfaceColors.textPrimary,
                 style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
                 fontWeight = FontWeight.Medium
             )
             Text(
-                text = if (collection.isSmart) "Auto-generated" else "Custom",
+                text = if (collection.isSmart) resolveString { collections }.autoGeneratedLabel else resolveString { collections }.customLabel,
                 color = surfaceColors.textMuted,
                 style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
@@ -280,9 +297,9 @@ private fun CollectionCard(
             style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
             fontWeight = FontWeight.Bold
         )
+            }
     }
 }
-
 @Composable
 private fun TagCollectionCard(
     tag: CardTag,
@@ -291,21 +308,20 @@ private fun TagCollectionCard(
     accent: KaiteyoAccentScheme,
     surfaceColors: SurfaceColors
 ) {
-    val interactionSource = remember { MutableInteractionSource() }
-    val hovered by interactionSource.collectIsHoveredAsState()
     val color = tag.getDisplayColor()
-
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(Dimens.RadiusLg))
-            .background(if (hovered) surfaceColors.surfaceInteractive else surfaceColors.surface)
-            .clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
-            .hoverable(interactionSource)
-            .padding(14.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(12.dp)
+    val strings = resolveString { collections }
+    Surface(
+        modifier = Modifier.fillMaxWidth(),
+        color = surfaceColors.surface,
+        shape = MaterialTheme.shapes.large,
+        onClick = onClick,
     ) {
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(14.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+
         Box(
             modifier = Modifier
                 .size(42.dp)
@@ -325,7 +341,7 @@ private fun TagCollectionCard(
                 overflow = TextOverflow.Ellipsis
             )
             Text(
-                text = "Tag",
+                text = strings.tagLabel,
                 color = surfaceColors.textMuted,
                 style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
@@ -336,6 +352,7 @@ private fun TagCollectionCard(
             style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
             fontWeight = FontWeight.Bold
         )
+        }
     }
 }
 
@@ -347,21 +364,19 @@ private fun FlagCollectionCard(
     accent: KaiteyoAccentScheme,
     surfaceColors: SurfaceColors
 ) {
-    val interactionSource = remember { MutableInteractionSource() }
-    val hovered by interactionSource.collectIsHoveredAsState()
     val color = flag.colorFromHex()
-
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(Dimens.RadiusLg))
-            .background(if (hovered) surfaceColors.surfaceInteractive else surfaceColors.surface)
-            .clickable(interactionSource = interactionSource, indication = null, onClick = onClick)
-            .hoverable(interactionSource)
-            .padding(14.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(12.dp)
+    val strings = resolveString { collections }
+    Surface(
+        modifier = Modifier.fillMaxWidth(),
+        color = surfaceColors.surface,
+        shape = MaterialTheme.shapes.large,
+        onClick = onClick,
     ) {
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(14.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
         Box(
             modifier = Modifier
                 .size(42.dp)
@@ -379,7 +394,7 @@ private fun FlagCollectionCard(
                 fontWeight = FontWeight.Medium
             )
             Text(
-                text = "Flag",
+                text = strings.flagLabel,
                 color = surfaceColors.textMuted,
                 style = androidx.compose.material3.MaterialTheme.typography.bodySmall
             )
@@ -390,6 +405,7 @@ private fun FlagCollectionCard(
             style = androidx.compose.material3.MaterialTheme.typography.titleMedium,
             fontWeight = FontWeight.Bold
         )
+        }
     }
 }
 
@@ -402,29 +418,31 @@ private fun CollectionDetail(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { collections }
+    val displayName = if (collection.isSmart) strings.smartName(collection.id) else collection.name
     val now = Clock.System.now()
 
     val cards = remember(collection, dataCenter.cards) {
         when {
-            collection.isSmart && collection.name == "Recently learned" ->
+            collection.id == "smart-recently-learned" ->
                 dataCenter.cards.filter { card ->
                     card.lastReviewed.isNotBlank() &&
                         runCatching { kotlinx.datetime.Instant.parse(card.lastReviewed) > now - 24.hours }
                             .getOrDefault(false)
                 }
-            collection.isSmart && collection.name == "Needs review" ->
+            collection.id == "smart-needs-review" ->
                 dataCenter.cards.filter { card ->
                     val srs = dataCenter.srsCards[card.id] ?: return@filter false
                     val last = srs.lastReview ?: return@filter false
                     last + srs.interval <= now
                 }
-            collection.isSmart && collection.name == "Frequently failed" ->
+            collection.id == "smart-frequently-failed" ->
                 dataCenter.cards.filter { (dataCenter.srsCards[it.id]?.lapses ?: 0) >= 3 }
-            collection.isSmart && collection.name == "Not studied in 30 days" ->
+            collection.id == "smart-not-studied-30-days" ->
                 dataCenter.cards.filter { dataCenter.notReviewedFor(it.id, 30) }
-            collection.isSmart && collection.name == "Flagged" ->
+            collection.id == "smart-flagged" ->
                 dataCenter.cards.filter { dataCenter.cardFlagsFor(it.id) != CardFlagType.None }
-            collection.isSmart && collection.name == "Favorites" ->
+            collection.id == "smart-favorites" ->
                 dataCenter.cards.filter { dataCenter.isFavorite(it.id) }
             else -> dataCenter.cards.filter { it.id in collection.cardIds }
         }
@@ -437,17 +455,17 @@ private fun CollectionDetail(
             horizontalArrangement = Arrangement.spacedBy(10.dp)
         ) {
             IconButton(onClick = onBack) {
-                Icon(Icons.Default.ArrowBack, "Back", tint = surfaceColors.textSecondary)
+                Icon(Icons.Default.ArrowBack, strings.backDescription, tint = surfaceColors.textSecondary)
             }
             Column(Modifier.weight(1f)) {
                 Text(
-                    text = "${collection.icon} ${collection.name}",
+                    text = "${collection.icon} $displayName",
                     color = surfaceColors.textPrimary,
                     style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = "${cards.size} kanji",
+                    text = strings.cardCount(cards.size),
                     color = surfaceColors.textMuted,
                     style = androidx.compose.material3.MaterialTheme.typography.bodySmall
                 )
@@ -456,23 +474,23 @@ private fun CollectionDetail(
                 onClick = {
                     onOpenBrowser(
                         KanjiBrowserCriteria(
-                            favoritesOnly = collection.name == "Favorites",
-                            showFlagged = collection.name == "Flagged",
-                            minLapses = if (collection.name == "Frequently failed") 3 else null,
-                            notReviewedDaysAgo = if (collection.name == "Not studied in 30 days") 30 else null,
-                            sortBy = if (collection.name == "Recently learned" || collection.name == "Needs review")
+                            favoritesOnly = collection.id == "smart-favorites",
+                            showFlagged = collection.id == "smart-flagged",
+                            minLapses = if (collection.id == "smart-frequently-failed") 3 else null,
+                            notReviewedDaysAgo = if (collection.id == "smart-not-studied-30-days") 30 else null,
+                            sortBy = if (collection.id == "smart-recently-learned" || collection.id == "smart-needs-review")
                                 KanjiBrowserSort.LastReviewed else KanjiBrowserSort.Frequency
                         )
                     )
                 }
             ) {
-                Text("Open in browser", color = accent.primary, style = androidx.compose.material3.MaterialTheme.typography.bodySmall)
+                Text(strings.openInBrowser, color = accent.primary, style = MaterialTheme.typography.bodySmall)
             }
         }
 
         if (cards.isEmpty()) {
             Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                Text("This collection is empty", color = surfaceColors.textMuted)
+                Text(strings.emptyMessage, color = surfaceColors.textMuted)
             }
         } else {
             LazyVerticalGrid(
@@ -485,16 +503,15 @@ private fun CollectionDetail(
                 items(cards, key = { it.id }) { card ->
                     Box(
                         modifier = Modifier
-                            .clip(RoundedCornerShape(Dimens.RadiusMd))
+                            .clip(MaterialTheme.shapes.medium)
                             .background(surfaceColors.surface)
-                            .border(1.dp, Color.Transparent, RoundedCornerShape(Dimens.RadiusMd))
                             .padding(8.dp),
                         contentAlignment = Alignment.Center
                     ) {
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
                             Text(
                                 text = card.character,
-                                fontSize = 30.sp,
+                                style = MaterialTheme.typography.headlineMedium,
                                 color = surfaceColors.textPrimary
                             )
                             Spacer(Modifier.height(4.dp))
@@ -507,7 +524,7 @@ private fun CollectionDetail(
                                 }
                                 dataCenter.classifications[card.id].orEmpty()
                                     .firstOrNull { it.startsWith("n") }
-                                    ?.let { Text(it.uppercase(), color = surfaceColors.textMuted, fontSize = 9.sp) }
+                                    ?.let { Text(it.uppercase(), color = surfaceColors.textMuted, style = MaterialTheme.typography.labelSmall) }
                             }
                         }
                     }

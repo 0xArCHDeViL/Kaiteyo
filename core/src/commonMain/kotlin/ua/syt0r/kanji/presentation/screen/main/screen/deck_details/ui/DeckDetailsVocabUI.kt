@@ -32,7 +32,7 @@ import ua.syt0r.kanji.presentation.common.CollapsibleContainer
 import ua.syt0r.kanji.presentation.common.ExtraListSpacerState
 import ua.syt0r.kanji.presentation.common.ExtraSpacer
 import ua.syt0r.kanji.presentation.common.ScreenVocabPracticeType
-import ua.syt0r.kanji.presentation.common.clickable
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
 import ua.syt0r.kanji.presentation.common.copyCentered
 import ua.syt0r.kanji.presentation.common.rememberCollapsibleContainerState
 import ua.syt0r.kanji.presentation.common.resources.icon.ExtraIcons
@@ -179,7 +179,7 @@ private fun WordItem(
         },
         modifier = modifier
             .clip(MaterialTheme.shapes.large)
-            .clickable(onClick)
+            .kaiteyoClickable(onClick = onClick)
     )
 
 }

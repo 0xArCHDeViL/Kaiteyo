@@ -31,12 +31,19 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.selected
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import ua.syt0r.kanji.PlatformFeature
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
+import ua.syt0r.kanji.presentation.common.theme.LocalAnimationConfig
 import ua.syt0r.kanji.presentation.common.theme.extraColorScheme
+import ua.syt0r.kanji.presentation.common.theme.tweenDuration
 import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
 import ua.syt0r.kanji.presentation.common.ui.Orientation
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.dashboard_common.IndicatorCircle
@@ -52,6 +59,7 @@ fun HomeScreenUI(
     screenTabContent: @Composable () -> Unit
 ) {
     val isLandscape = LocalOrientation.current == Orientation.Landscape
+    val animationConfig = LocalAnimationConfig.current
     
     KaiteyoScaffold(
             containerColor = MaterialTheme.colorScheme.background,
@@ -65,8 +73,14 @@ fun HomeScreenUI(
                         AnimatedContent(
                             targetState = selectedTabState.value,
                             transitionSpec = {
-                                slideInVertically(spring(stiffness = Spring.StiffnessLow)) { it } + fadeIn() togetherWith
-                                slideOutVertically(spring(stiffness = Spring.StiffnessLow)) { -it } + fadeOut()
+                                if (animationConfig.reducedMotion) {
+                                    EnterTransition.None togetherWith ExitTransition.None
+                                } else {
+                                    slideInVertically(spring(stiffness = Spring.StiffnessLow)) { it } +
+                                        fadeIn(tween(tweenDuration(animationConfig, 250))) togetherWith
+                                        slideOutVertically(spring(stiffness = Spring.StiffnessLow)) { -it } +
+                                        fadeOut(tween(tweenDuration(animationConfig, 250)))
+                                }
                             }
                         ) { tab ->
                             Text(
@@ -125,7 +139,12 @@ fun HomeScreenUI(
                 AnimatedContent(
                     targetState = selectedTabState.value,
                     transitionSpec = {
-                        fadeIn(tween(400)) togetherWith fadeOut(tween(400))
+                        if (animationConfig.reducedMotion) {
+                            EnterTransition.None togetherWith ExitTransition.None
+                        } else {
+                            fadeIn(tween(tweenDuration(animationConfig, 400))) togetherWith
+                                fadeOut(tween(tweenDuration(animationConfig, 400)))
+                        }
                     }
                 ) {
                     screenTabContent.invoke()
@@ -141,10 +160,12 @@ private fun SyncButton(
 ) {
     val interactionSource = remember { MutableInteractionSource() }
     val isPressed by interactionSource.collectIsPressedAsState()
+    val animationConfig = LocalAnimationConfig.current
     
     val scale by animateFloatAsState(
         targetValue = if (isPressed) 0.85f else 1f,
-        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessLow)
+        animationSpec = if (animationConfig.reducedMotion) snap() else
+            spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessLow)
     )
 
     Box(
@@ -164,7 +185,7 @@ private fun SyncButton(
 
             Icon(
                 imageVector = Icons.Default.Sync,
-                contentDescription = null,
+                contentDescription = resolveString { nav.syncLabel },
                 modifier = Modifier.graphicsLayer { rotationZ = rotation.value },
                 tint = MaterialTheme.colorScheme.primary
             )
@@ -213,21 +234,29 @@ private fun SyncButton(
 @Composable
 private fun rememberSyncIconRotation(animate: State<Boolean>): Animatable<Float, AnimationVector1D> {
     val rotation = remember { Animatable(360f) }
-    LaunchedEffect(Unit) {
+    val animationConfig = LocalAnimationConfig.current
+    LaunchedEffect(animationConfig.reducedMotion) {
         var shouldLoop = false
         val animateLoop = suspend {
             while (shouldLoop) {
                 rotation.snapTo(360f)
-                rotation.animateTo(0f, tween(1500, easing = LinearEasing))
+                rotation.animateTo(
+                    0f,
+                    tween(tweenDuration(animationConfig, 1500), easing = LinearEasing)
+                )
             }
         }
         var animateLoopJob: Job? = null
         snapshotFlow { animate.value }.collect { shouldAnimate ->
-            shouldLoop = shouldAnimate
-            if (shouldAnimate) {
+            shouldLoop = shouldAnimate && !animationConfig.reducedMotion
+            if (shouldLoop) {
                 val currentJob = animateLoopJob
-                if (currentJob == null || currentJob.isCompleted)
+                if (currentJob == null || currentJob.isCompleted) {
                     animateLoopJob = launch { animateLoop() }
+                }
+            } else {
+                animateLoopJob?.cancel()
+                rotation.snapTo(0f)
             }
         }
     }
@@ -242,25 +271,29 @@ private fun RowScope.VerticalTabButton(
 ) {
     val interactionSource = remember { MutableInteractionSource() }
     val isPressed by interactionSource.collectIsPressedAsState()
+    val tabLabel = resolveString(tab.titleResolver)
+    val animationConfig = LocalAnimationConfig.current
     
     val scale by animateFloatAsState(
         targetValue = if (isPressed) 0.85f else if (selected) 1.15f else 1f,
-        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessLow)
+        animationSpec = if (animationConfig.reducedMotion) snap() else
+            spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessLow)
     )
 
     val translationY by animateFloatAsState(
         targetValue = if (selected) -8f else 0f,
-        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessLow)
+        animationSpec = if (animationConfig.reducedMotion) snap() else
+            spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessLow)
     )
 
     val backgroundColor by animateColorAsState(
         targetValue = if (selected) MaterialTheme.colorScheme.primaryContainer else Color.Transparent,
-        animationSpec = tween(400)
+        animationSpec = tween(tweenDuration(animationConfig, 400))
     )
     
     val contentColor by animateColorAsState(
         targetValue = if (selected) MaterialTheme.colorScheme.onPrimaryContainer else MaterialTheme.colorScheme.onSurfaceVariant,
-        animationSpec = tween(400)
+        animationSpec = tween(tweenDuration(animationConfig, 400))
     )
 
     Box(
@@ -275,6 +308,11 @@ private fun RowScope.VerticalTabButton(
                 indication = null,
                 onClick = onClick
             )
+            .semantics(mergeDescendants = true) {
+                this.role = Role.Tab
+                this.selected = selected
+                contentDescription = tabLabel
+            }
             .testTag(tab.buttonTestTag)
     ) {
         Box(
@@ -299,20 +337,23 @@ private fun HorizontalTabButton(
 ) {
     val interactionSource = remember { MutableInteractionSource() }
     val isPressed by interactionSource.collectIsPressedAsState()
+    val tabLabel = resolveString(tab.titleResolver)
+    val animationConfig = LocalAnimationConfig.current
     
     val scale by animateFloatAsState(
         targetValue = if (isPressed) 0.92f else if (selected) 1.05f else 1f,
-        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
+        animationSpec = if (animationConfig.reducedMotion) snap() else
+            spring(dampingRatio = Spring.DampingRatioMediumBouncy)
     )
 
     val backgroundColor by animateColorAsState(
         targetValue = if (selected) MaterialTheme.colorScheme.primaryContainer else Color.Transparent,
-        animationSpec = tween(400)
+        animationSpec = tween(tweenDuration(animationConfig, 400))
     )
 
     val contentColor by animateColorAsState(
         targetValue = if (selected) MaterialTheme.colorScheme.onPrimaryContainer else MaterialTheme.colorScheme.onSurfaceVariant,
-        animationSpec = tween(400)
+        animationSpec = tween(tweenDuration(animationConfig, 400))
     )
 
     Row(
@@ -329,6 +370,11 @@ private fun HorizontalTabButton(
                 indication = LocalIndication.current,
                 onClick = onClick
             )
+            .semantics(mergeDescendants = true) {
+                this.role = Role.Tab
+                this.selected = selected
+                contentDescription = tabLabel
+            }
             .padding(horizontal = 20.dp, vertical = 18.dp)
             .testTag(tab.buttonTestTag),
         horizontalArrangement = Arrangement.spacedBy(20.dp),

@@ -239,6 +239,9 @@ fun AppTheme(
 ) {
     val surface = surfaceForBaseMode(baseMode)
     val isDark = baseMode != BaseMode.Light
+    val effectiveAnimationConfig = animationConfig.copy(
+        reducedMotion = animationConfig.reducedMotion || systemReducedMotion()
+    )
 
     val colors = if (isDark) {
         createDarkColorScheme(accentScheme, surface)
@@ -252,7 +255,7 @@ fun AppTheme(
         LocalKaiteyoAccent provides accentScheme,
         LocalBaseMode provides baseMode,
         LocalSurfaceColors provides surface,
-        LocalAnimationConfig provides animationConfig
+        LocalAnimationConfig provides effectiveAnimationConfig
     ) {
         MaterialTheme(
             colorScheme = colors,

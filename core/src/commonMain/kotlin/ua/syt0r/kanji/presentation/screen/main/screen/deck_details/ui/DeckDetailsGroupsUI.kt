@@ -1,7 +1,6 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.deck_details.ui
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -17,6 +16,7 @@ import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
@@ -140,14 +140,16 @@ private fun WordItem(
     modifier: Modifier = Modifier,
 ) {
 
-    Row(
-        modifier = modifier
-            .clip(MaterialTheme.shapes.medium)
-            .background(MaterialTheme.colorScheme.surfaceVariant)
-            .clickable(onClick = onClick)
-            .padding(horizontal = 14.dp, vertical = 12.dp),
-        verticalAlignment = Alignment.CenterVertically
+    Surface(
+        onClick = onClick,
+        modifier = modifier,
+        shape = MaterialTheme.shapes.medium,
+        color = MaterialTheme.colorScheme.surfaceVariant,
     ) {
+        Row(
+            modifier = Modifier.padding(horizontal = 14.dp, vertical = 12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
 
         Box(
             modifier = Modifier
@@ -169,15 +171,16 @@ private fun WordItem(
             overflow = TextOverflow.Ellipsis,
         )
 
-        if (state != GroupItemState.Default) {
-            Icon(
-                imageVector = if (state == GroupItemState.Selected) ExtraIcons.RadioButtonChecked
-                else ExtraIcons.RadioButtonUnchecked,
+            if (state != GroupItemState.Default) {
+                Icon(
+                    imageVector = if (state == GroupItemState.Selected) ExtraIcons.RadioButtonChecked
+                    else ExtraIcons.RadioButtonUnchecked,
                 contentDescription = null,
                 modifier = Modifier.padding(start = 4.dp)
             )
         }
 
+    }
     }
 
 }

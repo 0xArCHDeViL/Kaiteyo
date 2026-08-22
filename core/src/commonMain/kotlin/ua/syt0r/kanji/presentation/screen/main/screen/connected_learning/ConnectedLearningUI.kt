@@ -29,7 +29,6 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -319,7 +318,7 @@ private fun MasteryNodeGraph(
             ) {
                 Text(
                     text = node.label,
-                    fontSize = if (node.isAnchor) 24.sp else 18.sp,
+                    style = if (node.isAnchor) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.titleMedium,
                     color = colors.onPrimaryContainer,
                 )
             }
@@ -453,11 +452,7 @@ private fun CandidateLessonCard(
                 )
                 Spacer(Modifier.height(6.dp))
                 Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    FilterChip(
-                        selected = candidate.isDue,
-                        onClick = {},
-                        label = { Text(if (candidate.isDue) "Due" else "New") },
-                    )
+                    StatusBadge(if (candidate.isDue) "Due" else "New")
                     Text(
                         "${candidate.estimatedMinutes} min",
                         style = MaterialTheme.typography.labelMedium,

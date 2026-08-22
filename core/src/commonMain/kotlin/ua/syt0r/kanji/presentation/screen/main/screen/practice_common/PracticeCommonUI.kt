@@ -182,15 +182,13 @@ fun PracticeInsightsAction(
 ) {
     val colors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { commonPractice }
     Surface(
+        onClick = onClick,
         modifier = Modifier
             .fillMaxWidth()
-            .height(56.dp)
-            .clip(MaterialTheme.shapes.large)
-            .kaiteyoClickable(
-                onClick = onClick,
-                contentDescription = "Open Kanji insights",
-            ),
+            .height(56.dp),
+        shape = MaterialTheme.shapes.large,
         color = colors.surfaceInteractive,
         tonalElevation = 2.dp,
     ) {
@@ -203,8 +201,8 @@ fun PracticeInsightsAction(
             Icon(Icons.Default.Insights, contentDescription = null, tint = accent.primary)
             Spacer(Modifier.width(12.dp))
             Column(Modifier.weight(1f)) {
-                Text("Kanji details", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.SemiBold)
-                Text("Open insights", style = MaterialTheme.typography.labelSmall, color = colors.textMuted)
+                Text(strings.kanjiInsightsTitle, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.SemiBold)
+                Text(strings.kanjiInsightsMessage, style = MaterialTheme.typography.labelSmall, color = colors.textMuted)
             }
             Icon(Icons.AutoMirrored.Filled.NavigateNext, contentDescription = null, tint = accent.primary)
         }

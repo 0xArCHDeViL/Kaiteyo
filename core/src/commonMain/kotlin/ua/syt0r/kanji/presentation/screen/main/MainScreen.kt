@@ -23,6 +23,8 @@ import kotlinx.coroutines.flow.onEach
 import org.koin.compose.koinInject
 import ua.syt0r.kanji.core.analytics.AnalyticsManager
 import ua.syt0r.kanji.core.user_data.database.DatabaseMigrationState
+import ua.syt0r.kanji.presentation.common.resources.string.CommandPaletteActionCopy
+import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.presentation.common.nav.NavShell
 import ua.syt0r.kanji.presentation.dialog.VersionChangeDialog
 import ua.syt0r.kanji.presentation.getMultiplatformViewModel
@@ -47,140 +49,72 @@ fun MainScreen(
 
     LaunchedEffect(Unit) { dataCenter.ensureLoaded() }
 
-    LaunchedEffect(Unit) {
+    val paletteStrings = resolveString { commandPalette }.actions
+    LaunchedEffect(paletteStrings) {
         KaiteyoPalette.controller.setActions(
             buildList {
-                add(
-                    PaletteAction(
-                        title = "Kanji Browser",
-                        subtitle = "Search, filter, browse all kanji",
-                        keywords = "kanji browse search jlpt radical",
-                        category = "Navigate"
-                    ) { navigationState.navigate(MainDestination.KanjiBrowser()) }
-                )
-                add(
-                    PaletteAction(
-                        title = "Radical Mind Map",
-                        subtitle = "Explore all radicals and connected Kanji",
-                        keywords = "radical component map graph explorer",
-                        category = "Navigate"
-                    ) { navigationState.navigate(MainDestination.RadicalMindMap) }
-                )
-                add(
-                    PaletteAction(
-                        title = "Kanji Component Map",
-                        subtitle = "Explore component nodes across the Kanji graph",
-                        keywords = "kanji component map graph explorer",
-                        category = "Navigate"
-                    ) { navigationState.navigate(MainDestination.KanjiComponentMindMap) }
-                )
-                add(
-                    PaletteAction(
-                        title = "Collections",
-                        subtitle = "Smart collections, tags and flags",
-                        keywords = "collections tags flags favorites",
-                        category = "Navigate"
-                    ) { navigationState.navigate(MainDestination.Collections) }
-                )
+                add(paletteStrings.kanjiBrowser.toPaletteAction {
+                    navigationState.navigate(MainDestination.KanjiBrowser())
+                })
+                add(paletteStrings.radicalMindMap.toPaletteAction {
+                    navigationState.navigate(MainDestination.RadicalMindMap)
+                })
+                add(paletteStrings.kanjiComponentMap.toPaletteAction {
+                    navigationState.navigate(MainDestination.KanjiComponentMindMap)
+                })
+                add(paletteStrings.collections.toPaletteAction {
+                    navigationState.navigate(MainDestination.Collections)
+                })
                 if (ua.syt0r.kanji.BuildConfig.connectedLearningV1) {
-                    add(
-                        PaletteAction(
-                            title = "Connected Learning",
-                            subtitle = "Follow a connected Kanji-to-usage mastery path",
-                            keywords = "connected learning kanji map mastery lesson graph",
-                            category = "Navigate"
-                        ) { navigationState.navigate(MainDestination.ConnectedLearning()) }
-                    )
+                    add(paletteStrings.connectedLearning.toPaletteAction {
+                        navigationState.navigate(MainDestination.ConnectedLearning())
+                    })
                 }
-                add(
-                    PaletteAction(
-                        title = "Favorites",
-                        subtitle = "Only favorite kanji",
-                        keywords = "favorites star starred",
-                        category = "Filter"
-                    ) {
-                        navigationState.navigate(
-                            MainDestination.KanjiBrowser(
-                                ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria(
-                                    favoritesOnly = true
-                                )
+                add(paletteStrings.favorites.toPaletteAction {
+                    navigationState.navigate(
+                        MainDestination.KanjiBrowser(
+                            ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria(
+                                favoritesOnly = true
                             )
                         )
-                    }
-                )
-                add(
-                    PaletteAction(
-                        title = "Flagged kanji",
-                        subtitle = "Kanji with any flag set",
-                        keywords = "flagged flags color",
-                        category = "Filter"
-                    ) {
-                        navigationState.navigate(
-                            MainDestination.KanjiBrowser(
-                                ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria(
-                                    showFlagged = true
-                                )
+                    )
+                })
+                add(paletteStrings.flaggedKanji.toPaletteAction {
+                    navigationState.navigate(
+                        MainDestination.KanjiBrowser(
+                            ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria(
+                                showFlagged = true
                             )
                         )
-                    }
-                )
-                add(
-                    PaletteAction(
-                        title = "Difficult kanji",
-                        subtitle = "Kanji above difficulty threshold",
-                        keywords = "difficult hard problems",
-                        category = "Filter"
-                    ) {
-                        navigationState.navigate(
-                            MainDestination.KanjiBrowser(
-                                ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria(
-                                    showDifficult = true
-                                )
+                    )
+                })
+                add(paletteStrings.difficultKanji.toPaletteAction {
+                    navigationState.navigate(
+                        MainDestination.KanjiBrowser(
+                            ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria(
+                                showDifficult = true
                             )
                         )
-                    }
-                )
-                add(
-                    PaletteAction(
-                        title = "Frequently failed",
-                        subtitle = "Kanji with 3+ lapses",
-                        keywords = "failed lapses mistakes",
-                        category = "Filter"
-                    ) {
-                        navigationState.navigate(
-                            MainDestination.KanjiBrowser(
-                                ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria(
-                                    minLapses = 3
-                                )
+                    )
+                })
+                add(paletteStrings.frequentlyFailed.toPaletteAction {
+                    navigationState.navigate(
+                        MainDestination.KanjiBrowser(
+                            ua.syt0r.kanji.presentation.screen.main.screen.kanji_browser.KanjiBrowserCriteria(
+                                minLapses = 3
                             )
                         )
-                    }
-                )
-                add(
-                    PaletteAction(
-                        title = "Card Manager",
-                        subtitle = "Legacy deck card browser",
-                        keywords = "decks cards manager anki",
-                        category = "Navigate"
-                    ) { navigationState.navigate(MainDestination.CardBrowser) }
-                )
-                add(
-                    PaletteAction(
-                        title = "Statistics",
-                        subtitle = "Dashboard and review stats",
-                        keywords = "stats statistics dashboard heatmap",
-                        category = "Navigate"
-                    ) { navigationState.navigate(MainDestination.StatisticsDashboard) }
-                )
-                add(
-                    PaletteAction(
-                        title = "Close palette",
-                        subtitle = "Dismiss this menu",
-                        keywords = "close exit dismiss esc",
-                        category = "App",
-                        shortcut = "Esc"
-                    ) { KaiteyoPalette.controller.close() }
-                )
+                    )
+                })
+                add(paletteStrings.cardManager.toPaletteAction {
+                    navigationState.navigate(MainDestination.CardBrowser)
+                })
+                add(paletteStrings.statistics.toPaletteAction {
+                    navigationState.navigate(MainDestination.StatisticsDashboard)
+                })
+                add(paletteStrings.closePalette.toPaletteAction(shortcut = "Esc") {
+                    KaiteyoPalette.controller.close()
+                })
             }
         )
     }
@@ -299,3 +233,16 @@ private fun NotificationSnackbar(snackbarData: SnackbarData) {
         }
     }
 }
+
+
+private fun CommandPaletteActionCopy.toPaletteAction(
+    shortcut: String = "",
+    execute: () -> Unit,
+): PaletteAction = PaletteAction(
+    title = title,
+    subtitle = subtitle,
+    keywords = keywords,
+    shortcut = shortcut,
+    category = category,
+    execute = execute,
+)

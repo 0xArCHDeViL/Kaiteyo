@@ -75,7 +75,305 @@ object EnglishStrings : Strings {
         EnglishReminderNotificationStrings
 
     override val nav: NavStrings = EnglishNavStrings
+    override val commandPalette: CommandPaletteStrings = EnglishCommandPaletteStrings
+    override val kanjiBrowser: KanjiBrowserStrings = EnglishKanjiBrowserStrings
+    override val mindMap: MindMapStrings = EnglishMindMapStrings
+    override val collections: CollectionsStrings = EnglishCollectionsStrings
+    override val library: LibraryStrings = EnglishLibraryStrings
 
+}
+
+object EnglishKanjiBrowserStrings : KanjiBrowserStrings {
+    override val title: String = "Kanji Browser"
+    override val detail: KanjiDetailStrings = EnglishKanjiDetailStrings
+    override val navigateUpDescription: String = "Navigate back"
+    override val selectionModeDescription: String = "Enable selection mode"
+    override val selectionModeActiveDescription: String = "Disable selection mode"
+    override val showFiltersDescription: String = "Show filters"
+    override val hideFiltersDescription: String = "Hide filters"
+    override val showRadicalsDescription: String = "Show radicals"
+    override val hideRadicalsDescription: String = "Hide radicals"
+    override val switchToListDescription: String = "Switch to list view"
+    override val switchToGridDescription: String = "Switch to grid view"
+    override val searchLabel: String = "Search kanji"
+    override val clearSearchDescription: String = "Clear kanji search"
+    override val filtersTitle: String = "Filters"
+    override val resetFilters: String = "Reset all filters"
+    override val selectedCount: (Int) -> String = { "$it selected" }
+    override val flagAction: String = "Flag"
+    override val tagAction: String = "Tag"
+    override val favoriteAction: String = "Favorite"
+    override val resetProgressAction: String = "Reset progress"
+        override val clearSelection: String = "Clear selection"
+    override val loadingMessage: String = "Loading Kanji…"
+    override val noKanjiFound: String = "No Kanji found"
+    override val adjustFiltersMessage: String = "Try adjusting or clearing the filters"
+    override val searchPrompt: String = "Search for a Kanji, reading, or meaning"
+    override val clearFilters: String = "Clear filters"
+    override val radicalSearchTitle: String = "Radical search"
+    override val radicalSelectedCount: (Int) -> String = { "$it selected" }
+    override val clearRadicals: String = "Clear radicals"
+    override val allStrokes: String = "All strokes"
+    override val jlptFilter: String = "JLPT"
+    override val gradeFilter: String = "Grade"
+    override val statusFilter: String = "Status"
+    override val flagsFilter: String = "Flags"
+    override val strokesFilter: String = "Strokes"
+    override val frequencyFilter: String = "Frequency (rank)"
+    override val sortFilter: String = "Sort"
+    override val difficultySort: String = "Difficulty"
+    override val lastReviewedSort: String = "Last reviewed"
+    override val kanjiSort: String = "Kanji"
+    override val minLabel: String = "Min"
+    override val maxLabel: String = "Max"
+    override val anyValue: String = "Any"
+    override val decreaseValueDescription: String = "Decrease value"
+    override val increaseValueDescription: String = "Increase value"
+    override val noMeaning: String = "No meaning"
+    override val setFlagTitle: String = "Set flag"
+    override val noFlag: String = "No flag"
+    override val tagsTitle: String = "Tags"
+    override val newTagNamePlaceholder: String = "New tag name"
+    override val createButton: String = "Create"
+    override val cancelButton: String = "Cancel"
+    override val strokeCount: (Int) -> String = { "$it strokes" }
+    override val difficultyWarning: String = "Difficult"
+}
+object EnglishKanjiDetailStrings : KanjiDetailStrings {
+    override val headerLabel: String = "Kanji detail"
+    override val loadingMessage: String = "Loading canonical Kanji data…"
+    override val loadErrorMessage: String = "Could not load Kanji detail"
+    override val notFoundMessage: String = "Kanji not found in the application data pack"
+    override val retryButton: String = "Retry"
+    override val meaningTitle: String = "Meaning"
+    override val noMeaningMessage: String = "No meaning supplied by the canonical data source."
+    override val onYomiTitle: String = "On’yomi"
+    override val onYomiSubtitle: String = "Primary readings first; expand to see every recorded reading"
+    override val kunYomiTitle: String = "Kun’yomi"
+    override val kunYomiSubtitle: String = "Primary readings first; expand to see every recorded reading"
+    override val noOnYomiMessage: String = "No On’yomi readings recorded."
+    override val noKunYomiMessage: String = "No Kun’yomi readings recorded."
+    override val stopReadingDescription: (String) -> String = { "Stop reading $it" }
+    override val playOnReadingDescription: (String) -> String = { "Play On’yomi $it" }
+    override val collapseReadings: String = "Collapse readings"
+    override val showAllReadings: (Int) -> String = { "Show all $it readings" }
+    override val writingTitle: String = "Writing"
+    override val writingSubtitle: String = "Stroke order and production practice"
+    override val strokeCount: (Int) -> String = { "$it strokes" }
+    override val frequencyLabel: (Int) -> String = { "#$it frequency" }
+    override val practiceWritingButton: String = "Practice writing"
+    override val writingExplanation: String = "The writing canvas and stroke evaluator open in the existing Letter Practice flow."
+    override val componentsTitle: String = "Radicals & components"
+    override val noComponentsMessage: String = "No component decomposition recorded."
+    override val componentStrokeCount: (Int) -> String = { "stroke $it" }
+    override val whiteboardTitle: String = "Connected whiteboard"
+    override val whiteboardSubtitle: String = "Explore canonical relationships on an interactive canvas"
+    override val whiteboardExplanation: String = "The full graph is rendered on a pannable, zoomable whiteboard so every connection stays spatially meaningful."
+    override val openWhiteboardButton: String = "Open whiteboard"
+    override val vocabularyTitle: String = "Vocabulary"
+    override val vocabularySubtitle: String = "Examples from the full vocabulary database"
+    override val noVocabularyMessage: String = "No vocabulary examples are available for this Kanji."
+    override val learningStatusTitle: String = "Learning status"
+    override val inWritingReview: String = "In your writing review"
+    override val notReviewed: String = "Not reviewed yet"
+    override val difficultLabel: String = "Difficult"
+}
+
+object EnglishLibraryStrings : LibraryStrings {
+    override val title: String = "Library"
+    override val availableCards: (Int) -> String = { "$it Kanji available" }
+    override val hubDescription: String = "Your study hub — everything in one place"
+    override val offlineIndexReady: String = "Full JMdict · offline index ready"
+    override val preparingTitle: String = "Preparing the full offline dictionary…"
+    override val preparingMessage: String = "The first setup may take a moment; your full JMdict data is kept intact."
+    override val errorTitle: String = "The offline dictionary is not ready"
+    override val errorMessage: String = "No data was deleted. Check your connection and retry the full JMdict setup."
+    override val retryButton: String = "Retry"
+    override val studySection: String = "STUDY"
+    override val smartListsSection: String = "SMART LISTS"
+    override val kanjiTitle: String = "Kanji"
+    override val kanjiSubtitle: String = "Browse, filter & review all kanji"
+    override val kanjiDecksTitle: String = "Kanji Decks"
+    override val kanjiDecksSubtitle: String = "Letter decks & spaced repetition"
+    override val vocabularyTitle: String = "Vocabulary"
+    override val vocabularySubtitle: String = "Words, terms & vocab decks"
+    override val grammarTitle: String = "Grammar"
+    override val grammarSubtitle: String = "Rules, conjugations & dialogue"
+    override val radicalsTitle: String = "Radicals"
+    override val radicalsSubtitle: String = "Browse characters by radical components"
+    override val radicalMapTitle: String = "Radical Mind Map"
+    override val radicalMapSubtitle: String = "Explore every radical and its connected Kanji"
+    override val componentMapTitle: String = "Kanji Component Map"
+    override val componentMapSubtitle: String = "Explore component nodes across the Kanji graph"
+    override val customCollectionsTitle: String = "Custom Collections"
+    override val customCollectionsSubtitle: String = "Your manual study lists"
+    override val favoritesTitle: String = "Favorites"
+    override val favoritesSubtitle: String = "Starred Kanji"
+    override val pinnedTitle: String = "Pinned"
+    override val pinnedSubtitle: String = "Quick access pinned items"
+    override val recentlyLearnedTitle: String = "Recently Learned"
+    override val recentlyLearnedSubtitle: String = "Kanji studied in the last 7 days"
+    override val allSmartListsTitle: String = "All Smart Lists"
+    override val allSmartListsSubtitle: String = "Auto-generated dynamic collections"
+    override val kanjiStatLabel: String = "Kanji"
+    override val favoritesStatLabel: String = "Favorites"
+    override val reviewsStatLabel: String = "Reviews"
+    override val tagsStatLabel: String = "Tags"
+}
+
+object EnglishCollectionsStrings : CollectionsStrings {
+    override val title: String = "Collections"
+    override val availableCards: (Int) -> String = { "$it Kanji available" }
+    override val smartSectionTitle: String = "Smart collections"
+    override val tagSectionTitle: String = "By tag"
+    override val customSectionTitle: String = "Custom collections"
+    override val noTagsMessage: String = "No tags yet — tag Kanji from the browser to build collections."
+    override val noCustomMessage: String = "No custom collections yet."
+    override val autoGeneratedLabel: String = "Auto-generated"
+    override val customLabel: String = "Custom"
+    override val tagLabel: String = "Tag"
+    override val flagLabel: String = "Flag"
+    override val backDescription: String = "Navigate back"
+    override val openInBrowser: String = "Open in browser"
+    override val emptyMessage: String = "This collection is empty"
+    override val cardCount: (Int) -> String = { "$it Kanji" }
+    override val smartName: (String) -> String = { key ->
+        when (key.removePrefix("smart-")) {
+            "recently-learned" -> "Recently learned"
+            "needs-review" -> "Needs review"
+            "frequently-failed" -> "Frequently failed"
+            "not-studied-30-days" -> "Not studied in 30 days"
+            "flagged" -> "Flagged"
+            "favorites" -> "Favorites"
+            else -> key
+        }
+    }
+}
+
+object EnglishMindMapStrings : MindMapStrings {
+    override val radicalsTitle: String = "Radical mind map"
+    override val componentsTitle: String = "Kanji component mind map"
+    override val radicalsLabel: String = "radicals"
+    override val componentsLabel: String = "components"
+    override val backDescription: String = "Navigate back"
+    override val openCatalogDescription: String = "Open mind map catalog"
+    override val clearGraphDescription: String = "Close graph"
+    override val selectedGraphTitle: (String) -> String = { "Whiteboard · $it" }
+    override val canonicalGraphDescription: String = "Canonical connected-learning graph"
+    override val canvasDescription: String = "Interactive mind map whiteboard. Drag to pan and pinch to zoom."
+    override val chooseItemTitle: (String) -> String = { "Choose a $it to open its whiteboard" }
+    override val chooseItemMessage: String = "Pan, pinch-zoom, and select canonical nodes. The graph is bounded for stable Android performance."
+    override val openCatalogButton: String = "Open catalog"
+    override val catalogTitle: (String) -> String = { "$it catalog" }
+    override val catalogSubtitle: String = "Select a root to render its graph"
+    override val clearSearchDescription: String = "Clear search"
+    override val searchPlaceholder: (String) -> String = { "Search $it" }
+    override val loadingCatalog: String = "Loading catalog…"
+    override val totalItems: (Int, String) -> String = { count, label -> "$count $label" }
+    override val noMatches: (String) -> String = { "No $it match this search." }
+    override val loadMore: String = "Load more"
+    override val graphNodeCount: (Int) -> String = { "Graph $it nodes" }
+    override val selectNodeTitle: String = "Select a node"
+    override val selectNodeMessage: String = "Tap any node to inspect its canonical identity"
+    override val connectedNodeSummary: (String, String, Int) -> String = { kind, depth, connections -> "$kind · depth $depth · $connections connections" }
+    override val connectedKanjiCount: (Int) -> String = { "$it connected Kanji" }
+    override val strokeCount: (Int) -> String = { "$it strokes" }
+    override val nodeDescription: (String, String) -> String = { label, kind -> "$label, $kind node" }
+    override val detailsButton: String = "Details"
+    override val componentsButton: String = "Components"
+    override val zoomOutDescription: String = "Zoom out"
+    override val zoomInDescription: String = "Zoom in"
+    override val fitGraphDescription: String = "Fit graph"
+    override val chooseRoot: (String) -> String = { "Choose root · $it" }
+}
+
+object EnglishCommandPaletteStrings : CommandPaletteStrings {
+    override val emptyTitle: String = "No matches"
+    override val emptyMessage: String = "Try a different search term"
+    override val escapeHint: String = "Esc"
+    override val upHint: String = "Up"
+    override val downHint: String = "Down"
+    override val enterHint: String = "Enter"
+    override val openShortcutHint: String = "Ctrl+K to open"
+    override val clearQueryDescription: String = "Clear search"
+    override val searchLabel: String = "Search commands"
+    override val dismissDescription: String = "Dismiss command palette"
+    override val actions: CommandPaletteActionStrings = EnglishCommandPaletteActionStrings
+}
+
+object EnglishCommandPaletteActionStrings : CommandPaletteActionStrings {
+    override val kanjiBrowser = CommandPaletteActionCopy(
+        title = "Kanji Browser",
+        subtitle = "Search, filter, browse all kanji",
+        keywords = "kanji browse search jlpt radical",
+        category = "Navigate",
+    )
+    override val radicalMindMap = CommandPaletteActionCopy(
+        title = "Radical Mind Map",
+        subtitle = "Explore all radicals and connected Kanji",
+        keywords = "radical component map graph explorer",
+        category = "Navigate",
+    )
+    override val kanjiComponentMap = CommandPaletteActionCopy(
+        title = "Kanji Component Map",
+        subtitle = "Explore component nodes across the Kanji graph",
+        keywords = "kanji component map graph explorer",
+        category = "Navigate",
+    )
+    override val collections = CommandPaletteActionCopy(
+        title = "Collections",
+        subtitle = "Smart collections, tags and flags",
+        keywords = "collections tags flags favorites",
+        category = "Navigate",
+    )
+    override val connectedLearning = CommandPaletteActionCopy(
+        title = "Connected Learning",
+        subtitle = "Follow a connected Kanji-to-usage mastery path",
+        keywords = "connected learning kanji map mastery lesson graph",
+        category = "Navigate",
+    )
+    override val favorites = CommandPaletteActionCopy(
+        title = "Favorites",
+        subtitle = "Only favorite kanji",
+        keywords = "favorites star starred",
+        category = "Filter",
+    )
+    override val flaggedKanji = CommandPaletteActionCopy(
+        title = "Flagged kanji",
+        subtitle = "Kanji with any flag set",
+        keywords = "flagged flags color",
+        category = "Filter",
+    )
+    override val difficultKanji = CommandPaletteActionCopy(
+        title = "Difficult kanji",
+        subtitle = "Kanji above difficulty threshold",
+        keywords = "difficult hard problems",
+        category = "Filter",
+    )
+    override val frequentlyFailed = CommandPaletteActionCopy(
+        title = "Frequently failed",
+        subtitle = "Kanji with 3+ lapses",
+        keywords = "failed lapses mistakes",
+        category = "Filter",
+    )
+    override val cardManager = CommandPaletteActionCopy(
+        title = "Card Manager",
+        subtitle = "Legacy deck card browser",
+        keywords = "decks cards manager anki",
+        category = "Navigate",
+    )
+    override val statistics = CommandPaletteActionCopy(
+        title = "Statistics",
+        subtitle = "Dashboard and review stats",
+        keywords = "stats statistics dashboard heatmap",
+        category = "Navigate",
+    )
+    override val closePalette = CommandPaletteActionCopy(
+        title = "Close palette",
+        subtitle = "Dismiss this menu",
+        keywords = "close exit dismiss esc",
+        category = "App",
+    )
 }
 
 object EnglishNavStrings : NavStrings {
@@ -248,6 +546,8 @@ object EnglishStatsStrings : StatsStrings {
 
 object EnglishSearchStrings : SearchStrings {
     override val inputHint: String = "Search words, romaji, or #k #c #name"
+    override val clearInputDescription: String = "Clear search"
+    override val radicalsSearchDescription: String = "Search by radicals"
     override val charactersTitle: (count: Int) -> String = { "Letters ($it)" }
     override val namesTitle: (count: Int) -> String = { "Names ($it)" }
     override val wordsTitle: (count: Int) -> String = { "Words ($it)" }
@@ -266,6 +566,9 @@ object EnglishAlternativeDialogStrings : AlternativeDialogStrings {
 }
 
 object EnglishSettingsStrings : SettingsStrings {
+    override val preferencesSection: String = "Preferences"
+    override val dataSyncSection: String = "Data & Sync"
+    override val moreSection: String = "More"
     override val analyticsTitle: String = "Analytics"
     override val analyticsMessage: String = "Allow sending anonymous app usage data"
     override val themeTitle: String = "Theme"
@@ -573,6 +876,8 @@ object EnglishCommonPracticeStrings : CommonPracticeStrings {
     override val shuffleConfigurationTitle: String = "Shuffle"
     override val shuffleConfigurationMessage: String = "Randomizes review order"
     override val configurationCompleteButton: String = "Start"
+    override val kanjiInsightsTitle: String = "Kanji details"
+    override val kanjiInsightsMessage: String = "Open insights"
 
     override val additionalKanaReadingsNote: (List<String>) -> String = {
         "Note: can also be written as ${it.joinToString()}"

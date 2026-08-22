@@ -3,6 +3,8 @@ package ua.syt0r.kanji.presentation.screen.main.screen.home.screen.settings
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.AnimatedContent
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
@@ -54,6 +56,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import ua.syt0r.kanji.presentation.common.MultiplatformDialog
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
+import ua.syt0r.kanji.presentation.common.kaiteyoHeading
+import ua.syt0r.kanji.presentation.common.theme.LocalAnimationConfig
 import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
 import ua.syt0r.kanji.presentation.common.ui.Orientation
 import ua.syt0r.kanji.presentation.screen.main.screen.home.screen.settings.SettingsScreenContract.ScreenState
@@ -70,9 +74,14 @@ fun SettingsScreenUI(
     onAboutButtonClick: () -> Unit,
     loadedContent: @Composable ColumnScope.(ScreenState.Loaded) -> Unit
 ) {
+    val animationConfig = LocalAnimationConfig.current
+    val strings = resolveString { settings }
     AnimatedContent(
         state.value,
-        transitionSpec = { fadeIn() togetherWith fadeOut() }
+        transitionSpec = {
+            if (animationConfig.reducedMotion) EnterTransition.None togetherWith ExitTransition.None
+            else fadeIn() togetherWith fadeOut()
+        },
     ) { screenState ->
         when (screenState) {
             ScreenState.Loading -> {
@@ -82,20 +91,20 @@ fun SettingsScreenUI(
                 SettingsContent {
                     
                     Text(
-                        text = "Preferences",
+                        text = strings.preferencesSection,
                         style = MaterialTheme.typography.labelLarge,
                         color = MaterialTheme.colorScheme.primary,
-                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp).kaiteyoHeading()
                     )
                     
                     loadedContent(screenState)
                     
                     Spacer(Modifier.height(12.dp))
                     Text(
-                        text = "Data & Sync",
+                        text = strings.dataSyncSection,
                         style = MaterialTheme.typography.labelLarge,
                         color = MaterialTheme.colorScheme.primary,
-                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp).kaiteyoHeading()
                     )
                     SettingsAccountButton(onAccountButtonClick)
                     SettingsSyncButton(onSyncButtonClick)
@@ -103,10 +112,10 @@ fun SettingsScreenUI(
 
                     Spacer(Modifier.height(12.dp))
                     Text(
-                        text = "More",
+                        text = strings.moreSection,
                         style = MaterialTheme.typography.labelLarge,
                         color = MaterialTheme.colorScheme.primary,
-                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp).kaiteyoHeading()
                     )
                     SettingsFeedbackButton(onFeedbackButtonClick)
                     SettingsAboutButton(onAboutButtonClick)
@@ -183,7 +192,7 @@ fun SettingsSwitchRow(
             trailingContent = {
                 Switch(
                     checked = isEnabled,
-                    onCheckedChange = { onToggled() },
+                    onCheckedChange = null,
                     colors = SwitchDefaults.colors(
                         uncheckedTrackColor = MaterialTheme.colorScheme.surface
                     )

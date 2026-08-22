@@ -4,7 +4,6 @@ import androidx.compose.animation.AnimatedContentScope
 import androidx.compose.animation.scaleIn
 import androidx.compose.animation.scaleOut
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -22,6 +21,7 @@ import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
@@ -64,22 +64,25 @@ fun <T : ScreenPracticeType> AnimatedContentScope.DeckDashboardBottomBar(
             var dropdownExpanded by remember { mutableStateOf(false) }
             val item = selectedItem.value
             Box {
-                Row(
-                    modifier = Modifier
-                        .clip(MaterialTheme.shapes.medium)
-                        .clickable(onClick = { dropdownExpanded = true })
-                        .padding(ButtonDefaults.TextButtonContentPadding),
-                    verticalAlignment = Alignment.CenterVertically
+                Surface(
+                    onClick = { dropdownExpanded = true },
+                    shape = MaterialTheme.shapes.medium,
+                    color = MaterialTheme.colorScheme.surfaceVariant,
                 ) {
-                    val practiceTypeLabel = resolveString(item.practiceType.titleResolver)
-                    Text(
-                        text = resolveString {
-                            commonDashboard.selectedPracticeTypeTemplate(practiceTypeLabel)
-                        },
-                        style = MaterialTheme.typography.labelLarge,
-                        fontWeight = FontWeight.Light
-                    )
-                    Icon(Icons.Default.ArrowDropDown, null)
+                    Row(
+                        modifier = Modifier.padding(ButtonDefaults.TextButtonContentPadding),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        val practiceTypeLabel = resolveString(item.practiceType.titleResolver)
+                        Text(
+                            text = resolveString {
+                                commonDashboard.selectedPracticeTypeTemplate(practiceTypeLabel)
+                            },
+                            style = MaterialTheme.typography.labelLarge,
+                            fontWeight = FontWeight.Light
+                        )
+                        Icon(Icons.Default.ArrowDropDown, contentDescription = null)
+                    }
                 }
 
                 AppDropdownMenu(
@@ -145,7 +148,6 @@ private fun DeckDashboardBottomBarLayout(
                 .border(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = Dimens.Alpha.Medium), CircleShape)
                 .clip(CircleShape)
                 .background(MaterialTheme.colorScheme.surfaceVariant)
-                .clickable(false) {}
                 .padding(vertical = ExtraBackgroundVerticalPadding),
             verticalAlignment = Alignment.CenterVertically
         ) {

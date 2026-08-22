@@ -1,6 +1,6 @@
 package ua.syt0r.kanji.presentation.screen.main.screen.deck_details.ui
 
-import androidx.compose.foundation.clickable
+import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -19,6 +19,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.input.nestedscroll.nestedScroll
@@ -115,12 +116,19 @@ private fun LetterListItem(
     onSelectionToggled: (DeckDetailsListItem.Letter) -> Unit
 ) {
 
+    val selectionModifier = if (isSelectionModeEnabled.value) {
+        Modifier.selectable(
+            selected = item.selected.value,
+            role = Role.Checkbox,
+            onClick = { onSelectionToggled(item) },
+        )
+    } else {
+        Modifier
+    }
     Row(
         modifier = Modifier.fillMaxWidth()
             .clip(MaterialTheme.shapes.large)
-            .clickable(isSelectionModeEnabled.value) {
-                onSelectionToggled(item)
-            }
+            .then(selectionModifier)
             .padding(horizontal = 10.dp, vertical = 10.dp),
         horizontalArrangement = Arrangement.spacedBy(10.dp),
         verticalAlignment = Alignment.Top
@@ -162,7 +170,7 @@ private fun LetterListItem(
         if (isSelectionModeEnabled.value) {
             RadioButton(
                 selected = item.selected.value,
-                onClick = { onSelectionToggled(item) },
+                onClick = null,
                 colors = RadioButtonDefaults.colors(
                     selectedColor = MaterialTheme.colorScheme.onSurface
                 )

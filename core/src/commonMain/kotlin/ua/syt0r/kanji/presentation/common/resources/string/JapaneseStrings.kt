@@ -72,7 +72,305 @@ object JapaneseStrings : Strings {
         JapaneseReminderNotificationStrings
 
     override val nav: NavStrings = JapaneseNavStrings
+    override val commandPalette: CommandPaletteStrings = JapaneseCommandPaletteStrings
+    override val kanjiBrowser: KanjiBrowserStrings = JapaneseKanjiBrowserStrings
+    override val mindMap: MindMapStrings = JapaneseMindMapStrings
+    override val collections: CollectionsStrings = JapaneseCollectionsStrings
+    override val library: LibraryStrings = JapaneseLibraryStrings
 
+}
+
+object JapaneseKanjiBrowserStrings : KanjiBrowserStrings {
+    override val title: String = "漢字ブラウザー"
+    override val detail: KanjiDetailStrings = JapaneseKanjiDetailStrings
+    override val navigateUpDescription: String = "戻る"
+    override val selectionModeDescription: String = "選択モードを有効にする"
+    override val selectionModeActiveDescription: String = "選択モードを無効にする"
+    override val showFiltersDescription: String = "絞り込みを表示"
+    override val hideFiltersDescription: String = "絞り込みを非表示"
+    override val showRadicalsDescription: String = "部首を表示"
+    override val hideRadicalsDescription: String = "部首を非表示"
+    override val switchToListDescription: String = "リスト表示に切り替える"
+    override val switchToGridDescription: String = "グリッド表示に切り替える"
+    override val searchLabel: String = "漢字を検索"
+    override val clearSearchDescription: String = "漢字検索をクリア"
+    override val filtersTitle: String = "絞り込み"
+    override val resetFilters: String = "すべての絞り込みをリセット"
+    override val selectedCount: (Int) -> String = { "$it 個選択中" }
+    override val flagAction: String = "フラグ"
+    override val tagAction: String = "タグ"
+    override val favoriteAction: String = "お気に入り"
+    override val resetProgressAction: String = "進捗をリセット"
+        override val clearSelection: String = "選択を解除"
+    override val loadingMessage: String = "漢字を読み込んでいます…"
+    override val noKanjiFound: String = "漢字が見つかりません"
+    override val adjustFiltersMessage: String = "絞り込みを調整するか、解除してください"
+    override val searchPrompt: String = "漢字・読み・意味を検索"
+    override val clearFilters: String = "絞り込みを解除"
+    override val radicalSearchTitle: String = "部首検索"
+    override val radicalSelectedCount: (Int) -> String = { "$it 個選択中" }
+    override val clearRadicals: String = "部首を解除"
+    override val allStrokes: String = "すべての画数"
+    override val jlptFilter: String = "JLPT"
+    override val gradeFilter: String = "学年"
+    override val statusFilter: String = "状態"
+    override val flagsFilter: String = "フラグ"
+    override val strokesFilter: String = "画数"
+    override val frequencyFilter: String = "出現頻度"
+    override val sortFilter: String = "並べ替え"
+    override val difficultySort: String = "難易度"
+    override val lastReviewedSort: String = "最終復習"
+    override val kanjiSort: String = "漢字"
+    override val minLabel: String = "最小"
+    override val maxLabel: String = "最大"
+    override val anyValue: String = "指定なし"
+    override val decreaseValueDescription: String = "値を減らす"
+    override val increaseValueDescription: String = "値を増やす"
+    override val noMeaning: String = "意味がありません"
+    override val setFlagTitle: String = "フラグを設定"
+    override val noFlag: String = "フラグなし"
+    override val tagsTitle: String = "タグ"
+    override val newTagNamePlaceholder: String = "新しいタグ名"
+    override val createButton: String = "作成"
+    override val cancelButton: String = "キャンセル"
+    override val strokeCount: (Int) -> String = { "${it}画" }
+    override val difficultyWarning: String = "難しい"
+}
+object JapaneseKanjiDetailStrings : KanjiDetailStrings {
+    override val headerLabel: String = "漢字の詳細"
+    override val loadingMessage: String = "漢字データを読み込んでいます…"
+    override val loadErrorMessage: String = "漢字の詳細を読み込めませんでした"
+    override val notFoundMessage: String = "アプリのデータパックに漢字がありません"
+    override val retryButton: String = "再試行"
+    override val meaningTitle: String = "意味"
+    override val noMeaningMessage: String = "標準データソースに意味がありません。"
+    override val onYomiTitle: String = "音読み"
+    override val onYomiSubtitle: String = "主な読み方を先に表示。すべての読み方を展開できます"
+    override val kunYomiTitle: String = "訓読み"
+    override val kunYomiSubtitle: String = "主な読み方を先に表示。すべての読み方を展開できます"
+    override val noOnYomiMessage: String = "音読みの記録がありません。"
+    override val noKunYomiMessage: String = "訓読みの記録がありません。"
+    override val stopReadingDescription: (String) -> String = { "読み上げを停止: $it" }
+    override val playOnReadingDescription: (String) -> String = { "音読みを再生: $it" }
+    override val collapseReadings: String = "読み方を折りたたむ"
+    override val showAllReadings: (Int) -> String = { "$it 件の読み方をすべて表示" }
+    override val writingTitle: String = "書き方"
+    override val writingSubtitle: String = "書き順と書字練習"
+    override val strokeCount: (Int) -> String = { "${it}画" }
+    override val frequencyLabel: (Int) -> String = { "出現頻度 #$it" }
+    override val practiceWritingButton: String = "書き取りを練習"
+    override val writingExplanation: String = "書字キャンバスと書き順判定は既存の文字練習フローで開きます。"
+    override val componentsTitle: String = "部首と構成要素"
+    override val noComponentsMessage: String = "構成要素の記録がありません。"
+    override val componentStrokeCount: (Int) -> String = { "${it}画目" }
+    override val whiteboardTitle: String = "つながるホワイトボード"
+    override val whiteboardSubtitle: String = "インタラクティブなキャンバスで標準の関係を探索"
+    override val whiteboardExplanation: String = "全グラフをパン・ズームできるホワイトボードに表示し、つながりを空間的に確認できます。"
+    override val openWhiteboardButton: String = "ホワイトボードを開く"
+    override val vocabularyTitle: String = "単語"
+    override val vocabularySubtitle: String = "完全な語彙データベースからの用例"
+    override val noVocabularyMessage: String = "この漢字の用例がありません。"
+    override val learningStatusTitle: String = "学習状況"
+    override val inWritingReview: String = "書字練習で学習済み"
+    override val notReviewed: String = "未復習"
+    override val difficultLabel: String = "難しい"
+}
+
+object JapaneseLibraryStrings : LibraryStrings {
+    override val title: String = "ライブラリ"
+    override val availableCards: (Int) -> String = { "利用可能な漢字 ${it}字" }
+    override val hubDescription: String = "学習ハブ — すべてを一か所で管理"
+    override val offlineIndexReady: String = "JMdict全文 · オフライン索引の準備完了"
+    override val preparingTitle: String = "オフライン辞書を準備しています…"
+    override val preparingMessage: String = "初回セットアップには少し時間がかかる場合があります。JMdictの全データは保持されます。"
+    override val errorTitle: String = "オフライン辞書を利用できません"
+    override val errorMessage: String = "データは削除されていません。接続を確認してJMdictのセットアップを再試行してください。"
+    override val retryButton: String = "再試行"
+    override val studySection: String = "学習"
+    override val smartListsSection: String = "スマートリスト"
+    override val kanjiTitle: String = "漢字"
+    override val kanjiSubtitle: String = "すべての漢字を検索・絞り込み・復習"
+    override val kanjiDecksTitle: String = "漢字デッキ"
+    override val kanjiDecksSubtitle: String = "文字デッキと間隔反復"
+    override val vocabularyTitle: String = "語彙"
+    override val vocabularySubtitle: String = "単語・用語・語彙デッキ"
+    override val grammarTitle: String = "文法"
+    override val grammarSubtitle: String = "規則・活用・会話"
+    override val radicalsTitle: String = "部首"
+    override val radicalsSubtitle: String = "部首構成から文字を検索"
+    override val radicalMapTitle: String = "部首マップ"
+    override val radicalMapSubtitle: String = "すべての部首と関連漢字を探索"
+    override val componentMapTitle: String = "漢字構成要素マップ"
+    override val componentMapSubtitle: String = "漢字グラフの構成要素ノードを探索"
+    override val customCollectionsTitle: String = "カスタムコレクション"
+    override val customCollectionsSubtitle: String = "自分で作成した学習リスト"
+    override val favoritesTitle: String = "お気に入り"
+    override val favoritesSubtitle: String = "お気に入りの漢字"
+    override val pinnedTitle: String = "ピン留め"
+    override val pinnedSubtitle: String = "ピン留めした項目へすばやくアクセス"
+    override val recentlyLearnedTitle: String = "最近学習"
+    override val recentlyLearnedSubtitle: String = "過去7日間に学習した漢字"
+    override val allSmartListsTitle: String = "すべてのスマートリスト"
+    override val allSmartListsSubtitle: String = "自動生成される動的コレクション"
+    override val kanjiStatLabel: String = "漢字"
+    override val favoritesStatLabel: String = "お気に入り"
+    override val reviewsStatLabel: String = "復習"
+    override val tagsStatLabel: String = "タグ"
+}
+
+object JapaneseCollectionsStrings : CollectionsStrings {
+    override val title: String = "コレクション"
+    override val availableCards: (Int) -> String = { "利用可能な漢字 ${it}字" }
+    override val smartSectionTitle: String = "スマートコレクション"
+    override val tagSectionTitle: String = "タグ別"
+    override val customSectionTitle: String = "カスタムコレクション"
+    override val noTagsMessage: String = "タグはまだありません。ブラウザーから漢字にタグを付けてコレクションを作成できます。"
+    override val noCustomMessage: String = "カスタムコレクションはまだありません。"
+    override val autoGeneratedLabel: String = "自動生成"
+    override val customLabel: String = "カスタム"
+    override val tagLabel: String = "タグ"
+    override val flagLabel: String = "フラグ"
+    override val backDescription: String = "戻る"
+    override val openInBrowser: String = "ブラウザーで開く"
+    override val emptyMessage: String = "このコレクションは空です"
+    override val cardCount: (Int) -> String = { "漢字 ${it}字" }
+    override val smartName: (String) -> String = { key ->
+        when (key.removePrefix("smart-")) {
+            "recently-learned" -> "最近学習"
+            "needs-review" -> "復習が必要"
+            "frequently-failed" -> "間違いが多い"
+            "not-studied-30-days" -> "30日間未学習"
+            "flagged" -> "フラグ付き"
+            "favorites" -> "お気に入り"
+            else -> key
+        }
+    }
+}
+
+object JapaneseMindMapStrings : MindMapStrings {
+    override val radicalsTitle: String = "部首マップ"
+    override val componentsTitle: String = "漢字構成要素マップ"
+    override val radicalsLabel: String = "部首"
+    override val componentsLabel: String = "構成要素"
+    override val backDescription: String = "戻る"
+    override val openCatalogDescription: String = "マップ一覧を開く"
+    override val clearGraphDescription: String = "グラフを閉じる"
+    override val selectedGraphTitle: (String) -> String = { "ホワイトボード · $it" }
+    override val canonicalGraphDescription: String = "標準の学習つながりグラフ"
+    override val canvasDescription: String = "インタラクティブなマインドマップ。ドラッグで移動し、ピンチで拡大縮小できます。"
+    override val chooseItemTitle: (String) -> String = { "${it}を選択してホワイトボードを開く" }
+    override val chooseItemMessage: String = "パン、ピンチズーム、ノード選択に対応しています。安定したAndroid動作のためグラフの表示数を制限しています。"
+    override val openCatalogButton: String = "一覧を開く"
+    override val catalogTitle: (String) -> String = { "${it}一覧" }
+    override val catalogSubtitle: String = "グラフを表示するルートを選択"
+    override val clearSearchDescription: String = "検索をクリア"
+    override val searchPlaceholder: (String) -> String = { "${it}を検索" }
+    override val loadingCatalog: String = "一覧を読み込んでいます…"
+    override val totalItems: (Int, String) -> String = { count, label -> "$count $label" }
+    override val noMatches: (String) -> String = { "検索に一致する${it}がありません。" }
+    override val loadMore: String = "さらに読み込む"
+    override val graphNodeCount: (Int) -> String = { "ノード ${it}個" }
+    override val selectNodeTitle: String = "ノードを選択"
+    override val selectNodeMessage: String = "ノードをタップすると標準データの詳細を確認できます"
+    override val connectedNodeSummary: (String, String, Int) -> String = { kind, depth, connections -> "$kind · 深さ $depth · 接続 ${connections}件" }
+    override val connectedKanjiCount: (Int) -> String = { "関連漢字 ${it}字" }
+    override val strokeCount: (Int) -> String = { "${it}画" }
+    override val nodeDescription: (String, String) -> String = { label, kind -> "$label、${kind}ノード" }
+    override val detailsButton: String = "詳細"
+    override val componentsButton: String = "構成要素"
+    override val zoomOutDescription: String = "縮小"
+    override val zoomInDescription: String = "拡大"
+    override val fitGraphDescription: String = "グラフを全体表示"
+    override val chooseRoot: (String) -> String = { "ルートを選択 · $it" }
+}
+
+object JapaneseCommandPaletteStrings : CommandPaletteStrings {
+    override val emptyTitle: String = "一致する項目がありません"
+    override val emptyMessage: String = "別の検索語を試してください"
+    override val escapeHint: String = "Esc"
+    override val upHint: String = "上"
+    override val downHint: String = "下"
+    override val enterHint: String = "決定"
+    override val openShortcutHint: String = "Ctrl+Kで開く"
+    override val clearQueryDescription: String = "検索をクリア"
+    override val searchLabel: String = "コマンドを検索"
+    override val dismissDescription: String = "コマンドパレットを閉じる"
+    override val actions: CommandPaletteActionStrings = JapaneseCommandPaletteActionStrings
+}
+
+object JapaneseCommandPaletteActionStrings : CommandPaletteActionStrings {
+    override val kanjiBrowser = CommandPaletteActionCopy(
+        title = "漢字ブラウザー",
+        subtitle = "漢字を検索・絞り込み・一覧表示",
+        keywords = "kanji browse search jlpt radical 漢字 検索 検索画面 部首",
+        category = "移動",
+    )
+    override val radicalMindMap = CommandPaletteActionCopy(
+        title = "部首マップ",
+        subtitle = "すべての部首と関連する漢字を探索",
+        keywords = "radical component map graph explorer 部首 構成 マップ グラフ",
+        category = "移動",
+    )
+    override val kanjiComponentMap = CommandPaletteActionCopy(
+        title = "漢字構成マップ",
+        subtitle = "漢字グラフの構成ノードを探索",
+        keywords = "kanji component map graph explorer 漢字 構成 マップ グラフ",
+        category = "移動",
+    )
+    override val collections = CommandPaletteActionCopy(
+        title = "コレクション",
+        subtitle = "スマートコレクション・タグ・フラグ",
+        keywords = "collections tags flags favorites コレクション タグ フラグ お気に入り",
+        category = "移動",
+    )
+    override val connectedLearning = CommandPaletteActionCopy(
+        title = "つながる学習",
+        subtitle = "漢字から用例へつながる習得パスを進む",
+        keywords = "connected learning kanji map mastery lesson graph 連結 学習 習得 レッスン",
+        category = "移動",
+    )
+    override val favorites = CommandPaletteActionCopy(
+        title = "お気に入り",
+        subtitle = "お気に入りにした漢字だけを表示",
+        keywords = "favorites star starred お気に入り 星",
+        category = "絞り込み",
+    )
+    override val flaggedKanji = CommandPaletteActionCopy(
+        title = "フラグ付き漢字",
+        subtitle = "フラグが設定された漢字",
+        keywords = "flagged flags color フラグ 色",
+        category = "絞り込み",
+    )
+    override val difficultKanji = CommandPaletteActionCopy(
+        title = "難しい漢字",
+        subtitle = "難易度のしきい値を超えた漢字",
+        keywords = "difficult hard problems 難しい 難易度 問題",
+        category = "絞り込み",
+    )
+    override val frequentlyFailed = CommandPaletteActionCopy(
+        title = "よく間違える漢字",
+        subtitle = "3回以上ラプスした漢字",
+        keywords = "failed lapses mistakes 間違い ラプス ミス",
+        category = "絞り込み",
+    )
+    override val cardManager = CommandPaletteActionCopy(
+        title = "カード管理",
+        subtitle = "旧デッキのカードブラウザー",
+        keywords = "decks cards manager anki デッキ カード 管理",
+        category = "移動",
+    )
+    override val statistics = CommandPaletteActionCopy(
+        title = "統計",
+        subtitle = "ダッシュボードと復習統計",
+        keywords = "stats statistics dashboard heatmap 統計 復習 グラフ",
+        category = "移動",
+    )
+    override val closePalette = CommandPaletteActionCopy(
+        title = "パレットを閉じる",
+        subtitle = "このメニューを閉じる",
+        keywords = "close exit dismiss esc 閉じる 終了",
+        category = "アプリ",
+    )
 }
 
 object JapaneseNavStrings : NavStrings {
@@ -240,6 +538,8 @@ object JapaneseStatsStrings : StatsStrings {
 
 object JapaneseSearchStrings : SearchStrings {
     override val inputHint: String = "文字・単語・ローマ字・#k #c #name"
+    override val clearInputDescription: String = "検索をクリア"
+    override val radicalsSearchDescription: String = "部首で検索"
     override val charactersTitle: (count: Int) -> String = { "文字 ($it)" }
     override val namesTitle: (count: Int) -> String = { "名前 ($it)" }
     override val wordsTitle: (count: Int) -> String = { "単語 ($it)" }
@@ -258,6 +558,9 @@ object JapaneseAlternativeDialogStrings : AlternativeDialogStrings {
 }
 
 object JapaneseSettingsStrings : SettingsStrings {
+    override val preferencesSection: String = "設定"
+    override val dataSyncSection: String = "データと同期"
+    override val moreSection: String = "その他"
     override val analyticsTitle: String = "分析レポート"
     override val analyticsMessage: String = "アプリを向上させるために匿名データの送信を許可する"
     override val themeTitle: String = "テーマ"
@@ -546,6 +849,8 @@ object JapaneseCommonPracticeStrings : CommonPracticeStrings {
     override val shuffleConfigurationTitle: String = "順序のシャッフル"
     override val shuffleConfigurationMessage: String = "復習順をランダムにする"
     override val configurationCompleteButton: String = "開始"
+    override val kanjiInsightsTitle: String = "漢字の詳細"
+    override val kanjiInsightsMessage: String = "詳細を開く"
 
     override val additionalKanaReadingsNote: (List<String>) -> String = {
         "注：${it.joinToString { "「$it」" }}と書くこともあります"

@@ -294,7 +294,7 @@ private fun InputSection(
                 ) {
                     Icon(
                         imageVector = Icons.Rounded.GridView,
-                        contentDescription = "Radicals",
+                        contentDescription = resolveString { search.radicalsSearchDescription },
                         tint = MaterialTheme.colorScheme.onPrimaryContainer,
                         modifier = Modifier.size(20.dp)
                     )
@@ -351,7 +351,7 @@ private fun InputSection(
                     ) {
                         Icon(
                             imageVector = Icons.Default.Close,
-                            contentDescription = "Clear",
+                            contentDescription = resolveString { search.clearInputDescription },
                             modifier = Modifier.size(16.dp),
                             tint = MaterialTheme.colorScheme.onSurfaceVariant
                         )

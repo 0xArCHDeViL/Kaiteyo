@@ -37,7 +37,7 @@ private fun getTransitionForConfig(
     isForward: Boolean = true
 ): ContentTransform {
     val direction = if (isForward) 1 else -1
-    val duration = if (config.reducedMotion) 0 else config.defaultDuration
+    val duration = tweenDuration(config)
 
     val springFloatSpec: FiniteAnimationSpec<Float> = if (config.reducedMotion) {
         tween(0)

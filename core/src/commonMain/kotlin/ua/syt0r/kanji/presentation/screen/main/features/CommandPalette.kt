@@ -3,14 +3,11 @@ package ua.syt0r.kanji.presentation.screen.main.features
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
-import androidx.compose.animation.scaleIn
-import androidx.compose.animation.scaleOut
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.focusable
-import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -19,20 +16,25 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowForward
+import androidx.compose.material.icons.filled.Clear
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -45,17 +47,18 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.compose.ui.graphics.vector.ImageVector
-import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
-import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
+import androidx.compose.ui.semantics.selected
+import androidx.compose.ui.semantics.semantics
+import kotlinx.coroutines.CancellationException
+import ua.syt0r.kanji.presentation.common.kaiteyoClickable
+import ua.syt0r.kanji.presentation.common.resources.string.resolveString
+import ua.syt0r.kanji.presentation.common.theme.LocalAnimationConfig
 
 // ============================================
 // COMMAND PALETTE
@@ -161,59 +164,55 @@ object KaiteyoPalette {
 
 @Composable
 fun CommandPaletteOverlay(controller: CommandPaletteController = KaiteyoPalette.controller) {
-    val surfaceColors = LocalSurfaceColors.current
-    val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { commandPalette }
+    val animationConfig = LocalAnimationConfig.current
+    val enter = if (animationConfig.reducedMotion) {
+        EnterTransition.None
+    } else {
+        fadeIn()
+    }
+    val exit = if (animationConfig.reducedMotion) {
+        ExitTransition.None
+    } else {
+        fadeOut()
+    }
 
     AnimatedVisibility(
         visible = controller.isOpen,
-        enter = fadeIn(),
-        exit = fadeOut()
+        enter = enter,
+        exit = exit,
     ) {
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color.Black.copy(alpha = Dimens.Alpha.SemiOpaque))
-                .clickable(
-                    interactionSource = remember { MutableInteractionSource() },
-                    indication = null
-                ) { controller.close() },
-            contentAlignment = Alignment.TopCenter
+                .imePadding(),
+            contentAlignment = Alignment.TopCenter,
         ) {
             Box(
                 modifier = Modifier
-                    .padding(top = 96.dp)
-                    .width(600.dp)
-                    .clickable(
-                        interactionSource = remember { MutableInteractionSource() },
-                        indication = null
-                    ) { }
+                    .fillMaxSize()
+                    .background(MaterialTheme.colorScheme.scrim.copy(alpha = Dimens.Alpha.SemiOpaque))
+                    .kaiteyoClickable(
+                        onClick = controller::close,
+                        contentDescription = strings.dismissDescription,
+                    ),
+            )
+            Box(
+                modifier = Modifier
+                    .padding(horizontal = Dimens.Space3, vertical = Dimens.Space3)
+                    .widthIn(max = 600.dp)
+                    .heightIn(max = 680.dp),
             ) {
-                AnimatedVisibility(
-                    visible = true,
-                    enter = scaleIn(initialScale = 0.96f, animationSpec = androidx.compose.animation.core.spring()) + fadeIn(),
-                    exit = scaleOut() + fadeOut()
+                Column(
+                    modifier = Modifier
+                        .background(
+                            color = MaterialTheme.colorScheme.surfaceContainerHigh,
+                            shape = MaterialTheme.shapes.extraLarge,
+                        )
                 ) {
-                    Column(
-                        modifier = Modifier
-                            .clip(RoundedCornerShape(Dimens.RadiusXl))
-                            .background(surfaceColors.surfaceElevated)
-                    ) {
-                        PaletteSearchField(
-                            controller = controller,
-                            accent = accent,
-                            surfaceColors = surfaceColors
-                        )
-                        PaletteResultsList(
-                            controller = controller,
-                            accent = accent,
-                            surfaceColors = surfaceColors
-                        )
-                        PaletteFooter(
-                            controller = controller,
-                            accent = accent,
-                            surfaceColors = surfaceColors
-                        )
-                    }
+                    PaletteSearchField(controller = controller)
+                    PaletteResultsList(controller = controller)
+                    PaletteFooter(strings = strings)
                 }
             }
         }
@@ -221,72 +220,69 @@ fun CommandPaletteOverlay(controller: CommandPaletteController = KaiteyoPalette.
 }
 
 @Composable
-private fun PaletteSearchField(
-    controller: CommandPaletteController,
-    accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme,
-    surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors
-) {
+private fun PaletteSearchField(controller: CommandPaletteController) {
+    val strings = resolveString { commandPalette }
     var text by remember { mutableStateOf("") }
     val focusRequester = remember { FocusRequester() }
 
     LaunchedEffect(controller.isOpen) {
         if (controller.isOpen) {
             text = controller.query
-            runCatching { focusRequester.requestFocus() }
+            try {
+                focusRequester.requestFocus()
+            } catch (cancellation: CancellationException) {
+                throw cancellation
+            } catch (_: IllegalStateException) {
+                // The field can leave composition while the palette closes.
+            }
         }
     }
 
     LaunchedEffect(controller.query) {
-        if (controller.isOpen) text = controller.query
+        if (controller.isOpen && text != controller.query) text = controller.query
     }
 
-    Box(
+    OutlinedTextField(
+        value = text,
+        onValueChange = {
+            text = it
+            controller.updateQuery(it)
+        },
         modifier = Modifier
             .fillMaxWidth()
-            .background(surfaceColors.surfaceInteractive)
             .focusRequester(focusRequester)
-            .focusable()
-            .padding(horizontal = 20.dp, vertical = 16.dp)
-    ) {
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(12.dp)
-        ) {
-            Text(
-                text = "⌘",
-                color = accent.primary,
-                style = androidx.compose.material3.MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold
+            .padding(horizontal = Dimens.Space3, vertical = Dimens.Space2),
+        label = { Text(strings.searchLabel) },
+        leadingIcon = {
+            Icon(
+                imageVector = Icons.Default.Search,
+                contentDescription = null,
             )
-            androidx.compose.foundation.text.BasicTextField(
-                value = text,
-                onValueChange = {
-                    text = it
-                    controller.updateQuery(it)
-                },
-                textStyle = androidx.compose.material3.MaterialTheme.typography.bodyLarge
-                .copy(color = surfaceColors.textPrimary),
-                cursorBrush = androidx.compose.ui.graphics.SolidColor(accent.primary),
-                singleLine = true,
-                modifier = Modifier.weight(1f)
-            )
-            if (controller.query.isNotEmpty()) {
-                Text(
-                    text = "esc",
-                    color = surfaceColors.textMuted,
-                    style = androidx.compose.material3.MaterialTheme.typography.labelSmall
-                )
+        },
+        trailingIcon = if (text.isNotEmpty()) {
+            {
+                IconButton(onClick = { controller.updateQuery("") }) {
+                    Icon(
+                        imageVector = Icons.Default.Clear,
+                        contentDescription = strings.clearQueryDescription,
+                    )
+                }
             }
-        }
-    }
+        } else {
+            null
+        },
+        singleLine = true,
+        supportingText = if (controller.query.isNotEmpty()) {
+            { Text(strings.escapeHint) }
+        } else {
+            null
+        },
+    )
 }
 
 @Composable
-private fun PaletteResultsList(
-    controller: CommandPaletteController,
-    accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme,
-    surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors
-) {
+private fun PaletteResultsList(controller: CommandPaletteController) {
+    val strings = resolveString { commandPalette }
     val listState = rememberLazyListState()
     val filtered = controller.filteredActions
 
@@ -298,21 +294,21 @@ private fun PaletteResultsList(
     Box(
         modifier = Modifier
             .fillMaxWidth()
-            .height(360.dp)
+            .heightIn(min = 80.dp, max = 360.dp)
     ) {
         if (filtered.isEmpty()) {
             Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     Text(
-                        text = "No matches",
-                        color = surfaceColors.textSecondary,
-                        style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
+                        text = strings.emptyTitle,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        style = MaterialTheme.typography.bodyMedium
                     )
                     Spacer(Modifier.height(4.dp))
                     Text(
-                        text = "Try a different search term",
-                        color = surfaceColors.textMuted,
-                        style = androidx.compose.material3.MaterialTheme.typography.bodySmall
+                        text = strings.emptyMessage,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        style = MaterialTheme.typography.bodySmall
                     )
                 }
             }
@@ -328,8 +324,6 @@ private fun PaletteResultsList(
                     PaletteResultItem(
                         action = action,
                         isSelected = index == controller.selectedIndex,
-                        accent = accent,
-                        surfaceColors = surfaceColors,
                         onClick = { action.execute() }
                     )
                 }
@@ -342,30 +336,34 @@ private fun PaletteResultsList(
 private fun PaletteResultItem(
     action: PaletteAction,
     isSelected: Boolean,
-    accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme,
-    surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors,
-    onClick: () -> Unit
+    onClick: () -> Unit,
 ) {
-    Row(
+    Surface(
+        onClick = onClick,
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(Dimens.RadiusMd))
-            .background(
-                if (isSelected) accent.primary.copy(alpha = 0.10f)
-                else Color.Transparent
-            )
-            .clickable { onClick() }
-            .padding(horizontal = 12.dp, vertical = 10.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(12.dp)
+            .heightIn(min = 48.dp)
+            .semantics { selected = isSelected },
+        shape = MaterialTheme.shapes.medium,
+                    color = if (isSelected) {
+            MaterialTheme.colorScheme.secondaryContainer
+        } else {
+            MaterialTheme.colorScheme.surfaceContainerLow
+        },
+
     ) {
+        Row(
+            modifier = Modifier.padding(horizontal = Dimens.Space3, vertical = Dimens.Space2),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(Dimens.Space2),
+        ) {
         Box(
             modifier = Modifier
                 .size(30.dp)
-                .clip(RoundedCornerShape(Dimens.RadiusSm))
                 .background(
-                    if (isSelected) accent.primary.copy(alpha = 0.18f)
-                    else surfaceColors.surfaceInteractive
+                    if (isSelected) MaterialTheme.colorScheme.secondary
+                    else MaterialTheme.colorScheme.surfaceContainerHighest,
+                    shape = MaterialTheme.shapes.small,
                 ),
             contentAlignment = Alignment.Center
         ) {
@@ -373,14 +371,22 @@ private fun PaletteResultItem(
                 Icon(
                     imageVector = action.icon,
                     contentDescription = null,
-                    tint = if (isSelected) accent.primary else surfaceColors.textSecondary,
+                    tint = if (isSelected) {
+                        MaterialTheme.colorScheme.onSecondary
+                    } else {
+                        MaterialTheme.colorScheme.onSurfaceVariant
+                    },
                     modifier = Modifier.size(16.dp)
                 )
             } else {
                 Text(
                     text = action.category.take(1),
-                    color = if (isSelected) accent.primary else surfaceColors.textMuted,
-                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
+                    color = if (isSelected) {
+                        MaterialTheme.colorScheme.onSecondary
+                    } else {
+                        MaterialTheme.colorScheme.onSurfaceVariant
+                    },
+                    style = MaterialTheme.typography.bodySmall,
                     fontWeight = FontWeight.Bold
                 )
             }
@@ -388,8 +394,12 @@ private fun PaletteResultItem(
         Column(Modifier.weight(1f)) {
             Text(
                 text = action.title,
-                color = if (isSelected) accent.primary else surfaceColors.textPrimary,
-                style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
+                color = if (isSelected) {
+                    MaterialTheme.colorScheme.onSecondaryContainer
+                } else {
+                    MaterialTheme.colorScheme.onSurface
+                },
+                style = MaterialTheme.typography.bodyMedium,
                 fontWeight = if (isSelected) FontWeight.Medium else FontWeight.Normal,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
@@ -397,8 +407,9 @@ private fun PaletteResultItem(
             if (action.subtitle.isNotBlank()) {
                 Text(
                     text = action.subtitle,
-                    color = surfaceColors.textMuted,
-                    style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                style = MaterialTheme.typography.bodySmall,
+
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
                 )
@@ -407,36 +418,33 @@ private fun PaletteResultItem(
         if (action.shortcut.isNotBlank()) {
             Text(
                 text = action.shortcut,
-                color = surfaceColors.textMuted,
-                style = androidx.compose.material3.MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                style = MaterialTheme.typography.labelSmall,
                 fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
             )
         }
     }
+    }
 }
 
 @Composable
-private fun PaletteFooter(
-    controller: CommandPaletteController,
-    accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme,
-    surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors
-) {
+private fun PaletteFooter(strings: ua.syt0r.kanji.presentation.common.resources.string.CommandPaletteStrings) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .background(surfaceColors.surface)
-            .padding(horizontal = 16.dp, vertical = 10.dp),
+            .background(MaterialTheme.colorScheme.surfaceContainer)
+            .padding(horizontal = Dimens.Space3, vertical = Dimens.Space2),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(14.dp)
     ) {
-        FooterHint(icon = Icons.Default.KeyboardArrowUp, label = "Up", accent = accent, surfaceColors = surfaceColors)
-        FooterHint(icon = Icons.Default.KeyboardArrowDown, label = "Down", accent = accent, surfaceColors = surfaceColors)
-        FooterHint(icon = Icons.Default.ArrowForward, label = "Enter", accent = accent, surfaceColors = surfaceColors)
+        FooterHint(icon = Icons.Default.KeyboardArrowUp, label = strings.upHint)
+        FooterHint(icon = Icons.Default.KeyboardArrowDown, label = strings.downHint)
+        FooterHint(icon = Icons.Default.ArrowForward, label = strings.enterHint)
         Spacer(Modifier.weight(1f))
         Text(
-            text = "Ctrl+K to open",
-            color = surfaceColors.textMuted,
-            style = androidx.compose.material3.MaterialTheme.typography.labelSmall
+            text = strings.openShortcutHint,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            style = MaterialTheme.typography.labelSmall
         )
     }
 }
@@ -445,16 +453,14 @@ private fun PaletteFooter(
 private fun FooterHint(
     icon: ImageVector,
     label: String,
-    accent: ua.syt0r.kanji.presentation.common.theme.KaiteyoAccentScheme,
-    surfaceColors: ua.syt0r.kanji.presentation.common.theme.SurfaceColors
 ) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
         Icon(
             imageVector = icon,
             contentDescription = null,
-            tint = surfaceColors.textMuted,
+            tint = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.size(14.dp)
         )
-        Text(text = label, color = surfaceColors.textMuted, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
+        Text(text = label, color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelSmall)
     }
 }

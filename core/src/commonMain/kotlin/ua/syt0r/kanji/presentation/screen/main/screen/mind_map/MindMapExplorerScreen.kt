@@ -76,6 +76,8 @@ import ua.syt0r.kanji.core.connected_learning.GraphNodeKind
 import ua.syt0r.kanji.core.connected_learning.LearningGraphConnection
 import ua.syt0r.kanji.core.connected_learning.LearningGraphNode
 import ua.syt0r.kanji.presentation.common.kaiteyoHeading
+import ua.syt0r.kanji.presentation.common.resources.string.MindMapStrings
+import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
 import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
 import ua.syt0r.kanji.presentation.screen.main.MainDestination
@@ -112,6 +114,7 @@ internal fun MindMapExplorerScreen(
     var error by remember(mode) { mutableStateOf<String?>(null) }
     var showCatalog by remember(mode) { mutableStateOf(false) }
     var inspectedNodeKey by remember(mode) { mutableStateOf<String?>(null) }
+    val strings = resolveString { mindMap }
 
     LaunchedEffect(mode, query, offset) {
         delay(180)
@@ -179,49 +182,58 @@ internal fun MindMapExplorerScreen(
                     onOpenCatalog = { showCatalog = true },
                 )
 
-                snapshot == null && graphLoading -> {
-                    CanvasLoadingState()
-                }
+                snapshot == null && graphLoading -> CanvasLoadingState()
 
                 snapshot != null -> {
                     MindMapCanvasSurface(
                         snapshot = snapshot!!,
                         selectedNodeKey = inspectedNodeKey,
                         graphLoading = graphLoading,
-                        onNodeSelected = { node ->
-                            inspectedNodeKey = node.nodeKey.value
-                        },
+                        onNodeSelected = { node -> inspectedNodeKey = node.nodeKey.value },
                         modifier = Modifier.fillMaxSize(),
                     )
-                    snapshot?.let { graph ->
-                        if (inspectedNode != null) {
-                            MindMapInspector(
-                                mode = mode,
-                                node = inspectedNode,
-                                graph = graph,
-                                onOpenKanji = { kanji -> navigationState.navigate(MainDestination.KanjiDetail(kanji)) },
-                                onOpenComponents = {
-                                    if (mode == MindMapExplorerMode.COMPONENTS) {
-                                        inspectedNodeKey = inspectedNode.nodeKey.value
-                                    } else {
-                                        navigationState.navigate(MainDestination.KanjiComponentMindMap)
-                                    }
-                                },
-                                modifier = Modifier
-                                    .align(Alignment.BottomCenter)
-                                    .fillMaxWidth()
-                                    .navigationBarsPadding(),
-                            )
-                        }
-                    }
                 }
             }
 
-            CanvasControlBar(
-                scaleLabel = snapshot?.let { "Graph ${it.nodes.size} nodes" } ?: mode.itemLabel,
-                onOpenCatalog = { showCatalog = true },
-                modifier = Modifier.align(Alignment.BottomCenter).navigationBarsPadding(),
-            )
+            val graph = snapshot
+            if (graph != null && inspectedNode != null) {
+                Column(
+                    modifier = Modifier
+                        .align(Alignment.BottomCenter)
+                        .fillMaxWidth()
+                        .navigationBarsPadding()
+                        .padding(horizontal = 16.dp, vertical = 12.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    MindMapInspector(
+                        mode = mode,
+                        node = inspectedNode,
+                        graph = graph,
+                        onOpenKanji = { kanji -> navigationState.navigate(MainDestination.KanjiDetail(kanji)) },
+                        onOpenComponents = {
+                            if (mode == MindMapExplorerMode.COMPONENTS) {
+                                inspectedNodeKey = inspectedNode.nodeKey.value
+                            } else {
+                                navigationState.navigate(MainDestination.KanjiComponentMindMap)
+                            }
+                        },
+                        modifier = Modifier.fillMaxWidth(),
+                    )
+                    CanvasControlBar(
+                        scaleLabel = "Graph ${graph.nodes.size} nodes",
+                        onOpenCatalog = { showCatalog = true },
+                        modifier = Modifier.fillMaxWidth(),
+                    )
+                }
+            } else {
+                CanvasControlBar(
+                    scaleLabel = graph?.let { strings.graphNodeCount(it.nodes.size) } ?: mode.itemLabel(strings),
+                    onOpenCatalog = { showCatalog = true },
+                    modifier = Modifier
+                        .align(Alignment.BottomCenter)
+                        .navigationBarsPadding(),
+                )
+            }
         }
     }
 
@@ -257,17 +269,18 @@ private fun ExplorerTopBar(
     onOpenCatalog: () -> Unit,
     onClearSelection: () -> Unit,
 ) {
+    val strings = resolveString { mindMap }
     androidx.compose.material3.TopAppBar(
         title = {
             Column {
                 Text(
-                    mode.title,
+                    mode.title(strings),
                     modifier = Modifier.kaiteyoHeading(),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold,
                 )
                 Text(
-                    text = selected?.label?.let { "Whiteboard · $it" } ?: "Canonical connected-learning graph",
+                    text = selected?.label?.let { strings.selectedGraphTitle(it) } ?: strings.canonicalGraphDescription,
                     style = MaterialTheme.typography.labelSmall,
                     color = LocalSurfaceColors.current.textMuted,
                 )
@@ -275,16 +288,16 @@ private fun ExplorerTopBar(
         },
         navigationIcon = {
             IconButton(onClick = onBack) {
-                Icon(Icons.Default.ArrowBack, contentDescription = "Back")
+                Icon(Icons.Default.ArrowBack, contentDescription = strings.backDescription)
             }
         },
         actions = {
             IconButton(onClick = onOpenCatalog) {
-                Icon(Icons.Default.Search, contentDescription = "Open ${mode.itemLabel} catalog")
+                Icon(Icons.Default.Search, contentDescription = strings.openCatalogDescription)
             }
             if (selected != null) {
                 IconButton(onClick = onClearSelection) {
-                    Icon(Icons.Default.Close, contentDescription = "Close graph")
+                    Icon(Icons.Default.Close, contentDescription = strings.clearGraphDescription)
                 }
             }
         },
@@ -298,6 +311,7 @@ private fun EmptyCanvasState(
     error: String?,
     onOpenCatalog: () -> Unit,
 ) {
+    val strings = resolveString { mindMap }
     Box(Modifier.fillMaxSize().padding(24.dp), contentAlignment = Alignment.Center) {
         Surface(
             modifier = Modifier.fillMaxWidth().heightIn(max = 320.dp),
@@ -316,19 +330,19 @@ private fun EmptyCanvasState(
                     modifier = Modifier.size(48.dp),
                 )
                 Text(
-                    text = "Choose a ${mode.singularLabel.lowercase()} to open its whiteboard",
+                    text = strings.chooseItemTitle(mode.singularLabel(strings)),
                     style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.Bold,
                 )
                 Text(
-                    text = "Pan, pinch-zoom, and select canonical nodes. The graph is bounded for stable Android performance.",
+                    text = strings.chooseItemMessage,
                     style = MaterialTheme.typography.bodyMedium,
                     color = LocalSurfaceColors.current.textMuted,
                 )
                 Button(onClick = onOpenCatalog) {
                     Icon(Icons.Default.Search, contentDescription = null)
                     Spacer(Modifier.width(8.dp))
-                    Text("Open catalog")
+                    Text(strings.openCatalogButton)
                 }
                 if (loading) LinearProgressIndicator(Modifier.fillMaxWidth())
                 error?.let {
@@ -359,23 +373,25 @@ private fun CatalogSheetContent(
     onLoadMore: () -> Unit,
 ) {
     val colors = LocalSurfaceColors.current
+    val strings = resolveString { mindMap }
+    val itemLabel = mode.itemLabel(strings)
     Column(
         modifier = Modifier
             .fillMaxWidth()
             .heightIn(min = 220.dp, max = 680.dp)
             .padding(horizontal = 16.dp)
-            .semantics { paneTitle = "${mode.title} catalog" },
+            .semantics { paneTitle = strings.catalogTitle(mode.title(strings)) },
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
                 Text(
-                    "${mode.title} catalog",
+                    strings.catalogTitle(mode.title(strings)),
                     modifier = Modifier.kaiteyoHeading(),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold,
                 )
-                Text("Select a root to render its graph", color = colors.textMuted, style = MaterialTheme.typography.bodySmall)
+                Text(strings.catalogSubtitle, color = colors.textMuted, style = MaterialTheme.typography.bodySmall)
             }
             Icon(Icons.Default.Tune, contentDescription = null, tint = LocalKaiteyoAccent.current.primary)
         }
@@ -388,11 +404,11 @@ private fun CatalogSheetContent(
             trailingIcon = {
                 if (query.isNotEmpty()) {
                     IconButton(onClick = { onQueryChange("") }) {
-                        Icon(Icons.Default.Close, contentDescription = "Clear search")
+                        Icon(Icons.Default.Close, contentDescription = strings.clearSearchDescription)
                     }
                 }
             },
-            placeholder = { Text("Search ${mode.itemLabel}") },
+            placeholder = { Text(strings.searchPlaceholder(itemLabel)) },
         )
         if (loading && page == null) LinearProgressIndicator(Modifier.fillMaxWidth())
         error?.let {
@@ -401,7 +417,7 @@ private fun CatalogSheetContent(
             }
         }
         Text(
-            text = page?.let { "${it.totalCount} ${mode.itemLabel.lowercase()}" } ?: "Loading catalog…",
+            text = page?.let { strings.totalItems(it.totalCount, itemLabel) } ?: strings.loadingCatalog,
             color = colors.textMuted,
             style = MaterialTheme.typography.labelMedium,
         )
@@ -411,7 +427,7 @@ private fun CatalogSheetContent(
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             if (page?.items.isNullOrEmpty() && !loading) {
-                item { Text("No ${mode.itemLabel.lowercase()} match this search.", color = colors.textMuted) }
+                item { Text(strings.noMatches(itemLabel), color = colors.textMuted) }
             } else {
                 items(page?.items.orEmpty(), key = { it.key }) { item ->
                     CatalogItemRow(item = item, selected = item.key == selectedKey, onClick = { onSelect(item) })
@@ -421,7 +437,7 @@ private fun CatalogSheetContent(
                         TextButton(onClick = onLoadMore, modifier = Modifier.fillMaxWidth()) {
                             Icon(Icons.Default.ExpandMore, contentDescription = null)
                             Spacer(Modifier.width(4.dp))
-                            Text("Load more")
+                            Text(strings.loadMore)
                         }
                     }
                 }
@@ -434,12 +450,13 @@ private fun CatalogSheetContent(
 private fun CatalogItemRow(item: MindMapCatalogItem, selected: Boolean, onClick: () -> Unit) {
     val colors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { mindMap }
     Surface(
         modifier = Modifier
             .fillMaxWidth()
             .clip(MaterialTheme.shapes.medium)
             .semantics(mergeDescendants = true) {
-                contentDescription = "${item.label}, ${item.relatedKanjiCount} connected Kanji"
+                contentDescription = "${item.label}, ${strings.connectedKanjiCount(item.relatedKanjiCount)}"
                 role = Role.Button
             }
             .then(Modifier),
@@ -465,9 +482,8 @@ private fun CatalogItemRow(item: MindMapCatalogItem, selected: Boolean, onClick:
                 Text(item.label, color = colors.textPrimary, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                 Text(
                     buildString {
-                        append(item.relatedKanjiCount)
-                        append(" connected Kanji")
-                        item.strokeCount?.let { append(" · $it strokes") }
+                        append(strings.connectedKanjiCount(item.relatedKanjiCount))
+                        item.strokeCount?.let { append(" · ${strings.strokeCount(it)}") }
                     },
                     color = colors.textMuted,
                     style = MaterialTheme.typography.bodySmall,
@@ -488,6 +504,7 @@ private fun MindMapCanvasSurface(
     val density = LocalDensity.current
     val colors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { mindMap }
     val outlineColor = MaterialTheme.colorScheme.outline
     val visibleNodes = remember(snapshot) {
         snapshot.nodes
@@ -525,7 +542,7 @@ private fun MindMapCanvasSurface(
                     .clipToBounds()
                     .background(colors.surface)
                     .semantics {
-                        contentDescription = "Interactive mind map whiteboard. Drag to pan and pinch to zoom."
+                        contentDescription = strings.canvasDescription
                     }
                     .pointerInput(snapshot.rootKey, widthPx, heightPx) {
                         detectTransformGestures { centroid, panChange, zoomChange, _ ->
@@ -596,7 +613,7 @@ private fun MindMapCanvasSurface(
                         }
                         .size(nodeSize)
                         .semantics(mergeDescendants = true) {
-                            contentDescription = "${nodeLabel(node)}, ${node.kind.name.lowercase()} node"
+                            contentDescription = strings.nodeDescription(nodeLabel(node), node.kind.shortLabel)
                             role = Role.Button
                         },
                 )
@@ -630,6 +647,7 @@ private fun CanvasNode(
 ) {
     val colors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { mindMap }
     val background = when {
         selected -> accent.primary.copy(alpha = 0.28f)
         root -> accent.primary.copy(alpha = 0.18f)
@@ -676,6 +694,7 @@ private fun CanvasZoomControls(
     onFit: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
+    val strings = resolveString { mindMap }
     Surface(
         modifier = modifier,
         color = LocalSurfaceColors.current.surfaceElevated.copy(alpha = 0.94f),
@@ -683,10 +702,10 @@ private fun CanvasZoomControls(
         tonalElevation = 3.dp,
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            IconButton(onClick = onZoomOut) { Icon(Icons.Default.Remove, contentDescription = "Zoom out") }
+            IconButton(onClick = onZoomOut) { Icon(Icons.Default.Remove, contentDescription = strings.zoomOutDescription) }
             Text("${(scale * 100).roundToInt()}%", style = MaterialTheme.typography.labelMedium)
-            IconButton(onClick = onZoomIn) { Icon(Icons.Default.Add, contentDescription = "Zoom in") }
-            IconButton(onClick = onFit) { Icon(Icons.Default.FitScreen, contentDescription = "Fit graph") }
+            IconButton(onClick = onZoomIn) { Icon(Icons.Default.Add, contentDescription = strings.zoomInDescription) }
+            IconButton(onClick = onFit) { Icon(Icons.Default.FitScreen, contentDescription = strings.fitGraphDescription) }
         }
     }
 }
@@ -700,11 +719,13 @@ private fun MindMapInspector(
     onOpenComponents: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    val colors = LocalSurfaceColors.current
+        val colors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { mindMap }
     Surface(
-        modifier = modifier.padding(horizontal = 16.dp, vertical = 76.dp),
+        modifier = modifier,
         color = colors.surfaceElevated.copy(alpha = 0.97f),
+
         shape = MaterialTheme.shapes.extraLarge,
         tonalElevation = 4.dp,
     ) {
@@ -715,14 +736,18 @@ private fun MindMapInspector(
         ) {
             if (node == null) {
                 Column(Modifier.weight(1f)) {
-                    Text("Select a node", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-                    Text("Tap any node to inspect its canonical identity", color = colors.textMuted, style = MaterialTheme.typography.bodySmall)
+                    Text(strings.selectNodeTitle, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                    Text(strings.selectNodeMessage, color = colors.textMuted, style = MaterialTheme.typography.bodySmall)
                 }
             } else {
                 Column(Modifier.weight(1f)) {
                     Text(nodeLabel(node), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                     Text(
-                        "${node.kind.shortLabel} · depth ${node.depth} · ${graph.connections.count { it.fromNodeId == node.nodeId || it.toNodeId == node.nodeId }} connections",
+                        strings.connectedNodeSummary(
+                            node.kind.shortLabel,
+                            node.depth.toString(),
+                            graph.connections.count { it.fromNodeId == node.nodeId || it.toNodeId == node.nodeId },
+                        ),
                         color = colors.textMuted,
                         style = MaterialTheme.typography.bodySmall,
                     )
@@ -731,11 +756,11 @@ private fun MindMapInspector(
                 when {
                     node.kind == GraphNodeKind.KANJI && node.kanji != null -> {
                         TextButton(onClick = { onOpenKanji(node.kanji) }) {
-                            Text("Details", color = accent.primary)
+                            Text(strings.detailsButton)
                         }
                     }
                     node.kind == GraphNodeKind.COMPONENT && mode == MindMapExplorerMode.RADICALS -> {
-                        TextButton(onClick = onOpenComponents) { Text("Components", color = accent.primary) }
+                        TextButton(onClick = onOpenComponents) { Text(strings.componentsButton) }
                     }
                 }
             }
@@ -749,6 +774,7 @@ private fun CanvasControlBar(
     onOpenCatalog: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
+    val strings = resolveString { mindMap }
     Surface(
         modifier = modifier.padding(horizontal = 16.dp, vertical = 16.dp),
         color = LocalSurfaceColors.current.surfaceElevated.copy(alpha = 0.96f),
@@ -758,7 +784,7 @@ private fun CanvasControlBar(
         TextButton(onClick = onOpenCatalog, modifier = Modifier.height(48.dp)) {
             Icon(Icons.Default.Search, contentDescription = null)
             Spacer(Modifier.width(8.dp))
-            Text("Choose root · $scaleLabel")
+            Text(strings.chooseRoot(scaleLabel))
         }
     }
 }
@@ -843,20 +869,17 @@ private val GraphNodeKind.shortLabel: String
         GraphNodeKind.GRAMMAR -> "grammar"
     }
 
-private val MindMapExplorerMode.title: String
-    get() = when (this) {
-        MindMapExplorerMode.RADICALS -> "Radical mind map"
-        MindMapExplorerMode.COMPONENTS -> "Kanji component mind map"
-    }
+private fun MindMapExplorerMode.title(strings: MindMapStrings): String = when (this) {
+    MindMapExplorerMode.RADICALS -> strings.radicalsTitle
+    MindMapExplorerMode.COMPONENTS -> strings.componentsTitle
+}
 
-private val MindMapExplorerMode.itemLabel: String
-    get() = when (this) {
-        MindMapExplorerMode.RADICALS -> "radicals"
-        MindMapExplorerMode.COMPONENTS -> "components"
-    }
+private fun MindMapExplorerMode.itemLabel(strings: MindMapStrings): String = when (this) {
+    MindMapExplorerMode.RADICALS -> strings.radicalsLabel
+    MindMapExplorerMode.COMPONENTS -> strings.componentsLabel
+}
 
-private val MindMapExplorerMode.singularLabel: String
-    get() = when (this) {
-        MindMapExplorerMode.RADICALS -> "Radical"
-        MindMapExplorerMode.COMPONENTS -> "Kanji component"
-    }
+private fun MindMapExplorerMode.singularLabel(strings: MindMapStrings): String = when (this) {
+    MindMapExplorerMode.RADICALS -> strings.radicalsTitle
+    MindMapExplorerMode.COMPONENTS -> strings.componentsTitle
+}

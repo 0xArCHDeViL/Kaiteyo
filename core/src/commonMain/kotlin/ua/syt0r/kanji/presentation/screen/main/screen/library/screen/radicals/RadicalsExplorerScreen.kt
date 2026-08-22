@@ -43,6 +43,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.snap
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsHoveredAsState
@@ -58,6 +59,11 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.selected
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
@@ -67,6 +73,9 @@ import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.launch
 import ua.syt0r.kanji.core.app_data.data.RadicalData
 import ua.syt0r.kanji.presentation.common.theme.Dimens
+import ua.syt0r.kanji.presentation.common.kaiteyoTouchTarget
+import ua.syt0r.kanji.presentation.common.resources.string.resolveString
+import ua.syt0r.kanji.presentation.common.theme.LocalAnimationConfig
 import ua.syt0r.kanji.presentation.common.theme.LocalKaiteyoAccent
 import ua.syt0r.kanji.presentation.common.theme.LocalSurfaceColors
 import ua.syt0r.kanji.presentation.common.ui.LocalOrientation
@@ -90,6 +99,8 @@ fun RadicalsExplorerScreen(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val strings = resolveString { kanjiBrowser }
+    val animationConfig = LocalAnimationConfig.current
     val scope = rememberCoroutineScope()
 
     var allRadicals by remember { mutableStateOf<List<RadicalData>>(emptyList()) }
@@ -138,7 +149,8 @@ fun RadicalsExplorerScreen(
         Surface(
             modifier = Modifier.fillMaxWidth(),
             color = surfaceColors.surfaceElevated,
-            shadowElevation = 4.dp
+                                        tonalElevation = 3.dp
+
         ) {
             Column(
                 modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
@@ -149,7 +161,8 @@ fun RadicalsExplorerScreen(
                     horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)
                 ) {
                     IconButton(onClick = onBack) {
-                        Icon(imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = surfaceColors.textPrimary)
+                                                    Icon(imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = strings.navigateUpDescription, tint = surfaceColors.textPrimary)
+
                     }
 
                     Column(modifier = Modifier.weight(1f)) {
@@ -179,6 +192,11 @@ fun RadicalsExplorerScreen(
                         Surface(
                             modifier = Modifier
                                 .clip(CircleShape)
+                                .kaiteyoTouchTarget()
+                                .semantics {
+                                    role = Role.Button
+                                    contentDescription = strings.clearSelection
+                                }
                                 .clickable { selectedRadicals = emptySet() },
                             color = accent.primary.copy(alpha = Dimens.Alpha.Light)
                         ) {
@@ -363,6 +381,7 @@ private fun RadicalsMatrixGrid(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val animationConfig = LocalAnimationConfig.current
 
     Column(modifier = Modifier.fillMaxSize().padding(Dimens.Space2)) {
         Row(
@@ -406,9 +425,15 @@ private fun RadicalsMatrixGrid(
                             scaleX = scale
                             scaleY = scale
                         }
-                        .clip(RoundedCornerShape(Dimens.RadiusMd))
+                        .clip(MaterialTheme.shapes.medium)
                         .background(if (isHovered && !isSelected) surfaceColors.surfaceInteractive else bgColor)
-                        .border(1.dp, borderColor, RoundedCornerShape(Dimens.RadiusMd))
+                        .border(1.dp, borderColor, MaterialTheme.shapes.medium)
+                        .kaiteyoTouchTarget()
+                        .semantics {
+                            role = Role.Checkbox
+                            selected = isSelected
+                            contentDescription = "${radicalData.radical}, ${radicalData.strokesCount} strokes"
+                        }
                         .clickable(
                             interactionSource = interactionSource,
                             indication = LocalIndication.current
@@ -442,6 +467,7 @@ private fun MatchingKanjiResultsPanel(
 ) {
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
+    val animationConfig = LocalAnimationConfig.current
 
     Column(modifier = Modifier.fillMaxSize().padding(Dimens.Space2)) {
         Row(
@@ -503,7 +529,7 @@ private fun MatchingKanjiResultsPanel(
                     
                     val scale by animateFloatAsState(
                         targetValue = if (isPressed) 0.90f else if (isHovered) 1.05f else 1f,
-                        animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy)
+                        animationSpec = if (animationConfig.reducedMotion) snap() else spring(dampingRatio = Spring.DampingRatioMediumBouncy),
                     )
 
                     Surface(
@@ -513,8 +539,13 @@ private fun MatchingKanjiResultsPanel(
                                 scaleX = scale
                                 scaleY = scale
                             }
-                            .clip(RoundedCornerShape(Dimens.RadiusMd))
-                            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Subtle), RoundedCornerShape(Dimens.RadiusMd))
+                            .clip(MaterialTheme.shapes.medium)
+                            .border(1.dp, surfaceColors.border.copy(alpha = Dimens.Alpha.Subtle), MaterialTheme.shapes.medium)
+                            .kaiteyoTouchTarget()
+                            .semantics {
+                                role = Role.Button
+                                contentDescription = kanji
+                            }
                             .clickable(
                                 interactionSource = interactionSource,
                                 indication = LocalIndication.current

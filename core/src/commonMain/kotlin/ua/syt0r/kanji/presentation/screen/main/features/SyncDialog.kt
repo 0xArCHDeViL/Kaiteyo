@@ -4,7 +4,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -17,16 +17,16 @@ import androidx.compose.material.icons.outlined.CloudDownload
 import androidx.compose.material.icons.outlined.CloudSync
 import androidx.compose.material.icons.outlined.CloudUpload
 import androidx.compose.material.icons.outlined.SyncProblem
-import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -34,8 +34,6 @@ import ua.syt0r.kanji.core.ApiRequestIssue
 import ua.syt0r.kanji.core.sync.SyncConflictResolveStrategy
 import ua.syt0r.kanji.core.sync.SyncDataDiffType
 import ua.syt0r.kanji.presentation.common.MultiplatformDialog
-import ua.syt0r.kanji.presentation.common.clickable
-import ua.syt0r.kanji.presentation.common.copyCentered
 import ua.syt0r.kanji.presentation.common.resources.string.resolveString
 import ua.syt0r.kanji.presentation.common.theme.Dimens
 import ua.syt0r.kanji.presentation.screen.main.SyncDialogState
@@ -119,7 +117,8 @@ fun SyncDialog(
                     DialogButton(
                         onClick = { resolveConflict(SyncConflictResolveStrategy.UploadLocal) },
                         imageVector = Icons.Outlined.CloudUpload,
-                        label = strings.buttonUpload
+                        label = strings.buttonUpload,
+                        primary = true,
                     )
                 }
 
@@ -132,7 +131,8 @@ fun SyncDialog(
                     DialogButton(
                         onClick = { resolveConflict(SyncConflictResolveStrategy.DownloadRemote) },
                         imageVector = Icons.Outlined.CloudDownload,
-                        label = strings.buttonDownload
+                        label = strings.buttonDownload,
+                        primary = true,
                     )
                 }
                 DialogButton(
@@ -160,8 +160,8 @@ fun SyncDialog(
                     }
 
                     ApiRequestIssue.NotAuthenticated -> {
-                        title = strings.errorNoNetworkTitle
-                        message = strings.errorNoNetworkMessage
+                        title = strings.errorNotAuthenticatedTitle
+                        message = strings.errorNotAuthenticatedMessage
                     }
 
                     is ApiRequestIssue.Other -> {
@@ -208,7 +208,8 @@ fun SyncDialog(
                 DialogButton(
                     onClick = { resolveConflict(SyncConflictResolveStrategy.UploadLocal) },
                     imageVector = Icons.Outlined.CloudUpload,
-                    label = strings.buttonUpload
+                    label = strings.buttonUpload,
+                    primary = true,
                 )
                 DialogButton(
                     onClick = cancelSync,
@@ -220,7 +221,7 @@ fun SyncDialog(
     }
 
     MultiplatformDialog(
-        onDismissRequest = {},
+        onDismissRequest = cancelSync,
         title = { Text(strings.title) },
         content = {
             Column(
@@ -236,30 +237,28 @@ fun SyncDialog(
 
 }
 
-@OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
 private fun DialogButton(
     onClick: () -> Unit,
     imageVector: ImageVector,
-    label: String
+    label: String,
+    primary: Boolean = false,
 ) {
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(MaterialTheme.shapes.medium)
-            .clickable(onClick)
-            .padding(horizontal = Dimens.Space3, vertical = Dimens.Space3),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(Dimens.Space2)
-    ) {
-        Icon(
-            imageVector = imageVector,
-            contentDescription = null
+    val content: @Composable RowScope.() -> Unit = {
+        Icon(imageVector = imageVector, contentDescription = null)
+        Text(text = label)
+    }
+    if (primary) {
+        FilledTonalButton(
+            onClick = onClick,
+            modifier = Modifier.fillMaxWidth(),
+            content = content,
         )
-        Text(
-            text = label,
-            modifier = Modifier,
-            style = MaterialTheme.typography.labelLarge.copyCentered()
+    } else {
+        TextButton(
+            onClick = onClick,
+            modifier = Modifier.fillMaxWidth(),
+            content = content,
         )
     }
 }
@@ -282,10 +281,10 @@ private fun LoadingLayout(
             modifier = Modifier.size(60.dp),
             tint = MaterialTheme.colorScheme.onSurface
         )
-        androidx.compose.material.LinearProgressIndicator(
+        LinearProgressIndicator(
+            modifier = Modifier.fillMaxWidth(),
             color = MaterialTheme.colorScheme.primary,
-            backgroundColor = MaterialTheme.colorScheme.surfaceVariant,
-            strokeCap = StrokeCap.Round
+            trackColor = MaterialTheme.colorScheme.surfaceContainerHighest,
         )
         Text(message)
     }

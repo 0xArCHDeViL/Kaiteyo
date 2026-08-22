@@ -88,7 +88,243 @@ interface Strings {
     val reminderNotification: ReminderNotificationStrings
 
     val nav: NavStrings
+    val commandPalette: CommandPaletteStrings
+    val kanjiBrowser: KanjiBrowserStrings
+    val mindMap: MindMapStrings
+    val collections: CollectionsStrings
+    val library: LibraryStrings
 
+}
+
+data class CommandPaletteActionCopy(
+    val title: String,
+    val subtitle: String,
+    val keywords: String,
+    val category: String,
+)
+
+interface CommandPaletteActionStrings {
+    val kanjiBrowser: CommandPaletteActionCopy
+    val radicalMindMap: CommandPaletteActionCopy
+    val kanjiComponentMap: CommandPaletteActionCopy
+    val collections: CommandPaletteActionCopy
+    val connectedLearning: CommandPaletteActionCopy
+    val favorites: CommandPaletteActionCopy
+    val flaggedKanji: CommandPaletteActionCopy
+    val difficultKanji: CommandPaletteActionCopy
+    val frequentlyFailed: CommandPaletteActionCopy
+    val cardManager: CommandPaletteActionCopy
+    val statistics: CommandPaletteActionCopy
+    val closePalette: CommandPaletteActionCopy
+}
+
+interface CommandPaletteStrings {
+    val emptyTitle: String
+    val emptyMessage: String
+    val escapeHint: String
+    val upHint: String
+    val downHint: String
+    val enterHint: String
+    val openShortcutHint: String
+    val clearQueryDescription: String
+    val searchLabel: String
+    val dismissDescription: String
+    val actions: CommandPaletteActionStrings
+}
+
+interface KanjiBrowserStrings {
+    val title: String
+    val detail: KanjiDetailStrings
+    val navigateUpDescription: String
+    val selectionModeDescription: String
+    val selectionModeActiveDescription: String
+    val showFiltersDescription: String
+    val hideFiltersDescription: String
+    val showRadicalsDescription: String
+    val hideRadicalsDescription: String
+    val switchToListDescription: String
+    val switchToGridDescription: String
+    val searchLabel: String
+    val clearSearchDescription: String
+    val filtersTitle: String
+    val resetFilters: String
+    val selectedCount: (Int) -> String
+    val flagAction: String
+    val tagAction: String
+    val favoriteAction: String
+    val resetProgressAction: String
+    val clearSelection: String
+    val loadingMessage: String
+    val noKanjiFound: String
+    val adjustFiltersMessage: String
+    val searchPrompt: String
+    val clearFilters: String
+    val radicalSearchTitle: String
+    val radicalSelectedCount: (Int) -> String
+    val clearRadicals: String
+    val allStrokes: String
+    val jlptFilter: String
+    val gradeFilter: String
+    val statusFilter: String
+    val flagsFilter: String
+    val strokesFilter: String
+    val frequencyFilter: String
+    val sortFilter: String
+    val difficultySort: String
+    val lastReviewedSort: String
+    val kanjiSort: String
+    val minLabel: String
+    val maxLabel: String
+    val anyValue: String
+    val decreaseValueDescription: String
+    val increaseValueDescription: String
+    val noMeaning: String
+    val setFlagTitle: String
+    val noFlag: String
+    val tagsTitle: String
+    val newTagNamePlaceholder: String
+    val createButton: String
+    val cancelButton: String
+    val strokeCount: (Int) -> String
+    val difficultyWarning: String
+}
+
+interface KanjiDetailStrings {
+    val headerLabel: String
+    val loadingMessage: String
+    val loadErrorMessage: String
+    val notFoundMessage: String
+    val retryButton: String
+    val meaningTitle: String
+    val noMeaningMessage: String
+    val onYomiTitle: String
+    val onYomiSubtitle: String
+    val kunYomiTitle: String
+    val kunYomiSubtitle: String
+    val noOnYomiMessage: String
+    val noKunYomiMessage: String
+    val stopReadingDescription: (String) -> String
+    val playOnReadingDescription: (String) -> String
+    val collapseReadings: String
+    val showAllReadings: (Int) -> String
+    val writingTitle: String
+    val writingSubtitle: String
+    val strokeCount: (Int) -> String
+    val frequencyLabel: (Int) -> String
+    val practiceWritingButton: String
+    val writingExplanation: String
+    val componentsTitle: String
+    val noComponentsMessage: String
+    val componentStrokeCount: (Int) -> String
+    val whiteboardTitle: String
+    val whiteboardSubtitle: String
+    val whiteboardExplanation: String
+    val openWhiteboardButton: String
+    val vocabularyTitle: String
+    val vocabularySubtitle: String
+    val noVocabularyMessage: String
+    val learningStatusTitle: String
+    val inWritingReview: String
+    val notReviewed: String
+    val difficultLabel: String
+}
+
+interface LibraryStrings {
+    val title: String
+    val availableCards: (Int) -> String
+    val hubDescription: String
+    val offlineIndexReady: String
+    val preparingTitle: String
+    val preparingMessage: String
+    val errorTitle: String
+    val errorMessage: String
+    val retryButton: String
+    val studySection: String
+    val smartListsSection: String
+    val kanjiTitle: String
+    val kanjiSubtitle: String
+    val kanjiDecksTitle: String
+    val kanjiDecksSubtitle: String
+    val vocabularyTitle: String
+    val vocabularySubtitle: String
+    val grammarTitle: String
+    val grammarSubtitle: String
+    val radicalsTitle: String
+    val radicalsSubtitle: String
+    val radicalMapTitle: String
+    val radicalMapSubtitle: String
+    val componentMapTitle: String
+    val componentMapSubtitle: String
+    val customCollectionsTitle: String
+    val customCollectionsSubtitle: String
+    val favoritesTitle: String
+    val favoritesSubtitle: String
+    val pinnedTitle: String
+    val pinnedSubtitle: String
+    val recentlyLearnedTitle: String
+    val recentlyLearnedSubtitle: String
+    val allSmartListsTitle: String
+    val allSmartListsSubtitle: String
+    val kanjiStatLabel: String
+    val favoritesStatLabel: String
+    val reviewsStatLabel: String
+    val tagsStatLabel: String
+}
+
+interface CollectionsStrings {
+    val title: String
+    val availableCards: (Int) -> String
+    val smartSectionTitle: String
+    val tagSectionTitle: String
+    val customSectionTitle: String
+    val noTagsMessage: String
+    val noCustomMessage: String
+    val autoGeneratedLabel: String
+    val customLabel: String
+    val tagLabel: String
+    val flagLabel: String
+    val backDescription: String
+    val openInBrowser: String
+    val emptyMessage: String
+    val cardCount: (Int) -> String
+    val smartName: (String) -> String
+}
+
+interface MindMapStrings {
+    val radicalsTitle: String
+    val componentsTitle: String
+    val radicalsLabel: String
+    val componentsLabel: String
+    val backDescription: String
+    val openCatalogDescription: String
+    val clearGraphDescription: String
+    val selectedGraphTitle: (String) -> String
+    val canonicalGraphDescription: String
+    val canvasDescription: String
+    val chooseItemTitle: (String) -> String
+    val chooseItemMessage: String
+    val openCatalogButton: String
+    val catalogTitle: (String) -> String
+    val catalogSubtitle: String
+    val clearSearchDescription: String
+    val searchPlaceholder: (String) -> String
+    val loadingCatalog: String
+    val totalItems: (Int, String) -> String
+    val noMatches: (String) -> String
+    val loadMore: String
+    val graphNodeCount: (Int) -> String
+    val selectNodeTitle: String
+    val selectNodeMessage: String
+    val connectedNodeSummary: (String, String, Int) -> String
+    val connectedKanjiCount: (Int) -> String
+    val strokeCount: (Int) -> String
+    val nodeDescription: (String, String) -> String
+    val detailsButton: String
+    val componentsButton: String
+    val zoomOutDescription: String
+    val zoomInDescription: String
+    val fitGraphDescription: String
+    val chooseRoot: (String) -> String
 }
 
 interface NavStrings {
@@ -313,6 +549,8 @@ interface StatsStrings {
 
 interface SearchStrings {
     val inputHint: String
+    val clearInputDescription: String
+    val radicalsSearchDescription: String
     val charactersTitle: (count: Int) -> String
     val namesTitle: (count: Int) -> String
     val wordsTitle: (count: Int) -> String
@@ -331,6 +569,9 @@ interface AlternativeDialogStrings {
 }
 
 interface SettingsStrings {
+    val preferencesSection: String
+    val dataSyncSection: String
+    val moreSection: String
     val analyticsTitle: String
     val analyticsMessage: String
 
@@ -555,6 +796,8 @@ interface CommonPracticeStrings {
     val shuffleConfigurationTitle: String
     val shuffleConfigurationMessage: String
     val configurationCompleteButton: String
+    val kanjiInsightsTitle: String
+    val kanjiInsightsMessage: String
 
     val additionalKanaReadingsNote: (List<String>) -> String
 
