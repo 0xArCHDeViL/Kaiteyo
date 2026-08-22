@@ -389,33 +389,43 @@ class KaiteyoDataCenter(
         mode: MindMapExplorerMode,
         key: String,
         limit: Int = 256,
-    ): List<LearningGraphNode> = learningGraphRepository.getNeighborhood(
-        rootNodeKey = ConnectedNodeKey.from(ConnectedEntityKey.Component(key.removePrefix("component:"))),
-        maxDepth = 2,
-        edgeKinds = setOf(
+    ): MindMapGraphSnapshot {
+        val component = when (mode) {
+            MindMapExplorerMode.RADICALS -> key
+            MindMapExplorerMode.COMPONENTS -> key.removePrefix("component:")
+        }
+        val rootKey = ConnectedNodeKey.from(ConnectedEntityKey.Component(component))
+        val edgeKinds = setOf(
             GraphEdgeKind.COMPOSED_OF,
             GraphEdgeKind.RELATED_BY_COMPONENT,
             GraphEdgeKind.HAS_READING,
             GraphEdgeKind.HAS_VOCABULARY,
-        ),
-        limit = limit,
-    )
+        )
+        val nodes = learningGraphRepository.getNeighborhood(
+            rootNodeKey = rootKey,
+            maxDepth = 2,
+            edgeKinds = edgeKinds,
+            limit = limit,
+        ).distinctBy { it.nodeKey.value }
+        val nodeIds = nodes.map { it.nodeId }.toSet()
+        val connections = learningGraphRepository.getEdgesFromNodes(
+            nodeIds = nodeIds,
+            edgeKinds = edgeKinds,
+            limit = (limit * 4).coerceAtMost(2_048),
+        ).filter { connection ->
+            connection.fromNodeId in nodeIds && connection.toNodeId in nodeIds
+        }.distinctBy { connection ->
+            Triple(connection.fromNodeId, connection.toNodeId, connection.edgeKind)
+        }
+        return MindMapGraphSnapshot(
+            rootKey = rootKey.value,
+            nodes = nodes,
+            connections = connections,
+        )
+    }
 
     suspend fun loadKanjiDetail(kanji: String): KanjiDetailData? =
         appDataRepository.getKanjiDetail(kanji)
-
-    suspend fun loadKanjiGraph(kanji: String): List<LearningGraphNode> =
-        learningGraphRepository.getNeighborhood(
-            rootNodeKey = ConnectedNodeKey.from(ConnectedEntityKey.Kanji(kanji)),
-            maxDepth = 2,
-            edgeKinds = setOf(
-                GraphEdgeKind.COMPOSED_OF,
-                GraphEdgeKind.HAS_READING,
-                GraphEdgeKind.HAS_VOCABULARY,
-                GraphEdgeKind.RELATED_BY_COMPONENT,
-            ),
-            limit = 128,
-        )
 
     suspend fun loadCharactersWithRadicals(radicals: Set<String>): Set<String> {
         val result = appDataRepository.getCharactersWithRadicals(radicals.toList())

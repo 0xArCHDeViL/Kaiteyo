@@ -508,27 +508,35 @@ WITH Glosses AS (
     WHERE sense.entry_id IN :entryIds
     GROUP BY sense.entry_id
 )
-SELECT 'KANJI' AS element_kind,
-       element.entry_id,
-       element.element_id,
-       element.reading,
-       COALESCE(glosses.glosses, '') AS glosses,
-       COALESCE(part_of_speech.part_of_speech, '') AS part_of_speech
-FROM vocab_kanji_element AS element
-LEFT JOIN Glosses AS glosses ON glosses.entry_id = element.entry_id
-LEFT JOIN PartOfSpeech AS part_of_speech ON part_of_speech.entry_id = element.entry_id
-WHERE element.entry_id IN :entryIds
-UNION ALL
-SELECT 'KANA' AS element_kind,
-       element.entry_id,
-       element.element_id,
-       element.reading,
-       COALESCE(glosses.glosses, '') AS glosses,
-       COALESCE(part_of_speech.part_of_speech, '') AS part_of_speech
-FROM vocab_kana_element AS element
-LEFT JOIN Glosses AS glosses ON glosses.entry_id = element.entry_id
-LEFT JOIN PartOfSpeech AS part_of_speech ON part_of_speech.entry_id = element.entry_id
-WHERE element.entry_id IN :entryIds
+SELECT element_kind,
+       entry_id,
+       element_id,
+       reading,
+       glosses,
+       part_of_speech
+FROM (
+    SELECT 'KANJI' AS element_kind,
+           element.entry_id,
+           element.element_id,
+           element.reading,
+           COALESCE(glosses.glosses, '') AS glosses,
+           COALESCE(part_of_speech.part_of_speech, '') AS part_of_speech
+    FROM vocab_kanji_element AS element
+    LEFT JOIN Glosses AS glosses ON glosses.entry_id = element.entry_id
+    LEFT JOIN PartOfSpeech AS part_of_speech ON part_of_speech.entry_id = element.entry_id
+    WHERE element.entry_id IN :entryIds
+    UNION ALL
+    SELECT 'KANA' AS element_kind,
+           element.entry_id,
+           element.element_id,
+           element.reading,
+           COALESCE(glosses.glosses, '') AS glosses,
+           COALESCE(part_of_speech.part_of_speech, '') AS part_of_speech
+    FROM vocab_kana_element AS element
+    LEFT JOIN Glosses AS glosses ON glosses.entry_id = element.entry_id
+    LEFT JOIN PartOfSpeech AS part_of_speech ON part_of_speech.entry_id = element.entry_id
+    WHERE element.entry_id IN :entryIds
+) AS connected_elements
 ORDER BY entry_id, element_kind, element_id;
 
 getVocabSensesWithDetails:

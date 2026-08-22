@@ -13,6 +13,7 @@ import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -25,6 +26,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextAlign
 import ua.syt0r.kanji.core.app_data.data.FuriganaString
+import ua.syt0r.kanji.core.app_data.data.FuriganaStringCompound
 import ua.syt0r.kanji.presentation.common.copyCentered
 import kotlin.math.max
 
@@ -40,10 +42,11 @@ fun FuriganaText(
 
     val coloredTextStyle = textStyle.copy(color)
     val coloredAnnotationStyle = annotationTextStyle.copy(color)
+    val renderableFurigana = remember(furiganaString) { furiganaString.toRenderableFuriganaString() }
 
     BasicText(
-        text = getFuriganaAnnotatedString(furiganaString),
-        inlineContent = getInlineContent(furiganaString, coloredTextStyle, coloredAnnotationStyle),
+        text = getFuriganaAnnotatedString(renderableFurigana),
+        inlineContent = getInlineContent(renderableFurigana, coloredTextStyle, coloredAnnotationStyle),
         style = coloredTextStyle,
         modifier = modifier
     )
@@ -62,11 +65,12 @@ fun ClickableFuriganaText(
 
     val coloredTextStyle = textStyle.copy(color)
     val coloredAnnotationStyle = annotationTextStyle.copy(color)
+    val renderableFurigana = remember(furiganaString) { furiganaString.toRenderableFuriganaString() }
 
     BasicText(
-        text = getFuriganaAnnotatedString(furiganaString),
+        text = getFuriganaAnnotatedString(renderableFurigana),
         inlineContent = getInlineContent(
-            furiganaString = furiganaString,
+            furiganaString = renderableFurigana,
             contentTextStyle = coloredTextStyle,
             annotationTextStyle = coloredAnnotationStyle,
             inlineContent = { text, annotation ->
@@ -87,10 +91,23 @@ fun ClickableFuriganaText(
 
 private const val ZeroWidthSpace = "\u200B"
 
+internal fun FuriganaString.toRenderableFuriganaString(): FuriganaString =
+    FuriganaString(
+        compounds = compounds.mapNotNull { compound ->
+            val annotation = compound.annotation?.takeUnless { it.isBlank() }
+            when {
+                compound.text.isNotBlank() -> compound.copy(annotation = annotation)
+                !annotation.isNullOrEmpty() -> FuriganaStringCompound(text = annotation)
+                compound.text.isNotEmpty() -> FuriganaStringCompound(text = compound.text)
+                else -> null
+            }
+        }
+    )
+
 private fun getFuriganaAnnotatedString(furiganaString: FuriganaString): AnnotatedString {
     return buildAnnotatedString {
         furiganaString.compounds.forEachIndexed { index, furigana ->
-            if (furigana.annotation == null) {
+            if (furigana.annotation.isNullOrBlank() || furigana.text.isEmpty()) {
                 append(furigana.text)
             } else {
                 /*
@@ -125,7 +142,9 @@ private fun getInlineContent(
     return furiganaString.compounds.asSequence()
         .mapIndexed { index, furiganaAnnotatedCharacter ->
             val annotation = furiganaAnnotatedCharacter.annotation
+                ?.takeUnless { it.isBlank() }
                 ?: return@mapIndexed index to null
+            if (furiganaAnnotatedCharacter.text.isEmpty()) return@mapIndexed index to null
 
             val textMeasures = AnnotatedString(furiganaAnnotatedCharacter.text)
                 .let { textMeasurer.measure(it, contentTextStyle) }

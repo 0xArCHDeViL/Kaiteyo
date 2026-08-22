@@ -66,6 +66,11 @@ kotlin {
                 implementation(kotlin("test"))
             }
         }
+        val androidUnitTest by getting {
+            dependencies {
+                implementation(libs.sqldelight.jvm.sqlite.driver)
+            }
+        }
         val androidMain by getting {
             dependencies {
                 implementation(libs.sqldelight.android.driver)

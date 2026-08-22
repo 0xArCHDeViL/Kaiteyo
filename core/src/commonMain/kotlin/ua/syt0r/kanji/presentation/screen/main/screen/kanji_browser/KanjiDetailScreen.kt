@@ -69,11 +69,9 @@ import ua.syt0r.kanji.core.app_data.data.JapaneseWord
 import ua.syt0r.kanji.core.app_data.data.KanjiDetailData
 import ua.syt0r.kanji.core.app_data.data.KanjiReadingData
 import ua.syt0r.kanji.core.app_data.data.ReadingType
-import ua.syt0r.kanji.core.connected_learning.GraphNodeKind
 import ua.syt0r.kanji.core.tts.AppTtsManager
 import ua.syt0r.kanji.core.tts.JapaneseSpeechContext
 import ua.syt0r.kanji.core.tts.JapaneseSpeechRequest
-import ua.syt0r.kanji.core.connected_learning.LearningGraphNode
 import ua.syt0r.kanji.presentation.common.ScreenLetterPracticeType
 import ua.syt0r.kanji.presentation.common.ui.kanji.Kanji
 import ua.syt0r.kanji.presentation.common.ui.kanji.parseKanjiStrokes
@@ -97,7 +95,6 @@ fun KanjiDetailScreen(
     val surfaceColors = LocalSurfaceColors.current
     val accent = LocalKaiteyoAccent.current
     var detail by remember(kanji) { mutableStateOf<KanjiDetailData?>(null) }
-    var graph by remember(kanji) { mutableStateOf<List<LearningGraphNode>>(emptyList()) }
     var loading by remember(kanji) { mutableStateOf(true) }
     var error by remember(kanji) { mutableStateOf(false) }
     var retryToken by remember(kanji) { mutableStateOf(0) }
@@ -114,13 +111,11 @@ fun KanjiDetailScreen(
         error = false
         try {
             detail = dataCenter.loadKanjiDetail(kanji)
-            graph = dataCenter.loadKanjiGraph(kanji)
         } catch (cancellation: kotlinx.coroutines.CancellationException) {
             throw cancellation
         } catch (_: Throwable) {
             error = true
             detail = null
-            graph = emptyList()
         } finally {
             loading = false
         }
@@ -160,7 +155,6 @@ fun KanjiDetailScreen(
             detail == null -> DetailErrorState(message = "Kanji not found in the application data pack", surfaceColors = surfaceColors, accent = accent)
             else -> KanjiDetailContent(
                 detail = detail!!,
-                graph = graph,
                 dataCenter = dataCenter,
                 navigationState = navigationState,
                 speakingOnReading = speakingOnReading,
@@ -190,7 +184,6 @@ fun KanjiDetailScreen(
 @Composable
 private fun KanjiDetailContent(
     detail: KanjiDetailData,
-    graph: List<LearningGraphNode>,
     dataCenter: KaiteyoDataCenter,
     navigationState: MainNavigationState,
     speakingOnReading: String?,
@@ -200,11 +193,6 @@ private fun KanjiDetailContent(
     val accent = LocalKaiteyoAccent.current
     val onReadings = detail.onReadings
     val kunReadings = detail.kunReadings
-    val componentNodes = graph.filter { it.kind == GraphNodeKind.COMPONENT }
-    val relatedKanjiNodes = graph.filter { it.kind == GraphNodeKind.KANJI && it.kanji != detail.kanji }
-    val vocabularyNodes = graph.filter {
-        it.kind == GraphNodeKind.VOCABULARY_ELEMENT || it.kind == GraphNodeKind.LEGACY_VOCABULARY_ENTRY
-    }
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
@@ -258,16 +246,8 @@ private fun KanjiDetailContent(
             ComponentSection(detail.radicals)
         }
         item {
-            KanjiMindMapSection(
-                root = detail.kanji,
-                componentNodes = componentNodes,
-                relatedKanjiNodes = relatedKanjiNodes,
-                vocabularyNodes = vocabularyNodes,
-                onNodeClick = { node ->
-                    node.kanji?.let { target ->
-                        navigationState.navigate(MainDestination.KanjiDetail(target))
-                    }
-                },
+            WhiteboardLinkSection(
+                onOpenLearningMap = { navigationState.navigate(MainDestination.ConnectedLearning("kanji:${detail.kanji}")) },
             )
         }
         item {
@@ -473,90 +453,21 @@ private fun ComponentSection(radicals: List<CharacterRadical>) {
 }
 
 @Composable
-private fun KanjiMindMapSection(
-    root: String,
-    componentNodes: List<LearningGraphNode>,
-    relatedKanjiNodes: List<LearningGraphNode>,
-    vocabularyNodes: List<LearningGraphNode>,
-    onNodeClick: (LearningGraphNode) -> Unit,
-) {
-    DetailSection(title = "Mind map", icon = Icons.Default.AccountTree, subtitle = "Canonical connected-learning relationships") {
-        val groups = listOf(
-            "Components" to componentNodes,
-            "Related Kanji" to relatedKanjiNodes,
-            "Vocabulary connections" to vocabularyNodes,
-        ).filter { it.second.isNotEmpty() }
-        if (groups.isEmpty()) {
-            Text("No bounded graph connections are available for this Kanji.", color = LocalSurfaceColors.current.textMuted)
-        } else {
-            val accent = LocalKaiteyoAccent.current
-            Box(Modifier.fillMaxWidth().height((100 + groups.size * 130).dp)) {
-                androidx.compose.foundation.Canvas(Modifier.fillMaxSize()) {
-                    val centerX = size.width / 2f
-                    val rootY = 62.dp.toPx()
-                    val firstGroupY = 104.dp.toPx()
-                    drawLine(
-                        color = accent.primary.copy(alpha = 0.35f),
-                        start = androidx.compose.ui.geometry.Offset(centerX, rootY),
-                        end = androidx.compose.ui.geometry.Offset(centerX, firstGroupY),
-                        strokeWidth = 2.dp.toPx(),
-                    )
-                    groups.indices.drop(1).forEach { index ->
-                        val y = firstGroupY + index * 72.dp.toPx()
-                        drawLine(
-                            color = accent.primary.copy(alpha = 0.25f),
-                            start = androidx.compose.ui.geometry.Offset(centerX, y - 30.dp.toPx()),
-                            end = androidx.compose.ui.geometry.Offset(centerX, y),
-                            strokeWidth = 2.dp.toPx(),
-                        )
-                    }
-                }
-                Column(
-                    Modifier.fillMaxWidth().padding(top = 8.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.spacedBy(10.dp),
-                ) {
-                    MindMapNode(label = root, kind = "KANJI", emphasized = true, onClick = {})
-                    groups.forEach { (title, nodes) ->
-                        MindMapGroup(title, nodes, onNodeClick)
-                    }
-                }
-            }
-        }
-    }
-}
-
-@Composable
-private fun MindMapGroup(title: String, nodes: List<LearningGraphNode>, onNodeClick: (LearningGraphNode) -> Unit) {
-    val visible = nodes.distinctBy { it.nodeKey.value }.take(24)
-    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-        Text(title, color = LocalSurfaceColors.current.textMuted, style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.SemiBold)
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            visible.forEach { node ->
-                val label = node.kanji ?: node.reading ?: node.nodeKey.value.substringAfter(':')
-                MindMapNode(label = label, kind = node.kind.name, emphasized = false) {
-                    onNodeClick(node)
-                }
-            }
-        }
-        if (nodes.size > visible.size) {
-            Text("${nodes.size - visible.size} more connections available in the bounded graph.", color = LocalSurfaceColors.current.textMuted, style = MaterialTheme.typography.labelSmall)
-        }
-    }
-}
-
-@Composable
-private fun MindMapNode(label: String, kind: String, emphasized: Boolean, onClick: () -> Unit) {
-    val surfaceColors = LocalSurfaceColors.current
-    val accent = LocalKaiteyoAccent.current
-    Surface(
-        modifier = Modifier.clip(RoundedCornerShape(Dimens.RadiusMd)).clickable(onClick = onClick),
-        color = if (emphasized) accent.primary.copy(alpha = 0.18f) else surfaceColors.surfaceInteractive,
-        shape = RoundedCornerShape(Dimens.RadiusMd),
+private fun WhiteboardLinkSection(onOpenLearningMap: () -> Unit) {
+    DetailSection(
+        title = "Connected whiteboard",
+        icon = Icons.Default.AccountTree,
+        subtitle = "Explore canonical relationships on an interactive canvas",
     ) {
-        Column(Modifier.padding(horizontal = 12.dp, vertical = 8.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-            Text(label, color = if (emphasized) accent.primary else surfaceColors.textPrimary, fontSize = if (emphasized) 34.sp else 21.sp, fontWeight = if (emphasized) FontWeight.Bold else FontWeight.Normal)
-            Text(kind, color = surfaceColors.textMuted, style = MaterialTheme.typography.labelSmall)
+        Text(
+            "The full graph is rendered on a pannable, zoomable whiteboard so every connection stays spatially meaningful.",
+            color = LocalSurfaceColors.current.textMuted,
+            style = MaterialTheme.typography.bodyMedium,
+        )
+        Button(onClick = onOpenLearningMap, modifier = Modifier.fillMaxWidth()) {
+            Icon(Icons.Default.AccountTree, contentDescription = null)
+            Spacer(Modifier.width(8.dp))
+            Text("Open whiteboard")
         }
     }
 }
